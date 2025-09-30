@@ -17,7 +17,7 @@
 - [创伤后应激障碍（PTSD）](entries/诊断与临床/创伤后应激障碍.md)
 - [复杂性创伤后应激障碍（CPTSD）](entries/诊断与临床/复杂性创伤后应激障碍.md)
 - [孤独症谱系（ASD）](entries/诊断与临床/孤独症谱系.md)
-- [抑郁障碍（MDD）](entries/诊断与临床/抑郁障碍.md)
+- [抑郁障碍（Depressive Disorders）](entries/诊断与临床/抑郁障碍.md)
 - [强迫症（OCD）](entries/诊断与临床/强迫症.md)
 - [解离性身份障碍（DID）](entries/诊断与临床/解离性身份障碍.md)
 - [其他特定解离性障碍（OSDD）](entries/诊断与临床/其他特定解离性障碍.md)
