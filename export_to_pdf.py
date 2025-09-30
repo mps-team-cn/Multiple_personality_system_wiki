@@ -9,6 +9,7 @@ import subprocess
 import sys
 import tempfile
 from dataclasses import dataclass
+
 from pathlib import Path
 
 
@@ -36,6 +37,7 @@ class PandocExportError(RuntimeError):
     stderr: str
 
 
+
 def check_requirements(pandoc_cmd: str) -> None:
     """Ensure that the external tools required by the script are available."""
 
@@ -43,6 +45,7 @@ def check_requirements(pandoc_cmd: str) -> None:
         raise SystemExit(
             f"未找到 `{pandoc_cmd}` 可执行文件。请先安装 Pandoc 后再运行此脚本。"
         )
+
 
 
 def detect_pdf_engine(preferred: str | None) -> str | None:
@@ -60,6 +63,7 @@ def detect_pdf_engine(preferred: str | None) -> str | None:
             return candidate
 
     return None
+
 
 
 def collect_markdown_paths(include_readme: bool) -> list[Path]:
@@ -151,7 +155,7 @@ def parse_arguments() -> argparse.Namespace:
     parser.add_argument(
         "--pdf-engine",
         default=None,
-        help="Pandoc 使用的 PDF 引擎 (例如 xelatex)。留空则自动检测已安装的引擎。",
+        help="Pandoc 使用的 PDF 引擎 (例如 xelatex)。留空则使用 Pandoc 默认配置。",
     )
     parser.add_argument(
         "--toc-depth",
@@ -180,7 +184,6 @@ def main() -> None:
             "- [Tectonic](https://tectonic-typesetting.github.io/)\n"
             "安装完成后可通过 `python export_to_pdf.py --pdf-engine xelatex` 指定所需的引擎。"
         )
-
     markdown_paths = collect_markdown_paths(include_readme=not args.no_readme)
     if not markdown_paths:
         raise SystemExit("没有找到可以导出的 Markdown 文件。")
@@ -202,7 +205,6 @@ def main() -> None:
         if error.stderr:
             message.append("Pandoc 输出:\n" + error.stderr)
         raise SystemExit("\n".join(message)) from None
-
 
 if __name__ == "__main__":
     try:
