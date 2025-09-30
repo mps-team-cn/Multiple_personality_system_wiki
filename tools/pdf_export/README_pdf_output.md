@@ -1,9 +1,9 @@
-# 导出为 PDF
-
-要将整个 wiki 导出为带封面、目录的 PDF，请运行 `tools/pdf_export/export_to_pdf.py` 脚本：
+要将整个 wiki 导出为带封面、目录的 PDF，请运行 `tools/pdf_export/export_to_pdf.py` 脚本，或进入模块目录后直接通过包入口执行：
 
 ```bash
 python tools/pdf_export/export_to_pdf.py
+# 或者
+cd tools/pdf_export && python -m pdf_export
 ```
 
 脚本会自动：
@@ -26,7 +26,6 @@ python tools/pdf_export/export_to_pdf.py
 ```bash
 python tools/pdf_export/export_to_pdf.py --cjk-font "Noto Serif CJK SC"
 python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei" # Windows
-py tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei"
 ```
 
 脚本会自动检测上述常见引擎，如果缺失会提示安装方式。也可以通过 `--pdf-engine` 参数显式指定要使用的引擎，例如：
@@ -45,6 +44,7 @@ python tools/pdf_export/export_to_pdf.py --pdf-engine xelatex
 
 - 若不需要封面，可以添加 `--no-cover`。
 - `--cover-title`、`--cover-subtitle`、`--cover-date` 可覆盖封面的默认文字。
+- `--cover-footer` 用于自定义封面底部的“plurality_wiki 项目”字样，传入空字符串即可移除该行。
 - 目录页会根据 README 的分组与词条自动生成，默认不再展示各词条内部的小节标题。
 
 如需进一步自定义输出文件名或其他设置，可执行 `python tools/pdf_export/export_to_pdf.py --help` 查看全部参数。
