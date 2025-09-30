@@ -130,6 +130,8 @@ def export_pdf(
             command,
             check=False,
             text=True,
+            encoding="utf-8",
+            errors="replace",
             capture_output=True,
         )
         if result.returncode != 0:
