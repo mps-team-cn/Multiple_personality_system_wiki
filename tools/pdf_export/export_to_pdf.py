@@ -22,6 +22,7 @@ from typing import Sequence, Tuple
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 ENTRIES_DIR = PROJECT_ROOT / "entries"
 README_PATH = PROJECT_ROOT / "README.md"
+IGNORE_FILE_PATH = PROJECT_ROOT / "ignore.md"
 
 DEFAULT_PDF_ENGINES = [
     "xelatex",
@@ -55,6 +56,24 @@ class PandocExportError(RuntimeError):
 
 
 CategoryStructure = Sequence[Tuple[str, Sequence[Path]]]
+
+
+@dataclass(frozen=True)
+class IgnoreRules:
+    files: frozenset[Path]
+    directories: frozenset[Path]
+
+    def matches(self, path: Path) -> bool:
+        """Return ``True`` if ``path`` should be skipped when exporting."""
+
+        resolved = path.resolve()
+        if resolved in self.files:
+            return True
+
+        return any(
+            resolved == directory or resolved.is_relative_to(directory)
+            for directory in self.directories
+        )
 
 
 def check_requirements(pandoc_cmd: str) -> None:
@@ -108,7 +127,35 @@ def detect_cjk_font() -> str | None:
     return None
 
 
-def parse_readme_index(readme_path: Path) -> CategoryStructure:
+def load_ignore_rules(path: Path) -> IgnoreRules:
+    """Load ignore rules from ``ignore.md`` similar to a tiny subset of .gitignore."""
+
+    if not path.exists():
+        return IgnoreRules(files=frozenset(), directories=frozenset())
+
+    files: set[Path] = set()
+    directories: set[Path] = set()
+
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#"):
+            continue
+
+        candidate = Path(line)
+        if not candidate.is_absolute():
+            candidate = (PROJECT_ROOT / candidate).resolve()
+        else:
+            candidate = candidate.resolve()
+
+        if line.endswith("/") or candidate.is_dir():
+            directories.add(candidate)
+        else:
+            files.add(candidate)
+
+    return IgnoreRules(files=frozenset(files), directories=frozenset(directories))
+
+
+def parse_readme_index(readme_path: Path, ignore: IgnoreRules) -> CategoryStructure:
     """Parse README.md to determine the desired export order."""
 
     if not readme_path.exists():
@@ -135,6 +182,8 @@ def parse_readme_index(readme_path: Path) -> CategoryStructure:
         if link_match := link_pattern.match(raw_line):
             rel_path = link_match.group("path").strip()
             candidate = (PROJECT_ROOT / rel_path).resolve()
+            if ignore.matches(candidate):
+                continue
             if candidate.exists() and candidate.suffix.lower() == ".md":
                 current_category[1].append(candidate)
             else:
@@ -147,10 +196,10 @@ def parse_readme_index(readme_path: Path) -> CategoryStructure:
     return [(title, tuple(paths)) for title, paths in categories if paths]
 
 
-def collect_markdown_structure() -> CategoryStructure:
+def collect_markdown_structure(ignore: IgnoreRules) -> CategoryStructure:
     """Collect markdown files following the README index order."""
 
-    categories = list(parse_readme_index(README_PATH))
+    categories = list(parse_readme_index(README_PATH, ignore))
     return tuple(categories)
 
 
@@ -375,9 +424,15 @@ def parse_arguments() -> argparse.Namespace:
         help="优先用于中文内容的字体名称。例如 `Noto Serif CJK SC`。",
     )
     parser.add_argument(
-        "--no-readme",
+        "--include-readme",
         action="store_true",
-        help="导出时不包含 README.md",
+        help="导出时包含 README.md (默认根据 ignore.md 忽略)",
+    )
+    parser.add_argument(
+        "--ignore-file",
+        type=Path,
+        default=IGNORE_FILE_PATH,
+        help="自定义忽略列表文件路径 (默认: 项目根目录下的 ignore.md)",
     )
     parser.add_argument(
         "--no-cover",
@@ -417,14 +472,15 @@ def main() -> None:
         )
     cjk_font = args.cjk_font.strip() if args.cjk_font else detect_cjk_font()
 
-    structure = collect_markdown_structure()
+    ignore_rules = load_ignore_rules(args.ignore_file)
+    structure = collect_markdown_structure(ignore_rules)
     if not structure:
         raise SystemExit("没有找到可以导出的 Markdown 文件。")
 
     cover_date = args.cover_date.strip() if args.cover_date else datetime.date.today().isoformat()
     combined_markdown = build_combined_markdown(
         structure=structure,
-        include_readme=not args.no_readme,
+        include_readme=args.include_readme or not ignore_rules.matches(README_PATH),
         include_cover=not args.no_cover,
         cover_title=args.cover_title,
         cover_subtitle=args.cover_subtitle.strip() if args.cover_subtitle else None,
