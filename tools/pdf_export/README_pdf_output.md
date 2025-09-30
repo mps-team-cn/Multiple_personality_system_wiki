@@ -25,6 +25,7 @@ python tools/pdf_export/export_to_pdf.py
 ```bash
 python tools/pdf_export/export_to_pdf.py --cjk-font "Noto Serif CJK SC"
 python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei" # Windows
+py tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei"
 ```
 
 脚本会自动检测上述常见引擎，如果缺失会提示安装方式。也可以通过 `--pdf-engine` 参数显式指定要使用的引擎，例如：
@@ -33,7 +34,7 @@ python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Micro
 python tools/pdf_export/export_to_pdf.py --pdf-engine xelatex
 ```
 
-### 封面与目录选项
+## 封面与目录选项
 
 - 若不需要封面，可以添加 `--no-cover`。
 - `--cover-title`、`--cover-subtitle`、`--cover-date` 可覆盖封面的默认文字。
