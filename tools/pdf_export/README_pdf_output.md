@@ -9,9 +9,10 @@ python tools/pdf_export/export_to_pdf.py
 脚本会自动：
 
 1. 读取 `README.md` 中的目录结构，确保 PDF 的目录页与 README 保持一致；
-2. 生成独立的封面页与目录页；
-3. 收集 `entries/` 目录下在 README 中列出的 Markdown 文件并按顺序合并；
-4. 调用 [Pandoc](https://pandoc.org/) 生成排好版的 `plurality_wiki.pdf`。
+2. 若 `README.md` 未提供目录（或被忽略掉），脚本会自动按 `entries/` 下的实际目录与文件构建一个后备目录结构；
+3. 生成独立的封面页与目录页；
+4. 收集 README 或后备目录中列出的 Markdown 文件并按顺序合并；
+5. 调用 [Pandoc](https://pandoc.org/) 生成排好版的 `plurality_wiki.pdf`。
 
 运行脚本前，请确保：
 
@@ -37,7 +38,7 @@ python tools/pdf_export/export_to_pdf.py --pdf-engine xelatex
 ## 忽略指定文件
 
 - 项目根目录下的 `ignore.md` 用于维护一个导出时需要排除的文件或目录列表，支持以 `#` 开头的注释与空行；
-- 默认已经忽略了 `README.md`，如果需要包含它，只需从 `ignore.md` 中移除对应行，或运行脚本时添加 `--include-readme`；
+- 默认已经忽略了 `README.md`，这不会影响目录的生成；如果需要将其正文一并导出，只需从 `ignore.md` 中移除对应行，或运行脚本时添加 `--include-readme`；
 - 也可以通过 `--ignore-file` 参数指定其他忽略列表文件。
 
 ## 封面与目录选项

@@ -200,7 +200,38 @@ def collect_markdown_structure(ignore: IgnoreRules) -> CategoryStructure:
     """Collect markdown files following the README index order."""
 
     categories = list(parse_readme_index(README_PATH, ignore))
-    return tuple(categories)
+    if categories:
+        return tuple(categories)
+
+    fallback_categories: list[tuple[str, list[Path]]] = []
+
+    if ENTRIES_DIR.exists():
+        # Markdown files placed directly under ``entries/`` without a
+        # subdirectory are grouped under a synthetic "未分组条目" section so they
+        # still appear in the export output.
+        ungrouped = [
+            path
+            for path in sorted(ENTRIES_DIR.glob("*.md"))
+            if not ignore.matches(path)
+        ]
+        if ungrouped:
+            fallback_categories.append(("未分组条目", ungrouped))
+
+        for directory in sorted(ENTRIES_DIR.iterdir()):
+            if not directory.is_dir():
+                continue
+            if ignore.matches(directory):
+                continue
+
+            files = [
+                path
+                for path in sorted(directory.rglob("*.md"))
+                if not ignore.matches(path)
+            ]
+            if files:
+                fallback_categories.append((directory.name, files))
+
+    return tuple(fallback_categories)
 
 
 def infer_entry_title(path: Path) -> str:
