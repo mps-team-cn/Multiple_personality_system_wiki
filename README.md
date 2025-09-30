@@ -84,6 +84,7 @@ python export_to_pdf.py
 
 ```bash
 python export_to_pdf.py --cjk-font "Noto Serif CJK SC"
+python export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei" # windows
 ```
 
 脚本会自动检测上述常见引擎，如果缺失会提示安装方式。也可以通过 `--pdf-engine` 参数显式指定要使用的引擎，例如：
