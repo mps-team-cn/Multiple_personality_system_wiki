@@ -208,23 +208,29 @@ def escape_latex(text: str) -> str:
 def build_cover_page(title: str, subtitle: str | None, date_text: str | None) -> str:
     """Return a standalone cover page using LaTeX's titlepage environment."""
 
+    def _format_line(size_command: str, text: str) -> str:
+        """Render ``text`` inside a LaTeX sizing command."""
+
+        escaped = escape_latex(text.strip())
+        return f"{{{size_command} {escaped}\\par}}"
+
     lines = [
         "\\begin{titlepage}",
         "\\centering",
         "\\vspace*{3cm}",
-        f"{{\\Huge {escape_latex(title.strip())} \\}}",
+        _format_line("\\Huge", title),
     ]
 
     if subtitle:
         lines.extend([
             "\\vspace{1.5cm}",
-            f"{{\\Large {escape_latex(subtitle.strip())} \\}}",
+            _format_line("\\Large", subtitle),
         ])
 
     if date_text:
         lines.extend([
             "\\vfill",
-            f"{{\\large {escape_latex(date_text.strip())} \\}}",
+            _format_line("\\large", date_text),
         ])
 
     lines.extend([
