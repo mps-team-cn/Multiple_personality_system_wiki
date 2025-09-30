@@ -15,7 +15,11 @@ from pathlib import Path
 from typing import Sequence, Tuple
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+# ``export_to_pdf.py`` lives under ``tools/pdf_export`` while the markdown
+# sources we want to bundle are located in the repository root.  Move two
+# levels up so ``PROJECT_ROOT`` points to the project directory instead of the
+# ``tools`` folder.
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 ENTRIES_DIR = PROJECT_ROOT / "entries"
 README_PATH = PROJECT_ROOT / "README.md"
 
