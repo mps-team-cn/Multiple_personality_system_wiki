@@ -8,6 +8,8 @@ import shutil
 import subprocess
 import sys
 import tempfile
+from dataclasses import dataclass
+
 from pathlib import Path
 
 
@@ -22,6 +24,19 @@ CATEGORY_ORDER = [
     "实践与支持",
 ]
 
+DEFAULT_PDF_ENGINES = [
+    "xelatex",
+    "tectonic",
+    "pdflatex",
+]
+
+
+@dataclass
+class PandocExportError(RuntimeError):
+    command: list[str]
+    stderr: str
+
+
 
 def check_requirements(pandoc_cmd: str) -> None:
     """Ensure that the external tools required by the script are available."""
@@ -30,6 +45,25 @@ def check_requirements(pandoc_cmd: str) -> None:
         raise SystemExit(
             f"未找到 `{pandoc_cmd}` 可执行文件。请先安装 Pandoc 后再运行此脚本。"
         )
+
+
+
+def detect_pdf_engine(preferred: str | None) -> str | None:
+    """Find an available PDF engine for Pandoc, if any."""
+
+    if preferred:
+        if shutil.which(preferred) is None:
+            raise SystemExit(
+                f"未找到指定的 PDF 引擎 `{preferred}`。请确认其已安装或改用其他引擎。"
+            )
+        return preferred
+
+    for candidate in DEFAULT_PDF_ENGINES:
+        if shutil.which(candidate):
+            return candidate
+
+    return None
+
 
 
 def collect_markdown_paths(include_readme: bool) -> list[Path]:
@@ -92,7 +126,16 @@ def export_pdf(
         command.extend(["--pdf-engine", pdf_engine])
 
     try:
-        subprocess.run(command, check=True)
+        result = subprocess.run(
+            command,
+            check=False,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            capture_output=True,
+        )
+        if result.returncode != 0:
+            raise PandocExportError(command=command, stderr=result.stderr.strip())
     finally:
         temp_path.unlink(missing_ok=True)
 
@@ -135,6 +178,14 @@ def main() -> None:
     args = parse_arguments()
     check_requirements(args.pandoc)
 
+    pdf_engine = detect_pdf_engine(args.pdf_engine)
+    if pdf_engine is None:
+        raise SystemExit(
+            "未找到可用的 PDF 引擎。请安装以下任意工具后重试:\n"
+            "- TeX Live、MiKTeX 等 TeX 发行版 (提供 xelatex 或 pdflatex)\n"
+            "- [Tectonic](https://tectonic-typesetting.github.io/)\n"
+            "安装完成后可通过 `python export_to_pdf.py --pdf-engine xelatex` 指定所需的引擎。"
+        )
     markdown_paths = collect_markdown_paths(include_readme=not args.no_readme)
     if not markdown_paths:
         raise SystemExit("没有找到可以导出的 Markdown 文件。")
@@ -147,13 +198,15 @@ def main() -> None:
             output_path=args.output,
             pandoc_cmd=args.pandoc,
             toc_depth=args.toc_depth,
-            pdf_engine=args.pdf_engine,
+            pdf_engine=pdf_engine,
         )
-    except subprocess.CalledProcessError as error:
-        raise SystemExit(
-            "Pandoc 转换失败，请检查 Pandoc 是否安装完整并确认 PDF 引擎可用。"
-        ) from error
-
+    except PandocExportError as error:
+        message = [
+            "Pandoc 转换失败，请检查 Pandoc 是否安装完整并确认 PDF 引擎可用。",
+        ]
+        if error.stderr:
+            message.append("Pandoc 输出:\n" + error.stderr)
+        raise SystemExit("\n".join(message)) from None
 
 if __name__ == "__main__":
     try:
