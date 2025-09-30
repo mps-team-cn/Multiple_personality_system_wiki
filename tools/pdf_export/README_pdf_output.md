@@ -11,7 +11,7 @@ python tools/pdf_export/export_to_pdf.py
 1. 读取 `README.md` 中的目录结构，确保 PDF 的目录页与 README 保持一致；
 2. 若 `README.md` 未提供目录（或被忽略掉），脚本会自动按 `entries/` 下的实际目录与文件构建一个后备目录结构；
 3. 生成独立的封面页与目录页；
-4. 收集 README 或后备目录中列出的 Markdown 文件并按顺序合并；
+4. 收集 README 或后备目录中列出的 Markdown 文件并按顺序合并，同时在 PDF 中为每个 Markdown 文件单独开启新页面；
 5. 调用 [Pandoc](https://pandoc.org/) 生成排好版的 `plurality_wiki.pdf`。
 
 运行脚本前，请确保：

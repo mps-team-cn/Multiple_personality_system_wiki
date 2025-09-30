@@ -365,12 +365,14 @@ def build_combined_markdown(
         parts.append(README_PATH.read_text(encoding="utf-8").strip())
         parts.append("\n\n\\newpage\n")
 
-    for index, (category_title, paths) in enumerate(structure):
-        if index > 0:
-            parts.append("\\newpage\n")
-
-        parts.append(f"# {category_title}\n")
+    first_entry = True
+    for category_title, paths in structure:
         for path in paths:
+            if not first_entry:
+                parts.append("\n\\newpage\n")
+            first_entry = False
+
+            parts.append(f"# {category_title}\n")
             relative = path.relative_to(PROJECT_ROOT)
             content = path.read_text(encoding="utf-8")
             shifted = shift_heading_levels(content, offset=1)
