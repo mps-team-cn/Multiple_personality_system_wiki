@@ -185,6 +185,26 @@ def shift_heading_levels(markdown: str, offset: int) -> str:
     return pattern.sub(_replace, markdown)
 
 
+LATEX_SPECIAL_CHARS = {
+    "\\": r"\textbackslash{}",
+    "{": r"\{",
+    "}": r"\}",
+    "$": r"\$",
+    "&": r"\&",
+    "#": r"\#",
+    "_": r"\_",
+    "%": r"\%",
+    "~": r"\textasciitilde{}",
+    "^": r"\textasciicircum{}",
+}
+
+
+def escape_latex(text: str) -> str:
+    """Escape LaTeX special characters in ``text``."""
+
+    return "".join(LATEX_SPECIAL_CHARS.get(ch, ch) for ch in text)
+
+
 def build_cover_page(title: str, subtitle: str | None, date_text: str | None) -> str:
     """Return a standalone cover page using LaTeX's titlepage environment."""
 
@@ -192,19 +212,19 @@ def build_cover_page(title: str, subtitle: str | None, date_text: str | None) ->
         "\\begin{titlepage}",
         "\\centering",
         "\\vspace*{3cm}",
-        f"{{\\Huge {title.strip()} \\}}",
+        f"{{\\Huge {escape_latex(title.strip())} \\}}",
     ]
 
     if subtitle:
         lines.extend([
             "\\vspace{1.5cm}",
-            f"{{\\Large {subtitle.strip()} \\}}",
+            f"{{\\Large {escape_latex(subtitle.strip())} \\}}",
         ])
 
     if date_text:
         lines.extend([
             "\\vfill",
-            f"{{\\large {date_text.strip()} \\}}",
+            f"{{\\large {escape_latex(date_text.strip())} \\}}",
         ])
 
     lines.extend([
