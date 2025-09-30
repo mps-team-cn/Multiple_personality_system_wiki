@@ -43,6 +43,7 @@
 - [图帕（Tulpa）](entries/系统角色与类型/tulpa.md)
 - [宿主（Host）](entries/系统角色与类型/宿主.md)
 
+
 ### 系统体验与机制
 
 - [偏重（Bias）](entries/系统体验与机制/偏重.md)
@@ -64,6 +65,7 @@
 - [躯体认同（Body Ownership）](entries/系统体验与机制/躯体认同.md)
 - [非我感（Depersonalization）](entries/系统体验与机制/非我感.md)
 - [自动驾驶（Autopilot）](entries/系统体验与机制/自动驾驶.md)
+
 
 ### 实践与支持
 
