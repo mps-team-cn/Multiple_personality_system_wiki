@@ -73,7 +73,7 @@ tools/
 ### 系统角色与类型
 
 - [主体（Main）](entries/系统角色与类型/主体.md)
-- [仆从（Servitor）](entries/系统角色与类型/仆从.md)
+- [傀儡（Servitor）](entries/系统角色与类型/仆从.md)
 - [内部自助者（ISH）](entries/系统角色与类型/内部自助者.md)
 - [核心（Core）](entries/系统角色与类型/核心.md)
 - [特殊认同（Alterhuman）](entries/系统角色与类型/特殊认同.md)
