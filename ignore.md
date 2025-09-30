@@ -3,4 +3,3 @@
 README.md
 AGENTS.md
 tools
-*.pdf

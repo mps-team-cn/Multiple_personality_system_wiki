@@ -1,2 +1,3 @@
 tectonic.exe
 tools/pdf_export/pdf_export/__pycache__/*
+*.pdf
