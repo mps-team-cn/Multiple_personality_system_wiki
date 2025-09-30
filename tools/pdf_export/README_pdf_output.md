@@ -34,6 +34,12 @@ py tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft
 python tools/pdf_export/export_to_pdf.py --pdf-engine xelatex
 ```
 
+## 忽略指定文件
+
+- 项目根目录下的 `ignore.md` 用于维护一个导出时需要排除的文件或目录列表，支持以 `#` 开头的注释与空行；
+- 默认已经忽略了 `README.md`，如果需要包含它，只需从 `ignore.md` 中移除对应行，或运行脚本时添加 `--include-readme`；
+- 也可以通过 `--ignore-file` 参数指定其他忽略列表文件。
+
 ## 封面与目录选项
 
 - 若不需要封面，可以添加 `--no-cover`。
