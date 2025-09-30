@@ -163,9 +163,7 @@ def parse_readme_index(readme_path: Path, ignore: IgnoreRules) -> CategoryStruct
         return []
 
     heading_pattern = re.compile(r"^###\s+(?P<title>.+?)\s*$")
-    link_pattern = re.compile(
-        r"^\s*-\s*\[(?P<label>[^\]]+)\]\((?P<path>[^)]+)\)"
-    )
+    link_pattern = re.compile(r"^\s*-\s*\[(?P<label>[^\]]+)\]\((?P<path>[^)]+)\)")
 
     categories: list[tuple[str, list[Path]]] = []
     current_category: tuple[str, list[Path]] | None = None
@@ -303,26 +301,32 @@ def build_cover_page(title: str, subtitle: str | None, date_text: str | None) ->
     ]
 
     if subtitle:
-        lines.extend([
-            "\\vspace{1.5cm}",
-            _format_line("\\Large", subtitle),
-        ])
+        lines.extend(
+            [
+                "\\vspace{1.5cm}",
+                _format_line("\\Large", subtitle),
+            ]
+        )
 
     if date_text:
-        lines.extend([
-            "\\vfill",
-            _format_line("\\large", date_text),
-        ])
+        lines.extend(
+            [
+                "\\vfill",
+                _format_line("\\large", date_text),
+            ]
+        )
 
-    lines.extend([
-        "\\vfill",
-        "\\textit{plurality\\_wiki 项目}",
-        "\\vspace{1cm}",
-        "\\end{titlepage}",
-        "",
-        "\\newpage",
-        "",
-    ])
+    lines.extend(
+        [
+            "\\vfill",
+            "\\textit{plurality\\_wiki 项目}",
+            "\\vspace{1cm}",
+            "\\end{titlepage}",
+            "",
+            "\\newpage",
+            "",
+        ]
+    )
 
     return "\n".join(lines)
 
@@ -442,7 +446,9 @@ def export_pdf(
 ) -> None:
     """Run pandoc to generate a PDF file from the combined markdown."""
 
-    with tempfile.NamedTemporaryFile("w", suffix=".md", encoding="utf-8", delete=False) as temp_file:
+    with tempfile.NamedTemporaryFile(
+        "w", suffix=".md", encoding="utf-8", delete=False
+    ) as temp_file:
         temp_file.write(markdown_content)
         temp_path = Path(temp_file.name)
 
@@ -456,14 +462,16 @@ def export_pdf(
         command.extend(["--pdf-engine", pdf_engine])
 
     if cjk_font and pdf_engine in {"xelatex", "lualatex", "tectonic"}:
-        command.extend([
-            "-V",
-            f"mainfont={cjk_font}",
-            "-V",
-            f"CJKmainfont={cjk_font}",
-            "-V",
-            f"sansfont={cjk_font}",
-        ])
+        command.extend(
+            [
+                "-V",
+                f"mainfont={cjk_font}",
+                "-V",
+                f"CJKmainfont={cjk_font}",
+                "-V",
+                f"sansfont={cjk_font}",
+            ]
+        )
 
     try:
         result = subprocess.run(
@@ -522,13 +530,13 @@ def parse_arguments() -> argparse.Namespace:
     )
     parser.add_argument(
         "--cover-title",
-        default="plurality_wiki",
-        help="封面标题 (默认: plurality_wiki)",
+        default="多重意识体系统知识库",
+        help="封面标题 (默认: 多重意识体系统知识库)",
     )
     parser.add_argument(
         "--cover-subtitle",
-        default="多重意识体系统知识库",
-        help="封面副标题 (默认: 多重意识体系统知识库)",
+        default="Plurality Wiki",
+        help="封面副标题 (默认: Plurality Wiki)",
     )
     parser.add_argument(
         "--cover-date",
@@ -558,7 +566,11 @@ def main() -> None:
     if not structure:
         raise SystemExit("没有找到可以导出的 Markdown 文件。")
 
-    cover_date = args.cover_date.strip() if args.cover_date else datetime.date.today().isoformat()
+    cover_date = (
+        args.cover_date.strip()
+        if args.cover_date
+        else datetime.date.today().isoformat()
+    )
     combined_markdown = build_combined_markdown(
         structure=structure,
         include_readme=args.include_readme or not ignore_rules.matches(README_PATH),
