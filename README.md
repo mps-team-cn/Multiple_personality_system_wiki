@@ -63,3 +63,7 @@
 
 - [冥想](entries/实践与支持/冥想.md)
 
+## PDF 导出
+
+如需将词条导出为带封面与目录的 PDF，请参阅 [`tools/pdf_export/README_pdf_output.md`](tools/pdf_export/README_pdf_output.md) 并运行配套脚本。
+
