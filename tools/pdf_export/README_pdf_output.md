@@ -1,3 +1,5 @@
+# README pdf 导出
+
 要将整个 wiki 导出为带封面、目录的 PDF，请运行 `tools/pdf_export/export_to_pdf.py` 脚本，或进入模块目录后直接通过包入口执行：
 
 ```bash

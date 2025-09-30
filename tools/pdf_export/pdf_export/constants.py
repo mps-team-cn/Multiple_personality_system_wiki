@@ -22,6 +22,6 @@ CJK_FONT_CANDIDATES = [
     "Songti SC",
 ]
 
-DEFAULT_COVER_TITLE = "plurality_wiki"
-DEFAULT_COVER_SUBTITLE = "多重意识体系统知识库"
-DEFAULT_COVER_FOOTER = "plurality_wiki 项目"
+DEFAULT_COVER_TITLE = "多重意识体系统知识库"
+DEFAULT_COVER_SUBTITLE = "Plurality Wiki"
+DEFAULT_COVER_FOOTER = "脸脸系统"
