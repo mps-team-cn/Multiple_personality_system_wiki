@@ -1,28 +1,23 @@
 #!/usr/bin/env python3
-"""Export the wiki contents into a single PDF with a generated table of contents."""
+"""Export the wiki contents into a single PDF with cover page and README-based order."""
 
 from __future__ import annotations
 
 import argparse
+import datetime
+import re
 import shutil
 import subprocess
 import sys
 import tempfile
 from dataclasses import dataclass
-
 from pathlib import Path
+from typing import Sequence, Tuple
 
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 ENTRIES_DIR = PROJECT_ROOT / "entries"
-
-# The category directories are ordered to match the README index.
-CATEGORY_ORDER = [
-    "诊断与临床",
-    "系统角色与类型",
-    "系统体验与机制",
-    "实践与支持",
-]
+README_PATH = PROJECT_ROOT / "README.md"
 
 DEFAULT_PDF_ENGINES = [
     "xelatex",
@@ -51,9 +46,11 @@ CJK_FONT_CANDIDATES = [
 
 @dataclass
 class PandocExportError(RuntimeError):
-    command: list[str]
+    command: Sequence[str]
     stderr: str
 
+
+CategoryStructure = Sequence[Tuple[str, Sequence[Path]]]
 
 
 def check_requirements(pandoc_cmd: str) -> None:
@@ -63,7 +60,6 @@ def check_requirements(pandoc_cmd: str) -> None:
         raise SystemExit(
             f"未找到 `{pandoc_cmd}` 可执行文件。请先安装 Pandoc 后再运行此脚本。"
         )
-
 
 
 def detect_pdf_engine(preferred: str | None) -> str | None:
@@ -81,7 +77,6 @@ def detect_pdf_engine(preferred: str | None) -> str | None:
             return candidate
 
     return None
-
 
 
 def detect_cjk_font() -> str | None:
@@ -109,47 +104,126 @@ def detect_cjk_font() -> str | None:
     return None
 
 
+def parse_readme_index(readme_path: Path) -> CategoryStructure:
+    """Parse README.md to determine the desired export order."""
 
-def collect_markdown_paths(include_readme: bool) -> list[Path]:
-    """Collect markdown files in the desired export order."""
+    if not readme_path.exists():
+        return []
 
-    markdown_paths: list[Path] = []
+    heading_pattern = re.compile(r"^###\s+(?P<title>.+?)\s*$")
+    link_pattern = re.compile(
+        r"^\s*-\s*\[(?P<label>[^\]]+)\]\((?P<path>[^)]+)\)"
+    )
 
-    if include_readme:
-        readme_path = PROJECT_ROOT / "README.md"
-        if readme_path.exists():
-            markdown_paths.append(readme_path)
+    categories: list[tuple[str, list[Path]]] = []
+    current_category: tuple[str, list[Path]] | None = None
 
-    for category in CATEGORY_ORDER:
-        category_dir = ENTRIES_DIR / category
-        if not category_dir.exists():
+    for raw_line in readme_path.read_text(encoding="utf-8").splitlines():
+        if match := heading_pattern.match(raw_line):
+            title = match.group("title").strip()
+            current_category = (title, [])
+            categories.append(current_category)
             continue
 
-        markdown_paths.extend(sorted(category_dir.glob("*.md")))
+        if current_category is None:
+            continue
 
-    # Include any additional markdown files that are not in the predefined order.
+        if link_match := link_pattern.match(raw_line):
+            rel_path = link_match.group("path").strip()
+            candidate = (PROJECT_ROOT / rel_path).resolve()
+            if candidate.exists() and candidate.suffix.lower() == ".md":
+                current_category[1].append(candidate)
+            else:
+                print(
+                    f"警告: README 中的条目 {rel_path} 未找到，已忽略。",
+                    file=sys.stderr,
+                )
+
+    # Filter out empty categories to avoid generating blank sections.
+    return [(title, tuple(paths)) for title, paths in categories if paths]
+
+
+def collect_markdown_structure() -> CategoryStructure:
+    """Collect markdown files following the README index order."""
+
+    categories = list(parse_readme_index(README_PATH))
+    used_paths = {path for _, paths in categories for path in paths}
+
     remaining = sorted(
         path
         for path in ENTRIES_DIR.glob("**/*.md")
-        if path not in markdown_paths
+        if path not in used_paths
     )
-    markdown_paths.extend(remaining)
 
-    return markdown_paths
+    if remaining:
+        categories.append(("未在 README 中列出的词条", tuple(remaining)))
+
+    return tuple(categories)
 
 
-def build_combined_markdown(markdown_paths: list[Path]) -> str:
+def shift_heading_levels(markdown: str, offset: int) -> str:
+    """Increase heading levels by ``offset`` while keeping Pandoc fences intact."""
+
+    if offset == 0:
+        return markdown
+
+    pattern = re.compile(r"^(#{1,6})(\s+)(.*)$", re.MULTILINE)
+
+    def _replace(match: re.Match[str]) -> str:
+        hashes, spacing, title = match.groups()
+        new_level = min(6, len(hashes) + offset)
+        return f"{'#' * new_level}{spacing}{title}"
+
+    return pattern.sub(_replace, markdown)
+
+
+def build_cover_page(title: str, subtitle: str | None, date_text: str | None) -> str:
+    lines = [f"% {title.strip()}"]
+    if subtitle:
+        lines.append(f"% {subtitle.strip()}")
+    if date_text:
+        lines.append(f"% {date_text.strip()}")
+    lines.append("")
+    lines.append("\\newpage")
+    lines.append("")
+    return "\n".join(lines)
+
+
+def build_combined_markdown(
+    structure: CategoryStructure,
+    include_readme: bool,
+    include_cover: bool,
+    cover_title: str,
+    cover_subtitle: str | None,
+    cover_date: str | None,
+) -> str:
     """Combine all markdown files into a single string."""
 
     parts: list[str] = []
-    for path in markdown_paths:
-        title = path.stem
-        relative = path.relative_to(PROJECT_ROOT)
-        parts.append(f"\n\n# {title}\n\n")
-        parts.append(path.read_text(encoding="utf-8"))
-        parts.append(f"\n\n<!-- 来源: {relative.as_posix()} -->\n")
 
-    return "".join(parts).strip() + "\n"
+    if include_cover:
+        parts.append(build_cover_page(cover_title, cover_subtitle, cover_date))
+
+    if include_readme and README_PATH.exists():
+        parts.append(README_PATH.read_text(encoding="utf-8").strip())
+        parts.append("\n\n\\newpage\n")
+
+    for index, (category_title, paths) in enumerate(structure):
+        if index > 0:
+            parts.append("\\newpage\n")
+
+        parts.append(f"# {category_title}\n")
+        for path in paths:
+            relative = path.relative_to(PROJECT_ROOT)
+            content = path.read_text(encoding="utf-8")
+            shifted = shift_heading_levels(content, offset=1)
+            parts.append(shifted.strip())
+            parts.append(f"\n\n<!-- 来源: {relative.as_posix()} -->\n\n")
+
+    combined = "".join(parts).strip()
+    if not combined.endswith("\n"):
+        combined += "\n"
+    return combined
 
 
 def export_pdf(
@@ -166,7 +240,14 @@ def export_pdf(
         temp_file.write(markdown_content)
         temp_path = Path(temp_file.name)
 
-    command = [pandoc_cmd, str(temp_path), "--toc", f"--toc-depth={toc_depth}", "-o", str(output_path)]
+    command: list[str] = [
+        pandoc_cmd,
+        str(temp_path),
+        "--toc",
+        f"--toc-depth={toc_depth}",
+        "-o",
+        str(output_path),
+    ]
     if pdf_engine:
         command.extend(["--pdf-engine", pdf_engine])
 
@@ -230,6 +311,26 @@ def parse_arguments() -> argparse.Namespace:
         action="store_true",
         help="导出时不包含 README.md",
     )
+    parser.add_argument(
+        "--no-cover",
+        action="store_true",
+        help="不生成默认封面页",
+    )
+    parser.add_argument(
+        "--cover-title",
+        default="plurality_wiki",
+        help="封面标题 (默认: plurality_wiki)",
+    )
+    parser.add_argument(
+        "--cover-subtitle",
+        default="多重意识体系统知识库",
+        help="封面副标题 (默认: 多重意识体系统知识库)",
+    )
+    parser.add_argument(
+        "--cover-date",
+        default=None,
+        help="封面日期文字 (默认: 使用当天日期)",
+    )
 
     return parser.parse_args()
 
@@ -247,11 +348,20 @@ def main() -> None:
             "安装完成后可通过 `python export_to_pdf.py --pdf-engine xelatex` 指定所需的引擎。"
         )
     cjk_font = args.cjk_font.strip() if args.cjk_font else detect_cjk_font()
-    markdown_paths = collect_markdown_paths(include_readme=not args.no_readme)
-    if not markdown_paths:
+
+    structure = collect_markdown_structure()
+    if not structure:
         raise SystemExit("没有找到可以导出的 Markdown 文件。")
 
-    combined_markdown = build_combined_markdown(markdown_paths)
+    cover_date = args.cover_date.strip() if args.cover_date else datetime.date.today().isoformat()
+    combined_markdown = build_combined_markdown(
+        structure=structure,
+        include_readme=not args.no_readme,
+        include_cover=not args.no_cover,
+        cover_title=args.cover_title,
+        cover_subtitle=args.cover_subtitle.strip() if args.cover_subtitle else None,
+        cover_date=cover_date,
+    )
 
     try:
         export_pdf(
@@ -269,6 +379,7 @@ def main() -> None:
         if error.stderr:
             message.append("Pandoc 输出:\n" + error.stderr)
         raise SystemExit("\n".join(message)) from None
+
 
 if __name__ == "__main__":
     try:
