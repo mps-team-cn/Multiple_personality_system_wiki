@@ -52,6 +52,17 @@ def collect_markdown_structure(ignore: IgnoreRules) -> CategoryStructure:
     """Collect markdown files following the README index order."""
 
     categories = list(parse_readme_index(README_PATH, ignore))
+    listed_paths = {path for _, paths in categories for path in paths}
+
+    # 项目根目录下的《前言》应在 PDF 中最先展示。
+    preface_path = PROJECT_ROOT / "前言.md"
+    if (
+        preface_path.exists()
+        and not ignore.matches(preface_path)
+        and preface_path not in listed_paths
+    ):
+        categories.insert(0, ("前言", (preface_path,)))
+
     if categories:
         return tuple(categories)
 
