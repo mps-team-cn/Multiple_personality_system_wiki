@@ -40,34 +40,36 @@
 - [混合](entries/系统角色与类型/混合.md)
 - [碎片](entries/系统角色与类型/碎片.md)
 - [系魂](entries/系统角色与类型/系魂.md)
-- [Tulpa](entries/系统角色与类型/tulpa.md)
-- [宿主](entries/系统角色与类型/宿主.md)
+- [图帕（Tulpa）](entries/系统角色与类型/tulpa.md)
+- [宿主（Host）](entries/系统角色与类型/宿主.md)
+
 
 ### 系统体验与机制
 
-- [偏重](entries/系统体验与机制/偏重.md)
-- [存在感](entries/系统体验与机制/存在感.md)
-- [封存](entries/系统体验与机制/封存.md)
-- [应激反应](entries/系统体验与机制/应激反应.md)
+- [偏重（Bias）](entries/系统体验与机制/偏重.md)
+- [存在感（Sense of Presence）](entries/系统体验与机制/存在感.md)
+- [封存（Sequestration）](entries/系统体验与机制/封存.md)
+- [应激反应（Stress Response）](entries/系统体验与机制/应激反应.md)
 - [侵入性思维](entries/系统体验与机制/侵入性思维.md)
-- [意识修改](entries/系统体验与机制/意识修改.md)
-- [意识共存](entries/系统体验与机制/意识共存.md)
+- [意识修改（Consciousness Modification）](entries/系统体验与机制/意识修改.md)
+- [意识共存（Co-consciousness）](entries/系统体验与机制/意识共存.md)
 - [权限](entries/系统体验与机制/权限.md)
 - [独有记忆](entries/系统体验与机制/独有记忆.md)
 - [独立性](entries/系统体验与机制/独立性.md)
-- [融合](entries/系统体验与机制/融合.md)
+- [融合（Fusion）](entries/系统体验与机制/融合.md)
 - [记忆屏蔽](entries/系统体验与机制/记忆屏蔽.md)
-- [迭代](entries/系统体验与机制/迭代.md)
+- [迭代（Iteration）](entries/系统体验与机制/迭代.md)
 - [解离](entries/系统体验与机制/解离.md)
-- [整合](entries/系统体验与机制/整合.md)
-- [重构](entries/系统体验与机制/重构.md)
-- [躯体认同](entries/系统体验与机制/躯体认同.md)
-- [非我感](entries/系统体验与机制/非我感.md)
-- [自动驾驶](entries/系统体验与机制/自动驾驶.md)
+- [整合（Integration）](entries/系统体验与机制/整合.md)
+- [重构（Reconstruction）](entries/系统体验与机制/重构.md)
+- [躯体认同（Body Ownership）](entries/系统体验与机制/躯体认同.md)
+- [非我感（Depersonalization）](entries/系统体验与机制/非我感.md)
+- [自动驾驶（Autopilot）](entries/系统体验与机制/自动驾驶.md)
+
 
 ### 实践与支持
 
-- [冥想](entries/实践与支持/冥想.md)
+- [冥想（Meditation）](entries/实践与支持/冥想.md)
 - [接地](entries/实践与支持/接地.md)
 
 ## PDF 导出
