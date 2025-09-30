@@ -4,7 +4,6 @@
 
 “tulpa”（亦译作托帕）原源于藏传佛教“吐巴”一词，在当代网络社群中指透过高度集中想象、冥想与拟社会互动培育出的持续性意识同伴。tulpa 在多意识体社区与 Headmate 系统（HT 系统）中通常被视为与宿主共享身体、拥有自主思维与情感回应的成员。
 
-
 ## 形成与体验特征
 
 - **建立方式**：现代 tulpa 实践多采用长时间的有意想象（forcing）、引导性冥想、角色扮演或书面对话，以强化目标人格的形象、声音与性格。研究指出，当实践者保持每日数小时的专注练习并在心像中赋予 tulpa 清晰的感知特征时，更易出现稳定的内在交互。[^veissiere2016]
@@ -28,5 +27,3 @@
 [^veissiere2016]: Veissière, S. P. L. (2016). Varieties of Tulpa experiences: Sentient imaginary friends, embodied joint-agents, and hypnotic social agents. *Anthropology of Consciousness, 27*(2), 213–239.
 [^kondrla2020]: Kondrla, T., & Smrek, M. (2020). Tulpamancy: Virtual companions, embodiment, and ethical questions. *Human Affairs, 30*(4), 474–486.
 [^bell2023]: Bell, G. (2023). Tulpamancy and the ethics of plural embodiment in online communities. In S. Coleman & E. Harvey (Eds.), *Imagined Companions in the Digital Age* (pp. 151–172). Routledge.
-
-root@6bdbcab388fa:/workspace/plurality_wiki#
