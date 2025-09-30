@@ -80,6 +80,12 @@ python export_to_pdf.py
    - `xelatex` 或 `pdflatex`（可通过安装 TeX Live、MiKTeX 等 TeX 发行版获得）；
    - [Tectonic](https://tectonic-typesetting.github.io/)（一次安装即可自动下载所需宏包）。
 
+脚本会尝试通过 `fontconfig` 自动检测常见的中文字体，并在使用 `xelatex`/`tectonic` 等引擎时自动启用，以避免导出后的 PDF 出现中文缺失或乱码。如果系统无法识别中文字体，可以通过 `--cjk-font` 参数显式指定，例如：
+
+```bash
+python export_to_pdf.py --cjk-font "Noto Serif CJK SC"
+```
+
 脚本会自动检测上述常见引擎，如果缺失会提示安装方式。也可以通过 `--pdf-engine` 参数显式指定要使用的引擎，例如：
 
 ```bash
