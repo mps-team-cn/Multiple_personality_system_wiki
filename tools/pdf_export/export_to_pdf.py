@@ -151,18 +151,22 @@ def collect_markdown_structure() -> CategoryStructure:
     """Collect markdown files following the README index order."""
 
     categories = list(parse_readme_index(README_PATH))
-    used_paths = {path for _, paths in categories for path in paths}
-
-    remaining = sorted(
-        path
-        for path in ENTRIES_DIR.glob("**/*.md")
-        if path not in used_paths
-    )
-
-    if remaining:
-        categories.append(("未在 README 中列出的词条", tuple(remaining)))
-
     return tuple(categories)
+
+
+def infer_entry_title(path: Path) -> str:
+    """Best-effort guess of an entry's display title."""
+
+    heading_pattern = re.compile(r"^#{1,6}\s+(?P<title>.+?)\s*$")
+    try:
+        for raw_line in path.read_text(encoding="utf-8").splitlines():
+            match = heading_pattern.match(raw_line.strip())
+            if match:
+                return match.group("title").strip()
+    except OSError:
+        pass
+
+    return path.stem
 
 
 def shift_heading_levels(markdown: str, offset: int) -> str:
@@ -182,14 +186,54 @@ def shift_heading_levels(markdown: str, offset: int) -> str:
 
 
 def build_cover_page(title: str, subtitle: str | None, date_text: str | None) -> str:
-    lines = [f"% {title.strip()}"]
+    """Return a standalone cover page using LaTeX's titlepage environment."""
+
+    lines = [
+        "\\begin{titlepage}",
+        "\\centering",
+        "\\vspace*{3cm}",
+        f"{{\\Huge {title.strip()} \\}}",
+    ]
+
     if subtitle:
-        lines.append(f"% {subtitle.strip()}")
+        lines.extend([
+            "\\vspace{1.5cm}",
+            f"{{\\Large {subtitle.strip()} \\}}",
+        ])
+
     if date_text:
-        lines.append(f"% {date_text.strip()}")
-    lines.append("")
-    lines.append("\\newpage")
-    lines.append("")
+        lines.extend([
+            "\\vfill",
+            f"{{\\large {date_text.strip()} \\}}",
+        ])
+
+    lines.extend([
+        "\\vfill",
+        "\\textit{plurality\\_wiki 项目}",
+        "\\vspace{1cm}",
+        "\\end{titlepage}",
+        "",
+        "\\newpage",
+        "",
+    ])
+
+    return "\n".join(lines)
+
+
+def build_directory_page(structure: CategoryStructure) -> str:
+    """Construct a table-of-contents page based on README categories."""
+
+    lines: list[str] = ["# 目录", ""]
+
+    for category_title, paths in structure:
+        lines.append(f"## {category_title}")
+        lines.append("")
+        for path in paths:
+            entry_title = infer_entry_title(path)
+            lines.append(f"- {entry_title}")
+        lines.append("")
+
+    lines.extend(["\\newpage", ""])
     return "\n".join(lines)
 
 
@@ -207,6 +251,9 @@ def build_combined_markdown(
 
     if include_cover:
         parts.append(build_cover_page(cover_title, cover_subtitle, cover_date))
+
+    if structure:
+        parts.append(build_directory_page(structure))
 
     if include_readme and README_PATH.exists():
         parts.append(README_PATH.read_text(encoding="utf-8").strip())
@@ -234,7 +281,6 @@ def export_pdf(
     markdown_content: str,
     output_path: Path,
     pandoc_cmd: str,
-    toc_depth: int,
     pdf_engine: str | None,
     cjk_font: str | None,
 ) -> None:
@@ -247,8 +293,6 @@ def export_pdf(
     command: list[str] = [
         pandoc_cmd,
         str(temp_path),
-        "--toc",
-        f"--toc-depth={toc_depth}",
         "-o",
         str(output_path),
     ]
@@ -303,12 +347,6 @@ def parse_arguments() -> argparse.Namespace:
         "--cjk-font",
         default=None,
         help="优先用于中文内容的字体名称。例如 `Noto Serif CJK SC`。",
-    )
-    parser.add_argument(
-        "--toc-depth",
-        type=int,
-        default=3,
-        help="目录深度 (默认: 3)",
     )
     parser.add_argument(
         "--no-readme",
@@ -372,7 +410,6 @@ def main() -> None:
             markdown_content=combined_markdown,
             output_path=args.output,
             pandoc_cmd=args.pandoc,
-            toc_depth=args.toc_depth,
             pdf_engine=pdf_engine,
             cjk_font=cjk_font,
         )

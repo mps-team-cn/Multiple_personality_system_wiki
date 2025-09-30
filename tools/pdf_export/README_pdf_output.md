@@ -8,10 +8,10 @@ python tools/pdf_export/export_to_pdf.py
 
 脚本会自动：
 
-1. 读取 `README.md` 中的目录结构，确保 PDF 的目录与 README 保持一致；
-2. 在封面页使用仓库名称、副标题与日期（可自定义）；
-3. 收集 `entries/` 目录下的 Markdown 文件并按 README 的顺序合并；
-4. 调用 [Pandoc](https://pandoc.org/) 生成包含目录的 `plurality_wiki.pdf`。
+1. 读取 `README.md` 中的目录结构，确保 PDF 的目录页与 README 保持一致；
+2. 生成独立的封面页与目录页；
+3. 收集 `entries/` 目录下在 README 中列出的 Markdown 文件并按顺序合并；
+4. 调用 [Pandoc](https://pandoc.org/) 生成排好版的 `plurality_wiki.pdf`。
 
 运行脚本前，请确保：
 
@@ -38,6 +38,6 @@ python tools/pdf_export/export_to_pdf.py --pdf-engine xelatex
 
 - 若不需要封面，可以添加 `--no-cover`。
 - `--cover-title`、`--cover-subtitle`、`--cover-date` 可覆盖封面的默认文字。
-- 目录深度仍可通过 `--toc-depth` 调整；默认值 3 会展示到每个词条内的二级标题。
+- 目录页会根据 README 的分组与词条自动生成，默认不再展示各词条内部的小节标题。
 
 如需进一步自定义输出文件名或其他设置，可执行 `python tools/pdf_export/export_to_pdf.py --help` 查看全部参数。
