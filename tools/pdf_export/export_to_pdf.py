@@ -22,6 +22,7 @@ from typing import Sequence, Tuple
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 ENTRIES_DIR = PROJECT_ROOT / "entries"
 README_PATH = PROJECT_ROOT / "README.md"
+IGNORE_FILE_PATH = PROJECT_ROOT / "ignore.md"
 
 DEFAULT_PDF_ENGINES = [
     "xelatex",
@@ -55,6 +56,24 @@ class PandocExportError(RuntimeError):
 
 
 CategoryStructure = Sequence[Tuple[str, Sequence[Path]]]
+
+
+@dataclass(frozen=True)
+class IgnoreRules:
+    files: frozenset[Path]
+    directories: frozenset[Path]
+
+    def matches(self, path: Path) -> bool:
+        """Return ``True`` if ``path`` should be skipped when exporting."""
+
+        resolved = path.resolve()
+        if resolved in self.files:
+            return True
+
+        return any(
+            resolved == directory or resolved.is_relative_to(directory)
+            for directory in self.directories
+        )
 
 
 def check_requirements(pandoc_cmd: str) -> None:
@@ -108,7 +127,35 @@ def detect_cjk_font() -> str | None:
     return None
 
 
-def parse_readme_index(readme_path: Path) -> CategoryStructure:
+def load_ignore_rules(path: Path) -> IgnoreRules:
+    """Load ignore rules from ``ignore.md`` similar to a tiny subset of .gitignore."""
+
+    if not path.exists():
+        return IgnoreRules(files=frozenset(), directories=frozenset())
+
+    files: set[Path] = set()
+    directories: set[Path] = set()
+
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#"):
+            continue
+
+        candidate = Path(line)
+        if not candidate.is_absolute():
+            candidate = (PROJECT_ROOT / candidate).resolve()
+        else:
+            candidate = candidate.resolve()
+
+        if line.endswith("/") or candidate.is_dir():
+            directories.add(candidate)
+        else:
+            files.add(candidate)
+
+    return IgnoreRules(files=frozenset(files), directories=frozenset(directories))
+
+
+def parse_readme_index(readme_path: Path, ignore: IgnoreRules) -> CategoryStructure:
     """Parse README.md to determine the desired export order."""
 
     if not readme_path.exists():
@@ -135,6 +182,8 @@ def parse_readme_index(readme_path: Path) -> CategoryStructure:
         if link_match := link_pattern.match(raw_line):
             rel_path = link_match.group("path").strip()
             candidate = (PROJECT_ROOT / rel_path).resolve()
+            if ignore.matches(candidate):
+                continue
             if candidate.exists() and candidate.suffix.lower() == ".md":
                 current_category[1].append(candidate)
             else:
@@ -147,11 +196,42 @@ def parse_readme_index(readme_path: Path) -> CategoryStructure:
     return [(title, tuple(paths)) for title, paths in categories if paths]
 
 
-def collect_markdown_structure() -> CategoryStructure:
+def collect_markdown_structure(ignore: IgnoreRules) -> CategoryStructure:
     """Collect markdown files following the README index order."""
 
-    categories = list(parse_readme_index(README_PATH))
-    return tuple(categories)
+    categories = list(parse_readme_index(README_PATH, ignore))
+    if categories:
+        return tuple(categories)
+
+    fallback_categories: list[tuple[str, list[Path]]] = []
+
+    if ENTRIES_DIR.exists():
+        # Markdown files placed directly under ``entries/`` without a
+        # subdirectory are grouped under a synthetic "未分组条目" section so they
+        # still appear in the export output.
+        ungrouped = [
+            path
+            for path in sorted(ENTRIES_DIR.glob("*.md"))
+            if not ignore.matches(path)
+        ]
+        if ungrouped:
+            fallback_categories.append(("未分组条目", ungrouped))
+
+        for directory in sorted(ENTRIES_DIR.iterdir()):
+            if not directory.is_dir():
+                continue
+            if ignore.matches(directory):
+                continue
+
+            files = [
+                path
+                for path in sorted(directory.rglob("*.md"))
+                if not ignore.matches(path)
+            ]
+            if files:
+                fallback_categories.append((directory.name, files))
+
+    return tuple(fallback_categories)
 
 
 def infer_entry_title(path: Path) -> str:
@@ -185,26 +265,52 @@ def shift_heading_levels(markdown: str, offset: int) -> str:
     return pattern.sub(_replace, markdown)
 
 
+LATEX_SPECIAL_CHARS = {
+    "\\": r"\textbackslash{}",
+    "{": r"\{",
+    "}": r"\}",
+    "$": r"\$",
+    "&": r"\&",
+    "#": r"\#",
+    "_": r"\_",
+    "%": r"\%",
+    "~": r"\textasciitilde{}",
+    "^": r"\textasciicircum{}",
+}
+
+
+def escape_latex(text: str) -> str:
+    """Escape LaTeX special characters in ``text``."""
+
+    return "".join(LATEX_SPECIAL_CHARS.get(ch, ch) for ch in text)
+
+
 def build_cover_page(title: str, subtitle: str | None, date_text: str | None) -> str:
     """Return a standalone cover page using LaTeX's titlepage environment."""
+
+    def _format_line(size_command: str, text: str) -> str:
+        """Render ``text`` inside a LaTeX sizing command."""
+
+        escaped = escape_latex(text.strip())
+        return f"{{{size_command} {escaped}\\par}}"
 
     lines = [
         "\\begin{titlepage}",
         "\\centering",
         "\\vspace*{3cm}",
-        f"{{\\Huge {title.strip()} \\}}",
+        _format_line("\\Huge", title),
     ]
 
     if subtitle:
         lines.extend([
             "\\vspace{1.5cm}",
-            f"{{\\Large {subtitle.strip()} \\}}",
+            _format_line("\\Large", subtitle),
         ])
 
     if date_text:
         lines.extend([
             "\\vfill",
-            f"{{\\large {date_text.strip()} \\}}",
+            _format_line("\\large", date_text),
         ])
 
     lines.extend([
@@ -259,12 +365,14 @@ def build_combined_markdown(
         parts.append(README_PATH.read_text(encoding="utf-8").strip())
         parts.append("\n\n\\newpage\n")
 
-    for index, (category_title, paths) in enumerate(structure):
-        if index > 0:
-            parts.append("\\newpage\n")
-
-        parts.append(f"# {category_title}\n")
+    first_entry = True
+    for category_title, paths in structure:
         for path in paths:
+            if not first_entry:
+                parts.append("\n\\newpage\n")
+            first_entry = False
+
+            parts.append(f"# {category_title}\n")
             relative = path.relative_to(PROJECT_ROOT)
             content = path.read_text(encoding="utf-8")
             shifted = shift_heading_levels(content, offset=1)
@@ -349,9 +457,15 @@ def parse_arguments() -> argparse.Namespace:
         help="优先用于中文内容的字体名称。例如 `Noto Serif CJK SC`。",
     )
     parser.add_argument(
-        "--no-readme",
+        "--include-readme",
         action="store_true",
-        help="导出时不包含 README.md",
+        help="导出时包含 README.md (默认根据 ignore.md 忽略)",
+    )
+    parser.add_argument(
+        "--ignore-file",
+        type=Path,
+        default=IGNORE_FILE_PATH,
+        help="自定义忽略列表文件路径 (默认: 项目根目录下的 ignore.md)",
     )
     parser.add_argument(
         "--no-cover",
@@ -391,14 +505,15 @@ def main() -> None:
         )
     cjk_font = args.cjk_font.strip() if args.cjk_font else detect_cjk_font()
 
-    structure = collect_markdown_structure()
+    ignore_rules = load_ignore_rules(args.ignore_file)
+    structure = collect_markdown_structure(ignore_rules)
     if not structure:
         raise SystemExit("没有找到可以导出的 Markdown 文件。")
 
     cover_date = args.cover_date.strip() if args.cover_date else datetime.date.today().isoformat()
     combined_markdown = build_combined_markdown(
         structure=structure,
-        include_readme=not args.no_readme,
+        include_readme=args.include_readme or not ignore_rules.matches(README_PATH),
         include_cover=not args.no_cover,
         cover_title=args.cover_title,
         cover_subtitle=args.cover_subtitle.strip() if args.cover_subtitle else None,
