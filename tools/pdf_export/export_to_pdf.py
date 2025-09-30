@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import datetime
+import hashlib
 import re
 import shutil
 import subprocess
@@ -336,11 +337,44 @@ def build_directory_page(structure: CategoryStructure) -> str:
         lines.append("")
         for path in paths:
             entry_title = infer_entry_title(path)
-            lines.append(f"- {entry_title}")
+            anchor = build_entry_anchor(path)
+            lines.append(f"- [{entry_title}](#{anchor})")
         lines.append("")
 
     lines.extend(["\\newpage", ""])
     return "\n".join(lines)
+
+
+def build_entry_anchor(path: Path) -> str:
+    """Return a stable anchor identifier for ``path`` within the combined PDF."""
+
+    relative = path.relative_to(PROJECT_ROOT)
+    digest = hashlib.sha1(relative.as_posix().encode("utf-8")).hexdigest()[:10]
+    return f"entry-{digest}"
+
+
+def strip_primary_heading(content: str, title: str) -> str:
+    """Remove the first heading that matches ``title`` from ``content``."""
+
+    heading_re = re.compile(rf"^#{1,6}\s+{re.escape(title)}\s*$")
+    lines = content.splitlines()
+    stripped: list[str] = []
+    removed = False
+
+    index = 0
+    while index < len(lines):
+        current = lines[index]
+        if not removed and heading_re.match(current.strip()):
+            removed = True
+            index += 1
+            # Skip one trailing blank line to avoid double spacing after removal.
+            if index < len(lines) and not lines[index].strip():
+                index += 1
+            continue
+        stripped.append(current)
+        index += 1
+
+    return "\n".join(stripped)
 
 
 def build_combined_markdown(
@@ -365,19 +399,33 @@ def build_combined_markdown(
         parts.append(README_PATH.read_text(encoding="utf-8").strip())
         parts.append("\n\n\\newpage\n")
 
-    first_entry = True
+    first_category = True
     for category_title, paths in structure:
-        for path in paths:
-            if not first_entry:
-                parts.append("\n\\newpage\n")
-            first_entry = False
+        if not paths:
+            continue
 
-            parts.append(f"# {category_title}\n")
+        if not first_category:
+            parts.append("\n\\newpage\n")
+        first_category = False
+
+        parts.append(f"# {category_title}\n\n")
+
+        for index, path in enumerate(paths):
+            if index > 0:
+                parts.append("\n\\newpage\n")
+
+            entry_title = infer_entry_title(path)
+            anchor = build_entry_anchor(path)
             relative = path.relative_to(PROJECT_ROOT)
             content = path.read_text(encoding="utf-8")
-            shifted = shift_heading_levels(content, offset=1)
-            parts.append(shifted.strip())
-            parts.append(f"\n\n<!-- 来源: {relative.as_posix()} -->\n\n")
+            body = strip_primary_heading(content, entry_title)
+            shifted = shift_heading_levels(body, offset=2).strip()
+
+            parts.append(f"## {entry_title} {{#{anchor}}}\n\n")
+            if shifted:
+                parts.append(shifted)
+                parts.append("\n\n")
+            parts.append(f"<!-- 来源: {relative.as_posix()} -->\n\n")
 
     combined = "".join(parts).strip()
     if not combined.endswith("\n"):
