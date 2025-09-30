@@ -63,6 +63,8 @@ tools/
 - [强迫症（OCD）](entries/诊断与临床/强迫症.md)
 - [精神分裂症（Schizophrenia，SC）](entries/诊断与临床/精神分裂症.md)
 - [解离性身份障碍（DID）](entries/诊断与临床/解离性身份障碍.md)
+- [解离性遗忘（Dissociative Amnesia，DA）](entries/诊断与临床/解离性遗忘.md)
+- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](entries/诊断与临床/人格解体现实解体障碍.md)
 - [其他特定解离性障碍（OSDD）](entries/诊断与临床/其他特定解离性障碍.md)
 - [躯体化障碍（SSD）](entries/诊断与临床/躯体化障碍.md)
 - [边缘性人格障碍（BPD）](entries/诊断与临床/边缘性人格障碍.md)
