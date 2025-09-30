@@ -1,1 +1,11 @@
 tectonic.exe
+tools/pdf_export/pdf_export/__pycache__/__init__.cpython-313.pyc
+tools/pdf_export/pdf_export/__pycache__/cli.cpython-313.pyc
+tools/pdf_export/pdf_export/__pycache__/constants.cpython-313.pyc
+tools/pdf_export/pdf_export/__pycache__/exporter.cpython-313.pyc
+tools/pdf_export/pdf_export/__pycache__/ignore_loader.cpython-313.pyc
+tools/pdf_export/pdf_export/__pycache__/markdown.cpython-313.pyc
+tools/pdf_export/pdf_export/__pycache__/models.cpython-313.pyc
+tools/pdf_export/pdf_export/__pycache__/paths.cpython-313.pyc
+tools/pdf_export/pdf_export/__pycache__/requirements.cpython-313.pyc
+tools/pdf_export/pdf_export/__pycache__/structure.cpython-313.pyc
