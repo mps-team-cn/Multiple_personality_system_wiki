@@ -30,6 +30,24 @@ DEFAULT_PDF_ENGINES = [
     "pdflatex",
 ]
 
+# Common CJK font families that ship with major operating systems or are easy to
+# install from open-source distributions. The first available font in this list
+# will be used when generating the PDF so that Chinese characters render
+# correctly without extra configuration.
+CJK_FONT_CANDIDATES = [
+    "Noto Serif CJK SC",
+    "Noto Sans CJK SC",
+    "Source Han Serif SC",
+    "Source Han Sans SC",
+    "思源宋体",
+    "思源黑体",
+    "SimSun",
+    "SimHei",
+    "Microsoft YaHei",
+    "PingFang SC",
+    "Songti SC",
+]
+
 
 @dataclass
 class PandocExportError(RuntimeError):
@@ -60,6 +78,32 @@ def detect_pdf_engine(preferred: str | None) -> str | None:
 
     for candidate in DEFAULT_PDF_ENGINES:
         if shutil.which(candidate):
+            return candidate
+
+    return None
+
+
+
+def detect_cjk_font() -> str | None:
+    """Return the first available Chinese font family, if any."""
+
+    if shutil.which("fc-list") is None:
+        return None
+
+    for candidate in CJK_FONT_CANDIDATES:
+        try:
+            result = subprocess.run(
+                ["fc-list", candidate],
+                check=False,
+                text=True,
+                encoding="utf-8",
+                errors="replace",
+                capture_output=True,
+            )
+        except OSError:
+            return None
+
+        if result.stdout.strip():
             return candidate
 
     return None
@@ -114,6 +158,7 @@ def export_pdf(
     pandoc_cmd: str,
     toc_depth: int,
     pdf_engine: str | None,
+    cjk_font: str | None,
 ) -> None:
     """Run pandoc to generate a PDF file from the combined markdown."""
 
@@ -124,6 +169,16 @@ def export_pdf(
     command = [pandoc_cmd, str(temp_path), "--toc", f"--toc-depth={toc_depth}", "-o", str(output_path)]
     if pdf_engine:
         command.extend(["--pdf-engine", pdf_engine])
+
+    if cjk_font and pdf_engine in {"xelatex", "lualatex", "tectonic"}:
+        command.extend([
+            "-V",
+            f"mainfont={cjk_font}",
+            "-V",
+            f"CJKmainfont={cjk_font}",
+            "-V",
+            f"sansfont={cjk_font}",
+        ])
 
     try:
         result = subprocess.run(
@@ -160,6 +215,11 @@ def parse_arguments() -> argparse.Namespace:
         help="Pandoc 使用的 PDF 引擎 (例如 xelatex)。留空则使用 Pandoc 默认配置。",
     )
     parser.add_argument(
+        "--cjk-font",
+        default=None,
+        help="优先用于中文内容的字体名称。例如 `Noto Serif CJK SC`。",
+    )
+    parser.add_argument(
         "--toc-depth",
         type=int,
         default=3,
@@ -186,6 +246,7 @@ def main() -> None:
             "- [Tectonic](https://tectonic-typesetting.github.io/)\n"
             "安装完成后可通过 `python export_to_pdf.py --pdf-engine xelatex` 指定所需的引擎。"
         )
+    cjk_font = args.cjk_font.strip() if args.cjk_font else detect_cjk_font()
     markdown_paths = collect_markdown_paths(include_readme=not args.no_readme)
     if not markdown_paths:
         raise SystemExit("没有找到可以导出的 Markdown 文件。")
@@ -199,6 +260,7 @@ def main() -> None:
             pandoc_cmd=args.pandoc,
             toc_depth=args.toc_depth,
             pdf_engine=pdf_engine,
+            cjk_font=cjk_font,
         )
     except PandocExportError as error:
         message = [
