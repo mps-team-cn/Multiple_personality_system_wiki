@@ -33,7 +33,7 @@
 - [接地（Grounding）](entries/实践与支持/Grounding.md)
 - [混合（Blending）](entries/系统角色与类型/混合.md)
 - [解离（Dissociation）](entries/系统体验与机制/Dissociation.md)
-- [脱人格（Depersonalization）](entries/系统体验与机制/Depersonalization.md)
+- [非我感（Depersonalization）](entries/系统体验与机制/Depersonalization.md)
 
 ## 参考资料
 
