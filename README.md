@@ -20,18 +20,21 @@
 ## 📦 仓库结构
 
 ```
-
 plurality_wiki/
-├─ README.md                # 面向开发者（本文件）
-├─ README_wiki.md           # 面向 Wiki 贡献者（放到 Wiki 页面）
-├─ index.md                 # 站点/目录索引（需同步维护）
-├─ docs/                    # 文档源（若使用 docsify 或静态站点方案）
-├─ images/                  # 统一的图片资源目录
+├─ README.md                # 仓库主页（面向开发者）
+├─ README_wiki.md           # 网页首页（面向公众介绍）
+├─ CONTRIBUTING.md          # 贡献指南（面向词条更新者/编辑者）
+├─ AGENTS.md                # 给 Codex/自动化与人类贡献者的协作约定
+├─ index.md                 # Wiki 导航/索引（建议“顶部导航+完整索引”双层结构）
+├─ glossary.md              # 术语表（可选）
+├─ changelog.md             # 更新日志（可选）
+├─ images/                  # 图片资源
+├─ docs/                    # （可选）若使用 docsify/VitePress/VuePress 等静态站点
 ├─ .github/
-│  ├─ ISSUE_TEMPLATE/       #（可选）Issue 模板
-│  └─ workflows/            #（可选）CI 工作流
-└─ ...（各主题目录与条目）
-
+│  ├─ ISSUE_TEMPLATE/       # Issue 模板（可选）
+│  ├─ PULL_REQUEST_TEMPLATE.md  # PR 模板（可选）
+│  └─ workflows/            # CI 工作流（Markdown lint/链接检查等）
+└─ ...（按主题组织的词条 .md 文件）
 ```
 
 > **约定**：条目一级标题统一采用 `中文名（English）` 格式；若为诊断/疾病，括号内用标准缩写，如“重度抑郁障碍（MDD）”。
