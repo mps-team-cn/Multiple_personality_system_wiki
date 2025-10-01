@@ -9,6 +9,7 @@
 | [Adaptive](entries/系统角色与类型/Adaptive.md)                    | 适应型         | 埃蒙加德分类法标签之一，强调系统因应对创伤或长期压力而形成。      |
 | [Admin](entries/系统角色与类型/Admin.md)                                              | 管理者         | 系统中负责维护秩序、管理资源与协调事务的成员或团队角色。         |
 | [Alexithymia](entries/诊断与临床/Alexithymia.md)                                         | 述情障碍        | 描述难以识别、理解与表达情绪的体验，常与创伤或解离共现。         |
+| [Alcohol-Induced Dissociation](entries/系统体验与机制/Alcohol-Induced-Dissociation.md) | 醉酒解离        | 比喻解离发作时动作迟缓、语句含混等像醉酒的体验，并不一定涉及酒精摄入。 |
 | [Alter](entries/系统角色与类型/Alter.md)                                               | 成员          | 系统内部拥有独立视角、记忆或角色的意识单元。               |
 | [Alterhuman](entries/系统角色与类型/Alterhuman.md)                                        | 特殊认同        | 泛指自我认同超出传统人类类别的社群概念，用于讨论多样身份体验。      |
 | [ANP-EP](<entries/系统体验与机制/Apparently-Normal-Part-Emotional-Part-Model.md>)                                     | ANP-EP 模型   | 描述创伤背景下“表面正常部分”与“情绪部分”互动的临床框架。       |
