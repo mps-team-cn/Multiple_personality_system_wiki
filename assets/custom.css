@@ -260,6 +260,7 @@ button, .cover .buttons a{
 }
 :root.dark .markdown-section table tbody tr:nth-child(even){
   background: color-mix(in oklab, rgba(79,192,141,.18) 45%, var(--c-card));
+
 }
 
 /* 代码块 */
