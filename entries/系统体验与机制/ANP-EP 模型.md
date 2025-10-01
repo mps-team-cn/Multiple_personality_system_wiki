@@ -43,3 +43,12 @@
 [^ANP-2]: Nijenhuis, E. R. S. (2015). *The Trinity of Trauma: Ignorance, Fragility, and Control*. Vandenhoeck & Ruprecht.
 [^ANP-3]: Steele, K., Boon, S., & van der Hart, O. (2017). *Treating Trauma-Related Dissociation: A Practical, Integrative Approach*. W. W. Norton.
 [^ANP-4]: Dalenberg, C. J., Brand, B. L., Gleaves, D. H., et al. (2012). Evaluation of the evidence for the trauma and fantasy models of dissociation. *Psychological Bulletin*, 138(3), 550–588.
+
+## 核心特征
+（待补充）
+
+## 鉴别
+（待补充）
+
+## 干预
+（待补充）
