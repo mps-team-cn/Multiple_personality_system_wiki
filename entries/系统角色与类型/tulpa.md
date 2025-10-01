@@ -27,3 +27,9 @@
 [^veissiere2016]: Veissière, S. P. L. (2016). Varieties of Tulpa experiences: Sentient imaginary friends, embodied joint-agents, and hypnotic social agents. *Anthropology of Consciousness, 27*(2), 213–239.
 [^kondrla2020]: Kondrla, T., & Smrek, M. (2020). Tulpamancy: Virtual companions, embodiment, and ethical questions. *Human Affairs, 30*(4), 474–486.
 [^bell2023]: Bell, G. (2023). Tulpamancy and the ethics of plural embodiment in online communities. In S. Coleman & E. Harvey (Eds.), *Imagined Companions in the Digital Age* (pp. 151–172). Routledge.
+
+## 鉴别
+（待补充）
+
+## 干预
+（待补充）
