@@ -62,6 +62,23 @@ docsify serve .
 # 浏览器打开提示的本地地址
 ```
 
+> ⚠️ **npm 权限受限？** 可以改用 `npx --yes --registry=…` 指定可访问的 registry：
+
+```bash
+# 官方源（默认）
+npx --yes --registry=https://registry.npmjs.org docsify-cli@latest serve . --port 4173
+# 若遇到权限/网络限制，可切换至 npmmirror 镜像
+npx --yes --registry=https://registry.npmmirror.com docsify-cli@latest serve . --port 4173
+```
+
+**方式 C：自动兜底脚本（优先 docsify，失败回退 Python）**
+
+```bash
+python tools/docs_preview.py --port 4173
+```
+
+> 脚本会先尝试多 registry 的 `docsify-cli`，无法启动时自动改用 `python -m http.server`。
+
 > 如果你采用了其他站点生成器（如 VuePress/VitePress 等），请在 PR 中同步更新说明。
 
 ---
