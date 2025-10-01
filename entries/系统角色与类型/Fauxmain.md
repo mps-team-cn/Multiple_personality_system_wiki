@@ -20,9 +20,9 @@
 
 ## 相关条目
 
-- [主体（Main）](Main.md)
-- [宿主（Host）](Host.md)
-- [混合（Blending）](Blending.md)
+- [主体（Main）](entries/系统角色与类型/Main.md)
+- [宿主（Host）](entries/系统角色与类型/Host.md)
+- [混合（Blending）](entries/系统角色与类型/Blending.md)
 
 ## 参考与延伸阅读
 

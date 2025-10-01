@@ -21,9 +21,9 @@
 
 ## 相关条目
 
-- [守门人（Gatekeeper）](Admin.md)
-- [系统体验：权限（Permissions）](../系统体验与机制/Permissions.md)
-- [医源型系统（Iatrogenic System）](Iatrogenic-System.md)
+- [守门人（Gatekeeper）](entries/系统角色与类型/Gatekeeper.md)
+- [系统体验：权限（Permissions）](entries/系统体验与机制/Permissions.md)
+- [医源型系统（Iatrogenic System）](entries/系统角色与类型/Iatrogenic-System.md)
 
 ## 参考与延伸阅读
 

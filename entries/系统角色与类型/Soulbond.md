@@ -21,9 +21,9 @@
 
 ## 相关条目
 
-- [特殊认同（Alterhuman）](Alterhuman.md)
-- [人格面具（Persona）](Persona.md)
-- [碎片（Fragment）](Fragment.md)
+- [特殊认同（Alterhuman）](entries/系统角色与类型/Alterhuman.md)
+- [人格面具（Persona）](entries/系统角色与类型/Persona.md)
+- [碎片（Fragment）](entries/系统角色与类型/Fragment.md)
 
 ## 参考与延伸阅读
 

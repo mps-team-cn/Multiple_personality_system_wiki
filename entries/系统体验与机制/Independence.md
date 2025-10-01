@@ -25,9 +25,9 @@
 
 ## 相关条目
 
-- [主体（Main）](../系统角色与类型/Main.md)
-- [权限（Permissions）](Permissions.md)
-- [融合（Fusion）](Fusion.md)
+- [主体（Main）](entries/系统角色与类型/Main.md)
+- [权限（Permissions）](entries/系统体验与机制/Permissions.md)
+- [融合（Fusion）](entries/系统体验与机制/Fusion.md)
 
 ## 参考与延伸阅读
 

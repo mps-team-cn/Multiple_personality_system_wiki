@@ -21,9 +21,9 @@
 
 ## 相关条目
 
-- [宿主（Host）](Host.md)
-- [管理者（Admin）](Admin.md)
-- [伪主体（Fauxmain）](Fauxmain.md)
+- [宿主（Host）](entries/系统角色与类型/Host.md)
+- [管理者（Admin）](entries/系统角色与类型/Admin.md)
+- [伪主体（Fauxmain）](entries/系统角色与类型/Fauxmain.md)
 
 ## 参考与延伸阅读
 

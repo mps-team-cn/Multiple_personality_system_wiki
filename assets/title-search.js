@@ -55,6 +55,18 @@
       paths.add(homepage);
     }
 
+    const indexFile = "index.md";
+    const normalizedIndex = normalizePath(indexFile);
+    if (normalizedIndex) {
+      paths.add(normalizedIndex);
+      try {
+        const indexText = await fetchText(joinUrl(base, indexFile));
+        parseSidebarLinks(indexText, paths);
+      } catch (error) {
+        console.warn("[title-search] 无法加载索引", error);
+      }
+    }
+
     const sidebarFile = resolveSidebarFile(vm.config.loadSidebar);
     if (sidebarFile) {
       try {
