@@ -5,6 +5,8 @@
   --c-muted: #6b7280;         /* 次要文字 */
   --c-bg: #ffffff;            /* 背景 */
   --c-card: #f7f9fc;          /* 卡片浅底 */
+  --c-sidebar: #f1f5f9;       /* 侧边栏背景 */
+  --c-divider: color-mix(in oklab, var(--c-muted) 18%, transparent);
   --radius: 16px;
   --shadow: 0 6px 24px rgba(0,0,0,.08);
 }
@@ -14,6 +16,8 @@
   --c-muted: #9CA3AF;
   --c-bg: #0f172a;            /* 暗色深蓝灰 */
   --c-card: #111827;
+  --c-sidebar: #0b1220;
+  --c-divider: color-mix(in oklab, var(--c-muted) 22%, transparent);
   --shadow: 0 8px 28px rgba(0,0,0,.35);
 }
 
@@ -44,18 +48,64 @@ html, body{
 .app-nav{
   backdrop-filter: saturate(150%) blur(8px);
   background: color-mix(in oklab, var(--c-bg) 85%, transparent);
-  border-bottom: 1px solid color-mix(in oklab, var(--c-muted) 15%, transparent);
+  border-bottom: 1px solid var(--c-divider);
 }
 
 /* 侧边栏与卡片 */
 .sidebar{
-  border-right: none;
+  background: var(--c-sidebar);
+  color: var(--c-text);
+  border-right: 1px solid var(--c-divider);
+  transition: background .2s ease;
+}
+.sidebar .sidebar-nav{
+  background: transparent;
 }
 .sidebar ul li a{
+  color: var(--c-text);
   border-radius: 10px;
+  transition: background .2s ease, color .2s ease;
 }
 .sidebar ul li a:hover{
-  background: color-mix(in oklab, var(--c-brand) 10%, transparent);
+  background: color-mix(in oklab, var(--c-brand) 12%, transparent);
+}
+.sidebar ul li.active > a{
+  background: color-mix(in oklab, var(--c-brand) 18%, var(--c-card));
+  color: var(--c-text);
+}
+.sidebar .search{
+  border-bottom: 1px solid var(--c-divider);
+}
+.sidebar .search .input-wrap{
+  background: color-mix(in oklab, var(--c-bg) 88%, transparent);
+  border-radius: 999px;
+  border: 1px solid color-mix(in oklab, var(--c-muted) 22%, transparent);
+}
+.sidebar .search input{
+  background: transparent;
+  color: var(--c-text);
+}
+.sidebar .search input::placeholder{
+  color: var(--c-muted);
+}
+.sidebar .search .results-panel{
+  background: var(--c-card);
+  border: 1px solid color-mix(in oklab, var(--c-muted) 18%, transparent);
+  box-shadow: var(--shadow);
+}
+.sidebar .search .results-panel a{
+  color: var(--c-text);
+}
+.sidebar .search .results-panel p{
+  color: var(--c-muted);
+}
+.sidebar-toggle{
+  background: var(--c-sidebar);
+  border-color: var(--c-divider);
+  color: var(--c-text);
+}
+.sidebar-toggle span{
+  background-color: var(--c-text);
 }
 
 /* 封面页 */
