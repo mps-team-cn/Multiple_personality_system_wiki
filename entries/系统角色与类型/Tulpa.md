@@ -22,6 +22,12 @@
 - **同意与界限**：实践者普遍认同 tulpa 具有“自主性”，因此强调尊重 tulpa 的意愿、避免强迫性消除或对抗。讨论常涉及宿主与 tulpa 对身体使用权、隐私与恋爱关系的协商，以及在外部关系中公开系统身份的风险。
 - **与临床的对话**：部分心理专业人士建议在咨询中了解 tulpa 互动对功能的影响，并评估是否与解离症状交互。支持性治疗可聚焦于提升系统的自我关怀、沟通与外部支持网络。
 
+## 关联词条
+
+- [宿主（Host）](entries/系统角色与类型/Host.md)
+- [傀儡（Servitor）](entries/系统角色与类型/Servitor.md)
+- [T 语（Tulpish）](entries/系统体验与机制/Tulpish.md)
+
 ## 参考资料
 
 [^veissiere2016]: Veissière, S. P. L. (2016). Varieties of Tulpa experiences: Sentient imaginary friends, embodied joint-agents, and hypnotic social agents. *Anthropology of Consciousness, 27*(2), 213–239.
