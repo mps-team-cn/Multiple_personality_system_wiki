@@ -73,31 +73,76 @@ html, body{
   background: color-mix(in oklab, var(--c-brand) 18%, var(--c-card));
   color: var(--c-text);
 }
-.sidebar .search{
+.title-search{
+  padding: 16px 18px 12px;
   border-bottom: 1px solid var(--c-divider);
 }
-.sidebar .search .input-wrap{
-  background: color-mix(in oklab, var(--c-bg) 88%, transparent);
+.title-search__input{
+  width: 100%;
+  padding: 10px 14px;
   border-radius: 999px;
   border: 1px solid color-mix(in oklab, var(--c-muted) 22%, transparent);
-}
-.sidebar .search input{
-  background: transparent;
+  background: color-mix(in oklab, var(--c-bg) 88%, transparent);
   color: var(--c-text);
+  transition: border-color .2s ease, box-shadow .2s ease;
 }
-.sidebar .search input::placeholder{
+.title-search__input:focus{
+  outline: none;
+  border-color: color-mix(in oklab, var(--c-brand) 40%, transparent);
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--c-brand) 15%, transparent);
+}
+.title-search__input::placeholder{
   color: var(--c-muted);
 }
-.sidebar .search .results-panel{
+.title-search__results{
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+  max-height: 320px;
+  overflow-y: auto;
   background: var(--c-card);
+  border-radius: 16px;
   border: 1px solid color-mix(in oklab, var(--c-muted) 18%, transparent);
   box-shadow: var(--shadow);
+  display: none;
 }
-.sidebar .search .results-panel a{
-  color: var(--c-text);
+.title-search__results.is-open{
+  display: block;
 }
-.sidebar .search .results-panel p{
+.title-search__item{
+  padding: 10px 14px;
+  border-bottom: 1px solid color-mix(in oklab, var(--c-muted) 15%, transparent);
+}
+.title-search__item:last-child{
+  border-bottom: none;
+}
+.title-search__item--empty{
   color: var(--c-muted);
+  text-align: center;
+}
+.title-search__link{
+  display: block;
+  font-weight: 600;
+  color: var(--c-text);
+  margin-bottom: 4px;
+}
+.title-search__link:hover{
+  color: var(--c-brand);
+}
+.title-search__meta{
+  display: block;
+  font-size: 13px;
+  color: var(--c-muted);
+}
+.title-search__results::-webkit-scrollbar{
+  width: 6px;
+}
+.title-search__results::-webkit-scrollbar-thumb{
+  background: color-mix(in oklab, var(--c-muted) 25%, transparent);
+  border-radius: 999px;
+}
+.title-search__results::-webkit-scrollbar-track{
+  background: transparent;
 }
 .sidebar-toggle{
   background: var(--c-sidebar);
