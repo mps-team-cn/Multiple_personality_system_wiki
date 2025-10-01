@@ -21,9 +21,9 @@
 
 ## 相关条目
 
-- [内部自助者（ISH）](Internal-Self-Helper-ISH.md)
-- [解离性身份障碍（DID）](../诊断与临床/DID.md)
-- [融合（Fusion）](../系统体验与机制/Fusion.md)
+- [内部自助者（ISH）](entries/系统角色与类型/Internal-Self-Helper-ISH.md)
+- [解离性身份障碍（DID）](entries/诊断与临床/DID.md)
+- [融合（Fusion）](entries/系统体验与机制/Fusion.md)
 
 ## 参考与延伸阅读
 

@@ -24,9 +24,9 @@
 
 ## 相关条目
 
-- [图帕（Tulpa）](tulpa.md)
-- [管理者（Admin）](Admin.md)
-- [伪主体（Fauxmain）](Fauxmain.md)
+- [图帕（Tulpa）](entries/系统角色与类型/Tulpa.md)
+- [管理者（Admin）](entries/系统角色与类型/Admin.md)
+- [伪主体（Fauxmain）](entries/系统角色与类型/Fauxmain.md)
 
 ## 参考与延伸阅读
 

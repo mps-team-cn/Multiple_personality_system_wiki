@@ -35,7 +35,7 @@
 
 ## 相关条目
 
-- 守门人（Gatekeeper）
+- [守门人（Gatekeeper）](entries/系统角色与类型/Gatekeeper.md)
 - [内部自助者（ISH）](entries/系统角色与类型/Internal-Self-Helper-ISH.md)
 - [权限（Permissions）](entries/系统体验与机制/Permissions.md)
 - [伪主体（Fauxmain）](entries/系统角色与类型/Fauxmain.md)

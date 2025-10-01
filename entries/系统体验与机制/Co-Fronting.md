@@ -22,7 +22,7 @@
 
 ## 相关条目
 
-- 参见：[前台（Front / Fronting）](Front-Fronting.md)、[切换（Switch）](Switch.md)、[混合（Blending）](../系统角色与类型/Blending.md)
+- 参见：[前台（Front / Fronting）](entries/系统体验与机制/Front-Fronting.md)、[切换（Switch）](entries/系统体验与机制/Switch.md)、[混合（Blending）](entries/系统角色与类型/Blending.md)
 
 ## 参考与延伸阅读
 

@@ -25,9 +25,9 @@ Memory Shielding、Amnesiacflux、屏蔽记忆
 
 ## 相关条目
 
-- [独有记忆（Exomemory）](Exomemory.md)
-- [权限（Permissions）](Permissions.md)
-- [封存（Sequestration）](Sequestration.md)
+- [独有记忆（Exomemory）](entries/系统体验与机制/Exomemory.md)
+- [权限（Permissions）](entries/系统体验与机制/Permissions.md)
+- [封存（Sequestration）](entries/系统体验与机制/Sequestration.md)
 
 ## 参考与延伸阅读
 

@@ -24,9 +24,9 @@
 
 ## 相关条目
 
-- [图帕（Tulpa）](../系统角色与类型/Tulpa.md)
-- [冥想（Meditation）](../实践与支持/Meditation.md)
-- [存在感（Sense of Presence）](Sense-Of-Presence.md)
+- [图帕（Tulpa）](entries/系统角色与类型/Tulpa.md)
+- [冥想（Meditation）](entries/实践与支持/Meditation.md)
+- [存在感（Sense of Presence）](entries/系统体验与机制/Sense-Of-Presence.md)
 
 ## 参考与延伸阅读
 
