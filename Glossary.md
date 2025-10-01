@@ -36,7 +36,6 @@
 | [Depressive Disorders](entries/诊断与临床/Depressive-Disorders.md)                                | 抑郁障碍        | 泛指以持续情绪低落、兴趣缺失与认知改变为核心的障碍。           |
 | [DID](entries/诊断与临床/DID.md)                                              | 解离性身份障碍     | 一种解离性障碍，特征为身份状态与记忆的显著分离，可能伴随失忆与功能受损。 |
 | [Dissociation](entries/系统体验与机制/Dissociation.md)                                        | 解离          | 强调意识、记忆、感受或身份之间产生分离的体验。              |
-| [Alcohol-Induced Dissociation](entries/系统体验与机制/Alcohol-Induced-Dissociation.md)         | 醉酒解离        | 酒精摄入诱发的解离体验，需与一般醉酒或酒精性断片区分。       |
 | [Dissociative Amnesia](entries/诊断与临床/Dissociative-Amnesia-DA.md)                               | 解离性遗忘       | 指无法回忆重要个人信息的解离症状，常与创伤事件关联。           |
 | [Exomemory](entries/系统体验与机制/Exomemory.md)                                         | 独有记忆        | 仅对特定成员可访问、对其他成员呈现空白的记忆集合。            |
 | [External Projection](entries/系统体验与机制/External-Projection.md)                                | 外投射         | 描述将内部成员体验感知为外部感官或实体的状态。              |
