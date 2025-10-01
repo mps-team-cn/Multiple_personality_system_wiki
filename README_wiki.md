@@ -32,7 +32,7 @@
 ## 🧭 入口与索引
 
 - [目录索引](index.md)
-- [术语表（Glossary）](glossary.md)
+- [术语表（Glossary）](Glossary.md)
 - [更新日志](changelog.md)
 
 ---
