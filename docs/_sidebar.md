@@ -1,24 +1,16 @@
 - **总览**
   - [首页](/README.md)
-  - [使用指南](/guide/usage.md)
-  - [贡献方式](/contribute.md)
+  - [术语索引](index.md)
 
 - **核心词条**
   - [多重意识体基础](/entries/plurality-basics.md)
-  - [解离性身份障碍（DID）](/entries/did.md)
-  - [部分解离性身份障碍（Partial DID）](/entries/partial-did.md)
-  - [ANP / EP 模型](/entries/anp-ep.md)
-  - [系统语录](/entries/system-quotes.md)
+  - [解离性身份障碍（DID）](</entries/诊断与临床/解离性身份障碍.md>)
+  - [部分解离性身份障碍（Partial DID）](</entries/诊断与临床/部分解离性身份障碍.md>)
+  - [ANP / EP 模型](</entries/系统体验与机制/ANP-EP 模型.md>)
 
 - **实践指南**
-  - [安全计划](/practice/safety-plan.md)
-  - [前台管理与交流](/practice/fronting.md)
-  - [危机应对](/practice/crisis.md)
+  - [接地练习](</entries/实践与支持/接地.md>)
+  - [冥想入门](</entries/实践与支持/冥想.md>)
 
 - **参考资料**
-  - [术语表](/ref/glossary.md)
-  - [文献与链接](/ref/links.md)
-
-- **项目**
-  - [更新记录](/changelog.md)
-  - [关于项目](/about/mission.md)
+  - [词条索引](index.md)
