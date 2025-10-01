@@ -55,6 +55,7 @@ tools/
 ## 在线浏览（Docsify + GitHub Pages）
 
 - **直接预览**：仓库根目录新增的 [`index.html`](index.html) 基于 Docsify，即可在任何静态服务器或 GitHub Pages 中即时渲染 Markdown。推送到 `main` 分支后，在仓库的 “Settings → Pages” 中选择 `Deploy from a branch` 与根目录（`/`），即可获得在线阅读地址。
+- **避免 Jekyll 过滤**：若部署到 GitHub Pages，请确保根目录存在 `.nojekyll` 文件（本仓库已在 `docs/` 目录提供），以便保留 `_sidebar.md`、`_coverpage.md` 等以下划线开头的 Docsify 资源。
 - **国内访问提示**：Docsify 依赖 jsDelivr 的 CDN，国内偶尔会存在访问波动。如需更稳定的访问速度，可在自己的分叉中改用 [unpkg](https://unpkg.com/docsify) 或配置自托管的静态资源。
 - **本地验证**：若需在本地检视样式，推荐使用 Docsify 官方 CLI（`npx docsify serve .`）或任意静态服务器（如 `python -m http.server`）启动预览，再访问 `http://localhost:3000`（或对应端口）。
 
