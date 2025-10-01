@@ -1,4 +1,4 @@
 * 快速入口
-  * [首页](README_wiki.md)
+  * [首页](#/README_wiki)
   * [术语索引](index.md)
   * [GitHub 仓库](https://github.com/kuliantnt/plurality_wiki)
