@@ -183,14 +183,6 @@
           onlyCover: false,
           homepage: "README_wiki.md",
 
-          // 搜索
-          search: {
-            paths: "auto",
-            placeholder: "搜索文档…",
-            noData: "没有找到结果",
-            depth: 4,
-          },
-
           // 自定义 404 页面
           notFoundPage: "_404.md",
 
@@ -229,11 +221,13 @@
       })();
     </script>
 
+    <!-- 自定义标题搜索（需在 Docsify 启动前注册插件） -->
+    <script src="./assets/title-search.js"></script>
+
     <!-- Docsify 核心 -->
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
 
-    <!-- 插件：搜索 / 复制代码 / 图片缩放 / 分页 / emoji -->
-    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+    <!-- 插件：复制代码 / 图片缩放 / 分页 / emoji -->
     <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
