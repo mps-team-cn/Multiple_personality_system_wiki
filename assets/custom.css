@@ -1,6 +1,6 @@
 :root{
-  --c-brand: #5B8DEF;         /* 主色：雾蓝 */
-  --c-accent: #FF4D8D;        /* 强调：品红 */
+  --c-brand: #4FC08D;         /* 主色：青翠绿（参考 Evernote 暗色主题） */
+  --c-accent: #8B9EFF;        /* 强调：冷紫 */
   --c-text: #1f2937;          /* 正文深灰 */
   --c-muted: #6b7280;         /* 次要文字 */
   --c-bg: #ffffff;            /* 背景 */
@@ -12,13 +12,13 @@
 }
 
 :root.dark{
-  --c-text: #E5E7EB;
-  --c-muted: #9CA3AF;
-  --c-bg: #0f172a;            /* 暗色深蓝灰 */
-  --c-card: #1f2937;          /* 调高亮度以提升层次 */
-  --c-sidebar: #111c2f;
-  --c-divider: color-mix(in oklab, var(--c-muted) 26%, transparent);
-  --shadow: 0 8px 28px rgba(0,0,0,.38);
+  --c-text: #E7EDF7;
+  --c-muted: #96A5C2;
+  --c-bg: #141B23;            /* 深靛蓝基底 */
+  --c-card: #1E2532;          /* 卡片略亮，保持层次 */
+  --c-sidebar: #161E2A;       /* 侧边栏稍深以区隔内容 */
+  --c-divider: color-mix(in oklab, var(--c-muted) 32%, transparent);
+  --shadow: 0 16px 40px rgba(0,0,0,.48);
 }
 
 /* 全局重置与排版 */
@@ -73,6 +73,14 @@ html, body{
   background: color-mix(in oklab, var(--c-brand) 18%, var(--c-card));
   color: var(--c-text);
 }
+:root.dark .sidebar ul li a:hover{
+  background: color-mix(in oklab, var(--c-brand) 22%, rgba(20,27,35,.6));
+  color: var(--c-text);
+}
+:root.dark .sidebar ul li.active > a{
+  background: color-mix(in oklab, var(--c-brand) 28%, rgba(30,37,50,.85));
+  box-shadow: 0 10px 28px rgba(79,192,141,.28);
+}
 .title-search{
   padding: 16px 18px 12px;
   border-bottom: 1px solid var(--c-divider);
@@ -85,6 +93,14 @@ html, body{
   background: color-mix(in oklab, var(--c-bg) 88%, transparent);
   color: var(--c-text);
   transition: border-color .2s ease, box-shadow .2s ease;
+}
+:root.dark .title-search__input{
+  background: color-mix(in oklab, var(--c-card) 74%, rgba(20,27,35,.45));
+  border-color: color-mix(in oklab, var(--c-muted) 32%, transparent);
+}
+:root.dark .title-search__input:focus{
+  border-color: color-mix(in oklab, var(--c-brand) 52%, transparent);
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--c-brand) 24%, transparent);
 }
 .title-search__input:focus{
   outline: none;
@@ -112,6 +128,13 @@ html, body{
 .title-search__item{
   padding: 10px 14px;
   border-bottom: 1px solid color-mix(in oklab, var(--c-muted) 15%, transparent);
+}
+:root.dark .title-search__results{
+  background: color-mix(in oklab, var(--c-card) 88%, rgba(20,27,35,.4));
+  border: 1px solid color-mix(in oklab, var(--c-muted) 34%, transparent);
+}
+:root.dark .title-search__item{
+  border-bottom: 1px solid color-mix(in oklab, var(--c-muted) 24%, transparent);
 }
 .title-search__item:last-child{
   border-bottom: none;
@@ -214,6 +237,7 @@ button, .cover .buttons a{
   border-radius: 14px;
   box-shadow: var(--shadow);
   background: var(--c-card);
+  border: 1px solid color-mix(in oklab, var(--c-muted) 18%, transparent);
 }
 .markdown-section table th,
 .markdown-section table td{
@@ -227,11 +251,16 @@ button, .cover .buttons a{
 .markdown-section table tbody tr:nth-child(even){
   background: color-mix(in oklab, var(--c-card) 92%, transparent);
 }
+:root.dark .markdown-section table{
+  border: 1px solid color-mix(in oklab, var(--c-muted) 32%, transparent);
+}
 :root.dark .markdown-section table thead{
-  background: color-mix(in oklab, var(--c-brand) 24%, var(--c-card));
+  background: color-mix(in oklab, var(--c-brand) 24%, rgba(30,37,50,.92));
+  color: #F0F6FF;
 }
 :root.dark .markdown-section table tbody tr:nth-child(even){
-  background: color-mix(in oklab, var(--c-card) 82%, rgba(255,255,255,.04));
+  background: color-mix(in oklab, rgba(79,192,141,.18) 45%, var(--c-card));
+
 }
 
 /* 代码块 */
