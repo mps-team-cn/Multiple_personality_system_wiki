@@ -59,6 +59,11 @@
           nextText: "下一页",
           crossChapter: true,
         },
+
+        alias: {
+          '/entries/(.*)': '../entries/$1',
+          'entries/(.*)': '../entries/$1',
+        },
       };
 
       // 简易暗黑模式开关（写一个全局 class）
