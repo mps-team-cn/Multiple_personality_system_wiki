@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4d7cfe" />
+      <stop offset="100%" stop-color="#6ed0ff" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="url(#g)" />
+  <text
+    x="50%"
+    y="50%"
+    text-anchor="middle"
+    dominant-baseline="central"
+    font-family="'Source Sans Pro', 'Noto Sans SC', sans-serif"
+    font-weight="700"
+    font-size="28"
+    fill="#ffffff"
+  >PW</text>
+</svg>
