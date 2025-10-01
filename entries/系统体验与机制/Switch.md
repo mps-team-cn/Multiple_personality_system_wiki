@@ -22,7 +22,7 @@
 
 ## 相关条目
 
-- 参见：[前台（Front / Fronting）](Front-Fronting.md)、[共前台（Co-fronting）](Co-Fronting.md)、[解离（Dissociation）](Dissociation.md)
+- 参见：[前台（Front / Fronting）](entries/系统体验与机制/Front-Fronting.md)、[共前台（Co-fronting）](entries/系统体验与机制/Co-Fronting.md)、[解离（Dissociation）](entries/系统体验与机制/Dissociation.md)
 
 ## 参考与延伸阅读
 

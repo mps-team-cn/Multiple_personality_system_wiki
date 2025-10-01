@@ -23,9 +23,9 @@
 
 ## 相关条目
 
-- [头压（Head Pressure）](Head-Pressure.md)
-- [冥想（Meditation）](../实践与支持/Meditation.md)
-- [存在感（Sense of Presence）](Sense-Of-Presence.md)
+- [头压（Head Pressure）](entries/系统体验与机制/Head-Pressure.md)
+- [冥想（Meditation）](entries/实践与支持/Meditation.md)
+- [存在感（Sense of Presence）](entries/系统体验与机制/Sense-Of-Presence.md)
 
 ## 参考与延伸阅读
 

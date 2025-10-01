@@ -36,10 +36,10 @@
 
 ## 相关条目
 
-- [解离](./Dissociation.md)
-- [应激反应](./Stress-Response.md)
-- [整合](./Integration.md)
-- [意识共存](./Co-Consciousness.md)
+- [解离](entries/系统体验与机制/Dissociation.md)
+- [应激反应](entries/系统体验与机制/Stress-Response.md)
+- [整合](entries/系统体验与机制/Integration.md)
+- [意识共存](entries/系统体验与机制/Co-Consciousness.md)
 
 ## 参考资料
 

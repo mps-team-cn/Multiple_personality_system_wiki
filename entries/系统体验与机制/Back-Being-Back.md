@@ -22,7 +22,7 @@
 
 ## 相关条目
 
-- 参见：[前台（Front / Fronting）](Front-Fronting.md)、[共前台（Co-fronting）](Co-Fronting.md)、[内部空间（Headspace / Inner World）](Headspace-Inner-World.md)、[切换（Switch）](Switch.md)
+- 参见：[前台（Front / Fronting）](entries/系统体验与机制/Front-Fronting.md)、[共前台（Co-fronting）](entries/系统体验与机制/Co-Fronting.md)、[内部空间（Headspace / Inner World）](entries/系统体验与机制/Headspace-Inner-World.md)、[切换（Switch）](entries/系统体验与机制/Switch.md)
 
 ## 参考与延伸阅读
 
