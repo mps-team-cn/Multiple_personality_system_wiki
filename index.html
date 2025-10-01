@@ -32,6 +32,34 @@
           "/.*/_sidebar.md": "_sidebar.md",
         };
 
+        const canonicalizeHash = () => {
+          const { hash } = window.location;
+          if (!hash || !hash.startsWith("#/")) return;
+
+          const [rawPath, query = ""] = hash.slice(2).split("?");
+          const segments = rawPath.split("/").filter(Boolean);
+          const stack = [];
+
+          for (const segment of segments) {
+            if (segment === "..") {
+              if (stack.length) stack.pop();
+            } else if (segment !== ".") {
+              stack.push(segment);
+            }
+          }
+
+          const normalizedPath = stack.join("/");
+          const normalizedHash =
+            "#/" + normalizedPath + (query ? `?${query}` : "");
+
+          if (normalizedHash !== hash) {
+            history.replaceState(null, "", normalizedHash);
+          }
+        };
+
+        window.addEventListener("hashchange", canonicalizeHash);
+        canonicalizeHash();
+
         window.$docsify = {
           name: "多意识体Wikipedia",
           repo: "kuliantnt/plurality_wiki",
