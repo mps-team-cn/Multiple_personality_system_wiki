@@ -22,7 +22,7 @@
 
 ## 相关条目
 
-- 参见：[系统（System）](系统.md)、[成员（Alter）](../系统角色与类型/成员.md)、[接地（Grounding）](../实践与支持/接地.md)
+- 参见：[系统（System）](System.md)、[成员（Alter）](../系统角色与类型/Alter.md)、[接地（Grounding）](../实践与支持/Grounding.md)
 
 ## 参考与延伸阅读
 

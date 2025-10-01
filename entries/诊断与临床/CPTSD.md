@@ -89,11 +89,11 @@ CPTSD 与抑郁障碍、焦虑障碍、物质使用障碍、解离性障碍、�
 
 ## 相关条目
 
-- [创伤后应激障碍](创伤后应激障碍.md)
-- [解离性身份障碍](解离性身份障碍.md)
-- [解离性遗忘](解离性遗忘.md)
-- [人格解体/现实解体障碍](人格解体现实解体障碍.md)
-- [边缘性人格障碍](边缘性人格障碍.md)
+- [创伤后应激障碍](PTSD.md)
+- [解离性身份障碍](DID.md)
+- [解离性遗忘](Dissociative-Amnesia-DA.md)
+- [人格解体/现实解体障碍](Depersonalization-Derealization-Disorder-DPDR.md)
+- [边缘性人格障碍](Borderline-Personality-Disorder-BPD.md)
 
 ## 参考
 
