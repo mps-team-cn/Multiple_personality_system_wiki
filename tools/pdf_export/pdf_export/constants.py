@@ -1,4 +1,4 @@
-"""Module containing constant values used across the exporter."""
+"""集中管理导出流程会用到的常量配置，便于统一维护。"""
 
 from __future__ import annotations
 

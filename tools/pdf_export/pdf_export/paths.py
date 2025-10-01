@@ -1,4 +1,4 @@
-"""Path helpers for the PDF exporter."""
+"""提供 PDF 导出脚本使用的路径常量，保证目录定位一致。"""
 
 from __future__ import annotations
 

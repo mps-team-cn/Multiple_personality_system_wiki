@@ -1,4 +1,4 @@
-"""Dataclasses and type aliases used by the exporter."""
+"""导出流程中共享的数据结构与类型别名定义。"""
 
 from __future__ import annotations
 
@@ -12,13 +12,13 @@ CategoryStructure = Sequence[tuple[str, Sequence[Path]]]
 
 @dataclass(frozen=True)
 class IgnoreRules:
-    """A minimal set of ignore rules similar to ``.gitignore``."""
+    """表示与 ``.gitignore`` 类似的忽略规则集合。"""
 
     files: frozenset[Path]
     directories: frozenset[Path]
 
     def matches(self, path: Path) -> bool:
-        """Return ``True`` if ``path`` should be skipped when exporting."""
+        """判断 ``path`` 是否应在导出时被跳过。"""
 
         resolved = path.resolve()
         if resolved in self.files:
@@ -32,7 +32,7 @@ class IgnoreRules:
 
 @dataclass
 class PandocExportError(RuntimeError):
-    """Raised when Pandoc fails to render the combined markdown."""
+    """当 Pandoc 渲染合并后的 Markdown 失败时抛出的异常。"""
 
     command: Sequence[str]
     stderr: str

@@ -1,4 +1,4 @@
-"""PDF export package for the Plurality Wiki project."""
+"""Plurality Wiki PDF 导出功能的包入口，集中暴露公共接口。"""
 
 from .cli import main
 

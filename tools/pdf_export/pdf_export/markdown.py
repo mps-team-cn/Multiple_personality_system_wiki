@@ -1,4 +1,4 @@
-"""Helpers for building the combined markdown document."""
+"""组合 Markdown 内容、生成目录与封面等辅助函数集合。"""
 
 from __future__ import annotations
 
@@ -25,13 +25,13 @@ LATEX_SPECIAL_CHARS = {
 
 
 def escape_latex(text: str) -> str:
-    """Escape LaTeX special characters in ``text``."""
+    """对 ``text`` 中的 LaTeX 特殊字符做转义。"""
 
     return "".join(LATEX_SPECIAL_CHARS.get(ch, ch) for ch in text)
 
 
 def infer_entry_title(path: Path) -> str:
-    """Best-effort guess of an entry's display title."""
+    """尽力从条目文件推断展示标题，失败时回退到文件名。"""
 
     heading_pattern = re.compile(r"^#{1,6}\s+(?P<title>.+?)\s*$")
     try:
@@ -46,7 +46,7 @@ def infer_entry_title(path: Path) -> str:
 
 
 def shift_heading_levels(markdown: str, offset: int) -> str:
-    """Increase heading levels by ``offset`` while keeping Pandoc fences intact."""
+    """将所有标题级别整体上移 ``offset``，同时保留 Pandoc 代码块。"""
 
     if offset == 0:
         return markdown
@@ -62,7 +62,7 @@ def shift_heading_levels(markdown: str, offset: int) -> str:
 
 
 def build_entry_anchor(path: Path) -> str:
-    """Return a stable anchor identifier for ``path`` within the combined PDF."""
+    """基于路径生成稳定锚点，确保合并文档中的引用可重复。"""
 
     relative = path.relative_to(PROJECT_ROOT)
     digest = hashlib.sha1(relative.as_posix().encode("utf-8")).hexdigest()[:10]
@@ -70,7 +70,7 @@ def build_entry_anchor(path: Path) -> str:
 
 
 def strip_primary_heading(content: str, title: str) -> str:
-    """Remove the first heading that matches ``title`` from ``content``."""
+    """移除与 ``title`` 相同的首个标题，避免重复标题干扰。"""
 
     heading_re = re.compile(rf"^#{{1,6}}\s+{re.escape(title)}\s*$")
     lines = content.splitlines()
@@ -98,10 +98,10 @@ def build_cover_page(
     date_text: str | None,
     footer_text: str | None,
 ) -> str:
-    """Return a standalone cover page using LaTeX's titlepage environment."""
+    """使用 LaTeX ``titlepage`` 环境构建封面页。"""
 
     def _format_line(size_command: str, text: str) -> str:
-        """Render ``text`` inside a LaTeX sizing command."""
+        """以指定字号指令渲染 ``text``，同时完成转义。"""
 
         escaped = escape_latex(text.strip())
         return f"{{{size_command} {escaped}\\par}}"
@@ -143,7 +143,7 @@ def build_cover_page(
 
 
 def build_directory_page(structure: CategoryStructure) -> str:
-    """Construct a table-of-contents page based on README categories."""
+    """根据 README/目录结构生成目录页内容。"""
 
     lines: list[str] = ["# 目录", ""]
 
@@ -169,7 +169,7 @@ def build_combined_markdown(
     cover_date: str | None,
     cover_footer: str | None,
 ) -> str:
-    """Combine all markdown files into a single string."""
+    """将所有 Markdown 文件拼接为单一字符串供 Pandoc 使用。"""
 
     parts: list[str] = []
 
