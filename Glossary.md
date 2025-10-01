@@ -27,6 +27,7 @@
 | [Co-fronting](entries/系统体验与机制/Co-Fronting.md)                                        | 共前台         | 描述多位成员同时在前台协作掌控身体的状态。                |
 | [Consciousness Modification](entries/系统体验与机制/Consciousness-Modification.md)                        | 意识修改        | 指通过练习调整觉察、边界或前台访问方式的技巧。              |
 | [Core](entries/系统角色与类型/Core.md)                                                | 核心          | 常指被视为最贴近系统原初身份或价值观的成员或结构。            |
+| [Caregiver](entries/系统角色与类型/Caregiver.md)                                      | 照顾者        | 负责情感支持与养育性照料，协助维持系统稳定。              |
 | [Emmengard Classification](entries/系统角色与类型/Emmengard-Classification.md)          | 埃蒙加德分类法    | 社群自我认同框架，依据系统形成来源与发展路径划分标签。          |
 | [CPTSD](entries/诊断与临床/CPTSD.md)                                         | 复杂性创伤后应激障碍  | 针对长期复杂创伤影响的诊断框架，强调持续性安全与支持需求。        |
 | [Depersonalization](entries/系统体验与机制/Depersonalization.md)                                  | 非我感         | 描述对自我或身体产生疏离、陌生感的现象。                 |
@@ -49,21 +50,28 @@
 | [Headspace / Inner World](entries/系统体验与机制/Headspace-Inner-World.md)                           | 内部空间、幻境、里空间 | 系统成员在内在世界中互动、聚会或构建场景的心象空间。           |
 | [Host](entries/系统角色与类型/Host.md)                                                | 宿主          | 常指最常出现在前台、负责外部生活事务的成员。               |
 | [Iatrogenic System](entries/系统角色与类型/Iatrogenic-System.md)                                | 医源型系统       | 指被认为因医疗、治疗或外部干预而形成或强化的系统。            |
+| [Imaginary Companion](entries/系统角色与类型/Imaginary-Companion.md)                            | 幻想伙伴        | 儿童常见的虚构朋友概念，需与图帕及系统成员区分。             |
 | [Independence](entries/系统体验与机制/Independence.md)                                       | 独立性         | 讨论成员在决策、情绪与生活功能上的自主程度。               |
 | [Integration](entries/系统体验与机制/Integration.md)                                         | 整合          | 强调提升成员协作、记忆连贯与功能稳定的长期目标。             |
 | [Internal Self Helper](entries/系统角色与类型/Internal-Self-Helper-ISH.md)                             | 内部自助者       | 在系统内承担辅导、调解与信息整合职责的成员原型。             |
 | [Intrusive Thoughts](entries/系统体验与机制/Intrusive-Thoughts.md)                               | 侵入性思维       | 描述突入意识、常伴焦虑或创伤主题的非自愿念头。              |
 | [Iteration](entries/系统体验与机制/Iteration.md)                                           | 迭代          | 用于记录系统内部的变更周期、角色调整或策略试验。             |
+| [Little / Child Part](entries/系统角色与类型/Little.md)                       | 小孩意识体       | 以童年视角感知世界、需要安全照护的成员。           |
 | [Main](entries/系统角色与类型/Main.md)                                                | 主体          | 社群常用来表示负责主要日常事务或决策的成员。               |
 | [Mania](entries/诊断与临床/Mania.md)                                       | 躁狂          | 情绪和能量显著高涨、睡眠需求减少、冲动决定或危险行为的状态。       |
 | [Meditation](entries/实践与支持/Meditation.md)                                            | 冥想          | 通过专注训练提升觉察、调节情绪与稳定前台状态的实践。           |
+| [Memory Holder](entries/系统角色与类型/Memory-Holder.md)                               | 记忆持有者       | 保管特定记忆或创伤片段的成员，需与治疗安全策略搭配。       |
 | [Memory Shielding](entries/系统体验与机制/Memory-Shielding.md)                                  | 记忆屏蔽        | 指成员为保护他人而限制或分隔特定记忆访问的机制。             |
 | [NPD](entries/诊断与临床/Narcissistic-Personality-Disorder-NPD.md)                                              | 自恋型人格障碍     | 以夸大、自我关注与共情困难为主要特征的人格模式。             |
 | [OCD](entries/诊断与临床/OCD.md)                                                  | 强迫症         | 以反复出现的强迫思维与强迫行为循环为核心特征的状态。           |
 | [OSDD](entries/诊断与临床/OSDD.md)                                           | 其他特定解离性障碍   | 涵盖未达到 DID 标准但存在显著身份或记忆分离的诊断类别。       |
+| [Original](entries/系统角色与类型/Original.md)                                  | 初始          | 指系统最早出现或被视为原始自我的成员，可能与宿主不同。     |
 | [Partial Dissociative Identity Disorder](entries/诊断与临床/Partial-Dissociative-Identity-Disorder-PDID.md)         | 部分解离性身份障碍   | 描述部分身份保持前台控制、仍保留连续意识体验的解离表现。         |
 | [Permissions](entries/系统体验与机制/Permissions.md)                                         | 权限          | 涉及系统内部对信息、前台或资源使用的授权规则。              |
+| [Persecutor](entries/系统角色与类型/Persecutor.md)                                | 迫害者        | 以防御为动机却可能采取敌对或自毁行为的成员。        |
+| [Performer / Executive](entries/系统角色与类型/Performer-Executive.md)             | 执行者        | 负责完成任务、管理外部事务的高功能成员。        |
 | [Persona](entries/系统角色与类型/Persona.md)                                           | 人格面具        | 指为特定情境塑造的社交或功能性面向。                   |
+| [Protector](entries/系统角色与类型/Protector.md)                                  | 保护者        | 聚焦安全与风险管理的成员，可分为内部与外部保护。      |
 | [Spontaneous](entries/系统角色与类型/Spontaneous.md)           | 自发型         | 埃蒙加德分类法标签之一，指系统自然显现或源自灵性、认知演化过程。    |
 | [Plurality](entries/系统体验与机制/Plurality.md)                                         | 多意识体        | 概括多个成员共享一具身体、协作生活的存在形态。              |
 | [Plurality Basics](entries/Plurality-Basics.md)                              | 多重意识体基础     | 面向新人介绍多意识体概念、术语与安全实践的入门资料。           |
@@ -80,8 +88,10 @@
 | [Stress Response](entries/系统体验与机制/Stress-Response.md)                                   | 应激反应        | 概括身心对压力事件的即时生理与心理反应。                 |
 | [Switch](entries/系统体验与机制/Switch.md)                                              | 切换          | 从一位成员过渡到另一位成员执掌前台的过程。                |
 | [System](entries/系统体验与机制/System.md)                                              | 系统          | 指拥有多个成员的整体个体，强调为一个协作的身份集合。           |
+| [System Roles](entries/系统角色与类型/System-Roles.md)                             | 人格职能        | 概括系统成员常见职能类别及其协作方式。           |
 | [Unknown](entries/系统角色与类型/Emmengard-Classification.md#未知型unknown)                  | 未知型         | 埃蒙加德分类法标签之一，指系统暂未掌握自身形成来源或仍在探索。    |
 | [Trauma](entries/诊断与临床/Trauma.md)                                                | 创伤          | 指超出个体当时应对能力的威胁性经历及其后效。               |
 | [Trigger](entries/系统体验与机制/Trigger.md)                                             | 触发          | 引发强烈情绪、记忆或症状反应的内外部线索，需要提前识别并准备应对策略。  |
 | [Tulpa](entries/系统角色与类型/Tulpa.md)                                            | 图帕、托帕       | 通过有意想象与练习培育出的自主意识伙伴，与系统成员共享身体协作。     |
+| [Teen Part](entries/系统角色与类型/Teen.md)                                   | 青少年意识体      | 呈现青春期特征、关注独立与探索的成员。            |
 | [Tulpish](entries/系统体验与机制/Tulpish.md)                                             | T 语         | 指图帕或成员在内部交流时使用的象征化、非语音沟通方式。          |
