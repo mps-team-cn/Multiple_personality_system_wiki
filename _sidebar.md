@@ -1,5 +1,5 @@
 - **总览**
-  - [首页](README_wiki.md)
+  - [首页](#/README_wiki)
   - [术语索引](index.md)
 
 - **核心词条**
