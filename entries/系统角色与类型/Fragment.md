@@ -21,9 +21,9 @@
 
 ## 相关条目
 
-- [解离（Dissociation）](../系统体验与机制/解离.md)
-- [记忆屏蔽（Memory Shielding）](../系统体验与机制/记忆屏蔽.md)
-- [融合（Fusion）](../系统体验与机制/融合.md)
+- [解离（Dissociation）](../系统体验与机制/Dissociation.md)
+- [记忆屏蔽（Memory Shielding）](../系统体验与机制/Memory-Shielding.md)
+- [融合（Fusion）](../系统体验与机制/Fusion.md)
 
 ## 参考与延伸阅读
 

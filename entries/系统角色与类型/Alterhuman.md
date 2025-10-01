@@ -21,9 +21,9 @@
 
 ## 相关条目
 
-- [系魂（Soulbond）](系魂.md)
-- [人格面具（Persona）](人格面具.md)
-- [碎片（Fragment）](碎片.md)
+- [系魂（Soulbond）](Soulbond.md)
+- [人格面具（Persona）](Persona.md)
+- [碎片（Fragment）](Fragment.md)
 
 ## 参考与延伸阅读
 

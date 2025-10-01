@@ -33,9 +33,9 @@ Integration，融合，最终融合（Final Fusion）
 
 ## 相关条目
 
-- [解离](./解离.md)
-- [融合](./融合.md)
-- [重构](./重构.md)
+- [解离](./Dissociation.md)
+- [融合](./Fusion.md)
+- [重构](./Reconstruction.md)
 
 ## 参考资料
 

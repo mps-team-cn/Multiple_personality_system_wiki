@@ -22,9 +22,9 @@
 
 ## 相关条目
 
-- [存在感（Sense of Presence）](存在感.md)
-- [内部空间（Headspace / Inner World）](内部空间.md)
-- [偏重（Bias）](偏重.md)
+- [存在感（Sense of Presence）](Sense-Of-Presence.md)
+- [内部空间（Headspace / Inner World）](Headspace-Inner-World.md)
+- [偏重（Bias）](Bias.md)
 
 ## 参考与延伸阅读
 
