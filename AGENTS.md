@@ -7,6 +7,7 @@
 - 更新或新增词条时，需同步维护 `index.md` 中的目录索引与 `README.md` 中的链接指向。
 - Markdown 文档采用一级标题表示词条名称，二级及以下标题依内容层级递增；若存在触发警示，请置于文首。
 - 提交前请检查 `ignore.md`，确保需要排除的文件已正确维护。
+- 若涉及 `docs/` 目录的 Docsify 配置，务必保留 `.nojekyll` 以防 GitHub Pages 过滤 `_sidebar.md`、`_coverpage.md` 等文件。
 
 ## PDF 导出脚本 (`tools/pdf_export/`)
 
