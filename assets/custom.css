@@ -233,13 +233,12 @@ button, .cover .buttons a{
   border-collapse: separate;
   border-spacing: 0;
   display: block;
-  width: max-content;
-  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
   border-radius: 14px;
   box-shadow: var(--shadow);
   background: var(--c-card);
   border: 1px solid color-mix(in oklab, var(--c-muted) 18%, transparent);
-  overflow: hidden;
   overflow-x: auto;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
@@ -248,6 +247,19 @@ button, .cover .buttons a{
 .markdown-section table td{
   padding: .6rem .8rem;
   border-bottom: 1px solid color-mix(in oklab, var(--c-muted) 18%, transparent);
+  white-space: nowrap;
+}
+.markdown-section table td:nth-child(3){
+  white-space: normal;
+  min-width: 320px;
+}
+.markdown-section table th:first-child,
+.markdown-section table td:first-child{
+  min-width: 220px;
+}
+.markdown-section table th:nth-child(2),
+.markdown-section table td:nth-child(2){
+  min-width: 140px;
 }
 .markdown-section table thead{
   background: color-mix(in oklab, var(--c-brand) 14%, var(--c-card));
