@@ -28,6 +28,7 @@
 
 ## 系统角色与类型
 
+- [人格职能（System Roles）](entries/系统角色与类型/System-Roles.md)
 - [主体（Main）](entries/系统角色与类型/Main.md)
 - [傀儡（Servitor）](entries/系统角色与类型/Servitor.md)
 - [内部自助者（ISH）](entries/系统角色与类型/Internal-Self-Helper-ISH.md)
@@ -38,6 +39,7 @@
 - [人格面具（Persona）](entries/系统角色与类型/Persona.md)
 - [伪主体（Fauxmain）](entries/系统角色与类型/Fauxmain.md)
 - [医源型系统（Iatrogenic System）](entries/系统角色与类型/Iatrogenic-System.md)
+- [幻想伙伴（Imaginary Companion）](entries/系统角色与类型/Imaginary-Companion.md)
 - [混合（Blending）](entries/系统角色与类型/Blending.md)
 - [碎片（Fragment）](entries/系统角色与类型/Fragment.md)
 - [超级破碎（Polyfragmented）](entries/系统角色与类型/Polyfragmented.md)
@@ -48,6 +50,14 @@
 - [埃蒙加德分类法（Emmengard Classification）](entries/系统角色与类型/Emmengard-Classification.md)
 - [适应型（Adaptive）](entries/系统角色与类型/Adaptive.md)
 - [自发型（Spontaneous）](entries/系统角色与类型/Spontaneous.md)
+- [初始（Original）](entries/系统角色与类型/Original.md)
+- [记忆持有者（Memory Holder）](entries/系统角色与类型/Memory-Holder.md)
+- [迫害者（Persecutor）](entries/系统角色与类型/Persecutor.md)
+- [小孩意识体（Little / Child Part）](entries/系统角色与类型/Little.md)
+- [青少年意识体（Teen Part）](entries/系统角色与类型/Teen.md)
+- [保护者（Protector）](entries/系统角色与类型/Protector.md)
+- [照顾者（Caregiver）](entries/系统角色与类型/Caregiver.md)
+- [执行者（Performer / Executive）](entries/系统角色与类型/Performer-Executive.md)
 
 ## 系统体验与机制
 
@@ -84,6 +94,7 @@
 - [自动驾驶（Autopilot）](entries/系统体验与机制/Autopilot.md)
 - [触发（Trigger）](entries/系统体验与机制/Trigger.md)
 - [退行（Regression in Psychology）](entries/系统体验与机制/Regression-In-Psychology.md)
+- [醉酒解离（Alcohol-Induced Dissociation）](entries/系统体验与机制/Alcohol-Induced-Dissociation.md)
 
 ## 实践与支持
 
