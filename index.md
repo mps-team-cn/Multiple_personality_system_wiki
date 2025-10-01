@@ -45,6 +45,9 @@
 - [图帕（Tulpa）](entries/系统角色与类型/Tulpa.md)
 - [宿主（Host）](entries/系统角色与类型/Host.md)
 - [成员（Alter）](entries/系统角色与类型/Alter.md)
+- [埃蒙加德分类法（Emmengard Classification）](entries/系统角色与类型/Emmengard-Classification.md)
+- [适应型（Adaptive）](entries/系统角色与类型/Adaptive.md)
+- [自发型（Spontaneous）](entries/系统角色与类型/Spontaneous.md)
 
 ## 系统体验与机制
 
