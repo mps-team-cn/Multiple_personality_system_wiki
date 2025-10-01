@@ -25,9 +25,9 @@ _仅供参考，**不能**替代专业医师的诊断和治疗方案。如果有
 
 ## 相关条目
 
-- [主体（Main）](Main.md)
-- [宿主（Host）](Host.md)
-- [管理者（Admin）](Admin.md)
+- [主体（Main）](entries/系统角色与类型/Main.md)
+- [宿主（Host）](entries/系统角色与类型/Host.md)
+- [管理者（Admin）](entries/系统角色与类型/Admin.md)
 
 ## 参考与延伸阅读
 

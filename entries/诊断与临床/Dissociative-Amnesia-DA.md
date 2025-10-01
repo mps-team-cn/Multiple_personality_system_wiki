@@ -77,11 +77,11 @@ D. 症状不能被分离性身份障碍、创伤后应激障碍、急性应激�
 
 ## 相关条目
 
-- [创伤](Trauma.md)
-- [创伤后应激障碍](PTSD.md)
-- [复杂性创伤后应激障碍](CPTSD.md)
-- [解离性身份障碍](DID.md)
-- [人格解体/现实解体障碍](Depersonalization-Derealization-Disorder-DPDR.md)
+- [创伤](entries/诊断与临床/Trauma.md)
+- [创伤后应激障碍](entries/诊断与临床/PTSD.md)
+- [复杂性创伤后应激障碍](entries/诊断与临床/CPTSD.md)
+- [解离性身份障碍](entries/诊断与临床/DID.md)
+- [人格解体/现实解体障碍](entries/诊断与临床/Depersonalization-Derealization-Disorder-DPDR.md)
 
 ## 参考与延伸阅读
 

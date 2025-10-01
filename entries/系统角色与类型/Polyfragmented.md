@@ -24,9 +24,9 @@
 
 ## 相关条目
 
-- [碎片（Fragment）](Fragment.md)
-- [管理者（Admin）](Admin.md)
-- [解离性身份障碍（DID）](../诊断与临床/DID.md)
+- [碎片（Fragment）](entries/系统角色与类型/Fragment.md)
+- [管理者（Admin）](entries/系统角色与类型/Admin.md)
+- [解离性身份障碍（DID）](entries/诊断与临床/DID.md)
 
 ## 参考与延伸阅读
 
