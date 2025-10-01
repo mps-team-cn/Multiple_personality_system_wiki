@@ -91,6 +91,7 @@ tools/
 
 ### 系统体验与机制
 
+- [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](entries/系统体验与机制/ANP-EP 模型.md)
 - [偏重（Bias）](entries/系统体验与机制/偏重.md)
 - [存在感（Sense of Presence）](entries/系统体验与机制/存在感.md)
 - [封存（Sequestration）](entries/系统体验与机制/封存.md)
@@ -110,6 +111,7 @@ tools/
 - [躯体认同（Body Ownership）](entries/系统体验与机制/躯体认同.md)
 - [非我感（Depersonalization）](entries/系统体验与机制/非我感.md)
 - [自动驾驶（Autopilot）](entries/系统体验与机制/自动驾驶.md)
+- [退行（Regression in Psychology）](entries/系统体验与机制/退行.md)
 
 ### 实践与支持
 
