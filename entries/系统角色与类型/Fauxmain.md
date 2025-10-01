@@ -20,9 +20,9 @@
 
 ## 相关条目
 
-- [主体（Main）](主体.md)
-- [宿主（Host）](宿主.md)
-- [混合（Blending）](混合.md)
+- [主体（Main）](Main.md)
+- [宿主（Host）](Host.md)
+- [混合（Blending）](Blending.md)
 
 ## 参考与延伸阅读
 

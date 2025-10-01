@@ -22,7 +22,7 @@
 
 ## 相关条目
 
-- 参见：[前台（Front / Fronting）](前台.md)、[共前台（Co-fronting）](共前台.md)、[解离（Dissociation）](解离.md)
+- 参见：[前台（Front / Fronting）](Front-Fronting.md)、[共前台（Co-fronting）](Co-Fronting.md)、[解离（Dissociation）](Dissociation.md)
 
 ## 参考与延伸阅读
 
