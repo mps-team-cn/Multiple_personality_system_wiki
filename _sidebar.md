@@ -1,5 +1,5 @@
 - **总览**
-  - <a href="#" onclick="window.location.hash = '#/README_wiki'; return false;">首页</a>
+  - <a href="#" onclick="window.location.hash = '#/Main_Page'; return false;">首页</a>
   - [目录索引](index.md)
   - [术语表（Glossary）](Glossary.md)
 
