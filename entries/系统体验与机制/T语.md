@@ -30,3 +30,9 @@
 ## 参考与延伸阅读
 
 [^tulpish-pluralpedia]: Pluralpedia. (n.d.). [Tulpish](https://pluralpedia.org/w/Tulpish).
+
+## 定义
+（待补充）
+
+## 鉴别
+（待补充）
