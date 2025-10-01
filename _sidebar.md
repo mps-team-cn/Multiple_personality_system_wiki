@@ -1,5 +1,5 @@
 - **总览**
-  - [首页](#/README_wiki)
+  - <a href="#" onclick="window.location.hash = '#/README_wiki'; return false;">首页</a>
   - [术语索引](index.md)
 
 - **核心词条**
