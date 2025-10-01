@@ -36,9 +36,6 @@
 
 - [适应型（Adaptive）](entries/系统角色与类型/Adaptive.md)
 - [自发型（Spontaneous）](entries/系统角色与类型/Spontaneous.md)
-- [创造型（Created）](entries/系统角色与类型/Emmengard-Classification.md#创造型created)
-- [混合型（Mixed）](entries/系统角色与类型/Emmengard-Classification.md#混合型mixed)
-- [未知型（Unknown）](entries/系统角色与类型/Emmengard-Classification.md#未知型unknown)
 - [图帕（Tulpa）](entries/系统角色与类型/Tulpa.md)
 - [系魂（Soulbond）](entries/系统角色与类型/Soulbond.md)
 
