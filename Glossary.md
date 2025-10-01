@@ -39,6 +39,7 @@
 | [Fragment](entries/系统角色与类型/Fragment.md)                                            | 碎片          | 用于描述功能或人格特质高度局限、结构较小的意识片段。           |
 | [Front / Fronting](entries/系统体验与机制/Front-Fronting.md)                                    | 前台          | 当前与外界互动、控制身体的成员状态。                   |
 | [Fusion](entries/系统体验与机制/Fusion.md)                                              | 融合          | 形容两个或多个成员长期合并为单一身份体验的过程。             |
+| [Gatekeeper](entries/系统角色与类型/Gatekeeper.md)                                      | 守门人         | 管理前台访问、记忆共享与安全边界的权限角色，强调风险筛选与协作。 |
 | [Grounding](entries/实践与支持/Grounding.md)                                             | 接地          | 指帮助回到当下、缓解解离或焦虑的实用技巧。                |
 | [Head Pressure](entries/系统体验与机制/Head-Pressure.md)                                       | 头压          | 社群用于描述前台转换或内在活动伴随的头部紧张压迫感。           |
 | [Headspace / Inner World](entries/系统体验与机制/Headspace-Inner-World.md)                           | 内部空间、幻境、里空间 | 系统成员在内在世界中互动、聚会或构建场景的心象空间。           |
