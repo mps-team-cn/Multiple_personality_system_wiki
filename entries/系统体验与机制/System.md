@@ -22,7 +22,7 @@
 
 ## 相关条目
 
-- 参见：[成员（Alter）](../系统角色与类型/成员.md)、[前台（Front / Fronting）](前台.md)、[切换（Switch）](切换.md)、[多意识体（Plurality）](多意识体.md)
+- 参见：[成员（Alter）](../系统角色与类型/Alter.md)、[前台（Front / Fronting）](Front-Fronting.md)、[切换（Switch）](Switch.md)、[多意识体（Plurality）](Plurality.md)
 
 ## 参考与延伸阅读
 

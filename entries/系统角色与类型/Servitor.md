@@ -25,8 +25,8 @@
 ## 相关条目
 
 - [图帕（Tulpa）](tulpa.md)
-- [管理者（Admin）](管理者.md)
-- [伪主体（Fauxmain）](伪主体.md)
+- [管理者（Admin）](Admin.md)
+- [伪主体（Fauxmain）](Fauxmain.md)
 
 ## 参考与延伸阅读
 

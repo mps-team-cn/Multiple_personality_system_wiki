@@ -25,9 +25,9 @@
 
 ## 相关条目
 
-- [记忆屏蔽（Memory Shielding）](记忆屏蔽.md)
-- [独立性（Independence）](独立性.md)
-- [系魂（Soulbond）](../系统角色与类型/系魂.md)
+- [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)
+- [独立性（Independence）](Independence.md)
+- [系魂（Soulbond）](../系统角色与类型/Soulbond.md)
 
 ## 参考与延伸阅读
 

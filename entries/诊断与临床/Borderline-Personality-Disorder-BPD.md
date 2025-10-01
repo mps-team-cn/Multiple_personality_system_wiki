@@ -58,11 +58,11 @@ DSM-5-TR 将 BPD 定义为在人际关系、自我形象与情感上的广泛不
 
 ## 相关条目
 
-- [创伤后应激障碍（PTSD）](创伤后应激障碍.md)
-- [复杂性创伤后应激障碍（CPTSD）](复杂性创伤后应激障碍.md)
-- [解离性身份障碍（DID）](解离性身份障碍.md)
-- [其他特定解离性障碍（OSDD）](其他特定解离性障碍.md)
-- [抑郁障碍（Depressive Disorders）](抑郁障碍.md)
+- [创伤后应激障碍（PTSD）](PTSD.md)
+- [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)
+- [解离性身份障碍（DID）](DID.md)
+- [其他特定解离性障碍（OSDD）](OSDD.md)
+- [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
 
 ## 参考与延伸阅读
 

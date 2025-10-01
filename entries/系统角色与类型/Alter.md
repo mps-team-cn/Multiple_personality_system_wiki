@@ -22,7 +22,7 @@
 
 ## 相关条目
 
-- 参见：[系统（System）](../系统体验与机制/系统.md)、[宿主（Host）](宿主.md)、[管理者（Admin）](管理者.md)、[共前台（Co-fronting）](../系统体验与机制/共前台.md)
+- 参见：[系统（System）](../系统体验与机制/System.md)、[宿主（Host）](Host.md)、[管理者（Admin）](Admin.md)、[共前台（Co-fronting）](../系统体验与机制/Co-Fronting.md)
 
 ## 参考与延伸阅读
 
