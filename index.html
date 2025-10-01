@@ -36,21 +36,8 @@
         return base;
       })();
 
-      const alias = {
-        "/entries/(.*)": `${projectRoot}entries/$1`,
-        "entries/(.*)": `${projectRoot}entries/$1`,
-        "/index": `${projectRoot}index.md`,
-        "/index.md": `${projectRoot}index.md`,
-        index: `${projectRoot}index.md`,
-        "index.md": `${projectRoot}index.md`,
-        "/README": `${projectRoot}README.md`,
-        "/README.md": `${projectRoot}README.md`,
-        README: `${projectRoot}README.md`,
-        "README.md": `${projectRoot}README.md`,
-      };
-
       window.$docsify = {
-        name: "plurality_wiki",
+        name: "多意识体Wikipedia",
         repo: "kuliantnt/plurality_wiki",
         // 导航/侧边
         loadNavbar: true,
