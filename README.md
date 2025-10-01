@@ -1,7 +1,7 @@
 # Plurality Wiki
 
 > 多重意识体系统与相关心理健康主题的中文知识库与开源协作项目。  
-> 在线版（GitHub Pages）：https://kuliantnt.github.io/plurality_wiki/#/
+> 在线版（GitHub Pages）：<https://kuliantnt.github.io/plurality_wiki/#/>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Docs status](https://img.shields.io/badge/Wiki-active-brightgreen.svg)](#)
@@ -121,9 +121,10 @@ refactor: 统一小节标题层级
 ## 🗺️ 路线图（Roadmap）
 
 - [ ] 梳理核心词条的**最小完备集**（DID, Partial DID, 去人格-现实解体障碍等）
-- [ ] 建立**参考文献与术语表**（Glossary）
+- [x] 建立**参考文献与术语表**（Glossary）
 - [ ] 完成**样式统一**（警示/信息框、引用块、表格模板）
 - [ ] 引入**基础 CI 校验**（Markdown lint/链接有效性）
+- [ ] 重写**前端页面**(已知跳转问题)
 
 ---
 
