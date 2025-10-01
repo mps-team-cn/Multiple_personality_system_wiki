@@ -8,7 +8,7 @@
 ## 1. 通用约定
 
 - **语言**：所有条目、说明文档与提交信息统一使用简体中文。
-- **目录位置**：
+- **词条目录**：
   - 所有词条（Markdown 文档）必须存放在仓库根目录下的 `entries/` 子目录。
   - 严禁在其他目录编写词条文件。
   - `entries/` 下可根据主题建立二级目录（如 `entries/诊断与临床/`、`entries/系统体验与机制/`）。
@@ -17,7 +17,7 @@
   - 若为诊断或疾病，在括号内使用标准缩写（如 `重度抑郁障碍（MDD）`）。
 - **目录索引同步**：
   - 新增或修改词条时，必须同步维护：
-    - `index.md` → 全局目录索引
+    - `index.md` → 全局目录索引  
     - `README.md` → 对应链接指向
 - **文档结构**：
   - Markdown 一级标题：词条名称
@@ -26,13 +26,13 @@
 
 ---
 
-## 2. Docsify 配置与前端规则
+## 2. 站点配置与前端规则
 
-- 所有站点文件放在 `docs/` 目录，必须包含：
-  - `docs/index.html`
-  - `docs/_sidebar.md`
-  - `docs/_coverpage.md`
-  - `docs/.nojekyll`（不可删除，避免 GitHub Pages 过滤下划线文件）
+- 所有站点文件放在 **仓库根目录**，必须包含：  
+  - `index.html`  
+  - `_sidebar.md`  
+  - `_coverpage.md`  
+  - `.nojekyll`（不可删除，避免 GitHub Pages 过滤下划线文件）  
 - 所有静态资源引用必须使用相对路径（如 `./assets/xxx.png`），禁止使用以 `/` 开头的绝对路径，确保在 GitHub Pages 子路径下正常渲染。
 
 ---
@@ -77,7 +77,7 @@
 * Markdown 新增/修改条目后，运行本地预览：
 
   ```bash
-  npx docsify serve docs
+  npx docsify serve .
   ```
 
   确认页面能正常渲染。
@@ -91,5 +91,4 @@
 * [ ] 自动检查 `.nojekyll` 是否存在
 * [ ] PDF 导出脚本异常捕获与测试增强
 * [ ] 集成 CI：提交时自动检查路径、Python 语法、Docsify 渲染
-
 
