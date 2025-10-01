@@ -125,18 +125,7 @@
             .split("/")
             .filter((segment) => segment.length);
 
-          const normalizedWorkingPath = workingPath.replace(/^\.\//, "");
-          const isSingleMarkdownSegment =
-            !isAbsolutePath &&
-            normalizedWorkingPath.length > 0 &&
-            !normalizedWorkingPath.includes("/") &&
-            /\.md$/i.test(normalizedWorkingPath);
-
-          const stack = isAbsolutePath
-            ? []
-            : isSingleMarkdownSegment
-            ? []
-            : [...currentBaseSegments];
+          const stack = isAbsolutePath ? [] : [...currentBaseSegments];
 
           for (const segment of pathSegments) {
             if (segment === ".") continue;
