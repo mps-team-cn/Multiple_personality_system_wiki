@@ -72,7 +72,7 @@ def build_entry_anchor(path: Path) -> str:
 def strip_primary_heading(content: str, title: str) -> str:
     """Remove the first heading that matches ``title`` from ``content``."""
 
-    heading_re = re.compile(rf"^#{1,6}\s+{re.escape(title)}\s*$")
+    heading_re = re.compile(rf"^#{{1,6}}\s+{re.escape(title)}\s*$")
     lines = content.splitlines()
     stripped: list[str] = []
     removed = False
