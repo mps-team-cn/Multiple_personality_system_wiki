@@ -92,6 +92,82 @@
         );
         canonicalizeHash();
 
+        const shouldHandleInternally = (href) => {
+          if (!href || href.startsWith("#")) return false;
+          if (/^[a-zA-Z]+:/i.test(href)) return false;
+          if (href.startsWith("//")) return false;
+          return true;
+        };
+
+        const resolveTarget = (href) => {
+          const [pathAndQuery = "", hashFragment = ""] = href.split("#");
+          const [rawPath = "", rawQuery = ""] = pathAndQuery.split("?");
+          const queryPart = rawQuery ? `?${rawQuery}` : "";
+
+          const currentBaseSegments = (() => {
+            const { hash } = window.location;
+            if (!hash || !hash.startsWith("#/")) return [];
+
+            const [currentPath = ""] = hash.slice(2).split("?");
+            const segments = currentPath.split("/").filter(Boolean);
+            if (segments.length) segments.pop();
+            return segments;
+          })();
+
+          const isAbsolutePath =
+            rawPath.startsWith("/") || rawPath.startsWith("entries/");
+          const baseTrimmed = basePath.replace(/^\/+|\/+$/g, "");
+          let workingPath = rawPath.replace(/^\/+/, "");
+          if (baseTrimmed && workingPath.startsWith(`${baseTrimmed}/`)) {
+            workingPath = workingPath.slice(baseTrimmed.length + 1);
+          }
+          const pathSegments = workingPath
+            .split("/")
+            .filter((segment) => segment.length);
+
+          const stack = isAbsolutePath ? [] : [...currentBaseSegments];
+
+          for (const segment of pathSegments) {
+            if (segment === ".") continue;
+            if (segment === "..") {
+              if (stack.length) stack.pop();
+              continue;
+            }
+            stack.push(segment);
+          }
+
+          const resolvedPath = stack.join("/");
+          const anchorQuery = hashFragment
+            ? (queryPart ? `${queryPart}&` : "?") +
+              `id=${encodeURIComponent(hashFragment)}`
+            : queryPart;
+
+          return `${resolvedPath}${anchorQuery}`;
+        };
+
+        document.addEventListener("click", (event) => {
+          const anchor = event.target.closest("a[href]");
+          if (!anchor) return;
+          if (anchor.target && anchor.target !== "" && anchor.target !== "_self")
+            return;
+
+          const href = anchor.getAttribute("href");
+          if (!shouldHandleInternally(href)) return;
+
+          event.preventDefault();
+
+          const target = resolveTarget(href);
+          const normalized = normalizePath(target);
+          const cleanPath = normalized.replace(/\.md(?=$|\?)/i, "");
+          const newHash = `#/${cleanPath}`;
+
+          if (window.location.hash !== newHash) {
+            window.location.hash = newHash;
+          } else {
+            canonicalizeHash(true);
+          }
+        });
+
         window.$docsify = {
           name: "多意识体Wikipedia",
           repo: "kuliantnt/plurality_wiki",
