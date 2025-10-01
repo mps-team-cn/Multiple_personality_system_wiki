@@ -1,0 +1,136 @@
+:root{
+  --c-brand: #5B8DEF;         /* 主色：雾蓝 */
+  --c-accent: #FF4D8D;        /* 强调：品红 */
+  --c-text: #1f2937;          /* 正文深灰 */
+  --c-muted: #6b7280;         /* 次要文字 */
+  --c-bg: #ffffff;            /* 背景 */
+  --c-card: #f7f9fc;          /* 卡片浅底 */
+  --radius: 16px;
+  --shadow: 0 6px 24px rgba(0,0,0,.08);
+}
+
+:root.dark{
+  --c-text: #E5E7EB;
+  --c-muted: #9CA3AF;
+  --c-bg: #0f172a;            /* 暗色深蓝灰 */
+  --c-card: #111827;
+  --shadow: 0 8px 28px rgba(0,0,0,.35);
+}
+
+/* 全局重置与排版 */
+html, body{
+  background: var(--c-bg);
+  color: var(--c-text);
+}
+.markdown-section{
+  font-size: 16.5px;
+  line-height: 1.8;
+}
+.markdown-section h1, .markdown-section h2{
+  border-bottom: none;
+  margin-top: 1.8rem;
+}
+.markdown-section a{
+  color: var(--c-brand);
+}
+.markdown-section blockquote{
+  background: var(--c-card);
+  border-left: 4px solid var(--c-brand);
+  padding: .8em 1em;
+  border-radius: var(--radius);
+}
+
+/* 顶部导航栏 */
+.app-nav{
+  backdrop-filter: saturate(150%) blur(8px);
+  background: color-mix(in oklab, var(--c-bg) 85%, transparent);
+  border-bottom: 1px solid color-mix(in oklab, var(--c-muted) 15%, transparent);
+}
+
+/* 侧边栏与卡片 */
+.sidebar{
+  border-right: none;
+}
+.sidebar ul li a{
+  border-radius: 10px;
+}
+.sidebar ul li a:hover{
+  background: color-mix(in oklab, var(--c-brand) 10%, transparent);
+}
+
+/* 封面页 */
+.cover{
+  background: radial-gradient(1200px 600px at 10% 10%, color-mix(in oklab, var(--c-brand) 18%, transparent), transparent),
+              radial-gradient(1000px 500px at 90% 20%, color-mix(in oklab, var(--c-accent) 16%, transparent), transparent);
+}
+.cover .cover-main{
+  background: var(--c-card);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  padding: 28px;
+}
+.cover h1{
+  font-size: 40px;
+  margin-bottom: .4rem;
+}
+.cover blockquote{
+  opacity: .95;
+}
+
+/* 按钮 */
+.app-nav a, .cover .buttons a{
+  border-radius: 12px;
+}
+button, .cover .buttons a{
+  transition: transform .15s ease, box-shadow .2s ease;
+}
+.cover .buttons a{
+  box-shadow: var(--shadow);
+}
+.cover .buttons a:hover{
+  transform: translateY(-1px);
+}
+
+/* 暗黑模式按钮（右下角浮动） */
+.theme-toggle{
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  padding: 10px 14px;
+  background: var(--c-card);
+  color: var(--c-text);
+  border-radius: 999px;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  user-select: none;
+  z-index: 99;
+  border: 1px solid color-mix(in oklab, var(--c-muted) 20%, transparent);
+}
+.theme-toggle:hover{
+  transform: translateY(-1px);
+}
+
+/* 表格美化 */
+.markdown-section table{
+  border-collapse: collapse;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+}
+.markdown-section table th,
+.markdown-section table td{
+  padding: .6rem .8rem;
+  border-bottom: 1px solid color-mix(in oklab, var(--c-muted) 18%, transparent);
+}
+.markdown-section table thead{
+  background: color-mix(in oklab, var(--c-brand) 12%, var(--c-card));
+  color: var(--c-text);
+}
+
+/* 代码块 */
+.markdown-section pre{
+  border-radius: 14px !important;
+  box-shadow: var(--shadow);
+}

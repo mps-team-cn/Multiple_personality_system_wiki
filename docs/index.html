@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>plurality_wiki</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- 基础主题（Docsify 官方） -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css"
+    />
+
+    <!-- 自定义样式 -->
+    <link rel="stylesheet" href="./assets/custom.css" />
+
+    <!-- 站点图标（可换自己的 PNG/SVG） -->
+    <link rel="icon" href="./assets/favicon.png" />
+  </head>
+  <body>
+    <!-- 封面页（_coverpage.md）开启 -->
+    <div id="app"></div>
+
+    <script>
+      window.$docsify = {
+        name: "plurality_wiki",
+        repo: "kuliantnt/plurality_wiki",
+        // 导航/侧边
+        loadNavbar: true,
+        loadSidebar: true,
+        subMaxLevel: 2,
+        auto2top: true,
+
+        // 封面与首页
+        coverpage: true,
+        onlyCover: false,
+        homepage: "README.md",
+
+        // 搜索
+        search: {
+          paths: "auto",
+          placeholder: "搜索文档…",
+          noData: "没有找到结果",
+          depth: 4,
+        },
+
+        // 页脚（放在 _sidebar.md 末尾追加也行）
+        footer: {
+          copy:
+            "<span>© " + new Date().getFullYear() + " plurality_wiki</span>",
+          auth: "由 Docsify 驱动",
+          pre: "<hr/>",
+          style: "text-align:center;",
+        },
+
+        // 分页
+        pagination: {
+          previousText: "上一页",
+          nextText: "下一页",
+          crossChapter: true,
+        },
+      };
+
+      // 简易暗黑模式开关（写一个全局 class）
+      (function () {
+        const key = "theme-dark";
+        const root = document.documentElement;
+        const saved = localStorage.getItem(key);
+        if (saved === "1") root.classList.add("dark");
+
+        window.toggleTheme = function () {
+          root.classList.toggle("dark");
+          localStorage.setItem(
+            key,
+            root.classList.contains("dark") ? "1" : "0"
+          );
+        };
+      })();
+    </script>
+
+    <!-- Docsify 核心 -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+
+    <!-- 插件：搜索 / 复制代码 / 图片缩放 / 分页 / emoji -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+
+    <!-- 可选：Prism 语法高亮（按需添加语言） -->
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-json.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-markdown.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
+    <div class="theme-toggle" onclick="toggleTheme()">🌓 切换主题</div>
+  </body>
+</html>

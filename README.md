@@ -1,9 +1,11 @@
 # plurality_wiki
 
-> 多意识体 / 多重意识系统主题的开放式知识库（Markdown 驱动）。
-> 关注：概念框架、临床与社区术语、机制与体验、实践与支持、伦理与风险。
+[![license](https://img.shields.io/badge/license-CC--BY--SA--4.0-blue)](#)
+![status](https://img.shields.io/badge/status-Alpha-orange)
+![docsify](https://img.shields.io/badge/built_with-Docsify-5B8DEF)
 
-[![Status](https://img.shields.io/badge/status-active-brightgreen)](#) [![Docs](https://img.shields.io/badge/docs-Markdown-blue)](#) [![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-lightgrey)](#许可与使用)
+> 一个以 Markdown 为核心、面向公众的知识型 Wiki，聚焦多重意识体系统与相关心理健康主题
+> 关注：概念框架、临床与社区术语、机制与体验、实践与支持、伦理与风险。
 
 ---
 
