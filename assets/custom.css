@@ -15,10 +15,10 @@
   --c-text: #E5E7EB;
   --c-muted: #9CA3AF;
   --c-bg: #0f172a;            /* 暗色深蓝灰 */
-  --c-card: #111827;
-  --c-sidebar: #0b1220;
-  --c-divider: color-mix(in oklab, var(--c-muted) 22%, transparent);
-  --shadow: 0 8px 28px rgba(0,0,0,.35);
+  --c-card: #1f2937;          /* 调高亮度以提升层次 */
+  --c-sidebar: #111c2f;
+  --c-divider: color-mix(in oklab, var(--c-muted) 26%, transparent);
+  --shadow: 0 8px 28px rgba(0,0,0,.38);
 }
 
 /* 全局重置与排版 */
@@ -213,6 +213,7 @@ button, .cover .buttons a{
   width: 100%;
   border-radius: 14px;
   box-shadow: var(--shadow);
+  background: var(--c-card);
 }
 .markdown-section table th,
 .markdown-section table td{
@@ -220,8 +221,17 @@ button, .cover .buttons a{
   border-bottom: 1px solid color-mix(in oklab, var(--c-muted) 18%, transparent);
 }
 .markdown-section table thead{
-  background: color-mix(in oklab, var(--c-brand) 12%, var(--c-card));
+  background: color-mix(in oklab, var(--c-brand) 14%, var(--c-card));
   color: var(--c-text);
+}
+.markdown-section table tbody tr:nth-child(even){
+  background: color-mix(in oklab, var(--c-card) 92%, transparent);
+}
+:root.dark .markdown-section table thead{
+  background: color-mix(in oklab, var(--c-brand) 24%, var(--c-card));
+}
+:root.dark .markdown-section table tbody tr:nth-child(even){
+  background: color-mix(in oklab, var(--c-card) 82%, rgba(255,255,255,.04));
 }
 
 /* 代码块 */
