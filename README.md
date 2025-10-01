@@ -1,119 +1,124 @@
-# plurality_wiki
+# Plurality Wiki
 
-[![license](https://img.shields.io/badge/license-CC--BY--SA--4.0-blue)](#)
-![status](https://img.shields.io/badge/status-Alpha-orange)
-![docsify](https://img.shields.io/badge/built_with-Docsify-5B8DEF)
+> 多重意识体系统与相关心理健康主题的中文知识库与开源协作项目。  
+> 在线版（GitHub Pages）：https://kuliantnt.github.io/plurality_wiki/#/
 
-> 面向贡献者与开发者的仓库说明。面向读者的简明介绍请访问 [`README_wiki.md`](README_wiki.md) 或在线站点。
-
----
-
-## 在线文档
-
-- **Docsify 站点**：<https://kuliantnt.github.io/plurality_wiki/>
-- **面向公众的概览**：见 [`README_wiki.md`](README_wiki.md)，与站点首页保持同步。
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Docs status](https://img.shields.io/badge/Wiki-active-brightgreen.svg)](#)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](#贡献)
 
 ---
 
-## 项目概览
+## ✨ 项目目标
 
-本仓库以 Markdown 维护与多重意识体系统相关的知识条目，提供统一的术语、实践与参考资料。
-条目内容不替代临床诊断或专业支持，其目标是：**建立共同语言 → 提升理解 → 降低误用风险 → 促进协作**。
+- 汇聚与整理多重意识体（Plurality）与相关心理健康主题的高质量中文资料；
+- 采用一致的**条目规范**与**贡献流程**，确保可维护、可引用、可扩展；
+- 面向大众读者与专业人士，兼顾可读性与严谨性（参考 E-E-A-T 原则）。
 
 ---
 
-## 仓库结构
+## 📦 仓库结构
 
 ```
-entries/
-├─ 诊断与临床/           # 诊断框架、症状与相关障碍
-├─ 系统角色与类型/       # 身份类型与角色分工
-├─ 系统体验与机制/       # 体验维度、机制与状态
-└─ 实践与支持/           # 方法论、工具与互助
-tools/
-└─ pdf_export/           # PDF 导出脚本与说明
+
+plurality_wiki/
+├─ README.md                # 面向开发者（本文件）
+├─ README_wiki.md           # 面向 Wiki 贡献者（放到 Wiki 页面）
+├─ index.md                 # 站点/目录索引（需同步维护）
+├─ docs/                    # 文档源（若使用 docsify 或静态站点方案）
+├─ images/                  # 统一的图片资源目录
+├─ .github/
+│  ├─ ISSUE_TEMPLATE/       #（可选）Issue 模板
+│  └─ workflows/            #（可选）CI 工作流
+└─ ...（各主题目录与条目）
+
 ```
 
-- `entries/诊断与临床/`：精神医学诊断、创伤与症状说明。
-- `entries/系统角色与类型/`：系统内常见的身份类型与角色分工。
-- `entries/系统体验与机制/`：系统运作体验、机制与状态变化。
-- `entries/实践与支持/`：实践方法、互助工具与支持策略。
-
-全局索引位于 [`index.md`](index.md)，确保新增或调整词条时同步更新。
+> **约定**：条目一级标题统一采用 `中文名（English）` 格式；若为诊断/疾病，括号内用标准缩写，如“重度抑郁障碍（MDD）”。
 
 ---
 
-## 本地开发与预览
+## 🚀 快速开始（本地预览）
 
-1. **克隆项目**
+本仓库采用纯 Markdown + GitHub Pages（在线预览见页首链接）。如果你想在本地预览：
 
-   ```bash
-   git clone https://github.com/<your_org>/plurality_wiki.git
-   cd plurality_wiki
-   ```
+**方式 A：任意静态服务器**
 
-2. **安装并启动 Docsify（可选）**
-
-   ```bash
-   npm install -g docsify-cli # 若已全局安装可跳过
-   docsify serve .            # 或使用 npx docsify serve .
-   ```
-
-   访问 `http://localhost:3000` 查看实时预览。
-
-3. **导出 PDF（可选）**
-   按照 `tools/pdf_export/README_pdf_output.md` 运行脚本，生成带封面与目录的 PDF 合集。
-
----
-
-## 贡献指南
-
-1. **提交方式**：优先通过 Pull Request；简单问题可新建 Issue。
-2. **新增词条**：遵循下方写作规范模板，将文件放入合适的 `entries/` 子目录，并在 `index.md` 与 `README_wiki.md` 需要的位置添加链接或简介。
-3. **提交说明**：PR 中列出改动动机、主要变更、潜在风险与相关链接。
-4. **推荐标签**：`type:entry` / `type:edit` / `type:reorg` / `risk:content` / `needs:review`。
-
----
-
-## 写作规范
-
-```markdown
-# 术语（英文 / 缩写）
-
-**一句话定义**：——清晰、可操作的定义。
-
-## 核心要点
-
-- 适用范围 / 边界
-- 与相近概念的区分
-- 临床/社区语境差异（如适用）
-
-## 机制与证据
-
-- 可验证的模型/路径
-- 证据等级（文献/共识/经验）与风险提示
-
-## 实务与观察
-
-- 观察维度与记录建议（量表/日记字段/事件触发）
-- 干预与自助：流程化步骤与注意事项
-
-## 相关条目
-
-- 参见：条目 A、条目 B
-
-## 参考与延伸阅读
-
-\[1] 作者. 年份. 标题. 期刊/出版社（如有 DOI/链接请附）
+```bash
+# 例如使用 Python 简单服务器
+cd plurality_wiki
+python -m http.server 4173
+# 浏览器打开 http://localhost:4173
 ```
 
-- 优先给出**中文名 + 英文名/缩写**，首次出现加粗。
-- 明确**语境差异**（临床/社区/研究），避免混用。
-- 对可能引发风险的内容加注 **⚠ 风险提示** 与**不建议的做法**。
-- 采用脚注式或参考文献列表，标明来源与证据水平（如：系统综述 > RCT > 队列 > 专家共识 > 经验）。
+**方式 B：docsify 本地预览（如使用 docsify）**
+
+```bash
+npm i -g docsify-cli
+docsify serve .
+# 浏览器打开提示的本地地址
+```
+
+> 如果你采用了其他站点生成器（如 VuePress/VitePress 等），请在 PR 中同步更新说明。
 
 ---
 
-## 许可证
+## 🧭 贡献（Contribution）
 
-默认使用 **CC BY-SA 4.0**。如条目另有声明，请以条目内许可为准；衍生作品应采用相同协议共享。
+欢迎你参与完善！首次贡献建议从 Wiki 版的《贡献指南》开始：
+见 **[README_wiki.md](./README_wiki.md)**（Wiki 页面版内容相同/更完整）。
+
+**简要流程：**
+
+1. Fork 仓库 & 新建分支（如：`feat/add-did-partial`）。
+2. 按**条目规范**撰写或修改文档，并**同步维护** `index.md` 与引用链接。
+3. 本地预览（可选），自检通过后提交 PR。
+4. 等待 Review 与合并。
+
+**提交信息规范（推荐）：Conventional Commits**
+
+```
+feat: 新增条目「部分解离性身份障碍（Partial DID, 6B65）」
+fix: 修复 PDF 导航目录重复的问题
+docs: 调整 index.md 索引与链接
+refactor: 统一小节标题层级
+```
+
+---
+
+## 🧩 写作与风格（摘要版）
+
+- 语言：**简体中文**优先；必要处可保留权威英文术语。
+- 结构：一级标题=词条名称；二级/三级标题按内容层级递增。
+- 证据：引用**权威来源**（ICD-11、DSM-5-TR、WHO/APA 官方材料、系统综述/指南/高质量综述）。
+- 中立：避免夸张或未经验证的断言；区分“事实/证据”“假说/观点”。
+- 同步：每次新增/更新条目请同步更新 `index.md` 目录索引与跳转链接。
+
+> 完整版规则、模板与示例请见 Wiki 页的《贡献指南》。
+
+---
+
+## 🗺️ 路线图（Roadmap）
+
+- [ ] 梳理核心词条的**最小完备集**（DID, Partial DID, 去人格-现实解体障碍等）
+- [ ] 建立**参考文献与术语表**（Glossary）
+- [ ] 完成**样式统一**（警示/信息框、引用块、表格模板）
+- [ ] 引入**基础 CI 校验**（Markdown lint/链接有效性）
+
+---
+
+## 📝 更新日志（Changelog）
+
+仅记录对用户与贡献者显著可见的变更。更多细节请查阅 PR 历史。
+
+### v1.2.3
+
+- fix(pdf): 修复 PDF 页面出现**双重目录**的问题
+- docs: 更新多个条目与索引
+- site: 同步部署至在线版 [https://kuliantnt.github.io/plurality_wiki/#/](https://kuliantnt.github.io/plurality_wiki/#/)
+
+---
+
+## 📄 许可证
+
+本项目采用 **MIT License**。请在转载或二次分发时保留版权与许可声明。
