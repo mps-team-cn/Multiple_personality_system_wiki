@@ -1,4 +1,4 @@
-"""Gather markdown files and ordering information from the repository."""
+"""整理仓库内的 Markdown 文件并生成导出顺序。"""
 
 from __future__ import annotations
 
@@ -11,7 +11,7 @@ from .paths import ENTRIES_DIR, INDEX_PATH, PROJECT_ROOT, README_PATH
 
 
 def parse_markdown_index(index_path: Path, ignore: IgnoreRules) -> CategoryStructure:
-    """Parse a markdown index file to determine the desired export order."""
+    """解析目录 Markdown，确定导出所需的条目顺序。"""
 
     if not index_path.exists():
         return []
@@ -54,7 +54,7 @@ def parse_markdown_index(index_path: Path, ignore: IgnoreRules) -> CategoryStruc
 
 
 def collect_markdown_structure(ignore: IgnoreRules) -> CategoryStructure:
-    """Collect markdown files following the index order."""
+    """依据索引顺序收集 Markdown 文件，供后续导出使用。"""
 
     categories = list(parse_markdown_index(INDEX_PATH, ignore))
     if not categories:

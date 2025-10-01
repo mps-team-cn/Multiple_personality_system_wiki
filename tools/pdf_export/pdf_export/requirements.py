@@ -1,4 +1,4 @@
-"""Runtime requirement helpers for the PDF exporter."""
+"""校验运行时依赖并提供外部工具探测函数。"""
 
 from __future__ import annotations
 
@@ -10,7 +10,7 @@ from .constants import CJK_FONT_CANDIDATES, DEFAULT_PDF_ENGINES
 
 
 def check_requirements(pandoc_cmd: str) -> None:
-    """Ensure that the external tools required by the script are available."""
+    """确认导出脚本所需的 Pandoc 命令是否可用。"""
 
     if shutil.which(pandoc_cmd) is None:
         raise SystemExit(
@@ -26,7 +26,7 @@ def _first_available(executables: Iterable[str]) -> str | None:
 
 
 def detect_pdf_engine(preferred: str | None) -> str | None:
-    """Find an available PDF engine for Pandoc, if any."""
+    """查找可供 Pandoc 使用的 PDF 引擎并返回名称。"""
 
     if preferred:
         if shutil.which(preferred) is None:
@@ -39,7 +39,7 @@ def detect_pdf_engine(preferred: str | None) -> str | None:
 
 
 def detect_cjk_font() -> str | None:
-    """Return the first available Chinese font family, if any."""
+    """检测系统已安装的中文字体并返回首个匹配项。"""
 
     if shutil.which("fc-list") is None:
         return None
