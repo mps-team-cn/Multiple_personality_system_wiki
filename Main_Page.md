@@ -37,7 +37,7 @@
 ## 🧭 新手路线图
 
 1. **建立共同语言**：从 [多重意识体基础（Plurality Basics）](entries/Plurality-Basics.md) 与 [系统（System）](entries/系统体验与机制/System.md) 入手。
-2. **理解系统角色**：继续阅读 [成员（Alter）](entries/系统角色与类型/Alter.md)、[宿主（Host）](entries/系统角色与类型/Host.md)、[图帕（Tulpa）](entries/系统角色与类型/Tulpa.md)。
+2. **理解系统角色与形成路径**：继续阅读 [成员（Alter）](entries/系统角色与类型/Alter.md)、[宿主（Host）](entries/系统角色与类型/Host.md)、[图帕（Tulpa）](entries/系统角色与类型/Tulpa.md)，并参考 [埃蒙加德分类法（Emmengard Classification）](entries/系统角色与类型/Emmengard-Classification.md) 了解不同系统来源与自我认同标签。
 3. **关注体验与机制**：查阅 [前台（Front / Fronting）](entries/系统体验与机制/Front-Fronting.md)、[共前台（Co-fronting）](entries/系统体验与机制/Co-Fronting.md)、[融合（Fusion）](entries/系统体验与机制/Fusion.md)。
 4. **实践与自护**：参考 [接地（Grounding）](entries/实践与支持/Grounding.md) 与 [冥想（Meditation）](entries/实践与支持/Meditation.md)。
 

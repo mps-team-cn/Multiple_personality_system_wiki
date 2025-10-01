@@ -6,6 +6,7 @@
 
 | 术语                                                                           | 中文参考译名      | 社群用法/备注                              |
 | ---------------------------------------------------------------------------- | ----------- | ------------------------------------ |
+| [Adaptive](entries/系统角色与类型/Adaptive.md)                    | 适应型         | 埃蒙加德分类法标签之一，强调系统因应对创伤或长期压力而形成。      |
 | [Admin](entries/系统角色与类型/Admin.md)                                              | 管理者         | 系统中负责维护秩序、管理资源与协调事务的成员或团队角色。         |
 | [Alexithymia](entries/诊断与临床/Alexithymia.md)                                         | 述情障碍        | 描述难以识别、理解与表达情绪的体验，常与创伤或解离共现。         |
 | [Alter](entries/系统角色与类型/Alter.md)                                               | 成员          | 系统内部拥有独立视角、记忆或角色的意识单元。               |
@@ -19,12 +20,14 @@
 | [Bias](entries/系统体验与机制/Bias.md)                                                | 偏重          | 描述成员或系统在决策时对特定观点、情绪或记忆的倾向。           |
 | [Bipolar Disorders](entries/诊断与临床/Bipolar-Disorders.md)                             | 双相障碍       | 以躁狂/轻躁狂与抑郁发作为特征的情感障碍谱系，需要长期情绪稳定策略。 |
 | [Blending](entries/系统角色与类型/Blending.md)                                            | 混合          | 指多位成员的意识界限暂时模糊、体验互相渗透的情况。            |
+| [Created](entries/系统角色与类型/Emmengard-Classification.md#创造型created)                    | 创造型         | 埃蒙加德分类法标签之一，指成员通过图帕、系魂或角色构建等方式主动培育。 |
 | [Body Ownership](entries/系统体验与机制/Body-Ownership.md)                                    | 躯体认同        | 用于讨论成员对身体控制权与认同感的差异与变化。              |
 | [Borderline Personality Disorder，BPD](entries/诊断与临床/Borderline-Personality-Disorder-BPD.md)              | 边缘性人格障碍     | 以情绪调节、人际关系与自我形象不稳定为特征的人格模式。          |
 | [Co-consciousness](entries/系统体验与机制/Co-Consciousness.md)                                  | 意识共存        | 两位及以上成员同时在前台共同处理任务。                  |
 | [Co-fronting](entries/系统体验与机制/Co-Fronting.md)                                        | 共前台         | 描述多位成员同时在前台协作掌控身体的状态。                |
 | [Consciousness Modification](entries/系统体验与机制/Consciousness-Modification.md)                        | 意识修改        | 指通过练习调整觉察、边界或前台访问方式的技巧。              |
 | [Core](entries/系统角色与类型/Core.md)                                                | 核心          | 常指被视为最贴近系统原初身份或价值观的成员或结构。            |
+| [Emmengard Classification](entries/系统角色与类型/Emmengard-Classification.md)          | 埃蒙加德分类法    | 社群自我认同框架，依据系统形成来源与发展路径划分标签。          |
 | [CPTSD](entries/诊断与临床/CPTSD.md)                                         | 复杂性创伤后应激障碍  | 针对长期复杂创伤影响的诊断框架，强调持续性安全与支持需求。        |
 | [Depersonalization](entries/系统体验与机制/Depersonalization.md)                                  | 非我感         | 描述对自我或身体产生疏离、陌生感的现象。                 |
 | [Depersonalization/Derealization Disorder，DPDR](entries/诊断与临床/Depersonalization-Derealization-Disorder-DPDR.md) | 人格解体/现实解体障碍 | 临床诊断，涵盖非我感与非真实感持续困扰日常功能的情况。          |
@@ -37,6 +40,7 @@
 | [Fauxmain](entries/系统角色与类型/Fauxmain.md)                                           | 伪主体         | 指被误认为主要前台但并非真正宿主的成员角色。               |
 | [Flashback](entries/诊断与临床/Flashback.md)                                             | 闪回          | 创伤记忆以感官或情绪形式突然重现、难以控制的体验。            |
 | [Fragment](entries/系统角色与类型/Fragment.md)                                            | 碎片          | 用于描述功能或人格特质高度局限、结构较小的意识片段。           |
+| [Mixed](entries/系统角色与类型/Emmengard-Classification.md#混合型mixed)                        | 混合型         | 埃蒙加德分类法标签之一，指系统成员来源多样，兼具创伤与主动构建等成因。 |
 | [Front / Fronting](entries/系统体验与机制/Front-Fronting.md)                                    | 前台          | 当前与外界互动、控制身体的成员状态。                   |
 | [Fusion](entries/系统体验与机制/Fusion.md)                                              | 融合          | 形容两个或多个成员长期合并为单一身份体验的过程。             |
 | [Gatekeeper](entries/系统角色与类型/Gatekeeper.md)                                      | 守门人         | 管理前台访问、记忆共享与安全边界的权限角色，强调风险筛选与协作。 |
@@ -60,6 +64,7 @@
 | [Partial Dissociative Identity Disorder](entries/诊断与临床/Partial-Dissociative-Identity-Disorder-PDID.md)         | 部分解离性身份障碍   | 描述部分身份保持前台控制、仍保留连续意识体验的解离表现。         |
 | [Permissions](entries/系统体验与机制/Permissions.md)                                         | 权限          | 涉及系统内部对信息、前台或资源使用的授权规则。              |
 | [Persona](entries/系统角色与类型/Persona.md)                                           | 人格面具        | 指为特定情境塑造的社交或功能性面向。                   |
+| [Spontaneous](entries/系统角色与类型/Spontaneous.md)           | 自发型         | 埃蒙加德分类法标签之一，指系统自然显现或源自灵性、认知演化过程。    |
 | [Plurality](entries/系统体验与机制/Plurality.md)                                         | 多意识体        | 概括多个成员共享一具身体、协作生活的存在形态。              |
 | [Plurality Basics](entries/Plurality-Basics.md)                              | 多重意识体基础     | 面向新人介绍多意识体概念、术语与安全实践的入门资料。           |
 | [Polyfragmented](entries/系统角色与类型/Polyfragmented.md)                                    | 超级破碎        | 指拥有极多成员或碎片、结构高度复杂的系统。                |
@@ -75,6 +80,7 @@
 | [Stress Response](entries/系统体验与机制/Stress-Response.md)                                   | 应激反应        | 概括身心对压力事件的即时生理与心理反应。                 |
 | [Switch](entries/系统体验与机制/Switch.md)                                              | 切换          | 从一位成员过渡到另一位成员执掌前台的过程。                |
 | [System](entries/系统体验与机制/System.md)                                              | 系统          | 指拥有多个成员的整体个体，强调为一个协作的身份集合。           |
+| [Unknown](entries/系统角色与类型/Emmengard-Classification.md#未知型unknown)                  | 未知型         | 埃蒙加德分类法标签之一，指系统暂未掌握自身形成来源或仍在探索。    |
 | [Trauma](entries/诊断与临床/Trauma.md)                                                | 创伤          | 指超出个体当时应对能力的威胁性经历及其后效。               |
 | [Trigger](entries/系统体验与机制/Trigger.md)                                             | 触发          | 引发强烈情绪、记忆或症状反应的内外部线索，需要提前识别并准备应对策略。  |
 | [Tulpa](entries/系统角色与类型/Tulpa.md)                                            | 图帕、托帕       | 通过有意想象与练习培育出的自主意识伙伴，与系统成员共享身体协作。     |
