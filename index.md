@@ -34,6 +34,7 @@
 - [核心（Core）](entries/系统角色与类型/Core.md)
 - [特殊认同（Alterhuman）](entries/系统角色与类型/Alterhuman.md)
 - [管理者（Admin）](entries/系统角色与类型/Admin.md)
+- [守门人（Gatekeeper）](entries/系统角色与类型/Gatekeeper.md)
 - [人格面具（Persona）](entries/系统角色与类型/Persona.md)
 - [伪主体（Fauxmain）](entries/系统角色与类型/Fauxmain.md)
 - [医源型系统（Iatrogenic System）](entries/系统角色与类型/Iatrogenic-System.md)
