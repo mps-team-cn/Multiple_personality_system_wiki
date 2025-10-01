@@ -4,76 +4,74 @@
 
 ## 常用术语（Common Terms）
 
-| 术语                                            | 中文参考译名      | 站内链接                                                                                      | 社群用法/备注                              |
-| --------------------------------------------- | ----------- | ----------------------------------------------------------------------------------------- | ------------------------------------ |
-| Admin                                         | 管理者         | [管理者（Admin）](entries/系统角色与类型/管理者.md)                                                      | 来自站内词条自动发现（待完善）                      |
-| Alexithymia                                   | 述情障碍        | [述情障碍（Alexithymia）](entries/诊断与临床/述情障碍.md)                                                | 来自站内词条自动发现（待完善）                      |
-| Alter                                         | 成员          | [成员（Alter）](entries/系统角色与类型/成员.md)                                                        | 系统内部拥有独立视角、记忆或角色的意识单元。               |
-| Alterhuman                                    | 特殊认同        | [特殊认同（Alterhuman）](entries/系统角色与类型/特殊认同.md)                                               | 来自站内词条自动发现（待完善）                      |
-| ANP-EP                                        | ANP-EP 模型   | [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](<entries/系统体验与机制/ANP-EP 模型.md>)  | 来自站内词条自动发现（待完善）                      |
-| ASD                                           | 孤独症谱系       | [孤独症谱系（ASD）](entries/诊断与临床/孤独症谱系.md)                                                      | 来自站内词条自动发现（待完善）                      |
-| ADHD                                          | 注意缺陷多动障碍    | [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](entries/诊断与临床/注意缺陷多动障碍.md)      | 来自站内词条自动发现（待完善）                      |
-| Autopilot                                     | 自动驾驶        | [自动驾驶（Autopilot）](entries/系统体验与机制/自动驾驶.md)                                                | 来自站内词条自动发现（待完善）                      |
-| Back / Being Back                             | 后台          | [后台（Back / Being Back）](entries/系统体验与机制/后台.md)                                            | 不在前台掌控身体、转入内在活动或休息的成员状态。             |
-| Bias                                          | 偏重          | [偏重（Bias）](entries/系统体验与机制/偏重.md)                                                         | 来自站内词条自动发现（待完善）                      |
-| Blending                                      | 混合          | [混合（Blending）](entries/系统角色与类型/混合.md)                                                     | 来自站内词条自动发现（待完善）                      |
-| Body Ownership                                | 躯体认同        | [躯体认同（Body Ownership）](entries/系统体验与机制/躯体认同.md)                                           | 来自站内词条自动发现（待完善）                      |
-| Borderline Personality Disorder，BPD           | 边缘性人格障碍     | [边缘性人格障碍（Borderline Personality Disorder，BPD）](entries/诊断与临床/边缘性人格障碍.md)                  | 来自站内词条自动发现（待完善）                      |
-| Co-consciousness                              | 意识共存        | [意识共存（Co-consciousness）](entries/系统体验与机制/意识共存.md)                                         | 两位及以上成员同时在前台共同处理任务。                  |
-| Co-fronting                                   | 共前台         | [共前台（Co-fronting）](entries/系统体验与机制/共前台.md)                                                | 来自站内词条自动发现（待完善）                      |
-| Consciousness Modification                    | 意识修改        | [意识修改（Consciousness Modification）](entries/系统体验与机制/意识修改.md)                               | 来自站内词条自动发现（待完善）                      |
-| Core                                          | 核心          | [核心（Core）](entries/系统角色与类型/核心.md)                                                         | 来自站内词条自动发现（待完善）                      |
-| CPTSD                                         | 复杂性创伤后应激障碍  | [复杂性创伤后应激障碍（CPTSD）](entries/诊断与临床/复杂性创伤后应激障碍.md)                                          | 来自站内词条自动发现（待完善）                      |
-| Depersonalization                             | 非我感         | [非我感（Depersonalization）](entries/系统体验与机制/非我感.md)                                          | 来自站内词条自动发现（待完善）                      |
-| Depersonalization/Derealization Disorder DPDR | 人格解体/现实解体障碍 | [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](entries/诊断与临床/人格解体现实解体障碍.md) | 来自站内词条自动发现（待完善）                      |
-| Depressive Disorders                          | 抑郁障碍        | [抑郁障碍（Depressive Disorders）](entries/诊断与临床/抑郁障碍.md)                                       | 来自站内词条自动发现（待完善）                      |
-| DID                                           | 解离性身份障碍     | [解离性身份障碍（DID）](entries/诊断与临床/解离性身份障碍.md)                                                  | 一种解离性障碍，特征为身份状态与记忆的显著分离，可能伴随失忆与功能受损。 |
-| Dissociation                                  | 解离          | [解离（Dissociation）](entries/系统体验与机制/解离.md)                                                 | 来自站内词条自动发现（待完善）                      |
-| Dissociative Amnesia，DA                       | 解离性遗忘       | [解离性遗忘（Dissociative Amnesia，DA）](entries/诊断与临床/解离性遗忘.md)                                  | 来自站内词条自动发现（待完善）                      |
-| Exomemory                                     | 独有记忆        | [独有记忆（Exomemory）](entries/系统体验与机制/独有记忆.md)                                                | 来自站内词条自动发现（待完善）                      |
-| External Projection                           | 外投射         | [外投射（External Projection）](entries/系统体验与机制/外投射.md)                                        | 来自站内词条自动发现（待完善）                      |
-| Fauxmain                                      | 伪主体         | [伪主体（Fauxmain）](entries/系统角色与类型/伪主体.md)                                                   | 来自站内词条自动发现（待完善）                      |
-| Flashback                                     | 闪回          | [闪回（Flashback）](entries/诊断与临床/闪回.md)                                                      | 来自站内词条自动发现（待完善）                      |
-| Fragment                                      | 碎片          | [碎片（Fragment）](entries/系统角色与类型/碎片.md)                                                     | 来自站内词条自动发现（待完善）                      |
-| Front / Fronting                              | 前台          | [前台（Front / Fronting）](entries/系统体验与机制/前台.md)                                             | 当前与外界互动、控制身体的成员状态。                   |
-| Fusion                                        | 融合          | [融合（Fusion）](entries/系统体验与机制/融合.md)                                                       | 来自站内词条自动发现（待完善）                      |
-| Grounding                                     | 接地          | [接地（Grounding）](entries/实践与支持/接地.md)                                                      | 来自站内词条自动发现（待完善）                      |
-| Head Pressure                                 | 头压          | [头压（Head Pressure）](entries/系统体验与机制/头压.md)                                                | 来自站内词条自动发现（待完善）                      |
-| Headspace / Inner World                       | 内部空间、幻境、里空间 | [内部空间（Headspace / Inner World）](entries/系统体验与机制/内部空间.md)                                  | 系统成员在内在世界中互动、聚会或构建场景的心象空间。           |
-| Host                                          | 宿主          | [宿主（Host）](entries/系统角色与类型/宿主.md)                                                         | 来自站内词条自动发现（待完善）                      |
-| Iatrogenic System                             | 医源型系统       | [医源型系统（Iatrogenic System）](entries/系统角色与类型/医源型系统.md)                                      | 来自站内词条自动发现（待完善）                      |
-| Independence                                  | 独立性         | [独立性（Independence）](entries/系统体验与机制/独立性.md)                                               | 来自站内词条自动发现（待完善）                      |
-| Integration                                   | 整合          | [整合（Integration）](entries/系统体验与机制/整合.md)                                                  | 来自站内词条自动发现（待完善）                      |
-| Internal Self Helper，ISH                      | 内部自助者       | [内部自助者（Internal Self Helper，ISH）](entries/系统角色与类型/内部自助者.md)                               | 来自站内词条自动发现（待完善）                      |
-| Intrusive Thoughts                            | 侵入性思维       | [侵入性思维（Intrusive Thoughts）](entries/系统体验与机制/侵入性思维.md)                                     | 来自站内词条自动发现（待完善）                      |
-| Iteration                                     | 迭代          | [迭代（Iteration）](entries/系统体验与机制/迭代.md)                                                    | 来自站内词条自动发现（待完善）                      |
-| Main                                          | 主体          | [主体（Main）](entries/系统角色与类型/主体.md)                                                         | 来自站内词条自动发现（待完善）                      |
-| Meditation                                    | 冥想          | [冥想（Meditation）](entries/实践与支持/冥想.md)                                                     | 来自站内词条自动发现（待完善）                      |
-| Memory Shielding                              | 记忆屏蔽        | [记忆屏蔽（Memory Shielding）](entries/系统体验与机制/记忆屏蔽.md)                                         | 来自站内词条自动发现（待完善）                      |
-| Narcissistic Personality Disorder，NPD         | 自恋型人格障碍     | [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](entries/诊断与临床/自恋型人格障碍.md)                | 来自站内词条自动发现（待完善）                      |
-| OCD                                           | 强迫症         | [强迫症（OCD）](entries/诊断与临床/强迫症.md)                                                          | 来自站内词条自动发现（待完善）                      |
-| OSDD                                          | 其他特定解离性障碍   | [其他特定解离性障碍（OSDD）](entries/诊断与临床/其他特定解离性障碍.md)                                             | 来自站内词条自动发现（待完善）                      |
-| Partial Dissociative Identity Disorder，PDID   | 部分解离性身份障碍   | [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](entries/诊断与临床/部分解离性身份障碍.md)      | 来自站内词条自动发现（待完善）                      |
-| Permissions                                   | 权限          | [权限（Permissions）](entries/系统体验与机制/权限.md)                                                  | 来自站内词条自动发现（待完善）                      |
-| Persona                                       | 人格面具        | [人格面具（Persona）](entries/系统角色与类型/人格面具.md)                                                  | 来自站内词条自动发现（待完善）                      |
-| Plurality                                     | 多意识体        | [多意识体（Plurality）](entries/系统体验与机制/多意识体.md)                                                | 来自站内词条自动发现（待完善）                      |
-| Plurality Basics                              | 多重意识体基础     | [多重意识体基础（Plurality Basics）](entries/plurality-basics.md)                                  | 来自站内词条自动发现（待完善）                      |
-| Polyfragmented                                | 超级破碎        | [超级破碎（Polyfragmented）](entries/系统角色与类型/超级破碎.md)                                           | 来自站内词条自动发现（待完善）                      |
-| PTSD                                          | 创伤后应激障碍     | [创伤后应激障碍（PTSD）](entries/诊断与临床/创伤后应激障碍.md)                                                 | 来自站内词条自动发现（待完善）                      |
-| Reconstruction                                | 重构          | [重构（Reconstruction）](entries/系统体验与机制/重构.md)                                               | 来自站内词条自动发现（待完善）                      |
-| Regression in Psychology                      | 退行          | [退行（Regression in Psychology）](entries/系统体验与机制/退行.md)                                     | 来自站内词条自动发现（待完善）                      |
-| Schizophrenia，SC                              | 精神分裂症       | [精神分裂症（Schizophrenia，SC）](entries/诊断与临床/精神分裂症.md)                                         | 来自站内词条自动发现（待完善）                      |
-| Sense of Presence                             | 存在感         | [存在感（Sense of Presence）](entries/系统体验与机制/存在感.md)                                          | 来自站内词条自动发现（待完善）                      |
-| Sequestration                                 | 封存          | [封存（Sequestration）](entries/系统体验与机制/封存.md)                                                | 来自站内词条自动发现（待完善）                      |
-| Servitor                                      | 傀儡          | [傀儡（Servitor）](entries/系统角色与类型/傀儡.md)                                                     | 来自站内词条自动发现（待完善）                      |
-| Somatic Symptom Disorder，SSD                  | 躯体化障碍       | [躯体化障碍（Somatic Symptom Disorder，SSD）](entries/诊断与临床/躯体化障碍.md)                             | 来自站内词条自动发现（待完善）                      |
-| Soulbond                                      | 系魂          | [系魂（Soulbond）](entries/系统角色与类型/系魂.md)                                                     | 来自站内词条自动发现（待完善）                      |
-| Stress Response                               | 应激反应        | [应激反应（Stress Response）](entries/系统体验与机制/应激反应.md)                                          | 来自站内词条自动发现（待完善）                      |
-| Switch                                        | 切换          | [切换（Switch）](entries/系统体验与机制/切换.md)                                                       | 从一位成员过渡到另一位成员执掌前台的过程。                |
-| System                                        | 系统          | [系统（System）](entries/系统体验与机制/系统.md)                                                       | 指拥有多个成员的整体个体，强调为一个协作的身份集合。           |
-| Trauma                                        | 创伤          | [创伤（Trauma）](entries/诊断与临床/创伤.md)                                                         | 来自站内词条自动发现（待完善）                      |
-| Trigger                                       | 触发          | [触发（Trigger）](entries/系统体验与机制/触发.md)                                                      | 引发强烈情绪、记忆或症状反应的内外部线索，需要提前识别并准备应对策略。  |
-| Tulpa                                         | 图帕、托帕       | [图帕（Tulpa）](entries/系统角色与类型/tulpa.md)                                                     | 通过有意想象与练习培育出的自主意识伙伴，与系统成员共享身体协作。     |
-| Tulpish                                       | T 语         | [T 语（Tulpish）](entries/系统体验与机制/T语.md)                                                     | 来自站内词条自动发现（待完善）                      |
-
-
+| 术语 | 中文参考译名 | 社群用法/备注 |
+| --- | --- | --- |
+| [Admin](entries/系统角色与类型/管理者.md) | 管理者 | 系统中负责维护秩序、管理资源与协调事务的成员或团队角色。 |
+| [Alexithymia](entries/诊断与临床/述情障碍.md) | 述情障碍 | 描述难以识别、理解与表达情绪的体验，常与创伤或解离共现。 |
+| [Alter](entries/系统角色与类型/成员.md) | 成员 | 系统内部拥有独立视角、记忆或角色的意识单元。 |
+| [Alterhuman](entries/系统角色与类型/特殊认同.md) | 特殊认同 | 泛指自我认同超出传统人类类别的社群概念，用于讨论多样身份体验。 |
+| [ANP-EP 模型](entries/系统体验与机制/ANP-EP 模型.md) | ANP-EP 模型 | 描述创伤背景下“表面正常部分”与“情绪部分”互动的临床框架。 |
+| [ASD](entries/诊断与临床/孤独症谱系.md) | 孤独症谱系 | 指神经多样性谱系的统称，常用于共病或支持需求的讨论。 |
+| [ADHD](entries/诊断与临床/注意缺陷多动障碍.md) | 注意缺陷多动障碍 | 涉及注意调节、执行功能与冲动控制困难的神经发育状况。 |
+| [Autopilot](entries/系统体验与机制/自动驾驶.md) | 自动驾驶 | 形容成员依照习惯自动处理事务、前台意识参与度较低的状态。 |
+| [Back / Being Back](entries/系统体验与机制/后台.md) | 后台 | 不在前台掌控身体、转入内在活动或休息的成员状态。 |
+| [Bias](entries/系统体验与机制/偏重.md) | 偏重 | 描述成员或系统在决策时对特定观点、情绪或记忆的倾向。 |
+| [Blending](entries/系统角色与类型/混合.md) | 混合 | 指多位成员的意识界限暂时模糊、体验互相渗透的情况。 |
+| [Body Ownership](entries/系统体验与机制/躯体认同.md) | 躯体认同 | 用于讨论成员对身体控制权与认同感的差异与变化。 |
+| [边缘性人格障碍（Borderline Personality Disorder，BPD）](entries/诊断与临床/边缘性人格障碍.md) | 边缘性人格障碍 | 以情绪调节、人际关系与自我形象不稳定为特征的人格模式。 |
+| [Co-consciousness](entries/系统体验与机制/意识共存.md) | 意识共存 | 两位及以上成员同时在前台共同处理任务。 |
+| [Co-fronting](entries/系统体验与机制/共前台.md) | 共前台 | 描述多位成员同时在前台协作掌控身体的状态。 |
+| [Consciousness Modification](entries/系统体验与机制/意识修改.md) | 意识修改 | 指通过练习调整觉察、边界或前台访问方式的技巧。 |
+| [Core](entries/系统角色与类型/核心.md) | 核心 | 常指被视为最贴近系统原初身份或价值观的成员或结构。 |
+| [CPTSD](entries/诊断与临床/复杂性创伤后应激障碍.md) | 复杂性创伤后应激障碍 | 针对长期复杂创伤影响的诊断框架，强调持续性安全与支持需求。 |
+| [Depersonalization](entries/系统体验与机制/非我感.md) | 非我感 | 描述对自我或身体产生疏离、陌生感的现象。 |
+| [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](entries/诊断与临床/人格解体现实解体障碍.md) | 人格解体/现实解体障碍 | 临床诊断，涵盖非我感与非真实感持续困扰日常功能的情况。 |
+| [Depressive Disorders](entries/诊断与临床/抑郁障碍.md) | 抑郁障碍 | 泛指以持续情绪低落、兴趣缺失与认知改变为核心的障碍。 |
+| [DID](entries/诊断与临床/解离性身份障碍.md) | 解离性身份障碍 | 一种解离性障碍，特征为身份状态与记忆的显著分离，可能伴随失忆与功能受损。 |
+| [Dissociation](entries/系统体验与机制/解离.md) | 解离 | 强调意识、记忆、感受或身份之间产生分离的体验。 |
+| [Dissociative Amnesia](entries/诊断与临床/解离性遗忘.md) | 解离性遗忘 | 指无法回忆重要个人信息的解离症状，常与创伤事件关联。 |
+| [Exomemory](entries/系统体验与机制/独有记忆.md) | 独有记忆 | 仅对特定成员可访问、对其他成员呈现空白的记忆集合。 |
+| [External Projection](entries/系统体验与机制/外投射.md) | 外投射 | 描述将内部成员体验感知为外部感官或实体的状态。 |
+| [Fauxmain](entries/系统角色与类型/伪主体.md) | 伪主体 | 指被误认为主要前台但并非真正宿主的成员角色。 |
+| [Flashback](entries/诊断与临床/闪回.md) | 闪回 | 创伤记忆以感官或情绪形式突然重现、难以控制的体验。 |
+| [Fragment](entries/系统角色与类型/碎片.md) | 碎片 | 用于描述功能或人格特质高度局限、结构较小的意识片段。 |
+| [Front / Fronting](entries/系统体验与机制/前台.md) | 前台 | 当前与外界互动、控制身体的成员状态。 |
+| [Fusion](entries/系统体验与机制/融合.md) | 融合 | 形容两个或多个成员长期合并为单一身份体验的过程。 |
+| [Grounding](entries/实践与支持/接地.md) | 接地 | 指帮助回到当下、缓解解离或焦虑的实用技巧。 |
+| [Head Pressure](entries/系统体验与机制/头压.md) | 头压 | 社群用于描述前台转换或内在活动伴随的头部紧张压迫感。 |
+| [Headspace / Inner World](entries/系统体验与机制/内部空间.md) | 内部空间、幻境、里空间 | 系统成员在内在世界中互动、聚会或构建场景的心象空间。 |
+| [Host](entries/系统角色与类型/宿主.md) | 宿主 | 常指最常出现在前台、负责外部生活事务的成员。 |
+| [Iatrogenic System](entries/系统角色与类型/医源型系统.md) | 医源型系统 | 指被认为因医疗、治疗或外部干预而形成或强化的系统。 |
+| [Independence](entries/系统体验与机制/独立性.md) | 独立性 | 讨论成员在决策、情绪与生活功能上的自主程度。 |
+| [Integration](entries/系统体验与机制/整合.md) | 整合 | 强调提升成员协作、记忆连贯与功能稳定的长期目标。 |
+| [Internal Self Helper](entries/系统角色与类型/内部自助者.md) | 内部自助者 | 在系统内承担辅导、调解与信息整合职责的成员原型。 |
+| [Intrusive Thoughts](entries/系统体验与机制/侵入性思维.md) | 侵入性思维 | 描述突入意识、常伴焦虑或创伤主题的非自愿念头。 |
+| [Iteration](entries/系统体验与机制/迭代.md) | 迭代 | 用于记录系统内部的变更周期、角色调整或策略试验。 |
+| [Main](entries/系统角色与类型/主体.md) | 主体 | 社群常用来表示负责主要日常事务或决策的成员。 |
+| [Meditation](entries/实践与支持/冥想.md) | 冥想 | 通过专注训练提升觉察、调节情绪与稳定前台状态的实践。 |
+| [Memory Shielding](entries/系统体验与机制/记忆屏蔽.md) | 记忆屏蔽 | 指成员为保护他人而限制或分隔特定记忆访问的机制。 |
+| [NPD](entries/诊断与临床/自恋型人格障碍.md) | 自恋型人格障碍 | 以夸大、自我关注与共情困难为主要特征的人格模式。 |
+| [OCD](entries/诊断与临床/强迫症.md) | 强迫症 | 以反复出现的强迫思维与强迫行为循环为核心特征的状态。 |
+| [OSDD](entries/诊断与临床/其他特定解离性障碍.md) | 其他特定解离性障碍 | 涵盖未达到 DID 标准但存在显著身份或记忆分离的诊断类别。 |
+| [Partial Dissociative Identity Disorder](entries/诊断与临床/部分解离性身份障碍.md) | 部分解离性身份障碍 | 描述部分身份保持前台控制、仍保留连续意识体验的解离表现。 |
+| [Permissions](entries/系统体验与机制/权限.md) | 权限 | 涉及系统内部对信息、前台或资源使用的授权规则。 |
+| [Persona](entries/系统角色与类型/人格面具.md) | 人格面具 | 指为特定情境塑造的社交或功能性面向。 |
+| [Plurality](entries/系统体验与机制/多意识体.md) | 多意识体 | 概括多个成员共享一具身体、协作生活的存在形态。 |
+| [Plurality Basics](entries/plurality-basics.md) | 多重意识体基础 | 面向新人介绍多意识体概念、术语与安全实践的入门资料。 |
+| [Polyfragmented](entries/系统角色与类型/超级破碎.md) | 超级破碎 | 指拥有极多成员或碎片、结构高度复杂的系统。 |
+| [PTSD](entries/诊断与临床/创伤后应激障碍.md) | 创伤后应激障碍 | 创伤后以警觉性提高、回避与再体验等症状为主的障碍。 |
+| [Reconstruction](entries/系统体验与机制/重构.md) | 重构 | 描述重建系统结构、角色或记忆架构的有意过程。 |
+| [Regression in Psychology](entries/系统体验与机制/退行.md) | 退行 | 指在压力下回到较早发展阶段的应对方式。 |
+| [Schizophrenia](entries/诊断与临床/精神分裂症.md) | 精神分裂症 | 以思维、感知与情感失调为核心的精神病性障碍。 |
+| [Sense of Presence](entries/系统体验与机制/存在感.md) | 存在感 | 讨论即便成员不在前台仍能感知其陪伴与互动的主观体验。 |
+| [Sequestration](entries/系统体验与机制/封存.md) | 封存 | 用于说明通过隔离记忆或情绪来维持功能的策略。 |
+| [Servitor](entries/系统角色与类型/傀儡.md) | 傀儡 | 源于魔法或心理实践中，通过意念构建以执行任务的实体概念。 |
+| [SSD](entries/诊断与临床/躯体化障碍.md) | 躯体化障碍 | 聚焦躯体症状造成困扰并影响生活功能的诊断类别。 |
+| [Soulbond](entries/系统角色与类型/系魂.md) | 系魂 | 描述与虚构角色或外部实体形成稳定互惠联系的成员或关系。 |
+| [Stress Response](entries/系统体验与机制/应激反应.md) | 应激反应 | 概括身心对压力事件的即时生理与心理反应。 |
+| [Switch](entries/系统体验与机制/切换.md) | 切换 | 从一位成员过渡到另一位成员执掌前台的过程。 |
+| [System](entries/系统体验与机制/系统.md) | 系统 | 指拥有多个成员的整体个体，强调为一个协作的身份集合。 |
+| [Trauma](entries/诊断与临床/创伤.md) | 创伤 | 指超出个体当时应对能力的威胁性经历及其后效。 |
+| [Trigger](entries/系统体验与机制/触发.md) | 触发 | 引发强烈情绪、记忆或症状反应的内外部线索，需要提前识别并准备应对策略。 |
+| [Tulpa](entries/系统角色与类型/tulpa.md) | 图帕、托帕 | 通过有意想象与练习培育出的自主意识伙伴，与系统成员共享身体协作。 |
+| [Tulpish](entries/系统体验与机制/T语.md) | T 语 | 指图帕或成员在内部交流时使用的象征化、非语音沟通方式。 |
