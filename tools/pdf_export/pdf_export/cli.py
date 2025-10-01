@@ -1,4 +1,4 @@
-"""Command line interface for the PDF exporter."""
+"""PDF 导出工具的命令行入口，负责解析参数并触发导出流程。"""
 
 from __future__ import annotations
 
@@ -23,7 +23,7 @@ from .structure import collect_markdown_structure
 
 
 def parse_arguments(argv: Sequence[str] | None = None) -> argparse.Namespace:
-    """Return parsed command line arguments."""
+    """解析命令行参数并返回 ``argparse.Namespace`` 结果。"""
 
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -89,7 +89,7 @@ def parse_arguments(argv: Sequence[str] | None = None) -> argparse.Namespace:
 
 
 def main(argv: Sequence[str] | None = None) -> None:
-    """Entry point used by both the wrapper script and ``python -m``."""
+    """统一的命令行入口，供封装脚本与 ``python -m`` 复用。"""
 
     args = parse_arguments(argv)
     check_requirements(args.pandoc)
