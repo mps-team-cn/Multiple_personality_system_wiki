@@ -1,4 +1,4 @@
-"""Pandoc integration helpers."""
+"""与 Pandoc 交互的封装函数，负责实际的 PDF 渲染。"""
 
 from __future__ import annotations
 
@@ -16,7 +16,7 @@ def export_pdf(
     pdf_engine: str | None,
     cjk_font: str | None,
 ) -> None:
-    """Invoke Pandoc to render ``markdown_content`` into ``output_path``."""
+    """调用 Pandoc 将 ``markdown_content`` 渲染为 ``output_path`` 指定的文件。"""
 
     with tempfile.NamedTemporaryFile("w", encoding="utf-8", suffix=".md", delete=False) as handle:
         handle.write(markdown_content)

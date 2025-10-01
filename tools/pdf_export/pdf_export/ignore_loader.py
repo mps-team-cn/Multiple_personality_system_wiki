@@ -1,4 +1,4 @@
-"""Helpers for reading ignore rules from ``ignore.md``."""
+"""从 ``ignore.md`` 读取忽略规则的辅助函数。"""
 
 from __future__ import annotations
 
@@ -9,7 +9,7 @@ from .paths import PROJECT_ROOT
 
 
 def load_ignore_rules(path: Path) -> IgnoreRules:
-    """Load ignore rules from ``ignore.md`` similar to a subset of .gitignore."""
+    """解析 ``ignore.md`` 并返回与 .gitignore 类似的忽略配置。"""
 
     if not path.exists():
         return IgnoreRules(files=frozenset(), directories=frozenset())

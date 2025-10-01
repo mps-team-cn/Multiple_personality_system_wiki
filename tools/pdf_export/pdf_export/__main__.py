@@ -1,4 +1,4 @@
-"""Allow running ``python -m pdf_export``."""
+"""支持通过 ``python -m pdf_export`` 执行命令行入口。"""
 
 from __future__ import annotations
 
