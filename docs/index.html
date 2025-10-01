@@ -21,6 +21,34 @@
     <div id="app"></div>
 
     <script>
+      const projectRoot = (function () {
+        const { pathname } = window.location;
+        let base = pathname;
+        if (!base.endsWith("/")) {
+          base = base.replace(/[^/]*$/, "");
+        }
+        if (base.endsWith("/docs/")) {
+          base = base.replace(/docs\/$/, "");
+        }
+        if (!base.endsWith("/")) {
+          base += "/";
+        }
+        return base;
+      })();
+
+      const alias = {
+        "/entries/(.*)": `${projectRoot}entries/$1`,
+        "entries/(.*)": `${projectRoot}entries/$1`,
+        "/index": `${projectRoot}index.md`,
+        "/index.md": `${projectRoot}index.md`,
+        index: `${projectRoot}index.md`,
+        "index.md": `${projectRoot}index.md`,
+        "/README": `${projectRoot}README.md`,
+        "/README.md": `${projectRoot}README.md`,
+        README: `${projectRoot}README.md`,
+        "README.md": `${projectRoot}README.md`,
+      };
+
       window.$docsify = {
         name: "plurality_wiki",
         repo: "kuliantnt/plurality_wiki",
@@ -33,7 +61,7 @@
         // 首页直接展示 README，无需封面
         coverpage: false,
         onlyCover: false,
-        homepage: "README.md",
+        homepage: `${projectRoot}README.md`,
 
         // 搜索
         search: {
@@ -59,14 +87,7 @@
           crossChapter: true,
         },
 
-        alias: {
-          '/entries/(.*)': '../entries/$1',
-          'entries/(.*)': '../entries/$1',
-          '/index': '../index.md',
-          '/index.md': '../index.md',
-          'index': '../index.md',
-          'index.md': '../index.md',
-        },
+        alias,
       };
 
       // 简易暗黑模式开关（写一个全局 class）
