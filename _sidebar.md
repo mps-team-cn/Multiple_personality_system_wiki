@@ -5,10 +5,8 @@
 
 - **核心词条**
   - [多重意识体基础](entries/plurality-basics.md)
-  - [解离性身份障碍（DID）](<entries/诊断与临床/解离性身份障碍.md>)
-  - [部分解离性身份障碍（Partial DID）](<entries/诊断与临床/部分解离性身份障碍.md>)
-  - [ANP / EP 模型](<entries/系统体验与机制/ANP-EP 模型.md>)
-  - 
+  - [解离性身份障碍](<entries/诊断与临床/解离性身份障碍.md>)
+  - [Tulpa](<entries/系统角色与类型/tulpa.md>)
 
 - **实践指南**
   - [接地练习](<entries/实践与支持/接地.md>)
