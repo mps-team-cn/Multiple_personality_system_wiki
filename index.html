@@ -32,11 +32,8 @@
           "/.*/_sidebar.md": "_sidebar.md",
         };
 
-        const canonicalizeHash = () => {
-          const { hash } = window.location;
-          if (!hash || !hash.startsWith("#/")) return;
-
-          const [rawPath, query = ""] = hash.slice(2).split("?");
+        const normalizePath = (raw) => {
+          const [rawPath, query = ""] = raw.split("?");
           const segments = rawPath.split("/").filter(Boolean);
           const stack = [];
 
@@ -49,15 +46,50 @@
           }
 
           const normalizedPath = stack.join("/");
-          const normalizedHash =
-            "#/" + normalizedPath + (query ? `?${query}` : "");
-
-          if (normalizedHash !== hash) {
-            history.replaceState(null, "", normalizedHash);
-          }
+          return normalizedPath + (query ? `?${query}` : "");
         };
 
-        window.addEventListener("hashchange", canonicalizeHash);
+        const canonicalizeHash = (() => {
+          let adjusting = false;
+
+          const updateHash = (hash, notifyRouter) => {
+            const { origin, pathname, search } = window.location;
+            const newUrl = `${origin}${pathname}${search}${hash}`;
+
+            adjusting = true;
+            history.replaceState(null, "", newUrl);
+
+            if (notifyRouter) {
+              const event =
+                typeof HashChangeEvent === "function"
+                  ? new HashChangeEvent("hashchange")
+                  : new Event("hashchange");
+              window.dispatchEvent(event);
+            }
+
+            adjusting = false;
+          };
+
+          return (notifyRouter = false) => {
+            if (adjusting) return;
+
+            const { hash } = window.location;
+            if (!hash || !hash.startsWith("#/")) return;
+
+            const normalizedPath = normalizePath(hash.slice(2));
+            const normalizedHash = `#/${normalizedPath}`;
+
+            if (normalizedHash !== hash) {
+              updateHash(normalizedHash, notifyRouter);
+            }
+          };
+        })();
+
+        window.addEventListener(
+          "hashchange",
+          () => canonicalizeHash(true),
+          true
+        );
         canonicalizeHash();
 
         window.$docsify = {
