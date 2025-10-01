@@ -36,6 +36,11 @@
         return base;
       })();
 
+      const alias = {
+        '/.*/_navbar.md': '_navbar.md',
+        '/.*/_sidebar.md': '_sidebar.md',
+      };
+
       window.$docsify = {
         name: "多意识体Wikipedia",
         repo: "kuliantnt/plurality_wiki",
