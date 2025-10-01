@@ -46,6 +46,7 @@
 
 - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](<entries/系统体验与机制/ANP-EP 模型.md>)
 - [共前台（Co-fronting）](entries/系统体验与机制/共前台.md)
+- [多重意识体基础（Plurality Basics）](entries/plurality-basics.md)
 - [多意识体（Plurality）](entries/系统体验与机制/多意识体.md)
 - [偏重（Bias）](entries/系统体验与机制/偏重.md)
 - [前台（Front / Fronting）](entries/系统体验与机制/前台.md)
