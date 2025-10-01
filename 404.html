@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>页面跳转中…</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+        color: #2c3e50;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        background: #f8fafc;
+      }
+      main {
+        text-align: center;
+        max-width: 32rem;
+        padding: 2rem;
+        box-shadow: 0 18px 40px -12px rgba(15, 23, 42, 0.25);
+        background: #ffffff;
+        border-radius: 16px;
+      }
+      h1 {
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+      }
+      p {
+        line-height: 1.6;
+        margin: 0.5rem 0 1.25rem;
+      }
+      .link {
+        display: inline-block;
+        padding: 0.5rem 1.25rem;
+        background: #2563eb;
+        color: #fff;
+        border-radius: 9999px;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .hint {
+        font-size: 0.875rem;
+        color: #64748b;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>正在为你跳转…</h1>
+      <p>
+        没找到请求的页面，我们会将你带回文档站点。<br />
+        如果浏览器没有自动跳转，请点击下方按钮。
+      </p>
+      <a id="fallback" class="link" href="/">返回首页</a>
+      <p class="hint">稍等几秒即可完成自动跳转。</p>
+    </main>
+    <script>
+      (function () {
+        const { pathname, search, hash } = window.location;
+        const segments = pathname.split("/").filter(Boolean);
+        const repoName = "plurality_wiki";
+        const repoIndex = segments.indexOf(repoName);
+        const baseSegments =
+          repoIndex === -1 ? [] : segments.slice(0, repoIndex + 1);
+        const docSegments = segments.slice(baseSegments.length);
+        const basePath =
+          baseSegments.length > 0 ? `/${baseSegments.join("/")}/` : "/";
+        const docPath = docSegments.join("/");
+        const normalizedBase = basePath.replace(/\/+$/, "/");
+        const target =
+          normalizedBase +
+          "#/" +
+          (docPath ? docPath : "") +
+          (search || "") +
+          (hash || "");
+        const fallbackHome = `${normalizedBase}#/`;
+        const fallbackLink = document.getElementById("fallback");
+        fallbackLink.href = docPath ? target : fallbackHome;
+        try {
+          window.location.replace(target);
+        } catch (error) {
+          console.error("重定向失败", error);
+        }
+      })();
+    </script>
+  </body>
+</html>
