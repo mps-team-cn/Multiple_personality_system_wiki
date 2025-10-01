@@ -22,7 +22,7 @@
 
 ## 相关条目
 
-- 参见：[前台（Front / Fronting）](前台.md)、[共前台（Co-fronting）](共前台.md)、[内部空间（Headspace / Inner World）](内部空间.md)、[切换（Switch）](切换.md)
+- 参见：[前台（Front / Fronting）](Front-Fronting.md)、[共前台（Co-fronting）](Co-Fronting.md)、[内部空间（Headspace / Inner World）](Headspace-Inner-World.md)、[切换（Switch）](Switch.md)
 
 ## 参考与延伸阅读
 

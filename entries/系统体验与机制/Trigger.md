@@ -23,9 +23,9 @@
 
 ## 相关条目
 
-- [闪回（Flashback）](../诊断与临床/闪回.md)
-- [自动驾驶（Autopilot）](自动驾驶.md)
-- [地面化技巧（Grounding）](../实践与支持/接地.md)
+- [闪回（Flashback）](../诊断与临床/Flashback.md)
+- [自动驾驶（Autopilot）](Autopilot.md)
+- [地面化技巧（Grounding）](../实践与支持/Grounding.md)
 
 ## 参考与延伸阅读
 

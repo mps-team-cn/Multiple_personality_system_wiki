@@ -84,13 +84,13 @@ PTSD 与抑郁障碍、焦虑障碍、物质使用障碍、解离性障碍、躯
 
 ## 相关条目
 
-* [创伤](创伤.md)
-* [复杂性创伤后应激障碍](复杂性创伤后应激障碍.md)
-* [解离性身份障碍](解离性身份障碍.md)
-* [解离性遗忘](解离性遗忘.md)
-* [人格解体/现实解体障碍](人格解体现实解体障碍.md)
-* [应激反应](../系统体验与机制/应激反应.md)
-* [躯体化障碍](躯体化障碍.md)
+* [创伤](Trauma.md)
+* [复杂性创伤后应激障碍](CPTSD.md)
+* [解离性身份障碍](DID.md)
+* [解离性遗忘](Dissociative-Amnesia-DA.md)
+* [人格解体/现实解体障碍](Depersonalization-Derealization-Disorder-DPDR.md)
+* [应激反应](../系统体验与机制/Stress-Response.md)
+* [躯体化障碍](Somatic-Symptom-Disorder-SSD.md)
 
 ## 参考
 （待补充）

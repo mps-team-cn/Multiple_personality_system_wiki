@@ -36,10 +36,10 @@
 
 ## 相关条目
 
-- [解离](./解离.md)
-- [应激反应](./应激反应.md)
-- [整合](./整合.md)
-- [意识共存](./意识共存.md)
+- [解离](./Dissociation.md)
+- [应激反应](./Stress-Response.md)
+- [整合](./Integration.md)
+- [意识共存](./Co-Consciousness.md)
 
 ## 参考资料
 
