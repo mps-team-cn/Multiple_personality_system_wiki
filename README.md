@@ -65,6 +65,8 @@ tools/
 
 索引内容已迁移至独立的 [`index.md`](index.md)，方便独立维护与浏览。
 
+如需通过英文路径快速访问基础概念，可直接前往《[多重意识体基础（Plurality Basics）](entries/plurality-basics.md)》。
+
 ## 常用术语（Common Terms）
 
 > 以下译名与定义参考 Pluralpedia 社群用语整理[^common-terms]。
