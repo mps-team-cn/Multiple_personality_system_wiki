@@ -4,3 +4,5 @@ README.md
 AGENTS.md
 tools
 _*.md
+Glossary.md
+CONTRIBUTING.md
