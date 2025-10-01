@@ -21,9 +21,9 @@
 
 ## 相关条目
 
-- [主体（Main）](../系统角色与类型/主体.md)
-- [管理者（Admin）](../系统角色与类型/管理者.md)
-- [记忆屏蔽（Memory Shielding）](记忆屏蔽.md)
+- [主体（Main）](../系统角色与类型/Main.md)
+- [管理者（Admin）](../系统角色与类型/Admin.md)
+- [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)
 
 ## 参考与延伸阅读
 

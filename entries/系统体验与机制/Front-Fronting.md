@@ -22,7 +22,7 @@
 
 ## 相关条目
 
-- 参见：[系统（System）](系统.md)、[共前台（Co-fronting）](共前台.md)、[切换（Switch）](切换.md)、[成员（Alter）](../系统角色与类型/成员.md)
+- 参见：[系统（System）](System.md)、[共前台（Co-fronting）](Co-Fronting.md)、[切换（Switch）](Switch.md)、[成员（Alter）](../系统角色与类型/Alter.md)
 
 ## 参考与延伸阅读
 
