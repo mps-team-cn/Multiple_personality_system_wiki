@@ -69,7 +69,7 @@ docsify serve .
 ## 🧭 贡献（Contribution）
 
 欢迎你参与完善！首次贡献建议从 Wiki 版的《贡献指南》开始：
-见 **[README_wiki.md](./README_wiki.md)**（Wiki 页面版内容相同/更完整）。
+见 **[CONTRIBUTING.md](./CONTRIBUTING.md)**。
 
 **简要流程：**
 
