@@ -38,7 +38,6 @@
 - 修改图标样式（[0352260](https://github.com/kuliantnt/plurality_wiki/commit/03522608cd8a6c4ad40f94ac48990d3aab762177)）
 - 重设计主页面页脚（[774472d](https://github.com/kuliantnt/plurality_wiki/commit/774472d7a2ad9bdbaaa58f2180f18bab6ce9d927)）
 
-
 ## v1.2.4 (2025-10-02)
 
 ### ✨ 新增
