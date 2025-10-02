@@ -537,6 +537,7 @@ button, .cover .buttons a{
   transform: translateY(-2px);
   box-shadow: 0 16px 32px rgba(79,192,141,.34);
   color: #041f15;
+
 }
 
 .btn--ghost{
