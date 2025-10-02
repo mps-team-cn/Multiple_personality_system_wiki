@@ -58,6 +58,7 @@
 | [Intrusive Thoughts](entries/系统体验与机制/Intrusive-Thoughts.md)                               | 侵入性思维       | 描述突入意识、常伴焦虑或创伤主题的非自愿念头。              |
 | [Iteration](entries/系统体验与机制/Iteration.md)                                           | 迭代          | 用于记录系统内部的变更周期、角色调整或策略试验。             |
 | [Little / Child Part](entries/系统角色与类型/Little.md)                       | 小孩意识体       | 以童年视角感知世界、需要安全照护的成员。           |
+| [Lilith（《不/存在的你，和我》）](entries/虚拟角色与文学影视作品/Nonexistent-You-And-Me-Tulpa-Lilith.md) | 莉莉丝         | 独立游戏中的虚拟同伴角色，被社群视作 tulpa 象征，强调与玩家协商信任与边界。 |
 | [Main](entries/系统角色与类型/Main.md)                                                | 主体          | 社群常用来表示负责主要日常事务或决策的成员。               |
 | [Mania](entries/诊断与临床/Mania.md)                                       | 躁狂          | 情绪和能量显著高涨、睡眠需求减少、冲动决定或危险行为的状态。       |
 | [Meditation](entries/实践与支持/Meditation.md)                                            | 冥想          | 通过专注训练提升觉察、调节情绪与稳定前台状态的实践。           |
