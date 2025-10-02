@@ -18,6 +18,7 @@
   - 新增或修改词条时，必须同步维护：
     - `index.md` → 全局目录索引
     - `glossary.md` → 术语表（如适用）
+    - `assets/last-updated.json` → 词条最后更新时间索引；如有词条变动，请运行 `node scripts/gen-last-updated.mjs` 重新生成
 - **链接规范**：
   - **所有条目内链接必须使用完整路径**（如 `entries/系统角色与类型/Admin.md`），禁止相对或模糊链接。
 
