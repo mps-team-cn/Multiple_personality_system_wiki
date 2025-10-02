@@ -11,7 +11,7 @@
 
 ---
 
-📖 **提示**：如果你是普通读者，请查看 [Main_Page.md](./Main_Page.md)；本文档主要面向开发者与贡献者。
+📖 **提示**：如果你是普通读者，请查看 [Main_Page.html](./Main_Page.html)；本文档主要面向开发者与贡献者。
 
 ---
 
@@ -58,7 +58,7 @@ markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor
 ```ini
 plurality_wiki/
 ├─ README.md
-├─ Main_Page.md
+├─ Main_Page.html
 ├─ CONTRIBUTING.md
 ├─ AGENTS.md
 ├─ index.md

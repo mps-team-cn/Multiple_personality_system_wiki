@@ -36,12 +36,11 @@ ANCHOR_ALLOW_PREFIX = ("#", "#/")  # 允许 #xxx 和 #/xxx 两种
 # 根目录下允许直接链接的站点文件（不强制 entries/ 前缀）
 ROOT_WHITELIST = {
     "README.md",
-    "Main_Page.md",
+    "Main_Page.html",
     "index.md",
     "Glossary.md",
     "CONTRIBUTING.md",
     "changelog.md",
-    "Main_Page.md",
     "_sidebar.md",
     "_coverpage.md",
     "AGENTS.md",
@@ -60,7 +59,7 @@ def is_anchor(target: str) -> bool:
 def is_root_whitelist(target: str, repo_root: Path) -> bool:
     # 仅接受纯文件名或相对根文件（不带子目录）
     p = Path(target)
-    if p.suffix.lower() != ".md":
+    if p.suffix.lower() not in {".md", ".html"}:
         return False
     # 不允许子目录：如 docs/README.md 不在白名单里
     if len(p.parts) != 1:
@@ -128,7 +127,7 @@ def check_file(md_path: Path, repo_root: Path, whitelist_extra: List[str]) -> Li
 def main():
     parser = argparse.ArgumentParser(description="检查 Markdown 内部链接是否为 entries/.../*.md 完整路径")
     parser.add_argument("--root", default=".", help="仓库根目录，默认 .")
-    parser.add_argument("--whitelist", nargs="*", default=[], help="额外允许直链的根文件（例如 Main_Page.md）")
+    parser.add_argument("--whitelist", nargs="*", default=[], help="额外允许直链的根文件（例如 Main_Page.html）")
     args = parser.parse_args()
 
     repo_root = Path(args.root).resolve()
