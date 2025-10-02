@@ -23,12 +23,49 @@ jobs:
         run: markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
 
   linkcheck:
-    name: 链接有效性检查
+    name: 链接有效性检查（本地解析）
     runs-on: ubuntu-latest
     steps:
       - name: 检出仓库
         uses: actions/checkout@v4
-      - name: 运行 lychee
+      - name: 运行 lychee（本地解析根路径）
         uses: lycheeverse/lychee-action@v1
         with:
-          args: --config .github/lychee.toml --no-progress --verbose ./
+          args: >-
+            --config .github/lychee.toml
+            --root-dir "${{ github.workspace }}"
+            --no-progress
+            --verbose
+            ./
+
+  linkcheck-pages:
+    name: 线上巡检（GitHub Pages）
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lychee remap 到 GitHub Pages
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: >-
+            --config .github/lychee.toml
+            --remap '^/entries/ https://kuliantnt.github.io/plurality_wiki/#/entries/'
+            --no-progress
+            --verbose
+            ./
+
+  linkcheck-cf:
+    name: 线上巡检（Cloudflare）
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lychee remap 到 Cloudflare
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: >-
+            --config .github/lychee.toml
+            --remap '^/entries/ https://plurality-wiki.pages.dev/#/entries/'
+            --no-progress
+            --verbose
+            ./

@@ -1,11 +1,31 @@
-# 参见 https://github.com/lycheeverse/lychee#configuration-file
+# 参考: https://github.com/lycheeverse/lychee#configuration-file
+
+# 排除不需要检查的 URL
 exclude = [
   "http://localhost",
   "https://localhost",
   "http://127.0.0.1",
   "https://127.0.0.1"
 ]
-retry_wait_time = 2
-max_retries = 2
+
+# 可选：排除整个目录/路径（这些是本地文件路径，而不是 URL）
+exclude_path = [
+  "^node_modules/",
+  "^tools/pdf_export/vendor/"
+]
+
+# 超时（秒）
 timeout = 20
+
+# 遇到429时等待时间（秒）
+retry_wait_time = 3
+
+# 最大重试次数
+max_retries = 3
+
+# 用户代理标识
 user_agent = "Plurality Wiki CI"
+
+# 控制台输出
+no_progress = true
+verbose = true
