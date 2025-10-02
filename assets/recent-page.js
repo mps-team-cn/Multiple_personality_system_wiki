@@ -25,8 +25,38 @@
     return `#/${encoded}`;
   }
 
-  function toDisplayName(filePath) {
-    return filePath.replace(/\.md$/i, "").replace(/^entries\//i, "");
+  let titleCachePromise = null;
+
+  function fetchTitleMap() {
+    if (!titleCachePromise) {
+      titleCachePromise = fetch("./index.md", { cache: "no-store" })
+        .then((response) => (response.ok ? response.text() : ""))
+        .then((content) => {
+          if (!content) return {};
+          const map = {};
+          const linkRegExp = /\[([^\]]+)\]\((entries\/[^)]+?\.md)\)/g;
+          let match = linkRegExp.exec(content);
+          while (match) {
+            const [, title, linkPath] = match;
+            const normalizedPath = linkPath.split("#")[0];
+            map[normalizedPath] = title.trim();
+            match = linkRegExp.exec(content);
+          }
+          return map;
+        })
+        .catch(() => ({}));
+    }
+    return titleCachePromise;
+  }
+
+  function toDisplayName(filePath, titleMap) {
+    if (titleMap && titleMap[filePath]) {
+      return titleMap[filePath];
+    }
+    const withoutExt = filePath.replace(/\.md$/i, "");
+    const segments = withoutExt.split("/").filter(Boolean);
+    const lastSegment = segments[segments.length - 1] || withoutExt;
+    return decodeURIComponent(lastSegment).replace(/-/g, " ");
   }
 
   function formatDate(isoString) {
@@ -66,7 +96,7 @@
     )}</a>`;
   }
 
-  function renderList(items) {
+  function renderList(items, titleMap) {
     if (!items.length) {
       return `
         <section class="${CONTAINER_CLASS}">
@@ -78,7 +108,7 @@
 
     const listItems = items
       .map(({ path, info }) => {
-        const displayName = toDisplayName(path);
+        const displayName = toDisplayName(path, titleMap);
         const formattedDate = formatDate(info.updated);
         const commitLink = buildCommitLink(info.commit);
         const meta = [formattedDate, commitLink]
@@ -104,7 +134,7 @@
     `;
   }
 
-  function generateContent(map) {
+  function generateContent(map, titleMap) {
     const items = Object.keys(map || {})
       .map((path) => ({ path, info: map[path] || {} }))
       .filter((item) => item.info && item.info.updated)
@@ -115,7 +145,7 @@
       })
       .slice(0, ENTRY_LIMIT);
 
-    return renderList(items);
+    return renderList(items, titleMap);
   }
 
   window.$docsify = window.$docsify || {};
@@ -129,12 +159,12 @@
         return;
       }
 
-      fetchUpdates()
-        .then((map) => {
-          next(generateContent(map));
+      Promise.all([fetchUpdates(), fetchTitleMap()])
+        .then(([map, titleMap]) => {
+          next(generateContent(map, titleMap));
         })
         .catch(() => {
-          next(generateContent({}));
+          next(generateContent({}, {}));
         });
     });
   }, userPlugins);
