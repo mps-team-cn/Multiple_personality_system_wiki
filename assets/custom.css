@@ -523,17 +523,20 @@ button, .cover .buttons a{
   transition: transform .18s ease, box-shadow .2s ease;
 }
 
-.btn--primary{
+.btn--primary,
+.markdown-section .btn--primary{
   background: var(--c-brand);
   color: #0f172a;
   box-shadow: 0 12px 24px rgba(79,192,141,.28);
 }
 
-.btn--primary:visited{
+.btn--primary:visited,
+.markdown-section .btn--primary:visited{
   color: #0f172a;
 }
 
-.btn--primary:hover{
+.btn--primary:hover,
+.markdown-section .btn--primary:hover{
   transform: translateY(-2px);
   box-shadow: 0 16px 32px rgba(79,192,141,.34);
   color: #041f15;
