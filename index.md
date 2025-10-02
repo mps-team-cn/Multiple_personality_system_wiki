@@ -100,3 +100,22 @@
 
 - [冥想（Meditation）](entries/实践与支持/Meditation.md)
 - [接地（Grounding）](entries/实践与支持/Grounding.md)
+
+## 虚拟角色与文学影视作品
+
+- [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](entries/虚拟角色与文学影视作品/Nonexistent-You-And-Me-Tulpa-Lilith.md)
+- [《分裂》（Split, 2016）中的 DID 形象分析](entries/虚拟角色与文学影视作品/Split-2016-DID-Representation.md)
+- [《不可饶恕的她》对多重人格的叙事化呈现](entries/虚拟角色与文学影视作品/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
+- [《西比尔》（Sybil, 1976）与多重人格文化原型](entries/虚拟角色与文学影视作品/Sybil-1976-Cultural-Prototype.md)
+- [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](entries/虚拟角色与文学影视作品/Three-Faces-Of-Eve-1957-Dissociation.md)
+- [《我与梦露的一周》（The United States of Tara）中的系统家庭日常](entries/虚拟角色与文学影视作品/United-States-Of-Tara-System-Daily-Life.md)
+- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](entries/虚拟角色与文学影视作品/Fight-Club-1999-Identity-Metaphor.md)
+- [《隐形人》（Mr. Robot）中的人格分裂叙事](entries/虚拟角色与文学影视作品/Mr-Robot-DID-Narrative.md)
+- [《妄想代理人》（Paranoia Agent）与集体意识的具象化](entries/虚拟角色与文学影视作品/Paranoia-Agent-Collective-Consciousness.md)
+- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](entries/虚拟角色与文学影视作品/Dostoevsky-The-Double-Self-Division.md)
+- [卡夫卡《变形记》与异化的身份解体](entries/虚拟角色与文学影视作品/Kafka-Metamorphosis-Identity-Dissolution.md)
+- [洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射](entries/虚拟角色与文学影视作品/Lovecraft-Tulpa-Motifs.md)
+- [《Another Me》/《双重人格》类作品的 DID 表现](entries/虚拟角色与文学影视作品/Another-Me-DID-Depictions.md)
+- [《魔法少女小圆》中的丘比与契约式“他者”](entries/虚拟角色与文学影视作品/Madoka-Magica-Kyubey-Otherness.md)
+- [《东方Project》同人圈中的 Tulpa 文化解读](entries/虚拟角色与文学影视作品/Touhou-Tulpa-Fandom.md)
+- [虚拟偶像与 Tulpa 的边界：初音未来现象](entries/虚拟角色与文学影视作品/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
