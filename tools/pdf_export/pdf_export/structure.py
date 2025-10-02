@@ -62,7 +62,7 @@ def collect_markdown_structure(ignore: IgnoreRules) -> CategoryStructure:
     listed_paths = {path for _, paths in categories for path in paths}
 
     # 项目根目录下的《前言》应在 PDF 中最先展示。
-    preface_path = PROJECT_ROOT / "前言.md"
+    preface_path = PROJECT_ROOT / "Preface.md"
     if (
         preface_path.exists()
         and not ignore.matches(preface_path)
