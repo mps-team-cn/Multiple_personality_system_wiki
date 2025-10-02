@@ -38,6 +38,8 @@ GROUPS = [
 ]
 
 ENCODING = "utf-8"
+DEFAULT_OUTPUT = "CHANGELOG.md"
+LATEST_TO_HEAD_OUTPUT = "chang.log"
 
 def sh(cmd: str) -> str:
     """Run shell command and return stdout (stripped)."""
@@ -212,16 +214,67 @@ def build_changelog(latest_only: bool = False) -> str:
     lines.append("\n— 由 Git 提交记录自动生成")
     return "\n".join(lines).strip() + "\n"
 
+
+def build_latest_to_head() -> str:
+    """生成“最新标签..HEAD”区间的简化 changelog，便于手工编辑。"""
+
+    repo_slug = get_repo_slug()
+    tags = get_all_tags_sorted()
+    lines: List[str] = []
+
+    now_str = datetime.now().strftime("%Y-%m-%d %H:%M")
+    if tags:
+        base_tag = tags[-1]
+        base_date = get_tag_date(base_tag)
+        rng = f"{base_tag}..HEAD"
+        header = f"自 {base_tag} ({base_date}) 至 HEAD 的最新变更"
+    else:
+        rng = "HEAD"
+        header = "自仓库初始提交至 HEAD 的最新变更"
+
+    commits = get_commits_in_range(rng)
+
+    lines.append("# 最新变更草稿")
+    lines.append(header)
+    lines.append(f"生成时间：{now_str}")
+    lines.append("")
+
+    if not commits:
+        lines.append("（无新增提交）")
+    else:
+        for h, s in commits:
+            lines.append(format_commit_line(h, s, repo_slug))
+
+    lines.append("")
+    lines.append("— 由 Git 提交记录自动生成，供人工整理")
+
+    return "\n".join(lines).strip() + "\n"
+
 def main():
     parser = argparse.ArgumentParser(description="按标签逐段生成 CHANGELOG.md")
-    parser.add_argument("--output", default="CHANGELOG.md", help="输出文件路径（默认：仓库根目录 CHANGELOG.md）")
+    parser.add_argument(
+        "--output",
+        default=DEFAULT_OUTPUT,
+        help="输出文件路径（默认：仓库根目录 CHANGELOG.md；若配合 --latest-to-head 使用且未显式指定，则输出到 chang.log）",
+    )
     parser.add_argument("--latest-only", action="store_true", help="只生成从上一个标签到最新标签的一段")
+    parser.add_argument(
+        "--latest-to-head",
+        action="store_true",
+        help="生成从最新标签到当前 HEAD 的简化 changelog（便于手工整理）",
+    )
     args = parser.parse_args()
 
     repo_root = get_repo_root()
-    out_path = (repo_root / args.output).resolve()
+    if args.latest_to_head and args.output == DEFAULT_OUTPUT:
+        out_path = (repo_root / LATEST_TO_HEAD_OUTPUT).resolve()
+    else:
+        out_path = (repo_root / args.output).resolve()
 
-    md = build_changelog(latest_only=args.latest_only)
+    if args.latest_to_head:
+        md = build_latest_to_head()
+    else:
+        md = build_changelog(latest_only=args.latest_only)
 
     # 写入文件（覆盖）
     out_path.write_text(md, encoding=ENCODING)
