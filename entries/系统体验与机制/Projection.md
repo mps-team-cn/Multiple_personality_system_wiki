@@ -33,4 +33,4 @@
 
 ## 参考资料
 
-[^projection-pluralpedia]: Pluralpedia. (n.d.). [Projection](https://pluralpedia.org/w/Projection).
+[Projection](https://pluralpedia.org/w/Projection).
