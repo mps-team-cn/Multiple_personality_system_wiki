@@ -6,6 +6,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Docs status](https://img.shields.io/badge/Wiki-active-brightgreen.svg)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](#贡献)
+[![Stars](https://img.shields.io/github/stars/kuliantnt/plurality_wiki?style=social)](https://github.com/kuliantnt/plurality_wiki/stargazers)
+[![Build](https://github.com/kuliantnt/plurality_wiki/actions/workflows/ci.yml/badge.svg)](https://github.com/kuliantnt/plurality_wiki/actions)
+
+---
+
+📖 **提示**：如果你是普通读者，请查看 [README_wiki.md](./README_wiki.md)，这是面向公众的首页介绍；  
+本文档主要面向开发者、贡献者与维护者。
 
 ---
 
@@ -24,7 +31,7 @@ plurality_wiki/
 ├─ README.md                # 仓库主页（面向开发者）
 ├─ README_wiki.md           # 网页首页（面向公众介绍）
 ├─ CONTRIBUTING.md          # 贡献指南（面向词条更新者/编辑者）
-├─ AGENTS.md                # 给 Codex/自动化与人类贡献者的协作约定
+├─ AGENTS.md                # Codex/自动化与人类贡献者的协作约定
 ├─ index.md                 # Wiki 导航/索引（建议“顶部导航+完整索引”双层结构）
 ├─ glossary.md              # 术语表（可选）
 ├─ changelog.md             # 更新日志（可选）
@@ -55,7 +62,7 @@ python -m http.server 4173
 # 浏览器打开 http://localhost:4173
 ```
 
-### 方式 B：docsify 本地预览（如使用 docsify）
+### 方式 B：docsify 本地预览
 
 ```bash
 npm i -g docsify-cli
@@ -63,12 +70,12 @@ docsify serve .
 # 浏览器打开提示的本地地址
 ```
 
-> ⚠️ **npm 权限受限？** 可以改用 `npx --yes --registry=…` 指定可访问的 registry：
+> ⚠️ **npm 权限受限？** 可改用指定 registry：
 
 ```bash
 # 官方源（默认）
 npx --yes --registry=https://registry.npmjs.org docsify-cli@latest serve . --port 4173
-# 若遇到权限/网络限制，可切换至 npmmirror 镜像
+# 或使用 npmmirror 镜像
 npx --yes --registry=https://registry.npmmirror.com docsify-cli@latest serve . --port 4173
 ```
 
@@ -78,16 +85,11 @@ npx --yes --registry=https://registry.npmmirror.com docsify-cli@latest serve . -
 python tools/docs_preview.py --port 4173
 ```
 
-> 脚本会先尝试多 registry 的 `docsify-cli`，无法启动时自动改用 `python -m http.server`。
->
-> 如果你采用了其他站点生成器（如 VuePress/VitePress 等），请在 PR 中同步更新说明。
-
 ---
 
 ## 🧭 贡献（Contribution）
 
-欢迎你参与完善！首次贡献建议从 Wiki 版的《贡献指南》开始：
-见 **[CONTRIBUTING.md](./CONTRIBUTING.md)**。
+欢迎参与完善！首次贡献建议从 **[CONTRIBUTING.md](./CONTRIBUTING.md)** 开始。
 
 ### 简要流程
 
@@ -105,26 +107,24 @@ python tools/docs_preview.py --port 4173
 - `chore:` 任务脚本、CI、批处理等维护项
 - `style:` 空格/缩进/行尾等非语义变更
 
-提交后建议执行以下脚本，检查是否有链接问题
+提交后建议执行以下脚本，检查链接：
 
 ```shell
 python tools/check_links.py
 ```
 
-## 更新日志脚本
+### 更新日志脚本
 
 ```shell
 # 1) 生成完整 CHANGELOG（从最早 tag 到最新 tag，每段 = PREV..CUR）
 python tools/gen_changelog_by_tags.py
 
 # 2) 只生成最近一段（上一个 tag..最新 tag），适合每次发版后更新
-python tools/gen_changelog_by_tags.py --latest-only
+python tools/gen_changelog_by_tags.py --latest-only --output changelog_temp.md
 
 # 3) 指定输出位置（默认仓库根目录）
 python tools/gen_changelog_by_tags.py --output changelog.md
 ```
-
-
 
 ---
 
@@ -134,19 +134,24 @@ python tools/gen_changelog_by_tags.py --output changelog.md
 - 结构：一级标题=词条名称；二级/三级标题按内容层级递增。
 - 证据：引用**权威来源**（ICD-11、DSM-5-TR、WHO/APA 官方材料、系统综述/指南/高质量综述）。
 - 中立：避免夸张或未经验证的断言；区分“事实/证据”“假说/观点”。
-- 同步：每次新增/更新条目请同步更新 `index.md` 目录索引与跳转链接。
-
-> 完整版规则、模板与示例请见 Wiki 页的《贡献指南》。
+- 同步：每次新增/更新条目请同步维护 `index.md` 索引与跳转链接。
 
 ---
 
 ## 🗺️ 路线图（Roadmap）
 
-- [ ] 梳理核心词条的**最小完备集**（DID, Partial DID, 去人格-现实解体障碍等）
-- [x] 建立**参考文献与术语表**（Glossary）
-- [ ] 完成**样式统一**（警示/信息框、引用块、表格模板）
-- [ ] 引入**基础 CI 校验**（Markdown lint/链接有效性）
-- [ ] 重写**前端页面**(已知跳转问题)
+- [x] 梳理核心词条的最小完备集（DID, Partial DID, 去人格-现实解体障碍等）
+- [x] 建立参考文献与术语表（Glossary）
+- [ ] 完成样式统一（警示/信息框、引用块、表格模板）
+- [X] 引入基础 CI 校验（Markdown lint/链接有效性）
+- [ ] 重写前端页面（修复跳转问题）
+
+---
+
+## 🙌 致谢
+
+感谢所有通过 Issue、PR、讨论参与贡献的人。
+👉 欢迎加入贡献者名单（未来会新增 `Contributors.md` 进行致谢）。
 
 ---
 
