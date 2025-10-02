@@ -12,6 +12,7 @@
     python tools/gen_changelog_by_tags.py
     python tools/gen_changelog_by_tags.py --output CHANGELOG.md
     python tools/gen_changelog_by_tags.py --latest-only   # 只生成“上一个标签..最新标签（或 HEAD）”一段
+    python tools/gen_changelog_by_tags.py --latest-to-head  # 生成“最新标签..HEAD”简化版 changelog，便于手工编辑
 """
 
 import argparse
