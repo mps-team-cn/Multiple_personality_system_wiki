@@ -1,5 +1,44 @@
 # 更新日志
 
+## v1.3.0 (2025-10-02)
+
+### ✨ 新增
+
+- 支持输出最新标签到 HEAD 的简化日志（[289f802](https://github.com/kuliantnt/plurality_wiki/commit/289f802b7e0951c888cc2d29e8f014822712e96b)）
+- 首页快速入口卡片化改版（[51600ed](https://github.com/kuliantnt/plurality_wiki/commit/51600edd830ca05dbe91837d266bcc48a7590d99)）
+- 优化中英文排版间距（[18db44a](https://github.com/kuliantnt/plurality_wiki/commit/18db44a2c21884131c30a7c002fd589b1d568469)）
+- 重构主页布局与样式（[3d09e03](https://github.com/kuliantnt/plurality_wiki/commit/3d09e038c81fb0af4974e9dfaf3712507725a8af)）
+- mainpage 编辑改进（[64ad6bc](https://github.com/kuliantnt/plurality_wiki/commit/64ad6bce90fa0ce92cc53a54c3709726326e6857)）
+
+### 🐛 修复（链接/引用/格式）
+
+- 修正 404 页面对 `.md` 直链的跳转（[744dc37](https://github.com/kuliantnt/plurality_wiki/commit/744dc37e5e325d72a3099a1bf66056bccf0881fc)）
+- 修复 mainpage 显示问题（[98e8a41](https://github.com/kuliantnt/plurality_wiki/commit/98e8a41739826ab88232dcbc6736aff56bf79ca6)）
+- 修复主页主按钮在不同主题下的可见性（[7bdecf1](https://github.com/kuliantnt/plurality_wiki/commit/7bdecf1d406bfeb26b52861413be8d4e24dc9b96)）
+- 优化主页按钮与快速入口布局（[0adca3c](https://github.com/kuliantnt/plurality_wiki/commit/0adca3c6a9ed732e852066988f654a40fd729cac)）
+- 调整主页按钮与快速入口文案（[0583549](https://github.com/kuliantnt/plurality_wiki/commit/05835490c5fd4d64fa9b1b964d6e4655e9f03a00)）
+- 调整暗色模式快速入口下拉样式（[b489d86](https://github.com/kuliantnt/plurality_wiki/commit/b489d869493d5323dd8289797324f6be44356b41)）
+- 修复链接与文件重命名引用问题（[8ccea60](https://github.com/kuliantnt/plurality_wiki/commit/8ccea609de7fe5d3c51bfed97d2ba645dbb51fa0)）
+- 修复 GitHub Active 检查及 Lint 错误（[d443fb9](https://github.com/kuliantnt/plurality_wiki/commit/d443fb9930238fed5336351de13b89e803270653)，[ef4efcb](https://github.com/kuliantnt/plurality_wiki/commit/ef4efcb9a49c65166effe5b1f1689d9018131ee8)，[66433d2](https://github.com/kuliantnt/plurality_wiki/commit/66433d2d6c2b3c5a498abb2b2e2e8f2cda8684ec)）
+- 主页快速入口显示 bug 修复（[2144eab](https://github.com/kuliantnt/plurality_wiki/commit/2144eabdc9882912f1123533e5e559ceba352b40)，[7ae6f63](https://github.com/kuliantnt/plurality_wiki/commit/7ae6f63859dcc69aaaaac8a84f3f910df50e9e03)）
+- bugfix: Main_Page 修复（[7acb79d](https://github.com/kuliantnt/plurality_wiki/commit/7acb79d2f5b67af0462b39f31c50970ebe961e72)）
+
+### 📝 文档与索引（不影响语义）
+
+- 在 README 添加自动化维护章节（[25d9484](https://github.com/kuliantnt/plurality_wiki/commit/25d94849a0a393783a9b38cd872080b48bc355d6)）
+- 修改首页描述（[03ec264](https://github.com/kuliantnt/plurality_wiki/commit/03ec264c1cdd45eea4f098c07abd20d588270947)）
+- 更新 README、AGENTS 与 CONTRIBUTING 说明（[b81dfaa](https://github.com/kuliantnt/plurality_wiki/commit/b81dfaa3b645d974b7197fd53633e6992eeb672d)，[46e7a38](https://github.com/kuliantnt/plurality_wiki/commit/46e7a38ceb326afedf24a9ac60943e1b42c6a781)，[440bc42](https://github.com/kuliantnt/plurality_wiki/commit/440bc4207600a4ab2f64af4f873162628e413ffc)）
+
+### 🔧 重构（不改变内容含义）
+
+- 将主页迁移为 HTML 页面（[57a28a7](https://github.com/kuliantnt/plurality_wiki/commit/57a28a7d7c8fda4701432cb114550bec941dc7d2)）
+
+### 🎨 风格（空格/缩进/行尾等）
+
+- 修改图标样式（[0352260](https://github.com/kuliantnt/plurality_wiki/commit/03522608cd8a6c4ad40f94ac48990d3aab762177)）
+- 重设计主页面页脚（[774472d](https://github.com/kuliantnt/plurality_wiki/commit/774472d7a2ad9bdbaaa58f2180f18bab6ce9d927)）
+
+
 ## v1.2.4 (2025-10-02)
 
 ### ✨ 新增
