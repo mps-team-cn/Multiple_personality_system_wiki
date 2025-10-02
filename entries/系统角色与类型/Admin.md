@@ -42,22 +42,25 @@
 
 ## 参考与延伸阅读
 
-Wikipedia contributors. (2024, January). *Alter (dissociative identity disorder)*. In Wikipedia, The Free Encyclopedia. https://en.wikipedia.org/wiki/Alter_(dissociative_identity_disorder)
-Kluft, R. P. (1985). The "Inner Self Helper" in multiple personality disorder. *International Journal of Clinical and Experimental Hypnosis, 33*(3), 198–221. https://doi.org/10.1080/00207148508407277
+Wikipedia contributors. (2024, January). *Alter (dissociative identity disorder)*. In Wikipedia, The Free Encyclopedia. [https://en.wikipedia.org/wiki/Alter_(dissociative_identity_disorder](https://en.wikipedia.org/wiki/Alter_(dissociative_identity_disorder))
+Kluft, R. P. (1985). The "Inner Self Helper" in multiple personality disorder. *International Journal of Clinical and Experimental Hypnosis, 33*(3), 198–221. [https://doi.org/10.1080/00207148508407277](https://doi.org/10.1080/00207148508407277)
 Loewenstein, R. J. (1993). Diagnosis, epidemiology, clinical course, and treatment of multiple personality disorder. *Psychiatric Clinics of North America, 16*(3), 543–570.
-Pluralpedia. (2024). *Admin*. https://pluralpedia.org/w/Admin
+Pluralpedia. (2024). *Admin*. [https://pluralpedia.org/w/Admin](https://pluralpedia.org/w/Admin)
 
 [^管理者-1]: 原文为 sisasystem，来自 [Sisasystem - Pluralpedia](https://pluralpedia.org/w/Sisasystem)。
-[^AlterWiki]: Wikipedia contributors. (2024, January). *Alter (dissociative identity disorder)*. In Wikipedia, The Free Encyclopedia. https://en.wikipedia.org/wiki/Alter_(dissociative_identity_disorder)
-[^PluralpediaAdmin]: Pluralpedia. (2024). *Admin*. https://pluralpedia.org/w/Admin
-[^Kluft1985]: Kluft, R. P. (1985). The "Inner Self Helper" in multiple personality disorder. *International Journal of Clinical and Experimental Hypnosis, 33*(3), 198–221. https://doi.org/10.1080/00207148508407277
+[^AlterWiki]: Wikipedia contributors. (2024, January). *Alter (dissociative identity disorder)*. In Wikipedia, The Free Encyclopedia. [https://en.wikipedia.org/wiki/Alter_(dissociative_identity_disorder](https://en.wikipedia.org/wiki/Alter_(dissociative_identity_disorder))
+[^PluralpediaAdmin]: Pluralpedia. (2024). *Admin*. [https://pluralpedia.org/w/Admin](https://pluralpedia.org/w/Admin)
+[^Kluft1985]: Kluft, R. P. (1985). The "Inner Self Helper" in multiple personality disorder. *International Journal of Clinical and Experimental Hypnosis, 33*(3), 198–221. [https://doi.org/10.1080/00207148508407277](https://doi.org/10.1080/00207148508407277)
 [^Loewenstein1993]: Loewenstein, R. J. (1993). Diagnosis, epidemiology, clinical course, and treatment of multiple personality disorder. *Psychiatric Clinics of North America, 16*(3), 543–570.
 
 ## 定义
+
 （待补充）
 
 ## 核心特征
+
 （待补充）
 
 ## 干预
+
 （待补充）

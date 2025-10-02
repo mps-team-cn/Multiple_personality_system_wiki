@@ -89,11 +89,11 @@ E. 症状不能被其他精神障碍更好地解释，如精神分裂谱系障�
 ## 参考与延伸阅读
 
 [^dsm5]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
-[^hunter]: Hunter, E. C. M., Sierra, M., & David, A. S. (2004). The epidemiology of depersonalisation and derealisation: A systematic review. *Social Psychiatry and Psychiatric Epidemiology*, 39(1), 9–18. https://doi.org/10.1007/s00127-004-0701-4
-[^sierra2011]: Sierra, M., & David, A. S. (2011). Depersonalization: A selective impairment of self-awareness. *Consciousness and Cognition*, 20(1), 99–108. https://doi.org/10.1016/j.concog.2010.10.018
-[^sierra2012]: Sierra, M. (2012). Depersonalization disorder: Pharmacological approaches. *Expert Review of Neurotherapeutics*, 12(2), 205–214. https://doi.org/10.1586/ern.11.200
-[^michal]: Michal, M., Pfaltz, M. C., Koschorke, P., Schächinger, H., & Schillings, G. (2016). A systematic review of the evidence for psychological treatments in depersonalisation-derealisation disorder. *European Journal of Psychotraumatology*, 7, 31890. https://doi.org/10.3402/ejpt.v7.31890
-
+[^hunter]: Hunter, E. C. M., Sierra, M., & David, A. S. (2004). The epidemiology of depersonalisation and derealisation: A systematic review. *Social Psychiatry and Psychiatric Epidemiology*, 39(1), 9–18. [https://doi.org/10.1007/s00127-004-0701-4](https://doi.org/10.1007/s00127-004-0701-4)
+[^sierra2011]: Sierra, M., & David, A. S. (2011). Depersonalization: A selective impairment of self-awareness. *Consciousness and Cognition*, 20(1), 99–108. [https://doi.org/10.1016/j.concog.2010.10.018](https://doi.org/10.1016/j.concog.2010.10.018)
+[^sierra2012]: Sierra, M. (2012). Depersonalization disorder: Pharmacological approaches. *Expert Review of Neurotherapeutics*, 12(2), 205–214. [https://doi.org/10.1586/ern.11.200](https://doi.org/10.1586/ern.11.200)
+[^michal]: Michal, M., Pfaltz, M. C., Koschorke, P., Schächinger, H., & Schillings, G. (2016). A systematic review of the evidence for psychological treatments in depersonalisation-derealisation disorder. *European Journal of Psychotraumatology*, 7, 31890. [https://doi.org/10.3402/ejpt.v7.31890](https://doi.org/10.3402/ejpt.v7.31890)
 
 ## 核心特征
+
 （待补充）

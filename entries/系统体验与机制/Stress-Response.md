@@ -38,4 +38,5 @@ Stress Response、压力反应、战斗或逃跑反应
 [^应激反应-3]: van der Kolk, B. A. (2014). _The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma_. Viking.
 
 ## 核心特征
+
 （待补充）

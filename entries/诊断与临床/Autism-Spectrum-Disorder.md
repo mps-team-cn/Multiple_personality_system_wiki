@@ -69,5 +69,5 @@ ICD-11 同样强调从生命历程视角识别谱系特征，对青少年及成�
 ## 参考资料
 
 [^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
-[^who2023]: World Health Organization. (2023, March 30). *Autism*. https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders
-[^icd11]: World Health Organization. (2023). *International Classification of Diseases 11th Revision (ICD-11): 6A02 Autism spectrum disorder*. https://icd.who.int/en
+[^who2023]: World Health Organization. (2023, March 30). *Autism*. [https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders](https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders)
+[^icd11]: World Health Organization. (2023). *International Classification of Diseases 11th Revision (ICD-11): 6A02 Autism spectrum disorder*. [https://icd.who.int/en](https://icd.who.int/en)

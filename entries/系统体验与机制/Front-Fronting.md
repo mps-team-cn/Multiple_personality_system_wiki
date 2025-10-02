@@ -30,10 +30,13 @@
 [^reinders2012]: Reinders, A. A. T. S., Willemsen, A. T. M., Vos, H. P. J., den Boer, J. A., & Nijenhuis, E. R. S. (2012). Fact or factitious? A psychobiological study of authentic and simulated dissociative identity states. *PLoS ONE*, 7(6), e39279.
 
 ## 定义
+
 （待补充）
 
 ## 鉴别
+
 （待补充）
 
 ## 干预
+
 （待补充）

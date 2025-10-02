@@ -4,7 +4,9 @@
 
 ```bash
 python tools/pdf_export/export_to_pdf.py
+
 # 或者
+
 cd tools/pdf_export && python -m pdf_export
 ```
 

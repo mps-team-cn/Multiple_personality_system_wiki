@@ -32,7 +32,9 @@
 [^trigger-pluralpedia]: Pluralpedia. (n.d.). [Trigger](https://pluralpedia.org/w/Trigger).
 
 ## 定义
+
 （待补充）
 
 ## 鉴别
+
 （待补充）

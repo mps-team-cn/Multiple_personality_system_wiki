@@ -4,10 +4,6 @@
 
 封闭、封印、内部收容、Containment
 
-## 同义词
-
-封闭、封印、内部收容、Containment
-
 ## 定义
 
 **封存**指系统主动协商，将某位意识体或记忆暂时置于受控空间（如内景房间、能量屏障），以降低其对前台或整体功能的即时影响。这一概念在多意识体社群与创伤治疗中常被视为短期危机管理工具，而非永久解决方案[^封存-1]。
@@ -36,10 +32,13 @@
 [^封存-1]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision*.
 
 ## 核心特征
+
 （待补充）
 
 ## 鉴别
+
 （待补充）
 
 ## 干预
+
 （待补充）

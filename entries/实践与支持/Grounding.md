@@ -46,7 +46,9 @@
 [^接地-3]: [Grounding Techniques, Anxiety Canada](https://www.anxietycanada.com/articles/grounding-techniques/)
 
 ## 核心特征
+
 （待补充）
 
 ## 鉴别
+
 （待补充）

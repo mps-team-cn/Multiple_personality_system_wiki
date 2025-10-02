@@ -39,4 +39,5 @@
 - Steele, K., Boon, S., & van der Hart, O. *Treating Trauma-Related Dissociation: A Practical, Integrative Approach.* New York: Norton, 2017.
 
 ## 核心特征
+
 （待补充）

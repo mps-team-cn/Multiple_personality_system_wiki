@@ -32,10 +32,13 @@
 [Pluralpedia: Permissions](https://pluralpedia.org/w/Permissions)
 
 ## 定义
+
 （待补充）
 
 ## 鉴别
+
 （待补充）
 
 ## 干预
+
 （待补充）

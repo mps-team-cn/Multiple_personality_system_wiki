@@ -24,10 +24,11 @@
 
 ## 参考资料
 
-[^loewenstein1991]: Loewenstein, R. J. (1991). An Office Mental Status Examination for Complex Chronic Dissociative Symptoms and Multiple Personality Disorder. _Psychiatric Clinics of North America, 14_(3), 567–604. https://doi.org/10.1016/S0193-953X(18)30290-9
-[^wikipedia_did]: “Dissociative identity disorder.” _Wikipedia_, last modified September 30, 2025. https://en.wikipedia.org/wiki/Dissociative_identity_disorder
-[^brand2014]: Brand, B. L., Loewenstein, R. J., & Spiegel, D. (2014). Dispelling Myths About Dissociative Identity Disorder Treatment: An Empirically Based Approach. _Psychiatry, 77_(2), 169–189. https://doi.org/10.1521/psyc.2014.77.2.169
-[^brand2013]: Brand, B. L., & Loewenstein, R. J. (2013). Does Phasic Trauma Treatment Make Patients With Dissociative Identity Disorder Treatment More Dissociative? _Journal of Trauma & Dissociation, 15_(1), 52–65. https://doi.org/10.1080/15299732.2013.828150
+[^loewenstein1991]: Loewenstein, R. J. (1991). An Office Mental Status Examination for Complex Chronic Dissociative Symptoms and Multiple Personality Disorder. _Psychiatric Clinics of North America, 14_(3), 567–604. [https://doi.org/10.1016/S0193-953X(18](https://doi.org/10.1016/S0193-953X(18))30290-9
+[^wikipedia_did]: “Dissociative identity disorder.” _Wikipedia_, last modified September 30, 2025. [https://en.wikipedia.org/wiki/Dissociative_identity_disorder](https://en.wikipedia.org/wiki/Dissociative_identity_disorder)
+[^brand2014]: Brand, B. L., Loewenstein, R. J., & Spiegel, D. (2014). Dispelling Myths About Dissociative Identity Disorder Treatment: An Empirically Based Approach. _Psychiatry, 77_(2), 169–189. [https://doi.org/10.1521/psyc.2014.77.2.169](https://doi.org/10.1521/psyc.2014.77.2.169)
+[^brand2013]: Brand, B. L., & Loewenstein, R. J. (2013). Does Phasic Trauma Treatment Make Patients With Dissociative Identity Disorder Treatment More Dissociative? _Journal of Trauma & Dissociation, 15_(1), 52–65. [https://doi.org/10.1080/15299732.2013.828150](https://doi.org/10.1080/15299732.2013.828150)
 
 ## 鉴别
+
 （待补充）

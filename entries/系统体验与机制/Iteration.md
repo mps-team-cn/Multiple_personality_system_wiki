@@ -30,4 +30,5 @@
 - Van der Hart, O., Nijenhuis, E. R., & Steele, K. (2006). *The haunted self: Structural dissociation and the treatment of chronic traumatization*. W. W. Norton.
 
 ## 核心特征
+
 （待补充）

@@ -43,11 +43,12 @@
 
 ## 参考资料
 
-[^自动驾驶-1]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision*. https://www.isst-d.org/wp-content/uploads/2019/02/ISSTD-Guidelines-Adult-DID-Treatment-2011.pdf
+[^自动驾驶-1]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision*. [https://www.isst-d.org/wp-content/uploads/2019/02/ISSTD-Guidelines-Adult-DID-Treatment-2011.pdf](https://www.isst-d.org/wp-content/uploads/2019/02/ISSTD-Guidelines-Adult-DID-Treatment-2011.pdf)
 [^自动驾驶-2]: Boon, S., Steele, K., & Van der Hart, O. (2011). *Coping with Trauma-Related Dissociation: Skills Training for Patients and Therapists*. Norton.
 [^自动驾驶-3]: Doyon, J., & Benali, H. (2005). Reorganization and plasticity in the adult brain during learning of motor skills. *Current Opinion in Neurobiology*, 15(2), 161–167.
 [^自动驾驶-4]: Reinders, A. A. T. S., Willemsen, A. T. M., Vos, H. P. J., den Boer, J. A., & Nijenhuis, E. R. S. (2012). Fact or factitious? A psychobiological study of authentic and simulated dissociative identity states. *PLoS ONE*, 7(6), e39279.
 [^自动驾驶-5]: Ogden, P., Minton, K., & Pain, C. (2006). *Trauma and the Body: A Sensorimotor Approach to Psychotherapy*. Norton.
 
 ## 核心特征
+
 （待补充）

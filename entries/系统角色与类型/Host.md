@@ -35,4 +35,5 @@
 [^bell2023]: Bell, G. (2023). Tulpamancy and the ethics of plural embodiment in online communities. In S. Coleman & E. Harvey (Eds.), *Imagined Companions in the Digital Age* (pp. 151–172). Routledge.
 
 ## 核心特征
+
 （待补充）

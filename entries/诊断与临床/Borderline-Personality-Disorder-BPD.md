@@ -66,10 +66,11 @@ DSM-5-TR 将 BPD 定义为在人际关系、自我形象与情感上的广泛不
 
 ## 参考与延伸阅读
 
-[1] American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.)*. Washington, DC: APA Publishing.
-[2] Leichsenring, F., Leibing, E., Kruse, J., New, A. S., & Leweke, F. (2011). Borderline personality disorder. *The Lancet, 377*(9759), 74–84. https://doi.org/10.1016/S0140-6736(10)61422-5
-[3] Winsper, C., Bilgin, A., Thompson, A., Marwaha, S., Chanen, A. M., Singh, S. P., & Wang, A. (2020). The prevalence of personality disorders in the community. *The Lancet Psychiatry, 7*(10), 924–940. https://doi.org/10.1016/S2215-0366(20)30292-4
-[4] Bateman, A. W., & Fonagy, P. (2019). *Handbook of Mentalizing in Mental Health Practice* (2nd ed.). Washington, DC: American Psychiatric Association Publishing.
+[1]: https://www.psychiatry.org/psychiatrists/practice/dsm "APA. DSM-5-TR"
+[2]: https://doi.org/10.1016/S0140-6736(10)61422-5 "Leichsenring et al., 2011"
+[3]: https://doi.org/10.1016/S2215-0366(20)30292-4 "Winsper et al., 2020"
+[4]: https://www.appi.org/handbook-of-mentalizing-in-mental-health-practice "Bateman & Fonagy, 2019"
 
 ## 鉴别
+
 （待补充）

@@ -29,12 +29,14 @@
 [^pluralpedia-back]: Pluralpedia. (2024). [Back](https://pluralpedia.org/w/Back).
 [^stone2021]: Stone, M. (2021). Managing front/back balance in plural systems. *Plural Practice Notes*, 4(1), 8–15.
 
-
 ## 定义
+
 （待补充）
 
 ## 鉴别
+
 （待补充）
 
 ## 干预
+
 （待补充）

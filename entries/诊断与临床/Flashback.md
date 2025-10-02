@@ -64,7 +64,7 @@ _若闪回或其他症状造成显著困扰，请寻求具备资质的精神科�
 ## 参考资料
 
 [^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
-[^icd11]: World Health Organization. (2023). *International Classification of Diseases 11th Revision (ICD-11): Post-traumatic stress disorder (6B40).* https://icd.who.int/browse11/l-m/en#/http://id.who.int/icd/entity/2070699808
-[^nimh2024]: National Institute of Mental Health. (2024, April 30). *Traumatic Events and Post-Traumatic Stress Disorder (PTSD).* https://www.nimh.nih.gov/health/topics/post-traumatic-stress-disorder-ptsd
-[^nice2018]: National Institute for Health and Care Excellence. (2018). *Post-traumatic stress disorder (NG116).* https://www.nice.org.uk/guidance/ng116
-[^istss2019]: International Society for Traumatic Stress Studies. (2019). *Posttraumatic Stress Disorder Prevention and Treatment Guidelines.* https://istss.org/clinical-resources/treatment-guidelines
+[^icd11]: World Health Organization. (2023). *International Classification of Diseases 11th Revision (ICD-11): Post-traumatic stress disorder (6B40).* [https://icd.who.int/browse11/l-m/en#/http://id.who.int/icd/entity/2070699808](https://icd.who.int/browse11/l-m/en#/http://id.who.int/icd/entity/2070699808)
+[^nimh2024]: National Institute of Mental Health. (2024, April 30). *Traumatic Events and Post-Traumatic Stress Disorder (PTSD).* [https://www.nimh.nih.gov/health/topics/post-traumatic-stress-disorder-ptsd](https://www.nimh.nih.gov/health/topics/post-traumatic-stress-disorder-ptsd)
+[^nice2018]: National Institute for Health and Care Excellence. (2018). *Post-traumatic stress disorder (NG116).* [https://www.nice.org.uk/guidance/ng116](https://www.nice.org.uk/guidance/ng116)
+[^istss2019]: International Society for Traumatic Stress Studies. (2019). *Posttraumatic Stress Disorder Prevention and Treatment Guidelines.* [https://istss.org/clinical-resources/treatment-guidelines](https://istss.org/clinical-resources/treatment-guidelines)

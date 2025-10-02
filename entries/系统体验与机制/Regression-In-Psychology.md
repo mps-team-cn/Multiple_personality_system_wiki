@@ -36,13 +36,15 @@
 
 ## 参考文献
 
-[^退行-1]: American Psychological Association. (2023). *Regression*. APA Dictionary of Psychology. https://dictionary.apa.org/regression
+[^退行-1]: American Psychological Association. (2023). *Regression*. APA Dictionary of Psychology. [https://dictionary.apa.org/regression](https://dictionary.apa.org/regression)
 [^退行-2]: Freud, A. (1936/1966). *The Ego and the Mechanisms of Defence*. Karnac Books.
 [^退行-3]: Crittenden, P. M., & Landini, A. (2011). *Assessing Adult Attachment: A Dynamic-Maturational Approach to Discourse Analysis*. Norton.
 [^退行-4]: Wallin, D. J. (2007). *Attachment in Psychotherapy*. Guilford Press.
 
 ## 核心特征
+
 （待补充）
 
 ## 鉴别
+
 （待补充）

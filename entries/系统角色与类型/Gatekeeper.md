@@ -45,6 +45,6 @@
 
 ## 参考与延伸阅读
 
-Pluralpedia. (2024). *Gatekeeper*. https://pluralpedia.org/w/Gatekeeper
+Pluralpedia. (2024). *Gatekeeper*. [https://pluralpedia.org/w/Gatekeeper](https://pluralpedia.org/w/Gatekeeper)
 
-[^PluralpediaGatekeeper]: Pluralpedia. (2024). *Gatekeeper*. https://pluralpedia.org/w/Gatekeeper
+[^PluralpediaGatekeeper]: Pluralpedia. (2024). *Gatekeeper*. [https://pluralpedia.org/w/Gatekeeper](https://pluralpedia.org/w/Gatekeeper)
