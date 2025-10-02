@@ -88,7 +88,6 @@
 - [section-placeholder] ## 干预 => entries/系统角色与类型/Soulbond.md
 - [section-placeholder] ## 定义 => entries/系统角色与类型/Polyfragmented.md
 - [section-placeholder] ## 鉴别 => entries/系统角色与类型/Polyfragmented.md
-- [section-placeholder] ## 核心特征 => entries/诊断与临床/Depersonalization-Derealization-Disorder-DPDR.md
 - [section-placeholder] ## 定义 => entries/诊断与临床/OSDD.md
 - [section-placeholder] ## 核心特征 => entries/诊断与临床/OSDD.md
 - [section-placeholder] ## 干预 => entries/诊断与临床/OSDD.md
@@ -101,11 +100,7 @@
 - [section-placeholder] ## 核心特征 => entries/诊断与临床/Autism-Spectrum-Disorder.md
 - [section-placeholder] ## 干预 => entries/诊断与临床/Autism-Spectrum-Disorder.md
 - [section-placeholder] ## 参考 => entries/诊断与临床/Autism-Spectrum-Disorder.md
-- [section-placeholder] ## 参考 => entries/诊断与临床/OCD.md
-- [section-placeholder] ## 鉴别 => entries/诊断与临床/Depressive-Disorders.md
-- [section-placeholder] ## 参考 => entries/诊断与临床/Depressive-Disorders.md
 - [section-placeholder] ## 鉴别 => entries/诊断与临床/Narcissistic-Personality-Disorder-NPD.md
-- [section-placeholder] ## 参考 => entries/诊断与临床/DID.md
 - [section-placeholder] ## 核心特征 => entries/诊断与临床/Dissociative-Amnesia-DA.md
 - [section-placeholder] ## 鉴别 => entries/诊断与临床/Borderline-Personality-Disorder-BPD.md
 - [section-placeholder] ## 定义 => entries/诊断与临床/Alexithymia.md
