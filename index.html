@@ -180,11 +180,6 @@
 
           // 最后更新时间配置
           formatUpdated: "{YYYY}-{MM}-{DD} {HH}:{mm}",
-          timeUpdater: {
-            text:
-              "<div align='right' style='color:#999;font-size:12px'>最后更新：{docsify-updated}</div>",
-            whereToPlace: "bottom",
-          },
 
           // 首页直接展示 Main_Page，无需封面
           coverpage: false,
@@ -232,11 +227,11 @@
     <!-- 自定义标题搜索（需在 Docsify 启动前注册插件） -->
     <script src="./assets/title-search.js"></script>
 
+    <!-- 本地最后更新时间插件 -->
+    <script src="./assets/last-updated.js"></script>
+
     <!-- Docsify 核心 -->
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-
-    <!-- 最后更新时间插件 -->
-    <script src="https://cdn.jsdelivr.net/npm/docsify-updated/src/time-updater.min.js"></script>
 
     <!-- 插件：复制代码 / 图片缩放 / 分页 / emoji -->
     <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code"></script>
