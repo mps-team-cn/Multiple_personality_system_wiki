@@ -1,9 +1,5 @@
 # 条目体检报告
 
-- [section-placeholder] ## 核心特征 => entries/实践与支持/Meditation.md
-- [section-placeholder] ## 鉴别 => entries/实践与支持/Meditation.md
-- [section-placeholder] ## 核心特征 => entries/实践与支持/Grounding.md
-- [section-placeholder] ## 鉴别 => entries/实践与支持/Grounding.md
 - [section-placeholder] ## 核心特征 => entries/系统体验与机制/Apparently-Normal-Part-Emotional-Part-Model.md
 - [section-placeholder] ## 鉴别 => entries/系统体验与机制/Apparently-Normal-Part-Emotional-Part-Model.md
 - [section-placeholder] ## 干预 => entries/系统体验与机制/Apparently-Normal-Part-Emotional-Part-Model.md
