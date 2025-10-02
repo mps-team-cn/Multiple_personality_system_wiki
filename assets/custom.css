@@ -43,6 +43,18 @@ html, body{
   padding: .8em 1em;
   border-radius: var(--radius);
 }
+:root.dark .markdown-section h1,
+:root.dark .markdown-section h2,
+:root.dark .markdown-section h3,
+:root.dark .markdown-section h4,
+:root.dark .markdown-section h5,
+:root.dark .markdown-section h6{
+  color: #F2F6FF;
+}
+:root.dark .markdown-section strong,
+:root.dark .markdown-section b{
+  color: #F8FBFF;
+}
 
 /* 顶部导航栏 */
 .app-nav{
