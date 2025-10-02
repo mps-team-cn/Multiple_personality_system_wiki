@@ -19,7 +19,7 @@
 
 ## 📦 仓库结构
 
-```
+```ini
 plurality_wiki/
 ├─ README.md                # 仓库主页（面向开发者）
 ├─ README_wiki.md           # 网页首页（面向公众介绍）
@@ -46,7 +46,7 @@ plurality_wiki/
 
 本仓库采用纯 Markdown + GitHub Pages（在线预览见页首链接）。如果你想在本地预览：
 
-**方式 A：任意静态服务器**
+### 方式 A：任意静态服务器
 
 ```bash
 # 例如使用 Python 简单服务器
@@ -55,7 +55,7 @@ python -m http.server 4173
 # 浏览器打开 http://localhost:4173
 ```
 
-**方式 B：docsify 本地预览（如使用 docsify）**
+### 方式 B：docsify 本地预览（如使用 docsify）
 
 ```bash
 npm i -g docsify-cli
@@ -72,14 +72,14 @@ npx --yes --registry=https://registry.npmjs.org docsify-cli@latest serve . --por
 npx --yes --registry=https://registry.npmmirror.com docsify-cli@latest serve . --port 4173
 ```
 
-**方式 C：自动兜底脚本（优先 docsify，失败回退 Python）**
+### 方式 C：自动兜底脚本（优先 docsify，失败回退 Python）
 
 ```bash
 python tools/docs_preview.py --port 4173
 ```
 
 > 脚本会先尝试多 registry 的 `docsify-cli`，无法启动时自动改用 `python -m http.server`。
-
+>
 > 如果你采用了其他站点生成器（如 VuePress/VitePress 等），请在 PR 中同步更新说明。
 
 ---
@@ -89,20 +89,26 @@ python tools/docs_preview.py --port 4173
 欢迎你参与完善！首次贡献建议从 Wiki 版的《贡献指南》开始：
 见 **[CONTRIBUTING.md](./CONTRIBUTING.md)**。
 
-**简要流程：**
+### 简要流程
 
 1. Fork 仓库 & 新建分支（如：`feat/add-did-partial`）。
 2. 按**条目规范**撰写或修改文档，并**同步维护** `index.md` 与引用链接。
 3. 本地预览（可选），自检通过后提交 PR。
 4. 等待 Review 与合并。
 
-**提交信息规范（推荐）：Conventional Commits**
+### 提交信息规范（推荐）：Conventional Commits
 
-```
+```yaml
 feat: 新增条目「部分解离性身份障碍（Partial DID, 6B65）」
 fix: 修复 PDF 导航目录重复的问题
 docs: 调整 index.md 索引与链接
 refactor: 统一小节标题层级
+```
+
+提交后建议执行以下脚本，检查是否有链接问题
+
+```shell
+python tools/check_links.py
 ```
 
 ---
@@ -126,18 +132,6 @@ refactor: 统一小节标题层级
 - [ ] 完成**样式统一**（警示/信息框、引用块、表格模板）
 - [ ] 引入**基础 CI 校验**（Markdown lint/链接有效性）
 - [ ] 重写**前端页面**(已知跳转问题)
-
----
-
-## 📝 更新日志（Changelog）
-
-仅记录对用户与贡献者显著可见的变更。更多细节请查阅 PR 历史。
-
-### v1.2.3
-
-- fix(pdf): 修复 PDF 页面出现**双重目录**的问题
-- docs: 更新多个条目与索引
-- site: 同步部署至在线版 [https://kuliantnt.github.io/plurality_wiki/#/](https://kuliantnt.github.io/plurality_wiki/#/)
 
 ---
 
