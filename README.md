@@ -111,6 +111,21 @@ refactor: 统一小节标题层级
 python tools/check_links.py
 ```
 
+## 更新日志脚本
+
+```shell
+# 1) 生成完整 CHANGELOG（从最早 tag 到最新 tag，每段 = PREV..CUR）
+python tools/gen_changelog_by_tags.py
+
+# 2) 只生成最近一段（上一个 tag..最新 tag），适合每次发版后更新
+python tools/gen_changelog_by_tags.py --latest-only
+
+# 3) 指定输出位置（默认仓库根目录）
+python tools/gen_changelog_by_tags.py --output changelog.md
+```
+
+
+
 ---
 
 ## 🧩 写作与风格（摘要版）
