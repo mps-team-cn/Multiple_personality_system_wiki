@@ -30,6 +30,24 @@ html, body{
   font-size: 16.5px;
   line-height: 1.8;
 }
+.markdown-section p{
+  margin: 0 0 1.15em;
+}
+.markdown-section ul,
+.markdown-section ol{
+  margin: 0 0 1.15em;
+  padding-left: 1.5em;
+}
+.markdown-section li{
+  margin: .35em 0;
+  line-height: 1.75;
+}
+.markdown-section li p{
+  margin: .35em 0;
+}
+.markdown-section blockquote{
+  margin: 1.2em 0;
+}
 .markdown-section h1, .markdown-section h2{
   border-bottom: none;
   margin-top: 1.8rem;
