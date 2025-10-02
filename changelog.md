@@ -1,5 +1,34 @@
 # 更新日志
 
+## v1.3.1 (2025-10-02)
+
+### ✨ 新增
+
+- 首页展示最近更新入口（[8886c97](https://github.com/kuliantnt/plurality_wiki/commit/8886c9767ab5436969af8ab5bc1b4c9819944b7e)）
+- 增加最近更新页面自动生成脚本（[fcccd0a](https://github.com/kuliantnt/plurality_wiki/commit/fcccd0affce8ed84459079c3903d93467f76d1ba)）
+- 在 PDF 导出中渲染最后更新时间（[8b5475f](https://github.com/kuliantnt/plurality_wiki/commit/8b5475f0f93cb49441fd744b5fcbd636437f3aa1)）
+- 显示词条最后更新时间（[cfe1729](https://github.com/kuliantnt/plurality_wiki/commit/cfe172935a2b7efe54eaad0efb15708a7b45c498)）
+
+### 🐛 修复（链接/引用/格式）
+
+- 修复 changelog.md 输出问题（[8b6d0db](https://github.com/kuliantnt/plurality_wiki/commit/8b6d0db719a8b49966b40185f646ef82dd454711)）
+- 调整站点标题后缀显示（[8431f3e](https://github.com/kuliantnt/plurality_wiki/commit/8431f3e800c5b0373f1f7157058e74ae83c3647a)）
+
+### 📝 文档与索引（不影响语义）
+
+- 修改 changelog 文档（[1c36386](https://github.com/kuliantnt/plurality_wiki/commit/1c363866d4c4376b500ba8a74440d44210b643eb)）
+- 更新 README 中工具说明（[e231636](https://github.com/kuliantnt/plurality_wiki/commit/e231636bf955f18caef92521e60f40bb030bb529)）
+
+### 🔧 重构（不改变内容含义）
+
+- 移除 Docsify 最后更新功能（[441ec22](https://github.com/kuliantnt/plurality_wiki/commit/441ec22aee1f7ccdbf760c68475a2968f1711f3a)）
+
+### 🎨 风格（空格/缩进/行尾等）
+
+- 调整 agents 配置与站点 SVG 图标（[9cb4db5](https://github.com/kuliantnt/plurality_wiki/commit/9cb4db5b5deec0e8516ebf0ea85c1009561aaf28)，[e231636](https://github.com/kuliantnt/plurality_wiki/commit/e231636bf955f18caef92521e60f40bb030bb529)）
+
+— 由 Git 提交记录自动生成
+
 ## v1.3.0 (2025-10-02)
 
 ### ✨ 新增
