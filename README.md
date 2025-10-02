@@ -30,6 +30,7 @@ plurality_wiki/
 ├─ changelog.md             # 更新日志（可选）
 ├─ images/                  # 图片资源
 ├─ docs/                    # （可选）若使用 docsify/VitePress/VuePress 等静态站点
+├─ tools/                   # 自动化维护工具
 ├─ .github/
 │  ├─ ISSUE_TEMPLATE/       # Issue 模板（可选）
 │  ├─ PULL_REQUEST_TEMPLATE.md  # PR 模板（可选）

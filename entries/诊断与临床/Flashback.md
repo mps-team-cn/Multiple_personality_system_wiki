@@ -57,9 +57,9 @@ _若闪回或其他症状造成显著困扰，请寻求具备资质的精神科�
 
 ## 相关词条
 
-- [创伤后应激障碍（PTSD）](PTSD.md)
-- [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)
-- [解离（Dissociation）](../系统体验与机制/Dissociation.md)
+- [创伤后应激障碍（PTSD）](entries/诊断与临床/CPTSD.md)
+- [复杂性创伤后应激障碍（CPTSD）](entries/诊断与临床/CPTSD.md)
+- [解离（Dissociation）](entries/系统体验与机制/Dissociation.md)
 
 ## 参考资料
 
