@@ -1,138 +1,154 @@
 # Main Page
 
-> 欢迎来到 **Plurality Wiki** —— 专注于多重意识体系统（Plurality）与相关心理健康主题的中文开放知识库。
-> 我们致力于汇聚社区经验与跨学科研究，让系统成员、同伴支持者与临床工作者都能快速找到可信、可操作的资料。
-
----
-
-## 💬 系统语录（Community Voices）
-
-<details>
-<summary>展开 / 折叠查看语录</summary>
-
-> 以下引文均来自社区成员的真实声音，代表多样的经验与思考：
->
-> **“我接触多重人格已三年有余，期间圈子大小冲突不断，没有一天安稳日子……他们都是被我熬死的。”** ——刿-伊势系统
->
-> **“我愿意做新时代的普罗米修斯。知识不能只掌握在少数人手中，否则与中世纪高坐宝座的罗马教廷又有何异？”** ——脸脸系统
->
-> **“有些知识，在文明尚未准备好承担其重量之前，知晓本身就是一场灾难。我们的使命或许并非充当引信的点火者，而是守护这些知识的沉默守望者。”** ——弦羽系统
->
-> **“我们所做的，不是为了名利，而是为了帮助所有能够在这里得到启示的人，是为了继承先辈们的知识与精神。”** ——暮雨系统
->
-> **“我不是在针对谁，但不合适的东西终究要被淘汰。”** ——勇者系统
->
-> **“我并不反感无知，我更反感的是愚昧……我恨的不是落后，而是占据想进步者位置却不去进步的人。”** ——FRT 系统
->
-> **“所谓出圈，一定会经历社会的磨合，当有歧义时，我们一定要积极共度难关。”** ——gts 系统
->
-> **“唯有不断追寻真理，才能让环境变得更好。”** ——逝水流年五合一系统
->
-> **“光改变了我们的黑夜与想法，同时照亮宇宙与真相。”** ——夜行者系统
->
-> **“希望所有多意识体都可以得到应有的尊重和理解。”** ——Peter Griffin
->
-> **“真理掌握在少数人手中，但知识应该用来服务大众。”** ——闲雨系统
->
-> **“交朋友会降低我作为人类的强度。”** ——黑仪系统
->
-> **“努力的意义，是当你面对命运的重压时，仍然拥有勇气和力量。”** ——温室系统
->
-> **“我讨厌的不是日落，我讨厌你在日落的时候讲自己日出的感受。”** ——流光碎影系统
-
-</details>
-
-> 🕯️ **这些声音提醒我们：在求知与护火之间找到平衡**。既要让知识开放可及，也要保持责任与谨慎。
-
----
-
-## 🔎 快速入口
-
-<div class="quick-links-grid">
-  <a class="quick-link-card" href="index.md">
-    <div class="quick-link-icon">🧭</div>
-    <div class="quick-link-body">
-      <h3>目录索引</h3>
-      <p>按主题浏览全部词条，适合系统化查阅。</p>
+<div class="main-page-layout">
+  <div class="main-page-column main-page-column--left">
+    <div class="main-card main-card--intro">
+      <h2>欢迎来到 Plurality Wiki</h2>
+      <p>我们专注于整理多重意识体系统（Plurality）与创伤相关主题的中文资料，融合社区经验、跨学科研究与可实践的工具。希望这份知识库能陪伴你理解自我、照顾伙伴，并与同路人建立连结。</p>
+      <p class="main-card__meta">维护者：脸脸系统 · 持续更新中</p>
     </div>
-    <span class="quick-link-arrow">开始探索 →</span>
-  </a>
-  <a class="quick-link-card" href="Glossary.md">
-    <div class="quick-link-icon">📖</div>
-    <div class="quick-link-body">
-      <h3>术语表（Glossary）</h3>
-      <p>快速确认术语定义，保持沟通一致。</p>
+
+    <div class="main-card main-card--voices">
+      <h3>系统语录（Community Voices）</h3>
+      <p class="main-card__hint">来自不同系统成员的真实话语，提醒我们在求知与护火之间保持平衡。</p>
+      <details open>
+        <summary>展开 / 折叠语录</summary>
+        <blockquote>
+          <p><strong>“我愿意做新时代的普罗米修斯。知识不能只掌握在少数人手中，否则与中世纪高坐宝座的罗马教廷又有何异？”</strong> ——脸脸系统</p>
+        </blockquote>
+        <blockquote>
+          <p><strong>“有些知识，在文明尚未准备好承担其重量之前，知晓本身就是一场灾难。我们的使命或许并非充当引信的点火者，而是守护这些知识的沉默守望者。”</strong> ——弦羽系统</p>
+        </blockquote>
+        <blockquote>
+          <p><strong>“我们所做的，不是为了名利，而是为了帮助所有能够在这里得到启示的人，是为了继承先辈们的知识与精神。”</strong> ——暮雨系统</p>
+        </blockquote>
+        <blockquote>
+          <p><strong>“希望所有多意识体都可以得到应有的尊重和理解。”</strong> ——Peter Griffin</p>
+        </blockquote>
+      </details>
     </div>
-    <span class="quick-link-arrow">查阅术语 →</span>
-  </a>
-  <a class="quick-link-card" href="changelog.md">
-    <div class="quick-link-icon">🗞️</div>
-    <div class="quick-link-body">
-      <h3>更新日志</h3>
-      <p>追踪近期内容迭代与重要公告。</p>
+
+    <div class="main-card main-card--reminders">
+      <h3>重要提醒</h3>
+      <ul>
+        <li><strong>安全优先：</strong>若遇危机或伤害风险，请立即联系紧急服务或线下专业支持。</li>
+        <li><strong>尊重边界：</strong>分享系统经验时注意隐私与成员意愿。</li>
+        <li><strong>持续更新：</strong>欢迎提出补充、纠错或改进建议，让资料保持准确。</li>
+      </ul>
     </div>
-    <span class="quick-link-arrow">查看动态 →</span>
-  </a>
-  <a class="quick-link-card" href="CONTRIBUTING.md">
-    <div class="quick-link-icon">🛠️</div>
-    <div class="quick-link-body">
-      <h3>贡献指南</h3>
-      <p>了解如何参与、提交或改进条目。</p>
+  </div>
+
+  <div class="main-page-column main-page-column--right">
+    <div class="main-hero">
+      <div class="main-hero__content">
+        <span class="main-hero__tag">Main Page</span>
+        <h1>探索多重意识体的知识、经验与协作</h1>
+        <p>从概念入门到实践工具，我们希望帮助系统成员、同伴支持者与临床工作者在中文语境中找到可信赖的资料。</p>
+        <div class="main-hero__actions">
+          <a class="btn btn--primary" href="index.md">开始浏览</a>
+          <a class="btn btn--ghost" href="CONTRIBUTING.md">查看贡献指南</a>
+        </div>
+      </div>
+      <div class="main-hero__aside">
+        <div class="main-hero__highlight">
+          <h4>快速了解</h4>
+          <p>查看 <a href="changelog.md">更新日志</a> 了解近期改动，或阅读 <a href="ignore.md">站点守则</a> 确认社区约定。</p>
+        </div>
+      </div>
     </div>
-    <span class="quick-link-arrow">加入贡献 →</span>
-  </a>
+
+    <div class="main-card">
+      <h2>快速入口</h2>
+      <div class="quick-links-grid">
+        <a class="quick-link-card" href="index.md">
+          <div class="quick-link-icon">🧭</div>
+          <div class="quick-link-body">
+            <h3>目录索引</h3>
+            <p>按主题浏览全部词条，适合系统化查阅。</p>
+          </div>
+          <span class="quick-link-arrow">开始探索 →</span>
+        </a>
+        <a class="quick-link-card" href="Glossary.md">
+          <div class="quick-link-icon">📖</div>
+          <div class="quick-link-body">
+            <h3>术语表（Glossary）</h3>
+            <p>快速确认术语定义，保持沟通一致。</p>
+          </div>
+          <span class="quick-link-arrow">查阅术语 →</span>
+        </a>
+        <a class="quick-link-card" href="changelog.md">
+          <div class="quick-link-icon">🗞️</div>
+          <div class="quick-link-body">
+            <h3>更新日志</h3>
+            <p>追踪近期内容迭代与重要公告。</p>
+          </div>
+          <span class="quick-link-arrow">查看动态 →</span>
+        </a>
+        <a class="quick-link-card" href="CONTRIBUTING.md">
+          <div class="quick-link-icon">🛠️</div>
+          <div class="quick-link-body">
+            <h3>贡献指南</h3>
+            <p>了解如何参与、提交或改进条目。</p>
+          </div>
+          <span class="quick-link-arrow">加入贡献 →</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="main-card">
+      <h2>新手路线图</h2>
+      <ol class="step-list">
+        <li>
+          <strong>建立共同语言：</strong>建议先阅读 <a href="Glossary.md">术语表</a>，再进入 <a href="entries/Plurality-Basics.md">多重意识体基础</a> 与 <a href="entries/系统体验与机制/System.md">系统（System）</a>。
+        </li>
+        <li>
+          <strong>理解系统角色与形成路径：</strong>先看 <a href="entries/系统角色与类型/System-Roles.md">人格职能</a>，再查阅 <a href="entries/系统角色与类型/Alter.md">成员</a>、<a href="entries/系统角色与类型/Host.md">宿主</a>、<a href="entries/系统角色与类型/Tulpa.md">图帕</a>，并参考 <a href="entries/系统角色与类型/Emmengard-Classification.md">埃蒙加德分类法</a>。
+        </li>
+        <li>
+          <strong>关注体验与机制：</strong>查阅 <a href="entries/系统体验与机制/Front-Fronting.md">前台</a>、<a href="entries/系统体验与机制/Co-Fronting.md">共前台</a>、<a href="entries/系统体验与机制/Fusion.md">融合</a> 等词条。
+        </li>
+        <li>
+          <strong>实践与自护：</strong>参考 <a href="entries/实践与支持/Grounding.md">接地</a> 与 <a href="entries/实践与支持/Meditation.md">冥想</a> 等实务工具，结合自身节奏逐步实践。
+        </li>
+      </ol>
+      <p class="main-card__hint">若在临床或危机情境中需要专业支持，请优先联系紧急服务或持证人员。本 Wiki 提供的是知识整理与经验分享，而非诊断或治疗建议。</p>
+    </div>
+
+    <div class="main-card">
+      <h2>核心板块速览</h2>
+      <div class="badge-grid">
+        <span class="badge">诊断与临床</span>
+        <span class="badge">系统角色与类型</span>
+        <span class="badge">系统体验与机制</span>
+        <span class="badge">实践与支持</span>
+      </div>
+      <ul>
+        <li><strong>诊断与临床：</strong>聚焦解离障碍、创伤后应激障碍、人格障碍等相关主题。</li>
+        <li><strong>系统角色与类型：</strong>梳理成员角色定位、形成方式与协作方法。</li>
+        <li><strong>系统体验与机制：</strong>讨论切换、共识、内部空间等机制。</li>
+        <li><strong>实践与支持：</strong>整理冥想、接地等实务操作与同伴支持工具。</li>
+      </ul>
+    </div>
+
+    <div class="main-card">
+      <h2>精选词条</h2>
+      <ul class="featured-list">
+        <li><a href="entries/系统体验与机制/Plurality.md">多意识体（Plurality）</a></li>
+        <li><a href="entries/诊断与临床/DID.md">解离性身份障碍（DID）</a></li>
+        <li><a href="entries/系统体验与机制/Headspace-Inner-World.md">内部空间（Headspace / Inner World）</a></li>
+        <li><a href="entries/系统体验与机制/Permissions.md">权限（Permissions）</a></li>
+      </ul>
+    </div>
+
+    <div class="main-card">
+      <h2>参与与协作</h2>
+      <ul>
+        <li>阅读 <a href="CONTRIBUTING.md">贡献指南</a>，遵循条目结构与引用规范。</li>
+        <li>通过 Pull Request 或 Issue 协作补充资料与工具。</li>
+        <li>批量处理或自动化脚本支持可参考 <a href="README.md">README</a> 中的“自动化维护”章节。</li>
+      </ul>
+    </div>
+  </div>
 </div>
 
----
-
-## 🧭 新手路线图
-
-1. **建立共同语言**：建议先阅读 [术语表（Glossary）](Glossary.md)，再进入 [多重意识体基础（Plurality Basics）](entries/Plurality-Basics.md) 与 [系统（System）](entries/系统体验与机制/System.md)。
-
-2. **理解系统角色与形成路径**：先看《[人格职能（System Roles）](entries/系统角色与类型/System-Roles.md)》，再查阅 [成员（Alter）](entries/系统角色与类型/Alter.md)、[宿主（Host）](entries/系统角色与类型/Host.md)、[图帕（Tulpa）](entries/系统角色与类型/Tulpa.md)，并参考 [埃蒙加德分类法（Emmengard Classification）](entries/系统角色与类型/Emmengard-Classification.md)。
-
-3. **关注体验与机制**：查阅 [前台（Front / Fronting）](entries/系统体验与机制/Front-Fronting.md)、[共前台（Co-fronting）](entries/系统体验与机制/Co-Fronting.md)、[融合（Fusion）](entries/系统体验与机制/Fusion.md)。
-
-4. **实践与自护**：参考 [接地（Grounding）](entries/实践与支持/Grounding.md) 与 [冥想（Meditation）](entries/实践与支持/Meditation.md)。
-
-> 📌 **阅读提示**：若在临床或危机情境中需要专业支持，请优先联系紧急服务或持证人员。本 Wiki 提供的是知识整理与经验分享，而非诊断或治疗建议。
-
----
-
-## 📚 核心板块速览
-
-- **诊断与临床**：聚焦解离障碍、创伤后应激障碍、人格障碍等相关主题。
-- **系统角色与类型**：梳理成员角色定位、形成方式与协作方法。
-- **系统体验与机制**：讨论切换、共识、内部空间等机制。
-- **实践与支持**：整理冥想、接地等实务操作与同伴支持工具。
-
----
-
-## 🧩 精选词条
-
-- [多意识体（Plurality）](entries/系统体验与机制/Plurality.md)
-- [解离性身份障碍（DID）](entries/诊断与临床/DID.md)
-- [内部空间（Headspace / Inner World）](entries/系统体验与机制/Headspace-Inner-World.md)
-- [权限（Permissions）](entries/系统体验与机制/Permissions.md)
-
----
-
-## 📝 参与与协作
-
-- 阅读 [贡献指南](CONTRIBUTING.md)，遵循条目结构与引用规范。
-- 通过 Pull Request 或 Issue 协作补充资料与工具。
-- 批量处理或自动化脚本支持可参考 [README](README.md)中`自动化维护`章节。
-
----
-
-## 📣 重要提醒
-
-- **安全优先**：若遇危机，请立即联系紧急服务或线下支持。
-- **尊重边界**：分享系统经验时注意隐私与同意。
-- **持续更新**：Wiki 定期审阅更新，也欢迎提出改进。
-
----
-
-🛠️ **维护者：脸脸系统**
-
-感谢每一位为多重意识体知识生态贡献力量的朋友，祝你在 Plurality Wiki 的旅程中获得启发、力量与陪伴。
+<p class="main-footer">感谢每一位为多重意识体知识生态贡献力量的朋友，祝你在 Plurality Wiki 的旅程中获得启发、力量与陪伴。</p>
