@@ -97,14 +97,24 @@ def build_cover_page(
     subtitle: str | None,
     date_text: str | None,
     footer_text: str | None,
+    online_link_label: str | None,
+    online_link_url: str | None,
 ) -> str:
     """使用 LaTeX ``titlepage`` 环境构建封面页。"""
 
-    def _format_line(size_command: str, text: str) -> str:
+    def _format_line(size_command: str, text: str, *, italic: bool = False) -> str:
         """以指定字号指令渲染 ``text``，同时完成转义。"""
 
         escaped = escape_latex(text.strip())
-        return f"{{{size_command} {escaped}\\par}}"
+        content = f"\\textit{{{escaped}}}" if italic else escaped
+        return f"{{{size_command} {content}\\par}}"
+
+    def _format_link_line(size_command: str, label: str, url: str) -> str:
+        """构建带超链接的字号行。"""
+
+        label_escaped = escape_latex(label.strip())
+        url_escaped = escape_latex(url.strip())
+        return f"{{{size_command} \\href{{{url_escaped}}}{{{label_escaped}}}\\par}}"
 
     lines = [
         "\\begin{titlepage}",
@@ -119,17 +129,27 @@ def build_cover_page(
             _format_line("\\Large", subtitle),
         ])
 
+    if online_link_label and online_link_url:
+        lines.extend([
+            "\\vspace{1.2cm}",
+            _format_link_line("\\Large", online_link_label, online_link_url),
+        ])
+
+    bottom_inserted = False
+
     if date_text:
         lines.extend([
             "\\vfill",
             _format_line("\\large", date_text),
         ])
+        bottom_inserted = True
 
     if footer_text:
-        lines.extend([
-            "\\vfill",
-            f"\\textit{{{escape_latex(footer_text)}}}",
-        ])
+        if bottom_inserted:
+            lines.append("\\vspace{0.8cm}")
+        else:
+            lines.append("\\vfill")
+        lines.append(_format_line("\\Large", footer_text, italic=True))
 
     lines.extend([
         "\\vspace{1cm}",
@@ -168,6 +188,8 @@ def build_combined_markdown(
     cover_subtitle: str | None,
     cover_date: str | None,
     cover_footer: str | None,
+    cover_online_link_label: str | None,
+    cover_online_link_url: str | None,
 ) -> str:
     """将所有 Markdown 文件拼接为单一字符串供 Pandoc 使用。"""
 
@@ -180,6 +202,8 @@ def build_combined_markdown(
                 subtitle=cover_subtitle,
                 date_text=cover_date,
                 footer_text=cover_footer,
+                online_link_label=cover_online_link_label,
+                online_link_url=cover_online_link_url,
             )
         )
 
