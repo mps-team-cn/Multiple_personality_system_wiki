@@ -33,4 +33,4 @@
 
 ## 参考资料
 
-[^visualization-pluralpedia]: Pluralpedia. (n.d.). [Visualization](https://pluralpedia.org/w/Visualization).
+[^Visualization](https://pluralpedia.org/w/Visualization).
