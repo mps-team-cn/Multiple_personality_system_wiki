@@ -8,7 +8,8 @@
 ## 💬 系统语录（Community Voices）
 
 <details>
-<summary>展开查看语录</summary>
+<summary>展开 / 折叠查看语录</summary>
+
 
 > **“我接触多重人格已三年有余，期间圈子大小冲突不断，没有一天安稳日子……他们都是被我熬死的。”** ——刿-伊势系统
 >
@@ -56,7 +57,7 @@
 ## 🧭 新手路线图
 
 1. **建立共同语言**：从 [多重意识体基础（Plurality Basics）](entries/Plurality-Basics.md) 与 [系统（System）](entries/系统体验与机制/System.md) 入手。
-2. **理解系统角色与形成路径**：先阅读《[人格职能（System Roles）](entries/系统角色与类型/System-Roles.md)》掌握常见成员分工，再继续查阅 [成员（Alter）](entries/系统角色与类型/Alter.md)、[宿主（Host）](entries/系统角色与类型/Host.md)、[图帕（Tulpa）](entries/系统角色与类型/Tulpa.md)，并参考 [埃蒙加德分类法（Emmengard Classification）](entries/系统角色与类型/Emmengard-Classification.md)。
+2. **理解系统角色与形成路径**：先阅读《[人格职能（System Roles）](entries/系统角色与类型/System-Roles.md)》掌握常见成员分工，再继续查阅 [成员（Alter）](entries/系统角色与类型/Alter.md)、[宿主（Host）](entries/系统角色与类型/Host.md)、[图帕（Tulpa）](entries/系统角色与类型/Tulpa.md)，并参考 [埃蒙加德分类法（Emmengard Classification）](entries/系统角色与类型/Emmengard-Classification.md) 了解不同系统来源与自我认同标签。
 3. **关注体验与机制**：查阅 [前台（Front / Fronting）](entries/系统体验与机制/Front-Fronting.md)、[共前台（Co-fronting）](entries/系统体验与机制/Co-Fronting.md)、[融合（Fusion）](entries/系统体验与机制/Fusion.md)。
 4. **实践与自护**：参考 [接地（Grounding）](entries/实践与支持/Grounding.md) 与 [冥想（Meditation）](entries/实践与支持/Meditation.md)。
 
@@ -66,35 +67,35 @@
 
 ## 📚 核心板块速览
 
-- **诊断与临床**：聚焦解离障碍、创伤后应激障碍、人格障碍等相关诊疗主题。
-- **系统角色与类型**：梳理成员角色定位、形成方式与协作方法。
-- **系统体验与机制**：讨论切换、共识、内部空间等机制。
+- **诊断与临床**：聚焦解离障碍、创伤后应激障碍、人格障碍等相关诊疗主题。  
+- **系统角色与类型**：梳理成员角色定位、形成方式与协作方法。  
+- **系统体验与机制**：讨论切换、共识、内部空间等机制。  
 - **实践与支持**：整理冥想、接地等实务操作与同伴支持工具。
 
 ---
 
 ## 🧩 精选词条
 
-- [多意识体（Plurality）](entries/系统体验与机制/Plurality.md)
-- [解离性身份障碍（DID）](entries/诊断与临床/DID.md)
-- [内部空间（Headspace / Inner World）](entries/系统体验与机制/Headspace-Inner-World.md)
-- [权限（Permissions）](entries/系统体验与机制/Permissions.md)
+- [多意识体（Plurality）](entries/系统体验与机制/Plurality.md)  
+- [解离性身份障碍（DID）](entries/诊断与临床/DID.md)  
+- [内部空间（Headspace / Inner World）](entries/系统体验与机制/Headspace-Inner-World.md)  
+- [权限（Permissions）](entries/系统体验与机制/Permissions.md)  
 
 ---
 
 ## 📝 参与与协作
 
-- 阅读 [贡献指南](CONTRIBUTING.md)，遵循条目结构与引用规范。
-- 通过 Pull Request 或 Issue 协作补充资料与工具。
+- 阅读 [贡献指南](CONTRIBUTING.md)，遵循条目结构与引用规范。  
+- 通过 Pull Request 或 Issue 协作补充资料与工具。  
 - 批量处理或自动化脚本支持可参考 [`tools/`](tools)。
 
 ---
 
 ## 📣 重要提醒
 
-- **安全优先**：若遇危机，请立即联系紧急服务或线下支持。
-- **尊重边界**：分享系统经验时注意隐私与同意。
-- **持续更新**：Wiki 定期审阅更新，也欢迎提出改进。
+- **安全优先**：若遇危机，请立即联系紧急服务或线下支持。  
+- **尊重边界**：分享系统经验时注意隐私与同意。  
+- **持续更新**：Wiki 定期审阅更新，也欢迎提出改进。  
 
 ---
 

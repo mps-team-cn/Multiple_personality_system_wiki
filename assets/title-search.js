@@ -8,7 +8,13 @@
   let latestVM = null;
 
   function registerPlugin() {
-    window.$docsify = window.$docsify || {};
+    window.$docsify = window.$docsify || {
+      timeUpdater: {
+        text: "<div align='right' style='color:#999;font-size:12px'>最后更新：{docsify-updated}</div>",
+        formatUpdated: "{YYYY}-{MM}-{DD} {HH}:{mm}",
+        whereToPlace: "bottom",
+      },
+    };
     const originalPlugins = window.$docsify.plugins || [];
     window.$docsify.plugins = [].concat(titleSearchPlugin, originalPlugins);
   }
@@ -311,9 +317,10 @@
   }
 
   function resolveBasePath(vm) {
-    const base = vm && vm.config && typeof vm.config.basePath === "string"
-      ? vm.config.basePath
-      : "";
+    const base =
+      vm && vm.config && typeof vm.config.basePath === "string"
+        ? vm.config.basePath
+        : "";
     if (!base) return "";
     return base.endsWith("/") ? base : `${base}/`;
   }
