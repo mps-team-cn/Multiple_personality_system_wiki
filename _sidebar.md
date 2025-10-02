@@ -5,8 +5,8 @@
 
 - **核心词条**
   - [多重意识体基础](entries/Plurality-Basics.md)
-  - [埃蒙加德分类法（Emmengard Classification）](entries/系统角色与类型/Emmengard-Classification.md)
-  - [人格职能（System Roles）](<entries/系统角色与类型/System-Roles.md>)
+  - [埃蒙加德分类法](entries/系统角色与类型/Emmengard-Classification.md)
+  - [人格职能](<entries/系统角色与类型/System-Roles.md>)
   - [解离性身份障碍](<entries/诊断与临床/DID.md>)
   - [Tulpa](<entries/系统角色与类型/Tulpa.md>)
 
