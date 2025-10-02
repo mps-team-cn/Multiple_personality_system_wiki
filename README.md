@@ -98,12 +98,12 @@ python tools/docs_preview.py --port 4173
 
 ### 提交信息规范（推荐）：Conventional Commits
 
-```yaml
-feat: 新增条目「部分解离性身份障碍（Partial DID, 6B65）」
-fix: 修复 PDF 导航目录重复的问题
-docs: 调整 index.md 索引与链接
-refactor: 统一小节标题层级
-```
+- `feat:` 新增条目/新增章节
+- `fix:` 错误修复（链接/引用/格式）
+- `docs:` 文档与索引更新（不影响语义）
+- `refactor:` 结构与命名重构（不改变内容含义）
+- `chore:` 任务脚本、CI、批处理等维护项
+- `style:` 空格/缩进/行尾等非语义变更
 
 提交后建议执行以下脚本，检查是否有链接问题
 
