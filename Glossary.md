@@ -38,7 +38,9 @@
 | [Dissociation](entries/系统体验与机制/Dissociation.md)                                        | 解离          | 强调意识、记忆、感受或身份之间产生分离的体验。              |
 | [Dissociative Amnesia](entries/诊断与临床/Dissociative-Amnesia-DA.md)                               | 解离性遗忘       | 指无法回忆重要个人信息的解离症状，常与创伤事件关联。           |
 | [Exomemory](entries/系统体验与机制/Exomemory.md)                                         | 独有记忆        | 仅对特定成员可访问、对其他成员呈现空白的记忆集合。            |
-| [External Projection](entries/系统体验与机制/External-Projection.md)                                | 外投射         | 描述将内部成员体验感知为外部感官或实体的状态。              |
+| [Projection](entries/系统体验与机制/Projection.md)                                 | 投影          | 将成员的形象、感受或存在感延伸到现实环境的体验，是连接内视与外部互动的桥梁。     |
+| [Visualization / Imagination](entries/系统体验与机制/Visualization-Imagination.md) | 内视          | 在内心空间中“看到”或感知成员的练习，常作为与系统成员互动的基础阶段。         |
+| [External Projection](entries/系统体验与机制/External-Projection.md)                                | 外投射         | 社群中常与投影互换，强调将意识感知放置在现实空间的具体做法或体验描述。       |
 | [Fauxmain](entries/系统角色与类型/Fauxmain.md)                                           | 伪主体         | 指被误认为主要前台但并非真正宿主的成员角色。               |
 | [Flashback](entries/诊断与临床/Flashback.md)                                             | 闪回          | 创伤记忆以感官或情绪形式突然重现、难以控制的体验。            |
 | [Fragment](entries/系统角色与类型/Fragment.md)                                            | 碎片          | 用于描述功能或人格特质高度局限、结构较小的意识片段。           |
