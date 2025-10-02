@@ -121,7 +121,7 @@
 
 - 阅读 [贡献指南](CONTRIBUTING.md)，遵循条目结构与引用规范。
 - 通过 Pull Request 或 Issue 协作补充资料与工具。
-- 批量处理或自动化脚本支持可参考 [`tools/`](tools)。
+- 批量处理或自动化脚本支持可参考 [README](README.md)中`自动化维护`章节。
 
 ---
 
