@@ -17,9 +17,10 @@ from .constants import (
 )
 from .exporter import export_pdf
 from .ignore_loader import load_ignore_rules
+from .last_updated import load_last_updated_map
 from .markdown import build_combined_markdown
 from .models import PandocExportError
-from .paths import IGNORE_FILE_PATH, PROJECT_ROOT, README_PATH
+from .paths import IGNORE_FILE_PATH, LAST_UPDATED_JSON_PATH, PROJECT_ROOT, README_PATH
 from .requirements import check_requirements, detect_cjk_font, detect_pdf_engine
 from .structure import collect_markdown_structure
 
@@ -120,6 +121,8 @@ def main(argv: Sequence[str] | None = None) -> None:
         if not cover_footer:
             cover_footer = None
 
+    last_updated_map = load_last_updated_map(LAST_UPDATED_JSON_PATH)
+
     combined_markdown = build_combined_markdown(
         structure=structure,
         include_readme=args.include_readme or not ignore_rules.matches(README_PATH),
@@ -130,6 +133,7 @@ def main(argv: Sequence[str] | None = None) -> None:
         cover_footer=cover_footer,
         cover_online_link_label=DEFAULT_COVER_ONLINE_LINK_LABEL,
         cover_online_link_url=DEFAULT_COVER_ONLINE_LINK_URL,
+        last_updated_map=last_updated_map,
     )
 
     try:
