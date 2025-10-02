@@ -72,7 +72,7 @@ plurality_wiki/
 | `tools/fix_md.py` | 批量修复 Markdown 常见 Lint 问题，涵盖行尾空格、标题前后空行、围栏语言补全等 | 详见上文“🧰 一键修复 Markdown”章节，可运行 `python tools/fix_md.py` 或 `python tools/fix_md.py --dry-run` |
 | `tools/check_links.py` | 扫描 Markdown 文档中疑似内部链接的写法，禁止 `./`、`../` 等相对路径并提示改为 `entries/.../*.md` | `python tools/check_links.py --root .`，必要时加 `--whitelist` 允许额外根目录文档 |
 | `tools/docs_preview.py` | 本地预览辅助：优先尝试 `docsify-cli`，失败时自动回退到 `python -m http.server` | `python tools/docs_preview.py --port 4173`（默认端口 4173，可通过 `--wait` 调整 docsify 启动检测） |
-| `tools/gen_changelog_by_tags.py` | 按 Git 标签时间顺序生成 `CHANGELOG.md`，并按 Conventional Commits 类型分组 | `python tools/gen_changelog_by_tags.py --output changelog.md`，或加 `--latest-only` 仅生成最近区间 |
+| `tools/gen_changelog_by_tags.py` | 按 Git 标签时间顺序生成 `CHANGELOG.md`，并按 Conventional Commits 类型分组 | `python tools/gen_changelog_by_tags.py --output changelog.md`，或加 `--latest-only` 仅生成最近区间，或加  `--latest-to-head` 生成“最新标签..HEAD”简化版 changelog，便于手工编辑 |
 | `tools/pdf_export/` | Pandoc 驱动的整站 PDF 导出工具，支持封面、目录、忽略列表与中文字体配置 | 运行 `python tools/pdf_export/export_to_pdf.py` 或 `python -m pdf_export`，更多参数见 `tools/pdf_export/README_pdf_output.md` |
 
 如需新增脚本，请保持功能说明与示例用法同步更新本章节，方便贡献者快速定位维护工具。
