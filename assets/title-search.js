@@ -12,13 +12,6 @@
     if (!window.$docsify.formatUpdated) {
       window.$docsify.formatUpdated = "{YYYY}-{MM}-{DD} {HH}:{mm}";
     }
-    if (!window.$docsify.timeUpdater) {
-      window.$docsify.timeUpdater = {
-        text:
-          "<div align='right' style='color:#999;font-size:12px'>最后更新：{docsify-updated}</div>",
-        whereToPlace: "bottom",
-      };
-    }
     const originalPlugins = window.$docsify.plugins || [];
     window.$docsify.plugins = [].concat(titleSearchPlugin, originalPlugins);
   }
