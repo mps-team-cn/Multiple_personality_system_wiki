@@ -69,6 +69,8 @@
 - [前台（Front / Fronting）](entries/系统体验与机制/Front-Fronting.md)
 - [后台（Back / Being Back）](entries/系统体验与机制/Back-Being-Back.md)
 - [存在感（Sense of Presence）](entries/系统体验与机制/Sense-Of-Presence.md)
+- [投影（Projection）](entries/系统体验与机制/Projection.md)
+- [内视（Visualization / Imagination）](entries/系统体验与机制/Visualization-Imagination.md)
 - [外投射（External Projection）](entries/系统体验与机制/External-Projection.md)
 - [封存（Sequestration）](entries/系统体验与机制/Sequestration.md)
 - [头压（Head Pressure）](entries/系统体验与机制/Head-Pressure.md)
