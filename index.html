@@ -230,6 +230,91 @@
     <!-- 中英混排排版优化 -->
     <script src="./assets/typography.js"></script>
 
+    <script>
+      (function () {
+        const PLACEHOLDER_ID = "__last-updated__";
+
+        let lastUpdatedMapPromise = null;
+
+        function loadMap() {
+          if (!lastUpdatedMapPromise) {
+            lastUpdatedMapPromise = fetch("./assets/last-updated.json", {
+              cache: "no-store",
+            })
+              .then((response) => (response.ok ? response.json() : {}))
+              .catch(() => ({}));
+          }
+          return lastUpdatedMapPromise;
+        }
+
+        function routeToRepoPath(routePath) {
+          if (!routePath) return null;
+          let path = routePath.replace(/^\//, "");
+          if (path.endsWith("/")) path = path.slice(0, -1);
+          if (!path) return null;
+          return decodeURIComponent(path) + ".md";
+        }
+
+        function formatDate(isoString) {
+          if (!isoString) return null;
+          const date = new Date(isoString);
+          if (Number.isNaN(date.getTime())) return null;
+          const pad = (value) => String(value).padStart(2, "0");
+          const year = date.getFullYear();
+          const month = pad(date.getMonth() + 1);
+          const day = pad(date.getDate());
+          const hours = pad(date.getHours());
+          const minutes = pad(date.getMinutes());
+          const seconds = pad(date.getSeconds());
+          return `${year}/${month}/${day} ${hours}:${minutes}:${seconds}`;
+        }
+
+        function injectPlaceholder(html) {
+          const placeholder = `\n<div id="${PLACEHOLDER_ID}" style="font-size:0.9em;opacity:.8;margin:8px 0;"></div>`;
+          if (/<h1[^>]*>[\s\S]*?<\/h1>/i.test(html)) {
+            return html.replace(/(<h1[^>]*>[\s\S]*?<\/h1>)/i, `$1${placeholder}`);
+          }
+          return `${placeholder}\n${html}`;
+        }
+
+        window.$docsify = window.$docsify || {};
+        const userPlugins = window.$docsify.plugins || [];
+
+        window.$docsify.plugins = [].concat(
+          function (hook, vm) {
+            hook.afterEach(function (html, next) {
+              next(injectPlaceholder(html));
+            });
+
+            hook.doneEach(async function () {
+              const container = document.getElementById(PLACEHOLDER_ID);
+              if (!container) return;
+
+              const repoPath = routeToRepoPath(vm.route && vm.route.path);
+              const map = await loadMap();
+              const info = repoPath && map[repoPath];
+
+              if (info && info.updated) {
+                const formatted = formatDate(info.updated);
+                const shortHash = info.commit ? info.commit.slice(0, 7) : "";
+                if (formatted) {
+                  container.innerHTML = `🕒 最后更新：<strong>${formatted}</strong>${
+                    shortHash ? `（<code>${shortHash}</code>）` : ""
+                  }`;
+                  container.style.display = "";
+                  return;
+                }
+              }
+
+              container.innerHTML = "";
+              container.style.display = "none";
+            });
+          },
+          userPlugins
+        );
+      })();
+    </script>
+
     <!-- Docsify 核心 -->
     <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
 
