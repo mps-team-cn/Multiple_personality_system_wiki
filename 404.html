@@ -67,7 +67,11 @@
         const docSegments = segments.slice(baseSegments.length);
         const basePath =
           baseSegments.length > 0 ? `/${baseSegments.join("/")}/` : "/";
-        const docPath = docSegments.join("/");
+        const docPath = docSegments
+          .join("/")
+          .replace(/index\.html?$/i, "")
+          .replace(/\.md$/i, "")
+          .replace(/\/+$/, "");
         const normalizedBase = basePath.replace(/\/+$/, "/");
         const docTarget = docPath ? docPath : "Main_Page";
         const target =
