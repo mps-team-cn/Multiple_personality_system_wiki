@@ -263,7 +263,13 @@ button, .cover .buttons a{
   margin-top: 1.2rem;
   display: grid;
   gap: 18px;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+@media (max-width: 640px){
+  .quick-links-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 .quick-link-card{
@@ -523,20 +529,23 @@ button, .cover .buttons a{
   transition: transform .18s ease, box-shadow .2s ease;
 }
 
-.btn--primary{
+.btn--primary,
+.markdown-section .btn--primary{
   background: var(--c-brand);
-  color: #0f172a;
+  color: #ffffff;
   box-shadow: 0 12px 24px rgba(79,192,141,.28);
 }
 
-.btn--primary:visited{
-  color: #0f172a;
+.btn--primary:visited,
+.markdown-section .btn--primary:visited{
+  color: #ffffff;
 }
 
-.btn--primary:hover{
+.btn--primary:hover,
+.markdown-section .btn--primary:hover{
   transform: translateY(-2px);
   box-shadow: 0 16px 32px rgba(79,192,141,.34);
-  color: #041f15;
+  color: #ffffff;
 
 }
 
