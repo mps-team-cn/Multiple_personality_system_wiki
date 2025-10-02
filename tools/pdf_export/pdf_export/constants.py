@@ -25,3 +25,5 @@ CJK_FONT_CANDIDATES = [
 DEFAULT_COVER_TITLE = "多重意识体系统知识库"
 DEFAULT_COVER_SUBTITLE = "Plurality Wiki"
 DEFAULT_COVER_FOOTER = "脸脸系统"
+DEFAULT_COVER_ONLINE_LINK_LABEL = "在线版本"
+DEFAULT_COVER_ONLINE_LINK_URL = "https://plurality-wiki.pages.dev/#/"

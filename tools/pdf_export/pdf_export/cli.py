@@ -10,6 +10,8 @@ from typing import Sequence
 
 from .constants import (
     DEFAULT_COVER_FOOTER,
+    DEFAULT_COVER_ONLINE_LINK_LABEL,
+    DEFAULT_COVER_ONLINE_LINK_URL,
     DEFAULT_COVER_SUBTITLE,
     DEFAULT_COVER_TITLE,
 )
@@ -126,6 +128,8 @@ def main(argv: Sequence[str] | None = None) -> None:
         cover_subtitle=cover_subtitle,
         cover_date=cover_date,
         cover_footer=cover_footer,
+        cover_online_link_label=DEFAULT_COVER_ONLINE_LINK_LABEL,
+        cover_online_link_url=DEFAULT_COVER_ONLINE_LINK_URL,
     )
 
     try:
