@@ -490,6 +490,52 @@ button, .cover .buttons a{
   margin-bottom: 0;
 }
 
+.main-card--recent .recent-updates-list{
+  list-style: none;
+  margin: .8rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+
+.recent-updates-item{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.recent-updates-item a{
+  font-weight: 600;
+  color: color-mix(in oklab, var(--c-brand) 68%, var(--c-text));
+  text-decoration: none;
+}
+
+.recent-updates-item a:hover{
+  color: color-mix(in oklab, var(--c-brand) 82%, var(--c-text));
+  text-decoration: underline;
+}
+
+.recent-updates-meta{
+  font-size: .88rem;
+  color: var(--c-muted);
+}
+
+.recent-updates-item--loading,
+.recent-updates-item--empty,
+.recent-updates-item--error{
+  color: var(--c-muted);
+  font-size: .92rem;
+}
+
+:root.dark .recent-updates-item a{
+  color: color-mix(in oklab, var(--c-brand) 76%, rgba(246,250,255,.92));
+}
+
+:root.dark .recent-updates-item a:hover{
+  color: color-mix(in oklab, var(--c-brand) 88%, rgba(246,250,255,.96));
+}
+
 :root.dark .main-card{
   background: color-mix(in oklab, var(--c-card) 92%, rgba(20,27,35,.6));
   border: 1px solid color-mix(in oklab, var(--c-muted) 34%, transparent);
