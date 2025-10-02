@@ -77,6 +77,14 @@ plurality_wiki/
 
 如需新增脚本，请保持功能说明与示例用法同步更新本章节，方便贡献者快速定位维护工具。
 
+### 词条最后更新时间索引
+
+- `scripts/gen-last-updated.mjs` 会遍历 `entries/` 下的所有 Markdown 词条，读取 Git 最后提交时间与提交哈希，并生成 `assets/last-updated.json` 索引文件；
+- GitHub Actions 工作流 [`.github/workflows/last-updated.yml`](.github/workflows/last-updated.yml) 在推送 `main` 分支或手动触发时自动运行上述脚本并提交最新索引；
+- 前端在 `index.html` 内置 Docsify 插件，会在每篇词条标题下渲染形如 `🕒 最后更新：2025/10/02 12:34:56（abc1234）` 的提示，其中时间来自 Git 提交历史、哈希取前 7 位；
+- `tools/pdf_export/` 的导出流程会读取同一份索引，并在离线 PDF 中的每篇词条标题下展示相同的最后更新时间提示；
+- 如需强制刷新缓存，可重新触发工作流或在部署平台清除静态资源缓存。
+
 ---
 
 ## 🚀 本地预览
