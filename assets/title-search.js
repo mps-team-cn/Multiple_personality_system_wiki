@@ -114,7 +114,14 @@
     wrapper.appendChild(input);
     wrapper.appendChild(results);
 
-    sidebar.insertBefore(wrapper, sidebar.firstChild);
+    const brandElement = sidebar.querySelector(".app-name, .sidebar-brand");
+    if (brandElement && brandElement.parentNode) {
+      brandElement.parentNode.insertBefore(wrapper, brandElement.nextSibling);
+    } else if (sidebar.firstChild) {
+      sidebar.insertBefore(wrapper, sidebar.firstChild);
+    } else {
+      sidebar.appendChild(wrapper);
+    }
 
     input.addEventListener("focus", () => {
       ensureIndex(latestVM || {});
