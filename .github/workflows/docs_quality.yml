@@ -1,0 +1,34 @@
+name: 文档质量检查
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  markdownlint:
+    name: Markdown 语法校验
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+      - name: 配置 Node.js 环境
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: 安装 markdownlint-cli
+        run: npm install -g markdownlint-cli
+      - name: 执行 markdownlint
+        run: markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
+
+  linkcheck:
+    name: 链接有效性检查
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+      - name: 运行 lychee
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --config .github/lychee.toml --no-progress --verbose ./
