@@ -178,6 +178,14 @@
           subMaxLevel: 2,
           auto2top: true,
 
+          // 最后更新时间配置
+          formatUpdated: "{YYYY}-{MM}-{DD} {HH}:{mm}",
+          timeUpdater: {
+            text:
+              "<div align='right' style='color:#999;font-size:12px'>最后更新：{docsify-updated}</div>",
+            whereToPlace: "bottom",
+          },
+
           // 首页直接展示 Main_Page，无需封面
           coverpage: false,
           onlyCover: false,
