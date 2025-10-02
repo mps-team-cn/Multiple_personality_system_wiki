@@ -1,5 +1,41 @@
 # 更新日志
 
+## v1.3.2 (2025-10-03)
+
+### ✨ 新增
+
+- 更新创伤和解离性身份障碍条目，整合定义、特征及实务建议（[15c663e](https://github.com/kuliantnt/plurality_wiki/commit/15c663e2a3df00d045047df35c64fa306f0eb9fe)）
+- 更新 OSDD、DPDR、抑郁障碍及条目贡献指南，增加定义、特征及实务建议（[9438267](https://github.com/kuliantnt/plurality_wiki/commit/94382673a5cf9373e9fdae4409d8acf07129ea94)）
+- 更新 DID 和闪回条目，补充定义、特征及实务建议（[55b8133](https://github.com/kuliantnt/plurality_wiki/commit/55b81335070bca5694124efcbaae9918f80fba37)）
+- 新增 PTSD 条目（[fc3068e](https://github.com/kuliantnt/plurality_wiki/commit/fc3068e0c3737247b489562a24950c5a684fd36e)）
+- 更新 OCD 条目（[f8e8c2c](https://github.com/kuliantnt/plurality_wiki/commit/f8e8c2c92f3d94b8896a5143cb6e7285bd7920e6)）
+- 新增“交换”条目（[76af9f5](https://github.com/kuliantnt/plurality_wiki/commit/76af9f52e230d2b710d32f4672ba81c211ee7b9d)）
+- 更新里空间和条目模板（[3ac7f75](https://github.com/kuliantnt/plurality_wiki/commit/3ac7f7586183134b7abcc15798736ca346137d26)）
+- 新增“共前台”和“偏重”条目（[215c07e](https://github.com/kuliantnt/plurality_wiki/commit/215c07e5b1a5398cb10ab7e8bf7e511a459e7f15)）
+- 新增“侵入性思维”条目（[bbdc85e](https://github.com/kuliantnt/plurality_wiki/commit/bbdc85e478b72f69c5ea8a2e3f9fbb75590bacaf)）
+- 更新 ANP-EP 模型（[180e810](https://github.com/kuliantnt/plurality_wiki/commit/180e810831c12ad917490fe0d587044705ec2dc1)）
+- 新增“超级破碎（Polyfragmented）”条目（[3be416c](https://github.com/kuliantnt/plurality_wiki/commit/3be416ccef567df69776fc0e034e211f48e892b2)）
+- 更新冥想与接地条目（[ca49692](https://github.com/kuliantnt/plurality_wiki/commit/ca496924df32b04267a27f8971950250f66cc9b7)，[6bd286f](https://github.com/kuliantnt/plurality_wiki/commit/6bd286f4c746e8248ad68d0480e55a110933fb67)）
+- 更新 T语条目（[f4310e6](https://github.com/kuliantnt/plurality_wiki/commit/f4310e6229fbe1719c96853ba3352a04038880f0)，[d54730c](https://github.com/kuliantnt/plurality_wiki/commit/d54730c99da1b58bc00bf967c5166b679b0635c4)）
+- 新增“头压”条目（[f8e4575](https://github.com/kuliantnt/plurality_wiki/commit/f8e4575a142b94f8ae4fbc0d4303a8ed2a3af9e8)）
+- 更新投射、内投射、外投射条目（[f9dcd31](https://github.com/kuliantnt/plurality_wiki/commit/f9dcd3133cf113f7a469ec429830958eae0a3245)）
+- 扩充核心板块速览内容（[38e74cc](https://github.com/kuliantnt/plurality_wiki/commit/38e74ccc5af53d72607d3a188e81e274746676b1)）
+
+### 🐛 修复（链接/引用/格式）
+
+- 更新“头压”条目并修复 md 文件链接问题（[3b980b5](https://github.com/kuliantnt/plurality_wiki/commit/3b980b5c6fa48eb4b7b758bb3b64172618b2e57e)）
+- 重写 PDF 导出中的词条链接（[4c11d83](https://github.com/kuliantnt/plurality_wiki/commit/4c11d835e7ddfcea3d92f61b9062dafbf7d9d9ac)）
+- 修正贡献指南 URL 错误（[df06f22](https://github.com/kuliantnt/plurality_wiki/commit/df06f221a10bd0d0e9b6a0a2133e663ed071381e)）
+- 调整侧边栏标题与搜索栏顺序（[95dd0e8](https://github.com/kuliantnt/plurality_wiki/commit/95dd0e8411783ed9c6748bf2d3c99778b14f7b55)）
+- 修正“最近更新”页面的词条标题显示（[d5b2aaf](https://github.com/kuliantnt/plurality_wiki/commit/d5b2aafde506c8b33ae3c6639bf13abd2c294694)）
+- 更新“莉莉丝”术语（[d30531b](https://github.com/kuliantnt/plurality_wiki/commit/d30531bcf5a41afa2b7a29bc5a31f4380926de51)）
+
+### 📦 杂务（脚本/CI/批处理）
+
+- 强制更新 last-updated 索引（[2c78f0c](https://github.com/kuliantnt/plurality_wiki/commit/2c78f0ceab0f92726781935c6788216baf5857e6)）
+
+— 由 Git 提交记录自动生成
+
 ## v1.3.1 (2025-10-02)
 
 ### ✨ 新增
