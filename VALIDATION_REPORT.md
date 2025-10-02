@@ -109,5 +109,3 @@
 - [section-placeholder] ## 核心特征 => entries/诊断与临床/Dissociative-Amnesia-DA.md
 - [section-placeholder] ## 鉴别 => entries/诊断与临床/Borderline-Personality-Disorder-BPD.md
 - [section-placeholder] ## 定义 => entries/诊断与临床/Alexithymia.md
-- [section-placeholder] ## 定义 => entries/诊断与临床/Flashback.md
-- [section-placeholder] ## 鉴别 => entries/诊断与临床/Flashback.md
