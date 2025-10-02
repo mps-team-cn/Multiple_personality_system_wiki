@@ -1,9 +1,5 @@
 # 条目体检报告
 
-- [section-placeholder] ## 定义 => entries/系统体验与机制/Headspace-Inner-World.md
-- [section-placeholder] ## 鉴别 => entries/系统体验与机制/Headspace-Inner-World.md
-- [section-placeholder] ## 干预 => entries/系统体验与机制/Headspace-Inner-World.md
-- [section-placeholder] ## 定义 => entries/系统体验与机制/Switch.md
 - [section-placeholder] ## 鉴别 => entries/系统体验与机制/Switch.md
 - [section-placeholder] ## 干预 => entries/系统体验与机制/Switch.md
 - [section-placeholder] ## 定义 => entries/系统体验与机制/Front-Fronting.md
