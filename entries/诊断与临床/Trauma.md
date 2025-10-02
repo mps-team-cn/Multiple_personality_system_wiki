@@ -90,4 +90,3 @@
 2. APA. (2022). *DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders*.
 3. Herman, J. L. (1992). *Trauma and Recovery*.
 4. van der Kolk, B. A. (2014). *The Body Keeps the Score*.
-
