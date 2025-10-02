@@ -38,7 +38,7 @@ DSM-5 与 DSM-5-TR 在文字说明中给出了几个典型的“例子”，帮�
    - 存在多种解离症状，但无法归入某一个确切类别。
 
 [^Brand2021]: Brand, B. L., & Loewenstein, R. J. (2021). Dissociative disorders: An overview of assessment, phenomenology, and treatment. _Journal of Psychiatric Practice_, 27(3), 170–182.
-[^OSDDWiki]: “Other specified dissociative disorder.” _Wikipedia_, 2024 年 5 月更新，https://en.wikipedia.org/wiki/Other_specified_dissociative_disorder。
+[^OSDDWiki]: “Other specified dissociative disorder.” _Wikipedia_, 2024 年 5 月更新，[https://en.wikipedia.org/wiki/Other_specified_dissociative_disorder。](https://en.wikipedia.org/wiki/Other_specified_dissociative_disorder。)
 
 ---
 
@@ -49,13 +49,17 @@ DSM-5 与 DSM-5-TR 在文字说明中给出了几个典型的“例子”，帮�
 - **人格解体 / 现实解体障碍**：核心是与自我或现实脱节，而非身份混乱。
 
 ## 定义
+
 （待补充）
 
 ## 核心特征
+
 （待补充）
 
 ## 干预
+
 （待补充）
 
 ## 参考
+
 （待补充）

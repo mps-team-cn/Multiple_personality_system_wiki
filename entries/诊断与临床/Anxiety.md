@@ -53,6 +53,6 @@ _如果持续的焦虑感影响到睡眠、饮食或日常功能，请尽快寻�
 ## 参考资料
 
 [^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
-[^who2023]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Anxiety or fear-related disorders (6B00–6B05).* https://icd.who.int/en
-[^nimh2024]: National Institute of Mental Health. (2024, March 12). *Anxiety Disorders.* https://www.nimh.nih.gov/health/topics/anxiety-disorders
-[^nice2022]: National Institute for Health and Care Excellence. (2022). *Generalised anxiety disorder and panic disorder in adults: management (CG113, updated).* https://www.nice.org.uk/guidance/cg113
+[^who2023]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Anxiety or fear-related disorders (6B00–6B05).* [https://icd.who.int/en](https://icd.who.int/en)
+[^nimh2024]: National Institute of Mental Health. (2024, March 12). *Anxiety Disorders.* [https://www.nimh.nih.gov/health/topics/anxiety-disorders](https://www.nimh.nih.gov/health/topics/anxiety-disorders)
+[^nice2022]: National Institute for Health and Care Excellence. (2022). *Generalised anxiety disorder and panic disorder in adults: management (CG113, updated).* [https://www.nice.org.uk/guidance/cg113](https://www.nice.org.uk/guidance/cg113)

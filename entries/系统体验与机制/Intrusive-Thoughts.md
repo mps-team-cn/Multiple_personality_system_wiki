@@ -71,9 +71,10 @@ _如有触发风险，请在安全情境下阅读。_
 - [应激反应](entries/系统体验与机制/Stress-Response.md)
 - [接地](entries/实践与支持/Grounding.md)
 
-
 ## 核心特征
+
 （待补充）
 
 ## 参考
+
 （待补充）

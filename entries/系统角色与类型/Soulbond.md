@@ -27,15 +27,18 @@
 
 ## 参考与延伸阅读
 
-[^soulbondwiki]: Soulbonding Wiki. 2021. “Soulbond.” https://soulbonding.fandom.com/wiki/Soulbond.
-[^soulbonding101]: L. C. 2019. “Soulbonding 101: A Primer for Writers and Systems.” *Soulbonding.org*. https://soulbonding.org/primer.
-[^alterhuman-wiki]: Alterhuman Wiki. 2022. “Alterhuman.” https://alterhuman.org/wiki/alterhuman.
+[^soulbondwiki]: Soulbonding Wiki. 2021. “Soulbond.” [https://soulbonding.fandom.com/wiki/Soulbond.](https://soulbonding.fandom.com/wiki/Soulbond.)
+[^soulbonding101]: L. C. 2019. “Soulbonding 101: A Primer for Writers and Systems.” *Soulbonding.org*. [https://soulbonding.org/primer.](https://soulbonding.org/primer.)
+[^alterhuman-wiki]: Alterhuman Wiki. 2022. “Alterhuman.” [https://alterhuman.org/wiki/alterhuman.](https://alterhuman.org/wiki/alterhuman.)
 
 ## 定义
+
 （待补充）
 
 ## 鉴别
+
 （待补充）
 
 ## 干预
+
 （待补充）

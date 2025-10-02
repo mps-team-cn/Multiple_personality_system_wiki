@@ -40,7 +40,9 @@
 [^冥想-4]: Schmalzl, L., Powers, C., & Henje Blom, E. (2015). Neurophysiological and neurocognitive mechanisms underlying the effects of yoga-based practices: towards a comprehensive theoretical framework. *Frontiers in Human Neuroscience, 9*, 235.
 
 ## 核心特征
+
 （待补充）
 
 ## 鉴别
+
 （待补充）

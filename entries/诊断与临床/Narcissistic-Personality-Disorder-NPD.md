@@ -52,4 +52,5 @@ ICD-11 将人格障碍划分为单一诊断并通过严重程度与特质修饰�
 3. "Narcissistic personality disorder" — Wikipedia, the free encyclopedia. Accessed 2024.
 
 ## 鉴别
+
 （待补充）

@@ -28,4 +28,5 @@
 - Steele, K., Boon, S., & van der Hart, O. (2017). *Treating trauma-related dissociation: A practical, integrative approach*. W. W. Norton.
 
 ## 核心特征
+
 （待补充）

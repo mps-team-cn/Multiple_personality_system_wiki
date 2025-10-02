@@ -32,10 +32,13 @@
 [^brown2020]: Brown, R., & Cardeña, E. 2020. “Functional Multiplicity and Role Negotiation in Plural Communities.” *Journal of Trauma & Dissociation* 21(5): 542–560.
 
 ## 定义
+
 （待补充）
 
 ## 鉴别
+
 （待补充）
 
 ## 干预
+
 （待补充）

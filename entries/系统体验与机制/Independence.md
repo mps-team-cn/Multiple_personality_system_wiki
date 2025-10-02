@@ -37,10 +37,13 @@
 [Wikipedia: Dissociative identity disorder](https://en.wikipedia.org/wiki/Dissociative_identity_disorder)
 
 ## 定义
+
 （待补充）
 
 ## 鉴别
+
 （待补充）
 
 ## 干预
+
 （待补充）

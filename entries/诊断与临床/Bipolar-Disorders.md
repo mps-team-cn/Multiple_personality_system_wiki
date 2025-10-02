@@ -66,6 +66,6 @@ ICD-11 将双相及相关障碍编入 6A6X 系列，其中 6A61 双相Ⅰ型障�
 ## 参考资料
 
 [^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
-[^who2023c]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Bipolar or related disorders (6A60–6A6Z).* https://icd.who.int/en
-[^nimh2024b]: National Institute of Mental Health. (2024, May 10). *Bipolar Disorder.* https://www.nimh.nih.gov/health/topics/bipolar-disorder
+[^who2023c]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Bipolar or related disorders (6A60–6A6Z).* [https://icd.who.int/en](https://icd.who.int/en)
+[^nimh2024b]: National Institute of Mental Health. (2024, May 10). *Bipolar Disorder.* [https://www.nimh.nih.gov/health/topics/bipolar-disorder](https://www.nimh.nih.gov/health/topics/bipolar-disorder)
 [^canmat2021]: Yatham, L. N., et al. (2021). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders 2021 guidelines for the management of patients with bipolar disorder. *Bipolar Disorders, 23*(9), 724–756.

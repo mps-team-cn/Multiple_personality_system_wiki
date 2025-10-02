@@ -30,10 +30,13 @@
 [^brand2014]: Brand, B. L., & Loewenstein, R. J. (2014). Dissociative disorders: An overview of assessment, phenomenology, and treatment. *Psychiatric Times*, 31(1), 48–53.
 
 ## 定义
+
 （待补充）
 
 ## 鉴别
+
 （待补充）
 
 ## 干预
+
 （待补充）

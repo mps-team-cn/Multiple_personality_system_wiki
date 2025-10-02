@@ -38,10 +38,13 @@ Memory Shielding、Amnesiacflux、屏蔽记忆
 [Pluralpedia: Amnesiacflux](https://pluralpedia.org/w/Amnesiacflux)
 
 ## 定义
+
 （待补充）
 
 ## 鉴别
+
 （待补充）
 
 ## 干预
+
 （待补充）

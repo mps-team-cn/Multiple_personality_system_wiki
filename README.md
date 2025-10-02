@@ -1,17 +1,17 @@
 # Plurality Wiki
 
-> 多重意识体系统与相关心理健康主题的中文知识库与开源协作项目。  
+> 多重意识体系统与相关心理健康主题的中文知识库与开源协作项目。
 > 在线版（GitHub Pages）：<https://kuliantnt.github.io/plurality_wiki/#/>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Docs status](https://img.shields.io/badge/Wiki-active-brightgreen.svg)](#)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](#贡献)
+[![Docs status](https://img.shields.io/...)](https://kuliantnt.github.io/plurality_wiki/#/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](CONTRIBUTING.md)
 [![Stars](https://img.shields.io/github/stars/kuliantnt/plurality_wiki?style=social)](https://github.com/kuliantnt/plurality_wiki/stargazers)
 [![Build](https://github.com/kuliantnt/plurality_wiki/actions/workflows/ci.yml/badge.svg)](https://github.com/kuliantnt/plurality_wiki/actions)
 
 ---
 
-📖 **提示**：如果你是普通读者，请查看 [Main_Page.md](./Main_Page.md)，这是面向公众的首页介绍；  
+📖 **提示**：如果你是普通读者，请查看 [Main_Page.md](./Main_Page.md)，这是面向公众的首页介绍；
 本文档主要面向开发者、贡献者与维护者。
 
 ---
@@ -56,10 +56,14 @@ plurality_wiki/
 ### 方式 A：任意静态服务器
 
 ```bash
+
 # 例如使用 Python 简单服务器
+
 cd plurality_wiki
 python -m http.server 4173
+
 # 浏览器打开 http://localhost:4173
+
 ```
 
 ### 方式 B：docsify 本地预览
@@ -67,15 +71,21 @@ python -m http.server 4173
 ```bash
 npm i -g docsify-cli
 docsify serve .
+
 # 浏览器打开提示的本地地址
+
 ```
 
 > ⚠️ **npm 权限受限？** 可改用指定 registry：
 
 ```bash
+
 # 官方源（默认）
+
 npx --yes --registry=https://registry.npmjs.org docsify-cli@latest serve . --port 4173
+
 # 或使用 npmmirror 镜像
+
 npx --yes --registry=https://registry.npmmirror.com docsify-cli@latest serve . --port 4173
 ```
 
@@ -111,18 +121,23 @@ python tools/docs_preview.py --port 4173
 
 ```shell
 python tools/check_links.py
+
 ```
 
 ### 更新日志脚本
 
 ```shell
+
 # 1) 生成完整 CHANGELOG（从最早 tag 到最新 tag，每段 = PREV..CUR）
+
 python tools/gen_changelog_by_tags.py
 
 # 2) 只生成最近一段（上一个 tag..最新 tag），适合每次发版后更新
+
 python tools/gen_changelog_by_tags.py --latest-only --output changelog_temp.md
 
 # 3) 指定输出位置（默认仓库根目录）
+
 python tools/gen_changelog_by_tags.py --output changelog.md
 ```
 

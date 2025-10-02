@@ -30,10 +30,13 @@
 [^brown2018]: Brown, N. (2018). Using inner worlds in trauma therapy: A practical guide. *Clinical Plurality Journal*, 1(2), 15–27.
 
 ## 定义
+
 （待补充）
 
 ## 鉴别
+
 （待补充）
 
 ## 干预
+
 （待补充）

@@ -4,10 +4,6 @@
 
 Median 体验、半多意识体、半分离系统
 
-## 同义词
-
-Median 体验、半多意识体、半分离系统
-
 ## 定义
 
 **偏重**是多意识体社群中用来描述介于单一自我与多自我之间的一组体验：系统中的身份或角色具有相对稳定的情绪与行为模式，但在自我认同、记忆与身体控制上仍存在高度重叠，难以完全分离[^偏重-1]。
@@ -32,8 +28,9 @@ Median 体验、半多意识体、半分离系统
 
 ## 参考资料
 
-[^偏重-1]: The Plural Association. (2020). *Median plurality: Experiences between singlet and multiple*. https://www.thepluralassociation.org/
+[^偏重-1]: The Plural Association. (2020). *Median plurality: Experiences between singlet and multiple*. [https://www.thepluralassociation.org/](https://www.thepluralassociation.org/)
 [^偏重-2]: Howell, E. F. (2011). *Understanding and Treating Dissociative Identity Disorder: A Relational Approach*. Routledge.
 
 ## 鉴别
+
 （待补充）

@@ -27,15 +27,18 @@
 
 ## 参考与延伸阅读
 
-[^pluralpedia-fragment]: Pluralpedia. 2022. “Fragment.” https://pluralpedia.org/w/Fragment.
+[^pluralpedia-fragment]: Pluralpedia. 2022. “Fragment.” [https://pluralpedia.org/w/Fragment.](https://pluralpedia.org/w/Fragment.)
 [^van-der-hart2006]: van der Hart, O., Nijenhuis, E. R. S., & Steele, K. 2006. *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.
 [^lanius2010]: Lanius, R. A., et al. 2010. “Emotion Modulation in PTSD: Clinical and Neurobiological Evidence for a Dissociative Subtype.” *American Journal of Psychiatry* 167(6): 640–647.
 
 ## 定义
+
 （待补充）
 
 ## 鉴别
+
 （待补充）
 
 ## 干预
+
 （待补充）

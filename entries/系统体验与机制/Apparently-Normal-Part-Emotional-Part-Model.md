@@ -45,10 +45,13 @@
 [^ANP-4]: Dalenberg, C. J., Brand, B. L., Gleaves, D. H., et al. (2012). Evaluation of the evidence for the trauma and fantasy models of dissociation. *Psychological Bulletin*, 138(3), 550–588.
 
 ## 核心特征
+
 （待补充）
 
 ## 鉴别
+
 （待补充）
 
 ## 干预
+
 （待补充）

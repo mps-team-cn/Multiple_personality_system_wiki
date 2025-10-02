@@ -39,10 +39,13 @@
 [^意识修改-1]: Dell, P. F., & O'Neil, J. A. (Eds.). (2009). *Dissociation and the Dissociative Disorders: DSM-V and Beyond*. Routledge.
 
 ## 核心特征
+
 （待补充）
 
 ## 鉴别
+
 （待补充）
 
 ## 干预
+
 （待补充）

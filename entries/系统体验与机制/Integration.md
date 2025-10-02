@@ -39,12 +39,14 @@ Integration，融合，最终融合（Final Fusion）
 
 ## 参考资料
 
-[^整合-1]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision*. https://www.isst-d.org/wp-content/uploads/2019/02/ISSTD-Guidelines-Adult-DID-Treatment-2011.pdf
-[^整合-2]: Structural dissociation. (2024). *Wikipedia*. https://en.wikipedia.org/wiki/Structural_dissociation
-[^整合-3]: Dissociative identity disorder. (2024). *Wikipedia*. https://en.wikipedia.org/wiki/Dissociative_identity_disorder
+[^整合-1]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision*. [https://www.isst-d.org/wp-content/uploads/2019/02/ISSTD-Guidelines-Adult-DID-Treatment-2011.pdf](https://www.isst-d.org/wp-content/uploads/2019/02/ISSTD-Guidelines-Adult-DID-Treatment-2011.pdf)
+[^整合-2]: Structural dissociation. (2024). *Wikipedia*. [https://en.wikipedia.org/wiki/Structural_dissociation](https://en.wikipedia.org/wiki/Structural_dissociation)
+[^整合-3]: Dissociative identity disorder. (2024). *Wikipedia*. [https://en.wikipedia.org/wiki/Dissociative_identity_disorder](https://en.wikipedia.org/wiki/Dissociative_identity_disorder)
 
 ## 核心特征
+
 （待补充）
 
 ## 鉴别
+
 （待补充）
