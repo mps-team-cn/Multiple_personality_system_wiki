@@ -637,10 +637,50 @@ button, .cover .buttons a{
 }
 
 .main-footer{
-  margin: 2.5rem 0 1.5rem;
+  margin: 4rem 0 0;
+  padding: 36px 24px 44px;
+  background: color-mix(in oklab, var(--c-card) 94%, rgba(79,192,141,.1));
+  border-top: 1px solid color-mix(in oklab, var(--c-muted) 45%, transparent);
+}
+
+.main-footer__inner{
+  max-width: 880px;
+  margin: 0 auto;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   color: var(--c-muted);
   font-size: .95rem;
+}
+
+.main-footer__meta{
+  font-weight: 600;
+  color: var(--c-text);
+  letter-spacing: .02em;
+}
+
+.main-footer__thanks{
+  line-height: 1.6;
+}
+
+:root.dark .main-footer{
+  background: color-mix(in oklab, rgba(30,37,50,.92) 82%, var(--c-brand) 18%);
+  border-color: color-mix(in oklab, rgba(79,192,141,.5) 60%, transparent);
+}
+
+:root.dark .main-footer__inner{
+  color: color-mix(in oklab, var(--c-muted) 85%, rgba(240,246,255,.8));
+}
+
+:root.dark .main-footer__meta{
+  color: color-mix(in oklab, var(--c-brand) 68%, rgba(240,246,255,.92));
+}
+
+@media (max-width: 600px){
+  .main-footer{
+    padding: 28px 20px 36px;
+  }
 }
 
 @media (max-width: 600px){
