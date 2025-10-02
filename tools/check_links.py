@@ -36,7 +36,7 @@ ANCHOR_ALLOW_PREFIX = ("#", "#/")  # 允许 #xxx 和 #/xxx 两种
 # 根目录下允许直接链接的站点文件（不强制 entries/ 前缀）
 ROOT_WHITELIST = {
     "README.md",
-    "README_wiki.md",
+    "Main_Page.md",
     "index.md",
     "Glossary.md",
     "CONTRIBUTING.md",
@@ -128,7 +128,7 @@ def check_file(md_path: Path, repo_root: Path, whitelist_extra: List[str]) -> Li
 def main():
     parser = argparse.ArgumentParser(description="检查 Markdown 内部链接是否为 entries/.../*.md 完整路径")
     parser.add_argument("--root", default=".", help="仓库根目录，默认 .")
-    parser.add_argument("--whitelist", nargs="*", default=[], help="额外允许直链的根文件（例如 README_wiki.md）")
+    parser.add_argument("--whitelist", nargs="*", default=[], help="额外允许直链的根文件（例如 Main_Page.md）")
     args = parser.parse_args()
 
     repo_root = Path(args.root).resolve()

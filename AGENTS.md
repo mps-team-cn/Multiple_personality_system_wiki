@@ -90,7 +90,7 @@
 ## 6. 路线图（供 Codex 使用）
 
 - [ ] 校验所有词条均位于 `entries/` 目录
-- [ ] 校验 `index.md` 与 `README_wiki.md` 是否同步更新
+- [ ] 校验 `index.md` 与 `Main_Page.md` 是否同步更新
 - [ ] 自动检查 `.nojekyll` 是否存在
 - [ ] PDF 导出脚本异常捕获与测试增强
 - [ ] 集成 CI：提交时自动检查路径、Python 语法、Docsify 渲染

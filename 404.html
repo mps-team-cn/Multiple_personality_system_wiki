@@ -69,14 +69,14 @@
           baseSegments.length > 0 ? `/${baseSegments.join("/")}/` : "/";
         const docPath = docSegments.join("/");
         const normalizedBase = basePath.replace(/\/+$/, "/");
-        const docTarget = docPath ? docPath : "README_wiki";
+        const docTarget = docPath ? docPath : "Main_Page";
         const target =
           normalizedBase +
           "#/" +
           docTarget +
           (search || "") +
           (hash || "");
-        const fallbackHome = `${normalizedBase}#/README_wiki`;
+        const fallbackHome = `${normalizedBase}#/Main_Page`;
         const fallbackLink = document.getElementById("fallback");
         fallbackLink.href = docPath ? target : fallbackHome;
         try {

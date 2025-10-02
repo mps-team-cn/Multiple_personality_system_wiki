@@ -11,7 +11,7 @@
 
 ---
 
-📖 **提示**：如果你是普通读者，请查看 [README_wiki.md](./README_wiki.md)，这是面向公众的首页介绍；  
+📖 **提示**：如果你是普通读者，请查看 [Main_Page.md](./Main_Page.md)，这是面向公众的首页介绍；  
 本文档主要面向开发者、贡献者与维护者。
 
 ---
@@ -29,7 +29,7 @@
 ```ini
 plurality_wiki/
 ├─ README.md                # 仓库主页（面向开发者）
-├─ README_wiki.md           # 网页首页（面向公众介绍）
+├─ Main_Page.md           # 网页首页（面向公众介绍）
 ├─ CONTRIBUTING.md          # 贡献指南（面向词条更新者/编辑者）
 ├─ AGENTS.md                # Codex/自动化与人类贡献者的协作约定
 ├─ index.md                 # Wiki 导航/索引（建议“顶部导航+完整索引”双层结构）
