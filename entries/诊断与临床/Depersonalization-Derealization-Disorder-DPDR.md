@@ -2,7 +2,7 @@
 
 **警告！本词条内容可能含有*[触发]*因素。**
 
-_如有触发风险，请谨慎阅读本词条。_
+*如有触发风险，请谨慎阅读本词条。*
 
 **本词条含有许多与医学、精神医学、心理学以及相关衍生方面的信息。**
 
@@ -10,15 +10,21 @@ _仅供参考，**不能**替代专业医师的诊断和治疗方案。如果有
 
 ## 同义词
 
-Depersonalization/Derealization Disorder（简称 DPDR）
-
-人格解体障碍、现实解体障碍、人格解离综合征（历史名称）
-
-ICD-11 代码：6B65
+- **定义**：人格解体/现实解体障碍（DPDR）是一类解离性障碍，以持续或反复出现的人格解体（对自我感受、身体或心理过程感到疏离、宛如旁观者）与/或现实解体（外界显得陌生、虚假或如梦）为核心特征。
+- **同义词/别称**：人格解体障碍、现实解体障碍、人格解离综合征（历史名称）。
+- **分类编码**：ICD-11：6B65；DSM-5-TR：解离性障碍章节。
 
 ## 定义
 
 **人格解体/现实解体障碍**是一类以持续或反复出现的**人格解体**（对自我感受、身体或心理过程感到疏离、宛如旁观者）与/或**现实解体**（外界环境显得陌生、虚假或如梦）体验为核心特征的解离性障碍。个体在发作期间的现实检验能力通常保持完整，但症状会引发显著的痛苦或功能损害，且不能用物质、神经系统疾病或其他精神障碍更好地解释。[^dsm5]
+
+## 核心特征（总结）
+
+- **主要体验**：人格解体（自我疏离感）、现实解体（世界不真实感），但现实检验能力通常保留。
+- **伴随症状**：情绪麻木、感官扭曲、存在危机感。
+- **病程特点**：起病多见于青少年或成年早期，呈慢性波动或急性后缓解。
+- **风险相关**：创伤史、焦虑障碍、抑郁障碍、物质使用。
+- **功能影响**：学习、注意、社交显著受损，部分患者有自伤风险。
 
 ## DSM-5-TR 诊断标准
 
@@ -93,7 +99,3 @@ E. 症状不能被其他精神障碍更好地解释，如精神分裂谱系障�
 [^sierra2011]: Sierra, M., & David, A. S. (2011). Depersonalization: A selective impairment of self-awareness. *Consciousness and Cognition*, 20(1), 99–108. [https://doi.org/10.1016/j.concog.2010.10.018](https://doi.org/10.1016/j.concog.2010.10.018)
 [^sierra2012]: Sierra, M. (2012). Depersonalization disorder: Pharmacological approaches. *Expert Review of Neurotherapeutics*, 12(2), 205–214. [https://doi.org/10.1586/ern.11.200](https://doi.org/10.1586/ern.11.200)
 [^michal]: Michal, M., Pfaltz, M. C., Koschorke, P., Schächinger, H., & Schillings, G. (2016). A systematic review of the evidence for psychological treatments in depersonalisation-derealisation disorder. *European Journal of Psychotraumatology*, 7, 31890. [https://doi.org/10.3402/ejpt.v7.31890](https://doi.org/10.3402/ejpt.v7.31890)
-
-## 核心特征
-
-（待补充）
