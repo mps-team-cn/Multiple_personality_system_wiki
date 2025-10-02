@@ -35,10 +35,40 @@
 
 ## 🔎 快速入口
 
-- [目录索引](index.md)：按主题浏览全部词条，适合系统化查阅。  
-- [术语表（Glossary）](Glossary.md)：快速确认术语定义，保持沟通一致。  
-- [更新日志](changelog.md)：追踪近期内容迭代与重要公告。  
-- [贡献指南](CONTRIBUTING.md)：了解如何参与、提交或改进条目。  
+<div class="quick-links-grid">
+  <a class="quick-link-card" href="index.md">
+    <div class="quick-link-icon">🧭</div>
+    <div class="quick-link-body">
+      <h3>目录索引</h3>
+      <p>按主题浏览全部词条，适合系统化查阅。</p>
+    </div>
+    <span class="quick-link-arrow">开始探索 →</span>
+  </a>
+  <a class="quick-link-card" href="Glossary.md">
+    <div class="quick-link-icon">📖</div>
+    <div class="quick-link-body">
+      <h3>术语表（Glossary）</h3>
+      <p>快速确认术语定义，保持沟通一致。</p>
+    </div>
+    <span class="quick-link-arrow">查阅术语 →</span>
+  </a>
+  <a class="quick-link-card" href="changelog.md">
+    <div class="quick-link-icon">🗞️</div>
+    <div class="quick-link-body">
+      <h3>更新日志</h3>
+      <p>追踪近期内容迭代与重要公告。</p>
+    </div>
+    <span class="quick-link-arrow">查看动态 →</span>
+  </a>
+  <a class="quick-link-card" href="CONTRIBUTING.md">
+    <div class="quick-link-icon">🛠️</div>
+    <div class="quick-link-body">
+      <h3>贡献指南</h3>
+      <p>了解如何参与、提交或改进条目。</p>
+    </div>
+    <span class="quick-link-arrow">加入贡献 →</span>
+  </a>
+</div>
 
 ---
 
