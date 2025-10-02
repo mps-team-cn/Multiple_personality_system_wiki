@@ -17,7 +17,8 @@ cd tools/pdf_export && python -m pdf_export
 3. 生成独立的封面页与目录页（目录中的词条名称可直接点击跳转至对应内容）；
 4. 在合并内容前，会优先插入项目根目录下的 `Preface.md`（若存在且未被忽略），以确保 PDF 以《前言》开篇；
 5. 收集 README 或后备目录中列出的 Markdown 文件并按顺序合并，同时在 PDF 中为每个 Markdown 文件单独开启新页面，并在 PDF 大纲中按分类组织；在合并过程中会自动移除词条自身的一级标题，避免 PDF 中出现重复标题；
-6. 调用 [Pandoc](https://pandoc.org/) 生成排好版的 `plurality_wiki.pdf`。
+6. 如果 `assets/last-updated.json` 存在，则会读取索引并在每篇词条标题下插入“🕒 最后更新：2025/10/02 12:34:56（abc1234）”提示，使离线 PDF 与线上页面保持一致；
+7. 调用 [Pandoc](https://pandoc.org/) 生成排好版的 `plurality_wiki.pdf`。
 
 运行脚本前，请确保：
 

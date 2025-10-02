@@ -4,8 +4,10 @@ from __future__ import annotations
 
 import hashlib
 import re
+from collections.abc import Mapping
 from pathlib import Path
 
+from .last_updated import LastUpdatedInfo, render_last_updated_text
 from .models import CategoryStructure
 from .paths import PROJECT_ROOT, README_PATH
 
@@ -190,6 +192,7 @@ def build_combined_markdown(
     cover_footer: str | None,
     cover_online_link_label: str | None,
     cover_online_link_url: str | None,
+    last_updated_map: Mapping[str, LastUpdatedInfo] | None = None,
 ) -> str:
     """将所有 Markdown 文件拼接为单一字符串供 Pandoc 使用。"""
 
@@ -237,6 +240,11 @@ def build_combined_markdown(
             shifted = shift_heading_levels(body, offset=2).strip()
 
             parts.append(f"## {entry_title} {{#{anchor}}}\n\n")
+            if last_updated_map:
+                repo_path = relative.as_posix()
+                last_updated_text = render_last_updated_text(repo_path, last_updated_map)
+                if last_updated_text:
+                    parts.append(f"{last_updated_text}\n\n")
             if shifted:
                 parts.append(shifted)
                 parts.append("\n\n")
