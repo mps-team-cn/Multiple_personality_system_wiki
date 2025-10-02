@@ -7,9 +7,34 @@ import re
 from collections.abc import Mapping
 from pathlib import Path
 
+from .paths import PROJECT_ROOT, README_PATH
+
+# Markdown 中指向词条的常见链接格式：
+# - 行内链接 [描述](entries/路径/词条.md)
+# - 引用式链接 [ref]: entries/路径/词条.md
+# - 角括号自动链接 <entries/路径/词条.md>
+#
+# PDF 导出时会将所有词条合并为单一文档，因此需要将这些链接
+# 统一重写为指向合并文档内部锚点的形式。正则表达式仅捕获链接
+# 的前缀/目标/后缀部分，便于在替换时保留原有排版细节。
+ENTRY_INLINE_LINK_PATTERN = re.compile(
+    r"(?P<prefix>\[[^\]]+\]\()(?P<target>(?:\./|\.\./|)entries/[^)#\s]+?\.md)"
+    r"(?P<fragment>#[^)\s]*)?(?P<suffix>\))"
+)
+
+ENTRY_REFERENCE_LINK_PATTERN = re.compile(
+    r"(?P<prefix>^\s*\[[^\]]+\]:\s*)(?P<target>(?:\./|\.\./|)entries/[^#\s]+?\.md)"
+    r"(?P<fragment>#[^\s]*)?(?P<suffix>\s*$)",
+    re.MULTILINE,
+)
+
+ENTRY_ANGLE_LINK_PATTERN = re.compile(
+    r"(?P<prefix><)(?P<target>(?:\./|\.\./|)entries/[^>#\s]+?\.md)"
+    r"(?P<fragment>#[^>\s]*)?(?P<suffix>>)",
+)
+
 from .last_updated import LastUpdatedInfo, render_last_updated_text
 from .models import CategoryStructure
-from .paths import PROJECT_ROOT, README_PATH
 
 
 LATEX_SPECIAL_CHARS = {
@@ -69,6 +94,59 @@ def build_entry_anchor(path: Path) -> str:
     relative = path.relative_to(PROJECT_ROOT)
     digest = hashlib.sha1(relative.as_posix().encode("utf-8")).hexdigest()[:10]
     return f"entry-{digest}"
+
+
+def _build_anchor_lookup(structure: CategoryStructure) -> dict[Path, str]:
+    """为所有导出条目生成“绝对路径 → 锚点”映射。"""
+
+    lookup: dict[Path, str] = {}
+    for _, paths in structure:
+        for path in paths:
+            lookup[path.resolve()] = build_entry_anchor(path)
+    return lookup
+
+
+def _resolve_entry_target(target: str, lookup: Mapping[Path, str]) -> str | None:
+    """根据 ``target`` 查找对应的合并文档锚点。"""
+
+    stripped = target.strip()
+    if not stripped:
+        return None
+    index = stripped.find("entries/")
+    if index == -1:
+        return None
+
+    candidate = Path(stripped[index:])
+    if candidate.is_absolute():
+        return None
+
+    try:
+        resolved = (PROJECT_ROOT / candidate).resolve()
+    except OSError:
+        return None
+
+    anchor = lookup.get(resolved)
+    if not anchor:
+        return None
+
+    return f"#{anchor}"
+
+
+def rewrite_entry_links(markdown: str, lookup: Mapping[Path, str]) -> str:
+    """将 Markdown 中的词条链接重写为 PDF 内部锚点。"""
+
+    def _replace(match: re.Match[str]) -> str:
+        target = match.group("target")
+        resolved = _resolve_entry_target(target, lookup)
+        if not resolved:
+            return match.group(0)
+        # PDF 合并后仅能跳转到词条起始位置，忽略原有局部锚点。
+        return f"{match.group('prefix')}{resolved}{match.group('suffix')}"
+
+    updated = ENTRY_INLINE_LINK_PATTERN.sub(_replace, markdown)
+    updated = ENTRY_REFERENCE_LINK_PATTERN.sub(_replace, updated)
+    updated = ENTRY_ANGLE_LINK_PATTERN.sub(_replace, updated)
+    return updated
 
 
 def strip_primary_heading(content: str, title: str) -> str:
@@ -197,6 +275,7 @@ def build_combined_markdown(
     """将所有 Markdown 文件拼接为单一字符串供 Pandoc 使用。"""
 
     parts: list[str] = []
+    anchor_lookup = _build_anchor_lookup(structure)
 
     if include_cover:
         parts.append(
@@ -233,10 +312,11 @@ def build_combined_markdown(
                 parts.append("\n\\newpage\n")
 
             entry_title = infer_entry_title(path)
-            anchor = build_entry_anchor(path)
+            anchor = anchor_lookup.get(path.resolve(), build_entry_anchor(path))
             relative = path.relative_to(PROJECT_ROOT)
             content = path.read_text(encoding="utf-8")
-            body = strip_primary_heading(content, entry_title)
+            rewritten = rewrite_entry_links(content, anchor_lookup)
+            body = strip_primary_heading(rewritten, entry_title)
             shifted = shift_heading_levels(body, offset=2).strip()
 
             parts.append(f"## {entry_title} {{#{anchor}}}\n\n")
