@@ -81,6 +81,35 @@ html, body{
   border-bottom: 1px solid var(--c-divider);
 }
 
+.app-nav ul li ul{
+  background: var(--c-card);
+  border-radius: 14px;
+  border: 1px solid color-mix(in oklab, var(--c-muted) 22%, transparent);
+  box-shadow: var(--shadow);
+  padding: 8px 0;
+}
+
+.app-nav ul li ul li a{
+  color: var(--c-text);
+  padding: 8px 20px;
+}
+
+.app-nav ul li ul li a:hover{
+  background: color-mix(in oklab, var(--c-brand) 14%, transparent);
+  color: var(--c-text);
+}
+
+:root.dark .app-nav ul li ul{
+  background: color-mix(in oklab, var(--c-card) 88%, rgba(20,27,35,.45));
+  border: 1px solid color-mix(in oklab, var(--c-muted) 30%, transparent);
+  box-shadow: 0 18px 36px rgba(0, 0, 0, .52);
+}
+
+:root.dark .app-nav ul li ul li a:hover{
+  background: color-mix(in oklab, var(--c-brand) 24%, rgba(20,27,35,.45));
+  color: var(--c-text);
+}
+
 /* 侧边栏与卡片 */
 .sidebar{
   background: var(--c-sidebar);
