@@ -38,12 +38,12 @@ updated: 2025-10-03
 
 - [解离（Dissociation）](/entries/Dissociation.md)
 - [功能性分离（Functional Dissociation）](/entries/Functional-Dissociation.md)
-- [侵入性思维（Intrusive Thoughts）](/entries/Intrusive-Thoughts.md)
-- [成员（Alter）](/entries/Alter.md)
 - [后台（Back / Being Back）](/entries/Back-Being-Back.md)
+- [成员（Alter）](/entries/Alter.md)
+- [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
 - [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
+- [侵入性思维（Intrusive Thoughts）](/entries/Intrusive-Thoughts.md)
 - [权限（Permissions）](/entries/Permissions.md)
-- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
 
 ## 参考资料
 

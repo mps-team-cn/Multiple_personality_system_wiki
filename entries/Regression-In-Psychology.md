@@ -44,12 +44,12 @@ updated: 2025-10-03
 
 - [迭代（Iteration）](/entries/Iteration.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
-- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
-- [权限（Permissions）](/entries/Permissions.md)
-- [融合（Fusion）](/entries/Fusion.md)
-- [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [独立性（Independence）](/entries/Independence.md)
 
 ## 参考文献
 

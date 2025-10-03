@@ -53,10 +53,10 @@ updated: 2025-10-03
 - [解离（Dissociation）](/entries/Dissociation.md)
 - [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
 - [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
-- [侵入性思维（Intrusive Thoughts）](/entries/Intrusive-Thoughts.md)
-- [权限（Permissions）](/entries/Permissions.md)
-- [重构（Reconstruction）](/entries/Reconstruction.md)
+- [成员（Alter）](/entries/Alter.md)
 - [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
+- [适应型（Adaptive）](/entries/Adaptive.md)
+- [独立性（Independence）](/entries/Independence.md)
 - [迭代（Iteration）](/entries/Iteration.md)
 
 ## 参考资料

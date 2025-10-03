@@ -74,10 +74,10 @@ DSM-5 与 DSM-5-TR 在文字说明中给出了几个典型的“例子”，帮�
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
 - [解离（Dissociation）](/entries/Dissociation.md)
 - [系统（System）](/entries/System.md)
-- [混合（Blending）](/entries/Blending.md)
-- [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](/entries/Partial-Dissociative-Identity-Disorder-PDID.md)
 - [多意识体（Plurality）](/entries/Plurality.md)
 - [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](/entries/Partial-Dissociative-Identity-Disorder-PDID.md)
+- [混合（Blending）](/entries/Blending.md)
 - [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
 
 ## 参考

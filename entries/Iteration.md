@@ -32,12 +32,12 @@ updated: 2025-10-03
 
 - [重构（Reconstruction）](/entries/Reconstruction.md)
 - [融合（Fusion）](/entries/Fusion.md)
+- [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
 - [整合（Integration）](/entries/Integration.md)
 - [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
-- [解离（Dissociation）](/entries/Dissociation.md)
-- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
-- [封存（Sequestration）](/entries/Sequestration.md)
 - [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 
 ## 参考资料
 

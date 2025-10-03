@@ -32,11 +32,11 @@ updated: 2025-10-03
 - [迭代（Iteration）](/entries/Iteration.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 - [独有记忆（Exomemory）](/entries/Exomemory.md)
-- [融合（Fusion）](/entries/Fusion.md)
-- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
+- [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
-- [解离（Dissociation）](/entries/Dissociation.md)
-- [独立性（Independence）](/entries/Independence.md)
+- [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
+- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
+- [融合（Fusion）](/entries/Fusion.md)
 
 ## 参考资料
 

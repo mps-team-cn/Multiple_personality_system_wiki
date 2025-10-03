@@ -33,8 +33,8 @@ updated: 2025-10-03
 - [前台（Front / Fronting）](/entries/Front-Fronting.md)
 - [管理者（Admin）](/entries/Admin.md)
 - [特殊认同（Alterhuman）](/entries/Alterhuman.md)
-- [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
 - [T 语（Tulpish）](/entries/Tulpish.md)
+- [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
 - [权限（Permissions）](/entries/Permissions.md)
 
 ## 参考与延伸阅读

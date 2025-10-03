@@ -1,16 +1,6 @@
 ---
 title: 共前台（Co-fronting）
-tags:
-  [
-    定义与同义词,
-    共前台,
-    部分社群用法,
-    主要特征,
-    社群与临床语境,
-    常见误区,
-    系统体验与机制,
-    实务建议,
-  ]
+tags: [定义与同义词, 共前台, 部分社群用法, 主要特征, 社群与临床语境, 常见误区, 实务建议, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -54,13 +44,13 @@ updated: 2025-10-03
 ## 相关条目
 
 - [切换（Switch）](/entries/Switch.md)
-- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](/entries/PTSD.md)
-- [偏重（Bias / Median）](/entries/Bias.md)
 - [内部空间（Headspace / Inner World）](/entries/Headspace-Inner-World.md)
 - [系魂型系统（Soul-Linked Systems, Xianyu Theory）](/entries/Soul-Linked-Systems-Xianyu.md)
+- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](/entries/PTSD.md)
 - [家族式系统（Family Systems, Xianyu Theory）](/entries/Family-Systems-Xianyu.md)
 - [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](/entries/Xianyu-Theory-Niche-Classification.md)
 - [单一类系统（Single-Class Systems, Xianyu Theory）](/entries/Single-Class-Systems-Xianyu.md)
+- [偏重（Bias / Median）](/entries/Bias.md)
 
 ## 参考与延伸阅读
 

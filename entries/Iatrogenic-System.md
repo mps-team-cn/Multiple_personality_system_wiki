@@ -29,8 +29,8 @@ updated: 2025-10-03
 
 - [主体（Main）](/entries/Main.md)
 - [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
-- [核心（Core）](/entries/Core.md)
 - [碎片（Fragment）](/entries/Fragment.md)
+- [核心（Core）](/entries/Core.md)
 - [守门人（Gatekeeper）](/entries/Gatekeeper.md)
 - [伪主体（Fauxmain）](/entries/Fauxmain.md)
 - [管理者（Admin）](/entries/Admin.md)

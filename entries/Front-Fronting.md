@@ -32,9 +32,9 @@ updated: 2025-10-03
 - [后台（Back / Being Back）](/entries/Back-Being-Back.md)
 - [外投射（External Projection）](/entries/External-Projection.md)
 - [权限（Permissions）](/entries/Permissions.md)
+- [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
 - [T 语（Tulpish）](/entries/Tulpish.md)
 - [共前台（Co-fronting）](/entries/Co-Fronting.md)
-- [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
 - [切换（Switch）](/entries/Switch.md)
 
 ## 参考与延伸阅读

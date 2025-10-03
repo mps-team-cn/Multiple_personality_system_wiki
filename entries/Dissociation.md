@@ -21,9 +21,9 @@ updated: 2025-10-03
 
 - [功能性分离（Functional Dissociation）](/entries/Functional-Dissociation.md)
 - [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [多意识体（Plurality）](/entries/Plurality.md)
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
-- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
 - [其他特定解离性障碍（OSDD）](/entries/OSDD.md)
-- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
 - [适应型（Adaptive）](/entries/Adaptive.md)
-- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](/entries/Fight-Club-1999-Identity-Metaphor.md)
+- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)

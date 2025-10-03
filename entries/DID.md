@@ -112,12 +112,12 @@ DID 的治疗通常遵循分阶段模式：
 
 - [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](/entries/Partial-Dissociative-Identity-Disorder-PDID.md)
 - [其他特定解离性障碍（OSDD）](/entries/OSDD.md)
-- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
 - [解离（Dissociation）](/entries/Dissociation.md)
 - [多意识体（Plurality）](/entries/Plurality.md)
-- [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](/entries/Apparently-Normal-Part-Emotional-Part-Model.md)
 - [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
-- [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
+- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
+- [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](/entries/Apparently-Normal-Part-Emotional-Part-Model.md)
+- [系统（System）](/entries/System.md)
 
 ## 参考与延伸阅读
 

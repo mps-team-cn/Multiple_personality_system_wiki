@@ -49,7 +49,7 @@ updated: 2025-10-03
 - [执行者（Performer / Executive）](/entries/Performer-Executive.md)
 - [照顾者（Caregiver）](/entries/Caregiver.md)
 - [迫害者（Persecutor）](/entries/Persecutor.md)
-- [人格职能（System Roles）](/entries/System-Roles.md)
 - [保护者（Protector）](/entries/Protector.md)
+- [人格职能（System Roles）](/entries/System-Roles.md)
 - [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
 - [初始（Original）](/entries/Original.md)

@@ -1,6 +1,6 @@
 ---
 title: 独有记忆（Exomemory）
-tags: [独有记忆, 现象特征, 记忆建构理论, 记录方式, 系统协商, 潜在功能, 系统体验与机制, 治疗协作]
+tags: [独有记忆, 现象特征, 记忆建构理论, 记录方式, 系统协商, 潜在功能, 治疗协作, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -31,14 +31,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
-- [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
-- [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
-- [多意识体（Plurality）](/entries/Plurality.md)
+- [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
-- [独立性（Independence）](/entries/Independence.md)
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
+- [融合（Fusion）](/entries/Fusion.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 
 ## 参考与延伸阅读
 

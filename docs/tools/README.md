@@ -23,16 +23,21 @@
 ### 🏃 一键执行日常维护
 
 ```bash
+
 # macOS / Linux 默认执行全部步骤
+
 bash tools/run_local_updates.sh
 
 # macOS / Linux 仅跳过 PDF 导出与 markdownlint
+
 bash tools/run_local_updates.sh --skip-pdf --skip-markdownlint
 
 # Windows 等效执行方式
+
 tools\run_local_updates.bat
 
 # Windows 同样可叠加跳过参数
+
 tools\run_local_updates.bat --skip-pdf --skip-markdownlint
 ```
 

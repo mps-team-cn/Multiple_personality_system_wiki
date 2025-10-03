@@ -29,18 +29,18 @@ updated: 2025-10-03
 ## 相关条目
 
 - [成员（Alter）](/entries/Alter.md)
-- [前台（Front / Fronting）](/entries/Front-Fronting.md)
 - [外投射（External Projection）](/entries/External-Projection.md)
 - [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
-- [独立性（Independence）](/entries/Independence.md)
-- [T 语（Tulpish）](/entries/Tulpish.md)
+- [前台（Front / Fronting）](/entries/Front-Fronting.md)
 - [权限（Permissions）](/entries/Permissions.md)
+- [独立性（Independence）](/entries/Independence.md)
 - [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
+- [T 语（Tulpish）](/entries/Tulpish.md)
 
 ## 参考与延伸阅读
 
 [^pluralpedia-back]: Pluralpedia. (2024). [Back](https://pluralpedia.org/w/Back).
-[^stone2021]: Stone, M. (2021). Managing front/back balance in plural systems. *Plural Practice Notes*, 4(1), 8–15.
+[^stone2021]: Stone, M. (2021). Managing front/back balance in plural systems. _Plural Practice Notes_, 4(1), 8–15.
 
 ## 定义
 

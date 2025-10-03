@@ -1,6 +1,6 @@
 ---
 title: 精神分裂症（Schizophrenia，SC）
-tags: [精神分裂症, 药物治疗, 心理社会干预, 康复与支持, 病程与共病, 治疗与支持, 诊断与临床, 诊断要点]
+tags: [精神分裂症, 药物治疗, 心理社会干预, 康复与支持, 病程与共病, 治疗与支持, 诊断要点, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -64,7 +64,7 @@ ICD-11 对精神分裂症的诊断强调以下要点：
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
 - [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
 - [躁狂（Mania）](/entries/Mania.md)
-- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
+- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 
 ## 参考资料
 

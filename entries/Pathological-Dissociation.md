@@ -53,13 +53,13 @@ updated: 2025-10-03
 ## 相关条目
 
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
-- [解离（Dissociation）](/entries/Dissociation.md)
 - [功能性分离（Functional Dissociation）](/entries/Functional-Dissociation.md)
+- [解离（Dissociation）](/entries/Dissociation.md)
 - [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
-- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
 - [成员（Alter）](/entries/Alter.md)
+- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
 - [复杂性创伤后应激障碍（CPTSD）](/entries/CPTSD.md)
-- [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](/entries/Partial-Dissociative-Identity-Disorder-PDID.md)
+- [迫害者（Persecutor）](/entries/Persecutor.md)
 
 ## 参考资料
 

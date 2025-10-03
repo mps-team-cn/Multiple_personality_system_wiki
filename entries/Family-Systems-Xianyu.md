@@ -1,6 +1,6 @@
 ---
 title: 家族式系统（Family Systems, Xianyu Theory）
-tags: [特征, 定义与同义词, 功能定位, 家族化系统, 家庭型系统, 亲属式系统, 系统体验与机制, 家族式系统]
+tags: [特征, 定义与同义词, 功能定位, 家族化系统, 家庭型系统, 亲属式系统, 家族式系统, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -89,9 +89,9 @@ updated: 2025-10-03
 - [系魂型系统（Soul-Linked Systems, Xianyu Theory）](/entries/Soul-Linked-Systems-Xianyu.md)
 - [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](/entries/Xianyu-Theory-Niche-Classification.md)
 - [内部空间（Headspace / Inner World）](/entries/Headspace-Inner-World.md)
+- [系统（System）](/entries/System.md)
 - [共前台（Co-fronting）](/entries/Co-Fronting.md)
 - [切换（Switch）](/entries/Switch.md)
-- [系统（System）](/entries/System.md)
 
 ## 参考与来源
 

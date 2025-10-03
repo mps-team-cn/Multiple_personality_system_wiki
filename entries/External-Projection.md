@@ -28,14 +28,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [前台（Front / Fronting）](/entries/Front-Fronting.md)
 - [后台（Back / Being Back）](/entries/Back-Being-Back.md)
-- [T 语（Tulpish）](/entries/Tulpish.md)
 - [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
-- [成员（Alter）](/entries/Alter.md)
 - [权限（Permissions）](/entries/Permissions.md)
-- [投影（Projection）](/entries/Projection.md)
+- [前台（Front / Fronting）](/entries/Front-Fronting.md)
+- [T 语（Tulpish）](/entries/Tulpish.md)
+- [成员（Alter）](/entries/Alter.md)
 - [适应型（Adaptive）](/entries/Adaptive.md)
+- [独立性（Independence）](/entries/Independence.md)
 
 ## 参考与延伸阅读
 

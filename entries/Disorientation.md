@@ -111,8 +111,8 @@ ICD-11 与 DSM-5-TR 均将定向障碍视为谵妄的重要表现，但 ICD-11 �
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
 - [复杂性创伤后应激障碍（CPTSD）](/entries/CPTSD.md)
 - [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
-- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [闪回（Flashback）](/entries/Flashback.md)
+- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [焦虑（Anxiety）](/entries/Anxiety.md)
 
 ## 参考与延伸阅读

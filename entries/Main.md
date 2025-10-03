@@ -33,7 +33,7 @@ updated: 2025-10-03
 - [伪主体（Fauxmain）](/entries/Fauxmain.md)
 - [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
 - [系魂（Soulbond）](/entries/Soulbond.md)
-- [独立性（Independence）](/entries/Independence.md)
+- [特殊认同（Alterhuman）](/entries/Alterhuman.md)
 - [管理者（Admin）](/entries/Admin.md)
 
 ## 参考与延伸阅读

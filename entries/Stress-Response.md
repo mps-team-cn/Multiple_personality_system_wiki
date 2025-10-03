@@ -1,6 +1,6 @@
 ---
 title: 应激反应（Stress Response）
-tags: [应激反应, 躯体反应, 解离加剧, 成员切换, 情境评估, 外部支持, 系统体验与机制, 复盘学习]
+tags: [应激反应, 躯体反应, 解离加剧, 成员切换, 情境评估, 外部支持, 复盘学习, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -40,12 +40,12 @@ Stress Response、压力反应、战斗或逃跑反应
 ## 相关条目
 
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
+- [迭代（Iteration）](/entries/Iteration.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
+- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
 - [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
-- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
-- [独有记忆（Exomemory）](/entries/Exomemory.md)
-- [多意识体（Plurality）](/entries/Plurality.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
+- [融合（Fusion）](/entries/Fusion.md)
 - [非我感（Depersonalization）](/entries/Depersonalization.md)
 
 ## 参考资料

@@ -27,8 +27,8 @@ updated: 2025-10-03
 ## 相关条目
 
 - [特殊认同（Alterhuman）](/entries/Alterhuman.md)
-- [碎片（Fragment）](/entries/Fragment.md)
 - [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
+- [碎片（Fragment）](/entries/Fragment.md)
 - [人格面具（Persona）](/entries/Persona.md)
 - [系魂（Soulbond）](/entries/Soulbond.md)
 - [主体（Main）](/entries/Main.md)

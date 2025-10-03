@@ -113,8 +113,8 @@ _仅供参考，**不能**替代专业医师的诊断和治疗方案。如果有
 - [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
 - [躯体化障碍（Somatic Symptom Disorder，SSD）](/entries/Somatic-Symptom-Disorder-SSD.md)
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
-- [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
 - [定向障碍（Disorientation）](/entries/Disorientation.md)
+- [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
 
 ## 参考与延伸阅读
 
