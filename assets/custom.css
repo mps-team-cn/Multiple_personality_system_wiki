@@ -78,8 +78,9 @@ html, body{
 .app-nav{
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 16px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding: 12px 24px;
   backdrop-filter: saturate(150%) blur(8px);
   background: color-mix(in oklab, var(--c-bg) 85%, transparent);
@@ -92,10 +93,12 @@ html, body{
   gap: 12px;
   margin: 0;
   padding: 0;
+  flex: 0 0 auto;
 }
 
 .app-nav > ul > li{
   margin: 0;
+  position: relative;
 }
 
 .app-nav ul li ul{
@@ -104,6 +107,10 @@ html, body{
   border: 1px solid color-mix(in oklab, var(--c-muted) 22%, transparent);
   box-shadow: var(--shadow);
   padding: 8px 0;
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  z-index: 40;
 }
 
 .app-nav ul li ul li a{
@@ -166,14 +173,24 @@ html, body{
   margin-left: auto;
   padding: 12px 0;
   border-bottom: none;
-  max-width: min(360px, 100%);
-  width: min(320px, 100%);
+  width: 100%;
+  max-width: 320px;
+  flex: 0 1 320px;
 }
 
 @media (max-width: 768px){
+  .app-nav{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 12px;
+  }
+  .app-nav > ul{
+    width: 100%;
+  }
   .title-search--nav{
     flex: 1 1 100%;
     margin-left: 0;
+    max-width: none;
   }
 }
 .title-search__input{
