@@ -34,7 +34,7 @@
 | [Depersonalization](entries/系统体验与机制/Depersonalization.md)                                  | 非我感         | 描述对自我或身体产生疏离、陌生感的现象。                 |
 | [Depersonalization/Derealization Disorder，DPDR](entries/诊断与临床/Depersonalization-Derealization-Disorder-DPDR.md) | 人格解体/现实解体障碍 | 临床诊断，涵盖非我感与非真实感持续困扰日常功能的情况。          |
 | [Depressive Disorders](entries/诊断与临床/Depressive-Disorders.md)                                | 抑郁障碍        | 泛指以持续情绪低落、兴趣缺失与认知改变为核心的障碍。           |
-| [DID](entries/诊断与临床/DID.md)                                              | 解离性身份障碍     | 一种解离性障碍，特征为身份状态与记忆的显著分离，可能伴随失忆与功能受损。 |
+| [DID](entries/诊断与临床/DID.md)                                              | 解离性身份障碍     | 以多个身份状态轮换控制与解离性失忆为核心的创伤相关解离障碍。             |
 | [Dissociation](entries/系统体验与机制/Dissociation.md)                                        | 解离          | 强调意识、记忆、感受或身份之间产生分离的体验。              |
 | [Dissociative Amnesia](entries/诊断与临床/Dissociative-Amnesia-DA.md)                               | 解离性遗忘       | 指无法回忆重要个人信息的解离症状，常与创伤事件关联。           |
 | [Exomemory](entries/系统体验与机制/Exomemory.md)                                         | 独有记忆        | 仅对特定成员可访问、对其他成员呈现空白的记忆集合。            |
