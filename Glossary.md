@@ -36,6 +36,8 @@
 | [Depressive Disorders](entries/诊断与临床/Depressive-Disorders.md)                                | 抑郁障碍        | 泛指以持续情绪低落、兴趣缺失与认知改变为核心的障碍。           |
 | [DID](entries/诊断与临床/DID.md)                                              | 解离性身份障碍     | 以多个身份状态轮换控制与解离性失忆为核心的创伤相关解离障碍。             |
 | [Dissociation](entries/系统体验与机制/Dissociation.md)                                        | 解离          | 强调意识、记忆、感受或身份之间产生分离的体验。              |
+| [Delirium](entries/诊断与临床/Delirium.md)                                                  | 谵妄          | 急性注意与意识混乱的状态，常伴定向障碍与安全风险，需要及时处理躯体诱因。 |
+| [Disorientation](entries/诊断与临床/Disorientation.md)                                     | 定向障碍        | 指无法辨识时间、地点、人物或自我身份的状态，常提示谵妄或其他认知障碍。 |
 | [Dissociative Amnesia](entries/诊断与临床/Dissociative-Amnesia-DA.md)                               | 解离性遗忘       | 指无法回忆重要个人信息的解离症状，常与创伤事件关联。           |
 | [Exomemory](entries/系统体验与机制/Exomemory.md)                                         | 独有记忆        | 仅对特定成员可访问、对其他成员呈现空白的记忆集合。            |
 | [Projection](entries/系统体验与机制/Projection.md)                                 | 投影          | 将成员的形象、感受或存在感延伸到现实环境的体验，是连接内视与外部互动的桥梁。     |
