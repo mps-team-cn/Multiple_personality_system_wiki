@@ -1,12 +1,10 @@
 {
-  "question": "若 index.md 遗漏词条或包含非 entries/ 链接，导出结构应如何处理？",
+  "question": "是否存在额外的 frontmatter 写法（如多行字符串或显式 null）需要兼容？",
   "analysis": {
-    "index_scope": "当前索引主要列出 entries/ 下的 Markdown 文档，没有外链或目录外资源",
-    "risk": "随着仓库扩展可能出现遗漏条目或非词条链接",
-    "strategy": [
-      "优先根据 index.md 构建排序，忽略无法匹配到 EntryDocument 的链接",
-      "对未在 index 中出现的词条可统一归入 '未索引词条' 或保持原有标签排序作为兜底"
-    ],
-    "recommendation": "实现中保留 fallback，将未匹配词条按标题排序附加在文末"
+    "multi_line": "仓库中 tags 字段已经存在列表形式，证明 PyYAML 可处理复杂结构",
+    "null_case": "若编者误写 updated: 或 updated: null，safe_load 分别得到 '' 与 None，应提示填写有效日期",
+    "string_block": "未发现使用多行块标量表示日期的实例，暂不需要特殊处理",
+    "conclusion": "目前只需确保普通字符串、显式日期对象与带空格的写法得到一致校验"
+
   }
 }
