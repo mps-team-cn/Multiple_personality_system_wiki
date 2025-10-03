@@ -123,11 +123,11 @@
       return;
     }
 
-    const sidebar = document.querySelector(".sidebar");
-    if (!sidebar) return;
+    const nav = document.querySelector(".app-nav");
+    if (!nav) return;
 
     const wrapper = document.createElement("div");
-    wrapper.className = "title-search";
+    wrapper.className = "title-search title-search--nav";
 
     const input = document.createElement("input");
     input.type = "search";
@@ -140,30 +140,7 @@
     wrapper.appendChild(input);
     wrapper.appendChild(results);
 
-    const brandElement = sidebar.querySelector(".app-name, .sidebar-brand");
-    if (brandElement && brandElement.parentNode) {
-      brandElement.parentNode.insertBefore(wrapper, brandElement.nextSibling);
-    } else if (sidebar.firstChild) {
-      sidebar.insertBefore(wrapper, sidebar.firstChild);
-    } else {
-      sidebar.appendChild(wrapper);
-    }
-
-    const stopPropagation = (event) => {
-      event.stopPropagation();
-    };
-
-    const registerLocalInteractionGuards = (element) => {
-      ["pointerdown", "touchstart", "mousedown", "click"].forEach(
-        (type) => {
-          element.addEventListener(type, stopPropagation);
-        }
-      );
-    };
-
-    registerLocalInteractionGuards(wrapper);
-    registerLocalInteractionGuards(input);
-    registerLocalInteractionGuards(results);
+    nav.appendChild(wrapper);
 
     input.addEventListener("focus", () => {
       ensureIndex(latestVM || {});

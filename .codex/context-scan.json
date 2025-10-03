@@ -1,0 +1,16 @@
+{
+  "module": "Docsify 标题搜索组件",
+  "files": [
+    "assets/title-search.js",
+    "assets/custom.css",
+    "index.html"
+  ],
+  "framework": "Docsify 静态站点",
+  "similar_components": [
+    "assets/title-search.js -> ensureSearchElements() 当前将搜索框插入侧边栏",
+    "assets/custom.css -> .title-search 样式定义",
+    "index.html -> Docsify 全局初始化"
+  ],
+  "tests": "项目暂无自动化测试，主要通过本地浏览器预览验证",
+  "observations": "搜索框目前插入在侧边栏顶部，并通过 stopPropagation 阻止点击时收起侧边栏；需要将搜索框移动到顶部导航右侧并移除阻止关闭的逻辑。"
+}

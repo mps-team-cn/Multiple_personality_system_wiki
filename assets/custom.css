@@ -76,9 +76,26 @@ html, body{
 
 /* 顶部导航栏 */
 .app-nav{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 12px 24px;
   backdrop-filter: saturate(150%) blur(8px);
   background: color-mix(in oklab, var(--c-bg) 85%, transparent);
   border-bottom: 1px solid var(--c-divider);
+}
+
+.app-nav > ul{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.app-nav > ul > li{
+  margin: 0;
 }
 
 .app-nav ul li ul{
@@ -141,8 +158,23 @@ html, body{
   box-shadow: 0 10px 28px rgba(79,192,141,.28);
 }
 .title-search{
-  padding: 16px 18px 12px;
-  border-bottom: 1px solid var(--c-divider);
+  position: relative;
+  width: 100%;
+}
+
+.title-search--nav{
+  margin-left: auto;
+  padding: 12px 0;
+  border-bottom: none;
+  max-width: min(360px, 100%);
+  width: min(320px, 100%);
+}
+
+@media (max-width: 768px){
+  .title-search--nav{
+    flex: 1 1 100%;
+    margin-left: 0;
+  }
 }
 .title-search__input{
   width: 100%;
@@ -180,6 +212,16 @@ html, body{
   border: 1px solid color-mix(in oklab, var(--c-muted) 18%, transparent);
   box-shadow: var(--shadow);
   display: none;
+  width: 100%;
+}
+
+.title-search--nav .title-search__results{
+  margin: 0;
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  z-index: 30;
 }
 .title-search__results.is-open{
   display: block;

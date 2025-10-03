@@ -1,0 +1,7 @@
+{
+  "interface": true,
+  "technology": true,
+  "risks": true,
+  "verification": false,
+  "notes": "项目暂无自动化测试，只能通过手动预览确认。"
+}
