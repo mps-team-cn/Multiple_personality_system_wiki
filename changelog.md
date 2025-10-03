@@ -1,5 +1,44 @@
 # 更新日志
 
+## v1.3.4 (2025-10-03)
+
+### ✨ 新增
+
+- feat: 添加弦羽理论生态位分类法及相关系统条目（[a4a1724](https://github.com/kuliantnt/plurality_wiki/commit/a4a17243500114d96c05b31cb2f1894a7d98a712)）
+- feat: 关于我们是最好朋友的事（[aa101e1](https://github.com/kuliantnt/plurality_wiki/commit/aa101e1ed4eaa34af2d19b7cb6ac36c61894489e)）
+- feat: 添加远端分支清理脚本（[999cf69](https://github.com/kuliantnt/plurality_wiki/commit/999cf690c324a9b21a4be54f211ce57cf347b66a)）
+- （合并）新增/更新若干占位或示例条目（[b865b47](https://github.com/kuliantnt/plurality_wiki/commit/b865b475cfde93eb60ef1f9d5acee83e7cdae9bb)，[d070503](https://github.com/kuliantnt/plurality_wiki/commit/d070503d57195e32ae2c82a53883ac9372153213)）
+
+### 🐛 修复（链接/引用/格式）
+
+- fix: 添加触发警示并更新系统定义，提升可读性（[0f292a2](https://github.com/kuliantnt/plurality_wiki/commit/0f292a2d56b95c55c35bf24d7382dbe8b35d34fd)）
+- fix: 替换条目中的中文路径链接（[d0e9cb8](https://github.com/kuliantnt/plurality_wiki/commit/d0e9cb8787f76ee18f1839557893051a4f0e4ed4)）
+- fix: 更新自动校对报告时间；移除无效检查项与标题格式问题（[ebdb19f](https://github.com/kuliantnt/plurality_wiki/commit/ebdb19f0afa1a11dd913225549c2ce4056f908d8)）
+- fix: 更新术语表，补充缺失条目并修复格式（[0ceffc2](https://github.com/kuliantnt/plurality_wiki/commit/0ceffc2a83b59c4a5b59ea72fe583dba71da2d6c)）
+- fix: 启用更新脚本以生成“最后更新时间”（[f2fc449](https://github.com/kuliantnt/plurality_wiki/commit/f2fc4490291b7d194803a5996b888fcb719d0114)）
+- fix: 依据校对报告微调部分词条结构（[8fa7e77](https://github.com/kuliantnt/plurality_wiki/commit/8fa7e77231da264ea958989b01f2a288ecf12995)）
+- fix: 更新页脚维护者信息，补充系统名称（[dcc184a](https://github.com/kuliantnt/plurality_wiki/commit/dcc184a9f15205147baf7fb36aea445d2ca985a4)）
+- fix: 修正条目模板与更新日志的排版（[350382e](https://github.com/kuliantnt/plurality_wiki/commit/350382e7cdaa5efedf0024eb6d79521c8ed0cdaa)）
+- fix: 调整 DID 共病术语（[4b43c4b](https://github.com/kuliantnt/plurality_wiki/commit/4b43c4b56da041de1523af7b72556adab03fb8ca)）
+
+### 📝 文档与索引（不影响语义）
+
+- 术语表与布局改造：区分桌面/移动展示并重构为移动友好（[81d3cf6](https://github.com/kuliantnt/plurality_wiki/commit/81d3cf69d7678a0c9842bd0b2060b0032d0d9a3a)，[578b068](https://github.com/kuliantnt/plurality_wiki/commit/578b0681ef9ac6e2fd70700c38f94614694866ab)）
+- 文档结构与索引：更新 README 的仓库结构概览与文档位置/链接（[301047e](https://github.com/kuliantnt/plurality_wiki/commit/301047e0d2ee39cfe5d3f1885bf09bf4923a8ceb)，[9e9a502](https://github.com/kuliantnt/plurality_wiki/commit/9e9a502db310380b9ca69670454282612ec7e24e)）
+- 贡献/运维文档：新增 GitHub 提交流程与管理员指南（[d4ffb8e](https://github.com/kuliantnt/plurality_wiki/commit/d4ffb8e109cfb526240bb6ece8c6d4d88e0988a8)，[eb58ef4](https://github.com/kuliantnt/plurality_wiki/commit/eb58ef455737cff072a33c9419a4ed99ab125aea)）
+- 自动化与导出：同步自动化工具与 PDF 导出文档到 docs（[8790314](https://github.com/kuliantnt/plurality_wiki/commit/8790314176ca70f58ff5226faecde43a639c3a27)）
+- AGENTS 规则：补充前端资产脚本注释与贡献约定（[fa85303](https://github.com/kuliantnt/plurality_wiki/commit/fa85303ddee6df569f93b86f233ccfcae8233642)，[c383990](https://github.com/kuliantnt/plurality_wiki/commit/c38399026fb8e256b8c319a3ac32e6fb074d9605)）
+- CI 徽章与状态：替换为 shields.io 并修正状态链接（[bea3510](https://github.com/kuliantnt/plurality_wiki/commit/bea35103b1ecc502d3d3cb564a9f97c21ff9f88d)，[7709dd0](https://github.com/kuliantnt/plurality_wiki/commit/7709dd031ae81a9c8a94cc874ec2c8e9242dd322)）
+- 术语表分类与常规小修：拆分类别、补充与微调（[6f12fb6](https://github.com/kuliantnt/plurality_wiki/commit/6f12fb62d77b74fb0a9db38d691e9574e682e1dc)，[b8304e3](https://github.com/kuliantnt/plurality_wiki/commit/b8304e35b6269e049e0268cd20cd62ca4da38ffc)）
+- 语法与排版：统一 Markdown 与文档格式（[7033eea](https://github.com/kuliantnt/plurality_wiki/commit/7033eeac4b08469e8faa13f795827b4cab1ec87f)）
+- 贡献指南与模板：补充条目规范与自检清单（[49d8375](https://github.com/kuliantnt/plurality_wiki/commit/49d8375beb86c5b1ea14804edaf38cafc1595e29)）
+
+### 📦 杂务（脚本/CI/批处理）
+
+- chore: 调整校对脚本目录（[cdae64f](https://github.com/kuliantnt/plurality_wiki/commit/cdae64f3e38b210c764c19b4de76818240b7eb2d)）
+
+— 由 Git 提交记录自动生成
+
 ## v1.3.3 (2025-10-03)
 
 ### ✨ 新增
