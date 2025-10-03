@@ -5,6 +5,8 @@ from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
 
+import yaml
+
 from .models import EntryDocument
 
 
@@ -41,53 +43,43 @@ def _split_frontmatter(raw: str) -> tuple[list[str], str]:
     raise FrontmatterError("未找到 frontmatter 结束标记 '---'。")
 
 
-def _parse_tags(value: str) -> tuple[str, ...]:
-    """解析形如 ``[标签1, 标签2]`` 的标签声明。"""
-
-    stripped = value.strip()
-    if not (stripped.startswith("[") and stripped.endswith("]")):
-        raise FrontmatterError("tags 字段必须使用 [tag1, tag2] 格式声明。")
-
-    inner = stripped[1:-1].strip()
-    if not inner:
-        return ()
-
-    tags = tuple(tag.strip() for tag in inner.split(",") if tag.strip())
-    if not tags:
-        raise FrontmatterError("tags 字段不能为空。")
-    return tags
-
-
 def _parse_frontmatter(lines: list[str]) -> EntryFrontmatter:
     """将 frontmatter 行转换为 ``EntryFrontmatter``。"""
 
-    data: dict[str, str] = {}
-    for raw_line in lines:
-        stripped = raw_line.strip()
-        if not stripped or stripped.startswith("#"):
-            continue
-        if ":" not in raw_line:
-            raise FrontmatterError(f"无法解析 frontmatter 行：{raw_line}")
-        key, value = raw_line.split(":", 1)
-        data[key.strip()] = value.strip()
+    raw_frontmatter = "\n".join(lines)
+    try:
+        loaded = yaml.safe_load(raw_frontmatter) if raw_frontmatter.strip() else {}
+    except yaml.YAMLError as error:  # pragma: no cover - 仅在 YAML 无法解析时触发
+        raise FrontmatterError(f"无法解析 frontmatter：{error}") from error
 
-    missing = [field for field in ("title", "tags", "updated") if field not in data]
+    if not isinstance(loaded, dict):
+        raise FrontmatterError("frontmatter 必须以键值对形式声明。")
+
+    missing = [field for field in ("title", "tags", "updated") if field not in loaded]
     if missing:
         raise FrontmatterError(f"frontmatter 缺少必要字段：{', '.join(missing)}")
 
-    title = data["title"].strip()
-    if not title:
-        raise FrontmatterError("title 字段不能为空。")
+    title = loaded["title"]
+    if not isinstance(title, str) or not title.strip():
+        raise FrontmatterError("title 字段必须为非空字符串。")
 
-    tags = _parse_tags(data["tags"])
+    tags_value = loaded["tags"]
+    if isinstance(tags_value, str):
+        # 兼容以逗号分隔的字符串写法
+        tags = [item.strip() for item in tags_value.split(",") if item.strip()]
+    elif isinstance(tags_value, (list, tuple)):
+        tags = [str(item).strip() for item in tags_value if str(item).strip()]
+    else:
+        raise FrontmatterError("tags 字段必须为字符串或字符串列表。")
+
     if not tags:
         raise FrontmatterError("tags 字段至少包含一个标签。")
 
-    updated = data["updated"].strip()
-    if not updated:
-        raise FrontmatterError("updated 字段不能为空。")
+    updated = loaded["updated"]
+    if not isinstance(updated, str) or not updated.strip():
+        raise FrontmatterError("updated 字段必须为非空字符串。")
 
-    return EntryFrontmatter(title=title, tags=tags, updated=updated)
+    return EntryFrontmatter(title=title.strip(), tags=tuple(tags), updated=updated.strip())
 
 
 def load_entry_document(path: Path) -> EntryDocument:
