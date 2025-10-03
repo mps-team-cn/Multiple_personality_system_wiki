@@ -1,6 +1,6 @@
 ---
 title: 存在感（Sense of Presence）
-tags: [系统体验与机制]
+tags: [存在感, 生理状态, 感官线索, 意识共存, 情绪同频, 建立信号, 系统体验与机制, 幻觉]
 updated: 2025-10-03
 ---
 
@@ -38,6 +38,16 @@ updated: 2025-10-03
 - **建立信号**：当班成员可请其他人以特定感官提示（如轻敲或特定词语）表示“在场”，减少误判。
 - **与专业者沟通**：若存在感变化伴随解离加剧或影响功能，可与熟悉多重意识体验的治疗者讨论。
 
+## 相关条目
+
+- [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
+- [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [独立性（Independence）](/entries/Independence.md)
 ## 参考资料
 
 [^存在感-1]: Veissière, S. P. L., et al. (2020). Tulpamancy: Virtual companions, identity, and religion. *Phenomenology and the Cognitive Sciences, 19*(3), 619-644.

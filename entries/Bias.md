@@ -1,6 +1,6 @@
 ---
 title: 偏重（Bias / Median）
-tags: [系统体验与机制]
+tags: [偏重, 主要特征, 诊断与临床, 社群语境, 常见误区, 实务建议, 系统体验与机制, 与其他概念的比较]
 updated: 2025-10-03
 ---
 
@@ -72,6 +72,16 @@ Median 体验、半多意识体、半分离系统
 
 ---
 
+## 相关条目
+
+- [共前台（Co-fronting）](/entries/Co-Fronting.md)
+- [切换（Switch）](/entries/Switch.md)
+- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](/entries/PTSD.md)
+- [冥想（Meditation）](/entries/Meditation.md)
+- [适应型（Adaptive）](/entries/Adaptive.md)
+- [侵入性思维（Intrusive Thoughts）](/entries/Intrusive-Thoughts.md)
+- [接地（Grounding）](/entries/Grounding.md)
+- [超级破碎（Polyfragmented）](/entries/Polyfragmented.md)
 ## 参考资料
 
 [^偏重-1]: The Plural Association. (2020). *Median plurality: Experiences between singlet and multiple*. [https://www.thepluralassociation.org/](https://www.thepluralassociation.org/)

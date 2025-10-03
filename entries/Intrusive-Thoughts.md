@@ -1,6 +1,6 @@
 ---
 title: 侵入性思维（Intrusive Thoughts）
-tags: [系统体验与机制]
+tags: [侵入性思维, 药物与治疗, 核心特征, 应对策略, 常见误区, 常见主题, 参阅, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -87,6 +87,16 @@ updated: 2025-10-03
 * [应激反应](entries/Stress-Response.md)
 * [接地](entries/Grounding.md)
 
+## 相关条目
+
+- [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
+- [冥想（Meditation）](/entries/Meditation.md)
+- [切换（Switch）](/entries/Switch.md)
+- [共前台（Co-fronting）](/entries/Co-Fronting.md)
+- [接地（Grounding）](/entries/Grounding.md)
+- [解离（Dissociation）](/entries/Dissociation.md)
+- [适应型（Adaptive）](/entries/Adaptive.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
 ## 参考
 
 * American Psychiatric Association. (2013). *Diagnostic and Statistical Manual of Mental Disorders (5th ed.)*. Arlington, VA: American Psychiatric Publishing.

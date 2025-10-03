@@ -1,6 +1,6 @@
 ---
 title: 内部空间（Headspace / Inner World）
-tags: [系统体验与机制]
+tags: [定义与同义词, 用于互动, 独立访问的心象环境, 幻境 指系统成员在内在感知中共享, 内部空间 亦称 里空间, 内部空间, 系统体验与机制, 里空间]
 updated: 2025-10-03
 ---
 
@@ -43,10 +43,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-* [系统（System）](entries/System.md)
-* [成员（Alter）](entries/Alter.md)
-* [接地（Grounding）](entries/Grounding.md)
-
+- [系魂型系统（Soul-Linked Systems, Xianyu Theory）](/entries/Soul-Linked-Systems-Xianyu.md)
+- [家族式系统（Family Systems, Xianyu Theory）](/entries/Family-Systems-Xianyu.md)
+- [单一类系统（Single-Class Systems, Xianyu Theory）](/entries/Single-Class-Systems-Xianyu.md)
+- [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](/entries/Xianyu-Theory-Niche-Classification.md)
+- [混合型系统（Mixed Systems, Xianyu Theory）](/entries/Mixed-Systems-Xianyu.md)
+- [共前台（Co-fronting）](/entries/Co-Fronting.md)
+- [切换（Switch）](/entries/Switch.md)
+- [系统（System）](/entries/System.md)
 ## 参考与延伸阅读
 
 [^pluralpedia-headspace]: Pluralpedia. (2024). [Headspace](https://pluralpedia.org/w/Headspace).

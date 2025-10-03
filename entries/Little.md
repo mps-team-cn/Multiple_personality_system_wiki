@@ -1,6 +1,6 @@
 ---
 title: 小孩意识体（Little / Child Part）
-tags: [系统角色与类型]
+tags: [系统角色与类型, 小孩意识体, 发展阶段特征, 时间感差异, 支持性空间, 情感需求强烈, 回归状态, 前台安排]
 updated: 2025-10-03
 ---
 
@@ -42,3 +42,14 @@ updated: 2025-10-03
 [^thepluralassociation2021]: The Plural Association. (2021). *Community guidelines for plural well-being*. The Plural Association.
 [^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for treating dissociative identity disorder in adults, third revision*. Journal of Trauma & Dissociation, 12(2), 115–187.
 [^boon2011]: Boon, S., Steele, K., & Van der Hart, O. (2011). *Coping with trauma-related dissociation: Skills training for patients and therapists*. W. W. Norton & Company.
+
+## 相关条目
+
+- [青少年意识体（Teen Part）](/entries/Teen.md)
+- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
+- [照顾者（Caregiver）](/entries/Caregiver.md)
+- [迫害者（Persecutor）](/entries/Persecutor.md)
+- [人格职能（System Roles）](/entries/System-Roles.md)
+- [保护者（Protector）](/entries/Protector.md)
+- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
+- [初始（Original）](/entries/Original.md)

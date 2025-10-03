@@ -1,6 +1,6 @@
 ---
 title: 多重意识体基础（Plurality Basics）
-tags: [系统体验与机制]
+tags: [解离性身份障碍 DID, 多重意识体基础, 非病理化视角, 身份认可, 资源消耗, 解离谱系观点, 系统体验与机制, 解离性身份障碍]
 updated: 2025-10-03
 ---
 
@@ -53,6 +53,16 @@ updated: 2025-10-03
 - **使用地面化技术**：在切换或感官过载时，运用呼吸、触感或五感扫描等技巧保持稳定。
 - **获取社群资源**：加入互助社群、阅读术语库、参加教育资源可以减少孤立感并获取经验分享。
 
+## 相关条目
+
+- [多意识体（Plurality）](/entries/Plurality.md)
+- [系统（System）](/entries/System.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
+- [独立性（Independence）](/entries/Independence.md)
+- [解离（Dissociation）](/entries/Dissociation.md)
+- [应激反应（Stress Response）](/entries/Stress-Response.md)
 ## 参考资料
 
 [^plurality-def]: Lopez, C., & Tait, C. (2020). Plural identities and collaborative functioning in dissociative systems. *Journal of Plural Studies, 5*(2), 15-32.

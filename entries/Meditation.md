@@ -1,6 +1,6 @@
 ---
 title: 冥想（Meditation）
-tags: [实践与支持]
+tags: [实践与支持, 冥想练习, 主要取向, 风险与注意事项, 诊断与临床, 核心特征, 常见误区, 实务建议]
 updated: 2025-10-03
 ---
 
@@ -77,6 +77,16 @@ updated: 2025-10-03
 
 ---
 
+## 相关条目
+
+- [接地（Grounding）](/entries/Grounding.md)
+- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](/entries/PTSD.md)
+- [超级破碎（Polyfragmented）](/entries/Polyfragmented.md)
+- [偏重（Bias / Median）](/entries/Bias.md)
+- [侵入性思维（Intrusive Thoughts）](/entries/Intrusive-Thoughts.md)
+- [切换（Switch）](/entries/Switch.md)
+- [共前台（Co-fronting）](/entries/Co-Fronting.md)
+- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
 ## 参考资料
 
 [^冥想-1]: Kabat-Zinn, J. (2013). *Full Catastrophe Living* (Revised ed.). Bantam Books.

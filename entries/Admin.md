@@ -1,6 +1,6 @@
 ---
 title: 管理者（Admin）
-tags: [系统角色与类型]
+tags: [系统角色与类型, 管理者, 沟通协作, 风险应对, 记忆管理, 系统管理, 社区文化, 内部自助者]
 updated: 2025-10-03
 ---
 
@@ -41,11 +41,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [守门人（Gatekeeper）](entries/Gatekeeper.md)
-- [内部自助者（ISH）](entries/Internal-Self-Helper-ISH.md)
-- [权限（Permissions）](entries/Permissions.md)
-- [伪主体（Fauxmain）](entries/Fauxmain.md)
-
+- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
+- [成员（Alter）](/entries/Alter.md)
+- [伪主体（Fauxmain）](/entries/Fauxmain.md)
+- [混合（Blending）](/entries/Blending.md)
+- [碎片（Fragment）](/entries/Fragment.md)
+- [人格面具（Persona）](/entries/Persona.md)
+- [系魂（Soulbond）](/entries/Soulbond.md)
+- [守门人（Gatekeeper）](/entries/Gatekeeper.md)
 ## 参考与延伸阅读
 
 Wikipedia contributors. (2024, January). *Alter (dissociative identity disorder)*. In Wikipedia, The Free Encyclopedia. [https://en.wikipedia.org/wiki/Alter_(dissociative_identity_disorder](https://en.wikipedia.org/wiki/Alter_(dissociative_identity_disorder))

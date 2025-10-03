@@ -1,6 +1,6 @@
 ---
 title: 非我感（Depersonalization）
-tags: [系统体验与机制]
+tags: [非我感, 记录触发因素, 持续性差异, 情绪与感官的分离, 必要时寻求专业支持, 建立内部共识, 系统体验与机制, 地面化练习]
 updated: 2025-10-03
 ---
 
@@ -39,6 +39,16 @@ Not-me 感、他者感、身份异化感 感知区分 感知壁垒
 - **建立内部共识**：邀请拥有强烈非我感的成员在安全空间里表达需求，并讨论如何共享控制权，能减少突发冲突。
 - **必要时寻求专业支持**：若非我感伴随情绪麻木、严重功能受损，可考虑熟悉解离与多重意识经验的治疗者进行评估。
 
+## 相关条目
+
+- [封存（Sequestration）](/entries/Sequestration.md)
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
+- [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [独立性（Independence）](/entries/Independence.md)
+- [多意识体（Plurality）](/entries/Plurality.md)
 ## 参考资料
 
 [^非我感-1]: Sierra, M., & Berrios, G. E. (1997). Depersonalization: Neurobiological perspectives. *Biological Psychiatry, 42*(9), 898-908.
