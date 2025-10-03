@@ -32,8 +32,8 @@ updated: 2025-10-03
 - [适应型（Adaptive）](/entries/Adaptive.md)
 - [成员（Alter）](/entries/Alter.md)
 - [人格面具（Persona）](/entries/Persona.md)
-- [自发型（Spontaneous）](/entries/Spontaneous.md)
 - [主体（Main）](/entries/Main.md)
+- [自发型（Spontaneous）](/entries/Spontaneous.md)
 - [碎片（Fragment）](/entries/Fragment.md)
 
 ## 参考与延伸阅读

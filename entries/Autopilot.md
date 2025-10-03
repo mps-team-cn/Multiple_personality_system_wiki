@@ -45,11 +45,11 @@ updated: 2025-10-03
 - [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [多意识体（Plurality）](/entries/Plurality.md)
 - [解离（Dissociation）](/entries/Dissociation.md)
-- [系统（System）](/entries/System.md)
 - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](/entries/Apparently-Normal-Part-Emotional-Part-Model.md)
+- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
 - [融合（Fusion）](/entries/Fusion.md)
-- [迭代（Iteration）](/entries/Iteration.md)
-- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
+- [系统（System）](/entries/System.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 
 ## 参考资料
 

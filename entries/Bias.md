@@ -1,16 +1,6 @@
 ---
 title: 偏重（Bias / Median）
-tags:
-  [
-    偏重,
-    主要特征,
-    诊断与临床,
-    社群语境,
-    常见误区,
-    实务建议,
-    系统体验与机制,
-    与其他概念的比较,
-  ]
+tags: [偏重, 主要特征, 诊断与临床, 社群语境, 常见误区, 实务建议, 与其他概念的比较, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -84,14 +74,14 @@ Median 体验、半多意识体、半分离系统
 
 ## 相关条目
 
-- [共前台（Co-fronting）](/entries/Co-Fronting.md)
 - [切换（Switch）](/entries/Switch.md)
-- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](/entries/PTSD.md)
+- [共前台（Co-fronting）](/entries/Co-Fronting.md)
 - [冥想（Meditation）](/entries/Meditation.md)
-- [适应型（Adaptive）](/entries/Adaptive.md)
-- [侵入性思维（Intrusive Thoughts）](/entries/Intrusive-Thoughts.md)
-- [接地（Grounding）](/entries/Grounding.md)
+- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](/entries/PTSD.md)
 - [超级破碎（Polyfragmented）](/entries/Polyfragmented.md)
+- [适应型（Adaptive）](/entries/Adaptive.md)
+- [接地（Grounding）](/entries/Grounding.md)
+- [成员（Alter）](/entries/Alter.md)
 
 ## 参考资料
 

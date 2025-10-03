@@ -105,10 +105,10 @@ updated: 2025-10-03
 - [复杂性创伤后应激障碍（CPTSD）](/entries/CPTSD.md)
 - [谵妄（Delirium）](/entries/Delirium.md)
 - [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
-- [定向障碍（Disorientation）](/entries/Disorientation.md)
 - [躯体化障碍（Somatic Symptom Disorder，SSD）](/entries/Somatic-Symptom-Disorder-SSD.md)
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
-- [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
+- [定向障碍（Disorientation）](/entries/Disorientation.md)
+- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
 
 ## 参考与延伸阅读
 

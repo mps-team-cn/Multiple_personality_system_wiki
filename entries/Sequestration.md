@@ -1,6 +1,6 @@
 ---
 title: 封存（Sequestration）
-tags: [封存, 高危冲动或自伤意图, 非永久解决方案, 评估风险, 强烈情绪风暴, 尊重差异, 系统体验与机制, 创伤记忆泛滥]
+tags: [封存, 高危冲动或自伤意图, 非永久解决方案, 评估风险, 强烈情绪风暴, 尊重差异, 创伤记忆泛滥, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -37,12 +37,12 @@ updated: 2025-10-03
 
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 - [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
-- [应激反应（Stress Response）](/entries/Stress-Response.md)
-- [独立性（Independence）](/entries/Independence.md)
-- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
-- [非我感（Depersonalization）](/entries/Depersonalization.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
+- [迭代（Iteration）](/entries/Iteration.md)
 - [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
 
 ## 参考资料
 

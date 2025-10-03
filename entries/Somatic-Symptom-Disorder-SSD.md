@@ -1,6 +1,6 @@
 ---
 title: 躯体化障碍（Somatic Symptom Disorder，SSD）
-tags: [躯体化障碍, SSD, 药物治疗, 综合照护, 心理治疗, 心理教育与医患联盟, 诊断与临床, 评估与鉴别]
+tags: [躯体化障碍, SSD, 药物治疗, 综合照护, 心理治疗, 心理教育与医患联盟, 评估与鉴别, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -59,7 +59,7 @@ DSM-5-TR 允许按照症状持续时间（急性 < 6 个月；慢性 ≥ 6 个�
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
 - [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
 - [躁狂（Mania）](/entries/Mania.md)
-- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
+- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 
 ## 参考资料
 

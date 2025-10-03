@@ -1,16 +1,6 @@
 ---
 title: 侵入性思维（Intrusive Thoughts）
-tags:
-  [
-    侵入性思维,
-    药物与治疗,
-    核心特征,
-    应对策略,
-    常见误区,
-    常见主题,
-    参阅,
-    系统体验与机制,
-  ]
+tags: [创伤后应激障碍 PTSD, 侵入性思维, 药物与治疗, 核心特征, 应对策略, 常见误区, 常见主题, 参阅]
 updated: 2025-10-03
 ---
 
@@ -99,14 +89,14 @@ _如有触发风险，请在安全情境下阅读。_
 
 ## 相关条目
 
-- [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
 - [冥想（Meditation）](/entries/Meditation.md)
-- [切换（Switch）](/entries/Switch.md)
-- [共前台（Co-fronting）](/entries/Co-Fronting.md)
 - [接地（Grounding）](/entries/Grounding.md)
+- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](/entries/PTSD.md)
+- [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
+- [超级破碎（Polyfragmented）](/entries/Polyfragmented.md)
+- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
 - [解离（Dissociation）](/entries/Dissociation.md)
-- [适应型（Adaptive）](/entries/Adaptive.md)
-- [重构（Reconstruction）](/entries/Reconstruction.md)
+- [切换（Switch）](/entries/Switch.md)
 
 ## 参考
 

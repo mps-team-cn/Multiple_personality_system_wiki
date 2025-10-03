@@ -1,16 +1,6 @@
 ---
 title: 创伤（Trauma）
-tags:
-  [
-    创伤,
-    治疗支持,
-    定义与同义词,
-    精神创伤,
-    风险与保护因素,
-    鉴别诊断,
-    诊断与临床,
-    参考与延伸阅读,
-  ]
+tags: [创伤, 治疗支持, 定义与同义词, 精神创伤, 风险与保护因素, 鉴别诊断, 参考与延伸阅读, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -96,8 +86,8 @@ updated: 2025-10-03
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
 - [适应型（Adaptive）](/entries/Adaptive.md)
 - [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
-- [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](/entries/Narcissistic-Personality-Disorder-NPD.md)
 - [焦虑（Anxiety）](/entries/Anxiety.md)
+- [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](/entries/Narcissistic-Personality-Disorder-NPD.md)
 - [T 语（Tulpish）](/entries/Tulpish.md)
 
 ## 参考与延伸阅读

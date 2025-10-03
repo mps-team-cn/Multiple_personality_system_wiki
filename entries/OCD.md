@@ -1,16 +1,6 @@
 ---
 title: 强迫症（Obsessive-Compulsive Disorder, OCD）
-tags:
-  [
-    定义与同义词,
-    强迫性障碍,
-    强迫症,
-    评估与治疗,
-    系统适用的自助建议,
-    社群与临床语境,
-    诊断与临床,
-    常见误区,
-  ]
+tags: [定义与同义词, 强迫性障碍, 强迫症, 评估与治疗, 系统适用的自助建议, 社群与临床语境, 常见误区, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -128,8 +118,8 @@ updated: 2025-10-03
 - [切换（Switch）](/entries/Switch.md)
 - [共前台（Co-fronting）](/entries/Co-Fronting.md)
 - [创伤（Trauma）](/entries/Trauma.md)
-- [闪回（Flashback）](/entries/Flashback.md)
 - [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](/entries/Narcissistic-Personality-Disorder-NPD.md)
+- [闪回（Flashback）](/entries/Flashback.md)
 - [躯体化障碍（Somatic Symptom Disorder，SSD）](/entries/Somatic-Symptom-Disorder-SSD.md)
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
 

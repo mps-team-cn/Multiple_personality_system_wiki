@@ -27,14 +27,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [前台（Front / Fronting）](/entries/Front-Fronting.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
-- [独立性（Independence）](/entries/Independence.md)
-- [成员（Alter）](/entries/Alter.md)
-- [解离（Dissociation）](/entries/Dissociation.md)
+- [外投射（External Projection）](/entries/External-Projection.md)
 - [后台（Back / Being Back）](/entries/Back-Being-Back.md)
-- [重构（Reconstruction）](/entries/Reconstruction.md)
-- [封存（Sequestration）](/entries/Sequestration.md)
+- [前台（Front / Fronting）](/entries/Front-Fronting.md)
+- [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
+- [成员（Alter）](/entries/Alter.md)
+- [独立性（Independence）](/entries/Independence.md)
+- [T 语（Tulpish）](/entries/Tulpish.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 
 ## 参考与延伸阅读
 

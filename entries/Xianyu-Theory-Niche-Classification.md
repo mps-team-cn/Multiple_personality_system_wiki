@@ -1,6 +1,6 @@
 ---
 title: 弦羽理论生态位分类法（Xianyu Theory of Niche Classification）
-tags: [定义与同义词, 弦羽生态位模型, 弦羽分类法, 弦羽理论生态位分类法, 核心思想, 应用价值, 系统体验与机制, 局限性]
+tags: [定义与同义词, 弦羽生态位模型, 弦羽分类法, 弦羽理论生态位分类法, 核心思想, 应用价值, 局限性, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -76,9 +76,9 @@ updated: 2025-10-03
 - [混合型系统（Mixed Systems, Xianyu Theory）](/entries/Mixed-Systems-Xianyu.md)
 - [单一类系统（Single-Class Systems, Xianyu Theory）](/entries/Single-Class-Systems-Xianyu.md)
 - [内部空间（Headspace / Inner World）](/entries/Headspace-Inner-World.md)
+- [系统（System）](/entries/System.md)
 - [共前台（Co-fronting）](/entries/Co-Fronting.md)
 - [切换（Switch）](/entries/Switch.md)
-- [系统（System）](/entries/System.md)
 
 ## 参考与来源
 

@@ -1,16 +1,6 @@
 ---
 title: 焦虑（Anxiety）
-tags:
-  [
-    焦虑,
-    躯体反应,
-    认知与情绪,
-    行为变化,
-    基础概念,
-    鉴别诊断,
-    诊断要点,
-    诊断与临床,
-  ]
+tags: [焦虑, 躯体反应, 认知与情绪, 行为变化, 基础概念, 鉴别诊断, 诊断要点, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -86,11 +76,11 @@ DSM-5-TR 要求症状在多种情境中持续至少 6 个月，伴随不安、�
 - [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 - [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [躁狂（Mania）](/entries/Mania.md)
-- [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
-- [谵妄（Delirium）](/entries/Delirium.md)
-- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
-- [定向障碍（Disorientation）](/entries/Disorientation.md)
+- [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
+- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
+- [谵妄（Delirium）](/entries/Delirium.md)
+- [创伤（Trauma）](/entries/Trauma.md)
 
 ## 参考与延伸阅读
 

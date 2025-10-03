@@ -47,12 +47,12 @@ updated: 2025-10-03
 
 - [宿主（Host）](/entries/Host.md)
 - [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
-- [系统（System）](/entries/System.md)
 - [幻想伙伴（Imaginary Companion）](/entries/Imaginary-Companion.md)
 - [初始（Original）](/entries/Original.md)
-- [自发型（Spontaneous）](/entries/Spontaneous.md)
-- [适应型（Adaptive）](/entries/Adaptive.md)
+- [系统（System）](/entries/System.md)
 - [人格职能（System Roles）](/entries/System-Roles.md)
+- [适应型（Adaptive）](/entries/Adaptive.md)
+- [自发型（Spontaneous）](/entries/Spontaneous.md)
 
 ## 参考与延伸阅读
 

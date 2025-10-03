@@ -1,16 +1,6 @@
 ---
 title: 超级破碎（Polyfragmented）
-tags:
-  [
-    系统角色与类型,
-    超级破碎,
-    诊断与临床,
-    识别与评估,
-    核心特征,
-    支援策略,
-    常见误区,
-    参考与延伸阅读,
-  ]
+tags: [系统角色与类型, 超级破碎, 诊断与临床, 识别与评估, 核心特征, 支援策略, 常见误区, 参考与延伸阅读]
 updated: 2025-10-03
 ---
 
@@ -79,14 +69,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [冥想（Meditation）](/entries/Meditation.md)
 - [接地（Grounding）](/entries/Grounding.md)
+- [冥想（Meditation）](/entries/Meditation.md)
 - [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](/entries/PTSD.md)
 - [T 语（Tulpish）](/entries/Tulpish.md)
 - [适应型（Adaptive）](/entries/Adaptive.md)
 - [侵入性思维（Intrusive Thoughts）](/entries/Intrusive-Thoughts.md)
-- [成员（Alter）](/entries/Alter.md)
 - [偏重（Bias / Median）](/entries/Bias.md)
+- [成员（Alter）](/entries/Alter.md)
 
 ## 参考与延伸阅读
 

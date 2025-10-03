@@ -1,6 +1,6 @@
 ---
 title: 意识共存（Co-consciousness）
-tags: [意识共存, 多轨思维, 预设沟通渠道, 融合 整合, 情绪共鸣, 安全退出机制, 系统体验与机制, 存在感]
+tags: [意识共存, 多轨思维, 预设沟通渠道, 融合 整合, 情绪共鸣, 安全退出机制, 存在感, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -45,13 +45,13 @@ updated: 2025-10-03
 ## 相关条目
 
 - [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
+- [迭代（Iteration）](/entries/Iteration.md)
 - [独有记忆（Exomemory）](/entries/Exomemory.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
-- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
-- [独立性（Independence）](/entries/Independence.md)
-- [重构（Reconstruction）](/entries/Reconstruction.md)
+- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
+- [融合（Fusion）](/entries/Fusion.md)
 
 ## 参考资料
 

@@ -28,13 +28,13 @@ updated: 2025-10-03
 ## 相关条目
 
 - [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
-- [伪主体（Fauxmain）](/entries/Fauxmain.md)
 - [主体（Main）](/entries/Main.md)
+- [伪主体（Fauxmain）](/entries/Fauxmain.md)
 - [人格面具（Persona）](/entries/Persona.md)
 - [人格职能（System Roles）](/entries/System-Roles.md)
+- [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
 - [系魂（Soulbond）](/entries/Soulbond.md)
 - [管理者（Admin）](/entries/Admin.md)
-- [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
 
 ## 参考与延伸阅读
 

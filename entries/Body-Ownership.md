@@ -38,14 +38,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [融合（Fusion）](/entries/Fusion.md)
 - [迭代（Iteration）](/entries/Iteration.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
+- [融合（Fusion）](/entries/Fusion.md)
 - [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
-- [封存（Sequestration）](/entries/Sequestration.md)
 - [应激反应（Stress Response）](/entries/Stress-Response.md)
-- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
-- [多意识体（Plurality）](/entries/Plurality.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 
 ## 参考资料
 

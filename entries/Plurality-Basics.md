@@ -1,6 +1,6 @@
 ---
 title: 多重意识体基础（Plurality Basics）
-tags: [解离性身份障碍 DID, 多重意识体基础, 非病理化视角, 身份认可, 资源消耗, 解离谱系观点, 系统体验与机制, 解离性身份障碍]
+tags: [解离性身份障碍 DID, 多重意识体基础, 解离性身份障碍, 非病理化视角, 身份认可, 资源消耗, 解离谱系观点, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -57,12 +57,12 @@ updated: 2025-10-03
 
 - [多意识体（Plurality）](/entries/Plurality.md)
 - [系统（System）](/entries/System.md)
-- [独有记忆（Exomemory）](/entries/Exomemory.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
-- [封存（Sequestration）](/entries/Sequestration.md)
-- [独立性（Independence）](/entries/Independence.md)
 - [解离（Dissociation）](/entries/Dissociation.md)
-- [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
+- [自动驾驶（Autopilot）](/entries/Autopilot.md)
+- [融合（Fusion）](/entries/Fusion.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [其他特定解离性障碍（OSDD）](/entries/OSDD.md)
 
 ## 参考资料
 

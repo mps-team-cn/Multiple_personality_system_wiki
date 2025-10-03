@@ -34,13 +34,13 @@ updated: 2025-10-03
 ## 相关条目
 
 - [外投射（External Projection）](/entries/External-Projection.md)
-- [投影（Projection）](/entries/Projection.md)
-- [T 语（Tulpish）](/entries/Tulpish.md)
-- [适应型（Adaptive）](/entries/Adaptive.md)
-- [前台（Front / Fronting）](/entries/Front-Fronting.md)
-- [解离（Dissociation）](/entries/Dissociation.md)
-- [侵入性思维（Intrusive Thoughts）](/entries/Intrusive-Thoughts.md)
 - [后台（Back / Being Back）](/entries/Back-Being-Back.md)
+- [权限（Permissions）](/entries/Permissions.md)
+- [T 语（Tulpish）](/entries/Tulpish.md)
+- [前台（Front / Fronting）](/entries/Front-Fronting.md)
+- [成员（Alter）](/entries/Alter.md)
+- [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
+- [适应型（Adaptive）](/entries/Adaptive.md)
 
 ## 参考资料
 

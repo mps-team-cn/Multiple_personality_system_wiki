@@ -72,13 +72,13 @@ DSM-5-TR 要求在社会交流互动与局限重复行为两个维度满足具�
 ## 相关条目
 
 - [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
-- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 - [焦虑（Anxiety）](/entries/Anxiety.md)
+- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 - [躁狂（Mania）](/entries/Mania.md)
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
 - [谵妄（Delirium）](/entries/Delirium.md)
-- [定向障碍（Disorientation）](/entries/Disorientation.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
+- [定向障碍（Disorientation）](/entries/Disorientation.md)
 
 ## 参考与延伸阅读
 

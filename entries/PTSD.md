@@ -1,16 +1,6 @@
 ---
 title: 创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）
-tags:
-  [
-    创伤后应激障碍 PTSD,
-    定义与同义词,
-    创伤后应激反应障碍,
-    社群与临床语境,
-    常见误区,
-    实务建议,
-    诊断与临床,
-    参考与延伸阅读,
-  ]
+tags: [创伤后应激障碍 PTSD, 定义与同义词, 创伤后应激反应障碍, 社群与临床语境, 常见误区, 实务建议, 参考与延伸阅读, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -90,10 +80,10 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
 - [闪回（Flashback）](/entries/Flashback.md)
-- [创伤（Trauma）](/entries/Trauma.md)
+- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
 - [切换（Switch）](/entries/Switch.md)
+- [创伤（Trauma）](/entries/Trauma.md)
 - [共前台（Co-fronting）](/entries/Co-Fronting.md)
 - [冥想（Meditation）](/entries/Meditation.md)
 - [偏重（Bias / Median）](/entries/Bias.md)

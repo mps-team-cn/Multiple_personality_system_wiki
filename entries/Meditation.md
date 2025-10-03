@@ -1,16 +1,6 @@
 ---
 title: 冥想（Meditation）
-tags:
-  [
-    实践与支持,
-    冥想练习,
-    主要取向,
-    风险与注意事项,
-    诊断与临床,
-    核心特征,
-    常见误区,
-    实务建议,
-  ]
+tags: [实践与支持, 冥想练习, 主要取向, 风险与注意事项, 诊断与临床, 核心特征, 常见误区, 实务建议]
 updated: 2025-10-03
 ---
 
@@ -95,8 +85,8 @@ updated: 2025-10-03
 - [偏重（Bias / Median）](/entries/Bias.md)
 - [侵入性思维（Intrusive Thoughts）](/entries/Intrusive-Thoughts.md)
 - [切换（Switch）](/entries/Switch.md)
-- [共前台（Co-fronting）](/entries/Co-Fronting.md)
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
+- [共前台（Co-fronting）](/entries/Co-Fronting.md)
 
 ## 参考资料
 

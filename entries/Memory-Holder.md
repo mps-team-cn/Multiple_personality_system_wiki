@@ -48,7 +48,7 @@ updated: 2025-10-03
 - [人格职能（System Roles）](/entries/System-Roles.md)
 - [小孩意识体（Little / Child Part）](/entries/Little.md)
 - [青少年意识体（Teen Part）](/entries/Teen.md)
-- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
 - [照顾者（Caregiver）](/entries/Caregiver.md)
+- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
 - [保护者（Protector）](/entries/Protector.md)
 - [初始（Original）](/entries/Original.md)

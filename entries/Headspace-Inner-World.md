@@ -1,16 +1,6 @@
 ---
 title: 内部空间（Headspace / Inner World）
-tags:
-  [
-    定义与同义词,
-    用于互动,
-    独立访问的心象环境,
-    幻境 指系统成员在内在感知中共享,
-    内部空间 亦称 里空间,
-    内部空间,
-    系统体验与机制,
-    里空间,
-  ]
+tags: [定义与同义词, 用于互动, 独立访问的心象环境, 幻境 指系统成员在内在感知中共享, 内部空间 亦称 里空间, 内部空间, 里空间, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -59,8 +49,8 @@ updated: 2025-10-03
 - [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](/entries/Xianyu-Theory-Niche-Classification.md)
 - [混合型系统（Mixed Systems, Xianyu Theory）](/entries/Mixed-Systems-Xianyu.md)
 - [共前台（Co-fronting）](/entries/Co-Fronting.md)
-- [切换（Switch）](/entries/Switch.md)
 - [系统（System）](/entries/System.md)
+- [切换（Switch）](/entries/Switch.md)
 
 ## 参考与延伸阅读
 

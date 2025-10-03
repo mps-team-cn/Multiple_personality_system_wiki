@@ -47,9 +47,9 @@ updated: 2025-10-03
 
 - [适应型（Adaptive）](/entries/Adaptive.md)
 - [埃蒙加德分类法（Emmengard Classification）](/entries/Emmengard-Classification.md)
-- [特殊认同（Alterhuman）](/entries/Alterhuman.md)
 - [人格职能（System Roles）](/entries/System-Roles.md)
+- [特殊认同（Alterhuman）](/entries/Alterhuman.md)
+- [初始（Original）](/entries/Original.md)
 - [保护者（Protector）](/entries/Protector.md)
 - [主体（Main）](/entries/Main.md)
 - [成员（Alter）](/entries/Alter.md)
-- [初始（Original）](/entries/Original.md)

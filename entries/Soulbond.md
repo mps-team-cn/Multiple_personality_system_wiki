@@ -30,9 +30,9 @@ updated: 2025-10-03
 - [特殊认同（Alterhuman）](/entries/Alterhuman.md)
 - [伪主体（Fauxmain）](/entries/Fauxmain.md)
 - [人格面具（Persona）](/entries/Persona.md)
+- [主体（Main）](/entries/Main.md)
 - [碎片（Fragment）](/entries/Fragment.md)
 - [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
-- [主体（Main）](/entries/Main.md)
 - [管理者（Admin）](/entries/Admin.md)
 - [核心（Core）](/entries/Core.md)
 

@@ -1,6 +1,6 @@
 ---
 title: 闪回（Flashback）
-tags: [创伤后应激障碍 PTSD, 定义与同义词, 来源, 闪回, 重要说明, 误区3, 诊断与临床, 误区2]
+tags: [创伤后应激障碍 PTSD, 定义与同义词, 来源, 闪回, 重要说明, 误区3, 误区2, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -123,10 +123,10 @@ updated: 2025-10-03
 - [复杂性创伤后应激障碍（CPTSD）](/entries/CPTSD.md)
 - [创伤（Trauma）](/entries/Trauma.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
-- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
+- [谵妄（Delirium）](/entries/Delirium.md)
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
 - [定向障碍（Disorientation）](/entries/Disorientation.md)
-- [谵妄（Delirium）](/entries/Delirium.md)
+- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
 
 ## 参考与延伸阅读
 

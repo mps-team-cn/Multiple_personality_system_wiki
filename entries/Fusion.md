@@ -31,12 +31,12 @@ updated: 2025-10-03
 
 - [迭代（Iteration）](/entries/Iteration.md)
 - [整合（Integration）](/entries/Integration.md)
-- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
-- [重构（Reconstruction）](/entries/Reconstruction.md)
 - [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
-- [封存（Sequestration）](/entries/Sequestration.md)
 - [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [多意识体（Plurality）](/entries/Plurality.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
+- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
 
 ## 参考资料
 
