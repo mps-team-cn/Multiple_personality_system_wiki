@@ -8,6 +8,7 @@
   let updatesPromise = null;
   const titleCache = new Map();
 
+  // 从 last-updated.json 拉取最近更新数据，并复用同一 Promise 防止重复请求
   function fetchUpdates() {
     if (!updatesPromise) {
       updatesPromise = fetch(DATA_URL, { cache: "no-store" })
@@ -17,6 +18,7 @@
     return updatesPromise;
   }
 
+  // 将原始更新信息整理成按更新时间倒序排序且数量受限的卡片列表
   function toItems(map) {
     return Object.keys(map || {})
       .map((path) => ({ path, info: map[path] || {} }))
@@ -34,6 +36,7 @@
       .slice(0, LIMIT);
   }
 
+  // 将词条相对路径转成 Docsify 需要的 hash 形式，兼容中文与特殊字符
   function toRoutePath(path) {
     const withoutExt = path.replace(/\.md$/i, "");
     const encoded = withoutExt
@@ -44,6 +47,7 @@
     return `#/${encoded}`;
   }
 
+  // 若无法解析 Markdown 标题时，回退使用路径末段作为展示文案
   function fallbackTitle(path) {
     const segments = path
       .replace(/\.md$/i, "")
@@ -53,6 +57,7 @@
     return segments[segments.length - 1].replace(/-/g, " ");
   }
 
+  // 基础的 HTML 转义，避免用户生成内容打破结构
   function escapeHtml(value) {
     return String(value)
       .replace(/&/g, "&amp;")
@@ -62,6 +67,7 @@
       .replace(/'/g, "&#39;");
   }
 
+  // 异步加载 Markdown，缓存 Promise 并提取一级标题作为卡片标题
   function loadTitle(path) {
     if (!path) return Promise.resolve("");
     if (titleCache.has(path)) {
@@ -86,6 +92,7 @@
     return promise;
   }
 
+  // 将 ISO 字符串格式化为 YYYY/MM/DD，供卡片右下角展示
   function formatDate(isoString) {
     if (!isoString) return "";
     const date = new Date(isoString);
@@ -97,12 +104,14 @@
     return `${year}/${month}/${day}`;
   }
 
+  // 在真实数据返回前展示加载态，提升感知反馈
   function setLoading(list) {
     if (!list) return;
     list.innerHTML =
       '<li class="recent-updates-item recent-updates-item--loading">加载中…</li>';
   }
 
+  // 根据数据渲染列表，如无数据或请求失败则输出对应提示
   function render(list, items, isError) {
     if (!list) return;
 
@@ -140,6 +149,7 @@
     list.innerHTML = html;
   }
 
+  // 将首页最近更新卡片接入数据源，仅初始化一次避免重复绑定
   function enhanceRecentCard() {
     const container = document.querySelector(CARD_SELECTOR);
     if (!container || container.getAttribute(STATE_ATTR) === "1") {
