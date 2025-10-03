@@ -148,4 +148,4 @@ ICD-11（6B64）：“…two or more distinct personality states…”（存在�
 
 ## 9. 模板
 
-请参考[导入模板](TEMPLATE_ENTRY.md)
+请参考[导入模板](docs/TEMPLATE_ENTRY.md)
