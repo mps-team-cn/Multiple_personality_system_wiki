@@ -251,6 +251,10 @@
 
 - **社群用法/备注**：在内心空间中“看到”或感知成员的练习，常作为与系统成员互动的基础阶段。
 
+### [Xianyu Theory of Niche Classification](entries/系统体验与机制/Xianyu-Theory-Niche-Classification.md)（弦羽理论生态位分类法）
+
+- **社群用法/备注**：弦羽理论提出的系统分类框架，强调以生态位与功能定位划分单一类、混合型、家族式与系魂型的发展路径。
+
 ## 诊断与临床
 
 ### [ADHD](entries/诊断与临床/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)（注意缺陷多动障碍）
@@ -493,6 +497,7 @@
 | [Stress Response](entries/系统体验与机制/Stress-Response.md) | 应激反应 | 概括身心对压力事件的即时生理与心理反应。 |
 | [Tulpish](entries/系统体验与机制/Tulpish.md) | T 语 | 指图帕或成员在内部交流时使用的象征化、非语音沟通方式。 |
 | [Visualization / Imagination](entries/系统体验与机制/Visualization-Imagination.md) | 内视 | 在内心空间中“看到”或感知成员的练习，常作为与系统成员互动的基础阶段。 |
+| [Xianyu Theory of Niche Classification](entries/系统体验与机制/Xianyu-Theory-Niche-Classification.md) | 弦羽理论生态位分类法 | 弦羽理论提出的系统分类框架，强调以生态位与功能定位划分单一类、混合型、家族式与系魂型的发展路径。 |
 
 ## 诊断与临床
 
