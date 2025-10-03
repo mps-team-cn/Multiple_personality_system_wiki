@@ -450,8 +450,12 @@ def extract_synonym_line(line: str) -> Iterable[str]:
 def collect_candidates(post: frontmatter.Post) -> Dict[str, float]:
     candidates: Dict[str, float] = defaultdict(float)
 
-    def add_candidate(raw: str, weight: float = 1.0) -> None:
-        raw = (raw or "").strip()
+    def add_candidate(raw: object, weight: float = 1.0) -> None:
+        if raw is None:
+            return
+        if not isinstance(raw, str):
+            raw = str(raw)
+        raw = raw.strip()
         if not raw:
             return
         if "#" in raw:
