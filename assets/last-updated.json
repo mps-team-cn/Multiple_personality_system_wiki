@@ -1,438 +1,458 @@
 {
+  "entries/Adaptive.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Admin.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Alcohol-Induced-Dissociation.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Alexithymia.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Alter.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Alterhuman.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Another-Me-DID-Depictions.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Anxiety.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Apparently-Normal-Part-Emotional-Part-Model.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Autism-Spectrum-Disorder.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Autopilot.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Back-Being-Back.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Bias.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Bipolar-Disorders.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Blending.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Body-Ownership.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Borderline-Personality-Disorder-BPD.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/CPTSD.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Caregiver.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Co-Consciousness.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Co-Fronting.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Consciousness-Modification.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Core.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/DID.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Delirium.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Depersonalization-Derealization-Disorder-DPDR.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Depersonalization.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Depressive-Disorders.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Disorientation.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Dissociation.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Dissociative-Amnesia-DA.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Dostoevsky-The-Double-Self-Division.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Emmengard-Classification.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Exomemory.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/External-Projection.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Family-Systems-Xianyu.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Fauxmain.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Fight-Club-1999-Identity-Metaphor.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Flashback.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Fragment.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Front-Fronting.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Functional-Dissociation.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Fusion.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Gatekeeper.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Grounding.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Head-Pressure.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Headspace-Inner-World.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Host.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Iatrogenic-System.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Imaginary-Companion.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Independence.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Integration.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Internal-Self-Helper-ISH.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Intrusive-Thoughts.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Iteration.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Kafka-Metamorphosis-Identity-Dissolution.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Little.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Lovecraft-Tulpa-Motifs.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Madoka-Magica-Kyubey-Otherness.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Main.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Mania.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Meditation.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Memory-Holder.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Memory-Shielding.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Mixed-Systems-Xianyu.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Mr-Robot-DID-Narrative.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Narcissistic-Personality-Disorder-NPD.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Nonexistent-You-And-Me-Tulpa-Lilith.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/OCD.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/OSDD.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Original.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/PTSD.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Paranoia-Agent-Collective-Consciousness.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Partial-Dissociative-Identity-Disorder-PDID.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Pathological-Dissociation.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Performer-Executive.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Permissions.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Persecutor.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Persona.md": {
+    "updated": "",
+    "commit": ""
+  },
   "entries/Plurality-Basics.md": {
     "updated": "2025-10-01T21:56:52+08:00",
     "commit": "e488ce9626fe8c3c8d99e8db956cd7f502652537"
   },
-  "entries/实践与支持/Grounding.md": {
-    "updated": "2025-10-03T01:11:31+08:00",
-    "commit": "6bd286f4c746e8248ad68d0480e55a110933fb67"
-  },
-  "entries/实践与支持/Meditation.md": {
-    "updated": "2025-10-03T01:16:10+08:00",
-    "commit": "ca496924df32b04267a27f8971950250f66cc9b7"
-  },
-  "entries/系统体验与机制/Alcohol-Induced-Dissociation.md": {
-    "updated": "2025-10-01T23:50:30+08:00",
-    "commit": "5e49015c6a12a45d7f0a817d31ef4c00473c8701"
-  },
-  "entries/系统体验与机制/Apparently-Normal-Part-Emotional-Part-Model.md": {
-    "updated": "2025-10-03T01:23:22+08:00",
-    "commit": "180e810831c12ad917490fe0d587044705ec2dc1"
-  },
-  "entries/系统体验与机制/Autopilot.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统体验与机制/Back-Being-Back.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统体验与机制/Bias.md": {
-    "updated": "2025-10-03T01:34:49+08:00",
-    "commit": "215c07e5b1a5398cb10ab7e8bf7e511a459e7f15"
-  },
-  "entries/系统体验与机制/Body-Ownership.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统体验与机制/Co-Consciousness.md": {
-    "updated": "2025-10-01T20:00:28+08:00",
-    "commit": "04c44474b765a26bea826ee2073c9fbb7c497e3a"
-  },
-  "entries/系统体验与机制/Co-Fronting.md": {
-    "updated": "2025-10-03T01:34:49+08:00",
-    "commit": "215c07e5b1a5398cb10ab7e8bf7e511a459e7f15"
-  },
-  "entries/系统体验与机制/Consciousness-Modification.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统体验与机制/Depersonalization.md": {
-    "updated": "2025-10-01T23:49:17+08:00",
-    "commit": "c817a0caa76e19e5b211a719717da6bafbc64dcd"
-  },
-  "entries/系统体验与机制/Dissociation.md": {
-    "updated": "2025-10-03T13:12:34+08:00",
-    "commit": "1f66649771c6c6cad29ec990e7a98b2ec0bef49f"
-  },
-  "entries/系统体验与机制/Exomemory.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统体验与机制/External-Projection.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统体验与机制/Front-Fronting.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统体验与机制/Functional-Dissociation.md": {
-    "updated": "2025-10-03T13:12:34+08:00",
-    "commit": "1f66649771c6c6cad29ec990e7a98b2ec0bef49f"
-  },
-  "entries/系统体验与机制/Fusion.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统体验与机制/Head-Pressure.md": {
-    "updated": "2025-10-03T00:50:08+08:00",
-    "commit": "f8e4575a142b94f8ae4fbc0d4303a8ed2a3af9e8"
-  },
-  "entries/系统体验与机制/Headspace-Inner-World.md": {
-    "updated": "2025-10-03T01:37:30+08:00",
-    "commit": "3ac7f7586183134b7abcc15798736ca346137d26"
-  },
-  "entries/系统体验与机制/Independence.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统体验与机制/Integration.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统体验与机制/Intrusive-Thoughts.md": {
-    "updated": "2025-10-03T01:26:51+08:00",
-    "commit": "bbdc85e478b72f69c5ea8a2e3f9fbb75590bacaf"
-  },
-  "entries/系统体验与机制/Iteration.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统体验与机制/Memory-Shielding.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统体验与机制/Permissions.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统体验与机制/Plurality.md": {
-    "updated": "2025-10-01T20:00:28+08:00",
-    "commit": "04c44474b765a26bea826ee2073c9fbb7c497e3a"
-  },
-  "entries/系统体验与机制/Projection.md": {
-    "updated": "2025-10-03T00:36:00+08:00",
-    "commit": "3b980b5c6fa48eb4b7b758bb3b64172618b2e57e"
-  },
-  "entries/系统体验与机制/Reconstruction.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统体验与机制/Regression-In-Psychology.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统体验与机制/Sense-Of-Presence.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统体验与机制/Sequestration.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统体验与机制/Stress-Response.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统体验与机制/Switch.md": {
-    "updated": "2025-10-03T01:41:23+08:00",
-    "commit": "76af9f52e230d2b710d32f4672ba81c211ee7b9d"
-  },
-  "entries/系统体验与机制/System.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统体验与机制/Trigger.md": {
-    "updated": "2025-10-03T13:47:09+08:00",
-    "commit": "7a546532747250efa645d1c02148f399c3390acb"
-  },
-  "entries/系统体验与机制/Tulpish.md": {
-    "updated": "2025-10-03T01:05:24+08:00",
-    "commit": "f4310e6229fbe1719c96853ba3352a04038880f0"
-  },
-  "entries/系统体验与机制/Visualization-Imagination.md": {
-    "updated": "2025-10-03T00:36:00+08:00",
-    "commit": "3b980b5c6fa48eb4b7b758bb3b64172618b2e57e"
-  },
-  "entries/系统角色与类型/Adaptive.md": {
-    "updated": "2025-10-01T21:32:06+08:00",
-    "commit": "17cc6ca16ef5d14cb8b7f395065c98e1907f5acb"
-  },
-  "entries/系统角色与类型/Admin.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统角色与类型/Alter.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统角色与类型/Alterhuman.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统角色与类型/Blending.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统角色与类型/Caregiver.md": {
-    "updated": "2025-10-01T23:16:22+08:00",
-    "commit": "b870055936d505cc31bbc5165534ed59122e7d27"
-  },
-  "entries/系统角色与类型/Core.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统角色与类型/Emmengard-Classification.md": {
-    "updated": "2025-10-01T22:00:22+08:00",
-    "commit": "857722ca168f7043c86180d6c36a068f50e08cfd"
-  },
-  "entries/系统角色与类型/Fauxmain.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统角色与类型/Fragment.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统角色与类型/Gatekeeper.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统角色与类型/Host.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统角色与类型/Iatrogenic-System.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统角色与类型/Imaginary-Companion.md": {
-    "updated": "2025-10-01T23:16:22+08:00",
-    "commit": "b870055936d505cc31bbc5165534ed59122e7d27"
-  },
-  "entries/系统角色与类型/Internal-Self-Helper-ISH.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统角色与类型/Little.md": {
-    "updated": "2025-10-01T23:16:22+08:00",
-    "commit": "b870055936d505cc31bbc5165534ed59122e7d27"
-  },
-  "entries/系统角色与类型/Main.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统角色与类型/Memory-Holder.md": {
-    "updated": "2025-10-01T23:16:22+08:00",
-    "commit": "b870055936d505cc31bbc5165534ed59122e7d27"
-  },
-  "entries/系统角色与类型/Original.md": {
-    "updated": "2025-10-01T23:16:22+08:00",
-    "commit": "b870055936d505cc31bbc5165534ed59122e7d27"
-  },
-  "entries/系统角色与类型/Performer-Executive.md": {
-    "updated": "2025-10-01T23:16:22+08:00",
-    "commit": "b870055936d505cc31bbc5165534ed59122e7d27"
-  },
-  "entries/系统角色与类型/Persecutor.md": {
-    "updated": "2025-10-01T23:16:22+08:00",
-    "commit": "b870055936d505cc31bbc5165534ed59122e7d27"
-  },
-  "entries/系统角色与类型/Persona.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统角色与类型/Polyfragmented.md": {
-    "updated": "2025-10-03T01:20:19+08:00",
-    "commit": "3be416ccef567df69776fc0e034e211f48e892b2"
-  },
-  "entries/系统角色与类型/Protector.md": {
-    "updated": "2025-10-01T23:16:22+08:00",
-    "commit": "b870055936d505cc31bbc5165534ed59122e7d27"
-  },
-  "entries/系统角色与类型/Servitor.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统角色与类型/Soulbond.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/系统角色与类型/Spontaneous.md": {
-    "updated": "2025-10-01T21:32:06+08:00",
-    "commit": "17cc6ca16ef5d14cb8b7f395065c98e1907f5acb"
-  },
-  "entries/系统角色与类型/System-Roles.md": {
-    "updated": "2025-10-01T23:16:22+08:00",
-    "commit": "b870055936d505cc31bbc5165534ed59122e7d27"
-  },
-  "entries/系统角色与类型/Teen.md": {
-    "updated": "2025-10-01T23:16:22+08:00",
-    "commit": "b870055936d505cc31bbc5165534ed59122e7d27"
-  },
-  "entries/系统角色与类型/Tulpa.md": {
-    "updated": "2025-10-03T13:25:33+08:00",
-    "commit": "5f4f5261336202d8f3a4a0759b4854d35dec33a0"
-  },
-  "entries/虚拟角色与文学影视作品/Another-Me-DID-Depictions.md": {
-    "updated": "2025-10-03T19:34:16+08:00",
-    "commit": "8fa7e77231da264ea958989b01f2a288ecf12995"
-  },
-  "entries/虚拟角色与文学影视作品/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md": {
-    "updated": "2025-10-03T19:34:16+08:00",
-    "commit": "8fa7e77231da264ea958989b01f2a288ecf12995"
-  },
-  "entries/虚拟角色与文学影视作品/Dostoevsky-The-Double-Self-Division.md": {
-    "updated": "2025-10-02T23:04:43+08:00",
-    "commit": "d30531bcf5a41afa2b7a29bc5a31f4380926de51"
-  },
-  "entries/虚拟角色与文学影视作品/Fight-Club-1999-Identity-Metaphor.md": {
-    "updated": "2025-10-02T23:04:43+08:00",
-    "commit": "d30531bcf5a41afa2b7a29bc5a31f4380926de51"
-  },
-  "entries/虚拟角色与文学影视作品/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md": {
-    "updated": "2025-10-03T19:34:16+08:00",
-    "commit": "8fa7e77231da264ea958989b01f2a288ecf12995"
-  },
-  "entries/虚拟角色与文学影视作品/Kafka-Metamorphosis-Identity-Dissolution.md": {
-    "updated": "2025-10-03T19:34:16+08:00",
-    "commit": "8fa7e77231da264ea958989b01f2a288ecf12995"
-  },
-  "entries/虚拟角色与文学影视作品/Lovecraft-Tulpa-Motifs.md": {
-    "updated": "2025-10-03T19:34:16+08:00",
-    "commit": "8fa7e77231da264ea958989b01f2a288ecf12995"
-  },
-  "entries/虚拟角色与文学影视作品/Madoka-Magica-Kyubey-Otherness.md": {
-    "updated": "2025-10-03T19:34:16+08:00",
-    "commit": "8fa7e77231da264ea958989b01f2a288ecf12995"
-  },
-  "entries/虚拟角色与文学影视作品/Mr-Robot-DID-Narrative.md": {
-    "updated": "2025-10-02T23:04:43+08:00",
-    "commit": "d30531bcf5a41afa2b7a29bc5a31f4380926de51"
-  },
-  "entries/虚拟角色与文学影视作品/Nonexistent-You-And-Me-Tulpa-Lilith.md": {
-    "updated": "2025-10-02T23:04:43+08:00",
-    "commit": "d30531bcf5a41afa2b7a29bc5a31f4380926de51"
-  },
-  "entries/虚拟角色与文学影视作品/Paranoia-Agent-Collective-Consciousness.md": {
-    "updated": "2025-10-02T23:04:43+08:00",
-    "commit": "d30531bcf5a41afa2b7a29bc5a31f4380926de51"
-  },
-  "entries/虚拟角色与文学影视作品/Split-2016-DID-Representation.md": {
-    "updated": "2025-10-02T23:04:43+08:00",
-    "commit": "d30531bcf5a41afa2b7a29bc5a31f4380926de51"
-  },
-  "entries/虚拟角色与文学影视作品/Sybil-1976-Cultural-Prototype.md": {
-    "updated": "2025-10-02T23:04:43+08:00",
-    "commit": "d30531bcf5a41afa2b7a29bc5a31f4380926de51"
-  },
-  "entries/虚拟角色与文学影视作品/Three-Faces-Of-Eve-1957-Dissociation.md": {
-    "updated": "2025-10-02T23:04:43+08:00",
-    "commit": "d30531bcf5a41afa2b7a29bc5a31f4380926de51"
-  },
-  "entries/虚拟角色与文学影视作品/Touhou-Tulpa-Fandom.md": {
-    "updated": "2025-10-03T19:34:16+08:00",
-    "commit": "8fa7e77231da264ea958989b01f2a288ecf12995"
-  },
-  "entries/虚拟角色与文学影视作品/United-States-Of-Tara-System-Daily-Life.md": {
-    "updated": "2025-10-02T23:04:43+08:00",
-    "commit": "d30531bcf5a41afa2b7a29bc5a31f4380926de51"
-  },
-  "entries/诊断与临床/Alexithymia.md": {
-    "updated": "2025-10-03T19:34:16+08:00",
-    "commit": "8fa7e77231da264ea958989b01f2a288ecf12995"
-  },
-  "entries/诊断与临床/Anxiety.md": {
-    "updated": "2025-10-03T19:34:16+08:00",
-    "commit": "8fa7e77231da264ea958989b01f2a288ecf12995"
-  },
-  "entries/诊断与临床/Attention-Deficit-Hyperactivity-Disorder-ADHD.md": {
-    "updated": "2025-10-03T19:34:16+08:00",
-    "commit": "8fa7e77231da264ea958989b01f2a288ecf12995"
-  },
-  "entries/诊断与临床/Autism-Spectrum-Disorder.md": {
-    "updated": "2025-10-03T19:34:16+08:00",
-    "commit": "8fa7e77231da264ea958989b01f2a288ecf12995"
-  },
-  "entries/诊断与临床/Bipolar-Disorders.md": {
-    "updated": "2025-10-03T19:34:16+08:00",
-    "commit": "8fa7e77231da264ea958989b01f2a288ecf12995"
-  },
-  "entries/诊断与临床/Borderline-Personality-Disorder-BPD.md": {
-    "updated": "2025-10-03T19:34:16+08:00",
-    "commit": "8fa7e77231da264ea958989b01f2a288ecf12995"
-  },
-  "entries/诊断与临床/CPTSD.md": {
-    "updated": "2025-10-01T20:53:06+08:00",
-    "commit": "2d68b00f0fe94cf878ec542db178aa9cf26390ad"
-  },
-  "entries/诊断与临床/DID.md": {
-    "updated": "2025-10-03T19:34:16+08:00",
-    "commit": "8fa7e77231da264ea958989b01f2a288ecf12995"
-  },
-  "entries/诊断与临床/Delirium.md": {
-    "updated": "2025-10-03T12:40:49+08:00",
-    "commit": "02a5ddacc77157da63c4bd45699544e9262a9902"
-  },
-  "entries/诊断与临床/Depersonalization-Derealization-Disorder-DPDR.md": {
-    "updated": "2025-10-03T02:08:14+08:00",
-    "commit": "94382673a5cf9373e9fdae4409d8acf07129ea94"
-  },
-  "entries/诊断与临床/Depressive-Disorders.md": {
-    "updated": "2025-10-03T02:08:14+08:00",
-    "commit": "94382673a5cf9373e9fdae4409d8acf07129ea94"
-  },
-  "entries/诊断与临床/Disorientation.md": {
-    "updated": "2025-10-03T12:40:49+08:00",
-    "commit": "02a5ddacc77157da63c4bd45699544e9262a9902"
-  },
-  "entries/诊断与临床/Dissociative-Amnesia-DA.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/诊断与临床/Flashback.md": {
-    "updated": "2025-10-03T12:09:53+08:00",
-    "commit": "a7937241f81256040e416f8b758aa9fbef7b5eb6"
-  },
-  "entries/诊断与临床/Mania.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/诊断与临床/Narcissistic-Personality-Disorder-NPD.md": {
-    "updated": "2025-10-02T18:11:24+08:00",
-    "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
-  },
-  "entries/诊断与临床/OCD.md": {
-    "updated": "2025-10-03T01:45:47+08:00",
-    "commit": "f8e8c2c92f3d94b8896a5143cb6e7285bd7920e6"
-  },
-  "entries/诊断与临床/OSDD.md": {
-    "updated": "2025-10-03T12:09:53+08:00",
-    "commit": "a7937241f81256040e416f8b758aa9fbef7b5eb6"
-  },
-  "entries/诊断与临床/PTSD.md": {
-    "updated": "2025-10-03T01:48:56+08:00",
-    "commit": "fc3068e0c3737247b489562a24950c5a684fd36e"
-  },
-  "entries/诊断与临床/Partial-Dissociative-Identity-Disorder-PDID.md": {
-    "updated": "2025-10-03T12:09:53+08:00",
-    "commit": "a7937241f81256040e416f8b758aa9fbef7b5eb6"
-  },
-  "entries/诊断与临床/Pathological-Dissociation.md": {
-    "updated": "2025-10-03T13:12:34+08:00",
-    "commit": "1f66649771c6c6cad29ec990e7a98b2ec0bef49f"
-  },
-  "entries/诊断与临床/Schizophrenia-SC.md": {
-    "updated": "2025-10-01T20:00:28+08:00",
-    "commit": "04c44474b765a26bea826ee2073c9fbb7c497e3a"
-  },
-  "entries/诊断与临床/Somatic-Symptom-Disorder-SSD.md": {
-    "updated": "2025-10-01T20:00:28+08:00",
-    "commit": "04c44474b765a26bea826ee2073c9fbb7c497e3a"
-  },
-  "entries/诊断与临床/Trauma.md": {
-    "updated": "2025-10-03T12:09:53+08:00",
-    "commit": "a7937241f81256040e416f8b758aa9fbef7b5eb6"
+  "entries/Plurality.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Polyfragmented.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Projection.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Protector.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Reconstruction.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Regression-In-Psychology.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Schizophrenia-SC.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Sense-Of-Presence.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Sequestration.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Servitor.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Single-Class-Systems-Xianyu.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Somatic-Symptom-Disorder-SSD.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Soul-Linked-Systems-Xianyu.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Soulbond.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Split-2016-DID-Representation.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Spontaneous.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Stress-Response.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Switch.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Sybil-1976-Cultural-Prototype.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/System-Roles.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/System.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Teen.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Three-Faces-Of-Eve-1957-Dissociation.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Touhou-Tulpa-Fandom.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Trauma.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Trigger.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Tulpa.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Tulpish.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/United-States-Of-Tara-System-Daily-Life.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Visualization-Imagination.md": {
+    "updated": "",
+    "commit": ""
+  },
+  "entries/Xianyu-Theory-Niche-Classification.md": {
+    "updated": "",
+    "commit": ""
   }
 }
