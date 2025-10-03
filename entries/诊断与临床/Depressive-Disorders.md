@@ -1,100 +1,118 @@
 # 抑郁障碍（Depressive Disorders）
 
-> **一句话定义**：抑郁障碍是一组以持续或反复的抑郁心境、兴趣丧失及广泛功能损害为核心特征的精神障碍。
+**本词条含有医学、精神医学与心理健康相关信息，仅供参考，不能替代专业诊断或治疗。**
 
 ---
 
-## 定义与同义词
+## 概述
 
-- **定义**：抑郁障碍（Depressive Disorders）是情绪障碍的一大类诊断，涵盖重度抑郁障碍、破坏性心境失调障碍、持续性抑郁障碍等疾病谱系。核心表现为情绪低落、兴趣减退，并常伴随认知与躯体症状，对学习、工作和人际关系造成显著影响。
-- **同义词/别称**：抑郁症、Depression。
-- **分类编码**：DSM-5-TR 抑郁障碍章节；ICD-11 抑郁障碍相关条目。
+抑郁障碍（Depressive Disorders）是一组以持续或反复的抑郁心境、兴趣丧失及多系统功能受损为特征的情绪障碍，包括重度抑郁障碍、持续性抑郁障碍、破坏性心境失调障碍等谱系。核心症状除了情绪低落，还包括认知与躯体变化，如注意力下降、睡眠紊乱、疲劳与自我价值感受损。抑郁障碍可影响任何年龄层，对学习、工作、人际关系和安全产生深远影响。
 
 ---
 
-## 主要特征
+## 诊断要点
 
-### 分类范围（DSM-5-TR）
+### ICD-11 摘要
 
-1. **破坏性心境失调障碍**（DMDD）：儿童青少年期，表现为持续易怒与爆发性行为。
-2. **重度抑郁障碍**（MDD）：最常见的抑郁类型，发作性出现。
-3. **持续性抑郁障碍**（PDD/心境恶劣）：症状相对轻，但可持续 ≥2 年（青少年 ≥1 年）。
-4. **经前期烦躁障碍**（PMDD）：与月经周期密切相关的周期性抑郁症状。
-5. **物质/药物所致抑郁障碍**。
-6. **由其他医学状况所致抑郁障碍**。
-7. **其他特定或未特定抑郁障碍**。
+- ICD-11 将抑郁障碍归于“情绪障碍”章节，强调持续的情绪低落、兴趣或愉悦感下降，并伴随能量减少、注意力困难、自我价值感降低等症状。[^who2023dep]
+- 严重度（轻度、中度、重度）依据症状数量与功能损害程度划分，可标注伴随症状（如躯体综合征）。
+- 需排除躁狂或轻躁狂发作，评估病程（单次发作或复发）。
+- **来源**：World Health Organization. *ICD-11 for Mortality and Morbidity Statistics*（2023 版，检索于 2025 年 1 月）。
 
-### 重度抑郁障碍的诊断要点
+### DSM-5-TR 摘要
 
-在 2 周内至少有 5 项症状，其中必须包含抑郁心境或兴趣丧失：
+- DSM-5-TR 将抑郁障碍分为破坏性心境失调障碍、重度抑郁障碍、持续性抑郁障碍、经前期烦躁障碍、物质/药物所致抑郁障碍、由医学状况所致抑郁障碍及其他特定/未特定抑郁障碍。[^apa2022]
+- 重度抑郁障碍诊断需在同一 2 周期间存在至少 5 项症状，其中包括抑郁心境或兴趣丧失，并造成功能受损。
+- 可使用“伴焦虑困扰”“伴忧郁特征”“伴精神病性特征”等说明子类型及病程（部分缓解、完全缓解、复发性）。
+- **来源**：American Psychiatric Association. *Diagnostic and Statistical Manual of Mental Disorders*（5th ed., text rev., 2022）。
 
-- 持续性情绪低落
-- 兴趣或愉快感减退
-- 体重/食欲显著改变
-- 失眠或嗜睡
-- 精神运动性激越或迟滞
-- 疲劳或精力不足
-- 自我评价低下、罪恶感
-- 注意力不集中或决策困难
-- 反复想到死亡、自杀意念或行为
+### 差异说明
 
-### 持续性抑郁障碍（心境恶劣）
-
-- 成人 ≥2 年、青少年 ≥1 年持续抑郁心境。
-- 伴随症状：食欲差/过度饮食、失眠/嗜睡、精力低下、低自尊、注意力差、对未来绝望。
-
-### 临床常见修饰语
-
-- 伴焦虑困扰、伴混合特征、伴忧郁特征、伴非典型特征、伴精神病性特征、伴季节性模式。
-- 说明发作情况：首次发作/复发、部分缓解/完全缓解。
+- ICD-11 注重症状持续时间与严重度分级，诊断结构较为精简；DSM-5-TR 则细分多种特定类别与说明。
+- DSM-5-TR 允许将破坏性心境失调障碍限定在 6–18 岁，而 ICD-11 将其视为“抑郁发作”的一种变式。
+- 两套体系均要求排除躁狂/轻躁狂病史，以避免误诊双相障碍。
 
 ---
 
-## 与其他概念的比较 / 鉴别
+## 临床表现
 
-- **与双相障碍**：抑郁障碍没有躁狂/轻躁狂发作史；双相障碍则包含躁狂相。
-- **与哀伤反应**：哀伤通常与丧失相关，情绪波动随时间缓解；抑郁障碍更为持久且伴广泛损害。
-- **与躯体疾病**：甲状腺疾病、贫血、慢性疼痛等可导致类似抑郁症状。
-- **与药物相关状态**：部分药物（如糖皮质激素）可引发抑郁表现。
-
----
-
-## 常见误区
-
-- **误区 1**：抑郁障碍只是“心情不好” → 实为临床诊断，有神经生物学与心理社会多重因素。
-- **误区 2**：抑郁障碍一定伴随哭泣 → 许多患者表现为情感麻木或易怒。
-- **误区 3**：抑郁障碍靠意志力就能好 → 多数情况需要专业干预（药物/心理治疗）。
+- **情绪与认知**：持续情绪低落、兴趣丧失、自我价值感下降、罪恶或无望感、注意力与决策困难。
+- **生理与行为**：睡眠问题（失眠或嗜睡）、食欲改变、体重波动、疲劳、精神运动性激越或迟滞。
+- **体验特征**：感到空虚、麻木、对未来悲观；部分个体出现焦虑、易怒或躯体疼痛。
+- **安全风险**：常伴自杀意念或自伤行为，需要即时风险评估与危机介入。
 
 ---
 
-## 实务建议
+## 解离机制与背景
 
-- **操作建议**：评估持续时间、功能损害、自杀风险；关注共病（焦虑、PTSD、物质使用）。
-- **自助提示**：规律作息、适度运动、写日记记录情绪波动、寻求社交支持。
-- **风险提示**：出现自伤或自杀风险时，应立即寻求紧急医疗援助。
+- **创伤与压力**：复杂创伤、持续性压力、歧视或社会孤立会增加抑郁风险，并可能与解离症状交互影响。
+- **神经生物学**：神经递质（5-HT、NE、DA）失衡、HPA 轴过度激活、炎症反应与神经网络连结改变与抑郁有关。[^krishnan2008]
+- **认知与社会因素**：负性归因、完美主义、长期照护压力或多意识系统内部冲突均可加重抑郁体验。
+
+---
+
+## 流行病学与病程
+
+- 全球终生患病率约 6%–8%；女性、LGBTQ+ 群体、慢性疾病患者、童年创伤幸存者风险更高。[^who2023dep]
+- 初次发病常在青春期或成年早期；部分个体呈慢性或复发性病程，需要长期管理。
+- 未治疗的抑郁障碍与失业、功能残疾、心血管疾病及自杀风险上升有关。
+
+---
+
+## 鉴别诊断
+
+- **双相障碍**：存在躁狂或轻躁狂发作；抑郁障碍无此病史。
+- **哀伤或适应障碍**：哀伤与特定丧失事件相关，情绪波动随时间改善；抑郁障碍症状更持久且广泛影响功能。
+- **躯体疾病**：甲状腺功能低下、贫血、慢性疼痛、神经系统疾病可呈现类似症状，需要医学评估。
+- **药物或物质影响**：糖皮质激素、干扰素、酒精或药物戒断均可能引发抑郁样表现。
+
+---
+
+## 共病与风险管理
+
+- 常见共病：焦虑障碍、PTSD/CPTSD、物质使用障碍、饮食障碍、强迫症、慢性疼痛或心身疾病。[^kessler2012]
+- 需持续评估自杀风险、物质使用、安全计划与社会支持；在多意识系统中应关注成员之间情绪负荷的分配。
+- 长期病程需监测药物副作用、代谢指标与功能恢复情况。
+
+---
+
+## 治疗与支持
+
+- **心理治疗**：认知行为疗法（CBT）、人际疗法（IPT）、行为激活、正念减压、创伤知情治疗等为循证方法。[^cuijpers2021]
+- **药物治疗**：首选 SSRIs/SNRIs，也可考虑 NaSSA、NDRI、三环类、MAOI 或情绪稳定剂，需由精神科医师评估并监测副作用。
+- **综合策略**：规律运动、睡眠卫生、营养管理、光照疗法、经颅磁刺激（rTMS）或电休克治疗（ECT）适用于特定情境。
+- **支持系统**：建立危机应对计划、同伴支持、家庭教育及工作/学业合理调整。
 
 ---
 
 ## 社群与临床语境
 
-- **社群观察**：在社交媒体与互助社区中，“抑郁”常作为泛化标签使用，可能与临床定义混淆。
-- **临床观点**：强调症状持续性、广泛性和对功能的损害，需严格区分亚临床抑郁与诊断性障碍。
-- **风险警示**：误将短暂心境波动等同于抑郁障碍，可能造成过度病理化或延误治疗。
+- 社群中“抑郁”常被泛化为所有低落情绪，容易忽略临床诊断标准；需倡导对专业评估与治疗的尊重。
+- 临床实践强调创伤知情与文化敏感性，避免将抑郁归因于意志薄弱或道德问题。
+- 多意识系统成员可能因前台负荷过重出现抑郁化表现，需要协调内部角色与休息时间。
 
 ---
 
 ## 相关条目
 
-- [重度抑郁障碍（MDD）](entries/诊断与临床/Major-Depressive-Disorder-MDD.md)
-- [双相障碍（BD）](entries/诊断与临床/Bipolar-Disorder-BD.md)
-- [创伤后应激障碍（PTSD）](entries/诊断与临床/PTSD.md)
+- [重度抑郁障碍](entries/诊断与临床/Major-Depressive-Disorder-MDD.md)
+- [双相障碍](entries/诊断与临床/Bipolar-Disorder-BD.md)
+- [创伤后应激障碍](entries/诊断与临床/PTSD.md)
 - [焦虑障碍](entries/诊断与临床/Anxiety-Disorders.md)
+- [复杂性创伤后应激障碍](entries/诊断与临床/CPTSD.md)
 
 ---
 
 ## 参考与延伸阅读
 
-1. American Psychiatric Association. (2022). *DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders*.
-2. World Health Organization. (2019). *ICD-11 for Mortality and Morbidity Statistics*.
-3. Gelenberg, A. J. (2010). *Depression in adults: Diagnosis and treatment*. *New England Journal of Medicine*, 362, 229-239.
-4. Pluralpedia. (2024). [Depressive Disorders](https://pluralpedia.org/w/Depressive_Disorders).
+1. World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Depressive episode and recurrent depressive disorder.* 检索于 2025-01-05，来自 [https://icd.who.int](https://icd.who.int)。[^who2023dep]
+2. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing. [^apa2022]
+3. Krishnan, V., & Nestler, E. J. (2008). The molecular neurobiology of depression. *Nature, 455*(7215), 894–902. [^krishnan2008]
+4. Kessler, R. C., et al. (2012). The epidemiology of major depressive disorder. *Dialogues in Clinical Neuroscience, 14*(1), 7–20. [^kessler2012]
+5. Cuijpers, P., et al. (2021). The efficacy of psychotherapy and pharmacotherapy in treating depressive and anxiety disorders. *World Psychiatry, 20*(2), 316–336. [^cuijpers2021]
+
+[^who2023dep]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Depressive episode and recurrent depressive disorder.* 检索于 2025-01-05，来自 [https://icd.who.int](https://icd.who.int)。
+[^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
+[^krishnan2008]: Krishnan, V., & Nestler, E. J. (2008). The molecular neurobiology of depression. *Nature, 455*(7215), 894–902.
+[^kessler2012]: Kessler, R. C., et al. (2012). The epidemiology of major depressive disorder. *Dialogues in Clinical Neuroscience, 14*(1), 7–20.
+[^cuijpers2021]: Cuijpers, P., et al. (2021). The efficacy of psychotherapy and pharmacotherapy in treating depressive and anxiety disorders. *World Psychiatry, 20*(2), 316–336.
