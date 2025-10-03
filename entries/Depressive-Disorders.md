@@ -1,6 +1,6 @@
 ---
 title: 抑郁障碍（Depressive Disorders）
-tags: [诊断与临床]
+tags: [来源, 抑郁障碍, 躯体疾病, 认知与社会因素, 药物治疗, 药物或物质影响, 综合策略, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -101,14 +101,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [重度抑郁障碍](entries/Major-Depressive-Disorder-MDD.md)
-- [双相障碍](entries/Bipolar-Disorder-BD.md)
-- [创伤后应激障碍](entries/PTSD.md)
-- [焦虑障碍](entries/Anxiety-Disorders.md)
-- [复杂性创伤后应激障碍](entries/CPTSD.md)
-
----
-
+- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
+- [复杂性创伤后应激障碍（CPTSD）](/entries/CPTSD.md)
+- [谵妄（Delirium）](/entries/Delirium.md)
+- [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
+- [定向障碍（Disorientation）](/entries/Disorientation.md)
+- [躯体化障碍（Somatic Symptom Disorder，SSD）](/entries/Somatic-Symptom-Disorder-SSD.md)
+- [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
+- [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
 ## 参考与延伸阅读
 
 1. World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Depressive episode and recurrent depressive disorder.* 检索于 2025-01-05，来自 [https://icd.who.int](https://icd.who.int)。[^who2023dep]

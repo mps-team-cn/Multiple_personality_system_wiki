@@ -1,6 +1,6 @@
 ---
 title: ANP-EP 模型（Apparently Normal Part–Emotional Part Model）
-tags: [系统体验与机制]
+tags: [解离性身份障碍 DID, 其他特定解离性障碍 OSDD, 理论模型, 诊断与临床, 结构性解离, 社区文化, 核心特征, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -102,6 +102,16 @@ updated: 2025-10-03
 
 ---
 
+## 相关条目
+
+- [解离（Dissociation）](/entries/Dissociation.md)
+- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
+- [成员（Alter）](/entries/Alter.md)
+- [自动驾驶（Autopilot）](/entries/Autopilot.md)
+- [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](/entries/Partial-Dissociative-Identity-Disorder-PDID.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [多意识体（Plurality）](/entries/Plurality.md)
+- [适应型（Adaptive）](/entries/Adaptive.md)
 ## 参考文献
 
 [^ANP-1]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.

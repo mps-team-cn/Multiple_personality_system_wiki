@@ -1,6 +1,6 @@
 ---
 title: 躯体认同（Body Ownership）
-tags: [系统体验与机制]
+tags: [躯体认同, 阶段性认同, 身体创伤与身体异化, 共享身体 缺乏共识, 与迭代 重构等系统变化, 与性别 年龄表达, 核心构成要素, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -36,6 +36,16 @@ updated: 2025-10-03
 3. **协商使用规则**：明确身体使用时段、护理责任与界限（如外表改造、纹身、医疗决策），减少“被剥夺”或“被侵占”的感受。
 4. **寻求社群与专业支持**：多意识体互助社群、具解离经验的治疗师与知情友人能提供肯定与见证，缓解外界误解对躯体认同造成的冲击。
 
+## 相关条目
+
+- [融合（Fusion）](/entries/Fusion.md)
+- [迭代（Iteration）](/entries/Iteration.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
+- [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [多意识体（Plurality）](/entries/Plurality.md)
 ## 参考资料
 
 - American Psychiatric Association. *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). Washington, DC: APA Publishing, 2013.

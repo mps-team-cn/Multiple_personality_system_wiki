@@ -1,6 +1,6 @@
 ---
 title: 自恋型人格障碍（Narcissistic Personality Disorder，NPD）
-tags: [诊断与临床]
+tags: [自恋型人格障碍, NPD, 界限与合作, 心理治疗, 共病处理, 诊断与临床, 治疗与支持, 临床关注点]
 updated: 2025-10-03
 ---
 
@@ -51,6 +51,16 @@ ICD-11 将人格障碍划分为单一诊断并通过严重程度与特质修饰�
 - **界限与合作**：治疗关系中需建立清晰界限，鼓励现实反馈与自我反思。
 - **共病处理**：若存在情绪障碍、冲动控制或物质问题，应同步给予相应的药物与心理干预。
 
+## 相关条目
+
+- [躯体化障碍（Somatic Symptom Disorder，SSD）](/entries/Somatic-Symptom-Disorder-SSD.md)
+- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
+- [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
+- [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
+- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
+- [躁狂（Mania）](/entries/Mania.md)
+- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
+- [创伤（Trauma）](/entries/Trauma.md)
 ## 参考资料
 
 1. American Psychiatric Association. _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., Text Revision), 2022.

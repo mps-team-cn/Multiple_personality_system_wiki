@@ -1,6 +1,6 @@
 ---
 title: 应激反应（Stress Response）
-tags: [系统体验与机制]
+tags: [应激反应, 躯体反应, 解离加剧, 成员切换, 情境评估, 外部支持, 系统体验与机制, 复盘学习]
 updated: 2025-10-03
 ---
 
@@ -37,6 +37,16 @@ Stress Response、压力反应、战斗或逃跑反应
 
 反复或长期的创伤压力会让 HPA 轴失调，导致系统在安全情境下仍出现强烈应激反应。对于解离性身份障碍与复杂性创伤后压力症候群，治疗通常需先建立稳定化技能，再处理创伤记忆[^应激反应-2][^应激反应-3]。
 
+## 相关条目
+
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
+- [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [多意识体（Plurality）](/entries/Plurality.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
 ## 参考资料
 
 [^应激反应-1]: McEwen, B. S. (2007). Physiology and neurobiology of stress and adaptation: central role of the brain. _Physiological Reviews, 87_(3), 873-904.

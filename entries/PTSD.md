@@ -1,6 +1,6 @@
 ---
 title: 创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）
-tags: [诊断与临床]
+tags: [创伤后应激障碍 PTSD, 定义与同义词, 创伤后应激反应障碍, 社群与临床语境, 常见误区, 实务建议, 诊断与临床, 参考与延伸阅读]
 updated: 2025-10-03
 ---
 
@@ -81,16 +81,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-* [创伤](entries/Trauma.md)
-* [复杂性创伤后应激障碍](entries/CPTSD.md)
-* [解离性身份障碍](entries/DID.md)
-* [解离性遗忘](entries/Dissociative-Amnesia-DA.md)
-* [人格解体/现实解体障碍](entries/Depersonalization-Derealization-Disorder-DPDR.md)
-* [应激反应](entries/Stress-Response.md)
-* [躯体化障碍](entries/Somatic-Symptom-Disorder-SSD.md)
-
----
-
+- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
+- [闪回（Flashback）](/entries/Flashback.md)
+- [创伤（Trauma）](/entries/Trauma.md)
+- [切换（Switch）](/entries/Switch.md)
+- [共前台（Co-fronting）](/entries/Co-Fronting.md)
+- [冥想（Meditation）](/entries/Meditation.md)
+- [偏重（Bias / Median）](/entries/Bias.md)
+- [复杂性创伤后应激障碍（CPTSD）](/entries/CPTSD.md)
 ## 参考与延伸阅读
 
 1. APA. (2022). *DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders*.

@@ -1,6 +1,6 @@
 ---
 title: 《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）
-tags: [虚拟角色与文学影视作品]
+tags: [角色共鸣, 文化解读, 界限意识, 创作扩展, 社群实践, 基础概念, 文化讨论, 虚拟角色与文学影视作品]
 updated: 2025-10-03
 ---
 
@@ -27,6 +27,16 @@ updated: 2025-10-03
 - [系魂（Soulbond）](entries/Soulbond.md)
 - [幻想伙伴（Imaginary Companion）](entries/Imaginary-Companion.md)
 
+## 相关条目
+
+- [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](/entries/Madoka-Magica-Kyubey-Otherness.md)
+- [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](/entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
+- [洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）](/entries/Lovecraft-Tulpa-Motifs.md)
+- [《妄想代理人》（Paranoia Agent）与集体意识的具象化](/entries/Paranoia-Agent-Collective-Consciousness.md)
+- [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](/entries/Nonexistent-You-And-Me-Tulpa-Lilith.md)
+- [傀儡（Servitor）](/entries/Servitor.md)
+- [埃蒙加德分类法（Emmengard Classification）](/entries/Emmengard-Classification.md)
+- [头压（Head Pressure）](/entries/Head-Pressure.md)
 ## 参考资料
 
 - （待补充）

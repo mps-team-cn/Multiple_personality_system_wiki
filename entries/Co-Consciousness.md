@@ -1,6 +1,6 @@
 ---
 title: 意识共存（Co-consciousness）
-tags: [系统体验与机制]
+tags: [意识共存, 多轨思维, 预设沟通渠道, 融合 整合, 情绪共鸣, 安全退出机制, 系统体验与机制, 存在感]
 updated: 2025-10-03
 ---
 
@@ -42,6 +42,16 @@ updated: 2025-10-03
 
 临床研究指出，意识共存是解离性身份障碍中常见的合作形式，也是迈向功能整合的重要指标之一。能否稳定维持共存，与内部安全感、信任与外部支持密切相关[^意识共存-1][^意识共存-2]。
 
+## 相关条目
+
+- [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
+- [独立性（Independence）](/entries/Independence.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
 ## 参考资料
 
 [^意识共存-1]: Kluft, R. P. (1984). Treatment of multiple personality disorder. *Psychiatric Clinics of North America, 7*(1), 9-29.

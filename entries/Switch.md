@@ -1,6 +1,6 @@
 ---
 title: 切换（Switch）
-tags: [系统体验与机制]
+tags: [定义与同义词, 切换, 交替, 主要特征, 社群与临床语境, 常见误区, 系统体验与机制, 实务建议]
 updated: 2025-10-03
 ---
 
@@ -44,10 +44,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-* [前台（Front / Fronting）](entries/Front-Fronting.md)
-* [共前台（Co-fronting）](entries/Co-Fronting.md)
-* [解离（Dissociation）](entries/Dissociation.md)
-
+- [共前台（Co-fronting）](/entries/Co-Fronting.md)
+- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](/entries/PTSD.md)
+- [偏重（Bias / Median）](/entries/Bias.md)
+- [内部空间（Headspace / Inner World）](/entries/Headspace-Inner-World.md)
+- [系统（System）](/entries/System.md)
+- [系魂型系统（Soul-Linked Systems, Xianyu Theory）](/entries/Soul-Linked-Systems-Xianyu.md)
+- [家族式系统（Family Systems, Xianyu Theory）](/entries/Family-Systems-Xianyu.md)
+- [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](/entries/Xianyu-Theory-Niche-Classification.md)
 ## 参考与延伸阅读
 
 [^pluralpedia-switch]: Pluralpedia. (2024). [Switching](https://pluralpedia.org/w/Switching).

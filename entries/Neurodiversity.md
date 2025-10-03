@@ -1,6 +1,6 @@
 ---
 title: 神经多样性（Neurodiversity）
-tags: [相关概念与理论, 社群与文化]
+tags: [神经多样性, 跨标签协作, 自我决定权, 结构性资源差距, 社会模型, 知识传播, 社群与文化, 相关概念与理论]
 updated: 2025-10-03
 ---
 
@@ -44,11 +44,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [孤独症谱系（ASD）](entries/Autism-Spectrum-Disorder.md)
-- [注意缺陷多动障碍（ADHD）](entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
-- [创伤（Trauma）](entries/Trauma.md)
-- [多意识体（Plurality）](entries/Plurality.md)
-
+- [《我与梦露的一周》（The United States of Tara）中的系统家庭日常](/entries/United-States-Of-Tara-System-Daily-Life.md)
+- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](/entries/Dostoevsky-The-Double-Self-Division.md)
+- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
+- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](/entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
+- [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](/entries/Three-Faces-Of-Eve-1957-Dissociation.md)
+- [《隐形人》（Mr. Robot）中的人格分裂叙事](/entries/Mr-Robot-DID-Narrative.md)
+- [《西比尔》（Sybil, 1976）与多重人格文化原型](/entries/Sybil-1976-Cultural-Prototype.md)
+- [感官调节策略（Sensory Regulation Strategies）](/entries/Sensory-Regulation-Strategies.md)
 ## 参考与延伸阅读
 
 1. Singer, J. (1998). *NeuroDiversity: The Birth of an Idea*. (未出版荣誉论文). University of Technology Sydney.
