@@ -2,80 +2,118 @@
 
 **本词条涉及意识混乱、幻觉与急性医疗紧急状况的描述。若本人或身边的人出现突然混乱、无法辨认环境、行为异常或生命体征改变，请立即联系当地急救服务。**
 
-## 相关术语
-
-- 谵妄（Delirium）
-- 急性混乱状态（Acute Confusional State）
-- 超急性脑病（Acute Encephalopathy）
-- 脑性谵妄（Hyperactive Delirium）与低活动型谵妄（Hypoactive Delirium）
+---
 
 ## 概述
 
-谵妄是一种急性发生、在数小时至数日内波动的意识和认知障碍，核心特征包括注意力受损、觉察力降低及认知功能混乱，常见伴随 [定向障碍（Disorientation）](entries/诊断与临床/Disorientation.md)、记忆困难、幻觉或妄想。[^apa2022][^inouye2014] 它多由躯体疾病、药物作用、代谢失衡、感染或中毒等可逆因素触发，也可能在严重创伤、手术、住院环境压力下出现。对于已有神经认知障碍或经历重大创伤（详见 [创伤（Trauma）](entries/诊断与临床/Trauma.md)）的个体，谵妄可加剧安全风险并影响康复过程。[^nice2023][^flaherty2020]
+谵妄是一种在数小时至数日内急性起病并呈波动性的意识与认知障碍，核心特征包括注意力受损、觉察力下降与认知混乱。常伴随 [定向障碍（Disorientation）](entries/诊断与临床/Disorientation.md)、记忆困难、幻觉或妄想，通常由躯体疾病、药物效应、代谢失衡或感染等可逆因素诱发。对于已有神经认知障碍或经历重大创伤（详见 [创伤（Trauma）](entries/诊断与临床/Trauma.md)）的个体，谵妄会显著提高跌倒、并发症与死亡风险。
 
-谵妄的病程通常短暂但危害重大，与住院死亡率、跌倒、延长治疗天数相关，需要迅速识别并处理诱因。对多意识系统而言，谵妄与解离或成员切换的主观体验可能混淆，应结合时间进程、生命体征变化和可逆医学因素评估。
+---
 
-## DSM-5-TR 原文
+## 诊断要点
 
-> "A disturbance in attention (i.e., reduced ability to direct, focus, sustain, and shift attention) and awareness (reduced orientation to the environment)."[^apa2022]
->
-> "The disturbance develops over a short period of time (usually hours to a few days), represents a change from baseline attention and awareness, and tends to fluctuate in severity during the course of a day."[^apa2022]
->
-> "An additional disturbance in cognition (e.g., memory deficit, disorientation, language, visuospatial ability, or perception)."[^apa2022]
+### ICD-11 摘要
 
-DSM-5-TR 强调谵妄需有急性起病、波动的意识与注意力受损，并伴随至少一项额外认知障碍。诊断前须排除既往神经认知障碍的慢性进展，以及纯粹由药物戒断或清醒度改变引起的症状。[^apa2022]
+- 分类代码 6D70：强调意识层级与注意力的全面障碍，伴随认知损害、睡眠—觉醒节律紊乱及情绪或知觉改变。[^who2023]
+- 症状在短时间内发展，并于一天之内出现显著波动。
+- 需要识别潜在的躯体或物质相关诱因，并评估功能损害。
+- **来源**：World Health Organization. *ICD-11 for Mortality and Morbidity Statistics*（2023 版，检索于 2025 年 1 月）。
 
-## ICD-11 与国际指南要点
+### DSM-5-TR 摘要
 
-- **ICD-11（6D70）**：描述谵妄为意识层级与注意力的全面障碍，伴随认知损害、睡眠—觉醒节律紊乱及情绪与感知改变，症状在短时间内发展并日内波动。[^who2023]
-- **NICE 2023 指南**：建议高危族群（≥65 岁、严重疾病、骨科手术、感染、脱水、既往认知障碍或创伤史）维持睡眠、补水、感官辅助设备与疼痛管理，并每日评估认知与定向力。[^nice2023]
-- **美国老年医学会/国际共识**：强调非药物干预（定向提示、感官矫正、早期活动）为首要策略，药物仅用于严重激越或危险行为且需短期使用。[^flaherty2020]
+- 特征性注意力与意识障碍伴额外认知损害（记忆、定向、语言、知觉或视觉空间能力）。[^apa2022]
+- 症状在短时间内发生，代表与基线状态的改变，并在一天内波动。
+- 需要证据表明由其他医疗状况、物质或多因素引起，而非既往神经认知障碍的慢性进展。
+- **来源**：American Psychiatric Association. *Diagnostic and Statistical Manual of Mental Disorders*（5th ed., text rev., 2022）。
+
+### 差异说明
+
+- ICD-11 更强调意识层级改变与日内波动，并在编码上提供“有/无伴随激越”注记；DSM-5-TR 则提供“由物质中毒”“由戒断”“由多因素”“未特定”四种说明。
+- 两套体系均要求排除纯粹的意识水平改变（如昏迷）与慢性神经认知障碍；临床上应结合病史与体检快速识别可逆原因。
+
+---
 
 ## 临床表现
 
-- **意识与认知**：注意力难以集中或转移、短期记忆障碍、语言混乱、感知扭曲，常伴 [定向障碍（Disorientation）](entries/诊断与临床/Disorientation.md)。
-- **精神行为**：可出现幻觉、妄想、情绪剧烈波动；高活动型表现为躁动、拔管或走失，低活动型则呆滞、反应迟缓，易被忽略。
-- **生理特征**：睡眠—觉醒节律混乱、血压和心率波动、出汗、脱水迹象；急性疼痛、呼吸困难或感染症状。
-- **系统体验**：多意识系统成员可能报告时间跳跃、陌生环境感或内部分离感增强，应记录发作时间与触发事件。
+- **意识与认知**：注意力难以集中或转移、短期记忆障碍、语言混乱、感知扭曲，常伴 [定向障碍](entries/诊断与临床/Disorientation.md)。
+- **精神行为**：出现幻觉、妄想、情绪剧烈波动；高活动型表现为躁动、拔管或走失，低活动型则呆滞、反应迟缓，易被忽视。
+- **生理特征**：睡眠—觉醒节律混乱、心率血压波动、脱水迹象；常伴疼痛、呼吸困难或感染症状。
+- **系统体验**：多意识系统成员可能感到时间跳跃、环境陌生或内部分离感增强，应记录触发事件与生命体征变化以协助区分解离发作。
 
-## 常见诱因与风险因素
+---
 
-1. **躯体与代谢问题**：感染（肺炎、泌尿道感染、败血症）、低氧、低血糖、电解质紊乱、肝肾功能衰竭、术后并发症。[^inouye2014]
-2. **药物与物质**：镇静催眠药、抗胆碱药、阿片类、抗组胺药、酒精或药物戒断、多重用药互动。[^flaherty2020]
-3. **神经系统疾病**：既往或新发的神经认知障碍、中风、颅脑外伤、癫痫后状态、脑炎。
-4. **环境与心理压力**：ICU、隔离病房、感官剥夺、睡眠剥夺、极端心理压力或创伤再触发。[^nice2023]
+## 解离机制与背景
 
-## 评估与监测
+- **急性脑功能失调**：感染、低氧、代谢紊乱或药物毒性导致神经递质失衡（乙酰胆碱下降、去甲肾上腺素与多巴胺波动），引发注意力与觉察障碍。[^inouye2014]
+- **创伤应激与脆弱性**：既往创伤史、睡眠剥夺、感官剥夺或 ICU 环境会触发高度应激，使多意识系统中的定向能力进一步受损。[^nice2023]
+- **结构性解离观点**：谵妄时 ANP 与 EP 的协作能力急剧下降，前台成员难以维持时间与空间连续性，需密切监测内外部安全。
 
-1. **快速筛检工具**：
-   - 混乱评估法（Confusion Assessment Method, CAM）与 CAM-ICU。[^inouye2014]
-   - 4AT、3D-CAM 或简易谵妄测试（Brief Confusion Assessment Method）。[^shrestha2020]
-2. **基础检测**：
-   - 生命体征、血糖、电解质、血液学、肝肾功能、感染指标、药物浓度。
-   - 必要时脑影像（CT/MRI）、脑电图排除癫痫、脑炎。
-3. **病史与系统信息**：
-   - 记录发作前的睡眠、疼痛、药物调整、感染迹象、创伤触发事件。
-   - 在多意识系统中，收集成员切换日志、前台时间与定向力评分，辨别谵妄与解离发作。
+---
 
-## 干预与支持
+## 流行病学与病程
 
-1. **处理病因**：积极治疗感染、纠正脱水与电解质、调整或停用诱发药物、管理疼痛与戒断症状。
-2. **环境优化**：保持光线与昼夜节律、提供时钟日历、允许熟悉物品或家属陪伴、确保眼镜与助听器可用。
-3. **安全管理**：防走失、防拔管、评估跌倒风险；必要时安排陪护或低约束安全措施。
-4. **药物策略**：仅在严重激越或危及安全时，由专业医师短期使用小剂量抗精神病药（如氟哌啶醇或喹硫平）；避免常规使用苯二氮䓬类，除非为酒精或苯二氮䓬戒断。[^flaherty2020]
-5. **多意识系统支持**：由信任成员负责“定向提示”（提醒时间地点、当前任务），将医疗信息记录在共享日志，必要时预先设定紧急医疗授权。
+- 住院患者总体发生率约 10%–30%，在 ICU、术后与老年内科病房可达 50% 以上。[^inouye2014]
+- ≥65 岁、高龄手术、既往认知障碍、重症感染、物质使用障碍或多重用药者风险较高。[^nice2023]
+- 谵妄多为短期可逆，但若诱因未纠正或反复发作，可对认知功能造成长期影响，并增加死亡率与照护成本。
 
-## 预防与恢复
+---
 
-- 维护规律睡眠、补水与营养，尽早活动与复健。
-- 与医护团队沟通既往认知状况、创伤史和多意识系统特点，避免过度刺激或误判切换。
-- 康复阶段持续追踪注意力、记忆及情绪状态，安排心理支持或复健治疗，降低复发风险。
+## 鉴别诊断
 
-## 参考资料
+- **急性精神病性障碍**：虽也可出现幻觉妄想，但谵妄具明显意识水平与注意力下降。
+- **重度抑郁或双相障碍发作**：情绪症状虽显著，通常缺乏急性波动的定向障碍与生命体征改变。
+- **解离性发作/离解症**：解离常与创伤触发相关，生命体征较稳定；谵妄则伴躯体病因与注意力广泛受损。
+- **痴呆急性恶化**：慢性过程上逐渐进展；若突然恶化且存在可逆诱因，应考虑谵妄叠加。
 
+---
+
+## 共病与风险管理
+
+- 谵妄常与感染、败血症、呼吸衰竭、心血管疾病或药物副作用共存，需综合处理。
+- 多意识系统个体可能因切换频繁造成跌倒或自伤风险，需建立安全陪护与环境提示（时钟、日历、定位卡片）。
+- 密切监测生命体征、液体平衡与疼痛管理；避免使用约束，优先采用创伤知情与低刺激的照护策略。
+
+---
+
+## 治疗与支持
+
+- **处理诱因**：积极治疗感染、矫正低氧或代谢异常、调整引发药物、管理戒断症状。
+- **环境与定向**：保持光线与昼夜节律，提供眼镜、助听器与熟悉物品，透过定向卡或语音提醒强化安全感。
+- **非药物干预**：早期活动、补水、认知刺激、感官整合训练（音乐、触觉）降低症状波动。[^flaherty2020]
+- **药物策略**：仅在严重激越危及安全时，由医师短期使用低剂量抗精神病药；除戒断情境外应避免常规使用苯二氮䓬类。[^nice2023]
+- **系统支持**：在多意识社群内建立“医疗应急角色”与共享日志，记录诱因、发作时间与处理流程。
+
+---
+
+## 社群与临床语境
+
+- 临床团队需辨识谵妄与解离或精神病性症状的不同，避免将急性躯体病因误判为纯心理问题。
+- 多意识系统社群倡议携带“医疗信息卡”，包含成员偏好、触发因素与紧急联络人，以便医护提供创伤知情照护。
+- 随着老龄化与 ICU 医疗量增加，谵妄教育被纳入护理与医学训练重点，强调跨学科合作与家庭参与。
+
+---
+
+## 相关条目
+
+- [定向障碍](entries/诊断与临床/Disorientation.md)
+- [创伤](entries/诊断与临床/Trauma.md)
+- [复杂性创伤后应激障碍](entries/诊断与临床/CPTSD.md)
+- [人格解体/现实解体障碍](entries/诊断与临床/Depersonalization-Derealization-Disorder-DPDR.md)
+
+---
+
+## 参考与延伸阅读
+
+1. World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Delirium (6D70).* 检索于 2025-01-05，来自 [https://icd.who.int](https://icd.who.int)。[^who2023]
+2. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing. [^apa2022]
+3. Inouye, S. K., Westendorp, R. G. J., & Saczynski, J. S. (2014). Delirium in elderly people. *The Lancet, 383*(9920), 911–922. [^inouye2014]
+4. National Institute for Health and Care Excellence. (2023). *Delirium: Prevention, diagnosis and management (NG103).* [^nice2023]
+5. Flaherty, J. H., & Little, M. O. (2020). Matching the environment to patients with delirium: Lessons learned from the delirium room. *Journal of the American Geriatrics Society, 68*(2), 455–461. [^flaherty2020]
+6. Shrestha, S., Granger, B. B., & McKeon, S. (2020). Screening, diagnosis, and prevention of delirium in hospitalized older adults: A review. *Clinical Geriatrics, 28*(1), 22–31. [^shrestha2020]
+
+[^who2023]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Delirium (6D70).* 检索于 2025-01-05，来自 [https://icd.who.int](https://icd.who.int)。
 [^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
-[^inouye2014]: Inouye, S. K., Westendorp, R. G. J., & Saczynski, J. S. (2014). Delirium in elderly people. *The Lancet, 383*(9920), 911–922. [https://doi.org/10.1016/S0140-6736(13)60688-1](https://doi.org/10.1016/S0140-6736(13)60688-1)
-[^nice2023]: National Institute for Health and Care Excellence. (2023). *Delirium: prevention, diagnosis and management (NG103).* [https://www.nice.org.uk/guidance/ng103](https://www.nice.org.uk/guidance/ng103)
-[^flaherty2020]: Flaherty, J. H., & Little, M. O. (2020). Matching the environment to patients with delirium: lessons learned from the delirium room. *Journal of the American Geriatrics Society, 68*(2), 455–461. [https://doi.org/10.1111/jgs.16283](https://doi.org/10.1111/jgs.16283)
-[^who2023]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Delirium (6D70).* [https://icd.who.int/en](https://icd.who.int/en)
+[^inouye2014]: Inouye, S. K., Westendorp, R. G. J., & Saczynski, J. S. (2014). Delirium in elderly people. *The Lancet, 383*(9920), 911–922.
+[^nice2023]: National Institute for Health and Care Excellence. (2023). *Delirium: Prevention, diagnosis and management (NG103).* 取自 [https://www.nice.org.uk/guidance/ng103](https://www.nice.org.uk/guidance/ng103)。
+[^flaherty2020]: Flaherty, J. H., & Little, M. O. (2020). Matching the environment to patients with delirium: Lessons learned from the delirium room. *Journal of the American Geriatrics Society, 68*(2), 455–461.
 [^shrestha2020]: Shrestha, S., Granger, B. B., & McKeon, S. (2020). Screening, diagnosis, and prevention of delirium in hospitalized older adults: A review. *Clinical Geriatrics, 28*(1), 22–31.
