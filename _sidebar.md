@@ -3,7 +3,7 @@
   - <a href="#" onclick="window.location.hash = '#/Main_Page.html'; return false;">首页</a>
   - [目录索引](index.md)
   - [术语表](Glossary.md)
-  - [最近更新](index#/recent)
+  - <a href="/recent">最近更新</a>
 
 - **核心词条**
 
