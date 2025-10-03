@@ -123,6 +123,22 @@
       sidebar.appendChild(wrapper);
     }
 
+    const stopPropagation = (event) => {
+      event.stopPropagation();
+    };
+
+    const registerLocalInteractionGuards = (element) => {
+      ["pointerdown", "touchstart", "mousedown", "click"].forEach(
+        (type) => {
+          element.addEventListener(type, stopPropagation);
+        }
+      );
+    };
+
+    registerLocalInteractionGuards(wrapper);
+    registerLocalInteractionGuards(input);
+    registerLocalInteractionGuards(results);
+
     input.addEventListener("focus", () => {
       ensureIndex(latestVM || {});
       if (input.value.trim()) {
