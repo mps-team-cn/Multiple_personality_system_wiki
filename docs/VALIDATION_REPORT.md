@@ -5,6 +5,7 @@
 本报告依据《CONTRIBUTING.md》与《docs/TEMPLATE_ENTRY.md》自动生成，用于辅助校对。
 
 ## 检查范围
+
 - `entries/` 目录下的全部 Markdown 词条
 - 一级标题格式需符合《CONTRIBUTING.md》要求：`中文名（English/缩写）`
 - `entries/诊断与临床/` 目录额外检查模板章节：
@@ -24,6 +25,7 @@
   - ## 参考与延伸阅读
 
 ## 一级标题格式问题
+
 - `entries/虚拟角色与文学影视作品/Another-Me-DID-Depictions.md`：一级标题未包含“中文名（English/缩写）”格式的全角括号
 - `entries/虚拟角色与文学影视作品/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md`：一级标题未包含“中文名（English/缩写）”格式的全角括号
 - `entries/虚拟角色与文学影视作品/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md`：一级标题未包含“中文名（English/缩写）”格式的全角括号
@@ -33,6 +35,7 @@
 - `entries/虚拟角色与文学影视作品/Touhou-Tulpa-Fandom.md`：一级标题未包含“中文名（English/缩写）”格式的全角括号
 
 ## 诊断与临床结构缺失
+
 - `entries/诊断与临床/Alexithymia.md`
   - 缺失章节：## 概述, ## 诊断要点, ### ICD-11 摘要, ### DSM-5-TR 摘要, ### 差异说明, ## 临床表现, ## 解离机制与背景, ## 流行病学与病程, ## 鉴别诊断, ## 共病与风险管理, ## 治疗与支持, ## 社群与临床语境, ## 相关条目
 - `entries/诊断与临床/Anxiety.md`

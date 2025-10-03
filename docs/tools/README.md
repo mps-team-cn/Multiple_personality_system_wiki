@@ -22,10 +22,13 @@
 ### 🧰 一键修复 Markdown
 
 ```bash
+
 # 1) 自动修复
+
 python tools/fix_md.py
 
 # 2) 校验（需安装 markdownlint-cli）
+
 markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
 ```
 

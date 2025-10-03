@@ -1,6 +1,6 @@
 # GitHub 提交流程指南（GITHUB_WORKFLOW.md）
 
-本指南面向 **Plurality Wiki** 的贡献者，介绍如何通过 GitHub 提交内容。  
+本指南面向 **Plurality Wiki** 的贡献者，介绍如何通过 GitHub 提交内容。
 推荐流程：**Fork 仓库 → 新建分支 → 修改提交 → Pull Request (PR)**。
 
 ---
@@ -13,7 +13,7 @@
    - Fork 后地址示例：
 
      ```text
-     https://github.com/你的用户名/plurality_wiki
+     [https://github.com/你的用户名/plurality_wiki](https://github.com/你的用户名/plurality_wiki)
      ```
 
 ---
@@ -21,10 +21,13 @@
 ## 2. 克隆到本地
 
 ```bash
+
 # 克隆自己 Fork 的仓库
+
 git clone https://github.com/你的用户名/plurality_wiki.git
 
 # 进入仓库目录
+
 cd plurality_wiki
 ```
 
@@ -97,17 +100,22 @@ git push origin feat/add-did-entry
 如果主仓库更新，需要将改动同步到自己 Fork：
 
 ```bash
+
 # 添加上游仓库
+
 git remote add upstream https://github.com/kuliantnt/plurality_wiki.git
 
 # 获取更新
+
 git fetch upstream
 
 # 合并到本地 main
+
 git checkout main
 git merge upstream/main
 
 # 推送到自己的 fork
+
 git push origin main
 ```
 
