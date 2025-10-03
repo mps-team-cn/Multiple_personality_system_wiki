@@ -1,4 +1,4 @@
-# 洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射
+# 洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）
 
 ## 概述
 

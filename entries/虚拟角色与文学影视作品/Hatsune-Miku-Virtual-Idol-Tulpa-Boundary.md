@@ -1,4 +1,4 @@
-# 虚拟偶像与 Tulpa 的边界：初音未来现象
+# 虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）
 
 ## 概述
 
