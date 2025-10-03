@@ -3,7 +3,20 @@
 ## 实践与支持
 
 - [冥想（Meditation）](entries/Meditation.md)
+- [感官调节策略（Sensory Regulation Strategies）](entries/Sensory-Regulation-Strategies.md)
 - [接地（Grounding）](entries/Grounding.md)
+
+## 感官调节
+
+- [感官调节策略（Sensory Regulation Strategies）](entries/Sensory-Regulation-Strategies.md)
+
+## 相关概念与理论
+
+- [神经多样性（Neurodiversity）](entries/Neurodiversity.md)
+
+## 社群与文化
+
+- [神经多样性（Neurodiversity）](entries/Neurodiversity.md)
 
 ## 系统体验与机制
 
