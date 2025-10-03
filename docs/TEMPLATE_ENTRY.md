@@ -2,9 +2,18 @@
 
 以下内容可直接复制，用于新建条目。
 
+- 新建词条时请先填写 Frontmatter：`title`（一级标题文字）、`tags`（一个或多个分类标签）、`updated`（YYYY-MM-DD）。
+- `tags` 建议与 `tags.md` 中已有标签保持一致，可按需要追加多个标签。
+
 ## 诊断与临床
 
 ```markdown
+
+---
+title: 条目中文名（English/缩写）
+tags: [诊断与临床]
+updated: YYYY-MM-DD
+---
 
 # 条目中文名（English/缩写）
 
@@ -106,8 +115,8 @@ _如有触发风险，请谨慎阅读。_
 
 ## 相关条目
 
-- [相关条目 A](entries/诊断与临床/xxx.md)
-- [相关条目 B](entries/诊断与临床/yyy.md)
+- [相关条目 A](entries/xxx.md)
+- [相关条目 B](entries/yyy.md)
 
 ---
 
