@@ -104,6 +104,7 @@ DID 的治疗通常遵循分阶段模式：
 - [其他特定解离性障碍（OSDD）](entries/诊断与临床/OSDD.md)
 - [创伤后应激障碍（PTSD）](entries/诊断与临床/PTSD.md)
 - [复杂性创伤后应激障碍（CPTSD）](entries/诊断与临床/CPTSD.md)
+- [人格解体/现实解体障碍（DPDR）](entries/诊断与临床/Depersonalization-Derealization-Disorder-DPDR.md)
 
 ---
 
