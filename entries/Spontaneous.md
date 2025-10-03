@@ -3,6 +3,7 @@ title: 自发型（Spontaneous）
 tags: [系统角色与类型]
 updated: 2025-10-03
 ---
+
 # 自发型（Spontaneous）
 
 ## 定义

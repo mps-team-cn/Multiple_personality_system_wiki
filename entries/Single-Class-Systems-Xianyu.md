@@ -3,6 +3,7 @@ title: 单一类系统（Single-Class Systems, Xianyu Theory）
 tags: [系统体验与机制]
 updated: 2025-10-03
 ---
+
 # 单一类系统（Single-Class Systems, Xianyu Theory）
 
 > **一句话定义**：弦羽理论分类中的基础类别，指以单一功能定位为核心的系统形态。

@@ -3,6 +3,7 @@ title: 醉酒解离（Alcohol-Induced Dissociation）
 tags: [系统体验与机制]
 updated: 2025-10-03
 ---
+
 # 醉酒解离（Alcohol-Induced Dissociation）
 
 **一句话定义**：在多意识体与创伤恢复社群中，“醉酒解离”常被用来描述解离发作时的主观体验或旁观者观察，特点是动作拖慢、语句含混、步态不稳等表现看起来像醉酒，但实际并未摄入酒精或其他致醉物质。

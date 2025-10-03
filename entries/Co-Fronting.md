@@ -3,6 +3,7 @@ title: 共前台（Co-fronting）
 tags: [系统体验与机制]
 updated: 2025-10-03
 ---
+
 # 共前台（Co-fronting）
 
 > **一句话定义**：共前台指两个及以上成员同时维持前台意识与身体控制，彼此共享感知并协作处理外部任务的状态。[^pluralpedia-cofront]

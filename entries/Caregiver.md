@@ -3,6 +3,7 @@ title: 照顾者（Caregiver）
 tags: [系统角色与类型]
 updated: 2025-10-03
 ---
+
 # 照顾者（Caregiver）
 
 ## 定义

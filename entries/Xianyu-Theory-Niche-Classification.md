@@ -3,6 +3,7 @@ title: 弦羽理论生态位分类法（Xianyu Theory of Niche Classification）
 tags: [系统体验与机制]
 updated: 2025-10-03
 ---
+
 # 弦羽理论生态位分类法（Xianyu Theory of Niche Classification）
 
 > **一句话定义**：弦羽理论提出的一种意识系统分类框架，尝试以“生态位”划分系统类型，而非仅以起源或外部表现为依据。

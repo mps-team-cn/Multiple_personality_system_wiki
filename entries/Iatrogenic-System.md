@@ -3,6 +3,7 @@ title: 医源型系统（Iatrogenic System）
 tags: [系统角色与类型]
 updated: 2025-10-03
 ---
+
 # 医源型系统（Iatrogenic System）
 
 **一句话定义**：**医源型系统**指因医疗、治疗或权威人物的暗示、干预而形成或显著强化的多意识体系统，而非自发或创伤直接导致。[^iatrogenic-pluralpedia]

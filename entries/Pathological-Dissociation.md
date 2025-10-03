@@ -3,6 +3,7 @@ title: 病理性解离（Pathological Dissociation）
 tags: [诊断与临床]
 updated: 2025-10-03
 ---
+
 # 病理性解离（Pathological Dissociation）
 
 > **一句话定义**：病理性解离指意识、记忆、身份或感知的整合长期受损，造成显著痛苦与功能障碍的临床症状群，常与创伤相关解离性障碍有关。[^apa2022]

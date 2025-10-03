@@ -3,6 +3,7 @@ title: 边缘性人格障碍（Borderline Personality Disorder，BPD）
 tags: [诊断与临床]
 updated: 2025-10-03
 ---
+
 # 边缘性人格障碍（Borderline Personality Disorder，BPD）
 
 **⚠ 触发提示：本条目包含关于自伤、创伤与精神症状的描述，请自行斟酌阅读。**

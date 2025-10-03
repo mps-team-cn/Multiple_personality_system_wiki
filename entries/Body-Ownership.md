@@ -3,6 +3,7 @@ title: 躯体认同（Body Ownership）
 tags: [系统体验与机制]
 updated: 2025-10-03
 ---
+
 # 躯体认同（Body Ownership）
 
 ## 定义

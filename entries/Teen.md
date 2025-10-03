@@ -3,6 +3,7 @@ title: 青少年意识体（Teen Part）
 tags: [系统角色与类型]
 updated: 2025-10-03
 ---
+
 # 青少年意识体（Teen Part）
 
 ## 定义

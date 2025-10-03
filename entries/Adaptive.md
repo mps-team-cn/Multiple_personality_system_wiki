@@ -3,6 +3,7 @@ title: 适应型（Adaptive）
 tags: [系统角色与类型]
 updated: 2025-10-03
 ---
+
 # 适应型（Adaptive）
 
 ## 定义

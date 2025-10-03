@@ -3,6 +3,7 @@ title: 功能性分离（Functional Dissociation）
 tags: [系统体验与机制]
 updated: 2025-10-03
 ---
+
 # 功能性分离（Functional Dissociation）
 
 > **一句话定义**：功能性分离指在健康或非临床个体中，为了提升任务效率或调节注意力而出现的短暂认知模块分离现象，属于正常且适应性的心理过程。[^cardena1994]

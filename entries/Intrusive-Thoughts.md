@@ -3,6 +3,7 @@ title: 侵入性思维（Intrusive Thoughts）
 tags: [系统体验与机制]
 updated: 2025-10-03
 ---
+
 # 侵入性思维（Intrusive Thoughts）
 
 **警告！本词条内容可能涉及暴力、伤害或自伤等触发因素。**

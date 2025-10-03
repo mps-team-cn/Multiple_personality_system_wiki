@@ -3,6 +3,7 @@ title: 解离性身份障碍（Dissociative Identity Disorder，DID）
 tags: [诊断与临床]
 updated: 2025-10-03
 ---
+
 # 解离性身份障碍（Dissociative Identity Disorder，DID）
 
 **本词条含有医学、精神医学、心理学等信息，仅供参考，不能替代专业诊断与治疗。**

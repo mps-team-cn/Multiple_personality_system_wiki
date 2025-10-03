@@ -3,6 +3,7 @@ title: 精神分裂症（Schizophrenia，SC）
 tags: [诊断与临床]
 updated: 2025-10-03
 ---
+
 # 精神分裂症（Schizophrenia，SC）
 
 **本词条含有许多与医学、精神医学、心理学以及相关衍生方面的信息。**

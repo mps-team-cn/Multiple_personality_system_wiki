@@ -3,6 +3,7 @@ title: 强迫症（Obsessive-Compulsive Disorder, OCD）
 tags: [诊断与临床]
 updated: 2025-10-03
 ---
+
 # 强迫症（Obsessive-Compulsive Disorder, OCD）
 
 > **一句话定义**：强迫症是一种以反复出现的强迫观念和/或强迫行为为核心特征的精神障碍，常伴随显著焦虑与功能损害。

@@ -3,6 +3,7 @@ title: 宿主（Host）
 tags: [系统角色与类型]
 updated: 2025-10-03
 ---
+
 # 宿主（Host）
 
 ## 定义
