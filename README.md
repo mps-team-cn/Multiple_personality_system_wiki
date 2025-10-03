@@ -3,6 +3,8 @@
 > 多重意识体系统与相关心理健康主题的中文知识库与开源协作项目。
 > 在线版（GitHub Pages）：<https://kuliantnt.github.io/plurality_wiki/#/>
 
+- [查看标签索引](tags.md)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Docs status](https://img.shields.io/badge/docs-online-brightgreen.svg)](https://kuliantnt.github.io/plurality_wiki/#/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](CONTRIBUTING.md)
@@ -43,7 +45,8 @@ plurality_wiki/
 │  ├─ TEMPLATE_ENTRY.md
 │  ├─ VALIDATION_REPORT.md    # 校对与审核记录（脚本生成）
 │  └─ tools/...
-├─ entries/                   # 词条正文（按主题分目录）
+├─ entries/                   # 词条正文（全部放在根目录，依靠 Frontmatter tags 分类）
+├─ tags.md                    # 按标签自动生成的索引页
 ├─ assets/                    # 静态资源与 last-updated.json
 ├─ scripts/
 │  └─ gen-last-updated.mjs    # 更新词条时间索引
@@ -68,6 +71,8 @@ plurality_wiki/
 根目录下的 `tools/` 目录集中存放了协助批量处理、检查与发布的脚本，可与 CI 流程搭配使用。更完整的说明与后续更新请参见 [`docs/tools/README.md`](docs/tools/README.md)。
 
 - `python tools/gen-validation-report.py`：读取《CONTRIBUTING.md》与《docs/TEMPLATE_ENTRY.md》，生成 `docs/VALIDATION_REPORT.md` 校对报告。
+- `python generate_tags_index.py`：扫描 `entries/` 前置元数据，输出 `tags.md` 标签索引。
+- `python tools/check_links.py --root .`：校验所有 Markdown 文件的内部链接是否遵循 `entries/*.md` 绝对路径写法，并提示潜在断链。
 
 ---
 
@@ -102,7 +107,7 @@ docsify serve .
 ### 提交流程（简要）
 
 1. Fork & 新建分支；
-2. 按规范撰写/修改，**同步更新 index.md 与交叉链接**；
+2. 按规范撰写/修改，**同步更新 tags.md（运行 `python generate_tags_index.py`）、index.md 与交叉链接**；
 3. 本地执行 `python tools/fix_md.py` 与 `markdownlint`；
 4. 提交 PR，等待 Review。
 
