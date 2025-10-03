@@ -27,20 +27,37 @@
 
 ```ini
 plurality_wiki/
-├─ README.md
-├─ Main_Page.html
-├─ CONTRIBUTING.md
-├─ AGENTS.md
-├─ index.md
-├─ glossary.md
-├─ changelog.md
-├─ tools/
-│  ├─ fix_md.py               # ← 一键修复脚本
+├─ README.md                  # 开发者说明
+├─ CONTRIBUTING.md            # 贡献指南
+├─ index.html                 # Docsify 入口
+├─ _sidebar.md / _navbar.md   # Docsify 导航配置
+├─ 404.html / _404.md         # 404 页面（HTML + Markdown 版）
+├─ Main_Page.html             # 旧版主页面（保留历史内容）
+├─ Glossary.md                # 术语表
+├─ Preface.md                 # 前言
+├─ index.md                   # 全局目录索引
+├─ changelog.md               # 版本更新记录
+├─ VALIDATION_REPORT.md       # 校对与审核记录
+├─ docs/                      # 贡献流程补充文档
+│  ├─ ADMIN_GUIDE.md
+│  ├─ GITHUB_WORKFLOW.md
+│  ├─ TEMPLATE_ENTRY.md
+│  └─ tools/...
+├─ entries/                   # 词条正文（按主题分目录）
+├─ assets/                    # 静态资源与 last-updated.json
+├─ scripts/
+│  └─ gen-last-updated.mjs    # 更新词条时间索引
+├─ tools/                     # 本地维护工具
+│  ├─ fix_md.py               # Markdown 自动修复脚本
 │  └─ pdf_export/...
 ├─ .github/
+│  ├─ ISSUE_TEMPLATE/
+│  ├─ PULL_REQUEST_TEMPLATE.md
 │  └─ workflows/
-│     └─ markdown_format.yml  # ← CI 自动执行脚本与校验
-└─ entries/...                 # 主题词条
+│     ├─ docs_quality.yml     # Markdown/链接检查 CI
+│     └─ last-updated.yml     # 自动生成 last-updated.json
+├─ AGENTS.md                  # 贡献与开发约定
+└─ ignore.md、.nojekyll、.markdownlint* 等配置文件
 ```
 
 ---
