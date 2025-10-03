@@ -6,6 +6,7 @@
   let indexPromise = null;
   let indexReady = false;
   let latestVM = null;
+  let documentClickHandler = null;
 
   // 注册标题搜索插件，确保 formatUpdated 默认值存在
   function registerPlugin() {
@@ -36,6 +37,7 @@
     });
 
     hook.doneEach(function () {
+      ensureSearchElements();
       if (searchElements) {
         searchElements.results.classList.remove("is-open");
       }
@@ -161,11 +163,15 @@
       }
     });
 
-    document.addEventListener("click", (event) => {
-      if (!wrapper.contains(event.target)) {
-        results.classList.remove("is-open");
-      }
-    });
+    if (!documentClickHandler) {
+      documentClickHandler = (event) => {
+        if (!searchElements) return;
+        if (!searchElements.wrapper.contains(event.target)) {
+          searchElements.results.classList.remove("is-open");
+        }
+      };
+      document.addEventListener("click", documentClickHandler);
+    }
 
     searchElements = { wrapper, input, results };
   }
