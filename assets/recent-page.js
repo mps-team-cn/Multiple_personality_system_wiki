@@ -6,6 +6,7 @@
 
   let cachedPromise = null;
 
+  // 读取 last-updated.json 并利用缓存 Promise 避免多次网络请求
   function fetchUpdates() {
     if (!cachedPromise) {
       cachedPromise = fetch(DATA_URL, { cache: "no-store" })
@@ -15,6 +16,7 @@
     return cachedPromise;
   }
 
+  // 将词条路径转换为 Docsify 可识别的 hash 链接，确保中文安全编码
   function toRoutePath(filePath) {
     const withoutExt = filePath.replace(/\.md$/i, "");
     const encoded = withoutExt
@@ -27,6 +29,7 @@
 
   let titleCachePromise = null;
 
+  // 从 index.md 提取侧边链接，构建路径与标题的映射缓存
   function fetchTitleMap() {
     if (!titleCachePromise) {
       titleCachePromise = fetch("./index.md", { cache: "no-store" })
@@ -49,6 +52,7 @@
     return titleCachePromise;
   }
 
+  // 优先使用索引中的标题，否则用路径末段回退展示
   function toDisplayName(filePath, titleMap) {
     if (titleMap && titleMap[filePath]) {
       return titleMap[filePath];
@@ -59,6 +63,7 @@
     return decodeURIComponent(lastSegment).replace(/-/g, " ");
   }
 
+  // 按 YYYY/MM/DD HH:mm 输出更新时间，展示在最近更新列表
   function formatDate(isoString) {
     if (!isoString) return "";
     const date = new Date(isoString);
@@ -72,6 +77,7 @@
     return `${year}/${month}/${day} ${hours}:${minutes}`;
   }
 
+  // 标准化 Docsify 路径对象，保证匹配 /recent 路由时不受尾部斜杠影响
   function normalizeRoutePath(route) {
     if (!route || !route.path) return "";
     const [path] = String(route.path).split("?");
@@ -80,6 +86,7 @@
     return trimmed.startsWith("/") ? trimmed : `/${trimmed}`;
   }
 
+  // 构造指向仓库提交的外链，截取前 7 位作为短哈希
   function buildCommitLink(commit) {
     if (!commit) return "";
     const repo = (window.$docsify && window.$docsify.repo) || "";
@@ -96,6 +103,7 @@
     )}</a>`;
   }
 
+  // 生成完整的 HTML 片段，缺省时展示友好提示
   function renderList(items, titleMap) {
     if (!items.length) {
       return `
@@ -134,6 +142,7 @@
     `;
   }
 
+  // 根据更新时间排序并裁剪条目，传递给渲染函数
   function generateContent(map, titleMap) {
     const items = Object.keys(map || {})
       .map((path) => ({ path, info: map[path] || {} }))

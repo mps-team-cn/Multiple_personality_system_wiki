@@ -22,6 +22,7 @@
     "TEXTAREA",
   ]);
 
+  // 检测文本是否命中中西文混排模式，命中则需要插入空格
   function needsSpacing(value) {
     return spacingRules.some((rule) => {
       rule.lastIndex = 0;
@@ -29,6 +30,7 @@
     });
   }
 
+  // 对文本按规则插入空格，保持原有顺序逐条替换
   function applySpacingToText(value) {
     let result = value;
     for (const rule of spacingRules) {
@@ -37,6 +39,7 @@
     return result;
   }
 
+  // 跳过代码块等不应自动加空格的节点，支持通过 class 手动关闭
   function shouldSkipNode(node, root) {
     let current = node.parentNode;
     while (current && current !== root) {
@@ -55,6 +58,7 @@
     return false;
   }
 
+  // 遍历容器内所有文本节点并按需添加空格
   function processContainer(root) {
     if (!root) return;
 
@@ -89,6 +93,7 @@
     }
   }
 
+  // 渲染完成后延迟执行，避免与 Docsify 更新冲突
   function scheduleSpacing() {
     const container = document.querySelector(".markdown-section");
     if (!container) return;
