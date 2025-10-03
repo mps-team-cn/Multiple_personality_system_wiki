@@ -1,4 +1,4 @@
-# 《Another Me》/《双重人格》类作品的 DID 表现
+# 《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）
 
 ## 概述
 

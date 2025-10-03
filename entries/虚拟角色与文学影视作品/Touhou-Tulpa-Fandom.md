@@ -1,4 +1,4 @@
-# 《东方Project》同人圈中的 Tulpa 文化解读
+# 《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）
 
 ## 概述
 
