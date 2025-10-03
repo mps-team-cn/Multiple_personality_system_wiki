@@ -74,6 +74,7 @@
 * [复杂性创伤后应激障碍（CPTSD）](entries/诊断与临床/CPTSD.md)
 * [解离（Dissociation）](entries/系统体验与机制/Dissociation.md)
 * [侵入性思维](entries/系统体验与机制/Intrusive-Thoughts.md)
+* [创伤](entries/诊断与临床/Trauma.md)
 
 ---
 
