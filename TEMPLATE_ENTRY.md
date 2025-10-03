@@ -5,16 +5,17 @@
 ## 诊断与临床
 
 ```markdown
+
 # 条目中文名（English/缩写）
 
-**本词条含有医学、精神医学、心理学等信息，仅供参考，不能替代专业诊断与治疗。**  
+**本词条含有医学、精神医学、心理学等信息，仅供参考，不能替代专业诊断与治疗。**
 _如有触发风险，请谨慎阅读。_
 
 ---
 
 ## 概述
 
-用 3–5 句话简要说明该疾病/障碍的核心特征、主要表现和分类背景。  
+用 3–5 句话简要说明该疾病/障碍的核心特征、主要表现和分类背景。
 （示例：以 **身份状态分裂与记忆断裂** 为核心的解离障碍，多与复杂创伤相关，ICD-11 编码为 6Bxx，DSM-5-TR 使用相应诊断名称。）
 
 ---
@@ -90,15 +91,15 @@ _如有触发风险，请谨慎阅读。_
 - **阶段 2：创伤加工**（EMDR、CBT、结构性解离治疗等）
 - **阶段 3：整合与康复**（促进身份合作/融合，功能恢复）
 
-药物治疗仅限缓解共病症状，无法直接消除解离。  
+药物治疗仅限缓解共病症状，无法直接消除解离。
 可补充：团体治疗、同伴支持的价值与风险。
 
 ---
 
 ## 社群与临床语境
 
-- **社群经验**：多意识体社群中的常见讨论与应对方式。  
-- **临床观点**：学术界和治疗师的研究或治疗路径。  
+- **社群经验**：多意识体社群中的常见讨论与应对方式。
+- **临床观点**：学术界和治疗师的研究或治疗路径。
 - **风险警示**：潜在误用、媒体污名化的提醒。
 
 ---
@@ -112,8 +113,8 @@ _如有触发风险，请谨慎阅读。_
 
 ## 参考与延伸阅读
 
-1. World Health Organization. (年份). *ICD-11 for Mortality and Morbidity Statistics*.  
-2. American Psychiatric Association. (年份). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.)*.  
-3. 专业学会或临床指南（如 ISSTD 指南）。  
-4. 学术综述或代表性研究。  
+1. World Health Organization. (年份). *ICD-11 for Mortality and Morbidity Statistics*.
+2. American Psychiatric Association. (年份). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.)*.
+3. 专业学会或临床指南（如 ISSTD 指南）。
+4. 学术综述或代表性研究。
 5. Pluralpedia 或社群资料（如有补充价值）。

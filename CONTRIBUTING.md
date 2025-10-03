@@ -66,7 +66,7 @@
 示例：
 
 ```yaml
-ICD-11（6B64）：“…two or more distinct personality states…”（存在两个或以上身份状态）。  
+ICD-11（6B64）：“…two or more distinct personality states…”（存在两个或以上身份状态）。
 来源：WHO ICD-11 浏览器（MMS 2025-01，访问日期 2025-10-03）
 ```
 
@@ -87,8 +87,8 @@ ICD-11（6B64）：“…two or more distinct personality states…”（存在�
    * 示例：
 
      ```yaml
-     ICD-11: “two or more distinct personality states…”  
-     中文：两个或以上身份状态。  
+     ICD-11: “two or more distinct personality states…”
+     中文：两个或以上身份状态。
      来源：ICD-11 Browser, 6B64, 访问日期 2025-10-03
      ```
 
