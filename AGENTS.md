@@ -84,6 +84,7 @@
 
 - ✅ 必须遵循《CONTRIBUTING.md》与《docs/TEMPLATE_ENTRY.md》
 - ✅ 必须保持小步提交（最小可审查单位）
+- ✅ 词条必须遵守markdownlint规范
 - ✅ 必须在 PR 描述中说明生成/重写内容的方法与来源（正则/脚本名/范围等）
 - ✅ 必须在脚本更新时同步维护 `docs/tools/README.md`
 - ❌ 禁止生成无法追溯的证据
