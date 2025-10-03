@@ -231,13 +231,27 @@ html, body{
   border-color: var(--c-divider);
   color: var(--c-text);
 }
-.sidebar-toggle span{
-  background-color: var(--c-text);
-}
 
 /* 侧边栏开关结构化样式，便于追加文字标签 */
 .sidebar-toggle__icon{
   display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-toggle__triangle{
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 12px solid currentColor;
+  transition: transform .2s ease;
+}
+
+/* 当侧边栏收起时，翻转图标指向内容区域 */
+body.close .sidebar-toggle__triangle{
+  transform: rotate(180deg);
 }
 
 .sidebar-toggle__label{
@@ -264,17 +278,9 @@ html, body{
   }
 
   .sidebar-toggle__icon{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-  }
-
-  .sidebar-toggle__icon span{
-    display: block;
-    width: 18px;
-    height: 2px;
-    border-radius: 999px;
-    background: currentColor;
+    display: inline-flex;
+    width: 0;
+    height: 0;
   }
 
   .sidebar-toggle__label{

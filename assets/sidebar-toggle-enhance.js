@@ -12,12 +12,16 @@
     button.setAttribute("aria-label", "切换目录");
     button.setAttribute("title", "切换目录");
 
+    while (button.firstChild) {
+      button.removeChild(button.firstChild);
+    }
+
     const iconWrapper = document.createElement("span");
     iconWrapper.className = "sidebar-toggle__icon";
 
-    while (button.firstChild) {
-      iconWrapper.appendChild(button.firstChild);
-    }
+    const triangle = document.createElement("span");
+    triangle.className = "sidebar-toggle__triangle";
+    iconWrapper.appendChild(triangle);
 
     const label = document.createElement("span");
     label.className = "sidebar-toggle__label";
