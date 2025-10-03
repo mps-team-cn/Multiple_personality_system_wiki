@@ -391,40 +391,102 @@ button, .cover .buttons a{
 
 /* 表格美化 */
 .markdown-section table{
-  border-collapse: separate;
-  border-spacing: 0;
   width: 100%;
-  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 1.5rem 0;
   border-radius: 14px;
-  box-shadow: var(--shadow);
+  overflow: hidden;
   background: var(--c-card);
   border: 1px solid color-mix(in oklab, var(--c-muted) 18%, transparent);
-  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.markdown-section table thead th{
+  font-weight: 600;
+  text-align: left;
+  color: var(--c-muted);
+  font-size: .95rem;
+  letter-spacing: .02em;
 }
 .markdown-section table th,
 .markdown-section table td{
-  padding: .6rem .8rem;
+  padding: .75rem .85rem;
   border-bottom: 1px solid color-mix(in oklab, var(--c-muted) 18%, transparent);
+  vertical-align: top;
   white-space: normal;
 }
-.markdown-section table td:nth-child(3){
-  min-width: 320px;
+.markdown-section table tr:last-child td{
+  border-bottom: none;
 }
-@media (max-width: 768px){
+.markdown-section table tbody tr:hover{
+  background: color-mix(in oklab, var(--c-brand) 10%, transparent);
+}
+
+@media screen and (max-width: 959px){
   .markdown-section table{
     display: block;
-    overflow-x: auto;
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
+    margin: 1.2rem 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
   }
 
-  .markdown-section table th,
-  .markdown-section table td{
-    white-space: nowrap;
+  .markdown-section table thead{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
   }
 
-  .markdown-section table td:nth-child(3){
-    white-space: normal;
+  .markdown-section table tbody,
+  .markdown-section table tr,
+  .markdown-section table td,
+  .markdown-section table th{
+    display: block;
+    width: 100%;
+  }
+
+  .markdown-section table tbody tr{
+    margin-bottom: 1.2rem;
+    padding: 1rem 1rem .75rem;
+    border: 1px solid var(--c-divider);
+    border-radius: 12px;
+    background: var(--c-card);
+    box-shadow: var(--shadow);
+  }
+
+  .markdown-section table tbody tr:last-child{
+    margin-bottom: 0;
+  }
+
+  .markdown-section table tbody tr:hover{
+    background: var(--c-card);
+  }
+
+  .markdown-section table td,
+  .markdown-section table th{
+    border-bottom: none;
+    padding: .5rem 0;
+  }
+
+  .markdown-section table td::before{
+    content: attr(data-label);
+    display: block;
+    font-weight: 600;
+    color: var(--c-muted);
+    margin-bottom: .25rem;
+    letter-spacing: .02em;
+  }
+
+  .markdown-section table td[data-label=""]::before,
+  .markdown-section table td:not([data-label])::before{
+    display: none;
+    content: none;
   }
 }
 
@@ -783,14 +845,6 @@ button, .cover .buttons a{
   .main-hero h1{
     font-size: 1.65rem;
   }
-}
-.markdown-section table th:first-child,
-.markdown-section table td:first-child{
-  min-width: 220px;
-}
-.markdown-section table th:nth-child(2),
-.markdown-section table td:nth-child(2){
-  min-width: 140px;
 }
 .markdown-section table thead{
   background: color-mix(in oklab, var(--c-brand) 14%, var(--c-card));

@@ -2,91 +2,7 @@
 
 > 说明：本表聚焦常用术语的一致译名与站内链接。临床定义请查阅对应词条；外部参考：Pluralpedia、DSM-5-TR、ICD-11。
 
-<style>
-.glossary-view {
-  margin-top: 1.5rem;
-}
-.glossary-view table {
-  width: 100%;
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-.glossary-view thead th {
-  font-weight: 600;
-  text-align: left;
-  color: var(--c-muted);
-  font-size: 0.95em;
-  letter-spacing: 0.02em;
-}
-.glossary-view th,
-.glossary-view td {
-  padding: 0.75rem 0.85rem;
-  border-bottom: 1px solid var(--c-divider);
-  vertical-align: top;
-}
-.glossary-view tr:last-child td {
-  border-bottom: none;
-}
-.glossary-view tbody tr:hover {
-  background: color-mix(in oklab, var(--c-brand) 10%, transparent);
-}
-@media screen and (max-width: 959px) {
-  .glossary-view table,
-  .glossary-view tbody,
-  .glossary-view tr,
-  .glossary-view td {
-    display: block;
-    width: 100%;
-  }
-  .glossary-view thead {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
-  .glossary-view tbody tr {
-    margin-bottom: 1.2rem;
-    padding: 1rem 1rem 0.75rem;
-    border: 1px solid var(--c-divider);
-    border-radius: 12px;
-    background: var(--c-card);
-    box-shadow: var(--shadow);
-  }
-  .glossary-view tbody tr:last-child {
-    margin-bottom: 0;
-  }
-  .glossary-view td {
-    border-bottom: none;
-    padding: 0.5rem 0;
-  }
-  .glossary-view td::before {
-    display: block;
-    font-weight: 600;
-    color: var(--c-muted);
-    margin-bottom: 0.25rem;
-  }
-  .glossary-view td:nth-child(1)::before {
-    content: "术语";
-  }
-  .glossary-view td:nth-child(2)::before {
-    content: "中文参考译名";
-  }
-  .glossary-view td:nth-child(3)::before {
-    content: "社群用法/备注";
-  }
-}
-</style>
-
-> 💡 术语表会根据屏幕宽度自动切换布局，桌面端呈现标准表格，移动端折叠为卡片式排版以便阅读。
-
-
-
-
-<div class="glossary-view">
+> 💡 所有文档中的表格会根据屏幕宽度自动切换布局，桌面端呈现标准表格，移动端折叠为卡片式排版以便阅读。
 
 ## 常用术语（Common Terms）
 
@@ -219,5 +135,3 @@
 | 术语 | 中文参考译名 | 社群用法/备注 |
 | --- | --- | --- |
 | [Lilith（《不/存在的你，和我》）](entries/Nonexistent-You-And-Me-Tulpa-Lilith.md) | 莉莉丝 | 独立游戏中的虚拟同伴角色，被社群视作 tulpa 象征，强调与玩家协商信任与边界。 |
-
-</div>
