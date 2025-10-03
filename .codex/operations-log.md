@@ -5,4 +5,4 @@
 - 工具尝试：执行 `sequential-thinking` 指令失败（命令不存在），记录后改用手动推理。
 - 依赖限制：尝试通过 `pip install pyyaml` 安装依赖失败（代理 403），后续调试转为静态代码分析。
 - 计划工具：尝试运行 `shrimp-task-manager plan_task` 未找到命令，改为手动编制任务计划。
-- 修复实现：为 frontmatter 的 `updated` 字段增加统一规范化流程，拒绝布尔/复合类型并在文档中同步提醒无效写法。
+

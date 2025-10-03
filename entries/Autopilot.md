@@ -50,6 +50,7 @@ updated: 2025-10-03
 - [融合（Fusion）](/entries/Fusion.md)
 - [迭代（Iteration）](/entries/Iteration.md)
 - [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
+
 ## 参考资料
 
 [^自动驾驶-1]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision*. [https://www.isst-d.org/wp-content/uploads/2019/02/ISSTD-Guidelines-Adult-DID-Treatment-2011.pdf](https://www.isst-d.org/wp-content/uploads/2019/02/ISSTD-Guidelines-Adult-DID-Treatment-2011.pdf)

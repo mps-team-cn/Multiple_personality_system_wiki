@@ -38,6 +38,7 @@ updated: 2025-10-03
 - [《妄想代理人》（Paranoia Agent）与集体意识的具象化](/entries/Paranoia-Agent-Collective-Consciousness.md)
 - [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](/entries/Nonexistent-You-And-Me-Tulpa-Lilith.md)
 - [头压（Head Pressure）](/entries/Head-Pressure.md)
+
 ## 参考与延伸阅读
 
 [^servitor-guide]: Kovi. 2017. “Servitor Creation Guide.” *tulpa.io*. [https://tulpa.io/servitor-creation-guide.](https://tulpa.io/servitor-creation-guide.)

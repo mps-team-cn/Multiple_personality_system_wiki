@@ -118,6 +118,7 @@ DID 的治疗通常遵循分阶段模式：
 - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](/entries/Apparently-Normal-Part-Emotional-Part-Model.md)
 - [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
+
 ## 参考与延伸阅读
 
 1. World Health Organization. (2019). *ICD-11 for Mortality and Morbidity Statistics*.

@@ -37,6 +37,7 @@ updated: 2025-10-03
 - [封存（Sequestration）](/entries/Sequestration.md)
 - [解离（Dissociation）](/entries/Dissociation.md)
 - [独立性（Independence）](/entries/Independence.md)
+
 ## 参考资料
 
 - Putnam, F. W. (1989). *Diagnosis and treatment of multiple personality disorder*. Guilford Press.

@@ -1,6 +1,16 @@
 ---
 title: 双相障碍（Bipolar Disorders）
-tags: [双相障碍, 躁狂 轻躁狂期, 混合特征, 抑郁期, 功能影响, 基础概念, 鉴别诊断, 诊断与临床]
+tags:
+  [
+    双相障碍,
+    躁狂 轻躁狂期,
+    混合特征,
+    抑郁期,
+    功能影响,
+    基础概念,
+    鉴别诊断,
+    诊断与临床,
+  ]
 updated: 2025-10-03
 ---
 
@@ -26,7 +36,7 @@ ICD-11 依据当前或最近的发作类型（躁狂、混合、抑郁、缓解�
 
 ### DSM-5-TR 摘要
 
-DSM-5-TR 将双相障碍分为双相Ⅰ型、双相Ⅱ型与循环性心境障碍，分别要求至少一次躁狂发作、一次轻躁狂加一次重度抑郁发作、或 ≥2 年反复的轻度躁狂与抑郁症状。[^apa2022]
+DSM-5-TR 将双相障碍分为双相 Ⅰ 型、双相 Ⅱ 型与循环性心境障碍，分别要求至少一次躁狂发作、一次轻躁狂加一次重度抑郁发作、或 ≥2 年反复的轻度躁狂与抑郁症状。[^apa2022]
 
 ### 差异说明
 
@@ -84,9 +94,10 @@ DSM-5-TR 强调发作次数与症状数量阈值，ICD-11 则聚焦发作时段�
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
 - [躯体化障碍（Somatic Symptom Disorder，SSD）](/entries/Somatic-Symptom-Disorder-SSD.md)
 - [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
+
 ## 参考与延伸阅读
 
-[^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
-[^who2023c]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Bipolar or related disorders (6A60–6A6Z).* [https://icd.who.int/en](https://icd.who.int/en)
-[^nimh2024b]: National Institute of Mental Health. (2024, May 10). *Bipolar Disorder.* [https://www.nimh.nih.gov/health/topics/bipolar-disorder](https://www.nimh.nih.gov/health/topics/bipolar-disorder)
-[^canmat2021]: Yatham, L. N., et al. (2021). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders 2021 guidelines for the management of patients with bipolar disorder. *Bipolar Disorders, 23*(9), 724–756.
+[^apa2022]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.). American Psychiatric Publishing.
+[^who2023c]: World Health Organization. (2023). _ICD-11 for Mortality and Morbidity Statistics: Bipolar or related disorders (6A60–6A6Z)._ [https://icd.who.int/en](https://icd.who.int/en)
+[^nimh2024b]: National Institute of Mental Health. (2024, May 10). _Bipolar Disorder._ [https://www.nimh.nih.gov/health/topics/bipolar-disorder](https://www.nimh.nih.gov/health/topics/bipolar-disorder)
+[^canmat2021]: Yatham, L. N., et al. (2021). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders 2021 guidelines for the management of patients with bipolar disorder. _Bipolar Disorders, 23_(9), 724–756.

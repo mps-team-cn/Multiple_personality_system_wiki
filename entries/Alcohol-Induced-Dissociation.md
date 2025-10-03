@@ -44,6 +44,7 @@ updated: 2025-10-03
 - [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
 - [权限（Permissions）](/entries/Permissions.md)
 - [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
+
 ## 参考资料
 
 [^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.

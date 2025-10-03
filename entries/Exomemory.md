@@ -39,6 +39,7 @@ updated: 2025-10-03
 - [多意识体（Plurality）](/entries/Plurality.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
 - [独立性（Independence）](/entries/Independence.md)
+
 ## 参考与延伸阅读
 
 [^lifton2021]: Lifton, P. 2021. “Imaginal Worlds and Autonomous Identity Narratives in Plural Communities.” *Plurality Studies Review* 2(1): 45–63.

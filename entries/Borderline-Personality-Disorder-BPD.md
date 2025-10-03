@@ -83,6 +83,7 @@ BPD 终身患病率约 1%–2%，女性就医比例较高。多数人在长期�
 - [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
 - [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 - [躁狂（Mania）](/entries/Mania.md)
+
 ## 参考与延伸阅读
 
 [^apa]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.).

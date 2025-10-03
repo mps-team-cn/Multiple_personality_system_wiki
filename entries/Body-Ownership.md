@@ -46,6 +46,7 @@ updated: 2025-10-03
 - [应激反应（Stress Response）](/entries/Stress-Response.md)
 - [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [多意识体（Plurality）](/entries/Plurality.md)
+
 ## 参考资料
 
 - American Psychiatric Association. *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). Washington, DC: APA Publishing, 2013.

@@ -35,6 +35,7 @@ updated: 2025-10-03
 - [伪主体（Fauxmain）](/entries/Fauxmain.md)
 - [管理者（Admin）](/entries/Admin.md)
 - [成员（Alter）](/entries/Alter.md)
+
 ## 参考与延伸阅读
 
 [^iatrogenic-pluralpedia]: Pluralpedia. 2023. “Iatrogenic System.” [https://pluralpedia.org/w/Iatrogenic_system.](https://pluralpedia.org/w/Iatrogenic_system.)

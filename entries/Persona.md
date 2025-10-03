@@ -39,6 +39,7 @@ _仅供参考，**不能**替代专业医师的诊断和治疗方案。如果有
 - [特殊认同（Alterhuman）](/entries/Alterhuman.md)
 - [管理者（Admin）](/entries/Admin.md)
 - [独立性（Independence）](/entries/Independence.md)
+
 ## 参考与延伸阅读
 
 [^jung1959]: Jung, C. G. 1959. *The Archetypes and the Collective Unconscious*. Princeton University Press.

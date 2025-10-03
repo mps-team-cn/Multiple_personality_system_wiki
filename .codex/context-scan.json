@@ -17,4 +17,5 @@
   "tech_stack": "Python 3.11，依赖 PyYAML，利用 pathlib 与 dataclass 组织结构",
   "tests": "官方文档推荐运行 python -m compileall tools/pdf_export/export_to_pdf.py 验证语法",
   "observations": "需允许 updated 接受 datetime.date/datetime 并统一转为字符串，错误提示应保留；同时确认文档同步说明 frontmatter 要求。"
+
 }

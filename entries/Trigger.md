@@ -98,6 +98,7 @@ updated: 2025-10-03
 - [家族式系统（Family Systems, Xianyu Theory）](/entries/Family-Systems-Xianyu.md)
 - [单一类系统（Single-Class Systems, Xianyu Theory）](/entries/Single-Class-Systems-Xianyu.md)
 - [系统（System）](/entries/System.md)
+
 ## 参考与延伸阅读
 
 [^trigger-pluralpedia]: Pluralpedia. (n.d.). [Trigger](https://pluralpedia.org/w/Trigger).

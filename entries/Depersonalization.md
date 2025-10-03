@@ -49,6 +49,7 @@ Not-me 感、他者感、身份异化感 感知区分 感知壁垒
 - [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [独立性（Independence）](/entries/Independence.md)
 - [多意识体（Plurality）](/entries/Plurality.md)
+
 ## 参考资料
 
 [^非我感-1]: Sierra, M., & Berrios, G. E. (1997). Depersonalization: Neurobiological perspectives. *Biological Psychiatry, 42*(9), 898-908.

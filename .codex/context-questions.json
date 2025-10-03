@@ -15,6 +15,7 @@
     },
     {
       "question": "文档中关于 frontmatter 的说明是否需要同步更新以覆盖新兼容策略？",
+
       "priority": "medium"
     }
   ]

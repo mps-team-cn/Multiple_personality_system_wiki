@@ -35,6 +35,7 @@ updated: 2025-10-03
 - [自发型（Spontaneous）](/entries/Spontaneous.md)
 - [主体（Main）](/entries/Main.md)
 - [碎片（Fragment）](/entries/Fragment.md)
+
 ## 参考与延伸阅读
 
 [^alterhuman-wiki]: Alterhuman Wiki. 2022. “Alterhuman.” [https://alterhuman.org/wiki/alterhuman.](https://alterhuman.org/wiki/alterhuman.)

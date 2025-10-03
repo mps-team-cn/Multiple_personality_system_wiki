@@ -109,6 +109,7 @@ updated: 2025-10-03
 - [焦虑（Anxiety）](/entries/Anxiety.md)
 - [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [闪回（Flashback）](/entries/Flashback.md)
+
 ## 参考与延伸阅读
 
 1. World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Delirium (6D70).* 检索于 2025-01-05，来自 [https://icd.who.int](https://icd.who.int)。[^who2023]

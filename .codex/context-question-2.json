@@ -5,5 +5,6 @@
     "null_case": "若编者误写 updated: 或 updated: null，safe_load 分别得到 '' 与 None，应提示填写有效日期",
     "string_block": "未发现使用多行块标量表示日期的实例，暂不需要特殊处理",
     "conclusion": "目前只需确保普通字符串、显式日期对象与带空格的写法得到一致校验"
+
   }
 }

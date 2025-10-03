@@ -49,6 +49,7 @@ _本词条包含需要及时更新的即时内容或含有目前仍不能确定�
 - [主体（Main）](/entries/Main.md)
 - [管理者（Admin）](/entries/Admin.md)
 - [成员（Alter）](/entries/Alter.md)
+
 ## 参考与延伸阅读
 
 [^pluralpedia-core]: Pluralpedia. 2023. “Core.” [https://pluralpedia.org/w/Core.](https://pluralpedia.org/w/Core.)

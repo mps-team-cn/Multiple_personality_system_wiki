@@ -35,6 +35,7 @@ updated: 2025-10-03
 - [主体（Main）](/entries/Main.md)
 - [管理者（Admin）](/entries/Admin.md)
 - [核心（Core）](/entries/Core.md)
+
 ## 参考与延伸阅读
 
 [^soulbondwiki]: Soulbonding Wiki. 2021. “Soulbond.” [https://soulbonding.fandom.com/wiki/Soulbond.](https://soulbonding.fandom.com/wiki/Soulbond.)

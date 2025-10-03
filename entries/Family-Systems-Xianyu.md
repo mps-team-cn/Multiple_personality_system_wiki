@@ -92,6 +92,7 @@ updated: 2025-10-03
 - [共前台（Co-fronting）](/entries/Co-Fronting.md)
 - [切换（Switch）](/entries/Switch.md)
 - [系统（System）](/entries/System.md)
+
 ## 参考与来源
 
 - 原文：弦羽系统提出的《弦羽理论生态位分类法》手稿

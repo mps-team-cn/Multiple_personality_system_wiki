@@ -47,6 +47,7 @@ Stress Response、压力反应、战斗或逃跑反应
 - [多意识体（Plurality）](/entries/Plurality.md)
 - [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 - [非我感（Depersonalization）](/entries/Depersonalization.md)
+
 ## 参考资料
 
 [^应激反应-1]: McEwen, B. S. (2007). Physiology and neurobiology of stress and adaptation: central role of the brain. _Physiological Reviews, 87_(3), 873-904.

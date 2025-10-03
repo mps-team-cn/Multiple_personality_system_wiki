@@ -37,6 +37,7 @@ updated: 2025-10-03
 - [傀儡（Servitor）](/entries/Servitor.md)
 - [埃蒙加德分类法（Emmengard Classification）](/entries/Emmengard-Classification.md)
 - [头压（Head Pressure）](/entries/Head-Pressure.md)
+
 ## 参考资料
 
 - （待补充）

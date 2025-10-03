@@ -36,6 +36,7 @@ updated: 2025-10-03
 - [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
 - [T 语（Tulpish）](/entries/Tulpish.md)
 - [权限（Permissions）](/entries/Permissions.md)
+
 ## 参考与延伸阅读
 
 [^pluralpedia-alter]: Pluralpedia. (2024). [Alter](https://pluralpedia.org/w/Alter).
