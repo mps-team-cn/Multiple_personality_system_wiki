@@ -1,0 +1,21 @@
+{
+  "known": [
+    "结构模块当前按标签构建 CategoryStructure",
+    "目录生成函数已支持读取 index.md",
+    "EntryDocument 提供标题和正文，后续书签来自结构顺序"
+  ],
+  "unknown": [
+    {
+      "question": "index.md 的语法是否存在嵌套列表或角括号路径，解析时需要考虑哪些变体？",
+      "priority": "high"
+    },
+    {
+      "question": "若 index.md 遗漏词条或包含非 entries/ 链接，导出结构应如何处理？",
+      "priority": "high"
+    },
+    {
+      "question": "是否仍需保留 Preface.md 章节以及未在 index 中列出的条目？",
+      "priority": "medium"
+    }
+  ]
+}
