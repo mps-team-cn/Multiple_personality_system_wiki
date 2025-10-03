@@ -81,6 +81,7 @@
 * [复杂性创伤后应激障碍（CPTSD）](entries/诊断与临床/CPTSD.md)
 * [解离性身份障碍（DID）](entries/诊断与临床/DID.md)
 * [部分解离性身份障碍（PDID）](entries/诊断与临床/Partial-Dissociative-Identity-Disorder-PDID.md)
+* [闪回（Flashback）](entries/诊断与临床/Flashback.md)
 
 ---
 

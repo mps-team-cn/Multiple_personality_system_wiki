@@ -68,6 +68,8 @@ DSM-5 与 DSM-5-TR 在文字说明中给出了几个典型的“例子”，帮�
 - [解离性身份障碍（DID）](entries/诊断与临床/DID.md)
 - [部分解离性身份障碍（PDID）](entries/诊断与临床/Partial-Dissociative-Identity-Disorder-PDID.md)
 - [人格解体/现实解体障碍（DPDR）](entries/诊断与临床/Depersonalization-Derealization-Disorder-DPDR.md)
+- [复杂性创伤后应激障碍（CPTSD）](entries/诊断与临床/CPTSD.md)
+- [创伤](entries/诊断与临床/Trauma.md)
 
 ## 参考
 
