@@ -1,6 +1,6 @@
 ---
 title: 图帕（Tulpa）
-tags: [系统角色与类型]
+tags: [解离性身份障碍 DID, 系统角色与类型, 定义与同义词, 现代, 托帕, 实践者亦称其为系统伙伴, 实践中的, 内部同伴]
 updated: 2025-10-03
 ---
 
@@ -45,12 +45,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [宿主（Host）](entries/Host.md)
-- [傀儡（Servitor）](entries/Servitor.md)
-- [T 语（Tulpish）](entries/Tulpish.md)
-
----
-
+- [宿主（Host）](/entries/Host.md)
+- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
+- [系统（System）](/entries/System.md)
+- [幻想伙伴（Imaginary Companion）](/entries/Imaginary-Companion.md)
+- [初始（Original）](/entries/Original.md)
+- [自发型（Spontaneous）](/entries/Spontaneous.md)
+- [适应型（Adaptive）](/entries/Adaptive.md)
+- [人格职能（System Roles）](/entries/System-Roles.md)
 ## 参考与延伸阅读
 
 [^veissiere2016]: Veissière, S. P. L. (2016). Varieties of Tulpa experiences: Sentient imaginary friends, embodied joint-agents, and hypnotic social agents. *Anthropology of Consciousness, 27*(2), 213–239.

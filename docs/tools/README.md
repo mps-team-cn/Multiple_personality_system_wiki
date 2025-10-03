@@ -14,6 +14,7 @@
 | `tools/gen_changelog_by_tags.py` | 按 Git 标签时间顺序生成 `changelog.md`，并按 Conventional Commits 类型分组                         | `python tools/gen_changelog_by_tags.py --output changelog.md`，可搭配 `--latest-only` 或 `--latest-to-head` |
 | `tools/pdf_export/`              | Pandoc 驱动的整站 PDF 导出工具，支持封面、目录、忽略列表与中文字体配置                                          | `python tools/pdf_export/export_to_pdf.py` 或 `python -m pdf_export`                                    |
 | `tools/gen-validation-report.py` | 读取《CONTRIBUTING.md》与《docs/TEMPLATE_ENTRY.md》，校验词条结构并生成 `docs/VALIDATION_REPORT.md` | `python tools/gen-validation-report.py`                                                                |
+| `tools/retag_and_related.py`     | 批量重建词条 Frontmatter 标签并生成“相关条目”区块，支持干跑、范围过滤等参数               | `python tools/retag_and_related.py`、`python tools/retag_and_related.py --dry-run --limit 5`             |
 | `generate_tags_index.py`         | 扫描 `entries/` Frontmatter，生成 `tags.md` 标签索引                                             | `python generate_tags_index.py`                                                                       |
 
 如需新增脚本，请保持功能说明与示例用法同步更新本章节，方便贡献者快速定位维护工具。

@@ -1,6 +1,6 @@
 ---
 title: 权限（Permissions）
-tags: [系统体验与机制]
+tags: [权限, 安全层级, 多维度构成, 动态协商, 紧急协议, 神经网络视角, 权限矩阵, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -27,10 +27,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [主体（Main）](entries/Main.md)
-- [管理者（Admin）](entries/Admin.md)
-- [记忆屏蔽（Memory Shielding）](entries/Memory-Shielding.md)
-
+- [前台（Front / Fronting）](/entries/Front-Fronting.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [独立性（Independence）](/entries/Independence.md)
+- [成员（Alter）](/entries/Alter.md)
+- [解离（Dissociation）](/entries/Dissociation.md)
+- [后台（Back / Being Back）](/entries/Back-Being-Back.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
 ## 参考与延伸阅读
 
 [^reinders2019]: Reinders, A. A. T. S., et al. 2019. “Differential Autonomic Nervous System Activity in Dissociative Identity Disorder.” *Journal of Abnormal Psychology* 128(6): 531–543.

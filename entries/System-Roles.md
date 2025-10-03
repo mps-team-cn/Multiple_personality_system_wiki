@@ -1,6 +1,6 @@
 ---
 title: 人格职能（System Roles）
-tags: [系统角色与类型]
+tags: [系统角色与类型, 人格职能, 非刚性框架, 跨诊断应用, 结构性解离模型, 发展阶段成员, 与治疗协作, 社区用法与变体]
 updated: 2025-10-03
 ---
 
@@ -41,3 +41,14 @@ updated: 2025-10-03
 [^steele2017]: Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating trauma-related dissociation: A practical, integrative approach*. W. W. Norton & Company.
 [^brown2019]: Brown, N., & Van der Hart, O. (2019). Stabilization in the treatment of dissociative disorders. In K. L. Dell & A. J. Lawson (Eds.), *Dissociation and the Dissociative Disorders: Past, Present, Future* (pp. 483–499). Routledge.
 [^thepluralassociation2021]: The Plural Association. (2021). *Community guidelines for plural well-being*. The Plural Association.
+
+## 相关条目
+
+- [初始（Original）](/entries/Original.md)
+- [青少年意识体（Teen Part）](/entries/Teen.md)
+- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
+- [保护者（Protector）](/entries/Protector.md)
+- [迫害者（Persecutor）](/entries/Persecutor.md)
+- [小孩意识体（Little / Child Part）](/entries/Little.md)
+- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
+- [照顾者（Caregiver）](/entries/Caregiver.md)

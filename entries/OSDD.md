@@ -1,6 +1,6 @@
 ---
 title: 其他特定解离性障碍（OSDD）
-tags: [诊断与临床]
+tags: [解离性身份障碍 DID, 其他特定解离性障碍 OSDD, 其他特定解离性障碍, 定义与同义词, 非正式, 非典型解离障碍, 部分, 解离性身份障碍]
 updated: 2025-10-03
 ---
 
@@ -71,12 +71,14 @@ DSM-5 与 DSM-5-TR 在文字说明中给出了几个典型的“例子”，帮�
 
 ## 相关条目
 
-- [解离性身份障碍（DID）](entries/DID.md)
-- [部分解离性身份障碍（PDID）](entries/Partial-Dissociative-Identity-Disorder-PDID.md)
-- [人格解体/现实解体障碍（DPDR）](entries/Depersonalization-Derealization-Disorder-DPDR.md)
-- [复杂性创伤后应激障碍（CPTSD）](entries/CPTSD.md)
-- [创伤](entries/Trauma.md)
-
+- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
+- [解离（Dissociation）](/entries/Dissociation.md)
+- [系统（System）](/entries/System.md)
+- [混合（Blending）](/entries/Blending.md)
+- [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](/entries/Partial-Dissociative-Identity-Disorder-PDID.md)
+- [多意识体（Plurality）](/entries/Plurality.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
 ## 参考
 
 [^Brand2021]: Brand, B. L., & Loewenstein, R. J. (2021). Dissociative disorders: An overview of assessment, phenomenology, and treatment. _Journal of Psychiatric Practice_, 27(3), 170–182.

@@ -1,6 +1,6 @@
 ---
 title: 初始（Original）
-tags: [系统角色与类型]
+tags: [系统角色与类型, 初始, 身份认同议题, 角色可塑性, 多初始系统, 外部生活记忆的主轴, 与宿主的并列, 社区用法与变体]
 updated: 2025-10-03
 ---
 
@@ -35,3 +35,14 @@ updated: 2025-10-03
 [^putnam1989]: Putnam, F. W. (1989). *Diagnosis and treatment of multiple personality disorder*. Guilford Press.
 [^steele2017]: Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating trauma-related dissociation: A practical, integrative approach*. W. W. Norton & Company.
 [^veissiere2016]: Veissière, S. P. L. (2016). Varieties of tulpa experiences: Sentient imaginary friends, embodied joint-agents, and hypnotic social agents. *Anthropology of Consciousness, 27*(2), 213–239.
+
+## 相关条目
+
+- [人格职能（System Roles）](/entries/System-Roles.md)
+- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
+- [青少年意识体（Teen Part）](/entries/Teen.md)
+- [小孩意识体（Little / Child Part）](/entries/Little.md)
+- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
+- [宿主（Host）](/entries/Host.md)
+- [保护者（Protector）](/entries/Protector.md)
+- [照顾者（Caregiver）](/entries/Caregiver.md)

@@ -1,6 +1,6 @@
 ---
 title: 独有记忆（Exomemory）
-tags: [系统体验与机制]
+tags: [独有记忆, 现象特征, 记忆建构理论, 记录方式, 系统协商, 潜在功能, 系统体验与机制, 治疗协作]
 updated: 2025-10-03
 ---
 
@@ -31,10 +31,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [记忆屏蔽（Memory Shielding）](entries/Memory-Shielding.md)
-- [独立性（Independence）](entries/Independence.md)
-- [系魂（Soulbond）](entries/Soulbond.md)
-
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
+- [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
+- [多意识体（Plurality）](/entries/Plurality.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
+- [独立性（Independence）](/entries/Independence.md)
 ## 参考与延伸阅读
 
 [^lifton2021]: Lifton, P. 2021. “Imaginal Worlds and Autonomous Identity Narratives in Plural Communities.” *Plurality Studies Review* 2(1): 45–63.

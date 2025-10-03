@@ -1,6 +1,6 @@
 ---
 title: 自发型（Spontaneous）
-tags: [系统角色与类型]
+tags: [创伤, 系统角色与类型, 自发型, 自然演化, 灵性或冥想实践, 创意与认知探索, 与灵性认同的交集, 自我照护]
 updated: 2025-10-03
 ---
 
@@ -42,3 +42,14 @@ updated: 2025-10-03
 - [混合型（Mixed）](entries/Emmengard-Classification.md#混合型mixed)
 - [系魂（Soulbond）](entries/Soulbond.md)
 - [图帕（Tulpa）](entries/Tulpa.md)
+
+## 相关条目
+
+- [适应型（Adaptive）](/entries/Adaptive.md)
+- [埃蒙加德分类法（Emmengard Classification）](/entries/Emmengard-Classification.md)
+- [特殊认同（Alterhuman）](/entries/Alterhuman.md)
+- [人格职能（System Roles）](/entries/System-Roles.md)
+- [保护者（Protector）](/entries/Protector.md)
+- [主体（Main）](/entries/Main.md)
+- [成员（Alter）](/entries/Alter.md)
+- [初始（Original）](/entries/Original.md)
