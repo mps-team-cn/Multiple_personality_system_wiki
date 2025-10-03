@@ -21,6 +21,8 @@ cd tools/pdf_export && python -m pdf_export
 7. 如果 `assets/last-updated.json` 存在，则会读取索引并在每篇词条标题下插入“🕒 最后更新：2025/10/02 12:34:56（abc1234）”提示，使离线 PDF 与线上页面保持一致；
 8. 调用 [Pandoc](https://pandoc.org/) 生成排好版的 `plurality_wiki.pdf`。
 
+> ℹ️ 所有被导出的词条都必须在 Frontmatter 中声明 `title`、`tags`、`updated` 字段。`updated` 支持写成 `YYYY-MM-DD` 字符串或 YAML 自动识别的日期字面量，两种写法都会在导出时转换为同一格式。若将字段留空、显式写成 `null` 或填写布尔值/列表，脚本会提示“updated 字段必须为非空字符串或有效日期”。
+
 运行脚本前，请确保：
 
 1. 已安装 Pandoc 并可在命令行中直接执行 `pandoc`。

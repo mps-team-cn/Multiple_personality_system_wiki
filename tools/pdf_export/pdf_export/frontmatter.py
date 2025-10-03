@@ -3,7 +3,11 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from datetime import date, datetime
 from pathlib import Path
+from typing import Any
+
+import yaml
 
 import yaml
 
@@ -43,6 +47,27 @@ def _split_frontmatter(raw: str) -> tuple[list[str], str]:
     raise FrontmatterError("未找到 frontmatter 结束标记 '---'。")
 
 
+def _normalize_updated(value: Any) -> str:
+    """将 frontmatter 中的 ``updated`` 字段转换为字符串。"""
+
+    if isinstance(value, (date, datetime)):
+        return value.isoformat()
+
+    if isinstance(value, str):
+        return value.strip()
+
+    if value is None:
+        return ""
+
+    if isinstance(value, bool):
+        raise FrontmatterError("updated 字段必须为日期或字符串，不能使用布尔值。")
+
+    if isinstance(value, (list, tuple, set, dict)):
+        raise FrontmatterError("updated 字段必须为日期或字符串，不支持复合类型。")
+
+    return str(value).strip()
+
+
 def _parse_frontmatter(lines: list[str]) -> EntryFrontmatter:
     """将 frontmatter 行转换为 ``EntryFrontmatter``。"""
 
@@ -75,11 +100,11 @@ def _parse_frontmatter(lines: list[str]) -> EntryFrontmatter:
     if not tags:
         raise FrontmatterError("tags 字段至少包含一个标签。")
 
-    updated = loaded["updated"]
-    if not isinstance(updated, str) or not updated.strip():
-        raise FrontmatterError("updated 字段必须为非空字符串。")
+    updated_text = _normalize_updated(loaded["updated"])
+    if not updated_text:
+        raise FrontmatterError("updated 字段必须为非空字符串或有效日期。")
 
-    return EntryFrontmatter(title=title.strip(), tags=tuple(tags), updated=updated.strip())
+    return EntryFrontmatter(title=title.strip(), tags=tuple(tags), updated=updated_text)
 
 
 def load_entry_document(path: Path) -> EntryDocument:
