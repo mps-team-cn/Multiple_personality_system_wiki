@@ -65,9 +65,9 @@
 
 ## 相关条目
 
-- [创伤（Trauma）](entries/诊断与临床/创伤.md)
-- [系统（System）](entries/系统体验与机制/系统.md)
-- [成员（Alter）](entries/系统角色与类型/成员.md)
+- [创伤（Trauma）](entries/诊断与临床/Trauma.md)
+- [系统（System）](entries/系统体验与机制/System.md)
+- [成员（Alter）](entries/系统角色与类型/Alter.md)
 - [Tulpa](entries/系统角色与类型/Tulpa.md)
 - [埃蒙加德环分类法](entries/系统体验与机制/Emongard-Ring-Classification.md)
 
