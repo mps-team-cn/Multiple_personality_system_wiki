@@ -1,6 +1,6 @@
 ---
 title: 封存（Sequestration）
-tags: [系统体验与机制]
+tags: [封存, 高危冲动或自伤意图, 非永久解决方案, 评估风险, 强烈情绪风暴, 尊重差异, 系统体验与机制, 创伤记忆泛滥]
 updated: 2025-10-03
 ---
 
@@ -33,6 +33,16 @@ updated: 2025-10-03
 - **评估风险**：若成员持续要求被封或封存后失联，需与专业者讨论是否存在严重创伤或自我伤害风险。
 - **尊重差异**：不同系统对封存的理解各异，有些会以象征性“安置”“休眠”取代，重点在确保安全与尊重。
 
+## 相关条目
+
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
+- [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [独立性（Independence）](/entries/Independence.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
 ## 参考资料
 
 [^封存-1]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision*.

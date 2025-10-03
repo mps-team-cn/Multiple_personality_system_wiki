@@ -1,6 +1,6 @@
 ---
 title: 接地（Grounding）
-tags: [实践与支持]
+tags: [实践与支持, 接地, 主要目的, 诊断与临床, 核心特征, 应用建议, 常见误区, 常见练习]
 updated: 2025-10-03
 ---
 
@@ -82,6 +82,16 @@ updated: 2025-10-03
 
 ---
 
+## 相关条目
+
+- [冥想（Meditation）](/entries/Meditation.md)
+- [超级破碎（Polyfragmented）](/entries/Polyfragmented.md)
+- [侵入性思维（Intrusive Thoughts）](/entries/Intrusive-Thoughts.md)
+- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](/entries/PTSD.md)
+- [偏重（Bias / Median）](/entries/Bias.md)
+- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
+- [适应型（Adaptive）](/entries/Adaptive.md)
+- [创伤（Trauma）](/entries/Trauma.md)
 ## 参考资料
 
 [^接地-1]: [Grounding Techniques to Free Yourself From Stress, Cleveland Clinic](https://health.clevelandclinic.org/grounding-techniques/)

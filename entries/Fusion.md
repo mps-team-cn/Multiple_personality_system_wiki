@@ -1,6 +1,6 @@
 ---
 title: 融合（Fusion）
-tags: [系统体验与机制]
+tags: [整合, 主体体验, 积极效应, 持续时间, 实际考量, 可能风险, 功能整合, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -27,6 +27,16 @@ updated: 2025-10-03
 - **与“整合”的关系**：在社群语境中，“整合”有时指广义的协作与记忆共享；“融合”则特指身份间的结构性合并。部分系统会使用“功能性整合”来描述达成高度合作但仍保持多重身份的状态。
 - **实际考量**：是否追求融合取决于系统对自我认同、创作或工作需求的考量。部分人选择维持多重身份，只要内部沟通与生活安全得到保障，同样被视为有效的恢复路径。
 
+## 相关条目
+
+- [迭代（Iteration）](/entries/Iteration.md)
+- [整合（Integration）](/entries/Integration.md)
+- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [多意识体（Plurality）](/entries/Plurality.md)
 ## 参考资料
 
 - International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation, 12*(2), 115–187.

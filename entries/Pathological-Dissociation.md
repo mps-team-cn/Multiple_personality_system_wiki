@@ -1,6 +1,6 @@
 ---
 title: 病理性解离（Pathological Dissociation）
-tags: [诊断与临床]
+tags: [解离, 病理性解离, 临床框架, 辅量资料, 触发因素, 自评工具, 结构性解离理论, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -52,12 +52,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [功能性分离（Functional Dissociation）](entries/Functional-Dissociation.md)
-- [解离性身份障碍（DID）](entries/DID.md)
-- [其他特定解离性障碍（OSDD）](entries/OSDD.md)
-- [人格解体/现实解体障碍（DPDR）](entries/Depersonalization-Derealization-Disorder-DPDR.md)
-- [创伤后应激障碍（PTSD）](entries/PTSD.md)
-
+- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
+- [解离（Dissociation）](/entries/Dissociation.md)
+- [功能性分离（Functional Dissociation）](/entries/Functional-Dissociation.md)
+- [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
+- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
+- [成员（Alter）](/entries/Alter.md)
+- [复杂性创伤后应激障碍（CPTSD）](/entries/CPTSD.md)
+- [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](/entries/Partial-Dissociative-Identity-Disorder-PDID.md)
 ## 参考资料
 
 [^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). Washington, DC: Author.

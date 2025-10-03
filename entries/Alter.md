@@ -1,6 +1,6 @@
 ---
 title: 成员（Alter）
-tags: [系统角色与类型]
+tags: [系统角色与类型, 沟通协作, 系统体验与机制, 诊断与临床, 成员, 社区文化, 内部界限, 基础概念]
 updated: 2025-10-03
 ---
 
@@ -28,8 +28,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- 参见：[系统（System）](entries/System.md)、[宿主（Host）](entries/Host.md)、[管理者（Admin）](entries/Admin.md)、[共前台（Co-fronting）](entries/Co-Fronting.md)
-
+- [适应型（Adaptive）](/entries/Adaptive.md)
+- [后台（Back / Being Back）](/entries/Back-Being-Back.md)
+- [前台（Front / Fronting）](/entries/Front-Fronting.md)
+- [管理者（Admin）](/entries/Admin.md)
+- [特殊认同（Alterhuman）](/entries/Alterhuman.md)
+- [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
+- [T 语（Tulpish）](/entries/Tulpish.md)
+- [权限（Permissions）](/entries/Permissions.md)
 ## 参考与延伸阅读
 
 [^pluralpedia-alter]: Pluralpedia. (2024). [Alter](https://pluralpedia.org/w/Alter).

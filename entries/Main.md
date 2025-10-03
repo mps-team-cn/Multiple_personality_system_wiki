@@ -1,6 +1,6 @@
 ---
 title: 主体（Main）
-tags: [系统角色与类型]
+tags: [系统角色与类型, 主体, 语境差异, 风险应对, 角色流动性, 职责划分, 社会角色期望, 执行功能整合]
 updated: 2025-10-03
 ---
 
@@ -27,10 +27,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [宿主（Host）](entries/Host.md)
-- [管理者（Admin）](entries/Admin.md)
-- [伪主体（Fauxmain）](entries/Fauxmain.md)
-
+- [人格面具（Persona）](/entries/Persona.md)
+- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
+- [碎片（Fragment）](/entries/Fragment.md)
+- [伪主体（Fauxmain）](/entries/Fauxmain.md)
+- [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
+- [系魂（Soulbond）](/entries/Soulbond.md)
+- [独立性（Independence）](/entries/Independence.md)
+- [管理者（Admin）](/entries/Admin.md)
 ## 参考与延伸阅读
 
 [^dsm5]: American Psychiatric Association. 2013. *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). American Psychiatric Publishing.

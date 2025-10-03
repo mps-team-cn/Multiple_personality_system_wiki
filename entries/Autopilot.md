@@ -1,6 +1,6 @@
 ---
 title: 自动驾驶（Autopilot）
-tags: [系统体验与机制]
+tags: [解离性身份障碍 DID, 自动驾驶, 记忆差异, 触发与过载, 行为持续但意识缺席, 自我感强度, 系统内空窗, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -42,11 +42,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [解离](entries/Dissociation.md)
-- [应激反应](entries/Stress-Response.md)
-- [整合](entries/Integration.md)
-- [意识共存](entries/Co-Consciousness.md)
-
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [多意识体（Plurality）](/entries/Plurality.md)
+- [解离（Dissociation）](/entries/Dissociation.md)
+- [系统（System）](/entries/System.md)
+- [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](/entries/Apparently-Normal-Part-Emotional-Part-Model.md)
+- [融合（Fusion）](/entries/Fusion.md)
+- [迭代（Iteration）](/entries/Iteration.md)
+- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
 ## 参考资料
 
 [^自动驾驶-1]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision*. [https://www.isst-d.org/wp-content/uploads/2019/02/ISSTD-Guidelines-Adult-DID-Treatment-2011.pdf](https://www.isst-d.org/wp-content/uploads/2019/02/ISSTD-Guidelines-Adult-DID-Treatment-2011.pdf)

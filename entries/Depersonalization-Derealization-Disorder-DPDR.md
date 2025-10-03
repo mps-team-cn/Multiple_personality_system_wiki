@@ -1,6 +1,6 @@
 ---
 title: 人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）
-tags: [诊断与临床]
+tags: [来源, 人格解体 现实解体障碍, DPDR, 重度抑郁障碍或双相障碍, 身体与感官练习, 药物治疗, 自我监控过度, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -107,14 +107,14 @@ _仅供参考，**不能**替代专业医师的诊断和治疗方案。如果有
 
 ## 相关条目
 
-- [解离](entries/Dissociation.md)
-- [非我感](entries/Depersonalization.md)
-- [创伤后应激障碍](entries/PTSD.md)
-- [复杂性创伤后应激障碍](entries/CPTSD.md)
-- [解离性身份障碍](entries/DID.md)
-
----
-
+- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
+- [复杂性创伤后应激障碍（CPTSD）](/entries/CPTSD.md)
+- [谵妄（Delirium）](/entries/Delirium.md)
+- [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
+- [躯体化障碍（Somatic Symptom Disorder，SSD）](/entries/Somatic-Symptom-Disorder-SSD.md)
+- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
+- [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
+- [定向障碍（Disorientation）](/entries/Disorientation.md)
 ## 参考与延伸阅读
 
 1. World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Depersonalization-derealization disorder (6B65).* 检索于 2025-01-05，来自 [https://icd.who.int](https://icd.who.int)。[^who2023dp]
