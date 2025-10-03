@@ -1,20 +1,21 @@
 {
   "known": [
-    "结构模块当前按标签构建 CategoryStructure",
-    "目录生成函数已支持读取 index.md",
-    "EntryDocument 提供标题和正文，后续书签来自结构顺序"
+    "frontmatter 模块使用 PyYAML safe_load 解析 Markdown 文件头",
+    "title 与 tags 字段已有类型与非空校验",
+    "当前 updated 校验要求字符串并在空字符串时抛错"
   ],
   "unknown": [
     {
-      "question": "index.md 的语法是否存在嵌套列表或角括号路径，解析时需要考虑哪些变体？",
+      "question": "YAML 解析产生的 datetime/date 对象在现有实现中为何仍触发非空字符串校验错误？",
       "priority": "high"
     },
     {
-      "question": "若 index.md 遗漏词条或包含非 entries/ 链接，导出结构应如何处理？",
-      "priority": "high"
+      "question": "是否存在额外的 frontmatter 写法（如多行字符串或显式 null）需要兼容？",
+      "priority": "medium"
     },
     {
-      "question": "是否仍需保留 Preface.md 章节以及未在 index 中列出的条目？",
+      "question": "文档中关于 frontmatter 的说明是否需要同步更新以覆盖新兼容策略？",
+
       "priority": "medium"
     }
   ]
