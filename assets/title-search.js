@@ -40,6 +40,27 @@
     });
   }
 
+  function isMobileLayout() {
+    if (typeof window === "undefined") return false;
+    if (typeof window.matchMedia === "function") {
+      return window.matchMedia("(max-width: 768px)").matches;
+    }
+    return window.innerWidth <= 768;
+  }
+
+  function closeSidebarOnMobile() {
+    if (!isMobileLayout()) return;
+    const body = document.body;
+    if (!body || body.classList.contains("close")) return;
+
+    const toggle = document.querySelector(".sidebar-toggle");
+    if (toggle && typeof toggle.click === "function") {
+      toggle.click();
+      return;
+    }
+    body.classList.add("close");
+  }
+
   function ensureIndex(vm) {
     if (!indexPromise) {
       indexPromise = buildIndex(vm).finally(function () {
@@ -221,6 +242,7 @@
         if (searchElements) {
           searchElements.input.blur();
         }
+        setTimeout(closeSidebarOnMobile, 0);
       });
 
       const meta = document.createElement("span");
