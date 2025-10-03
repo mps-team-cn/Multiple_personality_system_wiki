@@ -92,6 +92,7 @@
 - [迭代（Iteration）](entries/Iteration.md)
 - [解离（Dissociation）](entries/Dissociation.md)
 - [功能性分离（Functional Dissociation）](entries/Functional-Dissociation.md)
+- [神经多样性（Neurodiversity）](entries/Neurodiversity.md)
 - [整合（Integration）](entries/Integration.md)
 - [重构（Reconstruction）](entries/Reconstruction.md)
 - [躯体认同（Body Ownership）](entries/Body-Ownership.md)
@@ -105,6 +106,7 @@
 
 ## 实践与支持
 
+- [感官调节策略（Sensory Regulation Strategies）](entries/Sensory-Regulation-Strategies.md)
 - [冥想（Meditation）](entries/Meditation.md)
 - [接地（Grounding）](entries/Grounding.md)
 
