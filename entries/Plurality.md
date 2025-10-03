@@ -3,6 +3,7 @@ title: 多意识体（Plurality）
 tags: [系统体验与机制]
 updated: 2025-10-03
 ---
+
 # 多意识体（Plurality）
 
 ## 同义词

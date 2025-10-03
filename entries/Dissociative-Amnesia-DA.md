@@ -3,6 +3,7 @@ title: 解离性遗忘（Dissociative Amnesia，DA）
 tags: [诊断与临床]
 updated: 2025-10-03
 ---
+
 # 解离性遗忘（Dissociative Amnesia，DA）
 
 **警告！本词条内容可能含有*[触发]*因素。**

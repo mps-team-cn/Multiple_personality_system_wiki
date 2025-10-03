@@ -3,6 +3,7 @@ title: 幻想伙伴（Imaginary Companion）
 tags: [系统角色与类型]
 updated: 2025-10-03
 ---
+
 # 幻想伙伴（Imaginary Companion）
 
 ## 定义

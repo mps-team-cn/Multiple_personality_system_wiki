@@ -3,6 +3,7 @@ title: 非我感（Depersonalization）
 tags: [系统体验与机制]
 updated: 2025-10-03
 ---
+
 # 非我感（Depersonalization）
 
 ## 同义词

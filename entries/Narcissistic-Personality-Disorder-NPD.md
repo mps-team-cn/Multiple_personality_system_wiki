@@ -3,6 +3,7 @@ title: 自恋型人格障碍（Narcissistic Personality Disorder，NPD）
 tags: [诊断与临床]
 updated: 2025-10-03
 ---
+
 # 自恋型人格障碍（Narcissistic Personality Disorder，NPD）
 
 **本词条含有许多与医学、精神医学、心理学以及相关衍生方面的信息。**

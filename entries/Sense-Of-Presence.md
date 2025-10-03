@@ -3,6 +3,7 @@ title: 存在感（Sense of Presence）
 tags: [系统体验与机制]
 updated: 2025-10-03
 ---
+
 # 存在感（Sense of Presence）
 
 ## 同义词

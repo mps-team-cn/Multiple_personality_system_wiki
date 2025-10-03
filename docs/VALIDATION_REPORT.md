@@ -5,6 +5,7 @@
 本报告依据《CONTRIBUTING.md》与《docs/TEMPLATE_ENTRY.md》自动生成，用于辅助校对。
 
 ## 检查范围
+
 - `entries/` 目录下的全部 Markdown 词条
 - 一级标题格式需符合《CONTRIBUTING.md》要求：`中文名（English/缩写）`
 - Frontmatter 含 `诊断与临床` 标签的词条额外检查模板章节：
@@ -24,6 +25,7 @@
   - ## 参考与延伸阅读
 
 ## 诊断与临床结构缺失
+
 - `entries/Mania.md`
   - 缺失章节：## 诊断要点, ### ICD-11 摘要, ### DSM-5-TR 摘要, ### 差异说明, ## 解离机制与背景, ## 流行病学与病程, ## 鉴别诊断, ## 共病与风险管理, ## 治疗与支持, ## 社群与临床语境, ## 相关条目, ## 参考与延伸阅读
 - `entries/Narcissistic-Personality-Disorder-NPD.md`

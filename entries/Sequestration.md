@@ -3,6 +3,7 @@ title: 封存（Sequestration）
 tags: [系统体验与机制]
 updated: 2025-10-03
 ---
+
 # 封存（Sequestration）
 
 ## 同义词

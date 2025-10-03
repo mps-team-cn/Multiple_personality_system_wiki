@@ -3,6 +3,7 @@ title: 退行（Regression in Psychology）
 tags: [系统体验与机制]
 updated: 2025-10-03
 ---
+
 # 退行（Regression in Psychology）
 
 ## 定义

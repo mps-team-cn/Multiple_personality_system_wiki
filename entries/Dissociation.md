@@ -3,6 +3,7 @@ title: 解离（Dissociation）
 tags: [系统体验与机制]
 updated: 2025-10-03
 ---
+
 # 解离（Dissociation）
 
 > 本词条为消歧义页面，用于区分不同语境下的“解离”体验与诊断概念。

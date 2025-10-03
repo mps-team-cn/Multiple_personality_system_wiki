@@ -3,6 +3,7 @@ title: 埃蒙加德分类法（Emmengard Classification）
 tags: [系统角色与类型]
 updated: 2025-10-03
 ---
+
 # 埃蒙加德分类法（Emmengard Classification）
 
 ## 概述

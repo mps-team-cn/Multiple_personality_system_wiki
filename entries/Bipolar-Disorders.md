@@ -3,6 +3,7 @@ title: 双相障碍（Bipolar Disorders）
 tags: [诊断与临床]
 updated: 2025-10-03
 ---
+
 # 双相障碍（Bipolar Disorders）
 
 **本词条涉及情绪高涨、抑郁、自伤或自杀风险，请在安全环境下阅读。**

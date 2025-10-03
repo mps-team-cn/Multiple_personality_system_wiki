@@ -3,6 +3,7 @@ title: 意识修改（Consciousness Modification）
 tags: [系统体验与机制]
 updated: 2025-10-03
 ---
+
 # 意识修改（Consciousness Modification）
 
 ## 同义词

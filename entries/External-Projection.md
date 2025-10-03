@@ -3,6 +3,7 @@ title: 外投射（External Projection）
 tags: [系统体验与机制]
 updated: 2025-10-03
 ---
+
 # 外投射（External Projection）
 
 **一句话定义**：系统成员将自身的知觉、情绪或身份感投射至外部对象或空间，以维持稳定感、沟通或安全距离的体验模式。

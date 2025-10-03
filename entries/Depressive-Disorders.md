@@ -3,6 +3,7 @@ title: 抑郁障碍（Depressive Disorders）
 tags: [诊断与临床]
 updated: 2025-10-03
 ---
+
 # 抑郁障碍（Depressive Disorders）
 
 **本词条含有医学、精神医学与心理健康相关信息，仅供参考，不能替代专业诊断或治疗。**

@@ -3,6 +3,7 @@ title: 创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）
 tags: [诊断与临床]
 updated: 2025-10-03
 ---
+
 # 创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）
 
 > **警告！本词条内容可能含有*[触发]*因素。**

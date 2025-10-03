@@ -3,6 +3,7 @@ title: 应激反应（Stress Response）
 tags: [系统体验与机制]
 updated: 2025-10-03
 ---
+
 # 应激反应（Stress Response）
 
 ## 同义词

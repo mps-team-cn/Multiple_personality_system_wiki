@@ -3,6 +3,7 @@ title: 冥想（Meditation）
 tags: [实践与支持]
 updated: 2025-10-03
 ---
+
 # 冥想（Meditation）
 
 ## 同义词

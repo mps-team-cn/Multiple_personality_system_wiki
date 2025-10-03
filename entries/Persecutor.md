@@ -3,6 +3,7 @@ title: 迫害者（Persecutor）
 tags: [系统角色与类型]
 updated: 2025-10-03
 ---
+
 # 迫害者（Persecutor）
 
 ## 定义

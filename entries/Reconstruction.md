@@ -3,6 +3,7 @@ title: 重构（Reconstruction）
 tags: [系统体验与机制]
 updated: 2025-10-03
 ---
+
 # 重构（Reconstruction）
 
 ## 定义

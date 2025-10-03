@@ -3,6 +3,7 @@ title: ANP-EP 模型（Apparently Normal Part–Emotional Part Model）
 tags: [系统体验与机制]
 updated: 2025-10-03
 ---
+
 # ANP-EP 模型（Apparently Normal Part–Emotional Part Model）
 
 ## 模型概述
