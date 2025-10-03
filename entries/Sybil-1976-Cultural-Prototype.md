@@ -38,6 +38,7 @@ updated: 2025-10-03
 - [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](/entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
 - [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](/entries/Dostoevsky-The-Double-Self-Division.md)
 - [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](/entries/Another-Me-DID-Depictions.md)
+
 ## 参考资料
 
 - （待补充）

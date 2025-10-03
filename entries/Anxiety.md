@@ -81,6 +81,7 @@ DSM-5-TR 要求症状在多种情境中持续至少 6 个月，伴随不安、�
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
 - [定向障碍（Disorientation）](/entries/Disorientation.md)
+
 ## 参考与延伸阅读
 
 [^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.

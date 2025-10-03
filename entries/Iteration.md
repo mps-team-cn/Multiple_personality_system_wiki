@@ -38,6 +38,7 @@ updated: 2025-10-03
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
 - [应激反应（Stress Response）](/entries/Stress-Response.md)
+
 ## 参考资料
 
 - Fine, C. G. (1999). The tactical-integration model for the treatment of dissociative identity disorder. *American Journal of Psychotherapy, 53*(3), 361–376.

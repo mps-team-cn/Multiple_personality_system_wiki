@@ -121,6 +121,7 @@ updated: 2025-10-03
 - [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](/entries/Narcissistic-Personality-Disorder-NPD.md)
 - [躯体化障碍（Somatic Symptom Disorder，SSD）](/entries/Somatic-Symptom-Disorder-SSD.md)
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
+
 ## 参考与延伸阅读
 
 1. APA. (2022). *DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders*.

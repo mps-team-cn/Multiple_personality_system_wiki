@@ -58,6 +58,7 @@ updated: 2025-10-03
 - [重构（Reconstruction）](/entries/Reconstruction.md)
 - [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
 - [迭代（Iteration）](/entries/Iteration.md)
+
 ## 参考资料
 
 [^cardena1994]: Cardeña, E. (1994). The domain of dissociation. In S. J. Lynn & J. W. Rhue (Eds.), *Dissociation: Clinical and theoretical perspectives* (pp. 15–31). New York: Guilford Press.

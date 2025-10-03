@@ -34,6 +34,7 @@ updated: 2025-10-03
 - [主体（Main）](/entries/Main.md)
 - [核心（Core）](/entries/Core.md)
 - [管理者（Admin）](/entries/Admin.md)
+
 ## 参考与延伸阅读
 
 [^fauxmain-pluralpedia]: Pluralpedia. 2023. “Fauxmain.” [https://pluralpedia.org/w/Fauxmain.](https://pluralpedia.org/w/Fauxmain.)

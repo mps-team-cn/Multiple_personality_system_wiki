@@ -50,6 +50,7 @@ updated: 2025-10-03
 - [独立性（Independence）](/entries/Independence.md)
 - [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 - [非我感（Depersonalization）](/entries/Depersonalization.md)
+
 ## 参考资料
 
 [^意识修改-1]: Dell, P. F., & O'Neil, J. A. (Eds.). (2009). *Dissociation and the Dissociative Disorders: DSM-V and Beyond*. Routledge.

@@ -49,6 +49,7 @@ updated: 2025-10-03
 - [人格面具（Persona）](/entries/Persona.md)
 - [系魂（Soulbond）](/entries/Soulbond.md)
 - [守门人（Gatekeeper）](/entries/Gatekeeper.md)
+
 ## 参考与延伸阅读
 
 Wikipedia contributors. (2024, January). *Alter (dissociative identity disorder)*. In Wikipedia, The Free Encyclopedia. [https://en.wikipedia.org/wiki/Alter_(dissociative_identity_disorder](https://en.wikipedia.org/wiki/Alter_(dissociative_identity_disorder))

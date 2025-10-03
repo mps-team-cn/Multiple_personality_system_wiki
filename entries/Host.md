@@ -43,6 +43,7 @@ updated: 2025-10-03
 - [迫害者（Persecutor）](/entries/Persecutor.md)
 - [保护者（Protector）](/entries/Protector.md)
 - [执行者（Performer / Executive）](/entries/Performer-Executive.md)
+
 ## 参考资料
 
 [^veissiere2016]: Veissière, S. P. L. (2016). Varieties of Tulpa experiences: Sentient imaginary friends, embodied joint-agents, and hypnotic social agents. *Anthropology of Consciousness, 27*(2), 213–239.

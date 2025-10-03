@@ -48,6 +48,7 @@ updated: 2025-10-03
 - [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 - [独立性（Independence）](/entries/Independence.md)
+
 ## 参考资料
 
 [^存在感-1]: Veissière, S. P. L., et al. (2020). Tulpamancy: Virtual companions, identity, and religion. *Phenomenology and the Cognitive Sciences, 19*(3), 619-644.

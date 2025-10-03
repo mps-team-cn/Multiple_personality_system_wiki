@@ -61,6 +61,7 @@ ICD-11 将人格障碍划分为单一诊断并通过严重程度与特质修饰�
 - [躁狂（Mania）](/entries/Mania.md)
 - [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 - [创伤（Trauma）](/entries/Trauma.md)
+
 ## 参考资料
 
 1. American Psychiatric Association. _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., Text Revision), 2022.

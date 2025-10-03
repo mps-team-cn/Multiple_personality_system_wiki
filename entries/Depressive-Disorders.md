@@ -109,6 +109,7 @@ updated: 2025-10-03
 - [躯体化障碍（Somatic Symptom Disorder，SSD）](/entries/Somatic-Symptom-Disorder-SSD.md)
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
+
 ## 参考与延伸阅读
 
 1. World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Depressive episode and recurrent depressive disorder.* 检索于 2025-01-05，来自 [https://icd.who.int](https://icd.who.int)。[^who2023dep]

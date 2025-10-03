@@ -35,6 +35,7 @@ updated: 2025-10-03
 - [系魂（Soulbond）](/entries/Soulbond.md)
 - [独立性（Independence）](/entries/Independence.md)
 - [管理者（Admin）](/entries/Admin.md)
+
 ## 参考与延伸阅读
 
 [^dsm5]: American Psychiatric Association. 2013. *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). American Psychiatric Publishing.

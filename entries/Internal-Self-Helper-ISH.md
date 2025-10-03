@@ -35,6 +35,7 @@ updated: 2025-10-03
 - [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
 - [混合（Blending）](/entries/Blending.md)
 - [系魂（Soulbond）](/entries/Soulbond.md)
+
 ## 参考与延伸阅读
 
 [^ish-pluralpedia]: Pluralpedia. 2023. “Internal Self Helper.” [https://pluralpedia.org/w/Internal_Self_Helper.](https://pluralpedia.org/w/Internal_Self_Helper.)

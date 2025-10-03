@@ -52,6 +52,7 @@ updated: 2025-10-03
 - [《隐形人》（Mr. Robot）中的人格分裂叙事](/entries/Mr-Robot-DID-Narrative.md)
 - [《西比尔》（Sybil, 1976）与多重人格文化原型](/entries/Sybil-1976-Cultural-Prototype.md)
 - [感官调节策略（Sensory Regulation Strategies）](/entries/Sensory-Regulation-Strategies.md)
+
 ## 参考与延伸阅读
 
 1. Singer, J. (1998). *NeuroDiversity: The Birth of an Idea*. (未出版荣誉论文). University of Technology Sydney.

@@ -115,6 +115,7 @@ _仅供参考，**不能**替代专业医师的诊断和治疗方案。如果有
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
 - [定向障碍（Disorientation）](/entries/Disorientation.md)
+
 ## 参考与延伸阅读
 
 1. World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Depersonalization-derealization disorder (6B65).* 检索于 2025-01-05，来自 [https://icd.who.int](https://icd.who.int)。[^who2023dp]

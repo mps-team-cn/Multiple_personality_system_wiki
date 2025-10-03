@@ -50,6 +50,7 @@ updated: 2025-10-03
 - [权限（Permissions）](/entries/Permissions.md)
 - [融合（Fusion）](/entries/Fusion.md)
 - [应激反应（Stress Response）](/entries/Stress-Response.md)
+
 ## 参考文献
 
 [^退行-1]: American Psychological Association. (2023). *Regression*. APA Dictionary of Psychology. [https://dictionary.apa.org/regression](https://dictionary.apa.org/regression)
