@@ -14,7 +14,8 @@
 
 ### 1.2 文件与目录规范
 
-- **词条**：必须存放在仓库根目录下的 `entries/` 子目录，可建立二级分类（如 `entries/诊断与临床/`、`entries/系统体验与机制/`）。
+- **词条**：全部 Markdown 词条存放在 `entries/` 根目录，不得新建二级子目录。分类信息统一通过 Frontmatter `tags` 字段声明。
+- **词条 Frontmatter**：每篇词条必须在文件开头声明 `---` 包裹的 YAML，至少包含 `title` / `tags` / `updated` 三个字段。
 - **文档**：除词条外的所有说明文档，统一放在 `docs/` 子目录。
 - **脚本与工具**：所有脚本或自动化工具，统一放在 `tools/` 子目录。
 - **工具文档**：脚本更新或维护后，必须同步更新 `docs/tools/README.md`，保证工具与说明一致。
@@ -22,10 +23,11 @@
 ### 1.3 索引与链接规范
 
 - 新增或修改词条时，必须同步维护：
+  - `tags.md` → 运行 `python generate_tags_index.py` 自动生成
   - `index.md` → 全局目录索引
   - `glossary.md` → 术语表（如适用）
   - `assets/last-updated.json` → 词条最后更新时间（运行 `node scripts/gen-last-updated.mjs` 生成）
-- 条目内链接必须使用完整路径（如 `entries/系统角色与类型/Admin.md`），禁止相对或模糊链接。
+- 条目内链接必须使用完整路径（如 `entries/Admin.md`），禁止相对或模糊链接。
 
 ---
 

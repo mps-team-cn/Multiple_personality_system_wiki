@@ -7,7 +7,17 @@ from pathlib import Path
 from typing import Sequence
 
 
-CategoryStructure = Sequence[tuple[str, Sequence[Path]]]
+@dataclass(frozen=True)
+class EntryDocument:
+    """表示参与导出的单篇词条内容。"""
+
+    path: Path
+    title: str
+    tags: tuple[str, ...]
+    body: str
+
+
+CategoryStructure = Sequence[tuple[str, Sequence[EntryDocument]]]
 
 
 @dataclass(frozen=True)
