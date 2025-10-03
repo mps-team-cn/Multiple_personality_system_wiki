@@ -107,7 +107,11 @@ docsify serve .
 
 ## 🧭 贡献（Contribution）
 
-欢迎参与完善！首次贡献请阅读 **[CONTRIBUTING.md](./CONTRIBUTING.md)**。
+欢迎参与完善！首次贡献请阅读 **[CONTRIBUTING.md](./CONTRIBUTING.md)**，并参考下列关键文档：
+
+- [GitHub 提交流程指南](docs/GITHUB_WORKFLOW.md)
+- [词条模板](docs/TEMPLATE_ENTRY.md)
+- [维护者手册](docs/ADMIN_GUIDE.md)
 
 ### 提交流程（简要）
 
