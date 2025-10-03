@@ -1,0 +1,10 @@
+{
+  "interface_defined": true,
+  "tech_choice_understood": true,
+  "risks_identified": [
+    "某些 YAML 日期在不同平台可能解析为字符串空值",
+    "缺少 PyYAML 运行时导致无法实测需依赖静态分析"
+  ],
+  "verification_plan": "完成代码后运行 python -m compileall tools/pdf_export/export_to_pdf.py，必要时编写针对 frontmatter 的单元或静态断言测试",
+  "next_step": "进入任务规划"
+}
