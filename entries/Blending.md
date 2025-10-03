@@ -1,6 +1,6 @@
 ---
 title: 混合（Blending）
-tags: [系统角色与类型]
+tags: [解离性身份障碍 DID, 系统角色与类型, 混合, 阶段化治疗, 身份感与时间感模糊, 环境熟悉度, 情绪与记忆激活, 安全地探索混合]
 updated: 2025-10-03
 ---
 
@@ -27,6 +27,17 @@ updated: 2025-10-03
 - **阶段化治疗**：研究表明，遵循稳定化—创伤处理—整合的阶段化治疗框架，并主动与各自我状态合作，可降低混合时的困惑感和非自愿症状。[^brand2014]
 - **共识式工作协议**：在系统内部建立共享日志、情绪评级或轮换安排，有助于在混合出现时快速分辨当下的主导成员、需求与界限。[^brand2013]
 - **安全地探索混合**：治疗关系中的支持性环境可以让系统成员以观察者身份体验混合，从而提炼功能互补的优势，同时避免在高波动阶段贸然追求“永久融合”。[^loewenstein1991][^brand2014]
+
+## 相关条目
+
+- [管理者（Admin）](/entries/Admin.md)
+- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
+- [其他特定解离性障碍（OSDD）](/entries/OSDD.md)
+- [整合（Integration）](/entries/Integration.md)
+- [多意识体（Plurality）](/entries/Plurality.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
+- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
 
 ## 参考资料
 

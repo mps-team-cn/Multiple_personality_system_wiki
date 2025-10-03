@@ -1,6 +1,6 @@
 ---
 title: 碎片（Fragment）
-tags: [系统角色与类型]
+tags: [系统角色与类型, 碎片, 与完整成员的区别, 风险应对, 识别方法, 结构性解离模型, 系统影响, 神经生物学视角]
 updated: 2025-10-03
 ---
 
@@ -27,9 +27,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [解离（Dissociation）](entries/Dissociation.md)
-- [记忆屏蔽（Memory Shielding）](entries/Memory-Shielding.md)
-- [融合（Fusion）](entries/Fusion.md)
+- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
+- [主体（Main）](/entries/Main.md)
+- [伪主体（Fauxmain）](/entries/Fauxmain.md)
+- [人格面具（Persona）](/entries/Persona.md)
+- [人格职能（System Roles）](/entries/System-Roles.md)
+- [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
+- [系魂（Soulbond）](/entries/Soulbond.md)
+- [管理者（Admin）](/entries/Admin.md)
 
 ## 参考与延伸阅读
 

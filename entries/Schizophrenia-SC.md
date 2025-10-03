@@ -1,6 +1,6 @@
 ---
 title: 精神分裂症（Schizophrenia，SC）
-tags: [诊断与临床]
+tags: [精神分裂症, 药物治疗, 心理社会干预, 康复与支持, 病程与共病, 治疗与支持, 诊断要点, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -54,6 +54,17 @@ ICD-11 对精神分裂症的诊断强调以下要点：
 - **药物治疗**：第二代抗精神病药物为一线治疗；需监测代谢、副作用与治疗依从性。难治性病例可考虑氯氮平。
 - **心理社会干预**：个案管理、家庭干预、社交技能训练、认知行为治疗等有助于改善复发率与功能。
 - **康复与支持**：提供职业康复、社区支持、早期干预与复发预警教育，帮助个体维持生活品质。
+
+## 相关条目
+
+- [躯体化障碍（Somatic Symptom Disorder，SSD）](/entries/Somatic-Symptom-Disorder-SSD.md)
+- [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](/entries/Narcissistic-Personality-Disorder-NPD.md)
+- [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
+- [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
+- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
+- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
+- [躁狂（Mania）](/entries/Mania.md)
+- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 
 ## 参考资料
 

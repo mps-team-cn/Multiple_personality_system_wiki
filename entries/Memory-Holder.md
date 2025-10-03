@@ -1,6 +1,6 @@
 ---
 title: 记忆持有者（Memory Holder）
-tags: [系统角色与类型]
+tags: [系统角色与类型, 记忆持有者, 记忆范围集中, 情绪负荷较高, 迫害者, 记录者 观察者, 技能或知识保管, 创伤记忆守护]
 updated: 2025-10-03
 ---
 
@@ -41,3 +41,14 @@ updated: 2025-10-03
 [^howell2011]: Howell, E. F. (2011). *The dissociative mind*. Routledge.
 [^brown2019]: Brown, N., & Van der Hart, O. (2019). Stabilization in the treatment of dissociative disorders. In K. L. Dell & A. J. Lawson (Eds.), *Dissociation and the Dissociative Disorders: Past, Present, Future* (pp. 483–499). Routledge.
 [^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for treating dissociative identity disorder in adults, third revision*. Journal of Trauma & Dissociation, 12(2), 115–187.
+
+## 相关条目
+
+- [迫害者（Persecutor）](/entries/Persecutor.md)
+- [人格职能（System Roles）](/entries/System-Roles.md)
+- [小孩意识体（Little / Child Part）](/entries/Little.md)
+- [青少年意识体（Teen Part）](/entries/Teen.md)
+- [照顾者（Caregiver）](/entries/Caregiver.md)
+- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
+- [保护者（Protector）](/entries/Protector.md)
+- [初始（Original）](/entries/Original.md)

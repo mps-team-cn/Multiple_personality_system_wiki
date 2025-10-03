@@ -1,6 +1,6 @@
 ---
 title: 融合（Fusion）
-tags: [系统体验与机制]
+tags: [整合, 主体体验, 积极效应, 持续时间, 实际考量, 可能风险, 功能整合, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -26,6 +26,17 @@ updated: 2025-10-03
 - **临床策略**：分阶段治疗模式（稳定化—创伤处理—整合与复健）通常将融合视为第三阶段的潜在目标之一，亦有治疗者与当事人选择以合作共存、共享生活为长期目标，而不追求最终融合。
 - **与“整合”的关系**：在社群语境中，“整合”有时指广义的协作与记忆共享；“融合”则特指身份间的结构性合并。部分系统会使用“功能性整合”来描述达成高度合作但仍保持多重身份的状态。
 - **实际考量**：是否追求融合取决于系统对自我认同、创作或工作需求的考量。部分人选择维持多重身份，只要内部沟通与生活安全得到保障，同样被视为有效的恢复路径。
+
+## 相关条目
+
+- [迭代（Iteration）](/entries/Iteration.md)
+- [整合（Integration）](/entries/Integration.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [多意识体（Plurality）](/entries/Plurality.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
+- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
 
 ## 参考资料
 

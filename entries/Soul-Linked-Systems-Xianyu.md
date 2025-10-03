@@ -1,6 +1,6 @@
 ---
 title: 系魂型系统（Soul-Linked Systems, Xianyu Theory）
-tags: [系统体验与机制]
+tags: [定义与同义词, 通灵型系统, 灵魂联结系统, 灵性中介系统, 系魂型系统, 社群功能, 独特性, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -74,13 +74,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [弦羽理论生态位分类法](entries/Xianyu-Theory-Niche-Classification.md)
-- [单一类系统（Xianyu Theory）](entries/Single-Class-Systems-Xianyu.md)
-- [混合型系统（Xianyu Theory）](entries/Mixed-Systems-Xianyu.md)
-- [家族式系统（Xianyu Theory）](entries/Family-Systems-Xianyu.md)
-- [创伤（Trauma）](entries/Trauma.md)
-
----
+- [家族式系统（Family Systems, Xianyu Theory）](/entries/Family-Systems-Xianyu.md)
+- [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](/entries/Xianyu-Theory-Niche-Classification.md)
+- [单一类系统（Single-Class Systems, Xianyu Theory）](/entries/Single-Class-Systems-Xianyu.md)
+- [混合型系统（Mixed Systems, Xianyu Theory）](/entries/Mixed-Systems-Xianyu.md)
+- [内部空间（Headspace / Inner World）](/entries/Headspace-Inner-World.md)
+- [共前台（Co-fronting）](/entries/Co-Fronting.md)
+- [系统（System）](/entries/System.md)
+- [切换（Switch）](/entries/Switch.md)
 
 ## 参考与来源
 

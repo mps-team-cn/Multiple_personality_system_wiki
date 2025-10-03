@@ -1,6 +1,6 @@
 ---
 title: 适应型（Adaptive）
-tags: [系统角色与类型]
+tags: [创伤, 系统角色与类型, 适应型, 诊断与临床, 防御机制, 自我照护, 系统体验与机制, 分类与对比]
 updated: 2025-10-03
 ---
 
@@ -41,3 +41,14 @@ updated: 2025-10-03
 - [解离性身份障碍（DID）](entries/DID.md)
 - [其他特定解离性障碍（OSDD）](entries/OSDD.md)
 - [创伤（Trauma）](entries/Trauma.md)
+
+## 相关条目
+
+- [自发型（Spontaneous）](/entries/Spontaneous.md)
+- [成员（Alter）](/entries/Alter.md)
+- [特殊认同（Alterhuman）](/entries/Alterhuman.md)
+- [解离（Dissociation）](/entries/Dissociation.md)
+- [T 语（Tulpish）](/entries/Tulpish.md)
+- [创伤（Trauma）](/entries/Trauma.md)
+- [人格职能（System Roles）](/entries/System-Roles.md)
+- [埃蒙加德分类法（Emmengard Classification）](/entries/Emmengard-Classification.md)

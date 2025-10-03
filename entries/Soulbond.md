@@ -1,6 +1,6 @@
 ---
 title: 系魂（Soulbond）
-tags: [系统角色与类型]
+tags: [系统角色与类型, 系魂, 起源背景, 体验特征, 风险应对, 身份持续性, 记录管理, 沟通与边界]
 updated: 2025-10-03
 ---
 
@@ -27,9 +27,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [特殊认同（Alterhuman）](entries/Alterhuman.md)
-- [人格面具（Persona）](entries/Persona.md)
-- [碎片（Fragment）](entries/Fragment.md)
+- [特殊认同（Alterhuman）](/entries/Alterhuman.md)
+- [伪主体（Fauxmain）](/entries/Fauxmain.md)
+- [人格面具（Persona）](/entries/Persona.md)
+- [主体（Main）](/entries/Main.md)
+- [碎片（Fragment）](/entries/Fragment.md)
+- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
+- [管理者（Admin）](/entries/Admin.md)
+- [核心（Core）](/entries/Core.md)
 
 ## 参考与延伸阅读
 

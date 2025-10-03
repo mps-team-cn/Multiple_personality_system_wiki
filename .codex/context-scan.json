@@ -1,0 +1,21 @@
+{
+  "task": "修复 PDF 导出解析 frontmatter 时对 updated 字段的校验，兼容 YAML 日期类型",
+  "location": {
+    "frontmatter_module": "tools/pdf_export/pdf_export/frontmatter.py",
+    "cli_entry": "tools/pdf_export/export_to_pdf.py",
+    "docs": [
+      "docs/tools/README.md",
+      "tools/pdf_export/README_pdf_output.md",
+      "docs/pdf_export/README_pdf_output.md"
+    ]
+  },
+  "current_behavior": "frontmatter 使用 PyYAML 解析，title/tags 正常，但 updated 仅接受非空字符串，导致 YAML 自动识别日期时被判定为空",
+  "similar_examples": [
+    "EntryFrontmatter 数据类描述 title/tags/updated 要求",
+    "_parse_frontmatter 中针对 tags 的字符串/列表兼容逻辑"
+  ],
+  "tech_stack": "Python 3.11，依赖 PyYAML，利用 pathlib 与 dataclass 组织结构",
+  "tests": "官方文档推荐运行 python -m compileall tools/pdf_export/export_to_pdf.py 验证语法",
+  "observations": "需允许 updated 接受 datetime.date/datetime 并统一转为字符串，错误提示应保留；同时确认文档同步说明 frontmatter 要求。"
+
+}

@@ -1,6 +1,6 @@
 ---
 title: 伪主体（Fauxmain）
-tags: [系统角色与类型]
+tags: [系统角色与类型, 伪主体, 角色特征, 风险应对, 身份定位, 沟通策略, 形成原因, 外部认知差异]
 updated: 2025-10-03
 ---
 
@@ -26,9 +26,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [主体（Main）](entries/Main.md)
-- [宿主（Host）](entries/Host.md)
-- [混合（Blending）](entries/Blending.md)
+- [特殊认同（Alterhuman）](/entries/Alterhuman.md)
+- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
+- [碎片（Fragment）](/entries/Fragment.md)
+- [人格面具（Persona）](/entries/Persona.md)
+- [系魂（Soulbond）](/entries/Soulbond.md)
+- [主体（Main）](/entries/Main.md)
+- [核心（Core）](/entries/Core.md)
+- [管理者（Admin）](/entries/Admin.md)
 
 ## 参考与延伸阅读
 

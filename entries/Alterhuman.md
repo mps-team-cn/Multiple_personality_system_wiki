@@ -1,6 +1,6 @@
 ---
 title: 特殊认同（Alterhuman）
-tags: [系统角色与类型]
+tags: [系统角色与类型, 身份认同, 风险应对, 自我照护, 社会文化, 沟通策略, 基础概念, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -27,9 +27,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [系魂（Soulbond）](entries/Soulbond.md)
-- [人格面具（Persona）](entries/Persona.md)
-- [碎片（Fragment）](entries/Fragment.md)
+- [系魂（Soulbond）](/entries/Soulbond.md)
+- [伪主体（Fauxmain）](/entries/Fauxmain.md)
+- [适应型（Adaptive）](/entries/Adaptive.md)
+- [成员（Alter）](/entries/Alter.md)
+- [人格面具（Persona）](/entries/Persona.md)
+- [主体（Main）](/entries/Main.md)
+- [自发型（Spontaneous）](/entries/Spontaneous.md)
+- [碎片（Fragment）](/entries/Fragment.md)
 
 ## 参考与延伸阅读
 

@@ -1,6 +1,6 @@
 ---
 title: 守门人（Gatekeeper）
-tags: [系统角色与类型]
+tags: [系统角色与类型, 守门人, 前台与切换管理, 高层视角, 边界感知敏锐, 策略价值, 社群经验, 沟通与仲裁]
 updated: 2025-10-03
 ---
 
@@ -44,10 +44,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [管理者（Admin）](entries/Admin.md)
-- [内部自助者（ISH）](entries/Internal-Self-Helper-ISH.md)
-- [权限（Permissions）](entries/Permissions.md)
-- [保护者（Protector）](https://pluralpedia.org/w/Protector)
+- [核心（Core）](/entries/Core.md)
+- [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
+- [伪主体（Fauxmain）](/entries/Fauxmain.md)
+- [管理者（Admin）](/entries/Admin.md)
+- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
+- [碎片（Fragment）](/entries/Fragment.md)
+- [后台（Back / Being Back）](/entries/Back-Being-Back.md)
+- [成员（Alter）](/entries/Alter.md)
 
 ## 参考与延伸阅读
 

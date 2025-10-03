@@ -1,6 +1,6 @@
 ---
 title: 退行（Regression in Psychology）
-tags: [系统体验与机制]
+tags: [退行, 稳定化与接地技巧, 界限与日常结构, 慢性或急性压力, 发展性补偿, 创伤提醒, 关系动力, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -39,6 +39,17 @@ updated: 2025-10-03
 - **依恋修复与安全感建立**：在治疗关系或支持网络中提供一致、可预测的回应，以满足被激活的依恋需求[^退行-4]。
 - **发展性补偿**：透过心理治疗、游戏疗法或团体支持补足早期未被满足的发展任务，使退行逐渐减少。
 - **界限与日常结构**：在照料环境中维持温柔且清晰的界限，帮助个体在安全中重新练习成熟技能。
+
+## 相关条目
+
+- [迭代（Iteration）](/entries/Iteration.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
+- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [独立性（Independence）](/entries/Independence.md)
 
 ## 参考文献
 

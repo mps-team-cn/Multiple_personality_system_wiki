@@ -1,6 +1,6 @@
 ---
 title: 解离性身份障碍（Dissociative Identity Disorder，DID）
-tags: [诊断与临床]
+tags: [解离, 解离性身份障碍 DID, 解离性身份障碍, 躯体与情绪症状, 身份切换, 记忆断片, 部分解离性身份障碍, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -110,13 +110,14 @@ DID 的治疗通常遵循分阶段模式：
 
 ## 相关条目
 
-- [部分解离性身份障碍（PDID）](entries/Partial-Dissociative-Identity-Disorder-PDID.md)
-- [其他特定解离性障碍（OSDD）](entries/OSDD.md)
-- [创伤后应激障碍（PTSD）](entries/PTSD.md)
-- [复杂性创伤后应激障碍（CPTSD）](entries/CPTSD.md)
-- [人格解体/现实解体障碍（DPDR）](entries/Depersonalization-Derealization-Disorder-DPDR.md)
-
----
+- [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](/entries/Partial-Dissociative-Identity-Disorder-PDID.md)
+- [其他特定解离性障碍（OSDD）](/entries/OSDD.md)
+- [解离（Dissociation）](/entries/Dissociation.md)
+- [多意识体（Plurality）](/entries/Plurality.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
+- [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](/entries/Apparently-Normal-Part-Emotional-Part-Model.md)
+- [系统（System）](/entries/System.md)
 
 ## 参考与延伸阅读
 

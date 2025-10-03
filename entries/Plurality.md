@@ -1,6 +1,6 @@
 ---
 title: 多意识体（Plurality）
-tags: [系统体验与机制]
+tags: [解离性身份障碍 DID, 多意识体, 解离性身份障碍, 非病理化视角, 身份认可, 资源消耗, 解离谱系观点, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -50,6 +50,17 @@ updated: 2025-10-03
 - **建立内部协议**：通过内部文档、会议或协作工具明确角色与决策流程。
 - **使用地面化技术**：在切换或感官过载时，运用呼吸、触感或五感扫描等技巧保持稳定。
 - **获取社群资源**：加入互助社群、阅读术语库、参加教育资源可以减少孤立感并获取经验分享。
+
+## 相关条目
+
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [系统（System）](/entries/System.md)
+- [解离（Dissociation）](/entries/Dissociation.md)
+- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
+- [自动驾驶（Autopilot）](/entries/Autopilot.md)
+- [其他特定解离性障碍（OSDD）](/entries/OSDD.md)
+- [融合（Fusion）](/entries/Fusion.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 
 ## 参考资料
 

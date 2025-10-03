@@ -1,0 +1,10 @@
+{
+  "question": "是否存在额外的 frontmatter 写法（如多行字符串或显式 null）需要兼容？",
+  "analysis": {
+    "multi_line": "仓库中 tags 字段已经存在列表形式，证明 PyYAML 可处理复杂结构",
+    "null_case": "若编者误写 updated: 或 updated: null，safe_load 分别得到 '' 与 None，应提示填写有效日期",
+    "string_block": "未发现使用多行块标量表示日期的实例，暂不需要特殊处理",
+    "conclusion": "目前只需确保普通字符串、显式日期对象与带空格的写法得到一致校验"
+
+  }
+}

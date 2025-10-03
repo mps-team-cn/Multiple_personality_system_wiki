@@ -1,6 +1,6 @@
 ---
 title: 自动驾驶（Autopilot）
-tags: [系统体验与机制]
+tags: [解离性身份障碍 DID, 自动驾驶, 记忆差异, 触发与过载, 行为持续但意识缺席, 自我感强度, 系统内空窗, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -42,10 +42,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [解离](entries/Dissociation.md)
-- [应激反应](entries/Stress-Response.md)
-- [整合](entries/Integration.md)
-- [意识共存](entries/Co-Consciousness.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [多意识体（Plurality）](/entries/Plurality.md)
+- [解离（Dissociation）](/entries/Dissociation.md)
+- [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](/entries/Apparently-Normal-Part-Emotional-Part-Model.md)
+- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
+- [融合（Fusion）](/entries/Fusion.md)
+- [系统（System）](/entries/System.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 
 ## 参考资料
 

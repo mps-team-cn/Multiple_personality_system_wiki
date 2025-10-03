@@ -1,6 +1,6 @@
 ---
 title: 幻想伙伴（Imaginary Companion）
-tags: [系统角色与类型]
+tags: [系统角色与类型, 幻想伙伴, 发展常见性, 文化差异, 寄生性念头或幻觉, 可塑性, 功能多样, 与多意识体概念的交叉]
 updated: 2025-10-03
 ---
 
@@ -40,3 +40,14 @@ updated: 2025-10-03
 [^harter2004]: Harter, S., & Taylor, M. (2004). The self and imaginary companions. In M. Taylor (Ed.), *Imaginary companions and the children who create them* (pp. 73–97). Oxford University Press.
 [^veissiere2016]: Veissière, S. P. L. (2016). Varieties of tulpa experiences: Sentient imaginary friends, embodied joint-agents, and hypnotic social agents. *Anthropology of Consciousness, 27*(2), 213–239.
 [^americanpsychiatric2013]: American Psychiatric Association. (2013). *Diagnostic and statistical manual of mental disorders* (5th ed.). American Psychiatric Publishing.
+
+## 相关条目
+
+- [宿主（Host）](/entries/Host.md)
+- [图帕（Tulpa）](/entries/Tulpa.md)
+- [初始（Original）](/entries/Original.md)
+- [自发型（Spontaneous）](/entries/Spontaneous.md)
+- [人格职能（System Roles）](/entries/System-Roles.md)
+- [适应型（Adaptive）](/entries/Adaptive.md)
+- [埃蒙加德分类法（Emmengard Classification）](/entries/Emmengard-Classification.md)
+- [主体（Main）](/entries/Main.md)

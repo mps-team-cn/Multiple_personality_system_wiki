@@ -1,6 +1,6 @@
 ---
 title: 醉酒解离（Alcohol-Induced Dissociation）
-tags: [系统体验与机制]
+tags: [解离, 醉酒解离, 躯体化, 物质影响, 沟通协作, 感知体验, 应对策略, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -36,10 +36,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [接地（Grounding）](entries/Grounding.md)
-- [混合（Blending）](entries/Blending.md)
-- [解离（Dissociation）](entries/Dissociation.md)
-- [非我感（Depersonalization）](entries/Depersonalization.md)
+- [解离（Dissociation）](/entries/Dissociation.md)
+- [功能性分离（Functional Dissociation）](/entries/Functional-Dissociation.md)
+- [后台（Back / Being Back）](/entries/Back-Being-Back.md)
+- [成员（Alter）](/entries/Alter.md)
+- [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
+- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
+- [侵入性思维（Intrusive Thoughts）](/entries/Intrusive-Thoughts.md)
+- [权限（Permissions）](/entries/Permissions.md)
 
 ## 参考资料
 

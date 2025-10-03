@@ -1,6 +1,6 @@
 ---
 title: 《分裂》（Split, 2016）中的 DID 形象分析
-tags: [虚拟角色与文学影视作品]
+tags: [解离性身份障碍 DID, 分裂, 2016, 角色设定, 视觉与声音语言, 创伤背景, 基础概念, 虚拟角色与文学影视作品]
 updated: 2025-10-03
 ---
 
@@ -27,6 +27,17 @@ updated: 2025-10-03
 - [解离性身份障碍（DID）](entries/DID.md)
 - [迫害者（Persecutor）](entries/Persecutor.md)
 - [创伤（Trauma）](entries/Trauma.md)
+
+## 相关条目
+
+- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](/entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
+- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](/entries/Another-Me-DID-Depictions.md)
+- [《西比尔》（Sybil, 1976）与多重人格文化原型](/entries/Sybil-1976-Cultural-Prototype.md)
+- [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](/entries/Three-Faces-Of-Eve-1957-Dissociation.md)
+- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
+- [《我与梦露的一周》（The United States of Tara）中的系统家庭日常](/entries/United-States-Of-Tara-System-Daily-Life.md)
+- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](/entries/Dostoevsky-The-Double-Self-Division.md)
+- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](/entries/Fight-Club-1999-Identity-Metaphor.md)
 
 ## 参考资料
 

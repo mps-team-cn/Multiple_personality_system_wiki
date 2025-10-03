@@ -1,6 +1,6 @@
 ---
 title: 执行者（Performer / Executive）
-tags: [系统角色与类型]
+tags: [系统角色与类型, 执行者, 高功能导向, 轮班机制, 责任感强, 情绪分隔, 多执行者协作, 常见特征]
 updated: 2025-10-03
 ---
 
@@ -41,3 +41,14 @@ updated: 2025-10-03
 [^steele2017]: Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating trauma-related dissociation: A practical, integrative approach*. W. W. Norton & Company.
 [^thepluralassociation2021]: The Plural Association. (2021). *Community guidelines for plural well-being*. The Plural Association.
 [^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for treating dissociative identity disorder in adults, third revision*. Journal of Trauma & Dissociation, 12(2), 115–187.
+
+## 相关条目
+
+- [照顾者（Caregiver）](/entries/Caregiver.md)
+- [青少年意识体（Teen Part）](/entries/Teen.md)
+- [小孩意识体（Little / Child Part）](/entries/Little.md)
+- [保护者（Protector）](/entries/Protector.md)
+- [人格职能（System Roles）](/entries/System-Roles.md)
+- [迫害者（Persecutor）](/entries/Persecutor.md)
+- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
+- [初始（Original）](/entries/Original.md)
