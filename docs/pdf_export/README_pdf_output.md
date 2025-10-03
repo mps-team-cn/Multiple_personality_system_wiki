@@ -53,6 +53,6 @@ python tools/pdf_export/export_to_pdf.py --pdf-engine xelatex
 - `--cover-title`、`--cover-subtitle`、`--cover-date` 可覆盖封面的默认文字。
 - 封面标题下方默认会展示可点击的“在线版本”链接，指向 <https://plurality-wiki.pages.dev/#/>，便于读者快速跳转至网页版内容。
 - `--cover-footer` 用于自定义封面底部的“plurality_wiki 项目”字样（默认以更大字号斜体排版），传入空字符串即可移除该行。
-- 目录页会根据 README 的分组与词条自动生成，默认不再展示各词条内部的小节标题。
+- 目录页会根据标签分组与词条自动生成，默认不再展示各词条内部的小节标题。
 
 如需进一步自定义输出文件名或其他设置，可执行 `python tools/pdf_export/export_to_pdf.py --help` 查看全部参数。

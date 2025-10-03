@@ -51,8 +51,7 @@ markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor
 
 ### PDF 导出目录生成逻辑
 
-- `tools/pdf_export/` 在导出 PDF 时会优先读取仓库根目录的 `index.md`，直接将其作为目录页内容；
-- 若 `index.md` 缺失或为空，则回退到按标签结构生成的默认目录；
+- `tools/pdf_export/` 在导出 PDF 时会按照词条标签结构生成目录页，与站点的标签索引保持一致；
 - 目录中的词条链接会自动重写为 PDF 内部锚点，确保离线文档中的跳转行为与线上一致。
 
 ## 相关文档

@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import hashlib
 import re
-import sys
 from collections.abc import Mapping
 from pathlib import Path
 
@@ -243,48 +242,10 @@ def build_cover_page(
     return "\n".join(lines)
 
 
-def _build_directory_from_index(anchor_lookup: Mapping[Path, str]) -> str | None:
-    """尝试以仓库根目录的 ``index.md`` 作为目录页内容。"""
-
-    index_path = PROJECT_ROOT / "index.md"
-    if not index_path.exists():
-        return None
-
-    try:
-        raw_content = index_path.read_text(encoding="utf-8")
-    except OSError as error:  # pragma: no cover - 仅在 I/O 出错时触发
-        print(f"警告: 无法读取 {index_path}: {error}", file=sys.stderr)
-        return None
-
-    stripped = raw_content.strip()
-    if not stripped:
-        return None
-
-    lines = stripped.splitlines()
-    for index, line in enumerate(lines):
-        if line.startswith("# "):
-            lines[index] = "# 目录"
-            break
-    else:
-        lines.insert(0, "# 目录")
-        lines.insert(1, "")
-
-    directory_markdown = "\n".join(lines)
-    rewritten = rewrite_entry_links(directory_markdown, anchor_lookup).strip()
-    if not rewritten:
-        return None
-
-    return f"{rewritten}\n\n\\newpage\n"
-
-
 def build_directory_page(
     structure: CategoryStructure, anchor_lookup: Mapping[Path, str]
 ) -> str:
-    """根据 ``index.md`` 或标签结构生成目录页内容。"""
-
-    index_based = _build_directory_from_index(anchor_lookup)
-    if index_based is not None:
-        return index_based
+    """根据标签分组生成 PDF 使用的目录页内容。"""
 
     lines: list[str] = ["# 目录", ""]
 
