@@ -49,40 +49,6 @@ plurality_wiki/
 
 根目录下的 `tools/` 目录集中存放了协助批量处理、检查与发布的脚本，可与 CI 流程搭配使用。更完整的说明与后续更新请参见 [`docs/tools/README.md`](docs/tools/README.md)。
 
-| 脚本/模块 | 功能摘要 | 常用用法 |
-| --- | --- | --- |
-| `tools/fix_md.py` | 批量修复 Markdown 常见 Lint 问题，涵盖行尾空格、标题前后空行、围栏语言补全等 | 详见上文“🧰 一键修复 Markdown”章节，可运行 `python tools/fix_md.py` 或 `python tools/fix_md.py --dry-run` |
-| `tools/check_links.py` | 扫描 Markdown 文档中疑似内部链接的写法，禁止 `./`、`../` 等相对路径并提示改为 `entries/.../*.md` | `python tools/check_links.py --root .`，必要时加 `--whitelist` 允许额外根目录文档 |
-| `tools/docs_preview.py` | 本地预览辅助：优先尝试 `docsify-cli`，失败时自动回退到 `python -m http.server` | `python tools/docs_preview.py --port 4173`（默认端口 4173，可通过 `--wait` 调整 docsify 启动检测） |
-| `tools/gen_changelog_by_tags.py` | 按 Git 标签时间顺序生成 `CHANGELOG.md`，并按 Conventional Commits 类型分组 | `python tools/gen_changelog_by_tags.py --output changelog.md`，或加 `--latest-only` 仅生成最近区间，或加  `--latest-to-head` 生成“最新标签..HEAD”简化版 changelog，便于手工编辑 |
-| `tools/pdf_export/` | Pandoc 驱动的整站 PDF 导出工具，支持封面、目录、忽略列表与中文字体配置 | 运行 `python tools/pdf_export/export_to_pdf.py` 或 `python -m pdf_export`，更多参数见 `tools/pdf_export/README_pdf_output.md` |
-
-如需新增脚本，请保持功能说明与示例用法同步更新本章节，方便贡献者快速定位维护工具。
-
-### 🧰 一键修复 Markdown”
-
-```bash
-
-# 1) 自动修复
-
-python tools/fix_md.py
-
-# 2) 校验（需安装 markdownlint-cli）
-
-markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
-```
-
-> Windows 可用 `py tools/fix_md.py`。
-> 需 Python 3.10+。
-
-### 词条最后更新时间索引
-
-- `scripts/gen-last-updated.mjs` 会遍历 `entries/` 下的所有 Markdown 词条，读取 Git 最后提交时间与提交哈希，并生成 `assets/last-updated.json` 索引文件；
-- GitHub Actions 工作流 [`.github/workflows/last-updated.yml`](.github/workflows/last-updated.yml) 在推送 `main` 分支或手动触发时自动运行上述脚本并提交最新索引；
-- 前端在 `index.html` 内置 Docsify 插件，会在每篇词条标题下渲染形如 `🕒 最后更新：2025/10/02 12:34:56（abc1234）` 的提示，其中时间来自 Git 提交历史、哈希取前 7 位；
-- `tools/pdf_export/` 的导出流程会读取同一份索引，并在离线 PDF 中的每篇词条标题下展示相同的最后更新时间提示；
-- 如需强制刷新缓存，可重新触发工作流或在部署平台清除静态资源缓存。
-
 ---
 
 ## 🚀 本地预览

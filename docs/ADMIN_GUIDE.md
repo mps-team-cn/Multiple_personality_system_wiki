@@ -95,8 +95,7 @@ git commit -m "feat: 新增解离性身份障碍（DID）条目"
 ### 5.1 更新已有词条
 
 * 在新分支修改条目
-* 更新 `最后更新：YYYY-MM-DD`
-* 同步修改 `index.md` 与 `README.md`
+* 同步修改 `index.md` 与 `Glossary.md`
 
 ### 5.2 新增条目
 
@@ -104,10 +103,21 @@ git commit -m "feat: 新增解离性身份障碍（DID）条目"
 * 按要求填写内容
 * 放入对应目录（如 `entries/诊断与临床/`）
 
-### 5.3 发布与日志
+### 5.3 执行一键修复 Markdown
+
+```bash
+# 1) 自动修复
+python tools/fix_md.py
+
+# 2) 校验（需安装 markdownlint-cli）
+markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
+```
+
+### 5.4 发布与日志
 
 * 合并 PR 后，更新 `CHANGELOG.md`
 * 使用标签（tag）标记版本号，例如：
+* 可参考[tools Readme](./docs/tools/README.md) 中 `gen_changelog_by_tags.py` 生成更新日志
 
   ```bash
   git tag v1.3.3
