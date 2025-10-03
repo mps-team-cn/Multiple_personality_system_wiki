@@ -53,7 +53,7 @@ git checkout -b feat/new-entry
 示例：
 
 ```bash
-git add entries/诊断与临床/DID.md
+git add entries/DID.md
 git commit -m "feat: 新增解离性身份障碍（DID）条目"
 ```
 
@@ -103,9 +103,10 @@ git commit -m "feat: 新增解离性身份障碍（DID）条目"
 
 ### 5.2 新增条目
 
-* 复制 [TEMPLATE_ENTRY.md](./TEMPLATE_ENTRY.md)
+* 复制 [TEMPLATE_ENTRY.md](TEMPLATE_ENTRY.md)
 * 按要求填写内容
-* 放入对应目录（如 `entries/诊断与临床/`）
+* 将文件保存到 `entries/` 根目录，并确保 Frontmatter `title/tags/updated` 完整
+* 运行 `python generate_tags_index.py` 更新标签索引
 
 ### 5.3 执行一键修复 Markdown
 
@@ -124,7 +125,7 @@ markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor
 
 * 合并 PR 后，更新 `CHANGELOG.md`
 * 使用标签（tag）标记版本号，例如：
-* 可参考[tools Readme](./docs/tools/README.md) 中 `gen_changelog_by_tags.py` 生成更新日志
+* 可参考[tools Readme](tools/README.md) 中 `gen_changelog_by_tags.py` 生成更新日志
 
   ```bash
   git tag v1.3.3
