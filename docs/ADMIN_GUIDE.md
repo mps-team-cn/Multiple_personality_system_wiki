@@ -10,13 +10,17 @@
 ### 1.1 克隆与同步仓库
 
 ```bash
+
 # 克隆仓库
+
 git clone https://github.com/kuliantnt/plurality_wiki.git
 
 # 进入仓库目录
+
 cd plurality_wiki
 
 # 同步主分支
+
 git checkout main
 git pull origin main
 ```
@@ -106,10 +110,13 @@ git commit -m "feat: 新增解离性身份障碍（DID）条目"
 ### 5.3 执行一键修复 Markdown
 
 ```bash
+
 # 1) 自动修复
+
 python tools/fix_md.py
 
 # 2) 校验（需安装 markdownlint-cli）
+
 markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
 ```
 

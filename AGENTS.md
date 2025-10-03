@@ -1,6 +1,6 @@
 # Plurality Wiki 贡献与开发约定（AGENTS.md）
 
-本文件定义了本项目的贡献规则与开发约定，适用于人工贡献者与自动化工具（代理/脚本）。  
+本文件定义了本项目的贡献规则与开发约定，适用于人工贡献者与自动化工具（代理/脚本）。
 所有贡献应严格遵循以下要求，以保持条目结构与站点一致性。
 
 ---
@@ -107,13 +107,17 @@
 ### 7.2 手动执行（本地）
 
 ```bash
+
 # 执行自动修复
+
 python tools/fix_md.py
 
 # 可选：仅查看将修改哪些文件
+
 python tools/fix_md.py --dry-run
 
 # 运行 markdownlint（需已安装 markdownlint-cli）
+
 markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
 ```
 
@@ -123,5 +127,5 @@ markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor
 - **需人工处理**：
 
   - MD024 重复标题（请调整为唯一标题或降级层级）
-  - MD052 参考式链接缺失定义（补 `[n]: https://...`）
+  - MD052 参考式链接缺失定义（补 `[n]: [https://...`）](https://...`）)
   - MD042 / MD051 徽章空链接与无效锚点（修正为有效 URL/锚点）

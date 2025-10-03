@@ -1,3 +1,4 @@
 tools/pdf_export/**
 dist/**
 public/**
+docs/VALIDATION_REPORT.md
