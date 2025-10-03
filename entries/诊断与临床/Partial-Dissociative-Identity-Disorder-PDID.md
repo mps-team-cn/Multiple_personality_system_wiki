@@ -122,6 +122,16 @@ DSM-5 未单列部分解离性身份障碍，临床上通常归入 **OSDD-1（Ot
 
 ---
 
+## 相关条目
+
+- [解离性身份障碍（DID）](entries/诊断与临床/DID.md)
+- [其他特定解离性障碍（OSDD）](entries/诊断与临床/OSDD.md)
+- [人格解体/现实解体障碍（DPDR）](entries/诊断与临床/Depersonalization-Derealization-Disorder-DPDR.md)
+- [创伤后应激障碍（PTSD）](entries/诊断与临床/PTSD.md)
+- [闪回（Flashback）](entries/诊断与临床/Flashback.md)
+
+---
+
 ## 延伸阅读与资源
 
 - 国际解离性障碍协会（ISSTD）发布的《成人解离障碍治疗指南》。
