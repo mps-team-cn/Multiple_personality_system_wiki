@@ -1,6 +1,6 @@
 ---
 title: 功能性分离（Functional Dissociation）
-tags: [系统体验与机制]
+tags: [解离, 功能性分离, 核心概念, 常见例子, 自陈量表, 自我监测, 神经影像观察, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -50,9 +50,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [自动驾驶（Autopilot）](entries/Autopilot.md)
-- [切换（Switch）](entries/Switch.md)
-- [病理性解离（Pathological Dissociation）](entries/Pathological-Dissociation.md)
+- [解离（Dissociation）](/entries/Dissociation.md)
+- [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
+- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
+- [成员（Alter）](/entries/Alter.md)
+- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
+- [适应型（Adaptive）](/entries/Adaptive.md)
+- [独立性（Independence）](/entries/Independence.md)
+- [迭代（Iteration）](/entries/Iteration.md)
 
 ## 参考资料
 

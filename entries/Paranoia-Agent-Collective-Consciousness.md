@@ -1,6 +1,6 @@
 ---
 title: 《妄想代理人》（Paranoia Agent）与集体意识的具象化
-tags: [虚拟角色与文学影视作品]
+tags: [妄想代理人, 现实与虚构的模糊, 共享幻象, 解离相关象征, 基础概念, 观众解读, 媒体呈现, 虚拟角色与文学影视作品]
 updated: 2025-10-03
 ---
 
@@ -26,6 +26,17 @@ updated: 2025-10-03
 - [心灵造物（Servitor）](entries/Servitor.md)
 - [存在感（Sense of Presence）](entries/Sense-Of-Presence.md)
 - [图帕（Tulpa）](entries/Tulpa.md)
+
+## 相关条目
+
+- [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](/entries/Madoka-Magica-Kyubey-Otherness.md)
+- [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](/entries/Touhou-Tulpa-Fandom.md)
+- [洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）](/entries/Lovecraft-Tulpa-Motifs.md)
+- [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](/entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
+- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](/entries/Another-Me-DID-Depictions.md)
+- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](/entries/Dostoevsky-The-Double-Self-Division.md)
+- [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](/entries/Nonexistent-You-And-Me-Tulpa-Lilith.md)
+- [埃蒙加德分类法（Emmengard Classification）](/entries/Emmengard-Classification.md)
 
 ## 参考资料
 

@@ -1,6 +1,6 @@
 ---
 title: 人格面具（Persona）
-tags: [系统角色与类型]
+tags: [系统角色与类型, 人格面具, 起源, 风险应对, 解离研究关联, 自我评估, 心理动力机制, 在多意识体语境中的使用]
 updated: 2025-10-03
 ---
 
@@ -31,9 +31,14 @@ _仅供参考，**不能**替代专业医师的诊断和治疗方案。如果有
 
 ## 相关条目
 
-- [主体（Main）](entries/Main.md)
-- [宿主（Host）](entries/Host.md)
-- [管理者（Admin）](entries/Admin.md)
+- [主体（Main）](/entries/Main.md)
+- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
+- [碎片（Fragment）](/entries/Fragment.md)
+- [伪主体（Fauxmain）](/entries/Fauxmain.md)
+- [系魂（Soulbond）](/entries/Soulbond.md)
+- [特殊认同（Alterhuman）](/entries/Alterhuman.md)
+- [管理者（Admin）](/entries/Admin.md)
+- [独立性（Independence）](/entries/Independence.md)
 
 ## 参考与延伸阅读
 

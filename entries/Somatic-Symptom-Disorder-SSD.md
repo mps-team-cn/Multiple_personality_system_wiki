@@ -1,6 +1,6 @@
 ---
 title: 躯体化障碍（Somatic Symptom Disorder，SSD）
-tags: [诊断与临床]
+tags: [躯体化障碍, SSD, 药物治疗, 综合照护, 心理治疗, 心理教育与医患联盟, 评估与鉴别, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -49,6 +49,17 @@ DSM-5-TR 允许按照症状持续时间（急性 < 6 个月；慢性 ≥ 6 个�
 - **心理治疗**：认知行为治疗（CBT）、正念干预、应对技能训练等有助于调整不良认知与行为。
 - **药物治疗**：若合并抑郁或焦虑症状，可考虑抗抑郁药物；应避免过度使用止痛药或镇静药。
 - **综合照护**：鼓励规律生活、运动与社会支持，必要时与躯体科、康复、精神卫生团队协作。
+
+## 相关条目
+
+- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
+- [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](/entries/Narcissistic-Personality-Disorder-NPD.md)
+- [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
+- [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
+- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
+- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
+- [躁狂（Mania）](/entries/Mania.md)
+- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 
 ## 参考资料
 

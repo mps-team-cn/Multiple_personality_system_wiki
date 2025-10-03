@@ -1,6 +1,6 @@
 ---
 title: 躁狂（Mania）
-tags: [诊断与临床]
+tags: [躁狂, 行为, 精神病性症状, 生理与神经系统, 情绪与认知, ICD11要点, DSM5TR要点, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -62,6 +62,17 @@ _若出现自我伤害、他人伤害或判断力显著受损，请立即联系�
 2. **心理社会干预**：教育个体及其支持网络监测睡眠、活动量与危险行为；采用节律与社会节奏治疗（IPSRT）、认知行为治疗（CBT）、家庭聚焦治疗（FFT）。
 3. **安全与环境管理**：建立危机计划，减少高风险财务或性行为，必要时限制外出驾驶；在多意识系统中明确由谁负责监测睡眠与药物、如何共享状况变化。
 4. **生活方式**：规律作息、避免兴奋剂与酒精、维持营养及补水；在创意或工作高峰时预设复盘机制，防止过度承诺。
+
+## 相关条目
+
+- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
+- [躯体化障碍（Somatic Symptom Disorder，SSD）](/entries/Somatic-Symptom-Disorder-SSD.md)
+- [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
+- [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](/entries/Narcissistic-Personality-Disorder-NPD.md)
+- [焦虑（Anxiety）](/entries/Anxiety.md)
+- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
+- [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
+- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 
 ## 参考资料
 

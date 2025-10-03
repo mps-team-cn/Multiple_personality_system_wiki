@@ -1,6 +1,6 @@
 ---
 title: 封存（Sequestration）
-tags: [系统体验与机制]
+tags: [封存, 高危冲动或自伤意图, 非永久解决方案, 评估风险, 强烈情绪风暴, 尊重差异, 创伤记忆泛滥, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -32,6 +32,17 @@ updated: 2025-10-03
 - **非永久解决方案**：长期依赖封存可能使被封成员感到被排除，甚至引发更激烈的反弹。需要配合后续的沟通、治疗或重构计划。
 - **评估风险**：若成员持续要求被封或封存后失联，需与专业者讨论是否存在严重创伤或自我伤害风险。
 - **尊重差异**：不同系统对封存的理解各异，有些会以象征性“安置”“休眠”取代，重点在确保安全与尊重。
+
+## 相关条目
+
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
+- [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
+- [迭代（Iteration）](/entries/Iteration.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
 
 ## 参考资料
 

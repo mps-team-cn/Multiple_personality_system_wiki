@@ -1,6 +1,6 @@
 ---
 title: 存在感（Sense of Presence）
-tags: [系统体验与机制]
+tags: [存在感, 生理状态, 感官线索, 意识共存, 情绪同频, 建立信号, 幻觉, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -37,6 +37,17 @@ updated: 2025-10-03
 - **定期内省**：在日常活动或冥想后进行简短的内部点名，确认谁在场，帮助成员被看见。
 - **建立信号**：当班成员可请其他人以特定感官提示（如轻敲或特定词语）表示“在场”，减少误判。
 - **与专业者沟通**：若存在感变化伴随解离加剧或影响功能，可与熟悉多重意识体验的治疗者讨论。
+
+## 相关条目
+
+- [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [迭代（Iteration）](/entries/Iteration.md)
+- [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
 
 ## 参考资料
 

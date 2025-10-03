@@ -1,6 +1,6 @@
 ---
 title: 迭代（Iteration）
-tags: [系统体验与机制]
+tags: [整合, 迭代, 高压或创伤复燃, 长期整合目标的弹性, 重构, 重建内部沟通, 融合后的反弹, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -27,6 +27,17 @@ updated: 2025-10-03
 - **整合**：广义上指内部合作与记忆共享的提升，不必伴随身份数量变化。
 - **融合**：强调多个身份结构性合并，若维持稳定可减少未来迭代风险。
 - **重构**：指单一成员退场后出现新成员承担原角色，通常规模小于迭代（参见“[重构](entries/Reconstruction.md)”）。
+
+## 相关条目
+
+- [重构（Reconstruction）](/entries/Reconstruction.md)
+- [融合（Fusion）](/entries/Fusion.md)
+- [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
+- [整合（Integration）](/entries/Integration.md)
+- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
+- [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 
 ## 参考资料
 

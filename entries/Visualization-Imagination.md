@@ -1,6 +1,6 @@
 ---
 title: 内视（Visualization / Imagination）
-tags: [系统体验与机制]
+tags: [内视, 内在画面, 感官想象, 互动练习, 核心要素, 社群脉络, 实践提示, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -33,9 +33,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [投影（Projection）](entries/Projection.md)
-- [外投射（External Projection）](entries/External-Projection.md)
-- [存在感（Sense of Presence）](entries/Sense-Of-Presence.md)
+- [外投射（External Projection）](/entries/External-Projection.md)
+- [后台（Back / Being Back）](/entries/Back-Being-Back.md)
+- [权限（Permissions）](/entries/Permissions.md)
+- [T 语（Tulpish）](/entries/Tulpish.md)
+- [前台（Front / Fronting）](/entries/Front-Fronting.md)
+- [成员（Alter）](/entries/Alter.md)
+- [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
+- [适应型（Adaptive）](/entries/Adaptive.md)
 
 ## 参考资料
 

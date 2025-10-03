@@ -1,5 +1,50 @@
 # 更新日志
 
+## v2.0.0 (2025-10-04)
+
+### ✨ 新增
+
+- 增加 Windows 本地维护批处理脚本（[9c66ea0](https://github.com/kuliantnt/plurality_wiki/commit/9c66ea09b38696af2e5fa8028df366d91be0bbe1)）
+- PDF 导出目录复用 `index.md`，并同步导出结构与索引顺序（[1b21db2](https://github.com/kuliantnt/plurality_wiki/commit/1b21db29fd86ac651e7271ed4c81098f32741c06)，[61eed04](https://github.com/kuliantnt/plurality_wiki/commit/61eed0496b91a6a64aa8a8fff44041f782ae4884)）
+- 重新生成各词条 **tags** 与“相关条目”区块（[72abcdd](https://github.com/kuliantnt/plurality_wiki/commit/72abcdd4b46c53356972db07d97058be9832f8d8)）
+- 更新术语表并新增神经多样性链接；工具脚本支持生成标签索引（[fa3295f](https://github.com/kuliantnt/plurality_wiki/commit/fa3295f1d2feb8d98f0f0f21a76227b676173e61)）
+- 优化远端分支清理脚本：加入安全分支切换与干运行（dry-run）（[58fa841](https://github.com/kuliantnt/plurality_wiki/commit/58fa84198746ae8b4d925d676894da5eef2955eb)）
+- 新增：神经多样性与感官调节词条（[95707e8](https://github.com/kuliantnt/plurality_wiki/commit/95707e8213fee4e9342b3f77385aebea9eaa35b3)）
+- 调整标签清单的版式以提升可读性（[39915c7](https://github.com/kuliantnt/plurality_wiki/commit/39915c75ce6e746aec7089c2ca801cef659fa4a4)）
+
+### 🐛 修复（链接/引用/格式）
+
+- 补充“弦羽分类”相关索引（合并重复修复）（[2e62e6e](https://github.com/kuliantnt/plurality_wiki/commit/2e62e6e5de753948416e4fa67ec6fd10395d62e5)，[9c96b19](https://github.com/kuliantnt/plurality_wiki/commit/9c96b19b2063e5a5ae9d4221106f8bbde49a0ef2)）
+- 将 `retag_and_related.py` 纳入更新命令，修复执行缺失（[1667fec](https://github.com/kuliantnt/plurality_wiki/commit/1667fec4a3fb5b1f7571a077b814cbbd7020329d)）
+- 扩展 frontmatter `updated` 字段兼容性；修复多行标签解析与类型转换（[0dd4584](https://github.com/kuliantnt/plurality_wiki/commit/0dd4584963f785d4fd00227ee7eec433ea5d3fc5)，[992e0ab](https://github.com/kuliantnt/plurality_wiki/commit/992e0ab4964abe81f14cf8252614e2d15b256f86)，[2ad3f10](https://github.com/kuliantnt/plurality_wiki/commit/2ad3f10cc15adb0c47b9a7d8966bc1349741d4e1)）
+- 隐藏 Docsify 前端对 frontmatter 元数据的渲染（合并重复修复）（[0184635](https://github.com/kuliantnt/plurality_wiki/commit/018463576239e617794752e4a41b479f1697e3dc)，[07cd27e](https://github.com/kuliantnt/plurality_wiki/commit/07cd27ea2aa4d7e00e3761a475598637cdceb7d9)）
+- 表格展示与响应式修复（PC 端显示、术语表布局与全局化）（代表性提交：[8f35457](https://github.com/kuliantnt/plurality_wiki/commit/8f35457606235fb347bc99e2ba97c130bb71dd0d)，[9c19d3d](https://github.com/kuliantnt/plurality_wiki/commit/9c19d3decf53f650139f944c5d961783f7d84c08)）
+- 修正“最近更新”链接路径（合并重复修复）（[8ba3e1a](https://github.com/kuliantnt/plurality_wiki/commit/8ba3e1acb1bc9ffb77801f339214026410aa7f99)，[a80b8d0](https://github.com/kuliantnt/plurality_wiki/commit/a80b8d01d57be097bc93df87ec40b9af7889e554)）
+- 移除不必要的 `_sidebar.md` 忽略配置（[d6e30ae](https://github.com/kuliantnt/plurality_wiki/commit/d6e30ae55aa9522c8f1dc454003aa5ce1a4c4546)）
+- 标签列表格式化（焦虑/双相障碍）（[d7cd081](https://github.com/kuliantnt/plurality_wiki/commit/d7cd08171085c51f0135817841a43a55393b0ceb)）
+- 更新贡献与开发约定（markdownlint 要求等）并同步校对报告生成时间（[cc3bd32](https://github.com/kuliantnt/plurality_wiki/commit/cc3bd32b4512adfa3c9acc4504009f5aa01b9693)）
+- 补全部分诊断词条模板章节（[3a3ee06](https://github.com/kuliantnt/plurality_wiki/commit/3a3ee069405c635fb871a0786d83aa07f3090e56)）
+
+### 📝 文档与索引（不影响语义）
+
+- 重构部分诊断词条的章节结构（[fa22795](https://github.com/kuliantnt/plurality_wiki/commit/fa2279556fb71a8be24caaabe85be614faa1efa9)）
+- 补充链接检查脚本的使用说明（[216ccfa](https://github.com/kuliantnt/plurality_wiki/commit/216ccfafaa7cf94c08c392df9d43d8eff1f450c1)）
+- 统一若干文档的小幅格式修正（代表性提交：[871d44a](https://github.com/kuliantnt/plurality_wiki/commit/871d44af70fb509a96bd669d04c42df4294e3efc)，[295d04f](https://github.com/kuliantnt/plurality_wiki/commit/295d04fd52f5b33bd5a7b3a4c754d1b19d2ae8c9)）
+
+### 🔧 重构（不改变内容含义）
+
+- **（破坏性变更）**迁移为 **tags** 管理模式，统一词条目录结构（[d267385](https://github.com/kuliantnt/plurality_wiki/commit/d2673853f61b5a4a6eab17e325baa899c826c0e4)）
+
+### 📦 杂务（脚本/CI/批处理）
+
+- 删除旧版更新脚本 `update.cmd`（[e085f51](https://github.com/kuliantnt/plurality_wiki/commit/e085f51f0cba2d934cd310a5d221a45308b2e356)）
+
+### 🎨 风格（空格/缩进/行尾等）
+
+- 统一多处空行与段落间距，提升可读性（[34b979f](https://github.com/kuliantnt/plurality_wiki/commit/34b979ff29c77a15691ef511365fa6bf79e67040)）
+
+— 由 Git 提交记录自动生成
+
 ## v1.3.4 (2025-10-03)
 
 ### ✨ 新增

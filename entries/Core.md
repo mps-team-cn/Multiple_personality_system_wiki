@@ -1,6 +1,6 @@
 ---
 title: 核心（Core）
-tags: [系统角色与类型]
+tags: [系统角色与类型, 核心, 与碎片的关系, 身份协商, 谱系中间者视角, 核心迁移, 成长空间, 安全提示]
 updated: 2025-10-03
 ---
 
@@ -41,10 +41,14 @@ _本词条包含需要及时更新的即时内容或含有目前仍不能确定�
 
 ## 相关条目
 
-- [碎片（Fragment）](entries/Fragment.md)
-- [主体（Main）](entries/Main.md)
-- [伪主体（Fauxmain）](entries/Fauxmain.md)
-- [管理者（Admin）](entries/Admin.md)
+- [伪主体（Fauxmain）](/entries/Fauxmain.md)
+- [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
+- [守门人（Gatekeeper）](/entries/Gatekeeper.md)
+- [碎片（Fragment）](/entries/Fragment.md)
+- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
+- [主体（Main）](/entries/Main.md)
+- [管理者（Admin）](/entries/Admin.md)
+- [成员（Alter）](/entries/Alter.md)
 
 ## 参考与延伸阅读
 

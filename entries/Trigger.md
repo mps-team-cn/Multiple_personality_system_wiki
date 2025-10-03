@@ -1,6 +1,6 @@
 ---
 title: 触发（Trigger）
-tags: [系统体验与机制]
+tags: [定义与同义词, 认知体验, 系统影响, 恢复方式, 触发点, 在部分社群讨论中也称 雷点, 刺激源, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -90,9 +90,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [闪回（Flashback）](entries/Flashback.md)
-- [自动驾驶（Autopilot）](entries/Autopilot.md)
-- [地面化技巧（Grounding）](entries/Grounding.md)
+- [共前台（Co-fronting）](/entries/Co-Fronting.md)
+- [内部空间（Headspace / Inner World）](/entries/Headspace-Inner-World.md)
+- [切换（Switch）](/entries/Switch.md)
+- [系统（System）](/entries/System.md)
+- [系魂型系统（Soul-Linked Systems, Xianyu Theory）](/entries/Soul-Linked-Systems-Xianyu.md)
+- [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](/entries/Xianyu-Theory-Niche-Classification.md)
+- [家族式系统（Family Systems, Xianyu Theory）](/entries/Family-Systems-Xianyu.md)
+- [单一类系统（Single-Class Systems, Xianyu Theory）](/entries/Single-Class-Systems-Xianyu.md)
 
 ## 参考与延伸阅读
 

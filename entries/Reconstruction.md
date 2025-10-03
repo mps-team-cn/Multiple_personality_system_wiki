@@ -1,6 +1,6 @@
 ---
 title: 重构（Reconstruction）
-tags: [系统体验与机制]
+tags: [重构, 迭代, 角色替换, 融合与整合, 生命周期事件, 治疗协作, 外部沟通, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -26,6 +26,17 @@ updated: 2025-10-03
 
 - **迭代**：重构聚焦于单一或少数成员的更替；若系统大规模失衡并重新组建，则更接近“[迭代](entries/Iteration.md)”的描述。
 - **融合与整合**：重构不等同于融合。融合强调身份间合并；重构则是在保持多重身份前提下的角色转换。若新成员能共享信息与合作，同样可视为整合进展的一部分。
+
+## 相关条目
+
+- [迭代（Iteration）](/entries/Iteration.md)
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
+- [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
+- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
+- [融合（Fusion）](/entries/Fusion.md)
 
 ## 参考资料
 

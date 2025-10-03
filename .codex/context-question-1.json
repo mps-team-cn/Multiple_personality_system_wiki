@@ -1,0 +1,15 @@
+{
+  "question": "YAML 解析产生的 datetime/date 对象在现有实现中为何仍触发非空字符串校验错误？",
+  "analysis": {
+    "current_logic": "_parse_frontmatter 仅在 isinstance(value, str) 时执行 strip，日期对象直接 isoformat()",
+    "failure_message": "用户日志显示抛出 \"updated 字段必须为非空字符串\"，说明最终得到的 updated_text 为空",
+    "potential_causes": [
+      "YAML 将日期识别为 Python 字符串但原始文本可能包含空值",
+      "部分 frontmatter 可能显式写入 null 或空字符串",
+      "isoformat() 正常返回字符串，因此问题集中在字符串分支"
+    ],
+    "evidence": "检查 entries/Adaptive.md frontmatter 显示 updated: 2025-10-03，推测在某些环境被解析为 ''",
+    "conclusion": "需要将非字符串但可序列化的标量统一转换并在空值时给出更具体提示，以兼容日期类型"
+
+  }
+}

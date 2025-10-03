@@ -1,6 +1,6 @@
 ---
 title: 独立性（Independence）
-tags: [系统体验与机制]
+tags: [独立性, 维度划分, 风险应对, 连续谱, 评估工具, 神经生理指标, 发展路径, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -31,9 +31,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [主体（Main）](entries/Main.md)
-- [权限（Permissions）](entries/Permissions.md)
-- [融合（Fusion）](entries/Fusion.md)
+- [后台（Back / Being Back）](/entries/Back-Being-Back.md)
+- [权限（Permissions）](/entries/Permissions.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
+- [解离（Dissociation）](/entries/Dissociation.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
 
 ## 参考与延伸阅读
 

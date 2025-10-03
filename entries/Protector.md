@@ -1,6 +1,6 @@
 ---
 title: 保护者（Protector）
-tags: [系统角色与类型]
+tags: [系统角色与类型, 防御者, 角色分化, 安全导向, 策略灵活, 危机协调, 前台守卫, 与迫害者转换]
 updated: 2025-10-03
 ---
 
@@ -41,3 +41,14 @@ updated: 2025-10-03
 [^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for treating dissociative identity disorder in adults, third revision*. Journal of Trauma & Dissociation, 12(2), 115–187.
 [^boon2011]: Boon, S., Steele, K., & Van der Hart, O. (2011). *Coping with trauma-related dissociation: Skills training for patients and therapists*. W. W. Norton & Company.
 [^thepluralassociation2021]: The Plural Association. (2021). *Community guidelines for plural well-being*. The Plural Association.
+
+## 相关条目
+
+- [照顾者（Caregiver）](/entries/Caregiver.md)
+- [迫害者（Persecutor）](/entries/Persecutor.md)
+- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
+- [人格职能（System Roles）](/entries/System-Roles.md)
+- [小孩意识体（Little / Child Part）](/entries/Little.md)
+- [青少年意识体（Teen Part）](/entries/Teen.md)
+- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
+- [初始（Original）](/entries/Original.md)

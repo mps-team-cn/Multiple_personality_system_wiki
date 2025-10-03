@@ -1,6 +1,6 @@
 ---
 title: 医源型系统（Iatrogenic System）
-tags: [系统角色与类型]
+tags: [系统角色与类型, 医源型系统, 术语来源, 系统自检, 研究现状, 易感因素, 支持策略, 情境示例]
 updated: 2025-10-03
 ---
 
@@ -27,9 +27,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [内部自助者（ISH）](entries/Internal-Self-Helper-ISH.md)
-- [解离性身份障碍（DID）](entries/DID.md)
-- [融合（Fusion）](entries/Fusion.md)
+- [主体（Main）](/entries/Main.md)
+- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
+- [碎片（Fragment）](/entries/Fragment.md)
+- [核心（Core）](/entries/Core.md)
+- [守门人（Gatekeeper）](/entries/Gatekeeper.md)
+- [伪主体（Fauxmain）](/entries/Fauxmain.md)
+- [管理者（Admin）](/entries/Admin.md)
+- [成员（Alter）](/entries/Alter.md)
 
 ## 参考与延伸阅读
 

@@ -1,6 +1,6 @@
 ---
 title: 迫害者（Persecutor）
-tags: [系统角色与类型]
+tags: [系统角色与类型, 迫害者, 高度警觉, 验证其意图, 难以信任支持, 阶段化治疗, 转化为保护者, 自责与羞耻]
 updated: 2025-10-03
 ---
 
@@ -43,3 +43,14 @@ updated: 2025-10-03
 [^howell2011]: Howell, E. F. (2011). *The dissociative mind*. Routledge.
 [^brown2019]: Brown, N., & Van der Hart, O. (2019). Stabilization in the treatment of dissociative disorders. In K. L. Dell & A. J. Lawson (Eds.), *Dissociation and the Dissociative Disorders: Past, Present, Future* (pp. 483–499). Routledge.
 [^thepluralassociation2021]: The Plural Association. (2021). *Community guidelines for plural well-being*. The Plural Association.
+
+## 相关条目
+
+- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
+- [照顾者（Caregiver）](/entries/Caregiver.md)
+- [保护者（Protector）](/entries/Protector.md)
+- [小孩意识体（Little / Child Part）](/entries/Little.md)
+- [人格职能（System Roles）](/entries/System-Roles.md)
+- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
+- [青少年意识体（Teen Part）](/entries/Teen.md)
+- [初始（Original）](/entries/Original.md)

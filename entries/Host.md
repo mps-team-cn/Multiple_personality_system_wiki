@@ -1,6 +1,6 @@
 ---
 title: 宿主（Host）
-tags: [系统角色与类型]
+tags: [系统角色与类型, 宿主, 角色可转移, 自我照顾与界限, 沟通协作, 宿主与前台的区别, 多宿主共存, 外部生活管理]
 updated: 2025-10-03
 ---
 
@@ -32,6 +32,17 @@ updated: 2025-10-03
 
 - **创造者角色**：在 tulpamancy 中，宿主通常是 tulpa 的最初创造者与主要互动对象。随着 tulpa 成熟，宿主需从“塑造者”转向“平等伙伴”的姿态，尊重 tulpa 的意见与界限。[^bell2023]
 - **共治协商**：HT 社群鼓励宿主与 tulpa 制定紧急应对、前台轮值与外部公开策略，减少误解与外界压力。
+
+## 相关条目
+
+- [图帕（Tulpa）](/entries/Tulpa.md)
+- [幻想伙伴（Imaginary Companion）](/entries/Imaginary-Companion.md)
+- [成员（Alter）](/entries/Alter.md)
+- [初始（Original）](/entries/Original.md)
+- [人格职能（System Roles）](/entries/System-Roles.md)
+- [埃蒙加德分类法（Emmengard Classification）](/entries/Emmengard-Classification.md)
+- [迫害者（Persecutor）](/entries/Persecutor.md)
+- [保护者（Protector）](/entries/Protector.md)
 
 ## 参考资料
 

@@ -1,6 +1,6 @@
 ---
 title: 复杂性创伤后应激障碍（CPTSD）
-tags: [诊断与临床]
+tags: [创伤后应激障碍 PTSD, 来源, 复杂性创伤后应激障碍, CPTSD, 阶段化创伤治疗, 重度抑郁或双相障碍, 边缘性人格障碍, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -107,13 +107,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [创伤后应激障碍](entries/PTSD.md)
-- [创伤](entries/Trauma.md)
-- [解离性身份障碍](entries/DID.md)
-- [解离性遗忘](entries/Dissociative-Amnesia-DA.md)
-- [人格解体/现实解体障碍](entries/Depersonalization-Derealization-Disorder-DPDR.md)
-
----
+- [闪回（Flashback）](/entries/Flashback.md)
+- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
+- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
+- [谵妄（Delirium）](/entries/Delirium.md)
+- [定向障碍（Disorientation）](/entries/Disorientation.md)
+- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](/entries/PTSD.md)
+- [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
+- [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
 
 ## 参考与延伸阅读
 

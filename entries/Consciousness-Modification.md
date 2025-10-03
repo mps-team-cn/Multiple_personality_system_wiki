@@ -1,6 +1,6 @@
 ---
 title: 意识修改（Consciousness Modification）
-tags: [系统体验与机制]
+tags: [意识修改, 技能强化, 角色替换, 渐进训练, 情绪调节, 外部支持, 内部协商, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -39,6 +39,17 @@ updated: 2025-10-03
 2. 征得相关成员与系统守护者的同意，确认随时可终止。
 3. 在安全的内景或外部仪式中进行，搭配接地与稳定化措施。
 4. 事后回顾影响，记录正面与负面结果，并安排后续关怀。
+
+## 相关条目
+
+- [重构（Reconstruction）](/entries/Reconstruction.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
+- [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [迭代（Iteration）](/entries/Iteration.md)
+- [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
+- [独立性（Independence）](/entries/Independence.md)
 
 ## 参考资料
 
