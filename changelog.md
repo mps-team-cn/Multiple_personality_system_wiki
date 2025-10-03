@@ -1,5 +1,33 @@
 # 更新日志
 
+# 更新日志
+
+## v1.3.3 (2025-10-03)
+
+### ✨ 新增
+
+- 重构图帕词条结构并补充研究说明（[5f4f526](https://github.com/kuliantnt/plurality_wiki/commit/5f4f5261336202d8f3a4a0759b4854d35dec33a0)）
+- 拆分解离词条并新增功能性与病理性内容（[1f66649](https://github.com/kuliantnt/plurality_wiki/commit/1f66649771c6c6cad29ec990e7a98b2ec0bef49f)）
+- 新增谵妄词条并强化定向障碍关联（[02a5dda](https://github.com/kuliantnt/plurality_wiki/commit/02a5ddacc77157da63c4bd45699544e9262a9902)）
+- 补充解离主题条目的相关链接（[a793724](https://github.com/kuliantnt/plurality_wiki/commit/a7937241f81256040e416f8b758aa9fbef7b5eb6)）
+- 更新更新日志（[fdd952f](https://github.com/kuliantnt/plurality_wiki/commit/fdd952f8c54f169c5ac7218b3691ece0715e66d0)）
+
+### 🐛 修复（链接/引用/格式）
+
+- 完善移动端搜索结果后的侧边栏收起（[c00ac19](https://github.com/kuliantnt/plurality_wiki/commit/c00ac19c554578f31d102ce0466045cba932ece4)）
+- 防止搜索框在移动端触发侧边栏收起（[81c01d0](https://github.com/kuliantnt/plurality_wiki/commit/81c01d0524b6f2dbac8788f2e1ce1945b9b3eab7)）
+
+### 📝 文档与索引（不影响语义）
+
+- 补充弦羽理论触发模型细节（[7a54653](https://github.com/kuliantnt/plurality_wiki/commit/7a546532747250efa645d1c02148f399c3390acb)）
+- 补充触发并发风险提醒（[70bd9e6](https://github.com/kuliantnt/plurality_wiki/commit/70bd9e648c07d6639a3843278aa09ad4ac655bf3)）
+
+### 📦 杂务（脚本/CI/批处理）
+
+- 更新 last-updated 索引（[39001d1](https://github.com/kuliantnt/plurality_wiki/commit/39001d195db07b5f88ad63842dd02e9f53db322b)）
+
+— 由 Git 提交记录自动生成
+
 ## v1.3.2 (2025-10-03)
 
 ### ✨ 新增
@@ -16,7 +44,7 @@
 - 更新 ANP-EP 模型（[180e810](https://github.com/kuliantnt/plurality_wiki/commit/180e810831c12ad917490fe0d587044705ec2dc1)）
 - 新增“超级破碎（Polyfragmented）”条目（[3be416c](https://github.com/kuliantnt/plurality_wiki/commit/3be416ccef567df69776fc0e034e211f48e892b2)）
 - 更新冥想与接地条目（[ca49692](https://github.com/kuliantnt/plurality_wiki/commit/ca496924df32b04267a27f8971950250f66cc9b7)，[6bd286f](https://github.com/kuliantnt/plurality_wiki/commit/6bd286f4c746e8248ad68d0480e55a110933fb67)）
-- 更新 T语条目（[f4310e6](https://github.com/kuliantnt/plurality_wiki/commit/f4310e6229fbe1719c96853ba3352a04038880f0)，[d54730c](https://github.com/kuliantnt/plurality_wiki/commit/d54730c99da1b58bc00bf967c5166b679b0635c4)）
+- 更新 T 语条目（[f4310e6](https://github.com/kuliantnt/plurality_wiki/commit/f4310e6229fbe1719c96853ba3352a04038880f0)，[d54730c](https://github.com/kuliantnt/plurality_wiki/commit/d54730c99da1b58bc00bf967c5166b679b0635c4)）
 - 新增“头压”条目（[f8e4575](https://github.com/kuliantnt/plurality_wiki/commit/f8e4575a142b94f8ae4fbc0d4303a8ed2a3af9e8)）
 - 更新投射、内投射、外投射条目（[f9dcd31](https://github.com/kuliantnt/plurality_wiki/commit/f9dcd3133cf113f7a469ec429830958eae0a3245)）
 - 扩充核心板块速览内容（[38e74cc](https://github.com/kuliantnt/plurality_wiki/commit/38e74ccc5af53d72607d3a188e81e274746676b1)）
