@@ -7,6 +7,7 @@
   let indexReady = false;
   let latestVM = null;
 
+  // 注册标题搜索插件，确保 formatUpdated 默认值存在
   function registerPlugin() {
     window.$docsify = window.$docsify || {};
     if (!window.$docsify.formatUpdated) {
@@ -16,6 +17,7 @@
     window.$docsify.plugins = [].concat(titleSearchPlugin, originalPlugins);
   }
 
+  // 通过 Docsify 生命周期钩子维护标题索引与交互行为
   function titleSearchPlugin(hook, vm) {
     latestVM = vm;
 
@@ -61,6 +63,7 @@
     body.classList.add("close");
   }
 
+  // 构建索引的惰性触发器，避免并发重复执行
   function ensureIndex(vm) {
     if (!indexPromise) {
       indexPromise = buildIndex(vm).finally(function () {
@@ -70,6 +73,7 @@
     return indexPromise;
   }
 
+  // 读取首页、索引与侧边栏 Markdown，提取所有标题供搜索使用
   async function buildIndex(vm) {
     const base = resolveBasePath(vm);
     const paths = new Set();
@@ -113,6 +117,7 @@
     await Promise.all(tasks);
   }
 
+  // 按需在侧边栏插入搜索输入框并绑定交互
   function ensureSearchElements() {
     if (searchElements && searchElements.input.isConnected) {
       return;
@@ -188,6 +193,7 @@
     searchElements = { wrapper, input, results };
   }
 
+  // 根据关键字匹配标题索引，渲染下拉面板
   function renderResults(keyword) {
     if (!searchElements) return;
     const { results } = searchElements;
