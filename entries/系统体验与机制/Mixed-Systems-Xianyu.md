@@ -88,7 +88,7 @@
 - [单一类系统（Xianyu Theory）](entries/系统体验与机制/Single-Class-Systems-Xianyu.md)
 - [家族式系统（Xianyu Theory）](entries/系统体验与机制/Family-Systems-Xianyu.md)
 - [系魂型系统（Xianyu Theory）](entries/系统体验与机制/Soul-Linked-Systems-Xianyu.md)
-- [创伤（Trauma）](entries/诊断与临床/创伤.md)
+- [创伤（Trauma）](entries/诊断与临床/Trauma.md)
 
 ---
 
