@@ -35,7 +35,9 @@
 | [Depersonalization/Derealization Disorder，DPDR](entries/诊断与临床/Depersonalization-Derealization-Disorder-DPDR.md) | 人格解体/现实解体障碍 | 临床诊断，涵盖非我感与非真实感持续困扰日常功能的情况。          |
 | [Depressive Disorders](entries/诊断与临床/Depressive-Disorders.md)                                | 抑郁障碍        | 泛指以持续情绪低落、兴趣缺失与认知改变为核心的障碍。           |
 | [DID](entries/诊断与临床/DID.md)                                              | 解离性身份障碍     | 以多个身份状态轮换控制与解离性失忆为核心的创伤相关解离障碍。             |
-| [Dissociation](entries/系统体验与机制/Dissociation.md)                                        | 解离          | 强调意识、记忆、感受或身份之间产生分离的体验。              |
+| [Dissociation](entries/系统体验与机制/Dissociation.md)                                        | 解离          | 消歧义词条，指向功能性分离与病理性解离两种语境。              |
+| [Functional Dissociation](entries/系统体验与机制/Functional-Dissociation.md)                  | 功能性分离        | 描述日常多任务或注意调节中的适应性认知分离。              |
+| [Pathological Dissociation](entries/诊断与临床/Pathological-Dissociation.md)                  | 病理性解离        | 创伤相关的持续性整合失败，属于解离性障碍核心症状。          |
 | [Delirium](entries/诊断与临床/Delirium.md)                                                  | 谵妄          | 急性注意与意识混乱的状态，常伴定向障碍与安全风险，需要及时处理躯体诱因。 |
 | [Disorientation](entries/诊断与临床/Disorientation.md)                                     | 定向障碍        | 指无法辨识时间、地点、人物或自我身份的状态，常提示谵妄或其他认知障碍。 |
 | [Dissociative Amnesia](entries/诊断与临床/Dissociative-Amnesia-DA.md)                               | 解离性遗忘       | 指无法回忆重要个人信息的解离症状，常与创伤事件关联。           |
