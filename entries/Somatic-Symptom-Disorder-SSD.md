@@ -60,6 +60,7 @@ DSM-5-TR 允许按照症状持续时间（急性 < 6 个月；慢性 ≥ 6 个�
 - [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
 - [躁狂（Mania）](/entries/Mania.md)
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
+
 ## 参考资料
 
 1. American Psychiatric Association. _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., Text Revision), 2022.

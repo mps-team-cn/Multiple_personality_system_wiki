@@ -114,6 +114,7 @@ ICD-11 与 DSM-5-TR 均将定向障碍视为谵妄的重要表现，但 ICD-11 �
 - [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [闪回（Flashback）](/entries/Flashback.md)
 - [焦虑（Anxiety）](/entries/Anxiety.md)
+
 ## 参考与延伸阅读
 
 [^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.

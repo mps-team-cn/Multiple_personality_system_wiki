@@ -48,6 +48,7 @@ updated: 2025-10-03
 - [《妄想代理人》（Paranoia Agent）与集体意识的具象化](/entries/Paranoia-Agent-Collective-Consciousness.md)
 - [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](/entries/Nonexistent-You-And-Me-Tulpa-Lilith.md)
 - [自发型（Spontaneous）](/entries/Spontaneous.md)
+
 ## 实践建议
 
 - 记录系统历史、重要事件与成员加入时间，便于回顾标签适配性。

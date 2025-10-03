@@ -138,6 +138,7 @@ DSM-5 未单列部分解离性身份障碍，临床上通常归入 **OSDD-1（Ot
 - [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](/entries/Another-Me-DID-Depictions.md)
 - [解离（Dissociation）](/entries/Dissociation.md)
 - [《西比尔》（Sybil, 1976）与多重人格文化原型](/entries/Sybil-1976-Cultural-Prototype.md)
+
 ## 延伸阅读与资源
 
 - 国际解离性障碍协会（ISSTD）发布的《成人解离障碍治疗指南》。

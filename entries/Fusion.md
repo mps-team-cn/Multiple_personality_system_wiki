@@ -37,6 +37,7 @@ updated: 2025-10-03
 - [封存（Sequestration）](/entries/Sequestration.md)
 - [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [多意识体（Plurality）](/entries/Plurality.md)
+
 ## 参考资料
 
 - International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation, 12*(2), 115–187.

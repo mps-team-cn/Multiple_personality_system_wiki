@@ -61,6 +61,7 @@ updated: 2025-10-03
 - [解离（Dissociation）](/entries/Dissociation.md)
 - [融合（Fusion）](/entries/Fusion.md)
 - [独立性（Independence）](/entries/Independence.md)
+
 ## 参考资料
 
 [^plurality-def]: Lopez, C., & Tait, C. (2020). Plural identities and collaborative functioning in dissociative systems. *Journal of Plural Studies, 5*(2), 15-32.

@@ -127,6 +127,7 @@ updated: 2025-10-03
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
 - [定向障碍（Disorientation）](/entries/Disorientation.md)
 - [谵妄（Delirium）](/entries/Delirium.md)
+
 ## 参考与延伸阅读
 
 [apa2022]: American Psychiatric Association. (2022). _DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders_.

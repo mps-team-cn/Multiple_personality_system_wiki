@@ -60,6 +60,7 @@ updated: 2025-10-03
 - [成员（Alter）](/entries/Alter.md)
 - [复杂性创伤后应激障碍（CPTSD）](/entries/CPTSD.md)
 - [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](/entries/Partial-Dissociative-Identity-Disorder-PDID.md)
+
 ## 参考资料
 
 [^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). Washington, DC: Author.

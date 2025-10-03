@@ -35,6 +35,7 @@ updated: 2025-10-03
 - [后台（Back / Being Back）](/entries/Back-Being-Back.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
+
 ## 参考与延伸阅读
 
 [^reinders2019]: Reinders, A. A. T. S., et al. 2019. “Differential Autonomic Nervous System Activity in Dissociative Identity Disorder.” *Journal of Abnormal Psychology* 128(6): 531–543.

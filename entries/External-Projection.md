@@ -36,6 +36,7 @@ updated: 2025-10-03
 - [权限（Permissions）](/entries/Permissions.md)
 - [投影（Projection）](/entries/Projection.md)
 - [适应型（Adaptive）](/entries/Adaptive.md)
+
 ## 参考与延伸阅读
 
 [^projection-pluralpedia]: Pluralpedia. (n.d.). [Projection](https://pluralpedia.org/w/Projection).

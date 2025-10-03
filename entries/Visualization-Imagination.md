@@ -41,6 +41,7 @@ updated: 2025-10-03
 - [解离（Dissociation）](/entries/Dissociation.md)
 - [侵入性思维（Intrusive Thoughts）](/entries/Intrusive-Thoughts.md)
 - [后台（Back / Being Back）](/entries/Back-Being-Back.md)
+
 ## 参考资料
 
 [^Visualization](https://pluralpedia.org/w/Visualization).

@@ -38,6 +38,7 @@ updated: 2025-10-03
 - [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
 - [解离（Dissociation）](/entries/Dissociation.md)
+
 ## 参考资料
 
 [^loewenstein1991]: Loewenstein, R. J. (1991). An Office Mental Status Examination for Complex Chronic Dissociative Symptoms and Multiple Personality Disorder. _Psychiatric Clinics of North America, 14_(3), 567–604. [https://doi.org/10.1016/S0193-953X(18](https://doi.org/10.1016/S0193-953X(18))30290-9

@@ -97,6 +97,7 @@ updated: 2025-10-03
 - [解离（Dissociation）](/entries/Dissociation.md)
 - [适应型（Adaptive）](/entries/Adaptive.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
+
 ## 参考
 
 * American Psychiatric Association. (2013). *Diagnostic and Statistical Manual of Mental Disorders (5th ed.)*. Arlington, VA: American Psychiatric Publishing.

@@ -81,6 +81,7 @@ ADHD 在儿童中的盛行率约 5% 左右，成人约 2%–3%，多数个体的
 - [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
 - [躁狂（Mania）](/entries/Mania.md)
+
 ## 参考与延伸阅读
 
 [^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.

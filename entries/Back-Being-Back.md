@@ -36,6 +36,7 @@ updated: 2025-10-03
 - [T 语（Tulpish）](/entries/Tulpish.md)
 - [权限（Permissions）](/entries/Permissions.md)
 - [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
+
 ## 参考与延伸阅读
 
 [^pluralpedia-back]: Pluralpedia. (2024). [Back](https://pluralpedia.org/w/Back).
