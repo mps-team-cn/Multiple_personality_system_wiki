@@ -11,7 +11,7 @@
 
 ---
 
-📖 **提示**：如果你是普通读者，请查看 [Main_Page.html](./Main_Page.html)；本文档主要面向开发者与贡献者。
+📖 **提示**：如果你是普通读者，请查看网页版本 [GitHUB pages](https://kuliantnt.github.io/plurality_wiki/#/)或[cloud Flare Page](https://plurality-wiki.pages.dev/)；本文档主要面向开发者与贡献者。
 
 ---
 
@@ -20,24 +20,6 @@
 - 汇聚与整理多重意识体（Plurality）与相关心理健康主题的高质量中文资料；
 - 采用一致的**条目规范**与**贡献流程**，确保可维护、可引用、可扩展；
 - 面向大众读者与专业人士，兼顾可读性与严谨性（参考 E-E-A-T 原则）。
-
----
-
-### 手动执行（本地）
-
-```bash
-
-# 1) 自动修复
-
-python tools/fix_md.py
-
-# 2) 校验（需安装 markdownlint-cli）
-
-markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
-```
-
-> Windows 可用 `py tools/fix_md.py`。
-> 需 Python 3.10+。
 
 ---
 
@@ -76,6 +58,22 @@ plurality_wiki/
 | `tools/pdf_export/` | Pandoc 驱动的整站 PDF 导出工具，支持封面、目录、忽略列表与中文字体配置 | 运行 `python tools/pdf_export/export_to_pdf.py` 或 `python -m pdf_export`，更多参数见 `tools/pdf_export/README_pdf_output.md` |
 
 如需新增脚本，请保持功能说明与示例用法同步更新本章节，方便贡献者快速定位维护工具。
+
+### 🧰 一键修复 Markdown”
+
+```bash
+
+# 1) 自动修复
+
+python tools/fix_md.py
+
+# 2) 校验（需安装 markdownlint-cli）
+
+markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
+```
+
+> Windows 可用 `py tools/fix_md.py`。
+> 需 Python 3.10+。
 
 ### 词条最后更新时间索引
 
