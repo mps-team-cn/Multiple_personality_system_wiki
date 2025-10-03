@@ -75,6 +75,7 @@ ADHD 在儿童中的盛行率约 5% 左右，成人约 2%–3%，多数个体的
 
 - [执行功能（Executive Function）](entries/Executive-Function.md)
 - [结构化日程（Structured Schedule）](entries/Structured-Schedule.md)
+- [神经多样性（Neurodiversity）](entries/Neurodiversity.md)
 
 ## 参考与延伸阅读
 
