@@ -364,8 +364,12 @@
     "commit": "2d68b00f0fe94cf878ec542db178aa9cf26390ad"
   },
   "entries/诊断与临床/DID.md": {
-    "updated": "2025-10-03T03:40:32+00:00",
-    "commit": "e105e22586c5c0021f873207dc27d64b4579dd8e"
+    "updated": "2025-10-03T12:09:53+08:00",
+    "commit": "a7937241f81256040e416f8b758aa9fbef7b5eb6"
+  },
+  "entries/诊断与临床/Delirium.md": {
+    "updated": "",
+    "commit": ""
   },
   "entries/诊断与临床/Depersonalization-Derealization-Disorder-DPDR.md": {
     "updated": "2025-10-03T02:08:14+08:00",
@@ -375,13 +379,17 @@
     "updated": "2025-10-03T02:08:14+08:00",
     "commit": "94382673a5cf9373e9fdae4409d8acf07129ea94"
   },
+  "entries/诊断与临床/Disorientation.md": {
+    "updated": "2025-10-03T04:35:58+00:00",
+    "commit": "3cc87c17787fad05ba2273bd87c4a9ba4a54a0bd"
+  },
   "entries/诊断与临床/Dissociative-Amnesia-DA.md": {
     "updated": "2025-10-02T18:11:24+08:00",
     "commit": "ef4efcb9a49c65166effe5b1f1689d9018131ee8"
   },
   "entries/诊断与临床/Flashback.md": {
-    "updated": "2025-10-03T01:59:03+08:00",
-    "commit": "55b81335070bca5694124efcbaae9918f80fba37"
+    "updated": "2025-10-03T12:09:53+08:00",
+    "commit": "a7937241f81256040e416f8b758aa9fbef7b5eb6"
   },
   "entries/诊断与临床/Mania.md": {
     "updated": "2025-10-02T18:11:24+08:00",
@@ -396,16 +404,16 @@
     "commit": "f8e8c2c92f3d94b8896a5143cb6e7285bd7920e6"
   },
   "entries/诊断与临床/OSDD.md": {
-    "updated": "2025-10-03T02:08:14+08:00",
-    "commit": "94382673a5cf9373e9fdae4409d8acf07129ea94"
+    "updated": "2025-10-03T12:09:53+08:00",
+    "commit": "a7937241f81256040e416f8b758aa9fbef7b5eb6"
   },
   "entries/诊断与临床/PTSD.md": {
     "updated": "2025-10-03T01:48:56+08:00",
     "commit": "fc3068e0c3737247b489562a24950c5a684fd36e"
   },
   "entries/诊断与临床/Partial-Dissociative-Identity-Disorder-PDID.md": {
-    "updated": "2025-10-01T20:00:28+08:00",
-    "commit": "04c44474b765a26bea826ee2073c9fbb7c497e3a"
+    "updated": "2025-10-03T12:09:53+08:00",
+    "commit": "a7937241f81256040e416f8b758aa9fbef7b5eb6"
   },
   "entries/诊断与临床/Schizophrenia-SC.md": {
     "updated": "2025-10-01T20:00:28+08:00",
@@ -416,7 +424,7 @@
     "commit": "04c44474b765a26bea826ee2073c9fbb7c497e3a"
   },
   "entries/诊断与临床/Trauma.md": {
-    "updated": "2025-10-03T02:21:47+08:00",
-    "commit": "7ac579588558f0a6d6fc456e28d2d2bad760d63b"
+    "updated": "2025-10-03T12:09:53+08:00",
+    "commit": "a7937241f81256040e416f8b758aa9fbef7b5eb6"
   }
 }
