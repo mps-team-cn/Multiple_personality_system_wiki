@@ -1,0 +1,16 @@
+{
+  "task": "使 PDF 导出书签顺序与 index.md 一致",
+  "location": {
+    "pdf_export_tool": "tools/pdf_export/pdf_export",
+    "structure_module": "tools/pdf_export/pdf_export/structure.py",
+    "markdown_module": "tools/pdf_export/pdf_export/markdown.py"
+  },
+  "current_behavior": "collect_markdown_structure 基于词条标签构建分类顺序，目录页会优先复用 index.md 但书签仍按标签排序",
+  "similar_examples": [
+    "collect_markdown_structure 函数展示如何遍历词条并按标签排序",
+    "build_directory_page 函数解析 index.md 以生成目录"
+  ],
+  "tech_stack": "Python 3，内部使用 pathlib、dataclass，并通过 Pandoc 渲染 PDF",
+  "tests": "现有手动指令建议运行 python -m compileall tools/pdf_export/export_to_pdf.py",
+  "observations": "需要复用 index.md 的分类与顺序，不再依赖标签排序；同时保留对 Preface.md 的特殊处理。"
+}

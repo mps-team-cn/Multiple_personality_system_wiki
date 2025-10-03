@@ -12,9 +12,9 @@ cd tools/pdf_export && python -m pdf_export
 
 脚本会自动：
 
-1. 解析 `entries/` 中所有词条的 Frontmatter，并按 `tags` 字段对词条分组；
-2. 对标签名称进行排序，每个标签章节内的词条按标题排序；
-3. 如果项目根目录存在 `Preface.md` 且未被忽略，则在所有标签章节之前插入《前言》；
+1. 读取仓库根目录的 `index.md`，并按其中的分组顺序组织所有词条；
+2. 若索引缺失或未列出全部词条，缺失的文档会自动归入名为“未索引词条”的章节，避免导出内容遗漏；
+3. 如果项目根目录存在 `Preface.md` 且未被忽略，则在所有章节之前插入《前言》；
 4. 生成独立的封面页与目录页（目录中的词条名称可直接点击跳转至对应内容）；
 5. 为每个章节中的词条单独开启新页面，并自动移除词条自身的一级标题，避免 PDF 中出现重复标题；
 6. 自动识别 Markdown 中以 `entries/*.md` 形式书写的词条链接，并在合并时重写为指向 PDF 内部锚点的链接，确保离线文档中的交叉跳转仍可点击；
@@ -53,6 +53,6 @@ python tools/pdf_export/export_to_pdf.py --pdf-engine xelatex
 - `--cover-title`、`--cover-subtitle`、`--cover-date` 可覆盖封面的默认文字。
 - 封面标题下方默认会展示可点击的“在线版本”链接，指向 <https://plurality-wiki.pages.dev/#/>，便于读者快速跳转至网页版内容。
 - `--cover-footer` 用于自定义封面底部的“plurality_wiki 项目”字样（默认以更大字号斜体排版），传入空字符串即可移除该行。
-- 目录页会根据 README 的分组与词条自动生成，默认不再展示各词条内部的小节标题。
+- 目录页会根据 `index.md` 的分组与词条自动生成，默认不再展示各词条内部的小节标题。
 
 如需进一步自定义输出文件名或其他设置，可执行 `python tools/pdf_export/export_to_pdf.py --help` 查看全部参数。
