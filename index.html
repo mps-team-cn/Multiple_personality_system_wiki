@@ -22,6 +22,7 @@
 
     <script>
       (function () {
+        // Docsify 在计算 basePath 时默认以斜杠结尾，这里显式补齐以兼容任意部署路径
         const ensureTrailingSlash = (path) =>
           path.endsWith("/") ? path : `${path}/`;
         const { pathname } = window.location;
@@ -32,6 +33,7 @@
           "/.*/_sidebar.md": "_sidebar.md",
         };
 
+        // 手动移除 ./ 与 .. 片段，保证 hash 与跳转路径保持规范化
         const normalizePath = (raw) => {
           const [rawPath, query = ""] = raw.split("?");
           const segments = rawPath.split("/").filter(Boolean);
@@ -49,6 +51,7 @@
           return normalizedPath + (query ? `?${query}` : "");
         };
 
+        // 将 hash 统一整理成 #/xxx 形式，避免 Docsify 路由因重复字符而失效
         const canonicalizeHash = (() => {
           let adjusting = false;
 
@@ -56,6 +59,7 @@
             const { origin, pathname, search } = window.location;
             const newUrl = `${origin}${pathname}${search}${hash}`;
 
+            // 使用 adjusting 标记避免 history.replaceState 再次触发监听器导致无限循环
             adjusting = true;
             history.replaceState(null, "", newUrl);
 
@@ -92,6 +96,7 @@
         );
         canonicalizeHash();
 
+        // 仅拦截站内链接，外部链接或协议链接交回浏览器处理
         const shouldHandleInternally = (href) => {
           if (!href || href.startsWith("#")) return false;
           if (/^[a-zA-Z]+:/i.test(href)) return false;
@@ -99,6 +104,7 @@
           return true;
         };
 
+        // 将 Markdown 链接解析成 Docsify 需要的 hash 形式，并兼容 #锚点
         const resolveTarget = (href) => {
           const [pathAndQuery = "", hashFragment = ""] = href.split("#");
           const [rawPath = "", rawQuery = ""] = pathAndQuery.split("?");
