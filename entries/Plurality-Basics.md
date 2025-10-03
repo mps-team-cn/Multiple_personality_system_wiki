@@ -1,6 +1,11 @@
+---
+title: 多重意识体基础（Plurality Basics）
+tags: [系统体验与机制]
+updated: 2025-10-03
+---
 # 多重意识体基础（Plurality Basics）
 
-> 本条目概述多重意识体系统的核心概念，内容与《[多意识体（Plurality）](entries/系统体验与机制/Plurality.md)》保持一致，便于通过英文路径访问。
+> 本条目概述多重意识体系统的核心概念，内容与《[多意识体（Plurality）](entries/Plurality.md)》保持一致，便于通过英文路径访问。
 
 ## 同义词
 

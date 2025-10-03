@@ -9,11 +9,12 @@
 | 脚本/模块                            | 功能摘要                                                                               | 常用用法                                                                                                   |
 | -------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | `tools/fix_md.py`                | 批量修复 Markdown 常见 Lint 问题，涵盖行尾空格、标题前后空行、围栏语言补全等                                     | `python tools/fix_md.py` 或 `python tools/fix_md.py --dry-run`                                          |
-| `tools/check_links.py`           | 扫描 Markdown 文档中疑似内部链接的写法，禁止 `./`、`../` 等相对路径并提示改为 `entries/.../*.md`               | `python tools/check_links.py --root .`，必要时使用 `--whitelist` 允许额外根目录文档                                   |
+| `tools/check_links.py`           | 扫描 Markdown 文档中疑似内部链接的写法，禁止 `./`、`../` 等相对路径并提示改为 `entries/*.md`               | `python tools/check_links.py --root .`，必要时使用 `--whitelist` 允许额外根目录文档                                   |
 | `tools/docs_preview.py`          | 本地预览辅助：优先尝试 `docsify-cli`，失败时自动回退到 `python -m http.server`                         | `python tools/docs_preview.py --port 4173`（可通过 `--wait` 调整 docsify 启动检测时间）                             |
 | `tools/gen_changelog_by_tags.py` | 按 Git 标签时间顺序生成 `changelog.md`，并按 Conventional Commits 类型分组                         | `python tools/gen_changelog_by_tags.py --output changelog.md`，可搭配 `--latest-only` 或 `--latest-to-head` |
 | `tools/pdf_export/`              | Pandoc 驱动的整站 PDF 导出工具，支持封面、目录、忽略列表与中文字体配置                                          | `python tools/pdf_export/export_to_pdf.py` 或 `python -m pdf_export`                                    |
 | `tools/gen-validation-report.py` | 读取《CONTRIBUTING.md》与《docs/TEMPLATE_ENTRY.md》，校验词条结构并生成 `docs/VALIDATION_REPORT.md` | `python tools/gen-validation-report.py`                                                                |
+| `generate_tags_index.py`         | 扫描 `entries/` Frontmatter，生成 `tags.md` 标签索引                                             | `python generate_tags_index.py`                                                                       |
 
 如需新增脚本，请保持功能说明与示例用法同步更新本章节，方便贡献者快速定位维护工具。
 
@@ -41,6 +42,12 @@ markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor
 - 前端在 `index.html` 内置 Docsify 插件，会在每篇词条标题下渲染形如 `🕒 最后更新：2025/10/02 12:34:56（abc1234）` 的提示；
 - `tools/pdf_export/` 的导出流程同样会读取该索引，并在离线 PDF 中展示相同的最后更新时间提示；
 - 如需强制刷新缓存，可重新触发工作流或在部署平台清除静态资源缓存。
+
+### 标签索引维护
+
+- `python generate_tags_index.py` 会解析词条 Frontmatter 中的 `tags`，按标签分组生成 `tags.md`；
+- 更新或新增词条后务必重新运行该脚本，确保索引与仓库内容一致；
+- CI 会在 PR 中执行脚本并检查 `tags.md` 是否最新。
 
 ## 相关文档
 

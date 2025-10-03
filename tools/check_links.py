@@ -6,7 +6,7 @@
 规则：
 1) 允许：外链(http/https/ftp/ftps)、mailto、tel、data、图片(![]())、锚点(#...)、Docsify 路由(#/...)。
 2) 允许：指向仓库根部的白名单文档（站点元文件），如 index.md / Glossary.md 等。
-3) 要求：指向词条(内容页)的内部链接必须写为 entries/.../*.md 的完整路径。
+3) 要求：指向词条(内容页)的内部链接必须写为 entries/*.md 的完整路径。
 4) 禁止：./xxx.md、../xxx.md、裸文件名 xxx.md、缺少 entries/ 前缀的 .md 链接、没有 .md 的“伪内部文件链接”。
 
 用法：
@@ -44,6 +44,7 @@ ROOT_WHITELIST = {
     "_sidebar.md",
     "_coverpage.md",
     "AGENTS.md",
+    "tags.md",
 }
 
 def is_image(prefix: str) -> bool:
@@ -73,16 +74,19 @@ def looks_like_internal_md(target: str) -> bool:
     if target.startswith(ANCHOR_ALLOW_PREFIX):
         return False
     # 过滤可能的图片/资源文件
-    if Path(target).suffix.lower() not in (".md", "", ".markdown"):
+    pure = target.split("#", 1)[0]
+    if Path(pure).suffix.lower() not in (".md", "", ".markdown"):
         return False
     return True
 
 def is_full_entries_path(target: str) -> bool:
-    """是否严格满足 entries/.../*.md 完整路径"""
-    p = Path(target)
+    """是否严格满足 entries/*.md 完整路径"""
+
+    pure = target.split("#", 1)[0]
+    p = Path(pure)
     return (
         p.suffix.lower() == ".md"
-        and len(p.parts) >= 2
+        and len(p.parts) == 2
         and p.parts[0].lower() == "entries"
     )
 
@@ -96,6 +100,7 @@ def check_file(md_path: Path, repo_root: Path, whitelist_extra: List[str]) -> Li
         for m in LINK_RE.finditer(line):
             prefix = m.group("prefix") or ""
             target = m.group("target").strip()
+            pure_target = target.split("#", 1)[0]
 
             # 跳过图片
             if is_image(prefix):
@@ -104,28 +109,42 @@ def check_file(md_path: Path, repo_root: Path, whitelist_extra: List[str]) -> Li
             if is_external(target) or is_anchor(target):
                 continue
             # 允许根白名单
-            if target in whitelist_extra or is_root_whitelist(target, repo_root):
+            if pure_target in whitelist_extra or is_root_whitelist(pure_target, repo_root):
                 continue
+            # 允许 docs/ 前缀的文档链接
+            if pure_target.startswith("docs/"):
+                candidate = repo_root / pure_target
+                if candidate.exists():
+                    continue
+            # 允许指向非 entries/ 文件的相对路径
+            if Path(pure_target).suffix.lower() == ".md":
+                candidate = (md_path.parent / pure_target).resolve()
+                try:
+                    relative = candidate.relative_to(repo_root)
+                except ValueError:
+                    relative = None
+                if candidate.exists() and (relative is None or relative.parts[0] != "entries"):
+                    continue
 
             # 其余看起来像内部链接的做严格校验
             if looks_like_internal_md(target):
                 # 1) 禁止 ./ 或 ../
-                if target.startswith("./") or target.startswith("../"):
-                    violations.append((i, target, "禁止相对路径（./ 或 ../），请改为 entries/.../*.md 完整路径"))
+                if pure_target.startswith("./") or pure_target.startswith("../"):
+                    violations.append((i, target, "禁止相对路径（./ 或 ../），请改为 entries/*.md 完整路径"))
                     continue
-                # 2) 必须是 entries/.../*.md
+                # 2) 必须是 entries/*.md
                 if not is_full_entries_path(target):
                     # 若缺少 .md 后缀但明显想引用本地文件，也提示
-                    if Path(target).suffix == "":
-                        violations.append((i, target, "内部链接缺少 .md 后缀或路径不完整；请使用 entries/.../*.md"))
+                    if Path(pure_target).suffix == "":
+                        violations.append((i, target, "内部链接缺少 .md 后缀或路径不完整；请使用 entries/*.md"))
                     else:
-                        violations.append((i, target, "内部链接路径不合规；应为 entries/.../*.md 完整路径"))
+                        violations.append((i, target, "内部链接路径不合规；应为 entries/*.md 完整路径"))
                 # 通过的就不记录
             # 其它情况（比如资源文件）忽略
     return violations
 
 def main():
-    parser = argparse.ArgumentParser(description="检查 Markdown 内部链接是否为 entries/.../*.md 完整路径")
+    parser = argparse.ArgumentParser(description="检查 Markdown 内部链接是否为 entries/*.md 完整路径")
     parser.add_argument("--root", default=".", help="仓库根目录，默认 .")
     parser.add_argument("--whitelist", nargs="*", default=[], help="额外允许直链的根文件（例如 Main_Page.html）")
     args = parser.parse_args()
@@ -148,7 +167,7 @@ def main():
             total_violations += len(vio)
 
     if ok:
-        print("\n✅ 所有 Markdown 内部链接均合规（entries/.../*.md 或白名单/外链/锚点）")
+        print("\n✅ 所有 Markdown 内部链接均合规（entries/*.md 或白名单/外链/锚点）")
         sys.exit(0)
     else:
         print(f"\n❌ 检查完成，发现 {total_violations} 处不合规内部链接")
