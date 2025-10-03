@@ -84,6 +84,7 @@ DSM-5-TR 在躯体症状障碍、创伤后应激障碍、进食障碍等章节�
 - [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
 - [躁狂（Mania）](/entries/Mania.md)
 - [适应型（Adaptive）](/entries/Adaptive.md)
+
 ## 参考与延伸阅读
 
 [^述情障碍-apa]: American Psychiatric Association. (2013). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). Washington, DC.

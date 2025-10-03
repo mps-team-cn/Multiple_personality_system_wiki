@@ -63,6 +63,7 @@ updated: 2025-10-03
 - [独立性（Independence）](/entries/Independence.md)
 - [解离（Dissociation）](/entries/Dissociation.md)
 - [应激反应（Stress Response）](/entries/Stress-Response.md)
+
 ## 参考资料
 
 [^plurality-def]: Lopez, C., & Tait, C. (2020). Plural identities and collaborative functioning in dissociative systems. *Journal of Plural Studies, 5*(2), 15-32.

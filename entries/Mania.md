@@ -73,6 +73,7 @@ _若出现自我伤害、他人伤害或判断力显著受损，请立即联系�
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
+
 ## 参考资料
 
 [^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.

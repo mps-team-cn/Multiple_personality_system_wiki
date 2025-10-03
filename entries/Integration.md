@@ -47,6 +47,7 @@ Integration，融合，最终融合（Final Fusion）
 - [重构（Reconstruction）](/entries/Reconstruction.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
 - [解离（Dissociation）](/entries/Dissociation.md)
+
 ## 参考资料
 
 [^整合-1]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision*. [https://www.isst-d.org/wp-content/uploads/2019/02/ISSTD-Guidelines-Adult-DID-Treatment-2011.pdf](https://www.isst-d.org/wp-content/uploads/2019/02/ISSTD-Guidelines-Adult-DID-Treatment-2011.pdf)

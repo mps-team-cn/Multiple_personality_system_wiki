@@ -79,6 +79,7 @@ DSM-5-TR 要求在社会交流互动与局限重复行为两个维度满足具�
 - [谵妄（Delirium）](/entries/Delirium.md)
 - [定向障碍（Disorientation）](/entries/Disorientation.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
+
 ## 参考与延伸阅读
 
 [^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.

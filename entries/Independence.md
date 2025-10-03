@@ -39,6 +39,7 @@ updated: 2025-10-03
 - [后台（Back / Being Back）](/entries/Back-Being-Back.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 - [多意识体（Plurality）](/entries/Plurality.md)
+
 ## 参考与延伸阅读
 
 [^steinberg2014]: Steinberg, M. 2014. *Interview for Dissociative Disorders and PTSD: A Clinician’s Guide*. American Psychiatric Publishing.

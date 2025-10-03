@@ -9,6 +9,8 @@ from typing import Any
 
 import yaml
 
+import yaml
+
 from .models import EntryDocument
 
 

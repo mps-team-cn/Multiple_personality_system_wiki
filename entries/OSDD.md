@@ -79,6 +79,7 @@ DSM-5 与 DSM-5-TR 在文字说明中给出了几个典型的“例子”，帮�
 - [多意识体（Plurality）](/entries/Plurality.md)
 - [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
+
 ## 参考
 
 [^Brand2021]: Brand, B. L., & Loewenstein, R. J. (2021). Dissociative disorders: An overview of assessment, phenomenology, and treatment. _Journal of Psychiatric Practice_, 27(3), 170–182.

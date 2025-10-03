@@ -14,4 +14,5 @@
 - PDF 导出工具在 frontmatter 中遇到 YAML 日期时不再抛出“updated 字段必须为非空字符串”的错误。
 - 对缺失、null 或空字符串的 updated 字段仍会提供清晰错误提示。
 - 文档明确 updated 字段可接受的写法与注意事项。
+
 - 编译检查通过。

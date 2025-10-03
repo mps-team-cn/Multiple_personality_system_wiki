@@ -53,6 +53,7 @@ updated: 2025-10-03
 - [自发型（Spontaneous）](/entries/Spontaneous.md)
 - [适应型（Adaptive）](/entries/Adaptive.md)
 - [人格职能（System Roles）](/entries/System-Roles.md)
+
 ## 参考与延伸阅读
 
 [^veissiere2016]: Veissière, S. P. L. (2016). Varieties of Tulpa experiences: Sentient imaginary friends, embodied joint-agents, and hypnotic social agents. *Anthropology of Consciousness, 27*(2), 213–239.

@@ -40,6 +40,7 @@ updated: 2025-10-03
 - [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
 - [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](/entries/Madoka-Magica-Kyubey-Otherness.md)
 - [《妄想代理人》（Paranoia Agent）与集体意识的具象化](/entries/Paranoia-Agent-Collective-Consciousness.md)
+
 ## 参考资料
 
 [Projection](https://pluralpedia.org/w/Projection).

@@ -52,6 +52,7 @@ updated: 2025-10-03
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 - [独立性（Independence）](/entries/Independence.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
+
 ## 参考资料
 
 [^意识共存-1]: Kluft, R. P. (1984). Treatment of multiple personality disorder. *Psychiatric Clinics of North America, 7*(1), 9-29.

@@ -43,6 +43,7 @@ updated: 2025-10-03
 - [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [非我感（Depersonalization）](/entries/Depersonalization.md)
 - [独有记忆（Exomemory）](/entries/Exomemory.md)
+
 ## 参考资料
 
 [^封存-1]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision*.

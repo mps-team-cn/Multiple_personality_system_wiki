@@ -37,6 +37,7 @@ H. P. 洛夫克拉夫特的克苏鲁神话作品中，常出现由人类心智�
 - [傀儡（Servitor）](/entries/Servitor.md)
 - [埃蒙加德分类法（Emmengard Classification）](/entries/Emmengard-Classification.md)
 - [头压（Head Pressure）](/entries/Head-Pressure.md)
+
 ## 参考资料
 
 - （待补充）

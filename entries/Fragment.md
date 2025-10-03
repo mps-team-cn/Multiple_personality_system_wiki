@@ -35,6 +35,7 @@ updated: 2025-10-03
 - [系魂（Soulbond）](/entries/Soulbond.md)
 - [管理者（Admin）](/entries/Admin.md)
 - [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
+
 ## 参考与延伸阅读
 
 [^pluralpedia-fragment]: Pluralpedia. 2022. “Fragment.” [https://pluralpedia.org/w/Fragment.](https://pluralpedia.org/w/Fragment.)

@@ -39,6 +39,7 @@ Memory Shielding、Amnesiacflux、屏蔽记忆
 - [权限（Permissions）](/entries/Permissions.md)
 - [融合（Fusion）](/entries/Fusion.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
+
 ## 参考与延伸阅读
 
 [^dsm5]: American Psychiatric Association. 2013. *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). American Psychiatric Publishing.
