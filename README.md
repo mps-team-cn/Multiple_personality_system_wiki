@@ -37,17 +37,18 @@ plurality_wiki/
 ├─ Preface.md                 # 前言
 ├─ index.md                   # 全局目录索引
 ├─ changelog.md               # 版本更新记录
-├─ VALIDATION_REPORT.md       # 校对与审核记录
-├─ docs/                      # 贡献流程补充文档
+├─ docs/                      # 贡献流程补充文档与自动报告
 │  ├─ ADMIN_GUIDE.md
 │  ├─ GITHUB_WORKFLOW.md
 │  ├─ TEMPLATE_ENTRY.md
+│  ├─ VALIDATION_REPORT.md    # 校对与审核记录（脚本生成）
 │  └─ tools/...
 ├─ entries/                   # 词条正文（按主题分目录）
 ├─ assets/                    # 静态资源与 last-updated.json
 ├─ scripts/
 │  └─ gen-last-updated.mjs    # 更新词条时间索引
 ├─ tools/                     # 本地维护工具
+│  ├─ gen-validation-report.py # 校验词条结构并生成报告
 │  ├─ fix_md.py               # Markdown 自动修复脚本
 │  └─ pdf_export/...
 ├─ .github/
@@ -65,6 +66,8 @@ plurality_wiki/
 ## 🤖 自动化维护
 
 根目录下的 `tools/` 目录集中存放了协助批量处理、检查与发布的脚本，可与 CI 流程搭配使用。更完整的说明与后续更新请参见 [`docs/tools/README.md`](docs/tools/README.md)。
+
+- `python tools/gen-validation-report.py`：读取《CONTRIBUTING.md》与《docs/TEMPLATE_ENTRY.md》，生成 `docs/VALIDATION_REPORT.md` 校对报告。
 
 ---
 
