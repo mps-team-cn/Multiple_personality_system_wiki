@@ -25,6 +25,8 @@
 - [自恋型人格障碍（NPD）](entries/诊断与临床/Narcissistic-Personality-Disorder-NPD.md)
 - [部分解离性身份障碍（PDID）](entries/诊断与临床/Partial-Dissociative-Identity-Disorder-PDID.md)
 - [述情障碍（Alexithymia）](entries/诊断与临床/Alexithymia.md)
+- [谵妄（Delirium）](entries/诊断与临床/Delirium.md)
+- [定向障碍（Disorientation）](entries/诊断与临床/Disorientation.md)
 
 ## 系统角色与类型
 
