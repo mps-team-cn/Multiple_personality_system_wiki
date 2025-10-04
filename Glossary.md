@@ -128,7 +128,6 @@
 | [Functional Dissociation](entries/Functional-Dissociation.md) | 功能性分离 | 描述日常多任务或注意调节中的适应性认知分离。 |
 | [Structural Dissociation Theory](entries/Structural-Dissociation-Theory.md) | 结构性解离理论 | 源于 ANP/EP 模型的临床理论，解释创伤导致的功能性分离与阶段化治疗路线。 |
 | [Neurodiversity](entries/Neurodiversity.md) | 神经多样性 | 主张神经差异是人类多样性的自然部分，强调反歧视与合理便利。 |
-| [Iatrogenic System](entries/Iatrogenic-System.md) | 医源型系统 | 指被认为因医疗、治疗或外部干预而形成或强化的系统。 |
 | [Imaginary Companion](entries/Imaginary-Companion.md) | 幻想伙伴 | 儿童常见的虚构朋友概念，需与图帕及系统成员区分。 |
 | [Mixed](entries/Emmengard-Classification.md#混合型mixed) | 混合型 | 埃蒙加德分类法标签之一，指系统成员来源多样，兼具创伤与主动构建等成因。 |
 | [Original](entries/Original.md) | 初始 | 指系统最早出现或被视为原始自我的成员，可能与宿主不同。 |

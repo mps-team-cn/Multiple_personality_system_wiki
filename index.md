@@ -45,7 +45,6 @@
 - [守门人（Gatekeeper）](entries/Gatekeeper.md)
 - [人格面具（Persona）](entries/Persona.md)
 - [伪主体（Fauxmain）](entries/Fauxmain.md)
-- [医源型系统（Iatrogenic System）](entries/Iatrogenic-System.md)
 - [幻想伙伴（Imaginary Companion）](entries/Imaginary-Companion.md)
 - [混合（Blending）](entries/Blending.md)
 - [碎片（Fragment）](entries/Fragment.md)
