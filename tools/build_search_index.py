@@ -83,27 +83,44 @@ def load_synonym_list(raw: object) -> List[str]:
 
 
 def iter_title_variants(title: str) -> Iterable[str]:
-    """从标题中提取原文与括号内的别名。"""
+    """从标题中提取原文、去括号文本与括号内的别名。"""
 
     clean = title.strip()
     if not clean:
         return []
 
-    variants = [clean]
-    for part in PAREN_PATTERN.findall(clean):
-        normalized_part = part.strip()
-        if not normalized_part:
-            continue
-        if SPLIT_PATTERN.search(normalized_part):
-            variants.extend(
+    variants: List[str] = []
+    seen: set[str] = set()
+
+    def extend(text: str) -> None:
+        """加入去重后的候选文本，并拆分顿号/斜杠等分隔的别名。"""
+
+        normalized = re.sub(r"\s+", " ", text.strip())
+        if not normalized:
+            return
+
+        candidates = [normalized]
+        if SPLIT_PATTERN.search(normalized):
+            candidates.extend(
                 candidate.strip()
-                for candidate in SPLIT_PATTERN.split(normalized_part)
+                for candidate in SPLIT_PATTERN.split(normalized)
                 if candidate.strip()
             )
-        else:
-            variants.append(normalized_part)
 
-    return [variant for variant in variants if variant]
+        for candidate in candidates:
+            if candidate and candidate not in seen:
+                seen.add(candidate)
+                variants.append(candidate)
+
+    extend(clean)
+
+    base_without_paren = PAREN_PATTERN.sub(" ", clean)
+    extend(base_without_paren)
+
+    for part in PAREN_PATTERN.findall(clean):
+        extend(part)
+
+    return variants
 
 
 def has_chinese(text: str) -> bool:
