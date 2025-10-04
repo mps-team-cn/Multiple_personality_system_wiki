@@ -16,6 +16,10 @@
 
 - [《分裂》（Split, 2016）中的 DID 形象分析](entries/Split-2016-DID-Representation.md)
 
+## ANP-EP 模型
+
+- [结构性解离理论（Theory of Structural Dissociation）](entries/Structural-Dissociation-Theory.md)
+
 ## BPD
 
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](entries/Borderline-Personality-Disorder-BPD.md)
@@ -109,6 +113,10 @@
 
 - [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](entries/Narcissistic-Personality-Disorder-NPD.md)
 
+## 临床参考
+
+- [去现实化（Derealization）](entries/Derealization.md)
+
 ## 临床框架
 
 - [病理性解离（Pathological Dissociation）](entries/Pathological-Dissociation.md)
@@ -146,6 +154,10 @@
 ## 主题解读
 
 - [洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）](entries/Lovecraft-Tulpa-Motifs.md)
+
+## 习得性无助
+
+- [习得性无助（Learned Helplessness）](entries/Learned-Helplessness.md)
 
 ## 互动机制
 
@@ -298,6 +310,10 @@
 
 - [图帕（Tulpa）](entries/Tulpa.md)
 
+## 内部治理
+
+- [内部沟通（Internal Communication）](entries/Internal-Communication.md)
+
 ## 内部界限
 
 - [成员（Alter）](entries/Alter.md)
@@ -315,9 +331,13 @@
 - [内部自助者（Internal Self Helper，ISH）](entries/Internal-Self-Helper-ISH.md)
 - [管理者（Admin）](entries/Admin.md)
 
-## 冥想练习
+## 冥想
 
 - [冥想（Meditation）](entries/Meditation.md)
+
+## 冲突调节
+
+- [内部沟通（Internal Communication）](entries/Internal-Communication.md)
 
 ## 分类与对比
 
@@ -356,6 +376,10 @@
 ## 创伤揭示
 
 - [《隐形人》（Mr. Robot）中的人格分裂叙事](entries/Mr-Robot-DID-Narrative.md)
+
+## 创伤治疗
+
+- [结构性解离理论（Theory of Structural Dissociation）](entries/Structural-Dissociation-Theory.md)
 
 ## 创伤背景
 
@@ -473,6 +497,10 @@
 
 - [保护者（Protector）](entries/Protector.md)
 
+## 去现实化
+
+- [去现实化（Derealization）](entries/Derealization.md)
+
 ## 参考与延伸阅读
 
 - [T 语（Tulpish）](entries/Tulpish.md)
@@ -562,6 +590,7 @@
 
 ## 地面化练习
 
+- [去现实化（Derealization）](entries/Derealization.md)
 - [非我感（Depersonalization）](entries/Depersonalization.md)
 
 ## 埃蒙加德分类法
@@ -669,6 +698,10 @@
 
 - [意识共存（Co-consciousness）](entries/Co-Consciousness.md)
 
+## 多重意识体
+
+- [内部沟通（Internal Communication）](entries/Internal-Communication.md)
+
 ## 多重意识体基础
 
 - [多重意识体基础（Plurality Basics）](entries/Plurality-Basics.md)
@@ -772,6 +805,10 @@
 ## 实践中的
 
 - [图帕（Tulpa）](entries/Tulpa.md)
+
+## 实践工具
+
+- [内部沟通（Internal Communication）](entries/Internal-Communication.md)
 
 ## 实践建议
 
@@ -1098,6 +1135,10 @@
 ## 感知体验
 
 - [醉酒解离（Alcohol-Induced Dissociation）](entries/Alcohol-Induced-Dissociation.md)
+
+## 感知解离
+
+- [去现实化（Derealization）](entries/Derealization.md)
 
 ## 感觉差异
 
@@ -1531,6 +1572,10 @@
 
 - [独有记忆（Exomemory）](entries/Exomemory.md)
 
+## 理论框架
+
+- [结构性解离理论（Theory of Structural Dissociation）](entries/Structural-Dissociation-Theory.md)
+
 ## 理论模型
 
 - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](entries/Apparently-Normal-Part-Emotional-Part-Model.md)
@@ -1797,6 +1842,7 @@
 - [前台（Front / Fronting）](entries/Front-Fronting.md)
 - [功能性分离（Functional Dissociation）](entries/Functional-Dissociation.md)
 - [单一类系统（Single-Class Systems, Xianyu Theory）](entries/Single-Class-Systems-Xianyu.md)
+- [去现实化（Derealization）](entries/Derealization.md)
 - [后台（Back / Being Back）](entries/Back-Being-Back.md)
 - [外投射（External Projection）](entries/External-Projection.md)
 - [多意识体（Plurality）](entries/Plurality.md)
@@ -1834,6 +1880,10 @@
 ## 系统内空窗
 
 - [自动驾驶（Autopilot）](entries/Autopilot.md)
+
+## 系统协作
+
+- [内部沟通（Internal Communication）](entries/Internal-Communication.md)
 
 ## 系统协商
 
@@ -1905,6 +1955,7 @@
 ## 结构性解离
 
 - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](entries/Apparently-Normal-Part-Emotional-Part-Model.md)
+- [结构性解离理论（Theory of Structural Dissociation）](entries/Structural-Dissociation-Theory.md)
 
 ## 结构性解离模型
 
@@ -2256,6 +2307,10 @@
 
 - [触发（Trigger）](entries/Trigger.md)
 
+## 触发管理
+
+- [去现实化（Derealization）](entries/Derealization.md)
+
 ## 认知与情绪
 
 - [习得性无助（Learned Helplessness）](entries/Learned-Helplessness.md)
@@ -2269,6 +2324,10 @@
 
 - [触发（Trigger）](entries/Trigger.md)
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](entries/Borderline-Personality-Disorder-BPD.md)
+
+## 记录与日志
+
+- [内部沟通（Internal Communication）](entries/Internal-Communication.md)
 
 ## 记录工具
 
@@ -2737,6 +2796,7 @@
 
 - [整合（Integration）](entries/Integration.md)
 - [混合（Blending）](entries/Blending.md)
+- [结构性解离理论（Theory of Structural Dissociation）](entries/Structural-Dissociation-Theory.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](entries/Dissociative-Amnesia-DA.md)
 - [迫害者（Persecutor）](entries/Persecutor.md)
 

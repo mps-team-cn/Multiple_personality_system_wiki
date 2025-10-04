@@ -93,11 +93,13 @@
 - [迭代（Iteration）](entries/Iteration.md)
 - [解离（Dissociation）](entries/Dissociation.md)
 - [功能性分离（Functional Dissociation）](entries/Functional-Dissociation.md)
+- [结构性解离理论（Theory of Structural Dissociation）](entries/Structural-Dissociation-Theory.md)
 - [神经多样性（Neurodiversity）](entries/Neurodiversity.md)
 - [整合（Integration）](entries/Integration.md)
 - [重构（Reconstruction）](entries/Reconstruction.md)
 - [躯体认同（Body Ownership）](entries/Body-Ownership.md)
 - [非我感（Depersonalization）](entries/Depersonalization.md)
+- [去现实化（Derealization）](entries/Derealization.md)
 - [切换（Switch）](entries/Switch.md)
 - [系统（System）](entries/System.md)
 - [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](entries/Xianyu-Theory-Niche-Classification.md)
@@ -115,6 +117,7 @@
 - [感官调节策略（Sensory Regulation Strategies）](entries/Sensory-Regulation-Strategies.md)
 - [冥想（Meditation）](entries/Meditation.md)
 - [接地（Grounding）](entries/Grounding.md)
+- [内部沟通（Internal Communication）](entries/Internal-Communication.md)
 
 ## 虚拟角色与文学影视作品
 
