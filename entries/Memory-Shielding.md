@@ -37,8 +37,8 @@ Memory Shielding、Amnesiacflux、屏蔽记忆
 - [独立性（Independence）](/entries/Independence.md)
 - [权限（Permissions）](/entries/Permissions.md)
 - [解离（Dissociation）](/entries/Dissociation.md)
-- [独有记忆（Exomemory）](/entries/Exomemory.md)
 - [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
 
 ## 参考与延伸阅读
 

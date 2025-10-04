@@ -39,8 +39,8 @@ updated: 2025-10-03
 - [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
 - [独有记忆（Exomemory）](/entries/Exomemory.md)
-- [迭代（Iteration）](/entries/Iteration.md)
 - [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [迭代（Iteration）](/entries/Iteration.md)
 - [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
 - [非我感（Depersonalization）](/entries/Depersonalization.md)
 

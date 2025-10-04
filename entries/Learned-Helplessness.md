@@ -84,10 +84,10 @@ updated: 2025-10-04
 
 ## 相关条目
 
-- [应激反应（Stress Response）](/entries/Stress-Response.md)
 - [创伤（Trauma）](/entries/Trauma.md)
-- [焦虑（Anxiety）](/entries/Anxiety.md)
+- [应激反应（Stress Response）](/entries/Stress-Response.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
+- [焦虑（Anxiety）](/entries/Anxiety.md)
 - [适应型（Adaptive）](/entries/Adaptive.md)
 - [谵妄（Delirium）](/entries/Delirium.md)
 - [复杂性创伤后应激障碍（CPTSD）](/entries/CPTSD.md)

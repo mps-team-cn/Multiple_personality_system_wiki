@@ -1,6 +1,6 @@
 ---
 title: 结构性解离理论（Theory of Structural Dissociation）
-tags: [解离, 结构性解离, 阶段化治疗, 理论框架, 创伤治疗, 结构性解离理论, 理论模型, 术语映射]
+tags: [解离, 结构性解离理论, 术语映射, 结构性解离, 阶段化治疗, 理论模型, 理论框架, 创伤治疗]
 updated: 2025-10-04
 ---
 
@@ -46,12 +46,12 @@ updated: 2025-10-04
 
 - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](/entries/Apparently-Normal-Part-Emotional-Part-Model.md)
 - [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
-- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
 - [解离（Dissociation）](/entries/Dissociation.md)
-- [迫害者（Persecutor）](/entries/Persecutor.md)
 - [功能性分离（Functional Dissociation）](/entries/Functional-Dissociation.md)
-- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
 - [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
+- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
+- [迫害者（Persecutor）](/entries/Persecutor.md)
+- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
 
 ## 参考资料
 

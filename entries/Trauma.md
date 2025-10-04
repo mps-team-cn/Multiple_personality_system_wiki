@@ -86,9 +86,9 @@ updated: 2025-10-03
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
 - [适应型（Adaptive）](/entries/Adaptive.md)
 - [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
+- [习得性无助（Learned Helplessness）](/entries/Learned-Helplessness.md)
 - [焦虑（Anxiety）](/entries/Anxiety.md)
 - [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](/entries/Narcissistic-Personality-Disorder-NPD.md)
-- [习得性无助（Learned Helplessness）](/entries/Learned-Helplessness.md)
 
 ## 参考与延伸阅读
 
