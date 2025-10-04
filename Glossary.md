@@ -72,7 +72,7 @@
 | [Fusion](entries/Fusion.md) | 融合 | 形容两个或多个成员长期合并为单一身份体验的过程。 |
 | [Head Pressure](entries/Head-Pressure.md) | 头压 | 社群用于描述前台转换或内在活动伴随的头部紧张压迫感。 |
 | [Independence](entries/Independence.md) | 独立性 | 讨论成员在决策、情绪与生活功能上的自主程度。 |
-| [Intrusive Thoughts](entries/Intrusive-Thoughts.md) | 侵入性思维 | 描述突入意识、常伴焦虑或创伤主题的非自愿念头。 |
+| [Intrusive Thoughts](entries/Intrusive-Thoughts.md) | 侵入性思维、侵思 | 描述突入意识、常伴焦虑或创伤主题的非自愿念头，亦称“侵思”。 |
 | [Iteration](entries/Iteration.md) | 迭代 | 用于记录系统内部的变更周期、角色调整或策略试验。 |
 | [Memory Shielding](entries/Memory-Shielding.md) | 记忆屏蔽 | 指成员为保护他人而限制或分隔特定记忆访问的机制。 |
 | [Permissions](entries/Permissions.md) | 权限 | 涉及系统内部对信息、前台或资源使用的授权规则。 |
@@ -98,11 +98,13 @@
 | [CPTSD](entries/CPTSD.md) | 复杂性创伤后应激障碍 | 针对长期复杂创伤影响的诊断框架，强调持续性安全与支持需求。 |
 | [Delirium](entries/Delirium.md) | 谵妄 | 急性注意与意识混乱的状态，常伴定向障碍与安全风险，需要及时处理躯体诱因。 |
 | [Depersonalization/Derealization Disorder，DPDR](entries/Depersonalization-Derealization-Disorder-DPDR.md) | 人格解体/现实解体障碍 | 临床诊断，涵盖非我感与非真实感持续困扰日常功能的情况。 |
+| [Affective Disorders](entries/Affective-Disorders.md) | 心境障碍、情感障碍 | 上位分类，包含抑郁、双相与躁狂/轻躁狂等心境谱系。 |
 | [Depressive Disorders](entries/Depressive-Disorders.md) | 抑郁障碍 | 泛指以持续情绪低落、兴趣缺失与认知改变为核心的障碍。 |
 | [Learned Helplessness](entries/Learned-Helplessness.md) | 习得性无助 | 指在长期不可控压力下习得的无力感与动机枯竭模式，常与创伤暴露及抑郁症状并存。 |
 | [DID](entries/DID.md) | 解离性身份障碍 | 以多个身份状态轮换控制与解离性失忆为核心的创伤相关解离障碍。 |
 | [Dissociative Amnesia](entries/Dissociative-Amnesia-DA.md) | 解离性遗忘 | 指无法回忆重要个人信息的解离症状，常与创伤事件关联。 |
 | [Flashback](entries/Flashback.md) | 闪回 | 创伤记忆以感官或情绪形式突然重现、难以控制的体验。 |
+| [Hypomania](entries/Hypomania.md) | 轻躁狂 | 强度低于躁狂的情绪与能量高涨期，需留意功能波动与躁狂转换风险。 |
 | [Mania](entries/Mania.md) | 躁狂 | 情绪和能量显著高涨、睡眠需求减少、冲动决定或危险行为的状态。 |
 | [NPD](entries/Narcissistic-Personality-Disorder-NPD.md) | 自恋型人格障碍 | 以夸大、自我关注与共情困难为主要特征的人格模式。 |
 | [OCD](entries/OCD.md) | 强迫症 | 以反复出现的强迫思维与强迫行为循环为核心特征的状态。 |
