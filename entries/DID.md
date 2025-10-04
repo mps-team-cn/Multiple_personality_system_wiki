@@ -116,8 +116,8 @@ DID 的治疗通常遵循分阶段模式：
 - [多意识体（Plurality）](/entries/Plurality.md)
 - [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
-- [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](/entries/Apparently-Normal-Part-Emotional-Part-Model.md)
-- [系统（System）](/entries/System.md)
+- [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
+- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](/entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
 
 ## 参考与延伸阅读
 

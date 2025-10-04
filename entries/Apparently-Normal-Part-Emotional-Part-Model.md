@@ -104,6 +104,7 @@ updated: 2025-10-03
 
 ## 相关条目
 
+- [结构性解离理论（Theory of Structural Dissociation）](/entries/Structural-Dissociation-Theory.md)
 - [解离（Dissociation）](/entries/Dissociation.md)
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
 - [成员（Alter）](/entries/Alter.md)
@@ -111,7 +112,6 @@ updated: 2025-10-03
 - [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [多意识体（Plurality）](/entries/Plurality.md)
 - [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](/entries/Partial-Dissociative-Identity-Disorder-PDID.md)
-- [适应型（Adaptive）](/entries/Adaptive.md)
 
 ## 参考文献
 

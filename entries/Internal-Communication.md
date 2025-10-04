@@ -1,6 +1,6 @@
 ---
 title: 内部沟通（Internal Communication）
-tags: [系统协作, 内部治理, 冲突调节, 实践工具, 记录与日志, 多重意识体]
+tags: [多重意识体, 记录与日志, 系统协作, 实践工具, 冲突调节, 内部治理, 内部沟通, 内在语言与视觉]
 updated: 2025-10-04
 ---
 
@@ -40,11 +40,14 @@ updated: 2025-10-04
 
 ## 相关条目
 
-- [权限（Permissions）](/entries/Permissions.md)
-- [融合（Fusion）](/entries/Fusion.md)
-- [接地（Grounding）](/entries/Grounding.md)
 - [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
+- [融合（Fusion）](/entries/Fusion.md)
 - [迭代（Iteration）](/entries/Iteration.md)
+- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
+- [人格职能（System Roles）](/entries/System-Roles.md)
+- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
+- [小孩意识体（Little / Child Part）](/entries/Little.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
 
 ## 参考资料
 

@@ -1,6 +1,6 @@
 ---
 title: 其他特定解离性障碍（OSDD）
-tags: [解离性身份障碍 DID, 其他特定解离性障碍 OSDD, 其他特定解离性障碍, 定义与同义词, 非正式, 非典型解离障碍, 部分, 解离性身份障碍]
+tags: [其他特定解离性障碍 OSDD, 解离性身份障碍 DID, 其他特定解离性障碍, 定义与同义词, 非正式, 非典型解离障碍, 部分, 解离性身份障碍]
 updated: 2025-10-03
 ---
 
@@ -77,8 +77,8 @@ DSM-5 与 DSM-5-TR 在文字说明中给出了几个典型的“例子”，帮�
 - [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [多意识体（Plurality）](/entries/Plurality.md)
 - [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](/entries/Partial-Dissociative-Identity-Disorder-PDID.md)
-- [混合（Blending）](/entries/Blending.md)
 - [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
+- [混合（Blending）](/entries/Blending.md)
 
 ## 参考
 
