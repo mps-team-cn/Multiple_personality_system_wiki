@@ -58,11 +58,11 @@ T 语（Tulpish）是一种**非语言、符号化的沟通系统**，常见于�
 - [系魂型系统（Soul-Linked Systems, Xianyu Theory）](/entries/Soul-Linked-Systems-Xianyu.md)
 - [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](/entries/Xianyu-Theory-Niche-Classification.md)
 - [家族式系统（Family Systems, Xianyu Theory）](/entries/Family-Systems-Xianyu.md)
-- [混合型系统（Mixed Systems, Xianyu Theory）](/entries/Mixed-Systems-Xianyu.md)
 - [单一类系统（Single-Class Systems, Xianyu Theory）](/entries/Single-Class-Systems-Xianyu.md)
-- [偏重（Bias / Median）](/entries/Bias.md)
-- [冥想（Meditation）](/entries/Meditation.md)
+- [混合型系统（Mixed Systems, Xianyu Theory）](/entries/Mixed-Systems-Xianyu.md)
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
+- [冥想（Meditation）](/entries/Meditation.md)
+- [偏重（Bias / Median）](/entries/Bias.md)
 
 ## 参考与延伸阅读
 

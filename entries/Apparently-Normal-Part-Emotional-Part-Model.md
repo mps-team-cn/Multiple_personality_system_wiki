@@ -1,10 +1,10 @@
 ---
 tags:
-- 解离性身份障碍 DID
-- 其他特定解离性障碍 OSDD
 - ANP
 - EP
 - CPTSD
+- 解离性身份障碍_DID
+- 其他特定解离性障碍_OSDD
 title: ANP-EP 模型（Apparently Normal Part–Emotional Part Model）
 updated: 2025-10-03
 ---
@@ -110,8 +110,8 @@ updated: 2025-10-03
 ## 相关条目
 
 - [结构性解离理论（Theory of Structural Dissociation）](/entries/Structural-Dissociation-Theory.md)
-- [自动驾驶（Autopilot）](/entries/Autopilot.md)
 - [其他特定解离性障碍（OSDD）](/entries/OSDD.md)
+- [自动驾驶（Autopilot）](/entries/Autopilot.md)
 - [解离（Dissociation）](/entries/Dissociation.md)
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
 - [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](/entries/Partial-Dissociative-Identity-Disorder-PDID.md)

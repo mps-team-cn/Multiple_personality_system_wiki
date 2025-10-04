@@ -82,9 +82,9 @@ Median 体验、半多意识体、半分离系统
 - [家族式系统（Family Systems, Xianyu Theory）](/entries/Family-Systems-Xianyu.md)
 - [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](/entries/Xianyu-Theory-Niche-Classification.md)
 - [混合型系统（Mixed Systems, Xianyu Theory）](/entries/Mixed-Systems-Xianyu.md)
-- [非我感（Depersonalization）](/entries/Depersonalization.md)
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
 - [T 语（Tulpish）](/entries/Tulpish.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
 
 ## 参考资料
 

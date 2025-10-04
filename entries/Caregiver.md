@@ -54,5 +54,5 @@ updated: 2025-10-03
 - [人格职能（System Roles）](/entries/System-Roles.md)
 - [执行者（Performer / Executive）](/entries/Performer-Executive.md)
 - [青少年意识体（Teen Part）](/entries/Teen.md)
-- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
 - [内部沟通（Internal Communication）](/entries/Internal-Communication.md)
+- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)

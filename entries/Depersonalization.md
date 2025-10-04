@@ -49,8 +49,8 @@ Not-me 感、他者感、身份异化感 感知区分 感知壁垒
 - [重构（Reconstruction）](/entries/Reconstruction.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
 - [迭代（Iteration）](/entries/Iteration.md)
-- [独有记忆（Exomemory）](/entries/Exomemory.md)
 - [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
 - [去现实化（Derealization）](/entries/Derealization.md)
 
 ## 参考资料

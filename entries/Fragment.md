@@ -30,14 +30,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
-- [迭代（Iteration）](/entries/Iteration.md)
 - [独有记忆（Exomemory）](/entries/Exomemory.md)
 - [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
-- [伪主体（Fauxmain）](/entries/Fauxmain.md)
-- [人格职能（System Roles）](/entries/System-Roles.md)
-- [主体（Main）](/entries/Main.md)
+- [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
 - [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [迭代（Iteration）](/entries/Iteration.md)
+- [《隐形人》（Mr. Robot）中的人格分裂叙事](/entries/Mr-Robot-DID-Narrative.md)
+- [人格职能（System Roles）](/entries/System-Roles.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
 
 ## 参考与延伸阅读
 

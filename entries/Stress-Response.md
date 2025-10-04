@@ -47,9 +47,9 @@ Stress Response、压力反应、战斗或逃跑反应
 - [迭代（Iteration）](/entries/Iteration.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
-- [独有记忆（Exomemory）](/entries/Exomemory.md)
 - [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
 - [去现实化（Derealization）](/entries/Derealization.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
 
 ## 参考资料
 

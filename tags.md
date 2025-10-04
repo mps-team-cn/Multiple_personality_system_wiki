@@ -1,9 +1,5 @@
 # 标签索引
 
-## ----
-
-- [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](entries/Nonexistent-You-And-Me-Tulpa-Lilith.md)
-
 ## 3.0
 
 - [守门人（Gatekeeper）](entries/Gatekeeper.md)
@@ -43,7 +39,7 @@
 
 - [躯体化障碍（Somatic Symptom Disorder，SSD）](entries/Somatic-Symptom-Disorder-SSD.md)
 
-## 其他特定解离性障碍 OSDD
+## 其他特定解离性障碍_OSDD
 
 - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](entries/Apparently-Normal-Part-Emotional-Part-Model.md)
 - [其他特定解离性障碍（OSDD）](entries/OSDD.md)
@@ -53,6 +49,7 @@
 
 - [T 语（Tulpish）](entries/Tulpish.md)
 - [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](entries/Three-Faces-Of-Eve-1957-Dissociation.md)
+- [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](entries/Nonexistent-You-And-Me-Tulpa-Lilith.md)
 - [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](entries/Touhou-Tulpa-Fandom.md)
 - [《妄想代理人》（Paranoia Agent）与集体意识的具象化](entries/Paranoia-Agent-Collective-Consciousness.md)
 - [《我与梦露的一周》（The United States of Tara）中的系统家庭日常](entries/United-States-Of-Tara-System-Daily-Life.md)
@@ -133,12 +130,13 @@
 - [迫害者（Persecutor）](entries/Persecutor.md)
 - [迭代（Iteration）](entries/Iteration.md)
 - [退行（Regression in Psychology）](entries/Regression-In-Psychology.md)
+- [醉酒解离（Alcohol-Induced Dissociation）](entries/Alcohol-Induced-Dissociation.md)
 - [重构（Reconstruction）](entries/Reconstruction.md)
 - [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](entries/Dostoevsky-The-Double-Self-Division.md)
 - [青少年意识体（Teen Part）](entries/Teen.md)
 - [非我感（Depersonalization）](entries/Depersonalization.md)
 
-## 创伤后应激障碍 PTSD
+## 创伤后应激障碍_PTSD
 
 - [侵入性思维（Intrusive Thoughts）](entries/Intrusive-Thoughts.md)
 - [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](entries/PTSD.md)
@@ -265,7 +263,7 @@
 - [青少年意识体（Teen Part）](entries/Teen.md)
 - [非我感（Depersonalization）](entries/Depersonalization.md)
 
-## 注意力缺陷多动障碍 ADHD
+## 注意力缺陷多动障碍_ADHD
 
 - [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
 
@@ -273,7 +271,7 @@
 
 - [焦虑（Anxiety）](entries/Anxiety.md)
 
-## 管理者
+## 管理员
 
 - [管理者（Admin）](entries/Admin.md)
 
@@ -394,7 +392,7 @@
 - [青少年意识体（Teen Part）](entries/Teen.md)
 - [非我感（Depersonalization）](entries/Depersonalization.md)
 
-## 解离性身份障碍 DID
+## 解离性身份障碍_DID
 
 - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](entries/Apparently-Normal-Part-Emotional-Part-Model.md)
 - [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](entries/Another-Me-DID-Depictions.md)
@@ -421,7 +419,3 @@
 
 - [埃蒙加德分类法（Emmengard Classification）](entries/Emmengard-Classification.md)
 - [适应型（Adaptive）](entries/Adaptive.md)
-
-## 醉酒解离
-
-- [醉酒解离（Alcohol-Induced Dissociation）](entries/Alcohol-Induced-Dissociation.md)

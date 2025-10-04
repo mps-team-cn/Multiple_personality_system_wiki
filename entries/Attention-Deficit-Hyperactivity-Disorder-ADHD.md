@@ -1,6 +1,6 @@
 ---
 tags:
-- 注意力缺陷多动障碍 ADHD
+- 注意力缺陷多动障碍_ADHD
 - 多重意识体
 - 解离
 title: 注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）
@@ -78,10 +78,10 @@ ADHD 在儿童中的盛行率约 5% 左右，成人约 2%–3%，多数个体的
 
 - [躯体化障碍（Somatic Symptom Disorder，SSD）](/entries/Somatic-Symptom-Disorder-SSD.md)
 - [焦虑（Anxiety）](/entries/Anxiety.md)
-- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
-- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 - [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](/entries/Narcissistic-Personality-Disorder-NPD.md)
+- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
+- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
 

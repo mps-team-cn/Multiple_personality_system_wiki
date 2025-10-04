@@ -37,9 +37,9 @@ updated: 2025-10-03
 - [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
 - [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](/entries/Dostoevsky-The-Double-Self-Division.md)
 - [《西比尔》（Sybil, 1976）与多重人格文化原型](/entries/Sybil-1976-Cultural-Prototype.md)
-- [神经多样性（Neurodiversity）](/entries/Neurodiversity.md)
+- [人格面具（Persona）](/entries/Persona.md)
 - [自发型（Spontaneous）](/entries/Spontaneous.md)
-- [迭代（Iteration）](/entries/Iteration.md)
+- [主体（Main）](/entries/Main.md)
 
 ## 参考资料
 

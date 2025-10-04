@@ -1,8 +1,8 @@
 ---
 tags:
 - 解离
-- 醉酒解离
 - 多重意识体
+- 创伤
 title: 醉酒解离（Alcohol-Induced Dissociation）
 updated: 2025-10-03
 ---
@@ -39,14 +39,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
+- [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](/entries/Three-Faces-Of-Eve-1957-Dissociation.md)
 - [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
-- [成员（Alter）](/entries/Alter.md)
-- [人格职能（System Roles）](/entries/System-Roles.md)
-- [功能性分离（Functional Dissociation）](/entries/Functional-Dissociation.md)
-- [适应型（Adaptive）](/entries/Adaptive.md)
-- [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
-- [主体（Main）](/entries/Main.md)
+- [《隐形人》（Mr. Robot）中的人格分裂叙事](/entries/Mr-Robot-DID-Narrative.md)
+- [《西比尔》（Sybil, 1976）与多重人格文化原型](/entries/Sybil-1976-Cultural-Prototype.md)
 - [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](/entries/Dostoevsky-The-Double-Self-Division.md)
+- [《我与梦露的一周》（The United States of Tara）中的系统家庭日常](/entries/United-States-Of-Tara-System-Daily-Life.md)
+- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
+- [主体（Main）](/entries/Main.md)
 
 ## 参考资料
 

@@ -1,7 +1,7 @@
 ---
 tags:
-- 创伤后应激障碍 PTSD
 - CPTSD
+- 创伤后应激障碍_PTSD
 - 多重意识体
 title: 闪回（Flashback）
 updated: 2025-10-03
@@ -125,9 +125,9 @@ updated: 2025-10-03
 - [复杂性创伤后应激障碍（CPTSD）](/entries/CPTSD.md)
 - [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](/entries/PTSD.md)
 - [侵入性思维（Intrusive Thoughts）](/entries/Intrusive-Thoughts.md)
+- [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
 - [创伤（Trauma）](/entries/Trauma.md)
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
-- [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
 - [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
 - [定向障碍（Disorientation）](/entries/Disorientation.md)
 

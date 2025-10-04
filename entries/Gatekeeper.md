@@ -48,13 +48,13 @@ updated: 2025-10-03
 ## 相关条目
 
 - [管理者（Admin）](/entries/Admin.md)
+- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
 - [成员（Alter）](/entries/Alter.md)
 - [后台（Back / Being Back）](/entries/Back-Being-Back.md)
-- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
-- [伪主体（Fauxmain）](/entries/Fauxmain.md)
-- [切换（Switch）](/entries/Switch.md)
-- [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
 - [保护者（Protector）](/entries/Protector.md)
+- [切换（Switch）](/entries/Switch.md)
+- [内部沟通（Internal Communication）](/entries/Internal-Communication.md)
+- [伪主体（Fauxmain）](/entries/Fauxmain.md)
 
 ## 参考与延伸阅读
 

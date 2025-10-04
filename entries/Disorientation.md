@@ -113,10 +113,10 @@ ICD-11 与 DSM-5-TR 均将定向障碍视为谵妄的重要表现，但 ICD-11 �
 - [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
 - [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
-- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
 - [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
-- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
 - [躁狂（Mania）](/entries/Mania.md)
+- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
+- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
 
 ## 参考与延伸阅读
 

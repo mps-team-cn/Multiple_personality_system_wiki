@@ -30,14 +30,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [成员（Alter）](/entries/Alter.md)
 - [前台（Front / Fronting）](/entries/Front-Fronting.md)
+- [成员（Alter）](/entries/Alter.md)
+- [共前台（Co-fronting）](/entries/Co-Fronting.md)
 - [后台（Back / Being Back）](/entries/Back-Being-Back.md)
 - [外投射（External Projection）](/entries/External-Projection.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 - [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
-- [独立性（Independence）](/entries/Independence.md)
-- [《隐形人》（Mr. Robot）中的人格分裂叙事](/entries/Mr-Robot-DID-Narrative.md)
+- [切换（Switch）](/entries/Switch.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 
 ## 参考与延伸阅读
 
