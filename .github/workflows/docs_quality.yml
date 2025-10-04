@@ -19,8 +19,11 @@ jobs:
           python-version: '3.11'
       - name: 校验标签索引
         run: |
-          python generate_tags_index.py
+          python tools/generate_tags_index.py
           git diff --exit-code tags.md
+      - name: 修复 Markdown 文件格式
+        run: |
+          python tools/fix_md.py 
       - name: 配置 Node.js 环境
         uses: actions/setup-node@v4
         with:
@@ -77,3 +80,4 @@ jobs:
             --no-progress
             --verbose
             ./
+
