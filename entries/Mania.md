@@ -4,7 +4,7 @@ tags:
 - 解离
 - 创伤
 title: 躁狂（Mania）
-updated: 2025-10-03
+updated: 2025-10-05
 ---
 
 # 躁狂（Mania）
@@ -17,7 +17,7 @@ _若出现自我伤害、他人伤害或判断力显著受损，请立即联系�
 
 - 躁狂（Mania）
 - 躁狂发作（Manic Episode）
-- 轻躁狂（Hypomania）
+- [轻躁狂（Hypomania）](/entries/Hypomania.md)
 - 躁狂谱系（Manic Spectrum）
 - 混合特征（Mixed Features）
 
@@ -68,6 +68,7 @@ _若出现自我伤害、他人伤害或判断力显著受损，请立即联系�
 
 ## 相关条目
 
+- [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
 - [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
