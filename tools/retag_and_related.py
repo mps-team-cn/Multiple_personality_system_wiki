@@ -190,6 +190,30 @@ STOP_TAGS = {
     "注释",
 }
 
+HEADING_SKIP_PREFIXES = (
+    "与",
+    "在",
+    "于",
+    "用于",
+    "用以",
+    "作为",
+    "针对",
+    "围绕",
+    "关于",
+    "包含",
+    "通过",
+)
+
+HEADING_SKIP_SUFFIXES = (
+    "的比较",
+    "的区别",
+    "的区分",
+    "的并列",
+    "的交集",
+    "的联系",
+    "的关系",
+)
+
 MIN_TAGS = 3
 MAX_TAGS = 8
 
@@ -385,11 +409,17 @@ def is_valid_tag(tag: str) -> bool:
         return False
     if len(tag) > 18:
         return False
+    if re.fullmatch(r"\d+(?:年|年代)?", tag):
+        return False
     has_cn = bool(CHINESE_RE.search(tag))
     has_en = bool(ASCII_RE.search(tag))
     if has_cn and has_en:
         ascii_letters = "".join(ch for ch in tag if ch.isalpha())
         if ascii_letters and not ascii_letters.isupper():
+            return False
+    if has_cn and " " in tag:
+        parts = [part for part in tag.split(" ") if part]
+        if parts and all(CHINESE_RE.search(part) for part in parts):
             return False
     if not has_cn and has_en:
         condensed = tag.replace("-", "").replace(" ", "")
@@ -397,6 +427,18 @@ def is_valid_tag(tag: str) -> bool:
             return True
         return False
     return True
+
+
+def should_skip_heading_tag(tag: str) -> bool:
+    if re.fullmatch(r"\d+(?:年|年代)?", tag):
+        return True
+    for prefix in HEADING_SKIP_PREFIXES:
+        if tag.startswith(prefix) and len(tag) > len(prefix):
+            return True
+    for suffix in HEADING_SKIP_SUFFIXES:
+        if tag.endswith(suffix):
+            return True
+    return False
 
 
 def tokenize_for_similarity(text: str) -> Counter:
@@ -450,7 +492,7 @@ def extract_synonym_line(line: str) -> Iterable[str]:
 def collect_candidates(post: frontmatter.Post) -> Dict[str, float]:
     candidates: Dict[str, float] = defaultdict(float)
 
-    def add_candidate(raw: object, weight: float = 1.0) -> None:
+    def add_candidate(raw: object, weight: float = 1.0, source: str = "generic") -> None:
         if raw is None:
             return
         if not isinstance(raw, str):
@@ -470,25 +512,27 @@ def collect_candidates(post: frontmatter.Post) -> Dict[str, float]:
         tag = normalize_tag(raw)
         if not is_valid_tag(tag):
             return
+        if source in {"heading", "list_key"} and should_skip_heading_tag(tag):
+            return
         candidates[tag] += weight
 
     tags_meta = post.metadata.get("tags", [])
     if isinstance(tags_meta, str):
         tags_meta = [tags_meta]
     for tag in tags_meta or []:
-        add_candidate(tag, 2.5)
+        add_candidate(tag, 2.5, source="metadata")
 
     title = str(post.metadata.get("title", ""))
     if title:
         if len(title) <= 12:
-            add_candidate(title, 1.5)
+            add_candidate(title, 1.5, source="title")
         m = re.match(r"([^（(]+)", title)
         if m:
-            add_candidate(m.group(1), 2.0)
+            add_candidate(m.group(1), 2.0, source="title")
         inner = re.findall(r"[（(]([^）)]+)[）)]", title)
         for part in inner:
             for token in re.split(r"[，、/,\s]+", part):
-                add_candidate(token, 1.8)
+                add_candidate(token, 1.8, source="title_inner")
 
     content = post.content
     lines = content.splitlines()
@@ -498,19 +542,19 @@ def collect_candidates(post: frontmatter.Post) -> Dict[str, float]:
             continue
         if re.search(r"同义词|别称|亦称", stripped):
             for tag in extract_synonym_line(stripped):
-                add_candidate(tag, 2.2)
+                add_candidate(tag, 2.2, source="synonym")
         if stripped.startswith("## "):
             heading = stripped[3:]
-            add_candidate(heading, 1.0)
+            add_candidate(heading, 0.8, source="heading")
         if stripped.startswith("- **") and "：" in stripped:
             key = stripped.split("：", 1)[0]
             key = re.sub(r"[-*\s]+", "", key)
             key = key.strip("*")
-            add_candidate(key, 1.2)
+            add_candidate(key, 0.9, source="list_key")
 
     summary_segment = "\n".join(lines[:20])
     for word, weight in extract_keyword_candidates(summary_segment, top_k=15):
-        add_candidate(word, weight)
+        add_candidate(word, weight, source="keyword")
 
     for tag, priority in PRIMARY_TAG_PRIORITY.items():
         if tag in candidates:
