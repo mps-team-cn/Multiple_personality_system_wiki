@@ -4,6 +4,8 @@ tags:
 - 解离
 - 创伤
 title: 超级破碎（Polyfragmented）
+synonyms:
+- 超碎
 updated: 2025-10-03
 ---
 
