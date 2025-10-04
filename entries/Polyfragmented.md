@@ -78,7 +78,6 @@ updated: 2025-10-03
 - [重构（Reconstruction）](/entries/Reconstruction.md)
 - [核心（Core）](/entries/Core.md)
 - [碎片（Fragment）](/entries/Fragment.md)
-- [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
 - [成员（Alter）](/entries/Alter.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 - [初始（Original）](/entries/Original.md)
