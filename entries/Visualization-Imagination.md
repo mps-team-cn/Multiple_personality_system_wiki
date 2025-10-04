@@ -33,12 +33,12 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [外投射（External Projection）](/entries/External-Projection.md)
 - [后台（Back / Being Back）](/entries/Back-Being-Back.md)
+- [外投射（External Projection）](/entries/External-Projection.md)
 - [权限（Permissions）](/entries/Permissions.md)
-- [T 语（Tulpish）](/entries/Tulpish.md)
 - [前台（Front / Fronting）](/entries/Front-Fronting.md)
 - [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
+- [T 语（Tulpish）](/entries/Tulpish.md)
 - [成员（Alter）](/entries/Alter.md)
 - [解离（Dissociation）](/entries/Dissociation.md)
 

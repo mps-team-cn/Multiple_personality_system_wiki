@@ -46,9 +46,9 @@ updated: 2025-10-03
 
 - [照顾者（Caregiver）](/entries/Caregiver.md)
 - [执行者（Performer / Executive）](/entries/Performer-Executive.md)
+- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
 - [小孩意识体（Little / Child Part）](/entries/Little.md)
 - [人格职能（System Roles）](/entries/System-Roles.md)
-- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
 - [迫害者（Persecutor）](/entries/Persecutor.md)
 - [保护者（Protector）](/entries/Protector.md)
 - [初始（Original）](/entries/Original.md)

@@ -23,7 +23,7 @@
 ### 1.3 索引与链接规范
 
 - 新增或修改词条时，必须同步维护：
-  - `tags.md` → 运行 `python generate_tags_index.py` 自动生成
+  - `tags.md` → 运行 `python tools/generate_tags_index.py` 自动生成
   - `index.md` → 全局目录索引
   - `glossary.md` → 术语表（如适用）
   - `assets/last-updated.json` → 词条最后更新时间（运行 `node scripts/gen-last-updated.mjs` 生成）

@@ -1,6 +1,6 @@
 ---
 title: 解离性遗忘（Dissociative Amnesia，DA）
-tags: [来源, 解离性遗忘, 风险评估, 风险因素, 阶段化治疗, 遗忘模式, 解离性漫游, 诊断与临床]
+tags: [解离性遗忘, 来源, 风险评估, 风险因素, 阶段化治疗, 遗忘模式, 解离性漫游, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -128,7 +128,7 @@ D. 症状不能被分离性身份障碍、创伤后应激障碍、急性应激�
 - [闪回（Flashback）](/entries/Flashback.md)
 - [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
 - [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
-- [焦虑（Anxiety）](/entries/Anxiety.md)
+- [习得性无助（Learned Helplessness）](/entries/Learned-Helplessness.md)
 
 ## 参考与延伸阅读
 
