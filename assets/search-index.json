@@ -3947,67 +3947,6 @@
       ]
     },
     {
-      "path": "entries/Iatrogenic-System.md",
-      "title": "医源型系统（Iatrogenic System）",
-      "aliases": [
-        "Iatrogenic System",
-        "医源型系统",
-        "医源型系统（Iatrogenic System）"
-      ],
-      "tokens": [
-        {
-          "normalized": "iatrogenic system",
-          "display": "Iatrogenic System",
-          "kind": "alias"
-        },
-        {
-          "normalized": "iatrogenicsystem",
-          "display": "Iatrogenic System",
-          "kind": "alias"
-        },
-        {
-          "normalized": "yi yuan xing xi tong ",
-          "display": "医源型系统",
-          "kind": "alias"
-        },
-        {
-          "normalized": "医源型系统",
-          "display": "医源型系统",
-          "kind": "alias"
-        },
-        {
-          "normalized": "yyxxt",
-          "display": "yyxxt",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "yiyuanxingxitong",
-          "display": "yiyuanxingxitong",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "yi yuan xing xi tong (iatrogenic system)",
-          "display": "医源型系统（Iatrogenic System）",
-          "kind": "title"
-        },
-        {
-          "normalized": "yiyuanxingxitong(iatrogenicsystem)",
-          "display": "医源型系统（Iatrogenic System）",
-          "kind": "title"
-        },
-        {
-          "normalized": "医源型系统（iatrogenic system）",
-          "display": "医源型系统（Iatrogenic System）",
-          "kind": "title"
-        },
-        {
-          "normalized": "医源型系统（iatrogenicsystem）",
-          "display": "医源型系统（Iatrogenic System）",
-          "kind": "title"
-        }
-      ]
-    },
-    {
       "path": "entries/Imaginary-Companion.md",
       "title": "幻想伙伴（Imaginary Companion）",
       "aliases": [

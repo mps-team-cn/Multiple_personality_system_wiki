@@ -55,7 +55,6 @@ updated: 2025-10-03
 - [多意识体（Plurality）](/entries/Plurality.md)
 - [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [成员（Alter）](/entries/Alter.md)
-- [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
 
 ## 参考与延伸阅读
 
