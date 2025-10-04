@@ -1,6 +1,6 @@
 ---
 title: 躯体认同（Body Ownership）
-tags: [躯体认同, 阶段性认同, 身体创伤与身体异化, 共享身体 缺乏共识, 与迭代 重构等系统变化, 与性别 年龄表达, 核心构成要素, 系统体验与机制]
+tags: [躯体认同, 阶段性认同, 身体创伤与身体异化, 核心构成要素, 系统体验与机制, 核心特征, 支持与实践建议, 常见体验模式]
 updated: 2025-10-03
 ---
 
@@ -42,8 +42,8 @@ updated: 2025-10-03
 - [重构（Reconstruction）](/entries/Reconstruction.md)
 - [融合（Fusion）](/entries/Fusion.md)
 - [应激反应（Stress Response）](/entries/Stress-Response.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 - [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 
