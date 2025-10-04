@@ -4,6 +4,9 @@ tags:
 - 多重意识体
 - 解离
 title: 适应型（Adaptive）
+synonyms:
+- 适应型
+- 创伤型
 updated: 2025-10-03
 ---
 
