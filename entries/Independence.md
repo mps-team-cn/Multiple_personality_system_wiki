@@ -37,8 +37,8 @@ updated: 2025-10-03
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 - [解离（Dissociation）](/entries/Dissociation.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
-- [独有记忆（Exomemory）](/entries/Exomemory.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
 
 ## 参考与延伸阅读
 

@@ -40,13 +40,13 @@ Stress Response、压力反应、战斗或逃跑反应
 ## 相关条目
 
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
-- [迭代（Iteration）](/entries/Iteration.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
+- [迭代（Iteration）](/entries/Iteration.md)
 - [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
 - [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
 - [非我感（Depersonalization）](/entries/Depersonalization.md)
-- [融合（Fusion）](/entries/Fusion.md)
 
 ## 参考资料
 

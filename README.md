@@ -71,7 +71,7 @@ plurality_wiki/
 根目录下的 `tools/` 目录集中存放了协助批量处理、检查与发布的脚本，可与 CI 流程搭配使用。更完整的说明与后续更新请参见 [`docs/tools/README.md`](docs/tools/README.md)。
 
 - `python tools/gen-validation-report.py`：读取《CONTRIBUTING.md》与《docs/TEMPLATE_ENTRY.md》，生成 `docs/VALIDATION_REPORT.md` 校对报告。
-- `python generate_tags_index.py`：扫描 `entries/` 前置元数据，输出 `tags.md` 标签索引。
+- `python tools/generate_tags_index.py`：扫描 `entries/` 前置元数据，输出 `tags.md` 标签索引。
 - `python tools/check_links.py --root .`：校验所有 Markdown 文件的内部链接是否遵循 `entries/*.md` 绝对路径写法，并提示潜在断链。
 
 ---
@@ -107,7 +107,7 @@ docsify serve .
 ### 提交流程（简要）
 
 1. Fork & 新建分支；
-2. 按规范撰写/修改，**同步更新 tags.md（运行 `python generate_tags_index.py`）、index.md 与交叉链接**；
+2. 按规范撰写/修改，**同步更新 tags.md（运行 `python tools/generate_tags_index.py`）、index.md 与交叉链接**；
 3. 本地执行 `python tools/fix_md.py` 与 `markdownlint`；
 4. 提交 PR，等待 Review。
 

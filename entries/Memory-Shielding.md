@@ -35,10 +35,10 @@ Memory Shielding、Amnesiacflux、屏蔽记忆
 - [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [多意识体（Plurality）](/entries/Plurality.md)
 - [独立性（Independence）](/entries/Independence.md)
-- [独有记忆（Exomemory）](/entries/Exomemory.md)
 - [权限（Permissions）](/entries/Permissions.md)
 - [解离（Dissociation）](/entries/Dissociation.md)
 - [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
 
 ## 参考与延伸阅读
 

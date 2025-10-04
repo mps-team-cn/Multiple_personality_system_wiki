@@ -41,13 +41,13 @@ Not-me 感、他者感、身份异化感 感知区分 感知壁垒
 
 ## 相关条目
 
+- [去现实化（Derealization）](/entries/Derealization.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
-- [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
 - [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 - [迭代（Iteration）](/entries/Iteration.md)
-- [重构（Reconstruction）](/entries/Reconstruction.md)
-- [融合（Fusion）](/entries/Fusion.md)
 - [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
 
 ## 参考资料
