@@ -25,6 +25,7 @@
 | --- | --- | --- |
 | [Consciousness Modification](entries/Consciousness-Modification.md) | 意识修改 | 指通过练习调整觉察、边界或前台访问方式的技巧。 |
 | [Grounding](entries/Grounding.md) | 接地 | 指帮助回到当下、缓解解离或焦虑的实用技巧。 |
+| [Internal Communication](entries/Internal-Communication.md) | 内部沟通 | 描述系统成员之间建立共享信息与协作流程的实践方案，涵盖日记、会议与紧急信号。 |
 | [Sensory Regulation Strategies](entries/Sensory-Regulation-Strategies.md) | 感官调节策略 | 汇集调节感官输入与稳定唤醒度的实践工具，适用于系统成员协作与神经多样性支持。 |
 | [Integration](entries/Integration.md) | 整合 | 强调提升成员协作、记忆连结与功能稳定的长期目标。 |
 | [Meditation](entries/Meditation.md) | 冥想 | 通过专注训练提升觉察、调节情绪与稳定前台状态的实践。 |
@@ -64,6 +65,7 @@
 | [Body Ownership](entries/Body-Ownership.md) | 躯体认同 | 用于讨论成员对身体控制权与认同感的差异与变化。 |
 | [Blending](entries/Blending.md) | 混合 | 指多位成员的意识界限暂时模糊、体验互相渗透的情况。 |
 | [Depersonalization](entries/Depersonalization.md) | 非我感 | 描述对自我或身体产生疏离、陌生感的现象。 |
+| [Derealization](entries/Derealization.md) | 去现实化 | 描述环境失真、如梦似幻等感知解离体验，与人格解体和创伤触发高度互相关联。 |
 | [Dissociation](entries/Dissociation.md) | 解离 | 消歧义词条，指向功能性分离与病理性解离两种语境。 |
 | [Exomemory](entries/Exomemory.md) | 独有记忆 | 仅对特定成员可访问、对其他成员呈现空白的记忆集合。 |
 | [External Projection](entries/External-Projection.md) | 外投射 | 社群中常与投影互换，强调将意识感知放置在现实空间的具体做法或体验描述。 |
@@ -122,6 +124,7 @@
 | [Created](entries/Emmengard-Classification.md#创造型created) | 创造型 | 埃蒙加德分类法标签之一，指成员通过图帕、系魂或角色构建等方式主动培育。 |
 | [Emmengard Classification](entries/Emmengard-Classification.md) | 埃蒙加德分类法 | 社群自我认同框架，依据系统形成来源与发展路径划分标签。 |
 | [Functional Dissociation](entries/Functional-Dissociation.md) | 功能性分离 | 描述日常多任务或注意调节中的适应性认知分离。 |
+| [Structural Dissociation Theory](entries/Structural-Dissociation-Theory.md) | 结构性解离理论 | 源于 ANP/EP 模型的临床理论，解释创伤导致的功能性分离与阶段化治疗路线。 |
 | [Neurodiversity](entries/Neurodiversity.md) | 神经多样性 | 主张神经差异是人类多样性的自然部分，强调反歧视与合理便利。 |
 | [Iatrogenic System](entries/Iatrogenic-System.md) | 医源型系统 | 指被认为因医疗、治疗或外部干预而形成或强化的系统。 |
 | [Imaginary Companion](entries/Imaginary-Companion.md) | 幻想伙伴 | 儿童常见的虚构朋友概念，需与图帕及系统成员区分。 |
