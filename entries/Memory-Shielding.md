@@ -41,7 +41,6 @@ Memory Shielding、Amnesiacflux、屏蔽记忆
 - [融合（Fusion）](/entries/Fusion.md)
 - [迭代（Iteration）](/entries/Iteration.md)
 - [人格职能（System Roles）](/entries/System-Roles.md)
-- [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
 
 ## 参考与延伸阅读
 
