@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 独立性（Independence）
-tags: [独立性, 维度划分, 风险应对, 连续谱, 评估工具, 神经生理指标, 发展路径, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -31,14 +34,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [后台（Back / Being Back）](/entries/Back-Being-Back.md)
-- [权限（Permissions）](/entries/Permissions.md)
 - [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
-- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
-- [解离（Dissociation）](/entries/Dissociation.md)
-- [封存（Sequestration）](/entries/Sequestration.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
+- [成员（Alter）](/entries/Alter.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
 - [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
+- [迭代（Iteration）](/entries/Iteration.md)
+- [权限（Permissions）](/entries/Permissions.md)
 
 ## 参考与延伸阅读
 

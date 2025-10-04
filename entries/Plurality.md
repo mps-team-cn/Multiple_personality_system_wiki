@@ -1,6 +1,9 @@
 ---
+tags:
+- 解离性身份障碍 DID
+- 多重意识体
+- 解离
 title: 多意识体（Plurality）
-tags: [解离性身份障碍 DID, 多意识体, 解离性身份障碍, 非病理化视角, 身份认可, 资源消耗, 解离谱系观点, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -54,13 +57,13 @@ updated: 2025-10-03
 ## 相关条目
 
 - [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
+- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](/entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
+- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](/entries/Another-Me-DID-Depictions.md)
+- [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
+- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](/entries/Fight-Club-1999-Identity-Metaphor.md)
 - [系统（System）](/entries/System.md)
-- [解离（Dissociation）](/entries/Dissociation.md)
-- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
-- [自动驾驶（Autopilot）](/entries/Autopilot.md)
-- [其他特定解离性障碍（OSDD）](/entries/OSDD.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
-- [融合（Fusion）](/entries/Fusion.md)
+- [混合（Blending）](/entries/Blending.md)
 
 ## 参考资料
 

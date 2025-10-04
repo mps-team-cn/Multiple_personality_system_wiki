@@ -1,12 +1,15 @@
 ---
-title: 复杂性创伤后应激障碍（CPTSD）
-tags: [创伤后应激障碍 PTSD, 复杂性创伤后应激障碍, CPTSD, 来源, 阶段化创伤治疗, 重度抑郁或双相障碍, 边缘性人格障碍, 诊断与临床]
 synonyms:
-  - 复杂性创伤
-  - Complex Post-Traumatic Stress Disorder
-  - Complex PTSD
-  - CPTSD
-  - fuzaxingchuangshanghouyingjizhangai
+- 复杂性创伤
+- Complex Post-Traumatic Stress Disorder
+- Complex PTSD
+- CPTSD
+- fuzaxingchuangshanghouyingjizhangai
+tags:
+- 创伤后应激障碍 PTSD
+- CPTSD
+- 多重意识体
+title: 复杂性创伤后应激障碍（CPTSD）
 updated: 2025-10-03
 ---
 
@@ -114,13 +117,13 @@ updated: 2025-10-03
 ## 相关条目
 
 - [闪回（Flashback）](/entries/Flashback.md)
-- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
-- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
-- [谵妄（Delirium）](/entries/Delirium.md)
-- [定向障碍（Disorientation）](/entries/Disorientation.md)
 - [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](/entries/PTSD.md)
-- [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
-- [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
+- [侵入性思维（Intrusive Thoughts）](/entries/Intrusive-Thoughts.md)
+- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
+- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
+- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
+- [谵妄（Delirium）](/entries/Delirium.md)
+- [创伤（Trauma）](/entries/Trauma.md)
 
 ## 参考与延伸阅读
 

@@ -1,6 +1,9 @@
 ---
+tags:
+- 其他特定解离性障碍 OSDD
+- 解离性身份障碍 DID
+- 多重意识体
 title: 其他特定解离性障碍（OSDD）
-tags: [其他特定解离性障碍 OSDD, 解离性身份障碍 DID, 其他特定解离性障碍, 定义与同义词, 非正式, 非典型解离障碍, 部分, 解离性身份障碍]
 updated: 2025-10-03
 ---
 
@@ -71,14 +74,14 @@ DSM-5 与 DSM-5-TR 在文字说明中给出了几个典型的“例子”，帮�
 
 ## 相关条目
 
-- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
-- [解离（Dissociation）](/entries/Dissociation.md)
-- [系统（System）](/entries/System.md)
-- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
-- [多意识体（Plurality）](/entries/Plurality.md)
 - [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](/entries/Partial-Dissociative-Identity-Disorder-PDID.md)
-- [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
+- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
 - [混合（Blending）](/entries/Blending.md)
+- [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
+- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](/entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
+- [多意识体（Plurality）](/entries/Plurality.md)
+- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](/entries/Another-Me-DID-Depictions.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 
 ## 参考
 

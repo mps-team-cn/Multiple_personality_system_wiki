@@ -1,6 +1,9 @@
 ---
+tags:
+- 解离性身份障碍 DID
+- ANP
+- 多重意识体
 title: 自动驾驶（Autopilot）
-tags: [解离性身份障碍 DID, 自动驾驶, 记忆差异, 触发与过载, 行为持续但意识缺席, 自我感强度, 系统内空窗, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -42,14 +45,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [多意识体（Plurality）](/entries/Plurality.md)
-- [解离（Dissociation）](/entries/Dissociation.md)
-- [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](/entries/Apparently-Normal-Part-Emotional-Part-Model.md)
-- [融合（Fusion）](/entries/Fusion.md)
-- [系统（System）](/entries/System.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
+- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](/entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
+- [混合（Blending）](/entries/Blending.md)
+- [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
+- [其他特定解离性障碍（OSDD）](/entries/OSDD.md)
+- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](/entries/Another-Me-DID-Depictions.md)
 
 ## 参考资料
 

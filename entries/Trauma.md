@@ -1,11 +1,14 @@
 ---
-title: 创伤（Trauma）
-tags: [创伤, 治疗支持, 定义与同义词, 精神创伤, 风险与保护因素, 鉴别诊断, 参考与延伸阅读, 诊断与临床]
 synonyms:
-  - 心理创伤
-  - 精神创伤
-  - Trauma
-  - chuangshang
+- 心理创伤
+- 精神创伤
+- Trauma
+- chuangshang
+tags:
+- 多重意识体
+- 解离
+- 创伤
+title: 创伤（Trauma）
 updated: 2025-10-03
 ---
 
@@ -86,14 +89,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](/entries/PTSD.md)
-- [闪回（Flashback）](/entries/Flashback.md)
-- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
-- [适应型（Adaptive）](/entries/Adaptive.md)
-- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
-- [习得性无助（Learned Helplessness）](/entries/Learned-Helplessness.md)
-- [焦虑（Anxiety）](/entries/Anxiety.md)
-- [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](/entries/Narcissistic-Personality-Disorder-NPD.md)
+- [单一类系统（Single-Class Systems, Xianyu Theory）](/entries/Single-Class-Systems-Xianyu.md)
+- [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
+- [混合型系统（Mixed Systems, Xianyu Theory）](/entries/Mixed-Systems-Xianyu.md)
+- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
+- [谵妄（Delirium）](/entries/Delirium.md)
+- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
+- [家族式系统（Family Systems, Xianyu Theory）](/entries/Family-Systems-Xianyu.md)
+- [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](/entries/Xianyu-Theory-Niche-Classification.md)
 
 ## 参考与延伸阅读
 

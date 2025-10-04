@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 权限（Permissions）
-tags: [权限, 安全层级, 多维度构成, 动态协商, 紧急协议, 神经网络视角, 权限矩阵, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -27,14 +30,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [外投射（External Projection）](/entries/External-Projection.md)
-- [后台（Back / Being Back）](/entries/Back-Being-Back.md)
-- [前台（Front / Fronting）](/entries/Front-Fronting.md)
-- [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
 - [成员（Alter）](/entries/Alter.md)
-- [独立性（Independence）](/entries/Independence.md)
-- [T 语（Tulpish）](/entries/Tulpish.md)
+- [前台（Front / Fronting）](/entries/Front-Fronting.md)
+- [后台（Back / Being Back）](/entries/Back-Being-Back.md)
+- [外投射（External Projection）](/entries/External-Projection.md)
 - [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
+- [独立性（Independence）](/entries/Independence.md)
+- [《隐形人》（Mr. Robot）中的人格分裂叙事](/entries/Mr-Robot-DID-Narrative.md)
 
 ## 参考与延伸阅读
 

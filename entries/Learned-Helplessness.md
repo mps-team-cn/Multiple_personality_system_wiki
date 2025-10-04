@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 习得性无助（Learned Helplessness）
-tags: [创伤, 习得性无助, 风险评估, 诊断与临床, 认知与情绪, 应激反应, 干预策略, 复盘学习]
 updated: 2025-10-04
 ---
 
@@ -84,14 +87,14 @@ updated: 2025-10-04
 
 ## 相关条目
 
-- [创伤（Trauma）](/entries/Trauma.md)
 - [应激反应（Stress Response）](/entries/Stress-Response.md)
-- [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
-- [焦虑（Anxiety）](/entries/Anxiety.md)
-- [适应型（Adaptive）](/entries/Adaptive.md)
-- [谵妄（Delirium）](/entries/Delirium.md)
-- [复杂性创伤后应激障碍（CPTSD）](/entries/CPTSD.md)
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
+- [定向障碍（Disorientation）](/entries/Disorientation.md)
+- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
+- [迭代（Iteration）](/entries/Iteration.md)
+- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 
 ## 参考文献
 

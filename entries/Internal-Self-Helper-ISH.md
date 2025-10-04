@@ -1,6 +1,9 @@
 ---
+tags:
+- 解离性身份障碍 DID
+- 多重意识体
+- 解离
 title: 内部自助者（Internal Self Helper，ISH）
-tags: [解离性身份障碍 DID, 系统角色与类型, 内部自助者, 来源背景, 风险应对, 身份形态, 记录建议, 沟通技巧]
 updated: 2025-10-03
 ---
 
@@ -27,14 +30,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [管理者（Admin）](/entries/Admin.md)
-- [碎片（Fragment）](/entries/Fragment.md)
-- [主体（Main）](/entries/Main.md)
-- [人格面具（Persona）](/entries/Persona.md)
-- [伪主体（Fauxmain）](/entries/Fauxmain.md)
-- [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
+- [多意识体（Plurality）](/entries/Plurality.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](/entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
+- [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
+- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](/entries/Another-Me-DID-Depictions.md)
+- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](/entries/Fight-Club-1999-Identity-Metaphor.md)
 - [混合（Blending）](/entries/Blending.md)
-- [系魂（Soulbond）](/entries/Soulbond.md)
+- [图帕（Tulpa）](/entries/Tulpa.md)
 
 ## 参考与延伸阅读
 

@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 后台（Back / Being Back）
-tags: [后台, 状态转换, 功能分配, 风险应对, 边界管理, 社群经验, 沟通协作, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -28,14 +31,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [成员（Alter）](/entries/Alter.md)
-- [外投射（External Projection）](/entries/External-Projection.md)
-- [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
 - [前台（Front / Fronting）](/entries/Front-Fronting.md)
-- [权限（Permissions）](/entries/Permissions.md)
+- [成员（Alter）](/entries/Alter.md)
+- [共前台（Co-fronting）](/entries/Co-Fronting.md)
+- [外投射（External Projection）](/entries/External-Projection.md)
 - [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
-- [独立性（Independence）](/entries/Independence.md)
-- [T 语（Tulpish）](/entries/Tulpish.md)
+- [切换（Switch）](/entries/Switch.md)
+- [权限（Permissions）](/entries/Permissions.md)
+- [内部空间（Headspace / Inner World）](/entries/Headspace-Inner-World.md)
 
 ## 参考与延伸阅读
 

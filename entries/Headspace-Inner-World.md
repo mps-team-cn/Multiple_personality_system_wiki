@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 内部空间（Headspace / Inner World）
-tags: [定义与同义词, 用于互动, 独立访问的心象环境, 内部空间, 里空间, 幻境, 协作与储存记忆符号, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -43,14 +46,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [系魂型系统（Soul-Linked Systems, Xianyu Theory）](/entries/Soul-Linked-Systems-Xianyu.md)
-- [家族式系统（Family Systems, Xianyu Theory）](/entries/Family-Systems-Xianyu.md)
-- [单一类系统（Single-Class Systems, Xianyu Theory）](/entries/Single-Class-Systems-Xianyu.md)
-- [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](/entries/Xianyu-Theory-Niche-Classification.md)
-- [混合型系统（Mixed Systems, Xianyu Theory）](/entries/Mixed-Systems-Xianyu.md)
-- [共前台（Co-fronting）](/entries/Co-Fronting.md)
-- [系统（System）](/entries/System.md)
+- [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
+- [成员（Alter）](/entries/Alter.md)
+- [后台（Back / Being Back）](/entries/Back-Being-Back.md)
+- [外投射（External Projection）](/entries/External-Projection.md)
 - [切换（Switch）](/entries/Switch.md)
+- [共前台（Co-fronting）](/entries/Co-Fronting.md)
+- [前台（Front / Fronting）](/entries/Front-Fronting.md)
+- [权限（Permissions）](/entries/Permissions.md)
 
 ## 参考与延伸阅读
 

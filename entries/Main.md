@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 主体（Main）
-tags: [系统角色与类型, 主体, 语境差异, 风险应对, 角色流动性, 职责划分, 社会角色期望, 执行功能整合]
 updated: 2025-10-03
 ---
 
@@ -27,14 +30,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [人格面具（Persona）](/entries/Persona.md)
-- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
-- [碎片（Fragment）](/entries/Fragment.md)
 - [伪主体（Fauxmain）](/entries/Fauxmain.md)
 - [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
-- [系魂（Soulbond）](/entries/Soulbond.md)
-- [特殊认同（Alterhuman）](/entries/Alterhuman.md)
-- [管理者（Admin）](/entries/Admin.md)
+- [人格面具（Persona）](/entries/Persona.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
+- [碎片（Fragment）](/entries/Fragment.md)
+- [成员（Alter）](/entries/Alter.md)
+- [迭代（Iteration）](/entries/Iteration.md)
+- [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](/entries/Three-Faces-Of-Eve-1957-Dissociation.md)
 
 ## 参考与延伸阅读
 

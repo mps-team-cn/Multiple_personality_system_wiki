@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 自发型（Spontaneous）
-tags: [创伤, 系统角色与类型, 自发型, 自然演化, 灵性或冥想实践, 创意与认知探索, 自我照护, 与灵性认同的交集]
 updated: 2025-10-03
 ---
 
@@ -45,11 +48,11 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [适应型（Adaptive）](/entries/Adaptive.md)
-- [埃蒙加德分类法（Emmengard Classification）](/entries/Emmengard-Classification.md)
-- [人格职能（System Roles）](/entries/System-Roles.md)
-- [特殊认同（Alterhuman）](/entries/Alterhuman.md)
-- [初始（Original）](/entries/Original.md)
-- [保护者（Protector）](/entries/Protector.md)
-- [主体（Main）](/entries/Main.md)
-- [成员（Alter）](/entries/Alter.md)
+- [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](/entries/Touhou-Tulpa-Fandom.md)
+- [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](/entries/Madoka-Magica-Kyubey-Otherness.md)
+- [《妄想代理人》（Paranoia Agent）与集体意识的具象化](/entries/Paranoia-Agent-Collective-Consciousness.md)
+- [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](/entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
+- [《隐形人》（Mr. Robot）中的人格分裂叙事](/entries/Mr-Robot-DID-Narrative.md)
+- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](/entries/Dostoevsky-The-Double-Self-Division.md)
+- [《我与梦露的一周》（The United States of Tara）中的系统家庭日常](/entries/United-States-Of-Tara-System-Daily-Life.md)
+- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)

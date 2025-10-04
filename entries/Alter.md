@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 成员（Alter）
-tags: [系统角色与类型, 沟通协作, 成员, 系统体验与机制, 诊断与临床, 社区文化, 内部界限, 基础概念]
 updated: 2025-10-03
 ---
 
@@ -28,14 +31,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [适应型（Adaptive）](/entries/Adaptive.md)
 - [后台（Back / Being Back）](/entries/Back-Being-Back.md)
-- [前台（Front / Fronting）](/entries/Front-Fronting.md)
-- [管理者（Admin）](/entries/Admin.md)
-- [特殊认同（Alterhuman）](/entries/Alterhuman.md)
-- [T 语（Tulpish）](/entries/Tulpish.md)
-- [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
 - [权限（Permissions）](/entries/Permissions.md)
+- [前台（Front / Fronting）](/entries/Front-Fronting.md)
+- [外投射（External Projection）](/entries/External-Projection.md)
+- [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
+- [切换（Switch）](/entries/Switch.md)
+- [内部空间（Headspace / Inner World）](/entries/Headspace-Inner-World.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 
 ## 参考与延伸阅读
 

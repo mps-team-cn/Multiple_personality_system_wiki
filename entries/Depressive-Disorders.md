@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 抑郁障碍（Depressive Disorders）
-tags: [抑郁障碍, 来源, 躯体疾病, 认知与社会因素, 药物治疗, 药物或物质影响, 综合策略, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -101,14 +104,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
-- [复杂性创伤后应激障碍（CPTSD）](/entries/CPTSD.md)
+- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 - [谵妄（Delirium）](/entries/Delirium.md)
-- [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
-- [躯体化障碍（Somatic Symptom Disorder，SSD）](/entries/Somatic-Symptom-Disorder-SSD.md)
-- [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
 - [定向障碍（Disorientation）](/entries/Disorientation.md)
+- [躁狂（Mania）](/entries/Mania.md)
+- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
+- [创伤（Trauma）](/entries/Trauma.md)
+- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
 
 ## 参考与延伸阅读
 

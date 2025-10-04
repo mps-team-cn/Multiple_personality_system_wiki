@@ -179,6 +179,7 @@ STOP_TAGS = {
     "参考",
     "参考资料",
     "参考文献",
+    "---",
     "相关条目",
     "模板",
     "条目",
@@ -565,8 +566,6 @@ def collect_candidates(post: frontmatter.Post) -> Dict[str, float]:
 
 def pick_tags(post: frontmatter.Post) -> List[str]:
     candidates = collect_candidates(post)
-    if not candidates:
-        return []
     sorted_tags = sorted(
         candidates.items(), key=lambda item: (item[1], item[0]), reverse=True
     )

@@ -1,6 +1,9 @@
 ---
+tags:
+- 注意力缺陷多动障碍 ADHD
+- 多重意识体
+- 解离
 title: 注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）
-tags: [注意力缺陷多动障碍 ADHD, 行为特征, 行为与心理干预, 药物治疗, 注意力不足, 教育支持, 功能评估, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -74,13 +77,13 @@ ADHD 在儿童中的盛行率约 5% 左右，成人约 2%–3%，多数个体的
 ## 相关条目
 
 - [躯体化障碍（Somatic Symptom Disorder，SSD）](/entries/Somatic-Symptom-Disorder-SSD.md)
-- [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
-- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
-- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
-- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
+- [焦虑（Anxiety）](/entries/Anxiety.md)
 - [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
-- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
-- [躁狂（Mania）](/entries/Mania.md)
+- [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
+- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
+- [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](/entries/Narcissistic-Personality-Disorder-NPD.md)
+- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
+- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
 
 ## 参考与延伸阅读
 

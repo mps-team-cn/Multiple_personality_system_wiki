@@ -1,6 +1,10 @@
 ---
+tags:
+- 解离
+- 解离性身份障碍 DID
+- 其他特定解离性障碍 OSDD
+- DPDR
 title: 解离（Dissociation）
-tags: [解离, 其他特定解离性障碍 OSDD, 解离性身份障碍 DID, 参见, 系统体验与机制, 用于区分不同语境下的, 本词条为消歧义页面, DPDR]
 updated: 2025-10-03
 ---
 
@@ -19,11 +23,11 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [功能性分离（Functional Dissociation）](/entries/Functional-Dissociation.md)
-- [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
+- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](/entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
+- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](/entries/Another-Me-DID-Depictions.md)
+- [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
+- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](/entries/Fight-Club-1999-Identity-Metaphor.md)
+- [其他特定解离性障碍（OSDD）](/entries/OSDD.md)
 - [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [多意识体（Plurality）](/entries/Plurality.md)
-- [其他特定解离性障碍（OSDD）](/entries/OSDD.md)
-- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
-- [适应型（Adaptive）](/entries/Adaptive.md)
-- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
+- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)

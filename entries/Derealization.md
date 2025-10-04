@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 去现实化（Derealization）
-tags: [去现实化, 临床分类, 记录触发与身体信号, 地面化练习, 触发管理, 系统体验与机制, 感知解离, 临床参考]
 updated: 2025-10-04
 ---
 
@@ -33,13 +36,13 @@ updated: 2025-10-04
 ## 相关条目
 
 - [非我感（Depersonalization）](/entries/Depersonalization.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
 - [独立性（Independence）](/entries/Independence.md)
-- [封存（Sequestration）](/entries/Sequestration.md)
 - [迭代（Iteration）](/entries/Iteration.md)
 - [融合（Fusion）](/entries/Fusion.md)
-- [解离（Dissociation）](/entries/Dissociation.md)
-- [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 
 ## 参考资料
 

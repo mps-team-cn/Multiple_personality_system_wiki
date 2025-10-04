@@ -1,6 +1,9 @@
 ---
+tags:
+- 创伤后应激障碍 PTSD
+- 多重意识体
+- 解离
 title: 侵入性思维（Intrusive Thoughts）
-tags: [创伤后应激障碍 PTSD, 侵入性思维, 药物与治疗, 核心特征, 应对策略, 常见误区, 常见主题, 参阅]
 updated: 2025-10-03
 ---
 
@@ -89,14 +92,14 @@ _如有触发风险，请在安全情境下阅读。_
 
 ## 相关条目
 
-- [冥想（Meditation）](/entries/Meditation.md)
-- [接地（Grounding）](/entries/Grounding.md)
 - [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](/entries/PTSD.md)
-- [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
-- [超级破碎（Polyfragmented）](/entries/Polyfragmented.md)
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
-- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
-- [解离（Dissociation）](/entries/Dissociation.md)
+- [闪回（Flashback）](/entries/Flashback.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
+- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
+- [创伤（Trauma）](/entries/Trauma.md)
+- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
+- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
 
 ## 参考
 

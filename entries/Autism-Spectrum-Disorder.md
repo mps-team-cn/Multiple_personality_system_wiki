@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 孤独症谱系（Autism Spectrum Disorder）
-tags: [孤独症谱系, 社会交流, 早期干预, 教育与环境调适, 成年阶段, 感觉差异, 局限兴趣与行为, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -71,14 +74,14 @@ DSM-5-TR 要求在社会交流互动与局限重复行为两个维度满足具�
 
 ## 相关条目
 
-- [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
-- [焦虑（Anxiety）](/entries/Anxiety.md)
 - [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
+- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
 - [躁狂（Mania）](/entries/Mania.md)
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
-- [谵妄（Delirium）](/entries/Delirium.md)
-- [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
 - [定向障碍（Disorientation）](/entries/Disorientation.md)
+- [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
+- [谵妄（Delirium）](/entries/Delirium.md)
+- [习得性无助（Learned Helplessness）](/entries/Learned-Helplessness.md)
 
 ## 参考与延伸阅读
 

@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 独有记忆（Exomemory）
-tags: [独有记忆, 现象特征, 记忆建构理论, 记录方式, 系统协商, 潜在功能, 治疗协作, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -32,13 +35,13 @@ updated: 2025-10-03
 ## 相关条目
 
 - [重构（Reconstruction）](/entries/Reconstruction.md)
-- [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
-- [封存（Sequestration）](/entries/Sequestration.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
-- [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
 - [迭代（Iteration）](/entries/Iteration.md)
-- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
-- [融合（Fusion）](/entries/Fusion.md)
+- [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [独立性（Independence）](/entries/Independence.md)
 
 ## 参考与延伸阅读
 

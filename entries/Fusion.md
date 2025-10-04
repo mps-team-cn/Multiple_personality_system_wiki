@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 融合（Fusion）
-tags: [整合, 主体体验, 积极效应, 持续时间, 实际考量, 可能风险, 功能整合, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -31,12 +34,12 @@ updated: 2025-10-03
 
 - [迭代（Iteration）](/entries/Iteration.md)
 - [整合（Integration）](/entries/Integration.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
-- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
-- [多意识体（Plurality）](/entries/Plurality.md)
+- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
-- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
 - [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [应激反应（Stress Response）](/entries/Stress-Response.md)
 
 ## 参考资料
 

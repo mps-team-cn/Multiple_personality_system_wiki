@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 初始（Original）
-tags: [系统角色与类型, 初始, 身份认同议题, 角色可塑性, 多初始系统, 外部生活记忆的主轴, 社区用法与变体, 与宿主的并列]
 updated: 2025-10-03
 ---
 
@@ -40,9 +43,9 @@ updated: 2025-10-03
 
 - [人格职能（System Roles）](/entries/System-Roles.md)
 - [执行者（Performer / Executive）](/entries/Performer-Executive.md)
+- [宿主（Host）](/entries/Host.md)
 - [青少年意识体（Teen Part）](/entries/Teen.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
 - [小孩意识体（Little / Child Part）](/entries/Little.md)
-- [保护者（Protector）](/entries/Protector.md)
-- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
-- [照顾者（Caregiver）](/entries/Caregiver.md)
-- [迫害者（Persecutor）](/entries/Persecutor.md)
+- [自发型（Spontaneous）](/entries/Spontaneous.md)
+- [迭代（Iteration）](/entries/Iteration.md)

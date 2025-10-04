@@ -1,6 +1,9 @@
 ---
+tags:
+- 适应型
+- 多重意识体
+- 解离
 title: 适应型（Adaptive）
-tags: [创伤, 系统角色与类型, 适应型, 诊断与临床, 防御机制, 自我照护, 系统体验与机制, 分类与对比]
 updated: 2025-10-03
 ---
 
@@ -44,11 +47,11 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [自发型（Spontaneous）](/entries/Spontaneous.md)
-- [成员（Alter）](/entries/Alter.md)
-- [特殊认同（Alterhuman）](/entries/Alterhuman.md)
-- [解离（Dissociation）](/entries/Dissociation.md)
-- [T 语（Tulpish）](/entries/Tulpish.md)
-- [创伤（Trauma）](/entries/Trauma.md)
-- [人格职能（System Roles）](/entries/System-Roles.md)
 - [埃蒙加德分类法（Emmengard Classification）](/entries/Emmengard-Classification.md)
+- [自发型（Spontaneous）](/entries/Spontaneous.md)
+- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](/entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
+- [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
+- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](/entries/Another-Me-DID-Depictions.md)
+- [《西比尔》（Sybil, 1976）与多重人格文化原型](/entries/Sybil-1976-Cultural-Prototype.md)
+- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](/entries/Fight-Club-1999-Identity-Metaphor.md)
+- [《隐形人》（Mr. Robot）中的人格分裂叙事](/entries/Mr-Robot-DID-Narrative.md)

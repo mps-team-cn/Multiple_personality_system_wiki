@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 非我感（Depersonalization）
-tags: [非我感, 记录触发因素, 持续性差异, 情绪与感官的分离, 必要时寻求专业支持, 建立内部共识, 地面化练习, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -41,14 +44,14 @@ Not-me 感、他者感、身份异化感 感知区分 感知壁垒
 
 ## 相关条目
 
-- [去现实化（Derealization）](/entries/Derealization.md)
-- [封存（Sequestration）](/entries/Sequestration.md)
 - [应激反应（Stress Response）](/entries/Stress-Response.md)
-- [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
-- [重构（Reconstruction）](/entries/Reconstruction.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
 - [迭代（Iteration）](/entries/Iteration.md)
-- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
+- [去现实化（Derealization）](/entries/Derealization.md)
 
 ## 参考资料
 

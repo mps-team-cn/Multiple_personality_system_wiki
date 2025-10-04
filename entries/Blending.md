@@ -1,6 +1,9 @@
 ---
+tags:
+- 解离性身份障碍 DID
+- 多重意识体
+- 解离
 title: 混合（Blending）
-tags: [解离性身份障碍 DID, 系统角色与类型, 混合, 阶段化治疗, 身份感与时间感模糊, 环境熟悉度, 情绪与记忆激活, 安全地探索混合]
 updated: 2025-10-03
 ---
 
@@ -30,14 +33,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [管理者（Admin）](/entries/Admin.md)
 - [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
-- [其他特定解离性障碍（OSDD）](/entries/OSDD.md)
-- [整合（Integration）](/entries/Integration.md)
-- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [多意识体（Plurality）](/entries/Plurality.md)
-- [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](/entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
+- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](/entries/Another-Me-DID-Depictions.md)
+- [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
+- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](/entries/Fight-Club-1999-Identity-Metaphor.md)
 
 ## 参考资料
 

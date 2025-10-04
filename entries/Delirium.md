@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 谵妄（Delirium）
-tags: [系统体验, 谵妄, 来源, 非药物干预, 重度抑郁或双相障碍发作, 药物策略, 结构性解离观点, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -103,12 +106,12 @@ updated: 2025-10-03
 
 - [定向障碍（Disorientation）](/entries/Disorientation.md)
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
-- [复杂性创伤后应激障碍（CPTSD）](/entries/CPTSD.md)
-- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
-- [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
-- [闪回（Flashback）](/entries/Flashback.md)
-- [焦虑（Anxiety）](/entries/Anxiety.md)
+- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
+- [躁狂（Mania）](/entries/Mania.md)
+- [创伤（Trauma）](/entries/Trauma.md)
 - [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
+- [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
+- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
 
 ## 参考与延伸阅读
 

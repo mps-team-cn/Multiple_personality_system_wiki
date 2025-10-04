@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 躯体认同（Body Ownership）
-tags: [躯体认同, 阶段性认同, 身体创伤与身体异化, 核心构成要素, 核心特征, 支持与实践建议, 常见体验模式, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -38,14 +41,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
 - [迭代（Iteration）](/entries/Iteration.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
-- [独有记忆（Exomemory）](/entries/Exomemory.md)
-- [融合（Fusion）](/entries/Fusion.md)
+- [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
 - [应激反应（Stress Response）](/entries/Stress-Response.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [融合（Fusion）](/entries/Fusion.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
-- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 
 ## 参考资料
 
