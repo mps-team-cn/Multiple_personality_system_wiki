@@ -1,0 +1,5825 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "path": "entries/Adaptive.md",
+      "title": "适应型（Adaptive）",
+      "aliases": [
+        "Adaptive",
+        "适应型（Adaptive）"
+      ],
+      "tokens": [
+        {
+          "normalized": "adaptive",
+          "display": "Adaptive",
+          "kind": "alias"
+        },
+        {
+          "normalized": "gyxa",
+          "display": "gyxa",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "guayingxingadaptive",
+          "display": "guayingxingadaptive",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "gua ying xing (adaptive)",
+          "display": "适应型（Adaptive）",
+          "kind": "title"
+        },
+        {
+          "normalized": "guayingxing(adaptive)",
+          "display": "适应型（Adaptive）",
+          "kind": "title"
+        },
+        {
+          "normalized": "适应型（adaptive）",
+          "display": "适应型（Adaptive）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Admin.md",
+      "title": "管理者（Admin）",
+      "aliases": [
+        "Admin",
+        "管理者（Admin）"
+      ],
+      "tokens": [
+        {
+          "normalized": "admin",
+          "display": "Admin",
+          "kind": "alias"
+        },
+        {
+          "normalized": "glza",
+          "display": "glza",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "guanlizheadmin",
+          "display": "guanlizheadmin",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "guan li zhe (admin)",
+          "display": "管理者（Admin）",
+          "kind": "title"
+        },
+        {
+          "normalized": "guanlizhe(admin)",
+          "display": "管理者（Admin）",
+          "kind": "title"
+        },
+        {
+          "normalized": "管理者（admin）",
+          "display": "管理者（Admin）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Alcohol-Induced-Dissociation.md",
+      "title": "醉酒解离（Alcohol-Induced Dissociation）",
+      "aliases": [
+        "Alcohol-Induced Dissociation",
+        "醉酒解离（Alcohol-Induced Dissociation）"
+      ],
+      "tokens": [
+        {
+          "normalized": "alcohol-induced dissociation",
+          "display": "Alcohol-Induced Dissociation",
+          "kind": "alias"
+        },
+        {
+          "normalized": "alcoholinduceddissociation",
+          "display": "Alcohol-Induced Dissociation",
+          "kind": "alias"
+        },
+        {
+          "normalized": "zjjcaid",
+          "display": "zjjcaid",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zuijiujiechialcoholinduceddissociation",
+          "display": "zuijiujiechialcoholinduceddissociation",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "zui jiu jie chi (alcohol-induced dissociation)",
+          "display": "醉酒解离（Alcohol-Induced Dissociation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "zuijiujiechi(alcoholinduceddissociation)",
+          "display": "醉酒解离（Alcohol-Induced Dissociation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "醉酒解离（alcohol-induced dissociation）",
+          "display": "醉酒解离（Alcohol-Induced Dissociation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "醉酒解离（alcoholinduceddissociation）",
+          "display": "醉酒解离（Alcohol-Induced Dissociation）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Alexithymia.md",
+      "title": "述情障碍（Alexithymia）",
+      "aliases": [
+        "Alexithymia",
+        "述情障碍（Alexithymia）"
+      ],
+      "tokens": [
+        {
+          "normalized": "alexithymia",
+          "display": "Alexithymia",
+          "kind": "alias"
+        },
+        {
+          "normalized": "sqzaa",
+          "display": "sqzaa",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "shuqingzhangaialexithymia",
+          "display": "shuqingzhangaialexithymia",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "shu qing zhang ai (alexithymia)",
+          "display": "述情障碍（Alexithymia）",
+          "kind": "title"
+        },
+        {
+          "normalized": "shuqingzhangai(alexithymia)",
+          "display": "述情障碍（Alexithymia）",
+          "kind": "title"
+        },
+        {
+          "normalized": "述情障碍（alexithymia）",
+          "display": "述情障碍（Alexithymia）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Alter.md",
+      "title": "成员（Alter）",
+      "aliases": [
+        "Alter",
+        "成员（Alter）"
+      ],
+      "tokens": [
+        {
+          "normalized": "alter",
+          "display": "Alter",
+          "kind": "alias"
+        },
+        {
+          "normalized": "cya",
+          "display": "cya",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "chengyuanalter",
+          "display": "chengyuanalter",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "cheng yuan (alter)",
+          "display": "成员（Alter）",
+          "kind": "title"
+        },
+        {
+          "normalized": "chengyuan(alter)",
+          "display": "成员（Alter）",
+          "kind": "title"
+        },
+        {
+          "normalized": "成员（alter）",
+          "display": "成员（Alter）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Alterhuman.md",
+      "title": "特殊认同（Alterhuman）",
+      "aliases": [
+        "Alterhuman",
+        "特殊认同（Alterhuman）"
+      ],
+      "tokens": [
+        {
+          "normalized": "alterhuman",
+          "display": "Alterhuman",
+          "kind": "alias"
+        },
+        {
+          "normalized": "tsrta",
+          "display": "tsrta",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "teshurentongalterhuman",
+          "display": "teshurentongalterhuman",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "te shu ren tong (alterhuman)",
+          "display": "特殊认同（Alterhuman）",
+          "kind": "title"
+        },
+        {
+          "normalized": "teshurentong(alterhuman)",
+          "display": "特殊认同（Alterhuman）",
+          "kind": "title"
+        },
+        {
+          "normalized": "特殊认同（alterhuman）",
+          "display": "特殊认同（Alterhuman）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Another-Me-DID-Depictions.md",
+      "title": "《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）",
+      "aliases": [
+        "Another Me DID Depictions",
+        "《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）"
+      ],
+      "tokens": [
+        {
+          "normalized": "another me did depictions",
+          "display": "Another Me DID Depictions",
+          "kind": "alias"
+        },
+        {
+          "normalized": "anothermediddepictions",
+          "display": "Another Me DID Depictions",
+          "kind": "alias"
+        },
+        {
+          "normalized": "amszrglzpddbxamdd",
+          "display": "amszrglzpddbxamdd",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "anothermeshuangzhongrengeleizuopindedidbiaoxiananothermediddepictions",
+          "display": "anothermeshuangzhongrengeleizuopindedidbiaoxiananothermediddepictions",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "<<another me>> /<<shuang zhong ren ge >> lei zuo pin de  did biao xian (another me did depictions)",
+          "display": "《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）",
+          "kind": "title"
+        },
+        {
+          "normalized": "<<anotherme>><<shuangzhongrenge>>leizuopindedidbiaoxian(anothermediddepictions)",
+          "display": "《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）",
+          "kind": "title"
+        },
+        {
+          "normalized": "《another me》/《双重人格》类作品的 did 表现（another me did depictions）",
+          "display": "《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）",
+          "kind": "title"
+        },
+        {
+          "normalized": "《anotherme》《双重人格》类作品的did表现（anothermediddepictions）",
+          "display": "《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Anxiety.md",
+      "title": "焦虑（Anxiety）",
+      "aliases": [
+        "Anxiety",
+        "焦虑（Anxiety）"
+      ],
+      "tokens": [
+        {
+          "normalized": "anxiety",
+          "display": "Anxiety",
+          "kind": "alias"
+        },
+        {
+          "normalized": "jla",
+          "display": "jla",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "jiaoluanxiety",
+          "display": "jiaoluanxiety",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "jiao lu (anxiety)",
+          "display": "焦虑（Anxiety）",
+          "kind": "title"
+        },
+        {
+          "normalized": "jiaolu(anxiety)",
+          "display": "焦虑（Anxiety）",
+          "kind": "title"
+        },
+        {
+          "normalized": "焦虑（anxiety）",
+          "display": "焦虑（Anxiety）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Apparently-Normal-Part-Emotional-Part-Model.md",
+      "title": "ANP-EP 模型（Apparently Normal Part–Emotional Part Model）",
+      "aliases": [
+        "ANP-EP 模型（Apparently Normal Part–Emotional Part Model）",
+        "Apparently Normal Part–Emotional Part Model"
+      ],
+      "tokens": [
+        {
+          "normalized": "apparently normal part-emotional part model",
+          "display": "Apparently Normal Part–Emotional Part Model",
+          "kind": "alias"
+        },
+        {
+          "normalized": "apparently normal part–emotional part model",
+          "display": "Apparently Normal Part–Emotional Part Model",
+          "kind": "alias"
+        },
+        {
+          "normalized": "apparentlynormalpartemotionalpartmodel",
+          "display": "Apparently Normal Part–Emotional Part Model",
+          "kind": "alias"
+        },
+        {
+          "normalized": "apparentlynormalpart–emotionalpartmodel",
+          "display": "Apparently Normal Part–Emotional Part Model",
+          "kind": "alias"
+        },
+        {
+          "normalized": "aemxanpepm",
+          "display": "aemxanpepm",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "anpepmoxingapparentlynormalpartemotionalpartmodel",
+          "display": "anpepmoxingapparentlynormalpartemotionalpartmodel",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "anp-ep mo xing (apparently normal part-emotional part model)",
+          "display": "ANP-EP 模型（Apparently Normal Part–Emotional Part Model）",
+          "kind": "title"
+        },
+        {
+          "normalized": "anp-ep 模型（apparently normal part–emotional part model）",
+          "display": "ANP-EP 模型（Apparently Normal Part–Emotional Part Model）",
+          "kind": "title"
+        },
+        {
+          "normalized": "anpepmoxing(apparentlynormalpartemotionalpartmodel)",
+          "display": "ANP-EP 模型（Apparently Normal Part–Emotional Part Model）",
+          "kind": "title"
+        },
+        {
+          "normalized": "anpep模型（apparentlynormalpart–emotionalpartmodel）",
+          "display": "ANP-EP 模型（Apparently Normal Part–Emotional Part Model）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md",
+      "title": "注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）",
+      "aliases": [
+        "ADHD",
+        "Attention-Deficit",
+        "Hyperactivity Disorder",
+        "注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）"
+      ],
+      "tokens": [
+        {
+          "normalized": "adhd",
+          "display": "ADHD",
+          "kind": "alias"
+        },
+        {
+          "normalized": "attention-deficit",
+          "display": "Attention-Deficit",
+          "kind": "alias"
+        },
+        {
+          "normalized": "attentiondeficit",
+          "display": "Attention-Deficit",
+          "kind": "alias"
+        },
+        {
+          "normalized": "hyperactivity disorder",
+          "display": "Hyperactivity Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "hyperactivitydisorder",
+          "display": "Hyperactivity Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "zyqxddzaadhda",
+          "display": "zyqxddzaadhda",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zhuyiquexianduodongzhangaiattentiondeficithyperactivitydisorderadhd",
+          "display": "zhuyiquexianduodongzhangaiattentiondeficithyperactivitydisorderadhd",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "zhu yi que xian duo dong zhang ai (attention-deficit/hyperactivity disorder,adhd)",
+          "display": "注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "zhuyiquexianduodongzhangai(attentiondeficithyperactivitydisorder,adhd)",
+          "display": "注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "注意缺陷多动障碍（attention-deficit/hyperactivity disorder，adhd）",
+          "display": "注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "注意缺陷多动障碍（attentiondeficithyperactivitydisorder，adhd）",
+          "display": "注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Autism-Spectrum-Disorder.md",
+      "title": "孤独症谱系（Autism Spectrum Disorder）",
+      "aliases": [
+        "Autism Spectrum Disorder",
+        "孤独症谱系（Autism Spectrum Disorder）"
+      ],
+      "tokens": [
+        {
+          "normalized": "autism spectrum disorder",
+          "display": "Autism Spectrum Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "autismspectrumdisorder",
+          "display": "Autism Spectrum Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "gdzpxasd",
+          "display": "gdzpxasd",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "guduzhengpuxiautismspectrumdisorder",
+          "display": "guduzhengpuxiautismspectrumdisorder",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "gu du zheng pu xi (autism spectrum disorder)",
+          "display": "孤独症谱系（Autism Spectrum Disorder）",
+          "kind": "title"
+        },
+        {
+          "normalized": "guduzhengpuxi(autismspectrumdisorder)",
+          "display": "孤独症谱系（Autism Spectrum Disorder）",
+          "kind": "title"
+        },
+        {
+          "normalized": "孤独症谱系（autism spectrum disorder）",
+          "display": "孤独症谱系（Autism Spectrum Disorder）",
+          "kind": "title"
+        },
+        {
+          "normalized": "孤独症谱系（autismspectrumdisorder）",
+          "display": "孤独症谱系（Autism Spectrum Disorder）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Autopilot.md",
+      "title": "自动驾驶（Autopilot）",
+      "aliases": [
+        "Autopilot",
+        "自动驾驶（Autopilot）"
+      ],
+      "tokens": [
+        {
+          "normalized": "autopilot",
+          "display": "Autopilot",
+          "kind": "alias"
+        },
+        {
+          "normalized": "zdjsa",
+          "display": "zdjsa",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zidongjiashiautopilot",
+          "display": "zidongjiashiautopilot",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "zi dong jia shi (autopilot)",
+          "display": "自动驾驶（Autopilot）",
+          "kind": "title"
+        },
+        {
+          "normalized": "zidongjiashi(autopilot)",
+          "display": "自动驾驶（Autopilot）",
+          "kind": "title"
+        },
+        {
+          "normalized": "自动驾驶（autopilot）",
+          "display": "自动驾驶（Autopilot）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Back-Being-Back.md",
+      "title": "后台（Back / Being Back）",
+      "aliases": [
+        "Back",
+        "Being Back",
+        "后台（Back / Being Back）"
+      ],
+      "tokens": [
+        {
+          "normalized": "back",
+          "display": "Back",
+          "kind": "alias"
+        },
+        {
+          "normalized": "being back",
+          "display": "Being Back",
+          "kind": "alias"
+        },
+        {
+          "normalized": "beingback",
+          "display": "Being Back",
+          "kind": "alias"
+        },
+        {
+          "normalized": "htbbb",
+          "display": "htbbb",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "houtaibackbeingback",
+          "display": "houtaibackbeingback",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "hou tai (back / being back)",
+          "display": "后台（Back / Being Back）",
+          "kind": "title"
+        },
+        {
+          "normalized": "houtai(backbeingback)",
+          "display": "后台（Back / Being Back）",
+          "kind": "title"
+        },
+        {
+          "normalized": "后台（back / being back）",
+          "display": "后台（Back / Being Back）",
+          "kind": "title"
+        },
+        {
+          "normalized": "后台（backbeingback）",
+          "display": "后台（Back / Being Back）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Bias.md",
+      "title": "偏重（Bias / Median）",
+      "aliases": [
+        "Bias",
+        "Median",
+        "偏重（Bias / Median）"
+      ],
+      "tokens": [
+        {
+          "normalized": "bias",
+          "display": "Bias",
+          "kind": "alias"
+        },
+        {
+          "normalized": "median",
+          "display": "Median",
+          "kind": "alias"
+        },
+        {
+          "normalized": "pzbm",
+          "display": "pzbm",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "pianzhongbiasmedian",
+          "display": "pianzhongbiasmedian",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "pian zhong (bias / median)",
+          "display": "偏重（Bias / Median）",
+          "kind": "title"
+        },
+        {
+          "normalized": "pianzhong(biasmedian)",
+          "display": "偏重（Bias / Median）",
+          "kind": "title"
+        },
+        {
+          "normalized": "偏重（bias / median）",
+          "display": "偏重（Bias / Median）",
+          "kind": "title"
+        },
+        {
+          "normalized": "偏重（biasmedian）",
+          "display": "偏重（Bias / Median）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Bipolar-Disorders.md",
+      "title": "双相障碍（Bipolar Disorders）",
+      "aliases": [
+        "Bipolar Disorders",
+        "双相障碍（Bipolar Disorders）"
+      ],
+      "tokens": [
+        {
+          "normalized": "bipolar disorders",
+          "display": "Bipolar Disorders",
+          "kind": "alias"
+        },
+        {
+          "normalized": "bipolardisorders",
+          "display": "Bipolar Disorders",
+          "kind": "alias"
+        },
+        {
+          "normalized": "sxzabd",
+          "display": "sxzabd",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "shuangxiangzhangaibipolardisorders",
+          "display": "shuangxiangzhangaibipolardisorders",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "shuang xiang zhang ai (bipolar disorders)",
+          "display": "双相障碍（Bipolar Disorders）",
+          "kind": "title"
+        },
+        {
+          "normalized": "shuangxiangzhangai(bipolardisorders)",
+          "display": "双相障碍（Bipolar Disorders）",
+          "kind": "title"
+        },
+        {
+          "normalized": "双相障碍（bipolar disorders）",
+          "display": "双相障碍（Bipolar Disorders）",
+          "kind": "title"
+        },
+        {
+          "normalized": "双相障碍（bipolardisorders）",
+          "display": "双相障碍（Bipolar Disorders）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Blending.md",
+      "title": "混合（Blending）",
+      "aliases": [
+        "Blending",
+        "混合（Blending）"
+      ],
+      "tokens": [
+        {
+          "normalized": "blending",
+          "display": "Blending",
+          "kind": "alias"
+        },
+        {
+          "normalized": "hhb",
+          "display": "hhb",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "hunheblending",
+          "display": "hunheblending",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "hun he (blending)",
+          "display": "混合（Blending）",
+          "kind": "title"
+        },
+        {
+          "normalized": "hunhe(blending)",
+          "display": "混合（Blending）",
+          "kind": "title"
+        },
+        {
+          "normalized": "混合（blending）",
+          "display": "混合（Blending）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Body-Ownership.md",
+      "title": "躯体认同（Body Ownership）",
+      "aliases": [
+        "Body Ownership",
+        "躯体认同（Body Ownership）"
+      ],
+      "tokens": [
+        {
+          "normalized": "body ownership",
+          "display": "Body Ownership",
+          "kind": "alias"
+        },
+        {
+          "normalized": "bodyownership",
+          "display": "Body Ownership",
+          "kind": "alias"
+        },
+        {
+          "normalized": "qtrtbo",
+          "display": "qtrtbo",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "qutirentongbodyownership",
+          "display": "qutirentongbodyownership",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "qu ti ren tong (body ownership)",
+          "display": "躯体认同（Body Ownership）",
+          "kind": "title"
+        },
+        {
+          "normalized": "qutirentong(bodyownership)",
+          "display": "躯体认同（Body Ownership）",
+          "kind": "title"
+        },
+        {
+          "normalized": "躯体认同（body ownership）",
+          "display": "躯体认同（Body Ownership）",
+          "kind": "title"
+        },
+        {
+          "normalized": "躯体认同（bodyownership）",
+          "display": "躯体认同（Body Ownership）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Borderline-Personality-Disorder-BPD.md",
+      "title": "边缘性人格障碍（Borderline Personality Disorder，BPD）",
+      "aliases": [
+        "BPD",
+        "Borderline Personality Disorder",
+        "边缘性人格障碍（Borderline Personality Disorder，BPD）"
+      ],
+      "tokens": [
+        {
+          "normalized": "borderline personality disorder",
+          "display": "Borderline Personality Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "borderlinepersonalitydisorder",
+          "display": "Borderline Personality Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "bpd",
+          "display": "BPD",
+          "kind": "alias"
+        },
+        {
+          "normalized": "byxrgzabpdb",
+          "display": "byxrgzabpdb",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "bianyuanxingrengezhangaiborderlinepersonalitydisorderbpd",
+          "display": "bianyuanxingrengezhangaiborderlinepersonalitydisorderbpd",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "bian yuan xing ren ge zhang ai (borderline personality disorder,bpd)",
+          "display": "边缘性人格障碍（Borderline Personality Disorder，BPD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "bianyuanxingrengezhangai(borderlinepersonalitydisorder,bpd)",
+          "display": "边缘性人格障碍（Borderline Personality Disorder，BPD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "边缘性人格障碍（borderline personality disorder，bpd）",
+          "display": "边缘性人格障碍（Borderline Personality Disorder，BPD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "边缘性人格障碍（borderlinepersonalitydisorder，bpd）",
+          "display": "边缘性人格障碍（Borderline Personality Disorder，BPD）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md",
+      "title": "《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）",
+      "aliases": [
+        "Bu Ke Rao Shu De Ta Multiplicity Narrative",
+        "《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）"
+      ],
+      "tokens": [
+        {
+          "normalized": "bu ke rao shu de ta multiplicity narrative",
+          "display": "Bu Ke Rao Shu De Ta Multiplicity Narrative",
+          "kind": "alias"
+        },
+        {
+          "normalized": "bukeraoshudetamultiplicitynarrative",
+          "display": "Bu Ke Rao Shu De Ta Multiplicity Narrative",
+          "kind": "alias"
+        },
+        {
+          "normalized": "bkrsdtddzrgdxshcxbkrsdtmn",
+          "display": "bkrsdtddzrgdxshcxbkrsdtmn",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "bukeraoshudetaduiduozhongrengedexushihuachengxianbukeraoshudetamultiplicitynarrative",
+          "display": "bukeraoshudetaduiduozhongrengedexushihuachengxianbukeraoshudetamultiplicitynarrative",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "<<bu ke rao shu de ta >> dui duo zhong ren ge de xu shi hua cheng xian (bu ke rao shu de ta multiplicity narrative)",
+          "display": "《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）",
+          "kind": "title"
+        },
+        {
+          "normalized": "<<bukeraoshudeta>>duiduozhongrengedexushihuachengxian(bukeraoshudetamultiplicitynarrative)",
+          "display": "《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）",
+          "kind": "title"
+        },
+        {
+          "normalized": "《不可饶恕的她》对多重人格的叙事化呈现（bu ke rao shu de ta multiplicity narrative）",
+          "display": "《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）",
+          "kind": "title"
+        },
+        {
+          "normalized": "《不可饶恕的她》对多重人格的叙事化呈现（bukeraoshudetamultiplicitynarrative）",
+          "display": "《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/CPTSD.md",
+      "title": "复杂性创伤后应激障碍（CPTSD）",
+      "aliases": [
+        "CPTSD",
+        "Complex PTSD",
+        "Complex Post-Traumatic Stress Disorder",
+        "fuzaxingchuangshanghouyingjizhangai",
+        "复杂性创伤",
+        "复杂性创伤后应激障碍（CPTSD）"
+      ],
+      "tokens": [
+        {
+          "normalized": "cptsd",
+          "display": "CPTSD",
+          "kind": "alias"
+        },
+        {
+          "normalized": "fzxcs",
+          "display": "fzxcs",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "fzxcshyjzac",
+          "display": "fzxcshyjzac",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "fuzaxingchuangshanghouyingjizhangaicptsd",
+          "display": "fuzaxingchuangshanghouyingjizhangaicptsd",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "complex post-traumatic stress disorder",
+          "display": "Complex Post-Traumatic Stress Disorder",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "complex ptsd",
+          "display": "Complex PTSD",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "complexposttraumaticstressdisorder",
+          "display": "Complex Post-Traumatic Stress Disorder",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "complexptsd",
+          "display": "Complex PTSD",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "fu za xing chuang shang ",
+          "display": "复杂性创伤",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "fuzaxingchuangshang",
+          "display": "复杂性创伤",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "fuzaxingchuangshanghouyingjizhangai",
+          "display": "fuzaxingchuangshanghouyingjizhangai",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "复杂性创伤",
+          "display": "复杂性创伤",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "fu za xing chuang shang hou ying ji zhang ai (cptsd)",
+          "display": "复杂性创伤后应激障碍（CPTSD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "fuzaxingchuangshanghouyingjizhangai(cptsd)",
+          "display": "复杂性创伤后应激障碍（CPTSD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "复杂性创伤后应激障碍（cptsd）",
+          "display": "复杂性创伤后应激障碍（CPTSD）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Caregiver.md",
+      "title": "照顾者（Caregiver）",
+      "aliases": [
+        "Caregiver",
+        "照顾者（Caregiver）"
+      ],
+      "tokens": [
+        {
+          "normalized": "caregiver",
+          "display": "Caregiver",
+          "kind": "alias"
+        },
+        {
+          "normalized": "zgzc",
+          "display": "zgzc",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zhaoguzhecaregiver",
+          "display": "zhaoguzhecaregiver",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "zhao gu zhe (caregiver)",
+          "display": "照顾者（Caregiver）",
+          "kind": "title"
+        },
+        {
+          "normalized": "zhaoguzhe(caregiver)",
+          "display": "照顾者（Caregiver）",
+          "kind": "title"
+        },
+        {
+          "normalized": "照顾者（caregiver）",
+          "display": "照顾者（Caregiver）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Co-Consciousness.md",
+      "title": "意识共存（Co-consciousness）",
+      "aliases": [
+        "Co-consciousness",
+        "意识共存（Co-consciousness）"
+      ],
+      "tokens": [
+        {
+          "normalized": "co-consciousness",
+          "display": "Co-consciousness",
+          "kind": "alias"
+        },
+        {
+          "normalized": "coconsciousness",
+          "display": "Co-consciousness",
+          "kind": "alias"
+        },
+        {
+          "normalized": "ysgccc",
+          "display": "ysgccc",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "yishigongcuncoconsciousness",
+          "display": "yishigongcuncoconsciousness",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "yi shi gong cun (co-consciousness)",
+          "display": "意识共存（Co-consciousness）",
+          "kind": "title"
+        },
+        {
+          "normalized": "yishigongcun(coconsciousness)",
+          "display": "意识共存（Co-consciousness）",
+          "kind": "title"
+        },
+        {
+          "normalized": "意识共存（co-consciousness）",
+          "display": "意识共存（Co-consciousness）",
+          "kind": "title"
+        },
+        {
+          "normalized": "意识共存（coconsciousness）",
+          "display": "意识共存（Co-consciousness）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Co-Fronting.md",
+      "title": "共前台（Co-fronting）",
+      "aliases": [
+        "Co-fronting",
+        "共前台（Co-fronting）"
+      ],
+      "tokens": [
+        {
+          "normalized": "co-fronting",
+          "display": "Co-fronting",
+          "kind": "alias"
+        },
+        {
+          "normalized": "cofronting",
+          "display": "Co-fronting",
+          "kind": "alias"
+        },
+        {
+          "normalized": "gqtcf",
+          "display": "gqtcf",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "gongqiantaicofronting",
+          "display": "gongqiantaicofronting",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "gong qian tai (co-fronting)",
+          "display": "共前台（Co-fronting）",
+          "kind": "title"
+        },
+        {
+          "normalized": "gongqiantai(cofronting)",
+          "display": "共前台（Co-fronting）",
+          "kind": "title"
+        },
+        {
+          "normalized": "共前台（co-fronting）",
+          "display": "共前台（Co-fronting）",
+          "kind": "title"
+        },
+        {
+          "normalized": "共前台（cofronting）",
+          "display": "共前台（Co-fronting）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Consciousness-Modification.md",
+      "title": "意识修改（Consciousness Modification）",
+      "aliases": [
+        "Consciousness Modification",
+        "意识修改（Consciousness Modification）"
+      ],
+      "tokens": [
+        {
+          "normalized": "consciousness modification",
+          "display": "Consciousness Modification",
+          "kind": "alias"
+        },
+        {
+          "normalized": "consciousnessmodification",
+          "display": "Consciousness Modification",
+          "kind": "alias"
+        },
+        {
+          "normalized": "ysxgcm",
+          "display": "ysxgcm",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "yishixiugaiconsciousnessmodification",
+          "display": "yishixiugaiconsciousnessmodification",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "yi shi xiu gai (consciousness modification)",
+          "display": "意识修改（Consciousness Modification）",
+          "kind": "title"
+        },
+        {
+          "normalized": "yishixiugai(consciousnessmodification)",
+          "display": "意识修改（Consciousness Modification）",
+          "kind": "title"
+        },
+        {
+          "normalized": "意识修改（consciousness modification）",
+          "display": "意识修改（Consciousness Modification）",
+          "kind": "title"
+        },
+        {
+          "normalized": "意识修改（consciousnessmodification）",
+          "display": "意识修改（Consciousness Modification）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Core.md",
+      "title": "核心（Core）",
+      "aliases": [
+        "Core",
+        "核心（Core）"
+      ],
+      "tokens": [
+        {
+          "normalized": "core",
+          "display": "Core",
+          "kind": "alias"
+        },
+        {
+          "normalized": "hxc",
+          "display": "hxc",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "hexincore",
+          "display": "hexincore",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "he xin (core)",
+          "display": "核心（Core）",
+          "kind": "title"
+        },
+        {
+          "normalized": "hexin(core)",
+          "display": "核心（Core）",
+          "kind": "title"
+        },
+        {
+          "normalized": "核心（core）",
+          "display": "核心（Core）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/DID.md",
+      "title": "解离性身份障碍（Dissociative Identity Disorder，DID）",
+      "aliases": [
+        "DID",
+        "Dissociative Identity Disorder",
+        "解离性身份障碍（Dissociative Identity Disorder，DID）"
+      ],
+      "tokens": [
+        {
+          "normalized": "did",
+          "display": "DID",
+          "kind": "alias"
+        },
+        {
+          "normalized": "dissociative identity disorder",
+          "display": "Dissociative Identity Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "dissociativeidentitydisorder",
+          "display": "Dissociative Identity Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "jcxsfzadidd",
+          "display": "jcxsfzadidd",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "jiechixingshenfenzhangaidissociativeidentitydisorderdid",
+          "display": "jiechixingshenfenzhangaidissociativeidentitydisorderdid",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "jie chi xing shen fen zhang ai (dissociative identity disorder,did)",
+          "display": "解离性身份障碍（Dissociative Identity Disorder，DID）",
+          "kind": "title"
+        },
+        {
+          "normalized": "jiechixingshenfenzhangai(dissociativeidentitydisorder,did)",
+          "display": "解离性身份障碍（Dissociative Identity Disorder，DID）",
+          "kind": "title"
+        },
+        {
+          "normalized": "解离性身份障碍（dissociative identity disorder，did）",
+          "display": "解离性身份障碍（Dissociative Identity Disorder，DID）",
+          "kind": "title"
+        },
+        {
+          "normalized": "解离性身份障碍（dissociativeidentitydisorder，did）",
+          "display": "解离性身份障碍（Dissociative Identity Disorder，DID）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Delirium.md",
+      "title": "谵妄（Delirium）",
+      "aliases": [
+        "Delirium",
+        "谵妄（Delirium）"
+      ],
+      "tokens": [
+        {
+          "normalized": "delirium",
+          "display": "Delirium",
+          "kind": "alias"
+        },
+        {
+          "normalized": "zwd",
+          "display": "zwd",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zhanwangdelirium",
+          "display": "zhanwangdelirium",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "zhan wang (delirium)",
+          "display": "谵妄（Delirium）",
+          "kind": "title"
+        },
+        {
+          "normalized": "zhanwang(delirium)",
+          "display": "谵妄（Delirium）",
+          "kind": "title"
+        },
+        {
+          "normalized": "谵妄（delirium）",
+          "display": "谵妄（Delirium）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Depersonalization-Derealization-Disorder-DPDR.md",
+      "title": "人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）",
+      "aliases": [
+        "DPDR",
+        "Depersonalization",
+        "Derealization Disorder",
+        "人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）"
+      ],
+      "tokens": [
+        {
+          "normalized": "depersonalization",
+          "display": "Depersonalization",
+          "kind": "alias"
+        },
+        {
+          "normalized": "derealization disorder",
+          "display": "Derealization Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "derealizationdisorder",
+          "display": "Derealization Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "dpdr",
+          "display": "DPDR",
+          "kind": "alias"
+        },
+        {
+          "normalized": "rgjtxsjtzadddd",
+          "display": "rgjtxsjtzadddd",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "rengejietixianshijietizhangaidepersonalizationderealizationdisorderdpdr",
+          "display": "rengejietixianshijietizhangaidepersonalizationderealizationdisorderdpdr",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "ren ge jie ti /xian shi jie ti zhang ai (depersonalization/derealization disorder,dpdr)",
+          "display": "人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）",
+          "kind": "title"
+        },
+        {
+          "normalized": "rengejietixianshijietizhangai(depersonalizationderealizationdisorder,dpdr)",
+          "display": "人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）",
+          "kind": "title"
+        },
+        {
+          "normalized": "人格解体/现实解体障碍（depersonalization/derealization disorder，dpdr）",
+          "display": "人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）",
+          "kind": "title"
+        },
+        {
+          "normalized": "人格解体现实解体障碍（depersonalizationderealizationdisorder，dpdr）",
+          "display": "人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Depersonalization.md",
+      "title": "非我感（Depersonalization）",
+      "aliases": [
+        "Depersonalization",
+        "非我感（Depersonalization）"
+      ],
+      "tokens": [
+        {
+          "normalized": "depersonalization",
+          "display": "Depersonalization",
+          "kind": "alias"
+        },
+        {
+          "normalized": "fwgd",
+          "display": "fwgd",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "feiwogandepersonalization",
+          "display": "feiwogandepersonalization",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "fei wo gan (depersonalization)",
+          "display": "非我感（Depersonalization）",
+          "kind": "title"
+        },
+        {
+          "normalized": "feiwogan(depersonalization)",
+          "display": "非我感（Depersonalization）",
+          "kind": "title"
+        },
+        {
+          "normalized": "非我感（depersonalization）",
+          "display": "非我感（Depersonalization）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Depressive-Disorders.md",
+      "title": "抑郁障碍（Depressive Disorders）",
+      "aliases": [
+        "Depressive Disorders",
+        "抑郁障碍（Depressive Disorders）"
+      ],
+      "tokens": [
+        {
+          "normalized": "depressive disorders",
+          "display": "Depressive Disorders",
+          "kind": "alias"
+        },
+        {
+          "normalized": "depressivedisorders",
+          "display": "Depressive Disorders",
+          "kind": "alias"
+        },
+        {
+          "normalized": "yyzadd",
+          "display": "yyzadd",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "yiyuzhangaidepressivedisorders",
+          "display": "yiyuzhangaidepressivedisorders",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "yi yu zhang ai (depressive disorders)",
+          "display": "抑郁障碍（Depressive Disorders）",
+          "kind": "title"
+        },
+        {
+          "normalized": "yiyuzhangai(depressivedisorders)",
+          "display": "抑郁障碍（Depressive Disorders）",
+          "kind": "title"
+        },
+        {
+          "normalized": "抑郁障碍（depressive disorders）",
+          "display": "抑郁障碍（Depressive Disorders）",
+          "kind": "title"
+        },
+        {
+          "normalized": "抑郁障碍（depressivedisorders）",
+          "display": "抑郁障碍（Depressive Disorders）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Derealization.md",
+      "title": "去现实化（Derealization）",
+      "aliases": [
+        "Derealization",
+        "去现实化（Derealization）"
+      ],
+      "tokens": [
+        {
+          "normalized": "derealization",
+          "display": "Derealization",
+          "kind": "alias"
+        },
+        {
+          "normalized": "qxshd",
+          "display": "qxshd",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "quxianshihuaderealization",
+          "display": "quxianshihuaderealization",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "qu xian shi hua (derealization)",
+          "display": "去现实化（Derealization）",
+          "kind": "title"
+        },
+        {
+          "normalized": "quxianshihua(derealization)",
+          "display": "去现实化（Derealization）",
+          "kind": "title"
+        },
+        {
+          "normalized": "去现实化（derealization）",
+          "display": "去现实化（Derealization）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Disorientation.md",
+      "title": "定向障碍（Disorientation）",
+      "aliases": [
+        "Disorientation",
+        "定向障碍（Disorientation）"
+      ],
+      "tokens": [
+        {
+          "normalized": "disorientation",
+          "display": "Disorientation",
+          "kind": "alias"
+        },
+        {
+          "normalized": "dxzad",
+          "display": "dxzad",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "dingxiangzhangaidisorientation",
+          "display": "dingxiangzhangaidisorientation",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "ding xiang zhang ai (disorientation)",
+          "display": "定向障碍（Disorientation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "dingxiangzhangai(disorientation)",
+          "display": "定向障碍（Disorientation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "定向障碍（disorientation）",
+          "display": "定向障碍（Disorientation）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Dissociation.md",
+      "title": "解离（Dissociation）",
+      "aliases": [
+        "Dissociation",
+        "解离（Dissociation）"
+      ],
+      "tokens": [
+        {
+          "normalized": "dissociation",
+          "display": "Dissociation",
+          "kind": "alias"
+        },
+        {
+          "normalized": "jcd",
+          "display": "jcd",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "jiechidissociation",
+          "display": "jiechidissociation",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "jie chi (dissociation)",
+          "display": "解离（Dissociation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "jiechi(dissociation)",
+          "display": "解离（Dissociation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "解离（dissociation）",
+          "display": "解离（Dissociation）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Dissociative-Amnesia-DA.md",
+      "title": "解离性遗忘（Dissociative Amnesia，DA）",
+      "aliases": [
+        "DA",
+        "Dissociative Amnesia",
+        "解离性遗忘（Dissociative Amnesia，DA）"
+      ],
+      "tokens": [
+        {
+          "normalized": "da",
+          "display": "DA",
+          "kind": "alias"
+        },
+        {
+          "normalized": "dissociative amnesia",
+          "display": "Dissociative Amnesia",
+          "kind": "alias"
+        },
+        {
+          "normalized": "dissociativeamnesia",
+          "display": "Dissociative Amnesia",
+          "kind": "alias"
+        },
+        {
+          "normalized": "jcxywdad",
+          "display": "jcxywdad",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "jiechixingyiwangdissociativeamnesiada",
+          "display": "jiechixingyiwangdissociativeamnesiada",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "jie chi xing yi wang (dissociative amnesia,da)",
+          "display": "解离性遗忘（Dissociative Amnesia，DA）",
+          "kind": "title"
+        },
+        {
+          "normalized": "jiechixingyiwang(dissociativeamnesia,da)",
+          "display": "解离性遗忘（Dissociative Amnesia，DA）",
+          "kind": "title"
+        },
+        {
+          "normalized": "解离性遗忘（dissociative amnesia，da）",
+          "display": "解离性遗忘（Dissociative Amnesia，DA）",
+          "kind": "title"
+        },
+        {
+          "normalized": "解离性遗忘（dissociativeamnesia，da）",
+          "display": "解离性遗忘（Dissociative Amnesia，DA）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Dostoevsky-The-Double-Self-Division.md",
+      "title": "陀思妥耶夫斯基《双重人格》（The Double）与自我分裂",
+      "aliases": [
+        "The Double",
+        "陀思妥耶夫斯基《双重人格》（The Double）与自我分裂"
+      ],
+      "tokens": [
+        {
+          "normalized": "the double",
+          "display": "The Double",
+          "kind": "alias"
+        },
+        {
+          "normalized": "thedouble",
+          "display": "The Double",
+          "kind": "alias"
+        },
+        {
+          "normalized": "tstyfsjszrgtdyzwfl",
+          "display": "tstyfsjszrgtdyzwfl",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "tuosituoyefusijishuangzhongrengethedoubleyuziwofenlie",
+          "display": "tuosituoyefusijishuangzhongrengethedoubleyuziwofenlie",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "tuo si tuo ye fu si ji <<shuang zhong ren ge >> (the double)yu zi wo fen lie ",
+          "display": "陀思妥耶夫斯基《双重人格》（The Double）与自我分裂",
+          "kind": "title"
+        },
+        {
+          "normalized": "tuosituoyefusiji<<shuangzhongrenge>>(thedouble)yuziwofenlie",
+          "display": "陀思妥耶夫斯基《双重人格》（The Double）与自我分裂",
+          "kind": "title"
+        },
+        {
+          "normalized": "陀思妥耶夫斯基《双重人格》（the double）与自我分裂",
+          "display": "陀思妥耶夫斯基《双重人格》（The Double）与自我分裂",
+          "kind": "title"
+        },
+        {
+          "normalized": "陀思妥耶夫斯基《双重人格》（thedouble）与自我分裂",
+          "display": "陀思妥耶夫斯基《双重人格》（The Double）与自我分裂",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Emmengard-Classification.md",
+      "title": "埃蒙加德分类法（Emmengard Classification）",
+      "aliases": [
+        "Emmengard Classification",
+        "埃蒙加德分类法（Emmengard Classification）"
+      ],
+      "tokens": [
+        {
+          "normalized": "emmengard classification",
+          "display": "Emmengard Classification",
+          "kind": "alias"
+        },
+        {
+          "normalized": "emmengardclassification",
+          "display": "Emmengard Classification",
+          "kind": "alias"
+        },
+        {
+          "normalized": "amjdflfec",
+          "display": "amjdflfec",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "aimengjiadefenleifaemmengardclassification",
+          "display": "aimengjiadefenleifaemmengardclassification",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "ai meng jia de fen lei fa (emmengard classification)",
+          "display": "埃蒙加德分类法（Emmengard Classification）",
+          "kind": "title"
+        },
+        {
+          "normalized": "aimengjiadefenleifa(emmengardclassification)",
+          "display": "埃蒙加德分类法（Emmengard Classification）",
+          "kind": "title"
+        },
+        {
+          "normalized": "埃蒙加德分类法（emmengard classification）",
+          "display": "埃蒙加德分类法（Emmengard Classification）",
+          "kind": "title"
+        },
+        {
+          "normalized": "埃蒙加德分类法（emmengardclassification）",
+          "display": "埃蒙加德分类法（Emmengard Classification）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Exomemory.md",
+      "title": "独有记忆（Exomemory）",
+      "aliases": [
+        "Exomemory",
+        "独有记忆（Exomemory）"
+      ],
+      "tokens": [
+        {
+          "normalized": "exomemory",
+          "display": "Exomemory",
+          "kind": "alias"
+        },
+        {
+          "normalized": "dyjye",
+          "display": "dyjye",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "duyoujiyiexomemory",
+          "display": "duyoujiyiexomemory",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "du you ji yi (exomemory)",
+          "display": "独有记忆（Exomemory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "duyoujiyi(exomemory)",
+          "display": "独有记忆（Exomemory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "独有记忆（exomemory）",
+          "display": "独有记忆（Exomemory）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/External-Projection.md",
+      "title": "外投射（External Projection）",
+      "aliases": [
+        "External Projection",
+        "外投射（External Projection）"
+      ],
+      "tokens": [
+        {
+          "normalized": "external projection",
+          "display": "External Projection",
+          "kind": "alias"
+        },
+        {
+          "normalized": "externalprojection",
+          "display": "External Projection",
+          "kind": "alias"
+        },
+        {
+          "normalized": "wtsep",
+          "display": "wtsep",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "waitousheexternalprojection",
+          "display": "waitousheexternalprojection",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "wai tou she (external projection)",
+          "display": "外投射（External Projection）",
+          "kind": "title"
+        },
+        {
+          "normalized": "waitoushe(externalprojection)",
+          "display": "外投射（External Projection）",
+          "kind": "title"
+        },
+        {
+          "normalized": "外投射（external projection）",
+          "display": "外投射（External Projection）",
+          "kind": "title"
+        },
+        {
+          "normalized": "外投射（externalprojection）",
+          "display": "外投射（External Projection）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Family-Systems-Xianyu.md",
+      "title": "家族式系统（Family Systems, Xianyu Theory）",
+      "aliases": [
+        "Family Systems",
+        "Xianyu Theory",
+        "家族式系统（Family Systems, Xianyu Theory）"
+      ],
+      "tokens": [
+        {
+          "normalized": "family systems",
+          "display": "Family Systems",
+          "kind": "alias"
+        },
+        {
+          "normalized": "familysystems",
+          "display": "Family Systems",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xianyu theory",
+          "display": "Xianyu Theory",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xianyutheory",
+          "display": "Xianyu Theory",
+          "kind": "alias"
+        },
+        {
+          "normalized": "jzsxtfsxt",
+          "display": "jzsxtfsxt",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "jiazushixitongfamilysystemsxianyutheory",
+          "display": "jiazushixitongfamilysystemsxianyutheory",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "jia zu shi xi tong (family systems, xianyu theory)",
+          "display": "家族式系统（Family Systems, Xianyu Theory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "jiazushixitong(familysystems,xianyutheory)",
+          "display": "家族式系统（Family Systems, Xianyu Theory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "家族式系统（family systems, xianyu theory）",
+          "display": "家族式系统（Family Systems, Xianyu Theory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "家族式系统（familysystems,xianyutheory）",
+          "display": "家族式系统（Family Systems, Xianyu Theory）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Fauxmain.md",
+      "title": "伪主体（Fauxmain）",
+      "aliases": [
+        "Fauxmain",
+        "伪主体（Fauxmain）"
+      ],
+      "tokens": [
+        {
+          "normalized": "fauxmain",
+          "display": "Fauxmain",
+          "kind": "alias"
+        },
+        {
+          "normalized": "wztf",
+          "display": "wztf",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "weizhutifauxmain",
+          "display": "weizhutifauxmain",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "wei zhu ti (fauxmain)",
+          "display": "伪主体（Fauxmain）",
+          "kind": "title"
+        },
+        {
+          "normalized": "weizhuti(fauxmain)",
+          "display": "伪主体（Fauxmain）",
+          "kind": "title"
+        },
+        {
+          "normalized": "伪主体（fauxmain）",
+          "display": "伪主体（Fauxmain）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Fight-Club-1999-Identity-Metaphor.md",
+      "title": "《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻",
+      "aliases": [
+        "1999",
+        "Fight Club",
+        "《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻"
+      ],
+      "tokens": [
+        {
+          "normalized": "1999",
+          "display": "1999",
+          "kind": "alias"
+        },
+        {
+          "normalized": "fight club",
+          "display": "Fight Club",
+          "kind": "alias"
+        },
+        {
+          "normalized": "fightclub",
+          "display": "Fight Club",
+          "kind": "alias"
+        },
+        {
+          "normalized": "bjjlbfcysfjtyy",
+          "display": "bjjlbfcysfjtyy",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "bojijulebufightclub1999yushenfenjietiyinyu",
+          "display": "bojijulebufightclub1999yushenfenjietiyinyu",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "<<bo ji ju le bu >> (fight club, 1999)yu shen fen jie ti yin yu ",
+          "display": "《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻",
+          "kind": "title"
+        },
+        {
+          "normalized": "<<bojijulebu>>(fightclub,1999)yushenfenjietiyinyu",
+          "display": "《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻",
+          "kind": "title"
+        },
+        {
+          "normalized": "《搏击俱乐部》（fight club, 1999）与身份解体隐喻",
+          "display": "《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻",
+          "kind": "title"
+        },
+        {
+          "normalized": "《搏击俱乐部》（fightclub,1999）与身份解体隐喻",
+          "display": "《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Flashback.md",
+      "title": "闪回（Flashback）",
+      "aliases": [
+        "Flashback",
+        "闪回（Flashback）"
+      ],
+      "tokens": [
+        {
+          "normalized": "flashback",
+          "display": "Flashback",
+          "kind": "alias"
+        },
+        {
+          "normalized": "shf",
+          "display": "shf",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "shanhuiflashback",
+          "display": "shanhuiflashback",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "shan hui (flashback)",
+          "display": "闪回（Flashback）",
+          "kind": "title"
+        },
+        {
+          "normalized": "shanhui(flashback)",
+          "display": "闪回（Flashback）",
+          "kind": "title"
+        },
+        {
+          "normalized": "闪回（flashback）",
+          "display": "闪回（Flashback）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Fragment.md",
+      "title": "碎片（Fragment）",
+      "aliases": [
+        "Fragment",
+        "碎片（Fragment）"
+      ],
+      "tokens": [
+        {
+          "normalized": "fragment",
+          "display": "Fragment",
+          "kind": "alias"
+        },
+        {
+          "normalized": "spf",
+          "display": "spf",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "suipianfragment",
+          "display": "suipianfragment",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "sui pian (fragment)",
+          "display": "碎片（Fragment）",
+          "kind": "title"
+        },
+        {
+          "normalized": "suipian(fragment)",
+          "display": "碎片（Fragment）",
+          "kind": "title"
+        },
+        {
+          "normalized": "碎片（fragment）",
+          "display": "碎片（Fragment）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Front-Fronting.md",
+      "title": "前台（Front / Fronting）",
+      "aliases": [
+        "Front",
+        "Fronting",
+        "前台（Front / Fronting）"
+      ],
+      "tokens": [
+        {
+          "normalized": "front",
+          "display": "Front",
+          "kind": "alias"
+        },
+        {
+          "normalized": "fronting",
+          "display": "Fronting",
+          "kind": "alias"
+        },
+        {
+          "normalized": "qtff",
+          "display": "qtff",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "qiantaifrontfronting",
+          "display": "qiantaifrontfronting",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "qian tai (front / fronting)",
+          "display": "前台（Front / Fronting）",
+          "kind": "title"
+        },
+        {
+          "normalized": "qiantai(frontfronting)",
+          "display": "前台（Front / Fronting）",
+          "kind": "title"
+        },
+        {
+          "normalized": "前台（front / fronting）",
+          "display": "前台（Front / Fronting）",
+          "kind": "title"
+        },
+        {
+          "normalized": "前台（frontfronting）",
+          "display": "前台（Front / Fronting）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Functional-Dissociation.md",
+      "title": "功能性分离（Functional Dissociation）",
+      "aliases": [
+        "Functional Dissociation",
+        "功能性分离（Functional Dissociation）"
+      ],
+      "tokens": [
+        {
+          "normalized": "functional dissociation",
+          "display": "Functional Dissociation",
+          "kind": "alias"
+        },
+        {
+          "normalized": "functionaldissociation",
+          "display": "Functional Dissociation",
+          "kind": "alias"
+        },
+        {
+          "normalized": "gnxfcfd",
+          "display": "gnxfcfd",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "gongnengxingfenchifunctionaldissociation",
+          "display": "gongnengxingfenchifunctionaldissociation",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "gong neng xing fen chi (functional dissociation)",
+          "display": "功能性分离（Functional Dissociation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "gongnengxingfenchi(functionaldissociation)",
+          "display": "功能性分离（Functional Dissociation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "功能性分离（functional dissociation）",
+          "display": "功能性分离（Functional Dissociation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "功能性分离（functionaldissociation）",
+          "display": "功能性分离（Functional Dissociation）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Fusion.md",
+      "title": "融合（Fusion）",
+      "aliases": [
+        "Fusion",
+        "融合（Fusion）"
+      ],
+      "tokens": [
+        {
+          "normalized": "fusion",
+          "display": "Fusion",
+          "kind": "alias"
+        },
+        {
+          "normalized": "rhf",
+          "display": "rhf",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "ronghefusion",
+          "display": "ronghefusion",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "rong he (fusion)",
+          "display": "融合（Fusion）",
+          "kind": "title"
+        },
+        {
+          "normalized": "ronghe(fusion)",
+          "display": "融合（Fusion）",
+          "kind": "title"
+        },
+        {
+          "normalized": "融合（fusion）",
+          "display": "融合（Fusion）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Gatekeeper.md",
+      "title": "守门人（Gatekeeper）",
+      "aliases": [
+        "Gatekeeper",
+        "守门人（Gatekeeper）"
+      ],
+      "tokens": [
+        {
+          "normalized": "gatekeeper",
+          "display": "Gatekeeper",
+          "kind": "alias"
+        },
+        {
+          "normalized": "smrg",
+          "display": "smrg",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "shoumenrengatekeeper",
+          "display": "shoumenrengatekeeper",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "shou men ren (gatekeeper)",
+          "display": "守门人（Gatekeeper）",
+          "kind": "title"
+        },
+        {
+          "normalized": "shoumenren(gatekeeper)",
+          "display": "守门人（Gatekeeper）",
+          "kind": "title"
+        },
+        {
+          "normalized": "守门人（gatekeeper）",
+          "display": "守门人（Gatekeeper）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Grounding.md",
+      "title": "接地（Grounding）",
+      "aliases": [
+        "Grounding",
+        "接地（Grounding）"
+      ],
+      "tokens": [
+        {
+          "normalized": "grounding",
+          "display": "Grounding",
+          "kind": "alias"
+        },
+        {
+          "normalized": "jdg",
+          "display": "jdg",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "jiedigrounding",
+          "display": "jiedigrounding",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "jie di (grounding)",
+          "display": "接地（Grounding）",
+          "kind": "title"
+        },
+        {
+          "normalized": "jiedi(grounding)",
+          "display": "接地（Grounding）",
+          "kind": "title"
+        },
+        {
+          "normalized": "接地（grounding）",
+          "display": "接地（Grounding）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md",
+      "title": "虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）",
+      "aliases": [
+        "Hatsune Miku Virtual Idol Tulpa Boundary",
+        "虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）"
+      ],
+      "tokens": [
+        {
+          "normalized": "hatsune miku virtual idol tulpa boundary",
+          "display": "Hatsune Miku Virtual Idol Tulpa Boundary",
+          "kind": "alias"
+        },
+        {
+          "normalized": "hatsunemikuvirtualidoltulpaboundary",
+          "display": "Hatsune Miku Virtual Idol Tulpa Boundary",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xnoxytdbjcywlxxhmvitb",
+          "display": "xnoxytdbjcywlxxhmvitb",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xuniouxiangyutulpadebianjiechuyinweilaixianxianghatsunemikuvirtualidoltulpaboundary",
+          "display": "xuniouxiangyutulpadebianjiechuyinweilaixianxianghatsunemikuvirtualidoltulpaboundary",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "xu ni ou xiang yu  tulpa de bian jie :chu yin wei lai xian xiang (hatsune miku virtual idol tulpa boundary)",
+          "display": "虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）",
+          "kind": "title"
+        },
+        {
+          "normalized": "xuniouxiangyutulpadebianjie:chuyinweilaixianxiang(hatsunemikuvirtualidoltulpaboundary)",
+          "display": "虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）",
+          "kind": "title"
+        },
+        {
+          "normalized": "虚拟偶像与 tulpa 的边界：初音未来现象（hatsune miku virtual idol tulpa boundary）",
+          "display": "虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）",
+          "kind": "title"
+        },
+        {
+          "normalized": "虚拟偶像与tulpa的边界：初音未来现象（hatsunemikuvirtualidoltulpaboundary）",
+          "display": "虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Head-Pressure.md",
+      "title": "头压（Head Pressure）",
+      "aliases": [
+        "Head Pressure",
+        "头压（Head Pressure）"
+      ],
+      "tokens": [
+        {
+          "normalized": "head pressure",
+          "display": "Head Pressure",
+          "kind": "alias"
+        },
+        {
+          "normalized": "headpressure",
+          "display": "Head Pressure",
+          "kind": "alias"
+        },
+        {
+          "normalized": "tyhp",
+          "display": "tyhp",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "touyaheadpressure",
+          "display": "touyaheadpressure",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "tou ya (head pressure)",
+          "display": "头压（Head Pressure）",
+          "kind": "title"
+        },
+        {
+          "normalized": "touya(headpressure)",
+          "display": "头压（Head Pressure）",
+          "kind": "title"
+        },
+        {
+          "normalized": "头压（head pressure）",
+          "display": "头压（Head Pressure）",
+          "kind": "title"
+        },
+        {
+          "normalized": "头压（headpressure）",
+          "display": "头压（Head Pressure）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Headspace-Inner-World.md",
+      "title": "内部空间（Headspace / Inner World）",
+      "aliases": [
+        "Headspace",
+        "Inner World",
+        "内部空间（Headspace / Inner World）"
+      ],
+      "tokens": [
+        {
+          "normalized": "headspace",
+          "display": "Headspace",
+          "kind": "alias"
+        },
+        {
+          "normalized": "inner world",
+          "display": "Inner World",
+          "kind": "alias"
+        },
+        {
+          "normalized": "innerworld",
+          "display": "Inner World",
+          "kind": "alias"
+        },
+        {
+          "normalized": "nbkjhiw",
+          "display": "nbkjhiw",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "neibukongjianheadspaceinnerworld",
+          "display": "neibukongjianheadspaceinnerworld",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "nei bu kong jian (headspace / inner world)",
+          "display": "内部空间（Headspace / Inner World）",
+          "kind": "title"
+        },
+        {
+          "normalized": "neibukongjian(headspaceinnerworld)",
+          "display": "内部空间（Headspace / Inner World）",
+          "kind": "title"
+        },
+        {
+          "normalized": "内部空间（headspace / inner world）",
+          "display": "内部空间（Headspace / Inner World）",
+          "kind": "title"
+        },
+        {
+          "normalized": "内部空间（headspaceinnerworld）",
+          "display": "内部空间（Headspace / Inner World）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Host.md",
+      "title": "宿主（Host）",
+      "aliases": [
+        "Host",
+        "宿主（Host）"
+      ],
+      "tokens": [
+        {
+          "normalized": "host",
+          "display": "Host",
+          "kind": "alias"
+        },
+        {
+          "normalized": "szh",
+          "display": "szh",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "suzhuhost",
+          "display": "suzhuhost",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "su zhu (host)",
+          "display": "宿主（Host）",
+          "kind": "title"
+        },
+        {
+          "normalized": "suzhu(host)",
+          "display": "宿主（Host）",
+          "kind": "title"
+        },
+        {
+          "normalized": "宿主（host）",
+          "display": "宿主（Host）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Iatrogenic-System.md",
+      "title": "医源型系统（Iatrogenic System）",
+      "aliases": [
+        "Iatrogenic System",
+        "医源型系统（Iatrogenic System）"
+      ],
+      "tokens": [
+        {
+          "normalized": "iatrogenic system",
+          "display": "Iatrogenic System",
+          "kind": "alias"
+        },
+        {
+          "normalized": "iatrogenicsystem",
+          "display": "Iatrogenic System",
+          "kind": "alias"
+        },
+        {
+          "normalized": "yyxxtis",
+          "display": "yyxxtis",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "yiyuanxingxitongiatrogenicsystem",
+          "display": "yiyuanxingxitongiatrogenicsystem",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "yi yuan xing xi tong (iatrogenic system)",
+          "display": "医源型系统（Iatrogenic System）",
+          "kind": "title"
+        },
+        {
+          "normalized": "yiyuanxingxitong(iatrogenicsystem)",
+          "display": "医源型系统（Iatrogenic System）",
+          "kind": "title"
+        },
+        {
+          "normalized": "医源型系统（iatrogenic system）",
+          "display": "医源型系统（Iatrogenic System）",
+          "kind": "title"
+        },
+        {
+          "normalized": "医源型系统（iatrogenicsystem）",
+          "display": "医源型系统（Iatrogenic System）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Imaginary-Companion.md",
+      "title": "幻想伙伴（Imaginary Companion）",
+      "aliases": [
+        "Imaginary Companion",
+        "幻想伙伴（Imaginary Companion）"
+      ],
+      "tokens": [
+        {
+          "normalized": "imaginary companion",
+          "display": "Imaginary Companion",
+          "kind": "alias"
+        },
+        {
+          "normalized": "imaginarycompanion",
+          "display": "Imaginary Companion",
+          "kind": "alias"
+        },
+        {
+          "normalized": "hxhbic",
+          "display": "hxhbic",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "huanxianghuobanimaginarycompanion",
+          "display": "huanxianghuobanimaginarycompanion",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "huan xiang huo ban (imaginary companion)",
+          "display": "幻想伙伴（Imaginary Companion）",
+          "kind": "title"
+        },
+        {
+          "normalized": "huanxianghuoban(imaginarycompanion)",
+          "display": "幻想伙伴（Imaginary Companion）",
+          "kind": "title"
+        },
+        {
+          "normalized": "幻想伙伴（imaginary companion）",
+          "display": "幻想伙伴（Imaginary Companion）",
+          "kind": "title"
+        },
+        {
+          "normalized": "幻想伙伴（imaginarycompanion）",
+          "display": "幻想伙伴（Imaginary Companion）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Independence.md",
+      "title": "独立性（Independence）",
+      "aliases": [
+        "Independence",
+        "独立性（Independence）"
+      ],
+      "tokens": [
+        {
+          "normalized": "independence",
+          "display": "Independence",
+          "kind": "alias"
+        },
+        {
+          "normalized": "dlxi",
+          "display": "dlxi",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "dulixingindependence",
+          "display": "dulixingindependence",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "du li xing (independence)",
+          "display": "独立性（Independence）",
+          "kind": "title"
+        },
+        {
+          "normalized": "dulixing(independence)",
+          "display": "独立性（Independence）",
+          "kind": "title"
+        },
+        {
+          "normalized": "独立性（independence）",
+          "display": "独立性（Independence）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Integration.md",
+      "title": "整合（Integration）",
+      "aliases": [
+        "Integration",
+        "整合（Integration）"
+      ],
+      "tokens": [
+        {
+          "normalized": "integration",
+          "display": "Integration",
+          "kind": "alias"
+        },
+        {
+          "normalized": "zhi",
+          "display": "zhi",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zhengheintegration",
+          "display": "zhengheintegration",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "zheng he (integration)",
+          "display": "整合（Integration）",
+          "kind": "title"
+        },
+        {
+          "normalized": "zhenghe(integration)",
+          "display": "整合（Integration）",
+          "kind": "title"
+        },
+        {
+          "normalized": "整合（integration）",
+          "display": "整合（Integration）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Internal-Communication.md",
+      "title": "内部沟通（Internal Communication）",
+      "aliases": [
+        "Internal Communication",
+        "内部沟通（Internal Communication）"
+      ],
+      "tokens": [
+        {
+          "normalized": "internal communication",
+          "display": "Internal Communication",
+          "kind": "alias"
+        },
+        {
+          "normalized": "internalcommunication",
+          "display": "Internal Communication",
+          "kind": "alias"
+        },
+        {
+          "normalized": "nbgtic",
+          "display": "nbgtic",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "neibugoutonginternalcommunication",
+          "display": "neibugoutonginternalcommunication",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "nei bu gou tong (internal communication)",
+          "display": "内部沟通（Internal Communication）",
+          "kind": "title"
+        },
+        {
+          "normalized": "neibugoutong(internalcommunication)",
+          "display": "内部沟通（Internal Communication）",
+          "kind": "title"
+        },
+        {
+          "normalized": "内部沟通（internal communication）",
+          "display": "内部沟通（Internal Communication）",
+          "kind": "title"
+        },
+        {
+          "normalized": "内部沟通（internalcommunication）",
+          "display": "内部沟通（Internal Communication）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Internal-Self-Helper-ISH.md",
+      "title": "内部自助者（Internal Self Helper，ISH）",
+      "aliases": [
+        "ISH",
+        "Internal Self Helper",
+        "内部自助者（Internal Self Helper，ISH）"
+      ],
+      "tokens": [
+        {
+          "normalized": "internal self helper",
+          "display": "Internal Self Helper",
+          "kind": "alias"
+        },
+        {
+          "normalized": "internalselfhelper",
+          "display": "Internal Self Helper",
+          "kind": "alias"
+        },
+        {
+          "normalized": "ish",
+          "display": "ISH",
+          "kind": "alias"
+        },
+        {
+          "normalized": "nbzzzishi",
+          "display": "nbzzzishi",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "neibuzizhuzheinternalselfhelperish",
+          "display": "neibuzizhuzheinternalselfhelperish",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "nei bu zi zhu zhe (internal self helper,ish)",
+          "display": "内部自助者（Internal Self Helper，ISH）",
+          "kind": "title"
+        },
+        {
+          "normalized": "neibuzizhuzhe(internalselfhelper,ish)",
+          "display": "内部自助者（Internal Self Helper，ISH）",
+          "kind": "title"
+        },
+        {
+          "normalized": "内部自助者（internal self helper，ish）",
+          "display": "内部自助者（Internal Self Helper，ISH）",
+          "kind": "title"
+        },
+        {
+          "normalized": "内部自助者（internalselfhelper，ish）",
+          "display": "内部自助者（Internal Self Helper，ISH）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Intrusive-Thoughts.md",
+      "title": "侵入性思维（Intrusive Thoughts）",
+      "aliases": [
+        "Intrusive Thoughts",
+        "侵入性思维（Intrusive Thoughts）"
+      ],
+      "tokens": [
+        {
+          "normalized": "intrusive thoughts",
+          "display": "Intrusive Thoughts",
+          "kind": "alias"
+        },
+        {
+          "normalized": "intrusivethoughts",
+          "display": "Intrusive Thoughts",
+          "kind": "alias"
+        },
+        {
+          "normalized": "qrxswit",
+          "display": "qrxswit",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "qinruxingsiweiintrusivethoughts",
+          "display": "qinruxingsiweiintrusivethoughts",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "qin ru xing si wei (intrusive thoughts)",
+          "display": "侵入性思维（Intrusive Thoughts）",
+          "kind": "title"
+        },
+        {
+          "normalized": "qinruxingsiwei(intrusivethoughts)",
+          "display": "侵入性思维（Intrusive Thoughts）",
+          "kind": "title"
+        },
+        {
+          "normalized": "侵入性思维（intrusive thoughts）",
+          "display": "侵入性思维（Intrusive Thoughts）",
+          "kind": "title"
+        },
+        {
+          "normalized": "侵入性思维（intrusivethoughts）",
+          "display": "侵入性思维（Intrusive Thoughts）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Iteration.md",
+      "title": "迭代（Iteration）",
+      "aliases": [
+        "Iteration",
+        "迭代（Iteration）"
+      ],
+      "tokens": [
+        {
+          "normalized": "iteration",
+          "display": "Iteration",
+          "kind": "alias"
+        },
+        {
+          "normalized": "ddi",
+          "display": "ddi",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "diedaiiteration",
+          "display": "diedaiiteration",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "die dai (iteration)",
+          "display": "迭代（Iteration）",
+          "kind": "title"
+        },
+        {
+          "normalized": "diedai(iteration)",
+          "display": "迭代（Iteration）",
+          "kind": "title"
+        },
+        {
+          "normalized": "迭代（iteration）",
+          "display": "迭代（Iteration）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Kafka-Metamorphosis-Identity-Dissolution.md",
+      "title": "卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）",
+      "aliases": [
+        "Kafka Metamorphosis Identity Dissolution",
+        "卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）"
+      ],
+      "tokens": [
+        {
+          "normalized": "kafka metamorphosis identity dissolution",
+          "display": "Kafka Metamorphosis Identity Dissolution",
+          "kind": "alias"
+        },
+        {
+          "normalized": "kafkametamorphosisidentitydissolution",
+          "display": "Kafka Metamorphosis Identity Dissolution",
+          "kind": "alias"
+        },
+        {
+          "normalized": "qfqbxjyyhdsfjtkmid",
+          "display": "qfqbxjyyhdsfjtkmid",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "qiafuqiabianxingjiyuyihuadeshenfenjietikafkametamorphosisidentitydissolution",
+          "display": "qiafuqiabianxingjiyuyihuadeshenfenjietikafkametamorphosisidentitydissolution",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "qia fu qia <<bian xing ji >> yu yi hua de shen fen jie ti (kafka metamorphosis identity dissolution)",
+          "display": "卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）",
+          "kind": "title"
+        },
+        {
+          "normalized": "qiafuqia<<bianxingji>>yuyihuadeshenfenjieti(kafkametamorphosisidentitydissolution)",
+          "display": "卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）",
+          "kind": "title"
+        },
+        {
+          "normalized": "卡夫卡《变形记》与异化的身份解体（kafka metamorphosis identity dissolution）",
+          "display": "卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）",
+          "kind": "title"
+        },
+        {
+          "normalized": "卡夫卡《变形记》与异化的身份解体（kafkametamorphosisidentitydissolution）",
+          "display": "卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Learned-Helplessness.md",
+      "title": "习得性无助（Learned Helplessness）",
+      "aliases": [
+        "Learned Helplessness",
+        "习得性无助（Learned Helplessness）"
+      ],
+      "tokens": [
+        {
+          "normalized": "learned helplessness",
+          "display": "Learned Helplessness",
+          "kind": "alias"
+        },
+        {
+          "normalized": "learnedhelplessness",
+          "display": "Learned Helplessness",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xdxwzlh",
+          "display": "xdxwzlh",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xidexingwuzhulearnedhelplessness",
+          "display": "xidexingwuzhulearnedhelplessness",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "xi de xing wu zhu (learned helplessness)",
+          "display": "习得性无助（Learned Helplessness）",
+          "kind": "title"
+        },
+        {
+          "normalized": "xidexingwuzhu(learnedhelplessness)",
+          "display": "习得性无助（Learned Helplessness）",
+          "kind": "title"
+        },
+        {
+          "normalized": "习得性无助（learned helplessness）",
+          "display": "习得性无助（Learned Helplessness）",
+          "kind": "title"
+        },
+        {
+          "normalized": "习得性无助（learnedhelplessness）",
+          "display": "习得性无助（Learned Helplessness）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Little.md",
+      "title": "小孩意识体（Little / Child Part）",
+      "aliases": [
+        "Child Part",
+        "Little",
+        "小孩意识体（Little / Child Part）"
+      ],
+      "tokens": [
+        {
+          "normalized": "child part",
+          "display": "Child Part",
+          "kind": "alias"
+        },
+        {
+          "normalized": "childpart",
+          "display": "Child Part",
+          "kind": "alias"
+        },
+        {
+          "normalized": "little",
+          "display": "Little",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xhystlcp",
+          "display": "xhystlcp",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xiaohaiyishitilittlechildpart",
+          "display": "xiaohaiyishitilittlechildpart",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "xiao hai yi shi ti (little / child part)",
+          "display": "小孩意识体（Little / Child Part）",
+          "kind": "title"
+        },
+        {
+          "normalized": "xiaohaiyishiti(littlechildpart)",
+          "display": "小孩意识体（Little / Child Part）",
+          "kind": "title"
+        },
+        {
+          "normalized": "小孩意识体（little / child part）",
+          "display": "小孩意识体（Little / Child Part）",
+          "kind": "title"
+        },
+        {
+          "normalized": "小孩意识体（littlechildpart）",
+          "display": "小孩意识体（Little / Child Part）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Lovecraft-Tulpa-Motifs.md",
+      "title": "洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）",
+      "aliases": [
+        "Lovecraft Tulpa Motifs",
+        "洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）"
+      ],
+      "tokens": [
+        {
+          "normalized": "lovecraft tulpa motifs",
+          "display": "Lovecraft Tulpa Motifs",
+          "kind": "alias"
+        },
+        {
+          "normalized": "lovecrafttulpamotifs",
+          "display": "Lovecraft Tulpa Motifs",
+          "kind": "alias"
+        },
+        {
+          "normalized": "lfklftzpzdxlzwytysltm",
+          "display": "lfklftzpzdxlzwytysltm",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "luofukelafutezuopinzhongdexinlingzaowuyutulpayingshelovecrafttulpamotifs",
+          "display": "luofukelafutezuopinzhongdexinlingzaowuyutulpayingshelovecrafttulpamotifs",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "luo fu ke la fu te zuo pin zhong de \"xin ling zao wu \"yu  tulpa ying she (lovecraft tulpa motifs)",
+          "display": "洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）",
+          "kind": "title"
+        },
+        {
+          "normalized": "luofukelafutezuopinzhongde\"xinlingzaowu\"yutulpayingshe(lovecrafttulpamotifs)",
+          "display": "洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）",
+          "kind": "title"
+        },
+        {
+          "normalized": "洛夫克拉夫特作品中的“心灵造物”与 tulpa 影射（lovecraft tulpa motifs）",
+          "display": "洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）",
+          "kind": "title"
+        },
+        {
+          "normalized": "洛夫克拉夫特作品中的“心灵造物”与tulpa影射（lovecrafttulpamotifs）",
+          "display": "洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Madoka-Magica-Kyubey-Otherness.md",
+      "title": "《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）",
+      "aliases": [
+        "Madoka Magica Kyubey Otherness",
+        "《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）"
+      ],
+      "tokens": [
+        {
+          "normalized": "madoka magica kyubey otherness",
+          "display": "Madoka Magica Kyubey Otherness",
+          "kind": "alias"
+        },
+        {
+          "normalized": "madokamagicakyubeyotherness",
+          "display": "Madoka Magica Kyubey Otherness",
+          "kind": "alias"
+        },
+        {
+          "normalized": "mfsnxyzdqbyqystzmmko",
+          "display": "mfsnxyzdqbyqystzmmko",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "mofashaonuxiaoyuanzhongdeqiubiyuqiyueshitazhemadokamagicakyubeyotherness",
+          "display": "mofashaonuxiaoyuanzhongdeqiubiyuqiyueshitazhemadokamagicakyubeyotherness",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "<<mo fa shao nu xiao yuan >> zhong de qiu bi yu qi yue shi \"ta zhe \"(madoka magica kyubey otherness)",
+          "display": "《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）",
+          "kind": "title"
+        },
+        {
+          "normalized": "<<mofashaonuxiaoyuan>>zhongdeqiubiyuqiyueshi\"tazhe\"(madokamagicakyubeyotherness)",
+          "display": "《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）",
+          "kind": "title"
+        },
+        {
+          "normalized": "《魔法少女小圆》中的丘比与契约式“他者”（madoka magica kyubey otherness）",
+          "display": "《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）",
+          "kind": "title"
+        },
+        {
+          "normalized": "《魔法少女小圆》中的丘比与契约式“他者”（madokamagicakyubeyotherness）",
+          "display": "《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Main.md",
+      "title": "主体（Main）",
+      "aliases": [
+        "Main",
+        "主体（Main）"
+      ],
+      "tokens": [
+        {
+          "normalized": "main",
+          "display": "Main",
+          "kind": "alias"
+        },
+        {
+          "normalized": "ztm",
+          "display": "ztm",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zhutimain",
+          "display": "zhutimain",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "zhu ti (main)",
+          "display": "主体（Main）",
+          "kind": "title"
+        },
+        {
+          "normalized": "zhuti(main)",
+          "display": "主体（Main）",
+          "kind": "title"
+        },
+        {
+          "normalized": "主体（main）",
+          "display": "主体（Main）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Mania.md",
+      "title": "躁狂（Mania）",
+      "aliases": [
+        "Mania",
+        "躁狂（Mania）"
+      ],
+      "tokens": [
+        {
+          "normalized": "mania",
+          "display": "Mania",
+          "kind": "alias"
+        },
+        {
+          "normalized": "zkm",
+          "display": "zkm",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zaokuangmania",
+          "display": "zaokuangmania",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "zao kuang (mania)",
+          "display": "躁狂（Mania）",
+          "kind": "title"
+        },
+        {
+          "normalized": "zaokuang(mania)",
+          "display": "躁狂（Mania）",
+          "kind": "title"
+        },
+        {
+          "normalized": "躁狂（mania）",
+          "display": "躁狂（Mania）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Meditation.md",
+      "title": "冥想（Meditation）",
+      "aliases": [
+        "Meditation",
+        "冥想（Meditation）"
+      ],
+      "tokens": [
+        {
+          "normalized": "meditation",
+          "display": "Meditation",
+          "kind": "alias"
+        },
+        {
+          "normalized": "mxm",
+          "display": "mxm",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "mingxiangmeditation",
+          "display": "mingxiangmeditation",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "ming xiang (meditation)",
+          "display": "冥想（Meditation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "mingxiang(meditation)",
+          "display": "冥想（Meditation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "冥想（meditation）",
+          "display": "冥想（Meditation）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Memory-Holder.md",
+      "title": "记忆持有者（Memory Holder）",
+      "aliases": [
+        "Memory Holder",
+        "记忆持有者（Memory Holder）"
+      ],
+      "tokens": [
+        {
+          "normalized": "memory holder",
+          "display": "Memory Holder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "memoryholder",
+          "display": "Memory Holder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "jycyzmh",
+          "display": "jycyzmh",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "jiyichiyouzhememoryholder",
+          "display": "jiyichiyouzhememoryholder",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "ji yi chi you zhe (memory holder)",
+          "display": "记忆持有者（Memory Holder）",
+          "kind": "title"
+        },
+        {
+          "normalized": "jiyichiyouzhe(memoryholder)",
+          "display": "记忆持有者（Memory Holder）",
+          "kind": "title"
+        },
+        {
+          "normalized": "记忆持有者（memory holder）",
+          "display": "记忆持有者（Memory Holder）",
+          "kind": "title"
+        },
+        {
+          "normalized": "记忆持有者（memoryholder）",
+          "display": "记忆持有者（Memory Holder）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Memory-Shielding.md",
+      "title": "记忆屏蔽（Memory Shielding）",
+      "aliases": [
+        "Memory Shielding",
+        "记忆屏蔽（Memory Shielding）"
+      ],
+      "tokens": [
+        {
+          "normalized": "memory shielding",
+          "display": "Memory Shielding",
+          "kind": "alias"
+        },
+        {
+          "normalized": "memoryshielding",
+          "display": "Memory Shielding",
+          "kind": "alias"
+        },
+        {
+          "normalized": "jypbms",
+          "display": "jypbms",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "jiyipingbimemoryshielding",
+          "display": "jiyipingbimemoryshielding",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "ji yi ping bi (memory shielding)",
+          "display": "记忆屏蔽（Memory Shielding）",
+          "kind": "title"
+        },
+        {
+          "normalized": "jiyipingbi(memoryshielding)",
+          "display": "记忆屏蔽（Memory Shielding）",
+          "kind": "title"
+        },
+        {
+          "normalized": "记忆屏蔽（memory shielding）",
+          "display": "记忆屏蔽（Memory Shielding）",
+          "kind": "title"
+        },
+        {
+          "normalized": "记忆屏蔽（memoryshielding）",
+          "display": "记忆屏蔽（Memory Shielding）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Mixed-Systems-Xianyu.md",
+      "title": "混合型系统（Mixed Systems, Xianyu Theory）",
+      "aliases": [
+        "Mixed Systems",
+        "Xianyu Theory",
+        "混合型系统（Mixed Systems, Xianyu Theory）"
+      ],
+      "tokens": [
+        {
+          "normalized": "mixed systems",
+          "display": "Mixed Systems",
+          "kind": "alias"
+        },
+        {
+          "normalized": "mixedsystems",
+          "display": "Mixed Systems",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xianyu theory",
+          "display": "Xianyu Theory",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xianyutheory",
+          "display": "Xianyu Theory",
+          "kind": "alias"
+        },
+        {
+          "normalized": "hhxxtmsxt",
+          "display": "hhxxtmsxt",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "hunhexingxitongmixedsystemsxianyutheory",
+          "display": "hunhexingxitongmixedsystemsxianyutheory",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "hun he xing xi tong (mixed systems, xianyu theory)",
+          "display": "混合型系统（Mixed Systems, Xianyu Theory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "hunhexingxitong(mixedsystems,xianyutheory)",
+          "display": "混合型系统（Mixed Systems, Xianyu Theory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "混合型系统（mixed systems, xianyu theory）",
+          "display": "混合型系统（Mixed Systems, Xianyu Theory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "混合型系统（mixedsystems,xianyutheory）",
+          "display": "混合型系统（Mixed Systems, Xianyu Theory）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Mr-Robot-DID-Narrative.md",
+      "title": "《隐形人》（Mr. Robot）中的人格分裂叙事",
+      "aliases": [
+        "Mr. Robot",
+        "《隐形人》（Mr. Robot）中的人格分裂叙事"
+      ],
+      "tokens": [
+        {
+          "normalized": "mr. robot",
+          "display": "Mr. Robot",
+          "kind": "alias"
+        },
+        {
+          "normalized": "mr.robot",
+          "display": "Mr. Robot",
+          "kind": "alias"
+        },
+        {
+          "normalized": "yxrmrzdrgflxs",
+          "display": "yxrmrzdrgflxs",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "yinxingrenmrrobotzhongderengefenliexushi",
+          "display": "yinxingrenmrrobotzhongderengefenliexushi",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "<<yin xing ren >> (mr. robot)zhong de ren ge fen lie xu shi ",
+          "display": "《隐形人》（Mr. Robot）中的人格分裂叙事",
+          "kind": "title"
+        },
+        {
+          "normalized": "<<yinxingren>>(mr.robot)zhongderengefenliexushi",
+          "display": "《隐形人》（Mr. Robot）中的人格分裂叙事",
+          "kind": "title"
+        },
+        {
+          "normalized": "《隐形人》（mr. robot）中的人格分裂叙事",
+          "display": "《隐形人》（Mr. Robot）中的人格分裂叙事",
+          "kind": "title"
+        },
+        {
+          "normalized": "《隐形人》（mr.robot）中的人格分裂叙事",
+          "display": "《隐形人》（Mr. Robot）中的人格分裂叙事",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Narcissistic-Personality-Disorder-NPD.md",
+      "title": "自恋型人格障碍（Narcissistic Personality Disorder，NPD）",
+      "aliases": [
+        "NPD",
+        "Narcissistic Personality Disorder",
+        "自恋型人格障碍（Narcissistic Personality Disorder，NPD）"
+      ],
+      "tokens": [
+        {
+          "normalized": "narcissistic personality disorder",
+          "display": "Narcissistic Personality Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "narcissisticpersonalitydisorder",
+          "display": "Narcissistic Personality Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "npd",
+          "display": "NPD",
+          "kind": "alias"
+        },
+        {
+          "normalized": "zlxrgzanpdn",
+          "display": "zlxrgzanpdn",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zilianxingrengezhangainarcissisticpersonalitydisordernpd",
+          "display": "zilianxingrengezhangainarcissisticpersonalitydisordernpd",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "zi lian xing ren ge zhang ai (narcissistic personality disorder,npd)",
+          "display": "自恋型人格障碍（Narcissistic Personality Disorder，NPD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "zilianxingrengezhangai(narcissisticpersonalitydisorder,npd)",
+          "display": "自恋型人格障碍（Narcissistic Personality Disorder，NPD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "自恋型人格障碍（narcissistic personality disorder，npd）",
+          "display": "自恋型人格障碍（Narcissistic Personality Disorder，NPD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "自恋型人格障碍（narcissisticpersonalitydisorder，npd）",
+          "display": "自恋型人格障碍（Narcissistic Personality Disorder，NPD）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Neurodiversity.md",
+      "title": "神经多样性（Neurodiversity）",
+      "aliases": [
+        "Neurodiversity",
+        "神经多样性（Neurodiversity）"
+      ],
+      "tokens": [
+        {
+          "normalized": "neurodiversity",
+          "display": "Neurodiversity",
+          "kind": "alias"
+        },
+        {
+          "normalized": "sjdyxn",
+          "display": "sjdyxn",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "shenjingduoyangxingneurodiversity",
+          "display": "shenjingduoyangxingneurodiversity",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "shen jing duo yang xing (neurodiversity)",
+          "display": "神经多样性（Neurodiversity）",
+          "kind": "title"
+        },
+        {
+          "normalized": "shenjingduoyangxing(neurodiversity)",
+          "display": "神经多样性（Neurodiversity）",
+          "kind": "title"
+        },
+        {
+          "normalized": "神经多样性（neurodiversity）",
+          "display": "神经多样性（Neurodiversity）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Nonexistent-You-And-Me-Tulpa-Lilith.md",
+      "title": "《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）",
+      "aliases": [
+        "Lilith",
+        "《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）"
+      ],
+      "tokens": [
+        {
+          "normalized": "lilith",
+          "display": "Lilith",
+          "kind": "alias"
+        },
+        {
+          "normalized": "bczdnhwytllsl",
+          "display": "bczdnhwytllsl",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "bucunzaidenihewoyutulpalilisililith",
+          "display": "bucunzaidenihewoyutulpalilisililith",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "<<bu /cun zai de ni ,he wo >> yu  tulpa ---- li li si (lilith)",
+          "display": "《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）",
+          "kind": "title"
+        },
+        {
+          "normalized": "<<bucunzaideni,hewo>>yutulpalilisi(lilith)",
+          "display": "《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）",
+          "kind": "title"
+        },
+        {
+          "normalized": "《不/存在的你，和我》与 tulpa —— 莉莉丝（lilith）",
+          "display": "《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）",
+          "kind": "title"
+        },
+        {
+          "normalized": "《不存在的你，和我》与tulpa——莉莉丝（lilith）",
+          "display": "《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/OCD.md",
+      "title": "强迫症（Obsessive-Compulsive Disorder, OCD）",
+      "aliases": [
+        "OCD",
+        "Obsessive-Compulsive Disorder",
+        "强迫症（Obsessive-Compulsive Disorder, OCD）"
+      ],
+      "tokens": [
+        {
+          "normalized": "obsessive-compulsive disorder",
+          "display": "Obsessive-Compulsive Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "obsessivecompulsivedisorder",
+          "display": "Obsessive-Compulsive Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "ocd",
+          "display": "OCD",
+          "kind": "alias"
+        },
+        {
+          "normalized": "qpzocdo",
+          "display": "qpzocdo",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "qiangpozhengobsessivecompulsivedisorderocd",
+          "display": "qiangpozhengobsessivecompulsivedisorderocd",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "qiang po zheng (obsessive-compulsive disorder, ocd)",
+          "display": "强迫症（Obsessive-Compulsive Disorder, OCD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "qiangpozheng(obsessivecompulsivedisorder,ocd)",
+          "display": "强迫症（Obsessive-Compulsive Disorder, OCD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "强迫症（obsessive-compulsive disorder, ocd）",
+          "display": "强迫症（Obsessive-Compulsive Disorder, OCD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "强迫症（obsessivecompulsivedisorder,ocd）",
+          "display": "强迫症（Obsessive-Compulsive Disorder, OCD）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/OSDD.md",
+      "title": "其他特定解离性障碍（OSDD）",
+      "aliases": [
+        "OSDD",
+        "其他特定解离性障碍（OSDD）"
+      ],
+      "tokens": [
+        {
+          "normalized": "osdd",
+          "display": "OSDD",
+          "kind": "alias"
+        },
+        {
+          "normalized": "qttdjcxzao",
+          "display": "qttdjcxzao",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "qitatedingjiechixingzhangaiosdd",
+          "display": "qitatedingjiechixingzhangaiosdd",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "qi ta te ding jie chi xing zhang ai (osdd)",
+          "display": "其他特定解离性障碍（OSDD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "qitatedingjiechixingzhangai(osdd)",
+          "display": "其他特定解离性障碍（OSDD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "其他特定解离性障碍（osdd）",
+          "display": "其他特定解离性障碍（OSDD）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Original.md",
+      "title": "初始（Original）",
+      "aliases": [
+        "Original",
+        "初始（Original）"
+      ],
+      "tokens": [
+        {
+          "normalized": "original",
+          "display": "Original",
+          "kind": "alias"
+        },
+        {
+          "normalized": "cso",
+          "display": "cso",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "chushioriginal",
+          "display": "chushioriginal",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "chu shi (original)",
+          "display": "初始（Original）",
+          "kind": "title"
+        },
+        {
+          "normalized": "chushi(original)",
+          "display": "初始（Original）",
+          "kind": "title"
+        },
+        {
+          "normalized": "初始（original）",
+          "display": "初始（Original）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/PTSD.md",
+      "title": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
+      "aliases": [
+        "PTSD",
+        "Post-Traumatic Stress Disorder",
+        "chuangshanghouyingjizhangai",
+        "创伤后压力症候群",
+        "创伤后应激反应障碍",
+        "创伤后应激障碍",
+        "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）"
+      ],
+      "tokens": [
+        {
+          "normalized": "post-traumatic stress disorder",
+          "display": "Post-Traumatic Stress Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "posttraumaticstressdisorder",
+          "display": "Post-Traumatic Stress Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "ptsd",
+          "display": "PTSD",
+          "kind": "alias"
+        },
+        {
+          "normalized": "cshyjfyza",
+          "display": "cshyjfyza",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "cshyjza",
+          "display": "cshyjza",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "cshyjzaptsdp",
+          "display": "cshyjzaptsdp",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "cshylzhq",
+          "display": "cshylzhq",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "chuangshanghouyingjizhangaiposttraumaticstressdisorderptsd",
+          "display": "chuangshanghouyingjizhangaiposttraumaticstressdisorderptsd",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "chuang shang hou ya li zheng hou qun ",
+          "display": "创伤后压力症候群",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "chuang shang hou ying ji fan ying zhang ai ",
+          "display": "创伤后应激反应障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "chuang shang hou ying ji zhang ai ",
+          "display": "创伤后应激障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "chuangshanghouyalizhenghouqun",
+          "display": "创伤后压力症候群",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "chuangshanghouyingjifanyingzhangai",
+          "display": "创伤后应激反应障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "chuangshanghouyingjizhangai",
+          "display": "创伤后应激障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "创伤后压力症候群",
+          "display": "创伤后压力症候群",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "创伤后应激反应障碍",
+          "display": "创伤后应激反应障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "创伤后应激障碍",
+          "display": "创伤后应激障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "chuang shang hou ying ji zhang ai (post-traumatic stress disorder, ptsd)",
+          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "chuangshanghouyingjizhangai(posttraumaticstressdisorder,ptsd)",
+          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "创伤后应激障碍（post-traumatic stress disorder, ptsd）",
+          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "创伤后应激障碍（posttraumaticstressdisorder,ptsd）",
+          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Paranoia-Agent-Collective-Consciousness.md",
+      "title": "《妄想代理人》（Paranoia Agent）与集体意识的具象化",
+      "aliases": [
+        "Paranoia Agent",
+        "《妄想代理人》（Paranoia Agent）与集体意识的具象化"
+      ],
+      "tokens": [
+        {
+          "normalized": "paranoia agent",
+          "display": "Paranoia Agent",
+          "kind": "alias"
+        },
+        {
+          "normalized": "paranoiaagent",
+          "display": "Paranoia Agent",
+          "kind": "alias"
+        },
+        {
+          "normalized": "wxdlrpayjtysdjxh",
+          "display": "wxdlrpayjtysdjxh",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "wangxiangdailirenparanoiaagentyujitiyishidejuxianghua",
+          "display": "wangxiangdailirenparanoiaagentyujitiyishidejuxianghua",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "<<wang xiang dai li ren >> (paranoia agent)yu ji ti yi shi de ju xiang hua ",
+          "display": "《妄想代理人》（Paranoia Agent）与集体意识的具象化",
+          "kind": "title"
+        },
+        {
+          "normalized": "<<wangxiangdailiren>>(paranoiaagent)yujitiyishidejuxianghua",
+          "display": "《妄想代理人》（Paranoia Agent）与集体意识的具象化",
+          "kind": "title"
+        },
+        {
+          "normalized": "《妄想代理人》（paranoia agent）与集体意识的具象化",
+          "display": "《妄想代理人》（Paranoia Agent）与集体意识的具象化",
+          "kind": "title"
+        },
+        {
+          "normalized": "《妄想代理人》（paranoiaagent）与集体意识的具象化",
+          "display": "《妄想代理人》（Paranoia Agent）与集体意识的具象化",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Partial-Dissociative-Identity-Disorder-PDID.md",
+      "title": "部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）",
+      "aliases": [
+        "PDID",
+        "Partial Dissociative Identity Disorder",
+        "部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）"
+      ],
+      "tokens": [
+        {
+          "normalized": "partial dissociative identity disorder",
+          "display": "Partial Dissociative Identity Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "partialdissociativeidentitydisorder",
+          "display": "Partial Dissociative Identity Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "pdid",
+          "display": "PDID",
+          "kind": "alias"
+        },
+        {
+          "normalized": "bfjcxsfzapdidp",
+          "display": "bfjcxsfzapdidp",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "bufenjiechixingshenfenzhangaipartialdissociativeidentitydisorderpdid",
+          "display": "bufenjiechixingshenfenzhangaipartialdissociativeidentitydisorderpdid",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "bu fen jie chi xing shen fen zhang ai (partial dissociative identity disorder,pdid)",
+          "display": "部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）",
+          "kind": "title"
+        },
+        {
+          "normalized": "bufenjiechixingshenfenzhangai(partialdissociativeidentitydisorder,pdid)",
+          "display": "部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）",
+          "kind": "title"
+        },
+        {
+          "normalized": "部分解离性身份障碍（partial dissociative identity disorder，pdid）",
+          "display": "部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）",
+          "kind": "title"
+        },
+        {
+          "normalized": "部分解离性身份障碍（partialdissociativeidentitydisorder，pdid）",
+          "display": "部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Pathological-Dissociation.md",
+      "title": "病理性解离（Pathological Dissociation）",
+      "aliases": [
+        "Pathological Dissociation",
+        "病理性解离（Pathological Dissociation）"
+      ],
+      "tokens": [
+        {
+          "normalized": "pathological dissociation",
+          "display": "Pathological Dissociation",
+          "kind": "alias"
+        },
+        {
+          "normalized": "pathologicaldissociation",
+          "display": "Pathological Dissociation",
+          "kind": "alias"
+        },
+        {
+          "normalized": "blxjcpd",
+          "display": "blxjcpd",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "binglixingjiechipathologicaldissociation",
+          "display": "binglixingjiechipathologicaldissociation",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "bing li xing jie chi (pathological dissociation)",
+          "display": "病理性解离（Pathological Dissociation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "binglixingjiechi(pathologicaldissociation)",
+          "display": "病理性解离（Pathological Dissociation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "病理性解离（pathological dissociation）",
+          "display": "病理性解离（Pathological Dissociation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "病理性解离（pathologicaldissociation）",
+          "display": "病理性解离（Pathological Dissociation）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Performer-Executive.md",
+      "title": "执行者（Performer / Executive）",
+      "aliases": [
+        "Executive",
+        "Performer",
+        "执行者（Performer / Executive）"
+      ],
+      "tokens": [
+        {
+          "normalized": "executive",
+          "display": "Executive",
+          "kind": "alias"
+        },
+        {
+          "normalized": "performer",
+          "display": "Performer",
+          "kind": "alias"
+        },
+        {
+          "normalized": "zxzpe",
+          "display": "zxzpe",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zhixingzheperformerexecutive",
+          "display": "zhixingzheperformerexecutive",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "zhi xing zhe (performer / executive)",
+          "display": "执行者（Performer / Executive）",
+          "kind": "title"
+        },
+        {
+          "normalized": "zhixingzhe(performerexecutive)",
+          "display": "执行者（Performer / Executive）",
+          "kind": "title"
+        },
+        {
+          "normalized": "执行者（performer / executive）",
+          "display": "执行者（Performer / Executive）",
+          "kind": "title"
+        },
+        {
+          "normalized": "执行者（performerexecutive）",
+          "display": "执行者（Performer / Executive）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Permissions.md",
+      "title": "权限（Permissions）",
+      "aliases": [
+        "Permissions",
+        "权限（Permissions）"
+      ],
+      "tokens": [
+        {
+          "normalized": "permissions",
+          "display": "Permissions",
+          "kind": "alias"
+        },
+        {
+          "normalized": "qxp",
+          "display": "qxp",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "quanxianpermissions",
+          "display": "quanxianpermissions",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "quan xian (permissions)",
+          "display": "权限（Permissions）",
+          "kind": "title"
+        },
+        {
+          "normalized": "quanxian(permissions)",
+          "display": "权限（Permissions）",
+          "kind": "title"
+        },
+        {
+          "normalized": "权限（permissions）",
+          "display": "权限（Permissions）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Persecutor.md",
+      "title": "迫害者（Persecutor）",
+      "aliases": [
+        "Persecutor",
+        "迫害者（Persecutor）"
+      ],
+      "tokens": [
+        {
+          "normalized": "persecutor",
+          "display": "Persecutor",
+          "kind": "alias"
+        },
+        {
+          "normalized": "phzp",
+          "display": "phzp",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "pohaizhepersecutor",
+          "display": "pohaizhepersecutor",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "po hai zhe (persecutor)",
+          "display": "迫害者（Persecutor）",
+          "kind": "title"
+        },
+        {
+          "normalized": "pohaizhe(persecutor)",
+          "display": "迫害者（Persecutor）",
+          "kind": "title"
+        },
+        {
+          "normalized": "迫害者（persecutor）",
+          "display": "迫害者（Persecutor）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Persona.md",
+      "title": "人格面具（Persona）",
+      "aliases": [
+        "Persona",
+        "人格面具（Persona）"
+      ],
+      "tokens": [
+        {
+          "normalized": "persona",
+          "display": "Persona",
+          "kind": "alias"
+        },
+        {
+          "normalized": "rgmjp",
+          "display": "rgmjp",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "rengemianjupersona",
+          "display": "rengemianjupersona",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "ren ge mian ju (persona)",
+          "display": "人格面具（Persona）",
+          "kind": "title"
+        },
+        {
+          "normalized": "rengemianju(persona)",
+          "display": "人格面具（Persona）",
+          "kind": "title"
+        },
+        {
+          "normalized": "人格面具（persona）",
+          "display": "人格面具（Persona）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Plurality-Basics.md",
+      "title": "多重意识体基础（Plurality Basics）",
+      "aliases": [
+        "Plurality Basics",
+        "多重意识体基础（Plurality Basics）"
+      ],
+      "tokens": [
+        {
+          "normalized": "plurality basics",
+          "display": "Plurality Basics",
+          "kind": "alias"
+        },
+        {
+          "normalized": "pluralitybasics",
+          "display": "Plurality Basics",
+          "kind": "alias"
+        },
+        {
+          "normalized": "dzystjcpb",
+          "display": "dzystjcpb",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "duozhongyishitijichupluralitybasics",
+          "display": "duozhongyishitijichupluralitybasics",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "duo zhong yi shi ti ji chu (plurality basics)",
+          "display": "多重意识体基础（Plurality Basics）",
+          "kind": "title"
+        },
+        {
+          "normalized": "duozhongyishitijichu(pluralitybasics)",
+          "display": "多重意识体基础（Plurality Basics）",
+          "kind": "title"
+        },
+        {
+          "normalized": "多重意识体基础（plurality basics）",
+          "display": "多重意识体基础（Plurality Basics）",
+          "kind": "title"
+        },
+        {
+          "normalized": "多重意识体基础（pluralitybasics）",
+          "display": "多重意识体基础（Plurality Basics）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Plurality.md",
+      "title": "多意识体（Plurality）",
+      "aliases": [
+        "Plurality",
+        "多意识体（Plurality）"
+      ],
+      "tokens": [
+        {
+          "normalized": "plurality",
+          "display": "Plurality",
+          "kind": "alias"
+        },
+        {
+          "normalized": "dystp",
+          "display": "dystp",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "duoyishitiplurality",
+          "display": "duoyishitiplurality",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "duo yi shi ti (plurality)",
+          "display": "多意识体（Plurality）",
+          "kind": "title"
+        },
+        {
+          "normalized": "duoyishiti(plurality)",
+          "display": "多意识体（Plurality）",
+          "kind": "title"
+        },
+        {
+          "normalized": "多意识体（plurality）",
+          "display": "多意识体（Plurality）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Polyfragmented.md",
+      "title": "超级破碎（Polyfragmented）",
+      "aliases": [
+        "Polyfragmented",
+        "超级破碎（Polyfragmented）"
+      ],
+      "tokens": [
+        {
+          "normalized": "polyfragmented",
+          "display": "Polyfragmented",
+          "kind": "alias"
+        },
+        {
+          "normalized": "cjpsp",
+          "display": "cjpsp",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "chaojiposuipolyfragmented",
+          "display": "chaojiposuipolyfragmented",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "chao ji po sui (polyfragmented)",
+          "display": "超级破碎（Polyfragmented）",
+          "kind": "title"
+        },
+        {
+          "normalized": "chaojiposui(polyfragmented)",
+          "display": "超级破碎（Polyfragmented）",
+          "kind": "title"
+        },
+        {
+          "normalized": "超级破碎（polyfragmented）",
+          "display": "超级破碎（Polyfragmented）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Projection.md",
+      "title": "投影（Projection）",
+      "aliases": [
+        "Projection",
+        "投影（Projection）"
+      ],
+      "tokens": [
+        {
+          "normalized": "projection",
+          "display": "Projection",
+          "kind": "alias"
+        },
+        {
+          "normalized": "typ",
+          "display": "typ",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "touyingprojection",
+          "display": "touyingprojection",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "tou ying (projection)",
+          "display": "投影（Projection）",
+          "kind": "title"
+        },
+        {
+          "normalized": "touying(projection)",
+          "display": "投影（Projection）",
+          "kind": "title"
+        },
+        {
+          "normalized": "投影（projection）",
+          "display": "投影（Projection）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Protector.md",
+      "title": "保护者（Protector）",
+      "aliases": [
+        "Protector",
+        "保护者（Protector）"
+      ],
+      "tokens": [
+        {
+          "normalized": "protector",
+          "display": "Protector",
+          "kind": "alias"
+        },
+        {
+          "normalized": "bhzp",
+          "display": "bhzp",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "baohuzheprotector",
+          "display": "baohuzheprotector",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "bao hu zhe (protector)",
+          "display": "保护者（Protector）",
+          "kind": "title"
+        },
+        {
+          "normalized": "baohuzhe(protector)",
+          "display": "保护者（Protector）",
+          "kind": "title"
+        },
+        {
+          "normalized": "保护者（protector）",
+          "display": "保护者（Protector）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Reconstruction.md",
+      "title": "重构（Reconstruction）",
+      "aliases": [
+        "Reconstruction",
+        "重构（Reconstruction）"
+      ],
+      "tokens": [
+        {
+          "normalized": "reconstruction",
+          "display": "Reconstruction",
+          "kind": "alias"
+        },
+        {
+          "normalized": "zgr",
+          "display": "zgr",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zhonggoureconstruction",
+          "display": "zhonggoureconstruction",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "zhong gou (reconstruction)",
+          "display": "重构（Reconstruction）",
+          "kind": "title"
+        },
+        {
+          "normalized": "zhonggou(reconstruction)",
+          "display": "重构（Reconstruction）",
+          "kind": "title"
+        },
+        {
+          "normalized": "重构（reconstruction）",
+          "display": "重构（Reconstruction）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Regression-In-Psychology.md",
+      "title": "退行（Regression in Psychology）",
+      "aliases": [
+        "Regression in Psychology",
+        "退行（Regression in Psychology）"
+      ],
+      "tokens": [
+        {
+          "normalized": "regression in psychology",
+          "display": "Regression in Psychology",
+          "kind": "alias"
+        },
+        {
+          "normalized": "regressioninpsychology",
+          "display": "Regression in Psychology",
+          "kind": "alias"
+        },
+        {
+          "normalized": "txrip",
+          "display": "txrip",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "tuixingregressioninpsychology",
+          "display": "tuixingregressioninpsychology",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "tui xing (regression in psychology)",
+          "display": "退行（Regression in Psychology）",
+          "kind": "title"
+        },
+        {
+          "normalized": "tuixing(regressioninpsychology)",
+          "display": "退行（Regression in Psychology）",
+          "kind": "title"
+        },
+        {
+          "normalized": "退行（regression in psychology）",
+          "display": "退行（Regression in Psychology）",
+          "kind": "title"
+        },
+        {
+          "normalized": "退行（regressioninpsychology）",
+          "display": "退行（Regression in Psychology）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Schizophrenia-SC.md",
+      "title": "精神分裂症（Schizophrenia，SC）",
+      "aliases": [
+        "SC",
+        "Schizophrenia",
+        "精神分裂症（Schizophrenia，SC）"
+      ],
+      "tokens": [
+        {
+          "normalized": "sc",
+          "display": "SC",
+          "kind": "alias"
+        },
+        {
+          "normalized": "schizophrenia",
+          "display": "Schizophrenia",
+          "kind": "alias"
+        },
+        {
+          "normalized": "jsflzss",
+          "display": "jsflzss",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "jingshenfenliezhengschizophreniasc",
+          "display": "jingshenfenliezhengschizophreniasc",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "jing shen fen lie zheng (schizophrenia,sc)",
+          "display": "精神分裂症（Schizophrenia，SC）",
+          "kind": "title"
+        },
+        {
+          "normalized": "jingshenfenliezheng(schizophrenia,sc)",
+          "display": "精神分裂症（Schizophrenia，SC）",
+          "kind": "title"
+        },
+        {
+          "normalized": "精神分裂症（schizophrenia，sc）",
+          "display": "精神分裂症（Schizophrenia，SC）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Sense-Of-Presence.md",
+      "title": "存在感（Sense of Presence）",
+      "aliases": [
+        "Sense of Presence",
+        "存在感（Sense of Presence）"
+      ],
+      "tokens": [
+        {
+          "normalized": "sense of presence",
+          "display": "Sense of Presence",
+          "kind": "alias"
+        },
+        {
+          "normalized": "senseofpresence",
+          "display": "Sense of Presence",
+          "kind": "alias"
+        },
+        {
+          "normalized": "czgsop",
+          "display": "czgsop",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "cunzaigansenseofpresence",
+          "display": "cunzaigansenseofpresence",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "cun zai gan (sense of presence)",
+          "display": "存在感（Sense of Presence）",
+          "kind": "title"
+        },
+        {
+          "normalized": "cunzaigan(senseofpresence)",
+          "display": "存在感（Sense of Presence）",
+          "kind": "title"
+        },
+        {
+          "normalized": "存在感（sense of presence）",
+          "display": "存在感（Sense of Presence）",
+          "kind": "title"
+        },
+        {
+          "normalized": "存在感（senseofpresence）",
+          "display": "存在感（Sense of Presence）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Sensory-Regulation-Strategies.md",
+      "title": "感官调节策略（Sensory Regulation Strategies）",
+      "aliases": [
+        "Sensory Regulation Strategies",
+        "感官调节策略（Sensory Regulation Strategies）"
+      ],
+      "tokens": [
+        {
+          "normalized": "sensory regulation strategies",
+          "display": "Sensory Regulation Strategies",
+          "kind": "alias"
+        },
+        {
+          "normalized": "sensoryregulationstrategies",
+          "display": "Sensory Regulation Strategies",
+          "kind": "alias"
+        },
+        {
+          "normalized": "ggdjclsrs",
+          "display": "ggdjclsrs",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "ganguandiaojieceluesensoryregulationstrategies",
+          "display": "ganguandiaojieceluesensoryregulationstrategies",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "gan guan diao jie ce lue (sensory regulation strategies)",
+          "display": "感官调节策略（Sensory Regulation Strategies）",
+          "kind": "title"
+        },
+        {
+          "normalized": "ganguandiaojiecelue(sensoryregulationstrategies)",
+          "display": "感官调节策略（Sensory Regulation Strategies）",
+          "kind": "title"
+        },
+        {
+          "normalized": "感官调节策略（sensory regulation strategies）",
+          "display": "感官调节策略（Sensory Regulation Strategies）",
+          "kind": "title"
+        },
+        {
+          "normalized": "感官调节策略（sensoryregulationstrategies）",
+          "display": "感官调节策略（Sensory Regulation Strategies）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Sequestration.md",
+      "title": "封存（Sequestration）",
+      "aliases": [
+        "Sequestration",
+        "封存（Sequestration）"
+      ],
+      "tokens": [
+        {
+          "normalized": "sequestration",
+          "display": "Sequestration",
+          "kind": "alias"
+        },
+        {
+          "normalized": "fcs",
+          "display": "fcs",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "fengcunsequestration",
+          "display": "fengcunsequestration",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "feng cun (sequestration)",
+          "display": "封存（Sequestration）",
+          "kind": "title"
+        },
+        {
+          "normalized": "fengcun(sequestration)",
+          "display": "封存（Sequestration）",
+          "kind": "title"
+        },
+        {
+          "normalized": "封存（sequestration）",
+          "display": "封存（Sequestration）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Servitor.md",
+      "title": "傀儡（Servitor）",
+      "aliases": [
+        "Servitor",
+        "傀儡（Servitor）"
+      ],
+      "tokens": [
+        {
+          "normalized": "servitor",
+          "display": "Servitor",
+          "kind": "alias"
+        },
+        {
+          "normalized": "gls",
+          "display": "gls",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "guileiservitor",
+          "display": "guileiservitor",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "gui lei (servitor)",
+          "display": "傀儡（Servitor）",
+          "kind": "title"
+        },
+        {
+          "normalized": "guilei(servitor)",
+          "display": "傀儡（Servitor）",
+          "kind": "title"
+        },
+        {
+          "normalized": "傀儡（servitor）",
+          "display": "傀儡（Servitor）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Single-Class-Systems-Xianyu.md",
+      "title": "单一类系统（Single-Class Systems, Xianyu Theory）",
+      "aliases": [
+        "Single-Class Systems",
+        "Xianyu Theory",
+        "单一类系统（Single-Class Systems, Xianyu Theory）"
+      ],
+      "tokens": [
+        {
+          "normalized": "single-class systems",
+          "display": "Single-Class Systems",
+          "kind": "alias"
+        },
+        {
+          "normalized": "singleclasssystems",
+          "display": "Single-Class Systems",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xianyu theory",
+          "display": "Xianyu Theory",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xianyutheory",
+          "display": "Xianyu Theory",
+          "kind": "alias"
+        },
+        {
+          "normalized": "dylxtscsxt",
+          "display": "dylxtscsxt",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "danyileixitongsingleclasssystemsxianyutheory",
+          "display": "danyileixitongsingleclasssystemsxianyutheory",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "dan yi lei xi tong (single-class systems, xianyu theory)",
+          "display": "单一类系统（Single-Class Systems, Xianyu Theory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "danyileixitong(singleclasssystems,xianyutheory)",
+          "display": "单一类系统（Single-Class Systems, Xianyu Theory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "单一类系统（single-class systems, xianyu theory）",
+          "display": "单一类系统（Single-Class Systems, Xianyu Theory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "单一类系统（singleclasssystems,xianyutheory）",
+          "display": "单一类系统（Single-Class Systems, Xianyu Theory）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Somatic-Symptom-Disorder-SSD.md",
+      "title": "躯体化障碍（Somatic Symptom Disorder，SSD）",
+      "aliases": [
+        "SSD",
+        "Somatic Symptom Disorder",
+        "躯体化障碍（Somatic Symptom Disorder，SSD）"
+      ],
+      "tokens": [
+        {
+          "normalized": "somatic symptom disorder",
+          "display": "Somatic Symptom Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "somaticsymptomdisorder",
+          "display": "Somatic Symptom Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "ssd",
+          "display": "SSD",
+          "kind": "alias"
+        },
+        {
+          "normalized": "qthzassds",
+          "display": "qthzassds",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "qutihuazhangaisomaticsymptomdisorderssd",
+          "display": "qutihuazhangaisomaticsymptomdisorderssd",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "qu ti hua zhang ai (somatic symptom disorder,ssd)",
+          "display": "躯体化障碍（Somatic Symptom Disorder，SSD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "qutihuazhangai(somaticsymptomdisorder,ssd)",
+          "display": "躯体化障碍（Somatic Symptom Disorder，SSD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "躯体化障碍（somatic symptom disorder，ssd）",
+          "display": "躯体化障碍（Somatic Symptom Disorder，SSD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "躯体化障碍（somaticsymptomdisorder，ssd）",
+          "display": "躯体化障碍（Somatic Symptom Disorder，SSD）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Soul-Linked-Systems-Xianyu.md",
+      "title": "系魂型系统（Soul-Linked Systems, Xianyu Theory）",
+      "aliases": [
+        "Soul-Linked Systems",
+        "Xianyu Theory",
+        "系魂型系统（Soul-Linked Systems, Xianyu Theory）"
+      ],
+      "tokens": [
+        {
+          "normalized": "soul-linked systems",
+          "display": "Soul-Linked Systems",
+          "kind": "alias"
+        },
+        {
+          "normalized": "soullinkedsystems",
+          "display": "Soul-Linked Systems",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xianyu theory",
+          "display": "Xianyu Theory",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xianyutheory",
+          "display": "Xianyu Theory",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xhxxtslsxt",
+          "display": "xhxxtslsxt",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xihunxingxitongsoullinkedsystemsxianyutheory",
+          "display": "xihunxingxitongsoullinkedsystemsxianyutheory",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "xi hun xing xi tong (soul-linked systems, xianyu theory)",
+          "display": "系魂型系统（Soul-Linked Systems, Xianyu Theory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "xihunxingxitong(soullinkedsystems,xianyutheory)",
+          "display": "系魂型系统（Soul-Linked Systems, Xianyu Theory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "系魂型系统（soul-linked systems, xianyu theory）",
+          "display": "系魂型系统（Soul-Linked Systems, Xianyu Theory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "系魂型系统（soullinkedsystems,xianyutheory）",
+          "display": "系魂型系统（Soul-Linked Systems, Xianyu Theory）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Soulbond.md",
+      "title": "系魂（Soulbond）",
+      "aliases": [
+        "Soulbond",
+        "系魂（Soulbond）"
+      ],
+      "tokens": [
+        {
+          "normalized": "soulbond",
+          "display": "Soulbond",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xhs",
+          "display": "xhs",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xihunsoulbond",
+          "display": "xihunsoulbond",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "xi hun (soulbond)",
+          "display": "系魂（Soulbond）",
+          "kind": "title"
+        },
+        {
+          "normalized": "xihun(soulbond)",
+          "display": "系魂（Soulbond）",
+          "kind": "title"
+        },
+        {
+          "normalized": "系魂（soulbond）",
+          "display": "系魂（Soulbond）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Split-2016-DID-Representation.md",
+      "title": "《分裂》（Split, 2016）中的 DID 形象分析",
+      "aliases": [
+        "2016",
+        "Split",
+        "《分裂》（Split, 2016）中的 DID 形象分析"
+      ],
+      "tokens": [
+        {
+          "normalized": "2016",
+          "display": "2016",
+          "kind": "alias"
+        },
+        {
+          "normalized": "split",
+          "display": "Split",
+          "kind": "alias"
+        },
+        {
+          "normalized": "flszddxxfx",
+          "display": "flszddxxfx",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "fenliesplit2016zhongdedidxingxiangfenxi",
+          "display": "fenliesplit2016zhongdedidxingxiangfenxi",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "<<fen lie >> (split, 2016)zhong de  did xing xiang fen xi ",
+          "display": "《分裂》（Split, 2016）中的 DID 形象分析",
+          "kind": "title"
+        },
+        {
+          "normalized": "<<fenlie>>(split,2016)zhongdedidxingxiangfenxi",
+          "display": "《分裂》（Split, 2016）中的 DID 形象分析",
+          "kind": "title"
+        },
+        {
+          "normalized": "《分裂》（split, 2016）中的 did 形象分析",
+          "display": "《分裂》（Split, 2016）中的 DID 形象分析",
+          "kind": "title"
+        },
+        {
+          "normalized": "《分裂》（split,2016）中的did形象分析",
+          "display": "《分裂》（Split, 2016）中的 DID 形象分析",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Spontaneous.md",
+      "title": "自发型（Spontaneous）",
+      "aliases": [
+        "Spontaneous",
+        "自发型（Spontaneous）"
+      ],
+      "tokens": [
+        {
+          "normalized": "spontaneous",
+          "display": "Spontaneous",
+          "kind": "alias"
+        },
+        {
+          "normalized": "zfxs",
+          "display": "zfxs",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zifaxingspontaneous",
+          "display": "zifaxingspontaneous",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "zi fa xing (spontaneous)",
+          "display": "自发型（Spontaneous）",
+          "kind": "title"
+        },
+        {
+          "normalized": "zifaxing(spontaneous)",
+          "display": "自发型（Spontaneous）",
+          "kind": "title"
+        },
+        {
+          "normalized": "自发型（spontaneous）",
+          "display": "自发型（Spontaneous）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Stress-Response.md",
+      "title": "应激反应（Stress Response）",
+      "aliases": [
+        "Stress Response",
+        "应激反应（Stress Response）"
+      ],
+      "tokens": [
+        {
+          "normalized": "stress response",
+          "display": "Stress Response",
+          "kind": "alias"
+        },
+        {
+          "normalized": "stressresponse",
+          "display": "Stress Response",
+          "kind": "alias"
+        },
+        {
+          "normalized": "yjfysr",
+          "display": "yjfysr",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "yingjifanyingstressresponse",
+          "display": "yingjifanyingstressresponse",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "ying ji fan ying (stress response)",
+          "display": "应激反应（Stress Response）",
+          "kind": "title"
+        },
+        {
+          "normalized": "yingjifanying(stressresponse)",
+          "display": "应激反应（Stress Response）",
+          "kind": "title"
+        },
+        {
+          "normalized": "应激反应（stress response）",
+          "display": "应激反应（Stress Response）",
+          "kind": "title"
+        },
+        {
+          "normalized": "应激反应（stressresponse）",
+          "display": "应激反应（Stress Response）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Structural-Dissociation-Theory.md",
+      "title": "结构性解离理论（Theory of Structural Dissociation）",
+      "aliases": [
+        "Theory of Structural Dissociation",
+        "结构性解离理论（Theory of Structural Dissociation）"
+      ],
+      "tokens": [
+        {
+          "normalized": "theory of structural dissociation",
+          "display": "Theory of Structural Dissociation",
+          "kind": "alias"
+        },
+        {
+          "normalized": "theoryofstructuraldissociation",
+          "display": "Theory of Structural Dissociation",
+          "kind": "alias"
+        },
+        {
+          "normalized": "jgxjclltosd",
+          "display": "jgxjclltosd",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "jiegouxingjiechililuntheoryofstructuraldissociation",
+          "display": "jiegouxingjiechililuntheoryofstructuraldissociation",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "jie gou xing jie chi li lun (theory of structural dissociation)",
+          "display": "结构性解离理论（Theory of Structural Dissociation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "jiegouxingjiechililun(theoryofstructuraldissociation)",
+          "display": "结构性解离理论（Theory of Structural Dissociation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "结构性解离理论（theory of structural dissociation）",
+          "display": "结构性解离理论（Theory of Structural Dissociation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "结构性解离理论（theoryofstructuraldissociation）",
+          "display": "结构性解离理论（Theory of Structural Dissociation）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Switch.md",
+      "title": "切换（Switch）",
+      "aliases": [
+        "Switch",
+        "切换（Switch）"
+      ],
+      "tokens": [
+        {
+          "normalized": "switch",
+          "display": "Switch",
+          "kind": "alias"
+        },
+        {
+          "normalized": "qhs",
+          "display": "qhs",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "qiehuanswitch",
+          "display": "qiehuanswitch",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "qie huan (switch)",
+          "display": "切换（Switch）",
+          "kind": "title"
+        },
+        {
+          "normalized": "qiehuan(switch)",
+          "display": "切换（Switch）",
+          "kind": "title"
+        },
+        {
+          "normalized": "切换（switch）",
+          "display": "切换（Switch）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Sybil-1976-Cultural-Prototype.md",
+      "title": "《西比尔》（Sybil, 1976）与多重人格文化原型",
+      "aliases": [
+        "1976",
+        "Sybil",
+        "《西比尔》（Sybil, 1976）与多重人格文化原型"
+      ],
+      "tokens": [
+        {
+          "normalized": "1976",
+          "display": "1976",
+          "kind": "alias"
+        },
+        {
+          "normalized": "sybil",
+          "display": "Sybil",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xbesydzrgwhyx",
+          "display": "xbesydzrgwhyx",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xibiersybil1976yuduozhongrengewenhuayuanxing",
+          "display": "xibiersybil1976yuduozhongrengewenhuayuanxing",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "<<xi bi er >> (sybil, 1976)yu duo zhong ren ge wen hua yuan xing ",
+          "display": "《西比尔》（Sybil, 1976）与多重人格文化原型",
+          "kind": "title"
+        },
+        {
+          "normalized": "<<xibier>>(sybil,1976)yuduozhongrengewenhuayuanxing",
+          "display": "《西比尔》（Sybil, 1976）与多重人格文化原型",
+          "kind": "title"
+        },
+        {
+          "normalized": "《西比尔》（sybil, 1976）与多重人格文化原型",
+          "display": "《西比尔》（Sybil, 1976）与多重人格文化原型",
+          "kind": "title"
+        },
+        {
+          "normalized": "《西比尔》（sybil,1976）与多重人格文化原型",
+          "display": "《西比尔》（Sybil, 1976）与多重人格文化原型",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/System-Roles.md",
+      "title": "人格职能（System Roles）",
+      "aliases": [
+        "System Roles",
+        "人格职能（System Roles）"
+      ],
+      "tokens": [
+        {
+          "normalized": "system roles",
+          "display": "System Roles",
+          "kind": "alias"
+        },
+        {
+          "normalized": "systemroles",
+          "display": "System Roles",
+          "kind": "alias"
+        },
+        {
+          "normalized": "rgznsr",
+          "display": "rgznsr",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "rengezhinengsystemroles",
+          "display": "rengezhinengsystemroles",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "ren ge zhi neng (system roles)",
+          "display": "人格职能（System Roles）",
+          "kind": "title"
+        },
+        {
+          "normalized": "rengezhineng(systemroles)",
+          "display": "人格职能（System Roles）",
+          "kind": "title"
+        },
+        {
+          "normalized": "人格职能（system roles）",
+          "display": "人格职能（System Roles）",
+          "kind": "title"
+        },
+        {
+          "normalized": "人格职能（systemroles）",
+          "display": "人格职能（System Roles）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/System.md",
+      "title": "系统（System）",
+      "aliases": [
+        "System",
+        "系统（System）"
+      ],
+      "tokens": [
+        {
+          "normalized": "system",
+          "display": "System",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xts",
+          "display": "xts",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xitongsystem",
+          "display": "xitongsystem",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "xi tong (system)",
+          "display": "系统（System）",
+          "kind": "title"
+        },
+        {
+          "normalized": "xitong(system)",
+          "display": "系统（System）",
+          "kind": "title"
+        },
+        {
+          "normalized": "系统（system）",
+          "display": "系统（System）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Teen.md",
+      "title": "青少年意识体（Teen Part）",
+      "aliases": [
+        "Teen Part",
+        "青少年意识体（Teen Part）"
+      ],
+      "tokens": [
+        {
+          "normalized": "teen part",
+          "display": "Teen Part",
+          "kind": "alias"
+        },
+        {
+          "normalized": "teenpart",
+          "display": "Teen Part",
+          "kind": "alias"
+        },
+        {
+          "normalized": "qsnysttp",
+          "display": "qsnysttp",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "qingshaonianyishititeenpart",
+          "display": "qingshaonianyishititeenpart",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "qing shao nian yi shi ti (teen part)",
+          "display": "青少年意识体（Teen Part）",
+          "kind": "title"
+        },
+        {
+          "normalized": "qingshaonianyishiti(teenpart)",
+          "display": "青少年意识体（Teen Part）",
+          "kind": "title"
+        },
+        {
+          "normalized": "青少年意识体（teen part）",
+          "display": "青少年意识体（Teen Part）",
+          "kind": "title"
+        },
+        {
+          "normalized": "青少年意识体（teenpart）",
+          "display": "青少年意识体（Teen Part）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Three-Faces-Of-Eve-1957-Dissociation.md",
+      "title": "《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现",
+      "aliases": [
+        "1957",
+        "The Three Faces of Eve",
+        "《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现"
+      ],
+      "tokens": [
+        {
+          "normalized": "1957",
+          "display": "1957",
+          "kind": "alias"
+        },
+        {
+          "normalized": "the three faces of eve",
+          "display": "The Three Faces of Eve",
+          "kind": "alias"
+        },
+        {
+          "normalized": "thethreefacesofeve",
+          "display": "The Three Faces of Eve",
+          "kind": "alias"
+        },
+        {
+          "normalized": "smxwttfoedjcdzqyszx",
+          "display": "smxwttfoedjcdzqyszx",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "sanmianxiawathethreefacesofeve1957duijiechidezaoqiyingshizaixian",
+          "display": "sanmianxiawathethreefacesofeve1957duijiechidezaoqiyingshizaixian",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "<<san mian xia wa >> (the three faces of eve, 1957)dui jie chi de zao qi ying shi zai xian ",
+          "display": "《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现",
+          "kind": "title"
+        },
+        {
+          "normalized": "<<sanmianxiawa>>(thethreefacesofeve,1957)duijiechidezaoqiyingshizaixian",
+          "display": "《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现",
+          "kind": "title"
+        },
+        {
+          "normalized": "《三面夏娃》（the three faces of eve, 1957）对解离的早期影视再现",
+          "display": "《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现",
+          "kind": "title"
+        },
+        {
+          "normalized": "《三面夏娃》（thethreefacesofeve,1957）对解离的早期影视再现",
+          "display": "《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Touhou-Tulpa-Fandom.md",
+      "title": "《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）",
+      "aliases": [
+        "Touhou Tulpa Fandom",
+        "《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）"
+      ],
+      "tokens": [
+        {
+          "normalized": "touhou tulpa fandom",
+          "display": "Touhou Tulpa Fandom",
+          "kind": "alias"
+        },
+        {
+          "normalized": "touhoutulpafandom",
+          "display": "Touhou Tulpa Fandom",
+          "kind": "alias"
+        },
+        {
+          "normalized": "dfptrqzdtwhjdttf",
+          "display": "dfptrqzdtwhjdttf",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "dongfangprojecttongrenquanzhongdetulpawenhuajiedutouhoutulpafandom",
+          "display": "dongfangprojecttongrenquanzhongdetulpawenhuajiedutouhoutulpafandom",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "<<dong fang project>> tong ren quan zhong de  tulpa wen hua jie du (touhou tulpa fandom)",
+          "display": "《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）",
+          "kind": "title"
+        },
+        {
+          "normalized": "<<dongfangproject>>tongrenquanzhongdetulpawenhuajiedu(touhoutulpafandom)",
+          "display": "《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）",
+          "kind": "title"
+        },
+        {
+          "normalized": "《东方project》同人圈中的 tulpa 文化解读（touhou tulpa fandom）",
+          "display": "《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）",
+          "kind": "title"
+        },
+        {
+          "normalized": "《东方project》同人圈中的tulpa文化解读（touhoutulpafandom）",
+          "display": "《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Trauma.md",
+      "title": "创伤（Trauma）",
+      "aliases": [
+        "Trauma",
+        "chuangshang",
+        "创伤（Trauma）",
+        "心理创伤",
+        "精神创伤"
+      ],
+      "tokens": [
+        {
+          "normalized": "trauma",
+          "display": "Trauma",
+          "kind": "alias"
+        },
+        {
+          "normalized": "cst",
+          "display": "cst",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "jscs",
+          "display": "jscs",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xlcs",
+          "display": "xlcs",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "chuangshangtrauma",
+          "display": "chuangshangtrauma",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "chuangshang",
+          "display": "chuangshang",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "jing shen chuang shang ",
+          "display": "精神创伤",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "jingshenchuangshang",
+          "display": "精神创伤",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "xin li chuang shang ",
+          "display": "心理创伤",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "xinlichuangshang",
+          "display": "心理创伤",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "心理创伤",
+          "display": "心理创伤",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "精神创伤",
+          "display": "精神创伤",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "chuang shang (trauma)",
+          "display": "创伤（Trauma）",
+          "kind": "title"
+        },
+        {
+          "normalized": "chuangshang(trauma)",
+          "display": "创伤（Trauma）",
+          "kind": "title"
+        },
+        {
+          "normalized": "创伤（trauma）",
+          "display": "创伤（Trauma）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Trigger.md",
+      "title": "触发（Trigger）",
+      "aliases": [
+        "Trigger",
+        "触发（Trigger）"
+      ],
+      "tokens": [
+        {
+          "normalized": "trigger",
+          "display": "Trigger",
+          "kind": "alias"
+        },
+        {
+          "normalized": "hft",
+          "display": "hft",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "hongfatrigger",
+          "display": "hongfatrigger",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "hong fa (trigger)",
+          "display": "触发（Trigger）",
+          "kind": "title"
+        },
+        {
+          "normalized": "hongfa(trigger)",
+          "display": "触发（Trigger）",
+          "kind": "title"
+        },
+        {
+          "normalized": "触发（trigger）",
+          "display": "触发（Trigger）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Tulpa.md",
+      "title": "图帕（Tulpa）",
+      "aliases": [
+        "Tulpa",
+        "图帕（Tulpa）"
+      ],
+      "tokens": [
+        {
+          "normalized": "tulpa",
+          "display": "Tulpa",
+          "kind": "alias"
+        },
+        {
+          "normalized": "tpt",
+          "display": "tpt",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "tupatulpa",
+          "display": "tupatulpa",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "tu pa (tulpa)",
+          "display": "图帕（Tulpa）",
+          "kind": "title"
+        },
+        {
+          "normalized": "tupa(tulpa)",
+          "display": "图帕（Tulpa）",
+          "kind": "title"
+        },
+        {
+          "normalized": "图帕（tulpa）",
+          "display": "图帕（Tulpa）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Tulpish.md",
+      "title": "T 语（Tulpish）",
+      "aliases": [
+        "T 语（Tulpish）",
+        "Tulpish"
+      ],
+      "tokens": [
+        {
+          "normalized": "tulpish",
+          "display": "Tulpish",
+          "kind": "alias"
+        },
+        {
+          "normalized": "tyt",
+          "display": "tyt",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "tyutulpish",
+          "display": "tyutulpish",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "t yu (tulpish)",
+          "display": "T 语（Tulpish）",
+          "kind": "title"
+        },
+        {
+          "normalized": "t 语（tulpish）",
+          "display": "T 语（Tulpish）",
+          "kind": "title"
+        },
+        {
+          "normalized": "tyu(tulpish)",
+          "display": "T 语（Tulpish）",
+          "kind": "title"
+        },
+        {
+          "normalized": "t语（tulpish）",
+          "display": "T 语（Tulpish）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/United-States-Of-Tara-System-Daily-Life.md",
+      "title": "《我与梦露的一周》（The United States of Tara）中的系统家庭日常",
+      "aliases": [
+        "The United States of Tara",
+        "《我与梦露的一周》（The United States of Tara）中的系统家庭日常"
+      ],
+      "tokens": [
+        {
+          "normalized": "the united states of tara",
+          "display": "The United States of Tara",
+          "kind": "alias"
+        },
+        {
+          "normalized": "theunitedstatesoftara",
+          "display": "The United States of Tara",
+          "kind": "alias"
+        },
+        {
+          "normalized": "wymldyztusotzdxtjtrc",
+          "display": "wymldyztusotzdxtjtrc",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "woyumengludeyizhoutheunitedstatesoftarazhongdexitongjiatingrichang",
+          "display": "woyumengludeyizhoutheunitedstatesoftarazhongdexitongjiatingrichang",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "<<wo yu meng lu de yi zhou >> (the united states of tara)zhong de xi tong jia ting ri chang ",
+          "display": "《我与梦露的一周》（The United States of Tara）中的系统家庭日常",
+          "kind": "title"
+        },
+        {
+          "normalized": "<<woyumengludeyizhou>>(theunitedstatesoftara)zhongdexitongjiatingrichang",
+          "display": "《我与梦露的一周》（The United States of Tara）中的系统家庭日常",
+          "kind": "title"
+        },
+        {
+          "normalized": "《我与梦露的一周》（the united states of tara）中的系统家庭日常",
+          "display": "《我与梦露的一周》（The United States of Tara）中的系统家庭日常",
+          "kind": "title"
+        },
+        {
+          "normalized": "《我与梦露的一周》（theunitedstatesoftara）中的系统家庭日常",
+          "display": "《我与梦露的一周》（The United States of Tara）中的系统家庭日常",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Visualization-Imagination.md",
+      "title": "内视（Visualization / Imagination）",
+      "aliases": [
+        "Imagination",
+        "Visualization",
+        "内视（Visualization / Imagination）"
+      ],
+      "tokens": [
+        {
+          "normalized": "imagination",
+          "display": "Imagination",
+          "kind": "alias"
+        },
+        {
+          "normalized": "visualization",
+          "display": "Visualization",
+          "kind": "alias"
+        },
+        {
+          "normalized": "nsvi",
+          "display": "nsvi",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "neishivisualizationimagination",
+          "display": "neishivisualizationimagination",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "nei shi (visualization / imagination)",
+          "display": "内视（Visualization / Imagination）",
+          "kind": "title"
+        },
+        {
+          "normalized": "neishi(visualizationimagination)",
+          "display": "内视（Visualization / Imagination）",
+          "kind": "title"
+        },
+        {
+          "normalized": "内视（visualization / imagination）",
+          "display": "内视（Visualization / Imagination）",
+          "kind": "title"
+        },
+        {
+          "normalized": "内视（visualizationimagination）",
+          "display": "内视（Visualization / Imagination）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Xianyu-Theory-Niche-Classification.md",
+      "title": "弦羽理论生态位分类法（Xianyu Theory of Niche Classification）",
+      "aliases": [
+        "Xianyu Theory of Niche Classification",
+        "弦羽理论生态位分类法（Xianyu Theory of Niche Classification）"
+      ],
+      "tokens": [
+        {
+          "normalized": "xianyu theory of niche classification",
+          "display": "Xianyu Theory of Niche Classification",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xianyutheoryofnicheclassification",
+          "display": "Xianyu Theory of Niche Classification",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xyllstwflfxtonc",
+          "display": "xyllstwflfxtonc",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xianyulilunshengtaiweifenleifaxianyutheoryofnicheclassification",
+          "display": "xianyulilunshengtaiweifenleifaxianyutheoryofnicheclassification",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "xian yu li lun sheng tai wei fen lei fa (xianyu theory of niche classification)",
+          "display": "弦羽理论生态位分类法（Xianyu Theory of Niche Classification）",
+          "kind": "title"
+        },
+        {
+          "normalized": "xianyulilunshengtaiweifenleifa(xianyutheoryofnicheclassification)",
+          "display": "弦羽理论生态位分类法（Xianyu Theory of Niche Classification）",
+          "kind": "title"
+        },
+        {
+          "normalized": "弦羽理论生态位分类法（xianyu theory of niche classification）",
+          "display": "弦羽理论生态位分类法（Xianyu Theory of Niche Classification）",
+          "kind": "title"
+        },
+        {
+          "normalized": "弦羽理论生态位分类法（xianyutheoryofnicheclassification）",
+          "display": "弦羽理论生态位分类法（Xianyu Theory of Niche Classification）",
+          "kind": "title"
+        }
+      ]
+    }
+  ]
+}
