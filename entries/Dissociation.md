@@ -1,9 +1,9 @@
 ---
 tags:
 - 解离
-- DPDR
 - 解离性身份障碍_DID
 - 其他特定解离性障碍_OSDD
+- DPDR
 title: 解离（Dissociation）
 updated: 2025-10-03
 ---

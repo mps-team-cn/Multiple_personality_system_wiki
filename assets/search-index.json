@@ -37,18 +37,13 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "gyx",
-          "display": "gyx",
+          "normalized": "syx",
+          "display": "syx",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "gyxa",
-          "display": "gyxa",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "guayingxingadaptive",
-          "display": "guayingxingadaptive",
+          "normalized": "shiyingxing",
+          "display": "shiyingxing",
           "kind": "pinyin_full"
         },
         {
@@ -105,11 +100,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "guanlizhe",
-          "display": "管理者",
-          "kind": "alias"
-        },
-        {
           "normalized": "管理者",
           "display": "管理者",
           "kind": "alias"
@@ -125,13 +115,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "glza",
-          "display": "glza",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "guanlizheadmin",
-          "display": "guanlizheadmin",
+          "normalized": "guanlizhe",
+          "display": "guanlizhe",
           "kind": "pinyin_full"
         },
         {
@@ -201,18 +186,13 @@
           "kind": "alias"
         },
         {
-          "normalized": "zjjc",
-          "display": "zjjc",
+          "normalized": "zjjl",
+          "display": "zjjl",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "zjjcaid",
-          "display": "zjjcaid",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "zuijiujiechialcoholinduceddissociation",
-          "display": "zuijiujiechialcoholinduceddissociation",
+          "normalized": "zuijiujieli",
+          "display": "zuijiujieli",
           "kind": "pinyin_full"
         },
         {
@@ -261,11 +241,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "shuqingzhangai",
-          "display": "述情障碍",
-          "kind": "alias"
-        },
-        {
           "normalized": "述情障碍",
           "display": "述情障碍",
           "kind": "alias"
@@ -291,13 +266,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "sqzaa",
-          "display": "sqzaa",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "shuqingzhangaialexithymia",
-          "display": "shuqingzhangaialexithymia",
+          "normalized": "shuqingzhangai",
+          "display": "shuqingzhangai",
           "kind": "pinyin_full"
         },
         {
@@ -382,11 +352,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "chengyuan",
-          "display": "成员",
-          "kind": "alias"
-        },
-        {
           "normalized": "成员",
           "display": "成员",
           "kind": "alias"
@@ -397,13 +362,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "cya",
-          "display": "cya",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "chengyuanalter",
-          "display": "chengyuanalter",
+          "normalized": "chengyuan",
+          "display": "chengyuan",
           "kind": "pinyin_full"
         },
         {
@@ -443,11 +403,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "teshurentong",
-          "display": "特殊认同",
-          "kind": "alias"
-        },
-        {
           "normalized": "特殊认同",
           "display": "特殊认同",
           "kind": "alias"
@@ -458,13 +413,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "tsrta",
-          "display": "tsrta",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "teshurentongalterhuman",
-          "display": "teshurentongalterhuman",
+          "normalized": "teshurentong",
+          "display": "teshurentong",
           "kind": "pinyin_full"
         },
         {
@@ -587,43 +537,13 @@
           "kind": "alias"
         },
         {
-          "normalized": "amszrglzpddbx",
-          "display": "amszrglzpddbx",
+          "normalized": "scrglzpdbx",
+          "display": "scrglzpdbx",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "amszrglzpddbxamdd",
-          "display": "amszrglzpddbxamdd",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "szrglzpddbx",
-          "display": "szrglzpddbx",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "szrglzpddbxamdd",
-          "display": "szrglzpddbxamdd",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "anothermeshuangzhongrengeleizuopindedidbiaoxian",
-          "display": "anothermeshuangzhongrengeleizuopindedidbiaoxian",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "anothermeshuangzhongrengeleizuopindedidbiaoxiananothermediddepictions",
-          "display": "anothermeshuangzhongrengeleizuopindedidbiaoxiananothermediddepictions",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "shuangzhongrengeleizuopindedidbiaoxian",
-          "display": "shuangzhongrengeleizuopindedidbiaoxian",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "shuangzhongrengeleizuopindedidbiaoxiananothermediddepictions",
-          "display": "shuangzhongrengeleizuopindedidbiaoxiananothermediddepictions",
+          "normalized": "shuangchongrengeleizuopindebiaoxian",
+          "display": "shuangchongrengeleizuopindebiaoxian",
           "kind": "pinyin_full"
         },
         {
@@ -683,13 +603,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "jla",
-          "display": "jla",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "jiaoluanxiety",
-          "display": "jiaoluanxiety",
+          "normalized": "jiaolv",
+          "display": "jiaolv",
           "kind": "pinyin_full"
         },
         {
@@ -759,18 +674,13 @@
           "kind": "alias"
         },
         {
-          "normalized": "aemx",
-          "display": "aemx",
+          "normalized": "mx",
+          "display": "mx",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "aemxanpepm",
-          "display": "aemxanpepm",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "anpepmoxingapparentlynormalpartemotionalpartmodel",
-          "display": "anpepmoxingapparentlynormalpartemotionalpartmodel",
+          "normalized": "moxing",
+          "display": "moxing",
           "kind": "pinyin_full"
         },
         {
@@ -876,11 +786,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "zhuyiquexianduodongzhangai",
-          "display": "注意缺陷多动障碍",
-          "kind": "alias"
-        },
-        {
           "normalized": "zhuyiquexianduodongzhangai(attentiondeficit",
           "display": "注意缺陷多动障碍（Attention-Deficit",
           "kind": "alias"
@@ -911,23 +816,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "zyqxddzaad",
-          "display": "zyqxddzaad",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "zyqxddzaadhda",
-          "display": "zyqxddzaadhda",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "zhuyiquexianduodongzhangaiattentiondeficit",
-          "display": "zhuyiquexianduodongzhangaiattentiondeficit",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "zhuyiquexianduodongzhangaiattentiondeficithyperactivitydisorderadhd",
-          "display": "zhuyiquexianduodongzhangaiattentiondeficithyperactivitydisorderadhd",
+          "normalized": "zhuyiquexianduodongzhangai",
+          "display": "zhuyiquexianduodongzhangai",
           "kind": "pinyin_full"
         },
         {
@@ -992,11 +882,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "guduzhengpuxi",
-          "display": "孤独症谱系",
-          "kind": "alias"
-        },
-        {
           "normalized": "孤独症谱系",
           "display": "孤独症谱系",
           "kind": "alias"
@@ -1007,13 +892,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "gdzpxasd",
-          "display": "gdzpxasd",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "guduzhengpuxiautismspectrumdisorder",
-          "display": "guduzhengpuxiautismspectrumdisorder",
+          "normalized": "guduzhengpuxi",
+          "display": "guduzhengpuxi",
           "kind": "pinyin_full"
         },
         {
@@ -1058,11 +938,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "zidongjiashi",
-          "display": "自动驾驶",
-          "kind": "alias"
-        },
-        {
           "normalized": "自动驾驶",
           "display": "自动驾驶",
           "kind": "alias"
@@ -1073,13 +948,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "zdjsa",
-          "display": "zdjsa",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "zidongjiashiautopilot",
-          "display": "zidongjiashiautopilot",
+          "normalized": "zidongjiashi",
+          "display": "zidongjiashi",
           "kind": "pinyin_full"
         },
         {
@@ -1168,11 +1038,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "houtai",
-          "display": "后台",
-          "kind": "alias"
-        },
-        {
           "normalized": "houtai(back",
           "display": "后台（Back",
           "kind": "alias"
@@ -1193,23 +1058,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "htb",
-          "display": "htb",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "htbbb",
-          "display": "htbbb",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "houtaiback",
-          "display": "houtaiback",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "houtaibackbeingback",
-          "display": "houtaibackbeingback",
+          "normalized": "houtai",
+          "display": "houtai",
           "kind": "pinyin_full"
         },
         {
@@ -1288,11 +1138,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "pianzhong",
-          "display": "偏重",
-          "kind": "alias"
-        },
-        {
           "normalized": "pianzhong(bias",
           "display": "偏重（Bias",
           "kind": "alias"
@@ -1313,23 +1158,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "pzb",
-          "display": "pzb",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "pzbm",
-          "display": "pzbm",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "pianzhongbias",
-          "display": "pianzhongbias",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "pianzhongbiasmedian",
-          "display": "pianzhongbiasmedian",
+          "normalized": "pianzhong",
+          "display": "pianzhong",
           "kind": "pinyin_full"
         },
         {
@@ -1379,11 +1209,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "shuangxiangzhangai",
-          "display": "双相障碍",
-          "kind": "alias"
-        },
-        {
           "normalized": "双相障碍",
           "display": "双相障碍",
           "kind": "alias"
@@ -1394,13 +1219,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "sxzabd",
-          "display": "sxzabd",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "shuangxiangzhangaibipolardisorders",
-          "display": "shuangxiangzhangaibipolardisorders",
+          "normalized": "shuangxiangzhangai",
+          "display": "shuangxiangzhangai",
           "kind": "pinyin_full"
         },
         {
@@ -1445,11 +1265,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "hunhe",
-          "display": "混合",
-          "kind": "alias"
-        },
-        {
           "normalized": "混合",
           "display": "混合",
           "kind": "alias"
@@ -1460,13 +1275,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "hhb",
-          "display": "hhb",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "hunheblending",
-          "display": "hunheblending",
+          "normalized": "hunhe",
+          "display": "hunhe",
           "kind": "pinyin_full"
         },
         {
@@ -1511,11 +1321,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "qutirentong",
-          "display": "躯体认同",
-          "kind": "alias"
-        },
-        {
           "normalized": "躯体认同",
           "display": "躯体认同",
           "kind": "alias"
@@ -1526,13 +1331,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "qtrtbo",
-          "display": "qtrtbo",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "qutirentongbodyownership",
-          "display": "qutirentongbodyownership",
+          "normalized": "qutirentong",
+          "display": "qutirentong",
           "kind": "pinyin_full"
         },
         {
@@ -1578,11 +1378,6 @@
         {
           "normalized": "bian yuan xing ren ge zhang ai (borderline personality disorder",
           "display": "边缘性人格障碍（Borderline Personality Disorder",
-          "kind": "alias"
-        },
-        {
-          "normalized": "bianyuanxingrengezhangai",
-          "display": "边缘性人格障碍",
           "kind": "alias"
         },
         {
@@ -1656,23 +1451,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "byxrgzabpd",
-          "display": "byxrgzabpd",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "byxrgzabpdb",
-          "display": "byxrgzabpdb",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "bianyuanxingrengezhangaiborderlinepersonalitydisorder",
-          "display": "bianyuanxingrengezhangaiborderlinepersonalitydisorder",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "bianyuanxingrengezhangaiborderlinepersonalitydisorderbpd",
-          "display": "bianyuanxingrengezhangaiborderlinepersonalitydisorderbpd",
+          "normalized": "bianyuanxingrengezhangai",
+          "display": "bianyuanxingrengezhangai",
           "kind": "pinyin_full"
         },
         {
@@ -1737,18 +1517,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "bkrsdtddzrgdxshcxbkrsdtmn",
-          "display": "bkrsdtddzrgdxshcxbkrsdtmn",
-          "kind": "pinyin_abbr"
-        },
-        {
           "normalized": "bukeraoshudetaduiduozhongrengedexushihuachengxian",
           "display": "bukeraoshudetaduiduozhongrengedexushihuachengxian",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "bukeraoshudetaduiduozhongrengedexushihuachengxianbukeraoshudetamultiplicitynarrative",
-          "display": "bukeraoshudetaduiduozhongrengedexushihuachengxianbukeraoshudetamultiplicitynarrative",
           "kind": "pinyin_full"
         },
         {
@@ -1769,6 +1539,291 @@
         {
           "normalized": "《不可饶恕的她》对多重人格的叙事化呈现（bukeraoshudetamultiplicitynarrative）",
           "display": "《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Caregiver.md",
+      "title": "照顾者（Caregiver）",
+      "aliases": [
+        "Caregiver",
+        "照顾者",
+        "照顾者（Caregiver）"
+      ],
+      "tokens": [
+        {
+          "normalized": "caregiver",
+          "display": "Caregiver",
+          "kind": "alias"
+        },
+        {
+          "normalized": "zhao gu zhe ",
+          "display": "照顾者",
+          "kind": "alias"
+        },
+        {
+          "normalized": "照顾者",
+          "display": "照顾者",
+          "kind": "alias"
+        },
+        {
+          "normalized": "zgz",
+          "display": "zgz",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zhaoguzhe",
+          "display": "zhaoguzhe",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "zhao gu zhe (caregiver)",
+          "display": "照顾者（Caregiver）",
+          "kind": "title"
+        },
+        {
+          "normalized": "zhaoguzhe(caregiver)",
+          "display": "照顾者（Caregiver）",
+          "kind": "title"
+        },
+        {
+          "normalized": "照顾者（caregiver）",
+          "display": "照顾者（Caregiver）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Co-Consciousness.md",
+      "title": "意识共存（Co-consciousness）",
+      "aliases": [
+        "Co-consciousness",
+        "意识共存",
+        "意识共存（Co-consciousness）"
+      ],
+      "tokens": [
+        {
+          "normalized": "co-consciousness",
+          "display": "Co-consciousness",
+          "kind": "alias"
+        },
+        {
+          "normalized": "coconsciousness",
+          "display": "Co-consciousness",
+          "kind": "alias"
+        },
+        {
+          "normalized": "yi shi gong cun ",
+          "display": "意识共存",
+          "kind": "alias"
+        },
+        {
+          "normalized": "意识共存",
+          "display": "意识共存",
+          "kind": "alias"
+        },
+        {
+          "normalized": "ysgc",
+          "display": "ysgc",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "yishigongcun",
+          "display": "yishigongcun",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "yi shi gong cun (co-consciousness)",
+          "display": "意识共存（Co-consciousness）",
+          "kind": "title"
+        },
+        {
+          "normalized": "yishigongcun(coconsciousness)",
+          "display": "意识共存（Co-consciousness）",
+          "kind": "title"
+        },
+        {
+          "normalized": "意识共存（co-consciousness）",
+          "display": "意识共存（Co-consciousness）",
+          "kind": "title"
+        },
+        {
+          "normalized": "意识共存（coconsciousness）",
+          "display": "意识共存（Co-consciousness）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Co-Fronting.md",
+      "title": "共前台（Co-fronting）",
+      "aliases": [
+        "Co-fronting",
+        "共前台",
+        "共前台（Co-fronting）"
+      ],
+      "tokens": [
+        {
+          "normalized": "co-fronting",
+          "display": "Co-fronting",
+          "kind": "alias"
+        },
+        {
+          "normalized": "cofronting",
+          "display": "Co-fronting",
+          "kind": "alias"
+        },
+        {
+          "normalized": "gong qian tai ",
+          "display": "共前台",
+          "kind": "alias"
+        },
+        {
+          "normalized": "共前台",
+          "display": "共前台",
+          "kind": "alias"
+        },
+        {
+          "normalized": "gqt",
+          "display": "gqt",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "gongqiantai",
+          "display": "gongqiantai",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "gong qian tai (co-fronting)",
+          "display": "共前台（Co-fronting）",
+          "kind": "title"
+        },
+        {
+          "normalized": "gongqiantai(cofronting)",
+          "display": "共前台（Co-fronting）",
+          "kind": "title"
+        },
+        {
+          "normalized": "共前台（co-fronting）",
+          "display": "共前台（Co-fronting）",
+          "kind": "title"
+        },
+        {
+          "normalized": "共前台（cofronting）",
+          "display": "共前台（Co-fronting）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Consciousness-Modification.md",
+      "title": "意识修改（Consciousness Modification）",
+      "aliases": [
+        "Consciousness Modification",
+        "意识修改",
+        "意识修改（Consciousness Modification）"
+      ],
+      "tokens": [
+        {
+          "normalized": "consciousness modification",
+          "display": "Consciousness Modification",
+          "kind": "alias"
+        },
+        {
+          "normalized": "consciousnessmodification",
+          "display": "Consciousness Modification",
+          "kind": "alias"
+        },
+        {
+          "normalized": "yi shi xiu gai ",
+          "display": "意识修改",
+          "kind": "alias"
+        },
+        {
+          "normalized": "意识修改",
+          "display": "意识修改",
+          "kind": "alias"
+        },
+        {
+          "normalized": "ysxg",
+          "display": "ysxg",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "yishixiugai",
+          "display": "yishixiugai",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "yi shi xiu gai (consciousness modification)",
+          "display": "意识修改（Consciousness Modification）",
+          "kind": "title"
+        },
+        {
+          "normalized": "yishixiugai(consciousnessmodification)",
+          "display": "意识修改（Consciousness Modification）",
+          "kind": "title"
+        },
+        {
+          "normalized": "意识修改（consciousness modification）",
+          "display": "意识修改（Consciousness Modification）",
+          "kind": "title"
+        },
+        {
+          "normalized": "意识修改（consciousnessmodification）",
+          "display": "意识修改（Consciousness Modification）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Core.md",
+      "title": "核心（Core）",
+      "aliases": [
+        "Core",
+        "核心",
+        "核心（Core）"
+      ],
+      "tokens": [
+        {
+          "normalized": "core",
+          "display": "Core",
+          "kind": "alias"
+        },
+        {
+          "normalized": "he xin ",
+          "display": "核心",
+          "kind": "alias"
+        },
+        {
+          "normalized": "核心",
+          "display": "核心",
+          "kind": "alias"
+        },
+        {
+          "normalized": "hx",
+          "display": "hx",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "hexin",
+          "display": "hexin",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "he xin (core)",
+          "display": "核心（Core）",
+          "kind": "title"
+        },
+        {
+          "normalized": "hexin(core)",
+          "display": "核心（Core）",
+          "kind": "title"
+        },
+        {
+          "normalized": "核心（core）",
+          "display": "核心（Core）",
           "kind": "title"
         }
       ]
@@ -1797,11 +1852,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "fuzaxingchuangshanghouyingjizhangai",
-          "display": "复杂性创伤后应激障碍",
-          "kind": "alias"
-        },
-        {
           "normalized": "复杂性创伤后应激障碍",
           "display": "复杂性创伤后应激障碍",
           "kind": "alias"
@@ -1817,13 +1867,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "fzxcshyjzac",
-          "display": "fzxcshyjzac",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "fuzaxingchuangshanghouyingjizhangaicptsd",
-          "display": "fuzaxingchuangshanghouyingjizhangaicptsd",
+          "normalized": "fuzaxingchuangshanghouyingjizhangai",
+          "display": "fuzaxingchuangshanghouyingjizhangai",
           "kind": "pinyin_full"
         },
         {
@@ -1879,481 +1924,6 @@
       ]
     },
     {
-      "path": "entries/Caregiver.md",
-      "title": "照顾者（Caregiver）",
-      "aliases": [
-        "Caregiver",
-        "照顾者",
-        "照顾者（Caregiver）"
-      ],
-      "tokens": [
-        {
-          "normalized": "caregiver",
-          "display": "Caregiver",
-          "kind": "alias"
-        },
-        {
-          "normalized": "zhao gu zhe ",
-          "display": "照顾者",
-          "kind": "alias"
-        },
-        {
-          "normalized": "zhaoguzhe",
-          "display": "照顾者",
-          "kind": "alias"
-        },
-        {
-          "normalized": "照顾者",
-          "display": "照顾者",
-          "kind": "alias"
-        },
-        {
-          "normalized": "zgz",
-          "display": "zgz",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "zgzc",
-          "display": "zgzc",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "zhaoguzhecaregiver",
-          "display": "zhaoguzhecaregiver",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "zhao gu zhe (caregiver)",
-          "display": "照顾者（Caregiver）",
-          "kind": "title"
-        },
-        {
-          "normalized": "zhaoguzhe(caregiver)",
-          "display": "照顾者（Caregiver）",
-          "kind": "title"
-        },
-        {
-          "normalized": "照顾者（caregiver）",
-          "display": "照顾者（Caregiver）",
-          "kind": "title"
-        }
-      ]
-    },
-    {
-      "path": "entries/Co-Consciousness.md",
-      "title": "意识共存（Co-consciousness）",
-      "aliases": [
-        "Co-consciousness",
-        "意识共存",
-        "意识共存（Co-consciousness）"
-      ],
-      "tokens": [
-        {
-          "normalized": "co-consciousness",
-          "display": "Co-consciousness",
-          "kind": "alias"
-        },
-        {
-          "normalized": "coconsciousness",
-          "display": "Co-consciousness",
-          "kind": "alias"
-        },
-        {
-          "normalized": "yi shi gong cun ",
-          "display": "意识共存",
-          "kind": "alias"
-        },
-        {
-          "normalized": "yishigongcun",
-          "display": "意识共存",
-          "kind": "alias"
-        },
-        {
-          "normalized": "意识共存",
-          "display": "意识共存",
-          "kind": "alias"
-        },
-        {
-          "normalized": "ysgc",
-          "display": "ysgc",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "ysgccc",
-          "display": "ysgccc",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "yishigongcuncoconsciousness",
-          "display": "yishigongcuncoconsciousness",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "yi shi gong cun (co-consciousness)",
-          "display": "意识共存（Co-consciousness）",
-          "kind": "title"
-        },
-        {
-          "normalized": "yishigongcun(coconsciousness)",
-          "display": "意识共存（Co-consciousness）",
-          "kind": "title"
-        },
-        {
-          "normalized": "意识共存（co-consciousness）",
-          "display": "意识共存（Co-consciousness）",
-          "kind": "title"
-        },
-        {
-          "normalized": "意识共存（coconsciousness）",
-          "display": "意识共存（Co-consciousness）",
-          "kind": "title"
-        }
-      ]
-    },
-    {
-      "path": "entries/Co-Fronting.md",
-      "title": "共前台（Co-fronting）",
-      "aliases": [
-        "Co-fronting",
-        "共前台",
-        "共前台（Co-fronting）"
-      ],
-      "tokens": [
-        {
-          "normalized": "co-fronting",
-          "display": "Co-fronting",
-          "kind": "alias"
-        },
-        {
-          "normalized": "cofronting",
-          "display": "Co-fronting",
-          "kind": "alias"
-        },
-        {
-          "normalized": "gong qian tai ",
-          "display": "共前台",
-          "kind": "alias"
-        },
-        {
-          "normalized": "gongqiantai",
-          "display": "共前台",
-          "kind": "alias"
-        },
-        {
-          "normalized": "共前台",
-          "display": "共前台",
-          "kind": "alias"
-        },
-        {
-          "normalized": "gqt",
-          "display": "gqt",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "gqtcf",
-          "display": "gqtcf",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "gongqiantaicofronting",
-          "display": "gongqiantaicofronting",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "gong qian tai (co-fronting)",
-          "display": "共前台（Co-fronting）",
-          "kind": "title"
-        },
-        {
-          "normalized": "gongqiantai(cofronting)",
-          "display": "共前台（Co-fronting）",
-          "kind": "title"
-        },
-        {
-          "normalized": "共前台（co-fronting）",
-          "display": "共前台（Co-fronting）",
-          "kind": "title"
-        },
-        {
-          "normalized": "共前台（cofronting）",
-          "display": "共前台（Co-fronting）",
-          "kind": "title"
-        }
-      ]
-    },
-    {
-      "path": "entries/Consciousness-Modification.md",
-      "title": "意识修改（Consciousness Modification）",
-      "aliases": [
-        "Consciousness Modification",
-        "意识修改",
-        "意识修改（Consciousness Modification）"
-      ],
-      "tokens": [
-        {
-          "normalized": "consciousness modification",
-          "display": "Consciousness Modification",
-          "kind": "alias"
-        },
-        {
-          "normalized": "consciousnessmodification",
-          "display": "Consciousness Modification",
-          "kind": "alias"
-        },
-        {
-          "normalized": "yi shi xiu gai ",
-          "display": "意识修改",
-          "kind": "alias"
-        },
-        {
-          "normalized": "yishixiugai",
-          "display": "意识修改",
-          "kind": "alias"
-        },
-        {
-          "normalized": "意识修改",
-          "display": "意识修改",
-          "kind": "alias"
-        },
-        {
-          "normalized": "ysxg",
-          "display": "ysxg",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "ysxgcm",
-          "display": "ysxgcm",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "yishixiugaiconsciousnessmodification",
-          "display": "yishixiugaiconsciousnessmodification",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "yi shi xiu gai (consciousness modification)",
-          "display": "意识修改（Consciousness Modification）",
-          "kind": "title"
-        },
-        {
-          "normalized": "yishixiugai(consciousnessmodification)",
-          "display": "意识修改（Consciousness Modification）",
-          "kind": "title"
-        },
-        {
-          "normalized": "意识修改（consciousness modification）",
-          "display": "意识修改（Consciousness Modification）",
-          "kind": "title"
-        },
-        {
-          "normalized": "意识修改（consciousnessmodification）",
-          "display": "意识修改（Consciousness Modification）",
-          "kind": "title"
-        }
-      ]
-    },
-    {
-      "path": "entries/Core.md",
-      "title": "核心（Core）",
-      "aliases": [
-        "Core",
-        "核心",
-        "核心（Core）"
-      ],
-      "tokens": [
-        {
-          "normalized": "core",
-          "display": "Core",
-          "kind": "alias"
-        },
-        {
-          "normalized": "he xin ",
-          "display": "核心",
-          "kind": "alias"
-        },
-        {
-          "normalized": "hexin",
-          "display": "核心",
-          "kind": "alias"
-        },
-        {
-          "normalized": "核心",
-          "display": "核心",
-          "kind": "alias"
-        },
-        {
-          "normalized": "hx",
-          "display": "hx",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "hxc",
-          "display": "hxc",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "hexincore",
-          "display": "hexincore",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "he xin (core)",
-          "display": "核心（Core）",
-          "kind": "title"
-        },
-        {
-          "normalized": "hexin(core)",
-          "display": "核心（Core）",
-          "kind": "title"
-        },
-        {
-          "normalized": "核心（core）",
-          "display": "核心（Core）",
-          "kind": "title"
-        }
-      ]
-    },
-    {
-      "path": "entries/DID.md",
-      "title": "解离性身份障碍（Dissociative Identity Disorder，DID）",
-      "aliases": [
-        "DID",
-        "DID）",
-        "Dissociative Identity Disorder",
-        "Dissociative Identity Disorder，DID",
-        "解离性身份障碍",
-        "解离性身份障碍（Dissociative Identity Disorder",
-        "解离性身份障碍（Dissociative Identity Disorder，DID）"
-      ],
-      "tokens": [
-        {
-          "normalized": "did",
-          "display": "DID",
-          "kind": "alias"
-        },
-        {
-          "normalized": "did)",
-          "display": "DID）",
-          "kind": "alias"
-        },
-        {
-          "normalized": "did）",
-          "display": "DID）",
-          "kind": "alias"
-        },
-        {
-          "normalized": "dissociative identity disorder",
-          "display": "Dissociative Identity Disorder",
-          "kind": "alias"
-        },
-        {
-          "normalized": "dissociative identity disorder,did",
-          "display": "Dissociative Identity Disorder，DID",
-          "kind": "alias"
-        },
-        {
-          "normalized": "dissociative identity disorder，did",
-          "display": "Dissociative Identity Disorder，DID",
-          "kind": "alias"
-        },
-        {
-          "normalized": "dissociativeidentitydisorder",
-          "display": "Dissociative Identity Disorder",
-          "kind": "alias"
-        },
-        {
-          "normalized": "dissociativeidentitydisorder,did",
-          "display": "Dissociative Identity Disorder，DID",
-          "kind": "alias"
-        },
-        {
-          "normalized": "dissociativeidentitydisorder，did",
-          "display": "Dissociative Identity Disorder，DID",
-          "kind": "alias"
-        },
-        {
-          "normalized": "jie chi xing shen fen zhang ai ",
-          "display": "解离性身份障碍",
-          "kind": "alias"
-        },
-        {
-          "normalized": "jie chi xing shen fen zhang ai (dissociative identity disorder",
-          "display": "解离性身份障碍（Dissociative Identity Disorder",
-          "kind": "alias"
-        },
-        {
-          "normalized": "jiechixingshenfenzhangai",
-          "display": "解离性身份障碍",
-          "kind": "alias"
-        },
-        {
-          "normalized": "jiechixingshenfenzhangai(dissociativeidentitydisorder",
-          "display": "解离性身份障碍（Dissociative Identity Disorder",
-          "kind": "alias"
-        },
-        {
-          "normalized": "解离性身份障碍",
-          "display": "解离性身份障碍",
-          "kind": "alias"
-        },
-        {
-          "normalized": "解离性身份障碍（dissociative identity disorder",
-          "display": "解离性身份障碍（Dissociative Identity Disorder",
-          "kind": "alias"
-        },
-        {
-          "normalized": "解离性身份障碍（dissociativeidentitydisorder",
-          "display": "解离性身份障碍（Dissociative Identity Disorder",
-          "kind": "alias"
-        },
-        {
-          "normalized": "jcxsfza",
-          "display": "jcxsfza",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "jcxsfzadid",
-          "display": "jcxsfzadid",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "jcxsfzadidd",
-          "display": "jcxsfzadidd",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "jiechixingshenfenzhangaidissociativeidentitydisorder",
-          "display": "jiechixingshenfenzhangaidissociativeidentitydisorder",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "jiechixingshenfenzhangaidissociativeidentitydisorderdid",
-          "display": "jiechixingshenfenzhangaidissociativeidentitydisorderdid",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "jie chi xing shen fen zhang ai (dissociative identity disorder,did)",
-          "display": "解离性身份障碍（Dissociative Identity Disorder，DID）",
-          "kind": "title"
-        },
-        {
-          "normalized": "jiechixingshenfenzhangai(dissociativeidentitydisorder,did)",
-          "display": "解离性身份障碍（Dissociative Identity Disorder，DID）",
-          "kind": "title"
-        },
-        {
-          "normalized": "解离性身份障碍（dissociative identity disorder，did）",
-          "display": "解离性身份障碍（Dissociative Identity Disorder，DID）",
-          "kind": "title"
-        },
-        {
-          "normalized": "解离性身份障碍（dissociativeidentitydisorder，did）",
-          "display": "解离性身份障碍（Dissociative Identity Disorder，DID）",
-          "kind": "title"
-        }
-      ]
-    },
-    {
       "path": "entries/Delirium.md",
       "title": "谵妄（Delirium）",
       "aliases": [
@@ -2373,11 +1943,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "zhanwang",
-          "display": "谵妄",
-          "kind": "alias"
-        },
-        {
           "normalized": "谵妄",
           "display": "谵妄",
           "kind": "alias"
@@ -2388,13 +1953,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "zwd",
-          "display": "zwd",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "zhanwangdelirium",
-          "display": "zhanwangdelirium",
+          "normalized": "zhanwang",
+          "display": "zhanwang",
           "kind": "pinyin_full"
         },
         {
@@ -2496,11 +2056,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "rengejietixianshijietizhangai",
-          "display": "人格解体/现实解体障碍",
-          "kind": "alias"
-        },
-        {
           "normalized": "xian shi jie ti zhang ai ",
           "display": "现实解体障碍",
           "kind": "alias"
@@ -2508,11 +2063,6 @@
         {
           "normalized": "xian shi jie ti zhang ai (depersonalization",
           "display": "现实解体障碍（Depersonalization",
-          "kind": "alias"
-        },
-        {
-          "normalized": "xianshijietizhangai",
-          "display": "现实解体障碍",
           "kind": "alias"
         },
         {
@@ -2556,28 +2106,18 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "rgjtxsjtzadddd",
-          "display": "rgjtxsjtzadddd",
-          "kind": "pinyin_abbr"
-        },
-        {
           "normalized": "xsjtza",
           "display": "xsjtza",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "xsjtzad",
-          "display": "xsjtzad",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "rengejietixianshijietizhangaidepersonalizationderealizationdisorderdpdr",
-          "display": "rengejietixianshijietizhangaidepersonalizationderealizationdisorderdpdr",
+          "normalized": "rengejietixianshijietizhangai",
+          "display": "rengejietixianshijietizhangai",
           "kind": "pinyin_full"
         },
         {
-          "normalized": "xianshijietizhangaidepersonalization",
-          "display": "xianshijietizhangaidepersonalization",
+          "normalized": "xianshijietizhangai",
+          "display": "xianshijietizhangai",
           "kind": "pinyin_full"
         },
         {
@@ -2622,11 +2162,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "feiwogan",
-          "display": "非我感",
-          "kind": "alias"
-        },
-        {
           "normalized": "非我感",
           "display": "非我感",
           "kind": "alias"
@@ -2637,13 +2172,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "fwgd",
-          "display": "fwgd",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "feiwogandepersonalization",
-          "display": "feiwogandepersonalization",
+          "normalized": "feiwogan",
+          "display": "feiwogan",
           "kind": "pinyin_full"
         },
         {
@@ -2688,11 +2218,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "yiyuzhangai",
-          "display": "抑郁障碍",
-          "kind": "alias"
-        },
-        {
           "normalized": "抑郁障碍",
           "display": "抑郁障碍",
           "kind": "alias"
@@ -2703,13 +2228,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "yyzadd",
-          "display": "yyzadd",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "yiyuzhangaidepressivedisorders",
-          "display": "yiyuzhangaidepressivedisorders",
+          "normalized": "yiyuzhangai",
+          "display": "yiyuzhangai",
           "kind": "pinyin_full"
         },
         {
@@ -2754,11 +2274,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "quxianshihua",
-          "display": "去现实化",
-          "kind": "alias"
-        },
-        {
           "normalized": "去现实化",
           "display": "去现实化",
           "kind": "alias"
@@ -2769,13 +2284,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "qxshd",
-          "display": "qxshd",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "quxianshihuaderealization",
-          "display": "quxianshihuaderealization",
+          "normalized": "quxianshihua",
+          "display": "quxianshihua",
           "kind": "pinyin_full"
         },
         {
@@ -2796,6 +2306,131 @@
       ]
     },
     {
+      "path": "entries/DID.md",
+      "title": "解离性身份障碍（Dissociative Identity Disorder，DID）",
+      "aliases": [
+        "DID",
+        "DID）",
+        "Dissociative Identity Disorder",
+        "Dissociative Identity Disorder，DID",
+        "解离性身份障碍",
+        "解离性身份障碍（Dissociative Identity Disorder",
+        "解离性身份障碍（Dissociative Identity Disorder，DID）"
+      ],
+      "tokens": [
+        {
+          "normalized": "did",
+          "display": "DID",
+          "kind": "alias"
+        },
+        {
+          "normalized": "did)",
+          "display": "DID）",
+          "kind": "alias"
+        },
+        {
+          "normalized": "did）",
+          "display": "DID）",
+          "kind": "alias"
+        },
+        {
+          "normalized": "dissociative identity disorder",
+          "display": "Dissociative Identity Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "dissociative identity disorder,did",
+          "display": "Dissociative Identity Disorder，DID",
+          "kind": "alias"
+        },
+        {
+          "normalized": "dissociative identity disorder，did",
+          "display": "Dissociative Identity Disorder，DID",
+          "kind": "alias"
+        },
+        {
+          "normalized": "dissociativeidentitydisorder",
+          "display": "Dissociative Identity Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "dissociativeidentitydisorder,did",
+          "display": "Dissociative Identity Disorder，DID",
+          "kind": "alias"
+        },
+        {
+          "normalized": "dissociativeidentitydisorder，did",
+          "display": "Dissociative Identity Disorder，DID",
+          "kind": "alias"
+        },
+        {
+          "normalized": "jie chi xing shen fen zhang ai ",
+          "display": "解离性身份障碍",
+          "kind": "alias"
+        },
+        {
+          "normalized": "jie chi xing shen fen zhang ai (dissociative identity disorder",
+          "display": "解离性身份障碍（Dissociative Identity Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "jiechixingshenfenzhangai",
+          "display": "解离性身份障碍",
+          "kind": "alias"
+        },
+        {
+          "normalized": "jiechixingshenfenzhangai(dissociativeidentitydisorder",
+          "display": "解离性身份障碍（Dissociative Identity Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "解离性身份障碍",
+          "display": "解离性身份障碍",
+          "kind": "alias"
+        },
+        {
+          "normalized": "解离性身份障碍（dissociative identity disorder",
+          "display": "解离性身份障碍（Dissociative Identity Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "解离性身份障碍（dissociativeidentitydisorder",
+          "display": "解离性身份障碍（Dissociative Identity Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "jlxsfza",
+          "display": "jlxsfza",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "jielixingshenfenzhangai",
+          "display": "jielixingshenfenzhangai",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "jie chi xing shen fen zhang ai (dissociative identity disorder,did)",
+          "display": "解离性身份障碍（Dissociative Identity Disorder，DID）",
+          "kind": "title"
+        },
+        {
+          "normalized": "jiechixingshenfenzhangai(dissociativeidentitydisorder,did)",
+          "display": "解离性身份障碍（Dissociative Identity Disorder，DID）",
+          "kind": "title"
+        },
+        {
+          "normalized": "解离性身份障碍（dissociative identity disorder，did）",
+          "display": "解离性身份障碍（Dissociative Identity Disorder，DID）",
+          "kind": "title"
+        },
+        {
+          "normalized": "解离性身份障碍（dissociativeidentitydisorder，did）",
+          "display": "解离性身份障碍（Dissociative Identity Disorder，DID）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
       "path": "entries/Disorientation.md",
       "title": "定向障碍（Disorientation）",
       "aliases": [
@@ -2806,11 +2441,6 @@
       "tokens": [
         {
           "normalized": "ding xiang zhang ai ",
-          "display": "定向障碍",
-          "kind": "alias"
-        },
-        {
-          "normalized": "dingxiangzhangai",
           "display": "定向障碍",
           "kind": "alias"
         },
@@ -2830,13 +2460,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "dxzad",
-          "display": "dxzad",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "dingxiangzhangaidisorientation",
-          "display": "dingxiangzhangaidisorientation",
+          "normalized": "dingxiangzhangai",
+          "display": "dingxiangzhangai",
           "kind": "pinyin_full"
         },
         {
@@ -2886,18 +2511,13 @@
           "kind": "alias"
         },
         {
-          "normalized": "jc",
-          "display": "jc",
+          "normalized": "jl",
+          "display": "jl",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "jcd",
-          "display": "jcd",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "jiechidissociation",
-          "display": "jiechidissociation",
+          "normalized": "jieli",
+          "display": "jieli",
           "kind": "pinyin_full"
         },
         {
@@ -3011,28 +2631,13 @@
           "kind": "alias"
         },
         {
-          "normalized": "jcxyw",
-          "display": "jcxyw",
+          "normalized": "jlxyw",
+          "display": "jlxyw",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "jcxywda",
-          "display": "jcxywda",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "jcxywdad",
-          "display": "jcxywdad",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "jiechixingyiwangdissociativeamnesia",
-          "display": "jiechixingyiwangdissociativeamnesia",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "jiechixingyiwangdissociativeamnesiada",
-          "display": "jiechixingyiwangdissociativeamnesiada",
+          "normalized": "jielixingyiwang",
+          "display": "jielixingyiwang",
           "kind": "pinyin_full"
         },
         {
@@ -3097,23 +2702,13 @@
           "kind": "alias"
         },
         {
-          "normalized": "tstyfsjszrgtdyzwfl",
-          "display": "tstyfsjszrgtdyzwfl",
+          "normalized": "tstyfsjscrgyzwfl",
+          "display": "tstyfsjscrgyzwfl",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "tstyfsjszrgyzwfl",
-          "display": "tstyfsjszrgyzwfl",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "tuosituoyefusijishuangzhongrengethedoubleyuziwofenlie",
-          "display": "tuosituoyefusijishuangzhongrengethedoubleyuziwofenlie",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "tuosituoyefusijishuangzhongrengeyuziwofenlie",
-          "display": "tuosituoyefusijishuangzhongrengeyuziwofenlie",
+          "normalized": "tuosituoyefusijishuangchongrengeyuziwofenlie",
+          "display": "tuosituoyefusijishuangchongrengeyuziwofenlie",
           "kind": "pinyin_full"
         },
         {
@@ -3153,11 +2748,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "aimengjiadefenleifa",
-          "display": "埃蒙加德分类法",
-          "kind": "alias"
-        },
-        {
           "normalized": "emmengard classification",
           "display": "Emmengard Classification",
           "kind": "alias"
@@ -3178,13 +2768,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "amjdflfec",
-          "display": "amjdflfec",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "aimengjiadefenleifaemmengardclassification",
-          "display": "aimengjiadefenleifaemmengardclassification",
+          "normalized": "aimengjiadefenleifa",
+          "display": "aimengjiadefenleifa",
           "kind": "pinyin_full"
         },
         {
@@ -3224,11 +2809,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "duyoujiyi",
-          "display": "独有记忆",
-          "kind": "alias"
-        },
-        {
           "normalized": "exomemory",
           "display": "Exomemory",
           "kind": "alias"
@@ -3244,13 +2824,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "dyjye",
-          "display": "dyjye",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "duyoujiyiexomemory",
-          "display": "duyoujiyiexomemory",
+          "normalized": "duyoujiyi",
+          "display": "duyoujiyi",
           "kind": "pinyin_full"
         },
         {
@@ -3295,11 +2870,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "waitoushe",
-          "display": "外投射",
-          "kind": "alias"
-        },
-        {
           "normalized": "外投射",
           "display": "外投射",
           "kind": "alias"
@@ -3310,13 +2880,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "wtsep",
-          "display": "wtsep",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "waitousheexternalprojection",
-          "display": "waitousheexternalprojection",
+          "normalized": "waitoushe",
+          "display": "waitoushe",
           "kind": "pinyin_full"
         },
         {
@@ -3385,11 +2950,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "jiazushixitong",
-          "display": "家族式系统",
-          "kind": "alias"
-        },
-        {
           "normalized": "jiazushixitong(familysystems",
           "display": "家族式系统（Family Systems",
           "kind": "alias"
@@ -3445,23 +3005,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "jzsxtfs",
-          "display": "jzsxtfs",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "jzsxtfsxt",
-          "display": "jzsxtfsxt",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "jiazushixitongfamilysystems",
-          "display": "jiazushixitongfamilysystems",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "jiazushixitongfamilysystemsxianyutheory",
-          "display": "jiazushixitongfamilysystemsxianyutheory",
+          "normalized": "jiazushixitong",
+          "display": "jiazushixitong",
           "kind": "pinyin_full"
         },
         {
@@ -3506,11 +3051,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "weizhuti",
-          "display": "伪主体",
-          "kind": "alias"
-        },
-        {
           "normalized": "伪主体",
           "display": "伪主体",
           "kind": "alias"
@@ -3521,13 +3061,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "wztf",
-          "display": "wztf",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "weizhutifauxmain",
-          "display": "weizhutifauxmain",
+          "normalized": "weizhuti",
+          "display": "weizhuti",
           "kind": "pinyin_full"
         },
         {
@@ -3641,13 +3176,8 @@
           "kind": "alias"
         },
         {
-          "normalized": "bjjlbfc",
-          "display": "bjjlbfc",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "bjjlbfcysfjtyy",
-          "display": "bjjlbfcysfjtyy",
+          "normalized": "bjjlb",
+          "display": "bjjlb",
           "kind": "pinyin_abbr"
         },
         {
@@ -3661,23 +3191,18 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "1999yushenfenjietiyinyu",
-          "display": "1999yushenfenjietiyinyu",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "bojijulebufightclub",
-          "display": "bojijulebufightclub",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "bojijulebufightclub1999yushenfenjietiyinyu",
-          "display": "bojijulebufightclub1999yushenfenjietiyinyu",
+          "normalized": "bojijulebu",
+          "display": "bojijulebu",
           "kind": "pinyin_full"
         },
         {
           "normalized": "bojijulebuyushenfenjietiyinyu",
           "display": "bojijulebuyushenfenjietiyinyu",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "yushenfenjietiyinyu",
+          "display": "yushenfenjietiyinyu",
           "kind": "pinyin_full"
         },
         {
@@ -3722,11 +3247,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "shanhui",
-          "display": "闪回",
-          "kind": "alias"
-        },
-        {
           "normalized": "闪回",
           "display": "闪回",
           "kind": "alias"
@@ -3737,13 +3257,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "shf",
-          "display": "shf",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "shanhuiflashback",
-          "display": "shanhuiflashback",
+          "normalized": "shanhui",
+          "display": "shanhui",
           "kind": "pinyin_full"
         },
         {
@@ -3783,11 +3298,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "suipian",
-          "display": "碎片",
-          "kind": "alias"
-        },
-        {
           "normalized": "碎片",
           "display": "碎片",
           "kind": "alias"
@@ -3798,13 +3308,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "spf",
-          "display": "spf",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "suipianfragment",
-          "display": "suipianfragment",
+          "normalized": "suipian",
+          "display": "suipian",
           "kind": "pinyin_full"
         },
         {
@@ -3878,11 +3383,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "qiantai",
-          "display": "前台",
-          "kind": "alias"
-        },
-        {
           "normalized": "qiantai(front",
           "display": "前台（Front",
           "kind": "alias"
@@ -3903,23 +3403,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "qtf",
-          "display": "qtf",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "qtff",
-          "display": "qtff",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "qiantaifront",
-          "display": "qiantaifront",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "qiantaifrontfronting",
-          "display": "qiantaifrontfronting",
+          "normalized": "qiantai",
+          "display": "qiantai",
           "kind": "pinyin_full"
         },
         {
@@ -3979,18 +3464,13 @@
           "kind": "alias"
         },
         {
-          "normalized": "gnxfc",
-          "display": "gnxfc",
+          "normalized": "gnxfl",
+          "display": "gnxfl",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "gnxfcfd",
-          "display": "gnxfcfd",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "gongnengxingfenchifunctionaldissociation",
-          "display": "gongnengxingfenchifunctionaldissociation",
+          "normalized": "gongnengxingfenli",
+          "display": "gongnengxingfenli",
           "kind": "pinyin_full"
         },
         {
@@ -4035,11 +3515,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "ronghe",
-          "display": "融合",
-          "kind": "alias"
-        },
-        {
           "normalized": "融合",
           "display": "融合",
           "kind": "alias"
@@ -4050,13 +3525,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "rhf",
-          "display": "rhf",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "ronghefusion",
-          "display": "ronghefusion",
+          "normalized": "ronghe",
+          "display": "ronghe",
           "kind": "pinyin_full"
         },
         {
@@ -4096,11 +3566,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "shoumenren",
-          "display": "守门人",
-          "kind": "alias"
-        },
-        {
           "normalized": "守门人",
           "display": "守门人",
           "kind": "alias"
@@ -4111,13 +3576,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "smrg",
-          "display": "smrg",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "shoumenrengatekeeper",
-          "display": "shoumenrengatekeeper",
+          "normalized": "shoumenren",
+          "display": "shoumenren",
           "kind": "pinyin_full"
         },
         {
@@ -4157,11 +3617,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "jiedi",
-          "display": "接地",
-          "kind": "alias"
-        },
-        {
           "normalized": "接地",
           "display": "接地",
           "kind": "alias"
@@ -4172,13 +3627,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "jdg",
-          "display": "jdg",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "jiedigrounding",
-          "display": "jiedigrounding",
+          "normalized": "jiedi",
+          "display": "jiedi",
           "kind": "pinyin_full"
         },
         {
@@ -4238,23 +3688,13 @@
           "kind": "alias"
         },
         {
-          "normalized": "xnoxytdbjcywlxx",
-          "display": "xnoxytdbjcywlxx",
+          "normalized": "xnoxydbjcywlxx",
+          "display": "xnoxydbjcywlxx",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "xnoxytdbjcywlxxhmvitb",
-          "display": "xnoxytdbjcywlxxhmvitb",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "xuniouxiangyutulpadebianjiechuyinweilaixianxiang",
-          "display": "xuniouxiangyutulpadebianjiechuyinweilaixianxiang",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "xuniouxiangyutulpadebianjiechuyinweilaixianxianghatsunemikuvirtualidoltulpaboundary",
-          "display": "xuniouxiangyutulpadebianjiechuyinweilaixianxianghatsunemikuvirtualidoltulpaboundary",
+          "normalized": "xuniouxiangyudebianjiechuyinweilaixianxiang",
+          "display": "xuniouxiangyudebianjiechuyinweilaixianxiang",
           "kind": "pinyin_full"
         },
         {
@@ -4304,11 +3744,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "touya",
-          "display": "头压",
-          "kind": "alias"
-        },
-        {
           "normalized": "头压",
           "display": "头压",
           "kind": "alias"
@@ -4319,13 +3754,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "tyhp",
-          "display": "tyhp",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "touyaheadpressure",
-          "display": "touyaheadpressure",
+          "normalized": "touya",
+          "display": "touya",
           "kind": "pinyin_full"
         },
         {
@@ -4419,11 +3849,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "neibukongjian",
-          "display": "内部空间",
-          "kind": "alias"
-        },
-        {
           "normalized": "neibukongjian(headspace",
           "display": "内部空间（Headspace",
           "kind": "alias"
@@ -4444,23 +3869,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "nbkjh",
-          "display": "nbkjh",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "nbkjhiw",
-          "display": "nbkjhiw",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "neibukongjianheadspace",
-          "display": "neibukongjianheadspace",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "neibukongjianheadspaceinnerworld",
-          "display": "neibukongjianheadspaceinnerworld",
+          "normalized": "neibukongjian",
+          "display": "neibukongjian",
           "kind": "pinyin_full"
         },
         {
@@ -4505,11 +3915,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "suzhu",
-          "display": "宿主",
-          "kind": "alias"
-        },
-        {
           "normalized": "宿主",
           "display": "宿主",
           "kind": "alias"
@@ -4520,13 +3925,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "szh",
-          "display": "szh",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "suzhuhost",
-          "display": "suzhuhost",
+          "normalized": "suzhu",
+          "display": "suzhu",
           "kind": "pinyin_full"
         },
         {
@@ -4571,11 +3971,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "yiyuanxingxitong",
-          "display": "医源型系统",
-          "kind": "alias"
-        },
-        {
           "normalized": "医源型系统",
           "display": "医源型系统",
           "kind": "alias"
@@ -4586,13 +3981,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "yyxxtis",
-          "display": "yyxxtis",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "yiyuanxingxitongiatrogenicsystem",
-          "display": "yiyuanxingxitongiatrogenicsystem",
+          "normalized": "yiyuanxingxitong",
+          "display": "yiyuanxingxitong",
           "kind": "pinyin_full"
         },
         {
@@ -4632,11 +4022,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "huanxianghuoban",
-          "display": "幻想伙伴",
-          "kind": "alias"
-        },
-        {
           "normalized": "imaginary companion",
           "display": "Imaginary Companion",
           "kind": "alias"
@@ -4657,13 +4042,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "hxhbic",
-          "display": "hxhbic",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "huanxianghuobanimaginarycompanion",
-          "display": "huanxianghuobanimaginarycompanion",
+          "normalized": "huanxianghuoban",
+          "display": "huanxianghuoban",
           "kind": "pinyin_full"
         },
         {
@@ -4704,11 +4084,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "dulixing",
-          "display": "独立性",
-          "kind": "alias"
-        },
-        {
           "normalized": "independence",
           "display": "Independence",
           "kind": "alias"
@@ -4724,18 +4099,13 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "dlxi",
-          "display": "dlxi",
-          "kind": "pinyin_abbr"
-        },
-        {
           "normalized": "dlys",
           "display": "dlys",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "dulixingindependence",
-          "display": "dulixingindependence",
+          "normalized": "dulixing",
+          "display": "dulixing",
           "kind": "pinyin_full"
         },
         {
@@ -4790,11 +4160,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "zhenghe",
-          "display": "整合",
-          "kind": "alias"
-        },
-        {
           "normalized": "整合",
           "display": "整合",
           "kind": "alias"
@@ -4805,13 +4170,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "zhi",
-          "display": "zhi",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "zhengheintegration",
-          "display": "zhengheintegration",
+          "normalized": "zhenghe",
+          "display": "zhenghe",
           "kind": "pinyin_full"
         },
         {
@@ -4856,11 +4216,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "neibugoutong",
-          "display": "内部沟通",
-          "kind": "alias"
-        },
-        {
           "normalized": "内部沟通",
           "display": "内部沟通",
           "kind": "alias"
@@ -4871,13 +4226,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "nbgtic",
-          "display": "nbgtic",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "neibugoutonginternalcommunication",
-          "display": "neibugoutonginternalcommunication",
+          "normalized": "neibugoutong",
+          "display": "neibugoutong",
           "kind": "pinyin_full"
         },
         {
@@ -4971,11 +4321,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "neibuzizhuzhe",
-          "display": "内部自助者",
-          "kind": "alias"
-        },
-        {
           "normalized": "neibuzizhuzhe(internalselfhelper",
           "display": "内部自助者（Internal Self Helper",
           "kind": "alias"
@@ -5001,23 +4346,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "nbzzzish",
-          "display": "nbzzzish",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "nbzzzishi",
-          "display": "nbzzzishi",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "neibuzizhuzheinternalselfhelper",
-          "display": "neibuzizhuzheinternalselfhelper",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "neibuzizhuzheinternalselfhelperish",
-          "display": "neibuzizhuzheinternalselfhelperish",
+          "normalized": "neibuzizhuzhe",
+          "display": "neibuzizhuzhe",
           "kind": "pinyin_full"
         },
         {
@@ -5067,11 +4397,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "qinruxingsiwei",
-          "display": "侵入性思维",
-          "kind": "alias"
-        },
-        {
           "normalized": "侵入性思维",
           "display": "侵入性思维",
           "kind": "alias"
@@ -5082,13 +4407,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "qrxswit",
-          "display": "qrxswit",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "qinruxingsiweiintrusivethoughts",
-          "display": "qinruxingsiweiintrusivethoughts",
+          "normalized": "qinruxingsiwei",
+          "display": "qinruxingsiwei",
           "kind": "pinyin_full"
         },
         {
@@ -5128,11 +4448,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "diedai",
-          "display": "迭代",
-          "kind": "alias"
-        },
-        {
           "normalized": "iteration",
           "display": "Iteration",
           "kind": "alias"
@@ -5148,13 +4463,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "ddi",
-          "display": "ddi",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "diedaiiteration",
-          "display": "diedaiiteration",
+          "normalized": "diedai",
+          "display": "diedai",
           "kind": "pinyin_full"
         },
         {
@@ -5209,23 +4519,13 @@
           "kind": "alias"
         },
         {
-          "normalized": "qfqbxjyyhdsfjt",
-          "display": "qfqbxjyyhdsfjt",
+          "normalized": "kfkbxjyyhdsfjt",
+          "display": "kfkbxjyyhdsfjt",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "qfqbxjyyhdsfjtkmid",
-          "display": "qfqbxjyyhdsfjtkmid",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "qiafuqiabianxingjiyuyihuadeshenfenjieti",
-          "display": "qiafuqiabianxingjiyuyihuadeshenfenjieti",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "qiafuqiabianxingjiyuyihuadeshenfenjietikafkametamorphosisidentitydissolution",
-          "display": "qiafuqiabianxingjiyuyihuadeshenfenjietikafkametamorphosisidentitydissolution",
+          "normalized": "kafukabianxingjiyuyihuadeshenfenjieti",
+          "display": "kafukabianxingjiyuyihuadeshenfenjieti",
           "kind": "pinyin_full"
         },
         {
@@ -5275,11 +4575,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "xidexingwuzhu",
-          "display": "习得性无助",
-          "kind": "alias"
-        },
-        {
           "normalized": "习得性无助",
           "display": "习得性无助",
           "kind": "alias"
@@ -5290,13 +4585,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "xdxwzlh",
-          "display": "xdxwzlh",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "xidexingwuzhulearnedhelplessness",
-          "display": "xidexingwuzhulearnedhelplessness",
+          "normalized": "xidexingwuzhu",
+          "display": "xidexingwuzhu",
           "kind": "pinyin_full"
         },
         {
@@ -5390,11 +4680,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "xiaohaiyishiti",
-          "display": "小孩意识体",
-          "kind": "alias"
-        },
-        {
           "normalized": "xiaohaiyishiti(little",
           "display": "小孩意识体（Little",
           "kind": "alias"
@@ -5415,23 +4700,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "xhystl",
-          "display": "xhystl",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "xhystlcp",
-          "display": "xhystlcp",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "xiaohaiyishitilittle",
-          "display": "xiaohaiyishitilittle",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "xiaohaiyishitilittlechildpart",
-          "display": "xiaohaiyishitilittlechildpart",
+          "normalized": "xiaohaiyishiti",
+          "display": "xiaohaiyishiti",
           "kind": "pinyin_full"
         },
         {
@@ -5496,23 +4766,13 @@
           "kind": "alias"
         },
         {
-          "normalized": "lfklftzpzdxlzwytys",
-          "display": "lfklftzpzdxlzwytys",
+          "normalized": "lfklftzpzdxlzwyys",
+          "display": "lfklftzpzdxlzwyys",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "lfklftzpzdxlzwytysltm",
-          "display": "lfklftzpzdxlzwytysltm",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "luofukelafutezuopinzhongdexinlingzaowuyutulpayingshe",
-          "display": "luofukelafutezuopinzhongdexinlingzaowuyutulpayingshe",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "luofukelafutezuopinzhongdexinlingzaowuyutulpayingshelovecrafttulpamotifs",
-          "display": "luofukelafutezuopinzhongdexinlingzaowuyutulpayingshelovecrafttulpamotifs",
+          "normalized": "luofukelafutezuopinzhongdexinlingzaowuyuyingshe",
+          "display": "luofukelafutezuopinzhongdexinlingzaowuyuyingshe",
           "kind": "pinyin_full"
         },
         {
@@ -5577,18 +4837,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "mfsnxyzdqbyqystzmmko",
-          "display": "mfsnxyzdqbyqystzmmko",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "mofashaonuxiaoyuanzhongdeqiubiyuqiyueshitazhe",
-          "display": "mofashaonuxiaoyuanzhongdeqiubiyuqiyueshitazhe",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "mofashaonuxiaoyuanzhongdeqiubiyuqiyueshitazhemadokamagicakyubeyotherness",
-          "display": "mofashaonuxiaoyuanzhongdeqiubiyuqiyueshitazhemadokamagicakyubeyotherness",
+          "normalized": "mofashaonvxiaoyuanzhongdeqiubiyuqiyueshitazhe",
+          "display": "mofashaonvxiaoyuanzhongdeqiubiyuqiyueshitazhe",
           "kind": "pinyin_full"
         },
         {
@@ -5633,11 +4883,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "zhuti",
-          "display": "主体",
-          "kind": "alias"
-        },
-        {
           "normalized": "主体",
           "display": "主体",
           "kind": "alias"
@@ -5648,13 +4893,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "ztm",
-          "display": "ztm",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "zhutimain",
-          "display": "zhutimain",
+          "normalized": "zhuti",
+          "display": "zhuti",
           "kind": "pinyin_full"
         },
         {
@@ -5694,11 +4934,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "zaokuang",
-          "display": "躁狂",
-          "kind": "alias"
-        },
-        {
           "normalized": "躁狂",
           "display": "躁狂",
           "kind": "alias"
@@ -5709,13 +4944,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "zkm",
-          "display": "zkm",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "zaokuangmania",
-          "display": "zaokuangmania",
+          "normalized": "zaokuang",
+          "display": "zaokuang",
           "kind": "pinyin_full"
         },
         {
@@ -5755,11 +4985,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "mingxiang",
-          "display": "冥想",
-          "kind": "alias"
-        },
-        {
           "normalized": "冥想",
           "display": "冥想",
           "kind": "alias"
@@ -5770,13 +4995,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "mxm",
-          "display": "mxm",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "mingxiangmeditation",
-          "display": "mingxiangmeditation",
+          "normalized": "mingxiang",
+          "display": "mingxiang",
           "kind": "pinyin_full"
         },
         {
@@ -5811,11 +5031,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "jiyichiyouzhe",
-          "display": "记忆持有者",
-          "kind": "alias"
-        },
-        {
           "normalized": "memory holder",
           "display": "Memory Holder",
           "kind": "alias"
@@ -5836,13 +5051,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "jycyzmh",
-          "display": "jycyzmh",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "jiyichiyouzhememoryholder",
-          "display": "jiyichiyouzhememoryholder",
+          "normalized": "jiyichiyouzhe",
+          "display": "jiyichiyouzhe",
           "kind": "pinyin_full"
         },
         {
@@ -5882,11 +5092,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "jiyipingbi",
-          "display": "记忆屏蔽",
-          "kind": "alias"
-        },
-        {
           "normalized": "memory shielding",
           "display": "Memory Shielding",
           "kind": "alias"
@@ -5907,13 +5112,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "jypbms",
-          "display": "jypbms",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "jiyipingbimemoryshielding",
-          "display": "jiyipingbimemoryshielding",
+          "normalized": "jiyipingbi",
+          "display": "jiyipingbi",
           "kind": "pinyin_full"
         },
         {
@@ -5959,11 +5159,6 @@
         {
           "normalized": "hun he xing xi tong (mixed systems",
           "display": "混合型系统（Mixed Systems",
-          "kind": "alias"
-        },
-        {
-          "normalized": "hunhexingxitong",
-          "display": "混合型系统",
           "kind": "alias"
         },
         {
@@ -6042,23 +5237,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "hhxxtms",
-          "display": "hhxxtms",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "hhxxtmsxt",
-          "display": "hhxxtmsxt",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "hunhexingxitongmixedsystems",
-          "display": "hunhexingxitongmixedsystems",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "hunhexingxitongmixedsystemsxianyutheory",
-          "display": "hunhexingxitongmixedsystemsxianyutheory",
+          "normalized": "hunhexingxitong",
+          "display": "hunhexingxitong",
           "kind": "pinyin_full"
         },
         {
@@ -6123,19 +5303,9 @@
           "kind": "alias"
         },
         {
-          "normalized": "yxrmrzdrgflxs",
-          "display": "yxrmrzdrgflxs",
-          "kind": "pinyin_abbr"
-        },
-        {
           "normalized": "yxrzdrgflxs",
           "display": "yxrzdrgflxs",
           "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "yinxingrenmrrobotzhongderengefenliexushi",
-          "display": "yinxingrenmrrobotzhongderengefenliexushi",
-          "kind": "pinyin_full"
         },
         {
           "normalized": "yinxingrenzhongderengefenliexushi",
@@ -6233,11 +5403,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "zilianxingrengezhangai",
-          "display": "自恋型人格障碍",
-          "kind": "alias"
-        },
-        {
           "normalized": "zilianxingrengezhangai(narcissisticpersonalitydisorder",
           "display": "自恋型人格障碍（Narcissistic Personality Disorder",
           "kind": "alias"
@@ -6263,23 +5428,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "zlxrgzanpd",
-          "display": "zlxrgzanpd",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "zlxrgzanpdn",
-          "display": "zlxrgzanpdn",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "zilianxingrengezhangainarcissisticpersonalitydisorder",
-          "display": "zilianxingrengezhangainarcissisticpersonalitydisorder",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "zilianxingrengezhangainarcissisticpersonalitydisordernpd",
-          "display": "zilianxingrengezhangainarcissisticpersonalitydisordernpd",
+          "normalized": "zilianxingrengezhangai",
+          "display": "zilianxingrengezhangai",
           "kind": "pinyin_full"
         },
         {
@@ -6324,11 +5474,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "shenjingduoyangxing",
-          "display": "神经多样性",
-          "kind": "alias"
-        },
-        {
           "normalized": "神经多样性",
           "display": "神经多样性",
           "kind": "alias"
@@ -6339,13 +5484,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "sjdyxn",
-          "display": "sjdyxn",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "shenjingduoyangxingneurodiversity",
-          "display": "shenjingduoyangxingneurodiversity",
+          "normalized": "shenjingduoyangxing",
+          "display": "shenjingduoyangxing",
           "kind": "pinyin_full"
         },
         {
@@ -6479,13 +5619,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "bczdnhwytlls",
-          "display": "bczdnhwytlls",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "bczdnhwytllsl",
-          "display": "bczdnhwytllsl",
+          "normalized": "bczdnhwylls",
+          "display": "bczdnhwylls",
           "kind": "pinyin_abbr"
         },
         {
@@ -6494,13 +5629,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "hwytlls",
-          "display": "hwytlls",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "hwytllsl",
-          "display": "hwytllsl",
+          "normalized": "hwylls",
+          "display": "hwylls",
           "kind": "pinyin_abbr"
         },
         {
@@ -6509,23 +5639,13 @@
           "kind": "pinyin_full"
         },
         {
-          "normalized": "bucunzaidenihewoyutulpalilisi",
-          "display": "bucunzaidenihewoyutulpalilisi",
+          "normalized": "bucunzaidenihewoyulilisi",
+          "display": "bucunzaidenihewoyulilisi",
           "kind": "pinyin_full"
         },
         {
-          "normalized": "bucunzaidenihewoyutulpalilisililith",
-          "display": "bucunzaidenihewoyutulpalilisililith",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "hewoyutulpalilisi",
-          "display": "hewoyutulpalilisi",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "hewoyutulpalilisililith",
-          "display": "hewoyutulpalilisililith",
+          "normalized": "hewoyulilisi",
+          "display": "hewoyulilisi",
           "kind": "pinyin_full"
         },
         {
@@ -6609,11 +5729,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "qiangpozheng",
-          "display": "强迫症",
-          "kind": "alias"
-        },
-        {
           "normalized": "qiangpozheng(obsessivecompulsivedisorder",
           "display": "强迫症（Obsessive-Compulsive Disorder",
           "kind": "alias"
@@ -6639,23 +5754,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "qpzocd",
-          "display": "qpzocd",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "qpzocdo",
-          "display": "qpzocdo",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "qiangpozhengobsessivecompulsivedisorder",
-          "display": "qiangpozhengobsessivecompulsivedisorder",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "qiangpozhengobsessivecompulsivedisorderocd",
-          "display": "qiangpozhengobsessivecompulsivedisorderocd",
+          "normalized": "qiangpozheng",
+          "display": "qiangpozheng",
           "kind": "pinyin_full"
         },
         {
@@ -6676,6 +5776,57 @@
         {
           "normalized": "强迫症（obsessivecompulsivedisorder,ocd）",
           "display": "强迫症（Obsessive-Compulsive Disorder, OCD）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Original.md",
+      "title": "初始（Original）",
+      "aliases": [
+        "Original",
+        "初始",
+        "初始（Original）"
+      ],
+      "tokens": [
+        {
+          "normalized": "chu shi ",
+          "display": "初始",
+          "kind": "alias"
+        },
+        {
+          "normalized": "original",
+          "display": "Original",
+          "kind": "alias"
+        },
+        {
+          "normalized": "初始",
+          "display": "初始",
+          "kind": "alias"
+        },
+        {
+          "normalized": "cs",
+          "display": "cs",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "chushi",
+          "display": "chushi",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "chu shi (original)",
+          "display": "初始（Original）",
+          "kind": "title"
+        },
+        {
+          "normalized": "chushi(original)",
+          "display": "初始（Original）",
+          "kind": "title"
+        },
+        {
+          "normalized": "初始（original）",
+          "display": "初始（Original）",
           "kind": "title"
         }
       ]
@@ -6710,18 +5861,13 @@
           "kind": "alias"
         },
         {
-          "normalized": "qttdjcxza",
-          "display": "qttdjcxza",
+          "normalized": "qttdjlxza",
+          "display": "qttdjlxza",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "qttdjcxzao",
-          "display": "qttdjcxzao",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "qitatedingjiechixingzhangaiosdd",
-          "display": "qitatedingjiechixingzhangaiosdd",
+          "normalized": "qitatedingjielixingzhangai",
+          "display": "qitatedingjielixingzhangai",
           "kind": "pinyin_full"
         },
         {
@@ -6737,240 +5883,6 @@
         {
           "normalized": "其他特定解离性障碍（osdd）",
           "display": "其他特定解离性障碍（OSDD）",
-          "kind": "title"
-        }
-      ]
-    },
-    {
-      "path": "entries/Original.md",
-      "title": "初始（Original）",
-      "aliases": [
-        "Original",
-        "初始",
-        "初始（Original）"
-      ],
-      "tokens": [
-        {
-          "normalized": "chu shi ",
-          "display": "初始",
-          "kind": "alias"
-        },
-        {
-          "normalized": "chushi",
-          "display": "初始",
-          "kind": "alias"
-        },
-        {
-          "normalized": "original",
-          "display": "Original",
-          "kind": "alias"
-        },
-        {
-          "normalized": "初始",
-          "display": "初始",
-          "kind": "alias"
-        },
-        {
-          "normalized": "cs",
-          "display": "cs",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "cso",
-          "display": "cso",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "chushioriginal",
-          "display": "chushioriginal",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "chu shi (original)",
-          "display": "初始（Original）",
-          "kind": "title"
-        },
-        {
-          "normalized": "chushi(original)",
-          "display": "初始（Original）",
-          "kind": "title"
-        },
-        {
-          "normalized": "初始（original）",
-          "display": "初始（Original）",
-          "kind": "title"
-        }
-      ]
-    },
-    {
-      "path": "entries/PTSD.md",
-      "title": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
-      "aliases": [
-        "PTSD",
-        "PTSD）",
-        "Post-Traumatic Stress Disorder",
-        "Post-Traumatic Stress Disorder, PTSD",
-        "chuangshanghouyingjizhangai",
-        "创伤后压力症候群",
-        "创伤后应激反应障碍",
-        "创伤后应激障碍",
-        "创伤后应激障碍（Post-Traumatic Stress Disorder",
-        "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）"
-      ],
-      "tokens": [
-        {
-          "normalized": "chuang shang hou ying ji zhang ai ",
-          "display": "创伤后应激障碍",
-          "kind": "alias"
-        },
-        {
-          "normalized": "chuang shang hou ying ji zhang ai (post-traumatic stress disorder",
-          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder",
-          "kind": "alias"
-        },
-        {
-          "normalized": "chuangshanghouyingjizhangai",
-          "display": "创伤后应激障碍",
-          "kind": "alias"
-        },
-        {
-          "normalized": "chuangshanghouyingjizhangai(posttraumaticstressdisorder",
-          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder",
-          "kind": "alias"
-        },
-        {
-          "normalized": "post-traumatic stress disorder",
-          "display": "Post-Traumatic Stress Disorder",
-          "kind": "alias"
-        },
-        {
-          "normalized": "post-traumatic stress disorder, ptsd",
-          "display": "Post-Traumatic Stress Disorder, PTSD",
-          "kind": "alias"
-        },
-        {
-          "normalized": "posttraumaticstressdisorder",
-          "display": "Post-Traumatic Stress Disorder",
-          "kind": "alias"
-        },
-        {
-          "normalized": "posttraumaticstressdisorder,ptsd",
-          "display": "Post-Traumatic Stress Disorder, PTSD",
-          "kind": "alias"
-        },
-        {
-          "normalized": "ptsd",
-          "display": "PTSD",
-          "kind": "alias"
-        },
-        {
-          "normalized": "ptsd)",
-          "display": "PTSD）",
-          "kind": "alias"
-        },
-        {
-          "normalized": "ptsd）",
-          "display": "PTSD）",
-          "kind": "alias"
-        },
-        {
-          "normalized": "创伤后应激障碍",
-          "display": "创伤后应激障碍",
-          "kind": "alias"
-        },
-        {
-          "normalized": "创伤后应激障碍（post-traumatic stress disorder",
-          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder",
-          "kind": "alias"
-        },
-        {
-          "normalized": "创伤后应激障碍（posttraumaticstressdisorder",
-          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder",
-          "kind": "alias"
-        },
-        {
-          "normalized": "cshyjfyza",
-          "display": "cshyjfyza",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "cshyjza",
-          "display": "cshyjza",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "cshyjzaptsd",
-          "display": "cshyjzaptsd",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "cshyjzaptsdp",
-          "display": "cshyjzaptsdp",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "cshylzhq",
-          "display": "cshylzhq",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "chuangshanghouyingjizhangaiposttraumaticstressdisorder",
-          "display": "chuangshanghouyingjizhangaiposttraumaticstressdisorder",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "chuangshanghouyingjizhangaiposttraumaticstressdisorderptsd",
-          "display": "chuangshanghouyingjizhangaiposttraumaticstressdisorderptsd",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "chuang shang hou ya li zheng hou qun ",
-          "display": "创伤后压力症候群",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "chuang shang hou ying ji fan ying zhang ai ",
-          "display": "创伤后应激反应障碍",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "chuangshanghouyalizhenghouqun",
-          "display": "创伤后压力症候群",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "chuangshanghouyingjifanyingzhangai",
-          "display": "创伤后应激反应障碍",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "创伤后压力症候群",
-          "display": "创伤后压力症候群",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "创伤后应激反应障碍",
-          "display": "创伤后应激反应障碍",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "chuang shang hou ying ji zhang ai (post-traumatic stress disorder, ptsd)",
-          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
-          "kind": "title"
-        },
-        {
-          "normalized": "chuangshanghouyingjizhangai(posttraumaticstressdisorder,ptsd)",
-          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
-          "kind": "title"
-        },
-        {
-          "normalized": "创伤后应激障碍（post-traumatic stress disorder, ptsd）",
-          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
-          "kind": "title"
-        },
-        {
-          "normalized": "创伤后应激障碍（posttraumaticstressdisorder,ptsd）",
-          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
           "kind": "title"
         }
       ]
@@ -7015,19 +5927,9 @@
           "kind": "alias"
         },
         {
-          "normalized": "wxdlrpayjtysdjxh",
-          "display": "wxdlrpayjtysdjxh",
-          "kind": "pinyin_abbr"
-        },
-        {
           "normalized": "wxdlryjtysdjxh",
           "display": "wxdlryjtysdjxh",
           "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "wangxiangdailirenparanoiaagentyujitiyishidejuxianghua",
-          "display": "wangxiangdailirenparanoiaagentyujitiyishidejuxianghua",
-          "kind": "pinyin_full"
         },
         {
           "normalized": "wangxiangdailirenyujitiyishidejuxianghua",
@@ -7150,28 +6052,13 @@
           "kind": "alias"
         },
         {
-          "normalized": "bfjcxsfza",
-          "display": "bfjcxsfza",
+          "normalized": "bfjlxsfza",
+          "display": "bfjlxsfza",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "bfjcxsfzapdid",
-          "display": "bfjcxsfzapdid",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "bfjcxsfzapdidp",
-          "display": "bfjcxsfzapdidp",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "bufenjiechixingshenfenzhangaipartialdissociativeidentitydisorder",
-          "display": "bufenjiechixingshenfenzhangaipartialdissociativeidentitydisorder",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "bufenjiechixingshenfenzhangaipartialdissociativeidentitydisorderpdid",
-          "display": "bufenjiechixingshenfenzhangaipartialdissociativeidentitydisorderpdid",
+          "normalized": "bufenjielixingshenfenzhangai",
+          "display": "bufenjielixingshenfenzhangai",
           "kind": "pinyin_full"
         },
         {
@@ -7231,18 +6118,13 @@
           "kind": "alias"
         },
         {
-          "normalized": "blxjc",
-          "display": "blxjc",
+          "normalized": "blxjl",
+          "display": "blxjl",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "blxjcpd",
-          "display": "blxjcpd",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "binglixingjiechipathologicaldissociation",
-          "display": "binglixingjiechipathologicaldissociation",
+          "normalized": "binglixingjieli",
+          "display": "binglixingjieli",
           "kind": "pinyin_full"
         },
         {
@@ -7321,11 +6203,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "zhixingzhe",
-          "display": "执行者",
-          "kind": "alias"
-        },
-        {
           "normalized": "zhixingzhe(performer",
           "display": "执行者（Performer",
           "kind": "alias"
@@ -7346,23 +6223,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "zxzp",
-          "display": "zxzp",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "zxzpe",
-          "display": "zxzpe",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "zhixingzheperformer",
-          "display": "zhixingzheperformer",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "zhixingzheperformerexecutive",
-          "display": "zhixingzheperformerexecutive",
+          "normalized": "zhixingzhe",
+          "display": "zhixingzhe",
           "kind": "pinyin_full"
         },
         {
@@ -7407,11 +6269,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "quanxian",
-          "display": "权限",
-          "kind": "alias"
-        },
-        {
           "normalized": "权限",
           "display": "权限",
           "kind": "alias"
@@ -7422,13 +6279,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "qxp",
-          "display": "qxp",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "quanxianpermissions",
-          "display": "quanxianpermissions",
+          "normalized": "quanxian",
+          "display": "quanxian",
           "kind": "pinyin_full"
         },
         {
@@ -7468,11 +6320,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "pohaizhe",
-          "display": "迫害者",
-          "kind": "alias"
-        },
-        {
           "normalized": "迫害者",
           "display": "迫害者",
           "kind": "alias"
@@ -7483,13 +6330,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "phzp",
-          "display": "phzp",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "pohaizhepersecutor",
-          "display": "pohaizhepersecutor",
+          "normalized": "pohaizhe",
+          "display": "pohaizhe",
           "kind": "pinyin_full"
         },
         {
@@ -7529,11 +6371,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "rengemianju",
-          "display": "人格面具",
-          "kind": "alias"
-        },
-        {
           "normalized": "人格面具",
           "display": "人格面具",
           "kind": "alias"
@@ -7544,13 +6381,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "rgmjp",
-          "display": "rgmjp",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "rengemianjupersona",
-          "display": "rengemianjupersona",
+          "normalized": "rengemianju",
+          "display": "rengemianju",
           "kind": "pinyin_full"
         },
         {
@@ -7585,11 +6417,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "duozhongyishitijichu",
-          "display": "多重意识体基础",
-          "kind": "alias"
-        },
-        {
           "normalized": "plurality basics",
           "display": "Plurality Basics",
           "kind": "alias"
@@ -7610,13 +6437,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "dzystjcpb",
-          "display": "dzystjcpb",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "duozhongyishitijichupluralitybasics",
-          "display": "duozhongyishitijichupluralitybasics",
+          "normalized": "duozhongyishitijichu",
+          "display": "duozhongyishitijichu",
           "kind": "pinyin_full"
         },
         {
@@ -7656,11 +6478,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "duoyishiti",
-          "display": "多意识体",
-          "kind": "alias"
-        },
-        {
           "normalized": "plurality",
           "display": "Plurality",
           "kind": "alias"
@@ -7676,13 +6493,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "dystp",
-          "display": "dystp",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "duoyishitiplurality",
-          "display": "duoyishitiplurality",
+          "normalized": "duoyishiti",
+          "display": "duoyishiti",
           "kind": "pinyin_full"
         },
         {
@@ -7707,17 +6519,13 @@
       "title": "超级破碎（Polyfragmented）",
       "aliases": [
         "Polyfragmented",
+        "超碎",
         "超级破碎",
         "超级破碎（Polyfragmented）"
       ],
       "tokens": [
         {
           "normalized": "chao ji po sui ",
-          "display": "超级破碎",
-          "kind": "alias"
-        },
-        {
-          "normalized": "chaojiposui",
           "display": "超级破碎",
           "kind": "alias"
         },
@@ -7737,14 +6545,29 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "cjpsp",
-          "display": "cjpsp",
+          "normalized": "cs",
+          "display": "cs",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "chaojiposuipolyfragmented",
-          "display": "chaojiposuipolyfragmented",
+          "normalized": "chaojiposui",
+          "display": "chaojiposui",
           "kind": "pinyin_full"
+        },
+        {
+          "normalized": "chao sui ",
+          "display": "超碎",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "chaosui",
+          "display": "超碎",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "超碎",
+          "display": "超碎",
+          "kind": "synonym"
         },
         {
           "normalized": "chao ji po sui (polyfragmented)",
@@ -7783,11 +6606,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "touying",
-          "display": "投影",
-          "kind": "alias"
-        },
-        {
           "normalized": "投影",
           "display": "投影",
           "kind": "alias"
@@ -7798,13 +6616,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "typ",
-          "display": "typ",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "touyingprojection",
-          "display": "touyingprojection",
+          "normalized": "touying",
+          "display": "touying",
           "kind": "pinyin_full"
         },
         {
@@ -7839,11 +6652,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "baohuzhe",
-          "display": "保护者",
-          "kind": "alias"
-        },
-        {
           "normalized": "protector",
           "display": "Protector",
           "kind": "alias"
@@ -7859,13 +6667,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "bhzp",
-          "display": "bhzp",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "baohuzheprotector",
-          "display": "baohuzheprotector",
+          "normalized": "baohuzhe",
+          "display": "baohuzhe",
           "kind": "pinyin_full"
         },
         {
@@ -7881,6 +6684,159 @@
         {
           "normalized": "保护者（protector）",
           "display": "保护者（Protector）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/PTSD.md",
+      "title": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
+      "aliases": [
+        "PTSD",
+        "PTSD）",
+        "Post-Traumatic Stress Disorder",
+        "Post-Traumatic Stress Disorder, PTSD",
+        "chuangshanghouyingjizhangai",
+        "创伤后压力症候群",
+        "创伤后应激反应障碍",
+        "创伤后应激障碍",
+        "创伤后应激障碍（Post-Traumatic Stress Disorder",
+        "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）"
+      ],
+      "tokens": [
+        {
+          "normalized": "chuang shang hou ying ji zhang ai ",
+          "display": "创伤后应激障碍",
+          "kind": "alias"
+        },
+        {
+          "normalized": "chuang shang hou ying ji zhang ai (post-traumatic stress disorder",
+          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "chuangshanghouyingjizhangai(posttraumaticstressdisorder",
+          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "post-traumatic stress disorder",
+          "display": "Post-Traumatic Stress Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "post-traumatic stress disorder, ptsd",
+          "display": "Post-Traumatic Stress Disorder, PTSD",
+          "kind": "alias"
+        },
+        {
+          "normalized": "posttraumaticstressdisorder",
+          "display": "Post-Traumatic Stress Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "posttraumaticstressdisorder,ptsd",
+          "display": "Post-Traumatic Stress Disorder, PTSD",
+          "kind": "alias"
+        },
+        {
+          "normalized": "ptsd",
+          "display": "PTSD",
+          "kind": "alias"
+        },
+        {
+          "normalized": "ptsd)",
+          "display": "PTSD）",
+          "kind": "alias"
+        },
+        {
+          "normalized": "ptsd）",
+          "display": "PTSD）",
+          "kind": "alias"
+        },
+        {
+          "normalized": "创伤后应激障碍",
+          "display": "创伤后应激障碍",
+          "kind": "alias"
+        },
+        {
+          "normalized": "创伤后应激障碍（post-traumatic stress disorder",
+          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "创伤后应激障碍（posttraumaticstressdisorder",
+          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "cshyjfyza",
+          "display": "cshyjfyza",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "cshyjza",
+          "display": "cshyjza",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "cshylzhq",
+          "display": "cshylzhq",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "chuangshanghouyingjizhangai",
+          "display": "chuangshanghouyingjizhangai",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "chuang shang hou ya li zheng hou qun ",
+          "display": "创伤后压力症候群",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "chuang shang hou ying ji fan ying zhang ai ",
+          "display": "创伤后应激反应障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "chuangshanghouyalizhenghouqun",
+          "display": "创伤后压力症候群",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "chuangshanghouyingjifanyingzhangai",
+          "display": "创伤后应激反应障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "创伤后压力症候群",
+          "display": "创伤后压力症候群",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "创伤后应激反应障碍",
+          "display": "创伤后应激反应障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "chuang shang hou ying ji zhang ai (post-traumatic stress disorder, ptsd)",
+          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "chuangshanghouyingjizhangai(posttraumaticstressdisorder,ptsd)",
+          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "创伤后应激障碍（post-traumatic stress disorder, ptsd）",
+          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "创伤后应激障碍（posttraumaticstressdisorder,ptsd）",
+          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
           "kind": "title"
         }
       ]
@@ -7905,11 +6861,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "zhonggou",
-          "display": "重构",
-          "kind": "alias"
-        },
-        {
           "normalized": "重构",
           "display": "重构",
           "kind": "alias"
@@ -7920,13 +6871,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "zgr",
-          "display": "zgr",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "zhonggoureconstruction",
-          "display": "zhonggoureconstruction",
+          "normalized": "zhonggou",
+          "display": "zhonggou",
           "kind": "pinyin_full"
         },
         {
@@ -7971,11 +6917,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "tuixing",
-          "display": "退行",
-          "kind": "alias"
-        },
-        {
           "normalized": "退行",
           "display": "退行",
           "kind": "alias"
@@ -7986,13 +6927,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "txrip",
-          "display": "txrip",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "tuixingregressioninpsychology",
-          "display": "tuixingregressioninpsychology",
+          "normalized": "tuixing",
+          "display": "tuixing",
           "kind": "pinyin_full"
         },
         {
@@ -8038,11 +6974,6 @@
         {
           "normalized": "jing shen fen lie zheng (schizophrenia",
           "display": "精神分裂症（Schizophrenia",
-          "kind": "alias"
-        },
-        {
-          "normalized": "jingshenfenliezheng",
-          "display": "精神分裂症",
           "kind": "alias"
         },
         {
@@ -8096,23 +7027,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "jsflzs",
-          "display": "jsflzs",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "jsflzss",
-          "display": "jsflzss",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "jingshenfenliezhengschizophrenia",
-          "display": "jingshenfenliezhengschizophrenia",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "jingshenfenliezhengschizophreniasc",
-          "display": "jingshenfenliezhengschizophreniasc",
+          "normalized": "jingshenfenliezheng",
+          "display": "jingshenfenliezheng",
           "kind": "pinyin_full"
         },
         {
@@ -8147,11 +7063,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "cunzaigan",
-          "display": "存在感",
-          "kind": "alias"
-        },
-        {
           "normalized": "sense of presence",
           "display": "Sense of Presence",
           "kind": "alias"
@@ -8172,13 +7083,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "czgsop",
-          "display": "czgsop",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "cunzaigansenseofpresence",
-          "display": "cunzaigansenseofpresence",
+          "normalized": "cunzaigan",
+          "display": "cunzaigan",
           "kind": "pinyin_full"
         },
         {
@@ -8238,18 +7144,13 @@
           "kind": "alias"
         },
         {
-          "normalized": "ggdjcl",
-          "display": "ggdjcl",
+          "normalized": "ggtjcl",
+          "display": "ggtjcl",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "ggdjclsrs",
-          "display": "ggdjclsrs",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "ganguandiaojieceluesensoryregulationstrategies",
-          "display": "ganguandiaojieceluesensoryregulationstrategies",
+          "normalized": "ganguantiaojiecelve",
+          "display": "ganguantiaojiecelve",
           "kind": "pinyin_full"
         },
         {
@@ -8289,11 +7190,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "fengcun",
-          "display": "封存",
-          "kind": "alias"
-        },
-        {
           "normalized": "sequestration",
           "display": "Sequestration",
           "kind": "alias"
@@ -8309,13 +7205,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "fcs",
-          "display": "fcs",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "fengcunsequestration",
-          "display": "fengcunsequestration",
+          "normalized": "fengcun",
+          "display": "fengcun",
           "kind": "pinyin_full"
         },
         {
@@ -8365,18 +7256,13 @@
           "kind": "alias"
         },
         {
-          "normalized": "gl",
-          "display": "gl",
+          "normalized": "kl",
+          "display": "kl",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "gls",
-          "display": "gls",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "guileiservitor",
-          "display": "guileiservitor",
+          "normalized": "kuilei",
+          "display": "kuilei",
           "kind": "pinyin_full"
         },
         {
@@ -8417,11 +7303,6 @@
         {
           "normalized": "dan yi lei xi tong (single-class systems",
           "display": "单一类系统（Single-Class Systems",
-          "kind": "alias"
-        },
-        {
-          "normalized": "danyileixitong",
-          "display": "单一类系统",
           "kind": "alias"
         },
         {
@@ -8500,23 +7381,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "dylxtscs",
-          "display": "dylxtscs",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "dylxtscsxt",
-          "display": "dylxtscsxt",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "danyileixitongsingleclasssystems",
-          "display": "danyileixitongsingleclasssystems",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "danyileixitongsingleclasssystemsxianyutheory",
-          "display": "danyileixitongsingleclasssystemsxianyutheory",
+          "normalized": "danyileixitong",
+          "display": "danyileixitong",
           "kind": "pinyin_full"
         },
         {
@@ -8562,11 +7428,6 @@
         {
           "normalized": "qu ti hua zhang ai (somatic symptom disorder",
           "display": "躯体化障碍（Somatic Symptom Disorder",
-          "kind": "alias"
-        },
-        {
-          "normalized": "qutihuazhangai",
-          "display": "躯体化障碍",
           "kind": "alias"
         },
         {
@@ -8640,23 +7501,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "qthzassd",
-          "display": "qthzassd",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "qthzassds",
-          "display": "qthzassds",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "qutihuazhangaisomaticsymptomdisorder",
-          "display": "qutihuazhangaisomaticsymptomdisorder",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "qutihuazhangaisomaticsymptomdisorderssd",
-          "display": "qutihuazhangaisomaticsymptomdisorderssd",
+          "normalized": "qutihuazhangai",
+          "display": "qutihuazhangai",
           "kind": "pinyin_full"
         },
         {
@@ -8755,11 +7601,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "xihunxingxitong",
-          "display": "系魂型系统",
-          "kind": "alias"
-        },
-        {
           "normalized": "xihunxingxitong(soullinkedsystems",
           "display": "系魂型系统（Soul-Linked Systems",
           "kind": "alias"
@@ -8785,23 +7626,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "xhxxtsls",
-          "display": "xhxxtsls",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "xhxxtslsxt",
-          "display": "xhxxtslsxt",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "xihunxingxitongsoullinkedsystems",
-          "display": "xihunxingxitongsoullinkedsystems",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "xihunxingxitongsoullinkedsystemsxianyutheory",
-          "display": "xihunxingxitongsoullinkedsystemsxianyutheory",
+          "normalized": "xihunxingxitong",
+          "display": "xihunxingxitong",
           "kind": "pinyin_full"
         },
         {
@@ -8846,11 +7672,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "xihun",
-          "display": "系魂",
-          "kind": "alias"
-        },
-        {
           "normalized": "系魂",
           "display": "系魂",
           "kind": "alias"
@@ -8861,13 +7682,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "xhs",
-          "display": "xhs",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "xihunsoulbond",
-          "display": "xihunsoulbond",
+          "normalized": "xihun",
+          "display": "xihun",
           "kind": "pinyin_full"
         },
         {
@@ -8976,43 +7792,33 @@
           "kind": "alias"
         },
         {
-          "normalized": "fls",
-          "display": "fls",
+          "normalized": "fl",
+          "display": "fl",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "flszddxxfx",
-          "display": "flszddxxfx",
+          "normalized": "flzdxxfx",
+          "display": "flzdxxfx",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "flzddxxfx",
-          "display": "flzddxxfx",
+          "normalized": "zdxxfx",
+          "display": "zdxxfx",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "zddxxfx",
-          "display": "zddxxfx",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "2016zhongdedidxingxiangfenxi",
-          "display": "2016zhongdedidxingxiangfenxi",
+          "normalized": "fenlie",
+          "display": "fenlie",
           "kind": "pinyin_full"
         },
         {
-          "normalized": "fenliesplit",
-          "display": "fenliesplit",
+          "normalized": "fenliezhongdexingxiangfenxi",
+          "display": "fenliezhongdexingxiangfenxi",
           "kind": "pinyin_full"
         },
         {
-          "normalized": "fenliesplit2016zhongdedidxingxiangfenxi",
-          "display": "fenliesplit2016zhongdedidxingxiangfenxi",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "fenliezhongdedidxingxiangfenxi",
-          "display": "fenliezhongdedidxingxiangfenxi",
+          "normalized": "zhongdexingxiangfenxi",
+          "display": "zhongdexingxiangfenxi",
           "kind": "pinyin_full"
         },
         {
@@ -9057,11 +7863,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "zifaxing",
-          "display": "自发型",
-          "kind": "alias"
-        },
-        {
           "normalized": "自发型",
           "display": "自发型",
           "kind": "alias"
@@ -9072,13 +7873,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "zfxs",
-          "display": "zfxs",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "zifaxingspontaneous",
-          "display": "zifaxingspontaneous",
+          "normalized": "zifaxing",
+          "display": "zifaxing",
           "kind": "pinyin_full"
         },
         {
@@ -9123,11 +7919,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "yingjifanying",
-          "display": "应激反应",
-          "kind": "alias"
-        },
-        {
           "normalized": "应激反应",
           "display": "应激反应",
           "kind": "alias"
@@ -9138,13 +7929,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "yjfysr",
-          "display": "yjfysr",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "yingjifanyingstressresponse",
-          "display": "yingjifanyingstressresponse",
+          "normalized": "yingjifanying",
+          "display": "yingjifanying",
           "kind": "pinyin_full"
         },
         {
@@ -9204,18 +7990,13 @@
           "kind": "alias"
         },
         {
-          "normalized": "jgxjcll",
-          "display": "jgxjcll",
+          "normalized": "jgxjlll",
+          "display": "jgxjlll",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "jgxjclltosd",
-          "display": "jgxjclltosd",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "jiegouxingjiechililuntheoryofstructuraldissociation",
-          "display": "jiegouxingjiechililuntheoryofstructuraldissociation",
+          "normalized": "jiegouxingjielililun",
+          "display": "jiegouxingjielililun",
           "kind": "pinyin_full"
         },
         {
@@ -9255,11 +8036,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "qiehuan",
-          "display": "切换",
-          "kind": "alias"
-        },
-        {
           "normalized": "switch",
           "display": "Switch",
           "kind": "alias"
@@ -9275,13 +8051,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "qhs",
-          "display": "qhs",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "qiehuanswitch",
-          "display": "qiehuanswitch",
+          "normalized": "qiehuan",
+          "display": "qiehuan",
           "kind": "pinyin_full"
         },
         {
@@ -9385,13 +8156,8 @@
           "kind": "alias"
         },
         {
-          "normalized": "xbes",
-          "display": "xbes",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "xbesydzrgwhyx",
-          "display": "xbesydzrgwhyx",
+          "normalized": "xbe",
+          "display": "xbe",
           "kind": "pinyin_abbr"
         },
         {
@@ -9405,23 +8171,18 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "1976yuduozhongrengewenhuayuanxing",
-          "display": "1976yuduozhongrengewenhuayuanxing",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "xibiersybil",
-          "display": "xibiersybil",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "xibiersybil1976yuduozhongrengewenhuayuanxing",
-          "display": "xibiersybil1976yuduozhongrengewenhuayuanxing",
+          "normalized": "xibier",
+          "display": "xibier",
           "kind": "pinyin_full"
         },
         {
           "normalized": "xibieryuduozhongrengewenhuayuanxing",
           "display": "xibieryuduozhongrengewenhuayuanxing",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "yuduozhongrengewenhuayuanxing",
+          "display": "yuduozhongrengewenhuayuanxing",
           "kind": "pinyin_full"
         },
         {
@@ -9461,11 +8222,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "rengezhineng",
-          "display": "人格职能",
-          "kind": "alias"
-        },
-        {
           "normalized": "system roles",
           "display": "System Roles",
           "kind": "alias"
@@ -9486,13 +8242,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "rgznsr",
-          "display": "rgznsr",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "rengezhinengsystemroles",
-          "display": "rengezhinengsystemroles",
+          "normalized": "rengezhineng",
+          "display": "rengezhineng",
           "kind": "pinyin_full"
         },
         {
@@ -9537,11 +8288,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "xitong",
-          "display": "系统",
-          "kind": "alias"
-        },
-        {
           "normalized": "系统",
           "display": "系统",
           "kind": "alias"
@@ -9552,13 +8298,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "xts",
-          "display": "xts",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "xitongsystem",
-          "display": "xitongsystem",
+          "normalized": "xitong",
+          "display": "xitong",
           "kind": "pinyin_full"
         },
         {
@@ -9593,11 +8334,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "qingshaonianyishiti",
-          "display": "青少年意识体",
-          "kind": "alias"
-        },
-        {
           "normalized": "teen part",
           "display": "Teen Part",
           "kind": "alias"
@@ -9618,13 +8354,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "qsnysttp",
-          "display": "qsnysttp",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "qingshaonianyishititeenpart",
-          "display": "qingshaonianyishititeenpart",
+          "normalized": "qingshaonianyishiti",
+          "display": "qingshaonianyishiti",
           "kind": "pinyin_full"
         },
         {
@@ -9743,43 +8474,33 @@
           "kind": "alias"
         },
         {
-          "normalized": "djcdzqyszx",
-          "display": "djcdzqyszx",
+          "normalized": "djldzqyszx",
+          "display": "djldzqyszx",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "smxwdjcdzqyszx",
-          "display": "smxwdjcdzqyszx",
+          "normalized": "smxw",
+          "display": "smxw",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "smxwttfoe",
-          "display": "smxwttfoe",
+          "normalized": "smxwdjldzqyszx",
+          "display": "smxwdjldzqyszx",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "smxwttfoedjcdzqyszx",
-          "display": "smxwttfoedjcdzqyszx",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "1957duijiechidezaoqiyingshizaixian",
-          "display": "1957duijiechidezaoqiyingshizaixian",
+          "normalized": "duijielidezaoqiyingshizaixian",
+          "display": "duijielidezaoqiyingshizaixian",
           "kind": "pinyin_full"
         },
         {
-          "normalized": "sanmianxiawaduijiechidezaoqiyingshizaixian",
-          "display": "sanmianxiawaduijiechidezaoqiyingshizaixian",
+          "normalized": "sanmianxiawa",
+          "display": "sanmianxiawa",
           "kind": "pinyin_full"
         },
         {
-          "normalized": "sanmianxiawathethreefacesofeve",
-          "display": "sanmianxiawathethreefacesofeve",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "sanmianxiawathethreefacesofeve1957duijiechidezaoqiyingshizaixian",
-          "display": "sanmianxiawathethreefacesofeve1957duijiechidezaoqiyingshizaixian",
+          "normalized": "sanmianxiawaduijielidezaoqiyingshizaixian",
+          "display": "sanmianxiawaduijielidezaoqiyingshizaixian",
           "kind": "pinyin_full"
         },
         {
@@ -9844,23 +8565,13 @@
           "kind": "alias"
         },
         {
-          "normalized": "dfptrqzdtwhjd",
-          "display": "dfptrqzdtwhjd",
+          "normalized": "dftrqzdwhjd",
+          "display": "dftrqzdwhjd",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "dfptrqzdtwhjdttf",
-          "display": "dfptrqzdtwhjdttf",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "dongfangprojecttongrenquanzhongdetulpawenhuajiedu",
-          "display": "dongfangprojecttongrenquanzhongdetulpawenhuajiedu",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "dongfangprojecttongrenquanzhongdetulpawenhuajiedutouhoutulpafandom",
-          "display": "dongfangprojecttongrenquanzhongdetulpawenhuajiedutouhoutulpafandom",
+          "normalized": "dongfangtongrenquanzhongdewenhuajiedu",
+          "display": "dongfangtongrenquanzhongdewenhuajiedu",
           "kind": "pinyin_full"
         },
         {
@@ -9903,11 +8614,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "chuangshang",
-          "display": "创伤",
-          "kind": "alias"
-        },
-        {
           "normalized": "trauma",
           "display": "Trauma",
           "kind": "alias"
@@ -9923,11 +8629,6 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "cst",
-          "display": "cst",
-          "kind": "pinyin_abbr"
-        },
-        {
           "normalized": "jscs",
           "display": "jscs",
           "kind": "pinyin_abbr"
@@ -9938,8 +8639,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "chuangshangtrauma",
-          "display": "chuangshangtrauma",
+          "normalized": "chuangshang",
+          "display": "chuangshang",
           "kind": "pinyin_full"
         },
         {
@@ -10019,18 +8720,13 @@
           "kind": "alias"
         },
         {
-          "normalized": "hf",
-          "display": "hf",
+          "normalized": "cf",
+          "display": "cf",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "hft",
-          "display": "hft",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "hongfatrigger",
-          "display": "hongfatrigger",
+          "normalized": "chufa",
+          "display": "chufa",
           "kind": "pinyin_full"
         },
         {
@@ -10070,11 +8766,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "tupa",
-          "display": "图帕",
-          "kind": "alias"
-        },
-        {
           "normalized": "图帕",
           "display": "图帕",
           "kind": "alias"
@@ -10085,13 +8776,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "tpt",
-          "display": "tpt",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "tupatulpa",
-          "display": "tupatulpa",
+          "normalized": "tupa",
+          "display": "tupa",
           "kind": "pinyin_full"
         },
         {
@@ -10146,18 +8832,13 @@
           "kind": "alias"
         },
         {
-          "normalized": "ty",
-          "display": "ty",
+          "normalized": "y",
+          "display": "y",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "tyt",
-          "display": "tyt",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "tyutulpish",
-          "display": "tyutulpish",
+          "normalized": "yu",
+          "display": "yu",
           "kind": "pinyin_full"
         },
         {
@@ -10222,19 +8903,9 @@
           "kind": "alias"
         },
         {
-          "normalized": "wymldyztusotzdxtjtrc",
-          "display": "wymldyztusotzdxtjtrc",
-          "kind": "pinyin_abbr"
-        },
-        {
           "normalized": "wymldyzzdxtjtrc",
           "display": "wymldyzzdxtjtrc",
           "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "woyumengludeyizhoutheunitedstatesoftarazhongdexitongjiatingrichang",
-          "display": "woyumengludeyizhoutheunitedstatesoftarazhongdexitongjiatingrichang",
-          "kind": "pinyin_full"
         },
         {
           "normalized": "woyumengludeyizhouzhongdexitongjiatingrichang",
@@ -10302,11 +8973,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "neishi",
-          "display": "内视",
-          "kind": "alias"
-        },
-        {
           "normalized": "neishi(visualization",
           "display": "内视（Visualization",
           "kind": "alias"
@@ -10342,23 +9008,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "nsv",
-          "display": "nsv",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "nsvi",
-          "display": "nsvi",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "neishivisualization",
-          "display": "neishivisualization",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "neishivisualizationimagination",
-          "display": "neishivisualizationimagination",
+          "normalized": "neishi",
+          "display": "neishi",
           "kind": "pinyin_full"
         },
         {
@@ -10403,11 +9054,6 @@
           "kind": "alias"
         },
         {
-          "normalized": "xianyulilunshengtaiweifenleifa",
-          "display": "弦羽理论生态位分类法",
-          "kind": "alias"
-        },
-        {
           "normalized": "xianyutheoryofnicheclassification",
           "display": "Xianyu Theory of Niche Classification",
           "kind": "alias"
@@ -10423,13 +9069,8 @@
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "xyllstwflfxtonc",
-          "display": "xyllstwflfxtonc",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "xianyulilunshengtaiweifenleifaxianyutheoryofnicheclassification",
-          "display": "xianyulilunshengtaiweifenleifaxianyutheoryofnicheclassification",
+          "normalized": "xianyulilunshengtaiweifenleifa",
+          "display": "xianyulilunshengtaiweifenleifa",
           "kind": "pinyin_full"
         },
         {

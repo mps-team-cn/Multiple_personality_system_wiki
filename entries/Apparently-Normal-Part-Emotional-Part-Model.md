@@ -2,8 +2,8 @@
 tags:
 - ANP
 - EP
-- CPTSD
 - 解离性身份障碍_DID
+- CPTSD
 - 其他特定解离性障碍_OSDD
 title: ANP-EP 模型（Apparently Normal Part–Emotional Part Model）
 updated: 2025-10-03

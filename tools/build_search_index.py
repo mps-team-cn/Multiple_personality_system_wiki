@@ -1,6 +1,7 @@
 """构建 Docsify 标题搜索的增强索引。"""
 
 from __future__ import annotations
+from pypinyin import lazy_pinyin, Style  # type: ignore
 
 import argparse
 import json
@@ -161,25 +162,24 @@ def add_token(
 
 
 def add_pinyin(token_map: Dict[str, Token], text: str) -> None:
-    """根据中文文本添加拼音全拼与首字母。"""
-
-    if not has_chinese(text):
+    """使用 pypinyin 生成中文全拼与首字母，避免 unidecode 的误判。"""
+    # 仅保留中文部分参与拼音计算，避免英文/括号干扰
+    han = "".join(re.findall(r"[\u4e00-\u9fff]", text))
+    if not han:
         return
 
-    ascii_text = unidecode(text)
-    letters = re.sub(r"[^a-z0-9]", "", ascii_text.lower())
+    # 多音字用常用读音；需要更精细可用 heteronym=True 再做词典消歧
+    full_list = lazy_pinyin(han, style=Style.NORMAL, errors="ignore")
+    abbr_list = lazy_pinyin(han, style=Style.FIRST_LETTER, errors="ignore")
 
-    initials = "".join(
-        word[0]
-        for word in re.findall(r"[a-zA-Z]+", ascii_text)
-        if word
-    ).lower()
-    initials = re.sub(r"[^a-z0-9]", "", initials)
+    full = "".join(full_list).lower()
+    abbr = "".join(abbr_list).lower()
 
-    if letters:
-        add_token(token_map, letters, "pinyin_full", letters)
-    if initials:
-        add_token(token_map, initials, "pinyin_abbr", initials)
+    if full:
+        add_token(token_map, full, "pinyin_full", full)
+    if abbr:
+        add_token(token_map, abbr, "pinyin_abbr", abbr)
+
 
 
 def build_entry_index(markdown_path: Path) -> Dict[str, object] | None:

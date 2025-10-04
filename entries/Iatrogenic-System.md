@@ -31,13 +31,13 @@ updated: 2025-10-03
 ## 相关条目
 
 - [碎片（Fragment）](/entries/Fragment.md)
-- [伪主体（Fauxmain）](/entries/Fauxmain.md)
 - [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [伪主体（Fauxmain）](/entries/Fauxmain.md)
 - [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
-- [主体（Main）](/entries/Main.md)
-- [核心（Core）](/entries/Core.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 - [迭代（Iteration）](/entries/Iteration.md)
+- [核心（Core）](/entries/Core.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
 
 ## 参考与延伸阅读
 

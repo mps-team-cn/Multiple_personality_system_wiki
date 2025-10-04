@@ -39,7 +39,7 @@ updated: 2025-10-03
 - [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
 - [人格面具（Persona）](/entries/Persona.md)
 - [自发型（Spontaneous）](/entries/Spontaneous.md)
-- [人格职能（System Roles）](/entries/System-Roles.md)
+- [主体（Main）](/entries/Main.md)
 
 ## 参考资料
 
