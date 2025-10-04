@@ -1,6 +1,11 @@
 ---
 title: 创伤（Trauma）
 tags: [创伤, 治疗支持, 定义与同义词, 精神创伤, 风险与保护因素, 鉴别诊断, 参考与延伸阅读, 诊断与临床]
+synonyms:
+  - 心理创伤
+  - 精神创伤
+  - Trauma
+  - chuangshang
 updated: 2025-10-03
 ---
 

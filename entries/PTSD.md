@@ -1,6 +1,13 @@
 ---
 title: 创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）
 tags: [创伤后应激障碍 PTSD, 定义与同义词, 创伤后应激反应障碍, 社群与临床语境, 常见误区, 实务建议, 参考与延伸阅读, 诊断与临床]
+synonyms:
+  - 创伤后应激障碍
+  - 创伤后压力症候群
+  - 创伤后应激反应障碍
+  - Post-Traumatic Stress Disorder
+  - PTSD
+  - chuangshanghouyingjizhangai
 updated: 2025-10-03
 ---
 

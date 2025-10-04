@@ -2,7 +2,8 @@
 
 以下内容可直接复制，用于新建条目。
 
-- 新建词条时请先填写 Frontmatter：`title`（一级标题文字）、`tags`（一个或多个分类标签）、`updated`（YYYY-MM-DD）。
+- 新建词条时请先填写 Frontmatter：`title`（一级标题文字）、`tags`（一个或多个分类标签）、`synonyms`（同义词/别名列表）、`updated`（YYYY-MM-DD）。
+- `synonyms` 使用 YAML 列表，建议包含中文别名、英文缩写以及常见拼音写法，以便搜索索引归一化。
 - Frontmatter 仅作为站内脚本与索引的元数据，页面渲染时不会显示这些字段。
 - `tags` 建议与 `tags.md` 中已有标签保持一致，可按需要追加多个标签。
 
@@ -13,6 +14,9 @@
 ---
 title: 条目中文名（English/缩写）
 tags: [诊断与临床]
+synonyms:
+  - 同义词示例
+  - alias
 updated: YYYY-MM-DD
 ---
 
