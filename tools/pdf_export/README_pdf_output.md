@@ -39,6 +39,15 @@ python tools/pdf_export/export_to_pdf.py --cjk-font "Noto Serif CJK SC"
 python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei" # Windows
 ```
 
+当指定了 `--cjk-font` 而未提供 `--main-font` 时，脚本会自动将主字体与中文字体保持一致，避免罗马数字（Ⅰ、Ⅱ 等）或数学符号在 `tectonic` 等引擎下回退为缺字方框。若需要分别为正文、无衬线与等宽文本配置不同字体，可使用下列参数：
+
+```bash
+python tools/pdf_export/export_to_pdf.py --main-font "Noto Serif" --cjk-font "Noto Serif CJK SC"
+python tools/pdf_export/export_to_pdf.py --sans-font "Noto Sans" --mono-font "JetBrains Mono"
+```
+
+上述字体参数会分别映射到 Pandoc 的 `mainfont`、`sansfont`、`monofont` 变量，可灵活组合使用。
+
 脚本会自动检测上述常见引擎，如果缺失会提示安装方式。也可以通过 `--pdf-engine` 参数显式指定要使用的引擎，例如：
 
 ```bash
