@@ -3,6 +3,9 @@ tags:
 - 多重意识体
 - 解离
 - 创伤
+synonyms:
+- 独立意识
+- Independence
 title: 独立性（Independence）
 updated: 2025-10-03
 ---
