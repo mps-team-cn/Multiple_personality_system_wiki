@@ -1,5 +1,36 @@
 # 更新日志
 
+## v2.1.0 (2025-10-04)
+
+### ✨ 新增
+
+- 维护“超级破碎者”词条（[394a5f6](https://github.com/kuliantnt/plurality_wiki/commit/394a5f6b3d463d274904173448b528545c0ec5a0)）
+- 新增词条「去现实化」「内部沟通」，并更新「结构性解离理论」与相关索引（[0b1e156](https://github.com/kuliantnt/plurality_wiki/commit/0b1e1568bb61035a1c8e1ad2040fc838b2b9ea59)）
+- 新增词条「习得性无助」（[9bd6bfe](https://github.com/kuliantnt/plurality_wiki/commit/9bd6bfea818bdc6d9268026a7c9135c2ebd1c9e6)）
+- 删除过时的 Codex 上下文与计划文件，简化项目结构（[5e3890f](https://github.com/kuliantnt/plurality_wiki/commit/5e3890f2d019fcd170b6bf6396a1322e7b67c8c1)）
+- 更新 `.gitignore` 以包含 Codex 相关文件（[4c248ba](https://github.com/kuliantnt/plurality_wiki/commit/4c248bab4679422035a266672ddc749c44391798)）
+- 按照拼音的方式优化搜索（[3645a0e](https://github.com/kuliantnt/plurality_wiki/commit/3645a0e0aa1f1bb0fc43cf7f8dbcc5fc297263dd)）
+
+### 🐛 修复（链接/引用/格式）
+
+- 修正标题别名提取并重建搜索索引（[3645a0e](https://github.com/kuliantnt/plurality_wiki/commit/3645a0e0aa1f1bb0fc43cf7f8dbcc5fc297263dd)）
+- 同义词与元数据维护：补全《独立性》词条同义词，修正 synonyms 配置（[2e9b455](https://github.com/kuliantnt/plurality_wiki/commit/2e9b455800607bcfc6e8313ad102e00b70ca0c5d)，[61329aa](https://github.com/kuliantnt/plurality_wiki/commit/61329aa0579ffbad3149b8315d1cb2e3e24e6733)）
+- 标签与搜索相关修复与优化：调整标签匹配/优化过滤、修复标签页功能（代表性提交：[8c2612c](https://github.com/kuliantnt/plurality_wiki/commit/8c2612cf976a0422a431b3d1fb6226acfcabdcba)，[37f83b3](https://github.com/kuliantnt/plurality_wiki/commit/37f83b3256f5405be4054d7807068518bb20b961)）
+- 自动化与 CI：修复 GitHub CI 与自动化维护脚本缺陷（[e0e4743](https://github.com/kuliantnt/plurality_wiki/commit/e0e4743e805e45e9135d8650c5b4aeab104243cf)，[337e805](https://github.com/kuliantnt/plurality_wiki/commit/337e805e116ef059dd6860db37796bf3d821a001)）
+
+### 📝 文档与索引（不影响语义）
+
+- 更新管理员维护手册（[df15786](https://github.com/kuliantnt/plurality_wiki/commit/df15786c86c9f3991c01f31014e8a46d02df420b)）
+
+### 📦 杂务（脚本/CI/批处理）
+
+- 修复 `change.log` 命名错误（[cdf6325](https://github.com/kuliantnt/plurality_wiki/commit/cdf6325f8a6b0dad3b50963af6835bd3625443f3)）
+- 更新维护脚本与管理员指南（[58dffa3](https://github.com/kuliantnt/plurality_wiki/commit/58dffa350ef01d361cd3d8203d406e80b4a8c751)）
+- 安装文档检查依赖（[bcc546a](https://github.com/kuliantnt/plurality_wiki/commit/bcc546ad233d518859e22c3cb211bb6c653c5075)）
+- 维护自动化脚本与标签索引模块（[24cb674](https://github.com/kuliantnt/plurality_wiki/commit/24cb67477e18eb3a3224271d7341068959c96e92)）
+
+— 由 Git 提交记录自动生成
+
 ## v2.0.0 (2025-10-04)
 
 ### ✨ 新增
