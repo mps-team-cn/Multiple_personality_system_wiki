@@ -21,3 +21,4 @@ chang.log
 .codex/**/logs/
 # === End Codex ===
 tools/__pycache__/generate_tags_index.cpython-313.pyc
+tools/__pycache__/retag_and_related.cpython-313.pyc
