@@ -46,13 +46,13 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
 - [成员（Alter）](/entries/Alter.md)
-- [后台（Back / Being Back）](/entries/Back-Being-Back.md)
+- [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
 - [外投射（External Projection）](/entries/External-Projection.md)
-- [切换（Switch）](/entries/Switch.md)
-- [共前台（Co-fronting）](/entries/Co-Fronting.md)
+- [后台（Back / Being Back）](/entries/Back-Being-Back.md)
 - [前台（Front / Fronting）](/entries/Front-Fronting.md)
+- [共前台（Co-fronting）](/entries/Co-Fronting.md)
+- [切换（Switch）](/entries/Switch.md)
 - [权限（Permissions）](/entries/Permissions.md)
 
 ## 参考与延伸阅读

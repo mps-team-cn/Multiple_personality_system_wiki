@@ -40,12 +40,12 @@ updated: 2025-10-03
 
 - [初始（Original）](/entries/Original.md)
 - [执行者（Performer / Executive）](/entries/Performer-Executive.md)
-- [主体（Main）](/entries/Main.md)
 - [人格职能（System Roles）](/entries/System-Roles.md)
-- [成员（Alter）](/entries/Alter.md)
 - [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](/entries/Touhou-Tulpa-Fandom.md)
 - [幻想伙伴（Imaginary Companion）](/entries/Imaginary-Companion.md)
+- [主体（Main）](/entries/Main.md)
 - [《妄想代理人》（Paranoia Agent）与集体意识的具象化](/entries/Paranoia-Agent-Collective-Consciousness.md)
+- [成员（Alter）](/entries/Alter.md)
 
 ## 参考资料
 

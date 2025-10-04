@@ -1,6 +1,6 @@
 ---
 tags:
-- 解离性身份障碍 DID
+- 解离性身份障碍_DID
 - 多重意识体
 - 解离
 title: 系统（System）
@@ -71,14 +71,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [多意识体（Plurality）](/entries/Plurality.md)
-- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
-- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](/entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
-- [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](/entries/Partial-Dissociative-Identity-Disorder-PDID.md)
+- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
 - [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
-- [混合（Blending）](/entries/Blending.md)
+- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](/entries/Another-Me-DID-Depictions.md)
+- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](/entries/Fight-Club-1999-Identity-Metaphor.md)
+- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
 
 ## 参考与延伸阅读
 

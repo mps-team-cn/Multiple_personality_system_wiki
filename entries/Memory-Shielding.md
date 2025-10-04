@@ -36,12 +36,12 @@ Memory Shielding、Amnesiacflux、屏蔽记忆
 
 - [独有记忆（Exomemory）](/entries/Exomemory.md)
 - [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
-- [成员（Alter）](/entries/Alter.md)
 - [独立性（Independence）](/entries/Independence.md)
+- [碎片（Fragment）](/entries/Fragment.md)
 - [融合（Fusion）](/entries/Fusion.md)
 - [权限（Permissions）](/entries/Permissions.md)
 - [迭代（Iteration）](/entries/Iteration.md)
-- [整合（Integration）](/entries/Integration.md)
+- [人格职能（System Roles）](/entries/System-Roles.md)
 
 ## 参考与延伸阅读
 

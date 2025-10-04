@@ -79,9 +79,9 @@ updated: 2025-10-03
 - [系魂型系统（Soul-Linked Systems, Xianyu Theory）](/entries/Soul-Linked-Systems-Xianyu.md)
 - [家族式系统（Family Systems, Xianyu Theory）](/entries/Family-Systems-Xianyu.md)
 - [T 语（Tulpish）](/entries/Tulpish.md)
-- [偏重（Bias / Median）](/entries/Bias.md)
-- [自发型（Spontaneous）](/entries/Spontaneous.md)
 - [创伤（Trauma）](/entries/Trauma.md)
+- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
+- [偏重（Bias / Median）](/entries/Bias.md)
 
 ## 参考与来源
 

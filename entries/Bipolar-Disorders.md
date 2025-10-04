@@ -81,12 +81,12 @@ DSM-5-TR 强调发作次数与症状数量阈值，ICD-11 则聚焦发作时段�
 
 - [躁狂（Mania）](/entries/Mania.md)
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
-- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
+- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [谵妄（Delirium）](/entries/Delirium.md)
 - [定向障碍（Disorientation）](/entries/Disorientation.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
-- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
+- [习得性无助（Learned Helplessness）](/entries/Learned-Helplessness.md)
 
 ## 参考与延伸阅读
 

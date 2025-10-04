@@ -1,7 +1,7 @@
 ---
 tags:
 - '3.0'
-- 管理者
+- 管理员
 - 多重意识体
 title: 管理者（Admin）
 updated: 2025-10-03
@@ -49,9 +49,9 @@ updated: 2025-10-03
 - [混合（Blending）](/entries/Blending.md)
 - [整合（Integration）](/entries/Integration.md)
 - [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
-- [成员（Alter）](/entries/Alter.md)
-- [伪主体（Fauxmain）](/entries/Fauxmain.md)
 - [多意识体（Plurality）](/entries/Plurality.md)
+- [成员（Alter）](/entries/Alter.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 
 ## 参考与延伸阅读
 

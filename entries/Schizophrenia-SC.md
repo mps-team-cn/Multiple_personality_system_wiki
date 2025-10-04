@@ -61,13 +61,13 @@ ICD-11 对精神分裂症的诊断强调以下要点：
 ## 相关条目
 
 - [躁狂（Mania）](/entries/Mania.md)
-- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
+- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
+- [谵妄（Delirium）](/entries/Delirium.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
 - [定向障碍（Disorientation）](/entries/Disorientation.md)
-- [谵妄（Delirium）](/entries/Delirium.md)
 
 ## 参考资料
 

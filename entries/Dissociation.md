@@ -1,9 +1,9 @@
 ---
 tags:
 - 解离
-- 解离性身份障碍 DID
-- 其他特定解离性障碍 OSDD
 - DPDR
+- 解离性身份障碍_DID
+- 其他特定解离性障碍_OSDD
 title: 解离（Dissociation）
 updated: 2025-10-03
 ---
@@ -27,7 +27,7 @@ updated: 2025-10-03
 - [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](/entries/Another-Me-DID-Depictions.md)
 - [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
 - [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](/entries/Fight-Club-1999-Identity-Metaphor.md)
+- [系统（System）](/entries/System.md)
 - [其他特定解离性障碍（OSDD）](/entries/OSDD.md)
-- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
-- [多意识体（Plurality）](/entries/Plurality.md)
 - [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
+- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)

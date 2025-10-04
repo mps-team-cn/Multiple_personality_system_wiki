@@ -31,13 +31,13 @@ updated: 2025-10-03
 ## 相关条目
 
 - [伪主体（Fauxmain）](/entries/Fauxmain.md)
-- [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
+- [《我与梦露的一周》（The United States of Tara）中的系统家庭日常](/entries/United-States-Of-Tara-System-Daily-Life.md)
 - [人格面具（Persona）](/entries/Persona.md)
-- [重构（Reconstruction）](/entries/Reconstruction.md)
-- [碎片（Fragment）](/entries/Fragment.md)
-- [成员（Alter）](/entries/Alter.md)
-- [迭代（Iteration）](/entries/Iteration.md)
 - [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](/entries/Three-Faces-Of-Eve-1957-Dissociation.md)
+- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
+- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](/entries/Dostoevsky-The-Double-Self-Division.md)
+- [《隐形人》（Mr. Robot）中的人格分裂叙事](/entries/Mr-Robot-DID-Narrative.md)
+- [《西比尔》（Sybil, 1976）与多重人格文化原型](/entries/Sybil-1976-Cultural-Prototype.md)
 
 ## 参考与延伸阅读
 

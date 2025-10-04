@@ -49,8 +49,8 @@ updated: 2025-10-03
 
 - [执行者（Performer / Executive）](/entries/Performer-Executive.md)
 - [青少年意识体（Teen Part）](/entries/Teen.md)
-- [迫害者（Persecutor）](/entries/Persecutor.md)
 - [保护者（Protector）](/entries/Protector.md)
+- [迫害者（Persecutor）](/entries/Persecutor.md)
 - [小孩意识体（Little / Child Part）](/entries/Little.md)
 - [照顾者（Caregiver）](/entries/Caregiver.md)
 - [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)

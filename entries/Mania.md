@@ -70,8 +70,8 @@ _若出现自我伤害、他人伤害或判断力显著受损，请立即联系�
 
 - [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
-- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
+- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [谵妄（Delirium）](/entries/Delirium.md)
 - [定向障碍（Disorientation）](/entries/Disorientation.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)

@@ -48,11 +48,11 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](/entries/Touhou-Tulpa-Fandom.md)
-- [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](/entries/Madoka-Magica-Kyubey-Otherness.md)
-- [《妄想代理人》（Paranoia Agent）与集体意识的具象化](/entries/Paranoia-Agent-Collective-Consciousness.md)
-- [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](/entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
-- [《隐形人》（Mr. Robot）中的人格分裂叙事](/entries/Mr-Robot-DID-Narrative.md)
-- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](/entries/Dostoevsky-The-Double-Self-Division.md)
 - [《我与梦露的一周》（The United States of Tara）中的系统家庭日常](/entries/United-States-Of-Tara-System-Daily-Life.md)
 - [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
+- [《隐形人》（Mr. Robot）中的人格分裂叙事](/entries/Mr-Robot-DID-Narrative.md)
+- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](/entries/Dostoevsky-The-Double-Self-Division.md)
+- [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](/entries/Touhou-Tulpa-Fandom.md)
+- [《妄想代理人》（Paranoia Agent）与集体意识的具象化](/entries/Paranoia-Agent-Collective-Consciousness.md)
+- [《西比尔》（Sybil, 1976）与多重人格文化原型](/entries/Sybil-1976-Cultural-Prototype.md)
+- [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](/entries/Madoka-Magica-Kyubey-Otherness.md)

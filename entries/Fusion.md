@@ -34,10 +34,10 @@ updated: 2025-10-03
 
 - [迭代（Iteration）](/entries/Iteration.md)
 - [整合（Integration）](/entries/Integration.md)
-- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
 - [非我感（Depersonalization）](/entries/Depersonalization.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 - [独有记忆（Exomemory）](/entries/Exomemory.md)
 - [应激反应（Stress Response）](/entries/Stress-Response.md)
 

@@ -35,9 +35,9 @@ updated: 2025-10-03
 - [后台（Back / Being Back）](/entries/Back-Being-Back.md)
 - [成员（Alter）](/entries/Alter.md)
 - [切换（Switch）](/entries/Switch.md)
-- [权限（Permissions）](/entries/Permissions.md)
 - [外投射（External Projection）](/entries/External-Projection.md)
 - [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
+- [权限（Permissions）](/entries/Permissions.md)
 - [内部空间（Headspace / Inner World）](/entries/Headspace-Inner-World.md)
 
 ## 参考与延伸阅读

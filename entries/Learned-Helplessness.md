@@ -87,14 +87,14 @@ updated: 2025-10-04
 
 ## 相关条目
 
-- [应激反应（Stress Response）](/entries/Stress-Response.md)
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
-- [定向障碍（Disorientation）](/entries/Disorientation.md)
+- [应激反应（Stress Response）](/entries/Stress-Response.md)
 - [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
+- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
+- [谵妄（Delirium）](/entries/Delirium.md)
+- [定向障碍（Disorientation）](/entries/Disorientation.md)
 - [非我感（Depersonalization）](/entries/Depersonalization.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
-- [迭代（Iteration）](/entries/Iteration.md)
-- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 
 ## 参考文献
 

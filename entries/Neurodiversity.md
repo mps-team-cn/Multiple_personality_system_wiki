@@ -53,8 +53,8 @@ updated: 2025-10-03
 - [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](/entries/Three-Faces-Of-Eve-1957-Dissociation.md)
 - [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
 - [《隐形人》（Mr. Robot）中的人格分裂叙事](/entries/Mr-Robot-DID-Narrative.md)
+- [人格面具（Persona）](/entries/Persona.md)
 - [感官调节策略（Sensory Regulation Strategies）](/entries/Sensory-Regulation-Strategies.md)
-- [迭代（Iteration）](/entries/Iteration.md)
 
 ## 参考与延伸阅读
 
