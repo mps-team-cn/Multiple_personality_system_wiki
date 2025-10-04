@@ -1,7 +1,7 @@
 tectonic.exe
 tools/pdf_export/pdf_export/__pycache__/*
 *.pdf
-chang.log
+*.log
 .obsidian/app.json
 .obsidian/appearance.json
 .obsidian/core-plugins.json
