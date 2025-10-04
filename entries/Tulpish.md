@@ -54,9 +54,9 @@ T 语（Tulpish）是一种**非语言、符号化的沟通系统**，常见于�
 
 - [成员（Alter）](/entries/Alter.md)
 - [外投射（External Projection）](/entries/External-Projection.md)
-- [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
 - [适应型（Adaptive）](/entries/Adaptive.md)
 - [后台（Back / Being Back）](/entries/Back-Being-Back.md)
+- [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
 - [前台（Front / Fronting）](/entries/Front-Fronting.md)
 - [权限（Permissions）](/entries/Permissions.md)
 - [超级破碎（Polyfragmented）](/entries/Polyfragmented.md)

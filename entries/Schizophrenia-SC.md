@@ -61,10 +61,10 @@ ICD-11 对精神分裂症的诊断强调以下要点：
 - [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](/entries/Narcissistic-Personality-Disorder-NPD.md)
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
 - [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
+- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
 - [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
 - [躁狂（Mania）](/entries/Mania.md)
-- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 
 ## 参考资料
 

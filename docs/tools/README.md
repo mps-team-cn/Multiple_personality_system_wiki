@@ -14,9 +14,15 @@
 | `tools/gen-validation-report.py` | 校验词条结构并生成 `docs/VALIDATION_REPORT.md` | `python tools/gen-validation-report.py` |
 | `tools/retag_and_related.py` | 批量重建 Frontmatter 标签并生成“相关词条”区块 | `python tools/retag_and_related.py` 或 `python tools/retag_and_related.py --dry-run --limit 5` |
 | `tools/run_local_updates.sh` / `tools/run_local_updates.bat` | 串联常用维护脚本，一键完成日常更新任务 | `bash tools/run_local_updates.sh` 或 `tools\run_local_updates.bat`（均支持 `--skip-*` 选项） |
-| `generate_tags_index.py` | 扫描 Frontmatter 标签并生成 `tags.md` 索引 | `python generate_tags_index.py` |
+| `generate_tags_index.py` | 扫描 Frontmatter 标签并生成 `tags.md` 索引 | `python tools/generate_tags_index.py` |
 
 如需新增脚本，请保持功能说明与示例用法同步更新本章节，方便贡献者快速定位维护工具。
+
+### `retag_and_related.py` 标签过滤策略
+
+- 自 2025 年起，脚本会自动忽略以“与”“在”“用于”等功能性词汇开头的段落标题，避免将“与治疗协作”“在多意识体语境中的使用”这类结构性语句当作标签；
+- 对仅包含数字或纯中文空格组合的候选标签进行过滤，减少“1957”“与性别 年龄表达”等无效标签；
+- 仍保留既有 Frontmatter 标签的权重优势，运行脚本不会意外删除手动维护的核心标签。
 
 ## 使用建议
 
@@ -68,7 +74,7 @@ markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor
 
 ### 标签索引维护
 
-- `python generate_tags_index.py` 会解析词条 Frontmatter 中的 `tags`，按标签分组生成 `tags.md`；
+- `python tools/generate_tags_index.py` 会解析词条 Frontmatter 中的 `tags`，按标签分组生成 `tags.md`；
 - 更新或新增词条后务必重新运行该脚本，确保索引与仓库内容一致；
 - CI 会在 PR 中执行脚本并检查 `tags.md` 是否最新。
 

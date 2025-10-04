@@ -30,8 +30,8 @@ updated: 2025-10-03
 ## 相关条目
 
 - [迭代（Iteration）](/entries/Iteration.md)
-- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 - [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 - [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
 - [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)

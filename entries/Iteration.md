@@ -1,6 +1,6 @@
 ---
 title: 迭代（Iteration）
-tags: [整合, 迭代, 高压或创伤复燃, 长期整合目标的弹性, 重构, 重建内部沟通, 融合后的反弹, 系统体验与机制]
+tags: [迭代, 整合, 高压或创伤复燃, 长期整合目标的弹性, 重构, 重建内部沟通, 融合后的反弹, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -32,12 +32,12 @@ updated: 2025-10-03
 
 - [重构（Reconstruction）](/entries/Reconstruction.md)
 - [融合（Fusion）](/entries/Fusion.md)
-- [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
-- [封存（Sequestration）](/entries/Sequestration.md)
 - [整合（Integration）](/entries/Integration.md)
+- [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
 - [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
 - [应激反应（Stress Response）](/entries/Stress-Response.md)
-- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 
 ## 参考资料
 

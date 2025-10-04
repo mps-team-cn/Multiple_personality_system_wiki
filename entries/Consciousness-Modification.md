@@ -43,12 +43,12 @@ updated: 2025-10-03
 ## 相关条目
 
 - [重构（Reconstruction）](/entries/Reconstruction.md)
-- [封存（Sequestration）](/entries/Sequestration.md)
 - [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
 - [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
 - [独有记忆（Exomemory）](/entries/Exomemory.md)
-- [迭代（Iteration）](/entries/Iteration.md)
 - [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
+- [迭代（Iteration）](/entries/Iteration.md)
 - [独立性（Independence）](/entries/Independence.md)
 
 ## 参考资料

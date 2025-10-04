@@ -36,9 +36,9 @@ updated: 2025-10-03
 - [封存（Sequestration）](/entries/Sequestration.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 - [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
-- [融合（Fusion）](/entries/Fusion.md)
 - [迭代（Iteration）](/entries/Iteration.md)
+- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
+- [融合（Fusion）](/entries/Fusion.md)
 
 ## 参考与延伸阅读
 
