@@ -2,8 +2,17 @@
   "use strict";
 
   const headingIndex = new Map();
+  const pageMetaIndex = new Map();
+  const TOKEN_KIND_LABELS = {
+    title: "标题",
+    alias: "别名",
+    synonym: "同义词",
+    pinyin_full: "拼音",
+    pinyin_abbr: "拼音首字母",
+  };
   let searchElements = null;
   let indexPromise = null;
+  let metadataPromise = null;
   let indexReady = false;
   let latestVM = null;
 
@@ -77,6 +86,7 @@
   async function buildIndex(vm) {
     const base = resolveBasePath(vm);
     const paths = new Set();
+    const metadataTask = loadSearchMetadata(base);
 
     const homepage = normalizePath(vm.config.homepage || "");
     if (homepage) {
@@ -114,7 +124,61 @@
       }
     });
 
-    await Promise.all(tasks);
+    await Promise.all(tasks.concat(metadataTask));
+  }
+
+  function loadSearchMetadata(base) {
+    if (metadataPromise) {
+      return metadataPromise;
+    }
+
+    metadataPromise = (async function () {
+      const url = joinUrl(base, "assets/search-index.json");
+      try {
+        const data = await fetchJson(url);
+        if (!data || typeof data !== "object") {
+          return;
+        }
+        const entries = Array.isArray(data.entries) ? data.entries : [];
+        entries.forEach((item) => {
+          if (!item || typeof item !== "object") return;
+          const path = normalizePath(item.path || "");
+          if (!path) return;
+          const title = typeof item.title === "string" ? item.title : "";
+          const tokens = normalizeMetadataTokens(item.tokens);
+          pageMetaIndex.set(path, {
+            title,
+            tokens,
+          });
+        });
+      } catch (error) {
+        console.warn("[title-search] 无法加载搜索索引", error);
+      }
+    })();
+
+    return metadataPromise;
+  }
+
+  function normalizeMetadataTokens(rawTokens) {
+    if (!Array.isArray(rawTokens)) return [];
+    return rawTokens
+      .map((token) => normalizeMetadataToken(token))
+      .filter(Boolean);
+  }
+
+  function normalizeMetadataToken(token) {
+    if (!token || typeof token !== "object") return null;
+    const normalized = String(token.normalized || "").trim().toLowerCase();
+    if (!normalized) return null;
+    const display =
+      typeof token.display === "string" && token.display.trim()
+        ? token.display.trim()
+        : normalized;
+    const kind =
+      typeof token.kind === "string" && token.kind.trim()
+        ? token.kind.trim()
+        : "synonym";
+    return { normalized, display, kind };
   }
 
   // 按需在侧边栏插入搜索输入框并绑定交互
@@ -253,7 +317,7 @@
 
       const meta = document.createElement("span");
       meta.className = "title-search__meta";
-      meta.textContent = item.pageTitle || item.path;
+      meta.textContent = item.metaLabel || item.pageTitle || item.path;
 
       element.appendChild(link);
       element.appendChild(meta);
@@ -271,6 +335,14 @@
 
   function collectMatches(keyword) {
     const results = [];
+    const seenKeys = new Set();
+
+    function pushResult(item) {
+      const key = item.key || `${item.path || ""}__${item.id || ""}`;
+      if (!key || seenKeys.has(key)) return;
+      seenKeys.add(key);
+      results.push(item);
+    }
 
     headingIndex.forEach((entry, path) => {
       if (!entry) return;
@@ -278,19 +350,87 @@
       headings.forEach((heading) => {
         if (!heading.text) return;
         if (heading.text.toLowerCase().includes(keyword)) {
-          results.push({
+          pushResult({
             path,
             id: heading.id,
             text: heading.text,
             pageTitle,
+            priority: 1,
           });
         }
       });
     });
 
-    results.sort((a, b) => a.text.localeCompare(b.text, "zh-Hans-CN"));
+    pageMetaIndex.forEach((meta, path) => {
+      if (!meta || !Array.isArray(meta.tokens) || !meta.tokens.length) return;
+      const entry = headingIndex.get(path);
+      const pageTitle =
+        (entry && entry.pageTitle) || meta.title || path || "未知条目";
+      const primaryId = getPrimaryHeadingId(entry);
+      const tokenMatch = findTokenMatch(meta.tokens, keyword);
+      if (!tokenMatch) return;
+      const metaLabel = buildMatchLabel(tokenMatch);
+      pushResult({
+        path,
+        id: primaryId,
+        key: `meta__${path}`,
+        text: pageTitle,
+        pageTitle,
+        metaLabel: metaLabel || pageTitle,
+        priority: 2,
+      });
+    });
+
+    results.sort((a, b) => {
+      const priorityDiff = (b.priority || 0) - (a.priority || 0);
+      if (priorityDiff !== 0) return priorityDiff;
+      return (a.text || "").localeCompare(b.text || "", "zh-Hans-CN");
+    });
 
     return results.slice(0, 50);
+  }
+
+  function findTokenMatch(tokens, keyword) {
+    for (let index = 0; index < tokens.length; index += 1) {
+      const token = tokens[index];
+      if (!token || !token.normalized) continue;
+      const normalized = token.normalized;
+      if (
+        normalized.includes(keyword) ||
+        keyword.includes(normalized)
+      ) {
+        return token;
+      }
+    }
+    return null;
+  }
+
+  function buildMatchLabel(token) {
+    if (!token) return "";
+    const label = resolveTokenKindLabel(token.kind);
+    const display = token.display || token.normalized || "";
+    if (!display) return "";
+    return label ? `匹配：${label} ${display}` : `匹配：${display}`;
+  }
+
+  function resolveTokenKindLabel(kind) {
+    if (!kind) return "";
+    if (Object.prototype.hasOwnProperty.call(TOKEN_KIND_LABELS, kind)) {
+      return TOKEN_KIND_LABELS[kind];
+    }
+    return "";
+  }
+
+  function getPrimaryHeadingId(entry) {
+    if (!entry || !Array.isArray(entry.headings)) return "";
+    const primary = entry.headings.find(
+      (item) => item && item.level === 1 && item.id
+    );
+    if (primary && primary.id) {
+      return primary.id;
+    }
+    const fallback = entry.headings.find((item) => item && item.id);
+    return fallback && fallback.id ? fallback.id : "";
   }
 
   function extractHeadingsFromHtml(html) {
@@ -362,6 +502,14 @@
       throw new Error(`请求失败：${response.status}`);
     }
     return response.text();
+  }
+
+  async function fetchJson(url) {
+    const response = await fetch(url, { cache: "force-cache" });
+    if (!response.ok) {
+      throw new Error(`请求失败：${response.status}`);
+    }
+    return response.json();
   }
 
   function resolveBasePath(vm) {

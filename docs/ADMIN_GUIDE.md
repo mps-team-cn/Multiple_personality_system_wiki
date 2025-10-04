@@ -116,7 +116,7 @@ git commit -m "feat: 新增解离性身份障碍（DID）条目"
 
 ### 🔹 5.3 运行一键本地维护脚本
 
-如果你是管理员或审稿人，可直接执行以下脚本进行本地全流程维护：
+如果你是管理员或审稿人，可直接执行以下脚本进行本地全流程维护（含搜索索引更新）：
 
 ```bash
 tools\run_local_updates.bat
@@ -141,8 +141,10 @@ node scripts/gen-last-updated.mjs
 python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei"
 @REM 生成标签索引
 python tools/generate_tags_index.py
+@REM 生成 Docsify 搜索索引
+python tools/build_search_index.py
 @REM 修正 Markdown 格式
-python tools/fix_md.py 
+python tools/fix_md.py
 @REM 检查 Markdown 格式
 markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
 ```

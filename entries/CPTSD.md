@@ -1,6 +1,12 @@
 ---
 title: 复杂性创伤后应激障碍（CPTSD）
 tags: [创伤后应激障碍 PTSD, 复杂性创伤后应激障碍, CPTSD, 来源, 阶段化创伤治疗, 重度抑郁或双相障碍, 边缘性人格障碍, 诊断与临床]
+synonyms:
+  - 复杂性创伤
+  - Complex Post-Traumatic Stress Disorder
+  - Complex PTSD
+  - CPTSD
+  - fuzaxingchuangshanghouyingjizhangai
 updated: 2025-10-03
 ---
 
