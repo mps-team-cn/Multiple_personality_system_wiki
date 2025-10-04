@@ -54,10 +54,10 @@ updated: 2025-10-03
 - [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
 - [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
 - [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
-- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
+- [结构性解离理论（Theory of Structural Dissociation）](/entries/Structural-Dissociation-Theory.md)
 - [成员（Alter）](/entries/Alter.md)
+- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
 - [适应型（Adaptive）](/entries/Adaptive.md)
-- [独立性（Independence）](/entries/Independence.md)
 
 ## 参考资料
 

@@ -1,6 +1,6 @@
 ---
 title: 人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）
-tags: [DPDR, 来源, 重度抑郁障碍或双相障碍, 身体与感官练习, 药物治疗, 自我监控过度, 诊断与临床, 结构性解离视角]
+tags: [DPDR, 来源, 重度抑郁障碍或双相障碍, 身体与感官练习, 药物治疗, 自我监控过度, 结构性解离视角, 诊断与临床]
 updated: 2025-10-03
 ---
 
