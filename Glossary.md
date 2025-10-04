@@ -97,6 +97,7 @@
 | [Delirium](entries/Delirium.md) | 谵妄 | 急性注意与意识混乱的状态，常伴定向障碍与安全风险，需要及时处理躯体诱因。 |
 | [Depersonalization/Derealization Disorder，DPDR](entries/Depersonalization-Derealization-Disorder-DPDR.md) | 人格解体/现实解体障碍 | 临床诊断，涵盖非我感与非真实感持续困扰日常功能的情况。 |
 | [Depressive Disorders](entries/Depressive-Disorders.md) | 抑郁障碍 | 泛指以持续情绪低落、兴趣缺失与认知改变为核心的障碍。 |
+| [Learned Helplessness](entries/Learned-Helplessness.md) | 习得性无助 | 指在长期不可控压力下习得的无力感与动机枯竭模式，常与创伤暴露及抑郁症状并存。 |
 | [DID](entries/DID.md) | 解离性身份障碍 | 以多个身份状态轮换控制与解离性失忆为核心的创伤相关解离障碍。 |
 | [Dissociative Amnesia](entries/Dissociative-Amnesia-DA.md) | 解离性遗忘 | 指无法回忆重要个人信息的解离症状，常与创伤事件关联。 |
 | [Flashback](entries/Flashback.md) | 闪回 | 创伤记忆以感官或情绪形式突然重现、难以控制的体验。 |

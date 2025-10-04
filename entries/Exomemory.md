@@ -35,10 +35,10 @@ updated: 2025-10-03
 - [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 - [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 - [融合（Fusion）](/entries/Fusion.md)
-- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [迭代（Iteration）](/entries/Iteration.md)
 
 ## 参考与延伸阅读
 

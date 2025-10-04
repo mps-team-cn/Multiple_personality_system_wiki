@@ -45,8 +45,8 @@ Stress Response、压力反应、战斗或逃跑反应
 - [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
 - [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
-- [融合（Fusion）](/entries/Fusion.md)
 - [非我感（Depersonalization）](/entries/Depersonalization.md)
+- [融合（Fusion）](/entries/Fusion.md)
 
 ## 参考资料
 

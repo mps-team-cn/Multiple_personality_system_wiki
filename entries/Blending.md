@@ -34,8 +34,8 @@ updated: 2025-10-03
 - [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
 - [其他特定解离性障碍（OSDD）](/entries/OSDD.md)
 - [整合（Integration）](/entries/Integration.md)
-- [多意识体（Plurality）](/entries/Plurality.md)
 - [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
+- [多意识体（Plurality）](/entries/Plurality.md)
 - [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
 

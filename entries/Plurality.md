@@ -59,8 +59,8 @@ updated: 2025-10-03
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
 - [自动驾驶（Autopilot）](/entries/Autopilot.md)
 - [其他特定解离性障碍（OSDD）](/entries/OSDD.md)
-- [融合（Fusion）](/entries/Fusion.md)
 - [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [融合（Fusion）](/entries/Fusion.md)
 
 ## 参考资料
 
