@@ -4,6 +4,8 @@ tags:
 - 解离
 - 创伤
 title: 成员（Alter）
+synonyms:
+- 成员
 updated: 2025-10-03
 ---
 

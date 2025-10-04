@@ -4,6 +4,11 @@ tags:
 - 多重意识体
 - 解离
 title: 述情障碍（Alexithymia）
+synonyms:
+- 情感表达不能
+- 情感难言症
+- 述情困难
+- alexithymia
 updated: 2025-10-03
 ---
 

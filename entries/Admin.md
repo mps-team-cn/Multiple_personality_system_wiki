@@ -4,6 +4,10 @@ tags:
 - 管理员
 - 多重意识体
 title: 管理者（Admin）
+synonyms:
+- 管理者
+- 管理员
+- admin
 updated: 2025-10-03
 ---
 
