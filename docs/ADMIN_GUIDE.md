@@ -106,7 +106,7 @@ git commit -m "feat: 新增解离性身份障碍（DID）条目"
 * 复制 [TEMPLATE_ENTRY.md](TEMPLATE_ENTRY.md)
 * 按要求填写内容
 * 将文件保存到 `entries/` 根目录，并确保 Frontmatter `title/tags/updated` 完整
-* 运行 `python generate_tags_index.py` 更新标签索引
+* 运行 `python tools/generate_tags_index.py` 更新标签索引
 
 ### 5.3 执行一键修复 Markdown
 

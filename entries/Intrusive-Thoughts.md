@@ -95,8 +95,8 @@ _如有触发风险，请在安全情境下阅读。_
 - [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
 - [超级破碎（Polyfragmented）](/entries/Polyfragmented.md)
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
+- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
 - [解离（Dissociation）](/entries/Dissociation.md)
-- [切换（Switch）](/entries/Switch.md)
 
 ## 参考
 

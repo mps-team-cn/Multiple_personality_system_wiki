@@ -1,25 +1,5 @@
 # 标签索引
 
-## 1957
-
-- [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](entries/Three-Faces-Of-Eve-1957-Dissociation.md)
-
-## 1976
-
-- [《西比尔》（Sybil, 1976）与多重人格文化原型](entries/Sybil-1976-Cultural-Prototype.md)
-
-## 1999
-
-- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](entries/Fight-Club-1999-Identity-Metaphor.md)
-
-## 2016
-
-- [《分裂》（Split, 2016）中的 DID 形象分析](entries/Split-2016-DID-Representation.md)
-
-## ANP-EP 模型
-
-- [结构性解离理论（Theory of Structural Dissociation）](entries/Structural-Dissociation-Theory.md)
-
 ## BPD
 
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](entries/Borderline-Personality-Disorder-BPD.md)
@@ -49,6 +29,10 @@
 
 - [躯体化障碍（Somatic Symptom Disorder，SSD）](entries/Somatic-Symptom-Disorder-SSD.md)
 
+## ——
+
+- [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](entries/Nonexistent-You-And-Me-Tulpa-Lilith.md)
+
 ## 三面夏娃
 
 - [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](entries/Three-Faces-Of-Eve-1957-Dissociation.md)
@@ -56,10 +40,6 @@
 ## 不
 
 - [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](entries/Nonexistent-You-And-Me-Tulpa-Lilith.md)
-
-## 不可饶恕的她 对多重人格的叙事化呈现
-
-- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
 
 ## 与其他概念的比较
 
@@ -85,10 +65,6 @@
 
 - [外投射（External Projection）](entries/External-Projection.md)
 
-## 与性别 年龄表达
-
-- [躯体认同（Body Ownership）](entries/Body-Ownership.md)
-
 ## 与治疗协作
 
 - [人格职能（System Roles）](entries/System-Roles.md)
@@ -105,13 +81,13 @@
 
 - [保护者（Protector）](entries/Protector.md)
 
-## 与迭代 重构等系统变化
-
-- [躯体认同（Body Ownership）](entries/Body-Ownership.md)
-
 ## 临床关注点
 
 - [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](entries/Narcissistic-Personality-Disorder-NPD.md)
+
+## 临床分类
+
+- [去现实化（Derealization）](entries/Derealization.md)
 
 ## 临床参考
 
@@ -183,10 +159,6 @@
 
 - [人格职能（System Roles）](entries/System-Roles.md)
 
-## 人格解体 现实解体障碍
-
-- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](entries/Depersonalization-Derealization-Disorder-DPDR.md)
-
 ## 人格谱系
 
 - [《西比尔》（Sybil, 1976）与多重人格文化原型](entries/Sybil-1976-Cultural-Prototype.md)
@@ -248,10 +220,6 @@
 
 - [《妄想代理人》（Paranoia Agent）与集体意识的具象化](entries/Paranoia-Agent-Collective-Consciousness.md)
 
-## 共享身体 缺乏共识
-
-- [躯体认同（Body Ownership）](entries/Body-Ownership.md)
-
 ## 共创身份
 
 - [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
@@ -294,6 +262,10 @@
 
 - [内视（Visualization / Imagination）](entries/Visualization-Imagination.md)
 
+## 内在语言与视觉
+
+- [内部沟通（Internal Communication）](entries/Internal-Communication.md)
+
 ## 内视
 
 - [内视（Visualization / Imagination）](entries/Visualization-Imagination.md)
@@ -310,6 +282,10 @@
 
 - [图帕（Tulpa）](entries/Tulpa.md)
 
+## 内部沟通
+
+- [内部沟通（Internal Communication）](entries/Internal-Communication.md)
+
 ## 内部治理
 
 - [内部沟通（Internal Communication）](entries/Internal-Communication.md)
@@ -322,16 +298,12 @@
 
 - [内部空间（Headspace / Inner World）](entries/Headspace-Inner-World.md)
 
-## 内部空间 亦称 里空间
-
-- [内部空间（Headspace / Inner World）](entries/Headspace-Inner-World.md)
-
 ## 内部自助者
 
 - [内部自助者（Internal Self Helper，ISH）](entries/Internal-Self-Helper-ISH.md)
 - [管理者（Admin）](entries/Admin.md)
 
-## 冥想
+## 冥想练习
 
 - [冥想（Meditation）](entries/Meditation.md)
 
@@ -409,6 +381,10 @@
 
 - [初始（Original）](entries/Original.md)
 
+## 制定协作规则
+
+- [意识共存（Co-consciousness）](entries/Co-Consciousness.md)
+
 ## 刺激源
 
 - [触发（Trigger）](entries/Trigger.md)
@@ -473,6 +449,10 @@
 
 - [医源型系统（Iatrogenic System）](entries/Iatrogenic-System.md)
 
+## 协作与储存记忆符号
+
+- [内部空间（Headspace / Inner World）](entries/Headspace-Inner-World.md)
+
 ## 协商与边界
 
 - [《隐形人》（Mr. Robot）中的人格分裂叙事](entries/Mr-Robot-DID-Narrative.md)
@@ -488,10 +468,6 @@
 ## 单核型系统
 
 - [单一类系统（Single-Class Systems, Xianyu Theory）](entries/Single-Class-Systems-Xianyu.md)
-
-## 卡夫卡 变形记 与异化的身份解体
-
-- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](entries/Kafka-Metamorphosis-Identity-Dissolution.md)
 
 ## 危机协调
 
@@ -523,6 +499,7 @@
 ## 双重人格
 
 - [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](entries/Another-Me-DID-Depictions.md)
+- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](entries/Dostoevsky-The-Double-Self-Division.md)
 
 ## 发展常见性
 
@@ -572,10 +549,6 @@
 
 - [后台（Back / Being Back）](entries/Back-Being-Back.md)
 
-## 和我 与
-
-- [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](entries/Nonexistent-You-And-Me-Tulpa-Lilith.md)
-
 ## 回归状态
 
 - [小孩意识体（Little / Child Part）](entries/Little.md)
@@ -583,10 +556,6 @@
 ## 在多意识体语境中的使用
 
 - [人格面具（Persona）](entries/Persona.md)
-
-## 在部分社群讨论中也称 雷点
-
-- [触发（Trigger）](entries/Trigger.md)
 
 ## 地面化练习
 
@@ -726,6 +695,9 @@
 
 - [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](entries/Another-Me-DID-Depictions.md)
 - [《妄想代理人》（Paranoia Agent）与集体意识的具象化](entries/Paranoia-Agent-Collective-Consciousness.md)
+- [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](entries/Madoka-Magica-Kyubey-Otherness.md)
+- [洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）](entries/Lovecraft-Tulpa-Motifs.md)
+- [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
 - [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](entries/Dostoevsky-The-Double-Self-Division.md)
 
 ## 存在感
@@ -882,6 +854,10 @@
 
 - [侵入性思维（Intrusive Thoughts）](entries/Intrusive-Thoughts.md)
 
+## 常见体验模式
+
+- [躯体认同（Body Ownership）](entries/Body-Ownership.md)
+
 ## 常见例子
 
 - [功能性分离（Functional Dissociation）](entries/Functional-Dissociation.md)
@@ -890,6 +866,7 @@
 
 - [执行者（Performer / Executive）](entries/Performer-Executive.md)
 - [照顾者（Caregiver）](entries/Caregiver.md)
+- [记忆持有者（Memory Holder）](entries/Memory-Holder.md)
 - [青少年意识体（Teen Part）](entries/Teen.md)
 
 ## 常见练习
@@ -912,7 +889,7 @@
 
 - [习得性无助（Learned Helplessness）](entries/Learned-Helplessness.md)
 
-## 幻境 指系统成员在内在感知中共享
+## 幻境
 
 - [内部空间（Headspace / Inner World）](entries/Headspace-Inner-World.md)
 
@@ -993,6 +970,10 @@
 ## 形成原因
 
 - [伪主体（Fauxmain）](entries/Fauxmain.md)
+
+## 影响与争议
+
+- [《西比尔》（Sybil, 1976）与多重人格文化原型](entries/Sybil-1976-Cultural-Prototype.md)
 
 ## 影射
 
@@ -1233,6 +1214,10 @@
 
 - [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](entries/Fight-Club-1999-Identity-Metaphor.md)
 
+## 支持与实践建议
+
+- [躯体认同（Body Ownership）](entries/Body-Ownership.md)
+
 ## 支持性空间
 
 - [小孩意识体（Little / Child Part）](entries/Little.md)
@@ -1266,6 +1251,10 @@
 ## 文化差异
 
 - [幻想伙伴（Imaginary Companion）](entries/Imaginary-Companion.md)
+
+## 文化影响
+
+- [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](entries/Three-Faces-Of-Eve-1957-Dissociation.md)
 
 ## 文化挪用讨论
 
@@ -1314,6 +1303,10 @@
 ## 术语差异
 
 - [前台（Front / Fronting）](entries/Front-Fronting.md)
+
+## 术语映射
+
+- [结构性解离理论（Theory of Structural Dissociation）](entries/Structural-Dissociation-Theory.md)
 
 ## 术语来源
 
@@ -1368,6 +1361,7 @@
 - [冥想（Meditation）](entries/Meditation.md)
 - [接地（Grounding）](entries/Grounding.md)
 - [超级破碎（Polyfragmented）](entries/Polyfragmented.md)
+- [躯体认同（Body Ownership）](entries/Body-Ownership.md)
 
 ## 核心特点
 
@@ -1457,10 +1451,6 @@
 ## 注意力缺陷多动障碍 ADHD
 
 - [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
-
-## 洛夫克拉夫特作品中的 心灵造物 与
-
-- [洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）](entries/Lovecraft-Tulpa-Motifs.md)
 
 ## 混合
 
@@ -1579,6 +1569,7 @@
 ## 理论模型
 
 - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](entries/Apparently-Normal-Part-Emotional-Part-Model.md)
+- [结构性解离理论（Theory of Structural Dissociation）](entries/Structural-Dissociation-Theory.md)
 
 ## 生命周期事件
 
@@ -1628,10 +1619,6 @@
 ## 病程与共病
 
 - [精神分裂症（Schizophrenia，SC）](entries/Schizophrenia-SC.md)
-
-## 的边界 初音未来现象
-
-- [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
 
 ## 目标多样性
 
@@ -1903,6 +1890,10 @@
 
 - [医源型系统（Iatrogenic System）](entries/Iatrogenic-System.md)
 
+## 系统视角的启示
+
+- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](entries/Kafka-Metamorphosis-Identity-Dissolution.md)
+
 ## 系统角色与类型
 
 - [主体（Main）](entries/Main.md)
@@ -1965,9 +1956,15 @@
 ## 结构性解离理论
 
 - [病理性解离（Pathological Dissociation）](entries/Pathological-Dissociation.md)
+- [结构性解离理论（Theory of Structural Dissociation）](entries/Structural-Dissociation-Theory.md)
+
+## 结构性解离观点
+
+- [谵妄（Delirium）](entries/Delirium.md)
 
 ## 结构性解离视角
 
+- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](entries/Depersonalization-Derealization-Disorder-DPDR.md)
 - [定向障碍（Disorientation）](entries/Disorientation.md)
 
 ## 结构性资源差距
@@ -2128,10 +2125,6 @@
 - [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
 - [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](entries/Dostoevsky-The-Double-Self-Division.md)
 
-## 融合 整合
-
-- [意识共存（Co-consciousness）](entries/Co-Consciousness.md)
-
 ## 融合与整合
 
 - [重构（Reconstruction）](entries/Reconstruction.md)
@@ -2227,6 +2220,7 @@
 - [功能性分离（Functional Dissociation）](entries/Functional-Dissociation.md)
 - [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](entries/Kafka-Metamorphosis-Identity-Dissolution.md)
 - [病理性解离（Pathological Dissociation）](entries/Pathological-Dissociation.md)
+- [结构性解离理论（Theory of Structural Dissociation）](entries/Structural-Dissociation-Theory.md)
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](entries/DID.md)
 - [解离（Dissociation）](entries/Dissociation.md)
 - [醉酒解离（Alcohol-Induced Dissociation）](entries/Alcohol-Induced-Dissociation.md)
@@ -2235,16 +2229,15 @@
 
 - [应激反应（Stress Response）](entries/Stress-Response.md)
 
-## 解离性发作 离解症
-
-- [谵妄（Delirium）](entries/Delirium.md)
-
 ## 解离性漫游
 
 - [解离性遗忘（Dissociative Amnesia，DA）](entries/Dissociative-Amnesia-DA.md)
 
 ## 解离性身份障碍
 
+- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
+- [《分裂》（Split, 2016）中的 DID 形象分析](entries/Split-2016-DID-Representation.md)
+- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](entries/Fight-Club-1999-Identity-Metaphor.md)
 - [其他特定解离性障碍（OSDD）](entries/OSDD.md)
 - [多意识体（Plurality）](entries/Plurality.md)
 - [多重意识体基础（Plurality Basics）](entries/Plurality-Basics.md)
@@ -2290,6 +2283,10 @@
 
 - [多意识体（Plurality）](entries/Plurality.md)
 - [多重意识体基础（Plurality Basics）](entries/Plurality-Basics.md)
+
+## 触发
+
+- [触发（Trigger）](entries/Trigger.md)
 
 ## 触发与过载
 
@@ -2349,9 +2346,9 @@
 
 - [系魂（Soulbond）](entries/Soulbond.md)
 
-## 记录者 观察者
+## 记录触发与身体信号
 
-- [记忆持有者（Memory Holder）](entries/Memory-Holder.md)
+- [去现实化（Derealization）](entries/Derealization.md)
 
 ## 记录触发因素
 
@@ -2455,6 +2452,7 @@
 
 ## 诊断要点
 
+- [双相障碍（Bipolar Disorders）](entries/Bipolar-Disorders.md)
 - [焦虑（Anxiety）](entries/Anxiety.md)
 - [精神分裂症（Schizophrenia，SC）](entries/Schizophrenia-SC.md)
 
@@ -2542,10 +2540,6 @@
 ## 躁狂
 
 - [躁狂（Mania）](entries/Mania.md)
-
-## 躁狂 轻躁狂期
-
-- [双相障碍（Bipolar Disorders）](entries/Bipolar-Disorders.md)
 
 ## 身份切换
 
@@ -2804,10 +2798,6 @@
 
 - [躯体认同（Body Ownership）](entries/Body-Ownership.md)
 
-## 陀思妥耶夫斯基 双重人格
-
-- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](entries/Dostoevsky-The-Double-Self-Division.md)
-
 ## 隐形人
 
 - [《隐形人》（Mr. Robot）中的人格分裂叙事](entries/Mr-Robot-DID-Narrative.md)
@@ -2907,7 +2897,3 @@
 ## 高度警觉
 
 - [迫害者（Persecutor）](entries/Persecutor.md)
-
-## 魔法少女小圆 中的丘比与契约式 他者
-
-- [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](entries/Madoka-Magica-Kyubey-Otherness.md)

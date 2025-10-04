@@ -1,6 +1,6 @@
 ---
 title: 记忆持有者（Memory Holder）
-tags: [系统角色与类型, 记忆持有者, 记忆范围集中, 情绪负荷较高, 迫害者, 记录者 观察者, 技能或知识保管, 创伤记忆守护]
+tags: [系统角色与类型, 记忆持有者, 记忆范围集中, 情绪负荷较高, 迫害者, 技能或知识保管, 创伤记忆守护, 常见特征]
 updated: 2025-10-03
 ---
 
@@ -45,10 +45,10 @@ updated: 2025-10-03
 ## 相关条目
 
 - [迫害者（Persecutor）](/entries/Persecutor.md)
-- [人格职能（System Roles）](/entries/System-Roles.md)
-- [小孩意识体（Little / Child Part）](/entries/Little.md)
 - [青少年意识体（Teen Part）](/entries/Teen.md)
 - [照顾者（Caregiver）](/entries/Caregiver.md)
 - [执行者（Performer / Executive）](/entries/Performer-Executive.md)
+- [人格职能（System Roles）](/entries/System-Roles.md)
+- [小孩意识体（Little / Child Part）](/entries/Little.md)
 - [保护者（Protector）](/entries/Protector.md)
 - [初始（Original）](/entries/Original.md)
