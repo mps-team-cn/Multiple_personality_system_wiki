@@ -1,11 +1,11 @@
 ---
+synonyms:
+- 超碎
 tags:
 - 多重意识体
 - 解离
 - 创伤
 title: 超级破碎（Polyfragmented）
-synonyms:
-- 超碎
 updated: 2025-10-03
 ---
 
@@ -74,13 +74,13 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [重构（Reconstruction）](/entries/Reconstruction.md)
 - [伪主体（Fauxmain）](/entries/Fauxmain.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
 - [核心（Core）](/entries/Core.md)
 - [碎片（Fragment）](/entries/Fragment.md)
 - [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
-- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 - [成员（Alter）](/entries/Alter.md)
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 - [初始（Original）](/entries/Original.md)
 
 ## 参考与延伸阅读

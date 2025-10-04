@@ -34,10 +34,10 @@ updated: 2025-10-03
 - [前台（Front / Fronting）](/entries/Front-Fronting.md)
 - [成员（Alter）](/entries/Alter.md)
 - [共前台（Co-fronting）](/entries/Co-Fronting.md)
-- [内部空间（Headspace / Inner World）](/entries/Headspace-Inner-World.md)
 - [外投射（External Projection）](/entries/External-Projection.md)
-- [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
+- [内部空间（Headspace / Inner World）](/entries/Headspace-Inner-World.md)
 - [切换（Switch）](/entries/Switch.md)
+- [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
 - [权限（Permissions）](/entries/Permissions.md)
 
 ## 参考与延伸阅读

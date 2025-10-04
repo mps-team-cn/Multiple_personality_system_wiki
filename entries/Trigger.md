@@ -99,8 +99,8 @@ updated: 2025-10-03
 - [非我感（Depersonalization）](/entries/Depersonalization.md)
 - [创伤（Trauma）](/entries/Trauma.md)
 - [去现实化（Derealization）](/entries/Derealization.md)
-- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
 - [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
 
 ## 参考与延伸阅读
 

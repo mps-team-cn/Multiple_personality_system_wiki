@@ -111,12 +111,12 @@ _仅供参考，**不能**替代专业医师的诊断和治疗方案。如果有
 ## 相关条目
 
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
-- [谵妄（Delirium）](/entries/Delirium.md)
 - [焦虑（Anxiety）](/entries/Anxiety.md)
+- [谵妄（Delirium）](/entries/Delirium.md)
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
+- [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
 - [去现实化（Derealization）](/entries/Derealization.md)
 - [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
-- [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
 - [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](/entries/PTSD.md)
 
 ## 参考与延伸阅读

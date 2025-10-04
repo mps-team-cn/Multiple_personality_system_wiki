@@ -1,7 +1,7 @@
 ---
 tags:
-- ANP
 - 解离性身份障碍_DID
+- ANP
 - 多重意识体
 title: 自动驾驶（Autopilot）
 updated: 2025-10-03

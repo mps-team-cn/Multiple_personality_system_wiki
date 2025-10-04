@@ -1,11 +1,11 @@
 ---
+synonyms:
+- 独立意识
+- Independence
 tags:
 - 多重意识体
 - 解离
 - 创伤
-synonyms:
-- 独立意识
-- Independence
 title: 独立性（Independence）
 updated: 2025-10-03
 ---
@@ -37,14 +37,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 - [独有记忆（Exomemory）](/entries/Exomemory.md)
 - [非我感（Depersonalization）](/entries/Depersonalization.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 - [迭代（Iteration）](/entries/Iteration.md)
-- [权限（Permissions）](/entries/Permissions.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
+- [整合（Integration）](/entries/Integration.md)
 
 ## 参考与延伸阅读
 
