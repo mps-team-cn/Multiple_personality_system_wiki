@@ -36,8 +36,8 @@ updated: 2025-10-03
 ## 相关条目
 
 - [图帕（Tulpa）](/entries/Tulpa.md)
-- [幻想伙伴（Imaginary Companion）](/entries/Imaginary-Companion.md)
 - [成员（Alter）](/entries/Alter.md)
+- [幻想伙伴（Imaginary Companion）](/entries/Imaginary-Companion.md)
 - [初始（Original）](/entries/Original.md)
 - [人格职能（System Roles）](/entries/System-Roles.md)
 - [埃蒙加德分类法（Emmengard Classification）](/entries/Emmengard-Classification.md)

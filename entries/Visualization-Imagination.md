@@ -38,9 +38,9 @@ updated: 2025-10-03
 - [权限（Permissions）](/entries/Permissions.md)
 - [T 语（Tulpish）](/entries/Tulpish.md)
 - [前台（Front / Fronting）](/entries/Front-Fronting.md)
-- [成员（Alter）](/entries/Alter.md)
 - [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
-- [适应型（Adaptive）](/entries/Adaptive.md)
+- [成员（Alter）](/entries/Alter.md)
+- [解离（Dissociation）](/entries/Dissociation.md)
 
 ## 参考资料
 

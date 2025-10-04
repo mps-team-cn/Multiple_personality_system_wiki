@@ -333,6 +333,7 @@
 
 ## 创伤
 
+- [习得性无助（Learned Helplessness）](entries/Learned-Helplessness.md)
 - [创伤（Trauma）](entries/Trauma.md)
 - [自发型（Spontaneous）](entries/Spontaneous.md)
 - [适应型（Adaptive）](entries/Adaptive.md)
@@ -343,6 +344,7 @@
 
 ## 创伤后应激障碍 PTSD
 
+- [侵入性思维（Intrusive Thoughts）](entries/Intrusive-Thoughts.md)
 - [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](entries/PTSD.md)
 - [复杂性创伤后应激障碍（CPTSD）](entries/CPTSD.md)
 - [闪回（Flashback）](entries/Flashback.md)
@@ -603,6 +605,7 @@
 
 ## 复盘学习
 
+- [习得性无助（Learned Helplessness）](entries/Learned-Helplessness.md)
 - [应激反应（Stress Response）](entries/Stress-Response.md)
 
 ## 外投射
@@ -868,6 +871,10 @@
 - [接地（Grounding）](entries/Grounding.md)
 - [超级破碎（Polyfragmented）](entries/Polyfragmented.md)
 
+## 干预策略
+
+- [习得性无助（Learned Helplessness）](entries/Learned-Helplessness.md)
+
 ## 幻境 指系统成员在内在感知中共享
 
 - [内部空间（Headspace / Inner World）](entries/Headspace-Inner-World.md)
@@ -887,6 +894,7 @@
 
 ## 应激反应
 
+- [习得性无助（Learned Helplessness）](entries/Learned-Helplessness.md)
 - [应激反应（Stress Response）](entries/Stress-Response.md)
 
 ## 应用价值
@@ -1781,7 +1789,6 @@
 
 - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](entries/Apparently-Normal-Part-Emotional-Part-Model.md)
 - [T 语（Tulpish）](entries/Tulpish.md)
-- [侵入性思维（Intrusive Thoughts）](entries/Intrusive-Thoughts.md)
 - [偏重（Bias / Median）](entries/Bias.md)
 - [共前台（Co-fronting）](entries/Co-Fronting.md)
 - [内视（Visualization / Imagination）](entries/Visualization-Imagination.md)
@@ -2251,6 +2258,7 @@
 
 ## 认知与情绪
 
+- [习得性无助（Learned Helplessness）](entries/Learned-Helplessness.md)
 - [焦虑（Anxiety）](entries/Anxiety.md)
 
 ## 认知与社会因素
@@ -2350,6 +2358,7 @@
 
 - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](entries/Apparently-Normal-Part-Emotional-Part-Model.md)
 - [T 语（Tulpish）](entries/Tulpish.md)
+- [习得性无助（Learned Helplessness）](entries/Learned-Helplessness.md)
 - [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](entries/Depersonalization-Derealization-Disorder-DPDR.md)
 - [偏重（Bias / Median）](entries/Bias.md)
 - [冥想（Meditation）](entries/Meditation.md)
@@ -2812,6 +2821,7 @@
 
 ## 风险评估
 
+- [习得性无助（Learned Helplessness）](entries/Learned-Helplessness.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](entries/Dissociative-Amnesia-DA.md)
 
 ## 验证其意图

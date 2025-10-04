@@ -13,6 +13,7 @@
 - [孤独症谱系（ASD）](entries/Autism-Spectrum-Disorder.md)
 - [注意缺陷多动障碍（ADHD）](entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
 - [抑郁障碍（Depressive Disorders）](entries/Depressive-Disorders.md)
+- [习得性无助（Learned Helplessness）](entries/Learned-Helplessness.md)
 - [双相障碍（Bipolar Disorders）](entries/Bipolar-Disorders.md)
 - [躁狂（Mania）](entries/Mania.md)
 - [强迫症（OCD）](entries/OCD.md)
@@ -65,7 +66,7 @@
 
 ## 系统体验与机制
 
-- [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](<entries/Apparently-Normal-Part-Emotional-Part-Model.md>)
+- [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](entries/Apparently-Normal-Part-Emotional-Part-Model.md)
 - [共前台（Co-fronting）](entries/Co-Fronting.md)
 - [多重意识体基础（Plurality Basics）](entries/Plurality-Basics.md)
 - [多意识体（Plurality）](entries/Plurality.md)

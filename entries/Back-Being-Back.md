@@ -33,8 +33,8 @@ updated: 2025-10-03
 - [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
 - [前台（Front / Fronting）](/entries/Front-Fronting.md)
 - [权限（Permissions）](/entries/Permissions.md)
-- [独立性（Independence）](/entries/Independence.md)
 - [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
+- [独立性（Independence）](/entries/Independence.md)
 - [T 语（Tulpish）](/entries/Tulpish.md)
 
 ## 参考与延伸阅读
