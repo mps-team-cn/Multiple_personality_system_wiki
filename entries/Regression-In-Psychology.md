@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 退行（Regression in Psychology）
-tags: [退行, 稳定化与接地技巧, 界限与日常结构, 慢性或急性压力, 发展性补偿, 创伤提醒, 关系动力, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -42,14 +45,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [重构（Reconstruction）](/entries/Reconstruction.md)
-- [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
-- [迭代（Iteration）](/entries/Iteration.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
-- [独立性（Independence）](/entries/Independence.md)
-- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [迭代（Iteration）](/entries/Iteration.md)
+- [碎片（Fragment）](/entries/Fragment.md)
 
 ## 参考文献
 

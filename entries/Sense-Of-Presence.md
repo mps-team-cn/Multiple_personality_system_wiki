@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 存在感（Sense of Presence）
-tags: [存在感, 生理状态, 感官线索, 意识共存, 情绪同频, 建立信号, 幻觉, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -41,13 +44,13 @@ updated: 2025-10-03
 ## 相关条目
 
 - [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
-- [封存（Sequestration）](/entries/Sequestration.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
+- [应激反应（Stress Response）](/entries/Stress-Response.md)
 - [独有记忆（Exomemory）](/entries/Exomemory.md)
 - [迭代（Iteration）](/entries/Iteration.md)
-- [应激反应（Stress Response）](/entries/Stress-Response.md)
-- [非我感（Depersonalization）](/entries/Depersonalization.md)
 
 ## 参考资料
 

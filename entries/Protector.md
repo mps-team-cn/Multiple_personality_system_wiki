@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 保护者（Protector）
-tags: [系统角色与类型, 防御者, 角色分化, 安全导向, 策略灵活, 危机协调, 前台守卫, 与迫害者转换]
 updated: 2025-10-03
 ---
 
@@ -46,9 +49,9 @@ updated: 2025-10-03
 
 - [照顾者（Caregiver）](/entries/Caregiver.md)
 - [迫害者（Persecutor）](/entries/Persecutor.md)
-- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
 - [人格职能（System Roles）](/entries/System-Roles.md)
+- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
 - [小孩意识体（Little / Child Part）](/entries/Little.md)
 - [青少年意识体（Teen Part）](/entries/Teen.md)
+- [内部沟通（Internal Communication）](/entries/Internal-Communication.md)
 - [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
-- [初始（Original）](/entries/Original.md)

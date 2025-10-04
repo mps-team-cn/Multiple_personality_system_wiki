@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 迫害者（Persecutor）
-tags: [系统角色与类型, 迫害者, 高度警觉, 验证其意图, 难以信任支持, 阶段化治疗, 转化为保护者, 自责与羞耻]
 updated: 2025-10-03
 ---
 
@@ -46,11 +49,11 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
-- [照顾者（Caregiver）](/entries/Caregiver.md)
 - [保护者（Protector）](/entries/Protector.md)
-- [小孩意识体（Little / Child Part）](/entries/Little.md)
 - [人格职能（System Roles）](/entries/System-Roles.md)
+- [照顾者（Caregiver）](/entries/Caregiver.md)
+- [小孩意识体（Little / Child Part）](/entries/Little.md)
 - [执行者（Performer / Executive）](/entries/Performer-Executive.md)
 - [青少年意识体（Teen Part）](/entries/Teen.md)
-- [初始（Original）](/entries/Original.md)
+- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
+- [迭代（Iteration）](/entries/Iteration.md)

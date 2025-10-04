@@ -1,6 +1,9 @@
 ---
+tags:
+- '3.0'
+- 管理者
+- 多重意识体
 title: 管理者（Admin）
-tags: [系统角色与类型, 管理者, 沟通协作, 风险应对, 记忆管理, 系统管理, 社区文化, 内部自助者]
 updated: 2025-10-03
 ---
 
@@ -41,14 +44,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
+- [守门人（Gatekeeper）](/entries/Gatekeeper.md)
 - [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
+- [混合（Blending）](/entries/Blending.md)
+- [整合（Integration）](/entries/Integration.md)
+- [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
 - [成员（Alter）](/entries/Alter.md)
 - [伪主体（Fauxmain）](/entries/Fauxmain.md)
-- [混合（Blending）](/entries/Blending.md)
-- [碎片（Fragment）](/entries/Fragment.md)
-- [人格面具（Persona）](/entries/Persona.md)
-- [系魂（Soulbond）](/entries/Soulbond.md)
-- [守门人（Gatekeeper）](/entries/Gatekeeper.md)
+- [多意识体（Plurality）](/entries/Plurality.md)
 
 ## 参考与延伸阅读
 

@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 小孩意识体（Little / Child Part）
-tags: [系统角色与类型, 小孩意识体, 发展阶段特征, 时间感差异, 支持性空间, 情感需求强烈, 回归状态, 前台安排]
 updated: 2025-10-03
 ---
 
@@ -46,10 +49,10 @@ updated: 2025-10-03
 ## 相关条目
 
 - [青少年意识体（Teen Part）](/entries/Teen.md)
-- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
 - [照顾者（Caregiver）](/entries/Caregiver.md)
+- [人格职能（System Roles）](/entries/System-Roles.md)
+- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
 - [迫害者（Persecutor）](/entries/Persecutor.md)
 - [保护者（Protector）](/entries/Protector.md)
-- [人格职能（System Roles）](/entries/System-Roles.md)
 - [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
 - [初始（Original）](/entries/Original.md)

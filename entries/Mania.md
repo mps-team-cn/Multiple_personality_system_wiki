@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 躁狂（Mania）
-tags: [躁狂, 行为, 精神病性症状, 生理与神经系统, 情绪与认知, ICD11要点, DSM5TR要点, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -66,13 +69,13 @@ _若出现自我伤害、他人伤害或判断力显著受损，请立即联系�
 ## 相关条目
 
 - [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
-- [躯体化障碍（Somatic Symptom Disorder，SSD）](/entries/Somatic-Symptom-Disorder-SSD.md)
-- [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
-- [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](/entries/Narcissistic-Personality-Disorder-NPD.md)
-- [焦虑（Anxiety）](/entries/Anxiety.md)
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
-- [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
 - [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
+- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
+- [谵妄（Delirium）](/entries/Delirium.md)
+- [定向障碍（Disorientation）](/entries/Disorientation.md)
+- [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
+- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
 
 ## 参考资料
 

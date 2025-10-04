@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 双相障碍（Bipolar Disorders）
-tags: [双相障碍, 混合特征, 抑郁期, 功能影响, 基础概念, 鉴别诊断, 诊断要点, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -76,14 +79,14 @@ DSM-5-TR 强调发作次数与症状数量阈值，ICD-11 则聚焦发作时段�
 
 ## 相关条目
 
-- [焦虑（Anxiety）](/entries/Anxiety.md)
 - [躁狂（Mania）](/entries/Mania.md)
-- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
-- [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
-- [躯体化障碍（Somatic Symptom Disorder，SSD）](/entries/Somatic-Symptom-Disorder-SSD.md)
-- [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](/entries/Narcissistic-Personality-Disorder-NPD.md)
+- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
 - [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
-- [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
+- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
+- [谵妄（Delirium）](/entries/Delirium.md)
+- [定向障碍（Disorientation）](/entries/Disorientation.md)
+- [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
+- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
 
 ## 参考与延伸阅读
 

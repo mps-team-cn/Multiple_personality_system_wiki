@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 人格面具（Persona）
-tags: [系统角色与类型, 人格面具, 起源, 风险应对, 解离研究关联, 自我评估, 心理动力机制, 在多意识体语境中的使用]
 updated: 2025-10-03
 ---
 
@@ -31,14 +34,14 @@ _仅供参考，**不能**替代专业医师的诊断和治疗方案。如果有
 
 ## 相关条目
 
+- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](/entries/Dostoevsky-The-Double-Self-Division.md)
+- [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](/entries/Three-Faces-Of-Eve-1957-Dissociation.md)
+- [《隐形人》（Mr. Robot）中的人格分裂叙事](/entries/Mr-Robot-DID-Narrative.md)
+- [《西比尔》（Sybil, 1976）与多重人格文化原型](/entries/Sybil-1976-Cultural-Prototype.md)
 - [主体（Main）](/entries/Main.md)
-- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
-- [碎片（Fragment）](/entries/Fragment.md)
-- [伪主体（Fauxmain）](/entries/Fauxmain.md)
-- [系魂（Soulbond）](/entries/Soulbond.md)
-- [特殊认同（Alterhuman）](/entries/Alterhuman.md)
-- [管理者（Admin）](/entries/Admin.md)
-- [独立性（Independence）](/entries/Independence.md)
+- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
+- [《我与梦露的一周》（The United States of Tara）中的系统家庭日常](/entries/United-States-Of-Tara-System-Daily-Life.md)
+- [人格职能（System Roles）](/entries/System-Roles.md)
 
 ## 参考与延伸阅读
 

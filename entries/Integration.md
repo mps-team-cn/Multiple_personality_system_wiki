@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 整合（Integration）
-tags: [整合, 阶段化治疗, 结构整合, 稳定性与安全感, 社会与文化考量, 目标多样性, 技能训练, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -41,12 +44,12 @@ Integration，融合，最终融合（Final Fusion）
 
 - [融合（Fusion）](/entries/Fusion.md)
 - [迭代（Iteration）](/entries/Iteration.md)
-- [混合（Blending）](/entries/Blending.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
 - [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
-- [解离（Dissociation）](/entries/Dissociation.md)
-- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
-- [多意识体（Plurality）](/entries/Plurality.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
 - [独立性（Independence）](/entries/Independence.md)
+- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
+- [成员（Alter）](/entries/Alter.md)
 
 ## 参考资料
 

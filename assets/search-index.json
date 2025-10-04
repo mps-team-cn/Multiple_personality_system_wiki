@@ -912,95 +912,6 @@
       ]
     },
     {
-      "path": "entries/CPTSD.md",
-      "title": "复杂性创伤后应激障碍（CPTSD）",
-      "aliases": [
-        "CPTSD",
-        "Complex PTSD",
-        "Complex Post-Traumatic Stress Disorder",
-        "fuzaxingchuangshanghouyingjizhangai",
-        "复杂性创伤",
-        "复杂性创伤后应激障碍（CPTSD）"
-      ],
-      "tokens": [
-        {
-          "normalized": "cptsd",
-          "display": "CPTSD",
-          "kind": "alias"
-        },
-        {
-          "normalized": "fzxcs",
-          "display": "fzxcs",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "fzxcshyjzac",
-          "display": "fzxcshyjzac",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "fuzaxingchuangshanghouyingjizhangaicptsd",
-          "display": "fuzaxingchuangshanghouyingjizhangaicptsd",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "complex post-traumatic stress disorder",
-          "display": "Complex Post-Traumatic Stress Disorder",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "complex ptsd",
-          "display": "Complex PTSD",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "complexposttraumaticstressdisorder",
-          "display": "Complex Post-Traumatic Stress Disorder",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "complexptsd",
-          "display": "Complex PTSD",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "fu za xing chuang shang ",
-          "display": "复杂性创伤",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "fuzaxingchuangshang",
-          "display": "复杂性创伤",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "fuzaxingchuangshanghouyingjizhangai",
-          "display": "fuzaxingchuangshanghouyingjizhangai",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "复杂性创伤",
-          "display": "复杂性创伤",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "fu za xing chuang shang hou ying ji zhang ai (cptsd)",
-          "display": "复杂性创伤后应激障碍（CPTSD）",
-          "kind": "title"
-        },
-        {
-          "normalized": "fuzaxingchuangshanghouyingjizhangai(cptsd)",
-          "display": "复杂性创伤后应激障碍（CPTSD）",
-          "kind": "title"
-        },
-        {
-          "normalized": "复杂性创伤后应激障碍（cptsd）",
-          "display": "复杂性创伤后应激障碍（CPTSD）",
-          "kind": "title"
-        }
-      ]
-    },
-    {
       "path": "entries/Caregiver.md",
       "title": "照顾者（Caregiver）",
       "aliases": [
@@ -1231,57 +1142,90 @@
       ]
     },
     {
-      "path": "entries/DID.md",
-      "title": "解离性身份障碍（Dissociative Identity Disorder，DID）",
+      "path": "entries/CPTSD.md",
+      "title": "复杂性创伤后应激障碍（CPTSD）",
       "aliases": [
-        "DID",
-        "Dissociative Identity Disorder",
-        "解离性身份障碍（Dissociative Identity Disorder，DID）"
+        "CPTSD",
+        "Complex PTSD",
+        "Complex Post-Traumatic Stress Disorder",
+        "fuzaxingchuangshanghouyingjizhangai",
+        "复杂性创伤",
+        "复杂性创伤后应激障碍（CPTSD）"
       ],
       "tokens": [
         {
-          "normalized": "did",
-          "display": "DID",
+          "normalized": "cptsd",
+          "display": "CPTSD",
           "kind": "alias"
         },
         {
-          "normalized": "dissociative identity disorder",
-          "display": "Dissociative Identity Disorder",
-          "kind": "alias"
-        },
-        {
-          "normalized": "dissociativeidentitydisorder",
-          "display": "Dissociative Identity Disorder",
-          "kind": "alias"
-        },
-        {
-          "normalized": "jcxsfzadidd",
-          "display": "jcxsfzadidd",
+          "normalized": "fzxcs",
+          "display": "fzxcs",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "jiechixingshenfenzhangaidissociativeidentitydisorderdid",
-          "display": "jiechixingshenfenzhangaidissociativeidentitydisorderdid",
+          "normalized": "fzxcshyjzac",
+          "display": "fzxcshyjzac",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "fuzaxingchuangshanghouyingjizhangaicptsd",
+          "display": "fuzaxingchuangshanghouyingjizhangaicptsd",
           "kind": "pinyin_full"
         },
         {
-          "normalized": "jie chi xing shen fen zhang ai (dissociative identity disorder,did)",
-          "display": "解离性身份障碍（Dissociative Identity Disorder，DID）",
+          "normalized": "complex post-traumatic stress disorder",
+          "display": "Complex Post-Traumatic Stress Disorder",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "complex ptsd",
+          "display": "Complex PTSD",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "complexposttraumaticstressdisorder",
+          "display": "Complex Post-Traumatic Stress Disorder",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "complexptsd",
+          "display": "Complex PTSD",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "fu za xing chuang shang ",
+          "display": "复杂性创伤",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "fuzaxingchuangshang",
+          "display": "复杂性创伤",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "fuzaxingchuangshanghouyingjizhangai",
+          "display": "fuzaxingchuangshanghouyingjizhangai",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "复杂性创伤",
+          "display": "复杂性创伤",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "fu za xing chuang shang hou ying ji zhang ai (cptsd)",
+          "display": "复杂性创伤后应激障碍（CPTSD）",
           "kind": "title"
         },
         {
-          "normalized": "jiechixingshenfenzhangai(dissociativeidentitydisorder,did)",
-          "display": "解离性身份障碍（Dissociative Identity Disorder，DID）",
+          "normalized": "fuzaxingchuangshanghouyingjizhangai(cptsd)",
+          "display": "复杂性创伤后应激障碍（CPTSD）",
           "kind": "title"
         },
         {
-          "normalized": "解离性身份障碍（dissociative identity disorder，did）",
-          "display": "解离性身份障碍（Dissociative Identity Disorder，DID）",
-          "kind": "title"
-        },
-        {
-          "normalized": "解离性身份障碍（dissociativeidentitydisorder，did）",
-          "display": "解离性身份障碍（Dissociative Identity Disorder，DID）",
+          "normalized": "复杂性创伤后应激障碍（cptsd）",
+          "display": "复杂性创伤后应激障碍（CPTSD）",
           "kind": "title"
         }
       ]
@@ -1514,6 +1458,62 @@
         {
           "normalized": "去现实化（derealization）",
           "display": "去现实化（Derealization）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/DID.md",
+      "title": "解离性身份障碍（Dissociative Identity Disorder，DID）",
+      "aliases": [
+        "DID",
+        "Dissociative Identity Disorder",
+        "解离性身份障碍（Dissociative Identity Disorder，DID）"
+      ],
+      "tokens": [
+        {
+          "normalized": "did",
+          "display": "DID",
+          "kind": "alias"
+        },
+        {
+          "normalized": "dissociative identity disorder",
+          "display": "Dissociative Identity Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "dissociativeidentitydisorder",
+          "display": "Dissociative Identity Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "jcxsfzadidd",
+          "display": "jcxsfzadidd",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "jiechixingshenfenzhangaidissociativeidentitydisorderdid",
+          "display": "jiechixingshenfenzhangaidissociativeidentitydisorderdid",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "jie chi xing shen fen zhang ai (dissociative identity disorder,did)",
+          "display": "解离性身份障碍（Dissociative Identity Disorder，DID）",
+          "kind": "title"
+        },
+        {
+          "normalized": "jiechixingshenfenzhangai(dissociativeidentitydisorder,did)",
+          "display": "解离性身份障碍（Dissociative Identity Disorder，DID）",
+          "kind": "title"
+        },
+        {
+          "normalized": "解离性身份障碍（dissociative identity disorder，did）",
+          "display": "解离性身份障碍（Dissociative Identity Disorder，DID）",
+          "kind": "title"
+        },
+        {
+          "normalized": "解离性身份障碍（dissociativeidentitydisorder，did）",
+          "display": "解离性身份障碍（Dissociative Identity Disorder，DID）",
           "kind": "title"
         }
       ]
@@ -3659,46 +3659,6 @@
       ]
     },
     {
-      "path": "entries/OSDD.md",
-      "title": "其他特定解离性障碍（OSDD）",
-      "aliases": [
-        "OSDD",
-        "其他特定解离性障碍（OSDD）"
-      ],
-      "tokens": [
-        {
-          "normalized": "osdd",
-          "display": "OSDD",
-          "kind": "alias"
-        },
-        {
-          "normalized": "qttdjcxzao",
-          "display": "qttdjcxzao",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "qitatedingjiechixingzhangaiosdd",
-          "display": "qitatedingjiechixingzhangaiosdd",
-          "kind": "pinyin_full"
-        },
-        {
-          "normalized": "qi ta te ding jie chi xing zhang ai (osdd)",
-          "display": "其他特定解离性障碍（OSDD）",
-          "kind": "title"
-        },
-        {
-          "normalized": "qitatedingjiechixingzhangai(osdd)",
-          "display": "其他特定解离性障碍（OSDD）",
-          "kind": "title"
-        },
-        {
-          "normalized": "其他特定解离性障碍（osdd）",
-          "display": "其他特定解离性障碍（OSDD）",
-          "kind": "title"
-        }
-      ]
-    },
-    {
       "path": "entries/Original.md",
       "title": "初始（Original）",
       "aliases": [
@@ -3739,121 +3699,41 @@
       ]
     },
     {
-      "path": "entries/PTSD.md",
-      "title": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
+      "path": "entries/OSDD.md",
+      "title": "其他特定解离性障碍（OSDD）",
       "aliases": [
-        "PTSD",
-        "Post-Traumatic Stress Disorder",
-        "chuangshanghouyingjizhangai",
-        "创伤后压力症候群",
-        "创伤后应激反应障碍",
-        "创伤后应激障碍",
-        "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）"
+        "OSDD",
+        "其他特定解离性障碍（OSDD）"
       ],
       "tokens": [
         {
-          "normalized": "post-traumatic stress disorder",
-          "display": "Post-Traumatic Stress Disorder",
+          "normalized": "osdd",
+          "display": "OSDD",
           "kind": "alias"
         },
         {
-          "normalized": "posttraumaticstressdisorder",
-          "display": "Post-Traumatic Stress Disorder",
-          "kind": "alias"
-        },
-        {
-          "normalized": "ptsd",
-          "display": "PTSD",
-          "kind": "alias"
-        },
-        {
-          "normalized": "cshyjfyza",
-          "display": "cshyjfyza",
+          "normalized": "qttdjcxzao",
+          "display": "qttdjcxzao",
           "kind": "pinyin_abbr"
         },
         {
-          "normalized": "cshyjza",
-          "display": "cshyjza",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "cshyjzaptsdp",
-          "display": "cshyjzaptsdp",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "cshylzhq",
-          "display": "cshylzhq",
-          "kind": "pinyin_abbr"
-        },
-        {
-          "normalized": "chuangshanghouyingjizhangaiposttraumaticstressdisorderptsd",
-          "display": "chuangshanghouyingjizhangaiposttraumaticstressdisorderptsd",
+          "normalized": "qitatedingjiechixingzhangaiosdd",
+          "display": "qitatedingjiechixingzhangaiosdd",
           "kind": "pinyin_full"
         },
         {
-          "normalized": "chuang shang hou ya li zheng hou qun ",
-          "display": "创伤后压力症候群",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "chuang shang hou ying ji fan ying zhang ai ",
-          "display": "创伤后应激反应障碍",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "chuang shang hou ying ji zhang ai ",
-          "display": "创伤后应激障碍",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "chuangshanghouyalizhenghouqun",
-          "display": "创伤后压力症候群",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "chuangshanghouyingjifanyingzhangai",
-          "display": "创伤后应激反应障碍",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "chuangshanghouyingjizhangai",
-          "display": "创伤后应激障碍",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "创伤后压力症候群",
-          "display": "创伤后压力症候群",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "创伤后应激反应障碍",
-          "display": "创伤后应激反应障碍",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "创伤后应激障碍",
-          "display": "创伤后应激障碍",
-          "kind": "synonym"
-        },
-        {
-          "normalized": "chuang shang hou ying ji zhang ai (post-traumatic stress disorder, ptsd)",
-          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
+          "normalized": "qi ta te ding jie chi xing zhang ai (osdd)",
+          "display": "其他特定解离性障碍（OSDD）",
           "kind": "title"
         },
         {
-          "normalized": "chuangshanghouyingjizhangai(posttraumaticstressdisorder,ptsd)",
-          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
+          "normalized": "qitatedingjiechixingzhangai(osdd)",
+          "display": "其他特定解离性障碍（OSDD）",
           "kind": "title"
         },
         {
-          "normalized": "创伤后应激障碍（post-traumatic stress disorder, ptsd）",
-          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
-          "kind": "title"
-        },
-        {
-          "normalized": "创伤后应激障碍（posttraumaticstressdisorder,ptsd）",
-          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
+          "normalized": "其他特定解离性障碍（osdd）",
+          "display": "其他特定解离性障碍（OSDD）",
           "kind": "title"
         }
       ]
@@ -4391,6 +4271,126 @@
         {
           "normalized": "保护者（protector）",
           "display": "保护者（Protector）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/PTSD.md",
+      "title": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
+      "aliases": [
+        "PTSD",
+        "Post-Traumatic Stress Disorder",
+        "chuangshanghouyingjizhangai",
+        "创伤后压力症候群",
+        "创伤后应激反应障碍",
+        "创伤后应激障碍",
+        "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）"
+      ],
+      "tokens": [
+        {
+          "normalized": "post-traumatic stress disorder",
+          "display": "Post-Traumatic Stress Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "posttraumaticstressdisorder",
+          "display": "Post-Traumatic Stress Disorder",
+          "kind": "alias"
+        },
+        {
+          "normalized": "ptsd",
+          "display": "PTSD",
+          "kind": "alias"
+        },
+        {
+          "normalized": "cshyjfyza",
+          "display": "cshyjfyza",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "cshyjza",
+          "display": "cshyjza",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "cshyjzaptsdp",
+          "display": "cshyjzaptsdp",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "cshylzhq",
+          "display": "cshylzhq",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "chuangshanghouyingjizhangaiposttraumaticstressdisorderptsd",
+          "display": "chuangshanghouyingjizhangaiposttraumaticstressdisorderptsd",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "chuang shang hou ya li zheng hou qun ",
+          "display": "创伤后压力症候群",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "chuang shang hou ying ji fan ying zhang ai ",
+          "display": "创伤后应激反应障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "chuang shang hou ying ji zhang ai ",
+          "display": "创伤后应激障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "chuangshanghouyalizhenghouqun",
+          "display": "创伤后压力症候群",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "chuangshanghouyingjifanyingzhangai",
+          "display": "创伤后应激反应障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "chuangshanghouyingjizhangai",
+          "display": "创伤后应激障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "创伤后压力症候群",
+          "display": "创伤后压力症候群",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "创伤后应激反应障碍",
+          "display": "创伤后应激反应障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "创伤后应激障碍",
+          "display": "创伤后应激障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "chuang shang hou ying ji zhang ai (post-traumatic stress disorder, ptsd)",
+          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "chuangshanghouyingjizhangai(posttraumaticstressdisorder,ptsd)",
+          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "创伤后应激障碍（post-traumatic stress disorder, ptsd）",
+          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
+          "kind": "title"
+        },
+        {
+          "normalized": "创伤后应激障碍（posttraumaticstressdisorder,ptsd）",
+          "display": "创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）",
           "kind": "title"
         }
       ]

@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 外投射（External Projection）
-tags: [外投射, 投射方向, 边界设定, 环境评估, 沟通习惯, 功能性, 系统体验与机制, 与幻觉的区分]
 updated: 2025-10-03
 ---
 
@@ -28,14 +31,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [后台（Back / Being Back）](/entries/Back-Being-Back.md)
-- [权限（Permissions）](/entries/Permissions.md)
-- [前台（Front / Fronting）](/entries/Front-Fronting.md)
-- [T 语（Tulpish）](/entries/Tulpish.md)
 - [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
 - [成员（Alter）](/entries/Alter.md)
-- [适应型（Adaptive）](/entries/Adaptive.md)
-- [独立性（Independence）](/entries/Independence.md)
+- [后台（Back / Being Back）](/entries/Back-Being-Back.md)
+- [前台（Front / Fronting）](/entries/Front-Fronting.md)
+- [内部空间（Headspace / Inner World）](/entries/Headspace-Inner-World.md)
+- [权限（Permissions）](/entries/Permissions.md)
+- [投影（Projection）](/entries/Projection.md)
+- [共前台（Co-fronting）](/entries/Co-Fronting.md)
 
 ## 参考与延伸阅读
 

@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 照顾者（Caregiver）
-tags: [系统角色与类型, 照顾者, 情感调节能力, 跨系统互助, 界限设定, 日常照护, 内部养育者, 常见特征]
 updated: 2025-10-03
 ---
 
@@ -45,11 +48,11 @@ updated: 2025-10-03
 
 ## 相关条目
 
+- [保护者（Protector）](/entries/Protector.md)
+- [小孩意识体（Little / Child Part）](/entries/Little.md)
+- [迫害者（Persecutor）](/entries/Persecutor.md)
+- [人格职能（System Roles）](/entries/System-Roles.md)
 - [执行者（Performer / Executive）](/entries/Performer-Executive.md)
 - [青少年意识体（Teen Part）](/entries/Teen.md)
 - [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
-- [迫害者（Persecutor）](/entries/Persecutor.md)
-- [保护者（Protector）](/entries/Protector.md)
-- [小孩意识体（Little / Child Part）](/entries/Little.md)
-- [人格职能（System Roles）](/entries/System-Roles.md)
-- [初始（Original）](/entries/Original.md)
+- [内部沟通（Internal Communication）](/entries/Internal-Communication.md)

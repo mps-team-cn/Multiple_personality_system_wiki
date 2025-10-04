@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 前台（Front / Fronting）
-tags: [前台, 时间敏感性, 控制权, 记录工具, 社区文化, 术语差异, 外界沟通, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -28,14 +31,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [成员（Alter）](/entries/Alter.md)
-- [后台（Back / Being Back）](/entries/Back-Being-Back.md)
-- [外投射（External Projection）](/entries/External-Projection.md)
-- [权限（Permissions）](/entries/Permissions.md)
-- [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
-- [T 语（Tulpish）](/entries/Tulpish.md)
 - [共前台（Co-fronting）](/entries/Co-Fronting.md)
+- [后台（Back / Being Back）](/entries/Back-Being-Back.md)
+- [成员（Alter）](/entries/Alter.md)
 - [切换（Switch）](/entries/Switch.md)
+- [权限（Permissions）](/entries/Permissions.md)
+- [外投射（External Projection）](/entries/External-Projection.md)
+- [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
+- [内部空间（Headspace / Inner World）](/entries/Headspace-Inner-World.md)
 
 ## 参考与延伸阅读
 

@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 记忆屏蔽（Memory Shielding）
-tags: [记忆屏蔽, 目的多样, 形式分类, 神经生物学基础, 治疗合作, 意象法实施, 心理防御, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -31,14 +34,14 @@ Memory Shielding、Amnesiacflux、屏蔽记忆
 
 ## 相关条目
 
-- [融合（Fusion）](/entries/Fusion.md)
-- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
-- [多意识体（Plurality）](/entries/Plurality.md)
-- [独立性（Independence）](/entries/Independence.md)
-- [权限（Permissions）](/entries/Permissions.md)
-- [解离（Dissociation）](/entries/Dissociation.md)
-- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
 - [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
+- [成员（Alter）](/entries/Alter.md)
+- [独立性（Independence）](/entries/Independence.md)
+- [融合（Fusion）](/entries/Fusion.md)
+- [权限（Permissions）](/entries/Permissions.md)
+- [迭代（Iteration）](/entries/Iteration.md)
+- [整合（Integration）](/entries/Integration.md)
 
 ## 参考与延伸阅读
 

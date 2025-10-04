@@ -1,6 +1,9 @@
 ---
+tags:
+- 解离
+- 醉酒解离
+- 多重意识体
 title: 醉酒解离（Alcohol-Induced Dissociation）
-tags: [解离, 醉酒解离, 躯体化, 物质影响, 沟通协作, 感知体验, 应对策略, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -36,14 +39,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [解离（Dissociation）](/entries/Dissociation.md)
-- [功能性分离（Functional Dissociation）](/entries/Functional-Dissociation.md)
-- [后台（Back / Being Back）](/entries/Back-Being-Back.md)
-- [成员（Alter）](/entries/Alter.md)
-- [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
 - [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
-- [侵入性思维（Intrusive Thoughts）](/entries/Intrusive-Thoughts.md)
-- [权限（Permissions）](/entries/Permissions.md)
+- [成员（Alter）](/entries/Alter.md)
+- [人格职能（System Roles）](/entries/System-Roles.md)
+- [功能性分离（Functional Dissociation）](/entries/Functional-Dissociation.md)
+- [适应型（Adaptive）](/entries/Adaptive.md)
+- [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
+- [主体（Main）](/entries/Main.md)
+- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](/entries/Dostoevsky-The-Double-Self-Division.md)
 
 ## 参考资料
 

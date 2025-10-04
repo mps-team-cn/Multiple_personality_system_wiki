@@ -1,6 +1,9 @@
 ---
+tags:
+- 解离性身份障碍 DID
+- 多重意识体
+- 解离
 title: 系统（System）
-tags: [解离性身份障碍 DID, 定义与同义词, 复数系统, 系统, 解离性身份障碍, 群体身份, 诊断关联, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -68,14 +71,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [系魂型系统（Soul-Linked Systems, Xianyu Theory）](/entries/Soul-Linked-Systems-Xianyu.md)
-- [家族式系统（Family Systems, Xianyu Theory）](/entries/Family-Systems-Xianyu.md)
-- [内部空间（Headspace / Inner World）](/entries/Headspace-Inner-World.md)
-- [单一类系统（Single-Class Systems, Xianyu Theory）](/entries/Single-Class-Systems-Xianyu.md)
-- [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](/entries/Xianyu-Theory-Niche-Classification.md)
-- [混合型系统（Mixed Systems, Xianyu Theory）](/entries/Mixed-Systems-Xianyu.md)
 - [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [多意识体（Plurality）](/entries/Plurality.md)
+- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
+- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
+- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](/entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
+- [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](/entries/Partial-Dissociative-Identity-Disorder-PDID.md)
+- [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
+- [混合（Blending）](/entries/Blending.md)
 
 ## 参考与延伸阅读
 

@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 定向障碍（Disorientation）
-tags: [定向障碍, 来源, 自我定向障碍, 结构性解离视角, 精神病性障碍, 神经退行性疾病, 神经生物学, 诊断与临床]
 updated: 2025-10-03
 ---
 
@@ -106,14 +109,14 @@ ICD-11 与 DSM-5-TR 均将定向障碍视为谵妄的重要表现，但 ICD-11 �
 
 ## 相关条目
 
-- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
 - [谵妄（Delirium）](/entries/Delirium.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
-- [复杂性创伤后应激障碍（CPTSD）](/entries/CPTSD.md)
-- [闪回（Flashback）](/entries/Flashback.md)
+- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
+- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
 - [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
-- [焦虑（Anxiety）](/entries/Anxiety.md)
+- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
+- [躁狂（Mania）](/entries/Mania.md)
 
 ## 参考与延伸阅读
 

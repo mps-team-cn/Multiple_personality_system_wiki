@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 切换（Switch）
-tags: [定义与同义词, 切换, 交替, 主要特征, 社群与临床语境, 常见误区, 实务建议, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -45,13 +48,13 @@ updated: 2025-10-03
 ## 相关条目
 
 - [共前台（Co-fronting）](/entries/Co-Fronting.md)
-- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](/entries/PTSD.md)
-- [偏重（Bias / Median）](/entries/Bias.md)
+- [前台（Front / Fronting）](/entries/Front-Fronting.md)
+- [后台（Back / Being Back）](/entries/Back-Being-Back.md)
+- [成员（Alter）](/entries/Alter.md)
 - [内部空间（Headspace / Inner World）](/entries/Headspace-Inner-World.md)
-- [系魂型系统（Soul-Linked Systems, Xianyu Theory）](/entries/Soul-Linked-Systems-Xianyu.md)
-- [系统（System）](/entries/System.md)
-- [家族式系统（Family Systems, Xianyu Theory）](/entries/Family-Systems-Xianyu.md)
-- [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](/entries/Xianyu-Theory-Niche-Classification.md)
+- [权限（Permissions）](/entries/Permissions.md)
+- [医源型系统（Iatrogenic System）](/entries/Iatrogenic-System.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
 
 ## 参考与延伸阅读
 

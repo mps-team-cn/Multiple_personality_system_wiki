@@ -11,13 +11,17 @@
 ### 1.1 克隆与同步仓库
 
 ```bash
+
 # 克隆仓库
+
 git clone https://github.com/kuliantnt/plurality_wiki.git
 
 # 进入目录
+
 cd plurality_wiki
 
 # 同步主分支
+
 git checkout main
 git pull origin main
 ```

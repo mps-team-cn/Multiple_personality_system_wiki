@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 重构（Reconstruction）
-tags: [重构, 迭代, 角色替换, 融合与整合, 生命周期事件, 治疗协作, 外部沟通, 系统体验与机制]
 updated: 2025-10-03
 ---
 
@@ -30,13 +33,13 @@ updated: 2025-10-03
 ## 相关条目
 
 - [迭代（Iteration）](/entries/Iteration.md)
-- [独有记忆（Exomemory）](/entries/Exomemory.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
-- [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
-- [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
-- [躯体认同（Body Ownership）](/entries/Body-Ownership.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
 - [融合（Fusion）](/entries/Fusion.md)
+- [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
 
 ## 参考资料
 

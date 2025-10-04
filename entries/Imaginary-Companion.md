@@ -1,6 +1,9 @@
 ---
+tags:
+- 多重意识体
+- 解离
+- 创伤
 title: 幻想伙伴（Imaginary Companion）
-tags: [系统角色与类型, 幻想伙伴, 发展常见性, 文化差异, 寄生性念头或幻觉, 可塑性, 功能多样, 与多意识体概念的交叉]
 updated: 2025-10-03
 ---
 
@@ -43,11 +46,11 @@ updated: 2025-10-03
 
 ## 相关条目
 
+- [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](/entries/Touhou-Tulpa-Fandom.md)
+- [《妄想代理人》（Paranoia Agent）与集体意识的具象化](/entries/Paranoia-Agent-Collective-Consciousness.md)
 - [宿主（Host）](/entries/Host.md)
-- [图帕（Tulpa）](/entries/Tulpa.md)
-- [初始（Original）](/entries/Original.md)
+- [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](/entries/Madoka-Magica-Kyubey-Otherness.md)
 - [自发型（Spontaneous）](/entries/Spontaneous.md)
-- [埃蒙加德分类法（Emmengard Classification）](/entries/Emmengard-Classification.md)
-- [适应型（Adaptive）](/entries/Adaptive.md)
-- [人格职能（System Roles）](/entries/System-Roles.md)
-- [主体（Main）](/entries/Main.md)
+- [洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）](/entries/Lovecraft-Tulpa-Motifs.md)
+- [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](/entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
+- [初始（Original）](/entries/Original.md)
