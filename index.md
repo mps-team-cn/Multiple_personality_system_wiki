@@ -101,7 +101,7 @@
 - [触发（Trigger）](entries/系统体验与机制/Trigger.md)
 - [退行（Regression in Psychology）](entries/系统体验与机制/Regression-In-Psychology.md)
 - [醉酒解离（Alcohol-Induced Dissociation）](entries/系统体验与机制/Alcohol-Induced-Dissociation.md)
-
+- [子系统[Subsystem]]
 ## 实践与支持
 
 - [冥想（Meditation）](entries/实践与支持/Meditation.md)
