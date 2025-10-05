@@ -2,7 +2,7 @@
 
 ## 📁 文件结构
 
-```
+```text
 docs/assets/
 ├── extra.css              # 通用样式（当前默认，适用所有主题）
 ├── extra-material.css     # Material 主题专用增强样式
@@ -28,7 +28,9 @@ docs/assets/
 
 **配置**:
 ```yaml
+
 # mkdocs.yml
+
 extra_css:
   - assets/extra-material.css
 ```
@@ -48,7 +50,9 @@ extra_css:
 
 **配置**:
 ```yaml
+
 # mkdocs.yml.readthedocs 或 mkdocs.yml.mkdocs
+
 extra_css:
   - assets/extra.css
 ```
@@ -60,13 +64,17 @@ extra_css:
 使用预配置的主题文件，CSS 引用已自动设置：
 
 ```bash
+
 # 切换到 Material（使用 extra-material.css）
+
 cp mkdocs.yml.material-backup mkdocs.yml
 
 # 切换到 ReadTheDocs（使用 extra.css）
+
 cp mkdocs.yml.readthedocs mkdocs.yml
 
 # 切换到 MkDocs 默认（使用 extra.css）
+
 cp mkdocs.yml.mkdocs mkdocs.yml
 ```
 
@@ -75,11 +83,14 @@ cp mkdocs.yml.mkdocs mkdocs.yml
 如果需要手动调整 CSS 引用：
 
 ```yaml
+
 # Material 主题
+
 extra_css:
   - assets/extra-material.css
 
 # 其他主题
+
 extra_css:
   - assets/extra.css
 ```
@@ -102,12 +113,16 @@ extra_css:
 2. **创建新的 CSS 文件**：
 
 ```bash
+
 # 创建新文件
+
 touch docs/assets/custom.css
 ```
 
 ```yaml
+
 # 在 mkdocs.yml 中引用
+
 extra_css:
   - assets/extra-material.css
   - assets/custom.css  # 你的自定义样式
@@ -198,12 +213,15 @@ h2 {
 
 1. **不要同时引用两个样式文件**：
 ```yaml
+
 # ❌ 错误：可能导致样式冲突
+
 extra_css:
   - assets/extra-material.css
   - assets/extra.css
 
 # ✅ 正确：根据主题选择一个
+
 extra_css:
   - assets/extra-material.css  # 仅 Material
 ```
@@ -280,9 +298,9 @@ extra_css:
 
 ## 📚 参考资源
 
-- **Material CSS 变量**: https://squidfunk.github.io/mkdocs-material/customization/#css-variables
-- **MDN CSS 文档**: https://developer.mozilla.org/zh-CN/docs/Web/CSS
-- **Can I Use**: https://caniuse.com/ (检查 CSS 兼容性)
+- **Material CSS 变量**: [https://squidfunk.github.io/mkdocs-material/customization/#css-variables](https://squidfunk.github.io/mkdocs-material/customization/#css-variables)
+- **MDN CSS 文档**: [https://developer.mozilla.org/zh-CN/docs/Web/CSS](https://developer.mozilla.org/zh-CN/docs/Web/CSS)
+- **Can I Use**: [https://caniuse.com/](https://caniuse.com/) (检查 CSS 兼容性)
 
 ---
 

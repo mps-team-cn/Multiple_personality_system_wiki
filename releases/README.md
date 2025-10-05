@@ -35,8 +35,8 @@
 
 **推荐访问最新在线版本**：
 
-- **GitHub Pages**: https://kuliantnt.github.io/plurality_wiki/
-- **Cloudflare Pages**: https://plurality-wiki.pages.dev/
+- **GitHub Pages**: [https://kuliantnt.github.io/plurality_wiki/](https://kuliantnt.github.io/plurality_wiki/)
+- **Cloudflare Pages**: [https://plurality-wiki.pages.dev/](https://plurality-wiki.pages.dev/)
 
 在线版本始终保持最新，包含所有词条更新和功能改进。
 

@@ -32,7 +32,7 @@
 
 #### 新增目录结构
 
-```
+```text
 plurality_wiki/
 ├── docs/                    # 新增: MkDocs 文档目录
 │   ├── index.md            # 新首页 (Material 风格)
@@ -57,7 +57,7 @@ plurality_wiki/
 
 #### 保留的旧文件
 
-```
+```text
 ├── index.html.old          # 旧版 Docsify 入口 (备份)
 ├── index.html.backup       # 旧版备份
 ├── index.html              # 当前仍为 Docsify (向后兼容)
@@ -98,7 +98,7 @@ plugins:
 
 #### requirements-mkdocs.txt (新增)
 
-```
+```text
 mkdocs>=1.5.3
 mkdocs-material>=9.5.0
 mkdocs-git-revision-date-localized-plugin>=1.2.4
@@ -276,10 +276,13 @@ pymdown-extensions>=10.7
 ### 方案 A: Git 回滚
 
 ```bash
+
 # 回滚到迁移前的提交
+
 git revert <migration-commit-hash>
 
 # 或者硬回滚 (谨慎使用)
+
 git reset --hard <pre-migration-commit>
 git push --force
 ```
@@ -292,7 +295,9 @@ git push --force
 ### 方案 C: 分支切换
 
 ```bash
+
 # 切换回未迁移的分支
+
 git checkout main  # 或其他稳定分支
 ```
 
@@ -334,15 +339,15 @@ git checkout main  # 或其他稳定分支
 
 ### MkDocs Material 官方文档
 
-- **主页**: https://squidfunk.github.io/mkdocs-material/
-- **快速开始**: https://squidfunk.github.io/mkdocs-material/getting-started/
-- **参考**: https://squidfunk.github.io/mkdocs-material/reference/
+- **主页**: [https://squidfunk.github.io/mkdocs-material/](https://squidfunk.github.io/mkdocs-material/)
+- **快速开始**: [https://squidfunk.github.io/mkdocs-material/getting-started/](https://squidfunk.github.io/mkdocs-material/getting-started/)
+- **参考**: [https://squidfunk.github.io/mkdocs-material/reference/](https://squidfunk.github.io/mkdocs-material/reference/)
 
 ### 相关插件
 
-- **搜索**: https://squidfunk.github.io/mkdocs-material/plugins/search/
-- **标签**: https://squidfunk.github.io/mkdocs-material/plugins/tags/
-- **Git 修订日期**: https://github.com/timvink/mkdocs-git-revision-date-localized-plugin
+- **搜索**: [https://squidfunk.github.io/mkdocs-material/plugins/search/](https://squidfunk.github.io/mkdocs-material/plugins/search/)
+- **标签**: [https://squidfunk.github.io/mkdocs-material/plugins/tags/](https://squidfunk.github.io/mkdocs-material/plugins/tags/)
+- **Git 修订日期**: [https://github.com/timvink/mkdocs-git-revision-date-localized-plugin](https://github.com/timvink/mkdocs-git-revision-date-localized-plugin)
 
 ---
 
@@ -382,9 +387,9 @@ git checkout main  # 或其他稳定分支
 
 感谢以下工具和项目:
 
-- **MkDocs**: https://www.mkdocs.org/
-- **Material for MkDocs**: https://squidfunk.github.io/mkdocs-material/
-- **Cloudflare Pages**: https://pages.cloudflare.com/
+- **MkDocs**: [https://www.mkdocs.org/](https://www.mkdocs.org/)
+- **Material for MkDocs**: [https://squidfunk.github.io/mkdocs-material/](https://squidfunk.github.io/mkdocs-material/)
+- **Cloudflare Pages**: [https://pages.cloudflare.com/](https://pages.cloudflare.com/)
 - **原 Docsify 版本**: 为迁移提供了基础
 
 ---
@@ -393,7 +398,7 @@ git checkout main  # 或其他稳定分支
 
 如有问题或建议,请通过以下方式联系:
 
-- **GitHub Issues**: https://github.com/kuliantnt/plurality_wiki/issues
+- **GitHub Issues**: [https://github.com/kuliantnt/plurality_wiki/issues](https://github.com/kuliantnt/plurality_wiki/issues)
 - **邮件**: (如有)
 
 ---

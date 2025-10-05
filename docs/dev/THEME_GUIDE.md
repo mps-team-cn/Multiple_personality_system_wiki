@@ -37,20 +37,26 @@ pip install mkdocs-glightbox
 
 **依赖**：
 ```bash
+
 # 无需额外依赖，MkDocs 内置
+
 ```
 
 **配置文件**：`mkdocs.yml.readthedocs`
 
 **切换方式**：
 ```bash
+
 # 备份当前配置
+
 cp mkdocs.yml mkdocs.yml.backup
 
 # 切换到 ReadTheDocs 主题
+
 cp mkdocs.yml.readthedocs mkdocs.yml
 
 # 测试预览
+
 mkdocs serve
 ```
 
@@ -67,20 +73,26 @@ mkdocs serve
 
 **依赖**：
 ```bash
+
 # 无需额外依赖，MkDocs 内置
+
 ```
 
 **配置文件**：`mkdocs.yml.mkdocs`
 
 **切换方式**：
 ```bash
+
 # 备份当前配置
+
 cp mkdocs.yml mkdocs.yml.backup
 
 # 切换到默认主题
+
 cp mkdocs.yml.mkdocs mkdocs.yml
 
 # 测试预览
+
 mkdocs serve
 ```
 
@@ -223,19 +235,24 @@ theme:
 ## 🔄 快速切换命令
 
 ```bash
+
 # 切换到 Material（推荐）
+
 cp mkdocs.yml.material-backup mkdocs.yml
 mkdocs serve
 
 # 切换到 ReadTheDocs
+
 cp mkdocs.yml.readthedocs mkdocs.yml
 mkdocs serve
 
 # 切换到 MkDocs 默认
+
 cp mkdocs.yml.mkdocs mkdocs.yml
 mkdocs serve
 
 # 恢复到最近的备份
+
 cp mkdocs.yml.backup mkdocs.yml
 mkdocs serve
 ```
@@ -285,7 +302,7 @@ theme:
 ```
 
 3. **添加自定义模板/样式**：
-```
+```text
 overrides/
 ├── main.html           # 覆盖主模板
 ├── partials/           # 部分模板
@@ -300,10 +317,10 @@ overrides/
 
 ## 📚 参考资源
 
-- **MkDocs 官方文档**: https://www.mkdocs.org/
-- **Material 主题文档**: https://squidfunk.github.io/mkdocs-material/
-- **MkDocs 主题目录**: https://github.com/mkdocs/catalog
-- **主题选择指南**: https://www.mkdocs.org/user-guide/choosing-your-theme/
+- **MkDocs 官方文档**: [https://www.mkdocs.org/](https://www.mkdocs.org/)
+- **Material 主题文档**: [https://squidfunk.github.io/mkdocs-material/](https://squidfunk.github.io/mkdocs-material/)
+- **MkDocs 主题目录**: [https://github.com/mkdocs/catalog](https://github.com/mkdocs/catalog)
+- **主题选择指南**: [https://www.mkdocs.org/user-guide/choosing-your-theme/](https://www.mkdocs.org/user-guide/choosing-your-theme/)
 
 ---
 

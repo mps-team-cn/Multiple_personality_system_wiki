@@ -28,7 +28,7 @@
 
 可选的环境变量:
 
-```
+```text
 PYTHON_VERSION=3.11
 ```
 
@@ -65,13 +65,17 @@ PYTHON_VERSION=3.11
 在推送到 GitHub 之前，可以本地测试构建:
 
 ```bash
+
 # 安装依赖
+
 pip install -r requirements-mkdocs.txt
 
 # 本地预览
+
 mkdocs serve
 
 # 构建站点
+
 mkdocs build --strict
 ```
 

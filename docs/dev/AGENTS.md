@@ -98,7 +98,7 @@
   # 启动本地服务器（支持热重载）
   mkdocs serve
 
-  # 访问 http://127.0.0.1:8000
+  # 访问 [http://127.0.0.1:8000](http://127.0.0.1:8000)
   ```
 
 - **构建测试**：
@@ -153,17 +153,23 @@
 ### 7.2 手动执行（本地）
 
 ```bash
+
 # 执行自动修复
+
 python tools/fix_md.py
 
 # 可选：仅查看将修改哪些文件
+
 python tools/fix_md.py --dry-run
 
 # 运行 markdownlint（需已安装 markdownlint-cli）
+
 # MkDocs 项目检查
+
 markdownlint "docs/**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
 
 # 或检查所有 Markdown
+
 markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor" --ignore "site"
 ```
 
