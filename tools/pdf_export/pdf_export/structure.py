@@ -11,7 +11,7 @@ from typing import Iterable
 from .frontmatter import FrontmatterError, load_entry_document
 from .markdown import infer_entry_title
 from .models import CategoryStructure, EntryDocument, IgnoreRules
-from .paths import ENTRIES_DIR, PROJECT_ROOT, PREFACE_PATH, INDEX_PATH
+from .paths import ENTRIES_DIR, PROJECT_ROOT, PREFACE_PATH, INDEX_PATH, DOCS_DIR
 
 
 def _build_preface_section(ignore: IgnoreRules) -> tuple[str, tuple[EntryDocument, ...]] | None:
@@ -37,20 +37,51 @@ def _build_preface_section(ignore: IgnoreRules) -> tuple[str, tuple[EntryDocumen
 
 
 def _load_entry_documents(ignore: IgnoreRules) -> OrderedDict[Path, EntryDocument]:
-    """读取 entries 目录中的词条并保留原始文件名顺序。"""
+    """读取 entries 目录中的词条和 docs 目录中的导览页面，并保留原始文件名顺序。"""
 
     documents: OrderedDict[Path, EntryDocument] = OrderedDict()
-    if not ENTRIES_DIR.exists():
-        return documents
 
-    for path in sorted(ENTRIES_DIR.glob("*.md")):
-        if ignore.matches(path):
-            continue
-        try:
-            document = load_entry_document(path)
-        except FrontmatterError as error:
-            raise SystemExit(f"解析 {path} 的 frontmatter 失败：{error}") from error
-        documents[document.path] = document
+    # 加载词条目录中的文件
+    if ENTRIES_DIR.exists():
+        for path in sorted(ENTRIES_DIR.glob("*.md")):
+            if ignore.matches(path):
+                continue
+            try:
+                document = load_entry_document(path)
+            except FrontmatterError as error:
+                raise SystemExit(f"解析 {path} 的 frontmatter 失败：{error}") from error
+            documents[document.path] = document
+
+    # 加载 docs 目录中的导览页面（排除 index.md 和 Preface.md）
+    if DOCS_DIR.exists():
+        guide_patterns = [
+            "*-Guide.md",  # 所有以 -Guide.md 结尾的文件
+            "*-Operations.md",  # System-Operations.md 等
+            "DSM-ICD-*.md",  # DSM-ICD-Diagnosis-Index.md 等
+            "Glossary.md",  # 术语表
+        ]
+        for pattern in guide_patterns:
+            for path in sorted(DOCS_DIR.glob(pattern)):
+                if ignore.matches(path):
+                    continue
+                if path.name in ("index.md", "Preface.md"):
+                    continue
+                try:
+                    document = load_entry_document(path)
+                except FrontmatterError:
+                    # 导览页面可能没有 frontmatter，使用简化处理
+                    try:
+                        content = path.read_text(encoding="utf-8")
+                        document = EntryDocument(
+                            path=path.resolve(),
+                            title=infer_entry_title(path),
+                            tags=(),
+                            body=content,
+                        )
+                    except OSError as error:
+                        print(f"警告: 无法读取 {path}: {error}", file=sys.stderr)
+                        continue
+                documents[document.path] = document
 
     return documents
 
