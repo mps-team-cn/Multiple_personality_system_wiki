@@ -53,13 +53,13 @@ theme:
     - navigation.sections         # 导航分组
     - navigation.expand           # 默认展开导航
     - navigation.path             # 面包屑导航
-    # - navigation.indexes        # 分组索引页（与 toc.integrate 不兼容）
+    - navigation.indexes          # 分组索引页
     - navigation.top              # 返回顶部按钮
     - navigation.footer           # 页脚导航
 
     # 目录
     - toc.follow                  # 目录跟随
-    - toc.integrate               # 目录集成到左侧栏，不显示导航树
+    # - toc.integrate             # 不启用，改用 CSS 控制布局
 
     # 搜索
     - search.suggest              # 搜索建议
