@@ -32,9 +32,9 @@
 
 **从解离说起，建立理论框架**
 
-- 什么是解离？解离与多意识体的关系
-- 健康多意识体（Tulpa）vs 病理性多意识体（DID/OSDD）
-- 埃蒙加德分类法：按成因理解系统类型
+- 什么是[解离](entries/Dissociation.md)？解离与[多意识体](entries/Plurality.md)的关系
+- 健康多意识体（[Tulpa](entries/Tulpa.md)）vs 病理性多意识体（[DID](entries/DID.md)/[OSDD](entries/OSDD.md)）
+- [埃蒙加德分类法](entries/Emmengard-Classification.md)：按成因理解系统类型
 - 常见误区澄清与新手建议
 
 👉 **适合：** 完全的新手，想要建立基础认知框架
@@ -43,12 +43,12 @@
 
 **理解创伤、诊断与治疗**
 
-- 创伤类型（I 型 vs II 型）与神经生物学基础
-- PTSD 与 CPTSD 的诊断标准（DSM-5-TR/ICD-11）
-- 解离谱系：从适应到病理
-- 抑郁、焦虑与共病问题
+- [创伤](entries/Trauma.md)类型（I 型 vs II 型）与神经生物学基础
+- [PTSD](entries/PTSD.md) 与 [CPTSD](entries/CPTSD.md) 的诊断标准（DSM-5-TR/ICD-11）
+- [解离](entries/Dissociation.md)谱系：从适应到病理
+- [抑郁](entries/Depressive-Disorders.md)、[焦虑](entries/Anxiety.md)与共病问题
 - 循证治疗方法（EMDR、TF-CBT、DBT 等）
-- 接地技巧与实用自我照护策略
+- [接地](entries/Grounding.md)技巧与实用自我照护策略
 
 👉 **适合：** 关注心理健康、创伤康复或临床知识的读者
 
@@ -56,13 +56,13 @@
 
 **掌握系统日常运作机制**
 
-- 前台与切换：谁在控制身体？如何转换？
-- 意识共享与记忆管理：如何协调信息？
-- 内部空间与沟通：建立系统内部的协作网络
-- 角色与治理：宿主、守门人、保护者等职能分工
-- 实务支持：接地、照护与危机应对
+- [前台](entries/Front-Fronting.md)与[切换](entries/Switch.md)：谁在控制身体？如何转换？
+- [意识共享](entries/Co-Consciousness.md)与记忆管理：如何协调信息？
+- [内部空间](entries/Headspace-Inner-World.md)与[沟通](entries/Internal-Communication.md)：建立系统内部的协作网络
+- 角色与治理：[宿主](entries/Host.md)、[守门人](entries/Gatekeeper.md)、[保护者](entries/Protector.md)等职能分工
+- 实务支持：[接地](entries/Grounding.md)、照护与危机应对
 
-👉 **适合：** 多意识体系统成员，想要优化日常协作
+👉 **适合：** [多意识体](entries/Plurality.md)系统成员，想要优化日常协作
 
 ---
 
