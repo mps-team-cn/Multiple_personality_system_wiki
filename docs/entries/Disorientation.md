@@ -1,5 +1,6 @@
 ---
 tags:
+- 诊断与临床
 - 多重意识体
 - 解离
 - 创伤
@@ -7,6 +8,7 @@ topic: 诊断与临床
 title: 定向障碍（Disorientation）
 updated: 2025-10-03
 ---
+
 
 # 定向障碍（Disorientation）
 

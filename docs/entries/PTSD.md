@@ -1,4 +1,12 @@
 ---
+tags:
+- 诊断与临床
+- PTSD
+- 多重意识体
+- 解离
+topic: 诊断与临床
+title: 创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）
+updated: 2025-10-03
 synonyms:
 - 创伤后应激障碍
 - 创伤后压力症候群
@@ -6,14 +14,8 @@ synonyms:
 - Post-Traumatic Stress Disorder
 - PTSD
 - chuangshanghouyingjizhangai
-tags:
-- PTSD
-- 多重意识体
-- 解离
-topic: 诊断与临床
-title: 创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）
-updated: 2025-10-03
 ---
+
 
 # 创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）
 

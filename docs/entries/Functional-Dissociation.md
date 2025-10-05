@@ -1,12 +1,14 @@
 ---
 tags:
+- 系统运作
 - 解离
 - 多重意识体
 - 创伤
-topic: 系统体验与机制
+topic: 系统运作
 title: 功能性分离（Functional Dissociation）
 updated: 2025-10-03
 ---
+
 
 # 功能性分离（Functional Dissociation）
 

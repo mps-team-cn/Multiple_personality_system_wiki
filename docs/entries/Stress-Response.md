@@ -1,12 +1,14 @@
 ---
 tags:
+- 系统运作
 - 多重意识体
 - 解离
 - 创伤
-topic: 系统体验与机制
+topic: 系统运作
 title: 应激反应（Stress Response）
 updated: 2025-10-03
 ---
+
 
 # 应激反应（Stress Response）
 

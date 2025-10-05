@@ -1,5 +1,6 @@
 ---
 tags:
+- 诊断与临床
 - NPD
 - 多重意识体
 - 解离
@@ -7,6 +8,7 @@ topic: 诊断与临床
 title: 自恋型人格障碍（Narcissistic Personality Disorder，NPD）
 updated: 2025-10-03
 ---
+
 
 # 自恋型人格障碍（Narcissistic Personality Disorder，NPD）
 

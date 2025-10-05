@@ -1,16 +1,18 @@
 ---
+tags:
+- 理论与分类
+- 多重意识体
+- 解离
+- 创伤
+topic: 理论与分类
+title: 自我决定理论（Self-Determination Theory）
+updated: 2025-10-05
 synonyms:
 - 自主性动机理论
 - SDT 理论
 - self determination theory
-tags:
-- 多重意识体
-- 解离
-- 创伤
-topic: 心理学与理论
-title: 自我决定理论（Self-Determination Theory）
-updated: 2025-10-05
 ---
+
 
 # 自我决定理论（Self-Determination Theory）
 

@@ -1,16 +1,18 @@
 ---
+tags:
+- 理论与分类
+- 多重意识体
+- 解离
+- 创伤
+topic: 理论与分类
+title: 移情与反移情（Transference and Countertransference）
+updated: 2025-10-05
 synonyms:
 - 移情
 - 反移情
 - transference countertransference
-tags:
-- 多重意识体
-- 解离
-- 创伤
-topic: 心理学与理论
-title: 移情与反移情（Transference and Countertransference）
-updated: 2025-10-05
 ---
+
 
 # 移情与反移情（Transference and Countertransference）
 

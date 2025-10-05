@@ -1,16 +1,18 @@
 ---
+tags:
+- 理论与分类
+- 多重意识体
+- 解离
+- 创伤
+topic: 理论与分类
+title: 投射（Projection, Psychology）
+updated: 2025-10-05
 synonyms:
 - 心理投射
 - 投射机制
 - projection
-tags:
-- 多重意识体
-- 解离
-- 创伤
-topic: 心理学与理论
-title: 投射（Projection, Psychology）
-updated: 2025-10-05
 ---
+
 
 # 投射（Projection, Psychology）
 

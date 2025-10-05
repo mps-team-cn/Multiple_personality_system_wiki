@@ -1,12 +1,14 @@
 ---
 tags:
+- 角色与身份
 - DID
 - 多重意识体
 - 解离
-topic: 系统角色与类型
+topic: 角色与身份
 title: 图帕（Tulpa）
 updated: 2025-10-03
 ---
+
 
 # 图帕（Tulpa）
 

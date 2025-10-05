@@ -1,14 +1,16 @@
 ---
 tags:
+- 系统运作
 - ANP
 - EP
 - DID
 - CPTSD
 - OSDD
-topic: 系统体验与机制
+topic: 系统运作
 title: ANP-EP 模型（Apparently Normal Part–Emotional Part Model）
 updated: 2025-10-03
 ---
+
 
 # ANP-EP 模型（Apparently Normal Part–Emotional Part Model）
 

@@ -1,15 +1,17 @@
 ---
-synonyms:
-- 独立意识
-- Independence
 tags:
+- 系统运作
 - 多重意识体
 - 解离
 - 创伤
-topic: 系统体验与机制
+topic: 系统运作
 title: 独立性（Independence）
 updated: 2025-10-03
+synonyms:
+- 独立意识
+- Independence
 ---
+
 
 # 独立性（Independence）
 

@@ -1,12 +1,14 @@
 ---
 tags:
+- 文化与表现
 - DID
 - 多重意识体
 - 解离
-topic: 文化与影视
+topic: 文化与表现
 title: 《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）
 updated: 2025-10-03
 ---
+
 
 # 《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）
 

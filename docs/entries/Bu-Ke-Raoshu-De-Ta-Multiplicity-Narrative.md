@@ -1,12 +1,14 @@
 ---
 tags:
+- 文化与表现
 - DID
 - 多重意识体
 - 解离
-topic: 文化与影视
+topic: 文化与表现
 title: 《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）
 updated: 2025-10-03
 ---
+
 
 # 《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）
 

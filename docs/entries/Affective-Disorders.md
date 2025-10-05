@@ -1,4 +1,12 @@
 ---
+tags:
+- 诊断与临床
+- 多重意识体
+- 解离
+- 创伤
+topic: 诊断与临床
+title: 心境障碍（Affective Disorders）
+updated: 2025-10-05
 synonyms:
 - 心境障碍
 - 情感障碍
@@ -6,14 +14,8 @@ synonyms:
 - affective disorders
 - mood disorders
 - mood disorder spectrum
-tags:
-- 多重意识体
-- 解离
-- 创伤
-topic: 诊断与临床
-title: 心境障碍（Affective Disorders）
-updated: 2025-10-05
 ---
+
 
 # 心境障碍（Affective Disorders）
 

@@ -1,12 +1,14 @@
 ---
 tags:
+- 创伤与疗愈
 - 多重意识体
 - 解离
 - 创伤
-topic: 实践与支持
+topic: 创伤与疗愈
 title: 接地（Grounding）
 updated: 2025-10-03
 ---
+
 
 # 接地（Grounding）
 

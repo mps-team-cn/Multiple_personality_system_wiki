@@ -1,12 +1,11 @@
 ---
 tags:
-  - 创伤
-  - 治疗
-  - 康复
+- 创伤与疗愈
 topic: 创伤与疗愈
 title: 三阶段创伤治疗模型（Three-Phase Trauma Treatment）
 updated: 2025-10-06
 ---
+
 
 # 三阶段创伤治疗模型（Three-Phase Trauma Treatment）
 

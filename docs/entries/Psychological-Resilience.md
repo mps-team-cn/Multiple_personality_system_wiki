@@ -1,16 +1,18 @@
 ---
+tags:
+- 理论与分类
+- 多重意识体
+- 解离
+- 创伤
+topic: 理论与分类
+title: 心理弹性（Psychological Resilience）
+updated: 2025-10-05
 synonyms:
 - 心理韧性
 - 复原力
 - resilience
-tags:
-- 多重意识体
-- 解离
-- 创伤
-topic: 心理学与理论
-title: 心理弹性（Psychological Resilience）
-updated: 2025-10-05
 ---
+
 
 # 心理弹性（Psychological Resilience）
 

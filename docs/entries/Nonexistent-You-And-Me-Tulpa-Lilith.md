@@ -1,12 +1,14 @@
 ---
 tags:
+- 文化与表现
 - 多重意识体
 - 解离
 - 创伤
-topic: 文化与影视
+topic: 文化与表现
 title: 《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）
 updated: 2025-10-03
 ---
+
 
 # 《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）
 

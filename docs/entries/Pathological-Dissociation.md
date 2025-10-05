@@ -1,5 +1,6 @@
 ---
 tags:
+- 诊断与临床
 - 解离
 - 多重意识体
 - 创伤
@@ -7,6 +8,7 @@ topic: 诊断与临床
 title: 病理性解离（Pathological Dissociation）
 updated: 2025-10-03
 ---
+
 
 # 病理性解离（Pathological Dissociation）
 

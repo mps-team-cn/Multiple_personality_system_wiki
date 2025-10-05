@@ -1,14 +1,16 @@
 ---
+tags:
+- 角色与身份
+- 多重意识体
+topic: 角色与身份
+title: 管理者（Admin）
+updated: 2025-10-03
 synonyms:
 - 管理者
 - 管理员
 - admin
-tags:
-- 多重意识体
-topic: 系统角色与类型
-title: 管理者（Admin）
-updated: 2025-10-03
 ---
+
 
 # 管理者（Admin）
 

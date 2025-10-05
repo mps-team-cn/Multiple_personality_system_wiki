@@ -1,16 +1,18 @@
 ---
+tags:
+- 理论与分类
+- 多重意识体
+- 解离
+- 创伤
+topic: 理论与分类
+title: 情绪调节（Emotion Regulation）
+updated: 2025-10-05
 synonyms:
 - 情绪管理
 - 情绪调控
 - emotion regulation
-tags:
-- 多重意识体
-- 解离
-- 创伤
-topic: 心理学与理论
-title: 情绪调节（Emotion Regulation）
-updated: 2025-10-05
 ---
+
 
 # 情绪调节（Emotion Regulation）
 

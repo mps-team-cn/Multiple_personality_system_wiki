@@ -1,16 +1,18 @@
 ---
+tags:
+- 理论与分类
+- 多重意识体
+- 解离
+- 创伤
+topic: 理论与分类
+title: 社会认知理论（Social-Cognitive Theory）
+updated: 2025-10-05
 synonyms:
 - 社会认知学习理论
 - 班杜拉社会认知理论
 - social cognitive theory
-tags:
-- 多重意识体
-- 解离
-- 创伤
-topic: 心理学与理论
-title: 社会认知理论（Social-Cognitive Theory）
-updated: 2025-10-05
 ---
+
 
 # 社会认知理论（Social-Cognitive Theory）
 

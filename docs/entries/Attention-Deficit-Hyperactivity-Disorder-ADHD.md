@@ -1,15 +1,17 @@
 ---
-synonyms:
-- 多动症
-- null
 tags:
+- 诊断与临床
 - ADHD
 - 多重意识体
 - 解离
 topic: 诊断与临床
 title: 注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）
 updated: 2025-10-03
+synonyms:
+- 多动症
+- null
 ---
+
 
 # 注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）
 

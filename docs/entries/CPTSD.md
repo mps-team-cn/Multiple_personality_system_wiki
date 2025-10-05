@@ -1,18 +1,20 @@
 ---
-synonyms:
-- 复杂性创伤
-- Complex Post-Traumatic Stress Disorder
-- Complex PTSD
-- CPTSD
-- fuzaxingchuangshanghouyingjizhangai
 tags:
+- 诊断与临床
 - CPTSD
 - PTSD
 - 多重意识体
 topic: 诊断与临床
 title: 复杂性创伤后应激障碍（CPTSD）
 updated: 2025-10-03
+synonyms:
+- 复杂性创伤
+- Complex Post-Traumatic Stress Disorder
+- Complex PTSD
+- CPTSD
+- fuzaxingchuangshanghouyingjizhangai
 ---
+
 
 # 复杂性创伤后应激障碍（CPTSD）
 

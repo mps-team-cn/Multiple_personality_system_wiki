@@ -1,12 +1,14 @@
 ---
 tags:
+- 角色与身份
 - 多重意识体
 - 解离
 - 创伤
-topic: 系统角色与类型
+topic: 角色与身份
 title: 保护者（Protector）
 updated: 2025-10-03
 ---
+
 
 # 保护者（Protector）
 
