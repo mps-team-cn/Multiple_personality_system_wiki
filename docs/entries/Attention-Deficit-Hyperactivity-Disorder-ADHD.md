@@ -69,4 +69,3 @@ ADHD 在儿童中的盛行率约 5% 左右，成人约 2%–3%，多数个体的
 ## 参考与延伸阅读
 
 [^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
-[^who2022]: World Health Organization. (2022). *International Classification of Diseases 11th Revision.* [https://icd.who.int/](https://icd.who.int/)
