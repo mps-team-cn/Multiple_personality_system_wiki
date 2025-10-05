@@ -136,24 +136,30 @@ a:hover {
 }
 
 /* 修复搜索页面侧边栏显示问题 */
-/* MkDocs Material 搜索覆盖层激活时，侧边栏会被隐藏 */
-/* 以下样式确保搜索时侧边栏仍然可见 */
+/* MkDocs Material 默认搜索会全屏覆盖，以下修改使其与侧边栏共存 */
 
-/* 桌面端：搜索激活时保持侧边栏可见 */
 @media screen and (min-width: 76.25em) {
-  /* 搜索覆盖层激活时不隐藏主侧边栏 */
+  /* 搜索激活时：限制搜索容器宽度，不覆盖侧边栏 */
+  [data-md-toggle="search"]:checked ~ .md-header .md-search {
+    width: calc(100% - 12.1rem); /* 减去侧边栏宽度 */
+    margin-left: 12.1rem; /* 向右偏移，给侧边栏留出空间 */
+  }
+
+  /* 搜索overlay不覆盖侧边栏区域 */
+  [data-md-toggle="search"]:checked ~ .md-header .md-search__overlay {
+    left: 12.1rem;
+    width: calc(100% - 12.1rem);
+  }
+
+  /* 搜索结果容器也要相应调整 */
+  [data-md-toggle="search"]:checked ~ .md-header .md-search__inner {
+    max-width: 100%;
+  }
+
+  /* 确保侧边栏始终可见 */
   [data-md-toggle="search"]:checked ~ .md-container .md-sidebar--primary {
-    display: block !important;
-  }
-
-  /* 调整搜索结果容器的布局，为侧边栏留出空间 */
-  [data-md-toggle="search"]:checked ~ .md-container .md-search__output {
-    margin-left: 0;
-  }
-
-  /* 确保搜索overlay不完全覆盖侧边栏区域 */
-  .md-search__overlay {
-    left: 12.1rem; /* 与侧边栏宽度对齐 */
+    visibility: visible !important;
+    transform: none !important;
   }
 }
 
