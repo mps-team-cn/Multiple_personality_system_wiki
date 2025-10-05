@@ -77,25 +77,93 @@
 
 ## 🎯 核心主题
 
-### 诊断与临床
+<div class="grid cards" markdown>
 
-解离障碍、创伤后应激障碍、人格障碍等临床诊断相关内容
+-   :material-hospital-box:{ .lg .middle } **诊断与临床**
 
-### 系统运作与体验
+    ---
 
-切换、共识、内部空间、角色分工等系统运作机制
+    理解解离障碍、创伤相关诊断及临床治疗
 
-### 实践与支持
+    - [**解离性身份障碍（DID）**](entries/DID.md) - 多重人格的临床定义
+    - [**其他特定解离性障碍（OSDD）**](entries/OSDD.md) - DID 的亚临床形态
+    - [**创伤后应激障碍（PTSD）**](entries/PTSD.md) - 单次创伤的心理反应
+    - [**复杂性 PTSD（CPTSD）**](entries/CPTSD.md) - 长期创伤的深远影响
+    - [**解离（Dissociation）**](entries/Dissociation.md) - 一切的基础概念
 
-冥想、接地、照护技巧等实务工具与自我照护策略
+    [:octicons-arrow-right-24: 浏览所有临床词条](tags.md#did)
 
-### 心理学理论
+-   :material-account-group:{ .lg .middle } **系统运作与协作**
 
-依恋理论、情绪调节、防御机制等理论基础
+    ---
 
-### 文化与研究
+    掌握多意识体系统的日常运作机制
 
-文学、影视、游戏作品中的多意识体表现
+    - [**前台（Fronting）**](entries/Front-Fronting.md) - 谁在控制身体？
+    - [**切换（Switch）**](entries/Switch.md) - 成员如何转换？
+    - [**意识共存（Co-consciousness）**](entries/Co-Consciousness.md) - 同时感知的状态
+    - [**内部空间（Inner World）**](entries/Headspace-Inner-World.md) - 系统的内在世界
+    - [**内部沟通**](entries/Internal-Communication.md) - 成员间的交流方式
+
+    [:octicons-arrow-right-24: 查看系统运作导览](System-Operations.md)
+
+-   :material-heart-pulse:{ .lg .middle } **创伤与疗愈**
+
+    ---
+
+    了解创伤机制与循证治疗方法
+
+    - [**创伤（Trauma）**](entries/Trauma.md) - 创伤的定义与类型
+    - [**接地（Grounding）**](entries/Grounding.md) - 回到当下的稳定技巧
+    - [**闪回（Flashback）**](entries/Flashback.md) - 创伤记忆的重现
+    - [**触发（Trigger）**](entries/Trigger.md) - 激活创伤反应的刺激
+    - [**情绪调节**](entries/Emotion-Regulation.md) - 管理情绪的策略
+
+    [:octicons-arrow-right-24: 探索心理健康导览](entries/Mental-Health-Guide.md)
+
+-   :material-account-multiple:{ .lg .middle } **角色与身份**
+
+    ---
+
+    认识系统中的不同角色与职能分工
+
+    - [**宿主（Host）**](entries/Host.md) - 通常在前台的主要成员
+    - [**守门人（Gatekeeper）**](entries/Gatekeeper.md) - 管理切换的调度者
+    - [**保护者（Protector）**](entries/Protector.md) - 守护系统安全的角色
+    - [**小孩意识体（Little）**](entries/Little.md) - 保留童年状态的成员
+    - [**迫害者（Persecutor）**](entries/Persecutor.md) - 内化的创伤反应
+
+    [:octicons-arrow-right-24: 了解更多系统角色](entries/System-Roles.md)
+
+-   :material-book-open-variant:{ .lg .middle } **理论与分类**
+
+    ---
+
+    探索多意识体的理论框架与分类体系
+
+    - [**多意识体（Plurality）**](entries/Plurality.md) - 核心概念定义
+    - [**埃蒙加德分类法**](entries/Emmengard-Classification.md) - 按成因分类系统
+    - [**图帕（Tulpa）**](entries/Tulpa.md) - 创造型意识体
+    - [**结构性解离理论**](entries/Structural-Dissociation-Theory.md) - 经典临床模型
+    - [**ANP-EP 模型**](entries/Apparently-Normal-Part-Emotional-Part-Model.md) - 功能性人格部分
+
+    [:octicons-arrow-right-24: 阅读核心概念导览](entries/Core-Concepts-Guide.md)
+
+-   :material-palette:{ .lg .middle } **文化与表现**
+
+    ---
+
+    文学、影视作品中的多意识体主题
+
+    - [《搏击俱乐部》](entries/Fight-Club-1999-Identity-Metaphor.md) - 身份解体隐喻
+    - [《分裂》](entries/Split-2016-DID-Representation.md) - DID 形象分析
+    - [《西比尔》](entries/Sybil-1976-Cultural-Prototype.md) - 多重人格文化原型
+    - [初音未来现象](entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md) - 虚拟偶像与 Tulpa 边界
+    - [东方 Project](entries/Touhou-Tulpa-Fandom.md) - 同人圈 Tulpa 文化
+
+    [:octicons-arrow-right-24: 浏览更多作品分析](tags.md#多重意识体)
+
+</div>
 
 ---
 
