@@ -2,6 +2,16 @@
 
 > 本目录用于集中维护仓库中各类自动化脚本的说明与使用示例，便于在 README 与 docs 之间保持一致。
 
+**重要更新**：本项目已从 Docsify 迁移至 MkDocs Material，部分工具的文件路径和使用方式有所调整。
+
+## 🔄 迁移后的关键变更
+
+- **词条目录**：从 `entries/` 迁移至 `docs/entries/`（保留根目录 `entries/` 作为同步备份）
+- **文档文件**：统一放置在 `docs/` 目录（`README.md`, `CONTRIBUTING.md`, `tags.md`, `Glossary.md` 等）
+- **静态资源**：从 `assets/` 迁移至 `docs/assets/`
+- **构建系统**：使用 `mkdocs build` 替代 Docsify
+- **本地预览**：推荐使用 `mkdocs serve` 替代 `docsify serve` 或 `http.server`
+
 ## 工具概览
 
 ### 核心处理器模块(重构后)

@@ -1,120 +1,162 @@
-# Plurality Wiki
+# 关于本站
 
-> 多重意识体系统与相关心理健康主题的中文知识库与开源协作项目。
-> 在线版（GitHub Pages）：<https://kuliantnt.github.io/plurality_wiki/#/>
+## 📖 什么是 Plurality Wiki？
 
-- [查看标签索引](tags.md)
+**Plurality Wiki（多意识体百科）** 是一个专注于多重意识体系统（Plurality）与创伤相关主题的中文知识库。
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Docs status](https://img.shields.io/badge/docs-online-brightgreen.svg)](https://kuliantnt.github.io/plurality_wiki/#/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](CONTRIBUTING.md)
-[![Stars](https://img.shields.io/github/stars/kuliantnt/plurality_wiki?style=social)](https://github.com/kuliantnt/plurality_wiki/stargazers)
-[![工作流 状态](https://img.shields.io/github/actions/workflow/status/kuliantnt/plurality_wiki/ci.yml?label=CI&logo=github)](https://github.com/kuliantnt/plurality_wiki/actions/workflows/docs_quality.yml)
+我们致力于：
 
----
-
-📖 **提示**：如果你是普通读者，请查看网页版本 [GitHUB pages](https://kuliantnt.github.io/plurality_wiki/#/)或[cloud Flare Page](https://plurality-wiki.pages.dev/)；本文档主要面向开发者与贡献者。
+- 🔍 整理和汇聚高质量的中文资料
+- 🤝 融合社区经验与跨学科研究
+- 🛠️ 提供可实践的工具和指导
+- 🌈 帮助理解自我、照顾伙伴、建立连结
 
 ---
 
-## ✨ 项目目标
+## 🎯 我们的目标
 
-- 汇聚与整理多重意识体（Plurality）与相关心理健康主题的高质量中文资料；
-- 采用一致的**条目规范**与**贡献流程**，确保可维护、可引用、可扩展；
-- 面向大众读者与专业人士，兼顾可读性与严谨性（参考 E-E-A-T 原则）。
+### 知识普及
 
----
+为多意识体社区和对此感兴趣的人们提供准确、易懂的中文资料，打破信息壁垒。
 
-## 📦 仓库结构
+### 社区支持
 
-```ini
-plurality_wiki/
-├─ README.md                  # 开发者说明
-├─ CONTRIBUTING.md            # 贡献指南
-├─ index.html                 # Docsify 入口
-├─ _sidebar.md / _navbar.md   # Docsify 导航配置
-├─ 404.html / _404.md         # 404 页面（HTML + Markdown 版）
-├─ Main_Page.html             # 旧版主页面（保留历史内容）
-├─ Glossary.md                # 术语表
-├─ Preface.md                 # 前言
-├─ index.md                   # 全局目录索引
-├─ changelog.md               # 版本更新记录
-├─ docs/                      # 贡献流程补充文档与自动报告
-│  ├─ ADMIN_GUIDE.md
-│  ├─ GITHUB_WORKFLOW.md
-│  ├─ TEMPLATE_ENTRY.md
-│  ├─ VALIDATION_REPORT.md    # 校对与审核记录（脚本生成）
-│  └─ tools/...
-├─ entries/                   # 词条正文（全部放在根目录，依靠 Frontmatter tags 分类）
-├─ tags.md                    # 按标签自动生成的索引页
-├─ assets/                    # 静态资源与 last-updated.json
-├─ scripts/
-│  └─ gen-last-updated.mjs    # 更新词条时间索引
-├─ tools/                     # 本地维护工具
-│  ├─ gen-validation-report.py # 校验词条结构并生成报告
-│  ├─ fix_md.py               # Markdown 自动修复脚本
-│  └─ pdf_export/...
-├─ .github/
-│  ├─ ISSUE_TEMPLATE/
-│  ├─ PULL_REQUEST_TEMPLATE.md
-│  └─ workflows/
-│     ├─ docs_quality.yml     # Markdown/链接检查 CI
-│     └─ last-updated.yml     # 自动生成 last-updated.json
-├─ AGENTS.md                  # 贡献与开发约定
-└─ ignore.md、.nojekyll、.markdownlint* 等配置文件
-```
+创建一个安全、包容的知识空间，让每个人都能找到共鸣和支持。
+
+### 学术严谨
+
+参考 E-E-A-T 原则（经验、专业性、权威性、可信度），确保内容质量。
 
 ---
 
-## 🤖 自动化维护
+## 📚 内容范围
 
-根目录下的 `tools/` 目录集中存放了协助批量处理、检查与发布的脚本，可与 CI 流程搭配使用。更完整的说明与后续更新请参见 [`docs/tools/README.md`](docs/tools/README.md)。
+### 核心概念
 
-- `python tools/gen-validation-report.py`：读取《CONTRIBUTING.md》与《docs/TEMPLATE_ENTRY.md》，生成 `docs/VALIDATION_REPORT.md` 校对报告。
-- `python tools/generate_tags_index.py`：扫描 `entries/` 前置元数据，输出 `tags.md` 标签索引。
-- `python tools/check_links.py --root .`：校验所有 Markdown 文件的内部链接是否遵循 `entries/*.md` 绝对路径写法，并提示潜在断链。
+- **多元性（Plurality）**：多重意识体存在的总称
+- **系统（System）**：共享身体的多个意识体集合
+- **成员（Alter）**：系统中的单个意识体
+- **分离性障碍（DID/OSDD）**：相关心理健康诊断
+- **塔尔帕（Tulpa）**：主动创造的意识体
 
----
+### 系统运作
 
-## 🚀 本地预览
+- 前台（Fronting）与切换（Switch）
+- 共同意识与共同前台
+- 内心世界（Headspace）
+- 内部交流机制
 
-### A. 任意静态服务器
+### 心理健康
 
-```bash
-python -m http.server 4173
-
-# http://localhost:4173
-
-```
-
-### B. docsify
-
-```bash
-npm i -g docsify-cli
-docsify serve .
-```
+- 分离（Dissociation）
+- 创伤相关障碍（PTSD/CPTSD）
+- 应对技巧与自我照顾
+- 立足当下（Grounding）
 
 ---
 
-## 🧭 贡献（Contribution）
+## 🌟 特色功能
 
-欢迎参与完善！首次贡献请阅读 **[CONTRIBUTING.md](./CONTRIBUTING.md)**，并参考下列关键文档：
+### 📑 结构化内容
 
-- [GitHub 提交流程指南](docs/GITHUB_WORKFLOW.md)
-- [词条模板](docs/TEMPLATE_ENTRY.md)
-- [维护者手册](docs/ADMIN_GUIDE.md)
+- 统一的词条格式和元数据
+- 清晰的标签分类系统
+- 完善的交叉引用
 
-### 提交流程（简要）
+### 🔍 强大搜索
 
-1. Fork & 新建分支；
-2. 按规范撰写/修改，**同步更新 tags.md（运行 `python tools/generate_tags_index.py`）、index.md 与交叉链接**；
-3. 本地执行 `python tools/fix_md.py` 与 `markdownlint`；
-4. 提交 PR，等待 Review。
+- 全文搜索支持
+- 标签索引浏览
+- 术语表快速查询
+
+### 📱 响应式设计
+
+- 桌面端完整体验
+- 移动端优化适配
+- 深色/浅色模式切换
+
+### ⚡ 持续更新
+
+- 社区驱动的内容完善
+- 定期的质量审查
+- 公开的变更记录
 
 ---
 
-## 🗺️ 路线图（Roadmap）
+## 👥 谁在维护？
 
-- [x] 基础 CI（Markdown lint/链接检查）
-- [ ] 样式统一与模板完善
-- [ ] 前端页面优化与跳转修复
+本 Wiki 由多个多意识体系统共同维护：
+
+- **脸脸系统**：项目发起与主要维护
+- **弦羽系统**：内容审核与知识管理
+- **暮雨系统**：技术支持与工具开发
+- **社区贡献者**：词条编写与改进建议
+
+我们相信知识应该开放共享，欢迎更多人参与贡献！
+
+---
+
+## 🤝 如何参与？
+
+### 阅读内容
+
+- 使用顶部**搜索栏**查找感兴趣的词条
+- 浏览**标签索引**发现相关主题
+- 查看**术语表**建立知识框架
+
+### 贡献内容
+
+- 阅读 [贡献指南](CONTRIBUTING.md)
+- 提交词条建议或改进
+- 参与讨论和审核
+- 报告错误或提出需求
+
+### 传播分享
+
+- 分享有价值的词条
+- 在社交媒体推荐
+- 为项目点星支持
+
+---
+
+## ⚠️ 重要说明
+
+### 触发警告
+
+本 Wiki 内容涉及创伤、精神健康、自我认同等敏感话题。部分词条可能包含引发不适的内容描述。
+
+**请根据自己的状况谨慎阅读，必要时寻求专业支持。**
+
+### 免责声明
+
+- 本 Wiki 内容**仅供参考**，不构成医疗建议
+- 如需诊断或治疗，请咨询专业医疗机构
+- 词条内容反映社区共识和学术研究，持续更新中
+
+---
+
+## 📞 联系我们
+
+- **GitHub 仓库**：[plurality_wiki](https://github.com/kuliantnt/plurality_wiki)
+- **问题反馈**：[GitHub Issues](https://github.com/kuliantnt/plurality_wiki/issues)
+- **贡献提交**：[Pull Requests](https://github.com/kuliantnt/plurality_wiki/pulls)
+
+---
+
+## 📄 许可协议
+
+除特别声明外，本 Wiki 内容采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 许可协议。
+
+这意味着您可以：
+
+- ✅ 自由分享和改编内容
+- ✅ 用于商业或非商业目的
+
+前提是：
+
+- 📝 署名原作者
+- 🔄 以相同协议分享修改后的作品
+
+---
+
+**感谢您访问 Plurality Wiki！希望这里的内容能为您带来帮助和启发。** 💙

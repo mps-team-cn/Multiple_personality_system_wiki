@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>首页 - Plurality Wiki</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- 基础主题（Docsify 官方） -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css"
+    />
+
+    <!-- 自定义样式 -->
+    <link rel="stylesheet" href="./assets/custom.css" />
+
+    <!-- 站点图标（使用纯 SVG 以避免二进制文件限制） -->
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <!-- 核心模块 -->
+    <script src="./assets/core/utils.js"></script>
+    <script src="./assets/core/router.js"></script>
+    <script src="./assets/core/plugin-manager.js"></script>
+    <script src="./assets/core/config.js"></script>
+    <script src="./assets/core/init.js"></script>
+
+    <!-- 初始化应用 -->
+    <script>
+      (function () {
+        PluralityApp.init({
+          name: "多意识体Wikipedia",
+          repo: "kuliantnt/plurality_wiki",
+          homepage: "Main_Page.html",
+        });
+      })();
+    </script>
+
+    <!-- 自定义标题搜索（需在 Docsify 启动前注册插件） -->
+    <script src="./assets/title-search.js"></script>
+
+    <!-- 页面标题后缀控制 -->
+    <script src="./assets/title-suffix.js"></script>
+
+    <!-- 中英混排排版优化 -->
+    <script src="./assets/typography.js"></script>
+
+    <!-- 表格响应式卡片化 -->
+    <script src="./assets/table-responsive.js"></script>
+
+    <!-- 在渲染前移除 frontmatter，避免页面展示元数据字段 -->
+    <script src="./assets/frontmatter-strip.js"></script>
+
+    <!-- 首页最近更新模块 -->
+    <script src="./assets/recent-home.js"></script>
+
+    <!-- 最近更新页面自动生成 -->
+    <script src="./assets/recent-page.js"></script>
+
+    <!-- Docsify 核心 -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+
+    <!-- 插件：复制代码 / 图片缩放 / 分页 / emoji -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+
+    <!-- 可选：Prism 语法高亮（按需添加语言） -->
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-json.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-markdown.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
+    <div class="theme-toggle" onclick="toggleTheme()">🌓 切换主题</div>
+  </body>
+</html>
