@@ -122,6 +122,12 @@
 
           const isAbsolutePath =
             rawPath.startsWith("/") || rawPath.startsWith("entries/");
+          const isRootDocumentLink =
+            !isAbsolutePath &&
+            !rawPath.startsWith(".") &&
+            rawPath.length > 0 &&
+            !rawPath.includes("/") &&
+            /\.(md|html)$/i.test(rawPath);
           const baseTrimmed = basePath.replace(/^\/+|\/+$/g, "");
           let workingPath = rawPath.replace(/^\/+/, "");
           if (baseTrimmed && workingPath.startsWith(`${baseTrimmed}/`)) {
@@ -131,7 +137,10 @@
             .split("/")
             .filter((segment) => segment.length);
 
-          const stack = isAbsolutePath ? [] : [...currentBaseSegments];
+          const stack =
+            isAbsolutePath || isRootDocumentLink
+              ? []
+              : [...currentBaseSegments];
 
           for (const segment of pathSegments) {
             if (segment === ".") continue;
@@ -262,9 +271,17 @@
         function routeToRepoPath(routePath) {
           if (!routePath) return null;
           let path = routePath.replace(/^\//, "");
-          if (path.endsWith("/")) path = path.slice(0, -1);
-          if (!path) return null;
-          return decodeURIComponent(path) + ".md";
+          const [rawPath] = path.split("?");
+          if (!rawPath) return null;
+          const trimmed = rawPath.endsWith("/")
+            ? rawPath.slice(0, -1)
+            : rawPath;
+          if (!trimmed) return null;
+          const decoded = decodeURIComponent(trimmed);
+          if (/\.[^./]+$/i.test(decoded)) {
+            return decoded;
+          }
+          return `${decoded}.md`;
         }
 
         function formatDate(isoString) {
