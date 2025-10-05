@@ -49,12 +49,12 @@ updated: 2025-10-04
 
 - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](/entries/Apparently-Normal-Part-Emotional-Part-Model.md)
 - [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
+- [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
 - [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](/entries/Partial-Dissociative-Identity-Disorder-PDID.md)
 - [融合（Fusion）](/entries/Fusion.md)
 - [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
 - [人格职能（System Roles）](/entries/System-Roles.md)
-- [迭代（Iteration）](/entries/Iteration.md)
 
 ## 参考资料
 

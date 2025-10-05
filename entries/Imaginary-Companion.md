@@ -53,4 +53,4 @@ updated: 2025-10-03
 - [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](/entries/Madoka-Magica-Kyubey-Otherness.md)
 - [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](/entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
 - [投影（Projection）](/entries/Projection.md)
-- [傀儡（Servitor）](/entries/Servitor.md)
+- [宿主（Host）](/entries/Host.md)

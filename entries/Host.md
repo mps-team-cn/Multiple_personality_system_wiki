@@ -42,10 +42,10 @@ updated: 2025-10-03
 - [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](/entries/Touhou-Tulpa-Fandom.md)
 - [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](/entries/Madoka-Magica-Kyubey-Otherness.md)
 - [《妄想代理人》（Paranoia Agent）与集体意识的具象化](/entries/Paranoia-Agent-Collective-Consciousness.md)
-- [幻想伙伴（Imaginary Companion）](/entries/Imaginary-Companion.md)
-- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
-- [人格职能（System Roles）](/entries/System-Roles.md)
 - [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](/entries/Nonexistent-You-And-Me-Tulpa-Lilith.md)
+- [幻想伙伴（Imaginary Companion）](/entries/Imaginary-Companion.md)
+- [投影（Projection）](/entries/Projection.md)
+- [头压（Head Pressure）](/entries/Head-Pressure.md)
 
 ## 参考资料
 

@@ -1,10 +1,10 @@
 ---
+synonyms:
+- 小的
 tags:
 - 多重意识体
 - 解离
 - 创伤
-synonyms:
-- 小的
 title: 小孩意识体（Little / Child Part）
 updated: 2025-10-03
 ---

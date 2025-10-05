@@ -1,11 +1,13 @@
 ---
-title: 社会认知理论（Social-Cognitive Theory）
-tags:
-  - 心理学与理论基础
 synonyms:
-  - 社会认知学习理论
-  - 班杜拉社会认知理论
-  - social cognitive theory
+- 社会认知学习理论
+- 班杜拉社会认知理论
+- social cognitive theory
+tags:
+- 多重意识体
+- 解离
+- 创伤
+title: 社会认知理论（Social-Cognitive Theory）
 updated: 2025-10-05
 ---
 
@@ -37,9 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [动机理论（Motivation Theories）](entries/Motivation-Theories.md)
-- [学习与条件反射（Learning & Conditioning）](entries/Learning-Conditioning.md)
-- [自我效能感（Self-Efficacy）](entries/Self-Efficacy.md)
+- [自我效能感（Self-Efficacy）](/entries/Self-Efficacy.md)
+- [动机理论（Motivation Theories）](/entries/Motivation-Theories.md)
+- [自我决定理论（Self-Determination Theory）](/entries/Self-Determination-Theory.md)
+- [自我概念（Self-Concept）](/entries/Self-Concept.md)
+- [认知失调（Cognitive Dissonance）](/entries/Cognitive-Dissonance.md)
+- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
+- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
+- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
 
 ## 参考与延伸阅读
 

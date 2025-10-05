@@ -62,7 +62,7 @@ DSM-5-TR 允许按照症状持续时间（急性 < 6 个月；慢性 ≥ 6 个�
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
 - [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
-- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
+- [情感障碍（Mood Disorders）](/entries/Mood-Disorders.md)
 
 ## 参考资料
 

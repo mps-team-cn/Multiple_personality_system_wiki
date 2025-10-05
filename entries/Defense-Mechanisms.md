@@ -1,11 +1,13 @@
 ---
-title: 心理防御机制（Defense Mechanisms）
-tags:
-  - 心理学与理论基础
 synonyms:
-  - 防御机制
-  - 自我防御机制
-  - psychological defense
+- 防御机制
+- 自我防御机制
+- psychological defense
+tags:
+- 多重意识体
+- 解离
+- 创伤
+title: 心理防御机制（Defense Mechanisms）
 updated: 2025-10-05
 ---
 
@@ -37,9 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [防御性解离（Defensive Dissociation）](entries/Defensive-Dissociation.md)
-- [人格结构理论（Personality Structure Theory, Freud）](entries/Personality-Structure-Theory.md)
-- [情绪调节（Emotion Regulation）](entries/Emotion-Regulation.md)
+- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
+- [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
+- [情绪调节（Emotion Regulation）](/entries/Emotion-Regulation.md)
+- [投射（Projection, Psychology）](/entries/Projection-Psychology.md)
+- [移情与反移情（Transference and Countertransference）](/entries/Transference-Countertransference.md)
+- [认知失调（Cognitive Dissonance）](/entries/Cognitive-Dissonance.md)
+- [自我概念（Self-Concept）](/entries/Self-Concept.md)
+- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
 
 ## 参考与延伸阅读
 

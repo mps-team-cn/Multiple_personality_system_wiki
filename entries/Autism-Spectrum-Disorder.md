@@ -74,14 +74,14 @@ DSM-5-TR 要求在社会交流互动与局限重复行为两个维度满足具�
 
 ## 相关条目
 
-- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
-- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
-- [躁狂（Mania）](/entries/Mania.md)
 - [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
+- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
+- [躁狂（Mania）](/entries/Mania.md)
+- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
-- [谵妄（Delirium）](/entries/Delirium.md)
-- [定向障碍（Disorientation）](/entries/Disorientation.md)
 - [轻躁狂（Hypomania）](/entries/Hypomania.md)
+- [情感障碍（Mood Disorders）](/entries/Mood-Disorders.md)
+- [谵妄（Delirium）](/entries/Delirium.md)
 
 ## 参考与延伸阅读
 

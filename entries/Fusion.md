@@ -36,8 +36,8 @@ updated: 2025-10-03
 - [整合（Integration）](/entries/Integration.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
 - [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
-- [非我感（Depersonalization）](/entries/Depersonalization.md)
 - [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
 - [应激反应（Stress Response）](/entries/Stress-Response.md)
 - [独有记忆（Exomemory）](/entries/Exomemory.md)
 

@@ -1,11 +1,13 @@
 ---
-title: 心理能量与注意资源（Psychic Energy & Attention）
-tags:
-  - 心理学与理论基础
 synonyms:
-  - 心理能量
-  - 注意资源
-  - psychic energy
+- 心理能量
+- 注意资源
+- psychic energy
+tags:
+- '&'
+- 多重意识体
+- 解离
+title: 心理能量与注意资源（Psychic Energy & Attention）
 updated: 2025-10-05
 ---
 
@@ -37,9 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [注意与觉察（Attention & Awareness）](entries/Attention-Awareness.md)
-- [自我决定理论（Self-Determination Theory）](entries/Self-Determination-Theory.md)
-- [自我效能感（Self-Efficacy）](entries/Self-Efficacy.md)
+- [注意与觉察（Attention & Awareness）](/entries/Attention-Awareness.md)
+- [学习与条件反射（Learning & Conditioning）](/entries/Learning-Conditioning.md)
+- [情绪调节（Emotion Regulation）](/entries/Emotion-Regulation.md)
+- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
+- [自我概念（Self-Concept）](/entries/Self-Concept.md)
+- [动机理论（Motivation Theories）](/entries/Motivation-Theories.md)
+- [自我效能感（Self-Efficacy）](/entries/Self-Efficacy.md)
+- [自我决定理论（Self-Determination Theory）](/entries/Self-Determination-Theory.md)
 
 ## 参考与延伸阅读
 

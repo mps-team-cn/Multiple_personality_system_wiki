@@ -1,11 +1,13 @@
 ---
-title: 自我概念（Self-Concept）
-tags:
-  - 心理学与理论基础
 synonyms:
-  - 自我认知
-  - 自我图式
-  - self concept
+- 自我认知
+- 自我图式
+- self concept
+tags:
+- 多重意识体
+- 解离
+- 创伤
+title: 自我概念（Self-Concept）
 updated: 2025-10-05
 ---
 
@@ -37,9 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [人格结构理论（Personality Structure Theory, Freud）](entries/Personality-Structure-Theory.md)
-- [心理能量与注意资源（Psychic Energy & Attention）](entries/Psychic-Energy-Attention.md)
-- [高敏感人群（Highly Sensitive Person, HSP）](entries/Highly-Sensitive-Person.md)
+- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
+- [自我效能感（Self-Efficacy）](/entries/Self-Efficacy.md)
+- [社会认知理论（Social-Cognitive Theory）](/entries/Social-Cognitive-Theory.md)
+- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
+- [自我决定理论（Self-Determination Theory）](/entries/Self-Determination-Theory.md)
+- [动机理论（Motivation Theories）](/entries/Motivation-Theories.md)
+- [高敏感人群（Highly Sensitive Person, HSP）](/entries/Highly-Sensitive-Person.md)
+- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](/entries/Dostoevsky-The-Double-Self-Division.md)
 
 ## 参考与延伸阅读
 

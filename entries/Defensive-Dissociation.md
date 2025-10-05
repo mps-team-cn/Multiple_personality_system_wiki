@@ -1,11 +1,13 @@
 ---
-title: 防御性解离（Defensive Dissociation）
-tags:
-  - 心理学与理论基础
 synonyms:
-  - 防御性分离
-  - 防御性解离反应
-  - defensive dissociation
+- 防御性分离
+- 防御性解离反应
+- defensive dissociation
+tags:
+- 解离
+- 多重意识体
+- 创伤
+title: 防御性解离（Defensive Dissociation）
 updated: 2025-10-05
 ---
 
@@ -37,9 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [心理防御机制（Defense Mechanisms）](entries/Defense-Mechanisms.md)
-- [解离（Dissociation）](entries/Dissociation.md)
-- [结构性解离理论（Theory of Structural Dissociation）](entries/Structural-Dissociation-Theory.md)
+- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
+- [心理防御机制（Defense Mechanisms）](/entries/Defense-Mechanisms.md)
+- [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
+- [融合（Fusion）](/entries/Fusion.md)
+- [迭代（Iteration）](/entries/Iteration.md)
+- [碎片（Fragment）](/entries/Fragment.md)
+- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 
 ## 参考与延伸阅读
 
