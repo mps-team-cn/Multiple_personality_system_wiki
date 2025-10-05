@@ -92,9 +92,9 @@ updated: 2025-03-09
 
 ## 与其他类别的关系
 
-- 混合型系统常由 **[单一类系统](Single-Class-Systems-Xianyu.md)** 演化而来；
-- 在长期演化中，也可能过渡为 **[家族式系统](Family-Systems-Xianyu.md)**；
-- 特殊情况下，可与 **[系魂型系统](Soul-Linked-Systems-Xianyu.md)** 重叠。
+- 混合型系统常由 **单一类系统**（[单一类系统](Single-Class-Systems-Xianyu.md)） 演化而来；
+- 在长期演化中，也可能过渡为 **家族式系统**（[家族式系统](Family-Systems-Xianyu.md)）；
+- 特殊情况下，可与 **系魂型系统**（[系魂型系统](Soul-Linked-Systems-Xianyu.md)） 重叠。
 
 ---
 
