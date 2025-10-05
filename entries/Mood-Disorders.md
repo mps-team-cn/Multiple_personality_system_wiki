@@ -24,11 +24,11 @@ updated: 2025-10-05
 ## 相关条目
 
 - [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
-- [躁狂（Mania）](/entries/Mania.md)
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
-- [轻躁狂（Hypomania）](/entries/Hypomania.md)
+- [躁狂（Mania）](/entries/Mania.md)
 - [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 - [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
+- [轻躁狂（Hypomania）](/entries/Hypomania.md)
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
 - [谵妄（Delirium）](/entries/Delirium.md)
 

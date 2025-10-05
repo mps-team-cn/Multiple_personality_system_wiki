@@ -39,14 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [自我概念（Self-Concept）](/entries/Self-Concept.md)
 - [情绪调节（Emotion Regulation）](/entries/Emotion-Regulation.md)
-- [感官调节策略（Sensory Regulation Strategies）](/entries/Sensory-Regulation-Strategies.md)
-- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
-- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
-- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
-- [投射（Projection, Psychology）](/entries/Projection-Psychology.md)
 - [心理防御机制（Defense Mechanisms）](/entries/Defense-Mechanisms.md)
+- [自我概念（Self-Concept）](/entries/Self-Concept.md)
+- [投射（Projection, Psychology）](/entries/Projection-Psychology.md)
+- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
+- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
+- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
+- [认知失调（Cognitive Dissonance）](/entries/Cognitive-Dissonance.md)
 
 ## 参考与延伸阅读
 

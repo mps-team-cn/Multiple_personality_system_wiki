@@ -40,13 +40,13 @@ updated: 2025-10-05
 ## 相关条目
 
 - [心理防御机制（Defense Mechanisms）](/entries/Defense-Mechanisms.md)
-- [感官调节策略（Sensory Regulation Strategies）](/entries/Sensory-Regulation-Strategies.md)
-- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
+- [高敏感人群（Highly Sensitive Person, HSP）](/entries/Highly-Sensitive-Person.md)
 - [认知失调（Cognitive Dissonance）](/entries/Cognitive-Dissonance.md)
+- [投射（Projection, Psychology）](/entries/Projection-Psychology.md)
+- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
 - [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
 - [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
-- [高敏感人群（Highly Sensitive Person, HSP）](/entries/Highly-Sensitive-Person.md)
-- [投射（Projection, Psychology）](/entries/Projection-Psychology.md)
+- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
 
 ## 参考与延伸阅读
 

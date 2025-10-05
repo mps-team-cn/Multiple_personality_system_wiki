@@ -48,8 +48,8 @@ Integration，融合，最终融合（Final Fusion）
 - [独立性（Independence）](/entries/Independence.md)
 - [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 - [非我感（Depersonalization）](/entries/Depersonalization.md)
+- [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
 - [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
-- [成员（Alter）](/entries/Alter.md)
 
 ## 参考资料
 

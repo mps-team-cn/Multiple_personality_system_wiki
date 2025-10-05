@@ -127,11 +127,11 @@ D. 症状不能被分离性身份障碍、创伤后应激障碍、急性应激�
 - [定向障碍（Disorientation）](/entries/Disorientation.md)
 - [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
 - [创伤（Trauma）](/entries/Trauma.md)
-- [谵妄（Delirium）](/entries/Delirium.md)
-- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
-- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
 - [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
-- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
+- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
+- [谵妄（Delirium）](/entries/Delirium.md)
+- [子系统（Subsystem）](/entries/Subsystem.md)
+- [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
 
 ## 参考与延伸阅读
 

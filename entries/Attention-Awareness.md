@@ -41,12 +41,12 @@ updated: 2025-10-05
 
 - [心理能量与注意资源（Psychic Energy & Attention）](/entries/Psychic-Energy-Attention.md)
 - [学习与条件反射（Learning & Conditioning）](/entries/Learning-Conditioning.md)
-- [认知失调（Cognitive Dissonance）](/entries/Cognitive-Dissonance.md)
 - [情绪调节（Emotion Regulation）](/entries/Emotion-Regulation.md)
+- [心理防御机制（Defense Mechanisms）](/entries/Defense-Mechanisms.md)
 - [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
+- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
+- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
 - [自我概念（Self-Concept）](/entries/Self-Concept.md)
-- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
-- [应激反应（Stress Response）](/entries/Stress-Response.md)
 
 ## 参考与延伸阅读
 

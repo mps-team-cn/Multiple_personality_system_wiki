@@ -40,13 +40,13 @@ updated: 2025-10-05
 ## 相关条目
 
 - [自我概念（Self-Concept）](/entries/Self-Concept.md)
-- [心理防御机制（Defense Mechanisms）](/entries/Defense-Mechanisms.md)
-- [动机理论（Motivation Theories）](/entries/Motivation-Theories.md)
 - [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
-- [自我决定理论（Self-Determination Theory）](/entries/Self-Determination-Theory.md)
-- [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
-- [人格面具（Persona）](/entries/Persona.md)
 - [自我效能感（Self-Efficacy）](/entries/Self-Efficacy.md)
+- [自我决定理论（Self-Determination Theory）](/entries/Self-Determination-Theory.md)
+- [动机理论（Motivation Theories）](/entries/Motivation-Theories.md)
+- [心理防御机制（Defense Mechanisms）](/entries/Defense-Mechanisms.md)
+- [社会认知理论（Social-Cognitive Theory）](/entries/Social-Cognitive-Theory.md)
+- [依恋理论（Attachment Theory）](/entries/Attachment-Theory.md)
 
 ## 参考与延伸阅读
 

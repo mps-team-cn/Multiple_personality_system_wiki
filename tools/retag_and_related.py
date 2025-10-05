@@ -663,8 +663,9 @@ def compute_related(
 
     results.sort(
         key=lambda item: (
-            -item[1],
+            -round(item[1], 6),  # 将分数四舍五入到6位小数，避免浮点数微小差异
             english_title_key(all_posts[item[0]]),
+            str(item[0])  # 如果分数和标题都相同，按路径排序确保完全稳定
         )
     )
     if len(results) < 2:

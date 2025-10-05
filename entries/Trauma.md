@@ -96,7 +96,7 @@ updated: 2025-10-03
 - [系魂型系统（Soul-Linked Systems, Xianyu Theory）](/entries/Soul-Linked-Systems-Xianyu.md)
 - [冥想（Meditation）](/entries/Meditation.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
-- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
+- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
 
 ## 参考与延伸阅读
 

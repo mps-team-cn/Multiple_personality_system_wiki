@@ -40,11 +40,11 @@ updated: 2025-10-05
 ## 相关条目
 
 - [社会认知理论（Social-Cognitive Theory）](/entries/Social-Cognitive-Theory.md)
-- [自我决定理论（Self-Determination Theory）](/entries/Self-Determination-Theory.md)
 - [自我概念（Self-Concept）](/entries/Self-Concept.md)
-- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
 - [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
+- [自我决定理论（Self-Determination Theory）](/entries/Self-Determination-Theory.md)
 - [动机理论（Motivation Theories）](/entries/Motivation-Theories.md)
+- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
 - [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
 - [依恋理论（Attachment Theory）](/entries/Attachment-Theory.md)
 

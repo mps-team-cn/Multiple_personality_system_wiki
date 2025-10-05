@@ -56,13 +56,13 @@ updated: 2025-10-03
 ## 相关条目
 
 - [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
+- [功能性分离（Functional Dissociation）](/entries/Functional-Dissociation.md)
 - [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
 - [融合（Fusion）](/entries/Fusion.md)
-- [功能性分离（Functional Dissociation）](/entries/Functional-Dissociation.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
 - [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 - [去现实化（Derealization）](/entries/Derealization.md)
-- [人格职能（System Roles）](/entries/System-Roles.md)
+- [子系统（Subsystem）](/entries/Subsystem.md)
 
 ## 参考资料
 

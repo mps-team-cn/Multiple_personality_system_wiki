@@ -108,9 +108,9 @@ updated: 2025-10-03
 - [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
 - [谵妄（Delirium）](/entries/Delirium.md)
 - [躁狂（Mania）](/entries/Mania.md)
-- [轻躁狂（Hypomania）](/entries/Hypomania.md)
-- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
+- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
+- [轻躁狂（Hypomania）](/entries/Hypomania.md)
 - [定向障碍（Disorientation）](/entries/Disorientation.md)
 
 ## 参考与延伸阅读

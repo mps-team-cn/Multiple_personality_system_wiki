@@ -103,9 +103,9 @@ _如有触发风险，请在安全情境下阅读。_
 - [闪回（Flashback）](/entries/Flashback.md)
 - [非我感（Depersonalization）](/entries/Depersonalization.md)
 - [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
-- [去现实化（Derealization）](/entries/Derealization.md)
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
 - [焦虑（Anxiety）](/entries/Anxiety.md)
+- [去现实化（Derealization）](/entries/Derealization.md)
 
 ## 参考
 

@@ -24,7 +24,7 @@
 
 ## 📁 新目录结构
 
-```
+```text
 tools/
 ├── core/                 # 核心共享模块
 │   ├── __init__.py      # 模块导出
@@ -58,6 +58,7 @@ tools/
 ### 1. Core 模块
 
 #### frontmatter.py
+
 - **功能**: 统一的 YAML frontmatter 解析
 - **特性**:
   - 支持严格和宽松模式
@@ -66,6 +67,7 @@ tools/
   - 向后兼容性
 
 #### config.py
+
 - **功能**: 配置管理系统
 - **特性**:
   - 支持多种配置来源（文件、环境变量）
@@ -74,6 +76,7 @@ tools/
   - 配置验证
 
 #### logger.py
+
 - **功能**: 统一日志记录
 - **特性**:
   - 可配置的日志级别和格式
@@ -82,6 +85,7 @@ tools/
   - 性能友好的日志缓存
 
 #### utils.py
+
 - **功能**: 通用工具函数
 - **特性**:
   - 文件操作工具
@@ -92,18 +96,21 @@ tools/
 ### 2. Processors 模块
 
 #### markdown.py（待实现）
+
 - 基于 `fix_md.py` 重构
 - 支持可配置的修复规则
 - 批量处理能力
 - 预览模式
 
 #### links.py（待实现）
+
 - 基于 `check_links.py` 重构
 - 支持白名单配置
 - 内外链接分类检查
 - 修复建议
 
 #### tags.py（待实现）
+
 - 整合标签相关功能
 - 基于 `retag_and_related.py` 和 `generate_tags_index.py`
 - 智能标签提取
@@ -112,18 +119,21 @@ tools/
 ### 3. Generators 模块
 
 #### search_index.py（待实现）
+
 - 基于 `build_search_index.py` 重构
 - 支持多种搜索格式
 - 增量更新能力
 - 性能优化
 
 #### tags_index.py（待实现）
+
 - 基于 `generate_tags_index.py` 重构
 - 支持自定义排序
 - 分组显示
 - 统计信息
 
 #### changelog.py（待实现）
+
 - 基于 `gen_changelog_by_tags.py` 重构
 - 支持多种输出格式
 - 自定义过滤规则
@@ -132,6 +142,7 @@ tools/
 ### 4. Validators 模块
 
 #### content.py（待实现）
+
 - 基于 `gen-validation-report.py` 重构
 - 全面的内容校验
 - 可配置的规则
@@ -140,6 +151,7 @@ tools/
 ### 5. CLI 模块
 
 #### main.py
+
 - 统一的命令行接口
 - 子命令支持
 - 全局选项处理
@@ -148,30 +160,35 @@ tools/
 ## 📅 实施计划
 
 ### 第一阶段：基础设施（已完成 ✅）
+
 - [x] 创建新的目录结构
 - [x] 实现核心模块
 - [x] 建立配置系统
 - [x] 统一日志记录
 - [x] 创建 CLI 框架
 
-### 第二阶段：处理器实现（进行中 🚧）
-- [ ] 实现 MarkdownProcessor
-- [ ] 实现 LinkProcessor
-- [ ] 实现 TagProcessor
-- [ ] 单元测试编写
+### 第二阶段：处理器实现（已完成 ✅）
+
+- [x] 实现 MarkdownProcessor
+- [x] 实现 LinkProcessor
+- [x] 实现 TagProcessor
+- [ ] 单元测试编写（待定）
 
 ### 第三阶段：生成器实现（待定 ⏳）
+
 - [ ] 重构搜索索引生成器
 - [ ] 重构标签索引生成器
 - [ ] 重构变更日志生成器
 - [ ] 性能测试和优化
 
 ### 第四阶段：校验器实现（待定 ⏳）
+
 - [ ] 实现内容校验器
 - [ ] 配置化规则系统
 - [ ] 报告模板系统
 
 ### 第五阶段：迁移和集成（待定 ⏳）
+
 - [ ] 逐步迁移现有脚本
 - [ ] 向后兼容性保证
 - [ ] 文档更新
@@ -202,16 +219,19 @@ tools/
 ## 🧪 测试策略
 
 ### 单元测试
+
 - 每个模块独立测试
 - 覆盖率目标：90%+
 - Mock 外部依赖
 
 ### 集成测试
+
 - 端到端功能测试
 - 性能基准测试
 - 错误场景测试
 
 ### 回归测试
+
 - 对比新旧系统输出
 - 确保功能一致性
 - 性能对比分析
@@ -226,35 +246,48 @@ tools/
 ## 🔧 使用示例
 
 ### 基本用法
+
 ```bash
+
 # 修复 Markdown 格式
+
 python -m tools.cli.main fix-md entries/
 
 # 检查链接
+
 python -m tools.cli.main check-links --root .
 
 # 生成搜索索引
+
 python -m tools.cli.main search-index --output assets/search-index.json
 
 # 生成标签索引
+
 python -m tools.cli.main tags-index
 
 # 校验内容
+
 python -m tools.cli.main validate --strict
 
 # 启动预览
+
 python -m tools.cli.main preview --port 4173 --docsify
 ```
 
 ### 高级用法
+
 ```bash
+
 # 使用自定义配置
+
 python -m tools.cli.main --config custom.json fix-md
 
 # 详细输出
+
 python -m tools.cli.main --verbose validate
 
 # 预览模式
+
 python -m tools.cli.main fix-md --dry-run
 ```
 

@@ -448,3 +448,8 @@ def flatten_dict(d: Dict[str, Any], parent_key: str = '', sep: str = '.') -> Dic
         else:
             items.append((new_key, v))
     return dict(items)
+
+
+# 为向后兼容和简洁性提供的别名
+read_file = safe_read_file
+write_file = safe_write_file
