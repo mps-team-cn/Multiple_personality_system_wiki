@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Plurality Wiki 本地预览辅助脚本。
 
-优先尝试通过 docsify-cli 启动预览（自动切换 npm registry），
-若受限则回退到 Python `http.server`，依赖 index.html 中的 CDN 资源。
+默认直接启动 Python `http.server`（端口 4173），
+如需 docsify-cli 预览可显式指定对应参数。
 """
 
 from __future__ import annotations
@@ -26,7 +26,7 @@ DOCSIFY_REGISTRIES = (
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Plurality Wiki 本地预览脚本：优先 docsify，失败则回退 Python 服务器。"
+        description="Plurality Wiki 本地预览脚本：默认 Python 服务器，可选 docsify。"
     )
     parser.add_argument(
         "directory",
@@ -41,11 +41,16 @@ def parse_args() -> argparse.Namespace:
         help=f"监听端口（默认 {DEFAULT_PORT}）。",
     )
     parser.add_argument(
+        "--docsify",
+        action="store_true",
+        help="启用 docsify-cli 预览（默认关闭）。",
+    )
+    parser.add_argument(
         "--wait",
         type=float,
         default=DEFAULT_WAIT_SECONDS,
         help=(
-            "启动 docsify 后等待的秒数，用于检测是否启动成功。"
+            "在启用 docsify 时等待其启动的秒数，用于检测是否成功。"
             f"（默认 {DEFAULT_WAIT_SECONDS} 秒）"
         ),
     )
@@ -150,14 +155,18 @@ def wait_for_process(process: subprocess.Popen) -> int:
 def main() -> int:
     args = parse_args()
     directory = ensure_directory(Path(args.directory))
-    process = try_launch_docsify(directory, args.port, args.wait, DOCSIFY_REGISTRIES)
 
-    if process is not None:
-        exit_code = wait_for_process(process)
-        print(f"[info] docsify 服务已结束（退出码：{exit_code}）。")
-        if exit_code == 0:
-            return 0
-        print("[warn] docsify-cli 未能保持运行，将尝试 Python 静态服务器。")
+    process: Optional[subprocess.Popen]
+
+    if args.docsify:
+        process = try_launch_docsify(directory, args.port, args.wait, DOCSIFY_REGISTRIES)
+
+        if process is not None:
+            exit_code = wait_for_process(process)
+            print(f"[info] docsify 服务已结束（退出码：{exit_code}）。")
+            if exit_code == 0:
+                return 0
+            print("[warn] docsify-cli 未能保持运行，将尝试 Python 静态服务器。")
 
     process = launch_python_server(directory, args.port)
     exit_code = wait_for_process(process)
