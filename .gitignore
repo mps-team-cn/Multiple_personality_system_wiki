@@ -2,7 +2,18 @@ tectonic.exe
 tools/pdf_export/pdf_export/__pycache__/*
 *.pdf
 *.log
-.claude
+# === Claude ===
+.claude/cache/
+.claude/logs/
+.claude/temp/
+.claude/*.db
+.claude/session*
+# 但保留配置文件和Claude.md
+!.claude/
+!.claude/settings*
+!.claude/CLAUDE.md
+!.claude/.gitkeep
+# === End Claude ===
 .obsidian/app.json
 .obsidian/appearance.json
 .obsidian/core-plugins.json
