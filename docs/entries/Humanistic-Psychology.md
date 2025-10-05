@@ -1,16 +1,18 @@
 ---
+tags:
+- 理论与分类
+- 多重意识体
+- 解离
+- 创伤
+topic: 理论与分类
+title: 人本主义心理学（Humanistic Psychology）
+updated: 2025-10-05
 synonyms:
 - 人本心理学
 - 人本主义学派
 - humanistic psychology
-tags:
-- 多重意识体
-- 解离
-- 创伤
-topic: 心理学与理论
-title: 人本主义心理学（Humanistic Psychology）
-updated: 2025-10-05
 ---
+
 
 # 人本主义心理学（Humanistic Psychology）
 

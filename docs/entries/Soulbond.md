@@ -1,12 +1,14 @@
 ---
 tags:
+- 角色与身份
 - 多重意识体
 - 解离
 - 创伤
-topic: 系统角色与类型
+topic: 角色与身份
 title: 系魂（Soulbond）
 updated: 2025-10-03
 ---
+
 
 # 系魂（Soulbond）
 

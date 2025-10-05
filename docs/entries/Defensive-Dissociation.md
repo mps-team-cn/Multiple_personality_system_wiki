@@ -1,16 +1,18 @@
 ---
+tags:
+- 理论与分类
+- 解离
+- 多重意识体
+- 创伤
+topic: 理论与分类
+title: 防御性解离（Defensive Dissociation）
+updated: 2025-10-05
 synonyms:
 - 防御性分离
 - 防御性解离反应
 - defensive dissociation
-tags:
-- 解离
-- 多重意识体
-- 创伤
-topic: 心理学与理论
-title: 防御性解离（Defensive Dissociation）
-updated: 2025-10-05
 ---
+
 
 # 防御性解离（Defensive Dissociation）
 

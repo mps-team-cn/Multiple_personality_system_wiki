@@ -1,12 +1,14 @@
 ---
 tags:
+- 文化与表现
 - 多重意识体
 - 解离
 - 创伤
-topic: 文化与影视
+topic: 文化与表现
 title: 洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）
 updated: 2025-10-03
 ---
+
 
 # 洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）
 

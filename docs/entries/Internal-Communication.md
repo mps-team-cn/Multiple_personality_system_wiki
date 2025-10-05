@@ -1,12 +1,14 @@
 ---
 tags:
+- 系统运作
 - 多重意识体
 - 解离
 - 创伤
-topic: 实践与支持
+topic: 系统运作
 title: 内部沟通（Internal Communication）
 updated: 2025-10-04
 ---
+
 
 # 内部沟通（Internal Communication）
 

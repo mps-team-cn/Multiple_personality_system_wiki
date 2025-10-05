@@ -1,12 +1,14 @@
 ---
 tags:
+- 系统运作
 - DID
 - 多重意识体
 - 解离
-topic: 系统体验与机制
+topic: 系统运作
 title: 多重意识体基础（Plurality Basics）
 updated: 2025-10-03
 ---
+
 
 # 多重意识体基础（Plurality Basics）
 

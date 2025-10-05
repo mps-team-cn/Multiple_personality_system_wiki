@@ -1,15 +1,17 @@
 ---
+tags:
+- 理论与分类
+- 多重意识体
+- 解离
+topic: 理论与分类
+title: 学习与条件反射（Learning & Conditioning）
+updated: 2025-10-05
 synonyms:
 - 学习理论
 - 条件作用
 - learning and conditioning
-tags:
-- 多重意识体
-- 解离
-topic: 心理学与理论
-title: 学习与条件反射（Learning & Conditioning）
-updated: 2025-10-05
 ---
+
 
 # 学习与条件反射（Learning & Conditioning）
 

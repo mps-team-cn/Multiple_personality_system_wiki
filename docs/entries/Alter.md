@@ -1,14 +1,16 @@
 ---
-synonyms:
-- 成员
 tags:
+- 角色与身份
 - 多重意识体
 - 解离
 - 创伤
-topic: 系统角色与类型
+topic: 角色与身份
 title: 成员（Alter）
 updated: 2025-10-03
+synonyms:
+- 成员
 ---
+
 
 # 成员（Alter）
 

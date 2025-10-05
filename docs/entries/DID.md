@@ -1,5 +1,6 @@
 ---
 tags:
+- 诊断与临床
 - DID
 - 多重意识体
 - 解离
@@ -7,6 +8,7 @@ topic: 诊断与临床
 title: 解离性身份障碍（Dissociative Identity Disorder，DID）
 updated: 2025-10-03
 ---
+
 
 # 解离性身份障碍（Dissociative Identity Disorder，DID）
 

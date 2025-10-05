@@ -1,5 +1,6 @@
 ---
 tags:
+- 诊断与临床
 - BPD
 - 多重意识体
 - 解离
@@ -7,6 +8,7 @@ topic: 诊断与临床
 title: 边缘性人格障碍（Borderline Personality Disorder，BPD）
 updated: 2025-10-03
 ---
+
 
 # 边缘性人格障碍（Borderline Personality Disorder，BPD）
 

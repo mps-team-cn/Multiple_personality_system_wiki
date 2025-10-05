@@ -1,13 +1,15 @@
 ---
 tags:
+- 系统运作
 - 解离
 - DID
 - OSDD
 - DPDR
-topic: 系统体验与机制
+topic: 系统运作
 title: 解离（Dissociation）
 updated: 2025-10-05
 ---
+
 
 # 解离（Dissociation）
 

@@ -1,15 +1,17 @@
 ---
-synonyms:
-- 适应型
-- 创伤型
 tags:
+- 角色与身份
 - 适应型
 - 多重意识体
 - 解离
-topic: 系统角色与类型
+topic: 角色与身份
 title: 适应型（Adaptive）
 updated: 2025-10-03
+synonyms:
+- 适应型
+- 创伤型
 ---
+
 
 # 适应型（Adaptive）
 

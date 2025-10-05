@@ -1,18 +1,20 @@
 ---
+tags:
+- 系统运作
+- PTSD
+- 多重意识体
+- 解离
+topic: 系统运作
+title: 侵入性思维（Intrusive Thoughts）
+updated: 2025-10-05
 synonyms:
 - 侵入性思维
 - 侵入式思维
 - 侵思
 - intrusive thoughts
 - intrusive thinking
-tags:
-- PTSD
-- 多重意识体
-- 解离
-topic: 系统体验与机制
-title: 侵入性思维（Intrusive Thoughts）
-updated: 2025-10-05
 ---
+
 
 # 侵入性思维（Intrusive Thoughts）
 

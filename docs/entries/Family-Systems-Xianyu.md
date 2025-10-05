@@ -1,12 +1,14 @@
 ---
 tags:
+- 系统运作
 - 多重意识体
 - 解离
 - 创伤
-topic: 系统体验与机制
+topic: 系统运作
 title: 家族式系统（Family Systems, Xianyu Theory）
 updated: 2025-10-03
 ---
+
 
 # 家族式系统（Family Systems, Xianyu Theory）
 

@@ -1,16 +1,18 @@
 ---
+tags:
+- 理论与分类
+- 多重意识体
+- 解离
+- 创伤
+topic: 理论与分类
+title: 心理防御机制（Defense Mechanisms）
+updated: 2025-10-05
 synonyms:
 - 防御机制
 - 自我防御机制
 - psychological defense
-tags:
-- 多重意识体
-- 解离
-- 创伤
-topic: 心理学与理论
-title: 心理防御机制（Defense Mechanisms）
-updated: 2025-10-05
 ---
+
 
 # 心理防御机制（Defense Mechanisms）
 
