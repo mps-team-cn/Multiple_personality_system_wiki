@@ -5,7 +5,7 @@
 从概念入门到实践工具，我们致力于用中文整理关于多重意识体系统（Plurality）与创伤照护的可靠资料。
 希望这些内容能陪伴你理解自我、照顾伙伴，并与同路人建立连结。
 
-[查看术语表](Glossary.md){ .md-button .md-button--primary }
+[查看标签索引](tags.md){ .md-button .md-button--primary }
 [贡献指南](CONTRIBUTING.md){ .md-button }
 
 ---
@@ -69,7 +69,7 @@
 ## 📖 快速入口
 
 - 🔍 [标签索引](tags.md) - 按主题分类浏览全部词条
-- 📝 [术语表](Glossary.md) - 快速查询专业术语定义
+- 📝 [查看术语](Glossary.md) - 快速查询专业术语定义
 - 🔄 [更新日志](changelog.md) - 追踪最新内容变更
 - 🤝 [贡献指南](CONTRIBUTING.md) - 了解如何参与共建
 
@@ -87,7 +87,7 @@
 - [**复杂性 PTSD（CPTSD）**](entries/CPTSD.md) - 长期创伤的深远影响
 - [**解离（Dissociation）**](entries/Dissociation.md) - 一切的基础概念
 
-[:octicons-arrow-right-24: 浏览所有临床词条](tags.md#did)
+[:octicons-arrow-right-24: 查看 DSM-5 & ICD-11 诊断索引](DSM-ICD-Diagnosis-Index.md)
 
 ### :material-account-group: 系统运作与协作
 
