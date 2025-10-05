@@ -23,18 +23,8 @@
 
 基于成因、形成方式与社群经验的分类体系。
 
-- [埃蒙加德分类法（Emmengard Classification）](entries/Emmengard-Classification.md)：按成因分类的主流体系
-
-  - 创伤型（Traumagenic）
-  - 创造型（Created）
-  - 自发型（Spontaneous）
-  - 混合型（Mixed）
-
-- [弦羽理论生态位分类法](entries/Xianyu-Theory-Niche-Classification.md)：基于功能定位的分类框架
-  - [单一类系统](entries/Single-Class-Systems-Xianyu.md)
-  - [混合型系统](entries/Mixed-Systems-Xianyu.md)
-  - [家族式系统](entries/Family-Systems-Xianyu.md)
-  - [系魂型系统](entries/Soul-Linked-Systems-Xianyu.md)
+- [埃蒙加德分类法（Emmengard Classification）](entries/Emmengard-Classification.md)：按成因分类的主流体系，包括创伤型、创造型、自发型与混合型。
+- [弦羽理论生态位分类法](entries/Xianyu-Theory-Niche-Classification.md)：基于功能定位的分类框架，包括单一类系统、混合型系统、家族式系统与系魂型系统。
 
 ### 特殊类型
 
@@ -49,15 +39,8 @@
 
 ### 结构性解离理论
 
-- [结构性解离理论（Structural Dissociation Theory）](entries/Structural-Dissociation-Theory.md)：解释创伤如何导致人格结构分化的经典模型
-
-  - 初级解离（Primary Dissociation）
-  - 次级解离（Secondary Dissociation）
-  - 三级解离（Tertiary Dissociation）
-
-- [ANP-EP 模型](entries/Apparently-Normal-Part-Emotional-Part-Model.md)：功能性人格部分的划分
-  - 表面正常部分（ANP, Apparently Normal Part）
-  - 情绪部分（EP, Emotional Part）
+- [结构性解离理论（Structural Dissociation Theory）](entries/Structural-Dissociation-Theory.md)：解释创伤如何导致人格结构分化的经典模型，包括初级、次级与三级解离。
+- [ANP-EP 模型](entries/Apparently-Normal-Part-Emotional-Part-Model.md)：功能性人格部分的划分，包括表面正常部分（ANP）与情绪部分（EP）。
 
 ### 相关心理学理论
 

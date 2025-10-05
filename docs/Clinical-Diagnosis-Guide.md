@@ -12,14 +12,10 @@
 
 ### 解离（Dissociation）
 
-- [解离（Dissociation）](entries/Dissociation.md)：解离现象的核心概念与谱系
-  - 正常解离（如走神、高速公路催眠）
-  - 病理性解离（影响功能的解离）
-  - 解离的神经生物学基础
-
-- [病理性解离（Pathological Dissociation）](entries/Pathological-Dissociation.md)：达到临床意义的解离
-- [功能性解离（Functional Dissociation）](entries/Functional-Dissociation.md)：应对压力的解离机制
-- [防御性解离（Defensive Dissociation）](entries/Defensive-Dissociation.md)：作为心理防御的解离
+- [解离（Dissociation）](entries/Dissociation.md)：解离现象的核心概念与谱系，从正常解离到病理性解离的连续体。
+- [病理性解离（Pathological Dissociation）](entries/Pathological-Dissociation.md)：达到临床意义、影响功能的解离现象。
+- [功能性解离（Functional Dissociation）](entries/Functional-Dissociation.md)：应对压力的解离机制。
+- [防御性解离（Defensive Dissociation）](entries/Defensive-Dissociation.md)：作为心理防御的解离反应。
 
 ---
 
@@ -27,35 +23,19 @@
 
 ### 解离性身份障碍（DID）
 
-- [解离性身份障碍（DID）](entries/DID.md)：最严重的解离性障碍
-  - **DSM-5-TR 诊断标准**：
-    - 两个或以上独特的人格状态
-    - 反复的记忆断片，超出普通遗忘
-    - 显著的痛苦或功能损害
-  - **ICD-11 诊断标准**：
-    - 编码：6B64
-    - 人格状态分裂与记忆断裂
-    - 强调身份障碍的核心特征
+- [解离性身份障碍（DID）](entries/DID.md)：最严重的解离性障碍，DSM-5-TR 诊断标准包括两个或以上人格状态、记忆断片与功能损害；ICD-11 编码 6B64。
 
 ### 其他特定解离性障碍（OSDD）
 
-- [其他特定解离性障碍（OSDD）](entries/OSDD.md)：不完全符合 DID 标准的解离性障碍
-  - **OSDD-1a**：有明确的人格状态，但无记忆断片
-  - **OSDD-1b**：有记忆断片，但人格状态不够独特
-  - **与 DID 的关系**：DSM-5 分类，ICD-11 可能使用其他术语
+- [其他特定解离性障碍（OSDD）](entries/OSDD.md)：不完全符合 DID 标准的解离性障碍，包括 OSDD-1a（有人格状态但无记忆断片）与 OSDD-1b（有记忆断片但人格状态不够独特）。
 
 ### 部分解离性身份障碍（Partial DID）
 
-- [部分解离性身份障碍（PDID）](entries/Partial-Dissociative-Identity-Disorder-PDID.md)：ICD-11 专有诊断
-  - 与 OSDD-1 相似但不完全相同
-  - ICD-11 编码：6B65
-  - DSM 体系中无对应诊断
+- [部分解离性身份障碍（PDID）](entries/Partial-Dissociative-Identity-Disorder-PDID.md)：ICD-11 专有诊断（编码 6B65），与 OSDD-1 相似但不完全相同，DSM 体系中无对应诊断。
 
 ### 人格解体/现实解体障碍（DPDR）
 
-- [人格解体/现实解体障碍（DPDR）](entries/Depersonalization-Derealization-Disorder-DPDR.md)：持续或反复的人格解体或现实解体体验
-  - [人格解体（Depersonalization）](entries/Depersonalization.md)：与自我分离的感觉
-  - [现实解体（Derealization）](entries/Derealization.md)：周围世界不真实的感觉
+- [人格解体/现实解体障碍（DPDR）](entries/Depersonalization-Derealization-Disorder-DPDR.md)：持续或反复的人格解体（与自我分离）或现实解体（周围世界不真实）体验。
 
 ---
 
@@ -94,36 +74,19 @@
 
 ### 精神分裂症（Schizophrenia）
 
-- [精神分裂症（SC）](entries/Schizophrenia-SC.md)：精神病性障碍
-  - **关键区别**：
-    - 精神分裂症：幻觉、妄想、思维障碍
-    - DID：人格状态、记忆断片、无精神病性症状
-  - **共同点**：都可能有"听到声音"（内部对话 vs 幻听）
+- [精神分裂症（SC）](entries/Schizophrenia-SC.md)：精神病性障碍，以幻觉、妄想、思维障碍为主，与 DID 的"听到声音"（内部对话 vs 幻听）需要鉴别。
 
 ### 双相障碍（Bipolar Disorders）
 
-- [双相障碍（Bipolar）](entries/Bipolar-Disorders.md)：情绪障碍
-  - **关键区别**：
-    - 双相：躁狂/抑郁周期，情绪为主
-    - DID：人格切换，身份分离为主
-  - **共病可能**：可能同时存在
+- [双相障碍（Bipolar）](entries/Bipolar-Disorders.md)：情绪障碍，以躁狂/抑郁周期为主，与 DID 的人格切换、身份分离需要区分，可能共病。
 
 ### 边缘型人格障碍（BPD）
 
-- [边缘型人格障碍（BPD）](entries/Borderline-Personality-Disorder-BPD.md)：人格障碍
-  - **关键区别**：
-    - BPD：情绪不稳定、人际关系混乱、身份扩散
-    - DID：独特的人格状态、结构性记忆断片
-  - **高共病率**：BPD 与解离性障碍常共存
-  - **鉴别难点**：都可能有身份混乱，需专业评估
+- [边缘型人格障碍（BPD）](entries/Borderline-Personality-Disorder-BPD.md)：人格障碍，表现为情绪不稳定、人际关系混乱与身份扩散，与 DID 的结构性记忆断片需要鉴别，两者常共病。
 
 ### 自恋型人格障碍（NPD）
 
-- [自恋型人格障碍（NPD）](entries/Narcissistic-Personality-Disorder-NPD.md)：人格障碍
-  - **关键区别**：
-    - NPD：夸大自我、缺乏共情、需要赞美
-    - DID：人格分离、创伤相关
-  - **共存可能**：某些保护者可能表现出自恋特征
+- [自恋型人格障碍（NPD）](entries/Narcissistic-Personality-Disorder-NPD.md)：人格障碍，表现为夸大自我、缺乏共情与需要赞美，与 DID 的创伤相关人格分离不同，但某些保护者可能表现出自恋特征。
 
 ---
 

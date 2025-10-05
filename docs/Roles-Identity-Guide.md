@@ -18,23 +18,10 @@
 
 这些角色负责与外部世界互动，处理日常事务与人际关系。
 
-- [宿主（Host）](entries/Host.md)：通常在前台的主要成员，负责日常生活的主要运作
-  - 最常出现在外部世界
-  - 管理日常任务与社交互动
-  - 协调内部成员的需求
-
-- [管理者（Admin）](entries/Admin.md)：负责内部管理与决策的角色
-  - 制定系统内部规则
-  - 协调成员之间的冲突
-  - 与宿主职能有所区别
-
-- [主体（Main）](entries/Main.md)：系统中的核心或原始身份
-  - 可能是最早的意识体
-  - 不一定是宿主
-
-- [伪主体（Fauxmain）](entries/Fauxmain.md)：被误认为主体的成员
-  - 可能长期在前台
-  - 但并非原始身份
+- [宿主（Host）](entries/Host.md)：通常在前台的主要成员，负责日常生活运作与外部互动。
+- [管理者（Admin）](entries/Admin.md)：负责系统内部规则制定、冲突协调与决策管理。
+- [主体（Main）](entries/Main.md)：系统的核心或原始身份，可能是最早的意识体。
+- [伪主体（Fauxmain）](entries/Fauxmain.md)：长期在前台但并非原始身份的成员。
 
 ---
 
@@ -42,20 +29,9 @@
 
 这些角色负责保护系统免受外部威胁或内部冲突的伤害。
 
-- [守门人（Gatekeeper）](entries/Gatekeeper.md)：管理切换与访问权限的调度者
-  - 控制谁可以前台
-  - 管理记忆访问权限
-  - 维护系统边界
-
-- [保护者（Protector）](entries/Protector.md)：守护系统安全的角色
-  - 应对外部威胁
-  - 保护脆弱成员
-  - 可能表现为攻击性或防御性
-
-- [迫害者（Persecutor）](entries/Persecutor.md)：内化的创伤反应
-  - 可能对内部成员表现敌意
-  - 实际上是扭曲的保护机制
-  - 需要理解而非对抗
+- [守门人（Gatekeeper）](entries/Gatekeeper.md)：管理前台切换与记忆访问权限，维护系统边界。
+- [保护者（Protector）](entries/Protector.md)：应对外部威胁、保护脆弱成员的安全角色。
+- [迫害者（Persecutor）](entries/Persecutor.md)：内化的创伤反应，实际上是扭曲的保护机制，需要理解而非对抗。
 
 ---
 
@@ -63,15 +39,8 @@
 
 这些角色负责提供情感支持、照顾脆弱成员或维持内部和谐。
 
-- [照护者（Caregiver）](entries/Caregiver.md)：照顾其他成员的角色
-  - 提供情感安抚
-  - 照顾小孩意识体
-  - 管理内部需求
-
-- [内部自助者（ISH, Internal Self Helper）](entries/Internal-Self-Helper-ISH.md)：提供内部指导与调解的特殊角色
-  - 拥有系统全局视角
-  - 提供智慧与建议
-  - 协助治疗过程
+- [照护者（Caregiver）](entries/Caregiver.md)：照顾其他成员、提供情感安抚与管理内部需求的角色。
+- [内部自助者（ISH, Internal Self Helper）](entries/Internal-Self-Helper-ISH.md)：拥有系统全局视角，提供内部指导与调解的特殊角色。
 
 ---
 
@@ -79,26 +48,11 @@
 
 这些角色具有独特的功能或存在方式。
 
-- [小孩意识体（Little）](entries/Little.md)：保留童年状态的成员
-  - 可能持有童年记忆
-  - 需要特别的照护
-  - 可能在压力下出现
-
-- [核心（Core）](entries/Core.md)：系统的核心或中心身份
-  - 可能是整合的目标
-  - 也可能只是理论概念
-
-- [执行者（Performer / Executive）](entries/Performer-Executive.md)：负责特定任务执行的角色
-  - 专注于特定技能
-  - 可能在需要时出现
-
-- [傀儡（Servitor）](entries/Servitor.md)：功能性的、有限自主性的意识体
-  - 通常由其他成员创造
-  - 执行特定任务
-
-- [人格面具（Persona）](entries/Persona.md)：用于社交场合的"表面人格"
-  - 荣格心理学概念
-  - 与角色扮演有关
+- [小孩意识体（Little）](entries/Little.md)：保留童年状态的成员，可能持有童年记忆，需要特别照护。
+- [核心（Core）](entries/Core.md)：系统的核心或中心身份，可能是整合的目标或理论概念。
+- [执行者（Performer / Executive）](entries/Performer-Executive.md)：专注于特定技能或任务的执行角色。
+- [傀儡（Servitor）](entries/Servitor.md)：功能性、有限自主性的意识体，通常由其他成员创造。
+- [人格面具（Persona）](entries/Persona.md)：用于社交场合的"表面人格"，源自荣格心理学概念。
 
 ---
 
@@ -132,10 +86,7 @@
 
 ### 特殊认同（Alterhuman）
 
-- [特殊认同（Alterhuman）](entries/Alterhuman.md)：超越人类认同的身份体验
-  - 兽人（Therian）
-  - 龙人（Otherkin）
-  - 虚构人物身份（Fictionkin）
+- [特殊认同（Alterhuman）](entries/Alterhuman.md)：超越人类认同的身份体验，包括兽人（Therian）、龙人（Otherkin）、虚构人物身份（Fictionkin）等。
 
 ### 身份与角色的关系
 
