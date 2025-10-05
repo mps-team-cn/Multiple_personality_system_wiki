@@ -111,7 +111,7 @@
 - [**触发（Trigger）**](entries/Trigger.md) - 激活创伤反应的刺激
 - [**情绪调节**](entries/Emotion-Regulation.md) - 管理情绪的策略
 
-[:octicons-arrow-right-24: 探索心理健康导览](entries/Mental-Health-Guide.md)
+[:octicons-arrow-right-24: 探索创伤与疗愈导览](Trauma-Healing-Guide.md)
 
 ### :material-account-multiple: 角色与身份
 
@@ -123,7 +123,7 @@
 - [**小孩意识体（Little）**](entries/Little.md) - 保留童年状态的成员
 - [**迫害者（Persecutor）**](entries/Persecutor.md) - 内化的创伤反应
 
-[:octicons-arrow-right-24: 了解更多系统角色](entries/System-Roles.md)
+[:octicons-arrow-right-24: 了解角色与身份导览](Roles-Identity-Guide.md)
 
 ### :material-book-open-variant: 理论与分类
 
@@ -135,7 +135,7 @@
 - [**结构性解离理论**](entries/Structural-Dissociation-Theory.md) - 经典临床模型
 - [**ANP-EP 模型**](entries/Apparently-Normal-Part-Emotional-Part-Model.md) - 功能性人格部分
 
-[:octicons-arrow-right-24: 阅读核心概念导览](entries/Core-Concepts-Guide.md)
+[:octicons-arrow-right-24: 阅读理论与分类导览](Theory-Classification-Guide.md)
 
 ### :material-palette: 文化与表现
 
@@ -147,7 +147,7 @@
 - [初音未来现象](entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md) - 虚拟偶像与 Tulpa 边界
 - [东方 Project](entries/Touhou-Tulpa-Fandom.md) - 同人圈 Tulpa 文化
 
-[:octicons-arrow-right-24: 浏览更多作品分析](tags.md#多重意识体)
+[:octicons-arrow-right-24: 浏览文化与表现导览](Cultural-Media-Guide.md)
 
 ---
 

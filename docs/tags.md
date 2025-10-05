@@ -2,14 +2,14 @@
 
 浏览全部词条的分类标签，快速找到你感兴趣的主题。
 
-## 主题分类
+## 主题导览
 
-- :material-hospital-box: **诊断与临床** - DID、OSDD、PTSD、解离障碍等医学诊断相关内容
-- :material-cog: **系统运作** - 前台、切换、意识共存等多意识体系统运作机制
-- :material-heart-pulse: **创伤与疗愈** - 创伤类型、治疗方法、接地技巧等康复相关内容
-- :material-account-multiple: **角色与身份** - 宿主、守门人、保护者等系统角色与职能
-- :material-book-open-variant: **理论与分类** - 埃蒙加德分类、结构性解离理论等理论框架
-- :material-palette: **文化与表现** - 影视作品、文学作品中的多意识体主题
+- :material-hospital-box: [**诊断与临床**](entries/Mental-Health-Guide.md) - DID、OSDD、PTSD、解离障碍等医学诊断相关内容
+- :material-cog: [**系统运作**](System-Operations.md) - 前台、切换、意识共存等多意识体系统运作机制
+- :material-heart-pulse: [**创伤与疗愈**](Trauma-Healing-Guide.md) - 创伤类型、治疗方法、接地技巧等康复相关内容
+- :material-account-multiple: [**角色与身份**](Roles-Identity-Guide.md) - 宿主、守门人、保护者等系统角色与职能
+- :material-book-open-variant: [**理论与分类**](Theory-Classification-Guide.md) - 埃蒙加德分类、结构性解离理论等理论框架
+- :material-palette: [**文化与表现**](Cultural-Media-Guide.md) - 影视作品、文学作品中的多意识体主题
 
 ---
 
