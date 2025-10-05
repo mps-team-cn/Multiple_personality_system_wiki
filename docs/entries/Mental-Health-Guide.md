@@ -1,12 +1,14 @@
 ---
 tags:
+- 诊断与临床
+- 创伤与疗愈
 - 多重意识体
 - 解离
 - 创伤
 - PTSD
 - CPTSD
-topic: 心理健康导览
-title: 心理健康导览（Mental Health Guide）
+topic: 心理健康
+title: 心理健康导览
 updated: 2025-10-06
 ---
 
