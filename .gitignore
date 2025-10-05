@@ -6,9 +6,14 @@ __pycache__/
 .Python
 
 # === Build & Output ===
-tectonic.exe
-*.pdf
 *.log
+
+# 忽略大型二进制文件
+*.exe
+*.pdf
+
+# PDF 文件已从仓库移除，改用 GitHub Releases 发布
+# !releases/*.pdf
 # === Claude ===
 .claude/cache/
 .claude/logs/
@@ -39,3 +44,7 @@ tectonic.exe
 .codex/**/cache/
 .codex/**/logs/
 # === End Codex ===
+
+# MkDocs
+site/
+.mkdocs_cache/

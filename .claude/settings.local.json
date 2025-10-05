@@ -3,7 +3,9 @@
     "allow": [
       "Bash(gh pr diff:*)",
       "Bash(git checkout:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(mkdocs build:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []

@@ -2,12 +2,16 @@
 # -*- coding: utf-8 -*-
 
 """
-检查 Markdown 中“非完整路径”的内部链接。
-规则：
-1) 允许：外链(http/https/ftp/ftps)、mailto、tel、data、图片(![]())、锚点(#...)、Docsify 路由(#/...)。
+检查 Markdown 中"非完整路径"的内部链接。
+
+**MkDocs Material 迁移后的规则**：
+1) 允许：外链(http/https/ftp/ftps)、mailto、tel、data、图片(![]())、锚点(#...)。
 2) 允许：指向仓库根部的白名单文档（站点元文件），如 index.md / Glossary.md 等。
-3) 要求：指向词条(内容页)的内部链接必须写为 entries/*.md 的完整路径。
-4) 禁止：./xxx.md、../xxx.md、裸文件名 xxx.md、缺少 entries/ 前缀的 .md 链接、没有 .md 的“伪内部文件链接”。
+3) 要求：指向词条(内容页)的内部链接使用以下格式之一：
+   - `entries/*.md` - 旧版 Docsify 完整路径（仍支持）
+   - `docs/entries/*.md` - MkDocs 完整路径（推荐）
+   - `../entries/*.md` 或 `entries/*.md` - MkDocs 相对路径（在 docs/ 目录内使用）
+4) 禁止：./xxx.md、../xxx.md（非标准用法）、裸文件名 xxx.md、没有 .md 的"伪内部文件链接"。
 
 用法：
     python tools/check_links.py [--root .] [--whitelist index.md Glossary.md ...]
@@ -79,16 +83,36 @@ def looks_like_internal_md(target: str) -> bool:
         return False
     return True
 
-def is_full_entries_path(target: str) -> bool:
-    """是否严格满足 entries/*.md 完整路径"""
+def is_valid_entries_path(target: str) -> bool:
+    """
+    是否满足词条路径规范（支持 MkDocs Material 迁移后的多种格式）
 
+    允许的格式：
+    - entries/*.md (旧版 Docsify)
+    - docs/entries/*.md (MkDocs 完整路径)
+    - ../entries/*.md (MkDocs 相对路径，从 docs/ 内部链接)
+    """
     pure = target.split("#", 1)[0]
     p = Path(pure)
-    return (
-        p.suffix.lower() == ".md"
-        and len(p.parts) == 2
-        and p.parts[0].lower() == "entries"
-    )
+
+    if p.suffix.lower() != ".md":
+        return False
+
+    parts = p.parts
+
+    # 格式 1: entries/*.md (Docsify 旧版)
+    if len(parts) == 2 and parts[0].lower() == "entries":
+        return True
+
+    # 格式 2: docs/entries/*.md (MkDocs 完整路径)
+    if len(parts) == 3 and parts[0].lower() == "docs" and parts[1].lower() == "entries":
+        return True
+
+    # 格式 3: ../entries/*.md (MkDocs 相对路径)
+    if len(parts) == 3 and parts[0] == ".." and parts[1].lower() == "entries":
+        return True
+
+    return False
 
 def find_md_files(root: Path) -> Iterable[Path]:
     return (p for p in root.rglob("*.md") if p.is_file())
@@ -128,17 +152,13 @@ def check_file(md_path: Path, repo_root: Path, whitelist_extra: List[str]) -> Li
 
             # 其余看起来像内部链接的做严格校验
             if looks_like_internal_md(target):
-                # 1) 禁止 ./ 或 ../
-                if pure_target.startswith("./") or pure_target.startswith("../"):
-                    violations.append((i, target, "禁止相对路径（./ 或 ../），请改为 entries/*.md 完整路径"))
-                    continue
-                # 2) 必须是 entries/*.md
-                if not is_full_entries_path(target):
+                # 1) 检查是否为有效的词条路径格式
+                if not is_valid_entries_path(target):
                     # 若缺少 .md 后缀但明显想引用本地文件，也提示
                     if Path(pure_target).suffix == "":
-                        violations.append((i, target, "内部链接缺少 .md 后缀或路径不完整；请使用 entries/*.md"))
+                        violations.append((i, target, "内部链接缺少 .md 后缀或路径不完整；请使用 entries/*.md、docs/entries/*.md 或 ../entries/*.md"))
                     else:
-                        violations.append((i, target, "内部链接路径不合规；应为 entries/*.md 完整路径"))
+                        violations.append((i, target, "内部链接路径不合规；应为 entries/*.md、docs/entries/*.md 或 ../entries/*.md"))
                 # 通过的就不记录
             # 其它情况（比如资源文件）忽略
     return violations

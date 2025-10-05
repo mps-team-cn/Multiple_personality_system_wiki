@@ -9,29 +9,33 @@ import sys
 from collections.abc import Mapping
 from pathlib import Path
 
-from .paths import PROJECT_ROOT, README_PATH
+from .paths import PROJECT_ROOT, README_PATH, INDEX_PATH
 
 # Markdown 中指向词条的常见链接格式：
-# - 行内链接 [描述](entries/词条.md)
-# - 引用式链接 [ref]: entries/词条.md
-# - 角括号自动链接 <entries/词条.md>
+# - 行内链接 [描述](entries/词条.md) 或 [描述](词条.md)
+# - 引用式链接 [ref]: entries/词条.md 或 [ref]: 词条.md
+# - 角括号自动链接 <entries/词条.md> 或 <词条.md>
 #
 # PDF 导出时会将所有词条合并为单一文档，因此需要将这些链接
 # 统一重写为指向合并文档内部锚点的形式。正则表达式仅捕获链接
 # 的前缀/目标/后缀部分，便于在替换时保留原有排版细节。
+#
+# 支持两种格式：
+# 1. 旧格式：entries/xxx.md 或 ./entries/xxx.md 或 ../entries/xxx.md
+# 2. 新格式：xxx.md（相对路径，假定在 docs/entries/ 目录下）
 ENTRY_INLINE_LINK_PATTERN = re.compile(
-    r"(?P<prefix>\[[^\]]+\]\()(?P<target>(?:\./|\.\./|)entries/[^)#\s]+?\.md)"
+    r"(?P<prefix>\[[^\]]+\]\()(?P<target>(?:(?:\./|\.\./|)entries/)?[^)#\s/]+?\.md)"
     r"(?P<fragment>#[^)\s]*)?(?P<suffix>\))"
 )
 
 ENTRY_REFERENCE_LINK_PATTERN = re.compile(
-    r"(?P<prefix>^\s*\[[^\]]+\]:\s*)(?P<target>(?:\./|\.\./|)entries/[^#\s]+?\.md)"
+    r"(?P<prefix>^\s*\[[^\]]+\]:\s*)(?P<target>(?:(?:\./|\.\./|)entries/)?[^#\s/]+?\.md)"
     r"(?P<fragment>#[^\s]*)?(?P<suffix>\s*$)",
     re.MULTILINE,
 )
 
 ENTRY_ANGLE_LINK_PATTERN = re.compile(
-    r"(?P<prefix><)(?P<target>(?:\./|\.\./|)entries/[^>#\s]+?\.md)"
+    r"(?P<prefix><)(?P<target>(?:(?:\./|\.\./|)entries/)?[^>#\s/]+?\.md)"
     r"(?P<fragment>#[^>\s]*)?(?P<suffix>>)",
 )
 
@@ -114,16 +118,31 @@ def _build_anchor_lookup(structure: CategoryStructure) -> dict[Path, str]:
 
 
 def _resolve_entry_target(target: str, lookup: Mapping[Path, str]) -> str | None:
-    """根据 ``target`` 查找对应的合并文档锚点。"""
+    """根据 ``target`` 查找对应的合并文档锚点。
+
+    支持两种格式：
+    1. 包含 entries/ 的路径：entries/xxx.md, ./entries/xxx.md, ../entries/xxx.md
+    2. 相对路径：xxx.md（假定在 docs/entries/ 目录下）
+    """
 
     stripped = target.strip()
     if not stripped:
         return None
-    index = stripped.find("entries/")
-    if index == -1:
-        return None
 
-    candidate = Path(stripped[index:])
+    # 检查是否包含 "entries/"
+    index = stripped.find("entries/")
+    if index != -1:
+        # 旧格式：使用原有逻辑
+        candidate = Path(stripped[index:])
+    else:
+        # 新格式：相对路径，假定在 docs/entries/ 目录下
+        if not stripped.endswith(".md"):
+            return None
+        # 避免匹配路径中包含 / 的情况（例如 foo/bar.md）
+        if "/" in stripped or "\\" in stripped:
+            return None
+        candidate = Path("docs/entries") / stripped
+
     if candidate.is_absolute():
         return None
 
@@ -270,11 +289,11 @@ def build_cover_page(
 
 
 def _build_directory_from_index(anchor_lookup: Mapping[Path, str]) -> str | None:
-    """尝试以仓库根目录的 ``index.md`` 作为目录页内容。"""
+    """尝试以 ``index.md`` 作为目录页内容。"""
 
-    index_path = PROJECT_ROOT / "index.md"
-    if not index_path.exists():
+    if not INDEX_PATH.exists():
         return None
+    index_path = INDEX_PATH
 
     try:
         raw_content = index_path.read_text(encoding="utf-8")

@@ -57,7 +57,16 @@ except ImportError:  # pragma: no cover
         return text
 
 ROOT = Path(__file__).resolve().parents[1]
+# MkDocs Material 迁移后，优先使用 docs/entries/
+DOCS_ENTRIES_DIR = ROOT / "docs" / "entries"
 ENTRIES_DIR = ROOT / "entries"
+
+# 运行时自动选择
+def get_entries_dir():
+    """获取词条目录，优先使用 MkDocs 版本"""
+    if DOCS_ENTRIES_DIR.exists():
+        return DOCS_ENTRIES_DIR
+    return ENTRIES_DIR
 INDEX_PATH = ROOT / "index.md"
 
 SYN_MAP = {
@@ -720,7 +729,9 @@ def dump_post(post: object) -> str:
 
 
 def select_files(args: argparse.Namespace) -> Tuple[List[Path], List[Path]]:
-    all_files = sorted(ENTRIES_DIR.glob("*.md"))
+    entries_dir = get_entries_dir()
+    print(f"✓ 使用词条目录: {entries_dir.relative_to(ROOT)}")
+    all_files = sorted(entries_dir.glob("*.md"))
     if args.only:
         targets = [ROOT / Path(p) for p in args.only]
     else:

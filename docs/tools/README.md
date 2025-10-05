@@ -2,6 +2,16 @@
 
 > 本目录用于集中维护仓库中各类自动化脚本的说明与使用示例，便于在 README 与 docs 之间保持一致。
 
+**重要更新**：本项目已从 Docsify 迁移至 MkDocs Material，部分工具的文件路径和使用方式有所调整。
+
+## 🔄 迁移后的关键变更
+
+- **词条目录**：从 `entries/` 迁移至 `docs/entries/`（保留根目录 `entries/` 作为同步备份）
+- **文档文件**：统一放置在 `docs/` 目录（`README.md`, `CONTRIBUTING.md`, `tags.md`, `Glossary.md` 等）
+- **静态资源**：从 `assets/` 迁移至 `docs/assets/`
+- **构建系统**：使用 `mkdocs build` 替代 Docsify
+- **本地预览**：推荐使用 `mkdocs serve` 替代 `docsify serve` 或 `http.server`
+
 ## 工具概览
 
 ### 核心处理器模块(重构后)
@@ -230,7 +240,7 @@ markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor
 ### 词条最后更新时间索引
 
 - `scripts/gen-last-updated.mjs` 会遍历 `entries/` 下的所有 Markdown 词条，读取 Git 最后提交时间与提交哈希，并生成 `assets/last-updated.json` 索引文件；
-- GitHub Actions 工作流 [`.github/workflows/last-updated.yml`](../../.github/workflows/last-updated.yml) 在推送 `main` 分支或手动触发时自动运行上述脚本并提交最新索引；
+- GitHub Actions 工作流 `.github/workflows/last-updated.yml` 在推送 `main` 分支或手动触发时自动运行上述脚本并提交最新索引；
 - 前端在 `index.html` 内置 Docsify 插件，会在每篇词条标题下渲染形如 `🕒 最后更新：2025/10/02 12:34:56（abc1234）` 的提示；
 - `tools/pdf_export/` 的导出流程同样会读取该索引，并在离线 PDF 中展示相同的最后更新时间提示；
 - 如需强制刷新缓存，可重新触发工作流或在部署平台清除静态资源缓存。
