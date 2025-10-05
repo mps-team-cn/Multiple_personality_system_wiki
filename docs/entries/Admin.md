@@ -68,15 +68,3 @@ Pluralpedia. (2024). _Admin_. [https://pluralpedia.org/w/Admin](https://pluralpe
 [^PluralpediaAdmin]: Pluralpedia. (2024). _Admin_. [https://pluralpedia.org/w/Admin](https://pluralpedia.org/w/Admin)
 [^Kluft1985]: Kluft, R. P. (1985). The "Inner Self Helper" in multiple personality disorder. _International Journal of Clinical and Experimental Hypnosis, 33_(3), 198–221. [https://doi.org/10.1080/00207148508407277](https://doi.org/10.1080/00207148508407277)
 [^Loewenstein1993]: Loewenstein, R. J. (1993). Diagnosis, epidemiology, clinical course, and treatment of multiple personality disorder. _Psychiatric Clinics of North America, 16_(3), 543–570.
-
-## 定义
-
-（待补充）
-
-## 核心特征
-
-（待补充）
-
-## 干预
-
-（待补充）

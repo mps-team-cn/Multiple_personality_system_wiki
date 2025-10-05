@@ -42,18 +42,6 @@ updated: 2025-10-03
 
 ## 参考与延伸阅读
 
-[^alterhuman-wiki]: Alterhuman Wiki. 2022. “Alterhuman.” [https://alterhuman.org/wiki/alterhuman.](https://alterhuman.org/wiki/alterhuman.)
-[^alterhuman-portal]: Alterhumanity Portal. 2021. “What Does ‘Alterhuman’ Mean?” [https://alterhumanity.ink/definition.](https://alterhumanity.ink/definition.)
-[^laycock2021]: Laycock, J. 2021. “The New Other: Identity and Community in Alterhuman Networks.” *Journal of Contemporary Religion* 36(3): 403–420.
-
-## 定义
-
-（待补充）
-
-## 鉴别
-
-（待补充）
-
-## 干预
-
-（待补充）
+[^alterhuman-wiki]: Alterhuman Wiki. 2022. "Alterhuman." [https://alterhuman.org/wiki/alterhuman.](https://alterhuman.org/wiki/alterhuman.)
+[^alterhuman-portal]: Alterhumanity Portal. 2021. "What Does 'Alterhuman' Mean?" [https://alterhumanity.ink/definition.](https://alterhumanity.ink/definition.)
+[^laycock2021]: Laycock, J. 2021. "The New Other: Identity and Community in Alterhuman Networks." *Journal of Contemporary Religion* 36(3): 403–420.

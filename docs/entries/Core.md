@@ -56,18 +56,6 @@ _本词条包含需要及时更新的即时内容或含有目前仍不能确定�
 
 ## 参考与延伸阅读
 
-[^pluralpedia-core]: Pluralpedia. 2023. “Core.” [https://pluralpedia.org/w/Core.](https://pluralpedia.org/w/Core.)
-[^crisses2020]: The Crisses. 2020. “Median Systems & Terminology.” *Kinhost.org*. [https://kinhost.org/Main/MedianSystems.](https://kinhost.org/Main/MedianSystems.)
-[^brown2020]: Brown, R., & Cardeña, E. 2020. “Functional Multiplicity and Role Negotiation in Plural Communities.” *Journal of Trauma & Dissociation* 21(5): 542–560.
-
-## 定义
-
-（待补充）
-
-## 鉴别
-
-（待补充）
-
-## 干预
-
-（待补充）
+[^pluralpedia-core]: Pluralpedia. 2023. "Core." [https://pluralpedia.org/w/Core.](https://pluralpedia.org/w/Core.)
+[^crisses2020]: The Crisses. 2020. "Median Systems & Terminology." *Kinhost.org*. [https://kinhost.org/Main/MedianSystems.](https://kinhost.org/Main/MedianSystems.)
+[^brown2020]: Brown, R., & Cardeña, E. 2020. "Functional Multiplicity and Role Negotiation in Plural Communities." *Journal of Trauma & Dissociation* 21(5): 542–560.

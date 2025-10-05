@@ -41,17 +41,5 @@ updated: 2025-10-03
 
 ## 参考与延伸阅读
 
-[^fauxmain-pluralpedia]: Pluralpedia. 2023. “Fauxmain.” [https://pluralpedia.org/w/Fauxmain.](https://pluralpedia.org/w/Fauxmain.)
-[^kinhost-median]: The Crisses. 2020. “Median Systems & Terminology.” *Kinhost.org*. [https://kinhost.org/Main/MedianSystems.](https://kinhost.org/Main/MedianSystems.)
-
-## 定义
-
-（待补充）
-
-## 鉴别
-
-（待补充）
-
-## 干预
-
-（待补充）
+[^fauxmain-pluralpedia]: Pluralpedia. 2023. "Fauxmain." [https://pluralpedia.org/w/Fauxmain.](https://pluralpedia.org/w/Fauxmain.)
+[^kinhost-median]: The Crisses. 2020. "Median Systems & Terminology." *Kinhost.org*. [https://kinhost.org/Main/MedianSystems.](https://kinhost.org/Main/MedianSystems.)

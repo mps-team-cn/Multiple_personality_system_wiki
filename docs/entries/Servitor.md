@@ -45,16 +45,4 @@ updated: 2025-10-03
 
 ## 参考与延伸阅读
 
-[^servitor-guide]: Kovi. 2017. “Servitor Creation Guide.” *tulpa.io*. [https://tulpa.io/servitor-creation-guide.](https://tulpa.io/servitor-creation-guide.)
-
-## 定义
-
-（待补充）
-
-## 鉴别
-
-（待补充）
-
-## 干预
-
-（待补充）
+[^servitor-guide]: Kovi. 2017. "Servitor Creation Guide." *tulpa.io*. [https://tulpa.io/servitor-creation-guide.](https://tulpa.io/servitor-creation-guide.)
