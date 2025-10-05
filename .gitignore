@@ -2,6 +2,7 @@ tectonic.exe
 tools/pdf_export/pdf_export/__pycache__/*
 *.pdf
 *.log
+.claude
 .obsidian/app.json
 .obsidian/appearance.json
 .obsidian/core-plugins.json
