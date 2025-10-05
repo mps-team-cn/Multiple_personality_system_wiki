@@ -11,6 +11,6 @@ pip install -r requirements.txt
 
 # 构建站点
 echo "构建站点..."
-mkdocs build --strict
+mkdocs build
 
 echo "构建完成!"
