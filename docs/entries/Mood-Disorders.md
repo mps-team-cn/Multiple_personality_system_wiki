@@ -9,6 +9,7 @@ tags:
 - 多重意识体
 - 解离
 - 创伤
+topic: 心理学与理论
 title: 情感障碍（Mood Disorders）
 updated: 2025-10-05
 ---

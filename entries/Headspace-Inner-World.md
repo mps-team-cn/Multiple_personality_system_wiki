@@ -3,6 +3,7 @@ tags:
 - 多重意识体
 - 解离
 - 创伤
+topic: 系统体验与机制
 title: 内部空间（Headspace / Inner World）
 updated: 2025-10-03
 ---

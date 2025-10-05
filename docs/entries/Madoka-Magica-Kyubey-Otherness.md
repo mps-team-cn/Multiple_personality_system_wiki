@@ -3,6 +3,7 @@ tags:
 - 多重意识体
 - 解离
 - 创伤
+topic: 文化与影视
 title: 《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）
 updated: 2025-10-03
 ---

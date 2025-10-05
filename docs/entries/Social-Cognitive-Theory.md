@@ -7,6 +7,7 @@ tags:
 - 多重意识体
 - 解离
 - 创伤
+topic: 心理学与理论
 title: 社会认知理论（Social-Cognitive Theory）
 updated: 2025-10-05
 ---

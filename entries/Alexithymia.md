@@ -8,6 +8,7 @@ tags:
 - 述情障碍
 - 多重意识体
 - 解离
+topic: 诊断与临床
 title: 述情障碍（Alexithymia）
 updated: 2025-10-03
 ---

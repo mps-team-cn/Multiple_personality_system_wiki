@@ -3,6 +3,7 @@ tags:
 - 解离
 - 多重意识体
 - 创伤
+topic: 系统体验与机制
 title: 醉酒解离（Alcohol-Induced Dissociation）
 updated: 2025-10-03
 ---

@@ -3,6 +3,7 @@ tags:
 - 多重意识体
 - 解离
 - 创伤
+topic: 文化与影视
 title: 陀思妥耶夫斯基《双重人格》（The Double）与自我分裂
 updated: 2025-10-03
 ---

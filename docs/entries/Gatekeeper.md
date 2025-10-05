@@ -1,8 +1,8 @@
 ---
 tags:
-- '3.0'
 - 多重意识体
 - 解离
+topic: 系统角色与类型
 title: 守门人（Gatekeeper）
 updated: 2025-10-03
 ---

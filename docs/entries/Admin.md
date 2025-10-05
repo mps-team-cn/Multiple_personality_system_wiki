@@ -4,9 +4,8 @@ synonyms:
 - 管理员
 - admin
 tags:
-- '3.0'
-- 管理员
 - 多重意识体
+topic: 系统角色与类型
 title: 管理者（Admin）
 updated: 2025-10-03
 ---

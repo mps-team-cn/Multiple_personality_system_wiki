@@ -7,6 +7,7 @@ tags:
 - 解离
 - 多重意识体
 - 创伤
+topic: 心理学与理论
 title: 防御性解离（Defensive Dissociation）
 updated: 2025-10-05
 ---

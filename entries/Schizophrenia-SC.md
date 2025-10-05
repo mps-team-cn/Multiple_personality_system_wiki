@@ -3,6 +3,7 @@ tags:
 - 多重意识体
 - 解离
 - 创伤
+topic: 诊断与临床
 title: 精神分裂症（Schizophrenia，SC）
 updated: 2025-10-03
 ---

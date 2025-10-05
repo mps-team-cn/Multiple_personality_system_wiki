@@ -6,6 +6,7 @@ tags:
 - 适应型
 - 多重意识体
 - 解离
+topic: 系统角色与类型
 title: 适应型（Adaptive）
 updated: 2025-10-03
 ---

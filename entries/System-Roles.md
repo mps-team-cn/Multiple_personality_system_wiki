@@ -3,6 +3,7 @@ tags:
 - 多重意识体
 - 解离
 - 创伤
+topic: 系统角色与类型
 title: 人格职能（System Roles）
 updated: 2025-10-03
 ---

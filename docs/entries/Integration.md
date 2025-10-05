@@ -3,6 +3,7 @@ tags:
 - 多重意识体
 - 解离
 - 创伤
+topic: 系统体验与机制
 title: 整合（Integration）
 updated: 2025-10-03
 ---

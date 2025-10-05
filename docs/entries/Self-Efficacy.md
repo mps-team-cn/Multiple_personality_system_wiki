@@ -7,6 +7,7 @@ tags:
 - 多重意识体
 - 解离
 - 创伤
+topic: 心理学与理论
 title: 自我效能感（Self-Efficacy）
 updated: 2025-10-05
 ---

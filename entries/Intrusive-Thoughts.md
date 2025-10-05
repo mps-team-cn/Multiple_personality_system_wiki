@@ -6,9 +6,10 @@ synonyms:
 - intrusive thoughts
 - intrusive thinking
 tags:
-- 创伤后应激障碍_PTSD
+- PTSD
 - 多重意识体
 - 解离
+topic: 系统体验与机制
 title: 侵入性思维（Intrusive Thoughts）
 updated: 2025-10-05
 ---

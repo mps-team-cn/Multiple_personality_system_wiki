@@ -1,9 +1,10 @@
 ---
 tags:
 - 解离
-- 解离性身份障碍_DID
-- 其他特定解离性障碍_OSDD
+- DID
+- OSDD
 - DPDR
+topic: 系统体验与机制
 title: 解离（Dissociation）
 updated: 2025-10-05
 ---

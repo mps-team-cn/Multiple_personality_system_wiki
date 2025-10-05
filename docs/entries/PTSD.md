@@ -7,9 +7,10 @@ synonyms:
 - PTSD
 - chuangshanghouyingjizhangai
 tags:
-- 创伤后应激障碍_PTSD
+- PTSD
 - 多重意识体
 - 解离
+topic: 诊断与临床
 title: 创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）
 updated: 2025-10-03
 ---
