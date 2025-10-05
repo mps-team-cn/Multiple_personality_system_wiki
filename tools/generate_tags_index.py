@@ -78,7 +78,11 @@ def main() -> int:
             if document.path in seen_paths:
                 continue
             seen_paths.add(document.path)
-            relative = document.path.relative_to(REPO_ROOT).as_posix()
+            # 对于 MkDocs，链接路径相对于 docs/ 目录
+            if DOCS_ENTRIES_DIR.exists():
+                relative = document.path.relative_to(REPO_ROOT / "docs").as_posix()
+            else:
+                relative = document.path.relative_to(REPO_ROOT).as_posix()
             lines.append(f"- [{document.title}]({relative})")
 
         lines.append("")
