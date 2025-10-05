@@ -4,7 +4,7 @@ retag_and_related.py
 批量维护词条标签与“相关条目”区块。
 
 功能：
-1. 解析 entries/**/*.md Frontmatter 与正文。
+1. 解析 entries/*.md Frontmatter 与正文。
 2. 基于标题、定义、同义词等信息重新生成归一化标签。
 3. 根据标签重叠与语义相似度计算相关条目，更新“## 相关条目”区块。
 4. 提供 --dry-run / --limit / --only / --since 参数控制执行范围。
@@ -58,6 +58,7 @@ except ImportError:  # pragma: no cover
 
 ROOT = Path(__file__).resolve().parents[1]
 ENTRIES_DIR = ROOT / "entries"
+INDEX_PATH = ROOT / "index.md"
 
 SYN_MAP = {
     "多重人格": "多意识体",
@@ -240,6 +241,39 @@ ALLOWED_ASCII_TAGS = {
 CHINESE_RE = re.compile(r"[\u4e00-\u9fff]")
 ASCII_RE = re.compile(r"[A-Za-z]")
 
+INDEX_SECTION_SKIP_TAGS = {"未分类"}
+
+
+def _load_index_section_tags() -> Dict[Path, str]:
+    mapping: Dict[Path, str] = {}
+    if not INDEX_PATH.exists():
+        return mapping
+    current_section: str | None = None
+    pattern = re.compile(r"\((entries/[^)]+)\)")
+    raw_text = INDEX_PATH.read_text(encoding="utf-8")
+    for raw_line in raw_text.splitlines():
+        stripped = raw_line.strip()
+        if not stripped:
+            continue
+        if stripped.startswith("## "):
+            section = stripped[3:].strip()
+            current_section = section or None
+            continue
+        if not stripped.startswith("-"):
+            continue
+        match = pattern.search(stripped)
+        if not match:
+            continue
+        rel = Path(match.group(1))
+        if rel.suffix.lower() != ".md":
+            continue
+        mapping[rel] = current_section or ""
+    return mapping
+
+
+INDEX_SECTION_TAGS = _load_index_section_tags()
+ENGLISH_TITLE_RE = re.compile(r"[A-Za-z][A-Za-z0-9\- /]*")
+
 PRIMARY_TAG_PRIORITY = {
     "多重意识体": 10,
     "解离": 9,
@@ -276,6 +310,15 @@ class PostRecord:
     title: str
     tags: List[str]
     tokens: Counter
+
+
+def english_title_key(record: PostRecord) -> str:
+    matches = ENGLISH_TITLE_RE.findall(record.title or "")
+    if matches:
+        english = " ".join(matches).strip()
+        if english:
+            return english.lower()
+    return record.path.stem.lower()
 
 
 def _format_frontmatter_line(key: str, value: object) -> str:
@@ -495,7 +538,7 @@ def extract_synonym_line(line: str) -> Iterable[str]:
             yield cleaned
 
 
-def collect_candidates(post: frontmatter.Post) -> Dict[str, float]:
+def collect_candidates(post: frontmatter.Post, rel_path: Path) -> Dict[str, float]:
     candidates: Dict[str, float] = defaultdict(float)
 
     def add_candidate(raw: object, weight: float = 1.0, source: str = "generic") -> None:
@@ -562,6 +605,10 @@ def collect_candidates(post: frontmatter.Post) -> Dict[str, float]:
     for word, weight in extract_keyword_candidates(summary_segment, top_k=15):
         add_candidate(word, weight, source="keyword")
 
+    index_tag = INDEX_SECTION_TAGS.get(rel_path)
+    if index_tag and index_tag not in INDEX_SECTION_SKIP_TAGS:
+        add_candidate(index_tag, 4.0, source="index_section")
+
     for tag, priority in PRIMARY_TAG_PRIORITY.items():
         if tag in candidates:
             candidates[tag] += priority
@@ -569,8 +616,8 @@ def collect_candidates(post: frontmatter.Post) -> Dict[str, float]:
     return candidates
 
 
-def pick_tags(post: frontmatter.Post) -> List[str]:
-    candidates = collect_candidates(post)
+def pick_tags(post: frontmatter.Post, rel_path: Path) -> List[str]:
+    candidates = collect_candidates(post, rel_path)
     sorted_tags = sorted(
         candidates.items(), key=lambda item: (item[1], item[0]), reverse=True
     )
@@ -614,7 +661,12 @@ def compute_related(
             continue
         results.append((other_path, score))
 
-    results.sort(key=lambda item: item[1], reverse=True)
+    results.sort(
+        key=lambda item: (
+            -item[1],
+            english_title_key(all_posts[item[0]]),
+        )
+    )
     if len(results) < 2:
         # 放宽条件，保留得分最高的若干条
         all_sorted = sorted(
@@ -667,7 +719,7 @@ def dump_post(post: object) -> str:
 
 
 def select_files(args: argparse.Namespace) -> Tuple[List[Path], List[Path]]:
-    all_files = sorted(ENTRIES_DIR.rglob("*.md"))
+    all_files = sorted(ENTRIES_DIR.glob("*.md"))
     if args.only:
         targets = [ROOT / Path(p) for p in args.only]
     else:
@@ -707,10 +759,10 @@ def process(args: argparse.Namespace) -> None:
 
     for path in all_files:
         post = load_markdown(path)
-        tags = pick_tags(post)
+        rel_path = path.relative_to(ROOT)
+        tags = pick_tags(post, rel_path)
         title = str(post.metadata.get("title", path.stem))
         tokens = tokenize_for_similarity(title + "\n" + post.content)
-        rel_path = path.relative_to(ROOT)
         record = PostRecord(path=rel_path, title=title, tags=tags, tokens=tokens)
         records[rel_path] = record
 
