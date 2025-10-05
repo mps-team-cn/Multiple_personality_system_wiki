@@ -7,13 +7,8 @@
 
 <!-- trigger-warning:start -->
 <div class="trigger-warning-card">
-  <img
-    src="./assets/trigger-warning.svg"
-    alt="触发警告"
-    class="trigger-warning-card__icon"
-  />
   <p class="trigger-warning-card__text">
-    <strong>触发警告：</strong>本节条目涉及创伤、精神健康等敏感主题，可能唤起不适回忆，请在安全状态下阅读并注意自我照顾。
+    ⚠️ <strong>触发警告：</strong>本节条目涉及创伤、精神健康等敏感主题，可能唤起不适回忆，请在安全状态下阅读并注意自我照顾。
   </p>
 </div>
 <!-- trigger-warning:end -->

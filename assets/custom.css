@@ -391,30 +391,21 @@ button, .cover .buttons a{
 
 /* 触发警告卡片 */
 .trigger-warning-card{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 14px;
-  padding: 12px 14px;
+  padding: 0.6em 1em;
   margin: 0 0 1.2rem;
   border-radius: var(--radius);
   border: 1px solid color-mix(in oklab, #F97316 28%, transparent);
   background: color-mix(in oklab, #F97316 8%, var(--c-card));
   box-shadow: 0 8px 22px rgba(249, 115, 22, 0.12);
-  text-align: center;
-}
-
-.trigger-warning-card__icon{
-  width: 40px;
-  height: 40px;
-  flex-shrink: 0;
+  text-align: left;
 }
 
 .trigger-warning-card__text{
-  margin: 0;
+  margin: 0 !important;
+  padding: 0;
   color: var(--c-text);
   font-size: .95rem;
-  line-height: 1.55;
+  line-height: 1.4;
 }
 
 :root.dark .trigger-warning-card{
@@ -433,7 +424,7 @@ button, .cover .buttons a{
 
 @media (max-width: 640px){
   .trigger-warning-card{
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
   }
 }
