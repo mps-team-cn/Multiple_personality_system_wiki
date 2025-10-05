@@ -25,43 +25,113 @@
 
 ---
 
+## 🛠️ 技术栈
+
+### 前端框架
+
+- **MkDocs Material** - 现代化静态站点生成器
+- **Material Design** - 响应式 UI 组件
+- **Python 3.10+** - 构建环境
+
+### 核心插件
+
+- `mkdocs-material` - Material Design 主题
+- `mkdocs-git-revision-date-localized-plugin` - 自动获取 Git 更新时间
+- `mkdocs-minify-plugin` - HTML/CSS/JS 压缩
+- `mkdocs-glightbox` - 图片灯箱效果
+- `pymdown-extensions` - Markdown 增强扩展
+
+### 自动化工具
+
+- **Python** - 内容处理、索引生成、校验
+- **GitHub Actions** - CI/CD 自动化
+- **Cloudflare Pages** - 静态站点托管
+
+---
+
 ## 📦 仓库结构
 
 ```ini
 plurality_wiki/
-├─ README.md                  # 开发者说明
-├─ CONTRIBUTING.md            # 贡献指南
-├─ index.html                 # Docsify 入口
-├─ _sidebar.md / _navbar.md   # Docsify 导航配置
-├─ 404.html / _404.md         # 404 页面（HTML + Markdown 版）
-├─ Main_Page.html             # 旧版主页面（保留历史内容）
-├─ Glossary.md                # 术语表
-├─ Preface.md                 # 前言
-├─ index.md                   # 全局目录索引
-├─ changelog.md               # 版本更新记录
-├─ docs/                      # 贡献流程补充文档与自动报告
-│  ├─ ADMIN_GUIDE.md
-│  ├─ GITHUB_WORKFLOW.md
-│  ├─ TEMPLATE_ENTRY.md
-│  ├─ VALIDATION_REPORT.md    # 校对与审核记录（脚本生成）
-│  └─ tools/...
-├─ entries/                   # 词条正文（全部放在根目录，依靠 Frontmatter tags 分类）
-├─ tags.md                    # 按标签自动生成的索引页
-├─ assets/                    # 静态资源与 last-updated.json
+├─ README.md                     # 开发者说明
+├─ CONTRIBUTING.md               # 贡献指南
+├─ mkdocs.yml                    # MkDocs 配置文件
+├─ requirements-mkdocs.txt       # Python 依赖清单
+├─ requirements.txt              # 工具依赖清单
+├─ .cfpages-build.sh             # Cloudflare Pages 构建脚本
+├─ .gitignore                    # Git 忽略配置
+├─ .markdownlint*                # Markdown 规范配置
+│
+├─ docs/                         # MkDocs 文档目录
+│  ├─ index.md                   # 首页（Material 风格）
+│  ├─ README.md                  # 关于本站
+│  ├─ CONTRIBUTING.md            # 贡献指南（站点版本）
+│  ├─ Preface.md                 # 前言
+│  ├─ Glossary.md                # 术语表
+│  ├─ tags.md                    # 标签索引
+│  ├─ changelog.md               # 变更日志
+│  │
+│  ├─ entries/                   # 词条正文（142+ 个 Markdown 文件）
+│  │
+│  ├─ assets/                    # 静态资源
+│  │  ├─ extra-material.css      # Material 主题样式
+│  │  ├─ extra.js                # 自定义脚本
+│  │  ├─ favicon.svg             # 站点图标
+│  │  └─ last-updated.json       # 词条更新时间索引
+│  │
+│  ├─ dev/                       # 开发文档
+│  │  ├─ README.md               # 开发文档索引
+│  │  ├─ AGENTS.md               # 贡献与开发约定
+│  │  ├─ CLOUDFLARE_PAGES.md    # Cloudflare Pages 部署说明
+│  │  ├─ MIGRATION_REPORT.md    # Docsify → MkDocs 迁移报告
+│  │  ├─ HOMEPAGE_FIX.md        # 首页修复记录
+│  │  ├─ THEME_GUIDE.md         # 主题配置指南
+│  │  ├─ CSS_GUIDE.md           # 样式开发指南
+│  │  └─ INDEX_GUIDE.md         # 索引配置指南
+│  │
+│  ├─ tools/                     # 工具文档
+│  │  └─ README.md               # 工具使用说明
+│  │
+│  ├─ ADMIN_GUIDE.md             # 维护者手册
+│  ├─ GITHUB_WORKFLOW.md         # GitHub 提交流程
+│  ├─ TEMPLATE_ENTRY.md          # 词条模板
+│  └─ VALIDATION_REPORT.md       # 校对报告（脚本生成）
+│
+├─ legacy/                       # Docsify 旧版文件存档
+│  ├─ README.md                  # 旧版文件说明
+│  ├─ index.html                 # Docsify 入口
+│  ├─ index.md                   # Docsify 首页
+│  ├─ _sidebar.md                # Docsify 侧边栏
+│  ├─ _navbar.md                 # Docsify 导航栏
+│  └─ ...                        # 其他 Docsify 文件
+│
+├─ releases/                     # 历史 PDF 版本存档
+│  ├─ README.md                  # 版本说明
+│  └─ 多意识体wiki v_*.pdf       # 历史版本 PDF
+│
+├─ entries/                      # 原始词条目录（与 docs/entries/ 同步）
+│
+├─ tools/                        # 本地维护工具
+│  ├─ core/                      # 核心共享模块
+│  ├─ processors/                # 内容处理器
+│  ├─ generators/                # 生成器模块
+│  ├─ validators/                # 校验器模块
+│  ├─ cli/                       # CLI 接口
+│  ├─ gen-validation-report.py   # 校验词条结构
+│  ├─ fix_md.py                  # Markdown 自动修复
+│  ├─ generate_tags_index.py     # 生成标签索引
+│  ├─ check_links.py             # 链接检查
+│  └─ pdf_export/                # PDF 导出工具
+│
 ├─ scripts/
-│  └─ gen-last-updated.mjs    # 更新词条时间索引
-├─ tools/                     # 本地维护工具
-│  ├─ gen-validation-report.py # 校验词条结构并生成报告
-│  ├─ fix_md.py               # Markdown 自动修复脚本
-│  └─ pdf_export/...
-├─ .github/
-│  ├─ ISSUE_TEMPLATE/
-│  ├─ PULL_REQUEST_TEMPLATE.md
-│  └─ workflows/
-│     ├─ docs_quality.yml     # Markdown/链接检查 CI
-│     └─ last-updated.yml     # 自动生成 last-updated.json
-├─ AGENTS.md                  # 贡献与开发约定
-└─ ignore.md、.nojekyll、.markdownlint* 等配置文件
+│  └─ gen-last-updated.mjs       # 更新词条时间索引
+│
+└─ .github/
+   ├─ ISSUE_TEMPLATE/
+   ├─ PULL_REQUEST_TEMPLATE.md
+   └─ workflows/
+      ├─ docs_quality.yml        # Markdown/链接检查 CI
+      └─ last-updated.yml        # 自动生成 last-updated.json
 ```
 
 ---
@@ -76,23 +146,52 @@ plurality_wiki/
 
 ---
 
-## 🚀 本地预览
+## 🚀 本地开发
 
-### A. 任意静态服务器
+### 环境准备
 
 ```bash
-python -m http.server 4173
 
-# http://localhost:4173
+# 1. 安装 Python 依赖
+
+pip install -r requirements-mkdocs.txt
+
+# 2. 本地预览（支持热重载）
+
+mkdocs serve
+
+# 访问 http://127.0.0.1:8000
 
 ```
 
-### B. docsify
+### 构建静态站点
 
 ```bash
+
+# 构建到 site/ 目录
+
+mkdocs build
+
+# 严格模式构建（有警告则失败）
+
+mkdocs build --strict
+```
+
+### 旧版 Docsify 预览（已弃用）
+
+```bash
+
+# 方式 A: 简单 HTTP 服务器
+
+python -m http.server 4173
+
+# 方式 B: Docsify CLI
+
 npm i -g docsify-cli
 docsify serve .
 ```
+
+**注意**：推荐使用 MkDocs Material 版本，Docsify 版本仅作备份保留。
 
 ---
 
@@ -107,14 +206,66 @@ docsify serve .
 ### 提交流程（简要）
 
 1. Fork & 新建分支；
-2. 按规范撰写/修改，**同步更新 tags.md（运行 `python tools/generate_tags_index.py`）、index.md 与交叉链接**；
-3. 本地执行 `python tools/fix_md.py` 与 `markdownlint`；
-4. 提交 PR，等待 Review。
+2. 按规范撰写/修改词条到 `docs/entries/` 目录；
+3. **同步更新索引**：
+   - 运行 `python tools/generate_tags_index.py` 生成标签索引
+   - 更新 `docs/index.md` 导航（如需要）
+4. **本地验证**：
+   - 执行 `python tools/fix_md.py` 自动修复格式
+   - 执行 `markdownlint "docs/**/*.md"` 检查
+   - 运行 `mkdocs serve` 本地预览
+5. 提交 PR，等待 Review。
+
+---
+
+## 🚀 部署
+
+### Cloudflare Pages
+
+详细配置请查看 [CLOUDFLARE_PAGES.md](docs/dev/CLOUDFLARE_PAGES.md)。
+
+**快速配置**：
+
+```yaml
+
+# 构建配置
+
+Build command: bash .cfpages-build.sh
+Build output directory: site
+Environment variables: PYTHON_VERSION=3.11
+```
+
+### GitHub Pages（备选）
+
+```bash
+
+# 构建并推送到 gh-pages 分支
+
+mkdocs gh-deploy
+```
 
 ---
 
 ## 🗺️ 路线图（Roadmap）
 
+### 已完成 ✅
+
 - [x] 基础 CI（Markdown lint/链接检查）
-- [ ] 样式统一与模板完善
-- [ ] 前端页面优化与跳转修复
+- [x] 前端框架迁移（Docsify → MkDocs Material）
+- [x] 响应式设计与移动端优化
+- [x] 深色模式支持
+- [x] 搜索功能增强
+- [x] 自动化工具重构（tools/ 目录模块化）
+
+### 进行中 🚧
+
+- [ ] 完善文档更新（README、AGENTS、CONTRIBUTING 等）
+- [ ] Cloudflare Pages 部署配置
+- [ ] 本地测试验证
+
+### 计划中 📋
+
+- [ ] 多版本文档支持（使用 mike）
+- [ ] 评论系统集成（Giscus）
+- [ ] PWA 离线访问支持
+- [ ] 性能优化（图片压缩、CDN 加速）

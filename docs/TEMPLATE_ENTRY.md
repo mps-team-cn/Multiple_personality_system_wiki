@@ -120,8 +120,9 @@ _如有触发风险，请谨慎阅读。_
 
 ## 相关条目
 
-- [相关条目 A](entries/xxx.md)
-- [相关条目 B](entries/yyy.md)
+<!-- 示例：列出相关词条的链接 -->
+<!-- - [解离（Dissociation）](entries/Dissociation.md) -->
+<!-- - [解离性身份障碍（DID）](entries/DID.md) -->
 
 ---
 

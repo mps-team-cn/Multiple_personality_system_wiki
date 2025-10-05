@@ -15,18 +15,30 @@ if str(REPO_ROOT) not in sys.path:
 from tools.pdf_export.pdf_export.frontmatter import FrontmatterError, load_entry_document
 
 
+# MkDocs Material 迁移后，优先使用 docs/entries/，保留 entries/ 作为备份
+DOCS_ENTRIES_DIR = REPO_ROOT / "docs" / "entries"
 ENTRIES_DIR = REPO_ROOT / "entries"
+DOCS_OUTPUT_PATH = REPO_ROOT / "docs" / "tags.md"
 OUTPUT_PATH = REPO_ROOT / "tags.md"
 
 
 def main() -> int:
-    if not ENTRIES_DIR.exists():
-        print("未找到 entries/ 目录。", file=sys.stderr)
+    # 优先使用 docs/entries/，如果不存在则回退到 entries/
+    if DOCS_ENTRIES_DIR.exists():
+        entries_dir = DOCS_ENTRIES_DIR
+        output_path = DOCS_OUTPUT_PATH
+        print(f"[OK] 使用 MkDocs 词条目录: {entries_dir}")
+    elif ENTRIES_DIR.exists():
+        entries_dir = ENTRIES_DIR
+        output_path = OUTPUT_PATH
+        print(f"[WARN] 回退到旧版词条目录: {entries_dir}")
+    else:
+        print("未找到 entries/ 或 docs/entries/ 目录。", file=sys.stderr)
         return 1
 
     tag_map: dict[str, list] = defaultdict(list)
 
-    for path in sorted(ENTRIES_DIR.glob("*.md")):
+    for path in sorted(entries_dir.glob("*.md")):
         try:
             document = load_entry_document(path)
         except FrontmatterError as error:
@@ -42,18 +54,12 @@ def main() -> int:
 
     lines: list[str] = ["# 标签索引", ""]
 
-    # 自定义排序：核心标签 -> 临床诊断 -> 其他标签
+    # 自定义排序：先核心主题，再临床诊断，最后其他
     def tag_sort_key(tag: str) -> tuple:
-        # 核心标签（按重要性排序）
+        # 核心主题标签
         core_tags = ["多重意识体", "解离", "创伤"]
-
-        # 临床诊断标签（按字母/缩写排序）
-        clinical_tags = [
-            "解离性身份障碍_DID", "其他特定解离障碍_OSDD",
-            "创伤后应激障碍_PTSD", "CPTSD",
-            "注意力缺陷多动障碍_ADHD", "BPD", "NPD",
-            "DPDR", "SSD", "ANP", "EP"
-        ]
+        # 临床诊断标签（缩写）
+        clinical_tags = ["DID", "OSDD", "PTSD", "CPTSD", "ADHD", "BPD", "NPD", "DPDR", "SSD", "ANP", "EP"]
 
         if tag in core_tags:
             return (0, core_tags.index(tag), tag)
@@ -63,7 +69,7 @@ def main() -> int:
             # 其他标签按字母排序
             return (2, 0, tag)
 
-    for tag in sorted(tag_map.keys(), key=tag_sort_key):
+    for tag in sorted(tag_map, key=tag_sort_key):
         lines.append(f"## {tag}")
         lines.append("")
 
@@ -72,14 +78,18 @@ def main() -> int:
             if document.path in seen_paths:
                 continue
             seen_paths.add(document.path)
-            relative = document.path.relative_to(REPO_ROOT).as_posix()
+            # 对于 MkDocs，链接路径相对于 docs/ 目录
+            if DOCS_ENTRIES_DIR.exists():
+                relative = document.path.relative_to(REPO_ROOT / "docs").as_posix()
+            else:
+                relative = document.path.relative_to(REPO_ROOT).as_posix()
             lines.append(f"- [{document.title}]({relative})")
 
         lines.append("")
 
     content = "\n".join(lines).rstrip() + "\n"
-    OUTPUT_PATH.write_text(content, encoding="utf-8")
-    print(f"已生成 {OUTPUT_PATH.relative_to(REPO_ROOT)}")
+    output_path.write_text(content, encoding="utf-8")
+    print(f"[OK] 已生成 {output_path.relative_to(REPO_ROOT)}")
     return 0
 
 
