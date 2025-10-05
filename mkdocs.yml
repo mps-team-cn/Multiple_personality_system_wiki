@@ -1,0 +1,273 @@
+site_name: Plurality Wiki - 多意识体百科
+site_url: https://wiki.pluralitycn.com
+site_description: 多重意识体系统（Plurality）与创伤相关主题的中文知识库
+site_author: 脸脸系统、弦羽系统、暮雨系统及社区贡献者
+repo_url: https://github.com/kuliantnt/plurality_wiki
+repo_name: plurality_wiki
+copyright: Copyright &copy; 2024-2025 Plurality Wiki
+
+theme:
+  name: material
+  language: zh
+  custom_dir: overrides
+
+  # 颜色配置
+  palette:
+    # 浅色模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+
+    # 深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+
+  # 字体配置
+  font:
+    text: Noto Sans SC
+    code: JetBrains Mono
+
+  # 图标
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/book-open-variant
+
+  # 功能特性
+  features:
+    # 导航
+    - navigation.instant          # 即时加载
+    - navigation.instant.prefetch # 预加载
+    - navigation.instant.progress # 显示加载进度
+    - navigation.tracking         # 地址栏跟踪
+    - navigation.tabs             # 顶部标签页
+    - navigation.tabs.sticky      # 固定标签页
+    - navigation.sections         # 导航分组
+    - navigation.expand           # 默认展开导航
+    - navigation.path             # 面包屑导航
+    - navigation.indexes          # 分组索引页
+    - navigation.top              # 返回顶部按钮
+    - navigation.footer           # 页脚导航
+
+    # 目录
+    - toc.follow                  # 目录跟随
+    - toc.integrate               # 目录集成到侧边栏
+
+    # 搜索
+    - search.suggest              # 搜索建议
+    - search.highlight            # 搜索高亮
+    - search.share                # 搜索分享
+
+    # 代码
+    - content.code.copy           # 代码复制按钮
+    - content.code.select         # 代码选择
+    - content.code.annotate       # 代码注释
+
+    # 内容
+    - content.tabs.link           # 内容标签链接
+    - content.tooltips            # 工具提示
+    - content.footnote.tooltips   # 脚注工具提示
+
+    # 其他
+    - announce.dismiss            # 公告可关闭
+
+# 额外配置
+extra:
+  # 社交链接
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kuliantnt/plurality_wiki
+      name: GitHub 仓库
+
+  # 分析
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+    feedback:
+      title: 这个页面有帮助吗?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: 很有帮助
+          data: 1
+          note: >-
+            感谢您的反馈!
+        - icon: material/emoticon-sad-outline
+          name: 有待改进
+          data: 0
+          note: >-
+            感谢您的反馈! 请在
+            <a href="https://github.com/kuliantnt/plurality_wiki/issues" target="_blank" rel="noopener">GitHub</a>
+            提出改进建议。
+
+  # 版本控制
+  version:
+    provider: mike
+
+  # 替代语言
+  alternate:
+    - name: 简体中文
+      link: /
+      lang: zh
+    - name: English
+      link: /en/
+      lang: en
+
+# 额外样式和脚本
+extra_css:
+  - assets/extra.css
+
+extra_javascript:
+  - assets/extra.js
+
+# Markdown 扩展
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      permalink_title: 链接到本节
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: kuliantnt
+      repo: plurality_wiki
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+# 插件
+plugins:
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+      lang:
+        - zh
+        - en
+
+  - tags:
+      tags_file: tags.md
+
+  - git-revision-date-localized:
+      enabled: !ENV [CI, false]
+      enable_creation_date: true
+      type: timeago
+      timezone: Asia/Shanghai
+      locale: zh
+      fallback_to_build_date: true
+
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+      cache_safe: true
+
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      auto_caption: false
+      caption_position: bottom
+
+# 导航结构
+nav:
+  - 首页: index.md
+  - 快速开始:
+    - 关于本站: README.md
+    - 贡献指南: CONTRIBUTING.md
+    - 序言: Preface.md
+  - 词条索引:
+    - 标签索引: tags.md
+    - 术语表: Glossary.md
+    - 所有词条: index.md
+  - 核心概念:
+    - entries/Plurality.md
+    - entries/System.md
+    - entries/Alter.md
+    - entries/DID.md
+    - entries/OSDD.md
+    - entries/Tulpa.md
+  - 系统运作:
+    - entries/Front-Fronting.md
+    - entries/Switch.md
+    - entries/Co-Consciousness.md
+    - entries/Co-Fronting.md
+    - entries/Headspace-Inner-World.md
+    - entries/Internal-Communication.md
+  - 心理健康:
+    - entries/Dissociation.md
+    - entries/PTSD.md
+    - entries/CPTSD.md
+    - entries/Trauma.md
+    - entries/Grounding.md
+  - 文档与工具:
+    - 工具文档: docs/tools/README.md
+    - 前端架构: docs/FRONTEND_ARCHITECTURE.md
+    - 变更日志: changelog.md
+
+# 严格模式
+strict: false
+
+# 开发服务器
+dev_addr: 127.0.0.1:8000
+
+# 文档目录
+docs_dir: docs
+
+# 站点目录
+site_dir: site

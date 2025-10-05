@@ -1,0 +1,61 @@
+---
+tags:
+- 适应型
+- 多重意识体
+- 解离
+title: 埃蒙加德分类法（Emmengard Classification）
+updated: 2025-10-03
+---
+
+# 埃蒙加德分类法（Emmengard Classification）
+
+## 概述
+
+埃蒙加德分类法是多意识体社群中用于描述系统形成来源与发展路径的自我认同框架。该分类最初在 Pluralpedia 等社群资料中整理，旨在帮助系统梳理自身历史、需求与支持策略。分类法并非医学诊断或严格的科学分型，而是一组开放的标签，协助系统从经历、实践与信念出发理解自己。
+
+## 使用原则
+
+- **无等级结构**：各标签不存在“优劣”顺序或发展阶段，也不暗示某一类型更健康、更真实或更合法。
+- **主观与流动性**：成员可根据当前理解与体验选择标签；若经历或信息改变，也可以随时调整。
+- **多维度组合**：系统可同时认同多个标签，例如既经历创伤也主动创造成员；分类旨在补充叙事而非限制身份。
+
+## 分类标签
+
+### 适应型（Adaptive）
+
+旧称“创伤型（Traumagenic）”。指系统主要因应对创伤或持续压力而形成，常见于解离性身份障碍（DID）或其他特定解离性障碍（OSDD）的背景中。成员往往在童年或长期创伤情境中，为保护个体或分担功能而产生。详见[《适应型（Adaptive）》](entries/Adaptive.md)以了解形成背景、常见体验与支持建议。
+
+### 自发型（Spontaneous）
+
+指系统并非以创伤为核心成因，而是自然显现、灵性实践或认知演化过程的结果。成员可能在探索意识、冥想或内在成长中自发出现，强调与创伤无直接关联。更多说明可参阅[《自发型（Spontaneous）》](entries/Spontaneous.md)，了解其形成途径与社群讨论重点。
+
+### 创造型（Created）
+
+指系统成员由个体有意创造，例如通过图帕（tulpa）、系魂或角色扮演、幻想构建等练习而形成。此类型强调主动培育与规划，成员身份与功能通常与创造者的目标紧密相关。
+
+### 混合型（Mixed）
+
+指系统融合了多种形成机制：既包含创伤响应形成的成员，也可能有主动构建、灵性或其他来源的成员。混合型强调系统内部来源多样，需要灵活应对不同背景的需求。
+
+### 未知型（Unknown）
+
+指系统暂时无法确定自身形成来源，可能由于记忆缺失、信息不足或仍在探索阶段。选择该标签时，系统承认当前认知的局限，并为未来获取更多理解保留空间。
+
+## 相关条目
+
+- [适应型（Adaptive）](/entries/Adaptive.md)
+- [自发型（Spontaneous）](/entries/Spontaneous.md)
+- [《妄想代理人》（Paranoia Agent）与集体意识的具象化](/entries/Paranoia-Agent-Collective-Consciousness.md)
+- [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](/entries/Madoka-Magica-Kyubey-Otherness.md)
+- [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](/entries/Touhou-Tulpa-Fandom.md)
+- [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](/entries/Nonexistent-You-And-Me-Tulpa-Lilith.md)
+- [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](/entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
+- [洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）](/entries/Lovecraft-Tulpa-Motifs.md)
+
+## 实践建议
+
+- 记录系统历史、重要事件与成员加入时间，便于回顾标签适配性。
+- 与其他系统或社群交流时，可将分类作为对话起点，但避免将其视为唯一答案。
+- 若涉及创伤或临床症状，建议寻求专业支持；分类法的自我理解并不能替代诊断或治疗。
+
+> 📌 **提醒**：埃蒙加德分类法强调自我定义与相互尊重。不同系统的体验各异，选择最贴合自身叙事的标签即可。

@@ -39,3 +39,7 @@ tectonic.exe
 .codex/**/cache/
 .codex/**/logs/
 # === End Codex ===
+
+# MkDocs
+site/
+.mkdocs_cache/
