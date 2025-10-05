@@ -4,7 +4,7 @@
 
 ## 主题导览
 
-- :material-hospital-box: [**诊断与临床**](DSM-ICD-Diagnosis-Index.md) - DSM-5-TR 与 ICD-11 官方诊断标准索引
+- :material-hospital-box: [**诊断与临床**](Clinical-Diagnosis-Guide.md) - 解离、创伤、情绪与人格障碍等临床诊断
 - :material-cog: [**系统运作**](System-Operations.md) - 前台、切换、意识共存等多意识体系统运作机制
 - :material-heart-pulse: [**创伤与疗愈**](Trauma-Healing-Guide.md) - 创伤类型、治疗方法、接地技巧等康复相关内容
 - :material-account-multiple: [**角色与身份**](Roles-Identity-Guide.md) - 宿主、守门人、保护者等系统角色与职能

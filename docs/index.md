@@ -87,7 +87,7 @@
 - [**复杂性 PTSD（CPTSD）**](entries/CPTSD.md) - 长期创伤的深远影响
 - [**解离（Dissociation）**](entries/Dissociation.md) - 一切的基础概念
 
-[:octicons-arrow-right-24: 查看 DSM-5 & ICD-11 诊断索引](DSM-ICD-Diagnosis-Index.md)
+[:octicons-arrow-right-24: 查看诊断与临床导览](Clinical-Diagnosis-Guide.md)
 
 ### :material-account-group: 系统运作与协作
 
