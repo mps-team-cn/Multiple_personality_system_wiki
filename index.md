@@ -103,6 +103,7 @@
 - [去现实化（Derealization）](entries/Derealization.md)
 - [切换（Switch）](entries/Switch.md)
 - [系统（System）](entries/System.md)
+- [子系统（Subsystem）](entries/Subsystem.md)
 - [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](entries/Xianyu-Theory-Niche-Classification.md)
 - [单一类系统（Single-Class Systems, Xianyu Theory）](entries/Single-Class-Systems-Xianyu.md)
 - [混合型系统（Mixed Systems, Xianyu Theory）](entries/Mixed-Systems-Xianyu.md)
