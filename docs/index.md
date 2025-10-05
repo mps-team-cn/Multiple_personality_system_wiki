@@ -5,7 +5,7 @@
 从概念入门到实践工具，我们致力于用中文整理关于多重意识体系统（Plurality）与创伤照护的可靠资料。
 希望这些内容能陪伴你理解自我、照顾伙伴，并与同路人建立连结。
 
-[查看词条索引](tags.md){ .md-button .md-button--primary }
+[查看术语表](Glossary.md){ .md-button .md-button--primary }
 [贡献指南](CONTRIBUTING.md){ .md-button }
 
 ---
