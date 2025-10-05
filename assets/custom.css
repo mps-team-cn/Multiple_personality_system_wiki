@@ -394,7 +394,7 @@ button, .cover .buttons a{
   display: flex;
   align-items: center;
   gap: 14px;
-  padding: 14px 16px;
+  padding: 12px 14px;
   margin: 0 0 1.2rem;
   border-radius: var(--radius);
   border: 1px solid color-mix(in oklab, #F97316 28%, transparent);
@@ -403,15 +403,16 @@ button, .cover .buttons a{
 }
 
 .trigger-warning-card__icon{
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
   flex-shrink: 0;
 }
 
 .trigger-warning-card__text{
   margin: 0;
   color: var(--c-text);
-  line-height: 1.65;
+  font-size: .95rem;
+  line-height: 1.55;
 }
 
 :root.dark .trigger-warning-card{
