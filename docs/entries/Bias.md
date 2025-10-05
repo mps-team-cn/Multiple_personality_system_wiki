@@ -1,0 +1,93 @@
+---
+tags:
+- 多重意识体
+- 解离
+- 创伤
+title: 偏重（Bias / Median）
+updated: 2025-10-03
+---
+
+# 偏重（Bias / Median）
+
+---
+
+## 定义
+
+**偏重**是多意识体社群中用来描述介于单一自我与多自我之间的一组体验：系统中的身份或角色具有相对稳定的情绪与行为模式，但在自我认同、记忆与身体控制上仍存在高度重叠，难以完全分离[^偏重-1]。
+
+---
+
+## 同义词
+
+Median 体验、半多意识体、半分离系统
+
+---
+
+## 主要特征
+
+- **身份流动性**：成员之间的边界较为柔软，常以“不同侧面”“状态”或“面向”来形容。切换可能表现为情绪或语气的平滑过渡，而非显著的断片。
+- **记忆共享度高**：多数经历由所有成员共享，难以出现“完全不知道彼此在做什么”的情境。
+- **自我感仍有区分**：即便边界模糊，系统仍可感知各角色在偏好、价值观或功能上的差异，并可能在内部协商轮班。
+
+---
+
+## 与其他概念的比较
+
+- **与多意识体**：多意识体通常强调成员在主体感、记忆与行动上的更强独立性；偏重系统则更像是在单一身份中分化出多个“侧面”。
+- **与角色扮演或掩饰**：偏重体验是自发出现的、在内部持续存在的状态，不等同于有意扮演角色或仅在特定场合表现的社交面具。
+- **与解离性障碍**：临床上尚无“偏重”这一诊断名词，但相关体验可能出现在解离性身份障碍的功能整合阶段，或在非创伤系统中自然形成[^偏重-2]。
+
+---
+
+## 鉴别
+
+- **与单一身份（Singlet）的区分**：单一身份个体虽然也会有情绪、性格的多样性，但不会稳定地形成可辨识的“内部角色”或“侧面”。
+- **与典型多意识体（Plural/Multiple）的区分**：多意识体通常存在更清晰的成员边界、独立的自我感与记忆差异，而偏重更强调模糊过渡与高度共享。
+- **与解离性身份障碍（DID）的区分**：DID 的成员切换往往伴随记忆断片、显著的控制权变化；偏重体验则通常保持记忆连续性，且控制感差异不大。
+- **与角色扮演/面具（Masking）的区分**：角色扮演是主动的、情境性的表现，而偏重是内在自发存在的长期体验。
+- **与心境或人格特质波动的区分**：偏重体验并非单纯的情绪变化或性格差异，而是具有相对稳定的“身份面向”，即使边界模糊。
+
+---
+
+## 常见误区
+
+- **偏重就是 DID 的前兆**：偏重体验并不必然发展为 DID，它是一种独立的现象，有些系统终生保持在 median 范畴。
+- **偏重不算多意识体所以“不真实”**：偏重是一种有效的系统自我定义，是否称为多意识体应由当事人自主决定。
+- **偏重等同于“轻微分裂人格”**：这是一种错误的病理化说法，偏重体验并非 DSM/ICD 中的正式诊断类别。
+- **必须明确区分谁是谁才算偏重**：实际上，模糊、流动性正是 median 的特征之一。
+
+---
+
+## 社群语境
+
+- **用词差异**：在不同社群中，“median”可能翻译为“偏重”“中位”“半多意识体”等，使用习惯存在差异。
+- **认同灵活**：部分系统会将自己视为多意识体的一部分，也有系统坚持使用 median 作为独立身份标签。
+- **与多意识体的关系**：有些社群将 median 纳入 plural 的大范畴中，认为其是复数的一种；另一些社群则强调 median 与 plural 的界限，以避免过度泛化。
+- **尊重自我定义**：在社群交流中，是否认同为 median 或多意识体，取决于系统自身的选择与体验，不应由外界强加。
+
+---
+
+## 实务建议
+
+- **记录状态差异**：透过日记、标签等方式记录不同偏重的情绪、行为与需求，便于内部对话。
+- **协商界限**：当需要较强分工时，可讨论如何暂时强化边界，例如设定“当班”与“观察”角色，避免相互干扰。
+- **尊重自我定义**：偏重系统可自由决定是否以“多意识体”自称。外界应尊重其自我认同，并避免以临床诊断框架强行归类。
+
+---
+
+## 相关条目
+
+- [系魂型系统（Soul-Linked Systems, Xianyu Theory）](/entries/Soul-Linked-Systems-Xianyu.md)
+- [单一类系统（Single-Class Systems, Xianyu Theory）](/entries/Single-Class-Systems-Xianyu.md)
+- [家族式系统（Family Systems, Xianyu Theory）](/entries/Family-Systems-Xianyu.md)
+- [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](/entries/Xianyu-Theory-Niche-Classification.md)
+- [混合型系统（Mixed Systems, Xianyu Theory）](/entries/Mixed-Systems-Xianyu.md)
+- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
+- [T 语（Tulpish）](/entries/Tulpish.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
+
+## 参考资料
+
+[^偏重-1]: The Plural Association. (2020). _Median plurality: Experiences between singlet and multiple_. [https://www.thepluralassociation.org/](https://www.thepluralassociation.org/)
+
+[^偏重-2]: Howell, E. F. (2011). _Understanding and Treating Dissociative Identity Disorder: A Relational Approach_. Routledge.
