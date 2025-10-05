@@ -230,6 +230,7 @@ nav:
   - 快速开始:
     - 快速入门: QuickStart.md
     - 贡献指南: CONTRIBUTING.md
+    - 更新日志: changelog.md
     - 序言: Preface.md
   - 词条索引:
     - 标签索引: tags.md
@@ -270,10 +271,6 @@ nav:
     - entries/CPTSD.md
     - entries/Trauma.md
     - entries/Grounding.md
-  - 文档与工具:
-    - 工具文档: tools/README.md
-    - 前端架构: FRONTEND_ARCHITECTURE.md
-    - 变更日志: changelog.md
 
 # 严格模式
 strict: false

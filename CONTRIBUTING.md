@@ -228,3 +228,15 @@ ICD-11（6B64）：“…two or more distinct personality states…”（存在�
 ## 9. 模板
 
 请参考[导入模板](docs/TEMPLATE_ENTRY.md)
+
+---
+
+## 10. 开发者文档
+
+如果你需要了解项目的技术实现细节，请查看：
+
+- **[工具文档](tools/README.md)** - 项目工具脚本的使用说明
+- **[前端架构](FRONTEND_ARCHITECTURE.md)** - MkDocs Material 迁移与架构说明
+- **[开发文档目录](docs/dev/)** - 开发过程中的技术笔记和问题记录
+
+这些文档主要面向贡献者和开发者，不包含在主导航中。
