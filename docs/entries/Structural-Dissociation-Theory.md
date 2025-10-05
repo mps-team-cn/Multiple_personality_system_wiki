@@ -10,6 +10,12 @@ updated: 2025-10-04
 
 # 结构性解离理论（Theory of Structural Dissociation）
 
+!!! warning "触发警告"
+    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+
+!!! info "免责声明"
+    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+
 ## 概述
 
 **结构性解离理论**（TSDP）由 Van der Hart、Nijenhuis 与 Steele 等学者提出，用以解释复杂创伤如何导致人格结构沿功能轴裂解成不同子系统。理论认为，创伤事件中的防御与日常功能难以整合，形成彼此相对独立的“表面正常部分”（Apparently Normal Part, ANP）与“情绪化部分”（Emotional Part, EP），并随创伤严重程度分化出不同层级[^结构性解离-1]。
