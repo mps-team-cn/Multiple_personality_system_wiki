@@ -121,8 +121,10 @@ _如有触发风险，请谨慎阅读。_
 ## 相关条目
 
 <!-- 示例：列出相关词条的链接 -->
-<!-- - [解离（Dissociation）](entries/Dissociation.md) -->
-<!-- - [解离性身份障碍（DID）](entries/DID.md) -->
+<!-- 注意：词条之间的链接直接使用文件名，不需要 entries/ 前缀 -->
+<!-- - [解离（Dissociation）](Dissociation.md) -->
+<!-- - [解离性身份障碍（DID）](DID.md) -->
+<!-- - [创伤（Trauma）](Trauma.md) -->
 
 ---
 

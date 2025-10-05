@@ -97,10 +97,11 @@ result = fix_markdown_file("entries/example.md", dry_run=True)
 
 **检查规则:**
 
-- 禁止使用 `./` 或 `../` 相对路径
-- 要求 entries 目录下的链接使用 `entries/*.md` 完整路径
-- 支持根目录白名单文件(如 `index.md`, `CONTRIBUTING.md`)
-- 支持 `docs/` 前缀的文档链接
+- 词条之间的链接：直接使用文件名（如 `DID.md`），无需 `entries/` 前缀
+- 词条链接到根目录文档：使用 `../` 相对路径（如 `../CONTRIBUTING.md`）
+- 根目录文档链接到词条：使用 `entries/` 前缀（如 `entries/DID.md`）
+- 禁止使用 `./` 等模糊路径
+- 支持根目录白名单文件验证
 - 自动跳过外部链接、锚点和图片
 
 **编程接口:**
