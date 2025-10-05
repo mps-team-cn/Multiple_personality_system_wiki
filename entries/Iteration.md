@@ -40,7 +40,7 @@ updated: 2025-10-03
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
 - [人格职能（System Roles）](/entries/System-Roles.md)
-- [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
 
 ## 参考资料
 

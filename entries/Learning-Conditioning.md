@@ -39,14 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [注意与觉察（Attention & Awareness）](/entries/Attention-Awareness.md)
 - [心理能量与注意资源（Psychic Energy & Attention）](/entries/Psychic-Energy-Attention.md)
+- [注意与觉察（Attention & Awareness）](/entries/Attention-Awareness.md)
 - [社会认知理论（Social-Cognitive Theory）](/entries/Social-Cognitive-Theory.md)
 - [动机理论（Motivation Theories）](/entries/Motivation-Theories.md)
-- [认知失调（Cognitive Dissonance）](/entries/Cognitive-Dissonance.md)
 - [自我决定理论（Self-Determination Theory）](/entries/Self-Determination-Theory.md)
 - [自我效能感（Self-Efficacy）](/entries/Self-Efficacy.md)
 - [自我概念（Self-Concept）](/entries/Self-Concept.md)
+- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
 
 ## 参考与延伸阅读
 

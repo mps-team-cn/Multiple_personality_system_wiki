@@ -75,8 +75,8 @@ _如有触发风险，请在安全情境下阅读。_
 
 ## 相关条目
 
-- [情感障碍（Mood Disorders）](/entries/Mood-Disorders.md)
 - [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
+- [情感障碍（Mood Disorders）](/entries/Mood-Disorders.md)
 - [躁狂（Mania）](/entries/Mania.md)
 - [轻躁狂（Hypomania）](/entries/Hypomania.md)
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)

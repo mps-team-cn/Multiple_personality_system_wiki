@@ -13,6 +13,7 @@ SKIP_RETAG=false
 SKIP_LAST_UPDATED=false
 SKIP_PDF=false
 SKIP_TAG_INDEX=false
+SKIP_SEARCH_INDEX=false
 SKIP_FIX_MD=false
 SKIP_MARKDOWNLINT=false
 
@@ -33,6 +34,9 @@ while [[ $# -gt 0 ]]; do
     --skip-tag-index)
       SKIP_TAG_INDEX=true
       ;;
+    --skip-search-index)
+      SKIP_SEARCH_INDEX=true
+      ;;
     --skip-fix-md)
       SKIP_FIX_MD=true
       ;;
@@ -49,8 +53,9 @@ while [[ $# -gt 0 ]]; do
   3. node scripts/gen-last-updated.mjs
   4. python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei"
   5. python tools/generate_tags_index.py
-  6. python tools/fix_md.py
-  7. markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
+  6. python tools/build_search_index.py
+  7. python tools/fix_md.py
+  8. markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
 
 可选参数：
   --skip-changelog      跳过变更日志生成
@@ -58,6 +63,7 @@ while [[ $# -gt 0 ]]; do
   --skip-last-updated   跳过最后更新时间索引生成
   --skip-pdf            跳过 PDF 导出
   --skip-tag-index      跳过标签索引生成
+  --skip-search-index   跳过搜索索引生成
   --skip-fix-md         跳过 Markdown 自动修复
   --skip-markdownlint   跳过 markdownlint 校验
   -h, --help            显示本帮助信息
@@ -75,7 +81,8 @@ done
 run_step() {
   local description="$1"
   shift
-  echo "\n>>> ${description}" >&2
+  echo "" >&2
+  echo ">>> ${description}" >&2
   "$@"
 }
 
@@ -109,6 +116,12 @@ else
   echo "已跳过：标签索引生成" >&2
 fi
 
+if ! ${SKIP_SEARCH_INDEX}; then
+  run_step "生成 Docsify 搜索索引" python tools/build_search_index.py
+else
+  echo "已跳过：搜索索引生成" >&2
+fi
+
 if ! ${SKIP_FIX_MD}; then
   run_step "自动修复 Markdown" python tools/fix_md.py
 else
@@ -121,4 +134,5 @@ else
   echo "已跳过：markdownlint 校验" >&2
 fi
 
-echo "\n全部任务执行完毕。" >&2
+echo "" >&2
+echo "全部任务执行完毕。" >&2
