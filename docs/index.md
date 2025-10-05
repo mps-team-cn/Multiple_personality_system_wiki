@@ -1,10 +1,10 @@
 # Plurality Wiki - 多意识体百科
 
-<div class="grid cards" markdown>
+<div class="grid cards cards--equal" markdown>
 
 - :material-book-open-variant:{ .lg .middle } **关于本站**
 
-  ***
+  ---
 
   我们专注于整理**多重意识体系统（Plurality）**与创伤相关主题的中文资料，融合社区经验、跨学科研究与可实践的工具。
 
@@ -14,7 +14,7 @@
 
 - :material-tag-multiple:{ .lg .middle } **标签索引**
 
-  ***
+  ---
 
   按主题分类浏览所有词条，快速找到你感兴趣的内容。
 
@@ -22,19 +22,19 @@
 
 - :material-book-alphabet:{ .lg .middle } **术语表**
 
-  ***
+  ---
 
   查询关键术语的定义和解释，建立系统化的知识框架。
 
   [:octicons-arrow-right-24: 查看术语表](Glossary.md)
 
-- :material-account-group:{ .lg .middle } **贡献指南**
+- :material-account-group:{ .lg .middle } **快速开始**
 
-  ***
+  ---
 
-  了解如何参与 Wiki 的建设，一起完善这个知识库。
+  了解如何上手本 Wiki，从环境搭建到内容编辑的核心流程。
 
-  [:octicons-arrow-right-24: 参与贡献](CONTRIBUTING.md)
+  [:octicons-arrow-right-24: 查看快速开始](QuickStart.md)
 
 </div>
 
