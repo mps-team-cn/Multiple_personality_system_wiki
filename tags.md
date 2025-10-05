@@ -267,6 +267,28 @@
 - [青少年意识体（Teen Part）](entries/Teen.md)
 - [非我感（Depersonalization）](entries/Depersonalization.md)
 
+## 心理学与理论基础
+
+- [人本主义心理学（Humanistic Psychology）](entries/Humanistic-Psychology.md)
+- [人格结构理论（Personality Structure Theory, Freud）](entries/Personality-Structure-Theory.md)
+- [依恋理论（Attachment Theory）](entries/Attachment-Theory.md)
+- [动机理论（Motivation Theories）](entries/Motivation-Theories.md)
+- [学习与条件反射（Learning & Conditioning）](entries/Learning-Conditioning.md)
+- [心理弹性（Psychological Resilience）](entries/Psychological-Resilience.md)
+- [心理能量与注意资源（Psychic Energy & Attention）](entries/Psychic-Energy-Attention.md)
+- [心理防御机制（Defense Mechanisms）](entries/Defense-Mechanisms.md)
+- [情绪调节（Emotion Regulation）](entries/Emotion-Regulation.md)
+- [投射（Projection, Psychology）](entries/Projection-Psychology.md)
+- [注意与觉察（Attention & Awareness）](entries/Attention-Awareness.md)
+- [社会认知理论（Social-Cognitive Theory）](entries/Social-Cognitive-Theory.md)
+- [移情与反移情（Transference and Countertransference）](entries/Transference-Countertransference.md)
+- [自我决定理论（Self-Determination Theory）](entries/Self-Determination-Theory.md)
+- [自我效能感（Self-Efficacy）](entries/Self-Efficacy.md)
+- [自我概念（Self-Concept）](entries/Self-Concept.md)
+- [认知失调（Cognitive Dissonance）](entries/Cognitive-Dissonance.md)
+- [防御性解离（Defensive Dissociation）](entries/Defensive-Dissociation.md)
+- [高敏感人群（Highly Sensitive Person, HSP）](entries/Highly-Sensitive-Person.md)
+
 ## 注意力缺陷多动障碍_ADHD
 
 - [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
