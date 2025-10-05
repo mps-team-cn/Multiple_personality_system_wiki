@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import hashlib
+import html
 import re
 import sys
 from collections.abc import Mapping
@@ -32,6 +33,11 @@ ENTRY_REFERENCE_LINK_PATTERN = re.compile(
 ENTRY_ANGLE_LINK_PATTERN = re.compile(
     r"(?P<prefix><)(?P<target>(?:\./|\.\./|)entries/[^>#\s]+?\.md)"
     r"(?P<fragment>#[^>\s]*)?(?P<suffix>>)",
+)
+
+_TRIGGER_WARNING_BLOCK_PATTERN = re.compile(
+    r"<!--\s*trigger-warning:start\s*-->(?P<body>.*?)<!--\s*trigger-warning:end\s*-->",
+    re.IGNORECASE | re.DOTALL,
 )
 
 from .last_updated import LastUpdatedInfo, render_last_updated_text
@@ -150,6 +156,26 @@ def rewrite_entry_links(markdown: str, lookup: Mapping[Path, str]) -> str:
     return updated
 
 
+def _strip_html_tags(content: str) -> str:
+    """移除 ``content`` 中的 HTML 标签并压缩空白字符。"""
+
+    without_tags = re.sub(r"<[^>]+>", " ", content)
+    condensed = re.sub(r"\s+", " ", without_tags)
+    return html.unescape(condensed).strip()
+
+
+def _normalize_index_content(content: str) -> str:
+    """将 ``index.md`` 中的自定义 HTML 区块替换为通用 Markdown。"""
+
+    def _replace_trigger_warning(match: re.Match[str]) -> str:
+        plain_text = _strip_html_tags(match.group("body"))
+        if not plain_text:
+            return ""
+        return f"> ⚠️ {plain_text}\n\n"
+
+    return _TRIGGER_WARNING_BLOCK_PATTERN.sub(_replace_trigger_warning, content)
+
+
 def strip_primary_heading(content: str, title: str) -> str:
     """移除与 ``title`` 相同的首个标题，避免重复标题干扰。"""
 
@@ -256,7 +282,8 @@ def _build_directory_from_index(anchor_lookup: Mapping[Path, str]) -> str | None
         print(f"警告: 无法读取 {index_path}: {error}", file=sys.stderr)
         return None
 
-    stripped = raw_content.strip()
+    normalized = _normalize_index_content(raw_content)
+    stripped = normalized.strip()
     if not stripped:
         return None
 
