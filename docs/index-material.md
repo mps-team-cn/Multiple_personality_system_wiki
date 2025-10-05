@@ -74,29 +74,21 @@
 
     <div class="grid cards" markdown>
 
-    -   **[前台（Fronting）](entries/Front-Fronting.md)**
+    -   **[系统运作导览](System-Operations.md)**
 
-        意识体控制身体和意识的状态
+        梳理前台、意识共享、角色协作等关键主题，快速定位延伸阅读词条。
 
-    -   **[切换（Switch）](entries/Switch.md)**
+    -   **前台与切换流程**
 
-        前台成员的更替过程
+        聚焦 [前台（Fronting）](entries/Front-Fronting.md)、[切换（Switch）](entries/Switch.md) 与 [共同前台（Co-Fronting）](entries/Co-Fronting.md)，理解成员如何协同掌控身体。
 
-    -   **[共同意识（Co-Consciousness）](entries/Co-Consciousness.md)**
+    -   **意识共享与记忆管理**
 
-        多个成员同时保持意识的状态
+        延伸至 [共同意识](entries/Co-Consciousness.md)、[记忆持有人](entries/Memory-Holder.md)、[记忆屏障](entries/Memory-Shielding.md) 等词条，探索信息传递与防护策略。
 
-    -   **[共同前台（Co-Fronting）](entries/Co-Fronting.md)**
+    -   **内部空间与治理结构**
 
-        多个成员同时控制身体
-
-    -   **[内心世界（Headspace）](entries/Headspace-Inner-World.md)**
-
-        系统成员共享的内部精神空间
-
-    -   **[内部交流](entries/Internal-Communication.md)**
-
-        系统成员之间的沟通方式
+        结合 [内心世界](entries/Headspace-Inner-World.md)、[内部交流](entries/Internal-Communication.md)、[系统角色](entries/System-Roles.md)、[管理者](entries/Admin.md)、[守门人](entries/Gatekeeper.md)、[保护者](entries/Protector.md) 与 [权限](entries/Permissions.md) 的资料，建立协作框架。
 
     </div>
 

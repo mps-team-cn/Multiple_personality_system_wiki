@@ -242,12 +242,26 @@ nav:
     - entries/OSDD.md
     - entries/Tulpa.md
   - 系统运作:
-    - entries/Front-Fronting.md
-    - entries/Switch.md
-    - entries/Co-Consciousness.md
-    - entries/Co-Fronting.md
-    - entries/Headspace-Inner-World.md
-    - entries/Internal-Communication.md
+    - 系统运作导览: System-Operations.md
+    - 前台与切换:
+        - entries/Front-Fronting.md
+        - entries/Switch.md
+        - entries/Co-Fronting.md
+    - 意识共享与记忆:
+        - entries/Co-Consciousness.md
+        - entries/Memory-Holder.md
+        - entries/Memory-Shielding.md
+    - 内部空间与沟通:
+        - entries/Headspace-Inner-World.md
+        - entries/Internal-Communication.md
+        - entries/Permissions.md
+    - 角色与治理:
+        - entries/System-Roles.md
+        - entries/Admin.md
+        - entries/Host.md
+        - entries/Gatekeeper.md
+        - entries/Protector.md
+        - entries/Internal-Self-Helper-ISH.md
   - 心理健康:
     - entries/Dissociation.md
     - entries/PTSD.md

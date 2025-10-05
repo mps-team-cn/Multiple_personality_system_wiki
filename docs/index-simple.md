@@ -28,12 +28,20 @@
 
 ## 系统运作
 
-- **[前台（Fronting）](entries/Front-Fronting.md)** - 意识体控制身体和意识的状态
-- **[切换（Switch）](entries/Switch.md)** - 前台成员的更替过程
-- **[共同意识（Co-Consciousness）](entries/Co-Consciousness.md)** - 多个成员同时保持意识的状态
-- **[共同前台（Co-Fronting）](entries/Co-Fronting.md)** - 多个成员同时控制身体
-- **[内心世界（Headspace）](entries/Headspace-Inner-World.md)** - 系统成员共享的内部精神空间
-- **[内部交流](entries/Internal-Communication.md)** - 系统成员之间的沟通方式
+- **[系统运作导览](System-Operations.md)** - 总览前台、记忆协作与角色治理，作为专题索引入口。
+- **前台与切换流程**
+    - [前台（Fronting）](entries/Front-Fronting.md) - 说明谁在掌控身体以及常见感受。
+    - [切换（Switch）](entries/Switch.md) - 描述前台更替的触发情境与应对技巧。
+    - [共同前台（Co-Fronting）](entries/Co-Fronting.md) - 展示多名成员协同执行任务的方式。
+- **意识共享与记忆管理**
+    - [共同意识（Co-Consciousness）](entries/Co-Consciousness.md) - 探讨同时保持觉察的好处与挑战。
+    - [记忆持有人（Memory Holder）](entries/Memory-Holder.md) - 说明专责保存记忆的角色运作模式。
+    - [记忆屏障（Memory Shielding）](entries/Memory-Shielding.md) - 分析记忆隔离的安全意义与代价。
+- **内部空间与治理结构**
+    - [内心世界（Headspace）](entries/Headspace-Inner-World.md) - 描述内部世界的构成与调整方法。
+    - [内部交流](entries/Internal-Communication.md) - 汇整建立沟通渠道的实践经验。
+    - [系统角色](entries/System-Roles.md) / [管理者](entries/Admin.md) / [守门人](entries/Gatekeeper.md) / [保护者](entries/Protector.md) - 对照常见角色的职责与协作重点。
+    - [权限（Permissions）](entries/Permissions.md) 与 [内部自助者（ISH）](entries/Internal-Self-Helper-ISH.md) - 辅助建立治理规则与内部支持系统。
 
 ## 心理健康
 
