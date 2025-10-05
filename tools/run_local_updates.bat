@@ -6,6 +6,7 @@ python tools/retag_and_related.py
 node scripts/gen-last-updated.mjs
 @REM 生成 PDF 和 目录索引
 python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei"
+@REM python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Noto Serif CJK SC" --main-font="Times New Roman" --sans-font="Microsoft YaHei" --mono-font="JetBrains Mono" 
 @REM 生成标签索引
 python tools/generate_tags_index.py
 @REM 生成 Docsify 搜索索引

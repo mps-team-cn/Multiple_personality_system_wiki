@@ -36,12 +36,12 @@ updated: 2025-10-03
 
 - [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 - [碎片（Fragment）](/entries/Fragment.md)
-- [重构（Reconstruction）](/entries/Reconstruction.md)
-- [非我感（Depersonalization）](/entries/Depersonalization.md)
 - [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
-- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
-- [迭代（Iteration）](/entries/Iteration.md)
+- [重构（Reconstruction）](/entries/Reconstruction.md)
 - [独立性（Independence）](/entries/Independence.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
+- [迭代（Iteration）](/entries/Iteration.md)
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 
 ## 参考与延伸阅读
 

@@ -39,8 +39,8 @@ updated: 2025-10-03
 - [《隐形人》（Mr. Robot）中的人格分裂叙事](/entries/Mr-Robot-DID-Narrative.md)
 - [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
 - [人格面具（Persona）](/entries/Persona.md)
-- [主体（Main）](/entries/Main.md)
 - [自发型（Spontaneous）](/entries/Spontaneous.md)
+- [主体（Main）](/entries/Main.md)
 
 ## 参考资料
 

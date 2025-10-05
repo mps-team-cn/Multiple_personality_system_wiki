@@ -105,13 +105,13 @@ updated: 2025-10-03
 ## 相关条目
 
 - [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
+- [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
 - [谵妄（Delirium）](/entries/Delirium.md)
 - [躁狂（Mania）](/entries/Mania.md)
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
 - [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [定向障碍（Disorientation）](/entries/Disorientation.md)
-- [习得性无助（Learned Helplessness）](/entries/Learned-Helplessness.md)
-- [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
+- [轻躁狂（Hypomania）](/entries/Hypomania.md)
 
 ## 参考与延伸阅读
 

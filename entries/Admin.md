@@ -55,6 +55,7 @@ updated: 2025-10-03
 - [多意识体（Plurality）](/entries/Plurality.md)
 - [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
 - [成员（Alter）](/entries/Alter.md)
+- [伪主体（Fauxmain）](/entries/Fauxmain.md)
 
 ## 参考与延伸阅读
 

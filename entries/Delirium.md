@@ -111,7 +111,7 @@ updated: 2025-10-03
 - [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
-- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
+- [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
 
 ## 参考与延伸阅读
 

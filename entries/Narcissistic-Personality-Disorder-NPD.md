@@ -61,9 +61,9 @@ ICD-11 将人格障碍划分为单一诊断并通过严重程度与特质修饰�
 - [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
 - [焦虑（Anxiety）](/entries/Anxiety.md)
-- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 - [躁狂（Mania）](/entries/Mania.md)
-- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
+- [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
+- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 
 ## 参考资料
 

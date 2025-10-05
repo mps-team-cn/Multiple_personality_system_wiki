@@ -85,11 +85,14 @@ _如有触发风险，请在安全情境下阅读。_
 
 ## 相关条目
 
-- [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
-- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 - [躁狂（Mania）](/entries/Mania.md)
+- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
+- [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
-- [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
+- [谵妄（Delirium）](/entries/Delirium.md)
+- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
+- [情感障碍（Mood Disorders）](/entries/Mood-Disorders.md)
 
 ## 参考资料
 
