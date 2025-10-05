@@ -7,7 +7,7 @@ echo "开始构建 Plurality Wiki (MkDocs Material)..."
 
 # 安装 Python 依赖
 echo "安装依赖..."
-pip install -r requirements-mkdocs.txt
+pip install -r requirements.txt
 
 # 构建站点
 echo "构建站点..."
