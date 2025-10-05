@@ -9,7 +9,7 @@ updated: 2024-05-05
 > 欢迎来到 Plurality Wiki！无论你是刚开始了解多意识体,还是在寻找特定信息,这份快速指南都将帮助你找到最适合的学习路径。
 
 !!! warning "紧急提醒"
-    若你或伙伴正处于紧急或临床风险情境,请优先联系当地紧急服务、心理危机干预中心或持证专业人员。Plurality Wiki 旨在整理知识与经验分享,无法替代医疗或法律建议。
+若你或伙伴正处于紧急或临床风险情境,请优先联系当地紧急服务、心理危机干预中心或持证专业人员。Plurality Wiki 旨在整理知识与经验分享,无法替代医疗或法律建议。
 
 ---
 
@@ -20,63 +20,69 @@ updated: 2024-05-05
 ### 📚 **[核心概念导览](entries/Core-Concepts-Guide.md)** — 我是完全的新手
 
 **适合你,如果:**
-- 第一次听说"多意识体""解离"这些词
+
+- 第一次听说"[多意识体](entries/Plurality.md)""[解离](entries/Dissociation.md)"这些词
 - 想从零开始建立理论框架
-- 需要理解不同类型的系统(Tulpa vs DID/OSDD)
+- 需要理解不同类型的系统（[Tulpa](entries/Tulpa.md) vs [DID](entries/DID.md)/[OSDD](entries/OSDD.md)）
 
 **你将学到:**
-- 什么是解离?解离与多意识体的关系
-- 健康多意识体(Tulpa) vs 病理性多意识体(DID/OSDD)
-- 埃蒙加德分类法:按成因理解系统类型
+
+- 什么是[解离](entries/Dissociation.md)?解离与[多意识体](entries/Plurality.md)的关系
+- 健康多意识体（[Tulpa](entries/Tulpa.md)） vs 病理性多意识体（[DID](entries/DID.md)/[OSDD](entries/OSDD.md)）
+- [埃蒙加德分类法](entries/Emmengard-Classification.md):按成因理解系统类型
 - 常见误区澄清与新手建议
 
-👉 **推荐阅读顺序**: 核心概念导览 → 术语表 → 具体词条
+👉 **推荐阅读顺序**: [核心概念导览](entries/Core-Concepts-Guide.md) → [术语表](Glossary.md) → 具体词条
 
 ---
 
 ### 💚 **[心理健康导览](entries/Mental-Health-Guide.md)** — 我关注创伤与疗愈
 
 **适合你,如果:**
-- 经历过创伤,想了解心理影响
-- 对诊断标准(PTSD/CPTSD/DID)有疑问
+
+- 经历过[创伤](entries/Trauma.md),想了解心理影响
+- 对诊断标准（[PTSD](entries/PTSD.md)/[CPTSD](entries/CPTSD.md)/[DID](entries/DID.md)）有疑问
 - 寻找循证的治疗方法和自我照护策略
 
 **你将学到:**
-- 创伤类型(I 型 vs II 型)与神经生物学基础
-- PTSD 与 CPTSD 的诊断标准(DSM-5-TR/ICD-11)
-- 解离谱系:从适应到病理
-- 循证治疗方法(EMDR、TF-CBT、DBT 等)
-- 接地技巧与实用自我照护策略
 
-👉 **推荐阅读顺序**: 心理健康导览 → 创伤相关词条 → 治疗方法词条
+- [创伤](entries/Trauma.md)类型（I 型 vs II 型）与神经生物学基础
+- [PTSD](entries/PTSD.md) 与 [CPTSD](entries/CPTSD.md) 的诊断标准（DSM-5-TR/ICD-11）
+- [解离](entries/Dissociation.md)谱系:从适应到病理
+- 循证治疗方法（EMDR、TF-CBT、DBT 等）
+- [接地](entries/Grounding.md)技巧与实用自我照护策略
+
+👉 **推荐阅读顺序**: [心理健康导览](entries/Mental-Health-Guide.md) → [创伤](entries/Trauma.md)相关词条 → 治疗方法词条
 
 ---
 
 ### ⚙️ **[系统运作导览](System-Operations.md)** — 我想优化系统协作
 
 **适合你,如果:**
-- 已经是多意识体系统成员
+
+- 已经是[多意识体](entries/Plurality.md)系统成员
 - 想改善日常运作与内部沟通
-- 对前台、切换、记忆管理等机制有疑问
+- 对[前台](entries/Front-Fronting.md)、[切换](entries/Switch.md)、记忆管理等机制有疑问
 
 **你将学到:**
-- 前台与切换:谁在控制身体?如何转换?
-- 意识共享与记忆管理:如何协调信息?
-- 内部空间与沟通:建立系统内部的协作网络
-- 角色与治理:宿主、守门人、保护者等职能分工
-- 实务支持:接地、照护与危机应对
 
-👉 **推荐阅读顺序**: 系统运作导览 → 具体机制词条 → 工具与技巧
+- [前台](entries/Front-Fronting.md)与[切换](entries/Switch.md):谁在控制身体?如何转换?
+- [意识共享](entries/Co-Consciousness.md)与记忆管理:如何协调信息?
+- [内部空间](entries/Headspace-Inner-World.md)与[沟通](entries/Internal-Communication.md):建立系统内部的协作网络
+- 角色与治理:[宿主](entries/Host.md)、[守门人](entries/Gatekeeper.md)、[保护者](entries/Protector.md)等职能分工
+- 实务支持:[接地](entries/Grounding.md)、照护与危机应对
+
+👉 **推荐阅读顺序**: [系统运作导览](System-Operations.md) → 具体机制词条 → 工具与技巧
 
 ---
 
 ## 🔍 快速查询工具
 
-| 工具 | 用途 | 适合场景 |
-|------|------|----------|
-| **[术语表](Glossary.md)** | 快速查询专业术语定义 | 遇到陌生术语时 |
-| **[标签索引](tags.md)** | 按主题分类浏览全部词条 | 想深入某个主题 |
-| **首页搜索** | 关键词搜索 | 找特定概念或词条 |
+| 工具                      | 用途                   | 适合场景         |
+| ------------------------- | ---------------------- | ---------------- |
+| **[术语表](Glossary.md)** | 快速查询专业术语定义   | 遇到陌生术语时   |
+| **[标签索引](tags.md)**   | 按主题分类浏览全部词条 | 想深入某个主题   |
+| **首页搜索**              | 关键词搜索             | 找特定概念或词条 |
 
 ---
 
@@ -105,22 +111,19 @@ Plurality Wiki 是社区共建的知识库,欢迎你的参与:
 ## 📌 常见问题
 
 ??? question "我不确定自己是什么类型的系统?"
-    建议先阅读 [核心概念导览](entries/Core-Concepts-Guide.md),了解不同类型的基本区别。
+建议先阅读 [核心概念导览](entries/Core-Concepts-Guide.md),了解不同类型的基本区别。
 
     但请记住:**分类不是目的,理解自己才是关键**。如果难以归类,也完全正常。
 
 ??? question "我需要诊断吗?"
-    这取决于你的需求:
+这取决于你的需求:
 
-    - 如果症状影响日常生活,寻求专业诊断可以获得治疗支持
+    - 如果症状影响日常生活,寻求专业诊断（如 [DID](entries/DID.md)、[OSDD](entries/OSDD.md)、[PTSD](entries/PTSD.md)）可以获得治疗支持
     - 如果只是想了解自己,不一定需要正式诊断
 
     详见 [心理健康导览](entries/Mental-Health-Guide.md) 中的相关说明。
 
-??? question "Plurality Wiki 的内容可靠吗?"
-    - ✅ 医疗/诊断内容引用 ICD-11、DSM-5-TR 等权威来源
-    - ✅ 每个断言都标注引用来源和访问日期
-    - ⚠️ 社群经验部分标明为"经验分享",不代表医学事实
+??? question "Plurality Wiki 的内容可靠吗?" - ✅ 医疗/诊断内容引用 ICD-11、DSM-5-TR 等权威来源 - ✅ 每个断言都标注引用来源和访问日期 - ⚠️ 社群经验部分标明为"经验分享",不代表医学事实
 
     详见 [贡献指南](CONTRIBUTING.md) 中的学术规范。
 
