@@ -2,7 +2,7 @@
 
 ## 📁 首页文件结构
 
-```
+```text
 docs/
 ├── index.md              # 通用版首页（当前默认，所有主题适用）
 ├── index-material.md     # Material 主题增强版（含卡片、图标等）
@@ -16,7 +16,7 @@ docs/
 
 MkDocs 会将 `index.md` 和 `README.md` 都视为首页文件，导致冲突：
 
-```
+```text
 WARNING - Excluding 'README.md' from the site because it conflicts with 'index.md'.
 ```
 
@@ -27,8 +27,11 @@ WARNING - Excluding 'README.md' from the site because it conflicts with 'index.m
 将 README.md 移到根目录，仅用于 GitHub 项目说明：
 
 ```bash
+
 # 已经在根目录，无需移动
+
 # 根目录的 README.md 不会被 MkDocs 处理
+
 ```
 
 **方案 B：删除 docs/README.md**
@@ -124,6 +127,7 @@ nav:
 ### index.md（通用版）
 
 ```markdown
+
 ## 关于本站
 
 我们专注于整理...
@@ -160,10 +164,13 @@ nav:
 ### 切换到 Material 增强版
 
 ```bash
+
 # 方式 1：修改 nav 配置
+
 # 编辑 mkdocs.yml，将 index.md 改为 index-material.md
 
 # 方式 2：替换文件
+
 cp docs/index-material.md docs/index.md
 mkdocs serve
 ```
@@ -171,10 +178,13 @@ mkdocs serve
 ### 切换到通用版
 
 ```bash
+
 # 方式 1：修改 nav 配置
+
 # 编辑 mkdocs.yml，将 index-material.md 改为 index.md
 
 # 方式 2：替换文件
+
 cp docs/index-simple.md docs/index.md
 mkdocs serve
 ```
@@ -183,7 +193,7 @@ mkdocs serve
 
 ### 当前配置（推荐）
 
-```
+```text
 Material 主题：
 - nav 引用: index-material.md
 - index.md: 通用版（备用）
@@ -197,14 +207,19 @@ Material 主题：
 ### 优化后配置（最佳）
 
 ```bash
+
 # 1. 删除 docs/README.md（开发文档已在根目录）
+
 rm docs/README.md
 
 # 2. Material 主题使用增强版
+
 # mkdocs.yml 保持 index-material.md
 
 # 3. 其他主题使用通用版
+
 # mkdocs.yml.readthedocs 和 mkdocs.yml.mkdocs 使用 index.md
+
 ```
 
 ## ⚠️ 注意事项
@@ -246,16 +261,21 @@ mv docs/README.md docs/ABOUT.md
 ## 📊 建议操作
 
 ```bash
+
 # 1. 删除冲突的 README.md
+
 rm docs/README.md
 
 # 2. 修复 Material 首页的链接
+
 # 将 index-material.md 中的 README.md 链接改为其他页面
 
 # 3. 测试构建
+
 mkdocs build --strict
 
 # 4. 预览效果
+
 mkdocs serve
 ```
 

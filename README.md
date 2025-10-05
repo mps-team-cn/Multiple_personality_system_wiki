@@ -151,32 +151,42 @@ plurality_wiki/
 ### 环境准备
 
 ```bash
+
 # 1. 安装 Python 依赖
+
 pip install -r requirements-mkdocs.txt
 
 # 2. 本地预览（支持热重载）
+
 mkdocs serve
 
 # 访问 http://127.0.0.1:8000
+
 ```
 
 ### 构建静态站点
 
 ```bash
+
 # 构建到 site/ 目录
+
 mkdocs build
 
 # 严格模式构建（有警告则失败）
+
 mkdocs build --strict
 ```
 
 ### 旧版 Docsify 预览（已弃用）
 
 ```bash
+
 # 方式 A: 简单 HTTP 服务器
+
 python -m http.server 4173
 
 # 方式 B: Docsify CLI
+
 npm i -g docsify-cli
 docsify serve .
 ```
@@ -217,7 +227,9 @@ docsify serve .
 **快速配置**：
 
 ```yaml
+
 # 构建配置
+
 Build command: bash .cfpages-build.sh
 Build output directory: site
 Environment variables: PYTHON_VERSION=3.11
@@ -226,7 +238,9 @@ Environment variables: PYTHON_VERSION=3.11
 ### GitHub Pages（备选）
 
 ```bash
+
 # 构建并推送到 gh-pages 分支
+
 mkdocs gh-deploy
 ```
 

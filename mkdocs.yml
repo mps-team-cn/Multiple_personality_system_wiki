@@ -235,6 +235,7 @@ nav:
     - 标签索引: tags.md
     - 术语表: Glossary.md
   - 核心概念:
+    - 核心概念导览: entries/Core-Concepts-Guide.md
     - entries/Plurality.md
     - entries/System.md
     - entries/Alter.md
@@ -263,6 +264,7 @@ nav:
         - entries/Protector.md
         - entries/Internal-Self-Helper-ISH.md
   - 心理健康:
+    - 心理健康导览: entries/Mental-Health-Guide.md
     - entries/Dissociation.md
     - entries/PTSD.md
     - entries/CPTSD.md

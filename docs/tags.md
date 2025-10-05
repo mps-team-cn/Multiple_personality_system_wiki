@@ -69,6 +69,7 @@
 - [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](docs/entries/Xianyu-Theory-Niche-Classification.md)
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](docs/entries/OCD.md)
 - [心境障碍（Affective Disorders）](docs/entries/Affective-Disorders.md)
+- [心理健康导览（Mental Health Guide）](docs/entries/Mental-Health-Guide.md)
 - [心理弹性（Psychological Resilience）](docs/entries/Psychological-Resilience.md)
 - [心理能量与注意资源（Psychic Energy & Attention）](docs/entries/Psychic-Energy-Attention.md)
 - [心理防御机制（Defense Mechanisms）](docs/entries/Defense-Mechanisms.md)
@@ -85,6 +86,7 @@
 - [接地（Grounding）](docs/entries/Grounding.md)
 - [整合（Integration）](docs/entries/Integration.md)
 - [权限（Permissions）](docs/entries/Permissions.md)
+- [核心概念导览（Core Concepts Guide）](docs/entries/Core-Concepts-Guide.md)
 - [核心（Core）](docs/entries/Core.md)
 - [注意与觉察（Attention & Awareness）](docs/entries/Attention-Awareness.md)
 - [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](docs/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
@@ -209,6 +211,7 @@
 - [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](docs/entries/Xianyu-Theory-Niche-Classification.md)
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](docs/entries/OCD.md)
 - [心境障碍（Affective Disorders）](docs/entries/Affective-Disorders.md)
+- [心理健康导览（Mental Health Guide）](docs/entries/Mental-Health-Guide.md)
 - [心理弹性（Psychological Resilience）](docs/entries/Psychological-Resilience.md)
 - [心理能量与注意资源（Psychic Energy & Attention）](docs/entries/Psychic-Energy-Attention.md)
 - [心理防御机制（Defense Mechanisms）](docs/entries/Defense-Mechanisms.md)
@@ -225,6 +228,7 @@
 - [接地（Grounding）](docs/entries/Grounding.md)
 - [整合（Integration）](docs/entries/Integration.md)
 - [权限（Permissions）](docs/entries/Permissions.md)
+- [核心概念导览（Core Concepts Guide）](docs/entries/Core-Concepts-Guide.md)
 - [核心（Core）](docs/entries/Core.md)
 - [注意与觉察（Attention & Awareness）](docs/entries/Attention-Awareness.md)
 - [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](docs/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
@@ -334,6 +338,7 @@
 - [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](docs/entries/Xianyu-Theory-Niche-Classification.md)
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](docs/entries/OCD.md)
 - [心境障碍（Affective Disorders）](docs/entries/Affective-Disorders.md)
+- [心理健康导览（Mental Health Guide）](docs/entries/Mental-Health-Guide.md)
 - [心理弹性（Psychological Resilience）](docs/entries/Psychological-Resilience.md)
 - [心理防御机制（Defense Mechanisms）](docs/entries/Defense-Mechanisms.md)
 - [情感障碍（Mood Disorders）](docs/entries/Mood-Disorders.md)
@@ -403,6 +408,7 @@
 - [图帕（Tulpa）](docs/entries/Tulpa.md)
 - [多意识体（Plurality）](docs/entries/Plurality.md)
 - [多重意识体基础（Plurality Basics）](docs/entries/Plurality-Basics.md)
+- [核心概念导览（Core Concepts Guide）](docs/entries/Core-Concepts-Guide.md)
 - [混合（Blending）](docs/entries/Blending.md)
 - [系统（System）](docs/entries/System.md)
 - [自动驾驶（Autopilot）](docs/entries/Autopilot.md)
@@ -414,6 +420,7 @@
 
 - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](docs/entries/Apparently-Normal-Part-Emotional-Part-Model.md)
 - [其他特定解离性障碍（OSDD）](docs/entries/OSDD.md)
+- [核心概念导览（Core Concepts Guide）](docs/entries/Core-Concepts-Guide.md)
 - [解离（Dissociation）](docs/entries/Dissociation.md)
 
 ## PTSD
@@ -421,12 +428,14 @@
 - [侵入性思维（Intrusive Thoughts）](docs/entries/Intrusive-Thoughts.md)
 - [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](docs/entries/PTSD.md)
 - [复杂性创伤后应激障碍（CPTSD）](docs/entries/CPTSD.md)
+- [心理健康导览（Mental Health Guide）](docs/entries/Mental-Health-Guide.md)
 - [闪回（Flashback）](docs/entries/Flashback.md)
 
 ## CPTSD
 
 - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](docs/entries/Apparently-Normal-Part-Emotional-Part-Model.md)
 - [复杂性创伤后应激障碍（CPTSD）](docs/entries/CPTSD.md)
+- [心理健康导览（Mental Health Guide）](docs/entries/Mental-Health-Guide.md)
 - [闪回（Flashback）](docs/entries/Flashback.md)
 
 ## ADHD
@@ -460,6 +469,10 @@
 
 - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](docs/entries/Apparently-Normal-Part-Emotional-Part-Model.md)
 - [结构性解离理论（Theory of Structural Dissociation）](docs/entries/Structural-Dissociation-Theory.md)
+
+## Tulpa
+
+- [核心概念导览（Core Concepts Guide）](docs/entries/Core-Concepts-Guide.md)
 
 ## 焦虑
 

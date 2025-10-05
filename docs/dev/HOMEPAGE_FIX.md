@@ -32,7 +32,9 @@ hide:
 
 **显示侧边栏（当前配置，推荐）**：
 ```markdown
+
 # Plurality Wiki - 多意识体百科
+
 （不添加 frontmatter，默认显示侧边栏）
 ```
 
@@ -46,7 +48,7 @@ hide:
 
 ## 📁 当前文件结构
 
-```
+```text
 docs/
 ├── index.md              # 首页（Material 增强版，当前使用）
 ├── index-material.md     # Material 版备份
@@ -62,38 +64,49 @@ docs/
 ### 使用 Material 主题（当前）
 
 ```bash
+
 # index.md 已经是 Material 版本，无需操作
+
 mkdocs serve
 ```
 
-访问 `http://127.0.0.1:8000/` ✅ 正确的首页 URL
+访问 `[http://127.0.0.1:8000/`](http://127.0.0.1:8000/`) ✅ 正确的首页 URL
 
 ### 切换到 ReadTheDocs / MkDocs 默认主题
 
 ```bash
+
 # 1. 备份当前 Material 版本
+
 cp docs/index.md docs/index-material-backup.md
 
 # 2. 使用通用版本
+
 cp docs/index-simple.md docs/index.md
 
 # 3. 切换主题配置
+
 cp mkdocs.yml.readthedocs mkdocs.yml
 
 # 4. 测试
+
 mkdocs serve
 ```
 
 ### 恢复 Material 主题
 
 ```bash
+
 # 1. 恢复 Material 版首页
+
 cp docs/index-material.md docs/index.md
 
 # 2. 恢复 Material 配置
+
 cp mkdocs.yml.material-backup mkdocs.yml
 
 # 3. 测试
+
 mkdocs serve
 ```
 
@@ -147,7 +160,9 @@ hide:
 ### 完全显示（当前配置）
 
 ```markdown
+
 # Plurality Wiki - 多意识体百科
+
 （不添加 frontmatter）
 ```
 
