@@ -1,5 +1,46 @@
 # 更新日志
 
+## v3.1.0 (2025-10-06)
+
+### ✨ 新功能
+
+- **全站启用 TOC 在左侧显示，隐藏导航树**（[ed12ffc](https://github.com/kuliantnt/plurality_wiki/commit/ed12ffc)）
+  - 使用 CSS 隐藏左侧导航树
+  - 将页面目录（TOC）移到左侧显示
+  - 所有页面（包括搜索结果）都有一致的 TOC 显示
+  - 内容区域更宽敞，阅读体验更好
+
+### 🐛 修复
+
+- **禁用 toc.integrate 确保所有页面都显示左侧导航**（[6612b21](https://github.com/kuliantnt/plurality_wiki/commit/6612b21)）
+  - 修复通过搜索访问的词条页面没有左侧导航的问题
+  - 移除 toc.integrate 配置项，避免导航不一致
+
+- **修复 Markdown 加粗格式在 MkDocs Material 中的渲染问题**
+  - 修复 `**[text](url)**` 格式不正确渲染（[批量修复 14 个文件，67 处问题](https://github.com/kuliantnt/plurality_wiki/commit/[commit_hash])）
+  - 修复列表中加粗文本缺少空格的问题
+  - 统一使用全角括号和冒号
+  - 创建自动修复工具 `tools/fix_bold_format.py`
+  - 更新 CONTRIBUTING.md 和 TEMPLATE_ENTRY.md 添加格式规范
+
+### 📝 文档
+
+- **更新贡献指南添加 MkDocs Material 兼容性格式规范**
+  - 详细说明加粗链接、列表格式、括号和冒号的正确用法
+  - 提供错误和正确示例对比
+  - 添加自动修复工具使用说明
+
+### 🔧 工具
+
+- **新增 Markdown 格式自动修复工具**（`tools/fix_bold_format.py`）
+  - 自动修复加粗链接格式
+  - 自动修复列表加粗间距
+  - 自动转换半角括号为全角
+  - 自动修正冒号格式
+  - 支持批量处理并生成详细报告
+
+---
+
 ## v3.0.0 (2025-10-06)
 
 ### ✨ 重大更新
