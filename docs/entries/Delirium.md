@@ -15,7 +15,7 @@ updated: 2025-10-03
 
 ## 概述
 
-谵妄是一种在数小时至数日内急性起病并呈波动性的意识与认知障碍，核心特征包括注意力受损、觉察力下降与认知混乱。常伴随 [定向障碍（Disorientation）](entries/Disorientation.md)、记忆困难、幻觉或妄想，通常由躯体疾病、药物效应、代谢失衡或感染等可逆因素诱发。对于已有神经认知障碍或经历重大创伤（详见 [创伤（Trauma）](entries/Trauma.md)）的个体，谵妄会显著提高跌倒、并发症与死亡风险。
+谵妄是一种在数小时至数日内急性起病并呈波动性的意识与认知障碍，核心特征包括注意力受损、觉察力下降与认知混乱。常伴随 [定向障碍（Disorientation）](Disorientation.md)、记忆困难、幻觉或妄想，通常由躯体疾病、药物效应、代谢失衡或感染等可逆因素诱发。对于已有神经认知障碍或经历重大创伤（详见 [创伤（Trauma）](Trauma.md)）的个体，谵妄会显著提高跌倒、并发症与死亡风险。
 
 ---
 
@@ -44,7 +44,7 @@ updated: 2025-10-03
 
 ## 临床表现
 
-- **意识与认知**：注意力难以集中或转移、短期记忆障碍、语言混乱、感知扭曲，常伴 [定向障碍](entries/Disorientation.md)。
+- **意识与认知**：注意力难以集中或转移、短期记忆障碍、语言混乱、感知扭曲，常伴 [定向障碍](Disorientation.md)。
 - **精神行为**：出现幻觉、妄想、情绪剧烈波动；高活动型表现为躁动、拔管或走失，低活动型则呆滞、反应迟缓，易被忽视。
 - **生理特征**：睡眠—觉醒节律混乱、心率血压波动、脱水迹象；常伴疼痛、呼吸困难或感染症状。
 - **系统体验**：多意识系统成员可能感到时间跳跃、环境陌生或内部分离感增强，应记录触发事件与生命体征变化以协助区分解离发作。
@@ -104,14 +104,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [定向障碍（Disorientation）](/entries/Disorientation.md)
-- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
-- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
-- [躁狂（Mania）](/entries/Mania.md)
-- [轻躁狂（Hypomania）](/entries/Hypomania.md)
-- [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
-- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
-- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
+- [定向障碍（Disorientation）](Disorientation.md)
+- [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
+- [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
+- [躁狂（Mania）](Mania.md)
+- [轻躁狂（Hypomania）](Hypomania.md)
+- [心境障碍（Affective Disorders）](Affective-Disorders.md)
+- [孤独症谱系（Autism Spectrum Disorder）](Autism-Spectrum-Disorder.md)
+- [精神分裂症（Schizophrenia，SC）](Schizophrenia-SC.md)
 
 ## 参考与延伸阅读
 

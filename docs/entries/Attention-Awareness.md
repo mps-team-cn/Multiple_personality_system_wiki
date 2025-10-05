@@ -29,7 +29,7 @@ updated: 2025-10-05
 
 ## 在多意识体与解离语境中的意义
 
-解离常伴随注意力偏移与觉察降低。系统成员可能在不同任务间分配注意资源，或在触发时进入狭窄焦点。培养注意与觉察能力有助于监测切换迹象，支持[情绪调节](entries/Emotion-Regulation.md)与地面化。
+解离常伴随注意力偏移与觉察降低。系统成员可能在不同任务间分配注意资源，或在触发时进入狭窄焦点。培养注意与觉察能力有助于监测切换迹象，支持[情绪调节](Emotion-Regulation.md)与地面化。
 
 ## 实践应用与建议
 
@@ -39,14 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [心理能量与注意资源（Psychic Energy & Attention）](/entries/Psychic-Energy-Attention.md)
-- [学习与条件反射（Learning & Conditioning）](/entries/Learning-Conditioning.md)
-- [情绪调节（Emotion Regulation）](/entries/Emotion-Regulation.md)
-- [心理防御机制（Defense Mechanisms）](/entries/Defense-Mechanisms.md)
-- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
-- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
-- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
-- [自我概念（Self-Concept）](/entries/Self-Concept.md)
+- [心理能量与注意资源（Psychic Energy & Attention）](Psychic-Energy-Attention.md)
+- [学习与条件反射（Learning & Conditioning）](Learning-Conditioning.md)
+- [情绪调节（Emotion Regulation）](Emotion-Regulation.md)
+- [心理防御机制（Defense Mechanisms）](Defense-Mechanisms.md)
+- [人格结构理论（Personality Structure Theory, Freud）](Personality-Structure-Theory.md)
+- [人本主义心理学（Humanistic Psychology）](Humanistic-Psychology.md)
+- [心理弹性（Psychological Resilience）](Psychological-Resilience.md)
+- [自我概念（Self-Concept）](Self-Concept.md)
 
 ## 参考与延伸阅读
 

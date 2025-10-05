@@ -30,14 +30,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [前台（Front / Fronting）](/entries/Front-Fronting.md)
-- [成员（Alter）](/entries/Alter.md)
-- [共前台（Co-fronting）](/entries/Co-Fronting.md)
-- [后台（Back / Being Back）](/entries/Back-Being-Back.md)
-- [外投射（External Projection）](/entries/External-Projection.md)
-- [切换（Switch）](/entries/Switch.md)
-- [内部空间（Headspace / Inner World）](/entries/Headspace-Inner-World.md)
-- [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
+- [前台（Front / Fronting）](Front-Fronting.md)
+- [成员（Alter）](Alter.md)
+- [共前台（Co-fronting）](Co-Fronting.md)
+- [后台（Back / Being Back）](Back-Being-Back.md)
+- [外投射（External Projection）](External-Projection.md)
+- [切换（Switch）](Switch.md)
+- [内部空间（Headspace / Inner World）](Headspace-Inner-World.md)
+- [内视（Visualization / Imagination）](Visualization-Imagination.md)
 
 ## 参考与延伸阅读
 

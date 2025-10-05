@@ -35,14 +35,14 @@ updated: 2025-10-04
 
 ## 相关条目
 
-- [非我感（Depersonalization）](/entries/Depersonalization.md)
-- [应激反应（Stress Response）](/entries/Stress-Response.md)
-- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
-- [融合（Fusion）](/entries/Fusion.md)
-- [重构（Reconstruction）](/entries/Reconstruction.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
-- [迭代（Iteration）](/entries/Iteration.md)
-- [独立性（Independence）](/entries/Independence.md)
+- [非我感（Depersonalization）](Depersonalization.md)
+- [应激反应（Stress Response）](Stress-Response.md)
+- [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)
+- [融合（Fusion）](Fusion.md)
+- [重构（Reconstruction）](Reconstruction.md)
+- [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)
+- [迭代（Iteration）](Iteration.md)
+- [独立性（Independence）](Independence.md)
 
 ## 参考资料
 

@@ -47,11 +47,11 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [人格职能（System Roles）](/entries/System-Roles.md)
-- [迫害者（Persecutor）](/entries/Persecutor.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
-- [独有记忆（Exomemory）](/entries/Exomemory.md)
-- [小孩意识体（Little / Child Part）](/entries/Little.md)
-- [碎片（Fragment）](/entries/Fragment.md)
-- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
-- [青少年意识体（Teen Part）](/entries/Teen.md)
+- [人格职能（System Roles）](System-Roles.md)
+- [迫害者（Persecutor）](Persecutor.md)
+- [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)
+- [独有记忆（Exomemory）](Exomemory.md)
+- [小孩意识体（Little / Child Part）](Little.md)
+- [碎片（Fragment）](Fragment.md)
+- [执行者（Performer / Executive）](Performer-Executive.md)
+- [青少年意识体（Teen Part）](Teen.md)

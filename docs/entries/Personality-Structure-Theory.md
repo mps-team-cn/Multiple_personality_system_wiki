@@ -34,19 +34,19 @@ updated: 2025-10-05
 ## 实践应用与建议
 
 - 分析成员在冲突中的角色，辨别其更接近本我、自我或超我的功能。
-- 使用[心理防御机制](entries/Defense-Mechanisms.md)概念理解冲突来源，帮助成员合作。
+- 使用[心理防御机制](Defense-Mechanisms.md)概念理解冲突来源，帮助成员合作。
 - 在治疗中讨论价值观、规则与欲望如何在系统内分配，促进内部治理。
 
 ## 相关条目
 
-- [自我概念（Self-Concept）](/entries/Self-Concept.md)
-- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
-- [自我效能感（Self-Efficacy）](/entries/Self-Efficacy.md)
-- [自我决定理论（Self-Determination Theory）](/entries/Self-Determination-Theory.md)
-- [动机理论（Motivation Theories）](/entries/Motivation-Theories.md)
-- [心理防御机制（Defense Mechanisms）](/entries/Defense-Mechanisms.md)
-- [社会认知理论（Social-Cognitive Theory）](/entries/Social-Cognitive-Theory.md)
-- [依恋理论（Attachment Theory）](/entries/Attachment-Theory.md)
+- [自我概念（Self-Concept）](Self-Concept.md)
+- [人本主义心理学（Humanistic Psychology）](Humanistic-Psychology.md)
+- [自我效能感（Self-Efficacy）](Self-Efficacy.md)
+- [自我决定理论（Self-Determination Theory）](Self-Determination-Theory.md)
+- [动机理论（Motivation Theories）](Motivation-Theories.md)
+- [心理防御机制（Defense Mechanisms）](Defense-Mechanisms.md)
+- [社会认知理论（Social-Cognitive Theory）](Social-Cognitive-Theory.md)
+- [依恋理论（Attachment Theory）](Attachment-Theory.md)
 
 ## 参考与延伸阅读
 

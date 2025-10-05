@@ -28,7 +28,7 @@ updated: 2025-10-03
 
 ## 与其他角色的区分
 
-- **青少年意识体（Teen Part）**：青少年成员展现青春期特征与独立需求，区别于童年取向。详见《[青少年意识体（Teen Part）](entries/Teen.md)》。
+- **青少年意识体（Teen Part）**：青少年成员展现青春期特征与独立需求，区别于童年取向。详见《[青少年意识体（Teen Part）](Teen.md)》。
 - **回归状态**：一般心理学的“回归”指暂时的情绪退行，而小孩意识体是相对持续的身份结构。
 
 ## 支持策略
@@ -50,11 +50,11 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [青少年意识体（Teen Part）](/entries/Teen.md)
-- [照顾者（Caregiver）](/entries/Caregiver.md)
-- [人格职能（System Roles）](/entries/System-Roles.md)
-- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
-- [保护者（Protector）](/entries/Protector.md)
-- [迫害者（Persecutor）](/entries/Persecutor.md)
-- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
-- [内部沟通（Internal Communication）](/entries/Internal-Communication.md)
+- [青少年意识体（Teen Part）](Teen.md)
+- [照顾者（Caregiver）](Caregiver.md)
+- [人格职能（System Roles）](System-Roles.md)
+- [执行者（Performer / Executive）](Performer-Executive.md)
+- [保护者（Protector）](Protector.md)
+- [迫害者（Persecutor）](Persecutor.md)
+- [记忆持有者（Memory Holder）](Memory-Holder.md)
+- [内部沟通（Internal Communication）](Internal-Communication.md)

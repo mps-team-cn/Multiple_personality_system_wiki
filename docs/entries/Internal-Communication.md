@@ -43,14 +43,14 @@ updated: 2025-10-04
 
 ## 相关条目
 
-- [保护者（Protector）](/entries/Protector.md)
-- [小孩意识体（Little / Child Part）](/entries/Little.md)
-- [人格职能（System Roles）](/entries/System-Roles.md)
-- [照顾者（Caregiver）](/entries/Caregiver.md)
-- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
-- [青少年意识体（Teen Part）](/entries/Teen.md)
-- [成员（Alter）](/entries/Alter.md)
-- [迫害者（Persecutor）](/entries/Persecutor.md)
+- [保护者（Protector）](Protector.md)
+- [小孩意识体（Little / Child Part）](Little.md)
+- [人格职能（System Roles）](System-Roles.md)
+- [照顾者（Caregiver）](Caregiver.md)
+- [执行者（Performer / Executive）](Performer-Executive.md)
+- [青少年意识体（Teen Part）](Teen.md)
+- [成员（Alter）](Alter.md)
+- [迫害者（Persecutor）](Persecutor.md)
 
 ## 参考资料
 

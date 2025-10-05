@@ -26,20 +26,20 @@ updated: 2025-10-03
 
 ## 关联词条
 
-- [心灵造物（Servitor）](entries/Servitor.md)
-- [存在感（Sense of Presence）](entries/Sense-Of-Presence.md)
-- [图帕（Tulpa）](entries/Tulpa.md)
+- [心灵造物（Servitor）](Servitor.md)
+- [存在感（Sense of Presence）](Sense-Of-Presence.md)
+- [图帕（Tulpa）](Tulpa.md)
 
 ## 相关条目
 
-- [洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）](/entries/Lovecraft-Tulpa-Motifs.md)
-- [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](/entries/Madoka-Magica-Kyubey-Otherness.md)
-- [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](/entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
-- [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](/entries/Touhou-Tulpa-Fandom.md)
-- [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](/entries/Nonexistent-You-And-Me-Tulpa-Lilith.md)
-- [投影（Projection）](/entries/Projection.md)
-- [傀儡（Servitor）](/entries/Servitor.md)
-- [头压（Head Pressure）](/entries/Head-Pressure.md)
+- [洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）](Lovecraft-Tulpa-Motifs.md)
+- [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](Madoka-Magica-Kyubey-Otherness.md)
+- [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
+- [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](Touhou-Tulpa-Fandom.md)
+- [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](Nonexistent-You-And-Me-Tulpa-Lilith.md)
+- [投影（Projection）](Projection.md)
+- [傀儡（Servitor）](Servitor.md)
+- [头压（Head Pressure）](Head-Pressure.md)
 
 ## 参考资料
 

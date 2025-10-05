@@ -68,14 +68,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [《我与梦露的一周》（The United States of Tara）中的系统家庭日常](/entries/United-States-Of-Tara-System-Daily-Life.md)
-- [《隐形人》（Mr. Robot）中的人格分裂叙事](/entries/Mr-Robot-DID-Narrative.md)
-- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
-- [神经多样性（Neurodiversity）](/entries/Neurodiversity.md)
-- [《西比尔》（Sybil, 1976）与多重人格文化原型](/entries/Sybil-1976-Cultural-Prototype.md)
-- [情绪调节（Emotion Regulation）](/entries/Emotion-Regulation.md)
-- [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](/entries/Three-Faces-Of-Eve-1957-Dissociation.md)
-- [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [《我与梦露的一周》（The United States of Tara）中的系统家庭日常](United-States-Of-Tara-System-Daily-Life.md)
+- [《隐形人》（Mr. Robot）中的人格分裂叙事](Mr-Robot-DID-Narrative.md)
+- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](Kafka-Metamorphosis-Identity-Dissolution.md)
+- [神经多样性（Neurodiversity）](Neurodiversity.md)
+- [《西比尔》（Sybil, 1976）与多重人格文化原型](Sybil-1976-Cultural-Prototype.md)
+- [情绪调节（Emotion Regulation）](Emotion-Regulation.md)
+- [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](Three-Faces-Of-Eve-1957-Dissociation.md)
+- [应激反应（Stress Response）](Stress-Response.md)
 
 ## 参考与延伸阅读
 

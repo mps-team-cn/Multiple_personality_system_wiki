@@ -27,19 +27,19 @@ updated: 2025-10-03
 
 ## 与相关概念的关系
 
-- **迭代**：重构聚焦于单一或少数成员的更替；若系统大规模失衡并重新组建，则更接近“[迭代](entries/Iteration.md)”的描述。
+- **迭代**：重构聚焦于单一或少数成员的更替；若系统大规模失衡并重新组建，则更接近“[迭代](Iteration.md)”的描述。
 - **融合与整合**：重构不等同于融合。融合强调身份间合并；重构则是在保持多重身份前提下的角色转换。若新成员能共享信息与合作，同样可视为整合进展的一部分。
 
 ## 相关条目
 
-- [迭代（Iteration）](/entries/Iteration.md)
-- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
-- [非我感（Depersonalization）](/entries/Depersonalization.md)
-- [封存（Sequestration）](/entries/Sequestration.md)
-- [融合（Fusion）](/entries/Fusion.md)
-- [初始（Original）](/entries/Original.md)
-- [应激反应（Stress Response）](/entries/Stress-Response.md)
-- [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [迭代（Iteration）](Iteration.md)
+- [意识修改（Consciousness Modification）](Consciousness-Modification.md)
+- [非我感（Depersonalization）](Depersonalization.md)
+- [封存（Sequestration）](Sequestration.md)
+- [融合（Fusion）](Fusion.md)
+- [初始（Original）](Original.md)
+- [应激反应（Stress Response）](Stress-Response.md)
+- [独有记忆（Exomemory）](Exomemory.md)
 
 ## 参考资料
 

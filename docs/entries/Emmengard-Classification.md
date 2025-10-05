@@ -23,11 +23,11 @@ updated: 2025-10-03
 
 ### 适应型（Adaptive）
 
-旧称“创伤型（Traumagenic）”。指系统主要因应对创伤或持续压力而形成，常见于解离性身份障碍（DID）或其他特定解离性障碍（OSDD）的背景中。成员往往在童年或长期创伤情境中，为保护个体或分担功能而产生。详见[《适应型（Adaptive）》](entries/Adaptive.md)以了解形成背景、常见体验与支持建议。
+旧称“创伤型（Traumagenic）”。指系统主要因应对创伤或持续压力而形成，常见于解离性身份障碍（DID）或其他特定解离性障碍（OSDD）的背景中。成员往往在童年或长期创伤情境中，为保护个体或分担功能而产生。详见[《适应型（Adaptive）》](Adaptive.md)以了解形成背景、常见体验与支持建议。
 
 ### 自发型（Spontaneous）
 
-指系统并非以创伤为核心成因，而是自然显现、灵性实践或认知演化过程的结果。成员可能在探索意识、冥想或内在成长中自发出现，强调与创伤无直接关联。更多说明可参阅[《自发型（Spontaneous）》](entries/Spontaneous.md)，了解其形成途径与社群讨论重点。
+指系统并非以创伤为核心成因，而是自然显现、灵性实践或认知演化过程的结果。成员可能在探索意识、冥想或内在成长中自发出现，强调与创伤无直接关联。更多说明可参阅[《自发型（Spontaneous）》](Spontaneous.md)，了解其形成途径与社群讨论重点。
 
 ### 创造型（Created）
 
@@ -43,14 +43,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [适应型（Adaptive）](/entries/Adaptive.md)
-- [自发型（Spontaneous）](/entries/Spontaneous.md)
-- [《妄想代理人》（Paranoia Agent）与集体意识的具象化](/entries/Paranoia-Agent-Collective-Consciousness.md)
-- [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](/entries/Madoka-Magica-Kyubey-Otherness.md)
-- [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](/entries/Touhou-Tulpa-Fandom.md)
-- [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](/entries/Nonexistent-You-And-Me-Tulpa-Lilith.md)
-- [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](/entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
-- [洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）](/entries/Lovecraft-Tulpa-Motifs.md)
+- [适应型（Adaptive）](Adaptive.md)
+- [自发型（Spontaneous）](Spontaneous.md)
+- [《妄想代理人》（Paranoia Agent）与集体意识的具象化](Paranoia-Agent-Collective-Consciousness.md)
+- [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](Madoka-Magica-Kyubey-Otherness.md)
+- [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](Touhou-Tulpa-Fandom.md)
+- [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](Nonexistent-You-And-Me-Tulpa-Lilith.md)
+- [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
+- [洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）](Lovecraft-Tulpa-Motifs.md)
 
 ## 实践建议
 

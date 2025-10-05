@@ -77,14 +77,14 @@ Median 体验、半多意识体、半分离系统
 
 ## 相关条目
 
-- [系魂型系统（Soul-Linked Systems, Xianyu Theory）](/entries/Soul-Linked-Systems-Xianyu.md)
-- [单一类系统（Single-Class Systems, Xianyu Theory）](/entries/Single-Class-Systems-Xianyu.md)
-- [家族式系统（Family Systems, Xianyu Theory）](/entries/Family-Systems-Xianyu.md)
-- [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](/entries/Xianyu-Theory-Niche-Classification.md)
-- [混合型系统（Mixed Systems, Xianyu Theory）](/entries/Mixed-Systems-Xianyu.md)
-- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
-- [T 语（Tulpish）](/entries/Tulpish.md)
-- [非我感（Depersonalization）](/entries/Depersonalization.md)
+- [系魂型系统（Soul-Linked Systems, Xianyu Theory）](Soul-Linked-Systems-Xianyu.md)
+- [单一类系统（Single-Class Systems, Xianyu Theory）](Single-Class-Systems-Xianyu.md)
+- [家族式系统（Family Systems, Xianyu Theory）](Family-Systems-Xianyu.md)
+- [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](Xianyu-Theory-Niche-Classification.md)
+- [混合型系统（Mixed Systems, Xianyu Theory）](Mixed-Systems-Xianyu.md)
+- [强迫症（Obsessive-Compulsive Disorder, OCD）](OCD.md)
+- [T 语（Tulpish）](Tulpish.md)
+- [非我感（Depersonalization）](Depersonalization.md)
 
 ## 参考资料
 

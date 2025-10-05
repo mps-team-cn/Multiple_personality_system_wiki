@@ -29,7 +29,7 @@ updated: 2025-10-05
 
 ## 在多意识体与解离语境中的意义
 
-多重意识体系统中，成员共享身体与认知资源。频繁切换、压抑情绪或处理创伤记忆都会消耗心理能量。清楚掌握能量状态，有助于安排成员轮值、维持[情绪调节](entries/Emotion-Regulation.md)与日常功能。
+多重意识体系统中，成员共享身体与认知资源。频繁切换、压抑情绪或处理创伤记忆都会消耗心理能量。清楚掌握能量状态，有助于安排成员轮值、维持[情绪调节](Emotion-Regulation.md)与日常功能。
 
 ## 实践应用与建议
 
@@ -39,14 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [注意与觉察（Attention & Awareness）](/entries/Attention-Awareness.md)
-- [学习与条件反射（Learning & Conditioning）](/entries/Learning-Conditioning.md)
-- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
-- [自我概念（Self-Concept）](/entries/Self-Concept.md)
-- [自我效能感（Self-Efficacy）](/entries/Self-Efficacy.md)
-- [自我决定理论（Self-Determination Theory）](/entries/Self-Determination-Theory.md)
-- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
-- [动机理论（Motivation Theories）](/entries/Motivation-Theories.md)
+- [注意与觉察（Attention & Awareness）](Attention-Awareness.md)
+- [学习与条件反射（Learning & Conditioning）](Learning-Conditioning.md)
+- [人格结构理论（Personality Structure Theory, Freud）](Personality-Structure-Theory.md)
+- [自我概念（Self-Concept）](Self-Concept.md)
+- [自我效能感（Self-Efficacy）](Self-Efficacy.md)
+- [自我决定理论（Self-Determination Theory）](Self-Determination-Theory.md)
+- [心理弹性（Psychological Resilience）](Psychological-Resilience.md)
+- [动机理论（Motivation Theories）](Motivation-Theories.md)
 
 ## 参考与延伸阅读
 

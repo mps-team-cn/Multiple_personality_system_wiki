@@ -25,20 +25,20 @@ updated: 2025-10-03
 
 ## 关联词条
 
-- [记忆封存（Sequestration）](entries/Sequestration.md)
-- [解离性身份障碍（DID）](entries/DID.md)
-- [触发（Trigger）](entries/Trigger.md)
+- [记忆封存（Sequestration）](Sequestration.md)
+- [解离性身份障碍（DID）](DID.md)
+- [触发（Trigger）](Trigger.md)
 
 ## 相关条目
 
-- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](/entries/Another-Me-DID-Depictions.md)
-- [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
-- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](/entries/Fight-Club-1999-Identity-Metaphor.md)
-- [系统（System）](/entries/System.md)
-- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
-- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
-- [多意识体（Plurality）](/entries/Plurality.md)
-- [混合（Blending）](/entries/Blending.md)
+- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](Another-Me-DID-Depictions.md)
+- [《分裂》（Split, 2016）中的 DID 形象分析](Split-2016-DID-Representation.md)
+- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](Fight-Club-1999-Identity-Metaphor.md)
+- [系统（System）](System.md)
+- [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
+- [多重意识体基础（Plurality Basics）](Plurality-Basics.md)
+- [多意识体（Plurality）](Plurality.md)
+- [混合（Blending）](Blending.md)
 
 ## 参考资料
 

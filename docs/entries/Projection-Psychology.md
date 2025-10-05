@@ -29,7 +29,7 @@ updated: 2025-10-05
 
 ## 在多意识体与解离语境中的意义
 
-系统成员可能将自己难以承受的情绪投射到其他成员或外部世界，从而引发冲突或误解。例如，迫害者成员可能承载被投射的愤怒。识别投射有助于调整内部沟通，避免因误读而造成进一步的[认知失调](entries/Cognitive-Dissonance.md)或分裂。
+系统成员可能将自己难以承受的情绪投射到其他成员或外部世界，从而引发冲突或误解。例如，迫害者成员可能承载被投射的愤怒。识别投射有助于调整内部沟通，避免因误读而造成进一步的[认知失调](Cognitive-Dissonance.md)或分裂。
 
 ## 实践应用与建议
 
@@ -39,14 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [心理防御机制（Defense Mechanisms）](/entries/Defense-Mechanisms.md)
-- [认知失调（Cognitive Dissonance）](/entries/Cognitive-Dissonance.md)
-- [外投射（External Projection）](/entries/External-Projection.md)
-- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
-- [移情与反移情（Transference and Countertransference）](/entries/Transference-Countertransference.md)
-- [情绪调节（Emotion Regulation）](/entries/Emotion-Regulation.md)
-- [高敏感人群（Highly Sensitive Person, HSP）](/entries/Highly-Sensitive-Person.md)
-- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
+- [心理防御机制（Defense Mechanisms）](Defense-Mechanisms.md)
+- [认知失调（Cognitive Dissonance）](Cognitive-Dissonance.md)
+- [外投射（External Projection）](External-Projection.md)
+- [人格结构理论（Personality Structure Theory, Freud）](Personality-Structure-Theory.md)
+- [移情与反移情（Transference and Countertransference）](Transference-Countertransference.md)
+- [情绪调节（Emotion Regulation）](Emotion-Regulation.md)
+- [高敏感人群（Highly Sensitive Person, HSP）](Highly-Sensitive-Person.md)
+- [人本主义心理学（Humanistic Psychology）](Humanistic-Psychology.md)
 
 ## 参考与延伸阅读
 

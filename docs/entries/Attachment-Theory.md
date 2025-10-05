@@ -29,7 +29,7 @@ updated: 2025-10-05
 
 ## 在多意识体与解离语境中的意义
 
-复杂创伤往往伴随不安全依恋，导致[解离](entries/Dissociation.md)与身份分裂。系统成员可能分别承载不同的依恋需求，如保护者内化照顾者角色、儿童部分寻求安慰。识别依恋模式有助于制定内部支持策略，并与治疗师建立更稳定的治疗联盟。
+复杂创伤往往伴随不安全依恋，导致[解离](Dissociation.md)与身份分裂。系统成员可能分别承载不同的依恋需求，如保护者内化照顾者角色、儿童部分寻求安慰。识别依恋模式有助于制定内部支持策略，并与治疗师建立更稳定的治疗联盟。
 
 ## 实践应用与建议
 
@@ -39,14 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
-- [自我效能感（Self-Efficacy）](/entries/Self-Efficacy.md)
-- [动机理论（Motivation Theories）](/entries/Motivation-Theories.md)
-- [自我决定理论（Self-Determination Theory）](/entries/Self-Determination-Theory.md)
-- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
-- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
-- [社会认知理论（Social-Cognitive Theory）](/entries/Social-Cognitive-Theory.md)
-- [自我概念（Self-Concept）](/entries/Self-Concept.md)
+- [人本主义心理学（Humanistic Psychology）](Humanistic-Psychology.md)
+- [自我效能感（Self-Efficacy）](Self-Efficacy.md)
+- [动机理论（Motivation Theories）](Motivation-Theories.md)
+- [自我决定理论（Self-Determination Theory）](Self-Determination-Theory.md)
+- [心理弹性（Psychological Resilience）](Psychological-Resilience.md)
+- [人格结构理论（Personality Structure Theory, Freud）](Personality-Structure-Theory.md)
+- [社会认知理论（Social-Cognitive Theory）](Social-Cognitive-Theory.md)
+- [自我概念（Self-Concept）](Self-Concept.md)
 
 ## 参考与延伸阅读
 

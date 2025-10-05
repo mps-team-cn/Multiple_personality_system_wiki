@@ -48,14 +48,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [守门人（Gatekeeper）](/entries/Gatekeeper.md)
-- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
-- [混合（Blending）](/entries/Blending.md)
-- [整合（Integration）](/entries/Integration.md)
-- [多意识体（Plurality）](/entries/Plurality.md)
-- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
-- [成员（Alter）](/entries/Alter.md)
-- [伪主体（Fauxmain）](/entries/Fauxmain.md)
+- [守门人（Gatekeeper）](Gatekeeper.md)
+- [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
+- [混合（Blending）](Blending.md)
+- [整合（Integration）](Integration.md)
+- [多意识体（Plurality）](Plurality.md)
+- [多重意识体基础（Plurality Basics）](Plurality-Basics.md)
+- [成员（Alter）](Alter.md)
+- [伪主体（Fauxmain）](Fauxmain.md)
 
 ## 参考与延伸阅读
 

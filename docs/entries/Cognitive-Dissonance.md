@@ -29,7 +29,7 @@ updated: 2025-10-05
 
 ## 在多意识体与解离语境中的意义
 
-多重意识体系统中的不同成员可能持有迥异记忆与信念，导致内部认知失调。系统通过分工、记忆隔离或建立共享叙事来减轻冲突，类似防御机制中的分隔策略。理解认知失调有助于促进成员之间的对话，避免因矛盾感而触发[解离](entries/Dissociation.md)或攻击性防御。
+多重意识体系统中的不同成员可能持有迥异记忆与信念，导致内部认知失调。系统通过分工、记忆隔离或建立共享叙事来减轻冲突，类似防御机制中的分隔策略。理解认知失调有助于促进成员之间的对话，避免因矛盾感而触发[解离](Dissociation.md)或攻击性防御。
 
 ## 实践应用与建议
 
@@ -39,14 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [自我决定理论（Self-Determination Theory）](/entries/Self-Determination-Theory.md)
-- [社会认知理论（Social-Cognitive Theory）](/entries/Social-Cognitive-Theory.md)
-- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
-- [动机理论（Motivation Theories）](/entries/Motivation-Theories.md)
-- [自我效能感（Self-Efficacy）](/entries/Self-Efficacy.md)
-- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
-- [自我概念（Self-Concept）](/entries/Self-Concept.md)
-- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
+- [自我决定理论（Self-Determination Theory）](Self-Determination-Theory.md)
+- [社会认知理论（Social-Cognitive Theory）](Social-Cognitive-Theory.md)
+- [人本主义心理学（Humanistic Psychology）](Humanistic-Psychology.md)
+- [动机理论（Motivation Theories）](Motivation-Theories.md)
+- [自我效能感（Self-Efficacy）](Self-Efficacy.md)
+- [心理弹性（Psychological Resilience）](Psychological-Resilience.md)
+- [自我概念（Self-Concept）](Self-Concept.md)
+- [人格结构理论（Personality Structure Theory, Freud）](Personality-Structure-Theory.md)
 
 ## 参考与延伸阅读
 

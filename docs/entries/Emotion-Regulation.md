@@ -29,24 +29,24 @@ updated: 2025-10-05
 
 ## 在多意识体与解离语境中的意义
 
-多重意识体系统中，成员对情绪调节的能力差异较大。某些成员可能专长于[防御性解离](entries/Defensive-Dissociation.md)，而其他成员负责感受与表达情绪。建立共享的调节策略可以降低切换频率，提升整体功能。
+多重意识体系统中，成员对情绪调节的能力差异较大。某些成员可能专长于[防御性解离](Defensive-Dissociation.md)，而其他成员负责感受与表达情绪。建立共享的调节策略可以降低切换频率，提升整体功能。
 
 ## 实践应用与建议
 
 - 建立“调节工具箱”，列出呼吸、感官刺激、正念等技巧，供成员轮值使用。
 - 在内部会议中回顾调节策略的效果，持续迭代。
-- 结合[心理能量与注意资源](entries/Psychic-Energy-Attention.md)概念，避免在低能量状态下过度依赖压抑策略。
+- 结合[心理能量与注意资源](Psychic-Energy-Attention.md)概念，避免在低能量状态下过度依赖压抑策略。
 
 ## 相关条目
 
-- [心理防御机制（Defense Mechanisms）](/entries/Defense-Mechanisms.md)
-- [高敏感人群（Highly Sensitive Person, HSP）](/entries/Highly-Sensitive-Person.md)
-- [认知失调（Cognitive Dissonance）](/entries/Cognitive-Dissonance.md)
-- [投射（Projection, Psychology）](/entries/Projection-Psychology.md)
-- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
-- [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
-- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
-- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
+- [心理防御机制（Defense Mechanisms）](Defense-Mechanisms.md)
+- [高敏感人群（Highly Sensitive Person, HSP）](Highly-Sensitive-Person.md)
+- [认知失调（Cognitive Dissonance）](Cognitive-Dissonance.md)
+- [投射（Projection, Psychology）](Projection-Psychology.md)
+- [心理弹性（Psychological Resilience）](Psychological-Resilience.md)
+- [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)
+- [人格结构理论（Personality Structure Theory, Freud）](Personality-Structure-Theory.md)
+- [人本主义心理学（Humanistic Psychology）](Humanistic-Psychology.md)
 
 ## 参考与延伸阅读
 

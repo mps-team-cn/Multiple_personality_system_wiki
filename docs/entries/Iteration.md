@@ -16,7 +16,7 @@ updated: 2025-10-03
 ## 触发机制
 
 - **高压或创伤复燃**：当系统在未具备稳定化技巧时暴露于强烈触发，既有的合作结构可能解体，导致原有部分被动退场，留下新的或年幼的防御性身份来承担压力。
-- **融合后的反弹**：若在未充分处理创伤记忆与生活适应的情况下推动融合（参见“[融合](entries/Fusion.md)”条目），可能出现“再分离”，即已融合的部分重新区分甚至产生额外身份。
+- **融合后的反弹**：若在未充分处理创伤记忆与生活适应的情况下推动融合（参见“[融合](Fusion.md)”条目），可能出现“再分离”，即已融合的部分重新区分甚至产生额外身份。
 - **外部重大转折**：搬迁、亲密关系终结或医疗危机等事件也会迫使系统重新配置角色，以便满足新的环境需求。
 
 ## 应对策略
@@ -29,18 +29,18 @@ updated: 2025-10-03
 
 - **整合**：广义上指内部合作与记忆共享的提升，不必伴随身份数量变化。
 - **融合**：强调多个身份结构性合并，若维持稳定可减少未来迭代风险。
-- **重构**：指单一成员退场后出现新成员承担原角色，通常规模小于迭代（参见“[重构](entries/Reconstruction.md)”）。
+- **重构**：指单一成员退场后出现新成员承担原角色，通常规模小于迭代（参见“[重构](Reconstruction.md)”）。
 
 ## 相关条目
 
-- [重构（Reconstruction）](/entries/Reconstruction.md)
-- [融合（Fusion）](/entries/Fusion.md)
-- [应激反应（Stress Response）](/entries/Stress-Response.md)
-- [非我感（Depersonalization）](/entries/Depersonalization.md)
-- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
-- [封存（Sequestration）](/entries/Sequestration.md)
-- [人格职能（System Roles）](/entries/System-Roles.md)
-- [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
+- [重构（Reconstruction）](Reconstruction.md)
+- [融合（Fusion）](Fusion.md)
+- [应激反应（Stress Response）](Stress-Response.md)
+- [非我感（Depersonalization）](Depersonalization.md)
+- [意识修改（Consciousness Modification）](Consciousness-Modification.md)
+- [封存（Sequestration）](Sequestration.md)
+- [人格职能（System Roles）](System-Roles.md)
+- [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)
 
 ## 参考资料
 

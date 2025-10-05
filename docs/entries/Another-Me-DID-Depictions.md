@@ -26,20 +26,20 @@ updated: 2025-10-03
 
 ## 关联词条
 
-- [青少年意识体（Teen Part）](entries/Teen.md)
-- [记忆屏蔽（Memory Shielding）](entries/Memory-Shielding.md)
-- [创伤（Trauma）](entries/Trauma.md)
+- [青少年意识体（Teen Part）](Teen.md)
+- [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)
+- [创伤（Trauma）](Trauma.md)
 
 ## 相关条目
 
-- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](/entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
-- [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
-- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](/entries/Fight-Club-1999-Identity-Metaphor.md)
-- [系统（System）](/entries/System.md)
-- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
-- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
-- [多意识体（Plurality）](/entries/Plurality.md)
-- [图帕（Tulpa）](/entries/Tulpa.md)
+- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
+- [《分裂》（Split, 2016）中的 DID 形象分析](Split-2016-DID-Representation.md)
+- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](Fight-Club-1999-Identity-Metaphor.md)
+- [系统（System）](System.md)
+- [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
+- [多重意识体基础（Plurality Basics）](Plurality-Basics.md)
+- [多意识体（Plurality）](Plurality.md)
+- [图帕（Tulpa）](Tulpa.md)
 
 ## 参考资料
 

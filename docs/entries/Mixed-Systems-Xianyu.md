@@ -91,22 +91,22 @@ updated: 2025-03-09
 
 ## 与其他类别的关系
 
-- 混合型系统常由 **[单一类系统](entries/Single-Class-Systems-Xianyu.md)** 演化而来；
-- 在长期演化中，也可能过渡为 **[家族式系统](entries/Family-Systems-Xianyu.md)**；
-- 特殊情况下，可与 **[系魂型系统](entries/Soul-Linked-Systems-Xianyu.md)** 重叠。
+- 混合型系统常由 **[单一类系统](Single-Class-Systems-Xianyu.md)** 演化而来；
+- 在长期演化中，也可能过渡为 **[家族式系统](Family-Systems-Xianyu.md)**；
+- 特殊情况下，可与 **[系魂型系统](Soul-Linked-Systems-Xianyu.md)** 重叠。
 
 ---
 
 ## 相关条目
 
-- [单一类系统（Single-Class Systems, Xianyu Theory）](/entries/Single-Class-Systems-Xianyu.md)
-- [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](/entries/Xianyu-Theory-Niche-Classification.md)
-- [家族式系统（Family Systems, Xianyu Theory）](/entries/Family-Systems-Xianyu.md)
-- [系魂型系统（Soul-Linked Systems, Xianyu Theory）](/entries/Soul-Linked-Systems-Xianyu.md)
-- [T 语（Tulpish）](/entries/Tulpish.md)
-- [创伤（Trauma）](/entries/Trauma.md)
-- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
-- [偏重（Bias / Median）](/entries/Bias.md)
+- [单一类系统（Single-Class Systems, Xianyu Theory）](Single-Class-Systems-Xianyu.md)
+- [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](Xianyu-Theory-Niche-Classification.md)
+- [家族式系统（Family Systems, Xianyu Theory）](Family-Systems-Xianyu.md)
+- [系魂型系统（Soul-Linked Systems, Xianyu Theory）](Soul-Linked-Systems-Xianyu.md)
+- [T 语（Tulpish）](Tulpish.md)
+- [创伤（Trauma）](Trauma.md)
+- [强迫症（Obsessive-Compulsive Disorder, OCD）](OCD.md)
+- [偏重（Bias / Median）](Bias.md)
 
 ## 参考与来源
 

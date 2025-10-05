@@ -30,14 +30,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [独有记忆（Exomemory）](/entries/Exomemory.md)
-- [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
-- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
-- [迭代（Iteration）](/entries/Iteration.md)
-- [重构（Reconstruction）](/entries/Reconstruction.md)
-- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
-- [人格职能（System Roles）](/entries/System-Roles.md)
+- [独有记忆（Exomemory）](Exomemory.md)
+- [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)
+- [记忆持有者（Memory Holder）](Memory-Holder.md)
+- [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)
+- [迭代（Iteration）](Iteration.md)
+- [重构（Reconstruction）](Reconstruction.md)
+- [意识修改（Consciousness Modification）](Consciousness-Modification.md)
+- [人格职能（System Roles）](System-Roles.md)
 
 ## 参考与延伸阅读
 
