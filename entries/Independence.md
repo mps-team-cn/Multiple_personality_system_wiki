@@ -40,9 +40,9 @@ updated: 2025-10-03
 - [非我感（Depersonalization）](/entries/Depersonalization.md)
 - [独有记忆（Exomemory）](/entries/Exomemory.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 - [迭代（Iteration）](/entries/Iteration.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
 - [整合（Integration）](/entries/Integration.md)
 

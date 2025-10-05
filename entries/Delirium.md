@@ -108,10 +108,10 @@ updated: 2025-10-03
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
 - [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 - [躁狂（Mania）](/entries/Mania.md)
+- [轻躁狂（Hypomania）](/entries/Hypomania.md)
+- [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
 - [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
-- [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
-- [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
 
 ## 参考与延伸阅读
 
