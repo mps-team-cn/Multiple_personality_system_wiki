@@ -1,0 +1,176 @@
+# 词条索引（Index）
+
+> 仓库条目按主题分区维护，以下索引按目录与分类列出全部已收录文档。
+> 若需按标签浏览，可参见《[标签索引](tags.md)》。
+
+## 诊断与临床
+
+<!-- trigger-warning:start -->
+<div class="trigger-warning-card">
+  <img
+    src="./assets/trigger-warning.svg"
+    alt="触发警告"
+    class="trigger-warning-card__icon"
+  />
+  <p class="trigger-warning-card__text">
+    <strong>触发警告：</strong>本节条目涉及创伤、精神健康等敏感主题，可能唤起不适回忆，请在安全状态下阅读并注意自我照顾。
+  </p>
+</div>
+<!-- trigger-warning:end -->
+
+- [创伤（Trauma）](entries/Trauma.md)
+- [创伤后应激障碍（PTSD）](entries/PTSD.md)
+- [复杂性创伤后应激障碍（CPTSD）](entries/CPTSD.md)
+- [闪回（Flashback）](entries/Flashback.md)
+- [焦虑（Anxiety）](entries/Anxiety.md)
+- [孤独症谱系（ASD）](entries/Autism-Spectrum-Disorder.md)
+- [注意缺陷多动障碍（ADHD）](entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
+- [抑郁障碍（Depressive Disorders）](entries/Depressive-Disorders.md)
+- [习得性无助（Learned Helplessness）](entries/Learned-Helplessness.md)
+- [心境障碍（Affective Disorders）](entries/Affective-Disorders.md)
+- [双相障碍（Bipolar Disorders）](entries/Bipolar-Disorders.md)
+- [躁狂（Mania）](entries/Mania.md)
+- [轻躁狂（Hypomania）](entries/Hypomania.md)
+- [强迫症（OCD）](entries/OCD.md)
+- [精神分裂症（Schizophrenia，SC）](entries/Schizophrenia-SC.md)
+- [解离性身份障碍（DID）](entries/DID.md)
+- [解离性遗忘（Dissociative Amnesia，DA）](entries/Dissociative-Amnesia-DA.md)
+- [病理性解离（Pathological Dissociation）](entries/Pathological-Dissociation.md)
+- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](entries/Depersonalization-Derealization-Disorder-DPDR.md)
+- [其他特定解离性障碍（OSDD）](entries/OSDD.md)
+- [躯体化障碍（SSD）](entries/Somatic-Symptom-Disorder-SSD.md)
+- [边缘性人格障碍（BPD）](entries/Borderline-Personality-Disorder-BPD.md)
+- [自恋型人格障碍（NPD）](entries/Narcissistic-Personality-Disorder-NPD.md)
+- [部分解离性身份障碍（PDID）](entries/Partial-Dissociative-Identity-Disorder-PDID.md)
+- [述情障碍（Alexithymia）](entries/Alexithymia.md)
+- [谵妄（Delirium）](entries/Delirium.md)
+- [定向障碍（Disorientation）](entries/Disorientation.md)
+
+## 系统角色与类型
+
+- [人格职能（System Roles）](entries/System-Roles.md)
+- [主体（Main）](entries/Main.md)
+- [傀儡（Servitor）](entries/Servitor.md)
+- [内部自助者（ISH）](entries/Internal-Self-Helper-ISH.md)
+- [核心（Core）](entries/Core.md)
+- [特殊认同（Alterhuman）](entries/Alterhuman.md)
+- [管理者（Admin）](entries/Admin.md)
+- [守门人（Gatekeeper）](entries/Gatekeeper.md)
+- [人格面具（Persona）](entries/Persona.md)
+- [伪主体（Fauxmain）](entries/Fauxmain.md)
+- [幻想伙伴（Imaginary Companion）](entries/Imaginary-Companion.md)
+- [混合（Blending）](entries/Blending.md)
+- [碎片（Fragment）](entries/Fragment.md)
+- [超级破碎（Polyfragmented）](entries/Polyfragmented.md)
+- [系魂（Soulbond）](entries/Soulbond.md)
+- [图帕（Tulpa）](entries/Tulpa.md)
+- [宿主（Host）](entries/Host.md)
+- [成员（Alter）](entries/Alter.md)
+- [埃蒙加德分类法（Emmengard Classification）](entries/Emmengard-Classification.md)
+- [适应型（Adaptive）](entries/Adaptive.md)
+- [自发型（Spontaneous）](entries/Spontaneous.md)
+- [初始（Original）](entries/Original.md)
+- [记忆持有者（Memory Holder）](entries/Memory-Holder.md)
+- [迫害者（Persecutor）](entries/Persecutor.md)
+- [小孩意识体（Little / Child Part）](entries/Little.md)
+- [青少年意识体（Teen Part）](entries/Teen.md)
+- [保护者（Protector）](entries/Protector.md)
+- [照顾者（Caregiver）](entries/Caregiver.md)
+- [执行者（Performer / Executive）](entries/Performer-Executive.md)
+
+## 系统体验与机制
+
+- [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](entries/Apparently-Normal-Part-Emotional-Part-Model.md)
+- [共前台（Co-fronting）](entries/Co-Fronting.md)
+- [多重意识体基础（Plurality Basics）](entries/Plurality-Basics.md)
+- [多意识体（Plurality）](entries/Plurality.md)
+- [偏重（Bias）](entries/Bias.md)
+- [前台（Front / Fronting）](entries/Front-Fronting.md)
+- [后台（Back / Being Back）](entries/Back-Being-Back.md)
+- [存在感（Sense of Presence）](entries/Sense-Of-Presence.md)
+- [投影（Projection）](entries/Projection.md)
+- [内视（Visualization / Imagination）](entries/Visualization-Imagination.md)
+- [外投射（External Projection）](entries/External-Projection.md)
+- [封存（Sequestration）](entries/Sequestration.md)
+- [头压（Head Pressure）](entries/Head-Pressure.md)
+- [应激反应（Stress Response）](entries/Stress-Response.md)
+- [侵入性思维（Intrusive Thoughts）](entries/Intrusive-Thoughts.md)
+- [意识修改（Consciousness Modification）](entries/Consciousness-Modification.md)
+- [意识共存（Co-consciousness）](entries/Co-Consciousness.md)
+- [权限（Permissions）](entries/Permissions.md)
+- [独有记忆（Exomemory）](entries/Exomemory.md)
+- [独立性（Independence）](entries/Independence.md)
+- [内部空间（Headspace / Inner World）](entries/Headspace-Inner-World.md)
+- [T 语（Tulpish）](entries/Tulpish.md)
+- [融合（Fusion）](entries/Fusion.md)
+- [记忆屏蔽（Memory Shielding）](entries/Memory-Shielding.md)
+- [迭代（Iteration）](entries/Iteration.md)
+- [解离（Dissociation）](entries/Dissociation.md)
+- [功能性分离（Functional Dissociation）](entries/Functional-Dissociation.md)
+- [结构性解离理论（Theory of Structural Dissociation）](entries/Structural-Dissociation-Theory.md)
+- [神经多样性（Neurodiversity）](entries/Neurodiversity.md)
+- [整合（Integration）](entries/Integration.md)
+- [重构（Reconstruction）](entries/Reconstruction.md)
+- [躯体认同（Body Ownership）](entries/Body-Ownership.md)
+- [非我感（Depersonalization）](entries/Depersonalization.md)
+- [去现实化（Derealization）](entries/Derealization.md)
+- [切换（Switch）](entries/Switch.md)
+- [系统（System）](entries/System.md)
+- [子系统（Subsystem）](entries/Subsystem.md)
+- [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](entries/Xianyu-Theory-Niche-Classification.md)
+- [单一类系统（Single-Class Systems, Xianyu Theory）](entries/Single-Class-Systems-Xianyu.md)
+- [混合型系统（Mixed Systems, Xianyu Theory）](entries/Mixed-Systems-Xianyu.md)
+- [家族式系统（Family Systems, Xianyu Theory）](entries/Family-Systems-Xianyu.md)
+- [系魂型系统（Soul-Linked Systems, Xianyu Theory）](entries/Soul-Linked-Systems-Xianyu.md)
+- [自动驾驶（Autopilot）](entries/Autopilot.md)
+- [触发（Trigger）](entries/Trigger.md)
+- [退行（Regression in Psychology）](entries/Regression-In-Psychology.md)
+- [醉酒解离（Alcohol-Induced Dissociation）](entries/Alcohol-Induced-Dissociation.md)
+
+## 心理学与理论基础
+
+- [心理防御机制（Defense Mechanisms）](entries/Defense-Mechanisms.md)
+- [认知失调（Cognitive Dissonance）](entries/Cognitive-Dissonance.md)
+- [依恋理论（Attachment Theory）](entries/Attachment-Theory.md)
+- [自我概念（Self-Concept）](entries/Self-Concept.md)
+- [投射（Projection, Psychology）](entries/Projection-Psychology.md)
+- [移情与反移情（Transference and Countertransference）](entries/Transference-Countertransference.md)
+- [人格结构理论（Personality Structure Theory, Freud）](entries/Personality-Structure-Theory.md)
+- [防御性解离（Defensive Dissociation）](entries/Defensive-Dissociation.md)
+- [情绪调节（Emotion Regulation）](entries/Emotion-Regulation.md)
+- [心理能量与注意资源（Psychic Energy & Attention）](entries/Psychic-Energy-Attention.md)
+- [心理弹性（Psychological Resilience）](entries/Psychological-Resilience.md)
+- [自我效能感（Self-Efficacy）](entries/Self-Efficacy.md)
+- [人本主义心理学（Humanistic Psychology）](entries/Humanistic-Psychology.md)
+- [社会认知理论（Social-Cognitive Theory）](entries/Social-Cognitive-Theory.md)
+- [动机理论（Motivation Theories）](entries/Motivation-Theories.md)
+- [自我决定理论（Self-Determination Theory）](entries/Self-Determination-Theory.md)
+- [注意与觉察（Attention & Awareness）](entries/Attention-Awareness.md)
+- [学习与条件反射（Learning & Conditioning）](entries/Learning-Conditioning.md)
+- [高敏感人群（Highly Sensitive Person, HSP）](entries/Highly-Sensitive-Person.md)
+
+## 实践与支持
+
+- [感官调节策略（Sensory Regulation Strategies）](entries/Sensory-Regulation-Strategies.md)
+- [冥想（Meditation）](entries/Meditation.md)
+- [接地（Grounding）](entries/Grounding.md)
+- [内部沟通（Internal Communication）](entries/Internal-Communication.md)
+
+## 虚拟角色与文学影视作品
+
+- [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](entries/Nonexistent-You-And-Me-Tulpa-Lilith.md)
+- [《分裂》（Split, 2016）中的 DID 形象分析](entries/Split-2016-DID-Representation.md)
+- [《不可饶恕的她》对多重人格的叙事化呈现](entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
+- [《西比尔》（Sybil, 1976）与多重人格文化原型](entries/Sybil-1976-Cultural-Prototype.md)
+- [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](entries/Three-Faces-Of-Eve-1957-Dissociation.md)
+- [《我与梦露的一周》（The United States of Tara）中的系统家庭日常](entries/United-States-Of-Tara-System-Daily-Life.md)
+- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](entries/Fight-Club-1999-Identity-Metaphor.md)
+- [《隐形人》（Mr. Robot）中的人格分裂叙事](entries/Mr-Robot-DID-Narrative.md)
+- [《妄想代理人》（Paranoia Agent）与集体意识的具象化](entries/Paranoia-Agent-Collective-Consciousness.md)
+- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](entries/Dostoevsky-The-Double-Self-Division.md)
+- [卡夫卡《变形记》与异化的身份解体](entries/Kafka-Metamorphosis-Identity-Dissolution.md)
+- [洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射](entries/Lovecraft-Tulpa-Motifs.md)
+- [《Another Me》/《双重人格》类作品的 DID 表现](entries/Another-Me-DID-Depictions.md)
+- [《魔法少女小圆》中的丘比与契约式“他者”](entries/Madoka-Magica-Kyubey-Otherness.md)
+- [《东方 Project》同人圈中的 Tulpa 文化解读](entries/Touhou-Tulpa-Fandom.md)
+- [虚拟偶像与 Tulpa 的边界：初音未来现象](entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)

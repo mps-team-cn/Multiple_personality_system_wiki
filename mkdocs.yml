@@ -1,7 +1,7 @@
 site_name: Plurality Wiki - 多意识体百科
 site_url: https://wiki.pluralitycn.com
 site_description: 多重意识体系统（Plurality）与创伤相关主题的中文知识库
-site_author: 脸脸系统、弦羽系统、暮雨系统及社区贡献者
+site_author: 脸脸系统、弦羽系统、逝水流年系统及社区贡献者
 repo_url: https://github.com/kuliantnt/plurality_wiki
 repo_name: plurality_wiki
 copyright: Copyright &copy; 2024-2025 Plurality Wiki
@@ -9,7 +9,7 @@ copyright: Copyright &copy; 2024-2025 Plurality Wiki
 theme:
   name: material
   language: zh
-  custom_dir: overrides
+  # custom_dir: overrides  # 暂时注释,需要时可创建该目录进行主题自定义
 
   # 颜色配置
   palette:
@@ -87,42 +87,42 @@ extra:
       link: https://github.com/kuliantnt/plurality_wiki
       name: GitHub 仓库
 
-  # 分析
-  analytics:
-    provider: google
-    property: !ENV GOOGLE_ANALYTICS_KEY
-    feedback:
-      title: 这个页面有帮助吗?
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: 很有帮助
-          data: 1
-          note: >-
-            感谢您的反馈!
-        - icon: material/emoticon-sad-outline
-          name: 有待改进
-          data: 0
-          note: >-
-            感谢您的反馈! 请在
-            <a href="https://github.com/kuliantnt/plurality_wiki/issues" target="_blank" rel="noopener">GitHub</a>
-            提出改进建议。
+  # 分析（本地开发时注释，部署时启用）
+  # analytics:
+  #   provider: google
+  #   property: !ENV GOOGLE_ANALYTICS_KEY
+  #   feedback:
+  #     title: 这个页面有帮助吗?
+  #     ratings:
+  #       - icon: material/emoticon-happy-outline
+  #         name: 很有帮助
+  #         data: 1
+  #         note: >-
+  #           感谢您的反馈!
+  #       - icon: material/emoticon-sad-outline
+  #         name: 有待改进
+  #         data: 0
+  #         note: >-
+  #           感谢您的反馈! 请在
+  #           <a href="https://github.com/kuliantnt/plurality_wiki/issues" target="_blank" rel="noopener">GitHub</a>
+  #           提出改进建议。
 
-  # 版本控制
-  version:
-    provider: mike
+  # 版本控制（暂未启用，计划中）
+  # version:
+  #   provider: mike
 
-  # 替代语言
-  alternate:
-    - name: 简体中文
-      link: /
-      lang: zh
-    - name: English
-      link: /en/
-      lang: en
+  # 替代语言（暂未启用多语言支持）
+  # alternate:
+  #   - name: 简体中文
+  #     link: /
+  #     lang: zh
+  #   - name: English
+  #     link: /en/
+  #     lang: en
 
 # 额外样式和脚本
 extra_css:
-  - assets/extra.css
+  - assets/extra-material.css  # Material 主题专用增强样式
 
 extra_javascript:
   - assets/extra.js
@@ -194,7 +194,7 @@ plugins:
         - en
 
   - tags:
-      tags_file: tags.md
+      # tags_file: tags.md  # MkDocs Material 新版本不再需要此配置
 
   - git-revision-date-localized:
       enabled: !ENV [CI, false]
@@ -228,13 +228,11 @@ plugins:
 nav:
   - 首页: index.md
   - 快速开始:
-    - 关于本站: README.md
     - 贡献指南: CONTRIBUTING.md
     - 序言: Preface.md
   - 词条索引:
     - 标签索引: tags.md
     - 术语表: Glossary.md
-    - 所有词条: index.md
   - 核心概念:
     - entries/Plurality.md
     - entries/System.md
