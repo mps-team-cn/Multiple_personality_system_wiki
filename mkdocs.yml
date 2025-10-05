@@ -59,7 +59,7 @@ theme:
 
     # 目录
     - toc.follow                  # 目录跟随
-    - toc.integrate               # 目录集成到侧边栏
+    # - toc.integrate             # 目录集成到侧边栏（禁用以确保所有页面都有一致的导航显示）
 
     # 搜索
     - search.suggest              # 搜索建议
