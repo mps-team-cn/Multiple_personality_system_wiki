@@ -393,6 +393,7 @@ button, .cover .buttons a{
 .trigger-warning-card{
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 14px;
   padding: 12px 14px;
   margin: 0 0 1.2rem;
@@ -400,6 +401,7 @@ button, .cover .buttons a{
   border: 1px solid color-mix(in oklab, #F97316 28%, transparent);
   background: color-mix(in oklab, #F97316 8%, var(--c-card));
   box-shadow: 0 8px 22px rgba(249, 115, 22, 0.12);
+  text-align: center;
 }
 
 .trigger-warning-card__icon{
@@ -431,7 +433,8 @@ button, .cover .buttons a{
 
 @media (max-width: 640px){
   .trigger-warning-card{
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
   }
 }
 
