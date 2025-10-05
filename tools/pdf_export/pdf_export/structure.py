@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import re
 import sys
-from collections import OrderedDict
+from collections import OrderedDict, defaultdict
 from pathlib import Path
 from typing import Iterable
 
@@ -12,6 +12,20 @@ from .frontmatter import FrontmatterError, load_entry_document
 from .markdown import infer_entry_title
 from .models import CategoryStructure, EntryDocument, IgnoreRules
 from .paths import ENTRIES_DIR, PROJECT_ROOT, PREFACE_PATH, INDEX_PATH, DOCS_DIR
+
+
+# PDF 导出使用的主要标签分类（固定顺序）
+MAIN_TAGS_ORDER = [
+    "诊断与临床",
+    "系统运作",
+    "创伤与疗愈",
+    "角色与身份",
+    "理论与分类",
+    "文化与表现",
+]
+
+# "其他"分类的标题
+OTHER_CATEGORY_TITLE = "其他"
 
 
 def _build_preface_section(ignore: IgnoreRules) -> tuple[str, tuple[EntryDocument, ...]] | None:
@@ -188,21 +202,92 @@ def _build_fallback_section(
     return ("未索引词条", tuple(ordered))
 
 
+def _build_sections_by_tags(
+    documents: Iterable[EntryDocument],
+) -> list[tuple[str, tuple[EntryDocument, ...]]]:
+    """根据词条的 tags 分组生成章节，仅使用预定义的主标签分类。
+
+    一个词条可以出现在多个章节中（如果它有多个主标签）。
+    不在任何主标签中的词条会被归入"其他"分类。
+    """
+
+    # 为每个主标签收集对应的词条
+    tag_to_documents: dict[str, list[EntryDocument]] = defaultdict(list)
+    # 追踪哪些词条已经被归类
+    categorized_paths: set[Path] = set()
+
+    for document in documents:
+        document_has_main_tag = False
+
+        if document.tags:
+            # 检查词条的每个 tag 是否在主标签列表中
+            for tag in document.tags:
+                if tag in MAIN_TAGS_ORDER:
+                    tag_to_documents[tag].append(document)
+                    document_has_main_tag = True
+
+            # 如果词条有任何主标签，标记为已分类
+            if document_has_main_tag:
+                categorized_paths.add(document.path)
+
+        # 如果词条没有任何主标签，归入"其他"
+        if not document_has_main_tag:
+            tag_to_documents[OTHER_CATEGORY_TITLE].append(document)
+
+    sections: list[tuple[str, tuple[EntryDocument, ...]]] = []
+
+    # 按预定义顺序添加主标签章节
+    for tag in MAIN_TAGS_ORDER:
+        if tag in tag_to_documents:
+            # 按标题排序
+            sorted_docs = sorted(
+                tag_to_documents[tag],
+                key=lambda doc: (doc.title, doc.path.name)
+            )
+            sections.append((tag, tuple(sorted_docs)))
+
+    # 添加"其他"分类（如果有）
+    if OTHER_CATEGORY_TITLE in tag_to_documents:
+        sorted_docs = sorted(
+            tag_to_documents[OTHER_CATEGORY_TITLE],
+            key=lambda doc: (doc.title, doc.path.name)
+        )
+        sections.append((OTHER_CATEGORY_TITLE, tuple(sorted_docs)))
+
+    return sections
+
+
+def _build_untagged_section(
+    documents: Iterable[EntryDocument],
+) -> tuple[str, tuple[EntryDocument, ...]] | None:
+    """将没有 tags 的词条组成兜底章节。"""
+
+    untagged = [doc for doc in documents if not doc.tags]
+
+    if not untagged:
+        return None
+
+    ordered = sorted(untagged, key=lambda item: (item.title, item.path.name))
+    return ("未分类词条", tuple(ordered))
+
+
 def collect_markdown_structure(ignore: IgnoreRules) -> CategoryStructure:
-    """依据 ``index.md`` 的顺序构建导出结构。"""
+    """依据词条的 tags 构建 PDF 导出结构。
+
+    仅使用预定义的主标签分类（诊断与临床、系统运作等），
+    不在主标签中的词条统一归入"其他"分类。
+    """
 
     documents = _load_entry_documents(ignore)
     categories: list[tuple[str, tuple[EntryDocument, ...]]] = []
 
+    # 添加前言章节
     preface_section = _build_preface_section(ignore)
     if preface_section is not None:
         categories.append(preface_section)
 
-    index_sections, used_paths = _build_sections_from_index(documents)
-    categories.extend(index_sections)
-
-    fallback_section = _build_fallback_section(documents.values(), used_paths)
-    if fallback_section is not None:
-        categories.append(fallback_section)
+    # 按主标签构建章节（包含"其他"分类）
+    tag_sections = _build_sections_by_tags(documents.values())
+    categories.extend(tag_sections)
 
     return tuple(categories)

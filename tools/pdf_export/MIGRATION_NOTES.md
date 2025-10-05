@@ -17,10 +17,12 @@
 ### 1. 链接格式支持（markdown.py）
 
 **更新的正则表达式**：
+
 - 旧格式：`entries/xxx.md`、`./entries/xxx.md`、`../entries/xxx.md`
 - 新格式：`xxx.md`（相对路径，假定在 docs/entries/ 目录下）
 
 **更新的函数**：
+
 - `ENTRY_INLINE_LINK_PATTERN`：支持行内链接 `[text](xxx.md)`
 - `ENTRY_REFERENCE_LINK_PATTERN`：支持引用式链接 `[ref]: xxx.md`
 - `ENTRY_ANGLE_LINK_PATTERN`：支持角括号链接 `<xxx.md>`
@@ -29,6 +31,7 @@
 ### 2. 路径自动检测（paths.py）
 
 **智能路径选择**：
+
 ```python
 
 # 词条目录：优先使用 docs/entries/（新结构），回退到 entries/（旧结构）
@@ -46,6 +49,7 @@ LAST_UPDATED_JSON_PATH = DOCS_DIR / "assets" / "last-updated.json" if ...
 ### 3. 结构收集（structure.py）
 
 **更新的函数**：
+
 - `_build_preface_section()`：使用 `PREFACE_PATH` 常量
 - `_build_sections_from_index()`：使用 `INDEX_PATH` 常量
 
@@ -59,6 +63,7 @@ LAST_UPDATED_JSON_PATH = DOCS_DIR / "assets" / "last-updated.json" if ...
 ## 测试结果
 
 成功测试：
+
 - 正则表达式匹配：`[DID](DID.md)` ✓
 - 路径解析：`DID.md` → `#entry-2d0c56bfbf` ✓
 - 结构收集：143 个文档（1 个前言 + 142 个词条）✓
