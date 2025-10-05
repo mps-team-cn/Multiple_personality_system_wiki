@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(gh pr diff:*)"
+      "Bash(gh pr diff:*)",
+      "Bash(git checkout:*)"
     ],
     "deny": [],
     "ask": []
