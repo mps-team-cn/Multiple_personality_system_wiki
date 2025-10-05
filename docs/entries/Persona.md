@@ -47,18 +47,6 @@ _仅供参考，**不能**替代专业医师的诊断和治疗方案。如果有
 ## 参考与延伸阅读
 
 [^jung1959]: Jung, C. G. 1959. *The Archetypes and the Collective Unconscious*. Princeton University Press.
-[^furst2015]: Furst, R. T., & Ghisletta, P. 2015. “Social Self-Regulation and Persona Construction.” *Personality and Individual Differences* 85: 65–72.
-[^gudjonsson2014]: Gudjonsson, G. H., & Young, S. 2014. “The Adaptive Functions of Front Stage Identities in Dissociative Identity Disorder.” *Psychiatry Research* 216(2): 248–254.
+[^furst2015]: Furst, R. T., & Ghisletta, P. 2015. "Social Self-Regulation and Persona Construction." *Personality and Individual Differences* 85: 65–72.
+[^gudjonsson2014]: Gudjonsson, G. H., & Young, S. 2014. "The Adaptive Functions of Front Stage Identities in Dissociative Identity Disorder." *Psychiatry Research* 216(2): 248–254.
 [Wikipedia: Persona (psychology)](https://en.wikipedia.org/wiki/Persona_(psychology))
-
-## 定义
-
-（待补充）
-
-## 鉴别
-
-（待补充）
-
-## 干预
-
-（待补充）
