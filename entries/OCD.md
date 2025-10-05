@@ -124,7 +124,7 @@ updated: 2025-10-03
 - [混合型系统（Mixed Systems, Xianyu Theory）](/entries/Mixed-Systems-Xianyu.md)
 - [T 语（Tulpish）](/entries/Tulpish.md)
 - [偏重（Bias / Median）](/entries/Bias.md)
-- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
+- [创伤（Trauma）](/entries/Trauma.md)
 
 ## 参考与延伸阅读
 

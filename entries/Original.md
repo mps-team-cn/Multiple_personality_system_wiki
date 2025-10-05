@@ -43,8 +43,8 @@ updated: 2025-10-03
 
 - [人格职能（System Roles）](/entries/System-Roles.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
-- [宿主（Host）](/entries/Host.md)
 - [执行者（Performer / Executive）](/entries/Performer-Executive.md)
+- [宿主（Host）](/entries/Host.md)
 - [青少年意识体（Teen Part）](/entries/Teen.md)
 - [迭代（Iteration）](/entries/Iteration.md)
 - [自发型（Spontaneous）](/entries/Spontaneous.md)

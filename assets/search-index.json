@@ -832,6 +832,224 @@
       ]
     },
     {
+      "path": "entries/Attachment-Theory.md",
+      "title": "依恋理论（Attachment Theory）",
+      "aliases": [
+        "Attachment Theory",
+        "attachment theory",
+        "依恋关系理论",
+        "依恋理论",
+        "依恋理论（Attachment Theory）",
+        "依附理论"
+      ],
+      "tokens": [
+        {
+          "normalized": "attachment theory",
+          "display": "Attachment Theory",
+          "kind": "alias"
+        },
+        {
+          "normalized": "attachmenttheory",
+          "display": "Attachment Theory",
+          "kind": "alias"
+        },
+        {
+          "normalized": "yi lian li lun ",
+          "display": "依恋理论",
+          "kind": "alias"
+        },
+        {
+          "normalized": "依恋理论",
+          "display": "依恋理论",
+          "kind": "alias"
+        },
+        {
+          "normalized": "yfll",
+          "display": "yfll",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "ylgxll",
+          "display": "ylgxll",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "ylll",
+          "display": "ylll",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "yilianlilun",
+          "display": "yilianlilun",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "yi fu li lun ",
+          "display": "依附理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "yi lian guan xi li lun ",
+          "display": "依恋关系理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "yifulilun",
+          "display": "依附理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "yilianguanxililun",
+          "display": "依恋关系理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "依恋关系理论",
+          "display": "依恋关系理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "依附理论",
+          "display": "依附理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "yi lian li lun (attachment theory)",
+          "display": "依恋理论（Attachment Theory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "yilianlilun(attachmenttheory)",
+          "display": "依恋理论（Attachment Theory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "依恋理论（attachment theory）",
+          "display": "依恋理论（Attachment Theory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "依恋理论（attachmenttheory）",
+          "display": "依恋理论（Attachment Theory）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Attention-Awareness.md",
+      "title": "注意与觉察（Attention & Awareness）",
+      "aliases": [
+        "Attention & Awareness",
+        "attention and awareness",
+        "注意与觉察",
+        "注意与觉察（Attention & Awareness）",
+        "注意力与觉察",
+        "注意觉察"
+      ],
+      "tokens": [
+        {
+          "normalized": "attention & awareness",
+          "display": "Attention & Awareness",
+          "kind": "alias"
+        },
+        {
+          "normalized": "attention&awareness",
+          "display": "Attention & Awareness",
+          "kind": "alias"
+        },
+        {
+          "normalized": "zhu yi yu jue cha ",
+          "display": "注意与觉察",
+          "kind": "alias"
+        },
+        {
+          "normalized": "注意与觉察",
+          "display": "注意与觉察",
+          "kind": "alias"
+        },
+        {
+          "normalized": "zyjc",
+          "display": "zyjc",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zylyjc",
+          "display": "zylyjc",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zyyjc",
+          "display": "zyyjc",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zhuyiyujuecha",
+          "display": "zhuyiyujuecha",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "attention and awareness",
+          "display": "attention and awareness",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "attentionandawareness",
+          "display": "attention and awareness",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "zhu yi jue cha ",
+          "display": "注意觉察",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "zhu yi li yu jue cha ",
+          "display": "注意力与觉察",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "zhuyijuecha",
+          "display": "注意觉察",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "zhuyiliyujuecha",
+          "display": "注意力与觉察",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "注意力与觉察",
+          "display": "注意力与觉察",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "注意觉察",
+          "display": "注意觉察",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "zhu yi yu jue cha (attention & awareness)",
+          "display": "注意与觉察（Attention & Awareness）",
+          "kind": "title"
+        },
+        {
+          "normalized": "zhuyiyujuecha(attention&awareness)",
+          "display": "注意与觉察（Attention & Awareness）",
+          "kind": "title"
+        },
+        {
+          "normalized": "注意与觉察（attention & awareness）",
+          "display": "注意与觉察（Attention & Awareness）",
+          "kind": "title"
+        },
+        {
+          "normalized": "注意与觉察（attention&awareness）",
+          "display": "注意与觉察（Attention & Awareness）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
       "path": "entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md",
       "title": "注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）",
       "aliases": [
@@ -1843,6 +2061,120 @@
       ]
     },
     {
+      "path": "entries/Cognitive-Dissonance.md",
+      "title": "认知失调（Cognitive Dissonance）",
+      "aliases": [
+        "Cognitive Dissonance",
+        "cognitive dissonance",
+        "认知不协调",
+        "认知冲突",
+        "认知失调",
+        "认知失调（Cognitive Dissonance）"
+      ],
+      "tokens": [
+        {
+          "normalized": "cognitive dissonance",
+          "display": "Cognitive Dissonance",
+          "kind": "alias"
+        },
+        {
+          "normalized": "cognitivedissonance",
+          "display": "Cognitive Dissonance",
+          "kind": "alias"
+        },
+        {
+          "normalized": "ren zhi shi diao ",
+          "display": "认知失调",
+          "kind": "alias"
+        },
+        {
+          "normalized": "renzhishidiao",
+          "display": "认知失调",
+          "kind": "alias"
+        },
+        {
+          "normalized": "认知失调",
+          "display": "认知失调",
+          "kind": "alias"
+        },
+        {
+          "normalized": "rzbxt",
+          "display": "rzbxt",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "rzct",
+          "display": "rzct",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "rzst",
+          "display": "rzst",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "renzhibuxietiao",
+          "display": "renzhibuxietiao",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "renzhishitiao",
+          "display": "renzhishitiao",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "ren zhi bu xie diao ",
+          "display": "认知不协调",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "ren zhi chong tu ",
+          "display": "认知冲突",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "renzhibuxiediao",
+          "display": "认知不协调",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "renzhichongtu",
+          "display": "认知冲突",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "认知不协调",
+          "display": "认知不协调",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "认知冲突",
+          "display": "认知冲突",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "ren zhi shi diao (cognitive dissonance)",
+          "display": "认知失调（Cognitive Dissonance）",
+          "kind": "title"
+        },
+        {
+          "normalized": "renzhishidiao(cognitivedissonance)",
+          "display": "认知失调（Cognitive Dissonance）",
+          "kind": "title"
+        },
+        {
+          "normalized": "认知失调（cognitive dissonance）",
+          "display": "认知失调（Cognitive Dissonance）",
+          "kind": "title"
+        },
+        {
+          "normalized": "认知失调（cognitivedissonance）",
+          "display": "认知失调（Cognitive Dissonance）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
       "path": "entries/Consciousness-Modification.md",
       "title": "意识修改（Consciousness Modification）",
       "aliases": [
@@ -2045,6 +2377,239 @@
         {
           "normalized": "复杂性创伤后应激障碍（cptsd）",
           "display": "复杂性创伤后应激障碍（CPTSD）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Defense-Mechanisms.md",
+      "title": "心理防御机制（Defense Mechanisms）",
+      "aliases": [
+        "Defense Mechanisms",
+        "psychological defense",
+        "心理防御机制",
+        "心理防御机制（Defense Mechanisms）",
+        "自我防御机制",
+        "防御机制"
+      ],
+      "tokens": [
+        {
+          "normalized": "defense mechanisms",
+          "display": "Defense Mechanisms",
+          "kind": "alias"
+        },
+        {
+          "normalized": "defensemechanisms",
+          "display": "Defense Mechanisms",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xin li fang yu ji zhi ",
+          "display": "心理防御机制",
+          "kind": "alias"
+        },
+        {
+          "normalized": "心理防御机制",
+          "display": "心理防御机制",
+          "kind": "alias"
+        },
+        {
+          "normalized": "fyjz",
+          "display": "fyjz",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xlfyjz",
+          "display": "xlfyjz",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zwfyjz",
+          "display": "zwfyjz",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xinlifangyujizhi",
+          "display": "xinlifangyujizhi",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "fang yu ji zhi ",
+          "display": "防御机制",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "fangyujizhi",
+          "display": "防御机制",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "psychological defense",
+          "display": "psychological defense",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "psychologicaldefense",
+          "display": "psychological defense",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "zi wo fang yu ji zhi ",
+          "display": "自我防御机制",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "ziwofangyujizhi",
+          "display": "自我防御机制",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "自我防御机制",
+          "display": "自我防御机制",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "防御机制",
+          "display": "防御机制",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "xin li fang yu ji zhi (defense mechanisms)",
+          "display": "心理防御机制（Defense Mechanisms）",
+          "kind": "title"
+        },
+        {
+          "normalized": "xinlifangyujizhi(defensemechanisms)",
+          "display": "心理防御机制（Defense Mechanisms）",
+          "kind": "title"
+        },
+        {
+          "normalized": "心理防御机制（defense mechanisms）",
+          "display": "心理防御机制（Defense Mechanisms）",
+          "kind": "title"
+        },
+        {
+          "normalized": "心理防御机制（defensemechanisms）",
+          "display": "心理防御机制（Defense Mechanisms）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Defensive-Dissociation.md",
+      "title": "防御性解离（Defensive Dissociation）",
+      "aliases": [
+        "Defensive Dissociation",
+        "defensive dissociation",
+        "防御性分离",
+        "防御性解离",
+        "防御性解离反应",
+        "防御性解离（Defensive Dissociation）"
+      ],
+      "tokens": [
+        {
+          "normalized": "defensive dissociation",
+          "display": "Defensive Dissociation",
+          "kind": "alias"
+        },
+        {
+          "normalized": "defensivedissociation",
+          "display": "Defensive Dissociation",
+          "kind": "alias"
+        },
+        {
+          "normalized": "fang yu xing jie chi ",
+          "display": "防御性解离",
+          "kind": "alias"
+        },
+        {
+          "normalized": "fangyuxingjiechi",
+          "display": "防御性解离",
+          "kind": "alias"
+        },
+        {
+          "normalized": "防御性解离",
+          "display": "防御性解离",
+          "kind": "alias"
+        },
+        {
+          "normalized": "fyxfl",
+          "display": "fyxfl",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "fyxjl",
+          "display": "fyxjl",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "fyxjlfy",
+          "display": "fyxjlfy",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "fangyuxingfenli",
+          "display": "fangyuxingfenli",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "fangyuxingjieli",
+          "display": "fangyuxingjieli",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "fangyuxingjielifanying",
+          "display": "fangyuxingjielifanying",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "fang yu xing fen chi ",
+          "display": "防御性分离",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "fang yu xing jie chi fan ying ",
+          "display": "防御性解离反应",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "fangyuxingfenchi",
+          "display": "防御性分离",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "fangyuxingjiechifanying",
+          "display": "防御性解离反应",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "防御性分离",
+          "display": "防御性分离",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "防御性解离反应",
+          "display": "防御性解离反应",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "fang yu xing jie chi (defensive dissociation)",
+          "display": "防御性解离（Defensive Dissociation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "fangyuxingjiechi(defensivedissociation)",
+          "display": "防御性解离（Defensive Dissociation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "防御性解离（defensive dissociation）",
+          "display": "防御性解离（Defensive Dissociation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "防御性解离（defensivedissociation）",
+          "display": "防御性解离（Defensive Dissociation）",
           "kind": "title"
         }
       ]
@@ -2916,6 +3481,120 @@
         {
           "normalized": "埃蒙加德分类法（emmengardclassification）",
           "display": "埃蒙加德分类法（Emmengard Classification）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Emotion-Regulation.md",
+      "title": "情绪调节（Emotion Regulation）",
+      "aliases": [
+        "Emotion Regulation",
+        "emotion regulation",
+        "情绪管理",
+        "情绪调控",
+        "情绪调节",
+        "情绪调节（Emotion Regulation）"
+      ],
+      "tokens": [
+        {
+          "normalized": "emotion regulation",
+          "display": "Emotion Regulation",
+          "kind": "alias"
+        },
+        {
+          "normalized": "emotionregulation",
+          "display": "Emotion Regulation",
+          "kind": "alias"
+        },
+        {
+          "normalized": "qing xu diao jie ",
+          "display": "情绪调节",
+          "kind": "alias"
+        },
+        {
+          "normalized": "qingxudiaojie",
+          "display": "情绪调节",
+          "kind": "alias"
+        },
+        {
+          "normalized": "情绪调节",
+          "display": "情绪调节",
+          "kind": "alias"
+        },
+        {
+          "normalized": "qxgl",
+          "display": "qxgl",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "qxtj",
+          "display": "qxtj",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "qxtk",
+          "display": "qxtk",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "qingxutiaojie",
+          "display": "qingxutiaojie",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "qingxutiaokong",
+          "display": "qingxutiaokong",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "qing xu diao kong ",
+          "display": "情绪调控",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "qing xu guan li ",
+          "display": "情绪管理",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "qingxudiaokong",
+          "display": "情绪调控",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "qingxuguanli",
+          "display": "情绪管理",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "情绪管理",
+          "display": "情绪管理",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "情绪调控",
+          "display": "情绪调控",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "qing xu diao jie (emotion regulation)",
+          "display": "情绪调节（Emotion Regulation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "qingxudiaojie(emotionregulation)",
+          "display": "情绪调节（Emotion Regulation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "情绪调节（emotion regulation）",
+          "display": "情绪调节（Emotion Regulation）",
+          "kind": "title"
+        },
+        {
+          "normalized": "情绪调节（emotionregulation）",
+          "display": "情绪调节（Emotion Regulation）",
           "kind": "title"
         }
       ]
@@ -4022,6 +4701,159 @@
       ]
     },
     {
+      "path": "entries/Highly-Sensitive-Person.md",
+      "title": "高敏感人群（Highly Sensitive Person, HSP）",
+      "aliases": [
+        "HSP",
+        "HSP）",
+        "Highly Sensitive Person",
+        "Highly Sensitive Person, HSP",
+        "highly sensitive person",
+        "高敏感个体",
+        "高敏感人格",
+        "高敏感人群",
+        "高敏感人群（Highly Sensitive Person",
+        "高敏感人群（Highly Sensitive Person, HSP）"
+      ],
+      "tokens": [
+        {
+          "normalized": "gao min gan ren qun ",
+          "display": "高敏感人群",
+          "kind": "alias"
+        },
+        {
+          "normalized": "gao min gan ren qun (highly sensitive person",
+          "display": "高敏感人群（Highly Sensitive Person",
+          "kind": "alias"
+        },
+        {
+          "normalized": "gaominganrenqun(highlysensitiveperson",
+          "display": "高敏感人群（Highly Sensitive Person",
+          "kind": "alias"
+        },
+        {
+          "normalized": "highly sensitive person",
+          "display": "Highly Sensitive Person",
+          "kind": "alias"
+        },
+        {
+          "normalized": "highly sensitive person, hsp",
+          "display": "Highly Sensitive Person, HSP",
+          "kind": "alias"
+        },
+        {
+          "normalized": "highlysensitiveperson",
+          "display": "Highly Sensitive Person",
+          "kind": "alias"
+        },
+        {
+          "normalized": "highlysensitiveperson,hsp",
+          "display": "Highly Sensitive Person, HSP",
+          "kind": "alias"
+        },
+        {
+          "normalized": "hsp",
+          "display": "HSP",
+          "kind": "alias"
+        },
+        {
+          "normalized": "hsp)",
+          "display": "HSP）",
+          "kind": "alias"
+        },
+        {
+          "normalized": "hsp）",
+          "display": "HSP）",
+          "kind": "alias"
+        },
+        {
+          "normalized": "高敏感人群",
+          "display": "高敏感人群",
+          "kind": "alias"
+        },
+        {
+          "normalized": "高敏感人群（highly sensitive person",
+          "display": "高敏感人群（Highly Sensitive Person",
+          "kind": "alias"
+        },
+        {
+          "normalized": "高敏感人群（highlysensitiveperson",
+          "display": "高敏感人群（Highly Sensitive Person",
+          "kind": "alias"
+        },
+        {
+          "normalized": "gmggt",
+          "display": "gmggt",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "gmgrg",
+          "display": "gmgrg",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "gmgrq",
+          "display": "gmgrq",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "gaominganrenqun",
+          "display": "gaominganrenqun",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "gao min gan ge ti ",
+          "display": "高敏感个体",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "gao min gan ren ge ",
+          "display": "高敏感人格",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "gaomingangeti",
+          "display": "高敏感个体",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "gaominganrenge",
+          "display": "高敏感人格",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "高敏感个体",
+          "display": "高敏感个体",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "高敏感人格",
+          "display": "高敏感人格",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "gao min gan ren qun (highly sensitive person, hsp)",
+          "display": "高敏感人群（Highly Sensitive Person, HSP）",
+          "kind": "title"
+        },
+        {
+          "normalized": "gaominganrenqun(highlysensitiveperson,hsp)",
+          "display": "高敏感人群（Highly Sensitive Person, HSP）",
+          "kind": "title"
+        },
+        {
+          "normalized": "高敏感人群（highly sensitive person, hsp）",
+          "display": "高敏感人群（Highly Sensitive Person, HSP）",
+          "kind": "title"
+        },
+        {
+          "normalized": "高敏感人群（highlysensitiveperson,hsp）",
+          "display": "高敏感人群（Highly Sensitive Person, HSP）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
       "path": "entries/Host.md",
       "title": "宿主（Host）",
       "aliases": [
@@ -4068,6 +4900,110 @@
         {
           "normalized": "宿主（host）",
           "display": "宿主（Host）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Humanistic-Psychology.md",
+      "title": "人本主义心理学（Humanistic Psychology）",
+      "aliases": [
+        "Humanistic Psychology",
+        "humanistic psychology",
+        "人本主义学派",
+        "人本主义心理学",
+        "人本主义心理学（Humanistic Psychology）",
+        "人本心理学"
+      ],
+      "tokens": [
+        {
+          "normalized": "humanistic psychology",
+          "display": "Humanistic Psychology",
+          "kind": "alias"
+        },
+        {
+          "normalized": "humanisticpsychology",
+          "display": "Humanistic Psychology",
+          "kind": "alias"
+        },
+        {
+          "normalized": "ren ben zhu yi xin li xue ",
+          "display": "人本主义心理学",
+          "kind": "alias"
+        },
+        {
+          "normalized": "人本主义心理学",
+          "display": "人本主义心理学",
+          "kind": "alias"
+        },
+        {
+          "normalized": "rbxlx",
+          "display": "rbxlx",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "rbzyxlx",
+          "display": "rbzyxlx",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "rbzyxp",
+          "display": "rbzyxp",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "renbenzhuyixinlixue",
+          "display": "renbenzhuyixinlixue",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "ren ben xin li xue ",
+          "display": "人本心理学",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "ren ben zhu yi xue pai ",
+          "display": "人本主义学派",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "renbenxinlixue",
+          "display": "人本心理学",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "renbenzhuyixuepai",
+          "display": "人本主义学派",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "人本主义学派",
+          "display": "人本主义学派",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "人本心理学",
+          "display": "人本心理学",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "ren ben zhu yi xin li xue (humanistic psychology)",
+          "display": "人本主义心理学（Humanistic Psychology）",
+          "kind": "title"
+        },
+        {
+          "normalized": "renbenzhuyixinlixue(humanisticpsychology)",
+          "display": "人本主义心理学（Humanistic Psychology）",
+          "kind": "title"
+        },
+        {
+          "normalized": "人本主义心理学（humanistic psychology）",
+          "display": "人本主义心理学（Humanistic Psychology）",
+          "kind": "title"
+        },
+        {
+          "normalized": "人本主义心理学（humanisticpsychology）",
+          "display": "人本主义心理学（Humanistic Psychology）",
           "kind": "title"
         }
       ]
@@ -4859,6 +5795,120 @@
       ]
     },
     {
+      "path": "entries/Learning-Conditioning.md",
+      "title": "学习与条件反射（Learning & Conditioning）",
+      "aliases": [
+        "Learning & Conditioning",
+        "learning and conditioning",
+        "学习与条件反射",
+        "学习与条件反射（Learning & Conditioning）",
+        "学习理论",
+        "条件作用"
+      ],
+      "tokens": [
+        {
+          "normalized": "learning & conditioning",
+          "display": "Learning & Conditioning",
+          "kind": "alias"
+        },
+        {
+          "normalized": "learning&conditioning",
+          "display": "Learning & Conditioning",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xue xi yu tiao jian fan she ",
+          "display": "学习与条件反射",
+          "kind": "alias"
+        },
+        {
+          "normalized": "学习与条件反射",
+          "display": "学习与条件反射",
+          "kind": "alias"
+        },
+        {
+          "normalized": "tjzy",
+          "display": "tjzy",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xxll",
+          "display": "xxll",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xxytjfs",
+          "display": "xxytjfs",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xuexiyutiaojianfanshe",
+          "display": "xuexiyutiaojianfanshe",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "learning and conditioning",
+          "display": "learning and conditioning",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "learningandconditioning",
+          "display": "learning and conditioning",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "tiao jian zuo yong ",
+          "display": "条件作用",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "tiaojianzuoyong",
+          "display": "条件作用",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "xue xi li lun ",
+          "display": "学习理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "xuexililun",
+          "display": "学习理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "学习理论",
+          "display": "学习理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "条件作用",
+          "display": "条件作用",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "xue xi yu tiao jian fan she (learning & conditioning)",
+          "display": "学习与条件反射（Learning & Conditioning）",
+          "kind": "title"
+        },
+        {
+          "normalized": "xuexiyutiaojianfanshe(learning&conditioning)",
+          "display": "学习与条件反射（Learning & Conditioning）",
+          "kind": "title"
+        },
+        {
+          "normalized": "学习与条件反射（learning & conditioning）",
+          "display": "学习与条件反射（Learning & Conditioning）",
+          "kind": "title"
+        },
+        {
+          "normalized": "学习与条件反射（learning&conditioning）",
+          "display": "学习与条件反射（Learning & Conditioning）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
       "path": "entries/Little.md",
       "title": "小孩意识体（Little / Child Part）",
       "aliases": [
@@ -4868,7 +5918,8 @@
         "Little / Child Part",
         "小孩意识体",
         "小孩意识体（Little",
-        "小孩意识体（Little / Child Part）"
+        "小孩意识体（Little / Child Part）",
+        "小的"
       ],
       "tokens": [
         {
@@ -4942,6 +5993,11 @@
           "kind": "alias"
         },
         {
+          "normalized": "xd",
+          "display": "xd",
+          "kind": "pinyin_abbr"
+        },
+        {
           "normalized": "xhyst",
           "display": "xhyst",
           "kind": "pinyin_abbr"
@@ -4950,6 +6006,21 @@
           "normalized": "xiaohaiyishiti",
           "display": "xiaohaiyishiti",
           "kind": "pinyin_full"
+        },
+        {
+          "normalized": "xiao de ",
+          "display": "小的",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "xiaode",
+          "display": "小的",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "小的",
+          "display": "小的",
+          "kind": "synonym"
         },
         {
           "normalized": "xiao hai yi shi ti (little / child part)",
@@ -5611,6 +6682,110 @@
         {
           "normalized": "情感障碍（mooddisorders）",
           "display": "情感障碍（Mood Disorders）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Motivation-Theories.md",
+      "title": "动机理论（Motivation Theories）",
+      "aliases": [
+        "Motivation Theories",
+        "motivation theories",
+        "动机学说",
+        "动机理论",
+        "动机理论（Motivation Theories）",
+        "激励理论"
+      ],
+      "tokens": [
+        {
+          "normalized": "dong ji li lun ",
+          "display": "动机理论",
+          "kind": "alias"
+        },
+        {
+          "normalized": "motivation theories",
+          "display": "Motivation Theories",
+          "kind": "alias"
+        },
+        {
+          "normalized": "motivationtheories",
+          "display": "Motivation Theories",
+          "kind": "alias"
+        },
+        {
+          "normalized": "动机理论",
+          "display": "动机理论",
+          "kind": "alias"
+        },
+        {
+          "normalized": "djll",
+          "display": "djll",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "djxs",
+          "display": "djxs",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "jlll",
+          "display": "jlll",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "dongjililun",
+          "display": "dongjililun",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "dong ji xue shuo ",
+          "display": "动机学说",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "dongjixueshuo",
+          "display": "动机学说",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "ji li li lun ",
+          "display": "激励理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "jilililun",
+          "display": "激励理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "动机学说",
+          "display": "动机学说",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "激励理论",
+          "display": "激励理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "dong ji li lun (motivation theories)",
+          "display": "动机理论（Motivation Theories）",
+          "kind": "title"
+        },
+        {
+          "normalized": "dongjililun(motivationtheories)",
+          "display": "动机理论（Motivation Theories）",
+          "kind": "title"
+        },
+        {
+          "normalized": "动机理论（motivation theories）",
+          "display": "动机理论（Motivation Theories）",
+          "kind": "title"
+        },
+        {
+          "normalized": "动机理论（motivationtheories）",
+          "display": "动机理论（Motivation Theories）",
           "kind": "title"
         }
       ]
@@ -6755,6 +7930,169 @@
       ]
     },
     {
+      "path": "entries/Personality-Structure-Theory.md",
+      "title": "人格结构理论（Personality Structure Theory, Freud）",
+      "aliases": [
+        "Freud",
+        "Freud）",
+        "Personality Structure Theory",
+        "Personality Structure Theory, Freud",
+        "structural model of psyche",
+        "人格结构理论",
+        "人格结构理论（Personality Structure Theory",
+        "人格结构理论（Personality Structure Theory, Freud）",
+        "弗洛伊德人格结构",
+        "本我自我超我理论"
+      ],
+      "tokens": [
+        {
+          "normalized": "freud",
+          "display": "Freud",
+          "kind": "alias"
+        },
+        {
+          "normalized": "freud)",
+          "display": "Freud）",
+          "kind": "alias"
+        },
+        {
+          "normalized": "freud）",
+          "display": "Freud）",
+          "kind": "alias"
+        },
+        {
+          "normalized": "personality structure theory",
+          "display": "Personality Structure Theory",
+          "kind": "alias"
+        },
+        {
+          "normalized": "personality structure theory, freud",
+          "display": "Personality Structure Theory, Freud",
+          "kind": "alias"
+        },
+        {
+          "normalized": "personalitystructuretheory",
+          "display": "Personality Structure Theory",
+          "kind": "alias"
+        },
+        {
+          "normalized": "personalitystructuretheory,freud",
+          "display": "Personality Structure Theory, Freud",
+          "kind": "alias"
+        },
+        {
+          "normalized": "ren ge jie gou li lun ",
+          "display": "人格结构理论",
+          "kind": "alias"
+        },
+        {
+          "normalized": "ren ge jie gou li lun (personality structure theory",
+          "display": "人格结构理论（Personality Structure Theory",
+          "kind": "alias"
+        },
+        {
+          "normalized": "rengejiegoulilun(personalitystructuretheory",
+          "display": "人格结构理论（Personality Structure Theory",
+          "kind": "alias"
+        },
+        {
+          "normalized": "人格结构理论",
+          "display": "人格结构理论",
+          "kind": "alias"
+        },
+        {
+          "normalized": "人格结构理论（personality structure theory",
+          "display": "人格结构理论（Personality Structure Theory",
+          "kind": "alias"
+        },
+        {
+          "normalized": "人格结构理论（personalitystructuretheory",
+          "display": "人格结构理论（Personality Structure Theory",
+          "kind": "alias"
+        },
+        {
+          "normalized": "bwzwcwll",
+          "display": "bwzwcwll",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "flydrgjg",
+          "display": "flydrgjg",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "rgjgll",
+          "display": "rgjgll",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "rengejiegoulilun",
+          "display": "rengejiegoulilun",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "ben wo zi wo chao wo li lun ",
+          "display": "本我自我超我理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "benwoziwochaowolilun",
+          "display": "本我自我超我理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "fu luo yi de ren ge jie gou ",
+          "display": "弗洛伊德人格结构",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "fuluoyiderengejiegou",
+          "display": "弗洛伊德人格结构",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "structural model of psyche",
+          "display": "structural model of psyche",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "structuralmodelofpsyche",
+          "display": "structural model of psyche",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "弗洛伊德人格结构",
+          "display": "弗洛伊德人格结构",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "本我自我超我理论",
+          "display": "本我自我超我理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "ren ge jie gou li lun (personality structure theory, freud)",
+          "display": "人格结构理论（Personality Structure Theory, Freud）",
+          "kind": "title"
+        },
+        {
+          "normalized": "rengejiegoulilun(personalitystructuretheory,freud)",
+          "display": "人格结构理论（Personality Structure Theory, Freud）",
+          "kind": "title"
+        },
+        {
+          "normalized": "人格结构理论（personality structure theory, freud）",
+          "display": "人格结构理论（Personality Structure Theory, Freud）",
+          "kind": "title"
+        },
+        {
+          "normalized": "人格结构理论（personalitystructuretheory,freud）",
+          "display": "人格结构理论（Personality Structure Theory, Freud）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
       "path": "entries/Plurality-Basics.md",
       "title": "多重意识体基础（Plurality Basics）",
       "aliases": [
@@ -6939,6 +8277,149 @@
       ]
     },
     {
+      "path": "entries/Projection-Psychology.md",
+      "title": "投射（Projection, Psychology）",
+      "aliases": [
+        "Projection",
+        "Projection, Psychology",
+        "Psychology",
+        "Psychology）",
+        "projection",
+        "心理投射",
+        "投射",
+        "投射机制",
+        "投射（Projection",
+        "投射（Projection, Psychology）"
+      ],
+      "tokens": [
+        {
+          "normalized": "projection",
+          "display": "Projection",
+          "kind": "alias"
+        },
+        {
+          "normalized": "projection, psychology",
+          "display": "Projection, Psychology",
+          "kind": "alias"
+        },
+        {
+          "normalized": "projection,psychology",
+          "display": "Projection, Psychology",
+          "kind": "alias"
+        },
+        {
+          "normalized": "psychology",
+          "display": "Psychology",
+          "kind": "alias"
+        },
+        {
+          "normalized": "psychology)",
+          "display": "Psychology）",
+          "kind": "alias"
+        },
+        {
+          "normalized": "psychology）",
+          "display": "Psychology）",
+          "kind": "alias"
+        },
+        {
+          "normalized": "tou she ",
+          "display": "投射",
+          "kind": "alias"
+        },
+        {
+          "normalized": "tou she (projection",
+          "display": "投射（Projection",
+          "kind": "alias"
+        },
+        {
+          "normalized": "toushe(projection",
+          "display": "投射（Projection",
+          "kind": "alias"
+        },
+        {
+          "normalized": "投射",
+          "display": "投射",
+          "kind": "alias"
+        },
+        {
+          "normalized": "投射（projection",
+          "display": "投射（Projection",
+          "kind": "alias"
+        },
+        {
+          "normalized": "ts",
+          "display": "ts",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "tsjz",
+          "display": "tsjz",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xlts",
+          "display": "xlts",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "toushe",
+          "display": "toushe",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "tou she ji zhi ",
+          "display": "投射机制",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "toushejizhi",
+          "display": "投射机制",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "xin li tou she ",
+          "display": "心理投射",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "xinlitoushe",
+          "display": "心理投射",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "心理投射",
+          "display": "心理投射",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "投射机制",
+          "display": "投射机制",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "tou she (projection, psychology)",
+          "display": "投射（Projection, Psychology）",
+          "kind": "title"
+        },
+        {
+          "normalized": "toushe(projection,psychology)",
+          "display": "投射（Projection, Psychology）",
+          "kind": "title"
+        },
+        {
+          "normalized": "投射（projection, psychology）",
+          "display": "投射（Projection, Psychology）",
+          "kind": "title"
+        },
+        {
+          "normalized": "投射（projection,psychology）",
+          "display": "投射（Projection, Psychology）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
       "path": "entries/Projection.md",
       "title": "投影（Projection）",
       "aliases": [
@@ -7036,6 +8517,234 @@
         {
           "normalized": "保护者（protector）",
           "display": "保护者（Protector）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Psychic-Energy-Attention.md",
+      "title": "心理能量与注意资源（Psychic Energy & Attention）",
+      "aliases": [
+        "Psychic Energy & Attention",
+        "psychic energy",
+        "心理能量",
+        "心理能量与注意资源",
+        "心理能量与注意资源（Psychic Energy & Attention）",
+        "注意资源"
+      ],
+      "tokens": [
+        {
+          "normalized": "psychic energy & attention",
+          "display": "Psychic Energy & Attention",
+          "kind": "alias"
+        },
+        {
+          "normalized": "psychicenergy&attention",
+          "display": "Psychic Energy & Attention",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xin li neng liang yu zhu yi zi yuan ",
+          "display": "心理能量与注意资源",
+          "kind": "alias"
+        },
+        {
+          "normalized": "心理能量与注意资源",
+          "display": "心理能量与注意资源",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xlnl",
+          "display": "xlnl",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xlnlyzyzy",
+          "display": "xlnlyzyzy",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zyzy",
+          "display": "zyzy",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xinlinengliangyuzhuyiziyuan",
+          "display": "xinlinengliangyuzhuyiziyuan",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "psychic energy",
+          "display": "psychic energy",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "psychicenergy",
+          "display": "psychic energy",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "xin li neng liang ",
+          "display": "心理能量",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "xinlinengliang",
+          "display": "心理能量",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "zhu yi zi yuan ",
+          "display": "注意资源",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "zhuyiziyuan",
+          "display": "注意资源",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "心理能量",
+          "display": "心理能量",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "注意资源",
+          "display": "注意资源",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "xin li neng liang yu zhu yi zi yuan (psychic energy & attention)",
+          "display": "心理能量与注意资源（Psychic Energy & Attention）",
+          "kind": "title"
+        },
+        {
+          "normalized": "xinlinengliangyuzhuyiziyuan(psychicenergy&attention)",
+          "display": "心理能量与注意资源（Psychic Energy & Attention）",
+          "kind": "title"
+        },
+        {
+          "normalized": "心理能量与注意资源（psychic energy & attention）",
+          "display": "心理能量与注意资源（Psychic Energy & Attention）",
+          "kind": "title"
+        },
+        {
+          "normalized": "心理能量与注意资源（psychicenergy&attention）",
+          "display": "心理能量与注意资源（Psychic Energy & Attention）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Psychological-Resilience.md",
+      "title": "心理弹性（Psychological Resilience）",
+      "aliases": [
+        "Psychological Resilience",
+        "resilience",
+        "复原力",
+        "心理弹性",
+        "心理弹性（Psychological Resilience）",
+        "心理韧性"
+      ],
+      "tokens": [
+        {
+          "normalized": "psychological resilience",
+          "display": "Psychological Resilience",
+          "kind": "alias"
+        },
+        {
+          "normalized": "psychologicalresilience",
+          "display": "Psychological Resilience",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xin li dan xing ",
+          "display": "心理弹性",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xinlidanxing",
+          "display": "心理弹性",
+          "kind": "alias"
+        },
+        {
+          "normalized": "心理弹性",
+          "display": "心理弹性",
+          "kind": "alias"
+        },
+        {
+          "normalized": "fyl",
+          "display": "fyl",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xlrx",
+          "display": "xlrx",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xltx",
+          "display": "xltx",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xinlitanxing",
+          "display": "xinlitanxing",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "fu yuan li ",
+          "display": "复原力",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "fuyuanli",
+          "display": "复原力",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "resilience",
+          "display": "resilience",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "xin li ren xing ",
+          "display": "心理韧性",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "xinlirenxing",
+          "display": "心理韧性",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "复原力",
+          "display": "复原力",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "心理韧性",
+          "display": "心理韧性",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "xin li dan xing (psychological resilience)",
+          "display": "心理弹性（Psychological Resilience）",
+          "kind": "title"
+        },
+        {
+          "normalized": "xinlidanxing(psychologicalresilience)",
+          "display": "心理弹性（Psychological Resilience）",
+          "kind": "title"
+        },
+        {
+          "normalized": "心理弹性（psychological resilience）",
+          "display": "心理弹性（Psychological Resilience）",
+          "kind": "title"
+        },
+        {
+          "normalized": "心理弹性（psychologicalresilience）",
+          "display": "心理弹性（Psychological Resilience）",
           "kind": "title"
         }
       ]
@@ -7401,6 +9110,343 @@
       ]
     },
     {
+      "path": "entries/Self-Concept.md",
+      "title": "自我概念（Self-Concept）",
+      "aliases": [
+        "Self-Concept",
+        "self concept",
+        "自我图式",
+        "自我概念",
+        "自我概念（Self-Concept）",
+        "自我认知"
+      ],
+      "tokens": [
+        {
+          "normalized": "self-concept",
+          "display": "Self-Concept",
+          "kind": "alias"
+        },
+        {
+          "normalized": "selfconcept",
+          "display": "Self-Concept",
+          "kind": "alias"
+        },
+        {
+          "normalized": "zi wo gai nian ",
+          "display": "自我概念",
+          "kind": "alias"
+        },
+        {
+          "normalized": "自我概念",
+          "display": "自我概念",
+          "kind": "alias"
+        },
+        {
+          "normalized": "zwgn",
+          "display": "zwgn",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zwrz",
+          "display": "zwrz",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zwts",
+          "display": "zwts",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "ziwogainian",
+          "display": "ziwogainian",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "self concept",
+          "display": "self concept",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "zi wo ren zhi ",
+          "display": "自我认知",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "zi wo tu shi ",
+          "display": "自我图式",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "ziworenzhi",
+          "display": "自我认知",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "ziwotushi",
+          "display": "自我图式",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "自我图式",
+          "display": "自我图式",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "自我认知",
+          "display": "自我认知",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "zi wo gai nian (self-concept)",
+          "display": "自我概念（Self-Concept）",
+          "kind": "title"
+        },
+        {
+          "normalized": "ziwogainian(selfconcept)",
+          "display": "自我概念（Self-Concept）",
+          "kind": "title"
+        },
+        {
+          "normalized": "自我概念（self-concept）",
+          "display": "自我概念（Self-Concept）",
+          "kind": "title"
+        },
+        {
+          "normalized": "自我概念（selfconcept）",
+          "display": "自我概念（Self-Concept）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Self-Determination-Theory.md",
+      "title": "自我决定理论（Self-Determination Theory）",
+      "aliases": [
+        "SDT 理论",
+        "Self-Determination Theory",
+        "self determination theory",
+        "自主性动机理论",
+        "自我决定理论",
+        "自我决定理论（Self-Determination Theory）"
+      ],
+      "tokens": [
+        {
+          "normalized": "self-determination theory",
+          "display": "Self-Determination Theory",
+          "kind": "alias"
+        },
+        {
+          "normalized": "selfdeterminationtheory",
+          "display": "Self-Determination Theory",
+          "kind": "alias"
+        },
+        {
+          "normalized": "zi wo jue ding li lun ",
+          "display": "自我决定理论",
+          "kind": "alias"
+        },
+        {
+          "normalized": "自我决定理论",
+          "display": "自我决定理论",
+          "kind": "alias"
+        },
+        {
+          "normalized": "ll",
+          "display": "ll",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zwjdll",
+          "display": "zwjdll",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zzxdjll",
+          "display": "zzxdjll",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "lilun",
+          "display": "lilun",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "ziwojuedinglilun",
+          "display": "ziwojuedinglilun",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "sdt li lun ",
+          "display": "SDT 理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "sdt 理论",
+          "display": "SDT 理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "sdtlilun",
+          "display": "SDT 理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "sdt理论",
+          "display": "SDT 理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "self determination theory",
+          "display": "self determination theory",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "zi zhu xing dong ji li lun ",
+          "display": "自主性动机理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "zizhuxingdongjililun",
+          "display": "自主性动机理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "自主性动机理论",
+          "display": "自主性动机理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "zi wo jue ding li lun (self-determination theory)",
+          "display": "自我决定理论（Self-Determination Theory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "ziwojuedinglilun(selfdeterminationtheory)",
+          "display": "自我决定理论（Self-Determination Theory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "自我决定理论（self-determination theory）",
+          "display": "自我决定理论（Self-Determination Theory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "自我决定理论（selfdeterminationtheory）",
+          "display": "自我决定理论（Self-Determination Theory）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Self-Efficacy.md",
+      "title": "自我效能感（Self-Efficacy）",
+      "aliases": [
+        "Self-Efficacy",
+        "self efficacy",
+        "自我效能",
+        "自我效能信念",
+        "自我效能感",
+        "自我效能感（Self-Efficacy）"
+      ],
+      "tokens": [
+        {
+          "normalized": "self-efficacy",
+          "display": "Self-Efficacy",
+          "kind": "alias"
+        },
+        {
+          "normalized": "selfefficacy",
+          "display": "Self-Efficacy",
+          "kind": "alias"
+        },
+        {
+          "normalized": "zi wo xiao neng gan ",
+          "display": "自我效能感",
+          "kind": "alias"
+        },
+        {
+          "normalized": "自我效能感",
+          "display": "自我效能感",
+          "kind": "alias"
+        },
+        {
+          "normalized": "zwxn",
+          "display": "zwxn",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zwxng",
+          "display": "zwxng",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zwxnxn",
+          "display": "zwxnxn",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "ziwoxiaonenggan",
+          "display": "ziwoxiaonenggan",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "self efficacy",
+          "display": "self efficacy",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "zi wo xiao neng ",
+          "display": "自我效能",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "zi wo xiao neng xin nian ",
+          "display": "自我效能信念",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "ziwoxiaoneng",
+          "display": "自我效能",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "ziwoxiaonengxinnian",
+          "display": "自我效能信念",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "自我效能",
+          "display": "自我效能",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "自我效能信念",
+          "display": "自我效能信念",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "zi wo xiao neng gan (self-efficacy)",
+          "display": "自我效能感（Self-Efficacy）",
+          "kind": "title"
+        },
+        {
+          "normalized": "ziwoxiaonenggan(selfefficacy)",
+          "display": "自我效能感（Self-Efficacy）",
+          "kind": "title"
+        },
+        {
+          "normalized": "自我效能感（self-efficacy）",
+          "display": "自我效能感（Self-Efficacy）",
+          "kind": "title"
+        },
+        {
+          "normalized": "自我效能感（selfefficacy）",
+          "display": "自我效能感（Self-Efficacy）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
       "path": "entries/Sense-Of-Presence.md",
       "title": "存在感（Sense of Presence）",
       "aliases": [
@@ -7755,6 +9801,115 @@
         {
           "normalized": "单一类系统（singleclasssystems,xianyutheory）",
           "display": "单一类系统（Single-Class Systems, Xianyu Theory）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Social-Cognitive-Theory.md",
+      "title": "社会认知理论（Social-Cognitive Theory）",
+      "aliases": [
+        "Social-Cognitive Theory",
+        "social cognitive theory",
+        "班杜拉社会认知理论",
+        "社会认知学习理论",
+        "社会认知理论",
+        "社会认知理论（Social-Cognitive Theory）"
+      ],
+      "tokens": [
+        {
+          "normalized": "she hui ren zhi li lun ",
+          "display": "社会认知理论",
+          "kind": "alias"
+        },
+        {
+          "normalized": "social-cognitive theory",
+          "display": "Social-Cognitive Theory",
+          "kind": "alias"
+        },
+        {
+          "normalized": "socialcognitivetheory",
+          "display": "Social-Cognitive Theory",
+          "kind": "alias"
+        },
+        {
+          "normalized": "社会认知理论",
+          "display": "社会认知理论",
+          "kind": "alias"
+        },
+        {
+          "normalized": "bdlshrzll",
+          "display": "bdlshrzll",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "shrzll",
+          "display": "shrzll",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "shrzxxll",
+          "display": "shrzxxll",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "shehuirenzhililun",
+          "display": "shehuirenzhililun",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "ban du la she hui ren zhi li lun ",
+          "display": "班杜拉社会认知理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "bandulashehuirenzhililun",
+          "display": "班杜拉社会认知理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "she hui ren zhi xue xi li lun ",
+          "display": "社会认知学习理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "shehuirenzhixuexililun",
+          "display": "社会认知学习理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "social cognitive theory",
+          "display": "social cognitive theory",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "班杜拉社会认知理论",
+          "display": "班杜拉社会认知理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "社会认知学习理论",
+          "display": "社会认知学习理论",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "she hui ren zhi li lun (social-cognitive theory)",
+          "display": "社会认知理论（Social-Cognitive Theory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "shehuirenzhililun(socialcognitivetheory)",
+          "display": "社会认知理论（Social-Cognitive Theory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "社会认知理论（social-cognitive theory）",
+          "display": "社会认知理论（Social-Cognitive Theory）",
+          "kind": "title"
+        },
+        {
+          "normalized": "社会认知理论（socialcognitivetheory）",
+          "display": "社会认知理论（Social-Cognitive Theory）",
           "kind": "title"
         }
       ]
@@ -8944,6 +11099,120 @@
         {
           "normalized": "《东方project》同人圈中的tulpa文化解读（touhoutulpafandom）",
           "display": "《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Transference-Countertransference.md",
+      "title": "移情与反移情（Transference and Countertransference）",
+      "aliases": [
+        "Transference and Countertransference",
+        "transference countertransference",
+        "反移情",
+        "移情",
+        "移情与反移情",
+        "移情与反移情（Transference and Countertransference）"
+      ],
+      "tokens": [
+        {
+          "normalized": "transference and countertransference",
+          "display": "Transference and Countertransference",
+          "kind": "alias"
+        },
+        {
+          "normalized": "transferenceandcountertransference",
+          "display": "Transference and Countertransference",
+          "kind": "alias"
+        },
+        {
+          "normalized": "yi qing yu fan yi qing ",
+          "display": "移情与反移情",
+          "kind": "alias"
+        },
+        {
+          "normalized": "移情与反移情",
+          "display": "移情与反移情",
+          "kind": "alias"
+        },
+        {
+          "normalized": "fyq",
+          "display": "fyq",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "yq",
+          "display": "yq",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "yqyfyq",
+          "display": "yqyfyq",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "yiqingyufanyiqing",
+          "display": "yiqingyufanyiqing",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "fan yi qing ",
+          "display": "反移情",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "fanyiqing",
+          "display": "反移情",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "transference countertransference",
+          "display": "transference countertransference",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "transferencecountertransference",
+          "display": "transference countertransference",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "yi qing ",
+          "display": "移情",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "yiqing",
+          "display": "移情",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "反移情",
+          "display": "反移情",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "移情",
+          "display": "移情",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "yi qing yu fan yi qing (transference and countertransference)",
+          "display": "移情与反移情（Transference and Countertransference）",
+          "kind": "title"
+        },
+        {
+          "normalized": "yiqingyufanyiqing(transferenceandcountertransference)",
+          "display": "移情与反移情（Transference and Countertransference）",
+          "kind": "title"
+        },
+        {
+          "normalized": "移情与反移情（transference and countertransference）",
+          "display": "移情与反移情（Transference and Countertransference）",
+          "kind": "title"
+        },
+        {
+          "normalized": "移情与反移情（transferenceandcountertransference）",
+          "display": "移情与反移情（Transference and Countertransference）",
           "kind": "title"
         }
       ]

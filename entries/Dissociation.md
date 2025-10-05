@@ -5,7 +5,7 @@ tags:
 - 其他特定解离性障碍_OSDD
 - DPDR
 title: 解离（Dissociation）
-updated: 2025-10-03
+updated: 2025-10-05
 ---
 
 # 解离（Dissociation）
@@ -13,6 +13,7 @@ updated: 2025-10-03
 > 本词条为消歧义页面，用于区分不同语境下的“解离”体验与诊断概念。
 
 - [功能性分离（Functional Dissociation）](entries/Functional-Dissociation.md)：描述健康个体在多任务处理、注意力分配或高速公路催眠等情境中，短暂分隔认知模块以提升效率的适应性机制。
+- [防御性解离（Defensive Dissociation）](entries/Defensive-Dissociation.md)：强调在极端压力或创伤情境下，以解离作为心理防御以降低痛苦与威胁感的适应性反应。
 - [病理性解离（Pathological Dissociation）](entries/Pathological-Dissociation.md)：涵盖与创伤及解离性障碍相关的持续性整合失败，导致痛苦、失忆或身份破碎等临床意义的症状群。
 
 ## 参见
@@ -24,8 +25,8 @@ updated: 2025-10-03
 ## 相关条目
 
 - [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](/entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
-- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](/entries/Another-Me-DID-Depictions.md)
 - [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
+- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](/entries/Another-Me-DID-Depictions.md)
 - [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](/entries/Fight-Club-1999-Identity-Metaphor.md)
 - [系统（System）](/entries/System.md)
 - [其他特定解离性障碍（OSDD）](/entries/OSDD.md)

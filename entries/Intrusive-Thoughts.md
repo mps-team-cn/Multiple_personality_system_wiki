@@ -102,10 +102,10 @@ _如有触发风险，请在安全情境下阅读。_
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
 - [闪回（Flashback）](/entries/Flashback.md)
 - [非我感（Depersonalization）](/entries/Depersonalization.md)
-- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
+- [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
 - [去现实化（Derealization）](/entries/Derealization.md)
+- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
 - [焦虑（Anxiety）](/entries/Anxiety.md)
-- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
 
 ## 参考
 

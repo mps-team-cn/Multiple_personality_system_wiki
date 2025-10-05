@@ -40,9 +40,9 @@ updated: 2025-10-04
 - [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
 - [融合（Fusion）](/entries/Fusion.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
+- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 - [迭代（Iteration）](/entries/Iteration.md)
 - [独立性（Independence）](/entries/Independence.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
 
 ## 参考资料
 
