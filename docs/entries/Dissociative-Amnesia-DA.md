@@ -141,7 +141,7 @@ D. 症状不能被分离性身份障碍、创伤后应激障碍、急性应激�
 ## 参考与延伸阅读
 
 [^dsm5]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
-[^staniloiu]: Staniloiu, A., & Markowitsch, H. J. (2014). Dissociative amnesia. *The Lancet Psychiatry*, 1(3), 226–241. [https://doi.org/10.1016/S2215-0366(14](https://doi.org/10.1016/S2215-0366(14))70279-2
+[^staniloiu]: Staniloiu, A., & Markowitsch, H. J. (2014). Dissociative amnesia. *The Lancet Psychiatry*, 1(3), 226–241. [https://doi.org/10.1016/S2215-0366（14](https://doi.org/10.1016/S2215-0366(14))70279-2
 [^loewenstein]: Loewenstein, R. J. (2018). Dissociation debates: Everything you know is wrong. *Dialogues in Clinical Neuroscience*, 20(3), 229–242. [https://doi.org/10.31887/DCNS.2018.20.3/rloewenstein](https://doi.org/10.31887/DCNS.2018.20.3/rloewenstein)
 [^kopelman]: Kopelman, M. D. (2000). Focal retrograde amnesia and the attribution of causality: An exceptionally critical review. *Cognitive Neuropsychiatry*, 5(2), 135–157. [https://doi.org/10.1080/135468000395781](https://doi.org/10.1080/135468000395781)
 

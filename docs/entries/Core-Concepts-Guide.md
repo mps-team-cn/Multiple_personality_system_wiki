@@ -18,7 +18,7 @@ updated: 2025-10-06
 
 ## 一、从"解离"说起
 
-要理解多意识体现象,我们首先需要认识**解离(Dissociation)**这个基础概念。
+要理解多意识体现象,我们首先需要认识**解离**（Dissociation）这个基础概念。
 
 ### 什么是解离?
 
@@ -26,9 +26,9 @@ updated: 2025-10-06
 
 **用简单的比喻理解**:解离就像用锯子"切脑子"——被切出的部分会与你在一定程度上断开连接或分离。这种分离有程度之分:
 
-- 可以切**意识**
-- 可以切**功能**
-- 可以切**记忆**
+- 可以切 **意识**
+- 可以切 **功能**
+- 可以切 **记忆**
 
 ### 解离的程度谱系
 
@@ -45,7 +45,7 @@ updated: 2025-10-06
 
 **关键理解**:低程度的温和解离是正常现象,不构成疾病;只有当解离反应强烈、持续且招致痛苦时,才可能进入病理范畴。
 
-详细了解请参阅:[解离(Dissociation)](Dissociation.md)、[防御性解离](Defensive-Dissociation.md)、[病理性解离](Pathological-Dissociation.md)
+详细了解请参阅：[解离（Dissociation）](Dissociation.md)、[防御性解离](Defensive-Dissociation.md)、[病理性解离](Pathological-Dissociation.md)
 
 ---
 
@@ -53,7 +53,7 @@ updated: 2025-10-06
 
 ### 多意识体是什么?
 
-**[多意识体(Plurality)](Plurality.md)** 指一个个体内部存在两个或以上相对独立、可持续运作的意识单元。这些意识单元(成员)能够在不同程度上共享记忆、情绪与身体控制权。
+**多意识体（[Plurality](Plurality.md)）** 指一个个体内部存在两个或以上相对独立、可持续运作的意识单元。这些意识单元(成员)能够在不同程度上共享记忆、情绪与身体控制权。
 
 ### 解离如何产生多意识体?
 
@@ -74,7 +74,7 @@ updated: 2025-10-06
 - **隔阂感**:感受到不属于自己的思维被"塞"入大脑
 - **失忆**:对某段时间或某些事件完全没有记忆
 
-详细了解请参阅:[多意识体(Plurality)](Plurality.md)、[系统(System)](System.md)
+详细了解请参阅：[多意识体（Plurality）](Plurality.md)、[系统（System）](System.md)
 
 ---
 
@@ -84,7 +84,7 @@ updated: 2025-10-06
 
 ### 🟢 健康多意识体:Tulpa
 
-**[图帕(Tulpa)](Tulpa.md)** 属于轻微、温和的意识分离:
+**图帕（[Tulpa](Tulpa.md)）** 属于轻微、温和的意识分离:
 
 - **形成方式**:通过刻意的想象训练、对话练习等主动创造
 - **特征**:
@@ -98,7 +98,7 @@ updated: 2025-10-06
 
 ### 🔴 病理性多意识体:DID/OSDD
 
-**[解离性身份障碍(DID)](DID.md)** 和 **[其他特定解离性障碍(OSDD)](OSDD.md)** 属于强烈且病理性的意识分离:
+**解离性身份障碍（[DID](DID.md)）** 和 **其他特定解离性障碍（[OSDD](OSDD.md)）** 属于强烈且病理性的意识分离:
 
 - **形成原因**:由创伤导致,是大脑在极端环境下的保护机制
 - **特征**:
@@ -114,7 +114,7 @@ updated: 2025-10-06
 2. OSDD 可以理解为 DID 的"轻症版本",失忆较轻,主人格地位更明显
 3. 在国内,这些诊断统称为"多重人格障碍"或"分离性障碍"
 
-详细了解请参阅:[DID](DID.md)、[OSDD](OSDD.md)、[创伤(Trauma)](Trauma.md)
+详细了解请参阅：[DID](DID.md)、[OSDD](OSDD.md)、[创伤（Trauma）](Trauma.md)
 
 ### 界限在哪里?
 
@@ -130,7 +130,7 @@ updated: 2025-10-06
 
 ## 四、埃蒙加德分类法:从成因理解系统
 
-**[埃蒙加德分类法(Emmengard Classification)](Emmengard-Classification.md)** 是社群内常用的分类框架,按意识体的**来源**进行分类:
+**埃蒙加德分类法（[Emmengard Classification](Emmengard-Classification.md)）** 是社群内常用的分类框架,按意识体的**来源**进行分类:
 
 ### 📊 分类图解
 
@@ -181,7 +181,7 @@ updated: 2025-10-06
 2. 没有必要纠结于严格分类——"在一滩浑水里,别指望能看清界限"
 3. 搞不清就选混合型,不必焦虑
 
-详细了解请参阅:[埃蒙加德分类法](Emmengard-Classification.md)
+详细了解请参阅：[埃蒙加德分类法](Emmengard-Classification.md)
 
 ---
 
@@ -201,8 +201,8 @@ updated: 2025-10-06
 有人认为:DID 患者想减少解离,tulpa 创造者想增加解离,似乎矛盾。
 
 **真相**:
-- DID 患者渴望减少的是**病理性的、极端的**解离
-- Tulpa 创造者追求的是**健康界限内的、温和的**意识分离
+- DID 患者渴望减少的是 **病理性的、极端的**解离
+- Tulpa 创造者追求的是 **健康界限内的、温和的**意识分离
 - 两者追求的"解离"程度完全不同,不构成"围城"
 
 ### ❌ 误区 3:"必须找到权威定义才能理解自己"
@@ -218,9 +218,9 @@ updated: 2025-10-06
 
 ### 🔍 核心概念词条
 
-- [解离(Dissociation)](Dissociation.md) - 一切的基础
-- [多意识体(Plurality)](Plurality.md) - 总体概念
-- [系统(System)](System.md) - 系统的定义与运作
+- [解离（Dissociation）](Dissociation.md) - 一切的基础
+- [多意识体（Plurality）](Plurality.md) - 总体概念
+- [系统（System）](System.md) - 系统的定义与运作
 
 ### 🏥 临床诊断相关
 
@@ -235,15 +235,15 @@ updated: 2025-10-06
 
 ### ⚙️ 系统运作机制
 
-- [前台(Fronting)](Front-Fronting.md) - 控制身体
-- [切换(Switch)](Switch.md) - 成员转换
-- [融合(Fusion)](Fusion.md) - 成员整合
-- [内部空间(Inner World)](Headspace-Inner-World.md) - 意识内部的想象空间
+- [前台（Fronting）](Front-Fronting.md) - 控制身体
+- [切换（Switch）](Switch.md) - 成员转换
+- [融合（Fusion）](Fusion.md) - 成员整合
+- [内部空间（Inner World）](Headspace-Inner-World.md) - 意识内部的想象空间
 
 ### 🛡️ 实践与照护
 
-- [接地(Grounding)](Grounding.md) - 稳定技巧
-- [冥想(Meditation)](Meditation.md) - 意识训练
+- [接地（Grounding）](Grounding.md) - 稳定技巧
+- [冥想（Meditation）](Meditation.md) - 意识训练
 - [内部沟通](Internal-Communication.md) - 成员协作
 
 ---
@@ -287,8 +287,8 @@ updated: 2025-10-06
 
 ### ⚖️ 免责说明
 
-- 本导览**不构成医疗建议**
-- 埃蒙加德分类法等社群概念**不是医学标准**
+- 本导览 **不构成医疗建议**
+- 埃蒙加德分类法等社群概念 **不是医学标准**
 - 如需诊断或治疗,请咨询持证专业人员
 
 ### 🤝 持续更新
@@ -310,10 +310,10 @@ updated: 2025-10-06
 
 ### 🔗 相关词条
 
-- [多重意识体基础(Plurality Basics)](Plurality-Basics.md)
-- [系统角色(System Roles)](System-Roles.md)
-- [成员(Alter)](Alter.md)
-- [宿主(Host)](Host.md)
+- [多重意识体基础（Plurality Basics）](Plurality-Basics.md)
+- [系统角色（System Roles）](System-Roles.md)
+- [成员（Alter）](Alter.md)
+- [宿主（Host）](Host.md)
 
 ---
 
