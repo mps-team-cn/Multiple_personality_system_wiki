@@ -2,6 +2,8 @@
 
 > 本文亦同步发布于 [`docs/pdf_export/README_pdf_output.md`](../../docs/pdf_export/README_pdf_output.md)，更新内容时请保持两处文档一致。
 
+> **更新说明（2025-10-06）**：PDF 导出功能已更新以支持 MkDocs Material 新结构和相对路径链接格式。详见 [MIGRATION_NOTES.md](MIGRATION_NOTES.md)。
+
 要将整个 wiki 导出为带封面、目录的 PDF，请运行 `tools/pdf_export/export_to_pdf.py` 脚本，或进入模块目录后直接通过包入口执行：
 
 ```bash

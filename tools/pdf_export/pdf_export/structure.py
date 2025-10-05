@@ -11,15 +11,15 @@ from typing import Iterable
 from .frontmatter import FrontmatterError, load_entry_document
 from .markdown import infer_entry_title
 from .models import CategoryStructure, EntryDocument, IgnoreRules
-from .paths import ENTRIES_DIR, PROJECT_ROOT
+from .paths import ENTRIES_DIR, PROJECT_ROOT, PREFACE_PATH, INDEX_PATH
 
 
 def _build_preface_section(ignore: IgnoreRules) -> tuple[str, tuple[EntryDocument, ...]] | None:
     """若存在《前言》，构建对应的章节分组。"""
 
-    preface_path = PROJECT_ROOT / "Preface.md"
-    if not preface_path.exists() or ignore.matches(preface_path):
+    if not PREFACE_PATH.exists() or ignore.matches(PREFACE_PATH):
         return None
+    preface_path = PREFACE_PATH
 
     try:
         content = preface_path.read_text(encoding="utf-8")
@@ -88,9 +88,9 @@ def _build_sections_from_index(
 ) -> tuple[list[tuple[str, tuple[EntryDocument, ...]]], set[Path]]:
     """解析 ``index.md``，生成章节顺序并返回已使用的词条路径集合。"""
 
-    index_path = PROJECT_ROOT / "index.md"
-    if not index_path.exists():
+    if not INDEX_PATH.exists():
         return ([], set())
+    index_path = INDEX_PATH
 
     try:
         lines = index_path.read_text(encoding="utf-8").splitlines()
