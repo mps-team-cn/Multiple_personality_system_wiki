@@ -10529,6 +10529,78 @@
       ]
     },
     {
+      "path": "entries/Subsystem.md",
+      "title": "子系统（Subsystem）",
+      "aliases": [
+        "Subsystem",
+        "子系统",
+        "子系统（Subsystem）",
+        "次级系统"
+      ],
+      "tokens": [
+        {
+          "normalized": "subsystem",
+          "display": "Subsystem",
+          "kind": "alias"
+        },
+        {
+          "normalized": "zi xi tong ",
+          "display": "子系统",
+          "kind": "alias"
+        },
+        {
+          "normalized": "子系统",
+          "display": "子系统",
+          "kind": "alias"
+        },
+        {
+          "normalized": "cjxt",
+          "display": "cjxt",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zxt",
+          "display": "zxt",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "zixitong",
+          "display": "zixitong",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "ci ji xi tong ",
+          "display": "次级系统",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "cijixitong",
+          "display": "次级系统",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "次级系统",
+          "display": "次级系统",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "zi xi tong (subsystem)",
+          "display": "子系统（Subsystem）",
+          "kind": "title"
+        },
+        {
+          "normalized": "zixitong(subsystem)",
+          "display": "子系统（Subsystem）",
+          "kind": "title"
+        },
+        {
+          "normalized": "子系统（subsystem）",
+          "display": "子系统（Subsystem）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
       "path": "entries/Switch.md",
       "title": "切换（Switch）",
       "aliases": [

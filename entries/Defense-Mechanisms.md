@@ -40,13 +40,13 @@ updated: 2025-10-05
 ## 相关条目
 
 - [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
-- [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
 - [情绪调节（Emotion Regulation）](/entries/Emotion-Regulation.md)
 - [投射（Projection, Psychology）](/entries/Projection-Psychology.md)
-- [移情与反移情（Transference and Countertransference）](/entries/Transference-Countertransference.md)
+- [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
 - [认知失调（Cognitive Dissonance）](/entries/Cognitive-Dissonance.md)
-- [自我概念（Self-Concept）](/entries/Self-Concept.md)
-- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
+- [移情与反移情（Transference and Countertransference）](/entries/Transference-Countertransference.md)
+- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
+- [高敏感人群（Highly Sensitive Person, HSP）](/entries/Highly-Sensitive-Person.md)
 
 ## 参考与延伸阅读
 

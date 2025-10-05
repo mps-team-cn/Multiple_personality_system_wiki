@@ -54,13 +54,13 @@ updated: 2025-10-03
 ## 相关条目
 
 - [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
-- [融合（Fusion）](/entries/Fusion.md)
-- [迭代（Iteration）](/entries/Iteration.md)
-- [非我感（Depersonalization）](/entries/Depersonalization.md)
 - [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
-- [独立性（Independence）](/entries/Independence.md)
-- [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [融合（Fusion）](/entries/Fusion.md)
 - [醉酒解离（Alcohol-Induced Dissociation）](/entries/Alcohol-Induced-Dissociation.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
+- [独立性（Independence）](/entries/Independence.md)
+- [迭代（Iteration）](/entries/Iteration.md)
+- [心理防御机制（Defense Mechanisms）](/entries/Defense-Mechanisms.md)
 
 ## 参考资料
 

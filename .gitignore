@@ -1,5 +1,12 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# === Build & Output ===
 tectonic.exe
-tools/pdf_export/pdf_export/__pycache__/*
 *.pdf
 *.log
 # === Claude ===
@@ -32,5 +39,3 @@ tools/pdf_export/pdf_export/__pycache__/*
 .codex/**/cache/
 .codex/**/logs/
 # === End Codex ===
-tools/__pycache__/generate_tags_index.cpython-313.pyc
-tools/__pycache__/retag_and_related.cpython-313.pyc

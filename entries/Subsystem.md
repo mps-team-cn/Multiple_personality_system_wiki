@@ -1,10 +1,13 @@
 ---
-title: 子系统（Subsystem）
-tags: [系统体验与机制, 解离]
 synonyms:
-  - 子系统
-  - Subsystem
-  - 次级系统
+- 子系统
+- Subsystem
+- 次级系统
+tags:
+- 多重意识体
+- 解离
+- 创伤
+title: 子系统（Subsystem）
 updated: 2025-10-05
 ---
 
@@ -115,12 +118,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-· [解离性身份障碍（DID）]
-· [功能性解离(Functional-Dissociation)]
-· [创伤后应激障碍(PTSD)]
-· 创伤知情照护（暂无相关数据）
-
----
+- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
+- [创伤（Trauma）](/entries/Trauma.md)
+- [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
+- [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
+- [整合（Integration）](/entries/Integration.md)
+- [融合（Fusion）](/entries/Fusion.md)
+- [超级破碎（Polyfragmented）](/entries/Polyfragmented.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
 
 ## 参考与延伸阅读
 

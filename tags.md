@@ -91,6 +91,7 @@
 - [后台（Back / Being Back）](entries/Back-Being-Back.md)
 - [外投射（External Projection）](entries/External-Projection.md)
 - [头压（Head Pressure）](entries/Head-Pressure.md)
+- [子系统（Subsystem）](entries/Subsystem.md)
 - [存在感（Sense of Presence）](entries/Sense-Of-Presence.md)
 - [孤独症谱系（Autism Spectrum Disorder）](entries/Autism-Spectrum-Disorder.md)
 - [定向障碍（Disorientation）](entries/Disorientation.md)
@@ -221,6 +222,7 @@
 - [多意识体（Plurality）](entries/Plurality.md)
 - [多重意识体基础（Plurality Basics）](entries/Plurality-Basics.md)
 - [头压（Head Pressure）](entries/Head-Pressure.md)
+- [子系统（Subsystem）](entries/Subsystem.md)
 - [存在感（Sense of Presence）](entries/Sense-Of-Presence.md)
 - [孤独症谱系（Autism Spectrum Disorder）](entries/Autism-Spectrum-Disorder.md)
 - [学习与条件反射（Learning & Conditioning）](entries/Learning-Conditioning.md)
@@ -319,10 +321,6 @@
 ## 管理员
 
 - [管理者（Admin）](entries/Admin.md)
-
-## 系统体验与机制
-
-- [子系统（Subsystem）](entries/Subsystem.md)
 
 ## 解离
 

@@ -4,6 +4,16 @@
 
 ## 工具概览
 
+### 核心处理器模块(重构后)
+
+| 模块 | 功能摘要 | 常用用法 |
+| --- | --- | --- |
+| `tools/processors/markdown.py` | 统一的 Markdown 处理器,支持可配置的修复规则(MD009/MD012/MD022/MD028/MD034/MD040/MD047) | `python -m tools.processors.markdown` (开发中) |
+| `tools/processors/links.py` | 链接检查器,验证内部链接完整性和格式规范 | `python -m tools.processors.links` (开发中) |
+| `tools/processors/tags.py` | 标签处理器,提供智能标签提取、归一化和索引生成 | `python -m tools.processors.tags` (开发中) |
+
+### 传统脚本(保留兼容)
+
 | 脚本/模块 | 功能摘要 | 常用用法 |
 | --- | --- | --- |
 | `tools/fix_md.py` | 批量修复 Markdown 常见 Lint 问题，涵盖行尾空格、标题前后空行、围栏语言补全等 | `python tools/fix_md.py` 或 `python tools/fix_md.py --dry-run` |
@@ -12,8 +22,8 @@
 | `tools/gen_changelog_by_tags.py` | 按 Git 标签时间顺序生成 `changelog.md` 并按提交类型分组 | `python tools/gen_changelog_by_tags.py --output changelog.md`，可加 `--latest-only`/`--latest-to-head` |
 | `tools/pdf_export/` | Pandoc 驱动的整站 PDF 导出工具，支持封面、忽略列表与中文字体 | `python tools/pdf_export/export_to_pdf.py` 或 `python -m pdf_export` |
 | `tools/gen-validation-report.py` | 校验词条结构并生成 `docs/VALIDATION_REPORT.md` | `python tools/gen-validation-report.py` |
-| `tools/retag_and_related.py` | 批量重建 Frontmatter 标签并生成“相关词条”区块 | `python tools/retag_and_related.py` 或 `python tools/retag_and_related.py --dry-run --limit 5` |
-| `tools/run_local_updates.sh` / `tools/run_local_updates.bat` | 串联常用维护脚本，一键完成日常更新任务 | `bash tools/run_local_updates.sh` 或 `tools\run_local_updates.bat`（均支持 `--skip-*` 选项） |
+| `tools/retag_and_related.py` | 批量重建 Frontmatter 标签并生成"相关词条"区块 | `python tools/retag_and_related.py` 或 `python tools/retag_and_related.py --dry-run --limit 5` |
+| `tools/run_local_updates.sh` / `tools/run_local_updates.bat` | 串联常用维护脚本，一键完成日常更新任务（已增强：支持参数跳过、进度显示、错误提示） | `bash tools/run_local_updates.sh` 或 `tools\run_local_updates.bat`（均支持 `--skip-*` 选项和 `--help`） |
 | `tools/build_search_index.py` | 解析词条 Frontmatter，同步生成带同义词与拼音归一化的 Docsify 搜索索引 JSON | `python tools/build_search_index.py` 或 `python tools/build_search_index.py --output assets/search-index.json` |
 | `generate_tags_index.py` | 扫描 Frontmatter 标签并生成 `tags.md` 索引 | `python tools/generate_tags_index.py` |
 
@@ -28,6 +38,112 @@
 - 会读取根目录的 `index.md`，将词条所在分区视为优先级较高的候选标签（若分区为“未分类”则自动跳过）；
 - “相关条目”区块在得分相同时会按词条英文标题排序，输出顺序更加稳定。
 
+## 新处理器模块详解
+
+### 📦 Markdown 处理器 (`processors/markdown.py`)
+
+**功能特性:**
+
+- 支持 7 种 Markdown Lint 规则修复
+- 可配置的规则启用/禁用
+- 批量处理能力
+- 预览模式(dry-run)
+- 详细的处理结果报告
+
+**支持的修复规则:**
+
+- **MD009**: 移除行尾空白字符(包括全角空格)
+- **MD012**: 压缩连续空行为单行
+- **MD022**: 确保标题前后空行
+- **MD028**: 修复引用块中的空行
+- **MD034**: 转换裸链接为标准格式
+- **MD040**: 为代码围栏添加语言标注
+- **MD047**: 确保文件以单个换行结束
+
+**编程接口:**
+
+```python
+from tools.processors.markdown import MarkdownProcessor, fix_markdown_file
+
+# 使用处理器类
+
+processor = MarkdownProcessor()
+result = processor.process_file(Path("entries/example.md"))
+
+# 使用便捷函数
+
+result = fix_markdown_file("entries/example.md", dry_run=True)
+```
+
+### 🔗 链接处理器 (`processors/links.py`)
+
+**功能特性:**
+
+- 内部链接完整性验证
+- 相对路径检测
+- 白名单管理
+- 详细的违规报告
+- 批量检查能力
+
+**检查规则:**
+
+- 禁止使用 `./` 或 `../` 相对路径
+- 要求 entries 目录下的链接使用 `entries/*.md` 完整路径
+- 支持根目录白名单文件(如 `index.md`, `CONTRIBUTING.md`)
+- 支持 `docs/` 前缀的文档链接
+- 自动跳过外部链接、锚点和图片
+
+**编程接口:**
+
+```python
+from tools.processors.links import LinkProcessor, check_links_in_file
+
+# 使用处理器类
+
+processor = LinkProcessor(extra_whitelist={"custom.md"})
+result = processor.check_file(Path("entries/example.md"), repo_root=Path("."))
+
+# 使用便捷函数
+
+result = check_links_in_file("entries/example.md", repo_root=".")
+```
+
+### 🏷️ 标签处理器 (`processors/tags.py`)
+
+**功能特性:**
+
+- 智能标签提取(从 Frontmatter、标题、内容)
+- 同义词归一化
+- 停用词过滤
+- 标签索引生成
+- 可配置的权重系统
+
+**核心功能:**
+
+- **标签归一化**: 统一格式、应用同义词映射、大小写处理
+- **智能提取**: 从多个来源提取并按权重排序
+- **有效性验证**: 过滤无效标签(过长、纯数字、停用词等)
+- **索引生成**: 生成按标签分类的词条索引
+
+**编程接口:**
+
+```python
+from tools.processors.tags import TagProcessor, generate_tags, generate_tags_index
+
+# 使用处理器类
+
+processor = TagProcessor()
+result = processor.generate_tags_for_file(Path("entries/example.md"))
+
+# 使用便捷函数
+
+result = generate_tags("entries/example.md", dry_run=True)
+
+# 生成标签索引
+
+index_content = generate_tags_index("entries/", output_path="tags.md")
+```
+
 ## 使用建议
 
 ### 🏃 一键执行日常维护
@@ -38,7 +154,11 @@
 
 bash tools/run_local_updates.sh
 
-# macOS / Linux 仅跳过 PDF 导出与 markdownlint
+# macOS / Linux 查看帮助信息
+
+bash tools/run_local_updates.sh --help
+
+# macOS / Linux 跳过特定步骤
 
 bash tools/run_local_updates.sh --skip-pdf --skip-markdownlint
 
@@ -46,12 +166,51 @@ bash tools/run_local_updates.sh --skip-pdf --skip-markdownlint
 
 tools\run_local_updates.bat
 
+# Windows 查看帮助
+
+tools\run_local_updates.bat --help
+
 # Windows 同样可叠加跳过参数
 
 tools\run_local_updates.bat --skip-pdf --skip-markdownlint
 ```
 
-> 两个脚本都会自动切换到仓库根目录，并依次调用 changelog 生成、标签重建、最后更新时间索引、PDF 导出、标签索引、Markdown 修复与 lint。
+**功能特性:**
+
+- 自动切换到仓库根目录
+- 按顺序执行 8 个维护步骤
+- 支持单独跳过任意步骤
+- 显示执行进度和错误提示
+- 完整的帮助信息
+- UTF-8 编码支持(`.bat` 文件在 Windows CMD/PowerShell 中可正确显示中文)
+
+**注意事项:**
+
+- Windows 用户建议在 CMD 或 PowerShell 中运行 `.bat` 文件以获得最佳显示效果
+- Git Bash 用户可以使用 `.sh` 版本获得更好的兼容性
+- 所有步骤失败时会显示警告但不会中断后续步骤
+
+**执行步骤:**
+
+1. 生成变更日志 (`gen_changelog_by_tags.py`)
+2. 刷新标签与相关词条 (`retag_and_related.py`)
+3. 生成最后更新时间索引 (`gen-last-updated.mjs`)
+4. 导出 PDF (`pdf_export/export_to_pdf.py`)
+5. 生成标签索引 (`generate_tags_index.py`)
+6. 生成搜索索引 (`build_search_index.py`)
+7. 自动修复 Markdown (`fix_md.py`)
+8. 运行 markdownlint 校验
+
+**可用的跳过选项:**
+
+- `--skip-changelog` - 跳过变更日志生成
+- `--skip-retag` - 跳过标签与关联词条重建
+- `--skip-last-updated` - 跳过最后更新时间索引生成
+- `--skip-pdf` - 跳过 PDF 导出
+- `--skip-tag-index` - 跳过标签索引生成
+- `--skip-search-index` - 跳过搜索索引生成
+- `--skip-fix-md` - 跳过 Markdown 自动修复
+- `--skip-markdownlint` - 跳过 markdownlint 校验
 
 ### 🧰 一键修复 Markdown
 

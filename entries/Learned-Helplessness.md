@@ -91,8 +91,8 @@ updated: 2025-10-04
 - [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
 - [应激反应（Stress Response）](/entries/Stress-Response.md)
 - [谵妄（Delirium）](/entries/Delirium.md)
-- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
+- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [定向障碍（Disorientation）](/entries/Disorientation.md)
 - [轻躁狂（Hypomania）](/entries/Hypomania.md)
 

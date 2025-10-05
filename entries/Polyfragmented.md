@@ -81,7 +81,7 @@ updated: 2025-10-03
 - [成员（Alter）](/entries/Alter.md)
 - [初始（Original）](/entries/Original.md)
 - [迭代（Iteration）](/entries/Iteration.md)
-- [伪主体（Fauxmain）](/entries/Fauxmain.md)
+- [非我感（Depersonalization）](/entries/Depersonalization.md)
 
 ## 参考与延伸阅读
 
