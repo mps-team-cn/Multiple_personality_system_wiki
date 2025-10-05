@@ -26,7 +26,7 @@ updated: 2025-10-03
 
 ## 与其他角色的区分
 
-- **小孩意识体（Little / Child Part）**：后者聚焦童年需求与依附关系，青少年意识体则强调独立与自主。详见《[小孩意识体（Little / Child Part）](entries/Little.md)》。
+- **小孩意识体（Little / Child Part）**：后者聚焦童年需求与依附关系，青少年意识体则强调独立与自主。详见《[小孩意识体（Little / Child Part）](Little.md)》。
 - **执行者（Performer / Executive）**：青少年意识体可能同时承担任务，但执行者的焦点在功能效率而非年龄体验。
 
 ## 支持策略
@@ -47,11 +47,11 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [小孩意识体（Little / Child Part）](/entries/Little.md)
-- [人格职能（System Roles）](/entries/System-Roles.md)
-- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
-- [照顾者（Caregiver）](/entries/Caregiver.md)
-- [迫害者（Persecutor）](/entries/Persecutor.md)
-- [保护者（Protector）](/entries/Protector.md)
-- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
-- [初始（Original）](/entries/Original.md)
+- [小孩意识体（Little / Child Part）](Little.md)
+- [人格职能（System Roles）](System-Roles.md)
+- [执行者（Performer / Executive）](Performer-Executive.md)
+- [照顾者（Caregiver）](Caregiver.md)
+- [迫害者（Persecutor）](Persecutor.md)
+- [保护者（Protector）](Protector.md)
+- [记忆持有者（Memory Holder）](Memory-Holder.md)
+- [初始（Original）](Original.md)

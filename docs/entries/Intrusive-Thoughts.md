@@ -55,7 +55,7 @@ _如有触发风险，请在安全情境下阅读。_
 
 ## 与相关障碍的关系
 
-- [强迫症（OCD）](entries/OCD.md)：侵入性思维反复出现，并通过强迫行为（检查、清洁、祈祷等）来缓解焦虑。
+- [强迫症（OCD）](OCD.md)：侵入性思维反复出现，并通过强迫行为（检查、清洁、祈祷等）来缓解焦虑。
 - **创伤后应激障碍（PTSD）**：与创伤事件相关的闪回、噩梦和警觉升高，属于创伤记忆的侵入表现。
 - **抑郁障碍与焦虑障碍**：负性自动思维、灾难化联想和自责循环会让侵入内容更频繁。
 - **解离性障碍**：当侵入性思维与身份碎片化或记忆空缺相伴时，可能表现为他人“闯入”式的内心声音或冲动。
@@ -91,21 +91,21 @@ _如有触发风险，请在安全情境下阅读。_
 
 ## 参阅
 
-- [强迫症（OCD）](entries/OCD.md)
-- [解离](entries/Dissociation.md)
-- [应激反应](entries/Stress-Response.md)
-- [接地](entries/Grounding.md)
+- [强迫症（OCD）](OCD.md)
+- [解离](Dissociation.md)
+- [应激反应](Stress-Response.md)
+- [接地](Grounding.md)
 
 ## 相关条目
 
-- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](/entries/PTSD.md)
-- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
-- [闪回（Flashback）](/entries/Flashback.md)
-- [非我感（Depersonalization）](/entries/Depersonalization.md)
-- [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
-- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
-- [焦虑（Anxiety）](/entries/Anxiety.md)
-- [去现实化（Derealization）](/entries/Derealization.md)
+- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](PTSD.md)
+- [强迫症（Obsessive-Compulsive Disorder, OCD）](OCD.md)
+- [闪回（Flashback）](Flashback.md)
+- [非我感（Depersonalization）](Depersonalization.md)
+- [心境障碍（Affective Disorders）](Affective-Disorders.md)
+- [精神分裂症（Schizophrenia，SC）](Schizophrenia-SC.md)
+- [焦虑（Anxiety）](Anxiety.md)
+- [去现实化（Derealization）](Derealization.md)
 
 ## 参考
 

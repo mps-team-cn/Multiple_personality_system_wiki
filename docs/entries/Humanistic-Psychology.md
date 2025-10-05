@@ -29,24 +29,24 @@ updated: 2025-10-05
 
 ## 在多意识体与解离语境中的意义
 
-人本主义的非评判态度与自我实现理念为多重意识体系统提供包容框架。成员可以在安全环境下探索自我价值与人生目标，避免因羞耻与污名而加重[防御性解离](entries/Defensive-Dissociation.md)。
+人本主义的非评判态度与自我实现理念为多重意识体系统提供包容框架。成员可以在安全环境下探索自我价值与人生目标，避免因羞耻与污名而加重[防御性解离](Defensive-Dissociation.md)。
 
 ## 实践应用与建议
 
 - 在内部对话中实践无条件积极关注，承认各成员的需求与感受。
 - 运用罗杰斯式反映聆听技巧，促进理解与连接。
-- 将自我实现目标拆分为可执行步骤，结合[动机理论](entries/Motivation-Theories.md)规划成长路径。
+- 将自我实现目标拆分为可执行步骤，结合[动机理论](Motivation-Theories.md)规划成长路径。
 
 ## 相关条目
 
-- [自我效能感（Self-Efficacy）](/entries/Self-Efficacy.md)
-- [动机理论（Motivation Theories）](/entries/Motivation-Theories.md)
-- [自我决定理论（Self-Determination Theory）](/entries/Self-Determination-Theory.md)
-- [社会认知理论（Social-Cognitive Theory）](/entries/Social-Cognitive-Theory.md)
-- [自我概念（Self-Concept）](/entries/Self-Concept.md)
-- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
-- [依恋理论（Attachment Theory）](/entries/Attachment-Theory.md)
-- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
+- [自我效能感（Self-Efficacy）](Self-Efficacy.md)
+- [动机理论（Motivation Theories）](Motivation-Theories.md)
+- [自我决定理论（Self-Determination Theory）](Self-Determination-Theory.md)
+- [社会认知理论（Social-Cognitive Theory）](Social-Cognitive-Theory.md)
+- [自我概念（Self-Concept）](Self-Concept.md)
+- [心理弹性（Psychological Resilience）](Psychological-Resilience.md)
+- [依恋理论（Attachment Theory）](Attachment-Theory.md)
+- [人格结构理论（Personality Structure Theory, Freud）](Personality-Structure-Theory.md)
 
 ## 参考与延伸阅读
 

@@ -90,14 +90,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [侵入性思维（Intrusive Thoughts）](/entries/Intrusive-Thoughts.md)
-- [闪回（Flashback）](/entries/Flashback.md)
-- [复杂性创伤后应激障碍（CPTSD）](/entries/CPTSD.md)
-- [创伤（Trauma）](/entries/Trauma.md)
-- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
-- [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
-- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
-- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
+- [侵入性思维（Intrusive Thoughts）](Intrusive-Thoughts.md)
+- [闪回（Flashback）](Flashback.md)
+- [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)
+- [创伤（Trauma）](Trauma.md)
+- [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md)
+- [解离性遗忘（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)
+- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)
+- [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
 
 ## 参考与延伸阅读
 

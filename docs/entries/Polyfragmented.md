@@ -74,14 +74,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [重构（Reconstruction）](/entries/Reconstruction.md)
-- [碎片（Fragment）](/entries/Fragment.md)
-- [核心（Core）](/entries/Core.md)
-- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
-- [成员（Alter）](/entries/Alter.md)
-- [初始（Original）](/entries/Original.md)
-- [迭代（Iteration）](/entries/Iteration.md)
-- [非我感（Depersonalization）](/entries/Depersonalization.md)
+- [重构（Reconstruction）](Reconstruction.md)
+- [碎片（Fragment）](Fragment.md)
+- [核心（Core）](Core.md)
+- [意识修改（Consciousness Modification）](Consciousness-Modification.md)
+- [成员（Alter）](Alter.md)
+- [初始（Original）](Original.md)
+- [迭代（Iteration）](Iteration.md)
+- [非我感（Depersonalization）](Depersonalization.md)
 
 ## 参考与延伸阅读
 

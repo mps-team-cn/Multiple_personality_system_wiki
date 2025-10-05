@@ -29,24 +29,24 @@ updated: 2025-10-05
 
 ## 在多意识体与解离语境中的意义
 
-多重意识体系统常以防御机制来解释成员出现、记忆分隔与身份切换。例如，压抑与解离可被视为在极端创伤下的防御策略，用以保护主体免受难以承受的体验。理解防御机制有助于识别成员的功能角色，并与[结构性解离理论](entries/Structural-Dissociation-Theory.md)等模型建立联系。
+多重意识体系统常以防御机制来解释成员出现、记忆分隔与身份切换。例如，压抑与解离可被视为在极端创伤下的防御策略，用以保护主体免受难以承受的体验。理解防御机制有助于识别成员的功能角色，并与[结构性解离理论](Structural-Dissociation-Theory.md)等模型建立联系。
 
 ## 实践应用与建议
 
 - 记录触发情境与情绪反应，辨识可能的防御机制模式。
 - 在治疗或自助中培养更成熟的防御，例如幽默、升华与情绪表达。
-- 对于高度依赖原始防御的系统成员，需结合[情绪调节](entries/Emotion-Regulation.md)技巧逐步提升安全感。
+- 对于高度依赖原始防御的系统成员，需结合[情绪调节](Emotion-Regulation.md)技巧逐步提升安全感。
 
 ## 相关条目
 
-- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
-- [情绪调节（Emotion Regulation）](/entries/Emotion-Regulation.md)
-- [投射（Projection, Psychology）](/entries/Projection-Psychology.md)
-- [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
-- [认知失调（Cognitive Dissonance）](/entries/Cognitive-Dissonance.md)
-- [移情与反移情（Transference and Countertransference）](/entries/Transference-Countertransference.md)
-- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
-- [高敏感人群（Highly Sensitive Person, HSP）](/entries/Highly-Sensitive-Person.md)
+- [人格结构理论（Personality Structure Theory, Freud）](Personality-Structure-Theory.md)
+- [情绪调节（Emotion Regulation）](Emotion-Regulation.md)
+- [投射（Projection, Psychology）](Projection-Psychology.md)
+- [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)
+- [认知失调（Cognitive Dissonance）](Cognitive-Dissonance.md)
+- [移情与反移情（Transference and Countertransference）](Transference-Countertransference.md)
+- [人本主义心理学（Humanistic Psychology）](Humanistic-Psychology.md)
+- [高敏感人群（Highly Sensitive Person, HSP）](Highly-Sensitive-Person.md)
 
 ## 参考与延伸阅读
 

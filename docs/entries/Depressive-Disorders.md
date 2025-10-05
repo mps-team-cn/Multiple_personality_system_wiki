@@ -104,14 +104,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
-- [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
-- [谵妄（Delirium）](/entries/Delirium.md)
-- [躁狂（Mania）](/entries/Mania.md)
-- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
-- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
-- [轻躁狂（Hypomania）](/entries/Hypomania.md)
-- [定向障碍（Disorientation）](/entries/Disorientation.md)
+- [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
+- [心境障碍（Affective Disorders）](Affective-Disorders.md)
+- [谵妄（Delirium）](Delirium.md)
+- [躁狂（Mania）](Mania.md)
+- [精神分裂症（Schizophrenia，SC）](Schizophrenia-SC.md)
+- [孤独症谱系（Autism Spectrum Disorder）](Autism-Spectrum-Disorder.md)
+- [轻躁狂（Hypomania）](Hypomania.md)
+- [定向障碍（Disorientation）](Disorientation.md)
 
 ## 参考与延伸阅读
 

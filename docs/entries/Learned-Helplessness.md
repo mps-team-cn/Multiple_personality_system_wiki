@@ -87,14 +87,14 @@ updated: 2025-10-04
 
 ## 相关条目
 
-- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
-- [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
-- [应激反应（Stress Response）](/entries/Stress-Response.md)
-- [谵妄（Delirium）](/entries/Delirium.md)
-- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
-- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
-- [定向障碍（Disorientation）](/entries/Disorientation.md)
-- [轻躁狂（Hypomania）](/entries/Hypomania.md)
+- [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
+- [心境障碍（Affective Disorders）](Affective-Disorders.md)
+- [应激反应（Stress Response）](Stress-Response.md)
+- [谵妄（Delirium）](Delirium.md)
+- [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
+- [孤独症谱系（Autism Spectrum Disorder）](Autism-Spectrum-Disorder.md)
+- [定向障碍（Disorientation）](Disorientation.md)
+- [轻躁狂（Hypomania）](Hypomania.md)
 
 ## 参考文献
 

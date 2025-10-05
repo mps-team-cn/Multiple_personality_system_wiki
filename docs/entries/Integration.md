@@ -42,14 +42,14 @@ Integration，融合，最终融合（Final Fusion）
 
 ## 相关条目
 
-- [融合（Fusion）](/entries/Fusion.md)
-- [迭代（Iteration）](/entries/Iteration.md)
-- [重构（Reconstruction）](/entries/Reconstruction.md)
-- [独立性（Independence）](/entries/Independence.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
-- [非我感（Depersonalization）](/entries/Depersonalization.md)
-- [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
-- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
+- [融合（Fusion）](Fusion.md)
+- [迭代（Iteration）](Iteration.md)
+- [重构（Reconstruction）](Reconstruction.md)
+- [独立性（Independence）](Independence.md)
+- [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)
+- [非我感（Depersonalization）](Depersonalization.md)
+- [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)
+- [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)
 
 ## 参考资料
 

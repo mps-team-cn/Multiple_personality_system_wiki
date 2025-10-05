@@ -41,14 +41,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [非我感（Depersonalization）](/entries/Depersonalization.md)
-- [迭代（Iteration）](/entries/Iteration.md)
-- [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
-- [重构（Reconstruction）](/entries/Reconstruction.md)
-- [应激反应（Stress Response）](/entries/Stress-Response.md)
-- [独有记忆（Exomemory）](/entries/Exomemory.md)
-- [封存（Sequestration）](/entries/Sequestration.md)
-- [融合（Fusion）](/entries/Fusion.md)
+- [非我感（Depersonalization）](Depersonalization.md)
+- [迭代（Iteration）](Iteration.md)
+- [意识共存（Co-consciousness）](Co-Consciousness.md)
+- [重构（Reconstruction）](Reconstruction.md)
+- [应激反应（Stress Response）](Stress-Response.md)
+- [独有记忆（Exomemory）](Exomemory.md)
+- [封存（Sequestration）](Sequestration.md)
+- [融合（Fusion）](Fusion.md)
 
 ## 参考资料
 

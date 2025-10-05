@@ -32,14 +32,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [迭代（Iteration）](/entries/Iteration.md)
-- [整合（Integration）](/entries/Integration.md)
-- [重构（Reconstruction）](/entries/Reconstruction.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
-- [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
-- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
-- [非我感（Depersonalization）](/entries/Depersonalization.md)
-- [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [迭代（Iteration）](Iteration.md)
+- [整合（Integration）](Integration.md)
+- [重构（Reconstruction）](Reconstruction.md)
+- [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)
+- [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)
+- [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)
+- [非我感（Depersonalization）](Depersonalization.md)
+- [应激反应（Stress Response）](Stress-Response.md)
 
 ## 参考资料
 

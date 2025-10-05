@@ -109,14 +109,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [结构性解离理论（Theory of Structural Dissociation）](/entries/Structural-Dissociation-Theory.md)
-- [其他特定解离性障碍（OSDD）](/entries/OSDD.md)
-- [自动驾驶（Autopilot）](/entries/Autopilot.md)
-- [解离（Dissociation）](/entries/Dissociation.md)
-- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
-- [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](/entries/Partial-Dissociative-Identity-Disorder-PDID.md)
-- [系统（System）](/entries/System.md)
-- [多意识体（Plurality）](/entries/Plurality.md)
+- [结构性解离理论（Theory of Structural Dissociation）](Structural-Dissociation-Theory.md)
+- [其他特定解离性障碍（OSDD）](OSDD.md)
+- [自动驾驶（Autopilot）](Autopilot.md)
+- [解离（Dissociation）](Dissociation.md)
+- [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md)
+- [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](Partial-Dissociative-Identity-Disorder-PDID.md)
+- [系统（System）](System.md)
+- [多意识体（Plurality）](Plurality.md)
 
 ## 参考文献
 

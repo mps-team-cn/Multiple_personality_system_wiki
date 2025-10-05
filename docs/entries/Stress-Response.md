@@ -42,14 +42,14 @@ Stress Response、压力反应、战斗或逃跑反应
 
 ## 相关条目
 
-- [非我感（Depersonalization）](/entries/Depersonalization.md)
-- [迭代（Iteration）](/entries/Iteration.md)
-- [封存（Sequestration）](/entries/Sequestration.md)
-- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
-- [重构（Reconstruction）](/entries/Reconstruction.md)
-- [存在感（Sense of Presence）](/entries/Sense-Of-Presence.md)
-- [去现实化（Derealization）](/entries/Derealization.md)
-- [融合（Fusion）](/entries/Fusion.md)
+- [非我感（Depersonalization）](Depersonalization.md)
+- [迭代（Iteration）](Iteration.md)
+- [封存（Sequestration）](Sequestration.md)
+- [意识修改（Consciousness Modification）](Consciousness-Modification.md)
+- [重构（Reconstruction）](Reconstruction.md)
+- [存在感（Sense of Presence）](Sense-Of-Presence.md)
+- [去现实化（Derealization）](Derealization.md)
+- [融合（Fusion）](Fusion.md)
 
 ## 参考资料
 

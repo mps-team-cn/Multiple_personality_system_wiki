@@ -35,18 +35,18 @@ updated: 2025-10-05
 
 - 鼓励各成员撰写个人档案，陈述自身价值、技能与界限。
 - 使用生命线、身份地图等工具，帮助整合关键记忆与角色。
-- 结合[自我效能感](entries/Self-Efficacy.md)与[心理弹性](entries/Psychological-Resilience.md)的练习，强化积极自我认知。
+- 结合[自我效能感](Self-Efficacy.md)与[心理弹性](Psychological-Resilience.md)的练习，强化积极自我认知。
 
 ## 相关条目
 
-- [自我效能感（Self-Efficacy）](/entries/Self-Efficacy.md)
-- [社会认知理论（Social-Cognitive Theory）](/entries/Social-Cognitive-Theory.md)
-- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
-- [自我决定理论（Self-Determination Theory）](/entries/Self-Determination-Theory.md)
-- [动机理论（Motivation Theories）](/entries/Motivation-Theories.md)
-- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
-- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
-- [依恋理论（Attachment Theory）](/entries/Attachment-Theory.md)
+- [自我效能感（Self-Efficacy）](Self-Efficacy.md)
+- [社会认知理论（Social-Cognitive Theory）](Social-Cognitive-Theory.md)
+- [人本主义心理学（Humanistic Psychology）](Humanistic-Psychology.md)
+- [自我决定理论（Self-Determination Theory）](Self-Determination-Theory.md)
+- [动机理论（Motivation Theories）](Motivation-Theories.md)
+- [人格结构理论（Personality Structure Theory, Freud）](Personality-Structure-Theory.md)
+- [心理弹性（Psychological Resilience）](Psychological-Resilience.md)
+- [依恋理论（Attachment Theory）](Attachment-Theory.md)
 
 ## 参考与延伸阅读
 

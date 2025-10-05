@@ -32,16 +32,16 @@ updated: 2025-10-03
 
 ## 分类总览
 
-1. **[单一类系统](entries/Single-Class-Systems-Xianyu.md)**
+1. **[单一类系统](Single-Class-Systems-Xianyu.md)**
    - 自发型 / 创伤型 / 创造型 / 创伤后稳定型
 
-2. **[混合型系统](entries/Mixed-Systems-Xianyu.md)**
+2. **[混合型系统](Mixed-Systems-Xianyu.md)**
    - 创伤+创造 / 创伤+自发 / 创伤+家族式 / 创造+家族式 / 自发+家族式
 
-3. **[家族式系统](entries/Family-Systems-Xianyu.md)**
+3. **[家族式系统](Family-Systems-Xianyu.md)**
    - 模拟或自然形成的“家庭纽带”系统（含风险提示）
 
-4. **[系魂型系统](entries/Soul-Linked-Systems-Xianyu.md)**
+4. **[系魂型系统](Soul-Linked-Systems-Xianyu.md)**
    - 作为外部意识中介的特殊类型
 
 ---
@@ -74,14 +74,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [混合型系统（Mixed Systems, Xianyu Theory）](/entries/Mixed-Systems-Xianyu.md)
-- [单一类系统（Single-Class Systems, Xianyu Theory）](/entries/Single-Class-Systems-Xianyu.md)
-- [系魂型系统（Soul-Linked Systems, Xianyu Theory）](/entries/Soul-Linked-Systems-Xianyu.md)
-- [家族式系统（Family Systems, Xianyu Theory）](/entries/Family-Systems-Xianyu.md)
-- [T 语（Tulpish）](/entries/Tulpish.md)
-- [创伤（Trauma）](/entries/Trauma.md)
-- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
-- [偏重（Bias / Median）](/entries/Bias.md)
+- [混合型系统（Mixed Systems, Xianyu Theory）](Mixed-Systems-Xianyu.md)
+- [单一类系统（Single-Class Systems, Xianyu Theory）](Single-Class-Systems-Xianyu.md)
+- [系魂型系统（Soul-Linked Systems, Xianyu Theory）](Soul-Linked-Systems-Xianyu.md)
+- [家族式系统（Family Systems, Xianyu Theory）](Family-Systems-Xianyu.md)
+- [T 语（Tulpish）](Tulpish.md)
+- [创伤（Trauma）](Trauma.md)
+- [强迫症（Obsessive-Compulsive Disorder, OCD）](OCD.md)
+- [偏重（Bias / Median）](Bias.md)
 
 ## 参考与来源
 

@@ -11,7 +11,7 @@ updated: 2025-10-03
 
 ## 定义
 
-自发型系统指未以创伤为主要成因，而是在自然发展、灵性实践或认知探索中逐渐形成的多意识体。该标签源自[埃蒙加德分类法（Emmengard Classification）](entries/Emmengard-Classification.md)，强调成员的出现是一种自然而然的演化或自我发现过程。
+自发型系统指未以创伤为主要成因，而是在自然发展、灵性实践或认知探索中逐渐形成的多意识体。该标签源自[埃蒙加德分类法（Emmengard Classification）](Emmengard-Classification.md)，强调成员的出现是一种自然而然的演化或自我发现过程。
 
 ## 形成背景
 
@@ -28,8 +28,8 @@ updated: 2025-10-03
 
 ## 与其他标签的关系
 
-- **与[适应型（Adaptive）](entries/Adaptive.md)的区别**：适应型以创伤应对为核心，而自发型强调自然形成；若系统同时存在创伤经历与自发成员，可认同[混合型（Mixed）](entries/Emmengard-Classification.md#混合型mixed)。
-- **与[创造型（Created）](entries/Emmengard-Classification.md#创造型created)的比较**：创造型涉及主动设计或练习，自发型成员则多为在探索中意外显现。
+- **与[适应型（Adaptive）](Adaptive.md)的区别**：适应型以创伤应对为核心，而自发型强调自然形成；若系统同时存在创伤经历与自发成员，可认同[混合型（Mixed）](Emmengard-Classification.md#混合型mixed)。
+- **与[创造型（Created）](Emmengard-Classification.md#创造型created)的比较**：创造型涉及主动设计或练习，自发型成员则多为在探索中意外显现。
 - **与灵性认同的交集**：部分自发型系统也认同灵性标签（如系魂、神祇同在等），但是否采纳取决于系统自身的信仰与体验。
 
 ## 支持与自我照顾建议
@@ -40,19 +40,19 @@ updated: 2025-10-03
 
 ## 延伸阅读
 
-- [埃蒙加德分类法（Emmengard Classification）](entries/Emmengard-Classification.md)
-- [创造型（Created）](entries/Emmengard-Classification.md#创造型created)
-- [混合型（Mixed）](entries/Emmengard-Classification.md#混合型mixed)
-- [系魂（Soulbond）](entries/Soulbond.md)
-- [图帕（Tulpa）](entries/Tulpa.md)
+- [埃蒙加德分类法（Emmengard Classification）](Emmengard-Classification.md)
+- [创造型（Created）](Emmengard-Classification.md#创造型created)
+- [混合型（Mixed）](Emmengard-Classification.md#混合型mixed)
+- [系魂（Soulbond）](Soulbond.md)
+- [图帕（Tulpa）](Tulpa.md)
 
 ## 相关条目
 
-- [《我与梦露的一周》（The United States of Tara）中的系统家庭日常](/entries/United-States-Of-Tara-System-Daily-Life.md)
-- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
-- [《隐形人》（Mr. Robot）中的人格分裂叙事](/entries/Mr-Robot-DID-Narrative.md)
-- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](/entries/Dostoevsky-The-Double-Self-Division.md)
-- [《西比尔》（Sybil, 1976）与多重人格文化原型](/entries/Sybil-1976-Cultural-Prototype.md)
-- [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](/entries/Three-Faces-Of-Eve-1957-Dissociation.md)
-- [《妄想代理人》（Paranoia Agent）与集体意识的具象化](/entries/Paranoia-Agent-Collective-Consciousness.md)
-- [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](/entries/Touhou-Tulpa-Fandom.md)
+- [《我与梦露的一周》（The United States of Tara）中的系统家庭日常](United-States-Of-Tara-System-Daily-Life.md)
+- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](Kafka-Metamorphosis-Identity-Dissolution.md)
+- [《隐形人》（Mr. Robot）中的人格分裂叙事](Mr-Robot-DID-Narrative.md)
+- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](Dostoevsky-The-Double-Self-Division.md)
+- [《西比尔》（Sybil, 1976）与多重人格文化原型](Sybil-1976-Cultural-Prototype.md)
+- [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](Three-Faces-Of-Eve-1957-Dissociation.md)
+- [《妄想代理人》（Paranoia Agent）与集体意识的具象化](Paranoia-Agent-Collective-Consciousness.md)
+- [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](Touhou-Tulpa-Fandom.md)

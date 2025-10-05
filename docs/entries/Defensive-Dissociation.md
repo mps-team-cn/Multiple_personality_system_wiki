@@ -33,20 +33,20 @@ updated: 2025-10-05
 
 ## 实践应用与建议
 
-- 使用[情绪调节](entries/Emotion-Regulation.md)与地面化技巧管理突发解离。
+- 使用[情绪调节](Emotion-Regulation.md)与地面化技巧管理突发解离。
 - 在治疗中逐步接触创伤记忆，避免过快推进导致再创伤。
 - 建立内部合作协议，确保在触发时有成员负责维持日常功能。
 
 ## 相关条目
 
-- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
-- [心理防御机制（Defense Mechanisms）](/entries/Defense-Mechanisms.md)
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
-- [碎片（Fragment）](/entries/Fragment.md)
-- [人格职能（System Roles）](/entries/System-Roles.md)
-- [迭代（Iteration）](/entries/Iteration.md)
-- [融合（Fusion）](/entries/Fusion.md)
-- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
+- [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)
+- [心理防御机制（Defense Mechanisms）](Defense-Mechanisms.md)
+- [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)
+- [碎片（Fragment）](Fragment.md)
+- [人格职能（System Roles）](System-Roles.md)
+- [迭代（Iteration）](Iteration.md)
+- [融合（Fusion）](Fusion.md)
+- [记忆持有者（Memory Holder）](Memory-Holder.md)
 
 ## 参考与延伸阅读
 

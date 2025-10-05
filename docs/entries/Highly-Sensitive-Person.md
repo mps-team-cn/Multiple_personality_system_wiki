@@ -29,7 +29,7 @@ updated: 2025-10-05
 
 ## 在多意识体与解离语境中的意义
 
-高敏感成员可能对触发线索更敏感，易疲劳或感到过度负荷。系统可利用其优势，如细腻的共情与创意，同时通过能量管理避免耗竭。高敏感也与[心理能量与注意资源](entries/Psychic-Energy-Attention.md)管理密切相关。
+高敏感成员可能对触发线索更敏感，易疲劳或感到过度负荷。系统可利用其优势，如细腻的共情与创意，同时通过能量管理避免耗竭。高敏感也与[心理能量与注意资源](Psychic-Energy-Attention.md)管理密切相关。
 
 ## 实践应用与建议
 
@@ -39,14 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [情绪调节（Emotion Regulation）](/entries/Emotion-Regulation.md)
-- [心理防御机制（Defense Mechanisms）](/entries/Defense-Mechanisms.md)
-- [自我概念（Self-Concept）](/entries/Self-Concept.md)
-- [投射（Projection, Psychology）](/entries/Projection-Psychology.md)
-- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
-- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
-- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
-- [认知失调（Cognitive Dissonance）](/entries/Cognitive-Dissonance.md)
+- [情绪调节（Emotion Regulation）](Emotion-Regulation.md)
+- [心理防御机制（Defense Mechanisms）](Defense-Mechanisms.md)
+- [自我概念（Self-Concept）](Self-Concept.md)
+- [投射（Projection, Psychology）](Projection-Psychology.md)
+- [人格结构理论（Personality Structure Theory, Freud）](Personality-Structure-Theory.md)
+- [心理弹性（Psychological Resilience）](Psychological-Resilience.md)
+- [人本主义心理学（Humanistic Psychology）](Humanistic-Psychology.md)
+- [认知失调（Cognitive Dissonance）](Cognitive-Dissonance.md)
 
 ## 参考与延伸阅读
 

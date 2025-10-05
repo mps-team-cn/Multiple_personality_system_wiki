@@ -26,7 +26,7 @@ updated: 2025-10-03
 
 ## 容易混淆的概念
 
-- **图帕 / 托帕（Tulpa）**：tulpamancy 实践者通过长期冥想与拟人化训练培育具自主回应能力的伙伴，强调与创造者的平等关系。详见《[图帕（Tulpa）](entries/Tulpa.md)》。[^veissiere2016]
+- **图帕 / 托帕（Tulpa）**：tulpamancy 实践者通过长期冥想与拟人化训练培育具自主回应能力的伙伴，强调与创造者的平等关系。详见《[图帕（Tulpa）](Tulpa.md)》。[^veissiere2016]
 - **系统成员（Headmate）**：多意识体系统中的成员被视为拥有独立的身份、记忆与决策能力，通常在成年后仍持续存在，并需要协作管理身体。幻想伙伴则多为儿童想象，在社群中不被视为“真正的成员”。
 - **寄生性念头或幻觉**：幻想伙伴是自愿且可控的想象，不应与非自愿的幻听或精神病性症状混为一谈；若出现痛苦或功能受损，应寻求专业评估。[^americanpsychiatric2013]
 
@@ -46,11 +46,11 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](/entries/Touhou-Tulpa-Fandom.md)
-- [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](/entries/Nonexistent-You-And-Me-Tulpa-Lilith.md)
-- [《妄想代理人》（Paranoia Agent）与集体意识的具象化](/entries/Paranoia-Agent-Collective-Consciousness.md)
-- [洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）](/entries/Lovecraft-Tulpa-Motifs.md)
-- [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](/entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
-- [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](/entries/Madoka-Magica-Kyubey-Otherness.md)
-- [投影（Projection）](/entries/Projection.md)
-- [宿主（Host）](/entries/Host.md)
+- [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](Touhou-Tulpa-Fandom.md)
+- [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](Nonexistent-You-And-Me-Tulpa-Lilith.md)
+- [《妄想代理人》（Paranoia Agent）与集体意识的具象化](Paranoia-Agent-Collective-Consciousness.md)
+- [洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）](Lovecraft-Tulpa-Motifs.md)
+- [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
+- [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](Madoka-Magica-Kyubey-Otherness.md)
+- [投影（Projection）](Projection.md)
+- [宿主（Host）](Host.md)

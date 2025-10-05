@@ -47,9 +47,9 @@ _如有触发风险，请在安全情境下阅读。_
 
 ## 主要诊断谱系
 
-- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)：以持续情绪低落、兴趣减退与认知改变为核心。
-- [躁狂（Mania）](/entries/Mania.md) 与 [轻躁狂（Hypomania）](/entries/Hypomania.md)：情绪与能量显著高涨的高极状态，主要区别在持续时间与功能影响。
-- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)：兼具高极（躁狂/轻躁狂）与低极（抑郁）发作的谱系诊断。
+- [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：以持续情绪低落、兴趣减退与认知改变为核心。
+- [躁狂（Mania）](Mania.md) 与 [轻躁狂（Hypomania）](Hypomania.md)：情绪与能量显著高涨的高极状态，主要区别在持续时间与功能影响。
+- [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)：兼具高极（躁狂/轻躁狂）与低极（抑郁）发作的谱系诊断。
 - **环性心境障碍**：长期交替出现轻度抑郁与轻躁狂症状，虽未满足完全发作标准但仍需临床关注。
 
 ## 评估与风险管理
@@ -68,21 +68,21 @@ _如有触发风险，请在安全情境下阅读。_
 
 ## 分类导航
 
-- 若关注情绪高涨与冲动：参阅 [躁狂（Mania）](/entries/Mania.md) 与 [轻躁狂（Hypomania）](/entries/Hypomania.md)。
-- 若聚焦情绪低落与耗竭：参阅 [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)。
-- 若需了解完整病程与诊断策略：参阅 [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)。
-- 评估侵入性思维或解离共病时，可同时查阅 [侵入性思维（Intrusive Thoughts）](/entries/Intrusive-Thoughts.md) 与 [解离（Dissociation）](/entries/Dissociation.md)。
+- 若关注情绪高涨与冲动：参阅 [躁狂（Mania）](Mania.md) 与 [轻躁狂（Hypomania）](Hypomania.md)。
+- 若聚焦情绪低落与耗竭：参阅 [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)。
+- 若需了解完整病程与诊断策略：参阅 [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)。
+- 评估侵入性思维或解离共病时，可同时查阅 [侵入性思维（Intrusive Thoughts）](Intrusive-Thoughts.md) 与 [解离（Dissociation）](Dissociation.md)。
 
 ## 相关条目
 
-- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
-- [情感障碍（Mood Disorders）](/entries/Mood-Disorders.md)
-- [躁狂（Mania）](/entries/Mania.md)
-- [轻躁狂（Hypomania）](/entries/Hypomania.md)
-- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
-- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
-- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
-- [谵妄（Delirium）](/entries/Delirium.md)
+- [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
+- [情感障碍（Mood Disorders）](Mood-Disorders.md)
+- [躁狂（Mania）](Mania.md)
+- [轻躁狂（Hypomania）](Hypomania.md)
+- [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
+- [精神分裂症（Schizophrenia，SC）](Schizophrenia-SC.md)
+- [孤独症谱系（Autism Spectrum Disorder）](Autism-Spectrum-Disorder.md)
+- [谵妄（Delirium）](Delirium.md)
 
 ## 参考资料
 

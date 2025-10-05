@@ -26,7 +26,7 @@ updated: 2025-10-03
 
 ## 与其他角色的区分
 
-- **宿主（Host）**：宿主长期承担外部责任，但执行者更强调任务执行与效率，可能由不同成员担任。详见《[宿主（Host）](entries/Host.md)》。
+- **宿主（Host）**：宿主长期承担外部责任，但执行者更强调任务执行与效率，可能由不同成员担任。详见《[宿主（Host）](Host.md)》。
 - **保护者（Protector）**：保护者关注安全，执行者关注行动与成果；两者常需协商工作优先级。
 
 ## 支持策略
@@ -47,11 +47,11 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [人格职能（System Roles）](/entries/System-Roles.md)
-- [小孩意识体（Little / Child Part）](/entries/Little.md)
-- [照顾者（Caregiver）](/entries/Caregiver.md)
-- [青少年意识体（Teen Part）](/entries/Teen.md)
-- [保护者（Protector）](/entries/Protector.md)
-- [迫害者（Persecutor）](/entries/Persecutor.md)
-- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
-- [初始（Original）](/entries/Original.md)
+- [人格职能（System Roles）](System-Roles.md)
+- [小孩意识体（Little / Child Part）](Little.md)
+- [照顾者（Caregiver）](Caregiver.md)
+- [青少年意识体（Teen Part）](Teen.md)
+- [保护者（Protector）](Protector.md)
+- [迫害者（Persecutor）](Persecutor.md)
+- [记忆持有者（Memory Holder）](Memory-Holder.md)
+- [初始（Original）](Original.md)

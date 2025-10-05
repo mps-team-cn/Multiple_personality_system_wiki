@@ -26,20 +26,20 @@ updated: 2025-10-03
 
 ## 关联词条
 
-- [前台（Front / Fronting）](entries/Front-Fronting.md)
-- [记忆屏蔽（Memory Shielding）](entries/Memory-Shielding.md)
-- [创伤（Trauma）](entries/Trauma.md)
+- [前台（Front / Fronting）](Front-Fronting.md)
+- [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)
+- [创伤（Trauma）](Trauma.md)
 
 ## 相关条目
 
-- [《我与梦露的一周》（The United States of Tara）中的系统家庭日常](/entries/United-States-Of-Tara-System-Daily-Life.md)
-- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](/entries/Dostoevsky-The-Double-Self-Division.md)
-- [《西比尔》（Sybil, 1976）与多重人格文化原型](/entries/Sybil-1976-Cultural-Prototype.md)
-- [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](/entries/Three-Faces-Of-Eve-1957-Dissociation.md)
-- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](/entries/Kafka-Metamorphosis-Identity-Dissolution.md)
-- [自发型（Spontaneous）](/entries/Spontaneous.md)
-- [人格面具（Persona）](/entries/Persona.md)
-- [主体（Main）](/entries/Main.md)
+- [《我与梦露的一周》（The United States of Tara）中的系统家庭日常](United-States-Of-Tara-System-Daily-Life.md)
+- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](Dostoevsky-The-Double-Self-Division.md)
+- [《西比尔》（Sybil, 1976）与多重人格文化原型](Sybil-1976-Cultural-Prototype.md)
+- [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](Three-Faces-Of-Eve-1957-Dissociation.md)
+- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](Kafka-Metamorphosis-Identity-Dissolution.md)
+- [自发型（Spontaneous）](Spontaneous.md)
+- [人格面具（Persona）](Persona.md)
+- [主体（Main）](Main.md)
 
 ## 参考资料
 

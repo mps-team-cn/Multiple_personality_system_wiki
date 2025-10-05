@@ -70,21 +70,21 @@ updated: 2025-10-03
 
 ## 与其他类别的关系
 
-- 可与 **[单一类系统](entries/Single-Class-Systems-Xianyu.md)** 或 **[混合型系统](entries/Mixed-Systems-Xianyu.md)** 并存；
+- 可与 **[单一类系统](Single-Class-Systems-Xianyu.md)** 或 **[混合型系统](Mixed-Systems-Xianyu.md)** 并存；
 - 在家族式系统中，有时会出现“灵性成员”，与此类存在重叠。
 
 ---
 
 ## 相关条目
 
-- [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](/entries/Xianyu-Theory-Niche-Classification.md)
-- [单一类系统（Single-Class Systems, Xianyu Theory）](/entries/Single-Class-Systems-Xianyu.md)
-- [家族式系统（Family Systems, Xianyu Theory）](/entries/Family-Systems-Xianyu.md)
-- [混合型系统（Mixed Systems, Xianyu Theory）](/entries/Mixed-Systems-Xianyu.md)
-- [T 语（Tulpish）](/entries/Tulpish.md)
-- [偏重（Bias / Median）](/entries/Bias.md)
-- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
-- [创伤（Trauma）](/entries/Trauma.md)
+- [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](Xianyu-Theory-Niche-Classification.md)
+- [单一类系统（Single-Class Systems, Xianyu Theory）](Single-Class-Systems-Xianyu.md)
+- [家族式系统（Family Systems, Xianyu Theory）](Family-Systems-Xianyu.md)
+- [混合型系统（Mixed Systems, Xianyu Theory）](Mixed-Systems-Xianyu.md)
+- [T 语（Tulpish）](Tulpish.md)
+- [偏重（Bias / Median）](Bias.md)
+- [强迫症（Obsessive-Compulsive Disorder, OCD）](OCD.md)
+- [创伤（Trauma）](Trauma.md)
 
 ## 参考与来源
 

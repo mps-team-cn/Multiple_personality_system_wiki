@@ -14,7 +14,7 @@ updated: 2025-10-03
 
 ## 定义
 
-适应型系统指主要因应对创伤或长期压力而形成的多意识体。该标签源自[埃蒙加德分类法（Emmengard Classification）](entries/Emmengard-Classification.md)，强调成员的出现与个体在威胁环境下的防御策略密切相关。
+适应型系统指主要因应对创伤或长期压力而形成的多意识体。该标签源自[埃蒙加德分类法（Emmengard Classification）](Emmengard-Classification.md)，强调成员的出现与个体在威胁环境下的防御策略密切相关。
 
 ## 形成背景
 
@@ -31,8 +31,8 @@ updated: 2025-10-03
 
 ## 与其他标签的关系
 
-- **与[创造型（Created）](entries/Emmengard-Classification.md#创造型created)的区别**：创造型强调主动设计或想象练习，而适应型的成员多为无意识地在创伤中形成。
-- **与[自发型（Spontaneous）](entries/Spontaneous.md)的对照**：自发型系统不以创伤为核心原因，而适应型强调创伤应对；部分系统可能同时认同混合型标签。
+- **与[创造型（Created）](Emmengard-Classification.md#创造型created)的区别**：创造型强调主动设计或想象练习，而适应型的成员多为无意识地在创伤中形成。
+- **与[自发型（Spontaneous）](Spontaneous.md)的对照**：自发型系统不以创伤为核心原因，而适应型强调创伤应对；部分系统可能同时认同混合型标签。
 - **与临床术语的区分**：尽管适应型常与 DID/OSDD 等诊断并存，标签关注系统经验叙事，不等于临床结论。
 
 ## 支持与自我照顾建议
@@ -43,18 +43,18 @@ updated: 2025-10-03
 
 ## 延伸阅读
 
-- [埃蒙加德分类法（Emmengard Classification）](entries/Emmengard-Classification.md)
-- [解离性身份障碍（DID）](entries/DID.md)
-- [其他特定解离性障碍（OSDD）](entries/OSDD.md)
-- [创伤（Trauma）](entries/Trauma.md)
+- [埃蒙加德分类法（Emmengard Classification）](Emmengard-Classification.md)
+- [解离性身份障碍（DID）](DID.md)
+- [其他特定解离性障碍（OSDD）](OSDD.md)
+- [创伤（Trauma）](Trauma.md)
 
 ## 相关条目
 
-- [埃蒙加德分类法（Emmengard Classification）](/entries/Emmengard-Classification.md)
-- [自发型（Spontaneous）](/entries/Spontaneous.md)
-- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](/entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
-- [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
-- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](/entries/Another-Me-DID-Depictions.md)
-- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](/entries/Fight-Club-1999-Identity-Metaphor.md)
-- [《西比尔》（Sybil, 1976）与多重人格文化原型](/entries/Sybil-1976-Cultural-Prototype.md)
-- [《我与梦露的一周》（The United States of Tara）中的系统家庭日常](/entries/United-States-Of-Tara-System-Daily-Life.md)
+- [埃蒙加德分类法（Emmengard Classification）](Emmengard-Classification.md)
+- [自发型（Spontaneous）](Spontaneous.md)
+- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
+- [《分裂》（Split, 2016）中的 DID 形象分析](Split-2016-DID-Representation.md)
+- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](Another-Me-DID-Depictions.md)
+- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](Fight-Club-1999-Identity-Metaphor.md)
+- [《西比尔》（Sybil, 1976）与多重人格文化原型](Sybil-1976-Cultural-Prototype.md)
+- [《我与梦露的一周》（The United States of Tara）中的系统家庭日常](United-States-Of-Tara-System-Daily-Life.md)

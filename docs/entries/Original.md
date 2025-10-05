@@ -26,8 +26,8 @@ updated: 2025-10-03
 
 ## 与其他角色的区分
 
-- **宿主（Host）**：宿主强调现实生活管理责任，可由初始或其他成员担任。详见《[宿主（Host）](entries/Host.md)》。
-- **核心（Core）**：核心一词聚焦系统价值观或整体感，初始则强调时间顺序与历史连续性。两者可能重叠但侧重点不同。详见《[核心（Core）](entries/Core.md)》。
+- **宿主（Host）**：宿主强调现实生活管理责任，可由初始或其他成员担任。详见《[宿主（Host）](Host.md)》。
+- **核心（Core）**：核心一词聚焦系统价值观或整体感，初始则强调时间顺序与历史连续性。两者可能重叠但侧重点不同。详见《[核心（Core）](Core.md)》。
 
 ## 研究与参考
 
@@ -41,11 +41,11 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [人格职能（System Roles）](/entries/System-Roles.md)
-- [重构（Reconstruction）](/entries/Reconstruction.md)
-- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
-- [宿主（Host）](/entries/Host.md)
-- [青少年意识体（Teen Part）](/entries/Teen.md)
-- [迭代（Iteration）](/entries/Iteration.md)
-- [自发型（Spontaneous）](/entries/Spontaneous.md)
-- [小孩意识体（Little / Child Part）](/entries/Little.md)
+- [人格职能（System Roles）](System-Roles.md)
+- [重构（Reconstruction）](Reconstruction.md)
+- [执行者（Performer / Executive）](Performer-Executive.md)
+- [宿主（Host）](Host.md)
+- [青少年意识体（Teen Part）](Teen.md)
+- [迭代（Iteration）](Iteration.md)
+- [自发型（Spontaneous）](Spontaneous.md)
+- [小孩意识体（Little / Child Part）](Little.md)

@@ -118,14 +118,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
-- [创伤（Trauma）](/entries/Trauma.md)
-- [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
-- [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
-- [整合（Integration）](/entries/Integration.md)
-- [融合（Fusion）](/entries/Fusion.md)
-- [超级破碎（Polyfragmented）](/entries/Polyfragmented.md)
-- [非我感（Depersonalization）](/entries/Depersonalization.md)
+- [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)
+- [创伤（Trauma）](Trauma.md)
+- [解离性遗忘（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)
+- [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)
+- [整合（Integration）](Integration.md)
+- [融合（Fusion）](Fusion.md)
+- [超级破碎（Polyfragmented）](Polyfragmented.md)
+- [非我感（Depersonalization）](Depersonalization.md)
 
 ## 参考与延伸阅读
 

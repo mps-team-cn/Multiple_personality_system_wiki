@@ -113,14 +113,14 @@ DID 的治疗通常遵循分阶段模式：
 
 ## 相关条目
 
-- [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](/entries/Partial-Dissociative-Identity-Disorder-PDID.md)
-- [系统（System）](/entries/System.md)
-- [多意识体（Plurality）](/entries/Plurality.md)
-- [混合（Blending）](/entries/Blending.md)
-- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
-- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](/entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
-- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
-- [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
+- [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](Partial-Dissociative-Identity-Disorder-PDID.md)
+- [系统（System）](System.md)
+- [多意识体（Plurality）](Plurality.md)
+- [混合（Blending）](Blending.md)
+- [多重意识体基础（Plurality Basics）](Plurality-Basics.md)
+- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
+- [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
+- [《分裂》（Split, 2016）中的 DID 形象分析](Split-2016-DID-Representation.md)
 
 ## 参考与延伸阅读
 

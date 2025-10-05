@@ -27,20 +27,20 @@ updated: 2025-10-03
 
 ## 关联词条
 
-- [解离性身份障碍（DID）](entries/DID.md)
-- [迫害者（Persecutor）](entries/Persecutor.md)
-- [创伤（Trauma）](entries/Trauma.md)
+- [解离性身份障碍（DID）](DID.md)
+- [迫害者（Persecutor）](Persecutor.md)
+- [创伤（Trauma）](Trauma.md)
 
 ## 相关条目
 
-- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](/entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
-- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](/entries/Another-Me-DID-Depictions.md)
-- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](/entries/Fight-Club-1999-Identity-Metaphor.md)
-- [系统（System）](/entries/System.md)
-- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
-- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
-- [多意识体（Plurality）](/entries/Plurality.md)
-- [混合（Blending）](/entries/Blending.md)
+- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
+- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](Another-Me-DID-Depictions.md)
+- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](Fight-Club-1999-Identity-Metaphor.md)
+- [系统（System）](System.md)
+- [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
+- [多重意识体基础（Plurality Basics）](Plurality-Basics.md)
+- [多意识体（Plurality）](Plurality.md)
+- [混合（Blending）](Blending.md)
 
 ## 参考资料
 

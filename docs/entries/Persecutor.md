@@ -26,7 +26,7 @@ updated: 2025-10-03
 
 ## 与其他角色的区分
 
-- **保护者（Protector）**：保护者强调建设性的安全策略；迫害者虽同样以保护为动机，但手段更具攻击性或自毁性。详见《[保护者（Protector）](entries/Protector.md)》。
+- **保护者（Protector）**：保护者强调建设性的安全策略；迫害者虽同样以保护为动机，但手段更具攻击性或自毁性。详见《[保护者（Protector）](Protector.md)》。
 - **内在批评者**：一般心理学中的内在批评者多源自自我评价系统，迫害者则与解离结构、创伤记忆更紧密相关。
 
 ## 支持策略
@@ -49,11 +49,11 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [保护者（Protector）](/entries/Protector.md)
-- [人格职能（System Roles）](/entries/System-Roles.md)
-- [照顾者（Caregiver）](/entries/Caregiver.md)
-- [小孩意识体（Little / Child Part）](/entries/Little.md)
-- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
-- [青少年意识体（Teen Part）](/entries/Teen.md)
-- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
-- [迭代（Iteration）](/entries/Iteration.md)
+- [保护者（Protector）](Protector.md)
+- [人格职能（System Roles）](System-Roles.md)
+- [照顾者（Caregiver）](Caregiver.md)
+- [小孩意识体（Little / Child Part）](Little.md)
+- [执行者（Performer / Executive）](Performer-Executive.md)
+- [青少年意识体（Teen Part）](Teen.md)
+- [记忆持有者（Memory Holder）](Memory-Holder.md)
+- [迭代（Iteration）](Iteration.md)

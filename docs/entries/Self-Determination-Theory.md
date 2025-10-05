@@ -29,7 +29,7 @@ updated: 2025-10-05
 
 ## 在多意识体与解离语境中的意义
 
-系统成员若感受到自主权、能力与连结，更容易协作并保持动力。反之，控制式管理容易引发抵抗或[认知失调](entries/Cognitive-Dissonance.md)。因此，系统治理可借鉴 SDT 来设计公平、尊重的流程。
+系统成员若感受到自主权、能力与连结，更容易协作并保持动力。反之，控制式管理容易引发抵抗或[认知失调](Cognitive-Dissonance.md)。因此，系统治理可借鉴 SDT 来设计公平、尊重的流程。
 
 ## 实践应用与建议
 
@@ -39,14 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [动机理论（Motivation Theories）](/entries/Motivation-Theories.md)
-- [社会认知理论（Social-Cognitive Theory）](/entries/Social-Cognitive-Theory.md)
-- [自我效能感（Self-Efficacy）](/entries/Self-Efficacy.md)
-- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
-- [自我概念（Self-Concept）](/entries/Self-Concept.md)
-- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
-- [认知失调（Cognitive Dissonance）](/entries/Cognitive-Dissonance.md)
-- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
+- [动机理论（Motivation Theories）](Motivation-Theories.md)
+- [社会认知理论（Social-Cognitive Theory）](Social-Cognitive-Theory.md)
+- [自我效能感（Self-Efficacy）](Self-Efficacy.md)
+- [人本主义心理学（Humanistic Psychology）](Humanistic-Psychology.md)
+- [自我概念（Self-Concept）](Self-Concept.md)
+- [心理弹性（Psychological Resilience）](Psychological-Resilience.md)
+- [认知失调（Cognitive Dissonance）](Cognitive-Dissonance.md)
+- [人格结构理论（Personality Structure Theory, Freud）](Personality-Structure-Theory.md)
 
 ## 参考与延伸阅读
 

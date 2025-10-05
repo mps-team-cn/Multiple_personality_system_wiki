@@ -76,14 +76,14 @@ DSM-5-TR 要求症状在多种情境中持续至少 6 个月，伴随不安、�
 
 ## 相关条目
 
-- [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
-- [躯体化障碍（Somatic Symptom Disorder，SSD）](/entries/Somatic-Symptom-Disorder-SSD.md)
-- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
-- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
-- [边缘性人格障碍（Borderline Personality Disorder，BPD）](/entries/Borderline-Personality-Disorder-BPD.md)
-- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
-- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
-- [躁狂（Mania）](/entries/Mania.md)
+- [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
+- [躯体化障碍（Somatic Symptom Disorder，SSD）](Somatic-Symptom-Disorder-SSD.md)
+- [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
+- [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
+- [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md)
+- [孤独症谱系（Autism Spectrum Disorder）](Autism-Spectrum-Disorder.md)
+- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)
+- [躁狂（Mania）](Mania.md)
 
 ## 参考与延伸阅读
 

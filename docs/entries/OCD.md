@@ -117,14 +117,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [系魂型系统（Soul-Linked Systems, Xianyu Theory）](/entries/Soul-Linked-Systems-Xianyu.md)
-- [家族式系统（Family Systems, Xianyu Theory）](/entries/Family-Systems-Xianyu.md)
-- [单一类系统（Single-Class Systems, Xianyu Theory）](/entries/Single-Class-Systems-Xianyu.md)
-- [混合型系统（Mixed Systems, Xianyu Theory）](/entries/Mixed-Systems-Xianyu.md)
-- [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](/entries/Xianyu-Theory-Niche-Classification.md)
-- [T 语（Tulpish）](/entries/Tulpish.md)
-- [偏重（Bias / Median）](/entries/Bias.md)
-- [创伤（Trauma）](/entries/Trauma.md)
+- [系魂型系统（Soul-Linked Systems, Xianyu Theory）](Soul-Linked-Systems-Xianyu.md)
+- [家族式系统（Family Systems, Xianyu Theory）](Family-Systems-Xianyu.md)
+- [单一类系统（Single-Class Systems, Xianyu Theory）](Single-Class-Systems-Xianyu.md)
+- [混合型系统（Mixed Systems, Xianyu Theory）](Mixed-Systems-Xianyu.md)
+- [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](Xianyu-Theory-Niche-Classification.md)
+- [T 语（Tulpish）](Tulpish.md)
+- [偏重（Bias / Median）](Bias.md)
+- [创伤（Trauma）](Trauma.md)
 
 ## 参考与延伸阅读
 

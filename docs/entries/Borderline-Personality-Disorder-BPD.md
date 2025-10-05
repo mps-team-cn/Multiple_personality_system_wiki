@@ -78,14 +78,14 @@ BPD 终身患病率约 1%–2%，女性就医比例较高。多数人在长期�
 
 ## 相关条目
 
-- [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](/entries/Narcissistic-Personality-Disorder-NPD.md)
-- [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
-- [躯体化障碍（Somatic Symptom Disorder，SSD）](/entries/Somatic-Symptom-Disorder-SSD.md)
-- [焦虑（Anxiety）](/entries/Anxiety.md)
-- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
-- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
-- [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
-- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
+- [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](Narcissistic-Personality-Disorder-NPD.md)
+- [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
+- [躯体化障碍（Somatic Symptom Disorder，SSD）](Somatic-Symptom-Disorder-SSD.md)
+- [焦虑（Anxiety）](Anxiety.md)
+- [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
+- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)
+- [心境障碍（Affective Disorders）](Affective-Disorders.md)
+- [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md)
 
 ## 参考与延伸阅读
 

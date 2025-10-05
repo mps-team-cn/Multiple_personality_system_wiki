@@ -26,20 +26,20 @@ updated: 2025-10-03
 
 ## 关联词条
 
-- [人格面具（Persona）](entries/Persona.md)
-- [融合（Fusion）](entries/Fusion.md)
-- [非我感（Depersonalization）](entries/Depersonalization.md)
+- [人格面具（Persona）](Persona.md)
+- [融合（Fusion）](Fusion.md)
+- [非我感（Depersonalization）](Depersonalization.md)
 
 ## 相关条目
 
-- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](/entries/Another-Me-DID-Depictions.md)
-- [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
-- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](/entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
-- [系统（System）](/entries/System.md)
-- [内部自助者（Internal Self Helper，ISH）](/entries/Internal-Self-Helper-ISH.md)
-- [多重意识体基础（Plurality Basics）](/entries/Plurality-Basics.md)
-- [多意识体（Plurality）](/entries/Plurality.md)
-- [图帕（Tulpa）](/entries/Tulpa.md)
+- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](Another-Me-DID-Depictions.md)
+- [《分裂》（Split, 2016）中的 DID 形象分析](Split-2016-DID-Representation.md)
+- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
+- [系统（System）](System.md)
+- [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
+- [多重意识体基础（Plurality Basics）](Plurality-Basics.md)
+- [多意识体（Plurality）](Plurality.md)
+- [图帕（Tulpa）](Tulpa.md)
 
 ## 参考资料
 

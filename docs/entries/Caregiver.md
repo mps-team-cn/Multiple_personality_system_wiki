@@ -26,7 +26,7 @@ updated: 2025-10-03
 
 ## 与其他角色的区分
 
-- **保护者（Protector）**：保护者聚焦风险管理，照顾者则关注情绪与生活照料。两者可协作，或由同一成员兼任。详见《[保护者（Protector）](entries/Protector.md)》。
+- **保护者（Protector）**：保护者聚焦风险管理，照顾者则关注情绪与生活照料。两者可协作，或由同一成员兼任。详见《[保护者（Protector）](Protector.md)》。
 - **执行者（Performer / Executive）**：执行者关注任务效率，照顾者强调人际与情感。
 
 ## 支持策略
@@ -48,11 +48,11 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [保护者（Protector）](/entries/Protector.md)
-- [小孩意识体（Little / Child Part）](/entries/Little.md)
-- [迫害者（Persecutor）](/entries/Persecutor.md)
-- [人格职能（System Roles）](/entries/System-Roles.md)
-- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
-- [青少年意识体（Teen Part）](/entries/Teen.md)
-- [内部沟通（Internal Communication）](/entries/Internal-Communication.md)
-- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
+- [保护者（Protector）](Protector.md)
+- [小孩意识体（Little / Child Part）](Little.md)
+- [迫害者（Persecutor）](Persecutor.md)
+- [人格职能（System Roles）](System-Roles.md)
+- [执行者（Performer / Executive）](Performer-Executive.md)
+- [青少年意识体（Teen Part）](Teen.md)
+- [内部沟通（Internal Communication）](Internal-Communication.md)
+- [记忆持有者（Memory Holder）](Memory-Holder.md)

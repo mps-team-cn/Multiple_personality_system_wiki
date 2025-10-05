@@ -43,14 +43,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
-- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
-- [封存（Sequestration）](/entries/Sequestration.md)
-- [非我感（Depersonalization）](/entries/Depersonalization.md)
-- [应激反应（Stress Response）](/entries/Stress-Response.md)
-- [重构（Reconstruction）](/entries/Reconstruction.md)
-- [迭代（Iteration）](/entries/Iteration.md)
-- [自发型（Spontaneous）](/entries/Spontaneous.md)
+- [意识共存（Co-consciousness）](Co-Consciousness.md)
+- [意识修改（Consciousness Modification）](Consciousness-Modification.md)
+- [封存（Sequestration）](Sequestration.md)
+- [非我感（Depersonalization）](Depersonalization.md)
+- [应激反应（Stress Response）](Stress-Response.md)
+- [重构（Reconstruction）](Reconstruction.md)
+- [迭代（Iteration）](Iteration.md)
+- [自发型（Spontaneous）](Spontaneous.md)
 
 ## 参考资料
 

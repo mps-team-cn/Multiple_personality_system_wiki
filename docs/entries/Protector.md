@@ -23,11 +23,11 @@ updated: 2025-10-03
 
 - **前台守卫**：部分保护者负责筛选谁能前台，以及在公共场合保持一致形象。
 - **危机协调**：社群经验强调保护者在应对自伤冲动、外部危机时协调资源，包含联系治疗师或安全网络。[^thepluralassociation2021]
-- **与迫害者转换**：当保护目标被误导或过度激进时，保护者可能呈现迫害者行为，需要透过沟通澄清界限。详见《[迫害者（Persecutor）](entries/Persecutor.md)》。
+- **与迫害者转换**：当保护目标被误导或过度激进时，保护者可能呈现迫害者行为，需要透过沟通澄清界限。详见《[迫害者（Persecutor）](Persecutor.md)》。
 
 ## 与其他角色的区分
 
-- **守门人（Gatekeeper）**：守门人聚焦访问权限与记忆流动，保护者则涵盖整体安全策略。两者可由同一成员承担。详见《[守门人（Gatekeeper）](entries/Gatekeeper.md)》。
+- **守门人（Gatekeeper）**：守门人聚焦访问权限与记忆流动，保护者则涵盖整体安全策略。两者可由同一成员承担。详见《[守门人（Gatekeeper）](Gatekeeper.md)》。
 - **照顾者（Caregiver）**：照顾者以情感支持与日常照料为主，保护者则偏向风险管理。
 
 ## 支持策略
@@ -47,11 +47,11 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [照顾者（Caregiver）](/entries/Caregiver.md)
-- [迫害者（Persecutor）](/entries/Persecutor.md)
-- [人格职能（System Roles）](/entries/System-Roles.md)
-- [执行者（Performer / Executive）](/entries/Performer-Executive.md)
-- [小孩意识体（Little / Child Part）](/entries/Little.md)
-- [青少年意识体（Teen Part）](/entries/Teen.md)
-- [内部沟通（Internal Communication）](/entries/Internal-Communication.md)
-- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
+- [照顾者（Caregiver）](Caregiver.md)
+- [迫害者（Persecutor）](Persecutor.md)
+- [人格职能（System Roles）](System-Roles.md)
+- [执行者（Performer / Executive）](Performer-Executive.md)
+- [小孩意识体（Little / Child Part）](Little.md)
+- [青少年意识体（Teen Part）](Teen.md)
+- [内部沟通（Internal Communication）](Internal-Communication.md)
+- [记忆持有者（Memory Holder）](Memory-Holder.md)

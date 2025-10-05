@@ -34,14 +34,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [记忆屏蔽（Memory Shielding）](/entries/Memory-Shielding.md)
-- [碎片（Fragment）](/entries/Fragment.md)
-- [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
-- [重构（Reconstruction）](/entries/Reconstruction.md)
-- [独立性（Independence）](/entries/Independence.md)
-- [迭代（Iteration）](/entries/Iteration.md)
-- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
-- [封存（Sequestration）](/entries/Sequestration.md)
+- [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)
+- [碎片（Fragment）](Fragment.md)
+- [记忆持有者（Memory Holder）](Memory-Holder.md)
+- [重构（Reconstruction）](Reconstruction.md)
+- [独立性（Independence）](Independence.md)
+- [迭代（Iteration）](Iteration.md)
+- [意识修改（Consciousness Modification）](Consciousness-Modification.md)
+- [封存（Sequestration）](Sequestration.md)
 
 ## 参考与延伸阅读
 

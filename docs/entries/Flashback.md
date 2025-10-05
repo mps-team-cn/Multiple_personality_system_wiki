@@ -122,14 +122,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [复杂性创伤后应激障碍（CPTSD）](/entries/CPTSD.md)
-- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](/entries/PTSD.md)
-- [侵入性思维（Intrusive Thoughts）](/entries/Intrusive-Thoughts.md)
-- [解离性遗忘（Dissociative Amnesia，DA）](/entries/Dissociative-Amnesia-DA.md)
-- [创伤（Trauma）](/entries/Trauma.md)
-- [解离性身份障碍（Dissociative Identity Disorder，DID）](/entries/DID.md)
-- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
-- [定向障碍（Disorientation）](/entries/Disorientation.md)
+- [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)
+- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](PTSD.md)
+- [侵入性思维（Intrusive Thoughts）](Intrusive-Thoughts.md)
+- [解离性遗忘（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)
+- [创伤（Trauma）](Trauma.md)
+- [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md)
+- [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)
+- [定向障碍（Disorientation）](Disorientation.md)
 
 ## 参考与延伸阅读
 
