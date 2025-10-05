@@ -7,13 +7,16 @@
 - Frontmatter 仅作为站内脚本与索引的元数据，页面渲染时不会显示这些字段。
 - `tags` 建议与 `tags.md` 中已有标签保持一致，可按需要追加多个标签。
 
-## 诊断与临床
+## 新建词条
 
 ```markdown
 
 ---
 title: 条目中文名（English/缩写）
-tags: [诊断与临床]
+tags: 
+  - a
+  - b
+topic: 临床与诊断
 synonyms:
   - 同义词示例
   - alias

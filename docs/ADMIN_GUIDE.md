@@ -145,8 +145,6 @@ node scripts/gen-last-updated.mjs
 python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei"
 @REM 生成标签索引
 python tools/generate_tags_index.py
-@REM 生成搜索索引（MkDocs Material 内置搜索，无需单独生成）
-@REM python tools/build_search_index.py  # 仅用于 Docsify（已弃用）
 @REM 修正 Markdown 格式
 python tools/fix_md.py
 @REM 检查 Markdown 格式

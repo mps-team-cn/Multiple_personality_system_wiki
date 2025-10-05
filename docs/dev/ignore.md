@@ -1,8 +1,0 @@
-# 在导出 PDF 时需要忽略的 Markdown 文件或目录 每行填写一个相对于仓库根目录的路径；支持注释与空行
-
-README.md
-AGENTS.md
-tools
-_*.md
-Glossary.md
-CONTRIBUTING.md

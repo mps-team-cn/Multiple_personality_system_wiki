@@ -47,7 +47,7 @@ updated: 2025-10-06
 
 系统运作离不开稳定的生活节奏与自护工具。从感官调节到照护角色的协作，以下词条能帮助你将理论落实到日常实践。
 
-- [立足当下（Grounding）](entries/Grounding.md)：收录常见的感官调节技巧，协助前台稳定状态。
+- [接地（Grounding）](entries/Grounding.md)：收录常见的感官调节技巧，协助前台稳定状态。
 - [照护者（Caregiver）](entries/Caregiver.md)：讨论照顾其他成员时的注意事项与资源配置。
 - [心理创伤与危机应对](entries/Trauma.md)：整理创伤反应的基本知识，提示何时需要专业协助。
 
