@@ -10,10 +10,10 @@ __pycache__/
 
 # 忽略根目录的 tectonic.exe 和 PDF 文件
 /tectonic.exe
-/*.pdf
+*.pdf
 
-# 但允许 releases 目录下的 PDF 文件
-!releases/*.pdf
+# PDF 文件已从仓库移除，改用 GitHub Releases 发布
+# !releases/*.pdf
 
 # 忽略 tools/pdf_export 中的可执行文件（如果需要）
 # tools/pdf_export/tectonic.exe
