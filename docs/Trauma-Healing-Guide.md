@@ -1,10 +1,8 @@
 # 创伤与疗愈导览
 
-创伤是多意识体系统形成的重要因素之一，理解创伤的机制、识别创伤反应，并掌握有效的康复策略，对系统成员的长期健康至关重要。本导览整合创伤相关知识与实用技巧，帮助你在康复之路上找到方向。
+创伤是多意识体系统形成的重要因素之一。理解创伤机制、识别反应症状，并掌握有效的康复策略，对系统成员的长期健康至关重要。本导览汇整创伤相关词条，帮助你在康复之路上找到方向。
 
 **重要提醒：** 本导览仅供参考，不能替代专业诊断与治疗。如有需要，请寻求持证心理治疗师或精神科医生的帮助。
-
----
 
 ## 理解创伤
 
@@ -14,99 +12,38 @@
 - [应激反应（Stress Response）](entries/Stress-Response.md)：战斗-逃跑-冻结反应的生理与心理基础。
 - [ANP-EP 模型](entries/Apparently-Normal-Part-Emotional-Part-Model.md)：结构性解离理论中的"表面正常部分"与"情绪部分"。
 
----
-
 ## 创伤相关诊断
 
 如果创伤反应持续影响日常生活，可能需要专业诊断与治疗支持。
 
-### 创伤后应激障碍
-
-- [PTSD（创伤后应激障碍）](entries/PTSD.md)：单次创伤事件后的典型反应，包括闪回、回避、高度警觉等症状。
-- [CPTSD（复杂性 PTSD）](entries/CPTSD.md)：长期、重复性创伤（如童年虐待）导致的更复杂症状群，包括情绪调节困难、人际关系障碍等。
-
-### 诊断标准
-
-- **DSM-5-TR**：美国精神医学学会的诊断标准
-- **ICD-11**：世界卫生组织的国际分类
-- 两套标准对 PTSD/CPTSD 的定义略有不同，详见各词条说明
-
----
+- [PTSD（创伤后应激障碍）](entries/PTSD.md)：单次创伤事件后的典型反应。
+- [CPTSD（复杂性 PTSD）](entries/CPTSD.md)：长期、重复性创伤导致的复杂症状群。
+- 完整诊断信息参考 [诊断与临床导览](Clinical-Diagnosis-Guide.md)
 
 ## 创伤反应与症状
 
 识别创伤反应的具体表现，有助于及早发现问题并采取应对措施。
 
-- [闪回（Flashback）](entries/Flashback.md)：创伤记忆的突然重现，可能伴随强烈的情绪与身体感觉。
-- [触发（Trigger）](entries/Trigger.md)：激活创伤反应的刺激物（声音、气味、场景等）。
-- [情绪调节困难](entries/Emotion-Regulation.md)：创伤导致的情绪管理能力下降，包括情绪失控、麻木等。
+- [闪回（Flashback）](entries/Flashback.md)：创伤记忆的突然重现，伴随强烈情绪与身体感觉。
+- [触发（Trigger）](entries/Trigger.md)：激活创伤反应的刺激物。
+- [情绪调节困难](entries/Emotion-Regulation.md)：创伤导致的情绪管理能力下降。
 
----
-
-## 疗愈与自我照护
+## 康复与治疗
 
 康复是一个渐进的过程，需要结合专业治疗、自我照护技巧与支持系统的力量。
 
-### 稳定化技巧
-
-在进行创伤加工之前，建立安全感与稳定状态是首要任务。
-
-- [接地（Grounding）](entries/Grounding.md)：回到当下的感官调节技巧，包括 5-4-3-2-1 感官练习、身体扫描、呼吸调节等方法。
-
-### 循证治疗方法
-
-专业治疗需要由持证治疗师提供，以下是常见的循证疗法：
-
-- **EMDR（眼动脱敏与再加工）**：通过双侧刺激帮助大脑重新处理创伤记忆
-- **TF-CBT（创伤聚焦认知行为疗法）**：针对创伤记忆的结构化治疗
-- **DBT（辩证行为疗法）**：改善情绪调节与人际关系
-- **IFS（内在家庭系统疗法）**：与内部部分建立对话与协调
-
-### 阶段化康复模型
-
-创伤治疗通常遵循三阶段模型：
-
-1. **阶段 1：安全与稳定**
-   - 建立安全感
-   - 学习接地与调节技巧
-   - 稳定日常生活
-
-2. **阶段 2：创伤加工**
-   - 在治疗师指导下处理创伤记忆
-   - 整合解离的情绪与记忆
-   - 重新建构创伤叙事
-
-3. **阶段 3：整合与重建**
-   - 发展新的自我认同
-   - 重建人际关系
-   - 恢复社会功能
-
----
+- [三阶段创伤治疗模型](entries/Three-Phase-Trauma-Treatment.md)：安全与稳定 → 创伤加工 → 整合与重建的经典康复框架。
+- [接地（Grounding）](entries/Grounding.md)：回到当下的感官调节技巧，协助稳定状态。
 
 ## 多意识体系统的特殊考量
 
-对于多意识体系统，创伤康复需要考虑以下因素：
+对于多意识体系统，创伤康复需要考虑成员间的协作、记忆分隔与角色分工。
 
-### 记忆分隔
-
-- 不同成员可能持有不同的创伤记忆
-- 记忆屏障可能是保护机制，也可能妨碍康复
-- 详见 [记忆屏障（Memory Shielding）](entries/Memory-Shielding.md)
-
-### 成员协作
-
-- 建立内部沟通渠道
-- 尊重每个成员对治疗进程的意愿
-- 协调不同成员的康复需求
-- 参考 [内部沟通（Internal Communication）](entries/Internal-Communication.md)
-
-### 角色分工
-
-- [保护者（Protector）](entries/Protector.md)：可能阻止或促进创伤加工
-- [创伤持有者](entries/Memory-Holder.md)：负责承载创伤记忆的成员
-- [照护者（Caregiver）](entries/Caregiver.md)：提供内部支持与安抚
-
----
+- [记忆屏障（Memory Shielding）](entries/Memory-Shielding.md)：记忆隔离可能是保护机制，也可能妨碍康复。
+- [内部沟通（Internal Communication）](entries/Internal-Communication.md)：建立内部沟通渠道，协调康复需求。
+- [保护者（Protector）](entries/Protector.md)：可能阻止或促进创伤加工的角色。
+- [记忆持有者（Memory Holder）](entries/Memory-Holder.md)：负责承载创伤记忆的成员。
+- [照护者（Caregiver）](entries/Caregiver.md)：提供内部支持与安抚的角色。
 
 ## 安全优先原则
 
@@ -117,4 +54,4 @@
 
 ---
 
-想了解更多？参考 [心理健康导览](entries/Mental-Health-Guide.md) 了解诊断体系，或浏览 [系统运作导览](System-Operations.md) 学习日常协作技巧。
+想了解更多？参考 [诊断与临床导览](Clinical-Diagnosis-Guide.md) 了解诊断体系，或浏览 [系统运作导览](System-Operations.md) 学习日常协作技巧。
