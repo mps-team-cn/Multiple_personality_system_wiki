@@ -111,21 +111,27 @@ Plurality Wiki 是社区共建的知识库,欢迎你的参与:
 ## 📌 常见问题
 
 ??? question "我不确定自己是什么类型的系统?"
-建议先阅读 [核心概念导览](entries/Core-Concepts-Guide.md),了解不同类型的基本区别。
+  建议先阅读 [核心概念导览](entries/Core-Concepts-Guide.md),了解不同类型的基本区别。
 
-    但请记住:**分类不是目的,理解自己才是关键**。如果难以归类,也完全正常。
+  但请记住: **分类不是目的,理解自己才是关键**。如果难以归类,也完全正常。
 
 ??? question "我需要诊断吗?"
 这取决于你的需求:
 
-    - 如果症状影响日常生活,寻求专业诊断（如 [DID](entries/DID.md)、[OSDD](entries/OSDD.md)、[PTSD](entries/PTSD.md)）可以获得治疗支持
-    - 如果只是想了解自己,不一定需要正式诊断
+  如果症状影响日常生活,寻求专业诊断（如 [DID](entries/DID.md)、[OSDD](entries/OSDD.md)、[PTSD](entries/PTSD.md)）可以获得治疗支持
+  
+  如果只是想了解自己,不一定需要正式诊断
+  
+  详见 [心理健康导览](entries/Mental-Health-Guide.md) 中的相关说明。
 
-    详见 [心理健康导览](entries/Mental-Health-Guide.md) 中的相关说明。
+??? question "Plurality Wiki 的内容可靠吗?"
+  ✅ 医疗/诊断内容引用 ICD-11、DSM-5-TR 等权威来源 
+  
+  ✅ 每个断言都标注引用来源和访问日期
+  
+  ⚠️ 社群经验部分标明为"经验分享",不代表医学事实
 
-??? question "Plurality Wiki 的内容可靠吗?" - ✅ 医疗/诊断内容引用 ICD-11、DSM-5-TR 等权威来源 - ✅ 每个断言都标注引用来源和访问日期 - ⚠️ 社群经验部分标明为"经验分享",不代表医学事实
-
-    详见 [贡献指南](CONTRIBUTING.md) 中的学术规范。
+  详见 [贡献指南](CONTRIBUTING.md) 中的学术规范。
 
 ---
 
