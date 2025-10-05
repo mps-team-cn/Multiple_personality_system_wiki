@@ -194,7 +194,7 @@ plugins:
         - en
 
   - tags:
-      # tags_file: tags.md  # MkDocs Material 新版本不再需要此配置
+      tags_file: tags.md
 
   - git-revision-date-localized:
       enabled: !ENV [CI, false]
