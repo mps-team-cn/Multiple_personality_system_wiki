@@ -1,8 +1,28 @@
 tectonic.exe
+# pdf build artifacts
 tools/pdf_export/pdf_export/__pycache__/*
 *.pdf
-chang.log
-.obsidian/app.json
-.obsidian/appearance.json
-.obsidian/core-plugins.json
-.obsidian/workspace.json
+*.log
+
+# Obsidian workspace and app state (ignore whole folder)
+.obsidian/
+
+# === Codex ===
+.codex/
+!.codex/
+!.codex/templates/
+!.codex/recipes/
+!.codex/README.md
+.codex/*.toml
+.codex/config*.toml
+.codex/**/config*.toml
+.codex/**/secrets*
+.codex/**/tokens*
+.codex/**/cache/
+.codex/**/logs/
+# === End Codex ===
+
+# cache / compiled python
+tools/__pycache__/generate_tags_index.cpython-313.pyc
+tools/__pycache__/retag_and_related.cpython-313.pyc
+
