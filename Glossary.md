@@ -136,6 +136,11 @@
 | [Spontaneous](entries/Spontaneous.md) | 自发型 | 埃蒙加德分类法标签之一，指系统自然显现或源自灵性、认知演化过程。 |
 | [Tulpa](entries/Tulpa.md) | 图帕、托帕 | 通过有意想象与练习培育出的自主意识伙伴，与系统成员共享身体协作。 |
 | [Unknown](entries/Emmengard-Classification.md#未知型unknown) | 未知型 | 埃蒙加德分类法标签之一，指系统暂未掌握自身形成来源或仍在探索。 |
+| [Attachment Theory](entries/Attachment-Theory.md) | 依恋理论 | 解释早期照料关系如何影响情绪调节、安全感与后续人际合作，是评估系统互信的基础视角。 |
+| [Motivation Theories](entries/Motivation-Theories.md) | 动机理论 | 汇整需要层次、强化、期待等理论，用于分析成员执行任务时的驱动力来源与环境适配。 |
+| [Personality Structure Theory](entries/Personality-Structure-Theory.md) | 人格结构理论 | 弗洛伊德提出的本我、自我、超我三分结构，常用于梳理成员职能与冲突来源。 |
+| [Self-Determination Theory](entries/Self-Determination-Theory.md) | 自我决定理论 | 通过自主性、胜任感与联结感三要素解析成员动机与协作体验，利于设计支持策略。 |
+| [Social-Cognitive Theory](entries/Social-Cognitive-Theory.md) | 社会认知理论 | 班杜拉强调的观察学习、自我效能与环境互动模型，有助于理解成员间榜样与反馈效应。 |
 
 ## 其他
 
