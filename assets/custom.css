@@ -389,6 +389,51 @@ button, .cover .buttons a{
   color: color-mix(in oklab, var(--c-brand) 62%, rgba(246,250,255,.82));
 }
 
+/* 触发警告卡片 */
+.trigger-warning-card{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  margin: 0 0 1.2rem;
+  border-radius: var(--radius);
+  border: 1px solid color-mix(in oklab, #F97316 28%, transparent);
+  background: color-mix(in oklab, #F97316 8%, var(--c-card));
+  box-shadow: 0 8px 22px rgba(249, 115, 22, 0.12);
+}
+
+.trigger-warning-card__icon{
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.trigger-warning-card__text{
+  margin: 0;
+  color: var(--c-text);
+  line-height: 1.65;
+}
+
+:root.dark .trigger-warning-card{
+  border-color: color-mix(in oklab, #F97316 42%, transparent);
+  background: color-mix(in oklab, rgba(249, 115, 22, 0.22) 55%, var(--c-card));
+  box-shadow: 0 14px 28px rgba(249, 115, 22, 0.28);
+}
+
+:root.dark .trigger-warning-card__text{
+  color: color-mix(in oklab, var(--c-text) 88%, rgba(255, 255, 255, 0.85));
+}
+
+.trigger-warning-card strong{
+  font-weight: 700;
+}
+
+@media (max-width: 640px){
+  .trigger-warning-card{
+    align-items: flex-start;
+  }
+}
+
 /* 表格美化 */
 .markdown-section table{
   width: 100%;

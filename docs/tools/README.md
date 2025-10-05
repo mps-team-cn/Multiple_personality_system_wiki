@@ -93,6 +93,7 @@ markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor
 - `tools/pdf_export/` 在导出 PDF 时会优先读取仓库根目录的 `index.md`，目录页与章节书签都会遵循该文件的分组与顺序；
 - 若 `index.md` 缺失或未收录全部词条，未出现在目录中的文档会自动归入“未索引词条”章节，确保不会遗漏内容；
 - 目录中的词条链接会自动重写为 PDF 内部锚点，确保离线文档中的跳转行为与线上一致。
+- `index.md` 中通过 `<!-- trigger-warning:start -->…<!-- trigger-warning:end -->` 包裹的触发警告区块，会在导出时转换为 `> ⚠️ …` 的 Markdown 形式，确保目录页在 PDF 中保留警示文本。
 - 词条 Frontmatter 的 `updated` 字段支持 `YYYY-MM-DD` 字符串或 YAML 日期字面量，若留空、写成 `null`、布尔值或列表，导出脚本会终止并提示修正。
 
 ## 相关文档
