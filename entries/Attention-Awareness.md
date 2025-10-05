@@ -4,9 +4,9 @@ synonyms:
 - 注意觉察
 - attention and awareness
 tags:
-- '&'
 - 多重意识体
 - 解离
+topic: 心理学与理论
 title: 注意与觉察（Attention & Awareness）
 updated: 2025-10-05
 ---

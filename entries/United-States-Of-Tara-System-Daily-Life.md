@@ -3,6 +3,7 @@ tags:
 - 多重意识体
 - 解离
 - 创伤
+topic: 文化与影视
 title: 《我与梦露的一周》（The United States of Tara）中的系统家庭日常
 updated: 2025-10-03
 ---

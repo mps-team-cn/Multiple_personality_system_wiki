@@ -5,6 +5,7 @@ tags:
 - 多重意识体
 - 解离
 - 创伤
+topic: 系统角色与类型
 title: 小孩意识体（Little / Child Part）
 updated: 2025-10-03
 ---

@@ -3,6 +3,7 @@ tags:
 - 多重意识体
 - 解离
 - 创伤
+topic: 实践与支持
 title: 内部沟通（Internal Communication）
 updated: 2025-10-04
 ---

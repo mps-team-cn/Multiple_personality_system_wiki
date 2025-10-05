@@ -4,9 +4,9 @@ synonyms:
 - 注意资源
 - psychic energy
 tags:
-- '&'
 - 多重意识体
 - 解离
+topic: 心理学与理论
 title: 心理能量与注意资源（Psychic Energy & Attention）
 updated: 2025-10-05
 ---

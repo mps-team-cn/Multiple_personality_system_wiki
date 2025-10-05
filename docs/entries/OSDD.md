@@ -1,8 +1,9 @@
 ---
 tags:
-- 其他特定解离性障碍_OSDD
-- 解离性身份障碍_DID
+- OSDD
+- DID
 - 多重意识体
+topic: 诊断与临床
 title: 其他特定解离性障碍（OSDD）
 updated: 2025-10-03
 ---

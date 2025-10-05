@@ -7,8 +7,9 @@ synonyms:
 - fuzaxingchuangshanghouyingjizhangai
 tags:
 - CPTSD
-- 创伤后应激障碍_PTSD
+- PTSD
 - 多重意识体
+topic: 诊断与临床
 title: 复杂性创伤后应激障碍（CPTSD）
 updated: 2025-10-03
 ---

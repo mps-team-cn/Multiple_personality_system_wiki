@@ -3,6 +3,7 @@ tags:
 - 解离
 - ANP
 - EP
+topic: 系统体验与机制
 title: 结构性解离理论（Theory of Structural Dissociation）
 updated: 2025-10-04
 ---

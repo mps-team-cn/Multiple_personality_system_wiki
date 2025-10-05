@@ -3,6 +3,7 @@ tags:
 - 多重意识体
 - 解离
 - 创伤
+topic: 诊断与临床
 title: 孤独症谱系（Autism Spectrum Disorder）
 updated: 2025-10-03
 ---

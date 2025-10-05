@@ -1,8 +1,9 @@
 ---
 tags:
-- 解离性身份障碍_DID
+- DID
 - 多重意识体
 - 解离
+topic: 系统体验与机制
 title: 系统（System）
 updated: 2025-10-03
 ---

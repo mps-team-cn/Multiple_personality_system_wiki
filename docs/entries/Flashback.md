@@ -1,8 +1,9 @@
 ---
 tags:
-- 创伤后应激障碍_PTSD
+- PTSD
 - CPTSD
 - 多重意识体
+topic: 诊断与临床
 title: 闪回（Flashback）
 updated: 2025-10-03
 ---

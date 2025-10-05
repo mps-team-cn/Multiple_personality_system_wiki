@@ -1,8 +1,9 @@
 ---
 tags:
-- 解离性身份障碍_DID
+- DID
 - 多重意识体
 - 解离
+topic: 文化与影视
 title: 《分裂》（Split, 2016）中的 DID 形象分析
 updated: 2025-10-03
 ---

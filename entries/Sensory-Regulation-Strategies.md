@@ -3,6 +3,7 @@ tags:
 - 多重意识体
 - 解离
 - 创伤
+topic: 实践与支持
 title: 感官调节策略（Sensory Regulation Strategies）
 updated: 2025-10-03
 ---

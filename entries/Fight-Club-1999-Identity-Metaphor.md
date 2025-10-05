@@ -1,8 +1,9 @@
 ---
 tags:
-- 解离性身份障碍_DID
+- DID
 - 多重意识体
 - 解离
+topic: 文化与影视
 title: 《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻
 updated: 2025-10-03
 ---

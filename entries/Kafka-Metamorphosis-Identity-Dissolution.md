@@ -3,6 +3,7 @@ tags:
 - 解离
 - 多重意识体
 - 创伤
+topic: 文化与影视
 title: 卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）
 updated: 2025-10-03
 ---

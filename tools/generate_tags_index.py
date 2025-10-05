@@ -27,11 +27,11 @@ def main() -> int:
     if DOCS_ENTRIES_DIR.exists():
         entries_dir = DOCS_ENTRIES_DIR
         output_path = DOCS_OUTPUT_PATH
-        print(f"✓ 使用 MkDocs 词条目录: {entries_dir}")
+        print(f"[OK] 使用 MkDocs 词条目录: {entries_dir}")
     elif ENTRIES_DIR.exists():
         entries_dir = ENTRIES_DIR
         output_path = OUTPUT_PATH
-        print(f"⚠ 回退到旧版词条目录: {entries_dir}")
+        print(f"[WARN] 回退到旧版词条目录: {entries_dir}")
     else:
         print("未找到 entries/ 或 docs/entries/ 目录。", file=sys.stderr)
         return 1
@@ -54,7 +54,22 @@ def main() -> int:
 
     lines: list[str] = ["# 标签索引", ""]
 
-    for tag in sorted(tag_map):
+    # 自定义排序：先核心主题，再临床诊断，最后其他
+    def tag_sort_key(tag: str) -> tuple:
+        # 核心主题标签
+        core_tags = ["多重意识体", "解离", "创伤"]
+        # 临床诊断标签（缩写）
+        clinical_tags = ["DID", "OSDD", "PTSD", "CPTSD", "ADHD", "BPD", "NPD", "DPDR", "SSD", "ANP", "EP"]
+
+        if tag in core_tags:
+            return (0, core_tags.index(tag), tag)
+        elif tag in clinical_tags:
+            return (1, clinical_tags.index(tag), tag)
+        else:
+            # 其他标签按字母排序
+            return (2, 0, tag)
+
+    for tag in sorted(tag_map, key=tag_sort_key):
         lines.append(f"## {tag}")
         lines.append("")
 
@@ -70,7 +85,7 @@ def main() -> int:
 
     content = "\n".join(lines).rstrip() + "\n"
     output_path.write_text(content, encoding="utf-8")
-    print(f"✓ 已生成 {output_path.relative_to(REPO_ROOT)}")
+    print(f"[OK] 已生成 {output_path.relative_to(REPO_ROOT)}")
     return 0
 
 

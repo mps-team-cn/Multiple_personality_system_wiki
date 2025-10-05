@@ -7,6 +7,7 @@ tags:
 - 多重意识体
 - 解离
 - 创伤
+topic: 心理学与理论
 title: 移情与反移情（Transference and Countertransference）
 updated: 2025-10-05
 ---

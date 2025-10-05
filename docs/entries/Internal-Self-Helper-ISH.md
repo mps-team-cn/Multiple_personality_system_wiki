@@ -1,8 +1,9 @@
 ---
 tags:
-- 解离性身份障碍_DID
+- DID
 - 多重意识体
 - 解离
+topic: 系统角色与类型
 title: 内部自助者（Internal Self Helper，ISH）
 updated: 2025-10-03
 ---

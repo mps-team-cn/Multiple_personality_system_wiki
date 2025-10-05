@@ -1,8 +1,9 @@
 ---
 tags:
-- 解离性身份障碍_DID
+- DID
 - 多重意识体
 - 解离
+topic: 文化与影视
 title: 《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）
 updated: 2025-10-03
 ---

@@ -1,8 +1,9 @@
 ---
 tags:
-- 解离性身份障碍_DID
+- DID
 - 多重意识体
 - 解离
+topic: 诊断与临床
 title: 部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）
 updated: 2025-10-03
 ---

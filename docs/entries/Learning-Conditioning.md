@@ -4,9 +4,9 @@ synonyms:
 - 条件作用
 - learning and conditioning
 tags:
-- '&'
 - 多重意识体
 - 解离
+topic: 心理学与理论
 title: 学习与条件反射（Learning & Conditioning）
 updated: 2025-10-05
 ---
