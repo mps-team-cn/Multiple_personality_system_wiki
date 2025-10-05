@@ -91,7 +91,7 @@ DSM-5-TR 在躯体症状障碍、创伤后应激障碍、进食障碍等章节�
 - [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](/entries/Depersonalization-Derealization-Disorder-DPDR.md)
 - [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 - [焦虑（Anxiety）](/entries/Anxiety.md)
-- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](/entries/PTSD.md)
+- [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
 
 ## 参考与延伸阅读
 

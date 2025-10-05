@@ -152,6 +152,132 @@
       ]
     },
     {
+      "path": "entries/Affective-Disorders.md",
+      "title": "心境障碍（Affective Disorders）",
+      "aliases": [
+        "Affective Disorders",
+        "affective disorders",
+        "mood disorder spectrum",
+        "mood disorders",
+        "心境障碍",
+        "心境障碍（Affective Disorders）",
+        "情感障碍",
+        "情绪障碍"
+      ],
+      "tokens": [
+        {
+          "normalized": "affective disorders",
+          "display": "Affective Disorders",
+          "kind": "alias"
+        },
+        {
+          "normalized": "affectivedisorders",
+          "display": "Affective Disorders",
+          "kind": "alias"
+        },
+        {
+          "normalized": "xin jing zhang ai ",
+          "display": "心境障碍",
+          "kind": "alias"
+        },
+        {
+          "normalized": "心境障碍",
+          "display": "心境障碍",
+          "kind": "alias"
+        },
+        {
+          "normalized": "qgza",
+          "display": "qgza",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "qxza",
+          "display": "qxza",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xjza",
+          "display": "xjza",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xinjingzhangai",
+          "display": "xinjingzhangai",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "mood disorder spectrum",
+          "display": "mood disorder spectrum",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "mood disorders",
+          "display": "mood disorders",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "mooddisorders",
+          "display": "mood disorders",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "mooddisorderspectrum",
+          "display": "mood disorder spectrum",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "qing gan zhang ai ",
+          "display": "情感障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "qing xu zhang ai ",
+          "display": "情绪障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "qingganzhangai",
+          "display": "情感障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "qingxuzhangai",
+          "display": "情绪障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "情感障碍",
+          "display": "情感障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "情绪障碍",
+          "display": "情绪障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "xin jing zhang ai (affective disorders)",
+          "display": "心境障碍（Affective Disorders）",
+          "kind": "title"
+        },
+        {
+          "normalized": "xinjingzhangai(affectivedisorders)",
+          "display": "心境障碍（Affective Disorders）",
+          "kind": "title"
+        },
+        {
+          "normalized": "心境障碍（affective disorders）",
+          "display": "心境障碍（Affective Disorders）",
+          "kind": "title"
+        },
+        {
+          "normalized": "心境障碍（affectivedisorders）",
+          "display": "心境障碍（Affective Disorders）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
       "path": "entries/Alcohol-Induced-Dissociation.md",
       "title": "醉酒解离（Alcohol-Induced Dissociation）",
       "aliases": [
@@ -3947,6 +4073,134 @@
       ]
     },
     {
+      "path": "entries/Hypomania.md",
+      "title": "轻躁狂（Hypomania）",
+      "aliases": [
+        "Hypomania",
+        "hypomania",
+        "hypomania episode",
+        "hypomanic episode",
+        "hypomanic state",
+        "qingzaokuang",
+        "轻躁狂",
+        "轻躁狂发作",
+        "轻躁狂（Hypomania）",
+        "轻躁症"
+      ],
+      "tokens": [
+        {
+          "normalized": "hypomania",
+          "display": "Hypomania",
+          "kind": "alias"
+        },
+        {
+          "normalized": "qing zao kuang ",
+          "display": "轻躁狂",
+          "kind": "alias"
+        },
+        {
+          "normalized": "轻躁狂",
+          "display": "轻躁狂",
+          "kind": "alias"
+        },
+        {
+          "normalized": "qzk",
+          "display": "qzk",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "qzkfz",
+          "display": "qzkfz",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "qzz",
+          "display": "qzz",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "qingzaokuang",
+          "display": "qingzaokuang",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "hypomania episode",
+          "display": "hypomania episode",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "hypomaniaepisode",
+          "display": "hypomania episode",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "hypomanic episode",
+          "display": "hypomanic episode",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "hypomanic state",
+          "display": "hypomanic state",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "hypomanicepisode",
+          "display": "hypomanic episode",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "hypomanicstate",
+          "display": "hypomanic state",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "qing zao kuang fa zuo ",
+          "display": "轻躁狂发作",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "qing zao zheng ",
+          "display": "轻躁症",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "qingzaokuangfazuo",
+          "display": "轻躁狂发作",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "qingzaozheng",
+          "display": "轻躁症",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "轻躁狂发作",
+          "display": "轻躁狂发作",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "轻躁症",
+          "display": "轻躁症",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "qing zao kuang (hypomania)",
+          "display": "轻躁狂（Hypomania）",
+          "kind": "title"
+        },
+        {
+          "normalized": "qingzaokuang(hypomania)",
+          "display": "轻躁狂（Hypomania）",
+          "kind": "title"
+        },
+        {
+          "normalized": "轻躁狂（hypomania）",
+          "display": "轻躁狂（Hypomania）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
       "path": "entries/Imaginary-Companion.md",
       "title": "幻想伙伴（Imaginary Companion）",
       "aliases": [
@@ -4316,8 +4570,12 @@
       "title": "侵入性思维（Intrusive Thoughts）",
       "aliases": [
         "Intrusive Thoughts",
+        "intrusive thinking",
+        "intrusive thoughts",
+        "侵入式思维",
         "侵入性思维",
-        "侵入性思维（Intrusive Thoughts）"
+        "侵入性思维（Intrusive Thoughts）",
+        "侵思"
       ],
       "tokens": [
         {
@@ -4341,14 +4599,64 @@
           "kind": "alias"
         },
         {
+          "normalized": "qrssw",
+          "display": "qrssw",
+          "kind": "pinyin_abbr"
+        },
+        {
           "normalized": "qrxsw",
           "display": "qrxsw",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "qs",
+          "display": "qs",
           "kind": "pinyin_abbr"
         },
         {
           "normalized": "qinruxingsiwei",
           "display": "qinruxingsiwei",
           "kind": "pinyin_full"
+        },
+        {
+          "normalized": "intrusive thinking",
+          "display": "intrusive thinking",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "intrusivethinking",
+          "display": "intrusive thinking",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "qin ru shi si wei ",
+          "display": "侵入式思维",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "qin si ",
+          "display": "侵思",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "qinrushisiwei",
+          "display": "侵入式思维",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "qinsi",
+          "display": "侵思",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "侵入式思维",
+          "display": "侵入式思维",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "侵思",
+          "display": "侵思",
+          "kind": "synonym"
         },
         {
           "normalized": "qin ru xing si wei (intrusive thoughts)",
@@ -5198,6 +5506,111 @@
         {
           "normalized": "混合型系统（mixedsystems,xianyutheory）",
           "display": "混合型系统（Mixed Systems, Xianyu Theory）",
+          "kind": "title"
+        }
+      ]
+    },
+    {
+      "path": "entries/Mood-Disorders.md",
+      "title": "情感障碍（Mood Disorders）",
+      "aliases": [
+        "Mood Disorders",
+        "affective disorders",
+        "mood disorder",
+        "mood disorders",
+        "心境障碍",
+        "情感障碍",
+        "情感障碍（Mood Disorders）"
+      ],
+      "tokens": [
+        {
+          "normalized": "mood disorders",
+          "display": "Mood Disorders",
+          "kind": "alias"
+        },
+        {
+          "normalized": "mooddisorders",
+          "display": "Mood Disorders",
+          "kind": "alias"
+        },
+        {
+          "normalized": "qing gan zhang ai ",
+          "display": "情感障碍",
+          "kind": "alias"
+        },
+        {
+          "normalized": "情感障碍",
+          "display": "情感障碍",
+          "kind": "alias"
+        },
+        {
+          "normalized": "qgza",
+          "display": "qgza",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "xjza",
+          "display": "xjza",
+          "kind": "pinyin_abbr"
+        },
+        {
+          "normalized": "qingganzhangai",
+          "display": "qingganzhangai",
+          "kind": "pinyin_full"
+        },
+        {
+          "normalized": "affective disorders",
+          "display": "affective disorders",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "affectivedisorders",
+          "display": "affective disorders",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "mood disorder",
+          "display": "mood disorder",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "mooddisorder",
+          "display": "mood disorder",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "xin jing zhang ai ",
+          "display": "心境障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "xinjingzhangai",
+          "display": "心境障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "心境障碍",
+          "display": "心境障碍",
+          "kind": "synonym"
+        },
+        {
+          "normalized": "qing gan zhang ai (mood disorders)",
+          "display": "情感障碍（Mood Disorders）",
+          "kind": "title"
+        },
+        {
+          "normalized": "qingganzhangai(mooddisorders)",
+          "display": "情感障碍（Mood Disorders）",
+          "kind": "title"
+        },
+        {
+          "normalized": "情感障碍（mood disorders）",
+          "display": "情感障碍（Mood Disorders）",
+          "kind": "title"
+        },
+        {
+          "normalized": "情感障碍（mooddisorders）",
+          "display": "情感障碍（Mood Disorders）",
           "kind": "title"
         }
       ]

@@ -38,8 +38,8 @@ updated: 2025-10-03
 - [封存（Sequestration）](/entries/Sequestration.md)
 - [融合（Fusion）](/entries/Fusion.md)
 - [初始（Original）](/entries/Original.md)
-- [独有记忆（Exomemory）](/entries/Exomemory.md)
 - [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
 
 ## 参考资料
 

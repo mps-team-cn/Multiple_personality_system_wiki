@@ -50,7 +50,7 @@ updated: 2025-10-03
 - [应激反应（Stress Response）](/entries/Stress-Response.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
 - [迭代（Iteration）](/entries/Iteration.md)
-- [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [自发型（Spontaneous）](/entries/Spontaneous.md)
 
 ## 参考资料
 

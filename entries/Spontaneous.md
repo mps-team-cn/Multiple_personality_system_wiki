@@ -54,5 +54,5 @@ updated: 2025-10-03
 - [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](/entries/Dostoevsky-The-Double-Self-Division.md)
 - [《西比尔》（Sybil, 1976）与多重人格文化原型](/entries/Sybil-1976-Cultural-Prototype.md)
 - [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](/entries/Three-Faces-Of-Eve-1957-Dissociation.md)
-- [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](/entries/Touhou-Tulpa-Fandom.md)
 - [《妄想代理人》（Paranoia Agent）与集体意识的具象化](/entries/Paranoia-Agent-Collective-Consciousness.md)
+- [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](/entries/Touhou-Tulpa-Fandom.md)

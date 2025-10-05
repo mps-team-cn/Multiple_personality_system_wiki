@@ -116,7 +116,7 @@ ICD-11 与 DSM-5-TR 均将定向障碍视为谵妄的重要表现，但 ICD-11 �
 - [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [躁狂（Mania）](/entries/Mania.md)
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
-- [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
+- [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
 
 ## 参考与延伸阅读
 

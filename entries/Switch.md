@@ -51,8 +51,8 @@ updated: 2025-10-03
 - [前台（Front / Fronting）](/entries/Front-Fronting.md)
 - [成员（Alter）](/entries/Alter.md)
 - [后台（Back / Being Back）](/entries/Back-Being-Back.md)
-- [内部空间（Headspace / Inner World）](/entries/Headspace-Inner-World.md)
 - [权限（Permissions）](/entries/Permissions.md)
+- [内部空间（Headspace / Inner World）](/entries/Headspace-Inner-World.md)
 - [外投射（External Projection）](/entries/External-Projection.md)
 - [内视（Visualization / Imagination）](/entries/Visualization-Imagination.md)
 

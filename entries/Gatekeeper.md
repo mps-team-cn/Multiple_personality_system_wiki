@@ -54,7 +54,7 @@ updated: 2025-10-03
 - [保护者（Protector）](/entries/Protector.md)
 - [切换（Switch）](/entries/Switch.md)
 - [内部沟通（Internal Communication）](/entries/Internal-Communication.md)
-- [伪主体（Fauxmain）](/entries/Fauxmain.md)
+- [共前台（Co-fronting）](/entries/Co-Fronting.md)
 
 ## 参考与延伸阅读
 

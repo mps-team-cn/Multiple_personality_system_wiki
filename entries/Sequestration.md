@@ -44,8 +44,8 @@ updated: 2025-10-03
 - [非我感（Depersonalization）](/entries/Depersonalization.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
 - [迭代（Iteration）](/entries/Iteration.md)
-- [独有记忆（Exomemory）](/entries/Exomemory.md)
 - [意识共存（Co-consciousness）](/entries/Co-Consciousness.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
 
 ## 参考资料
 

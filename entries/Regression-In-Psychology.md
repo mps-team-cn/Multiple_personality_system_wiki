@@ -48,11 +48,11 @@ updated: 2025-10-03
 - [应激反应（Stress Response）](/entries/Stress-Response.md)
 - [非我感（Depersonalization）](/entries/Depersonalization.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
-- [独有记忆（Exomemory）](/entries/Exomemory.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
 - [封存（Sequestration）](/entries/Sequestration.md)
-- [碎片（Fragment）](/entries/Fragment.md)
 - [迭代（Iteration）](/entries/Iteration.md)
+- [独有记忆（Exomemory）](/entries/Exomemory.md)
+- [碎片（Fragment）](/entries/Fragment.md)
 
 ## 参考文献
 

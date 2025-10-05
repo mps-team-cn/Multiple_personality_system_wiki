@@ -73,6 +73,17 @@ _如有触发风险，请在安全情境下阅读。_
 - 若需了解完整病程与诊断策略：参阅 [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)。
 - 评估侵入性思维或解离共病时，可同时查阅 [侵入性思维（Intrusive Thoughts）](/entries/Intrusive-Thoughts.md) 与 [解离（Dissociation）](/entries/Dissociation.md)。
 
+## 相关条目
+
+- [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
+- [躁狂（Mania）](/entries/Mania.md)
+- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
+- [轻躁狂（Hypomania）](/entries/Hypomania.md)
+- [情感障碍（Mood Disorders）](/entries/Mood-Disorders.md)
+- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
+- [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
+- [谵妄（Delirium）](/entries/Delirium.md)
+
 ## 参考资料
 
 [^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
