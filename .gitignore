@@ -1,8 +1,24 @@
 tectonic.exe
 tools/pdf_export/pdf_export/__pycache__/*
 *.pdf
-chang.log
+*.log
 .obsidian/app.json
 .obsidian/appearance.json
 .obsidian/core-plugins.json
 .obsidian/workspace.json
+# === Codex ===
+.codex/
+!.codex/
+!.codex/templates/
+!.codex/recipes/
+!.codex/README.md
+.codex/*.toml
+.codex/config*.toml
+.codex/**/config*.toml
+.codex/**/secrets*
+.codex/**/tokens*
+.codex/**/cache/
+.codex/**/logs/
+# === End Codex ===
+tools/__pycache__/generate_tags_index.cpython-313.pyc
+tools/__pycache__/retag_and_related.cpython-313.pyc

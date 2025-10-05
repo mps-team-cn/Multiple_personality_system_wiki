@@ -4,10 +4,15 @@ from __future__ import annotations
 
 import datetime as _dt
 import re
+import sys
 from pathlib import Path
 from typing import Dict, List, Sequence, Tuple
 
 ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from tools.pdf_export.pdf_export.frontmatter import FrontmatterError, load_entry_document
 ENTRIES_DIR = ROOT / "entries"
 TEMPLATE_PATH = ROOT / "docs" / "TEMPLATE_ENTRY.md"
 REPORT_PATH = ROOT / "docs" / "VALIDATION_REPORT.md"
@@ -104,9 +109,7 @@ def build_report(
     lines.append(
         "- 一级标题格式需符合《CONTRIBUTING.md》要求：`中文名（English/缩写）`"
     )
-    lines.append(
-        "- `entries/诊断与临床/` 目录额外检查模板章节："
-    )
+    lines.append("- Frontmatter 含 `诊断与临床` 标签的词条额外检查模板章节：")
     for label in heading_labels:
         lines.append(f"  - {label}")
     lines.append("")
@@ -151,14 +154,19 @@ def main() -> None:
         (level, title): f"{'#' * level} {title}" for level, title in template_headings
     }
 
-    for md_path in sorted(ENTRIES_DIR.rglob("*.md")):
-        lines = _load_text(md_path)
+    for md_path in sorted(ENTRIES_DIR.glob("*.md")):
+        try:
+            document = load_entry_document(md_path)
+        except FrontmatterError as error:  # pragma: no cover - 配置异常时失败
+            raise RuntimeError(f"解析 {md_path} 的 Frontmatter 失败: {error}") from error
+
+        lines = document.body.splitlines()
         headings = collect_headings(lines)
         issues = check_title_format(headings)
         if issues:
             title_issues[md_path.relative_to(ROOT)] = issues
 
-        if "诊断与临床" not in md_path.parts:
+        if "诊断与临床" not in document.tags:
             continue
 
         present = {(level, title) for level, title in headings if level >= 2}

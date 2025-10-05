@@ -1,0 +1,92 @@
+---
+tags:
+- 多重意识体
+- 解离
+- 创伤
+title: 系魂型系统（Soul-Linked Systems, Xianyu Theory）
+updated: 2025-10-03
+---
+
+# 系魂型系统（Soul-Linked Systems, Xianyu Theory）
+
+> **一句话定义**：弦羽理论分类中的特殊类型，作为外部意识或灵性实体的中介，承担信息翻译与意义建构的角色。
+
+---
+
+## 定义与同义词
+
+- **定义**：
+  系魂型系统是弦羽理论生态位分类法中的一种特殊类别。
+  其特征在于内部与某种被感知为“外部意识实体”（如灵魂、神明、宇宙意识）形成强连接，系统承担中介或翻译的功能。
+
+- **同义词/别称**：灵性中介系统、灵魂联结系统、通灵型系统
+
+---
+
+## 核心特征
+
+1. **中介角色**
+   - 系统承担“桥梁”，在外部意识与个体日常认知之间传递或翻译信息。
+
+2. **高度象征性**
+   - 内部体验往往富含灵性、宗教或象征符号。
+
+3. **能量消耗大**
+   - 与外部意识的联结常导致系统能量消耗，甚至出现过度疲劳。
+
+4. **验证困难**
+   - 无法通过外部标准验证，容易被误解为幻觉或精神病性体验。
+
+---
+
+## 功能定位
+
+- **意义建构**：
+  提供存在意义、使命感或灵性指引。
+
+- **信息翻译**：
+  将外部感知的“非日常内容”转化为系统可理解的语言或符号。
+
+- **社群功能**：
+  有时成为群体中的“先知/解释者”，但也易带来异质化与孤立感。
+
+---
+
+## 风险与挑战
+
+1. **能量透支**：频繁与外部意识交互可能造成系统枯竭。
+2. **误解与污名**：常被社会或医学视为病理体验。
+3. **边界问题**：难以区分“外部意识”与“系统自我”的界限。
+
+---
+
+## 理论意义
+
+- **独特性**：揭示了系统与“外部意识”互动的可能性。
+- **争议性**：高度主观，缺乏广泛验证。
+- **启发性**：可作为探索灵性体验与系统心理学交界的模型。
+
+---
+
+## 与其他类别的关系
+
+- 可与 **[单一类系统](entries/Single-Class-Systems-Xianyu.md)** 或 **[混合型系统](entries/Mixed-Systems-Xianyu.md)** 并存；
+- 在家族式系统中，有时会出现“灵性成员”，与此类存在重叠。
+
+---
+
+## 相关条目
+
+- [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](/entries/Xianyu-Theory-Niche-Classification.md)
+- [单一类系统（Single-Class Systems, Xianyu Theory）](/entries/Single-Class-Systems-Xianyu.md)
+- [家族式系统（Family Systems, Xianyu Theory）](/entries/Family-Systems-Xianyu.md)
+- [混合型系统（Mixed Systems, Xianyu Theory）](/entries/Mixed-Systems-Xianyu.md)
+- [T 语（Tulpish）](/entries/Tulpish.md)
+- [偏重（Bias / Median）](/entries/Bias.md)
+- [强迫症（Obsessive-Compulsive Disorder, OCD）](/entries/OCD.md)
+- [创伤（Trauma）](/entries/Trauma.md)
+
+## 参考与来源
+
+- 原文：弦羽系统提出的《弦羽理论生态位分类法》手稿
+- 说明：该分类包含较多主观理解，仅供研究与社群交流使用，不构成临床诊断标准。

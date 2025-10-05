@@ -4,15 +4,16 @@ from __future__ import annotations
 
 import hashlib
 import re
+import sys
 from collections.abc import Mapping
 from pathlib import Path
 
 from .paths import PROJECT_ROOT, README_PATH
 
 # Markdown 中指向词条的常见链接格式：
-# - 行内链接 [描述](entries/路径/词条.md)
-# - 引用式链接 [ref]: entries/路径/词条.md
-# - 角括号自动链接 <entries/路径/词条.md>
+# - 行内链接 [描述](entries/词条.md)
+# - 引用式链接 [ref]: entries/词条.md
+# - 角括号自动链接 <entries/词条.md>
 #
 # PDF 导出时会将所有词条合并为单一文档，因此需要将这些链接
 # 统一重写为指向合并文档内部锚点的形式。正则表达式仅捕获链接
@@ -34,7 +35,7 @@ ENTRY_ANGLE_LINK_PATTERN = re.compile(
 )
 
 from .last_updated import LastUpdatedInfo, render_last_updated_text
-from .models import CategoryStructure
+from .models import CategoryStructure, EntryDocument
 
 
 LATEX_SPECIAL_CHARS = {
@@ -100,9 +101,9 @@ def _build_anchor_lookup(structure: CategoryStructure) -> dict[Path, str]:
     """为所有导出条目生成“绝对路径 → 锚点”映射。"""
 
     lookup: dict[Path, str] = {}
-    for _, paths in structure:
-        for path in paths:
-            lookup[path.resolve()] = build_entry_anchor(path)
+    for _, documents in structure:
+        for document in documents:
+            lookup[document.path.resolve()] = build_entry_anchor(document.path)
     return lookup
 
 
@@ -242,18 +243,62 @@ def build_cover_page(
     return "\n".join(lines)
 
 
-def build_directory_page(structure: CategoryStructure) -> str:
-    """根据 README/目录结构生成目录页内容。"""
+def _build_directory_from_index(anchor_lookup: Mapping[Path, str]) -> str | None:
+    """尝试以仓库根目录的 ``index.md`` 作为目录页内容。"""
+
+    index_path = PROJECT_ROOT / "index.md"
+    if not index_path.exists():
+        return None
+
+    try:
+        raw_content = index_path.read_text(encoding="utf-8")
+    except OSError as error:  # pragma: no cover - 仅在 I/O 出错时触发
+        print(f"警告: 无法读取 {index_path}: {error}", file=sys.stderr)
+        return None
+
+    stripped = raw_content.strip()
+    if not stripped:
+        return None
+
+    lines = stripped.splitlines()
+    for index, line in enumerate(lines):
+        if line.startswith("# "):
+            lines[index] = "# 目录"
+            break
+    else:
+        lines.insert(0, "# 目录")
+        lines.insert(1, "")
+
+    directory_markdown = "\n".join(lines)
+    rewritten = rewrite_entry_links(directory_markdown, anchor_lookup).strip()
+    if not rewritten:
+        return None
+
+    return f"{rewritten}\n\n\\newpage\n"
+
+
+def build_directory_page(
+    structure: CategoryStructure, anchor_lookup: Mapping[Path, str]
+) -> str:
+    """根据 ``index.md`` 或标签结构生成目录页内容。"""
+
+    index_based = _build_directory_from_index(anchor_lookup)
+    if index_based is not None:
+        return index_based
 
     lines: list[str] = ["# 目录", ""]
 
-    for category_title, paths in structure:
+    for category_title, documents in structure:
+        if not documents:
+            continue
         lines.append(f"## {category_title}")
         lines.append("")
-        for path in paths:
-            entry_title = infer_entry_title(path)
-            anchor = build_entry_anchor(path)
-            lines.append(f"- [{entry_title}](#{anchor})")
+        for document in documents:
+            anchor = anchor_lookup.get(
+                document.path.resolve(),
+                build_entry_anchor(document.path),
+            )
+            lines.append(f"- [{document.title}](#{anchor})")
         lines.append("")
 
     lines.extend(["\\newpage", ""])
@@ -290,15 +335,15 @@ def build_combined_markdown(
         )
 
     if structure:
-        parts.append(build_directory_page(structure))
+        parts.append(build_directory_page(structure, anchor_lookup))
 
     if include_readme and README_PATH.exists():
         parts.append(README_PATH.read_text(encoding="utf-8").strip())
         parts.append("\n\n\\newpage\n")
 
     first_category = True
-    for category_title, paths in structure:
-        if not paths:
+    for category_title, documents in structure:
+        if not documents:
             continue
 
         if not first_category:
@@ -307,15 +352,17 @@ def build_combined_markdown(
 
         parts.append(f"# {category_title}\n\n")
 
-        for index, path in enumerate(paths):
+        for index, document in enumerate(documents):
             if index > 0:
                 parts.append("\n\\newpage\n")
 
-            entry_title = infer_entry_title(path)
-            anchor = anchor_lookup.get(path.resolve(), build_entry_anchor(path))
-            relative = path.relative_to(PROJECT_ROOT)
-            content = path.read_text(encoding="utf-8")
-            rewritten = rewrite_entry_links(content, anchor_lookup)
+            entry_title = document.title
+            anchor = anchor_lookup.get(
+                document.path.resolve(),
+                build_entry_anchor(document.path),
+            )
+            relative = document.path.relative_to(PROJECT_ROOT)
+            rewritten = rewrite_entry_links(document.body, anchor_lookup)
             body = strip_primary_heading(rewritten, entry_title)
             shifted = shift_heading_levels(body, offset=2).strip()
 
