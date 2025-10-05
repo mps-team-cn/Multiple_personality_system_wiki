@@ -15,8 +15,8 @@
 
 * **文件结构**
 
-  * 所有词条文件必须存放在仓库根目录下的 `entries/` 子目录。
-  * 可按主题建立二级目录（如 `entries/诊断与临床/`、`entries/系统体验与机制/`）。
+  * 所有词条文件统一存放在仓库根目录下的 `entries/` 目录，不得再建立二级子目录。
+  * 每篇词条必须以 YAML Frontmatter 开头，并声明 `title`、`tags`、`updated` 字段。
   * 禁止在其他目录撰写词条。
 
 * **Markdown 规范**
@@ -116,9 +116,9 @@ ICD-11（6B64）：“…two or more distinct personality states…”（存在�
 
 ## 6. 技术与格式约定
 
-* **最后更新时间**：每个词条需包含 `最后更新：YYYY-MM-DD`，与仓库的 `last-updated.json` 保持一致。
-* **内部链接**：统一使用 `entries/.../*.md` 绝对路径，禁止使用 `./`、`../`。
-* **目录同步**：更新或新增词条时，必须同步修改 `index.md` 与 `README.md` 的目录索引。
+* **最后更新时间**：Frontmatter 中的 `updated` 字段须与 `assets/last-updated.json` 保持一致。
+* **内部链接**：统一使用 `entries/*.md` 绝对路径，禁止使用 `./`、`../`。
+* **目录同步**：更新或新增词条时，必须同步修改 `tags.md`（运行 `python tools/generate_tags_index.py`）、`index.md` 与 `README.md` 的目录索引。
 
 ---
 
@@ -132,7 +132,7 @@ ICD-11（6B64）：“…two or more distinct personality states…”（存在�
 * [ ] 【病理学】含原文摘录（≤25 词）+ 中文翻译 + 链接/页码
 * [ ] 翻译注明译者/校对
 * [ ] 图片/数据版权与许可明确
-* [ ] 内部链接与目录正确；最后更新时间已更新
+* [ ] 内部链接与目录正确；`python tools/generate_tags_index.py` 已执行；最后更新时间已更新
 * [ ] CI / Lint 通过
 
 ---

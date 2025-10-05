@@ -13,6 +13,19 @@ jobs:
     steps:
       - name: 检出仓库
         uses: actions/checkout@v4
+      - name: 配置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: 安装 Python 依赖
+        run: pip install -r requirements.txt
+      - name: 校验标签索引
+        run: |
+          python tools/generate_tags_index.py
+          git diff --exit-code tags.md
+      - name: 修复 Markdown 文件格式
+        run: |
+          python tools/fix_md.py 
       - name: 配置 Node.js 环境
         uses: actions/setup-node@v4
         with:
@@ -69,3 +82,4 @@ jobs:
             --no-progress
             --verbose
             ./
+
