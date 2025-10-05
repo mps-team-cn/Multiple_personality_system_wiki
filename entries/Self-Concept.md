@@ -39,14 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
 - [自我效能感（Self-Efficacy）](/entries/Self-Efficacy.md)
 - [社会认知理论（Social-Cognitive Theory）](/entries/Social-Cognitive-Theory.md)
 - [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
 - [自我决定理论（Self-Determination Theory）](/entries/Self-Determination-Theory.md)
 - [动机理论（Motivation Theories）](/entries/Motivation-Theories.md)
-- [高敏感人群（Highly Sensitive Person, HSP）](/entries/Highly-Sensitive-Person.md)
-- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](/entries/Dostoevsky-The-Double-Self-Division.md)
+- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
+- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
+- [依恋理论（Attachment Theory）](/entries/Attachment-Theory.md)
 
 ## 参考与延伸阅读
 

@@ -39,13 +39,13 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [社会认知理论（Social-Cognitive Theory）](/entries/Social-Cognitive-Theory.md)
-- [心理防御机制（Defense Mechanisms）](/entries/Defense-Mechanisms.md)
 - [自我决定理论（Self-Determination Theory）](/entries/Self-Determination-Theory.md)
+- [社会认知理论（Social-Cognitive Theory）](/entries/Social-Cognitive-Theory.md)
 - [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
-- [情绪调节（Emotion Regulation）](/entries/Emotion-Regulation.md)
 - [动机理论（Motivation Theories）](/entries/Motivation-Theories.md)
-- [投射（Projection, Psychology）](/entries/Projection-Psychology.md)
+- [自我效能感（Self-Efficacy）](/entries/Self-Efficacy.md)
+- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
+- [自我概念（Self-Concept）](/entries/Self-Concept.md)
 - [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
 
 ## 参考与延伸阅读
