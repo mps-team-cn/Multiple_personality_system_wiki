@@ -2,7 +2,7 @@
 
 本指南为 **Plurality Wiki** 维护者与协作者提供基础操作与维护流程。
 目标是确保贡献内容符合规范、CI 通过、结构一致。
-详细写作要求请参阅 **[CONTRIBUTING.md](./CONTRIBUTING.md)** 与 **[AGENTS.md](./AGENTS.md)**。
+详细写作要求请参阅 **[CONTRIBUTING.md](CONTRIBUTING.md)** 与 **[AGENTS.md](dev/AGENTS.md)**。
 
 ---
 

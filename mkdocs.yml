@@ -272,7 +272,7 @@ nav:
     - entries/Grounding.md
   - 文档与工具:
     - 工具文档: tools/README.md
-    - 前端架构: docs/FRONTEND_ARCHITECTURE.md
+    - 前端架构: FRONTEND_ARCHITECTURE.md
     - 变更日志: changelog.md
 
 # 严格模式
