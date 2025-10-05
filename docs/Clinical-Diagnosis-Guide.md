@@ -1,196 +1,66 @@
 # 诊断与临床导览
 
-理解解离性障碍的诊断体系对于寻求专业帮助、理解症状与治疗至关重要。本导览整合 DSM-5-TR 与 ICD-11 诊断标准，介绍解离性障碍的分类、鉴别诊断与临床治疗方法，帮助你建立专业的医学认知。
+理解精神医学诊断标准对于寻求专业帮助、与医疗系统沟通至关重要。本导览汇整 DSM-5-TR 与 ICD-11 中的相关诊断，并串联词条，帮助你建立临床知识框架。
 
 **重要提醒：** 本导览仅供学习参考，不能替代专业诊断。所有诊断必须由持证精神科医师完成。
 
----
+## 解离性障碍
 
-## 核心解离性障碍
+解离性障碍涉及意识、记忆、身份或感知的分离。了解不同程度的解离及其诊断标准，有助于理解自身经验与寻求适当治疗。
 
-解离性障碍是一组涉及意识、记忆、身份或感知分离的精神障碍。
-
-### 解离（Dissociation）
-
-- [解离（Dissociation）](entries/Dissociation.md)：解离现象的核心概念与谱系，从正常解离到病理性解离的连续体。
+- [解离性身份障碍（DID）](entries/DID.md)：最严重的解离性障碍，DSM-5-TR (300.14) / ICD-11 (6B64)。
+- [其他特定解离性障碍（OSDD）](entries/OSDD.md)：不完全符合 DID 标准的解离性障碍，DSM-5-TR (300.15)。
+- [部分解离性身份障碍（PDID）](entries/Partial-Dissociative-Identity-Disorder-PDID.md)：ICD-11 专有诊断 (6B65)，与 OSDD-1 相似。
+- [人格解体/现实解体障碍（DPDR）](entries/Depersonalization-Derealization-Disorder-DPDR.md)：持续或反复的人格解体或现实解体，DSM-5-TR (300.6) / ICD-11 (6B66)。
+- [解离性失忆（DA）](entries/Dissociative-Amnesia-DA.md)：无法回忆重要个人信息的记忆障碍。
 - [病理性解离（Pathological Dissociation）](entries/Pathological-Dissociation.md)：达到临床意义、影响功能的解离现象。
-- [功能性解离（Functional Dissociation）](entries/Functional-Dissociation.md)：应对压力的解离机制。
-- [防御性解离（Defensive Dissociation）](entries/Defensive-Dissociation.md)：作为心理防御的解离反应。
+
+## 创伤相关障碍
+
+创伤经历可能导致一系列心理反应。区分不同类型的创伤障碍，有助于选择合适的治疗方法与康复路径。
+
+- [创伤（Trauma）](entries/Trauma.md)：创伤的定义、I 型与 II 型创伤的区别。
+- [创伤后应激障碍（PTSD）](entries/PTSD.md)：单次创伤后的典型反应，DSM-5-TR (309.81) / ICD-11 (6B40)。
+- [复杂性 PTSD（CPTSD）](entries/CPTSD.md)：长期、重复性创伤导致的复杂症状群，ICD-11 (6B41)。
+- [闪回（Flashback）](entries/Flashback.md)：创伤记忆的突然重现，伴随强烈情绪与身体感觉。
+
+## 情绪与焦虑障碍
+
+情绪与焦虑障碍常与解离性障碍共病。理解这些诊断的区别与联系，有助于更全面地评估心理状态。
+
+- [抑郁症（Depressive Disorders）](entries/Depressive-Disorders.md)：以持续低落情绪为主的情绪障碍。
+- [情感性障碍（Affective Disorders）](entries/Affective-Disorders.md)：涉及情绪调节异常的障碍类别。
+- [双相障碍（Bipolar Disorders）](entries/Bipolar-Disorders.md)：躁狂/抑郁周期的情绪障碍，需与 DID 鉴别。
+- [躁狂（Mania）](entries/Mania.md)：双相障碍中的高能量、冲动状态。
+- [轻躁狂（Hypomania）](entries/Hypomania.md)：程度较轻的躁狂状态。
+- [焦虑（Anxiety）](entries/Anxiety.md)：过度担忧与紧张的情绪状态。
+- [强迫症（OCD）](entries/OCD.md)：强迫思维与强迫行为的焦虑障碍。
+
+## 人格障碍
+
+人格障碍涉及长期的行为模式与人际困难。部分人格障碍（尤其是 BPD）与解离性障碍高度共病，需要专业鉴别。
+
+- [边缘型人格障碍（BPD）](entries/Borderline-Personality-Disorder-BPD.md)：情绪不稳定、人际关系混乱，与解离性障碍常共病。
+- [自恋型人格障碍（NPD）](entries/Narcissistic-Personality-Disorder-NPD.md)：夸大自我、缺乏共情的人格障碍。
+
+## 其他相关诊断
+
+以下诊断可能与解离性障碍有关，或在鉴别诊断时需要考虑。
+
+- [精神分裂症（Schizophrenia）](entries/Schizophrenia-SC.md)：精神病性障碍，与 DID 的"听到声音"需要鉴别。
+- [注意力缺陷多动障碍（ADHD）](entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)：注意力不集中、多动冲动的神经发育障碍。
+- [自闭症谱系障碍（ASD）](entries/Autism-Spectrum-Disorder.md)：社交沟通困难与刻板行为的神经发育障碍。
+- [躯体症状障碍（SSD）](entries/Somatic-Symptom-Disorder-SSD.md)：无法用医学解释的身体症状。
+- [谵妄（Delirium）](entries/Delirium.md)：急性意识混乱状态，需与解离鉴别。
+- [定向障碍（Disorientation）](entries/Disorientation.md)：对时间、地点、人物的认知混乱。
+
+## 相关心理现象
+
+这些心理现象虽非独立诊断，但与临床症状密切相关，有助于理解疾病表现。
+
+- [述情障碍（Alexithymia）](entries/Alexithymia.md)：难以识别与表达情绪的特质。
+- [习得性无助（Learned Helplessness）](entries/Learned-Helplessness.md)：长期创伤导致的无力感与放弃应对。
 
 ---
 
-## 主要解离性障碍诊断
-
-### 解离性身份障碍（DID）
-
-- [解离性身份障碍（DID）](entries/DID.md)：最严重的解离性障碍，DSM-5-TR 诊断标准包括两个或以上人格状态、记忆断片与功能损害；ICD-11 编码 6B64。
-
-### 其他特定解离性障碍（OSDD）
-
-- [其他特定解离性障碍（OSDD）](entries/OSDD.md)：不完全符合 DID 标准的解离性障碍，包括 OSDD-1a（有人格状态但无记忆断片）与 OSDD-1b（有记忆断片但人格状态不够独特）。
-
-### 部分解离性身份障碍（Partial DID）
-
-- [部分解离性身份障碍（PDID）](entries/Partial-Dissociative-Identity-Disorder-PDID.md)：ICD-11 专有诊断（编码 6B65），与 OSDD-1 相似但不完全相同，DSM 体系中无对应诊断。
-
-### 人格解体/现实解体障碍（DPDR）
-
-- [人格解体/现实解体障碍（DPDR）](entries/Depersonalization-Derealization-Disorder-DPDR.md)：持续或反复的人格解体（与自我分离）或现实解体（周围世界不真实）体验。
-
----
-
-## DSM-5-TR vs ICD-11
-
-两套诊断标准对解离性障碍的分类略有不同：
-
-### DSM-5-TR（美国精神医学学会）
-
-| 诊断 | 代码 | 特点 |
-|------|------|------|
-| DID | 300.14 | 两个或以上人格状态 + 记忆断片 |
-| OSDD-1 | 300.15 | 不完全符合 DID 标准 |
-| DPDR | 300.6 | 人格解体/现实解体 |
-
-### ICD-11（世界卫生组织）
-
-| 诊断 | 编码 | 特点 |
-|------|------|------|
-| DID | 6B64 | 人格状态分裂 + 记忆断裂 |
-| Partial DID | 6B65 | 部分解离性身份障碍 |
-| Depersonalization-Derealization | 6B66 | 人格解体-现实解体障碍 |
-
-### 关键差异
-
-- **OSDD vs Partial DID**：概念相似但分类系统不同
-- **诊断门槛**：ICD-11 可能对某些症状的要求略有不同
-- **国际通用性**：ICD-11 是国际标准，DSM-5-TR 主要在美国使用
-- **中国临床**：目前主要参考 ICD 体系，但对解离性障碍的诊断仍相对保守
-
----
-
-## 鉴别诊断
-
-解离性障碍常被误诊为其他精神障碍，正确鉴别至关重要。
-
-### 精神分裂症（Schizophrenia）
-
-- [精神分裂症（SC）](entries/Schizophrenia-SC.md)：精神病性障碍，以幻觉、妄想、思维障碍为主，与 DID 的"听到声音"（内部对话 vs 幻听）需要鉴别。
-
-### 双相障碍（Bipolar Disorders）
-
-- [双相障碍（Bipolar）](entries/Bipolar-Disorders.md)：情绪障碍，以躁狂/抑郁周期为主，与 DID 的人格切换、身份分离需要区分，可能共病。
-
-### 边缘型人格障碍（BPD）
-
-- [边缘型人格障碍（BPD）](entries/Borderline-Personality-Disorder-BPD.md)：人格障碍，表现为情绪不稳定、人际关系混乱与身份扩散，与 DID 的结构性记忆断片需要鉴别，两者常共病。
-
-### 自恋型人格障碍（NPD）
-
-- [自恋型人格障碍（NPD）](entries/Narcissistic-Personality-Disorder-NPD.md)：人格障碍，表现为夸大自我、缺乏共情与需要赞美，与 DID 的创伤相关人格分离不同，但某些保护者可能表现出自恋特征。
-
----
-
-## 临床评估
-
-### 诊断工具
-
-专业评估通常使用以下工具：
-
-- **结构化临床访谈（SCID-D）**：解离性障碍诊断访谈
-- **解离体验量表（DES）**：筛查解离程度
-- **多伦多失忆症测试（AMT）**：评估失忆模式
-- **MMPI-2**：全面的人格评估
-
-### 诊断挑战
-
-- **隐蔽性**：系统可能隐藏症状以保护自己
-- **共病复杂**：常与 PTSD、CPTSD、抑郁、焦虑共存
-- **文化因素**：对"声音"或"多重自我"的文化理解差异
-- **专业知识缺乏**：不是所有精神科医师都熟悉解离性障碍
-
----
-
-## 临床治疗
-
-### 治疗目标
-
-解离性障碍的治疗通常遵循三阶段模型：
-
-1. **阶段 1：安全与稳定**
-   - 建立治疗关系
-   - 危机管理与安全计划
-   - 症状稳定与日常功能恢复
-
-2. **阶段 2：创伤加工**
-   - 处理创伤记忆
-   - 整合解离的情绪与记忆
-   - 促进内部沟通与协作
-
-3. **阶段 3：整合与康复**
-   - 身份整合或协作（根据个人选择）
-   - 重建人际关系
-   - 恢复社会功能
-
-### 主要治疗方法
-
-- **心理治疗**：
-  - 创伤聚焦治疗（TF-CBT, EMDR）
-  - 辩证行为疗法（DBT）
-  - 内在家庭系统疗法（IFS）
-  - 精神动力学治疗
-
-- **药物治疗**：
-  - 无针对解离的特效药
-  - 用于治疗共病症状（抑郁、焦虑、PTSD）
-  - 常用药物：抗抑郁药（SSRI）、情绪稳定剂、抗焦虑药
-
-- **辅助治疗**：
-  - 团体治疗
-  - 艺术治疗、音乐治疗
-  - 正念与接地练习
-
-### 治疗师选择
-
-- **专业资格**：持证精神科医师或心理治疗师
-- **专业经验**：具有解离性障碍治疗经验
-- **治疗取向**：创伤知情治疗（Trauma-Informed Care）
-- **尊重自主**：尊重系统成员的意愿与选择
-
----
-
-## 中国的诊断现状
-
-### 诊断困境
-
-- **知识缺乏**：不是所有精神科医师都了解 DID/OSDD
-- **文化差异**：对"多重人格"的污名化与误解
-- **诊断保守**：倾向于诊断为其他障碍（如精神分裂症）
-- **资源有限**：缺乏专业的解离性障碍治疗师
-
-### 寻求帮助的建议
-
-1. **选择大型精神卫生中心**：更可能有经验丰富的医师
-2. **提供详细病史**：包括创伤历史、解离症状、记忆断片
-3. **带上症状日记**：记录切换、失忆、解离体验
-4. **寻求第二意见**：如果诊断存疑，可咨询其他专家
-5. **线上资源**：部分心理咨询平台有解离性障碍专业咨询师
-
----
-
-## 深入学习路径
-
-### 想了解创伤与康复？
-- 参考 [心理健康导览](entries/Mental-Health-Guide.md)
-- 参考 [创伤与疗愈导览](Trauma-Healing-Guide.md)
-
-### 想了解系统运作？
-- 参考 [系统运作导览](System-Operations.md)
-- 了解日常协作与内部沟通
-
-### 想了解理论框架？
-- 参考 [理论与分类导览](Theory-Classification-Guide.md)
-- 学习结构性解离理论等临床模型
-
----
-
-诊断是理解的开始，而非结束。**无论诊断如何，你都值得被理解、被尊重、被支持。**
+想了解更多？可以搭配 [创伤与疗愈导览](Trauma-Healing-Guide.md) 与 [DSM-5 & ICD-11 诊断索引](DSM-ICD-Diagnosis-Index.md)，构建完整的临床知识体系。
