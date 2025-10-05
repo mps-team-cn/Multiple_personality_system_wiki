@@ -42,7 +42,28 @@ def main() -> int:
 
     lines: list[str] = ["# 标签索引", ""]
 
-    for tag in sorted(tag_map):
+    # 自定义排序：核心标签 -> 临床诊断 -> 其他标签
+    def tag_sort_key(tag: str) -> tuple:
+        # 核心标签（按重要性排序）
+        core_tags = ["多重意识体", "解离", "创伤"]
+
+        # 临床诊断标签（按字母/缩写排序）
+        clinical_tags = [
+            "解离性身份障碍_DID", "其他特定解离障碍_OSDD",
+            "创伤后应激障碍_PTSD", "CPTSD",
+            "注意力缺陷多动障碍_ADHD", "BPD", "NPD",
+            "DPDR", "SSD", "ANP", "EP"
+        ]
+
+        if tag in core_tags:
+            return (0, core_tags.index(tag), tag)
+        elif tag in clinical_tags:
+            return (1, clinical_tags.index(tag), tag)
+        else:
+            # 其他标签按字母排序
+            return (2, 0, tag)
+
+    for tag in sorted(tag_map.keys(), key=tag_sort_key):
         lines.append(f"## {tag}")
         lines.append("")
 
