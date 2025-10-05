@@ -93,14 +93,14 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [应激反应（Stress Response）](/entries/Stress-Response.md)
 - [碎片（Fragment）](/entries/Fragment.md)
+- [应激反应（Stress Response）](/entries/Stress-Response.md)
 - [迭代（Iteration）](/entries/Iteration.md)
 - [非我感（Depersonalization）](/entries/Depersonalization.md)
 - [创伤（Trauma）](/entries/Trauma.md)
 - [去现实化（Derealization）](/entries/Derealization.md)
+- [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
 - [病理性解离（Pathological Dissociation）](/entries/Pathological-Dissociation.md)
-- [独有记忆（Exomemory）](/entries/Exomemory.md)
 
 ## 参考与延伸阅读
 

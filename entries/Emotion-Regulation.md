@@ -1,11 +1,13 @@
 ---
-title: 情绪调节（Emotion Regulation）
-tags:
-  - 心理学与理论基础
 synonyms:
-  - 情绪管理
-  - 情绪调控
-  - emotion regulation
+- 情绪管理
+- 情绪调控
+- emotion regulation
+tags:
+- 多重意识体
+- 解离
+- 创伤
+title: 情绪调节（Emotion Regulation）
 updated: 2025-10-05
 ---
 
@@ -37,9 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [心理防御机制（Defense Mechanisms）](entries/Defense-Mechanisms.md)
-- [心理弹性（Psychological Resilience）](entries/Psychological-Resilience.md)
-- [注意与觉察（Attention & Awareness）](entries/Attention-Awareness.md)
+- [心理防御机制（Defense Mechanisms）](/entries/Defense-Mechanisms.md)
+- [感官调节策略（Sensory Regulation Strategies）](/entries/Sensory-Regulation-Strategies.md)
+- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
+- [认知失调（Cognitive Dissonance）](/entries/Cognitive-Dissonance.md)
+- [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
+- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
+- [高敏感人群（Highly Sensitive Person, HSP）](/entries/Highly-Sensitive-Person.md)
+- [投射（Projection, Psychology）](/entries/Projection-Psychology.md)
 
 ## 参考与延伸阅读
 

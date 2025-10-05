@@ -1,11 +1,13 @@
 ---
-title: 人格结构理论（Personality Structure Theory, Freud）
-tags:
-  - 心理学与理论基础
 synonyms:
-  - 本我自我超我理论
-  - 弗洛伊德人格结构
-  - structural model of psyche
+- 本我自我超我理论
+- 弗洛伊德人格结构
+- structural model of psyche
+tags:
+- 多重意识体
+- 解离
+- 创伤
+title: 人格结构理论（Personality Structure Theory, Freud）
 updated: 2025-10-05
 ---
 
@@ -37,9 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [心理能量与注意资源（Psychic Energy & Attention）](entries/Psychic-Energy-Attention.md)
-- [防御性解离（Defensive Dissociation）](entries/Defensive-Dissociation.md)
-- [自我概念（Self-Concept）](entries/Self-Concept.md)
+- [自我概念（Self-Concept）](/entries/Self-Concept.md)
+- [心理防御机制（Defense Mechanisms）](/entries/Defense-Mechanisms.md)
+- [动机理论（Motivation Theories）](/entries/Motivation-Theories.md)
+- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
+- [自我决定理论（Self-Determination Theory）](/entries/Self-Determination-Theory.md)
+- [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
+- [人格面具（Persona）](/entries/Persona.md)
+- [自我效能感（Self-Efficacy）](/entries/Self-Efficacy.md)
 
 ## 参考与延伸阅读
 

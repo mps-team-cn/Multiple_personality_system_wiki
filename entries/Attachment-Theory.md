@@ -1,11 +1,13 @@
 ---
-title: 依恋理论（Attachment Theory）
-tags:
-  - 心理学与理论基础
 synonyms:
-  - 依附理论
-  - 依恋关系理论
-  - attachment theory
+- 依附理论
+- 依恋关系理论
+- attachment theory
+tags:
+- 多重意识体
+- 解离
+- 创伤
+title: 依恋理论（Attachment Theory）
 updated: 2025-10-05
 ---
 
@@ -37,9 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [心理弹性（Psychological Resilience）](entries/Psychological-Resilience.md)
-- [自我概念（Self-Concept）](entries/Self-Concept.md)
-- [移情与反移情（Transference and Countertransference）](entries/Transference-Countertransference.md)
+- [移情与反移情（Transference and Countertransference）](/entries/Transference-Countertransference.md)
+- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
+- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
+- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
+- [自我概念（Self-Concept）](/entries/Self-Concept.md)
+- [动机理论（Motivation Theories）](/entries/Motivation-Theories.md)
+- [自我决定理论（Self-Determination Theory）](/entries/Self-Determination-Theory.md)
+- [自我效能感（Self-Efficacy）](/entries/Self-Efficacy.md)
 
 ## 参考与延伸阅读
 

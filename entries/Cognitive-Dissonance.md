@@ -1,11 +1,13 @@
 ---
-title: 认知失调（Cognitive Dissonance）
-tags:
-  - 心理学与理论基础
 synonyms:
-  - 认知不协调
-  - 认知冲突
-  - cognitive dissonance
+- 认知不协调
+- 认知冲突
+- cognitive dissonance
+tags:
+- 多重意识体
+- 解离
+- 创伤
+title: 认知失调（Cognitive Dissonance）
 updated: 2025-10-05
 ---
 
@@ -37,9 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [注意与觉察（Attention & Awareness）](entries/Attention-Awareness.md)
-- [情绪调节（Emotion Regulation）](entries/Emotion-Regulation.md)
-- [学习与条件反射（Learning & Conditioning）](entries/Learning-Conditioning.md)
+- [社会认知理论（Social-Cognitive Theory）](/entries/Social-Cognitive-Theory.md)
+- [心理防御机制（Defense Mechanisms）](/entries/Defense-Mechanisms.md)
+- [自我决定理论（Self-Determination Theory）](/entries/Self-Determination-Theory.md)
+- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
+- [情绪调节（Emotion Regulation）](/entries/Emotion-Regulation.md)
+- [动机理论（Motivation Theories）](/entries/Motivation-Theories.md)
+- [投射（Projection, Psychology）](/entries/Projection-Psychology.md)
+- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
 
 ## 参考与延伸阅读
 

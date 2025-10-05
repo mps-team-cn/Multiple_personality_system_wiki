@@ -1,11 +1,13 @@
 ---
-title: 高敏感人群（Highly Sensitive Person, HSP）
-tags:
-  - 心理学与理论基础
 synonyms:
-  - 高敏感个体
-  - 高敏感人格
-  - highly sensitive person
+- 高敏感个体
+- 高敏感人格
+- highly sensitive person
+tags:
+- 多重意识体
+- 解离
+- 创伤
+title: 高敏感人群（Highly Sensitive Person, HSP）
 updated: 2025-10-05
 ---
 
@@ -37,9 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [自我概念（Self-Concept）](entries/Self-Concept.md)
-- [情绪调节（Emotion Regulation）](entries/Emotion-Regulation.md)
-- [心理弹性（Psychological Resilience）](entries/Psychological-Resilience.md)
+- [自我概念（Self-Concept）](/entries/Self-Concept.md)
+- [情绪调节（Emotion Regulation）](/entries/Emotion-Regulation.md)
+- [感官调节策略（Sensory Regulation Strategies）](/entries/Sensory-Regulation-Strategies.md)
+- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
+- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
+- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
+- [投射（Projection, Psychology）](/entries/Projection-Psychology.md)
+- [心理防御机制（Defense Mechanisms）](/entries/Defense-Mechanisms.md)
 
 ## 参考与延伸阅读
 

@@ -75,11 +75,11 @@ _如有触发风险，请在安全情境下阅读。_
 
 ## 相关条目
 
+- [情感障碍（Mood Disorders）](/entries/Mood-Disorders.md)
 - [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 - [躁狂（Mania）](/entries/Mania.md)
-- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
 - [轻躁狂（Hypomania）](/entries/Hypomania.md)
-- [情感障碍（Mood Disorders）](/entries/Mood-Disorders.md)
+- [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
 - [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
 - [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
 - [谵妄（Delirium）](/entries/Delirium.md)

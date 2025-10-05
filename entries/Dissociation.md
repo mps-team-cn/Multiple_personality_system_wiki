@@ -25,8 +25,8 @@ updated: 2025-10-05
 ## 相关条目
 
 - [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](/entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
-- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](/entries/Another-Me-DID-Depictions.md)
 - [《分裂》（Split, 2016）中的 DID 形象分析](/entries/Split-2016-DID-Representation.md)
+- [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](/entries/Another-Me-DID-Depictions.md)
 - [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](/entries/Fight-Club-1999-Identity-Metaphor.md)
 - [系统（System）](/entries/System.md)
 - [其他特定解离性障碍（OSDD）](/entries/OSDD.md)

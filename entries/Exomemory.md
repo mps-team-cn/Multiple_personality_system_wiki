@@ -39,9 +39,9 @@ updated: 2025-10-03
 - [记忆持有者（Memory Holder）](/entries/Memory-Holder.md)
 - [重构（Reconstruction）](/entries/Reconstruction.md)
 - [独立性（Independence）](/entries/Independence.md)
-- [非我感（Depersonalization）](/entries/Depersonalization.md)
 - [迭代（Iteration）](/entries/Iteration.md)
 - [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
+- [封存（Sequestration）](/entries/Sequestration.md)
 
 ## 参考与延伸阅读
 

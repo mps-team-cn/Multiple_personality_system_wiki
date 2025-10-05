@@ -1,11 +1,13 @@
 ---
-title: 注意与觉察（Attention & Awareness）
-tags:
-  - 心理学与理论基础
 synonyms:
-  - 注意力与觉察
-  - 注意觉察
-  - attention and awareness
+- 注意力与觉察
+- 注意觉察
+- attention and awareness
+tags:
+- '&'
+- 多重意识体
+- 解离
+title: 注意与觉察（Attention & Awareness）
 updated: 2025-10-05
 ---
 
@@ -37,9 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [心理能量与注意资源（Psychic Energy & Attention）](entries/Psychic-Energy-Attention.md)
-- [认知失调（Cognitive Dissonance）](entries/Cognitive-Dissonance.md)
-- [学习与条件反射（Learning & Conditioning）](entries/Learning-Conditioning.md)
+- [心理能量与注意资源（Psychic Energy & Attention）](/entries/Psychic-Energy-Attention.md)
+- [学习与条件反射（Learning & Conditioning）](/entries/Learning-Conditioning.md)
+- [认知失调（Cognitive Dissonance）](/entries/Cognitive-Dissonance.md)
+- [情绪调节（Emotion Regulation）](/entries/Emotion-Regulation.md)
+- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
+- [自我概念（Self-Concept）](/entries/Self-Concept.md)
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
+- [应激反应（Stress Response）](/entries/Stress-Response.md)
 
 ## 参考与延伸阅读
 

@@ -1,11 +1,13 @@
 ---
-title: 移情与反移情（Transference and Countertransference）
-tags:
-  - 心理学与理论基础
 synonyms:
-  - 移情
-  - 反移情
-  - transference countertransference
+- 移情
+- 反移情
+- transference countertransference
+tags:
+- 多重意识体
+- 解离
+- 创伤
+title: 移情与反移情（Transference and Countertransference）
 updated: 2025-10-05
 ---
 
@@ -37,9 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [依恋理论（Attachment Theory）](entries/Attachment-Theory.md)
-- [心理防御机制（Defense Mechanisms）](entries/Defense-Mechanisms.md)
-- [情绪调节（Emotion Regulation）](entries/Emotion-Regulation.md)
+- [依恋理论（Attachment Theory）](/entries/Attachment-Theory.md)
+- [心理防御机制（Defense Mechanisms）](/entries/Defense-Mechanisms.md)
+- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
+- [投射（Projection, Psychology）](/entries/Projection-Psychology.md)
+- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
+- [防御性解离（Defensive Dissociation）](/entries/Defensive-Dissociation.md)
+- [应激反应（Stress Response）](/entries/Stress-Response.md)
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
 
 ## 参考与延伸阅读
 

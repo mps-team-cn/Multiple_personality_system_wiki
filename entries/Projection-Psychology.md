@@ -1,11 +1,13 @@
 ---
-title: 投射（Projection, Psychology）
-tags:
-  - 心理学与理论基础
 synonyms:
-  - 心理投射
-  - 投射机制
-  - projection
+- 心理投射
+- 投射机制
+- projection
+tags:
+- 多重意识体
+- 解离
+- 创伤
+title: 投射（Projection, Psychology）
 updated: 2025-10-05
 ---
 
@@ -37,9 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [心理防御机制（Defense Mechanisms）](entries/Defense-Mechanisms.md)
-- [移情与反移情（Transference and Countertransference）](entries/Transference-Countertransference.md)
-- [情绪调节（Emotion Regulation）](entries/Emotion-Regulation.md)
+- [外投射（External Projection）](/entries/External-Projection.md)
+- [心理防御机制（Defense Mechanisms）](/entries/Defense-Mechanisms.md)
+- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
+- [移情与反移情（Transference and Countertransference）](/entries/Transference-Countertransference.md)
+- [认知失调（Cognitive Dissonance）](/entries/Cognitive-Dissonance.md)
+- [情绪调节（Emotion Regulation）](/entries/Emotion-Regulation.md)
+- [意识修改（Consciousness Modification）](/entries/Consciousness-Modification.md)
+- [人本主义心理学（Humanistic Psychology）](/entries/Humanistic-Psychology.md)
 
 ## 参考与延伸阅读
 

@@ -114,9 +114,9 @@ ICD-11 与 DSM-5-TR 均将定向障碍视为谵妄的重要表现，但 ICD-11 �
 - [抑郁障碍（Depressive Disorders）](/entries/Depressive-Disorders.md)
 - [双相障碍（Bipolar Disorders）](/entries/Bipolar-Disorders.md)
 - [孤独症谱系（Autism Spectrum Disorder）](/entries/Autism-Spectrum-Disorder.md)
-- [躁狂（Mania）](/entries/Mania.md)
-- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
 - [心境障碍（Affective Disorders）](/entries/Affective-Disorders.md)
+- [精神分裂症（Schizophrenia，SC）](/entries/Schizophrenia-SC.md)
+- [轻躁狂（Hypomania）](/entries/Hypomania.md)
 
 ## 参考与延伸阅读
 

@@ -45,13 +45,13 @@ _本词条包含需要及时更新的即时内容或含有目前仍不能确定�
 ## 相关条目
 
 - [伪主体（Fauxmain）](/entries/Fauxmain.md)
-- [超级破碎（Polyfragmented）](/entries/Polyfragmented.md)
 - [成员（Alter）](/entries/Alter.md)
-- [初始（Original）](/entries/Original.md)
+- [超级破碎（Polyfragmented）](/entries/Polyfragmented.md)
+- [后台（Back / Being Back）](/entries/Back-Being-Back.md)
 - [外投射（External Projection）](/entries/External-Projection.md)
 - [碎片（Fragment）](/entries/Fragment.md)
-- [主体（Main）](/entries/Main.md)
-- [后台（Back / Being Back）](/entries/Back-Being-Back.md)
+- [初始（Original）](/entries/Original.md)
+- [内部空间（Headspace / Inner World）](/entries/Headspace-Inner-World.md)
 
 ## 参考与延伸阅读
 

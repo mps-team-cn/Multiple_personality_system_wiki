@@ -1,11 +1,13 @@
 ---
-title: 人本主义心理学（Humanistic Psychology）
-tags:
-  - 心理学与理论基础
 synonyms:
-  - 人本心理学
-  - 人本主义学派
-  - humanistic psychology
+- 人本心理学
+- 人本主义学派
+- humanistic psychology
+tags:
+- 多重意识体
+- 解离
+- 创伤
+title: 人本主义心理学（Humanistic Psychology）
 updated: 2025-10-05
 ---
 
@@ -37,9 +39,14 @@ updated: 2025-10-05
 
 ## 相关条目
 
-- [自我概念（Self-Concept）](entries/Self-Concept.md)
-- [自我决定理论（Self-Determination Theory）](entries/Self-Determination-Theory.md)
-- [心理弹性（Psychological Resilience）](entries/Psychological-Resilience.md)
+- [自我决定理论（Self-Determination Theory）](/entries/Self-Determination-Theory.md)
+- [动机理论（Motivation Theories）](/entries/Motivation-Theories.md)
+- [自我概念（Self-Concept）](/entries/Self-Concept.md)
+- [自我效能感（Self-Efficacy）](/entries/Self-Efficacy.md)
+- [人格结构理论（Personality Structure Theory, Freud）](/entries/Personality-Structure-Theory.md)
+- [心理弹性（Psychological Resilience）](/entries/Psychological-Resilience.md)
+- [依恋理论（Attachment Theory）](/entries/Attachment-Theory.md)
+- [社会认知理论（Social-Cognitive Theory）](/entries/Social-Cognitive-Theory.md)
 
 ## 参考与延伸阅读
 
