@@ -9,7 +9,6 @@ title: 《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fand
 updated: 2025-10-03
 ---
 
-
 # 《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）
 
 ## 概述

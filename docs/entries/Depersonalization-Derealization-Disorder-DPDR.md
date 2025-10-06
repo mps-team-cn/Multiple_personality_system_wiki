@@ -9,7 +9,6 @@ title: 人格解体/现实解体障碍（Depersonalization/Derealization Disorde
 updated: 2025-10-03
 ---
 
-
 # 人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）
 
 !!! warning "触发警告"

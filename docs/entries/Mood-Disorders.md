@@ -15,7 +15,6 @@ synonyms:
 - mood disorder
 ---
 
-
 # 情感障碍（Mood Disorders）
 
 !!! warning "触发警告"

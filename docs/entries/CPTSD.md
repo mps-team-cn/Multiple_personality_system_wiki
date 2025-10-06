@@ -15,7 +15,6 @@ synonyms:
 - fuzaxingchuangshanghouyingjizhangai
 ---
 
-
 # 复杂性创伤后应激障碍（CPTSD）
 
 !!! warning "触发警告"

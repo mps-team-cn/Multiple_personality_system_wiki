@@ -13,7 +13,6 @@ synonyms:
 - psychological defense
 ---
 
-
 # 心理防御机制（Defense Mechanisms）
 
 !!! warning "触发警告"

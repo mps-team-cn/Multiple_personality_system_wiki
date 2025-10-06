@@ -11,7 +11,6 @@ title: ANP-EP 模型（Apparently Normal Part–Emotional Part Model）
 updated: 2025-10-03
 ---
 
-
 # ANP-EP 模型（Apparently Normal Part–Emotional Part Model）
 
 !!! warning "触发警告"

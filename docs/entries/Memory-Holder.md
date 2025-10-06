@@ -9,7 +9,6 @@ title: 记忆持有者（Memory Holder）
 updated: 2025-10-03
 ---
 
-
 # 记忆持有者（Memory Holder）
 
 ## 定义

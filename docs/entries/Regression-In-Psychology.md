@@ -9,7 +9,6 @@ title: 退行（Regression in Psychology）
 updated: 2025-10-03
 ---
 
-
 # 退行（Regression in Psychology）
 
 ## 定义

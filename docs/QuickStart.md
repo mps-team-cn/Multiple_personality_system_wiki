@@ -119,16 +119,16 @@ Plurality Wiki 是社区共建的知识库,欢迎你的参与:
 这取决于你的需求:
 
   如果症状影响日常生活,寻求专业诊断（如 [DID](entries/DID.md)、[OSDD](entries/OSDD.md)、[PTSD](entries/PTSD.md)）可以获得治疗支持
-  
+
   如果只是想了解自己,不一定需要正式诊断
-  
+
   详见 [心理健康导览](entries/Mental-Health-Guide.md) 中的相关说明。
 
 ??? question "Plurality Wiki 的内容可靠吗?"
-  ✅ 医疗/诊断内容引用 ICD-11、DSM-5-TR 等权威来源 
-  
+  ✅ 医疗/诊断内容引用 ICD-11、DSM-5-TR 等权威来源
+
   ✅ 每个断言都标注引用来源和访问日期
-  
+
   ⚠️ 社群经验部分标明为"经验分享",不代表医学事实
 
   详见 [贡献指南](CONTRIBUTING.md) 中的学术规范。

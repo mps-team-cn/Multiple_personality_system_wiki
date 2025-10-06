@@ -13,7 +13,6 @@ synonyms:
 - transference countertransference
 ---
 
-
 # 移情与反移情（Transference and Countertransference）
 
 !!! warning "触发警告"

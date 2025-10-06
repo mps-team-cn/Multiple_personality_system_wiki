@@ -9,7 +9,6 @@ title: 躯体化障碍（Somatic Symptom Disorder，SSD）
 updated: 2025-10-03
 ---
 
-
 # 躯体化障碍（Somatic Symptom Disorder，SSD）
 
 !!! warning "触发警告"
