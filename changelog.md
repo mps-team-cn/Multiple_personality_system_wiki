@@ -1,5 +1,120 @@
 # 更新日志
 
+## v2.1.0 (2025-10-04)
+
+### ✨ 新增
+
+- 维护“超级破碎者”词条（[394a5f6](https://github.com/kuliantnt/plurality_wiki/commit/394a5f6b3d463d274904173448b528545c0ec5a0)）
+- 新增词条「去现实化」「内部沟通」，并更新「结构性解离理论」与相关索引（[0b1e156](https://github.com/kuliantnt/plurality_wiki/commit/0b1e1568bb61035a1c8e1ad2040fc838b2b9ea59)）
+- 新增词条「习得性无助」（[9bd6bfe](https://github.com/kuliantnt/plurality_wiki/commit/9bd6bfea818bdc6d9268026a7c9135c2ebd1c9e6)）
+- 删除过时的 Codex 上下文与计划文件，简化项目结构（[5e3890f](https://github.com/kuliantnt/plurality_wiki/commit/5e3890f2d019fcd170b6bf6396a1322e7b67c8c1)）
+- 更新 `.gitignore` 以包含 Codex 相关文件（[4c248ba](https://github.com/kuliantnt/plurality_wiki/commit/4c248bab4679422035a266672ddc749c44391798)）
+- 按照拼音的方式优化搜索（[3645a0e](https://github.com/kuliantnt/plurality_wiki/commit/3645a0e0aa1f1bb0fc43cf7f8dbcc5fc297263dd)）
+
+### 🐛 修复（链接/引用/格式）
+
+- 修正标题别名提取并重建搜索索引（[3645a0e](https://github.com/kuliantnt/plurality_wiki/commit/3645a0e0aa1f1bb0fc43cf7f8dbcc5fc297263dd)）
+- 同义词与元数据维护：补全《独立性》词条同义词，修正 synonyms 配置（[2e9b455](https://github.com/kuliantnt/plurality_wiki/commit/2e9b455800607bcfc6e8313ad102e00b70ca0c5d)，[61329aa](https://github.com/kuliantnt/plurality_wiki/commit/61329aa0579ffbad3149b8315d1cb2e3e24e6733)）
+- 标签与搜索相关修复与优化：调整标签匹配/优化过滤、修复标签页功能（代表性提交：[8c2612c](https://github.com/kuliantnt/plurality_wiki/commit/8c2612cf976a0422a431b3d1fb6226acfcabdcba)，[37f83b3](https://github.com/kuliantnt/plurality_wiki/commit/37f83b3256f5405be4054d7807068518bb20b961)）
+- 自动化与 CI：修复 GitHub CI 与自动化维护脚本缺陷（[e0e4743](https://github.com/kuliantnt/plurality_wiki/commit/e0e4743e805e45e9135d8650c5b4aeab104243cf)，[337e805](https://github.com/kuliantnt/plurality_wiki/commit/337e805e116ef059dd6860db37796bf3d821a001)）
+
+### 📝 文档与索引（不影响语义）
+
+- 更新管理员维护手册（[df15786](https://github.com/kuliantnt/plurality_wiki/commit/df15786c86c9f3991c01f31014e8a46d02df420b)）
+
+### 📦 杂务（脚本/CI/批处理）
+
+- 修复 `change.log` 命名错误（[cdf6325](https://github.com/kuliantnt/plurality_wiki/commit/cdf6325f8a6b0dad3b50963af6835bd3625443f3)）
+- 更新维护脚本与管理员指南（[58dffa3](https://github.com/kuliantnt/plurality_wiki/commit/58dffa350ef01d361cd3d8203d406e80b4a8c751)）
+- 安装文档检查依赖（[bcc546a](https://github.com/kuliantnt/plurality_wiki/commit/bcc546ad233d518859e22c3cb211bb6c653c5075)）
+- 维护自动化脚本与标签索引模块（[24cb674](https://github.com/kuliantnt/plurality_wiki/commit/24cb67477e18eb3a3224271d7341068959c96e92)）
+
+— 由 Git 提交记录自动生成
+
+## v2.0.0 (2025-10-04)
+
+### ✨ 新增
+
+- 增加 Windows 本地维护批处理脚本（[9c66ea0](https://github.com/kuliantnt/plurality_wiki/commit/9c66ea09b38696af2e5fa8028df366d91be0bbe1)）
+- PDF 导出目录复用 `index.md`，并同步导出结构与索引顺序（[1b21db2](https://github.com/kuliantnt/plurality_wiki/commit/1b21db29fd86ac651e7271ed4c81098f32741c06)，[61eed04](https://github.com/kuliantnt/plurality_wiki/commit/61eed0496b91a6a64aa8a8fff44041f782ae4884)）
+- 重新生成各词条 **tags** 与“相关条目”区块（[72abcdd](https://github.com/kuliantnt/plurality_wiki/commit/72abcdd4b46c53356972db07d97058be9832f8d8)）
+- 更新术语表并新增神经多样性链接；工具脚本支持生成标签索引（[fa3295f](https://github.com/kuliantnt/plurality_wiki/commit/fa3295f1d2feb8d98f0f0f21a76227b676173e61)）
+- 优化远端分支清理脚本：加入安全分支切换与干运行（dry-run）（[58fa841](https://github.com/kuliantnt/plurality_wiki/commit/58fa84198746ae8b4d925d676894da5eef2955eb)）
+- 新增：神经多样性与感官调节词条（[95707e8](https://github.com/kuliantnt/plurality_wiki/commit/95707e8213fee4e9342b3f77385aebea9eaa35b3)）
+- 调整标签清单的版式以提升可读性（[39915c7](https://github.com/kuliantnt/plurality_wiki/commit/39915c75ce6e746aec7089c2ca801cef659fa4a4)）
+
+### 🐛 修复（链接/引用/格式）
+
+- 补充“弦羽分类”相关索引（合并重复修复）（[2e62e6e](https://github.com/kuliantnt/plurality_wiki/commit/2e62e6e5de753948416e4fa67ec6fd10395d62e5)，[9c96b19](https://github.com/kuliantnt/plurality_wiki/commit/9c96b19b2063e5a5ae9d4221106f8bbde49a0ef2)）
+- 将 `retag_and_related.py` 纳入更新命令，修复执行缺失（[1667fec](https://github.com/kuliantnt/plurality_wiki/commit/1667fec4a3fb5b1f7571a077b814cbbd7020329d)）
+- 扩展 frontmatter `updated` 字段兼容性；修复多行标签解析与类型转换（[0dd4584](https://github.com/kuliantnt/plurality_wiki/commit/0dd4584963f785d4fd00227ee7eec433ea5d3fc5)，[992e0ab](https://github.com/kuliantnt/plurality_wiki/commit/992e0ab4964abe81f14cf8252614e2d15b256f86)，[2ad3f10](https://github.com/kuliantnt/plurality_wiki/commit/2ad3f10cc15adb0c47b9a7d8966bc1349741d4e1)）
+- 隐藏 Docsify 前端对 frontmatter 元数据的渲染（合并重复修复）（[0184635](https://github.com/kuliantnt/plurality_wiki/commit/018463576239e617794752e4a41b479f1697e3dc)，[07cd27e](https://github.com/kuliantnt/plurality_wiki/commit/07cd27ea2aa4d7e00e3761a475598637cdceb7d9)）
+- 表格展示与响应式修复（PC 端显示、术语表布局与全局化）（代表性提交：[8f35457](https://github.com/kuliantnt/plurality_wiki/commit/8f35457606235fb347bc99e2ba97c130bb71dd0d)，[9c19d3d](https://github.com/kuliantnt/plurality_wiki/commit/9c19d3decf53f650139f944c5d961783f7d84c08)）
+- 修正“最近更新”链接路径（合并重复修复）（[8ba3e1a](https://github.com/kuliantnt/plurality_wiki/commit/8ba3e1acb1bc9ffb77801f339214026410aa7f99)，[a80b8d0](https://github.com/kuliantnt/plurality_wiki/commit/a80b8d01d57be097bc93df87ec40b9af7889e554)）
+- 移除不必要的 `_sidebar.md` 忽略配置（[d6e30ae](https://github.com/kuliantnt/plurality_wiki/commit/d6e30ae55aa9522c8f1dc454003aa5ce1a4c4546)）
+- 标签列表格式化（焦虑/双相障碍）（[d7cd081](https://github.com/kuliantnt/plurality_wiki/commit/d7cd08171085c51f0135817841a43a55393b0ceb)）
+- 更新贡献与开发约定（markdownlint 要求等）并同步校对报告生成时间（[cc3bd32](https://github.com/kuliantnt/plurality_wiki/commit/cc3bd32b4512adfa3c9acc4504009f5aa01b9693)）
+- 补全部分诊断词条模板章节（[3a3ee06](https://github.com/kuliantnt/plurality_wiki/commit/3a3ee069405c635fb871a0786d83aa07f3090e56)）
+
+### 📝 文档与索引（不影响语义）
+
+- 重构部分诊断词条的章节结构（[fa22795](https://github.com/kuliantnt/plurality_wiki/commit/fa2279556fb71a8be24caaabe85be614faa1efa9)）
+- 补充链接检查脚本的使用说明（[216ccfa](https://github.com/kuliantnt/plurality_wiki/commit/216ccfafaa7cf94c08c392df9d43d8eff1f450c1)）
+- 统一若干文档的小幅格式修正（代表性提交：[871d44a](https://github.com/kuliantnt/plurality_wiki/commit/871d44af70fb509a96bd669d04c42df4294e3efc)，[295d04f](https://github.com/kuliantnt/plurality_wiki/commit/295d04fd52f5b33bd5a7b3a4c754d1b19d2ae8c9)）
+
+### 🔧 重构（不改变内容含义）
+
+- **（破坏性变更）**迁移为 **tags** 管理模式，统一词条目录结构（[d267385](https://github.com/kuliantnt/plurality_wiki/commit/d2673853f61b5a4a6eab17e325baa899c826c0e4)）
+
+### 📦 杂务（脚本/CI/批处理）
+
+- 删除旧版更新脚本 `update.cmd`（[e085f51](https://github.com/kuliantnt/plurality_wiki/commit/e085f51f0cba2d934cd310a5d221a45308b2e356)）
+
+### 🎨 风格（空格/缩进/行尾等）
+
+- 统一多处空行与段落间距，提升可读性（[34b979f](https://github.com/kuliantnt/plurality_wiki/commit/34b979ff29c77a15691ef511365fa6bf79e67040)）
+
+— 由 Git 提交记录自动生成
+
+## v1.3.4 (2025-10-03)
+
+### ✨ 新增
+
+- feat: 添加弦羽理论生态位分类法及相关系统条目（[a4a1724](https://github.com/kuliantnt/plurality_wiki/commit/a4a17243500114d96c05b31cb2f1894a7d98a712)）
+- feat: 关于我们是最好朋友的事（[aa101e1](https://github.com/kuliantnt/plurality_wiki/commit/aa101e1ed4eaa34af2d19b7cb6ac36c61894489e)）
+- feat: 添加远端分支清理脚本（[999cf69](https://github.com/kuliantnt/plurality_wiki/commit/999cf690c324a9b21a4be54f211ce57cf347b66a)）
+- （合并）新增/更新若干占位或示例条目（[b865b47](https://github.com/kuliantnt/plurality_wiki/commit/b865b475cfde93eb60ef1f9d5acee83e7cdae9bb)，[d070503](https://github.com/kuliantnt/plurality_wiki/commit/d070503d57195e32ae2c82a53883ac9372153213)）
+
+### 🐛 修复（链接/引用/格式）
+
+- fix: 添加触发警示并更新系统定义，提升可读性（[0f292a2](https://github.com/kuliantnt/plurality_wiki/commit/0f292a2d56b95c55c35bf24d7382dbe8b35d34fd)）
+- fix: 替换条目中的中文路径链接（[d0e9cb8](https://github.com/kuliantnt/plurality_wiki/commit/d0e9cb8787f76ee18f1839557893051a4f0e4ed4)）
+- fix: 更新自动校对报告时间；移除无效检查项与标题格式问题（[ebdb19f](https://github.com/kuliantnt/plurality_wiki/commit/ebdb19f0afa1a11dd913225549c2ce4056f908d8)）
+- fix: 更新术语表，补充缺失条目并修复格式（[0ceffc2](https://github.com/kuliantnt/plurality_wiki/commit/0ceffc2a83b59c4a5b59ea72fe583dba71da2d6c)）
+- fix: 启用更新脚本以生成“最后更新时间”（[f2fc449](https://github.com/kuliantnt/plurality_wiki/commit/f2fc4490291b7d194803a5996b888fcb719d0114)）
+- fix: 依据校对报告微调部分词条结构（[8fa7e77](https://github.com/kuliantnt/plurality_wiki/commit/8fa7e77231da264ea958989b01f2a288ecf12995)）
+- fix: 更新页脚维护者信息，补充系统名称（[dcc184a](https://github.com/kuliantnt/plurality_wiki/commit/dcc184a9f15205147baf7fb36aea445d2ca985a4)）
+- fix: 修正条目模板与更新日志的排版（[350382e](https://github.com/kuliantnt/plurality_wiki/commit/350382e7cdaa5efedf0024eb6d79521c8ed0cdaa)）
+- fix: 调整 DID 共病术语（[4b43c4b](https://github.com/kuliantnt/plurality_wiki/commit/4b43c4b56da041de1523af7b72556adab03fb8ca)）
+
+### 📝 文档与索引（不影响语义）
+
+- 术语表与布局改造：区分桌面/移动展示并重构为移动友好（[81d3cf6](https://github.com/kuliantnt/plurality_wiki/commit/81d3cf69d7678a0c9842bd0b2060b0032d0d9a3a)，[578b068](https://github.com/kuliantnt/plurality_wiki/commit/578b0681ef9ac6e2fd70700c38f94614694866ab)）
+- 文档结构与索引：更新 README 的仓库结构概览与文档位置/链接（[301047e](https://github.com/kuliantnt/plurality_wiki/commit/301047e0d2ee39cfe5d3f1885bf09bf4923a8ceb)，[9e9a502](https://github.com/kuliantnt/plurality_wiki/commit/9e9a502db310380b9ca69670454282612ec7e24e)）
+- 贡献/运维文档：新增 GitHub 提交流程与管理员指南（[d4ffb8e](https://github.com/kuliantnt/plurality_wiki/commit/d4ffb8e109cfb526240bb6ece8c6d4d88e0988a8)，[eb58ef4](https://github.com/kuliantnt/plurality_wiki/commit/eb58ef455737cff072a33c9419a4ed99ab125aea)）
+- 自动化与导出：同步自动化工具与 PDF 导出文档到 docs（[8790314](https://github.com/kuliantnt/plurality_wiki/commit/8790314176ca70f58ff5226faecde43a639c3a27)）
+- AGENTS 规则：补充前端资产脚本注释与贡献约定（[fa85303](https://github.com/kuliantnt/plurality_wiki/commit/fa85303ddee6df569f93b86f233ccfcae8233642)，[c383990](https://github.com/kuliantnt/plurality_wiki/commit/c38399026fb8e256b8c319a3ac32e6fb074d9605)）
+- CI 徽章与状态：替换为 shields.io 并修正状态链接（[bea3510](https://github.com/kuliantnt/plurality_wiki/commit/bea35103b1ecc502d3d3cb564a9f97c21ff9f88d)，[7709dd0](https://github.com/kuliantnt/plurality_wiki/commit/7709dd031ae81a9c8a94cc874ec2c8e9242dd322)）
+- 术语表分类与常规小修：拆分类别、补充与微调（[6f12fb6](https://github.com/kuliantnt/plurality_wiki/commit/6f12fb62d77b74fb0a9db38d691e9574e682e1dc)，[b8304e3](https://github.com/kuliantnt/plurality_wiki/commit/b8304e35b6269e049e0268cd20cd62ca4da38ffc)）
+- 语法与排版：统一 Markdown 与文档格式（[7033eea](https://github.com/kuliantnt/plurality_wiki/commit/7033eeac4b08469e8faa13f795827b4cab1ec87f)）
+- 贡献指南与模板：补充条目规范与自检清单（[49d8375](https://github.com/kuliantnt/plurality_wiki/commit/49d8375beb86c5b1ea14804edaf38cafc1595e29)）
+
+### 📦 杂务（脚本/CI/批处理）
+
+- chore: 调整校对脚本目录（[cdae64f](https://github.com/kuliantnt/plurality_wiki/commit/cdae64f3e38b210c764c19b4de76818240b7eb2d)）
+
+— 由 Git 提交记录自动生成
+
 ## v1.3.3 (2025-10-03)
 
 ### ✨ 新增

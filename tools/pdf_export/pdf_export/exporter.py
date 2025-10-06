@@ -15,6 +15,9 @@ def export_pdf(
     pandoc_cmd: str,
     pdf_engine: str | None,
     cjk_font: str | None,
+    main_font: str | None,
+    sans_font: str | None,
+    mono_font: str | None,
 ) -> None:
     """调用 Pandoc 将 ``markdown_content`` 渲染为 ``output_path`` 指定的文件。"""
 
@@ -36,8 +39,18 @@ def export_pdf(
     if pdf_engine:
         command.extend(["--pdf-engine", pdf_engine])
 
+    font_variables: list[tuple[str, str]] = []
+    if main_font:
+        font_variables.append(("mainfont", main_font))
+    if sans_font:
+        font_variables.append(("sansfont", sans_font))
+    if mono_font:
+        font_variables.append(("monofont", mono_font))
     if cjk_font:
-        command.extend(["--variable", f"CJKmainfont={cjk_font}"])
+        font_variables.append(("CJKmainfont", cjk_font))
+
+    for key, value in font_variables:
+        command.extend(["--variable", f"{key}={value}"])
 
     try:
         result = subprocess.run(

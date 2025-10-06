@@ -52,6 +52,21 @@ def parse_arguments(argv: Sequence[str] | None = None) -> argparse.Namespace:
         help="优先用于中文内容的字体名称。例如 `Noto Serif CJK SC`。",
     )
     parser.add_argument(
+        "--main-font",
+        default=None,
+        help="正文使用的主字体名称。若未指定但提供了 --cjk-font，将默认与中文字体保持一致。",
+    )
+    parser.add_argument(
+        "--sans-font",
+        default=None,
+        help="无衬线字体名称，用于 Pandoc 需要切换到无衬线文字的场景。",
+    )
+    parser.add_argument(
+        "--mono-font",
+        default=None,
+        help="等宽字体名称，用于代码块或行内代码。",
+    )
+    parser.add_argument(
         "--include-readme",
         action="store_true",
         help="导出时包含 README.md (默认根据 ignore.md 忽略)",
@@ -107,6 +122,14 @@ def main(argv: Sequence[str] | None = None) -> None:
         )
 
     cjk_font = args.cjk_font.strip() if args.cjk_font else detect_cjk_font()
+    main_font = args.main_font.strip() if args.main_font else None
+    sans_font = args.sans_font.strip() if args.sans_font else None
+    mono_font = args.mono_font.strip() if args.mono_font else None
+
+    if main_font is None and cjk_font:
+        # 当未指定主字体但明确了中文字体时，优先与中文字体保持一致，
+        # 以避免 Roman Numeral 等特殊符号回退到不支持的默认字体。
+        main_font = cjk_font
 
     ignore_rules = load_ignore_rules(args.ignore_file)
     structure = collect_markdown_structure(ignore_rules)
@@ -145,6 +168,9 @@ def main(argv: Sequence[str] | None = None) -> None:
             pandoc_cmd=args.pandoc,
             pdf_engine=pdf_engine,
             cjk_font=cjk_font,
+            main_font=main_font,
+            sans_font=sans_font,
+            mono_font=mono_font,
         )
     except PandocExportError as error:
         message = [

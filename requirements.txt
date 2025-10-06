@@ -1,0 +1,6 @@
+pyyaml
+python-frontmatter
+jieba
+nltk
+unidecode
+pypinyin
