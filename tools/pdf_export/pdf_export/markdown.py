@@ -3,13 +3,11 @@
 from __future__ import annotations
 
 import hashlib
-import html
 import re
-import sys
 from collections.abc import Mapping
 from pathlib import Path
 
-from .paths import PROJECT_ROOT, README_PATH, INDEX_PATH
+from .paths import PROJECT_ROOT, README_PATH
 
 # Markdown 中指向词条的常见链接格式：
 # - 行内链接 [描述](entries/词条.md) 或 [描述](词条.md)
@@ -37,11 +35,6 @@ ENTRY_REFERENCE_LINK_PATTERN = re.compile(
 ENTRY_ANGLE_LINK_PATTERN = re.compile(
     r"(?P<prefix><)(?P<target>(?:(?:\./|\.\./|)entries/)?[^>#\s/]+?\.md)"
     r"(?P<fragment>#[^>\s]*)?(?P<suffix>>)",
-)
-
-_TRIGGER_WARNING_BLOCK_PATTERN = re.compile(
-    r"<!--\s*trigger-warning:start\s*-->(?P<body>.*?)<!--\s*trigger-warning:end\s*-->",
-    re.IGNORECASE | re.DOTALL,
 )
 
 from .last_updated import LastUpdatedInfo, render_last_updated_text
@@ -129,33 +122,41 @@ def _resolve_entry_target(target: str, lookup: Mapping[Path, str]) -> str | None
     if not stripped:
         return None
 
+    candidates: list[Path] = []
+
     # 检查是否包含 "entries/"
     index = stripped.find("entries/")
     if index != -1:
-        # 旧格式：使用原有逻辑
-        candidate = Path(stripped[index:])
+        # 旧格式：entries/xxx.md 或其相对写法
+        relative_target = Path(stripped[index:])
+        candidates.append(relative_target)
+        # 兼容 MkDocs 新目录结构下的 docs/entries/ 位置
+        if relative_target.parts and relative_target.parts[0] != "docs":
+            candidates.append(Path("docs") / relative_target)
     else:
-        # 新格式：相对路径，假定在 docs/entries/ 目录下
+        # 新格式：纯文件名，假定位于 docs/entries/ 下
         if not stripped.endswith(".md"):
             return None
         # 避免匹配路径中包含 / 的情况（例如 foo/bar.md）
         if "/" in stripped or "\\" in stripped:
             return None
-        candidate = Path("docs/entries") / stripped
+        candidates.append(Path("docs/entries") / stripped)
+        # 为向后兼容保留 entries/xxx.md 形式
+        candidates.append(Path("entries") / stripped)
 
-    if candidate.is_absolute():
-        return None
+    for candidate in candidates:
+        if candidate.is_absolute():
+            continue
+        try:
+            resolved = (PROJECT_ROOT / candidate).resolve()
+        except OSError:
+            continue
 
-    try:
-        resolved = (PROJECT_ROOT / candidate).resolve()
-    except OSError:
-        return None
+        anchor = lookup.get(resolved)
+        if anchor:
+            return f"#{anchor}"
 
-    anchor = lookup.get(resolved)
-    if not anchor:
-        return None
-
-    return f"#{anchor}"
+    return None
 
 
 def rewrite_entry_links(markdown: str, lookup: Mapping[Path, str]) -> str:
@@ -173,26 +174,6 @@ def rewrite_entry_links(markdown: str, lookup: Mapping[Path, str]) -> str:
     updated = ENTRY_REFERENCE_LINK_PATTERN.sub(_replace, updated)
     updated = ENTRY_ANGLE_LINK_PATTERN.sub(_replace, updated)
     return updated
-
-
-def _strip_html_tags(content: str) -> str:
-    """移除 ``content`` 中的 HTML 标签并压缩空白字符。"""
-
-    without_tags = re.sub(r"<[^>]+>", " ", content)
-    condensed = re.sub(r"\s+", " ", without_tags)
-    return html.unescape(condensed).strip()
-
-
-def _normalize_index_content(content: str) -> str:
-    """将 ``index.md`` 中的自定义 HTML 区块替换为通用 Markdown。"""
-
-    def _replace_trigger_warning(match: re.Match[str]) -> str:
-        plain_text = _strip_html_tags(match.group("body"))
-        if not plain_text:
-            return ""
-        return f"> ⚠️ {plain_text}\n\n"
-
-    return _TRIGGER_WARNING_BLOCK_PATTERN.sub(_replace_trigger_warning, content)
 
 
 def strip_primary_heading(content: str, title: str) -> str:
@@ -288,66 +269,43 @@ def build_cover_page(
     return "\n".join(lines)
 
 
-def _build_directory_from_index(anchor_lookup: Mapping[Path, str]) -> str | None:
-    """尝试以 ``index.md`` 作为目录页内容。"""
-
-    if not INDEX_PATH.exists():
-        return None
-    index_path = INDEX_PATH
-
-    try:
-        raw_content = index_path.read_text(encoding="utf-8")
-    except OSError as error:  # pragma: no cover - 仅在 I/O 出错时触发
-        print(f"警告: 无法读取 {index_path}: {error}", file=sys.stderr)
-        return None
-
-    normalized = _normalize_index_content(raw_content)
-    stripped = normalized.strip()
-    if not stripped:
-        return None
-
-    lines = stripped.splitlines()
-    for index, line in enumerate(lines):
-        if line.startswith("# "):
-            lines[index] = "# 目录"
-            break
-    else:
-        lines.insert(0, "# 目录")
-        lines.insert(1, "")
-
-    directory_markdown = "\n".join(lines)
-    rewritten = rewrite_entry_links(directory_markdown, anchor_lookup).strip()
-    if not rewritten:
-        return None
-
-    return f"{rewritten}\n\n\\newpage\n"
-
-
 def build_directory_page(
     structure: CategoryStructure, anchor_lookup: Mapping[Path, str]
 ) -> str:
-    """根据 ``index.md`` 或标签结构生成目录页内容。"""
-
-    index_based = _build_directory_from_index(anchor_lookup)
-    if index_based is not None:
-        return index_based
+    """根据 ``structure`` 生成带页码的目录页。"""
 
     lines: list[str] = ["# 目录", ""]
+    lines.extend(
+        [
+            r"\begingroup",
+            r"\setlength{\parindent}{0pt}",
+            r"\setlength{\parskip}{0.4em}",
+            "",
+        ]
+    )
 
     for category_title, documents in structure:
         if not documents:
             continue
-        lines.append(f"## {category_title}")
-        lines.append("")
+
+        lines.append(rf"\textbf{{{escape_latex(category_title)}}}\par")
+        lines.append(r"\vspace{0.2em}")
+
         for document in documents:
             anchor = anchor_lookup.get(
                 document.path.resolve(),
                 build_entry_anchor(document.path),
             )
-            lines.append(f"- [{document.title}](#{anchor})")
-        lines.append("")
+            entry_title = escape_latex(document.title)
+            lines.append(
+                rf"\noindent\hspace{{1em}}\textbullet\;"
+                rf"\hyperlink{{{anchor}}}{{{entry_title}}}"
+                rf"\nobreak\dotfill\pageref{{{anchor}}}\par"
+            )
 
-    lines.extend(["\\newpage", ""])
+        lines.append(r"\medskip")
+
+    lines.extend([r"\endgroup", "", r"\newpage", ""])
     return "\n".join(lines)
 
 

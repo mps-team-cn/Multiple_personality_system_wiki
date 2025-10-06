@@ -20,5 +20,8 @@ README_PATH = DOCS_DIR / "README.md" if (DOCS_DIR / "README.md").exists() else P
 PREFACE_PATH = DOCS_DIR / "Preface.md" if (DOCS_DIR / "Preface.md").exists() else PROJECT_ROOT / "Preface.md"
 INDEX_PATH = DOCS_DIR / "index.md" if (DOCS_DIR / "index.md").exists() else PROJECT_ROOT / "index.md"
 
-IGNORE_FILE_PATH = PROJECT_ROOT / "ignore.md"
+_TOOLS_IGNORE_PATH = TOOLS_EXPORT_DIR / "ignore.md"
+IGNORE_FILE_PATH = (
+    _TOOLS_IGNORE_PATH if _TOOLS_IGNORE_PATH.exists() else PROJECT_ROOT / "ignore.md"
+)
 LAST_UPDATED_JSON_PATH = DOCS_DIR / "assets" / "last-updated.json" if (DOCS_DIR / "assets" / "last-updated.json").exists() else PROJECT_ROOT / "assets" / "last-updated.json"
