@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: 安装 Python 依赖
-        run: pip install -r requirements-mkdocs.txt
+        run: pip install -r requirements.txt
       - name: 修复 Markdown 文件格式
         run: |
           python tools/fix_md.py
