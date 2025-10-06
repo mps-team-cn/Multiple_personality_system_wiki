@@ -1,9 +1,11 @@
 ---
 tags:
+
 - 角色与身份
 - 多重意识体
 - 解离
 - 创伤
+
 topic: 角色与身份
 title: 人格职能（System Roles）
 updated: 2025-10-03
@@ -17,24 +19,24 @@ updated: 2025-10-03
 
 ## 常见类别
 
-- **初始 / 宿主（Original / Host）**：最早承担外部生活责任、与外界互动的成员。详见《[宿主（Host）](Host.md)》与《[初始（Original）](Original.md)》。
-- **保护者（Protector）**：聚焦安全与风险管理，可包含外部防御与内部守护。详见《[保护者（Protector）](Protector.md)》。
-- **记忆持有者（Memory Holder）**：掌管特定记忆或事件，常与创伤加工相关。详见《[记忆持有者（Memory Holder）](Memory-Holder.md)》。
-- **迫害者（Persecutor）**：可能对系统或外界采取敌对策略的成员。详见《[迫害者（Persecutor）](Persecutor.md)》。
-- **照顾者（Caregiver）**：扮演照料、养育与情绪支持角色。详见《[照顾者（Caregiver）](Caregiver.md)》。
-- **执行者（Performer / Executive）**：专注执行任务、维持日常功能。详见《[执行者（Performer / Executive）](Performer-Executive.md)》。
-- **发展阶段成员**：依据年龄意象分工，如《[小孩意识体（Little / Child Part）](Little.md)》《[青少年意识体（Teen Part）](Teen.md)》等。
+-**初始 / 宿主（Original / Host）**：最早承担外部生活责任、与外界互动的成员。详见《[宿主（Host）](Host.md)》与《[初始（Original）](Original.md)》。
+-**保护者（Protector）**：聚焦安全与风险管理，可包含外部防御与内部守护。详见《[保护者（Protector）](Protector.md)》。
+-**记忆持有者（Memory Holder）**：掌管特定记忆或事件，常与创伤加工相关。详见《[记忆持有者（Memory Holder）](Memory-Holder.md)》。
+-**迫害者（Persecutor）**：可能对系统或外界采取敌对策略的成员。详见《[迫害者（Persecutor）](Persecutor.md)》。
+-**照顾者（Caregiver）**：扮演照料、养育与情绪支持角色。详见《[照顾者（Caregiver）](Caregiver.md)》。
+-**执行者（Performer / Executive）**：专注执行任务、维持日常功能。详见《[执行者（Performer / Executive）](Performer-Executive.md)》。
+-**发展阶段成员**：依据年龄意象分工，如《[小孩意识体（Little / Child Part）](Little.md)》《[青少年意识体（Teen Part）](Teen.md)》等。
 
 ## 社区用法与变体
 
-- **跨诊断应用**：在解离相关临床文本中，角色概念用于分析结构性解离与适应性策略；在 tulpamancy、系魂等社群中，亦被用来协商协作分工与权限。[^steele2017]
-- **非刚性框架**：社群通常强调角色是描述性而非处方性，成员可通过内部沟通或记录工具灵活调整责任，避免过度标签化。[^thepluralassociation2021]
-- **与治疗协作**：临床专业人员会根据角色信息规划治疗步骤，例如在处理创伤记忆前先确保保护者与迫害者获得支持。[^brown2019]
+-**跨诊断应用**：在解离相关临床文本中，角色概念用于分析结构性解离与适应性策略；在 tulpamancy、系魂等社群中，亦被用来协商协作分工与权限。[^steele2017]
+-**非刚性框架**：社群通常强调角色是描述性而非处方性，成员可通过内部沟通或记录工具灵活调整责任，避免过度标签化。[^thepluralassociation2021]
+-**与治疗协作**：临床专业人员会根据角色信息规划治疗步骤，例如在处理创伤记忆前先确保保护者与迫害者获得支持。[^brown2019]
 
 ## 与其他框架的关系
 
-- **结构性解离模型**：角色可与“表面正常部分”（ANP）与“情绪部分”（EP）的概念交叉，但后者聚焦于解离结构而非具体职能。[^steele2017]
-- **人格面具（Persona）或社会角色**：人格职能强调内部系统协作，区别于面对外界时的社会面向。必要时，可与《[人格面具（Persona）](Persona.md)》对照。
+-**结构性解离模型**：角色可与“表面正常部分”（ANP）与“情绪部分”（EP）的概念交叉，但后者聚焦于解离结构而非具体职能。[^steele2017]
+-**人格面具（Persona）或社会角色**：人格职能强调内部系统协作，区别于面对外界时的社会面向。必要时，可与《[人格面具（Persona）](Persona.md)》对照。
 
 ## 研究与参考
 

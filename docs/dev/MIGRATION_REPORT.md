@@ -14,15 +14,15 @@
 
 ### 文件变更
 
-- **新增文件**: 156+ 个
-- **修改文件**: 5 个
-- **删除文件**: 0 个 (旧文件保留作为备份)
+-**新增文件**: 156+ 个
+-**修改文件**: 5 个
+-**删除文件**: 0 个 (旧文件保留作为备份)
 
 ### 内容迁移
 
-- **词条数量**: 142 个 Markdown 文件
-- **文档文件**: 7 个 (README, CONTRIBUTING, tags, Glossary, changelog, etc.)
-- **资源文件**: SVG 图标, JSON 数据文件
+-**词条数量**: 142 个 Markdown 文件
+-**文档文件**: 7 个 (README, CONTRIBUTING, tags, Glossary, changelog, etc.)
+-**资源文件**: SVG 图标, JSON 数据文件
 
 ---
 
@@ -82,6 +82,7 @@ theme:
   name: material
   language: zh
   features:
+
     - navigation.instant
     - navigation.tracking
     - toc.follow
@@ -89,11 +90,13 @@ theme:
     - content.code.copy
 
 plugins:
+
   - search
   - git-revision-date-localized
   - minify
   - glightbox
   - tags
+
 ```
 
 #### requirements-mkdocs.txt (新增)
@@ -117,10 +120,10 @@ pymdown-extensions>=10.7
 
 #### 新版 (MkDocs Material)
 
-- **Grid Cards**: 使用 Material 原生卡片网格
-- **Admonitions**: 使用告示框组件显示警告和提示
-- **Tabs**: 使用标签页组织核心概念
-- **响应式设计**: 自适应移动端和桌面端
+-**Grid Cards**: 使用 Material 原生卡片网格
+-**Admonitions**: 使用告示框组件显示警告和提示
+-**Tabs**: 使用标签页组织核心概念
+-**响应式设计**: 自适应移动端和桌面端
 
 **新特性**:
 
@@ -142,9 +145,9 @@ pymdown-extensions>=10.7
 
 #### 主题颜色
 
-- **主色**: `#4FC08D` (青翠绿)
-- **强调色**: `#8B9EFF` (冷紫)
-- **支持深色/浅色模式切换**
+-**主色**: `#4FC08D` (青翠绿)
+-**强调色**: `#8B9EFF` (冷紫)
+-**支持深色/浅色模式切换**
 
 ### 5. JavaScript 增强
 
@@ -161,21 +164,21 @@ pymdown-extensions>=10.7
 
 | 功能             | Docsify  | MkDocs Material | 说明                   |
 | ---------------- | -------- | --------------- | ---------------------- |
-| **搜索**         | ✅       | ✅ 增强         | 支持中文分词、搜索建议 |
-| **即时加载**     | ✅       | ✅              | 页面切换无刷新         |
-| **深色模式**     | ✅       | ✅ 增强         | 系统级切换支持         |
-| **移动端适配**   | ✅       | ✅ 更好         | 原生响应式设计         |
-| **目录跟随**     | ❌       | ✅              | 滚动时目录自动高亮     |
-| **代码高亮**     | ✅       | ✅ 更好         | 支持更多语言           |
-| **代码复制**     | ✅       | ✅              | 一键复制               |
-| **图片缩放**     | ✅       | ✅              | Lightbox 效果          |
-| **最后更新时间** | ✅       | ✅ 自动         | Git 自动获取           |
-| **标签系统**     | 手动     | ✅ 自动         | 插件自动生成           |
-| **导航面包屑**   | ❌       | ✅              | 显示当前位置           |
-| **版本控制**     | ❌       | ✅              | 支持 mike 多版本       |
-| **SEO 优化**     | 一般     | ✅ 更好         | 自动生成 sitemap       |
-| **构建速度**     | 无需构建 | 快速            | 优化的构建流程         |
-| **自定义主题**   | 较难     | ✅ 容易         | CSS 变量系统           |
+|**搜索**| ✅       | ✅ 增强         | 支持中文分词、搜索建议 |
+|**即时加载**| ✅       | ✅              | 页面切换无刷新         |
+|**深色模式**| ✅       | ✅ 增强         | 系统级切换支持         |
+|**移动端适配**| ✅       | ✅ 更好         | 原生响应式设计         |
+|**目录跟随**| ❌       | ✅              | 滚动时目录自动高亮     |
+|**代码高亮**| ✅       | ✅ 更好         | 支持更多语言           |
+|**代码复制**| ✅       | ✅              | 一键复制               |
+|**图片缩放**| ✅       | ✅              | Lightbox 效果          |
+|**最后更新时间**| ✅       | ✅ 自动         | Git 自动获取           |
+|**标签系统**| 手动     | ✅ 自动         | 插件自动生成           |
+|**导航面包屑**| ❌       | ✅              | 显示当前位置           |
+|**版本控制**| ❌       | ✅              | 支持 mike 多版本       |
+|**SEO 优化**| 一般     | ✅ 更好         | 自动生成 sitemap       |
+|**构建速度**| 无需构建 | 快速            | 优化的构建流程         |
+|**自定义主题**| 较难     | ✅ 容易         | CSS 变量系统           |
 
 ---
 
@@ -313,9 +316,9 @@ git checkout main  # 或其他稳定分支
 
 ### 链接路径
 
-- ✅ **相对路径**: 词条内部链接使用相对路径 (如 `entries/DID.md`)
-- ✅ **锚点链接**: 支持页内锚点 (`#section-name`)
-- ⚠️ **注意**: MkDocs 会自动处理 `.md` 扩展名
+- ✅**相对路径**: 词条内部链接使用相对路径 (如 `entries/DID.md`)
+- ✅**锚点链接**: 支持页内锚点 (`#section-name`)
+- ⚠️**注意**: MkDocs 会自动处理 `.md` 扩展名
 
 ### Frontmatter
 
@@ -340,15 +343,15 @@ git checkout main  # 或其他稳定分支
 
 ### MkDocs Material 官方文档
 
-- **主页**: [https://squidfunk.github.io/mkdocs-material/](https://squidfunk.github.io/mkdocs-material/)
-- **快速开始**: [https://squidfunk.github.io/mkdocs-material/getting-started/](https://squidfunk.github.io/mkdocs-material/getting-started/)
-- **参考**: [https://squidfunk.github.io/mkdocs-material/reference/](https://squidfunk.github.io/mkdocs-material/reference/)
+-**主页**: [https://squidfunk.github.io/mkdocs-material/](https://squidfunk.github.io/mkdocs-material/)
+-**快速开始**: [https://squidfunk.github.io/mkdocs-material/getting-started/](https://squidfunk.github.io/mkdocs-material/getting-started/)
+-**参考**: [https://squidfunk.github.io/mkdocs-material/reference/](https://squidfunk.github.io/mkdocs-material/reference/)
 
 ### 相关插件
 
-- **搜索**: [https://squidfunk.github.io/mkdocs-material/plugins/search/](https://squidfunk.github.io/mkdocs-material/plugins/search/)
-- **标签**: [https://squidfunk.github.io/mkdocs-material/plugins/tags/](https://squidfunk.github.io/mkdocs-material/plugins/tags/)
-- **Git 修订日期**: [https://github.com/timvink/mkdocs-git-revision-date-localized-plugin](https://github.com/timvink/mkdocs-git-revision-date-localized-plugin)
+-**搜索**: [https://squidfunk.github.io/mkdocs-material/plugins/search/](https://squidfunk.github.io/mkdocs-material/plugins/search/)
+-**标签**: [https://squidfunk.github.io/mkdocs-material/plugins/tags/](https://squidfunk.github.io/mkdocs-material/plugins/tags/)
+-**Git 修订日期**: [https://github.com/timvink/mkdocs-git-revision-date-localized-plugin](https://github.com/timvink/mkdocs-git-revision-date-localized-plugin)
 
 ---
 
@@ -356,31 +359,31 @@ git checkout main  # 或其他稳定分支
 
 ### 内容优化
 
-1. **标签规范化**: 统一所有词条的标签命名
-2. **交叉引用**: 增加词条之间的相关链接
-3. **图片优化**: 压缩大图片,使用 WebP 格式
-4. **多语言支持**: 考虑添加英文版本
+1.**标签规范化**: 统一所有词条的标签命名
+2.**交叉引用**: 增加词条之间的相关链接
+3.**图片优化**: 压缩大图片,使用 WebP 格式
+4.**多语言支持**: 考虑添加英文版本
 
 ### 功能增强
 
-1. **评论系统**: 集成 Giscus 或类似服务
-2. **版本管理**: 使用 mike 管理多个版本
-3. **RSS 订阅**: 添加变更日志 RSS
-4. **PWA 支持**: 添加离线访问功能
+1.**评论系统**: 集成 Giscus 或类似服务
+2.**版本管理**: 使用 mike 管理多个版本
+3.**RSS 订阅**: 添加变更日志 RSS
+4.**PWA 支持**: 添加离线访问功能
 
 ### 性能优化
 
-1. **CDN 加速**: 使用 Cloudflare CDN
-2. **资源压缩**: 启用 Brotli 压缩
-3. **图片懒加载**: 已通过 glightbox 插件实现
-4. **构建缓存**: 优化 CI/CD 流程
+1.**CDN 加速**: 使用 Cloudflare CDN
+2.**资源压缩**: 启用 Brotli 压缩
+3.**图片懒加载**: 已通过 glightbox 插件实现
+4.**构建缓存**: 优化 CI/CD 流程
 
 ### 监控和分析
 
-1. **访问统计**: 集成 Google Analytics
-2. **错误追踪**: 集成 Sentry
-3. **用户反馈**: 添加反馈表单
-4. **性能监控**: 使用 Lighthouse CI
+1.**访问统计**: 集成 Google Analytics
+2.**错误追踪**: 集成 Sentry
+3.**用户反馈**: 添加反馈表单
+4.**性能监控**: 使用 Lighthouse CI
 
 ---
 
@@ -388,10 +391,10 @@ git checkout main  # 或其他稳定分支
 
 感谢以下工具和项目:
 
-- **MkDocs**: [https://www.mkdocs.org/](https://www.mkdocs.org/)
-- **Material for MkDocs**: [https://squidfunk.github.io/mkdocs-material/](https://squidfunk.github.io/mkdocs-material/)
-- **Cloudflare Pages**: [https://pages.cloudflare.com/](https://pages.cloudflare.com/)
-- **原 Docsify 版本**: 为迁移提供了基础
+-**MkDocs**: [https://www.mkdocs.org/](https://www.mkdocs.org/)
+-**Material for MkDocs**: [https://squidfunk.github.io/mkdocs-material/](https://squidfunk.github.io/mkdocs-material/)
+-**Cloudflare Pages**: [https://pages.cloudflare.com/](https://pages.cloudflare.com/)
+-**原 Docsify 版本**: 为迁移提供了基础
 
 ---
 
@@ -399,8 +402,8 @@ git checkout main  # 或其他稳定分支
 
 如有问题或建议,请通过以下方式联系:
 
-- **GitHub Issues**: [https://github.com/kuliantnt/plurality_wiki/issues](https://github.com/kuliantnt/plurality_wiki/issues)
-- **邮件**: (如有)
+-**GitHub Issues**: [https://github.com/kuliantnt/plurality_wiki/issues](https://github.com/kuliantnt/plurality_wiki/issues)
+-**邮件**: (如有)
 
 ---
 

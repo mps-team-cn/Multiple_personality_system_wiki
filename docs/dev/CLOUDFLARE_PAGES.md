@@ -7,8 +7,8 @@
 ### 1. 在 Cloudflare Pages 创建项目
 
 1. 登录 [Cloudflare Dashboard](https://dash.cloudflare.com/)
-2. 进入 **Pages** 部分
-3. 点击 **Create a project**
+2. 进入**Pages**部分
+3. 点击**Create a project**
 4. 连接你的 GitHub 仓库 `kuliantnt/plurality_wiki`
 
 ### 2. 构建配置
@@ -17,12 +17,12 @@
 
 #### 框架预设
 
-- **Framework preset**: `None` (不使用预设)
+-**Framework preset**: `None` (不使用预设)
 
 #### 构建配置
 
-- **Build command**: `bash .cfpages-build.sh`
-- **Build output directory**: `site`
+-**Build command**: `bash .cfpages-build.sh`
+-**Build output directory**: `site`
 
 #### 环境变量
 
@@ -36,19 +36,19 @@ PYTHON_VERSION=3.11
 
 #### 构建超时
 
-- 推荐设置为 **15 分钟** (如果构建较慢)
+- 推荐设置为**15 分钟**(如果构建较慢)
 
 #### 部署分支
 
-- **Production branch**: `main`
-- **Preview branches**: `dev`, `refactor/*`
+-**Production branch**: `main`
+-**Preview branches**: `dev`, `refactor/*`
 
 ### 4. 自定义域名 (可选)
 
 如果要使用自定义域名 `wiki.pluralitycn.com`:
 
-1. 在 Cloudflare Pages 项目中，进入 **Custom domains**
-2. 点击 **Set up a custom domain**
+1. 在 Cloudflare Pages 项目中，进入**Custom domains**
+2. 点击**Set up a custom domain**
 3. 输入 `wiki.pluralitycn.com`
 4. 按照提示配置 DNS 记录
 
@@ -91,7 +91,7 @@ mkdocs build --strict
 
 ### Q: 如何查看构建日志?
 
-**A**: 在 Cloudflare Pages 项目中，进入 **Deployments**，点击具体的部署查看详细日志。
+**A**: 在 Cloudflare Pages 项目中，进入**Deployments**，点击具体的部署查看详细日志。
 
 ## 迁移注意事项
 

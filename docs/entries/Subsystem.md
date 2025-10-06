@@ -1,16 +1,20 @@
 ---
 tags:
+
 - 系统运作
 - 多重意识体
 - 解离
 - 创伤
+
 topic: 系统运作
 title: 子系统（Subsystem）
 updated: 2025-10-05
 synonyms:
+
 - 子系统
 - Subsystem
 - 次级系统
+
 ---
 
 # 子系统（Subsystem）
