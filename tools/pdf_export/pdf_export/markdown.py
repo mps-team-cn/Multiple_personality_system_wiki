@@ -298,8 +298,8 @@ def build_directory_page(
             )
             entry_title = escape_latex(document.title)
             lines.append(
-                rf"\noindent\hspace{{1em}}\textbullet\;"
-                rf"\hyperlink{{{anchor}}}{{{entry_title}}}"
+                rf"\noindent\hspace{{1em}}\textbullet\hspace{{0.6em}}"
+                rf"\hyperref[{anchor}]{{{entry_title}}}"
                 rf"\nobreak\dotfill\pageref{{{anchor}}}\par"
             )
 
