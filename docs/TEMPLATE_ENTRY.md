@@ -24,12 +24,16 @@
 ---
 title: 条目中文名（English/缩写）
 tags:
+
   - a
   - b
+
 topic: 临床与诊断
 synonyms:
+
   - 同义词示例
   - alias
+
 updated: YYYY-MM-DD
 ---
 
@@ -94,11 +98,7 @@ updated: YYYY-MM-DD
 
 **路径规范**：使用相对于源文件的路径（MkDocs 会自动处理）
 
-```
 ![解离机制示意图](../assets/figures/mechanism.svg)
-
-*图：结构性解离理论模型（来源：xxxx）*
-```text
 
 ---
 
@@ -166,4 +166,5 @@ updated: YYYY-MM-DD
 3. 专业学会或临床指南（如 ISSTD 指南）。
 4. 学术综述或代表性研究。
 5. Pluralpedia 或社群资料（如有补充价值）。
+
 ```

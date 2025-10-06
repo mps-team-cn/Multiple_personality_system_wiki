@@ -17,7 +17,7 @@ updated: 2024-05-05
 
 我们为你准备了**三条系统化的学习路径**,根据你的需求选择最适合的入口:
 
-### 📚 **核心概念导览（[Core-Concepts-Guide](entries/Core-Concepts-Guide.md)）** — 我是完全的新手
+### 📚**核心概念导览（[Core-Concepts-Guide](entries/Core-Concepts-Guide.md)）**— 我是完全的新手
 
 **适合你,如果:**
 
@@ -32,11 +32,11 @@ updated: 2024-05-05
 - [埃蒙加德分类法](entries/Emmengard-Classification.md):按成因理解系统类型
 - 常见误区澄清与新手建议
 
-👉 **推荐阅读顺序**：[核心概念导览](entries/Core-Concepts-Guide.md) → [术语表](Glossary.md) → 具体词条
+👉**推荐阅读顺序**：[核心概念导览](entries/Core-Concepts-Guide.md) → [术语表](Glossary.md) → 具体词条
 
 ---
 
-### 💚 **心理健康导览（[Mental-Health-Guide](entries/Mental-Health-Guide.md)）** — 我关注创伤与疗愈
+### 💚**心理健康导览（[Mental-Health-Guide](entries/Mental-Health-Guide.md)）**— 我关注创伤与疗愈
 
 **适合你,如果:**
 
@@ -52,11 +52,11 @@ updated: 2024-05-05
 - 循证治疗方法（EMDR、TF-CBT、DBT 等）
 - [接地](entries/Grounding.md)技巧与实用自我照护策略
 
-👉 **推荐阅读顺序**：[心理健康导览](entries/Mental-Health-Guide.md) → [创伤](entries/Trauma.md)相关词条 → 治疗方法词条
+👉**推荐阅读顺序**：[心理健康导览](entries/Mental-Health-Guide.md) → [创伤](entries/Trauma.md)相关词条 → 治疗方法词条
 
 ---
 
-### ⚙️ **系统运作导览（[System-Operations](System-Operations.md)）** — 我想优化系统协作
+### ⚙️**系统运作导览（[System-Operations](System-Operations.md)）**— 我想优化系统协作
 
 **适合你,如果:**
 
@@ -72,7 +72,7 @@ updated: 2024-05-05
 - 角色与治理:[宿主](entries/Host.md)、[守门人](entries/Gatekeeper.md)、[保护者](entries/Protector.md)等职能分工
 - 实务支持:[接地](entries/Grounding.md)、照护与危机应对
 
-👉 **推荐阅读顺序**：[系统运作导览](System-Operations.md) → 具体机制词条 → 工具与技巧
+👉**推荐阅读顺序**：[系统运作导览](System-Operations.md) → 具体机制词条 → 工具与技巧
 
 ---
 
@@ -80,18 +80,18 @@ updated: 2024-05-05
 
 | 工具                                     | 用途                   | 适合场景         |
 | ---------------------------------------- | ---------------------- | ---------------- |
-| **术语表**（[Glossary](Glossary.md)）    | 快速查询专业术语定义   | 遇到陌生术语时   |
-| **标签索引**（[tags](tags.md)）          | 按主题分类浏览全部词条 | 想深入某个主题   |
-| **首页搜索**                             | 关键词搜索             | 找特定概念或词条 |
+|**术语表**（[Glossary](Glossary.md)）    | 快速查询专业术语定义   | 遇到陌生术语时   |
+|**标签索引**（[tags](tags.md)）          | 按主题分类浏览全部词条 | 想深入某个主题   |
+|**首页搜索**| 关键词搜索             | 找特定概念或词条 |
 
 ---
 
 ## 💡 阅读技巧
 
-- **📝 边读边记录**: 建立"概念图",记录词条间的引用关系
-- **🔖 善用标签页**: 遇到陌生概念先在新标签打开,保持主线阅读不中断
-- **🔄 交叉阅读**: 通过"相关条目"章节进行多角度理解
-- **⏸️ 分段学习**: 不必一次读完,根据自己的节奏分段消化
+-**📝 边读边记录**: 建立"概念图",记录词条间的引用关系
+-**🔖 善用标签页**: 遇到陌生概念先在新标签打开,保持主线阅读不中断
+-**🔄 交叉阅读**: 通过"相关条目"章节进行多角度理解
+-**⏸️ 分段学习**: 不必一次读完,根据自己的节奏分段消化
 
 ---
 
@@ -99,10 +99,10 @@ updated: 2024-05-05
 
 Plurality Wiki 是社区共建的知识库,欢迎你的参与:
 
-- **📚 分享经验**: 提供系统经验、实践技巧或资源推荐
-- **✏️ 补充内容**: 通过 Pull Request 添加新词条或完善现有内容
-- **🐛 报告问题**: 在 GitHub Issues 中反馈错误或提出改进建议
-- **🌐 翻译校对**: 帮助改进术语翻译和文本表述
+-**📚 分享经验**: 提供系统经验、实践技巧或资源推荐
+-**✏️ 补充内容**: 通过 Pull Request 添加新词条或完善现有内容
+-**🐛 报告问题**: 在 GitHub Issues 中反馈错误或提出改进建议
+-**🌐 翻译校对**: 帮助改进术语翻译和文本表述
 
 详细流程请参阅**贡献指南**（[CONTRIBUTING](CONTRIBUTING.md)）
 
@@ -113,7 +113,7 @@ Plurality Wiki 是社区共建的知识库,欢迎你的参与:
 ??? question "我不确定自己是什么类型的系统?"
   建议先阅读 [核心概念导览](entries/Core-Concepts-Guide.md),了解不同类型的基本区别。
 
-  但请记住: **分类不是目的,理解自己才是关键**。如果难以归类,也完全正常。
+  但请记住:**分类不是目的,理解自己才是关键**。如果难以归类,也完全正常。
 
 ??? question "我需要诊断吗?"
 这取决于你的需求:

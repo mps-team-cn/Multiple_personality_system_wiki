@@ -1,16 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-fix_md.py v2
+fix_md.py v3
 
 批量修复 Markdown 常见 Lint 问题：
 - MD012: 连续空行压缩为 1
 - MD022: 标题上下各留 1 个空行（文件开头除外；末尾只保证下方不是紧贴内容）
+- MD031: 代码块前后各留 1 个空行
+- MD032: 列表前后各留 1 个空行
+- MD037: 修复强调标记内的空格（** ** → ****）
 - MD040: 无语言的代码围栏补为 ```text
 - MD009: 去掉行尾空白（含全角空格、NBSP 等 Unicode 空白）
 - MD034: 裸链接 -> [url](url)（非代码块）
 - MD047: 文件以单个换行结束
-- MD028: 引用块中的“裸空行” -> 用 `> ` 占位
+- MD028: 引用块中的"裸空行" -> 用 `> ` 占位
 
 仍需人工处理：MD024（重复标题）、MD052（参考式链接缺定义）、MD042/MD051（README 徽章与锚点）。
 """
@@ -28,6 +31,11 @@ HEADING_RE = re.compile(r'^(#{1,6})\s+\S')
 FENCE_ANY_RE = re.compile(r'^```')
 FENCE_START_RE = re.compile(r'^```(\s*)$')
 FENCE_LANG_RE  = re.compile(r'^```[A-Za-z0-9_\-+.]')
+# 列表项（无序和有序）
+LIST_ITEM_RE = re.compile(r'^(\s*)([-*+]|\d+\.)\s+')
+# 强调标记内的空格（开始后和结束前）
+EMPHASIS_START_SPACE_RE = re.compile(r'(\*\*|__)\s+')  # **空格
+EMPHASIS_END_SPACE_RE = re.compile(r'\s+(\*\*|__)')     # 空格**
 # 裸链接
 BARE_URL_RE = re.compile(r'(?<!\])(?<!\))(?P<url>https?://[^\s<>\)\]]+)', re.IGNORECASE)
 # 行尾 Unicode 空白（含全角空格/窄不换行空格等）
@@ -120,6 +128,76 @@ def convert_bare_urls(lines: list[str]) -> list[str]:
         out.append(BARE_URL_RE.sub(lambda m: f'[{m.group("url")}]({m.group("url")})', ln))
     return out
 
+def ensure_blank_around_fences(lines: list[str]) -> list[str]:
+    """MD031: 代码块前后各留 1 个空行"""
+    out = []
+    in_fence = False
+
+    for i, ln in enumerate(lines):
+        is_fence = FENCE_ANY_RE.match(ln) is not None
+
+        if is_fence:
+            # 围栏开始：前面需要空行
+            if not in_fence and i > 0 and out and out[-1].strip() != "":
+                out.append("")
+            out.append(ln)
+            # 切换围栏状态
+            in_fence = not in_fence
+            # 围栏结束：后面需要空行
+            if not in_fence and i + 1 < len(lines) and lines[i + 1].strip() != "":
+                out.append("")
+        else:
+            out.append(ln)
+
+    return out
+
+def ensure_blank_around_lists(lines: list[str]) -> list[str]:
+    """MD032: 列表前后各留 1 个空行"""
+    out = []
+    in_list = False
+
+    for i, ln in enumerate(lines):
+        is_list_item = LIST_ITEM_RE.match(ln) is not None
+        is_blank = ln.strip() == ""
+
+        # 列表开始：前面加空行
+        if is_list_item and not in_list:
+            if i > 0 and out and out[-1].strip() != "":
+                out.append("")
+            in_list = True
+
+        # 列表结束：后面加空行
+        if in_list and not is_list_item and not is_blank:
+            if out and out[-1].strip() != "":
+                out.append("")
+            in_list = False
+
+        out.append(ln)
+
+    return out
+
+def fix_emphasis_spaces(lines: list[str]) -> list[str]:
+    """MD037: 修复强调标记内的空格"""
+    out, in_fence = [], False
+    for ln in lines:
+        # 跳过代码块
+        if FENCE_ANY_RE.match(ln):
+            in_fence = not in_fence
+            out.append(ln)
+            continue
+        if in_fence:
+            out.append(ln)
+            continue
+
+        # 修复强调标记内的空格
+        # **空格text → **text
+        ln = EMPHASIS_START_SPACE_RE.sub(r'\1', ln)
+        # text空格** → text**
+        ln = EMPHASIS_END_SPACE_RE.sub(r'\1', ln)
+        out.append(ln)
+
+    return out
+
 def ensure_single_trailing_newline(text: str) -> str:
     return text.rstrip("\n") + "\n"
 
@@ -128,8 +206,11 @@ def process_file(p: Path, dry_run=False) -> bool:
     lines = original.splitlines()
 
     lines = strip_trailing_spaces(lines)       # MD009（含全角空格）
+    lines = fix_emphasis_spaces(lines)         # MD037（强调标记空格）
     lines = compress_blank_lines(lines)        # MD012
     lines = ensure_blank_around_headings(lines)# MD022（前后）
+    lines = ensure_blank_around_fences(lines)  # MD031（代码块前后空行）
+    lines = ensure_blank_around_lists(lines)   # MD032（列表前后空行）
     lines = fix_fenced_code_language(lines)    # MD040
     lines = fix_blockquote_blank(lines)        # MD028
     lines = convert_bare_urls(lines)           # MD034

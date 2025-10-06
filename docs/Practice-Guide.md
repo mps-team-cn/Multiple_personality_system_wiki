@@ -1,8 +1,10 @@
 ---
 tags:
+
   - 实践指南
   - Tulpa
   - 多重意识体
+
 topic: 实践指南
 title: 实践指南导览
 updated: 2025-10-06
@@ -10,23 +12,25 @@ updated: 2025-10-06
 
 # 实践指南导览（Practice Guide）
 
-> **导读**：本导览汇整了多意识体领域的操作性训练方法、实践技巧与自助策略。无论你是 Tulpa 创造者、多意识体系统成员，还是希望改善系统协作的探索者，这里提供了可落地的实践路径。
+>**导读**：本导览汇整了多意识体领域的操作性训练方法、实践技巧与自助策略。无论你是 Tulpa 创造者、多意识体系统成员，还是希望改善系统协作的探索者，这里提供了可落地的实践路径。
 
 ---
 
 ## 重要提醒
 
 !!! warning "实践前须知"
-    - **尊重边界**：任何实践都应在安全、自愿的前提下进行
-    - **量力而行**：遇到不适或困惑时，及时暂停并寻求支持
-    - **非医疗替代**：实践指南不能替代专业心理治疗
-    - **个体差异**：每个系统独一无二，方法需根据自身情况调整
+
+    -**尊重边界**：任何实践都应在安全、自愿的前提下进行
+    -**量力而行**：遇到不适或困惑时，及时暂停并寻求支持
+    -**非医疗替代**：实践指南不能替代专业心理治疗
+    -**个体差异**：每个系统独一无二，方法需根据自身情况调整
 
 !!! info "适用对象"
-    - **Tulpa 创造者**：希望通过系统化训练培育意识伙伴
-    - **多意识体系统**：寻求改善内部协作与沟通的方法
-    - **支持者**：理解并陪伴多意识体伙伴的家人朋友
-    - **探索者**：对意识训练与自我探索感兴趣的实践者
+
+    -**Tulpa 创造者**：希望通过系统化训练培育意识伙伴
+    -**多意识体系统**：寻求改善内部协作与沟通的方法
+    -**支持者**：理解并陪伴多意识体伙伴的家人朋友
+    -**探索者**：对意识训练与自我探索感兴趣的实践者
 
 ---
 
@@ -101,26 +105,26 @@ updated: 2025-10-06
 
 ### 新手路径：Tulpa 创造
 
-1. **理解基础** → [Tulpa 概念](entries/Tulpa.md)
-2. **准备工作** → [基础篇](entries/Tulpa-Guide-1.md)
-3. **开始实践** → [实践篇](entries/Tulpa-Guide-2.md)
-4. **进阶训练** → [提高篇](entries/Tulpa-Guide-3.md)
-5. **持续培育** → [冥想](entries/Meditation.md) + [可视化](entries/Visualization-Imagination.md)
+1.**理解基础**→ [Tulpa 概念](entries/Tulpa.md)
+2.**准备工作**→ [基础篇](entries/Tulpa-Guide-1.md)
+3.**开始实践**→ [实践篇](entries/Tulpa-Guide-2.md)
+4.**进阶训练**→ [提高篇](entries/Tulpa-Guide-3.md)
+5.**持续培育**→ [冥想](entries/Meditation.md) + [可视化](entries/Visualization-Imagination.md)
 
 ### 系统协作改善
 
-1. **评估现状** → [系统角色](entries/System-Roles.md)
-2. **建立沟通** → [内部沟通](entries/Internal-Communication.md)
-3. **设定边界** → [权限](entries/Permissions.md)
-4. **优化切换** → [前台](entries/Front-Fronting.md) + [切换](entries/Switch.md)
-5. **记忆管理** → [外部记忆](entries/Exomemory.md)
+1.**评估现状**→ [系统角色](entries/System-Roles.md)
+2.**建立沟通**→ [内部沟通](entries/Internal-Communication.md)
+3.**设定边界**→ [权限](entries/Permissions.md)
+4.**优化切换**→ [前台](entries/Front-Fronting.md) + [切换](entries/Switch.md)
+5.**记忆管理**→ [外部记忆](entries/Exomemory.md)
 
 ### 稳定与接地
 
-1. **学习接地** → [接地技巧](entries/Grounding.md)
-2. **感官调节** → [感官策略](entries/Sensory-Regulation-Strategies.md)
-3. **情绪管理** → [情绪调节](entries/Emotion-Regulation.md)
-4. **创建空间** → [内部空间](entries/Headspace-Inner-World.md)
+1.**学习接地**→ [接地技巧](entries/Grounding.md)
+2.**感官调节**→ [感官策略](entries/Sensory-Regulation-Strategies.md)
+3.**情绪管理**→ [情绪调节](entries/Emotion-Regulation.md)
+4.**创建空间**→ [内部空间](entries/Headspace-Inner-World.md)
 
 ---
 
@@ -159,9 +163,9 @@ updated: 2025-10-06
 
 ## 💬 社群交流
 
-- **贡献经验**：通过 [贡献指南](CONTRIBUTING.md) 分享你的实践心得
-- **反馈改进**：发现内容错误或有改进建议，欢迎提出
-- **尊重隐私**：分享经验时请注意保护个人信息与系统边界
+-**贡献经验**：通过 [贡献指南](CONTRIBUTING.md) 分享你的实践心得
+-**反馈改进**：发现内容错误或有改进建议，欢迎提出
+-**尊重隐私**：分享经验时请注意保护个人信息与系统边界
 
 ---
 

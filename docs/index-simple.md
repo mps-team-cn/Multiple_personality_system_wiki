@@ -20,25 +20,30 @@
 
 ## 核心概念
 
-- **[多元性（Plurality）](entries/Plurality.md)** - 多重意识体存在的总称，包含多种形式和成因
-- **[系统（System）](entries/System.md)** - 共享一个身体的多个意识体的集合
-- **[成员（Alter）](entries/Alter.md)** - 系统中的单个意识体或人格
-- **[分离性身份障碍（DID）](entries/DID.md)** - 一种以身份分裂为特征的心理疾病
-- **[其他特定分离障碍（OSDD）](entries/OSDD.md)** - 不完全符合 DID 诊断标准的分离障碍
-- **[塔尔帕（Tulpa）](entries/Tulpa.md)** - 通过主动创造而形成的意识体
+-**[多元性（Plurality）](entries/Plurality.md)**- 多重意识体存在的总称，包含多种形式和成因
+-**[系统（System）](entries/System.md)**- 共享一个身体的多个意识体的集合
+-**[成员（Alter）](entries/Alter.md)**- 系统中的单个意识体或人格
+-**[分离性身份障碍（DID）](entries/DID.md)**- 一种以身份分裂为特征的心理疾病
+-**[其他特定分离障碍（OSDD）](entries/OSDD.md)**- 不完全符合 DID 诊断标准的分离障碍
+-**[塔尔帕（Tulpa）](entries/Tulpa.md)**- 通过主动创造而形成的意识体
 
 ## 系统运作
 
-- **[系统运作导览](System-Operations.md)** - 总览前台、记忆协作与角色治理，作为专题索引入口。
-- **前台与切换流程**
+-**[系统运作导览](System-Operations.md)**- 总览前台、记忆协作与角色治理，作为专题索引入口。
+-**前台与切换流程**
+
   - [前台（Fronting）](entries/Front-Fronting.md) - 说明谁在掌控身体以及常见感受。
   - [切换（Switch）](entries/Switch.md) - 描述前台更替的触发情境与应对技巧。
   - [共同前台（Co-Fronting）](entries/Co-Fronting.md) - 展示多名成员协同执行任务的方式。
-- **意识共享与记忆管理**
+
+-**意识共享与记忆管理**
+
   - [共同意识（Co-Consciousness）](entries/Co-Consciousness.md) - 探讨同时保持觉察的好处与挑战。
   - [记忆持有人（Memory Holder）](entries/Memory-Holder.md) - 说明专责保存记忆的角色运作模式。
   - [记忆屏障（Memory Shielding）](entries/Memory-Shielding.md) - 分析记忆隔离的安全意义与代价。
-- **内部空间与治理结构**
+
+-**内部空间与治理结构**
+
   - [内心世界（Headspace）](entries/Headspace-Inner-World.md) - 描述内部世界的构成与调整方法。
   - [内部交流](entries/Internal-Communication.md) - 汇整建立沟通渠道的实践经验。
   - [系统角色](entries/System-Roles.md) / [管理者](entries/Admin.md) / [守门人](entries/Gatekeeper.md) / [保护者](entries/Protector.md) - 对照常见角色的职责与协作重点。
@@ -46,28 +51,28 @@
 
 ## 心理健康
 
-- **[分离（Dissociation）](entries/Dissociation.md)** - 意识、记忆、身份或感知的分离
-- **[创伤后应激障碍（PTSD）](entries/PTSD.md)** - 经历创伤后的应激反应障碍
-- **[复杂性创伤后应激障碍（CPTSD）](entries/CPTSD.md)** - 长期或反复创伤导致的复杂症状
-- **[立足当下（Grounding）](entries/Grounding.md)** - 帮助回到当下现实的技巧
+-**[分离（Dissociation）](entries/Dissociation.md)**- 意识、记忆、身份或感知的分离
+-**[创伤后应激障碍（PTSD）](entries/PTSD.md)**- 经历创伤后的应激反应障碍
+-**[复杂性创伤后应激障碍（CPTSD）](entries/CPTSD.md)**- 长期或反复创伤导致的复杂症状
+-**[立足当下（Grounding）](entries/Grounding.md)**- 帮助回到当下现实的技巧
 
 ---
 
 ## 社区语录
 
-> **脸脸系统**
+>**脸脸系统**
 >
 > "我愿意做新时代的普罗米修斯。知识不能只掌握在少数人手中，否则与中世纪高坐宝座的罗马教廷又有何异？"
 >
-> **弦羽系统**
+>**弦羽系统**
 >
 > "有些知识，在文明尚未准备好承担其重量之前，知晓本身就是一场灾难。我们的使命或许并非充当引信的点火者，而是守护这些知识的沉默守望者。"
 >
-> **暮雨系统**
+>**暮雨系统**
 >
 > "我们所做的，不是为了名利，而是为了帮助所有能够在这里得到启示的人，是为了继承先辈们的知识与精神。"
 >
-> **Peter Griffin**
+>**Peter Griffin**
 >
 > "希望所有多意识体都可以得到应有的尊重和理解。"
 
@@ -106,6 +111,6 @@
 
 ---
 
-**开源协作** - 本项目在 [GitHub](https://github.com/kuliantnt/plurality_wiki) 上开源，欢迎参与
+**开源协作**- 本项目在 [GitHub](https://github.com/kuliantnt/plurality_wiki) 上开源，欢迎参与
 
-**内容许可** - 除特别声明外，内容采用 CC BY-SA 4.0 许可协议
+**内容许可**- 除特别声明外，内容采用 CC BY-SA 4.0 许可协议

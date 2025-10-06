@@ -2,7 +2,7 @@
 
 本页面汇总 DSM-5-TR 与 ICD-11 中收录的相关精神障碍诊断，帮助你快速查找官方诊断标准与编码。
 
-**重要提醒：** 本索引仅供参考学习，不能替代专业诊断。所有诊断必须由持证精神科医师完成。
+**重要提醒：**本索引仅供参考学习，不能替代专业诊断。所有诊断必须由持证精神科医师完成。
 
 ---
 
@@ -75,18 +75,18 @@
 
 ### DSM-5-TR（美国精神医学学会）
 
-- **全称**：Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision
-- **适用地区**：主要在美国使用
-- **编码格式**：数字编码（如 300.14）
-- **更新时间**：2022年
+-**全称**：Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision
+-**适用地区**：主要在美国使用
+-**编码格式**：数字编码（如 300.14）
+-**更新时间**：2022年
 
 ### ICD-11（世界卫生组织）
 
-- **全称**：International Classification of Diseases, 11th Revision
-- **适用地区**：国际标准，全球通用
-- **编码格式**：字母数字编码（如 6B64）
-- **更新时间**：2022年生效
-- **中国使用**：目前主要参考 ICD 体系
+-**全称**：International Classification of Diseases, 11th Revision
+-**适用地区**：国际标准，全球通用
+-**编码格式**：字母数字编码（如 6B64）
+-**更新时间**：2022年生效
+-**中国使用**：目前主要参考 ICD 体系
 
 ---
 
