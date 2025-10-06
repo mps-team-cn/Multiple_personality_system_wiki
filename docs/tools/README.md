@@ -30,7 +30,7 @@
 | `tools/check_links.py` | 扫描 Markdown 文档中疑似内部链接写法，禁止 `./`、`../` 等相对路径 | `python tools/check_links.py --root .`，必要时配合 `--whitelist` |
 | `tools/docs_preview.py` | 本地预览辅助：默认启动 `python -m http.server`，可选 `--docsify` 启用 docsify-cli | `python tools/docs_preview.py --port 4173`（启用 docsify 时追加 `--docsify`） |
 | `tools/gen_changelog_by_tags.py` | 按 Git 标签时间顺序生成 `changelog.md` 并按提交类型分组 | `python tools/gen_changelog_by_tags.py --output changelog.md`，可加 `--latest-only`/`--latest-to-head` |
-| `tools/pdf_export/` | Pandoc 驱动的整站 PDF 导出工具，支持封面、忽略列表与中文字体 | `python tools/pdf_export/export_to_pdf.py` 或 `python -m pdf_export` |
+| `tools/pdf_export/` | Pandoc 驱动的整站 PDF 导出工具，支持封面、忽略列表、中文字体与带页码的 topic 目录 | `python tools/pdf_export/export_to_pdf.py` 或 `python -m pdf_export` |
 | `tools/gen-validation-report.py` | 校验词条结构并生成 `docs/VALIDATION_REPORT.md` | `python tools/gen-validation-report.py` |
 | `tools/retag_and_related.py` | 批量重建 Frontmatter 标签并生成"相关词条"区块 | `python tools/retag_and_related.py` 或 `python tools/retag_and_related.py --dry-run --limit 5` |
 | `tools/run_local_updates.sh` / `tools/run_local_updates.bat` | 串联常用维护脚本，一键完成日常更新任务（已增强：支持参数跳过、进度显示、错误提示） | `bash tools/run_local_updates.sh` 或 `tools\run_local_updates.bat`（均支持 `--skip-*` 选项和 `--help`） |
@@ -260,10 +260,10 @@ markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor
 
 ### PDF 导出目录生成逻辑
 
-- `tools/pdf_export/` 在导出 PDF 时会优先读取仓库根目录的 `index.md`，目录页与章节书签都会遵循该文件的分组与顺序；
-- 若 `index.md` 缺失或未收录全部词条，未出现在目录中的文档会自动归入“未索引词条”章节，确保不会遗漏内容；
+- `tools/pdf_export/` 会读取词条 Frontmatter 中的 `topic` 字段自动构建章节顺序，缺失 `topic` 的词条将归入“其他”分类，并按 topic 字典序排序；
+- 默认忽略列表来自 `tools/pdf_export/ignore.md`，支持目录、单个文件与通配符匹配，可通过 `--ignore-file` 自定义路径；
+- 目录页会基于上述章节生成带页码的“图书式”排版，条目与页码均可点击跳转至对应内容；
 - 目录中的词条链接会自动重写为 PDF 内部锚点，确保离线文档中的跳转行为与线上一致。
-- `index.md` 中通过 `<!-- trigger-warning:start -->…<!-- trigger-warning:end -->` 包裹的触发警告区块，会在导出时转换为 `> ⚠️ …` 的 Markdown 形式，确保目录页在 PDF 中保留警示文本。
 - 词条 Frontmatter 的 `updated` 字段支持 `YYYY-MM-DD` 字符串或 YAML 日期字面量，若留空、写成 `null`、布尔值或列表，导出脚本会终止并提示修正。
 
 ## 相关文档
