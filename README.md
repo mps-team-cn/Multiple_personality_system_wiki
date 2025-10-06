@@ -119,7 +119,8 @@ plurality_wiki/
 │  ├─ cli/                       # CLI 接口
 │  ├─ gen-validation-report.py   # 校验词条结构
 │  ├─ fix_md.py                  # Markdown 自动修复
-│  ├─ generate_tags_index.py     # 生成标签索引
+│  ├─ generate_tags_index.py     # [已废弃] 标签索引（MkDocs 自动处理）
+│  ├─ build_search_index.py      # [已废弃] 搜索索引（MkDocs 内置）
 │  ├─ check_links.py             # 链接检查
 │  └─ pdf_export/                # PDF 导出工具
 │
@@ -141,7 +142,7 @@ plurality_wiki/
 根目录下的 `tools/` 目录集中存放了协助批量处理、检查与发布的脚本，可与 CI 流程搭配使用。更完整的说明与后续更新请参见 [`docs/tools/README.md`](docs/tools/README.md)。
 
 - `python tools/gen-validation-report.py`：读取《CONTRIBUTING.md》与《docs/TEMPLATE_ENTRY.md》，生成 `docs/VALIDATION_REPORT.md` 校对报告。
-- `python tools/generate_tags_index.py`：扫描 `entries/` 前置元数据，输出 `tags.md` 标签索引。
+- ~~`python tools/generate_tags_index.py`~~：**[已废弃]** MkDocs Material 的 tags 插件自动生成标签索引。
 - `python tools/check_links.py --root .`：校验所有 Markdown 文件的内部链接是否遵循 `entries/*.md` 绝对路径写法，并提示潜在断链。
 
 ---
@@ -208,7 +209,7 @@ docsify serve .
 1. Fork & 新建分支；
 2. 按规范撰写/修改词条到 `docs/entries/` 目录；
 3. **同步更新索引**：
-   - 运行 `python tools/generate_tags_index.py` 生成标签索引
+   - 标签索引由 MkDocs 自动生成，无需手动运行脚本
    - 更新 `docs/index.md` 导航（如需要）
 4. **本地验证**：
    - 执行 `python tools/fix_md.py` 自动修复格式

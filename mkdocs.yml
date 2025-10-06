@@ -193,8 +193,7 @@ plugins:
         - zh
         - en
 
-  - tags:
-      tags_file: tags.md
+  - tags
 
   - git-revision-date-localized:
       enabled: !ENV [CI, false]
@@ -237,12 +236,23 @@ nav:
     - 术语表: Glossary.md
   - 核心概念:
     - 核心概念导览: entries/Core-Concepts-Guide.md
-    - entries/Plurality.md
-    - entries/System.md
-    - entries/Alter.md
-    - entries/DID.md
-    - entries/OSDD.md
-    - entries/Tulpa.md
+    - 基础概念:
+        - entries/Dissociation.md
+        - entries/Plurality.md
+        - entries/System.md
+        - entries/Alter.md
+    - 临床诊断:
+        - entries/DID.md
+        - entries/OSDD.md
+        - entries/Partial-Dissociative-Identity-Disorder-PDID.md
+    - 健康多意识体:
+        - entries/Tulpa.md
+        - entries/Emmengard-Classification.md
+        - entries/Soulbond.md
+    - 理论框架:
+        - entries/Structural-Dissociation-Theory.md
+        - entries/Apparently-Normal-Part-Emotional-Part-Model.md
+        - entries/Personality-Structure-Theory.md
   - 系统运作:
     - 系统运作导览: System-Operations.md
     - 前台与切换:
@@ -271,6 +281,25 @@ nav:
     - entries/CPTSD.md
     - entries/Trauma.md
     - entries/Grounding.md
+  - 实践指南:
+    - 实践指南导览: Practice-Guide.md
+    - Tulpa 创造指南:
+        - 指南总览: entries/Tulpa-Guide.md
+        - 基础篇: entries/Tulpa-Guide-1.md
+        - 实践篇: entries/Tulpa-Guide-2.md
+        - 提高篇: entries/Tulpa-Guide-3.md
+    - 意识训练:
+        - entries/Meditation.md
+        - entries/Visualization-Imagination.md
+        - entries/Attention-Awareness.md
+    - 内部协作:
+        - entries/Internal-Communication.md
+        - entries/Headspace-Inner-World.md
+        - entries/Permissions.md
+    - 稳定技巧:
+        - entries/Grounding.md
+        - entries/Sensory-Regulation-Strategies.md
+        - entries/Emotion-Regulation.md
 
 # 严格模式
 strict: false

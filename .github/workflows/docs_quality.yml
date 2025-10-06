@@ -19,13 +19,12 @@ jobs:
           python-version: '3.11'
       - name: 安装 Python 依赖
         run: pip install -r requirements.txt
-      - name: 校验标签索引
-        run: |
-          python tools/generate_tags_index.py
-          git diff --exit-code tags.md
       - name: 修复 Markdown 文件格式
         run: |
-          python tools/fix_md.py 
+          python tools/fix_md.py
+      - name: 构建 MkDocs 测试
+        run: |
+          mkdocs build 
       - name: 配置 Node.js 环境
         uses: actions/setup-node@v4
         with:
@@ -52,7 +51,7 @@ jobs:
             ./
 
   linkcheck-pages:
-    name: 线上巡检（GitHub Pages）
+    name: 线上巡检（GitHub Pages - MkDocs）
     if: github.event_name == 'schedule'
     runs-on: ubuntu-latest
     steps:
@@ -62,23 +61,23 @@ jobs:
         with:
           args: >-
             --config .github/lychee.toml
-            --remap '^/entries/ https://kuliantnt.github.io/plurality_wiki/#/entries/'
+            --remap '^/entries/ https://kuliantnt.github.io/plurality_wiki/entries/'
             --no-progress
             --verbose
             ./
 
   linkcheck-cf:
-    name: 线上巡检（Cloudflare）
+    name: 线上巡检（Cloudflare Pages - MkDocs）
     if: github.event_name == 'schedule'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: lychee remap 到 Cloudflare
+      - name: lychee remap 到 Cloudflare Pages
         uses: lycheeverse/lychee-action@v1
         with:
           args: >-
             --config .github/lychee.toml
-            --remap '^/entries/ https://plurality-wiki.pages.dev/#/entries/'
+            --remap '^/entries/ https://plurality-wiki.pages.dev/entries/'
             --no-progress
             --verbose
             ./
