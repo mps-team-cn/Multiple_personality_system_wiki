@@ -53,7 +53,11 @@
   - 主目录：`docs/assets/`（CSS、JS、图片、JSON 数据等）
   - 自定义样式：`docs/assets/extra.css`
   - 自定义脚本：`docs/assets/extra.js`
-  - 资源引用：使用相对于 `docs/` 的路径（如 `assets/favicon.svg`）
+  - **资源子目录**：
+    - `docs/assets/figures/` - 图表、流程图、示意图、SVG 等
+    - `docs/assets/images/` - 一般图片（封面、截图等）
+    - `docs/assets/icons/` - 小图标、装饰性素材
+  - 资源引用：使用相对于 `docs/` 的路径（如 `assets/icons/favicon.svg`）
 - **旧版 Docsify**（已弃用，保留备份）：
   - `index.html`、`_sidebar.md`、`_coverpage.md`、`.nojekyll`
   - 不再主动维护，仅作历史参考
