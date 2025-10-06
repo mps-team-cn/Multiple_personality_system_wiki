@@ -13,7 +13,6 @@ synonyms:
 - self concept
 ---
 
-
 # 自我概念（Self-Concept）
 
 ## 概述

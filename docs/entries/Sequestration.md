@@ -9,7 +9,6 @@ title: 封存（Sequestration）
 updated: 2025-10-03
 ---
 
-
 # 封存（Sequestration）
 
 ## 同义词

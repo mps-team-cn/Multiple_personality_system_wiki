@@ -15,7 +15,6 @@ synonyms:
 - intrusive thinking
 ---
 
-
 # 侵入性思维（Intrusive Thoughts）
 
 !!! warning "触发警告"

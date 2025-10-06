@@ -13,7 +13,6 @@ synonyms:
 - motivation theories
 ---
 
-
 # 动机理论（Motivation Theories）
 
 ## 概述

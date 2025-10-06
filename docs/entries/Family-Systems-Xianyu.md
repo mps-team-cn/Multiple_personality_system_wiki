@@ -9,7 +9,6 @@ title: 家族式系统（Family Systems, Xianyu Theory）
 updated: 2025-10-03
 ---
 
-
 # 家族式系统（Family Systems, Xianyu Theory）
 
 > **一句话定义**：弦羽理论分类中的一类系统，内部以“家庭”关系为核心纽带，提供归属感与情感支持。

@@ -13,7 +13,6 @@ synonyms:
 - self efficacy
 ---
 
-
 # 自我效能感（Self-Efficacy）
 
 ## 概述

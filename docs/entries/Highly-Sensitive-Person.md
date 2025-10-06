@@ -13,7 +13,6 @@ synonyms:
 - highly sensitive person
 ---
 
-
 # 高敏感人群（Highly Sensitive Person, HSP）
 
 ## 概述

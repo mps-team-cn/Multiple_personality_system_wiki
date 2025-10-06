@@ -6,7 +6,6 @@ title: 三阶段创伤治疗模型（Three-Phase Trauma Treatment）
 updated: 2025-10-06
 ---
 
-
 # 三阶段创伤治疗模型（Three-Phase Trauma Treatment）
 
 !!! warning "医疗免责声明"

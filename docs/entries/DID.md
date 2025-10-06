@@ -9,7 +9,6 @@ title: 解离性身份障碍（Dissociative Identity Disorder，DID）
 updated: 2025-10-03
 ---
 
-
 # 解离性身份障碍（Dissociative Identity Disorder，DID）
 
 !!! warning "触发警告"

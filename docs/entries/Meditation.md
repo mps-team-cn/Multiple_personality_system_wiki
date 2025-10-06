@@ -9,7 +9,6 @@ title: 冥想（Meditation）
 updated: 2025-10-03
 ---
 
-
 # 冥想（Meditation）
 
 ## 同义词

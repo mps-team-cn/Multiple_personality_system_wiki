@@ -16,7 +16,6 @@ synonyms:
 - mood disorder spectrum
 ---
 
-
 # 心境障碍（Affective Disorders）
 
 !!! warning "触发警告"

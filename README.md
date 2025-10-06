@@ -225,7 +225,9 @@ docsify serve .
 **构建配置**：
 
 ```yaml
+
 # Cloudflare Pages 设置
+
 Build command: bash .cfpages-build.sh
 Build output directory: site
 Environment variables: PYTHON_VERSION=3.11

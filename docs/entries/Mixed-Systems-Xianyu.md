@@ -9,7 +9,6 @@ title: 混合型系统（Mixed Systems, Xianyu Theory）
 updated: 2025-03-09
 ---
 
-
 # 混合型系统（Mixed Systems, Xianyu Theory）
 
 > **一句话定义**：弦羽理论分类中的一类复合系统，由两个或多个功能逻辑叠加而成，兼具不同类型系统的特征。

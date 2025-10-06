@@ -9,7 +9,6 @@ title: 内部空间（Headspace / Inner World）
 updated: 2025-10-03
 ---
 
-
 # 内部空间（Headspace / Inner World）
 
 > **一句话定义**：内部空间（亦称“里空间”，“幻境”）指系统成员在内在感知中共享或独立访问的心象环境，用于互动、协作与储存记忆符号。[^pluralpedia-headspace]

@@ -12,7 +12,6 @@ synonyms:
 - null
 ---
 
-
 # 注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）
 
 !!! warning "触发警告"

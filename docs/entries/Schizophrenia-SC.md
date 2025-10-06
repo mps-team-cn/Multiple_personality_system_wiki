@@ -9,7 +9,6 @@ title: 精神分裂症（Schizophrenia，SC）
 updated: 2025-10-03
 ---
 
-
 # 精神分裂症（Schizophrenia，SC）
 
 !!! warning "触发警告"

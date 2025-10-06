@@ -9,7 +9,6 @@ title: 谵妄（Delirium）
 updated: 2025-10-03
 ---
 
-
 # 谵妄（Delirium）
 
 !!! warning "触发警告"

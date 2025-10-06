@@ -9,7 +9,6 @@ title: 意识修改（Consciousness Modification）
 updated: 2025-10-03
 ---
 
-
 # 意识修改（Consciousness Modification）
 
 ## 同义词

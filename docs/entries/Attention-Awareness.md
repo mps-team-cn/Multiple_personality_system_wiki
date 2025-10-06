@@ -12,7 +12,6 @@ synonyms:
 - attention and awareness
 ---
 
-
 # 注意与觉察（Attention & Awareness）
 
 ## 概述

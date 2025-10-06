@@ -9,7 +9,6 @@ title: 执行者（Performer / Executive）
 updated: 2025-10-03
 ---
 
-
 # 执行者（Performer / Executive）
 
 ## 定义

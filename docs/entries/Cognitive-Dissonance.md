@@ -13,7 +13,6 @@ synonyms:
 - cognitive dissonance
 ---
 
-
 # 认知失调（Cognitive Dissonance）
 
 ## 概述

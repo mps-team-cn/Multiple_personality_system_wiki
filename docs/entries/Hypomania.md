@@ -19,7 +19,6 @@ synonyms:
 - hypomanic state
 ---
 
-
 # 轻躁狂（Hypomania）
 
 !!! warning "触发警告"

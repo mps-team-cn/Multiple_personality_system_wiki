@@ -16,7 +16,6 @@ synonyms:
 - chuangshanghouyingjizhangai
 ---
 
-
 # 创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）
 
 !!! warning "触发警告"

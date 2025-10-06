@@ -13,7 +13,6 @@ synonyms:
 - emotion regulation
 ---
 
-
 # 情绪调节（Emotion Regulation）
 
 !!! warning "触发警告"
