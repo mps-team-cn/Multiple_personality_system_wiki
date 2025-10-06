@@ -9,7 +9,6 @@ title: 内部自助者（Internal Self Helper，ISH）
 updated: 2025-10-03
 ---
 
-
 # 内部自助者（Internal Self Helper，ISH）
 
 **一句话定义**：**内部自助者**是熟悉系统内部结构、能在危机时提供指导或信息的支持性成员，多见于解离性障碍与多意识体系统的治疗语境。[^ish-pluralpedia]

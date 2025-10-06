@@ -12,7 +12,6 @@ synonyms:
 - 创伤型
 ---
 
-
 # 适应型（Adaptive）
 
 ## 定义

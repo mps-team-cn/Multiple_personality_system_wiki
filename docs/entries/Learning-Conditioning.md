@@ -12,7 +12,6 @@ synonyms:
 - learning and conditioning
 ---
 
-
 # 学习与条件反射（Learning & Conditioning）
 
 ## 概述

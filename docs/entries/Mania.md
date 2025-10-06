@@ -9,7 +9,6 @@ title: 躁狂（Mania）
 updated: 2025-10-05
 ---
 
-
 # 躁狂（Mania）
 
 !!! warning "触发警告"

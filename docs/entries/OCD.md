@@ -9,7 +9,6 @@ title: 强迫症（Obsessive-Compulsive Disorder, OCD）
 updated: 2025-10-03
 ---
 
-
 # 强迫症（Obsessive-Compulsive Disorder, OCD）
 
 !!! warning "触发警告"

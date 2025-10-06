@@ -9,7 +9,6 @@ title: 幻想伙伴（Imaginary Companion）
 updated: 2025-10-03
 ---
 
-
 # 幻想伙伴（Imaginary Companion）
 
 ## 定义

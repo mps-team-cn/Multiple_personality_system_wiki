@@ -13,7 +13,6 @@ synonyms:
 - structural model of psyche
 ---
 
-
 # 人格结构理论（Personality Structure Theory, Freud）
 
 ## 概述

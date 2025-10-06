@@ -13,7 +13,6 @@ synonyms:
 - social cognitive theory
 ---
 
-
 # 社会认知理论（Social-Cognitive Theory）
 
 ## 概述

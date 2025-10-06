@@ -9,7 +9,6 @@ title: 虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtu
 updated: 2025-10-03
 ---
 
-
 # 虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）
 
 ## 概述

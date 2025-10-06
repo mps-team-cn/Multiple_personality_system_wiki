@@ -13,7 +13,6 @@ synonyms:
 - self determination theory
 ---
 
-
 # 自我决定理论（Self-Determination Theory）
 
 ## 概述

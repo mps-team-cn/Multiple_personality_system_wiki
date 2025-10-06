@@ -9,7 +9,6 @@ title: 结构性解离理论（Theory of Structural Dissociation）
 updated: 2025-10-04
 ---
 
-
 # 结构性解离理论（Theory of Structural Dissociation）
 
 !!! warning "触发警告"
