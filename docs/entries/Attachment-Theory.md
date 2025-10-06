@@ -13,7 +13,6 @@ synonyms:
 - attachment theory
 ---
 
-
 # 依恋理论（Attachment Theory）
 
 ## 概述

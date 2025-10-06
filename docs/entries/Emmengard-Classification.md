@@ -9,7 +9,6 @@ title: 埃蒙加德分类法（Emmengard Classification）
 updated: 2025-10-03
 ---
 
-
 # 埃蒙加德分类法（Emmengard Classification）
 
 ## 概述

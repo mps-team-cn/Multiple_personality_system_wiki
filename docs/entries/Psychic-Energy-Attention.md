@@ -12,7 +12,6 @@ synonyms:
 - psychic energy
 ---
 
-
 # 心理能量与注意资源（Psychic Energy & Attention）
 
 ## 概述

@@ -13,7 +13,6 @@ synonyms:
 - humanistic psychology
 ---
 
-
 # 人本主义心理学（Humanistic Psychology）
 
 ## 概述

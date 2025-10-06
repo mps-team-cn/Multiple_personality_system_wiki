@@ -9,7 +9,6 @@ title: 系魂型系统（Soul-Linked Systems, Xianyu Theory）
 updated: 2025-10-03
 ---
 
-
 # 系魂型系统（Soul-Linked Systems, Xianyu Theory）
 
 > **一句话定义**：弦羽理论分类中的特殊类型，作为外部意识或灵性实体的中介，承担信息翻译与意义建构的角色。

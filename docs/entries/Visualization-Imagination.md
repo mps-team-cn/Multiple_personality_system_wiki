@@ -9,7 +9,6 @@ title: 内视（Visualization / Imagination）
 updated: 2025-10-03
 ---
 
-
 # 内视（Visualization / Imagination）
 
 **一句话定义**：内视指在内心空间中“看到”或“感知”系统成员、Tulpa 等意识体的练习与体验，常作为与成员互动的基础方式之一。

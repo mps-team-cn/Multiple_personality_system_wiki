@@ -13,7 +13,6 @@ synonyms:
 - defensive dissociation
 ---
 
-
 # 防御性解离（Defensive Dissociation）
 
 !!! warning "触发警告"

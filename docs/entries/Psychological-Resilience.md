@@ -13,7 +13,6 @@ synonyms:
 - resilience
 ---
 
-
 # 心理弹性（Psychological Resilience）
 
 ## 概述

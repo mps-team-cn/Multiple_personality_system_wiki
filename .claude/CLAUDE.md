@@ -21,7 +21,10 @@
 - 词条：`entries/` 根目录，禁止子目录
 - 工具：`tools/` 目录
 - 文档：`docs/` 目录
-- 静态资源：`assets/` 目录
+- 静态资源：`docs/assets/` 目录
+  - `docs/assets/figures/` - 图表、流程图、示意图、SVG 等
+  - `docs/assets/images/` - 一般图片（封面、截图等）
+  - `docs/assets/icons/` - 小图标、装饰性素材
 
 ### 条目编写规范
 

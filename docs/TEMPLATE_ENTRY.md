@@ -23,7 +23,7 @@
 
 ---
 title: 条目中文名（English/缩写）
-tags: 
+tags:
   - a
   - b
 topic: 临床与诊断
@@ -83,6 +83,22 @@ updated: YYYY-MM-DD
 - **发展性创伤**：说明与儿童期创伤或长期压力的关系。
 - **结构性解离理论**：介绍 ANP / EP 模型的应用。
 - **神经生物学发现**：可简要描述相关脑区或神经机制研究。
+
+### 图表示例
+
+如需添加图表，请将图片放置在 `docs/assets/` 相应子目录：
+
+- 图表、流程图：`docs/assets/figures/`
+- 一般图片：`docs/assets/images/`
+- 小图标：`docs/assets/icons/`
+
+**路径规范**：使用相对于源文件的路径（MkDocs 会自动处理）
+
+```markdown
+![解离机制示意图](../assets/figures/mechanism.svg)
+
+*图：结构性解离理论模型（来源：xxxx）*
+```
 
 ---
 

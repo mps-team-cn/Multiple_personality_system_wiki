@@ -14,7 +14,6 @@ synonyms:
 - alexithymia
 ---
 
-
 # 述情障碍（Alexithymia）
 
 !!! warning "触发警告"

@@ -9,7 +9,6 @@ title: 前台（Front / Fronting）
 updated: 2025-10-03
 ---
 
-
 # 前台（Front / Fronting）
 
 **一句话定义**：前台指当前占据身体、直接与外部环境互动的成员状态，前台执掌（fronting）则是该成员对外界控制权的取得与维持过程。

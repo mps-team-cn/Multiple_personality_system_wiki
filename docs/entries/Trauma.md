@@ -14,7 +14,6 @@ synonyms:
 - chuangshang
 ---
 
-
 # 创伤（Trauma）
 
 !!! warning "触发警告"

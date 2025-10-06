@@ -9,7 +9,6 @@ title: 边缘性人格障碍（Borderline Personality Disorder，BPD）
 updated: 2025-10-03
 ---
 
-
 # 边缘性人格障碍（Borderline Personality Disorder，BPD）
 
 !!! warning "触发警告"

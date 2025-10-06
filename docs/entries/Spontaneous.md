@@ -9,7 +9,6 @@ title: 自发型（Spontaneous）
 updated: 2025-10-03
 ---
 
-
 # 自发型（Spontaneous）
 
 ## 定义

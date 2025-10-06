@@ -325,8 +325,9 @@ git checkout main  # 或其他稳定分支
 
 ### 图片资源
 
-- 确保所有图片路径使用相对于 `docs/` 目录的路径
-- 推荐使用 `![alt](assets/image.svg)` 格式
+- 确保所有图片路径使用相对于源文件的路径
+- 从 `docs/entries/` 引用：`![alt](../assets/image.svg)`
+- MkDocs 会根据生成的 HTML 位置自动调整路径
 
 ### 代码块
 
