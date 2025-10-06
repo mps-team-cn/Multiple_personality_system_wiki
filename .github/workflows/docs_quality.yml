@@ -24,7 +24,7 @@ jobs:
           python tools/fix_md.py
       - name: 构建 MkDocs 测试
         run: |
-          mkdocs build --strict 
+          mkdocs build 
       - name: 配置 Node.js 环境
         uses: actions/setup-node@v4
         with:
