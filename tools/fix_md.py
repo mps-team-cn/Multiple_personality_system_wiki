@@ -198,7 +198,7 @@ def ensure_blank_around_lists(lines: list[str]) -> list[str]:
     return out
 
 def fix_emphasis_spaces(lines: list[str]) -> list[str]:
-    """MD037: 修复强调标记内的空格"""
+    """MD037: 修复强调标记内的空格,并确保强调段前后留白"""
     out, in_fence = [], False
     for ln in lines:
         # 跳过代码块
@@ -210,12 +210,43 @@ def fix_emphasis_spaces(lines: list[str]) -> list[str]:
             out.append(ln)
             continue
 
-        def _trim(match: re.Match[str]) -> str:
-            start, content, end = match.groups()
-            return f"{start}{content.strip()}{end}"
+        matches = list(EMPHASIS_SEGMENT_RE.finditer(ln))
+        if not matches:
+            out.append(ln)
+            continue
 
-        ln = EMPHASIS_SEGMENT_RE.sub(_trim, ln)
-        out.append(ln)
+        pieces: list[str] = []
+        last_idx = 0
+        last_char = ""
+
+        for match in matches:
+            if match.start() > last_idx:
+                segment = ln[last_idx : match.start()]
+                pieces.append(segment)
+                if segment:
+                    last_char = segment[-1]
+
+            start_tag, content, end_tag = match.groups()
+            content = content.strip()
+
+            if pieces and last_char and not last_char.isspace():
+                pieces.append(" ")
+                last_char = " "
+
+            pieces.append(f"{start_tag}{content}{end_tag}")
+            last_char = end_tag[-1]
+            last_idx = match.end()
+
+            if match.end() < len(ln):
+                next_char = ln[match.end()]
+                if not next_char.isspace():
+                    pieces.append(" ")
+                    last_char = " "
+
+        if last_idx < len(ln):
+            tail = ln[last_idx:]
+            pieces.append(tail)
+        out.append("".join(pieces))
 
     return out
 
