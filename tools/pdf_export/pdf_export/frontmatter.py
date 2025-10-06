@@ -20,6 +20,7 @@ class EntryFrontmatter:
 
     title: str
     tags: tuple[str, ...]
+    topic: str
     updated: str
 
 
@@ -80,7 +81,7 @@ def _parse_frontmatter(lines: list[str]) -> EntryFrontmatter:
     if not isinstance(loaded, dict):
         raise FrontmatterError("frontmatter 必须以键值对形式声明。")
 
-    missing = [field for field in ("title", "tags", "updated") if field not in loaded]
+    missing = [field for field in ("title", "tags", "topic", "updated") if field not in loaded]
     if missing:
         raise FrontmatterError(f"frontmatter 缺少必要字段：{', '.join(missing)}")
 
@@ -100,11 +101,15 @@ def _parse_frontmatter(lines: list[str]) -> EntryFrontmatter:
     if not tags:
         raise FrontmatterError("tags 字段至少包含一个标签。")
 
+    topic = loaded["topic"]
+    if not isinstance(topic, str) or not topic.strip():
+        raise FrontmatterError("topic 字段必须为非空字符串。")
+
     updated_text = _normalize_updated(loaded["updated"])
     if not updated_text:
         raise FrontmatterError("updated 字段必须为非空字符串或有效日期。")
 
-    return EntryFrontmatter(title=title.strip(), tags=tuple(tags), updated=updated_text)
+    return EntryFrontmatter(title=title.strip(), tags=tuple(tags), topic=topic.strip(), updated=updated_text)
 
 
 def load_entry_document(path: Path) -> EntryDocument:
@@ -122,6 +127,7 @@ def load_entry_document(path: Path) -> EntryDocument:
         path=path.resolve(),
         title=meta.title,
         tags=meta.tags,
+        topic=meta.topic,
         body=body,
     )
 

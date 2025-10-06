@@ -14,6 +14,7 @@ class EntryDocument:
     path: Path
     title: str
     tags: tuple[str, ...]
+    topic: str
     body: str
 
 
