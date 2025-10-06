@@ -136,7 +136,7 @@ updated: 2025-10-06
 
 ### 📊 分类图解
 
-![类型关系图](/assets/figures/types.svg)
+![类型关系图](../assets/figures/types.svg)
 
 ### 各类型说明
 

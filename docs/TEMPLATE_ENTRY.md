@@ -92,10 +92,10 @@ updated: YYYY-MM-DD
 - 一般图片：`docs/assets/images/`
 - 小图标：`docs/assets/icons/`
 
-**路径规范**：使用绝对路径（以 `/` 开头，相对于站点根目录）
+**路径规范**：使用相对于源文件的路径（MkDocs 会自动处理）
 
 ```markdown
-![解离机制示意图](/assets/figures/mechanism.svg)
+![解离机制示意图](../assets/figures/mechanism.svg)
 
 *图：结构性解离理论模型（来源：xxxx）*
 ```
