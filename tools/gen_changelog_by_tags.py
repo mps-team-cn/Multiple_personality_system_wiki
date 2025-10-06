@@ -40,7 +40,7 @@ GROUPS = [
 
 ENCODING = "utf-8"
 DEFAULT_OUTPUT = "CHANGELOG.md"
-LATEST_TO_HEAD_OUTPUT = "chang.log"
+LATEST_TO_HEAD_OUTPUT = "change.log"
 
 def sh(cmd: str) -> str:
     """Run shell command and return stdout (stripped)."""
@@ -256,7 +256,7 @@ def main():
     parser.add_argument(
         "--output",
         default=DEFAULT_OUTPUT,
-        help="输出文件路径（默认：仓库根目录 CHANGELOG.md；若配合 --latest-to-head 使用且未显式指定，则输出到 chang.log）",
+        help="输出文件路径（默认：仓库根目录 CHANGELOG.md；若配合 --latest-to-head 使用且未显式指定，则输出到 change.log）",
     )
     parser.add_argument("--latest-only", action="store_true", help="只生成从上一个标签到最新标签的一段")
     parser.add_argument(
