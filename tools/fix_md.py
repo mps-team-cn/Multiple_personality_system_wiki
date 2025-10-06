@@ -23,7 +23,12 @@ import argparse
 import re
 from pathlib import Path
 
-EXCLUDE_DIRS = {"node_modules", "tools/pdf_export/vendor", ".git"}
+DEFAULT_EXCLUDE_DIRS = {
+    "node_modules",
+    "tools/pdf_export/vendor",
+    ".git",
+    "legacy",
+}
 
 # 识别标题行
 HEADING_RE = re.compile(r'^(#{1,6})\s+\S')
@@ -33,17 +38,18 @@ FENCE_START_RE = re.compile(r'^```(\s*)$')
 FENCE_LANG_RE  = re.compile(r'^```[A-Za-z0-9_\-+.]')
 # 列表项（无序和有序）
 LIST_ITEM_RE = re.compile(r'^(\s*)([-*+]|\d+\.)\s+')
-# 强调标记内的空格（开始后和结束前）
-EMPHASIS_START_SPACE_RE = re.compile(r'(\*\*|__)\s+')  # **空格
-EMPHASIS_END_SPACE_RE = re.compile(r'\s+(\*\*|__)')     # 空格**
+UNORDERED_MARKER_NEEDS_SPACE_RE = re.compile(r'^(\s*)(-(?!-)|\+(?!\+)|\*(?!\*))(?=\S)')
+ORDERED_MARKER_NEEDS_SPACE_RE = re.compile(r'^(\s*)(\d+\.)(?=\S)')
+# 强调标记内的空格
+EMPHASIS_SEGMENT_RE = re.compile(r'(\*\*|__)(.+?)(\1)')
 # 裸链接
 BARE_URL_RE = re.compile(r'(?<!\])(?<!\))(?P<url>https?://[^\s<>\)\]]+)', re.IGNORECASE)
 # 行尾 Unicode 空白（含全角空格/窄不换行空格等）
 TRAIL_WS_RE = re.compile(r'[\t \u00A0\u1680\u2000-\u200A\u202F\u205F\u3000]+$')
 
-def should_exclude(p: Path) -> bool:
+def should_exclude(p: Path, exclude_dirs: set[str]) -> bool:
     parts = set(p.parts)
-    return any(ex in parts for ex in EXCLUDE_DIRS)
+    return any(ex in parts for ex in exclude_dirs)
 
 def strip_trailing_spaces(lines: list[str]) -> list[str]:
     return [TRAIL_WS_RE.sub('', ln) for ln in lines]
@@ -58,6 +64,21 @@ def compress_blank_lines(lines: list[str]) -> list[str]:
         else:
             blank = 0
             out.append(ln)
+    return out
+
+def normalize_list_marker_spacing(lines: list[str]) -> list[str]:
+    """确保列表标记后至少有一个空格,即便原本缺失而未匹配到列表模式。"""
+    out: list[str] = []
+    in_fence = False
+    for ln in lines:
+        if FENCE_ANY_RE.match(ln):
+            in_fence = not in_fence
+            out.append(ln)
+            continue
+        if not in_fence:
+            ln = UNORDERED_MARKER_NEEDS_SPACE_RE.sub(r'\1\2 ', ln, count=1)
+            ln = ORDERED_MARKER_NEEDS_SPACE_RE.sub(r'\1\2 ', ln, count=1)
+        out.append(ln)
     return out
 
 def ensure_blank_around_headings(lines: list[str]) -> list[str]:
@@ -177,7 +198,7 @@ def ensure_blank_around_lists(lines: list[str]) -> list[str]:
     return out
 
 def fix_emphasis_spaces(lines: list[str]) -> list[str]:
-    """MD037: 修复强调标记内的空格"""
+    """MD037: 修复强调标记内的空格,并确保强调段前后留白"""
     out, in_fence = [], False
     for ln in lines:
         # 跳过代码块
@@ -189,12 +210,43 @@ def fix_emphasis_spaces(lines: list[str]) -> list[str]:
             out.append(ln)
             continue
 
-        # 修复强调标记内的空格
-        # **空格text → **text
-        ln = EMPHASIS_START_SPACE_RE.sub(r'\1', ln)
-        # text空格** → text**
-        ln = EMPHASIS_END_SPACE_RE.sub(r'\1', ln)
-        out.append(ln)
+        matches = list(EMPHASIS_SEGMENT_RE.finditer(ln))
+        if not matches:
+            out.append(ln)
+            continue
+
+        pieces: list[str] = []
+        last_idx = 0
+        last_char = ""
+
+        for match in matches:
+            if match.start() > last_idx:
+                segment = ln[last_idx : match.start()]
+                pieces.append(segment)
+                if segment:
+                    last_char = segment[-1]
+
+            start_tag, content, end_tag = match.groups()
+            content = content.strip()
+
+            if pieces and last_char and not last_char.isspace():
+                pieces.append(" ")
+                last_char = " "
+
+            pieces.append(f"{start_tag}{content}{end_tag}")
+            last_char = end_tag[-1]
+            last_idx = match.end()
+
+            if match.end() < len(ln):
+                next_char = ln[match.end()]
+                if not next_char.isspace():
+                    pieces.append(" ")
+                    last_char = " "
+
+        if last_idx < len(ln):
+            tail = ln[last_idx:]
+            pieces.append(tail)
+        out.append("".join(pieces))
 
     return out
 
@@ -208,6 +260,7 @@ def process_file(p: Path, dry_run=False) -> bool:
     lines = strip_trailing_spaces(lines)       # MD009（含全角空格）
     lines = fix_emphasis_spaces(lines)         # MD037（强调标记空格）
     lines = compress_blank_lines(lines)        # MD012
+    lines = normalize_list_marker_spacing(lines)
     lines = ensure_blank_around_headings(lines)# MD022（前后）
     lines = ensure_blank_around_fences(lines)  # MD031（代码块前后空行）
     lines = ensure_blank_around_lists(lines)   # MD032（列表前后空行）
@@ -225,10 +278,51 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--root", default=".")
+    ap.add_argument(
+        "--paths",
+        nargs="*",
+        help="仅处理指定的相对路径(文件或目录)。为空时遍历 root 下全部 Markdown。",
+    )
+    ap.add_argument(
+        "--extra-exclude",
+        nargs="*",
+        default=(),
+        help="追加排除目录名称（相对于 root 的路径片段）。",
+    )
     args = ap.parse_args()
 
     root = Path(args.root).resolve()
-    files = [p for p in root.rglob("*.md") if not should_exclude(p)]
+    exclude_dirs = set(DEFAULT_EXCLUDE_DIRS)
+    exclude_dirs.update(args.extra_exclude)
+
+    candidates: list[Path] = []
+    if args.paths:
+        for rel in args.paths:
+            target = (root / rel).resolve()
+            try:
+                target.relative_to(root)
+            except ValueError:
+                print(f"忽略越界路径: {rel}")
+                continue
+            if not target.exists():
+                print(f"忽略不存在的路径: {rel}")
+                continue
+            if target.is_dir():
+                candidates.extend(target.rglob("*.md"))
+            elif target.is_file() and target.suffix.lower() == ".md":
+                candidates.append(target)
+    else:
+        candidates = list(root.rglob("*.md"))
+
+    files: list[Path] = []
+    seen: set[Path] = set()
+    for p in candidates:
+        if should_exclude(p, exclude_dirs):
+            continue
+        if p in seen:
+            continue
+        seen.add(p)
+        files.append(p)
     changed = []
     for p in files:
         if process_file(p, dry_run=args.dry_run):
