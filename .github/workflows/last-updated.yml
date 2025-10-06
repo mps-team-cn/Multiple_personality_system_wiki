@@ -28,7 +28,7 @@ jobs:
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add assets/last-updated.json
+            git add docs/assets/last-updated.json
             git commit -m "chore: 更新词条更新时间索引 [skip ci]"
             git push
           else

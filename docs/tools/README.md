@@ -34,8 +34,8 @@
 | `tools/gen-validation-report.py` | 校验词条结构并生成 `docs/VALIDATION_REPORT.md` | `python tools/gen-validation-report.py` |
 | `tools/retag_and_related.py` | 批量重建 Frontmatter 标签并生成"相关词条"区块 | `python tools/retag_and_related.py` 或 `python tools/retag_and_related.py --dry-run --limit 5` |
 | `tools/run_local_updates.sh` / `tools/run_local_updates.bat` | 串联常用维护脚本，一键完成日常更新任务（已增强：支持参数跳过、进度显示、错误提示） | `bash tools/run_local_updates.sh` 或 `tools\run_local_updates.bat`（均支持 `--skip-*` 选项和 `--help`） |
-| `tools/build_search_index.py` | 解析词条 Frontmatter，同步生成带同义词与拼音归一化的 Docsify 搜索索引 JSON | `python tools/build_search_index.py` 或 `python tools/build_search_index.py --output assets/search-index.json` |
-| `generate_tags_index.py` | 扫描 Frontmatter 标签并生成 `tags.md` 索引 | `python tools/generate_tags_index.py` |
+| `tools/build_search_index.py` | **[已废弃]** 解析词条 Frontmatter，同步生成带同义词与拼音归一化的 Docsify 搜索索引 JSON（MkDocs 使用内置搜索插件） | ~~`python tools/build_search_index.py`~~ |
+| `generate_tags_index.py` | **[已废弃]** 扫描 Frontmatter 标签并生成 `tags.md` 索引（MkDocs Material 的 tags 插件会自动处理） | ~~`python tools/generate_tags_index.py`~~ |
 
 如需新增脚本，请保持功能说明与示例用法同步更新本章节，方便贡献者快速定位维护工具。
 
@@ -207,8 +207,8 @@ tools\run_local_updates.bat --skip-pdf --skip-markdownlint
 2. 刷新标签与相关词条 (`retag_and_related.py`)
 3. 生成最后更新时间索引 (`gen-last-updated.mjs`)
 4. 导出 PDF (`pdf_export/export_to_pdf.py`)
-5. 生成标签索引 (`generate_tags_index.py`)
-6. 生成搜索索引 (`build_search_index.py`)
+5. ~~生成标签索引 (`generate_tags_index.py`)~~ **[已废弃]** MkDocs 自动处理
+6. ~~生成搜索索引 (`build_search_index.py`)~~ **[已废弃]** MkDocs 内置搜索
 7. 自动修复 Markdown (`fix_md.py`)
 8. 运行 markdownlint 校验
 
@@ -246,17 +246,33 @@ markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor
 - `tools/pdf_export/` 的导出流程同样会读取该索引，并在离线 PDF 中展示相同的最后更新时间提示；
 - 如需强制刷新缓存，可重新触发工作流或在部署平台清除静态资源缓存。
 
-### 标签索引维护
+### 标签索引维护 **[已自动化]**
 
-- `python tools/generate_tags_index.py` 会解析词条 Frontmatter 中的 `tags`，按标签分组生成 `tags.md`；
-- 更新或新增词条后务必重新运行该脚本，确保索引与仓库内容一致；
-- CI 会在 PR 中执行脚本并检查 `tags.md` 是否最新。
+> ⚠️ **迁移后变更**：MkDocs Material 的 `tags` 插件会自动处理标签索引，无需手动运行脚本。
 
-### 搜索索引维护
+- MkDocs 会自动从词条 Frontmatter 读取 `tags` 字段
+- 构建时自动生成 `tags.md` 标签索引页面
+- 配置位置：`mkdocs.yml` 中的 `plugins.tags.tags_file`
+- 只需在词条中正确填写 `tags`，构建时自动更新索引
 
-- `python tools/build_search_index.py` 会读取 `entries/` 下的 Frontmatter，将 `title`、`synonyms` 与自动生成的拼音写入 `assets/search-index.json`；
-- 运行脚本后即可在本地预览中体验大小写不敏感、拼音与别名匹配的搜索结果；
-- 如需输出到其他位置，可使用 `--output` 参数覆盖默认生成路径。
+**传统方式（已废弃）：**
+
+- ~~`python tools/generate_tags_index.py`~~ - 不再需要手动运行
+- ~~CI 检查 `tags.md` 是否最新~~ - MkDocs 自动处理
+
+### 搜索索引维护 **[已自动化]**
+
+> ⚠️ **迁移后变更**：MkDocs Material 使用内置搜索插件，支持中文分词和智能建议。
+
+- MkDocs 构建时自动生成搜索索引
+- 支持中文、英文分词和搜索建议
+- 配置位置：`mkdocs.yml` 中的 `plugins.search`
+- 无需手动维护搜索索引文件
+
+**传统方式（已废弃）：**
+
+- ~~`python tools/build_search_index.py`~~ - Docsify 专用，已不再使用
+- ~~`assets/search-index.json`~~ - MkDocs 使用自己的索引格式
 
 ### PDF 导出目录生成逻辑
 

@@ -3,8 +3,8 @@ import { readdirSync, statSync, writeFileSync, mkdirSync } from "node:fs";
 import { join, posix, relative } from "node:path";
 
 const ROOT = process.cwd();
-const ENTRIES_DIR = join(ROOT, "entries");
-const OUT_DIR = join(ROOT, "assets");
+const ENTRIES_DIR = join(ROOT, "docs", "entries");
+const OUT_DIR = join(ROOT, "docs", "assets");
 const OUT_FILE = join(OUT_DIR, "last-updated.json");
 
 function listMdFiles(dir) {
