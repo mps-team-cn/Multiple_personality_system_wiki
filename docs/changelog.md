@@ -330,7 +330,7 @@
 
 - 增加 Windows 本地维护批处理脚本（[9c66ea0](https://github.com/kuliantnt/plurality_wiki/commit/9c66ea09b38696af2e5fa8028df366d91be0bbe1)）
 - PDF 导出目录复用 `index.md`，并同步导出结构与索引顺序（[1b21db2](https://github.com/kuliantnt/plurality_wiki/commit/1b21db29fd86ac651e7271ed4c81098f32741c06)，[61eed04](https://github.com/kuliantnt/plurality_wiki/commit/61eed0496b91a6a64aa8a8fff44041f782ae4884)）
-- 重新生成各词条**tags**与“相关条目”区块（[72abcdd](https://github.com/kuliantnt/plurality_wiki/commit/72abcdd4b46c53356972db07d97058be9832f8d8)）
+- 重新生成各词条 **tags** 与“相关条目”区块（[72abcdd](https://github.com/kuliantnt/plurality_wiki/commit/72abcdd4b46c53356972db07d97058be9832f8d8)）
 - 更新术语表并新增神经多样性链接；工具脚本支持生成标签索引（[fa3295f](https://github.com/kuliantnt/plurality_wiki/commit/fa3295f1d2feb8d98f0f0f21a76227b676173e61)）
 - 优化远端分支清理脚本：加入安全分支切换与干运行（dry-run）（[58fa841](https://github.com/kuliantnt/plurality_wiki/commit/58fa84198746ae8b4d925d676894da5eef2955eb)）
 - 新增：神经多样性与感官调节词条（[95707e8](https://github.com/kuliantnt/plurality_wiki/commit/95707e8213fee4e9342b3f77385aebea9eaa35b3)）
@@ -357,7 +357,7 @@
 
 ### 🔧 重构（不改变内容含义）
 
--**（破坏性变更）**迁移为**tags**管理模式，统一词条目录结构（[d267385](https://github.com/kuliantnt/plurality_wiki/commit/d2673853f61b5a4a6eab17e325baa899c826c0e4)）
+-**（破坏性变更）** 迁移为 **tags** 管理模式，统一词条目录结构（[d267385](https://github.com/kuliantnt/plurality_wiki/commit/d2673853f61b5a4a6eab17e325baa899c826c0e4)）
 
 ### 📦 杂务（脚本/CI/批处理）
 

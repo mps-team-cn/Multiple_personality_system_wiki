@@ -280,9 +280,9 @@ mkdocs serve
 
 ## 🧩 Markdown 扩展配置
 
--**统一锚点规则**：`toc.slugify` 与 `pymdownx.tabbed.slugify` 均改用 `pymdownx.slugs.slugify(case="lower-ascii")`，确保在 MkDocs、GitHub 预览与本地编辑器之间生成一致的标题锚点。
--**按钮/卡片兼容性**：继续保留 `attr_list`、`pymdownx.superfences` 等扩展，Material 专用语法在站点渲染，而 GitHub 端会回退为可阅读的纯文本。
--**维护建议**：新增或调整 Markdown 扩展时，请同步验证 `mkdocs serve`、GitHub 网页预览与常用 Markdown 编辑器三端的表现，并在本节记录差异说明。
+- **统一锚点规则** : `toc.slugify` 与 `pymdownx.tabbed.slugify` 均改用 `pymdownx.slugs.slugify(case="lower-ascii")`，确保在 MkDocs、GitHub 预览与本地编辑器之间生成一致的标题锚点。
+- **按钮/卡片兼容性** : 继续保留 `attr_list`、`pymdownx.superfences` 等扩展，Material 专用语法在站点渲染，而 GitHub 端会回退为可阅读的纯文本。
+- **维护建议** : 新增或调整 Markdown 扩展时，请同步验证 `mkdocs serve`、GitHub 网页预览与常用 Markdown 编辑器三端的表现，并在本节记录差异说明。
 
 ---
 
@@ -292,7 +292,7 @@ mkdocs serve
 
 某些功能只在特定主题下可用：
 
--**Material 独有**：
+- **Material 独有** : 
 
   - Grid Cards（卡片网格）
   - Admonitions 高级样式
@@ -301,7 +301,7 @@ mkdocs serve
   - 图片缩放（glightbox）
   - 内容标签页
 
--**切换主题后需要调整**：
+- **切换主题后需要调整** : 
 
   - 首页 `index.md` 可能需要简化（去除 Material 特定语法）
   - 某些 Markdown 扩展可能不支持
@@ -349,10 +349,10 @@ overrides/
 
 ## 📚 参考资源
 
--**MkDocs 官方文档**: [https://www.mkdocs.org/](https://www.mkdocs.org/)
--**Material 主题文档**: [https://squidfunk.github.io/mkdocs-material/](https://squidfunk.github.io/mkdocs-material/)
--**MkDocs 主题目录**: [https://github.com/mkdocs/catalog](https://github.com/mkdocs/catalog)
--**主题选择指南**: [https://www.mkdocs.org/user-guide/choosing-your-theme/](https://www.mkdocs.org/user-guide/choosing-your-theme/)
+- **MkDocs 官方文档** : [https://www.mkdocs.org/](https://www.mkdocs.org/)
+- **Material 主题文档** : [https://squidfunk.github.io/mkdocs-material/](https://squidfunk.github.io/mkdocs-material/)
+- **MkDocs 主题目录** : [https://github.com/mkdocs/catalog](https://github.com/mkdocs/catalog)
+- **主题选择指南** : [https://www.mkdocs.org/user-guide/choosing-your-theme/](https://www.mkdocs.org/user-guide/choosing-your-theme/)
 
 ---
 
