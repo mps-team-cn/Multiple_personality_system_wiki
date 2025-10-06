@@ -5,4 +5,7 @@ AGENTS.md
 tools
 _*.md
 Glossary.md
+docs\VALIDATION_REPORT.md
+docs\Glossary.md
+docs\README.md
 CONTRIBUTING.md
