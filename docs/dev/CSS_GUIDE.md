@@ -17,6 +17,7 @@ docs/assets/
 **使用文件**: `extra-material.css`
 
 **包含功能**:
+
 - ✅ Material CSS 变量自定义
 - ✅ 卡片网格悬停效果
 - ✅ 告示框样式增强
@@ -27,12 +28,15 @@ docs/assets/
 - ✅ 滚动条美化
 
 **配置**:
+
 ```yaml
 
 # mkdocs.yml
 
 extra_css:
+
   - assets/extra-material.css
+
 ```
 
 ### ReadTheDocs / MkDocs 默认 / 其他主题
@@ -40,6 +44,7 @@ extra_css:
 **使用文件**: `extra.css`
 
 **包含功能**:
+
 - ✅ 中文字体优化
 - ✅ 基础表格美化
 - ✅ 代码块样式
@@ -49,12 +54,15 @@ extra_css:
 - ✅ 响应式优化
 
 **配置**:
+
 ```yaml
 
 # mkdocs.yml.readthedocs 或 mkdocs.yml.mkdocs
 
 extra_css:
+
   - assets/extra.css
+
 ```
 
 ## 🔄 切换主题时的处理
@@ -87,26 +95,29 @@ cp mkdocs.yml.mkdocs mkdocs.yml
 # Material 主题
 
 extra_css:
+
   - assets/extra-material.css
 
 # 其他主题
 
 extra_css:
+
   - assets/extra.css
+
 ```
 
 ## 🔗 标题锚点样式
 
-- **目标**：隐藏 Material 主题默认的段落锚点符号（`¶`），同时保留跳转与键盘焦点能力。
-- **实现位置**：`assets/extra-material.css` 与 `assets/extra.css` 均新增 `.headerlink` 规则，统一控制所有主题的标题锚点表现。
-- **交互反馈**：默认状态下锚点完全透明，用户在标题上移动或通过键盘聚焦时依旧可以点击，焦点态会出现描边提示，确保无障碍体验。
-- **维护建议**：如需恢复默认外观，可删除或注释对应的 `.headerlink` 样式段；若要改用自定义图标，可在同一区块覆盖 `::after` 的内容。
+-**目标**：隐藏 Material 主题默认的段落锚点符号（`¶`），同时保留跳转与键盘焦点能力。
+-**实现位置**：`assets/extra-material.css` 与 `assets/extra.css` 均新增 `.headerlink` 规则，统一控制所有主题的标题锚点表现。
+-**交互反馈**：默认状态下锚点完全透明，用户在标题上移动或通过键盘聚焦时依旧可以点击，焦点态会出现描边提示，确保无障碍体验。
+-**维护建议**：如需恢复默认外观，可删除或注释对应的 `.headerlink` 样式段；若要改用自定义图标，可在同一区块覆盖 `::after` 的内容。
 
 ## 📝 自定义样式
 
 ### 添加自定义 CSS
 
-1. **不影响现有样式**：在对应文件末尾追加
+1.**不影响现有样式**：在对应文件末尾追加
 
 ```css
 /* 添加到 extra-material.css 或 extra.css */
@@ -117,7 +128,7 @@ extra_css:
 }
 ```
 
-2. **创建新的 CSS 文件**：
+2.**创建新的 CSS 文件**：
 
 ```bash
 
@@ -131,8 +142,10 @@ touch docs/assets/custom.css
 # 在 mkdocs.yml 中引用
 
 extra_css:
+
   - assets/extra-material.css
   - assets/custom.css  # 你的自定义样式
+
 ```
 
 ### 覆盖默认样式
@@ -156,6 +169,7 @@ body {
 ### 修改主题色
 
 **Material 主题**:
+
 ```css
 /* extra-material.css */
 :root {
@@ -165,6 +179,7 @@ body {
 ```
 
 **通用主题**:
+
 ```css
 /* extra.css */
 a {
@@ -210,6 +225,7 @@ h2 {
 ### Material 专用样式不适用于其他主题
 
 `extra-material.css` 中使用了 Material 特定的：
+
 - CSS 变量（`--md-*`）
 - 类名（`.md-*`）
 - 组件选择器
@@ -218,22 +234,27 @@ h2 {
 
 ### 避免样式冲突
 
-1. **不要同时引用两个样式文件**：
+1.**不要同时引用两个样式文件**：
+
 ```yaml
 
 # ❌ 错误：可能导致样式冲突
 
 extra_css:
+
   - assets/extra-material.css
   - assets/extra.css
 
 # ✅ 正确：根据主题选择一个
 
 extra_css:
+
   - assets/extra-material.css  # 仅 Material
+
 ```
 
-2. **使用特定的类名前缀**：
+2.**使用特定的类名前缀**：
+
 ```css
 /* 自定义样式使用前缀避免冲突 */
 .pw-custom-button {  /* pw = Plurality Wiki */
@@ -244,11 +265,13 @@ extra_css:
 ### 浏览器兼容性
 
 某些现代 CSS 特性可能不支持旧浏览器：
+
 - `color-mix()` - 需要较新浏览器
 - CSS 变量 - IE11 不支持
 - `backdrop-filter` - 部分浏览器不支持
 
 如需兼容旧浏览器，使用 fallback：
+
 ```css
 /* Fallback 示例 */
 .box {
@@ -291,23 +314,26 @@ extra_css:
 ### 常见问题
 
 **样式没有生效**：
+
 - 检查文件路径是否正确
 - 清除浏览器缓存（Ctrl + Shift + R）
 - 检查 CSS 选择器是否正确
 
 **主题色没有改变**：
+
 - Material 主题：检查 `mkdocs.yml` 中的 `theme.palette` 配置
 - 通用主题：检查 CSS 变量或直接样式
 
 **深色模式样式错误**：
+
 - Material：使用 `[data-md-color-scheme="slate"]` 选择器
 - 通用：使用 `@media (prefers-color-scheme: dark)` 媒体查询
 
 ## 📚 参考资源
 
-- **Material CSS 变量**: [https://squidfunk.github.io/mkdocs-material/customization/#css-variables](https://squidfunk.github.io/mkdocs-material/customization/#css-variables)
-- **MDN CSS 文档**: [https://developer.mozilla.org/zh-CN/docs/Web/CSS](https://developer.mozilla.org/zh-CN/docs/Web/CSS)
-- **Can I Use**: [https://caniuse.com/](https://caniuse.com/) (检查 CSS 兼容性)
+-**Material CSS 变量**: [https://squidfunk.github.io/mkdocs-material/customization/#css-variables](https://squidfunk.github.io/mkdocs-material/customization/#css-variables)
+-**MDN CSS 文档**: [https://developer.mozilla.org/zh-CN/docs/Web/CSS](https://developer.mozilla.org/zh-CN/docs/Web/CSS)
+-**Can I Use**: [https://caniuse.com/](https://caniuse.com/) (检查 CSS 兼容性)
 
 ---
 

@@ -1,16 +1,20 @@
 ---
 tags:
+
 - 理论与分类
 - 多重意识体
 - 解离
 - 创伤
+
 topic: 理论与分类
 title: 高敏感人群（Highly Sensitive Person, HSP）
 updated: 2025-10-05
 synonyms:
+
 - 高敏感个体
 - 高敏感人格
 - highly sensitive person
+
 ---
 
 # 高敏感人群（Highly Sensitive Person, HSP）
@@ -21,9 +25,9 @@ synonyms:
 
 ## 核心概念
 
-- **DOES 模型**：深度加工（Depth of processing）、过度刺激（Overstimulation）、情绪反应性（Emotional reactivity）、感官敏锐（Sensory sensitivity）。
-- **遗传与环境交互**：研究显示高敏感特质受基因影响，同时与早期环境互动。
-- **差异易感性**：高敏感个体对正负环境都更敏感，良好环境可促进繁荣。
+-**DOES 模型**：深度加工（Depth of processing）、过度刺激（Overstimulation）、情绪反应性（Emotional reactivity）、感官敏锐（Sensory sensitivity）。
+-**遗传与环境交互**：研究显示高敏感特质受基因影响，同时与早期环境互动。
+-**差异易感性**：高敏感个体对正负环境都更敏感，良好环境可促进繁荣。
 
 ## 理论发展
 

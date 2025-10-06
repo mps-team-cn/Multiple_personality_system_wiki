@@ -1,16 +1,20 @@
 ---
 tags:
+
 - 理论与分类
 - 多重意识体
 - 解离
 - 创伤
+
 topic: 理论与分类
 title: 人格结构理论（Personality Structure Theory, Freud）
 updated: 2025-10-05
 synonyms:
+
 - 本我自我超我理论
 - 弗洛伊德人格结构
 - structural model of psyche
+
 ---
 
 # 人格结构理论（Personality Structure Theory, Freud）
@@ -21,9 +25,9 @@ synonyms:
 
 ## 核心概念
 
-- **本我（Id）**：遵循快乐原则，承载原始欲望与冲动。
-- **自我（Ego）**：遵循现实原则，调节本我冲动与现实要求。
-- **超我（Superego）**：内化的道德与社会规范，对自我施加评判。
+-**本我（Id）**：遵循快乐原则，承载原始欲望与冲动。
+-**自我（Ego）**：遵循现实原则，调节本我冲动与现实要求。
+-**超我（Superego）**：内化的道德与社会规范，对自我施加评判。
 
 ## 理论发展
 
