@@ -54,33 +54,37 @@ docs/assets/
 
 ### 从词条文件引用
 
-词条文件位于 `docs/entries/`，引用资源时使用**绝对路径**（以 `/` 开头，相对于站点根目录）：
+词条文件位于 `docs/entries/`，引用资源时使用**相对路径**（MkDocs 会自动处理）：
 
 ```markdown
-<!-- ✅ 正确：使用绝对路径（推荐） -->
-![解离类型示意图](/assets/figures/types.svg)
-![封面图片](/assets/images/cover.png)
-![提示图标](/assets/icons/warning.svg)
+<!-- ✅ 正确：使用相对于源文件的路径 -->
+![解离类型示意图](../assets/figures/types.svg)
+![封面图片](../assets/images/cover.png)
+![提示图标](../assets/icons/warning.svg)
 
-<!-- ❌ 错误：相对路径会被解析为相对于页面 URL -->
-![解离类型示意图](assets/figures/types.svg)
-<!-- 会被解析为 /entries/xxx/assets/figures/types.svg -->
+<!-- ⚠️ 说明：MkDocs 会根据生成的 HTML 位置自动调整路径 -->
+<!-- 源文件: docs/entries/xxx.md 使用 ../assets/ -->
+<!-- 生成为: site/entries/xxx/index.html 引用 ../../assets/ -->
 ```
 
 ### 从其他文档引用
 
-**所有文档**都使用绝对路径（以 `/` 开头）：
+根据文档位置使用**相对路径**：
 
 ```markdown
-<!-- 从任何位置的文档 -->
-![图表](/assets/figures/diagram.svg)
-![封面](/assets/images/cover.png)
-![图标](/assets/icons/icon.svg)
+<!-- 从 docs/ 根目录的文档（如 index.md） -->
+![图表](assets/figures/diagram.svg)
+
+<!-- 从 docs/entries/ 子目录的文档 -->
+![图表](../assets/figures/diagram.svg)
+
+<!-- 从更深层级的文档，依次增加 ../ -->
+![图表](../../assets/figures/diagram.svg)
 ```
 
-**MkDocs 规范**：
-- 绝对路径：`/assets/...` - 相对于站点根目录（推荐）
-- 相对路径：`assets/...` - 相对于当前页面 URL（不推荐，会出错）
+**MkDocs 路径处理**：
+- MkDocs 自动根据源文件位置和目标文件位置计算路径
+- 使用相对于**源文件**的路径，MkDocs 会在构建时自动调整
 
 ## 图片使用规范
 
@@ -146,13 +150,13 @@ docs/assets/
 
 ### Q: 应该用什么路径格式？
 
-**必须使用绝对路径**（以 `/` 开头）：`/assets/figures/diagram.svg`
+**使用相对于源文件的路径**：
 
-| 路径格式 | 示例 | 是否正确 | 说明 |
+| 路径格式 | 示例 | 适用场景 | 说明 |
 |---------|------|---------|------|
-| 绝对路径 | `/assets/figures/types.svg` | ✅ 推荐 | 相对于站点根目录 |
-| 相对路径 | `assets/figures/types.svg` | ❌ 错误 | 会被解析为 `/entries/xxx/assets/...` |
-| 父级路径 | `../assets/figures/types.svg` | ⚠️ 不推荐 | 仅在特殊情况下使用 |
+| 相对路径 | `../assets/figures/types.svg` | ✅ 推荐 | 从 `docs/entries/` 引用 |
+| 当前目录 | `assets/figures/types.svg` | ✅ 可用 | 从 `docs/` 根目录引用 |
+| 绝对路径 | `/assets/figures/types.svg` | ⚠️ 避免 | 可能在某些环境下失效 |
 
 ### Q: SVG 图标颜色如何适配深色模式？
 

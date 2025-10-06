@@ -152,16 +152,16 @@ ICD-11（6B64）：“…two or more distinct personality states…”（存在�
 
 - **引用路径规范**：
   - 从词条文件（`docs/entries/xxx.md`）引用图片
-  - **必须使用绝对路径**（以 `/` 开头，相对于站点根目录）
-  - ❌ 错误：`assets/figures/diagram.svg`（会被解析为相对于页面 URL）
-  - ✅ 正确：`/assets/figures/diagram.svg`
+  - **使用相对于源文件的路径**（MkDocs 会自动处理）
+  - ✅ 正确：`../assets/figures/diagram.svg`
+  - ❌ 错误：`/assets/figures/diagram.svg`（绝对路径可能失效）
 
 - **引用示例**：
 
   ```markdown
-  ![解离类型示意图](/assets/figures/types.svg)
+  ![解离类型示意图](../assets/figures/types.svg)
 
-  ![封面图片](/assets/images/cover.png)
+  ![封面图片](../assets/images/cover.png)
   ```
 
 ---
