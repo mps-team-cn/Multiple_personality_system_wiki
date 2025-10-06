@@ -108,10 +108,10 @@ extra_css:
 
 ## 🔗 标题锚点样式
 
--**目标**：隐藏 Material 主题默认的段落锚点符号（`¶`），同时保留跳转与键盘焦点能力。
--**实现位置**：`assets/extra-material.css` 与 `assets/extra.css` 均新增 `.headerlink` 规则，统一控制所有主题的标题锚点表现。
--**交互反馈**：默认状态下锚点完全透明，用户在标题上移动或通过键盘聚焦时依旧可以点击，焦点态会出现描边提示，确保无障碍体验。
--**维护建议**：如需恢复默认外观，可删除或注释对应的 `.headerlink` 样式段；若要改用自定义图标，可在同一区块覆盖 `::after` 的内容。
+- **目标** : 隐藏 Material 主题默认的段落锚点符号（`¶`），同时保留跳转与键盘焦点能力。
+- **实现位置** : `assets/extra-material.css` 与 `assets/extra.css` 均新增 `.headerlink` 规则，统一控制所有主题的标题锚点表现。
+- **交互反馈** : 默认状态下锚点完全透明，用户在标题上移动或通过键盘聚焦时依旧可以点击，焦点态会出现描边提示，确保无障碍体验。
+- **维护建议** : 如需恢复默认外观，可删除或注释对应的 `.headerlink` 样式段；若要改用自定义图标，可在同一区块覆盖 `::after` 的内容。
 
 ## 📝 自定义样式
 
@@ -230,7 +230,7 @@ h2 {
 - 类名（`.md-*`）
 - 组件选择器
 
-这些在其他主题中**不会生效**，需要使用通用的 CSS 选择器。
+这些在其他主题中 **不会生效**，需要使用通用的 CSS 选择器。
 
 ### 避免样式冲突
 
@@ -331,9 +331,9 @@ extra_css:
 
 ## 📚 参考资源
 
--**Material CSS 变量**: [https://squidfunk.github.io/mkdocs-material/customization/#css-variables](https://squidfunk.github.io/mkdocs-material/customization/#css-variables)
--**MDN CSS 文档**: [https://developer.mozilla.org/zh-CN/docs/Web/CSS](https://developer.mozilla.org/zh-CN/docs/Web/CSS)
--**Can I Use**: [https://caniuse.com/](https://caniuse.com/) (检查 CSS 兼容性)
+- **Material CSS 变量** : [https://squidfunk.github.io/mkdocs-material/customization/#css-variables](https://squidfunk.github.io/mkdocs-material/customization/#css-variables)
+- **MDN CSS 文档** : [https://developer.mozilla.org/zh-CN/docs/Web/CSS](https://developer.mozilla.org/zh-CN/docs/Web/CSS)
+- **Can I Use** : [https://caniuse.com/](https://caniuse.com/) (检查 CSS 兼容性)
 
 ---
 

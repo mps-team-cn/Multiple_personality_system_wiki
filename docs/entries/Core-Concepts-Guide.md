@@ -104,7 +104,7 @@ updated: 2025-10-06
 
 ### 🔴 病理性多意识体:DID/OSDD
 
-**解离性身份障碍（[DID](DID.md)）** 和 **其他特定解离性障碍（[OSDD](OSDD.md)）** 属于强烈且病理性的意识分离:
+**解离性身份障碍（[DID](DID.md)）** 和 ** 其他特定解离性障碍（[OSDD](OSDD.md)）** 属于强烈且病理性的意识分离:
 
 - **形成原因** :由创伤导致,是大脑在极端环境下的保护机制
 - **特征** :
@@ -138,7 +138,7 @@ updated: 2025-10-06
 
 ## 四、埃蒙加德分类法:从成因理解系统
 
-**埃蒙加德分类法（[Emmengard Classification](Emmengard-Classification.md)）** 是社群内常用的分类框架,按意识体的 **来源** 进行分类:
+**埃蒙加德分类法（[Emmengard Classification](Emmengard-Classification.md)）** 是社群内常用的分类框架,按意识体的 ** 来源** 进行分类:
 
 ### 📊 分类图解
 

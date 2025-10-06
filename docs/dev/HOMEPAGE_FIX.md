@@ -120,13 +120,13 @@ mkdocs serve
 
 ### 推荐配置（当前）
 
--**Material 主题**：使用增强版首页（index-material.md → index.md）
+- **Material 主题** : 使用增强版首页（index-material.md → index.md）
 
   - 包含卡片网格、Material 图标、内容标签页
   - 视觉效果现代化
   - 用户体验更好
 
--**其他主题**：使用通用版首页（index-simple.md → index.md）
+- **其他主题** : 使用通用版首页（index-simple.md → index.md）
 
   - 纯 Markdown 语法
   - 兼容性好
@@ -134,10 +134,10 @@ mkdocs serve
 
 ### 侧边栏建议
 
--**隐藏侧边栏**：适合纯展示型首页（如产品官网）
+- **隐藏侧边栏** : 适合纯展示型首页（如产品官网）
 -**显示侧边栏**（推荐）：适合文档站点，方便导航
 
-当前配置**显示侧边栏**，用户可以：
+当前配置 **显示侧边栏**，用户可以：
 
 - 在左侧导航中快速跳转到不同章节
 - 在右侧目录中查看首页结构
@@ -214,7 +214,7 @@ cp docs/index-material.md docs/index.md  # 切换到 Material 版
 
 - `index-material.md` - Material 增强版源文件
 - `index-simple.md` - 通用版源文件
-- 这些备份文件**不会**被 MkDocs 构建（除非在 nav 中引用）
+- 这些备份文件 **不会** 被 MkDocs 构建（除非在 nav 中引用）
 
 ## 🎉 修复结果
 

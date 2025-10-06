@@ -14,15 +14,15 @@
 
 ### 文件变更
 
--**新增文件**: 156+ 个
--**修改文件**: 5 个
--**删除文件**: 0 个 (旧文件保留作为备份)
+- **新增文件** : 156+ 个
+- **修改文件** : 5 个
+- **删除文件** : 0 个 (旧文件保留作为备份)
 
 ### 内容迁移
 
--**词条数量**: 142 个 Markdown 文件
--**文档文件**: 7 个 (README, CONTRIBUTING, tags, Glossary, changelog, etc.)
--**资源文件**: SVG 图标, JSON 数据文件
+- **词条数量** : 142 个 Markdown 文件
+- **文档文件** : 7 个 (README, CONTRIBUTING, tags, Glossary, changelog, etc.)
+- **资源文件** : SVG 图标, JSON 数据文件
 
 ---
 
@@ -120,10 +120,10 @@ pymdown-extensions>=10.7
 
 #### 新版 (MkDocs Material)
 
--**Grid Cards**: 使用 Material 原生卡片网格
--**Admonitions**: 使用告示框组件显示警告和提示
--**Tabs**: 使用标签页组织核心概念
--**响应式设计**: 自适应移动端和桌面端
+- **Grid Cards** : 使用 Material 原生卡片网格
+- **Admonitions** : 使用告示框组件显示警告和提示
+- **Tabs** : 使用标签页组织核心概念
+- **响应式设计** : 自适应移动端和桌面端
 
 **新特性**:
 
@@ -145,8 +145,8 @@ pymdown-extensions>=10.7
 
 #### 主题颜色
 
--**主色**: `#4FC08D` (青翠绿)
--**强调色**: `#8B9EFF` (冷紫)
+- **主色** : `#4FC08D` (青翠绿)
+- **强调色** : `#8B9EFF` (冷紫)
 -**支持深色/浅色模式切换**
 
 ### 5. JavaScript 增强
@@ -343,15 +343,15 @@ git checkout main  # 或其他稳定分支
 
 ### MkDocs Material 官方文档
 
--**主页**: [https://squidfunk.github.io/mkdocs-material/](https://squidfunk.github.io/mkdocs-material/)
--**快速开始**: [https://squidfunk.github.io/mkdocs-material/getting-started/](https://squidfunk.github.io/mkdocs-material/getting-started/)
--**参考**: [https://squidfunk.github.io/mkdocs-material/reference/](https://squidfunk.github.io/mkdocs-material/reference/)
+- **主页** : [https://squidfunk.github.io/mkdocs-material/](https://squidfunk.github.io/mkdocs-material/)
+- **快速开始** : [https://squidfunk.github.io/mkdocs-material/getting-started/](https://squidfunk.github.io/mkdocs-material/getting-started/)
+- **参考** : [https://squidfunk.github.io/mkdocs-material/reference/](https://squidfunk.github.io/mkdocs-material/reference/)
 
 ### 相关插件
 
--**搜索**: [https://squidfunk.github.io/mkdocs-material/plugins/search/](https://squidfunk.github.io/mkdocs-material/plugins/search/)
--**标签**: [https://squidfunk.github.io/mkdocs-material/plugins/tags/](https://squidfunk.github.io/mkdocs-material/plugins/tags/)
--**Git 修订日期**: [https://github.com/timvink/mkdocs-git-revision-date-localized-plugin](https://github.com/timvink/mkdocs-git-revision-date-localized-plugin)
+- **搜索** : [https://squidfunk.github.io/mkdocs-material/plugins/search/](https://squidfunk.github.io/mkdocs-material/plugins/search/)
+- **标签** : [https://squidfunk.github.io/mkdocs-material/plugins/tags/](https://squidfunk.github.io/mkdocs-material/plugins/tags/)
+- **Git 修订日期** : [https://github.com/timvink/mkdocs-git-revision-date-localized-plugin](https://github.com/timvink/mkdocs-git-revision-date-localized-plugin)
 
 ---
 
@@ -391,10 +391,10 @@ git checkout main  # 或其他稳定分支
 
 感谢以下工具和项目:
 
--**MkDocs**: [https://www.mkdocs.org/](https://www.mkdocs.org/)
--**Material for MkDocs**: [https://squidfunk.github.io/mkdocs-material/](https://squidfunk.github.io/mkdocs-material/)
--**Cloudflare Pages**: [https://pages.cloudflare.com/](https://pages.cloudflare.com/)
--**原 Docsify 版本**: 为迁移提供了基础
+- **MkDocs** : [https://www.mkdocs.org/](https://www.mkdocs.org/)
+- **Material for MkDocs** : [https://squidfunk.github.io/mkdocs-material/](https://squidfunk.github.io/mkdocs-material/)
+- **Cloudflare Pages** : [https://pages.cloudflare.com/](https://pages.cloudflare.com/)
+- **原 Docsify 版本** : 为迁移提供了基础
 
 ---
 
@@ -402,8 +402,8 @@ git checkout main  # 或其他稳定分支
 
 如有问题或建议,请通过以下方式联系:
 
--**GitHub Issues**: [https://github.com/kuliantnt/plurality_wiki/issues](https://github.com/kuliantnt/plurality_wiki/issues)
--**邮件**: (如有)
+- **GitHub Issues** : [https://github.com/kuliantnt/plurality_wiki/issues](https://github.com/kuliantnt/plurality_wiki/issues)
+- **邮件** : (如有)
 
 ---
 

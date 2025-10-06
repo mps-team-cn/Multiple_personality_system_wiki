@@ -25,9 +25,9 @@ synonyms:
 
 ## 核心概念
 
--**DOES 模型**：深度加工（Depth of processing）、过度刺激（Overstimulation）、情绪反应性（Emotional reactivity）、感官敏锐（Sensory sensitivity）。
--**遗传与环境交互**：研究显示高敏感特质受基因影响，同时与早期环境互动。
--**差异易感性**：高敏感个体对正负环境都更敏感，良好环境可促进繁荣。
+- **DOES 模型** : 深度加工（Depth of processing）、过度刺激（Overstimulation）、情绪反应性（Emotional reactivity）、感官敏锐（Sensory sensitivity）。
+- **遗传与环境交互** : 研究显示高敏感特质受基因影响，同时与早期环境互动。
+- **差异易感性** : 高敏感个体对正负环境都更敏感，良好环境可促进繁荣。
 
 ## 理论发展
 
