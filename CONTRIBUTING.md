@@ -174,7 +174,7 @@ ICD-11（6B64）：“…two or more distinct personality states…”（存在�
   - MkDocs 会自动处理 `.md` 扩展名转换为 HTML
   - 禁止使用模糊链接或锚点不明确的链接
 - **目录同步**：更新或新增词条时，必须同步修改：
-  - `docs/tags.md`（运行 `python tools/generate_tags_index.py`）
+  - `docs/tags.md` 由 MkDocs Material 的 tags 插件自动生成
   - `docs/index.md` 首页导航
   - `docs/Glossary.md` 术语表（如适用）
 
@@ -204,10 +204,7 @@ ICD-11（6B64）：“…two or more distinct personality states…”（存在�
    # Markdown lint 检查
    markdownlint "docs/**/*.md" --ignore "node_modules" --ignore "site"
 
-   # 生成标签索引
-   python tools/generate_tags_index.py
-
-   # 本地预览
+   # 本地预览（MkDocs 会自动生成标签索引）
    mkdocs serve
    # 访问 [http://127.0.0.1:8000](http://127.0.0.1:8000)
    ```
@@ -229,7 +226,7 @@ ICD-11（6B64）：“…two or more distinct personality states…”（存在�
 - [ ] 【病理学】含原文摘录（≤25 词）+ 中文翻译 + 链接/页码
 - [ ] 翻译注明译者/校对
 - [ ] 图片/数据版权与许可明确
-- [ ] 内部链接与目录正确；`python tools/generate_tags_index.py` 已执行
+- [ ] 内部链接与目录正确；标签正确填写在 frontmatter
 - [ ] 最后更新时间已更新（`docs/assets/last-updated.json`）
 - [ ] `mkdocs serve` 本地预览无误
 - [ ] `mkdocs build --strict` 构建成功
