@@ -1,19 +1,19 @@
 # Plurality Wiki
 
 > 多重意识体系统与相关心理健康主题的中文知识库与开源协作项目。
-> 在线版（GitHub Pages）：<https://kuliantnt.github.io/plurality_wiki/#/>
+> 在线版本：<https://plurality-wiki.pages.dev/>
 
 - [查看标签索引](tags.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Docs status](https://img.shields.io/badge/docs-online-brightgreen.svg)](https://kuliantnt.github.io/plurality_wiki/#/)
+[![Docs status](https://img.shields.io/badge/docs-online-brightgreen.svg)](https://plurality-wiki.pages.dev/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](CONTRIBUTING.md)
 [![Stars](https://img.shields.io/github/stars/kuliantnt/plurality_wiki?style=social)](https://github.com/kuliantnt/plurality_wiki/stargazers)
 [![工作流 状态](https://img.shields.io/github/actions/workflow/status/kuliantnt/plurality_wiki/ci.yml?label=CI&logo=github)](https://github.com/kuliantnt/plurality_wiki/actions/workflows/docs_quality.yml)
 
 ---
 
-📖 **提示**：如果你是普通读者，请查看网页版本 [GitHUB pages](https://kuliantnt.github.io/plurality_wiki/#/)或[cloud Flare Page](https://plurality-wiki.pages.dev/)；本文档主要面向开发者与贡献者。
+📖 **提示**：如果你是普通读者，请访问在线版本 [plurality-wiki.pages.dev](https://plurality-wiki.pages.dev/)；本文档主要面向开发者与贡献者。
 
 ---
 
@@ -220,29 +220,18 @@ docsify serve .
 
 ## 🚀 部署
 
-### Cloudflare Pages
+本项目使用 **Cloudflare Pages** 进行部署，详细配置请查看 [CLOUDFLARE_PAGES.md](docs/dev/CLOUDFLARE_PAGES.md)。
 
-详细配置请查看 [CLOUDFLARE_PAGES.md](docs/dev/CLOUDFLARE_PAGES.md)。
-
-**快速配置**：
+**构建配置**：
 
 ```yaml
-
-# 构建配置
-
+# Cloudflare Pages 设置
 Build command: bash .cfpages-build.sh
 Build output directory: site
 Environment variables: PYTHON_VERSION=3.11
 ```
 
-### GitHub Pages（备选）
-
-```bash
-
-# 构建并推送到 gh-pages 分支
-
-mkdocs gh-deploy
-```
+**在线地址**：<https://plurality-wiki.pages.dev/>
 
 ---
 
@@ -256,12 +245,13 @@ mkdocs gh-deploy
 - [x] 深色模式支持
 - [x] 搜索功能增强
 - [x] 自动化工具重构（tools/ 目录模块化）
+- [x] Cloudflare Pages 部署配置
+- [x] PDF 导出功能（基于 topic 字段分组）
 
 ### 进行中 🚧
 
 - [ ] 完善文档更新（README、AGENTS、CONTRIBUTING 等）
-- [ ] Cloudflare Pages 部署配置
-- [ ] 本地测试验证
+- [ ] 词条内容扩充与质量提升
 
 ### 计划中 📋
 
