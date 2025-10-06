@@ -103,6 +103,29 @@ li {
   line-height: 1.7;
 }
 
+/* ===== 标题锚点可用性优化 ===== */
+.md-typeset :is(h1, h2, h3, h4, h5, h6) > .headerlink {
+  color: transparent;
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  margin-left: 0.35rem;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+
+.md-typeset :is(h1, h2, h3, h4, h5, h6) > .headerlink::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.md-typeset :is(h1, h2, h3, h4, h5, h6) > .headerlink:focus-visible {
+  outline: 2px solid var(--md-accent-fg-color, #4FC08D);
+  outline-offset: 2px;
+}
+
 /* ===== 水平线 ===== */
 hr {
   border: none;

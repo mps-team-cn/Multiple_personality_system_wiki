@@ -194,6 +194,29 @@ a:hover {
   font-weight: 500;
 }
 
+/* ===== 标题锚点可用性优化 ===== */
+.md-typeset :is(h1, h2, h3, h4, h5, h6) > .headerlink {
+  color: transparent;
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  margin-left: 0.35rem;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+
+.md-typeset :is(h1, h2, h3, h4, h5, h6) > .headerlink::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.md-typeset :is(h1, h2, h3, h4, h5, h6) > .headerlink:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--md-accent-fg-color) 60%, transparent);
+  outline-offset: 2px;
+}
+
 /* ===== 页脚优化 ===== */
 .md-footer {
   border-top: 1px solid color-mix(in srgb, var(--md-primary-fg-color) 20%, transparent);

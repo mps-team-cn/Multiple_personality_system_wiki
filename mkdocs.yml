@@ -142,7 +142,7 @@ markdown_extensions:
       permalink_title: 链接到本节
       slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
-          case: lower
+          case: lower-ascii
 
   # Python Markdown Extensions
   - pymdownx.arithmatex:
@@ -181,7 +181,7 @@ markdown_extensions:
       combine_header_slug: true
       slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
-          case: lower
+          case: lower-ascii
   - pymdownx.tasklist:
       custom_checkbox: true
 
