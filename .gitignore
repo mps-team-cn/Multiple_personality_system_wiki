@@ -3,10 +3,17 @@ tectonic.exe
 tools/pdf_export/pdf_export/__pycache__/*
 *.pdf
 *.log
+<<<<<<< HEAD
 
 # Obsidian workspace and app state (ignore whole folder)
 .obsidian/
 
+=======
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/core-plugins.json
+.obsidian/workspace.json
+>>>>>>> 9a5afd709ddbab77e13c2b212fd5a02af2e07639
 # === Codex ===
 .codex/
 !.codex/
@@ -21,8 +28,13 @@ tools/pdf_export/pdf_export/__pycache__/*
 .codex/**/cache/
 .codex/**/logs/
 # === End Codex ===
+<<<<<<< HEAD
 
 # cache / compiled python
 tools/__pycache__/generate_tags_index.cpython-313.pyc
 tools/__pycache__/retag_and_related.cpython-313.pyc
 
+=======
+tools/__pycache__/generate_tags_index.cpython-313.pyc
+tools/__pycache__/retag_and_related.cpython-313.pyc
+>>>>>>> 9a5afd709ddbab77e13c2b212fd5a02af2e07639
