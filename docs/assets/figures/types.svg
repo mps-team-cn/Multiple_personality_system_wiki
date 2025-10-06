@@ -1,0 +1,47 @@
+<svg viewBox="0 0 320 220" width="100%" role="img" aria-label="类型关系图">
+  <style>
+    text {
+      font-family: "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+      font-size: 16px;
+      text-anchor: middle;
+      fill: currentColor;
+    }
+    circle {
+      r: 10;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+    }
+    line {
+      stroke: currentColor;
+      stroke-width: 2;
+    }
+    circle.center {
+      fill: currentColor;
+    }
+  </style>
+
+  <!-- 上层两个圆 -->
+  <circle cx="100" cy="40" />
+  <text x="100" y="20">创造型</text>
+
+  <circle cx="220" cy="40" />
+  <text x="220" y="20">创伤型</text>
+
+  <!-- 中心 -->
+  <circle class="center" cx="160" cy="110" />
+  <text x="160" y="135">混合型</text>
+
+  <!-- 下层两个圆 -->
+  <circle cx="100" cy="180" />
+  <text x="100" y="205">自发型</text>
+
+  <circle cx="220" cy="180" />
+  <text x="220" y="205">未知型</text>
+
+  <!-- 连线 -->
+  <line x1="100" y1="40" x2="160" y2="110" />
+  <line x1="220" y1="40" x2="160" y2="110" />
+  <line x1="100" y1="180" x2="160" y2="110" />
+  <line x1="220" y1="180" x2="160" y2="110" />
+</svg>
