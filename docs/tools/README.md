@@ -6,11 +6,11 @@
 
 ## 🔄 迁移后的关键变更
 
-- **词条目录**：从 `entries/` 迁移至 `docs/entries/`（保留根目录 `entries/` 作为同步备份）
-- **文档文件**：统一放置在 `docs/` 目录（`README.md`, `CONTRIBUTING.md`, `tags.md`, `Glossary.md` 等）
-- **静态资源**：从 `assets/` 迁移至 `docs/assets/`
-- **构建系统**：使用 `mkdocs build` 替代 Docsify
-- **本地预览**：推荐使用 `mkdocs serve` 替代 `docsify serve` 或 `http.server`
+-**词条目录**：从 `entries/` 迁移至 `docs/entries/`（保留根目录 `entries/` 作为同步备份）
+-**文档文件**：统一放置在 `docs/` 目录（`README.md`, `CONTRIBUTING.md`, `tags.md`, `Glossary.md` 等）
+-**静态资源**：从 `assets/` 迁移至 `docs/assets/`
+-**构建系统**：使用 `mkdocs build` 替代 Docsify
+-**本地预览**：推荐使用 `mkdocs serve` 替代 `docsify serve` 或 `http.server`
 
 ## 工具概览
 
@@ -34,8 +34,8 @@
 | `tools/gen-validation-report.py` | 校验词条结构并生成 `docs/VALIDATION_REPORT.md` | `python tools/gen-validation-report.py` |
 | `tools/retag_and_related.py` | 批量重建 Frontmatter 标签并生成"相关词条"区块 | `python tools/retag_and_related.py` 或 `python tools/retag_and_related.py --dry-run --limit 5` |
 | `tools/run_local_updates.sh` / `tools/run_local_updates.bat` | 串联常用维护脚本，一键完成日常更新任务（已增强：支持参数跳过、进度显示、错误提示） | `bash tools/run_local_updates.sh` 或 `tools\run_local_updates.bat`（均支持 `--skip-*` 选项和 `--help`） |
-| `tools/build_search_index.py` | **[已废弃]** 解析词条 Frontmatter，同步生成带同义词与拼音归一化的 Docsify 搜索索引 JSON（MkDocs 使用内置搜索插件） | ~~`python tools/build_search_index.py`~~ |
-| `generate_tags_index.py` | **[已废弃]** 扫描 Frontmatter 标签并生成 `tags.md` 索引（MkDocs Material 的 tags 插件会自动处理） | ~~`python tools/generate_tags_index.py`~~ |
+| `tools/build_search_index.py` |**[已废弃]**解析词条 Frontmatter，同步生成带同义词与拼音归一化的 Docsify 搜索索引 JSON（MkDocs 使用内置搜索插件） | ~~`python tools/build_search_index.py`~~ |
+| `generate_tags_index.py` |**[已废弃]**扫描 Frontmatter 标签并生成 `tags.md` 索引（MkDocs Material 的 tags 插件会自动处理） | ~~`python tools/generate_tags_index.py`~~ |
 
 如需新增脚本，请保持功能说明与示例用法同步更新本章节，方便贡献者快速定位维护工具。
 
@@ -62,13 +62,13 @@
 
 **支持的修复规则:**
 
-- **MD009**: 移除行尾空白字符(包括全角空格)
-- **MD012**: 压缩连续空行为单行
-- **MD022**: 确保标题前后空行
-- **MD028**: 修复引用块中的空行
-- **MD034**: 转换裸链接为标准格式
-- **MD040**: 为代码围栏添加语言标注
-- **MD047**: 确保文件以单个换行结束
+-**MD009**: 移除行尾空白字符(包括全角空格)
+-**MD012**: 压缩连续空行为单行
+-**MD022**: 确保标题前后空行
+-**MD028**: 修复引用块中的空行
+-**MD034**: 转换裸链接为标准格式
+-**MD040**: 为代码围栏添加语言标注
+-**MD047**: 确保文件以单个换行结束
 
 **编程接口:**
 
@@ -131,10 +131,10 @@ result = check_links_in_file("entries/example.md", repo_root=".")
 
 **核心功能:**
 
-- **标签归一化**: 统一格式、应用同义词映射、大小写处理
-- **智能提取**: 从多个来源提取并按权重排序
-- **有效性验证**: 过滤无效标签(过长、纯数字、停用词等)
-- **索引生成**: 生成按标签分类的词条索引
+-**标签归一化**: 统一格式、应用同义词映射、大小写处理
+-**智能提取**: 从多个来源提取并按权重排序
+-**有效性验证**: 过滤无效标签(过长、纯数字、停用词等)
+-**索引生成**: 生成按标签分类的词条索引
 
 **编程接口:**
 
@@ -207,8 +207,8 @@ tools\run_local_updates.bat --skip-pdf --skip-markdownlint
 2. 刷新标签与相关词条 (`retag_and_related.py`)
 3. 生成最后更新时间索引 (`gen-last-updated.mjs`)
 4. 导出 PDF (`pdf_export/export_to_pdf.py`)
-5. ~~生成标签索引 (`generate_tags_index.py`)~~ **[已废弃]** MkDocs 自动处理
-6. ~~生成搜索索引 (`build_search_index.py`)~~ **[已废弃]** MkDocs 内置搜索
+5. ~~生成标签索引 (`generate_tags_index.py`)~~**[已废弃]**MkDocs 自动处理
+6. ~~生成搜索索引 (`build_search_index.py`)~~**[已废弃]**MkDocs 内置搜索
 7. 自动修复 Markdown (`fix_md.py`)
 8. 运行 markdownlint 校验
 
@@ -246,9 +246,9 @@ markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor
 - `tools/pdf_export/` 的导出流程同样会读取该索引，并在离线 PDF 中展示相同的最后更新时间提示；
 - 如需强制刷新缓存，可重新触发工作流或在部署平台清除静态资源缓存。
 
-### 标签索引维护 **[已自动化]**
+### 标签索引维护**[已自动化]**
 
-> ⚠️ **迁移后变更**：MkDocs Material 的 `tags` 插件会自动处理标签索引，无需手动运行脚本。
+> ⚠️**迁移后变更**：MkDocs Material 的 `tags` 插件会自动处理标签索引，无需手动运行脚本。
 
 - MkDocs 会自动从词条 Frontmatter 读取 `tags` 字段
 - 构建时自动生成 `tags.md` 标签索引页面
@@ -260,9 +260,9 @@ markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor
 - ~~`python tools/generate_tags_index.py`~~ - 不再需要手动运行
 - ~~CI 检查 `tags.md` 是否最新~~ - MkDocs 自动处理
 
-### 搜索索引维护 **[已自动化]**
+### 搜索索引维护**[已自动化]**
 
-> ⚠️ **迁移后变更**：MkDocs Material 使用内置搜索插件，支持中文分词和智能建议。
+> ⚠️**迁移后变更**：MkDocs Material 使用内置搜索插件，支持中文分词和智能建议。
 
 - MkDocs 构建时自动生成搜索索引
 - 支持中文、英文分词和搜索建议
