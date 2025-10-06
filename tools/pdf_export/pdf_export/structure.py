@@ -14,16 +14,6 @@ from .models import CategoryStructure, EntryDocument, IgnoreRules
 from .paths import ENTRIES_DIR, PROJECT_ROOT, PREFACE_PATH, INDEX_PATH, DOCS_DIR
 
 
-# PDF 导出使用的主要标签分类（固定顺序）
-MAIN_TAGS_ORDER = [
-    "诊断与临床",
-    "系统运作",
-    "创伤与疗愈",
-    "角色与身份",
-    "理论与分类",
-    "文化与表现",
-]
-
 # "其他"分类的标题
 OTHER_CATEGORY_TITLE = "其他"
 
@@ -45,6 +35,7 @@ def _build_preface_section(ignore: IgnoreRules) -> tuple[str, tuple[EntryDocumen
         path=preface_path.resolve(),
         title=infer_entry_title(preface_path),
         tags=(),
+        topic="",
         body=content,
     )
     return ("前言", (document,))
@@ -90,6 +81,7 @@ def _load_entry_documents(ignore: IgnoreRules) -> OrderedDict[Path, EntryDocumen
                             path=path.resolve(),
                             title=infer_entry_title(path),
                             tags=(),
+                            topic="",
                             body=content,
                         )
                     except OSError as error:
@@ -202,54 +194,45 @@ def _build_fallback_section(
     return ("未索引词条", tuple(ordered))
 
 
-def _build_sections_by_tags(
+def _build_sections_by_topic(
     documents: Iterable[EntryDocument],
 ) -> list[tuple[str, tuple[EntryDocument, ...]]]:
-    """根据词条的 tags 分组生成章节，仅使用预定义的主标签分类。
+    """根据词条的 topic 字段分组生成章节。
 
-    一个词条可以出现在多个章节中（如果它有多个主标签）。
-    不在任何主标签中的词条会被归入"其他"分类。
+    每个词条按其 topic 字段归入对应章节。
+    topic 为空的词条会被归入"其他"分类。
+    章节顺序按 topic 名称排序。
     """
 
-    # 为每个主标签收集对应的词条
-    tag_to_documents: dict[str, list[EntryDocument]] = defaultdict(list)
-    # 追踪哪些词条已经被归类
-    categorized_paths: set[Path] = set()
+    # 收集所有的 topic 并分组
+    topic_to_documents: dict[str, list[EntryDocument]] = defaultdict(list)
 
     for document in documents:
-        document_has_main_tag = False
-
-        if document.tags:
-            # 检查词条的每个 tag 是否在主标签列表中
-            for tag in document.tags:
-                if tag in MAIN_TAGS_ORDER:
-                    tag_to_documents[tag].append(document)
-                    document_has_main_tag = True
-
-            # 如果词条有任何主标签，标记为已分类
-            if document_has_main_tag:
-                categorized_paths.add(document.path)
-
-        # 如果词条没有任何主标签，归入"其他"
-        if not document_has_main_tag:
-            tag_to_documents[OTHER_CATEGORY_TITLE].append(document)
+        # 如果 topic 为空或不存在，归入"其他"
+        if not document.topic or not document.topic.strip():
+            topic_to_documents[OTHER_CATEGORY_TITLE].append(document)
+        else:
+            topic_to_documents[document.topic].append(document)
 
     sections: list[tuple[str, tuple[EntryDocument, ...]]] = []
 
-    # 按预定义顺序添加主标签章节
-    for tag in MAIN_TAGS_ORDER:
-        if tag in tag_to_documents:
-            # 按标题排序
-            sorted_docs = sorted(
-                tag_to_documents[tag],
-                key=lambda doc: (doc.title, doc.path.name)
-            )
-            sections.append((tag, tuple(sorted_docs)))
+    # 按 topic 名称排序（中文按拼音排序）
+    for topic in sorted(topic_to_documents.keys()):
+        # 跳过"其他"，最后添加
+        if topic == OTHER_CATEGORY_TITLE:
+            continue
 
-    # 添加"其他"分类（如果有）
-    if OTHER_CATEGORY_TITLE in tag_to_documents:
+        # 按标题排序
         sorted_docs = sorted(
-            tag_to_documents[OTHER_CATEGORY_TITLE],
+            topic_to_documents[topic],
+            key=lambda doc: (doc.title, doc.path.name)
+        )
+        sections.append((topic, tuple(sorted_docs)))
+
+    # 最后添加"其他"分类（如果有）
+    if OTHER_CATEGORY_TITLE in topic_to_documents:
+        sorted_docs = sorted(
+            topic_to_documents[OTHER_CATEGORY_TITLE],
             key=lambda doc: (doc.title, doc.path.name)
         )
         sections.append((OTHER_CATEGORY_TITLE, tuple(sorted_docs)))
@@ -272,10 +255,10 @@ def _build_untagged_section(
 
 
 def collect_markdown_structure(ignore: IgnoreRules) -> CategoryStructure:
-    """依据词条的 tags 构建 PDF 导出结构。
+    """依据词条的 topic 字段构建 PDF 导出结构。
 
-    仅使用预定义的主标签分类（诊断与临床、系统运作等），
-    不在主标签中的词条统一归入"其他"分类。
+    根据每个词条的 topic 字段自动分组，
+    topic 为空的词条归入"其他"分类。
     """
 
     documents = _load_entry_documents(ignore)
@@ -286,8 +269,8 @@ def collect_markdown_structure(ignore: IgnoreRules) -> CategoryStructure:
     if preface_section is not None:
         categories.append(preface_section)
 
-    # 按主标签构建章节（包含"其他"分类）
-    tag_sections = _build_sections_by_tags(documents.values())
-    categories.extend(tag_sections)
+    # 按 topic 构建章节（包含"其他"分类）
+    topic_sections = _build_sections_by_topic(documents.values())
+    categories.extend(topic_sections)
 
     return tuple(categories)
