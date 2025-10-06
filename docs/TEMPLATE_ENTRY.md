@@ -94,11 +94,11 @@ updated: YYYY-MM-DD
 
 **路径规范**：使用相对于源文件的路径（MkDocs 会自动处理）
 
-```markdown
+```
 ![解离机制示意图](../assets/figures/mechanism.svg)
 
 *图：结构性解离理论模型（来源：xxxx）*
-```
+```text
 
 ---
 
