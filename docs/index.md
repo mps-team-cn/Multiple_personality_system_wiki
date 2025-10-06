@@ -26,7 +26,7 @@
 
 ## 🎯 核心主题
 
-### :material-hospital-box: 诊断与临床
+### :material-hospital-box: [诊断与临床](Clinical-Diagnosis-Guide.md)
 
 理解解离障碍、创伤相关诊断及临床治疗
 
@@ -38,7 +38,7 @@
 
 [:octicons-arrow-right-24: 查看诊断与临床导览](Clinical-Diagnosis-Guide.md)
 
-### :material-account-group: 系统运作与协作
+### :material-account-group: [系统运作与协作](System-Operations.md)
 
 掌握多意识体系统的日常运作机制
 
@@ -50,7 +50,7 @@
 
 [:octicons-arrow-right-24: 查看系统运作导览](System-Operations.md)
 
-### :material-heart-pulse: 创伤与疗愈
+### :material-heart-pulse: [创伤与疗愈](Trauma-Healing-Guide.md)
 
 了解创伤机制与循证治疗方法
 
@@ -62,7 +62,7 @@
 
 [:octicons-arrow-right-24: 探索创伤与疗愈导览](Trauma-Healing-Guide.md)
 
-### :material-account-multiple: 角色与身份
+### :material-account-multiple: [角色与身份](Roles-Identity-Guide.md)
 
 认识系统中的不同角色与职能分工
 
@@ -74,7 +74,7 @@
 
 [:octicons-arrow-right-24: 了解角色与身份导览](Roles-Identity-Guide.md)
 
-### :material-book-open-variant: 理论与分类
+### :material-book-open-variant: [理论与分类](Theory-Classification-Guide.md)
 
 探索多意识体的理论框架与分类体系
 
@@ -86,7 +86,7 @@
 
 [:octicons-arrow-right-24: 阅读理论与分类导览](Theory-Classification-Guide.md)
 
-### :material-palette: 文化与表现
+### :material-palette: [文化与表现](Cultural-Media-Guide.md)
 
 文学、影视作品中的多意识体主题
 
