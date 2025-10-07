@@ -128,6 +128,47 @@ export async function onRequestGet(context: any) {
       { "Set-Cookie": clearState }
     );
 
-  // Step 5：返回 token
+  // Step 5：返回 token（使用 Decap CMS 需要的格式）
+  // 如果有 message 参数，说明是 popup 模式，需要返回 HTML
+  if (url.searchParams.has("message")) {
+    const html = `
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>认证成功</title>
+</head>
+<body>
+  <script>
+    (function() {
+      function recieveMessage(e) {
+        console.log("recieveMessage %o", e)
+        // send message to main window with the app
+        window.opener.postMessage(
+          'authorization:github:success:${JSON.stringify({ token: accessToken, provider: "github" })}',
+          e.origin
+        )
+      }
+      window.addEventListener("message", recieveMessage, false)
+      // Start handshare with parent
+      console.log("Sending message: %o", "github")
+      window.opener.postMessage("authorizing:github", "*")
+    })()
+  </script>
+  <p style="text-align: center; font-family: sans-serif; margin-top: 50px;">
+    认证成功！正在跳转...
+  </p>
+</body>
+</html>`;
+    return new Response(html, {
+      status: 200,
+      headers: {
+        "Content-Type": "text/html; charset=utf-8",
+        "Set-Cookie": clearState,
+      },
+    });
+  }
+
+  // 普通模式返回 JSON
   return json({ token: accessToken }, 200, { "Set-Cookie": clearState });
 }
