@@ -4,32 +4,139 @@ __pycache__/
 *$py.class
 *.so
 .Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+.pytype/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.pnpm-debug.log*
 
 # === Build & Output ===
 *.log
+site/
+.mkdocs_cache/
+_site/
+.docsify_cache/
 
-# 忽略大型二进制文件
+# === 大型二进制文件 ===
 *.exe
 *.pdf
+*.zip
+*.tar.gz
+*.rar
 
 # PDF 文件已从仓库移除，改用 GitHub Releases 发布
 # !releases/*.pdf
+
+# === 编辑器 & IDE ===
+# Obsidian
+.obsidian/
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim
+*.swp
+*.swo
+*~
+.*.sw[a-z]
+
+# === 操作系统 ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+.directory
+.Trash-*
+.nfs*
+
 # === Claude ===
 .claude/cache/
 .claude/logs/
 .claude/temp/
 .claude/*.db
 .claude/session*
+.claude/app.json
 # 但保留配置文件和Claude.md
 !.claude/
 !.claude/settings*
 !.claude/CLAUDE.md
 !.claude/.gitkeep
 # === End Claude ===
-.obsidian/app.json
-.obsidian/appearance.json
-.obsidian/core-plugins.json
-.obsidian/workspace.json
+
 # === Codex ===
 .codex/
 !.codex/
@@ -45,6 +152,12 @@ __pycache__/
 .codex/**/logs/
 # === End Codex ===
 
-# MkDocs
-site/
-.mkdocs_cache/
+# === 临时文件 & 缓存 ===
+*.tmp
+*.temp
+*.bak
+*.swp
+.cache/
+.temp/
+tmp/
+temp/

@@ -21,6 +21,7 @@
   - 备份位置：`entries/` 根目录（保留同步，便于工具兼容）
   - 不得新建二级子目录，分类信息统一通过 Frontmatter `tags` 字段声明
 - **词条 Frontmatter**：每篇词条必须在文件开头声明 `---` 包裹的 YAML，至少包含 `title` / `tags` / `updated` 三个字段。
+- 词条加粗 : 必须满足` **加粗内容** `既加粗内容前后都需要加空格，以便于MKDoc识别。
 - **文档**：
   - MkDocs 文档：统一放在 `docs/` 目录（包括 `index.md`、`README.md`、`CONTRIBUTING.md`、`Glossary.md` 等）
   - 开发者文档：`docs/ADMIN_GUIDE.md`、`docs/GITHUB_WORKFLOW.md`、`docs/TEMPLATE_ENTRY.md` 等
@@ -30,10 +31,9 @@
 ### 1.3 索引与链接规范
 
 - 新增或修改词条时，必须同步维护：
-  - `docs/tags.md` → 运行 `python tools/generate_tags_index.py` 自动生成
   - `docs/index.md` → MkDocs 首页导航
   - `docs/Glossary.md` → 术语表（如适用）
-  - `docs/assets/last-updated.json` → 词条最后更新时间（运行 `node scripts/gen-last-updated.mjs` 生成）
+  - `docs/ssets/last-updated.json` → 词条最后更新时间（运行 `node scripts/gen-last-updated.mjs` 生成）
 - 条目内链接规范：
   - **MkDocs 内部链接**：使用相对路径 `entries/Admin.md` 或 `../entries/Admin.md`
   - MkDocs 会自动处理 `.md` 扩展名转换为 HTML
@@ -67,7 +67,7 @@
 ## 3. 工具与脚本
 
 - 所有工具位于 `tools/` 目录，相关文档放置在 `docs/tools/README.md`。
-- **PDF 导出工具**（`tools/pdf_export/`）：
+- **PDF 导出工具** （`tools/pdf_export/`）：
   - **环境**：Python ≥ 3.10
   - **规范**：
     - 使用 `pathlib.Path`，禁止字符串拼接路径。
@@ -106,7 +106,6 @@
   ```
 
 - **构建测试**：
-
   ```bash
   # 构建静态站点
   mkdocs build
@@ -119,12 +118,6 @@
 
   ```bash
   python -m compileall tools/pdf_export/export_to_pdf.py
-  ```
-
-- **Markdown 本地预览**（旧版 Docsify，已弃用）：
-
-  ```bash
-  npx docsify serve .
   ```
 
 ---
@@ -177,7 +170,8 @@ markdownlint "docs/**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/v
 markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor" --ignore "site"
 ```
 
-### 7.3 规则说明与例外
+
+k### 7.3 规则说明与例外
 
 - 脚本会自动修复：MD012 / MD022 / MD040 / MD009 / MD034 / MD047 / MD028
 - **需人工处理**：

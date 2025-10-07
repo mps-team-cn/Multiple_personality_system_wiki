@@ -115,7 +115,7 @@
 
 - [**Tulpa 完全创造指南**](entries/Tulpa-Guide.md) - 从基础到进阶的完整教程
 - [**冥想（Meditation）**](entries/Meditation.md) - 专注力训练与意识稳定
-- [**可视化想象**](entries/Visualization-Imagination.md) - 心像构建与形象塑造
+- [**内视**](entries/Visualization-Imagination.md) - 心像构建与形象塑造
 - [**接地（Grounding）**](entries/Grounding.md) - 回到当下的稳定技巧
 - [**内部沟通**](entries/Internal-Communication.md) - 成员间的交流方法
 
@@ -131,10 +131,10 @@
 
 **从解离说起，建立理论框架**
 
-- 什么是[解离](entries/Dissociation.md)？解离与[多意识体](entries/Plurality.md)的关系
-- 健康多意识体（[Tulpa](entries/Tulpa.md)）vs 病理性多意识体（[DID](entries/DID.md)/[OSDD](entries/OSDD.md)）
-- [埃蒙加德分类法](entries/Emmengard-Classification.md)：按成因理解系统类型
-- 常见误区澄清与新手建议
+  - 什么是[解离](entries/Dissociation.md)？解离与[多意识体](entries/Plurality.md)的关系
+  - 健康多意识体（[Tulpa](entries/Tulpa.md)）vs 病理性多意识体（[DID](entries/DID.md)/[OSDD](entries/OSDD.md)）
+  - [埃蒙加德分类法](entries/Emmengard-Classification.md)：按成因理解系统类型
+  - 常见误区澄清与新手建议
 
 👉**适合：** 完全的新手，想要建立基础认知框架
 
@@ -142,12 +142,12 @@
 
 **理解创伤、诊断与治疗**
 
-- [创伤](entries/Trauma.md)类型（I 型 vs II 型）与神经生物学基础
-- [PTSD](entries/PTSD.md) 与 [CPTSD](entries/CPTSD.md) 的诊断标准（DSM-5-TR/ICD-11）
-- [解离](entries/Dissociation.md)谱系：从适应到病理
-- [抑郁](entries/Depressive-Disorders.md)、[焦虑](entries/Anxiety.md)与共病问题
-- 循证治疗方法（EMDR、TF-CBT、DBT 等）
-- [接地](entries/Grounding.md)技巧与实用自我照护策略
+  - [创伤](entries/Trauma.md)类型（I 型 vs II 型）与神经生物学基础
+  - [PTSD](entries/PTSD.md) 与 [CPTSD](entries/CPTSD.md) 的诊断标准（DSM-5-TR/ICD-11）
+  - [解离](entries/Dissociation.md)谱系：从适应到病理
+  - [抑郁](entries/Depressive-Disorders.md)、[焦虑](entries/Anxiety.md)与共病问题
+  - 循证治疗方法（EMDR、TF-CBT、DBT 等）
+  - [接地](entries/Grounding.md)技巧与实用自我照护策略
 
 👉**适合：** 关注心理健康、创伤康复或临床知识的读者
 
