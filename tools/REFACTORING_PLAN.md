@@ -1,5 +1,7 @@
 # Tools 目录重构计划
 
+> **重要更新**：2025-10-07 - MkDocs Material 迁移后，部分工具已过时，详见 [CLEANUP_RECOMMENDATIONS.md](CLEANUP_RECOMMENDATIONS.md)
+
 ## 📋 重构概览
 
 本文档记录了 tools 目录的重构过程，目标是提升代码质量、可维护性和开发效率。
@@ -174,11 +176,11 @@ tools/
 - [x] 实现 TagProcessor
 - [ ] 单元测试编写（待定）
 
-### 第三阶段：生成器实现（待定 ⏳）
+### 第三阶段：生成器实现（部分取消 ⚠️）
 
-- [ ] 重构搜索索引生成器
-- [ ] 重构标签索引生成器
-- [ ] 重构变更日志生成器
+- [x] ~~重构搜索索引生成器~~ - MkDocs Material search 插件自动处理
+- [x] ~~重构标签索引生成器~~ - MkDocs Material tags 插件自动处理
+- [ ] 重构变更日志生成器 - 保留 `gen_changelog_by_tags.py`
 - [ ] 性能测试和优化
 
 ### 第四阶段：校验器实现（待定 ⏳）
@@ -206,8 +208,8 @@ tools/
 2. **迁移顺序**
    - `fix_md.py` → `processors/markdown.py`
    - `check_links.py` → `processors/links.py`
-   - `generate_tags_index.py` + `retag_and_related.py` → `processors/tags.py`
-   - `build_search_index.py` → `generators/search_index.py`
+   - ~~`generate_tags_index.py` + `retag_and_related.py` → `processors/tags.py`~~ - 已废弃，移至 `deprecated/`
+   - ~~`build_search_index.py` → `generators/search_index.py`~~ - MkDocs 插件替代
    - `gen-validation-report.py` → `validators/content.py`
    - `gen_changelog_by_tags.py` → `generators/changelog.py`
 
