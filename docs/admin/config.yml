@@ -1,14 +1,12 @@
-# 本地测试环境配置：使用 test-repo
-# 部署到生产环境时，需要切换回 github backend
+# 生产环境配置：使用 GitHub backend
+# 本地测试时可以改为 test-repo
 
 backend:
-  name: test-repo
-  # 生产环境配置：
-  # name: github
-  # repo: kuliantnt/plurality_wiki
-  # branch: main
-  # base_url: https://plurality-wiki.pages.dev
-  # auth_endpoint: /api/auth
+  name: github
+  repo: kuliantnt/plurality_wiki
+  branch: main
+  base_url: https://plurality-wiki.pages.dev
+  auth_endpoint: /api/auth
 
 # 中文本地化
 locale: zh_Hans
