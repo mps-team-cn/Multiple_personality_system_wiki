@@ -88,24 +88,24 @@ extra:
       name: GitHub 仓库
 
   # 分析（本地开发时注释，部署时启用）
-  # analytics:
-  #   provider: google
-  #   property: !ENV GOOGLE_ANALYTICS_KEY
-  #   feedback:
-  #     title: 这个页面有帮助吗?
-  #     ratings:
-  #       - icon: material/emoticon-happy-outline
-  #         name: 很有帮助
-  #         data: 1
-  #         note: >-
-  #           感谢您的反馈!
-  #       - icon: material/emoticon-sad-outline
-  #         name: 有待改进
-  #         data: 0
-  #         note: >-
-  #           感谢您的反馈! 请在
-  #           <a href="https://github.com/kuliantnt/plurality_wiki/issues" target="_blank" rel="noopener">GitHub</a>
-  #           提出改进建议。
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+    feedback:
+      title: 这个页面有帮助吗?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: 很有帮助
+          data: 1
+          note: >-
+            感谢您的反馈!
+        - icon: material/emoticon-sad-outline
+          name: 有待改进
+          data: 0
+          note: >-
+            感谢您的反馈! 请在
+            <a href="https://github.com/kuliantnt/plurality_wiki/issues" target="_blank" rel="noopener">GitHub</a>
+            提出改进建议。
 
   # 版本控制（暂未启用，计划中）
   # version:
@@ -254,7 +254,7 @@ nav:
         - entries/Apparently-Normal-Part-Emotional-Part-Model.md
         - entries/Personality-Structure-Theory.md
   - 系统运作:
-    - 系统运作导览: System-Operations.md
+    - 系统运作导览: entries/System-Operations.md
     - 前台与切换:
         - entries/Front-Fronting.md
         - entries/Switch.md
@@ -282,7 +282,7 @@ nav:
     - entries/Trauma.md
     - entries/Grounding.md
   - 实践指南:
-    - 实践指南导览: Practice-Guide.md
+    - 实践指南导览: entries/Practice-Guide.md
     - Tulpa 创造指南:
         - 指南总览: entries/Tulpa-Guide.md
         - 基础篇: entries/Tulpa-Guide-1.md
