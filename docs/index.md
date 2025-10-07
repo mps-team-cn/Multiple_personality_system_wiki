@@ -12,11 +12,11 @@
 
 ## 首页导览
 
-- :material-compass: **新手导览** —— 了解多意识体的基础概念、诊断与协作要点。  
+- :material-compass: **新手导览** —— 了解多意识体的基础概念、诊断与协作要点。
   [查看学习路径](#learning-path) · [核心概念速览](entries/Core-Concepts-Guide.md)
-- :material-head-heart: **照护支持** —— 快速找到创伤、自我照护与危机应对资源。  
+- :material-head-heart: **照护支持** —— 快速找到创伤、自我照护与危机应对资源。
   [前往创伤与疗愈](#trauma-healing) · [心理健康导览](entries/Mental-Health-Guide.md)
-- :material-account-group: **社区协作** —— 学习系统协作技巧，增强与成员的连结。  
+- :material-account-group: **社区协作** —— 学习系统协作技巧，增强与成员的连结。
   [浏览系统运作](#system-operations) · [实践指南入口](entries/Practice-Guide.md)
 
 ---

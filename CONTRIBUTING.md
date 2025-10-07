@@ -18,6 +18,28 @@
 
 ### 2. 本地开发
 
+#### 方式 A：使用 Sveltia CMS（推荐）
+
+**在线编辑**：
+
+- 访问 <https://plurality-wiki.pages.dev/admin/>
+- 使用 GitHub 账号登录
+- 需要有仓库协作者权限
+
+**本地编辑**：
+
+```bash
+# 启动本地服务器
+python -m http.server 8000 --directory docs
+
+# 访问 http://localhost:8000/admin/
+# 点击 "Work with Local Repository" 选择仓库目录
+```
+
+详见 [本地开发指南](local-dev-server.md)
+
+#### 方式 B：手动编辑
+
 ```bash
 
 # 安装依赖

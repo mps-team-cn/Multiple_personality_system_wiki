@@ -1,4 +1,4 @@
-// GitHub OAuth 代理 for Decap CMS (Plurality Wiki)
+// GitHub OAuth 代理 for Sveltia CMS (Plurality Wiki)
 // 兼容 Cloudflare Pages Functions 环境
 
 function json(data: any, status = 200, extra: Record<string, string> = {}) {
@@ -115,7 +115,7 @@ export async function onRequestGet(context: any) {
   const userRes = await fetch("https://api.github.com/user", {
     headers: {
       Authorization: `token ${accessToken}`,
-      "User-Agent": "Plurality-Wiki-DecapCMS",
+      "User-Agent": "Plurality-Wiki-SveltiaCMS",
     },
   });
   const user = await userRes.json();
@@ -128,7 +128,7 @@ export async function onRequestGet(context: any) {
       { "Set-Cookie": clearState }
     );
 
-  // Step 5：返回 token（Decap CMS 使用 popup 模式，需要 postMessage）
+  // Step 5：返回 token（Sveltia CMS 使用 popup 模式，需要 postMessage）
   const html = `
 <!DOCTYPE html>
 <html>

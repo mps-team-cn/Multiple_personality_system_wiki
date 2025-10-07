@@ -1,5 +1,49 @@
 # 更新日志
 
+## [v3.5.0](https://github.com/kuliantnt/plurality_wiki/releases/tag/v3.5.0) - Sveltia CMS 迁移与增强 (2025-10-07)
+
+### ✨ 新功能
+
+- **feat(admin)**: 迁移到 Sveltia CMS，提供更好的搜索和用户体验
+- **feat**: 优化 Decap CMS 配置，增强词条过滤和分组功能
+- **feat**: 添加 topic 主题分类字段
+- **feat**: 添加 Decap CMS 本地开发配置
+
+### 🐛 修复
+
+- **fix(admin)**: 移除多余的 en 字段，title 已包含英文/缩写
+- **fix(admin)**: 更新 topic 字段下拉选项以匹配实际值
+- **fix(admin)**: 修正 topic 筛选器以匹配实际词条值
+- **fix(entries)**: 统一 topic 字段值为"诊断与临床"
+- **fix(auth)**: 修复 OAuth 回调使用 postMessage 与 Decap CMS 通信
+- **fix**: 修复 Decap CMS 布局问题并优化样式
+- **fix**: 修复登录页面 Logo 和双重加载动画问题
+- **fix(cms)**: 创建缺失的媒体上传目录修复 Decap CMS 加载问题
+
+### 📝 文档
+
+- **docs**: 完成 Sveltia CMS 迁移相关文档更新
+- **docs**: 更新 README 工具说明
+
+### 🎨 样式优化
+
+- **style**: 全面升级 Decap CMS 界面设计
+- **style**: 大幅简化 admin.css，移除冲突样式
+
+### 🔧 重构
+
+- **refactor**: 删除重复的病理性解离词条，统一使用解离障碍
+- **refactor(admin)**: 移除自定义加载动画，使用 Decap CMS 自带加载器
+- **refactor**: 优化 Decap CMS OAuth 认证流程
+
+### 其他改进
+
+- 优化词条列表布局和添加排序分页功能
+- 切换回生产环境配置
+- 在主页和诊断导览中添加完整解离障碍词条链接
+
+---
+
 ## [v3.4.0](https://github.com/kuliantnt/plurality_wiki/releases/tag/v3.4.0) - 工具重构与链接检查增强 (2025-10-07)
 
 ### 🔧 工具重构与整合
