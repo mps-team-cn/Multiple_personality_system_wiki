@@ -33,8 +33,24 @@ collections:
     folder: "docs/entries"
     create: true
     slug: "{{slug}}"
+
+    # 排序和显示配置
+    sortable_fields: ['title', 'updated', 'topic']
+    view_filters:
+      - label: "按主题"
+        field: topic
+        pattern: ''
+      - label: "最近更新"
+        field: updated
+        pattern: ''
+    view_groups:
+      - label: "主题"
+        field: topic
+    summary: "{{title}} - {{topic}} ({{updated}})"
+
     editor:
       preview: true
+
     fields:
       - label: "标题（中文）"
         name: "title"
