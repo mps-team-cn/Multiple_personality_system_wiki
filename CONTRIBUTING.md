@@ -107,7 +107,7 @@ mkdocs serve
 
 - [完整贡献指南](docs/contributing/index.md)
 - [词条模板](docs/TEMPLATE_ENTRY.md)
-- [工具文档](tools/README.md)
+- [工具文档](docs/tools/README.md)
 - [前端架构](docs/dev/FRONTEND_ARCHITECTURE.md)
 
 ---
