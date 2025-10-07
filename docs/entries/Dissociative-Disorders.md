@@ -8,7 +8,7 @@ tags:
 - DSM-5
 - ICD-11
 
-topic: 临床诊断
+topic: 诊断与临床
 title: 解离障碍（Dissociative Disorders）
 updated: 2025-10-07
 ---
