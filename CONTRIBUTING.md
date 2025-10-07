@@ -1,260 +1,123 @@
-# Plurality Wiki 贡献指南（CONTRIBUTING.md）
+# Plurality Wiki 贡献指南
 
-本文件定义了 **Plurality Wiki** 的贡献规则与开发约定，适用于人类贡献者与自动化工具。
-目标是保证条目内容的 **一致性、严谨性、可验证性** ，并确保引用有清晰出处。
+欢迎参与 **Plurality Wiki** 的建设！
 
----
-
-## 1. 通用约定
-
-- **语言规范**
-
-  - 所有条目、说明文档、提交信息统一使用简体中文。
-  - 一级标题统一采用 `中文名（English/缩写）` 格式，若为诊断或疾病则在括号内使用标准缩写（如“解离性身份障碍（DID）”）。
-  - 首次出现时必须标注 **英文原名与缩写** 。
-
-- **文件结构**
-
-  **重要** ：本项目已从 Docsify 迁移至 MkDocs Material。
-
-  - 所有词条文件统一存放在 `docs/entries/` 目录（MkDocs 构建源），不得再建立二级子目录。
-  - 备份同步：`entries/` 根目录保留词条副本，便于工具兼容。
-  - 每篇词条必须以 YAML Frontmatter 开头，并声明 `title`、`tags`、`updated` 字段。
-  - 禁止在其他目录撰写词条。
-
-- **Markdown 规范**
-
-  - 一级标题：词条名
-  - 二级及以下标题：依层级递增
-  - 必要时在文首添加 **触发警示** （如涉及创伤、暴力、自伤、性侵等内容）。
-
-- **格式规范（MkDocs Material 兼容性）**
-
-  为确保在 MkDocs Material 中正确渲染，请遵循以下格式规范：
-
-  1. **加粗链接格式**
-     - ❌ 错误：` **[文本](链接)** `
-     - ✅ 正确：` **文本（[链接](url)）** `
-     - 说明：MkDocs Material 无法正确渲染加粗标记包裹链接的格式
-
-  2. **列表中的加粗文本**
-     - ❌ 错误：`- 可以切**意识**`
-     - ✅ 正确：`- 可以切 **意识** `
-     - 说明：加粗标记前需要空格以确保正确渲染
-
-  3. **链接文本中的括号**
-     - ❌ 错误：`[创伤(Trauma)](Trauma.md)`
-     - ✅ 正确：`[创伤（Trauma）](Trauma.md)`
-     - 说明：统一使用全角括号（）而非半角括号()
-
-  4. **冒号格式**
-     - ❌ 错误：`参阅:`
-     - ✅ 正确：`参阅：`
-     - 说明：在中文语境中使用全角冒号
-
-  > 💡 **自动修复工具** ：运行 `python tools/fix_bold_format.py` 可自动修复以上格式问题。
-
-- **提交规范**
-
-  - 遵循 Conventional Commits 规范：
-
-    - `feat:` 新增条目/新增章节
-    - `fix:` 错误修复（链接/引用/格式）
-    - `docs:` 文档与索引更新（不影响语义）
-    - `refactor:` 结构与命名重构（不改变内容含义）
-    - `chore:` 工具、CI、脚本维护项
-    - `style:` 空格/缩进/行尾等非语义变更
+本文件是 GitHub 标准贡献指南的简要版本。**详细规范请查阅 [完整贡献指南](docs/contributing/index.md)**。
 
 ---
 
-## 2. 学术与引用规范
+## 🚀 快速开始
 
-为确保条目 **严谨、无歧义、可追溯** ，所有断言必须配备引用。
+### 1. 了解规范
 
-### 2.1 证据与来源分级
+- [编写规范](docs/contributing/编写规范.md) - 语言、格式、Markdown 规范
+- [学术引用](docs/contributing/学术引用.md) - 引用格式与证据分级
+- [诊断临床规范](docs/contributing/诊断临床规范.md) - 病理学内容要求
+- [技术约定](docs/contributing/技术约定.md) - 文件结构与链接管理
+- [PR 流程](docs/contributing/PR流程.md) - 提交流程与检查清单
 
-- **一级来源（必选优先）** ：
+### 2. 本地开发
 
-  - ICD-11 官方浏览器、Reference Guide、临床描述与诊断要求（CDDR）
-  - DSM-5-TR 原文与 APA 官方资料
+```bash
+# 安装依赖
+pip install -r requirements-mkdocs.txt
 
-- **二级来源（可补充）** ：
+# 编辑词条（在 docs/entries/ 目录）
 
-  - 权威综述（StatPearls, UpToDate, 教科书）
+# 自动修复格式
+python tools/fix_md.py
 
-- **三级来源（仅限背景）** ：
-
-  - 社群 Wiki、媒体报道、博客、论坛
-
-> **规则** ：涉及诊断、病理学、流行病学断言， **必须引用至少 1 个一级来源** 。
-
-### 2.2 引用格式要求
-
-- 每个可核查断言 **就近给出引用** （脚注或段尾引用）。
-- 引用须包含： **来源名称、版本、访问日期** 。
-- 如为中文翻译，必须同时给出英文原文（≤25 词），并标明译者/校对。
-
-示例：
-
-```yaml
-ICD-11（6B64）：“…two or more distinct personality states…”（存在两个或以上身份状态）。
-来源：WHO ICD-11 浏览器（MMS 2025-01，访问日期 2025-10-03）
+# 本地预览
+mkdocs serve
 ```
 
----
+### 3. 提交 PR
 
-## 3. 【诊断与临床】强制要求
-
-凡涉及疾病、诊断、病理机制等条目，必须遵循以下规范：
-
-1. **ICD-11 与 DSM-5-TR 双重对照**
-
-   - 需明确给出 ICD-11 的诊断编码与定义。
-   - 若 DSM 无对应诊断，则说明 DSM 的归类（如 Partial DID 在 DSM 属于 OSDD-1）。
-
-2. **原文摘录**
-
-   - 必须包含原文的中文翻译。
-   - 示例：
-
-     ```yaml
-     ICD-11: “two or more distinct personality states…”
-     中文：两个或以上身份状态。
-     来源：ICD-11 Browser, 6B64, 访问日期 2025-10-03
-     ```
-
-3. **差异说明**
-
-   - 若 ICD 与 DSM 的分类存在差异（如 ICD-11 有 Partial DID，DSM 无），必须在条目中 **显式说明** 。
+详细流程请参考 [PR 流程](docs/contributing/PR流程.md)
 
 ---
 
-## 4. 翻译与术语规范
+## 📋 核心原则
 
-- 采用 **中文名（English, 缩写）** 格式。
-- 社群用语（如“人格职业”“幻想伙伴”）必须与临床术语分开，列入“同义词/社群用法”小节。
-- 若存在多译名，需标明使用场景与来源（临床/社群/媒体）。
+本项目致力于提供 **一致性、严谨性、可验证性** 的知识内容：
 
----
-
-## 5. 图表与数据要求
-
-- 图片、图表必须注明来源与许可。
-- 数据表需标明统计口径、时间范围、样本来源。
-- 对有争议的研究，需并列不同观点，并标注证据等级。
-
-### 5.1 图片资源组织
-
-- **资源目录结构** ：
-  - `docs/assets/figures/` - 图表、流程图、示意图、SVG 等
-  - `docs/assets/images/` - 一般图片（封面、截图等）
-  - `docs/assets/icons/` - 小图标、装饰性素材
-
-- **引用路径规范** ：
-  - 从词条文件（`docs/entries/xxx.md`）引用图片
-  - **使用相对于源文件的路径** （MkDocs 会自动处理）
-  - ✅ 正确：`../assets/figures/diagram.svg`
-  - ❌ 错误：`/assets/figures/diagram.svg`（绝对路径可能失效）
-
-- **引用示例** ：
-
-  ```markdown
-  ![解离类型示意图](../assets/figures/types.svg)
-
-  ![封面图片](../assets/images/cover.png)
-  ```
+1. **学术严谨** - 所有断言必须配备可靠引用
+2. **格式统一** - 遵循项目的 Markdown 与命名规范
+3. **内容质量** - 确保信息准确、表述清晰
+4. **尊重边界** - 涉及敏感内容需添加触发警告
 
 ---
 
-## 6. 技术与格式约定
+## 🎯 关键要求
 
-- **最后更新时间** ：Frontmatter 中的 `updated` 字段须与 `docs/assets/last-updated.json` 保持一致。
-- **内部链接** ：
-  - MkDocs 项目：使用相对路径 `entries/Admin.md` 或 `../entries/Admin.md`
-  - MkDocs 会自动处理 `.md` 扩展名转换为 HTML
-  - 禁止使用模糊链接或锚点不明确的链接
-- **目录同步** ：更新或新增词条时，必须同步修改：
-  - `docs/tags.md` 由 MkDocs Material 的 tags 插件自动生成
-  - `docs/index.md` 首页导航
-  - `docs/Glossary.md` 术语表（如适用）
+### 文件结构
+
+- **词条存放**：统一在 `docs/entries/` 目录（禁止子目录）
+- **Frontmatter**：必须包含 `title`、`tags`、`updated` 字段
+- **模板参考**：[词条模板](docs/TEMPLATE_ENTRY.md)
+
+### 引用规范
+
+- **一级来源**（必选）：ICD-11、DSM-5-TR 官方资料
+- **二级来源**（可补充）：StatPearls、UpToDate、权威期刊
+- **引用格式**：包含来源名称、版本、访问日期
+
+### 诊断内容
+
+- **双重对照**：必须同时提供 ICD-11 与 DSM-5-TR 信息
+- **原文摘录**：包含英文原文（≤25 词）+ 中文翻译
+- **差异说明**：明确标注 ICD 与 DSM 的分类差异
+
+### 提交规范
+
+遵循 [Conventional Commits](https://www.conventionalcommits.org/)：
+
+- `feat:` - 新增条目/章节
+- `fix:` - 错误修复
+- `docs:` - 文档更新
+- `refactor:` - 结构重构
+- `chore:` - 工具维护
+- `style:` - 格式变更
 
 ---
 
-## 7. PR 提交流程与检查清单
+## ✅ PR 检查清单
 
-### 本地开发流程
+提交前请确认：
 
-1. **安装依赖** ：
-
-   ```bash
-   pip install -r requirements-mkdocs.txt
-   ```
-
-2. **编辑词条** ：
-
-   - 在 `docs/entries/` 目录下创建或修改词条
-   - 确保 Frontmatter 包含 `title`、`tags`、`updated` 字段
-
-3. **本地验证** ：
-
-   ```bash
-   # 自动修复格式
-   python tools/fix_md.py
-
-   # Markdown lint 检查
-   markdownlint "docs/**/*.md" --ignore "node_modules" --ignore "site"
-
-   # 本地预览（MkDocs 会自动生成标签索引）
-   mkdocs serve
-   # 访问 [http://127.0.0.1:8000](http://127.0.0.1:8000)
-   ```
-
-4. **构建测试** ：
-
-   ```bash
-   # 严格模式构建
-   mkdocs build --strict
-   ```
-
-### PR 提交检查清单
-
-每个 PR 必须包含以下信息：
-
-- [ ] 变更类型（feat/fix/docs/...）与影响范围
-- [ ] 所有断言均有就近引用（含版本与访问日期）
-- [ ] 【病理学】同时给出 ICD-11 与 DSM-5-TR 的锚点
-- [ ] 【病理学】含原文摘录（≤25 词）+ 中文翻译 + 链接/页码
-- [ ] 翻译注明译者/校对
-- [ ] 图片/数据版权与许可明确
-- [ ] 内部链接与目录正确；标签正确填写在 frontmatter
-- [ ] 最后更新时间已更新（`docs/assets/last-updated.json`）
-- [ ] `mkdocs serve` 本地预览无误
+- [ ] 所有断言均有就近引用
+- [ ] 病理学内容包含 ICD-11 与 DSM-5-TR
+- [ ] 内部链接与标签正确
+- [ ] 图片/数据版权明确
+- [ ] `python tools/fix_md.py` 已运行
 - [ ] `mkdocs build --strict` 构建成功
-- [ ] CI / Lint 通过
 
 ---
 
-## 8. 常用权威入口（建议引用时固定）
+## 💡 贡献方式
 
-- WHO ICD-11 Browser（MMS 2025-01）
-- WHO Clinical Descriptions and Diagnostic Requirements（CDDR, 2024 PDF）
-- APA DSM-5-TR Fact Sheets 与官方页面
-- StatPearls / UpToDate（作为二级来源）
-
----
-
-## 9. 模板
-
-请参考[导入模板](docs/TEMPLATE_ENTRY.md)
+- 📝 **补充词条** - 新增或完善现有条目
+- 🐛 **报告错误** - 在 Issues 中反馈问题
+- 🌐 **翻译校对** - 改进术语翻译
+- 📚 **分享经验** - 贡献实践技巧与资源
 
 ---
 
-## 10. 开发者文档
+## 📚 参考资源
 
-如果你需要了解项目的技术实现细节，请查看：
+- [完整贡献指南](docs/contributing/index.md)
+- [词条模板](docs/TEMPLATE_ENTRY.md)
+- [工具文档](tools/README.md)
+- [前端架构](docs/dev/FRONTEND_ARCHITECTURE.md)
 
-- **[工具文档](tools/README.md)** - 项目工具脚本的使用说明
-- **[前端架构](FRONTEND_ARCHITECTURE.md)** - MkDocs Material 迁移与架构说明
-- **[开发文档目录](docs/dev/)** - 开发过程中的技术笔记和问题记录
+---
 
-这些文档主要面向贡献者和开发者，不包含在主导航中。
+## 📞 获取帮助
+
+- 💬 在 GitHub Issues 中提问
+- 📖 查阅 [详细规范文档](docs/contributing/)
+- 🔍 参考现有词条的编写方式
+
+---
+
+**感谢你的贡献！** 让我们一起构建高质量的多意识体知识库。

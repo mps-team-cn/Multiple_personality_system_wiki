@@ -34,9 +34,9 @@
 
 普通贡献者请参考：
 
-- [贡献指南](../CONTRIBUTING.md)
+- [贡献指南](../contributing/index.md)
 - [维护者手册](../ADMIN_GUIDE.md)
-- [工具文档](../tools/README.md)
+- [工具文档](../../tools/README.md)
 
 ---
 

@@ -18,10 +18,10 @@ updated: 2025-10-06
 
 这些是理解多意识体现象的基础术语与定义。
 
-- [多意识体（Plurality）](entries/Plurality.md)：核心概念的全面定义，包括医学与社群视角。
-- [系统（System）](entries/System.md)：多意识体系统的基本单位与运作模式。
-- [成员（Alter）](entries/Alter.md)：系统中的个体意识体，每个成员的独特性与共同体验。
-- [多意识体基础（Plurality Basics）](entries/Plurality-Basics.md)：入门级概念汇总与常见问题。
+- [多意识体（Plurality）](Plurality.md)：核心概念的全面定义，包括医学与社群视角。
+- [系统（System）](System.md)：多意识体系统的基本单位与运作模式。
+- [成员（Alter）](Alter.md)：系统中的个体意识体，每个成员的独特性与共同体验。
+- [多意识体基础（Plurality Basics）](Plurality-Basics.md)：入门级概念汇总与常见问题。
 
 ---
 
@@ -33,13 +33,13 @@ updated: 2025-10-06
 
 基于成因、形成方式与社群经验的分类体系。
 
-- [埃蒙加德分类法（Emmengard Classification）](entries/Emmengard-Classification.md)：按成因分类的主流体系，包括创伤型、创造型、自发型与混合型。
-- [弦羽理论生态位分类法](entries/Xianyu-Theory-Niche-Classification.md)：基于功能定位的分类框架，包括单一类系统、混合型系统、家族式系统与系魂型系统。
+- [埃蒙加德分类法（Emmengard Classification）](Emmengard-Classification.md)：按成因分类的主流体系，包括创伤型、创造型、自发型与混合型。
+- [弦羽理论生态位分类法](Xianyu-Theory-Niche-Classification.md)：基于功能定位的分类框架，包括单一类系统、混合型系统、家族式系统与系魂型系统。
 
 ### 特殊类型
 
-- [图帕（Tulpa）](entries/Tulpa.md)：通过刻意练习创造的意识同伴
-- [特殊认同（Alterhuman）](entries/Alterhuman.md)：跨越人类认同边界的身份体验
+- [图帕（Tulpa）](Tulpa.md)：通过刻意练习创造的意识同伴
+- [特殊认同（Alterhuman）](Alterhuman.md)：跨越人类认同边界的身份体验
 
 ---
 
@@ -49,15 +49,15 @@ updated: 2025-10-06
 
 ### 结构性解离理论
 
-- [结构性解离理论（Structural Dissociation Theory）](entries/Structural-Dissociation-Theory.md)：解释创伤如何导致人格结构分化的经典模型，包括初级、次级与三级解离。
-- [ANP-EP 模型](entries/Apparently-Normal-Part-Emotional-Part-Model.md)：功能性人格部分的划分，包括表面正常部分（ANP）与情绪部分（EP）。
+- [结构性解离理论（Structural Dissociation Theory）](Structural-Dissociation-Theory.md)：解释创伤如何导致人格结构分化的经典模型，包括初级、次级与三级解离。
+- [ANP-EP 模型](Apparently-Normal-Part-Emotional-Part-Model.md)：功能性人格部分的划分，包括表面正常部分（ANP）与情绪部分（EP）。
 
 ### 相关心理学理论
 
-- [人格结构理论（Freud）](entries/Personality-Structure-Theory.md)：本我、自我、超我的经典三分模型
-- [依恋理论（Attachment Theory）](entries/Attachment-Theory.md)：早期依恋关系对人格发展的影响
-- [社会认知理论（Social Cognitive Theory）](entries/Social-Cognitive-Theory.md)：观察学习与自我效能感
-- [自我决定理论（Self-Determination Theory）](entries/Self-Determination-Theory.md)：动机与心理需求的理论框架
+- [人格结构理论（Freud）](Personality-Structure-Theory.md)：本我、自我、超我的经典三分模型
+- [依恋理论（Attachment Theory）](Attachment-Theory.md)：早期依恋关系对人格发展的影响
+- [社会认知理论（Social Cognitive Theory）](Social-Cognitive-Theory.md)：观察学习与自我效能感
+- [自我决定理论（Self-Determination Theory）](Self-Determination-Theory.md)：动机与心理需求的理论框架
 
 ---
 
@@ -85,12 +85,12 @@ updated: 2025-10-06
 
 ### 想了解临床视角？
 
-- 参考 [心理健康导览](entries/Mental-Health-Guide.md)
+- 参考 [心理健康导览](Mental-Health-Guide.md)
 - 重点阅读 DID、OSDD、解离相关词条
 
 ### 想了解社群经验？
 
-- 参考 [核心概念导览](entries/Core-Concepts-Guide.md)
+- 参考 [核心概念导览](Core-Concepts-Guide.md)
 - 浏览埃蒙加德分类与 Tulpa 相关内容
 
 ### 想了解系统运作？

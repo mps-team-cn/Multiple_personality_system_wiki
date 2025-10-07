@@ -65,13 +65,20 @@ plurality_wiki/
 ├─ docs/                         # MkDocs 文档目录
 │  ├─ index.md                   # 首页（Material 风格）
 │  ├─ README.md                  # 关于本站
-│  ├─ CONTRIBUTING.md            # 贡献指南（站点版本）
 │  ├─ Preface.md                 # 前言
 │  ├─ Glossary.md                # 术语表
 │  ├─ tags.md                    # 标签索引
 │  ├─ changelog.md               # 变更日志
 │  │
 │  ├─ entries/                   # 词条正文（142+ 个 Markdown 文件）
+│  │
+│  ├─ contributing/              # 贡献指南（拆分版本）
+│  │  ├─ index.md                # 贡献指南总览
+│  │  ├─ 编写规范.md             # 语言、格式规范
+│  │  ├─ 学术引用.md             # 引用格式、证据分级
+│  │  ├─ 诊断临床规范.md         # 病理学内容要求
+│  │  ├─ 技术约定.md             # 文件结构、链接管理
+│  │  └─ PR流程.md              # 提交流程、检查清单
 │  │
 │  ├─ assets/                    # 静态资源
 │  │  ├─ extra-material.css      # Material 主题样式
