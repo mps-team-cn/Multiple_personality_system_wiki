@@ -80,8 +80,8 @@ mkdocs serve
 ## 📚 参考资源
 
 - [词条模板](../TEMPLATE_ENTRY.md)
-- [工具文档](../../tools/README.md)
-- [前端架构](../../FRONTEND_ARCHITECTURE.md)
+- [工具文档](../tools/README.md)
+- [前端架构](../dev/FRONTEND_ARCHITECTURE.md)
 - [开发文档](../dev/)
 
 ---
