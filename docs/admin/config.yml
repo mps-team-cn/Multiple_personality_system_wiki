@@ -89,16 +89,10 @@ collections:
       preview: true
 
     fields:
-      - label: "标题（中文）"
+      - label: "标题"
         name: "title"
         widget: "string"
-        hint: "词条的中文名称"
-
-      - label: "英文名/缩写"
-        name: "en"
-        widget: "string"
-        required: false
-        hint: "可选：英文名称或常用缩写"
+        hint: "格式：中文（English/缩写），例如：解离性身份障碍（Dissociative Identity Disorder，DID）"
 
       - label: "主题分类"
         name: "topic"
