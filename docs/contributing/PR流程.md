@@ -40,16 +40,16 @@ python tools/fix_md.py --help
 
 1. 在 `docs/entries/` 创建新文件
 2. **使用标准模板** `docs/TEMPLATE_ENTRY.md`
-3. 填写 Frontmatter（title、tags、updated）
+3. 填写 Frontmatter（title、tags、updated、topic 等）
 
 !!! tip "使用模板"
     模板文件位置：`docs/TEMPLATE_ENTRY.md`
 
-    模板包含：
+模板包含：
 
-    - 标准 Frontmatter 结构
-    - 常用章节框架
-    - 引用格式示例
+- 标准 Frontmatter 结构
+- 常用章节框架
+- 引用格式示例
 
 **示例** ：
 
