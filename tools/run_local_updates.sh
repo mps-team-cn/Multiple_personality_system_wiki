@@ -10,7 +10,6 @@ cd "${REPO_ROOT}"
 # 默认执行全部步骤，可通过参数跳过特定命令。
 SKIP_CHANGELOG=false
 SKIP_RETAG=false
-SKIP_LAST_UPDATED=false
 SKIP_PDF=false
 SKIP_FIX_MD=false
 SKIP_MARKDOWNLINT=false
@@ -22,9 +21,6 @@ while [[ $# -gt 0 ]]; do
       ;;
     --skip-retag)
       SKIP_RETAG=true
-      ;;
-    --skip-last-updated)
-      SKIP_LAST_UPDATED=true
       ;;
     --skip-pdf)
       SKIP_PDF=true
@@ -42,15 +38,13 @@ while [[ $# -gt 0 ]]; do
 默认执行以下步骤：
   1. python tools/gen_changelog_by_tags.py --latest-to-head
   2. python tools/retag_and_related.py
-  3. node scripts/gen-last-updated.mjs
-  4. python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei"
-  5. python tools/fix_md.py
-  6. markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
+  3. python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei"
+  4. python tools/fix_md.py
+  5. markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
 
 可选参数：
   --skip-changelog      跳过变更日志生成
   --skip-retag          跳过标签与关联词条重建
-  --skip-last-updated   跳过最后更新时间索引生成
   --skip-pdf            跳过 PDF 导出
   --skip-fix-md         跳过 Markdown 自动修复
   --skip-markdownlint   跳过 markdownlint 校验
@@ -59,6 +53,7 @@ while [[ $# -gt 0 ]]; do
 注意：
   - MkDocs Material 使用内置搜索，不再需要单独生成搜索索引
   - 标签索引由 MkDocs Material tags 插件自动生成，无需手动维护
+  - 页面修改时间由 git-revision-date-localized 插件自动获取，无需手动维护
 USAGE
       exit 0
       ;;
@@ -90,29 +85,16 @@ else
   echo "已跳过：标签与相关词条重建" >&2
 fi
 
-if ! ${SKIP_LAST_UPDATED}; then
-  run_step "生成最后更新时间索引" node scripts/gen-last-updated.mjs
-else
-  echo "已跳过：最后更新时间索引" >&2
-fi
-
 if ! ${SKIP_PDF}; then
   run_step "导出 PDF" python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei"
 else
   echo "已跳过：PDF 导出" >&2
 fi
 
-if ! ${SKIP_TAG_INDEX}; then
-  run_step "生成标签索引" python tools/generate_tags_index.py
-else
-  echo "已跳过：标签索引生成" >&2
-fi
-
-if ! ${SKIP_SEARCH_INDEX}; then
-  run_step "生成 Docsify 搜索索引" python tools/build_search_index.py
-else
-  echo "已跳过：搜索索引生成" >&2
-fi
+# 注意: 以下工具已废弃,不再需要手动运行:
+# - generate_tags_index.py: MkDocs Material tags 插件自动生成
+# - build_search_index.py: MkDocs Material 内置搜索
+# - gen-last-updated.mjs: MkDocs Material git-revision-date-localized 插件自动获取
 
 if ! ${SKIP_FIX_MD}; then
   run_step "自动修复 Markdown" python tools/fix_md.py

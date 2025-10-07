@@ -37,6 +37,7 @@
 | `tools/run_local_updates.sh` / `tools/run_local_updates.bat` | 串联常用维护脚本，一键完成日常更新任务（已增强：支持参数跳过、进度显示、错误提示） | `bash tools/run_local_updates.sh` 或 `tools\run_local_updates.bat`（均支持 `--skip-*` 选项和 `--help`） |
 | `tools/build_search_index.py` | **[已废弃]** 解析词条 Frontmatter，同步生成带同义词与拼音归一化的 Docsify 搜索索引 JSON（MkDocs 使用内置搜索插件） | ~~`python tools/build_search_index.py`~~ |
 | `generate_tags_index.py` | **[已废弃]** 扫描 Frontmatter 标签并生成 `tags.md` 索引（MkDocs Material 的 tags 插件会自动处理） | ~~`python tools/generate_tags_index.py`~~ |
+| `scripts/gen-last-updated.mjs` | **[已废弃]** 生成 `last-updated.json` 时间戳索引（MkDocs Material 使用 `git-revision-date-localized` 插件自动从 Git 历史获取时间戳） | ~~`node scripts/gen-last-updated.mjs`~~ |
 
 如需新增脚本，请保持功能说明与示例用法同步更新本章节，方便贡献者快速定位维护工具。
 
