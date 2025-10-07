@@ -1,5 +1,6 @@
 ---
 tags:
+
   - 诊断与临床
   - 焦虑
   - 解离
@@ -28,7 +29,7 @@ _若惊恐发作影响日常生活、伴随自伤或失控担忧，请尽快联�
 
 ## 诊断要点
 
-- 出现**反复且意外的惊恐发作**，并伴随迅速升高的恐惧或不适感。
+- 出现 **反复且意外的惊恐发作**，并伴随迅速升高的恐惧或不适感。
 - 至少一个月内对再次发作或其后果保持持续担忧，或出现与发作相关的显著行为改变（如避免运动、携带安全物品）。[^apa2022pd]
 - 症状不能更好地由物质使用、躯体疾病或其他精神障碍解释，需要排除甲状腺功能异常、心律失常、社交焦虑障碍或创伤后应激障碍等情形。[^apa2022pd][^who2023pd]
 
@@ -101,6 +102,6 @@ _若惊恐发作影响日常生活、伴随自伤或失控担忧，请尽快联�
 ## 参考与延伸阅读
 
 [^apa2022pd]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.). American Psychiatric Publishing.
-[^who2023pd]: World Health Organization. (2023). _ICD-11 for Mortality and Morbidity Statistics: Panic disorder (6B01)._ https://icd.who.int/en
-[^nice2022pd]: National Institute for Health and Care Excellence. (2022). _Generalised anxiety disorder and panic disorder in adults: management (CG113, updated)._ https://www.nice.org.uk/guidance/cg113
-[^nimh2024pd]: National Institute of Mental Health. (2024, March 12). _Panic Disorder: When Fear Overwhelms._ https://www.nimh.nih.gov
+[^who2023pd]: World Health Organization. (2023). _ICD-11 for Mortality and Morbidity Statistics: Panic disorder (6B01)._ [https://icd.who.int/en](https://icd.who.int/en)
+[^nice2022pd]: National Institute for Health and Care Excellence. (2022). _Generalised anxiety disorder and panic disorder in adults: management (CG113, updated)._ [https://www.nice.org.uk/guidance/cg113](https://www.nice.org.uk/guidance/cg113)
+[^nimh2024pd]: National Institute of Mental Health. (2024, March 12). _Panic Disorder: When Fear Overwhelms._ [https://www.nimh.nih.gov](https://www.nimh.nih.gov)

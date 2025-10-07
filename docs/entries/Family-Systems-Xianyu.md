@@ -97,9 +97,9 @@ updated: 2025-10-03
 
 ## 与其他类别的关系
 
-- 可与 **创伤型系统** （[创伤型系统](Single-Class-Systems-Xianyu.md)） 或 **混合型系统** （[混合型系统](Mixed-Systems-Xianyu.md)） 重叠；
+- 可与 **创伤型系统** ([创伤型系统](Single-Class-Systems-Xianyu.md)) 或 **混合型系统** ([混合型系统](Mixed-Systems-Xianyu.md)) 重叠；
 - 在发展过程中，可能演化为 **修复导向型系统** ；
-- 特殊情况下，可能与 **系魂型系统** （[系魂型系统](Soul-Linked-Systems-Xianyu.md)） 并存。
+- 特殊情况下，可能与 **系魂型系统** ([系魂型系统](Soul-Linked-Systems-Xianyu.md)) 并存。
 
 ---
 
