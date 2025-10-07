@@ -25,68 +25,15 @@
         margin: 0;
         padding: 0;
         font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
-        background: linear-gradient(135deg, #e0f2f1 0%, #b2dfdb 100%);
         min-height: 100vh;
-      }
-
-      /* 加载提示 */
-      .loading {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        height: 100vh;
-        font-size: 18px;
-        color: #009688;
-      }
-
-      .loading-spinner {
-        width: 50px;
-        height: 50px;
-        border: 4px solid rgba(0, 150, 136, 0.2);
-        border-top-color: #009688;
-        border-radius: 50%;
-        animation: spin 1s linear infinite;
-        margin-bottom: 20px;
-      }
-
-      @keyframes spin {
-        to { transform: rotate(360deg); }
-      }
-
-      /* 隐藏加载提示 */
-      body.cms-loaded .loading {
-        display: none;
-      }
-
-      /* 隐藏 Decap CMS 自带的加载动画，使用我们的自定义样式 */
-      [class*="Loader"],
-      [class*="Loading"] {
-        display: none !important;
       }
     </style>
   </head>
   <body>
-    <!-- 加载提示 -->
-    <div class="loading">
-      <div class="loading-spinner"></div>
-      <div>正在加载内容管理系统...</div>
-    </div>
-
     <!-- Decap CMS -->
     <script src="https://unpkg.com/decap-cms@3.3.3/dist/decap-cms.js"></script>
 
     <!-- 自定义样式 -->
     <link rel="stylesheet" href="admin.css" />
-
-    <!-- 初始化脚本 -->
-    <script>
-      // 等待 CMS 加载完成
-      window.addEventListener('load', function() {
-        setTimeout(function() {
-          document.body.classList.add('cms-loaded');
-        }, 500);
-      });
-    </script>
   </body>
 </html>
