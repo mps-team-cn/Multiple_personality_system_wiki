@@ -6,12 +6,13 @@
 
 ```text
 docs/assets/
-├── figures/      # 图表、流程图、示意图、SVG 等
-├── images/       # 一般图片（封面、截图等）
-├── icons/        # 小图标、装饰性素材
-├── extra.css     # 自定义样式表
-├── extra.js      # 自定义脚本
-└── *.json        # 数据文件（如 last-updated.json）
+├── figures/           # 图表、流程图、示意图、SVG 等
+├── images/            # 一般图片（封面、截图等）
+├── icons/             # 小图标、装饰性素材
+├── extra.css          # 自定义样式表
+├── extra.js           # 自定义脚本
+├── extra-common.css   # 通用样式
+└── extra-material.css # Material 主题样式
 ```
 
 ## 资源分类说明
