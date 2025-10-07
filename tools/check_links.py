@@ -64,8 +64,9 @@ def get_file_context(file_path: Path, repo_root: Path) -> str:
 
     Returns:
         'entries' - 在 docs/entries/ 目录
-        'docs' - 在 docs/ 其他子目录
-        'root' - 在根目录
+        'docs_subdir' - 在 docs/ 的子目录下 (如 docs/contributing/)
+        'docs_root' - 在 docs/ 根目录下 (如 docs/Glossary.md)
+        'root' - 在仓库根目录
         'other' - 其他位置
     """
     try:
@@ -76,11 +77,15 @@ def get_file_context(file_path: Path, repo_root: Path) -> str:
         if len(parts) >= 2 and parts[0] == "docs" and parts[1] == "entries":
             return "entries"
 
-        # docs/ 其他子目录
-        if parts[0] == "docs":
-            return "docs"
+        # docs/ 根目录 (文件直接在 docs/ 下)
+        if len(parts) == 2 and parts[0] == "docs":
+            return "docs_root"
 
-        # 根目录
+        # docs/ 子目录 (在 docs/ 的子目录中)
+        if len(parts) > 2 and parts[0] == "docs":
+            return "docs_subdir"
+
+        # 仓库根目录
         if len(parts) == 1:
             return "root"
 
@@ -185,33 +190,50 @@ def validate_link(
                 )
             return True, ""
 
-    elif source_context in ("docs", "root"):
-        # docs/ 其他目录或根目录的文件
+    elif source_context == "docs_subdir":
+        # docs/ 的子目录 (如 docs/contributing/)
 
         if target_in_entries:
-            # 链接到词条：应该使用 ../entries/ 或 entries/ 格式
-            # 从 docs/ 子目录：../entries/DID.md
-            # 从根目录：docs/entries/DID.md 或 entries/DID.md
+            # 链接到词条：应该使用 ../entries/ 路径
+            if pure_target.startswith("../entries/"):
+                return True, ""
+            else:
+                return False, (
+                    f"从 docs/ 子目录链接到词条应使用 `../entries/` 路径\n"
+                    f"    当前：{pure_target}\n"
+                    f"    应改为：../entries/{target_path.name}"
+                )
+        else:
+            # 链接到非词条文件：相对路径即可
+            return True, ""
 
-            if source_context == "docs":
-                # 从 docs/ 子目录
-                if pure_target.startswith("../entries/"):
+    elif source_context in ("docs_root", "root"):
+        # docs/ 根目录或仓库根目录的文件
+
+        if target_in_entries:
+            # 链接到词条：应该使用 entries/ 或 docs/entries/ 格式
+            # 从 docs/ 根目录：entries/DID.md
+            # 从仓库根目录：docs/entries/DID.md
+
+            if source_context == "docs_root":
+                # 从 docs/ 根目录
+                if pure_target.startswith("entries/"):
                     return True, ""
                 else:
                     return False, (
-                        f"从 docs/ 子目录链接到词条应使用 `../entries/` 路径\n"
+                        f"从 docs/ 根目录链接到词条应使用 `entries/` 路径\n"
                         f"    当前：{pure_target}\n"
-                        f"    应改为：../entries/{target_path.name}"
+                        f"    应改为：entries/{target_path.name}"
                     )
             else:
-                # 从根目录
-                if pure_target.startswith(("docs/entries/", "entries/")):
+                # 从仓库根目录
+                if pure_target.startswith("docs/entries/"):
                     return True, ""
                 else:
                     return False, (
-                        f"从根目录链接到词条应使用 `docs/entries/` 或 `entries/` 路径\n"
-                        f"        当前：{pure_target}\n"
-                        f"    提示：推荐使用 docs/entries/{target_path.name}"
+                        f"从仓库根目录链接到词条应使用 `docs/entries/` 路径\n"
+                        f"    当前：{pure_target}\n"
+                        f"    应改为：docs/entries/{target_path.name}"
                     )
         else:
             # 链接到非词条文件：相对路径即可
