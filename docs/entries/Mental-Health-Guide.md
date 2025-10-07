@@ -255,7 +255,7 @@ CPTSD
    - 接近 DID 但不完全符合标准
    - 如:身份切换不明显,或失忆较轻
 
-详细了解请参阅：[解离（Dissociation）](Dissociation.md)、[病理性解离](Pathological-Dissociation.md)
+详细了解请参阅：[解离（Dissociation）](Dissociation.md)、[解离障碍](Dissociative-Disorders.md)
 
 ---
 
@@ -843,7 +843,7 @@ CPTSD
 **解离相关** :
 
 - [解离（Dissociation）](Dissociation.md)
-- [病理性解离](Pathological-Dissociation.md)
+- [解离障碍](Dissociative-Disorders.md)
 - [防御性解离](Defensive-Dissociation.md)
 - [人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)
 

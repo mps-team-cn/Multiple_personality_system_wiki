@@ -24,7 +24,7 @@ updated: 2025-10-05
 
 - [功能性分离（Functional Dissociation）](Functional-Dissociation.md)：描述健康个体在多任务处理、注意力分配或高速公路催眠等情境中，短暂分隔认知模块以提升效率的适应性机制。
 - [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)：强调在极端压力或创伤情境下，以解离作为心理防御以降低痛苦与威胁感的适应性反应。
-- [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)：涵盖与创伤及解离性障碍相关的持续性整合失败，导致痛苦、失忆或身份破碎等临床意义的症状群。
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)：涵盖与创伤及解离性障碍相关的持续性整合失败，导致痛苦、失忆或身份破碎等临床意义的症状群。
 
 ## 参见
 

@@ -139,7 +139,7 @@ D. 症状不能被分离性身份障碍、创伤后应激障碍、急性应激�
 
 ### 解离与创伤
 
-- [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
 - [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)
 - [醉酒解离（Alcohol-Induced Dissociation）](Alcohol-Induced-Dissociation.md)
 - [创伤（Trauma）](Trauma.md)

@@ -48,7 +48,7 @@ updated: 2025-10-06
 
 **关键理解** :低程度的温和解离是正常现象,不构成疾病;只有当解离反应强烈、持续且招致痛苦时,才可能进入病理范畴。
 
-详细了解请参阅：[解离（Dissociation）](Dissociation.md)、[防御性解离](Defensive-Dissociation.md)、[病理性解离](Pathological-Dissociation.md)
+详细了解请参阅：[解离（Dissociation）](Dissociation.md)、[防御性解离](Defensive-Dissociation.md)、[解离障碍](Dissociative-Disorders.md)
 
 ---
 

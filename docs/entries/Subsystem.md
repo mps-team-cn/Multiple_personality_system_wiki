@@ -124,7 +124,7 @@ synonyms:
 
 ## 相关条目
 
-- [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
 - [创伤（Trauma）](Trauma.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)
 - [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)

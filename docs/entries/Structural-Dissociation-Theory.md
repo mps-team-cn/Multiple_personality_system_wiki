@@ -58,7 +58,7 @@ updated: 2025-10-04
 ## 相关条目
 
 - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](Apparently-Normal-Part-Emotional-Part-Model.md)
-- [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
 - [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md)
 - [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](Partial-Dissociative-Identity-Disorder-PDID.md)
