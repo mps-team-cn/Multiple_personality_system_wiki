@@ -638,6 +638,7 @@ def fix_emphasis_spaces(lines: list[str]) -> list[str]:
     Examples:
         ** text ** -> **text**
         中文**加粗**文字 -> 中文 **加粗** 文字
+        **定义**：内容 -> **定义**：内容 (中文标点不加空格)
 
     Args:
         lines: 文本行列表
@@ -645,6 +646,9 @@ def fix_emphasis_spaces(lines: list[str]) -> list[str]:
     Returns:
         list[str]: 处理后的文本行列表
     """
+    # 中文标点符号集合
+    chinese_punct_set = set('，。！？；：、''""（）《》【】…—')
+
     out, in_fence = [], False
     for ln in lines:
         # 跳过代码块
@@ -675,19 +679,25 @@ def fix_emphasis_spaces(lines: list[str]) -> list[str]:
             start_tag, content, end_tag = match.groups()
             content = content.strip()
 
-            if pieces and last_char and not last_char.isspace():
-                pieces.append(" ")
-                last_char = " "
+            # 只在非标点前加空格
+            if pieces and last_char and not last_char.isspace() and last_char not in chinese_punct_set:
+                # 检查是否为中文字符
+                if CHINESE_CHAR_RE.search(last_char):
+                    pieces.append(" ")
+                    last_char = " "
 
             pieces.append(f"{start_tag}{content}{end_tag}")
             last_char = end_tag[-1]
             last_idx = match.end()
 
+            # 只在非标点后加空格
             if match.end() < len(ln):
                 next_char = ln[match.end()]
-                if not next_char.isspace():
-                    pieces.append(" ")
-                    last_char = " "
+                if not next_char.isspace() and next_char not in chinese_punct_set:
+                    # 检查下一个字符是否为中文
+                    if CHINESE_CHAR_RE.search(next_char):
+                        pieces.append(" ")
+                        last_char = " "
 
         if last_idx < len(ln):
             tail = ln[last_idx:]
@@ -713,6 +723,9 @@ def fix_bold_spacing(lines: list[str]) -> list[str]:
     Returns:
         list[str]: 处理后的文本行列表
     """
+    # 中文标点符号集合
+    chinese_punct_set = set('，。！？；：、''""（）《》【】…—')
+
     out, in_fence = [], False
     for ln in lines:
         # 跳过代码块
@@ -724,13 +737,34 @@ def fix_bold_spacing(lines: list[str]) -> list[str]:
             out.append(ln)
             continue
 
-        # 处理 **文本**后面紧跟中文字符（非标点）的情况
-        pattern1 = re.compile(rf'(\*\*[^*]+\*\*)(?![\s{CHINESE_PUNCT[1:-1]}])({CHINESE_CHAR_RE.pattern})')
-        ln = pattern1.sub(r'\1 \2', ln)
+        # 使用精确的加粗匹配模式：确保 ** 成对出现
+        # 匹配 **内容**，内容不包含 *
+        bold_pattern = re.compile(r'\*\*([^*]+)\*\*')
 
-        # 处理中文字符后面紧跟**文本**的情况
-        pattern2 = re.compile(rf'(?<![\s{CHINESE_PUNCT[1:-1]}])({CHINESE_CHAR_RE.pattern})(\*\*[^*]+\*\*)')
-        ln = pattern2.sub(r'\1 \2', ln)
+        # 找到所有加粗标记的位置
+        matches = list(bold_pattern.finditer(ln))
+        if not matches:
+            out.append(ln)
+            continue
+
+        # 从后往前处理，避免位置偏移
+        for match in reversed(matches):
+            start, end = match.span()
+
+            # 检查加粗前面的字符
+            if start > 0:
+                prev_char = ln[start - 1]
+                # 如果前面是中文字符（非标点非空格），加空格
+                if CHINESE_CHAR_RE.search(prev_char) and prev_char not in chinese_punct_set and not prev_char.isspace():
+                    ln = ln[:start] + ' ' + ln[start:]
+                    end += 1  # 位置偏移
+
+            # 检查加粗后面的字符
+            if end < len(ln):
+                next_char = ln[end]
+                # 如果后面是中文字符（非标点非空格），加空格
+                if CHINESE_CHAR_RE.search(next_char) and next_char not in chinese_punct_set and not next_char.isspace():
+                    ln = ln[:end] + ' ' + ln[end:]
 
         out.append(ln)
 
