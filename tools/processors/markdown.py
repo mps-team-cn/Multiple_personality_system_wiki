@@ -20,7 +20,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Callable
 
-from ..core.config import Config
+from ..core.config import Config, load_config
 from ..core.logger import get_logger
 from ..core.utils import read_file, write_file
 
@@ -38,6 +38,25 @@ HEADING_RE = re.compile(r'^(#{1,6})\s+\S')
 FENCE_ANY_RE = re.compile(r'^```')
 FENCE_START_RE = re.compile(r'^```(\s*)$')
 FENCE_LANG_RE = re.compile(r'^```[A-Za-z0-9_\-+.]')
+
+# 列表项（无序和有序）
+LIST_ITEM_RE = re.compile(r'^(\s*)([-*+]|\d+\.)\s+')
+UNORDERED_MARKER_NEEDS_SPACE_RE = re.compile(r'^(\s*)(-(?!-)|\+(?!\+)|\*(?!\*))(?=\S)')
+ORDERED_MARKER_NEEDS_SPACE_RE = re.compile(r'^(\s*)(\d+\.)(?=\S)')
+
+# 强调标记（加粗、斜体）
+# 优先匹配双标记(**/__),然后单标记(*/_)
+EMPHASIS_SEGMENT_RE = re.compile(r'(\*\*|__|(?<!\*)\*(?!\*)|(?<!_)_(?!_))(.+?)(\1)')
+
+# 列表项加粗冒号格式：-**text**: 或 -**text**：
+LIST_BOLD_COLON_RE = re.compile(r'^(\s*)-\*\*([^*]+)\*\*[：:]\s*(.*)$')
+
+# 加粗链接格式：**[文本](链接)**
+BOLD_LINK_RE = re.compile(r'\*\*\[([^\]]+)\]\(([^\)]+)\)\*\*')
+
+# 中文字符和标点
+CHINESE_CHAR_RE = re.compile(r'[\u4e00-\u9fff\u3400-\u4dbf]')
+CHINESE_PUNCT = r'[，。！？；：、''""（）《》【】…—]'
 
 # 裸链接
 BARE_URL_RE = re.compile(
@@ -93,12 +112,13 @@ class MarkdownProcessor:
         Args:
             config: 配置对象,如果为 None 则使用默认配置
         """
-        self.config = config or Config.load()
+        self.config = config or load_config()
         self.rules = self._init_rules()
 
     def _init_rules(self) -> list[FixRule]:
         """初始化修复规则列表"""
         return [
+            # === Markdownlint 标准规则 ===
             FixRule(
                 name="trailing_whitespace",
                 code="MD009",
@@ -118,16 +138,22 @@ class MarkdownProcessor:
                 processor=ensure_blank_around_headings
             ),
             FixRule(
-                name="fenced_code_language",
-                code="MD040",
-                description="为代码围栏添加语言标注",
-                processor=fix_fenced_code_language
-            ),
-            FixRule(
                 name="blockquote_blank",
                 code="MD028",
                 description="修复引用块中的空行",
                 processor=fix_blockquote_blank
+            ),
+            FixRule(
+                name="blank_around_fences",
+                code="MD031",
+                description="确保代码块前后空行",
+                processor=ensure_blank_around_fences
+            ),
+            FixRule(
+                name="blank_around_lists",
+                code="MD032",
+                description="确保列表前后空行",
+                processor=ensure_blank_around_lists
             ),
             FixRule(
                 name="bare_urls",
@@ -135,7 +161,72 @@ class MarkdownProcessor:
                 description="转换裸链接为标准格式",
                 processor=convert_bare_urls
             ),
+            FixRule(
+                name="emphasis_spaces",
+                code="MD037",
+                description="修复强调标记内空格",
+                processor=fix_emphasis_spaces
+            ),
+            FixRule(
+                name="fenced_code_language",
+                code="MD040",
+                description="为代码围栏添加语言标注",
+                processor=fix_fenced_code_language
+            ),
+
+            # === 中文排版规则 ===
+            FixRule(
+                name="list_marker_spacing",
+                code="CUSTOM001",
+                description="确保列表标记后有空格",
+                processor=normalize_list_marker_spacing
+            ),
+            FixRule(
+                name="bold_chinese_spacing",
+                code="CUSTOM002",
+                description="确保加粗文本与中文间有空格",
+                processor=fix_bold_spacing
+            ),
+            FixRule(
+                name="list_bold_colon",
+                code="CUSTOM003",
+                description="修复列表加粗冒号格式",
+                processor=fix_list_bold_colon
+            ),
+            FixRule(
+                name="chinese_parentheses",
+                code="CUSTOM004",
+                description="链接文本括号全角化",
+                processor=fix_parentheses_in_links
+            ),
+            FixRule(
+                name="chinese_colon",
+                code="CUSTOM005",
+                description="参阅等冒号全角化",
+                processor=fix_colon_before_links
+            ),
         ]
+
+    def process(self, text: str) -> str:
+        """
+        处理 Markdown 文本字符串
+
+        Args:
+            text: 输入的 Markdown 文本
+
+        Returns:
+            str: 处理后的 Markdown 文本
+        """
+        lines = text.splitlines()
+
+        # 应用所有启用的规则
+        for rule in self.rules:
+            if rule.enabled and rule.processor:
+                lines = rule.processor(lines)
+
+        # MD047: 确保文件以单个换行结束
+        result = ensure_single_trailing_newline("\n".join(lines))
+        return result
 
     def process_file(
         self,
@@ -443,6 +534,309 @@ def ensure_single_trailing_newline(text: str) -> str:
         str: 处理后的文本内容
     """
     return text.rstrip("\n") + "\n"
+
+
+def normalize_list_marker_spacing(lines: list[str]) -> list[str]:
+    """
+    确保列表标记后至少有一个空格
+
+    Examples:
+        -item -> - item
+        +item -> + item
+        1.item -> 1. item
+
+    Args:
+        lines: 文本行列表
+
+    Returns:
+        list[str]: 处理后的文本行列表
+    """
+    out: list[str] = []
+    in_fence = False
+    for ln in lines:
+        if FENCE_ANY_RE.match(ln):
+            in_fence = not in_fence
+            out.append(ln)
+            continue
+        if not in_fence:
+            ln = UNORDERED_MARKER_NEEDS_SPACE_RE.sub(r'\1\2 ', ln, count=1)
+            ln = ORDERED_MARKER_NEEDS_SPACE_RE.sub(r'\1\2 ', ln, count=1)
+        out.append(ln)
+    return out
+
+
+def ensure_blank_around_fences(lines: list[str]) -> list[str]:
+    """
+    MD031: 代码块前后各留 1 个空行
+
+    Args:
+        lines: 文本行列表
+
+    Returns:
+        list[str]: 处理后的文本行列表
+    """
+    out = []
+    in_fence = False
+
+    for i, ln in enumerate(lines):
+        is_fence = FENCE_ANY_RE.match(ln) is not None
+
+        if is_fence:
+            # 围栏开始：前面需要空行
+            if not in_fence and i > 0 and out and out[-1].strip() != "":
+                out.append("")
+            out.append(ln)
+            # 切换围栏状态
+            in_fence = not in_fence
+            # 围栏结束：后面需要空行
+            if not in_fence and i + 1 < len(lines) and lines[i + 1].strip() != "":
+                out.append("")
+        else:
+            out.append(ln)
+
+    return out
+
+
+def ensure_blank_around_lists(lines: list[str]) -> list[str]:
+    """
+    MD032: 列表前后各留 1 个空行
+
+    Args:
+        lines: 文本行列表
+
+    Returns:
+        list[str]: 处理后的文本行列表
+    """
+    out = []
+    in_list = False
+
+    for i, ln in enumerate(lines):
+        is_list_item = LIST_ITEM_RE.match(ln) is not None
+        is_blank = ln.strip() == ""
+
+        # 列表开始：前面加空行
+        if is_list_item and not in_list:
+            if i > 0 and out and out[-1].strip() != "":
+                out.append("")
+            in_list = True
+
+        # 列表结束：后面加空行
+        if in_list and not is_list_item and not is_blank:
+            if out and out[-1].strip() != "":
+                out.append("")
+            in_list = False
+
+        out.append(ln)
+
+    return out
+
+
+def fix_emphasis_spaces(lines: list[str]) -> list[str]:
+    """
+    MD037: 修复强调标记内的空格,并确保强调段前后留白
+
+    Examples:
+        ** text ** -> **text**
+        中文**加粗**文字 -> 中文 **加粗** 文字
+
+    Args:
+        lines: 文本行列表
+
+    Returns:
+        list[str]: 处理后的文本行列表
+    """
+    out, in_fence = [], False
+    for ln in lines:
+        # 跳过代码块
+        if FENCE_ANY_RE.match(ln):
+            in_fence = not in_fence
+            out.append(ln)
+            continue
+        if in_fence:
+            out.append(ln)
+            continue
+
+        matches = list(EMPHASIS_SEGMENT_RE.finditer(ln))
+        if not matches:
+            out.append(ln)
+            continue
+
+        pieces: list[str] = []
+        last_idx = 0
+        last_char = ""
+
+        for match in matches:
+            if match.start() > last_idx:
+                segment = ln[last_idx : match.start()]
+                pieces.append(segment)
+                if segment:
+                    last_char = segment[-1]
+
+            start_tag, content, end_tag = match.groups()
+            content = content.strip()
+
+            if pieces and last_char and not last_char.isspace():
+                pieces.append(" ")
+                last_char = " "
+
+            pieces.append(f"{start_tag}{content}{end_tag}")
+            last_char = end_tag[-1]
+            last_idx = match.end()
+
+            if match.end() < len(ln):
+                next_char = ln[match.end()]
+                if not next_char.isspace():
+                    pieces.append(" ")
+                    last_char = " "
+
+        if last_idx < len(ln):
+            tail = ln[last_idx:]
+            pieces.append(tail)
+        out.append("".join(pieces))
+
+    return out
+
+
+def fix_bold_spacing(lines: list[str]) -> list[str]:
+    """
+    确保加粗文本与中文之间有空格
+
+    Examples:
+        **中文**中文 -> **中文** 中文
+        中文**中文** -> 中文 **中文**
+
+    注意：加粗文本与中文标点之间不加空格
+
+    Args:
+        lines: 文本行列表
+
+    Returns:
+        list[str]: 处理后的文本行列表
+    """
+    out, in_fence = [], False
+    for ln in lines:
+        # 跳过代码块
+        if FENCE_ANY_RE.match(ln):
+            in_fence = not in_fence
+            out.append(ln)
+            continue
+        if in_fence:
+            out.append(ln)
+            continue
+
+        # 处理 **文本**后面紧跟中文字符（非标点）的情况
+        pattern1 = re.compile(rf'(\*\*[^*]+\*\*)(?![\s{CHINESE_PUNCT[1:-1]}])({CHINESE_CHAR_RE.pattern})')
+        ln = pattern1.sub(r'\1 \2', ln)
+
+        # 处理中文字符后面紧跟**文本**的情况
+        pattern2 = re.compile(rf'(?<![\s{CHINESE_PUNCT[1:-1]}])({CHINESE_CHAR_RE.pattern})(\*\*[^*]+\*\*)')
+        ln = pattern2.sub(r'\1 \2', ln)
+
+        out.append(ln)
+
+    return out
+
+
+def fix_list_bold_colon(lines: list[str]) -> list[str]:
+    """
+    修复列表项中粗体冒号格式
+
+    与原工具 fix_list_bold_colon.py 保持一致：
+    -**text**: -> - **text** :
+    -**text**： -> - **text** :
+
+    Args:
+        lines: 文本行列表
+
+    Returns:
+        list[str]: 处理后的文本行列表
+    """
+    out = []
+    for ln in lines:
+        match = LIST_BOLD_COLON_RE.match(ln)
+        if match:
+            indent = match.group(1)
+            bold_text = match.group(2).strip()
+            rest = match.group(3)
+            # 与原工具保持一致：半角冒号，前后都有空格
+            new_line = f"{indent}- **{bold_text}** : {rest}"
+            out.append(new_line)
+        else:
+            out.append(ln)
+    return out
+
+
+def fix_parentheses_in_links(lines: list[str]) -> list[str]:
+    """
+    修复链接相关的括号格式：
+    1. 链接文本中的半角括号 -> 全角括号
+    2. 链接外的中文括号 -> 半角括号
+    3. 加粗链接格式 **[文本](url)** -> [**文本**](url)
+
+    Examples:
+        [创伤(Trauma)](Trauma.md) -> [创伤（Trauma）](Trauma.md)
+        （[链接](url)） -> ([链接](url))
+        **[文本](url)** -> [**文本**](url)
+
+    Args:
+        lines: 文本行列表
+
+    Returns:
+        list[str]: 处理后的文本行列表
+    """
+    out = []
+    link_pattern = re.compile(r'\[([^\]]+)\]\(([^\)]+)\)')
+
+    for ln in lines:
+        # 1. 修复加粗链接格式
+        ln = BOLD_LINK_RE.sub(r'[**\1**](\2)', ln)
+
+        # 2. 修复链接文本中的括号
+        def replacer(match):
+            text = match.group(1)
+            url = match.group(2)
+            if '(' in text or ')' in text:
+                new_text = text.replace('(', '（').replace(')', '）')
+                return f'[{new_text}]({url})'
+            return match.group(0)
+
+        ln = link_pattern.sub(replacer, ln)
+
+        # 3. 修复链接外的中文括号为半角
+        # 匹配中文括号包裹的链接
+        ln = re.sub(r'（(\[[^\]]+\]\([^\)]+\))）', r'(\1)', ln)
+
+        out.append(ln)
+    return out
+
+
+def fix_colon_before_links(lines: list[str]) -> list[str]:
+    """
+    修复"参阅:"等冒号为全角冒号
+
+    Examples:
+        参阅: -> 参阅：
+        参考: -> 参考：
+
+    Args:
+        lines: 文本行列表
+
+    Returns:
+        list[str]: 处理后的文本行列表
+    """
+    patterns = [
+        ('参阅:', '参阅：'),
+        ('参考:', '参考：'),
+        ('延伸阅读:', '延伸阅读：'),
+        ('详细了解请参阅:', '详细了解请参阅：'),
+    ]
+
+    out = []
+    for ln in lines:
+        for old, new in patterns:
+            ln = ln.replace(old, new)
+        out.append(ln)
+    return out
 
 
 # ============================================================================

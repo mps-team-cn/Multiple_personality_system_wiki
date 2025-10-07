@@ -2,7 +2,14 @@
 
 ## 未发布
 
-### 🔧 工具清理
+### 🔧 工具重构与整合
+
+- **Markdown 处理工具整合**
+  - 整合 `fix_md.py`、`fix_bold_format.py`、`fix_list_bold_colon.py` 到统一的 `tools/processors/markdown.py`
+  - 新增 `MarkdownProcessor` 类提供统一接口
+  - 支持 13 条 Markdownlint 规则（MD009, MD012, MD022, MD028, MD031, MD032, MD034, MD037, MD040, MD047）
+  - 支持 5 条自定义中文排版规则（列表标记空格、加粗空格、列表加粗冒号、链接括号、链接前冒号）
+  - 旧工具移至 `tools/deprecated/`，新增详细迁移指南
 
 - **清理 Docsify 时代的过时工具**
   - 移除 `docs_preview.py` → 使用 `mkdocs serve` 替代
