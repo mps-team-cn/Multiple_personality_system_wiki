@@ -308,5 +308,5 @@ PluralityApp.init({
 ## 参考资料
 
 - [Docsify 官方文档](https://docsify.js.org/)
-- [项目 AGENTS.md](AGENTS.md)
-- [工具文档](tools/README.md)
+- [项目 AGENTS.md](../../AGENTS.md)
+- [工具文档](../../tools/README.md)

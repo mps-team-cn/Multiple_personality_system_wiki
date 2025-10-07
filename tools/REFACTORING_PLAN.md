@@ -1,7 +1,5 @@
 # Tools 目录重构计划
 
-> **重要更新**：2025-10-07 - MkDocs Material 迁移后，部分工具已过时，详见 [CLEANUP_RECOMMENDATIONS.md](CLEANUP_RECOMMENDATIONS.md)
-
 ## 📋 重构概览
 
 本文档记录了 tools 目录的重构过程，目标是提升代码质量、可维护性和开发效率。
@@ -99,7 +97,7 @@ tools/
 
 #### markdown.py（待实现）
 
-- 基于 `fix_md.py` 重构
+- 基于 `fix_markdown.py` 重构
 - 支持可配置的修复规则
 - 批量处理能力
 - 预览模式
@@ -172,7 +170,7 @@ tools/
 ### 第二阶段：处理器实现（已完成 ✅）
 
 - [x] 实现 MarkdownProcessor
-- [x] 整合 fix_md.py 功能（MD009, MD012, MD022, MD028, MD031, MD032, MD034, MD037, MD040, MD047）
+- [x] 整合 fix_markdown.py 功能（MD009, MD012, MD022, MD028, MD031, MD032, MD034, MD037, MD040, MD047）
 - [x] 整合 fix_bold_format.py 功能（加粗空格、链接括号、加粗链接）
 - [x] 整合 fix_list_bold_colon.py 功能（列表加粗冒号格式）
 - [x] 实现 LinkProcessor
@@ -210,7 +208,7 @@ tools/
    - 逐步验证新系统稳定性
 
 2. **迁移顺序**
-   - ✅ `fix_md.py` → `processors/markdown.py` (2025-10-07)
+   - ✅ `fix_markdown.py` → `processors/markdown.py` (2025-10-07)
    - ✅ `fix_bold_format.py` → `processors/markdown.py` (2025-10-07)
    - ✅ `fix_list_bold_colon.py` → `processors/markdown.py` (2025-10-07)
    - ✅ `check_links.py` → `processors/links.py`
@@ -315,7 +313,7 @@ python -m tools.cli.main fix-md --dry-run
 
 ## 📚 相关文档
 
-- [贡献指南](../docs/CONTRIBUTING.md)
+- [贡献指南](../docs/CONTRIBUTING/index.md)
 - [维护者手册](../docs/ADMIN_GUIDE.md)
 - [工具使用说明](../docs/tools/README.md)
 - [API 文档](../docs/API.md) (待创建)

@@ -22,7 +22,7 @@
 
 以下 Markdown 处理工具已整合到统一的 `tools/processors/markdown.py`：
 
-### fix_md.py
+### fix_markdown.py
 **功能**：修复 Markdown 格式问题（MD009, MD012, MD022, MD028, MD031, MD032, MD034, MD037, MD040, MD047）
 
 **替代方案**：使用 `MarkdownProcessor` 类

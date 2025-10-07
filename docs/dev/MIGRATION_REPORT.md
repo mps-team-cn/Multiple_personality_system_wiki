@@ -43,7 +43,7 @@ plurality_wiki/
 │   │   ├── favicon.svg     # 站点图标
 │   │   └── last-updated.json
 │   ├── README.md           # 关于本站
-│   ├── CONTRIBUTING.md     # 贡献指南
+│   ├── CONTRIBUTING/index.md     # 贡献指南
 │   ├── Preface.md          # 序言
 │   ├── tags.md             # 标签索引
 │   ├── Glossary.md         # 术语表
@@ -225,8 +225,8 @@ pymdown-extensions>=10.7
 
 - [x] 更新 `README.md`: 添加 MkDocs 构建说明
 - [x] 更新 `AGENTS.md`: 更新文件路径和测试命令
-- [x] 更新 `CONTRIBUTING.md`: 更新本地开发流程
-- [x] 同步 `docs/CONTRIBUTING.md` 和 `docs/README.md`
+- [x] 更新 `CONTRIBUTING/index.md`: 更新本地开发流程
+- [x] 同步 `docs/CONTRIBUTING/index.md` 和 `docs/README.md`
 - [x] 更新 `docs/tools/README.md`: 添加迁移说明
 - [x] 更新 `docs/ADMIN_GUIDE.md`: 更新维护脚本说明
 
@@ -235,7 +235,7 @@ pymdown-extensions>=10.7
 - [x] `tools/generate_tags_index.py`: 支持 docs/entries/ 优先,entries/ 回退
 - [x] `tools/check_links.py`: 支持 entries/, docs/entries/, ../entries/ 三种格式
 - [x] `tools/retag_and_related.py`: 添加 get_entries_dir() 自动选择目录
-- [x] `tools/fix_md.py`: 无需修改 (递归扫描)
+- [x] `tools/fix_markdown.py`: 无需修改 (递归扫描)
 
 ---
 

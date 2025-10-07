@@ -103,7 +103,7 @@ mkdocs build && python -m http.server -d site/ 8080
 
 | 工具 | 功能 | 保留理由 |
 |------|------|----------|
-| `fix_md.py` | Markdown 格式自动修复 | 核心工具，与 MkDocs 无关 |
+| `fix_markdown.py` | Markdown 格式自动修复 | 核心工具，与 MkDocs 无关 |
 | `check_links.py` | 链接有效性检查 | MkDocs 无内置链接检查 |
 | `gen-validation-report.py` | 内容校验报告 | 质量控制必需 |
 | `fix_bold_format.py` | 修复粗体格式 | 格式清理工具 |
@@ -158,7 +158,7 @@ git log --all --oneline --since="3 months ago" -- tools/add_*.py
 **需要更新的文档**：
 1. `tools/REFACTORING_PLAN.md` - 反映 MkDocs 迁移影响
 2. `docs/contributing/工具使用.md` - 更新工具列表
-3. `CONTRIBUTING.md` - 更新快速参考
+3. `CONTRIBUTING/index.md` - 更新快速参考
 4. `.github/workflows/*.yml` - 检查 CI 中的工具调用
 
 ---

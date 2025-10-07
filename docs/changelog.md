@@ -38,14 +38,14 @@
 
 ### 📚 贡献指南重构
 
-- 将 CONTRIBUTING.md 拆分为 6 个专题文档到 `docs/contributing/`
+- 将 CONTRIBUTING/index.md 拆分为 6 个专题文档到 `docs/contributing/`
   - **index.md** - 贡献指南总览
   - **编写规范.md** - 语言、格式规范
   - **学术引用.md** - 引用格式、证据分级
   - **诊断临床规范.md** - 病理学内容要求
   - **技术约定.md** - 文件结构、链接管理
   - **PR流程.md** - 提交流程、检查清单
-- 根目录 CONTRIBUTING.md 改为简化版，指向详细文档
+- 根目录 CONTRIBUTING/index.md 改为简化版，指向详细文档
 
 ### 📖 新增内容
 
@@ -164,7 +164,7 @@
   - 修复列表中加粗文本缺少空格的问题
   - 统一使用全角括号和冒号
   - 创建自动修复工具 `tools/fix_bold_format.py`
-  - 更新 CONTRIBUTING.md 和 TEMPLATE_ENTRY.md 添加格式规范
+  - 更新 CONTRIBUTING/index.md 和 TEMPLATE_ENTRY.md 添加格式规范
 
 ### 📝 文档
 

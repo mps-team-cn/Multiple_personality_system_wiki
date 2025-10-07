@@ -36,7 +36,7 @@
 
 ### 自动化工具要求
 
-- `python tools/fix_md.py` - Markdown 自动修复
+- `python tools/fix_markdown.py` - Markdown 自动修复
 - `node scripts/gen-last-updated.mjs` - 更新时间戳
 - `python tools/gen-validation-report.py` - 生成校验报告
 
@@ -65,7 +65,7 @@
 
 ### 任务执行要求
 
-- 提交前必须运行：`python tools/fix_md.py`
+- 提交前必须运行：`python tools/fix_markdown.py`
 - 大规模修改前必须：检查相关索引和链接
 - 标签索引由 MkDocs Material tags 插件自动生成，无需手动维护
 
@@ -113,7 +113,7 @@
 
 - 词条编辑 → 检查 Frontmatter → 运行索引工具
 - 工具修改 → 更新 docs/tools/README.md
-- 提交前 → 运行 fix_md 和 markdownlint
+- 提交前 → 运行 fix_markdown 和 markdownlint
 
 ## 项目知识存储
 

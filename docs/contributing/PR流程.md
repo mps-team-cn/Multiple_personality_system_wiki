@@ -31,7 +31,7 @@ mkdocs --version
 
 # 验证 Python 工具
 
-python tools/fix_md.py --help
+python tools/fix_markdown.py --help
 ```
 
 ### 1.2 创建/编辑词条
@@ -83,11 +83,11 @@ code docs/entries/DID.md
 
 # 修复所有文件
 
-python tools/fix_md.py
+python tools/fix_markdown.py
 
 # 修复特定文件
 
-python tools/fix_md.py docs/entries/某词条.md
+python tools/fix_markdown.py docs/entries/某词条.md
 ```
 
 **修复内容** ：
@@ -153,7 +153,7 @@ mkdocs build --strict
 
 # 1. 格式修复
 
-python tools/fix_md.py
+python tools/fix_markdown.py
 
 # 2. Lint 检查
 
@@ -234,7 +234,7 @@ git push origin 你的分支名
 
 #### 本地验证
 
-- [ ] `python tools/fix_md.py` 已运行
+- [ ] `python tools/fix_markdown.py` 已运行
 - [ ] `markdownlint` 检查通过
 - [ ] `mkdocs serve` 本地预览无误
 - [ ] `mkdocs build --strict` 构建成功
@@ -326,7 +326,7 @@ Closes #XXX
 ✅ **文本（[链接](url)）**
 ```
 
-**解决** ：运行 `python tools/fix_md.py` 自动修复
+**解决** ：运行 `python tools/fix_markdown.py` 自动修复
 
 ### 6.2 链接问题
 
@@ -363,11 +363,11 @@ Closes #XXX
 
 # 修复单个文件
 
-python tools/fix_md.py docs/entries/某词条.md
+python tools/fix_markdown.py docs/entries/某词条.md
 
 # 修复所有词条
 
-python tools/fix_md.py
+python tools/fix_markdown.py
 ```
 
 ### 7.2 时间戳自动更新
@@ -444,7 +444,7 @@ cat docs/VALIDATION_REPORT.md
 
 ### 技术检查
 
-- [ ] `python tools/fix_md.py` 已运行
+- [ ] `python tools/fix_markdown.py` 已运行
 - [ ] `markdownlint` 检查通过
 - [ ] `mkdocs serve` 预览正常
 - [ ] `mkdocs build --strict` 构建成功

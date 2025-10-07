@@ -28,7 +28,7 @@ pip install -r requirements-mkdocs.txt
 
 # 自动修复格式
 
-python tools/fix_md.py
+python tools/fix_markdown.py
 
 # 本地预览
 
@@ -93,7 +93,7 @@ mkdocs serve
 - [ ] 病理学内容包含 ICD-11 与 DSM-5-TR
 - [ ] 内部链接与标签正确
 - [ ] 图片/数据版权明确
-- [ ] `python tools/fix_md.py` 已运行
+- [ ] `python tools/fix_markdown.py` 已运行
 - [ ] `mkdocs build --strict` 构建成功
 
 ---

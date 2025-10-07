@@ -7,7 +7,7 @@
 ## 🔄 迁移后的关键变更
 
 - **词条目录** ：从 `entries/` 迁移至 `docs/entries/`（保留根目录 `entries/` 作为同步备份）
-- **文档文件** ：统一放置在 `docs/` 目录（`README.md`, `CONTRIBUTING.md`, `tags.md`, `Glossary.md` 等）
+- **文档文件** ：统一放置在 `docs/` 目录（`README.md`, `CONTRIBUTING/`, `tags.md`, `Glossary.md` 等）
 - **静态资源** ：从 `assets/` 迁移至 `docs/assets/`
 - **构建系统** ：使用 `mkdocs build` 替代 Docsify
 - **本地预览** ：推荐使用 `mkdocs serve` 替代 `docsify serve` 或 `http.server`
@@ -52,7 +52,7 @@
 
 **功能特性:**
 
-- 整合了 3 个独立工具的所有功能 (fix_md.py, fix_bold_format.py, fix_list_bold_colon.py)
+- 整合了 3 个独立工具的所有功能 (fix_markdown.py, fix_bold_format.py, fix_list_bold_colon.py)
 - 支持 13 条 Markdownlint 规则 + 5 条中文排版规则
 - 批量处理能力
 - 预览模式 (--dry-run)
@@ -125,7 +125,7 @@ fixed = processor.process(text)  # "**加粗** 后面"
 **检查规则:**
 
 - 词条之间的链接：直接使用文件名（如 `DID.md`），无需 `entries/` 前缀
-- 词条链接到根目录文档：使用 `../` 相对路径（如 `../CONTRIBUTING.md`）
+- 词条链接到根目录文档：使用 `../` 相对路径（如 `../CONTRIBUTING/index.md`）
 - 根目录文档链接到词条：使用 `entries/` 前缀（如 `entries/DID.md`）
 - 禁止使用 `./` 等模糊路径
 - 支持根目录白名单文件验证
@@ -236,7 +236,7 @@ tools\run_local_updates.bat --skip-pdf --skip-markdownlint
 4. 导出 PDF (`pdf_export/export_to_pdf.py`)
 5. ~~生成标签索引 (`generate_tags_index.py`)~~ **[已废弃]** MkDocs 自动处理
 6. ~~生成搜索索引 (`build_search_index.py`)~~ **[已废弃]** MkDocs 内置搜索
-7. 自动修复 Markdown (`fix_md.py`)
+7. 自动修复 Markdown (`fix_markdown.py`)
 8. 运行 markdownlint 校验
 
 **可用的跳过选项:**

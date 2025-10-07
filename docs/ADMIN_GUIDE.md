@@ -2,7 +2,7 @@
 
 本指南为 **Plurality Wiki** 维护者与协作者提供基础操作与维护流程。
 目标是确保贡献内容符合规范、CI 通过、结构一致。
-详细写作要求请参阅 **[CONTRIBUTING.md](CONTRIBUTING.md)** 与 **[AGENTS.md](dev/AGENTS.md)** 。
+详细写作要求请参阅 [**contributing/index.md**](contributing/index.md) 与 [**AGENTS.md**](../AGENTS.md) 。
 
 ---
 
@@ -106,7 +106,7 @@ git commit -m "feat: 新增解离性身份障碍（DID）条目"
 
 1. 复制 [TEMPLATE_ENTRY.md](TEMPLATE_ENTRY.md)
 2. 填写完整内容（含 Frontmatter：`title`、`tags`、`updated`）
-3. 将文件保存至 `entries/` 目录
+3. 将文件保存至 `docs/entries/` 目录
 4. 标签索引由 MkDocs Material tags 插件自动生成，无需手动更新
 
 ### 🔹 5.2 更新已有词条
@@ -136,7 +136,7 @@ python tools/gen_changelog_by_tags.py --latest-to-head
 @REM 生成 PDF 和目录索引
 python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei"
 @REM 修正 Markdown 格式
-python tools/fix_md.py
+python tools/fix_markdown.py
 @REM 检查 Markdown 格式
 markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
 ```

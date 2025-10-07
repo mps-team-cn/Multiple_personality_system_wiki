@@ -144,7 +144,7 @@
 
 - CI 会在 `push` / `pull_request` 时运行以下步骤：
 
-  1. 执行 `python tools/fix_md.py` 自动修复；
+  1. 执行 `python tools/fix_markdown.py` 自动修复；
   2. 执行 `markdownlint` 校验；若有未修复项，CI 失败并提示。
 - 详见 `.github/workflows/markdown_format.yml`。
 
@@ -154,11 +154,11 @@
 
 # 执行自动修复
 
-python tools/fix_md.py
+python tools/fix_markdown.py
 
 # 可选：仅查看将修改哪些文件
 
-python tools/fix_md.py --dry-run
+python tools/fix_markdown.py --dry-run
 
 # 运行 markdownlint（需已安装 markdownlint-cli）
 

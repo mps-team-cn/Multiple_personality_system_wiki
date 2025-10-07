@@ -297,7 +297,7 @@ updated: 2025-10-06
 
 - 指出错误或过时信息
 - 分享你的体验与建议
-- 通过 [贡献指南](../CONTRIBUTING.md) 参与完善
+- 通过 [贡献指南](../CONTRIBUTING/index.md) 参与完善
 
 ---
 
