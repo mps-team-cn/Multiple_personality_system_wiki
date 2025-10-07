@@ -1,11 +1,43 @@
 <!-- docs/admin/index.html -->
 <!doctype html>
-<html>
+<html lang="zh-Hans">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Plurality Wiki — 内容管理</title>
+    <title>内容管理系统 - Plurality Wiki</title>
+    <meta name="description" content="Plurality Wiki 词条管理后台" />
+
+    <!-- Decap CMS 样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/decap-cms@3.3.3/dist/decap-cms.css" />
+
+    <!-- 自定义样式 -->
+    <link rel="stylesheet" href="admin.css" />
+
+    <!-- 字体 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        font-family: 'Noto Sans SC', sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* 加载页面美化 */
+      #nc-root:empty::before {
+        content: "正在加载内容管理系统...";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-size: 18px;
+        color: #009688;
+        background: linear-gradient(135deg, #e0f2f1 0%, #b2dfdb 100%);
+      }
+    </style>
   </head>
   <body>
     <!-- Decap CMS 挂载点 -->

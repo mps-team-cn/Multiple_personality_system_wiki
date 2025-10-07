@@ -4,19 +4,60 @@
 backend:
   name: test-repo
 
+# 中文本地化
+locale: zh_Hans
+
+# 站点信息
+site_url: https://plurality-wiki.pages.dev
+display_url: https://plurality-wiki.pages.dev
+logo_url: /assets/logo.svg
+
+# 媒体文件配置
 media_folder: "docs/assets/uploads"
 public_folder: "/assets/uploads"
 
+# 编辑器配置
+editor:
+  preview: true
+
+# 集合配置
 collections:
   - name: "entries"
-    label: "词条"
+    label: "词条管理"
     label_singular: "词条"
+    description: "管理 Plurality Wiki 的词条内容"
     folder: "docs/entries"
     create: true
     slug: "{{slug}}"
+    editor:
+      preview: true
     fields:
-      - { label: "标题", name: "title", widget: "string" }
-      - { label: "英文名", name: "en", widget: "string", required: false }
-      - { label: "标签", name: "tags", widget: "list", default: [] }
-      - { label: "更新时间", name: "updated", widget: "datetime", format: "YYYY-MM-DD", default: "" }
-      - { label: "正文", name: "body", widget: "markdown" }
+      - label: "标题（中文）"
+        name: "title"
+        widget: "string"
+        hint: "词条的中文名称"
+
+      - label: "英文名/缩写"
+        name: "en"
+        widget: "string"
+        required: false
+        hint: "可选：英文名称或常用缩写"
+
+      - label: "标签"
+        name: "tags"
+        widget: "list"
+        required: false
+        hint: "为词条添加分类标签，如：核心概念、临床诊断、系统运作等"
+
+      - label: "更新时间"
+        name: "updated"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        hint: "词条最后更新日期"
+
+      - label: "正文内容"
+        name: "body"
+        widget: "markdown"
+        hint: "使用 Markdown 格式编写词条正文"
