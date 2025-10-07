@@ -2,42 +2,21 @@
 # 部署到生产环境时，需要切换回 github backend
 
 backend:
-  name: test-repo  # 本地测试模式，不会真正提交到 GitHub
-  # 生产环境请改为：
-  # name: github
-  # repo: kuliantnt/plurality_wiki
-  # branch: main
-  # base_url: https://plurality-wiki.pages.dev
-  # auth_endpoint: /api/auth
+  name: test-repo
 
-media_folder: "docs/assets/uploads"     # ✅ 建议加上 docs/
+media_folder: "docs/assets/uploads"
 public_folder: "/assets/uploads"
 
-site_url: "https://plurality-wiki.pages.dev"  # ✅ 改成你的真实站点
-logo_url: "/assets/logo.svg"
-locale: "zh_Hans"
-
-
-# 你项目的内容模型（collections）
 collections:
   - name: "entries"
-    label: "词条（entries）"
+    label: "词条"
     label_singular: "词条"
-    description: "Plurality Wiki 主体条目"
-    folder: "docs/entries"                 # ✅ 正确的词条目录路径
+    folder: "docs/entries"
     create: true
     slug: "{{slug}}"
-    path: "{{slug}}.md"
-    filter:
-      field: "draft"
-      value: false
     fields:
-      - { label: "标题（中文名）", name: "title", widget: "string" }
-      - { label: "英文名/缩写", name: "en", widget: "string", required: false }
-      - { label: "同义词/别名", name: "synonyms", widget: "list", required: false }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "英文名", name: "en", widget: "string", required: false }
       - { label: "标签", name: "tags", widget: "list", default: [] }
       - { label: "更新时间", name: "updated", widget: "datetime", format: "YYYY-MM-DD", default: "" }
-      - { label: "草稿", name: "draft", widget: "boolean", default: false }
       - { label: "正文", name: "body", widget: "markdown" }
-
-  # 如需按子目录分区（例如 诊断与临床、系统体验与机制），再加多个 collection 或用 nested collections
