@@ -13,7 +13,7 @@ updated: 2025-03-09
 
 # 混合型系统（Mixed Systems, Xianyu Theory）
 
->**一句话定义** ：弦羽理论分类中的一类复合系统，由两个或多个功能逻辑叠加而成，兼具不同类型系统的特征。
+> **一句话定义** ：弦羽理论分类中的一类复合系统，由两个或多个功能逻辑叠加而成，兼具不同类型系统的特征。
 
 ---
 
@@ -96,9 +96,9 @@ updated: 2025-03-09
 
 ## 与其他类别的关系
 
-- 混合型系统常由 **单一类系统**（[单一类系统](Single-Class-Systems-Xianyu.md)） 演化而来；
-- 在长期演化中，也可能过渡为 **家族式系统**（[家族式系统](Family-Systems-Xianyu.md)）；
-- 特殊情况下，可与 **系魂型系统**（[系魂型系统](Soul-Linked-Systems-Xianyu.md)） 重叠。
+- 混合型系统常由 **单一类系统** （[单一类系统](Single-Class-Systems-Xianyu.md)） 演化而来；
+- 在长期演化中，也可能过渡为 **家族式系统** （[家族式系统](Family-Systems-Xianyu.md)）；
+- 特殊情况下，可与 **系魂型系统** （[系魂型系统](Soul-Linked-Systems-Xianyu.md)） 重叠。
 
 ---
 

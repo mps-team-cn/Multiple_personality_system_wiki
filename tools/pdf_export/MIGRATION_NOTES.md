@@ -8,20 +8,20 @@
 
 项目从 Docsify 迁移到 MkDocs Material 后，词条文件和文档结构发生了以下变化：
 
-1. **词条目录**：从 `entries/` 迁移到 `docs/entries/`
-2. **文档文件**：`Preface.md`、`index.md` 等移至 `docs/` 目录
-3. **链接格式**：从 `/entries/xxx.md` 改为相对路径 `xxx.md`
+1. **词条目录** ：从 `entries/` 迁移到 `docs/entries/`
+2. **文档文件** ：`Preface.md`、`index.md` 等移至 `docs/` 目录
+3. **链接格式** ：从 `/entries/xxx.md` 改为相对路径 `xxx.md`
 
 ## 修复内容
 
 ### 1. 链接格式支持（markdown.py）
 
-**更新的正则表达式**：
+**更新的正则表达式** ：
 
 - 旧格式：`entries/xxx.md`、`./entries/xxx.md`、`../entries/xxx.md`
 - 新格式：`xxx.md`（相对路径，假定在 docs/entries/ 目录下）
 
-**更新的函数**：
+**更新的函数** ：
 
 - `ENTRY_INLINE_LINK_PATTERN`：支持行内链接 `[text](xxx.md)`
 - `ENTRY_REFERENCE_LINK_PATTERN`：支持引用式链接 `[ref]: xxx.md`
@@ -30,7 +30,7 @@
 
 ### 2. 路径自动检测（paths.py）
 
-**智能路径选择**：
+**智能路径选择** ：
 
 ```python
 
@@ -48,7 +48,7 @@ LAST_UPDATED_JSON_PATH = DOCS_DIR / "assets" / "last-updated.json" if ...
 
 ### 3. 结构收集（structure.py）
 
-**更新的函数**：
+**更新的函数** ：
 
 - `_build_preface_section()`：使用 `PREFACE_PATH` 常量
 - `_build_sections_from_index()`：使用 `INDEX_PATH` 常量

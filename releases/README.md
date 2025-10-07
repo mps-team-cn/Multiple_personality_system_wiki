@@ -20,8 +20,8 @@
 
 这些 PDF 文件通过以下方式生成：
 
-- **v1.x 系列**: 使用 Docsify + PDF 导出工具
-- **v2.x 系列**: 使用 MkDocs + mkdocs-pdf-export-plugin
+- **v1.x 系列** : 使用 Docsify + PDF 导出工具
+- **v2.x 系列** : 使用 MkDocs + mkdocs-pdf-export-plugin
 
 ### 版本命名规则
 
@@ -33,10 +33,10 @@
 
 ## 🔗 在线版本
 
-**推荐访问最新在线版本**：
+**推荐访问最新在线版本** ：
 
-- **GitHub Pages**: [https://kuliantnt.github.io/plurality_wiki/](https://kuliantnt.github.io/plurality_wiki/)
-- **Cloudflare Pages**: [https://plurality-wiki.pages.dev/](https://plurality-wiki.pages.dev/)
+- **GitHub Pages** : [https://kuliantnt.github.io/plurality_wiki/](https://kuliantnt.github.io/plurality_wiki/)
+- **Cloudflare Pages** : [https://plurality-wiki.pages.dev/](https://plurality-wiki.pages.dev/)
 
 在线版本始终保持最新，包含所有词条更新和功能改进。
 
@@ -53,4 +53,4 @@ PDF 版本适合：
 
 ---
 
-**注意**: PDF 生成工具位于 `tools/pdf_export/` 目录。
+**注意** : PDF 生成工具位于 `tools/pdf_export/` 目录。

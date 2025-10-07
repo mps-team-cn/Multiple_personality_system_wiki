@@ -26,7 +26,7 @@ docs/assets/
 - SVG 矢量图
 - 复杂的技术图解
 
-**命名建议**：使用描述性名称，如 `dissociation-types.svg`、`therapy-phases.png`
+**命名建议** ：使用描述性名称，如 `dissociation-types.svg`、`therapy-phases.png`
 
 ### 2. images/ - 一般图片
 
@@ -37,7 +37,7 @@ docs/assets/
 - 照片素材
 - 背景图片
 
-**命名建议**：`cover-{词条名}.png`、`screenshot-{功能}.jpg`
+**命名建议** ：`cover-{词条名}.png`、`screenshot-{功能}.jpg`
 
 ### 3. icons/ - 图标素材
 
@@ -48,13 +48,13 @@ docs/assets/
 - 装饰性 SVG
 - 提示图标（如 trigger-warning.svg）
 
-**命名建议**：简短清晰，如 `favicon.svg`、`warning.svg`
+**命名建议** ：简短清晰，如 `favicon.svg`、`warning.svg`
 
 ## 引用路径规范
 
 ### 从词条文件引用
 
-词条文件位于 `docs/entries/`，引用资源时使用 **相对路径**（MkDocs 会自动处理）：
+词条文件位于 `docs/entries/`，引用资源时使用 **相对路径** （MkDocs 会自动处理）：
 
 ```markdown
 <!-- ✅ 正确：使用相对于源文件的路径 -->
@@ -69,7 +69,7 @@ docs/assets/
 
 ### 从其他文档引用
 
-根据文档位置使用 **相对路径**：
+根据文档位置使用 **相对路径** ：
 
 ```markdown
 <!-- 从 docs/ 根目录的文档（如 index.md） -->
@@ -82,7 +82,7 @@ docs/assets/
 ![图表](../../assets/figures/diagram.svg)
 ```
 
-**MkDocs 路径处理**：
+**MkDocs 路径处理** ：
 
 - MkDocs 自动根据源文件位置和目标文件位置计算路径
 - 使用相对于 **源文件** 的路径，MkDocs 会在构建时自动调整
@@ -123,20 +123,20 @@ docs/assets/
 
 ## 资源管理最佳实践
 
-1.**命名规范**
+1. **命名规范**
 
    - 使用小写字母
    - 使用连字符 `-` 分隔单词
    - 使用描述性名称
    - 避免中文文件名
 
-2.**目录整洁**
+2. **目录整洁**
 
    - 定期清理未使用的资源
    - 避免重复文件
    - 保持目录结构清晰
 
-3.**版本控制**
+3. **版本控制**
 
    - 图片修改时使用新文件名（如 `diagram-v2.svg`）
    - 或在提交信息中明确说明修改内容
@@ -154,7 +154,7 @@ docs/assets/
 
 ### Q: 应该用什么路径格式？
 
-**使用相对于源文件的路径**：
+**使用相对于源文件的路径** ：
 
 | 路径格式 | 示例 | 适用场景 | 说明 |
 |---------|------|---------|------|
@@ -168,7 +168,7 @@ docs/assets/
 
 ---
 
-**相关文档**：
+**相关文档** ：
 
 - [贡献指南](../CONTRIBUTING.md) - 图表与数据要求
 - [词条模板](TEMPLATE_ENTRY.md) - 图片引用示例

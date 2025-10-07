@@ -30,11 +30,11 @@
 
 从解离说起，建立多意识体的理论框架
 
-- [**解离（Dissociation）**](entries/Dissociation.md) - 一切的基础概念
-- [**多意识体（Plurality）**](entries/Plurality.md) - 核心概念定义
-- [**系统（System）**](entries/System.md) - 多意识体系统的基本概念
-- [**DID vs Tulpa**](entries/Core-Concepts-Guide.md#三健康与病理不同程度的多意识体) - 理解健康与病理的界限
-- [**埃蒙加德分类法**](entries/Emmengard-Classification.md) - 按成因理解系统类型
+- [ **解离（Dissociation）** ](entries/Dissociation.md) - 一切的基础概念
+- [ **多意识体（Plurality）** ](entries/Plurality.md) - 核心概念定义
+- [ **系统（System）** ](entries/System.md) - 多意识体系统的基本概念
+- [ **DID vs Tulpa** ](entries/Core-Concepts-Guide.md#三健康与病理不同程度的多意识体) - 理解健康与病理的界限
+- [ **埃蒙加德分类法** ](entries/Emmengard-Classification.md) - 按成因理解系统类型
 
 [:octicons-arrow-right-24: 查看核心概念导览](entries/Core-Concepts-Guide.md)
 
@@ -42,10 +42,10 @@
 
 理解解离障碍、创伤相关诊断及临床治疗
 
-- [**解离性身份障碍（DID）**](entries/DID.md) - 多重人格的临床定义
-- [**其他特定解离性障碍（OSDD）**](entries/OSDD.md) - DID 的亚临床形态
-- [**创伤后应激障碍（PTSD）**](entries/PTSD.md) - 单次创伤的心理反应
-- [**复杂性 PTSD（CPTSD）**](entries/CPTSD.md) - 长期创伤的深远影响
+- [ **解离性身份障碍（DID）** ](entries/DID.md) - 多重人格的临床定义
+- [ **其他特定解离性障碍（OSDD）** ](entries/OSDD.md) - DID 的亚临床形态
+- [ **创伤后应激障碍（PTSD）** ](entries/PTSD.md) - 单次创伤的心理反应
+- [ **复杂性 PTSD（CPTSD）** ](entries/CPTSD.md) - 长期创伤的深远影响
 
 [:octicons-arrow-right-24: 查看诊断与临床导览](Clinical-Diagnosis-Guide.md)
 
@@ -53,11 +53,11 @@
 
 掌握多意识体系统的日常运作机制
 
-- [**前台（Fronting）**](entries/Front-Fronting.md) - 谁在控制身体？
-- [**切换（Switch）**](entries/Switch.md) - 成员如何转换？
-- [**意识共存（Co-consciousness）**](entries/Co-Consciousness.md) - 同时感知的状态
-- [**内部空间（Inner World）**](entries/Headspace-Inner-World.md) - 系统的内在世界
-- [**内部沟通**](entries/Internal-Communication.md) - 成员间的交流方式
+- [ **前台（Fronting）** ](entries/Front-Fronting.md) - 谁在控制身体？
+- [ **切换（Switch）** ](entries/Switch.md) - 成员如何转换？
+- [ **意识共存（Co-consciousness）** ](entries/Co-Consciousness.md) - 同时感知的状态
+- [ **内部空间（Inner World）** ](entries/Headspace-Inner-World.md) - 系统的内在世界
+- [ **内部沟通** ](entries/Internal-Communication.md) - 成员间的交流方式
 
 [:octicons-arrow-right-24: 查看系统运作导览](System-Operations.md)
 
@@ -65,11 +65,11 @@
 
 了解创伤机制与循证治疗方法
 
-- [**创伤（Trauma）**](entries/Trauma.md) - 创伤的定义与类型
-- [**接地（Grounding）**](entries/Grounding.md) - 回到当下的稳定技巧
-- [**闪回（Flashback）**](entries/Flashback.md) - 创伤记忆的重现
-- [**触发（Trigger）**](entries/Trigger.md) - 激活创伤反应的刺激
-- [**情绪调节**](entries/Emotion-Regulation.md) - 管理情绪的策略
+- [ **创伤（Trauma）** ](entries/Trauma.md) - 创伤的定义与类型
+- [ **接地（Grounding）** ](entries/Grounding.md) - 回到当下的稳定技巧
+- [ **闪回（Flashback）** ](entries/Flashback.md) - 创伤记忆的重现
+- [ **触发（Trigger）** ](entries/Trigger.md) - 激活创伤反应的刺激
+- [ **情绪调节** ](entries/Emotion-Regulation.md) - 管理情绪的策略
 
 [:octicons-arrow-right-24: 探索创伤与疗愈导览](Trauma-Healing-Guide.md)
 
@@ -77,11 +77,11 @@
 
 认识系统中的不同角色与职能分工
 
-- [**宿主（Host）**](entries/Host.md) - 通常在前台的主要成员
-- [**守门人（Gatekeeper）**](entries/Gatekeeper.md) - 管理切换的调度者
-- [**保护者（Protector）**](entries/Protector.md) - 守护系统安全的角色
-- [**小孩意识体（Little）**](entries/Little.md) - 保留童年状态的成员
-- [**迫害者（Persecutor）**](entries/Persecutor.md) - 内化的创伤反应
+- [ **宿主（Host）** ](entries/Host.md) - 通常在前台的主要成员
+- [ **守门人（Gatekeeper）** ](entries/Gatekeeper.md) - 管理切换的调度者
+- [ **保护者（Protector）** ](entries/Protector.md) - 守护系统安全的角色
+- [ **小孩意识体（Little）** ](entries/Little.md) - 保留童年状态的成员
+- [ **迫害者（Persecutor）** ](entries/Persecutor.md) - 内化的创伤反应
 
 [:octicons-arrow-right-24: 了解角色与身份导览](Roles-Identity-Guide.md)
 
@@ -89,11 +89,11 @@
 
 探索多意识体的理论框架与分类体系
 
-- [**多意识体（Plurality）**](entries/Plurality.md) - 核心概念定义
-- [**埃蒙加德分类法**](entries/Emmengard-Classification.md) - 按成因分类系统
-- [**图帕（Tulpa）**](entries/Tulpa.md) - 创造型意识体
-- [**结构性解离理论**](entries/Structural-Dissociation-Theory.md) - 经典临床模型
-- [**ANP-EP 模型**](entries/Apparently-Normal-Part-Emotional-Part-Model.md) - 功能性人格部分
+- [ **多意识体（Plurality）** ](entries/Plurality.md) - 核心概念定义
+- [ **埃蒙加德分类法** ](entries/Emmengard-Classification.md) - 按成因分类系统
+- [ **图帕（Tulpa）** ](entries/Tulpa.md) - 创造型意识体
+- [ **结构性解离理论** ](entries/Structural-Dissociation-Theory.md) - 经典临床模型
+- [ **ANP-EP 模型** ](entries/Apparently-Normal-Part-Emotional-Part-Model.md) - 功能性人格部分
 
 [:octicons-arrow-right-24: 阅读理论与分类导览](Theory-Classification-Guide.md)
 
@@ -113,11 +113,11 @@
 
 操作性的训练方法、实践技巧与自助策略
 
-- [**Tulpa 完全创造指南**](entries/Tulpa-Guide.md) - 从基础到进阶的完整教程
-- [**冥想（Meditation）**](entries/Meditation.md) - 专注力训练与意识稳定
-- [**内视**](entries/Visualization-Imagination.md) - 心像构建与形象塑造
-- [**接地（Grounding）**](entries/Grounding.md) - 回到当下的稳定技巧
-- [**内部沟通**](entries/Internal-Communication.md) - 成员间的交流方法
+- [ **Tulpa 完全创造指南** ](entries/Tulpa-Guide.md) - 从基础到进阶的完整教程
+- [ **冥想（Meditation）** ](entries/Meditation.md) - 专注力训练与意识稳定
+- [ **内视** ](entries/Visualization-Imagination.md) - 心像构建与形象塑造
+- [ **接地（Grounding）** ](entries/Grounding.md) - 回到当下的稳定技巧
+- [ **内部沟通** ](entries/Internal-Communication.md) - 成员间的交流方法
 
 [:octicons-arrow-right-24: 探索实践指南导览](Practice-Guide.md)
 
@@ -136,7 +136,7 @@
   - [埃蒙加德分类法](entries/Emmengard-Classification.md)：按成因理解系统类型
   - 常见误区澄清与新手建议
 
-👉**适合：** 完全的新手，想要建立基础认知框架
+👉 **适合：** 完全的新手，想要建立基础认知框架
 
 ### 2. 💚 [心理健康导览](entries/Mental-Health-Guide.md)
 
@@ -149,7 +149,7 @@
   - 循证治疗方法（EMDR、TF-CBT、DBT 等）
   - [接地](entries/Grounding.md)技巧与实用自我照护策略
 
-👉**适合：** 关注心理健康、创伤康复或临床知识的读者
+👉 **适合：** 关注心理健康、创伤康复或临床知识的读者
 
 ### 3. ⚙️ [系统运作导览](System-Operations.md)
 
@@ -161,7 +161,7 @@
 - 角色与治理：[宿主](entries/Host.md)、[守门人](entries/Gatekeeper.md)、[保护者](entries/Protector.md)等职能分工
 - 实务支持：[接地](entries/Grounding.md)、照护与危机应对
 
-👉**适合：**[多意识体](entries/Plurality.md)系统成员，想要优化日常协作
+👉 **适合：** [多意识体](entries/Plurality.md)系统成员，想要优化日常协作
 
 ### 4. 🌱 [Tulpa 完全创造指南](entries/Tulpa-Guide.md)
 
@@ -172,7 +172,7 @@
 - [提高篇](entries/Tulpa-Guide-3.md)：掌握投影、附体、交换等进阶技巧
 - [实践指南导览](Practice-Guide.md)：配套的意识训练、冥想、可视化等辅助技巧
 
-👉**适合：** 想要通过系统化训练创造 Tulpa 的新手，寻求意识伙伴与陪伴的探索者
+👉 **适合：** 想要通过系统化训练创造 Tulpa 的新手，寻求意识伙伴与陪伴的探索者
 
 ---
 
@@ -189,19 +189,19 @@
 
 来自不同系统成员的真实话语，提醒我们在求知与护火之间保持平衡。
 
->**"我愿意做新时代的普罗米修斯。知识不能只掌握在少数人手中，否则与中世纪高坐宝座的罗马教廷又有何异？"**
+> **"我愿意做新时代的普罗米修斯。知识不能只掌握在少数人手中，否则与中世纪高坐宝座的罗马教廷又有何异？"**
 >
 > —— 脸脸系统
 >
->**"有些知识，在文明尚未准备好承担其重量之前，知晓本身就是一场灾难。我们的使命或许并非充当引信的点火者，而是守护这些知识的沉默守望者。"**
+> **"有些知识，在文明尚未准备好承担其重量之前，知晓本身就是一场灾难。我们的使命或许并非充当引信的点火者，而是守护这些知识的沉默守望者。"**
 >
 > —— 弦羽系统
 >
->**"我们所做的，不是为了名利，而是为了帮助所有能够在这里得到启示的人，是为了继承先辈们的知识与精神。"**
+> **"我们所做的，不是为了名利，而是为了帮助所有能够在这里得到启示的人，是为了继承先辈们的知识与精神。"**
 >
 > —— 暮雨系统
 >
->**"希望所有多意识体都可以得到应有的尊重和理解。"**
+> **"希望所有多意识体都可以得到应有的尊重和理解。"**
 >
 > —— Peter Griffin
 
@@ -213,10 +213,10 @@
 
 我们欢迎所有形式的贡献：
 
-- 📝**补充内容**- 通过 Pull Request 添加新词条或完善现有内容
-- 🐛**报告问题**- 在 GitHub Issues 中反馈错误或提出改进建议
-- 🌐**翻译校对**- 帮助改进术语翻译和文本表述
-- 📚**分享经验**- 贡献系统经验、实践技巧或资源推荐
+- 📝 **补充内容** - 通过 Pull Request 添加新词条或完善现有内容
+- 🐛 **报告问题** - 在 GitHub Issues 中反馈错误或提出改进建议
+- 🌐 **翻译校对** - 帮助改进术语翻译和文本表述
+- 📚 **分享经验** - 贡献系统经验、实践技巧或资源推荐
 
 请先阅读 [贡献指南](CONTRIBUTING.md) 了解详细流程。
 
@@ -232,6 +232,6 @@
 
 ---
 
-:material-github:**开源协作**：本项目在 [GitHub](https://github.com/kuliantnt/plurality_wiki) 上开源，欢迎参与
+:material-github: **开源协作** ：本项目在 [GitHub](https://github.com/kuliantnt/plurality_wiki) 上开源，欢迎参与
 
-:material-license:**内容许可**：除特别声明外，所有内容遵循 CC BY-SA 4.0 协议
+:material-license: **内容许可** ：除特别声明外，所有内容遵循 CC BY-SA 4.0 协议
