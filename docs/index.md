@@ -85,7 +85,6 @@
 - [ **结构性解离理论** ](entries/Structural-Dissociation-Theory.md) - 经典临床模型
 - [ **ANP-EP 模型** ](entries/Apparently-Normal-Part-Emotional-Part-Model.md) - 功能性人格部分
 
-
 ### :material-palette: [文化与表现](entries/Cultural-Media-Guide.md)
 
 文学、影视作品中的多意识体主题
@@ -95,7 +94,6 @@
 - [《西比尔》](entries/Sybil-1976-Cultural-Prototype.md) - 多重人格文化原型
 - [初音未来现象](entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md) - 虚拟偶像与 Tulpa 边界
 - [东方 Project](entries/Touhou-Tulpa-Fandom.md) - 同人圈 Tulpa 文化
-
 
 ### :material-clipboard-check: [实践指南](entries/Practice-Guide.md)
 

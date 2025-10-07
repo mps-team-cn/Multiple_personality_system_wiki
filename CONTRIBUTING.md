@@ -2,7 +2,7 @@
 
 欢迎参与 **Plurality Wiki** 的建设！
 
-本文件是 GitHub 标准贡献指南的简要版本。**详细规范请查阅 [完整贡献指南](docs/contributing/index.md)**。
+本文件是 GitHub 标准贡献指南的简要版本。 **详细规范请查阅 [完整贡献指南](docs/contributing/index.md)** 。
 
 ---
 
@@ -19,15 +19,19 @@
 ### 2. 本地开发
 
 ```bash
+
 # 安装依赖
+
 pip install -r requirements-mkdocs.txt
 
 # 编辑词条（在 docs/entries/ 目录）
 
 # 自动修复格式
+
 python tools/fix_md.py
 
 # 本地预览
+
 mkdocs serve
 ```
 
@@ -52,21 +56,21 @@ mkdocs serve
 
 ### 文件结构
 
-- **词条存放**：统一在 `docs/entries/` 目录（禁止子目录）
-- **Frontmatter**：必须包含 `title`、`tags`、`updated` 字段
-- **模板参考**：[词条模板](docs/TEMPLATE_ENTRY.md)
+- **词条存放** ：统一在 `docs/entries/` 目录（禁止子目录）
+- **Frontmatter** ：必须包含 `title`、`tags`、`updated` 字段
+- **模板参考** ：[词条模板](docs/TEMPLATE_ENTRY.md)
 
 ### 引用规范
 
-- **一级来源**（必选）：ICD-11、DSM-5-TR 官方资料
-- **二级来源**（可补充）：StatPearls、UpToDate、权威期刊
-- **引用格式**：包含来源名称、版本、访问日期
+- **一级来源** （必选）：ICD-11、DSM-5-TR 官方资料
+- **二级来源** （可补充）：StatPearls、UpToDate、权威期刊
+- **引用格式** ：包含来源名称、版本、访问日期
 
 ### 诊断内容
 
-- **双重对照**：必须同时提供 ICD-11 与 DSM-5-TR 信息
-- **原文摘录**：包含英文原文（≤25 词）+ 中文翻译
-- **差异说明**：明确标注 ICD 与 DSM 的分类差异
+- **双重对照** ：必须同时提供 ICD-11 与 DSM-5-TR 信息
+- **原文摘录** ：包含英文原文（≤25 词）+ 中文翻译
+- **差异说明** ：明确标注 ICD 与 DSM 的分类差异
 
 ### 提交规范
 
