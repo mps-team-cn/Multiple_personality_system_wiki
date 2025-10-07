@@ -7,7 +7,7 @@
 
 [查看标签索引](tags.md){ .md-button .md-button--primary }
 [贡献指南](contributing/index.md){ .md-button }
-[管理员登录](admin/){ .md-button }
+[:material-shield-account: 管理员入口](admin/){ .md-button .md-button--secondary title="站点维护入口，仅限管理员使用" }
 
 ---
 
