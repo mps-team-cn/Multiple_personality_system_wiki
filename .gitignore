@@ -161,3 +161,6 @@ $RECYCLE.BIN/
 .temp/
 tmp/
 temp/
+
+# === Decap CMS 本地开发 ===
+docs/admin/config.production.yml
