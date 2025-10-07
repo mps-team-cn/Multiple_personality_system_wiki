@@ -887,3 +887,83 @@ def fix_markdown_directory(
         dry_run=dry_run,
         exclude_dirs=exclude_dirs
     )
+
+
+# ============================================================================
+# 命令行接口
+# ============================================================================
+
+def main():
+    """命令行入口"""
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="Markdown 文档处理器 - 修复格式问题和中文排版"
+    )
+    parser.add_argument(
+        "path",
+        help="要处理的文件或目录路径"
+    )
+    parser.add_argument(
+        "--dry-run", "-n",
+        action="store_true",
+        help="预览模式，不实际修改文件"
+    )
+    parser.add_argument(
+        "--verbose", "-v",
+        action="store_true",
+        help="显示详细输出"
+    )
+
+    args = parser.parse_args()
+
+    # 设置日志级别
+    if args.verbose:
+        import logging
+        logging.basicConfig(level=logging.DEBUG)
+
+    path = Path(args.path)
+
+    if not path.exists():
+        print(f"错误: 路径不存在: {path}")
+        return 1
+
+    print("=" * 60)
+    print("Markdown 处理器")
+    print("=" * 60)
+    if args.dry_run:
+        print("模式: 预览（不会修改文件）")
+    print(f"路径: {path}")
+    print()
+
+    # 处理文件或目录
+    if path.is_file():
+        result = fix_markdown_file(path, dry_run=args.dry_run)
+        if result.changed:
+            print(f"[修改] {result.file_path.name}")
+            print(f"  行数: {result.original_lines} → {result.final_lines}")
+            print(f"  规则: {', '.join(result.applied_rules)}")
+        else:
+            print(f"[跳过] {result.file_path.name} (无需修改)")
+    else:
+        results = fix_markdown_directory(path, dry_run=args.dry_run)
+        changed_count = sum(1 for r in results if r.changed)
+
+        for result in results:
+            if result.changed:
+                print(f"[修改] {result.file_path.name}")
+                if args.verbose:
+                    print(f"  行数: {result.original_lines} → {result.final_lines}")
+                    print(f"  规则: {', '.join(result.applied_rules)}")
+
+        print()
+        print("=" * 60)
+        print(f"处理完成: {len(results)} 个文件，{changed_count} 个文件已修改")
+        print("=" * 60)
+
+    return 0
+
+
+if __name__ == "__main__":
+    import sys
+    sys.exit(main())
