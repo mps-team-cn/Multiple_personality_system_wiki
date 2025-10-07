@@ -5,7 +5,7 @@ site_author: 脸脸系统、弦羽系统、逝水流年系统及社区贡献者
 repo_url: https://github.com/kuliantnt/plurality_wiki
 repo_name: plurality_wiki
 copyright: Copyright &copy; 2024-2025 Plurality Wiki
-edit_uri: edit/main/
+edit_uri: edit/main/docs/
 
 theme:
   name: material
@@ -45,40 +45,42 @@ theme:
   # 功能特性
   features:
     # 导航
-    - navigation.instant          # 即时加载
+    - navigation.instant # 即时加载
     - navigation.instant.prefetch # 预加载
     - navigation.instant.progress # 显示加载进度
-    - navigation.tracking         # 地址栏跟踪
-    - navigation.tabs             # 顶部标签页
-    - navigation.tabs.sticky      # 固定标签页
-    - navigation.sections         # 导航分组
-    - navigation.expand           # 默认展开导航
-    - navigation.path             # 面包屑导航
-    - navigation.indexes          # 分组索引页
-    - navigation.top              # 返回顶部按钮
-    - navigation.footer           # 页脚导航
+    - navigation.tracking # 地址栏跟踪
+    - navigation.tabs # 顶部标签页
+    - navigation.tabs.sticky # 固定标签页
+    - navigation.sections # 导航分组
+    - navigation.expand # 默认展开导航
+    - navigation.path # 面包屑导航
+    - navigation.indexes # 分组索引页
+    - navigation.top # 返回顶部按钮
+    - navigation.footer # 页脚导航
 
     # 目录
-    - toc.follow                  # 目录跟随
+    - toc.follow # 目录跟随
     # - toc.integrate             # 不启用，改用 CSS 控制布局
 
     # 搜索
-    - search.suggest              # 搜索建议
-    - search.highlight            # 搜索高亮
-    - search.share                # 搜索分享
+    - search.suggest # 搜索建议
+    - search.highlight # 搜索高亮
+    - search.share # 搜索分享
 
     # 代码
-    - content.code.copy           # 代码复制按钮
-    - content.code.select         # 代码选择
-    - content.code.annotate       # 代码注释
+    - content.code.copy # 代码复制按钮
+    - content.code.select # 代码选择
+    - content.code.annotate # 代码注释
 
     # 内容
-    - content.tabs.link           # 内容标签链接
-    - content.tooltips            # 工具提示
-    - content.footnote.tooltips   # 脚注工具提示
+    - content.tabs.link # 内容标签链接
+    - content.tooltips # 工具提示
+    - content.footnote.tooltips # 脚注工具提示
 
     # 其他
-    - announce.dismiss            # 公告可关闭
+    - announce.dismiss # 公告可关闭
+    - content.action.edit # ← 开启“编辑此页”图标
+    - content.action.view # （可选）旁边再加“查看源码”
 
 # 额外配置
 extra:
@@ -123,7 +125,7 @@ extra:
 
 # 额外样式和脚本
 extra_css:
-  - assets/extra-material.css  # Material 主题专用增强样式
+  - assets/extra-material.css # Material 主题专用增强样式
 
 extra_javascript:
   - assets/extra.js
@@ -228,79 +230,79 @@ plugins:
 nav:
   - 首页: index.md
   - 快速开始:
-    - 快速入门: QuickStart.md
-    - 贡献指南: CONTRIBUTING.md
-    - 更新日志: changelog.md
-    - 序言: Preface.md
+      - 快速入门: QuickStart.md
+      - 贡献指南: CONTRIBUTING.md
+      - 更新日志: changelog.md
+      - 序言: Preface.md
   - 词条索引:
-    - 标签索引: tags.md
-    - 术语表: Glossary.md
+      - 标签索引: tags.md
+      - 术语表: Glossary.md
   - 核心概念:
-    - 核心概念导览: entries/Core-Concepts-Guide.md
-    - 基础概念:
-        - entries/Dissociation.md
-        - entries/Plurality.md
-        - entries/System.md
-        - entries/Alter.md
-    - 临床诊断:
-        - entries/DID.md
-        - entries/OSDD.md
-        - entries/Partial-Dissociative-Identity-Disorder-PDID.md
-    - 健康多意识体:
-        - entries/Tulpa.md
-        - entries/Emmengard-Classification.md
-        - entries/Soulbond.md
-    - 理论框架:
-        - entries/Structural-Dissociation-Theory.md
-        - entries/Apparently-Normal-Part-Emotional-Part-Model.md
-        - entries/Personality-Structure-Theory.md
+      - 核心概念导览: entries/Core-Concepts-Guide.md
+      - 基础概念:
+          - entries/Dissociation.md
+          - entries/Plurality.md
+          - entries/System.md
+          - entries/Alter.md
+      - 临床诊断:
+          - entries/DID.md
+          - entries/OSDD.md
+          - entries/Partial-Dissociative-Identity-Disorder-PDID.md
+      - 健康多意识体:
+          - entries/Tulpa.md
+          - entries/Emmengard-Classification.md
+          - entries/Soulbond.md
+      - 理论框架:
+          - entries/Structural-Dissociation-Theory.md
+          - entries/Apparently-Normal-Part-Emotional-Part-Model.md
+          - entries/Personality-Structure-Theory.md
   - 系统运作:
-    - 系统运作导览: entries/System-Operations.md
-    - 前台与切换:
-        - entries/Front-Fronting.md
-        - entries/Switch.md
-        - entries/Co-Fronting.md
-    - 意识共享与记忆:
-        - entries/Co-Consciousness.md
-        - entries/Memory-Holder.md
-        - entries/Memory-Shielding.md
-    - 内部空间与沟通:
-        - entries/Headspace-Inner-World.md
-        - entries/Internal-Communication.md
-        - entries/Permissions.md
-    - 角色与治理:
-        - entries/System-Roles.md
-        - entries/Admin.md
-        - entries/Host.md
-        - entries/Gatekeeper.md
-        - entries/Protector.md
-        - entries/Internal-Self-Helper-ISH.md
+      - 系统运作导览: entries/System-Operations.md
+      - 前台与切换:
+          - entries/Front-Fronting.md
+          - entries/Switch.md
+          - entries/Co-Fronting.md
+      - 意识共享与记忆:
+          - entries/Co-Consciousness.md
+          - entries/Memory-Holder.md
+          - entries/Memory-Shielding.md
+      - 内部空间与沟通:
+          - entries/Headspace-Inner-World.md
+          - entries/Internal-Communication.md
+          - entries/Permissions.md
+      - 角色与治理:
+          - entries/System-Roles.md
+          - entries/Admin.md
+          - entries/Host.md
+          - entries/Gatekeeper.md
+          - entries/Protector.md
+          - entries/Internal-Self-Helper-ISH.md
   - 心理健康:
-    - 心理健康导览: entries/Mental-Health-Guide.md
-    - entries/Dissociation.md
-    - entries/PTSD.md
-    - entries/CPTSD.md
-    - entries/Trauma.md
-    - entries/Grounding.md
+      - 心理健康导览: entries/Mental-Health-Guide.md
+      - entries/Dissociation.md
+      - entries/PTSD.md
+      - entries/CPTSD.md
+      - entries/Trauma.md
+      - entries/Grounding.md
   - 实践指南:
-    - 实践指南导览: entries/Practice-Guide.md
-    - Tulpa 创造指南:
-        - 指南总览: entries/Tulpa-Guide.md
-        - 基础篇: entries/Tulpa-Guide-1.md
-        - 实践篇: entries/Tulpa-Guide-2.md
-        - 提高篇: entries/Tulpa-Guide-3.md
-    - 意识训练:
-        - entries/Meditation.md
-        - entries/Visualization-Imagination.md
-        - entries/Attention-Awareness.md
-    - 内部协作:
-        - entries/Internal-Communication.md
-        - entries/Headspace-Inner-World.md
-        - entries/Permissions.md
-    - 稳定技巧:
-        - entries/Grounding.md
-        - entries/Sensory-Regulation-Strategies.md
-        - entries/Emotion-Regulation.md
+      - 实践指南导览: entries/Practice-Guide.md
+      - Tulpa 创造指南:
+          - 指南总览: entries/Tulpa-Guide.md
+          - 基础篇: entries/Tulpa-Guide-1.md
+          - 实践篇: entries/Tulpa-Guide-2.md
+          - 提高篇: entries/Tulpa-Guide-3.md
+      - 意识训练:
+          - entries/Meditation.md
+          - entries/Visualization-Imagination.md
+          - entries/Attention-Awareness.md
+      - 内部协作:
+          - entries/Internal-Communication.md
+          - entries/Headspace-Inner-World.md
+          - entries/Permissions.md
+      - 稳定技巧:
+          - entries/Grounding.md
+          - entries/Sensory-Regulation-Strategies.md
+          - entries/Emotion-Regulation.md
 
 # 严格模式
 strict: false
@@ -313,3 +315,7 @@ docs_dir: docs
 
 # 站点目录
 site_dir: site
+
+# 不需要 MkDocs 处理的文件（保持原样复制）
+not_in_nav: |
+  /admin/
