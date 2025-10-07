@@ -35,6 +35,22 @@ body {
   padding: 0 !important;
 }
 
+/* 确保主布局使用 flexbox */
+body > div:first-child,
+[class*="App"] {
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: 100vh !important;
+}
+
+/* 内容区域容器 */
+body > div:first-child > div:last-child,
+[class*="App"] > div:last-child {
+  display: flex !important;
+  flex: 1 !important;
+  overflow: hidden !important;
+}
+
 /* ============================================
    顶部导航栏
    ============================================ */
@@ -205,8 +221,19 @@ main[class*="Main"],
 
 /* 集合视图容器 */
 [class*="ViewContainer"] {
-  max-width: 1400px !important;
+  max-width: 1600px !important;
   margin: 0 auto !important;
+  width: 100% !important;
+}
+
+/* 词条列表网格布局 */
+[class*="ListControlPane"],
+[class*="CardsGrid"],
+[class*="ListContainer"] > div {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)) !important;
+  gap: 20px !important;
+  width: 100% !important;
 }
 
 /* 集合列表顶部 */
