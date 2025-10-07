@@ -128,14 +128,28 @@ D. 症状不能被分离性身份障碍、创伤后应激障碍、急性应激�
 
 ## 相关条目
 
-- [定向障碍（Disorientation）](Disorientation.md)
+### 解离障碍相关
+
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
+- [解离性身份障碍（DID）](DID.md)
+- [其他特定解离性障碍（OSDD）](OSDD.md)
+- [人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)
+- [未特定的解离障碍（USDD）](Unspecified-Dissociative-Disorder-USDD.md)
+- [部分解离性身份障碍（PDID）](Partial-Dissociative-Identity-Disorder-PDID.md)
+
+### 解离与创伤
+
 - [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)
-- [创伤（Trauma）](Trauma.md)
 - [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)
+- [醉酒解离（Alcohol-Induced Dissociation）](Alcohol-Induced-Dissociation.md)
+- [创伤（Trauma）](Trauma.md)
+
+### 其他相关
+
+- [定向障碍（Disorientation）](Disorientation.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
 - [谵妄（Delirium）](Delirium.md)
 - [子系统（Subsystem）](Subsystem.md)
-- [醉酒解离（Alcohol-Induced Dissociation）](Alcohol-Induced-Dissociation.md)
 
 ## 参考与延伸阅读
 
