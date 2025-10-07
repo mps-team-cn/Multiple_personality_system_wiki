@@ -1,10 +1,14 @@
+# 本地开发模式：使用 test-repo（无需 GitHub 认证）
+# 部署到生产环境时，需要切换回 github backend
+
 backend:
-  name: github
-  repo: kuliantnt/plurality_wiki        # ✅ 仓库正确
-  branch: main                          # ✅ 分支正确（main）
-  base_url: https://plurality-wiki.pages.dev  # ⚠️ 注意：这里必须是部署了 auth.ts 的那个域名
-  auth_endpoint: /api/auth              # ✅ 与 Cloudflare Functions 路由一致
-  use_graphql: true                     # ✅ 可留着（优化请求）
+  name: test-repo  # 本地测试模式，不会真正提交到 GitHub
+  # 生产环境请改为：
+  # name: github
+  # repo: kuliantnt/plurality_wiki
+  # branch: main
+  # base_url: https://plurality-wiki.pages.dev
+  # auth_endpoint: /api/auth
 
 media_folder: "docs/assets/uploads"     # ✅ 建议加上 docs/
 public_folder: "/assets/uploads"
