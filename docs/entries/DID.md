@@ -125,13 +125,28 @@ DID 的治疗通常遵循分阶段模式：
 
 ## 相关条目
 
+### 解离障碍相关
+
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
 - [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](Partial-Dissociative-Identity-Disorder-PDID.md)
+- [其他特定解离性障碍（OSDD）](OSDD.md)
+- [解离性失忆（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)
+- [人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)
+- [未特定的解离障碍（USDD）](Unspecified-Dissociative-Disorder-USDD.md)
+- [解离（Dissociation）](Dissociation.md)
+- [结构性解离理论（Structural Dissociation Theory）](Structural-Dissociation-Theory.md)
+
+### 多意识体相关
+
 - [系统（System）](System.md)
 - [多意识体（Plurality）](Plurality.md)
 - [混合（Blending）](Blending.md)
 - [多重意识体基础（Plurality Basics）](Plurality-Basics.md)
-- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
+
+### 文化表现
+
+- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
 - [《分裂》（Split, 2016）中的 DID 形象分析](Split-2016-DID-Representation.md)
 
 ## 参考与延伸阅读

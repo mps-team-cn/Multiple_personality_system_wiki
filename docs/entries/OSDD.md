@@ -89,13 +89,25 @@ DSM-5 与 DSM-5-TR 在文字说明中给出了几个典型的“例子”，帮�
 
 ## 相关条目
 
-- [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](Partial-Dissociative-Identity-Disorder-PDID.md)
+### 解离障碍相关
+
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md)
+- [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](Partial-Dissociative-Identity-Disorder-PDID.md)
+- [解离性失忆（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)
+- [人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)
+- [未特定的解离障碍（USDD）](Unspecified-Dissociative-Disorder-USDD.md)
+
+### 多意识体相关
+
+- [多意识体（Plurality）](Plurality.md)
 - [系统（System）](System.md)
 - [混合（Blending）](Blending.md)
+
+### 文化表现
+
 - [《分裂》（Split, 2016）中的 DID 形象分析](Split-2016-DID-Representation.md)
 - [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
-- [多意识体（Plurality）](Plurality.md)
 - [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](Another-Me-DID-Depictions.md)
 
 ## 参考

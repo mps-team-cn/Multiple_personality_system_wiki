@@ -114,14 +114,25 @@ updated: 2025-10-03
 
 ## 相关条目
 
+### 解离障碍相关
+
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
+- [解离性身份障碍（DID）](DID.md)
+- [解离性失忆（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)
+- [其他特定解离性障碍（OSDD）](OSDD.md)
+- [未特定的解离障碍（USDD）](Unspecified-Dissociative-Disorder-USDD.md)
+- [人格解体（Depersonalization）](Depersonalization.md)
+- [去现实化（Derealization）](Derealization.md)
+
+### 其他精神障碍
+
+- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](PTSD.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
 - [焦虑（Anxiety）](Anxiety.md)
-- [谵妄（Delirium）](Delirium.md)
+- [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md)
 - [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
-- [去现实化（Derealization）](Derealization.md)
-- [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
-- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](PTSD.md)
+- [谵妄（Delirium）](Delirium.md)
 
 ## 参考与延伸阅读
 
