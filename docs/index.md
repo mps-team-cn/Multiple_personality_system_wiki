@@ -7,6 +7,7 @@
 
 [查看标签索引](tags.md){ .md-button .md-button--primary }
 [贡献指南](contributing/index.md){ .md-button }
+[管理员登录](admin/){ .md-button }
 
 ---
 
