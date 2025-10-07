@@ -172,8 +172,12 @@ tools/
 ### 第二阶段：处理器实现（已完成 ✅）
 
 - [x] 实现 MarkdownProcessor
+- [x] 整合 fix_md.py 功能（MD009, MD012, MD022, MD028, MD031, MD032, MD034, MD037, MD040, MD047）
+- [x] 整合 fix_bold_format.py 功能（加粗空格、链接括号、加粗链接）
+- [x] 整合 fix_list_bold_colon.py 功能（列表加粗冒号格式）
 - [x] 实现 LinkProcessor
 - [x] 实现 TagProcessor
+- [x] 功能测试（2025-10-07）
 - [ ] 单元测试编写（待定）
 
 ### 第三阶段：生成器实现（部分取消 ⚠️）
@@ -206,9 +210,11 @@ tools/
    - 逐步验证新系统稳定性
 
 2. **迁移顺序**
-   - `fix_md.py` → `processors/markdown.py`
-   - `check_links.py` → `processors/links.py`
-   - ~~`generate_tags_index.py` + `retag_and_related.py` → `processors/tags.py`~~ - 已废弃，移至 `deprecated/`
+   - ✅ `fix_md.py` → `processors/markdown.py` (2025-10-07)
+   - ✅ `fix_bold_format.py` → `processors/markdown.py` (2025-10-07)
+   - ✅ `fix_list_bold_colon.py` → `processors/markdown.py` (2025-10-07)
+   - ✅ `check_links.py` → `processors/links.py`
+   - ✅ ~~`generate_tags_index.py` + `retag_and_related.py` → `processors/tags.py`~~ - 已废弃，移至 `deprecated/`
    - ~~`build_search_index.py` → `generators/search_index.py`~~ - MkDocs 插件替代
    - `gen-validation-report.py` → `validators/content.py`
    - `gen_changelog_by_tags.py` → `generators/changelog.py`
