@@ -1,6 +1,6 @@
 # 更新日志
 
-## v3.3.0 (2025-10-07)
+## 未发布
 
 ### 🔧 工具清理
 
@@ -24,6 +24,56 @@
   - `healthy-pathological-boundary.svg` - 健康与病理性多意识体的界限
   - 使用渐变色和双向箭头展示解离程度谱系
   - 更新 Core-Concepts-Guide.md 使用 SVG 替代文本图表
+
+---
+
+## [v3.3.0](https://github.com/kuliantnt/plurality_wiki/releases/tag/v3.3.0) - 贡献指南重构与文档优化 (2025-10-07)
+
+### 📚 贡献指南重构
+
+- 将 CONTRIBUTING.md 拆分为 6 个专题文档到 `docs/contributing/`
+  - **index.md** - 贡献指南总览
+  - **编写规范.md** - 语言、格式规范
+  - **学术引用.md** - 引用格式、证据分级
+  - **诊断临床规范.md** - 病理学内容要求
+  - **技术约定.md** - 文件结构、链接管理
+  - **PR流程.md** - 提交流程、检查清单
+- 根目录 CONTRIBUTING.md 改为简化版，指向详细文档
+
+### 📖 新增内容
+
+- 新增 **Tulpa 完全创造指南系列**（基础篇、实践篇、提高篇）
+- 新增 **实践指南导览**
+- 新增 **核心概念导航结构**
+
+### 🔧 文档优化
+
+- 重组静态资源目录结构（`figures/images/icons`）
+- 移动导览文件到 `docs/entries/`
+- 移动 `FRONTEND_ARCHITECTURE.md` 到 `docs/dev/`
+- 优化首页布局与核心主题展示
+- 更新所有相关链接和文件引用
+
+### 🐛 问题修复
+
+- 修复文档链接错误
+- 修复列表粗体冒号格式
+- 修复图片路径规范
+- 修复 PDF 导出目录跳转
+
+### 🎨 格式优化
+
+- 统一中英文排版格式
+- 增强 `fix_md.py` 支持更多 markdownlint 规则
+- 优化加粗文本空格规范
+
+### 📋 其他改进
+
+- 同步更新 `AGENTS.md` 和 `CLAUDE.md`
+- 优化 `.gitignore` 配置
+- 删除重复文件和过时说明
+
+---
 
 ## v3.2.0 (2025-10-06)
 
@@ -129,83 +179,48 @@
 
 ---
 
-## v3.0.0 (2025-10-06)
+## [v3.0.0](https://github.com/kuliantnt/plurality_wiki/releases/tag/v3.0.0) - 医疗内容规范化与前端优化 (2025-10-05)
 
-### ✨ 重大更新
+### ✨ 医疗内容规范化
 
-- **为所有医疗相关词条添加统一警告框** （[aa0b3f6](https://github.com/kuliantnt/plurality_wiki/commit/aa0b3f6)）
-
-  - 新增统一格式的触发警告和免责声明
-  - 覆盖 40 个医疗相关词条
-    - 诊断类 (20个): DID, OSDD, PTSD, CPTSD, 精神分裂症, 双相障碍, 边缘型人格障碍等
-    - 症状/现象类 (12个): 解离, 人格解体, 现实解体, 闪回, 侵入性思维等
-    - 治疗/干预类 (8个): 创伤, 地面化, 情绪调节, 应激反应等
+- **为所有 40 个医疗相关词条添加统一的警告框**
+  - ⚠️ **触发警告**: 提醒读者内容涉及敏感议题
+  - ℹ️ **免责声明**: 明确资料仅供参考，不构成医疗建议
+  - **覆盖词条类型**：
+    - 诊断类 (20个): DID, OSDD, PTSD, CPTSD, 精神分裂症等
+    - 症状/现象类 (12个): 解离, 人格解体, 闪回等
+    - 治疗/干预类 (8个): 创伤, 地面化, 情绪调节等
     - 理论模型类 (2个): 结构性解离理论, ANP/EP模型
-  - 移除旧格式警告文字,统一使用 MkDocs admonitions 样式
-  - 提供一致的用户体验和法律免责保护
 
 ### 🔧 前端优化
 
-- **将核心主题改为扁平列表布局** （[47adc36](https://github.com/kuliantnt/plurality_wiki/commit/47adc36)）
+- 将核心主题改为扁平列表布局
+- 优化主页核心主题展示
+- 改善移动端和桌面端的阅读体验
 
-  - 优化主页核心主题展示布局
-  - 改善移动端和桌面端的阅读体验
+### 🐛 Bug 修复
 
-- **优化主页核心主题展示** （[c5655bb](https://github.com/kuliantnt/plurality_wiki/commit/c5655bb)）
-
-  - 增强首页视觉层次
-  - 改进核心概念的可发现性
-
-### 🐛 修复
-
-- **修复标签索引生成脚本的链接路径问题** （[78b2356](https://github.com/kuliantnt/plurality_wiki/commit/78b2356)）
-
-  - 解决标签索引中的链接错误
-  - 确保所有标签页面正确跳转
-
-- **修正导览页面内部链接路径** （[e6a2e29](https://github.com/kuliantnt/plurality_wiki/commit/e6a2e29)）
-
-  - 修复导航链接 404 问题
-  - 统一链接路径规范
-
-- **修正 Cloudflare Pages 构建脚本依赖文件路径** （[5f76cce](https://github.com/kuliantnt/plurality_wiki/commit/5f76cce)）
-
-  - 解决 CI/CD 构建失败问题
-  - 确保自动部署正常运行
+- 修复标签索引生成脚本的链接路径问题
+- 修正导览页面内部链接路径
+- 修正 Cloudflare Pages 构建脚本依赖文件路径
 
 ### 📝 文档与内容
 
-- **重构系统运作导览与导航** （[2adc852](https://github.com/kuliantnt/plurality_wiki/commit/2adc852)）
-
-  - 优化系统运作相关文档结构
-  - 改进导航体验和内容组织
-
-- **为所有词条添加主题分类标签并优化标签索引排序** （[51b8c80](https://github.com/kuliantnt/plurality_wiki/commit/51b8c80)）
-
-  - 实现全站词条主题分类
-  - 优化标签索引的排序算法
-  - 提升内容可发现性
+- 重构系统运作导览与导航
+- 为所有词条添加主题分类标签
+- 优化标签索引排序算法
 
 ### 🗂️ 重构
 
-- **删除根目录 entries/ 文件夹** （[9616690](https://github.com/kuliantnt/plurality_wiki/commit/9616690)）
-
-  - 完成文件结构迁移
-  - 统一所有词条位置到 `docs/entries/`
-  - 简化项目结构
-
-### 📦 杂务
-
-- 自动运行 `generate_tags_index.py` 更新标签索引
-- 自动运行 `fix_md.py` 修复 Markdown 格式
-- 清理无用文件和目录
+- 删除根目录 entries/ 文件夹
+- 统一所有词条位置到 docs/entries/
 
 ### ⚠️ 破坏性变更
 
-- 根目录 `entries/` 文件夹已删除,所有词条现位于 `docs/entries/`
-- 部分内部链接路径已更新,旧书签可能失效
+- 根目录 entries/ 文件夹已删除，所有词条现位于 docs/entries/
+- 部分内部链接路径已更新，旧书签可能失效
 
-— 由 Git 提交记录整理生成
+---
 
 ## v2.2.0 (2025-10-05)
 
