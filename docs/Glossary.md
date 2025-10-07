@@ -114,6 +114,7 @@
 | [PTSD](entries/PTSD.md) | 创伤后应激障碍 | 创伤后以警觉性提高、回避与再体验等症状为主的障碍。 |
 | [Schizophrenia](entries/Schizophrenia-SC.md) | 精神分裂症 | 以思维、感知与情感失调为核心的精神病性障碍。 |
 | [SSD](entries/Somatic-Symptom-Disorder-SSD.md) | 躯体化障碍 | 聚焦躯体症状造成困扰并影响生活功能的诊断类别。 |
+| [Functional Neurological Symptom Disorder，FND](entries/Conversion-Disorder-FND.md) | 功能性神经症状障碍、转换障碍 | 以正性体征辨识的功能性神经症状群，需要综合复健与心理支持。 |
 | [Trauma](entries/Trauma.md) | 创伤 | 指超出个体当时应对能力的威胁性经历及其后效。 |
 
 ## 相关概念与理论
