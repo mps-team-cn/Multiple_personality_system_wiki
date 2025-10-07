@@ -20,7 +20,7 @@
   - 存放位置：`docs/entries/` 目录（MkDocs 构建源）
   - 不得新建二级子目录，分类信息统一通过 Frontmatter `tags` 字段声明
 - **词条 Frontmatter** ：每篇词条必须在文件开头声明 `---` 包裹的 YAML，至少包含 `title` / `tags` / `updated` 三个字段。
-- 词条加粗 : 必须满足` **加粗内容** `既加粗内容前后都需要加空格，以便于MKDoc识别。
+- **词条加粗规范** ：加粗内容前后都需要加空格，格式为 ` **加粗内容** `，以便于 MkDocs 正确识别。
 - **文档** ：
   - MkDocs 文档：统一放在 `docs/` 目录（包括 `index.md`、`README.md`、`Glossary.md` 等）
   - 贡献指南：`docs/contributing/`（拆分为多个专题文档）
@@ -31,12 +31,14 @@
 ### 1.3 索引与链接规范
 
 - 新增或修改词条时，必须同步维护：
-  - `docs/index.md` → MkDocs 首页导航
-  - `docs/Glossary.md` → 术语表（如适用）
-  - `docs/ssets/last-updated.json` → 词条最后更新时间（运行 `node scripts/gen-last-updated.mjs` 生成）
+  - docs/Glossary.md → 术语表（如适用）
 - 条目内链接规范：
-  - **MkDocs 内部链接** ：使用相对路径 `entries/Admin.md` 或 `../entries/Admin.md`
+  - **词条间链接（同目录）** ：使用相对路径 `Admin.md`
+  - **跨目录链接** ：
+    - 从词条引用其他目录：`../contributing/index.md`
+    - 从其他目录引用词条：`../entries/Admin.md`
   - MkDocs 会自动处理 `.md` 扩展名转换为 HTML
+  - **禁止** 使用绝对路径（如 `/docs/entries/DID.md`）
   - 禁止使用模糊链接或锚点不明确的链接
 
 ---
@@ -58,9 +60,6 @@
     - `docs/assets/images/` - 一般图片（封面、截图等）
     - `docs/assets/icons/` - 小图标、装饰性素材
   - 资源引用：使用相对于 `docs/` 的路径（如 `assets/icons/favicon.svg`）
-- **旧版 Docsify** （已弃用，保留备份）：
-  - `index.html`、`_sidebar.md`、`_coverpage.md`、`.nojekyll`
-  - 不再主动维护，仅作历史参考
 
 ---
 
