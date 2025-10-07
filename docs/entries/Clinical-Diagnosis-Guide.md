@@ -1,8 +1,6 @@
 ---
 tags:
-
 - 诊断与临床
-
 topic: 诊断与临床
 title: 诊断与临床导览
 updated: 2025-10-06
@@ -75,4 +73,4 @@ updated: 2025-10-06
 
 ---
 
-想了解更多？可以搭配 [创伤与疗愈导览](Trauma-Healing-Guide.md) 与 [DSM-5 & ICD-11 诊断索引](DSM-ICD-Diagnosis-Index.md)，构建完整的临床知识体系。
+想了解更多？可以搭配 [创伤与疗愈导览](Trauma-Healing-Guide.md) 构建完整的临床知识体系。
