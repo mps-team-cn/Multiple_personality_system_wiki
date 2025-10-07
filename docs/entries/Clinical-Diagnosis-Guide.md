@@ -19,11 +19,21 @@ updated: 2025-10-06
 
 解离性障碍涉及意识、记忆、身份或感知的分离。了解不同程度的解离及其诊断标准，有助于理解自身经验与寻求适当治疗。
 
+### 总览
+
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)：解离障碍的完整分类、诊断标准对比、流行病学与治疗方法概述。
+
+### 主要诊断类别
+
 - [解离性身份障碍（DID）](DID.md)：最严重的解离性障碍，DSM-5-TR (300.14) / ICD-11 (6B64)。
-- [其他特定解离性障碍（OSDD）](OSDD.md)：不完全符合 DID 标准的解离性障碍，DSM-5-TR (300.15)。
 - [部分解离性身份障碍（PDID）](Partial-Dissociative-Identity-Disorder-PDID.md)：ICD-11 专有诊断 (6B65)，与 OSDD-1 相似。
+- [其他特定解离性障碍（OSDD）](OSDD.md)：不完全符合 DID 标准的解离性障碍，DSM-5-TR (300.15)。
+- [未特定的解离障碍（USDD）](Unspecified-Dissociative-Disorder-USDD.md)：信息不足或紧急情况下使用的诊断类别，DSM-5-TR (300.15)。
+- [解离性失忆（DA）](Dissociative-Amnesia-DA.md)：无法回忆重要个人信息的记忆障碍，DSM-5-TR (300.12) / ICD-11 (6B62)。
 - [人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)：持续或反复的人格解体或现实解体，DSM-5-TR (300.6) / ICD-11 (6B66)。
-- [解离性失忆（DA）](Dissociative-Amnesia-DA.md)：无法回忆重要个人信息的记忆障碍。
+
+### 相关概念
+
 - [转换障碍（Conversion Disorder / FND）](Conversion-Disorder-FND.md)：功能性神经症状障碍，DSM-5-TR 归类为躯体症状障碍 / ICD-11 (6B60) 归类为解离性神经症状障碍。
 - [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)：达到临床意义、影响功能的解离现象。
 

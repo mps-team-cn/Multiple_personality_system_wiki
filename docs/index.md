@@ -41,8 +41,12 @@
 
 理解解离障碍、创伤相关诊断及临床治疗
 
+- [ **解离障碍（Dissociative Disorders）** ](entries/Dissociative-Disorders.md) - 解离障碍总览与分类
 - [ **解离性身份障碍（DID）** ](entries/DID.md) - 多重人格的临床定义
 - [ **其他特定解离性障碍（OSDD）** ](entries/OSDD.md) - DID 的亚临床形态
+- [ **解离性失忆（DA）** ](entries/Dissociative-Amnesia-DA.md) - 创伤相关的记忆缺失
+- [ **人格解体/现实解体障碍（DPDR）** ](entries/Depersonalization-Derealization-Disorder-DPDR.md) - 自我与现实感的分离
+- [ **未特定的解离障碍（USDD）** ](entries/Unspecified-Dissociative-Disorder-USDD.md) - 信息不足时的诊断类别
 - [ **创伤后应激障碍（PTSD）** ](entries/PTSD.md) - 单次创伤的心理反应
 - [ **功能性神经症状障碍（FND）** ](entries/Conversion-Disorder-FND.md) - 转换症状的正性体征与复健路径
 - [ **复杂性 PTSD（CPTSD）** ](entries/CPTSD.md) - 长期创伤的深远影响
