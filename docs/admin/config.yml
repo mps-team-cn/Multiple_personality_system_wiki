@@ -14,7 +14,7 @@ locale: zh_Hans
 # 站点信息
 site_url: https://plurality-wiki.pages.dev
 display_url: https://plurality-wiki.pages.dev
-logo_url: /assets/logo.svg
+# logo_url: /assets/logo.svg  # 暂时禁用 logo
 
 # 媒体文件配置
 media_folder: "docs/assets/uploads"

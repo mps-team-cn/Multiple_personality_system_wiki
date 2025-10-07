@@ -55,6 +55,12 @@
       body.cms-loaded .loading {
         display: none;
       }
+
+      /* 隐藏 Decap CMS 自带的加载动画，使用我们的自定义样式 */
+      [class*="Loader"],
+      [class*="Loading"] {
+        display: none !important;
+      }
     </style>
   </head>
   <body>
