@@ -45,6 +45,7 @@
 - [ **创伤后应激障碍（PTSD）** ](entries/PTSD.md) - 单次创伤的心理反应
 - [ **功能性神经症状障碍（FND）** ](entries/Conversion-Disorder-FND.md) - 转换症状的正性体征与复健路径
 - [ **复杂性 PTSD（CPTSD）** ](entries/CPTSD.md) - 长期创伤的深远影响
+- [ **惊恐障碍（Panic Disorder，PD）** ](entries/Panic-Disorder.md) - 处理意外惊恐发作与持续担忧
 
 ### :material-account-group: [系统运作与协作](entries/System-Operations.md)
 
