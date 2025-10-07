@@ -36,16 +36,56 @@ collections:
 
     # 排序和显示配置
     sortable_fields: ['title', 'updated', 'topic']
+
+    # 视图过滤器 - 快速筛选
     view_filters:
-      - label: "按主题"
+      - label: "核心概念"
         field: topic
-        pattern: ''
+        pattern: '核心概念'
+      - label: "临床诊断"
+        field: topic
+        pattern: '临床诊断'
+      - label: "系统运作"
+        field: topic
+        pattern: '系统运作'
+      - label: "心理健康"
+        field: topic
+        pattern: '心理健康'
+      - label: "实践指南"
+        field: topic
+        pattern: '实践指南'
+      - label: "角色身份"
+        field: topic
+        pattern: '角色身份'
+      - label: "理论分类"
+        field: topic
+        pattern: '理论分类'
+      - label: "文化表现"
+        field: topic
+        pattern: '文化表现'
       - label: "最近更新"
         field: updated
         pattern: ''
+      - label: "多意识体相关"
+        field: tags
+        pattern: '多意识体'
+      - label: "解离相关"
+        field: tags
+        pattern: '解离'
+      - label: "创伤相关"
+        field: tags
+        pattern: '创伤'
+      - label: "DID 相关"
+        field: tags
+        pattern: 'DID'
+
+    # 视图分组 - 自动分组显示
     view_groups:
-      - label: "主题"
+      - label: "主题分类"
         field: topic
+      - label: "按标签"
+        field: tags
+
     summary: "{{title}} - {{topic}} ({{updated}})"
 
     editor:
