@@ -7,7 +7,7 @@ tags:
 - 多重意识体
 - DSM-5
 
-topic: 临床诊断
+topic: 诊断与临床
 title: 未特定的解离障碍（Unspecified Dissociative Disorder，USDD）
 updated: 2025-10-07
 ---
