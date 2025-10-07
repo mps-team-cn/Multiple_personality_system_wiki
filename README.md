@@ -47,6 +47,13 @@
 - **GitHub Actions** - CI/CD 自动化
 - **Cloudflare Pages** - 静态站点托管
 
+### 内容管理
+
+- **Sveltia CMS** - 现代化内容管理系统，支持全文搜索
+- **Cloudflare Functions** - OAuth 认证
+- 访问路径：`/admin` ([在线版本](https://plurality-wiki.pages.dev/admin/))
+- 详见 [本地开发指南](local-dev-server.md) 和 [管理员指南](docs/ADMIN_GUIDE.md)
+
 ---
 
 ## 📦 仓库结构
@@ -69,6 +76,11 @@ plurality_wiki/
 │  ├─ Glossary.md                # 术语表
 │  ├─ tags.md                    # 标签索引
 │  ├─ changelog.md               # 变更日志
+│  │
+│  ├─ admin/                     # Sveltia CMS 后台
+│  │  ├─ index.html              # CMS 入口
+│  │  ├─ config.yml              # CMS 配置
+│  │  └─ admin.css               # CMS 样式
 │  │
 │  ├─ entries/                   # 词条正文（142+ 个 Markdown 文件）
 │  │
@@ -140,6 +152,10 @@ plurality_wiki/
 │
 ├─ scripts/
 │  └─ gen-last-updated.mjs       # 更新词条时间索引
+│
+├─ functions/                    # Cloudflare Functions
+│  └─ api/
+│     └─ auth.ts                 # GitHub OAuth 认证（Sveltia CMS）
 │
 └─ .github/
    ├─ ISSUE_TEMPLATE/
