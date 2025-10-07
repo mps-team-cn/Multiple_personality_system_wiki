@@ -82,7 +82,7 @@ updated: 2025-10-03
 
 ## 与其他类别的关系
 
-- 可与 **单一类系统** （[单一类系统](Single-Class-Systems-Xianyu.md)） 或 **混合型系统** （[混合型系统](Mixed-Systems-Xianyu.md)） 并存；
+- 可与 **单一类系统** ([单一类系统](Single-Class-Systems-Xianyu.md)) 或 **混合型系统** ([混合型系统](Mixed-Systems-Xianyu.md)) 并存；
 - 在家族式系统中，有时会出现“灵性成员”，与此类存在重叠。
 
 ---
