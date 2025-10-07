@@ -6,7 +6,7 @@
 希望这些内容能陪伴你理解自我、照顾伙伴，并与同路人建立连结。
 
 [查看标签索引](tags.md){ .md-button .md-button--primary }
-[贡献指南](CONTRIBUTING.md){ .md-button }
+[贡献指南](contributing/index.md){ .md-button }
 
 ---
 
@@ -36,9 +36,7 @@
 - [ **DID vs Tulpa** ](entries/Core-Concepts-Guide.md#三健康与病理不同程度的多意识体) - 理解健康与病理的界限
 - [ **埃蒙加德分类法** ](entries/Emmengard-Classification.md) - 按成因理解系统类型
 
-[:octicons-arrow-right-24: 查看核心概念导览](entries/Core-Concepts-Guide.md)
-
-### :material-hospital-box: [诊断与临床](Clinical-Diagnosis-Guide.md)
+### :material-hospital-box: [诊断与临床](entries/Clinical-Diagnosis-Guide.md)
 
 理解解离障碍、创伤相关诊断及临床治疗
 
@@ -47,9 +45,7 @@
 - [ **创伤后应激障碍（PTSD）** ](entries/PTSD.md) - 单次创伤的心理反应
 - [ **复杂性 PTSD（CPTSD）** ](entries/CPTSD.md) - 长期创伤的深远影响
 
-[:octicons-arrow-right-24: 查看诊断与临床导览](Clinical-Diagnosis-Guide.md)
-
-### :material-account-group: [系统运作与协作](System-Operations.md)
+### :material-account-group: [系统运作与协作](entries/System-Operations.md)
 
 掌握多意识体系统的日常运作机制
 
@@ -59,9 +55,7 @@
 - [ **内部空间（Inner World）** ](entries/Headspace-Inner-World.md) - 系统的内在世界
 - [ **内部沟通** ](entries/Internal-Communication.md) - 成员间的交流方式
 
-[:octicons-arrow-right-24: 查看系统运作导览](System-Operations.md)
-
-### :material-heart-pulse: [创伤与疗愈](Trauma-Healing-Guide.md)
+### :material-heart-pulse: [创伤与疗愈](entries/Trauma-Healing-Guide.md)
 
 了解创伤机制与循证治疗方法
 
@@ -71,9 +65,7 @@
 - [ **触发（Trigger）** ](entries/Trigger.md) - 激活创伤反应的刺激
 - [ **情绪调节** ](entries/Emotion-Regulation.md) - 管理情绪的策略
 
-[:octicons-arrow-right-24: 探索创伤与疗愈导览](Trauma-Healing-Guide.md)
-
-### :material-account-multiple: [角色与身份](Roles-Identity-Guide.md)
+### :material-account-multiple: [角色与身份](entries/Roles-Identity-Guide.md)
 
 认识系统中的不同角色与职能分工
 
@@ -83,9 +75,7 @@
 - [ **小孩意识体（Little）** ](entries/Little.md) - 保留童年状态的成员
 - [ **迫害者（Persecutor）** ](entries/Persecutor.md) - 内化的创伤反应
 
-[:octicons-arrow-right-24: 了解角色与身份导览](Roles-Identity-Guide.md)
-
-### :material-book-open-variant: [理论与分类](Theory-Classification-Guide.md)
+### :material-book-open-variant: [理论与分类](entries/Theory-Classification-Guide.md)
 
 探索多意识体的理论框架与分类体系
 
@@ -95,9 +85,8 @@
 - [ **结构性解离理论** ](entries/Structural-Dissociation-Theory.md) - 经典临床模型
 - [ **ANP-EP 模型** ](entries/Apparently-Normal-Part-Emotional-Part-Model.md) - 功能性人格部分
 
-[:octicons-arrow-right-24: 阅读理论与分类导览](Theory-Classification-Guide.md)
 
-### :material-palette: [文化与表现](Cultural-Media-Guide.md)
+### :material-palette: [文化与表现](entries/Cultural-Media-Guide.md)
 
 文学、影视作品中的多意识体主题
 
@@ -107,9 +96,8 @@
 - [初音未来现象](entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md) - 虚拟偶像与 Tulpa 边界
 - [东方 Project](entries/Touhou-Tulpa-Fandom.md) - 同人圈 Tulpa 文化
 
-[:octicons-arrow-right-24: 浏览文化与表现导览](Cultural-Media-Guide.md)
 
-### :material-clipboard-check: [实践指南](Practice-Guide.md)
+### :material-clipboard-check: [实践指南](entries/Practice-Guide.md)
 
 操作性的训练方法、实践技巧与自助策略
 
@@ -151,7 +139,7 @@
 
 👉 **适合：** 关注心理健康、创伤康复或临床知识的读者
 
-### 3. ⚙️ [系统运作导览](System-Operations.md)
+### 3. ⚙️ [系统运作导览](entries/System-Operations.md)
 
 **掌握系统日常运作机制**
 
@@ -170,7 +158,7 @@
 - [基础篇](entries/Tulpa-Guide-1.md)：了解 Tulpa 的基本概念、原理与创造前的准备工作
 - [实践篇](entries/Tulpa-Guide-2.md)：学习人格设定、沟通训练、形象构建等核心方法
 - [提高篇](entries/Tulpa-Guide-3.md)：掌握投影、附体、交换等进阶技巧
-- [实践指南导览](Practice-Guide.md)：配套的意识训练、冥想、可视化等辅助技巧
+- [实践指南导览](entries/Practice-Guide.md)：配套的意识训练、冥想、可视化等辅助技巧
 
 👉 **适合：** 想要通过系统化训练创造 Tulpa 的新手，寻求意识伙伴与陪伴的探索者
 
@@ -181,7 +169,7 @@
 - 🔍 [标签索引](tags.md) - 按主题分类浏览全部词条
 - 📝 [查看术语](Glossary.md) - 快速查询专业术语定义
 - 🔄 [更新日志](changelog.md) - 追踪最新内容变更
-- 🤝 [贡献指南](CONTRIBUTING.md) - 了解如何参与共建
+- 🤝 [贡献指南](contributing/index.md) - 了解如何参与共建
 
 ---
 
@@ -218,7 +206,7 @@
 - 🌐 **翻译校对** - 帮助改进术语翻译和文本表述
 - 📚 **分享经验** - 贡献系统经验、实践技巧或资源推荐
 
-请先阅读 [贡献指南](CONTRIBUTING.md) 了解详细流程。
+请先阅读 [贡献指南](contributing/index.md) 了解详细流程。
 
 ---
 

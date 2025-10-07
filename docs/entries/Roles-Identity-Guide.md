@@ -20,7 +20,7 @@ updated: 2025-10-06
 
 系统角色是基于功能与行为模式的分类，而非成员的本质定义。
 
-- [系统角色（System Roles）](entries/System-Roles.md)：总览常见的职能分类、评估方法与协作策略
+- [系统角色（System Roles）](System-Roles.md)：总览常见的职能分类、评估方法与协作策略
 
 ---
 
@@ -28,10 +28,10 @@ updated: 2025-10-06
 
 这些角色负责与外部世界互动，处理日常事务与人际关系。
 
-- [宿主（Host）](entries/Host.md)：通常在前台的主要成员，负责日常生活运作与外部互动。
-- [管理者（Admin）](entries/Admin.md)：负责系统内部规则制定、冲突协调与决策管理。
-- [主体（Main）](entries/Main.md)：系统的核心或原始身份，可能是最早的意识体。
-- [伪主体（Fauxmain）](entries/Fauxmain.md)：长期在前台但并非原始身份的成员。
+- [宿主（Host）](Host.md)：通常在前台的主要成员，负责日常生活运作与外部互动。
+- [管理者（Admin）](Admin.md)：负责系统内部规则制定、冲突协调与决策管理。
+- [主体（Main）](Main.md)：系统的核心或原始身份，可能是最早的意识体。
+- [伪主体（Fauxmain）](Fauxmain.md)：长期在前台但并非原始身份的成员。
 
 ---
 
@@ -39,9 +39,9 @@ updated: 2025-10-06
 
 这些角色负责保护系统免受外部威胁或内部冲突的伤害。
 
-- [守门人（Gatekeeper）](entries/Gatekeeper.md)：管理前台切换与记忆访问权限，维护系统边界。
-- [保护者（Protector）](entries/Protector.md)：应对外部威胁、保护脆弱成员的安全角色。
-- [迫害者（Persecutor）](entries/Persecutor.md)：内化的创伤反应，实际上是扭曲的保护机制，需要理解而非对抗。
+- [守门人（Gatekeeper）](Gatekeeper.md)：管理前台切换与记忆访问权限，维护系统边界。
+- [保护者（Protector）](Protector.md)：应对外部威胁、保护脆弱成员的安全角色。
+- [迫害者（Persecutor）](Persecutor.md)：内化的创伤反应，实际上是扭曲的保护机制，需要理解而非对抗。
 
 ---
 
@@ -49,8 +49,8 @@ updated: 2025-10-06
 
 这些角色负责提供情感支持、照顾脆弱成员或维持内部和谐。
 
-- [照护者（Caregiver）](entries/Caregiver.md)：照顾其他成员、提供情感安抚与管理内部需求的角色。
-- [内部自助者（ISH, Internal Self Helper）](entries/Internal-Self-Helper-ISH.md)：拥有系统全局视角，提供内部指导与调解的特殊角色。
+- [照护者（Caregiver）](Caregiver.md)：照顾其他成员、提供情感安抚与管理内部需求的角色。
+- [内部自助者（ISH, Internal Self Helper）](Internal-Self-Helper-ISH.md)：拥有系统全局视角，提供内部指导与调解的特殊角色。
 
 ---
 
@@ -58,11 +58,11 @@ updated: 2025-10-06
 
 这些角色具有独特的功能或存在方式。
 
-- [小孩意识体（Little）](entries/Little.md)：保留童年状态的成员，可能持有童年记忆，需要特别照护。
-- [核心（Core）](entries/Core.md)：系统的核心或中心身份，可能是整合的目标或理论概念。
-- [执行者（Performer / Executive）](entries/Performer-Executive.md)：专注于特定技能或任务的执行角色。
-- [傀儡（Servitor）](entries/Servitor.md)：功能性、有限自主性的意识体，通常由其他成员创造。
-- [人格面具（Persona）](entries/Persona.md)：用于社交场合的"表面人格"，源自荣格心理学概念。
+- [小孩意识体（Little）](Little.md)：保留童年状态的成员，可能持有童年记忆，需要特别照护。
+- [核心（Core）](Core.md)：系统的核心或中心身份，可能是整合的目标或理论概念。
+- [执行者（Performer / Executive）](Performer-Executive.md)：专注于特定技能或任务的执行角色。
+- [傀儡（Servitor）](Servitor.md)：功能性、有限自主性的意识体，通常由其他成员创造。
+- [人格面具（Persona）](Persona.md)：用于社交场合的"表面人格"，源自荣格心理学概念。
 
 ---
 
@@ -97,7 +97,7 @@ updated: 2025-10-06
 
 ### 特殊认同（Alterhuman）
 
-- [特殊认同（Alterhuman）](entries/Alterhuman.md)：超越人类认同的身份体验，包括兽人（Therian）、龙人（Otherkin）、虚构人物身份（Fictionkin）等。
+- [特殊认同（Alterhuman）](Alterhuman.md)：超越人类认同的身份体验，包括兽人（Therian）、龙人（Otherkin）、虚构人物身份（Fictionkin）等。
 
 ### 身份与角色的关系
 
