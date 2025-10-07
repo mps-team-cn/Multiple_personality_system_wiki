@@ -120,15 +120,22 @@ plurality_wiki/
 │
 ├─ tools/                        # 本地维护工具
 │  ├─ core/                      # 核心共享模块
+│  │  ├─ config.py               # 配置管理
+│  │  ├─ frontmatter.py          # Frontmatter 解析
+│  │  ├─ logger.py               # 日志系统
+│  │  └─ utils.py                # 通用工具函数
 │  ├─ processors/                # 内容处理器
+│  │  ├─ markdown.py             # Markdown 处理器（整合 3 个工具）
+│  │  ├─ links.py                # 链接处理器
+│  │  └─ tags.py                 # 标签处理器
 │  ├─ generators/                # 生成器模块
 │  ├─ validators/                # 校验器模块
 │  ├─ cli/                       # CLI 接口
+│  ├─ deprecated/                # 已废弃工具（保留历史）
+│  ├─ fix_markdown.py            # Markdown 自动修复（主入口）
+│  ├─ check_links.py             # 链接检查（上下文感知）
 │  ├─ gen-validation-report.py   # 校验词条结构
-│  ├─ fix_markdown.py                  # Markdown 自动修复
-│  ├─ generate_tags_index.py     # [已废弃] 标签索引（MkDocs 自动处理）
-│  ├─ build_search_index.py      # [已废弃] 搜索索引（MkDocs 内置）
-│  ├─ check_links.py             # 链接检查
+│  ├─ gen_changelog_by_tags.py   # 基于标签生成变更日志
 │  └─ pdf_export/                # PDF 导出工具
 │
 ├─ scripts/
@@ -148,9 +155,28 @@ plurality_wiki/
 
 根目录下的 `tools/` 目录集中存放了协助批量处理、检查与发布的脚本，可与 CI 流程搭配使用。更完整的说明与后续更新请参见 [`docs/tools/README.md`](docs/tools/README.md)。
 
-- `python tools/gen-validation-report.py`：读取《CONTRIBUTING.md》与《docs/TEMPLATE_ENTRY.md》，生成 `docs/VALIDATION_REPORT.md` 校对报告。
-- ~~`python tools/generate_tags_index.py`~~： **[已废弃]** MkDocs Material 的 tags 插件自动生成标签索引。
-- `python tools/check_links.py --root .`：校验所有 Markdown 文件的内部链接是否遵循 `entries/*.md` 绝对路径写法，并提示潜在断链。
+### 核心工具
+
+- **`python tools/fix_markdown.py`**：Markdown 格式自动修复
+  - 整合了 3 个独立工具（fix_md.py + fix_bold_format.py + fix_list_bold_colon.py）
+  - 支持 13 条 Markdownlint 规则 + 5 条中文排版规则
+  - 支持预览模式：`--dry-run`
+
+- **`python tools/check_links.py --root .`**：链接有效性检查
+  - 上下文感知验证（支持 entries、docs_root、docs_subdir 等不同上下文）
+  - 支持尖括号包裹的链接格式 `[text](<url>)`
+  - 自动排除文档示例和模板文件
+
+- **`python tools/gen-validation-report.py`**：词条结构校验
+  - 读取 CONTRIBUTING.md 与 TEMPLATE_ENTRY.md 生成校对报告
+
+- **`python tools/gen_changelog_by_tags.py --latest-to-head`**：变更日志生成
+  - 基于 Git 标签自动生成版本日志
+
+### 已废弃工具
+
+- ~~`python tools/generate_tags_index.py`~~：**[已废弃]** MkDocs Material 的 tags 插件自动处理
+- ~~`python tools/build_search_index.py`~~：**[已废弃]** MkDocs 内置搜索功能
 
 ---
 
