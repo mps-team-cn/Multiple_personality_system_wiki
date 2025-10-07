@@ -1,6 +1,6 @@
 # 更新日志
 
-## 未发布
+## [v3.4.0](https://github.com/kuliantnt/plurality_wiki/releases/tag/v3.4.0) - 工具重构与链接检查增强 (2025-10-07)
 
 ### 🔧 工具重构与整合
 
@@ -10,6 +10,13 @@
   - 支持 13 条 Markdownlint 规则（MD009, MD012, MD022, MD028, MD031, MD032, MD034, MD037, MD040, MD047）
   - 支持 5 条自定义中文排版规则（列表标记空格、加粗空格、列表加粗冒号、链接括号、链接前冒号）
   - 旧工具移至 `tools/deprecated/`，新增详细迁移指南
+  - 全局更新所有引用：`fix_md.py` → `fix_markdown.py`（涉及 15 个文件）
+
+- **链接检查脚本重构**
+  - 支持上下文感知验证（entries、docs_root、docs_subdir、root、other）
+  - 修复 docs 根目录判断问题（区分 `docs/Glossary.md` 和 `docs/contributing/index.md`）
+  - 支持尖括号包裹的 Markdown 链接格式 `[text](<url>)`
+  - 新增文件排除列表，跳过文档示例和模板文件
 
 - **清理 Docsify 时代的过时工具**
   - 移除 `docs_preview.py` → 使用 `mkdocs serve` 替代
@@ -18,19 +25,35 @@
   - 所有过时工具移至 `tools/deprecated/` 目录保留历史
   - 新增 `docs/dev/CLEANUP_RECOMMENDATIONS.md` 详细分析报告
 
-### 📝 文档
+### 📝 文档改进
+
+- **管理员指南集成**
+  - 将 ADMIN_GUIDE.md 添加到贡献指南导航和参考资源
+  - 修复 ADMIN_GUIDE.md 中的链接路径问题
 
 - **更新维护文档**
-  - ADMIN_GUIDE.md 移除 `retag_and_related.py` 命令引用
-  - REFACTORING_PLAN.md 标注 MkDocs 迁移后的工具状态
+  - 更新核心配置文件：`.claude/CLAUDE.md`, `AGENTS.md`, `CONTRIBUTING.md`
+  - 更新贡献文档：`docs/contributing/` 目录下所有文件
+  - 更新开发文档：`docs/dev/`, `docs/tools/`
+  - 更新批处理脚本：`tools/run_local_updates.{bat,sh}`
   - 补充 MkDocs Material 替代功能说明
 
-### 🎨 设计
+### 🎨 设计优化
 
 - **新增 SVG 可视化图表**
   - `healthy-pathological-boundary.svg` - 健康与病理性多意识体的界限
   - 使用渐变色和双向箭头展示解离程度谱系
   - 更新 Core-Concepts-Guide.md 使用 SVG 替代文本图表
+
+- **品牌设计更新**
+  - 更新 favicon 为 Plurality Wiki 专属网络连接图案
+  - 清理根目录遗留的 assets 文件夹
+  - 清理 Docsify 遗留的数据文件和 legacy 目录
+
+### 📖 新增内容
+
+- 新增功能性神经症状障碍（FND）词条
+- 优化文档格式和链接
 
 ---
 
