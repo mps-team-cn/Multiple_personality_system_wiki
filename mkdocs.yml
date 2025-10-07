@@ -5,6 +5,7 @@ site_author: 脸脸系统、弦羽系统、逝水流年系统及社区贡献者
 repo_url: https://github.com/kuliantnt/plurality_wiki
 repo_name: plurality_wiki
 copyright: Copyright &copy; 2024-2025 Plurality Wiki
+edit_uri: edit/main/
 
 theme:
   name: material
