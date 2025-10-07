@@ -31,14 +31,17 @@
 
 - 一级标题：`中文名（English/缩写）`
 - Frontmatter 必须包含：`title`、`tags`、`updated`
-- 内部链接：完整路径 `entries/Admin.md`
+- 内部链接规范：
+  - 词条间链接（同目录）：`Admin.md`（相对路径）
+  - 跨目录到词条：`../entries/Admin.md`
+  - 词条到其他目录：`../contributing/index.md`
+  - MkDocs 会自动处理 `.md` 扩展名转换为 HTML
+  - **禁止** 使用绝对路径（如 `/docs/entries/DID.md`）
 - 提交信息：Conventional Commits 格式
 
 ### 自动化工具要求
 
 - `python tools/fix_markdown.py` - Markdown 自动修复
-- `node scripts/gen-last-updated.mjs` - 更新时间戳
-- `python tools/gen-validation-report.py` - 生成校验报告
 
 ## MANDATORY WORKFLOWS
 
@@ -134,3 +137,4 @@
 - `docs/TEMPLATE_ENTRY.md` - 词条模板
 - `docs/entries/` - 词条目录
 - `tools/` - 工具目录
+- `docs/tools/README.md` - 工具使用说明
