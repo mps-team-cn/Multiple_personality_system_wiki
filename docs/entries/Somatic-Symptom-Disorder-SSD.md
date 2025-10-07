@@ -50,7 +50,7 @@ DSM-5-TR 允许按照症状持续时间（急性 < 6 个月；慢性 ≥ 6 个�
 ## 评估与鉴别
 
 - 评估时需结合详细的病史、体格检查和必要的医学评估，排除急性、危及生命的躯体疾病。
-- 鉴别诊断包括疾病焦虑障碍、转换障碍、躯体症状伴抑郁或焦虑障碍以及物质/药物所致症状等。
+- 鉴别诊断包括疾病焦虑障碍、[功能性神经症状障碍（Conversion Disorder/FND）](Conversion-Disorder-FND.md)、躯体症状伴抑郁或焦虑障碍以及物质/药物所致症状等。
 - 共病常见于焦虑障碍、抑郁障碍、创伤相关障碍与人格特质问题，系统化评估可帮助制定治疗方案。
 
 ## 治疗与支持
@@ -70,6 +70,7 @@ DSM-5-TR 允许按照症状持续时间（急性 < 6 个月；慢性 ≥ 6 个�
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
 - [心境障碍（Affective Disorders）](Affective-Disorders.md)
 - [情感障碍（Mood Disorders）](Mood-Disorders.md)
+- [功能性神经症状障碍（Functional Neurological Symptom Disorder，FND）](Conversion-Disorder-FND.md)
 
 ## 参考资料
 
