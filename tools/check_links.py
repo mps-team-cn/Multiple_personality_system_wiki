@@ -25,9 +25,9 @@ import sys
 from pathlib import Path
 from typing import List, Tuple, Set
 
-# 链接正则：匹配 [text](url) 格式，支持可选的标题
+# 链接正则：匹配 [text](url) 或 [text](<url>) 格式，支持可选的标题
 LINK_RE = re.compile(
-    r'(?P<prefix>!?)\[(?P<text>[^\]]+)\]\((?P<target>[^()\s]+)(?:\s+"[^"]*")?\)',
+    r'(?P<prefix>!?)\[(?P<text>[^\]]+)\]\((?:<(?P<target_bracket>[^>]+)>|(?P<target>[^()\s]+))(?:\s+"[^"]*")?\)',
     re.IGNORECASE,
 )
 
@@ -263,7 +263,8 @@ def check_file(md_path: Path, repo_root: Path) -> List[Tuple[int, str, str]]:
     for i, line in enumerate(content.splitlines(), start=1):
         for m in LINK_RE.finditer(line):
             prefix = m.group("prefix") or ""
-            target = m.group("target").strip()
+            # 支持尖括号包裹的 URL：[text](<url>) 或 [text](url)
+            target = (m.group("target_bracket") or m.group("target") or "").strip()
 
             # 跳过图片、外链、锚点
             if is_image(prefix) or is_external(target) or is_anchor(target):
