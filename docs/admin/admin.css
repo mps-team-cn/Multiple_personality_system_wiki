@@ -1,54 +1,17 @@
-/* Decap CMS 现代化样式 - Plurality Wiki */
+/* Decap CMS 简化样式 - Plurality Wiki */
 
 :root {
   --primary-color: #009688;
   --primary-dark: #00796b;
   --primary-light: #b2dfdb;
-  --accent-color: #00bcd4;
-  --success-color: #4caf50;
-  --error-color: #f44336;
-  --warning-color: #ff9800;
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8f9fa;
-  --bg-tertiary: #e9ecef;
-  --text-primary: #212529;
-  --text-secondary: #6c757d;
-  --border-color: #dee2e6;
-  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.08);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.12);
-  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.16);
-  --radius-sm: 6px;
-  --radius-md: 8px;
-  --radius-lg: 12px;
-  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ============================================
-   全局样式优化
+   基础样式
    ============================================ */
 
-/* 整体背景渐变 */
 body {
-  background: var(--bg-secondary) !important;
   font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* 确保主布局使用 flexbox */
-body > div:first-child,
-[class*="App"] {
-  display: flex !important;
-  flex-direction: column !important;
-  min-height: 100vh !important;
-}
-
-/* 内容区域容器 */
-body > div:first-child > div:last-child,
-[class*="App"] > div:last-child {
-  display: flex !important;
-  flex: 1 !important;
-  overflow: hidden !important;
 }
 
 /* ============================================
@@ -57,462 +20,50 @@ body > div:first-child > div:last-child,
 
 [class*="AppHeader"] {
   background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%) !important;
-  box-shadow: 0 4px 16px rgba(0, 150, 136, 0.2) !important;
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-[class*="AppHeader"] h1,
-[class*="AppHeader"] a {
-  font-weight: 600 !important;
-  letter-spacing: 0.5px;
-}
-
-/* Logo 样式 */
-[class*="AppHeader"] img {
-  filter: brightness(0) invert(1);
-  transition: var(--transition);
-}
-
-[class*="AppHeader"] img:hover {
-  transform: scale(1.05);
 }
 
 /* ============================================
    登录页面
    ============================================ */
 
-[class*="AuthenticationPage"] {
-  background: linear-gradient(135deg, #e0f2f1 0%, #b2dfdb 50%, #80cbc4 100%);
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-[class*="AuthenticationPage"] > div {
-  background: var(--bg-primary);
-  padding: 48px;
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-lg);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.8);
-  max-width: 420px;
-  width: 100%;
-}
-
 [class*="LoginButton"] {
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)) !important;
+  background: var(--primary-color) !important;
   border: none !important;
-  padding: 14px 32px !important;
+  padding: 12px 24px !important;
   font-size: 16px !important;
-  font-weight: 600 !important;
-  border-radius: var(--radius-md) !important;
-  transition: var(--transition) !important;
-  box-shadow: var(--shadow-sm);
-  text-transform: none !important;
-  letter-spacing: 0.5px;
+  font-weight: 500 !important;
+  border-radius: 6px !important;
+  transition: all 0.3s ease !important;
 }
 
 [class*="LoginButton"]:hover {
+  background: var(--primary-dark) !important;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 150, 136, 0.4) !important;
-  background: linear-gradient(135deg, var(--primary-dark), #004d40) !important;
-}
-
-[class*="LoginButton"]:active {
-  transform: translateY(0);
-}
-
-/* ============================================
-   侧边栏
-   ============================================ */
-
-aside[class*="Sidebar"],
-[class*="SidebarContainer"] {
-  background: var(--bg-primary) !important;
-  border-right: 1px solid var(--border-color) !important;
-  box-shadow: 2px 0 12px rgba(0, 0, 0, 0.05) !important;
-  width: 280px !important;
-  min-width: 280px !important;
-  max-width: 280px !important;
-  flex-shrink: 0 !important;
-}
-
-[class*="SidebarNav"] {
-  padding: 16px 8px;
-}
-
-/* 集合标题 */
-[class*="SidebarHeading"] {
-  padding: 16px 16px 8px 16px !important;
-  font-size: 12px !important;
-  font-weight: 700 !important;
-  text-transform: uppercase !important;
-  letter-spacing: 1px;
-  color: var(--text-secondary) !important;
-}
-
-/* 搜索框 */
-[class*="SidebarContainer"] input[type="search"],
-[class*="SidebarContainer"] input[class*="search"] {
-  width: calc(100% - 32px) !important;
-  margin: 8px 16px !important;
-  padding: 8px 12px !important;
-  border-radius: var(--radius-sm) !important;
-  border: 1px solid var(--border-color) !important;
-  font-size: 14px !important;
-}
-
-[class*="SidebarLink"] {
-  border-radius: var(--radius-sm);
-  margin: 4px 8px !important;
-  padding: 10px 16px !important;
-  transition: var(--transition);
-  font-weight: 500;
-  position: relative;
-  overflow: hidden;
-  display: block !important;
-}
-
-[class*="SidebarLink"]::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 3px;
-  background: var(--primary-color);
-  transform: scaleY(0);
-  transition: var(--transition);
-}
-
-[class*="SidebarLink"]:hover {
-  background: var(--primary-light) !important;
-  transform: translateX(4px);
-}
-
-[class*="SidebarLink"]:hover::before {
-  transform: scaleY(1);
-}
-
-[class*="SidebarLink"][class*="active"] {
-  background: var(--primary-light) !important;
-  color: var(--primary-dark) !important;
-  font-weight: 600;
-}
-
-[class*="SidebarLink"][class*="active"]::before {
-  transform: scaleY(1);
-}
-
-/* ============================================
-   主内容区域
-   ============================================ */
-
-main[class*="Main"],
-[class*="App-content"],
-[class*="MainWrapper"] {
-  background: var(--bg-secondary) !important;
-  padding: 32px !important;
-  flex: 1 !important;
-  overflow-y: auto !important;
-}
-
-/* 集合视图容器 */
-[class*="ViewContainer"] {
-  max-width: 1600px !important;
-  margin: 0 auto !important;
-  width: 100% !important;
-}
-
-/* 词条列表网格布局 */
-[class*="ListControlPane"],
-[class*="CardsGrid"],
-[class*="ListContainer"] > div {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)) !important;
-  gap: 20px !important;
-  width: 100% !important;
-}
-
-/* 集合列表顶部 */
-[class*="CollectionTop"],
-[class*="ViewContainer"] > div:first-child {
-  background: var(--bg-primary) !important;
-  border-radius: var(--radius-md) !important;
-  padding: 28px 32px !important;
-  margin-bottom: 24px !important;
-  box-shadow: var(--shadow-sm) !important;
-}
-
-/* 集合标题 */
-[class*="CollectionTop"] h1,
-[class*="ViewContainer"] h1,
-[class*="ViewContainer"] h2 {
-  margin: 0 0 8px 0 !important;
-  font-size: 32px !important;
-  font-weight: 700 !important;
-  color: var(--text-primary) !important;
-}
-
-/* 集合描述 */
-[class*="CollectionTop"] p,
-[class*="ViewContainer"] p {
-  margin: 0 !important;
-  color: var(--text-secondary) !important;
-  font-size: 15px !important;
-  line-height: 1.6 !important;
-}
-
-/* 卡片样式 */
-[class*="Card"],
-[class*="EntryCard"] {
-  background: var(--bg-primary) !important;
-  border-radius: var(--radius-md) !important;
-  box-shadow: var(--shadow-sm) !important;
-  transition: var(--transition) !important;
-  border: 1px solid var(--border-color) !important;
-  overflow: hidden !important;
-  margin-bottom: 16px !important;
-}
-
-[class*="Card"]:hover,
-[class*="EntryCard"]:hover {
-  box-shadow: var(--shadow-md) !important;
-  transform: translateY(-2px) !important;
-  border-color: var(--primary-light) !important;
+  box-shadow: 0 4px 12px rgba(0, 150, 136, 0.3) !important;
 }
 
 /* ============================================
    按钮系统
    ============================================ */
 
-button[class*="Button"] {
-  border-radius: var(--radius-sm) !important;
-  transition: var(--transition) !important;
-  font-weight: 500 !important;
-  padding: 10px 20px !important;
-  border: none !important;
-}
-
 button[class*="Button-primary"] {
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)) !important;
-  box-shadow: var(--shadow-sm);
+  background: var(--primary-color) !important;
 }
 
 button[class*="Button-primary"]:hover {
-  box-shadow: 0 4px 12px rgba(0, 150, 136, 0.3) !important;
-  transform: translateY(-1px);
-}
-
-button[class*="Button-secondary"] {
-  background: var(--bg-tertiary) !important;
-  color: var(--text-primary) !important;
-}
-
-button[class*="Button-secondary"]:hover {
-  background: var(--border-color) !important;
+  background: var(--primary-dark) !important;
 }
 
 /* ============================================
-   编辑器
+   表单控件 - 聚焦状态
    ============================================ */
 
-[class*="EditorContainer"] {
-  background: var(--bg-primary);
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-md);
-  overflow: hidden;
-  border: 1px solid var(--border-color);
-}
-
-/* 编辑器工具栏 */
-[class*="Toolbar"],
-[class*="ToolbarContainer"] {
-  background: var(--bg-secondary) !important;
-  border-bottom: 1px solid var(--border-color) !important;
-  padding: 12px 16px !important;
-  backdrop-filter: blur(10px);
-}
-
-[class*="ToolbarButton"] {
-  border-radius: var(--radius-sm) !important;
-  transition: var(--transition) !important;
-}
-
-[class*="ToolbarButton"]:hover {
-  background: var(--primary-light) !important;
-  transform: scale(1.05);
-}
-
-/* Markdown 编辑器 */
-[class*="MarkdownControl"],
-[class*="EditorControl"] textarea {
-  font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace !important;
-  font-size: 14px !important;
-  line-height: 1.8 !important;
-  padding: 20px !important;
-  border: none !important;
-  background: var(--bg-primary) !important;
-}
-
-/* 预览区域 */
-[class*="PreviewPane"] {
-  background: var(--bg-primary) !important;
-  border-left: 1px solid var(--border-color) !important;
-  padding: 32px !important;
-}
-
-[class*="PreviewPane"] h1,
-[class*="PreviewPane"] h2,
-[class*="PreviewPane"] h3 {
-  color: var(--text-primary);
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
-}
-
-[class*="PreviewPane"] code {
-  background: var(--bg-secondary);
-  padding: 2px 6px;
-  border-radius: 3px;
-  font-family: 'JetBrains Mono', monospace;
-}
-
-/* ============================================
-   表单控件
-   ============================================ */
-
-input[class*="Input"],
-textarea[class*="TextArea"],
-select[class*="Select"] {
-  border-radius: var(--radius-sm) !important;
-  border: 1px solid var(--border-color) !important;
-  padding: 10px 14px !important;
-  transition: var(--transition) !important;
-  background: var(--bg-primary) !important;
-  font-size: 14px !important;
-}
-
-input[class*="Input"]:focus,
-textarea[class*="TextArea"]:focus,
-select[class*="Select"]:focus {
+input:focus,
+textarea:focus,
+select:focus {
   border-color: var(--primary-color) !important;
   box-shadow: 0 0 0 3px rgba(0, 150, 136, 0.1) !important;
   outline: none !important;
-}
-
-/* 标签输入 */
-[class*="ListControl"] {
-  border-radius: var(--radius-sm);
-}
-
-[class*="ListControl"] input {
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--border-color);
-  padding: 8px 12px;
-}
-
-/* 下拉选择器 */
-[class*="SelectControl"] select {
-  background: var(--bg-primary) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23757575' d='M6 9L1 4h10z'/%3E%3C/svg%3E") no-repeat right 12px center;
-  background-size: 12px;
-  padding-right: 36px !important;
-}
-
-/* 日期选择器 */
-[class*="DateTimeControl"] input {
-  background: var(--bg-primary);
-}
-
-/* 提示文本 */
-[class*="ControlHint"],
-[class*="FieldHint"] {
-  color: var(--text-secondary) !important;
-  font-size: 13px !important;
-  margin-top: 6px !important;
-  font-style: italic;
-}
-
-/* 字段标签 */
-[class*="ControlLabel"],
-[class*="FieldLabel"] {
-  font-weight: 600 !important;
-  color: var(--text-primary) !important;
-  margin-bottom: 8px !important;
-  font-size: 14px !important;
-}
-
-/* ============================================
-   集合列表
-   ============================================ */
-
-[class*="CollectionTop"] {
-  background: var(--bg-primary) !important;
-  border-bottom: 1px solid var(--border-color) !important;
-  padding: 20px 24px !important;
-  box-shadow: var(--shadow-sm);
-}
-
-[class*="CollectionTitle"] {
-  font-size: 24px !important;
-  font-weight: 700 !important;
-  color: var(--text-primary) !important;
-}
-
-/* 搜索框 */
-[class*="SearchInput"] {
-  border-radius: 24px !important;
-  border: 1px solid var(--border-color) !important;
-  padding: 10px 20px 10px 40px !important;
-  transition: var(--transition) !important;
-  background: var(--bg-secondary) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23757575' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='m21 21-4.35-4.35'/%3E%3C/svg%3E") no-repeat 12px center;
-  background-size: 16px;
-}
-
-[class*="SearchInput"]:focus {
-  border-color: var(--primary-color) !important;
-  box-shadow: 0 0 0 3px rgba(0, 150, 136, 0.1) !important;
-  background-color: var(--bg-primary) !important;
-}
-
-/* ============================================
-   通知消息
-   ============================================ */
-
-[class*="Toast"],
-[class*="Notification"] {
-  border-radius: var(--radius-md) !important;
-  box-shadow: var(--shadow-lg) !important;
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-[class*="Toast-success"] {
-  background: linear-gradient(135deg, var(--success-color), #388e3c) !important;
-}
-
-[class*="Toast-error"] {
-  background: linear-gradient(135deg, var(--error-color), #d32f2f) !important;
-}
-
-[class*="Toast-info"] {
-  background: linear-gradient(135deg, var(--accent-color), #0097a7) !important;
-}
-
-/* ============================================
-   加载动画
-   ============================================ */
-
-[class*="Loader"],
-[class*="Loading"] {
-  border-color: var(--primary-color) transparent transparent transparent !important;
-}
-
-/* 加载覆盖层 */
-[class*="LoadingOverlay"] {
-  backdrop-filter: blur(4px);
-  background: rgba(255, 255, 255, 0.8) !important;
 }
 
 /* ============================================
@@ -525,93 +76,14 @@ select[class*="Select"]:focus {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--bg-secondary);
-  border-radius: 5px;
+  background: #f5f5f5;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(135deg, var(--primary-light), var(--primary-color));
+  background: var(--primary-light);
   border-radius: 5px;
-  border: 2px solid var(--bg-secondary);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
-}
-
-/* Firefox 滚动条 */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: var(--primary-color) var(--bg-secondary);
-}
-
-/* ============================================
-   响应式优化
-   ============================================ */
-
-@media (max-width: 768px) {
-  [class*="AppHeader"] {
-    padding: 12px 16px !important;
-  }
-
-  [class*="SidebarContainer"] {
-    width: 100% !important;
-  }
-
-  [class*="MainWrapper"] {
-    padding: 16px !important;
-  }
-
-  [class*="EditorContainer"] {
-    flex-direction: column !important;
-  }
-
-  [class*="PreviewPane"] {
-    border-left: none !important;
-    border-top: 1px solid var(--border-color) !important;
-  }
-}
-
-/* ============================================
-   动画效果
-   ============================================ */
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-[class*="Card"],
-[class*="EntryCard"] {
-  animation: fadeIn 0.3s ease-out;
-}
-
-/* 按钮点击波纹效果 */
-button[class*="Button"] {
-  position: relative;
-  overflow: hidden;
-}
-
-button[class*="Button"]::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 0;
-  height: 0;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.5);
-  transform: translate(-50%, -50%);
-  transition: width 0.6s, height 0.6s;
-}
-
-button[class*="Button"]:active::after {
-  width: 300px;
-  height: 300px;
+  background: var(--primary-color);
 }
