@@ -1,16 +1,14 @@
 ---
-tags:
-
-- 系统运作
-- 多重意识体
-- 解离
-- 创伤
-
-topic: 系统运作
 title: 权限（Permissions）
+en: ''
+topic: 系统运作
+tags:
+  - 系统运作
+  - 多重意识体
+  - 解离
+  - 创伤
 updated: 2025-10-03
 ---
-
 # 权限（Permissions）
 
 **一句话定义** ： **权限** 指多意识体系统中各身份在身体控制、记忆访问与决策参与方面被认可的能力范围与优先级。
@@ -45,18 +43,6 @@ updated: 2025-10-03
 
 ## 参考与延伸阅读
 
-[^reinders2019]: Reinders, A. A. T. S., et al. 2019. “Differential Autonomic Nervous System Activity in Dissociative Identity Disorder.” *Journal of Abnormal Psychology* 128(6): 531–543.
-[^roth2018]: Roth, T. L., & Friedman, M. J. 2018. “Trauma, Control, and Dissociation: Clinical Implications for Safety Planning.” *Journal of Trauma & Dissociation* 19(2): 123–138.
+[^reinders2019]: Reinders, A. A. T. S., et al. 2019. “Differential Autonomic Nervous System Activity in Dissociative Identity Disorder.” _Journal of Abnormal Psychology_ 128(6): 531–543.
+[^roth2018]: Roth, T. L., & Friedman, M. J. 2018. “Trauma, Control, and Dissociation: Clinical Implications for Safety Planning.” _Journal of Trauma & Dissociation_ 19(2): 123–138.
 [Pluralpedia: Permissions](https://pluralpedia.org/w/Permissions)
-
-## 定义
-
-（待补充）
-
-## 鉴别
-
-（待补充）
-
-## 干预
-
-（待补充）
