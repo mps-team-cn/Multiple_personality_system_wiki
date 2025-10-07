@@ -105,14 +105,13 @@ collections:
         widget: "select"
         required: false
         options:
-          - { label: "核心概念", value: "核心概念" }
-          - { label: "临床诊断", value: "临床诊断" }
+          - { label: "理论与分类", value: "理论与分类" }
+          - { label: "诊断与临床", value: "诊断与临床" }
           - { label: "系统运作", value: "系统运作" }
-          - { label: "心理健康", value: "心理健康" }
+          - { label: "角色与身份", value: "角色与身份" }
+          - { label: "文化与表现", value: "文化与表现" }
+          - { label: "创伤与疗愈", value: "创伤与疗愈" }
           - { label: "实践指南", value: "实践指南" }
-          - { label: "角色身份", value: "角色身份" }
-          - { label: "理论分类", value: "理论分类" }
-          - { label: "文化表现", value: "文化表现" }
         hint: "选择词条所属的主题分类"
 
       - label: "标签"
