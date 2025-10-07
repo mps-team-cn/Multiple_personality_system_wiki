@@ -171,6 +171,6 @@ docs/assets/
 
 **相关文档** ：
 
-- [贡献指南](../CONTRIBUTING.md) - 图表与数据要求
-- [词条模板](TEMPLATE_ENTRY.md) - 图片引用示例
-- [开发规范](../AGENTS.md) - 静态资源配置
+- [贡献指南](../contributing/index.md) - 图表与数据要求
+- [词条模板](../TEMPLATE_ENTRY.md) - 图片引用示例
+- [开发规范](../../AGENTS.md) - 静态资源配置

@@ -107,8 +107,6 @@
 - [ **接地（Grounding）** ](entries/Grounding.md) - 回到当下的稳定技巧
 - [ **内部沟通** ](entries/Internal-Communication.md) - 成员间的交流方法
 
-[:octicons-arrow-right-24: 探索实践指南导览](Practice-Guide.md)
-
 ---
 
 ## 🧭 新手学习路径

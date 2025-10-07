@@ -34,7 +34,7 @@ while [[ $# -gt 0 ]]; do
 默认执行以下步骤：
   1. python tools/gen_changelog_by_tags.py --latest-to-head
   2. python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei"
-  3. python tools/fix_md.py
+  3. python tools/fix_markdown.py
   4. markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
 
 可选参数：
@@ -86,7 +86,7 @@ fi
 # - gen-last-updated.mjs: MkDocs Material git-revision-date-localized 插件自动获取
 
 if ! ${SKIP_FIX_MD}; then
-  run_step "自动修复 Markdown" python tools/fix_md.py
+  run_step "自动修复 Markdown" python tools/fix_markdown.py
 else
   echo "已跳过：Markdown 自动修复" >&2
 fi

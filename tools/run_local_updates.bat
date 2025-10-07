@@ -35,7 +35,7 @@ echo.
 echo 默认执行以下步骤:
 echo   1. python tools/gen_changelog_by_tags.py --latest-to-head
 echo   2. python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei"
-echo   3. python tools/fix_md.py
+echo   3. python tools/fix_markdown.py
 echo   4. markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
 echo.
 echo 可选参数:
@@ -91,7 +91,7 @@ REM - gen-last-updated.mjs: MkDocs Material git-revision-date-localized 插件�
 REM 3. 自动修复 Markdown
 if %SKIP_FIX_MD%==0 (
     echo [3/4] 自动修复 Markdown 格式...
-    python tools/fix_md.py
+    python tools/fix_markdown.py
     if errorlevel 1 echo 警告: Markdown 修复失败
     echo.
 ) else (

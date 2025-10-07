@@ -24,6 +24,10 @@
 
 提交流程、检查清单与本地开发指南
 
+### [管理员操作指南](../ADMIN_GUIDE.md)
+
+管理员与维护者的日常操作、分支管理与发布流程
+
 ---
 
 ## 🎯 核心原则
@@ -57,7 +61,7 @@ pip install -r requirements-mkdocs.txt
 
 # 3. 自动修复格式
 
-python tools/fix_md.py
+python tools/fix_markdown.py
 
 # 4. 本地预览
 
@@ -84,6 +88,7 @@ mkdocs serve
 ## 📚 参考资源
 
 - [词条模板](../TEMPLATE_ENTRY.md)
+- [管理员操作指南](../ADMIN_GUIDE.md)
 - [工具文档](../tools/README.md)
 - [前端架构](../dev/FRONTEND_ARCHITECTURE.md)
 - [开发文档](../dev/)

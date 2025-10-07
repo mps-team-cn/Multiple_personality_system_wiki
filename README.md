@@ -3,7 +3,7 @@
 > 多重意识体系统与相关心理健康主题的中文知识库与开源协作项目。
 > 在线版本：<https://plurality-wiki.pages.dev/>
 
-- [查看标签索引](tags.md)
+- [查看标签索引](docs/tags.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Docs status](https://img.shields.io/badge/docs-online-brightgreen.svg)](https://plurality-wiki.pages.dev/)
@@ -125,7 +125,7 @@ plurality_wiki/
 │  ├─ validators/                # 校验器模块
 │  ├─ cli/                       # CLI 接口
 │  ├─ gen-validation-report.py   # 校验词条结构
-│  ├─ fix_md.py                  # Markdown 自动修复
+│  ├─ fix_markdown.py                  # Markdown 自动修复
 │  ├─ generate_tags_index.py     # [已废弃] 标签索引（MkDocs 自动处理）
 │  ├─ build_search_index.py      # [已废弃] 搜索索引（MkDocs 内置）
 │  ├─ check_links.py             # 链接检查
@@ -219,7 +219,7 @@ docsify serve .
    - 标签索引由 MkDocs 自动生成，无需手动运行脚本
    - 更新 `docs/index.md` 导航（如需要）
 4. **本地验证** ：
-   - 执行 `python tools/fix_md.py` 自动修复格式
+   - 执行 `python tools/fix_markdown.py` 自动修复格式
    - 执行 `markdownlint "docs/**/*.md"` 检查
    - 运行 `mkdocs serve` 本地预览
 5. 提交 PR，等待 Review。
