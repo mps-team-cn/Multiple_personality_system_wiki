@@ -18,7 +18,7 @@
 
 | 模块 | 功能摘要 | 常用用法 |
 | --- | --- | --- |
-| `tools/processors/markdown.py` | 统一的 Markdown 处理器,支持可配置的修复规则(MD009/MD012/MD022/MD028/MD034/MD040/MD047) | `python -m tools.processors.markdown` (开发中) |
+| `tools/fix_markdown.py` | 统一的 Markdown 处理器,整合了 fix_md、fix_bold_format、fix_list_bold_colon 的所有功能,支持 13 条 Markdownlint 规则和 5 条中文排版规则 | `python tools/fix_markdown.py docs/entries/` |
 | `tools/processors/links.py` | 链接检查器,验证内部链接完整性和格式规范 | `python -m tools.processors.links` (开发中) |
 | `tools/processors/tags.py` | 标签处理器,提供智能标签提取、归一化和索引生成 | `python -m tools.processors.tags` (开发中) |
 
@@ -26,8 +26,9 @@
 
 | 脚本/模块 | 功能摘要 | 常用用法 |
 | --- | --- | --- |
-| `tools/fix_md.py` | 批量修复 Markdown 常见 Lint 问题，涵盖行尾空格、标题前后空行、围栏语言补全、强调标记留白等 | `python tools/fix_md.py` 或 `python tools/fix_md.py --dry-run` |
-| `tools/fix_list_bold_colon.py` | 修复列表项中的粗体冒号格式问题，确保 Material for MkDocs 正确渲染（`- **text** :` → `- **text** :`） | `python tools/fix_list_bold_colon.py` 或 `python tools/fix_list_bold_colon.py --dry-run` |
+| `tools/fix_md.py` | **[已废弃]** 已整合到 `tools/fix_markdown.py` | ~~`python tools/fix_md.py`~~ → `python tools/fix_markdown.py` |
+| `tools/fix_bold_format.py` | **[已废弃]** 已整合到 `tools/fix_markdown.py` | ~~`python tools/fix_bold_format.py`~~ → `python tools/fix_markdown.py` |
+| `tools/fix_list_bold_colon.py` | **[已废弃]** 已整合到 `tools/fix_markdown.py` | ~~`python tools/fix_list_bold_colon.py`~~ → `python tools/fix_markdown.py` |
 | `tools/check_links.py` | 扫描 Markdown 文档中疑似内部链接写法，禁止 `./`、`../` 等相对路径 | `python tools/check_links.py --root .`，必要时配合 `--whitelist` |
 | `tools/docs_preview.py` | 本地预览辅助：默认启动 `python -m http.server`，可选 `--docsify` 启用 docsify-cli | `python tools/docs_preview.py --port 4173`（启用 docsify 时追加 `--docsify`） |
 | `tools/gen_changelog_by_tags.py` | 按 Git 标签时间顺序生成 `changelog.md` 并按提交类型分组 | `python tools/gen_changelog_by_tags.py --output changelog.md`，可加 `--latest-only`/`--latest-to-head` |
@@ -52,25 +53,52 @@
 
 ## 新处理器模块详解
 
-### 📦 Markdown 处理器 (`processors/markdown.py`)
+### 📦 Markdown 处理器 (`tools/fix_markdown.py`)
 
 **功能特性:**
 
-- 支持 7 种 Markdown Lint 规则修复
-- 可配置的规则启用/禁用
+- 整合了 3 个独立工具的所有功能 (fix_md.py, fix_bold_format.py, fix_list_bold_colon.py)
+- 支持 13 条 Markdownlint 规则 + 5 条中文排版规则
 - 批量处理能力
-- 预览模式(dry-run)
+- 预览模式 (--dry-run)
 - 详细的处理结果报告
 
 **支持的修复规则:**
 
-- **MD009** : 移除行尾空白字符(包括全角空格)
-- **MD012** : 压缩连续空行为单行
-- **MD022** : 确保标题前后空行
-- **MD028** : 修复引用块中的空行
-- **MD034** : 转换裸链接为标准格式
-- **MD040** : 为代码围栏添加语言标注
-- **MD047** : 确保文件以单个换行结束
+**Markdownlint 标准规则:**
+- **MD009**: 移除行尾空白字符 (包括全角空格)
+- **MD012**: 压缩连续空行为单行
+- **MD022**: 确保标题前后空行
+- **MD028**: 修复引用块中的空行
+- **MD031**: 确保代码块前后空行
+- **MD032**: 确保列表前后空行
+- **MD034**: 转换裸链接为标准格式
+- **MD037**: 修复强调标记内空格 (增强版，支持中文标点)
+- **MD040**: 为代码围栏添加语言标注
+- **MD047**: 确保文件以单个换行结束
+
+**中文排版规则:**
+- **CUSTOM001**: 列表标记空格 (`-item` → `- item`)
+- **CUSTOM002**: 加粗中文空格 (`中文**加粗**后面` → `中文 **加粗** 后面`)
+- **CUSTOM003**: 列表加粗冒号 (`-**text**: ` → `- **text** : `)
+- **CUSTOM004**: 链接括号转换 (中文括号 → 英文括号，加粗链接格式)
+- **CUSTOM005**: 链接前冒号 (`参考:[链接]` → `参考：[链接]`)
+
+**命令行用法:**
+
+```bash
+# 处理单个文件
+python tools/fix_markdown.py docs/entries/Tulpa.md
+
+# 处理整个目录
+python tools/fix_markdown.py docs/entries/
+
+# 预览模式（不实际修改）
+python tools/fix_markdown.py docs/entries/ --dry-run
+
+# 详细输出
+python tools/fix_markdown.py docs/entries/ --verbose
+```
 
 **编程接口:**
 
@@ -78,13 +106,15 @@
 from tools.processors.markdown import MarkdownProcessor, fix_markdown_file
 
 # 使用处理器类
-
 processor = MarkdownProcessor()
-result = processor.process_file(Path("entries/example.md"))
+result = processor.process_file(Path("docs/entries/example.md"))
 
 # 使用便捷函数
+result = fix_markdown_file("docs/entries/example.md", dry_run=True)
 
-result = fix_markdown_file("entries/example.md", dry_run=True)
+# 处理文本字符串
+text = "**加粗**后面"
+fixed = processor.process(text)  # "**加粗** 后面"
 ```
 
 ### 🔗 链接处理器 (`processors/links.py`)
@@ -228,60 +258,47 @@ tools\run_local_updates.bat --skip-pdf --skip-markdownlint
 ### 🧰 一键修复 Markdown
 
 ```bash
+# 使用新的统一工具（推荐）
+python tools/fix_markdown.py docs/entries/
 
-# 1) 自动修复
+# 预览模式
+python tools/fix_markdown.py docs/entries/ --dry-run
 
-python tools/fix_md.py
+# 详细输出
+python tools/fix_markdown.py docs/entries/ --verbose
 
-# 2) 校验（需安装 markdownlint-cli）
-
+# 校验（需安装 markdownlint-cli）
 markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
 ```
 
-> Windows 可用 `py tools/fix_md.py`，运行环境需 Python 3.10 及以上。
+> Windows 可用 `py tools/fix_markdown.py`，运行环境需 Python 3.10 及以上。
 
-**规则更新（2025-10-06）:**
+**统一工具优势:**
 
-- MD037 修复项新增"强调段落前后自动补空格",避免 Material for MkDocs 在中英混排或紧邻括号时无法正确渲染，如「我们首先需要认识 **解离** （Dissociation）这个基础概念」。
+- ✅ 整合了 3 个独立工具的所有功能
+- ✅ 支持 13 条 Markdownlint 规则 + 5 条中文排版规则
+- ✅ 一次运行完成所有修复
+- ✅ 智能处理中文标点，避免误加空格
+- ✅ 完整的预览和详细输出模式
 
-### 🔧 修复列表粗体格式
-
-Material for MkDocs 对列表项中的粗体冒号格式有特定要求，需要在粗体前后和冒号前后都加上空格。
-
-```bash
-
-# 预览模式（查看会修改什么，不实际修改）
-
-python tools/fix_list_bold_colon.py --dry-run
-
-# 实际修改
-
-python tools/fix_list_bold_colon.py
-```
-
-**修复示例:**
+**常见修复示例:**
 
 ```markdown
+# 列表标记空格
+-item → - item
 
-# 修复前（渲染异常）
+# 加粗中文空格
+中文**加粗**后面 → 中文 **加粗** 后面
 
-- **Framework preset** : `None`
-- **Build command** : `bash build.sh`
+# 列表加粗冒号
+-**text**: → - **text** :
 
-# 修复后（正确渲染）
+# 链接前冒号
+参考:[链接] → 参考：[链接]
 
-- **Framework preset** : `None`
-- **Build command** : `bash build.sh`
-
+# 加粗标点不加空格（正确保持）
+**定义**：内容 → **定义**：内容
 ```
-
-**功能特性:**
-
-- 自动扫描所有 Markdown 文件
-- 精确匹配需要修复的格式
-- 提供详细的修改预览
-- 统计修改的文件数和位置数
-- 支持预览模式（`--dry-run` 或 `-n`）
 
 ### 词条最后更新时间索引
 
