@@ -24,6 +24,7 @@ updated: 2025-10-06
 - [部分解离性身份障碍（PDID）](Partial-Dissociative-Identity-Disorder-PDID.md)：ICD-11 专有诊断 (6B65)，与 OSDD-1 相似。
 - [人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)：持续或反复的人格解体或现实解体，DSM-5-TR (300.6) / ICD-11 (6B66)。
 - [解离性失忆（DA）](Dissociative-Amnesia-DA.md)：无法回忆重要个人信息的记忆障碍。
+- [转换障碍（Conversion Disorder / FND）](Conversion-Disorder.md)：功能性神经症状障碍，DSM-5-TR 归类为躯体症状障碍 / ICD-11 (6B60) 归类为解离性神经症状障碍。
 - [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)：达到临床意义、影响功能的解离现象。
 
 ## 创伤相关障碍

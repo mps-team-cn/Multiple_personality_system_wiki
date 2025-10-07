@@ -11,20 +11,26 @@
 #### 安装依赖
 
 ```bash
+
 # Python 依赖（MkDocs）
+
 pip install -r requirements-mkdocs.txt
 
 # Node.js 依赖（可选，用于时间戳更新）
+
 npm install
 ```
 
 #### 验证安装
 
 ```bash
+
 # 验证 MkDocs
+
 mkdocs --version
 
 # 验证 Python 工具
+
 python tools/fix_md.py --help
 ```
 
@@ -40,24 +46,30 @@ python tools/fix_md.py --help
     模板文件位置：`docs/TEMPLATE_ENTRY.md`
 
     模板包含：
+
     - 标准 Frontmatter 结构
     - 常用章节框架
     - 引用格式示例
 
-**示例**：
+**示例** ：
 
 ```bash
+
 # 使用模板创建新词条
+
 cp docs/TEMPLATE_ENTRY.md docs/entries/新词条名.md
 
 # 编辑内容
+
 code docs/entries/新词条名.md
 ```
 
 #### 编辑现有词条
 
 ```bash
+
 # 直接编辑
+
 code docs/entries/DID.md
 ```
 
@@ -68,14 +80,17 @@ code docs/entries/DID.md
 ### 2.1 自动修复格式
 
 ```bash
+
 # 修复所有文件
+
 python tools/fix_md.py
 
 # 修复特定文件
+
 python tools/fix_md.py docs/entries/某词条.md
 ```
 
-**修复内容**：
+**修复内容** ：
 
 - 加粗链接格式
 - 列表加粗文本空格
@@ -85,23 +100,29 @@ python tools/fix_md.py docs/entries/某词条.md
 ### 2.2 Markdown Lint 检查
 
 ```bash
+
 # 检查所有文件
+
 markdownlint "docs/**/*.md" --ignore "node_modules" --ignore "site"
 
 # 检查特定文件
+
 markdownlint docs/entries/某词条.md
 ```
 
 ### 2.3 本地预览
 
 ```bash
+
 # 启动开发服务器
+
 mkdocs serve
 
 # 访问 http://127.0.0.1:8000
+
 ```
 
-**检查项**：
+**检查项** ：
 
 - [ ] 页面正常显示
 - [ ] 链接跳转正确
@@ -112,11 +133,13 @@ mkdocs serve
 ### 2.4 构建测试
 
 ```bash
+
 # 严格模式构建
+
 mkdocs build --strict
 ```
 
-**说明**：`--strict` 会将所有警告视为错误，确保构建质量。
+**说明** ：`--strict` 会将所有警告视为错误，确保构建质量。
 
 ---
 
@@ -127,13 +150,17 @@ mkdocs build --strict
 运行以下命令确保质量：
 
 ```bash
+
 # 1. 格式修复
+
 python tools/fix_md.py
 
 # 2. Lint 检查
+
 markdownlint "docs/**/*.md" --ignore "node_modules" --ignore "site"
 
 # 3. 构建测试
+
 mkdocs build --strict
 ```
 
@@ -155,13 +182,17 @@ mkdocs build --strict
 #### 提交命令
 
 ```bash
+
 # 添加修改的文件
+
 git add docs/entries/某词条.md
 
 # 提交（使用规范格式）
+
 git commit -m "feat: 添加解离性遗忘症词条"
 
 # 推送到远程
+
 git push origin 你的分支名
 ```
 
@@ -219,13 +250,13 @@ git push origin 你的分支名
 
 ### 5.1 标题格式
 
-```
+```text
 <type>(<scope>): <subject>
 ```
 
-**示例**：
+**示例** ：
 
-```
+```text
 feat(entries): 添加解离性遗忘症词条
 fix(entries): 修复 DID 词条引用格式
 docs(contributing): 更新贡献指南
@@ -234,7 +265,9 @@ docs(contributing): 更新贡献指南
 ### 5.2 PR 描述模板
 
 ```markdown
+
 ## 变更类型
+
 - [ ] feat - 新增条目/功能
 - [ ] fix - 错误修复
 - [ ] docs - 文档更新
@@ -243,20 +276,26 @@ docs(contributing): 更新贡献指南
 - [ ] style - 格式变更
 
 ## 变更说明
+
 <!-- 简要描述本次变更的内容 -->
 
 ## 主要变更
+
 <!-- 列出主要的修改项 -->
+
 - 添加了 XXX 词条
 - 修复了 XXX 问题
 - 更新了 XXX 引用
 
 ## 引用来源
+
 <!-- 列出主要引用来源 -->
+
 - ICD-11 Browser, 6BXX（MMS 2025-01）
 - DSM-5-TR, XXX
 
 ## 检查清单
+
 - [ ] 所有断言均有引用
 - [ ] 病理学内容包含 ICD-11 与 DSM-5-TR
 - [ ] 内部链接与标签正确
@@ -265,10 +304,12 @@ docs(contributing): 更新贡献指南
 - [ ] 已更新最后修改时间
 
 ## 相关 Issue
+
 <!-- 如果有相关 Issue，请引用 -->
 Closes #XXX
 
 ## 附加说明
+
 <!-- 其他需要说明的内容 -->
 ```
 
@@ -278,18 +319,18 @@ Closes #XXX
 
 ### 6.1 格式问题
 
-**问题**：加粗链接渲染错误
+**问题** ：加粗链接渲染错误
 
 ```markdown
 ❌ **[文本](链接)**
 ✅ **文本（[链接](url)）**
 ```
 
-**解决**：运行 `python tools/fix_md.py` 自动修复
+**解决** ：运行 `python tools/fix_md.py` 自动修复
 
 ### 6.2 链接问题
 
-**问题**：链接失效或 404
+**问题** ：链接失效或 404
 
 - 检查是否使用相对路径
 - 确认目标文件存在
@@ -297,7 +338,7 @@ Closes #XXX
 
 ### 6.3 构建问题
 
-**问题**：`mkdocs build --strict` 失败
+**问题** ：`mkdocs build --strict` 失败
 
 - 查看错误信息
 - 检查 Frontmatter 格式
@@ -306,7 +347,7 @@ Closes #XXX
 
 ### 6.4 标签问题
 
-**问题**：标签索引未更新
+**问题** ：标签索引未更新
 
 - 确认 Frontmatter 中标签格式正确（数组格式）
 - MkDocs Material tags 插件会自动生成索引
@@ -319,27 +360,35 @@ Closes #XXX
 ### 7.1 格式修复
 
 ```bash
+
 # 修复单个文件
+
 python tools/fix_md.py docs/entries/某词条.md
 
 # 修复所有词条
+
 python tools/fix_md.py
 ```
 
 ### 7.2 时间戳更新
 
 ```bash
+
 # 更新所有词条的时间戳
+
 node scripts/gen-last-updated.mjs
 ```
 
 ### 7.3 校验报告
 
 ```bash
+
 # 生成校验报告
+
 python tools/gen-validation-report.py
 
 # 查看报告
+
 cat docs/VALIDATION_REPORT.md
 ```
 
@@ -351,14 +400,14 @@ cat docs/VALIDATION_REPORT.md
 
 ### 8.1 一级来源
 
-- **ICD-11 Browser**：[https://icd.who.int/browse11](https://icd.who.int/browse11)（使用 MMS 2025-01）
-- **WHO CDDR**：Clinical Descriptions and Diagnostic Requirements（2024 PDF）
-- **APA DSM-5-TR**：[https://www.psychiatry.org/](https://www.psychiatry.org/)
+- **ICD-11 Browser** ：[https://icd.who.int/browse11](https://icd.who.int/browse11)（使用 MMS 2025-01）
+- **WHO CDDR** ：Clinical Descriptions and Diagnostic Requirements（2024 PDF）
+- **APA DSM-5-TR** ：[https://www.psychiatry.org/](https://www.psychiatry.org/)
 
 ### 8.2 二级来源
 
-- **StatPearls**：[https://www.ncbi.nlm.nih.gov/books/NBK](https://www.ncbi.nlm.nih.gov/books/NBK)
-- **UpToDate**：[https://www.uptodate.com/](https://www.uptodate.com/)
+- **StatPearls** ：[https://www.ncbi.nlm.nih.gov/books/NBK](https://www.ncbi.nlm.nih.gov/books/NBK)
+- **UpToDate** ：[https://www.uptodate.com/](https://www.uptodate.com/)
 
 ---
 

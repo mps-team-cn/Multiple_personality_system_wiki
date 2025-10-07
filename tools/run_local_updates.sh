@@ -12,8 +12,6 @@ SKIP_CHANGELOG=false
 SKIP_RETAG=false
 SKIP_LAST_UPDATED=false
 SKIP_PDF=false
-SKIP_TAG_INDEX=false
-SKIP_SEARCH_INDEX=false
 SKIP_FIX_MD=false
 SKIP_MARKDOWNLINT=false
 
@@ -31,12 +29,6 @@ while [[ $# -gt 0 ]]; do
     --skip-pdf)
       SKIP_PDF=true
       ;;
-    --skip-tag-index)
-      SKIP_TAG_INDEX=true
-      ;;
-    --skip-search-index)
-      SKIP_SEARCH_INDEX=true
-      ;;
     --skip-fix-md)
       SKIP_FIX_MD=true
       ;;
@@ -52,21 +44,21 @@ while [[ $# -gt 0 ]]; do
   2. python tools/retag_and_related.py
   3. node scripts/gen-last-updated.mjs
   4. python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei"
-  5. python tools/generate_tags_index.py
-  6. python tools/build_search_index.py
-  7. python tools/fix_md.py
-  8. markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
+  5. python tools/fix_md.py
+  6. markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
 
 可选参数：
   --skip-changelog      跳过变更日志生成
   --skip-retag          跳过标签与关联词条重建
   --skip-last-updated   跳过最后更新时间索引生成
   --skip-pdf            跳过 PDF 导出
-  --skip-tag-index      跳过标签索引生成
-  --skip-search-index   跳过搜索索引生成
   --skip-fix-md         跳过 Markdown 自动修复
   --skip-markdownlint   跳过 markdownlint 校验
   -h, --help            显示本帮助信息
+
+注意：
+  - MkDocs Material 使用内置搜索，不再需要单独生成搜索索引
+  - 标签索引由 MkDocs Material tags 插件自动生成，无需手动维护
 USAGE
       exit 0
       ;;

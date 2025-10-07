@@ -37,7 +37,6 @@
 ### 自动化工具要求
 
 - `python tools/fix_md.py` - Markdown 自动修复
-- `python tools/generate_tags_index.py` - 生成标签索引
 - `node scripts/gen-last-updated.mjs` - 更新时间戳
 - `python tools/gen-validation-report.py` - 生成校验报告
 
@@ -66,9 +65,9 @@
 
 ### 任务执行要求
 
-- 修改词条后必须运行：`python tools/generate_tags_index.py`
 - 提交前必须运行：`python tools/fix_md.py`
 - 大规模修改前必须：检查相关索引和链接
+- 标签索引由 MkDocs Material tags 插件自动生成，无需手动维护
 
 ## QUALITY STANDARDS
 

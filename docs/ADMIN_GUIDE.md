@@ -107,11 +107,7 @@ git commit -m "feat: 新增解离性身份障碍（DID）条目"
 1. 复制 [TEMPLATE_ENTRY.md](TEMPLATE_ENTRY.md)
 2. 填写完整内容（含 Frontmatter：`title`、`tags`、`updated`）
 3. 将文件保存至 `entries/` 目录
-4. 更新索引
-
-   ```bash
-   python tools/generate_tags_index.py
-   ```
+4. 标签索引由 MkDocs Material tags 插件自动生成，无需手动更新
 
 ### 🔹 5.2 更新已有词条
 
@@ -143,8 +139,6 @@ python tools/retag_and_related.py
 node scripts/gen-last-updated.mjs
 @REM 生成 PDF 和目录索引
 python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei"
-@REM 生成标签索引
-python tools/generate_tags_index.py
 @REM 修正 Markdown 格式
 python tools/fix_md.py
 @REM 检查 Markdown 格式
