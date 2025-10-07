@@ -39,30 +39,27 @@ collections:
 
     # 视图过滤器 - 快速筛选
     view_filters:
-      - label: "核心概念"
+      - label: "理论与分类"
         field: topic
-        pattern: '核心概念'
-      - label: "临床诊断"
+        pattern: '理论与分类'
+      - label: "诊断与临床"
         field: topic
-        pattern: '临床诊断'
+        pattern: '诊断与临床'
       - label: "系统运作"
         field: topic
         pattern: '系统运作'
-      - label: "心理健康"
+      - label: "角色与身份"
         field: topic
-        pattern: '心理健康'
+        pattern: '角色与身份'
+      - label: "文化与表现"
+        field: topic
+        pattern: '文化与表现'
+      - label: "创伤与疗愈"
+        field: topic
+        pattern: '创伤与疗愈'
       - label: "实践指南"
         field: topic
         pattern: '实践指南'
-      - label: "角色身份"
-        field: topic
-        pattern: '角色身份'
-      - label: "理论分类"
-        field: topic
-        pattern: '理论分类'
-      - label: "文化表现"
-        field: topic
-        pattern: '文化表现'
       - label: "最近更新"
         field: updated
         pattern: ''
