@@ -54,16 +54,20 @@ fix_markdown_file("file.md")
 
 ## 使用新的统一接口
 
-### 处理单个文件
+### 命令行使用（推荐）
 
 ```bash
-python -m tools.processors.markdown path/to/file.md
-```
+# 处理单个文件
+python tools/fix_markdown.py docs/entries/Tulpa.md
 
-### 处理整个目录
+# 处理整个目录
+python tools/fix_markdown.py docs/entries/
 
-```bash
-python -m tools.processors.markdown docs/entries/
+# 预览模式（不实际修改）
+python tools/fix_markdown.py docs/entries/ --dry-run
+
+# 详细输出
+python tools/fix_markdown.py docs/entries/ --verbose
 ```
 
 ### 在代码中使用
