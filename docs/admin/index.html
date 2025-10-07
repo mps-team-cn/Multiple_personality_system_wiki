@@ -5,12 +5,13 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Plurality Wiki — Admin</title>
-    <!-- Decap CMS 单文件应用 -->
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-    <!-- 可选：中文 UI（如果你用 Static CMS，脚本换成 static-cms 的） -->
+    <title>Plurality Wiki — 内容管理</title>
   </head>
   <body>
-    <!-- Decap CMS 会自动加载同目录下的 config.yaml -->
+    <!-- Decap CMS 挂载点 -->
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script>
+      CMS.init()
+    </script>
   </body>
 </html>
