@@ -278,7 +278,7 @@ def check_file(md_path: Path, repo_root: Path) -> List[Tuple[int, str, str]]:
     return violations
 
 
-def find_md_files(root: Path, exclude_dirs: Set[str] = None) -> List[Path]:
+def find_md_files(root: Path, exclude_dirs: Set[str] = None, exclude_files: Set[str] = None) -> List[Path]:
     """查找所有 Markdown 文件"""
     if exclude_dirs is None:
         exclude_dirs = {
@@ -290,11 +290,39 @@ def find_md_files(root: Path, exclude_dirs: Set[str] = None) -> List[Path]:
             "tools/pdf_export/vendor",
         }
 
+    if exclude_files is None:
+        exclude_files = {
+            # 文档示例和说明文件（包含示例链接）
+            "docs/contributing/技术约定.md",
+            "docs/contributing/编写规范.md",
+            "docs/contributing/PR流程.md",
+            "docs/TEMPLATE_ENTRY.md",
+            # 迁移和计划文档
+            "tools/pdf_export/MIGRATION_NOTES.md",
+            "tools/REFACTORING_PLAN.md",
+            # 开发文档
+            "docs/dev/INDEX_GUIDE.md",
+            "docs/dev/FRONTEND_ARCHITECTURE.md",
+            # 其他可能包含示例的文档
+            "docs/changelog.md",
+            "docs/pdf_export/README_pdf_output.md",
+        }
+
     md_files = []
     for md in root.rglob("*.md"):
         # 检查是否在排除目录中
         if any(excluded in md.parts for excluded in exclude_dirs):
             continue
+
+        # 检查是否在排除文件列表中
+        try:
+            rel_path = md.relative_to(root)
+            rel_path_str = str(rel_path).replace("\\", "/")
+            if rel_path_str in exclude_files:
+                continue
+        except ValueError:
+            pass
+
         md_files.append(md)
 
     return sorted(md_files)
