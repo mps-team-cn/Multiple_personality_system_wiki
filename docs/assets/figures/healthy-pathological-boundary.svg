@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" role="img" aria-labelledby="boundary-title boundary-desc">
+  <title id="boundary-title">健康与病理性多意识体的界限</title>
+  <desc id="boundary-desc">展示健康多意识体（Tulpa）与病理性多意识体（DID/OSDD）之间的界限关系</desc>
+
+  <defs>
+    <!-- 渐变定义 -->
+    <linearGradient id="healthyGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#4CAF50;stop-opacity:0.6" />
+    </linearGradient>
+
+    <linearGradient id="pathologicalGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F44336;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#F44336;stop-opacity:0.2" />
+    </linearGradient>
+
+    <!-- 箭头标记 -->
+    <marker id="arrowLeft" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="10,5 0,0 0,10" fill="#666" />
+    </marker>
+
+    <marker id="arrowRight" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0,5 10,0 10,10" fill="#666" />
+    </marker>
+  </defs>
+
+  <!-- 背景区域 -->
+  <!-- 健康区域 -->
+  <rect x="50" y="60" width="300" height="80" rx="10" fill="url(#healthyGradient)" stroke="#4CAF50" stroke-width="2" opacity="0.3"/>
+
+  <!-- 病理区域 -->
+  <rect x="450" y="60" width="300" height="80" rx="10" fill="url(#pathologicalGradient)" stroke="#F44336" stroke-width="2" opacity="0.3"/>
+
+  <!-- 中央分界线 -->
+  <line x1="400" y1="40" x2="400" y2="160" stroke="#666" stroke-width="3" stroke-dasharray="8,4"/>
+
+  <!-- 分界标签背景 -->
+  <rect x="360" y="85" width="80" height="30" rx="15" fill="#FFF" stroke="#666" stroke-width="2"/>
+
+  <!-- 分界标签文字 -->
+  <text x="400" y="105" font-family="Noto Sans SC, sans-serif" font-size="16" font-weight="bold" fill="#666" text-anchor="middle">界限</text>
+
+  <!-- 左侧：健康多意识体 -->
+  <text x="200" y="90" font-family="Noto Sans SC, sans-serif" font-size="20" font-weight="bold" fill="#2E7D32" text-anchor="middle">健康多意识体</text>
+  <text x="200" y="115" font-family="Arial, sans-serif" font-size="18" fill="#4CAF50" text-anchor="middle">(Tulpa)</text>
+
+  <!-- 右侧：病理性多意识体 -->
+  <text x="600" y="90" font-family="Noto Sans SC, sans-serif" font-size="20" font-weight="bold" fill="#C62828" text-anchor="middle">病理性多意识体</text>
+  <text x="600" y="115" font-family="Arial, sans-serif" font-size="18" fill="#F44336" text-anchor="middle">(DID/OSDD)</text>
+
+  <!-- 双向箭头 -->
+  <line x1="80" y1="100" x2="340" y2="100" stroke="#666" stroke-width="2" marker-start="url(#arrowLeft)"/>
+  <line x1="460" y1="100" x2="720" y2="100" stroke="#666" stroke-width="2" marker-end="url(#arrowRight)"/>
+
+  <!-- 底部特征说明 -->
+  <g id="features">
+    <!-- 左侧特征 -->
+    <text x="200" y="170" font-family="Noto Sans SC, sans-serif" font-size="12" fill="#555" text-anchor="middle">主动创造 · 记忆连贯 · 可控</text>
+
+    <!-- 右侧特征 -->
+    <text x="600" y="170" font-family="Noto Sans SC, sans-serif" font-size="12" fill="#555" text-anchor="middle">创伤导致 · 失忆 · 不可控</text>
+  </g>
+
+  <!-- 顶部标题 -->
+  <text x="400" y="30" font-family="Noto Sans SC, sans-serif" font-size="14" fill="#888" text-anchor="middle">解离程度谱系</text>
+</svg>
