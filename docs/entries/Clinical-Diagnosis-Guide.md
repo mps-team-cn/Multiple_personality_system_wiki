@@ -35,7 +35,7 @@ updated: 2025-10-06
 ### 相关概念
 
 - [转换障碍（Conversion Disorder / FND）](Conversion-Disorder-FND.md)：功能性神经症状障碍，DSM-5-TR 归类为躯体症状障碍 / ICD-11 (6B60) 归类为解离性神经症状障碍。
-- [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)：达到临床意义、影响功能的解离现象。
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)：达到临床意义、影响功能的解离现象，包含完整的诊断分类体系。
 
 ## 创伤相关障碍
 

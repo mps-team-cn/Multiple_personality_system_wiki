@@ -55,7 +55,7 @@ updated: 2025-10-03
 - [《西比尔》（Sybil, 1976）与多重人格文化原型](Sybil-1976-Cultural-Prototype.md)
 - [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](Dostoevsky-The-Double-Self-Division.md)
 - [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](Kafka-Metamorphosis-Identity-Dissolution.md)
-- [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
 - [主体（Main）](Main.md)
 
 ## 参考资料

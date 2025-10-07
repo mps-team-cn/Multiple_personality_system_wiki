@@ -41,7 +41,7 @@ updated: 2025-10-03
 - [重构（Reconstruction）](Reconstruction.md)
 - [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)
 - [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)
-- [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
 - [非我感（Depersonalization）](Depersonalization.md)
 - [应激反应（Stress Response）](Stress-Response.md)
 

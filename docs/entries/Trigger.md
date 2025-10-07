@@ -104,7 +104,7 @@ updated: 2025-10-03
 - [非我感（Depersonalization）](Depersonalization.md)
 - [创伤（Trauma）](Trauma.md)
 - [去现实化（Derealization）](Derealization.md)
-- [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
 
 ## 参考与延伸阅读
 

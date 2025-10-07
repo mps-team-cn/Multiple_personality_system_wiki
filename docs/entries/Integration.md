@@ -53,7 +53,7 @@ Integration，融合，最终融合（Final Fusion）
 - [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)
 - [非我感（Depersonalization）](Depersonalization.md)
 - [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)
-- [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
 
 ## 参考资料
 

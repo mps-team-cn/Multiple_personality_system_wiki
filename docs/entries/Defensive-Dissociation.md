@@ -51,7 +51,7 @@ synonyms:
 
 ## 相关条目
 
-- [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
 - [心理防御机制（Defense Mechanisms）](Defense-Mechanisms.md)
 - [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)
 - [碎片（Fragment）](Fragment.md)

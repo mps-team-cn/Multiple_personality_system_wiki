@@ -63,7 +63,7 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
 - [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)
 - [融合（Fusion）](Fusion.md)
 - [醉酒解离（Alcohol-Induced Dissociation）](Alcohol-Induced-Dissociation.md)

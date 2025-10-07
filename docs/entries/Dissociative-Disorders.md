@@ -259,7 +259,6 @@ updated: 2025-10-07
 
 - [解离（Dissociation）](Dissociation.md)
 - [结构性解离理论（Structural Dissociation Theory）](Structural-Dissociation-Theory.md)
-- [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)
 - [功能性解离（Functional Dissociation）](Functional-Dissociation.md)
 - [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)
 - [部分解离性身份障碍（PDID）](Partial-Dissociative-Identity-Disorder-PDID.md)

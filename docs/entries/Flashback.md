@@ -140,7 +140,7 @@ updated: 2025-10-03
 - [解离性遗忘（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)
 - [创伤（Trauma）](Trauma.md)
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md)
-- [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
 - [定向障碍（Disorientation）](Disorientation.md)
 
 ## 参考与延伸阅读

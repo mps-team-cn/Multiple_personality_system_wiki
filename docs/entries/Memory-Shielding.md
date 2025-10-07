@@ -44,7 +44,7 @@ Memory Shielding、Amnesiacflux、屏蔽记忆
 - [碎片（Fragment）](Fragment.md)
 - [融合（Fusion）](Fusion.md)
 - [独立性（Independence）](Independence.md)
-- [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
 - [人格职能（System Roles）](System-Roles.md)
 
 ## 参考与延伸阅读

@@ -130,7 +130,7 @@ synonyms:
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
 - [谵妄（Delirium）](Delirium.md)
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md)
-- [病理性解离（Pathological Dissociation）](Pathological-Dissociation.md)
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
 
 ## 参考与延伸阅读
 
