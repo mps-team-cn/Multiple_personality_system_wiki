@@ -1,11 +1,16 @@
-# 本地测试配置
+# 本地测试配置 - 使用 Git Gateway
 # 使用方法：
 # 1. 将此文件重命名为 config.yml（备份原文件）
-# 2. 启动本地服务器：python -m http.server 8000 --directory docs
-# 3. 访问：http://localhost:8000/admin/
+# 2. 启动本地服务器：npx netlify-cms-proxy-server
+# 3. 另开终端：python -m http.server 8000 --directory docs
+# 4. 访问：http://localhost:8000/admin/
 
 backend:
-  name: test-repo
+  name: git-gateway
+  branch: main
+
+# 本地开发代理
+local_backend: true
 
 # 中文本地化
 locale: zh_Hans
