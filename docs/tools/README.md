@@ -27,7 +27,7 @@
 | 脚本/模块 | 功能摘要 | 常用用法 |
 | --- | --- | --- |
 | `tools/fix_md.py` | 批量修复 Markdown 常见 Lint 问题，涵盖行尾空格、标题前后空行、围栏语言补全、强调标记留白等 | `python tools/fix_md.py` 或 `python tools/fix_md.py --dry-run` |
-| `tools/fix_list_bold_colon.py` | 修复列表项中的粗体冒号格式问题，确保 Material for MkDocs 正确渲染（`-**text**:` → `- **text** :`） | `python tools/fix_list_bold_colon.py` 或 `python tools/fix_list_bold_colon.py --dry-run` |
+| `tools/fix_list_bold_colon.py` | 修复列表项中的粗体冒号格式问题，确保 Material for MkDocs 正确渲染（`- **text** :` → `- **text** :`） | `python tools/fix_list_bold_colon.py` 或 `python tools/fix_list_bold_colon.py --dry-run` |
 | `tools/check_links.py` | 扫描 Markdown 文档中疑似内部链接写法，禁止 `./`、`../` 等相对路径 | `python tools/check_links.py --root .`，必要时配合 `--whitelist` |
 | `tools/docs_preview.py` | 本地预览辅助：默认启动 `python -m http.server`，可选 `--docsify` 启用 docsify-cli | `python tools/docs_preview.py --port 4173`（启用 docsify 时追加 `--docsify`） |
 | `tools/gen_changelog_by_tags.py` | 按 Git 标签时间顺序生成 `changelog.md` 并按提交类型分组 | `python tools/gen_changelog_by_tags.py --output changelog.md`，可加 `--latest-only`/`--latest-to-head` |
@@ -261,13 +261,17 @@ python tools/fix_list_bold_colon.py
 **修复示例:**
 
 ```markdown
+
 # 修复前（渲染异常）
+
 - **Framework preset** : `None`
 - **Build command** : `bash build.sh`
 
 # 修复后（正确渲染）
+
 - **Framework preset** : `None`
 - **Build command** : `bash build.sh`
+
 ```
 
 **功能特性:**

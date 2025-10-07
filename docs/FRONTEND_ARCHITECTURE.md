@@ -14,7 +14,7 @@
 
 提供前端各模块共用的工具函数，包括：
 
--**路径处理**(`PluralityUtils.path`)
+- **路径处理** (`PluralityUtils.path`)
 
   - `ensureTrailingSlash(path)` - 确保路径以斜杠结尾
   - `normalizePath(raw)` - 规范化路径，移除 `./` 和 `..` 片段
@@ -22,30 +22,30 @@
   - `toRoutePath(filePath)` - 将文件路径转换为路由路径
   - `routeToRepoPath(routePath)` - 将路由路径转换为仓库路径
 
--**日期时间**(`PluralityUtils.datetime`)
+- **日期时间** (`PluralityUtils.datetime`)
 
   - `formatDate(isoString, format)` - 格式化 ISO 日期字符串
 
--**HTML 处理**(`PluralityUtils.html`)
+- **HTML 处理** (`PluralityUtils.html`)
 
   - `escape(value)` - HTML 转义
   - `extractHeadings(html)` - 从 HTML 中提取标题
 
--**文本处理**(`PluralityUtils.text`)
+- **文本处理** (`PluralityUtils.text`)
 
   - `normalize(text)` - 规范化文本，移除多余空白
   - `fallbackTitle(path)` - 从路径提取回退标题
 
--**数据获取**(`PluralityUtils.fetch`)
+- **数据获取** (`PluralityUtils.fetch`)
 
   - `createCachedFetcher(url)` - 创建带缓存的数据获取函数
   - `loadMarkdown(path)` - 加载 Markdown 文件
 
--**链接判断**(`PluralityUtils.link`)
+- **链接判断** (`PluralityUtils.link`)
 
   - `shouldHandleInternally(href)` - 判断是否应该内部处理链接
 
--**设备检测**(`PluralityUtils.device`)
+- **设备检测** (`PluralityUtils.device`)
 
   - `isMobile()` - 检测是否为移动端布局
 
@@ -53,48 +53,48 @@
 
 负责处理 Docsify 的路由规范化和链接拦截：
 
--**PluralityRouter.init(config)**- 初始化路由管理器
--**PluralityRouter.setupHashCanonicalizer()**- 设置 hash 规范化处理
--**PluralityRouter.setupLinkInterceptor()**- 设置链接拦截处理
--**PluralityRouter.getAliasConfig()**- 获取别名配置
+- **PluralityRouter.init(config)** - 初始化路由管理器
+- **PluralityRouter.setupHashCanonicalizer()** - 设置 hash 规范化处理
+- **PluralityRouter.setupLinkInterceptor()** - 设置链接拦截处理
+- **PluralityRouter.getAliasConfig()** - 获取别名配置
 
 ### 3. plugin-manager.js - 插件管理器
 
 统一管理 Docsify 插件的注册和生命周期：
 
--**PluralityPluginManager.register(plugin, priority)**- 注册插件（支持优先级）
--**PluralityPluginManager.apply()**- 应用所有插件到 Docsify
--**PluralityPluginManager.createLastUpdatedPlugin(options)**- 创建最后更新时间插件
--**PluralityPluginManager.createThemeToggler(options)**- 创建暗黑模式切换器
--**PluralityPluginManager.createSidebarManager()**- 创建侧边栏管理器
+- **PluralityPluginManager.register(plugin, priority)** - 注册插件（支持优先级）
+- **PluralityPluginManager.apply()** - 应用所有插件到 Docsify
+- **PluralityPluginManager.createLastUpdatedPlugin(options)** - 创建最后更新时间插件
+- **PluralityPluginManager.createThemeToggler(options)** - 创建暗黑模式切换器
+- **PluralityPluginManager.createSidebarManager()** - 创建侧边栏管理器
 
 ### 4. config.js - Docsify 配置模块
 
 集中管理 Docsify 的所有配置选项：
 
--**PluralityConfig.createConfig(options)**- 创建 Docsify 配置
--**PluralityConfig.apply(config)**- 应用配置到 Docsify
+- **PluralityConfig.createConfig(options)** - 创建 Docsify 配置
+- **PluralityConfig.apply(config)** - 应用配置到 Docsify
 
 ### 5. init.js - 应用初始化模块
 
 整合所有核心模块，提供统一的初始化接口：
 
--**PluralityApp.init(options)**- 初始化应用
--**PluralityApp.registerCorePlugins()**- 注册核心插件
--**PluralityApp.getThemeToggler()**- 获取主题切换器
--**PluralityApp.getSidebarManager()**- 获取侧边栏管理器
+- **PluralityApp.init(options)** - 初始化应用
+- **PluralityApp.registerCorePlugins()** - 注册核心插件
+- **PluralityApp.getThemeToggler()** - 获取主题切换器
+- **PluralityApp.getSidebarManager()** - 获取侧边栏管理器
 
 ## 功能插件
 
 位于 `assets/` 目录的独立功能插件：
 
--**title-search.js**- 标题搜索功能
--**title-suffix.js**- 页面标题后缀控制
--**typography.js**- 中英混排排版优化
--**table-responsive.js**- 表格响应式卡片化
--**frontmatter-strip.js**- Frontmatter 移除
--**recent-home.js**- 首页最近更新模块
--**recent-page.js**- 最近更新页面自动生成
+- **title-search.js** - 标题搜索功能
+- **title-suffix.js** - 页面标题后缀控制
+- **typography.js** - 中英混排排版优化
+- **table-responsive.js** - 表格响应式卡片化
+- **frontmatter-strip.js** - Frontmatter 移除
+- **recent-home.js** - 首页最近更新模块
+- **recent-page.js** - 最近更新页面自动生成
 
 ## 使用方式
 
@@ -240,39 +240,39 @@ PluralityApp.init({
 
 ### 从旧版本迁移
 
-1.**备份原文件**
+1. **备份原文件**
 
    ```bash
    cp index.html index.html.old
    ```
 
-2.**替换 index.html**
+2. **替换 index.html**
 
    - 使用新的模块化版本
 
-3.**测试功能**
+3. **测试功能**
 
    - 启动本地服务器
    - 验证所有功能正常
 
-4.**逐步优化现有插件**
+4. **逐步优化现有插件**
 
    - 使用 `PluralityUtils` 替换重复代码
    - 通过 `PluralityPluginManager` 统一注册
 
 ## 注意事项
 
-1.**加载顺序**
+1. **加载顺序**
 
    - 核心模块必须在功能插件之前加载
    - `init.js` 必须最后加载
 
-2.**全局对象**
+2. **全局对象**
 
    - 所有核心模块导出到全局命名空间
    - 避免与其他库冲突
 
-3.**向后兼容**
+3. **向后兼容**
 
    - 现有插件无需立即修改
    - 可渐进式采用新工具函数

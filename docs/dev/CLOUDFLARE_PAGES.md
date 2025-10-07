@@ -36,7 +36,7 @@ PYTHON_VERSION=3.11
 
 #### 构建超时
 
-- 推荐设置为 **15 分钟**(如果构建较慢)
+- 推荐设置为 **15 分钟** (如果构建较慢)
 
 #### 部署分支
 
@@ -83,15 +83,15 @@ mkdocs build --strict
 
 ### Q: 构建失败,提示缺少依赖
 
-**A**: 检查 `requirements-mkdocs.txt` 是否包含所有必要的包。
+**A** : 检查 `requirements-mkdocs.txt` 是否包含所有必要的包。
 
 ### Q: 构建成功但页面显示不正常
 
-**A**: 检查 `mkdocs.yml` 中的 `site_url` 是否正确配置。
+**A** : 检查 `mkdocs.yml` 中的 `site_url` 是否正确配置。
 
 ### Q: 如何查看构建日志?
 
-**A**: 在 Cloudflare Pages 项目中，进入 **Deployments**，点击具体的部署查看详细日志。
+**A** : 在 Cloudflare Pages 项目中，进入 **Deployments** ，点击具体的部署查看详细日志。
 
 ## 迁移注意事项
 

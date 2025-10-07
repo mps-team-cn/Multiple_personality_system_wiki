@@ -13,14 +13,14 @@
 
 ---
 
-📖 **提示**：如果你是普通读者，请访问在线版本 [plurality-wiki.pages.dev](https://plurality-wiki.pages.dev/)；本文档主要面向开发者与贡献者。
+📖 **提示** ：如果你是普通读者，请访问在线版本 [plurality-wiki.pages.dev](https://plurality-wiki.pages.dev/)；本文档主要面向开发者与贡献者。
 
 ---
 
 ## ✨ 项目目标
 
 - 汇聚与整理多重意识体（Plurality）与相关心理健康主题的高质量中文资料；
-- 采用一致的**条目规范**与**贡献流程**，确保可维护、可引用、可扩展；
+- 采用一致的 **条目规范** 与 **贡献流程** ，确保可维护、可引用、可扩展；
 - 面向大众读者与专业人士，兼顾可读性与严谨性（参考 E-E-A-T 原则）。
 
 ---
@@ -142,7 +142,7 @@ plurality_wiki/
 根目录下的 `tools/` 目录集中存放了协助批量处理、检查与发布的脚本，可与 CI 流程搭配使用。更完整的说明与后续更新请参见 [`docs/tools/README.md`](docs/tools/README.md)。
 
 - `python tools/gen-validation-report.py`：读取《CONTRIBUTING.md》与《docs/TEMPLATE_ENTRY.md》，生成 `docs/VALIDATION_REPORT.md` 校对报告。
-- ~~`python tools/generate_tags_index.py`~~：**[已废弃]** MkDocs Material 的 tags 插件自动生成标签索引。
+- ~~`python tools/generate_tags_index.py`~~： **[已废弃]** MkDocs Material 的 tags 插件自动生成标签索引。
 - `python tools/check_links.py --root .`：校验所有 Markdown 文件的内部链接是否遵循 `entries/*.md` 绝对路径写法，并提示潜在断链。
 
 ---
@@ -192,13 +192,13 @@ npm i -g docsify-cli
 docsify serve .
 ```
 
-**注意**：推荐使用 MkDocs Material 版本，Docsify 版本仅作备份保留。
+**注意** ：推荐使用 MkDocs Material 版本，Docsify 版本仅作备份保留。
 
 ---
 
 ## 🧭 贡献（Contribution）
 
-欢迎参与完善！首次贡献请阅读 **[CONTRIBUTING.md](./CONTRIBUTING.md)**，并参考下列关键文档：
+欢迎参与完善！首次贡献请阅读 **[CONTRIBUTING.md](./CONTRIBUTING.md)** ，并参考下列关键文档：
 
 - [GitHub 提交流程指南](docs/GITHUB_WORKFLOW.md)
 - [词条模板](docs/TEMPLATE_ENTRY.md)
@@ -208,10 +208,10 @@ docsify serve .
 
 1. Fork & 新建分支；
 2. 按规范撰写/修改词条到 `docs/entries/` 目录；
-3. **同步更新索引**：
+3. **同步更新索引** ：
    - 标签索引由 MkDocs 自动生成，无需手动运行脚本
    - 更新 `docs/index.md` 导航（如需要）
-4. **本地验证**：
+4. **本地验证** ：
    - 执行 `python tools/fix_md.py` 自动修复格式
    - 执行 `markdownlint "docs/**/*.md"` 检查
    - 运行 `mkdocs serve` 本地预览
@@ -223,7 +223,7 @@ docsify serve .
 
 本项目使用 **Cloudflare Pages** 进行部署，详细配置请查看 [CLOUDFLARE_PAGES.md](docs/dev/CLOUDFLARE_PAGES.md)。
 
-**构建配置**：
+**构建配置** ：
 
 ```yaml
 
@@ -234,7 +234,7 @@ Build output directory: site
 Environment variables: PYTHON_VERSION=3.11
 ```
 
-**在线地址**：<https://plurality-wiki.pages.dev/>
+**在线地址** ：<https://plurality-wiki.pages.dev/>
 
 ---
 

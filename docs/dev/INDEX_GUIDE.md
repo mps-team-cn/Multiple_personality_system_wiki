@@ -70,7 +70,7 @@ nav:
 
 ### Material 主题
 
-**mkdocs.yml 配置**：
+**mkdocs.yml 配置** ：
 
 ```yaml
 nav:
@@ -79,7 +79,7 @@ nav:
 
 ```
 
-**包含的 Material 专用语法**：
+**包含的 Material 专用语法** ：
 
 - `:material-*:` 图标
 - `<div class="grid cards">` 卡片网格
@@ -88,7 +88,7 @@ nav:
 
 ### ReadTheDocs / MkDocs 默认 / 其他主题
 
-**mkdocs.yml.readthedocs 配置**：
+**mkdocs.yml.readthedocs 配置** ：
 
 ```yaml
 nav:
@@ -97,7 +97,7 @@ nav:
 
 ```
 
-**使用纯 Markdown 语法**：
+**使用纯 Markdown 语法** ：
 
 - 普通列表
 - 基础引用块 `>`
@@ -125,14 +125,14 @@ nav:
     卡片内容...
 ```
 
-**优点**：
+**优点** ：
 
 - ✅ 视觉效果现代化
 - ✅ 卡片式布局
 - ✅ Material 图标
 - ✅ 响应式设计
 
-**缺点**：
+**缺点** ：
 
 - ❌ 只在 Material 主题下正确显示
 - ❌ 其他主题会显示原始 HTML
@@ -164,13 +164,13 @@ nav:
 本Wiki内容涉及...
 ```
 
-**优点**：
+**优点** ：
 
 - ✅ 适用所有 MkDocs 主题
 - ✅ 纯 Markdown，兼容性好
 - ✅ 降级优雅
 
-**缺点**：
+**缺点** ：
 
 - ❌ 视觉效果较简单
 - ❌ 无卡片和图标
@@ -245,13 +245,13 @@ rm docs/README.md
 
 ### README.md 的处理
 
-1.**根目录的 README.md**
+1. **根目录的 README.md**
 
    - 用于 GitHub 项目说明
    - 不会被 MkDocs 处理
    - ✅ 保留
 
-2.**docs/README.md**
+2. **docs/README.md**
 
    - 与 index.md 冲突
    - MkDocs 会自动排除
@@ -306,4 +306,4 @@ mkdocs serve
 
 ---
 
-**最后更新**: 2025-10-05
+**最后更新** : 2025-10-05

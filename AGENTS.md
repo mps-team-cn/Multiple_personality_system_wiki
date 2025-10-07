@@ -14,19 +14,19 @@
 
 ### 1.2 文件与目录规范
 
-**重要**：本项目已从 Docsify 迁移至 MkDocs Material，请遵循以下新的目录结构：
+**重要** ：本项目已从 Docsify 迁移至 MkDocs Material，请遵循以下新的目录结构：
 
-- **词条**：
+- **词条** ：
   - 主要存放位置：`docs/entries/` 目录（MkDocs 构建源）
   - 备份位置：`entries/` 根目录（保留同步，便于工具兼容）
   - 不得新建二级子目录，分类信息统一通过 Frontmatter `tags` 字段声明
-- **词条 Frontmatter**：每篇词条必须在文件开头声明 `---` 包裹的 YAML，至少包含 `title` / `tags` / `updated` 三个字段。
+- **词条 Frontmatter** ：每篇词条必须在文件开头声明 `---` 包裹的 YAML，至少包含 `title` / `tags` / `updated` 三个字段。
 - 词条加粗 : 必须满足` **加粗内容** `既加粗内容前后都需要加空格，以便于MKDoc识别。
-- **文档**：
+- **文档** ：
   - MkDocs 文档：统一放在 `docs/` 目录（包括 `index.md`、`README.md`、`CONTRIBUTING.md`、`Glossary.md` 等）
   - 开发者文档：`docs/ADMIN_GUIDE.md`、`docs/GITHUB_WORKFLOW.md`、`docs/TEMPLATE_ENTRY.md` 等
-- **脚本与工具**：所有脚本或自动化工具，统一放在 `tools/` 子目录。
-- **工具文档**：脚本更新或维护后，必须同步更新 `docs/tools/README.md`，保证工具与说明一致。
+- **脚本与工具** ：所有脚本或自动化工具，统一放在 `tools/` 子目录。
+- **工具文档** ：脚本更新或维护后，必须同步更新 `docs/tools/README.md`，保证工具与说明一致。
 
 ### 1.3 索引与链接规范
 
@@ -35,7 +35,7 @@
   - `docs/Glossary.md` → 术语表（如适用）
   - `docs/ssets/last-updated.json` → 词条最后更新时间（运行 `node scripts/gen-last-updated.mjs` 生成）
 - 条目内链接规范：
-  - **MkDocs 内部链接**：使用相对路径 `entries/Admin.md` 或 `../entries/Admin.md`
+  - **MkDocs 内部链接** ：使用相对路径 `entries/Admin.md` 或 `../entries/Admin.md`
   - MkDocs 会自动处理 `.md` 扩展名转换为 HTML
   - 禁止使用模糊链接或锚点不明确的链接
 
@@ -43,22 +43,22 @@
 
 ## 2. 站点配置与前端规则
 
-**当前框架**：MkDocs Material
+**当前框架** ：MkDocs Material
 
-- **配置文件**：
+- **配置文件** ：
   - `mkdocs.yml` - 主配置文件（站点元信息、主题、插件、导航结构）
   - `requirements-mkdocs.txt` - Python 依赖清单
   - `.cfpages-build.sh` - Cloudflare Pages 构建脚本
-- **静态资源**：
+- **静态资源** ：
   - 主目录：`docs/assets/`（CSS、JS、图片、JSON 数据等）
   - 自定义样式：`docs/assets/extra.css`
   - 自定义脚本：`docs/assets/extra.js`
-  - **资源子目录**：
+  - **资源子目录** ：
     - `docs/assets/figures/` - 图表、流程图、示意图、SVG 等
     - `docs/assets/images/` - 一般图片（封面、截图等）
     - `docs/assets/icons/` - 小图标、装饰性素材
   - 资源引用：使用相对于 `docs/` 的路径（如 `assets/icons/favicon.svg`）
-- **旧版 Docsify**（已弃用，保留备份）：
+- **旧版 Docsify** （已弃用，保留备份）：
   - `index.html`、`_sidebar.md`、`_coverpage.md`、`.nojekyll`
   - 不再主动维护，仅作历史参考
 
@@ -68,32 +68,32 @@
 
 - 所有工具位于 `tools/` 目录，相关文档放置在 `docs/tools/README.md`。
 - **PDF 导出工具** （`tools/pdf_export/`）：
-  - **环境**：Python ≥ 3.10
-  - **规范**：
+  - **环境** ：Python ≥ 3.10
+  - **规范** ：
     - 使用 `pathlib.Path`，禁止字符串拼接路径。
     - 保持函数化/`dataclass`/类型注解。
     - 注意 LaTeX/Markdown 转换的跨平台兼容与转义。
-  - **文档同步**：修改导出逻辑需同步更新 `docs/tools/README.md`。
+  - **文档同步** ：修改导出逻辑需同步更新 `docs/tools/README.md`。
 
 ---
 
 ## 4. 提交与版本管理
 
-- **提交信息前缀（Conventional Commits）**：
+- **提交信息前缀（Conventional Commits）** ：
   - `feat:` 新增条目或功能
   - `fix:` 修复错误或错别字
   - `docs:` 文档说明调整
   - `refactor:` 代码重构或结构调整
   - `chore:` 构建/配置/依赖更新
   - `style:` 空格/缩进/行尾等非语义变更
-- **Pull Request 说明**：必须包含动机、主要变更、潜在风险、相关条目/链接。
-- **忽略文件**：提交前检查 `ignore.md` 维护是否正确。
+- **Pull Request 说明** ：必须包含动机、主要变更、潜在风险、相关条目/链接。
+- **忽略文件** ：提交前检查 `ignore.md` 维护是否正确。
 
 ---
 
 ## 5. 测试与检查
 
-- **MkDocs 本地预览**（推荐）：
+- **MkDocs 本地预览** （推荐）：
 
   ```bash
   # 安装依赖
@@ -105,7 +105,8 @@
   # 访问 [http://127.0.0.1:8000](http://127.0.0.1:8000)
   ```
 
-- **构建测试**：
+- **构建测试** ：
+
   ```bash
   # 构建静态站点
   mkdocs build
@@ -114,7 +115,7 @@
   mkdocs build --strict
   ```
 
-- **Python 语法检查**：
+- **Python 语法检查** ：
 
   ```bash
   python -m compileall tools/pdf_export/export_to_pdf.py
@@ -170,11 +171,10 @@ markdownlint "docs/**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/v
 markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor" --ignore "site"
 ```
 
-
 k### 7.3 规则说明与例外
 
 - 脚本会自动修复：MD012 / MD022 / MD040 / MD009 / MD034 / MD047 / MD028
-- **需人工处理**：
+- **需人工处理** ：
 
   - MD024 重复标题（请调整为唯一标题或降级层级）
   - MD052 参考式链接缺失定义（补 `[n]: [https://...`）](https://...`）)

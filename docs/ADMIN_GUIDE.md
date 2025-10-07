@@ -2,7 +2,7 @@
 
 本指南为 **Plurality Wiki** 维护者与协作者提供基础操作与维护流程。
 目标是确保贡献内容符合规范、CI 通过、结构一致。
-详细写作要求请参阅 **[CONTRIBUTING.md](CONTRIBUTING.md)** 与**[AGENTS.md](dev/AGENTS.md)**。
+详细写作要求请参阅 **[CONTRIBUTING.md](CONTRIBUTING.md)** 与 **[AGENTS.md](dev/AGENTS.md)** 。
 
 ---
 
@@ -45,7 +45,7 @@ git checkout -b feat/new-entry
 
 ## 2️⃣ 提交与命名规范
 
-提交信息遵循 **Conventional Commits**：
+提交信息遵循 **Conventional Commits** ：
 
 ```bash
 git add entries/DID.md
