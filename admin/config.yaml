@@ -1,0 +1,40 @@
+backend:
+  name: github
+  repo: kuliantnt/plurality_wiki         # ← 改成你的仓库
+  branch: main                            # 默认编辑目标分支
+  base_url: https://plurality-wiki.pages.dev    # OAuth 代理地址（下一节会搭）
+  auth_endpoint: /api/auth                 # 代理的认证端点路径
+  # 可选：GraphQL 能减少 API 请求（非必须）
+  use_graphql: true                        # 需 GitHub backend 支持
+
+media_folder: "assets/uploads"             # 文件在仓库的存储位置
+public_folder: "/assets/uploads"           # 网站访问该位置的 URL
+
+# 站点级元信息（显示于 CMS 顶部）
+site_url: "https://your.site.domain"
+logo_url: "/assets/logo.svg"
+locale: "zh_Hans"                          # 界面语言
+
+# 你项目的内容模型（collections）
+collections:
+  - name: "entries"
+    label: "词条（entries）"
+    label_singular: "词条"
+    description: "Plurality Wiki 主体条目"
+    folder: "entries"                      # ← 你的词条目录
+    create: true
+    slug: "{{slug}}"
+    path: "{{slug}}.md"                    # 或者用子目录策略
+    filter:
+      field: "draft"
+      value: false
+    fields:
+      - { label: "标题（中文名）", name: "title", widget: "string" }
+      - { label: "英文名/缩写", name: "en", widget: "string", required: false }
+      - { label: "同义词/别名", name: "synonyms", widget: "list", required: false }
+      - { label: "标签", name: "tags", widget: "list", default: [] }
+      - { label: "更新时间", name: "updated", widget: "datetime", format: "YYYY-MM-DD", default: "" }
+      - { label: "草稿", name: "draft", widget: "boolean", default: false }
+      - { label: "正文", name: "body", widget: "markdown" }
+
+  # 如需按子目录分区（例如 诊断与临床、系统体验与机制），再加多个 collection 或用 nested collections
