@@ -1,23 +1,20 @@
-# 本地测试配置 - 使用 Git Gateway
-# 使用方法：
-# 1. 将此文件重命名为 config.yml（备份原文件）
-# 2. 启动本地服务器：npx netlify-cms-proxy-server
-# 3. 另开终端：python -m http.server 8000 --directory docs
-# 4. 访问：http://localhost:8000/admin/
+# 生产环境配置：使用 GitHub backend
+# 本地测试时可以改为 test-repo
 
 backend:
-  name: git-gateway
+  name: github
+  repo: kuliantnt/plurality_wiki
   branch: main
-
-# 本地开发代理
-local_backend: true
+  base_url: https://plurality-wiki.pages.dev
+  auth_endpoint: /api/auth
 
 # 中文本地化
 locale: zh_Hans
 
 # 站点信息
-site_url: http://localhost:8000
-display_url: http://localhost:8000
+site_url: https://plurality-wiki.pages.dev
+display_url: https://plurality-wiki.pages.dev
+# logo_url: /assets/logo.svg  # 暂时禁用 logo
 
 # 媒体文件配置
 media_folder: "docs/assets/uploads"
@@ -37,15 +34,8 @@ collections:
     create: true
     slug: "{{slug}}"
 
-    # 搜索配置
-    search: true
-    search_fields: ['title', 'tags', 'topic', 'body']
-
     # 排序和显示配置
     sortable_fields: ['title', 'updated', 'topic']
-
-    # 默认排序
-    sort: 'title:asc'
 
     # 视图过滤器 - 快速筛选
     view_filters:
