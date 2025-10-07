@@ -43,6 +43,7 @@
 - [ **解离性身份障碍（DID）** ](entries/DID.md) - 多重人格的临床定义
 - [ **其他特定解离性障碍（OSDD）** ](entries/OSDD.md) - DID 的亚临床形态
 - [ **创伤后应激障碍（PTSD）** ](entries/PTSD.md) - 单次创伤的心理反应
+- [ **功能性神经症状障碍（FND）** ](entries/Conversion-Disorder-FND.md) - 转换症状的正性体征与复健路径
 - [ **复杂性 PTSD（CPTSD）** ](entries/CPTSD.md) - 长期创伤的深远影响
 
 ### :material-account-group: [系统运作与协作](entries/System-Operations.md)

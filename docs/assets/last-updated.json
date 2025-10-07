@@ -1,570 +1,626 @@
 {
-  "entries/Adaptive.md": {
-    "updated": "2025-10-04T17:15:38+08:00",
-    "commit": "f832716fdd16b8be664b7b21ab28d359cd50040e"
-  },
-  "entries/Admin.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Affective-Disorders.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Alcohol-Induced-Dissociation.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Alexithymia.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Alter.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Alterhuman.md": {
-    "updated": "2025-10-04T17:15:38+08:00",
-    "commit": "f832716fdd16b8be664b7b21ab28d359cd50040e"
-  },
-  "entries/Another-Me-DID-Depictions.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Anxiety.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Apparently-Normal-Part-Emotional-Part-Model.md": {
-    "updated": "2025-10-04T17:15:38+08:00",
-    "commit": "f832716fdd16b8be664b7b21ab28d359cd50040e"
-  },
-  "entries/Attachment-Theory.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Attention-Awareness.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Autism-Spectrum-Disorder.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Autopilot.md": {
-    "updated": "2025-10-04T17:15:38+08:00",
-    "commit": "f832716fdd16b8be664b7b21ab28d359cd50040e"
-  },
-  "entries/Back-Being-Back.md": {
-    "updated": "2025-10-04T17:15:38+08:00",
-    "commit": "f832716fdd16b8be664b7b21ab28d359cd50040e"
-  },
-  "entries/Bias.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Bipolar-Disorders.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Blending.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Body-Ownership.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Borderline-Personality-Disorder-BPD.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/CPTSD.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Caregiver.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Co-Consciousness.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Co-Fronting.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Cognitive-Dissonance.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Consciousness-Modification.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Core.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/DID.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Defense-Mechanisms.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Defensive-Dissociation.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Delirium.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Depersonalization-Derealization-Disorder-DPDR.md": {
-    "updated": "2025-10-04T17:15:38+08:00",
-    "commit": "f832716fdd16b8be664b7b21ab28d359cd50040e"
-  },
-  "entries/Depersonalization.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Depressive-Disorders.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Derealization.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Disorientation.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Dissociation.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Dissociative-Amnesia-DA.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Dostoevsky-The-Double-Self-Division.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Emmengard-Classification.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Emotion-Regulation.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Exomemory.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/External-Projection.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Family-Systems-Xianyu.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Fauxmain.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Fight-Club-1999-Identity-Metaphor.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Flashback.md": {
-    "updated": "2025-10-04T17:15:38+08:00",
-    "commit": "f832716fdd16b8be664b7b21ab28d359cd50040e"
-  },
-  "entries/Fragment.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Front-Fronting.md": {
-    "updated": "2025-10-04T17:15:38+08:00",
-    "commit": "f832716fdd16b8be664b7b21ab28d359cd50040e"
-  },
-  "entries/Functional-Dissociation.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Fusion.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Gatekeeper.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Grounding.md": {
-    "updated": "2025-10-04T17:15:38+08:00",
-    "commit": "f832716fdd16b8be664b7b21ab28d359cd50040e"
-  },
-  "entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Head-Pressure.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Headspace-Inner-World.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Highly-Sensitive-Person.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Host.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Humanistic-Psychology.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Hypomania.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Imaginary-Companion.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Independence.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Integration.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Internal-Communication.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Internal-Self-Helper-ISH.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Intrusive-Thoughts.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Iteration.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Kafka-Metamorphosis-Identity-Dissolution.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Learned-Helplessness.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Learning-Conditioning.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Little.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Lovecraft-Tulpa-Motifs.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Madoka-Magica-Kyubey-Otherness.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Main.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Mania.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Meditation.md": {
-    "updated": "2025-10-04T17:15:38+08:00",
-    "commit": "f832716fdd16b8be664b7b21ab28d359cd50040e"
-  },
-  "entries/Memory-Holder.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Memory-Shielding.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Mixed-Systems-Xianyu.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Mood-Disorders.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Motivation-Theories.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Mr-Robot-DID-Narrative.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Narcissistic-Personality-Disorder-NPD.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Neurodiversity.md": {
-    "updated": "2025-10-04T17:15:38+08:00",
-    "commit": "f832716fdd16b8be664b7b21ab28d359cd50040e"
-  },
-  "entries/Nonexistent-You-And-Me-Tulpa-Lilith.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/OCD.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/OSDD.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Original.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/PTSD.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Paranoia-Agent-Collective-Consciousness.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Partial-Dissociative-Identity-Disorder-PDID.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Pathological-Dissociation.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Performer-Executive.md": {
-    "updated": "2025-10-04T16:12:13+08:00",
-    "commit": "37f83b3256f5405be4054d7807068518bb20b961"
-  },
-  "entries/Permissions.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Persecutor.md": {
-    "updated": "2025-10-04T16:12:13+08:00",
-    "commit": "37f83b3256f5405be4054d7807068518bb20b961"
-  },
-  "entries/Persona.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Personality-Structure-Theory.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Plurality-Basics.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Plurality.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Polyfragmented.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Projection-Psychology.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Projection.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Protector.md": {
-    "updated": "2025-10-04T16:12:13+08:00",
-    "commit": "37f83b3256f5405be4054d7807068518bb20b961"
-  },
-  "entries/Psychic-Energy-Attention.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Psychological-Resilience.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Reconstruction.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Regression-In-Psychology.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Schizophrenia-SC.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Self-Concept.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Self-Determination-Theory.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Self-Efficacy.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Sense-Of-Presence.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Sensory-Regulation-Strategies.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Sequestration.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Servitor.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Single-Class-Systems-Xianyu.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Social-Cognitive-Theory.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Somatic-Symptom-Disorder-SSD.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Soul-Linked-Systems-Xianyu.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Soulbond.md": {
-    "updated": "2025-10-04T17:15:38+08:00",
-    "commit": "f832716fdd16b8be664b7b21ab28d359cd50040e"
-  },
-  "entries/Split-2016-DID-Representation.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Spontaneous.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Stress-Response.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Structural-Dissociation-Theory.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Subsystem.md": {
-    "updated": "2025-10-05T16:38:31+08:00",
-    "commit": "1031114e461228fb657bdcffb6982162b449b92e"
-  },
-  "entries/Switch.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Sybil-1976-Cultural-Prototype.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/System-Roles.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/System.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Teen.md": {
-    "updated": "2025-10-04T16:12:13+08:00",
-    "commit": "37f83b3256f5405be4054d7807068518bb20b961"
-  },
-  "entries/Three-Faces-Of-Eve-1957-Dissociation.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Touhou-Tulpa-Fandom.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Transference-Countertransference.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Trauma.md": {
-    "updated": "2025-10-04T17:15:38+08:00",
-    "commit": "f832716fdd16b8be664b7b21ab28d359cd50040e"
-  },
-  "entries/Trigger.md": {
-    "updated": "2025-10-05T13:44:45+08:00",
-    "commit": "9a304774fd3f646884621464afa41c37af41d886"
-  },
-  "entries/Tulpa.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Tulpish.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/United-States-Of-Tara-System-Daily-Life.md": {
-    "updated": "2025-10-05T12:38:10+08:00",
-    "commit": "d26ba910e8115b10f943770c213261f746476aa4"
-  },
-  "entries/Visualization-Imagination.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
-  },
-  "entries/Xianyu-Theory-Niche-Classification.md": {
-    "updated": "2025-10-04T16:44:01+08:00",
-    "commit": "8c2612cf976a0422a431b3d1fb6226acfcabdcba"
+  "docs/entries/Adaptive.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Admin.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Affective-Disorders.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Alcohol-Induced-Dissociation.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Alexithymia.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Alter.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Alterhuman.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Another-Me-DID-Depictions.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Anxiety.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Apparently-Normal-Part-Emotional-Part-Model.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Attachment-Theory.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Attention-Awareness.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Autism-Spectrum-Disorder.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Autopilot.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Back-Being-Back.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Bias.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Bipolar-Disorders.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Blending.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Body-Ownership.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Borderline-Personality-Disorder-BPD.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/CPTSD.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Caregiver.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Clinical-Diagnosis-Guide.md": {
+    "updated": "2025-10-07T11:02:49+08:00",
+    "commit": "daba4d44976befa1da1dc63fc7265e11d931198c"
+  },
+  "docs/entries/Co-Consciousness.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Co-Fronting.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Cognitive-Dissonance.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Consciousness-Modification.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Conversion-Disorder-FND.md": {
+    "updated": "2025-10-07T04:50:21+00:00",
+    "commit": "21c16598cc08a5134c3d755521f9080be9ee9af5"
+  },
+  "docs/entries/Core-Concepts-Guide.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Core.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Cultural-Media-Guide.md": {
+    "updated": "2025-10-07T11:02:49+08:00",
+    "commit": "daba4d44976befa1da1dc63fc7265e11d931198c"
+  },
+  "docs/entries/DID.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Defense-Mechanisms.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Defensive-Dissociation.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Delirium.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Depersonalization-Derealization-Disorder-DPDR.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Depersonalization.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Depressive-Disorders.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Derealization.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Disorientation.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Dissociation.md": {
+    "updated": "2025-10-06T19:01:22+08:00",
+    "commit": "f1e7e1ac839f2c454d059b7499d2b7fd4eaa0bcd"
+  },
+  "docs/entries/Dissociative-Amnesia-DA.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Dostoevsky-The-Double-Self-Division.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Emmengard-Classification.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Emotion-Regulation.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Exomemory.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/External-Projection.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Family-Systems-Xianyu.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Fauxmain.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Fight-Club-1999-Identity-Metaphor.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Flashback.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Fragment.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Front-Fronting.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Functional-Dissociation.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Fusion.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Gatekeeper.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Grounding.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Head-Pressure.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Headspace-Inner-World.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Highly-Sensitive-Person.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Host.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Humanistic-Psychology.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Hypomania.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Imaginary-Companion.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Independence.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Integration.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Internal-Communication.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Internal-Self-Helper-ISH.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Intrusive-Thoughts.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Iteration.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Kafka-Metamorphosis-Identity-Dissolution.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Learned-Helplessness.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Learning-Conditioning.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Little.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Lovecraft-Tulpa-Motifs.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Madoka-Magica-Kyubey-Otherness.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Main.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Mania.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Meditation.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Memory-Holder.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Memory-Shielding.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Mental-Health-Guide.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Mixed-Systems-Xianyu.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Mood-Disorders.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Motivation-Theories.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Mr-Robot-DID-Narrative.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Narcissistic-Personality-Disorder-NPD.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Neurodiversity.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Nonexistent-You-And-Me-Tulpa-Lilith.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/OCD.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/OSDD.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Original.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/PTSD.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Paranoia-Agent-Collective-Consciousness.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Partial-Dissociative-Identity-Disorder-PDID.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Pathological-Dissociation.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Performer-Executive.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Permissions.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Persecutor.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Persona.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Personality-Structure-Theory.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Plurality-Basics.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Plurality.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Polyfragmented.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Practice-Guide.md": {
+    "updated": "2025-10-07T11:02:49+08:00",
+    "commit": "daba4d44976befa1da1dc63fc7265e11d931198c"
+  },
+  "docs/entries/Projection-Psychology.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Projection.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Protector.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Psychic-Energy-Attention.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Psychological-Resilience.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Reconstruction.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Regression-In-Psychology.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Roles-Identity-Guide.md": {
+    "updated": "2025-10-07T11:02:49+08:00",
+    "commit": "daba4d44976befa1da1dc63fc7265e11d931198c"
+  },
+  "docs/entries/Schizophrenia-SC.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Self-Concept.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Self-Determination-Theory.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Self-Efficacy.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Sense-Of-Presence.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Sensory-Regulation-Strategies.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Sequestration.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Servitor.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Single-Class-Systems-Xianyu.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Social-Cognitive-Theory.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Somatic-Symptom-Disorder-SSD.md": {
+    "updated": "2025-10-07T04:50:21+00:00",
+    "commit": "21c16598cc08a5134c3d755521f9080be9ee9af5"
+  },
+  "docs/entries/Soul-Linked-Systems-Xianyu.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Soulbond.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Split-2016-DID-Representation.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Spontaneous.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Stress-Response.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Structural-Dissociation-Theory.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Subsystem.md": {
+    "updated": "2025-10-06T19:01:22+08:00",
+    "commit": "f1e7e1ac839f2c454d059b7499d2b7fd4eaa0bcd"
+  },
+  "docs/entries/Switch.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Sybil-1976-Cultural-Prototype.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/System-Roles.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/System.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Teen.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Theory-Classification-Guide.md": {
+    "updated": "2025-10-07T11:02:49+08:00",
+    "commit": "daba4d44976befa1da1dc63fc7265e11d931198c"
+  },
+  "docs/entries/Three-Faces-Of-Eve-1957-Dissociation.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Three-Phase-Trauma-Treatment.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Touhou-Tulpa-Fandom.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Transference-Countertransference.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Trauma-Healing-Guide.md": {
+    "updated": "2025-10-07T11:02:49+08:00",
+    "commit": "daba4d44976befa1da1dc63fc7265e11d931198c"
+  },
+  "docs/entries/Trauma.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Trigger.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Tulpa-Guide-1.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Tulpa-Guide-2.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Tulpa-Guide-3.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Tulpa-Guide.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Tulpa.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Tulpish.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/United-States-Of-Tara-System-Daily-Life.md": {
+    "updated": "2025-10-06T20:45:04+08:00",
+    "commit": "1c8f7495c52023961544b5e17c554d7a6468cad1"
+  },
+  "docs/entries/Visualization-Imagination.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
+  },
+  "docs/entries/Xianyu-Theory-Niche-Classification.md": {
+    "updated": "2025-10-07T10:16:51+08:00",
+    "commit": "e76573da8114906d0331cdd0c9e14df46a335288"
   }
 }
