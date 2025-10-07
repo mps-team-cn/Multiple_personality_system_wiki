@@ -2,12 +2,40 @@
 
 ## 探索多重意识体的知识、经验与协作
 
-从概念入门到实践工具，我们致力于用中文整理关于多重意识体系统（Plurality）与创伤照护的可靠资料。
-希望这些内容能陪伴你理解自我、照顾伙伴，并与同路人建立连结。
+<div class="home-hero" markdown>
 
-[查看标签索引](tags.md){ .md-button .md-button--primary }
-[贡献指南](contributing/index.md){ .md-button }
-[管理员登录](admin/){ .md-button }
+### :material-star-four-points-circle: 以知识点亮多意识体之路
+
+从概念入门到实践工具，我们致力于用中文整理关于多重意识体系统（Plurality）与创伤照护的可靠资料，陪伴你理解自我、照顾伙伴，并与同路人建立连结。
+
+[开始探索](tags.md){ .md-button .md-button--primary }
+[加入共建](contributing/index.md){ .md-button }
+[:material-shield-account: 管理员入口](admin/){ .md-button .md-button--secondary title="站点维护入口，仅限管理员使用" }
+
+</div>
+
+## 快速导航
+
+### :material-compass: 新手导览
+
+了解多意识体的基础概念、诊断与协作要点。
+
+- [查看学习路径](#learning-path)
+- [核心概念速览](entries/Core-Concepts-Guide.md)
+
+### :material-head-heart: 照护支持
+
+快速找到创伤、自我照护与危机应对资源。
+
+- [前往创伤与疗愈](#trauma-healing)
+- [心理健康导览](entries/Mental-Health-Guide.md)
+
+### :material-account-group: 社区协作
+
+学习系统协作技巧，增强与成员的连结。
+
+- [浏览系统运作](#system-operations)
+- [实践指南入口](entries/Practice-Guide.md)
 
 ---
 
@@ -52,7 +80,7 @@
 - [ **复杂性 PTSD（CPTSD）** ](entries/CPTSD.md) - 长期创伤的深远影响
 - [ **惊恐障碍（Panic Disorder，PD）** ](entries/Panic-Disorder.md) - 处理意外惊恐发作与持续担忧
 
-### :material-account-group: [系统运作与协作](entries/System-Operations.md)
+### :material-account-group: [系统运作与协作](entries/System-Operations.md) {#system-operations}
 
 掌握多意识体系统的日常运作机制
 
@@ -62,7 +90,7 @@
 - [ **内部空间（Inner World）** ](entries/Headspace-Inner-World.md) - 系统的内在世界
 - [ **内部沟通** ](entries/Internal-Communication.md) - 成员间的交流方式
 
-### :material-heart-pulse: [创伤与疗愈](entries/Trauma-Healing-Guide.md)
+### :material-heart-pulse: [创伤与疗愈](entries/Trauma-Healing-Guide.md) {#trauma-healing}
 
 了解创伤机制与循证治疗方法
 
@@ -114,7 +142,7 @@
 
 ---
 
-## 🧭 新手学习路径
+## 🧭 新手学习路径 {#learning-path}
 
 我们为你准备了四条系统化的学习路径，帮助你从不同角度理解和实践多意识体：
 
