@@ -46,6 +46,7 @@ updated: 2025-10-06
 - [躁狂（Mania）](Mania.md)：双相障碍中的高能量、冲动状态。
 - [轻躁狂（Hypomania）](Hypomania.md)：程度较轻的躁狂状态。
 - [焦虑（Anxiety）](Anxiety.md)：过度担忧与紧张的情绪状态。
+- [惊恐障碍（Panic Disorder，PD）](Panic-Disorder.md)：以意外惊恐发作与持续担忧为特征的焦虑障碍。
 - [强迫症（OCD）](OCD.md)：强迫思维与强迫行为的焦虑障碍。
 
 ## 人格障碍

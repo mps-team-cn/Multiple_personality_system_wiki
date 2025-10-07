@@ -92,6 +92,7 @@
 | [ADHD](entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md) | 注意缺陷多动障碍 | 涉及注意调节、执行功能与冲动控制困难的神经发育状况。 |
 | [Alexithymia](entries/Alexithymia.md) | 述情障碍 | 描述难以识别、理解与表达情绪的体验，常与创伤或解离共现。 |
 | [Anxiety](entries/Anxiety.md) | 焦虑 | 持续的担忧、警觉与自主神经反应；超出情境需求时可能发展为焦虑障碍。 |
+| [Panic Disorder，PD](entries/Panic-Disorder.md) | 惊恐障碍 | 以意外惊恐发作与持续担忧、回避为核心的焦虑障碍，需评估共病与安全计划。 |
 | [ASD](entries/Autism-Spectrum-Disorder.md) | 孤独症谱系 | 指神经多样性谱系的统称，常用于共病或支持需求的讨论。 |
 | [Bipolar Disorders](entries/Bipolar-Disorders.md) | 双相障碍 | 以躁狂/轻躁狂与抑郁发作为特征的情感障碍谱系，需要长期情绪稳定策略。 |
 | [Borderline Personality Disorder，BPD](entries/Borderline-Personality-Disorder-BPD.md) | 边缘性人格障碍 | 以情绪调节、人际关系与自我形象不稳定为特征的人格模式。 |
