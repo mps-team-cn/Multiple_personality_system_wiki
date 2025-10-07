@@ -16,29 +16,24 @@
 
 ### 核心处理器模块(重构后)
 
-| 模块 | 功能摘要 | 常用用法 |
-| --- | --- | --- |
-| `tools/fix_markdown.py` | 统一的 Markdown 处理器,整合了 fix_md、fix_bold_format、fix_list_bold_colon 的所有功能,支持 13 条 Markdownlint 规则和 5 条中文排版规则 | `python tools/fix_markdown.py docs/entries/` |
-| `tools/processors/links.py` | 链接检查器,验证内部链接完整性和格式规范 | `python -m tools.processors.links` (开发中) |
-| `tools/processors/tags.py` | 标签处理器,提供智能标签提取、归一化和索引生成 | `python -m tools.processors.tags` (开发中) |
+| 模块                          | 功能摘要                                                                                                     | 常用用法                                         |
+| --------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| `tools/fix_markdown.py`     | 统一的 Markdown 处理器,整合了 fix_md、fix_bold_format、fix_list_bold_colon 的所有功能,支持 13 条 Markdownlint 规则和 5 条中文排版规则 | `python tools/fix_markdown.py docs/entries/` |
+| `tools/processors/links.py` | 链接检查器,验证内部链接完整性和格式规范                                                                                     | `python -m tools.processors.links` (开发中)     |
+| `tools/processors/tags.py`  | 标签处理器,提供智能标签提取、归一化和索引生成                                                                                  | `python -m tools.processors.tags` (开发中)      |
 
 ### 传统脚本(保留兼容)
 
-| 脚本/模块 | 功能摘要 | 常用用法 |
-| --- | --- | --- |
-| `tools/fix_md.py` | **[已废弃]** 已整合到 `tools/fix_markdown.py` | ~~`python tools/fix_md.py`~~ → `python tools/fix_markdown.py` |
-| `tools/fix_bold_format.py` | **[已废弃]** 已整合到 `tools/fix_markdown.py` | ~~`python tools/fix_bold_format.py`~~ → `python tools/fix_markdown.py` |
-| `tools/fix_list_bold_colon.py` | **[已废弃]** 已整合到 `tools/fix_markdown.py` | ~~`python tools/fix_list_bold_colon.py`~~ → `python tools/fix_markdown.py` |
-| `tools/check_links.py` | 扫描 Markdown 文档中疑似内部链接写法，禁止 `./`、`../` 等相对路径 | `python tools/check_links.py --root .`，必要时配合 `--whitelist` |
-| `tools/docs_preview.py` | 本地预览辅助：默认启动 `python -m http.server`，可选 `--docsify` 启用 docsify-cli | `python tools/docs_preview.py --port 4173`（启用 docsify 时追加 `--docsify`） |
-| `tools/gen_changelog_by_tags.py` | 按 Git 标签时间顺序生成 `changelog.md` 并按提交类型分组 | `python tools/gen_changelog_by_tags.py --output changelog.md`，可加 `--latest-only`/`--latest-to-head` |
-| `tools/pdf_export/` | Pandoc 驱动的整站 PDF 导出工具，支持封面、忽略列表、中文字体与带页码的 topic 目录 | `python tools/pdf_export/export_to_pdf.py` 或 `python -m pdf_export` |
-| `tools/gen-validation-report.py` | 校验词条结构并生成 `docs/VALIDATION_REPORT.md` | `python tools/gen-validation-report.py` |
-| `tools/retag_and_related.py` | 批量重建 Frontmatter 标签并生成"相关词条"区块 | `python tools/retag_and_related.py` 或 `python tools/retag_and_related.py --dry-run --limit 5` |
-| `tools/run_local_updates.sh` / `tools/run_local_updates.bat` | 串联常用维护脚本，一键完成日常更新任务（已增强：支持参数跳过、进度显示、错误提示） | `bash tools/run_local_updates.sh` 或 `tools\run_local_updates.bat`（均支持 `--skip-*` 选项和 `--help`） |
-| `tools/build_search_index.py` | **[已废弃]** 解析词条 Frontmatter，同步生成带同义词与拼音归一化的 Docsify 搜索索引 JSON（MkDocs 使用内置搜索插件） | ~~`python tools/build_search_index.py`~~ |
-| `generate_tags_index.py` | **[已废弃]** 扫描 Frontmatter 标签并生成 `tags.md` 索引（MkDocs Material 的 tags 插件会自动处理） | ~~`python tools/generate_tags_index.py`~~ |
-| `scripts/gen-last-updated.mjs` | **[已废弃]** 生成 `last-updated.json` 时间戳索引（MkDocs Material 使用 `git-revision-date-localized` 插件自动从 Git 历史获取时间戳） | ~~`node scripts/gen-last-updated.mjs`~~ |
+| 脚本/模块                                                        | 功能摘要                                                              | 常用用法                                                                                                |
+| ------------------------------------------------------------ | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `tools/check_links.py`                                       | 扫描 Markdown 文档中疑似内部链接写法，禁止 `./`、`../` 等相对路径                       | `python tools/check_links.py --root .`，必要时配合 `--whitelist`                                          |
+| `tools/docs_preview.py`                                      | 本地预览辅助：默认启动 `python -m http.server`，可选 `--docsify` 启用 docsify-cli | `python tools/docs_preview.py --port 4173`（启用 docsify 时追加 `--docsify`）                              |
+| `tools/gen_changelog_by_tags.py`                             | 按 Git 标签时间顺序生成 `changelog.md` 并按提交类型分组                            | `python tools/gen_changelog_by_tags.py --output changelog.md`，可加 `--latest-only`/`--latest-to-head` |
+| `tools/pdf_export/`                                          | Pandoc 驱动的整站 PDF 导出工具，支持封面、忽略列表、中文字体与带页码的 topic 目录                | `python tools/pdf_export/export_to_pdf.py` 或 `python -m pdf_export`                                 |
+| `tools/gen-validation-report.py`                             | 校验词条结构并生成 `docs/VALIDATION_REPORT.md`                             | `python tools/gen-validation-report.py`                                                             |
+| `tools/retag_and_related.py`                                 | 批量重建 Frontmatter 标签并生成"相关词条"区块                                    | `python tools/retag_and_related.py` 或 `python tools/retag_and_related.py --dry-run --limit 5`       |
+| `tools/run_local_updates.sh` / `tools/run_local_updates.bat` | 串联常用维护脚本，一键完成日常更新任务（已增强：支持参数跳过、进度显示、错误提示）                         | `bash tools/run_local_updates.sh` 或 `tools\run_local_updates.bat`（均支持 `--skip-*` 选项和 `--help`）      |
+
 
 如需新增脚本，请保持功能说明与示例用法同步更新本章节，方便贡献者快速定位维护工具。
 
