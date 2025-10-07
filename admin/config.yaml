@@ -1,19 +1,18 @@
 backend:
   name: github
-  repo: kuliantnt/plurality_wiki         # ← 改成你的仓库
-  branch: main                            # 默认编辑目标分支
-  base_url: https://plurality-wiki.pages.dev    # OAuth 代理地址（下一节会搭）
-  auth_endpoint: /api/auth                 # 代理的认证端点路径
-  # 可选：GraphQL 能减少 API 请求（非必须）
-  use_graphql: true                        # 需 GitHub backend 支持
+  repo: kuliantnt/plurality_wiki        # ✅ 仓库正确
+  branch: main                          # ✅ 分支正确（main）
+  base_url: https://plurality-wiki.pages.dev  # ⚠️ 注意：这里必须是部署了 auth.ts 的那个域名
+  auth_endpoint: /api/auth              # ✅ 与 Cloudflare Functions 路由一致
+  use_graphql: true                     # ✅ 可留着（优化请求）
 
-media_folder: "assets/uploads"             # 文件在仓库的存储位置
-public_folder: "/assets/uploads"           # 网站访问该位置的 URL
+media_folder: "docs/assets/uploads"     # ✅ 建议加上 docs/
+public_folder: "/assets/uploads"
 
-# 站点级元信息（显示于 CMS 顶部）
-site_url: "https://your.site.domain"
+site_url: "https://plurality-wiki.pages.dev"  # ✅ 改成你的真实站点
 logo_url: "/assets/logo.svg"
-locale: "zh_Hans"                          # 界面语言
+locale: "zh_Hans"
+
 
 # 你项目的内容模型（collections）
 collections:
@@ -21,10 +20,10 @@ collections:
     label: "词条（entries）"
     label_singular: "词条"
     description: "Plurality Wiki 主体条目"
-    folder: "entries"                      # ← 你的词条目录
+    folder: "docs/entries"                 # ✅ 正确的词条目录路径
     create: true
     slug: "{{slug}}"
-    path: "{{slug}}.md"                    # 或者用子目录策略
+    path: "{{slug}}.md"
     filter:
       field: "draft"
       value: false
