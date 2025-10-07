@@ -18,9 +18,10 @@
 
 ### 文件结构规范
 
-- 词条：`entries/` 根目录，禁止子目录
+- 词条：`docs/entries/` 目录，禁止子目录
 - 工具：`tools/` 目录
 - 文档：`docs/` 目录
+- 贡献指南：`docs/contributing/`（拆分为多个专题文档）
 - 静态资源：`docs/assets/` 目录
   - `docs/assets/figures/` - 图表、流程图、示意图、SVG 等
   - `docs/assets/images/` - 一般图片（封面、截图等）
@@ -129,7 +130,8 @@
 ### 重要文件路径
 
 - `AGENTS.md` - 完整开发规范
-- `CONTRIBUTING.md` - 贡献指南
+- `CONTRIBUTING.md` - 贡献指南简化版（详细版在 `docs/contributing/`）
+- `docs/contributing/` - 贡献指南详细文档目录
 - `docs/TEMPLATE_ENTRY.md` - 词条模板
-- `entries/` - 词条目录
+- `docs/entries/` - 词条目录
 - `tools/` - 工具目录

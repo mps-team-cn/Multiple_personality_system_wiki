@@ -17,13 +17,13 @@
 **重要** ：本项目已从 Docsify 迁移至 MkDocs Material，请遵循以下新的目录结构：
 
 - **词条** ：
-  - 主要存放位置：`docs/entries/` 目录（MkDocs 构建源）
-  - 备份位置：`entries/` 根目录（保留同步，便于工具兼容）
+  - 存放位置：`docs/entries/` 目录（MkDocs 构建源）
   - 不得新建二级子目录，分类信息统一通过 Frontmatter `tags` 字段声明
 - **词条 Frontmatter** ：每篇词条必须在文件开头声明 `---` 包裹的 YAML，至少包含 `title` / `tags` / `updated` 三个字段。
 - 词条加粗 : 必须满足` **加粗内容** `既加粗内容前后都需要加空格，以便于MKDoc识别。
 - **文档** ：
-  - MkDocs 文档：统一放在 `docs/` 目录（包括 `index.md`、`README.md`、`CONTRIBUTING.md`、`Glossary.md` 等）
+  - MkDocs 文档：统一放在 `docs/` 目录（包括 `index.md`、`README.md`、`Glossary.md` 等）
+  - 贡献指南：`docs/contributing/`（拆分为多个专题文档）
   - 开发者文档：`docs/ADMIN_GUIDE.md`、`docs/GITHUB_WORKFLOW.md`、`docs/TEMPLATE_ENTRY.md` 等
 - **脚本与工具** ：所有脚本或自动化工具，统一放在 `tools/` 子目录。
 - **工具文档** ：脚本更新或维护后，必须同步更新 `docs/tools/README.md`，保证工具与说明一致。
@@ -125,7 +125,7 @@
 
 ## 6. 自动化维护规则（代理/脚本必须遵循）
 
-- ✅ 必须遵循《CONTRIBUTING.md》与《docs/TEMPLATE_ENTRY.md》
+- ✅ 必须遵循贡献指南（`docs/contributing/`）与词条模板（`docs/TEMPLATE_ENTRY.md`）
 - ✅ 必须保持小步提交（最小可审查单位）
 - ✅ 词条必须遵守markdownlint规范
 - ✅ 必须在 PR 描述中说明生成/重写内容的方法与来源（正则/脚本名/范围等）
