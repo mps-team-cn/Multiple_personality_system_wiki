@@ -370,14 +370,9 @@ python tools/fix_md.py docs/entries/某词条.md
 python tools/fix_md.py
 ```
 
-### 7.2 时间戳更新
+### 7.2 时间戳自动更新
 
-```bash
-
-# 更新所有词条的时间戳
-
-node scripts/gen-last-updated.mjs
-```
+MkDocs Material 的 `git-revision-date-localized` 插件会自动从 Git 历史获取页面的创建时间和最后更新时间，无需手动维护。
 
 ### 7.3 校验报告
 

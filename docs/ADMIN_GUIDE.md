@@ -133,10 +133,8 @@ pip install -r requirements.txt
 ```bat
 @REM 更新日志
 python tools/gen_changelog_by_tags.py --latest-to-head
-@REM 批量维护词条标签与“相关条目”区块
+@REM 批量维护词条标签与"相关条目"区块
 python tools/retag_and_related.py
-@REM 生成最后更新信息
-node scripts/gen-last-updated.mjs
 @REM 生成 PDF 和目录索引
 python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei"
 @REM 修正 Markdown 格式
