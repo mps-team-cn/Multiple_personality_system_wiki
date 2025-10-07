@@ -9,7 +9,6 @@ cd "${REPO_ROOT}"
 
 # 默认执行全部步骤，可通过参数跳过特定命令。
 SKIP_CHANGELOG=false
-SKIP_RETAG=false
 SKIP_PDF=false
 SKIP_FIX_MD=false
 SKIP_MARKDOWNLINT=false
@@ -18,9 +17,6 @@ while [[ $# -gt 0 ]]; do
   case "$1" in
     --skip-changelog)
       SKIP_CHANGELOG=true
-      ;;
-    --skip-retag)
-      SKIP_RETAG=true
       ;;
     --skip-pdf)
       SKIP_PDF=true
@@ -37,14 +33,12 @@ while [[ $# -gt 0 ]]; do
 
 默认执行以下步骤：
   1. python tools/gen_changelog_by_tags.py --latest-to-head
-  2. python tools/retag_and_related.py
-  3. python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei"
-  4. python tools/fix_md.py
-  5. markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
+  2. python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei"
+  3. python tools/fix_md.py
+  4. markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
 
 可选参数：
   --skip-changelog      跳过变更日志生成
-  --skip-retag          跳过标签与关联词条重建
   --skip-pdf            跳过 PDF 导出
   --skip-fix-md         跳过 Markdown 自动修复
   --skip-markdownlint   跳过 markdownlint 校验
@@ -79,19 +73,14 @@ else
   echo "已跳过：变更日志生成" >&2
 fi
 
-if ! ${SKIP_RETAG}; then
-  run_step "刷新 Frontmatter 标签与相关词条" python tools/retag_and_related.py
-else
-  echo "已跳过：标签与相关词条重建" >&2
-fi
-
 if ! ${SKIP_PDF}; then
   run_step "导出 PDF" python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei"
 else
   echo "已跳过：PDF 导出" >&2
 fi
 
-# 注意: 以下工具已废弃,不再需要手动运行:
+# 注意: 以下工具已废弃 (移至 tools/deprecated/),不再需要手动运行:
+# - retag_and_related.py: 标签由 Frontmatter 直接管理
 # - generate_tags_index.py: MkDocs Material tags 插件自动生成
 # - build_search_index.py: MkDocs Material 内置搜索
 # - gen-last-updated.mjs: MkDocs Material git-revision-date-localized 插件自动获取

@@ -133,8 +133,6 @@ pip install -r requirements.txt
 ```bat
 @REM 更新日志
 python tools/gen_changelog_by_tags.py --latest-to-head
-@REM 批量维护词条标签与"相关条目"区块
-python tools/retag_and_related.py
 @REM 生成 PDF 和目录索引
 python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei"
 @REM 修正 Markdown 格式
@@ -142,6 +140,8 @@ python tools/fix_md.py
 @REM 检查 Markdown 格式
 markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
 ```
+
+> **注意**：MkDocs Material 迁移后，标签索引由 `tags` 插件自动生成，无需手动工具维护。
 
 ✅ 建议在每次合并前执行一次。
 

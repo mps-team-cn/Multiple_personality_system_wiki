@@ -1,5 +1,30 @@
 # 更新日志
 
+## v3.3.0 (2025-10-07)
+
+### 🔧 工具清理
+
+- **清理 Docsify 时代的过时工具**
+  - 移除 `docs_preview.py` → 使用 `mkdocs serve` 替代
+  - 移除 `generate_tags_index.py` → 使用 MkDocs Material tags 插件替代
+  - 移除标签管理工具组（7个）：`add_top_level_tags.py`, `add_topic_tags.py`, `analyze_current_tags.py`, `analyze_tags.py`, `optimize_tags.py`, `update_entry_tags.py`, `retag_and_related.py`
+  - 所有过时工具移至 `tools/deprecated/` 目录保留历史
+  - 新增 `docs/dev/CLEANUP_RECOMMENDATIONS.md` 详细分析报告
+
+### 📝 文档
+
+- **更新维护文档**
+  - ADMIN_GUIDE.md 移除 `retag_and_related.py` 命令引用
+  - REFACTORING_PLAN.md 标注 MkDocs 迁移后的工具状态
+  - 补充 MkDocs Material 替代功能说明
+
+### 🎨 设计
+
+- **新增 SVG 可视化图表**
+  - `healthy-pathological-boundary.svg` - 健康与病理性多意识体的界限
+  - 使用渐变色和双向箭头展示解离程度谱系
+  - 更新 Core-Concepts-Guide.md 使用 SVG 替代文本图表
+
 ## v3.2.0 (2025-10-06)
 
 ### ✨ 新功能
