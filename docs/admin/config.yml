@@ -43,11 +43,26 @@ collections:
         required: false
         hint: "可选：英文名称或常用缩写"
 
+      - label: "主题分类"
+        name: "topic"
+        widget: "select"
+        required: false
+        options:
+          - { label: "核心概念", value: "核心概念" }
+          - { label: "临床诊断", value: "临床诊断" }
+          - { label: "系统运作", value: "系统运作" }
+          - { label: "心理健康", value: "心理健康" }
+          - { label: "实践指南", value: "实践指南" }
+          - { label: "角色身份", value: "角色身份" }
+          - { label: "理论分类", value: "理论分类" }
+          - { label: "文化表现", value: "文化表现" }
+        hint: "选择词条所属的主题分类"
+
       - label: "标签"
         name: "tags"
         widget: "list"
         required: false
-        hint: "为词条添加分类标签，如：核心概念、临床诊断、系统运作等"
+        hint: "为词条添加详细标签，如：解离、创伤、多意识体等"
 
       - label: "更新时间"
         name: "updated"
