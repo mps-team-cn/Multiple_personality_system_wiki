@@ -23,6 +23,7 @@
 以下 Markdown 处理工具已整合到统一的 `tools/processors/markdown.py`：
 
 ### fix_markdown.py
+
 **功能**：修复 Markdown 格式问题（MD009, MD012, MD022, MD028, MD031, MD032, MD034, MD037, MD040, MD047）
 
 **替代方案**：使用 `MarkdownProcessor` 类
@@ -41,13 +42,16 @@ fix_markdown_file("file.md")
 ```
 
 ### fix_bold_format.py
+
 **功能**：修复加粗文本格式和中文空格
 
 **替代方案**：已整合到 `MarkdownProcessor` 的以下规则中：
+
 - `fix_bold_spacing()` - 确保中文和加粗文本之间有空格
 - `fix_parentheses_in_links()` - 修复链接中的括号和加粗链接格式
 
 ### fix_list_bold_colon.py
+
 **功能**：修复列表项中的粗体冒号格式
 
 **替代方案**：已整合到 `MarkdownProcessor` 的 `fix_list_bold_colon()` 规则中
@@ -57,16 +61,21 @@ fix_markdown_file("file.md")
 ### 命令行使用（推荐）
 
 ```bash
+
 # 处理单个文件
+
 python tools/fix_markdown.py docs/entries/Tulpa.md
 
 # 处理整个目录
+
 python tools/fix_markdown.py docs/entries/
 
 # 预览模式（不实际修改）
+
 python tools/fix_markdown.py docs/entries/ --dry-run
 
 # 详细输出
+
 python tools/fix_markdown.py docs/entries/ --verbose
 ```
 
@@ -76,18 +85,22 @@ python tools/fix_markdown.py docs/entries/ --verbose
 from tools.processors.markdown import MarkdownProcessor
 
 # 创建处理器实例
+
 processor = MarkdownProcessor()
 
 # 处理文本字符串
+
 text = "**bold**text"
 fixed = processor.process(text)
 
 # 处理文件
+
 from pathlib import Path
 result = processor.process_file(Path("file.md"))
 print(f"Changed: {result.changed}, Rules applied: {result.applied_rules}")
 
 # 批量处理目录
+
 results = processor.process_directory(Path("docs/entries/"))
 for result in results:
     if result.changed:
