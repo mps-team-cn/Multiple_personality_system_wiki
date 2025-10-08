@@ -156,7 +156,10 @@ updated: YYYY-MM-DD
 2. 如需加粗，使用：**创伤**（[Trauma](Trauma.md)） 而非 **[创伤](Trauma.md)**
 - [解离（Dissociation）](Dissociation.md)
 - [解离性身份障碍（DID）](DID.md)
-- [创伤（Trauma）](Trauma.md)
+- [创伤（Trauma）](Trauma.md
+3. 如需列出多个相关条目，建议使用有序列表，方便后续维护。
+4. 相关条目可跨主题分类，但请确保与当前条目内容相关。
+5. 相关条目列表可根据需要增减，保持简洁有用即可（最佳为2-8条）。
 
 ---
 
