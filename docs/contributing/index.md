@@ -51,20 +51,28 @@
 
 ### 第二步：本地开发
 
+#### 配置 Python 环境
+
+推荐使用虚拟环境（详见 [技术约定 - Python 环境配置](技术约定.md#7-python-环境配置)）：
+
 ```bash
+# 创建并激活虚拟环境
+python3 -m venv venv
+source venv/bin/activate
 
-# 1. 安装依赖
-
+# 安装依赖
 pip install -r requirements.txt
+```
 
-# 2. 编辑词条（在 docs/entries/ 目录）
+#### 编辑与预览
 
-# 3. 自动修复格式
+```bash
+# 1. 编辑词条（在 docs/entries/ 目录）
 
+# 2. 自动修复格式
 python tools/fix_markdown.py
 
-# 4. 本地预览
-
+# 3. 本地预览
 mkdocs serve
 ```
 

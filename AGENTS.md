@@ -91,12 +91,77 @@
 
 ---
 
-## 5. 测试与检查
+## 5. Python 环境配置
+
+### 5.1 系统要求
+
+- Python 3.8 或更高版本
+- pip 或虚拟环境支持
+
+### 5.2 推荐配置方式
+
+#### 方式一：虚拟环境（推荐）
+
+适用于 Debian/Ubuntu 等外部管理 Python 环境的系统：
+
+```bash
+# 1. 安装 venv 支持（如需要）
+sudo apt install python3.12-venv  # 或对应的 Python 版本
+
+# 2. 创建虚拟环境
+python3 -m venv venv
+
+# 3. 激活虚拟环境
+source venv/bin/activate
+
+# 4. 安装依赖
+pip install -r requirements.txt
+```
+
+**后续使用**：每次使用项目工具前，需先激活虚拟环境：
+
+```bash
+source venv/bin/activate
+```
+
+#### 方式二：系统级安装
+
+适用于非托管 Python 环境：
+
+```bash
+# 直接安装依赖
+pip install -r requirements.txt
+```
+
+### 5.3 常见问题解决
+
+#### `pip: command not found`
+
+```bash
+# 方法 1：使用 python3 -m pip
+python3 -m pip install -r requirements.txt
+
+# 方法 2：安装 pip
+python3 -m ensurepip --default-pip
+
+# 方法 3：系统包管理器安装
+sudo apt install python3-pip
+```
+
+#### `externally-managed-environment` 错误
+
+这是 Debian/Ubuntu 系统的安全特性，请使用虚拟环境（见 5.2 方式一）。
+
+**不推荐**：使用 `--break-system-packages` 可能破坏系统 Python 环境。
+
+---
+
+## 6. 测试与检查
 
 - **MkDocs 本地预览** （推荐）：
 
   ```bash
-  # 安装依赖
+  # 安装依赖（在虚拟环境中）
   pip install -r requirements.txt
 
   # 启动本地服务器（支持热重载）
@@ -123,7 +188,7 @@
 
 ---
 
-## 6. 自动化维护规则（代理/脚本必须遵循）
+## 7. 自动化维护规则（代理/脚本必须遵循）
 
 - ✅ 必须遵循贡献指南（`docs/contributing/`）与词条模板（`docs/TEMPLATE_ENTRY.md`）
 - ✅ 必须保持小步提交（最小可审查单位）
@@ -136,11 +201,11 @@
 
 ---
 
-## 7. Markdown 自动修复与校验
+## 8. Markdown 自动修复与校验
 
 > 自动执行优先；手动修改后需手动执行。
 
-### 7.1 自动执行（CI）
+### 8.1 自动执行（CI）
 
 - CI 会在 `push` / `pull_request` 时运行以下步骤：
 
@@ -148,7 +213,7 @@
   2. 执行 `markdownlint` 校验；若有未修复项，CI 失败并提示。
 - 详见 `.github/workflows/markdown_format.yml`。
 
-### 7.2 手动执行（本地）
+### 8.2 手动执行（本地）
 
 ```bash
 
