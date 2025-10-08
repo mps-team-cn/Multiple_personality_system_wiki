@@ -137,9 +137,9 @@
 
 ## 📞 联系我们
 
-- **GitHub 仓库** : [plurality_wiki](https://github.com/mps-team-cn/plurality_wiki)
-- **问题反馈** : [GitHub Issues](https://github.com/mps-team-cn/plurality_wiki/issues)
-- **贡献提交** : [Pull Requests](https://github.com/mps-team-cn/plurality_wiki/pulls)
+- **GitHub 仓库** : [Multiple_personality_system_wiki](https://github.com/mps-team-cn/Multiple_personality_system_wiki)
+- **问题反馈** : [GitHub Issues](https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues)
+- **贡献提交** : [Pull Requests](https://github.com/mps-team-cn/Multiple_personality_system_wiki/pulls)
 
 ---
 

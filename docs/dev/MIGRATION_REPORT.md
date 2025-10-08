@@ -33,7 +33,7 @@
 #### 新增目录结构
 
 ```text
-plurality_wiki/
+Multiple_personality_system_wiki/
 ├── docs/                    # 新增: MkDocs 文档目录
 │   ├── index.md            # 新首页 (Material 风格)
 │   ├── entries/            # 迁移: 所有词条
@@ -402,7 +402,7 @@ git checkout main  # 或其他稳定分支
 
 如有问题或建议,请通过以下方式联系:
 
-- **GitHub Issues** : [https://github.com/mps-team-cn/plurality_wiki/issues](https://github.com/mps-team-cn/plurality_wiki/issues)
+- **GitHub Issues** : [https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues](https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues)
 - **邮件** : (如有)
 
 ---

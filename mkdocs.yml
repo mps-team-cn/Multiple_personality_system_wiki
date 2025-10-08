@@ -2,8 +2,8 @@ site_name: Multiple personality system Wiki - 多重意识体系统百科
 site_url: https://mpswiki.pages.dev/
 site_description: 多重意识体系统(Multiple personality system)与创伤相关主题的中文知识库
 site_author: 脸脸系统、弦羽系统、逝水流年系统及社区贡献者
-repo_url: https://github.com/mps-team-cn/plurality_wiki
-repo_name: plurality_wiki
+repo_url: https://github.com/mps-team-cn/Multiple_personality_system_wiki
+repo_name: Multiple_personality_system_wiki
 copyright: Copyright &copy; 2024-2025 Multiple personality system Wiki
 edit_uri: edit/main/docs/
 
@@ -87,7 +87,7 @@ extra:
   # 社交链接
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/mps-team-cn/plurality_wiki
+      link: https://github.com/mps-team-cn/Multiple_personality_system_wiki
       name: GitHub 仓库
 
   # 分析（本地开发时注释，部署时启用）
@@ -107,7 +107,7 @@ extra:
           data: 0
           note: >-
             感谢您的反馈! 请在
-            <a href="https://github.com/mps-team-cn/plurality_wiki/issues" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues" target="_blank" rel="noopener">GitHub</a>
             提出改进建议。
 
   # 版本控制（暂未启用，计划中）
@@ -169,7 +169,7 @@ markdown_extensions:
   - pymdownx.magiclink:
       repo_url_shorthand: true
       user: kuliantnt
-      repo: plurality_wiki
+      repo: Multiple_personality_system_wiki
   - pymdownx.smartsymbols
   - pymdownx.snippets:
       auto_append:

@@ -70,7 +70,7 @@ Sveltia CMS 支持直接访问本地 Git 仓库，无需代理服务器。
 
 4. **选择仓库目录**
 
-   在弹出的文件选择器中，选择 `plurality_wiki` 仓库的根目录
+   在弹出的文件选择器中，选择 `Multiple_personality_system_wiki` 仓库的根目录
 
 5. **开始编辑**
 
@@ -98,7 +98,7 @@ Sveltia CMS 支持直接访问本地 Git 仓库，无需代理服务器。
 
 **注意**：需要有仓库写入权限
 
-> ⚠️ 提示：GitHub OAuth 的回调地址由环境变量 `GITHUB_OAUTH_BASE_URL` 确定。默认指向生产域名（如 `https://mpswiki.pages.dev`），请确保该域名已配置在 GitHub OAuth App 中，否则会出现 “redirect_uri is not associated with this application” 报错。
+> ⚠️ 提示：GitHub OAuth 的回调地址优先使用环境变量 `GITHUB_OAUTH_BASE_URL`。当未设置或值无效时，会回退为当前访问域名（如 `http://localhost:8000`）。请确保回调地址已在 GitHub OAuth App 中登记，否则会出现 “redirect_uri is not associated with this application” 报错。
 
 ---
 
@@ -136,7 +136,7 @@ Sveltia CMS 支持直接访问本地 Git 仓库，无需代理服务器。
 ```yaml
 backend:
   name: github
-  repo: mps-team-cn/plurality_wiki
+  repo: mps-team-cn/Multiple_personality_system_wiki
   branch: main
   base_url: https://mpswiki.pages.dev
   auth_endpoint: /api/auth

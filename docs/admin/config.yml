@@ -3,7 +3,7 @@
 
 backend:
   name: github
-  repo: mps-team-cn/plurality_wiki
+  repo: mps-team-cn/Multiple_personality_system_wiki
   branch: main
   base_url: https://mpswiki.pages.dev
   auth_endpoint: /api/auth

@@ -20,7 +20,20 @@ export async function onRequestGet(context: any) {
 
   const clientId = env.GITHUB_CLIENT_ID;
   const clientSecret = env.GITHUB_CLIENT_SECRET;
-  const redirectUri = `${url.origin}/api/auth`;
+  const oauthBaseEnv = typeof env.GITHUB_OAUTH_BASE_URL === "string" ? env.GITHUB_OAUTH_BASE_URL.trim() : "";
+
+  let redirectBase = url.origin;
+  if (oauthBaseEnv) {
+    try {
+      const parsed = new URL(oauthBaseEnv);
+      // 允许带路径的自定义基准地址（例如 Cloudflare Pages 绑定子路径）
+      const normalizedPath = parsed.pathname.endsWith("/") ? parsed.pathname.slice(0, -1) : parsed.pathname;
+      redirectBase = `${parsed.origin}${normalizedPath}`;
+    } catch (error) {
+      console.warn("[OAuth] GITHUB_OAUTH_BASE_URL 无效，回退到请求来源：", error);
+    }
+  }
+  const redirectUri = `${redirectBase}/api/auth`;
 
   if (!clientId || !clientSecret)
     return json(

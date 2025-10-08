@@ -7,13 +7,13 @@
 
 ## 1. Fork 仓库
 
-1. 打开主仓库：[Multiple personality system Wiki](https://github.com/mps-team-cn/plurality_wiki)
+1. 打开主仓库：[Multiple personality system Wiki](https://github.com/mps-team-cn/Multiple_personality_system_wiki)
 2. 点击右上角 **Fork** 按钮，创建属于自己的副本。
 
    - Fork 后地址示例：
 
      ```text
-     [https://github.com/你的用户名/plurality_wiki](https://github.com/你的用户名/plurality_wiki)
+     [https://github.com/你的用户名/Multiple_personality_system_wiki](https://github.com/你的用户名/Multiple_personality_system_wiki)
      ```
 
 ---
@@ -24,11 +24,11 @@
 
 # 克隆自己 Fork 的仓库
 
-git clone https://github.com/你的用户名/plurality_wiki.git
+git clone https://github.com/你的用户名/Multiple_personality_system_wiki.git
 
 # 进入仓库目录
 
-cd plurality_wiki
+cd Multiple_personality_system_wiki
 ```
 
 ---
@@ -79,7 +79,7 @@ git push origin feat/add-did-entry
 2. 点击 **Compare & Pull Request** 。
 3. 设置目标分支：
 
-   - **base repository** : `mps-team-cn/plurality_wiki`
+   - **base repository** : `mps-team-cn/Multiple_personality_system_wiki`
    - **base branch** : `main`
 
 4. 填写 PR 模板，说明修改内容。
@@ -103,7 +103,7 @@ git push origin feat/add-did-entry
 
 # 添加上游仓库
 
-git remote add upstream https://github.com/mps-team-cn/plurality_wiki.git
+git remote add upstream https://github.com/mps-team-cn/Multiple_personality_system_wiki.git
 
 # 获取更新
 
