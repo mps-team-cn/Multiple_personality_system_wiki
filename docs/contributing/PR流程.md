@@ -14,7 +14,7 @@
 
 # Python 依赖（MkDocs）
 
-pip install -r requirements-mkdocs.txt
+pip install -r requirements.txt
 
 # Node.js 依赖（可选，用于时间戳更新）
 

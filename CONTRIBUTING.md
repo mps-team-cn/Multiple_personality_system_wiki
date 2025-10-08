@@ -44,7 +44,7 @@ python -m http.server 8000 --directory docs
 
 # 安装依赖
 
-pip install -r requirements-mkdocs.txt
+pip install -r requirements.txt
 
 # 编辑词条（在 docs/entries/ 目录）
 
