@@ -1,15 +1,16 @@
 # Multiple personality system Wiki
 
+"多意识体wiki" ，现更名为 "Multiple personality system Wiki" （简称 MPS Wiki 或 MPSWiki）。 
+
 > 多重人格系统与相关心理健康主题的中文知识库与开源协作项目。
 > 在线版本：<https://mpswiki.pages.dev/>
 
-- [查看标签索引](docs/tags.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Docs status](https://img.shields.io/badge/docs-online-brightgreen.svg)](https://mpswiki.pages.dev/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](CONTRIBUTING.md)
-[![Stars](https://img.shields.io/github/stars/mps-team-cn/plurality_wiki?style=social)](https://github.com/mps-team-cn/plurality_wiki/stargazers)
-[![工作流 状态](https://img.shields.io/github/actions/workflow/status/mps-team-cn/plurality_wiki/ci.yml?label=CI&logo=github)](https://github.com/mps-team-cn/plurality_wiki/actions/workflows/docs_quality.yml)
+[![Stars](https://img.shields.io/github/stars/mps-team-cn/Multiple_personality_system_wiki?style=social)](https://github.com/mps-team-cn/Multiple_personality_system_wiki/stargazers)
+[![工作流 状态](https://img.shields.io/github/actions/workflow/status/mps-team-cn/Multiple_personality_system_wiki/ci.yml?label=CI&logo=github)](https://github.com/mps-team-cn/Multiple_personality_system_wiki/actions/workflows/docs_quality.yml)
 
 ---
 
@@ -19,7 +20,7 @@
 
 ## ✨ 项目目标
 
-- 汇聚与整理多重人格系统(Multiple personality system)与相关心理健康主题的高质量中文资料；
+- 汇聚与整理多意识体系统(Multiple personality system)与相关心理健康主题的高质量中文资料；
 - 采用一致的 **条目规范** 与 **贡献流程** ，确保可维护、可引用、可扩展；
 - 面向大众读者与专业人士，兼顾可读性与严谨性（参考 E-E-A-T 原则）。
 
@@ -59,7 +60,7 @@
 ## 📦 仓库结构
 
 ```ini
-plurality_wiki/
+Multiple_personality_system_wiki/
 ├─ README.md                     # 开发者说明
 ├─ CONTRIBUTING.md               # 贡献指南
 ├─ mkdocs.yml                    # MkDocs 配置文件

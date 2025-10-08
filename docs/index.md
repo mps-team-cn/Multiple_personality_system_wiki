@@ -6,7 +6,7 @@
 
 ### :material-star-four-points-circle: 以知识点亮多重人格系统之路
 
-从概念入门到实践工具，我们致力于用中文整理关于多重人格系统(Multiple personality system)与创伤照护的可靠资料，陪伴你理解自我、照顾伙伴，并与同路人建立连结。
+从概念入门到实践工具，我们致力于用中文整理关于多意识体系统与创伤照护的可靠资料，陪伴你理解自我、照顾伙伴，并与同路人建立连结。
 
 [开始探索](tags.md){ .md-button .md-button--primary }
 [加入共建](contributing/index.md){ .md-button }
@@ -251,6 +251,6 @@
 
 ---
 
-:material-github: **开源协作** ：本项目在 [GitHub](https://github.com/mps-team-cn/plurality_wiki) 上开源，欢迎参与
+:material-github: **开源协作** ：本项目在 [GitHub](https://github.com/mps-team-cn/Multiple_personality_system_wiki) 上开源，欢迎参与
 
 :material-license: **内容许可** ：除特别声明外，所有内容遵循 CC BY-SA 4.0 协议

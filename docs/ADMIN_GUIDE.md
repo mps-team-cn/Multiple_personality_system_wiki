@@ -14,11 +14,11 @@
 
 # 克隆仓库
 
-git clone https://github.com/mps-team-cn/plurality_wiki.git
+git clone https://github.com/mps-team-cn/Multiple_personality_system_wiki.git
 
 # 进入目录
 
-cd plurality_wiki
+cd Multiple_personality_system_wiki
 
 # 同步主分支
 

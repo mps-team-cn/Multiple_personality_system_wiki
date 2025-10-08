@@ -9,7 +9,7 @@
 1. 登录 [Cloudflare Dashboard](https://dash.cloudflare.com/)
 2. 进入 **Pages** 部分
 3. 点击 **Create a project**
-4. 连接你的 GitHub 仓库 `mps-team-cn/plurality_wiki`
+4. 连接你的 GitHub 仓库 `mps-team-cn/Multiple_personality_system_wiki`
 
 ### 2. 构建配置
 
@@ -34,7 +34,7 @@ GITHUB_CLIENT_SECRET=<GitHub OAuth App Client Secret>
 GITHUB_OAUTH_BASE_URL=https://mpswiki.pages.dev
 ```
 
-- `GITHUB_OAUTH_BASE_URL` 用于生成 GitHub OAuth 回调地址，建议设置为生产域名（如 `https://mpswiki.pages.dev`），以避免自定义域或预览域名导致的 `redirect_uri` 校验错误。
+- `GITHUB_OAUTH_BASE_URL` 用于生成 GitHub OAuth 回调地址，建议设置为生产域名（如 `https://mpswiki.pages.dev`）。如未设置或填入无效值，将回退为请求来源域名，但仍需确保该域名已配置在 GitHub OAuth App 中，以避免 `redirect_uri` 校验错误。
 - 本地或预览环境如需使用其他域名，可在变量中配置对应的完整根地址。
 
 可选的构建环境变量：
@@ -149,4 +149,4 @@ GOOGLE_ANALYTICS_KEY=G-XXXXXXXXXX
 
 ## 技术支持
 
-如有问题,请在 [GitHub Issues](https://github.com/mps-team-cn/plurality_wiki/issues) 提出。
+如有问题,请在 [GitHub Issues](https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues) 提出。
