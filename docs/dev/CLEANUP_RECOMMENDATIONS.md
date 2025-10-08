@@ -49,7 +49,7 @@ mkdocs build && python -m http.server -d site/ 8080
 **删除理由**：
 - MkDocs Material 的 `tags` 插件自动生成标签页面
 - 当前 `docs/tags.md` 已改为手动维护的导览页 + 自动标签列表
-- 使用 `<!-- material/tags -->` 注释自动插入标签
+- 使用 `&lt;!-- material/tags --&gt;` 注释自动插入标签
 
 **当前 tags.md 结构**：
 ```markdown
@@ -63,7 +63,7 @@ mkdocs build && python -m http.server -d site/ 8080
 ...
 
 ## 全部标签
-<!-- material/tags -->  ← 自动生成部分
+&lt;!-- material/tags --&gt;  ← 自动生成部分
 ```
 
 **替代方案**：
