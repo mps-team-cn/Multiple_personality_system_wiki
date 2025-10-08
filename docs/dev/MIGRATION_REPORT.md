@@ -49,7 +49,7 @@ plurality_wiki/
 │   ├── Glossary.md         # 术语表
 │   └── changelog.md        # 变更日志
 ├── mkdocs.yml              # MkDocs 配置文件
-├── requirements-mkdocs.txt # Python 依赖
+├── requirements.txt        # Python 依赖
 ├── .cfpages-build.sh       # Cloudflare Pages 构建脚本
 ├── CLOUDFLARE_PAGES.md     # 部署说明
 └── MIGRATION_REPORT.md     # 本报告
@@ -99,7 +99,7 @@ plugins:
 
 ```
 
-#### requirements-mkdocs.txt (新增)
+#### requirements.txt (更新)
 
 ```text
 mkdocs>=1.5.3
@@ -194,7 +194,7 @@ pymdown-extensions>=10.7
 ### 配置文件
 
 - [x] 创建 `mkdocs.yml` 主配置文件
-- [x] 创建 `requirements-mkdocs.txt` 依赖清单
+- [x] 整理 `requirements.txt` 依赖清单
 - [x] 创建 `.cfpages-build.sh` 构建脚本
 - [x] 更新 `.gitignore` 忽略 `site/` 目录
 

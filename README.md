@@ -63,8 +63,7 @@ plurality_wiki/
 ├─ README.md                     # 开发者说明
 ├─ CONTRIBUTING.md               # 贡献指南
 ├─ mkdocs.yml                    # MkDocs 配置文件
-├─ requirements-mkdocs.txt       # Python 依赖清单
-├─ requirements.txt              # 工具依赖清单
+├─ requirements.txt              # Python 依赖（MkDocs 与工具）
 ├─ .cfpages-build.sh             # Cloudflare Pages 构建脚本
 ├─ .gitignore                    # Git 忽略配置
 ├─ .markdownlint*                # Markdown 规范配置
@@ -204,7 +203,7 @@ plurality_wiki/
 
 # 1. 安装 Python 依赖
 
-pip install -r requirements-mkdocs.txt
+pip install -r requirements.txt
 
 # 2. 本地预览（支持热重载）
 
