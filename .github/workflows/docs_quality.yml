@@ -77,7 +77,7 @@ jobs:
         with:
           args: >-
             --config .github/lychee.toml
-            --remap '^/entries/ https://plurality-wiki.pages.dev/entries/'
+            --remap '^/entries/ https://mpswiki.pages.dev/entries/'
             --no-progress
             --verbose
             ./

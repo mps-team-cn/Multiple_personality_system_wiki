@@ -7,7 +7,7 @@
 
 ## 1. Fork 仓库
 
-1. 打开主仓库：[Plurality Wiki](https://github.com/kuliantnt/plurality_wiki)
+1. 打开主仓库：[Plurality Wiki](https://github.com/mps-team-cn/plurality_wiki)
 2. 点击右上角 **Fork** 按钮，创建属于自己的副本。
 
    - Fork 后地址示例：
@@ -79,7 +79,7 @@ git push origin feat/add-did-entry
 2. 点击 **Compare & Pull Request** 。
 3. 设置目标分支：
 
-   - **base repository** : `kuliantnt/plurality_wiki`
+   - **base repository** : `mps-team-cn/plurality_wiki`
    - **base branch** : `main`
 
 4. 填写 PR 模板，说明修改内容。
@@ -103,7 +103,7 @@ git push origin feat/add-did-entry
 
 # 添加上游仓库
 
-git remote add upstream https://github.com/kuliantnt/plurality_wiki.git
+git remote add upstream https://github.com/mps-team-cn/plurality_wiki.git
 
 # 获取更新
 

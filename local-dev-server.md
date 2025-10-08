@@ -29,7 +29,7 @@
 
 ### 访问后台
 
-1. 打开 `[https://plurality-wiki.pages.dev/admin/`](https://plurality-wiki.pages.dev/admin/`)
+1. 打开 `[https://mpswiki.pages.dev/admin/`](https://mpswiki.pages.dev/admin/`)
 2. 点击 **"Sign In with GitHub"** 使用 GitHub 账号登录
 3. 授权后即可编辑词条
 
@@ -134,9 +134,9 @@ Sveltia CMS 支持直接访问本地 Git 仓库，无需代理服务器。
 ```yaml
 backend:
   name: github
-  repo: kuliantnt/plurality_wiki
+  repo: mps-team-cn/plurality_wiki
   branch: main
-  base_url: https://plurality-wiki.pages.dev
+  base_url: https://mpswiki.pages.dev
   auth_endpoint: /api/auth
 
 collections:

@@ -113,7 +113,7 @@
   (function () {
     PluralityApp.init({
       name: "多意识体Wikipedia",
-      repo: "kuliantnt/plurality_wiki",
+      repo: "mps-team-cn/plurality_wiki",
       homepage: "Main_Page.html",
     });
   })();
