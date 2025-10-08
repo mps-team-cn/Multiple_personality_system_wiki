@@ -14,7 +14,7 @@ updated: 2025-10-06
 # Tulpa 完全创造指南·基础篇
 
 > **原文来源** ：百度贴吧 tulpa 吧
-> **整理编辑** ：Plurality Wiki 资料库
+> **整理编辑** ：Multiple personality system Wiki 资料库
 > **章节** ：基础篇 - 了解 Tulpa 与创造准备
 
 ---

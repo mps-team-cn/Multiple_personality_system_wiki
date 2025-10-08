@@ -1,6 +1,6 @@
-# Plurality Wiki
+# Multiple personality system Wiki
 
-> 多重意识体系统与相关心理健康主题的中文知识库与开源协作项目。
+> 多重人格系统与相关心理健康主题的中文知识库与开源协作项目。
 > 在线版本：<https://mpswiki.pages.dev/>
 
 - [查看标签索引](docs/tags.md)
@@ -19,7 +19,7 @@
 
 ## ✨ 项目目标
 
-- 汇聚与整理多重意识体（Plurality）与相关心理健康主题的高质量中文资料；
+- 汇聚与整理多重人格系统(Multiple personality system)与相关心理健康主题的高质量中文资料；
 - 采用一致的 **条目规范** 与 **贡献流程** ，确保可维护、可引用、可扩展；
 - 面向大众读者与专业人士，兼顾可读性与严谨性（参考 E-E-A-T 原则）。
 
@@ -125,7 +125,7 @@ plurality_wiki/
 │
 ├─ releases/                     # 历史 PDF 版本存档
 │  ├─ README.md                  # 版本说明
-│  └─ 多意识体wiki v_*.pdf       # 历史版本 PDF
+│  └─ 多重人格系统wiki v_*.pdf       # 历史版本 PDF
 │
 ├─ entries/                      # 原始词条目录（与 docs/entries/ 同步）
 │

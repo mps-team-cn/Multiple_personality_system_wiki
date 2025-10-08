@@ -257,7 +257,7 @@ extra_css:
 
 ```css
 /* 自定义样式使用前缀避免冲突 */
-.pw-custom-button {  /* pw = Plurality Wiki */
+.pw-custom-button {  /* pw = Multiple personality system Wiki */
   /* ... */
 }
 ```

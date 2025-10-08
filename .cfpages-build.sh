@@ -3,7 +3,7 @@
 
 set -e
 
-echo "开始构建 Plurality Wiki (MkDocs Material)..."
+echo "开始构建 Multiple personality system Wiki (MkDocs Material)..."
 
 # 安装 Python 依赖
 echo "安装依赖..."

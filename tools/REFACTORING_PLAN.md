@@ -321,4 +321,4 @@ python -m tools.cli.main fix-md --dry-run
 ---
 
 **最后更新** : 2025-10-05
-**维护者** : Plurality Wiki Team
+**维护者** : Multiple personality system Wiki Team

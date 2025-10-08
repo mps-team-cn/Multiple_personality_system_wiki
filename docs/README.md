@@ -1,8 +1,8 @@
 # 关于本站
 
-## 📖 什么是 Plurality Wiki？
+## 📖 什么是 Multiple personality system Wiki？
 
-**Plurality Wiki（多意识体百科）** 是一个专注于多重意识体系统（Plurality）与创伤相关主题的中文知识库。
+**Multiple personality system Wiki（多重人格系统百科）** 是一个专注于多重人格系统(Multiple personality system)与创伤相关主题的中文知识库。
 
 我们致力于：
 
@@ -159,4 +159,4 @@
 
 ---
 
-**感谢您访问 Plurality Wiki！希望这里的内容能为您带来帮助和启发。** 💙
+**感谢您访问 Multiple personality system Wiki！希望这里的内容能为您带来帮助和启发。** 💙

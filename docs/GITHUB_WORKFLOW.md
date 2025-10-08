@@ -1,13 +1,13 @@
 # GitHub 提交流程指南（GITHUB_WORKFLOW.md）
 
-本指南面向 **Plurality Wiki** 的贡献者，介绍如何通过 GitHub 提交内容。
+本指南面向 **Multiple personality system Wiki** 的贡献者，介绍如何通过 GitHub 提交内容。
 推荐流程： **Fork 仓库 → 新建分支 → 修改提交 → Pull Request (PR)** 。
 
 ---
 
 ## 1. Fork 仓库
 
-1. 打开主仓库：[Plurality Wiki](https://github.com/mps-team-cn/plurality_wiki)
+1. 打开主仓库：[Multiple personality system Wiki](https://github.com/mps-team-cn/plurality_wiki)
 2. 点击右上角 **Fork** 按钮，创建属于自己的副本。
 
    - Fork 后地址示例：

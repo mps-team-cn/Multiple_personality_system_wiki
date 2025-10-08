@@ -1,5 +1,5 @@
 /**
- * Plurality Wiki 自定义脚本
+ * Multiple personality system Wiki 自定义脚本
  */
 
 // 页面加载完成后执行

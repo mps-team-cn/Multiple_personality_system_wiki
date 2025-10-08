@@ -1,6 +1,6 @@
 # 贡献指南
 
-欢迎参与 Plurality Wiki 的建设！本指南将帮助你了解如何为项目贡献高质量的内容。
+欢迎参与 Multiple personality system Wiki 的建设！本指南将帮助你了解如何为项目贡献高质量的内容。
 
 ## 📋 快速导航
 
