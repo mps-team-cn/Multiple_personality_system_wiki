@@ -98,6 +98,8 @@ Sveltia CMS 支持直接访问本地 Git 仓库，无需代理服务器。
 
 **注意**：需要有仓库写入权限
 
+> ⚠️ 提示：GitHub OAuth 的回调地址由环境变量 `GITHUB_OAUTH_BASE_URL` 确定。默认指向生产域名（如 `https://mpswiki.pages.dev`），请确保该域名已配置在 GitHub OAuth App 中，否则会出现 “redirect_uri is not associated with this application” 报错。
+
 ---
 
 ## 🎯 使用技巧
@@ -233,7 +235,7 @@ git push origin main
 ## 📚 相关文档
 
 - [Sveltia CMS 官方文档](https://github.com/sveltia/sveltia-cms)
-- [Plurality Wiki 贡献指南](docs/contributing/index.md)
+- [Multiple personality system Wiki 贡献指南](docs/contributing/index.md)
 - [词条编写规范](docs/contributing/编写规范.md)
 - [管理员操作指南](docs/ADMIN_GUIDE.md)
 

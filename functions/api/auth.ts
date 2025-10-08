@@ -1,4 +1,4 @@
-// GitHub OAuth 代理 for Sveltia CMS (Plurality Wiki)
+// GitHub OAuth 代理 for Sveltia CMS (Multiple personality system Wiki)
 // 兼容 Cloudflare Pages Functions 环境
 
 function json(data: any, status = 200, extra: Record<string, string> = {}) {
@@ -120,7 +120,7 @@ export async function onRequestGet(context: any) {
   });
   const user = await userRes.json();
 
-  const ALLOWED_USERS = ["kuliantnt"]; // 允许登录后台的 GitHub 用户
+  const ALLOWED_USERS = ["kuliantnt","shishuiliunian5","fengqingyu430-collab"]; // 允许登录后台的 GitHub 用户
   if (!ALLOWED_USERS.includes(user.login))
     return json(
       { error: "Unauthorized user", login: user.login },
