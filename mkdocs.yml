@@ -195,7 +195,6 @@ plugins:
       lang:
         - zh
         - en
-      jieba_dict_user: jieba_userdict.txt
 
   - tags
 
