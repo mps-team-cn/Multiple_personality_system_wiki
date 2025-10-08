@@ -1,6 +1,6 @@
 # Releases - 历史版本存档
 
-本目录存放 Plurality Wiki 的历史 PDF 版本，用于归档和版本追溯。
+本目录存放 Multiple personality system Wiki 的历史 PDF 版本，用于归档和版本追溯。
 
 ## 📦 版本列表
 
@@ -35,7 +35,7 @@
 
 **推荐访问最新在线版本** ：
 
-- **GitHub Pages** : [https://mps-team-cn.github.io/plurality_wiki/](https://mps-team-cn.github.io/plurality_wiki/)
+- **GitHub Pages** : [https://mps-team-cn.github.io/Multiple_personality_system_wiki/](https://mps-team-cn.github.io/Multiple_personality_system_wiki/)
 - **Cloudflare Pages** : [https://mpswiki.pages.dev/](https://mpswiki.pages.dev/)
 
 在线版本始终保持最新，包含所有词条更新和功能改进。
