@@ -3,17 +3,17 @@
 
 backend:
   name: github
-  repo: kuliantnt/plurality_wiki
+  repo: mps-team-cn/plurality_wiki
   branch: main
-  base_url: https://plurality-wiki.pages.dev
+  base_url: https://mpswiki.pages.dev
   auth_endpoint: /api/auth
 
 # 中文本地化
 locale: zh_Hans
 
 # 站点信息
-site_url: https://plurality-wiki.pages.dev
-display_url: https://plurality-wiki.pages.dev
+site_url: https://mpswiki.pages.dev
+display_url: https://mpswiki.pages.dev
 # logo_url: /assets/logo.svg  # 暂时禁用 logo
 
 # 媒体文件配置

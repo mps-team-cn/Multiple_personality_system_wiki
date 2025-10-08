@@ -65,7 +65,7 @@ python tools/pdf_export/export_to_pdf.py --pdf-engine xelatex
 
 - 若不需要封面，可以添加 `--no-cover`。
 - `--cover-title`、`--cover-subtitle`、`--cover-date` 可覆盖封面的默认文字。
-- 封面标题下方默认会展示可点击的“在线版本”链接，指向 <https://plurality-wiki.pages.dev/#/>，便于读者快速跳转至网页版内容。
+- 封面标题下方默认会展示可点击的“在线版本”链接，指向 <https://mpswiki.pages.dev/#/>，便于读者快速跳转至网页版内容。
 - `--cover-footer` 用于自定义封面底部的“plurality_wiki 项目”字样（默认以更大字号斜体排版），传入空字符串即可移除该行。
 - 目录页会基于 topic 结构生成“图书式”目录，并为每个词条显示页码。
 

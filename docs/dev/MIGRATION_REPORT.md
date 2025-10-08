@@ -402,7 +402,7 @@ git checkout main  # 或其他稳定分支
 
 如有问题或建议,请通过以下方式联系:
 
-- **GitHub Issues** : [https://github.com/kuliantnt/plurality_wiki/issues](https://github.com/kuliantnt/plurality_wiki/issues)
+- **GitHub Issues** : [https://github.com/mps-team-cn/plurality_wiki/issues](https://github.com/mps-team-cn/plurality_wiki/issues)
 - **邮件** : (如有)
 
 ---

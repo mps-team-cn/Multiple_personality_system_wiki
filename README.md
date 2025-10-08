@@ -1,19 +1,19 @@
 # Plurality Wiki
 
 > 多重意识体系统与相关心理健康主题的中文知识库与开源协作项目。
-> 在线版本：<https://plurality-wiki.pages.dev/>
+> 在线版本：<https://mpswiki.pages.dev/>
 
 - [查看标签索引](docs/tags.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Docs status](https://img.shields.io/badge/docs-online-brightgreen.svg)](https://plurality-wiki.pages.dev/)
+[![Docs status](https://img.shields.io/badge/docs-online-brightgreen.svg)](https://mpswiki.pages.dev/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](CONTRIBUTING.md)
-[![Stars](https://img.shields.io/github/stars/kuliantnt/plurality_wiki?style=social)](https://github.com/kuliantnt/plurality_wiki/stargazers)
-[![工作流 状态](https://img.shields.io/github/actions/workflow/status/kuliantnt/plurality_wiki/ci.yml?label=CI&logo=github)](https://github.com/kuliantnt/plurality_wiki/actions/workflows/docs_quality.yml)
+[![Stars](https://img.shields.io/github/stars/mps-team-cn/plurality_wiki?style=social)](https://github.com/mps-team-cn/plurality_wiki/stargazers)
+[![工作流 状态](https://img.shields.io/github/actions/workflow/status/mps-team-cn/plurality_wiki/ci.yml?label=CI&logo=github)](https://github.com/mps-team-cn/plurality_wiki/actions/workflows/docs_quality.yml)
 
 ---
 
-📖 **提示** ：如果你是普通读者，请访问在线版本 [plurality-wiki.pages.dev](https://plurality-wiki.pages.dev/)；本文档主要面向开发者与贡献者。
+📖 **提示** ：如果你是普通读者，请访问在线版本 [mpswiki.pages.dev](https://mpswiki.pages.dev/)；本文档主要面向开发者与贡献者。
 
 ---
 
@@ -51,7 +51,7 @@
 
 - **Sveltia CMS** - 现代化内容管理系统，支持全文搜索
 - **Cloudflare Functions** - OAuth 认证
-- 访问路径：`/admin` ([在线版本](https://plurality-wiki.pages.dev/admin/))
+- 访问路径：`/admin` ([在线版本](https://mpswiki.pages.dev/admin/))
 - 详见 [本地开发指南](local-dev-server.md) 和 [管理员指南](docs/ADMIN_GUIDE.md)
 
 ---
@@ -282,7 +282,7 @@ Build output directory: site
 Environment variables: PYTHON_VERSION=3.11
 ```
 
-**在线地址** ：<https://plurality-wiki.pages.dev/>
+**在线地址** ：<https://mpswiki.pages.dev/>
 
 ---
 
