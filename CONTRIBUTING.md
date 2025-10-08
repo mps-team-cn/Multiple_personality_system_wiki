@@ -1,6 +1,6 @@
-# Plurality Wiki 贡献指南
+# Multiple personality system Wiki 贡献指南
 
-欢迎参与 **Plurality Wiki** 的建设！
+欢迎参与 **Multiple personality system Wiki** 的建设！
 
 本文件是 GitHub 标准贡献指南的简要版本。 **详细规范请查阅 [完整贡献指南](docs/contributing/index.md)** 。
 
@@ -150,4 +150,4 @@ mkdocs serve
 
 ---
 
-**感谢你的贡献！** 让我们一起构建高质量的多意识体知识库。
+**感谢你的贡献！** 让我们一起构建高质量的多重人格系统知识库。

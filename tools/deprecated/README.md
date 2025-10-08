@@ -138,4 +138,4 @@ for result in results:
 ---
 
 **最后更新**：2025-10-07
-**维护者**：Plurality Wiki Team
+**维护者**：Multiple personality system Wiki Team

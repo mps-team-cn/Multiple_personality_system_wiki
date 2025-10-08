@@ -1,4 +1,4 @@
-# Plurality Wiki 贡献与开发约定（AGENTS.md）
+# Multiple personality system Wiki 贡献与开发约定（AGENTS.md）
 
 本文件定义了本项目的贡献规则与开发约定，适用于人工贡献者与自动化工具（代理/脚本）。
 所有贡献应严格遵循以下要求，以保持条目结构与站点一致性。

@@ -1,6 +1,6 @@
 # 开发文档
 
-本目录包含 Plurality Wiki 的开发相关文档，用于记录技术决策、迁移过程和开发指南。
+本目录包含 Multiple personality system Wiki 的开发相关文档，用于记录技术决策、迁移过程和开发指南。
 
 ## 📂 文档列表
 

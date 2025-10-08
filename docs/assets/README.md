@@ -1,6 +1,6 @@
 # 静态资源使用指南
 
-本目录（`docs/assets/`）用于存放 Plurality Wiki 的所有静态资源文件。
+本目录（`docs/assets/`）用于存放 Multiple personality system Wiki 的所有静态资源文件。
 
 ## 目录结构
 

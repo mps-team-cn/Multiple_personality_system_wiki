@@ -1,6 +1,6 @@
 # Releases - 历史版本存档
 
-本目录存放 Plurality Wiki 的历史 PDF 版本，用于归档和版本追溯。
+本目录存放 Multiple personality system Wiki 的历史 PDF 版本，用于归档和版本追溯。
 
 ## 📦 版本列表
 

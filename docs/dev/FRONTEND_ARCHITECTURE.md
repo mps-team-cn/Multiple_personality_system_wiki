@@ -1,6 +1,6 @@
 # 前端架构说明
 
-本文档说明 Plurality Wiki 前端的模块化架构设计。
+本文档说明 Multiple personality system Wiki 前端的模块化架构设计。
 
 ## 概述
 
@@ -112,7 +112,7 @@
 <script>
   (function () {
     PluralityApp.init({
-      name: "多意识体Wikipedia",
+      name: "多重人格系统Wikipedia",
       repo: "mps-team-cn/plurality_wiki",
       homepage: "Main_Page.html",
     });

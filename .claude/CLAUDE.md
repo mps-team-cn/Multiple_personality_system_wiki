@@ -1,4 +1,4 @@
-# Plurality Wiki - Claude 工作指导
+# Multiple personality system Wiki - Claude 工作指导
 
 ## CRITICAL CONSTRAINTS - 违反=任务失败
 
@@ -138,7 +138,7 @@
 
 ### 关键概念
 
-- Plurality（多重意识体）
+- Plurality（多重人格系统）
 - Docsify 静态站点
 - Frontmatter 元数据
 - Conventional Commits

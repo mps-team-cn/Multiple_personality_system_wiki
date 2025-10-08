@@ -37,7 +37,7 @@ collections:
   - name: "entries"
     label: "词条管理"
     label_singular: "词条"
-    description: "管理 Plurality Wiki 的词条内容"
+    description: "管理 Multiple personality system Wiki 的词条内容"
     folder: "docs/entries"
     create: true
     slug: "{{slug}}"
@@ -121,7 +121,7 @@ collections:
         name: "tags"
         widget: "list"
         required: false
-        hint: "为词条添加详细标签，如：解离、创伤、多意识体等"
+        hint: "为词条添加详细标签，如：解离、创伤、多重人格系统等"
 
       - label: "更新时间"
         name: "updated"

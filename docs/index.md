@@ -1,12 +1,12 @@
-# Plurality Wiki - 多意识体百科
+# Multiple personality system Wiki - 多重人格系统百科
 
-## 探索多重意识体的知识、经验与协作
+## 探索多重人格系统的知识、经验与协作
 
 <div class="home-hero" markdown>
 
-### :material-star-four-points-circle: 以知识点亮多意识体之路
+### :material-star-four-points-circle: 以知识点亮多重人格系统之路
 
-从概念入门到实践工具，我们致力于用中文整理关于多重意识体系统（Plurality）与创伤照护的可靠资料，陪伴你理解自我、照顾伙伴，并与同路人建立连结。
+从概念入门到实践工具，我们致力于用中文整理关于多重人格系统(Multiple personality system)与创伤照护的可靠资料，陪伴你理解自我、照顾伙伴，并与同路人建立连结。
 
 [开始探索](tags.md){ .md-button .md-button--primary }
 [加入共建](contributing/index.md){ .md-button }
@@ -18,7 +18,7 @@
 
 ### :material-compass: 新手导览
 
-了解多意识体的基础概念、诊断与协作要点。
+了解多重人格系统的基础概念、诊断与协作要点。
 
 - [查看学习路径](#learning-path)
 - [核心概念速览](entries/Core-Concepts-Guide.md)
