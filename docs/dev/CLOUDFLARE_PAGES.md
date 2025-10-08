@@ -56,7 +56,7 @@ PYTHON_VERSION=3.11
 
 `.cfpages-build.sh` 脚本执行以下步骤:
 
-1. 安装 Python 依赖 (`requirements-mkdocs.txt`)
+1. 安装 Python 依赖 (`requirements.txt`)
 2. 运行 `mkdocs build --strict` 构建站点
 3. 生成的静态文件输出到 `site/` 目录
 
@@ -68,7 +68,7 @@ PYTHON_VERSION=3.11
 
 # 安装依赖
 
-pip install -r requirements-mkdocs.txt
+pip install -r requirements.txt
 
 # 本地预览
 
@@ -83,7 +83,7 @@ mkdocs build --strict
 
 ### Q: 构建失败,提示缺少依赖
 
-**A** : 检查 `requirements-mkdocs.txt` 是否包含所有必要的包。
+**A** : 检查 `requirements.txt` 是否包含所有必要的包。
 
 ### Q: 构建成功但页面显示不正常
 

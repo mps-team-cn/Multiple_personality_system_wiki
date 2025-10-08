@@ -310,7 +310,7 @@ mkdocs serve
 ### 构建兼容性
 
 - 内置主题（readthedocs, mkdocs）可以直接在 Cloudflare Pages 构建
-- Material 和其他第三方主题需要在 `requirements-mkdocs.txt` 中声明依赖
+- Material 和其他第三方主题需要在 `requirements.txt` 中声明依赖
 
 ---
 
