@@ -50,7 +50,7 @@
 
 - **配置文件** ：
   - `mkdocs.yml` - 主配置文件（站点元信息、主题、插件、导航结构）
-  - `requirements-mkdocs.txt` - Python 依赖清单
+  - `requirements.txt` - Python 依赖清单
   - `.cfpages-build.sh` - Cloudflare Pages 构建脚本
 - **静态资源** ：
   - 主目录：`docs/assets/`（CSS、JS、图片、JSON 数据等）
@@ -97,7 +97,7 @@
 
   ```bash
   # 安装依赖
-  pip install -r requirements-mkdocs.txt
+  pip install -r requirements.txt
 
   # 启动本地服务器（支持热重载）
   mkdocs serve
