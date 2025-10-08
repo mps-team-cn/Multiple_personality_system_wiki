@@ -39,9 +39,23 @@
   - **禁止** 使用绝对路径（如 `/docs/entries/DID.md`）
 - 提交信息：Conventional Commits 格式
 
+### Python 环境配置
+
+- **推荐方式**：使用虚拟环境
+  ```bash
+  python3 -m venv venv
+  source venv/bin/activate
+  pip install -r requirements.txt
+  ```
+- **常见问题**：
+  - `pip: command not found` → 使用 `python3 -m pip`
+  - `externally-managed-environment` → 必须使用虚拟环境
+  - 详见 `AGENTS.md` 第 5 章节或 `docs/contributing/技术约定.md` 第 7 章节
+
 ### 自动化工具要求
 
 - `python tools/fix_markdown.py` - Markdown 自动修复
+- 所有 Python 工具必须在虚拟环境中运行（推荐）
 
 ## MANDATORY WORKFLOWS
 
