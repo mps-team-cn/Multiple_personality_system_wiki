@@ -134,6 +134,7 @@
 | [Mixed](entries/Emmengard-Classification.md#混合型mixed) | 混合型 | 埃蒙加德分类法标签之一，指系统成员来源多样，兼具创伤与主动构建等成因。 |
 | [Original](entries/Original.md) | 初始 | 指系统最早出现或被视为原始自我的成员，可能与宿主不同。 |
 | [Servitor](entries/Servitor.md) | 傀儡 | 源于魔法或心理实践中，通过意念构建以执行任务的实体概念。 |
+| [Soul-Linked Systems](entries/Soul-Linked-Systems-Xianyu.md) | 系魂型系统 | 弦羽理论生态位分类之一，强调与外部意识或叙事宇宙的稳定连接；常见细分包括叙事载入式与外联桥梁式生态位。 |
 | [Soulbond](entries/Soulbond.md) | 系魂 | 描述与虚构角色或外部实体形成稳定互惠联系的成员或关系。 |
 | [Spontaneous](entries/Spontaneous.md) | 自发型 | 埃蒙加德分类法标签之一，指系统自然显现或源自灵性、认知演化过程。 |
 | [Tulpa](entries/Tulpa.md) | 图帕、托帕 | 通过有意想象与练习培育出的自主意识伙伴，与系统成员共享身体协作。 |
