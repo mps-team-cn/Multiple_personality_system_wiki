@@ -1,6 +1,6 @@
 # Cloudflare Pages 部署配置
 
-本文档说明如何在 Cloudflare Pages 上部署 Plurality Wiki (MkDocs Material 版本)。
+本文档说明如何在 Cloudflare Pages 上部署 Multiple personality system Wiki (MkDocs Material 版本)。
 
 ## 配置步骤
 
@@ -26,7 +26,18 @@
 
 #### 环境变量
 
-可选的环境变量:
+必须配置以下 OAuth 环境变量（Cloudflare Pages → Settings → Environment variables）：
+
+```text
+GITHUB_CLIENT_ID=<GitHub OAuth App Client ID>
+GITHUB_CLIENT_SECRET=<GitHub OAuth App Client Secret>
+GITHUB_OAUTH_BASE_URL=https://mpswiki.pages.dev
+```
+
+- `GITHUB_OAUTH_BASE_URL` 用于生成 GitHub OAuth 回调地址，建议设置为生产域名（如 `https://mpswiki.pages.dev`），以避免自定义域或预览域名导致的 `redirect_uri` 校验错误。
+- 本地或预览环境如需使用其他域名，可在变量中配置对应的完整根地址。
+
+可选的构建环境变量：
 
 ```text
 PYTHON_VERSION=3.11
