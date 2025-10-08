@@ -168,7 +168,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: kuliantnt
+      user: mps-team-cn
       repo: plurality_wiki
   - pymdownx.smartsymbols
   - pymdownx.snippets:
