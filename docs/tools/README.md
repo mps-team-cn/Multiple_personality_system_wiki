@@ -34,7 +34,6 @@
 | `tools/retag_and_related.py`                                 | 批量重建 Frontmatter 标签并生成"相关词条"区块                                    | `python tools/retag_and_related.py` 或 `python tools/retag_and_related.py --dry-run --limit 5`       |
 | `tools/run_local_updates.sh` / `tools/run_local_updates.bat` | 串联常用维护脚本，一键完成日常更新任务（已增强：支持参数跳过、进度显示、错误提示）                         | `bash tools/run_local_updates.sh` 或 `tools\run_local_updates.bat`（均支持 `--skip-*` 选项和 `--help`）      |
 
-
 如需新增脚本，请保持功能说明与示例用法同步更新本章节，方便贡献者快速定位维护工具。
 
 ### `retag_and_related.py` 标签过滤策略
@@ -61,6 +60,7 @@
 **支持的修复规则:**
 
 **Markdownlint 标准规则:**
+
 - **MD009**: 移除行尾空白字符 (包括全角空格)
 - **MD012**: 压缩连续空行为单行
 - **MD022**: 确保标题前后空行
@@ -73,25 +73,31 @@
 - **MD047**: 确保文件以单个换行结束
 
 **中文排版规则:**
+
 - **CUSTOM001**: 列表标记空格 (`-item` → `- item`)
-- **CUSTOM002**: 加粗中文空格 (`中文**加粗**后面` → `中文 **加粗** 后面`)
+- **CUSTOM002**: 加粗中文空格 (`中文 **加粗** 后面` → `中文 **加粗** 后面`)
 - **CUSTOM003**: 列表加粗冒号 (`-**text**: ` → `- **text** : `)
 - **CUSTOM004**: 链接括号转换 (中文括号 → 英文括号，加粗链接格式)
-- **CUSTOM005**: 链接前冒号 (`参考:[链接]` → `参考：[链接]`)
+- **CUSTOM005**: 链接前冒号 (`参考：[链接]` → `参考：[链接]`)
 
 **命令行用法:**
 
 ```bash
+
 # 处理单个文件
+
 python tools/fix_markdown.py docs/entries/Tulpa.md
 
 # 处理整个目录
+
 python tools/fix_markdown.py docs/entries/
 
 # 预览模式（不实际修改）
+
 python tools/fix_markdown.py docs/entries/ --dry-run
 
 # 详细输出
+
 python tools/fix_markdown.py docs/entries/ --verbose
 ```
 
@@ -101,13 +107,16 @@ python tools/fix_markdown.py docs/entries/ --verbose
 from tools.processors.markdown import MarkdownProcessor, fix_markdown_file
 
 # 使用处理器类
+
 processor = MarkdownProcessor()
 result = processor.process_file(Path("docs/entries/example.md"))
 
 # 使用便捷函数
+
 result = fix_markdown_file("docs/entries/example.md", dry_run=True)
 
 # 处理文本字符串
+
 text = "**加粗**后面"
 fixed = processor.process(text)  # "**加粗** 后面"
 ```
@@ -253,16 +262,21 @@ tools\run_local_updates.bat --skip-pdf --skip-markdownlint
 ### 🧰 一键修复 Markdown
 
 ```bash
+
 # 使用新的统一工具（推荐）
+
 python tools/fix_markdown.py docs/entries/
 
 # 预览模式
+
 python tools/fix_markdown.py docs/entries/ --dry-run
 
 # 详细输出
+
 python tools/fix_markdown.py docs/entries/ --verbose
 
 # 校验（需安装 markdownlint-cli）
+
 markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
 ```
 
@@ -279,19 +293,25 @@ markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor
 **常见修复示例:**
 
 ```markdown
+
 # 列表标记空格
+
 -item → - item
 
 # 加粗中文空格
+
 中文**加粗**后面 → 中文 **加粗** 后面
 
 # 列表加粗冒号
--**text**: → - **text** :
+
+- **text** : → - **text** :
 
 # 链接前冒号
-参考:[链接] → 参考：[链接]
+
+参考：[链接] → 参考：[链接]
 
 # 加粗标点不加空格（正确保持）
+
 **定义**：内容 → **定义**：内容
 ```
 

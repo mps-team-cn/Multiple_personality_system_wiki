@@ -29,7 +29,7 @@
 
 ### 访问后台
 
-1. 打开 `https://plurality-wiki.pages.dev/admin/`
+1. 打开 `[https://plurality-wiki.pages.dev/admin/`](https://plurality-wiki.pages.dev/admin/`)
 2. 点击 **"Sign In with GitHub"** 使用 GitHub 账号登录
 3. 授权后即可编辑词条
 
@@ -62,7 +62,7 @@ Sveltia CMS 支持直接访问本地 Git 仓库，无需代理服务器。
 
 2. **在浏览器中打开**
 
-   访问 `http://localhost:8000/admin/`
+   访问 `[http://localhost:8000/admin/`](http://localhost:8000/admin/`)
 
 3. **选择本地仓库模式**
 
@@ -91,7 +91,7 @@ Sveltia CMS 支持直接访问本地 Git 仓库，无需代理服务器。
 如果需要直接推送到 GitHub：
 
 1. 启动本地服务器（同上）
-2. 访问 `http://localhost:8000/admin/`
+2. 访问 `[http://localhost:8000/admin/`](http://localhost:8000/admin/`)
 3. 点击 **"Sign In with GitHub"**
 4. 完成 OAuth 授权
 5. 直接编辑和提交到 GitHub
@@ -140,12 +140,15 @@ backend:
   auth_endpoint: /api/auth
 
 collections:
+
   - name: "entries"
+
     label: "词条管理"
     folder: "docs/entries"
 
     # 7 个主题分类
     view_filters:
+
       - { label: "理论与分类", field: topic, pattern: "理论与分类" }
       - { label: "诊断与临床", field: topic, pattern: "诊断与临床" }
       - { label: "系统运作", field: topic, pattern: "系统运作" }
@@ -153,6 +156,7 @@ collections:
       - { label: "文化与表现", field: topic, pattern: "文化与表现" }
       - { label: "创伤与疗愈", field: topic, pattern: "创伤与疗愈" }
       - { label: "实践指南", field: topic, pattern: "实践指南" }
+
 ```
 
 ### 本地开发配置：`docs/admin/config.local.yml`
@@ -194,12 +198,14 @@ collections:
 ### Q: 为什么搜索不到某个词条？
 
 A: Sveltia CMS 使用即时搜索，确保：
+
 - 搜索关键词存在于词条标题或正文中
 - 已等待页面完全加载（159 个词条）
 
 ### Q: 本地仓库模式无法使用？
 
 A: 检查：
+
 - 浏览器是否为 Chrome/Edge
 - 是否选择了正确的仓库根目录
 - 是否有文件读写权限
@@ -207,6 +213,7 @@ A: 检查：
 ### Q: 更改没有保存？
 
 A: 确认：
+
 - 点击了 "Save" 按钮
 - 没有验证错误（红色提示）
 - 本地仓库模式下，更改会立即写入文件
@@ -214,6 +221,7 @@ A: 确认：
 ### Q: 如何回滚错误的提交？
 
 A: 使用 Git 命令：
+
 ```bash
 git log --oneline  # 查看提交历史
 git revert <commit-hash>  # 回滚指定提交

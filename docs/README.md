@@ -41,7 +41,7 @@
 
 ### 系统运作
 
-- **[系统运作导览](entries/System-Operations.md)** : 提供专题导航，串联前台、记忆协作与治理结构等重点文章。
+- [**系统运作导览**](entries/System-Operations.md) : 提供专题导航，串联前台、记忆协作与治理结构等重点文章。
 - **前台与切换** : 从 [前台（Fronting）](entries/Front-Fronting.md)、[切换（Switch）](entries/Switch.md) 到 [共同前台（Co-Fronting）](entries/Co-Fronting.md)，理解成员如何交接与协作。
 - **意识共享与记忆管理** : 结合 [共同意识](entries/Co-Consciousness.md)、[记忆持有人](entries/Memory-Holder.md)、[记忆屏障](entries/Memory-Shielding.md) 等词条，探索信息流动与安全策略。
 - **内部空间与协作机制** : 阅读 [内心世界](entries/Headspace-Inner-World.md)、[内部交流](entries/Internal-Communication.md)、[系统角色](entries/System-Roles.md)、[管理者](entries/Admin.md)、[守门人](entries/Gatekeeper.md)、[保护者](entries/Protector.md) 与 [权限](entries/Permissions.md)，建立治理框架。

@@ -6,21 +6,21 @@
 
 ### 部署相关
 
-- **[CLOUDFLARE_PAGES.md](CLOUDFLARE_PAGES.md)** - Cloudflare Pages 部署配置说明
+- [**CLOUDFLARE_PAGES.md**](CLOUDFLARE_PAGES.md) - Cloudflare Pages 部署配置说明
 
 ### 迁移记录
 
-- **[MIGRATION_REPORT.md](MIGRATION_REPORT.md)** - Docsify → MkDocs Material 迁移完整报告
+- [**MIGRATION_REPORT.md**](MIGRATION_REPORT.md) - Docsify → MkDocs Material 迁移完整报告
 
 ### 开发指南
 
-- **[THEME_GUIDE.md](THEME_GUIDE.md)** - MkDocs Material 主题配置与自定义指南
-- **[CSS_GUIDE.md](CSS_GUIDE.md)** - 样式系统开发指南
-- **[INDEX_GUIDE.md](INDEX_GUIDE.md)** - 导航和索引配置指南
+- [**THEME_GUIDE.md**](THEME_GUIDE.md) - MkDocs Material 主题配置与自定义指南
+- [**CSS_GUIDE.md**](CSS_GUIDE.md) - 样式系统开发指南
+- [**INDEX_GUIDE.md**](INDEX_GUIDE.md) - 导航和索引配置指南
 
 ### 问题修复
 
-- **[HOMEPAGE_FIX.md](HOMEPAGE_FIX.md)** - 首页问题修复记录
+- [**HOMEPAGE_FIX.md**](HOMEPAGE_FIX.md) - 首页问题修复记录
 
 ---
 

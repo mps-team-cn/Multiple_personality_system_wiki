@@ -29,11 +29,15 @@
 **本地编辑**：
 
 ```bash
+
 # 启动本地服务器
+
 python -m http.server 8000 --directory docs
 
 # 访问 http://localhost:8000/admin/
+
 # 点击 "Work with Local Repository" 选择仓库目录
+
 ```
 
 详见 [本地开发指南](local-dev-server.md)
