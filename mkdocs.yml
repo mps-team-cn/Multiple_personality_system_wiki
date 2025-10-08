@@ -1,9 +1,9 @@
 site_name: Plurality Wiki - 多意识体百科
-site_url: https://wiki.pluralitycn.com
+site_url: https://mpswiki.pages.dev
 site_description: 多重意识体系统（Plurality）与创伤相关主题的中文知识库
 site_author: 脸脸系统、弦羽系统、逝水流年系统及社区贡献者
-repo_url: https://github.com/mps-team-cn/plurality_wiki
-repo_name: plurality_wiki
+repo_url: https://github.com/mps-team-cn/Multiple_personality_system_wiki
+repo_name: Multiple_personality_system_wiki
 copyright: Copyright &copy; 2024-2025 Plurality Wiki
 edit_uri: edit/main/docs/
 
@@ -169,7 +169,7 @@ markdown_extensions:
   - pymdownx.magiclink:
       repo_url_shorthand: true
       user: mps-team-cn
-      repo: plurality_wiki
+      repo: Multiple_personality_system_wiki
   - pymdownx.smartsymbols
   - pymdownx.snippets:
       auto_append:

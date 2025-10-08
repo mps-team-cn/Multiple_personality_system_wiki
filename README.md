@@ -8,8 +8,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Docs status](https://img.shields.io/badge/docs-online-brightgreen.svg)](https://mpswiki.pages.dev/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](CONTRIBUTING.md)
-[![Stars](https://img.shields.io/github/stars/mps-team-cn/plurality_wiki?style=social)](https://github.com/mps-team-cn/plurality_wiki/stargazers)
-[![工作流 状态](https://img.shields.io/github/actions/workflow/status/mps-team-cn/plurality_wiki/docs_quality.yml?label=CI&logo=github)](https://github.com/mps-team-cn/plurality_wiki/actions/workflows/docs_quality.yml)
+[![Stars](https://img.shields.io/github/stars/mps-team-cn/Multiple_personality_system_wiki?style=social)](https://github.com/mps-team-cn/Multiple_personality_system_wiki/stargazers)
+[![工作流 状态](https://img.shields.io/github/actions/workflow/status/mps-team-cn/Multiple_personality_system_wiki/docs_quality.yml?label=CI&logo=github)](https://github.com/mps-team-cn/Multiple_personality_system_wiki/actions/workflows/docs_quality.yml)
 
 ---
 
