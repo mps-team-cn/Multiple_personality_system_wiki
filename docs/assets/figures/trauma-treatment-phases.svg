@@ -1,93 +1,138 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" role="img" aria-labelledby="phases-title phases-desc">
-  <title id="phases-title">创伤治疗三阶段模型</title>
-  <desc id="phases-desc">展示创伤治疗的经典三阶段流程：安全稳定、创伤处理、整合成长</desc>
+<svg viewBox="0 0 880 260" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">创伤治疗三阶段模型（兼容版）</title>
+  <desc id="desc">去除在部分环境不兼容的 var() 属性填色与滤镜，确保本地/老旧浏览器/导出 PDF 场景稳定显示。</desc>
 
   <defs>
-    <!-- 渐变定义 -->
-    <linearGradient id="phase1Gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#2196F3;stop-opacity:0.3" />
-      <stop offset="100%" style="stop-color:#2196F3;stop-opacity:0.5" />
-    </linearGradient>
+    <style>
+      :root{
+        /* 浅色主题 */
+        --bg: #ffffff;
+        --fg: #1f2328;
+        --muted: #6b7280;
+        --edge: #94a3b8;
+        --p1: #1976D2;  /* 安全稳定 */
+        --p2: #7B1FA2;  /* 创伤处理 */
+        --p3: #2E7D32;  /* 整合成长 */
+        color-scheme: light dark;
+      }
+      @media (prefers-color-scheme: dark){
+        :root{
+          /* 深色主题 */
+          --bg: #0b0f14;
+          --fg: #e6edf3;
+          --muted: #a5adba;
+          --edge: #6b778c;
+          --p1: #66a6ff;
+          --p2: #b18ce6;
+          --p3: #7bdba0;
+        }
+      }
 
-    <linearGradient id="phase2Gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#9C27B0;stop-opacity:0.3" />
-      <stop offset="100%" style="stop-color:#9C27B0;stop-opacity:0.5" />
-    </linearGradient>
+      /* 通用文字样式 */
+      text{
+        font: 500 14px system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif;
+        fill: var(--fg);
+        dominant-baseline: middle;
+        text-anchor: middle;
+      }
+      .title{ font-weight: 700; fill: var(--muted); }
+      .hint{ font-size: 12px; fill: var(--muted); }
+      .phase-title{ font-weight: 700; }
+      .kw{ font-size: 12px; fill: var(--muted); }
 
-    <linearGradient id="phase3Gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:0.3" />
-      <stop offset="100%" style="stop-color:#4CAF50;stop-opacity:0.5" />
-    </linearGradient>
+      /* 容器与边框 */
+      .card { fill: var(--bg); stroke: var(--edge); stroke-opacity: .4; vector-effect: non-scaling-stroke; }
 
-    <!-- 箭头标记 -->
-    <marker id="phaseArrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
-      <polygon points="0,5 10,0 10,10" fill="#666" />
+      /* 边线与箭头（通过类控制颜色，避免在属性里用 var()） */
+      .edge { stroke: var(--edge); stroke-width: 2.5; vector-effect: non-scaling-stroke; stroke-linecap: round; }
+      .arrow-path { fill: var(--edge); }
+
+      /* 相位颜色（通过类统一控制） */
+      .phase1-stroke { stroke: var(--p1); }
+      .phase2-stroke { stroke: var(--p2); }
+      .phase3-stroke { stroke: var(--p3); }
+
+      .phase1-fill { fill: var(--p1); }
+      .phase2-fill { fill: var(--p2); }
+      .phase3-fill { fill: var(--p3); }
+
+      /* 渐变 stop 使用 CSS 绑定，避免 stop-color 属性里直接写 var() */
+      .g1-stop { stop-color: var(--p1); }
+      .g2-stop { stop-color: var(--p2); }
+      .g3-stop { stop-color: var(--p3); }
+    </style>
+
+    <!-- 不使用滤镜（兼容 Inkscape/某些 PDF 导出），仅纯色/渐变 -->
+    <marker id="arrow" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto">
+      <path class="arrow-path" d="M0,0 L12,5 L0,10 Z"/>
     </marker>
+
+    <!-- 渐变：不在属性里用 var()，改为给 stop 加类 -->
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" class="g1-stop" stop-opacity=".18"/>
+      <stop offset="100%" class="g1-stop" stop-opacity=".36"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" class="g2-stop" stop-opacity=".18"/>
+      <stop offset="100%" class="g2-stop" stop-opacity=".36"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" class="g3-stop" stop-opacity=".18"/>
+      <stop offset="100%" class="g3-stop" stop-opacity=".36"/>
+    </linearGradient>
   </defs>
 
+  <!-- 背板（不透明，避免深色背景穿透） -->
+  <rect x="16" y="16" width="848" height="228" rx="16" class="card" />
+
   <!-- 顶部标题 -->
-  <text x="400" y="25" font-family="Noto Sans SC, sans-serif" font-size="16" font-weight="bold" fill="#666" text-anchor="middle">阶段化创伤治疗模型</text>
+  <text x="440" y="36" class="title">阶段化创伤治疗模型</text>
 
-  <!-- 阶段 1：安全与稳定 -->
-  <g id="phase1">
-    <rect x="30" y="50" width="210" height="120" rx="12" fill="url(#phase1Gradient)" stroke="#1976D2" stroke-width="2"/>
+  <!-- Phase 1 -->
+  <g transform="translate(40,60)">
+    <rect x="0" y="0" width="250" height="140" rx="12" fill="url(#g1)" class="card phase1-stroke" stroke-width="2"/>
+    <circle cx="26" cy="22" r="14" class="phase1-fill"/>
+    <text x="26" y="22" fill="#ffffff" font-weight="700">1</text>
 
-    <!-- 阶段编号 -->
-    <circle cx="60" cy="80" r="16" fill="#1976D2" stroke="#FFF" stroke-width="2"/>
-    <text x="60" y="86" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFF" text-anchor="middle">1</text>
+    <text x="125" y="26" class="phase-title" style="fill:var(--p1)">安全稳定</text>
+    <text x="125" y="46" class="hint">Safety &amp; Stabilization</text>
 
-    <!-- 阶段标题 -->
-    <text x="135" y="80" font-family="Noto Sans SC, sans-serif" font-size="17" font-weight="bold" fill="#1565C0" text-anchor="middle">安全稳定</text>
-    <text x="135" y="100" font-family="Arial, sans-serif" font-size="12" fill="#1976D2" text-anchor="middle">Safety &amp;</text>
-    <text x="135" y="115" font-family="Arial, sans-serif" font-size="12" fill="#1976D2" text-anchor="middle">Stabilization</text>
-
-    <!-- 关键词 -->
-    <text x="135" y="140" font-family="Noto Sans SC, sans-serif" font-size="11" fill="#555" text-anchor="middle">建立信任</text>
-    <text x="135" y="157" font-family="Noto Sans SC, sans-serif" font-size="11" fill="#555" text-anchor="middle">情绪调节</text>
+    <text x="125" y="84" class="kw">建立信任</text>
+    <text x="125" y="106" class="kw">情绪调节</text>
   </g>
 
-  <!-- 连接箭头 1→2 -->
-  <line x1="250" y1="110" x2="290" y2="110" stroke="#666" stroke-width="2.5" marker-end="url(#phaseArrow)"/>
+  <!-- 箭头 1→2 -->
+  <line x1="292" y1="130" x2="332" y2="130" class="edge" marker-end="url(#arrow)"/>
 
-  <!-- 阶段 2：创伤处理 -->
-  <g id="phase2">
-    <rect x="295" y="50" width="210" height="120" rx="12" fill="url(#phase2Gradient)" stroke="#7B1FA2" stroke-width="2"/>
+  <!-- Phase 2 -->
+  <g transform="translate(340,60)">
+    <rect x="0" y="0" width="250" height="140" rx="12" fill="url(#g2)" class="card phase2-stroke" stroke-width="2"/>
+    <circle cx="26" cy="22" r="14" class="phase2-fill"/>
+    <text x="26" y="22" fill="#ffffff" font-weight="700">2</text>
 
-    <!-- 阶段编号 -->
-    <circle cx="325" cy="80" r="16" fill="#7B1FA2" stroke="#FFF" stroke-width="2"/>
-    <text x="325" y="86" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFF" text-anchor="middle">2</text>
+    <text x="125" y="26" class="phase-title" style="fill:var(--p2)">创伤处理</text>
+    <text x="125" y="46" class="hint">Trauma Processing</text>
 
-    <!-- 阶段标题 -->
-    <text x="400" y="80" font-family="Noto Sans SC, sans-serif" font-size="17" font-weight="bold" fill="#6A1B9A" text-anchor="middle">创伤处理</text>
-    <text x="400" y="100" font-family="Arial, sans-serif" font-size="12" fill="#7B1FA2" text-anchor="middle">Trauma</text>
-    <text x="400" y="115" font-family="Arial, sans-serif" font-size="12" fill="#7B1FA2" text-anchor="middle">Processing</text>
-
-    <!-- 关键词 -->
-    <text x="400" y="140" font-family="Noto Sans SC, sans-serif" font-size="11" fill="#555" text-anchor="middle">记忆加工</text>
-    <text x="400" y="157" font-family="Noto Sans SC, sans-serif" font-size="11" fill="#555" text-anchor="middle">情感表达</text>
+    <text x="125" y="84" class="kw">记忆加工</text>
+    <text x="125" y="106" class="kw">情感表达</text>
   </g>
 
-  <!-- 连接箭头 2→3 -->
-  <line x1="515" y1="110" x2="555" y2="110" stroke="#666" stroke-width="2.5" marker-end="url(#phaseArrow)"/>
+  <!-- 箭头 2→3 -->
+  <line x1="592" y1="130" x2="632" y2="130" class="edge" marker-end="url(#arrow)"/>
 
-  <!-- 阶段 3：整合成长 -->
-  <g id="phase3">
-    <rect x="560" y="50" width="210" height="120" rx="12" fill="url(#phase3Gradient)" stroke="#388E3C" stroke-width="2"/>
+  <!-- Phase 3 -->
+  <g transform="translate(640,60)">
+    <rect x="0" y="0" width="250" height="140" rx="12" fill="url(#g3)" class="card phase3-stroke" stroke-width="2"/>
+    <circle cx="26" cy="22" r="14" class="phase3-fill"/>
+    <text x="26" y="22" fill="#ffffff" font-weight="700">3</text>
 
-    <!-- 阶段编号 -->
-    <circle cx="590" cy="80" r="16" fill="#388E3C" stroke="#FFF" stroke-width="2"/>
-    <text x="590" y="86" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFF" text-anchor="middle">3</text>
+    <text x="125" y="26" class="phase-title" style="fill:var(--p3)">整合成长</text>
+    <text x="125" y="46" class="hint">Integration &amp; Growth</text>
 
-    <!-- 阶段标题 -->
-    <text x="665" y="80" font-family="Noto Sans SC, sans-serif" font-size="17" font-weight="bold" fill="#2E7D32" text-anchor="middle">整合成长</text>
-    <text x="665" y="100" font-family="Arial, sans-serif" font-size="12" fill="#388E3C" text-anchor="middle">Integration &amp;</text>
-    <text x="665" y="115" font-family="Arial, sans-serif" font-size="12" fill="#388E3C" text-anchor="middle">Growth</text>
-
-    <!-- 关键词 -->
-    <text x="665" y="140" font-family="Noto Sans SC, sans-serif" font-size="11" fill="#555" text-anchor="middle">重建生活</text>
-    <text x="665" y="157" font-family="Noto Sans SC, sans-serif" font-size="11" fill="#555" text-anchor="middle">发展关系</text>
+    <text x="125" y="84" class="kw">重建生活</text>
+    <text x="125" y="106" class="kw">发展关系</text>
   </g>
 
   <!-- 底部提示 -->
-  <text x="400" y="195" font-family="Noto Sans SC, sans-serif" font-size="10" fill="#888" text-anchor="middle">注：各阶段可能交叉重叠，治疗过程非严格线性</text>
+  <text x="440" y="212" class="hint">注：各阶段可能交叉重叠，治疗过程并非严格线性</text>
 </svg>
