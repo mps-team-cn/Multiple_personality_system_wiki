@@ -71,6 +71,12 @@
 
 1. 分析需求 → 2. 获取上下文 → 3. 选择工具 → 4. 执行任务 → 5. 验证质量 → 6. 存储知识
 
+### 版本维护流程
+
+- 发布前必须逐条核对 `changelog.md`，确认版本号、日期与关键变更记录完整。
+- 使用 GitHub CLI：`gh release create <tag> --notes-file changelog.md`（或 `gh release edit`）同步发布说明，并推送相应标签。
+- 若 `changelog.md` 未更新或与实际改动不符，禁止创建 Release，需先补全记录。
+
 ## MANDATORY TOOL STRATEGY
 
 ═══════════════════════════════════════
