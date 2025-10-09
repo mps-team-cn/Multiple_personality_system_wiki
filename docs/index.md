@@ -1,15 +1,16 @@
 # Multiple Personality System Wiki - 多意识体系统百科
 
-【术语说明】
-为简化表述，本 Wiki 内容中使用的缩写 MPS，默认指代 Multiple Personality System (MPS)。
-请注意，社群中更常使用的中立性术语为 Plural System。同时，考虑到理论描述的精确性，MPS 亦可被理解为 Multiple Consciousness System (MCS)——一个专注于描述意识多元性本身的理论性术语。
-读者可根据自身语境选择最合适的理解。
+!!! tip 术语说明
+
+    - 为简化表述，本 Wiki 内容中使用的缩写 `MPS`，默认指代 `Multiple Personality System` (`MPS`)。
+    - 请注意，社群中更常使用的中立性术语为 `Plural System`。同时，考虑到理论描述的精确性，`MPS` 亦可被理解为 `Multiple Consciousness System` (`MCS`)——一个专注于描述意识多元性本身的理论性术语。
+    - 读者可根据自身语境选择最合适的理解。
 
 <div class="home-hero" markdown>
 
-## :material-star-four-points-circle: 以知识点亮 MPS 之路
+### :material-star-four-points-circle: 以知识点亮 MPS 之路
 
-从概念入门到实践工具，我们致力于用中文整理关于多意识体系统（Multiple Personality System，简称 **MPS**）与创伤照护的可靠资料，陪伴你理解自我、照顾伙伴，并与同路人建立连结。
+从概念入门到实践工具，我们致力于用中文整理关于多意识体系统（`Multiple Personality System`，简称 **`MPS`**）与创伤照护的可靠资料，陪伴你理解自我、照顾伙伴，并与同路人建立连结。
 
 [开始探索](tags.md){ .md-button .md-button--primary }
 [加入共建](contributing/index.md){ .md-button }
