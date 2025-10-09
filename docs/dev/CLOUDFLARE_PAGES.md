@@ -1,6 +1,6 @@
 # Cloudflare Pages 部署配置
 
-本文档说明如何在 Cloudflare Pages 上部署 Plurality Wiki (MkDocs Material 版本)。
+本文档说明如何在 Cloudflare Pages 上部署 Multiple Personality System Wiki (MkDocs Material 版本)。
 
 ## 配置步骤
 

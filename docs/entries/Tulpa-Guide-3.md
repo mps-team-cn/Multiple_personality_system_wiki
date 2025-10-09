@@ -14,7 +14,7 @@ updated: 2025-10-06
 # Tulpa 完全创造指南·提高篇
 
 > **原文来源** ：百度贴吧 tulpa 吧
-> **整理编辑** ：Plurality Wiki 资料库
+> **整理编辑** ：Multiple Personality System Wiki 资料库
 > **章节** ：提高篇 - 投影、附体与意识交换
 
 ---

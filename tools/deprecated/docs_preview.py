@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Plurality Wiki 本地预览辅助脚本。
+"""Multiple Personality System Wiki 本地预览辅助脚本。
 
 默认直接启动 Python `http.server`（端口 4173），
 如需 docsify-cli 预览可显式指定对应参数。
@@ -26,7 +26,7 @@ DOCSIFY_REGISTRIES = (
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Plurality Wiki 本地预览脚本：默认 Python 服务器，可选 docsify。"
+        description="Multiple Personality System Wiki 本地预览脚本：默认 Python 服务器，可选 docsify。"
     )
     parser.add_argument(
         "directory",

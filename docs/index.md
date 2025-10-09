@@ -1,4 +1,4 @@
-# Plurality Wiki - 多意识体百科
+# Multiple Personality System Wiki - 多意识体百科
 
 ## 探索多重意识体的知识、经验与协作
 

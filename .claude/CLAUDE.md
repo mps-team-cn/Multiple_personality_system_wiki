@@ -1,4 +1,4 @@
-# Plurality Wiki - Claude 工作指导
+# Multiple Personality System Wiki - Claude 工作指导
 
 ## CRITICAL CONSTRAINTS - 违反=任务失败
 

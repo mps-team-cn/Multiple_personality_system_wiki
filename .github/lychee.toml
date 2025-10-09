@@ -24,7 +24,7 @@ retry_wait_time = 3
 max_retries = 3
 
 # 用户代理标识
-user_agent = "Plurality Wiki CI"
+user_agent = "Multiple Personality System Wiki CI"
 
 # 控制台输出
 no_progress = true

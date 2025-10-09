@@ -140,7 +140,7 @@
   - 更新 Core-Concepts-Guide.md 使用 SVG 替代文本图表
 
 - **品牌设计更新**
-  - 更新 favicon 为 Plurality Wiki 专属网络连接图案
+  - 更新 favicon 为 Multiple Personality System Wiki 专属网络连接图案
   - 清理根目录遗留的 assets 文件夹
   - 清理 Docsify 遗留的数据文件和 legacy 目录
 

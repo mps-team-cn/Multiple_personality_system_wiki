@@ -1,6 +1,6 @@
 # 前端架构说明
 
-本文档说明 Plurality Wiki 前端的模块化架构设计。
+本文档说明 Multiple Personality System Wiki 前端的模块化架构设计。
 
 ## 概述
 
