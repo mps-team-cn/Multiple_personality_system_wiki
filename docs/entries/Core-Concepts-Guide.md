@@ -56,7 +56,7 @@ updated: 2025-10-06
 
 ### 多意识体是什么?
 
-**多意识体([Plurality](Plurality.md))** 指一个个体内部存在两个或以上相对独立、可持续运作的意识单元。这些意识单元(成员)能够在不同程度上共享记忆、情绪与身体控制权。
+**多意识体([Plurality](Multiple_Personality_System.md))** 指一个个体内部存在两个或以上相对独立、可持续运作的意识单元。这些意识单元(成员)能够在不同程度上共享记忆、情绪与身体控制权。
 
 ### 解离如何产生多意识体?
 
@@ -78,7 +78,7 @@ updated: 2025-10-06
 - **隔阂感** :感受到不属于自己的思维被"塞"入大脑
 - **失忆** :对某段时间或某些事件完全没有记忆
 
-详细了解请参阅：[多意识体（Plurality）](Plurality.md)、[系统（System）](System.md)
+详细了解请参阅：[多意识体（Plurality）](Multiple_Personality_System.md)、[系统（System）](System.md)
 
 ---
 
@@ -217,7 +217,7 @@ updated: 2025-10-06
 ### 🔍 核心概念词条
 
 - [解离（Dissociation）](Dissociation.md) - 一切的基础
-- [多意识体（Plurality）](Plurality.md) - 总体概念
+- [多意识体（Plurality）](Multiple_Personality_System.md) - 总体概念
 - [系统（System）](System.md) - 系统的定义与运作
 
 ### 🏥 临床诊断相关

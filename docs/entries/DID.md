@@ -155,7 +155,7 @@ DID 的治疗通常遵循分阶段模式：
 ### 多意识体相关
 
 - [系统（System）](System.md)
-- [多意识体（Plurality）](Plurality.md)
+- [多意识体（Plurality）](Multiple_Personality_System.md)
 - [混合（Blending）](Blending.md)
 - [多重意识体基础（Plurality Basics）](Plurality-Basics.md)
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)

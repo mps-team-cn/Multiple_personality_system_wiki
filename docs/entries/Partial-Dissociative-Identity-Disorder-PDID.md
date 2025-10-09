@@ -141,7 +141,7 @@ DSM-5 未单列部分解离性身份障碍，临床上通常归入 **OSDD-1（Ot
 
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md)
 - [系统（System）](System.md)
-- [多意识体（Plurality）](Plurality.md)
+- [多意识体（Plurality）](Multiple_Personality_System.md)
 - [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
 - [多重意识体基础（Plurality Basics）](Plurality-Basics.md)
 - [混合（Blending）](Blending.md)

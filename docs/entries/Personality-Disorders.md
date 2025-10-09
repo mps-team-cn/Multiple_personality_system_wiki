@@ -28,7 +28,7 @@ synonyms:
 
 ## 概述
 
-人格障碍（Personality Disorders, PD）是一组以**长期、僵化且适应不良的认知、情绪、人际关系与行为模式**为特征的精神障碍，这些模式在青少年或成年早期形成，显著偏离文化期待，并导致主观痛苦或功能受损。DSM-5-TR 将人格障碍分为三大组（A 组、B 组、C 组），共 10 种特定类型；ICD-11 则采用维度化评估，强调人格功能受损的严重程度与特质域描述。
+人格障碍（Personality Disorders, PD）是一组以 **长期、僵化且适应不良的认知、情绪、人际关系与行为模式** 为特征的精神障碍，这些模式在青少年或成年早期形成，显著偏离文化期待，并导致主观痛苦或功能受损。DSM-5-TR 将人格障碍分为三大组（A 组、B 组、C 组），共 10 种特定类型；ICD-11 则采用维度化评估，强调人格功能受损的严重程度与特质域描述。
 
 ---
 
@@ -37,6 +37,7 @@ synonyms:
 ### DSM-5-TR 摘要
 
 **通用诊断标准**：
+
 - 持久的内在体验与行为模式，显著偏离文化期待，表现在以下两个或更多领域：
   1. 认知（对自我、他人与事件的感知与解释）
   2. 情感性（情绪反应的范围、强度、不稳定性与适切性）
@@ -51,17 +52,20 @@ synonyms:
 **DSM-5-TR 三组分类**：
 
 **A 组（奇异/怪异）**：
+
 - [偏执型人格障碍](Paranoid-Personality-Disorder-PPD.md)：普遍不信任与猜疑
 - [分裂样人格障碍](Schizoid-Personality-Disorder-SzPD.md)：社交疏离与情感受限
 - [分裂型人格障碍](Schizotypal-Personality-Disorder-STPD.md)：社交缺陷伴认知/感知扭曲
 
 **B 组（戏剧性/情绪化/不稳定）**：
+
 - [反社会人格障碍](Antisocial-Personality-Disorder-ASPD.md)：无视与侵犯他人权利
 - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)：情绪不稳、人际混乱、身份认同困扰
 - [表演型人格障碍](Histrionic-Personality-Disorder-HPD.md)：过度情绪化与寻求关注
 - [自恋型人格障碍（NPD）](Narcissistic-Personality-Disorder-NPD.md)：夸大、需要赞美、缺乏共情
 
 **C 组（焦虑/恐惧）**：
+
 - [回避型人格障碍](Avoidant-Personality-Disorder-AvPD.md)：社交抑制、不适感与过度敏感
 - [依赖型人格障碍](Dependent-Personality-Disorder-DPD.md)：顺从与依附需求
 - [强迫型人格障碍](Obsessive-Compulsive-Personality-Disorder-OCPD.md)：完美主义与控制（注意区分 OCD）
@@ -69,11 +73,12 @@ synonyms:
 ### ICD-11 摘要
 
 **人格障碍（6D10-6D11）**：
-- ICD-11 采用维度化模型，首先评估**人格功能受损的严重程度**：
+
+- ICD-11 采用维度化模型，首先评估 **人格功能受损的严重程度**：
   - 轻度（6D10.0）
   - 中度（6D10.1）
   - 重度（6D10.2）
-- 然后根据需要标注**显著的人格特质域**：
+- 然后根据需要标注 **显著的人格特质域**：
   - 负性情感（Negative Affectivity）
   - 疏离（Detachment）
   - 去抑制（Disinhibition）
@@ -146,6 +151,7 @@ synonyms:
 ### 心理治疗
 
 **针对特定人格障碍的循证疗法**：
+
 - **边缘性人格障碍（BPD）**：
   - 辩证行为疗法（DBT）：情绪调节、冲动控制、人际效能
   - 心理化取向治疗（MBT）：增强心智化能力

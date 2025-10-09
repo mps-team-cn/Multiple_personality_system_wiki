@@ -61,7 +61,7 @@ jobs:
         with:
           args: >-
             --config .github/lychee.toml
-            --remap '^/entries/ https://kuliantnt.github.io/plurality_wiki/entries/'
+            --remap '^/entries/ https://kuliantnt.github.io/Multiple_Personality_System_wiki/entries/'
             --no-progress
             --verbose
             ./

@@ -46,8 +46,8 @@ def parse_arguments(argv: Sequence[str] | None = None) -> argparse.Namespace:
         "-o",
         "--output",
         type=Path,
-        default=PROJECT_ROOT / "plurality_wiki.pdf",
-        help="输出 PDF 文件路径 (默认: plurality_wiki.pdf)",
+        default=PROJECT_ROOT / "Multiple_Personality_System_wiki.pdf",
+        help="输出 PDF 文件路径 (默认: Multiple_Personality_System_wiki.pdf)",
     )
     parser.add_argument(
         "--pandoc",

@@ -70,7 +70,7 @@ Sveltia CMS 支持直接访问本地 Git 仓库，无需代理服务器。
 
 4. **选择仓库目录**
 
-   在弹出的文件选择器中，选择 `plurality_wiki` 仓库的根目录
+   在弹出的文件选择器中，选择 `Multiple_Personality_System_wiki` 仓库的根目录
 
 5. **开始编辑**
 
@@ -134,7 +134,7 @@ Sveltia CMS 支持直接访问本地 Git 仓库，无需代理服务器。
 ```yaml
 backend:
   name: github
-  repo: mps-team-cn/plurality_wiki
+  repo: mps-team-cn/Multiple_Personality_System_wiki
   branch: main
   base_url: https://mpswiki.pages.dev
   auth_endpoint: /api/auth

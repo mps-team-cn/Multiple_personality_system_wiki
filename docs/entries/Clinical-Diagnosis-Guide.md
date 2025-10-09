@@ -233,7 +233,7 @@ updated: 2025-10-09
 
 ### 18. 人格障碍（Personality Disorders）
 
-- **[人格障碍总览（Personality Disorders）](Personality-Disorders.md)**：综述 DSM-5-TR 与 ICD-11 人格障碍分类体系、诊断要点、共病管理与治疗方法。
+- [**人格障碍总览（Personality Disorders）**](Personality-Disorders.md)：综述 DSM-5-TR 与 ICD-11 人格障碍分类体系、诊断要点、共病管理与治疗方法。
 
 - **A 组人格障碍（奇异/怪异）**：
   - [偏执型人格障碍（PPD）](Paranoid-Personality-Disorder-PPD.md)：广泛不信任与猜疑，对批评高度敏感。

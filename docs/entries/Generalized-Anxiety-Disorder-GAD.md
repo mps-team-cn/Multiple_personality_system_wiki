@@ -30,7 +30,7 @@ synonyms:
 
 ## 概述
 
-广泛性焦虑障碍（Generalized Anxiety Disorder, GAD）是一种以**过度焦虑与担忧**为核心特征的焦虑障碍，这种担忧涉及多种日常事务或活动（如工作、学业、健康、人际关系），难以控制且持续至少 6 个月。患者常伴随躯体症状（如肌肉紧张、疲劳、睡眠障碍、注意力难集中），导致显著痛苦或功能受损。GAD 在创伤幸存者及多意识体系统中高度普遍，常与 PTSD、CPTSD、抑郁障碍共病。
+广泛性焦虑障碍（Generalized Anxiety Disorder, GAD）是一种以 **过度焦虑与担忧** 为核心特征的焦虑障碍，这种担忧涉及多种日常事务或活动（如工作、学业、健康、人际关系），难以控制且持续至少 6 个月。患者常伴随躯体症状（如肌肉紧张、疲劳、睡眠障碍、注意力难集中），导致显著痛苦或功能受损。GAD 在创伤幸存者及多意识体系统中高度普遍，常与 PTSD、CPTSD、抑郁障碍共病。
 
 ---
 
@@ -40,11 +40,12 @@ synonyms:
 
 **广泛性焦虑障碍诊断标准（300.02）**：
 
-**A. 过度焦虑与担忧**（apprehensive expectation），涉及多种事件或活动，**至少 6 个月内多数日子**存在。
+**A. 过度焦虑与担忧**（apprehensive expectation），涉及多种事件或活动，**至少 6 个月内多数日子** 存在。
 
 **B. 难以控制担忧**。
 
-**C. 焦虑与担忧伴随以下至少 **3 项**症状**（儿童仅需 1 项）：
+**C. 焦虑与担忧伴随以下至少**3 项 **症状**（儿童仅需 1 项）：
+
 1. 坐立不安或感到紧张或不安
 2. 易疲劳
 3. 注意力难集中或脑子一片空白
@@ -61,7 +62,8 @@ synonyms:
 ### ICD-11 摘要
 
 **广泛性焦虑障碍（6B00）**：
-- 以**广泛且持续的焦虑或担忧**为特征，不局限于特定情境或对象。
+
+- 以 **广泛且持续的焦虑或担忧** 为特征，不局限于特定情境或对象。
 - 伴随多种躯体症状（如肌肉紧张、心悸、头晕、胃肠不适）与精神症状（如易激惹、注意力难集中）。
 - 症状持续数月（通常至少数个月），导致显著痛苦或功能受损。
 - 焦虑不局限于惊恐发作、社交情境或强迫观念。
@@ -158,6 +160,7 @@ synonyms:
 ### 心理治疗
 
 **循证心理治疗**（一线治疗）：
+
 - **认知行为疗法（CBT）**：
   - 识别与修正灾难化思维、过度担忧与负性自动思维。
   - 发展问题解决技巧与担忧管理策略（如设定"担忧时间"）。
@@ -173,15 +176,18 @@ synonyms:
 ### 药物治疗
 
 **一线药物**：
+
 - **SSRIs（选择性5-羟色胺再摄取抑制剂）**：如舍曲林、帕罗西汀、艾司西酞普兰。
 - **SNRIs（5-羟色胺-去甲肾上腺素再摄取抑制剂）**：如文拉法辛、度洛西汀。
 
 **二线或辅助药物**：
+
 - **布斯吡隆（Buspirone）**：抗焦虑药，无依赖风险，但起效较慢（2-4 周）。
 - **普瑞巴林（Pregabalin）**：部分国家/地区用于 GAD。
 - **苯二氮卓类**（如劳拉西泮、阿普唑仑）：**仅短期使用**（2-4 周），长期使用有依赖、耐受与戒断风险。
 
 **注意事项**：
+
 - 药物需 4-6 周起效，初期可能出现焦虑加重或副作用。
 - 对 DID 系统，需明确记录服药者与剂量，避免重复用药或遗漏。
 
@@ -236,6 +242,6 @@ synonyms:
 
 1. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.).*
 2. World Health Organization. (2019). *ICD-11 for Mortality and Morbidity Statistics.*
-3. National Institute of Mental Health. (2022). *Generalized Anxiety Disorder: When Worry Gets Out of Control.* https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad
+3. National Institute of Mental Health. (2022). *Generalized Anxiety Disorder: When Worry Gets Out of Control.* [https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad](https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad)
 4. Bandelow, B., et al. (2015). Efficacy of treatments for anxiety disorders: A meta-analysis. *International Clinical Psychopharmacology*, 30(4), 183-192.
 5. Borkovec, T. D., & Ruscio, A. M. (2001). Psychotherapy for generalized anxiety disorder. *Journal of Clinical Psychiatry*, 62(Suppl 11), 37-42.
