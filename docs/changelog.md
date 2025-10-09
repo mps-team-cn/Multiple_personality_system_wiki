@@ -1,5 +1,63 @@
 # 更新日志
 
+## [v3.8.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.8.0) - 导航优化与新手体验提升 (2025-10-10)
+
+### 📚 内容优化
+
+- **全面优化快速开始指南**
+  - 新增"专题深入"章节，整合 5 个专题导览（临床诊断、创伤疗愈、角色身份、理论分类、文化媒体）
+  - 重新组织学习路径：基础入门（4个导览）+ 专题深入（5个导览）
+  - 新增推荐学习路线：新手路线（0-4周）、进阶路线（1-3个月）、精通路线（3个月以上）
+  - 新增常见问题："9个导览页面该如何使用？"
+  - 优化阅读技巧，添加"从导览开始"提示
+
+### ♻️ 术语统一
+
+- **统一"接地（Grounding）"术语表述**
+  - `docs/index-simple.md`: "立足当下" → "接地"
+  - `docs/README.md`: "立足当下" → "接地"
+  - `tools/deprecated/retag_and_related.py`: "地面化" → "接地"
+  - 确保全站术语一致性
+
+### 🎨 导航优化
+
+- **新增专题导览导航栏**
+  - 在 `mkdocs.yml` 添加"专题导览"一级导航
+  - 收录 5 个专题导览页面，提供进阶学习入口
+
+- **优化导航结构，移除重复条目**
+  - 从"系统运作"移除内部空间、沟通、权限（保留在"实践指南 > 内部协作"）
+  - 从"心理健康"移除解离（保留在"核心概念"）和接地（保留在"实践指南"）
+  - 确保每个词条在导航中仅出现一次，提高清晰度
+
+### ✨ 新增功能
+
+- **新增 404 错误页面** (`docs/404.md`)
+  - 提供友好的导航引导
+  - 包含快速链接：首页、标签索引、术语表、快速开始
+  - 说明常见原因和使用提示
+
+### 🐛 Bug 修复
+
+- **修复 MkDocs 构建警告**
+  - 修正导航中贡献指南路径：`CONTRIBUTING.md` → `contributing/index.md`
+  - 修复术语表中缺失的链接：`Pathological-Dissociation.md` → `Dissociative-Disorders.md`
+
+- **修正贡献指南链接路径**
+  - `docs/QuickStart.md`: `CONTRIBUTING/index.md` → `contributing/index.md`
+  - `docs/README.md`: `CONTRIBUTING/index.md` → `contributing/index.md`
+  - `docs/index-simple.md`: `CONTRIBUTING/index.md` → `contributing/index.md`
+  - 解决所有页面中贡献指南链接 404 的问题
+
+### 📊 统计数据
+
+- **文件变更**: 7 个文件修改
+- **导览整合**: 9 个导览页面（4个基础 + 5个专题）
+- **导航条目**: 从 51 个减少到 46 个唯一条目
+- **新增页面**: 1 个（404.md）
+
+---
+
 ## [v3.7.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.7.0) - MPS 术语体系重构与内容扩充 (2025-10-09)
 
 ### ♻️ 术语体系重构（破坏性变更）
