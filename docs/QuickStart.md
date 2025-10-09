@@ -223,7 +223,7 @@ Multiple Personality System Wiki 是社区共建的知识库，欢迎你的参�
 - **🐛 报告问题**：在 GitHub Issues 中反馈错误或提出改进建议
 - **🌐 翻译校对**：帮助改进术语翻译和文本表述
 
-详细流程请参阅 [**贡献指南**](CONTRIBUTING/index.md)。
+详细流程请参阅 [**贡献指南**](contributing/index.md)。
 
 ---
 
