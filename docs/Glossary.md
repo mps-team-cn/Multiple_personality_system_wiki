@@ -101,8 +101,10 @@
 | [Depersonalization/Derealization Disorder，DPDR](entries/Depersonalization-Derealization-Disorder-DPDR.md) | 人格解体/现实解体障碍 | 临床诊断，涵盖非我感与非真实感持续困扰日常功能的情况。 |
 | [Affective Disorders](entries/Affective-Disorders.md) | 心境障碍、情感障碍 | 上位分类，包含抑郁、双相与躁狂/轻躁狂等心境谱系。 |
 | [Depressive Disorders](entries/Depressive-Disorders.md) | 抑郁障碍 | 泛指以持续情绪低落、兴趣缺失与认知改变为核心的障碍。 |
+| [Eating Disorders，ED](entries/Eating-Disorders-ED.md) | 进食障碍 | 涵盖限制、暴食与清除等饮食行为失调，常与创伤及控制感议题交织。 |
 | [Learned Helplessness](entries/Learned-Helplessness.md) | 习得性无助 | 指在长期不可控压力下习得的无力感与动机枯竭模式，常与创伤暴露及抑郁症状并存。 |
 | [DID](entries/DID.md) | 解离性身份障碍 | 以多个身份状态轮换控制与解离性失忆为核心的创伤相关解离障碍。 |
+| [Gender Dysphoria，GD](entries/Gender-Dysphoria-GD.md) | 性别不安 | 聚焦性别身份与出生指定性别不一致所带来的痛苦；与创伤、解离可能共存但需区分评估。 |
 | [Dissociative Amnesia](entries/Dissociative-Amnesia-DA.md) | 解离性遗忘 | 指无法回忆重要个人信息的解离症状，常与创伤事件关联。 |
 | [Flashback](entries/Flashback.md) | 闪回 | 创伤记忆以感官或情绪形式突然重现、难以控制的体验。 |
 | [Hypomania](entries/Hypomania.md) | 轻躁狂 | 强度低于躁狂的情绪与能量高涨期，需留意功能波动与躁狂转换风险。 |
@@ -114,7 +116,9 @@
 | [Pathological Dissociation](entries/Pathological-Dissociation.md) | 病理性解离 | 创伤相关的持续性整合失败，属于解离性障碍核心症状。 |
 | [PTSD](entries/PTSD.md) | 创伤后应激障碍 | 创伤后以警觉性提高、回避与再体验等症状为主的障碍。 |
 | [Schizophrenia](entries/Schizophrenia-SC.md) | 精神分裂症 | 以思维、感知与情感失调为核心的精神病性障碍。 |
+| [Sleep Disorders，SD](entries/Sleep-Disorders-SD.md) | 睡眠障碍 | 包含失眠、噩梦与睡眠行为异常等问题，常与创伤触发与身份切换相关。 |
 | [SSD](entries/Somatic-Symptom-Disorder-SSD.md) | 躯体化障碍 | 聚焦躯体症状造成困扰并影响生活功能的诊断类别。 |
+| [Substance Use Disorders，SUD](entries/Substance-Use-Disorders-SUD.md) | 物质使用障碍 | 酒精或药物使用导致控制力丧失与功能受损，需结合创伤知情的减害策略。 |
 | [Functional Neurological Symptom Disorder，FND](entries/Conversion-Disorder-FND.md) | 功能性神经症状障碍、转换障碍 | 以正性体征辨识的功能性神经症状群，需要综合复健与心理支持。 |
 | [Trauma](entries/Trauma.md) | 创伤 | 指超出个体当时应对能力的威胁性经历及其后效。 |
 
