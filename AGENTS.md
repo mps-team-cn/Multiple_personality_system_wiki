@@ -33,6 +33,7 @@
 - 新增或修改词条时，必须同步维护：
   - docs/Glossary.md → 术语表（如适用）
   - 对应主题的总览页面（如适用）
+  - **对应的 Guide 条目** → 当创建或更新专业术语、治疗方法、诊断标准等条目时，必须同步更新相关的导览条目（如 `Mental-Health-Guide.md`、`Core-Concepts-Guide.md`、`Clinical-Diagnosis-Guide.md` 等）中的引用和链接
 - 条目内链接规范：
   - **词条间链接（同目录）** ：使用相对路径 `Admin.md`
   - **跨目录链接** ：
