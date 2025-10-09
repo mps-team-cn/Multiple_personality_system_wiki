@@ -165,3 +165,4 @@ temp/
 # === Sveltia CMS 本地开发 ===
 docs/admin/config.production.yml
 docs/admin/config.local.yml
+tectonic
