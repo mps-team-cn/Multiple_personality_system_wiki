@@ -85,6 +85,11 @@
 - 提交前必须运行：`python tools/fix_markdown.py`
 - 大规模修改前必须：检查相关索引和链接
 - 标签索引由 MkDocs Material tags 插件自动生成，无需手动维护
+- **创建或更新条目时必须同步维护对应的 Guide 条目**：
+  - 治疗方法 → `Mental-Health-Guide.md`、`Three-Phase-Trauma-Treatment.md`
+  - 核心概念 → `Core-Concepts-Guide.md`
+  - 诊断标准 → `Clinical-Diagnosis-Guide.md`
+  - 确保引用链接和描述的一致性
 
 ## QUALITY STANDARDS
 
@@ -128,7 +133,7 @@
 
 项目特有触发器：
 
-- 词条编辑 → 检查 Frontmatter → 运行索引工具
+- 词条编辑 → 检查 Frontmatter → 运行索引工具 → **更新对应 Guide 条目**
 - 工具修改 → 更新 docs/tools/README.md
 - 提交前 → 运行 fix_markdown 和 markdownlint
 
