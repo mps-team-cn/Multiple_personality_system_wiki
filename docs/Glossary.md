@@ -8,7 +8,7 @@
 
 | 术语 | 中文参考译名 | 社群用法/备注 |
 | --- | --- | --- |
-| [Plurality Basics](entries/Plurality-Basics.md) | 多重意识体基础 | 面向新人介绍多意识体系统概念、术语与安全实践的入门资料。 |
+| [MPS Basics](entries/Mps-Basics.md) | 多意识体系统基础 | 面向新人介绍多意识体系统概念、术语与安全实践的入门资料。 |
 | [MPS](entries/Multiple_Personality_System.md) | 多意识体系统 | 概括多个成员共享一具身体、协作生活的存在形态。 |
 | [System](entries/System.md) | 系统 | 指拥有多个成员的整体个体，强调为一个协作的身份集合。 |
 | [Switch](entries/Switch.md) | 切换 | 从一位成员过渡到另一位成员执掌前台的过程。 |

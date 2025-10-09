@@ -36,7 +36,7 @@ updated: 2025-10-03
 
 - [系统（System）](System.md)
 - [多意识体系统（MPS）](Multiple_Personality_System.md)
-- [多重意识体基础（Plurality Basics）](Plurality-Basics.md)
+- [多意识体系统基础（MPS Basics）](Mps-Basics.md)
 - [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
 - [《分裂》（Split, 2016）中的 DID 形象分析](Split-2016-DID-Representation.md)
 - [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](Another-Me-DID-Depictions.md)

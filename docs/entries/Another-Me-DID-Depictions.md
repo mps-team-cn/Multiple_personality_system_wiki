@@ -41,7 +41,7 @@ updated: 2025-10-03
 - [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](Fight-Club-1999-Identity-Metaphor.md)
 - [系统（System）](System.md)
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
-- [多重意识体基础（Plurality Basics）](Plurality-Basics.md)
+- [多意识体系统基础（MPS Basics）](Mps-Basics.md)
 - [多意识体系统（MPS）](Multiple_Personality_System.md)
 - [图帕（Tulpa）](Tulpa.md)
 

@@ -41,4 +41,4 @@ updated: 2025-10-05
 - [系统（System）](System.md)
 - [其他特定解离性障碍（OSDD）](OSDD.md)
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
-- [多重意识体基础（Plurality Basics）](Plurality-Basics.md)
+- [多意识体系统基础（MPS Basics）](Mps-Basics.md)
