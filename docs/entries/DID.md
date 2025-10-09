@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 解离性身份障碍（Dissociative Identity Disorder，DID）
-updated: 2025-10-03
+updated: 2025-10-05
 ---
 
 # 解离性身份障碍（Dissociative Identity Disorder，DID）
@@ -97,9 +97,25 @@ ICD-11 将 DID 与 PDID 区分并允许描述身份侵入的形式，DSM-5-TR �
 
 ## 共病与风险管理
 
-- 常见共病包括 PTSD、CPTSD、心境情感障碍（包含抑郁与双相等，双相同样常见且易与 DID 混淆）、焦虑、进食障碍、物质使用障碍、人格障碍、躯体化障碍。
-- 自伤与自杀风险较高，需要建立安全计划、危机应对与多学科合作。
-- 医疗与心理服务应采用创伤知情原则，避免再创伤化与强迫性对质。
+### 常见共病
+
+- **核心共病**
+  - [创伤后应激障碍（Post-Traumatic Stress Disorder，PTSD）](PTSD.md) / [复杂性创伤后应激障碍（Complex PTSD，CPTSD）](CPTSD.md)：几乎所有 DID 个案都符合创伤相关诊断，二者共同体现对极端创伤的适应性反应。
+  - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：持续性悲伤、绝望与兴趣丧失普遍存在，若未稳定处理会降低治疗动机与功能。
+  - [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md)：身份认同、情绪调节与人际关系症状高度重叠，需区分解离驱动与人格模式差异。
+
+- **其他常见共病**
+  - [焦虑（Anxiety）](Anxiety.md) 及相关焦虑障碍：源于长期不安全感与高警觉状态。
+  - [物质使用障碍（Substance Use Disorders，SUD）](Substance-Use-Disorders-SUD.md)：部分成员以物质自我麻醉以压抑创伤记忆或调节情绪。
+  - [进食障碍（Eating Disorders，ED）](Eating-Disorders-ED.md)：饮食控制或暴食可能成为调节情绪与掌控身体的方式。
+  - [躯体症状障碍（Somatic Symptom and Related Disorders）](Somatic-Symptom-Disorder-SSD.md)：难以解释的疼痛、假性癫痫等躯体化表现常伴随内在冲突。
+  - [睡眠障碍（Sleep Disorders，SD）](Sleep-Disorders-SD.md)：失眠、噩梦、夜惊与昼夜节律混乱源于过度警觉或身份间作息差异。
+
+### 风险管理重点
+
+- 自伤与自杀风险较高，需要建立跨成员的安全计划、危机应对流程与多学科合作网络。
+- 医疗与心理服务应采用创伤知情原则，避免再创伤化、羞辱或强迫性对质，并尊重成员间的节奏差异。
+- [性别不安（Gender Dysphoria，GD）](Gender-Dysphoria-GD.md) 可与 DID 共存，需分别评估性别身份需求与解离结构，采取肯认式、创伤知情的支持以减少误解与附加痛苦。
 
 ---
 
@@ -143,6 +159,10 @@ DID 的治疗通常遵循分阶段模式：
 - [混合（Blending）](Blending.md)
 - [多重意识体基础（Plurality Basics）](Plurality-Basics.md)
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
+
+### 身份与性别议题
+
+- [性别不安（Gender Dysphoria，GD）](Gender-Dysphoria-GD.md)
 
 ### 文化表现
 
