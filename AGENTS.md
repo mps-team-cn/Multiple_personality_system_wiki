@@ -132,6 +132,7 @@
   - `style:` 空格/缩进/行尾等非语义变更
 - **Pull Request 说明** ：必须包含动机、主要变更、潜在风险、相关条目/链接。
 - **忽略文件** ：提交前检查 `ignore.md` 维护是否正确。
+- **版本发布与维护** ：准备发布时必须核对 `changelog.md` 最新条目，确认版本号与说明一致；使用 GitHub CLI (`gh release create` 或更新命令) 将 `changelog.md` 内容同步为 Release Notes，并推送对应标签到远端。
 
 ---
 
