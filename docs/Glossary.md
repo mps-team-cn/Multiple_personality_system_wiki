@@ -29,6 +29,7 @@
 | [Sensory Regulation Strategies](entries/Sensory-Regulation-Strategies.md) | 感官调节策略 | 汇集调节感官输入与稳定唤醒度的实践工具，适用于系统成员协作与神经多样性支持。 |
 | [Integration](entries/Integration.md) | 整合 | 强调提升成员协作、记忆连结与功能稳定的长期目标。 |
 | [Meditation](entries/Meditation.md) | 冥想 | 通过专注训练提升觉察、调节情绪与稳定前台状态的实践。 |
+| [Mindfulness](entries/Mindfulness.md) | 正念 | 以当下觉察与非评判态度为核心的训练，支持创伤知情的稳定化与情绪调节。 |
 | [Reconstruction](entries/Reconstruction.md) | 重构 | 描述重建系统结构、角色或记忆架构的有意过程。 |
 
 ## 系统角色与类型
