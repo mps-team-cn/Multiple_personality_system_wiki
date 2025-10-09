@@ -26,7 +26,7 @@ updated: 2025-10-09
 
 ### 1. 神经发育障碍（Neurodevelopmental Disorders）
 
-- 智力发育障碍（Intellectual Developmental Disorders）：*待更新*
+- [智力发育障碍（Intellectual Developmental Disorders）](Intellectual-Developmental-Disorders.md)：智力功能与适应行为缺陷，起病于发育期，涵盖诊断标准、病因、治疗与支持。
 - 沟通障碍（Communication Disorders）：*待更新*
 - [孤独症谱系障碍（ASD）](Autism-Spectrum-Disorder.md)：涵盖社交沟通、感官敏感度与支持方式。
 - [注意缺陷多动障碍（ADHD）](Attention-Deficit-Hyperactivity-Disorder-ADHD.md)：说明儿童与成人的评估重点、注意力与冲动控制困难。
