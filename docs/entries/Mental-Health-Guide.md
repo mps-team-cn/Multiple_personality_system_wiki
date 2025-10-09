@@ -77,13 +77,7 @@ updated: 2025-10-09
 
 **功能谱系**:
 
-```text
-适应性解离 ————————→ 病理性解离
-(多任务处理)        (DID/OSDD)
-     ↓                    ↓
-  暂时保护            持续痛苦
-  可控短期            失控长期
-```
+![适应性解离与病理性解离对比](../assets/figures/adaptive-pathological-dissociation.svg)
 
 **常见解离障碍**:
 
@@ -208,6 +202,10 @@ updated: 2025-10-09
 
 - **内部家庭系统治疗(IFS)** - 协调内部不同"部分"
 - **阶段导向创伤治疗** - 稳定 → 处理 → 整合
+
+#### 创伤治疗三阶段模型
+
+![创伤治疗三阶段模型](../assets/figures/trauma-treatment-phases.svg)
 
 ---
 

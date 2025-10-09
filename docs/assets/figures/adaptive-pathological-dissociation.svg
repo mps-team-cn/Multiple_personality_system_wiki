@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 280" role="img" aria-labelledby="adaptive-pathological-title adaptive-pathological-desc">
+  <title id="adaptive-pathological-title">适应性解离与病理性解离对比</title>
+  <desc id="adaptive-pathological-desc">展示适应性解离与病理性解离的特征差异及演变关系</desc>
+
+  <defs>
+    <!-- 渐变定义 -->
+    <linearGradient id="adaptiveGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#4CAF50;stop-opacity:0.1" />
+    </linearGradient>
+
+    <linearGradient id="pathologicalGradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F44336;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#F44336;stop-opacity:0.1" />
+    </linearGradient>
+
+    <!-- 箭头标记 -->
+    <marker id="arrowDown" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="5,10 0,0 10,0" fill="#666" />
+    </marker>
+
+    <marker id="arrowRight2" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0,5 10,0 10,10" fill="#666" />
+    </marker>
+  </defs>
+
+  <!-- 背景卡片 -->
+  <!-- 左侧：适应性解离 -->
+  <rect x="50" y="50" width="250" height="210" rx="15" fill="url(#adaptiveGradient)" stroke="#4CAF50" stroke-width="2"/>
+
+  <!-- 右侧：病理性解离 -->
+  <rect x="400" y="50" width="250" height="210" rx="15" fill="url(#pathologicalGradient2)" stroke="#F44336" stroke-width="2"/>
+
+  <!-- 顶部标题 -->
+  <text x="350" y="30" font-family="Noto Sans SC, sans-serif" font-size="16" font-weight="bold" fill="#666" text-anchor="middle">解离类型对比</text>
+
+  <!-- 左侧：适应性解离 -->
+  <g id="adaptive">
+    <text x="175" y="85" font-family="Noto Sans SC, sans-serif" font-size="22" font-weight="bold" fill="#2E7D32" text-anchor="middle">适应性解离</text>
+    <text x="175" y="110" font-family="Arial, sans-serif" font-size="14" fill="#4CAF50" text-anchor="middle">(Adaptive Dissociation)</text>
+
+    <!-- 示例 -->
+    <text x="175" y="135" font-family="Noto Sans SC, sans-serif" font-size="13" fill="#555" text-anchor="middle">多任务处理</text>
+
+    <!-- 向下箭头 -->
+    <line x1="175" y1="145" x2="175" y2="175" stroke="#4CAF50" stroke-width="2" marker-end="url(#arrowDown)"/>
+
+    <!-- 特征 -->
+    <text x="175" y="195" font-family="Noto Sans SC, sans-serif" font-size="14" font-weight="bold" fill="#2E7D32" text-anchor="middle">暂时保护</text>
+    <text x="175" y="215" font-family="Noto Sans SC, sans-serif" font-size="13" fill="#555" text-anchor="middle">可控</text>
+    <text x="175" y="235" font-family="Noto Sans SC, sans-serif" font-size="13" fill="#555" text-anchor="middle">短期</text>
+  </g>
+
+  <!-- 右侧：病理性解离 -->
+  <g id="pathological">
+    <text x="525" y="85" font-family="Noto Sans SC, sans-serif" font-size="22" font-weight="bold" fill="#C62828" text-anchor="middle">病理性解离</text>
+    <text x="525" y="110" font-family="Arial, sans-serif" font-size="14" fill="#F44336" text-anchor="middle">(Pathological Dissociation)</text>
+
+    <!-- 示例 -->
+    <text x="525" y="135" font-family="Arial, sans-serif" font-size="13" fill="#555" text-anchor="middle">DID / OSDD</text>
+
+    <!-- 向下箭头 -->
+    <line x1="525" y1="145" x2="525" y2="175" stroke="#F44336" stroke-width="2" marker-end="url(#arrowDown)"/>
+
+    <!-- 特征 -->
+    <text x="525" y="195" font-family="Noto Sans SC, sans-serif" font-size="14" font-weight="bold" fill="#C62828" text-anchor="middle">持续痛苦</text>
+    <text x="525" y="215" font-family="Noto Sans SC, sans-serif" font-size="13" fill="#555" text-anchor="middle">失控</text>
+    <text x="525" y="235" font-family="Noto Sans SC, sans-serif" font-size="13" fill="#555" text-anchor="middle">长期</text>
+  </g>
+
+  <!-- 中央演变箭头 -->
+  <g id="evolution">
+    <line x1="310" y1="130" x2="390" y2="130" stroke="#666" stroke-width="3" marker-end="url(#arrowRight2)"/>
+
+    <!-- 演变标签背景 -->
+    <rect x="315" y="105" width="70" height="24" rx="12" fill="#FFF" stroke="#666" stroke-width="1.5"/>
+
+    <!-- 演变标签文字 -->
+    <text x="350" y="122" font-family="Noto Sans SC, sans-serif" font-size="13" font-weight="bold" fill="#666" text-anchor="middle">可能演变</text>
+  </g>
+</svg>

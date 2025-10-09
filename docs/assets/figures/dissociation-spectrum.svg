@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" role="img" aria-labelledby="spectrum-title spectrum-desc">
+  <title id="spectrum-title">解离程度谱系</title>
+  <desc id="spectrum-desc">展示从温和解离到强烈解离的连续谱系</desc>
+
+  <defs>
+    <!-- 渐变定义 - 从绿到红的谱系 -->
+    <linearGradient id="spectrumGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#FFC107;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#F44336;stop-opacity:0.3" />
+    </linearGradient>
+
+    <!-- 箭头标记 -->
+    <marker id="arrowLeft2" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="10,5 0,0 0,10" fill="#666" />
+    </marker>
+
+    <marker id="arrowRight3" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0,5 10,0 10,10" fill="#666" />
+    </marker>
+  </defs>
+
+  <!-- 背景谱系条 -->
+  <rect x="100" y="60" width="600" height="50" rx="25" fill="url(#spectrumGradient)" stroke="#999" stroke-width="2"/>
+
+  <!-- 双向箭头 -->
+  <line x1="80" y1="85" x2="720" y2="85" stroke="#666" stroke-width="3" marker-start="url(#arrowLeft2)" marker-end="url(#arrowRight3)"/>
+
+  <!-- 左侧：温和解离 -->
+  <g id="mild">
+    <text x="200" y="50" font-family="Noto Sans SC, sans-serif" font-size="20" font-weight="bold" fill="#2E7D32" text-anchor="middle">温和解离</text>
+    <text x="200" y="80" font-family="Noto Sans SC, sans-serif" font-size="16" fill="#4CAF50" text-anchor="middle">Mild Dissociation</text>
+
+    <!-- 示例 -->
+    <text x="200" y="135" font-family="Noto Sans SC, sans-serif" font-size="14" fill="#555" text-anchor="middle">走神、幻想</text>
+    <text x="200" y="155" font-family="Noto Sans SC, sans-serif" font-size="12" fill="#777" text-anchor="middle">白日梦、自动驾驶</text>
+  </g>
+
+  <!-- 右侧：强烈解离 -->
+  <g id="severe">
+    <text x="600" y="50" font-family="Noto Sans SC, sans-serif" font-size="20" font-weight="bold" fill="#C62828" text-anchor="middle">强烈解离</text>
+    <text x="600" y="80" font-family="Noto Sans SC, sans-serif" font-size="16" fill="#F44336" text-anchor="middle">Severe Dissociation</text>
+
+    <!-- 示例 -->
+    <text x="600" y="135" font-family="Arial, sans-serif" font-size="14" fill="#555" text-anchor="middle">DID / OSDD</text>
+    <text x="600" y="155" font-family="Noto Sans SC, sans-serif" font-size="12" fill="#777" text-anchor="middle">失忆、人格转换</text>
+  </g>
+
+  <!-- 中部：中度解离标记 -->
+  <g id="moderate">
+    <circle cx="400" cy="85" r="6" fill="#FFC107"/>
+    <text x="400" y="25" font-family="Noto Sans SC, sans-serif" font-size="13" fill="#888" text-anchor="middle">中度解离</text>
+    <line x1="400" y1="30" x2="400" y2="75" stroke="#FFC107" stroke-width="1.5" stroke-dasharray="3,3"/>
+  </g>
+
+  <!-- 顶部标题 -->
+  <text x="400" y="13" font-family="Noto Sans SC, sans-serif" font-size="15" font-weight="bold" fill="#666" text-anchor="middle">连续的程度谱系</text>
+</svg>

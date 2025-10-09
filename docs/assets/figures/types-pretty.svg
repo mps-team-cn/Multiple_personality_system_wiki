@@ -1,0 +1,170 @@
+<svg viewBox="0 0 360 260" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">类型关系图 · 美化版</title>
+  <desc id="desc">在柔和配色与阴影下展示：创造型、创伤型、自发型、未知型与中心混合型的关系（对角线 X 连接）。</desc>
+
+  <defs>
+    <!-- Theme variables via CSS custom properties -->
+    <style>
+      :root{
+        --bg: #fcfcfd;
+        --fg: #1f2328;
+        --muted: #8b96a5;
+        --primary: #5b8def;
+        --accent: #7bd2a7;
+        --danger: #ef6b73;
+        --warning: #f5c26b;
+        --neutral: #a7b0c0;
+        color-scheme: light dark;
+      }
+      @media (prefers-color-scheme: dark){
+        :root{
+          --bg: #0e1116;
+          --fg: #e6edf3;
+          --muted: #95a1b2;
+          --primary: #7aa2ff;
+          --accent: #73e0b5;
+          --danger: #ff8086;
+          --warning: #ffd27a;
+          --neutral: #b5bfd0;
+        }
+      }
+
+      text{ font: 500 14px system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif;
+            fill: var(--fg);
+            dominant-baseline: middle;
+            text-anchor: middle; }
+
+      .hint{ font-weight: 400; fill: var(--muted); }
+
+      .edge{
+        stroke: var(--neutral);
+        stroke-width: 2;
+        vector-effect: non-scaling-stroke;
+        stroke-linecap: round;
+        opacity: .85;
+      }
+
+      .chip{
+        fill: var(--bg);
+        stroke: var(--muted);
+        stroke-opacity: .25;
+        vector-effect: non-scaling-stroke;
+      }
+
+      .node-ring{
+        stroke-width: 2.5;
+        vector-effect: non-scaling-stroke;
+      }
+      .node-core{ stroke: none; }
+
+      .center-label{ font-weight: 600; }
+
+      .card{
+        filter: url(#softShadow);
+      }
+    </style>
+
+    <!-- Soft shadow -->
+    <filter id="softShadow" x="-100%" y="-100%" width="300%" height="300%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="black" flood-opacity=".12"/>
+    </filter>
+
+    <!-- Subtle vignette background -->
+    <radialGradient id="bgGrad" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="var(--bg)" stop-opacity="1"/>
+      <stop offset="100%" stop-color="var(--bg)" stop-opacity=".92"/>
+    </radialGradient>
+
+    <!-- Node gradients -->
+    <radialGradient id="gPrimary" cx="35%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="var(--primary)" stop-opacity=".95"/>
+      <stop offset="100%" stop-color="var(--primary)" stop-opacity=".6"/>
+    </radialGradient>
+    <radialGradient id="gDanger" cx="35%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="var(--danger)" stop-opacity=".95"/>
+      <stop offset="100%" stop-color="var(--danger)" stop-opacity=".6"/>
+    </radialGradient>
+    <radialGradient id="gAccent" cx="35%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="var(--accent)" stop-opacity=".95"/>
+      <stop offset="100%" stop-color="var(--accent)" stop-opacity=".6"/>
+    </radialGradient>
+    <radialGradient id="gWarning" cx="35%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="var(--warning)" stop-opacity=".95"/>
+      <stop offset="100%" stop-color="var(--warning)" stop-opacity=".6"/>
+    </radialGradient>
+    <radialGradient id="gCenter" cx="35%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="var(--primary)" stop-opacity="1"/>
+      <stop offset="100%" stop-color="var(--accent)" stop-opacity=".85"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="url(#bgGrad)"/>
+
+  <!-- Canvas padding card -->
+  <g class="card">
+    <rect x="16" y="14" width="328" height="232" rx="16" fill="var(--bg)" opacity="0.9"/>
+  </g>
+
+  <!-- X edges -->
+  <g aria-hidden="true">
+    <line class="edge" x1="120" y1="60" x2="240" y2="200"/>
+    <line class="edge" x1="240" y1="60" x2="120" y2="200"/>
+  </g>
+
+  <!-- Nodes -->
+  <!-- Top left: 创造型 -->
+  <g transform="translate(120,60)">
+    <circle class="node-core" r="9" fill="url(#gPrimary)"/>
+    <circle class="node-ring" r="14" fill="none" stroke="var(--primary)"/>
+    <g transform="translate(0,-26)">
+      <rect class="chip" x="-28" y="-10" rx="8" width="56" height="20" fill="var(--bg)"/>
+      <text>创造型</text>
+    </g>
+  </g>
+
+  <!-- Top right: 创伤型 -->
+  <g transform="translate(240,60)">
+    <circle class="node-core" r="9" fill="url(#gDanger)"/>
+    <circle class="node-ring" r="14" fill="none" stroke="var(--danger)"/>
+    <g transform="translate(0,-26)">
+      <rect class="chip" x="-28" y="-10" rx="8" width="56" height="20" fill="var(--bg)"/>
+      <text>创伤型</text>
+    </g>
+  </g>
+
+  <!-- Center: 混合型 -->
+  <g transform="translate(180,130)">
+    <circle class="node-core" r="10" fill="url(#gCenter)"/>
+    <circle class="node-ring" r="18" fill="none" stroke="var(--accent)"/>
+    <g transform="translate(0,28)">
+      <rect class="chip" x="-28" y="-10" rx="8" width="56" height="20" fill="var(--bg)"/>
+      <text class="center-label">混合型</text>
+    </g>
+  </g>
+
+  <!-- Bottom left: 自发型 -->
+  <g transform="translate(120,200)">
+    <circle class="node-core" r="9" fill="url(#gAccent)"/>
+    <circle class="node-ring" r="14" fill="none" stroke="var(--accent)"/>
+    <g transform="translate(0,26)">
+      <rect class="chip" x="-28" y="-10" rx="8" width="56" height="20" fill="var(--bg)"/>
+      <text>自发型</text>
+    </g>
+  </g>
+
+  <!-- Bottom right: 未知型 -->
+  <g transform="translate(240,200)">
+    <circle class="node-core" r="9" fill="url(#gWarning)"/>
+    <circle class="node-ring" r="14" fill="none" stroke="var(--warning)"/>
+    <g transform="translate(0,26)">
+      <rect class="chip" x="-28" y="-10" rx="8" width="56" height="20" fill="var(--bg)"/>
+      <text>未知型</text>
+    </g>
+  </g>
+
+  <!-- Caption -->
+  <g transform="translate(180,28)">
+    <text class="hint">类型关系示意（对角线为关联方向）</text>
+  </g>
+</svg>
