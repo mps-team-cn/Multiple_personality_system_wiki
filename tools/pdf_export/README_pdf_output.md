@@ -22,7 +22,7 @@ cd tools/pdf_export && python -m pdf_export
 4. 收集各章节下的 Markdown 文件并按顺序合并，同时在 PDF 中为每个 Markdown 文件单独开启新页面，并在 PDF 大纲中按分类组织；在合并过程中会自动移除词条自身的一级标题，避免 PDF 中出现重复标题；
 5. 自动识别 Markdown 中以 `*.md` 形式书写的词条链接，并在合并时重写为指向 PDF 内部锚点的链接，确保离线文档中的交叉跳转仍可点击；
 6. 如果 `assets/last-updated.json` 存在，则会读取索引并在每篇词条标题下插入“🕒 最后更新：2025/10/02 12:34:56（abc1234）”提示，使离线 PDF 与线上页面保持一致；
-7. 调用 [Pandoc](https://pandoc.org/) 生成排好版的 `plurality_wiki.pdf`。
+7. 调用 [Pandoc](https://pandoc.org/) 生成排好版的 `Multiple_Personality_System_wiki.pdf`。
 
 > ℹ️ 所有被导出的词条都必须在 Frontmatter 中声明 `title`、`tags`、`updated` 字段。`updated` 支持写成 `YYYY-MM-DD` 字符串或 YAML 自动识别的日期字面量，两种写法都会在导出时转换为同一格式。若将字段留空、显式写成 `null` 或填写布尔值/列表，脚本会提示“updated 字段必须为非空字符串或有效日期”。
 
@@ -66,7 +66,7 @@ python tools/pdf_export/export_to_pdf.py --pdf-engine xelatex
 - 若不需要封面，可以添加 `--no-cover`。
 - `--cover-title`、`--cover-subtitle`、`--cover-date` 可覆盖封面的默认文字。
 - 封面标题下方默认会展示可点击的“在线版本”链接，指向 <https://mpswiki.pages.dev/#/>，便于读者快速跳转至网页版内容。
-- `--cover-footer` 用于自定义封面底部的“plurality_wiki 项目”字样（默认以更大字号斜体排版），传入空字符串即可移除该行。
+- `--cover-footer` 用于自定义封面底部的“Multiple_Personality_System_wiki 项目”字样（默认以更大字号斜体排版），传入空字符串即可移除该行。
 - 目录页会基于 topic 结构生成“图书式”目录，并为每个词条显示页码。
 
 如需进一步自定义输出文件名或其他设置，可执行 `python tools/pdf_export/export_to_pdf.py --help` 查看全部参数。

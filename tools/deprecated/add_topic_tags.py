@@ -31,7 +31,7 @@ TOPIC_MAPPING = {
     ],
     "系统体验与机制": [
         "Apparently-Normal-Part-Emotional-Part-Model", "Co-Fronting",
-        "Plurality-Basics", "Plurality", "Bias", "Front-Fronting",
+        "Multiple_Personality_System-Basics", "Multiple_Personality_System", "Bias", "Front-Fronting",
         "Back-Being-Back", "Sense-Of-Presence", "Projection",
         "Visualization-Imagination", "External-Projection", "Sequestration",
         "Head-Pressure", "Stress-Response", "Intrusive-Thoughts",

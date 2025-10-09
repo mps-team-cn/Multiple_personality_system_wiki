@@ -21,13 +21,13 @@ updated: 2024-05-05
 
 **适合你,如果:**
 
-- 第一次听说"[多意识体](entries/Plurality.md)""[解离](entries/Dissociation.md)"这些词
+- 第一次听说"[多意识体](entries/Multiple_Personality_System.md)""[解离](entries/Dissociation.md)"这些词
 - 想从零开始建立理论框架
 - 需要理解不同类型的系统（[Tulpa](entries/Tulpa.md) vs [DID](entries/DID.md)/[OSDD](entries/OSDD.md)）
 
 **你将学到:**
 
-- 什么是[解离](entries/Dissociation.md)?解离与[多意识体](entries/Plurality.md)的关系
+- 什么是[解离](entries/Dissociation.md)?解离与[多意识体](entries/Multiple_Personality_System.md)的关系
 - 健康多意识体([Tulpa](entries/Tulpa.md)) vs 病理性多意识体（[DID](entries/DID.md)/[OSDD](entries/OSDD.md)）
 - [埃蒙加德分类法](entries/Emmengard-Classification.md):按成因理解系统类型
 - 常见误区澄清与新手建议
@@ -60,7 +60,7 @@ updated: 2024-05-05
 
 **适合你,如果:**
 
-- 已经是[多意识体](entries/Plurality.md)系统成员
+- 已经是[多意识体](entries/Multiple_Personality_System.md)系统成员
 - 想改善日常运作与内部沟通
 - 对[前台](entries/Front-Fronting.md)、[切换](entries/Switch.md)、记忆管理等机制有疑问
 

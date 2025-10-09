@@ -30,7 +30,7 @@ synonyms:
 
 ## 概述
 
-物质使用障碍（Substance Use Disorders, SUD）指个体在使用酒精、处方药、非法药物等物质时出现**控制力下降、持续使用与功能受损**的状态。常见物质包括酒精、阿片类、兴奋剂（安非他命、可卡因）、镇静安眠药、大麻、尼古丁等。SUD 在创伤幸存者及 DID 患者中高度普遍，常作为应对创伤痛苦、解离症状或情绪失调的短期策略，但长期使用会加重身心损害并增加再创伤风险。
+物质使用障碍（Substance Use Disorders, SUD）指个体在使用酒精、处方药、非法药物等物质时出现 **控制力下降、持续使用与功能受损** 的状态。常见物质包括酒精、阿片类、兴奋剂（安非他命、可卡因）、镇静安眠药、大麻、尼古丁等。SUD 在创伤幸存者及 DID 患者中高度普遍，常作为应对创伤痛苦、解离症状或情绪失调的短期策略，但长期使用会加重身心损害并增加再创伤风险。
 
 ---
 
@@ -53,6 +53,7 @@ synonyms:
 11. **戒断症状（停用后出现特征性戒断综合征）**
 
 **严重度分级**：
+
 - 轻度：2-3 项
 - 中度：4-5 项
 - 重度：6 项及以上
@@ -60,6 +61,7 @@ synonyms:
 ### ICD-11 摘要
 
 **物质使用障碍（6C4 类别）**：
+
 - 持续或反复使用物质导致的控制能力下降。
 - 强烈渴求与持续使用，尽管有害。
 - 物质使用在生活中优先级提高，影响健康、社会与职业功能。
@@ -173,4 +175,4 @@ synonyms:
 1. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.).*
 2. World Health Organization. (2019). *ICD-11 for Mortality and Morbidity Statistics.*
 3. Najavits, L. M. (2002). *Seeking Safety: A Treatment Manual for PTSD and Substance Abuse.* New York: Guilford Press.
-4. National Institute on Drug Abuse. (2020). *Drugs, Brains, and Behavior: The Science of Addiction.* https://nida.nih.gov/publications/drugs-brains-behavior-science-addiction
+4. National Institute on Drug Abuse. (2020). *Drugs, Brains, and Behavior: The Science of Addiction.* [https://nida.nih.gov/publications/drugs-brains-behavior-science-addiction](https://nida.nih.gov/publications/drugs-brains-behavior-science-addiction)

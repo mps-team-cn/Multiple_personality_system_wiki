@@ -1,10 +1,12 @@
 ---
 title: 系魂型系统（Soul-Linked Systems, Xianyu Theory）
 tags:
+
   - 系统运作
   - 多重意识
   - 解离
   - 创伤
+
 topic: 系统运作
 updated: 2025-10-09
 ---
@@ -71,8 +73,8 @@ updated: 2025-10-09
 
 ## 与其他类别的关系
 
--  **单一类系统**（[Single-Class-Systems-Xianyu.md](Single-Class-Systems-Xianyu.md)）与 **混合型系统**（[Mixed-Systems-Xianyu.md](Mixed-Systems-Xianyu.md)）均可与系魂型生态位叠加。
--  **家族式系统**（[Family-Systems-Xianyu.md](Family-Systems-Xianyu.md)）中若含灵性成员，可能在功能上与系魂型系统重叠。
+-  **单一类系统**([Single-Class-Systems-Xianyu.md](Single-Class-Systems-Xianyu.md))与 **混合型系统**([Mixed-Systems-Xianyu.md](Mixed-Systems-Xianyu.md))均可与系魂型生态位叠加。
+-  **家族式系统**([Family-Systems-Xianyu.md](Family-Systems-Xianyu.md))中若含灵性成员，可能在功能上与系魂型系统重叠。
 -  与 **创造型系统** 或 **创伤型系统** 的界线可通过“持续做什么”而非“如何起源”来辨识。
 
 ---

@@ -60,7 +60,7 @@
 从解离说起，建立多意识体的理论框架
 
 - [ **解离（Dissociation）** ](entries/Dissociation.md) - 一切的基础概念
-- [ **多意识体（Plurality）** ](entries/Plurality.md) - 核心概念定义
+- [ **多意识体（Plurality）** ](entries/Multiple_Personality_System.md) - 核心概念定义
 - [ **系统（System）** ](entries/System.md) - 多意识体系统的基本概念
 - [ **DID vs Tulpa** ](entries/Core-Concepts-Guide.md#三健康与病理不同程度的多意识体) - 理解健康与病理的界限
 - [ **埃蒙加德分类法** ](entries/Emmengard-Classification.md) - 按成因理解系统类型
@@ -114,7 +114,7 @@
 
 探索多意识体的理论框架与分类体系
 
-- [ **多意识体（Plurality）** ](entries/Plurality.md) - 核心概念定义
+- [ **多意识体（Plurality）** ](entries/Multiple_Personality_System.md) - 核心概念定义
 - [ **埃蒙加德分类法** ](entries/Emmengard-Classification.md) - 按成因分类系统
 - [ **图帕（Tulpa）** ](entries/Tulpa.md) - 创造型意识体
 - [ **结构性解离理论** ](entries/Structural-Dissociation-Theory.md) - 经典临床模型
@@ -150,7 +150,7 @@
 
 **从解离说起，建立理论框架**
 
-  - 什么是[解离](entries/Dissociation.md)？解离与[多意识体](entries/Plurality.md)的关系
+  - 什么是[解离](entries/Dissociation.md)？解离与[多意识体](entries/Multiple_Personality_System.md)的关系
   - 健康多意识体([Tulpa](entries/Tulpa.md))vs 病理性多意识体（[DID](entries/DID.md)/[OSDD](entries/OSDD.md)）
   - [埃蒙加德分类法](entries/Emmengard-Classification.md)：按成因理解系统类型
   - 常见误区澄清与新手建议
@@ -180,7 +180,7 @@
 - 角色与治理：[宿主](entries/Host.md)、[守门人](entries/Gatekeeper.md)、[保护者](entries/Protector.md)等职能分工
 - 实务支持：[接地](entries/Grounding.md)、照护与危机应对
 
-👉 **适合：** [多意识体](entries/Plurality.md)系统成员，想要优化日常协作
+👉 **适合：** [多意识体](entries/Multiple_Personality_System.md)系统成员，想要优化日常协作
 
 ### 4. 🌱 [Tulpa 完全创造指南](entries/Tulpa-Guide.md)
 

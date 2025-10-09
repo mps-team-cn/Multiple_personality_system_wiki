@@ -1,10 +1,12 @@
 ---
 title: 系魂（Soulbond）
 tags:
+
   - 角色与身份
   - 多重意识
   - 解离
   - 创伤
+
 topic: 角色与身份
 updated: 2025-10-09
 ---

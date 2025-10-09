@@ -56,7 +56,7 @@ synonyms:
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
 - [混合（Blending）](Blending.md)
 - [整合（Integration）](Integration.md)
-- [多意识体（Plurality）](Plurality.md)
+- [多意识体（Plurality）](Multiple_Personality_System.md)
 - [多重意识体基础（Plurality Basics）](Plurality-Basics.md)
 - [成员（Alter）](Alter.md)
 - [伪主体（Fauxmain）](Fauxmain.md)
