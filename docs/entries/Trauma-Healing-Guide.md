@@ -7,7 +7,7 @@ tags:
 
 topic: 创伤与疗愈
 title: 创伤与疗愈导览
-updated: 2025-10-08
+updated: 2025-10-09
 ---
 
 # 创伤与疗愈导览
@@ -29,24 +29,39 @@ updated: 2025-10-08
 | [接地（Grounding）](Grounding.md) | 急性触发、解离、恐慌时 | 透过感官、呼吸、动作把注意力带回当下 |
 | [感官调节策略](Sensory-Regulation-Strategies.md) | 长期焦虑、情绪起伏 | 建立个人化的舒缓工具箱，稳定神经系统 |
 | [冥想（Meditation）](Meditation.md) | 恢复觉察、培养韧性 | 以正念训练提升情绪调节与自我关怀 |
+| [躯体经验疗法（Somatic Experiencing, SE）](Somatic-Experiencing-SE.md) | 身体紧绷、僵冻、难以言说的创伤记忆 | 透过感官追踪与资源化释放未完成的防御反应 |
+| [眼动脱敏与再加工（EMDR）](Eye-Movement-Desensitization-Reprocessing-EMDR.md) | 闪回、噩梦、创伤性影像反复入侵 | 利用双侧刺激协助大脑重新处理创伤记忆 |
+| [辩证行为疗法（DBT）](Dialectical-Behavior-Therapy-DBT.md) | 情绪失控、自我破坏冲动 | 学习正念、情绪调节、人际效能，提升自我稳定度 |
+| [内在家庭系统疗法（IFS）](Internal-Family-Systems-IFS.md) | 多角色冲突、内在批判、部分之间失衡 | 以“自性”领导与部分协商，修复内在关系 |
+| [认知加工疗法（CPT）](Cognitive-Processing-Therapy-CPT.md) | 固着在罪疚、羞耻、无价值信念 | 透过书写与认知重构挑战“卡住的信念” |
+| [创伤聚焦认知行为疗法（TF-CBT）](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md) | 儿童青少年创伤、照护者需同步介入 | 结合家庭支持、创伤叙事与技能训练 |
+| [长期暴露疗法（PE）](Prolonged-Exposure-Therapy-PE.md) | 持续回避创伤情境、影响生活 | 分段想象与现实暴露，帮助习惯化恐惧 |
 | [三阶段创伤治疗模型](Three-Phase-Trauma-Treatment.md) | 规划治疗、评估风险 | 理解“稳定化→处理创伤→整合成长”的经典路线 |
 
 ## 自助与支持的三部曲
 
 ### 1. 稳定安全
 
-- 从《[接地](Grounding.md)》选择 3–5 个随时可用的技巧，并在平静时预先练习。
-- 结合《[感官调节策略](Sensory-Regulation-Strategies.md)》建立“舒缓清单”，区分即时稳定与日常维护两类工具。
+- 从《[接地](Grounding.md)》与《[感官调节策略](Sensory-Regulation-Strategies.md)》挑选 3–5 个随时可用的技巧，并在平静时预先练习。
+- 若身体持续僵硬或麻木，可参考《[躯体经验疗法（SE）](Somatic-Experiencing-SE.md)》学习以感官追踪缓解紧绷。
 
 ### 2. 培养韧性
 
 - 依据《[冥想](Meditation.md)》安排短时练习，重点在于觉察身体与情绪，不追求“空白大脑”。
-- 记录练习后的感受，观察触发前后的情绪波动，逐渐建立可控的节奏。
+- 将《[辩证行为疗法（DBT）](Dialectical-Behavior-Therapy-DBT.md)》中的情绪调节、痛苦耐受技巧融入日常，记录练习前后的情绪波动，逐渐建立可控的节奏。
 
 ### 3. 面向整合
 
 - 阅读《[三阶段创伤治疗模型](Three-Phase-Trauma-Treatment.md)》理解专业治疗常见步骤，方便与治疗师沟通目标。
-- 在稳定阶段与系统成员讨论界限、角色分工，评估何时适合进入创伤加工。
+- 若系统内部存在角色冲突，可借鉴《[内在家庭系统疗法（IFS）](Internal-Family-Systems-IFS.md)》的“自性领导”概念，协助部分间对话。
+- 与治疗师讨论适合的创伤加工方式，例如《[认知加工疗法（CPT）](Cognitive-Processing-Therapy-CPT.md)》《[创伤聚焦认知行为疗法（TF-CBT）](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md)》或《[长期暴露疗法（PE）](Prolonged-Exposure-Therapy-PE.md)》。
+
+## 专业疗法速览
+
+- **身体导向**：SE 强调从身体感受入手，适合难以开口叙述创伤或易陷入僵冻的系统成员。
+- **信息加工**：EMDR 使用双侧刺激协助大脑重新整合创伤记忆，可在稳定阶段后作为短程干预。
+- **认知行为**：CPT、TF-CBT、PE 分别聚焦信念重建、家庭合作与暴露练习，适用于已建立支持网络、愿意逐步面对创伤的成员。
+- **系统协作**：IFS 鼓励以“自性”协调各部分需求，帮助多意识体系统在疗愈中保持内部沟通。
 
 ## 实用检查清单
 
