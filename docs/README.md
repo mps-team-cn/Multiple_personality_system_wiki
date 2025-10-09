@@ -51,7 +51,7 @@
 - 分离（Dissociation）
 - 创伤相关障碍（PTSD/CPTSD）
 - 应对技巧与自我照顾
-- 立足当下（Grounding）
+- 接地（Grounding）
 
 ---
 
@@ -106,7 +106,7 @@
 
 ### 贡献内容
 
-- 阅读 [贡献指南](CONTRIBUTING/index.md)
+- 阅读 [贡献指南](contributing/index.md)
 - 提交词条建议或改进
 - 参与讨论和审核
 - 报告错误或提出需求
