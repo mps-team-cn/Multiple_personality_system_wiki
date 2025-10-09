@@ -123,6 +123,12 @@ collections:
         required: false
         hint: "为词条添加详细标签，如：解离、创伤、多意识体等"
 
+      - label: "同义词/别名"
+        name: "synonyms"
+        widget: "list"
+        required: false
+        hint: "添加词条的同义词、别名、英文名、拼音等，用于搜索索引优化。例如：管理者、管理员、admin"
+
       - label: "更新时间"
         name: "updated"
         widget: "datetime"
