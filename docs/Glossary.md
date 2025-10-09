@@ -114,7 +114,7 @@
 | [OCD](entries/OCD.md) | 强迫症 | 以反复出现的强迫思维与强迫行为循环为核心特征的状态。 |
 | [OSDD](entries/OSDD.md) | 其他特定解离性障碍 | 涵盖未达到 DID 标准但存在显著身份或记忆分离的诊断类别。 |
 | [Partial Dissociative Identity Disorder](entries/Partial-Dissociative-Identity-Disorder-PDID.md) | 部分解离性身份障碍 | 描述部分身份保持前台控制、仍保留连续意识体验的解离表现。 |
-| [Pathological Dissociation](entries/Pathological-Dissociation.md) | 病理性解离 | 创伤相关的持续性整合失败，属于解离性障碍核心症状。 |
+| [Pathological Dissociation](entries/Dissociative-Disorders.md) | 病理性解离 | 创伤相关的持续性整合失败，属于解离性障碍核心症状。 |
 | [PTSD](entries/PTSD.md) | 创伤后应激障碍 | 创伤后以警觉性提高、回避与再体验等症状为主的障碍。 |
 | [Schizophrenia](entries/Schizophrenia-SC.md) | 精神分裂症 | 以思维、感知与情感失调为核心的精神病性障碍。 |
 | [Sleep Disorders，SD](entries/Sleep-Disorders-SD.md) | 睡眠障碍 | 包含失眠、噩梦与睡眠行为异常等问题，常与创伤触发与身份切换相关。 |
