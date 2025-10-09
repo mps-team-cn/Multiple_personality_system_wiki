@@ -62,6 +62,37 @@
     - `docs/assets/icons/` - 小图标、装饰性素材
   - 资源引用：使用相对于 `docs/` 的路径（如 `assets/icons/favicon.svg`）
 
+### 2.1 提示块语法
+
+- 请在需要强调补充信息时使用 Material for MkDocs 的提示块语法。
+- 常用语法示例如下，注意缩进需使用四个空格：
+
+```markdown
+!!! note
+    This is a note.
+
+!!! tip
+    This is a tip.
+
+!!! warning
+    This is a warning.
+
+!!! danger
+    This is a danger.
+
+!!! success
+    This is a success.
+
+!!! info
+    This is an info.
+
+!!! quote
+    This is a quote.
+
+??? question "What is the meaning of life, the universe, and everything?"
+    42.
+```
+
 ---
 
 ## 3. 工具与脚本
