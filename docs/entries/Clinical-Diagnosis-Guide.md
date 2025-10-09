@@ -83,7 +83,7 @@ updated: 2025-10-09
 - [惊恐障碍（Panic Disorder）](Panic-Disorder.md)：识别突发性惊恐发作与预期性焦虑。
 - 惊恐发作（Panic Attack）：见 [惊恐障碍](Panic-Disorder.md)
 - 广场恐惧症（Agoraphobia）：*待更新*
-- 广泛性焦虑障碍（Generalized Anxiety Disorder）：*待更新*
+- [广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md)：过度焦虑与担忧，难以控制且伴躯体症状（肌肉紧张、疲劳、睡眠障碍）。
 - 物质/药物所致焦虑障碍：*待更新*
 - 其他医学状况所致焦虑障碍：*待更新*
 - 其他特定/未特定焦虑障碍：*待更新*
@@ -233,20 +233,25 @@ updated: 2025-10-09
 
 ### 18. 人格障碍（Personality Disorders）
 
-- A 组人格障碍（奇异/怪异）：
-  - 偏执型人格障碍（Paranoid Personality Disorder）：*待更新*
-  - 分裂样人格障碍（Schizoid Personality Disorder）：*待更新*
-  - 分裂型人格障碍（Schizotypal Personality Disorder）：*待更新*
-- B 组人格障碍（戏剧性/情绪化/不稳定）：
-  - 反社会人格障碍（Antisocial Personality Disorder）：*待更新*
-  - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)：聚焦情绪不稳、人际困难、身份混乱与解离症状的关系。
-  - 表演型人格障碍（Histrionic Personality Disorder）：*待更新*
-  - [自恋型人格障碍（NPD）](Narcissistic-Personality-Disorder-NPD.md)：理解自尊脆弱与补偿机制、共情缺陷。
-- C 组人格障碍（焦虑/恐惧）：
-  - 回避型人格障碍（Avoidant Personality Disorder）：*待更新*
-  - 依赖型人格障碍（Dependent Personality Disorder）：*待更新*
-  - 强迫型人格障碍（Obsessive-Compulsive Personality Disorder）：*待更新*
-- 其他人格障碍：
+- **[人格障碍总览（Personality Disorders）](Personality-Disorders.md)**：综述 DSM-5-TR 与 ICD-11 人格障碍分类体系、诊断要点、共病管理与治疗方法。
+
+- **A 组人格障碍（奇异/怪异）**：
+  - [偏执型人格障碍（PPD）](Paranoid-Personality-Disorder-PPD.md)：广泛不信任与猜疑，对批评高度敏感。
+  - [分裂样人格障碍（SzPD）](Schizoid-Personality-Disorder-SzPD.md)：社交疏离与情感表达受限，偏好独处。
+  - [分裂型人格障碍（STPD）](Schizotypal-Personality-Disorder-STPD.md)：社交缺陷伴认知扭曲、魔法思维与古怪行为。
+
+- **B 组人格障碍（戏剧性/情绪化/不稳定）**：
+  - [反社会人格障碍（ASPD）](Antisocial-Personality-Disorder-ASPD.md)：无视与侵犯他人权利，欺骗、冲动、攻击性与缺乏悔恨。
+  - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)：情绪不稳、人际困难、身份混乱与解离症状。
+  - [表演型人格障碍（HPD）](Histrionic-Personality-Disorder-HPD.md)：过度情绪化、寻求关注与戏剧化表达。
+  - [自恋型人格障碍（NPD）](Narcissistic-Personality-Disorder-NPD.md)：夸大、需要赞美、缺乏共情。
+
+- **C 组人格障碍（焦虑/恐惧）**：
+  - [回避型人格障碍（AvPD）](Avoidant-Personality-Disorder-AvPD.md)：社交抑制、对负性评价过度敏感，渴望但害怕亲密。
+  - [依赖型人格障碍（DPD）](Dependent-Personality-Disorder-DPD.md)：过度需要被照顾，顺从与依附行为，分离恐惧。
+  - [强迫型人格障碍（OCPD）](Obsessive-Compulsive-Personality-Disorder-OCPD.md)：专注于秩序、完美主义与控制，损害灵活性（注意区分 OCD）。
+
+- **其他人格障碍**：
   - 其他特定人格障碍：*待更新*
   - 未特定人格障碍：*待更新*
 
