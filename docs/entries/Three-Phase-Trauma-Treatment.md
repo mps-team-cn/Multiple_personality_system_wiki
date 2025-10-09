@@ -62,7 +62,7 @@ updated: 2025-10-06
 - [**创伤聚焦认知行为疗法（TF-CBT）**](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md): 针对儿童青少年创伤的结构化治疗
 - [**延长暴露疗法（PE）**](Prolonged-Exposure-Therapy-PE.md): 逐步面对创伤记忆与触发物
 - [**认知加工疗法（CPT）**](Cognitive-Processing-Therapy-CPT.md): 识别和改变创伤相关的负性信念
-- **内在家庭系统疗法（IFS）** : 与内部部分建立对话，整合创伤经历
+- [**内在家庭系统疗法（IFS）**](Internal-Family-Systems-IFS.md): 与内部部分建立对话，整合创伤经历
 
 **风险管理** ：
 
