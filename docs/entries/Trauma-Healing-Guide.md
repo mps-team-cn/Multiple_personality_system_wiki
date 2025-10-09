@@ -29,6 +29,7 @@ updated: 2025-10-09
 | [接地（Grounding）](Grounding.md) | 急性触发、解离、恐慌时 | 透过感官、呼吸、动作把注意力带回当下 |
 | [感官调节策略](Sensory-Regulation-Strategies.md) | 长期焦虑、情绪起伏 | 建立个人化的舒缓工具箱，稳定神经系统 |
 | [冥想（Meditation）](Meditation.md) | 恢复觉察、培养韧性 | 以正念训练提升情绪调节与自我关怀 |
+| [正念（Mindfulness）](Mindfulness.md) | 建立当下觉察、扩展容受度 | 稳定地观察身体与情绪变化，培养对触发反应的辨识与预警 |
 | [躯体经验疗法（Somatic Experiencing, SE）](Somatic-Experiencing-SE.md) | 身体紧绷、僵冻、难以言说的创伤记忆 | 透过感官追踪与资源化释放未完成的防御反应 |
 | [眼动脱敏与再加工（EMDR）](Eye-Movement-Desensitization-Reprocessing-EMDR.md) | 闪回、噩梦、创伤性影像反复入侵 | 利用双侧刺激协助大脑重新处理创伤记忆 |
 | [辩证行为疗法（DBT）](Dialectical-Behavior-Therapy-DBT.md) | 情绪失控、自我破坏冲动 | 学习正念、情绪调节、人际效能，提升自我稳定度 |
@@ -47,7 +48,7 @@ updated: 2025-10-09
 
 ### 2. 培养韧性
 
-- 依据《[冥想](Meditation.md)》安排短时练习，重点在于觉察身体与情绪，不追求“空白大脑”。
+- 依据《[正念](Mindfulness.md)》与《[冥想](Meditation.md)》安排短时练习，重点在于觉察身体与情绪，不追求“空白大脑”。
 - 将《[辩证行为疗法（DBT）](Dialectical-Behavior-Therapy-DBT.md)》中的情绪调节、痛苦耐受技巧融入日常，记录练习前后的情绪波动，逐渐建立可控的节奏。
 
 ### 3. 面向整合
