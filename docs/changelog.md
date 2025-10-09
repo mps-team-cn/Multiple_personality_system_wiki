@@ -1,5 +1,90 @@
 # 更新日志
 
+## [v3.7.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.7.0) - MPS 术语体系重构与内容扩充 (2025-10-09)
+
+### ♻️ 术语体系重构（破坏性变更）
+
+- **全面迁移至 MPS（Multiple Personality System，多意识体系统）术语体系**
+  - 重命名核心文件：`Plurality.md` → `Multiple_Personality_System.md`
+  - 重命名基础文件：`Plurality-Basics.md` → `Mps-Basics.md`
+  - 全站替换 "Plurality" 为 "MPS（多意识体系统）"
+  - 重写主页，全面引入 MPS 术语体系
+  - 更新仓库名称：`plurality_wiki` → `Multiple_personality_system_wiki`
+  - 统一主页和各导览页面的术语表述
+
+### 📖 新增内容
+
+- **新增诊断词条**
+  - **智力发育障碍（Intellectual Developmental Disorder）** - 参照 DID 标杆结构编写
+  - **人格障碍与广泛性焦虑障碍完整词条体系** - 按 DSM-5-TR 体系新增多个诊断条目
+
+- **新增系统类型词条**
+  - **系魂型系统（Soulbond System）** - 包含定义、特征及相关讨论
+
+- **补充共病内容**
+  - 补充 DID 共病相关内容
+  - 新增相关诊断条目的互链
+
+### 🔧 条目优化
+
+- **refactor**: 大幅优化 ADHD 条目，参照 DID 标杆结构
+- **refactor**: 优化 ASD 条目，参照 DID 标杆结构
+- **docs**: 优化共病与诊断词条结构
+- **docs**: 按 DSM-5-TR 完整体系重构诊断导览
+- **docs**: 更新临床诊断指南，添加智力发育障碍链接
+
+### 🎨 样式与格式优化
+
+- **style**: 优化心理健康导览问答格式
+- **style**: 优化首页术语说明和样式
+- **docs**: 添加提示块语法示例以增强文档可读性
+- **fix**: 标准化链接格式和改进 markdown 一致性
+
+### 🐛 Bug 修复
+
+- **fix**: 修正转换障碍条目 topic 字段顺序（"临床与诊断" → "诊断与临床"）
+- **fix**: 更新系魂文档，修正标签格式和更新时间，优化部分段落表述
+- **fix**: 更新文档中的链接和名称，确保一致性
+- **fix**: 更新工作流状态链接和 GitHub Pages 地址
+- **fix**: 修改域名地址为 mpswiki.page.dev
+- **fix**: 正确配置 mkdocs 设置说明
+
+### 🔍 搜索优化
+
+- **fix(search)**: 优化中文搜索分词，解决"系魂"被拆分问题
+- **fix**: 移除搜索用户词典配置，改用默认分词
+
+### 🔐 认证与配置
+
+- **fix(auth)**: 支持配置 GitHub OAuth 回调域名
+
+### 📝 文档完善
+
+- **docs**: 添加 Python 环境配置说明文档
+- **feat(docs)**: 更新条目维护规范，增加主题总览页面同步要求
+- **feat(docs)**: 添加"系魂型系统"条目及相关定义，更新内容以增强文档结构
+
+### 📦 杂务
+
+- **chore**: 用户本地配置与文档格式更新
+- **chore**: 更新站点配置和清理文件
+- **chore**: 同步仓库改动
+- **chore**: 同步本地修改
+
+### 🔨 技术改进
+
+- 优化 Admin.md 中的 Frontmatter 格式，确保标签和同义词的统一性
+- 删除过时的心理健康主题词条（Depressive Disorders, Disorientation, Flashback, OCD, PTSD, Trauma）
+- 更新 .gitignore：添加 pdf、logs、.obsidian、Codex 规则及特定 pyc 忽略
+
+### ⚠️ 破坏性变更
+
+- 核心术语从 "Plurality" 全面迁移至 "MPS（多意识体系统）"
+- 多个核心文件重命名，旧链接可能失效
+- 仓库名称变更：`plurality_wiki` → `Multiple_personality_system_wiki`
+
+---
+
 ## [v3.6.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.6.0) - 主题导览重构与 CMS 体验优化 (2025-10-08)
 
 ### ✨ 内容重构
