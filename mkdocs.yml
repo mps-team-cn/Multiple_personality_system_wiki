@@ -1,6 +1,6 @@
-site_name: Multiple Personality System Wiki - 多意识体百科
+site_name: Mps Wiki - 多意识体百科
 site_url: https://mpswiki.pages.dev
-site_description: 多重意识体系统（Plurality）与创伤相关主题的中文知识库
+site_description: 多意识体系统（Multiple Personality System）与创伤相关主题的中文知识库
 site_author: 脸脸系统、弦羽系统、逝水流年系统及社区贡献者
 repo_url: https://github.com/mps-team-cn/Multiple_personality_system_wiki
 repo_name: Multiple_personality_system_wiki
@@ -241,7 +241,7 @@ nav:
       - 核心概念导览: entries/Core-Concepts-Guide.md
       - 基础概念:
           - entries/Dissociation.md
-          - entries/Plurality.md
+          - entries/Mps-Basics.md
           - entries/System.md
           - entries/Alter.md
       - 临床诊断:

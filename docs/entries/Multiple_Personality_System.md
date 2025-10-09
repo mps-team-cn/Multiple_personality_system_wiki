@@ -7,11 +7,11 @@ tags:
 - 解离
 
 topic: 系统运作
-title: 多重人格系统（Multiple Personality System）
+title: 多意识体系统（Multiple Personality System）
 updated: 2025-10-09
 synonyms:
 
-- 多重人格系统
+- 多意识体系统
 - Multiple Personality System
 - 多意识体
 - Plurality
@@ -19,7 +19,7 @@ synonyms:
 
 ---
 
-# 多重人格系统（Multiple Personality System）
+# 多意识体系统（Multiple Personality System）
 
 ## 同义词
 
