@@ -2,7 +2,7 @@
 
 ## 📖 什么是 Multiple Personality System Wiki？
 
-**Multiple Personality System Wiki（多意识体百科）** 是一个专注于多重意识体系统（Plurality）与创伤相关主题的中文知识库。
+**Multiple Personality System Wiki（多意识体百科）** 是一个专注于多意识体系统（MPS）与创伤相关主题的中文知识库。
 
 我们致力于：
 
@@ -33,7 +33,7 @@
 
 ### 核心概念
 
-- **多元性（Plurality）** : 多重意识体存在的总称
+- **多意识体系统（MPS）** : 多重意识体存在的总称
 - **系统（System）** : 共享身体的多个意识体集合
 - **成员（Alter）** : 系统中的单个意识体
 - **分离性障碍（DID/OSDD）** : 相关心理健康诊断

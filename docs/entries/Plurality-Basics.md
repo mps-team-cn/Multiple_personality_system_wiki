@@ -13,7 +13,7 @@ updated: 2025-10-03
 
 # 多重意识体基础（Plurality Basics）
 
-> 本条目概述多重意识体系统的核心概念，内容与《[多意识体（Plurality）](Multiple_Personality_System.md)》保持一致，便于通过英文路径访问。
+> 本条目概述多重意识体系统的核心概念，内容与《[多意识体系统（MPS）](Multiple_Personality_System.md)》保持一致，便于通过英文路径访问。
 
 ## 同义词
 
@@ -62,7 +62,7 @@ updated: 2025-10-03
 
 ## 相关条目
 
-- [多意识体（Plurality）](Multiple_Personality_System.md)
+- [多意识体系统（MPS）](Multiple_Personality_System.md)
 - [系统（System）](System.md)
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
 - [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)

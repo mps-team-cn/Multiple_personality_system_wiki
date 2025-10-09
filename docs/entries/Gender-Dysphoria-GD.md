@@ -168,7 +168,7 @@ GD 的照护通常遵循多层次、个别化的支持模式：
 
 - [创伤（Trauma）](Trauma.md)
 - [身体认同（Body Ownership）](Body-Ownership.md)
-- [多意识体（Plurality）](Multiple_Personality_System.md)
+- [多意识体系统（MPS）](Multiple_Personality_System.md)
 
 ### 导览
 

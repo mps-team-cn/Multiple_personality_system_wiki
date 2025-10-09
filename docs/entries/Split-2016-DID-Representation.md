@@ -43,7 +43,7 @@ updated: 2025-10-03
 - [系统（System）](System.md)
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
 - [多重意识体基础（Plurality Basics）](Plurality-Basics.md)
-- [多意识体（Plurality）](Multiple_Personality_System.md)
+- [多意识体系统（MPS）](Multiple_Personality_System.md)
 - [混合（Blending）](Blending.md)
 
 ## 参考资料
