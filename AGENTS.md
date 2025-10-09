@@ -1,7 +1,29 @@
-# Multiple Personality System Wiki 贡献与开发约定（AGENTS.md）
+# Multiple Personality System Wiki 贡献与开发约定
 
-本文件定义了本项目的贡献规则与开发约定，适用于人工贡献者与自动化工具（代理/脚本）。
-所有贡献应严格遵循以下要求，以保持条目结构与站点一致性。
+> **适用范围**：本文档定义了项目的贡献规则与开发约定，适用于人工贡献者与自动化工具（代理/脚本）。
+
+!!! warning "强制要求"
+    所有贡献必须严格遵循以下规范，以保持条目结构与站点一致性。
+
+---
+
+## 📑 目录导览
+
+1. [通用约定](#1-通用约定)
+   - [语言规范](#11-语言规范)
+   - [文件与目录规范](#12-文件与目录规范)
+   - [索引与链接规范](#13-索引与链接规范)
+2. [站点配置与前端规则](#2-站点配置与前端规则)
+   - [提示块语法](#21-提示块语法)
+3. [工具与脚本](#3-工具与脚本)
+4. [提交与版本管理](#4-提交与版本管理)
+   - [提交规范](#41-提交规范)
+   - [Pull Request 要求](#42-pull-request-要求)
+   - [版本发布流程](#44-版本发布流程)
+5. [Python 环境配置](#5-python-环境配置)
+6. [测试与检查](#6-测试与检查)
+7. [自动化维护规则](#7-自动化维护规则代理脚本必须遵循)
+8. [Markdown 自动修复与校验](#8-markdown-自动修复与校验)
 
 ---
 
@@ -9,130 +31,234 @@
 
 ### 1.1 语言规范
 
-- 所有条目、说明文档与提交信息统一使用简体中文。
-- 一级标题采用 `中文名（English/缩写）` 格式；若为诊断/疾病，括号内必须使用标准缩写。
+!!! info "语言要求"
+
+    - ✅ **统一使用简体中文**：所有条目、文档与提交信息
+    - ✅ **一级标题格式**：`中文名（English/缩写）`
+    - ⚠️ **诊断/疾病条目**：括号内必须使用标准缩写（如 `解离性身份障碍（DID）`）
 
 ### 1.2 文件与目录规范
 
-**重要** ：本项目已从 Docsify 迁移至 MkDocs Material，请遵循以下新的目录结构：
+!!! warning "重要变更：Docsify → MkDocs Material"
+    本项目已从 Docsify 迁移至 MkDocs Material，目录结构与引用方式已更新。
 
-- **词条** ：
-  - 存放位置：`docs/entries/` 目录（MkDocs 构建源）
-  - 不得新建二级子目录，分类信息统一通过 Frontmatter `tags` 字段声明
-- **词条 Frontmatter** ：每篇词条必须在文件开头声明 `---` 包裹的 YAML，至少包含 `title` / `tags` / `updated` 三个字段。
-- **词条加粗规范** ：加粗内容前后都需要加空格，格式为 ` **加粗内容** `，以便于 MkDocs 正确识别。
-- **文档** ：
-  - MkDocs 文档：统一放在 `docs/` 目录（包括 `index.md`、`README.md`、`Glossary.md` 等）
-  - 贡献指南：`docs/contributing/`（拆分为多个专题文档）
-  - 开发者文档：`docs/ADMIN_GUIDE.md`、`docs/GITHUB_WORKFLOW.md`、`docs/TEMPLATE_ENTRY.md` 等
-- **脚本与工具** ：所有脚本或自动化工具，统一放在 `tools/` 子目录。
-- **工具文档** ：脚本更新或维护后，必须同步更新 `docs/tools/README.md`，保证工具与说明一致。
+#### 📂 目录结构概览
+
+| 目录/文件 | 用途 | 说明 |
+|----------|------|------|
+| `docs/entries/` | **词条存放** | ❌ 不得创建子目录，分类通过 Frontmatter `tags` 声明 |
+| `docs/` | **核心文档** | `index.md`, `README.md`, `Glossary.md` 等 |
+| `docs/contributing/` | **贡献指南** | 拆分为多个专题文档 |
+| `docs/tools/README.md` | **工具文档** | 脚本说明与使用指南 |
+| `tools/` | **脚本与工具** | 所有自动化工具 |
+| `docs/assets/` | **静态资源** | CSS, JS, 图片等 |
+| `docs/assets/figures/` | **图表资源** | 流程图、示意图、SVG |
+| `docs/assets/images/` | **图片资源** | 封面、截图 |
+| `docs/assets/icons/` | **图标资源** | 小图标、装饰性素材 |
+
+#### 📝 词条 Frontmatter 要求
+
+!!! danger "必须包含的字段"
+    每篇词条文件开头必须声明 YAML 格式的 Frontmatter：
+
+```yaml
+---
+title: 词条标题
+topic: 词条主题
+tags:
+
+  - 标签1
+  - 标签2
+
+updated: YYYY-MM-DD
+---
+```
+
+#### ✨ 词条格式规范
+
+!!! tip "加粗内容格式"
+    加粗内容前后都需要加空格：` **加粗内容** `（空格 + 星号 + 内容 + 星号 + 空格）
 
 ### 1.3 索引与链接规范
 
-- 新增或修改词条时，必须同步维护：
-  - docs/Glossary.md → 术语表（如适用）
-  - 对应主题的总览页面（如适用）
-  - **对应的 Guide 条目** → 根据词条主题，必须同步更新相关的导览条目中的引用和链接：
-    - **诊断与临床** （DID、OSDD、CPTSD、焦虑障碍、情绪障碍等诊断条目） → `Clinical-Diagnosis-Guide.md`
-    - **系统运作** （前台切换、共同意识、记忆管理、内部空间、系统治理等机制） → `System-Operations.md`
-    - **实践指南** （Tulpa三阶段训练、冥想、可视化、内部沟通、接地技巧等方法） → `Practice-Guide.md`
-    - **创伤与疗愈** （创伤机理、PTSD/CPTSD症状、三阶段治疗模型、接地调节策略等） → `Trauma-Healing-Guide.md`
-    - **角色与身份** （宿主、守门人、保护者、照护者等角色类型与分工） → `Roles-Identity-Guide.md`
-    - **理论与分类** （结构性解离、依恋理论、自我决定理论、动机与人格模型等框架） → `Theory-Classification-Guide.md`
-    - **文化与表现** （影视、文学、动画、游戏等媒体中的多意识体主题） → `Cultural-Media-Guide.md`
-  - **Guide维护要求** ：
-    - 创建新词条时，必须在对应Guide中添加该词条的链接和简短描述
-    - 更新现有词条时，需检查对应Guide中的描述是否需要同步更新
-    - 一个词条可能属于多个主题，需同时更新所有相关的Guide条目
-    - 删除或重命名词条时，必须同步更新所有引用该词条的Guide
-- 条目内链接规范：
-  - **词条间链接（同目录）** ：使用相对路径 `Admin.md`
-  - **跨目录链接** ：
-    - 从词条引用其他目录：`../contributing/index.md`
-    - 从其他目录引用词条：`../entries/Admin.md`
-  - MkDocs 会自动处理 `.md` 扩展名转换为 HTML
-  - **禁止** 使用绝对路径（如 `/docs/entries/DID.md`）
-  - 禁止使用模糊链接或锚点不明确的链接
+#### 🔗 必须同步维护的文档
+
+创建或修改词条时，**必须同步更新** 以下相关文档：
+
+| 文档 | 更新时机 | 说明 |
+|------|---------|------|
+| `docs/Glossary.md` | 新增术语 | 添加到术语表 |
+| 主题总览页面 | 新增词条 | 更新对应主题索引 |
+| **对应的 Guide** | 创建/更新/删除词条 | 见下方主题映射表 |
+
+#### 📚 词条主题与 Guide 映射表
+
+| 词条主题 | 对应 Guide 文件 | 示例内容 |
+|---------|----------------|---------|
+| **诊断与临床** | `Clinical-Diagnosis-Guide.md` | DID, OSDD, CPTSD, 焦虑障碍, 情绪障碍 |
+| **系统运作** | `System-Operations.md` | 前台切换, 共同意识, 记忆管理, 内部空间 |
+| **实践指南** | `Practice-Guide.md` | Tulpa三阶段, 冥想, 可视化, 接地技巧 |
+| **创伤与疗愈** | `Trauma-Healing-Guide.md` | 创伤机理, PTSD症状, 三阶段治疗模型 |
+| **角色与身份** | `Roles-Identity-Guide.md` | 宿主, 守门人, 保护者, 照护者 |
+| **理论与分类** | `Theory-Classification-Guide.md` | 结构性解离, 依恋理论, 自我决定理论 |
+| **文化与表现** | `Cultural-Media-Guide.md` | 影视, 文学, 动画, 游戏主题 |
+
+!!! warning "Guide 维护要求"
+
+    - ✅ **创建新词条**：在对应 Guide 中添加链接和简短描述
+    - ✅ **更新词条**：检查 Guide 中的描述是否需要同步更新
+    - ✅ **跨主题词条**：同时更新所有相关 Guide
+    - ✅ **删除/重命名**：同步更新所有引用该词条的 Guide
+
+#### 🔗 链接路径规范
+
+| 链接场景 | 正确格式 | 错误示例 |
+|---------|---------|---------|
+| 词条间链接（同目录） | `Admin.md` | `/docs/entries/Admin.md` |
+| 词条→其他目录 | `../contributing/index.md` | `/contributing/index.md` |
+| 其他目录→词条 | `../entries/Admin.md` | `Admin.md` |
+
+!!! danger "禁止事项"
+
+    - ❌ 绝对路径（如 `/docs/entries/DID.md`）
+    - ❌ 模糊链接或锚点不明确
+    - ❌ 不存在的文件引用
 
 ---
 
 ## 2. 站点配置与前端规则
 
-**当前框架** ：MkDocs Material
+!!! info "当前框架"
+    **MkDocs Material** - 静态站点生成器
 
-- **配置文件** ：
-  - `mkdocs.yml` - 主配置文件（站点元信息、主题、插件、导航结构）
-  - `requirements.txt` - Python 依赖清单
-  - `.cfpages-build.sh` - Cloudflare Pages 构建脚本
-- **静态资源** ：
-  - 主目录：`docs/assets/`（CSS、JS、图片、JSON 数据等）
-  - 自定义样式：`docs/assets/extra.css`
-  - 自定义脚本：`docs/assets/extra.js`
-  - **资源子目录** ：
-    - `docs/assets/figures/` - 图表、流程图、示意图、SVG 等
-    - `docs/assets/images/` - 一般图片（封面、截图等）
-    - `docs/assets/icons/` - 小图标、装饰性素材
-  - 资源引用：使用相对于 `docs/` 的路径（如 `assets/icons/favicon.svg`）
+### 🛠 配置文件一览
+
+| 文件 | 用途 |
+|------|------|
+| `mkdocs.yml` | 站点元信息、主题、插件、导航结构 |
+| `requirements.txt` | Python 依赖清单 |
+| `.cfpages-build.sh` | Cloudflare Pages 构建脚本 |
+| `docs/assets/extra.css` | 自定义样式 |
+| `docs/assets/extra.js` | 自定义脚本 |
 
 ### 2.1 提示块语法
 
-- 请在需要强调补充信息时使用 Material for MkDocs 的提示块语法。
-- 常用语法示例如下，注意缩进需使用四个空格：
+!!! tip "Material for MkDocs 提示块"
+    使用提示块强调重要信息时，注意 **缩进使用四个空格**。
+
+#### 常用提示块类型
 
 ```markdown
-!!! note
-    This is a note.
+!!! note "笔记标题（可选）"
+    这是一个笔记块。
 
-!!! tip
-    This is a tip.
+!!! tip "提示"
+    这是一个提示块，用于分享有用建议。
 
-!!! warning
-    This is a warning.
+!!! warning "警告"
+    这是一个警告块，用于提醒注意事项。
 
-!!! danger
-    This is a danger.
+!!! danger "危险"
+    这是一个危险块，用于严重警告。
 
-!!! success
-    This is a success.
+!!! success "成功"
+    这是一个成功块，用于展示正面结果。
 
-!!! info
-    This is an info.
+!!! info "信息"
+    这是一个信息块，用于补充说明。
 
-!!! quote
-    This is a quote.
+!!! quote "引用"
+    这是一个引用块。
 
-??? question "What is the meaning of life, the universe, and everything?"
-    42.
+??? question "可折叠问题块"
+    这是一个可折叠的问答块。
+    点击标题可展开/收起内容。
 ```
 
 ---
 
 ## 3. 工具与脚本
 
-- 所有工具位于 `tools/` 目录，相关文档放置在 `docs/tools/README.md`。
-- **PDF 导出工具** （`tools/pdf_export/`）：
-  - **环境** ：Python ≥ 3.10
-  - **规范** ：
-    - 使用 `pathlib.Path`，禁止字符串拼接路径。
-    - 保持函数化/`dataclass`/类型注解。
-    - 注意 LaTeX/Markdown 转换的跨平台兼容与转义。
-  - **文档同步** ：修改导出逻辑需同步更新 `docs/tools/README.md`。
+!!! info "工具位置"
+
+    - **代码**：`tools/` 目录
+    - **文档**：`docs/tools/README.md`（必须同步维护）
+
+### 📦 PDF 导出工具规范
+
+**位置**：`tools/pdf_export/`
+
+| 要求类别 | 具体规范 |
+|---------|---------|
+| **环境** | Python ≥ 3.10 |
+| **代码风格** | 使用 `pathlib.Path`，禁止字符串拼接路径 |
+| **编程规范** | 函数化/`dataclass`/类型注解 |
+| **兼容性** | 注意 LaTeX/Markdown 转换的跨平台兼容与转义 |
+
+!!! warning "文档同步要求"
+    修改导出逻辑后，**必须同步更新** `docs/tools/README.md`。
 
 ---
 
 ## 4. 提交与版本管理
 
-- **提交信息前缀（Conventional Commits）** ：
-  - `feat:` 新增条目或功能
-  - `fix:` 修复错误或错别字
-  - `docs:` 文档说明调整
-  - `refactor:` 代码重构或结构调整
-  - `chore:` 构建/配置/依赖更新
-  - `style:` 空格/缩进/行尾等非语义变更
-- **Pull Request 说明** ：必须包含动机、主要变更、潜在风险、相关条目/链接。
-- **忽略文件** ：提交前检查 `ignore.md` 维护是否正确。
-- **版本发布与维护** ：准备发布时必须核对 `changelog.md` 最新条目，确认版本号与说明一致；使用 GitHub CLI (`gh release create` 或更新命令) 将 `changelog.md` 内容同步为 Release Notes，并推送对应标签到远端。
+### 4.1 提交规范
+
+!!! info "Conventional Commits"
+    使用标准化的提交信息前缀：
+
+| 前缀 | 用途 | 示例 |
+|------|------|------|
+| `feat:` | 新增条目或功能 | `feat: 新增 Grounding 词条` |
+| `fix:` | 修复错误或错别字 | `fix: 修正 DID 定义中的错误` |
+| `docs:` | 文档说明调整 | `docs: 更新贡献指南` |
+| `refactor:` | 代码重构或结构调整 | `refactor: 重组词条分类` |
+| `chore:` | 构建/配置/依赖更新 | `chore: 更新 MkDocs 版本` |
+| `style:` | 格式化（非语义变更） | `style: 统一缩进格式` |
+
+### 4.2 Pull Request 要求
+
+!!! warning "PR 说明必须包含"
+
+    - ✅ 变更动机
+    - ✅ 主要改动点
+    - ✅ 潜在风险
+    - ✅ 关联词条或文档
+    - ⚠️ 若涉及自动生成/重写，需列出所用方法（正则/脚本名/范围等）
+
+### 4.3 忽略文件
+
+!!! tip "提交前检查"
+    确认 `ignore.md` 与项目实际状态一致。
+
+### 4.4 版本发布流程
+
+!!! danger "发布前必须执行"
+
+    1. **核对 `changelog.md`**：
+       - 版本号正确
+       - 日期准确
+       - 关键变更完整
+       - 与实际改动一致
+
+    2. **使用 GitHub CLI 发布**：
+
+       ```bash
+       # 创建新 Release
+       gh release create <tag> --notes-file changelog.md
+
+       # 或编辑现有 Release
+       gh release edit <tag> --notes-file changelog.md
+       ```
+
+    3. **推送标签**：
+
+       ```bash
+       git push origin <tag>
+       ```
+
+!!! warning "重要提醒"
+    若 `changelog.md` 未更新或与实际不符，**先补全记录再创建 Release**。
 
 ---
 
@@ -140,145 +266,167 @@
 
 ### 5.1 系统要求
 
-- Python 3.8 或更高版本
-- pip 或虚拟环境支持
+| 要求 | 版本 |
+|------|------|
+| Python | ≥ 3.8 |
+| pip | 最新版本 |
 
 ### 5.2 推荐配置方式
 
-#### 方式一：虚拟环境（推荐）
+=== "方式一：虚拟环境（推荐）"
 
-适用于 Debian/Ubuntu 等外部管理 Python 环境的系统：
+    !!! success "适用场景"
+        Debian/Ubuntu 等外部管理 Python 环境的系统
 
-```bash
+    ```bash
+    # 1. 安装 venv 支持（如需要）
+    sudo apt install python3.12-venv  # 或对应的 Python 版本
 
-# 1. 安装 venv 支持（如需要）
+    # 2. 创建虚拟环境
+    python3 -m venv venv
 
-sudo apt install python3.12-venv  # 或对应的 Python 版本
+    # 3. 激活虚拟环境
+    source venv/bin/activate
 
-# 2. 创建虚拟环境
+    # 4. 安装依赖
+    pip install -r requirements.txt
+    ```
 
-python3 -m venv venv
+    !!! tip "后续使用"
+        每次使用项目工具前，需先激活虚拟环境：
+        ```bash
+        source venv/bin/activate
+        ```
 
-# 3. 激活虚拟环境
+=== "方式二：系统级安装"
 
-source venv/bin/activate
+    !!! info "适用场景"
+        非托管 Python 环境（如 macOS、Windows）
 
-# 4. 安装依赖
-
-pip install -r requirements.txt
-```
-
-**后续使用**：每次使用项目工具前，需先激活虚拟环境：
-
-```bash
-source venv/bin/activate
-```
-
-#### 方式二：系统级安装
-
-适用于非托管 Python 环境：
-
-```bash
-
-# 直接安装依赖
-
-pip install -r requirements.txt
-```
+    ```bash
+    # 直接安装依赖
+    pip install -r requirements.txt
+    ```
 
 ### 5.3 常见问题解决
 
-#### `pip: command not found`
+??? question "`pip: command not found` 错误"
 
-```bash
+    ```bash
+    # 方法 1：使用 python3 -m pip
+    python3 -m pip install -r requirements.txt
 
-# 方法 1：使用 python3 -m pip
+    # 方法 2：安装 pip
+    python3 -m ensurepip --default-pip
 
-python3 -m pip install -r requirements.txt
+    # 方法 3：系统包管理器安装
+    sudo apt install python3-pip
+    ```
 
-# 方法 2：安装 pip
+??? question "`externally-managed-environment` 错误"
 
-python3 -m ensurepip --default-pip
+    !!! danger "这是 Debian/Ubuntu 系统的安全特性"
 
-# 方法 3：系统包管理器安装
-
-sudo apt install python3-pip
-```
-
-#### `externally-managed-environment` 错误
-
-这是 Debian/Ubuntu 系统的安全特性，请使用虚拟环境（见 5.2 方式一）。
-
-**不推荐**：使用 `--break-system-packages` 可能破坏系统 Python 环境。
+        - ✅ **推荐**：使用虚拟环境（见 5.2 方式一）
+        - ❌ **不推荐**：使用 `--break-system-packages`（可能破坏系统 Python 环境）
 
 ---
 
 ## 6. 测试与检查
 
-- **MkDocs 本地预览** （推荐）：
+### 🔍 MkDocs 本地预览（推荐）
 
-  ```bash
-  # 安装依赖（在虚拟环境中）
-  pip install -r requirements.txt
+```bash
 
-  # 启动本地服务器（支持热重载）
-  mkdocs serve
+# 1. 安装依赖（在虚拟环境中）
 
-  # 访问 [http://127.0.0.1:8000](http://127.0.0.1:8000)
-  ```
+pip install -r requirements.txt
 
-- **构建测试** ：
+# 2. 启动本地服务器（支持热重载）
 
-  ```bash
-  # 构建静态站点
-  mkdocs build
+mkdocs serve
 
-  # 严格模式构建（有警告则失败）
-  mkdocs build --strict
-  ```
+# 3. 访问 http://127.0.0.1:8000
 
-- **Python 语法检查** ：
+```
 
-  ```bash
-  python -m compileall tools/pdf_export/export_to_pdf.py
-  ```
+### 🏗 构建测试
+
+```bash
+
+# 构建静态站点
+
+mkdocs build
+
+# 严格模式构建（有警告则失败）
+
+mkdocs build --strict
+```
+
+### 🐍 Python 语法检查
+
+```bash
+
+# 检查特定脚本
+
+python -m compileall tools/pdf_export/export_to_pdf.py
+
+# 检查整个工具目录
+
+python -m compileall tools/
+```
 
 ---
 
 ## 7. 自动化维护规则（代理/脚本必须遵循）
 
-- ✅ 必须遵循贡献指南（`docs/contributing/`）与词条模板（`docs/TEMPLATE_ENTRY.md`）
-- ✅ 必须保持小步提交（最小可审查单位）
-- ✅ 词条必须遵守markdownlint规范
-- ✅ **提交前必须运行**：`python3 tools/fix_markdown.py .` 和 `markdownlint` 校验（详见第 8 节）
-- ✅ 必须在 PR 描述中说明生成/重写内容的方法与来源（正则/脚本名/范围等）
-- ✅ 必须在脚本更新时同步维护 `docs/tools/README.md`
-- ❌ 禁止生成无法追溯的证据
-- ❌ 禁止破坏索引、交叉引用或有效链接
-- ⚠️ 大规模格式化操作必须附带回滚指引
+!!! danger "强制要求"
+
+    | 符号 | 规则 | 说明 |
+    |------|------|------|
+    | ✅ | 遵循贡献指南与模板 | `docs/contributing/` + `docs/TEMPLATE_ENTRY.md` |
+    | ✅ | 保持小步提交 | 最小可审查单位 |
+    | ✅ | 遵守 markdownlint | 格式规范 |
+    | ✅ | 提交前运行检查 | `fix_markdown.py` + `markdownlint` |
+    | ✅ | PR 说明方法来源 | 正则/脚本名/范围等 |
+    | ✅ | 同步维护工具文档 | `docs/tools/README.md` |
+    | ❌ | 禁止无法追溯的证据 | 需可验证来源 |
+    | ❌ | 禁止破坏索引/链接 | 保持引用完整性 |
+    | ⚠️ | 大规模操作附回滚指引 | 格式化/重构等 |
 
 ---
 
 ## 8. Markdown 自动修复与校验
 
-> 自动执行优先；手动修改后需手动执行。
+!!! info "执行优先级"
+    自动执行优先；手动修改后需手动执行。
 
 ### 8.1 自动执行（CI）
 
-- CI 会在 `push` / `pull_request` 时运行以下步骤：
+!!! success "GitHub Actions 自动化"
+    CI 会在 `push` / `pull_request` 时执行：
 
-  1. 执行 `python3 tools/fix_markdown.py .` 自动修复；
-  2. 执行 `markdownlint` 校验；若有未修复项，CI 失败并提示。
-- 详见 `.github/workflows/markdown_format.yml`。
+    1. ✅ 运行 `python3 tools/fix_markdown.py .` 自动修复
+    2. ✅ 运行 `markdownlint` 校验
+    3. ❌ 若有未修复项，CI 失败并提示
+
+    详见 `.github/workflows/markdown_format.yml`
 
 ### 8.2 手动执行（本地）
 
 ```bash
 
-# 执行自动修复（. 表示处理当前目录及子目录所有 Markdown 文件）
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 自动修复
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 处理当前目录及子目录所有 Markdown 文件
 
 python3 tools/fix_markdown.py .
 
-# 可选：仅查看将修改哪些文件
+# 可选：仅查看将修改哪些文件（不实际修改）
 
 python3 tools/fix_markdown.py --dry-run .
 
@@ -286,7 +434,11 @@ python3 tools/fix_markdown.py --dry-run .
 
 python3 tools/fix_markdown.py docs/entries/DID.md
 
-# 运行 markdownlint（需已安装 markdownlint-cli）
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Markdownlint 校验
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 # MkDocs 项目检查
 
@@ -297,11 +449,66 @@ markdownlint "docs/**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/v
 markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor" --ignore "site"
 ```
 
-k### 7.3 规则说明与例外
+### 8.3 规则说明与例外
 
-- 脚本会自动修复：MD012 / MD022 / MD040 / MD009 / MD034 / MD047 / MD028
-- **需人工处理** ：
+#### ✅ 脚本自动修复的规则
 
-  - MD024 重复标题（请调整为唯一标题或降级层级）
-  - MD052 参考式链接缺失定义（补 `[n]: [https://...`）](https://...`）)
-  - MD042 / MD051 徽章空链接与无效锚点（修正为有效 URL/锚点）
+- `MD012` - 多余空行
+- `MD022` - 标题前后空行
+- `MD040` - 代码块语言标识
+- `MD009` - 行尾空格
+- `MD034` - 裸露 URL
+- `MD047` - 文件末尾空行
+- `MD028` - 连续空白引用块
+
+#### ⚠️ 需人工处理的规则
+
+| 规则 | 说明 | 解决方法 |
+|------|------|---------|
+| `MD024` | 重复标题 | 调整为唯一标题或降级层级 |
+| `MD052` | 参考式链接缺失定义 | 补充 `[n]: [https://...`](https://...`) |
+| `MD042` | 徽章空链接 | 修正为有效 URL |
+| `MD051` | 无效锚点 | 检查并修正锚点引用 |
+
+---
+
+## 📖 附录：快速参考
+
+### 关键命令速查
+
+```bash
+
+# 环境配置
+
+python3 -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+
+# 本地预览
+
+mkdocs serve
+
+# 格式检查
+
+python3 tools/fix_markdown.py .
+markdownlint "docs/**/*.md" --ignore "node_modules"
+
+# 构建测试
+
+mkdocs build --strict
+```
+
+### 关键文档路径
+
+| 文档 | 路径 |
+|------|------|
+| 词条模板 | `docs/TEMPLATE_ENTRY.md` |
+| 贡献指南 | `docs/contributing/` |
+| 工具说明 | `docs/tools/README.md` |
+| 管理员指南 | `docs/ADMIN_GUIDE.md` |
+| GitHub 工作流 | `docs/GITHUB_WORKFLOW.md` |
+
+---
+
+!!! success "文档版本"
+    最后更新：2025-01-XX
+    如有疑问，请查阅项目 Wiki 或提交 Issue。
