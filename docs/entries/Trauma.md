@@ -107,6 +107,7 @@ synonyms:
 - [冥想（Meditation）](Meditation.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](OCD.md)
+- [性别不安（Gender Dysphoria，GD）](Gender-Dysphoria-GD.md)
 
 ## 参考与延伸阅读
 
