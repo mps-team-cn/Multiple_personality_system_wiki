@@ -2,7 +2,7 @@
 
 本指南为 **Plurality Wiki** 维护者与协作者提供基础操作与维护流程。
 目标是确保贡献内容符合规范、CI 通过、结构一致。
-详细写作要求请参阅 **[CONTRIBUTING.md](./CONTRIBUTING.md)** 与 **[AGENTS.md](./AGENTS.md)**。
+详细写作要求请参阅 [**contributing/index.md**](contributing/index.md) 与 [**AGENTS.md**](../AGENTS.md) 。
 
 ---
 
@@ -14,7 +14,7 @@
 
 # 克隆仓库
 
-git clone https://github.com/kuliantnt/plurality_wiki.git
+git clone https://github.com/mps-team-cn/plurality_wiki.git
 
 # 进入目录
 
@@ -45,7 +45,7 @@ git checkout -b feat/new-entry
 
 ## 2️⃣ 提交与命名规范
 
-提交信息遵循 **Conventional Commits**：
+提交信息遵循 **Conventional Commits** ：
 
 ```bash
 git add entries/DID.md
@@ -100,25 +100,105 @@ git commit -m "feat: 新增解离性身份障碍（DID）条目"
 
 ---
 
-## 5️⃣ 常见任务指南
+## 5️⃣ 使用 Sveltia CMS 管理词条
 
-### 🔹 5.1 新增词条
+### 📝 访问 CMS 后台
+
+**在线版本**（推荐）：
+
+- 访问 `[https://mpswiki.pages.dev/admin/`](https://mpswiki.pages.dev/admin/`)
+- 使用 GitHub 账号登录
+- 需要有仓库协作者权限
+
+**本地版本**：
+
+- 启动本地服务器：`python -m http.server 8000 --directory docs`
+- 访问 `[http://localhost:8000/admin/`](http://localhost:8000/admin/`)
+- 点击 "Work with Local Repository" 选择仓库目录
+
+详细使用指南请参阅 [local-dev-server.md](../local-dev-server.md)
+
+### ✨ CMS 核心功能
+
+#### 搜索
+
+- **快捷键**: `Ctrl+F` (Windows/Linux) 或 `Command+F` (macOS)
+- **全文搜索**: 可搜索词条标题和正文内容
+- **即时结果**: 输入即显示匹配结果
+
+#### 筛选
+
+- 点击 **Filter** 按钮
+- 选择主题分类（7 个）或标签（4 个）
+- 快速定位特定类型的词条
+
+#### 分组
+
+- 点击 **Group** 按钮
+- 按主题分类或标签分组显示
+- 便于查看词条分布
+
+#### 排序
+
+- 点击 **Sort** 按钮
+- 支持按标题、更新时间、主题排序
+- 支持升序/降序
+
+### 🎯 使用 CMS 新增词条
+
+1. 点击右上角蓝色 **"New"** 按钮
+2. 填写以下字段：
+   - **标题**: 格式必须为"中文（English/缩写）"
+   - **主题分类**: 从 7 个选项中选择一个
+   - **标签**: 添加相关标签（用于交叉引用）
+   - **更新时间**: 自动设置为当前日期
+   - **正文内容**: 使用 Markdown 编写
+3. 点击 **"Save"** 保存
+4. 填写提交信息（简要说明新增内容）
+5. 点击 **"Publish"** 提交到 GitHub
+
+### 📝 使用 CMS 编辑词条
+
+1. 在列表中搜索或浏览找到词条
+2. 点击词条标题进入编辑界面
+3. 修改相关字段
+4. 点击 **"Save"** 保存
+5. 填写更新说明
+6. 点击 **"Publish"** 提交更改
+
+### 🎨 主题分类说明
+
+创建或编辑词条时必须选择以下 7 个主题之一：
+
+| 分类 | 说明 | 词条数 |
+|------|------|--------|
+| 理论与分类 | 结构性解离理论等 | 22 |
+| 诊断与临床 | DID、解离障碍等 | 31 |
+| 系统运作 | 切换、共意识等 | 48 |
+| 角色与身份 | Admin、Alter 等 | 30 |
+| 文化与表现 | 影视作品描绘 | 17 |
+| 创伤与疗愈 | CPTSD、创伤治疗 | 5 |
+| 实践指南 | Tulpa 创造等 | 5 |
+
+---
+
+## 6️⃣ 常见任务指南（手动方式）
+
+### 🔹 6.1 手动新增词条
 
 1. 复制 [TEMPLATE_ENTRY.md](TEMPLATE_ENTRY.md)
 2. 填写完整内容（含 Frontmatter：`title`、`tags`、`updated`）
-3. 将文件保存至 `entries/` 目录
-4. 更新索引
+3. 将文件保存至 `docs/entries/` 目录
+4. 标签索引由 MkDocs Material tags 插件自动生成，无需手动更新
 
-   ```bash
-   python tools/generate_tags_index.py
-   ```
+> 💡 **推荐使用 CMS**: 上述步骤可通过 Sveltia CMS 界面完成，无需手动创建文件
 
-### 🔹 5.2 更新已有词条
+### 🔹 6.2 更新已有词条
 
 * 修改后同步更新 `index.md`、`Glossary.md`
 * 检查引用与标签一致性
 
-### 🔹 5.3 运行一键本地维护脚本
+### 🔹 6.3 运行一键本地维护脚本
 
 如果你是管理员或审稿人，可直接执行以下脚本进行本地全流程维护（含搜索索引更新）：
 
@@ -137,36 +217,30 @@ pip install -r requirements.txt
 ```bat
 @REM 更新日志
 python tools/gen_changelog_by_tags.py --latest-to-head
-@REM 批量维护词条标签与“相关条目”区块
-python tools/retag_and_related.py
-@REM 生成最后更新信息
-node scripts/gen-last-updated.mjs
 @REM 生成 PDF 和目录索引
 python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei"
-@REM 生成标签索引
-python tools/generate_tags_index.py
-@REM 生成 Docsify 搜索索引
-python tools/build_search_index.py
 @REM 修正 Markdown 格式
-python tools/fix_md.py
+python tools/fix_markdown.py
 @REM 检查 Markdown 格式
 markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
 ```
+
+> **注意**：MkDocs Material 迁移后，标签索引由 `tags` 插件自动生成，无需手动工具维护。
 
 ✅ 建议在每次合并前执行一次。
 
 ---
 
-## 6️⃣ 发布与更新日志
+## 7️⃣ 发布与更新日志
 
-### 6.1 手动标记版本
+### 7.1 手动标记版本
 
 ```bash
 git tag v1.3.4
 git push origin v1.3.4
 ```
 
-### 6.2 自动生成更新日志
+### 7.2 自动生成更新日志
 
 使用工具脚本生成：
 
@@ -179,7 +253,7 @@ python tools/gen_changelog_by_tags.py --latest-to-head
 
 ---
 
-## 7️⃣ 审核要点（管理员）
+## 8️⃣ 审核要点（管理员）
 
 合并前请检查以下项目：
 
@@ -193,7 +267,7 @@ python tools/gen_changelog_by_tags.py --latest-to-head
 
 ---
 
-## 8️⃣ 附录：推荐环境
+## 9️⃣ 附录：推荐环境
 
 | 工具               | 推荐版本  | 说明       |
 | ---------------- | ----- | -------- |

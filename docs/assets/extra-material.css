@@ -1,0 +1,281 @@
+/**
+ * Plurality Wiki 自定义样式
+ * 基于 MkDocs Material 主题
+ */
+
+/* ===== 全局变量 ===== */
+:root {
+  --md-primary-fg-color: #4FC08D;
+  --md-accent-fg-color: #8B9EFF;
+  --md-text-font: "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  --md-code-font: "JetBrains Mono", "Consolas", monospace;
+}
+
+/* ===== 深色模式优化 ===== */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #4FC08D;
+  --md-accent-fg-color: #8B9EFF;
+  --md-default-bg-color: #141B23;
+  --md-default-fg-color: #E7EDF7;
+  --md-code-bg-color: #1E2532;
+  --md-code-fg-color: #E7EDF7;
+}
+
+/* ===== 中文字体优化 ===== */
+body {
+  font-family: var(--md-text-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 标题字体 */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* 代码字体 */
+code, pre {
+  font-family: var(--md-code-font);
+}
+
+/* ===== 卡片网格增强 ===== */
+.grid.cards {
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.grid.cards > * {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.grid.cards > *:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(79, 192, 141, 0.15);
+}
+
+[data-md-color-scheme="slate"] .grid.cards > * {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+[data-md-color-scheme="slate"] .grid.cards > *:hover {
+  box-shadow: 0 8px 24px rgba(79, 192, 141, 0.25);
+}
+
+/* ===== 告示框样式增强 ===== */
+.admonition {
+  border-radius: 12px;
+  border-left-width: 4px;
+  margin: 1.2rem 0;
+  padding: 0.8rem 1rem;
+}
+
+.admonition-title {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* 警告框特殊样式 */
+.admonition.warning {
+  background: color-mix(in srgb, #F97316 8%, transparent);
+  border-left-color: #F97316;
+}
+
+[data-md-color-scheme="slate"] .admonition.warning {
+  background: color-mix(in srgb, #F97316 15%, #1E2532);
+}
+
+/* ===== 表格美化 ===== */
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.md-typeset table:not([class]) th {
+  background-color: color-mix(in srgb, var(--md-primary-fg-color) 15%, transparent);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background-color: color-mix(in srgb, var(--md-primary-fg-color) 5%, transparent);
+}
+
+/* ===== 链接样式 ===== */
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* ===== 代码块优化 ===== */
+.md-typeset pre {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.md-typeset code {
+  border-radius: 4px;
+  padding: 0.1em 0.4em;
+}
+
+/* ===== 搜索结果优化 ===== */
+.md-search-result__item {
+  border-radius: 8px;
+  margin: 0.5rem 0;
+}
+
+.md-search-result__item:hover {
+  background-color: color-mix(in srgb, var(--md-primary-fg-color) 10%, transparent);
+}
+
+/* 修复搜索页面侧边栏显示问题 */
+/* MkDocs Material 搜索覆盖层激活时，侧边栏会被隐藏 */
+/* 以下样式确保搜索时侧边栏仍然可见 */
+
+/* 桌面端：搜索激活时保持侧边栏可见 */
+@media screen and (min-width: 76.25em) {
+  /* 搜索覆盖层激活时不隐藏主侧边栏 */
+  [data-md-toggle="search"]:checked ~ .md-container .md-sidebar--primary {
+    display: block !important;
+  }
+
+  /* 调整搜索结果容器的布局，为侧边栏留出空间 */
+  [data-md-toggle="search"]:checked ~ .md-container .md-search__output {
+    margin-left: 0;
+  }
+
+  /* 确保搜索overlay不完全覆盖侧边栏区域 */
+  .md-search__overlay {
+    left: 12.1rem; /* 与侧边栏宽度对齐 */
+  }
+}
+
+/* ===== 隐藏导航树，只显示 TOC ===== */
+@media screen and (min-width: 76.25em) {
+  /* 隐藏左侧导航树 */
+  .md-sidebar--primary {
+    display: none;
+  }
+
+  /* 将右侧 TOC 移到左侧 */
+  .md-sidebar--secondary {
+    order: -1;
+    margin-left: 0;
+  }
+
+  /* 调整内容区域，因为左侧导航没有了 */
+  .md-content {
+    margin-left: 0;
+  }
+}
+
+/* ===== 导航优化 ===== */
+.md-nav__item--active > .md-nav__link {
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+}
+
+.md-nav__link:hover {
+  color: var(--md-primary-fg-color);
+}
+
+/* ===== 标签样式 ===== */
+.md-tag {
+  border-radius: 999px;
+  font-size: 0.85em;
+  padding: 0.25em 0.75em;
+  font-weight: 500;
+}
+
+/* ===== 标题锚点可用性优化 ===== */
+.md-typeset :is(h1, h2, h3, h4, h5, h6) > .headerlink {
+  color: transparent;
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  margin-left: 0.35rem;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+
+.md-typeset :is(h1, h2, h3, h4, h5, h6) > .headerlink::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.md-typeset :is(h1, h2, h3, h4, h5, h6) > .headerlink:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--md-accent-fg-color) 60%, transparent);
+  outline-offset: 2px;
+}
+
+/* ===== 页脚优化 ===== */
+.md-footer {
+  border-top: 1px solid color-mix(in srgb, var(--md-primary-fg-color) 20%, transparent);
+}
+
+/* ===== 目录优化 ===== */
+.md-sidebar--secondary .md-sidebar__scrollwrap {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--md-primary-fg-color) 30%, transparent) transparent;
+}
+
+.md-sidebar--secondary .md-sidebar__scrollwrap::-webkit-scrollbar {
+  width: 6px;
+}
+
+.md-sidebar--secondary .md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
+  background-color: color-mix(in srgb, var(--md-primary-fg-color) 30%, transparent);
+  border-radius: 999px;
+}
+
+/* ===== 响应式优化 ===== */
+@media screen and (max-width: 76.1875em) {
+  .md-nav--primary .md-nav__item--active > .md-nav__link {
+    background-color: color-mix(in srgb, var(--md-primary-fg-color) 10%, transparent);
+  }
+}
+
+/* ===== 动画优化 ===== */
+* {
+  scroll-behavior: smooth;
+}
+
+.md-typeset details {
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.md-typeset details summary {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.md-typeset details summary:hover {
+  background-color: color-mix(in srgb, var(--md-primary-fg-color) 10%, transparent);
+}
+
+/* ===== 打印样式 ===== */
+@media print {
+  .md-header,
+  .md-sidebar,
+  .md-footer,
+  .md-nav__source {
+    display: none;
+  }
+
+  .md-content {
+    max-width: 100%;
+  }
+}

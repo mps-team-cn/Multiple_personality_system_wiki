@@ -1,0 +1,193 @@
+/**
+ * Plurality Wiki 通用样式
+ * 适用于所有 MkDocs 主题
+ */
+
+/* ===== 中文字体优化 ===== */
+body {
+  font-family: "Noto Sans SC", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.7;
+}
+
+/* 标题字体 */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+}
+
+/* 代码字体 */
+code, pre, kbd, samp {
+  font-family: "JetBrains Mono", "Consolas", "Monaco", "Courier New", monospace;
+}
+
+/* ===== 表格美化 ===== */
+table {
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  width: 100%;
+  overflow-x: auto;
+  display: block;
+}
+
+table thead {
+  background-color: rgba(79, 192, 141, 0.1);
+}
+
+table th {
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 2px solid rgba(79, 192, 141, 0.3);
+}
+
+table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+table tr:hover {
+  background-color: rgba(79, 192, 141, 0.05);
+}
+
+/* ===== 链接样式 ===== */
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* ===== 代码块优化 ===== */
+pre {
+  border-radius: 8px;
+  padding: 1rem;
+  overflow-x: auto;
+  line-height: 1.5;
+}
+
+code {
+  border-radius: 4px;
+  padding: 0.1em 0.4em;
+  font-size: 0.9em;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+/* ===== 引用块样式 ===== */
+blockquote {
+  border-left: 4px solid #4FC08D;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  background-color: rgba(79, 192, 141, 0.05);
+  border-radius: 4px;
+}
+
+/* ===== 列表优化 ===== */
+ul, ol {
+  padding-left: 2rem;
+  margin: 1rem 0;
+}
+
+li {
+  margin: 0.5rem 0;
+  line-height: 1.7;
+}
+
+/* ===== 水平线 ===== */
+hr {
+  border: none;
+  border-top: 2px solid rgba(79, 192, 141, 0.2);
+  margin: 2rem 0;
+}
+
+/* ===== 图片优化 ===== */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+/* ===== 平滑滚动 ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===== 打印样式 ===== */
+@media print {
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    font-style: italic;
+  }
+
+  pre, code {
+    border: 1px solid #ccc;
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100%;
+    page-break-inside: avoid;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+  }
+
+  table {
+    page-break-inside: avoid;
+  }
+}
+
+/* ===== 中英文混排优化 ===== */
+.md-typeset p,
+.md-typeset li,
+article p,
+article li {
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+/* ===== 响应式图片 ===== */
+@media screen and (max-width: 768px) {
+  table {
+    font-size: 0.9em;
+  }
+
+  pre {
+    font-size: 0.85em;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+  }
+}

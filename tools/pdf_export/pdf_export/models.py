@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from fnmatch import fnmatch
 from pathlib import Path
 from typing import Sequence
 
@@ -14,6 +15,7 @@ class EntryDocument:
     path: Path
     title: str
     tags: tuple[str, ...]
+    topic: str
     body: str
 
 
@@ -26,6 +28,8 @@ class IgnoreRules:
 
     files: frozenset[Path]
     directories: frozenset[Path]
+    patterns: tuple[str, ...]
+    root: Path
 
     def matches(self, path: Path) -> bool:
         """判断 ``path`` 是否应在导出时被跳过。"""
@@ -34,10 +38,30 @@ class IgnoreRules:
         if resolved in self.files:
             return True
 
-        return any(
+        if any(
             resolved == directory or resolved.is_relative_to(directory)
             for directory in self.directories
-        )
+        ):
+            return True
+
+        candidates: list[str] = [resolved.as_posix(), resolved.name]
+
+        try:
+            relative = resolved.relative_to(self.root)
+        except ValueError:
+            relative = None
+
+        if relative is not None:
+            relative_posix = relative.as_posix()
+            candidates.append(relative_posix)
+            candidates.append(relative.name)
+
+        for candidate in candidates:
+            for pattern in self.patterns:
+                if fnmatch(candidate, pattern):
+                    return True
+
+        return False
 
 
 @dataclass

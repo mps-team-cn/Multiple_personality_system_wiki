@@ -53,6 +53,7 @@ def export_pdf(
         command.extend(["--variable", f"{key}={value}"])
 
     try:
+        # 执行 Pandoc 命令，设置更长的超时时间（10分钟）
         result = subprocess.run(
             command,
             check=False,
@@ -60,8 +61,14 @@ def export_pdf(
             encoding="utf-8",
             errors="replace",
             capture_output=True,
+            timeout=600,  # 10分钟超时
         )
         if result.returncode != 0:
             raise PandocExportError(command=command, stderr=result.stderr.strip())
+    except subprocess.TimeoutExpired as timeout_error:
+        raise PandocExportError(
+            command=command,
+            stderr=f"PDF 生成超时（超过 10 分钟）。可能是文档过大或 TeX 编译遇到问题。\n原始错误: {timeout_error}"
+        ) from timeout_error
     finally:
         temp_path.unlink(missing_ok=True)

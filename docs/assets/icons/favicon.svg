@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="nodeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1b4b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#312e81;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="200" height="200" rx="30" fill="url(#bgGradient)"/>
+
+  <!-- 连接线（从中心节点发散） -->
+  <line x1="100" y1="100" x2="50" y2="50" stroke="#6366f1" stroke-width="3" opacity="0.6"/>
+  <line x1="100" y1="100" x2="150" y2="50" stroke="#6366f1" stroke-width="3" opacity="0.6"/>
+  <line x1="100" y1="100" x2="50" y2="150" stroke="#6366f1" stroke-width="3" opacity="0.6"/>
+  <line x1="100" y1="100" x2="150" y2="150" stroke="#6366f1" stroke-width="3" opacity="0.6"/>
+
+  <!-- 外围连接线 -->
+  <line x1="50" y1="50" x2="150" y2="50" stroke="#8b5cf6" stroke-width="2" opacity="0.4"/>
+  <line x1="150" y1="50" x2="150" y2="150" stroke="#8b5cf6" stroke-width="2" opacity="0.4"/>
+  <line x1="50" y1="50" x2="50" y2="150" stroke="#8b5cf6" stroke-width="2" opacity="0.4"/>
+  <line x1="50" y1="150" x2="150" y2="150" stroke="#8b5cf6" stroke-width="2" opacity="0.4"/>
+
+  <!-- 节点 -->
+  <!-- 中心主节点 -->
+  <circle cx="100" cy="100" r="16" fill="url(#nodeGradient)" stroke="#a5b4fc" stroke-width="3"/>
+
+  <!-- 四个外围节点 -->
+  <circle cx="50" cy="50" r="12" fill="url(#nodeGradient)" stroke="#a5b4fc" stroke-width="2.5"/>
+  <circle cx="150" cy="50" r="12" fill="url(#nodeGradient)" stroke="#a5b4fc" stroke-width="2.5"/>
+  <circle cx="50" cy="150" r="12" fill="url(#nodeGradient)" stroke="#a5b4fc" stroke-width="2.5"/>
+  <circle cx="150" cy="150" r="12" fill="url(#nodeGradient)" stroke="#a5b4fc" stroke-width="2.5"/>
+
+  <!-- 内部小光点效果 -->
+  <circle cx="100" cy="100" r="6" fill="#ffffff" opacity="0.9"/>
+  <circle cx="50" cy="50" r="4" fill="#ffffff" opacity="0.8"/>
+  <circle cx="150" cy="50" r="4" fill="#ffffff" opacity="0.8"/>
+  <circle cx="50" cy="150" r="4" fill="#ffffff" opacity="0.8"/>
+  <circle cx="150" cy="150" r="4" fill="#ffffff" opacity="0.8"/>
+</svg>

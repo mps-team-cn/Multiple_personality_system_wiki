@@ -1,13 +1,13 @@
 # GitHub 提交流程指南（GITHUB_WORKFLOW.md）
 
 本指南面向 **Plurality Wiki** 的贡献者，介绍如何通过 GitHub 提交内容。
-推荐流程：**Fork 仓库 → 新建分支 → 修改提交 → Pull Request (PR)**。
+推荐流程： **Fork 仓库 → 新建分支 → 修改提交 → Pull Request (PR)** 。
 
 ---
 
 ## 1. Fork 仓库
 
-1. 打开主仓库：[Plurality Wiki](https://github.com/kuliantnt/plurality_wiki)
+1. 打开主仓库：[Plurality Wiki](https://github.com/mps-team-cn/plurality_wiki)
 2. 点击右上角 **Fork** 按钮，创建属于自己的副本。
 
    - Fork 后地址示例：
@@ -76,11 +76,11 @@ git push origin feat/add-did-entry
 ## 6. 发起 Pull Request (PR)
 
 1. 打开你 Fork 的仓库页面（GitHub 网页端）。
-2. 点击 **Compare & Pull Request**。
+2. 点击 **Compare & Pull Request** 。
 3. 设置目标分支：
 
-   - **base repository**: `kuliantnt/plurality_wiki`
-   - **base branch**: `main`
+   - **base repository** : `mps-team-cn/plurality_wiki`
+   - **base branch** : `main`
 
 4. 填写 PR 模板，说明修改内容。
 5. 提交后等待管理员审核。
@@ -89,7 +89,7 @@ git push origin feat/add-did-entry
 
 ## 7. 审核与合并
 
-- 管理员会进行 **Review**，检查引用、格式、Lint 等。
+- 管理员会进行 **Review** ，检查引用、格式、Lint 等。
 - 通过后，PR 会合并到主仓库。
 - 如有问题，管理员会在 PR 下留言，贡献者可继续修改。
 
@@ -103,7 +103,7 @@ git push origin feat/add-did-entry
 
 # 添加上游仓库
 
-git remote add upstream https://github.com/kuliantnt/plurality_wiki.git
+git remote add upstream https://github.com/mps-team-cn/plurality_wiki.git
 
 # 获取更新
 

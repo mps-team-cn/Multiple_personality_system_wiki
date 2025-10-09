@@ -1,0 +1,56 @@
+---
+tags:
+
+- 系统运作
+- 多重意识体
+- 解离
+- 创伤
+
+topic: 系统运作
+title: 重构（Reconstruction）
+updated: 2025-10-03
+---
+
+# 重构（Reconstruction）
+
+## 定义
+
+“重构”指多意识体系统中的单个成员因疲惫、创伤或角色不再适配而退场（常被社群称为“死亡”“沉睡”或长期休眠）后，出现新的成员来继承其功能、记忆片段或社会身份的过程。相较于“迭代”，重构通常规模较小，但会改变系统角色的分配方式。
+
+## 常见情境
+
+- **角色替换** : 当承担前台、照料或工作任务的成员难以继续履职时，系统可能生成新的部分以接手关键功能，避免日常生活崩解。
+- **创伤处理后的调整** : 在处理特定创伤记忆后，原有的防御性身份可能失去存在意义，转由新的、更具适应性的身份负责相关情绪与记忆。
+- **生命周期事件** : 成长、身份认同变迁或社会需求（如性别表达、职业转换）亦可能促使重构，使系统能够以不同的故事与特质呈现给外界。
+
+## 支持策略
+
+- **信息传承** : 通过内部记录、语音留言或意象空间交接，协助新成员理解既有历史，降低外部关系的断裂感。
+- **外部沟通** : 向信任的支持网络说明系统发生变化，可避免误解“人格倒退”或“治疗失败”，并取得必要的现实支持。
+- **治疗协作** : 临床工作者可协助评估重构背后的需求，是过载所致还是自发成长结果，并与系统共同设定新的边界与生活目标。
+
+## 与相关概念的关系
+
+- **迭代** : 重构聚焦于单一或少数成员的更替；若系统大规模失衡并重新组建，则更接近“[迭代](Iteration.md)”的描述。
+- **融合与整合** : 重构不等同于融合。融合强调身份间合并；重构则是在保持多重身份前提下的角色转换。若新成员能共享信息与合作，同样可视为整合进展的一部分。
+
+## 相关条目
+
+- [迭代（Iteration）](Iteration.md)
+- [意识修改（Consciousness Modification）](Consciousness-Modification.md)
+- [非我感（Depersonalization）](Depersonalization.md)
+- [封存（Sequestration）](Sequestration.md)
+- [融合（Fusion）](Fusion.md)
+- [初始（Original）](Original.md)
+- [应激反应（Stress Response）](Stress-Response.md)
+- [独有记忆（Exomemory）](Exomemory.md)
+
+## 参考资料
+
+- Putnam, F. W. (1989). *Diagnosis and treatment of multiple personality disorder*. Guilford Press.
+- Ross, C. A. (1997). Dissociative identity disorder: Diagnosis, clinical features, and treatment of multiple personality. *John Wiley & Sons*.
+- Steele, K., Boon, S., & van der Hart, O. (2017). *Treating trauma-related dissociation: A practical, integrative approach*. W. W. Norton.
+
+## 核心特征
+
+（待补充）
