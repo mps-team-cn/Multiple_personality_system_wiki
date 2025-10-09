@@ -26,15 +26,24 @@ synonyms:
 !!! info "免责声明"
     本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
-## 定义与同义词
+---
 
-- **定义** : 心理创伤是指个体在遭遇或目睹严重威胁生命、身体完整性或核心价值的事件时所产生的强烈痛苦心理与生理反应。创伤可来源于单次突发事件（如自然灾害、事故、暴力），也可能是长期持续的虐待、忽视、压迫或歧视。即使因解离性失忆而无法提取相关记忆，创伤体验仍可能通过情绪或躯体反应显现。
-- **同义词** : 精神创伤、psychological trauma。
-- **分类关联** : 常作为创伤后应激障碍（PTSD）、复杂性创伤后应激障碍（CPTSD）、解离性障碍等的病因背景。
+## 概述
+
+心理创伤（Psychological Trauma）是指个体在遭遇或目睹**严重威胁生命、身体完整性或核心价值**的事件时所产生的强烈痛苦心理与生理反应。创伤可来源于单次突发事件（如自然灾害、事故、暴力），也可能是长期持续的虐待、忽视、压迫或歧视。即使因解离性失忆而无法提取相关记忆，创伤体验仍可能通过情绪或躯体反应显现。创伤常作为 PTSD、CPTSD、解离性障碍等的核心病因，并在多意识体系统的形成与维持中扮演关键角色。
 
 ---
 
-## 主要特征
+## 创伤类型
+
+- **I 型创伤（单次事件）**：突发、单一事件，如灾害、事故、袭击。
+- **II 型创伤（复杂或长期）**：长期或重复的创伤，如持续虐待、战乱、囚禁。常与复杂性 PTSD 相关。
+- **发展性创伤（Developmental Trauma）**：发生在儿童期的复杂创伤，影响依恋、情绪调节与自我认同发展。
+- **隐性创伤（Insidious Trauma）**：慢性压力、系统性歧视或社会边缘化带来的持续性损害。
+
+---
+
+## 主要表现
 
 - **再体验** : 侵入性闪回、噩梦、触发时的强烈情绪或躯体感觉。
 - **回避** : 避免与创伤相关的情境、地点、谈话或人物。
@@ -43,15 +52,6 @@ synonyms:
 - **人际与自我影响** : 信任缺失、自我认同困扰、孤立感。
 - **躯体化** : 慢性疼痛、消化不良、疲劳等身心症状。
 
----
-
-## 创伤类型
-
-- **I 型创伤（单次事件）** : 突发、单一事件，如灾害、事故、袭击。
-- **II 型创伤（复杂或长期）** : 长期或重复的创伤，如持续虐待、战乱、囚禁。常与复杂性 PTSD 相关。
-- **隐性创伤** : 慢性压力、系统性歧视或社会边缘化带来的持续性损害。
-
----
 
 ## 风险与保护因素
 
@@ -98,16 +98,31 @@ synonyms:
 
 ## 相关条目
 
-- [心理健康导览（Mental Health Guide）](Mental-Health-Guide.md)
-- [单一类系统（Single-Class Systems, Xianyu Theory）](Single-Class-Systems-Xianyu.md)
-- [混合型系统（Mixed Systems, Xianyu Theory）](Mixed-Systems-Xianyu.md)
-- [家族式系统（Family Systems, Xianyu Theory）](Family-Systems-Xianyu.md)
-- [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](Xianyu-Theory-Niche-Classification.md)
-- [系魂型系统（Soul-Linked Systems, Xianyu Theory）](Soul-Linked-Systems-Xianyu.md)
-- [冥想（Meditation）](Meditation.md)
+### 创伤相关障碍
+
+- [创伤后应激障碍（PTSD）](PTSD.md)
+- [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)
+- [解离性身份障碍（DID）](DID.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)
-- [强迫症（Obsessive-Compulsive Disorder, OCD）](OCD.md)
-- [性别不安（Gender Dysphoria，GD）](Gender-Dysphoria-GD.md)
+- [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
+- [焦虑（Anxiety）](Anxiety.md)
+
+### 多意识体相关
+
+- [多意识体（Plurality）](Plurality.md)
+- [系统（System）](System.md)
+- [多重意识体基础（Plurality Basics）](Plurality-Basics.md)
+
+### 治疗与应对
+
+- [接地（Grounding）](Grounding.md)
+- [感官调节策略（Sensory Regulation Strategies）](Sensory-Regulation-Strategies.md)
+- [冥想（Meditation）](Meditation.md)
+
+### 导览
+
+- [心理健康导览（Mental Health Guide）](Mental-Health-Guide.md)
+- [创伤与疗愈导览（Trauma & Healing Guide）](Trauma-Healing-Guide.md)
 
 ## 参考与延伸阅读
 
