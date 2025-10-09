@@ -36,7 +36,7 @@ updated: 2025-10-09
 
 1.  **跨领域连接** ：系统成员与被感知为独立存在的外部意识或叙事世界保持稳定联结。
 2.  **意义翻译功能** ：系统承担桥梁角色，将抽象或象征化的信息转化为可执行的语言与行动。
-3.  **高能量波动** ：连接过程往往伴随显著的心智与情绪消耗，需要额外的节奏管理与地面化策略。
+3.  **高能量波动** ：连接过程往往伴随显著的心智与情绪消耗，需要额外的节奏管理与接地策略。
 4.  **验证困难** ：体验高度主观，难以凭借外部标准检验，容易遭遇污名或被归类为病理体验。
 
 ---
@@ -87,7 +87,7 @@ updated: 2025-10-09
 - [偏重（Bias / Median）](Bias.md)
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](OCD.md)
 - [创伤（Trauma）](Trauma.md)
-- [地面化（Grounding）](Grounding.md)
+- [接地（Grounding）](Grounding.md)
 - [系统运作指南（System Operations）](System-Operations.md)
 
 ---
