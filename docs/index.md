@@ -1,12 +1,12 @@
-# Multiple Personality System Wiki - 多意识体百科
+# Multiple Personality System Wiki - 多重人格系统百科
 
-## 探索多重意识体的知识、经验与协作
+## MPS (Multiple Personality System) - 探索多重人格系统的知识、经验与协作
 
 <div class="home-hero" markdown>
 
-### :material-star-four-points-circle: 以知识点亮多意识体之路
+### :material-star-four-points-circle: 以知识点亮 MPS 之路
 
-从概念入门到实践工具，我们致力于用中文整理关于多重意识体系统（Plurality）与创伤照护的可靠资料，陪伴你理解自我、照顾伙伴，并与同路人建立连结。
+从概念入门到实践工具，我们致力于用中文整理关于多重人格系统（Multiple Personality System，简称 **MPS**）与创伤照护的可靠资料，陪伴你理解自我、照顾伙伴，并与同路人建立连结。
 
 [开始探索](tags.md){ .md-button .md-button--primary }
 [加入共建](contributing/index.md){ .md-button }
@@ -18,7 +18,7 @@
 
 ### :material-compass: 新手导览
 
-了解多意识体的基础概念、诊断与协作要点。
+了解多重人格系统的基础概念、诊断与协作要点。
 
 - [查看学习路径](#learning-path)
 - [核心概念速览](entries/Core-Concepts-Guide.md)
@@ -57,11 +57,11 @@
 
 ### :material-lightbulb-on: [核心概念](entries/Core-Concepts-Guide.md)
 
-从解离说起，建立多意识体的理论框架
+从解离说起，建立多重人格系统的理论框架
 
 - [ **解离（Dissociation）** ](entries/Dissociation.md) - 一切的基础概念
-- [ **多意识体（Plurality）** ](entries/Multiple_Personality_System.md) - 核心概念定义
-- [ **系统（System）** ](entries/System.md) - 多意识体系统的基本概念
+- [ **多重人格系统（MPS）** ](entries/Multiple_Personality_System.md) - 核心概念定义
+- [ **系统（System）** ](entries/System.md) - 多重人格系统的基本概念
 - [ **DID vs Tulpa** ](entries/Core-Concepts-Guide.md#三健康与病理不同程度的多意识体) - 理解健康与病理的界限
 - [ **埃蒙加德分类法** ](entries/Emmengard-Classification.md) - 按成因理解系统类型
 
@@ -82,7 +82,7 @@
 
 ### :material-account-group: [系统运作与协作](entries/System-Operations.md) {#system-operations}
 
-掌握多意识体系统的日常运作机制
+掌握多重人格系统的日常运作机制
 
 - [ **前台（Fronting）** ](entries/Front-Fronting.md) - 谁在控制身体？
 - [ **切换（Switch）** ](entries/Switch.md) - 成员如何转换？
@@ -112,9 +112,9 @@
 
 ### :material-book-open-variant: [理论与分类](entries/Theory-Classification-Guide.md)
 
-探索多意识体的理论框架与分类体系
+探索多重人格系统的理论框架与分类体系
 
-- [ **多意识体（Plurality）** ](entries/Multiple_Personality_System.md) - 核心概念定义
+- [ **多重人格系统（MPS）** ](entries/Multiple_Personality_System.md) - 核心概念定义
 - [ **埃蒙加德分类法** ](entries/Emmengard-Classification.md) - 按成因分类系统
 - [ **图帕（Tulpa）** ](entries/Tulpa.md) - 创造型意识体
 - [ **结构性解离理论** ](entries/Structural-Dissociation-Theory.md) - 经典临床模型
@@ -122,7 +122,7 @@
 
 ### :material-palette: [文化与表现](entries/Cultural-Media-Guide.md)
 
-文学、影视作品中的多意识体主题
+文学、影视作品中的多重人格主题
 
 - [《搏击俱乐部》](entries/Fight-Club-1999-Identity-Metaphor.md) - 身份解体隐喻
 - [《分裂》](entries/Split-2016-DID-Representation.md) - DID 形象分析
@@ -144,16 +144,16 @@
 
 ## 🧭 新手学习路径 {#learning-path}
 
-我们为你准备了四条系统化的学习路径，帮助你从不同角度理解和实践多意识体：
+我们为你准备了四条系统化的学习路径，帮助你从不同角度理解和实践多重人格系统：
 
 ### 1. 📚 [核心概念导览](entries/Core-Concepts-Guide.md)
 
 **从解离说起，建立理论框架**
 
-  - 什么是[解离](entries/Dissociation.md)？解离与[多意识体](entries/Multiple_Personality_System.md)的关系
-  - 健康多意识体([Tulpa](entries/Tulpa.md))vs 病理性多意识体（[DID](entries/DID.md)/[OSDD](entries/OSDD.md)）
-  - [埃蒙加德分类法](entries/Emmengard-Classification.md)：按成因理解系统类型
-  - 常见误区澄清与新手建议
+- 什么是[解离](entries/Dissociation.md)？解离与[多重人格系统](entries/Multiple_Personality_System.md)的关系
+- 健康多重人格([Tulpa](entries/Tulpa.md)) vs 病理性多重人格（[DID](entries/DID.md)/[OSDD](entries/OSDD.md)）
+- [埃蒙加德分类法](entries/Emmengard-Classification.md)：按成因理解系统类型
+- 常见误区澄清与新手建议
 
 👉 **适合：** 完全的新手，想要建立基础认知框架
 
@@ -161,12 +161,12 @@
 
 **理解创伤、诊断与治疗**
 
-  - [创伤](entries/Trauma.md)类型（I 型 vs II 型）与神经生物学基础
-  - [PTSD](entries/PTSD.md) 与 [CPTSD](entries/CPTSD.md) 的诊断标准（DSM-5-TR/ICD-11）
-  - [解离](entries/Dissociation.md)谱系：从适应到病理
-  - [抑郁](entries/Depressive-Disorders.md)、[焦虑](entries/Anxiety.md)与共病问题
-  - 循证治疗方法（EMDR、TF-CBT、DBT 等）
-  - [接地](entries/Grounding.md)技巧与实用自我照护策略
+- [创伤](entries/Trauma.md)类型（I 型 vs II 型）与神经生物学基础
+- [PTSD](entries/PTSD.md) 与 [CPTSD](entries/CPTSD.md) 的诊断标准（DSM-5-TR/ICD-11）
+- [解离](entries/Dissociation.md)谱系：从适应到病理
+- [抑郁](entries/Depressive-Disorders.md)、[焦虑](entries/Anxiety.md)与共病问题
+- 循证治疗方法（EMDR、TF-CBT、DBT 等）
+- [接地](entries/Grounding.md)技巧与实用自我照护策略
 
 👉 **适合：** 关注心理健康、创伤康复或临床知识的读者
 
@@ -180,7 +180,7 @@
 - 角色与治理：[宿主](entries/Host.md)、[守门人](entries/Gatekeeper.md)、[保护者](entries/Protector.md)等职能分工
 - 实务支持：[接地](entries/Grounding.md)、照护与危机应对
 
-👉 **适合：** [多意识体](entries/Multiple_Personality_System.md)系统成员，想要优化日常协作
+👉 **适合：** MPS 系统成员，想要优化日常协作
 
 ### 4. 🌱 [Tulpa 完全创造指南](entries/Tulpa-Guide.md)
 
@@ -220,7 +220,7 @@
 >
 > —— 暮雨系统
 >
-> **"希望所有多意识体都可以得到应有的尊重和理解。"**
+> **"希望所有多重人格系统都可以得到应有的尊重和理解。"**
 >
 > —— Peter Griffin
 
