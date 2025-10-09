@@ -266,10 +266,6 @@ nav:
           - entries/Co-Consciousness.md
           - entries/Memory-Holder.md
           - entries/Memory-Shielding.md
-      - 内部空间与沟通:
-          - entries/Headspace-Inner-World.md
-          - entries/Internal-Communication.md
-          - entries/Permissions.md
       - 角色与治理:
           - entries/System-Roles.md
           - entries/Admin.md
@@ -279,11 +275,9 @@ nav:
           - entries/Internal-Self-Helper-ISH.md
   - 心理健康:
       - 心理健康导览: entries/Mental-Health-Guide.md
-      - entries/Dissociation.md
       - entries/PTSD.md
       - entries/CPTSD.md
       - entries/Trauma.md
-      - entries/Grounding.md
   - 实践指南:
       - 实践指南导览: entries/Practice-Guide.md
       - Tulpa 创造指南:
@@ -304,6 +298,12 @@ nav:
           - entries/Grounding.md
           - entries/Sensory-Regulation-Strategies.md
           - entries/Emotion-Regulation.md
+  - 专题导览:
+      - entries/Clinical-Diagnosis-Guide.md
+      - entries/Trauma-Healing-Guide.md
+      - entries/Roles-Identity-Guide.md
+      - entries/Theory-Classification-Guide.md
+      - entries/Cultural-Media-Guide.md
 
 # 严格模式
 strict: false

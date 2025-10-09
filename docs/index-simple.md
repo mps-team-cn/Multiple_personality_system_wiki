@@ -54,7 +54,7 @@
 - [**分离（Dissociation）**](entries/Dissociation.md) - 意识、记忆、身份或感知的分离
 - [**创伤后应激障碍（PTSD）**](entries/PTSD.md) - 经历创伤后的应激反应障碍
 - [**复杂性创伤后应激障碍（CPTSD）**](entries/CPTSD.md) - 长期或反复创伤导致的复杂症状
-- [**立足当下（Grounding）**](entries/Grounding.md) - 帮助回到当下现实的技巧
+- [**接地（Grounding）**](entries/Grounding.md) - 帮助回到当下现实的技巧
 
 ---
 
