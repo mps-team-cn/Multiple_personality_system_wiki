@@ -1,12 +1,12 @@
 # Multiple Personality System Wiki - 多意识体百科
 
-> 多重意识体系统（Plurality）与创伤相关主题的中文知识库
+> 多意识体系统（MPS）与创伤相关主题的中文知识库
 
 ---
 
 ## 关于本站
 
-我们专注于整理 **多重意识体系统（Plurality）** 与创伤相关主题的中文资料，融合社区经验、跨学科研究与可实践的工具。
+我们专注于整理 **多意识体系统（MPS）** 与创伤相关主题的中文资料，融合社区经验、跨学科研究与可实践的工具。
 
 希望这份知识库能陪伴你理解自我、照顾伙伴，并与同路人建立连结。
 
@@ -20,7 +20,7 @@
 
 ## 核心概念
 
-- [**多元性（Plurality）**](entries/Multiple_Personality_System.md) - 多重意识体存在的总称，包含多种形式和成因
+- [**多意识体系统（MPS）**](entries/Multiple_Personality_System.md) - 多重意识体存在的总称，包含多种形式和成因
 - [**系统（System）**](entries/System.md) - 共享一个身体的多个意识体的集合
 - [**成员（Alter）**](entries/Alter.md) - 系统中的单个意识体或人格
 - [**分离性身份障碍（DID）**](entries/DID.md) - 一种以身份分裂为特征的心理疾病

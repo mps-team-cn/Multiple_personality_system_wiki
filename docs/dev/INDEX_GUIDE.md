@@ -152,7 +152,7 @@ nav:
 
 ## 核心概念
 
-- [**多元性（Plurality）**](entries/Multiple_Personality_System.md) - 简介
+- [**多意识体系统（MPS）**](entries/Multiple_Personality_System.md) - 简介
 - [**系统（System）**](entries/System.md) - 简介
 
 > **脸脸系统**

@@ -14,7 +14,7 @@ updated: 2025-10-08
 
 ## 核心概念与理论框架
 
-- [多意识体（Plurality）](Multiple_Personality_System.md)：界定多意识体现象与社群语境。
+- [多意识体系统（MPS）](Multiple_Personality_System.md)：界定多意识体现象与社群语境。
 - [多重意识体基础](Plurality-Basics.md)：梳理术语、常见结构与常用实践。
 - [系统（System）](System.md)：说明系统的组成、边界与日常协调需求。
 - [解离（Dissociation）](Dissociation.md)：阐释解离连续体与对系统运作的影响。

@@ -126,7 +126,7 @@ updated: 2025-10-03
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md)
 - [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](Partial-Dissociative-Identity-Disorder-PDID.md)
 - [系统（System）](System.md)
-- [多意识体（Plurality）](Multiple_Personality_System.md)
+- [多意识体系统（MPS）](Multiple_Personality_System.md)
 
 ## 参考文献
 

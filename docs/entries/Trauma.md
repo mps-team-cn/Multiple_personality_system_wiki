@@ -108,7 +108,7 @@ synonyms:
 
 ### 多意识体相关
 
-- [多意识体（Plurality）](Multiple_Personality_System.md)
+- [多意识体系统（MPS）](Multiple_Personality_System.md)
 - [系统（System）](System.md)
 - [多重意识体基础（Plurality Basics）](Plurality-Basics.md)
 
