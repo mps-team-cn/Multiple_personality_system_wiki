@@ -58,10 +58,11 @@ updated: 2025-10-06
 
 **常用治疗方法** ：
 
-- **EMDR（眼动脱敏与再加工）** : 通过双侧刺激帮助大脑重新处理创伤记忆
-- **TF-CBT（创伤聚焦认知行为疗法）** : 针对创伤记忆的结构化治疗
-- **PE（延长暴露疗法）** : 逐步面对创伤记忆与触发物
-- **IFS（内在家庭系统疗法）** : 与内部部分建立对话，整合创伤经历
+- [**眼动脱敏与再加工（EMDR）**](Eye-Movement-Desensitization-Reprocessing-EMDR.md): 通过双侧刺激帮助大脑重新处理创伤记忆
+- [**创伤聚焦认知行为疗法（TF-CBT）**](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md): 针对儿童青少年创伤的结构化治疗
+- [**延长暴露疗法（PE）**](Prolonged-Exposure-Therapy-PE.md): 逐步面对创伤记忆与触发物
+- [**认知加工疗法（CPT）**](Cognitive-Processing-Therapy-CPT.md): 识别和改变创伤相关的负性信念
+- **内在家庭系统疗法（IFS）** : 与内部部分建立对话，整合创伤经历
 
 **风险管理** ：
 

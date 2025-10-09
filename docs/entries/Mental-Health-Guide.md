@@ -189,9 +189,10 @@ updated: 2025-10-09
 
 **创伤聚焦治疗**:
 
-- **眼动脱敏与再加工(EMDR)** - 通过双侧刺激处理创伤记忆
-- **创伤聚焦认知行为疗法(TF-CBT)** - 重新评估创伤信念,逐步暴露
-- **认知加工疗法(CPT)** - 改变"都是我的错"等负性信念
+- [**眼动脱敏与再加工（EMDR）**](Eye-Movement-Desensitization-Reprocessing-EMDR.md) - 通过双侧刺激处理创伤记忆
+- [**延长暴露疗法（PE）**](Prolonged-Exposure-Therapy-PE.md) - 反复接触创伤记忆，减少回避与恐惧
+- [**认知加工疗法（CPT）**](Cognitive-Processing-Therapy-CPT.md) - 改变"都是我的错"等负性信念
+- [**创伤聚焦认知行为疗法（TF-CBT）**](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md) - 专门针对儿童青少年的创伤治疗
 
 **情绪与地面化技能**:
 
