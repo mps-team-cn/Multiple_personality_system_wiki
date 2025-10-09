@@ -223,7 +223,7 @@ Multiple Personality System Wiki 是社区共建的知识库，欢迎你的参�
 - **🐛 报告问题**：在 GitHub Issues 中反馈错误或提出改进建议
 - **🌐 翻译校对**：帮助改进术语翻译和文本表述
 
-详细流程请参阅 [**贡献指南**](CONTRIBUTING.md)
+详细流程请参阅 [**贡献指南**](CONTRIBUTING/index.md)。
 
 ---
 
@@ -249,7 +249,7 @@ Multiple Personality System Wiki 是社区共建的知识库，欢迎你的参�
 
     ⚠️ 社群经验部分标明为"经验分享"，不代表医学事实
 
-    详见[贡献指南](CONTRIBUTING.md)中的学术规范。
+    详见[贡献指南-学术引用](contributing/学术引用.md)中的学术规范。
 
 ??? question "9个导览页面该如何使用？"
 
