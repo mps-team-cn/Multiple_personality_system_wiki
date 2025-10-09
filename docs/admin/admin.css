@@ -1,0 +1,44 @@
+/* Sveltia CMS 最简样式 - Plurality Wiki */
+
+:root {
+  --primary-color: #009688;
+  --primary-dark: #00796b;
+  --primary-light: #b2dfdb;
+}
+
+/* 基础字体 */
+body {
+  font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+/* 顶部导航栏 */
+[class*="AppHeader"] {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%) !important;
+}
+
+/* 登录按钮 */
+[class*="LoginButton"] {
+  background: var(--primary-color) !important;
+  border: none !important;
+}
+
+[class*="LoginButton"]:hover {
+  background: var(--primary-dark) !important;
+}
+
+/* 主按钮 */
+button[class*="Button-primary"] {
+  background: var(--primary-color) !important;
+}
+
+button[class*="Button-primary"]:hover {
+  background: var(--primary-dark) !important;
+}
+
+/* 表单聚焦状态 */
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--primary-color) !important;
+  outline: none !important;
+}

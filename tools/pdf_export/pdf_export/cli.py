@@ -5,8 +5,21 @@ from __future__ import annotations
 import argparse
 import datetime
 import sys
+import os
 from pathlib import Path
 from typing import Sequence
+
+# Windows 终端 UTF-8 支持
+if sys.platform == 'win32':
+    try:
+        # 重新配置 stdout/stderr 为 UTF-8 编码
+        import codecs
+        if sys.stdout.encoding != 'utf-8':
+            sys.stdout.reconfigure(encoding='utf-8')
+        if sys.stderr.encoding != 'utf-8':
+            sys.stderr.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
 
 from .constants import (
     DEFAULT_COVER_FOOTER,
@@ -110,8 +123,13 @@ def main(argv: Sequence[str] | None = None) -> None:
     """统一的命令行入口，供封装脚本与 ``python -m`` 复用。"""
 
     args = parse_arguments(argv)
+
+    if sys.stdout.isatty():
+        print("🔍 检查依赖项...")
     check_requirements(args.pandoc)
 
+    if sys.stdout.isatty():
+        print("🔧 检测 PDF 引擎...")
     pdf_engine = detect_pdf_engine(args.pdf_engine)
     if pdf_engine is None:
         raise SystemExit(
@@ -131,10 +149,20 @@ def main(argv: Sequence[str] | None = None) -> None:
         # 以避免 Roman Numeral 等特殊符号回退到不支持的默认字体。
         main_font = cjk_font
 
+    if sys.stdout.isatty():
+        print("📂 加载忽略规则...")
     ignore_rules = load_ignore_rules(args.ignore_file)
+
+    if sys.stdout.isatty():
+        print("📚 收集 Markdown 文件结构...")
     structure = collect_markdown_structure(ignore_rules)
     if not structure:
         raise SystemExit("没有找到可以导出的 Markdown 文件。")
+
+    # 统计文件数量
+    total_entries = sum(len(entries) for _, entries in structure)
+    if sys.stdout.isatty():
+        print(f"   找到 {len(structure)} 个分类，共 {total_entries} 个文档")
 
     cover_date = args.cover_date.strip() if args.cover_date else datetime.date.today().isoformat()
     cover_subtitle = args.cover_subtitle.strip() if args.cover_subtitle else None
@@ -144,8 +172,12 @@ def main(argv: Sequence[str] | None = None) -> None:
         if not cover_footer:
             cover_footer = None
 
+    if sys.stdout.isatty():
+        print("📅 加载更新时间戳...")
     last_updated_map = load_last_updated_map(LAST_UPDATED_JSON_PATH)
 
+    if sys.stdout.isatty():
+        print("🔨 合并 Markdown 内容...")
     combined_markdown = build_combined_markdown(
         structure=structure,
         include_readme=args.include_readme or not ignore_rules.matches(README_PATH),
@@ -162,6 +194,9 @@ def main(argv: Sequence[str] | None = None) -> None:
     try:
         export_path = args.output
         export_path.parent.mkdir(parents=True, exist_ok=True)
+
+        if sys.stdout.isatty():
+            print(f"📄 调用 Pandoc 生成 PDF (使用引擎: {pdf_engine})...")
         export_pdf(
             markdown_content=combined_markdown,
             output_path=export_path,
@@ -183,4 +218,9 @@ def main(argv: Sequence[str] | None = None) -> None:
         raise SystemExit(f"无法写入输出文件: {exc}") from exc
 
     if sys.stdout.isatty():
-        print(f"已成功导出 PDF 到 {args.output}")
+        # 确保Windows终端正确显示中文
+        try:
+            print(f"已成功导出 PDF 到 {args.output}")
+        except UnicodeEncodeError:
+            # Windows终端编码回退处理
+            print(f"已成功导出 PDF 到 {args.output}".encode('gbk', errors='ignore').decode('gbk'))

@@ -4,33 +4,36 @@ from __future__ import annotations
 
 import hashlib
 import re
-import sys
 from collections.abc import Mapping
 from pathlib import Path
 
 from .paths import PROJECT_ROOT, README_PATH
 
 # Markdown 中指向词条的常见链接格式：
-# - 行内链接 [描述](entries/词条.md)
-# - 引用式链接 [ref]: entries/词条.md
-# - 角括号自动链接 <entries/词条.md>
+# - 行内链接 [描述](entries/词条.md) 或 [描述](词条.md)
+# - 引用式链接 [ref]: entries/词条.md 或 [ref]: 词条.md
+# - 角括号自动链接 <entries/词条.md> 或 <词条.md>
 #
 # PDF 导出时会将所有词条合并为单一文档，因此需要将这些链接
 # 统一重写为指向合并文档内部锚点的形式。正则表达式仅捕获链接
 # 的前缀/目标/后缀部分，便于在替换时保留原有排版细节。
+#
+# 支持两种格式：
+# 1. 旧格式：entries/xxx.md 或 ./entries/xxx.md 或 ../entries/xxx.md
+# 2. 新格式：xxx.md（相对路径，假定在 docs/entries/ 目录下）
 ENTRY_INLINE_LINK_PATTERN = re.compile(
-    r"(?P<prefix>\[[^\]]+\]\()(?P<target>(?:\./|\.\./|)entries/[^)#\s]+?\.md)"
+    r"(?P<prefix>\[[^\]]+\]\()(?P<target>(?:(?:\./|\.\./|)entries/)?[^)#\s/]+?\.md)"
     r"(?P<fragment>#[^)\s]*)?(?P<suffix>\))"
 )
 
 ENTRY_REFERENCE_LINK_PATTERN = re.compile(
-    r"(?P<prefix>^\s*\[[^\]]+\]:\s*)(?P<target>(?:\./|\.\./|)entries/[^#\s]+?\.md)"
+    r"(?P<prefix>^\s*\[[^\]]+\]:\s*)(?P<target>(?:(?:\./|\.\./|)entries/)?[^#\s/]+?\.md)"
     r"(?P<fragment>#[^\s]*)?(?P<suffix>\s*$)",
     re.MULTILINE,
 )
 
 ENTRY_ANGLE_LINK_PATTERN = re.compile(
-    r"(?P<prefix><)(?P<target>(?:\./|\.\./|)entries/[^>#\s]+?\.md)"
+    r"(?P<prefix><)(?P<target>(?:(?:\./|\.\./|)entries/)?[^>#\s/]+?\.md)"
     r"(?P<fragment>#[^>\s]*)?(?P<suffix>>)",
 )
 
@@ -108,29 +111,52 @@ def _build_anchor_lookup(structure: CategoryStructure) -> dict[Path, str]:
 
 
 def _resolve_entry_target(target: str, lookup: Mapping[Path, str]) -> str | None:
-    """根据 ``target`` 查找对应的合并文档锚点。"""
+    """根据 ``target`` 查找对应的合并文档锚点。
+
+    支持两种格式：
+    1. 包含 entries/ 的路径：entries/xxx.md, ./entries/xxx.md, ../entries/xxx.md
+    2. 相对路径：xxx.md（假定在 docs/entries/ 目录下）
+    """
 
     stripped = target.strip()
     if not stripped:
         return None
+
+    candidates: list[Path] = []
+
+    # 检查是否包含 "entries/"
     index = stripped.find("entries/")
-    if index == -1:
-        return None
+    if index != -1:
+        # 旧格式：entries/xxx.md 或其相对写法
+        relative_target = Path(stripped[index:])
+        candidates.append(relative_target)
+        # 兼容 MkDocs 新目录结构下的 docs/entries/ 位置
+        if relative_target.parts and relative_target.parts[0] != "docs":
+            candidates.append(Path("docs") / relative_target)
+    else:
+        # 新格式：纯文件名，假定位于 docs/entries/ 下
+        if not stripped.endswith(".md"):
+            return None
+        # 避免匹配路径中包含 / 的情况（例如 foo/bar.md）
+        if "/" in stripped or "\\" in stripped:
+            return None
+        candidates.append(Path("docs/entries") / stripped)
+        # 为向后兼容保留 entries/xxx.md 形式
+        candidates.append(Path("entries") / stripped)
 
-    candidate = Path(stripped[index:])
-    if candidate.is_absolute():
-        return None
+    for candidate in candidates:
+        if candidate.is_absolute():
+            continue
+        try:
+            resolved = (PROJECT_ROOT / candidate).resolve()
+        except OSError:
+            continue
 
-    try:
-        resolved = (PROJECT_ROOT / candidate).resolve()
-    except OSError:
-        return None
+        anchor = lookup.get(resolved)
+        if anchor:
+            return f"#{anchor}"
 
-    anchor = lookup.get(resolved)
-    if not anchor:
-        return None
-
-    return f"#{anchor}"
+    return None
 
 
 def rewrite_entry_links(markdown: str, lookup: Mapping[Path, str]) -> str:
@@ -243,65 +269,43 @@ def build_cover_page(
     return "\n".join(lines)
 
 
-def _build_directory_from_index(anchor_lookup: Mapping[Path, str]) -> str | None:
-    """尝试以仓库根目录的 ``index.md`` 作为目录页内容。"""
-
-    index_path = PROJECT_ROOT / "index.md"
-    if not index_path.exists():
-        return None
-
-    try:
-        raw_content = index_path.read_text(encoding="utf-8")
-    except OSError as error:  # pragma: no cover - 仅在 I/O 出错时触发
-        print(f"警告: 无法读取 {index_path}: {error}", file=sys.stderr)
-        return None
-
-    stripped = raw_content.strip()
-    if not stripped:
-        return None
-
-    lines = stripped.splitlines()
-    for index, line in enumerate(lines):
-        if line.startswith("# "):
-            lines[index] = "# 目录"
-            break
-    else:
-        lines.insert(0, "# 目录")
-        lines.insert(1, "")
-
-    directory_markdown = "\n".join(lines)
-    rewritten = rewrite_entry_links(directory_markdown, anchor_lookup).strip()
-    if not rewritten:
-        return None
-
-    return f"{rewritten}\n\n\\newpage\n"
-
-
 def build_directory_page(
     structure: CategoryStructure, anchor_lookup: Mapping[Path, str]
 ) -> str:
-    """根据 ``index.md`` 或标签结构生成目录页内容。"""
-
-    index_based = _build_directory_from_index(anchor_lookup)
-    if index_based is not None:
-        return index_based
+    """根据 ``structure`` 生成带页码的目录页。"""
 
     lines: list[str] = ["# 目录", ""]
+    lines.extend(
+        [
+            r"\begingroup",
+            r"\setlength{\parindent}{0pt}",
+            r"\setlength{\parskip}{0.4em}",
+            "",
+        ]
+    )
 
     for category_title, documents in structure:
         if not documents:
             continue
-        lines.append(f"## {category_title}")
-        lines.append("")
+
+        lines.append(rf"\textbf{{{escape_latex(category_title)}}}\par")
+        lines.append(r"\vspace{0.2em}")
+
         for document in documents:
             anchor = anchor_lookup.get(
                 document.path.resolve(),
                 build_entry_anchor(document.path),
             )
-            lines.append(f"- [{document.title}](#{anchor})")
-        lines.append("")
+            entry_title = escape_latex(document.title)
+            lines.append(
+                rf"\noindent\hspace{{1em}}\textbullet\hspace{{0.6em}}"
+                rf"\hyperref[{anchor}]{{{entry_title}}}"
+                rf"\nobreak\dotfill\pageref{{{anchor}}}\par"
+            )
 
-    lines.extend(["\\newpage", ""])
+        lines.append(r"\medskip")
+
+    lines.extend([r"\endgroup", "", r"\newpage", ""])
     return "\n".join(lines)
 
 
