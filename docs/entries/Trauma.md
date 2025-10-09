@@ -110,7 +110,7 @@ synonyms:
 
 - [多意识体系统（MPS）](Multiple_Personality_System.md)
 - [系统（System）](System.md)
-- [多重意识体基础（Plurality Basics）](Plurality-Basics.md)
+- [多意识体系统基础（MPS Basics）](Mps-Basics.md)
 
 ### 治疗与应对
 

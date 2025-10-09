@@ -7,13 +7,21 @@ tags:
 - 解离
 
 topic: 系统运作
-title: 多重意识体基础（Plurality Basics）
-updated: 2025-10-03
+title: 多意识体系统基础（MPS Basics）
+updated: 2025-10-09
+synonyms:
+
+- 多意识体系统基础
+- MPS Basics
+- 多重意识体基础
+- Plurality Basics
+- duoyishiti xitong jichu
+
 ---
 
-# 多重意识体基础（Plurality Basics）
+# 多意识体系统基础（MPS Basics）
 
-> 本条目概述多重意识体系统的核心概念，内容与《[多意识体系统（MPS）](Multiple_Personality_System.md)》保持一致，便于通过英文路径访问。
+> 本条目概述多意识体系统的核心概念，内容与《[多意识体系统（MPS）](Multiple_Personality_System.md)》保持一致，便于通过英文路径访问。
 
 ## 同义词
 

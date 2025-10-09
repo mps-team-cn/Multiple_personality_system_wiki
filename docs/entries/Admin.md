@@ -57,7 +57,7 @@ synonyms:
 - [混合（Blending）](Blending.md)
 - [整合（Integration）](Integration.md)
 - [多意识体系统（MPS）](Multiple_Personality_System.md)
-- [多重意识体基础（Plurality Basics）](Plurality-Basics.md)
+- [多意识体系统基础（MPS Basics）](Mps-Basics.md)
 - [成员（Alter）](Alter.md)
 - [伪主体（Fauxmain）](Fauxmain.md)
 

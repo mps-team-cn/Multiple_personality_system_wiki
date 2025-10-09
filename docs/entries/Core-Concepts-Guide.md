@@ -311,7 +311,7 @@ updated: 2025-10-06
 
 ### 🔗 相关词条
 
-- [多重意识体基础（Plurality Basics）](Plurality-Basics.md)
+- [多意识体系统基础（MPS Basics）](Mps-Basics.md)
 - [系统角色（System Roles）](System-Roles.md)
 - [成员（Alter）](Alter.md)
 - [宿主（Host）](Host.md)
