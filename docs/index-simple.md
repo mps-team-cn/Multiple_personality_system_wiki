@@ -14,7 +14,7 @@
 
 - [标签索引](tags.md) - 按主题分类浏览所有词条
 - [术语表](Glossary.md) - 查询关键术语的定义
-- [贡献指南](CONTRIBUTING/index.md) - 了解如何参与建设
+- [贡献指南](contributing/index.md) - 了解如何参与建设
 
 ---
 
