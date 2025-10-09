@@ -42,11 +42,13 @@
 ### Python 环境配置
 
 - **推荐方式**：使用虚拟环境
+
   ```bash
   python3 -m venv venv
   source venv/bin/activate
   pip install -r requirements.txt
   ```
+
 - **常见问题**：
   - `pip: command not found` → 使用 `python3 -m pip`
   - `externally-managed-environment` → 必须使用虚拟环境
@@ -54,8 +56,9 @@
 
 ### 自动化工具要求
 
-- `python tools/fix_markdown.py` - Markdown 自动修复
+- `python3 tools/fix_markdown.py .` - Markdown 自动修复（`.` 表示处理当前目录）
 - 所有 Python 工具必须在虚拟环境中运行（推荐）
+- 注意：系统使用 `python3` 而非 `python` 命令
 
 ## MANDATORY WORKFLOWS
 
@@ -82,13 +85,17 @@
 
 ### 任务执行要求
 
-- 提交前必须运行：`python tools/fix_markdown.py`
+- 提交前必须运行：`python3 tools/fix_markdown.py .`
 - 大规模修改前必须：检查相关索引和链接
 - 标签索引由 MkDocs Material tags 插件自动生成，无需手动维护
 - **创建或更新条目时必须同步维护对应的 Guide 条目**：
-  - 治疗方法 → `Mental-Health-Guide.md`、`Three-Phase-Trauma-Treatment.md`
-  - 核心概念 → `Core-Concepts-Guide.md`
-  - 诊断标准 → `Clinical-Diagnosis-Guide.md`
+  - 诊断与临床（DID、OSDD、CPTSD等诊断） → `Clinical-Diagnosis-Guide.md`
+  - 系统运作（前台切换、共同意识、记忆管理等） → `System-Operations.md`
+  - 实践指南（Tulpa训练、冥想、接地技巧等） → `Practice-Guide.md`
+  - 创伤与疗愈（创伤机理、三阶段治疗模型等） → `Trauma-Healing-Guide.md`
+  - 角色与身份（宿主、守门人、保护者等） → `Roles-Identity-Guide.md`
+  - 理论与分类（结构性解离、依恋理论等） → `Theory-Classification-Guide.md`
+  - 文化与表现（影视、文学、游戏中的多意识体） → `Cultural-Media-Guide.md`
   - 确保引用链接和描述的一致性
 
 ## QUALITY STANDARDS

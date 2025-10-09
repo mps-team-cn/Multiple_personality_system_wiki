@@ -33,7 +33,19 @@
 - 新增或修改词条时，必须同步维护：
   - docs/Glossary.md → 术语表（如适用）
   - 对应主题的总览页面（如适用）
-  - **对应的 Guide 条目** → 当创建或更新专业术语、治疗方法、诊断标准等条目时，必须同步更新相关的导览条目（如 `Mental-Health-Guide.md`、`Core-Concepts-Guide.md`、`Clinical-Diagnosis-Guide.md` 等）中的引用和链接
+  - **对应的 Guide 条目** → 根据词条主题，必须同步更新相关的导览条目中的引用和链接：
+    - **诊断与临床** （DID、OSDD、CPTSD、焦虑障碍、情绪障碍等诊断条目） → `Clinical-Diagnosis-Guide.md`
+    - **系统运作** （前台切换、共同意识、记忆管理、内部空间、系统治理等机制） → `System-Operations.md`
+    - **实践指南** （Tulpa三阶段训练、冥想、可视化、内部沟通、接地技巧等方法） → `Practice-Guide.md`
+    - **创伤与疗愈** （创伤机理、PTSD/CPTSD症状、三阶段治疗模型、接地调节策略等） → `Trauma-Healing-Guide.md`
+    - **角色与身份** （宿主、守门人、保护者、照护者等角色类型与分工） → `Roles-Identity-Guide.md`
+    - **理论与分类** （结构性解离、依恋理论、自我决定理论、动机与人格模型等框架） → `Theory-Classification-Guide.md`
+    - **文化与表现** （影视、文学、动画、游戏等媒体中的多意识体主题） → `Cultural-Media-Guide.md`
+  - **Guide维护要求** ：
+    - 创建新词条时，必须在对应Guide中添加该词条的链接和简短描述
+    - 更新现有词条时，需检查对应Guide中的描述是否需要同步更新
+    - 一个词条可能属于多个主题，需同时更新所有相关的Guide条目
+    - 删除或重命名词条时，必须同步更新所有引用该词条的Guide
 - 条目内链接规范：
   - **词条间链接（同目录）** ：使用相对路径 `Admin.md`
   - **跨目录链接** ：
@@ -137,16 +149,21 @@
 适用于 Debian/Ubuntu 等外部管理 Python 环境的系统：
 
 ```bash
+
 # 1. 安装 venv 支持（如需要）
+
 sudo apt install python3.12-venv  # 或对应的 Python 版本
 
 # 2. 创建虚拟环境
+
 python3 -m venv venv
 
 # 3. 激活虚拟环境
+
 source venv/bin/activate
 
 # 4. 安装依赖
+
 pip install -r requirements.txt
 ```
 
@@ -161,7 +178,9 @@ source venv/bin/activate
 适用于非托管 Python 环境：
 
 ```bash
+
 # 直接安装依赖
+
 pip install -r requirements.txt
 ```
 
@@ -170,13 +189,17 @@ pip install -r requirements.txt
 #### `pip: command not found`
 
 ```bash
+
 # 方法 1：使用 python3 -m pip
+
 python3 -m pip install -r requirements.txt
 
 # 方法 2：安装 pip
+
 python3 -m ensurepip --default-pip
 
 # 方法 3：系统包管理器安装
+
 sudo apt install python3-pip
 ```
 
@@ -225,6 +248,7 @@ sudo apt install python3-pip
 - ✅ 必须遵循贡献指南（`docs/contributing/`）与词条模板（`docs/TEMPLATE_ENTRY.md`）
 - ✅ 必须保持小步提交（最小可审查单位）
 - ✅ 词条必须遵守markdownlint规范
+- ✅ **提交前必须运行**：`python3 tools/fix_markdown.py .` 和 `markdownlint` 校验（详见第 8 节）
 - ✅ 必须在 PR 描述中说明生成/重写内容的方法与来源（正则/脚本名/范围等）
 - ✅ 必须在脚本更新时同步维护 `docs/tools/README.md`
 - ❌ 禁止生成无法追溯的证据
@@ -241,7 +265,7 @@ sudo apt install python3-pip
 
 - CI 会在 `push` / `pull_request` 时运行以下步骤：
 
-  1. 执行 `python tools/fix_markdown.py` 自动修复；
+  1. 执行 `python3 tools/fix_markdown.py .` 自动修复；
   2. 执行 `markdownlint` 校验；若有未修复项，CI 失败并提示。
 - 详见 `.github/workflows/markdown_format.yml`。
 
@@ -249,13 +273,17 @@ sudo apt install python3-pip
 
 ```bash
 
-# 执行自动修复
+# 执行自动修复（. 表示处理当前目录及子目录所有 Markdown 文件）
 
-python tools/fix_markdown.py
+python3 tools/fix_markdown.py .
 
 # 可选：仅查看将修改哪些文件
 
-python tools/fix_markdown.py --dry-run
+python3 tools/fix_markdown.py --dry-run .
+
+# 可选：仅修复特定文件
+
+python3 tools/fix_markdown.py docs/entries/DID.md
 
 # 运行 markdownlint（需已安装 markdownlint-cli）
 
