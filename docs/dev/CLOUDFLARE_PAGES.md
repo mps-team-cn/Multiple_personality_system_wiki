@@ -9,7 +9,7 @@
 1. 登录 [Cloudflare Dashboard](https://dash.cloudflare.com/)
 2. 进入 **Pages** 部分
 3. 点击 **Create a project**
-4. 连接你的 GitHub 仓库 `mps-team-cn/plurality_wiki`
+4. 连接你的 GitHub 仓库 `mps-team-cn/Multiple_personality_system_wiki`
 
 ### 2. 构建配置
 
@@ -138,4 +138,4 @@ GOOGLE_ANALYTICS_KEY=G-XXXXXXXXXX
 
 ## 技术支持
 
-如有问题,请在 [GitHub Issues](https://github.com/mps-team-cn/plurality_wiki/issues) 提出。
+如有问题,请在 [GitHub Issues](https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues) 提出。

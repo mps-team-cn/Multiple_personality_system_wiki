@@ -251,6 +251,6 @@
 
 ---
 
-:material-github: **开源协作** ：本项目在 [GitHub](https://github.com/mps-team-cn/plurality_wiki) 上开源，欢迎参与
+:material-github: **开源协作** ：本项目在 [GitHub](https://github.com/mps-team-cn/Multiple_personality_system_wiki) 上开源，欢迎参与
 
 :material-license: **内容许可** ：除特别声明外，所有内容遵循 CC BY-SA 4.0 协议
