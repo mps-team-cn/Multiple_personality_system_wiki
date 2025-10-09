@@ -1,4 +1,4 @@
-# Plurality Wiki - 多意识体百科
+# Multiple Personality System Wiki - 多意识体百科
 
 > 多重意识体系统（Plurality）与创伤相关主题的中文知识库
 

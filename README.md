@@ -1,4 +1,4 @@
-# Plurality Wiki
+# Multiple Personality System Wiki
 
 > 多重意识体系统与相关心理健康主题的中文知识库与开源协作项目。
 > 在线版本：<https://mpswiki.pages.dev/>

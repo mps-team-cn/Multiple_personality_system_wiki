@@ -219,5 +219,5 @@ git log --all --oneline --since="3 months ago" -- tools/add_*.py
 
 ---
 
-**维护者**：Plurality Wiki Team
+**维护者**：Multiple Personality System Wiki Team
 **最后更新**：2025-10-07

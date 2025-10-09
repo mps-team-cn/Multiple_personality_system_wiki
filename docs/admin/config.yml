@@ -37,7 +37,7 @@ collections:
   - name: "entries"
     label: "词条管理"
     label_singular: "词条"
-    description: "管理 Plurality Wiki 的词条内容"
+    description: "管理 Multiple Personality System Wiki 的词条内容"
     folder: "docs/entries"
     create: true
     slug: "{{slug}}"

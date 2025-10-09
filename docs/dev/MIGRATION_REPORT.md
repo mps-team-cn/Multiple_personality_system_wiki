@@ -1,4 +1,4 @@
-# Plurality Wiki 迁移报告
+# Multiple Personality System Wiki 迁移报告
 
 ## 迁移概述
 
@@ -6,7 +6,7 @@
 **迁移人员** : Claude Code
 **迁移类型** : 前端框架迁移 (Docsify → MkDocs Material)
 
-本次迁移将 Plurality Wiki 从 Docsify 静态站点生成器迁移到 MkDocs Material 主题,以获得更好的功能性、可维护性和用户体验。
+本次迁移将 Multiple Personality System Wiki 从 Docsify 静态站点生成器迁移到 MkDocs Material 主题,以获得更好的功能性、可维护性和用户体验。
 
 ---
 

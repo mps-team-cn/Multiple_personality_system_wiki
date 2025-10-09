@@ -16,7 +16,7 @@ updated: 2025-10-06
 > **导读** ：本指南整理自百度贴吧 tulpa 吧的社群经验分享，系统介绍了 Tulpa（图帕）的创造原理、实践方法与进阶技巧。适合希望深入了解 Tulpa 创造过程的读者。
 >
 > **原文来源** ：百度贴吧 tulpa 吧
-> **整理编辑** ：Plurality Wiki 资料库
+> **整理编辑** ：Multiple Personality System Wiki 资料库
 
 ---
 

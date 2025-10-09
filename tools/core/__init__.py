@@ -4,7 +4,7 @@
 """
 
 __version__ = "1.0.0"
-__author__ = "Plurality Wiki Team"
+__author__ = "Multiple Personality System Wiki Team"
 
 from .frontmatter import FrontmatterParser
 from .config import Config

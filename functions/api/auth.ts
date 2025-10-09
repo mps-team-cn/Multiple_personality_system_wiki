@@ -1,4 +1,4 @@
-// GitHub OAuth 代理 for Sveltia CMS (Plurality Wiki)
+// GitHub OAuth 代理 for Sveltia CMS (Multiple Personality System Wiki)
 // 兼容 Cloudflare Pages Functions 环境
 
 function json(data: any, status = 200, extra: Record<string, string> = {}) {

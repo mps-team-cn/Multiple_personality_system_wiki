@@ -21,7 +21,7 @@ def create_parser() -> argparse.ArgumentParser:
     """创建命令行参数解析器。"""
     parser = argparse.ArgumentParser(
         prog="wiki-tools",
-        description="Plurality Wiki 自动化工具集"
+        description="Multiple Personality System Wiki 自动化工具集"
     )
 
     # 全局选项

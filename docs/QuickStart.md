@@ -6,10 +6,10 @@ updated: 2024-05-05
 
 # 快速开始（Quick Start）
 
-> 欢迎来到 Plurality Wiki！无论你是刚开始了解多意识体,还是在寻找特定信息,这份快速指南都将帮助你找到最适合的学习路径。
+> 欢迎来到 Multiple Personality System Wiki！无论你是刚开始了解多意识体,还是在寻找特定信息,这份快速指南都将帮助你找到最适合的学习路径。
 
 !!! warning "紧急提醒"
-若你或伙伴正处于紧急或临床风险情境,请优先联系当地紧急服务、心理危机干预中心或持证专业人员。Plurality Wiki 旨在整理知识与经验分享,无法替代医疗或法律建议。
+若你或伙伴正处于紧急或临床风险情境,请优先联系当地紧急服务、心理危机干预中心或持证专业人员。Multiple Personality System Wiki 旨在整理知识与经验分享,无法替代医疗或法律建议。
 
 ---
 
@@ -113,7 +113,7 @@ updated: 2024-05-05
 
 ## 🤝 参与贡献
 
-Plurality Wiki 是社区共建的知识库,欢迎你的参与:
+Multiple Personality System Wiki 是社区共建的知识库,欢迎你的参与:
 
 - **📚 分享经验** : 提供系统经验、实践技巧或资源推荐
 - **✏️ 补充内容** : 通过 Pull Request 添加新词条或完善现有内容
@@ -140,7 +140,7 @@ Plurality Wiki 是社区共建的知识库,欢迎你的参与:
 
   详见 [心理健康导览](entries/Mental-Health-Guide.md) 中的相关说明。
 
-??? question "Plurality Wiki 的内容可靠吗?"
+??? question "Multiple Personality System Wiki 的内容可靠吗?"
   ✅ 医疗/诊断内容引用 ICD-11、DSM-5-TR 等权威来源
 
   ✅ 每个断言都标注引用来源和访问日期

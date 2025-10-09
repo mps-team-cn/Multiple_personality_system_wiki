@@ -38,7 +38,7 @@ hide:
 
 ```markdown
 
-# Plurality Wiki - 多意识体百科
+# Multiple Personality System Wiki - 多意识体百科
 
 （不添加 frontmatter，默认显示侧边栏）
 ```
@@ -174,7 +174,7 @@ hide:
 
 ```markdown
 
-# Plurality Wiki - 多意识体百科
+# Multiple Personality System Wiki - 多意识体百科
 
 （不添加 frontmatter）
 ```
