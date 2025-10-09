@@ -241,7 +241,9 @@ updated: YYYY-MM-DD
        - 关键变更完整
        - 与实际改动一致
 
-    2. **使用 GitHub CLI 发布**：
+    2. **检查 `docs/index.md` 页面**，确保版本信息正确。
+
+    3. **使用 GitHub CLI 发布**：
 
        ```bash
        # 创建新 Release
@@ -251,7 +253,7 @@ updated: YYYY-MM-DD
        gh release edit <tag> --notes-file changelog.md
        ```
 
-    3. **推送标签**：
+    4. **推送标签**：
 
        ```bash
        git push origin <tag>
