@@ -1,0 +1,32 @@
+{% set giscus = config.extra.giscus if config.extra.giscus is defined else {} %}
+{% if page.meta.comments and giscus %}
+  <section
+    class="giscus-container"
+    data-giscus-root
+    data-giscus-repo="{{ giscus.repo | default('') }}"
+    data-giscus-repo-id="{{ giscus.repo_id | default('') }}"
+    data-giscus-category="{{ giscus.category | default('') }}"
+    data-giscus-category-id="{{ giscus.category_id | default('') }}"
+    data-giscus-mapping="{{ giscus.mapping | default('pathname') }}"
+    data-giscus-strict="{{ giscus.strict | default('0') }}"
+    data-giscus-reactions-enabled="{{ giscus.reactions_enabled | default('1') }}"
+    data-giscus-emit-metadata="{{ giscus.emit_metadata | default('0') }}"
+    data-giscus-input-position="{{ giscus.input_position | default('top') }}"
+    data-giscus-theme="{{ giscus.theme | default('preferred_color_scheme') }}"
+    data-giscus-lang="{{ giscus.lang | default('zh-CN') }}"
+    data-giscus-loading="{{ giscus.loading | default('lazy') }}"
+    data-giscus-host="{{ giscus.host | default('https://giscus.app') }}"
+  >
+    <div class="giscus-notice">
+      <p>
+        💡 <strong>访问提示</strong>：评论系统基于 GitHub Discussions。
+        如无法加载，请检查网络连接，或
+        <a href="https://github.com/mps-team-cn/Multiple_personality_system_wiki/discussions" target="_blank" rel="noopener">
+          直接前往 GitHub Discussions
+        </a>
+        参与讨论。
+      </p>
+    </div>
+    <div class="giscus-thread" data-giscus-thread></div>
+  </section>
+{% endif %}

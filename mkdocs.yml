@@ -10,7 +10,7 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   language: zh
-  # custom_dir: overrides  # 暂时注释,需要时可创建该目录进行主题自定义
+  custom_dir: overrides
 
   # 颜色配置
   palette:
@@ -90,6 +90,22 @@ extra:
       link: https://github.com/mps-team-cn/Multiple_personality_system_wiki
       name: GitHub 仓库
 
+  # Giscus 评论配置（repo_id、category_id 建议经由环境变量注入）
+  giscus:
+    repo: mps-team-cn/Multiple_personality_system_wiki
+    repo_id: !ENV GISCUS_REPO_ID
+    category: Comments
+    category_id: !ENV GISCUS_CATEGORY_ID
+    mapping: pathname
+    strict: 0
+    reactions_enabled: 1
+    emit_metadata: 0
+    input_position: top
+    theme: preferred_color_scheme
+    lang: zh-CN
+    loading: lazy
+    host: https://giscus.app
+
   # 分析（本地开发时注释，部署时启用）
   analytics:
     provider: google
@@ -129,6 +145,7 @@ extra_css:
 
 extra_javascript:
   - assets/extra.js
+  - assets/giscus-loader.js  # Giscus 评论加载器
 
 # Markdown 扩展
 markdown_extensions:
