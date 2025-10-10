@@ -401,8 +401,8 @@ export KEEP_PRODUCTION="true"   # 是否保留最新 production 部署（默认 
 
 ```bash
 # 方式 1: 设置环境变量后运行
-export CF_API_TOKEN="G1r-bNax-ZXWKEMcDC3bZW9RMEbMoXytdwWmcDIT"
-export CF_ACCOUNT_ID="87315bd1eb72810d6740708623fd10c5"
+export CF_API_TOKEN="G1r-bNax-xxxXxxXxxXxxXxxXxxXxxXxx"
+export CF_ACCOUNT_ID="873xxxxxxxxxxxxxxxxxxxxxxxc5"
 export CF_PAGES_PROJECT="my-project"
 node tools/delete-cf-pages-project.js
 
