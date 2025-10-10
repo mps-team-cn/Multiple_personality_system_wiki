@@ -7,6 +7,7 @@
     - `synonyms`（同义词/别名列表）
     - `updated`（YYYY-MM-DD）
     - `topic` 建议按照六大分类
+    - `comments`（可选，填写 `true` 时将在页面底部开启评论区）
     - 诊断与临床 - 解离、创伤、情绪与人格障碍等临床诊断
     - 系统运作 - 前台、切换、意识共存等多意识体系统运作机制
     - 创伤与疗愈 - 创伤类型、治疗方法、接地技巧等康复相关内容
@@ -35,6 +36,7 @@ synonyms:
   - alias
 
 updated: YYYY-MM-DD
+comments: true  # 可选：启用评论区
 ---
 
 # 条目中文名（English/缩写）
