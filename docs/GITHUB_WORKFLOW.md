@@ -10,7 +10,7 @@
 1. 打开主仓库：[Multiple Personality System Wiki](https://github.com/mps-team-cn/Multiple_personality_system_wiki)
 2. 点击右上角 **Fork** 按钮，创建属于自己的副本。
 
-   - Fork 后地址示例：
+    - Fork 后地址示例：
 
      ```text
      [https://github.com/你的用户名/Multiple_personality_system_wiki](https://github.com/你的用户名/Multiple_personality_system_wiki)
@@ -79,8 +79,8 @@ git push origin feat/add-did-entry
 2. 点击 **Compare & Pull Request** 。
 3. 设置目标分支：
 
-   - **base repository** : `mps-team-cn/Multiple_personality_system_wiki`
-   - **base branch** : `main`
+    - **base repository** : `mps-team-cn/Multiple_personality_system_wiki`
+    - **base branch** : `main`
 
 4. 填写 PR 模板，说明修改内容。
 5. 提交后等待管理员审核。

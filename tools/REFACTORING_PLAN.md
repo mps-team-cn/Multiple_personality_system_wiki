@@ -7,20 +7,20 @@
 ## 🎯 重构目标
 
 1. **代码质量提升**
-   - 消除代码重复
-   - 统一架构设计
-   - 增强错误处理
-   - 提高测试覆盖率
+    - 消除代码重复
+    - 统一架构设计
+    - 增强错误处理
+    - 提高测试覆盖率
 
 2. **功能整合**
-   - 合并相似功能
-   - 提取公共模块
-   - 统一接口设计
+    - 合并相似功能
+    - 提取公共模块
+    - 统一接口设计
 
 3. **开发体验改善**
-   - 简化配置管理
-   - 统一日志记录
-   - 提供清晰的 CLI 接口
+    - 简化配置管理
+    - 统一日志记录
+    - 提供清晰的 CLI 接口
 
 ## 📁 新目录结构
 
@@ -61,37 +61,37 @@ tools/
 
 - **功能** : 统一的 YAML frontmatter 解析
 - **特性** :
-  - 支持严格和宽松模式
-  - 完整的错误处理
-  - 支持多种字段类型
-  - 向后兼容性
+    - 支持严格和宽松模式
+    - 完整的错误处理
+    - 支持多种字段类型
+    - 向后兼容性
 
 #### config.py
 
 - **功能** : 配置管理系统
 - **特性** :
-  - 支持多种配置来源（文件、环境变量）
-  - 类型安全的数据类
-  - 自动路径解析
-  - 配置验证
+    - 支持多种配置来源（文件、环境变量）
+    - 类型安全的数据类
+    - 自动路径解析
+    - 配置验证
 
 #### logger.py
 
 - **功能** : 统一日志记录
 - **特性** :
-  - 可配置的日志级别和格式
-  - 文件轮转支持
-  - 多处理器支持
-  - 性能友好的日志缓存
+    - 可配置的日志级别和格式
+    - 文件轮转支持
+    - 多处理器支持
+    - 性能友好的日志缓存
 
 #### utils.py
 
 - **功能** : 通用工具函数
 - **特性** :
-  - 文件操作工具
-  - 文本处理工具
-  - 装饰器（计时、重试等）
-  - 数据处理工具
+    - 文件操作工具
+    - 文本处理工具
+    - 装饰器（计时、重试等）
+    - 数据处理工具
 
 ### 2. Processors 模块
 
@@ -203,24 +203,24 @@ tools/
 ### 现有脚本处理
 
 1. **保留策略**
-   - 在重构完成前保留所有现有脚本
-   - 新旧系统并行运行
-   - 逐步验证新系统稳定性
+    - 在重构完成前保留所有现有脚本
+    - 新旧系统并行运行
+    - 逐步验证新系统稳定性
 
 2. **迁移顺序**
-   - ✅ `fix_markdown.py` → `processors/markdown.py` (2025-10-07)
-   - ✅ `fix_bold_format.py` → `processors/markdown.py` (2025-10-07)
-   - ✅ `fix_list_bold_colon.py` → `processors/markdown.py` (2025-10-07)
-   - ✅ `check_links.py` → `processors/links.py`
-   - ✅ ~~`generate_tags_index.py` + `retag_and_related.py` → `processors/tags.py`~~ - 已废弃，移至 `deprecated/`
-   - ~~`build_search_index.py` → `generators/search_index.py`~~ - MkDocs 插件替代
-   - `gen-validation-report.py` → `validators/content.py`
-   - `gen_changelog_by_tags.py` → `generators/changelog.py`
+    - ✅ `fix_markdown.py` → `processors/markdown.py` (2025-10-07)
+    - ✅ `fix_bold_format.py` → `processors/markdown.py` (2025-10-07)
+    - ✅ `fix_list_bold_colon.py` → `processors/markdown.py` (2025-10-07)
+    - ✅ `check_links.py` → `processors/links.py`
+    - ✅ ~~`generate_tags_index.py` + `retag_and_related.py` → `processors/tags.py`~~ - 已废弃，移至 `deprecated/`
+    - ~~`build_search_index.py` → `generators/search_index.py`~~ - MkDocs 插件替代
+    - `gen-validation-report.py` → `validators/content.py`
+    - `gen_changelog_by_tags.py` → `generators/changelog.py`
 
 3. **兼容性保证**
-   - 保留原有命令行接口
-   - 提供迁移工具
-   - 详细的变更日志
+    - 保留原有命令行接口
+    - 提供迁移工具
+    - 详细的变更日志
 
 ## 🧪 测试策略
 

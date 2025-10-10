@@ -114,22 +114,22 @@ mkdocs serve
 
 1. **extra-material.css** - Material 主题专用增强样式
 
-   - 使用 Material CSS 变量
-   - 卡片网格、告示框增强
-   - 深色模式优化
-   - 仅在 Material 主题下生效
+    - 使用 Material CSS 变量
+    - 卡片网格、告示框增强
+    - 深色模式优化
+    - 仅在 Material 主题下生效
 
 2. **extra.css** - 通用样式（当前使用）
 
-   - 适用于所有 MkDocs 主题
-   - 中文字体优化
-   - 基础表格、代码块美化
-   - 打印样式
+    - 适用于所有 MkDocs 主题
+    - 中文字体优化
+    - 基础表格、代码块美化
+    - 打印样式
 
 3. **extra-common.css** - 通用样式源文件
 
-   - 与 extra.css 相同
-   - 作为备份保留
+    - 与 extra.css 相同
+    - 作为备份保留
 
 ### 主题与 CSS 对应关系
 
@@ -294,18 +294,18 @@ mkdocs serve
 
 - **Material 独有** :
 
-  - Grid Cards（卡片网格）
-  - Admonitions 高级样式
-  - 标签系统
-  - Git 修订日期
-  - 图片缩放（glightbox）
-  - 内容标签页
+    - Grid Cards（卡片网格）
+    - Admonitions 高级样式
+    - 标签系统
+    - Git 修订日期
+    - 图片缩放（glightbox）
+    - 内容标签页
 
 - **切换主题后需要调整** :
 
-  - 首页 `index.md` 可能需要简化（去除 Material 特定语法）
-  - 某些 Markdown 扩展可能不支持
-  - 插件配置需要相应调整
+    - 首页 `index.md` 可能需要简化（去除 Material 特定语法）
+    - 某些 Markdown 扩展可能不支持
+    - 插件配置需要相应调整
 
 ### 构建兼容性
 

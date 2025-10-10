@@ -214,10 +214,10 @@ pymdown-extensions>=10.7
 ### 配置修复 (2025-10-05)
 
 - [x] 修复 `mkdocs.yml` 配置问题:
-  - 注释 `custom_dir: overrides` (目录不存在)
-  - 注释 `tags_file: tags.md` (新版本不再需要)
-  - 移除 nav 中的 README.md (与 index.md 冲突)
-  - 移除重复的 index.md 引用
+    - 注释 `custom_dir: overrides` (目录不存在)
+    - 注释 `tags_file: tags.md` (新版本不再需要)
+    - 移除 nav 中的 README.md (与 index.md 冲突)
+    - 移除重复的 index.md 引用
 - [x] 创建 `docs/includes/abbreviations.md` 缩写定义文件
 - [x] 成功构建: `mkdocs build --strict` ✅
 

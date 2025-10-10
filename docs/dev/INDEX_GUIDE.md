@@ -247,15 +247,15 @@ rm docs/README.md
 
 1. **根目录的 README.md**
 
-   - 用于 GitHub 项目说明
-   - 不会被 MkDocs 处理
-   - ✅ 保留
+    - 用于 GitHub 项目说明
+    - 不会被 MkDocs 处理
+    - ✅ 保留
 
 2. **docs/README.md**
 
-   - 与 index.md 冲突
-   - MkDocs 会自动排除
-   - ❌ 建议删除或重命名
+    - 与 index.md 冲突
+    - MkDocs 会自动排除
+    - ❌ 建议删除或重命名
 
 ### 首页链接问题
 
