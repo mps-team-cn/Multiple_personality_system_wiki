@@ -249,3 +249,21 @@ Sveltia CMS 完全兼容 Decap CMS 的配置文件，无需修改 `config.yml`�
 ```
 
 所有现有功能保持不变，并获得额外的搜索和性能提升。
+## 评论区系统
+要真正启用评论系统，需要在 GitHub 上完成几项操作，这部分超出了我在本地仓库所能完成的范围（涉及仓库管理权限和 GitHub App 安装）。
+
+下面是你可以参考的处理步骤（来自 docs/dev/GISCUS_INTEGRATION.md）：
+
+1. **启用 GitHub Discussions**
+    - 前往 Settings → General → Features，勾选 Discussions。
+2. **安装 Giscus App**
+    - 访问 [https://github.com/apps/giscus](https://github.com/apps/giscus) ，点击 Install，选择 mps-team-cn/Multiple_personality_system_wiki 仓库并授权。
+3. **创建评论分类**
+    - 在 Discussions 中新建一个 Category（例如 Comments），记录其 Category ID。
+4. **获取 repo_id / category_id**
+    - 在 giscus.app 网站选择仓库和分类后，复制生成的 data-repo-id 与 data-category-id。
+    - 将两项写入 Cloudflare Pages 或本地构建环境的环境变量 GISCUS_REPO_ID、GISCUS_CATEGORY_ID。
+5. **重新部署站点**
+    - 确认站点重新构建时能读到新的环境变量；页面加载后不再出现上述错误，评论框即可正常工作。
+
+完成以上步骤后，现有的模板和脚本会自动挂载评论区，无需额外改动代码。
