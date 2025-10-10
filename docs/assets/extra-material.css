@@ -266,6 +266,41 @@ a:hover {
   background-color: color-mix(in srgb, var(--md-primary-fg-color) 10%, transparent);
 }
 
+/* ===== Giscus 评论区样式 ===== */
+.giscus-container {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.giscus-notice {
+  padding: 12px;
+  margin-bottom: 16px;
+  background: #fff3cd;
+  border-left: 4px solid #ffc107;
+  border-radius: 4px;
+}
+
+.giscus-notice p {
+  margin: 0;
+  font-size: 14px;
+  color: #856404;
+}
+
+[data-md-color-scheme="slate"] .giscus-container {
+  border-top-color: color-mix(in srgb, var(--md-default-fg-color) 20%, transparent);
+}
+
+[data-md-color-scheme="slate"] .giscus-notice {
+  background: #3a3a2a;
+  border-left-color: #ffb300;
+}
+
+[data-md-color-scheme="slate"] .giscus-notice p {
+  color: #ffd54f;
+}
+
+
 /* ===== 打印样式 ===== */
 @media print {
   .md-header,
