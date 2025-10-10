@@ -1,7 +1,7 @@
 ---
 tags:
 
-  - 诊断与临床
+    - 诊断与临床
 
 topic: 诊断与临床
 title: 诊断与临床导览
@@ -32,9 +32,9 @@ updated: 2025-10-09
 - [注意缺陷多动障碍（ADHD）](Attention-Deficit-Hyperactivity-Disorder-ADHD.md)：说明儿童与成人的评估重点、注意力与冲动控制困难。
 - 特定学习障碍（Specific Learning Disorder）：*待更新*
 - 运动障碍（Motor Disorders）：*待更新*
-  - 发育性协调障碍：*待更新*
-  - 刻板运动障碍：*待更新*
-  - 抽动障碍：*待更新*
+    - 发育性协调障碍：*待更新*
+    - 刻板运动障碍：*待更新*
+    - 抽动障碍：*待更新*
 - 其他神经发育障碍：*待更新*
 
 ### 2. 精神分裂症谱系及其他精神病性障碍（Schizophrenia Spectrum and Other Psychotic Disorders）
@@ -137,9 +137,9 @@ updated: 2025-10-09
 - 反刍障碍（Rumination Disorder）：*待更新*
 - 回避/限制性摄食障碍（Avoidant/Restrictive Food Intake Disorder, ARFID）：*待更新*
 - [进食障碍（ED）](Eating-Disorders-ED.md)：辨识神经性厌食、神经性贪食与暴食障碍，处理体像困扰与情绪调节需求。
-  - 神经性厌食症（Anorexia Nervosa）：见上
-  - 神经性贪食症（Bulimia Nervosa）：见上
-  - 暴食障碍（Binge-Eating Disorder）：见上
+    - 神经性厌食症（Anorexia Nervosa）：见上
+    - 神经性贪食症（Bulimia Nervosa）：见上
+    - 暴食障碍（Binge-Eating Disorder）：见上
 - 其他特定/未特定进食障碍：*待更新*
 
 ### 11. 排泄障碍（Elimination Disorders）
@@ -155,15 +155,15 @@ updated: 2025-10-09
 - 过度嗜睡障碍（Hypersomnolence Disorder）：*待更新*
 - 发作性睡病（Narcolepsy）：*待更新*
 - 呼吸相关睡眠障碍（Breathing-Related Sleep Disorders）：*待更新*
-  - 阻塞性睡眠呼吸暂停低通气：*待更新*
-  - 中枢性睡眠呼吸暂停：*待更新*
-  - 睡眠相关低通气：*待更新*
+    - 阻塞性睡眠呼吸暂停低通气：*待更新*
+    - 中枢性睡眠呼吸暂停：*待更新*
+    - 睡眠相关低通气：*待更新*
 - 昼夜节律睡眠-觉醒障碍（Circadian Rhythm Sleep-Wake Disorders）：*待更新*
 - 异态睡眠（Parasomnias）：*待更新*
-  - 非快速眼动睡眠唤醒障碍：*待更新*
-  - 噩梦障碍（Nightmare Disorder）：见 [睡眠障碍](Sleep-Disorders-SD.md)
-  - 快速眼动睡眠行为障碍：*待更新*
-  - 不宁腿综合征：*待更新*
+    - 非快速眼动睡眠唤醒障碍：*待更新*
+    - 噩梦障碍（Nightmare Disorder）：见 [睡眠障碍](Sleep-Disorders-SD.md)
+    - 快速眼动睡眠行为障碍：*待更新*
+    - 不宁腿综合征：*待更新*
 - 物质/药物所致睡眠障碍：*待更新*
 - 其他特定/未特定睡眠-觉醒障碍：*待更新*
 
@@ -183,8 +183,8 @@ updated: 2025-10-09
 ### 14. 性别烦躁（Gender Dysphoria）
 
 - [性别不安（Gender Dysphoria）](Gender-Dysphoria-GD.md)：理解性别身份与指定性别不一致所致痛苦，区分与解离的关系并提供适切支持。
-  - 儿童性别烦躁：见上
-  - 青少年与成人性别烦躁：见上
+    - 儿童性别烦躁：见上
+    - 青少年与成人性别烦躁：见上
 - 其他特定/未特定性别烦躁：*待更新*
 
 ### 15. 破坏性、冲动控制及品行障碍（Disruptive, Impulse-Control, and Conduct Disorders）
@@ -211,49 +211,49 @@ updated: 2025-10-09
 - 烟草相关障碍（Tobacco-Related Disorders）：*待更新*
 - 其他（或未知）物质相关障碍：*待更新*
 - 非物质相关障碍（Non-Substance-Related Disorders）：*待更新*
-  - 赌博障碍（Gambling Disorder）：*待更新*
+    - 赌博障碍（Gambling Disorder）：*待更新*
 
 ### 17. 神经认知障碍（Neurocognitive Disorders）
 
 - [谵妄（Delirium）](Delirium.md)：辨识急性意识混乱、医疗诱因与紧急处理。
 - 重度与轻度神经认知障碍（Major and Mild Neurocognitive Disorders）：*待更新*
-  - 阿尔茨海默病所致神经认知障碍：*待更新*
-  - 额颞叶变性所致神经认知障碍：*待更新*
-  - 路易体病所致神经认知障碍：*待更新*
-  - 血管性神经认知障碍：*待更新*
-  - 创伤性脑损伤所致神经认知障碍：*待更新*
-  - 物质/药物所致神经认知障碍：*待更新*
-  - HIV 感染所致神经认知障碍：*待更新*
-  - 朊病毒病所致神经认知障碍：*待更新*
-  - 帕金森病所致神经认知障碍：*待更新*
-  - 亨廷顿病所致神经认知障碍：*待更新*
-  - 其他医学状况所致神经认知障碍：*待更新*
-  - 多种病因所致神经认知障碍：*待更新*
-  - 未特定神经认知障碍：*待更新*
+    - 阿尔茨海默病所致神经认知障碍：*待更新*
+    - 额颞叶变性所致神经认知障碍：*待更新*
+    - 路易体病所致神经认知障碍：*待更新*
+    - 血管性神经认知障碍：*待更新*
+    - 创伤性脑损伤所致神经认知障碍：*待更新*
+    - 物质/药物所致神经认知障碍：*待更新*
+    - HIV 感染所致神经认知障碍：*待更新*
+    - 朊病毒病所致神经认知障碍：*待更新*
+    - 帕金森病所致神经认知障碍：*待更新*
+    - 亨廷顿病所致神经认知障碍：*待更新*
+    - 其他医学状况所致神经认知障碍：*待更新*
+    - 多种病因所致神经认知障碍：*待更新*
+    - 未特定神经认知障碍：*待更新*
 
 ### 18. 人格障碍（Personality Disorders）
 
 - [**人格障碍总览（Personality Disorders）**](Personality-Disorders.md)：综述 DSM-5-TR 与 ICD-11 人格障碍分类体系、诊断要点、共病管理与治疗方法。
 
 - **A 组人格障碍（奇异/怪异）**：
-  - [偏执型人格障碍（PPD）](Paranoid-Personality-Disorder-PPD.md)：广泛不信任与猜疑，对批评高度敏感。
-  - [分裂样人格障碍（SzPD）](Schizoid-Personality-Disorder-SzPD.md)：社交疏离与情感表达受限，偏好独处。
-  - [分裂型人格障碍（STPD）](Schizotypal-Personality-Disorder-STPD.md)：社交缺陷伴认知扭曲、魔法思维与古怪行为。
+    - [偏执型人格障碍（PPD）](Paranoid-Personality-Disorder-PPD.md)：广泛不信任与猜疑，对批评高度敏感。
+    - [分裂样人格障碍（SzPD）](Schizoid-Personality-Disorder-SzPD.md)：社交疏离与情感表达受限，偏好独处。
+    - [分裂型人格障碍（STPD）](Schizotypal-Personality-Disorder-STPD.md)：社交缺陷伴认知扭曲、魔法思维与古怪行为。
 
 - **B 组人格障碍（戏剧性/情绪化/不稳定）**：
-  - [反社会人格障碍（ASPD）](Antisocial-Personality-Disorder-ASPD.md)：无视与侵犯他人权利，欺骗、冲动、攻击性与缺乏悔恨。
-  - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)：情绪不稳、人际困难、身份混乱与解离症状。
-  - [表演型人格障碍（HPD）](Histrionic-Personality-Disorder-HPD.md)：过度情绪化、寻求关注与戏剧化表达。
-  - [自恋型人格障碍（NPD）](Narcissistic-Personality-Disorder-NPD.md)：夸大、需要赞美、缺乏共情。
+    - [反社会人格障碍（ASPD）](Antisocial-Personality-Disorder-ASPD.md)：无视与侵犯他人权利，欺骗、冲动、攻击性与缺乏悔恨。
+    - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)：情绪不稳、人际困难、身份混乱与解离症状。
+    - [表演型人格障碍（HPD）](Histrionic-Personality-Disorder-HPD.md)：过度情绪化、寻求关注与戏剧化表达。
+    - [自恋型人格障碍（NPD）](Narcissistic-Personality-Disorder-NPD.md)：夸大、需要赞美、缺乏共情。
 
 - **C 组人格障碍（焦虑/恐惧）**：
-  - [回避型人格障碍（AvPD）](Avoidant-Personality-Disorder-AvPD.md)：社交抑制、对负性评价过度敏感，渴望但害怕亲密。
-  - [依赖型人格障碍（DPD）](Dependent-Personality-Disorder-DPD.md)：过度需要被照顾，顺从与依附行为，分离恐惧。
-  - [强迫型人格障碍（OCPD）](Obsessive-Compulsive-Personality-Disorder-OCPD.md)：专注于秩序、完美主义与控制，损害灵活性（注意区分 OCD）。
+    - [回避型人格障碍（AvPD）](Avoidant-Personality-Disorder-AvPD.md)：社交抑制、对负性评价过度敏感，渴望但害怕亲密。
+    - [依赖型人格障碍（DPD）](Dependent-Personality-Disorder-DPD.md)：过度需要被照顾，顺从与依附行为，分离恐惧。
+    - [强迫型人格障碍（OCPD）](Obsessive-Compulsive-Personality-Disorder-OCPD.md)：专注于秩序、完美主义与控制，损害灵活性（注意区分 OCD）。
 
 - **其他人格障碍**：
-  - 其他特定人格障碍：*待更新*
-  - 未特定人格障碍：*待更新*
+    - 其他特定人格障碍：*待更新*
+    - 未特定人格障碍：*待更新*
 
 ### 19. 性欲倒错障碍（Paraphilic Disorders）
 

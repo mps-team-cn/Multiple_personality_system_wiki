@@ -2,15 +2,15 @@
 title: 认知加工疗法（Cognitive Processing Therapy, CPT）
 tags:
 
-  - 创伤与疗愈
-  - 心理治疗
+    - 创伤与疗愈
+    - 心理治疗
 
 topic: 创伤与疗愈
 synonyms:
 
-  - 认知加工治疗
-  - CPT
-  - Cognitive Processing Therapy
+    - 认知加工治疗
+    - CPT
+    - Cognitive Processing Therapy
 
 updated: 2025-10-09
 ---
@@ -72,9 +72,9 @@ CPT 通常包含 **12 次个体或团体治疗**，每次 50-60 分钟。
 
 1. **创伤影响陈述**：书写创伤如何影响了你对安全、信任、控制、价值、亲密的看法
 2. **书写创伤账户**（可选）：
-   - 详细书写创伤经历（包括想法、感受、感官细节）
-   - 大声朗读并识别卡点信念
-   - 不强制要求（与 [PE](Prolonged-Exposure-Therapy-PE.md) 的反复暴露不同）
+    - 详细书写创伤经历（包括想法、感受、感官细节）
+    - 大声朗读并识别卡点信念
+    - 不强制要求（与 [PE](Prolonged-Exposure-Therapy-PE.md) 的反复暴露不同）
 
 **注意**：CPT 有两个版本：
 

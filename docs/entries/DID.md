@@ -100,16 +100,16 @@ ICD-11 将 DID 与 PDID 区分并允许描述身份侵入的形式，DSM-5-TR �
 ### 常见共病
 
 - **核心共病**
-  - [创伤后应激障碍（Post-Traumatic Stress Disorder，PTSD）](PTSD.md) / [复杂性创伤后应激障碍（Complex PTSD，CPTSD）](CPTSD.md)：几乎所有 DID 个案都符合创伤相关诊断，二者共同体现对极端创伤的适应性反应。
-  - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：持续性悲伤、绝望与兴趣丧失普遍存在，若未稳定处理会降低治疗动机与功能。
-  - [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md)：身份认同、情绪调节与人际关系症状高度重叠，需区分解离驱动与人格模式差异。
+    - [创伤后应激障碍（Post-Traumatic Stress Disorder，PTSD）](PTSD.md) / [复杂性创伤后应激障碍（Complex PTSD，CPTSD）](CPTSD.md)：几乎所有 DID 个案都符合创伤相关诊断，二者共同体现对极端创伤的适应性反应。
+    - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：持续性悲伤、绝望与兴趣丧失普遍存在，若未稳定处理会降低治疗动机与功能。
+    - [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md)：身份认同、情绪调节与人际关系症状高度重叠，需区分解离驱动与人格模式差异。
 
 - **其他常见共病**
-  - [焦虑（Anxiety）](Anxiety.md) 及相关焦虑障碍：源于长期不安全感与高警觉状态。
-  - [物质使用障碍（Substance Use Disorders，SUD）](Substance-Use-Disorders-SUD.md)：部分成员以物质自我麻醉以压抑创伤记忆或调节情绪。
-  - [进食障碍（Eating Disorders，ED）](Eating-Disorders-ED.md)：饮食控制或暴食可能成为调节情绪与掌控身体的方式。
-  - [躯体症状障碍（Somatic Symptom and Related Disorders）](Somatic-Symptom-Disorder-SSD.md)：难以解释的疼痛、假性癫痫等躯体化表现常伴随内在冲突。
-  - [睡眠障碍（Sleep Disorders，SD）](Sleep-Disorders-SD.md)：失眠、噩梦、夜惊与昼夜节律混乱源于过度警觉或身份间作息差异。
+    - [焦虑（Anxiety）](Anxiety.md) 及相关焦虑障碍：源于长期不安全感与高警觉状态。
+    - [物质使用障碍（Substance Use Disorders，SUD）](Substance-Use-Disorders-SUD.md)：部分成员以物质自我麻醉以压抑创伤记忆或调节情绪。
+    - [进食障碍（Eating Disorders，ED）](Eating-Disorders-ED.md)：饮食控制或暴食可能成为调节情绪与掌控身体的方式。
+    - [躯体症状障碍（Somatic Symptom and Related Disorders）](Somatic-Symptom-Disorder-SSD.md)：难以解释的疼痛、假性癫痫等躯体化表现常伴随内在冲突。
+    - [睡眠障碍（Sleep Disorders，SD）](Sleep-Disorders-SD.md)：失眠、噩梦、夜惊与昼夜节律混乱源于过度警觉或身份间作息差异。
 
 ### 风险管理重点
 

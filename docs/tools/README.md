@@ -18,7 +18,7 @@
 
 | 模块                          | 功能摘要                                                                                                     | 常用用法                                         |
 | --------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
-| `tools/fix_markdown.py`     | 统一的 Markdown 处理器,整合了 fix_md、fix_bold_format、fix_list_bold_colon 的所有功能,支持 13 条 Markdownlint 规则和 5 条中文排版规则 | `python tools/fix_markdown.py docs/entries/` |
+| `tools/fix_markdown.py`     | 统一的 Markdown 处理器,整合了 fix_md、fix_bold_format、fix_list_bold_colon 的所有功能,支持 13 条 Markdownlint 规则和 6 条中文排版规则 | `python tools/fix_markdown.py docs/entries/` |
 | `tools/processors/links.py` | 链接检查器,验证内部链接完整性和格式规范                                                                                     | `python -m tools.processors.links` (开发中)     |
 | `tools/processors/tags.py`  | 标签处理器,提供智能标签提取、归一化和索引生成                                                                                  | `python -m tools.processors.tags` (开发中)      |
 
@@ -58,7 +58,7 @@
 **功能特性:**
 
 - 整合了 3 个独立工具的所有功能 (fix_markdown.py, fix_bold_format.py, fix_list_bold_colon.py)
-- 支持 13 条 Markdownlint 规则 + 5 条中文排版规则
+- 支持 13 条 Markdownlint 规则 + 6 条中文排版规则
 - 批量处理能力
 - 预览模式 (--dry-run)
 - 详细的处理结果报告
@@ -85,6 +85,7 @@
 - **CUSTOM003**: 列表加粗冒号 (`-**text**: ` → `- **text** : `)
 - **CUSTOM004**: 链接括号转换 (中文括号 → 英文括号，加粗链接格式)
 - **CUSTOM005**: 链接前冒号 (`参考：[链接]` → `参考：[链接]`)
+- **CUSTOM006**: 嵌套列表缩进 (2空格 → 4空格，MkDocs 要求)
 
 **命令行用法:**
 
@@ -291,7 +292,7 @@ markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor
 **统一工具优势:**
 
 - ✅ 整合了 3 个独立工具的所有功能
-- ✅ 支持 13 条 Markdownlint 规则 + 5 条中文排版规则
+- ✅ 支持 13 条 Markdownlint 规则 + 6 条中文排版规则
 - ✅ 一次运行完成所有修复
 - ✅ 智能处理中文标点，避免误加空格
 - ✅ 完整的预览和详细输出模式
@@ -319,6 +320,12 @@ markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor
 # 加粗标点不加空格（正确保持）
 
 **定义**：内容 → **定义**：内容
+
+# 嵌套列表缩进（MkDocs 要求 4 空格）
+
+- 主列表项
+  - 子列表项  →  - 主列表项
+                      - 子列表项
 ```
 
 ### 词条最后更新时间索引
