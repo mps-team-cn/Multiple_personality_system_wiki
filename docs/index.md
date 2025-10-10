@@ -33,6 +33,7 @@
 
 - [前往创伤与疗愈](#trauma-healing)
 - [心理健康导览](entries/Mental-Health-Guide.md)
+- [自我照护工具箱](entries/Self-Care-Toolkit.md) - 接地、呼吸、情绪调节等即用技巧
 
 ### :material-account-group: 社区协作
 
@@ -99,6 +100,7 @@
 了解创伤机制与循证治疗方法
 
 - [ **创伤（Trauma）** ](entries/Trauma.md) - 创伤的定义与类型
+- [ **自我照护工具箱** ](entries/Self-Care-Toolkit.md) - 接地、呼吸、情绪调节等即用技巧
 - [ **接地（Grounding）** ](entries/Grounding.md) - 回到当下的稳定技巧
 - [ **闪回（Flashback）** ](entries/Flashback.md) - 创伤记忆的重现
 - [ **触发（Trigger）** ](entries/Trigger.md) - 激活创伤反应的刺激
