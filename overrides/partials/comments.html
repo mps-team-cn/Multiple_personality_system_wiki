@@ -19,8 +19,7 @@
   >
     <div class="giscus-notice">
       <p>
-        💡 <strong>访问提示</strong>：评论系统基于 GitHub Discussions。
-        如无法加载，请检查网络连接，或
+        💡 <strong>访问提示</strong>：评论系统基于 GitHub Discussions。若无法加载，请检查网络连接，或
         <a href="https://github.com/mps-team-cn/Multiple_personality_system_wiki/discussions" target="_blank" rel="noopener">
           直接前往 GitHub Discussions
         </a>
@@ -28,5 +27,22 @@
       </p>
     </div>
     <div class="giscus-thread" data-giscus-thread></div>
+    <div
+      class="giscus-fallback"
+      data-giscus-fallback
+      hidden
+      role="status"
+      aria-live="polite"
+    >
+      <p>
+        ⚠️ <strong>评论暂不可用</strong>：
+        <span data-giscus-fallback-detail>评论系统尚未完成配置或暂时不可访问。</span>
+        如需留言，请前往
+        <a href="https://github.com/mps-team-cn/Multiple_personality_system_wiki/discussions" target="_blank" rel="noopener">
+          GitHub Discussions
+        </a>
+        参与讨论。
+      </p>
+    </div>
   </section>
 {% endif %}

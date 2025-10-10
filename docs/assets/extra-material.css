@@ -287,6 +287,20 @@ a:hover {
   color: #856404;
 }
 
+.giscus-fallback {
+  margin-top: 16px;
+  padding: 12px;
+  border-left: 4px solid #f44336;
+  background: #ffebee;
+  border-radius: 4px;
+}
+
+.giscus-fallback p {
+  margin: 0;
+  font-size: 14px;
+  color: #b71c1c;
+}
+
 [data-md-color-scheme="slate"] .giscus-container {
   border-top-color: color-mix(in srgb, var(--md-default-fg-color) 20%, transparent);
 }
@@ -298,6 +312,15 @@ a:hover {
 
 [data-md-color-scheme="slate"] .giscus-notice p {
   color: #ffd54f;
+}
+
+[data-md-color-scheme="slate"] .giscus-fallback {
+  background: color-mix(in srgb, #b71c1c 15%, #141B23);
+  border-left-color: #ef5350;
+}
+
+[data-md-color-scheme="slate"] .giscus-fallback p {
+  color: #ffcdd2;
 }
 
 

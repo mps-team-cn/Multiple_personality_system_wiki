@@ -7,6 +7,8 @@
 
   const ROOT_SELECTOR = '[data-giscus-root]';
   const THREAD_SELECTOR = '[data-giscus-thread]';
+  const FALLBACK_SELECTOR = '[data-giscus-fallback]';
+  const FALLBACK_DETAIL_SELECTOR = '[data-giscus-fallback-detail]';
   const SCRIPT_SELECTOR = 'script[data-giscus-script]';
   const DEFAULT_HOST = 'https://giscus.app';
   const RETRY_LIMIT = 6;
@@ -88,6 +90,40 @@
   }
 
   /**
+   * 获取或隐藏回退提示。
+   */
+  function hideFallback(root) {
+    if (!root) {
+      return;
+    }
+    const fallback = root.querySelector(FALLBACK_SELECTOR);
+    if (!fallback) {
+      return;
+    }
+    fallback.hidden = true;
+    fallback.setAttribute('aria-hidden', 'true');
+  }
+
+  /**
+   * 显示回退提示并更新详情内容。
+   */
+  function showFallback(root, detail) {
+    if (!root) {
+      return;
+    }
+    const fallback = root.querySelector(FALLBACK_SELECTOR);
+    if (!fallback) {
+      return;
+    }
+    const detailNode = fallback.querySelector(FALLBACK_DETAIL_SELECTOR);
+    if (detailNode && detail) {
+      detailNode.textContent = detail;
+    }
+    fallback.hidden = false;
+    fallback.removeAttribute('aria-hidden');
+  }
+
+  /**
    * 同步 Giscus 主题（必要时重试）。
    */
   function syncThemeWithRetry(attempts = RETRY_LIMIT) {
@@ -137,11 +173,14 @@
       return;
     }
 
+    hideFallback(root);
+
     const config = parseConfig(root);
 
     if (!config.repo || !config.repoId || !config.category || !config.categoryId) {
       console.warn('[giscus] 配置字段缺失，已跳过评论加载。');
       cleanup();
+      showFallback(root, '检测到 Giscus 关键配置缺失，请检查 repo、category 及其 ID。');
       return;
     }
 
@@ -190,6 +229,35 @@
   }
 
   /**
+   * 监听 giscus 消息，处理错误与就绪状态。
+   */
+  function handleMessage(event) {
+    const payload = event && event.data && event.data.giscus ? event.data.giscus : null;
+    if (!payload) {
+      return;
+    }
+
+    const root = document.querySelector(ROOT_SELECTOR);
+    if (!root) {
+      return;
+    }
+
+    if (payload.error) {
+      let detail = payload.error;
+      if (typeof detail === 'string' && /not installed/i.test(detail)) {
+        detail = '尚未安装 Giscus 应用或未启用 Discussions 分类。';
+      }
+      showFallback(root, detail);
+      cleanup();
+      return;
+    }
+
+    if (payload.ready || payload.discussion) {
+      hideFallback(root);
+    }
+  }
+
+  /**
    * 页面导航后的统一入口。
    */
   function handlePageChange() {
@@ -197,6 +265,7 @@
   }
 
   document.addEventListener('DOMContentLoaded', handlePageChange);
+  window.addEventListener('message', handleMessage);
 
   if (typeof document$ !== 'undefined' && document$.subscribe) {
     document$.subscribe(handlePageChange);
