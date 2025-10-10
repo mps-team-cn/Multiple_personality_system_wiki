@@ -205,6 +205,12 @@ class MarkdownProcessor:
                 description="参阅等冒号全角化",
                 processor=fix_colon_before_links
             ),
+            FixRule(
+                name="nested_list_indentation",
+                code="CUSTOM006",
+                description="修复嵌套列表缩进为4空格",
+                processor=fix_nested_list_indentation
+            ),
         ]
 
     def process(self, text: str) -> str:
@@ -870,6 +876,56 @@ def fix_colon_before_links(lines: list[str]) -> list[str]:
         for old, new in patterns:
             ln = ln.replace(old, new)
         out.append(ln)
+    return out
+
+
+def fix_nested_list_indentation(lines: list[str]) -> list[str]:
+    """
+    修复嵌套列表缩进：将2空格缩进改为4空格缩进
+
+    MkDocs 使用的 Python-Markdown 要求嵌套列表必须缩进4个空格（或1个tab）。
+    2个空格的缩进会导致子列表无法正确渲染。
+
+    Examples:
+        - item1
+          - subitem  ->  - item1
+                             - subitem
+
+    Args:
+        lines: 文本行列表
+
+    Returns:
+        list[str]: 处理后的文本行列表
+    """
+    out = []
+    in_fence = False
+
+    for ln in lines:
+        # 跳过代码块
+        if FENCE_ANY_RE.match(ln):
+            in_fence = not in_fence
+            out.append(ln)
+            continue
+        if in_fence:
+            out.append(ln)
+            continue
+
+        # 检测列表项：匹配缩进 + 列表标记
+        match = LIST_ITEM_RE.match(ln)
+        if match:
+            indent = match.group(1)  # 缩进部分
+            indent_len = len(indent)
+
+            # 如果缩进不是4的倍数，调整为最接近的4的倍数
+            if indent_len > 0 and indent_len % 4 != 0:
+                # 计算应该的缩进量（向上取整到4的倍数）
+                new_indent_len = ((indent_len + 3) // 4) * 4
+                new_indent = ' ' * new_indent_len
+                # 替换缩进部分
+                ln = new_indent + ln[indent_len:]
+
+        out.append(ln)
+
     return out
 
 
