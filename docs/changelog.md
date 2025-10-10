@@ -5,49 +5,49 @@
 ### 📚 内容优化
 
 - **全面优化快速开始指南**
-  - 新增"专题深入"章节，整合 5 个专题导览（临床诊断、创伤疗愈、角色身份、理论分类、文化媒体）
-  - 重新组织学习路径：基础入门（4个导览）+ 专题深入（5个导览）
-  - 新增推荐学习路线：新手路线（0-4周）、进阶路线（1-3个月）、精通路线（3个月以上）
-  - 新增常见问题："9个导览页面该如何使用？"
-  - 优化阅读技巧，添加"从导览开始"提示
+    - 新增"专题深入"章节，整合 5 个专题导览（临床诊断、创伤疗愈、角色身份、理论分类、文化媒体）
+    - 重新组织学习路径：基础入门（4个导览）+ 专题深入（5个导览）
+    - 新增推荐学习路线：新手路线（0-4周）、进阶路线（1-3个月）、精通路线（3个月以上）
+    - 新增常见问题："9个导览页面该如何使用？"
+    - 优化阅读技巧，添加"从导览开始"提示
 
 ### ♻️ 术语统一
 
 - **统一"接地（Grounding）"术语表述**
-  - `docs/index-simple.md`: "立足当下" → "接地"
-  - `docs/README.md`: "立足当下" → "接地"
-  - `tools/deprecated/retag_and_related.py`: "地面化" → "接地"
-  - 确保全站术语一致性
+    - `docs/index-simple.md`: "立足当下" → "接地"
+    - `docs/README.md`: "立足当下" → "接地"
+    - `tools/deprecated/retag_and_related.py`: "地面化" → "接地"
+    - 确保全站术语一致性
 
 ### 🎨 导航优化
 
 - **新增专题导览导航栏**
-  - 在 `mkdocs.yml` 添加"专题导览"一级导航
-  - 收录 5 个专题导览页面，提供进阶学习入口
+    - 在 `mkdocs.yml` 添加"专题导览"一级导航
+    - 收录 5 个专题导览页面，提供进阶学习入口
 
 - **优化导航结构，移除重复条目**
-  - 从"系统运作"移除内部空间、沟通、权限（保留在"实践指南 > 内部协作"）
-  - 从"心理健康"移除解离（保留在"核心概念"）和接地（保留在"实践指南"）
-  - 确保每个词条在导航中仅出现一次，提高清晰度
+    - 从"系统运作"移除内部空间、沟通、权限（保留在"实践指南 > 内部协作"）
+    - 从"心理健康"移除解离（保留在"核心概念"）和接地（保留在"实践指南"）
+    - 确保每个词条在导航中仅出现一次，提高清晰度
 
 ### ✨ 新增功能
 
 - **新增 404 错误页面** (`docs/404.md`)
-  - 提供友好的导航引导
-  - 包含快速链接：首页、标签索引、术语表、快速开始
-  - 说明常见原因和使用提示
+    - 提供友好的导航引导
+    - 包含快速链接：首页、标签索引、术语表、快速开始
+    - 说明常见原因和使用提示
 
 ### 🐛 Bug 修复
 
 - **修复 MkDocs 构建警告**
-  - 修正导航中贡献指南路径：`CONTRIBUTING.md` → `contributing/index.md`
-  - 修复术语表中缺失的链接：`Pathological-Dissociation.md` → `Dissociative-Disorders.md`
+    - 修正导航中贡献指南路径：`CONTRIBUTING.md` → `contributing/index.md`
+    - 修复术语表中缺失的链接：`Pathological-Dissociation.md` → `Dissociative-Disorders.md`
 
 - **修正贡献指南链接路径**
-  - `docs/QuickStart.md`: `CONTRIBUTING/index.md` → `contributing/index.md`
-  - `docs/README.md`: `CONTRIBUTING/index.md` → `contributing/index.md`
-  - `docs/index-simple.md`: `CONTRIBUTING/index.md` → `contributing/index.md`
-  - 解决所有页面中贡献指南链接 404 的问题
+    - `docs/QuickStart.md`: `CONTRIBUTING/index.md` → `contributing/index.md`
+    - `docs/README.md`: `CONTRIBUTING/index.md` → `contributing/index.md`
+    - `docs/index-simple.md`: `CONTRIBUTING/index.md` → `contributing/index.md`
+    - 解决所有页面中贡献指南链接 404 的问题
 
 ### 📊 统计数据
 
@@ -63,25 +63,25 @@
 ### ♻️ 术语体系重构（破坏性变更）
 
 - **全面迁移至 MPS（Multiple Personality System，多意识体系统）术语体系**
-  - 重命名核心文件：`Plurality.md` → `Multiple_Personality_System.md`
-  - 重命名基础文件：`Plurality-Basics.md` → `Mps-Basics.md`
-  - 全站替换 "Plurality" 为 "MPS（多意识体系统）"
-  - 重写主页，全面引入 MPS 术语体系
-  - 更新仓库名称：`plurality_wiki` → `Multiple_personality_system_wiki`
-  - 统一主页和各导览页面的术语表述
+    - 重命名核心文件：`Plurality.md` → `Multiple_Personality_System.md`
+    - 重命名基础文件：`Plurality-Basics.md` → `Mps-Basics.md`
+    - 全站替换 "Plurality" 为 "MPS（多意识体系统）"
+    - 重写主页，全面引入 MPS 术语体系
+    - 更新仓库名称：`plurality_wiki` → `Multiple_personality_system_wiki`
+    - 统一主页和各导览页面的术语表述
 
 ### 📖 新增内容
 
 - **新增诊断词条**
-  - **智力发育障碍（Intellectual Developmental Disorder）** - 参照 DID 标杆结构编写
-  - **人格障碍与广泛性焦虑障碍完整词条体系** - 按 DSM-5-TR 体系新增多个诊断条目
+    - **智力发育障碍（Intellectual Developmental Disorder）** - 参照 DID 标杆结构编写
+    - **人格障碍与广泛性焦虑障碍完整词条体系** - 按 DSM-5-TR 体系新增多个诊断条目
 
 - **新增系统类型词条**
-  - **系魂型系统（Soulbond System）** - 包含定义、特征及相关讨论
+    - **系魂型系统（Soulbond System）** - 包含定义、特征及相关讨论
 
 - **补充共病内容**
-  - 补充 DID 共病相关内容
-  - 新增相关诊断条目的互链
+    - 补充 DID 共病相关内容
+    - 新增相关诊断条目的互链
 
 ### 🔧 条目优化
 
@@ -148,13 +148,13 @@
 ### ✨ 内容重构
 
 - **feat(entries)**: 全面重构 7 个主题导览页面
-  - [理论与分类导览](entries/Theory-Classification-Guide.md) - 从心理学流派到解离视角的知识地图
-  - [诊断与临床导览](entries/Clinical-Diagnosis-Guide.md) - 掌握精神医学诊断语言与临床知识
-  - [系统运作导览](entries/System-Operations.md) - 多意识体系统的日常运作机制
-  - [角色与身份导览](entries/Roles-Identity-Guide.md) - 系统中的不同角色与职能分工
-  - [文化与表现导览](entries/Cultural-Media-Guide.md) - 影视文学中的多意识体主题
-  - [创伤与疗愈导览](entries/Trauma-Healing-Guide.md) - 创伤知情的自助策略与临床框架
-  - [实践指南导览](entries/Practice-Guide.md) - 操作性训练方法与实践技巧
+    - [理论与分类导览](entries/Theory-Classification-Guide.md) - 从心理学流派到解离视角的知识地图
+    - [诊断与临床导览](entries/Clinical-Diagnosis-Guide.md) - 掌握精神医学诊断语言与临床知识
+    - [系统运作导览](entries/System-Operations.md) - 多意识体系统的日常运作机制
+    - [角色与身份导览](entries/Roles-Identity-Guide.md) - 系统中的不同角色与职能分工
+    - [文化与表现导览](entries/Cultural-Media-Guide.md) - 影视文学中的多意识体主题
+    - [创伤与疗愈导览](entries/Trauma-Healing-Guide.md) - 创伤知情的自助策略与临床框架
+    - [实践指南导览](entries/Practice-Guide.md) - 操作性训练方法与实践技巧
 - **refactor**: 从层级结构简化为扁平化的主题分类结构
 - **refactor**: 更新内部链接为相对路径 + .md 扩展名格式
 - **docs**: 统一更新所有导览页面日期为 2025-10-08
@@ -162,23 +162,23 @@
 ### 🔧 Decap CMS 优化
 
 - **feat(admin)**: 新增自动提交消息（遵循 Conventional Commits 规范）
-  - `create`: `docs({{collection}}): 新增词条 "{{slug}}"`
-  - `update`: `docs({{collection}}): 更新词条 "{{slug}}"`
-  - `delete`: `docs({{collection}}): 删除词条 "{{slug}}"`
-  - `uploadMedia`: `docs(media): 上传 "{{path}}"`
-  - `deleteMedia`: `docs(media): 删除 "{{path}}"`
+    - `create`: `docs({{collection}}): 新增词条 "{{slug}}"`
+    - `update`: `docs({{collection}}): 更新词条 "{{slug}}"`
+    - `delete`: `docs({{collection}}): 删除词条 "{{slug}}"`
+    - `uploadMedia`: `docs(media): 上传 "{{path}}"`
+    - `deleteMedia`: `docs(media): 删除 "{{path}}"`
 - **feat(admin)**: 增强视图过滤器
-  - 保留原有 7 个主题分类过滤器
-  - 新增 "📝 未分类词条" 过滤器（`pattern: '^$'`）
-  - 新增 "🆕 最近更新" 过滤器（`pattern: '2025'`）
+    - 保留原有 7 个主题分类过滤器
+    - 新增 "📝 未分类词条" 过滤器（`pattern: '^$'`）
+    - 新增 "🆕 最近更新" 过滤器（`pattern: '2025'`）
 - **feat(admin)**: 改进视图分组
-  - 从标签分组改为"主题分类"和"更新年份"分组
-  - 使用正则表达式 `\d{4}` 自动提取年份
+    - 从标签分组改为"主题分类"和"更新年份"分组
+    - 使用正则表达式 `\d{4}` 自动提取年份
 - **feat(admin)**: 优化字段配置
-  - 明确文件扩展名 `.md` 和 frontmatter 格式
-  - 添加 `topic` 字段默认值为空字符串
-  - 添加 `updated` 字段提示文本和禁用 UTC
-  - 优化标题字段提示文本，强调中英文分离
+    - 明确文件扩展名 `.md` 和 frontmatter 格式
+    - 添加 `topic` 字段默认值为空字符串
+    - 添加 `updated` 字段提示文本和禁用 UTC
+    - 优化标题字段提示文本，强调中英文分离
 
 ### 🎨 界面改进
 
@@ -242,50 +242,50 @@
 ### 🔧 工具重构与整合
 
 - **Markdown 处理工具整合**
-  - 整合 `fix_md.py`、`fix_bold_format.py`、`fix_list_bold_colon.py` 到统一的 `tools/processors/markdown.py`
-  - 新增 `MarkdownProcessor` 类提供统一接口
-  - 支持 13 条 Markdownlint 规则（MD009, MD012, MD022, MD028, MD031, MD032, MD034, MD037, MD040, MD047）
-  - 支持 5 条自定义中文排版规则（列表标记空格、加粗空格、列表加粗冒号、链接括号、链接前冒号）
-  - 旧工具移至 `tools/deprecated/`，新增详细迁移指南
-  - 全局更新所有引用：`fix_md.py` → `fix_markdown.py`（涉及 15 个文件）
+    - 整合 `fix_md.py`、`fix_bold_format.py`、`fix_list_bold_colon.py` 到统一的 `tools/processors/markdown.py`
+    - 新增 `MarkdownProcessor` 类提供统一接口
+    - 支持 13 条 Markdownlint 规则（MD009, MD012, MD022, MD028, MD031, MD032, MD034, MD037, MD040, MD047）
+    - 支持 5 条自定义中文排版规则（列表标记空格、加粗空格、列表加粗冒号、链接括号、链接前冒号）
+    - 旧工具移至 `tools/deprecated/`，新增详细迁移指南
+    - 全局更新所有引用：`fix_md.py` → `fix_markdown.py`（涉及 15 个文件）
 
 - **链接检查脚本重构**
-  - 支持上下文感知验证（entries、docs_root、docs_subdir、root、other）
-  - 修复 docs 根目录判断问题（区分 `docs/Glossary.md` 和 `docs/contributing/index.md`）
-  - 支持尖括号包裹的 Markdown 链接格式 `[text](<url>)`
-  - 新增文件排除列表，跳过文档示例和模板文件
+    - 支持上下文感知验证（entries、docs_root、docs_subdir、root、other）
+    - 修复 docs 根目录判断问题（区分 `docs/Glossary.md` 和 `docs/contributing/index.md`）
+    - 支持尖括号包裹的 Markdown 链接格式 `[text](<url>)`
+    - 新增文件排除列表，跳过文档示例和模板文件
 
 - **清理 Docsify 时代的过时工具**
-  - 移除 `docs_preview.py` → 使用 `mkdocs serve` 替代
-  - 移除 `generate_tags_index.py` → 使用 MkDocs Material tags 插件替代
-  - 移除标签管理工具组（7个）：`add_top_level_tags.py`, `add_topic_tags.py`, `analyze_current_tags.py`, `analyze_tags.py`, `optimize_tags.py`, `update_entry_tags.py`, `retag_and_related.py`
-  - 所有过时工具移至 `tools/deprecated/` 目录保留历史
-  - 新增 `docs/dev/CLEANUP_RECOMMENDATIONS.md` 详细分析报告
+    - 移除 `docs_preview.py` → 使用 `mkdocs serve` 替代
+    - 移除 `generate_tags_index.py` → 使用 MkDocs Material tags 插件替代
+    - 移除标签管理工具组（7个）：`add_top_level_tags.py`, `add_topic_tags.py`, `analyze_current_tags.py`, `analyze_tags.py`, `optimize_tags.py`, `update_entry_tags.py`, `retag_and_related.py`
+    - 所有过时工具移至 `tools/deprecated/` 目录保留历史
+    - 新增 `docs/dev/CLEANUP_RECOMMENDATIONS.md` 详细分析报告
 
 ### 📝 文档改进
 
 - **管理员指南集成**
-  - 将 ADMIN_GUIDE.md 添加到贡献指南导航和参考资源
-  - 修复 ADMIN_GUIDE.md 中的链接路径问题
+    - 将 ADMIN_GUIDE.md 添加到贡献指南导航和参考资源
+    - 修复 ADMIN_GUIDE.md 中的链接路径问题
 
 - **更新维护文档**
-  - 更新核心配置文件：`.claude/CLAUDE.md`, `AGENTS.md`, `CONTRIBUTING.md`
-  - 更新贡献文档：`docs/contributing/` 目录下所有文件
-  - 更新开发文档：`docs/dev/`, `docs/tools/`
-  - 更新批处理脚本：`tools/run_local_updates.{bat,sh}`
-  - 补充 MkDocs Material 替代功能说明
+    - 更新核心配置文件：`.claude/CLAUDE.md`, `AGENTS.md`, `CONTRIBUTING.md`
+    - 更新贡献文档：`docs/contributing/` 目录下所有文件
+    - 更新开发文档：`docs/dev/`, `docs/tools/`
+    - 更新批处理脚本：`tools/run_local_updates.{bat,sh}`
+    - 补充 MkDocs Material 替代功能说明
 
 ### 🎨 设计优化
 
 - **新增 SVG 可视化图表**
-  - `healthy-pathological-boundary.svg` - 健康与病理性多意识体的界限
-  - 使用渐变色和双向箭头展示解离程度谱系
-  - 更新 Core-Concepts-Guide.md 使用 SVG 替代文本图表
+    - `healthy-pathological-boundary.svg` - 健康与病理性多意识体的界限
+    - 使用渐变色和双向箭头展示解离程度谱系
+    - 更新 Core-Concepts-Guide.md 使用 SVG 替代文本图表
 
 - **品牌设计更新**
-  - 更新 favicon 为 Multiple Personality System Wiki 专属网络连接图案
-  - 清理根目录遗留的 assets 文件夹
-  - 清理 Docsify 遗留的数据文件和 legacy 目录
+    - 更新 favicon 为 Multiple Personality System Wiki 专属网络连接图案
+    - 清理根目录遗留的 assets 文件夹
+    - 清理 Docsify 遗留的数据文件和 legacy 目录
 
 ### 📖 新增内容
 
@@ -299,12 +299,12 @@
 ### 📚 贡献指南重构
 
 - 将 CONTRIBUTING/index.md 拆分为 6 个专题文档到 `docs/contributing/`
-  - **index.md** - 贡献指南总览
-  - **编写规范.md** - 语言、格式规范
-  - **学术引用.md** - 引用格式、证据分级
-  - **诊断临床规范.md** - 病理学内容要求
-  - **技术约定.md** - 文件结构、链接管理
-  - **PR流程.md** - 提交流程、检查清单
+    - **index.md** - 贡献指南总览
+    - **编写规范.md** - 语言、格式规范
+    - **学术引用.md** - 引用格式、证据分级
+    - **诊断临床规范.md** - 病理学内容要求
+    - **技术约定.md** - 文件结构、链接管理
+    - **PR流程.md** - 提交流程、检查清单
 - 根目录 CONTRIBUTING/index.md 改为简化版，指向详细文档
 
 ### 📖 新增内容
@@ -348,57 +348,57 @@
 
 - **新增六大主题导览页面完善导航体系**
 
-  - Cultural-Media-Guide.md - 文化与表现导览
-  - Trauma-Healing-Guide.md - 创伤与疗愈导览
-  - Theory-Classification-Guide.md - 理论与分类导览
-  - Roles-Identity-Guide.md - 角色与身份导览
-  - Clinical-Diagnosis-Guide.md - 诊断与临床导览
-  - DSM-ICD-Diagnosis-Index.md - DSM-5 & ICD-11 官方诊断索引
+    - Cultural-Media-Guide.md - 文化与表现导览
+    - Trauma-Healing-Guide.md - 创伤与疗愈导览
+    - Theory-Classification-Guide.md - 理论与分类导览
+    - Roles-Identity-Guide.md - 角色与身份导览
+    - Clinical-Diagnosis-Guide.md - 诊断与临床导览
+    - DSM-ICD-Diagnosis-Index.md - DSM-5 & ICD-11 官方诊断索引
 
 - **新增三阶段创伤治疗模型词条**
 
-  - entries/Three-Phase-Trauma-Treatment.md
-  - 阶段 1：安全与稳定
-  - 阶段 2：创伤记忆加工
-  - 阶段 3：整合与重建
-  - 包含多意识体系统的特殊考量
+    - entries/Three-Phase-Trauma-Treatment.md
+    - 阶段 1：安全与稳定
+    - 阶段 2：创伤记忆加工
+    - 阶段 3：整合与重建
+    - 包含多意识体系统的特殊考量
 
 ### ♻️ 重构
 
 - **精简所有导览页面内容，统一采用简洁描述风格**
 
-  - 参考 System-Operations.md 的格式
-  - 移除罗嗦的多级子点说明
-  - 每个词条改为一句核心描述
-  - 保持清晰的章节结构
+    - 参考 System-Operations.md 的格式
+    - 移除罗嗦的多级子点说明
+    - 每个词条改为一句核心描述
+    - 保持清晰的章节结构
 
 - **重构诊断与临床导览**
 
-  - 包含所有 27 个 topic 为"诊断与临床"的词条
-  - 按类别组织：解离性障碍、创伤相关、情绪与焦虑、人格障碍等
-  - 每个词条包含 DSM-5-TR/ICD-11 编码
+    - 包含所有 27 个 topic 为"诊断与临床"的词条
+    - 按类别组织：解离性障碍、创伤相关、情绪与焦虑、人格障碍等
+    - 每个词条包含 DSM-5-TR/ICD-11 编码
 
 - **简化创伤与疗愈导览为纯目录格式**
 
-  - 移除详细的阶段说明（转移至独立词条）
-  - 保留关键分类和简洁描述
+    - 移除详细的阶段说明（转移至独立词条）
+    - 保留关键分类和简洁描述
 
 ### 📝 文档
 
 - **更新主页和标签索引的主题导览链接**
 
-  - tags.md 更新所有主题导览链接和描述
-  - index.md 更新核心主题部分的导览链接
-  - 所有主题导览现在指向独立的导览/索引页面
+    - tags.md 更新所有主题导览链接和描述
+    - index.md 更新核心主题部分的导览链接
+    - 所有主题导览现在指向独立的导览/索引页面
 
 ### 🐛 修复
 
 - **PDF 导出支持导览页面和索引页面**
 
-  - 修复 PDF 导出脚本未包含导览页面的问题
-  - 新增支持：*-Guide.md,*-Operations.md, DSM-ICD-*.md, Glossary.md
-  - 导览页面无 frontmatter 时使用简化处理
-  - 现在 PDF 导出包含所有 8 个导览/索引页面
+    - 修复 PDF 导出脚本未包含导览页面的问题
+    - 新增支持：*-Guide.md,*-Operations.md, DSM-ICD-*.md, Glossary.md
+    - 导览页面无 frontmatter 时使用简化处理
+    - 现在 PDF 导出包含所有 8 个导览/索引页面
 
 ## v3.1.0 (2025-10-06)
 
@@ -406,43 +406,43 @@
 
 - **全站启用 TOC 在左侧显示，隐藏导航树** ([ed12ffc](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/ed12ffc))
 
-  - 使用 CSS 隐藏左侧导航树
-  - 将页面目录（TOC）移到左侧显示
-  - 所有页面（包括搜索结果）都有一致的 TOC 显示
-  - 内容区域更宽敞，阅读体验更好
+    - 使用 CSS 隐藏左侧导航树
+    - 将页面目录（TOC）移到左侧显示
+    - 所有页面（包括搜索结果）都有一致的 TOC 显示
+    - 内容区域更宽敞，阅读体验更好
 
 ### 🐛 修复
 
 - **禁用 toc.integrate 确保所有页面都显示左侧导航** ([6612b21](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/6612b21))
 
-  - 修复通过搜索访问的词条页面没有左侧导航的问题
-  - 移除 toc.integrate 配置项，避免导航不一致
+    - 修复通过搜索访问的词条页面没有左侧导航的问题
+    - 移除 toc.integrate 配置项，避免导航不一致
 
 - **修复 Markdown 加粗格式在 MkDocs Material 中的渲染问题**
 
-  - 修复 ` [**text**](url) ` 格式不正确渲染([批量修复 14 个文件，67 处问题](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/[commit_hash]))
-  - 修复列表中加粗文本缺少空格的问题
-  - 统一使用全角括号和冒号
-  - 创建自动修复工具 `tools/fix_bold_format.py`
-  - 更新 CONTRIBUTING/index.md 和 TEMPLATE_ENTRY.md 添加格式规范
+    - 修复 ` [**text**](url) ` 格式不正确渲染([批量修复 14 个文件，67 处问题](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/[commit_hash]))
+    - 修复列表中加粗文本缺少空格的问题
+    - 统一使用全角括号和冒号
+    - 创建自动修复工具 `tools/fix_bold_format.py`
+    - 更新 CONTRIBUTING/index.md 和 TEMPLATE_ENTRY.md 添加格式规范
 
 ### 📝 文档
 
 - **更新贡献指南添加 MkDocs Material 兼容性格式规范**
 
-  - 详细说明加粗链接、列表格式、括号和冒号的正确用法
-  - 提供错误和正确示例对比
-  - 添加自动修复工具使用说明
+    - 详细说明加粗链接、列表格式、括号和冒号的正确用法
+    - 提供错误和正确示例对比
+    - 添加自动修复工具使用说明
 
 ### 🔧 工具
 
 - **新增 Markdown 格式自动修复工具** （`tools/fix_bold_format.py`）
 
-  - 自动修复加粗链接格式
-  - 自动修复列表加粗间距
-  - 自动转换半角括号为全角
-  - 自动修正冒号格式
-  - 支持批量处理并生成详细报告
+    - 自动修复加粗链接格式
+    - 自动修复列表加粗间距
+    - 自动转换半角括号为全角
+    - 自动修正冒号格式
+    - 支持批量处理并生成详细报告
 
 ---
 
@@ -451,9 +451,9 @@
 ### ✨ 医疗内容规范化
 
 - **为所有 40 个医疗相关词条添加统一的警告框**
-  - ⚠️ **触发警告**: 提醒读者内容涉及敏感议题
-  - ℹ️ **免责声明**: 明确资料仅供参考，不构成医疗建议
-  - **覆盖词条类型**：
+    - ⚠️ **触发警告**: 提醒读者内容涉及敏感议题
+    - ℹ️ **免责声明**: 明确资料仅供参考，不构成医疗建议
+    - **覆盖词条类型**：
     - 诊断类 (20个): DID, OSDD, PTSD, CPTSD, 精神分裂症等
     - 症状/现象类 (12个): 解离, 人格解体, 闪回等
     - 治疗/干预类 (8个): 创伤, 接地, 情绪调节等
@@ -495,87 +495,87 @@
 
 - **完成 tools 目录重构第二阶段**
 
-  - 新增三大核心处理器模块([9e19aec](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/9e19aec))
+    - 新增三大核心处理器模块([9e19aec](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/9e19aec))
     - `processors/markdown.py` - 基于 fix_md.py 重构,支持 7 种 Markdown lint 规则
     - `processors/links.py` - 基于 check_links.py 重构,完整的链接完整性检查
     - `processors/tags.py` - 基于 retag_and_related.py 重构,智能标签提取与规范化
-  - 完整的 Python 类型提示和数据类支持
-  - 统一的配置管理和日志系统
-  - 详细的 API 文档和使用示例
+    - 完整的 Python 类型提示和数据类支持
+    - 统一的配置管理和日志系统
+    - 详细的 API 文档和使用示例
 
 - **完成 tools 目录重构第一阶段** - 基础设施建设([6e39282](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/6e39282))
 
-  - 新增 `core/` 核心模块
+    - 新增 `core/` 核心模块
     - `config.py` - 统一配置管理系统
     - `frontmatter.py` - YAML frontmatter 解析器
     - `logger.py` - 分级日志系统
     - `utils.py` - 通用工具函数库
-  - 新增 `cli/` 命令行接口模块
+    - 新增 `cli/` 命令行接口模块
     - `main.py` - 统一的 CLI 入口和参数解析
-  - 创建模块化目录结构
+    - 创建模块化目录结构
     - `generators/` - 生成器模块目录
     - `processors/` - 处理器模块目录
     - `validators/` - 校验器模块目录
-  - 完整的重构计划文档 `REFACTORING_PLAN.md`
+    - 完整的重构计划文档 `REFACTORING_PLAN.md`
 
 ### 🐛 修复（关键问题）
 
 - **修复标签重建脚本导致的无意义排序变更** ([9e19aec](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/9e19aec))
 
-  - 问题：浮点数精度导致每次执行 `retag_and_related.py` 时相关词条顺序发生微小变化
-  - 解决：在 `retag_and_related.py:664-670` 实现多级排序键
+    - 问题：浮点数精度导致每次执行 `retag_and_related.py` 时相关词条顺序发生微小变化
+    - 解决：在 `retag_and_related.py:664-670` 实现多级排序键
     - 将分数四舍五入到 6 位小数避免浮点数微小差异
     - 添加英文标题和路径作为次要排序键确保完全稳定
-  - 影响：消除了大量词条的无意义 Git diff,保持仓库整洁
-  - 详细文档：新增 `docs/RETAG_STABILITY_FIX.md` 记录问题分析和解决方案
+    - 影响：消除了大量词条的无意义 Git diff,保持仓库整洁
+    - 详细文档：新增 `docs/RETAG_STABILITY_FIX.md` 记录问题分析和解决方案
 
 ### ✨ 新增
 
 - **增强本地维护脚本功能** ([9e19aec](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/9e19aec))
 
-  - `run_local_updates.bat` 完全重写（168 行）
+    - `run_local_updates.bat` 完全重写（168 行）
     - 支持 8 个维护步骤的独立跳过选项（`--skip-*`）
     - 添加完整的帮助信息（`--help`）
     - 实现进度显示（[1/8] 到 [8/8]）
     - UTF-8 编码支持（`chcp 65001`）
     - 错误检测和警告提示
-  - `run_local_updates.sh` 同步增强
+    - `run_local_updates.sh` 同步增强
     - 添加搜索索引生成步骤
     - 修复输出格式问题
     - 保持与 .bat 版本功能一致
 
 - **优化 .gitignore 配置** ([9e19aec](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/9e19aec))
 
-  - 添加完整的 Python 缓存规则（` __pycache__ /`、`*.py[cod]` 等）
-  - 清理已跟踪的 Python 缓存文件
-  - 移除冗余的特定路径配置
+    - 添加完整的 Python 缓存规则（` __pycache__ /`、`*.py[cod]` 等）
+    - 清理已跟踪的 Python 缓存文件
+    - 移除冗余的特定路径配置
 
 ### 📝 文档
 
 - **更新工具文档** `docs/tools/README.md`([9e19aec](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/9e19aec))
 
-  - 新增"核心处理器模块(重构后)"章节
-  - 详细的 API 文档和使用示例
+    - 新增"核心处理器模块(重构后)"章节
+    - 详细的 API 文档和使用示例
     - `MarkdownProcessor` 类完整说明
     - `LinkProcessor` 类完整说明
     - `TagProcessor` 类完整说明
-  - 更新 `run_local_updates` 脚本文档
+    - 更新 `run_local_updates` 脚本文档
     - 完整的 8 个执行步骤说明
     - 所有 `--skip-*` 选项文档
     - Windows 和 Linux/macOS 使用示例
 
 - **新增技术文档** `docs/RETAG_STABILITY_FIX.md`([9e19aec](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/9e19aec))
 
-  - 问题描述：排序不稳定的技术原因
-  - 解决方案：浮点数精度处理和多级排序
-  - 代码对比：修改前后的详细对比
-  - 验证结果：测试脚本和稳定性验证
+    - 问题描述：排序不稳定的技术原因
+    - 解决方案：浮点数精度处理和多级排序
+    - 代码对比：修改前后的详细对比
+    - 验证结果：测试脚本和稳定性验证
 
 - **更新重构计划** `tools/REFACTORING_PLAN.md`([6e39282](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/6e39282))
 
-  - 标记 Phase 1（基础设施）为已完成
-  - 标记 Phase 2（处理器模块）为已完成
-  - 详细的实现进度和下一步计划
+    - 标记 Phase 1（基础设施）为已完成
+    - 标记 Phase 2（处理器模块）为已完成
+    - 详细的实现进度和下一步计划
 
 ### 📦 杂务（自动更新）
 
@@ -586,9 +586,9 @@
 ### 🎨 风格（格式优化）
 
 - 统一触发警告卡片样式
-  - 内容居中对齐([09aafcf](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/09aafcf))
-  - 调整卡片尺寸适配网页显示([115b4fa](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/115b4fa))
-  - 确保 PDF 导出兼容性([cc4c458](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/cc4c458))
+    - 内容居中对齐([09aafcf](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/09aafcf))
+    - 调整卡片尺寸适配网页显示([115b4fa](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/115b4fa))
+    - 确保 PDF 导出兼容性([cc4c458](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/cc4c458))
 - 修正索引导航跳转 404 问题([debe96b](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/debe96b))
 - 优化混合型系统词条结构([d358046](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/d358046))
 - 修复 Subsystem.md 位置和格式问题([1031114](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/1031114))

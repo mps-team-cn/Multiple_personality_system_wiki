@@ -18,10 +18,6 @@
 - [**CSS_GUIDE.md**](CSS_GUIDE.md) - 样式系统开发指南
 - [**INDEX_GUIDE.md**](INDEX_GUIDE.md) - 导航和索引配置指南
 
-### 问题修复
-
-- [**HOMEPAGE_FIX.md**](HOMEPAGE_FIX.md) - 首页问题修复记录
-
 ---
 
 ## 📌 注意事项

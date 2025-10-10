@@ -326,6 +326,7 @@ markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor
 - 主列表项
   - 子列表项  →  - 主列表项
                       - 子列表项
+
 ```
 
 ### 词条最后更新时间索引
@@ -388,12 +389,15 @@ markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor
 **环境变量配置：**
 
 ```bash
+
 # 必需的环境变量
+
 export CF_API_TOKEN="your-cloudflare-api-token"      # Cloudflare API Token
 export CF_ACCOUNT_ID="your-account-id"               # Cloudflare Account ID
 export CF_PAGES_PROJECT="your-project-name"          # Pages 项目名称
 
 # 可选配置
+
 export KEEP_PRODUCTION="true"   # 是否保留最新 production 部署（默认 true）
 ```
 
@@ -407,17 +411,21 @@ export KEEP_PRODUCTION="true"   # 是否保留最新 production 部署（默认 
 **使用示例：**
 
 ```bash
+
 # 方式 1: 设置环境变量后运行
+
 export CF_API_TOKEN="G1r-bNax-xxxXxxXxxXxxXxxXxxXxxXxx"
 export CF_ACCOUNT_ID="873xxxxxxxxxxxxxxxxxxxxxxxc5"
 export CF_PAGES_PROJECT="my-project"
 node tools/delete-cf-pages-project.js
 
 # 方式 2: 单行执行
+
 CF_API_TOKEN="..." CF_ACCOUNT_ID="..." CF_PAGES_PROJECT="my-project" \
   node tools/delete-cf-pages-project.js
 
 # 方式 3: 删除所有部署（不保留 production）
+
 export KEEP_PRODUCTION="false"
 CF_API_TOKEN="..." CF_ACCOUNT_ID="..." CF_PAGES_PROJECT="my-project" \
   node tools/delete-cf-pages-project.js

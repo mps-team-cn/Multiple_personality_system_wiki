@@ -173,20 +173,20 @@ plurality_wiki/
 ### 核心工具
 
 - **`python tools/fix_markdown.py`**：Markdown 格式自动修复
-  - 整合了 3 个独立工具（fix_md.py + fix_bold_format.py + fix_list_bold_colon.py）
-  - 支持 13 条 Markdownlint 规则 + 5 条中文排版规则
-  - 支持预览模式：`--dry-run`
+    - 整合了 3 个独立工具（fix_md.py + fix_bold_format.py + fix_list_bold_colon.py）
+    - 支持 13 条 Markdownlint 规则 + 5 条中文排版规则
+    - 支持预览模式：`--dry-run`
 
 - **`python tools/check_links.py --root .`**：链接有效性检查
-  - 上下文感知验证（支持 entries、docs_root、docs_subdir 等不同上下文）
-  - 支持尖括号包裹的链接格式 `[text](<url>)`
-  - 自动排除文档示例和模板文件
+    - 上下文感知验证（支持 entries、docs_root、docs_subdir 等不同上下文）
+    - 支持尖括号包裹的链接格式 `[text](<url>)`
+    - 自动排除文档示例和模板文件
 
 - **`python tools/gen-validation-report.py`**：词条结构校验
-  - 读取 CONTRIBUTING.md 与 TEMPLATE_ENTRY.md 生成校对报告
+    - 读取 CONTRIBUTING.md 与 TEMPLATE_ENTRY.md 生成校对报告
 
 - **`python tools/gen_changelog_by_tags.py --latest-to-head`**：变更日志生成
-  - 基于 Git 标签自动生成版本日志
+    - 基于 Git 标签自动生成版本日志
 
 ### 已废弃工具
 
@@ -257,12 +257,12 @@ docsify serve .
 1. Fork & 新建分支；
 2. 按规范撰写/修改词条到 `docs/entries/` 目录；
 3. **同步更新索引** ：
-   - 标签索引由 MkDocs 自动生成，无需手动运行脚本
-   - 更新 `docs/index.md` 导航（如需要）
+    - 标签索引由 MkDocs 自动生成，无需手动运行脚本
+    - 更新 `docs/index.md` 导航（如需要）
 4. **本地验证** ：
-   - 执行 `python tools/fix_markdown.py` 自动修复格式
-   - 执行 `markdownlint "docs/**/*.md"` 检查
-   - 运行 `mkdocs serve` 本地预览
+    - 执行 `python tools/fix_markdown.py` 自动修复格式
+    - 执行 `markdownlint "docs/**/*.md"` 检查
+    - 运行 `mkdocs serve` 本地预览
 5. 提交 PR，等待 Review。
 
 ---
