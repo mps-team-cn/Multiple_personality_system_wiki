@@ -2,9 +2,9 @@
 title: 功能性神经症状障碍（Functional Neurological Symptom Disorder，FND）
 tags:
 
-  - 诊断与临床
-  - FND
-  - 解离
+    - 诊断与临床
+    - FND
+    - 解离
 
 topic:
   诊断与临床
