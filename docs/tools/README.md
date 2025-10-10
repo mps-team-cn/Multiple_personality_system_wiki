@@ -36,6 +36,12 @@
 
 如需新增脚本，请保持功能说明与示例用法同步更新本章节，方便贡献者快速定位维护工具。
 
+### 部署运维工具
+
+| 脚本/模块                                | 功能摘要                                                                                       | 常用用法                                                         |
+| ------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------ |
+| `tools/delete-cf-pages-project.js` | Cloudflare Pages 项目批量删除工具，支持分页获取、并发删除、保留最新 production 部署、强制删除别名部署                      | `CF_API_TOKEN="..." CF_ACCOUNT_ID="..." CF_PAGES_PROJECT="..." node tools/delete-cf-pages-project.js` |
+
 ### `retag_and_related.py` 标签过滤策略
 
 - 自 2025 年起，脚本会自动忽略以“与”“在”“用于”等功能性词汇开头的段落标题，避免将“与治疗协作”“在多意识体语境中的使用”这类结构性语句当作标签；
@@ -359,8 +365,115 @@ markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor
 - 目录中的词条链接会自动重写为 PDF 内部锚点，确保离线文档中的跳转行为与线上一致。
 - 词条 Frontmatter 的 `updated` 字段支持 `YYYY-MM-DD` 字符串或 YAML 日期字面量，若留空、写成 `null`、布尔值或列表，导出脚本会终止并提示修正。
 
+### 🚀 Cloudflare Pages 项目删除工具
+
+**背景：** Cloudflare Pages 项目如果包含大量部署（通常 > 100），无法直接通过 Dashboard 或 API 删除，需要先批量删除部署。
+
+**功能特性：**
+
+- ✅ 自动分页获取所有部署（API 限制每页最多 25 条）
+- ✅ 支持并发批量删除（默认每批 5 个）
+- ✅ 可选保留最新 production 部署（默认保留）
+- ✅ 强制删除别名部署（自动添加 `?force=true` 参数）
+- ✅ 详细的进度显示和错误处理
+- ✅ 删除完成后自动清理项目
+
+**环境变量配置：**
+
+```bash
+# 必需的环境变量
+export CF_API_TOKEN="your-cloudflare-api-token"      # Cloudflare API Token
+export CF_ACCOUNT_ID="your-account-id"               # Cloudflare Account ID
+export CF_PAGES_PROJECT="your-project-name"          # Pages 项目名称
+
+# 可选配置
+export KEEP_PRODUCTION="true"   # 是否保留最新 production 部署（默认 true）
+```
+
+**获取 API Token：**
+
+1. 访问 [Cloudflare Dashboard](https://dash.cloudflare.com/profile/api-tokens)
+2. 点击 "Create Token" → "Edit Cloudflare Workers" 模板
+3. 权限设置：Account - Cloudflare Pages - Edit
+4. 复制生成的 Token
+
+**使用示例：**
+
+```bash
+# 方式 1: 设置环境变量后运行
+export CF_API_TOKEN="G1r-bNax-ZXWKEMcDC3bZW9RMEbMoXytdwWmcDIT"
+export CF_ACCOUNT_ID="87315bd1eb72810d6740708623fd10c5"
+export CF_PAGES_PROJECT="my-project"
+node tools/delete-cf-pages-project.js
+
+# 方式 2: 单行执行
+CF_API_TOKEN="..." CF_ACCOUNT_ID="..." CF_PAGES_PROJECT="my-project" \
+  node tools/delete-cf-pages-project.js
+
+# 方式 3: 删除所有部署（不保留 production）
+export KEEP_PRODUCTION="false"
+CF_API_TOKEN="..." CF_ACCOUNT_ID="..." CF_PAGES_PROJECT="my-project" \
+  node tools/delete-cf-pages-project.js
+```
+
+**执行流程：**
+
+1. 📋 **获取部署列表** - 分页获取所有部署（每页 25 条）
+2. 🔒 **保留最新部署** - 可选保留最新 production 部署
+3. 🗑️ **批量删除** - 并发删除部署（显示实时进度）
+4. 📊 **统计报告** - 显示成功/失败数量
+5. ✅ **删除项目** - 清理空项目
+
+**输出示例：**
+
+```text
+🚀 Cloudflare Pages 项目删除工具
+==================================================
+📌 配置信息:
+   账户 ID: 87315bd1eb72810d6740708623fd10c5
+   项目名称: plurality-wiki
+   保留最新 production: 是
+==================================================
+
+📋 正在获取所有部署列表...
+   第 1 页: 25 个部署
+   第 2 页: 25 个部署
+   ...
+✅ 共找到 433 个部署
+
+🔒 保留最新 production 部署: ca925a18-f484-4ec3-aa9a-5605a4c4ddcf
+
+🗑️  开始删除 432 个部署...
+   进度: 432/432 (100.0%) | 成功: 431 | 失败: 1
+
+📊 删除统计:
+   成功: 431
+   失败: 1
+   总计: 432
+
+🗑️  正在删除项目 "plurality-wiki"...
+✅ 项目删除成功！
+
+🎉 所有操作完成！项目已彻底删除。
+```
+
+**常见问题：**
+
+- **错误: Unauthorized** - 检查 API Token 是否正确，权限是否足够
+- **错误: Invalid list options** - 已修复，确保使用最新版本脚本
+- **错误: Cannot delete aliased deployment** - 已修复，脚本自动添加 `?force=true`
+- **部分删除失败** - 通常是网络问题，脚本会继续执行并报告失败项
+
+**注意事项：**
+
+- ⚠️ 删除操作不可逆，请确认项目名称无误
+- ⚠️ 建议先设置 `KEEP_PRODUCTION="true"` 保留最新部署
+- ⚠️ 大量部署（> 500）可能需要几分钟执行时间
+- ⚠️ API 有速率限制，脚本已通过并发控制避免触发
+
 ## 相关文档
 
 - [导出 PDF 使用指南](../pdf_export/README_pdf_output.md)
 - [贡献流程与规范](../TEMPLATE_ENTRY.md)
 - [维护者手册](../ADMIN_GUIDE.md)
+- [Cloudflare Pages 部署说明](../dev/CLOUDFLARE_PAGES.md)
