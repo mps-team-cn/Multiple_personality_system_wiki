@@ -48,10 +48,10 @@
 
 ### 心理健康
 
-- 分离（Dissociation）
-- 创伤相关障碍（PTSD/CPTSD）
-- 应对技巧与自我照顾
-- 接地（Grounding）
+- [**心理健康导览**](entries/Mental-Health-Guide.md)：理解创伤、解离、诊断与治疗的完整地图
+- [**自我照护工具箱**](entries/Self-Care-Toolkit.md)：接地技巧、呼吸练习、情绪调节等实用方法
+- [**创伤与疗愈导览**](entries/Trauma-Healing-Guide.md)：创伤康复的全面指南
+- [分离（Dissociation）](entries/Dissociation.md)、[PTSD](entries/PTSD.md)、[CPTSD](entries/CPTSD.md) 等专门词条
 
 ---
 
