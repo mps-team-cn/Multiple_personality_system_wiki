@@ -7,6 +7,7 @@
 ### 部署相关
 
 - [**CLOUDFLARE_PAGES.md**](CLOUDFLARE_PAGES.md) - Cloudflare Pages 部署配置说明
+- [**GISCUS_INTEGRATION.md**](GISCUS_INTEGRATION.md) - Giscus 评论系统集成指南（含中国用户优化方案）
 
 ### 迁移记录
 
