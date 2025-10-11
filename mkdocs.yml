@@ -144,6 +144,8 @@ extra_css:
 extra_javascript:
   - assets/extra.js
   - assets/giscus-loader.js  # Giscus 评论加载器
+  - assets/search-phrase-default.js #搜索优化js
+
 
 # Markdown 扩展
 markdown_extensions:
@@ -210,7 +212,7 @@ plugins:
       lang:
         - zh
         - en
-      min_search_length: 2
+      jieba_dict_user: data/user_dict.txt
 
   - tags
 
