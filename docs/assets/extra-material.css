@@ -3,17 +3,17 @@
  * 基于 MkDocs Material 主题
  */
 
-/* ===== 字体加载优化（使用国内 CDN + font-display: swap） ===== */
-/* 使用中科大镜像源，加快中国用户访问速度 */
-@import url('https://fonts.lug.ustc.edu.cn/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.lug.ustc.edu.cn/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+/* ===== 字体加载优化（零外部依赖，使用系统字体） ===== */
+/* 不依赖任何 CDN，完全使用系统内置字体，确保 100% 可用性和最快加载速度 */
 
 /* ===== 全局变量 ===== */
 :root {
   --md-primary-fg-color: #4FC08D;
   --md-accent-fg-color: #8B9EFF;
-  --md-text-font: "Noto Sans SC", "Microsoft YaHei", sans-serif;
-  --md-code-font: "JetBrains Mono", "Consolas", monospace;
+  /* 优先使用系统内置中文字体，Windows/macOS/Linux 全覆盖 */
+  --md-text-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "微软雅黑", "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif;
+  /* 代码字体优先使用等宽系统字体 */
+  --md-code-font: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, "Courier New", monospace;
 }
 
 /* ===== 深色模式优化 ===== */
