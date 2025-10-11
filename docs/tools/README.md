@@ -365,6 +365,86 @@ markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor
 - ~~`python tools/build_search_index.py`~~ - Docsify 专用，已不再使用
 - ~~`assets/search-index.json`~~ - MkDocs 使用自己的索引格式
 
+### 🔍 AI 辅助搜索词典生成工具
+
+**背景**：MkDocs 搜索使用 jieba 分词，需要自定义词典（`data/user_dict.txt`）来优化专业术语的识别。搜索索引约 3MB，无法一次性交给 AI 处理，因此采用 **预处理 + AI 审核 + 自动优化** 的三阶段方案。
+
+**核心工具链**：
+
+| 工具脚本 | 功能说明 | 用法示例 |
+|---------|---------|---------|
+| `analyze_search_index.py` | 分析搜索索引，统计词频和 n-gram 分布 | `python3 tools/analyze_search_index.py --input site/search/search_index.json --stats` |
+| `extract_dict_candidates.py` | 从索引提取候选词（可配置频率、长度阈值） | `python3 tools/extract_dict_candidates.py --input site/search/search_index.json --min-freq 3` |
+| `split_candidates.py` | 将候选词分批，便于 AI 审核（每批 50-100KB） | `python3 tools/split_candidates.py --input data/candidates.txt --batch-size 150` |
+| `auto_review_candidates.py` | 自动审核候选词并生成优化词典（基于规则） | `python3 tools/auto_review_candidates.py --input data/candidates.txt --stats` |
+| `test_dict_segmentation.py` | 测试词典的分词效果（内置测试套件） | `python3 tools/test_dict_segmentation.py --dict data/user_dict.txt --test-suite` |
+
+**快速上手**：
+
+```bash
+
+# 1. 构建搜索索引
+
+mkdocs build
+
+# 2. 分析索引并提取候选词
+
+python3 tools/extract_dict_candidates.py \
+  --input site/search/search_index.json \
+  --output data/candidates.txt \
+  --min-freq 3
+
+# 3. 自动审核并生成优化词典
+
+python3 tools/auto_review_candidates.py \
+  --input data/candidates.txt \
+  --output data/user_dict_reviewed.txt \
+  --stats
+
+# 4. 测试分词效果
+
+python3 tools/test_dict_segmentation.py \
+  --dict data/user_dict_reviewed.txt \
+  --test-suite
+
+# 5. 应用新词典
+
+cp data/user_dict_reviewed.txt data/user_dict.txt
+mkdocs build  # 重新构建
+```
+
+**审核规则**（`auto_review_candidates.py`）：
+
+1. **保留**：
+    - 专业术语（障碍、疗法、诊断、解离性、创伤后等）
+    - 核心复合词（解离性身份障碍、多意识体系统、系统内沟通等）
+    - 重要缩写（DID、OSDD、PTSD 等）
+
+2. **优化**：
+    - 核心术语提升至 5000-8000 权重
+    - 专业复合词提升至 2000-3000 权重
+    - 通用短词降权至 500-1000
+
+3. **删除**：
+    - 片段词（如 "离性"、"识体"）
+    - 通用词（如 "可能"、"使用"、"其他"）
+    - 单字词和过长词组
+
+**分词效果示例**：
+
+```text
+输入: 解离性身份障碍是一种多意识体系统
+输出: 解离性身份障碍 / 是 / 一种 / 多意识体系统
+
+输入: 心理治疗和情绪调节技巧有助于管理症状
+输出: 心理治疗 / 和 / 情绪调节 / 技巧 / 有助于 / 管理 / 症状
+```
+
+**详细文档**：
+
+- 完整流程说明：[docs/dev/AI-Dictionary-Generation.md](../dev/AI-Dictionary-Generation.md)
+- 包含三阶段详细步骤、AI 审核 Prompt 模板、质量控制策略
+
 ### PDF 导出目录生成逻辑
 
 - `tools/pdf_export/` 会读取词条 Frontmatter 中的 `topic` 字段自动构建章节顺序，缺失 `topic` 的词条将归入“其他”分类，并按 topic 字典序排序；
