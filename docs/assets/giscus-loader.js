@@ -243,10 +243,24 @@
     }
 
     if (payload.error) {
-      let detail = payload.error;
+      const rawDetail = typeof payload.error === 'string'
+        ? payload.error
+        : '';
+
+      if (rawDetail && /discussion not found/i.test(rawDetail)) {
+        // 当尚未创建讨论主题时，Giscus 会返回此提示。
+        // 允许 Giscus 在 iframe 内呈现“创建讨论”界面，因此不触发回退。
+        hideFallback(root);
+        return;
+      }
+
+      let detail = rawDetail || payload.error;
       if (typeof detail === 'string' && /not installed/i.test(detail)) {
         detail = '尚未安装 Giscus 应用或未启用 Discussions 分类。';
+      } else if (typeof detail === 'string' && /bad credentials/i.test(detail)) {
+        detail = 'GitHub 凭证无效，请检查 Cloudflare Pages 或构建环境的访问令牌配置。';
       }
+
       showFallback(root, detail);
       cleanup();
       return;
