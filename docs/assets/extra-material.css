@@ -3,6 +3,11 @@
  * 基于 MkDocs Material 主题
  */
 
+/* ===== 字体加载优化（使用国内 CDN + font-display: swap） ===== */
+/* 使用中科大镜像源，加快中国用户访问速度 */
+@import url('https://fonts.lug.ustc.edu.cn/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.lug.ustc.edu.cn/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
 /* ===== 全局变量 ===== */
 :root {
   --md-primary-fg-color: #4FC08D;
