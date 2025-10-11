@@ -162,6 +162,13 @@ $RECYCLE.BIN/
 tmp/
 temp/
 
+# === AI 词典生成工具的临时文件 ===
+data/analysis_report.json
+data/batches/
+data/candidates.txt
+data/reviewed/
+data/user_dict_reviewed.txt
+
 # === Sveltia CMS 本地开发 ===
 docs/admin/config.production.yml
 docs/admin/config.local.yml
