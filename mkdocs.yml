@@ -84,6 +84,9 @@ theme:
 extra:
   # 社交链接
   social:
+    - icon: material/home
+      link: https://mpsteam.cn/
+      name: MPS Team 主站
     - icon: fontawesome/brands/github
       link: https://github.com/mps-team-cn/Multiple_personality_system_wiki
       name: GitHub 仓库
