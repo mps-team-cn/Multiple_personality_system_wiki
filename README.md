@@ -303,3 +303,11 @@ Environment variables: PYTHON_VERSION=3.11
 - [ ] PWA 离线访问支持
 - [ ] 性能优化（图片压缩、CDN 加速）
 - [ ] 国际化支持（i18n）
+
+---
+
+## ⭐ Star History
+
+如果喜欢这个项目，请给个 Star ⭐
+
+[![Star History Chart](https://api.star-history.com/svg?repos=mps-team-cn/Multiple_personality_system_wiki&type=Date)](https://star-history.com/#mps-team-cn/Multiple_personality_system_wiki&Date)
