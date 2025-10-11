@@ -39,7 +39,7 @@
 - **意识共享与记忆管理**
 
     - [共同意识（Co-Consciousness）](entries/Co-Consciousness.md) - 探讨同时保持觉察的好处与挑战。
-    - [记忆持有人（Memory Holder）](entries/Memory-Holder.md) - 说明专责保存记忆的角色运作模式。
+    - [记忆持有者（Memory Holder）](entries/Memory-Holder.md) - 说明专责保存记忆的角色运作模式。
     - [记忆屏障（Memory Shielding）](entries/Memory-Shielding.md) - 分析记忆隔离的安全意义与代价。
 
 - **内部空间与治理结构**
