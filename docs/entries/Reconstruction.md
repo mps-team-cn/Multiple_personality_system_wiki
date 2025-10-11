@@ -9,6 +9,7 @@ tags:
 topic: 系统运作
 title: 重构（Reconstruction）
 updated: 2025-10-03
+comments: true
 ---
 
 # 重构（Reconstruction）

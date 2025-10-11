@@ -9,6 +9,7 @@ tags:
 topic: 角色与身份
 title: 人格面具（Persona）
 updated: 2025-10-03
+comments: true
 ---
 
 # 人格面具（Persona）

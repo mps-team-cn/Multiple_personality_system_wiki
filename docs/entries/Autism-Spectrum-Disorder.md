@@ -9,6 +9,7 @@ tags:
 topic: 诊断与临床
 title: 孤独症谱系（Autism Spectrum Disorder）
 updated: 2025-10-03
+comments: true
 ---
 
 # 孤独症谱系（Autism Spectrum Disorder）

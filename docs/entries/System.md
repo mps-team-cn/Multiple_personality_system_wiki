@@ -9,6 +9,7 @@ tags:
 topic: 系统运作
 title: 系统（System）
 updated: 2025-10-03
+comments: true
 ---
 
 # 系统（System）

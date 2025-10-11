@@ -21,6 +21,7 @@ synonyms:
 - hypomania episode
 - hypomanic state
 
+comments: true
 ---
 
 # 轻躁狂（Hypomania）

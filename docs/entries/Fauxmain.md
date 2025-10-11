@@ -9,6 +9,7 @@ tags:
 topic: 角色与身份
 title: 伪主体（Fauxmain）
 updated: 2025-10-03
+comments: true
 ---
 
 # 伪主体（Fauxmain）

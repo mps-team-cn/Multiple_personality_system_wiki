@@ -9,6 +9,7 @@ tags:
     - 创伤
 
 updated: 2025-10-09
+comments: true
 ---
 
 # 正念(Mindfulness)

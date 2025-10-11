@@ -15,6 +15,7 @@ synonyms:
 - 弗洛伊德人格结构
 - structural model of psyche
 
+comments: true
 ---
 
 # 人格结构理论（Personality Structure Theory, Freud）

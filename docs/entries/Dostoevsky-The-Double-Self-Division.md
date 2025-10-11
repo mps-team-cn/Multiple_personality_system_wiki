@@ -9,6 +9,7 @@ tags:
 topic: 文化与表现
 title: 陀思妥耶夫斯基《双重人格》（The Double）与自我分裂
 updated: 2025-10-03
+comments: true
 ---
 
 # 陀思妥耶夫斯基《双重人格》（The Double）与自我分裂

@@ -9,6 +9,7 @@ tags:
 topic: 系统运作
 title: 封存（Sequestration）
 updated: 2025-10-03
+comments: true
 ---
 
 # 封存（Sequestration）

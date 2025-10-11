@@ -16,6 +16,7 @@ synonyms:
 - 述情困难
 - alexithymia
 
+comments: true
 ---
 
 # 述情障碍（Alexithymia）

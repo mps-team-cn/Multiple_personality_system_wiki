@@ -17,6 +17,7 @@ synonyms:
 - intrusive thoughts
 - intrusive thinking
 
+comments: true
 ---
 
 # 侵入性思维（Intrusive Thoughts）

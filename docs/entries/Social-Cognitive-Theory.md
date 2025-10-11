@@ -15,6 +15,7 @@ synonyms:
 - 班杜拉社会认知理论
 - social cognitive theory
 
+comments: true
 ---
 
 # 社会认知理论（Social-Cognitive Theory）

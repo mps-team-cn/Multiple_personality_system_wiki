@@ -16,6 +16,7 @@ synonyms:
 - SUD
 - substance use disorders
 
+comments: true
 ---
 
 # 物质使用障碍（Substance Use Disorders，SUD）

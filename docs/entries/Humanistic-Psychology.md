@@ -15,6 +15,7 @@ synonyms:
 - 人本主义学派
 - humanistic psychology
 
+comments: true
 ---
 
 # 人本主义心理学（Humanistic Psychology）

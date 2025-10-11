@@ -9,6 +9,7 @@ tags:
 topic: 创伤与疗愈
 title: 接地（Grounding）
 updated: 2025-10-03
+comments: true
 ---
 
 # 接地（Grounding）

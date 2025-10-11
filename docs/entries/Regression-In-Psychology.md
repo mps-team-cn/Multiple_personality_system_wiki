@@ -9,6 +9,7 @@ tags:
 topic: 系统运作
 title: 退行（Regression in Psychology）
 updated: 2025-10-03
+comments: true
 ---
 
 # 退行（Regression in Psychology）

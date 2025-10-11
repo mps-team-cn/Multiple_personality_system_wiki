@@ -17,6 +17,7 @@ synonyms:
 - Plurality Basics
 - duoyishiti xitong jichu
 
+comments: true
 ---
 
 # 多意识体系统基础（MPS Basics）

@@ -14,6 +14,7 @@ synonyms:
 - 注意觉察
 - attention and awareness
 
+comments: true
 ---
 
 # 注意与觉察（Attention & Awareness）

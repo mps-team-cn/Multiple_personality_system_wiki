@@ -17,6 +17,7 @@ synonyms:
 - CPTSD
 - fuzaxingchuangshanghouyingjizhangai
 
+comments: true
 ---
 
 # 复杂性创伤后应激障碍（CPTSD）

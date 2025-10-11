@@ -6,6 +6,7 @@ tags:
 topic: 诊断与临床
 title: 诊断与临床导览
 updated: 2025-10-09
+comments: true
 ---
 
 # 诊断与临床导览

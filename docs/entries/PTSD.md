@@ -18,6 +18,7 @@ synonyms:
 - PTSD
 - chuangshanghouyingjizhangai
 
+comments: true
 ---
 
 # 创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）

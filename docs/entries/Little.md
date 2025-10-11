@@ -13,6 +13,7 @@ synonyms:
 
 - 小的
 
+comments: true
 ---
 
 # 小孩意识体（Little / Child Part）

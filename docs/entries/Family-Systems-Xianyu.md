@@ -9,6 +9,7 @@ tags:
 topic: 系统运作
 title: 家族式系统（Family Systems, Xianyu Theory）
 updated: 2025-10-03
+comments: true
 ---
 
 # 家族式系统（Family Systems, Xianyu Theory）

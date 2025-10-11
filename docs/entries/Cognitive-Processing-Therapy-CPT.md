@@ -13,6 +13,7 @@ synonyms:
     - Cognitive Processing Therapy
 
 updated: 2025-10-09
+comments: true
 ---
 
 # 认知加工疗法（Cognitive Processing Therapy, CPT）

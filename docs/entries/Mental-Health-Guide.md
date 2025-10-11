@@ -8,6 +8,7 @@ tags:
 topic: 诊断与临床
 title: 心理健康导览
 updated: 2025-10-10
+comments: true
 ---
 
 # 心理健康导览(Mental Health Guide)

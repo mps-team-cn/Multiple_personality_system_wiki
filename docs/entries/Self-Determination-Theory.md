@@ -15,6 +15,7 @@ synonyms:
 - SDT 理论
 - self determination theory
 
+comments: true
 ---
 
 # 自我决定理论（Self-Determination Theory）

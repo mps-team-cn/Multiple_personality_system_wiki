@@ -9,6 +9,7 @@ tags:
 topic: 诊断与临床
 title: 躁狂（Mania）
 updated: 2025-10-05
+comments: true
 ---
 
 # 躁狂（Mania）

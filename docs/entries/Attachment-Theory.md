@@ -15,6 +15,7 @@ synonyms:
 - 依恋关系理论
 - attachment theory
 
+comments: true
 ---
 
 # 依恋理论（Attachment Theory）

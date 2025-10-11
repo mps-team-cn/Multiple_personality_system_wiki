@@ -9,6 +9,7 @@ tags:
 topic: 系统运作
 title: 内部沟通（Internal Communication）
 updated: 2025-10-04
+comments: true
 ---
 
 # 内部沟通（Internal Communication）

@@ -15,6 +15,7 @@ synonyms:
 - 投射机制
 - projection
 
+comments: true
 ---
 
 # 投射（Projection, Psychology）

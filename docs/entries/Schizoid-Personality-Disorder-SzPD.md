@@ -15,6 +15,7 @@ synonyms:
 - SzPD
 - fenlieyangxing renge zhangai
 
+comments: true
 ---
 
 # 分裂样人格障碍（Schizoid Personality Disorder，SzPD）

@@ -9,6 +9,7 @@ tags:
 topic: 系统运作
 title: 内部空间（Headspace / Inner World）
 updated: 2025-10-03
+comments: true
 ---
 
 # 内部空间（Headspace / Inner World）

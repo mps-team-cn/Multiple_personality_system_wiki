@@ -10,6 +10,7 @@ tags:
     - 创伤
 
 updated: 2025-10-03
+comments: true
 ---
 
 # 权限（Permissions）

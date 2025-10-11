@@ -11,6 +11,7 @@ tags:
 topic: 理论与分类
 title: 核心概念导览
 updated: 2025-10-06
+comments: true
 ---
 
 # 核心概念导览（Core Concepts Guide）

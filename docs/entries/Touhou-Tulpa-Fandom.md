@@ -9,6 +9,7 @@ tags:
 topic: 文化与表现
 title: 《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）
 updated: 2025-10-03
+comments: true
 ---
 
 # 《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）

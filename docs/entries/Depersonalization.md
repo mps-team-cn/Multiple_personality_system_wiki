@@ -9,6 +9,7 @@ tags:
 topic: 系统运作
 title: 非我感（Depersonalization）
 updated: 2025-10-03
+comments: true
 ---
 
 # 非我感（Depersonalization）

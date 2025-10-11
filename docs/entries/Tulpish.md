@@ -9,6 +9,7 @@ tags:
 topic: 系统运作
 title: T 语（Tulpish）
 updated: 2025-10-03
+comments: true
 ---
 
 # T 语（Tulpish）

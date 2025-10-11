@@ -17,6 +17,7 @@ synonyms:
 - affective disorders
 - mood disorder
 
+comments: true
 ---
 
 # 情感障碍（Mood Disorders）

@@ -9,6 +9,7 @@ tags:
 topic: 诊断与临床
 title: 双相障碍（Bipolar Disorders）
 updated: 2025-10-03
+comments: true
 ---
 
 # 双相障碍（Bipolar Disorders）

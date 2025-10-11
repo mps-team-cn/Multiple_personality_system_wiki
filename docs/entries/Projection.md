@@ -9,6 +9,7 @@ tags:
 topic: 系统运作
 title: 投影（Projection）
 updated: 2025-10-03
+comments: true
 ---
 
 # 投影（Projection）

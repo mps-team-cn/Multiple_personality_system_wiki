@@ -9,6 +9,7 @@ tags:
 topic: 系统运作
 title: 独有记忆（Exomemory）
 updated: 2025-10-03
+comments: true
 ---
 
 # 独有记忆（Exomemory）

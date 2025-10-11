@@ -9,6 +9,7 @@ tags:
 topic: 诊断与临床
 title: 自恋型人格障碍（Narcissistic Personality Disorder，NPD）
 updated: 2025-10-03
+comments: true
 ---
 
 # 自恋型人格障碍（Narcissistic Personality Disorder，NPD）

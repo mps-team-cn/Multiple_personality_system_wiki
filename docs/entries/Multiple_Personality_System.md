@@ -17,6 +17,7 @@ synonyms:
 - Plurality
 - duochong renge xitong
 
+comments: true
 ---
 
 # 多意识体系统（Multiple Personality System）

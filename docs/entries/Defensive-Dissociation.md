@@ -15,6 +15,7 @@ synonyms:
 - 防御性解离反应
 - defensive dissociation
 
+comments: true
 ---
 
 # 防御性解离（Defensive Dissociation）

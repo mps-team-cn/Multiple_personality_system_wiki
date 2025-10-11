@@ -15,6 +15,7 @@ synonyms:
 - STPD
 - fenliexing renge zhangai
 
+comments: true
 ---
 
 # 分裂型人格障碍（Schizotypal Personality Disorder，STPD）

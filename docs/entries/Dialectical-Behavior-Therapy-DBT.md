@@ -14,6 +14,7 @@ synonyms:
     - 辩证行为治疗
 
 updated: 2025-10-09
+comments: true
 ---
 
 # 辩证行为疗法（Dialectical Behavior Therapy, DBT）

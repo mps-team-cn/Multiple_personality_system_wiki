@@ -9,6 +9,7 @@ tags:
 topic: 创伤与疗愈
 title: 冥想（Meditation）
 updated: 2025-10-03
+comments: true
 ---
 
 # 冥想（Meditation）

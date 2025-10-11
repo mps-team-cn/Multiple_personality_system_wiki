@@ -13,6 +13,7 @@ synonyms:
 - 管理员
 - admin
 
+comments: true
 ---
 
 # 管理者（Admin）

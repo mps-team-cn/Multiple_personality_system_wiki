@@ -14,6 +14,7 @@ synonyms:
 - Personality Disorders
 - PD
 
+comments: true
 ---
 
 # 人格障碍（Personality Disorders）

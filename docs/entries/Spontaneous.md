@@ -9,6 +9,7 @@ tags:
 topic: 角色与身份
 title: 自发型（Spontaneous）
 updated: 2025-10-03
+comments: true
 ---
 
 # 自发型（Spontaneous）

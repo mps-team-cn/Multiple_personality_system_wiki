@@ -13,6 +13,7 @@ synonyms:
 
 - 超碎
 
+comments: true
 ---
 
 # 超级破碎（Polyfragmented）

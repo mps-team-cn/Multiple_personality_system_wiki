@@ -9,6 +9,7 @@ tags:
 topic: 系统运作
 title: 内视（Visualization / Imagination）
 updated: 2025-10-03
+comments: true
 ---
 
 # 内视（Visualization / Imagination）

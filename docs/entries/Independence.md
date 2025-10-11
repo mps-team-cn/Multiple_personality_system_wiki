@@ -14,6 +14,7 @@ synonyms:
 - 独立意识
 - Independence
 
+comments: true
 ---
 
 # 独立性（Independence）

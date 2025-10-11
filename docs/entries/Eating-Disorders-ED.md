@@ -15,6 +15,7 @@ synonyms:
 - Eating Disorders
 - ED
 
+comments: true
 ---
 
 # 进食障碍（Eating Disorders，ED）

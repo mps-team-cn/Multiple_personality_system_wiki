@@ -15,6 +15,7 @@ synonyms:
 - Sleep Disorders
 - SD
 
+comments: true
 ---
 
 # 睡眠障碍（Sleep Disorders，SD）

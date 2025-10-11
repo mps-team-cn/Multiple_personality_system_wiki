@@ -205,6 +205,7 @@
 
 - 🔍 [标签索引](tags.md) - 按主题分类浏览全部词条
 - 📝 [查看术语](Glossary.md) - 快速查询专业术语定义
+- 💬 **词条评论** - 所有词条页面底部支持评论互动（基于 GitHub Discussions）
 - 🔄 [更新日志](changelog.md) - 追踪最新内容变更
 - 🤝 [贡献指南](contributing/index.md) - 了解如何参与共建
 

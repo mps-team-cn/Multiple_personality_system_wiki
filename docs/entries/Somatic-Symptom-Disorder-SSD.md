@@ -9,6 +9,7 @@ tags:
 topic: 诊断与临床
 title: 躯体化障碍（Somatic Symptom Disorder，SSD）
 updated: 2025-10-03
+comments: true
 ---
 
 # 躯体化障碍（Somatic Symptom Disorder，SSD）
