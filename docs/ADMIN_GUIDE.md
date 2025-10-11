@@ -106,7 +106,7 @@ git commit -m "feat: 新增解离性身份障碍（DID）条目"
 
 **在线版本**（推荐）：
 
-- 访问 `[https://mpswiki.pages.dev/admin/`](https://mpswiki.pages.dev/admin/`)
+- 访问 `[https://wiki.mpsteam.cn/admin/`](https://wiki.mpsteam.cn/admin/`)
 - 使用 GitHub 账号登录
 - 需要有仓库协作者权限
 

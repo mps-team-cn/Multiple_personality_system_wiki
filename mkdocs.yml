@@ -1,5 +1,5 @@
 site_name: Multiple Personality System Wiki - 多意识体系统百科
-site_url: https://mpswiki.pages.dev
+site_url: https://wiki.mpsteam.cn
 site_description: 多意识体系统（Multiple Personality System）与创伤相关主题的中文知识库
 site_author: 脸脸系统、弦羽系统、逝水流年系统及社区贡献者
 repo_url: https://github.com/mps-team-cn/Multiple_personality_system_wiki
@@ -32,10 +32,8 @@ theme:
         icon: material/brightness-4
         name: 切换到浅色模式
 
-  # 字体配置
-  font:
-    text: Noto Sans SC
-    code: JetBrains Mono
+  # 字体配置（禁用默认 Google Fonts，使用自定义加载）
+  font: false
 
   # 图标
   icon:
@@ -146,6 +144,8 @@ extra_css:
 extra_javascript:
   - assets/extra.js
   - assets/giscus-loader.js  # Giscus 评论加载器
+  - assets/search-phrase-default.js #搜索优化js
+
 
 # Markdown 扩展
 markdown_extensions:
@@ -212,8 +212,15 @@ plugins:
       lang:
         - zh
         - en
+      jieba_dict_user: data/user_dict.txt
 
   - tags
+
+  # 排除不需要发布的开发与工具目录
+  - exclude:
+      glob:
+        - dev/**
+        - tools/**
 
   - git-revision-date-localized:
       enabled: !ENV [CI, false]
