@@ -116,7 +116,7 @@ git commit -m "feat: 新增解离性身份障碍（DID）条目"
 - 访问 `[http://localhost:8000/admin/`](http://localhost:8000/admin/`)
 - 点击 "Work with Local Repository" 选择仓库目录
 
-详细使用指南请参阅 [local-dev-server.md](../local-dev-server.md)
+详细使用指南请参阅 [Sveltia CMS 本地开发指南](dev/LOCAL_DEV_SERVER.md)
 
 ### ✨ CMS 核心功能
 

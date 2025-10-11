@@ -7,7 +7,8 @@
 ### 部署相关
 
 - [**CLOUDFLARE_PAGES.md**](CLOUDFLARE_PAGES.md) - Cloudflare Pages 部署配置说明
-- [**GISCUS_INTEGRATION.md**](GISCUS_INTEGRATION.md) - Giscus 评论系统集成指南（含中国用户优化方案）
+- [**GISCUS_INTEGRATION.md**](GISCUS_INTEGRATION.md) - Giscus 评论系统集成指南(含中国用户优化方案)
+- [**GISCUS_TROUBLESHOOTING.md**](GISCUS_TROUBLESHOOTING.md) - Giscus 评论系统常见问题排查
 
 ### 迁移记录
 
@@ -15,6 +16,7 @@
 
 ### 开发指南
 
+- [**LOCAL_DEV_SERVER.md**](LOCAL_DEV_SERVER.md) - Sveltia CMS 本地开发指南(推荐阅读)
 - [**THEME_GUIDE.md**](THEME_GUIDE.md) - MkDocs Material 主题配置与自定义指南
 - [**CSS_GUIDE.md**](CSS_GUIDE.md) - 样式系统开发指南
 - [**INDEX_GUIDE.md**](INDEX_GUIDE.md) - 导航和索引配置指南
