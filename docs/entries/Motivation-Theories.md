@@ -15,6 +15,7 @@ synonyms:
 - 激励理论
 - motivation theories
 
+comments: true
 ---
 
 # 动机理论（Motivation Theories）

@@ -16,6 +16,7 @@ synonyms:
 - GAD
 - guangfanxing jiaolv zhangai
 
+comments: true
 ---
 
 # 广泛性焦虑障碍（Generalized Anxiety Disorder，GAD）

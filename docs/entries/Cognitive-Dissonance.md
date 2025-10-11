@@ -15,6 +15,7 @@ synonyms:
 - 认知冲突
 - cognitive dissonance
 
+comments: true
 ---
 
 # 认知失调（Cognitive Dissonance）

@@ -52,7 +52,14 @@
 - **Sveltia CMS** - 现代化内容管理系统，支持全文搜索
 - **Cloudflare Functions** - OAuth 认证
 - 访问路径：`/admin` ([在线版本](https://mpswiki.pages.dev/admin/))
-- 详见 [本地开发指南](local-dev-server.md) 和 [管理员指南](docs/ADMIN_GUIDE.md)
+- 详见 [Sveltia CMS 本地开发指南](docs/dev/LOCAL_DEV_SERVER.md) 和 [管理员指南](docs/ADMIN_GUIDE.md)
+
+### 评论系统
+
+- **Giscus** - 基于 GitHub Discussions 的评论系统
+- 所有词条页面支持评论功能
+- 支持 Markdown 格式和表情符号
+- 详见 [Giscus 集成指南](docs/dev/GISCUS_INTEGRATION.md) 和 [常见问题排查](docs/dev/GISCUS_TROUBLESHOOTING.md)
 
 ---
 
@@ -298,15 +305,16 @@ Environment variables: PYTHON_VERSION=3.11
 - [x] 自动化工具重构（tools/ 目录模块化）
 - [x] Cloudflare Pages 部署配置
 - [x] PDF 导出功能（基于 topic 字段分组）
+- [x] **评论系统集成**（Giscus - 基于 GitHub Discussions）
 
 ### 进行中 🚧
 
-- [ ] 完善文档更新（README、AGENTS、CONTRIBUTING 等）
 - [ ] 词条内容扩充与质量提升
+- [ ] 完善开发文档（v3.9.0 已新增 Giscus 和 Sveltia CMS 开发指南）
 
 ### 计划中 📋
 
 - [ ] 多版本文档支持（使用 mike）
-- [ ] 评论系统集成（Giscus）
 - [ ] PWA 离线访问支持
 - [ ] 性能优化（图片压缩、CDN 加速）
+- [ ] 国际化支持（i18n）

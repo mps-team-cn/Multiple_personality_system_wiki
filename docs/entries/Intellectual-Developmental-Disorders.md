@@ -14,6 +14,7 @@ synonyms:
 - 智力残疾
 - 精神发育迟滞
 
+comments: true
 ---
 
 # 智力发育障碍（Intellectual Developmental Disorders）

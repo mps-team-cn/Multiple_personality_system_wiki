@@ -10,6 +10,7 @@ topic:
   诊断与临床
 
 updated: 2025-02-15
+comments: true
 ---
 
 # 功能性神经症状障碍（Functional Neurological Symptom Disorder，FND）

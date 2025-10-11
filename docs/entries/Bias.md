@@ -9,6 +9,7 @@ tags:
 topic: 系统运作
 title: 偏重（Bias / Median）
 updated: 2025-10-03
+comments: true
 ---
 
 # 偏重（Bias / Median）

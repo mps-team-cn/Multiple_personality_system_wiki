@@ -15,6 +15,7 @@ synonyms:
 - Subsystem
 - 次级系统
 
+comments: true
 ---
 
 # 子系统（Subsystem）

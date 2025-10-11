@@ -9,6 +9,7 @@ tags:
 topic: 诊断与临床
 title: 惊恐障碍（Panic Disorder，PD）
 updated: 2025-01-07
+comments: true
 ---
 
 # 惊恐障碍（Panic Disorder，PD）

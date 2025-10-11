@@ -14,6 +14,7 @@ synonyms:
     - 眼动疗法
 
 updated: 2025-10-09
+comments: true
 ---
 
 # 眼动脱敏与再加工（Eye Movement Desensitization and Reprocessing, EMDR）

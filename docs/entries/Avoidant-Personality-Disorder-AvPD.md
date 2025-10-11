@@ -15,6 +15,7 @@ synonyms:
 - AvPD
 - huibixing renge zhangai
 
+comments: true
 ---
 
 # 回避型人格障碍（Avoidant Personality Disorder，AvPD）

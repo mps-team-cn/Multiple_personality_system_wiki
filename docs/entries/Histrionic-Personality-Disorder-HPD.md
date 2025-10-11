@@ -15,6 +15,7 @@ synonyms:
 - HPD
 - biaoyanxing renge zhangai
 
+comments: true
 ---
 
 # 表演型人格障碍（Histrionic Personality Disorder，HPD）

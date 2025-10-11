@@ -9,6 +9,7 @@ tags:
 topic: 系统运作
 title: 自动驾驶（Autopilot）
 updated: 2025-10-03
+comments: true
 ---
 
 # 自动驾驶（Autopilot）

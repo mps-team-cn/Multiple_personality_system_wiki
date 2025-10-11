@@ -14,6 +14,7 @@ synonyms:
     - Trauma-Focused CBT
 
 updated: 2025-10-09
+comments: true
 ---
 
 # 创伤聚焦认知行为疗法（Trauma-Focused Cognitive Behavioral Therapy, TF-CBT）

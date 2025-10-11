@@ -9,6 +9,7 @@ tags:
 topic: 诊断与临床
 title: 闪回（Flashback）
 updated: 2025-10-03
+comments: true
 ---
 
 # 闪回（Flashback）

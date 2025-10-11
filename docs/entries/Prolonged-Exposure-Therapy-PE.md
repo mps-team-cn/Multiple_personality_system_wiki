@@ -14,6 +14,7 @@ synonyms:
     - 延长暴露治疗
 
 updated: 2025-10-09
+comments: true
 ---
 
 # 延长暴露疗法（Prolonged Exposure Therapy, PE）

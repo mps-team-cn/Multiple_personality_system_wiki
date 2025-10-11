@@ -9,6 +9,7 @@ tags:
 topic: 系统运作
 title: 触发（Trigger）
 updated: 2025-10-03
+comments: true
 ---
 
 # 触发（Trigger）

@@ -15,6 +15,7 @@ synonyms:
     - 身体体验疗法
 
 updated: 2025-10-09
+comments: true
 ---
 
 # 躯体经验疗法（Somatic Experiencing, SE）

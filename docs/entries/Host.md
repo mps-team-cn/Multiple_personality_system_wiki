@@ -9,6 +9,7 @@ tags:
 topic: 角色与身份
 title: 宿主（Host）
 updated: 2025-10-03
+comments: true
 ---
 
 # 宿主（Host）

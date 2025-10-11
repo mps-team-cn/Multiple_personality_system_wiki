@@ -9,6 +9,7 @@ tags:
 topic: 角色与身份
 title: 执行者（Performer / Executive）
 updated: 2025-10-03
+comments: true
 ---
 
 # 执行者（Performer / Executive）

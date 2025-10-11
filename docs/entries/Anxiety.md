@@ -9,6 +9,7 @@ tags:
 topic: 诊断与临床
 title: 焦虑（Anxiety）
 updated: 2025-10-03
+comments: true
 ---
 
 # 焦虑（Anxiety）

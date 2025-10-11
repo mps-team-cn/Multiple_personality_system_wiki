@@ -15,6 +15,7 @@ synonyms:
 - 自我防御机制
 - psychological defense
 
+comments: true
 ---
 
 # 心理防御机制（Defense Mechanisms）

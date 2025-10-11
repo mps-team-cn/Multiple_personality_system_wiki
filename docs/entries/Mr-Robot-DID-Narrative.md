@@ -9,6 +9,7 @@ tags:
 topic: 文化与表现
 title: 《隐形人》（Mr. Robot）中的人格分裂叙事
 updated: 2025-10-03
+comments: true
 ---
 
 # 《隐形人》（Mr. Robot）中的人格分裂叙事

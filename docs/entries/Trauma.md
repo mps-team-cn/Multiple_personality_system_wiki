@@ -16,6 +16,7 @@ synonyms:
 - Trauma
 - chuangshang
 
+comments: true
 ---
 
 # 创伤（Trauma）

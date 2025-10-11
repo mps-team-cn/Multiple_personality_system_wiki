@@ -15,6 +15,7 @@ synonyms:
     - 内部家庭系统疗法
 
 updated: 2025-10-09
+comments: true
 ---
 
 # 内在家庭系统疗法（Internal Family Systems, IFS）

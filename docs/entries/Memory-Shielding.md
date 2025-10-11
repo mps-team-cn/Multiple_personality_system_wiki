@@ -9,6 +9,7 @@ tags:
 topic: 系统运作
 title: 记忆屏蔽（Memory Shielding）
 updated: 2025-10-03
+comments: true
 ---
 
 # 记忆屏蔽（Memory Shielding）

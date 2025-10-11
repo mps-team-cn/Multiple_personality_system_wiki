@@ -17,6 +17,7 @@ synonyms:
 - GD
 - xingbiebu'an
 
+comments: true
 ---
 
 # 性别不安（Gender Dysphoria，GD）

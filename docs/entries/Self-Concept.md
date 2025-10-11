@@ -15,6 +15,7 @@ synonyms:
 - 自我图式
 - self concept
 
+comments: true
 ---
 
 # 自我概念（Self-Concept）

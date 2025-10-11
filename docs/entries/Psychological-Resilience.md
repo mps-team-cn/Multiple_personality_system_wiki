@@ -15,6 +15,7 @@ synonyms:
 - 复原力
 - resilience
 
+comments: true
 ---
 
 # 心理弹性（Psychological Resilience）

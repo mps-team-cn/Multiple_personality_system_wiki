@@ -18,6 +18,7 @@ synonyms:
 - mood disorders
 - mood disorder spectrum
 
+comments: true
 ---
 
 # 心境障碍（Affective Disorders）

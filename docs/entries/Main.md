@@ -9,6 +9,7 @@ tags:
 topic: 角色与身份
 title: 主体（Main）
 updated: 2025-10-03
+comments: true
 ---
 
 # 主体（Main）

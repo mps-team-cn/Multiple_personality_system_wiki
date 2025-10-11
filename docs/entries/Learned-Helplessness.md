@@ -9,6 +9,7 @@ tags:
 topic: 诊断与临床
 title: 习得性无助（Learned Helplessness）
 updated: 2025-10-04
+comments: true
 ---
 
 # 习得性无助（Learned Helplessness）

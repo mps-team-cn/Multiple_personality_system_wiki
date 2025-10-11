@@ -13,6 +13,7 @@ synonyms:
 
 - 成员
 
+comments: true
 ---
 
 # 成员（Alter）

@@ -15,6 +15,7 @@ synonyms:
 - 情绪调控
 - emotion regulation
 
+comments: true
 ---
 
 # 情绪调节（Emotion Regulation）

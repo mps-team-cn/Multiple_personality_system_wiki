@@ -14,6 +14,7 @@ synonyms:
 - 多动症
 - null
 
+comments: true
 ---
 
 # 注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）

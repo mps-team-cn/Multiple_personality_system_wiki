@@ -15,6 +15,7 @@ synonyms:
 - PPD
 - pianzhixing renge zhangai
 
+comments: true
 ---
 
 # 偏执型人格障碍（Paranoid Personality Disorder，PPD）

@@ -15,6 +15,7 @@ synonyms:
 - DPD
 - yilaixing renge zhangai
 
+comments: true
 ---
 
 # 依赖型人格障碍（Dependent Personality Disorder，DPD）

@@ -9,6 +9,7 @@ tags:
 topic: 系统运作
 title: 切换（Switch）
 updated: 2025-10-03
+comments: true
 ---
 
 # 切换（Switch）

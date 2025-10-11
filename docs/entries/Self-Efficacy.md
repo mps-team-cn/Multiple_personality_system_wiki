@@ -15,6 +15,7 @@ synonyms:
 - 自我效能信念
 - self efficacy
 
+comments: true
 ---
 
 # 自我效能感（Self-Efficacy）

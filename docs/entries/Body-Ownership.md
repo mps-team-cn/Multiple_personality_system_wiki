@@ -9,6 +9,7 @@ tags:
 topic: 系统运作
 title: 躯体认同（Body Ownership）
 updated: 2025-10-03
+comments: true
 ---
 
 # 躯体认同（Body Ownership）

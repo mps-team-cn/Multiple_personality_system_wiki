@@ -9,6 +9,7 @@ tags:
 topic: 系统运作
 title: 神经多样性（Neurodiversity）
 updated: 2025-10-03
+comments: true
 ---
 
 # 神经多样性（Neurodiversity）

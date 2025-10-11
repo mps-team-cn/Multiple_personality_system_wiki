@@ -15,6 +15,7 @@ synonyms:
 - OCPD
 - qiangpoxing renge zhangai
 
+comments: true
 ---
 
 # 强迫型人格障碍（Obsessive-Compulsive Personality Disorder，OCPD）

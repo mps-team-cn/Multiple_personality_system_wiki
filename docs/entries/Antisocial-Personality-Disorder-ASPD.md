@@ -16,6 +16,7 @@ synonyms:
 - ASPD
 - fanshehui renge zhangai
 
+comments: true
 ---
 
 # 反社会人格障碍（Antisocial Personality Disorder，ASPD）

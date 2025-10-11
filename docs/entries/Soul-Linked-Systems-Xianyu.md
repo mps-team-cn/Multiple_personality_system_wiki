@@ -9,6 +9,7 @@ tags:
 
 topic: 系统运作
 updated: 2025-10-09
+comments: true
 ---
 
 # 系魂型系统（Soul-Linked Systems, Xianyu Theory）

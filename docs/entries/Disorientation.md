@@ -9,6 +9,7 @@ tags:
 topic: 诊断与临床
 title: 定向障碍（Disorientation）
 updated: 2025-10-03
+comments: true
 ---
 
 # 定向障碍（Disorientation）

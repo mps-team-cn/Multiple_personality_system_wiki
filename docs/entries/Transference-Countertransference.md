@@ -15,6 +15,7 @@ synonyms:
 - 反移情
 - transference countertransference
 
+comments: true
 ---
 
 # 移情与反移情（Transference and Countertransference）

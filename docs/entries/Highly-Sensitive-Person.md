@@ -15,6 +15,7 @@ synonyms:
 - 高敏感人格
 - highly sensitive person
 
+comments: true
 ---
 
 # 高敏感人群（Highly Sensitive Person, HSP）

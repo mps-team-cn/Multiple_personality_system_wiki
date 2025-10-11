@@ -10,6 +10,7 @@ tags:
 topic: 诊断与临床
 title: 未特定的解离障碍（Unspecified Dissociative Disorder，USDD）
 updated: 2025-10-07
+comments: true
 ---
 
 # 未特定的解离障碍（Unspecified Dissociative Disorder，USDD）

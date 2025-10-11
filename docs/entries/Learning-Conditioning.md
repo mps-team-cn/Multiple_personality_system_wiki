@@ -14,6 +14,7 @@ synonyms:
 - 条件作用
 - learning and conditioning
 
+comments: true
 ---
 
 # 学习与条件反射（Learning & Conditioning）
