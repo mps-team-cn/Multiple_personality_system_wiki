@@ -32,10 +32,8 @@ theme:
         icon: material/brightness-4
         name: 切换到浅色模式
 
-  # 字体配置
-  font:
-    text: Noto Sans SC
-    code: JetBrains Mono
+  # 字体配置（禁用默认 Google Fonts，使用自定义加载）
+  font: false
 
   # 图标
   icon:
