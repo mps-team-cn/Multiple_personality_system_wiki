@@ -3,7 +3,7 @@ name = "multiple-personality-system-wiki"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.10"
 dependencies = [
     "cairosvg>=2.7.1",
     "jieba>=0.42.1",
