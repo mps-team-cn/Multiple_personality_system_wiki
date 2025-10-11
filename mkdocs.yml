@@ -62,7 +62,7 @@ theme:
 
     # 搜索
     - search.suggest # 搜索建议
-    - search.highlight # 搜索高亮
+    # - search.highlight # 搜索高亮（已禁用）
     - search.share # 搜索分享
 
     # 代码
@@ -216,8 +216,27 @@ plugins:
         - zh
         - en
       jieba_dict_user: data/user_dict.txt
+
+  # 排除搜索插件：只索引 entries 目录的词条，排除其他所有内容
+  - exclude-search:
       exclude:
+        - index.md
+        - index-simple.md
+        - QuickStart.md
+        - Preface.md
+        - Glossary.md
+        - tags.md
+        - changelog.md
         - TEMPLATE_ENTRY.md
+        - ADMIN_GUIDE.md
+        - GITHUB_WORKFLOW.md
+        - 404.md
+        - contributing/*
+        - admin/*
+        - dev/*
+        - tools/*
+        - assets/*
+        - includes/*
         - entries/*-Guide.md
         - entries/System-Operations.md
 
