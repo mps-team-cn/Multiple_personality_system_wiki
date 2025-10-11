@@ -213,6 +213,10 @@ plugins:
         - zh
         - en
       jieba_dict_user: data/user_dict.txt
+      exclude:
+        - TEMPLATE_ENTRY.md
+        - entries/*-Guide.md
+        - entries/System-Operations.md
 
   - tags
 
