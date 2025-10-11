@@ -3,13 +3,11 @@
 > 多重意识体系统与相关心理健康主题的中文知识库与开源协作项目。
 > 在线版本：<https://mpswiki.pages.dev/>
 
-- [查看标签索引](docs/tags.md)
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Docs status](https://img.shields.io/badge/docs-online-brightgreen.svg)](https://mpswiki.pages.dev/)
+[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-deployed-brightgreen?logo=cloudflare)](https://mpswiki.pages.dev/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](CONTRIBUTING.md)
 [![Stars](https://img.shields.io/github/stars/mps-team-cn/Multiple_personality_system_wiki?style=social)](https://github.com/mps-team-cn/Multiple_personality_system_wiki/stargazers)
-[![工作流 状态](https://img.shields.io/github/actions/workflow/status/mps-team-cn/Multiple_personality_system_wiki/docs_quality.yml?label=CI&logo=github)](https://github.com/mps-team-cn/Multiple_personality_system_wiki/actions/workflows/docs_quality.yml)
+
 
 ---
 
@@ -44,8 +42,7 @@
 ### 自动化工具
 
 - **Python** - 内容处理、索引生成、校验
-- **GitHub Actions** - CI/CD 自动化
-- **Cloudflare Pages** - 静态站点托管
+- **Cloudflare Pages** - 静态站点托管与自动部署
 
 ### 内容管理
 
@@ -158,10 +155,7 @@ plurality_wiki/
 │
 └─ .github/
    ├─ ISSUE_TEMPLATE/
-   ├─ PULL_REQUEST_TEMPLATE.md
-   └─ workflows/
-      ├─ docs_quality.yml        # Markdown/链接检查 CI
-      └─ last-updated.yml        # 自动生成 last-updated.json
+   └─ PULL_REQUEST_TEMPLATE.md
 ```
 
 ---
@@ -290,7 +284,6 @@ Environment variables: PYTHON_VERSION=3.11
 
 ### 已完成 ✅
 
-- [x] 基础 CI（Markdown lint/链接检查）
 - [x] 前端框架迁移（Docsify → MkDocs Material）
 - [x] 响应式设计与移动端优化
 - [x] 深色模式支持
