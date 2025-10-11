@@ -423,6 +423,11 @@ observer.observe(document.body, {
 });
 ```
 
+**注意**：如将 Giscus 客户端托管到自定义域名（例如通过 Cloudflare Worker 代理为 <https://comments.example.com/giscus/client.js>），需要同步调整以下两处配置以避免 `postMessage` 目标域不匹配：
+
+1. 将上述代码中的目标域从 <https://giscus.app> 替换为自定义域，例如 <https://comments.example.com>。
+2. 设置 `data-giscus-host`（或直接更新 `script.src`）指向同一域名，确保评论 iframe 与消息发送目标一致。
+
 ### CSS 样式调整
 
 在 `docs/assets/extra-material.css` 中添加：
@@ -508,6 +513,30 @@ observer.observe(document.body, {
 1. 启用 `data-loading="lazy"`（懒加载）
 2. 实施 Cloudflare Worker 代理
 3. 在页面醒目位置添加"直接前往 GitHub Discussions"链接
+
+### 问题 5：提交评论提示 `{"error":"Discussion not found"}`
+
+**现象描述**：用户填写评论内容后，弹出 JSON 提示 `{"error":"Discussion not found"}`，评论不会被写入，同时浏览器控制台常伴随以下日志：
+
+- 控制台网络日志：`GET ... 404 (Not Found)`（请求地址为 <https://giscus.app/api/discussions?...&term=undefined...>）
+- 控制台信息：`[giscus] Discussion not found. A new discussion will be created if a comment/reaction is submitted.`
+
+**常见原因**：
+
+- ❌ `data-giscus-strict="1"` 且对应讨论尚未存在
+- ❌ Giscus App 未被授予在目标仓库创建 Discussion 的权限
+- ❌ 选用的 `categoryId` 不允许外部用户创建讨论或已被删除
+- ❌ 页面 `data-giscus-mapping` 与仓库中已存在的 Discussion 标识不一致
+- ❌ 站点构建时注入的 `data-giscus-term`、`data-giscus-mapping` 值为空（请求参数中的 `term=undefined` 即是此类线索）
+
+**处理步骤**：
+
+1. 登录仓库设置页面，确认 Giscus App 在 **Repository access** 中已包含当前仓库，并拥有 `Read and write` 权限。
+2. 打开 GitHub Discussions，确认配置使用的分类仍存在且接受新讨论；如被删除，请重新创建并更新 `data-giscus-category-id`。
+3. 若启用了严格匹配（`data-giscus-strict="1"`），请在对应分类中手动创建一个 Discussion，并确保其标题或路径与 `data-giscus-mapping` 规则匹配；或将严格模式改回 `0` 允许 Giscus 自动创建讨论。
+4. 使用浏览器开发者工具检查页面最终生成的 `data-giscus-repo-id`、`data-giscus-category-id`、`data-giscus-mapping`、`data-giscus-term` 等属性是否与最新配置一致。若看到 `term=undefined`，说明构建未注入标识符，需要回溯页面模板或 JavaScript 注入逻辑，确保 `data-mapping` 对应的值（例如 `pathname`）在构建期可解析并写入。
+5. 如仍无法创建，使用维护者账号直接在仓库 Discussions 中发起一次评论，确认可以手动写入，然后重新尝试页面评论。
+6. 若控制台出现多条“Discussion not found”提示，请确认评论组件未被重复加载（例如 SPA 页面跳转后未清理旧 iframe），必要时在路由切换前调用 `giscusFrame.remove()` 仅保留一份实例。
 
 ## 备选方案
 
