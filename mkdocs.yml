@@ -214,6 +214,12 @@ plugins:
 
   - tags
 
+  # 排除不需要发布的开发与工具目录
+  - exclude:
+      glob:
+        - dev/**
+        - tools/**
+
   - git-revision-date-localized:
       enabled: !ENV [CI, false]
       enable_creation_date: true
