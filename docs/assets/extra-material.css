@@ -10,10 +10,30 @@
 :root {
   --md-primary-fg-color: #4FC08D;
   --md-accent-fg-color: #8B9EFF;
-  /* 优先使用系统内置中文字体，Windows/macOS/Linux 全覆盖 */
-  --md-text-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "微软雅黑", "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif;
-  /* 代码字体优先使用等宽系统字体 */
-  --md-code-font: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, "Courier New", monospace;
+
+  /* 优先使用系统内置中文字体，全平台覆盖（iOS/Android/Windows/macOS/Linux）*/
+  --md-text-font:
+    /* iOS & macOS */
+    -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+    /* Android */
+    "Noto Sans CJK SC", "Noto Sans SC", "Roboto",
+    /* Windows */
+    "Microsoft YaHei", "微软雅黑", "Segoe UI",
+    /* Linux */
+    "Source Han Sans SC", "WenQuanYi Micro Hei",
+    /* 通用后备 */
+    sans-serif;
+
+  /* 代码字体优先使用等宽系统字体，全平台优化 */
+  --md-code-font:
+    /* iOS & macOS */
+    "SF Mono", Monaco, Menlo,
+    /* Android */
+    "Roboto Mono", "Droid Sans Mono",
+    /* Windows */
+    "Cascadia Code", "Cascadia Mono", Consolas,
+    /* 通用后备 */
+    "Courier New", monospace;
 }
 
 /* ===== 深色模式优化 ===== */
