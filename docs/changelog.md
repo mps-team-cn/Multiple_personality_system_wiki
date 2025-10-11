@@ -1,5 +1,46 @@
 # 更新日志
 
+## [v3.9.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.9.0) - Giscus 评论系统集成与开发文档优化 (2025-10-11)
+
+### ✨ 新功能
+
+- **集成 Giscus 评论系统**
+    - 为所有词条页面添加评论功能
+    - 支持 GitHub Discussions 作为评论后端
+    - 提供评论回退机制,优化用户体验
+    - 添加完整的错误处理和用户指导
+
+### 🐛 Bug 修复
+
+- **修复 Giscus 评论系统问题**
+    - 修复 "Unable to create discussion" 错误
+    - 改进评论未找到时的回退处理
+    - 优化评论区加载和显示逻辑
+
+### 📝 文档优化
+
+- **新增开发文档**
+    - 新增 [Sveltia CMS 本地开发指南](dev/LOCAL_DEV_SERVER.md)(推荐阅读)
+    - 新增 [Giscus 评论系统集成指南](dev/GISCUS_INTEGRATION.md)
+    - 新增 [Giscus 常见问题排查指南](dev/GISCUS_TROUBLESHOOTING.md)
+
+- **整理开发文档结构**
+    - 将 Sveltia CMS 本地开发指南移动到 `docs/dev/` 目录
+    - 更新 `docs/dev/README.md` 添加新文档索引
+    - 清理重复的 PDF 导出文档(`docs/pdf_export/`)
+
+- **修复文档链接**
+    - 更新 `docs/ADMIN_GUIDE.md` 中的文档引用链接
+    - 修复 `docs/tools/README.md` 中的失效链接
+
+### 📊 统计数据
+
+- **文件变更**: 5 个文件修改, 1 个目录删除
+- **新增文档**: 3 个开发指南文档
+- **删除重复**: 1 个重复的 PDF 文档目录
+
+---
+
 ## [v3.8.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.8.0) - 导航优化与新手体验提升 (2025-10-10)
 
 ### 📚 内容优化
