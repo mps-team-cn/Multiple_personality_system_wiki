@@ -35,8 +35,8 @@
 
 **推荐访问最新在线版本** ：
 
-- **GitHub Pages** : [https://mps-team-cn.github.io/Multiple_personality_system_wiki/](https://mps-team-cn.github.io/Multiple_personality_system_wiki/)
-- **Cloudflare Pages** : [https://mpswiki.pages.dev/](https://mpswiki.pages.dev/)
+- **主站** : [https://wiki.mpsteam.cn/](https://wiki.mpsteam.cn/)
+- **Cloudflare Pages** : [https://mpswiki.pages.dev/](https://mpswiki.pages.dev/) (备用)
 
 在线版本始终保持最新，包含所有词条更新和功能改进。
 

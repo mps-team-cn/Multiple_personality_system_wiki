@@ -272,10 +272,37 @@
   }
 
   /**
-   * 页面导航后的统一入口。
+   * 页面导航后的统一入口（延迟加载优化）。
+   * 使用 Intersection Observer 仅在用户滚动到评论区时才加载 Giscus。
    */
   function handlePageChange() {
-    window.requestAnimationFrame(loadGiscus);
+    // 先清理旧的观察器
+    if (window.giscusObserver) {
+      window.giscusObserver.disconnect();
+    }
+
+    const root = document.querySelector(ROOT_SELECTOR);
+    if (!root) {
+      cleanup();
+      return;
+    }
+
+    // 使用 Intersection Observer 实现按需加载
+    window.giscusObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !giscusActive) {
+          // 用户滚动到评论区附近，开始加载
+          window.requestAnimationFrame(loadGiscus);
+          // 加载后断开观察器
+          window.giscusObserver.disconnect();
+        }
+      });
+    }, {
+      // 提前 200px 开始加载，优化用户体验
+      rootMargin: '200px 0px'
+    });
+
+    window.giscusObserver.observe(root);
   }
 
   document.addEventListener('DOMContentLoaded', handlePageChange);

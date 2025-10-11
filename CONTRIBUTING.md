@@ -22,7 +22,7 @@
 
 **在线编辑**：
 
-- 访问 <https://mpswiki.pages.dev/admin/>
+- 访问 <https://wiki.mpsteam.cn/admin/>
 - 使用 GitHub 账号登录
 - 需要有仓库协作者权限
 
