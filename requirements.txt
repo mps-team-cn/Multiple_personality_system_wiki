@@ -1,7 +1,7 @@
+# 基础工具
 pyyaml
 python-frontmatter
 jieba
-nltk
 unidecode
 pypinyin
 
@@ -15,11 +15,11 @@ mkdocs-git-revision-date-localized-plugin>=1.2.4
 mkdocs-minify-plugin>=0.8.0
 mkdocs-glightbox>=0.3.7
 mkdocs-exclude>=1.0.2
+mkdocs-exclude-search>=0.6.5
 
 # Markdown 扩展
 pymdown-extensions>=10.7
-python-markdown-math>=0.8
 
-# 其他依赖
-pillow>=10.2.0
-cairosvg>=2.7.1
+# Social Cards 生成（可选，如需生成社交分享卡片请取消注释）
+# pillow>=10.2.0
+# cairosvg>=2.7.1
