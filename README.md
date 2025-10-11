@@ -54,13 +54,6 @@
 - 访问路径：`/admin` ([在线版本](https://mpswiki.pages.dev/admin/))
 - 详见 [Sveltia CMS 本地开发指南](docs/dev/LOCAL_DEV_SERVER.md) 和 [管理员指南](docs/ADMIN_GUIDE.md)
 
-### 评论系统
-
-- **Giscus** - 基于 GitHub Discussions 的评论系统
-- 所有词条页面支持评论功能
-- 支持 Markdown 格式和表情符号
-- 详见 [Giscus 集成指南](docs/dev/GISCUS_INTEGRATION.md) 和 [常见问题排查](docs/dev/GISCUS_TROUBLESHOOTING.md)
-
 ---
 
 ## 📦 仓库结构
@@ -305,12 +298,11 @@ Environment variables: PYTHON_VERSION=3.11
 - [x] 自动化工具重构（tools/ 目录模块化）
 - [x] Cloudflare Pages 部署配置
 - [x] PDF 导出功能（基于 topic 字段分组）
-- [x] **评论系统集成**（Giscus - 基于 GitHub Discussions）
 
 ### 进行中 🚧
 
 - [ ] 词条内容扩充与质量提升
-- [ ] 完善开发文档（v3.9.0 已新增 Giscus 和 Sveltia CMS 开发指南）
+- [ ] 完善开发文档
 
 ### 计划中 📋
 
