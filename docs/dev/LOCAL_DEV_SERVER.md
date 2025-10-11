@@ -249,7 +249,9 @@ Sveltia CMS 完全兼容 Decap CMS 的配置文件，无需修改 `config.yml`�
 ```
 
 所有现有功能保持不变，并获得额外的搜索和性能提升。
+
 # 评论区系统
+
 要真正启用评论系统，需要在 GitHub 上完成几项操作，这部分超出了我在本地仓库所能完成的范围（涉及仓库管理权限和 GitHub App 安装）。
 
 下面是你可以参考的处理步骤（来自 docs/dev/GISCUS_INTEGRATION.md）：

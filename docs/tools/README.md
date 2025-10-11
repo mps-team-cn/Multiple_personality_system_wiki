@@ -488,7 +488,6 @@ CF_API_TOKEN="..." CF_ACCOUNT_ID="..." CF_PAGES_PROJECT="my-project" \
 
 ## 相关文档
 
-- [导出 PDF 使用指南](../pdf_export/README_pdf_output.md)
 - [贡献流程与规范](../TEMPLATE_ENTRY.md)
 - [维护者手册](../ADMIN_GUIDE.md)
 - [Cloudflare Pages 部署说明](../dev/CLOUDFLARE_PAGES.md)
