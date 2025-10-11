@@ -1,17 +1,16 @@
 # Multiple Personality System Wiki
 
 > 多重意识体系统与相关心理健康主题的中文知识库与开源协作项目。
-> 在线版本：<https://mpswiki.pages.dev/>
+> 在线版本：<https://wiki.mpsteam.cn/>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-deployed-brightgreen?logo=cloudflare)](https://mpswiki.pages.dev/)
+[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-deployed-brightgreen?logo=cloudflare)](https://wiki.mpsteam.cn/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](CONTRIBUTING.md)
 [![Stars](https://img.shields.io/github/stars/mps-team-cn/Multiple_personality_system_wiki?style=social)](https://github.com/mps-team-cn/Multiple_personality_system_wiki/stargazers)
 
-
 ---
 
-📖 **提示** ：如果你是普通读者，请访问在线版本 [mpswiki.pages.dev](https://mpswiki.pages.dev/)；本文档主要面向开发者与贡献者。
+📖 **提示** ：如果你是普通读者，请访问在线版本 [wiki.mpsteam.cn](https://wiki.mpsteam.cn/)；本文档主要面向开发者与贡献者。
 
 ---
 
@@ -48,7 +47,7 @@
 
 - **Sveltia CMS** - 现代化内容管理系统，支持全文搜索
 - **Cloudflare Functions** - OAuth 认证
-- 访问路径：`/admin` ([在线版本](https://mpswiki.pages.dev/admin/))
+- 访问路径：`/admin` ([在线版本](https://wiki.mpsteam.cn/admin/))
 - 详见 [Sveltia CMS 本地开发指南](docs/dev/LOCAL_DEV_SERVER.md) 和 [管理员指南](docs/ADMIN_GUIDE.md)
 
 ---
@@ -276,7 +275,7 @@ Build output directory: site
 Environment variables: PYTHON_VERSION=3.11
 ```
 
-**在线地址** ：<https://mpswiki.pages.dev/>
+**在线地址** ：<https://wiki.mpsteam.cn/>
 
 ---
 
