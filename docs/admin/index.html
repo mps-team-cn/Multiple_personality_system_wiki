@@ -10,13 +10,8 @@
     <!-- Sveltia CMS 配置 -->
     <link href="config.yml" type="text/yaml" rel="cms-config-url">
 
-    <!-- 字体预加载 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
-
     <style>
-      /* 基础样式 */
+      /* 基础样式 - 使用系统字体，零外部依赖 */
       * {
         box-sizing: border-box;
       }
@@ -24,14 +19,61 @@
       html, body {
         margin: 0;
         padding: 0;
-        font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+        /* 全平台系统字体栈（iOS/Android/Windows/macOS/Linux）*/
+        font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+                     "Noto Sans CJK SC", "Noto Sans SC", "Roboto",
+                     "Microsoft YaHei", "微软雅黑", "Segoe UI",
+                     "Source Han Sans SC", "WenQuanYi Micro Hei",
+                     sans-serif;
         min-height: 100vh;
+      }
+
+      /* 代码和等宽字体 */
+      code, pre, tt, kbd, samp {
+        font-family: "SF Mono", Monaco, Menlo,
+                     "Roboto Mono", "Droid Sans Mono",
+                     "Cascadia Code", "Cascadia Mono", Consolas,
+                     "Courier New", monospace;
       }
     </style>
   </head>
   <body>
-    <!-- Sveltia CMS -->
-    <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js" type="module"></script>
+    <!-- Sveltia CMS - 使用国内镜像加速 -->
+    <script type="module">
+      // 尝试多个 CDN 源，确保至少一个可用
+      const cdnSources = [
+        'https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js',           // 官方源
+        'https://cdn.jsdelivr.net/npm/@sveltia/cms/dist/sveltia-cms.js' // jsDelivr 国内可用
+      ];
+
+      async function loadSveltiaCMS() {
+        for (const src of cdnSources) {
+          try {
+            await import(src);
+            console.log(`Sveltia CMS 加载成功: ${src}`);
+            return;
+          } catch (error) {
+            console.warn(`无法从 ${src} 加载，尝试下一个源...`);
+          }
+        }
+        // 所有源都失败
+        document.body.innerHTML = `
+          <div style="padding: 40px; text-align: center; font-family: sans-serif;">
+            <h1 style="color: #e53e3e;">⚠️ CMS 加载失败</h1>
+            <p>无法从任何 CDN 源加载 Sveltia CMS。</p>
+            <p>请检查网络连接或稍后重试。</p>
+            <p style="margin-top: 20px;">
+              <a href="https://github.com/mps-team-cn/Multiple_personality_system_wiki"
+                 style="color: #3182ce; text-decoration: none;">
+                返回 GitHub 仓库 →
+              </a>
+            </p>
+          </div>
+        `;
+      }
+
+      loadSveltiaCMS();
+    </script>
 
     <!-- 自定义样式 -->
     <link rel="stylesheet" href="admin.css" />
