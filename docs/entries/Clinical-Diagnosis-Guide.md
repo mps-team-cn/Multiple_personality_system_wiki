@@ -309,3 +309,12 @@ comments: true
 4. **准备问诊** ：依据相关词条列出自身症状、发生频率与影响情境，提升就医沟通效率。
 
 如需进一步了解系统运作或创伤应对，可继续参考对应主题导览。希望本页能成为你与医护沟通、筛选资源的起点。
+
+## 非正式诊断
+
+- [人格分裂（Split Personality，非正式术语）](Split-Personality.md)：澄清媒体常见的俗称，说明与 DID、精神分裂症的差异，并提供沟通与教育建议。
+
+## 已过时诊断
+
+- [多人格障碍（Multiple Personality Disorder，已过时）](Multiple-Personality-Disorder-Obsolete.md)：记录诊断更名为 DID 的过程，方便解读旧版病历或研究。
+- [癔症（Hysteria，已过时）](Hysteria.md)：解释历史诊断标签的语源与弃用原因，并指向现代 DSM-5-TR、ICD-11 中的对应分类，便于读取旧版病历或文献时进行映射。
