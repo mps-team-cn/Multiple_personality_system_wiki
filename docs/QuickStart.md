@@ -249,7 +249,7 @@ Multiple Personality System Wiki 是社区共建的知识库，欢迎你的参�
 
     ⚠️ 社群经验部分标明为"经验分享"，不代表医学事实
 
-    详见[贡献指南-学术引用](contributing/学术引用.md)中的学术规范。
+    详见[贡献指南-学术引用](contributing/academic-citation.md)中的学术规范。
 
 ??? question "9个导览页面该如何使用？"
 
