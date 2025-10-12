@@ -328,7 +328,7 @@ DID 患者经常出现危险行为，可能伤害他人。
 
 ## 相关文档
 
-- [编写规范](编写规范.md)
-- [学术引用](学术引用.md)
-- [技术约定](技术约定.md)
-- [PR 流程](PR流程.md)
+- [编写规范](writing-guidelines.md)
+- [学术引用](academic-citation.md)
+- [技术约定](technical-conventions.md)
+- [PR 流程](pr-workflow.md)

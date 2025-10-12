@@ -435,7 +435,7 @@ docs/dev/
 
 ## 相关文档
 
-- [编写规范](编写规范.md)
-- [学术引用](学术引用.md)
-- [诊断临床规范](诊断临床规范.md)
-- [PR 流程](PR流程.md)
+- [编写规范](writing-guidelines.md)
+- [学术引用](academic-citation.md)
+- [诊断临床规范](clinical-guidelines.md)
+- [PR 流程](pr-workflow.md)

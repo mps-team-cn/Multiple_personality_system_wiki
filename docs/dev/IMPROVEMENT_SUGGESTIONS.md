@@ -813,7 +813,7 @@ body {
 
 ### 1. 社区建设
 
-- 创建贡献者墙 (`CONTRIBUTORS.md`)
+- 创建贡献者墙 (`docs/contributing/contributors.md`)
 - 定期发布项目进展报告
 - 建立词条认领机制
 

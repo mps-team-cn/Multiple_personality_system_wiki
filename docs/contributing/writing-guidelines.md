@@ -289,7 +289,7 @@ feat: 添加解离性遗忘症词条
 
 ## 相关文档
 
-- [学术引用规范](学术引用.md)
-- [诊断临床规范](诊断临床规范.md)
-- [技术约定](技术约定.md)
-- [PR 流程](PR流程.md)
+- [学术引用规范](academic-citation.md)
+- [诊断临床规范](clinical-guidelines.md)
+- [技术约定](technical-conventions.md)
+- [PR 流程](pr-workflow.md)
