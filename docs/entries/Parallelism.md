@@ -93,7 +93,10 @@ comments: true
 - [切换（Switch）](Switch.md)
 - [共前台（Co-fronting）](Co-Fronting.md)
 - [意识共存（Co-consciousness）](Co-Consciousness.md)
+- [前台（Front / Fronting）](Front-Fronting.md)
 - [内部沟通（Internal Communication）](Internal-Communication.md)
+- [成员（Alter）](Alter.md)
+- [系统（System）](System.md)
 - [头压（Head Pressure）](Head-Pressure.md)
 
 ## 参考与延伸阅读
