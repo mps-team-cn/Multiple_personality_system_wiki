@@ -5,15 +5,15 @@ backend:
   name: github
   repo: mps-team-cn/Multiple_personality_system_wiki
   branch: main
-  base_url: https://mpswiki.pages.dev
-  auth_endpoint: /api/auth
+  # 使用 GitHub 原生认证（通过 Personal Access Token）
+  # 首次访问时会要求输入 GitHub Token
 
 # 中文本地化
 locale: zh_Hans
 
 # 站点信息
-site_url: https://mpswiki.pages.dev
-display_url: https://mpswiki.pages.dev
+site_url: https://wiki.mpsteam.cn
+display_url: https://wiki.mpsteam.cn
 # logo_url: /assets/logo.svg  # 暂时禁用 logo
 
 # 媒体文件配置

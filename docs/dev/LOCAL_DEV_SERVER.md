@@ -29,7 +29,7 @@
 
 ### 访问后台
 
-1. 打开 `[https://mpswiki.pages.dev/admin/`](https://mpswiki.pages.dev/admin/`)
+1. 打开 `[https://wiki.mpsteam.cn/admin/`](https://wiki.mpsteam.cn/admin/`)
 2. 点击 **"Sign In with GitHub"** 使用 GitHub 账号登录
 3. 授权后即可编辑词条
 
@@ -136,7 +136,7 @@ backend:
   name: github
   repo: mps-team-cn/Multiple_Personality_System_wiki
   branch: main
-  base_url: https://mpswiki.pages.dev
+  base_url: https://wiki.mpsteam.cn
   auth_endpoint: /api/auth
 
 collections:

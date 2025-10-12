@@ -1,5 +1,5 @@
 site_name: Multiple Personality System Wiki - 多意识体系统百科
-site_url: https://mpswiki.pages.dev
+site_url: https://wiki.mpsteam.cn
 site_description: 多意识体系统（Multiple Personality System）与创伤相关主题的中文知识库
 site_author: 脸脸系统、弦羽系统、逝水流年系统及社区贡献者
 repo_url: https://github.com/mps-team-cn/Multiple_personality_system_wiki
@@ -32,10 +32,8 @@ theme:
         icon: material/brightness-4
         name: 切换到浅色模式
 
-  # 字体配置
-  font:
-    text: Noto Sans SC
-    code: JetBrains Mono
+  # 字体配置（禁用默认 Google Fonts，使用自定义加载）
+  font: false
 
   # 图标
   icon:
@@ -64,7 +62,7 @@ theme:
 
     # 搜索
     - search.suggest # 搜索建议
-    - search.highlight # 搜索高亮
+    # - search.highlight # 搜索高亮（已禁用）
     - search.share # 搜索分享
 
     # 代码
@@ -86,6 +84,9 @@ theme:
 extra:
   # 社交链接
   social:
+    - icon: material/home
+      link: https://mpsteam.cn/
+      name: MPS Team 主站
     - icon: fontawesome/brands/github
       link: https://github.com/mps-team-cn/Multiple_personality_system_wiki
       name: GitHub 仓库
@@ -146,6 +147,8 @@ extra_css:
 extra_javascript:
   - assets/extra.js
   - assets/giscus-loader.js  # Giscus 评论加载器
+  - assets/search-phrase-default.js #搜索优化js
+
 
 # Markdown 扩展
 markdown_extensions:
@@ -212,8 +215,38 @@ plugins:
       lang:
         - zh
         - en
+      jieba_dict_user: data/user_dict.txt
+
+  # 排除搜索插件：只索引 entries 目录的词条，排除其他所有内容
+  - exclude-search:
+      exclude:
+        - index.md
+        - index-simple.md
+        - QuickStart.md
+        - Preface.md
+        - Glossary.md
+        - tags.md
+        - changelog.md
+        - TEMPLATE_ENTRY.md
+        - ADMIN_GUIDE.md
+        - GITHUB_WORKFLOW.md
+        - 404.md
+        - contributing/*
+        - admin/*
+        - dev/*
+        - tools/*
+        - assets/*
+        - includes/*
+        - entries/*-Guide.md
+        - entries/System-Operations.md
 
   - tags
+
+  # 排除不需要发布的开发与工具目录
+  - exclude:
+      glob:
+        - dev/**
+        - tools/**
 
   - git-revision-date-localized:
       enabled: !ENV [CI, false]
@@ -315,6 +348,7 @@ nav:
           - entries/Grounding.md
           - entries/Sensory-Regulation-Strategies.md
           - entries/Emotion-Regulation.md
+  - 回到主站: https://mpsteam.cn/
 
 # 严格模式
 strict: false

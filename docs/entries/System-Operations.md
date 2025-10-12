@@ -28,6 +28,7 @@ comments: true
 - [前台（Front / Fronting）](Front-Fronting.md)：说明身体控制权的取得与交接。
 - [切换（Switch）](Switch.md)：解析触发条件、注意事项与安全策略。
 - [共前台（Co-Fronting）](Co-Fronting.md)：探讨多人同时执掌身体的分工与风险。
+- [并行（Parallelism）](Parallelism.md)：说明多条意识流同时运行时的协作方式与负荷管理。
 - [后台（Back / Being Back）](Back-Being-Back.md)：记录退到后台后的感受与支持方式。
 - [自动驾驶（Autopilot）](Autopilot.md)：描述“机械操作”状态及如何恢复觉察。
 - [头压（Head Pressure）](Head-Pressure.md)：整理常见的生理体验与缓解方法。
