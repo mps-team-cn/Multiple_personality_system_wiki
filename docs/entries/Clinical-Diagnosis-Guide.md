@@ -52,8 +52,8 @@ comments: true
 
 ### 3. 双相及相关障碍（Bipolar and Related Disorders）
 
-- 双相 I 型障碍（Bipolar I Disorder）：见 [双相障碍](Bipolar-Disorders.md)
-- 双相 II 型障碍（Bipolar II Disorder）：见 [双相障碍](Bipolar-Disorders.md)
+- [双相 I 型障碍（Bipolar I Disorder）](Bipolar-I-Disorder.md)：至少出现一次躁狂发作，常伴严重功能受损或需住院；抑郁发作与混合特征需积极管理。
+- [双相 II 型障碍（Bipolar II Disorder）](Bipolar-II-Disorder.md)：以反复抑郁发作与轻躁狂交替为特征，躁狂强度不足以住院但对生活质量影响显著。
 - 环性心境障碍（Cyclothymic Disorder）：见 [双相障碍](Bipolar-Disorders.md)
 - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)：区分 I 型、II 型与环性心境障碍的临床表现。
 - [躁狂（Mania）](Mania.md)：辨别持续性高涨心境、精力增加与冒险行为。
@@ -81,8 +81,8 @@ comments: true
 - [选择性缄默症（Selective Mutism，SM）](Selective-Mutism.md)：在特定社交情境中持续无法说话，尽管在其他情境能够正常交流；常与社交焦虑高度相关，多见于儿童早期。
 - 特定恐惧症（Specific Phobia）：*待更新*
 - [社交焦虑障碍（Social Anxiety Disorder / Social Phobia，SAD）](Social-Anxiety-Disorder.md)：对社交或表现情境的强烈恐惧，担心被负面评价，导致显著回避或痛苦；症状持续至少 6 个月。
-- [惊恐障碍（Panic Disorder）](Panic-Disorder.md)：识别突发性惊恐发作与预期性焦虑；惊恐发作在数分钟内达到高峰，伴随心悸、呼吸困难、失控或死亡恐惧。
-- 惊恐发作（Panic Attack）：见 [惊恐障碍](Panic-Disorder.md)
+- [惊恐障碍（Panic Disorder）](Panic-Disorder.md)：识别突发性惊恐发作与预期性焦虑；发作多在数分钟内达到高峰，伴随心悸、呼吸困难、失控或死亡恐惧。
+- [惊恐发作（Panic Attack）](Panic-Attack.md)：跨诊断说明符，涵盖意外性、预期性与夜间发作；需区分躯体因素并建立接地与呼吸调节策略。
 - 广场恐惧症（Agoraphobia）：*待更新*
 - [广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md)：过度焦虑与担忧，难以控制且伴躯体症状（肌肉紧张、疲劳、睡眠障碍）。
 - 物质/药物所致焦虑障碍：*待更新*
@@ -92,7 +92,7 @@ comments: true
 ### 6. 强迫及相关障碍（Obsessive-Compulsive and Related Disorders）
 
 - [强迫症（OCD）](OCD.md)：说明强迫观念与强迫行为的诊断标准与常见治疗路径。
-- 躯体变形障碍（Body Dysmorphic Disorder）：*待更新*
+- [躯体变形障碍（Body Dysmorphic Disorder，BDD）](Body-Dysmorphic-Disorder.md)：聚焦感知外貌缺陷的强迫性专注与重复修饰行为，需辨别进食障碍、社交焦虑及肌肉变形亚型。
 - 囤积障碍（Hoarding Disorder）：*待更新*
 - 拔毛癖（Trichotillomania / Hair-Pulling Disorder）：*待更新*
 - 抓痕障碍（Excoriation / Skin-Picking Disorder）：*待更新*
