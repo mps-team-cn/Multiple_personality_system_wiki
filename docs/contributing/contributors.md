@@ -82,6 +82,18 @@
 
     **主要贡献:** Tulpa相关信息提供、专业知识咨询
 
+-   :fontawesome-solid-star: [**@UnwhiteCat**](https://github.com/UnwhiteCat)
+
+    ---
+
+    ![UnwhiteCat](https://github.com/UnwhiteCat.png){ width="80" style="border-radius: 50%;" }
+
+    **祎红**
+
+    **角色:** 核心贡献者、程序开发者
+
+    **主要贡献:** 程序开发、技术架构、工具优化
+
 </div>
 
 ---
@@ -100,6 +112,8 @@
 | ![](https://github.com/GrainRR.png){ width="40" style="border-radius: 50%;" } | [@GrainRR](https://github.com/GrainRR) | Tulpa相关信息提供、专业知识咨询 |
 | ![](https://github.com/mouzhiw.png){ width="40" style="border-radius: 50%;" } | [@mouzhiw](https://github.com/mouzhiw) | 医学相关信息提供、专业知识咨询 |
 | ![](https://github.com/origin652.png){ width="40" style="border-radius: 50%;" } | [@origin652](https://github.com/origin652) | Tulpa相关信息提供、专业知识咨询 |
+| ![](https://github.com/UnwhiteCat.png){ width="40" style="border-radius: 50%;" } | [@UnwhiteCat](https://github.com/UnwhiteCat) | 程序开发、技术架构、工具优化 |
+| ![](https://github.com/yao-jiuqing.png){ width="40" style="border-radius: 50%;" } | [@yao-jiuqing](https://github.com/yao-jiuqing) | 词条编写、内容贡献 |
 | ![](https://github.com/XingY-YuXi.png){ width="40" style="border-radius: 50%;" } | [@XingY-YuXi](https://github.com/XingY-YuXi) | Bug 报告、问题反馈 |
 | ![](https://github.com/Jellyfish-eng.png){ width="40" style="border-radius: 50%;" } | [@Jellyfish-eng](https://github.com/Jellyfish-eng) | 词条线索提供 |
 | ![](https://github.com/dugucanfeng.png){ width="40" style="border-radius: 50%;" } | [@dugucanfeng](https://github.com/dugucanfeng) | 词条线索提供 |
