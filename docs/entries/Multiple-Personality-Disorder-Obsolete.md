@@ -144,7 +144,7 @@ DSM-III 首次将 "Multiple Personality Disorder"（编码 300.14）列为独立
 **重要变更**：
 
 - 首次定义"人格"（personality）概念
-- 引入"人格状态"（personality state）术语，承认身份可能处于不同发展阶段，这一概念的引入，是一个关键的理论进步。它承认了解离的身份可能并非总是完整、成熟、戏剧化的人格，而可能是持有特定功能（如承受痛苦）、记忆或情感的意识部分（parts）。这为理解DID的频谱性（从高度分化的身份到部分分化的状态）奠定了理论基础，并直接导向了后来结构性解离理论中的ANP/EP模型。
+- 引入"人格状态"（personality state）术语，承认身份可能处于不同发展阶段[^putnam1997]。这一概念的引入是一个关键的理论进步，它承认了解离的身份可能并非总是完整、成熟、戏剧化的人格，而可能是持有特定功能（如承受痛苦）、记忆或情感的意识部分（parts）。这为理解DID的频谱性（从高度分化的身份到部分分化的状态）奠定了理论基础，并直接导向了后来[结构性解离理论](Structural-Dissociation-Theory.md)中的[ANP/EP模型](Apparently-Normal-Part-Emotional-Part-Model.md)[^vanderhart2006]。
 - 认可自伤、自残与药物成瘾在 MPD 患者中常见
 - 新增[边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)作为鉴别诊断
 
@@ -193,5 +193,6 @@ DSM-IV 将诊断名称从 "Multiple Personality Disorder" 改为 "Dissociative I
 [^apa1980]: American Psychiatric Association. (1980). *Diagnostic and Statistical Manual of Mental Disorders* (3rd ed.). American Psychiatric Publishing.
 [^apa1994]: American Psychiatric Association. (1994). *Diagnostic and Statistical Manual of Mental Disorders* (4th ed.). American Psychiatric Publishing.
 [^putnam1997]: Putnam, F. W. (1997). *Dissociation in Children and Adolescents: A Developmental Perspective*. Guilford Press.
+[^vanderhart2006]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton & Company.
 [^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
 [^who2023]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics* (Version 2023-01). World Health Organization.
