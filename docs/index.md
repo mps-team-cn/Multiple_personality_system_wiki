@@ -49,13 +49,10 @@
 - 🔄 [更新日志](changelog.md) - 追踪最新内容变更
 - 🤝 [贡献指南](contributing/index.md) - 了解如何参与共建
 
----
-
-!!! tip "加入官方QQ群"
-    📢 想了解项目进展或参与讨论？
-    点击下方链接加入我们的官方群聊：
-
-    [![加入QQ群](https://img.shields.io/badge/QQ群-935527821-blue?logo=tencentqq&logoColor=white)](https://qm.qq.com/cgi-bin/qm/qr?k=935527821)
+<!-- <div align="center">
+  <img src="assets/qq-group.png" width="200" alt="QQ群二维码">
+  <p>📢 扫码加入QQ群：123456789</p>
+</div> -->
 
 ---
 

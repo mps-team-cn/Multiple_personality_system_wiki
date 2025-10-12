@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 900 220" role="img" aria-label="MPS Wiki logo – Multiple Personality System Wiki / 多意识体系统百科 (horizontal)">
+  <title>MPS Wiki — Multiple Personality System Wiki / 多意识体系统百科</title>
+  <!-- 简化样式：不使用 :root 与全局选择器，避免某些渲染器报错；统一用 currentColor 控制颜色。 -->
+  <g fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Icon mark -->
+    <g transform="translate(20,20)">
+      <!-- Outer ring (system boundary) -->
+      <circle cx="90" cy="90" r="82"/>
+      <!-- Connectors (tri-axial) -->
+      <path d="M90 8v32"/>
+      <path d="M160.9 40.5l-27.7 16"/>
+      <path d="M19.1 40.5l27.7 16"/>
+      <path d="M161 139.5l-27.7 -16"/>
+      <path d="M19 139.5l27.7 -16"/>
+      <path d="M90 170v-32"/>
+      <!-- Inner ring (shared workspace) -->
+      <circle cx="90" cy="90" r="42"/>
+      <!-- Five nodes (plural parts + shared core) -->
+      <!-- 节点使用 fill 当前色，无描边 -->
+      <g stroke="none" fill="currentColor">
+        <circle cx="90" cy="90" r="6"/>
+        <circle cx="90" cy="24" r="6"/>
+        <circle cx="151" cy="56" r="6"/>
+        <circle cx="29" cy="56" r="6"/>
+        <circle cx="90" cy="156" r="6"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Wordmark -->
+  <!-- 为了兼容性，尽量避免依赖外部字体；如需固定字形，建议在设计工具中把文字转曲线。 -->
+  <g transform="translate(250,55)" fill="currentColor" stroke="none">
+    <text font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, sans-serif" font-weight="700" font-size="40" x="0" y="0">Multiple Personality System Wiki</text>
+    <text font-family="Noto Sans SC, Source Han Sans SC, Microsoft YaHei, system-ui, sans-serif" font-weight="500" font-size="28" x="0" y="48">多意识体系统百科</text>
+  </g>
+</svg>
+
