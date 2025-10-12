@@ -220,7 +220,7 @@ mkdocs serve
 
 # 1. 创建venv环境
 
-python -m venv *path/to/Multi_person_system_wiki/project*/.venv
+python -m venv path/to/Multi_person_system_wiki/project/.venv
 
 ```
 
@@ -230,7 +230,7 @@ python -m venv *path/to/Multi_person_system_wiki/project*/.venv
 
 ```cmd
 
-*path\to\Multi_personality_system_wiki*\.venv\bin\activate.bat
+path\to\Multi_personality_system_wiki\.venv\bin\activate.bat
 
 ```
 
@@ -246,19 +246,20 @@ source *path/to/Multi_personality_system_wiki*/.venv/bin/activate
 
 #### 3. 使用uv
 
-在使用此方法前，请额外确保自己已经下载了uv。
-
 ```bash
+
+pip install uv
 uv run mkdocs
+
 ```
 
 接下来就可以正常开发了
 
 ### 构建静态站点
 
-```bash
+如果使用的并非uv。
 
-# 如果使用的是uv,请在所有指令之前键入uv run
+```bash
 
 # 构建到 site/ 目录
 
@@ -267,6 +268,18 @@ mkdocs build
 # 严格模式构建（有警告则失败）
 
 mkdocs build --strict
+```
+
+如果使用的是uv
+
+```bash
+
+# 构建到 site/ 目录
+uv mkdocs build
+
+# 严格模式构建（有警告则失败）
+
+uv mkdocs build --strict
 ```
 
 ### 旧版 Docsify 预览（已弃用）
