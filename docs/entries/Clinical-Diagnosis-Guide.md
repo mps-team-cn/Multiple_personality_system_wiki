@@ -67,8 +67,8 @@ comments: true
 - [心境障碍（Affective Disorders）](Affective-Disorders.md)：整理心境类诊断的分类与评估重点。
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：从 DSM-5-TR 角度解析重性抑郁、持续性抑郁等症状群与鉴别。
 - 破坏性心境失调障碍（Disruptive Mood Dysregulation Disorder）：*待更新*
-- 重性抑郁障碍（Major Depressive Disorder）：见 [抑郁障碍](Depressive-Disorders.md)
-- 持续性抑郁障碍（Persistent Depressive Disorder / Dysthymia）：见 [抑郁障碍](Depressive-Disorders.md)
+- [重性抑郁障碍（Major Depressive Disorder, MDD）](Major-Depressive-Disorder-MDD.md)：持续 ≥2 周的抑郁心境或兴趣丧失，伴认知、躯体功能损害；需至少 5 项症状，显著影响日常功能。
+- [持续性抑郁障碍（Persistent Depressive Disorder, PDD / Dysthymia）](Persistent-Depressive-Disorder-PDD.md)：慢性抑郁心境持续 ≥2 年（儿童 ≥1 年），症状较轻但持续时间更长；约 75% 患者会叠加重性抑郁发作（双重抑郁）。
 - 经前期心境障碍（Premenstrual Dysphoric Disorder）：*待更新*
 - 物质/药物所致抑郁障碍：*待更新*
 - 其他医学状况所致抑郁障碍：*待更新*
@@ -78,10 +78,10 @@ comments: true
 
 - [焦虑（Anxiety）](Anxiety.md)：概述症状特征与常见的焦虑障碍类型。
 - 分离焦虑障碍（Separation Anxiety Disorder）：*待更新*
-- 选择性缄默症（Selective Mutism）：*待更新*
+- [选择性缄默症（Selective Mutism，SM）](Selective-Mutism.md)：在特定社交情境中持续无法说话，尽管在其他情境能够正常交流；常与社交焦虑高度相关，多见于儿童早期。
 - 特定恐惧症（Specific Phobia）：*待更新*
-- 社交焦虑障碍（Social Anxiety Disorder / Social Phobia）：*待更新*
-- [惊恐障碍（Panic Disorder）](Panic-Disorder.md)：识别突发性惊恐发作与预期性焦虑。
+- [社交焦虑障碍（Social Anxiety Disorder / Social Phobia，SAD）](Social-Anxiety-Disorder.md)：对社交或表现情境的强烈恐惧，担心被负面评价，导致显著回避或痛苦；症状持续至少 6 个月。
+- [惊恐障碍（Panic Disorder）](Panic-Disorder.md)：识别突发性惊恐发作与预期性焦虑；惊恐发作在数分钟内达到高峰，伴随心悸、呼吸困难、失控或死亡恐惧。
 - 惊恐发作（Panic Attack）：见 [惊恐障碍](Panic-Disorder.md)
 - 广场恐惧症（Agoraphobia）：*待更新*
 - [广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md)：过度焦虑与担忧，难以控制且伴躯体症状（肌肉紧张、疲劳、睡眠障碍）。
@@ -108,7 +108,7 @@ comments: true
 - [复杂性 PTSD（CPTSD）](CPTSD.md)：详解自我组织障碍（DSO）三大核心群（情绪调节困难、负性自我概念、人际困难）。
 - [闪回（Flashback）](Flashback.md)：区分创伤记忆重现与解离性再体验，并提供应对提示。
 - [习得性无助（Learned Helplessness）](Learned-Helplessness.md)：理解无力感如何维系创伤后症状。
-- 急性应激障碍（Acute Stress Disorder）：*待更新*
+- [急性应激障碍（Acute Stress Disorder, ASD）](Acute-Stress-Disorder-ASD.md)：创伤暴露后 3 天至 1 个月内出现的急性应激反应，包括侵入性症状、解离体验、回避、警觉性改变；若持续超过 1 个月可能转化为 PTSD。
 - 适应障碍（Adjustment Disorders）：*待更新*
 - 长期哀伤障碍（Prolonged Grief Disorder）：*待更新*
 - 其他特定/未特定创伤及应激相关障碍：*待更新*
@@ -152,7 +152,7 @@ comments: true
 ### 12. 睡眠-觉醒障碍（Sleep-Wake Disorders）
 
 - [睡眠障碍（SD）](Sleep-Disorders-SD.md)：评估失眠、噩梦与异态睡眠（梦游、夜惊），结合创伤知情策略与睡眠卫生管理。
-- 失眠障碍（Insomnia Disorder）：见 [睡眠障碍](Sleep-Disorders-SD.md)
+- [失眠障碍（Insomnia Disorder）](Insomnia-Disorder.md)：对睡眠数量或质量的持续不满，难以入睡、难以维持睡眠或清晨早醒，结合 CBT-I 治疗与创伤知情策略。
 - 过度嗜睡障碍（Hypersomnolence Disorder）：*待更新*
 - 发作性睡病（Narcolepsy）：*待更新*
 - 呼吸相关睡眠障碍（Breathing-Related Sleep Disorders）：*待更新*

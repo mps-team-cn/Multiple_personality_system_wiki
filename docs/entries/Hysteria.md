@@ -39,7 +39,7 @@ DSM-5-TR 不再列出“癔症”或“癔症性神经症”，相关症状被�
 
 ICD-11 同样未保留"癔症"条目，旧有 ICD-10 的"解离性（转换性）障碍"被重新命名为：[^who2023]
 
-- **6B60 解离性神经性症状障碍（Dissociative neurological symptom disorder）** ：对应传统"转换障碍"。在现代理解中，表现为运动/感觉功能异常的"转换"症状，被视为解离的一种特定形式，因此被归入解离性障碍的范畴。
+- **6B60 解离性神经性症状障碍（Dissociative neurological symptom disorder）** ：对应传统"转换障碍"。在现代理解中，表现为运动/感觉功能异常的"转换"症状，被视为解离的一种特定形式，因此被归入解离性障碍的范畴。[^stone2020]
 - **6C20 躯体性痛苦障碍（Bodily distress disorder）** ：涵盖持续且干扰功能的躯体症状，取代 ICD-10 中的躯体化障碍。
 - **6B65 解离性恍惚** 等条目，用以区分不同的意识与身份分离表现。
 
@@ -69,7 +69,7 @@ ICD-11 更强调文化语境、创伤史与身心互动，建议使用具体诊�
 
 - "hysteria" 原源于希腊语 "hystera"（子宫），现代概念在 19 世纪欧洲精神医学与神经学中成形，被用于描述多种无法解释的情绪、神经或躯体症状。[^shorter1992]
 - 20 世纪初，弗洛伊德等精神分析学者将"癔症"与压抑创伤、潜意识冲突等理论联系，推动其在欧美医学与大众文化中的普及，但也强化了对女性的刻板印象。[^scull2009]
-- 弗洛伊德早期曾强调外在创伤（如童年性虐待）是"癔症"的根源，但其理论后期转向强调内在的潜意识冲突与幻想，这对"癔症"的病因理解产生了深远影响。
+- 弗洛伊德早期曾强调外在创伤（如童年性虐待）是"癔症"的根源，但其理论后期转向强调内在的潜意识冲突与幻想，这对"癔症"的病因理解产生了深远影响。[^masson1984]
 
 ### DSM-I（1952）分类
 
@@ -79,7 +79,7 @@ ICD-11 更强调文化语境、创伤史与身心互动，建议使用具体诊�
 
 ### DSM-II（1968）分类
 
-- **癔症性神经症（Hysterical Neurosis，编码 300.1）** ：DSM-II 重新引入"癔症"术语作为上位诊断，定义为"以非自主性心因性功能丧失或障碍为特征"。症状通常在情绪激动情境中突然开始和结束，象征潜在冲突，且常可通过暗示修改。DSM-II的修订深受当时精神分析理论的影响，因此重新采用了基于该理论的"癔症性神经症"这一上位概念。
+- **癔症性神经症（Hysterical Neurosis，编码 300.1）** ：DSM-II 重新引入"癔症"术语作为上位诊断，定义为"以非自主性心因性功能丧失或障碍为特征"。症状通常在情绪激动情境中突然开始和结束，象征潜在冲突，且常可通过暗示修改。DSM-II的修订深受当时精神分析理论的影响，因此重新采用了基于该理论的"癔症性神经症"这一上位概念。[^wilson1993]
 - **癔症性神经症，解离型（Hysterical Neurosis, Dissociative Type，编码 300.14）** ：患者意识状态或身份可能发生改变，产生遗忘、梦游、漫游与多重人格等症状。
 - **癔症性神经症，转换型（Hysterical Neurosis, Conversion Type）** ：涉及影响运动或感觉功能的躯体症状。
 - DSM-II 明确要求"应保留转换与解离反应之间的区别"，但仍将两者归入同一上位类别。
@@ -101,6 +101,8 @@ ICD-11 更强调文化语境、创伤史与身心互动，建议使用具体诊�
 
 [^shorter1992]: Shorter, E. (1992). *From Paralysis to Fatigue: A History of Psychosomatic Illness in the Modern Era*. The Free Press.
 [^scull2009]: Scull, A. (2009). *Hysteria: The Disturbing History of a Neurological Disease*. Oxford University Press.
+[^masson1984]: Masson, J. M. (1984). *The Assault on Truth: Freud's Suppression of the Seduction Theory*. Farrar, Straus and Giroux.
+[^wilson1993]: Wilson, M. (1993). DSM-III and the transformation of American psychiatry: A history. *American Journal of Psychiatry*, 150(3), 399–410.
 [^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
 [^stone2020]: Stone, J., & Carson, A. (2020). Functional neurological disorder: Diagnosis and management. *Journal of Neurology, Neurosurgery & Psychiatry*, 91(8), 733–741.
 [^who2023]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics* (Version 2023-01). World Health Organization.
