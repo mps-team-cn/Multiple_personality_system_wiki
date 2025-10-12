@@ -51,6 +51,14 @@
 
 ---
 
+!!! tip "加入官方QQ群"
+    📢 想了解项目进展或参与讨论？
+    点击下方链接加入我们的官方群聊：
+
+    [![加入QQ群](https://img.shields.io/badge/QQ群-935527821-blue?logo=tencentqq&logoColor=white)](https://qm.qq.com/cgi-bin/qm/qr?k=935527821)
+
+---
+
 ## 重要提醒
 
 !!! warning "触发警告"
