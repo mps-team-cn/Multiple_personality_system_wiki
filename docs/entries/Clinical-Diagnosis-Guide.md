@@ -330,6 +330,8 @@ comments: true
 
 - [**癔症（Hysteria）**](Hysteria.md)：19 世纪至 20 世纪中期的诊断标签，涵盖多种解离、转换与躯体症状。
 
+- [**分离转换障碍（Dissociative [Conversion] Disorders）**](Dissociative-Conversion-Disorder-Obsolete.md)：ICD-10 将解离与转换症状合并的诊断类别（编码 F44），ICD-11 已将两者拆分为独立诊断。
+
 !!! tip "使用建议"
 
     - **旧病历解读**：查阅对应词条了解历史标准，再对照现代分类评估症状
