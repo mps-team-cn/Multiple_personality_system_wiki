@@ -56,7 +56,7 @@
 
     **角色:** 核心贡献者
 
-    **主要贡献:** 造T相关信息提供、专业知识咨询
+    **主要贡献:** Tulpa相关信息提供、专业知识咨询
 
 -   :fontawesome-solid-star: [**@mouzhiw**](https://github.com/mouzhiw)
 
@@ -69,6 +69,18 @@
     **角色:** 核心贡献者
 
     **主要贡献:** 医学相关信息提供、专业知识咨询
+
+-   :fontawesome-solid-star: [**@origin652**](https://github.com/origin652)
+
+    ---
+
+    ![origin652](https://github.com/origin652.png){ width="80" style="border-radius: 50%;" }
+
+    **origin652**
+
+    **角色:** 核心贡献者
+
+    **主要贡献:** Tulpa相关信息提供、专业知识咨询
 
 </div>
 
@@ -87,6 +99,7 @@
 | ![](https://github.com/fengqingyu430-collab.png){ width="40" style="border-radius: 50%;" } | [@fengqingyu430-collab](https://github.com/fengqingyu430-collab) | 词条编写、翻译优化 |
 | ![](https://github.com/GrainRR.png){ width="40" style="border-radius: 50%;" } | [@GrainRR](https://github.com/GrainRR) | Tulpa相关信息提供、专业知识咨询 |
 | ![](https://github.com/mouzhiw.png){ width="40" style="border-radius: 50%;" } | [@mouzhiw](https://github.com/mouzhiw) | 医学相关信息提供、专业知识咨询 |
+| ![](https://github.com/origin652.png){ width="40" style="border-radius: 50%;" } | [@origin652](https://github.com/origin652) | Tulpa相关信息提供、专业知识咨询 |
 | ![](https://github.com/XingY-YuXi.png){ width="40" style="border-radius: 50%;" } | [@XingY-YuXi](https://github.com/XingY-YuXi) | Bug 报告、问题反馈 |
 | ![](https://github.com/Jellyfish-eng.png){ width="40" style="border-radius: 50%;" } | [@Jellyfish-eng](https://github.com/Jellyfish-eng) | 词条线索提供 |
 | ![](https://github.com/dugucanfeng.png){ width="40" style="border-radius: 50%;" } | [@dugucanfeng](https://github.com/dugucanfeng) | 词条线索提供 |

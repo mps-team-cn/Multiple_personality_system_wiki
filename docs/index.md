@@ -13,7 +13,7 @@
 从概念入门到实践工具，我们致力于用中文整理关于多意识体系统（`Multiple Personality System`，简称 **`MPS`**）与创伤照护的可靠资料，陪伴你理解自我、照顾伙伴，并与同路人建立连结。
 
 [开始探索](tags.md){ .md-button .md-button--primary }
-[加入共建](contributing/index.md){ .md-button }
+[参与贡献](contributing/index.md){ .md-button }
 <!-- [:material-shield-account: 管理员入口](admin/){ .md-button .md-button--secondary title="站点维护入口，仅限管理员使用" } -->
 
 </div>
