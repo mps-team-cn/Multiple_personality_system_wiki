@@ -106,10 +106,13 @@
 | [Eating Disorders，ED](entries/Eating-Disorders-ED.md) | 进食障碍 | 涵盖限制、暴食与清除等饮食行为失调，常与创伤及控制感议题交织。 |
 | [Learned Helplessness](entries/Learned-Helplessness.md) | 习得性无助 | 指在长期不可控压力下习得的无力感与动机枯竭模式，常与创伤暴露及抑郁症状并存。 |
 | [DID](entries/DID.md) | 解离性身份障碍 | 以多个身份状态轮换控制与解离性失忆为核心的创伤相关解离障碍。 |
+| [Multiple Personality Disorder（Obsolete）](entries/Multiple-Personality-Disorder-Obsolete.md) | 多人格障碍（历史术语） | DSM-III 使用的旧称，已被 DID 取代；词条说明更名原因与现代对应诊断。 |
 | [Gender Dysphoria，GD](entries/Gender-Dysphoria-GD.md) | 性别不安 | 聚焦性别身份与出生指定性别不一致所带来的痛苦；与创伤、解离可能共存但需区分评估。 |
 | [Dissociative Amnesia](entries/Dissociative-Amnesia-DA.md) | 解离性遗忘 | 指无法回忆重要个人信息的解离症状，常与创伤事件关联。 |
 | [Flashback](entries/Flashback.md) | 闪回 | 创伤记忆以感官或情绪形式突然重现、难以控制的体验。 |
 | [Hypomania](entries/Hypomania.md) | 轻躁狂 | 强度低于躁狂的情绪与能量高涨期，需留意功能波动与躁狂转换风险。 |
+| [Hysteria（Obsolete）](entries/Hysteria.md) | 癔症（历史术语） | 历史诊断名，现代分类已拆分为转换障碍、躯体症状障碍与解离性障碍等；词条解释术语演变与沟通注意事项。 |
+| [Split Personality（Informal）](entries/Split-Personality.md) | 人格分裂（俗称） | 非正式标签，常被误用于 DID 或精神分裂症；词条提供澄清与沟通建议。 |
 | [Mania](entries/Mania.md) | 躁狂 | 情绪和能量显著高涨、睡眠需求减少、冲动决定或危险行为的状态。 |
 | [NPD](entries/Narcissistic-Personality-Disorder-NPD.md) | 自恋型人格障碍 | 以夸大、自我关注与共情困难为主要特征的人格模式。 |
 | [OCD](entries/OCD.md) | 强迫症 | 以反复出现的强迫思维与强迫行为循环为核心特征的状态。 |
