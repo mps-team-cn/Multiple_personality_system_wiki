@@ -95,12 +95,14 @@ plurality_wiki/
 │  │
 │  ├─ dev/                       # 开发文档
 │  │  ├─ README.md               # 开发文档索引
+│  │  ├─ IMPROVEMENT_SUGGESTIONS.md  # 项目改进建议
 │  │  ├─ AGENTS.md               # 贡献与开发约定
 │  │  ├─ CLOUDFLARE_PAGES.md    # Cloudflare Pages 部署说明
 │  │  ├─ MIGRATION_REPORT.md    # Docsify → MkDocs 迁移报告
-│  │  ├─ HOMEPAGE_FIX.md        # 首页修复记录
+│  │  ├─ AI-Dictionary-Generation.md  # AI 词典生成工具
 │  │  ├─ THEME_GUIDE.md         # 主题配置指南
 │  │  ├─ CSS_GUIDE.md           # 样式开发指南
+│  │  ├─ GISCUS_INTEGRATION.md  # Giscus 评论集成
 │  │  └─ INDEX_GUIDE.md         # 索引配置指南
 │  │
 │  ├─ tools/                     # 工具文档
@@ -281,12 +283,14 @@ Environment variables: PYTHON_VERSION=3.11
 
 ## 🗺️ 路线图（Roadmap）
 
+> 💡 详细的改进建议和实施计划请参见 [项目改进建议文档](docs/dev/IMPROVEMENT_SUGGESTIONS.md)
+
 ### 已完成 ✅
 
 - [x] 前端框架迁移（Docsify → MkDocs Material）
 - [x] 响应式设计与移动端优化
 - [x] 深色模式支持
-- [x] 搜索功能增强
+- [x] 搜索功能增强（jieba + 自定义词典）
 - [x] 自动化工具重构（tools/ 目录模块化）
 - [x] Cloudflare Pages 部署配置
 - [x] PDF 导出功能（基于 topic 字段分组）
@@ -295,8 +299,23 @@ Environment variables: PYTHON_VERSION=3.11
 
 - [ ] 词条内容扩充与质量提升
 - [ ] 完善开发文档
+- [ ] CI/CD 自动化流程
 
 ### 计划中 📋
+
+**高优先级**:
+
+- [ ] GitHub Actions 工作流配置
+- [ ] Pre-commit hooks 集成
+- [ ] 依赖版本锁定
+
+**中优先级**:
+
+- [ ] 词条完整性验证工具
+- [ ] 统一工具 CLI 入口
+- [ ] 搜索功能深度优化
+
+**低优先级**:
 
 - [ ] 多版本文档支持（使用 mike）
 - [ ] PWA 离线访问支持
