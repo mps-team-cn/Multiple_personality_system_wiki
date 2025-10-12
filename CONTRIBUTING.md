@@ -10,11 +10,12 @@
 
 ### 1. 了解规范
 
-- [编写规范](docs/contributing/编写规范.md) - 语言、格式、Markdown 规范
-- [学术引用](docs/contributing/学术引用.md) - 引用格式与证据分级
-- [诊断临床规范](docs/contributing/诊断临床规范.md) - 病理学内容要求
-- [技术约定](docs/contributing/技术约定.md) - 文件结构与链接管理
-- [PR 流程](docs/contributing/PR流程.md) - 提交流程与检查清单
+- [编写规范](docs/contributing/writing-guidelines.md) - 语言、格式、Markdown 规范
+- [学术引用](docs/contributing/academic-citation.md) - 引用格式与证据分级
+- [诊断临床规范](docs/contributing/clinical-guidelines.md) - 病理学内容要求
+- [技术约定](docs/contributing/technical-conventions.md) - 文件结构与链接管理
+- [PR 流程](docs/contributing/pr-workflow.md) - 提交流程与检查清单
+- [贡献者墙](docs/contributing/contributors.md) - 查看所有贡献者
 
 ### 2. 本地开发
 
@@ -63,7 +64,7 @@ mkdocs serve
 
 ### 3. 提交 PR
 
-详细流程请参考 [PR 流程](docs/contributing/PR流程.md)
+详细流程请参考 [PR 流程](docs/contributing/pr-workflow.md)
 
 ---
 
@@ -131,11 +132,14 @@ mkdocs serve
 - 🌐 **翻译校对** - 改进术语翻译
 - 📚 **分享经验** - 贡献实践技巧与资源
 
+查看所有贡献者:访问 [贡献者墙](docs/contributing/contributors.md)
+
 ---
 
 ## 📚 参考资源
 
 - [完整贡献指南](docs/contributing/index.md)
+- [贡献者墙](docs/contributing/contributors.md)
 - [词条模板](docs/TEMPLATE_ENTRY.md)
 - [工具文档](docs/tools/README.md)
 - [前端架构](docs/dev/FRONTEND_ARCHITECTURE.md)
