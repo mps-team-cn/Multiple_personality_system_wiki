@@ -16,10 +16,12 @@
 
 ### 开发指南
 
-- [**LOCAL_DEV_SERVER.md**](LOCAL_DEV_SERVER.md) - Sveltia CMS 本地开发指南(推荐阅读)
+- [**IMPROVEMENT_SUGGESTIONS.md**](IMPROVEMENT_SUGGESTIONS.md) - 项目改进建议与实施计划(推荐阅读)
+- [**LOCAL_DEV_SERVER.md**](LOCAL_DEV_SERVER.md) - Sveltia CMS 本地开发指南
 - [**THEME_GUIDE.md**](THEME_GUIDE.md) - MkDocs Material 主题配置与自定义指南
 - [**CSS_GUIDE.md**](CSS_GUIDE.md) - 样式系统开发指南
 - [**INDEX_GUIDE.md**](INDEX_GUIDE.md) - 导航和索引配置指南
+- [**AI-Dictionary-Generation.md**](AI-Dictionary-Generation.md) - AI 辅助搜索词典生成工具链
 
 ---
 

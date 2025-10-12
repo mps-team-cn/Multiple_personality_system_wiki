@@ -1,19 +1,16 @@
 # Multiple Personality System Wiki
 
 > 多重意识体系统与相关心理健康主题的中文知识库与开源协作项目。
-> 在线版本：<https://mpswiki.pages.dev/>
-
-- [查看标签索引](docs/tags.md)
+> 在线版本：<https://wiki.mpsteam.cn/>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Docs status](https://img.shields.io/badge/docs-online-brightgreen.svg)](https://mpswiki.pages.dev/)
+[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-deployed-brightgreen?logo=cloudflare)](https://wiki.mpsteam.cn/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](CONTRIBUTING.md)
 [![Stars](https://img.shields.io/github/stars/mps-team-cn/Multiple_personality_system_wiki?style=social)](https://github.com/mps-team-cn/Multiple_personality_system_wiki/stargazers)
-[![工作流 状态](https://img.shields.io/github/actions/workflow/status/mps-team-cn/Multiple_personality_system_wiki/docs_quality.yml?label=CI&logo=github)](https://github.com/mps-team-cn/Multiple_personality_system_wiki/actions/workflows/docs_quality.yml)
 
 ---
 
-📖 **提示** ：如果你是普通读者，请访问在线版本 [mpswiki.pages.dev](https://mpswiki.pages.dev/)；本文档主要面向开发者与贡献者。
+📖 **提示** ：如果你是普通读者，请访问在线版本 [wiki.mpsteam.cn](https://wiki.mpsteam.cn/)；本文档主要面向开发者与贡献者。
 
 ---
 
@@ -44,14 +41,13 @@
 ### 自动化工具
 
 - **Python** - 内容处理、索引生成、校验
-- **GitHub Actions** - CI/CD 自动化
-- **Cloudflare Pages** - 静态站点托管
+- **Cloudflare Pages** - 静态站点托管与自动部署
 
 ### 内容管理
 
 - **Sveltia CMS** - 现代化内容管理系统，支持全文搜索
 - **Cloudflare Functions** - OAuth 认证
-- 访问路径：`/admin` ([在线版本](https://mpswiki.pages.dev/admin/))
+- 访问路径：`/admin` ([在线版本](https://wiki.mpsteam.cn/admin/))
 - 详见 [Sveltia CMS 本地开发指南](docs/dev/LOCAL_DEV_SERVER.md) 和 [管理员指南](docs/ADMIN_GUIDE.md)
 
 ---
@@ -99,12 +95,14 @@ plurality_wiki/
 │  │
 │  ├─ dev/                       # 开发文档
 │  │  ├─ README.md               # 开发文档索引
+│  │  ├─ IMPROVEMENT_SUGGESTIONS.md  # 项目改进建议
 │  │  ├─ AGENTS.md               # 贡献与开发约定
 │  │  ├─ CLOUDFLARE_PAGES.md    # Cloudflare Pages 部署说明
 │  │  ├─ MIGRATION_REPORT.md    # Docsify → MkDocs 迁移报告
-│  │  ├─ HOMEPAGE_FIX.md        # 首页修复记录
+│  │  ├─ AI-Dictionary-Generation.md  # AI 词典生成工具
 │  │  ├─ THEME_GUIDE.md         # 主题配置指南
 │  │  ├─ CSS_GUIDE.md           # 样式开发指南
+│  │  ├─ GISCUS_INTEGRATION.md  # Giscus 评论集成
 │  │  └─ INDEX_GUIDE.md         # 索引配置指南
 │  │
 │  ├─ tools/                     # 工具文档
@@ -158,10 +156,7 @@ plurality_wiki/
 │
 └─ .github/
    ├─ ISSUE_TEMPLATE/
-   ├─ PULL_REQUEST_TEMPLATE.md
-   └─ workflows/
-      ├─ docs_quality.yml        # Markdown/链接检查 CI
-      └─ last-updated.yml        # 自动生成 last-updated.json
+   └─ PULL_REQUEST_TEMPLATE.md
 ```
 
 ---
@@ -330,19 +325,20 @@ Build output directory: site
 Environment variables: PYTHON_VERSION=3.11
 ```
 
-**在线地址** ：<https://mpswiki.pages.dev/>
+**在线地址** ：<https://wiki.mpsteam.cn/>
 
 ---
 
 ## 🗺️ 路线图（Roadmap）
 
+> 💡 详细的改进建议和实施计划请参见 [项目改进建议文档](docs/dev/IMPROVEMENT_SUGGESTIONS.md)
+
 ### 已完成 ✅
 
-- [x] 基础 CI（Markdown lint/链接检查）
 - [x] 前端框架迁移（Docsify → MkDocs Material）
 - [x] 响应式设计与移动端优化
 - [x] 深色模式支持
-- [x] 搜索功能增强
+- [x] 搜索功能增强（jieba + 自定义词典）
 - [x] 自动化工具重构（tools/ 目录模块化）
 - [x] Cloudflare Pages 部署配置
 - [x] PDF 导出功能（基于 topic 字段分组）
@@ -351,10 +347,33 @@ Environment variables: PYTHON_VERSION=3.11
 
 - [ ] 词条内容扩充与质量提升
 - [ ] 完善开发文档
+- [ ] CI/CD 自动化流程
 
 ### 计划中 📋
+
+**高优先级**:
+
+- [ ] GitHub Actions 工作流配置
+- [ ] Pre-commit hooks 集成
+- [ ] 依赖版本锁定
+
+**中优先级**:
+
+- [ ] 词条完整性验证工具
+- [ ] 统一工具 CLI 入口
+- [ ] 搜索功能深度优化
+
+**低优先级**:
 
 - [ ] 多版本文档支持（使用 mike）
 - [ ] PWA 离线访问支持
 - [ ] 性能优化（图片压缩、CDN 加速）
 - [ ] 国际化支持（i18n）
+
+---
+
+## ⭐ Star History
+
+如果喜欢这个项目，请给个 Star ⭐
+
+[![Star History Chart](https://api.star-history.com/svg?repos=mps-team-cn/Multiple_personality_system_wiki&type=Date)](https://star-history.com/#mps-team-cn/Multiple_personality_system_wiki&Date)
