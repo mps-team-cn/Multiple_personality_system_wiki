@@ -31,6 +31,7 @@ comments: true
 
 - **与融合/整合不同** : 共前台中的成员仍然独立，只是协作处理任务。
 - **与切换（Switch）不同** : 切换通常是前台主导权的交替，而共前台是并行或共享。
+- **与并行（Parallelism）的关系** : 并行强调多条意识流同时运作，共前台是其中侧重外部控制协作的形式之一。
 - **与混合（Blending）相关** : 部分共前台体验与混合相似，但混合更强调边界模糊，难区分个体贡献。
 
 ## 常见误区
@@ -53,6 +54,7 @@ comments: true
 
 - [前台（Front / Fronting）](Front-Fronting.md)
 - [切换（Switch）](Switch.md)
+- [并行（Parallelism）](Parallelism.md)
 - [后台（Back / Being Back）](Back-Being-Back.md)
 - [成员（Alter）](Alter.md)
 - [外投射（External Projection）](External-Projection.md)
