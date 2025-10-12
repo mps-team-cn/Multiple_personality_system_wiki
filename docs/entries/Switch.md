@@ -30,6 +30,7 @@ comments: true
 ## 与其他概念的比较 / 鉴别
 
 - **与共前台（Co-fronting）不同** : 切换是前台控制权的交替；共前台则是多人共享。
+- **与并行（Parallelism）不同** : 切换强调先后顺序，单次只有一位成员执掌前台；并行则允许多条意识流同步运作。
 - **与混合（Blending）不同** : 切换强调明确的控制权转移，而混合中个体贡献难以区分。
 - **与解离发作区分** : 解离发作可能表现为意识断片或失神，不一定有“成员交替”的体验。
 
@@ -53,6 +54,7 @@ comments: true
 ## 相关条目
 
 - [共前台（Co-fronting）](Co-Fronting.md)
+- [并行（Parallelism）](Parallelism.md)
 - [前台（Front / Fronting）](Front-Fronting.md)
 - [成员（Alter）](Alter.md)
 - [后台（Back / Being Back）](Back-Being-Back.md)

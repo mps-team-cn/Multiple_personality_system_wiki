@@ -16,6 +16,7 @@
 | [Back / Being Back](entries/Back-Being-Back.md) | 后台 | 不在前台掌控身体、转入内在活动或休息的成员状态。 |
 | [Co-fronting](entries/Co-Fronting.md) | 共前台 | 描述多位成员同时在前台协作掌控身体的状态。 |
 | [Co-consciousness](entries/Co-Consciousness.md) | 意识共存 | 两位及以上成员同时在前台共同处理任务。 |
+| [Parallelism](entries/Parallelism.md) | 并行 | 多位成员在同一时间维持独立意识流，常与切换、共前台搭配理解。 |
 | [Headspace / Inner World](entries/Headspace-Inner-World.md) | 内部空间、幻境、里空间 | 系统成员在内在世界中互动、聚会或构建场景的心象空间。 |
 | [Trigger](entries/Trigger.md) | 触发 | 引发强烈情绪、记忆或症状反应的内外部线索，需要提前识别并准备应对策略。 |
 
