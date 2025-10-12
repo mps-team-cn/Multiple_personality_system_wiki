@@ -1,284 +1,598 @@
-# 🧭 Multiple Personality System Wiki 管理员操作指南（优化版）
+# 🧭 Multiple Personality System Wiki 管理员操作指南
 
-本指南为 **Multiple Personality System Wiki** 维护者与协作者提供基础操作与维护流程。
-目标是确保贡献内容符合规范、CI 通过、结构一致。
-详细写作要求请参阅 [**contributing/index.md**](contributing/index.md) 与 [**AGENTS.md**](../AGENTS.md) 。
+本指南专为 **Multiple Personality System Wiki** 的管理员与维护者设计，涵盖分支管理、PR 审核、版本发布、CMS 管理等专属操作流程。
+
+!!! info "面向对象"
+    本文档面向拥有仓库写入权限的管理员。普通贡献者请参阅 [贡献指南](contributing/index.md)。
+
+!!! tip "相关文档"
+
+    - [贡献指南](contributing/index.md) - 通用贡献流程
+    - [PR 提交流程](contributing/pr-workflow.md) - 详细提交步骤
+    - [AGENTS.md](../AGENTS.md) - 项目开发约定
+    - [工具文档](tools/README.md) - 自动化工具说明
 
 ---
 
-## 1️⃣ GitHub 基础操作
+## 📋 快速导航
 
-### 1.1 克隆与同步仓库
+1. [分支与版本管理](#1-分支与版本管理)
+2. [PR 审核要点](#2-pr-审核要点)
+3. [版本发布流程](#3-版本发布流程)
+4. [Sveltia CMS 管理](#4-sveltia-cms-管理)
+5. [自动化维护工具](#5-自动化维护工具)
+6. [CI/CD 监控](#6-cicd-监控)
+7. [应急处理](#7-应急处理)
+
+---
+
+## 1️⃣ 分支与版本管理
+
+### 1.1 分支策略
+
+| 分支类型               | 用途         | 管理权限 | 说明                       |
+| ------------------ | ---------- | ---- | ------------------------ |
+| `main`             | 生产环境稳定版本   | 管理员  | 受保护分支，CI 通过后才可合并         |
+| `dev`              | 开发集成分支     | 管理员  | 可选，用于大型功能测试             |
+| `feat/*`           | 功能开发分支     | 所有人  | 合并后自动删除                  |
+| `fix/*`            | Bug 修复分支   | 所有人  | 合并后自动删除                  |
+| `docs/*`           | 文档更新分支     | 所有人  | 合并后自动删除                  |
+| `chore/*`          | 工具/配置维护分支  | 管理员  | 合并后自动删除                  |
+| `hotfix/*`         | 紧急修复分支     | 管理员  | 直接基于 main 创建，优先处理        |
+
+### 1.2 分支保护规则
+
+`main` 分支保护设置：
+
+- ✅ 需要 PR 审核才能合并
+- ✅ 需要至少 1 位管理员批准
+- ✅ 需要 CI 通过
+- ✅ 需要分支与 main 保持最新
+- ✅ 禁止强制推送
+- ✅ 禁止删除分支
+
+### 1.3 合并后清理
+
+管理员职责：
 
 ```bash
 
-# 克隆仓库
+# 合并 PR 后删除远程分支
 
-git clone https://github.com/mps-team-cn/Multiple_Personality_System_wiki.git
+git push origin --delete feat/branch-name
 
-# 进入目录
+# 本地清理
 
-cd Multiple_Personality_System_wiki
-
-# 同步主分支
-
-git checkout main
-git pull origin main
+git fetch -p
+git branch -d feat/branch-name
 ```
 
-### 1.2 新建分支
+!!! tip "自动化建议"
+    可在 GitHub 仓库设置中启用"合并后自动删除分支"选项。
 
-所有改动应在独立分支进行，命名遵循：
+---
 
-| 类型        | 说明         |
-| --------- | ---------- |
-| feat/xxx  | 新增功能或词条    |
-| fix/xxx   | 修复错误       |
-| docs/xxx  | 文档更新       |
-| chore/xxx | 配置、脚本或依赖维护 |
+## 2️⃣ PR 审核要点
+
+### 2.1 审核检查清单
+
+合并前必须确认以下所有项：
+
+#### 📚 内容质量
+
+- [ ] 所有断言均有可靠引用
+- [ ] 病理学内容包含 ICD-11 与 DSM-5-TR 双重引用
+- [ ] 引用格式正确（来源、版本、日期）
+- [ ] 原文摘录 ≤25 词 + 中文翻译
+- [ ] 无明显事实错误或误导性内容
+
+#### 🔗 结构与链接
+
+- [ ] 文件路径符合项目规范（词条在 `docs/entries/`）
+- [ ] 内部链接使用相对路径
+- [ ] 所有链接可访问（无 404）
+- [ ] Frontmatter 完整（title、tags、updated、topic）
+- [ ] 相关 Guide 已同步更新（见 [AGENTS.md](../AGENTS.md#13-索引与链接规范)）
+
+#### 🧹 格式规范
+
+- [ ] `python tools/fix_markdown.py` 已执行
+- [ ] `markdownlint` 检查通过
+- [ ] `mkdocs build --strict` 构建成功
+- [ ] CI/CD 全部通过
+
+#### 📝 提交规范
+
+- [ ] Commit 信息符合 Conventional Commits
+- [ ] PR 描述完整（动机、变更、影响、测试）
+- [ ] 关联相关 Issue（如有）
+
+### 2.2 常见问题处理
+
+| 问题类型     | 处理方式                                  |
+| -------- | ------------------------------------- |
+| 链接错误     | 要求贡献者修正相对路径                           |
+| 格式问题     | 运行 `fix_markdown.py` 后提交                |
+| 引用缺失     | 要求补充引用或标注来源                           |
+| Frontmatter 不完整 | 要求补全必需字段                              |
+| CI 失败    | 查看日志，指导贡献者修复                          |
+| 冲突       | 要求贡献者 rebase main 分支                  |
+
+### 2.3 审核评论模板
+
+```markdown
+
+## 审核意见
+
+感谢您的贡献！以下是需要调整的地方：
+
+### ✅ 已通过检查
+
+- 内容质量良好
+- 引用格式规范
+
+### ⚠️ 需要修改
+
+1. **链接问题**：[line 42] 请使用相对路径 `../entries/DID.md`
+2. **格式问题**：请运行 `python tools/fix_markdown.py` 修复格式
+3. **引用缺失**：[line 88] 请补充 ICD-11 引用
+
+### 📝 建议改进（可选）
+
+- 建议补充相关词条的交叉引用
+
+请修改后重新提交，感谢配合！
+```
+
+---
+
+## 3️⃣ 版本发布流程
+
+### 3.1 发布前准备
+
+!!! danger "发布前必须执行"
+
+    1. 核对 `docs/changelog.md` 内容完整性
+    2. 确认 `docs/index.md` 版本号正确
+    3. 运行完整构建测试
+    4. 确保 main 分支最新
+
+### 3.2 版本号规范
+
+遵循 [语义化版本](https://semver.org/lang/zh-CN/)：
+
+| 版本号          | 说明                    | 示例          |
+| ------------ | --------------------- | ----------- |
+| `MAJOR.x.x`  | 不兼容的 API 修改            | `2.0.0`     |
+| `x.MINOR.x`  | 向后兼容的功能新增             | `1.3.0`     |
+| `x.x.PATCH`  | 向后兼容的 Bug 修复          | `1.2.1`     |
+| `x.x.x-beta` | 预发布版本                 | `1.3.0-beta.1` |
+
+### 3.3 发布步骤
+
+#### Step 1: 更新 Changelog
 
 ```bash
-git checkout -b feat/new-entry
+
+# 自动生成 changelog（从最新标签到当前）
+
+python tools/gen_changelog_by_tags.py --latest-to-head
+
+# 手动编辑 docs/changelog.md，确认：
+
+# - 版本号正确
+
+# - 日期准确
+
+# - 变更分类清晰（feat/fix/docs/chore）
+
+# - 重要变更已高亮
+
 ```
 
----
-
-## 2️⃣ 提交与命名规范
-
-提交信息遵循 **Conventional Commits** ：
+#### Step 2: 创建 Git 标签
 
 ```bash
-git add entries/DID.md
-git commit -m "feat: 新增解离性身份障碍（DID）条目"
+
+# 创建标签
+
+git tag v1.4.0 -m "Release v1.4.0"
+
+# 推送标签
+
+git push origin v1.4.0
 ```
 
-**类型说明：**
+#### Step 3: 发布 GitHub Release
 
-* `feat:` 新增条目或功能
-* `fix:` 修复错误、链接或格式
-* `docs:` 文档内容变更
-* `chore:` 配置、脚本或 CI 修改
-* `style:` 空格、缩进、行尾等非语义修改
+使用 GitHub CLI（推荐）：
 
----
+```bash
 
-## 3️⃣ Pull Request（PR）流程
+# 创建新 Release
 
-1. 推送分支
+gh release create v1.4.0 \
+  --title "v1.4.0 - 标题" \
+  --notes-file docs/changelog.md
 
-   ```bash
-   git push origin feat/new-entry
-   ```
+# 或编辑现有 Release
 
-2. 在 GitHub 上创建 PR：
+gh release edit v1.4.0 \
+  --notes-file docs/changelog.md
+```
 
-    * 选择目标分支为 `main`
-    * 填写 PR 模板（动机、变更点、风险、测试结果等）
+或在 GitHub 网页端操作：
 
-3. 自检清单：
+1. 访问 <https://github.com/mps-team-cn/Multiple_Personality_System_wiki/releases/new>
+2. 选择标签 `v1.4.0`
+3. 复制 `docs/changelog.md` 对应版本内容到 Release Notes
+4. 点击 "Publish release"
 
-    * ✅ 所有断言均有引用（含 ICD/DSM）
-    * ✅ 引用注明来源与日期
-    * ✅ “最后更新”字段已更新
-    * ✅ Lint / CI 通过
+#### Step 4: 验证发布
 
-4. 审核与合并：
+- [ ] GitHub Release 页面显示正常
+- [ ] Cloudflare Pages 自动部署成功
+- [ ] 线上版本号正确
+- [ ] 主要功能正常工作
 
-    * 至少一位管理员 Review
-    * 确认无冲突后合并至 `main`
-    * 合并后可删除源分支
+### 3.4 回滚操作
 
----
+如需回滚发布：
 
-## 4️⃣ 分支与版本管理
+```bash
 
-| 分支类型               | 用途     | 说明            |
-| ------------------ | ------ | ------------- |
-| `main`             | 稳定发布   | CI 通过、PDF 可导出 |
-| `feat/*` / `fix/*` | 临时开发   | 合并后应删除        |
-| `dev`（可选）          | 大型改动测试 | 合并完成后同步 main  |
+# 删除远程标签
 
----
+git push --delete origin v1.4.0
 
-## 5️⃣ 使用 Sveltia CMS 管理词条
+# 删除本地标签
 
-### 📝 访问 CMS 后台
+git tag -d v1.4.0
 
-**在线版本**（推荐）：
+# 删除 GitHub Release（网页端操作）
 
-- 访问 `[https://wiki.mpsteam.cn/admin/`](https://wiki.mpsteam.cn/admin/`)
-- 使用 GitHub 账号登录
-- 需要有仓库协作者权限
-
-**本地版本**：
-
-- 启动本地服务器：`python -m http.server 8000 --directory docs`
-- 访问 `[http://localhost:8000/admin/`](http://localhost:8000/admin/`)
-- 点击 "Work with Local Repository" 选择仓库目录
-
-详细使用指南请参阅 [Sveltia CMS 本地开发指南](dev/LOCAL_DEV_SERVER.md)
-
-### ✨ CMS 核心功能
-
-#### 搜索
-
-- **快捷键**: `Ctrl+F` (Windows/Linux) 或 `Command+F` (macOS)
-- **全文搜索**: 可搜索词条标题和正文内容
-- **即时结果**: 输入即显示匹配结果
-
-#### 筛选
-
-- 点击 **Filter** 按钮
-- 选择主题分类（7 个）或标签（4 个）
-- 快速定位特定类型的词条
-
-#### 分组
-
-- 点击 **Group** 按钮
-- 按主题分类或标签分组显示
-- 便于查看词条分布
-
-#### 排序
-
-- 点击 **Sort** 按钮
-- 支持按标题、更新时间、主题排序
-- 支持升序/降序
-
-### 🎯 使用 CMS 新增词条
-
-1. 点击右上角蓝色 **"New"** 按钮
-2. 填写以下字段：
-    - **标题**: 格式必须为"中文（English/缩写）"
-    - **主题分类**: 从 7 个选项中选择一个
-    - **标签**: 添加相关标签（用于交叉引用）
-    - **更新时间**: 自动设置为当前日期
-    - **正文内容**: 使用 Markdown 编写
-3. 点击 **"Save"** 保存
-4. 填写提交信息（简要说明新增内容）
-5. 点击 **"Publish"** 提交到 GitHub
-
-### 📝 使用 CMS 编辑词条
-
-1. 在列表中搜索或浏览找到词条
-2. 点击词条标题进入编辑界面
-3. 修改相关字段
-4. 点击 **"Save"** 保存
-5. 填写更新说明
-6. 点击 **"Publish"** 提交更改
-
-### 🎨 主题分类说明
-
-创建或编辑词条时必须选择以下 7 个主题之一：
-
-| 分类 | 说明 | 词条数 |
-|------|------|--------|
-| 理论与分类 | 结构性解离理论等 | 22 |
-| 诊断与临床 | DID、解离障碍等 | 31 |
-| 系统运作 | 切换、共意识等 | 48 |
-| 角色与身份 | Admin、Alter 等 | 30 |
-| 文化与表现 | 影视作品描绘 | 17 |
-| 创伤与疗愈 | CPTSD、创伤治疗 | 5 |
-| 实践指南 | Tulpa 创造等 | 5 |
+```
 
 ---
 
-## 6️⃣ 常见任务指南（手动方式）
+## 4️⃣ Sveltia CMS 管理
 
-### 🔹 6.1 手动新增词条
+### 4.1 访问权限管理
 
-1. 复制 [TEMPLATE_ENTRY.md](TEMPLATE_ENTRY.md)
-2. 填写完整内容（含 Frontmatter：`title`、`tags`、`updated`）
-3. 将文件保存至 `docs/entries/` 目录
-4. 标签索引由 MkDocs Material tags 插件自动生成，无需手动更新
+#### 在线 CMS
 
-> 💡 **推荐使用 CMS**: 上述步骤可通过 Sveltia CMS 界面完成，无需手动创建文件
+- **URL**: <https://wiki.mpsteam.cn/admin/>
+- **认证**: GitHub OAuth
+- **权限**: 需要仓库 Collaborator 权限
 
-### 🔹 6.2 更新已有词条
+#### 添加协作者
 
-* 修改后同步更新 `index.md`、`Glossary.md`
-* 检查引用与标签一致性
+1. 访问 <https://github.com/mps-team-cn/Multiple_Personality_System_wiki/settings/access>
+2. 点击 "Add people"
+3. 输入 GitHub 用户名
+4. 选择权限级别（建议：Write）
 
-### 🔹 6.3 运行一键本地维护脚本
+### 4.2 CMS 配置文件
 
-如果你是管理员或审稿人，可直接执行以下脚本进行本地全流程维护（含搜索索引更新）：
+配置文件位置：`docs/admin/config.yml`
+
+关键配置项：
+
+```yaml
+backend:
+  name: github
+  repo: mps-team-cn/Multiple_Personality_System_wiki
+  branch: main
+
+media_folder: "docs/assets/images"
+public_folder: "../assets/images"
+
+collections:
+
+  - name: "entries"
+
+    label: "词条"
+    folder: "docs/entries"
+    # ... 其他配置
+```
+
+!!! warning "修改配置后需要"
+
+    - 测试 CMS 功能正常
+    - 确认词条保存路径正确
+    - 验证 Frontmatter 格式符合 MkDocs 要求
+
+### 4.3 CMS 使用指南
+
+详细使用方法请参阅：
+
+- [Sveltia CMS 本地开发指南](dev/LOCAL_DEV_SERVER.md)
+- [CMS 配置说明](https://github.com/sveltia/sveltia-cms#readme)
+
+### 4.4 主题分类管理
+
+当前 7 个主题分类：
+
+| 分类      | 对应 Guide 文件                         | 词条数（参考） |
+| ------- | ----------------------------------- | ------- |
+| 理论与分类   | `Theory-Classification-Guide.md`    | ~22     |
+| 诊断与临床   | `Clinical-Diagnosis-Guide.md`       | ~31     |
+| 系统运作    | `System-Operations.md`              | ~48     |
+| 角色与身份   | `Roles-Identity-Guide.md`           | ~30     |
+| 文化与表现   | `Cultural-Media-Guide.md`           | ~17     |
+| 创伤与疗愈   | `Trauma-Healing-Guide.md`           | ~5      |
+| 实践指南    | `Practice-Guide.md`                 | ~5      |
+
+!!! tip "维护提醒"
+    新增词条时，务必同步更新对应的 Guide 文件。
+
+---
+
+## 5️⃣ 自动化维护工具
+
+### 5.1 一键本地维护脚本
+
+**Windows 批处理脚本**：
 
 ```bash
 tools\run_local_updates.bat
 ```
 
-遇到依赖相关问题，可以先执行
+等效操作：
 
 ```bash
-pip install -r requirements.txt
-```
 
-等效于以下手动操作顺序：
+# 1. 生成 changelog
 
-```bat
-@REM 更新日志
 python tools/gen_changelog_by_tags.py --latest-to-head
-@REM 生成 PDF 和目录索引
+
+# 2. 导出 PDF（可选）
+
 python tools/pdf_export/export_to_pdf.py --pdf-engine=tectonic --cjk-font="Microsoft YaHei"
-@REM 修正 Markdown 格式
+
+# 3. 修复 Markdown 格式
+
 python tools/fix_markdown.py
-@REM 检查 Markdown 格式
-markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
+
+# 4. Lint 检查
+
+markdownlint "docs/**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
 ```
 
-> **注意**：MkDocs Material 迁移后，标签索引由 `tags` 插件自动生成，无需手动工具维护。
+!!! note "关于标签索引"
+    MkDocs Material 的 `tags` 插件会自动生成标签索引页面，无需手动维护 `tags.md`。
 
-✅ 建议在每次合并前执行一次。
+### 5.2 格式化工具
+
+#### Markdown 自动修复
+
+```bash
+
+# 修复所有文件
+
+python tools/fix_markdown.py
+
+# 查看修复预览（不实际修改）
+
+python tools/fix_markdown.py --dry-run
+
+# 修复特定文件
+
+python tools/fix_markdown.py docs/entries/DID.md
+```
+
+**修复内容**：
+
+- 加粗链接格式
+- 列表项空格
+- 链接括号格式
+- 冒号格式
+- 多余空行
+
+#### Markdownlint 检查
+
+```bash
+
+# 检查所有文档
+
+markdownlint "docs/**/*.md" --ignore "node_modules" --ignore "site"
+
+# 检查并自动修复
+
+markdownlint "docs/**/*.md" --fix
+```
+
+### 5.3 构建与预览
+
+```bash
+
+# 本地预览（支持热重载）
+
+mkdocs serve
+
+# 严格模式构建（有警告即失败）
+
+mkdocs build --strict
+
+# 普通构建
+
+mkdocs build
+```
+
+### 5.4 PDF 导出
+
+```bash
+
+# 使用 tectonic 引擎导出 PDF
+
+python tools/pdf_export/export_to_pdf.py \
+  --pdf-engine=tectonic \
+  --cjk-font="Microsoft YaHei"
+```
+
+详见 [工具文档](tools/README.md#pdf-导出工具)。
 
 ---
 
-## 7️⃣ 发布与更新日志
+## 6️⃣ CI/CD 监控
 
-### 7.1 手动标记版本
+### 6.1 GitHub Actions 工作流
+
+主要 CI 流程：
+
+| 工作流文件                      | 触发条件                   | 主要任务                 |
+| -------------------------- | ---------------------- | -------------------- |
+| `markdown_format.yml`      | push / PR              | Markdown 格式检查        |
+| `build.yml`                | push / PR              | MkDocs 构建测试          |
+| `deploy.yml`               | push to main           | 部署到 Cloudflare Pages |
+| `release.yml`              | 新标签推送                  | 创建 GitHub Release    |
+
+### 6.2 Cloudflare Pages 部署
+
+**部署配置**：
+
+- **构建命令**: `bash .cfpages-build.sh`
+- **构建输出目录**: `site`
+- **环境变量**: 见 Cloudflare Pages 控制台
+
+**监控地址**：
+
+- **生产环境**: <https://wiki.mpsteam.cn>
+- **预览部署**: 每个 PR 都会生成预览链接
+
+### 6.3 CI 失败处理
+
+| 失败类型         | 常见原因             | 解决方法                      |
+| ------------ | ---------------- | ------------------------- |
+| Markdown Lint | 格式不符合规范          | 运行 `fix_markdown.py` 修复    |
+| Build Failed | 链接失效/Frontmatter 错误 | 检查错误日志，修复对应问题             |
+| Deploy Failed | Cloudflare 配置问题    | 检查构建脚本与 Cloudflare Pages 配置 |
+
+---
+
+## 7️⃣ 应急处理
+
+### 7.1 紧急回滚
+
+如果发现 main 分支有严重问题：
 
 ```bash
-git tag v1.3.4
-git push origin v1.3.4
+
+# 1. 创建 hotfix 分支
+
+git checkout -b hotfix/critical-fix main
+
+# 2. 修复问题并测试
+
+# ...
+
+# 3. 快速合并（跳过常规 PR 流程）
+
+git checkout main
+git merge hotfix/critical-fix --no-ff
+git push origin main
+
+# 4. 补充 PR 记录（事后）
+
 ```
 
-### 7.2 自动生成更新日志
+### 7.2 数据备份
 
-使用工具脚本生成：
+定期备份关键文件：
+
+- `docs/entries/` - 所有词条
+- `docs/changelog.md` - 版本历史
+- `mkdocs.yml` - 站点配置
+- `docs/admin/config.yml` - CMS 配置
+
+!!! tip "自动备份"
+    Git 本身就是版本控制系统，所有历史都可恢复。建议定期检查 `.gitignore` 确保重要文件已纳入版本控制。
+
+### 7.3 冲突解决
+
+当多个 PR 同时修改同一文件：
 
 ```bash
+
+# 1. 让后提交的 PR 作者 rebase main
+
+git checkout feat/branch-name
+git fetch origin
+git rebase origin/main
+
+# 2. 手动解决冲突
+
+# ...
+
+# 3. 继续 rebase
+
+git add .
+git rebase --continue
+
+# 4. 强制推送（仅限个人分支）
+
+git push origin feat/branch-name --force-with-lease
+```
+
+### 7.4 联系信息
+
+遇到技术问题可联系：
+
+- **GitHub Issues**: <https://github.com/mps-team-cn/Multiple_Personality_System_wiki/issues>
+- **讨论区**: <https://github.com/mps-team-cn/Multiple_Personality_System_wiki/discussions>
+
+---
+
+## 📚 附录
+
+### A. 推荐开发环境
+
+| 工具               | 推荐版本      | 说明               |
+| ---------------- | --------- | ---------------- |
+| Python           | ≥ 3.10    | 运行工具脚本           |
+| Node.js          | ≥ 18      | 运行 npm 脚本（可选）    |
+| markdownlint-cli | 最新        | Markdown 格式检查    |
+| tectonic         | 最新        | PDF 导出引擎         |
+| MkDocs           | ≥ 1.5     | 静态站点生成器          |
+| gh               | 最新        | GitHub CLI（发布管理） |
+
+### B. 常用命令速查
+
+```bash
+
+# 环境准备
+
+python3 -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+
+# 本地开发
+
+mkdocs serve
+python tools/fix_markdown.py
+markdownlint "docs/**/*.md"
+
+# 发布流程
+
 python tools/gen_changelog_by_tags.py --latest-to-head
+git tag v1.4.0 -m "Release v1.4.0"
+git push origin v1.4.0
+gh release create v1.4.0 --notes-file docs/changelog.md
 ```
 
-输出文件：`CHANGELOG.md`
-详见 [tools/README.md](tools/README.md)。
+### C. 关键文档索引
+
+| 文档类别   | 文档路径                                  |
+| ------ | ------------------------------------- |
+| 贡献指南   | `docs/contributing/index.md`          |
+| PR 流程  | `docs/contributing/pr-workflow.md`    |
+| 编写规范   | `docs/contributing/writing-guidelines.md` |
+| 开发约定   | `AGENTS.md`                           |
+| 工具文档   | `docs/tools/README.md`                |
+| 词条模板   | `docs/TEMPLATE_ENTRY.md`              |
+| GitHub 工作流 | `docs/GITHUB_WORKFLOW.md`             |
 
 ---
 
-## 8️⃣ 审核要点（管理员）
-
-合并前请检查以下项目：
-
-| 检查项     | 要求                   |
-| ------- | -------------------- |
-| 🧩 结构   | 文件路径、命名与目录一致         |
-| 📚 内容   | 引用可靠（ICD/DSM/学术文献）   |
-| 🔗 链接   | 无断链、相对路径正确           |
-| 🧹 格式   | Markdownlint、CI 全部通过 |
-| 🗓️ 元数据 | Frontmatter、更新时间正确   |
-
----
-
-## 9️⃣ 附录：推荐环境
-
-| 工具               | 推荐版本  | 说明       |
-| ---------------- | ----- | -------- |
-| Python           | ≥3.10 | 运行工具脚本   |
-| Node.js          | ≥18   | 运行更新脚本   |
-| markdownlint-cli | 最新    | Lint 校验  |
-| tectonic         | 最新    | PDF 导出引擎 |
-
----
-
-### ✅ 建议后续改进
-
-1. 可在 CI 中加入 `tools/run_local_updates.bat` 自动运行流程，减少人工误差。
-2. 将生成日志、PDF、Lint 等合并到一个 `make all` 或 `npm run full-update` 中，实现跨平台一键构建。
+!!! success "文档版本"
+    最后更新：2025-01-12
+    如有疑问，请在 GitHub Issues 中提问。
