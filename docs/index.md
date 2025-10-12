@@ -42,6 +42,13 @@
 - [浏览系统运作](#system-operations)
 - [实践指南入口](entries/Practice-Guide.md)
 
+### :material-link-variant: 快速入口
+
+- 🔍 [标签索引](tags.md) - 按主题分类浏览全部词条
+- 📝 [查看术语](Glossary.md) - 快速查询专业术语定义
+- 🔄 [更新日志](changelog.md) - 追踪最新内容变更
+- 🤝 [贡献指南](contributing/index.md) - 了解如何参与共建
+
 ---
 
 ## 重要提醒
@@ -198,15 +205,6 @@
 - [实践指南导览](entries/Practice-Guide.md)：配套的意识训练、冥想、可视化等辅助技巧
 
 👉 **适合：** 想要通过系统化训练创造 Tulpa 的新手，寻求意识伙伴与陪伴的探索者
-
----
-
-## 📖 快速入口
-
-- 🔍 [标签索引](tags.md) - 按主题分类浏览全部词条
-- 📝 [查看术语](Glossary.md) - 快速查询专业术语定义
-- 🔄 [更新日志](changelog.md) - 追踪最新内容变更
-- 🤝 [贡献指南](contributing/index.md) - 了解如何参与共建
 
 ---
 
