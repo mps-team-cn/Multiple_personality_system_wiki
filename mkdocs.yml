@@ -278,18 +278,15 @@ plugins:
 
 # 导航结构
 nav:
-  - 首页: index.md
-  - 快速开始:
-      - 快速入门: QuickStart.md
-      - 贡献指南: contributing/index.md
-      - 贡献者墙: contributing/contributors.md
-      - 更新日志: changelog.md
-      - 序言: Preface.md
-  - 词条索引:
+  - Wiki首页: index.md
+
+  - 入门指引:
+      - 快速开始: QuickStart.md
       - 标签索引: tags.md
-      - 术语表: Glossary.md
+      - 术语词典: Glossary.md
+
   - 核心概念:
-      - 核心概念导览: entries/Core-Concepts-Guide.md
+      - 概念导览: entries/Core-Concepts-Guide.md
       - 基础概念:
           - entries/Dissociation.md
           - entries/Mps-Basics.md
@@ -307,8 +304,9 @@ nav:
           - entries/Structural-Dissociation-Theory.md
           - entries/Apparently-Normal-Part-Emotional-Part-Model.md
           - entries/Personality-Structure-Theory.md
+
   - 系统运作:
-      - 系统运作导览: entries/System-Operations.md
+      - 运作导览: entries/System-Operations.md
       - 前台与切换:
           - entries/Front-Fronting.md
           - entries/Switch.md
@@ -324,13 +322,15 @@ nav:
           - entries/Gatekeeper.md
           - entries/Protector.md
           - entries/Internal-Self-Helper-ISH.md
+
   - 心理健康:
-      - 心理健康导览: entries/Mental-Health-Guide.md
+      - 健康导览: entries/Mental-Health-Guide.md
       - entries/PTSD.md
       - entries/CPTSD.md
       - entries/Trauma.md
-  - 实践指南:
-      - 实践指南导览: entries/Practice-Guide.md
+
+  - 实践训练:
+      - 训练导览: entries/Practice-Guide.md
       - Tulpa 创造指南:
           - 指南总览: entries/Tulpa-Guide.md
           - 基础篇: entries/Tulpa-Guide-1.md
@@ -349,6 +349,11 @@ nav:
           - entries/Grounding.md
           - entries/Sensory-Regulation-Strategies.md
           - entries/Emotion-Regulation.md
+
+  - 参与贡献:
+      - 参与贡献: contributing/index.md
+      - 贡献者墙: contributing/contributors.md
+
   - 回到主站: https://mpsteam.cn/
 
 # 严格模式
