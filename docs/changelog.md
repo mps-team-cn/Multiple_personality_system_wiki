@@ -1,5 +1,46 @@
 # 更新日志
 
+## [未发布] - 贡献指南完善与贡献者墙上线 (2025-10-12)
+
+### ✨ 新功能
+
+- **贡献者墙上线**
+    - 新增贡献者墙页面 ([contributors.md](contributing/contributors.md))
+    - 使用 MkDocs Material Grid Cards 展示核心维护者
+    - 添加 GitHub 头像(核心维护者 80px,贡献者表格 40px)
+    - 响应式卡片布局,自适应屏幕尺寸
+
+### 🔧 文档重构
+
+- **贡献指南文件重命名**
+    - 所有中文文件名改为英文,提升兼容性
+    - PR流程.md → pr-workflow.md
+    - 学术引用.md → academic-citation.md
+    - 诊断临床规范.md → clinical-guidelines.md
+    - 技术约定.md → technical-conventions.md
+    - 编写规范.md → writing-guidelines.md
+
+### 👥 团队成员
+
+- **核心维护者 (4人)**
+    - [@kuliantnt](https://github.com/kuliantnt) (脸脸系统) - 项目创始人
+    - [@shishuiliunian5](https://github.com/shishuiliunian5) (逝水流年系统)
+    - [@fengqingyu430-collab](https://github.com/fengqingyu430-collab) (羽喵)
+    - [@GrainRR](https://github.com/GrainRR) (乌芷) - 造T相关信息
+
+- **其他贡献者 (2人)**
+    - [@XingY-YuXi](https://github.com/XingY-YuXi) - Bug 报告
+    - [@Jellyfish-eng](https://github.com/Jellyfish-eng) - 词条线索
+
+### 📝 文档更新
+
+- 更新 CONTRIBUTING.md 所有链接指向新文件名
+- 更新 README.md 项目结构说明
+- 在贡献指南导航中添加贡献者墙链接
+- 修复 QuickStart.md 中的学术引用链接
+
+---
+
 ## [v3.10.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.10.0) - 搜索优化与基础设施迁移 (2025-10-12)
 
 ### ✨ 新功能
