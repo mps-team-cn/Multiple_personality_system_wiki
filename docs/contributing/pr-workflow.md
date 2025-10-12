@@ -410,10 +410,10 @@ cat docs/VALIDATION_REPORT.md
 
 ### 9.1 文档资源
 
-- [编写规范](编写规范.md)
-- [学术引用](学术引用.md)
-- [诊断临床规范](诊断临床规范.md)
-- [技术约定](技术约定.md)
+- [编写规范](writing-guidelines.md)
+- [学术引用](academic-citation.md)
+- [诊断临床规范](clinical-guidelines.md)
+- [技术约定](technical-conventions.md)
 
 ### 9.2 问题反馈
 
@@ -459,8 +459,8 @@ cat docs/VALIDATION_REPORT.md
 
 ## 相关文档
 
-- [编写规范](编写规范.md)
-- [学术引用](学术引用.md)
-- [诊断临床规范](诊断临床规范.md)
-- [技术约定](技术约定.md)
+- [编写规范](writing-guidelines.md)
+- [学术引用](academic-citation.md)
+- [诊断临床规范](clinical-guidelines.md)
+- [技术约定](technical-conventions.md)
 - [贡献指南总览](index.md)

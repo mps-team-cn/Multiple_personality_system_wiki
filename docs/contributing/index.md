@@ -4,25 +4,29 @@
 
 ## 📋 快速导航
 
-### [编写规范](编写规范.md)
+### [编写规范](writing-guidelines.md)
 
 通用约定、语言规范、格式要求与 Markdown 规范
 
-### [学术引用](学术引用.md)
+### [学术引用](academic-citation.md)
 
 引用格式、证据分级与来源要求
 
-### [诊断临床规范](诊断临床规范.md)
+### [诊断临床规范](clinical-guidelines.md)
 
 病理学、诊断内容的强制要求
 
-### [技术约定](技术约定.md)
+### [技术约定](technical-conventions.md)
 
 文件结构、链接管理、图片资源组织
 
-### [PR 流程](PR流程.md)
+### [PR 流程](pr-workflow.md)
 
 提交流程、检查清单与本地开发指南
+
+### [贡献者墙](contributors.md)
+
+致谢所有为项目做出贡献的朋友们
 
 ### [管理员操作指南](../ADMIN_GUIDE.md)
 
@@ -45,15 +49,15 @@
 
 ### 第一步：了解规范
 
-1. 阅读 [编写规范](编写规范.md)，了解基本要求
-2. 如编写病理学内容，务必查看 [诊断临床规范](诊断临床规范.md)
-3. 了解 [技术约定](技术约定.md) 中的文件组织规则
+1. 阅读 [编写规范](writing-guidelines.md)，了解基本要求
+2. 如编写病理学内容，务必查看 [诊断临床规范](clinical-guidelines.md)
+3. 了解 [技术约定](technical-conventions.md) 中的文件组织规则
 
 ### 第二步：本地开发
 
 #### 配置 Python 环境
 
-推荐使用虚拟环境（详见 [技术约定 - Python 环境配置](技术约定.md#7-python-环境配置)）：
+推荐使用虚拟环境（详见 [技术约定 - Python 环境配置](technical-conventions.md#7-python-环境配置)）：
 
 ```bash
 
@@ -84,7 +88,7 @@ mkdocs serve
 
 ### 第三步：提交 PR
 
-详细流程请参考 [PR 流程](PR流程.md)
+详细流程请参考 [PR 流程](pr-workflow.md)
 
 ---
 
@@ -117,7 +121,7 @@ mkdocs serve
 
 ### 引用格式有什么要求？
 
-必须包含来源名称、版本、访问日期。详见 [学术引用](学术引用.md)。
+必须包含来源名称、版本、访问日期。详见 [学术引用](academic-citation.md)。
 
 ### 图片应该放在哪里？
 
@@ -125,7 +129,7 @@ mkdocs serve
 - 一般图片：`docs/assets/images/`
 - 小图标：`docs/assets/icons/`
 
-详见 [技术约定](技术约定.md#图片资源组织)。
+详见 [技术约定](technical-conventions.md#图片资源组织)。
 
 ---
 

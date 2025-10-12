@@ -228,7 +228,7 @@
 
 ## 相关文档
 
-- [编写规范](编写规范.md)
-- [诊断临床规范](诊断临床规范.md)
-- [技术约定](技术约定.md)
-- [PR 流程](PR流程.md)
+- [编写规范](writing-guidelines.md)
+- [诊断临床规范](clinical-guidelines.md)
+- [技术约定](technical-conventions.md)
+- [PR 流程](pr-workflow.md)
