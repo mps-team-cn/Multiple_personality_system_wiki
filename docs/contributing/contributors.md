@@ -8,23 +8,57 @@
 
 感谢以下核心维护者对项目的持续贡献和维护:
 
-### [@kuliantnt](https://github.com/kuliantnt) (脸脸) 🏆
+<div class="grid cards" markdown>
 
-- **贡献次数**: 627+ commits
-- **主要贡献**: 项目创建、核心架构、文档体系建设、工具开发
-- **角色**: 项目创始人、核心维护者
+-   :fontawesome-solid-crown: **[@kuliantnt](https://github.com/kuliantnt)**
 
-### [@shishuiliunian5](https://github.com/shishuiliunian5) (逝水流年5合一) 🌟
+    ---
 
-- **贡献次数**: 23+ commits
-- **主要贡献**: 词条编写、内容完善
-- **角色**: 核心贡献者
+    ![kuliantnt](https://github.com/kuliantnt.png){ width="80" style="border-radius: 50%;" }
 
-### [@fengqingyu430-collab](https://github.com/fengqingyu430-collab) (羽喵) 🌟
+    **脸脸系统**
 
-- **贡献次数**: 8+ commits
-- **主要贡献**: 词条编写、翻译优化
-- **角色**: 核心贡献者
+    **角色:** 项目创始人、管理员、核心维护者
+
+    **主要贡献:** 项目创建、核心架构、文档体系建设、工具开发
+
+-   :fontawesome-solid-star: **[@shishuiliunian5](https://github.com/shishuiliunian5)**
+
+    ---
+
+    ![shishuiliunian5](https://github.com/shishuiliunian5.png){ width="80" style="border-radius: 50%;" }
+
+    **逝水流年系统**
+
+    **角色:** 核心贡献者、内容管理员
+
+    **主要贡献:** 词条编写、内容完善
+
+-   :fontawesome-solid-star: **[@fengqingyu430-collab](https://github.com/fengqingyu430-collab)**
+
+    ---
+
+    ![fengqingyu430-collab](https://github.com/fengqingyu430-collab.png){ width="80" style="border-radius: 50%;" }
+
+    **羽喵**
+
+    **角色:** 核心贡献者、内容管理员
+
+    **主要贡献:** 词条编写、翻译优化
+
+-   :fontawesome-solid-star: **[@GrainRR](https://github.com/GrainRR)**
+
+    ---
+
+    ![GrainRR](https://github.com/GrainRR.png){ width="80" style="border-radius: 50%;" }
+
+    **乌芷**
+
+    **角色:** 核心贡献者
+
+    **主要贡献:** 造T相关信息提供、专业知识咨询
+
+</div>
 
 ---
 
@@ -34,13 +68,14 @@
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 
-| 贡献者 | 贡献次数 | 主要贡献领域 |
-|--------|---------|-------------|
-| [@kuliantnt](https://github.com/kuliantnt) | 627+ | 项目架构、词条编写、工具开发、文档维护 |
-| [@shishuiliunian5](https://github.com/shishuiliunian5) | 23+ | 词条编写、内容完善 |
-| [@fengqingyu430-collab](https://github.com/fengqingyu430-collab) | 8+ | 词条编写、翻译优化 |
-| [@XingY-YuXi](https://github.com/XingY-YuXi) | - | Bug 报告、问题反馈 |
-| [@Jellyfish-eng](https://github.com/Jellyfish-eng) | - | 词条线索提供 |
+| 头像 | 贡献者 | 主要贡献领域 |
+|------|--------|-------------|
+| ![](https://github.com/kuliantnt.png){ width="40" style="border-radius: 50%;" } | [@kuliantnt](https://github.com/kuliantnt) | 项目架构、词条编写、工具开发、文档维护 |
+| ![](https://github.com/shishuiliunian5.png){ width="40" style="border-radius: 50%;" } | [@shishuiliunian5](https://github.com/shishuiliunian5) | 词条编写、内容完善 |
+| ![](https://github.com/fengqingyu430-collab.png){ width="40" style="border-radius: 50%;" } | [@fengqingyu430-collab](https://github.com/fengqingyu430-collab) | 词条编写、翻译优化 |
+| ![](https://github.com/GrainRR.png){ width="40" style="border-radius: 50%;" } | [@GrainRR](https://github.com/GrainRR) | 造T相关信息提供、专业知识咨询 |
+| ![](https://github.com/XingY-YuXi.png){ width="40" style="border-radius: 50%;" } | [@XingY-YuXi](https://github.com/XingY-YuXi) | Bug 报告、问题反馈 |
+| ![](https://github.com/Jellyfish-eng.png){ width="40" style="border-radius: 50%;" } | [@Jellyfish-eng](https://github.com/Jellyfish-eng) | 词条线索提供 |
 
 ### 查看完整贡献者列表
 
