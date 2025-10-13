@@ -66,6 +66,12 @@ comments: true
 
   [述情障碍（Alexithymia）](Alexithymia.md) — **已完成**
 
+- **标准化评估工具**
+
+  [DSM-5-TR 评估量表总览](DSM-5TR-Scales.md) — **已完成**
+
+  涵盖 Level 1/2 跨诊断量表、特定障碍严重度工具与 WHODAS 等功能评估，为临床初筛与追踪提供量化参考。
+
 ---
 
 ## DSM-5-TR 诊断分类体系
