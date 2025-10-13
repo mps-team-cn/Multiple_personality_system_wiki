@@ -262,6 +262,17 @@
 
 ---
 
+## 📬 联系我们
+
+有问题或建议？欢迎通过以下方式联系我们：
+
+- :material-email: **信息反馈**：[support@mpsteam.cn](mailto:support@mpsteam.cn)
+- :material-email-outline: **官方联系**：[contact@mpsteam.cn](mailto:contact@mpsteam.cn)
+- :material-github: **GitHub Issues**：[提交问题或建议](https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues)
+- :material-qqchat: **QQ 群**：935527821
+
+---
+
 :material-github: **开源协作** ：本项目在 [GitHub](https://github.com/mps-team-cn/Multiple_personality_system_wiki) 上开源，欢迎参与
 
 :material-license: **内容许可** ：除特别声明外，所有内容遵循 CC BY-SA 4.0 协议

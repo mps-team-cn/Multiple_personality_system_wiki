@@ -276,6 +276,7 @@ mkdocs build --strict
 ```bash
 
 # 构建到 site/ 目录
+
 uv mkdocs build
 
 # 严格模式构建（有警告则失败）
@@ -308,6 +309,15 @@ docsify serve .
 - [GitHub 提交流程指南](docs/GITHUB_WORKFLOW.md)
 - [词条模板](docs/TEMPLATE_ENTRY.md)
 - [维护者手册](docs/ADMIN_GUIDE.md)
+
+### 反馈与联系
+
+如有问题、建议或需要协作，欢迎通过以下方式联系我们：
+
+- **信息反馈**：[support@mpsteam.cn](mailto:support@mpsteam.cn) - 内容错误、改进建议、使用问题
+- **官方联系**：[contact@mpsteam.cn](mailto:contact@mpsteam.cn) - 合作洽谈、媒体咨询、其他事务
+- **GitHub Issues**：[提交问题或建议](https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues)
+- **QQ 群**：935527821
 
 ### 提交流程（简要）
 
