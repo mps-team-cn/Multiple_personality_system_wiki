@@ -6,7 +6,7 @@ tags:
 
 topic: 诊断与临床
 title: DSM-5-TR 评估量表总览
-updated: 2025-02-14
+updated: 2025-10-13
 synonyms:
   - DSM-5-TR Assessment Measures Overview
   - DSM-5-TR 量表
@@ -118,13 +118,13 @@ DSM-5-TR 中继续保留 **Alternative Model for Personality Disorders (AMPD)**
 
 ## 七、获取与使用说明
 
-* 📥 **下载地址**（APA 官方）：
+- **下载地址（APA 官方）**：
   [https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures](https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures)
 
-* 🔖 **使用权限**：
+- **使用权限**：
   APA 允许临床与科研用途的免费使用与打印，不得商业化分发。
 
-* 🗒️ **语言版本**：
+- **语言版本**：
   英文原版由 APA 提供；部分量表（如 PHQ-9、GAD-7、WHODAS 2.0）已有官方中文翻译。
 
 ---
@@ -147,12 +147,20 @@ DSM-5-TR 中继续保留 **Alternative Model for Personality Disorders (AMPD)**
 2. APA. *DSM-5-TR Online Assessment Measures.*
 3. World Health Organization. *WHODAS 2.0 Manual.*
 4. Kroenke, K. et al. (2001). *The PHQ-9.* *J Gen Intern Med.*
-5. Weathers, F. W. et al. (2013). *The PTSD Checklist for DSM-5 (PCL-5).* 
+5. Weathers, F. W. et al. (2013). *The PTSD Checklist for DSM-5 (PCL-5).*
 6. Krueger, R. F., & Markon, K. E. (2014). *PID-5 development and validation.*
 
 ---
+## 十、相关资源
 
-## 下一步
+- [APA 官方评估工具页面](https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures)
+- 各量表的授权中文译本可通过学术出版渠道或经授权的机构获取。
 
-是否希望我们继续整理 📘 **《DSM-5-TR 常用量表下载索引表（含 APA 链接与中译版来源）》**？
-可在 Wiki 页面中制作可点击表格，为各量表补充「📄 英文版」「🌏 中文版」下载链接。
+---
+
+## 十一、相关词条
+
+- [临床诊断导览](Clinical-Diagnosis-Guide.md)
+- [创伤后应激障碍（PTSD）](PTSD.md)
+- [解离性身份障碍（DID）](DID.md)
+- [人格障碍](Personality-Disorders.md)
