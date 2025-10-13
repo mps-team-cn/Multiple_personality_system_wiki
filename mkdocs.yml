@@ -7,6 +7,9 @@ repo_name: mps-team-cn/Multiple_personality_system_wiki
 copyright: Copyright &copy; 2024-2025 Multiple Personality System Wiki
 edit_uri: edit/main/docs/
 
+hooks:
+  - tools/mkdocs_hooks.py
+
 theme:
   name: material
   language: zh
@@ -147,7 +150,7 @@ extra_css:
 extra_javascript:
   - assets/extra.js
   - assets/giscus-loader.js  # Giscus 评论加载器
-  - assets/search-phrase-default.js #搜索优化js
+  - assets/search-phrase-default.js # 搜索短语自动加引号
 
 
 # Markdown 扩展
