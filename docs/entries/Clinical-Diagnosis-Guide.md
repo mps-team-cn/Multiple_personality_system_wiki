@@ -5,7 +5,7 @@ tags:
 
 topic: 诊断与临床
 title: 诊断与临床导览
-updated: 2025-10-12
+updated: 2025-10-13
 comments: true
 ---
 
@@ -115,10 +115,12 @@ comments: true
 
     - [焦虑总览（Anxiety）](Anxiety.md) — **已完成**
     - [选择性缄默症（Selective Mutism）](Selective-Mutism.md) — **已完成**
+    - [特定恐惧症（Specific Phobia）](Specific-Phobia.md) — **已完成**
     - [社交焦虑障碍（SAD）](Social-Anxiety-Disorder.md) — **已完成**
     - [惊恐障碍（Panic Disorder）](Panic-Disorder.md) / [惊恐发作（Panic Attack）](Panic-Attack.md) — **已完成**
+    - [广场恐惧症（Agoraphobia）](Agoraphobia.md) — **已完成**
     - [广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md) — **已完成**
-    - 特定恐惧症（Specific Phobia）、广场恐惧症（Agoraphobia）、分离焦虑障碍（Separation Anxiety Disorder）等 — **待更新**
+    - 分离焦虑障碍（Separation Anxiety Disorder）等 — **待更新**
 
 ### 6) 强迫及相关障碍
 
@@ -136,7 +138,9 @@ comments: true
     - [复杂创伤后应激障碍（CPTSD）](CPTSD.md) — **已完成**
     - [闪回（Flashback）](Flashback.md) / [习得性无助（Learned Helplessness）](Learned-Helplessness.md) — **已完成**
     - [急性应激障碍（ASD）](Acute-Stress-Disorder-ASD.md) — **已完成**
-    - 适应障碍（Adjustment Disorders）、长期哀伤障碍（Prolonged Grief Disorder）等 — **待更新**
+    - [适应障碍（Adjustment Disorders）](Adjustment-Disorders.md) — **已完成**
+    - [长期哀伤障碍（Prolonged Grief Disorder）](Prolonged-Grief-Disorder.md) — **已完成**
+    - 反应性依恋障碍（Reactive Attachment Disorder）、去抑制性社交参与障碍（Disinhibited Social Engagement Disorder）等 — **待更新**
 
 ### 8) 解离障碍
 

@@ -4,21 +4,23 @@
 
 ### ✨ 新增词条
 
-- **新增 9 个精神障碍诊断词条**
-    - [急性应激障碍 (ASD)](entries/Acute-Stress-Disorder-ASD.md) - 创伤后 3 天至 1 个月的急性应激反应
+- **新增 11 个精神障碍诊断词条**
+    - [急性应激障碍 （ASD）](entries/Acute-Stress-Disorder-ASD.md) - 创伤后 3 天至 1 个月的急性应激反应
+    - [适应障碍 （Adjustment Disorders）](entries/Adjustment-Disorders.md) - 对可识别应激源的不成比例情绪/行为反应
+    - [长期哀伤障碍 （PGD）](entries/Prolonged-Grief-Disorder.md) - 亲密关系人死亡后的持续强烈哀伤反应
     - [失眠障碍](entries/Insomnia-Disorder.md) - 睡眠数量/质量不满，包含 CBT-I 治疗策略
-    - [重性抑郁障碍 (MDD)](entries/Major-Depressive-Disorder-MDD.md) - 持续 ≥2 周的抑郁心境
-    - [持续性抑郁障碍 (PDD)](entries/Persistent-Depressive-Disorder-PDD.md) - 慢性抑郁 ≥2 年
-    - [选择性缄默症 (SM)](entries/Selective-Mutism-SM.md) - 特定社交情境无法说话
-    - [社交焦虑障碍 (SAD)](entries/Social-Anxiety-Disorder-SAD.md) - 对社交/表现情境的强烈恐惧
-    - [惊恐障碍 (Panic Disorder)](entries/Panic-Disorder.md) - 反复意外惊恐发作
-    - [躯体变形障碍 (BDD)](entries/Body-Dysmorphic-Disorder-BDD.md) - 对外貌缺陷的强迫性关注
+    - [重性抑郁障碍 （MDD）](entries/Major-Depressive-Disorder-MDD.md) - 持续 ≥2 周的抑郁心境
+    - [持续性抑郁障碍 （PDD）](entries/Persistent-Depressive-Disorder-PDD.md) - 慢性抑郁 ≥2 年
+    - [选择性缄默症 （SM）](entries/Selective-Mutism-SM.md) - 特定社交情境无法说话
+    - [社交焦虑障碍 （SAD）](entries/Social-Anxiety-Disorder-SAD.md) - 对社交/表现情境的强烈恐惧
+    - [惊恐障碍 （Panic Disorder）](entries/Panic-Disorder.md) - 反复意外惊恐发作
+    - [躯体变形障碍 （BDD）](entries/Body-Dysmorphic-Disorder-BDD.md) - 对外貌缺陷的强迫性关注
 
 - **新增 4 个历史术语词条**
-    - [癔症 (Hysteria，已过时)](entries/Hysteria.md) - 追溯从古希腊"游走子宫"到现代诊断的演变
-    - [分离转换障碍 (ICD-10 F44，已过时)](entries/Dissociative-Conversion-Disorder-Obsolete.md) - ICD-10 混合分类的历史问题
-    - [多人格障碍 (MPD，已过时)](entries/Multiple-Personality-Disorder-Obsolete.md) - DSM-III-R 术语到 DID 的演变
-    - [易性症 (Transsexualism，已过时)](entries/Transsexualism-Obsolete.md) - 从 ICD-9 到 ICD-11 的性别诊断演变
+    - [癔症 （Hysteria，已过时）](entries/Hysteria.md) - 追溯从古希腊"游走子宫"到现代诊断的演变
+    - [分离转换障碍 （ICD-10 F44，已过时）](entries/Dissociative-Conversion-Disorder-Obsolete.md) - ICD-10 混合分类的历史问题
+    - [多人格障碍 （MPD，已过时）](entries/Multiple-Personality-Disorder-Obsolete.md) - DSM-III-R 术语到 DID 的演变
+    - [易性症 （Transsexualism，已过时）](entries/Transsexualism-Obsolete.md) - 从 ICD-9 到 ICD-11 的性别诊断演变
 
 ### 📚 词条完善
 
