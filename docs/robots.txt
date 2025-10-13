@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# 允许所有搜索引擎索引
+Disallow: /admin/
+Disallow: /dev/
+Disallow: /tools/
+
+# 网站地图
+Sitemap: https://wiki.mpsteam.cn/sitemap.xml
+Sitemap: https://wiki.mpsteam.cn/sitemap.xml.gz
+
+# 爬虫速率限制（针对百度）
+User-agent: Baiduspider
+Crawl-delay: 1
+
+# 针对必应
+User-agent: Bingbot
+Crawl-delay: 1

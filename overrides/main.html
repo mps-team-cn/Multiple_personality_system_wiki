@@ -1,5 +1,31 @@
 {% extends "base.html" %}
 
+{% block extrahead %}
+  {{ super() }}
+
+  {% if page %}
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:site_name" content="Multiple Personality System Wiki - 多意识体系统百科">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.canonical_url }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}多意识体系统百科">
+  <meta property="og:description" content="{% if page.meta and page.meta.description %}{{ page.meta.description }}{% else %}{{ config.site_description }}{% endif %}">
+  <meta property="og:image" content="{{ config.site_url }}assets/images/og-banner.png">
+  <meta property="og:locale" content="zh_CN">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {% endif %}多意识体系统百科">
+  <meta name="twitter:description" content="{% if page.meta and page.meta.description %}{{ page.meta.description }}{% else %}{{ config.site_description }}{% endif %}">
+  <meta name="twitter:image" content="{{ config.site_url }}assets/images/twitter-banner.png">
+
+  <!-- 额外的 SEO meta 标签 -->
+  <meta name="keywords" content="多重人格系统,解离障碍,DID,OSDD,创伤疗愈,心理健康,Tulpa,多意识体系统{% if page.meta and page.meta.tags %},{{ page.meta.tags | join(', ') }}{% endif %}">
+  <meta name="author" content="{{ config.site_author }}">
+  <link rel="canonical" href="{{ page.canonical_url }}">
+  {% endif %}
+{% endblock %}
+
 {% block content %}
   {{ super() }}
   {% include "partials/comments.html" %}

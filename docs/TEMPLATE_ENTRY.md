@@ -5,6 +5,7 @@
 - 新建词条时请先填写 Frontmatter：
     - `title`（一级标题文字）、`tags`（一个或多个分类标签）
     - `synonyms`（同义词/别名列表）
+    - `description`（简洁的词条描述，用于 SEO，建议 120-155 字符）
     - `updated`（YYYY-MM-DD）
     - `topic` 建议按照六大分类
     - `comments`（可选，填写 `true` 时将在页面底部开启评论区）
@@ -25,16 +26,15 @@
 ---
 title: 条目中文名（English/缩写）
 tags:
-
   - a
   - b
 
 topic: 临床与诊断
 synonyms:
-
   - 同义词示例
   - alias
 
+description: 简洁准确的词条描述，用于搜索引擎显示（120-155 字符，包含核心关键词）
 updated: YYYY-MM-DD
 comments: true  # 可选：启用评论区
 ---
