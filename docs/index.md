@@ -269,7 +269,7 @@
 - :material-email: **信息反馈**：[support@mpsteam.cn](mailto:support@mpsteam.cn)
 - :material-email-outline: **官方联系**：[contact@mpsteam.cn](mailto:contact@mpsteam.cn)
 - :material-github: **GitHub Issues**：[提交问题或建议](https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues)
-- :material-qqchat: **QQ 群**：935527821
+- :material-qqchat: **QQ 群**：<span class="qq-group-link">935527821</span>
 
 ---
 
