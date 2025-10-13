@@ -210,6 +210,11 @@ markdown_extensions:
           case: lower-ascii
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.blocks.admonition
+  - pymdownx.blocks.details
+  - pymdownx.blocks.html
+  - pymdownx.blocks.definition
+  - pymdownx.blocks.tab
 
 # 插件
 plugins:
