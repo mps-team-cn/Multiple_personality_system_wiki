@@ -4,3 +4,10 @@
   {{ super() }}
   {% include "partials/comments.html" %}
 {% endblock %}
+
+{% block analytics %}
+  {{ super() }}
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "930708a988684c6abd06505aeecfcdad"}'></script>
+  <!-- End Cloudflare Web Analytics -->
+{% endblock %}
