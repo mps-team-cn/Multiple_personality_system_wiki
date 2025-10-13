@@ -347,7 +347,7 @@ docsify serve .
 
 Build command: bash .cfpages-build.sh
 Build output directory: site
-Environment variables: PYTHON_VERSION=3.11
+# 环境变量：无需配置（使用 Cloudflare Pages 默认 Python 3.13.3）
 ```
 
 **在线地址** ：<https://wiki.mpsteam.cn/>
