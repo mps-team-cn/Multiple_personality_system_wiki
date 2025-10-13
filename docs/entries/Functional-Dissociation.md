@@ -8,7 +8,7 @@ tags:
 
 topic: 系统运作
 title: 功能性分离（Functional Dissociation）
-updated: 2025-10-11
+updated: 2025-10-13
 comments: true
 ---
 

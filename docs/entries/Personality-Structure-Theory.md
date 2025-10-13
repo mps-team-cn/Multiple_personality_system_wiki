@@ -8,7 +8,7 @@ tags:
 
 topic: 理论与分类
 title: 人格结构理论（Personality Structure Theory, Freud）
-updated: 2025-10-11
+updated: 2025-10-13
 synonyms:
 
 - 本我自我超我理论

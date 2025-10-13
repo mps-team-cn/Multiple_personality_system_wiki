@@ -8,7 +8,7 @@ tags:
 
 topic: 理论与分类
 title: 社会认知理论（Social-Cognitive Theory）
-updated: 2025-10-11
+updated: 2025-10-13
 synonyms:
 
 - 社会认知学习理论

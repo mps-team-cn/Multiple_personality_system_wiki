@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 性别不安（Gender Dysphoria，GD）
-updated: 2025-10-11
+updated: 2025-10-13
 synonyms:
 
 - 性别焦虑

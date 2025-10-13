@@ -13,7 +13,7 @@ synonyms:
     - Eye Movement Desensitization
     - 眼动疗法
 
-updated: 2025-10-11
+updated: 2025-10-13
 comments: true
 ---
 

@@ -7,7 +7,7 @@ tags:
 
 topic: 诊断与临床
 title: 强迫型人格障碍（Obsessive-Compulsive Personality Disorder，OCPD）
-updated: 2025-10-11
+updated: 2025-10-13
 synonyms:
 
 - 强迫型人格障碍

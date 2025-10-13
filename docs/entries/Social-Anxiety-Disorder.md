@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 社交焦虑障碍（Social Anxiety Disorder / Social Phobia，SAD）
-updated: 2025-10-12
+updated: 2025-10-13
 synonyms:
 
 - 社交焦虑障碍

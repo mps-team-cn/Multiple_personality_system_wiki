@@ -8,7 +8,7 @@ tags:
 
 topic: 理论与分类
 title: 认知失调（Cognitive Dissonance）
-updated: 2025-10-11
+updated: 2025-10-13
 synonyms:
 
 - 认知不协调

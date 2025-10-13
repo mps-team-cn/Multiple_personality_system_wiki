@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 解离性遗忘（Dissociative Amnesia，DA）
-updated: 2025-10-11
+updated: 2025-10-13
 comments: true
 ---
 

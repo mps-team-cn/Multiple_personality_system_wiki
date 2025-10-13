@@ -8,7 +8,7 @@ tags:
 
 topic: 系统运作
 title: 单一类系统（Single-Class Systems, Xianyu Theory）
-updated: 2025-10-11
+updated: 2025-10-13
 comments: true
 ---
 

@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 解离性身份障碍（Dissociative Identity Disorder，DID）
-updated: 2025-10-10
+updated: 2025-10-13
 comments: true
 ---
 

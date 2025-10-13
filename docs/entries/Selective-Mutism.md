@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 选择性缄默症（Selective Mutism，SM）
-updated: 2025-10-12
+updated: 2025-10-13
 synonyms:
 
 - 选择性缄默症

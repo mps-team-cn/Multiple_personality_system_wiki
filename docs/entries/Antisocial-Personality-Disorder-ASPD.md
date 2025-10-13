@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 反社会人格障碍（Antisocial Personality Disorder，ASPD）
-updated: 2025-10-11
+updated: 2025-10-13
 synonyms:
 
 - 反社会人格障碍

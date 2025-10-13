@@ -12,7 +12,7 @@ synonyms:
     - CPT
     - Cognitive Processing Therapy
 
-updated: 2025-10-11
+updated: 2025-10-13
 comments: true
 ---
 

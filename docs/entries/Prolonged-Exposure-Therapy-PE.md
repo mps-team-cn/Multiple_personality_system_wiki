@@ -13,7 +13,7 @@ synonyms:
     - Prolonged Exposure
     - 延长暴露治疗
 
-updated: 2025-10-11
+updated: 2025-10-13
 comments: true
 ---
 

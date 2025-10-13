@@ -8,7 +8,7 @@ tags:
 
 topic: 文化与表现
 title: 《妄想代理人》（Paranoia Agent）与集体意识的具象化
-updated: 2025-10-11
+updated: 2025-10-13
 comments: true
 ---
 
