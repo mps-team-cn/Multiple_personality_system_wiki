@@ -8,7 +8,7 @@ tags:
 
 topic: 系统运作
 title: 切换（Switch）
-updated: 2025-10-03
+updated: 2025-10-13
 comments: true
 ---
 
@@ -66,6 +66,7 @@ comments: true
 - [共前台（Co-fronting）](Co-Fronting.md)
 - [并行（Parallelism）](Parallelism.md)
 - [前台（Front / Fronting）](Front-Fronting.md)
+- [卡前台（Front Stuck / Frontstuck）](Frontstuck.md)
 - [成员（Alter）](Alter.md)
 - [后台（Back / Being Back）](Back-Being-Back.md)
 - [权限（Permissions）](Permissions.md)

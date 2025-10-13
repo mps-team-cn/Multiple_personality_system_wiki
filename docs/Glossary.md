@@ -94,6 +94,8 @@
 | [ADHD](entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md) | 注意缺陷多动障碍 | 涉及注意调节、执行功能与冲动控制困难的神经发育状况。 |
 | [Alexithymia](entries/Alexithymia.md) | 述情障碍 | 描述难以识别、理解与表达情绪的体验，常与创伤或解离共现。 |
 | [Anxiety](entries/Anxiety.md) | 焦虑 | 持续的担忧、警觉与自主神经反应；超出情境需求时可能发展为焦虑障碍。 |
+| [Body Dysmorphic Disorder，BDD](entries/Body-Dysmorphic-Disorder.md) | 躯体变形障碍 | 对外貌缺陷的强迫性专注与重复修饰行为，常伴羞耻、回避与自我伤害风险。 |
+| [Panic Attack](entries/Panic-Attack.md) | 惊恐发作 | 短时间内达到高峰的急性恐惧与自主神经反应，可作为多种诊断的说明符；需准备接地与呼吸调节策略。 |
 | [Panic Disorder，PD](entries/Panic-Disorder.md) | 惊恐障碍 | 以意外惊恐发作与持续担忧、回避为核心的焦虑障碍，需评估共病与安全计划。 |
 | [ASD](entries/Autism-Spectrum-Disorder.md) | 孤独症谱系 | 指神经多样性谱系的统称，常用于共病或支持需求的讨论。 |
 | [Bipolar Disorders](entries/Bipolar-Disorders.md) | 双相障碍 | 以躁狂/轻躁狂与抑郁发作为特征的情感障碍谱系，需要长期情绪稳定策略。 |
@@ -106,10 +108,13 @@
 | [Eating Disorders，ED](entries/Eating-Disorders-ED.md) | 进食障碍 | 涵盖限制、暴食与清除等饮食行为失调，常与创伤及控制感议题交织。 |
 | [Learned Helplessness](entries/Learned-Helplessness.md) | 习得性无助 | 指在长期不可控压力下习得的无力感与动机枯竭模式，常与创伤暴露及抑郁症状并存。 |
 | [DID](entries/DID.md) | 解离性身份障碍 | 以多个身份状态轮换控制与解离性失忆为核心的创伤相关解离障碍。 |
+| [Multiple Personality Disorder（Obsolete）](entries/Multiple-Personality-Disorder-Obsolete.md) | 多人格障碍（历史术语） | DSM-III 使用的旧称，已被 DID 取代；词条说明更名原因与现代对应诊断。 |
 | [Gender Dysphoria，GD](entries/Gender-Dysphoria-GD.md) | 性别不安 | 聚焦性别身份与出生指定性别不一致所带来的痛苦；与创伤、解离可能共存但需区分评估。 |
 | [Dissociative Amnesia](entries/Dissociative-Amnesia-DA.md) | 解离性遗忘 | 指无法回忆重要个人信息的解离症状，常与创伤事件关联。 |
 | [Flashback](entries/Flashback.md) | 闪回 | 创伤记忆以感官或情绪形式突然重现、难以控制的体验。 |
 | [Hypomania](entries/Hypomania.md) | 轻躁狂 | 强度低于躁狂的情绪与能量高涨期，需留意功能波动与躁狂转换风险。 |
+| [Hysteria（Obsolete）](entries/Hysteria.md) | 癔症（历史术语） | 历史诊断名，现代分类已拆分为转换障碍、躯体症状障碍与解离性障碍等；词条解释术语演变与沟通注意事项。 |
+| [Split Personality（Informal）](entries/Split-Personality.md) | 人格分裂（俗称） | 非正式标签，常被误用于 DID 或精神分裂症；词条提供澄清与沟通建议。 |
 | [Mania](entries/Mania.md) | 躁狂 | 情绪和能量显著高涨、睡眠需求减少、冲动决定或危险行为的状态。 |
 | [NPD](entries/Narcissistic-Personality-Disorder-NPD.md) | 自恋型人格障碍 | 以夸大、自我关注与共情困难为主要特征的人格模式。 |
 | [OCD](entries/OCD.md) | 强迫症 | 以反复出现的强迫思维与强迫行为循环为核心特征的状态。 |

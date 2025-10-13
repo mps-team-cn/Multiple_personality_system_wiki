@@ -1,0 +1,34 @@
+<!-- mps-wiki-icon-solid.svg -->
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="100%" viewBox="0 0 256 256"
+     role="img" aria-label="MPS Wiki icon (safe, no-CSS)">
+  <title>MPS Wiki — Icon</title>
+
+  <!-- 外边框（可选） -->
+  <rect x="4" y="4" width="248" height="248" rx="40" ry="40"
+        fill="none" stroke="currentColor" stroke-width="8"/>
+
+  <!-- 标志主体 -->
+  <g transform="translate(28,28)" fill="none"
+     stroke="currentColor" stroke-width="14"
+     stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="100" cy="100" r="92"/>
+    <path d="M100 16v40"/>
+    <path d="M173 56l-34 20"/>
+    <path d="M27 56l34 20"/>
+    <path d="M173 144l-34 -20"/>
+    <path d="M27 144l34 -20"/>
+    <path d="M100 184v-40"/>
+    <circle cx="100" cy="100" r="48"/>
+  </g>
+
+  <!-- 节点（使用当前色填充） -->
+  <circle cx="128" cy="128" r="9" fill="currentColor"/>
+  <g transform="translate(28,28)" fill="currentColor">
+    <circle cx="100" cy="100" r="9"/>
+    <circle cx="100" cy="32" r="9"/>
+    <circle cx="166" cy="68" r="9"/>
+    <circle cx="34"  cy="68" r="9"/>
+    <circle cx="100" cy="168" r="9"/>
+  </g>
+</svg>

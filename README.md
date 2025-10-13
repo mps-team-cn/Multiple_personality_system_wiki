@@ -1,6 +1,7 @@
 # Multiple Personality System Wiki
 
 > 多重意识体系统与相关心理健康主题的中文知识库与开源协作项目。
+> 本 Wiki 致力于提供中立、客观的信息。所有更新仅面向使用者，不涉及或受社区争议、政治事件、意识形态等因素影响。
 > 在线版本：<https://wiki.mpsteam.cn/>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -195,6 +196,12 @@ plurality_wiki/
 
 ### 环境准备
 
+在进入项目之前，请确保已经安装了Python和Pip（大部分操作系统发行版都默认已经下载了前者，少部分没有下载后者，请自行检查）。
+
+在进入项目之后，请先确保项目初始化完成。目前支持以下方法
+
+#### 1. 使用全局环境和pip（因为会污染全局环境，故并不推荐）
+
 ```bash
 
 # 1. 安装 Python 依赖
@@ -209,7 +216,50 @@ mkdocs serve
 
 ```
 
+#### 2. 使用当前目录下的venv
+
+```bash
+
+# 1. 创建venv环境
+
+python -m venv path/to/Multi_person_system_wiki/project/.venv
+
+```
+
+第二部是要激活venv,这在不同的操作系统上有不同的途径。
+
+##### 在Windows上激活并使用
+
+```cmd
+
+path\to\Multi_personality_system_wiki\.venv\bin\activate.bat
+
+```
+
+##### 在MacOS/Linux发行版上使用
+
+```bash
+
+source *path/to/Multi_personality_system_wiki*/.venv/bin/activate
+
+```
+
+接下来的步骤与全局安装无异
+
+#### 3. 使用uv
+
+```bash
+
+pip install uv
+uv run mkdocs
+
+```
+
+接下来就可以正常开发了
+
 ### 构建静态站点
+
+如果使用的并非uv。
 
 ```bash
 
@@ -220,6 +270,19 @@ mkdocs build
 # 严格模式构建（有警告则失败）
 
 mkdocs build --strict
+```
+
+如果使用的是uv
+
+```bash
+
+# 构建到 site/ 目录
+
+uv mkdocs build
+
+# 严格模式构建（有警告则失败）
+
+uv mkdocs build --strict
 ```
 
 ### 旧版 Docsify 预览（已弃用）
@@ -247,6 +310,15 @@ docsify serve .
 - [GitHub 提交流程指南](docs/GITHUB_WORKFLOW.md)
 - [词条模板](docs/TEMPLATE_ENTRY.md)
 - [维护者手册](docs/ADMIN_GUIDE.md)
+
+### 反馈与联系
+
+如有问题、建议或需要协作，欢迎通过以下方式联系我们：
+
+- **信息反馈**：[support@mpsteam.cn](mailto:support@mpsteam.cn) - 内容错误、改进建议、使用问题
+- **官方联系**：[contact@mpsteam.cn](mailto:contact@mpsteam.cn) - 合作洽谈、媒体咨询、其他事务
+- **GitHub Issues**：[提交问题或建议](https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues)
+- **QQ 群**：935527821
 
 ### 提交流程（简要）
 

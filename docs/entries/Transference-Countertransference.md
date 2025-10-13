@@ -8,7 +8,7 @@ tags:
 
 topic: 理论与分类
 title: 移情与反移情（Transference and Countertransference）
-updated: 2025-10-05
+updated: 2025-10-13
 synonyms:
 
 - 移情

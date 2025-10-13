@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 进食障碍（Eating Disorders，ED）
-updated: 2025-10-05
+updated: 2025-10-13
 synonyms:
 
 - 饮食障碍

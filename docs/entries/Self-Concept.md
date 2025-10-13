@@ -8,7 +8,7 @@ tags:
 
 topic: 理论与分类
 title: 自我概念（Self-Concept）
-updated: 2025-10-05
+updated: 2025-10-13
 synonyms:
 
 - 自我认知

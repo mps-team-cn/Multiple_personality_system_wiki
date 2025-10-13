@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 复杂性创伤后应激障碍（CPTSD）
-updated: 2025-10-03
+updated: 2025-10-13
 synonyms:
 
 - 复杂性创伤
@@ -126,6 +126,9 @@ comments: true
 - [心理健康导览（Mental Health Guide）](Mental-Health-Guide.md)
 - [闪回（Flashback）](Flashback.md)
 - [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](PTSD.md)
+- [急性应激障碍（ASD）](Acute-Stress-Disorder-ASD.md)
+- [适应障碍（Adjustment Disorders）](Adjustment-Disorders.md)
+- [长期哀伤障碍（Prolonged Grief Disorder）](Prolonged-Grief-Disorder.md)
 - [侵入性思维（Intrusive Thoughts）](Intrusive-Thoughts.md)
 - [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)

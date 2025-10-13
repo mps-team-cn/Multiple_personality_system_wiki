@@ -8,7 +8,7 @@ tags:
 
 topic: 系统运作
 title: 后台（Back / Being Back）
-updated: 2025-10-03
+updated: 2025-10-13
 comments: true
 ---
 
@@ -39,9 +39,10 @@ comments: true
 - [前台（Front / Fronting）](Front-Fronting.md)
 - [成员（Alter）](Alter.md)
 - [共前台（Co-fronting）](Co-Fronting.md)
+- [切换（Switch）](Switch.md)
+- [卡前台（Front Stuck / Frontstuck）](Frontstuck.md)
 - [外投射（External Projection）](External-Projection.md)
 - [内部空间（Headspace / Inner World）](Headspace-Inner-World.md)
-- [切换（Switch）](Switch.md)
 - [内视（Visualization / Imagination）](Visualization-Imagination.md)
 - [权限（Permissions）](Permissions.md)
 

@@ -40,6 +40,7 @@
 
 | 脚本/模块                                | 功能摘要                                                                                       | 常用用法                                                         |
 | ------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------ |
+| `tools/update_git_timestamps.py`     | 根据 Git 历史记录自动更新词条的 `updated` 字段，确保时间戳与实际修改记录一致                                              | `python tools/update_git_timestamps.py` 或 `python tools/update_git_timestamps.py --dry-run` |
 | `tools/delete-cf-pages-project.js` | Cloudflare Pages 项目批量删除工具，支持分页获取、并发删除、保留最新 production 部署、强制删除别名部署                      | `CF_API_TOKEN="..." CF_ACCOUNT_ID="..." CF_PAGES_PROJECT="..." node tools/delete-cf-pages-project.js` |
 
 ### `retag_and_related.py` 标签过滤策略
@@ -452,6 +453,94 @@ mkdocs build  # 重新构建
 - 目录页会基于上述章节生成带页码的“图书式”排版，条目与页码均可点击跳转至对应内容；
 - 目录中的词条链接会自动重写为 PDF 内部锚点，确保离线文档中的跳转行为与线上一致。
 - 词条 Frontmatter 的 `updated` 字段支持 `YYYY-MM-DD` 字符串或 YAML 日期字面量，若留空、写成 `null`、布尔值或列表，导出脚本会终止并提示修正。
+
+### 🕒 Git 时间戳自动更新工具
+
+**背景：** 词条的 `updated` 字段应反映真实的最后修改时间，手动维护容易遗漏或不准确。通过读取 Git 历史记录，可以自动同步时间戳。
+
+**功能特性：**
+
+- ✅ 自动读取文件在 Git 中的最后提交时间
+- ✅ 批量更新 `docs/entries/` 下的所有词条
+- ✅ 支持单文件或目录处理
+- ✅ 预览模式 (`--dry-run`)，可在修改前查看变更
+- ✅ 详细输出模式 (`--verbose`)，显示所有文件状态
+- ✅ 智能跳过未修改和未提交的文件
+- ✅ 自动添加或更新 Frontmatter 中的 `updated` 字段
+
+**使用示例：**
+
+```bash
+
+# 更新所有词条（默认处理 docs/entries/）
+
+python tools/update_git_timestamps.py
+
+# 预览模式（不实际修改文件）
+
+python tools/update_git_timestamps.py --dry-run
+
+# 详细输出（显示所有文件状态，包括未修改的）
+
+python tools/update_git_timestamps.py --verbose
+
+# 更新指定文件
+
+python tools/update_git_timestamps.py docs/entries/DID.md
+
+# 更新指定目录
+
+python tools/update_git_timestamps.py docs/entries/
+
+# 组合使用
+
+python tools/update_git_timestamps.py --dry-run --verbose
+```
+
+**输出示例：**
+
+```text
+📊 更新模式: 找到 125 个词条文件
+================================================================================
+Attachment-Theory.md                               ✅ 已更新: 2025-10-05 → 2025-10-11
+DID.md                                             ✓ 已是最新: 2025-10-11
+Dissociation.md                                    ✓ 已是最新: 2025-10-08
+Tulpa.md                                           🔄 将更新: 2025-09-28 → 2025-10-10
+OSDD.md                                            ⚠️  跳过: 无法获取 Git 时间戳 (可能未提交)
+...
+================================================================================
+✨ 完成!
+
+   - 已修改: 23 个文件
+   - 已跳过: 102 个文件
+   - 总计: 125 个文件
+
+```
+
+**工作原理：**
+
+1. 使用 `git log -1 --format=%ai` 获取文件的最后提交时间
+2. 解析 Markdown 文件的 Frontmatter
+3. 比较现有的 `updated` 字段与 Git 时间戳
+4. 如果不一致，更新 Frontmatter 中的 `updated` 字段
+5. 保持文件的其他内容不变
+
+**注意事项：**
+
+- ⚠️ 只处理已提交到 Git 的文件，新创建未提交的文件会被跳过
+- ⚠️ 需要在 Git 仓库中运行
+- ⚠️ 如果 Frontmatter 中没有 `updated` 字段，会自动添加
+- ⚠️ 时间格式为 `YYYY-MM-DD`（与项目标准一致）
+- 💡 建议在大量修改前先使用 `--dry-run` 预览
+
+**集成到工作流：**
+
+可以在 `tools/run_local_updates.sh` 中添加此工具，确保每次维护时自动同步时间戳：
+
+```bash
+echo "📅 更新 Git 时间戳..."
+python3 tools/update_git_timestamps.py
+```
 
 ### 🚀 Cloudflare Pages 项目删除工具
 

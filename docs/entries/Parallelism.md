@@ -8,7 +8,7 @@ tags:
 
 topic: 系统运作
 title: 并行（Parallelism）
-updated: 2025-02-17
+updated: 2025-10-13
 comments: true
 ---
 

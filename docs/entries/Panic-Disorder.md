@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 惊恐障碍（Panic Disorder，PD）
-updated: 2025-01-07
+updated: 2025-10-13
 comments: true
 ---
 
@@ -56,9 +56,16 @@ _若惊恐发作影响日常生活、伴随自伤或失控担忧，请尽快联�
 
 ## 症状表现
 
-- **生理反应** ：心跳急剧加速、出汗、手脚发麻、胸痛或压迫感、呼吸急促、胃肠不适，常伴短暂的头晕与失衡感。[^nimh2024pd]
-- **认知体验** ：担心失控、发疯或死亡；对身体感受高度监控，形成灾难化解释。[^apa2022pd]
-- **情绪与行为** ：强烈的恐惧、对再次发作的 anticipatory anxiety、依赖安全行为（随身携带药物、避免独处），可能发展为广场恐惧式回避。[^nice2022pd]
+### 惊恐发作（Panic Attack）
+
+惊恐障碍的核心症状是 **意外性惊恐发作**，也可能伴随预期性或夜间发作。临床需辨识发作触发与物质、躯体因素的关联，避免误判。详见专门条目 [惊恐发作（Panic Attack）](Panic-Attack.md)，了解完整症状列表、分类与即时应对策略。[^apa2022pd]
+
+### 持续担忧与行为改变
+
+- **预期性焦虑（Anticipatory Anxiety）**：对再次发作的持续担忧或恐惧，可能持续数天至数周。[^apa2022pd]
+- **灾难化解释**：将身体感受（如心跳加速）误解为心脏病发作或死亡征兆。[^apa2022pd]
+- **安全行为**：随身携带药物、水、手机；避免独处或离家；频繁检查身体症状。[^nice2022pd]
+- **回避行为**：回避可能触发发作的场所或活动（如运动、咖啡因、拥挤场所），可能发展为广场恐惧症。[^nice2022pd]
 
 ## 鉴别与共存
 
@@ -94,7 +101,10 @@ _若惊恐发作影响日常生活、伴随自伤或失控担忧，请尽快联�
 
 ## 相关条目
 
+- [惊恐发作（Panic Attack）](Panic-Attack.md)
 - [焦虑（Anxiety）](Anxiety.md)
+- [广泛性焦虑障碍（Generalized Anxiety Disorder，GAD）](Generalized-Anxiety-Disorder-GAD.md)
+- [社交焦虑障碍（Social Anxiety Disorder / Social Phobia，SAD）](Social-Anxiety-Disorder.md)
 - [接地（Grounding）](Grounding.md)
 - [创伤后应激障碍（PTSD）](PTSD.md)
 - [应激反应（Stress Response）](Stress-Response.md)

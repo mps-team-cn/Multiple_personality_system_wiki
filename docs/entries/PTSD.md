@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）
-updated: 2025-10-03
+updated: 2025-10-13
 synonyms:
 
 - 创伤后应激障碍
@@ -103,6 +103,9 @@ comments: true
 - [侵入性思维（Intrusive Thoughts）](Intrusive-Thoughts.md)
 - [闪回（Flashback）](Flashback.md)
 - [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)
+- [急性应激障碍（ASD）](Acute-Stress-Disorder-ASD.md)
+- [适应障碍（Adjustment Disorders）](Adjustment-Disorders.md)
+- [长期哀伤障碍（Prolonged Grief Disorder）](Prolonged-Grief-Disorder.md)
 - [创伤（Trauma）](Trauma.md)
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)

@@ -8,7 +8,7 @@ tags:
 
 topic: 文化与表现
 title: 《分裂》（Split, 2016）中的 DID 形象分析
-updated: 2025-10-03
+updated: 2025-10-13
 comments: true
 ---
 

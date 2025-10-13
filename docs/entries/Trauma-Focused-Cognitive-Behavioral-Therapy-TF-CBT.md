@@ -13,7 +13,7 @@ synonyms:
     - TF-CBT
     - Trauma-Focused CBT
 
-updated: 2025-10-09
+updated: 2025-10-13
 comments: true
 ---
 

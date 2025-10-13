@@ -8,7 +8,7 @@ tags:
 
 topic: 系统运作
 title: 独立性（Independence）
-updated: 2025-10-03
+updated: 2025-10-13
 synonyms:
 
 - 独立意识

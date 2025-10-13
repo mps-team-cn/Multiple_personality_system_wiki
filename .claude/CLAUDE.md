@@ -45,10 +45,11 @@
 
 ### 自动化工具
 
-- 在提交前运行 `python3 tools/fix_markdown.py .`
-- 视任务执行 `markdownlint` 校验
+- **CI 自动化**：词条修改推送后，GitHub Actions 会自动运行时间戳更新和格式修复，无需手动运行脚本
+- 视任务执行 `markdownlint` 校验（可选）
 - 所有 Python 工具默认使用 `python3`
 - 大规模修改前必须确认相关索引、导览同步更新
+- 如需手动修复格式：`python3 tools/fix_markdown.py .`（CI 会自动处理，通常不需要）
 
 ## MANDATORY WORKFLOWS
 
@@ -75,10 +76,11 @@
 
 ### 任务执行要求
 
-- 提交前强制运行 `python3 tools/fix_markdown.py .`
+- **时间戳和格式**：推送后 CI 会自动更新时间戳和修复格式，无需手动干预
 - 大范围调整前确认相关 Guide（Clinical-Diagnosis、System-Operations、Practice、Trauma-Healing、Roles-Identity、Theory-Classification、Cultural-Media）是否需要同步更新
 - 保持 tags.md、index.md 与 Glossary 的一致性（如任务涉及）
 - 避免破坏 MkDocs 导航及 Frontmatter
+- 词条的 `updated` 字段会由 CI 自动维护，编辑时无需手动更新
 
 ## QUALITY STANDARDS
 
@@ -103,13 +105,14 @@
 ═══════════════════════════════════════
 
 - 会话开始：校验约束 → 工具调用前：确认流程 → 回复前：核对检查清单
-- 词条编辑：检查 Frontmatter → 更新导览 → 运行格式化工具
+- 词条编辑：检查 Frontmatter → 更新导览（格式和时间戳由 CI 自动处理）
 - 工具修改：同时更新 `docs/tools/README.md`
-- 提交前：`python3 tools/fix_markdown.py .` 与 `markdownlint`
+- 提交后：CI 会自动运行 `update_git_timestamps.py` 和 `fix_markdown.py`
 
 ## 项目知识存储
 
 ═══════════════════════════════════════
 
-- **关键概念**：Plurality、多重意识体；Docsify→MkDocs 迁移；Frontmatter；Conventional Commits
-- **重要路径**：`AGENTS.md`、`docs/contributing/`、`docs/TEMPLATE_ENTRY.md`、`docs/entries/`、`tools/`、`docs/tools/README.md`
+- **关键概念**：Plurality、多重意识体；Docsify→MkDocs 迁移；Frontmatter；Conventional Commits；CI 自动化
+- **重要路径**：`docs/contributing/`、`docs/TEMPLATE_ENTRY.md`、`docs/entries/`、`tools/`、`docs/tools/README.md`、`.github/workflows/`
+- **CI 自动化**：推送词条修改后，GitHub Actions 自动运行 `update_git_timestamps.py` 和 `fix_markdown.py`，然后触发 Cloudflare Pages 部署

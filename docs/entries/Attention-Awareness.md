@@ -7,7 +7,7 @@ tags:
 
 topic: 理论与分类
 title: 注意与觉察（Attention & Awareness）
-updated: 2025-10-05
+updated: 2025-10-13
 synonyms:
 
 - 注意力与觉察

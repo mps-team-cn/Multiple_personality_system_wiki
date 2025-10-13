@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）
-updated: 2025-10-03
+updated: 2025-10-13
 synonyms:
 
 - 多动症

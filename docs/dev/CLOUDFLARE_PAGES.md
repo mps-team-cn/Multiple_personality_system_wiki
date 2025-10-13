@@ -45,11 +45,11 @@ PYTHON_VERSION=3.11
 
 ### 4. 自定义域名 (可选)
 
-如果要使用自定义域名 `wiki.pluralitycn.com`:
+如果要使用自定义域名 `wiki.mpsteam.com`:
 
 1. 在 Cloudflare Pages 项目中，进入 **Custom domains**
 2. 点击 **Set up a custom domain**
-3. 输入 `wiki.pluralitycn.com`
+3. 输入 `wiki.mpsteam.com`
 4. 按照提示配置 DNS 记录
 
 ## 构建脚本说明

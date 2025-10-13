@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 强迫症（Obsessive-Compulsive Disorder, OCD）
-updated: 2025-10-03
+updated: 2025-10-13
 comments: true
 ---
 

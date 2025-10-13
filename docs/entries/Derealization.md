@@ -8,7 +8,7 @@ tags:
 
 topic: 系统运作
 title: 去现实化（Derealization）
-updated: 2025-10-04
+updated: 2025-10-13
 comments: true
 ---
 

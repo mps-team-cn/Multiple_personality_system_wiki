@@ -8,7 +8,7 @@ tags:
 
 topic: 角色与身份
 title: 特殊认同（Alterhuman）
-updated: 2025-10-03
+updated: 2025-10-13
 comments: true
 ---
 

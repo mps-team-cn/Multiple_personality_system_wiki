@@ -135,6 +135,11 @@ mkdocs serve
 
 ## 📞 获取帮助
 
-- 💬 在 GitHub Issues 中提问
+如有疑问或需要协助，欢迎通过以下方式联系我们：
+
+- :material-email: **信息反馈**：[support@mpsteam.cn](mailto:support@mpsteam.cn) - 内容错误、改进建议、使用问题
+- :material-email-outline: **官方联系**：[contact@mpsteam.cn](mailto:contact@mpsteam.cn) - 合作洽谈、媒体咨询、其他事务
+- :material-github: **GitHub Issues**：[提交问题或建议](https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues)
+- :material-qqchat: **QQ 群**：935527821
 - 📖 查阅各专题规范文档
 - 🔍 参考现有词条的编写方式

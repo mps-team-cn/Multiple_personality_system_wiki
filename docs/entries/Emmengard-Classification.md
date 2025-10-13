@@ -8,7 +8,7 @@ tags:
 
 topic: 角色与身份
 title: 埃蒙加德分类法（Emmengard Classification）
-updated: 2025-10-03
+updated: 2025-10-13
 comments: true
 ---
 

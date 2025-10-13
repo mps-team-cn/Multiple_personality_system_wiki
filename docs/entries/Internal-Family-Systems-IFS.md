@@ -14,7 +14,7 @@ synonyms:
     - 内在家庭系统治疗
     - 内部家庭系统疗法
 
-updated: 2025-10-09
+updated: 2025-10-13
 comments: true
 ---
 

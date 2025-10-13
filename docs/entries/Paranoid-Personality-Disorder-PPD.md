@@ -7,7 +7,7 @@ tags:
 
 topic: 诊断与临床
 title: 偏执型人格障碍（Paranoid Personality Disorder，PPD）
-updated: 2025-10-09
+updated: 2025-10-13
 synonyms:
 
 - 偏执型人格障碍
