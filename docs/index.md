@@ -119,7 +119,6 @@
     - [接地（Grounding）](entries/Grounding.md) - 回到当下的稳定技巧
     - [闪回（Flashback）](entries/Flashback.md) - 创伤记忆的重现
     - [触发（Trigger）](entries/Trigger.md) - 激活创伤反应的刺激
-    - [情绪调节](entries/Emotion-Regulation.md) - 管理情绪的策略
 
 - :material-account-multiple: [**角色与身份**](entries/Roles-Identity-Guide.md)
 
