@@ -1,0 +1,83 @@
+name: 自动修复词条
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/entries/*.md'
+  workflow_dispatch: # 允许手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  auto-fix:
+    name: 更新时间戳并修复格式
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 获取完整历史记录，以便 git log 工作
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装依赖
+        run: |
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: 运行时间戳更新脚本
+        run: |
+          echo "📅 更新词条时间戳..."
+          python3 tools/update_git_timestamps.py --verbose
+
+      - name: 运行 Markdown 格式修复
+        run: |
+          echo "🔧 修复 Markdown 格式..."
+          python3 tools/fix_markdown.py docs/entries/ --verbose
+
+      - name: 检查是否有更改
+        id: check_changes
+        run: |
+          if git diff --quiet docs/entries/; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "✅ 所有文件已是最新，无需提交"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "📝 检测到文件更新"
+            echo ""
+            echo "变更摘要:"
+            git diff --stat docs/entries/
+          fi
+
+      - name: 配置 Git
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: 提交更新
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git add docs/entries/*.md
+          git commit -m "chore: 自动更新词条时间戳和格式
+
+          - 根据 Git 历史更新 updated 字段
+          - 修复 Markdown 格式问题
+
+          🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+          Co-Authored-By: Claude <noreply@anthropic.com>"
+
+      - name: 推送更改
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git push

@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）
-updated: 2025-10-03
+updated: 2025-10-13
 synonyms:
 
 - 创伤后应激障碍

@@ -7,7 +7,7 @@ tags:
 
 topic: 理论与分类
 title: 学习与条件反射（Learning & Conditioning）
-updated: 2025-10-05
+updated: 2025-10-11
 synonyms:
 
 - 学习理论

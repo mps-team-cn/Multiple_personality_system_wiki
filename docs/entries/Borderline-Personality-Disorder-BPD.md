@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 边缘性人格障碍（Borderline Personality Disorder，BPD）
-updated: 2025-10-03
+updated: 2025-10-11
 comments: true
 ---
 

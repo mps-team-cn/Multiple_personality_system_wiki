@@ -8,7 +8,7 @@ tags:
 
 topic: 理论与分类
 title: 自我决定理论（Self-Determination Theory）
-updated: 2025-10-05
+updated: 2025-10-11
 synonyms:
 
 - 自主性动机理论

@@ -8,7 +8,7 @@ tags:
 
 topic: 文化与表现
 title: 《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻
-updated: 2025-10-03
+updated: 2025-10-11
 comments: true
 ---
 

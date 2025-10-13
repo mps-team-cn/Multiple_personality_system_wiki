@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 其他特定解离性障碍（OSDD）
-updated: 2025-10-03
+updated: 2025-10-11
 comments: true
 ---
 

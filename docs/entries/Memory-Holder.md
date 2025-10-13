@@ -8,7 +8,7 @@ tags:
 
 topic: 角色与身份
 title: 记忆持有者（Memory Holder）
-updated: 2025-10-03
+updated: 2025-10-11
 comments: true
 ---
 

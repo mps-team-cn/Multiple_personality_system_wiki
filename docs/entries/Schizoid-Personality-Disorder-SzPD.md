@@ -7,7 +7,7 @@ tags:
 
 topic: 诊断与临床
 title: 分裂样人格障碍（Schizoid Personality Disorder，SzPD）
-updated: 2025-10-09
+updated: 2025-10-11
 synonyms:
 
 - 分裂样人格障碍

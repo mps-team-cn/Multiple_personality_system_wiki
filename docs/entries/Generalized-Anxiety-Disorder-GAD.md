@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 广泛性焦虑障碍（Generalized Anxiety Disorder，GAD）
-updated: 2025-10-09
+updated: 2025-10-11
 synonyms:
 
 - 广泛性焦虑障碍

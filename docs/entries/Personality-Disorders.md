@@ -7,7 +7,7 @@ tags:
 
 topic: 诊断与临床
 title: 人格障碍（Personality Disorders）
-updated: 2025-10-09
+updated: 2025-10-11
 synonyms:
 
 - 人格障碍

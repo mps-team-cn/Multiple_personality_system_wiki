@@ -8,7 +8,7 @@ tags:
 
 topic: 角色与身份
 title: 图帕（Tulpa）
-updated: 2025-10-03
+updated: 2025-10-11
 comments: true
 ---
 

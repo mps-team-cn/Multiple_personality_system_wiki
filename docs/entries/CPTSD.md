@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 复杂性创伤后应激障碍（CPTSD）
-updated: 2025-10-03
+updated: 2025-10-13
 synonyms:
 
 - 复杂性创伤

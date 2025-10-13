@@ -8,7 +8,7 @@ tags:
 
 topic: 理论与分类
 title: 防御性解离（Defensive Dissociation）
-updated: 2025-10-05
+updated: 2025-10-11
 synonyms:
 
 - 防御性分离

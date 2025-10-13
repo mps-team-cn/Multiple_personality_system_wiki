@@ -8,7 +8,7 @@ tags:
 
 topic: 系统运作
 title: 多意识体系统（Multiple Personality System）
-updated: 2025-10-09
+updated: 2025-10-11
 synonyms:
 
 - 多意识体系统

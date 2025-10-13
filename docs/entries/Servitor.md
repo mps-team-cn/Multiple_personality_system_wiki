@@ -8,7 +8,7 @@ tags:
 
 topic: 角色与身份
 title: 傀儡（Servitor）
-updated: 2025-10-03
+updated: 2025-10-11
 comments: true
 ---
 

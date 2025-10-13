@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 创伤（Trauma）
-updated: 2025-10-03
+updated: 2025-10-11
 synonyms:
 
 - 心理创伤

@@ -14,7 +14,7 @@ synonyms:
     - Panic Attack
     - panicattack
 
-updated: 2025-01-13
+updated: 2025-10-13
 comments: true
 ---
 

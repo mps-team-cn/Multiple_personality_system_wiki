@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 轻躁狂（Hypomania）
-updated: 2025-10-05
+updated: 2025-10-11
 synonyms:
 
 - 轻躁狂
