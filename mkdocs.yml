@@ -245,6 +245,11 @@ plugins:
 
   - tags
 
+  - recently-updated:
+      limit: 100
+      include:
+        - entries/*
+
   # 排除不需要发布的开发与工具目录
   - exclude:
       glob:
@@ -285,6 +290,7 @@ nav:
 
   - 入门指引:
       - 快速开始: QuickStart.md
+      - 最近更新: updates.md
       - 标签索引: tags.md
       - 术语词典: Glossary.md
 

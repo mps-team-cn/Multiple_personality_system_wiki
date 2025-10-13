@@ -46,6 +46,7 @@
 
 - 🔍 [标签索引](tags.md) - 按主题分类浏览全部词条
 - 📝 [查看术语](Glossary.md) - 快速查询专业术语定义
+- ⏱️ [最近更新](updates.md) - 查看最新修改的词条和文档
 - 🔄 [更新日志](changelog.md) - 追踪最新内容变更
 - 🤝 [贡献指南](contributing/index.md) - 了解如何参与共建
 
