@@ -1,6 +1,7 @@
 # Multiple Personality System Wiki
 
 > 多重意识体系统与相关心理健康主题的中文知识库与开源协作项目。
+> 本 Wiki 致力于提供中立、客观的信息。所有更新仅面向使用者，不涉及或受社区争议、政治事件、意识形态等因素影响。
 > 在线版本：<https://wiki.mpsteam.cn/>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
