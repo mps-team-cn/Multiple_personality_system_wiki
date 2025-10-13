@@ -58,16 +58,19 @@ comments: true
 
 ## 其他核心评估概念
 
-- **意识状态与认知**  
-  [定向障碍（Disorientation）](Disorientation.md) — **已完成**  
+- **意识状态与认知**
+
+  [定向障碍（Disorientation）](Disorientation.md) — **已完成**
   聚焦时间、地点、自我定向受损的识别要点，辅助精神状态检查判断。
 
-- **伴随心理现象**  
-  [述情障碍（Alexithymia）](Alexithymia.md) — **已完成**  
+- **伴随心理现象**
+
+  [述情障碍（Alexithymia）](Alexithymia.md) — **已完成**
   说明情绪识别与表达困难对症状评估与治疗动机的影响。
 
-- **标准化评估工具**  
-  [DSM-5-TR 评估量表总览](DSM-5TR-Scales.md) — **已完成**  
+- **标准化评估工具**
+
+  [DSM-5-TR 评估量表总览](DSM-5TR-Scales.md) — **已完成**
   汇总跨诊断筛查、特异性严重度与功能残障量表，提供初诊筛查与持续随访的量化框架。
 
 ---

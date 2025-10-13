@@ -1,21 +1,24 @@
 ---
 tags:
-  - 诊断与临床
-  - 评估工具
-  - DSM-5-TR
+
+    - 诊断与临床
+    - 评估工具
+    - DSM-5-TR
 
 topic: 诊断与临床
 title: DSM-5-TR 评估量表总览
 updated: 2025-10-13
 synonyms:
-  - DSM-5-TR Assessment Measures Overview
-  - DSM-5-TR 量表
+
+    - DSM-5-TR Assessment Measures Overview
+    - DSM-5-TR 量表
+
 comments: true
 ---
 
 # DSM-5-TR 评估量表总览
 
-*DSM-5-TR Assessment Measures Overview*
+* DSM-5-TR Assessment Measures Overview*
 
 > 本表基于美国精神医学会（APA）官方发布的 DSM-5-TR 评估工具汇编整理，涵盖跨诊断、特异性障碍及人格与功能测评三大类量表。
 > 目的：用于临床初筛、严重度评估及治疗过程追踪。
@@ -119,12 +122,15 @@ DSM-5-TR 中继续保留 **Alternative Model for Personality Disorders (AMPD)**
 ## 七、获取与使用说明
 
 - **下载地址（APA 官方）**：
+
   [https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures](https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures)
 
 - **使用权限**：
+
   APA 允许临床与科研用途的免费使用与打印，不得商业化分发。
 
 - **语言版本**：
+
   英文原版由 APA 提供；部分量表（如 PHQ-9、GAD-7、WHODAS 2.0）已有官方中文翻译。
 
 ---
@@ -151,6 +157,7 @@ DSM-5-TR 中继续保留 **Alternative Model for Personality Disorders (AMPD)**
 6. Krueger, R. F., & Markon, K. E. (2014). *PID-5 development and validation.*
 
 ---
+
 ## 十、相关资源
 
 - [APA 官方评估工具页面](https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/assessment-measures)
