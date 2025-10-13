@@ -471,22 +471,29 @@ mkdocs build  # 重新构建
 **使用示例：**
 
 ```bash
+
 # 更新所有词条（默认处理 docs/entries/）
+
 python tools/update_git_timestamps.py
 
 # 预览模式（不实际修改文件）
+
 python tools/update_git_timestamps.py --dry-run
 
 # 详细输出（显示所有文件状态，包括未修改的）
+
 python tools/update_git_timestamps.py --verbose
 
 # 更新指定文件
+
 python tools/update_git_timestamps.py docs/entries/DID.md
 
 # 更新指定目录
+
 python tools/update_git_timestamps.py docs/entries/
 
 # 组合使用
+
 python tools/update_git_timestamps.py --dry-run --verbose
 ```
 
@@ -503,9 +510,11 @@ OSDD.md                                            ⚠️  跳过: 无法获取 
 ...
 ================================================================================
 ✨ 完成!
+
    - 已修改: 23 个文件
    - 已跳过: 102 个文件
    - 总计: 125 个文件
+
 ```
 
 **工作原理：**
