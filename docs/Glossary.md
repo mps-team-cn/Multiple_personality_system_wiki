@@ -1,10 +1,72 @@
+---
+title: 术语表（Glossary）
+topic: 全站索引
+tags:
+  - 索引
+  - 快速导览
+updated: 2025-10-13
+---
+
 # 术语表（Glossary）
 
-> 说明：本表聚焦常用术语的一致译名与站内链接。临床定义请查阅对应词条；外部参考：Pluralpedia、DSM-5-TR、ICD-11。
->
-> 💡 所有文档中的表格会根据屏幕宽度自动切换布局，桌面端呈现标准表格，移动端折叠为卡片式排版以便阅读。
+> 术语表用于统一站内术语的翻译与链接指向，便于跨文档对齐叙述与维护引用。
 
-## 常用术语（Common Terms）
+!!! info "使用建议"
+    - ✅ 搜索或跳转前，可先通过下方「快速导览」定位主题分区
+    - 🔄 若词条仍在更新，优先查看 `updated` 字段与对应条目时间
+    - 🧭 文内链接遵循相对路径规范，可直接复制到新增文档中复用
+
+!!! tip "条目状态说明"
+    - `✅ 已完成`：站内描述完整，可直接引用
+    - `🛠️ 更新中`：内容正在补充或校对，请留意上下文
+    - `📌 待补充`：暂缺详细说明，仅提供译名或占位
+
+---
+
+## 🧭 快速导览
+
+<div class="grid cards" markdown>
+
+-   :material-compass-outline: **常用术语**
+
+    日常沟通频率最高的基础概念  
+    [:octicons-arrow-right-16: 进入](#common-terms)
+
+-   :material-hand-heart: **实践与支持**
+
+    技法、协作与自助工具  
+    [:octicons-arrow-right-16: 进入](#practice-support)
+
+-   :material-account-group: **系统角色与类型**
+
+    常见成员职责与分类对照  
+    [:octicons-arrow-right-16: 进入](#system-roles-types)
+
+-   :material-creation: **系统体验与机制**
+
+    前台运作、记忆与互动结构  
+    [:octicons-arrow-right-16: 进入](#system-experience)
+
+-   :material-stethoscope: **诊断与临床**
+
+    术语与症状在专业语境下的对应  
+    [:octicons-arrow-right-16: 进入](#clinical)
+
+-   :material-book-cog: **相关概念与理论**
+
+    社群框架与跨学科理论  
+    [:octicons-arrow-right-16: 进入](#concepts-theories)
+
+-   :material-shimmer: **其他补充**
+
+    特殊案例与文化引用  
+    [:octicons-arrow-right-16: 进入](#others)
+
+</div>
+
+---
+
+## 常用术语（Common Terms） {#common-terms}
 
 | 术语 | 中文参考译名 | 社群用法/备注 |
 | --- | --- | --- |
@@ -20,7 +82,7 @@
 | [Headspace / Inner World](entries/Headspace-Inner-World.md) | 内部空间、幻境、里空间 | 系统成员在内在世界中互动、聚会或构建场景的心象空间。 |
 | [Trigger](entries/Trigger.md) | 触发 | 引发强烈情绪、记忆或症状反应的内外部线索，需要提前识别并准备应对策略。 |
 
-## 实践与支持
+## 实践与支持 {#practice-support}
 
 | 术语 | 中文参考译名 | 社群用法/备注 |
 | --- | --- | --- |
@@ -33,7 +95,7 @@
 | [Mindfulness](entries/Mindfulness.md) | 正念 | 以当下觉察与非评判态度为核心的训练，支持创伤知情的稳定化与情绪调节。 |
 | [Reconstruction](entries/Reconstruction.md) | 重构 | 描述重建系统结构、角色或记忆架构的有意过程。 |
 
-## 系统角色与类型
+## 系统角色与类型 {#system-roles-types}
 
 | 术语 | 中文参考译名 | 社群用法/备注 |
 | --- | --- | --- |
@@ -57,7 +119,7 @@
 | [System Roles](entries/System-Roles.md) | 人格职能 | 概括系统成员常见职能类别及其协作方式。 |
 | [Teen Part](entries/Teen.md) | 青少年意识体 | 呈现青春期特征、关注独立与探索的成员。 |
 
-## 系统体验与机制
+## 系统体验与机制 {#system-experience}
 
 | 术语 | 中文参考译名 | 社群用法/备注 |
 | --- | --- | --- |
@@ -87,7 +149,7 @@
 | [Visualization / Imagination](entries/Visualization-Imagination.md) | 内视 | 在内心空间中“看到”或感知成员的练习，常作为与系统成员互动的基础阶段。 |
 | [Xianyu Theory of Niche Classification](entries/Xianyu-Theory-Niche-Classification.md) | 弦羽理论生态位分类法 | 弦羽理论提出的系统分类框架，强调以生态位与功能定位划分单一类、混合型、家族式与系魂型的发展路径。 |
 
-## 诊断与临床
+## 诊断与临床 {#clinical}
 
 | 术语 | 中文参考译名 | 社群用法/备注 |
 | --- | --- | --- |
@@ -129,7 +191,7 @@
 | [Functional Neurological Symptom Disorder，FND](entries/Conversion-Disorder-FND.md) | 功能性神经症状障碍、转换障碍 | 以正性体征辨识的功能性神经症状群，需要综合复健与心理支持。 |
 | [Trauma](entries/Trauma.md) | 创伤 | 指超出个体当时应对能力的威胁性经历及其后效。 |
 
-## 相关概念与理论
+## 相关概念与理论 {#concepts-theories}
 
 | 术语 | 中文参考译名 | 社群用法/备注 |
 | --- | --- | --- |
@@ -156,7 +218,7 @@
 | [Self-Determination Theory](entries/Self-Determination-Theory.md) | 自我决定理论 | 通过自主性、胜任感与联结感三要素解析成员动机与协作体验，利于设计支持策略。 |
 | [Social-Cognitive Theory](entries/Social-Cognitive-Theory.md) | 社会认知理论 | 班杜拉强调的观察学习、自我效能与环境互动模型，有助于理解成员间榜样与反馈效应。 |
 
-## 其他
+## 其他 {#others}
 
 | 术语 | 中文参考译名 | 社群用法/备注 |
 | --- | --- | --- |
