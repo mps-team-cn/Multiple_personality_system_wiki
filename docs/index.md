@@ -50,13 +50,13 @@
 - 🤝 [贡献指南](contributing/index.md) - 了解如何参与共建
 
 ---
-
+<!-- 
 <div align="center">
   <img src="assets/qq-group.png" width="200" alt="QQ群二维码">
   <p>📢 扫码加入QQ群：935527821</p>
 </div>
 
----
+--- -->
 
 ## 重要提醒
 
