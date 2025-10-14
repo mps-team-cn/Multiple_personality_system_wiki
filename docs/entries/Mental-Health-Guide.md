@@ -188,6 +188,11 @@ comments: true
 
 #### 心理治疗(首选)
 
+**基础认知行为疗法**:
+
+- [**认知行为疗法（CBT）**](Cognitive-Behavioral-Therapy-CBT.md) - 改变功能失调的思维模式，训练适应性行为
+- [**接受与承诺疗法（ACT）**](Acceptance-Commitment-Therapy-ACT.md) - 培养心理弹性，接纳困难情绪，基于价值观行动
+
 **创伤聚焦治疗**:
 
 - [**眼动脱敏与再加工（EMDR）**](Eye-Movement-Desensitization-Reprocessing-EMDR.md) - 通过双侧刺激处理创伤记忆
