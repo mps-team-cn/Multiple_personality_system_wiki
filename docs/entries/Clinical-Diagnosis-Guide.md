@@ -124,13 +124,14 @@ comments: true
     - [抑郁障碍总览（Depressive Disorders）](Depressive-Disorders.md) — :octicons-check-16: 已完成
     - [重性抑郁障碍（MDD）](Major-Depressive-Disorder-MDD.md) — :octicons-check-16: 已完成
     - [持续性抑郁障碍（PDD）](Persistent-Depressive-Disorder-PDD.md) — :octicons-check-16: 已完成
-    - 经前期烦躁障碍（PMDD）、破坏性心境失调障碍（DMDD）、物质/医学状况所致抑郁等 — :octicons-clock-16: 待更新
+    - [经前焦虑障碍（PMDD）](Premenstrual-Dysphoric-Disorder.md) — :octicons-check-16: 已完成
+    - 破坏性心境失调障碍（DMDD）、物质/医学状况所致抑郁等 — :octicons-clock-16: 待更新
 
 ### 5) 焦虑障碍
 
 ???+ abstract "展开查看"
 
-    - [焦虑总览（Anxiety）](Anxiety.md) — :octicons-check-16: 已完成
+    - [焦虑总览（Anxiety）](Anxiety-Disorders.md) — :octicons-check-16: 已完成
     - [选择性缄默症（Selective Mutism）](Selective-Mutism.md) — :octicons-check-16: 已完成
     - [特定恐惧症（Specific Phobia）](Specific-Phobia.md) — :octicons-check-16: 已完成
     - [社交焦虑障碍（SAD）](Social-Anxiety-Disorder.md) — :octicons-check-16: 已完成
@@ -216,6 +217,7 @@ comments: true
 ???+ abstract "展开查看"
 
     - [性别不安（GD）](Gender-Dysphoria-GD.md) — :octicons-check-16: 已完成
+    - [其他特定/未特定性别不安](Other-Specified-Unspecified-Gender-Dysphoria.md) — :octicons-check-16: 已完成
     - 说明符（儿童/青少年与成人）— :octicons-check-16: 已完成
 
 ### 15) 破坏性、冲动控制及品行障碍

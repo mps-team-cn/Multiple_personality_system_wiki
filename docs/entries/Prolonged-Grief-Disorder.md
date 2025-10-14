@@ -212,7 +212,7 @@ PGD 的治疗以 **哀伤聚焦心理治疗** 为核心,强调 **意义重构、
 - [创伤（Trauma）](Trauma.md)
 - [重性抑郁障碍（MDD）](Major-Depressive-Disorder-MDD.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 
 ---
 

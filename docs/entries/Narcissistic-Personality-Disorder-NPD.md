@@ -69,7 +69,7 @@ ICD-11 将人格障碍划分为单一诊断并通过严重程度与特质修饰�
 - [精神分裂症（Schizophrenia，SZ/SCZ）](Schizophrenia-SZ.md)
 - [心境障碍（Affective Disorders）](Affective-Disorders.md)
 - [情感障碍（Mood Disorders）](Mood-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [躁狂（Mania）](Mania.md)
 
 ## 参考资料

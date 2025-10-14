@@ -94,7 +94,7 @@ DSM-5-TR 要求在社会交流互动与局限重复行为两个维度满足具�
 
 - **核心共病**
     - [注意缺陷多动障碍（ADHD）](Attention-Deficit-Hyperactivity-Disorder-ADHD.md)：约 40-70% 的 ASD 个体符合 ADHD 诊断标准，表现为注意力、冲动控制和活动水平调节困难。
-    - [焦虑障碍（Anxiety Disorders）](Anxiety.md)：社交焦虑、分离焦虑和特定恐惧症非常常见，可能与社交困难和对不可预测性的敏感有关。
+    - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)：社交焦虑、分离焦虑和特定恐惧症非常常见，可能与社交困难和对不可预测性的敏感有关。
     - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：青少年和成人期风险增加，与社交孤立、被拒绝经历和掩饰努力相关。
 
 - **其他常见共病**
@@ -162,7 +162,7 @@ ASD 的支持通常采用多学科协作、以优势为基础的方法：
 
 ### 共病相关
 
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
 - [强迫症（Obsessive-Compulsive Disorder，OCD）](OCD.md)
 

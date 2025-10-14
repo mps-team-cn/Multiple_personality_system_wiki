@@ -103,7 +103,7 @@ DSM-5-TR 在躯体症状障碍、创伤后应激障碍、进食障碍等章节�
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md)
 - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
 - [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [心境障碍（Affective Disorders）](Affective-Disorders.md)
 
 ## 参考与延伸阅读

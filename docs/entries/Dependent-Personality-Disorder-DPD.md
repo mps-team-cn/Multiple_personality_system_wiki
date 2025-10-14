@@ -82,7 +82,7 @@ comments: true
 ## 相关条目
 
 - [人格障碍（Personality Disorders）](Personality-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [回避型人格障碍（AvPD）](Avoidant-Personality-Disorder-AvPD.md)
 - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)
 - [诊断与临床导览（Clinical Diagnosis Guide）](Clinical-Diagnosis-Guide.md)

@@ -89,7 +89,7 @@ comments: true
 
 ## 共病与风险管理
 
-- 常见共病：焦虑障碍（如[焦虑（Anxiety）](Anxiety.md)）、PTSD/CPTSD、[物质使用障碍（Substance Use Disorders，SUD）](Substance-Use-Disorders-SUD.md)、[饮食障碍（Eating Disorders）](Eating-Disorders-ED.md)、强迫症、慢性疼痛或心身疾病。[^kessler2012]
+- 常见共病：焦虑障碍（如[焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)）、PTSD/CPTSD、[物质使用障碍（Substance Use Disorders，SUD）](Substance-Use-Disorders-SUD.md)、[饮食障碍（Eating Disorders）](Eating-Disorders-ED.md)、强迫症、慢性疼痛或心身疾病。[^kessler2012]
 - 需定期评估自杀风险、物质使用、安全计划与社会支持；多意识体系统可通过共享日志、内部会议分配情绪负荷，降低个别成员的崩溃风险。
 - 长期病程需监测药物副作用、代谢指标与功能恢复情况，必要时与初级照护、心理治疗及精神科团队协作。
 
@@ -130,7 +130,7 @@ comments: true
 
 ### 支持与工具
 
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [正念（Mindfulness）](Mindfulness.md)
 - [接地技巧（Grounding）](Grounding.md)
 - [认知行为疗法（Cognitive Behavioral Therapy，CBT）](Cognitive-Behavioral-Therapy-CBT.md)

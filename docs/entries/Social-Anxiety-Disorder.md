@@ -193,7 +193,7 @@ _若社交焦虑显著影响学业、工作或人际关系，请尽快联系精�
 
 ## 相关条目
 
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [广泛性焦虑障碍（Generalized Anxiety Disorder，GAD）](Generalized-Anxiety-Disorder-GAD.md)
 - [惊恐障碍（Panic Disorder）](Panic-Disorder.md)
 - [选择性缄默症（Selective Mutism）](Selective-Mutism.md)

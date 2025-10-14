@@ -219,7 +219,7 @@ ICD-11 将双相 II 型障碍归类为 **双相或相关障碍**(6A61),诊断强
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
 - [重性抑郁障碍（Major Depressive Disorder, MDD）](Major-Depressive-Disorder-MDD.md)
 - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 
 ## 参考与延伸阅读
 

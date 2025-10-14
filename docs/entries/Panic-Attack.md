@@ -84,7 +84,7 @@ comments: true
 ## 相关条目
 
 - [惊恐障碍（Panic Disorder，PD）](Panic-Disorder.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [广泛性焦虑障碍（Generalized Anxiety Disorder，GAD）](Generalized-Anxiety-Disorder-GAD.md)
 - [社交焦虑障碍（Social Anxiety Disorder / Social Phobia，SAD）](Social-Anxiety-Disorder.md)
 - [广场恐惧症（待更新）]

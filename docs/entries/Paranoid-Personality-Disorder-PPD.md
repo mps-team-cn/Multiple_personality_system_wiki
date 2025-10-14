@@ -165,7 +165,7 @@ comments: true
 ### 共病与鉴别
 
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [精神分裂症（Schizophrenia）](Schizophrenia-SZ.md)
 - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)
 

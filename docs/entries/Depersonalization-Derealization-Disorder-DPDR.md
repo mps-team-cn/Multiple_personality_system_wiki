@@ -130,7 +130,7 @@ comments: true
 
 - [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](PTSD.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md)
 - [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](Attention-Deficit-Hyperactivity-Disorder-ADHD.md)

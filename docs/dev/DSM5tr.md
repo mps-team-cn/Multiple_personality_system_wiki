@@ -74,7 +74,7 @@ comments: true
 
 ## 5. 焦虑障碍（Anxiety Disorders）
 
-- [x] Anxiety.md                 <!-- 焦虑总览 -->
+- [x] Anxiety-Disorders.md                 <!-- 焦虑总览 -->
 - [ ] Separation-Anxiety-Disorder.md
 - [x] Selective-Mutism.md
 - [x] Specific-Phobia.md
@@ -320,7 +320,7 @@ comments: true
 ***目标**：新增/完善 ≥ 28 篇核心条目（每周 7 篇），全部带“诊断要点 × 鉴别 × 共病 × 首访沟通”四件套。
 ***范围**：以你清单中 **未勾选** 但高频使用的条目为主；少量已勾选但常被追问的条目做“微修”。
 
-## 第 1 周（高频焦虑 × 哀伤/适应 × 体像/进食）
+## 第 1 周（高频焦虑 × 哀伤/适应 × 体像/进食） (已完成)
 
 1. 焦虑与恐惧
 

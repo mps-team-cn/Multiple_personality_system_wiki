@@ -145,7 +145,7 @@ comments: true
 - [解离性身份障碍（DID）](DID.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 
 ### 多意识体相关
 

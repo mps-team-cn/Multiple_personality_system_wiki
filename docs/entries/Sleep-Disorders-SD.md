@@ -103,7 +103,7 @@ comments: true
 - **核心共病**
     - [创伤后应激障碍（PTSD）](PTSD.md) / [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)：几乎所有 PTSD 患者经历失眠与噩梦，睡眠障碍是创伤记忆再体验的重要表现。
     - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：早醒、入睡困难或过度睡眠是抑郁核心症状。
-    - [焦虑（Anxiety）](Anxiety.md)：过度警觉与反刍思维导致入睡困难。
+    - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)：过度警觉与反刍思维导致入睡困难。
 
 - **其他常见共病**
     - [解离性身份障碍（DID）](DID.md)：不同成员对睡眠需求、作息与安全感有不同偏好；内部冲突会造成频繁切换或夜间前台争夺。
@@ -153,7 +153,7 @@ comments: true
 - [创伤后应激障碍（PTSD）](PTSD.md)
 - [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 
 ### 应对策略相关
 

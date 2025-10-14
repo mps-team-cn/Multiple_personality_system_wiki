@@ -100,7 +100,7 @@ comments: true
 - [社交焦虑障碍（Social Anxiety Disorder / Social Phobia，SAD）](Social-Anxiety-Disorder.md)
 - [进食障碍（Eating Disorders，ED）](Eating-Disorders-ED.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [创伤后应激障碍（PTSD）](PTSD.md)
 
 ## 参考与延伸阅读

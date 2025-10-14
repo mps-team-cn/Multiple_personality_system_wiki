@@ -107,7 +107,7 @@ ICD-11 将 DID 与 PDID 区分并允许描述身份侵入的形式，DSM-5-TR �
     - [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md)：身份认同、情绪调节与人际关系症状高度重叠，需区分解离驱动与人格模式差异。
 
 - **其他常见共病**
-    - [焦虑（Anxiety）](Anxiety.md) 及相关焦虑障碍：源于长期不安全感与高警觉状态。
+    - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md) 及相关焦虑障碍：源于长期不安全感与高警觉状态。
     - [物质使用障碍（Substance Use Disorders，SUD）](Substance-Use-Disorders-SUD.md)：部分成员以物质自我麻醉以压抑创伤记忆或调节情绪。
     - [进食障碍（Eating Disorders，ED）](Eating-Disorders-ED.md)：饮食控制或暴食可能成为调节情绪与掌控身体的方式。
     - [躯体症状障碍（Somatic Symptom and Related Disorders）](Somatic-Symptom-Disorder-SSD.md)：难以解释的疼痛、假性癫痫等躯体化表现常伴随内在冲突。

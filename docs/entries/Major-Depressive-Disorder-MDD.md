@@ -153,7 +153,7 @@ MDD 的治疗以 **药物治疗、心理治疗与综合策略** 为核心：
 - [持续性抑郁障碍（Persistent Depressive Disorder, PDD）](Persistent-Depressive-Disorder-PDD.md)
 - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
 - [心境障碍（Affective Disorders）](Affective-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [创伤后应激障碍（PTSD）](PTSD.md)
 - [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)
 
