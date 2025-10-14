@@ -270,11 +270,36 @@ Markdown 链接规范检查
 - ✅ 如果检查不通过，CI 会失败并阻止提交
 - ✅ 显示详细的错误信息和修复提示
 
+**排除列表配置:**
+
+脚本默认排除以下类型的文件（可能包含示例链接或待完善内容）：
+
+1. **模板和示例文件**: `TEMPLATE_ENTRY.md`、`404.md`
+2. **Contributing 指南**: `contributing/` 下的所有规范文档
+3. **开发文档**: `dev/INDEX_GUIDE.md`、`dev/MIGRATION_REPORT.md` 等
+4. **工具文档**: `tools/REFACTORING_PLAN.md`、`pdf_export/` 相关文档
+5. **README 文件**: 各目录下的 `README.md`
+
+如需添加新的排除文件，请编辑 [tools/check_links.py:294-327](../../tools/check_links.py#L294-L327) 中的 `exclude_files` 集合：
+
+```python
+exclude_files = {
+    # 模板和示例文件（包含示例链接）
+    "docs/TEMPLATE_ENTRY.md",
+    "docs/404.md",
+
+    # Contributing 指南（包含规范和示例）
+    "docs/contributing/index.md",
+    # ... 更多文件
+}
+```
+
 **注意事项:**
 
 - ⚠️ 脚本会递归检查指定目录下的所有 `.md` 文件
 - ⚠️ 自动排除 `node_modules`、`.git`、`venv` 等目录
-- ⚠️ 文档示例文件（如 `TEMPLATE_ENTRY.md`）默认��排除
+- ⚠️ 排除列表中的路径使用相对于仓库根目录的相对路径
+- ⚠️ 更新排除列表后建议运行测试确保所有文件存在
 - 💡 建议在提交前本地运行此工具，避免 CI 失败
 
 ---

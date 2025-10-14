@@ -292,20 +292,38 @@ def find_md_files(root: Path, exclude_dirs: Set[str] = None, exclude_files: Set[
 
     if exclude_files is None:
         exclude_files = {
-            # 文档示例和说明文件（包含示例链接）
-            "docs/contributing/技术约定.md",
-            "docs/contributing/编写规范.md",
-            "docs/contributing/PR流程.md",
+            # 模板和示例文件（包含示例链接）
             "docs/TEMPLATE_ENTRY.md",
-            # 迁移和计划文档
-            "tools/pdf_export/MIGRATION_NOTES.md",
-            "tools/REFACTORING_PLAN.md",
-            # 开发文档
+            "docs/404.md",
+
+            # Contributing 指南（包含规范和示例）
+            "docs/contributing/index.md",
+            "docs/contributing/technical-conventions.md",
+            "docs/contributing/writing-guidelines.md",
+            "docs/contributing/pr-workflow.md",
+            "docs/contributing/academic-citation.md",
+            "docs/contributing/clinical-guidelines.md",
+
+            # 开发文档（可能包含示例或待完善的链接）
             "docs/dev/INDEX_GUIDE.md",
-            "docs/dev/FRONTEND_ARCHITECTURE.md",
-            # 其他可能包含示例的文档
+            "docs/dev/MIGRATION_REPORT.md",
+            "docs/dev/IMPROVEMENT_SUGGESTIONS.md",
+
+            # 工具和计划文档
+            "tools/REFACTORING_PLAN.md",
+            "tools/pdf_export/MIGRATION_NOTES.md",
+            "tools/pdf_export/README_pdf_output.md",
+            "tools/pdf_export/ignore.md",
+
+            # 元数据文档
             "docs/changelog.md",
-            "docs/pdf_export/README_pdf_output.md",
+
+            # README 文件（通常包含示例或外部链接）
+            "docs/tools/README.md",
+            "docs/admin/README.md",
+            "docs/assets/README.md",
+            "docs/assets/uploads/README.md",
+            "tools/deprecated/README.md",
         }
 
     md_files = []
