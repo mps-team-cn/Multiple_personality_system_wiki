@@ -76,6 +76,7 @@ EXCLUDE_FILES = {
     "docs/assets/README.md",
     "docs/assets/uploads/README.md",
     "tools/deprecated/README.md",
+    "README.md",
 }
 
 
