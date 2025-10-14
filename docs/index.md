@@ -90,85 +90,14 @@
 
 <div class="grid cards" markdown>
 
-- :material-lightbulb-on: [**核心概念**](entries/Core-Concepts-Guide.md)
-
-    从解离说起，建立多意识体系统的理论框架
-
-    - [解离（Dissociation）](entries/Dissociation.md) - 一切的基础概念
-    - [多意识体系统（MPS）](entries/Multiple_Personality_System.md) - 核心概念定义
-    - [系统（System）](entries/System.md) - 多意识体系统的基本概念
-    - [DID vs Tulpa](entries/Core-Concepts-Guide.md#三健康与病理不同程度的多意识体) - 理解健康与病理的界限
-    - [埃蒙加德分类法](entries/Emmengard-Classification.md) - 按成因理解系统类型
-
-- :material-hospital-box: [**诊断与临床**](entries/Clinical-Diagnosis-Guide.md)
-
-    理解解离障碍、创伤相关诊断及临床治疗
-
-    - [解离障碍（Dissociative Disorders）](entries/Dissociative-Disorders.md)
-    - [解离性身份障碍（DID）](entries/DID.md)
-    - [其他特定解离性障碍（OSDD）](entries/OSDD.md)
-    - [创伤后应激障碍（PTSD）](entries/PTSD.md)
-    - [复杂性 PTSD（CPTSD）](entries/CPTSD.md)
-
-- :material-account-group: [**系统运作与协作**](entries/System-Operations.md) {#system-operations}
-
-    掌握多意识体系统的日常运作机制
-
-    - [前台（Fronting）](entries/Front-Fronting.md) - 谁在控制身体？
-    - [切换（Switch）](entries/Switch.md) - 成员如何转换？
-    - [意识共存（Co-consciousness）](entries/Co-Consciousness.md) - 同时感知的状态
-    - [内部空间（Inner World）](entries/Headspace-Inner-World.md) - 系统的内在世界
-    - [内部沟通](entries/Internal-Communication.md) - 成员间的交流方式
-
-- :material-heart-pulse: [**创伤与疗愈**](entries/Trauma-Healing-Guide.md) {#trauma-healing}
-
-    了解创伤机制与循证治疗方法
-
-    - [创伤（Trauma）](entries/Trauma.md) - 创伤的定义与类型
-    - [自我照护工具箱](entries/Self-Care-Toolkit.md) - 接地、呼吸、情绪调节等即用技巧
-    - [接地（Grounding）](entries/Grounding.md) - 回到当下的稳定技巧
-    - [闪回（Flashback）](entries/Flashback.md) - 创伤记忆的重现
-    - [触发（Trigger）](entries/Trigger.md) - 激活创伤反应的刺激
-
-- :material-account-multiple: [**角色与身份**](entries/Roles-Identity-Guide.md)
-
-    认识系统中的不同角色与职能分工
-
-    - [宿主（Host）](entries/Host.md) - 通常在前台的主要成员
-    - [守门人（Gatekeeper）](entries/Gatekeeper.md) - 管理切换的调度者
-    - [保护者（Protector）](entries/Protector.md) - 守护系统安全的角色
-    - [小孩意识体（Little）](entries/Little.md) - 保留童年状态的成员
-    - [迫害者（Persecutor）](entries/Persecutor.md) - 内化的创伤反应
-
-- :material-book-open-variant: [**理论与分类**](entries/Theory-Classification-Guide.md)
-
-    探索多意识体系统的理论框架与分类体系
-
-    - [多意识体系统（MPS）](entries/Multiple_Personality_System.md) - 核心概念定义
-    - [埃蒙加德分类法](entries/Emmengard-Classification.md) - 按成因分类系统
-    - [图帕（Tulpa）](entries/Tulpa.md) - 创造型意识体
-    - [结构性解离理论](entries/Structural-Dissociation-Theory.md) - 经典临床模型
-    - [ANP-EP 模型](entries/Apparently-Normal-Part-Emotional-Part-Model.md) - 功能性人格部分
-
-- :material-palette: [**文化与表现**](entries/Cultural-Media-Guide.md)
-
-    文学、影视作品中的多重人格主题
-
-    - [《搏击俱乐部》](entries/Fight-Club-1999-Identity-Metaphor.md) - 身份解体隐喻
-    - [《分裂》](entries/Split-2016-DID-Representation.md) - DID 形象分析
-    - [《西比尔》](entries/Sybil-1976-Cultural-Prototype.md) - 多重人格文化原型
-    - [初音未来现象](entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md) - 虚拟偶像与 Tulpa 边界
-    - [东方 Project](entries/Touhou-Tulpa-Fandom.md) - 同人圈 Tulpa 文化
-
-- :material-clipboard-check: [**实践指南**](entries/Practice-Guide.md)
-
-    操作性的训练方法、实践技巧与自助策略
-
-    - [Tulpa 完全创造指南](entries/Tulpa-Guide.md) - 从基础到进阶的完整教程
-    - [冥想（Meditation）](entries/Meditation.md) - 专注力训练与意识稳定
-    - [内视](entries/Visualization-Imagination.md) - 心像构建与形象塑造
-    - [接地（Grounding）](entries/Grounding.md) - 回到当下的稳定技巧
-    - [内部沟通](entries/Internal-Communication.md) - 成员间的交流方法
+- :material-lightbulb-on: [ **核心概念** ](entries/Core-Concepts-Guide.md) - 从解离谱系切入，厘清 Tulpa 与 DID/OSDD 的界限，并以埃蒙加德分类搭建多意识体系统的理论地图
+- :material-hospital-box: [ **诊断与临床** ](entries/Clinical-Diagnosis-Guide.md) - 覆盖 DID、OSDD、CPTSD、焦虑障碍、情绪障碍等核心诊断，帮助理解鉴别要点与临床处置路径。
+- :material-cog: [ **系统运作** ](entries/System-Operations.md) - 聚焦前台切换、共同意识、记忆管理、内部空间与系统治理等运作机制，支持日常协作实践。
+- :material-clipboard-check: [ **实践指南** ](entries/Practice-Guide.md) - 强调 Tulpa 三阶段训练、冥想与可视化等意识训练方法，以及内部沟通与接地技巧。
+- :material-heart-pulse: [ **创伤与疗愈** ](entries/Trauma-Healing-Guide.md) - 聚焦创伤机理、PTSD/CPTSD 症状识别、三阶段治疗模型与接地调节策略，支持安全康复。
+- :material-account-multiple: [ **角色与身份** ](entries/Roles-Identity-Guide.md) - 梳理宿主、守门人、保护者、照护者等角色分工，以及多类型身份结构。
+- :material-book-open-variant: [ **理论与分类** ](entries/Theory-Classification-Guide.md) - 涵盖结构性解离、依恋、自我决定理论、动机与人格模型等框架，帮助搭建概念体系。
+- :material-palette: [ **文化与表现** ](entries/Cultural-Media-Guide.md) - 解析影视、文学、动画与游戏中多意识体主题的叙事与象征呈现。
 
 </div>
 
