@@ -87,7 +87,6 @@ updated: YYYY-MM-DD
 
 | 文档 | 更新时机 | 说明 |
 |------|---------|------|
-| `docs/Glossary.md` | 新增术语 | 添加到术语表 |
 | 主题总览页面 | 新增词条 | 更新对应主题索引 |
 | **对应的 Guide** | 创建/更新/删除词条 | 见下方主题映射表 |
 
@@ -365,6 +364,43 @@ mkdocs build
 mkdocs build --strict
 ```
 
+### 🔗 链接规范检查
+
+!!! info "链接检查工具"
+    检查 Markdown 文件中的内部链接是否符合项目规范。支持检查整个项目、指定目录或单个文件。
+
+```bash
+
+# 检查词条目录的所有链接
+
+python3 tools/check_links.py docs/entries/
+
+# 检查整个项目的所有链接
+
+python3 tools/check_links.py
+
+# 检查单个文件
+
+python3 tools/check_links.py docs/entries/DID.md
+
+# 显示详细检查信息（包含通过的文件）
+
+python3 tools/check_links.py --verbose docs/entries/
+
+# 指定仓库根目录（当不在项目根目录时）
+
+python3 tools/check_links.py --root /path/to/repo docs/entries/
+```
+
+!!! tip "链接规范快速参考"
+
+    - ✅ **词条间链接**：直接使用文件名（如 `DID.md`）
+    - ✅ **词条→其他目录**：使用 `../` 相对路径（如 `../contributing/index.md`）
+    - ✅ **其他目录→词条**：使用 `../entries/` 路径（如 `../entries/DID.md`）
+    - ❌ **禁止**：绝对路径（如 `/docs/entries/DID.md`）
+
+    详见：[链接路径规范](#13-索引与链接规范)
+
 ### 🐍 Python 语法检查
 
 ```bash
@@ -389,7 +425,7 @@ python -m compileall tools/
     | ✅ | 遵循贡献指南与模板 | `docs/contributing/` + `docs/TEMPLATE_ENTRY.md` |
     | ✅ | 保持小步提交 | 最小可审查单位 |
     | ✅ | 遵守 markdownlint | 格式规范 |
-    | ✅ | 提交前运行检查 | `fix_markdown.py` + `markdownlint` |
+    | ✅ | 提交前运行检查 | `fix_markdown.py` + `check_links.py` + `markdownlint` |
     | ✅ | PR 说明方法来源 | 正则/脚本名/范围等 |
     | ✅ | 同步维护工具文档 | `docs/tools/README.md` |
     | ❌ | 禁止无法追溯的证据 | 需可验证来源 |
@@ -406,13 +442,25 @@ python -m compileall tools/
 ### 8.1 自动执行（CI）
 
 !!! success "GitHub Actions 自动化"
-    CI 会在 `push` / `pull_request` 时执行：
+    当词条文件（`docs/entries/*.md`）被推送到 main 分支时，CI 会自动执行：
 
-    1. ✅ 运行 `python3 tools/fix_markdown.py .` 自动修复
-    2. ✅ 运行 `markdownlint` 校验
-    3. ❌ 若有未修复项，CI 失败并提示
+    1. ✅ 运行 `python3 tools/update_git_timestamps.py` 更新时间戳
+    2. 🔍 检查链接规范（修复前）
+    3. ✅ 运行 `python3 tools/fix_markdown.py docs/entries/` 自动修复格式
+    4. 🔍 **检查链接规范（修复后）** - 如不通过则 CI 失败，不会提交
+    5. ✅ 自动提交修复后的文件（仅当所有检查通过且有更改时）
 
-    详见 `.github/workflows/markdown_format.yml`
+    详见 `.github/workflows/auto-fix-entries.yml`
+
+!!! warning "链接检查阻断机制"
+    如果修复后的文件仍存在链接违规，CI 会：
+
+    - ❌ 失败并显示详细错误信息
+    - ❌ 不会自动提交任何更改
+    - 📝 要求开发者手动修正违规链接后重新提交
+
+!!! info "手动触发"
+    也可以通过 GitHub Actions 页面手动触发工作流
 
 ### 8.2 手动执行（本地）
 
@@ -493,6 +541,10 @@ mkdocs serve
 
 python3 tools/fix_markdown.py .
 markdownlint "docs/**/*.md" --ignore "node_modules"
+
+# 链接检查
+
+python3 tools/check_links.py docs/entries/
 
 # 构建测试
 

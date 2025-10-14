@@ -26,7 +26,7 @@
 
 | 脚本/模块                                                        | 功能摘要                                                              | 常用用法                                                                                                |
 | ------------------------------------------------------------ | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| `tools/check_links.py`                                       | 扫描 Markdown 文档中疑似内部链接写法，禁止 `./`、`../` 等相对路径                       | `python tools/check_links.py --root .`，必要时配合 `--whitelist`                                          |
+| `tools/check_links.py`                                       | 检查 Markdown 内部链接规范，支持检查整个项目、指定目录或单个文件                       | `python tools/check_links.py docs/entries/` 或 `python tools/check_links.py` 检查整个项目                                          |
 | `tools/docs_preview.py`                                      | 本地预览辅助：默认启动 `python -m http.server`，可选 `--docsify` 启用 docsify-cli | `python tools/docs_preview.py --port 4173`（启用 docsify 时追加 `--docsify`）                              |
 | `tools/gen_changelog_by_tags.py`                             | 按 Git 标签时间顺序生成 `changelog.md` 并按提交类型分组                            | `python tools/gen_changelog_by_tags.py --output changelog.md`，可加 `--latest-only`/`--latest-to-head` |
 | `tools/pdf_export/`                                          | Pandoc 驱动的整站 PDF 导出工具，支持封面、忽略列表、中文字体与带页码的 topic 目录                | `python tools/pdf_export/export_to_pdf.py` 或 `python -m pdf_export`                                 |
@@ -129,24 +129,110 @@ text = "**加粗**后面"
 fixed = processor.process(text)  # "**加粗** 后面"
 ```
 
-### 🔗 链接处理器 (`processors/links.py`)
+### 🔗 链接检查工具 (`tools/check_links.py`)
 
 **功能特性:**
 
-- 内部链接完整性验证
-- 相对路径检测
-- 白名单管理
-- 详细的违规报告
-- 批量检查能力
+- ✅ 内部链接完整性验证（检查目标文件是否存在）
+- ✅ 链接格式规范检查（相对路径、绝对路径等）
+- ✅ 支持检查整个项目、指定目录或单个文件
+- ✅ 详细的违规报告（显示行号、目标、错误原因）
+- ✅ 批量检查能力
+- ✅ 自动跳过外部链接、锚点和图片
 
 **检查规则:**
 
-- 词条之间的链接：直接使用文件名（如 `DID.md`），无需 `entries/` 前缀
-- 词条链接到根目录文档：使用 `../` 相对路径（如 `../CONTRIBUTING/index.md`）
-- 根目录文档链接到词条：使用 `entries/` 前缀（如 `entries/DID.md`）
-- 禁止使用 `./` 等模糊路径
-- 支持根目录白名单文件验证
-- 自动跳过外部链接、锚点和图片
+根据文件所在位置的不同，链接格式规范也不同：
+
+1. **词条间链接**（`docs/entries/` 内）：直接使用文件名
+   - ✅ 正确：`[DID](DID.md)`
+   - ❌ 错误：`[DID](../entries/DID.md)`
+
+2. **词条→其他目录**：使用 `../` 相对路径
+   - ✅ 正确：`[贡献指南](../contributing/index.md)`
+   - ❌ 错误：`[贡献指南](contributing/index.md)`
+
+3. **其他目录→词条**：使用 `../entries/` 路径
+   - ✅ 正确：`[DID](../entries/DID.md)`
+   - ❌ 错误：`[DID](DID.md)`
+
+4. **禁止事项**：
+   - ❌ 绝对路径：`/docs/entries/DID.md`
+   - ❌ 链接到不存在的文件
+
+**命令行用法:**
+
+```bash
+
+# 检查词条目录（推荐，CI 使用）
+
+python3 tools/check_links.py docs/entries/
+
+# 检查整个项目
+
+python3 tools/check_links.py
+
+# 检查单个文件
+
+python3 tools/check_links.py docs/entries/DID.md
+
+# 显示详细信息（包含通过的文件）
+
+python3 tools/check_links.py --verbose docs/entries/
+
+# 指定仓库根目录（当不在项目根目录时）
+
+python3 tools/check_links.py --root /path/to/repo docs/entries/
+```
+
+**输出示例:**
+
+```text
+======================================================================
+Markdown 链接规范检查
+======================================================================
+仓库根目录：/path/to/repo
+扫描路径：/path/to/repo/docs/entries
+
+找到 205 个 Markdown 文件
+
+[违规] docs/entries/Example.md
+  行 42: ../../../invalid/path.md
+    禁止使用绝对路径，请使用相对路径（如 `../entries/xxx.md`）
+
+  行 58: NonExistent.md
+    文件不存在：NonExistent.md
+
+======================================================================
+[FAIL] 发现 2 处违规链接（1 个文件）
+
+提示：
+  - 词条间链接使用文件名：DID.md
+  - 词条到其他目录使用：../contributing/index.md
+  - 其他目录到词条使用：../entries/DID.md
+  - 详见：docs/contributing/技术约定.md
+```
+
+**CI 集成:**
+
+此工具已集成到 GitHub Actions 工作流（`.github/workflows/auto-fix-entries.yml`）：
+
+- ✅ 在格式修复后自动检查链接规范
+- ✅ 如果检查不通过，CI 会失败并阻止提交
+- ✅ 显示详细的错误信息和修复提示
+
+**注意事项:**
+
+- ⚠️ 脚本会递归检查指定目录下的所有 `.md` 文件
+- ⚠️ 自动排除 `node_modules`、`.git`、`venv` 等目录
+- ⚠️ 文档示例文件（如 `TEMPLATE_ENTRY.md`）默认��排除
+- 💡 建议在提交前本地运行此工具，避免 CI 失败
+
+---
+
+### 🔗 链接处理器 (`processors/links.py`) **[开发中]**
+
+> ⚠️ 此模块为下一代链接处理器，目前仍在开发中。当前请使用 `tools/check_links.py`。
 
 **编程接口:**
 
