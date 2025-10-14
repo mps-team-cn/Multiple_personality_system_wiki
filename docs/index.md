@@ -126,7 +126,7 @@
     - [创伤](entries/Trauma.md)类型（I 型 vs II 型）与神经生物学基础
     - [PTSD](entries/PTSD.md) 与 [CPTSD](entries/CPTSD.md) 的诊断标准（DSM-5-TR/ICD-11）
     - [解离](entries/Dissociation.md)谱系：从适应到病理
-    - [抑郁](entries/Depressive-Disorders.md)、[焦虑](entries/Anxiety.md)与共病问题
+    - [抑郁](entries/Depressive-Disorders.md)、[焦虑](entries/Anxiety-Disorders.md)与共病问题
     - 循证治疗方法（EMDR、TF-CBT、DBT 等）
     - [自我照护工具箱](entries/Self-Care-Toolkit.md)：接地、呼吸、情绪调节等实用技巧
 

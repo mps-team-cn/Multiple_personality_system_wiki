@@ -66,7 +66,7 @@ DSM-5-TR 允许按照症状持续时间（急性 < 6 个月；慢性 ≥ 6 个�
 - [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
 - [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](Narcissistic-Personality-Disorder-NPD.md)
 - [精神分裂症（Schizophrenia，SZ/SCZ）](Schizophrenia-SZ.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
 - [心境障碍（Affective Disorders）](Affective-Disorders.md)

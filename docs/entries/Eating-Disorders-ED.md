@@ -100,7 +100,7 @@ comments: true
 
 - **核心共病**
     - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：持续性悲伤、绝望与兴趣丧失，常与进食障碍相互加重。
-    - [焦虑（Anxiety）](Anxiety.md)及相关障碍：社交焦虑、强迫症、广泛性焦虑在进食障碍中高度共存。
+    - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)及相关障碍：社交焦虑、强迫症、广泛性焦虑在进食障碍中高度共存。
     - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)：情绪不稳、冲动性与自我认同困扰重叠。
 
 - **其他常见共病**
@@ -150,7 +150,7 @@ comments: true
 
 - [解离性身份障碍（DID）](DID.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)
 - [创伤后应激障碍（PTSD）](PTSD.md)
 - [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)

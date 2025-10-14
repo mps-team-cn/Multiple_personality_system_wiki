@@ -213,7 +213,7 @@ BED 本身不涉及清除行为(如呕吐、泻药),因此 **不像 BN 那样有
 ### 常见共病
 
 - [**抑郁障碍**](Depressive-Disorders.md) (40–60%): 持续的悲伤、无望感、兴趣丧失;加重自杀风险和治疗依从性困难。
-- [**焦虑障碍**](Anxiety.md) (30–50%):
+- [**焦虑障碍**](Anxiety-Disorders.md) (30–50%):
     - [社交焦虑障碍](Social-Anxiety-Disorder.md):害怕他人评价自己的外貌或进食行为。
     - [广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md):持续的担忧和紧张。
     - [恐慌障碍](Panic-Disorder.md):突发的恐慌发作,可能与暴食后的身体不适相关。
@@ -383,7 +383,7 @@ BED 的治疗整合 **心理治疗**、**营养康复** 和 **医疗监测**,通
 
 - [解离性身份障碍（DID）](DID.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)
 - [创伤后应激障碍（PTSD）](PTSD.md)
 - [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)

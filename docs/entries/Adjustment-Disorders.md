@@ -196,7 +196,7 @@ ICD-11 强调 **专注受损**(反复思考应激源)作为适应障碍的核心
 - [长期哀伤障碍（Prolonged Grief Disorder）](Prolonged-Grief-Disorder.md)
 - [创伤（Trauma）](Trauma.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [重性抑郁障碍（MDD）](Major-Depressive-Disorder-MDD.md)
 - [广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md)
 

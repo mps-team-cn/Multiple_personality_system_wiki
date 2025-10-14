@@ -131,7 +131,7 @@ comments: true
 创伤幸存者高频共病:
 
 - [**抑郁障碍**](Depressive-Disorders.md) (60-80%) - 持续悲伤、兴趣丧失、无望感
-- [**焦虑障碍**](Anxiety.md) (50-70%) - 过度担忧、警觉、躯体紧张
+- [**焦虑障碍**](Anxiety-Disorders.md) (50-70%) - 过度担忧、警觉、躯体紧张
 - [**物质使用障碍（SUD）**](Substance-Use-Disorders-SUD.md) (30-50%) - 通过物质"自我用药"
 - [**边缘性人格障碍（BPD）**](Borderline-Personality-Disorder-BPD.md) (30-40%) - 情绪不稳定、人际困难
 
@@ -381,7 +381,7 @@ comments: true
 **情绪与心境**:
 
 - [抑郁障碍](Depressive-Disorders.md) - 抑郁的诊断与治疗
-- [焦虑（Anxiety）](Anxiety.md) - 焦虑障碍详解
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md) - 焦虑障碍详解
 - [心境障碍](Affective-Disorders.md) - 心境障碍概览
 - [物质使用障碍（SUD）](Substance-Use-Disorders-SUD.md) - 物质滥用与依赖
 - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md) - BPD 与创伤的关系

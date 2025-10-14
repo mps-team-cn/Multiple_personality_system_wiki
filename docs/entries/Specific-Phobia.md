@@ -167,7 +167,7 @@ _若特定恐惧显著影响日常生活、工作或社交功能,请尽快联系
 ### 常见共病
 
 - **核心共病**
-    - [其他焦虑障碍（Anxiety）](Anxiety.md):约60%与其他焦虑障碍共病,尤其是[社交焦虑障碍（SAD）](Social-Anxiety-Disorder.md)、[广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md)。
+    - [其他焦虑障碍（Anxiety）](Anxiety-Disorders.md):约60%与其他焦虑障碍共病,尤其是[社交焦虑障碍（SAD）](Social-Anxiety-Disorder.md)、[广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md)。
     - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md):约30%共病,常继发于长期回避与功能受损。
     - [惊恐障碍（Panic Disorder）](Panic-Disorder.md):情境型特定恐惧症与惊恐障碍有显著重叠。
 - **其他共病**
@@ -225,7 +225,7 @@ _若特定恐惧显著影响日常生活、工作或社交功能,请尽快联系
 
 ## 相关条目
 
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [广场恐惧症（Agoraphobia）](Agoraphobia.md)
 - [社交焦虑障碍（Social Anxiety Disorder, SAD）](Social-Anxiety-Disorder.md)
 - [惊恐障碍（Panic Disorder）](Panic-Disorder.md)

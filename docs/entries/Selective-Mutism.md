@@ -137,7 +137,7 @@ _若儿童或成人出现持续的情境性缄默并影响社交或学习功能�
 ## 相关条目
 
 - [社交焦虑障碍（Social Anxiety Disorder）](Social-Anxiety-Disorder.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [孤独症谱系（Autism Spectrum Disorder）](Autism-Spectrum-Disorder.md)
 - [接地（Grounding）](Grounding.md)
 - [创伤后应激障碍（PTSD）](PTSD.md)

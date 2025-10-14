@@ -115,7 +115,7 @@ comments: true
 - [非我感（Depersonalization）](Depersonalization.md)
 - [心境障碍（Affective Disorders）](Affective-Disorders.md)
 - [精神分裂症（Schizophrenia，SZ/SCZ）](Schizophrenia-SZ.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [去现实化（Derealization）](Derealization.md)
 
 ## 参考
