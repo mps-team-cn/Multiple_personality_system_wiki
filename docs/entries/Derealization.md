@@ -7,11 +7,11 @@ tags:
 - 创伤
 
 topic: 系统运作
+description: 现实解体（Derealization）现象解析：世界失真感、诊断标准与管理策略。了解现实感丧失、环境陌生化等体验的本质
 title: 去现实化（Derealization）
 updated: 2025-10-13
 comments: true
 ---
-
 # 去现实化（Derealization）
 
 !!! warning "触发警告"

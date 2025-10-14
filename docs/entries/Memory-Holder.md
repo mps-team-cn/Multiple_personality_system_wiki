@@ -7,11 +7,11 @@ tags:
 - 创伤
 
 topic: 角色与身份
+description: 记忆持有者（Memory Holder）的角色与创伤记忆管理。理解特定成员持有特定记忆的机制、记忆分隔的保护作用及整合挑战
 title: 记忆持有者（Memory Holder）
 updated: 2025-10-13
 comments: true
 ---
-
 # 记忆持有者（Memory Holder）
 
 ## 定义

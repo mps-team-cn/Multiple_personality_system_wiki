@@ -7,11 +7,11 @@ tags:
 - 创伤
 
 topic: 系统运作
+description: 成员融合（Fusion）过程详解：自愿融合、融合体验与后续适应。了解融合的条件、过程及融合后的身份重建与情感调适
 title: 融合（Fusion）
 updated: 2025-10-13
 comments: true
 ---
-
 # 融合（Fusion）
 
 ## 定义

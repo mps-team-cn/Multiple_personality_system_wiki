@@ -7,11 +7,11 @@ tags:
 - 创伤
 
 topic: 系统运作
+description: 人格解体（Depersonalization）体验详解：与自我脱节的感受、诊断标准与应对方法。理解非我感、观察者视角等解离现象
 title: 非我感（Depersonalization）
 updated: 2025-10-13
 comments: true
 ---
-
 # 非我感（Depersonalization）
 
 !!! warning "触发警告"

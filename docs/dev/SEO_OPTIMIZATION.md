@@ -190,13 +190,14 @@ tags:
 
 - [ ] 创建 og-banner.png（推荐尺寸：1200x630px）
 - [ ] 创建 twitter-banner.png（推荐尺寸：1200x600px）
-- [ ] 提交网站到 Google Search Console
-- [ ] 提交网站到百度站长平台
-- [ ] 提交网站到必应网站管理员工具
+- [x] 提交网站到 Google Search Console（已完成 2025-10-14）
+- [x] 提交网站到必应网站管理员工具（已完成 2025-10-14）
+- [-] ~~提交网站到百度站长平台~~（暂不提交）
 
 ### 建议完成
 
-- [ ] 为主要词条添加 description 字段
+- [x] 为主要词条添加 description 字段（已完成 32 个核心词条，覆盖率 15.7%）
+- [ ] 为剩余词条添加 description 字段（177 个待完成）
 - [ ] 优化图片 alt 标签
 - [ ] 添加内部链接优化
 - [ ] 创建 FAQ 页面（Schema.org FAQPage）
@@ -271,6 +272,18 @@ grep 'meta name="description"' site/index.html
 
 ## 更新日志
 
+### 2025-10-14
+
+- 完成 Google Search Console 提交
+- 完成必应网站管理员工具提交
+- 确认暂不提交百度站长平台
+- 为 32 个核心词条添加 description 字段
+  - 包含 DID、OSDD、Tulpa、CPTSD、PTSD 等主要诊断词条
+  - 包含 System、Alter、Front、Switch 等系统运作核心概念
+  - 包含 Grounding、Trauma、Trigger、Flashback 等创伤相关词条
+  - 包含各类成员角色：Host、Protector、Persecutor、Little、Caregiver、Gatekeeper 等
+  - 创建自动化工具 `tools/check_descriptions.py` 和 `tools/add_descriptions.py`
+
 ### 2025-10-13
 
 - 初始 SEO 优化实施
@@ -283,4 +296,4 @@ grep 'meta name="description"' site/index.html
 ---
 
 **维护者**: MPS Team
-**最后更新**: 2025-10-13
+**最后更新**: 2025-10-14
