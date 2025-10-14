@@ -95,7 +95,7 @@ DSM-5-TR 明确将 PMDD 作为独立诊断并归入抑郁障碍章节；ICD-11 �
 
 - **经前综合征（Premenstrual Syndrome，PMS）**：症状较轻，功能损害不显著，不符合 PMDD 的严重程度标准。
 - [**重性抑郁障碍（Major Depressive Disorder，MDD）**](Depressive-Disorders.md)：症状不局限于黄体期，缺乏明确的月经周期相关性。
-- [**双相障碍（Bipolar Disorder）**](Bipolar-Disorder.md)：情绪波动更持久且不限于月经周期，可能伴随躁狂或轻躁狂发作。
+- [**双相障碍（Bipolar Disorders）**](Bipolar-Disorders.md)：情绪波动更持久且不限于月经周期，可能伴随躁狂或轻躁狂发作。
 - [**焦虑障碍（Anxiety Disorders）**](Anxiety-Disorders.md)：焦虑症状持续存在且不随月经周期显著变化。
 - [**边缘性人格障碍（Borderline Personality Disorder，BPD）**](Borderline-Personality-Disorder-BPD.md)：情绪不稳与人际冲突持续存在，不局限于黄体期。
 - **其他医学状况**：甲状腺功能异常、贫血、子宫内膜异位症等可能引起类似症状，需通过实验室检查与妇科评估排除。
