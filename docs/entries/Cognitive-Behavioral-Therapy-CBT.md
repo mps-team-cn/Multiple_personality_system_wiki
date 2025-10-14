@@ -7,7 +7,7 @@ tags:
     - 心理治疗
     - 认知行为
 
-updated: 2025-02-16
+updated: 2025-10-14
 synonyms:
 
     - 认知行为疗法

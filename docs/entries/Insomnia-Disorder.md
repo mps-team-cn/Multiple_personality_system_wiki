@@ -13,7 +13,7 @@ synonyms:
     - Insomnia Disorder
     - Insomnia
 
-updated: 2025-10-12
+updated: 2025-10-14
 comments: true
 ---
 

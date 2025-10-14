@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 急性应激障碍（Acute Stress Disorder, ASD）
-updated: 2025-10-12
+updated: 2025-10-14
 synonyms:
 
 - 急性应激障碍

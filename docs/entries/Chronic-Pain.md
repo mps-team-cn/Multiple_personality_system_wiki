@@ -8,7 +8,7 @@ tags:
     - 身心医学
     - 系统支持
 
-updated: 2025-02-15
+updated: 2025-10-14
 synonyms:
 
     - 慢性疼痛

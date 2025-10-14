@@ -8,7 +8,7 @@ tags:
     - 共病
     - 系统支持
 
-updated: 2025-02-15
+updated: 2025-10-14
 synonyms:
 
     - 癫痫
