@@ -250,9 +250,13 @@ plugins:
 
   - tags
 
-  # 排除不需要发布的开发与工具目录
+  # 排除不需要发布的开发与工具目录、内部文档
   - exclude:
       glob:
+        - 404.md
+        - ADMIN_GUIDE.md
+        - GITHUB_WORKFLOW.md
+        - TEMPLATE_ENTRY.md
         - dev/**
         - tools/**
 

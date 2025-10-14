@@ -20,7 +20,13 @@
   <meta name="twitter:image" content="{{ config.site_url }}assets/images/twitter-banner.png">
 
   <!-- 额外的 SEO meta 标签 -->
-  <meta name="keywords" content="多重人格系统,解离障碍,DID,OSDD,创伤疗愈,心理健康,Tulpa,多意识体系统{% if page.meta and page.meta.tags %},{{ page.meta.tags | join(', ') }}{% endif %}">
+  {% set base_keywords = ["多重人格系统", "解离障碍", "DID", "OSDD", "创伤疗愈", "心理健康", "Tulpa", "多意识体系统"] %}
+  {% if page.meta and page.meta.tags %}
+    {% set page_keywords = base_keywords + page.meta.tags[:4] %}
+  {% else %}
+    {% set page_keywords = base_keywords %}
+  {% endif %}
+  <meta name="keywords" content="{{ page_keywords[:12] | join(', ') }}">
   <meta name="author" content="{{ config.site_author }}">
   <link rel="canonical" href="{{ page.canonical_url }}">
   {% endif %}

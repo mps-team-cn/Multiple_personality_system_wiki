@@ -102,7 +102,7 @@ function addStructuredData() {
     },
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://wiki.mpsteam.cn/?q={search_term_string}",
+      "target": "https://wiki.mpsteam.cn/search/?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   };

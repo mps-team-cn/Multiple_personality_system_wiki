@@ -69,7 +69,7 @@
   "inLanguage": "zh-CN",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://wiki.mpsteam.cn/?q={search_term_string}"
+    "target": "https://wiki.mpsteam.cn/search/?q={search_term_string}"
   }
 }
 ```
@@ -112,14 +112,15 @@
 多重人格系统,解离障碍,DID,OSDD,创伤疗愈,心理健康,Tulpa,多意识体系统
 ```
 
-**动态关键词**:
+**动态关键词策略**:
 
-- 自动从页面 Frontmatter 的 tags 字段提取
-- 与基础关键词合并
+- 基础关键词 (8 个) + 页面 tags (最多 4 个) = 最终关键词 (最多 12 个)
+- 自动从页面 Frontmatter 的 tags 字段提取前 4 个标签
+- 与基础关键词合并后截取前 12 个
 
 **注意事项**:
 
-- 关键词不要过多（建议 8-12 个）
+- 严格控制在 8-12 个关键词之间
 - 避免关键词堆砌
 - 确保关键词与页面内容相关
 
@@ -274,6 +275,9 @@ grep 'meta name="description"' site/index.html
 
 ### 2025-10-14
 
+- **SEO 优化修正**：
+  - 修复 SearchAction.target 为 Material 搜索路由格式：`/search/?q={query}`
+  - 优化 keywords 字段策略：基础 8 个 + 页面 tags 前 4 个，总数控制在 12 个以内
 - 完成 Google Search Console 提交
 - 完成必应网站管理员工具提交
 - 确认暂不提交百度站长平台
