@@ -30,7 +30,7 @@ comments: true
 
 -   :material-format-list-bulleted-square: **DSM-5-TR 分类总览**
 
-    21 大类折叠浏览
+    22 大类折叠浏览
     [:octicons-arrow-right-16: 进入](#dsm-5-tr-诊断分类体系)
 
 -   :material-clipboard-pulse-outline: **临床评估关键概念**
@@ -100,9 +100,9 @@ comments: true
 
 ???+ abstract "展开查看"
 
+    - [双相障碍总览（Bipolar Disorders）](Bipolar-Disorders.md) — **已完成**
     - [双相 I 型障碍（Bipolar I Disorder）](Bipolar-I-Disorder.md) — **已完成**
     - [双相 II 型障碍（Bipolar II Disorder）](Bipolar-II-Disorder.md) — **已完成**
-    - [双相障碍总览（Bipolar Disorders）](Bipolar-Disorders.md) — **已完成**
     - [躁狂发作（Mania）](Mania.md) / [轻躁狂发作（Hypomania）](Hypomania.md) — **已完成**
     - [环性心境障碍（Cyclothymic Disorder）](Cyclothymic-Disorder.md) — **已完成**
     - 物质/医学状况所致双相障碍等 — **待更新**
@@ -170,7 +170,7 @@ comments: true
     - [慢性疼痛（Chronic Pain）](Chronic-Pain.md) — **已完成**
     - 疾病焦虑障碍（Illness Anxiety Disorder）、做作性障碍（Factitious Disorder）等 — **待更新**
 
-### 10) 进食障碍
+### 10) 喂养与进食障碍
 
 ???+ abstract "展开查看"
 
@@ -211,7 +211,7 @@ comments: true
 
 ???+ abstract "展开查看"
 
-    - 对立违抗障碍（ODD）、间歇性暴怒障碍（IED）、品行障碍（Conduct Disorder）、反社会型人格障碍（ASPD）、纵火癖（Pyromania）、偷窃癖（Kleptomania）等 — **待更新**
+    - 对立违抗障碍（ODD）、间歇性暴怒障碍（IED）、品行障碍（Conduct Disorder）、纵火癖（Pyromania）、偷窃癖（Kleptomania）等 — **待更新**
 
 ### 16) 物质相关及成瘾障碍
 
@@ -245,18 +245,31 @@ comments: true
 
     - 各子类 — **待更新**
 
-### 20) 其他精神障碍
+### 20) 其他精神障碍及附加编码
 
 ???+ abstract "展开查看"
 
-    - 其他特定 / 未特定 — **待更新**
+    - 其他特定精神障碍（Other Specified Mental Disorder）— **待更新**
+    - 未特定精神障碍（Unspecified Mental Disorder）— **待更新**
 
-### 21) 药物诱发运动障碍与不良反应
+### 21) 药物诱发运动障碍及其他药物不良反应
 
 ???+ abstract "展开查看"
 
-    - 药物诱发帕金森综合征、迟发性运动障碍等 — **待更新**
-    - 抗抑郁药中断综合征等 — **待更新**
+    - 药物诱发帕金森综合征（Medication-Induced Parkinsonism）— **待更新**
+    - 迟发性运动障碍（Tardive Dyskinesia）、迟发性静坐不能（Tardive Akathisia）等 — **待更新**
+    - 抗抑郁药中断综合征（Antidepressant Discontinuation Syndrome）— **待更新**
+    - 神经阻滞剂恶性综合征（Neuroleptic Malignant Syndrome）、急性静坐不能（Acute Akathisia）等 — **待更新**
+
+### 22) 可能成为临床关注焦点的其他情况
+
+???+ abstract "展开查看"
+
+    - 关系问题（Relational Problems）— **待更新**
+    - 虐待与忽视问题（Abuse and Neglect）— **待更新**
+    - 教育与职业问题（Educational and Occupational Problems）— **待更新**
+    - 住房与经济问题（Housing and Economic Problems）— **待更新**
+    - 其他健康服务相关问题（Other Problems Related to the Social Environment, Legal System, etc.）— **待更新**
 
 ---
 
