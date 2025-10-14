@@ -292,7 +292,7 @@ ACT 六边形模型（ACT Hexaflex）：六个核心过程围绕心理灵活性�
 
 ### 研究证据
 
-- **中到大效应量**：多项 RCT 显示 ACT 对[焦虑](Anxiety-Disorders.md)、[抑郁](Major-Depressive-Disorder-MDD.md)、[慢性疼痛](Chronic-Pain.md)有效
+- **中到大效应量**：多项 RCT 显示 ACT 对[焦虑](Anxiety-Disorders.md)、[抑郁](Depressive-Disorders.md)、[慢性疼痛](Chronic-Pain.md)有效
 - **慢性疼痛**：ACT 显著改善功能，即使疼痛水平未改变
 - **职场压力**：ACT 降低职业倦怠
 - **长期效果**：随访研究显示效果维持
