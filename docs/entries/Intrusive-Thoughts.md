@@ -114,7 +114,7 @@ comments: true
 - [闪回（Flashback）](Flashback.md)
 - [非我感（Depersonalization）](Depersonalization.md)
 - [心境障碍（Affective Disorders）](Affective-Disorders.md)
-- [精神分裂症（Schizophrenia，SC）](Schizophrenia-SC.md)
+- [精神分裂症（Schizophrenia，SZ/SCZ）](Schizophrenia-SZ.md)
 - [焦虑（Anxiety）](Anxiety.md)
 - [去现实化（Derealization）](Derealization.md)
 

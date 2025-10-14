@@ -41,7 +41,7 @@ comments: true
 - [ ] Delusional-Disorder.md
 - [ ] Brief-Psychotic-Disorder.md
 - [ ] Schizophreniform-Disorder.md
-- [x] Schizophrenia-SC.md
+- [x] Schizophrenia-SZ.md
 - [ ] Schizoaffective-Disorder.md
 - [ ] Substance-Medication-Induced-Psychotic-Disorder.md
 - [ ] Psychotic-Disorder-Due-to-Another-Medical-Condition.md
@@ -118,7 +118,7 @@ comments: true
 - [x] Dissociative-Amnesia-DA.md
 - [x] Depersonalization-Derealization-Disorder-DPDR.md
 - [x] OSDD.md
-- [x] Unspecified-Dissociative-Disorder-USDD.md
+- [x] Unspecified-Dissociative-Disorder-sdd.md
 - [x] Partial-Dissociative-Identity-Disorder-PDID.md  <!-- ICD-11 -->
 
 ## 9. 躯体症状及相关障碍（Somatic Symptom and Related Disorders）

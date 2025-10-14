@@ -166,7 +166,7 @@ comments: true
 
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
 - [焦虑（Anxiety）](Anxiety.md)
-- [精神分裂症（Schizophrenia）](Schizophrenia-SC.md)
+- [精神分裂症（Schizophrenia）](Schizophrenia-SZ.md)
 - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)
 
 ### 导览

@@ -124,7 +124,7 @@ comments: true
 - [轻躁狂（Hypomania）](Hypomania.md)
 - [心境障碍（Affective Disorders）](Affective-Disorders.md)
 - [孤独症谱系（Autism Spectrum Disorder）](Autism-Spectrum-Disorder.md)
-- [精神分裂症（Schizophrenia，SC）](Schizophrenia-SC.md)
+- [精神分裂症（Schizophrenia，SZ/SCZ）](Schizophrenia-SZ.md)
 
 ## 参考与延伸阅读
 
