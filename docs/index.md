@@ -88,127 +88,87 @@
 
 ## 🎯 核心主题
 
-<div class="core-topics-grid" markdown>
+<div class="grid cards" markdown>
 
-<div class="core-topic-card" markdown>
+- :material-lightbulb-on: [**核心概念**](entries/Core-Concepts-Guide.md)
 
-### :material-lightbulb-on: [核心概念](entries/Core-Concepts-Guide.md)
+    从解离说起，建立多意识体系统的理论框架
 
-从解离说起，建立多意识体系统的理论框架与基础术语。
-
-??? info "关键条目"
     - [解离（Dissociation）](entries/Dissociation.md) - 一切的基础概念
     - [多意识体系统（MPS）](entries/Multiple_Personality_System.md) - 核心概念定义
     - [系统（System）](entries/System.md) - 多意识体系统的基本概念
     - [DID vs Tulpa](entries/Core-Concepts-Guide.md#三健康与病理不同程度的多意识体) - 理解健康与病理的界限
     - [埃蒙加德分类法](entries/Emmengard-Classification.md) - 按成因理解系统类型
 
-</div>
+- :material-hospital-box: [**诊断与临床**](entries/Clinical-Diagnosis-Guide.md)
 
-<div class="core-topic-card" markdown>
+    理解解离障碍、创伤相关诊断及临床治疗
 
-### :material-hospital-box: [诊断与临床](entries/Clinical-Diagnosis-Guide.md)
-
-理解解离障碍、创伤相关诊断与治疗流程。
-
-??? info "关键条目"
     - [解离障碍（Dissociative Disorders）](entries/Dissociative-Disorders.md)
     - [解离性身份障碍（DID）](entries/DID.md)
     - [其他特定解离性障碍（OSDD）](entries/OSDD.md)
     - [创伤后应激障碍（PTSD）](entries/PTSD.md)
     - [复杂性 PTSD（CPTSD）](entries/CPTSD.md)
 
-</div>
+- :material-account-group: [**系统运作与协作**](entries/System-Operations.md) {#system-operations}
 
-<div class="core-topic-card" markdown>
+    掌握多意识体系统的日常运作机制
 
-### :material-account-group: [系统运作与协作](entries/System-Operations.md) {#system-operations}
-
-掌握多意识体系统的日常运作机制与协作方式。
-
-??? info "关键条目"
     - [前台（Fronting）](entries/Front-Fronting.md) - 谁在控制身体？
     - [切换（Switch）](entries/Switch.md) - 成员如何转换？
     - [意识共存（Co-consciousness）](entries/Co-Consciousness.md) - 同时感知的状态
     - [内部空间（Inner World）](entries/Headspace-Inner-World.md) - 系统的内在世界
     - [内部沟通](entries/Internal-Communication.md) - 成员间的交流方式
 
-</div>
+- :material-heart-pulse: [**创伤与疗愈**](entries/Trauma-Healing-Guide.md) {#trauma-healing}
 
-<div class="core-topic-card" markdown>
+    了解创伤机制与循证治疗方法
 
-### :material-heart-pulse: [创伤与疗愈](entries/Trauma-Healing-Guide.md) {#trauma-healing}
-
-了解创伤机制、情绪调节与循证治疗的整合路径。
-
-??? info "关键条目"
     - [创伤（Trauma）](entries/Trauma.md) - 创伤的定义与类型
     - [自我照护工具箱](entries/Self-Care-Toolkit.md) - 接地、呼吸、情绪调节等即用技巧
     - [接地（Grounding）](entries/Grounding.md) - 回到当下的稳定技巧
     - [闪回（Flashback）](entries/Flashback.md) - 创伤记忆的重现
     - [触发（Trigger）](entries/Trigger.md) - 激活创伤反应的刺激
 
-</div>
+- :material-account-multiple: [**角色与身份**](entries/Roles-Identity-Guide.md)
 
-<div class="core-topic-card" markdown>
+    认识系统中的不同角色与职能分工
 
-### :material-account-multiple: [角色与身份](entries/Roles-Identity-Guide.md)
-
-认识系统角色的职能与边界，支持成员之间的理解。
-
-??? info "关键条目"
     - [宿主（Host）](entries/Host.md) - 通常在前台的主要成员
     - [守门人（Gatekeeper）](entries/Gatekeeper.md) - 管理切换的调度者
     - [保护者（Protector）](entries/Protector.md) - 守护系统安全的角色
     - [小孩意识体（Little）](entries/Little.md) - 保留童年状态的成员
     - [迫害者（Persecutor）](entries/Persecutor.md) - 内化的创伤反应
 
-</div>
+- :material-book-open-variant: [**理论与分类**](entries/Theory-Classification-Guide.md)
 
-<div class="core-topic-card" markdown>
+    探索多意识体系统的理论框架与分类体系
 
-### :material-book-open-variant: [理论与分类](entries/Theory-Classification-Guide.md)
-
-探索多意识体系统的理论模型与分类体系。
-
-??? info "关键条目"
     - [多意识体系统（MPS）](entries/Multiple_Personality_System.md) - 核心概念定义
     - [埃蒙加德分类法](entries/Emmengard-Classification.md) - 按成因分类系统
     - [图帕（Tulpa）](entries/Tulpa.md) - 创造型意识体
     - [结构性解离理论](entries/Structural-Dissociation-Theory.md) - 经典临床模型
     - [ANP-EP 模型](entries/Apparently-Normal-Part-Emotional-Part-Model.md) - 功能性人格部分
 
-</div>
+- :material-palette: [**文化与表现**](entries/Cultural-Media-Guide.md)
 
-<div class="core-topic-card" markdown>
+    文学、影视作品中的多重人格主题
 
-### :material-palette: [文化与表现](entries/Cultural-Media-Guide.md)
-
-梳理文学、影视与亚文化中的多重人格呈现。
-
-??? info "关键条目"
     - [《搏击俱乐部》](entries/Fight-Club-1999-Identity-Metaphor.md) - 身份解体隐喻
     - [《分裂》](entries/Split-2016-DID-Representation.md) - DID 形象分析
     - [《西比尔》](entries/Sybil-1976-Cultural-Prototype.md) - 多重人格文化原型
     - [初音未来现象](entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md) - 虚拟偶像与 Tulpa 边界
     - [东方 Project](entries/Touhou-Tulpa-Fandom.md) - 同人圈 Tulpa 文化
 
-</div>
+- :material-clipboard-check: [**实践指南**](entries/Practice-Guide.md)
 
-<div class="core-topic-card" markdown>
+    操作性的训练方法、实践技巧与自助策略
 
-### :material-clipboard-check: [实践指南](entries/Practice-Guide.md)
-
-提供可操作的训练方法、实践技巧与自助策略。
-
-??? info "关键条目"
     - [Tulpa 完全创造指南](entries/Tulpa-Guide.md) - 从基础到进阶的完整教程
     - [冥想（Meditation）](entries/Meditation.md) - 专注力训练与意识稳定
     - [内视](entries/Visualization-Imagination.md) - 心像构建与形象塑造
     - [接地（Grounding）](entries/Grounding.md) - 回到当下的稳定技巧
     - [内部沟通](entries/Internal-Communication.md) - 成员间的交流方法
-
-</div>
 
 </div>
 
