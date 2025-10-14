@@ -167,7 +167,7 @@ comments: true
     - [解离性身份障碍（DID）](DID.md) — :octicons-check-16: 已完成
     - [解离性遗忘（DA）](Dissociative-Amnesia-DA.md) — :octicons-check-16: 已完成
     - [人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md) — :octicons-check-16: 已完成
-    - [其他特定解离障碍（OSDD）](OSDD.md) / [未特定解离障碍（UDD）](Unspecified-Dissociative-Disorder-USDD.md) — :octicons-check-16: 已完成
+    - [其他特定解离障碍（OSDD）](OSDD.md) / [未特定解离障碍（UDD）](Unspecified-Dissociative-Disorder-SDD.md) — :octicons-check-16: 已完成
     - [部分解离性身份障碍（PDID，ICD-11）](Partial-Dissociative-Identity-Disorder-PDID.md) — :octicons-check-16: 已完成
       *（说明：ICD-11 独立诊断，**非 DSM-5-TR**；详细对照见下文 ICD-11 专章）*
 

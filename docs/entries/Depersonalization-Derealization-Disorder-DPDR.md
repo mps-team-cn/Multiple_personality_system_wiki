@@ -122,7 +122,7 @@ comments: true
 - [解离性身份障碍（DID）](DID.md)
 - [解离性失忆（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)
 - [其他特定解离性障碍（OSDD）](OSDD.md)
-- [未特定的解离障碍（sdd）](Unspecified-Dissociative-Disorder-sdd.md)
+- [未特定的解离障碍（sdd）](Unspecified-Dissociative-Disorder-SDD.md)
 - [人格解体（Depersonalization）](Depersonalization.md)
 - [去现实化（Derealization）](Derealization.md)
 
