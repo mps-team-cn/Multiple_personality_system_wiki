@@ -112,7 +112,7 @@ updated: 2025-10-07
 
 ```markdown
 [解离性身份障碍](../entries/DID.md)
-[多意识体基础](../entries/Mps-Basics.md)
+[多意识体系统](../entries/Multiple_Personality_System.md)
 ```
 
 ### 3.3 锚点链接

@@ -15,8 +15,7 @@ comments: true
 
 ## 核心概念与理论框架
 
-- [多意识体系统（MPS）](Multiple_Personality_System.md)：界定多意识体现象与社群语境。
-- [多重意识体基础](Mps-Basics.md)：梳理术语、常见结构与常用实践。
+- [多意识体系统（Multiple Personality System，MPS）](Multiple_Personality_System.md)：界定多意识体现象与社群语境，并梳理术语、常见结构与常用实践。
 - [系统（System）](System.md)：说明系统的组成、边界与日常协调需求。
 - [解离（Dissociation）](Dissociation.md)：阐释解离连续体与对系统运作的影响。
 - [神经多样性（Neurodiversity）](Neurodiversity.md)：强调尊重差异的观点，提示与神经发育特征的交集。

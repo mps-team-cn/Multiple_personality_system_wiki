@@ -40,7 +40,7 @@ comments: true
 - [《分裂》（Split, 2016）中的 DID 形象分析](Split-2016-DID-Representation.md)
 - [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](Another-Me-DID-Depictions.md)
 - [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](Fight-Club-1999-Identity-Metaphor.md)
+- [多意识体系统（Multiple Personality System，MPS）](Multiple_Personality_System.md)
 - [系统（System）](System.md)
 - [其他特定解离性障碍（OSDD）](OSDD.md)
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
-- [多意识体系统基础（MPS Basics）](Mps-Basics.md)
