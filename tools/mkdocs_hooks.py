@@ -1,15 +1,17 @@
-"""MkDocs 构建钩子：清理搜索索引中的零宽空格，避免中文搜索失效；将 Frontmatter 中的 synonyms 注入搜索索引。"""
+"""MkDocs 构建钩子：清理搜索索引中的零宽空格，避免中文搜索失效；将 Frontmatter 中的 synonyms 注入搜索索引；生成基于 Frontmatter updated 字段的最近更新列表。"""
 
 from __future__ import annotations
 
 import json
 import re
+from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict
 
 import yaml
 
 ZERO_WIDTH_SPACE = "\u200b"
+RECENTLY_UPDATED_PLACEHOLDER = "<!-- RECENTLY_UPDATED_DOCS -->"
 
 
 def _strip_zero_width(value: str) -> str:
@@ -37,6 +39,122 @@ def _extract_frontmatter_synonyms(file_path: Path) -> list[str]:
         return []
     except Exception:
         return []
+
+
+def _extract_frontmatter(file_path: Path) -> Dict[str, Any]:
+    """从 Markdown 文件中提取完整的 Frontmatter。"""
+    if not file_path.exists():
+        return {}
+
+    content = file_path.read_text(encoding="utf-8")
+    match = re.match(r"^---\s*\n(.*?)\n---\s*\n", content, re.DOTALL)
+    if not match:
+        return {}
+
+    try:
+        return yaml.safe_load(match.group(1)) or {}
+    except Exception:
+        return {}
+
+
+def _generate_recently_updated_html(docs_dir: Path, limit: int = 100) -> str:
+    """生成基于 Frontmatter updated 字段的最近更新列表 HTML。"""
+    entries = []
+
+    # 遍历所有 Markdown 文件
+    for md_file in docs_dir.rglob("*.md"):
+        frontmatter = _extract_frontmatter(md_file)
+        updated = frontmatter.get("updated")
+        title = frontmatter.get("title")
+
+        if not updated or not title:
+            continue
+
+        # 解析日期
+        try:
+            if isinstance(updated, str):
+                updated_date = datetime.strptime(updated, "%Y-%m-%d")
+            else:
+                updated_date = updated
+        except Exception:
+            continue
+
+        # 计算相对路径和 URL（使用绝对路径，从根目录开始）
+        rel_path = md_file.relative_to(docs_dir)
+        url = str(rel_path.with_suffix("")).replace("\\", "/")
+        if url.endswith("/index"):
+            url = url[:-6]  # 移除 /index
+        elif url == "index":
+            url = ""  # 首页特殊处理
+        # 使用站点根路径（以 / 开头），确保所有页面的链接都正确
+        url = "/" + url.rstrip("/")
+        if url != "/":
+            url += "/"
+
+        entries.append((updated_date, title, url))
+
+    # 按日期排序并取前 N 条
+    entries.sort(reverse=True, key=lambda x: x[0])
+    entries = entries[:limit]
+
+    # 生成 HTML
+    html_parts = [
+        '<style>',
+        '.recently-updated {',
+        '    display: grid;',
+        '    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));',
+        '    gap: 10px;',
+        '    margin: 0;',
+        '    padding: 16px;',
+        '    border: 1px solid rgba(142, 142, 142, 0.15);',
+        '    border-radius: 4px;',
+        '    font-family: system-ui, sans-serif;',
+        '}',
+        '.recently-updated-item {',
+        '    display: flex;',
+        '    align-items: center;',
+        '}',
+        '.recently-updated-item span {',
+        '    font-size: 0.85em;',
+        '    color: rgba(142, 142, 142, 0.5);',
+        '    margin-right: 8px;',
+        '    flex-shrink: 0;',
+        '    width: 90px;',
+        '}',
+        '.recently-updated-item a {',
+        '    overflow: hidden;',
+        '    text-overflow: ellipsis;',
+        '    white-space: nowrap;',
+        '    color: #0077cc;',
+        '    text-decoration: none;',
+        '    transition: color 0.2s ease;',
+        '}',
+        '.recently-updated-item a:hover {',
+        '    text-decoration: underline;',
+        '}',
+        '</style>',
+        '<div class="recently-updated">',
+    ]
+
+    for updated_date, title, url in entries:
+        date_str = updated_date.strftime("%Y-%m-%d")
+        html_parts.append(f'    <div class="recently-updated-item">')
+        html_parts.append(f'        <span>{date_str}</span>')
+        html_parts.append(f'        <a href="{url}">{title}</a>')
+        html_parts.append(f'    </div>')
+
+    html_parts.append('</div>')
+
+    return '\n'.join(html_parts)
+
+
+def on_page_markdown(markdown: str, page: Any, config: Dict[str, Any], files: Any) -> str:
+    """在页面 Markdown 处理前替换最近更新占位符。"""
+    if RECENTLY_UPDATED_PLACEHOLDER in markdown:
+        docs_dir = Path(config.get("docs_dir", "docs"))
+        recently_updated_html = _generate_recently_updated_html(docs_dir, limit=100)
+        markdown = markdown.replace(RECENTLY_UPDATED_PLACEHOLDER, recently_updated_html)
+    return markdown
 
 
 def on_post_build(config: Dict[str, Any]) -> None:

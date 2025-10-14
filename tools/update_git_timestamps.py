@@ -21,7 +21,7 @@ from typing import Optional, Tuple
 
 def get_git_last_modified_date(file_path: Path) -> Optional[str]:
     """
-    获取文件在 Git 中的最后修改日期
+    获取文件在 Git 中的最后修改日期（忽略 CI 自动提交）
 
     Args:
         file_path: 文件路径
@@ -30,10 +30,14 @@ def get_git_last_modified_date(file_path: Path) -> Optional[str]:
         YYYY-MM-DD 格式的日期字符串,如果获取失败则返回 None
     """
     try:
-        # 使用 git log 获取文件的最后提交时间
-        # 注意：使用仓库根目录作为工作目录，而不是文件所在目录
+        # 获取所有提交记录（包含作者和提交消息）
         result = subprocess.run(
-            ['git', 'log', '-1', '--format=%ai', '--', str(file_path)],
+            [
+                'git', 'log',
+                '--format=%ai|%an|%s',
+                '--',
+                str(file_path)
+            ],
             capture_output=True,
             text=True,
             check=True
@@ -43,8 +47,25 @@ def get_git_last_modified_date(file_path: Path) -> Optional[str]:
             # 文件可能是新添加但未提交的
             return None
 
-        # 解析时间戳 (格式: 2025-10-11 13:02:30 +0800)
-        timestamp_str = result.stdout.strip().split()[0]
+        # 逐行解析，找到第一个非 CI 自动提交的记录
+        for line in result.stdout.strip().split('\n'):
+            parts = line.split('|', 2)
+            if len(parts) < 3:
+                continue
+
+            timestamp_full, author, message = parts
+
+            # 跳过 CI 自动提交（github-actions[bot] 且消息包含"自动更新词条时间戳和格式"）
+            if 'github-actions[bot]' in author and '自动更新词条时间戳和格式' in message:
+                continue
+
+            # 解析时间戳 (格式: 2025-10-11 13:02:30 +0800)
+            timestamp_str = timestamp_full.split()[0]
+            return timestamp_str
+
+        # 如果所有提交都是 CI 自动提交，则返回最后一个
+        first_line = result.stdout.strip().split('\n')[0]
+        timestamp_str = first_line.split('|')[0].split()[0]
         return timestamp_str
 
     except subprocess.CalledProcessError:

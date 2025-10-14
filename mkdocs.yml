@@ -250,11 +250,6 @@ plugins:
 
   - tags
 
-  - recently-updated:
-      limit: 100
-      include:
-        - entries/*
-
   # 排除不需要发布的开发与工具目录
   - exclude:
       glob:
