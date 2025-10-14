@@ -46,9 +46,9 @@ theme:
   # 功能特性
   features:
     # 导航
-    - navigation.instant # 即时加载
-    - navigation.instant.prefetch # 预加载
-    - navigation.instant.progress # 显示加载进度
+    # - navigation.instant # 即时加载 (已禁用以优化性能)
+    # - navigation.instant.prefetch # 预加载 (已禁用以优化性能)
+    # - navigation.instant.progress # 显示加载进度 (已禁用以优化性能)
     - navigation.tracking # 地址栏跟踪
     - navigation.tabs # 顶部标签页
     - navigation.tabs.sticky # 固定标签页
