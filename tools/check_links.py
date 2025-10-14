@@ -245,13 +245,31 @@ def validate_link(
         return True, ""
 
 
-def check_file(md_path: Path, repo_root: Path) -> List[Tuple[int, str, str]]:
+def check_file(md_path: Path, repo_root: Path, exclude_files: Set[str] = None) -> List[Tuple[int, str, str]]:
     """
     检查单个 Markdown 文件的链接
+
+    Args:
+        md_path: Markdown 文件路径
+        repo_root: 仓库根目录
+        exclude_files: 排除文件集合
 
     Returns:
         违规列表：[(行号, 目标, 错误信息), ...]
     """
+    if exclude_files is None:
+        exclude_files = set()
+
+    # 检查文件是否在排除列表中
+    try:
+        rel_path = md_path.relative_to(repo_root)
+        rel_path_str = str(rel_path).replace("\\", "/")
+        if rel_path_str in exclude_files:
+            # 文件在排除列表中，返回空违规列表
+            return []
+    except ValueError:
+        pass
+
     violations = []
     source_context = get_file_context(md_path, repo_root)
 
@@ -414,13 +432,49 @@ def main():
     print(f"找到 {len(md_files)} 个 Markdown 文件")
     print()
 
+    # 获取排除文件列表（与 find_md_files 中的定义保持一致）
+    exclude_files = {
+        # 模板和示例文件（包含示例链接）
+        "docs/TEMPLATE_ENTRY.md",
+        "docs/404.md",
+
+        # Contributing 指南（包含规范和示例）
+        "docs/contributing/index.md",
+        "docs/contributing/technical-conventions.md",
+        "docs/contributing/writing-guidelines.md",
+        "docs/contributing/pr-workflow.md",
+        "docs/contributing/academic-citation.md",
+        "docs/contributing/clinical-guidelines.md",
+
+        # 开发文档（可能包含示例或待完善的链接）
+        "docs/dev/INDEX_GUIDE.md",
+        "docs/dev/MIGRATION_REPORT.md",
+        "docs/dev/IMPROVEMENT_SUGGESTIONS.md",
+
+        # 工具和计划文档
+        "tools/REFACTORING_PLAN.md",
+        "tools/pdf_export/MIGRATION_NOTES.md",
+        "tools/pdf_export/README_pdf_output.md",
+        "tools/pdf_export/ignore.md",
+
+        # 元数据文档
+        "docs/changelog.md",
+
+        # README 文件（通常包含示例或外部链接）
+        "docs/tools/README.md",
+        "docs/admin/README.md",
+        "docs/assets/README.md",
+        "docs/assets/uploads/README.md",
+        "tools/deprecated/README.md",
+    }
+
     # 检查所有文件
     total_violations = 0
     files_with_violations = 0
 
     for md_file in md_files:
         rel_path = md_file.relative_to(repo_root)
-        violations = check_file(md_file, repo_root)
+        violations = check_file(md_file, repo_root, exclude_files)
 
         if violations:
             files_with_violations += 1
