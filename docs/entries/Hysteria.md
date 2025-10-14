@@ -13,7 +13,7 @@ synonyms:
     - 歇斯底里
     - Hysteria
 
-updated: 2025-10-12
+updated: 2025-10-13
 comments: true
 ---
 
