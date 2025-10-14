@@ -1,5 +1,74 @@
 # 更新日志
 
+## [v3.12.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.12.0) - 进食障碍词条扩充与 SEO 优化 (2025-10-14)
+
+### ✨ 新增词条
+
+- **新增 3 个进食障碍核心词条**
+    - [神经性厌食症 (Anorexia Nervosa, AN)](entries/Anorexia-Nervosa-AN.md) - 限制性饮食和体重显著偏低的进食障碍
+    - [神经性贪食症 (Bulimia Nervosa, BN)](entries/Bulimia-Nervosa-BN.md) - 反复暴食与补偿行为的进食障碍
+    - [暴食障碍 (Binge Eating Disorder, BED)](entries/Binge-Eating-Disorder-BED.md) - 无补偿行为的反复暴食障碍
+
+### 📚 词条完善
+
+- **SEO 优化**
+    - 为 32 个核心词条添加 description 字段，提升搜索引擎可见度
+    - 修正搜索路由和关键词策略，优化 sitemap 配置
+    - 为偏重词条添加 synonyms 字段，支持同义词搜索
+
+- **词条内容完善**
+    - 补全 ASPD 词条中 PCL-R 量表缺失的 3 个项目
+    - 补充歇斯底里与精神病态词条的现代诊断与测验内容
+    - 完善慢性疼痛等词条的 DSM-5-TR 标准
+    - 新增 [DSM-5-TR 量表概览](entries/DSM-5-TR-Scales.md) 词条
+
+- **导览优化**
+    - 为心理治疗词条添加内部链接并完善导览
+    - 在创伤与疗愈导览中补充 ACT 疗法
+    - 优化创伤与疗愈导览词条总览结构
+    - 修正 ACT 词条中 Switch 的链接错误
+
+### 🔧 基础设施改进
+
+- **CI/CD 优化**
+    - 添加 PR 阶段 CI 检查，验证链接规范和 Frontmatter
+    - 在 PR 检查中添加 topic 字段验证
+    - 增强链接检查工具并集成到 CI 流程
+
+- **搜索功能增强**
+    - 修复搜索同义词索引不支持字符串格式的问题
+    - 增强搜索功能，支持索引 Frontmatter 中的 synonyms 字段
+
+- **性能优化**
+    - 禁用 navigation.instant 以优化页面交互性能
+    - 移除 mkdocs-recently-updated-docs 依赖，实现自定义最近更新功能
+    - 修复本地测试时 /updates 页面为空的问题
+
+### 📖 文档优化
+
+- **首页改进**
+    - 改进首页导���结构
+    - 更新首页主题卡片文案
+    - 优化首页显示和布局
+
+- **贡献文档**
+    - 完善贡献指南和技术约定文档
+    - 更新术语表索引和使用建议
+    - 增强条目状态说明
+
+- **工具文档**
+    - 更新 check_links.py 排除列表和文档说明
+    - 更新开发日志
+
+### 🌐 其他改进
+
+- 添加 Cloudflare Web Analytics 追踪代码
+- 禁用 GitHub Pages Jekyll 构建
+- 移除过时的 PYTHON_VERSION 环境变量配置
+- 优化主页布局并清理 QQ 群相关功能
+
+---
+
 ## [v3.11.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.11.0) - 精神障碍词条扩充与贡献体系完善 (2025-10-13)
 
 ### ✨ 新增词条
