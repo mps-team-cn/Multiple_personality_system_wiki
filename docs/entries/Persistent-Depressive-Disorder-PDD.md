@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 持续性抑郁障碍（Persistent Depressive Disorder, PDD / Dysthymia）
-updated: 2025-10-12
+updated: 2025-10-14
 synonyms:
 
 - 持续性抑郁障碍

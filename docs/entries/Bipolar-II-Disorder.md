@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 双相 II 型障碍（Bipolar II Disorder）
-updated: 2025-10-13
+updated: 2025-10-14
 synonyms:
 
 - 双相II型障碍

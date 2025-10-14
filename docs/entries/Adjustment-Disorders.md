@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 适应障碍(Adjustment Disorders)
-updated: 2025-10-13
+updated: 2025-10-14
 synonyms:
 
 - 适应障碍

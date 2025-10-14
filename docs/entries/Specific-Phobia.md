@@ -7,7 +7,7 @@ tags:
 
 topic: 诊断与临床
 title: 特定恐惧症(Specific Phobia, SP)
-updated: 2025-10-13
+updated: 2025-10-14
 synonyms:
 
 - 特定恐惧症

@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 物质使用障碍（Substance Use Disorders，SUD）
-updated: 2025-10-13
+updated: 2025-10-14
 synonyms:
 
 - 物质滥用障碍

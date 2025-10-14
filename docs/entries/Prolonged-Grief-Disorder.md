@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 长期哀伤障碍(Prolonged Grief Disorder, PGD)
-updated: 2025-10-13
+updated: 2025-10-14
 synonyms:
 
 - 长期哀伤障碍

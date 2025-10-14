@@ -13,7 +13,7 @@ synonyms:
     - 变性欲
     - Transsexualism
 
-updated: 2025-10-13
+updated: 2025-10-14
 comments: true
 ---
 
