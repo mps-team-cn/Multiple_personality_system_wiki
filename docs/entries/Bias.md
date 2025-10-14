@@ -9,7 +9,7 @@ tags:
 topic: 系统运作
 title: 偏重（Bias / Median）
 synonyms: Median体验, 半多意识体, 半分离系统, 侧面
-updated: 2025-10-13
+updated: 2025-10-14
 comments: true
 ---
 
