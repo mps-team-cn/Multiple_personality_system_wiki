@@ -450,8 +450,8 @@ python -m compileall tools/
         - 只检查不修复，确保提交前质量
 
     2. 📋 **检查 Frontmatter 格式**
-        - 验证词条必需字段（title, tags）
-        - 格式错误时提供修复指引
+        - 验证词条必需字段（title, topic, tags）
+        - 格式错误时提供修复指引和 Guide 映射表链接
 
     3. ✅ **通过后才可合并**
         - 所有检查通过才能合并到 main

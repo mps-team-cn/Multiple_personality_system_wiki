@@ -124,6 +124,11 @@ jobs:
               FAILED=1
             fi
 
+            if ! echo "$FRONTMATTER" | grep -q '^topic:'; then
+              echo "  ❌ 缺少 topic 字段"
+              FAILED=1
+            fi
+
             if ! echo "$FRONTMATTER" | grep -q '^tags:'; then
               echo "  ❌ 缺少 tags 字段"
               FAILED=1
@@ -142,9 +147,13 @@ jobs:
             echo ""
             echo "📋 必需字段："
             echo "  - title: 词条标题"
+            echo "  - topic: 词条主题（用于 Guide 映射）"
             echo "  - tags: 分类标签列表"
             echo ""
             echo "📝 注意：updated 字段会在合并后自动更新，无需手动填写"
+            echo ""
+            echo "📚 主题与 Guide 映射请参考："
+            echo "    AGENTS.md#📚-词条主题与-guide-映射表"
             echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
             exit 1
           fi
