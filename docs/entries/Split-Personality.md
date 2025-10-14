@@ -13,7 +13,7 @@ synonyms:
     - Split personality
     - 多重人格（俗称）
 
-updated: 2025-10-12
+updated: 2025-10-14
 comments: true
 ---
 
