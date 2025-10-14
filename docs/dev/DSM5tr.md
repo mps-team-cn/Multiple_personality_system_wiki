@@ -13,6 +13,8 @@ comments: true
 
 > 目的：按 DSM-5-TR 官方目录建立 **一键可维护** 的清单视图与标准化文件命名，便于后续逐条更新与审稿。
 
+> **结构说明**：本文档包含 DSM-5-TR Section II 的 **22 个诊断章节**，从神经发育障碍（第 1 章）到可能成为临床关注焦点的其他情况（第 22 章），完全对应官方分类体系。第 22 章为 V/Z 码（心理社会和环境问题），非精神障碍诊断。
+
 ## 0. 总览与评估（工具性条目）
 
 - [x] Mental-Health-Guide.md
@@ -128,7 +130,7 @@ comments: true
 - [ ] Factitious-Disorder.md
 - [ ] Other-Specified-Unspecific-Somatic-Symptom-Related-Disorders.md
 
-## 10. 进食障碍（Feeding and Eating Disorders）
+## 10. 喂养与进食障碍（Feeding and Eating Disorders）
 
 - [ ] Pica.md
 - [ ] Rumination-Disorder.md
@@ -182,15 +184,17 @@ comments: true
 - [x] Gender-Dysphoria-GD.md      <!-- 儿童 / 青少-成人 说明符合并讲解 -->
 - [ ] Other-Specified-Unspecific-Gender-Dysphoria.md
 
-## 15. 破坏性、冲动控制及品行障碍
+## 15. 破坏性、冲动控制及品行障碍（Disruptive, Impulse-Control, and Conduct Disorders）
 
 - [ ] Oppositional-Defiant-Disorder.md
 - [ ] Intermittent-Explosive-Disorder.md
 - [ ] Conduct-Disorder.md
-- [ ] Antisocial-Personality-Disorder.md   <!-- DSM 人格放第18类，这里保留因历史交叉引用，可仅留指向 -->
 - [ ] Pyromania.md
 - [ ] Kleptomania.md
 - [ ] Other-Specified-Unspecific-Disruptive-Impulse-Conduct-Disorders.md
+
+!!! note "关于反社会型人格障碍（ASPD）"
+    虽然 ASPD 诊断要求 15 岁前有品行障碍证据，但 ASPD 本身属于**第 18 章：人格障碍（B 组）**，不在本章列出。参见 [Antisocial-Personality-Disorder-ASPD.md](../entries/Antisocial-Personality-Disorder-ASPD.md)。
 
 ## 16. 物质相关及成瘾障碍（Substance-Related and Addictive Disorders）
 
@@ -256,12 +260,13 @@ comments: true
 - [ ] Transvestic-Disorder.md
 - [ ] Other-Specified-Unspecific-Paraphilic-Disorder.md
 
-## 20. 其他精神障碍（Other Mental Disorders）
+## 20. 其他精神障碍及附加编码（Other Mental Disorders and Additional Codes）
 
 - [ ] Other-Specified-Mental-Disorder.md
 - [ ] Unspecified-Mental-Disorder.md
+- [ ] No-Diagnosis-or-Condition.md
 
-## 21. 药物诱发运动障碍及其他药物不良反应
+## 21. 药物诱发运动障碍及其他药物不良反应（Medication-Induced Movement Disorders and Other Adverse Effects of Medication）
 
 - [ ] Antipsychotic-Induced-Parkinsonism.md
 - [ ] Other-Medication-Induced-Parkinsonism.md
@@ -275,6 +280,27 @@ comments: true
 - [ ] Other-Medication-Induced-Movement-Disorder.md
 - [ ] Antidepressant-Discontinuation-Syndrome.md
 - [ ] Other-Adverse-Effects-of-Medication.md
+
+## 22. 可能成为临床关注焦点的其他情况（Other Conditions That May Be a Focus of Clinical Attention）
+
+!!! info "说明"
+    本章不是精神障碍诊断，而是 ICD-10-CM V 码/Z 码，用于记录可能影响诊断、治疗或预后的心理社会和环境问题。
+
+- [ ] Relational-Problems.md
+    - [ ] Problems-Related-to-Family-Upbringing.md
+    - [ ] Other-Problems-Related-to-Primary-Support-Group.md
+- [ ] Abuse-and-Neglect.md
+    - [ ] Child-Maltreatment-and-Neglect-Problems.md
+    - [ ] Adult-Maltreatment-and-Neglect-Problems.md
+- [ ] Educational-and-Occupational-Problems.md
+- [ ] Housing-and-Economic-Problems.md
+- [ ] Other-Problems-Related-to-Social-Environment.md
+- [ ] Problems-Related-to-Crime-or-Interaction-with-Legal-System.md
+- [ ] Other-Health-Service-Encounters-for-Counseling-and-Medical-Advice.md
+- [ ] Problems-Related-to-Other-Psychosocial-Personal-and-Environmental-Circumstances.md
+- [ ] Other-Circumstances-of-Personal-History.md
+- [ ] Problems-Related-to-Access-to-Medical-and-Other-Health-Care.md
+- [ ] Nonadherence-to-Medical-Treatment.md
 
 ---
 
