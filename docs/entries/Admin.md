@@ -6,7 +6,7 @@ tags:
 
 topic: 角色与身份
 title: 管理者（Admin）
-updated: 2025-10-13
+updated: 2025-10-14
 synonyms:
 
 - 管理者

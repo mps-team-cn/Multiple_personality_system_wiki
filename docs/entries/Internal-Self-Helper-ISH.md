@@ -8,7 +8,7 @@ tags:
 
 topic: 角色与身份
 title: 内部自助者（Internal Self Helper，ISH）
-updated: 2025-10-13
+updated: 2025-10-14
 comments: true
 ---
 
