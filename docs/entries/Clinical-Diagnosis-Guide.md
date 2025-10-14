@@ -104,7 +104,8 @@ comments: true
     - [双相 II 型障碍（Bipolar II Disorder）](Bipolar-II-Disorder.md) — **已完成**
     - [双相障碍总览（Bipolar Disorders）](Bipolar-Disorders.md) — **已完成**
     - [躁狂发作（Mania）](Mania.md) / [轻躁狂发作（Hypomania）](Hypomania.md) — **已完成**
-    - 物质/医学状况所致双相障碍、环性心境障碍（Cyclothymic Disorder）等 — **待更新**
+    - [环性心境障碍（Cyclothymic Disorder）](Cyclothymic-Disorder.md) — **已完成**
+    - 物质/医学状况所致双相障碍等 — **待更新**
 
 ### 4) 抑郁障碍
 
@@ -166,6 +167,7 @@ comments: true
 
     - [躯体症状障碍（SSD）](Somatic-Symptom-Disorder-SSD.md) — **已完成**
     - [功能性神经症状障碍/转换障碍（FND）](Conversion-Disorder-FND.md) — **已完成**
+    - [慢性疼痛（Chronic Pain）](Chronic-Pain.md) — **已完成**
     - 疾病焦虑障碍（Illness Anxiety Disorder）、做作性障碍（Factitious Disorder）等 — **待更新**
 
 ### 10) 进食障碍
@@ -221,6 +223,7 @@ comments: true
 ???+ abstract "展开查看"
 
     - [谵妄（Delirium）](Delirium.md) — **已完成**
+    - [癫痫（Epilepsy）](Epilepsy.md) — **已完成**
     - 轻度神经认知障碍（Mild NCD）、重度神经认知障碍/痴呆（Major NCD）及病因分型（阿尔茨海默病、血管性、路易体、额颞叶等）— **待更新**
 
 ### 18) 人格障碍

@@ -13,18 +13,20 @@
 **文件位置**: `docs/robots.txt`
 
 **内容**:
+
 - 允许所有搜索引擎爬虫访问
 - 排除 admin/、dev/、tools/ 目录
 - 提供 sitemap.xml 位置
 - 针对百度和必应设置爬取速率限制
 
-**验证方式**: 访问 https://wiki.mpsteam.cn/robots.txt
+**验证方式**: 访问 [https://wiki.mpsteam.cn/robots.txt](https://wiki.mpsteam.cn/robots.txt)
 
 ### 2. Open Graph 和 Twitter Card Meta 标签
 
 **文件位置**: `overrides/main.html`
 
 **实现功能**:
+
 - Open Graph 标签用于社交媒体分享（Facebook、LinkedIn 等）
 - Twitter Card 标签用于 Twitter 分享
 - 动态读取页面的 title 和 description
@@ -32,6 +34,7 @@
 - 支持自定义分享图片（og-banner.png 和 twitter-banner.png）
 
 **字段说明**:
+
 - `og:site_name`: 网站名称
 - `og:type`: 内容类型（website）
 - `og:title`: 页面标题
@@ -40,21 +43,24 @@
 - `og:locale`: 语言地区（zh_CN）
 
 **验证方式**:
-- Facebook: https://developers.facebook.com/tools/debug/
-- Twitter: https://cards-dev.twitter.com/validator
-- LinkedIn: https://www.linkedin.com/post-inspector/
+
+- Facebook: [https://developers.facebook.com/tools/debug/](https://developers.facebook.com/tools/debug/)
+- Twitter: [https://cards-dev.twitter.com/validator](https://cards-dev.twitter.com/validator)
+- LinkedIn: [https://www.linkedin.com/post-inspector/](https://www.linkedin.com/post-inspector/)
 
 ### 3. JSON-LD 结构化数据
 
 **文件位置**: `docs/assets/extra.js`
 
 **实现功能**:
+
 - 自动为所有页面添加 WebSite 类型的结构化数据
 - 词条页面额外添加 Article 和 MedicalWebPage 类型
 - 包含搜索功能的 potentialAction
 - 支持面包屑导航结构化数据（预留功能）
 
 **数据类型**:
+
 ```json
 {
   "@type": "WebSite",
@@ -69,24 +75,28 @@
 ```
 
 **验证方式**:
-- Google Rich Results Test: https://search.google.com/test/rich-results
-- Schema.org Validator: https://validator.schema.org/
+
+- Google Rich Results Test: [https://search.google.com/test/rich-results](https://search.google.com/test/rich-results)
+- Schema.org Validator: [https://validator.schema.org/](https://validator.schema.org/)
 
 ### 4. Meta Description 优化
 
 **文件位置**: `mkdocs.yml`
 
 **原描述**:
-```
+
+```text
 多意识体系统（Multiple Personality System）与创伤相关主题的中文知识库
 ```
 
 **优化后** (155 字符):
-```
+
+```text
 专业的多重人格系统（MPS）、解离障碍（DID/OSDD）与创伤疗愈中文知识库。提供解离性身份障碍、Tulpa 创造、心理健康的全面指南与深入解析
 ```
 
 **优化要点**:
+
 - 增加了核心关键词：解离障碍、DID/OSDD、Tulpa
 - 突出了网站的专业性
 - 明确了内容范围（全面指南与深入解析）
@@ -97,15 +107,18 @@
 **文件位置**: `overrides/main.html`
 
 **基础关键词**:
-```
+
+```text
 多重人格系统,解离障碍,DID,OSDD,创伤疗愈,心理健康,Tulpa,多意识体系统
 ```
 
 **动态关键词**:
+
 - 自动从页面 Frontmatter 的 tags 字段提取
 - 与基础关键词合并
 
 **注意事项**:
+
 - 关键词不要过多（建议 8-12 个）
 - 避免关键词堆砌
 - 确保关键词与页面内容相关
@@ -115,31 +128,37 @@
 **文件位置**: `docs/TEMPLATE_ENTRY.md`
 
 **新增字段**:
+
 ```yaml
 description: 简洁准确的词条描述，用于搜索引擎显示（120-155 字符，包含核心关键词）
 ```
 
 **使用指南**:
+
 - 每个新词条必须包含 description 字段
 - 描述应包含词条的核心关键词
 - 长度控制在 120-155 字符之间
 - 描述应该简洁、准确、吸引人
 
 **示例**:
+
 ```yaml
 ---
 title: 解离性身份障碍（Dissociative Identity Disorder，DID）
 description: 深入解析解离性身份障碍（DID）的诊断标准、临床表现与治疗方法。了解多重人格障碍的本质、创伤根源及康复路径
 tags:
+
   - 诊断与临床
   - 解离
   - DID
+
 ---
 ```
 
 ## 关键词策略
 
 ### 主要关键词
+
 1. 多重人格系统 / Multiple Personality System / MPS
 2. 解离障碍 / Dissociative Disorders
 3. 解离性身份障碍 / DID
@@ -150,6 +169,7 @@ tags:
 8. 复杂性创伤 / CPTSD
 
 ### 长尾关键词
+
 1. 如何理解多重人格
 2. 解离性障碍自我疗愈
 3. 创伤后应对指南
@@ -158,6 +178,7 @@ tags:
 6. 多意识体系统运作机制
 
 ### 中文 SEO 特点
+
 1. 使用简体中文为主
 2. 包含常用的英文缩写（DID、OSDD、PTSD 等）
 3. 注意中英文混排的关键词组合
@@ -166,6 +187,7 @@ tags:
 ## 待完成事项
 
 ### 必须完成
+
 - [ ] 创建 og-banner.png（推荐尺寸：1200x630px）
 - [ ] 创建 twitter-banner.png（推荐尺寸：1200x600px）
 - [ ] 提交网站到 Google Search Console
@@ -173,6 +195,7 @@ tags:
 - [ ] 提交网站到必应网站管理员工具
 
 ### 建议完成
+
 - [ ] 为主要词条添加 description 字段
 - [ ] 优化图片 alt 标签
 - [ ] 添加内部链接优化
@@ -183,6 +206,7 @@ tags:
 ## 验证和测试
 
 ### SEO 工具
+
 1. **Google Search Console**: 监控索引状态、搜索表现
 2. **百度站长平台**: 监控百度收录情况
 3. **Google PageSpeed Insights**: 检查页面加载速度
@@ -190,24 +214,32 @@ tags:
 5. **Schema.org Validator**: 验证 JSON-LD 格式
 
 ### 手动测试
+
 ```bash
+
 # 构建网站
+
 mkdocs build
 
 # 检查 robots.txt
+
 cat site/robots.txt
 
 # 检查首页 meta 标签
+
 grep -E "og:|twitter:" site/index.html
 
 # 检查 JSON-LD
+
 grep "application/ld+json" site/index.html
 
 # 检查 description
+
 grep 'meta name="description"' site/index.html
 ```
 
 ### 浏览器测试
+
 1. 打开开发者工具
 2. 查看 Network 面板，确认资源加载正常
 3. 查看 Console，确认没有 JavaScript 错误
@@ -216,6 +248,7 @@ grep 'meta name="description"' site/index.html
 ## 性能监控
 
 ### 关键指标
+
 - **收录量**: 搜索引擎收录的页面数量
 - **关键词排名**: 目标关键词的搜索排名
 - **点击率 (CTR)**: 搜索结果的点击率
@@ -223,6 +256,7 @@ grep 'meta name="description"' site/index.html
 - **跳出率**: 用户离开网站的比例
 
 ### 建议监控频率
+
 - 每周: 检查收录量和主要关键词排名
 - 每月: 分析 Search Console 数据，调整策略
 - 每季度: 全面 SEO 审计，更新优化策略
@@ -238,6 +272,7 @@ grep 'meta name="description"' site/index.html
 ## 更新日志
 
 ### 2025-10-13
+
 - 初始 SEO 优化实施
 - 添加 robots.txt
 - 实现 Open Graph 和 Twitter Card

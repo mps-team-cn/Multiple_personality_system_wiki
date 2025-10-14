@@ -29,7 +29,9 @@
 ~~可选的环境变量~~（已废弃，Cloudflare Pages 默认提供 Python 3.13.3）:
 
 ```text
+
 # PYTHON_VERSION=3.11  # 不再需要，使用系统默认版本
+
 ```
 
 ### 3. 高级设置

@@ -128,7 +128,7 @@ _若社交焦虑显著影响学业、工作或人际关系，请尽快联系精�
     - [物质使用障碍（SUD）](Substance-Use-Disorders-SUD.md)：部分个体使用酒精或药物缓解社交焦虑，增加依赖风险。
     - [选择性缄默症（Selective Mutism）](Selective-Mutism.md)：儿童期社交焦虑的极端表现。
 - **其他共病**
-    - [回避型人格障碍（Avoidant Personality Disorder，AVPD）](Avoidant-Personality-Disorder-AVPD.md)：两者有显著重叠，AVPD 更广泛且始于成年早期。
+    - [回避型人格障碍（Avoidant Personality Disorder，AvPD）](Avoidant-Personality-Disorder-AvPD.md)：两者有显著重叠，AvPD 更广泛且始于成年早期。
     - [创伤后应激障碍（PTSD）](PTSD.md) / [复杂性 PTSD（CPTSD）](CPTSD.md)：创伤幸存者常伴社交信任困难与警觉增高。
     - [解离性身份障碍（DID）](DID.md)：系统内部冲突或不同成员的社交能力差异可能加剧社交焦虑。
 

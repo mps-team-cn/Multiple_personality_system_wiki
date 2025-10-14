@@ -41,7 +41,7 @@ python -m http.server 8000 --directory docs
 
 ```
 
-详见 [本地开发指南](local-dev-server.md)
+详见 [本地开发指南](docs/dev/LOCAL_DEV_SERVER.md)
 
 #### 方式 B：手动编辑
 
@@ -142,7 +142,7 @@ mkdocs serve
 - [贡献者墙](docs/contributing/contributors.md)
 - [词条模板](docs/TEMPLATE_ENTRY.md)
 - [工具文档](docs/tools/README.md)
-- [前端架构](docs/dev/FRONTEND_ARCHITECTURE.md)
+- [前端架构](docs/dev/THEME_GUIDE.md)
 
 ---
 

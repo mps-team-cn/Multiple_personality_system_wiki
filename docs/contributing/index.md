@@ -108,7 +108,7 @@ mkdocs serve
 - [词条模板](../TEMPLATE_ENTRY.md)
 - [管理员操作指南](../ADMIN_GUIDE.md)
 - [工具文档](../tools/README.md)
-- [前端架构](../dev/FRONTEND_ARCHITECTURE.md)
+- [前端架构](../dev/THEME_GUIDE.md)
 - [开发文档](../dev/)
 
 ---

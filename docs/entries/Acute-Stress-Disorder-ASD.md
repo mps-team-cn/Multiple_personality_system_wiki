@@ -179,7 +179,7 @@ ASD 的治疗以 **早期干预、稳定化与预防慢性化** 为核心目标�
 - [人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)
 - [接地（Grounding）](Grounding.md)
 - [创伤聚焦认知行为疗法（TF-CBT）](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md)
-- [眼动脱敏与再加工（EMDR）](Eye-Movement-Desensitization-and-Reprocessing-EMDR.md)
+- [眼动脱敏与再加工（EMDR）](Eye-Movement-Desensitization-Reprocessing-EMDR.md)
 
 ---
 
