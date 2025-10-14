@@ -71,7 +71,7 @@ ICD-11 将 DID 与 PDID 区分并允许描述身份侵入的形式，DSM-5-TR �
 
 隔创伤记忆与日常功能。
 
-- **[结构性解离理论（Structural Dissociation Theory）](Structural-Dissociation-Theory.md)** ：提出主导的"表面正常部分"（ANP）负责日常生活，创伤情绪由"情绪部分"（EP）承载；DID 中多个 ANP 与 EP 共同存在，
+- [**结构性解离理论（Structural Dissociation Theory）**](Structural-Dissociation-Theory.md) ：提出主导的"表面正常部分"（ANP）负责日常生活，创伤情绪由"情绪部分"（EP）承载；DID 中多个 ANP 与 EP 共同存在，
 
 并可能轮流控制行为。
 
@@ -89,8 +89,8 @@ ICD-11 将 DID 与 PDID 区分并允许描述身份侵入的形式，DSM-5-TR �
 
 ## 鉴别诊断
 
-- **[部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](Partial-Dissociative-Identity-Disorder-PDID.md)** : 存在非主导身份的侵入体验，但少有完全的身份切换与长时间失忆。
-- **[其他特定解离性障碍（OSDD）](OSDD.md)** : 症状接近 DID，但身份切换或遗忘不足以满足全部标准。
+- [**部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）**](Partial-Dissociative-Identity-Disorder-PDID.md) : 存在非主导身份的侵入体验，但少有完全的身份切换与长时间失忆。
+- [**其他特定解离性障碍（OSDD）**](OSDD.md) : 症状接近 DID，但身份切换或遗忘不足以满足全部标准。
 - **[创伤后应激障碍（PTSD）](PTSD.md) / [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)** : 虽有侵入性记忆，但缺乏独立身份状态的控制权分配。
 - **精神病性障碍** : 幻觉、妄想更具外源性与现实脱节，通常缺乏系统性的身份结构差异。
 - **神经认知障碍、[癫痫（Epilepsy）](Epilepsy.md)或[睡眠障碍（Sleep Disorders）](Sleep-Disorders-SD.md)** : 需结合病史、神经学检查排除器质性原因。
