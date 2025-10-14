@@ -32,7 +32,7 @@ comments: true
 
 ## 概述
 
-神经性贪食症(Bulimia Nervosa, BN)是一种以 **反复暴食发作** 和 **不当补偿行为**(如自我诱发呕吐、滥用泻药、禁食、过度运动)为核心特征的进食障碍。患者通常对体重和体型极度关注,自我评价过度依赖于外形,但体重通常维持在正常或偏高范围(与 [神经性厌食症(AN)](Anorexia-Nervosa.md) 的显著低体重不同)。BN 常导致严重的躯体并发症(电解质紊乱、心律失常、消化道损伤等)和心理痛苦(羞耻感、抑郁、焦虑)。在 [创伤](Trauma.md) 幸存者和 [解离性身份障碍(DID)](DID.md) 系统中,BN 的发生率显著高于一般人群,常与情绪调节困难、冲动控制问题和创伤应对模式相关。
+神经性贪食症(Bulimia Nervosa, BN)是一种以 **反复暴食发作** 和 **不当补偿行为**(如自我诱发呕吐、滥用泻药、禁食、过度运动)为核心特征的进食障碍。患者通常对体重和体型极度关注,自我评价过度依赖于外形,但体重通常维持在正常或偏高范围(与 [神经性厌食症（AN）](Anorexia-Nervosa.md) 的显著低体重不同)。BN 常导致严重的躯体并发症(电解质紊乱、心律失常、消化道损伤等)和心理痛苦(羞耻感、抑郁、焦虑)。在 [创伤](Trauma.md) 幸存者和 [解离性身份障碍（DID）](DID.md) 系统中,BN 的发生率显著高于一般人群,常与情绪调节困难、冲动控制问题和创伤应对模式相关。
 
 ---
 
@@ -145,7 +145,7 @@ comments: true
     - 其他成员可能执行清除行为,出于对体重的恐惧、自我厌恶或试图"抹去"暴食成员的行为;
     - 系统间的记忆障碍可能导致某成员暴食后,另一成员切换到前台时发现"不知道为什么胃这么撑"或"为什么买了这么多食物"。
 - **解离状态中的暴食**: 部分患者在暴食时处于解离状态,感到"看着自己吃但无法控制"、"像在梦中"或"像另一个人在吃";事后可能对细节记忆模糊。
-- **身体认同困扰**: 部分成员可能对 [身体认同(Body Ownership)](Body-Ownership.md) 存在解离,感到"这不是我的身体"或"我不在乎这个身体",导致自我照护困难。
+- **身体认同困扰**: 部分成员可能对 [身体认同（Body Ownership）](Body-Ownership.md) 存在解离,感到"这不是我的身体"或"我不在乎这个身体",导致自我照护困难。
 
 ### 神经生物学机制
 
@@ -185,10 +185,10 @@ comments: true
 
 ### 其他精神障碍
 
-- **[神经性厌食症(AN)](Anorexia-Nervosa.md) 暴食/清除型**: 有暴食和清除行为,但 **体重显著低于正常**;若体重低于正常且符合 AN 标准,优先诊断 AN。
-- **[暴食障碍(Binge Eating Disorder)](Binge-Eating-Disorder.md)**: 反复暴食,但 **无规律性补偿行为**;体重通常正常或超重。
-- **[边缘性人格障碍(BPD)](Borderline-Personality-Disorder-BPD.md)**: 可能有冲动性进食行为,但通常不是规律性暴食-清除模式,且进食问题不是主要关注点;若同时满足 BN 标准,可共病诊断。
-- **[重度抑郁障碍(MDD)](Major-Depressive-Disorder-MDD.md)**: 食欲改变(增加或减少)是常见症状,但无暴食-清除模式或对体重的过度关注;若同时满足 BN 标准,可共病诊断。
+- **[神经性厌食症（AN）](Anorexia-Nervosa.md) 暴食/清除型**: 有暴食和清除行为,但 **体重显著低于正常**;若体重低于正常且符合 AN 标准,优先诊断 AN。
+- [**暴食障碍（Binge Eating Disorder）**](Binge-Eating-Disorder.md): 反复暴食,但 **无规律性补偿行为**;体重通常正常或超重。
+- [**边缘性人格障碍（BPD）**](Borderline-Personality-Disorder-BPD.md): 可能有冲动性进食行为,但通常不是规律性暴食-清除模式,且进食问题不是主要关注点;若同时满足 BN 标准,可共病诊断。
+- [**重度抑郁障碍（MDD）**](Major-Depressive-Disorder-MDD.md): 食欲改变(增加或减少)是常见症状,但无暴食-清除模式或对体重的过度关注;若同时满足 BN 标准,可共病诊断。
 - **小肠细菌过度生长(SIBO)或其他消化道疾病**: 可能导致腹胀、恶心、呕吐,但无心理驱动的暴食或体像扭曲。
 
 ---
@@ -197,15 +197,15 @@ comments: true
 
 ### 常见共病
 
-- **[抑郁障碍](Depressive-Disorders.md)** (50–70%): 持续的悲伤、无望感、兴趣丧失;加重自杀风险和治疗依从性困难。
-- **[焦虑障碍](Anxiety.md)** (40–60%):
+- [**抑郁障碍**](Depressive-Disorders.md) (50–70%): 持续的悲伤、无望感、兴趣丧失;加重自杀风险和治疗依从性困难。
+- [**焦虑障碍**](Anxiety.md) (40–60%):
     - [社交焦虑障碍](Social-Anxiety-Disorder.md):害怕他人评价自己的外貌或进食行为。
-    - [广泛性焦虑障碍(GAD)](Generalized-Anxiety-Disorder-GAD.md):持续的担忧和紧张。
-    - [强迫症(OCD)](OCD.md):仪式化行为、对对称性或污染的过度关注。
-- **[边缘性人格障碍(BPD)](Borderline-Personality-Disorder-BPD.md)** (20–40%):情绪不稳、自我认同混乱、冲动性行为(如自伤、物质滥用、不稳定关系);BN-BPD 共病患者治疗难度更大,复发率更高。
-- **[物质使用障碍(SUD)](Substance-Use-Disorders-SUD.md)** (20–30%):使用酒精、大麻、兴奋剂等应对情绪痛苦或增强暴食-清除效果;物质使用加重冲动控制困难。
-- **[创伤后应激障碍(PTSD)](PTSD.md) / [复杂性创伤后应激障碍(CPTSD)](CPTSD.md)** (30–50%):创伤经历(尤其是性暴力、身体虐待)显著提高 BN 风险;暴食-清除行为可能成为应对闪回、解离或情绪失调的方式。
-- **[解离性身份障碍(DID)](DID.md)** (5–15%):系统内不同成员可能执行暴食或清除行为;记忆障碍可能导致行为失控或对后果失察。
+    - [广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md):持续的担忧和紧张。
+    - [强迫症（OCD）](OCD.md):仪式化行为、对对称性或污染的过度关注。
+- [**边缘性人格障碍（BPD）**](Borderline-Personality-Disorder-BPD.md) (20–40%):情绪不稳、自我认同混乱、冲动性行为(如自伤、物质滥用、不稳定关系);BN-BPD 共病患者治疗难度更大,复发率更高。
+- [**物质使用障碍（SUD）**](Substance-Use-Disorders-SUD.md) (20–30%):使用酒精、大麻、兴奋剂等应对情绪痛苦或增强暴食-清除效果;物质使用加重冲动控制困难。
+- **[创伤后应激障碍（PTSD）](PTSD.md) / [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)** (30–50%):创伤经历(尤其是性暴力、身体虐待)显著提高 BN 风险;暴食-清除行为可能成为应对闪回、解离或情绪失调的方式。
+- [**解离性身份障碍（DID）**](DID.md) (5–15%):系统内不同成员可能执行暴食或清除行为;记忆障碍可能导致行为失控或对后果失察。
 
 ### 风险管理重点
 
@@ -249,14 +249,23 @@ BN 的治疗整合 **心理治疗**、**医疗监测** 和 **营养康复**,通�
 #### 1. 心理治疗
 
 - **认知行为疗法-增强版(CBT-E)** *(一线治疗)*:
+
     针对进食障碍的专门 CBT,聚焦于识别和改变维持 BN 的核心认知(如"我的价值取决于体重"、"暴食后必须清除否则会变胖")和行为(如饮食限制-暴食-清除循环);包括餐食计划、暴露技术(如餐后不清除)、问题解决训练。疗程通常 16–20 次,有效率约 40–60%。
+
 - **辩证行为疗法(DBT)**:
+
     强化情绪调节、痛苦耐受、人际效能和正念技能;尤其适用于伴 BPD、自伤或严重情绪失调的患者。教导用 **健康策略替代暴食-清除**(如感官调节、分散注意、急性痛苦耐受技能)。
+
 - **人际心理治疗(IPT)**:
+
     聚焦于改善人际关系和社会功能,处理引发暴食-清除的人际冲突、角色转变、哀伤或社交孤立;疗程通常 12–16 次,有效率与 CBT 相当。
+
 - **创伤聚焦治疗** *(稳定后进行)*:
+
     对于 PTSD/CPTSD 共病患者,在症状和医疗状况稳定后,可进行 EMDR、创伤聚焦 CBT(TF-CBT)或感觉运动心理治疗(Sensorimotor Psychotherapy)。
+
 - **解离稳定化治疗** *(DID 患者)*:
+
     优先稳定系统内的合作,建立内部沟通和安全协议,识别不同成员的触发因素和需求,再逐步处理创伤;避免在医疗危机期进行高强度创伤工作。
 
 #### 2. 药物治疗
@@ -292,7 +301,7 @@ BN 的治疗整合 **心理治疗**、**医疗监测** 和 **营养康复**,通�
     - **分散注意**: 使用感官刺激(触摸冰块、嗅闻精油、听音乐、观看短视频)。
     - **正念进食**: 若决定进食,尝试慢慢吃、注意味道和质地,减少失控感。
 - **清除冲动时的应对**:
-    - **接地技巧**: 使用 [接地技巧(Grounding)](Grounding.md),如深呼吸、5-4-3-2-1 感官练习、与支持者对话。
+    - **接地技巧**: 使用 [接地技巧（Grounding）](Grounding.md),如深呼吸、5-4-3-2-1 感官练习、与支持者对话。
     - **延迟清除**: 告诉自己"我可以 30 分钟后再决定是否清除",利用这段时间离开洗手间、与他人待在一起。
     - **自我安抚**: 提醒自己"即使不清除,我也不会立即变胖"、"我的身体需要这些营养"。
 - **支持小组**: 参加康复导向的同伴支持小组(如 NEDA 的支持团体、康复论坛);**避免** 接触 pro-ED(促进进食障碍)内容,如"瘦身竞赛"、清除技巧分享等,这些会严重加重病情。
@@ -341,29 +350,29 @@ BN 的治疗整合 **心理治疗**、**医疗监测** 和 **营养康复**,通�
 
 ### 进食障碍相关
 
-- [进食障碍(Eating Disorders, ED)](Eating-Disorders-ED.md)
-- [神经性厌食症(Anorexia Nervosa)](Anorexia-Nervosa.md)
-- [暴食障碍(Binge Eating Disorder)](Binge-Eating-Disorder.md)
-- [身体认同(Body Ownership)](Body-Ownership.md)
+- [进食障碍（Eating Disorders, ED）](Eating-Disorders-ED.md)
+- [神经性厌食症（Anorexia Nervosa）](Anorexia-Nervosa.md)
+- [暴食障碍（Binge Eating Disorder）](Binge-Eating-Disorder.md)
+- [身体认同（Body Ownership）](Body-Ownership.md)
 
 ### 共病相关
 
-- [解离性身份障碍(DID)](DID.md)
-- [抑郁障碍(Depressive Disorders)](Depressive-Disorders.md)
-- [焦虑(Anxiety)](Anxiety.md)
-- [边缘性人格障碍(BPD)](Borderline-Personality-Disorder-BPD.md)
-- [创伤后应激障碍(PTSD)](PTSD.md)
-- [复杂性创伤后应激障碍(CPTSD)](CPTSD.md)
-- [物质使用障碍(SUD)](Substance-Use-Disorders-SUD.md)
+- [解离性身份障碍（DID）](DID.md)
+- [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
+- [焦虑（Anxiety）](Anxiety.md)
+- [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)
+- [创伤后应激障碍（PTSD）](PTSD.md)
+- [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)
+- [物质使用障碍（SUD）](Substance-Use-Disorders-SUD.md)
 
 ### 创伤与治疗相关
 
-- [创伤(Trauma)](Trauma.md)
-- [接地技巧(Grounding)](Grounding.md)
+- [创伤（Trauma）](Trauma.md)
+- [接地技巧（Grounding）](Grounding.md)
 
 ### 导览
 
-- [心理健康导览(Mental Health Guide)](Mental-Health-Guide.md)
+- [心理健康导览（Mental Health Guide）](Mental-Health-Guide.md)
 
 ---
 

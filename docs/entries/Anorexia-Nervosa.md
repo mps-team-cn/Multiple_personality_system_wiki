@@ -32,7 +32,7 @@ comments: true
 
 ## 概述
 
-神经性厌食症(Anorexia Nervosa, AN)是一种以 **显著低体重**、**强烈恐惧体重增加** 和 **对体重或体型的体验失调** 为核心特征的进食障碍。患者通常严格限制能量摄入,可能伴有清除行为(催吐、滥用泻药等)或过度运动。AN 是死亡率最高的精神障碍之一,常导致严重的躯体并发症(心血管问题、骨质疏松、内分泌紊乱等)。在 [创伤](Trauma.md) 幸存者和 [解离性身份障碍(DID)](DID.md) 系统中,AN 的发生率显著高于一般人群,常与完美主义、控制需求和创伤应对模式相关。
+神经性厌食症(Anorexia Nervosa, AN)是一种以 **显著低体重**、**强烈恐惧体重增加** 和 **对体重或体型的体验失调** 为核心特征的进食障碍。患者通常严格限制能量摄入,可能伴有清除行为(催吐、滥用泻药等)或过度运动。AN 是死亡率最高的精神障碍之一,常导致严重的躯体并发症(心血管问题、骨质疏松、内分泌紊乱等)。在 [创伤](Trauma.md) 幸存者和 [解离性身份障碍（DID）](DID.md) 系统中,AN 的发生率显著高于一般人群,常与完美主义、控制需求和创伤应对模式相关。
 
 ---
 
@@ -137,7 +137,7 @@ comments: true
     - 其他成员可能对身体重量无感,甚至拒绝进食以表达创伤相关的自毁冲动;
     - 儿童成员可能对"成年身体"感到陌生或恐惧,限制进食以维持儿童体型;
     - 系统间的记忆障碍可导致漏餐、重复进食或对已摄入食物的失忆。
-- **身体认同困扰**: 部分成员可能对 [身体认同(Body Ownership)](Body-Ownership.md) 存在严重解离,感到"这不是我的身体"或"我希望身体消失"。
+- **身体认同困扰**: 部分成员可能对 [身体认同（Body Ownership）](Body-Ownership.md) 存在严重解离,感到"这不是我的身体"或"我希望身体消失"。
 
 ### 神经生物学机制
 
@@ -162,7 +162,7 @@ comments: true
 ### 病程特点
 
 - **慢性波动**: 可能呈慢性病程,体重反复波动;部分患者在数年内恢复,但也有持续数十年未愈者。
-- **转换风险**: 限制型可能转为暴食/清除型,或发展为 [神经性贪食症(Bulimia Nervosa)](Bulimia-Nervosa.md) 或 [暴食障碍(Binge Eating Disorder)](Binge-Eating-Disorder.md)。
+- **转换风险**: 限制型可能转为暴食/清除型,或发展为 [神经性贪食症（Bulimia Nervosa）](Bulimia-Nervosa.md) 或 [暴食障碍（Binge Eating Disorder）](Binge-Eating-Disorder.md)。
 - **死亡率**: AN 是死亡率最高的精神障碍之一,粗死亡率约 5–10%(包括自杀和医疗并发症);早期干预和长期支持可显著改善预后。
 
 ---
@@ -178,16 +178,16 @@ comments: true
 
 ### 其他精神障碍
 
-- **[重度抑郁障碍(MDD)](Major-Depressive-Disorder-MDD.md)**: 食欲减退和体重减轻是常见症状,但核心是持续低落的情绪,而非对体重的恐惧或体像扭曲。若同时满足两者标准,可共病诊断。
-- **[强迫症(OCD)](OCD.md)**: 可能有与食物相关的仪式行为或污染恐惧(如害怕食物不干净),但核心强迫观念与体重无关。若同时满足 AN 标准,可共病诊断。
-- **[社交焦虑障碍](Social-Anxiety-Disorder.md)**: 回避社交聚餐可能与社交恐惧有关,但 AN 患者的核心是对进食本身的恐惧,而非社交评价。
+- [**重度抑郁障碍（MDD）**](Major-Depressive-Disorder-MDD.md): 食欲减退和体重减轻是常见症状,但核心是持续低落的情绪,而非对体重的恐惧或体像扭曲。若同时满足两者标准,可共病诊断。
+- [**强迫症（OCD）**](OCD.md): 可能有与食物相关的仪式行为或污染恐惧(如害怕食物不干净),但核心强迫观念与体重无关。若同时满足 AN 标准,可共病诊断。
+- [**社交焦虑障碍**](Social-Anxiety-Disorder.md): 回避社交聚餐可能与社交恐惧有关,但 AN 患者的核心是对进食本身的恐惧,而非社交评价。
 - **回避/限制性摄食障碍(ARFID)**: 显著限制摄入导致体重减轻,但 **无** 对体重增加的恐惧或体像扭曲;通常与感官敏感、对进食缺乏兴趣或害怕呕吐/窒息相关。
-- **[精神分裂症(Schizophrenia)](Schizophrenia-SC.md)**: 拒食可能源于妄想(如认为食物被下毒、有嗅味幻觉),而非对体重的担忧;需结合精神病性症状综合判断。
+- [**精神分裂症（Schizophrenia）**](Schizophrenia-SC.md): 拒食可能源于妄想(如认为食物被下毒、有嗅味幻觉),而非对体重的担忧;需结合精神病性症状综合判断。
 
 ### 进食障碍内部鉴别
 
-- **[神经性贪食症(Bulimia Nervosa)](Bulimia-Nervosa.md)**: 反复暴食和清除行为,但体重通常在正常或偏高范围;若体重显著低于正常且符合 AN 标准,优先诊断 AN(暴食/清除型)。
-- **[暴食障碍(Binge Eating Disorder)](Binge-Eating-Disorder.md)**: 反复暴食,但无规律清除行为,体重通常正常或超重。
+- [**神经性贪食症（Bulimia Nervosa）**](Bulimia-Nervosa.md): 反复暴食和清除行为,但体重通常在正常或偏高范围;若体重显著低于正常且符合 AN 标准,优先诊断 AN(暴食/清除型)。
+- [**暴食障碍（Binge Eating Disorder）**](Binge-Eating-Disorder.md): 反复暴食,但无规律清除行为,体重通常正常或超重。
 - **其他特定或未特定的进食障碍**: 症状接近 AN 但不完全符合(如已恢复月经、体重刚好达到正常低限等)。
 
 ---
@@ -196,15 +196,15 @@ comments: true
 
 ### 常见共病
 
-- **[抑郁障碍](Depressive-Disorders.md)** (50–70%):  持续的悲伤、无望感、兴趣丧失;加重自杀风险。
-- **[焦虑障碍](Anxiety.md)** (50–60%):
+- [**抑郁障碍**](Depressive-Disorders.md) (50–70%):  持续的悲伤、无望感、兴趣丧失;加重自杀风险。
+- [**焦虑障碍**](Anxiety.md) (50–60%):
     - [社交焦虑障碍](Social-Anxiety-Disorder.md):害怕他人评价自己的外貌或进食行为。
-    - [广泛性焦虑障碍(GAD)](Generalized-Anxiety-Disorder-GAD.md):持续的担忧和紧张。
-    - [强迫症(OCD)](OCD.md):仪式化行为、对对称性或污染的过度关注。
-- **[边缘性人格障碍(BPD)](Borderline-Personality-Disorder-BPD.md)** (20–30%):情绪不稳、自我认同混乱、冲动性行为(如自伤、物质滥用)。
-- **[物质使用障碍(SUD)](Substance-Use-Disorders-SUD.md)** (10–20%):使用兴奋剂(如咖啡因、尼古丁、苯丙胺类)抑制食欲或增加代谢;或使用酒精/大麻应对情绪痛苦。
-- **[创伤后应激障碍(PTSD)](PTSD.md) / [复杂性创伤后应激障碍(CPTSD)](CPTSD.md)** (20–50%):创伤经历(尤其是性暴力、身体虐待)显著提高 AN 风险;饮食控制可能成为应对创伤症状的方式。
-- **[解离性身份障碍(DID)](DID.md)** (5–15%):系统内不同成员可能对身体和进食有不同认知;记忆障碍可能导致进食计划中断或重复行为。
+    - [广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md):持续的担忧和紧张。
+    - [强迫症（OCD）](OCD.md):仪式化行为、对对称性或污染的过度关注。
+- [**边缘性人格障碍（BPD）**](Borderline-Personality-Disorder-BPD.md) (20–30%):情绪不稳、自我认同混乱、冲动性行为(如自伤、物质滥用)。
+- [**物质使用障碍（SUD）**](Substance-Use-Disorders-SUD.md) (10–20%):使用兴奋剂(如咖啡因、尼古丁、苯丙胺类)抑制食欲或增加代谢;或使用酒精/大麻应对情绪痛苦。
+- **[创伤后应激障碍（PTSD）](PTSD.md) / [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)** (20–50%):创伤经历(尤其是性暴力、身体虐待)显著提高 AN 风险;饮食控制可能成为应对创伤症状的方式。
+- [**解离性身份障碍（DID）**](DID.md) (5–15%):系统内不同成员可能对身体和进食有不同认知;记忆障碍可能导致进食计划中断或重复行为。
 
 ### 风险管理重点
 
@@ -255,14 +255,23 @@ AN 的治疗需整合 **医疗稳定**、**营养康复** 和 **心理治疗**,�
 #### 2. 心理治疗
 
 - **家庭治疗(Family-Based Treatment, FBT)** *(青少年患者一线治疗)*:
+
     家长在专业指导下主导营养康复,逐步将控制权交还给青少年;强调家庭支持而非责备,适用于病程 < 3 年且家庭功能良好的病例。
+
 - **认知行为疗法-增强版(CBT-E)** *(成人患者一线治疗)*:
+
     针对进食障碍的专门 CBT,聚焦于识别和改变维持 AN 的核心认知(如"我的价值取决于体重"、"失去控制是灾难性的")和行为(如反复称体重、镜子检查)。
+
 - **辩证行为疗法(DBT)**:
+
     强化情绪调节、痛苦耐受、人际效能和正念技能;尤其适用于伴 BPD 或自伤行为的患者。
+
 - **创伤聚焦治疗** *(稳定后进行)*:
+
     对于 PTSD/CPTSD 共病患者,在体重和生命体征稳定后,可进行 EMDR、创伤聚焦 CBT(TF-CBT)或感觉运动心理治疗(Sensorimotor Psychotherapy)。
+
 - **解离稳定化治疗** *(DID 患者)*:
+
     优先稳定系统内的合作,建立内部沟通和安全协议,再逐步处理创伤;避免在营养危机期进行高强度创伤工作。
 
 #### 3. 药物治疗
@@ -281,7 +290,7 @@ AN 的治疗需整合 **医疗稳定**、**营养康复** 和 **心理治疗**,�
 ### 自助与社区资源
 
 - **日记与监测**: 记录每日饮食、体重(建议由治疗师或营养师定期测量,患者自己避免频繁称重)、情绪和触发因素;识别高风险情境(如独自在家、看到"身材焦虑"内容)。
-- **接地与分散注意**: 餐后焦虑时使用 [接地技巧(Grounding)](Grounding.md),如深呼吸、感官刺激(触摸冰块、听音乐)、与支持者对话。
+- **接地与分散注意**: 餐后焦虑时使用 [接地技巧（Grounding）](Grounding.md),如深呼吸、感官刺激(触摸冰块、听音乐)、与支持者对话。
 - **支持小组**: 参加康复导向的同伴支持小组(如 NEDA 的支持团体、康复论坛);**避免** 接触 pro-ED(促进进食障碍)内容,如"瘦身竞赛"、低体重图片分享等,这些会严重加重病情。
 - **危机热线**:
     - 美国 NEDA 热线: 1-800-931-2237
@@ -329,29 +338,29 @@ AN 的治疗需整合 **医疗稳定**、**营养康复** 和 **心理治疗**,�
 
 ### 进食障碍相关
 
-- [进食障碍(Eating Disorders, ED)](Eating-Disorders-ED.md)
-- [神经性贪食症(Bulimia Nervosa)](Bulimia-Nervosa.md)
-- [暴食障碍(Binge Eating Disorder)](Binge-Eating-Disorder.md)
-- [身体认同(Body Ownership)](Body-Ownership.md)
+- [进食障碍（Eating Disorders, ED）](Eating-Disorders-ED.md)
+- [神经性贪食症（Bulimia Nervosa）](Bulimia-Nervosa.md)
+- [暴食障碍（Binge Eating Disorder）](Binge-Eating-Disorder.md)
+- [身体认同（Body Ownership）](Body-Ownership.md)
 
 ### 共病相关
 
-- [解离性身份障碍(DID)](DID.md)
-- [抑郁障碍(Depressive Disorders)](Depressive-Disorders.md)
-- [焦虑(Anxiety)](Anxiety.md)
-- [强迫症(OCD)](OCD.md)
-- [边缘性人格障碍(BPD)](Borderline-Personality-Disorder-BPD.md)
-- [创伤后应激障碍(PTSD)](PTSD.md)
-- [复杂性创伤后应激障碍(CPTSD)](CPTSD.md)
+- [解离性身份障碍（DID）](DID.md)
+- [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
+- [焦虑（Anxiety）](Anxiety.md)
+- [强迫症（OCD）](OCD.md)
+- [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)
+- [创伤后应激障碍（PTSD）](PTSD.md)
+- [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)
 
 ### 创伤与治疗相关
 
-- [创伤(Trauma)](Trauma.md)
-- [接地技巧(Grounding)](Grounding.md)
+- [创伤（Trauma）](Trauma.md)
+- [接地技巧（Grounding）](Grounding.md)
 
 ### 导览
 
-- [心理健康导览(Mental Health Guide)](Mental-Health-Guide.md)
+- [心理健康导览（Mental Health Guide）](Mental-Health-Guide.md)
 
 ---
 
@@ -362,7 +371,7 @@ AN 的治疗需整合 **医疗稳定**、**营养康复** 和 **心理治疗**,�
 3. Yilmaz, Z., Hardaway, J. A., & Bulik, C. M. (2015). Genetics and epigenetics of eating disorders. *Advances in Genomics and Genetics*, *5*, 131–150. [https://doi.org/10.2147/AGG.S55776](https://doi.org/10.2147/AGG.S55776)
 4. Lock, J., & Le Grange, D. (2013). *Treatment Manual for Anorexia Nervosa: A Family-Based Approach (2nd ed.)*. Guilford Press.
 5. Fairburn, C. G. (2008). *Cognitive Behavior Therapy and Eating Disorders*. Guilford Press.
-6. Treasure, J., Duarte, T. A., & Schmidt, U. (2020). Eating disorders. *The Lancet*, *395*(10227), 899–911. [https://doi.org/10.1016/S0140-6736(20)30059-3](https://doi.org/10.1016/S0140-6736(20)30059-3)
+6. Treasure, J., Duarte, T. A., & Schmidt, U. (2020). Eating disorders. *The Lancet*, *395*(10227), 899–911. [https://doi.org/10.1016/S0140-6736（20）30059-3](https://doi.org/10.1016/S0140-6736(20)30059-3)
 7. Hay, P., et al. (2019). *Royal Australian and New Zealand College of Psychiatrists clinical practice guidelines for the treatment of eating disorders*. *Australian & New Zealand Journal of Psychiatry*, *48*(11), 977–1008.
 8. National Eating Disorders Association (NEDA). (2024). *Anorexia Nervosa*. [https://www.nationaleatingdisorders.org/learn/by-eating-disorder/anorexia](https://www.nationaleatingdisorders.org/learn/by-eating-disorder/anorexia)
 9. Brand, B. L., Webermann, A. R., & Frankel, A. S. (2016). Dissociative identity disorder and eating disorders: A trauma informed approach. *European Journal of Trauma & Dissociation*, *1*(1), 33–38.
