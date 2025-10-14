@@ -34,6 +34,7 @@ comments: true
 | [躯体经验疗法（Somatic Experiencing, SE）](Somatic-Experiencing-SE.md) | 身体紧绷、僵冻、难以言说的创伤记忆 | 透过感官追踪与资源化释放未完成的防御反应 |
 | [眼动脱敏与再加工（EMDR）](Eye-Movement-Desensitization-Reprocessing-EMDR.md) | 闪回、噩梦、创伤性影像反复入侵 | 利用双侧刺激协助大脑重新处理创伤记忆 |
 | [辩证行为疗法（DBT）](Dialectical-Behavior-Therapy-DBT.md) | 情绪失控、自我破坏冲动 | 学习正念、情绪调节、人际效能，提升自我稳定度 |
+| [认知行为疗法（CBT）](Cognitive-Behavioral-Therapy-CBT.md) | 认知扭曲、回避行为、慢性疼痛 | 结构化评估、认知重建与行为实验，强化适应性应对 |
 | [内在家庭系统疗法（IFS）](Internal-Family-Systems-IFS.md) | 多角色冲突、内在批判、部分之间失衡 | 以“自性”领导与部分协商，修复内在关系 |
 | [认知加工疗法（CPT）](Cognitive-Processing-Therapy-CPT.md) | 固着在罪疚、羞耻、无价值信念 | 透过书写与认知重构挑战“卡住的信念” |
 | [创伤聚焦认知行为疗法（TF-CBT）](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md) | 儿童青少年创伤、照护者需同步介入 | 结合家庭支持、创伤叙事与技能训练 |
@@ -63,7 +64,7 @@ comments: true
 
 - **身体导向**：SE 强调从身体感受入手，适合难以开口叙述创伤或易陷入僵冻的系统成员。
 - **信息加工**：EMDR 使用双侧刺激协助大脑重新整合创伤记忆，可在稳定阶段后作为短程干预。
-- **认知行为**：CPT、TF-CBT、PE 分别聚焦信念重建、家庭合作与暴露练习，适用于已建立支持网络、愿意逐步面对创伤的成员。
+- **认知行为**：CBT 提供基础的认知重建框架；CPT、TF-CBT、PE 分别聚焦信念重建、家庭合作与暴露练习，适用于已建立支持网络、愿意逐步面对创伤的成员。
 - **系统协作**：IFS 鼓励以“自性”协调各部分需求，帮助多意识体系统在疗愈中保持内部沟通。
 
 ## 快速实践入口

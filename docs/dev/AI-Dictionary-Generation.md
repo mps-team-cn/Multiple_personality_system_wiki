@@ -259,7 +259,7 @@ mkdocs build
 
 - [jieba 分词文档](https://github.com/fxsjy/jieba)
 - [MkDocs 搜索配置](https://www.mkdocs.org/user-guide/configuration/#search)
-- [中文分词最佳实践](../contributing/Chinese-Segmentation-Guide.md)（待创建）
+- 中文分词最佳实践（待创建）
 
 ## 更新记录
 

@@ -105,7 +105,7 @@ updated: 2025-10-07
 
 ```markdown
 [贡献指南](../contributing/index.md)
-[开发文档](../dev/FRONTEND_ARCHITECTURE.md)
+[开发文档](../dev/THEME_GUIDE.md)
 ```
 
 **从其他目录引用词条** ：

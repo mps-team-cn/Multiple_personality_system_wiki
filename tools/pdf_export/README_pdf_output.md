@@ -1,6 +1,6 @@
 # README pdf 导出
 
-> 本文亦同步发布于 [`docs/pdf_export/README_pdf_output.md`](../../docs/pdf_export/README_pdf_output.md)，更新内容时请保持两处文档一致。
+> 本文记录 `tools/pdf_export` 模块的使用方式与维护注意事项。
 >
 > **更新说明（2025-10-06）** ：PDF 导出功能已更新以支持 MkDocs Material 新结构和相对路径链接格式。详见 [MIGRATION_NOTES.md](MIGRATION_NOTES.md)。
 

@@ -26,11 +26,13 @@
 ---
 title: 条目中文名（English/缩写）
 tags:
+
   - a
   - b
 
 topic: 临床与诊断
 synonyms:
+
   - 同义词示例
   - alias
 

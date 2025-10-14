@@ -2,8 +2,10 @@
 title: 术语表（Glossary）
 topic: 全站索引
 tags:
-  - 索引
-  - 快速导览
+
+    - 索引
+    - 快速导览
+
 updated: 2025-10-13
 ---
 
@@ -12,11 +14,13 @@ updated: 2025-10-13
 > 术语表用于统一站内术语的翻译与链接指向，便于跨文档对齐叙述与维护引用。
 
 !!! info "使用建议"
+
     - ✅ 搜索或跳转前，可先通过下方「快速导览」定位主题分区
     - 🔄 若词条仍在更新，优先查看 `updated` 字段与对应条目时间
     - 🧭 文内链接遵循相对路径规范，可直接复制到新增文档中复用
 
 !!! tip "条目状态说明"
+
     - `✅ 已完成`：站内描述完整，可直接引用
     - `🛠️ 更新中`：内容正在补充或校对，请留意上下文
     - `📌 待补充`：暂缺详细说明，仅提供译名或占位
@@ -29,37 +33,37 @@ updated: 2025-10-13
 
 -   :material-compass-outline: **常用术语**
 
-    日常沟通频率最高的基础概念  
+    日常沟通频率最高的基础概念
     [:octicons-arrow-right-16: 进入](#common-terms)
 
 -   :material-hand-heart: **实践与支持**
 
-    技法、协作与自助工具  
+    技法、协作与自助工具
     [:octicons-arrow-right-16: 进入](#practice-support)
 
 -   :material-account-group: **系统角色与类型**
 
-    常见成员职责与分类对照  
+    常见成员职责与分类对照
     [:octicons-arrow-right-16: 进入](#system-roles-types)
 
 -   :material-creation: **系统体验与机制**
 
-    前台运作、记忆与互动结构  
+    前台运作、记忆与互动结构
     [:octicons-arrow-right-16: 进入](#system-experience)
 
 -   :material-stethoscope: **诊断与临床**
 
-    术语与症状在专业语境下的对应  
+    术语与症状在专业语境下的对应
     [:octicons-arrow-right-16: 进入](#clinical)
 
 -   :material-book-cog: **相关概念与理论**
 
-    社群框架与跨学科理论  
+    社群框架与跨学科理论
     [:octicons-arrow-right-16: 进入](#concepts-theories)
 
 -   :material-shimmer: **其他补充**
 
-    特殊案例与文化引用  
+    特殊案例与文化引用
     [:octicons-arrow-right-16: 进入](#others)
 
 </div>
@@ -93,6 +97,7 @@ updated: 2025-10-13
 | [Integration](entries/Integration.md) | 整合 | 强调提升成员协作、记忆连结与功能稳定的长期目标。 |
 | [Meditation](entries/Meditation.md) | 冥想 | 通过专注训练提升觉察、调节情绪与稳定前台状态的实践。 |
 | [Mindfulness](entries/Mindfulness.md) | 正念 | 以当下觉察与非评判态度为核心的训练，支持创伤知情的稳定化与情绪调节。 |
+| [Cognitive Behavioral Therapy，CBT](entries/Cognitive-Behavioral-Therapy-CBT.md) | 认知行为疗法 | 结构化的认知与行为干预模型，适用于焦虑、情绪与慢性疼痛等议题。 |
 | [Reconstruction](entries/Reconstruction.md) | 重构 | 描述重建系统结构、角色或记忆架构的有意过程。 |
 
 ## 系统角色与类型 {#system-roles-types}
@@ -161,6 +166,7 @@ updated: 2025-10-13
 | [Panic Disorder，PD](entries/Panic-Disorder.md) | 惊恐障碍 | 以意外惊恐发作与持续担忧、回避为核心的焦虑障碍，需评估共病与安全计划。 |
 | [ASD](entries/Autism-Spectrum-Disorder.md) | 孤独症谱系 | 指神经多样性谱系的统称，常用于共病或支持需求的讨论。 |
 | [Bipolar Disorders](entries/Bipolar-Disorders.md) | 双相障碍 | 以躁狂/轻躁狂与抑郁发作为特征的情感障碍谱系，需要长期情绪稳定策略。 |
+| [Cyclothymic Disorder](entries/Cyclothymic-Disorder.md) | 环性心境障碍 | 慢性心境波动，介于轻躁狂与抑郁之间，需监测演变为双相 I/II 的风险。 |
 | [Borderline Personality Disorder，BPD](entries/Borderline-Personality-Disorder-BPD.md) | 边缘性人格障碍 | 以情绪调节、人际关系与自我形象不稳定为特征的人格模式。 |
 | [CPTSD](entries/CPTSD.md) | 复杂性创伤后应激障碍 | 针对长期复杂创伤影响的诊断框架，强调持续性安全与支持需求。 |
 | [Delirium](entries/Delirium.md) | 谵妄 | 急性注意与意识混乱的状态，常伴定向障碍与安全风险，需要及时处理躯体诱因。 |
@@ -189,6 +195,8 @@ updated: 2025-10-13
 | [SSD](entries/Somatic-Symptom-Disorder-SSD.md) | 躯体化障碍 | 聚焦躯体症状造成困扰并影响生活功能的诊断类别。 |
 | [Substance Use Disorders，SUD](entries/Substance-Use-Disorders-SUD.md) | 物质使用障碍 | 酒精或药物使用导致控制力丧失与功能受损，需结合创伤知情的减害策略。 |
 | [Functional Neurological Symptom Disorder，FND](entries/Conversion-Disorder-FND.md) | 功能性神经症状障碍、转换障碍 | 以正性体征辨识的功能性神经症状群，需要综合复健与心理支持。 |
+| [Chronic Pain](entries/Chronic-Pain.md) | 慢性疼痛 | 持续超过 3 个月的疼痛体验，需整合医学评估、心理治疗与功能康复。 |
+| [Epilepsy](entries/Epilepsy.md) | 癫痫 | 以反复发作性癫痫发作为特征的神经系统疾病，常伴情绪与认知调整需求。 |
 | [Trauma](entries/Trauma.md) | 创伤 | 指超出个体当时应对能力的威胁性经历及其后效。 |
 
 ## 相关概念与理论 {#concepts-theories}

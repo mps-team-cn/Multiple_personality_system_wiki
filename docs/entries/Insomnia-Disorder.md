@@ -129,7 +129,7 @@ DSM-5-TR 将失眠障碍的最短持续时间定义为 3 个月,而 ICD-11 则�
     - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md):早醒是抑郁的典型症状
     - [焦虑（Anxiety）](Anxiety.md):过度担心和警觉导致入睡困难
     - [创伤后应激障碍（PTSD）](PTSD.md):创伤相关的过度警觉和噩梦常导致失眠
-    - [躁狂发作](Bipolar-Disorder.md):睡眠需求减少但无疲劳感
+    - [躁狂发作](Bipolar-Disorders.md):睡眠需求减少但无疲劳感
 
 - **正常睡眠变异**:短睡眠者(每晚只需 4-6 小时睡眠且无功能受损)不应诊断为失眠障碍
 

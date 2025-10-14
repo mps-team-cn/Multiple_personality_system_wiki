@@ -233,9 +233,9 @@ git push origin main
 ## 📚 相关文档
 
 - [Sveltia CMS 官方文档](https://github.com/sveltia/sveltia-cms)
-- [Multiple Personality System Wiki 贡献指南](docs/contributing/index.md)
-- [词条编写规范](docs/contributing/编写规范.md)
-- [管理员操作指南](docs/ADMIN_GUIDE.md)
+- [Multiple Personality System Wiki 贡献指南](../contributing/index.md)
+- [词条编写规范](../contributing/writing-guidelines.md)
+- [管理员操作指南](../ADMIN_GUIDE.md)
 
 ---
 
