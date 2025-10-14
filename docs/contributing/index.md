@@ -86,6 +86,10 @@ python tools/fix_markdown.py
 mkdocs serve
 ```
 
+!!! tip "时间戳自动维护"
+
+    词条的 `updated` 字段（最后更新日期）由 CI 自动维护，您无需手动修改。推送到 GitHub 后，CI 会根据 Git 提交历史自动更新此字段。详见 [技术约定 - Frontmatter 规范](technical-conventions.md#22-字段说明)。
+
 ### 第三步：提交 PR
 
 详细流程请参考 [PR 流程](pr-workflow.md)
