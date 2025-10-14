@@ -7,6 +7,7 @@ tags:
 - 解离
 
 topic: 诊断与临床
+description: 创伤后应激障碍（PTSD）权威指南：症状识别、诊断标准与治疗方法。掌握闪回、回避、过度警觉等核心症状及有效应对策略
 title: 创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）
 updated: 2025-10-13
 synonyms:
@@ -20,7 +21,6 @@ synonyms:
 
 comments: true
 ---
-
 # 创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）
 
 !!! warning "触发警告"

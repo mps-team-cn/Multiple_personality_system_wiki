@@ -7,11 +7,11 @@ tags:
 - 创伤
 
 topic: 系统运作
+description: 系统整合（Integration）的含义、方法与争议。探讨成员融合、合作整合等不同路径，理解整合在创伤康复中的作用与个人选择
 title: 整合（Integration）
 updated: 2025-10-13
 comments: true
 ---
-
 # 整合（Integration）
 
 ## 同义词

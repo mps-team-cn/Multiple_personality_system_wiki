@@ -7,11 +7,11 @@ tags:
 - 创伤
 
 topic: 创伤与疗愈
+description: 接地（Grounding）技术完整指南：应对解离、焦虑与创伤触发的有效方法。学习感官觉察、身体定向等实用技巧，重建当下连接
 title: 接地（Grounding）
 updated: 2025-10-13
 comments: true
 ---
-
 # 接地（Grounding）
 
 !!! warning "触发警告"

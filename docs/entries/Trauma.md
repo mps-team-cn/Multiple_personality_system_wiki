@@ -7,6 +7,7 @@ tags:
 - 创伤
 
 topic: 诊断与临床
+description: 创伤（Trauma）的本质、类型与影响机制。理解急性创伤、复杂创伤及发展性创伤对身心的深远影响，掌握创伤知情视角
 title: 创伤（Trauma）
 updated: 2025-10-13
 synonyms:
@@ -18,7 +19,6 @@ synonyms:
 
 comments: true
 ---
-
 # 创伤（Trauma）
 
 !!! warning "触发警告"

@@ -27,6 +27,8 @@
 | 脚本/模块                                                        | 功能摘要                                                              | 常用用法                                                                                                |
 | ------------------------------------------------------------ | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | `tools/check_links.py`                                       | 检查 Markdown 内部链接规范，支持检查整个项目、指定目录或单个文件                       | `python tools/check_links.py docs/entries/` 或 `python tools/check_links.py` 检查整个项目                                          |
+| `tools/check_descriptions.py`                                | 检查词条的 description 字段覆盖情况，统计缺失的词条                                 | `python3 tools/check_descriptions.py`                                                               |
+| `tools/add_descriptions.py`                                  | 批量为核心词条添加 description 字段（SEO 优化）                                  | `python3 tools/add_descriptions.py`                                                                 |
 | `tools/docs_preview.py`                                      | 本地预览辅助：默认启动 `python -m http.server`，可选 `--docsify` 启用 docsify-cli | `python tools/docs_preview.py --port 4173`（启用 docsify 时追加 `--docsify`）                              |
 | `tools/gen_changelog_by_tags.py`                             | 按 Git 标签时间顺序生成 `changelog.md` 并按提交类型分组                            | `python tools/gen_changelog_by_tags.py --output changelog.md`，可加 `--latest-only`/`--latest-to-head` |
 | `tools/pdf_export/`                                          | Pandoc 驱动的整站 PDF 导出工具，支持封面、忽略列表、中文字体与带页码的 topic 目录                | `python tools/pdf_export/export_to_pdf.py` 或 `python -m pdf_export`                                 |
@@ -35,6 +37,53 @@
 | `tools/run_local_updates.sh` / `tools/run_local_updates.bat` | 串联常用维护脚本，一键完成日常更新任务（已增强：支持参数跳过、进度显示、错误提示）                         | `bash tools/run_local_updates.sh` 或 `tools\run_local_updates.bat`（均支持 `--skip-*` 选项和 `--help`）      |
 
 如需新增脚本，请保持功能说明与示例用法同步更新本章节，方便贡献者快速定位维护工具。
+
+### SEO 优化工具
+
+| 脚本/模块                                | 功能摘要                                                                                       | 常用用法                                                         |
+| ------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------ |
+| `tools/check_descriptions.py`     | 扫描所有词条，统计 description 字段的覆盖情况，列出缺失的词条清单                                              | `python3 tools/check_descriptions.py` |
+| `tools/add_descriptions.py` | 批量为优先级词条添加 SEO 友好的 description 字段（120-155 字符）                      | `python3 tools/add_descriptions.py` |
+
+**说明：**
+
+- `check_descriptions.py` - 检查工具，生成覆盖率报告
+  - 扫描 `docs/entries/` 目录下所有词条
+  - 统计已有/缺失 description 的词条数量
+  - 输出详细的缺失词条列表
+  - 用于评估 SEO 优化进度
+
+- `add_descriptions.py` - 批量添加工具
+  - 为 32 个核心词条批量添加精心撰写的 description
+  - 包含 DID、OSDD、Tulpa、CPTSD 等主要诊断词条
+  - 包含系统运作、创伤疗愈、成员角色等关键概念
+  - description 长度符合 SEO 最佳实践（120-155 字符）
+  - 包含核心关键词，增强搜索可见度
+  - 自动跳过已有 description 的词条
+
+**使用流程：**
+
+```bash
+# 1. 检查当前覆盖情况
+python3 tools/check_descriptions.py
+
+# 2. 为核心词条添加 description
+python3 tools/add_descriptions.py
+
+# 3. 再次检查验证结果
+python3 tools/check_descriptions.py
+```
+
+**扩展方法：**
+
+如需为更多词条添加 description，编辑 `tools/add_descriptions.py` 中的 `PRIORITY_DESCRIPTIONS` 字典，按以下格式添加：
+
+```python
+PRIORITY_DESCRIPTIONS = {
+    "词条文件名.md": "简洁准确的描述文字（120-155 字符，包含核心关键词）",
+    # ...
+}
+```
 
 ### 部署运维工具
 

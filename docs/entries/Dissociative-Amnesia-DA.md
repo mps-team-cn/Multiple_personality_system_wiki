@@ -7,11 +7,11 @@ tags:
 - 创伤
 
 topic: 诊断与临床
+description: 解离性遗忘（DA）详解：记忆缺失类型、诊断标准与恢复方法。理解创伤相关记忆断片、遗忘性漫游等现象的本质
 title: 解离性遗忘（Dissociative Amnesia，DA）
 updated: 2025-10-13
 comments: true
 ---
-
 # 解离性遗忘（Dissociative Amnesia，DA）
 
 !!! warning "触发警告"

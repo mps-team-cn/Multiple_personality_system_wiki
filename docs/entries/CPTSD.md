@@ -7,6 +7,7 @@ tags:
 - 多重意识体
 
 topic: 诊断与临床
+description: 复杂性创伤后应激障碍（CPTSD）完整指南：诊断标准、自我组织障碍（DSO）与治疗方法。了解长期创伤的影响、与 PTSD 的区别及康复路径
 title: 复杂性创伤后应激障碍（CPTSD）
 updated: 2025-10-13
 synonyms:
@@ -19,7 +20,6 @@ synonyms:
 
 comments: true
 ---
-
 # 复杂性创伤后应激障碍（CPTSD）
 
 !!! warning "触发警告"
