@@ -14,7 +14,7 @@
 
 从概念入门到实践工具，我们致力于用中文整理关于多意识体系统（`Multiple Personality System`，简称 **`MPS`**）与创伤照护的可靠资料，陪伴你理解自我、照顾伙伴，并与同路人建立连结。
 
-[开始探索](tags.md){ .md-button .md-button--primary }
+[开始探索](#-核心主题){ .md-button .md-button--primary }
 [参与贡献](contributing/index.md){ .md-button }
 
 </div>
@@ -31,25 +31,35 @@
 
     [:octicons-arrow-right-24: 查看学习路径](#learning-path)
 
-- :material-head-heart: **照护支持**
+- :material-tag-multiple: **标签索引**
 
-    快速找到创伤、自我照护与危机应对资源
+    按主题分类浏览所有词条
 
-    [:octicons-arrow-right-24: 前往创伤与疗愈](#trauma-healing)
+    [:octicons-arrow-right-24: 浏览标签](tags.md)
 
-- :material-account-group: **系统协作**
+- :material-book-alphabet: **术语词典**
 
-    学习系统协作技巧，增强与成员的连结
+    快速查询定义与概念解释
 
-    [:octicons-arrow-right-24: 浏览系统运作](#system-operations)
+    [:octicons-arrow-right-24: 查询术语](Glossary.md)
 
-- :material-link-variant: **快速入口**
+- :material-clock-outline: **最新动态**
 
-    - 🔍 [标签索引](tags.md) - 按主题分类浏览
-    - 📝 [术语词典](Glossary.md) - 快速查询定义
-    - ⏱️ [最新动态](updates.md) - 查看最新修改
-    - 🔄 [更新日志](changelog.md) - 跟踪版本演变
-    - 🤝 [贡献指南](contributing/index.md) - 参与共建
+    查看最近修改的词条内容
+
+    [:octicons-arrow-right-24: 查看更新](updates.md)
+
+- :material-history: **更新日志**
+
+    跟踪项目版本演变历程
+
+    [:octicons-arrow-right-24: 查看日志](changelog.md)
+
+- :material-hands-pray: **贡献指南**
+
+    了解如何参与项目共建
+
+    [:octicons-arrow-right-24: 参与贡献](contributing/index.md)
 
 </div>
 
