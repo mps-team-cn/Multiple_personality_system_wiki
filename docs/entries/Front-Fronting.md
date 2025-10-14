@@ -9,9 +9,10 @@ tags:
 topic: 系统运作
 description: 前台（Fronting）机制详解：成员切换、意识控制与日常管理。了解谁在控制身体、如何切换及切换过程中的体验与挑战
 title: 前台（Front / Fronting）
-updated: 2025-10-13
+updated: 2025-10-14
 comments: true
 ---
+
 # 前台（Front / Fronting）
 
 **一句话定义** ：前台指当前占据身体、直接与外部环境互动的成员状态，前台执掌（fronting）则是该成员对外界控制权的取得与维持过程。

@@ -9,13 +9,14 @@ tags:
 topic: 角色与身份
 description: 小孩意识体（Little）的特征、需求与照护。了解儿童成员的脆弱性、创伤持有及如何提供安全支持与内部照顾
 title: 小孩意识体（Little / Child Part）
-updated: 2025-10-13
+updated: 2025-10-14
 synonyms:
 
 - 小的
 
 comments: true
 ---
+
 # 小孩意识体（Little / Child Part）
 
 ## 定义

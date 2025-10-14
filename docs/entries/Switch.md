@@ -9,9 +9,10 @@ tags:
 topic: 系统运作
 description: 深入解析系统成员切换（Switch）的类型、触发因素与管理方法。了解切换的生理心理机制、如何识别切换及应对策略
 title: 切换（Switch）
-updated: 2025-10-13
+updated: 2025-10-14
 comments: true
 ---
+
 # 切换（Switch）
 
 > **一句话定义** ：切换指系统前台控制权由一位成员转移至另一位成员的过程，可伴随意识、记忆与身体感受的迅速调整。[^pluralpedia-switch]

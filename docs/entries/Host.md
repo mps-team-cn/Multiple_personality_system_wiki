@@ -9,9 +9,10 @@ tags:
 topic: 角色与身份
 description: 宿主（Host）的定义、角色与挑战。理解主要控制身体的成员特征、宿主与其他成员的关系及宿主身份的动态性
 title: 宿主（Host）
-updated: 2025-10-13
+updated: 2025-10-14
 comments: true
 ---
+
 # 宿主（Host）
 
 ## 定义

@@ -10,9 +10,10 @@ tags:
 topic: 系统运作
 description: 解离现象的全面解析：功能性分离、防御性解离与解离障碍的区别。理解从正常解离到病理性解离的连续谱，掌握解离体验的本质
 title: 解离（Dissociation）
-updated: 2025-10-13
+updated: 2025-10-14
 comments: true
 ---
+
 # 解离（Dissociation）
 
 !!! warning "触发警告"

@@ -8,9 +8,10 @@ tags:
 topic: 角色与身份
 description: 守门人（Gatekeeper）的职能与重要性。了解控制成员切换、保护记忆、维护系统秩序的关键成员及其运作机制
 title: 守门人（Gatekeeper）
-updated: 2025-10-13
+updated: 2025-10-14
 comments: true
 ---
+
 # 守门人（Gatekeeper）
 
 **一句话定义** ： **守门人** 指在多意识体或解离性系统中负责调控前台访问、记忆流向与外部互动边界的成员或子系统，其目标在于维护整体安全与稳定。

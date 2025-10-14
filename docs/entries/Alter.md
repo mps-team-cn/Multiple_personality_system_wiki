@@ -9,13 +9,14 @@ tags:
 topic: 角色与身份
 description: 系统成员（Alter）的定义、分类与角色功能。深入理解多意识体系统中不同成员的特征、形成原因及其在系统中的作用
 title: 成员（Alter）
-updated: 2025-10-13
+updated: 2025-10-14
 synonyms:
 
 - 成员
 
 comments: true
 ---
+
 # 成员（Alter）
 
 **一句话定义** ：成员是系统内部具有独立视角、情绪反应与记忆访问方式的意识单元，可在不同情境中承担特定角色。

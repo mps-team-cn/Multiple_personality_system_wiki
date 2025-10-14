@@ -9,9 +9,10 @@ tags:
 topic: 诊断与临床
 description: 深入解析解离性身份障碍（DID）的诊断标准、临床表现与治疗方法。了解多重人格障碍的本质、创伤根源及康复路径，包含 ICD-11 与 DSM-5-TR 权威诊断标准
 title: 解离性身份障碍（Dissociative Identity Disorder，DID）
-updated: 2025-10-13
+updated: 2025-10-14
 comments: true
 ---
+
 # 解离性身份障碍（Dissociative Identity Disorder，DID）
 
 !!! warning "触发警告"
