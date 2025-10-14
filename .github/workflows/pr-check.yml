@@ -23,8 +23,8 @@ jobs:
 
       - name: 设置 Python
         uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
+        # with:
+          # python-version: '3.11'
 
       - name: 安装依赖
         run: |
@@ -34,6 +34,7 @@ jobs:
 
       - name: 检查链接规范
         id: check_links
+        continue-on-error: true
         run: |
           echo "🔗 检查链接规范..."
           echo ""
@@ -81,13 +82,17 @@ jobs:
             echo "     错误示例：[DID](/docs/entries/DID.md)"
             echo ""
             echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+            echo "LINK_CHECK_FAILED=1" >> $GITHUB_ENV
             exit 1
           fi
 
           echo ""
           echo "✅ 所有链接符合规范"
+          echo "LINK_CHECK_FAILED=0" >> $GITHUB_ENV
 
       - name: 检查 Frontmatter
+        id: check_frontmatter
+        continue-on-error: true
         run: |
           echo "📋 检查 Frontmatter 格式..."
           echo ""
@@ -97,6 +102,7 @@ jobs:
 
           if [ -z "$CHANGED_ENTRIES" ]; then
             echo "✅ 没有词条文件变更"
+            echo "FRONTMATTER_CHECK_FAILED=0" >> $GITHUB_ENV
             exit 0
           fi
 
@@ -155,11 +161,13 @@ jobs:
             echo "📚 主题与 Guide 映射请参考："
             echo "    AGENTS.md#📚-词条主题与-guide-映射表"
             echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+            echo "FRONTMATTER_CHECK_FAILED=1" >> $GITHUB_ENV
             exit 1
           fi
 
           echo ""
           echo "✅ 所有 Frontmatter 格式正确"
+          echo "FRONTMATTER_CHECK_FAILED=0" >> $GITHUB_ENV
 
       - name: 检查结果摘要
         if: always()
@@ -169,17 +177,31 @@ jobs:
           echo "📊 PR 检查完成"
           echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
           echo ""
-          if [ "${{ job.status }}" = "success" ]; then
+
+          # 检查是否有失败的检查
+          LINK_FAILED="${LINK_CHECK_FAILED:-0}"
+          FRONTMATTER_FAILED="${FRONTMATTER_CHECK_FAILED:-0}"
+
+          if [ "$LINK_FAILED" = "1" ] || [ "$FRONTMATTER_FAILED" = "1" ]; then
+            echo "❌ 检查失败，请修复以下问题后重新提交："
+            echo ""
+            if [ "$LINK_FAILED" = "1" ]; then
+              echo "  ❌ 链接检查失败"
+            fi
+            if [ "$FRONTMATTER_FAILED" = "1" ]; then
+              echo "  ❌ Frontmatter 检查失败"
+            fi
+            echo ""
+            echo "📖 参考文档："
+            echo "  - 词条模板：docs/TEMPLATE_ENTRY.md"
+            echo "  - 贡献指南：docs/contributing/"
+            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+            exit 1
+          else
             echo "✅ 所有检查通过，可以合并"
             echo ""
             echo "💡 提示："
             echo "  - 时间戳会在合并到 main 后自动更新"
             echo "  - 格式问题会在合并后自动修复"
-          else
-            echo "❌ 检查失败，请修复问题后重新提交"
-            echo ""
-            echo "📖 参考文档："
-            echo "  - 词条模板：docs/TEMPLATE_ENTRY.md"
-            echo "  - 贡献指南：docs/contributing/"
+            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
           fi
-          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
