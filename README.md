@@ -37,11 +37,14 @@
 - `mkdocs-git-revision-date-localized-plugin` - 自动获取 Git 更新时间
 - `mkdocs-minify-plugin` - HTML/CSS/JS 压缩
 - `mkdocs-glightbox` - 图片灯箱效果
-- `pymdown-extensions` - Markdown 增强扩展
+- `mkdocs-exclude` - 排除指定文件/目录
+- `mkdocs-exclude-search` - 从搜索索引中排除指定内容
+- `pymdown-extensions` - Markdown 增强扩展（代码高亮、提示块等）
 
 ### 自动化工具
 
-- **Python** - 内容处理、索引生成、校验
+- **Python 工具链** - 内容处理、索引生成、格式修复、链接检查
+- **GitHub Actions** - CI/CD 双重检查机制（PR 检查 + 自动修复）
 - **Cloudflare Pages** - 静态站点托管与自动部署
 
 ### 内容管理
@@ -157,6 +160,9 @@ plurality_wiki/
 │     └─ auth.ts                 # GitHub OAuth 认证（Sveltia CMS）
 │
 └─ .github/
+   ├─ workflows/
+   │  ├─ pr-check.yml             # PR 质量检查（链接 + Frontmatter）
+   │  └─ auto-fix-entries.yml     # 自动修复与时间戳更新
    ├─ ISSUE_TEMPLATE/
    └─ PULL_REQUEST_TEMPLATE.md
 ```
@@ -185,10 +191,7 @@ plurality_wiki/
 - **`python tools/gen_changelog_by_tags.py --latest-to-head`**：变更日志生成
     - 基于 Git 标签自动生成版本日志
 
-### 已废弃工具
 
-- ~~`python tools/generate_tags_index.py`~~：**[已废弃]** MkDocs Material 的 tags 插件自动处理
-- ~~`python tools/build_search_index.py`~~：**[已废弃]** MkDocs 内置搜索功能
 
 ---
 
@@ -324,14 +327,17 @@ docsify serve .
 
 1. Fork & 新建分支；
 2. 按规范撰写/修改词条到 `docs/entries/` 目录；
-3. **同步更新索引** ：
-    - 标签索引由 MkDocs 自动生成，无需手动运行脚本
+3. **同步更新相关文档**：
+    - 根据词条 `topic` 字段，更新对应的 Guide 文件（详见 [AGENTS.md](AGENTS.md#📚-词条主题与-guide-映射表)）
+    - 示例：诊断类词条 → 更新 `Clinical-Diagnosis-Guide.md`
     - 更新 `docs/index.md` 导航（如需要）
-4. **本地验证** ：
-    - 执行 `python tools/fix_markdown.py` 自动修复格式
-    - 执行 `markdownlint "docs/**/*.md"` 检查
+4. **本地验证**：
+    - 执行 `python tools/fix_markdown.py docs/entries/` 自动修复格式
+    - 执行 `python tools/check_links.py docs/entries/` 检查链接
+    - 执行 `markdownlint "docs/**/*.md"` 检查（可选）
     - 运行 `mkdocs serve` 本地预览
-5. 提交 PR，等待 Review。
+5. 提交 PR，CI 会自动检查链接和 Frontmatter；
+6. 等待 Review，合并后 CI 自动更新时间戳并修复格式。
 
 ---
 
@@ -369,20 +375,23 @@ Build output directory: site
 - [x] 自动化工具重构（tools/ 目录模块化）
 - [x] Cloudflare Pages 部署配置
 - [x] PDF 导出功能（基于 topic 字段分组）
+- [x] **CI/CD 双重检查机制**
+  - PR 阶段：链接规范检查 + Frontmatter 验证
+  - 合并后：自动更新时间戳 + 格式修复 + 最终验证
 
 ### 进行中 🚧
 
 - [ ] 词条内容扩充与质量提升
 - [ ] 完善开发文档
-- [ ] CI/CD 自动化流程
+- [ ] 进一步优化 CI/CD 流程（Pre-commit hooks）
 
 ### 计划中 📋
 
 **高优先级**:
 
-- [ ] GitHub Actions 工作流配置
 - [ ] Pre-commit hooks 集成
 - [ ] 依赖版本锁定
+- [ ] 自动化测试覆盖
 
 **中优先级**:
 

@@ -439,9 +439,27 @@ python -m compileall tools/
 !!! info "执行优先级"
     自动执行优先；手动修改后需手动执行。
 
-### 8.1 自动执行（CI）
+### 8.1 自动执行（CI 双重检查）
 
-!!! success "GitHub Actions 自动化"
+!!! success "PR 阶段检查（`.github/workflows/pr-check.yml`）"
+    当创建或更新 PR 时，CI 会自动检查：
+
+    1. 🔍 **检查链接规范**
+        - 检查所有修改的 Markdown 文件
+        - 不符合规范时显示详细错误并阻止合并
+        - 只检查不修复，确保提交前质量
+
+    2. 📋 **检查 Frontmatter 格式**
+        - 验证词条必需字段（title, topic, tags）
+        - 格式错误时提供修复指引和 Guide 映射表链接
+
+    3. ✅ **通过后才可合并**
+        - 所有检查通过才能合并到 main
+        - 时间戳会在合并后自动更新
+
+    详见 `.github/workflows/pr-check.yml`
+
+!!! success "合并后自动修复（`.github/workflows/auto-fix-entries.yml`）"
     当词条文件（`docs/entries/*.md`）被推送到 main 分支时，CI 会自动执行：
 
     1. ✅ 运行 `python3 tools/update_git_timestamps.py` 更新时间戳
@@ -452,12 +470,10 @@ python -m compileall tools/
 
     详见 `.github/workflows/auto-fix-entries.yml`
 
-!!! warning "链接检查阻断机制"
-    如果修复后的文件仍存在链接违规，CI 会：
-
-    - ❌ 失败并显示详细错误信息
-    - ❌ 不会自动提交任何更改
-    - 📝 要求开发者手动修正违规链接后重新提交
+!!! tip "CI 双重保障机制"
+    - **第一道防线（PR 阶段）**：提前发现问题，避免将问题合并到 main
+    - **第二道防线（合并后）**：自动修复格式，最终验证质量
+    - **结果**：确保 main 分支始终保持高质量
 
 !!! info "手动触发"
     也可以通过 GitHub Actions 页面手动触发工作流

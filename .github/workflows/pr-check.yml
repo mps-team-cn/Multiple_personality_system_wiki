@@ -1,0 +1,185 @@
+name: PR 质量检查
+
+on:
+  pull_request:
+    paths:
+      - 'docs/entries/*.md'
+      - 'docs/**/*.md'
+
+permissions:
+  contents: read
+  pull-requests: write  # 允许评论 PR
+
+jobs:
+  check-quality:
+    name: 检查词条质量
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 获取完整历史记录
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装依赖
+        run: |
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: 检查链接规范
+        id: check_links
+        run: |
+          echo "🔗 检查链接规范..."
+          echo ""
+
+          # 检查修改的 Markdown 文件
+          CHANGED_FILES=$(git diff --name-only origin/${{ github.base_ref }}...HEAD | grep '\.md$' || true)
+
+          if [ -z "$CHANGED_FILES" ]; then
+            echo "✅ 没有 Markdown 文件变更"
+            exit 0
+          fi
+
+          echo "📝 检查以下文件："
+          echo "$CHANGED_FILES"
+          echo ""
+
+          # 运行链接检查
+          FAILED=0
+          for file in $CHANGED_FILES; do
+            if [ -f "$file" ]; then
+              echo "检查: $file"
+              if ! python3 tools/check_links.py "$file"; then
+                FAILED=1
+              fi
+            fi
+          done
+
+          if [ $FAILED -eq 1 ]; then
+            echo ""
+            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+            echo "❌ 链接检查失败！"
+            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+            echo ""
+            echo "📋 链接规范："
+            echo "  ✅ 词条间链接：直接使用文件名"
+            echo "     示例：[DID](DID.md)"
+            echo ""
+            echo "  ✅ 词条→其他目录：使用 ../ 相对路径"
+            echo "     示例：[贡献指南](../contributing/index.md)"
+            echo ""
+            echo "  ✅ 其他目录→词条：使用 ../entries/ 路径"
+            echo "     示例：[DID](../entries/DID.md)"
+            echo ""
+            echo "  ❌ 禁止：绝对路径"
+            echo "     错误示例：[DID](/docs/entries/DID.md)"
+            echo ""
+            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+            exit 1
+          fi
+
+          echo ""
+          echo "✅ 所有链接符合规范"
+
+      - name: 检查 Frontmatter
+        run: |
+          echo "📋 检查 Frontmatter 格式..."
+          echo ""
+
+          # 检查词条目录中的文件
+          CHANGED_ENTRIES=$(git diff --name-only origin/${{ github.base_ref }}...HEAD | grep '^docs/entries/.*\.md$' || true)
+
+          if [ -z "$CHANGED_ENTRIES" ]; then
+            echo "✅ 没有词条文件变更"
+            exit 0
+          fi
+
+          FAILED=0
+          for file in $CHANGED_ENTRIES; do
+            if [ ! -f "$file" ]; then
+              continue
+            fi
+
+            echo "检查: $file"
+
+            # 检查是否有 Frontmatter
+            if ! head -1 "$file" | grep -q '^---$'; then
+              echo "  ❌ 缺少 Frontmatter"
+              FAILED=1
+              continue
+            fi
+
+            # 提取 Frontmatter 内容
+            FRONTMATTER=$(awk '/^---$/{if(++n==2)exit;next}n==1' "$file")
+
+            # 检查必需字段
+            if ! echo "$FRONTMATTER" | grep -q '^title:'; then
+              echo "  ❌ 缺少 title 字段"
+              FAILED=1
+            fi
+
+            if ! echo "$FRONTMATTER" | grep -q '^topic:'; then
+              echo "  ❌ 缺少 topic 字段"
+              FAILED=1
+            fi
+
+            if ! echo "$FRONTMATTER" | grep -q '^tags:'; then
+              echo "  ❌ 缺少 tags 字段"
+              FAILED=1
+            fi
+
+            if [ $FAILED -eq 0 ]; then
+              echo "  ✅ Frontmatter 格式正确"
+            fi
+          done
+
+          if [ $FAILED -eq 1 ]; then
+            echo ""
+            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+            echo "❌ Frontmatter 检查失败！"
+            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+            echo ""
+            echo "📋 必需字段："
+            echo "  - title: 词条标题"
+            echo "  - topic: 词条主题（用于 Guide 映射）"
+            echo "  - tags: 分类标签列表"
+            echo ""
+            echo "📝 注意：updated 字段会在合并后自动更新，无需手动填写"
+            echo ""
+            echo "📚 主题与 Guide 映射请参考："
+            echo "    AGENTS.md#📚-词条主题与-guide-映射表"
+            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+            exit 1
+          fi
+
+          echo ""
+          echo "✅ 所有 Frontmatter 格式正确"
+
+      - name: 检查结果摘要
+        if: always()
+        run: |
+          echo ""
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "📊 PR 检查完成"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo ""
+          if [ "${{ job.status }}" = "success" ]; then
+            echo "✅ 所有检查通过，可以合并"
+            echo ""
+            echo "💡 提示："
+            echo "  - 时间戳会在合并到 main 后自动更新"
+            echo "  - 格式问题会在合并后自动修复"
+          else
+            echo "❌ 检查失败，请修复问题后重新提交"
+            echo ""
+            echo "📖 参考文档："
+            echo "  - 词条模板：docs/TEMPLATE_ENTRY.md"
+            echo "  - 贡献指南：docs/contributing/"
+          fi
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
