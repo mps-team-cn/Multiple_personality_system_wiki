@@ -175,7 +175,10 @@ comments: true
 ???+ abstract "展开查看"
 
     - [进食障碍总览（ED）](Eating-Disorders-ED.md) — **已完成**
-    - 回避/限制性食物摄入障碍（ARFID）、神经性厌食症（Anorexia Nervosa）、神经性贪食症（Bulimia Nervosa）、暴食障碍（Binge-Eating Disorder）等 — **待更新**
+    - [神经性厌食症（Anorexia Nervosa, AN）](Anorexia-Nervosa.md) — **已完成**
+    - [神经性贪食症（Bulimia Nervosa, BN）](Bulimia-Nervosa.md) — **已完成**
+    - [暴食障碍（Binge-Eating Disorder, BED）](Binge-Eating-Disorder.md) — **已完成**
+    - 回避/限制性食物摄入障碍（ARFID）等 — **待更新**
 
 ### 11) 排泄障碍
 

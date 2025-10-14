@@ -134,9 +134,9 @@ comments: true
 - [ ] Rumination-Disorder.md
 - [ ] Avoidant-Restrictive-Food-Intake-Disorder-ARFID.md
 - [x] Eating-Disorders-ED.md      <!-- 总览；含 AN/BN/BED 专段 -->
-    - [ ] Anorexia-Nervosa.md
-    - [ ] Bulimia-Nervosa.md
-    - [ ] Binge-Eating-Disorder.md
+    - [x] Anorexia-Nervosa.md
+    - [x] Bulimia-Nervosa.md
+    - [x] Binge-Eating-Disorder.md
 - [ ] Other-Specified-Unspecific-Feeding-Eating-Disorders.md
 
 ## 11. 排泄障碍（Elimination Disorders）
