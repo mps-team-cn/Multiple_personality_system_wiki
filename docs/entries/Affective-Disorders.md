@@ -95,7 +95,7 @@ comments: true
 - [躁狂（Mania）](Mania.md)
 - [轻躁狂（Hypomania）](Hypomania.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
-- [精神分裂症（Schizophrenia，SC）](Schizophrenia-SC.md)
+- [精神分裂症（Schizophrenia，SZ/SCZ）](Schizophrenia-SZ.md)
 - [孤独症谱系（Autism Spectrum Disorder）](Autism-Spectrum-Disorder.md)
 - [谵妄（Delirium）](Delirium.md)
 

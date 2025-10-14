@@ -150,7 +150,7 @@ DID 的治疗通常遵循分阶段模式：
 - [其他特定解离性障碍（OSDD）](OSDD.md)
 - [解离性失忆（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)
 - [人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)
-- [未特定的解离障碍（USDD）](Unspecified-Dissociative-Disorder-USDD.md)
+- [未特定的解离障碍（sdd）](Unspecified-Dissociative-Disorder-SDD.md)
 - [解离（Dissociation）](Dissociation.md)
 - [结构性解离理论（Structural Dissociation Theory）](Structural-Dissociation-Theory.md)
 

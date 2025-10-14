@@ -116,7 +116,7 @@ comments: true
 
 ### 鉴别相关
 
-- [精神分裂症（Schizophrenia）](Schizophrenia-SC.md)
+- [精神分裂症（Schizophrenia）](Schizophrenia-SZ.md)
 - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)
 - [孤独症谱系障碍（ASD）](Autism-Spectrum-Disorder.md)
 

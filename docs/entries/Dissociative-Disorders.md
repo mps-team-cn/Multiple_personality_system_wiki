@@ -83,9 +83,9 @@ comments: true
 
 **DSM-5-TR 编码**：300.15
 
-### 5. 未特定的解离障碍（USDD）
+### 5. 未特定的解离障碍（sdd）
 
-[未特定的解离障碍（USDD）](Unspecified-Dissociative-Disorder-USDD.md) 用于：
+[未特定的解离障碍（sdd）](Unspecified-Dissociative-Disorder-SDD.md) 用于：
 
 - 存在解离症状但信息不足以明确诊断
 - 紧急情况或初步评估阶段
@@ -134,7 +134,7 @@ comments: true
 
 | 诊断系统 | 分类位置 | 主要诊断类别 |
 |---------|---------|------------|
-| **DSM-5-TR** | 独立章节 | DID、DA、DPDR、OSDD、USDD |
+| **DSM-5-TR** | 独立章节 | DID、DA、DPDR、OSDD、sdd |
 | **ICD-11** | 独立章节（6B6x） | DID (6B64)、PDID (6B65)、DA (6B62)、DPDR (6B66)、其他解离障碍 (6B6Y/6B6Z) |
 
 ### 主要差异

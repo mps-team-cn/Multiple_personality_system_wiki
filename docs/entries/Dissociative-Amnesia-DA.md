@@ -136,7 +136,7 @@ D. 症状不能被分离性身份障碍、创伤后应激障碍、急性应激�
 - [解离性身份障碍（DID）](DID.md)
 - [其他特定解离性障碍（OSDD）](OSDD.md)
 - [人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)
-- [未特定的解离障碍（USDD）](Unspecified-Dissociative-Disorder-USDD.md)
+- [未特定的解离障碍（sdd）](Unspecified-Dissociative-Disorder-SDD.md)
 - [部分解离性身份障碍（PDID）](Partial-Dissociative-Identity-Disorder-PDID.md)
 
 ### 解离与创伤

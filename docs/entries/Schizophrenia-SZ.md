@@ -7,12 +7,12 @@ tags:
 - 创伤
 
 topic: 诊断与临床
-title: 精神分裂症（Schizophrenia，SC）
+title: 精神分裂症（Schizophrenia，SZ/SCZ）
 updated: 2025-10-13
 comments: true
 ---
 
-# 精神分裂症（Schizophrenia，SC）
+# 精神分裂症（Schizophrenia，SZ/SCZ）
 
 !!! warning "触发警告"
     内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
@@ -23,7 +23,7 @@ comments: true
 ## 同义词
 
 - 思觉失调
-- Schizophrenia（SC, SZ）
+- Schizophrenia（SZ/SCZ）
 - 精神分裂病（历史用语）
 
 ## 定义

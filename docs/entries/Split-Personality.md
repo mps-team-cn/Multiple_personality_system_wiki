@@ -20,7 +20,7 @@ comments: true
 # 人格分裂（Split Personality，非正式术语）
 
 !!! warning "术语澄清"
-    “人格分裂”不是 DSM-5-TR 或 ICD-11 中的正式诊断名称，常被媒体与大众用来指称[解离性身份障碍（DID）](DID.md)或误指[精神分裂症（Schizophrenia）](Schizophrenia-SC.md)。本词条旨在辨析该俗称的历史背景、常见误解与沟通建议。
+    “人格分裂”不是 DSM-5-TR 或 ICD-11 中的正式诊断名称，常被媒体与大众用来指称[解离性身份障碍（DID）](DID.md)或误指[精神分裂症（Schizophrenia）](Schizophrenia-SZ.md)。本词条旨在辨析该俗称的历史背景、常见误解与沟通建议。
 
 !!! info "免责声明"
     本词条仅用于解释非正式术语，不能替代专业诊断。如有就医需求，请寻求持证医疗人员协助。
@@ -53,14 +53,14 @@ comments: true
 ## 沟通建议
 
 - **确认语境** ：询问对方指的是"身份切换""幻觉妄想"还是"情绪冲突"，再解释对应的正式诊断。
-- **提供教育资源** ：引导阅读 [解离性身份障碍（DID）](DID.md)、[精神分裂症（Schizophrenia）](Schizophrenia-SC.md) 等词条，澄清差异。
+- **提供教育资源** ：引导阅读 [解离性身份障碍（DID）](DID.md)、[精神分裂症（Schizophrenia）](Schizophrenia-SZ.md) 等词条，澄清差异。
 - **尊重自我描述** ：若当事人偏好使用“人格分裂”描述自身体验，可在尊重的同时补充医学术语，协助与医护沟通。
 - **避免污名化** ：提醒媒体或社群频道使用精确语言，减少将暴力、犯罪与“人格分裂”简单连结的报导。
 
 ## 相关条目
 
 - [解离性身份障碍（DID）](DID.md)
-- [精神分裂症（Schizophrenia）](Schizophrenia-SC.md)
+- [精神分裂症（Schizophrenia）](Schizophrenia-SZ.md)
 - [多人格障碍（Multiple Personality Disorder，已过时）](Multiple-Personality-Disorder-Obsolete.md)
 - [解离（Dissociation）](Dissociation.md)
 - [系统（System）](System.md)
