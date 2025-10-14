@@ -57,7 +57,18 @@ updated: 2025-10-07
 |------|------|------|------|
 | `title` | 字符串 | ✅ | 词条标题，应与文件名一致 |
 | `tags` | 数组 | ✅ | 相关标签，用于分类索引 |
-| `updated` | 日期 | ✅ | 最后更新日期（YYYY-MM-DD） |
+| `updated` | 日期 | ✅ | 最后更新日期（YYYY-MM-DD），**由 CI 自动维护** |
+
+!!! info "updated 字段的自动维护"
+
+    `updated` 字段会由 GitHub Actions CI 自动维护：
+
+    - 推送词条修改后，CI 会自动运行 `tools/update_git_timestamps.py` 脚本
+    - 脚本会根据 Git 提交历史自动更新 `updated` 字段
+    - 自动过滤 CI 机器人的提交，仅反映实质性内容修改
+    - **贡献者无需手动更新此字段**，专注于内容编写即可
+
+    详见：[`.github/workflows/update-timestamps.yml`](https://github.com/mps-team-cn/Multiple_personality_system_wiki/blob/main/.github/workflows/update-timestamps.yml)
 
 ### 2.3 标签选择
 
