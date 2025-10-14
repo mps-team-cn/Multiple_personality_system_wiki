@@ -70,13 +70,24 @@ def _generate_recently_updated_html(docs_dir: Path, limit: int = 100) -> str:
         if not updated or not title:
             continue
 
-        # 解析日期
+        # 解析日期 - 支持 str, datetime.date, datetime.datetime
         try:
             if isinstance(updated, str):
+                # 验证字符串格式并解析
                 updated_date = datetime.strptime(updated, "%Y-%m-%d")
-            else:
+            elif isinstance(updated, datetime):
+                # 直接使用 datetime 对象
                 updated_date = updated
-        except Exception:
+            else:
+                # 尝试将 date 对象转换为 datetime
+                from datetime import date
+                if isinstance(updated, date):
+                    updated_date = datetime.combine(updated, datetime.min.time())
+                else:
+                    # 类型不匹配，跳过此词条
+                    continue
+        except (ValueError, TypeError):
+            # 日期格式错误或类型转换失败，跳过此词条
             continue
 
         # 计算相对路径和 URL（使用绝对路径，从根目录开始）
@@ -97,44 +108,8 @@ def _generate_recently_updated_html(docs_dir: Path, limit: int = 100) -> str:
     entries.sort(reverse=True, key=lambda x: x[0])
     entries = entries[:limit]
 
-    # 生成 HTML
-    html_parts = [
-        '<style>',
-        '.recently-updated {',
-        '    display: grid;',
-        '    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));',
-        '    gap: 10px;',
-        '    margin: 0;',
-        '    padding: 16px;',
-        '    border: 1px solid rgba(142, 142, 142, 0.15);',
-        '    border-radius: 4px;',
-        '    font-family: system-ui, sans-serif;',
-        '}',
-        '.recently-updated-item {',
-        '    display: flex;',
-        '    align-items: center;',
-        '}',
-        '.recently-updated-item span {',
-        '    font-size: 0.85em;',
-        '    color: rgba(142, 142, 142, 0.5);',
-        '    margin-right: 8px;',
-        '    flex-shrink: 0;',
-        '    width: 90px;',
-        '}',
-        '.recently-updated-item a {',
-        '    overflow: hidden;',
-        '    text-overflow: ellipsis;',
-        '    white-space: nowrap;',
-        '    color: #0077cc;',
-        '    text-decoration: none;',
-        '    transition: color 0.2s ease;',
-        '}',
-        '.recently-updated-item a:hover {',
-        '    text-decoration: underline;',
-        '}',
-        '</style>',
-        '<div class="recently-updated">',
-    ]
+    # 生成 HTML（样式已提取到 docs/assets/extra-material.css）
+    html_parts = ['<div class="recently-updated">']
 
     for updated_date, title, url in entries:
         date_str = updated_date.strftime("%Y-%m-%d")
