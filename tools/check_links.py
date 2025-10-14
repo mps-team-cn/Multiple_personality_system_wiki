@@ -37,6 +37,47 @@ EXTERNAL_SCHEMES = ("http://", "https://", "//", "ftp://", "ftps://", "mailto:",
 # 锚点前缀
 ANCHOR_PREFIXES = ("#", "#/")
 
+# 排除目录
+EXCLUDE_DIRS = {
+    "node_modules",
+    ".git",
+    "__pycache__",
+    "venv",
+    ".venv",
+    "tools/pdf_export/vendor",
+}
+
+# 排除文件（模板、示例、文档等）
+EXCLUDE_FILES = {
+    # 模板和示例文件
+    "docs/TEMPLATE_ENTRY.md",
+    "docs/404.md",
+    # Contributing 指南
+    "docs/contributing/index.md",
+    "docs/contributing/technical-conventions.md",
+    "docs/contributing/writing-guidelines.md",
+    "docs/contributing/pr-workflow.md",
+    "docs/contributing/academic-citation.md",
+    "docs/contributing/clinical-guidelines.md",
+    # 开发文档
+    "docs/dev/INDEX_GUIDE.md",
+    "docs/dev/MIGRATION_REPORT.md",
+    "docs/dev/IMPROVEMENT_SUGGESTIONS.md",
+    # 工具和计划文档
+    "tools/REFACTORING_PLAN.md",
+    "tools/pdf_export/MIGRATION_NOTES.md",
+    "tools/pdf_export/README_pdf_output.md",
+    "tools/pdf_export/ignore.md",
+    # 元数据文档
+    "docs/changelog.md",
+    # README 文件
+    "docs/tools/README.md",
+    "docs/admin/README.md",
+    "docs/assets/README.md",
+    "docs/assets/uploads/README.md",
+    "tools/deprecated/README.md",
+}
+
 
 def is_image(prefix: str) -> bool:
     """检查是否为图片链接"""
@@ -245,13 +286,28 @@ def validate_link(
         return True, ""
 
 
-def check_file(md_path: Path, repo_root: Path) -> List[Tuple[int, str, str]]:
+def check_file(md_path: Path, repo_root: Path, exclude_files: Set[str] = None) -> List[Tuple[int, str, str]]:
     """
     检查单个 Markdown 文件的链接
+
+    Args:
+        md_path: Markdown 文件路径
+        repo_root: 仓库根目录
+        exclude_files: 排除文件集合
 
     Returns:
         违规列表：[(行号, 目标, 错误信息), ...]
     """
+    exclude_files = exclude_files or EXCLUDE_FILES
+
+    # 检查文件是否在排除列表中
+    try:
+        rel_path_str = str(md_path.relative_to(repo_root)).replace("\\", "/")
+        if rel_path_str in exclude_files:
+            return []
+    except ValueError:
+        pass
+
     violations = []
     source_context = get_file_context(md_path, repo_root)
 
@@ -280,51 +336,8 @@ def check_file(md_path: Path, repo_root: Path) -> List[Tuple[int, str, str]]:
 
 def find_md_files(root: Path, exclude_dirs: Set[str] = None, exclude_files: Set[str] = None) -> List[Path]:
     """查找所有 Markdown 文件"""
-    if exclude_dirs is None:
-        exclude_dirs = {
-            "node_modules",
-            ".git",
-            "__pycache__",
-            "venv",
-            ".venv",
-            "tools/pdf_export/vendor",
-        }
-
-    if exclude_files is None:
-        exclude_files = {
-            # 模板和示例文件（包含示例链接）
-            "docs/TEMPLATE_ENTRY.md",
-            "docs/404.md",
-
-            # Contributing 指南（包含规范和示例）
-            "docs/contributing/index.md",
-            "docs/contributing/technical-conventions.md",
-            "docs/contributing/writing-guidelines.md",
-            "docs/contributing/pr-workflow.md",
-            "docs/contributing/academic-citation.md",
-            "docs/contributing/clinical-guidelines.md",
-
-            # 开发文档（可能包含示例或待完善的链接）
-            "docs/dev/INDEX_GUIDE.md",
-            "docs/dev/MIGRATION_REPORT.md",
-            "docs/dev/IMPROVEMENT_SUGGESTIONS.md",
-
-            # 工具和计划文档
-            "tools/REFACTORING_PLAN.md",
-            "tools/pdf_export/MIGRATION_NOTES.md",
-            "tools/pdf_export/README_pdf_output.md",
-            "tools/pdf_export/ignore.md",
-
-            # 元数据文档
-            "docs/changelog.md",
-
-            # README 文件（通常包含示例或外部链接）
-            "docs/tools/README.md",
-            "docs/admin/README.md",
-            "docs/assets/README.md",
-            "docs/assets/uploads/README.md",
-            "tools/deprecated/README.md",
-        }
+    exclude_dirs = exclude_dirs or EXCLUDE_DIRS
+    exclude_files = exclude_files or EXCLUDE_FILES
 
     md_files = []
     for md in root.rglob("*.md"):
@@ -334,8 +347,7 @@ def find_md_files(root: Path, exclude_dirs: Set[str] = None, exclude_files: Set[
 
         # 检查是否在排除文件列表中
         try:
-            rel_path = md.relative_to(root)
-            rel_path_str = str(rel_path).replace("\\", "/")
+            rel_path_str = str(md.relative_to(root)).replace("\\", "/")
             if rel_path_str in exclude_files:
                 continue
         except ValueError:

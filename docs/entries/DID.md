@@ -157,9 +157,8 @@ DID 的治疗通常遵循分阶段模式：
 ### 多意识体相关
 
 - [系统（System）](System.md)
-- [多意识体系统（MPS）](Multiple_Personality_System.md)
+- [多意识体系统（Multiple Personality System，MPS）](Multiple_Personality_System.md)
 - [混合（Blending）](Blending.md)
-- [多意识体系统基础（MPS Basics）](Mps-Basics.md)
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
 
 ### 身份与性别议题

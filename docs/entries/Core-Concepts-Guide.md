@@ -76,7 +76,7 @@ comments: true
 - **隔阂感** :感受到不属于自己的思维被"塞"入大脑
 - **失忆** :对某段时间或某些事件完全没有记忆
 
-详细了解请参阅：[多意识体系统（MPS）](Multiple_Personality_System.md)、[系统（System）](System.md)
+详细了解请参阅：[多意识体系统（Multiple Personality System，MPS）](Multiple_Personality_System.md)、[系统（System）](System.md)
 
 ---
 
@@ -215,7 +215,7 @@ comments: true
 ### 🔍 核心概念词条
 
 - [解离（Dissociation）](Dissociation.md) - 一切的基础
-- [多意识体系统（MPS）](Multiple_Personality_System.md) - 总体概念
+- [多意识体系统（Multiple Personality System，MPS）](Multiple_Personality_System.md) - 总体概念
 - [系统（System）](System.md) - 系统的定义与运作
 
 ### 🏥 临床诊断相关
@@ -309,7 +309,6 @@ comments: true
 
 ### 🔗 相关词条
 
-- [多意识体系统基础（MPS Basics）](Mps-Basics.md)
 - [系统角色（System Roles）](System-Roles.md)
 - [成员（Alter）](Alter.md)
 - [宿主（Host）](Host.md)
