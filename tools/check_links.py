@@ -340,7 +340,19 @@ def main():
   4. 禁止：绝对路径（如 /docs/entries/DID.md）
 
 详见：docs/contributing/技术约定.md
+
+用法示例：
+  python3 tools/check_links.py                    # 检查整个项目
+  python3 tools/check_links.py docs/entries/      # 检查词条目录
+  python3 tools/check_links.py docs/entries/DID.md  # 检查单个文件
+  python3 tools/check_links.py --root /path/to/repo docs/entries/  # 指定仓库根目录
         """
+    )
+    parser.add_argument(
+        "path",
+        nargs="?",
+        default=None,
+        help="要检查的文件或目录路径（相对于 --root），不指定则检查整个项目"
     )
     parser.add_argument("--root", default=".", help="仓库根目录，默认为当前目录")
     parser.add_argument("--verbose", "-v", action="store_true", help="显示详细信息")
@@ -353,14 +365,34 @@ def main():
         print(f"错误：目录不存在：{repo_root}")
         sys.exit(1)
 
+    # 确定扫描目标
+    if args.path:
+        scan_path = (repo_root / args.path).resolve()
+        if not scan_path.exists():
+            print(f"错误：路径不存在：{args.path}")
+            sys.exit(1)
+    else:
+        scan_path = repo_root
+
     print("=" * 70)
     print("Markdown 链接规范检查")
     print("=" * 70)
-    print(f"扫描目录：{repo_root}")
+    print(f"仓库根目录：{repo_root}")
+    print(f"扫描路径：{scan_path}")
     print()
 
     # 查找所有 Markdown 文件
-    md_files = find_md_files(repo_root)
+    if scan_path.is_file():
+        # 检查单个文件
+        if scan_path.suffix.lower() == ".md":
+            md_files = [scan_path]
+        else:
+            print(f"错误：不是 Markdown 文件：{scan_path}")
+            sys.exit(1)
+    else:
+        # 检查目录
+        md_files = find_md_files(scan_path)
+
     print(f"找到 {len(md_files)} 个 Markdown 文件")
     print()
 

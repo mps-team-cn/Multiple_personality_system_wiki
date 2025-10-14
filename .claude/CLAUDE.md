@@ -45,7 +45,7 @@
 
 ### 自动化工具
 
-- **CI 自动化**：词条修改推送后，GitHub Actions 会自动运行时间戳更新和格式修复，无需手动运行脚本
+- **CI 自动化**：词条修改推送后，GitHub Actions 会自动运行时间戳更新、格式修复和链接检查，无需手动运行脚本
 - 视任务执行 `markdownlint` 校验（可选）
 - 所有 Python 工具默认使用 `python3`
 - 大规模修改前必须确认相关索引、导览同步更新
@@ -107,7 +107,7 @@
 - 会话开始：校验约束 → 工具调用前：确认流程 → 回复前：核对检查清单
 - 词条编辑：检查 Frontmatter → 更新导览（格式和时间戳由 CI 自动处理）
 - 工具修改：同时更新 `docs/tools/README.md`
-- 提交后：CI 会自动运行 `update_git_timestamps.py` 和 `fix_markdown.py`
+- 提交后：CI 会自动运行 `update_git_timestamps.py`、`fix_markdown.py` 和 `check_links.py`（链接检查不通过会阻止提交）
 
 ## 项目知识存储
 
@@ -115,4 +115,4 @@
 
 - **关键概念**：Plurality、多重意识体；Docsify→MkDocs 迁移；Frontmatter；Conventional Commits；CI 自动化
 - **重要路径**：`docs/contributing/`、`docs/TEMPLATE_ENTRY.md`、`docs/entries/`、`tools/`、`docs/tools/README.md`、`.github/workflows/`
-- **CI 自动化**：推送词条修改后，GitHub Actions 自动运行 `update_git_timestamps.py` 和 `fix_markdown.py`，然后触发 Cloudflare Pages 部署
+- **CI 自动化**：推送词条修改后，GitHub Actions 自动运行 `update_git_timestamps.py`、`fix_markdown.py` 和 `check_links.py`（链接检查不通过会阻止提交），然后触发 Cloudflare Pages 部署
