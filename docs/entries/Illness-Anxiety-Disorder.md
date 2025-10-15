@@ -1,5 +1,6 @@
 ---
 tags:
+
 - 诊断与临床
 - 躯体症状
 - 焦虑
@@ -28,7 +29,7 @@ comments: true
 
 ## 概述
 
-疾病焦虑障碍是一种以 **对患有严重疾病的过度担忧和焦虑** 为核心特征的[躯体症状及相关障碍(Somatic Symptom and Related Disorders)](Somatic-Symptom-Disorder-SSD.md)。患者即使在躯体检查和医学评估显示正常的情况下,仍持续确信或严重担心自己患有或即将患上严重疾病。这种焦虑显著影响日常功能,并导致反复就医或回避医疗行为。
+疾病焦虑障碍是一种以 **对患有严重疾病的过度担忧和焦虑** 为核心特征的[躯体症状及相关障碍（Somatic Symptom and Related Disorders）](Somatic-Symptom-Disorder-SSD.md)。患者即使在躯体检查和医学评估显示正常的情况下,仍持续确信或严重担心自己患有或即将患上严重疾病。这种焦虑显著影响日常功能,并导致反复就医或回避医疗行为。
 
 DSM-5-TR 将疾病焦虑障碍从 DSM-IV 的"疑病症"概念中分离出来,强调 **疾病恐惧** 而非躯体症状本身。约 1-2% 的门诊患者可能符合此诊断,男女比例大致相当,症状通常在成年早期或中期显现。
 
@@ -45,8 +46,8 @@ DSM-5-TR 将疾病焦虑障碍从 DSM-IV 的"疑病症"概念中分离出来,强
     - **回避型(care-avoidant type)**:因恐惧确诊而回避医疗预约、体检或医院环境。
 - **持续时间**:症状至少持续 6 个月,但担心的具体疾病可能变化。
 - **排除标准**:
-    - 焦虑不能用其他精神障碍(如[广泛性焦虑障碍(GAD)](Generalized-Anxiety-Disorder-GAD.md)、[强迫症(OCD)](OCD.md)、[惊恐障碍(Panic Disorder)](Panic-Disorder.md)、[分离焦虑障碍](Anxiety-Disorders.md))更好解释。
-    - 不存在显著的躯体症状;若存在躯体症状,应考虑[躯体症状障碍(SSD)](Somatic-Symptom-Disorder-SSD.md)。
+    - 焦虑不能用其他精神障碍(如[广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md)、[强迫症（OCD）](OCD.md)、[惊恐障碍（Panic Disorder）](Panic-Disorder.md)、[分离焦虑障碍](Anxiety-Disorders.md))更好解释。
+    - 不存在显著的躯体症状;若存在躯体症状,应考虑[躯体症状障碍（SSD）](Somatic-Symptom-Disorder-SSD.md)。
 
 ### ICD-11 对应
 
@@ -81,7 +82,7 @@ ICD-11 将疾病焦虑障碍归类在 **躯体痛苦及相关障碍(Disorders sp
     - 家庭关系紧张:反复寻求家人保证或因健康担忧引发冲突。
 
 - **共病症状**:
-    - 可能合并[抑郁障碍(Depressive Disorders)](Depressive-Disorders.md)、[强迫症(OCD)](OCD.md)(特别是污染/疾病相关强迫思维)、[惊恐发作(Panic Attack)](Panic-Attack.md)。
+    - 可能合并[抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)、[强迫症（OCD）](OCD.md)(特别是污染/疾病相关强迫思维)、[惊恐发作（Panic Attack）](Panic-Attack.md)。
 
 ---
 
@@ -97,7 +98,7 @@ ICD-11 将疾病焦虑障碍归类在 **躯体痛苦及相关障碍(Disorders sp
 
 - **生物学因素**:
     - 神经影像学研究显示,IAD 患者在处理健康相关信息时,杏仁核与前额叶皮层的激活模式异常,类似于其他焦虑障碍。
-    - 可能存在[焦虑障碍(Anxiety Disorders)](Anxiety-Disorders.md)的遗传易感性。
+    - 可能存在[焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)的遗传易感性。
 
 ---
 
@@ -112,19 +113,19 @@ ICD-11 将疾病焦虑障碍归类在 **躯体痛苦及相关障碍(Disorders sp
 
 ## 鉴别诊断
 
-- [**躯体症状障碍(SSD)**](Somatic-Symptom-Disorder-SSD.md):存在显著的躯体症状,并对症状本身过度关注;IAD 的核心是 **疾病恐惧** 而非症状本身。
+- [**躯体症状障碍（SSD）**](Somatic-Symptom-Disorder-SSD.md):存在显著的躯体症状,并对症状本身过度关注;IAD 的核心是 **疾病恐惧** 而非症状本身。
 
-- [**广泛性焦虑障碍(GAD)**](Generalized-Anxiety-Disorder-GAD.md):焦虑涉及多个生活领域(工作、家庭、财务等),不限于健康;IAD 的担忧 **特定于疾病**。
+- [**广泛性焦虑障碍（GAD）**](Generalized-Anxiety-Disorder-GAD.md):焦虑涉及多个生活领域(工作、家庭、财务等),不限于健康;IAD 的担忧 **特定于疾病**。
 
-- [**强迫症(OCD)**](OCD.md):可能存在污染/疾病相关强迫思维与仪式化行为(如反复洗手),但 OCD 的强迫行为更具仪式性;IAD 的行为主要是 **寻求医学保证**。
+- [**强迫症（OCD）**](OCD.md):可能存在污染/疾病相关强迫思维与仪式化行为(如反复洗手),但 OCD 的强迫行为更具仪式性;IAD 的行为主要是 **寻求医学保证**。
 
-- [**惊恐障碍(Panic Disorder)**](Panic-Disorder.md):惊恐发作时的躯体症状可能被误认为心脏病等,但惊恐发作是 **急性发作性** 的,IAD 的焦虑是 **持续性** 的。
+- [**惊恐障碍（Panic Disorder）**](Panic-Disorder.md):惊恐发作时的躯体症状可能被误认为心脏病等,但惊恐发作是 **急性发作性** 的,IAD 的焦虑是 **持续性** 的。
 
 - **真实躯体疾病**:需通过系统医学评估排除器质性病变;但即使存在轻度躯体疾病,如果焦虑程度远超医学严重性,仍可诊断 IAD。
 
 - [**妄想障碍（Delusional Disorder）**](Delusional-Disorder.md):疾病信念达到妄想程度(完全不可动摇、脱离现实),需考虑精神病性障碍;IAD 患者通常对医学证据保留一定认知灵活性。
 
-- [**人格解体/现实解体障碍(DPDR)**](Depersonalization-Derealization-Disorder-DPDR.md):躯体感觉异常可能引发对健康的担忧,但 DPDR 的核心是 **自我感与现实感的改变**,而非疾病恐惧。
+- [**人格解体/现实解体障碍（DPDR）**](Depersonalization-Derealization-Disorder-DPDR.md):躯体感觉异常可能引发对健康的担忧,但 DPDR 的核心是 **自我感与现实感的改变**,而非疾病恐惧。
 
 ---
 
@@ -133,21 +134,21 @@ ICD-11 将疾病焦虑障碍归类在 **躯体痛苦及相关障碍(Disorders sp
 ### 常见共病
 
 - **焦虑谱系障碍**:
-    - [广泛性焦虑障碍(GAD)](Generalized-Anxiety-Disorder-GAD.md):约 30-50% 的 IAD 患者共病 GAD。
-    - [强迫症(OCD)](OCD.md):特别是污染/疾病相关主题的强迫思维。
-    - [社交焦虑障碍(SAD)](Social-Anxiety-Disorder.md):因担心在他人面前表现出病态而回避社交。
+    - [广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md):约 30-50% 的 IAD 患者共病 GAD。
+    - [强迫症（OCD）](OCD.md):特别是污染/疾病相关主题的强迫思维。
+    - [社交焦虑障碍（SAD）](Social-Anxiety-Disorder.md):因担心在他人面前表现出病态而回避社交。
 
 - **心境障碍**:
-    - [重性抑郁障碍(MDD)](Major-Depressive-Disorder-MDD.md):慢性健康焦虑可能导致抑郁,抑郁也可能放大健康担忧。
+    - [重性抑郁障碍（MDD）](Major-Depressive-Disorder-MDD.md):慢性健康焦虑可能导致抑郁,抑郁也可能放大健康担忧。
 
 - **躯体化倾向**:
-    - [躯体症状障碍(SSD)](Somatic-Symptom-Disorder-SSD.md):两者可能在同一个体中不同时期表现不同。
+    - [躯体症状障碍（SSD）](Somatic-Symptom-Disorder-SSD.md):两者可能在同一个体中不同时期表现不同。
 
 - **身心整合诊断**:
     - [影响其他躯体疾病的心理因素（PFAOMC）](Psychological-Factors-Affecting-Other-Medical-Conditions.md):当健康焦虑导致治疗依从性下降或加剧既有躯体疾病病程时,需评估是否符合 PFAOMC,以便与躯体专科协同管理。
 
 - **人格特质**:
-    - [强迫型人格障碍(OCPD)](Obsessive-Compulsive-Personality-Disorder-OCPD.md):完美主义、过度控制倾向可能加剧健康监控行为。
+    - [强迫型人格障碍（OCPD）](Obsessive-Compulsive-Personality-Disorder-OCPD.md):完美主义、过度控制倾向可能加剧健康监控行为。
 
 ### 风险管理重点
 
@@ -164,7 +165,7 @@ IAD 的治疗以心理治疗为主,药物治疗为辅:
 
 ### 1. 心理治疗
 
-- [**认知行为疗法(CBT)**](Trauma.md):
+- [**认知行为疗法（CBT）**](Trauma.md):
     - **认知重构**:识别与挑战灾难性思维("心跳快=心脏病"→"心跳快可能是焦虑反应")。
     - **行为实验**:通过逐步减少安全行为(如减少就医频率、停止自我检查)来检验疾病信念。
     - **暴露疗法**:逐步暴露于健康相关恐惧情境(如阅读疾病信息而不寻求保证、进入医院而不就诊)。
@@ -202,7 +203,7 @@ IAD 的治疗以心理治疗为主,药物治疗为辅:
 
 - **社群经验**:
     - 多意识体系统中,不同成员可能对健康的担忧程度不同,需协调内部对医疗的态度。
-    - 通过内部沟通,识别哪些成员过度担忧健康,建立内部[接地(Grounding)](Grounding.md)技巧。
+    - 通过内部沟通,识别哪些成员过度担忧健康,建立内部[接地（Grounding）](Grounding.md)技巧。
 
 - **临床观点**:
     - 治疗师应避免过度医疗化患者的担忧,同时尊重其躯体体验。
@@ -218,26 +219,26 @@ IAD 的治疗以心理治疗为主,药物治疗为辅:
 
 ### 躯体症状相关
 
-- [躯体症状障碍(SSD)](Somatic-Symptom-Disorder-SSD.md)
-- [功能性神经症状障碍/转换障碍(FND)](Conversion-Disorder-FND.md)
-- [慢性疼痛(Chronic Pain)](Chronic-Pain.md)
+- [躯体症状障碍（SSD）](Somatic-Symptom-Disorder-SSD.md)
+- [功能性神经症状障碍/转换障碍（FND）](Conversion-Disorder-FND.md)
+- [慢性疼痛（Chronic Pain）](Chronic-Pain.md)
 
 ### 焦虑谱系
 
-- [焦虑障碍总览(Anxiety Disorders)](Anxiety-Disorders.md)
-- [广泛性焦虑障碍(GAD)](Generalized-Anxiety-Disorder-GAD.md)
-- [强迫症(OCD)](OCD.md)
-- [惊恐障碍(Panic Disorder)](Panic-Disorder.md)
+- [焦虑障碍总览（Anxiety Disorders）](Anxiety-Disorders.md)
+- [广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md)
+- [强迫症（OCD）](OCD.md)
+- [惊恐障碍（Panic Disorder）](Panic-Disorder.md)
 
 ### 心境障碍
 
-- [重性抑郁障碍(MDD)](Major-Depressive-Disorder-MDD.md)
-- [抑郁障碍(Depressive Disorders)](Depressive-Disorders.md)
+- [重性抑郁障碍（MDD）](Major-Depressive-Disorder-MDD.md)
+- [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
 
 ### 解离相关
 
-- [人格解体/现实解体障碍(DPDR)](Depersonalization-Derealization-Disorder-DPDR.md)
-- [解离障碍(Dissociative Disorders)](Dissociative-Disorders.md)
+- [人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
 
 ---
 

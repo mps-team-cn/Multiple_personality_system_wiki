@@ -1,5 +1,6 @@
 ---
 tags:
+
 - 诊断与临床
 - 躯体症状
 - 心身医学
@@ -49,8 +50,8 @@ comments: true
 - **心理因素的影响显著**:不仅是轻微或偶然的影响,而是 **持续且可观察** 的负面作用。
 
 - **排除标准**:
-    - 心理因素不能用其他精神障碍(如[重性抑郁障碍(MDD)](Major-Depressive-Disorder-MDD.md)、[焦虑障碍](Anxiety-Disorders.md))更好解释;但可与这些障碍共病,只要心理因素的影响 **超出** 精神障碍本身的预期效应。
-    - 不是[躯体症状障碍(SSD)](Somatic-Symptom-Disorder-SSD.md)或[疾病焦虑障碍(IAD)](Illness-Anxiety-Disorder.md):PFAOMC 聚焦于心理因素对 **已存在的躯体疾病** 的影响,而非对躯体症状或疾病恐惧的过度反应。
+    - 心理因素不能用其他精神障碍(如[重性抑郁障碍（MDD）](Major-Depressive-Disorder-MDD.md)、[焦虑障碍](Anxiety-Disorders.md))更好解释;但可与这些障碍共病,只要心理因素的影响 **超出** 精神障碍本身的预期效应。
+    - 不是[躯体症状障碍（SSD）](Somatic-Symptom-Disorder-SSD.md)或[疾病焦虑障碍（IAD）](Illness-Anxiety-Disorder.md):PFAOMC 聚焦于心理因素对 **已存在的躯体疾病** 的影响,而非对躯体症状或疾病恐惧的过度反应。
 
 ### ICD-11 对应
 
@@ -122,12 +123,12 @@ ICD-11 中没有完全对应的单一诊断类别,但相关概念分布在:
 ### 心理社会因素
 
 - **创伤与应激**:
-    - 童年期逆境经历([创伤(Trauma)](Trauma.md)、虐待、忽视)增加成年期慢性疾病风险。
+    - 童年期逆境经历([创伤（Trauma）](Trauma.md)、虐待、忽视)增加成年期慢性疾病风险。
     - 重大生活事件(如丧亲、失业、离婚)可能触发或加重躯体症状。
 
 - **人格特质**:
     - A 型人格(敌意、时间紧迫感)与心血管疾病相关。
-    - [强迫型人格(OCPD)](Obsessive-Compulsive-Personality-Disorder-OCPD.md)的完美主义可能导致过度工作与疾病忽视。
+    - [强迫型人格（OCPD）](Obsessive-Compulsive-Personality-Disorder-OCPD.md)的完美主义可能导致过度工作与疾病忽视。
 
 - **社会支持缺乏**:
     - 孤立、缺乏情感支持的患者疾病预后更差,死亡率更高。
@@ -147,19 +148,19 @@ ICD-11 中没有完全对应的单一诊断类别,但相关概念分布在:
 
 ## 鉴别诊断
 
-- [**躯体症状障碍(SSD)**](Somatic-Symptom-Disorder-SSD.md):聚焦于对 **躯体症状本身的过度关注与痛苦**,症状可能无充分医学解释;PFAOMC 的核心是心理因素对 **已明确诊断的躯体疾病** 的影响。
+- [**躯体症状障碍（SSD）**](Somatic-Symptom-Disorder-SSD.md):聚焦于对 **躯体症状本身的过度关注与痛苦**,症状可能无充分医学解释;PFAOMC 的核心是心理因素对 **已明确诊断的躯体疾病** 的影响。
 
-- [**疾病焦虑障碍(IAD)**](Illness-Anxiety-Disorder.md):过度担心患有严重疾病,即使医学检查正常;PFAOMC 患者 **已确诊** 躯体疾病,焦虑可能存在但不是诊断核心。
+- [**疾病焦虑障碍（IAD）**](Illness-Anxiety-Disorder.md):过度担心患有严重疾病,即使医学检查正常;PFAOMC 患者 **已确诊** 躯体疾病,焦虑可能存在但不是诊断核心。
 
-- [**适应障碍(Adjustment Disorders)**](Adjustment-Disorders.md):对应激源(如疾病诊断)的心理反应,但不一定影响疾病本身的病程或管理。
+- [**适应障碍（Adjustment Disorders）**](Adjustment-Disorders.md):对应激源(如疾病诊断)的心理反应,但不一定影响疾病本身的病程或管理。
 
 - **精神障碍共病**:
-    - [重性抑郁障碍(MDD)](Major-Depressive-Disorder-MDD.md)、[广泛性焦虑障碍(GAD)](Generalized-Anxiety-Disorder-GAD.md)等可能与 PFAOMC 共病;需评估心理因素的影响是否 **超出** 精神障碍本身的预期效应。
+    - [重性抑郁障碍（MDD）](Major-Depressive-Disorder-MDD.md)、[广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md)等可能与 PFAOMC 共病;需评估心理因素的影响是否 **超出** 精神障碍本身的预期效应。
 
-- [**功能性神经症状障碍/转换障碍(FND)**](Conversion-Disorder-FND.md):神经症状(如瘫痪、失明)不能用神经系统疾病解释;PFAOMC 的躯体疾病是 **器质性** 的。
+- [**功能性神经症状障碍/转换障碍（FND）**](Conversion-Disorder-FND.md):神经症状(如瘫痪、失明)不能用神经系统疾病解释;PFAOMC 的躯体疾病是 **器质性** 的。
 
 - **物质诱发**:
-    - [物质使用障碍(SUD)](Substance-Use-Disorders-SUD.md)可能直接导致躯体疾病(如酒精性肝病),而非通过心理因素间接影响。
+    - [物质使用障碍（SUD）](Substance-Use-Disorders-SUD.md)可能直接导致躯体疾病(如酒精性肝病),而非通过心理因素间接影响。
 
 ---
 
@@ -168,25 +169,25 @@ ICD-11 中没有完全对应的单一诊断类别,但相关概念分布在:
 ### 常见共病
 
 - **抑郁障碍**:
-    - [重性抑郁障碍(MDD)](Major-Depressive-Disorder-MDD.md):在慢性疾病人群中患病率可达 20-40%,显著影响治疗依从性与生活质量。
-    - [持续性抑郁障碍(PDD)](Persistent-Depressive-Disorder-PDD.md):慢性低落情绪与疾病负担相互强化。
+    - [重性抑郁障碍（MDD）](Major-Depressive-Disorder-MDD.md):在慢性疾病人群中患病率可达 20-40%,显著影响治疗依从性与生活质量。
+    - [持续性抑郁障碍（PDD）](Persistent-Depressive-Disorder-PDD.md):慢性低落情绪与疾病负担相互强化。
 
 - **焦虑障碍**:
-    - [广泛性焦虑障碍(GAD)](Generalized-Anxiety-Disorder-GAD.md):慢性担忧加剧疾病管理压力。
-    - [惊恐障碍(Panic Disorder)](Panic-Disorder.md):躯体症状可能被误认为疾病恶化,反向加重焦虑。
+    - [广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md):慢性担忧加剧疾病管理压力。
+    - [惊恐障碍（Panic Disorder）](Panic-Disorder.md):躯体症状可能被误认为疾病恶化,反向加重焦虑。
 
 - **躯体症状及相关障碍**:
     - [疾病焦虑障碍(IAD)](Illness-Anxiety-Disorder.md):对疾病的灾难化担忧可能进一步削弱治疗依从性,需与 PFAOMC 联合管理健康风险。
 
 - **创伤相关障碍**:
-    - [创伤后应激障碍(PTSD)](PTSD.md) / [复杂创伤后应激障碍(CPTSD)](CPTSD.md):创伤史患者更易出现慢性疼痛、自身免疫病等。
+    - [创伤后应激障碍（PTSD）](PTSD.md) / [复杂创伤后应激障碍（CPTSD）](CPTSD.md):创伤史患者更易出现慢性疼痛、自身免疫病等。
 
 - **物质使用障碍**:
     - [酒精使用障碍](Substance-Use-Disorders-SUD.md)、[烟草依赖](Substance-Use-Disorders-SUD.md):直接损害躯体健康并干扰治疗。
 
 - **人格特质或障碍**:
-    - [边缘性人格障碍(BPD)](Borderline-Personality-Disorder-BPD.md):情绪不稳定与冲动行为影响疾病管理。
-    - [强迫型人格障碍(OCPD)](Obsessive-Compulsive-Personality-Disorder-OCPD.md):完美主义可能导致过度控制或治疗拒绝。
+    - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md):情绪不稳定与冲动行为影响疾病管理。
+    - [强迫型人格障碍（OCPD）](Obsessive-Compulsive-Personality-Disorder-OCPD.md):完美主义可能导致过度控制或治疗拒绝。
 
 ### 风险管理重点
 
@@ -214,7 +215,7 @@ PFAOMC 的治疗需要 **心身整合** 的综合干预:
 
 ### 1. 心理治疗
 
-- [**认知行为疗法(CBT)**](Trauma.md):
+- [**认知行为疗法（CBT）**](Trauma.md):
     - **认知重构**:识别与修正对疾病的灾难化思维或治疗抗拒信念。
     - **行为激活**:逐步恢复健康行为(如规律服药、运动、社交)。
     - **问题解决训练**:帮助患者应对疾病管理中的实际困难(如药物副作用、经济压力)。
@@ -227,12 +228,12 @@ PFAOMC 的治疗需要 **心身整合** 的综合干预:
     - 减轻慢性疼痛、改善情绪调节、降低应激反应。
 
 - **创伤聚焦治疗**:
-    - 针对创伤史患者,使用[EMDR](Eye-Movement-Desensitization-Reprocessing-EMDR.md)、[创伤焦点认知行为疗法(TF-CBT)](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md)等方法处理创伤记忆。
+    - 针对创伤史患者,使用[EMDR](Eye-Movement-Desensitization-Reprocessing-EMDR.md)、[创伤焦点认知行为疗法（TF-CBT）](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md)等方法处理创伤记忆。
 
 ### 2. 药物治疗
 
 - **抗抑郁药物**:
-    - **SSRIs**(如舍曲林、艾司西酞普兰)或**SNRIs**(如度洛西汀):用于治疗共病抑郁/焦虑,也可能缓解慢性疼痛。
+    - **SSRIs**(如舍曲林、艾司西酞普兰)或 **SNRIs**(如度洛西汀):用于治疗共病抑郁/焦虑,也可能缓解慢性疼痛。
     - 需注意与躯体疾病用药的相互作用(如 SSRIs 与抗凝药并用增加出血风险)。
 
 - **其他辅助药物**:
@@ -279,7 +280,7 @@ PFAOMC 的治疗需要 **心身整合** 的综合干预:
 - **多意识体系统背景**:
     - 不同成员对躯体疾病的认知与应对方式可能差异显著(如某些成员否认疾病,某些成员过度焦虑)。
     - 需通过内部沟通协调治疗态度,建立统一的疾病管理计划(如用药提醒、日程安排)。
-    - [内部自助者(ISH)](Internal-Self-Helper-ISH.md)可在疾病管理中发挥协调作用。
+    - [内部自助者（ISH）](Internal-Self-Helper-ISH.md)可在疾病管理中发挥协调作用。
 
 - **临床观点**:
     - 心身医学强调"生物-心理-社会"整体视角,避免将躯体与心理割裂。
@@ -295,32 +296,32 @@ PFAOMC 的治疗需要 **心身整合** 的综合干预:
 
 ### 躯体症状相关
 
-- [躯体症状障碍(SSD)](Somatic-Symptom-Disorder-SSD.md)
-- [疾病焦虑障碍(IAD)](Illness-Anxiety-Disorder.md)
-- [功能性神经症状障碍/转换障碍(FND)](Conversion-Disorder-FND.md)
-- [慢性疼痛(Chronic Pain)](Chronic-Pain.md)
+- [躯体症状障碍（SSD）](Somatic-Symptom-Disorder-SSD.md)
+- [疾病焦虑障碍（IAD）](Illness-Anxiety-Disorder.md)
+- [功能性神经症状障碍/转换障碍（FND）](Conversion-Disorder-FND.md)
+- [慢性疼痛（Chronic Pain）](Chronic-Pain.md)
 
 ### 心境与焦虑障碍
 
-- [重性抑郁障碍(MDD)](Major-Depressive-Disorder-MDD.md)
-- [持续性抑郁障碍(PDD)](Persistent-Depressive-Disorder-PDD.md)
-- [广泛性焦虑障碍(GAD)](Generalized-Anxiety-Disorder-GAD.md)
-- [焦虑障碍总览(Anxiety Disorders)](Anxiety-Disorders.md)
+- [重性抑郁障碍（MDD）](Major-Depressive-Disorder-MDD.md)
+- [持续性抑郁障碍（PDD）](Persistent-Depressive-Disorder-PDD.md)
+- [广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md)
+- [焦虑障碍总览（Anxiety Disorders）](Anxiety-Disorders.md)
 
 ### 创伤相关
 
-- [创伤(Trauma)](Trauma.md)
-- [创伤后应激障碍(PTSD)](PTSD.md)
-- [复杂创伤后应激障碍(CPTSD)](CPTSD.md)
+- [创伤（Trauma）](Trauma.md)
+- [创伤后应激障碍（PTSD）](PTSD.md)
+- [复杂创伤后应激障碍（CPTSD）](CPTSD.md)
 
 ### 物质使用
 
-- [物质使用障碍(SUD)](Substance-Use-Disorders-SUD.md)
+- [物质使用障碍（SUD）](Substance-Use-Disorders-SUD.md)
 
 ### 人格障碍
 
-- [边缘性人格障碍(BPD)](Borderline-Personality-Disorder-BPD.md)
-- [强迫型人格障碍(OCPD)](Obsessive-Compulsive-Personality-Disorder-OCPD.md)
+- [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)
+- [强迫型人格障碍（OCPD）](Obsessive-Compulsive-Personality-Disorder-OCPD.md)
 
 ---
 
