@@ -171,4 +171,4 @@ ICD-11 与 DSM-5-TR 的核心诊断标准高度一致，均强调丢弃困难、
 2. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.)*.
 3. Frost, R. O., & Steketee, G. (2014). *The Oxford Handbook of Hoarding and Acquiring*.
 4. Tolin, D. F., Frost, R. O., & Steketee, G. (2007). *Buried in Treasures: Help for Compulsive Acquiring, Saving, and Hoarding*.
-5. International OCD Foundation. (n.d.). *Hoarding Disorder Resources*. https://hoarding.iocdf.org/
+5. International OCD Foundation. (n.d.). *Hoarding Disorder Resources*. [https://hoarding.iocdf.org/](https://hoarding.iocdf.org/)

@@ -183,4 +183,4 @@ ICD-11 与 DSM-5-TR 的核心诊断标准高度一致，均强调反复抓挖、
 2. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.)*.
 3. Grant, J. E., Odlaug, B. L., & Chamberlain, S. R. (2011). A cognitive comparison of pathological skin picking and trichotillomania. *Journal of Psychiatric Research*, 45(12), 1634-1638.
 4. Snorrason, I., Belleau, E. L., & Woods, D. W. (2012). How related are hair pulling disorder (trichotillomania) and skin picking disorder? A review of evidence for comorbidity, similarities and shared etiology. *Clinical Psychology Review*, 32(7), 618-629.
-5. The TLC Foundation for Body-Focused Repetitive Behaviors. (n.d.). https://www.bfrb.org/
+5. The TLC Foundation for Body-Focused Repetitive Behaviors. (n.d.). [https://www.bfrb.org/](https://www.bfrb.org/)

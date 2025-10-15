@@ -179,4 +179,4 @@ ICD-11 与 DSM-5-TR 的核心诊断标准高度一致，均强调反复拔毛、
 2. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.)*.
 3. Grant, J. E., & Chamberlain, S. R. (2016). Trichotillomania. *American Journal of Psychiatry*, 173(9), 868-874.
 4. Woods, D. W., & Houghton, D. C. (2014). Diagnosis, evaluation, and management of trichotillomania. *Psychiatric Clinics of North America*, 37(3), 301-317.
-5. The TLC Foundation for Body-Focused Repetitive Behaviors. (n.d.). https://www.bfrb.org/
+5. The TLC Foundation for Body-Focused Repetitive Behaviors. (n.d.). [https://www.bfrb.org/](https://www.bfrb.org/)
