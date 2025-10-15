@@ -38,11 +38,11 @@ comments: true
 
 ## 2. 精神分裂症谱系及其他精神病性障碍
 
- - [x] Delusional-Disorder.md
-- [ ] Brief-Psychotic-Disorder.md
+- [x] Delusional-Disorder.md
+- [x] Brief-Psychotic-Disorder.md
 - [ ] Schizophreniform-Disorder.md
 - [x] Schizophrenia-SZ.md
-- [ ] Schizoaffective-Disorder.md
+- [x] Schizoaffective-Disorder.md
 - [ ] Substance-Medication-Induced-Psychotic-Disorder.md
 - [ ] Psychotic-Disorder-Due-to-Another-Medical-Condition.md
 - [ ] Catatonia.md

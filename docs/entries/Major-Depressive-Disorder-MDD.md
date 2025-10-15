@@ -71,6 +71,86 @@ DSM-5-TR 要求至少 5 项症状且必须包括核心症状，并提供详细�
 
 ---
 
+## 说明子类型
+
+DSM-5-TR 为重性抑郁障碍提供多个说明子类型，用于描述当前发作的特定临床特征。以下是两个临床上最常见且重要的子类型：
+
+### 伴焦虑困扰（With Anxious Distress）
+
+当抑郁发作伴随显著的焦虑症状时，可使用此说明。^[6]^ **伴焦虑困扰不等同于共病焦虑障碍**，而是描述当前抑郁发作期间出现的焦虑症状。
+
+**诊断标准**：在当前抑郁发作期间，至少出现以下 2 项焦虑症状：
+
+1. 感到紧张不安或处于紧张状态
+2. 感到异常的不安或焦躁
+3. 由于担心而难以集中注意力
+4. 害怕可能会发生可怕的事情
+5. 感到自己可能会失去控制
+
+根据症状数量，焦虑困扰可分为：
+
+- **轻度**：2 项症状
+- **中度**：3 项症状
+- **重度**：4–5 项症状
+
+**临床意义**：
+
+- **治疗反应**：伴焦虑困扰的 MDD 患者对抗抑郁药物的反应可能较慢，治疗时间可能需要延长。
+- **功能损害**：焦虑与抑郁的叠加会导致更严重的社会、职业功能受损。
+- **自杀风险**：伴焦虑困扰者自杀意念和自杀企图的风险显著增加，需要密切监测。
+- **病程预后**：这类患者复发率较高，慢性化风险增加。
+- **治疗策略**：可能需要联合使用抗抑郁药物和抗焦虑药物（如苯二氮䓬类短期使用），或选择对焦虑和抑郁均有效的药物（如 SNRIs）。心理治疗可结合 CBT 的焦虑管理技术。
+
+**流行病学**：约 45%–60% 的 MDD 患者在当前发作中伴有显著的焦虑困扰。^[6][7]^
+
+### 伴精神病性特征（With Psychotic Features）
+
+当抑郁发作期间出现妄想、幻觉或其他精神病性症状时，使用此说明。^[6]^ 这代表 MDD 的严重形式，需要更积极的治疗干预。
+
+**诊断标准**：在当前抑郁发作期间出现以下至少一项：
+
+1. **妄想**：坚定持有的错误信念，不受证据或逻辑影响
+2. **幻觉**：无外部刺激的感知体验（听觉、视觉、触觉等）
+
+精神病性特征可进一步分为：
+
+- **心境一致性精神病性特征**：精神病性症状的内容与抑郁主题一致
+    - 罪恶感妄想（如认为自己犯下不可饶恕的罪行）
+    - 虚无妄想（如认为自己的器官正在腐烂或消失）
+    - 躯体疾病妄想（如认为自己患有严重或不治之症）
+    - 贫穷妄想（如认为自己一贫如洗）
+    - 谴责性幻听（如听到声音批评、辱骂或命令自杀）
+- **心境不一致性精神病性特征**：精神病性症状的内容与抑郁主题无关
+    - 被害妄想（如认为有人要伤害自己）
+    - 关系妄想（如认为电视或报纸在传递针对自己的信息）
+    - 思维播散、思维插入或思维被夺
+    - 无情感内容的幻听
+
+**临床意义**：
+
+- **严重度**：伴精神病性特征的 MDD 代表最严重的抑郁形式之一，功能损害极重。
+- **自杀风险**：自杀风险极高，尤其是出现命令性幻听（命令患者自杀）或强烈的罪恶感妄想时。
+- **住院治疗**：通常需要精神科住院治疗以确保安全和提供密集监护。
+- **治疗策略**：需要联合使用抗抑郁药物和抗精神病药物（如喹硫平、利培酮、奥氮平）。单独使用抗抑郁药通常无效。对于难治性病例，可能需要考虑电休克治疗（ECT），ECT 对伴精神病性特征的 MDD 疗效显著。^[8]^
+- **鉴别诊断**：需要与精神分裂症、[分裂情感性障碍（Schizoaffective Disorder）](Schizoaffective-Disorder.md)、双相障碍伴精神病性特征等鉴别。关键在于精神病性症状只在抑郁发作期间出现，心境症状缓解后精神病性症状应随之消失。
+- **预后**：这类患者的复发风险高，后续发作中再次出现精神病性特征的可能性较大。需要长期维持治疗和密切随访。
+
+**流行病学**：约 10%–20% 的住院 MDD 患者伴有精神病性特征；社区样本中比例较低，约 0.4%–2%。^[6][8][9]^
+
+### 其他说明子类型
+
+DSM-5-TR 还包括以下说明子类型（简要介绍）：
+
+- **伴忧郁特征**：显著的快感缺失、晨重暮轻、早醒、显著的精神运动性改变、食欲减退或体重下降、过度或不恰当的罪恶感。
+- **伴非典型特征**：心境反应性、显著的体重增加或食欲增加、嗜睡、肢体沉重感、对人际拒绝的持久敏感性。
+- **伴紧张症特征**：运动异常，如僵住、蜡样屈曲、缄默、刻板动作等。
+- **伴围产期起病**：发作开始于妊娠期或产后 4 周内。
+- **伴季节性模式**：发作呈规律性季节性模式（如秋冬季发作，春夏季缓解）。
+
+这些子类型在临床实践中用于指导治疗选择和预后评估。
+
+---
+
 ## 临床表现
 
 - **情绪与认知**：持续悲伤、空虚、绝望、兴趣丧失、无价值感、过度自责、注意力难以集中、决策困难、自杀意念。
@@ -149,13 +229,25 @@ MDD 的治疗以 **药物治疗、心理治疗与综合策略** 为核心：
 
 ## 相关条目
 
+### 抑郁与心境障碍
+
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
 - [持续性抑郁障碍（Persistent Depressive Disorder, PDD）](Persistent-Depressive-Disorder-PDD.md)
 - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
 - [心境障碍（Affective Disorders）](Affective-Disorders.md)
+
+### 共病与相关障碍
+
 - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
+- [广泛性焦虑障碍（Generalized Anxiety Disorder, GAD）](Generalized-Anxiety-Disorder-GAD.md)
+- [社交焦虑障碍（Social Anxiety Disorder）](Social-Anxiety-Disorder.md)
 - [创伤后应激障碍（PTSD）](PTSD.md)
 - [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)
+
+### 精神病性障碍与鉴别诊断
+
+- [分裂情感性障碍（Schizoaffective Disorder）](Schizoaffective-Disorder.md)
+- [短暂精神病性障碍（Brief Psychotic Disorder）](Brief-Psychotic-Disorder.md)
 
 ---
 
@@ -166,3 +258,7 @@ MDD 的治疗以 **药物治疗、心理治疗与综合策略** 为核心：
 3. Kessler, R. C., et al. (2012). The epidemiology of major depressive disorder. *Dialogues in Clinical Neuroscience*, 14(1), 7–20.
 4. Cuijpers, P., et al. (2021). The efficacy of psychotherapy and pharmacotherapy in treating depressive and anxiety disorders. *World Psychiatry*, 20(2), 316–336.
 5. Malhi, G. S., & Mann, J. J. (2018). Depression. *The Lancet*, 392(10161), 2299–2312.
+6. American Psychiatric Association. (2022). *DSM-5-TR*, pp. 186–188.
+7. Zimmerman, M., et al. (2019). The prevalence of DSM-5 anxiety disorders in psychiatric outpatients. *Comprehensive Psychiatry*, 94, 152115.
+8. Rothschild, A. J. (2013). Challenges in the treatment of major depressive disorder with psychotic features. *Schizophrenia Bulletin*, 39(4), 787–796.
+9. Gaudiano, B. A., et al. (2008). Prevalence and clinical characteristics of psychotic versus nonpsychotic major depression in a general psychiatric outpatient clinic. *Depression and Anxiety*, 25(7), 594–600.
