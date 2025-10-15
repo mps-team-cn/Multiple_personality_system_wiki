@@ -1,5 +1,5 @@
 site_name: Multiple Personality System Wiki - 多意识体系统百科
-site_url: https://wiki.mpsteam.cn
+site_url: https://wiki.mpsteam.cn/
 site_description: 专业的多重人格系统（MPS）、解离障碍（DID/OSDD）与创伤疗愈中文知识库。提供解离性身份障碍、Tulpa 创造、心理健康的全面指南与深入解析
 site_author: 脸脸系统、弦羽系统、逝水流年系统及社区贡献者
 repo_url: https://github.com/mps-team-cn/Multiple_personality_system_wiki
@@ -259,6 +259,10 @@ plugins:
         - TEMPLATE_ENTRY.md
         - dev/**
         - tools/**
+
+  - sitemap:
+      changefreq: weekly
+      priority: 0.5
 
   - git-revision-date-localized:
       enabled: !ENV [CI, false]
