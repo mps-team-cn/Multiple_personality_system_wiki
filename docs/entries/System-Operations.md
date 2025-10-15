@@ -48,7 +48,7 @@ comments: true
 - [功能性分离（Functional Dissociation）](Functional-Dissociation.md)：区分工作分流与病理性解离。
 - [意识修改（Consciousness Modification）](Consciousness-Modification.md)：讨论改变意识状态的策略与风险。
 - [迭代（Iteration）](Iteration.md) 与 [重构（Reconstruction）](Reconstruction.md)：记录系统对内部结构的持续优化。
-- [退行（Regression in Psychology）](Regression-In-Psychology.md)：解析退行与 DID 系统的关联，并区分年龄退行与儿童人格的功能。
+- [退行（Regression）](Regression.md)：解析退行与 DID 系统的关联，并区分年龄退行与儿童人格的功能。
 - [侵入性思维](Intrusive-Thoughts.md)：处理突如其来的念头、影像或语句。
 - [醉酒解离](Alcohol-Induced-Dissociation.md)：探讨酒精对意识分离的影响。
 - [非我感（Depersonalization）](Depersonalization.md) 与 [去现实化](Derealization.md)：区分常见解离体验并提供稳定技巧。

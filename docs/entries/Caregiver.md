@@ -55,7 +55,7 @@ comments: true
 ## 相关条目
 
 - [保护者（Protector）](Protector.md)
-- [小孩意识体（Little / Child Part）](Little.md)
+- [儿童人格（Little / Child Alter）](Child-Alter.md)
 - [迫害者（Persecutor）](Persecutor.md)
 - [人格职能（System Roles）](System-Roles.md)
 - [执行者（Performer / Executive）](Performer-Executive.md)

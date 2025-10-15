@@ -26,7 +26,7 @@ comments: true
 - **迫害者（Persecutor）** : 可能对系统或外界采取敌对策略的成员。详见《[迫害者（Persecutor）](Persecutor.md)》。
 - **照顾者（Caregiver）** : 扮演照料、养育与情绪支持角色。详见《[照顾者（Caregiver）](Caregiver.md)》。
 - **执行者（Performer / Executive）** : 专注执行任务、维持日常功能。详见《[执行者（Performer / Executive）](Performer-Executive.md)》。
-- **发展阶段成员** : 依据年龄意象分工，如《[小孩意识体（Little / Child Part）](Little.md)》《[青少年意识体（Teen Part）](Teen.md)》等。
+- **发展阶段成员** : 依据年龄意象分工，如《[儿童人格（Little / Child Alter）](Child-Alter.md)》《[青少年意识体（Teen Part）](Teen.md)》等。
 
 ## 社区用法与变体
 
@@ -56,7 +56,7 @@ comments: true
 - [青少年意识体（Teen Part）](Teen.md)
 - [保护者（Protector）](Protector.md)
 - [迫害者（Persecutor）](Persecutor.md)
-- [小孩意识体（Little / Child Part）](Little.md)
+- [儿童人格（Little / Child Alter）](Child-Alter.md)
 - [照顾者（Caregiver）](Caregiver.md)
 - [记忆持有者（Memory Holder）](Memory-Holder.md)
 - [初始（Original）](Original.md)

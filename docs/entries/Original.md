@@ -53,4 +53,4 @@ comments: true
 - [青少年意识体（Teen Part）](Teen.md)
 - [迭代（Iteration）](Iteration.md)
 - [自发型（Spontaneous）](Spontaneous.md)
-- [小孩意识体（Little / Child Part）](Little.md)
+- [儿童人格（Little / Child Alter）](Child-Alter.md)
