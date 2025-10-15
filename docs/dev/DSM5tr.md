@@ -52,7 +52,7 @@ comments: true
 
 - [x] Bipolar-I-Disorder.md
 - [x] Bipolar-II-Disorder.md
-- [ ] Cyclothymic-Disorder.md
+- [x] Cyclothymic-Disorder.md
 - [x] Bipolar-Disorders.md       <!-- 总览/比较页 -->
 - [x] Mania.md
 - [x] Hypomania.md
@@ -67,7 +67,7 @@ comments: true
 - [x] Major-Depressive-Disorder-MDD.md
 - [x] Persistent-Depressive-Disorder-PDD.md
 - [ ] Disruptive-Mood-Dysregulation-Disorder.md
-- [ ] Premenstrual-Dysphoric-Disorder.md
+- [x] Premenstrual-Dysphoric-Disorder.md
 - [ ] Substance-Medication-Induced-Depressive-Disorder.md
 - [ ] Depressive-Disorder-Due-to-Another-Medical-Condition.md
 - [ ] Other-Specified-Unspecific-Depressive-Disorder.md
@@ -179,10 +179,10 @@ comments: true
 - [ ] Sexual-Dysfunction-Due-to-Another-Medical-Condition.md
 - [ ] Other-Specified-Unspecific-Sexual-Dysfunction.md
 
-## 14. 性别烦躁（Gender Dysphoria）
+## 14. 性别不安（Gender Dysphoria）
 
 - [x] Gender-Dysphoria-GD.md      <!-- 儿童 / 青少-成人 说明符合并讲解 -->
-- [ ] Other-Specified-Unspecific-Gender-Dysphoria.md
+- [x] Other-Specified-Unspecified-Gender-Dysphoria.md
 
 ## 15. 破坏性、冲动控制及品行障碍（Disruptive, Impulse-Control, and Conduct Disorders）
 
@@ -310,6 +310,7 @@ comments: true
 - [x] Multiple-Personality-Disorder-Obsolete.md
 - [x] Hysteria.md
 - [x] Dissociative-Conversion-Disorder-Obsolete.md
+- [x] Transsexualism-Obsolete.md
 
 ## 计划
 
