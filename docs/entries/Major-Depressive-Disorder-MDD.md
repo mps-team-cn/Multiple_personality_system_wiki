@@ -203,7 +203,7 @@ MDD 的治疗以 **药物治疗、心理治疗与综合策略** 为核心：
 ### 急性期治疗（6–12 周）
 
 - **药物治疗**：SSRIs（舍曲林、氟西汀、艾司西酞普兰）、SNRIs（文拉法辛、度洛西汀）、其他药物（米氮平、安非他酮、三环类）。通常需 2–4 周开始改善。
-- **心理治疗**：认知行为疗法（[CBT](Cognitive-Behavioral-Therapy-CBT.md)）、人际疗法（IPT）、行为激活（BA）、正念认知疗法（MBCT，参见 [正念（Mindfulness）](Mindfulness.md)）、创伤知情治疗。
+- **心理治疗**：认知行为疗法([CBT](Cognitive-Behavioral-Therapy-CBT.md))、人际疗法（IPT）、行为激活（BA）、正念认知疗法（MBCT，参见 [正念（Mindfulness）](Mindfulness.md)）、创伤知情治疗。
 - **危机干预**：评估自杀风险，建立安全计划，若存在急性自杀风险需考虑住院治疗。
 
 ### 巩固期与维持期治疗
