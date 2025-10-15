@@ -1,262 +1,173 @@
 ---
 title: 快速开始
 summary: 快速了解多重意识体核心概念、阅读顺序与自护工具的导航指南。
-updated: 2025-10-10
+updated: 2025-10-15
 ---
 
 # 快速开始（Quick Start）
 
-> 欢迎来到 Multiple Personality System Wiki！无论你是刚开始了解多意识体，还是在寻找特定信息，这份快速指南都将帮助你找到最适合的学习路径。
+!!! info "欢迎"
+    欢迎来到 Multiple Personality System Wiki。这里汇集了 **多意识体系统（MPS）**、**解离障碍（DID/OSDD）** 与 **创伤疗愈** 的结构化内容。本页提供快速入口、推荐路线与常见操作，帮助你更快找到所需信息。
 
 !!! warning "紧急提醒"
     若你或伙伴正处于紧急或临床风险情境，请优先联系当地紧急服务、心理危机干预中心或持证专业人员。Multiple Personality System Wiki 旨在整理知识与经验分享，无法替代医疗或法律建议。
 
 ---
 
-## 🎯 我该从哪里开始？
+## 🎯 快速入口
 
-我们为你准备了 **系统化的学习路径**，分为"基础入门"和"专题深入"两部分。根据你的需求选择最适合的入口。
+<div class="grid cards" markdown>
 
----
+-   :material-compass: **核心概念导览**  
+    从零建立框架，理解「多意识体」「解离」与系统类型。
+    [:octicons-arrow-right-24: 进入](entries/Core-Concepts-Guide.md)
 
-## 📖 基础入门 - 新手必读
+-   :material-heart-pulse: **心理健康导览**  
+    关注创伤与疗愈，了解 PTSD/CPTSD、DID/OSDD 与循证治疗。
+    [:octicons-arrow-right-24: 进入](entries/Mental-Health-Guide.md)
 
-这四条路径涵盖了多意识体的核心知识，建议新人从这里开始。
+-   :material-cog: **系统运作导览**  
+    前台与切换、共同意识、内部沟通与记忆管理的实践路径。
+    [:octicons-arrow-right-24: 进入](entries/System-Operations.md)
 
-### 📚 [**核心概念导览**](entries/Core-Concepts-Guide.md) — 我是完全的新手
+-   :material-hammer-wrench: **实践指南**  
+    Tulpa、冥想、可视化与接地等可直接上手的练习。
+    [:octicons-arrow-right-24: 进入](entries/Practice-Guide.md)
 
-**适合你，如果：**
+</div>
 
-- 第一次听说"[多意识体](entries/Multiple_Personality_System.md)""[解离](entries/Dissociation.md)"这些词
-- 想从零开始建立理论框架
-- 需要理解不同类型的系统（[Tulpa](entries/Tulpa.md) vs [DID](entries/DID.md)/[OSDD](entries/OSDD.md)）
+???+ tip "需要更深入？5 个专题导览"
+    <div class="grid cards" markdown>
 
-**你将学到：**
+    -   :material-hospital-building: **临床诊断**  
+        DID/OSDD、PTSD/CPTSD 标准与鉴别要点。
+        [:octicons-arrow-right-24: 进入](entries/Clinical-Diagnosis-Guide.md)
 
-- 什么是[解离](entries/Dissociation.md)？解离与[多意识体](entries/Multiple_Personality_System.md)的关系
-- 健康多意识体([Tulpa](entries/Tulpa.md)) vs 病理性多意识体（[DID](entries/DID.md)/[OSDD](entries/OSDD.md)）
-- [埃蒙加德分类法](entries/Emmengard-Classification.md)：按成因理解系统类型
-- 常见误区澄清与新手建议
+    -   :material-bandage: **创伤与疗愈**  
+        稳定 → 处理 → 整合的三阶段模型与工具。
+        [:octicons-arrow-right-24: 进入](entries/Trauma-Healing-Guide.md)
 
-👉 **推荐阅读顺序**：[核心概念导览](entries/Core-Concepts-Guide.md) → [术语表](Glossary.md) → 具体词条
+    -   :material-account-group: **角色与身份**  
+        宿主/守门人/保护者等角色与系统治理。
+        [:octicons-arrow-right-24: 进入](entries/Roles-Identity-Guide.md)
 
----
+    -   :material-thought-bubble: **理论与分类**  
+        结构性解离、依恋与自我决定等核心理论。
+        [:octicons-arrow-right-24: 进入](entries/Theory-Classification-Guide.md)
 
-### 💚 [**心理健康导览**](entries/Mental-Health-Guide.md) — 我关注创伤与疗愈
+    -   :material-movie-open: **文化与媒体**  
+        影视/文学/动画/游戏中的多意识体呈现。
+        [:octicons-arrow-right-24: 进入](entries/Cultural-Media-Guide.md)
 
-**适合你，如果：**
-
-- 你经历或正在面对[创伤](entries/Trauma.md)，想理解它对身心的影响
-- 你对 [PTSD](entries/PTSD.md)、[CPTSD](entries/CPTSD.md)、[DID](entries/DID.md) 的诊断差异仍有疑惑
-- 你需要循证疗法指引，并希望马上实践可行的自我照护计划
-
-**你将学到：**
-
-- [创伤](entries/Trauma.md)类型（单次事件 vs. 长期累积）及其神经系统反应
-- [PTSD](entries/PTSD.md) 与 [CPTSD](entries/CPTSD.md) 的评估要点与常见误区
-- [解离](entries/Dissociation.md)谱系：从适应性反应到临床诊断的判断方式
-- 循证治疗方法（EMDR、TF-CBT、DBT 等）适用场景与配套资源
-- [自我照护工具箱](entries/Self-Care-Toolkit.md)：将[接地](entries/Grounding.md)等日常练习整合进复原计划
-
-👉 **推荐阅读顺序**：[心理健康导览](entries/Mental-Health-Guide.md) → [创伤](entries/Trauma.md)相关词条 → 循证治疗方法 → [自我照护工具箱](entries/Self-Care-Toolkit.md)
-
----
-
-### ⚙️ [**系统运作导览**](entries/System-Operations.md) — 我想优化系统协作
-
-**适合你，如果：**
-
-- 已经是[多意识体](entries/Multiple_Personality_System.md)系统成员
-- 想改善日常运作与内部沟通
-- 对[前台](entries/Front-Fronting.md)、[切换](entries/Switch.md)、记忆管理等机制有疑问
-
-**你将学到：**
-
-- [前台](entries/Front-Fronting.md)与[切换](entries/Switch.md)：谁在控制身体？如何转换？
-- [意识共享](entries/Co-Consciousness.md)与记忆管理：如何协调信息？
-- [内部空间](entries/Headspace-Inner-World.md)与[沟通](entries/Internal-Communication.md)：建立系统内部的协作网络
-- 角色与治理：[宿主](entries/Host.md)、[守门人](entries/Gatekeeper.md)、[保护者](entries/Protector.md)等职能分工
-
-👉 **推荐阅读顺序**：[系统运作导览](entries/System-Operations.md) → 具体机制词条 → 工具与技巧
+    </div>
 
 ---
 
-### 🧰 [**实践指南**](entries/Practice-Guide.md) — 我需要可操作的训练与练习
+## 🚀 立即开始
 
-**适合你，如果：**
+=== "阅读学习"
 
-- 想要跟着步骤完成 Tulpa 创造、冥想或可视化训练
-- 需要把概念转化为具体练习，建立稳定的日常自护流程
-- 寻找可以落地的内部沟通、接地与情绪调节方法
+    - 首先浏览「快速入口」中的一个导览页，建立主线。
+    - 遇到陌生术语，使用 [术语表](Glossary.md) 或页面内搜索。
+    - 通过页面底部的「相关条目」继续横向扩展。
 
-**你将学到：**
+=== "本地运行"
 
-- [Tulpa 完全创造指南](entries/Tulpa-Guide.md)：从基础设定到进阶协作的完整流程
-- [冥想](entries/Meditation.md)与[可视化想象](entries/Visualization-Imagination.md)：强化专注力与心像构建
-- [接地](entries/Grounding.md)、[内部沟通](entries/Internal-Communication.md)等可立即实践的技巧
+    !!! success "本地预览（MkDocs Material）"
+        ```bash
+        # 1) 安装依赖（推荐虚拟环境）
+        python3 -m venv venv && source venv/bin/activate
+        pip install -r requirements.txt
 
-👉 **推荐阅读顺序**：[实践指南](entries/Practice-Guide.md) → 具体技能词条 → 结合系统需求制定练习计划
+        # 2) 启动本地服务（支持热重载）
+        mkdocs serve
+        # 访问 http://127.0.0.1:8000
+        ```
 
----
+    !!! tip "常用命令"
+        ```bash
+        # 构建静态站点
+        mkdocs build --strict
 
-## 🎓 专题深入 - 进阶学习
+        # 链接规范检查
+        python3 tools/check_links.py
 
-在掌握基础后，这五个专题导览可以帮你深入特定领域。
+        # Markdown 自动修复
+        python3 tools/fix_markdown.py .
+        ```
 
-### 🏥 [**临床诊断导览**](entries/Clinical-Diagnosis-Guide.md) — 深入了解诊断标准
+=== "参与贡献"
 
-**涵盖内容：**
-
-- DID、OSDD、PTSD/CPTSD 等核心诊断的详细标准
-- 诊断鉴别要点与临床处置路径
-- 焦虑障碍、情绪障碍等共病问题
-- 如何与医疗专业人员沟通
-
-**适合：** 需要理解诊断标准、准备就医或关注临床知识的读者
-
----
-
-### 💙 [**创伤疗愈导览**](entries/Trauma-Healing-Guide.md) — 系统化的康复路径
-
-**涵盖内容：**
-
-- 创伤的神经生物学机理
-- 三阶段创伤治疗模型（稳定 → 处理 → 整合）
-- [接地](entries/Grounding.md)与感官调节策略
-- EMDR、TF-CBT、DBT 等循证疗法
-- 自我照护与危机应对
-
-**适合：** 关注创伤康复、寻求系统化疗愈路径的读者
-
----
-
-### 👥 [**角色与身份导览**](entries/Roles-Identity-Guide.md) — 理解系统角色分工
-
-**涵盖内容：**
-
-- 宿主、守门人、保护者、照护者等角色详解
-- 角色职能与系统治理结构
-- 多类型身份结构（分裂型、多重型等）
-- 角色演变与身份流动性
-
-**适合：** 想深入了解系统内部角色与身份认同的读者
-
----
-
-### 📚 [**理论与分类导览**](entries/Theory-Classification-Guide.md) — 构建理论框架
-
-**涵盖内容：**
-
-- 结构性解离理论
-- 依恋理论、自我决定理论
-- 动机理论与人格结构模型
-- 不同学派的分类体系
-
-**适合：** 想建立系统化理论知识、进行学术研究的读者
-
----
-
-### 🎬 [**文化与媒体导览**](entries/Cultural-Media-Guide.md) — 探索文化表现
-
-**涵盖内容：**
-
-- 影视作品中的多意识体主题分析
-- 文学、动画与游戏中的叙事呈现
-- 社会文化因素对多意识体的影响
-- 媒体刻板印象与真实体验的对比
-
-**适合：** 对文化研究、媒体分析感兴趣的读者
-
----
-
-## 🔍 快速查询工具
-
-| 工具                                  | 用途                   | 适合场景         |
-| ------------------------------------- | ---------------------- | ---------------- |
-| [**术语表**](Glossary.md)            | 快速查询专业术语定义   | 遇到陌生术语时   |
-| [**标签索引**](tags.md)              | 按主题分类浏览全部词条 | 想深入某个主题   |
-| **首页搜索**                          | 关键词搜索             | 找特定概念或词条 |
-
----
-
-## 💡 阅读技巧
-
-- **📝 边读边记录**：建立"概念图"，记录词条间的引用关系
-- **🔖 善用标签页**：遇到陌生概念先在新标签打开，保持主线阅读不中断
-- **🔄 交叉阅读**：通过"相关条目"章节进行多角度理解
-- **⏸️ 分段学习**：不必一次读完，根据自己的节奏分段消化
-- **🧭 从导览开始**：9个导览页面是精心整理的主题入口，推荐优先阅读
+    1. 新词条放在 `docs/entries/`，不得创建子目录，使用模板 `docs/TEMPLATE_ENTRY.md`。
+    2. 必填 Frontmatter 字段：`title`, `topic`, `tags`, `updated`（Y-M-D）。
+    3. 同步更新对应 Guide 索引（见[映射规则](contributing/technical-conventions.md#13-索引与链接规范)）。
+    4. 提交前运行：`fix_markdown.py`、`check_links.py` 与 `markdownlint`。
+    5. 使用 Conventional Commits（如 `feat: 新增 Grounding 词条`）。
 
 ---
 
 ## 🗺️ 推荐学习路线
 
-### 🌱 新手路线（0-4周）
+=== "新手（0–4 周）"
 
-1. 阅读[核心概念导览](entries/Core-Concepts-Guide.md)，建立基础框架
-2. 根据个人情况选择[心理健康](entries/Mental-Health-Guide.md)或[系统运作](entries/System-Operations.md)导览
-3. 浏览[术语表](Glossary.md)，熟悉常用术语
-4. 实践[接地](entries/Grounding.md)等基础技巧
+    1. 阅读 [核心概念导览](entries/Core-Concepts-Guide.md) 建立框架。
+    2. 选择 [心理健康](entries/Mental-Health-Guide.md) 或 [系统运作](entries/System-Operations.md)。
+    3. 浏览 [术语表](Glossary.md) 熟悉常用术语。
+    4. 开始练习 [接地](entries/Grounding.md) 等基础技巧。
 
-### 🌿 进阶路线（1-3个月）
+=== "进阶（1–3 个月）"
 
-1. 深入1-2个专题导览（临床诊断/创伤疗愈/角色身份）
-2. 学习[实践指南](entries/Practice-Guide.md)，建立练习计划
-3. 通过[标签索引](tags.md)扩展相关主题
-4. 参考具体词条解决实际问题
+    1. 深入 1–2 个专题导览（临床/创伤/角色）。
+    2. 参考 [实践指南](entries/Practice-Guide.md) 制定练习计划。
+    3. 通过 [标签索引](tags.md) 扩展相关主题。
+    4. 结合实际问题查阅具体词条。
 
-### 🌳 精通路线（3个月以上）
+=== "精通（3 个月以上）"
 
-1. 系统学习[理论与分类](entries/Theory-Classification-Guide.md)
-2. 探索[文化与媒体](entries/Cultural-Media-Guide.md)的跨学科视角
-3. 参与社区讨论与知识贡献
-4. 建立个性化的知识体系
-
----
-
-## 🤝 参与贡献
-
-Multiple Personality System Wiki 是社区共建的知识库，欢迎你的参与：
-
-- **📚 分享经验**：提供系统经验、实践技巧或资源推荐
-- **✏️ 补充内容**：通过 Pull Request 添加新词条或完善现有内容
-- **🐛 报告问题**：在 GitHub Issues 中反馈错误或提出改进建议
-- **🌐 翻译校对**：帮助改进术语翻译和文本表述
-
-详细流程请参阅 [**贡献指南**](contributing/index.md)。
+    1. 系统学习 [理论与分类](entries/Theory-Classification-Guide.md)。
+    2. 探索 [文化与媒体](entries/Cultural-Media-Guide.md) 的跨学科视角。
+    3. 参与讨论与贡献，迭代自己的知识框架。
 
 ---
 
-## 📌 常见问题
+## 🔎 快速工具
+
+<div class="grid cards" markdown>
+
+-   :material-book-education: **术语表**  
+    遇到陌生术语时的第一站。
+    [:octicons-search-24: 打开](Glossary.md)
+
+-   :material-tag: **标签索引**  
+    按主题浏览全部词条。
+    [:octicons-list-unordered-24: 打开](tags.md)
+
+-   :material-magnify: **站内搜索**  
+    顶部搜索栏支持短语与符号搜索。
+    [:octicons-arrow-right-24: 使用](index.md)
+
+</div>
+
+---
+
+## 📌 常见问题（FAQ）
 
 ??? question "我不确定自己是什么类型的系统？"
-    建议先阅读[核心概念导览](entries/Core-Concepts-Guide.md)，了解不同类型的基本区别。
-
-    但请记住：**分类不是目的，理解自己才是关键**。如果难以归类，也完全正常。
+    建议先阅读 [核心概念导览](entries/Core-Concepts-Guide.md) 了解类型差异。
+    记住：分类不是目的，理解自己与保障安全更重要。
 
 ??? question "我需要诊断吗？"
-    这取决于你的需求：
+    取决于你的需求：
 
-    - 如果症状影响日常生活，寻求专业诊断（如 [DID](entries/DID.md)、[OSDD](entries/OSDD.md)、[PTSD](entries/PTSD.md)）可以获得治疗支持
-    - 如果只是想了解自己，不一定需要正式诊断
+    - 症状影响生活功能时，建议就医评估（如 [DID](entries/DID.md)、[OSDD](entries/OSDD.md)、[PTSD](entries/PTSD.md)）。
+    - 若仅为自我理解，未必需要正式诊断。
 
-    详见[心理健康导览](entries/Mental-Health-Guide.md)和[临床诊断导览](entries/Clinical-Diagnosis-Guide.md)中的相关说明。
+    可参考 [心理健康导览](entries/Mental-Health-Guide.md) 与 [临床诊断导览](entries/Clinical-Diagnosis-Guide.md)。
 
-??? question "Multiple Personality System Wiki 的内容可靠吗？"
-    ✅ 医疗/诊断内容引用 ICD-11、DSM-5-TR 等权威来源
-
-    ✅ 每个断言都标注引用来源和访问日期
-
-    ⚠️ 社群经验部分标明为"经验分享"，不代表医学事实
-
-    详见[贡献指南-学术引用](contributing/academic-citation.md)中的学术规范。
-
-??? question "9个导览页面该如何使用？"
-
-    - **基础4导览**（核心概念、心理健康、系统运作、实践指南）：新手必读，涵盖核心知识
-    - **专题5导览**（临床诊断、创伤疗愈、角色身份、理论分类、文化媒体）：深入特定领域
-
-    建议先完成基础导览，再根据兴趣选择1-2个专题深入学习。
+??? question "内容可靠吗？"
+    - 医疗/诊断内容遵循 ICD‑11、DSM‑5‑TR 等权威来源。
+    - 断言均附来源与访问日期；经验内容会标注「经验分享」。
+    - 详见 [贡献指南·学术引用](contributing/academic-citation.md)。
 
 ---
 
