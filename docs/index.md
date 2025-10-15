@@ -1,4 +1,5 @@
-# Multiple Personality System Wiki - 多意识体系统百科
+# 中文多意识体系统百科
+> Multiple Personality System Wiki
 
 !!! info "欢迎"
     本站聚焦 **多意识体系统（MPS）**、**解离障碍（DID/OSDD）** 与 **创伤疗愈** 的结构化知识。建议先从
