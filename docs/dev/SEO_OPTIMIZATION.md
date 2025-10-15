@@ -325,7 +325,7 @@ features:
   - 包含 DID、OSDD、Tulpa、CPTSD、PTSD 等主要诊断词条
   - 包含 System、Alter、Front、Switch 等系统运作核心概念
   - 包含 Grounding、Trauma、Trigger、Flashback 等创伤相关词条
-  - 包含各类成员角色：Host、Protector、Persecutor、Little、Caregiver、Gatekeeper 等
+  - 包含各类成员角色：Host、Protector、Persecutor、Child Alter（儿童人格）、Caregiver、Gatekeeper 等
   - 创建自动化工具 `tools/check_descriptions.py` 和 `tools/add_descriptions.py`
 
 ### 2025-10-13

@@ -31,7 +31,7 @@ comments: true
 
 ## 与其他角色的区分
 
-- **小孩意识体（Little / Child Part）** : 后者聚焦童年需求与依附关系，青少年意识体则强调独立与自主。详见《[小孩意识体（Little / Child Part）](Little.md)》。
+- **儿童人格（Little / Child Alter）**（亦称“小孩意识体”）: 后者聚焦童年需求与依附关系，青少年意识体则强调独立与自主。详见《[儿童人格（Little / Child Alter）](Child-Alter.md)》。
 - **执行者（Performer / Executive）** : 青少年意识体可能同时承担任务，但执行者的焦点在功能效率而非年龄体验。
 
 ## 支持策略
@@ -52,7 +52,7 @@ comments: true
 
 ## 相关条目
 
-- [小孩意识体（Little / Child Part）](Little.md)
+- [儿童人格（Little / Child Alter）](Child-Alter.md)
 - [人格职能（System Roles）](System-Roles.md)
 - [执行者（Performer / Executive）](Performer-Executive.md)
 - [照顾者（Caregiver）](Caregiver.md)

@@ -27,7 +27,7 @@ TOPIC_MAPPING = {
         "Imaginary-Companion", "Blending", "Fragment", "Polyfragmented",
         "Soulbond", "Tulpa", "Host", "Alter", "Emmengard-Classification",
         "Adaptive", "Spontaneous", "Original", "Memory-Holder", "Persecutor",
-        "Little", "Teen", "Protector", "Caregiver", "Performer-Executive"
+        "Child-Alter", "Teen", "Protector", "Caregiver", "Performer-Executive"
     ],
     "系统体验与机制": [
         "Apparently-Normal-Part-Emotional-Part-Model", "Co-Fronting",
@@ -43,7 +43,7 @@ TOPIC_MAPPING = {
         "Depersonalization", "Derealization", "Switch", "System", "Subsystem",
         "Xianyu-Theory-Niche-Classification", "Single-Class-Systems-Xianyu",
         "Mixed-Systems-Xianyu", "Family-Systems-Xianyu", "Soul-Linked-Systems-Xianyu",
-        "Autopilot", "Trigger", "Regression-In-Psychology", "Alcohol-Induced-Dissociation"
+        "Autopilot", "Trigger", "Regression", "Alcohol-Induced-Dissociation"
     ],
     "心理学与理论": [
         "Defense-Mechanisms", "Cognitive-Dissonance", "Attachment-Theory",

@@ -58,7 +58,7 @@ comments: true
 - [保护者（Protector）](Protector.md)
 - [人格职能（System Roles）](System-Roles.md)
 - [照顾者（Caregiver）](Caregiver.md)
-- [小孩意识体（Little / Child Part）](Little.md)
+- [儿童人格（Little / Child Alter）](Child-Alter.md)
 - [执行者（Performer / Executive）](Performer-Executive.md)
 - [青少年意识体（Teen Part）](Teen.md)
 - [记忆持有者（Memory Holder）](Memory-Holder.md)

@@ -54,7 +54,7 @@ comments: true
 
 ## 发展阶段与结构特征
 
-- [小孩意识体（Little / Child Part）](Little.md)：保留童年特质的成员，需要额外照护。
+- [儿童人格（Little / Child Alter）](Child-Alter.md)：保留童年特质的成员，需要额外照护。
 - [青少年意识体（Teen Part）](Teen.md)：处于青春期发展阶段的角色。
 - [碎片（Fragment）](Fragment.md)：功能狭窄、可能仅承载情绪或记忆的部分。
 - [超级破碎（Polyfragmented）](Polyfragmented.md)：拥有大量碎片或微小角色的系统结构。

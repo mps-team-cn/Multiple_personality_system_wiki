@@ -75,7 +75,7 @@ updated: 2025-10-14
 | [守门人（Gatekeeper）](entries/Gatekeeper.md) | 管理切换流程、记忆访问或内部空间出入的成员。 | 在复杂系统中承担协调与审查职责。 |
 | [迫害者（Persecutor）](entries/Persecutor.md) | 通过攻击性或自我惩罚行为表达警讯的成员。 | 需以创伤知情视角理解其保护意图。 |
 | [记忆保管者（Memory Holder）](entries/Memory-Holder.md) | 负责储存或整理特定记忆片段的成员。 | 常协助事件回忆与时间线修复。 |
-| [年幼成员（Little）](entries/Little.md) | 年龄感知较低、保有童年记忆或需求的成员。 | 支持时需强调安全感与稳定环境。 |
+| [儿童人格（Little）](entries/Child-Alter.md) | 年龄感知较低、保有童年记忆或需求的成员（亦称“小孩意识体”）。 | 支持时需强调安全感与稳定环境。 |
 | [青少年成员（Teen）](entries/Teen.md) | 具有青少年视角与需求的成员。 | 在社交、自主需求上提供独特观点。 |
 | [执行者（Performer / Executive）](entries/Performer-Executive.md) | 擅长在高压情境保持表现或完成任务的成员。 | 常用于工作、演讲、应急等场景。 |
 | [原初自我（Original）](entries/Original.md) | 被系统视为最早出现或最贴近出生身份的成员。 | 不一定与宿主重合，概念存在争议。 |
