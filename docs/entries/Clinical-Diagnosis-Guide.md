@@ -104,7 +104,8 @@ comments: true
 ???+ abstract "展开查看"
 
     - [精神分裂症（Schizophrenia, SZ/SCZ）](Schizophrenia-SZ.md) — :octicons-check-16: 已完成
-    - 妄想障碍（Delusional Disorder）、短期精神病性障碍（Brief Psychotic Disorder）、分裂样障碍（Schizophreniform Disorder）、分裂情感性障碍（Schizoaffective Disorder）、紧张症（Catatonia）等 — :octicons-clock-16: 待更新
+    - [妄想障碍（Delusional Disorder）](Delusional-Disorder.md) — :octicons-check-16: 已完成
+    - 短期精神病性障碍（Brief Psychotic Disorder）、分裂样障碍（Schizophreniform Disorder）、分裂情感性障碍（Schizoaffective Disorder）、紧张症（Catatonia）等 — :octicons-clock-16: 待更新
 
 ### 3) 双相及相关障碍
 

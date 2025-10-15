@@ -117,7 +117,7 @@ ICD-11 将疾病焦虑障碍归类在 **躯体痛苦及相关障碍(Disorders sp
 
 - **真实躯体疾病**:需通过系统医学评估排除器质性病变;但即使存在轻度躯体疾病,如果焦虑程度远超医学严重性,仍可诊断 IAD。
 
-- [**妄想障碍(Delusional Disorder)**](Dissociative-Disorders.md):疾病信念达到妄想程度(完全不可动摇、脱离现实),需考虑精神病性障碍;IAD 患者通常对医学证据保留一定认知灵活性。
+- [**妄想障碍（Delusional Disorder）**](Delusional-Disorder.md):疾病信念达到妄想程度(完全不可动摇、脱离现实),需考虑精神病性障碍;IAD 患者通常对医学证据保留一定认知灵活性。
 
 - [**人格解体/现实解体障碍(DPDR)**](Depersonalization-Derealization-Disorder-DPDR.md):躯体感觉异常可能引发对健康的担忧,但 DPDR 的核心是 **自我感与现实感的改变**,而非疾病恐惧。
 
