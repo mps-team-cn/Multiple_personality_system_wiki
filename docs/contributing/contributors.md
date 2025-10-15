@@ -227,4 +227,3 @@
 - [PR 流程](pr-workflow.md) - 提交 Pull Request 的流程
 - [编写规范](writing-guidelines.md) - 词条编写规范
 - [技术约定](technical-conventions.md) - 技术开发规范
-- [项目改进建议](../dev/IMPROVEMENT_SUGGESTIONS.md) - 项目改进方向
