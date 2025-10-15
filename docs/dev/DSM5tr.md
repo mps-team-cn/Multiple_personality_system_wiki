@@ -91,9 +91,9 @@ comments: true
 
 - [x] OCD.md
 - [x] Body-Dysmorphic-Disorder.md
-- [ ] Hoarding-Disorder.md
-- [ ] Trichotillomania-Hair-Pulling-Disorder.md
-- [ ] Excoriation-Skin-Picking-Disorder.md
+- [x] Hoarding-Disorder.md
+- [x] Trichotillomania-Hair-Pulling-Disorder.md
+- [x] Excoriation-Skin-Picking-Disorder.md
 - [ ] Substance-Medication-Induced-OCRD.md
 - [ ] OCRD-Due-to-Another-Medical-Condition.md
 - [ ] Other-Specified-Unspecific-OCRD.md
