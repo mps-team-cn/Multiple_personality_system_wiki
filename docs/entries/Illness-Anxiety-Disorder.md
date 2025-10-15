@@ -7,6 +7,11 @@ tags:
 topic: 诊断与临床
 description: 深入解析疾病焦虑障碍（IAD）的诊断标准、临床表现与治疗方法。了解过度担心患病的心理机制、与其他焦虑及躯体障碍的鉴别要点,及有效的认知行为治疗策略
 title: 疾病焦虑障碍(Illness Anxiety Disorder,IAD)
+synonyms:
+
+- 疑病症（旧称）
+- 健康焦虑
+- Health Anxiety
 updated: 2025-10-15
 comments: true
 ---
@@ -138,6 +143,9 @@ ICD-11 将疾病焦虑障碍归类在 **躯体痛苦及相关障碍(Disorders sp
 - **躯体化倾向**:
     - [躯体症状障碍(SSD)](Somatic-Symptom-Disorder-SSD.md):两者可能在同一个体中不同时期表现不同。
 
+- **身心整合诊断**:
+    - [影响其他躯体疾病的心理因素（PFAOMC）](Psychological-Factors-Affecting-Other-Medical-Conditions.md):当健康焦虑导致治疗依从性下降或加剧既有躯体疾病病程时,需评估是否符合 PFAOMC,以便与躯体专科协同管理。
+
 - **人格特质**:
     - [强迫型人格障碍(OCPD)](Obsessive-Compulsive-Personality-Disorder-OCPD.md):完美主义、过度控制倾向可能加剧健康监控行为。
 
@@ -182,6 +190,11 @@ IAD 的治疗以心理治疗为主,药物治疗为辅:
 - **症状日记**:记录健康担忧出现的情境、触发因素与焦虑强度,帮助识别模式。
 - **限制网络搜索**:设定每日健康信息搜索时间上限(如每天最多 10 分钟)。
 - **社会支持**:参与支持团体,分享经验并减少孤立感。
+
+### 5. 支持资源
+
+- [中国心理卫生协会](https://www.camh.org.cn/):提供心理健康教育资料、专业机构目录及热线信息,便于在地寻求支持。
+- [Anxiety & Depression Association of America (ADAA)](https://adaa.org/):汇整焦虑障碍自助工具、治疗师检索与患者故事,适合了解循证治疗与国际经验。
 
 ---
 
