@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 重性抑郁障碍（Major Depressive Disorder, MDD）
-updated: 2025-10-14
+updated: 2025-10-15
 synonyms:
 
 - 重性抑郁障碍

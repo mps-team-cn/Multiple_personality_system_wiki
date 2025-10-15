@@ -13,6 +13,7 @@ synonyms:
 - 疑病症（旧称）
 - 健康焦虑
 - Health Anxiety
+
 updated: 2025-10-15
 comments: true
 ---
@@ -195,7 +196,7 @@ IAD 的治疗以心理治疗为主,药物治疗为辅:
 ### 5. 支持资源
 
 - [中国心理卫生协会](https://www.camh.org.cn/):提供心理健康教育资料、专业机构目录及热线信息,便于在地寻求支持。
-- [Anxiety & Depression Association of America (ADAA)](https://adaa.org/):汇整焦虑障碍自助工具、治疗师检索与患者故事,适合了解循证治疗与国际经验。
+- [Anxiety & Depression Association of America （ADAA）](https://adaa.org/):汇整焦虑障碍自助工具、治疗师检索与患者故事,适合了解循证治疗与国际经验。
 
 ---
 
