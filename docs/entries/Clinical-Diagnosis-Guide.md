@@ -182,7 +182,9 @@ comments: true
     - [躯体症状障碍（SSD）](Somatic-Symptom-Disorder-SSD.md) — :octicons-check-16: 已完成
     - [功能性神经症状障碍/转换障碍（FND）](Conversion-Disorder-FND.md) — :octicons-check-16: 已完成
     - [慢性疼痛（Chronic Pain）](Chronic-Pain.md) — :octicons-check-16: 已完成
-    - 疾病焦虑障碍（Illness Anxiety Disorder）、做作性障碍（Factitious Disorder）等 — :octicons-clock-16: 待更新
+    - [疾病焦虑障碍（IAD）](Illness-Anxiety-Disorder.md) — :octicons-check-16: 已完成
+    - [影响其他躯体疾病的心理因素（PFAOMC）](Psychological-Factors-Affecting-Other-Medical-Conditions.md) — :octicons-check-16: 已完成
+    - 做作性障碍（Factitious Disorder）等 — :octicons-clock-16: 待更新
 
 ### 10) 喂养与进食障碍
 

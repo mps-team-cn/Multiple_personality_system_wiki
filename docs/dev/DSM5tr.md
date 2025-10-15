@@ -124,9 +124,9 @@ comments: true
 ## 9. 躯体症状及相关障碍（Somatic Symptom and Related Disorders）
 
 - [x] Somatic-Symptom-Disorder-SSD.md
-- [ ] Illness-Anxiety-Disorder.md
+- [x] Illness-Anxiety-Disorder.md
 - [x] Conversion-Disorder-FND.md
-- [ ] Psychological-Factors-Affecting-Other-Medical-Conditions.md
+- [x] Psychological-Factors-Affecting-Other-Medical-Conditions.md
 - [ ] Factitious-Disorder.md
 - [ ] Other-Specified-Unspecific-Somatic-Symptom-Related-Disorders.md
 
