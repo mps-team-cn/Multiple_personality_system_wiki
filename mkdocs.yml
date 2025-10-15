@@ -260,10 +260,6 @@ plugins:
         - dev/**
         - tools/**
 
-  - sitemap:
-      changefreq: weekly
-      priority: 0.5
-
   - git-revision-date-localized:
       enabled: !ENV [CI, false]
       enable_creation_date: true
