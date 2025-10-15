@@ -146,7 +146,9 @@ comments: true
 
     - [强迫症（OCD）](OCD.md) — :octicons-check-16: 已完成
     - [躯体变形障碍（BDD）](Body-Dysmorphic-Disorder.md) — :octicons-check-16: 已完成
-    - 囤积障碍（Hoarding Disorder）、拔毛障碍（Trichotillomania）、抓痕障碍（Excoriation Disorder）等 — :octicons-clock-16: 待更新
+    - [囤积障碍（Hoarding Disorder）](Hoarding-Disorder.md) — :octicons-check-16: 已完成
+    - [拔毛障碍（Trichotillomania，Hair-Pulling Disorder）](Trichotillomania-Hair-Pulling-Disorder.md) — :octicons-check-16: 已完成
+    - [抓痕障碍（Excoriation，Skin-Picking Disorder）](Excoriation-Skin-Picking-Disorder.md) — :octicons-check-16: 已完成
 
 ### 7) 创伤及应激相关障碍
 
