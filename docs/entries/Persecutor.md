@@ -9,7 +9,7 @@ tags:
 topic: 角色与身份
 description: 迫害者（Persecutor）成员的本质、形成原因与转化。理解看似敌对的成员实际上的保护意图，探索化解内部冲突的方法
 title: 迫害者（Persecutor）
-updated: 2025-10-14
+updated: 2025-10-15
 comments: true
 ---
 

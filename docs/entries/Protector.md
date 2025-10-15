@@ -9,7 +9,7 @@ tags:
 topic: 角色与身份
 description: 保护者（Protector）成员的类型、功能与工作方式。了解保护性成员如何维护系统安全、应对威胁及其可能的过度保护模式
 title: 保护者（Protector）
-updated: 2025-10-14
+updated: 2025-10-15
 comments: true
 ---
 
