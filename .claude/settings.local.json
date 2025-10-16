@@ -6,7 +6,8 @@
       "Bash(python:*)",
       "Bash(mkdocs build:*)",
       "Bash(git add:*)",
-      "mcp__sequential-thinking__sequentialthinking"
+      "mcp__sequential-thinking__sequentialthinking",
+      "Bash(gh pr view:*)"
     ],
     "deny": [],
     "ask": []

@@ -129,7 +129,7 @@ ICD-11 对症状内容描述较为简洁，强调"疏离体验"及功能影响�
 - **其他常见共病**
     - [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md)：情绪调节困难与身份认同症状可能重叠。
     - [物质使用障碍（Substance Use Disorders，SUD）](Substance-Use-Disorders-SUD.md)：部分个体以物质自我麻醉以压抑疏离感或调节情绪。
-    - [强迫症（Obsessive-Compulsive Disorder，OCD）](Obsessive-Compulsive-Disorder-OCD.md)：强迫性思维与解离体验可能同时出现。
+    - [强迫症（Obsessive-Compulsive Disorder，OCD）](OCD.md)：强迫性思维与解离体验可能同时出现。
     - 其他[解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)：可能与其他解离性症状共存。
 
 ### 风险管理重点
@@ -190,7 +190,7 @@ DPDR 的治疗通常遵循分阶段模式：
 - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md)
 - [物质使用障碍（Substance Use Disorders，SUD）](Substance-Use-Disorders-SUD.md)
-- [强迫症（Obsessive-Compulsive Disorder，OCD）](Obsessive-Compulsive-Disorder-OCD.md)
+- [强迫症（Obsessive-Compulsive Disorder，OCD）](OCD.md)
 
 ### 治疗与支持相关
 
