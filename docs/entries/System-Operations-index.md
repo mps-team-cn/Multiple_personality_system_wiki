@@ -33,7 +33,7 @@ comments: true
 - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](Apparently-Normal-Part-Emotional-Part-Model.md) — *2025-10-14*
 - [偏重（Bias / Median）](Bias.md) — *2025-10-14*
 - [意识共存（Co-consciousness）](Co-Consciousness.md) — *2025-10-14*
-- [非我感（Depersonalization）](Depersonalization.md) — *2025-10-14*
+- [非我感（Depersonalization）](Not-Me-Feeling.md) — *2025-10-14*
 - [去现实化（Derealization）](Derealization.md) — *2025-10-14*
 - [解离（Dissociation）](Dissociation.md) — *2025-10-14*
 - [侵入性思维（Intrusive Thoughts）](Intrusive-Thoughts.md) — *2025-10-14*

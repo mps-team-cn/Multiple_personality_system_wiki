@@ -158,7 +158,7 @@
         * [退行（Regression）](entries/Regression.md)
         * [醉酒解离（Alcohol-Induced Dissociation）](entries/Alcohol-Induced-Dissociation.md)
         * [重构（Reconstruction）](entries/Reconstruction.md)
-        * [非我感（Depersonalization）](entries/Depersonalization.md)
+        * [非我感（Depersonalization）](entries/Not-Me-Feeling.md)
     * [实践指南](entries/Practice-index.md)
         * [Tulpa 完全创造指南·基础篇](entries/Tulpa-Guide-1.md)
         * [Tulpa 完全创造指南·实践篇](entries/Tulpa-Guide-2.md)

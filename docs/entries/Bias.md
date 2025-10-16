@@ -90,7 +90,7 @@ Median 体验、半多意识体、半分离系统
 - [混合型系统（Mixed Systems, Xianyu Theory）](Mixed-Systems-Xianyu.md)
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](OCD.md)
 - [T 语（Tulpish）](Tulpish.md)
-- [非我感（Depersonalization）](Depersonalization.md)
+- [非我感（Depersonalization）](Not-Me-Feeling.md)
 
 ## 参考资料
 

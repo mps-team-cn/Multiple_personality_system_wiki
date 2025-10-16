@@ -103,7 +103,7 @@ comments: true
 - [碎片（Fragment）](Fragment.md)
 - [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)
 - [迭代（Iteration）](Iteration.md)
-- [非我感（Depersonalization）](Depersonalization.md)
+- [非我感（Depersonalization）](Not-Me-Feeling.md)
 - [创伤（Trauma）](Trauma.md)
 - [去现实化（Derealization）](Derealization.md)
 - [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)

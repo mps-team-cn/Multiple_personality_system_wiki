@@ -51,8 +51,8 @@ comments: true
 - [迭代（Iteration）](Iteration.md) 与 [重构（Reconstruction）](Reconstruction.md)：记录系统对内部结构的持续优化。
 - [退行（Regression）](Regression.md)：解析退行与 DID 系统的关联，并区分年龄退行与儿童人格的功能。
 - [侵入性思维](Intrusive-Thoughts.md)：处理突如其来的念头、影像或语句。
-- [醉酒解离](Alcohol-Induced-Dissociation.md)：探讨酒精对意识分离的影响。
-- [非我感（Depersonalization）](Depersonalization.md) 与 [去现实化](Derealization.md)：区分常见解离体验并提供稳定技巧。
+- [醉酒解离](Alcohol-Induced-Dissociation.md)：描述解离发作时类似醉酒状态但并未摄入酒精的主观体验。
+- [非我感（Not-me Feeling）](Not-Me-Feeling.md) 与 [去现实化](Derealization.md)：区分系统内身份边界感知与外界失真体验，并提供稳定技巧。
 
 ## 结构类型与治理策略
 

@@ -53,7 +53,7 @@ Stress Response、压力反应、战斗或逃跑反应
 
 ## 相关条目
 
-- [非我感（Depersonalization）](Depersonalization.md)
+- [非我感（Depersonalization）](Not-Me-Feeling.md)
 - [迭代（Iteration）](Iteration.md)
 - [封存（Sequestration）](Sequestration.md)
 - [意识修改（Consciousness Modification）](Consciousness-Modification.md)

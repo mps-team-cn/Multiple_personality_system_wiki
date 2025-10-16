@@ -41,7 +41,7 @@ comments: true
 - [重构（Reconstruction）](Reconstruction.md)
 - [融合（Fusion）](Fusion.md)
 - [应激反应（Stress Response）](Stress-Response.md)
-- [非我感（Depersonalization）](Depersonalization.md)
+- [非我感（Depersonalization）](Not-Me-Feeling.md)
 - [意识修改（Consciousness Modification）](Consciousness-Modification.md)
 - [封存（Sequestration）](Sequestration.md)
 - [人格职能（System Roles）](System-Roles.md)

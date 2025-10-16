@@ -32,7 +32,7 @@ comments: true
 ## 关联词条
 
 - [身份解体（Dissociation）](Dissociation.md)
-- [非我感（Depersonalization）](Depersonalization.md)
+- [非我感（Depersonalization）](Not-Me-Feeling.md)
 - [独立性（Independence）](Independence.md)
 
 ## 相关条目

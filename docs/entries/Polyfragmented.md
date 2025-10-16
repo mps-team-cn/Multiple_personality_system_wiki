@@ -92,7 +92,7 @@ comments: true
 - [成员（Alter）](Alter.md)
 - [初始（Original）](Original.md)
 - [迭代（Iteration）](Iteration.md)
-- [非我感（Depersonalization）](Depersonalization.md)
+- [非我感（Depersonalization）](Not-Me-Feeling.md)
 
 ## 参考与延伸阅读
 
