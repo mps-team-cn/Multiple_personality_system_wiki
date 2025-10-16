@@ -14,6 +14,7 @@ comments: true
 
 ## 词条一览
 
+- [并行（Parallelism）](Parallelism.md) — *2025-10-17*
 - [失忆（Amnesia）](Amnesia.md) — *2025-10-16*
 - [自动驾驶（Autopilot）](Autopilot.md) — *2025-10-16*
 - [后台（Back / Being Back）](Back-Being-Back.md) — *2025-10-16*
@@ -57,7 +58,6 @@ comments: true
 - [记忆屏蔽（Memory Shielding）](Memory-Shielding.md) — *2025-10-13*
 - [混合型系统（Mixed Systems, Xianyu Theory）](Mixed-Systems-Xianyu.md) — *2025-10-13*
 - [神经多样性（Neurodiversity）](Neurodiversity.md) — *2025-10-13*
-- [并行（Parallelism）](Parallelism.md) — *2025-10-13*
 - [权限（Permissions）](Permissions.md) — *2025-10-13*
 - [投影（Projection）](Projection.md) — *2025-10-13*
 - [单一类系统（Single-Class Systems, Xianyu Theory）](Single-Class-Systems-Xianyu.md) — *2025-10-13*
