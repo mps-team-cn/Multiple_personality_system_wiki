@@ -173,6 +173,11 @@ def main():
         lines = []
         lines.append("---")
         lines.append(f"title: {topic}")
+        lines.append(f"topic: {topic}")
+        lines.append("tags:")
+        lines.append("  - 索引")
+        lines.append("  - 主题导览")
+        lines.append(f"updated: {datetime.now().strftime('%Y-%m-%d')}")
         lines.append("comments: true")
         lines.append("---")
         lines.append("")
