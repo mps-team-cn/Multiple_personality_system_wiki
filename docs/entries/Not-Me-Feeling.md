@@ -1,17 +1,20 @@
 ---
 tags:
-  - 系统运作
-  - 多重意识体
-  - 解离
-  - 身份边界
+
+    - 系统运作
+    - 多重意识体
+    - 解离
+    - 身份边界
 
 topic: 系统运作
 synonyms:
-  - Not-me 感
-  - 他者感
-  - 身份异化感
-  - 感知区分
-  - 感知壁垒
+
+    - Not-me 感
+    - 他者感
+    - 身份异化感
+    - 感知区分
+    - 感知壁垒
+
 description: 非我感（Not-me Feeling）体验详解：多意识体系统中识别成员边界的核心体验，理解"那不是我"的身份区隔机制
 title: 非我感（Not-me Feeling）
 updated: 2025-10-16
@@ -27,7 +30,7 @@ comments: true
     本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
 !!! note "术语区分"
-    本词条讨论的是多意识体系统中的**非我感（Not-me Feeling）**，用于识别成员间的身份边界。关于临床解离症状中的**人格解体（Depersonalization）**，请参见《[人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)》。
+    本词条讨论的是多意识体系统中的 **非我感（Not-me Feeling）**，用于识别成员间的身份边界。关于临床解离症状中的 **人格解体（Depersonalization）**，请参见《[人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)》。
 
 ## 定义
 

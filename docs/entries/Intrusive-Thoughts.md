@@ -8,7 +8,7 @@ tags:
 
 topic: 系统运作
 title: 侵入性思维（Intrusive Thoughts）
-updated: 2025-10-14
+updated: 2025-10-16
 synonyms:
 
 - 侵入性思维

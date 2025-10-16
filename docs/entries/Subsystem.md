@@ -8,7 +8,7 @@ tags:
 
 topic: 系统运作
 title: 子系统（Subsystem）
-updated: 2025-10-13
+updated: 2025-10-16
 synonyms:
 
 - 子系统

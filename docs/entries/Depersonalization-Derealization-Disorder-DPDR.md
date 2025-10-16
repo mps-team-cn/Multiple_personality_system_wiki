@@ -9,7 +9,7 @@ tags:
 topic: 诊断与临床
 description: 人格解体/现实解体障碍（DPDR）权威指南：诊断标准、临床表现与治疗方法。掌握持续性解离体验的识别与康复策略
 title: 人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）
-updated: 2025-10-14
+updated: 2025-10-16
 comments: true
 ---
 
@@ -25,10 +25,10 @@ comments: true
 
 ## 概述
 
-人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）是一种以 **持续或反复的疏离体验与非真实感** 为核心特征的[解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)。患者体验到对自我或身体的疏离（[人格解体](#人格解体症状)）与/或外界显得陌生、失真或如梦（[现实解体](Derealization.md)），虽然现实检验能力通常保留，但这些体验会引发显著痛苦或功能受损。多数研究认为，DPDR 常与急性压力、长期[创伤（Trauma）](Trauma.md)、焦虑或抑郁发作相关，是一种在压力环境下形成的保护性心理机制。ICD-11 将 DPDR 编码为 6B65；DSM-5-TR 则使用 Depersonalization/Derealization Disorder 这一诊断名称。
+人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）是一种以 **持续或反复的疏离体验与非真实感** 为核心特征的[解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)。患者体验到对自我或身体的疏离([人格解体](#人格解体症状))与/或外界显得陌生、失真或如梦([现实解体](Derealization.md))，虽然现实检验能力通常保留，但这些体验会引发显著痛苦或功能受损。多数研究认为，DPDR 常与急性压力、长期[创伤（Trauma）](Trauma.md)、焦虑或抑郁发作相关，是一种在压力环境下形成的保护性心理机制。ICD-11 将 DPDR 编码为 6B65；DSM-5-TR 则使用 Depersonalization/Derealization Disorder 这一诊断名称。
 
 !!! note "术语区分"
-    本词条讨论的是临床解离症状中的**人格解体（Depersonalization）**，这是 DPDR 的核心症状之一。关于多意识体系统中用于识别成员边界的**非我感（Not-me Feeling）**，请参见《[非我感（Not-me Feeling）](Not-Me-Feeling.md)》。
+    本词条讨论的是临床解离症状中的 **人格解体（Depersonalization）**，这是 DPDR 的核心症状之一。关于多意识体系统中用于识别成员边界的 **非我感（Not-me Feeling）**，请参见《[非我感（Not-me Feeling）](Not-Me-Feeling.md)》。
 
 ---
 

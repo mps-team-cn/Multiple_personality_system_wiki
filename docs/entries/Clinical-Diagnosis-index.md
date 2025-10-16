@@ -21,6 +21,7 @@ comments: true
 - [大麻相关障碍（Cannabis-Related Disorders）](Cannabis-Related-Disorders.md) — *2025-10-16*
 - [沟通障碍（Communication Disorders）](Communication-Disorders.md) — *2025-10-16*
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md) — *2025-10-16*
+- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](Depersonalization-Derealization-Disorder-DPDR.md) — *2025-10-16*
 - [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](Narcissistic-Personality-Disorder-NPD.md) — *2025-10-16*
 - [阿片类相关障碍（Opioid-Related Disorders）](Opioid-Related-Disorders.md) — *2025-10-16*
 - [分裂样障碍（Schizophreniform Disorder）](Schizophreniform-Disorder.md) — *2025-10-16*
@@ -60,7 +61,6 @@ comments: true
 - [环性心境障碍（Cyclothymic Disorder）](Cyclothymic-Disorder.md) — *2025-10-14*
 - [谵妄（Delirium）](Delirium.md) — *2025-10-14*
 - [依赖型人格障碍（Dependent Personality Disorder，DPD）](Dependent-Personality-Disorder-DPD.md) — *2025-10-14*
-- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](Depersonalization-Derealization-Disorder-DPDR.md) — *2025-10-14*
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md) — *2025-10-14*
 - [解离性遗忘（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md) — *2025-10-14*
 - [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md) — *2025-10-14*

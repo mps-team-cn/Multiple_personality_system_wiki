@@ -9,7 +9,7 @@ tags:
 topic: 系统运作
 description: 创伤触发（Trigger）的识别、管理与应对策略。了解触发机制、如何建立触发清单及有效的预防与缓解方法
 title: 触发（Trigger）
-updated: 2025-10-14
+updated: 2025-10-16
 comments: true
 ---
 

@@ -8,7 +8,7 @@ tags:
 
 topic: 系统运作
 title: 应激反应（Stress Response）
-updated: 2025-10-13
+updated: 2025-10-16
 comments: true
 ---
 

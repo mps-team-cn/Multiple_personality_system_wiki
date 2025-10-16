@@ -27,6 +27,7 @@ comments: true
 - [初始（Original）](Original.md) — *2025-10-16*
 - [执行者（Performer / Executive）](Performer-Executive.md) — *2025-10-16*
 - [迫害者（Persecutor）](Persecutor.md) — *2025-10-16*
+- [超级破碎（Polyfragmented）](Polyfragmented.md) — *2025-10-16*
 - [保护者（Protector）](Protector.md) — *2025-10-16*
 - [社交者（Social）](Social.md) — *2025-10-16*
 - [人格职能（System Roles）](System-Roles.md) — *2025-10-16*
@@ -46,7 +47,6 @@ comments: true
 - [幻想伙伴（Imaginary Companion）](Imaginary-Companion.md) — *2025-10-13*
 - [主体（Main）](Main.md) — *2025-10-13*
 - [人格面具（Persona）](Persona.md) — *2025-10-13*
-- [超级破碎（Polyfragmented）](Polyfragmented.md) — *2025-10-13*
 - [傀儡（Servitor）](Servitor.md) — *2025-10-13*
 - [系魂（Soulbond）](Soulbond.md) — *2025-10-13*
 - [自发型（Spontaneous）](Spontaneous.md) — *2025-10-13*
