@@ -22,7 +22,7 @@
 {% if "content.action.view" in config.theme.features %}
   {% if page.edit_url %}
     <a
-      href="{{ page.edit_url | replace('edit', 'blob') }}"
+      href="{{ page.edit_url | replace('/edit/', '/blob/') }}"
       title="在 GitHub 上查看源代码"
       class="md-content__button md-icon"
       rel="noopener"
