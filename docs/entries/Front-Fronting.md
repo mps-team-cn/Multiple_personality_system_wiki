@@ -15,7 +15,7 @@ comments: true
 
 # 前台（Front / Fronting）
 
-**一句话定义** ：前台指当下占据身体、直接与外部环境互动的成员状态； **执掌（fronting）** 则是该成员取得与维持外界控制权的过程。
+**一句话定义** ：前台指当下占据身体、直接与外部环境互动的成员状态；执掌（fronting）则是该成员取得与维持外界控制权的过程。
 
 ## 定义
 
@@ -26,7 +26,7 @@ comments: true
 - **与共前台（Co-fronting）** ：共前台是多人同时处于前台并共享控制；单人前台则由一位成员主导，其他人处于观察或后台。
 - **与切换（Switch）** ：切换描述前台控制权从 A 转为 B 的过程；前台是某一时点的“谁在掌控”。
 - **与后台（Back / Being Back）** ：后台指未直接控制身体、更多在内部活动或休息的状态，可保持不同程度的觉察。
-- **与“执行控制/呈现部分（ANP）”** ：在结构性解离框架中，前台常由更“面向日常”的部分掌控，但前台并不等同于 ANP/EP 的理论分类，二者关注层面不同（现象 vs. 结构）。参见 [结构性解离理论](Structural-Dissociation-Theory.md) 与 [ANP-EP 模型](Apparently-Normal-Part-Emotional-Part-Model.md)。
+- **与“执行控制/呈现部分（ANP）”** ：在结构性解离框架中，前台常由更“面向日常”的部分掌控，但前台并不等同于 ANP/EP 的理论分类，二者关注层面不同（现象 vs. 结构）。参见 [结构性解离理论](Structural-Dissociation-Theory.md) 与 [ANP-EP 模型](Apparently-Normal-Part-Emotional-Part-Model.md)。[^vanderhart2006-ffront]
 
 ## 何时关注 / 何时不建议
 
@@ -82,5 +82,5 @@ comments: true
 
 [^pluralpedia-front]: Pluralpedia. (2024). [Fronting](https://pluralpedia.org/w/Fronting).
 [^reinders2012]: Reinders, A. A. T. S., Willemsen, A. T. M., Vos, H. P. J., den Boer, J. A., & Nijenhuis, E. R. S. (2012). Fact or factitious? A psychobiological study of authentic and simulated dissociative identity states. *PLoS ONE*, 7(6), e39279.
- - International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. _Journal of Trauma & Dissociation_, 12(2), 115–187.
- - Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization. W. W. Norton.
+[^isstd2011-ffront]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. _Journal of Trauma & Dissociation_, 12(2), 115–187.
+[^vanderhart2006-ffront]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization. W. W. Norton.

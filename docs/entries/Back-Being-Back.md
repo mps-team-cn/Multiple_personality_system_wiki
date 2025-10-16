@@ -35,7 +35,7 @@ comments: true
     - 切换频繁导致信息遗失，需要异步沟通渠道。
 - **不建议加码复杂度的情境** ：
     - 外部处境风险高（驾驶、操作机械、高处作业等）；
-    - 系统整体失稳（强触发、定向力差），应先恢复基本安全与前台稳定。
+    - 系统整体失稳（强触发、定向力差），应先恢复基本安全与前台稳定。[^isstd2011-back]
 
 ## 前后台交接（范例流程）
 
@@ -54,7 +54,7 @@ comments: true
 
 - **共享日志** ：使用外部日记/看板进行异步沟通，减少误解与信息丢失。[^pluralpedia-back]
 - **固定休息模块** ：为常见后台者设计“可复制”的休息方案（音乐、呼吸、可视化），防止长期待命消耗。
-- **治疗对话** ：前台/后台隐喻有助于描述体验差异，便于与专业人员对齐讨论重点。
+- **治疗对话** ：前台/后台隐喻有助于描述体验差异，便于与专业人员对齐讨论重点。[^brand2014-back]
 
 ## 常见误解
 
@@ -78,5 +78,5 @@ comments: true
 
 [^pluralpedia-back]: Pluralpedia. (2024). [Back](https://pluralpedia.org/w/Back).
 [^stone2021]: Stone, M. (2021). Managing front/back balance in plural systems. _Plural Practice Notes_, 4(1), 8–15.
- - International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. _Journal of Trauma & Dissociation_, 12(2), 115–187.
- - Brand, B. L., & Loewenstein, R. J. (2014). Dissociative disorders: An overview of assessment, phenomenology, and treatment. _Psychiatric Times_, 31(1), 48–53.
+[^isstd2011-back]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. _Journal of Trauma & Dissociation_, 12(2), 115–187.
+[^brand2014-back]: Brand, B. L., & Loewenstein, R. J. (2014). Dissociative disorders: An overview of assessment, phenomenology, and treatment. _Psychiatric Times_, 31(1), 48–53.
