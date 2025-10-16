@@ -240,7 +240,13 @@ comments: true
 ???+ abstract "展开查看"
 
     - [物质使用障碍总览（SUD）](Substance-Use-Disorders-SUD.md) — :octicons-check-16: 已完成
-    - 酒精使用障碍（Alcohol Use Disorder）、阿片类使用障碍（Opioid Use Disorder）、大麻/兴奋剂/致幻剂等相关障碍 — :octicons-clock-16: 待更新
+    - [酒精相关障碍（Alcohol-Related Disorders）](Alcohol-Related-Disorders.md) — :octicons-check-16: 已完成
+    - [大麻相关障碍（Cannabis-Related Disorders）](Cannabis-Related-Disorders.md) — :octicons-check-16: 已完成
+    - [阿片类相关障碍（Opioid-Related Disorders）](Opioid-Related-Disorders.md) — :octicons-check-16: 已完成
+    - [镇静催眠抗焦虑药相关障碍（Sedative-Hypnotic-Anxiolytic-Related Disorders）](Sedative-Hypnotic-Anxiolytic-Related-Disorders.md) — :octicons-check-16: 已完成
+    - [兴奋剂相关障碍（Stimulant-Related Disorders）](Stimulant-Related-Disorders.md) — :octicons-check-16: 已完成
+    - [烟草相关障碍（Tobacco-Related Disorders）](Tobacco-Related-Disorders.md) — :octicons-check-16: 已完成
+    - [咖啡因相关障碍（Caffeine-Related Disorders）](Caffeine-Related-Disorders.md) — :octicons-check-16: 已完成
     - 非物质成瘾：赌博障碍（Gambling Disorder）等 — :octicons-clock-16: 待更新
 
 ### 17) 神经认知障碍
@@ -407,13 +413,6 @@ comments: true
 > 这些主题 **不是 DSM-5-TR 的独立精神诊断**，但在问诊、转诊与随访中非常关键。
 
 - [癫痫（Epilepsy）](Epilepsy.md) — :octicons-check-16: 已完成
-    - **核心要点**：
-
-    1) **精神症状谱系**：发作前后可见情绪/焦虑、精神病性症状（尤其颞叶癫痫）、认知波动。
-    2) **药物影响**：部分抗癫痫药（如左乙拉西坦、托吡酯等）可能引起/加重情绪症状或认知副作用；也有药物（如丙戊酸）对情绪稳定有益。
-    3) **鉴别路径**：发作时相关系（先兆-发作-发作后）、EEG/影像学、与 **酒精/睡眠剥夺/感染** 等诱因关联；与 **NCD/谵妄/精神分裂谱系/心境障碍** 的区分要点。
-    4) **转诊与协作**：神经科/精神科联合评估；若出现自伤风险、严重行为改变或药物相互作用疑虑，需升级处置。
-
 - 颅脑外伤（TBI）— :octicons-clock-16: 待更新
 - 脑肿瘤与占位性病变 — :octicons-clock-16: 待更新
 - 中枢神经感染/炎症性疾病（如自身免疫性脑炎）— :octicons-clock-16: 待更新
