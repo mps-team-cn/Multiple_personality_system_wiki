@@ -61,7 +61,7 @@ def _load_entry_documents(ignore: IgnoreRules) -> OrderedDict[Path, EntryDocumen
     if DOCS_DIR.exists():
         guide_patterns = [
             "*-Guide.md",  # 所有以 -Guide.md 结尾的文件
-            "*-Operations.md",  # System-Operations.md 等
+            "*-Operations-Guide.md",  # System-Operations-Guide.md 等
             "DSM-ICD-*.md",  # DSM-ICD-Diagnosis-Index.md 等
             "Glossary.md",  # 术语表
         ]

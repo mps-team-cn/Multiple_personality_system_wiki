@@ -78,7 +78,7 @@ comments: true
 
 虽然以下词条属于其他主题，但在练习过程中常被并行参考：
 
-- [系统运作导览](System-Operations.md)：帮助规划前台交接与内部协作。
+- [系统运作导览](System-Operations-Guide.md)：帮助规划前台交接与内部协作。
 - [角色与身份导览](Roles-Identity-Guide.md)：协助理解成员职能与边界。
 - [创伤与疗愈导览](Trauma-Healing-Guide.md)：若练习触发旧创伤，可按需使用接地与调节技巧。
 - [正念（Mindfulness）](Mindfulness.md)：当需要更细致的觉察练习时，可作为补充教材。

@@ -95,7 +95,7 @@ updated: YYYY-MM-DD
 | 词条主题 | 对应 Guide 文件 | 示例内容 |
 |---------|----------------|---------|
 | **诊断与临床** | `Clinical-Diagnosis-Guide.md` | DID, OSDD, CPTSD, 焦虑障碍, 情绪障碍 |
-| **系统运作** | `System-Operations.md` | 前台切换, 共同意识, 记忆管理, 内部空间 |
+| **系统运作** | `System-Operations-Guide.md` | 前台切换, 共同意识, 记忆管理, 内部空间 |
 | **实践指南** | `Practice-Guide.md` | Tulpa三阶段, 冥想, 可视化, 接地技巧 |
 | **创伤与疗愈** | `Trauma-Healing-Guide.md` | 创伤机理, PTSD症状, 三阶段治疗模型 |
 | **角色与身份** | `Roles-Identity-Guide.md` | 宿主, 守门人, 保护者, 照护者 |

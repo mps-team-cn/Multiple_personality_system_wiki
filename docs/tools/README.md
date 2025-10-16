@@ -22,6 +22,12 @@
 | `tools/processors/links.py` | 链接检查器,验证内部链接完整性和格式规范                                                                                     | `python -m tools.processors.links` (开发中)     |
 | `tools/processors/tags.py`  | 标签处理器,提供智能标签提取、归一化和索引生成                                                                                  | `python -m tools.processors.tags` (开发中)      |
 
+### 自动化构建工具
+
+| 脚本/模块                                                        | 功能摘要                                                              | 常用用法                                                                                                |
+| ------------------------------------------------------------ | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `tools/build_partitions_cn.py`                               | 自动生成主题分区索引页，根据词条的 topic 字段聚合分类，构建时自动运行                       | MkDocs 构建时自动执行，也可手动运行：`python3 tools/build_partitions_cn.py`                                          |
+
 ### 传统脚本(保留兼容)
 
 | 脚本/模块                                                        | 功能摘要                                                              | 常用用法                                                                                                |
@@ -613,6 +619,140 @@ mkdocs build  # 重新构建
 
 - 完整流程说明：[docs/dev/AI-Dictionary-Generation.md](../dev/AI-Dictionary-Generation.md)
 - 包含三阶段详细步骤、AI 审核 Prompt 模板、质量控制策略
+
+### 📂 主题分区索引生成 (`tools/build_partitions_cn.py`)
+
+**功能概述**：
+
+自动根据词条 Frontmatter 中的 `topic` 字段生成七个主题分区的聚合索引页，提供按主题浏览词条的便捷方式。
+
+**七大主题分区**：
+
+1. **诊断与临床** - DID、OSDD、PTSD 等诊断相关词条
+2. **系统运作** - 切换、共识、内世界等系统机制
+3. **实践指南** - Tulpa 创造、接地技巧等实用指南
+4. **创伤与疗愈** - 创伤处理、疗愈方法、心理治疗
+5. **角色与身份** - 人格、主人格、守门人等角色定义
+6. **理论与分类** - 结构性解离理论、分类体系等
+7. **文化与表现** - 文学、影视作品中的多重人格表现
+
+**工作原理**：
+
+1. 扫描 `docs/entries/` 下的所有词条文件
+2. 读取每个词条的 `topic` 字段
+3. 按主题分类聚合词条信息（标题、路径、更新时间）
+4. 为每个主题生成独立的索引页（如 `诊断与临床-index.md`）
+5. 按更新时间降序排列词条列表
+
+**自动化集成**：
+
+- ✅ 通过 `mkdocs-gen-files` 插件在构建时自动运行
+- ✅ 每次 `mkdocs build` 或 `mkdocs serve` 时自动更新
+- ✅ 无需手动维护索引页面
+- ✅ CI/CD 流程中自动生成
+
+**手动运行**：
+
+```bash
+# 直接运行脚本生成索引页
+python3 tools/build_partitions_cn.py
+
+# 输出示例
+[gen] 已生成 7 个中文分区索引页。
+```
+
+**生成的索引页格式**：
+
+```markdown
+---
+title: 诊断与临床
+comments: true
+---
+
+# 诊断与临床
+
+> 本页汇总所有主题为「诊断与临床」的词条，原文档仍在 `entries/` 目录中。
+
+## 词条一览
+
+- [解离性身份障碍（DID）](DID.md) — *2025-10-14*
+- [其他特定解离性障碍（OSDD）](OSDD.md) — *2025-10-14*
+- [创伤后应激障碍（PTSD）](PTSD.md) — *2025-10-14*
+...
+```
+
+**配置要求**：
+
+1. **requirements.txt** - 已添加 `mkdocs-gen-files>=0.5.0`
+2. **mkdocs.yml** - 已配置 gen-files 插件：
+
+```yaml
+plugins:
+  - gen-files:
+      scripts:
+        - tools/build_partitions_cn.py
+```
+
+**词条要求**：
+
+每个词条的 Frontmatter 需包含 `topic` 字段：
+
+```yaml
+---
+title: 解离性身份障碍（DID）
+topic: 诊断与临床
+tags:
+  - DID
+  - 解离
+updated: 2025-10-14
+---
+```
+
+**注意事项**：
+
+- ⚠️ 只有包含有效 `topic` 字段的词条才会被收录
+- ⚠️ `topic` 必须是七个预定义主题之一
+- ⚠️ 自动跳过索引页（`*-index.md`）和导览页（`*-Guide.md`）
+- ⚠️ 如果词条没有 `updated` 字段，会显示在列表末尾
+- 💡 生成的索引页位于 `docs/entries/` 目录，与词条同级
+
+**生成文件清单**：
+
+- `Clinical-Diagnosis-index.md` - 诊断与临床索引
+- `System-Operations-index.md` - 系统运作索引
+- `Practice-index.md` - 实践指南索引
+- `Trauma-Healing-index.md` - 创伤与疗愈索引
+- `Roles-Identity-index.md` - 角色与身份索引
+- `Theory-Classification-index.md` - 理论与分类索引
+- `Cultural-Media-index.md` - 文化与表现索引
+- `SUMMARY.md` - 侧边栏导航配置（自动生成）
+
+**导航集成**：
+
+脚本自动生成 `docs/SUMMARY.md` 文件,控制 MkDocs Material 的侧边栏导航。导航结构包括:
+
+1. **主题索引页** - 每个主题的汇总页面
+2. **所有词条** - 按标题首字母排序,方便查找
+3. **字母分组** - 中文词条按拼音首字母,英文词条按字母排序
+
+**字母分组逻辑**：
+
+- 中文词条：自动转换为拼音首字母（如 "解离" → J 组）
+- 英文词条：直接取首字母（如 "ANP-EP" → A 组）
+- 特殊字符：归类到 # 组（如《书名》等）
+
+这确保了点进任何词条后,左侧侧边栏都能显示同主题的其他词条,便于用户浏览和导航。
+
+**SUMMARY.md 示例**：
+
+```markdown
+* 主题分区
+    * [诊断与临床](entries/Clinical-Diagnosis-index.md)
+        * [DSM-5-TR 评估量表总览](entries/DSM-5TR-Scales.md)
+        * [习得性无助（Learned Helplessness）](entries/Learned-Helplessness.md)
+        * [人格分裂（Split Personality，非正式术语）](entries/Split-Personality.md)
+        * ...
+```
 
 ### PDF 导出目录生成逻辑
 

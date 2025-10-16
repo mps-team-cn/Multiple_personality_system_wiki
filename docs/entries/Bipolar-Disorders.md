@@ -9,6 +9,15 @@ tags:
 topic: 诊断与临床
 description: 概述双相障碍的诊断标准、临床表现、共病风险与治疗策略，辅助多意识体系统管理情绪波动与危机预防。
 title: 双相障碍（Bipolar Disorders）
+synonyms:
+  - 躁郁症
+  - 双向情感障碍
+  - 双极性障碍
+  - 情感性精神病
+  - BD
+  - Bipolar Disorder
+  - Manic-Depressive Illness
+  - 躁狂抑郁症
 updated: 2025-10-15
 comments: true
 ---
