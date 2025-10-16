@@ -22,6 +22,7 @@ comments: true
 - [独有记忆（Exomemory）](Exomemory.md) — *2025-10-16*
 - [前台（Front / Fronting）](Front-Fronting.md) — *2025-10-16*
 - [融合（Fusion）](Fusion.md) — *2025-10-16*
+- [内部空间（Headspace / Inner World）](Headspace-Inner-World.md) — *2025-10-16*
 - [独立性（Independence）](Independence.md) — *2025-10-16*
 - [整合（Integration）](Integration.md) — *2025-10-16*
 - [内部沟通（Internal Communication）](Internal-Communication.md) — *2025-10-16*
@@ -34,7 +35,6 @@ comments: true
 - [非我感（Depersonalization）](Depersonalization.md) — *2025-10-14*
 - [去现实化（Derealization）](Derealization.md) — *2025-10-14*
 - [解离（Dissociation）](Dissociation.md) — *2025-10-14*
-- [内部空间（Headspace / Inner World）](Headspace-Inner-World.md) — *2025-10-14*
 - [侵入性思维（Intrusive Thoughts）](Intrusive-Thoughts.md) — *2025-10-14*
 - [多意识体系统（Multiple Personality System）](Multiple_Personality_System.md) — *2025-10-14*
 - [系统（System）](System.md) — *2025-10-14*

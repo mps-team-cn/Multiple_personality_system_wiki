@@ -21,7 +21,7 @@ synonyms:
 
 description: 内部空间（Headspace）构建指南：创建、维护与功能。探索系统成员的内在世界、可视化技术及内部环境对系统稳定性的作用
 title: 内部空间（Headspace / Inner World）
-updated: 2025-10-14
+updated: 2025-10-16
 comments: true
 ---
 
