@@ -2,8 +2,10 @@
 title: 创伤与疗愈
 topic: 创伤与疗愈
 tags:
-  - 索引
-  - 主题导览
+
+    - 索引
+    - 主题导览
+
 updated: 2025-10-16
 comments: true
 ---
@@ -22,7 +24,7 @@ comments: true
 - [眼动脱敏与再加工（Eye Movement Desensitization and Reprocessing, EMDR）](Eye-Movement-Desensitization-Reprocessing-EMDR.md) — *2025-10-13*
 - [内在家庭系统疗法（Internal Family Systems, IFS）](Internal-Family-Systems-IFS.md) — *2025-10-13*
 - [冥想（Meditation）](Meditation.md) — *2025-10-13*
-- [正念(Mindfulness)](Mindfulness.md) — *2025-10-13*
+- [正念（Mindfulness）](Mindfulness.md) — *2025-10-13*
 - [延长暴露疗法（Prolonged Exposure Therapy, PE）](Prolonged-Exposure-Therapy-PE.md) — *2025-10-13*
 - [自我照护工具箱](Self-Care-Toolkit.md) — *2025-10-13*
 - [感官调节策略（Sensory Regulation Strategies）](Sensory-Regulation-Strategies.md) — *2025-10-13*

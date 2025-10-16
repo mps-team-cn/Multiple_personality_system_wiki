@@ -2,8 +2,10 @@
 title: 系统运作
 topic: 系统运作
 tags:
-  - 索引
-  - 主题导览
+
+    - 索引
+    - 主题导览
+
 updated: 2025-10-16
 comments: true
 ---
@@ -40,7 +42,7 @@ comments: true
 - [独有记忆（Exomemory）](Exomemory.md) — *2025-10-13*
 - [外投射（External Projection）](External-Projection.md) — *2025-10-13*
 - [家族式系统（Family Systems, Xianyu Theory）](Family-Systems-Xianyu.md) — *2025-10-13*
-- [卡前台(Front Stuck / Frontstuck)](Frontstuck.md) — *2025-10-13*
+- [卡前台（Front Stuck / Frontstuck）](Frontstuck.md) — *2025-10-13*
 - [功能性分离（Functional Dissociation）](Functional-Dissociation.md) — *2025-10-13*
 - [头压（Head Pressure）](Head-Pressure.md) — *2025-10-13*
 - [独立性（Independence）](Independence.md) — *2025-10-13*
