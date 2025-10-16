@@ -1,5 +1,72 @@
 # 更新日志
 
+## [v3.13.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.13.0) - DSM-5-TR 诊断体系完善与 Favicon 支持 (2025-10-16)
+
+### ✨ 新增词条
+
+- **新增 12 个 DSM-5-TR 核心诊断词条**
+    - [焦虑障碍 (Anxiety Disorders)](entries/Anxiety-Disorders.md) - 焦虑障碍总览词条
+    - [退行 (Regression)](entries/Regression.md) - 心理防御机制与解离现象的重要概念
+    - [妄想障碍 (Delusional Disorder)](entries/Delusional-Disorder.md) - 持续性妄想但无精神分裂症谱系其他症状
+    - [短暂性精神病性障碍 (Brief Psychotic Disorder)](entries/Brief-Psychotic-Disorder.md) - 短期精神病性症状发作
+    - [分裂情感性障碍 (Schizoaffective Disorder)](entries/Schizoaffective-Disorder.md) - 精神分裂症与情感障碍的复合诊断
+    - [疾病焦虑障碍 (Illness Anxiety Disorder)](entries/Illness-Anxiety-Disorder.md) - 对患严重疾病的过度担忧
+    - [影响其他躯体疾病的心理因素 (Psychological Factors Affecting Other Medical Conditions)](entries/Psychological-Factors-Affecting-Other-Medical-Conditions.md)
+    - [储物障碍 (Hoarding Disorder)](entries/Hoarding-Disorder.md) - 强迫性储物行为
+    - [拔毛障碍 (Trichotillomania)](entries/Trichotillomania-Hair-Pulling-Disorder.md) - 反复拔除自己的毛发
+    - [抓挖障碍 (Excoriation Disorder)](entries/Excoriation-Skin-Picking-Disorder.md) - 反复抓挖皮肤导致损伤
+    - [经前焦虑障碍 (Premenstrual Dysphoric Disorder, PMDD)](entries/Premenstrual-Dysphoric-Disorder.md) - 月经前期的严重情绪症状
+    - [其他特定的和未特定的性别焦虑 (Other Specified/Unspecified Gender Dysphoria)](entries/Other-Specified-Unspecified-Gender-Dysphoria.md)
+
+### 📚 词条完善
+
+- **重构核心障碍词条**
+    - 重写双相障碍词条，对齐抑郁障碍和焦虑障碍格式标准
+    - 重命名 Anxiety.md 为 Anxiety-Disorders.md 并统一术语
+    - 完善重性抑郁障碍 (MDD) 词条，新增子类型说明与关联词条
+    - 强化解离性时间定向障碍指引内容
+
+- **词条关联优化**
+    - 完善 DID、OSDD、创伤相关词条的内部链接
+    - 增强 IAD 与 PFAOMC 的交叉互引
+    - 重命名儿童人格词条并更新退行相关链接
+    - 补充退行词条文献引用，重构核心特征与鉴别诊断
+
+- **导览体系改进**
+    - 增强临床诊断导览，新增神经系统疾病章节
+    - 更新 DSM5tr.md 完成状态标记
+    - 修正 DSM-5-TR 分类结构为官方 22 章标准
+
+### 🎨 界面与体验优化
+
+- **Favicon 多尺寸支持**
+    - 添加 7 种尺寸的 favicon 文件（16x16, 32x32, 48x48, 180x180, 192x192, 512x512）
+    - 配置 MkDocs Material 主题 favicon 支持
+    - 优化不同设备和浏览器的图标显示效果
+
+- **文档改进**
+    - 重构快速开始与贡献指南，采用 MkDocs Material 现代化组件
+    - 优化标题和导览结构
+
+### 🔧 基础设施改进
+
+- **CI/CD 优化**
+    - 优化 PR 检查工作流，完整执行所有检查后再报错
+    - 修复链接检查工具在单文件检查时排除列表不生效的问题
+    - 优化代码结构，减少 check_links.py 重复代码
+
+- **代码质量**
+    - 修复多个词条的链接错误
+    - 统一 UDD 文件命名为 SDD.md
+    - 修复 Premenstrual-Dysphoric-Disorder.md 链接错误
+
+### 🌐 其他改进
+
+- 添加 Logo 设计师到贡献者列表
+- 修复格式问题和提交优化
+
+---
+
 ## [v3.12.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.12.0) - 进食障碍词条扩充与 SEO 优化 (2025-10-14)
 
 ### ✨ 新增词条
