@@ -75,8 +75,8 @@ comments: true
 - [权限（Permissions）](Permissions.md)
 - [内视（Visualization / Imagination）](Visualization-Imagination.md)
 - [内部空间（Headspace / Inner World）](Headspace-Inner-World.md)
- - [结构性解离理论（Structural Dissociation Theory）](Structural-Dissociation-Theory.md)
- - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](Apparently-Normal-Part-Emotional-Part-Model.md)
+    - [结构性解离理论（Structural Dissociation Theory）](Structural-Dissociation-Theory.md)
+    - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](Apparently-Normal-Part-Emotional-Part-Model.md)
 
 ## 参考资料
 
