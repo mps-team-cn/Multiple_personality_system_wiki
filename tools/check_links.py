@@ -71,7 +71,7 @@ EXCLUDE_FILES = {
     # 元数据文档
     "docs/changelog.md",
     # README 文件
-    "docs/tools/README.md",
+    "docs/dev/Tools-Index.md",
     "docs/admin/README.md",
     "docs/assets/README.md",
     "docs/assets/uploads/README.md",

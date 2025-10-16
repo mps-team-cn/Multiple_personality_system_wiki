@@ -20,7 +20,7 @@
 
 - `docs/entries/` 保存所有词条，严禁创建子目录；分类信息通过 Frontmatter 的 `tags` 维护
 - `docs/` 其余文档（`README.md`、`Glossary.md`、索引、导览等）
-- `tools/` 存放脚本与自动化工具，更新后同步维护 `docs/tools/README.md`
+- `tools/` 存放脚本与自动化工具，更新后同步维护 `docs/dev/Tools-Index.md`
 - 静态资源统一置于 `docs/assets/`，下设 `figures/`、`images/`、`icons/`
 
 ### 条目与链接
@@ -108,7 +108,7 @@
 
 - 会话开始：校验约束 → 工具调用前：确认流程 → 回复前：核对检查清单
 - 词条编辑：检查 Frontmatter → 更新导览（格式和时间戳由 CI 自动处理）
-- 工具修改：同时更新 `docs/tools/README.md`
+- 工具修改：同时更新 `docs/dev/Tools-Index.md`
 - **CI 流程**：
   - PR 创建时：运行 `pr-check.yml` 检查链接和 Frontmatter（只检查不修复）
   - 合并到 main：运行 `auto-fix-entries.yml` 自动修复并提交
@@ -117,8 +117,8 @@
 
 ═══════════════════════════════════════
 
-- **关键概念**：Plurality、多重意识体；Docsify→MkDocs 迁移；Frontmatter；Conventional Commits；CI 双重检查
-- **重要路径**：`docs/contributing/`、`docs/TEMPLATE_ENTRY.md`、`docs/entries/`、`tools/`、`docs/tools/README.md`、`.github/workflows/`
+- **关键概念**：mps、多意识体；Docsify→MkDocs 迁移；Frontmatter；Conventional Commits；CI 双重检查
+- **重要路径**：`docs/contributing/`、`docs/TEMPLATE_ENTRY.md`、`docs/entries/`、`tools/`、`docs/dev/Tools-Index.md`、`.github/workflows/`
 - **CI 双重检查**：
   - PR 阶段（`.github/workflows/pr-check.yml`）：检查链接规范和 Frontmatter，不通过则阻止合并
   - 合并后（`.github/workflows/auto-fix-entries.yml`）：自动更新时间戳、修复格式、验证链接，然后触发部署

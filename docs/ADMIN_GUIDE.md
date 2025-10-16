@@ -587,7 +587,7 @@ gh release create v1.4.0 --notes-file docs/changelog.md
 | PR 流程  | `docs/contributing/pr-workflow.md`    |
 | 编写规范   | `docs/contributing/writing-guidelines.md` |
 | 开发约定   | `AGENTS.md`                           |
-| 工具文档   | `docs/tools/README.md`                |
+| 工具文档   | `docs/dev/Tools-Index.md`                |
 | 词条模板   | `docs/TEMPLATE_ENTRY.md`              |
 | GitHub 工作流 | `docs/GITHUB_WORKFLOW.md`             |
 

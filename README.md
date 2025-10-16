@@ -171,7 +171,7 @@ plurality_wiki/
 
 ## 🤖 自动化维护
 
-根目录下的 `tools/` 目录集中存放了协助批量处理、检查与发布的脚本，可与 CI 流程搭配使用。更完整的说明与后续更新请参见 [`docs/tools/README.md`](docs/tools/README.md)。
+根目录下的 `tools/` 目录集中存放了协助批量处理、检查与发布的脚本，可与 CI 流程搭配使用。更完整的说明与后续更新请参见 [`docs/dev/Tools-Index.md`](docs/dev/Tools-Index.md)。
 
 ### 核心工具
 

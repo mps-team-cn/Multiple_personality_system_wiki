@@ -49,7 +49,7 @@
 | `docs/entries/` | **词条存放** | ❌ 不得创建子目录，分类通过 Frontmatter `tags` 声明 |
 | `docs/` | **核心文档** | `index.md`, `README.md`, `Glossary.md` 等 |
 | `docs/contributing/` | **贡献指南** | 拆分为多个专题文档 |
-| `docs/tools/README.md` | **工具文档** | 脚本说明与使用指南 |
+| `docs/dev/Tools-Index.md` | **工具文档** | 脚本说明与使用指南 |
 | `tools/` | **脚本与工具** | 所有自动化工具 |
 | `docs/assets/` | **静态资源** | CSS, JS, 图片等 |
 | `docs/assets/figures/` | **图表资源** | 流程图、示意图、SVG |
@@ -181,7 +181,7 @@ updated: YYYY-MM-DD
 !!! info "工具位置"
 
     - **代码**：`tools/` 目录
-    - **文档**：`docs/tools/README.md`（必须同步维护）
+    - **文档**：`docs/dev/Tools-Index.md`（必须同步维护）
 
 ### 📦 PDF 导出工具规范
 
@@ -195,7 +195,7 @@ updated: YYYY-MM-DD
 | **兼容性** | 注意 LaTeX/Markdown 转换的跨平台兼容与转义 |
 
 !!! warning "文档同步要求"
-    修改导出逻辑后，**必须同步更新** `docs/tools/README.md`。
+    修改导出逻辑后，**必须同步更新** `docs/dev/Tools-Index.md`。
 
 ---
 
@@ -427,7 +427,7 @@ python -m compileall tools/
     | ✅ | 遵守 markdownlint | 格式规范 |
     | ✅ | 提交前运行检查 | `fix_markdown.py` + `check_links.py` + `markdownlint` |
     | ✅ | PR 说明方法来源 | 正则/脚本名/范围等 |
-    | ✅ | 同步维护工具文档 | `docs/tools/README.md` |
+    | ✅ | 同步维护工具文档 | `docs/dev/Tools-Index.md` |
     | ❌ | 禁止无法追溯的证据 | 需可验证来源 |
     | ❌ | 禁止破坏索引/链接 | 保持引用完整性 |
     | ⚠️ | 大规模操作附回滚指引 | 格式化/重构等 |
@@ -573,7 +573,7 @@ mkdocs build --strict
 |------|------|
 | 词条模板 | `docs/TEMPLATE_ENTRY.md` |
 | 贡献指南 | `docs/contributing/` |
-| 工具说明 | `docs/tools/README.md` |
+| 工具说明 | `docs/dev/Tools-Index.md` |
 | 管理员指南 | `docs/ADMIN_GUIDE.md` |
 | GitHub 工作流 | `docs/GITHUB_WORKFLOW.md` |
 
