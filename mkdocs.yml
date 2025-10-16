@@ -265,7 +265,8 @@ plugins:
         - assets/*
         - includes/*
         - entries/*-Guide.md
-        - entries/System-Operations-Guide.md
+        - entries/*-index.md
+        - SUMMARY.md
 
   - tags
 
