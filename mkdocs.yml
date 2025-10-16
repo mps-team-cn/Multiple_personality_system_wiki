@@ -18,6 +18,12 @@ theme:
 
   # 颜色配置
   palette:
+    # 跟随系统
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: 切换到浅色模式
+
     # 浅色模式
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -33,8 +39,8 @@ theme:
       primary: teal
       accent: cyan
       toggle:
-        icon: material/brightness-4
-        name: 切换到浅色模式
+        icon: material/weather-night
+        name: 切换到跟随系统
 
   # 字体配置（禁用默认 Google Fonts，使用自定义加载）
   font: false
