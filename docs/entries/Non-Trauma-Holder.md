@@ -1,15 +1,19 @@
 ---
 title: 无创伤记忆者（Non-Trauma Holder）
 tags:
-  - 角色与身份
-  - 多重意识体
-  - 记忆与解离
+
+    - 角色与身份
+    - 多重意识体
+    - 记忆与解离
+
 topic: 角色与身份
 synonyms:
-  - 无创伤记忆者
-  - Non-Trauma Holder
-  - 无创伤成员
-  - Non-Traumatic Alter
+
+    - 无创伤记忆者
+    - Non-Trauma Holder
+    - 无创伤成员
+    - Non-Traumatic Alter
+
 description: 未直接承载创伤记忆的系统成员，可能对系统创伤史缺乏觉察或仅了解部分信息
 updated: 2025-10-16
 comments: true

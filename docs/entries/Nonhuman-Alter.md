@@ -1,17 +1,21 @@
 ---
 title: 非人类成员（Nonhuman Alter）
 tags:
-  - 角色与身份
-  - 多重意识体
-  - 身份多样性
+
+    - 角色与身份
+    - 多重意识体
+    - 身份多样性
+
 topic: 角色与身份
 synonyms:
-  - 非人类成员
-  - Nonhuman Alter
-  - 非人形成员
-  - Non-human Part
-  - 兽性成员
-  - Animal Alter
+
+    - 非人类成员
+    - Nonhuman Alter
+    - 非人形成员
+    - Non-human Part
+    - 兽性成员
+    - Animal Alter
+
 description: 自我认同为动物、虚构生物或其他非人类形态的系统成员，在部分多意识体系统中存在
 updated: 2025-10-16
 comments: true

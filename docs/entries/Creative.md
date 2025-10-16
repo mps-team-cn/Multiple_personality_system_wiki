@@ -1,14 +1,18 @@
 ---
 title: 创造者（Creative）
 tags:
-  - 角色与身份
-  - 多重意识体
+
+    - 角色与身份
+    - 多重意识体
+
 topic: 角色与身份
 synonyms:
-  - 创造者
-  - Creative
-  - 艺术家成员
-  - Artist Alter
+
+    - 创造者
+    - Creative
+    - 艺术家成员
+    - Artist Alter
+
 description: 专注艺术、写作、音乐等创造性活动的系统成员，拥有独特的审美视角与表达风格
 updated: 2025-10-16
 comments: true

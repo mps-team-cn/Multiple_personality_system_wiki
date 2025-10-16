@@ -53,7 +53,7 @@ comments: true
 
 ### 行为独立性
 
-- **身体控制**：掌控身体（[前台（Front / Being Front）](Front-Fronting.md)）时的运动协调、习惯性动作及身体姿态差异
+- **身体控制**：掌控身体([前台（Front / Being Front）](Front-Fronting.md))时的运动协调、习惯性动作及身体姿态差异
 - **技能差异**：语言能力、专业技能、社交风格或艺术表现的分化
 - **日常功能**：承担特定任务（如工作、社交、照顾）的能力与偏好
 
@@ -61,7 +61,7 @@ comments: true
 
 ## 连续谱特征
 
-身份的独立性并非二元的"有"或"无"，而是呈现为**连续谱**：
+身份的独立性并非二元的"有"或"无"，而是呈现为 **连续谱**：
 
 - **低独立性**：短暂的情绪状态、思维模式转变，较少形成稳定的身份感，例如[情绪部分（Emotional Part，EP）](Structural-Dissociation-Theory.md)的短暂侵入
 - **中等独立性**：具有相对稳定的个性特征与记忆访问模式，但在某些领域（如核心价值观）与其他成员重叠
@@ -73,7 +73,7 @@ comments: true
 
 ### 创伤发展路径
 
-纵向研究表明，**童年期慢性创伤与依恋破裂**是促使自我状态高度分化的核心因素：
+纵向研究表明，**童年期慢性创伤与依恋破裂** 是促使自我状态高度分化的核心因素：
 
 - 在极端压力下，儿童通过[解离（Dissociation）](Dissociation.md)机制将无法整合的创伤体验、矛盾需求与不同社会角色隔离，逐步形成功能性身份分工[^sar2014]
 - [结构性解离理论（Structural Dissociation Theory）](Structural-Dissociation-Theory.md)提出，持续创伤导致自我结构纵向与横向分裂，形成多个相对独立的身份状态[^vanderhert2006]
@@ -140,10 +140,10 @@ comments: true
 
 ### 与相关概念的区别
 
-- **[切换（Switch）](Switch.md)**：身份间的控制权转移过程，独立性是切换背后的结构性特征
-- **[融合（Fusion）](Fusion.md)**：身份界限模糊或合并，独立性降低的过程
-- **[混合（Blending）](Blending.md)**：多个身份同时影响前台，独立性部分保留但界限临时性减弱
-- **[共前台（Co-fronting）](Co-Fronting.md)**：多个身份同时掌控身体，各自保持相对独立性
+- [**切换（Switch）**](Switch.md)：身份间的控制权转移过程，独立性是切换背后的结构性特征
+- [**融合（Fusion）**](Fusion.md)：身份界限模糊或合并，独立性降低的过程
+- [**混合（Blending）**](Blending.md)：多个身份同时影响前台，独立性部分保留但界限临时性减弱
+- [**共前台（Co-fronting）**](Co-Fronting.md)：多个身份同时掌控身体，各自保持相对独立性
 
 ---
 
@@ -208,12 +208,12 @@ comments: true
 
 [^steinberg2014]: Steinberg, M. (2014). *Interviewer's Guide to the Structured Clinical Interview for DSM-IV Dissociative Disorders (SCID-D)* (Rev. ed.). American Psychiatric Publishing.
 
-[^sar2014]: Şar, V. (2014). The Many Faces of Dissociation: Opportunities for Innovative Research in Psychiatry. *Clinical Psychopharmacology and Neuroscience*, 12(3), 171–179. https://doi.org/10.9758/cpn.2014.12.3.171
+[^sar2014]: Şar, V. (2014). The Many Faces of Dissociation: Opportunities for Innovative Research in Psychiatry. *Clinical Psychopharmacology and Neuroscience*, 12(3), 171–179. [https://doi.org/10.9758/cpn.2014.12.3.171](https://doi.org/10.9758/cpn.2014.12.3.171)
 
 [^tsai1999]: Tsai, G. E., Condie, D., Wu, M. T., & Chang, I. W. (1999). Functional Magnetic Resonance Imaging of Personality Switches in a Woman with Dissociative Identity Disorder. *Harvard Review of Psychiatry*, 7(2), 119–122.
 
 [^vanderhert2006]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton & Company.
 
-International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults* (3rd rev.). https://www.isst-d.org/
+International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults* (3rd rev.). [https://www.isst-d.org/](https://www.isst-d.org/)
 
 Brand, B. L., & Loewenstein, R. J. (2010). Dissociative Disorders: An Overview of Assessment, Phenomenology, and Treatment. *Psychiatric Clinics of North America*, 33(3), 657–666.
