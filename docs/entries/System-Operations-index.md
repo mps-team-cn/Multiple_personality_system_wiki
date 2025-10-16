@@ -25,7 +25,7 @@ comments: true
 - [非我感（Depersonalization）](Depersonalization.md) — *2025-10-14*
 - [去现实化（Derealization）](Derealization.md) — *2025-10-14*
 - [解离（Dissociation）](Dissociation.md) — *2025-10-14*
-- [前台（Front / Fronting）](Front-Fronting.md) — *2025-10-14*
+- [前台（Front / Fronting）](Front-Fronting.md) — *2025-10-16*
 - [融合（Fusion）](Fusion.md) — *2025-10-16*
 - [内部空间（Headspace / Inner World）](Headspace-Inner-World.md) — *2025-10-14*
 - [整合（Integration）](Integration.md) — *2025-10-16*
@@ -35,9 +35,9 @@ comments: true
 - [系统（System）](System.md) — *2025-10-14*
 - [触发（Trigger）](Trigger.md) — *2025-10-14*
 - [醉酒解离（Alcohol-Induced Dissociation）](Alcohol-Induced-Dissociation.md) — *2025-10-13*
-- [后台（Back / Being Back）](Back-Being-Back.md) — *2025-10-13*
+- [后台（Back / Being Back）](Back-Being-Back.md) — *2025-10-16*
 - [躯体认同（Body Ownership）](Body-Ownership.md) — *2025-10-13*
-- [共前台（Co-fronting）](Co-Fronting.md) — *2025-10-13*
+- [共前台（Co-fronting）](Co-Fronting.md) — *2025-10-16*
 - [意识修改（Consciousness Modification）](Consciousness-Modification.md) — *2025-10-13*
 - [独有记忆（Exomemory）](Exomemory.md) — *2025-10-13*
 - [外投射（External Projection）](External-Projection.md) — *2025-10-13*
