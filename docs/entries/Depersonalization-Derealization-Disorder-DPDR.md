@@ -25,7 +25,10 @@ comments: true
 
 ## 概述
 
-人格解体/现实解体障碍（又称[人格解体（Depersonalization）](Not-Me-Feeling.md)/[现实解体（Derealization）](Derealization.md)障碍）是一种以 **持续或反复的疏离体验与非真实感** 为核心特征的[解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)。患者体验到对自我或身体的疏离（人格解体）与/或外界显得陌生、失真或如梦（现实解体），虽然现实检验能力通常保留，但这些体验会引发显著痛苦或功能受损。多数研究认为，DPDR 常与急性压力、长期[创伤（Trauma）](Trauma.md)、焦虑或抑郁发作相关，是一种在压力环境下形成的保护性心理机制。ICD-11 将 DPDR 编码为 6B66；DSM-5-TR 则使用 Depersonalization/Derealization Disorder 这一诊断名称。
+人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）是一种以 **持续或反复的疏离体验与非真实感** 为核心特征的[解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)。患者体验到对自我或身体的疏离（[人格解体](#人格解体症状)）与/或外界显得陌生、失真或如梦（[现实解体](Derealization.md)），虽然现实检验能力通常保留，但这些体验会引发显著痛苦或功能受损。多数研究认为，DPDR 常与急性压力、长期[创伤（Trauma）](Trauma.md)、焦虑或抑郁发作相关，是一种在压力环境下形成的保护性心理机制。ICD-11 将 DPDR 编码为 6B65；DSM-5-TR 则使用 Depersonalization/Derealization Disorder 这一诊断名称。
+
+!!! note "术语区分"
+    本词条讨论的是临床解离症状中的**人格解体（Depersonalization）**，这是 DPDR 的核心症状之一。关于多意识体系统中用于识别成员边界的**非我感（Not-me Feeling）**，请参见《[非我感（Not-me Feeling）](Not-Me-Feeling.md)》。
 
 ---
 
@@ -55,10 +58,32 @@ ICD-11 对症状内容描述较为简洁，强调"疏离体验"及功能影响�
 
 ## 临床表现
 
-- **持续的非真实感** ：描述为"像在梦中"或"身体不是我的"，常伴视觉、听觉或时间感扭曲。
-- **情绪麻木与感官钝化** ：难以感受情绪波动，出现麻木、空壳感或体感迟钝。
-- **自我监控过度** ：持续关注自身状态，担心"失控"或"永远无法恢复"，形成焦虑—[解离（Dissociation）](Dissociation.md)循环。
-- **功能受损** ：注意力下降、记忆断片、社交与工作效率降低，部分个体产生存在危机或自伤念头。
+### 人格解体症状
+
+对自我或身体产生疏离感和非真实感：
+
+- **主观疏离感** ：描述为"像旁观者看着自己""身体不是我的""我在自动驾驶"
+- **情绪麻木** ：难以感受情绪波动，出现情感空壳感、无法与他人情感共鸣
+- **躯体感知异常** ：体感迟钝、肢体陌生感、镜中不认识自己
+- **自我监控过度** ：持续关注自身状态，担心"失控"或"永远无法恢复"
+
+### 现实解体症状
+
+外部世界显得陌生、失真或如梦似幻（详见[去现实化（Derealization）](Derealization.md)）：
+
+- **感知失真** ：环境像布景、物体显得扁平或遥远、色彩黯淡
+- **时间感异常** ：时间流速改变、过去的记忆像电影场景
+- **声音失真** ：声音像从水下传来、回声感或遥远感
+- **空间感改变** ：距离感判断困难、房间大小变化
+
+### 功能影响
+
+- **认知功能** ：注意力下降、记忆断片、决策困难
+- **社交功能** ：社交回避、人际关系疏离、表达困难
+- **职业/学业** ：工作效率降低、任务完成困难
+- **心理健康** ：存在危机、自伤念头、自杀风险
+
+### 病程特点
 
 症状的强度受压力、触发因素、安全感与支持系统影响，常表现为周期性恶化与缓解。
 
@@ -173,7 +198,7 @@ DPDR 的治疗通常遵循分阶段模式：
 
 ## 参考与延伸阅读
 
-1. World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Depersonalization-derealization disorder (6B66).*
+1. World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Depersonalization-derealization disorder (6B65).*
 2. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.).*
 3. Hunter, E. C. M., Sierra, M., & David, A. S. (2004). The epidemiology of depersonalisation and derealisation: A systematic review. *Social Psychiatry and Psychiatric Epidemiology, 39*(1), 9–18.
 4. Simeon, D., & Abugel, J. (2009). *Feeling Unreal: Depersonalization Disorder and the Loss of the Self.* Oxford University Press.
