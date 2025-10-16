@@ -117,7 +117,7 @@
 
 - :material-file-document-edit-outline: [词条模板](https://github.com/mps-team-cn/Multiple_personality_system_wiki/blob/main/docs/TEMPLATE_ENTRY.md)
 - :material-shield-crown-outline: [管理员操作指南](https://github.com/mps-team-cn/Multiple_personality_system_wiki/blob/main/docs/ADMIN_GUIDE.md)
-- :material-hammer-wrench: [工具文档](https://github.com/mps-team-cn/Multiple_personality_system_wiki/blob/main/docs/tools/README.md)
+- :material-hammer-wrench: [工具文档](https://github.com/mps-team-cn/Multiple_personality_system_wiki/blob/main/docs/dev/Tools-Index.md)
 - :material-palette-swatch-outline: [前端架构](https://github.com/mps-team-cn/Multiple_personality_system_wiki/blob/main/docs/dev/THEME_GUIDE.md)
 - :material-alert-box-outline: [Admonition 提示块效果对照](admonitions-demo.md)
 - :material-folder-information-outline: [开发文档目录](https://github.com/mps-team-cn/Multiple_personality_system_wiki/tree/main/docs/dev)

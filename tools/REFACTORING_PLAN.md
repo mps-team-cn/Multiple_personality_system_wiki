@@ -315,7 +315,7 @@ python -m tools.cli.main fix-md --dry-run
 
 - [贡献指南](../docs/CONTRIBUTING/index.md)
 - [维护者手册](../docs/ADMIN_GUIDE.md)
-- [工具使用说明](../docs/tools/README.md)
+- [工具使用说明](../docs/dev/Tools-Index.md)
 - [API 文档](../docs/API.md) (待创建)
 
 ---

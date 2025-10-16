@@ -227,7 +227,7 @@ pymdown-extensions>=10.7
 - [x] 更新 `AGENTS.md`: 更新文件路径和测试命令
 - [x] 更新 `CONTRIBUTING/index.md`: 更新本地开发流程
 - [x] 同步 `docs/CONTRIBUTING/index.md` 和 `docs/README.md`
-- [x] 更新 `docs/tools/README.md`: 添加迁移说明
+- [x] 更新 `docs/dev/Tools-Index.md`: 添加迁移说明
 - [x] 更新 `docs/ADMIN_GUIDE.md`: 更新维护脚本说明
 
 ### 工具脚本更新 (2025-10-05)

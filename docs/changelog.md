@@ -309,7 +309,7 @@
 
 - **修复文档链接**
     - 更新 `docs/ADMIN_GUIDE.md` 中的文档引用链接
-    - 修复 `docs/tools/README.md` 中的失效链接
+    - 修复 `docs/dev/Tools-Index.md` 中的失效链接
 
 ### 📊 统计数据
 
@@ -871,7 +871,7 @@
 
 ### 📝 文档
 
-- **更新工具文档** `docs/tools/README.md`([9e19aec](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/9e19aec))
+- **更新工具文档** `docs/dev/Tools-Index.md`([9e19aec](https://github.com/mps-team-cn/Multiple_personality_system_wiki/commit/9e19aec))
 
     - 新增"核心处理器模块(重构后)"章节
     - 详细的 API 文档和使用示例
