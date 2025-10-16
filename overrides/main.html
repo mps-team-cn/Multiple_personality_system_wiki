@@ -36,6 +36,13 @@
   <meta name="author" content="{{ config.site_author }}">
   <link rel="canonical" href="{{ page.canonical_url }}">
   {% endif %}
+
+  {# 将 GA Measurement ID 注入到全局，供延迟加载脚本使用 #}
+  {% if config.extra and config.extra.analytics and config.extra.analytics.property %}
+  <script>
+    window.GA_MEASUREMENT_ID = "{{ config.extra.analytics.property }}";
+  </script>
+  {% endif %}
 {% endblock %}
 
 {% block content %}

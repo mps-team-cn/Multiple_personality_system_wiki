@@ -118,9 +118,10 @@ extra:
     loading: lazy
     host: https://giscus.app
 
-  # 分析（本地开发时注释，部署时启用）
+  # 分析：禁用内置 Google Analytics，即改为自定义延迟加载
+  # 提示：仍保留 property，供模板注入 window.GA_MEASUREMENT_ID 使用
   analytics:
-    provider: google
+    # provider: google  # 已禁用，使用 docs/assets/gtm-loader.js 延迟加载
     property: !ENV GOOGLE_ANALYTICS_KEY
     feedback:
       title: 这个页面有帮助吗?
@@ -157,6 +158,7 @@ extra_css:
 
 extra_javascript:
   - assets/extra.js
+  - assets/gtm-loader.js  # GTM/GA 延迟加载
   - assets/giscus-loader.js  # Giscus 评论加载器
   - assets/search-phrase-default.js # 搜索短语自动加引号
 
