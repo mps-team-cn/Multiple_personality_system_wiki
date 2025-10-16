@@ -259,5 +259,11 @@
         * [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](entries/Dostoevsky-The-Double-Self-Division.md)
 * 参与项目
     * [参与贡献](contributing/index.md)
+    * [学术引用规范](contributing/academic-citation.md)
+    * [标注块示例](contributing/admonitions-demo.md)
+    * [临床内容指南](contributing/clinical-guidelines.md)
     * [贡献者墙](contributing/contributors.md)
+    * [PR 工作流程](contributing/pr-workflow.md)
+    * [技术规范](contributing/technical-conventions.md)
+    * [写作指南](contributing/writing-guidelines.md)
 * [回到主站 →](https://mpsteam.cn/)
