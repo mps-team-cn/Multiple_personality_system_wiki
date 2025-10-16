@@ -68,10 +68,16 @@ jobs:
             exit 1
           fi
 
+      - name: 生成主题分区索引与 SUMMARY
+        run: |
+          echo "🧭 生成主题分区索引与 SUMMARY.md..."
+          python3 tools/build_partitions_cn.py
+
       - name: 检查是否有更改
         id: check_changes
         run: |
-          if git diff --quiet docs/entries/; then
+          # 检查 entries 与 SUMMARY 是否有变更
+          if git diff --quiet docs/entries/ docs/SUMMARY.md; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
             echo "✅ 所有文件已是最新，无需提交"
           else
@@ -79,7 +85,7 @@ jobs:
             echo "📝 检测到文件更新"
             echo ""
             echo "变更摘要:"
-            git diff --stat docs/entries/
+            git diff --stat docs/entries/ docs/SUMMARY.md
           fi
 
       - name: 配置 Git
@@ -91,11 +97,12 @@ jobs:
       - name: 提交更新
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
-          git add docs/entries/*.md
-          git commit -m "chore: 自动更新词条时间戳和格式
+          git add docs/entries/*.md docs/SUMMARY.md
+          git commit -m "chore: 自动更新词条、分区索引与格式
 
           - 根据 Git 历史更新 updated 字段
           - 修复 Markdown 格式问题
+          - 生成/更新主题分区索引与 SUMMARY 导航
 
           🤖 Generated with [Claude Code](https://claude.com/claude-code)
 
