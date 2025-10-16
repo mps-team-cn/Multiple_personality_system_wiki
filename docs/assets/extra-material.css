@@ -410,12 +410,127 @@ a.external-link:hover::after {
   opacity: 1;
 }
 
+/* ===== 内容操作按钮样式优化 ===== */
+/* 查看源代码和编辑按钮 - 小巧精致设计 */
+.md-content__button {
+  color: var(--md-default-fg-color--light);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 4px;
+  padding: 0.25rem;
+  margin: 0 0.1rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.md-content__button:hover {
+  color: var(--md-primary-fg-color);
+  background-color: color-mix(in srgb, var(--md-primary-fg-color) 8%, transparent);
+}
+
+.md-content__button:focus-visible {
+  outline: 1px solid var(--md-accent-fg-color);
+  outline-offset: 1px;
+}
+
+.md-content__button svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  transition: transform 0.2s ease;
+}
+
+.md-content__button:hover svg {
+  transform: scale(1.1);
+}
+
+/* 编辑按钮特殊样式 */
+.md-content__button[href*="edit"]:hover {
+  background-color: color-mix(in srgb, #10b981 8%, transparent);
+  color: #10b981;
+}
+
+/* 查看源代码按钮特殊样式 */
+.md-content__button[href*="blob"]:hover,
+.md-content__button[href*="raw"]:hover {
+  background-color: color-mix(in srgb, #3b82f6 8%, transparent);
+  color: #3b82f6;
+}
+
+/* 深色模式优化 */
+[data-md-color-scheme="slate"] .md-content__button {
+  color: var(--md-default-fg-color--lighter);
+}
+
+[data-md-color-scheme="slate"] .md-content__button:hover {
+  background-color: color-mix(in srgb, var(--md-primary-fg-color) 12%, transparent);
+}
+
+[data-md-color-scheme="slate"] .md-content__button[href*="edit"]:hover {
+  background-color: color-mix(in srgb, #10b981 12%, transparent);
+  color: #34d399;
+}
+
+[data-md-color-scheme="slate"] .md-content__button[href*="blob"]:hover,
+[data-md-color-scheme="slate"] .md-content__button[href*="raw"]:hover {
+  background-color: color-mix(in srgb, #3b82f6 12%, transparent);
+  color: #60a5fa;
+}
+
+/* 按钮工具提示 - 简洁设计 */
+.md-content__button::after {
+  content: attr(title);
+  position: absolute;
+  bottom: calc(100% + 0.4rem);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.3rem 0.6rem;
+  background-color: var(--md-default-fg-color);
+  color: var(--md-default-bg-color);
+  font-size: 0.7rem;
+  white-space: nowrap;
+  border-radius: 4px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 1000;
+}
+
+.md-content__button:hover::after {
+  opacity: 0.9;
+}
+
+[data-md-color-scheme="slate"] .md-content__button::after {
+  background-color: var(--md-default-fg-color--lighter);
+  color: var(--md-default-bg-color);
+}
+
+/* 响应式优化 */
+@media screen and (max-width: 44.9375em) {
+  .md-content__button {
+    width: 1.6rem;
+    height: 1.6rem;
+    padding: 0.2rem;
+  }
+
+  .md-content__button svg {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .md-content__button::after {
+    display: none;
+  }
+}
+
 /* ===== 打印样式 ===== */
 @media print {
   .md-header,
   .md-sidebar,
   .md-footer,
-  .md-nav__source {
+  .md-nav__source,
+  .md-content__button {
     display: none;
   }
 
