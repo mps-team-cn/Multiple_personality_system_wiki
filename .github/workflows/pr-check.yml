@@ -97,7 +97,7 @@ jobs:
           echo "📋 检查 Frontmatter 格式..."
           echo ""
 
-          # 检查词条目录中的文件
+          # 获取变更的词条文件
           CHANGED_ENTRIES=$(git diff --name-only origin/${{ github.base_ref }}...HEAD | grep '^docs/entries/.*\.md$' || true)
 
           if [ -z "$CHANGED_ENTRIES" ]; then
@@ -106,46 +106,31 @@ jobs:
             exit 0
           fi
 
-          FAILED=0
-          for file in $CHANGED_ENTRIES; do
-            if [ ! -f "$file" ]; then
-              continue
-            fi
+          echo "📝 检查以下词条文件："
+          echo "$CHANGED_ENTRIES" | while read file; do
+            echo "  - $file"
+          done
+          echo ""
 
-            echo "检查: $file"
+          # 创建临时目录存放需要检查的文件
+          TEMP_DIR=$(mktemp -d)
+          mkdir -p "$TEMP_DIR/docs/entries"
 
-            # 检查是否有 Frontmatter
-            if ! head -1 "$file" | grep -q '^---$'; then
-              echo "  ❌ 缺少 Frontmatter"
-              FAILED=1
-              continue
-            fi
-
-            # 提取 Frontmatter 内容
-            FRONTMATTER=$(awk '/^---$/{if(++n==2)exit;next}n==1' "$file")
-
-            # 检查必需字段
-            if ! echo "$FRONTMATTER" | grep -q '^title:'; then
-              echo "  ❌ 缺少 title 字段"
-              FAILED=1
-            fi
-
-            if ! echo "$FRONTMATTER" | grep -q '^topic:'; then
-              echo "  ❌ 缺少 topic 字段"
-              FAILED=1
-            fi
-
-            if ! echo "$FRONTMATTER" | grep -q '^tags:'; then
-              echo "  ❌ 缺少 tags 字段"
-              FAILED=1
-            fi
-
-            if [ $FAILED -eq 0 ]; then
-              echo "  ✅ Frontmatter 格式正确"
+          # 复制变更的文件到临时目录
+          echo "$CHANGED_ENTRIES" | while read file; do
+            if [ -f "$file" ]; then
+              cp "$file" "$TEMP_DIR/$file"
             fi
           done
 
-          if [ $FAILED -eq 1 ]; then
+          # 使用 Python 脚本检查 Frontmatter
+          if python3 tools/check_frontmatter.py --path "$TEMP_DIR/docs/entries"; then
+            echo ""
+            echo "✅ 所有 Frontmatter 格式正确"
+            echo "FRONTMATTER_CHECK_FAILED=0" >> $GITHUB_ENV
+            rm -rf "$TEMP_DIR"
+            exit 0
+          else
             echo ""
             echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
             echo "❌ Frontmatter 检查失败！"
@@ -155,19 +140,20 @@ jobs:
             echo "  - title: 词条标题"
             echo "  - topic: 词条主题（用于 Guide 映射）"
             echo "  - tags: 分类标签列表"
+            echo "  - updated: 最后更新时间（CI 会在合并后自动更新）"
             echo ""
-            echo "📝 注意：updated 字段会在合并后自动更新，无需手动填写"
+            echo "📝 注意事项："
+            echo "  • updated 字段必须存在，但会在合并后自动更新"
+            echo "  • tags 应使用 YAML 列表格式"
+            echo "  • 参考模板：docs/TEMPLATE_ENTRY.md"
             echo ""
             echo "📚 主题与 Guide 映射请参考："
             echo "    AGENTS.md#📚-词条主题与-guide-映射表"
             echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
             echo "FRONTMATTER_CHECK_FAILED=1" >> $GITHUB_ENV
+            rm -rf "$TEMP_DIR"
             exit 1
           fi
-
-          echo ""
-          echo "✅ 所有 Frontmatter 格式正确"
-          echo "FRONTMATTER_CHECK_FAILED=0" >> $GITHUB_ENV
 
       - name: 检查结果摘要
         if: always()
