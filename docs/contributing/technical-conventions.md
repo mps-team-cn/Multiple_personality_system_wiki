@@ -405,7 +405,7 @@ mkdocs build --strict
 
 ### 9.2 工具文档
 
-详细使用说明请参考 [工具文档](../../tools/README.md)。
+详细使用说明请参考 [工具文档](../dev/Tools-Index.md)。
 
 ---
 
