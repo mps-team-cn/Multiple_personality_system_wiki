@@ -26,9 +26,9 @@ comments: true
 - [去现实化（Derealization）](Derealization.md) — *2025-10-14*
 - [解离（Dissociation）](Dissociation.md) — *2025-10-14*
 - [前台（Front / Fronting）](Front-Fronting.md) — *2025-10-14*
-- [融合（Fusion）](Fusion.md) — *2025-10-14*
+- [融合（Fusion）](Fusion.md) — *2025-10-16*
 - [内部空间（Headspace / Inner World）](Headspace-Inner-World.md) — *2025-10-14*
-- [整合（Integration）](Integration.md) — *2025-10-14*
+- [整合（Integration）](Integration.md) — *2025-10-16*
 - [侵入性思维（Intrusive Thoughts）](Intrusive-Thoughts.md) — *2025-10-14*
 - [多意识体系统（Multiple Personality System）](Multiple_Personality_System.md) — *2025-10-14*
 - [切换（Switch）](Switch.md) — *2025-10-14*
