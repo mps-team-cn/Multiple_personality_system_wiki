@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 定向障碍（Disorientation）
-updated: 2025-10-13
+updated: 2025-02-14
 comments: true
 ---
 
@@ -59,6 +59,24 @@ ICD-11 与 DSM-5-TR 均将定向障碍视为谵妄的重要表现，但 ICD-11 �
 - **人物定向障碍** : 辨识熟悉人物的能力下降，或错误认定他人身份。
 - **自我定向障碍** : 对自身身份、年龄或处境感到困惑，严重时出现自我认同断裂或解离体验。
 - **伴随症状** : 注意力难以集中、短期记忆下降、情绪波动、焦虑或惊恐、感知异常等。
+
+## 解离导致的时间定向障碍
+
+- **常见诱因** : 强烈触发、内部冲突或快速切换前台成员，会造成记忆交接不足，出现“时间消失”“刚刚在做什么想不起来”等体验。[^loewenstein1991][^brand2014]
+- **核心特征** : 与谵妄不同，个体通常维持基本意识水平，但报告内部时序错位、被动体验或多个记忆线并行，需要追问“谁”在体验时间空窗。[^loewenstein1991]
+- **关联现象** : 常与[切换（Switch）](Switch.md)频繁、[闪回（Flashback）](Flashback.md)或内部空间重新排列并存；部分系统会在混合或共前台后出现现实时间落差。[^brand2014]
+
+### 评估要点
+
+1. **区分器质性病因** ：仍需排除谵妄、头部外伤、药物副作用等急性风险；若体征稳定且主要呈现解离史与触发后出现的时间空窗，可记录为解离性时间定向障碍。
+2. **确认内部交接** ：询问系统成员是否知晓最近的日程、饮食、药物使用，可利用内部会议记录或前台日志查漏补缺。[^steele2017]
+3. **环境与情绪因素** ：追踪触发点、感官过载、睡眠剥夺与压力水平，评估是否与特定地点、人物或事件关联。
+
+### 支援策略
+
+1. **结构化提示** ：在生活空间放置大型时钟、日历、待办板，并与[接地（Grounding）](Grounding.md)练习结合，帮助迅速回到当下时间线。[^steele2017]
+2. **前后台交接协议** ：建立“下班记录”或内部留言板，交代目前日期、进行中的任务与待处理事项，降低突发切换后的迷失。[^isstd2011]
+3. **安全监测** ：若时间空窗伴随危险行为或外部失联，应预设紧急联络人与医疗信息卡，同时与治疗师讨论阶段化稳定化方案。[^brand2014][^isstd2011]
 
 ## 解离机制与背景
 
@@ -123,6 +141,7 @@ ICD-11 与 DSM-5-TR 均将定向障碍视为谵妄的重要表现，但 ICD-11 �
 
 ## 相关条目
 
+- [解离（Dissociation）](Dissociation.md)
 - [谵妄（Delirium）](Delirium.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
@@ -131,6 +150,9 @@ ICD-11 与 DSM-5-TR 均将定向障碍视为谵妄的重要表现，但 ICD-11 �
 - [孤独症谱系（Autism Spectrum Disorder）](Autism-Spectrum-Disorder.md)
 - [轻躁狂（Hypomania）](Hypomania.md)
 - [躁狂（Mania）](Mania.md)
+- [切换（Switch）](Switch.md)
+- [接地（Grounding）](Grounding.md)
+- [闪回（Flashback）](Flashback.md)
 
 ## 参考与延伸阅读
 
@@ -141,3 +163,7 @@ ICD-11 与 DSM-5-TR 均将定向障碍视为谵妄的重要表现，但 ICD-11 �
 [^wang2020]: Wang, Z., Yang, Y., & Hong, Z. (2020). Disorientation in Alzheimer's disease: neurobiological mechanisms and clinical implications. *Journal of Alzheimer's Disease Reports, 4*(1), 97–108. [https://doi.org/10.3233/ADR-200189](https://doi.org/10.3233/ADR-200189)
 [^who2023]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Delirium (6D70).* [https://icd.who.int/en](https://icd.who.int/en)
 [^shrestha2020]: Shrestha, S., Granger, B. B., & McKeon, S. (2020). Screening, diagnosis, and prevention of delirium in hospitalized older adults: A review. *Clinical Geriatrics, 28*(1), 22–31.
+[^loewenstein1991]: Loewenstein, R. J. (1991). An office mental status examination for complex chronic dissociative symptoms and multiple personality disorder. *Psychiatric Clinics of North America, 14*(3), 567–604. [https://doi.org/10.1016/S0193-953X(18)30290-9](https://doi.org/10.1016/S0193-953X(18)30290-9)
+[^brand2014]: Brand, B. L., Loewenstein, R. J., & Spiegel, D. (2014). Dispelling myths about dissociative identity disorder treatment: An empirically based approach. *Psychiatry, 77*(2), 169–189. [https://doi.org/10.1521/psyc.2014.77.2.169](https://doi.org/10.1521/psyc.2014.77.2.169)
+[^steele2017]: Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating trauma-related dissociation: A practical, integrative approach*. W. W. Norton & Company.
+[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for treating dissociative identity disorder in adults, third revision*. *Journal of Trauma & Dissociation, 12*(2), 115–187.
