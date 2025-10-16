@@ -62,6 +62,7 @@ updated: 2025-10-14
 | [功能性解离（Functional Dissociation）](entries/Functional-Dissociation.md) | 为完成复杂任务而产生的适应性注意分离或角色分配。 | 与病理性解离区分，强调功能性。 |
 | [外部投射（External Projection）](entries/External-Projection.md) | 将内部成员的形象或声音投射到外部媒介以辅助沟通。 | 常见于虚拟形象、角色扮演或艺术创作。 |
 | [解离性遗忘（Dissociative Amnesia）](entries/Dissociative-Amnesia-DA.md) | 对特定事件、阶段或个人信息出现选择性记忆缺失。 | 需与普通遗忘区分，可能伴随切换或触发反应。 |
+| [非我感（Not-me Feeling）](entries/Not-Me-Feeling.md) | 对其他成员的行为、记忆或情绪产生"那不是我"的主观区隔体验。 | 用于识别成员边界的核心机制，与人格解体不同。 |
 
 ---
 
@@ -78,7 +79,7 @@ updated: 2025-10-14
 | [儿童人格（Little）](entries/Child-Alter.md) | 年龄感知较低、保有童年记忆或需求的成员（亦称“小孩意识体”）。 | 支持时需强调安全感与稳定环境。 |
 | [青少年成员（Teen）](entries/Teen-Alter.md) | 具有青少年视角与需求的成员。 | 在社交、自主需求上提供独特观点。 |
 | [执行者（Performer / Executive）](entries/Performer-Executive.md) | 擅长在高压情境保持表现或完成任务的成员。 | 常用于工作、演讲、应急等场景。 |
-| [原初自我（Original）](entries/Original.md) | 被系统视为最早出现或最贴近出生身份的成员。 | 不一定与宿主重合，概念存在争议。 |
+| [初始（Original）](entries/Original.md) | 被系统视为最早出现或最贴近出生身份的成员。 | 不一定与宿主重合，概念存在争议。 |
 
 ---
 

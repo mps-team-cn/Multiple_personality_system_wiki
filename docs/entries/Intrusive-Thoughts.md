@@ -112,7 +112,7 @@ comments: true
 - [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](PTSD.md)
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](OCD.md)
 - [闪回（Flashback）](Flashback.md)
-- [非我感（Depersonalization）](Depersonalization.md)
+- [非我感（Depersonalization）](Not-Me-Feeling.md)
 - [心境障碍（Affective Disorders）](Affective-Disorders.md)
 - [精神分裂症（Schizophrenia，SZ/SCZ）](Schizophrenia-SZ.md)
 - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)

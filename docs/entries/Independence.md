@@ -199,7 +199,7 @@ comments: true
 
 ### 体验相关
 
-- [非我感（Depersonalization）](Depersonalization.md)
+- [非我感（Depersonalization）](Not-Me-Feeling.md)
 - [接地（Grounding）](Grounding.md)
 
 ---

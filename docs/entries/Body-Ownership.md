@@ -46,7 +46,7 @@ comments: true
 
 ## 相关条目
 
-- [非我感（Depersonalization）](Depersonalization.md)
+- [非我感（Depersonalization）](Not-Me-Feeling.md)
 - [迭代（Iteration）](Iteration.md)
 - [意识共存（Co-consciousness）](Co-Consciousness.md)
 - [重构（Reconstruction）](Reconstruction.md)

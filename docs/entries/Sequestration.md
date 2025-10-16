@@ -47,7 +47,7 @@ comments: true
 - [存在感（Sense of Presence）](Sense-Of-Presence.md)
 - [应激反应（Stress Response）](Stress-Response.md)
 - [重构（Reconstruction）](Reconstruction.md)
-- [非我感（Depersonalization）](Depersonalization.md)
+- [非我感（Depersonalization）](Not-Me-Feeling.md)
 - [迭代（Iteration）](Iteration.md)
 - [意识共存（Co-consciousness）](Co-Consciousness.md)
 - [独有记忆（Exomemory）](Exomemory.md)
