@@ -79,7 +79,7 @@ comments: true
 ## 与其他主题的协作
 
 - **诊断与临床导览**（Clinical-Diagnosis-Guide.md）：快速查阅 PTSD、CPTSD、解离障碍等相关诊断信息。
-- **系统运作导览**（System-Operations.md）：在创伤加工期间协调前台轮换与内部沟通。
+- **系统运作导览**（System-Operations-Guide.md）：在创伤加工期间协调前台轮换与内部沟通。
 - **角色与身份导览**（Roles-Identity-Guide.md）：理解保护者、照顾者等角色在疗愈过程中的功能。
 
 ## 参考资料

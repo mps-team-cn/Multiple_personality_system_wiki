@@ -183,23 +183,22 @@ a:hover {
 }
 
 /* ===== 隐藏导航树，只显示 TOC ===== */
+/* 已注释：恢复显示左侧导航
 @media screen and (min-width: 76.25em) {
-  /* 隐藏左侧导航树 */
   .md-sidebar--primary {
     display: none;
   }
 
-  /* 将右侧 TOC 移到左侧 */
   .md-sidebar--secondary {
     order: -1;
     margin-left: 0;
   }
 
-  /* 调整内容区域，因为左侧导航没有了 */
   .md-content {
     margin-left: 0;
   }
 }
+*/
 
 /* ===== 导航优化 ===== */
 .md-nav__item--active > .md-nav__link {

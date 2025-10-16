@@ -54,7 +54,8 @@ theme:
     - navigation.tabs # 顶部标签页
     - navigation.tabs.sticky # 固定标签页
     - navigation.sections # 导航分组
-    - navigation.expand # 默认展开导航
+    # - navigation.expand # 默认展开导航
+    - navigation.prune
     - navigation.path # 面包屑导航
     - navigation.indexes # 分组索引页
     - navigation.top # 返回顶部按钮
@@ -62,7 +63,7 @@ theme:
 
     # 目录
     - toc.follow # 目录跟随
-    # - toc.integrate             # 不启用，改用 CSS 控制布局
+    - toc.integrate             # 不启用，改用 CSS 控制布局
 
     # 搜索
     - search.suggest # 搜索建议
@@ -226,6 +227,15 @@ plugins:
         - en
       jieba_dict_user: data/user_dict.txt
 
+  # 自动生成主题分区索引页
+  - gen-files:
+      scripts:
+        - tools/build_partitions_cn.py
+
+  # 使用 SUMMARY.md 控制侧栏导航
+  - literate-nav:
+      nav_file: SUMMARY.md
+
   # 排除搜索插件：只索引 entries 目录的词条，排除其他所有内容
   - exclude-search:
       exclude:
@@ -247,7 +257,7 @@ plugins:
         - assets/*
         - includes/*
         - entries/*-Guide.md
-        - entries/System-Operations.md
+        - entries/System-Operations-Guide.md
 
   - tags
 
@@ -290,85 +300,8 @@ plugins:
       caption_position: bottom
 
 # 导航结构
-nav:
-  - Wiki首页: index.md
-
-  - 入门指引:
-      - 快速开始: QuickStart.md
-      - 最近更新: updates.md
-      - 标签索引: tags.md
-      - 术语词典: Glossary.md
-
-  - 核心概念:
-      - 概念导览: entries/Core-Concepts-Guide.md
-      - 基础概念:
-          - entries/Dissociation.md
-          - entries/Multiple_Personality_System.md
-          - entries/System.md
-          - entries/Alter.md
-      - 临床诊断:
-          - entries/DID.md
-          - entries/OSDD.md
-          - entries/Partial-Dissociative-Identity-Disorder-PDID.md
-      - 健康多意识体:
-          - entries/Tulpa.md
-          - entries/Emmengard-Classification.md
-          - entries/Soulbond.md
-      - 理论框架:
-          - entries/Structural-Dissociation-Theory.md
-          - entries/Apparently-Normal-Part-Emotional-Part-Model.md
-          - entries/Personality-Structure-Theory.md
-
-  - 系统运作:
-      - 运作导览: entries/System-Operations.md
-      - 前台与切换:
-          - entries/Front-Fronting.md
-          - entries/Switch.md
-          - entries/Co-Fronting.md
-      - 意识共享与记忆:
-          - entries/Co-Consciousness.md
-          - entries/Memory-Holder.md
-          - entries/Memory-Shielding.md
-      - 角色与治理:
-          - entries/System-Roles.md
-          - entries/Admin.md
-          - entries/Host.md
-          - entries/Gatekeeper.md
-          - entries/Protector.md
-          - entries/Internal-Self-Helper-ISH.md
-
-  - 心理健康:
-      - 健康导览: entries/Mental-Health-Guide.md
-      - entries/PTSD.md
-      - entries/CPTSD.md
-      - entries/Trauma.md
-
-  - 实践训练:
-      - 训练导览: entries/Practice-Guide.md
-      - Tulpa 创造指南:
-          - 指南总览: entries/Tulpa-Guide.md
-          - 基础篇: entries/Tulpa-Guide-1.md
-          - 实践篇: entries/Tulpa-Guide-2.md
-          - 提高篇: entries/Tulpa-Guide-3.md
-      - 意识训练:
-          - entries/Mindfulness.md
-          - entries/Meditation.md
-          - entries/Visualization-Imagination.md
-          - entries/Attention-Awareness.md
-      - 内部协作:
-          - entries/Internal-Communication.md
-          - entries/Headspace-Inner-World.md
-          - entries/Permissions.md
-      - 稳定技巧:
-          - entries/Grounding.md
-          - entries/Sensory-Regulation-Strategies.md
-          - entries/Emotion-Regulation.md
-
-  - 参与贡献:
-      - 参与贡献: contributing/index.md
-      - 贡献者墙: contributing/contributors.md
-
-  - 回到主站: https://mpsteam.cn/
+# 注意: 导航由 docs/SUMMARY.md 控制 (literate-nav 插件)
+# nav: 配置已被 SUMMARY.md 替代，以实现精简侧栏
 
 # 严格模式
 strict: false

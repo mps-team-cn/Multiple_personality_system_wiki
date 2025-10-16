@@ -29,7 +29,7 @@
 
 ## 系统运作
 
-- [**系统运作导览**](entries/System-Operations.md) - 总览前台、记忆协作与角色治理，作为专题索引入口。
+- [**系统运作导览**](entries/System-Operations-Guide.md) - 总览前台、记忆协作与角色治理，作为专题索引入口。
 - **前台与切换流程**
 
     - [前台（Fronting）](entries/Front-Fronting.md) - 说明谁在掌控身体以及常见感受。

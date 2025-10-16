@@ -469,7 +469,7 @@
 - **feat(entries)**: 全面重构 7 个主题导览页面
     - [理论与分类导览](entries/Theory-Classification-Guide.md) - 从心理学流派到解离视角的知识地图
     - [诊断与临床导览](entries/Clinical-Diagnosis-Guide.md) - 掌握精神医学诊断语言与临床知识
-    - [系统运作导览](entries/System-Operations.md) - 多意识体系统的日常运作机制
+    - [系统运作导览](entries/System-Operations-Guide.md) - 多意识体系统的日常运作机制
     - [角色与身份导览](entries/Roles-Identity-Guide.md) - 系统中的不同角色与职能分工
     - [文化与表现导览](entries/Cultural-Media-Guide.md) - 影视文学中的多意识体主题
     - [创伤与疗愈导览](entries/Trauma-Healing-Guide.md) - 创伤知情的自助策略与临床框架
@@ -686,7 +686,7 @@
 
 - **精简所有导览页面内容，统一采用简洁描述风格**
 
-    - 参考 System-Operations.md 的格式
+    - 参考 System-Operations-Guide.md 的格式
     - 移除罗嗦的多级子点说明
     - 每个词条改为一句核心描述
     - 保持清晰的章节结构

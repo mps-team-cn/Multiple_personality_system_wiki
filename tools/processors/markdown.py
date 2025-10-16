@@ -309,12 +309,18 @@ class MarkdownProcessor:
                 "__pycache__"
             }
 
+        # 白名单：这些文件不应被处理（格式敏感）
+        exclude_files = {
+            "SUMMARY.md"  # literate-nav 需要紧凑格式，不能有空行
+        }
+
         logger.info(f"扫描目录: {root_dir}")
 
         # 查找所有 Markdown 文件
         files = [
             p for p in root_dir.rglob("*.md")
             if not self._should_exclude(p, exclude_dirs)
+            and p.name not in exclude_files
         ]
 
         logger.info(f"找到 {len(files)} 个 Markdown 文件")

@@ -26,9 +26,9 @@ updated: 2025-10-15
     关注创伤与疗愈，了解 PTSD/CPTSD、DID/OSDD 与循证治疗。
     [:octicons-arrow-right-24: 进入](entries/Mental-Health-Guide.md)
 
--   :material-cog: **系统运作导览**  
+-   :material-cog: **系统运作导览**
     前台与切换、共同意识、内部沟通与记忆管理的实践路径。
-    [:octicons-arrow-right-24: 进入](entries/System-Operations.md)
+    [:octicons-arrow-right-24: 进入](entries/System-Operations-Guide.md)
 
 -   :material-hammer-wrench: **实践指南**  
     Tulpa、冥想、可视化与接地等可直接上手的练习。
@@ -111,7 +111,7 @@ updated: 2025-10-15
 === "新手（0–4 周）"
 
     1. 阅读 [核心概念导览](entries/Core-Concepts-Guide.md) 建立框架。
-    2. 选择 [心理健康](entries/Mental-Health-Guide.md) 或 [系统运作](entries/System-Operations.md)。
+    2. 选择 [心理健康](entries/Mental-Health-Guide.md) 或 [系统运作](entries/System-Operations-Guide.md)。
     3. 浏览 [术语表](Glossary.md) 熟悉常用术语。
     4. 开始练习 [接地](entries/Grounding.md) 等基础技巧。
 

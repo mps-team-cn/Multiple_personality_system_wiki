@@ -16,6 +16,8 @@ mkdocs-minify-plugin>=0.8.0
 mkdocs-glightbox>=0.3.7
 mkdocs-exclude>=1.0.2
 mkdocs-exclude-search>=0.6.5
+mkdocs-literate-nav>=0.6.1
+mkdocs-gen-files>=0.5.0
 # mkdocs-recently-updated-docs>=0.2.0
 
 # Markdown 扩展

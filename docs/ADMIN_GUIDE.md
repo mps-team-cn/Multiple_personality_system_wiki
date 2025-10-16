@@ -317,7 +317,7 @@ collections:
 | ------- | ----------------------------------- | ------- |
 | 理论与分类   | `Theory-Classification-Guide.md`    | ~22     |
 | 诊断与临床   | `Clinical-Diagnosis-Guide.md`       | ~31     |
-| 系统运作    | `System-Operations.md`              | ~48     |
+| 系统运作    | `System-Operations-Guide.md`        | ~48     |
 | 角色与身份   | `Roles-Identity-Guide.md`           | ~30     |
 | 文化与表现   | `Cultural-Media-Guide.md`           | ~17     |
 | 创伤与疗愈   | `Trauma-Healing-Guide.md`           | ~5      |

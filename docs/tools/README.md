@@ -22,11 +22,18 @@
 | `tools/processors/links.py` | 链接检查器,验证内部链接完整性和格式规范                                                                                     | `python -m tools.processors.links` (开发中)     |
 | `tools/processors/tags.py`  | 标签处理器,提供智能标签提取、归一化和索引生成                                                                                  | `python -m tools.processors.tags` (开发中)      |
 
+### 自动化构建工具
+
+| 脚本/模块                                                        | 功能摘要                                                              | 常用用法                                                                                                |
+| ------------------------------------------------------------ | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `tools/build_partitions_cn.py`                               | 自动生成主题分区索引页，根据词条的 topic 字段聚合分类，构建时自动运行                       | MkDocs 构建时自动执行，也可手动运行：`python3 tools/build_partitions_cn.py`                                          |
+
 ### 传统脚本(保留兼容)
 
 | 脚本/模块                                                        | 功能摘要                                                              | 常用用法                                                                                                |
 | ------------------------------------------------------------ | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | `tools/check_links.py`                                       | 检查 Markdown 内部链接规范，支持检查整个项目、指定目录或单个文件                       | `python tools/check_links.py docs/entries/` 或 `python tools/check_links.py` 检查整个项目                                          |
+| `tools/check_frontmatter.py`                                 | 检查词条 Frontmatter 完整性，验证必需字段（title, tags, topic, description, updated）           | `python3 tools/check_frontmatter.py` 或 `python3 tools/check_frontmatter.py --verbose`                     |
 | `tools/check_descriptions.py`                                | 检查词条的 description 字段覆盖情况，统计缺失的词条                                 | `python3 tools/check_descriptions.py`                                                               |
 | `tools/add_descriptions.py`                                  | 批量为核心词条添加 description 字段（SEO 优化）                                  | `python3 tools/add_descriptions.py`                                                                 |
 | `tools/docs_preview.py`                                      | 本地预览辅助：默认启动 `python -m http.server`，可选 `--docsify` 启用 docsify-cli | `python tools/docs_preview.py --port 4173`（启用 docsify 时追加 `--docsify`）                              |
@@ -309,6 +316,123 @@ exclude_files = {
 - 🐛 修复了直接指定文件路径时排除列表不生效的问题
 - ✅ 现在无论是扫描目录还是检查单个文件，排除列表都能正确生效
 - ✅ 修复了 CI 误报 `technical-conventions.md` 等示例文件链接错误的问题
+
+---
+
+### 📋 Frontmatter 完整性检查工具 (`tools/check_frontmatter.py`)
+
+**功能特性:**
+
+- ✅ 检查词条是否包含 YAML Frontmatter
+- ✅ 验证必需字段完整性（title, tags, topic, description, updated）
+- ✅ 生成详细的检查报告
+- ✅ 支持批量检查整个目录
+- ✅ 自动排除模板、索引和导览文件
+- ✅ 提供统计信息和修复建议
+
+**检查规则:**
+
+根据 `docs/TEMPLATE_ENTRY.md` 规范，每个词条必须包含以下 Frontmatter 字段：
+
+1. **title**: 词条标题（一级标题文字）
+2. **tags**: 分类标签（YAML 列表格式）
+3. **topic**: 主题分类（七大主题之一）
+4. **description**: SEO 描述（120-155 字符）
+5. **updated**: 最后更新时间（YYYY-MM-DD 格式）
+
+可选字段：
+
+- **synonyms**: 同义词/别名列表
+- **comments**: 是否启用评论区（true/false）
+
+**命令行用法:**
+
+```bash
+# 检查默认目录（docs/entries/）
+python3 tools/check_frontmatter.py
+
+# 检查指定目录
+python3 tools/check_frontmatter.py --path docs/entries/
+
+# 显示详细信息（包括完整的文件）
+python3 tools/check_frontmatter.py --verbose
+```
+
+**输出示例:**
+
+```text
+======================================================================
+Frontmatter 完整性检查
+======================================================================
+检查目录：/path/to/repo/docs/entries
+找到 212 个词条文件
+
+📋 Frontmatter 不完整的文件（163 个）：
+----------------------------------------------------------------------
+  ⚠️  Acute-Stress-Disorder-ASD.md
+      缺少字段：description
+  ⚠️  Adaptive.md
+      缺少字段：description
+  ...
+
+======================================================================
+📊 统计信息
+======================================================================
+总文件数：        212
+完整：            49 (23.1%)
+不完整：          163 (76.9%)
+缺失 Frontmatter：0 (0.0%)
+解析错误：        0 (0.0%)
+----------------------------------------------------------------------
+需要修复：        163 (76.9%)
+
+💡 修复建议：
+   1. 参考 docs/TEMPLATE_ENTRY.md 中的 Frontmatter 模板
+   2. 确保包含所有必需字段：title, tags, topic, description, updated
+   3. tags 应使用 YAML 列表格式
+   4. description 长度应为 120-155 字符
+   5. updated 格式应为 YYYY-MM-DD
+```
+
+**排除规则:**
+
+脚本自动排除以下文件：
+
+- 模板文件：`TEMPLATE_ENTRY.md`
+- 索引文件：`index.md`, `SUMMARY.md`
+- 索引页面：`*-index.md`（如 `Clinical-Diagnosis-index.md`）
+- 导览页面：`*-Guide.md`（如 `Mental-Health-Guide.md`）
+
+**使用场景:**
+
+1. **质量控制** - 确保所有词条符合 Frontmatter 规范
+2. **SEO 审计** - 检查 description 字段覆盖率
+3. **主题分类** - 验证 topic 字段完整性
+4. **批量修复前** - 了解需要修复的文件数量和具体问题
+
+**与其他工具配合:**
+
+```bash
+# 1. 检查 Frontmatter 完整性
+python3 tools/check_frontmatter.py
+
+# 2. 添加缺失的 description 字段
+python3 tools/add_descriptions.py
+
+# 3. 更新时间戳
+python3 tools/update_git_timestamps.py
+
+# 4. 再次检查验证
+python3 tools/check_frontmatter.py --verbose
+```
+
+**注意事项:**
+
+- ⚠️ 脚本会解析 YAML Frontmatter，确保格式正确
+- ⚠️ 自动跳过模板、索引和导览文件
+- ⚠️ YAML 解析错误会单独报告
+- 💡 建议在批量修改前运行此工具
+- 💡 配合 CI 流程使用，确保提交质量
 
 ---
 
@@ -613,6 +737,140 @@ mkdocs build  # 重新构建
 
 - 完整流程说明：[docs/dev/AI-Dictionary-Generation.md](../dev/AI-Dictionary-Generation.md)
 - 包含三阶段详细步骤、AI 审核 Prompt 模板、质量控制策略
+
+### 📂 主题分区索引生成 (`tools/build_partitions_cn.py`)
+
+**功能概述**：
+
+自动根据词条 Frontmatter 中的 `topic` 字段生成七个主题分区的聚合索引页，提供按主题浏览词条的便捷方式。
+
+**七大主题分区**：
+
+1. **诊断与临床** - DID、OSDD、PTSD 等诊断相关词条
+2. **系统运作** - 切换、共识、内世界等系统机制
+3. **实践指南** - Tulpa 创造、接地技巧等实用指南
+4. **创伤与疗愈** - 创伤处理、疗愈方法、心理治疗
+5. **角色与身份** - 人格、主人格、守门人等角色定义
+6. **理论与分类** - 结构性解离理论、分类体系等
+7. **文化与表现** - 文学、影视作品中的多重人格表现
+
+**工作原理**：
+
+1. 扫描 `docs/entries/` 下的所有词条文件
+2. 读取每个词条的 `topic` 字段
+3. 按主题分类聚合词条信息（标题、路径、更新时间）
+4. 为每个主题生成独立的索引页（如 `诊断与临床-index.md`）
+5. 按更新时间降序排列词条列表
+
+**自动化集成**：
+
+- ✅ 通过 `mkdocs-gen-files` 插件在构建时自动运行
+- ✅ 每次 `mkdocs build` 或 `mkdocs serve` 时自动更新
+- ✅ 无需手动维护索引页面
+- ✅ CI/CD 流程中自动生成
+
+**手动运行**：
+
+```bash
+# 直接运行脚本生成索引页
+python3 tools/build_partitions_cn.py
+
+# 输出示例
+[gen] 已生成 7 个中文分区索引页。
+```
+
+**生成的索引页格式**：
+
+```markdown
+---
+title: 诊断与临床
+comments: true
+---
+
+# 诊断与临床
+
+> 本页汇总所有主题为「诊断与临床」的词条，原文档仍在 `entries/` 目录中。
+
+## 词条一览
+
+- [解离性身份障碍（DID）](DID.md) — *2025-10-14*
+- [其他特定解离性障碍（OSDD）](OSDD.md) — *2025-10-14*
+- [创伤后应激障碍（PTSD）](PTSD.md) — *2025-10-14*
+...
+```
+
+**配置要求**：
+
+1. **requirements.txt** - 已添加 `mkdocs-gen-files>=0.5.0`
+2. **mkdocs.yml** - 已配置 gen-files 插件：
+
+```yaml
+plugins:
+  - gen-files:
+      scripts:
+        - tools/build_partitions_cn.py
+```
+
+**词条要求**：
+
+每个词条的 Frontmatter 需包含 `topic` 字段：
+
+```yaml
+---
+title: 解离性身份障碍（DID）
+topic: 诊断与临床
+tags:
+  - DID
+  - 解离
+updated: 2025-10-14
+---
+```
+
+**注意事项**：
+
+- ⚠️ 只有包含有效 `topic` 字段的词条才会被收录
+- ⚠️ `topic` 必须是七个预定义主题之一
+- ⚠️ 自动跳过索引页（`*-index.md`）和导览页（`*-Guide.md`）
+- ⚠️ 如果词条没有 `updated` 字段，会显示在列表末尾
+- 💡 生成的索引页位于 `docs/entries/` 目录，与词条同级
+
+**生成文件清单**：
+
+- `Clinical-Diagnosis-index.md` - 诊断与临床索引
+- `System-Operations-index.md` - 系统运作索引
+- `Practice-index.md` - 实践指南索引
+- `Trauma-Healing-index.md` - 创伤与疗愈索引
+- `Roles-Identity-index.md` - 角色与身份索引
+- `Theory-Classification-index.md` - 理论与分类索引
+- `Cultural-Media-index.md` - 文化与表现索引
+- `SUMMARY.md` - 侧边栏导航配置（自动生成）
+
+**导航集成**：
+
+脚本自动生成 `docs/SUMMARY.md` 文件,控制 MkDocs Material 的侧边栏导航。导航结构包括:
+
+1. **主题索引页** - 每个主题的汇总页面
+2. **所有词条** - 按标题首字母排序,方便查找
+3. **字母分组** - 中文词条按拼音首字母,英文词条按字母排序
+
+**字母分组逻辑**：
+
+- 中文词条：自动转换为拼音首字母（如 "解离" → J 组）
+- 英文词条：直接取首字母（如 "ANP-EP" → A 组）
+- 特殊字符：归类到 # 组（如《书名》等）
+
+这确保了点进任何词条后,左侧侧边栏都能显示同主题的其他词条,便于用户浏览和导航。
+
+**SUMMARY.md 示例**：
+
+```markdown
+* 主题分区
+    * [诊断与临床](entries/Clinical-Diagnosis-index.md)
+        * [DSM-5-TR 评估量表总览](entries/DSM-5TR-Scales.md)
+        * [习得性无助（Learned Helplessness）](entries/Learned-Helplessness.md)
+        * [人格分裂（Split Personality，非正式术语）](entries/Split-Personality.md)
+        * ...
+```
 
 ### PDF 导出目录生成逻辑
 
