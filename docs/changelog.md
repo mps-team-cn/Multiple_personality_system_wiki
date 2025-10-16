@@ -1,5 +1,106 @@
 # 更新日志
 
+## [v3.14.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.14.0) - Tulpa 实践体系完善与主题索引优化 (2025-10-17)
+
+### ✨ 新增词条
+
+- **新增 7 个物质相关障碍核心词条**
+    - [酒精相关障碍 (Alcohol-Related Disorders)](entries/Alcohol-Related-Disorders.md)
+    - [咖啡因相关障碍 (Caffeine-Related Disorders)](entries/Caffeine-Related-Disorders.md)
+    - [大麻相关障碍 (Cannabis-Related Disorders)](entries/Cannabis-Related-Disorders.md)
+    - [阿片类相关障碍 (Opioid-Related Disorders)](entries/Opioid-Related-Disorders.md)
+    - [镇静催眠抗焦虑药相关障碍 (Sedative-Hypnotic-Anxiolytic-Related Disorders)](entries/Sedative-Hypnotic-Anxiolytic-Related-Disorders.md)
+    - [兴奋剂相关障碍 (Stimulant-Related Disorders)](entries/Stimulant-Related-Disorders.md)
+    - [烟草相关障碍 (Tobacco-Related-Disorders)](entries/Tobacco-Related-Disorders.md)
+
+- **新增 3 个精神障碍诊断词条**
+    - [遗忘症 (Amnesia)](entries/Amnesia.md) - 记忆功能受损的神经认知障碍
+    - [沟通障碍 (Communication Disorders)](entries/Communication-Disorders.md) - 语言表达与理解障碍
+    - [特定学习障碍 (Specific Learning Disorder)](entries/Specific-Learning-Disorder.md) - 学业技能获取困难
+    - [分裂样精神病性障碍 (Schizophreniform Disorder)](entries/Schizophreniform-Disorder.md) - 短期精神分裂症样症状
+
+- **新增 Tulpa 实践核心词条 (PR #301)**
+    - [Forcing](entries/Forcing.md) - Tulpa 创建的核心训练方法
+    - [Parroting/Puppeting](entries/Parroting-Puppeting.md) - 识别鹦鹉学舌与傀儡操控现象
+    - [Deviation](entries/Deviation.md) - Tulpa 自主偏离预期设定的发展过程
+
+- **新增 8 个角色与身份相关词条 (PR #298)**
+    - [创造者 (Creative)](entries/Creative.md) - 系统内负责艺术与创意产出的成员
+    - [社交者 (Social)](entries/Social.md) - 负责外部社交互动的成员
+    - [内射人格 (Introject)](entries/Introject.md) - 基于外部人物或角色形成的人格
+    - [非人类人格 (Nonhuman Alter)](entries/Nonhuman-Alter.md) - 非人类身份认同的系统成员
+    - [成年人格 (Adult Alter)](entries/Adult-Alter.md) - 呈现成年心智状态的人格
+    - [青少年人格 (Teen Alter)](entries/Teen-Alter.md) - 呈现青少年心智状态的人格
+    - [创伤持有者 (Trauma Holder)](entries/Trauma-Holder.md) - 承载特定创伤记忆的成员
+    - [非创伤持有者 (Non-Trauma Holder)](entries/Non-Trauma-Holder.md) - 不直接持有创伤记忆的成员
+
+- **新增非我感核心概念 (PR #302)**
+    - [非我感 (Not-me Feeling)](entries/Not-Me-Feeling.md) - 识别系统成员边界的核心体验机制
+
+### 📚 词条完善
+
+- **人格障碍词条优化 (PR #299, #300)**
+    - 重写边缘型人格障碍 (BPD) 词条,新增 DSM-5-TR 诊断标准与鉴别诊断
+    - 重写自恋型人格障碍 (NPD) 词条,统一诊断标题格式
+    - 补充内部空间 (Inner World) 词条的理论基础与实践方法
+    - 统一人格障碍词条结构:概述→诊断要点(ICD/DSM/差异)→临床表现→流行病学→鉴别→治疗→社群→相关条目→参考
+
+- **系统运作词条重构 (PR #296)**
+    - 重构前台 (Fronting)、后台 (Background)、共前台 (Co-fronting) 词条
+    - 完善自动驾驶 (Autopilot) 与切换 (Switching) 机制说明
+    - 统一运作机制词条格式与内部链接
+
+- **融合与整合安全提示强化 (PR #295)**
+    - 重写融合 (Fusion) 词条,新增触发警告与安全边界说明
+    - 重写整合 (Integration) 词条,补充阶段路径与自愿前提
+    - 在系统运作导览中强调融合/整合的安全与自愿原则
+
+- **DPDR 词条重构 (PR #302)**
+    - 完善人格解体/现实解体障碍 (DPDR) 诊断标准
+    - 新增与 DID/OSDD 的鉴别要点
+    - 补充治疗方法与临床实践指引
+
+- **实践指南整合 (PR #301)**
+    - 更新实践指南导览,整合 Tulpa 三阶段训练体系
+    - 优化 Tulpa 实践路径与相关词条链接
+    - 完善冥想、可视化等意识训练方法说明
+
+### 🎨 界面与体验优化
+
+- **主题索引页面新增 (PR #292)**
+    - 创建 8 个主题索引页面:Clinical-Diagnosis-index、System-Operations-index、Practice-index、Trauma-Healing-index、Roles-Identity-index、Theory-Classification-index、Cultural-Media-index
+    - 优化导览结构,提升主题浏览体验
+    - 统一索引页面 Frontmatter 格式
+
+- **主题跟随系统选项**
+    - 添加主题跟随系统选项支持,自动适配浅色/深色模式
+
+### 🔧 基础设施改进
+
+- **CI/CD 优化**
+    - 集成 build_partitions_cn 到 auto-fix-entries 工作流,自动生成索引与 SUMMARY
+    - 改进 PR Frontmatter 检查机制,确保索引页面合规
+    - 修复主题索引页面缺少必需 Frontmatter 字段的问题
+
+- **工具文档重构 (PR #303)**
+    - 重构工具文档结构,创建独立的 Tools-Index.md
+    - 清理废弃文件,优化文档组织
+    - 修复技术规范文档中的工具文档引用路径
+
+- **代码质量**
+    - 运行 fix_markdown 与 check_links 验证所有新增词条
+    - 统一词条 tags、updated、description 字段格式
+    - 完善词条间的内部链接网络
+
+### 📊 统计信息
+
+- 新增词条:30+ 个
+- 完善词条:15+ 个
+- 新增索引页:8 个
+- 修复链接错误:10+ 处
+
+---
+
 ## [v3.13.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.13.0) - DSM-5-TR 诊断体系完善与 Favicon 支持 (2025-10-16)
 
 ### ✨ 新增词条
