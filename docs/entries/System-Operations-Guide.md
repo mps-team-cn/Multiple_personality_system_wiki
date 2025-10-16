@@ -62,6 +62,9 @@ comments: true
 - [权限（Permissions）](Permissions.md)：制定内部规则、授权与边界的实践方法。
 - [融合（Fusion）](Fusion.md) 与 [整合（Integration）](Integration.md)：讨论成员合并或协作整合的路径。
 
+!!! warning "安全与自愿前提"
+    推进 [融合（Fusion）](Fusion.md) 或 [整合（Integration）](Integration.md) 应以 **安全、稳定与自愿** 为前提；以 **功能与生活质量** 为首要指标，小步推进并允许 **随时暂停或回滚** 。出现强烈不适或负荷升高时，优先使用 [接地（Grounding）](Grounding.md) 与既定安全计划。
+
 ## 身体与外部互动
 
 - [躯体认同（Body Ownership）](Body-Ownership.md)：处理身体认同感与现实感的变化。
