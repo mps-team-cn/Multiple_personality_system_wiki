@@ -240,7 +240,13 @@ comments: true
 ???+ abstract "展开查看"
 
     - [物质使用障碍总览（SUD）](Substance-Use-Disorders-SUD.md) — :octicons-check-16: 已完成
-    - 酒精使用障碍（Alcohol Use Disorder）、阿片类使用障碍（Opioid Use Disorder）、大麻/兴奋剂/致幻剂等相关障碍 — :octicons-clock-16: 待更新
+    - [酒精相关障碍（Alcohol-Related Disorders）](Alcohol-Related-Disorders.md) — :octicons-check-16: 已完成
+    - [大麻相关障碍（Cannabis-Related Disorders）](Cannabis-Related-Disorders.md) — :octicons-check-16: 已完成
+    - [阿片类相关障碍（Opioid-Related Disorders）](Opioid-Related-Disorders.md) — :octicons-check-16: 已完成
+    - [镇静催眠抗焦虑药相关障碍（Sedative-Hypnotic-Anxiolytic-Related Disorders）](Sedative-Hypnotic-Anxiolytic-Related-Disorders.md) — :octicons-check-16: 已完成
+    - [兴奋剂相关障碍（Stimulant-Related Disorders）](Stimulant-Related-Disorders.md) — :octicons-check-16: 已完成
+    - [烟草相关障碍（Tobacco-Related Disorders）](Tobacco-Related-Disorders.md) — :octicons-check-16: 已完成
+    - [咖啡因相关障碍（Caffeine-Related Disorders）](Caffeine-Related-Disorders.md) — :octicons-check-16: 已完成
     - 非物质成瘾：赌博障碍（Gambling Disorder）等 — :octicons-clock-16: 待更新
 
 ### 17) 神经认知障碍
