@@ -94,10 +94,11 @@ comments: true
 ???+ abstract "展开查看"
 
     - [智力发育障碍（Intellectual Developmental Disorders）](Intellectual-Developmental-Disorders.md) — :octicons-check-16: 已完成
-    - 沟通障碍（Communication Disorders）— :octicons-clock-16: 待更新
+    - [沟通障碍（Communication Disorders）](Communication-Disorders.md) — :octicons-check-16: 已完成
     - [孤独症谱系障碍（ASD）](Autism-Spectrum-Disorder.md) — :octicons-check-16: 已完成
     - [注意缺陷多动障碍（ADHD）](Attention-Deficit-Hyperactivity-Disorder-ADHD.md) — :octicons-check-16: 已完成
-    - 特定学习障碍（Specific Learning Disorder）、运动障碍（Motor Disorders）等 — :octicons-clock-16: 待更新
+    - [特定学习障碍（Specific Learning Disorder）](Specific-Learning-Disorder.md) — :octicons-check-16: 已完成
+    - 运动障碍（Motor Disorders）等 — :octicons-clock-16: 待更新
 
 ### 2) 精神分裂症谱系及其他精神病性障碍
 
@@ -106,7 +107,7 @@ comments: true
     - [精神分裂症（Schizophrenia, SZ/SCZ）](Schizophrenia-SZ.md) — :octicons-check-16: 已完成
     - [妄想障碍（Delusional Disorder）](Delusional-Disorder.md) — :octicons-check-16: 已完成
     - [短期精神病性障碍（Brief Psychotic Disorder）](Brief-Psychotic-Disorder.md) — :octicons-check-16: 已完成
-    - 分裂样障碍（Schizophreniform Disorder）— :octicons-clock-16: 待更新
+    - [分裂样障碍（Schizophreniform Disorder）](Schizophreniform-Disorder.md) — :octicons-check-16: 已完成
     - [分裂情感性障碍（Schizoaffective Disorder）](Schizoaffective-Disorder.md) — :octicons-check-16: 已完成
     - 紧张症（Catatonia）— :octicons-clock-16: 待更新
 

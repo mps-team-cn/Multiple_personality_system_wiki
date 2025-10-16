@@ -27,10 +27,10 @@ comments: true
 ## 1. 神经发育障碍（Neurodevelopmental Disorders）
 
 - [x] Intellectual-Developmental-Disorders.md
-- [ ] Communication-Disorders.md
+- [x] Communication-Disorders.md
 - [x] Autism-Spectrum-Disorder.md
 - [x] Attention-Deficit-Hyperactivity-Disorder-ADHD.md
-- [ ] Specific-Learning-Disorder.md
+- [x] Specific-Learning-Disorder.md
 - [ ] Motor-Disorders.md
     - [ ] Developmental-Coordination-Disorder.md
     - [ ] Stereotypic-Movement-Disorder.md
@@ -40,7 +40,7 @@ comments: true
 
 - [x] Delusional-Disorder.md
 - [x] Brief-Psychotic-Disorder.md
-- [ ] Schizophreniform-Disorder.md
+- [x] Schizophreniform-Disorder.md
 - [x] Schizophrenia-SZ.md
 - [x] Schizoaffective-Disorder.md
 - [ ] Substance-Medication-Induced-Psychotic-Disorder.md
@@ -385,9 +385,9 @@ comments: true
 
 2. 精神病性谱系
 
-* `Delusional-Disorder.md`
-* `Brief-Psychotic-Disorder.md`
-* `Schizoaffective-Disorder.md`
+* `Delusional-Disorder.md` (更新了)
+* `Brief-Psychotic-Disorder.md` (更新了)
+* `Schizoaffective-Disorder.md` (更新了)
 
 3. 进食补全
 
