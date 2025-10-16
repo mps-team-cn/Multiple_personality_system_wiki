@@ -19,6 +19,7 @@ comments: true
 - [照顾者（Caregiver）](Caregiver.md) — *2025-10-16*
 - [儿童人格（Little / Child Alter）](Child-Alter.md) — *2025-10-16*
 - [创造者（Creative）](Creative.md) — *2025-10-16*
+- [异化/偏离（Deviation）](Deviation.md) — *2025-10-16*
 - [引入者（Introject）](Introject.md) — *2025-10-16*
 - [记忆持有者（Memory Holder）](Memory-Holder.md) — *2025-10-16*
 - [无创伤记忆者（Non-Trauma Holder）](Non-Trauma-Holder.md) — *2025-10-16*

@@ -28,6 +28,7 @@ comments: true
 - [内部沟通（Internal Communication）](Internal-Communication.md) — *2025-10-16*
 - [系魂型系统（Soul-Linked Systems, Xianyu Theory）](Soul-Linked-Systems-Xianyu.md) — *2025-10-16*
 - [切换（Switch）](Switch.md) — *2025-10-16*
+- [幻境（Wonderland）](Wonderland.md) — *2025-10-16*
 - [退行（Regression）](Regression.md) — *2025-10-15*
 - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](Apparently-Normal-Part-Emotional-Part-Model.md) — *2025-10-14*
 - [偏重（Bias / Median）](Bias.md) — *2025-10-14*
