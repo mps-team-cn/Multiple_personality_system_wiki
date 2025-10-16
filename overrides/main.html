@@ -3,6 +3,12 @@
 {% block extrahead %}
   {{ super() }}
 
+  <!-- Favicon (多尺寸支持) -->
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ config.site_url }}assets/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ config.site_url }}assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="{{ config.site_url }}assets/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ config.site_url }}assets/apple-touch-icon.png">
+
   {% if page %}
   <!-- Open Graph Meta Tags -->
   <meta property="og:site_name" content="Multiple Personality System Wiki - 多意识体系统百科">
