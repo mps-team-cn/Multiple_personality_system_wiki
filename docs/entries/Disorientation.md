@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 定向障碍（Disorientation）
-updated: 2025-02-14
+updated: 2025-10-15
 comments: true
 ---
 
@@ -163,7 +163,7 @@ ICD-11 与 DSM-5-TR 均将定向障碍视为谵妄的重要表现，但 ICD-11 �
 [^wang2020]: Wang, Z., Yang, Y., & Hong, Z. (2020). Disorientation in Alzheimer's disease: neurobiological mechanisms and clinical implications. *Journal of Alzheimer's Disease Reports, 4*(1), 97–108. [https://doi.org/10.3233/ADR-200189](https://doi.org/10.3233/ADR-200189)
 [^who2023]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Delirium (6D70).* [https://icd.who.int/en](https://icd.who.int/en)
 [^shrestha2020]: Shrestha, S., Granger, B. B., & McKeon, S. (2020). Screening, diagnosis, and prevention of delirium in hospitalized older adults: A review. *Clinical Geriatrics, 28*(1), 22–31.
-[^loewenstein1991]: Loewenstein, R. J. (1991). An office mental status examination for complex chronic dissociative symptoms and multiple personality disorder. *Psychiatric Clinics of North America, 14*(3), 567–604. [https://doi.org/10.1016/S0193-953X(18)30290-9](https://doi.org/10.1016/S0193-953X(18)30290-9)
+[^loewenstein1991]: Loewenstein, R. J. (1991). An office mental status examination for complex chronic dissociative symptoms and multiple personality disorder. *Psychiatric Clinics of North America, 14*(3), 567–604. [https://doi.org/10.1016/S0193-953X（18）30290-9](https://doi.org/10.1016/S0193-953X(18)30290-9)
 [^brand2014]: Brand, B. L., Loewenstein, R. J., & Spiegel, D. (2014). Dispelling myths about dissociative identity disorder treatment: An empirically based approach. *Psychiatry, 77*(2), 169–189. [https://doi.org/10.1521/psyc.2014.77.2.169](https://doi.org/10.1521/psyc.2014.77.2.169)
 [^steele2017]: Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating trauma-related dissociation: A practical, integrative approach*. W. W. Norton & Company.
 [^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for treating dissociative identity disorder in adults, third revision*. *Journal of Trauma & Dissociation, 12*(2), 115–187.
