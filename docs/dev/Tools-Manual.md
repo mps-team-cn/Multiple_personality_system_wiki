@@ -357,7 +357,7 @@ python tools/pdf_export/export_to_pdf.py --ignore-file custom_ignore.md
 
 #### 详细文档
 
-完整配置和用法:[PDF 导出工具文档](../../tools/pdf_export/README.md)
+完整配置和用法:[PDF 导出工具文档](../../tools/pdf_export/README_pdf_output.md)
 
 ## 🧪 开发者工具
 

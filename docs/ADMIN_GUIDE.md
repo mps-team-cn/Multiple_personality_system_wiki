@@ -10,7 +10,7 @@
     - [贡献指南](contributing/index.md) - 通用贡献流程
     - [PR 提交流程](contributing/pr-workflow.md) - 详细提交步骤
     - [AGENTS.md](../AGENTS.md) - 项目开发约定
-    - [工具文档](tools/README.md) - 自动化工具说明
+    - [工具文档](dev/Tools-Index.md) - 自动化工具说明
 
 ---
 
@@ -430,7 +430,7 @@ python tools/pdf_export/export_to_pdf.py \
   --cjk-font="Microsoft YaHei"
 ```
 
-详见 [工具文档](tools/README.md#pdf-导出工具)。
+详见 [工具文档](dev/Tools-Index.md#pdf-导出工具)。
 
 ---
 
