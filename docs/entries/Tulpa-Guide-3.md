@@ -231,6 +231,9 @@ Tulpa 的创造并非逃避现实，而是一种探索意识的方式。
 
 ## 相关词条
 
+- [塑造（Forcing）](Forcing.md) - 进阶训练方法
+- [异化/偏离（Deviation）](Deviation.md) - 本篇讨论的"异化与变化"
+- [幻境（Wonderland）](Wonderland.md) - 投影训练的基础
 - [前台（Fronting）](Front-Fronting.md) - 身体控制权概念
 - [切换（Switch）](Switch.md) - 成员转换机制
 - [共意识（Co-Consciousness）](Co-Consciousness.md) - 意识共存状态
