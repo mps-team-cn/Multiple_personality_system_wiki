@@ -143,7 +143,7 @@ tools/
 
 - **[核心工具详解](../dev/Tools-Core.md)** - CI 集成工具的详细配置、规则说明和输出示例
 - **[手动工具指南](../dev/Tools-Manual.md)** - SEO、搜索优化、版本管理等手动工具的完整用法
-- **[废弃工具说明](../../tools/deprecated/README.md)** - 已废弃工具的迁移指南和保留原因
+- **[废弃工具说明](https://github.com/mps-team-cn/Multiple_personality_system_wiki/tree/main/tools/deprecated#readme)** - 已废弃工具的迁移指南和保留原因
 
 ## 💡 Python 环境配置
 
@@ -174,3 +174,6 @@ pip install -r requirements.txt
 - [技术约定](../contributing/technical-conventions.md)
 - [MkDocs 配置说明](../dev/MkDocs-Configuration.md)
 - [Cloudflare Pages 部署](../dev/CLOUDFLARE_PAGES.md)
+- [性能优化指南](../dev/Performance-Optimization.md) ⭐ **新增**
+- [性能测试指南](../dev/Performance-Testing.md) ⭐ **新增**
+- [进一步优化建议](../dev/Further-Optimizations.md) ⭐ **新增**

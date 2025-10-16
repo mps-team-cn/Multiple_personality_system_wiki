@@ -145,15 +145,25 @@
   }
 
   /**
-   * 监听主题切换。
+   * 监听主题切换（带节流优化）。
    */
   function ensureThemeObserver() {
     if (themeObserver) {
       return;
     }
 
+    let throttleTimer = null;
+
     themeObserver = new MutationObserver(() => {
-      syncThemeWithRetry();
+      // 节流：100ms 内只执行一次
+      if (throttleTimer) {
+        return;
+      }
+
+      throttleTimer = setTimeout(() => {
+        syncThemeWithRetry();
+        throttleTimer = null;
+      }, 100);
     });
 
     themeObserver.observe(document.body, {
@@ -274,6 +284,7 @@
   /**
    * 页面导航后的统一入口（延迟加载优化）。
    * 使用 Intersection Observer 仅在用户滚动到评论区时才加载 Giscus。
+   * 增加用户交互检测，进一步延迟加载。
    */
   function handlePageChange() {
     // 先清理旧的观察器
@@ -287,23 +298,56 @@
       return;
     }
 
+    let userInteracted = false;
+
+    // 检测用户交互（点击、滚动、键盘输入）
+    const detectInteraction = () => {
+      userInteracted = true;
+      ['click', 'scroll', 'keydown', 'touchstart'].forEach(event => {
+        document.removeEventListener(event, detectInteraction, { capture: true, passive: true });
+      });
+    };
+
+    ['click', 'scroll', 'keydown', 'touchstart'].forEach(event => {
+      document.addEventListener(event, detectInteraction, { capture: true, passive: true, once: true });
+    });
+
     // 使用 Intersection Observer 实现按需加载
     window.giscusObserver = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting && !giscusActive) {
-          // 用户滚动到评论区附近，开始加载
-          window.requestAnimationFrame(loadGiscus);
-          // 加载后断开观察器
-          window.giscusObserver.disconnect();
+          // 只有在用户交互后或等待 3 秒后才加载
+          const loadGiscusIfReady = () => {
+            if (userInteracted || Date.now() - pageLoadTime > 3000) {
+              // 使用 requestIdleCallback 延迟加载，避免阻塞主线程
+              if ('requestIdleCallback' in window) {
+                requestIdleCallback(() => {
+                  window.requestAnimationFrame(loadGiscus);
+                }, { timeout: 2000 });
+              } else {
+                window.requestAnimationFrame(loadGiscus);
+              }
+              // 加载后断开观察器
+              window.giscusObserver.disconnect();
+            } else {
+              // 如果用户还没有交互，等待一段时间后重试
+              setTimeout(loadGiscusIfReady, 500);
+            }
+          };
+
+          loadGiscusIfReady();
         }
       });
     }, {
-      // 提前 200px 开始加载，优化用户体验
+      // 提前 200px 开始检测，但不立即加载
       rootMargin: '200px 0px'
     });
 
     window.giscusObserver.observe(root);
   }
+
+  // 记录页面加载时间，用于延迟加载判断
+  const pageLoadTime = Date.now();
 
   document.addEventListener('DOMContentLoaded', handlePageChange);
   window.addEventListener('message', handleMessage);

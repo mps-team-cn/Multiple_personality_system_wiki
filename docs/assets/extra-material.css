@@ -396,6 +396,20 @@ a:hover {
   color: rgba(231, 237, 247, 0.5);
 }
 
+/* ===== 外部链接样式 ===== */
+a.external-link::after {
+  content: '↗';
+  margin-left: 0.25em;
+  font-size: 0.9em;
+  opacity: 0.6;
+  display: inline-block;
+  transition: opacity 0.2s ease;
+}
+
+a.external-link:hover::after {
+  opacity: 1;
+}
+
 /* ===== 打印样式 ===== */
 @media print {
   .md-header,
@@ -407,5 +421,10 @@ a:hover {
 
   .md-content {
     max-width: 100%;
+  }
+
+  /* 打印时隐藏外链图标 */
+  a.external-link::after {
+    display: none;
   }
 }
