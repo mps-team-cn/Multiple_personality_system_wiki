@@ -27,12 +27,24 @@ comments: true
 
 ### Tulpa 创造系列
 
+#### 系统指南
+
 | 词条 | 练习重点 | 适合阶段 |
 | --- | --- | --- |
 | [Tulpa 完全创造指南](Tulpa-Guide.md) | 概览 Tulpa 创造的理念、流程与准备要点 | 全程参考 |
 | [Tulpa 完全创造指南·基础篇](Tulpa-Guide-1.md) | 目标设定、心像养成、与 Tulpa 建立初步连结 | 起步阶段 |
 | [Tulpa 完全创造指南·实践篇](Tulpa-Guide-2.md) | 设定人格特质、深化对话、维持日常陪伴 | 稳定练习期 |
 | [Tulpa 完全创造指南·提高篇](Tulpa-Guide-3.md) | 投影、附体、交换等进阶协作技巧 | 进阶巩固期 |
+
+#### 核心概念与方法
+
+| 词条 | 练习重点 | 适合阶段 |
+| --- | --- | --- |
+| [塑造（Forcing）](Forcing.md) | 主动/被动 Forcing 训练、持续专注互动 | 起步至稳定期 |
+| [幻境（Wonderland）](Wonderland.md) | 内部想象空间的创建与维护 | 起步至全程 |
+| [成声（Vocality）](Vocality.md) | Tulpa 获得清晰语言表达能力 | 稳定练习期 |
+| [异化（Deviation）](Deviation.md) | 理解和接受 Tulpa 偏离原设定的自主发展 | 稳定至进阶期 |
+| [学舌/操纵（Parroting/Puppeting）](Parroting-Puppeting.md) | 应对"是否在假装 Tulpa"的自我怀疑 | 起步至稳定期 |
 
 ### 意识训练
 
@@ -61,16 +73,25 @@ comments: true
 
 ## 建议学习路径
 
+### Tulpa 创造路径
+
 1. **奠定观念** → 阅读《[Tulpa 完全创造指南](Tulpa-Guide.md)》，确认动机、风险与准备事项。
 2. **打好基础** → 依照《[基础篇](Tulpa-Guide-1.md)》结合《[正念](Mindfulness.md)》《[冥想](Meditation.md)》建立日常觉察与记录习惯。
-3. **进入实作** → 参考《[实践篇](Tulpa-Guide-2.md)》与《[内部沟通](Internal-Communication.md)》《[内部空间](Headspace-Inner-World.md)》设计协作练习。
-4. **评估进阶需求** → 若系统状态稳定，可按照《[提高篇](Tulpa-Guide-3.md)》搭配《[权限管理](Permissions.md)》规划投影、附体或交换，并保留安全退出方案。
-5. **循环检视** → 结合《[接地](Grounding.md)》《[感官调节策略](Sensory-Regulation-Strategies.md)》在练习后复盘体验，必要时返回前一阶段补强。
+3. **开始塑造** → 学习《[塑造（Forcing）](Forcing.md)》方法，在《[幻境（Wonderland）](Wonderland.md)》中进行主动训练，同时了解《[学舌/操纵（Parroting/Puppeting）](Parroting-Puppeting.md)》以应对早期自我怀疑。
+4. **进入实作** → 参考《[实践篇](Tulpa-Guide-2.md)》与《[内部沟通](Internal-Communication.md)》《[内部空间](Headspace-Inner-World.md)》设计协作练习，追踪《[成声（Vocality）](Vocality.md)》进展。
+5. **接受演变** → 理解《[异化（Deviation）](Deviation.md)》现象，尊重 Tulpa 的自主发展和个性变化。
+6. **评估进阶需求** → 若系统状态稳定，可按照《[提高篇](Tulpa-Guide-3.md)》搭配《[权限管理](Permissions.md)》规划投影、附体或交换，并保留安全退出方案。
+7. **循环检视** → 结合《[接地](Grounding.md)》《[感官调节策略](Sensory-Regulation-Strategies.md)》在练习后复盘体验，必要时返回前一阶段补强。
 
 ## 练习时的自我检查
 
+### Tulpa 创造阶段检查
+
 - 📌 是否仍能明确区分 Tulpa 与幻想角色？
 - 📌 是否保持规律生活、避免因练习影响睡眠或工作？
+- 📌 是否接受早期的《[学舌/操纵（Parroting/Puppeting）](Parroting-Puppeting.md)》困惑，而非过度怀疑？
+- 📌 是否尊重 Tulpa 的《[异化（Deviation）](Deviation.md)》，允许其偏离原设定？
+- 📌 是否保持《[塑造（Forcing）](Forcing.md)》练习的规律性和耐心？
 - 📌 是否与信任的他人共享练习进度，获得情绪支持？
 - 📌 是否能在练习后恢复日常功能，如出现脱离感需及时停止？
 
