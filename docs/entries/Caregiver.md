@@ -59,6 +59,6 @@ comments: true
 - [迫害者（Persecutor）](Persecutor.md)
 - [人格职能（System Roles）](System-Roles.md)
 - [执行者（Performer / Executive）](Performer-Executive.md)
-- [青少年意识体（Teen Part）](Teen.md)
+- [青少年意识体（Teen Part）](Teen-Alter.md)
 - [内部沟通（Internal Communication）](Internal-Communication.md)
 - [记忆持有者（Memory Holder）](Memory-Holder.md)

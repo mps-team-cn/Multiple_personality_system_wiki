@@ -1,0 +1,158 @@
+---
+title: 失忆（Amnesia）
+tags:
+  - 解离
+  - 记忆与解离
+  - 多重意识体
+topic: 系统运作
+synonyms:
+  - 失忆
+  - Amnesia
+  - 记忆缺失
+  - Memory Loss
+  - 遗忘
+description: 多意识体系统中常见的记忆断裂现象，包括顺行性失忆、逆行性失忆与解离性失忆等类型
+updated: 2025-10-16
+comments: true
+---
+
+# 失忆（Amnesia）
+
+**一句话定义**：失忆是指个体无法回忆特定时期、事件或信息的状态,在多意识体系统中常表现为不同成员之间的记忆隔离,导致"失去的时间"与生活连续性中断。
+
+## 定义
+
+失忆（Amnesia）是记忆功能的部分或完全丧失,在多意识体系统中尤为常见,其特征包括：
+
+- **时间缺失**：无法回忆特定时间段发生的事件（如"我怎么到这里的？""昨天我做了什么？"）。
+- **成员间隔离**：不同成员对同一事件的记忆访问权限不同,导致系统整体记忆不连贯。
+- **选择性遗忘**：可能仅对创伤事件、人际互动或技能知识失忆,而其他记忆保留完好。
+- **双向性**：可能包括顺行性失忆（无法形成新记忆）与逆行性失忆（无法回忆过去事件）。
+
+失忆是解离性障碍的核心症状之一,在 DID 与 OSDD 诊断标准中占据重要地位。[^dsm5tr]
+
+## 失忆类型
+
+### 按时间方向分类
+
+- **顺行性失忆（Anterograde Amnesia）**：难以形成失忆事件后的新记忆,但保留事件前的记忆。
+- **逆行性失忆（Retrograde Amnesia）**：无法回忆失忆事件前的记忆,但可形成新记忆。
+- **完全性失忆（Complete Amnesia）**：同时包含顺行与逆行失忆。
+
+### 按内容分类
+
+- **局部性失忆（Localized Amnesia）**：无法回忆特定时间段（如数小时、数天）的所有事件。
+- **选择性失忆（Selective Amnesia）**：仅忘记特定时间段内的部分事件。
+- **系统性失忆（Systematized Amnesia）**：忘记特定类别的信息（如某个人、某类技能）。
+- **连续性失忆（Continuous Amnesia）**：从特定时点开始至今的所有记忆均无法回忆。
+- **泛化性失忆（Generalized Amnesia）**：忘记整个生命史,包括身份信息,较为罕见。
+
+### 按解离机制分类
+
+- **解离性失忆（Dissociative Amnesia）**：由心理因素（通常是创伤）而非器质性脑损伤引起的记忆缺失。参见[解离性失忆（Dissociative Amnesia, DA）](Dissociative-Amnesia-DA.md)。
+- **器质性失忆（Organic Amnesia）**：由脑损伤、疾病、药物或酒精引起的记忆障碍。
+
+## 在多意识体系统中的表现
+
+### 成员间失忆（Inter-Identity Amnesia）
+
+- **单向失忆**：成员 A 记得成员 B 前台时的事件,但 B 不记得 A 的经历。
+- **双向失忆**：成员 A 与 B 彼此不知道对方的存在或经历。
+- **部分共享**：某些成员可访问共享记忆库,其他成员则被隔离。
+
+### 日常功能影响
+
+- **时间错位**：发现自己突然出现在陌生地点、穿着不记得的衣服、持有不认识的物品。
+- **社交困惑**：他人提及系统不记得的对话、承诺或事件,导致尴尬或误解。
+- **任务中断**：开始的工作或计划突然"失踪",因前台成员切换。
+- **关系挑战**：朋友或家人抱怨"你说的话不算数""你变化无常",加剧系统污名化。
+
+### 保护性功能
+
+- **创伤隔离**：通过失忆将创伤记忆与日常功能分隔,保护系统免受持续冲击。
+- **身份保护**：避免某些成员接触可能引发崩溃的信息。
+- **社会适应**：使部分成员得以"正常"生活,不被创伤历史拖累。
+
+## 失忆的机制
+
+### 神经生物学
+
+- **海马与编码**：创伤时压力激素（如皮质醇）过高可能损害海马功能,影响记忆编码。[^bremner2006]
+- **状态依赖记忆**：在特定生理或情绪状态下编码的记忆,可能仅在相似状态下可提取。
+- **杏仁核激活**：极度恐惧时杏仁核过度激活,可能干扰海马的正常记忆整合。
+
+### 心理解离
+
+- **结构性解离**：不同成员承载不同记忆,形成分隔的"记忆网络"。参见[结构性解离理论（Structural Dissociation Theory）](Structural-Dissociation-Theory.md)。
+- **防御性遗忘**：主动或被动地"不去想"创伤,久而久之形成真实的提取障碍。
+- **守门人控制**：守门人可能主动限制特定记忆的访问,作为保护机制。参见[守门人（Gatekeeper）](Gatekeeper.md)。
+
+## 应对策略
+
+### 外部记录工具
+
+- **日志系统**：每位前台成员记录日期、时间、活动、情绪与注意事项,供其他成员查阅。
+- **日历提醒**：使用数字日历、待办清单、闹钟,减少任务遗漏。
+- **照片/录音**：视觉或听觉记录帮助追溯"失去的时间"。
+- **便签沟通**：在显眼位置留便签,传递重要信息。
+
+### 内部沟通
+
+- **共享记忆库**：在内部空间建立"记忆档案室",由记忆持有者管理。参见[记忆持有者（Memory Holder）](Memory-Holder.md)。
+- **定期会议**：召开内部会议,让不同成员分享近期经历。
+- **前台交接**：切换前台时,主动留言告知下一位成员当前状况。
+
+### 治疗目标
+
+- **减少危机性失忆**：通过增进内部沟通,减少突然、完全的记忆断裂。
+- **整合记忆网络**：逐步促进不同成员对共享记忆的访问,增强连续性。
+- **处理创伤记忆**：安全地加工创伤,减少防御性失忆的需求。
+
+## 诊断考量
+
+### 与其他失忆的鉴别
+
+- **器质性失忆**：通过神经影像、脑电图、血液检查排除脑损伤或疾病。
+- **物质相关失忆**：评估酒精、药物使用史,排除"断片"（blackout）。
+- **假性失忆**：在法律或社会压力下伪装失忆,需仔细评估动机与一致性。
+
+### 在 DID/OSDD 诊断中的地位
+
+- **DID 诊断标准（DSM-5-TR）**：包括"无法回忆日常事件、重要个人信息或创伤事件,超出普通遗忘范围"。
+- **OSDD-1A 与 1B**：OSDD-1B 特征是无明显失忆但有身份状态切换; OSDD-1A 则可能有失忆。
+
+## 常见误解
+
+- **"失忆都是装的"** → 实情：解离性失忆是真实的神经心理现象,患者同样困扰于记忆缺失。
+- **"失忆就是完全忘记一切"** → 实情：多数解离性失忆是部分性、选择性的,而非完全空白。
+- **"治疗就是恢复所有记忆"** → 实情：治疗目标是增进功能与整合,而非强制"挖掘"所有遗忘内容。
+- **"失忆成员记不住任何事"** → 实情：失忆通常是跨成员的,单一成员内部可能记忆完好。
+
+## 相关条目
+
+### 系统运作
+
+- [切换（Switch）](Switch.md)
+- [前台（Front / Fronting）](Front-Fronting.md)
+- [共前台（Co-fronting）](Co-Fronting.md)
+
+### 角色与记忆
+
+- [记忆持有者（Memory Holder）](Memory-Holder.md)
+- [创伤持有者（Trauma Holder）](Trauma-Holder.md)
+- [守门人（Gatekeeper）](Gatekeeper.md)
+- [无创伤记忆者（Non-Trauma Holder）](Non-Trauma-Holder.md)
+
+### 理论与诊断
+
+- [解离（Dissociation）](Dissociation.md)
+- [解离性身份障碍（DID）](DID.md)
+- [其他特定的解离性障碍（OSDD）](OSDD.md)
+- [解离性失忆（Dissociative Amnesia, DA）](Dissociative-Amnesia-DA.md)
+
+## 参考资料
+
+[^dsm5tr]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
+[^bremner2006]: Bremner, J. D. (2006). Traumatic stress: Effects on the brain. *Dialogues in Clinical Neuroscience*, 8(4), 445–461.
+[^vanderhart2006]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.
+[^brand2009]: Brand, B. L., et al. (2009). A survey of practices and recommended treatment interventions among expert therapists treating patients with dissociative identity disorder. *Psychological Trauma: Theory, Research, Practice, and Policy*, 1(2), 138–151.

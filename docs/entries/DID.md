@@ -71,9 +71,7 @@ ICD-11 将 DID 与 PDID 区分并允许描述身份侵入的形式，DSM-5-TR �
 
 隔创伤记忆与日常功能。
 
-- [**结构性解离理论（Structural Dissociation Theory）**](Structural-Dissociation-Theory.md) ：提出主导的"表面正常部分"（ANP）负责日常生活，创伤情绪由"情绪部分"（EP）承载；DID 中多个 ANP 与 EP 共同存在，
-
-并可能轮流控制行为。
+- [**结构性解离理论（Structural Dissociation Theory）**](Structural-Dissociation-Theory.md) ：提出主导的"表面正常部分"（ANP）负责日常生活，创伤情绪由"情绪部分"（EP）承载；DID 中多个 ANP 与 EP 共同存在，并可能轮流控制行为。
 
 - **神经生物学发现** ：研究显示 DID 患者在海马、杏仁核等区域的体积及功能连接上存在差异，表明长期压力对神经系统的影响。
 

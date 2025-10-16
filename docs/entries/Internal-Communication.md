@@ -54,7 +54,7 @@ comments: true
 - [人格职能（System Roles）](System-Roles.md)
 - [照顾者（Caregiver）](Caregiver.md)
 - [执行者（Performer / Executive）](Performer-Executive.md)
-- [青少年意识体（Teen Part）](Teen.md)
+- [青少年意识体（Teen Part）](Teen-Alter.md)
 - [成员（Alter）](Alter.md)
 - [迫害者（Persecutor）](Persecutor.md)
 

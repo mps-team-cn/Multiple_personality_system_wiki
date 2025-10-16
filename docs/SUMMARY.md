@@ -205,7 +205,7 @@
         * [超级破碎（Polyfragmented）](entries/Polyfragmented.md)
         * [迫害者（Persecutor）](entries/Persecutor.md)
         * [适应型（Adaptive）](entries/Adaptive.md)
-        * [青少年意识体（Teen Part）](entries/Teen.md)
+        * [青少年意识体（Teen Part）](entries/Teen-Alter.md)
     * [理论与分类](entries/Theory-Classification-index.md)
         * [人本主义心理学（Humanistic Psychology）](entries/Humanistic-Psychology.md)
         * [人格结构理论（Personality Structure Theory, Freud）](entries/Personality-Structure-Theory.md)

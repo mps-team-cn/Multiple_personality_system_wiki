@@ -22,7 +22,7 @@ comments: true
 - [迫害者（Persecutor）](Persecutor.md) — *2025-10-15*
 - [保护者（Protector）](Protector.md) — *2025-10-15*
 - [人格职能（System Roles）](System-Roles.md) — *2025-10-15*
-- [青少年意识体（Teen Part）](Teen.md) — *2025-10-15*
+- [青少年意识体（Teen Part）](Teen-Alter.md) — *2025-10-15*
 - [管理者（Admin）](Admin.md) — *2025-10-14*
 - [成员（Alter）](Alter.md) — *2025-10-14*
 - [混合（Blending）](Blending.md) — *2025-10-14*

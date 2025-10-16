@@ -28,6 +28,7 @@ comments: true
 - [切换（Switch）](Switch.md)：解析触发条件、注意事项与安全策略。
 - [卡前台（Front Stuck / Frontstuck）](Frontstuck.md)：处理前台成员无法退下或切换受阻的状况。
 - [共前台（Co-Fronting）](Co-Fronting.md)：探讨多人同时执掌身体的分工与风险。
+- [混合（Blending）](Blending.md)：两个或以上成员的意识状态部分重叠，出现身份边界模糊、记忆感知渗透的现象。
 - [并行（Parallelism）](Parallelism.md)：说明多条意识流同时运行时的协作方式与负荷管理。
 - [后台（Back / Being Back）](Back-Being-Back.md)：记录退到后台后的感受与支持方式。
 - [自动驾驶（Autopilot）](Autopilot.md)：描述"机械操作"状态及如何恢复觉察。
@@ -41,7 +42,7 @@ comments: true
 - [内部沟通](Internal-Communication.md)：介绍信息交换、会议与日志工具。
 - [内部空间（Headspace / Inner World）](Headspace-Inner-World.md)：建设、维护内部世界的方法。
 - [内视（Visualization / Imagination）](Visualization-Imagination.md)：运用心像强化沟通与记忆。
-- [独有记忆（Exomemory）](Exomemory.md)：使用外部载体记录与共享信息。
+- [独有记忆（Exomemory）](Exomemory.md)：个别成员拥有的、未在当前身体生命史中发生但具有完整叙事性的记忆体验，探讨其机制、功能与处理方式。
 - [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)：何时需要建立屏障、如何安全解除。
 - [独立性（Independence）](Independence.md)：评估成员自主程度与界限。
 - [存在感（Sense of Presence）](Sense-Of-Presence.md)：辨识成员在场与否的体感线索。
