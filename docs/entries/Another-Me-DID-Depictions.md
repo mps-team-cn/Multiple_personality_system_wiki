@@ -31,7 +31,7 @@ comments: true
 
 ## 关联词条
 
-- [青少年意识体（Teen Part）](Teen.md)
+- [青少年意识体（Teen Part）](Teen-Alter.md)
 - [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)
 - [创伤（Trauma）](Trauma.md)
 

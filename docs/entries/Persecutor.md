@@ -60,6 +60,6 @@ comments: true
 - [照顾者（Caregiver）](Caregiver.md)
 - [儿童人格（Little / Child Alter）](Child-Alter.md)
 - [执行者（Performer / Executive）](Performer-Executive.md)
-- [青少年意识体（Teen Part）](Teen.md)
+- [青少年意识体（Teen Part）](Teen-Alter.md)
 - [记忆持有者（Memory Holder）](Memory-Holder.md)
 - [迭代（Iteration）](Iteration.md)

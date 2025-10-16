@@ -37,7 +37,7 @@ comments: true
 
 ## 与其他角色的区分
 
-- **青少年意识体（Teen Part）** : 青少年成员展现青春期特征与独立需求，区别于童年取向。详见《[青少年意识体（Teen Part）](Teen.md)》。
+- **青少年意识体（Teen Part）** : 青少年成员展现青春期特征与独立需求，区别于童年取向。详见《[青少年意识体（Teen Part）](Teen-Alter.md)》。
 - **回归状态** : 一般心理学的“回归”指暂时的情绪退行，而儿童人格是相对持续的身份结构。退行的详细机制见《[退行（Regression）](Regression.md)》。
 
 ## 与退行的关系
@@ -67,7 +67,7 @@ comments: true
 ## 相关条目
 
 - [退行（Regression）](Regression.md)
-- [青少年意识体（Teen Part）](Teen.md)
+- [青少年意识体（Teen Part）](Teen-Alter.md)
 - [照顾者（Caregiver）](Caregiver.md)
 - [人格职能（System Roles）](System-Roles.md)
 - [执行者（Performer / Executive）](Performer-Executive.md)

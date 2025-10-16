@@ -60,4 +60,4 @@ comments: true
 - [儿童人格（Little / Child Alter）](Child-Alter.md)
 - [碎片（Fragment）](Fragment.md)
 - [执行者（Performer / Executive）](Performer-Executive.md)
-- [青少年意识体（Teen Part）](Teen.md)
+- [青少年意识体（Teen Part）](Teen-Alter.md)
