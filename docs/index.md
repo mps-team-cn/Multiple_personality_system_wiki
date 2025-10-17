@@ -1,7 +1,7 @@
 ---
 hide:
-  # - navigation  # 隐藏左侧导航栏
-  - toc         # 隐藏右侧目录（可选，如果也想隐藏右侧）
+  - navigation  # 隐藏左侧导航栏
+  # - toc         # 隐藏右侧目录（可选，如果也想隐藏右侧）
 ---
 # 中文多意识体系统百科
 > Multiple Personality System Wiki
