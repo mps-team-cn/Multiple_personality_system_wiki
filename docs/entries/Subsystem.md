@@ -9,14 +9,13 @@ tags:
 topic: 系统运作
 title: 子系统（Subsystem）
 updated: 2025-10-16
+search:
+  boost: 1.5
 synonyms:
 
 - 子系统
 - Subsystem
 - 次级系统
-
-search:
-  boost: 1.5
 comments: true
 ---
 

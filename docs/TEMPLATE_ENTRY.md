@@ -7,6 +7,7 @@
     - `synonyms`（同义词/别名列表）
     - `description`（简洁的词条描述，用于 SEO，建议 120-155 字符）
     - `updated`（YYYY-MM-DD）
+    - `search.boost`（可选的搜索权重，放置在 `updated` 之后、`comments` 之前，详见 [搜索权重配置指南](dev/Search-Boost-Guide.md)）
     - `topic` 建议按照六大分类
     - `comments`（可选，填写 `true` 时将在页面底部开启评论区）
     - 诊断与临床 - 解离、创伤、情绪与人格障碍等临床诊断
@@ -38,6 +39,8 @@ synonyms:
 
 description: 简洁准确的词条描述，用于搜索引擎显示（120-155 字符，包含核心关键词）
 updated: YYYY-MM-DD
+search:
+  boost: 1.0  # 默认无需填写；如需提升请参照搜索权重配置指南
 comments: true  # 可选：启用评论区
 ---
 
