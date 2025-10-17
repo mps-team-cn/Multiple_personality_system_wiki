@@ -32,6 +32,7 @@ hide:
 - [其他特定解离性障碍（OSDD）](OSDD.md) — *2025-10-17*
 - [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](PTSD.md) — *2025-10-17*
 - [精神分裂症（Schizophrenia，SZ/SCZ）](Schizophrenia-SZ.md) — *2025-10-17*
+- [睡眠障碍（Sleep Disorders，SD）](Sleep-Disorders-SD.md) — *2025-10-17*
 - [创伤（Trauma）](Trauma.md) — *2025-10-17*
 - [未特定的解离障碍（Unspecified Dissociative Disorder，UDD）](Unspecified-Dissociative-Disorder-UDD.md) — *2025-10-17*
 - [酒精相关障碍（Alcohol-Related Disorders）](Alcohol-Related-Disorders.md) — *2025-10-16*
@@ -96,7 +97,6 @@ hide:
 - [长期哀伤障碍(Prolonged Grief Disorder, PGD)](Prolonged-Grief-Disorder.md) — *2025-10-14*
 - [分裂型人格障碍（Schizotypal Personality Disorder，STPD）](Schizotypal-Personality-Disorder-STPD.md) — *2025-10-14*
 - [选择性缄默症（Selective Mutism，SM）](Selective-Mutism.md) — *2025-10-14*
-- [睡眠障碍（Sleep Disorders，SD）](Sleep-Disorders-SD.md) — *2025-10-14*
 - [社交焦虑障碍（Social Anxiety Disorder / Social Phobia，SAD）](Social-Anxiety-Disorder.md) — *2025-10-14*
 - [躯体化障碍（Somatic Symptom Disorder，SSD）](Somatic-Symptom-Disorder-SSD.md) — *2025-10-14*
 - [特定恐惧症(Specific Phobia, SP)](Specific-Phobia.md) — *2025-10-14*

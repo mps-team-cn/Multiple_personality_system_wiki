@@ -29,6 +29,7 @@ hide:
 - [记忆屏蔽（Memory Shielding）](Memory-Shielding.md) — *2025-10-17*
 - [多意识体系统（Multiple Personality System）](Multiple_Personality_System.md) — *2025-10-17*
 - [并行（Parallelism）](Parallelism.md) — *2025-10-17*
+- [应激反应（Stress Response）](Stress-Response.md) — *2025-10-17*
 - [结构性解离理论（Theory of Structural Dissociation）](Structural-Dissociation-Theory.md) — *2025-10-17*
 - [子系统（Subsystem）](Subsystem.md) — *2025-10-17*
 - [切换（Switch）](Switch.md) — *2025-10-17*
@@ -50,7 +51,6 @@ hide:
 - [存在感（Sense of Presence）](Sense-Of-Presence.md) — *2025-10-16*
 - [封存（Sequestration）](Sequestration.md) — *2025-10-16*
 - [系魂型系统（Soul-Linked Systems, Xianyu Theory）](Soul-Linked-Systems-Xianyu.md) — *2025-10-16*
-- [应激反应（Stress Response）](Stress-Response.md) — *2025-10-16*
 - [触发（Trigger）](Trigger.md) — *2025-10-16*
 - [幻境（Wonderland）](Wonderland.md) — *2025-10-16*
 - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](Apparently-Normal-Part-Emotional-Part-Model.md) — *2025-10-14*
