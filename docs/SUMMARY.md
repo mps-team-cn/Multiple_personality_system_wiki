@@ -226,6 +226,7 @@
         * [人格结构理论（Personality Structure Theory, Freud）](entries/Personality-Structure-Theory.md)
         * [依恋理论（Attachment Theory）](entries/Attachment-Theory.md)
         * [动机理论（Motivation Theories）](entries/Motivation-Theories.md)
+        * [多意识体系统中的创伤功能分化（Functional Dissociation of Trauma in Plural Systems）](entries/Functional-Dissociation-of-Trauma-in-Plural-Systems.md)
         * [学习与条件反射（Learning & Conditioning）](entries/Learning-Conditioning.md)
         * [心理弹性（Psychological Resilience）](entries/Psychological-Resilience.md)
         * [心理能量与注意资源（Psychic Energy & Attention）](entries/Psychic-Energy-Attention.md)

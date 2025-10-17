@@ -15,6 +15,7 @@ hide:
 
 ## 词条一览
 
+- [多意识体系统中的创伤功能分化（Functional Dissociation of Trauma in Plural Systems）](Functional-Dissociation-of-Trauma-in-Plural-Systems.md) — *2025-10-17*
 - [情感障碍（Mood Disorders）](Mood-Disorders.md) — *2025-10-14*
 - [依恋理论（Attachment Theory）](Attachment-Theory.md) — *2025-10-13*
 - [注意与觉察（Attention & Awareness）](Attention-Awareness.md) — *2025-10-13*

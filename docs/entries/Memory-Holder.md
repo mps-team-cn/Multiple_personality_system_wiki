@@ -9,7 +9,7 @@ tags:
 topic: 角色与身份
 description: 记忆持有者（Memory Holder）的角色与创伤记忆管理。理解特定成员持有特定记忆的机制、记忆分隔的保护作用及整合挑战
 title: 记忆持有者（Memory Holder）
-updated: 2025-10-16
+updated: 2025-10-17
 comments: true
 ---
 
@@ -57,11 +57,13 @@ comments: true
 ## 相关条目
 
 ### 功能分化理论
+
 - [多意识体系统中的创伤功能分化](Functional-Dissociation-of-Trauma-in-Plural-Systems.md)
 - [创伤持有者（Trauma Holder）](Trauma-Holder.md)
 - [无创伤记忆者（Non-Trauma Holder）](Non-Trauma-Holder.md)
 
 ### 角色与功能
+
 - [人格职能（System Roles）](System-Roles.md)
 - [迫害者（Persecutor）](Persecutor.md)
 - [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)

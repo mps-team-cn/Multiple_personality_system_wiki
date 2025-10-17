@@ -33,7 +33,7 @@ comments: true
 - **边界感知敏锐** ：擅长识别潜在威胁、操控解离屏障或前台门槛，必要时加强或放宽边界，以适应当下情境。
 - **沟通与仲裁** ：在内部会议或紧急状况中充当裁决者，帮助成员表达需求、解决冲突、明确外部沟通策略。
 - **可分布化** ：一些系统会有多个守门人，各自负责特定领域（如记忆库、前台门、内部世界出入口），形成协作网络。
-- **调节与承受能力** : 根据[创伤功能分化理论](Functional-Dissociation-of-Trauma-in-Plural-Systems.md),守门人在**承受/调节能力维度**上通常表现突出。他们需要在评估风险、管理切换、调节记忆访问时保持冷静与清晰,这要求高度的情绪调节能力与现实检验能力。守门人可被视为系统的"调节枢纽",确保创伤加工在安全窗口内进行。
+- **调节与承受能力** : 根据[创伤功能分化理论](Functional-Dissociation-of-Trauma-in-Plural-Systems.md),守门人在 **承受/调节能力维度** 上通常表现突出。他们需要在评估风险、管理切换、调节记忆访问时保持冷静与清晰,这要求高度的情绪调节能力与现实检验能力。守门人可被视为系统的"调节枢纽",确保创伤加工在安全窗口内进行。
 
 ## 社群与临床视角
 
@@ -57,17 +57,20 @@ comments: true
 ## 相关条目
 
 ### 功能分化理论
+
 - [多意识体系统中的创伤功能分化](Functional-Dissociation-of-Trauma-in-Plural-Systems.md)
 - [创伤持有者（Trauma Holder）](Trauma-Holder.md)
 - [记忆持有者（Memory Holder）](Memory-Holder.md)
 
 ### 角色功能
+
 - [管理者（Admin）](Admin.md)
 - [保护者（Protector）](Protector.md)
 - [照顾者（Caregiver）](Caregiver.md)
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
 
 ### 系统运作
+
 - [后台（Back / Being Back）](Back-Being-Back.md)
 - [成员（Alter）](Alter.md)
 - [切换（Switch）](Switch.md)

@@ -26,7 +26,7 @@ comments: true
 - **安全导向** : 对潜在威胁高度敏感，主动规避风险或建立规则。[^boon2011]
 - **角色分化** : 常区分外部保护（例如与外界沟通、设定界限）与内部保护（调解成员冲突、守护脆弱成员）。
 - **策略灵活** : 可依据情境采取谈判、教育、设限或直接行动等多元方式。
-- **高调节能力** : 根据[创伤功能分化理论](Functional-Dissociation-of-Trauma-in-Plural-Systems.md),保护者通常在**承受/调节能力维度**上表现突出,发展出危机管理、接地技巧、情绪调节策略等能力。在创伤加工期间,保护者可能成为系统的"稳定锚点",维持整体功能不崩溃。
+- **高调节能力** : 根据[创伤功能分化理论](Functional-Dissociation-of-Trauma-in-Plural-Systems.md),保护者通常在 **承受/调节能力维度** 上表现突出,发展出危机管理、接地技巧、情绪调节策略等能力。在创伤加工期间,保护者可能成为系统的"稳定锚点",维持整体功能不崩溃。
 
 ## 社区用法与变体
 
@@ -58,11 +58,13 @@ comments: true
 ## 相关条目
 
 ### 功能分化理论
+
 - [多意识体系统中的创伤功能分化](Functional-Dissociation-of-Trauma-in-Plural-Systems.md)
 - [创伤持有者（Trauma Holder）](Trauma-Holder.md)
 - [记忆持有者（Memory Holder）](Memory-Holder.md)
 
 ### 角色功能
+
 - [照顾者（Caregiver）](Caregiver.md)
 - [守门人（Gatekeeper）](Gatekeeper.md)
 - [迫害者（Persecutor）](Persecutor.md)
