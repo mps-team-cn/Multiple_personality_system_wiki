@@ -77,8 +77,8 @@ updated: YYYY-MM-DD
 !!! info "特殊文件例外"
     以下类型的文件 **无需** `updated` 字段（检查工具会自动跳过）：
 
-    - 📚 导览文件：`*-guide.md`（如 `Clinical-Diagnosis-Guide.md`）
-    - 📑 索引文件：`*-index.md`（如 `Tools-Index.md`）
+    - 📚 导览文件：`*-Guide.md`（如 `Clinical-Diagnosis-Guide.md`）
+    - 📑 索引文件：`*-Index.md`（如 `Tools-Index.md`）
 
 #### ✨ 词条格式规范
 
