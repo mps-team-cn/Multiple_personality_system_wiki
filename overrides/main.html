@@ -34,7 +34,7 @@
   {% endif %}
   <meta name="keywords" content="{{ page_keywords[:12] | join(', ') }}">
   <meta name="author" content="{{ config.site_author }}">
-  <link rel="canonical" href="{{ page.canonical_url }}">
+  {# canonical 标签已由 MkDocs Material 主题自动生成，无需重复添加 #}
   {% endif %}
 
   {# 将 GA Measurement ID 注入到全局，供延迟加载脚本使用 #}
