@@ -43,9 +43,9 @@ comments: true
 
 ## 概述
 
-心理创伤（Psychological Trauma）指个体遭遇或目睹**严重威胁生命、安全或核心价值**的事件后，所产生的持久心理与生理冲击。创伤既可能源于单次灾难，也可能来自长期的虐待、忽视、压迫与结构性暴力。即便当事人因[解离性遗忘（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)难以回忆事件经过，创伤仍会透过情绪波动、躯体反应或关系模式显现。
+心理创伤（Psychological Trauma）指个体遭遇或目睹 **严重威胁生命、安全或核心价值** 的事件后，所产生的持久心理与生理冲击。创伤既可能源于单次灾难，也可能来自长期的虐待、忽视、压迫与结构性暴力。即便当事人因[解离性遗忘（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)难以回忆事件经过，创伤仍会透过情绪波动、躯体反应或关系模式显现。
 
-创伤与[创伤后应激障碍（PTSD）](PTSD.md)、[复杂性创伤后应激障碍（CPTSD）](CPTSD.md)、[解离性身份障碍（DID）](DID.md)等诊断**存在关联**。在研究文献中，**某些个体**的多意识体体验与长期创伤**存在关联**，但这**既非充分条件也非必要条件**——多意识体系统的形成涉及复杂的生物、心理、社会因素交互作用。[^APA2022]
+创伤与[创伤后应激障碍（PTSD）](PTSD.md)、[复杂性创伤后应激障碍（CPTSD）](CPTSD.md)、[解离性身份障碍（DID）](DID.md)等诊断 **存在关联**。在研究文献中，**某些个体** 的多意识体体验与长期创伤 **存在关联**，但这 **既非充分条件也非必要条件**——多意识体系统的形成涉及复杂的生物、心理、社会因素交互作用。[^APA2022]
 
 ---
 
@@ -53,11 +53,11 @@ comments: true
 
 ### 临床诊断标准中的"创伤事件"
 
-DSM-5-TR 和 ICD-11 对"创伤事件"采用**狭义界定**：指直接威胁生命或身体完整性的事件（如暴力、性侵、严重事故、自然灾害、战争等）。这种界定主要用于 PTSD 等创伤相关障碍的诊断。
+DSM-5-TR 和 ICD-11 对"创伤事件"采用 **狭义界定**：指直接威胁生命或身体完整性的事件（如暴力、性侵、严重事故、自然灾害、战争等）。这种界定主要用于 PTSD 等创伤相关障碍的诊断。
 
 ### 广义创伤概念的扩展
 
-学术与临床实践中也使用**广义创伤**概念，包括：
+学术与临床实践中也使用 **广义创伤** 概念，包括：
 
 - **发展性创伤**：儿童期长期忽视、情感虐待、不稳定依恋关系
 - **结构性创伤**：系统性歧视、贫困、文化压迫、少数群体边缘化（学术用语，源自 Galtung 的"结构性暴力"理论，与司法/政策定义不同）
@@ -66,8 +66,9 @@ DSM-5-TR 和 ICD-11 对"创伤事件"采用**狭义界定**：指直接威胁生
 ### 重要区分
 
 !!! note "术语使用提示"
-    - **DSM/ICD 诊断标准**中的"创伤"指狭义定义，用于临床诊断
-    - **社群、咨询与研究**中可能使用广义定义，涵盖更多心理冲击经历
+
+    - **DSM/ICD 诊断标准** 中的"创伤"指狭义定义，用于临床诊断
+    - **社群、咨询与研究** 中可能使用广义定义，涵盖更多心理冲击经历
     - **二者不等同**：不符合狭义诊断标准的经历，仍可能造成显著心理影响，需要支持与干预
     - **避免过度泛化**：并非所有压力或不适经历都构成"创伤"；谨慎使用术语有助于保持临床精确性
 
@@ -145,7 +146,7 @@ DSM-5-TR 和 ICD-11 对"创伤事件"采用**狭义界定**：指直接威胁生
 
 ### 评估路径与原则
 
-创伤评估应遵循**先稳态、后细评**原则：
+创伤评估应遵循 **先稳态、后细评** 原则：
 
 1. **安全与风险评估**：自杀/自伤风险、暴力风险、当前安全状况
 2. **现实检验与知觉状态**：意识水平、定向力、严重解离或精神病性症状
@@ -156,7 +157,7 @@ DSM-5-TR 和 ICD-11 对"创伤事件"采用**狭义界定**：指直接威胁生
 
 #### 结构化临床访谈
 
-- **CAPS-5（临床施测版 PTSD 量表）**：PTSD 诊断的**金标准**工具，需要专业训练
+- **CAPS-5（临床施测版 PTSD 量表）**：PTSD 诊断的 **金标准** 工具，需要专业训练
 - **ITQ（国际创伤问卷）**：用于区分 **ICD-11** 定义的 PTSD 与 CPTSD
 
 #### 自评量表
@@ -169,7 +170,7 @@ DSM-5-TR 和 ICD-11 对"创伤事件"采用**狭义界定**：指直接威胁生
 
 - 采用创伤知情方式，确保安全感、节奏控制与随时停止的权利
 - 避免不必要的细节追问与场景化再现
-- 遵循**"只到可以安全停下的程度"**原则
+- 遵循 **"只到可以安全停下的程度"** 原则
 - 记录触发因素与缓解策略，便于后续支持
 
 ### 鉴别诊断
@@ -190,8 +191,8 @@ DSM-5-TR 和 ICD-11 对"创伤事件"采用**狭义界定**：指直接威胁生
 
 ### 危机与自杀风险评估
 
-- 使用 **C-SSRS（哥伦比亚自杀严重程度评定量表）**或结构化风险面谈
-- 制定**安全计划**：包括触发识别、应对技能、支持联系人、危机热线
+- 使用 **C-SSRS（哥伦比亚自杀严重程度评定量表）** 或结构化风险面谈
+- 制定 **安全计划**：包括触发识别、应对技能、支持联系人、危机热线
 - 明确随访频率与紧急联系机制
 
 ### 再创伤化预防
@@ -218,7 +219,7 @@ DSM-5-TR 和 ICD-11 对"创伤事件"采用**狭义界定**：指直接威胁生
 
 - **创伤与系统形成的关联**：研究与临床观察中，某些多意识体系统个体报告长期创伤史；意识部分可能分工承担创伤记忆、情绪或保护功能
 - **部分解离与共意识**：高压下可能出现[混合（Blending）](Blending.md)（社区术语，临床文献用语可能不同）、共前台或身份侵入
-- **复原重点**：建立内部沟通、时间线共享与事件标注需以**情绪稳定—技能建构—逐步整合**顺序推进，避免在高度解离期进行深入暴露；结合[系统（System）](System.md)的协作与治理需求
+- **复原重点**：建立内部沟通、时间线共享与事件标注需以 **情绪稳定—技能建构—逐步整合** 顺序推进，避免在高度解离期进行深入暴露；结合[系统（System）](System.md)的协作与治理需求
 
 ---
 
@@ -283,7 +284,7 @@ DSM-5-TR 和 ICD-11 对"创伤事件"采用**狭义界定**：指直接威胁生
 
 ### 团体与社群支持
 
-- **同伴支持小组**：经验分享与互助，但**不是危机干预替代**
+- **同伴支持小组**：经验分享与互助，但 **不是危机干预替代**
 - **边界设定**：内容范围、时长限制、触发管理与转介流程
 - **家庭与伴侣教育**：理解触发因素、支持性沟通、避免二次伤害
 
@@ -348,7 +349,7 @@ DSM-5-TR 和 ICD-11 对"创伤事件"采用**狭义界定**：指直接威胁生
 
 [^VanDerKolk2014]: van der Kolk, B. A. (2014). _The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma_. Viking. *（通俗书籍，建议结合学术综述阅读）*
 
-[^Yehuda2002]: Yehuda, R. (2002). Post-traumatic stress disorder. _New England Journal of Medicine, 346_(2), 108–114. https://doi.org/10.1056/NEJMra012941 *（PTSD 神经生物学综述，涵盖 HPA 轴调节改变）*
+[^Yehuda2002]: Yehuda, R. (2002). Post-traumatic stress disorder. _New England Journal of Medicine, 346_(2), 108–114. [https://doi.org/10.1056/NEJMra012941](https://doi.org/10.1056/NEJMra012941) *（PTSD 神经生物学综述，涵盖 HPA 轴调节改变）*
 
 [^VanDerHart2006]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). _The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization_. W. W. Norton. *（理论框架，详见正文证据标识）*
 
@@ -356,4 +357,4 @@ DSM-5-TR 和 ICD-11 对"创伤事件"采用**狭义界定**：指直接威胁生
 
 [^SAMHSA2014]: Substance Abuse and Mental Health Services Administration. (2014). _SAMHSA's Concept of Trauma and Guidance for a Trauma-Informed Approach_. HHS Publication No. (SMA) 14-4884. Rockville, MD: SAMHSA. [https://store.samhsa.gov/product/SAMHSA-s-Concept-of-Trauma-and-Guidance-for-a-Trauma-Informed-Approach/SMA14-4884](https://store.samhsa.gov/product/SAMHSA-s-Concept-of-Trauma-and-Guidance-for-a-Trauma-Informed-Approach/SMA14-4884)
 
-[^Tedeschi2018]: Tedeschi, R. G., & Moore, B. A. (2018). Posttraumatic growth as an integrative therapeutic philosophy. _Journal of Psychotherapy Integration, 28_(2), 193–206. https://doi.org/10.1037/int0000111
+[^Tedeschi2018]: Tedeschi, R. G., & Moore, B. A. (2018). Posttraumatic growth as an integrative therapeutic philosophy. _Journal of Psychotherapy Integration, 28_(2), 193–206. [https://doi.org/10.1037/int0000111](https://doi.org/10.1037/int0000111)
