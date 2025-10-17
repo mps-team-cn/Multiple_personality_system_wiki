@@ -18,7 +18,7 @@ synonyms:
   - Deep Memory
   - shenceng jiyi
 alias_notes:
-  - "Core Memory/核心记忆":与通俗文化及技术领域的"核心记忆"概念不同,此处特指创伤相关的深层记忆材料
+  Core Memory/核心记忆: 与通俗文化及技术领域的"核心记忆"概念不同,此处特指创伤相关的深层记忆材料
 
 comments: true
 ---
