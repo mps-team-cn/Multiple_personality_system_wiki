@@ -12,6 +12,8 @@ topic: 诊断与临床
 description: 解离障碍（Dissociative Disorders）完整分类：DID、OSDD、DPDR、DA 等诊断概览。理解解离障碍谱系的临床特征与鉴别诊断
 title: 解离障碍（Dissociative Disorders）
 updated: 2025-10-17
+search:
+  boost: 1.8
 comments: true
 ---
 

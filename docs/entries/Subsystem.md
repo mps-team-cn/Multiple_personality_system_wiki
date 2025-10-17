@@ -15,6 +15,8 @@ synonyms:
 - Subsystem
 - 次级系统
 
+search:
+  boost: 1.5
 comments: true
 ---
 

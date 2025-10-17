@@ -21,6 +21,8 @@ synonyms:
     - 躁狂抑郁症
 
 updated: 2025-10-16
+search:
+  boost: 1.8
 comments: true
 ---
 

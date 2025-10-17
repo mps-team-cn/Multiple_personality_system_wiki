@@ -10,6 +10,8 @@ topic: 系统运作
 title: 融合（Fusion）
 updated: 2025-10-16
 description: 自愿与安全前提下的成员融合；区分功能整合与最终融合，并给出准备要件、过程阶段、风险与回滚策略。
+search:
+  boost: 1.5
 comments: true
 ---
 
