@@ -9,6 +9,8 @@ tags:
 topic: 诊断与临床
 title: 精神分裂症（Schizophrenia，SZ/SCZ）
 updated: 2025-10-14
+search:
+  boost: 1.8
 comments: true
 ---
 
