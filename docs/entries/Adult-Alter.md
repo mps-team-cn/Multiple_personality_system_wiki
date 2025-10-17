@@ -15,7 +15,7 @@ synonyms:
     - Adult Part
 
 description: 年龄感与生理年龄接近或超过的系统成员，通常承担日常决策与责任管理
-updated: 2025-10-16
+updated: 2025-10-17
 comments: true
 ---
 

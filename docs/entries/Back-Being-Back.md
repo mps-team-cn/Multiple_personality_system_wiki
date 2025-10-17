@@ -8,7 +8,7 @@ tags:
 
 topic: 系统运作
 title: 后台（Back / Being Back）
-updated: 2025-10-16
+updated: 2025-10-17
 description: 界定后台体验与功能，区分与前台/共前台/自动驾驶，提供交接与休息策略、常见误解与参考资料。
 comments: true
 ---

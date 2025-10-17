@@ -15,10 +15,12 @@ hide:
 
 ## 词条一览
 
+- [失忆（Amnesia）](Amnesia.md) — *2025-10-17*
+- [后台（Back / Being Back）](Back-Being-Back.md) — *2025-10-17*
+- [独有记忆（Exomemory）](Exomemory.md) — *2025-10-17*
+- [前台（Front / Fronting）](Front-Fronting.md) — *2025-10-17*
 - [并行（Parallelism）](Parallelism.md) — *2025-10-17*
-- [失忆（Amnesia）](Amnesia.md) — *2025-10-16*
 - [自动驾驶（Autopilot）](Autopilot.md) — *2025-10-16*
-- [后台（Back / Being Back）](Back-Being-Back.md) — *2025-10-16*
 - [偏重（Bias / Median）](Bias.md) — *2025-10-16*
 - [混合（Blending）](Blending.md) — *2025-10-16*
 - [躯体认同（Body Ownership）](Body-Ownership.md) — *2025-10-16*
@@ -26,8 +28,6 @@ hide:
 - [共前台（Co-fronting）](Co-Fronting.md) — *2025-10-16*
 - [意识修改（Consciousness Modification）](Consciousness-Modification.md) — *2025-10-16*
 - [去现实化（Derealization）](Derealization.md) — *2025-10-16*
-- [独有记忆（Exomemory）](Exomemory.md) — *2025-10-16*
-- [前台（Front / Fronting）](Front-Fronting.md) — *2025-10-16*
 - [功能性分离（Functional Dissociation）](Functional-Dissociation.md) — *2025-10-16*
 - [融合（Fusion）](Fusion.md) — *2025-10-16*
 - [内部空间（Headspace / Inner World）](Headspace-Inner-World.md) — *2025-10-16*

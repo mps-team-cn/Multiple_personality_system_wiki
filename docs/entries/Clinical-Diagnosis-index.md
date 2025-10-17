@@ -15,12 +15,14 @@ hide:
 
 ## 词条一览
 
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md) — *2025-10-17*
+- [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md) — *2025-10-17*
 - [经颅微电流刺激（Cranial Electrotherapy Stimulation, CES）](Cranial-Electrotherapy-Stimulation-CES.md) — *2025-10-17*
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md) — *2025-10-17*
 - [重性抑郁障碍（Major Depressive Disorder, MDD）](Major-Depressive-Disorder-MDD.md) — *2025-10-17*
 - [改良电痉挛治疗（Modified Electroconvulsive Therapy, MECT）](Modified-Electroconvulsive-Therapy-MECT.md) — *2025-10-17*
 - [酒精相关障碍（Alcohol-Related Disorders）](Alcohol-Related-Disorders.md) — *2025-10-16*
 - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md) — *2025-10-16*
-- [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md) — *2025-10-16*
 - [咖啡因相关障碍（Caffeine-Related Disorders）](Caffeine-Related-Disorders.md) — *2025-10-16*
 - [大麻相关障碍（Cannabis-Related Disorders）](Cannabis-Related-Disorders.md) — *2025-10-16*
 - [沟通障碍（Communication Disorders）](Communication-Disorders.md) — *2025-10-16*
@@ -49,7 +51,6 @@ hide:
 - [述情障碍（Alexithymia）](Alexithymia.md) — *2025-10-14*
 - [神经性厌食症(Anorexia Nervosa, AN)](Anorexia-Nervosa.md) — *2025-10-14*
 - [反社会人格障碍（Antisocial Personality Disorder，ASPD）](Antisocial-Personality-Disorder-ASPD.md) — *2025-10-14*
-- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md) — *2025-10-14*
 - [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](Attention-Deficit-Hyperactivity-Disorder-ADHD.md) — *2025-10-14*
 - [孤独症谱系（Autism Spectrum Disorder）](Autism-Spectrum-Disorder.md) — *2025-10-14*
 - [回避型人格障碍（Avoidant Personality Disorder，AvPD）](Avoidant-Personality-Disorder-AvPD.md) — *2025-10-14*
@@ -66,7 +67,6 @@ hide:
 - [依赖型人格障碍（Dependent Personality Disorder，DPD）](Dependent-Personality-Disorder-DPD.md) — *2025-10-14*
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md) — *2025-10-14*
 - [解离性遗忘（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md) — *2025-10-14*
-- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md) — *2025-10-14*
 - [进食障碍（Eating Disorders，ED）](Eating-Disorders-ED.md) — *2025-10-14*
 - [癫痫（Epilepsy）](Epilepsy.md) — *2025-10-14*
 - [闪回（Flashback）](Flashback.md) — *2025-10-14*

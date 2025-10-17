@@ -14,7 +14,7 @@ synonyms:
     - Social Alter
 
 description: 擅长人际互动与公共场合表现的系统成员，在需要社交技能时主动前台或提供支持
-updated: 2025-10-16
+updated: 2025-10-17
 comments: true
 ---
 

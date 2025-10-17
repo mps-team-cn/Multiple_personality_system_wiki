@@ -15,7 +15,7 @@ synonyms:
     - Non-Traumatic Alter
 
 description: 未直接承载创伤记忆的系统成员，可能对系统创伤史缺乏觉察或仅了解部分信息
-updated: 2025-10-16
+updated: 2025-10-17
 comments: true
 ---
 
