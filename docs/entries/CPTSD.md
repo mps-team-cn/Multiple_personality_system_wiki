@@ -18,6 +18,8 @@ synonyms:
 - CPTSD
 - fuzaxingchuangshanghouyingjizhangai
 
+search:
+  boost: 1.5
 comments: true
 ---
 

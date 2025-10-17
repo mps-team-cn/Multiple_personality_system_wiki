@@ -10,6 +10,8 @@ topic: 角色与身份
 description: 全面了解 Tulpa（图帕）的创造原理、培育方法与实践指南。探索意识同伴的形成机制、与 DID 的区别及社群文化，包含系统化训练技巧
 title: 图帕（Tulpa）
 updated: 2025-10-14
+search:
+  boost: 1.8
 comments: true
 ---
 

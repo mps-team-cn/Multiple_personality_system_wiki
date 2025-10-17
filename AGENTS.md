@@ -80,6 +80,55 @@ updated: YYYY-MM-DD
     - 📚 导览文件：`*-Guide.md`（如 `Clinical-Diagnosis-Guide.md`）
     - 📑 索引文件：`*-Index.md`（如 `Tools-Index.md`）
 
+#### 🔍 搜索权重配置（可选）
+
+!!! tip "提升重要词条的搜索排名"
+    对于核心词条，可在 Frontmatter 中添加 `search.boost` 字段来提高搜索结果中的权重。
+
+**推荐的权重分级**：
+
+| 优先级 | 权重值 | 适用词条类型 | 示例 |
+|--------|--------|-------------|------|
+| **最高** | `2.0` | 诊断类疾病 | DID、OSDD、PTSD、CPTSD |
+| **高** | `1.8` | 核心概念与操作 | Alter、Tulpa、System、Switch、Grounding、Host、Dissociation、Trauma |
+| **中高** | `1.5` | 重要概念 | Multiple_Personality_System、Protector、Front/Fronting |
+| **默认** | `1.0`（无需设置） | 普通词条 | 其他所有词条 |
+
+**配置示例**：
+
+```yaml
+---
+title: 解离性身份障碍（DID）
+topic: 诊断与临床
+tags:
+  - 诊断与临床
+  - DID
+  - 多重意识体
+updated: 2025-01-15
+search:
+  boost: 2.0  # 最高优先级
+---
+```
+
+```yaml
+---
+title: 系统（System）
+topic: 系统运作
+tags:
+  - 系统运作
+  - 多重意识体
+updated: 2025-01-15
+search:
+  boost: 1.8  # 高优先级
+---
+```
+
+!!! warning "注意事项"
+    - ✅ 仅为**真正重要**的核心词条设置权重，避免滥用
+    - ✅ 权重值通常在 `1.0` - `2.0` 之间，不建议超过 `2.0`
+    - ✅ 大多数词条无需设置权重（默认 `1.0`）
+    - ⚠️ 修改权重后需重新构建站点才能生效
+
 #### ✨ 词条格式规范
 
 !!! tip "加粗内容格式"
