@@ -256,23 +256,31 @@ plugins:
         - Glossary.md
         - tags.md
         - changelog.md
+        - SUMMARY.md
         - TEMPLATE_ENTRY.md
         - ADMIN_GUIDE.md
         - GITHUB_WORKFLOW.md
         - 404.md
-      # 使用 regex 排除目录和模式匹配
+        # 分区索引文件
+        - entries/Clinical-Diagnosis-index.md
+        - entries/Cultural-Media-index.md
+        - entries/Practice-index.md
+        - entries/Roles-Identity-index.md
+        - entries/System-Operations-index.md
+        - entries/Theory-Classification-index.md
+        - entries/Trauma-Healing-index.md
+        # 分区导览文件
+        - entries/Clinical-Diagnosis-Guide.md
+        - entries/Core-Concepts-Guide.md
+        - entries/Cultural-Media-Guide.md
+        - entries/Mental-Health-Guide.md
+        - entries/Practice-Guide.md
+        - entries/Roles-Identity-Guide.md
+        - entries/System-Operations-Guide.md
+        - entries/Theory-Classification-Guide.md
+        - entries/Trauma-Healing-Guide.md
+      # 不索引未被引用的页面
       exclude_unreferenced: false
-      ignore:
-        - contributing
-        - admin
-        - dev
-        - tools
-        - assets
-        - includes
-      # 排除 entries 下的导览和索引文件
-      regex:
-        - '.*-Guide\.md$'
-        - '.*-index\.md$'
 
   - tags
 
