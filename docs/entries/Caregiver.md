@@ -24,6 +24,7 @@ comments: true
 - **情感调节能力** : 擅长安抚焦虑、恐惧或悲伤的成员，提供稳定陪伴。[^howell2011]
 - **日常照护** : 可能负责提醒饮食、休息、身体保健等基本需求。
 - **界限设定** : 在照顾他人同时，维持健康界限，防止过度牺牲或倦怠。
+- **调节能力维度** : 根据[创伤功能分化理论](Functional-Dissociation-of-Trauma-in-Plural-Systems.md),照顾者在**承受/调节能力维度**上通常表现出色,擅长情绪调节、安抚技巧与现实定向。在创伤加工期间,照顾者可以为创伤持有者或情绪承载者提供内部支持,帮助他们在"安全窗口"内处理痛苦。
 
 ## 社区用法与变体
 
@@ -39,6 +40,8 @@ comments: true
 
 - 确保照顾者自身也获得休息与支持，避免产生照顾者疲劳。[^boon2011]
 - 在治疗中可邀请照顾者协助整合接地技巧或自我安抚计划。[^isstd2011]
+- **协作加工模式** : 在创伤治疗的[三阶段模型](Three-Phase-Trauma-Treatment.md)中,照顾者可与记忆持有者、创伤持有者协作:记忆持有者提供语境,创伤持有者表达情绪,照顾者维持稳定与安全感。这种"多层持有者协作"模式体现了功能分化的治疗优势。
+- **技能强化** : 照顾者的调节能力可以通过训练进一步提升,例如学习更多接地技巧、情绪标识方法或危机干预策略,使其成为系统更有力的稳定资源。
 
 ## 研究与参考
 
@@ -54,6 +57,12 @@ comments: true
 
 ## 相关条目
 
+### 功能分化理论
+- [多意识体系统中的创伤功能分化](Functional-Dissociation-of-Trauma-in-Plural-Systems.md)
+- [创伤持有者（Trauma Holder）](Trauma-Holder.md)
+- [记忆持有者（Memory Holder）](Memory-Holder.md)
+
+### 角色功能
 - [保护者（Protector）](Protector.md)
 - [儿童人格（Little / Child Alter）](Child-Alter.md)
 - [迫害者（Persecutor）](Persecutor.md)
@@ -61,4 +70,3 @@ comments: true
 - [执行者（Performer / Executive）](Performer-Executive.md)
 - [青少年意识体（Teen Part）](Teen-Alter.md)
 - [内部沟通（Internal Communication）](Internal-Communication.md)
-- [记忆持有者（Memory Holder）](Memory-Holder.md)

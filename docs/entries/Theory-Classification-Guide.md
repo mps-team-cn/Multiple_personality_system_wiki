@@ -51,6 +51,7 @@ comments: true
 
 - [心理防御机制](Defense-Mechanisms.md)：分类压抑、否认、投射等常见防御方式。
 - [防御性解离](Defensive-Dissociation.md)：说明解离作为防御的形成条件与影响。
+- [多意识体系统中的创伤功能分化](Functional-Dissociation-of-Trauma-in-Plural-Systems.md)：揭示创伤记忆、情绪与承受能力在不同成员间的功能性分离机制,理解双重表征理论、神经生物学证据及三维功能分化模型。
 
 ## 学习路径建议
 
