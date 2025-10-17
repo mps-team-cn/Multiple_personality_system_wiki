@@ -133,8 +133,6 @@ DID 与儿童期持续性的虐待、情感忽视、亲密关系暴力、医疗[
 
 > **注**：DID 并非所有经历创伤者都会发展出的症状，其形成涉及创伤强度、持续时间、依附关系质量、发展阶段及个体神经生物学易感性的复杂互动。
 
-相关条目：[发展性创伤（Developmental Trauma）](Developmental-Trauma.md)
-
 ### 理论模型
 
 [**结构性解离理论（Structural Dissociation Theory）**](Structural-Dissociation-Theory.md)提出主导的"表面正常部分"（ANP, Apparently Normal Part）负责日常生活，创伤情绪由"情绪部分"（EP, Emotional Part）承载；DID 属于三级结构性解离，其中多个 ANP 与 EP 共同存在，并可能轮流控制行为。
