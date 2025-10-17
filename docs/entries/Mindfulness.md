@@ -1,19 +1,23 @@
 ---
 title: 正念(Mindfulness)
 tags:
-  - 创伤与疗愈
-  - 多重意识体
-  - 解离
-  - 创伤
+
+    - 创伤与疗愈
+    - 多重意识体
+    - 解离
+    - 创伤
+
 topic: 创伤与疗愈
 synonyms:
-  - 正念练习
-  - 正念觉察
-  - Mindfulness Practice
-  - Present-Centered Awareness
-  - 当下觉察
+
+    - 正念练习
+    - 正念觉察
+    - Mindfulness Practice
+    - Present-Centered Awareness
+    - 当下觉察
+
 description: 正念完整指南：有意、当下、非评判的注意力训练。学习创伤敏感正念、窗口耐受性概念,在多意识体系统中培养情绪调节能力
-updated: 2025-10-13
+updated: 2025-10-17
 search:
   boost: 1.6
 comments: true

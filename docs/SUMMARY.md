@@ -171,7 +171,7 @@
     * [创伤与疗愈](entries/Trauma-Healing-index.md)
         * [三阶段创伤治疗模型（Three-Phase Trauma Treatment）](entries/Three-Phase-Trauma-Treatment.md)
         * [内在家庭系统疗法（Internal Family Systems, IFS）](entries/Internal-Family-Systems-IFS.md)
-        * [冥想（Meditation）](entries/Meditation.md)
+        * [冥想(Meditation)](entries/Meditation.md)
         * [创伤聚焦认知行为疗法（Trauma-Focused Cognitive Behavioral Therapy, TF-CBT）](entries/Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md)
         * [延长暴露疗法（Prolonged Exposure Therapy, PE）](entries/Prolonged-Exposure-Therapy-PE.md)
         * [感官调节策略（Sensory Regulation Strategies）](entries/Sensory-Regulation-Strategies.md)
