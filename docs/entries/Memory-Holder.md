@@ -67,6 +67,7 @@ comments: true
 - [人格职能（System Roles）](System-Roles.md)
 - [迫害者（Persecutor）](Persecutor.md)
 - [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)
+- [深层记忆（Deep Memory）](Deep-Memory.md)
 - [独有记忆（Exomemory）](Exomemory.md)
 - [儿童人格（Little / Child Alter）](Child-Alter.md)
 - [碎片（Fragment）](Fragment.md)

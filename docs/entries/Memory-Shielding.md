@@ -184,6 +184,7 @@ comments: true
 
 - [独有记忆（Exomemory）](Exomemory.md) - 身份独立经历的记忆
 - [记忆持有者（Memory Holder）](Memory-Holder.md) - 专门保管特定记忆的身份
+- [深层记忆（Deep Memory）](Deep-Memory.md) - 与核心创伤高度相关的隐性记忆材料
 - [解离性遗忘（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md) - 更广泛的记忆丧失现象
 - [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md) - 作为心理防御的解离机制
 - [接地技巧（Grounding）](Grounding.md) - 处理记忆时的稳定化技术

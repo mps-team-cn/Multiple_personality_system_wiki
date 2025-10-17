@@ -124,6 +124,7 @@ comments: true
 | --- | --- | --- |
 | [三阶段创伤治疗模型](Three-Phase-Trauma-Treatment.md) | 规划治疗、评估风险 | 理解"稳定化→处理创伤→整合成长"的经典路线 |
 | [多意识体系统中的创伤功能分化](Functional-Dissociation-of-Trauma-in-Plural-Systems.md) | 理解系统内创伤记忆与情绪的分离模式 | 识别记忆持有、情绪承载、调节能力的功能分化,促进系统内部协作与整合 |
+| [深层记忆（Deep Memory）](Deep-Memory.md) | ⚠️ **仅限专业支持下探索** | 理解与核心创伤高度相关的隐性记忆材料,掌握安全探索的前提条件与风险管理 |
 
 ---
 
