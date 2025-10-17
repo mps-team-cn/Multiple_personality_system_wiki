@@ -19,6 +19,8 @@ synonyms:
 - PTSD
 - chuangshanghouyingjizhangai
 
+search:
+  boost: 1.5
 comments: true
 ---
 

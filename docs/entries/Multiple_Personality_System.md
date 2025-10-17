@@ -18,6 +18,8 @@ synonyms:
 - Plurality
 - duochong renge xitong
 
+search:
+  boost: 1.5
 comments: true
 ---
 

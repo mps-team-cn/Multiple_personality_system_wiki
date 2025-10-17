@@ -20,6 +20,8 @@ synonyms:
     - 接管（Takeover）
     - 前台更替
 
+search:
+  boost: 1.8
 comments: true
 ---
 

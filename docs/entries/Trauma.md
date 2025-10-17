@@ -17,6 +17,8 @@ synonyms:
 - Trauma
 - chuangshang
 
+search:
+  boost: 1.8
 comments: true
 ---
 

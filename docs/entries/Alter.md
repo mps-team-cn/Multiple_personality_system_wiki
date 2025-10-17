@@ -14,6 +14,8 @@ synonyms:
 
 - 成员
 
+search:
+  boost: 1.8
 comments: true
 ---
 
