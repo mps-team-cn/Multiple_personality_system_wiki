@@ -389,7 +389,7 @@ comments: true
 **实践工具**:
 
 - [接地（Grounding）](Grounding.md) - 接地技巧详解
-- [冥想（Meditation）](Meditation.md) - 正念与冥想练习
+- [冥想（Meditation）](Meditation.md) - 呼吸调节、身体扫描与深度放松冥想引导
 - [情绪调节](Emotion-Regulation.md) - 情绪调节策略
 
 **多意识体核心**:

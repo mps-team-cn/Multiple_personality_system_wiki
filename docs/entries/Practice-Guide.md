@@ -51,7 +51,7 @@ comments: true
 | 词条 | 重点 | 场景 |
 | --- | --- | --- |
 | [正念（Mindfulness）](Mindfulness.md) | 当下觉察、非评判态度 | 建立自我调节基础，识别触发前兆 |
-| [冥想（Meditation）](Meditation.md) | 专注训练、慈悲练习 | 提升情绪韧性、支持创伤处理 |
+| [冥想（Meditation）](Meditation.md) | 呼吸调节、身体扫描、内在平静中心 | 释放深层压力、提升情绪稳定性与自我接纳 |
 | [注意与觉察（Attention & Awareness）](Attention-Awareness.md) | 注意力分配、觉察技巧 | 监测切换迹象、支持共前台协作 |
 | [可视化与想象（Visualization & Imagination）](Visualization-Imagination.md) | 心象构建、场景练习 | Tulpa 练习、内部空间设计 |
 
