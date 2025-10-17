@@ -70,6 +70,7 @@
         * [未特定的解离障碍（Unspecified Dissociative Disorder，UDD）](entries/Unspecified-Dissociative-Disorder-UDD.md)
         * [沟通障碍（Communication Disorders）](entries/Communication-Disorders.md)
         * [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
+        * [深层记忆(Deep Memory)](entries/Deep-Memory.md)
         * [烟草相关障碍（Tobacco-Related Disorders）](entries/Tobacco-Related-Disorders.md)
         * [焦虑障碍（Anxiety Disorders）](entries/Anxiety-Disorders.md)
         * [物质使用障碍（Substance Use Disorders，SUD）](entries/Substance-Use-Disorders-SUD.md)
