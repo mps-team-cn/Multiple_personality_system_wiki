@@ -29,10 +29,11 @@ comments: true
 
 ## 常见特征与能力
 
-- **高层视角** ：守门人通常对系统结构与成员能力有较完整的了解，能从“俯瞰视角”协调行动，类似后台管理员或交通指挥。
+- **高层视角** ：守门人通常对系统结构与成员能力有较完整的了解，能从"俯瞰视角"协调行动，类似后台管理员或交通指挥。
 - **边界感知敏锐** ：擅长识别潜在威胁、操控解离屏障或前台门槛，必要时加强或放宽边界，以适应当下情境。
 - **沟通与仲裁** ：在内部会议或紧急状况中充当裁决者，帮助成员表达需求、解决冲突、明确外部沟通策略。
 - **可分布化** ：一些系统会有多个守门人，各自负责特定领域（如记忆库、前台门、内部世界出入口），形成协作网络。
+- **调节与承受能力** : 根据[创伤功能分化理论](Functional-Dissociation-of-Trauma-in-Plural-Systems.md),守门人在**承受/调节能力维度**上通常表现突出。他们需要在评估风险、管理切换、调节记忆访问时保持冷静与清晰,这要求高度的情绪调节能力与现实检验能力。守门人可被视为系统的"调节枢纽",确保创伤加工在安全窗口内进行。
 
 ## 社群与临床视角
 
@@ -51,16 +52,26 @@ comments: true
 - **建立清晰协议** ：与守门人一起拟定切换流程、安全词或紧急联络机制，帮助系统成员在紧迫情境中快速达成共识。
 - **尊重界限** ：守门人设置的限制往往基于安全考量，外部支持者与系统成员应在沟通中说明需求、商量调整，而非强行突破。
 - **持续回顾** ：随着系统成长，守门人的策略也需更新，例如在治疗或合作项目中重新评估访问需求，确保不过度封锁也不过度开放。
+- **功能分化协作** : 在创伤治疗中,守门人可与记忆持有者、创伤持有者、照顾者协作:守门人控制记忆开放的节奏与范围,记忆持有者提供语境,创伤持有者表达情绪,照顾者提供安抚。这种"渐进式信息开放"体现了守门人在调节维度上的关键作用,确保创伤加工不超出系统承受能力。
 
 ## 相关条目
 
+### 功能分化理论
+- [多意识体系统中的创伤功能分化](Functional-Dissociation-of-Trauma-in-Plural-Systems.md)
+- [创伤持有者（Trauma Holder）](Trauma-Holder.md)
+- [记忆持有者（Memory Holder）](Memory-Holder.md)
+
+### 角色功能
 - [管理者（Admin）](Admin.md)
+- [保护者（Protector）](Protector.md)
+- [照顾者（Caregiver）](Caregiver.md)
+- [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
+
+### 系统运作
 - [后台（Back / Being Back）](Back-Being-Back.md)
 - [成员（Alter）](Alter.md)
 - [切换（Switch）](Switch.md)
-- [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
 - [共前台（Co-fronting）](Co-Fronting.md)
-- [保护者（Protector）](Protector.md)
 - [内部沟通（Internal Communication）](Internal-Communication.md)
 
 ## 参考与延伸阅读

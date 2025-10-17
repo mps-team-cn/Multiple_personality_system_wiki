@@ -64,6 +64,15 @@ comments: true
 - **社会适应**：通过"正常"表现,减少外部识别系统异常的风险,保护系统安全。
 - **情绪缓冲**：在创伤持有者被触发时,无创伤记忆者可接管前台,避免功能崩溃。
 
+### 调节能力维度
+
+根据[创伤功能分化理论](Functional-Dissociation-of-Trauma-in-Plural-Systems.md),无创伤记忆者在**承受/调节能力**维度上可能呈现两种模式:
+
+- **高调节能力型**：发展出接地技巧、情绪调节策略、现实检验能力,成为系统的"稳定锚点"。这类成员可能演化为调节者或保护者角色,在创伤加工期间维持系统稳定。
+- **低调节能力型**：虽不承载创伤,但调节能力不足,在触发事件或系统危机时也可能失控或陷入解离。
+
+**重要洞察**：调节能力可以**独立训练**,即使无创伤记忆者不涉及创伤加工,仍可通过技能训练提升系统整体稳定性,为后续治疗创造"安全窗口"。
+
 ### 发展性意义
 
 - **未受污染的自我**：在某些治疗框架中,无创伤记忆者被视为"未受创伤污染的部分",代表系统的正常发展潜能。
@@ -145,11 +154,15 @@ comments: true
 
 ## 相关条目
 
+### 功能分化理论
+
+- [多意识体系统中的创伤功能分化](Functional-Dissociation-of-Trauma-in-Plural-Systems.md)
+- [创伤持有者（Trauma Holder）](Trauma-Holder.md)
+- [记忆持有者（Memory Holder）](Memory-Holder.md)
+
 ### 角色功能
 
 - [成员（Alter）](Alter.md)
-- [创伤持有者（Trauma Holder）](Trauma-Holder.md)
-- [记忆持有者（Memory Holder）](Memory-Holder.md)
 - [宿主（Host）](Host.md)
 - [守门人（Gatekeeper）](Gatekeeper.md)
 - [保护者（Protector）](Protector.md)
