@@ -39,6 +39,7 @@
         * [双相障碍（Bipolar Disorders）](entries/Bipolar-Disorders.md)
         * [反社会人格障碍（Antisocial Personality Disorder，ASPD）](entries/Antisocial-Personality-Disorder-ASPD.md)
         * [咖啡因相关障碍（Caffeine-Related Disorders）](entries/Caffeine-Related-Disorders.md)
+        * [嗜睡障碍（Hypersomnolence Disorder）](entries/Hypersomnolence-Disorder.md)
         * [回避型人格障碍（Avoidant Personality Disorder，AvPD）](entries/Avoidant-Personality-Disorder-AvPD.md)
         * [囤积障碍（Hoarding Disorder，HD）](entries/Hoarding-Disorder.md)
         * [复杂性创伤后应激障碍（CPTSD）](entries/CPTSD.md)

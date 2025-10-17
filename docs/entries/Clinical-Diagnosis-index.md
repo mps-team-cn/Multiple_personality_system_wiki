@@ -26,6 +26,7 @@ hide:
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md) — *2025-10-17*
 - [解离性失忆(Dissociative Amnesia,DA)](Dissociative-Amnesia-DA.md) — *2025-10-17*
 - [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md) — *2025-10-17*
+- [嗜睡障碍（Hypersomnolence Disorder）](Hypersomnolence-Disorder.md) — *2025-10-17*
 - [重性抑郁障碍（Major Depressive Disorder, MDD）](Major-Depressive-Disorder-MDD.md) — *2025-10-17*
 - [改良电痉挛治疗（Modified Electroconvulsive Therapy, MECT）](Modified-Electroconvulsive-Therapy-MECT.md) — *2025-10-17*
 - [其他特定解离性障碍（OSDD）](OSDD.md) — *2025-10-17*
