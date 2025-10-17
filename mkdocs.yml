@@ -49,6 +49,8 @@ theme:
   icon:
     repo: fontawesome/brands/github
     logo: material/book-open-variant
+    edit: material/pencil          # 编辑按钮图标
+    view: material/eye             # 查看源代码按钮图标
 
   # 功能特性
   features:
@@ -88,8 +90,9 @@ theme:
 
     # 其他
     - announce.dismiss # 公告可关闭
-    - content.action.edit # ← 开启“编辑此页”图标
-    - content.action.view # （可选）旁边再加“查看源码”
+    # 临时禁用这两个按钮
+    # - content.action.edit # ← 开启“编辑此页”图标
+    # - content.action.view # （可选）旁边再加“查看源码”
 
 # 额外配置
 extra:
