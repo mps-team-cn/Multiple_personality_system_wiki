@@ -18,6 +18,7 @@ hide:
 - [成年成员（Adult Alter）](Adult-Alter.md) — *2025-10-17*
 - [成员（Alter）](Alter.md) — *2025-10-17*
 - [创造者（Creative）](Creative.md) — *2025-10-17*
+- [守门人（Gatekeeper）](Gatekeeper.md) — *2025-10-17*
 - [宿主（Host）](Host.md) — *2025-10-17*
 - [引入者（Introject）](Introject.md) — *2025-10-17*
 - [无创伤记忆者（Non-Trauma Holder）](Non-Trauma-Holder.md) — *2025-10-17*
@@ -37,7 +38,6 @@ hide:
 - [超级破碎（Polyfragmented）](Polyfragmented.md) — *2025-10-16*
 - [人格职能（System Roles）](System-Roles.md) — *2025-10-16*
 - [管理者（Admin）](Admin.md) — *2025-10-14*
-- [守门人（Gatekeeper）](Gatekeeper.md) — *2025-10-14*
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md) — *2025-10-14*
 - [适应型（Adaptive）](Adaptive.md) — *2025-10-13*
 - [特殊认同（Alterhuman）](Alterhuman.md) — *2025-10-13*

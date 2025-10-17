@@ -9,7 +9,7 @@ tags:
 topic: 系统运作
 description: 系统内部沟通技巧与方法：建立有效对话、解决冲突、增进合作。掌握日记、内部会议等实用工具，提升系统协作效率
 title: 内部沟通（Internal Communication）
-updated: 2025-10-16
+updated: 2025-10-17
 search:
   boost: 1.5
 comments: true

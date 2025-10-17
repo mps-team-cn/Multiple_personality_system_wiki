@@ -8,7 +8,7 @@ tags:
 
 topic: 系统运作
 title: 整合（Integration）
-updated: 2025-10-16
+updated: 2025-10-17
 description: 功能性整合到结构性整合的连续谱；明确与融合的区别与关联，提供准备度评估、阶段路径、常见困难与风险边界。
 search:
   boost: 1.5

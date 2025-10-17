@@ -16,18 +16,20 @@ hide:
 ## 词条一览
 
 - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md) — *2025-10-17*
+- [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md) — *2025-10-17*
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md) — *2025-10-17*
 - [复杂性创伤后应激障碍（CPTSD）](CPTSD.md) — *2025-10-17*
 - [经颅微电流刺激（Cranial Electrotherapy Stimulation, CES）](Cranial-Electrotherapy-Stimulation-CES.md) — *2025-10-17*
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md) — *2025-10-17*
+- [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md) — *2025-10-17*
 - [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md) — *2025-10-17*
 - [重性抑郁障碍（Major Depressive Disorder, MDD）](Major-Depressive-Disorder-MDD.md) — *2025-10-17*
 - [改良电痉挛治疗（Modified Electroconvulsive Therapy, MECT）](Modified-Electroconvulsive-Therapy-MECT.md) — *2025-10-17*
 - [其他特定解离性障碍（OSDD）](OSDD.md) — *2025-10-17*
 - [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](PTSD.md) — *2025-10-17*
+- [精神分裂症（Schizophrenia，SZ/SCZ）](Schizophrenia-SZ.md) — *2025-10-17*
 - [创伤（Trauma）](Trauma.md) — *2025-10-17*
 - [酒精相关障碍（Alcohol-Related Disorders）](Alcohol-Related-Disorders.md) — *2025-10-16*
-- [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md) — *2025-10-16*
 - [咖啡因相关障碍（Caffeine-Related Disorders）](Caffeine-Related-Disorders.md) — *2025-10-16*
 - [大麻相关障碍（Cannabis-Related Disorders）](Cannabis-Related-Disorders.md) — *2025-10-16*
 - [沟通障碍（Communication Disorders）](Communication-Disorders.md) — *2025-10-16*
@@ -68,7 +70,6 @@ hide:
 - [环性心境障碍（Cyclothymic Disorder）](Cyclothymic-Disorder.md) — *2025-10-14*
 - [谵妄（Delirium）](Delirium.md) — *2025-10-14*
 - [依赖型人格障碍（Dependent Personality Disorder，DPD）](Dependent-Personality-Disorder-DPD.md) — *2025-10-14*
-- [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md) — *2025-10-14*
 - [解离性遗忘（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md) — *2025-10-14*
 - [进食障碍（Eating Disorders，ED）](Eating-Disorders-ED.md) — *2025-10-14*
 - [癫痫（Epilepsy）](Epilepsy.md) — *2025-10-14*
@@ -90,7 +91,6 @@ hide:
 - [人格障碍（Personality Disorders）](Personality-Disorders.md) — *2025-10-14*
 - [经前焦虑障碍（Premenstrual Dysphoric Disorder，PMDD）](Premenstrual-Dysphoric-Disorder.md) — *2025-10-14*
 - [长期哀伤障碍(Prolonged Grief Disorder, PGD)](Prolonged-Grief-Disorder.md) — *2025-10-14*
-- [精神分裂症（Schizophrenia，SZ/SCZ）](Schizophrenia-SZ.md) — *2025-10-14*
 - [分裂型人格障碍（Schizotypal Personality Disorder，STPD）](Schizotypal-Personality-Disorder-STPD.md) — *2025-10-14*
 - [选择性缄默症（Selective Mutism，SM）](Selective-Mutism.md) — *2025-10-14*
 - [睡眠障碍（Sleep Disorders，SD）](Sleep-Disorders-SD.md) — *2025-10-14*
