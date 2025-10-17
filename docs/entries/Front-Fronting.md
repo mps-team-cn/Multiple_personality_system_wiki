@@ -82,5 +82,4 @@ comments: true
 
 [^pluralpedia-front]: Pluralpedia. (2024). [Fronting](https://pluralpedia.org/w/Fronting).
 [^reinders2012]: Reinders, A. A. T. S., Willemsen, A. T. M., Vos, H. P. J., den Boer, J. A., & Nijenhuis, E. R. S. (2012). Fact or factitious? A psychobiological study of authentic and simulated dissociative identity states. *PLoS ONE*, 7(6), e39279.
-[^isstd2011-ffront]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. _Journal of Trauma & Dissociation_, 12(2), 115–187.
 [^vanderhart2006-ffront]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization. W. W. Norton.

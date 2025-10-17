@@ -157,5 +157,3 @@ comments: true
 
 [^pluralpedia-creative]: Pluralpedia. (2024). [Creative](https://pluralpedia.org/w/Creative).
 [^pennebaker1997]: Pennebaker, J. W. (1997). Writing about emotional experiences as a therapeutic process. *Psychological Science*, 8(3), 162–166.
-[^malchiodi2011]: Malchiodi, C. A. (2011). *Handbook of Art Therapy* (2nd ed.). Guilford Press.
-[^drake2014]: Drake, J. E., & Winner, E. (2014). How children use drawing to regulate their emotions. *Cognition and Emotion*, 27(3), 512–520.

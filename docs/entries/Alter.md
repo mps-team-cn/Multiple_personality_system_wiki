@@ -208,6 +208,5 @@ comments: true
 ## 参考资料
 
 [^pluralpedia-alter]: Pluralpedia. (2024). [Alter](https://pluralpedia.org/w/Alter).
-[^hudson2021]: Hudson, A. (2021). Voices within: Identity negotiation in plural communities. *Plurality & Identity Review*, 2(3), 22–38.
 [^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation*, 12(2), 115–187.
 [^vanderhart2006]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.

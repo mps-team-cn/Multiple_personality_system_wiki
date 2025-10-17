@@ -169,5 +169,3 @@ comments: true
 
 [^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation*, 12(2), 115–187.
 [^erikson1968]: Erikson, E. H. (1968). *Identity: Youth and Crisis*. W. W. Norton.
-[^steinberg2014]: Steinberg, L. (2014). Age of Opportunity: Lessons from the New Science of Adolescence. Houghton Mifflin Harcourt.
-[^brand2016]: Brand, B. L., Loewenstein, R. J., & Spiegel, D. (2016). Dispelling myths about dissociative identity disorder treatment. *Psychological Medicine*, 44(4), 637–640.

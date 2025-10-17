@@ -191,5 +191,3 @@ comments: true
 [^pluralpedia-introject]: Pluralpedia. (2024). [Introject](https://pluralpedia.org/w/Introject).
 [^fairbairn1952]: Fairbairn, W. R. D. (1952). *Psychoanalytic Studies of the Personality*. Routledge.
 [^kluft1993]: Kluft, R. P. (1993). The initial stages of psychotherapy in the treatment of multiple personality disorder patients. *Dissociation*, 6(2/3), 145–161.
-[^vanderhart2006]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.
-[^ross1997]: Ross, C. A. (1997). *Dissociative Identity Disorder: Diagnosis, Clinical Features, and Treatment of Multiple Personality* (2nd ed.). Wiley.

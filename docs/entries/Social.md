@@ -158,4 +158,3 @@ comments: true
 [^pluralpedia-social]: Pluralpedia. (2024). [Social](https://pluralpedia.org/w/Social).
 [^goffman1959]: Goffman, E. (1959). *The Presentation of Self in Everyday Life*. Doubleday.
 [^walker2013]: Walker, P. (2013). *Complex PTSD: From Surviving to Thriving*. Azure Coyote.
-[^blais2023]: Blais, R. K., & Geiser, C. (2023). Social anxiety and dissociation in trauma survivors. *Journal of Trauma & Dissociation*, 24(1), 45–62.

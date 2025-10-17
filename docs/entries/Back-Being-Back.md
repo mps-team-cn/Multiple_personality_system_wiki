@@ -77,6 +77,5 @@ comments: true
 ## 参考资料
 
 [^pluralpedia-back]: Pluralpedia. (2024). [Back](https://pluralpedia.org/w/Back).
-[^stone2021]: Stone, M. (2021). Managing front/back balance in plural systems. _Plural Practice Notes_, 4(1), 8–15.
 [^isstd2011-back]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. _Journal of Trauma & Dissociation_, 12(2), 115–187.
 [^brand2014-back]: Brand, B. L., & Loewenstein, R. J. (2014). Dissociative disorders: An overview of assessment, phenomenology, and treatment. _Psychiatric Times_, 31(1), 48–53.

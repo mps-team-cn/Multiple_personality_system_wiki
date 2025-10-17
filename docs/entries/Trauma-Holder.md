@@ -200,7 +200,4 @@ comments: true
 ## 参考资料
 
 [^vanderhart2006]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.
-[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation*, 12(2), 115–187.
 [^lanius2010]: Lanius, R. A., et al. (2010). Emotion modulation in PTSD: Clinical and neurobiological evidence for a dissociative subtype. *American Journal of Psychiatry*, 167(6), 640–647.
-[^brand2016]: Brand, B. L., Loewenstein, R. J., & Spiegel, D. (2016). Dispelling myths about dissociative identity disorder treatment. *Psychological Medicine*, 44(4), 637–640.
-[^fisher2017]: Fisher, J. (2017). *Healing the Fragmented Selves of Trauma Survivors: Overcoming Internal Self-Alienation*. Routledge.

@@ -269,13 +269,9 @@ comments: true
 
 ## 参考文献
 
-[^dsm5-tr]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). Arlington, VA: American Psychiatric Publishing.
 
-[^icd11]: World Health Organization. (2022). *ICD-11: International Classification of Diseases* (11th ed.). Geneva: WHO. [https://icd.who.int/](https://icd.who.int/)
 
-[^steele2017]: Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating Trauma-Related Dissociation: A Practical, Integrative Approach*. W. W. Norton & Company.
 
-[^brand2016]: Brand, B. L., Loewenstein, R. J., & Spiegel, D. (2016). Dispelling Myths About Dissociative Identity Disorder Treatment: An Empirically Based Approach. *Psychiatry*, 77(2), 169-189.
 
 ---
 

@@ -158,5 +158,3 @@ comments: true
 
 [^dsm5tr]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
 [^bremner2006]: Bremner, J. D. (2006). Traumatic stress: Effects on the brain. *Dialogues in Clinical Neuroscience*, 8(4), 445–461.
-[^vanderhart2006]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.
-[^brand2009]: Brand, B. L., et al. (2009). A survey of practices and recommended treatment interventions among expert therapists treating patients with dissociative identity disorder. *Psychological Trauma: Theory, Research, Practice, and Policy*, 1(2), 138–151.

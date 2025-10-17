@@ -257,7 +257,6 @@ DBT 技能训练可作为系统协作工具，帮助多意识体成员共同应�
 ## 参考与延伸阅读
 
 [^apa]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.).
-[^who]: World Health Organization. (2022). *International Classification of Diseases 11th Revision (ICD-11)*.
 [^leichsenring]: Leichsenring, F., et al. (2011). Borderline personality disorder. *The Lancet, 377*(9759), 74–84.
 [^winsper]: Winsper, C., et al. (2020). Borderline personality disorder. *The Lancet Psychiatry, 7*(11), 1002–1014.
 [^bateman]: Bateman, A., & Fonagy, P. (2019). *Handbook of Mentalizing in Mental Health Practice* (2nd ed.). American Psychiatric Publishing.

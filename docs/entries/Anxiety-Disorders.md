@@ -353,12 +353,7 @@ comments: true
 
 ## 参考文献
 
-[^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). Arlington, VA: American Psychiatric Publishing.
 
-[^who2023]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Anxiety or fear-related disorders (6B00–6B05).* [https://icd.who.int/en](https://icd.who.int/en)
 
-[^nimh2024]: National Institute of Mental Health. (2024, March 12). *Anxiety Disorders.* [https://www.nimh.nih.gov/health/topics/anxiety-disorders](https://www.nimh.nih.gov/health/topics/anxiety-disorders)
 
-[^nice2022]: National Institute for Health and Care Excellence. (2022). *Generalised anxiety disorder and panic disorder in adults: management (CG113, updated).* [https://www.nice.org.uk/guidance/cg113](https://www.nice.org.uk/guidance/cg113)
 
-[^bandelow2017]: Bandelow, B., Michaelis, S., & Wedekind, D. (2017). Treatment of anxiety disorders. *Dialogues in Clinical Neuroscience*, 19(2), 93-107.

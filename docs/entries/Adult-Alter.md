@@ -168,5 +168,3 @@ comments: true
 
 [^pluralpedia-adult]: Pluralpedia. (2024). [Adult](https://pluralpedia.org/w/Adult).
 [^vanderhart2006]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.
-[^arnett2000]: Arnett, J. J. (2000). Emerging adulthood: A theory of development from the late teens through the twenties. *American Psychologist*, 55(5), 469–480.
-[^brand2016]: Brand, B. L., Loewenstein, R. J., & Spiegel, D. (2016). Dispelling myths about dissociative identity disorder treatment. *Psychological Medicine*, 44(4), 637–640.

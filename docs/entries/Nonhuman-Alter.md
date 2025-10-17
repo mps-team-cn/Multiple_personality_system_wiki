@@ -186,4 +186,3 @@ comments: true
 [^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation*, 12(2), 115–187.
 [^grivell2020]: Grivell, T., Clegg, H., & Roxburgh, E. C. (2020). An interpretative phenomenological analysis of identity in the therian community. *Identity*, 20(2), 130–142.
 [^davidson2020]: Davidson, J., & Orsini, M. (Eds.). (2020). *Worlds of Autism: Across the Spectrum of Neurological Difference*. University of Minnesota Press.
-[^laycock2012]: Laycock, J. P. (2012). We are spirits of another sort: Ontological rebellion and religious dimensions of the otherkin community. *Nova Religio*, 15(3), 65–90.

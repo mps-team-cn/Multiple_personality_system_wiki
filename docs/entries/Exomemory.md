@@ -190,6 +190,5 @@ comments: true
 ## 参考资料
 
 [^pluralpedia-exomemory]: Pluralpedia. (2024). [Exomemory](https://pluralpedia.org/w/Exomemory).
-[^lifton2021]: Lifton, P. (2021). Imaginal worlds and autonomous identity narratives in plural communities. *Plurality Studies Review*, 2(1), 45–63.
 [^buckner2008]: Buckner, R. L., Andrews-Hanna, J. R., & Schacter, D. L. (2008). The brain's default network: Anatomy, function, and relevance to disease. *Annals of the New York Academy of Sciences*, 1124, 1–38.
 [^brand2017]: Brand, B. L., & Loewenstein, R. J. (2017). Dissociative disorders: An overview of assessment, phenomenology, and treatment. *Psychiatric Clinics of North America*, 40(1), 1–19.
