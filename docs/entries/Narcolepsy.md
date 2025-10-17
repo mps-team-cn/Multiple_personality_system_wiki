@@ -35,7 +35,7 @@ comments: true
 > **核心要点速览**
 > 发作性睡病是一种慢性神经系统疾病,以日间过度嗜睡和快速眼动(REM)睡眠调节异常为核心特征。主要表现为不可抗拒的睡眠发作、猝倒(突然肌张力丧失)、睡眠瘫痪和入睡前/醒来时幻觉。1型发作性睡病与下丘脑食欲素(orexin/hypocretin)神经元丢失相关。
 
-发作性睡病(Narcolepsy)是一种以 **日间过度嗜睡** 和 **快速眼动(REM)睡眠调节异常** 为核心特征的慢性神经系统[睡眠障碍(Sleep Disorders)](Sleep-Disorders-SD.md)。
+发作性睡病(Narcolepsy)是一种以 **日间过度嗜睡** 和 **快速眼动(REM)睡眠调节异常** 为核心特征的慢性神经系统[睡眠障碍（Sleep Disorders）](Sleep-Disorders-SD.md)。
 
 患者即使夜间睡眠充足,仍在白天出现不可抗拒的睡眠发作,持续数秒至数分钟。1型发作性睡病的标志性症状是 **猝倒(cataplexy)**,即因强烈情绪(如大笑、惊讶、愤怒)诱发的突然、短暂的肌张力丧失,但意识清醒。其他特征包括睡眠瘫痪、入睡前或醒来时幻觉,以及夜间睡眠片段化。
 
@@ -49,6 +49,7 @@ comments: true
     **首选评估路径**:临床病史(睡眠发作、猝倒、睡眠瘫痪、幻觉)→ Epworth嗜睡量表(ESS >10)→ 睡眠专科转介 → PSG(排除睡眠呼吸暂停等)+ MSLT(确诊)→ 必要时腰椎穿刺测定食欲素水平 → 评估共病(抑郁、焦虑、PTSD、解离)。
 
     **治疗优先策略**:
+
     - **促觉醒治疗**:莫达非尼/阿莫达非尼(一线)或哌甲酯(兴奋剂);计划性小睡(每天1-2次,15-20分钟)。
     - **猝倒治疗**:氧酸钠(Sodium Oxybate)为一线;SSRI/SNRI(文拉法辛、氟西汀)可减少猝倒频率。
     - **非药物干预**:规律作息、避免睡眠剥夺、驾驶与职业安全管理、心理教育与支持。
@@ -68,7 +69,7 @@ DSM-5-TR将发作性睡病分为两个亚型:
 
 - **标准B**:至少具备以下之一:
     - **猝倒**(每月至少数次):在清醒状态下,因强烈情绪(通常为正性情绪如大笑)诱发的短暂(数秒至数分钟)、双侧对称的肌张力丧失,意识保持清醒。
-    - **多导睡眠图后次日进行的多次小睡潜伏期试验(MSLT)**显示:平均睡眠潜伏期 ≤8分钟,且 ≥2次睡眠起始REM期(SOREMP)。
+    - **多导睡眠图后次日进行的多次小睡潜伏期试验(MSLT)** 显示:平均睡眠潜伏期 ≤8分钟,且 ≥2次睡眠起始REM期(SOREMP)。
     - **脑脊液食欲素-1(hypocretin-1)浓度** ≤110 pg/mL 或 <正常对照均值的1/3。
 
 #### 发作性睡病2型(Narcolepsy Type 2)
@@ -236,17 +237,17 @@ ICD-11将发作性睡病编码为 **7A21**,强调以下要点:
 
 ## 鉴别诊断
 
-- **[嗜睡障碍(Hypersomnolence Disorder)](Hypersomnolence-Disorder.md)**:长时间睡眠(≥9小时)后仍困倦,但无猝倒、睡眠瘫痪、幻觉;MSLT显示睡眠潜伏期短但SOREMP <2次。
+- [**嗜睡障碍（Hypersomnolence Disorder）**](Hypersomnolence-Disorder.md):长时间睡眠(≥9小时)后仍困倦,但无猝倒、睡眠瘫痪、幻觉;MSLT显示睡眠潜伏期短但SOREMP <2次。
 
-- **睡眠呼吸暂停(Obstructive Sleep Apnea)**:打鼾、目击性呼吸暂停、晨起头痛;PSG显示呼吸暂停/低通气事件,治疗后嗜睡改善。详见[阻塞性睡眠呼吸暂停低通气(OSAH)](Obstructive-Sleep-Apnea-Hypopnea.md)与[睡眠相关呼吸障碍](Breathing-Related-Sleep-Disorders.md)。
+- **睡眠呼吸暂停(Obstructive Sleep Apnea)**:打鼾、目击性呼吸暂停、晨起头痛;PSG显示呼吸暂停/低通气事件,治疗后嗜睡改善。详见[阻塞性睡眠呼吸暂停低通气（OSAH）](Obstructive-Sleep-Apnea-Hypopnea.md)与[睡眠相关呼吸障碍](Breathing-Related-Sleep-Disorders.md)。
 
 - **昼夜节律睡眠-觉醒障碍**:睡眠时段与社会要求不匹配(如延迟睡眠相位),但若按自身节律睡眠则质量正常,无猝倒或SOREMP。
 
-- **[抑郁障碍(Depressive Disorders)](Depressive-Disorders.md)**:可伴过度睡眠,但需存在情绪低落、兴趣丧失等核心症状;MSLT通常不符合发作性睡病标准。
+- [**抑郁障碍（Depressive Disorders）**](Depressive-Disorders.md):可伴过度睡眠,但需存在情绪低落、兴趣丧失等核心症状;MSLT通常不符合发作性睡病标准。
 
-- **[创伤后应激障碍(PTSD)](PTSD.md)**:噩梦、高警觉、闪回可能导致睡眠障碍与日间疲劳,但无猝倒或典型SOREMP;入睡前幻觉需与创伤相关侵入性记忆鉴别。
+- [**创伤后应激障碍（PTSD）**](PTSD.md):噩梦、高警觉、闪回可能导致睡眠障碍与日间疲劳,但无猝倒或典型SOREMP;入睡前幻觉需与创伤相关侵入性记忆鉴别。
 
-- **[解离(Dissociation)](Dissociation.md)状态**:身份切换可能伴"失去时间"与记忆断裂,但通常持续时间更长,不伴典型猝倒肌张力丧失;解离性昏厥可能伴意识改变。
+- **[解离（Dissociation）](Dissociation.md)状态**:身份切换可能伴"失去时间"与记忆断裂,但通常持续时间更长,不伴典型猝倒肌张力丧失;解离性昏厥可能伴意识改变。
 
 - **癫痫**:失张力性发作(atonic seizure)可能类似猝倒,但通常意识丧失,脑电图异常,不伴情绪触发。
 
@@ -259,14 +260,14 @@ ICD-11将发作性睡病编码为 **7A21**,强调以下要点:
 ### 常见共病
 
 - **核心共病**:
-    - **[抑郁障碍(Depressive Disorders)](Depressive-Disorders.md)**:约15-50%的发作性睡病患者合并抑郁,可能因慢性疲劳、社交孤立、功能受损所致,也可能与神经生物学机制共享。
-    - **[焦虑障碍(Anxiety Disorders)](Anxiety-Disorders.md)**:睡眠瘫痪与幻觉可能引发恐慌发作或社交焦虑。
-    - **[创伤后应激障碍(PTSD)](PTSD.md)**:创伤幸存者若合并发作性睡病,睡眠瘫痪与幻觉可能加重PTSD症状,需鉴别与整合治疗。
+    - [**抑郁障碍（Depressive Disorders）**](Depressive-Disorders.md):约15-50%的发作性睡病患者合并抑郁,可能因慢性疲劳、社交孤立、功能受损所致,也可能与神经生物学机制共享。
+    - [**焦虑障碍（Anxiety Disorders）**](Anxiety-Disorders.md):睡眠瘫痪与幻觉可能引发恐慌发作或社交焦虑。
+    - [**创伤后应激障碍（PTSD）**](PTSD.md):创伤幸存者若合并发作性睡病,睡眠瘫痪与幻觉可能加重PTSD症状,需鉴别与整合治疗。
 
 - **其他共病**:
     - **肥胖与代谢综合征**:发作性睡病患者肥胖率较高(约40-50%),可能与食欲素缺乏导致代谢调节异常相关。
     - **睡眠呼吸暂停**:肥胖增加睡眠呼吸暂停风险,需同时治疗。
-    - **[解离性身份障碍(DID)](DID.md)**:需鉴别睡眠发作与身份切换、猝倒与解离性昏厥,协调内部系统对症状的理解与管理。
+    - [**解离性身份障碍（DID）**](DID.md):需鉴别睡眠发作与身份切换、猝倒与解离性昏厥,协调内部系统对症状的理解与管理。
 
 ### 风险管理重点
 
@@ -338,7 +339,7 @@ ICD-11将发作性睡病编码为 **7A21**,强调以下要点:
 
 - **鉴别与教育**:帮助患者/系统区分睡眠瘫痪、幻觉与创伤闪回、解离状态,减少恐惧与困惑。
 
-- **接地技巧**:在睡眠瘫痪或幻觉发生时,使用[接地(Grounding)](Grounding.md)技巧(如提醒自己"这是睡眠瘫痪,会在数分钟内结束",专注呼吸,尝试移动手指或脚趾)。
+- **接地技巧**:在睡眠瘫痪或幻觉发生时,使用[接地（Grounding）](Grounding.md)技巧(如提醒自己"这是睡眠瘫痪,会在数分钟内结束",专注呼吸,尝试移动手指或脚趾)。
 
 - **创伤加工**:若睡眠瘫痪/幻觉触发创伤记忆,可在稳定期通过[EMDR](Eye-Movement-Desensitization-Reprocessing-EMDR.md)或[TF-CBT](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md)处理。
 
@@ -395,31 +396,31 @@ ICD-11将发作性睡病编码为 **7A21**,强调以下要点:
 
 ### 睡眠障碍相关
 
-- [睡眠障碍(Sleep Disorders)](Sleep-Disorders-SD.md)
-- [嗜睡障碍(Hypersomnolence Disorder)](Hypersomnolence-Disorder.md)
-- [睡眠相关呼吸障碍(Breathing-Related Sleep Disorders)](Breathing-Related-Sleep-Disorders.md)
-- [阻塞性睡眠呼吸暂停低通气(OSAH)](Obstructive-Sleep-Apnea-Hypopnea.md)
-- [失眠障碍(Insomnia Disorder)](Insomnia-Disorder.md)
-- [昼夜节律睡眠-觉醒障碍(Circadian Rhythm Sleep-Wake Disorders)](Circadian-Rhythm-Sleep-Wake-Disorders.md)
+- [睡眠障碍（Sleep Disorders）](Sleep-Disorders-SD.md)
+- [嗜睡障碍（Hypersomnolence Disorder）](Hypersomnolence-Disorder.md)
+- [睡眠相关呼吸障碍（Breathing-Related Sleep Disorders）](Breathing-Related-Sleep-Disorders.md)
+- [阻塞性睡眠呼吸暂停低通气（OSAH）](Obstructive-Sleep-Apnea-Hypopnea.md)
+- [失眠障碍（Insomnia Disorder）](Insomnia-Disorder.md)
+- [昼夜节律睡眠-觉醒障碍（Circadian Rhythm Sleep-Wake Disorders）](Circadian-Rhythm-Sleep-Wake-Disorders.md)
 
 ### 解离与创伤相关
 
-- [解离性身份障碍(DID)](DID.md)
-- [其他特定解离性障碍(OSDD)](OSDD.md)
-- [解离(Dissociation)](Dissociation.md)
-- [创伤后应激障碍(PTSD)](PTSD.md)
-- [复杂性创伤后应激障碍(CPTSD)](CPTSD.md)
+- [解离性身份障碍（DID）](DID.md)
+- [其他特定解离性障碍（OSDD）](OSDD.md)
+- [解离（Dissociation）](Dissociation.md)
+- [创伤后应激障碍（PTSD）](PTSD.md)
+- [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)
 
 ### 共病相关
 
-- [抑郁障碍(Depressive Disorders)](Depressive-Disorders.md)
-- [焦虑障碍(Anxiety Disorders)](Anxiety-Disorders.md)
+- [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 
 ### 应对策略
 
-- [接地(Grounding)](Grounding.md)
-- [EMDR(Eye Movement Desensitization and Reprocessing)](Eye-Movement-Desensitization-Reprocessing-EMDR.md)
-- [创伤焦点认知行为疗法(TF-CBT)](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md)
+- [接地（Grounding）](Grounding.md)
+- [EMDR（Eye Movement Desensitization and Reprocessing）](Eye-Movement-Desensitization-Reprocessing-EMDR.md)
+- [创伤焦点认知行为疗法（TF-CBT）](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md)
 
 ---
 

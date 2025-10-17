@@ -48,6 +48,7 @@ comments: true
     **首选评估路径**:临床筛查（Epworth 嗜睡量表、STOP-BANG 问卷）→ 睡眠专科转介 → 多导睡眠图（PSG）或家庭睡眠呼吸监测（HSAT）→ 评估共病（高血压、糖尿病、心血管疾病、抑郁）。
 
     **治疗优先策略**:
+
     - **阻塞性**:持续气道正压通气（CPAP）为一线治疗 + 减重 + 睡眠体位训练。
     - **中枢性**:治疗原发疾病（心衰、阿片类药物调整）+ 适应性伺服通气（ASV,心衰患者慎用）。
     - **低通气**:无创正压通气（NIPPV）+ 治疗肺部/神经肌肉疾病。
@@ -117,6 +118,7 @@ ICD-11 将睡眠相关呼吸障碍归类于"睡眠-觉醒障碍"章节（7A 类�
 | **脉搏传递时间（Pulse Transit Time,PTT）**              | 新兴技术    | 评估呼吸努力与觉醒                | 研究阶段,临床应用有限                                   |
 
 **推荐使用情境**:
+
 - **门诊筛查**:ESS + STOP-BANG 问卷 + 病史采集。
 - **确诊评估**:PSG（金标准）或 HSAT（适用于明显阻塞性症状且无复杂共病者）。
 - **疗效监测**:治疗后复查 PSG,评估 CPAP 压力滴定或手术效果。
@@ -204,13 +206,13 @@ ICD-11 将睡眠相关呼吸障碍归类于"睡眠-觉醒障碍"章节（7A 类�
 
 ## 鉴别诊断
 
-- **[失眠障碍（Insomnia Disorder）](Insomnia-Disorder.md)**:入睡困难或维持睡眠困难,但无呼吸暂停或低通气证据。
+- [**失眠障碍（Insomnia Disorder）**](Insomnia-Disorder.md):入睡困难或维持睡眠困难,但无呼吸暂停或低通气证据。
 
-- **[发作性睡病（Narcolepsy）](Narcolepsy.md)**:日间过度嗜睡伴猝倒、睡眠瘫痪或入睡前幻觉,多导睡眠图显示快速进入 REM 睡眠。
+- [**发作性睡病（Narcolepsy）**](Narcolepsy.md):日间过度嗜睡伴猝倒、睡眠瘫痪或入睡前幻觉,多导睡眠图显示快速进入 REM 睡眠。
 
-- **[嗜睡障碍（Hypersomnolence Disorder）](Hypersomnolence-Disorder.md)**:长时间睡眠后仍感嗜睡,但无呼吸异常。
+- [**嗜睡障碍（Hypersomnolence Disorder）**](Hypersomnolence-Disorder.md):长时间睡眠后仍感嗜睡,但无呼吸异常。
 
-- **[不宁腿综合征（Restless Legs Syndrome）](Restless-Legs-Syndrome.md)**:腿部不适感伴强烈活动冲动,影响入睡,但无呼吸障碍。
+- [**不宁腿综合征（Restless Legs Syndrome）**](Restless-Legs-Syndrome.md):腿部不适感伴强烈活动冲动,影响入睡,但无呼吸障碍。
 
 - **心肺疾病**:
     - **心力衰竭**:需区分 Cheyne-Stokes 呼吸与其他原因的呼吸困难。

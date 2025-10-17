@@ -15,12 +15,18 @@ hide:
 
 ## 词条一览
 
+- [睡眠相关呼吸障碍（Breathing-Related Sleep Disorders）](Breathing-Related-Sleep-Disorders.md) — *2025-10-18*
+- [昼夜节律睡眠-觉醒障碍（Circadian Rhythm Sleep-Wake Disorders）](Circadian-Rhythm-Sleep-Wake-Disorders.md) — *2025-10-18*
+- [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md) — *2025-10-18*
+- [发作性睡病(Narcolepsy)](Narcolepsy.md) — *2025-10-18*
+- [阻塞性睡眠呼吸暂停低通气（Obstructive Sleep Apnea Hypopnea，OSAH）](Obstructive-Sleep-Apnea-Hypopnea.md) — *2025-10-18*
+- [不宁腿综合征（Restless Legs Syndrome，RLS）](Restless-Legs-Syndrome.md) — *2025-10-18*
+- [睡眠障碍（Sleep Disorders，SD）](Sleep-Disorders-SD.md) — *2025-10-18*
 - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md) — *2025-10-17*
 - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md) — *2025-10-17*
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md) — *2025-10-17*
 - [复杂性创伤后应激障碍（CPTSD）](CPTSD.md) — *2025-10-17*
 - [经颅微电流刺激（Cranial Electrotherapy Stimulation, CES）](Cranial-Electrotherapy-Stimulation-CES.md) — *2025-10-17*
-- [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md) — *2025-10-17*
 - [深层记忆(Deep Memory)](Deep-Memory.md) — *2025-10-17*
 - [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](Depersonalization-Derealization-Disorder-DPDR.md) — *2025-10-17*
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md) — *2025-10-17*
@@ -32,7 +38,6 @@ hide:
 - [其他特定解离性障碍（OSDD）](OSDD.md) — *2025-10-17*
 - [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](PTSD.md) — *2025-10-17*
 - [精神分裂症（Schizophrenia，SZ/SCZ）](Schizophrenia-SZ.md) — *2025-10-17*
-- [睡眠障碍（Sleep Disorders，SD）](Sleep-Disorders-SD.md) — *2025-10-17*
 - [创伤（Trauma）](Trauma.md) — *2025-10-17*
 - [未特定的解离障碍（Unspecified Dissociative Disorder，UDD）](Unspecified-Dissociative-Disorder-UDD.md) — *2025-10-17*
 - [酒精相关障碍（Alcohol-Related Disorders）](Alcohol-Related-Disorders.md) — *2025-10-16*
