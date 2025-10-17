@@ -454,7 +454,7 @@ python3 tools/submit_to_google_indexing.py --query https://wiki.mpsteam.cn/
 ## 相关文档
 
 - [generate_seo_urls.py 使用说明](../TEMPLATE_ENTRY.md)
-- [SEO 优化指南](SEO-Optimization.md)
+- [SEO 优化指南](SEO_OPTIMIZATION.md)
 - [工具索引](Tools-Index.md)
 - [Google Indexing API 官方文档](https://developers.google.com/search/apis/indexing-api/v3/quickstart)
 

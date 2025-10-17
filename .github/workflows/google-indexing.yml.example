@@ -66,6 +66,9 @@ jobs:
 
           if [ "$DRY_RUN" = "true" ]; then
             CMD="$CMD --dry-run"
+          else
+            # 非 dry-run 模式需要添加 --yes 参数跳过交互式确认
+            CMD="$CMD --yes"
           fi
 
           # 执行提交

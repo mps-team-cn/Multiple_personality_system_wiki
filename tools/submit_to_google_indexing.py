@@ -27,6 +27,9 @@ Google Indexing API 自动提交工具
 
     # 限制提交数量
     python3 tools/submit_to_google_indexing.py --limit 50
+
+    # 自动确认提交(用于自动化场景,跳过交互式确认)
+    python3 tools/submit_to_google_indexing.py --yes
 """
 
 import argparse
@@ -344,8 +347,11 @@ def parse_args():
   # 限制提交数量
   python3 %(prog)s --limit 50
 
+  # 自动确认提交(用于 CI/CD 或定时任务)
+  python3 %(prog)s --yes
+
   # 组合使用
-  python3 %(prog)s --max-priority 2 --limit 100 --dry-run
+  python3 %(prog)s --max-priority 2 --limit 100 --yes
 
 环境变量:
   GOOGLE_SERVICE_ACCOUNT_JSON  Service Account JSON 内容
@@ -394,6 +400,13 @@ def parse_args():
         "-v",
         action="store_true",
         help="显示详细日志"
+    )
+
+    parser.add_argument(
+        "--yes",
+        "-y",
+        action="store_true",
+        help="自动确认提交,跳过交互式确认(用于自动化场景)"
     )
 
     return parser.parse_args()
@@ -453,8 +466,8 @@ def main():
         print("-" * 80)
         print()
 
-        # 确认提交
-        if not args.dry_run:
+        # 确认提交(除非使用了 --yes 参数)
+        if not args.dry_run and not args.yes:
             response = input("确认提交? (y/N): ")
             if response.lower() != 'y':
                 logger.info("已取消")
