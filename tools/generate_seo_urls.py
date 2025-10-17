@@ -110,6 +110,10 @@ PRIORITY_ENTRIES = [
     "Dialectical-Behavior-Therapy-DBT",
     "Eye-Movement-Desensitization-Reprocessing-EMDR",
     "Internal-Family-Systems-IFS",
+
+    # 记忆相关核心概念
+    "Dissociative-Amnesia-DA",
+    "Memory-Shielding",
 ]
 
 

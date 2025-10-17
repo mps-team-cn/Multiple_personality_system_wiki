@@ -120,7 +120,7 @@ DSM-5-TR 提供了数个用于填写括号说明的描述，帮助临床人员�
 - [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](Partial-Dissociative-Identity-Disorder-PDID.md)
 - [解离性失忆（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)
 - [人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)
-- [未特定的解离障碍（sdd）](Unspecified-Dissociative-Disorder-SDD.md)
+- [未特定的解离障碍（sdd）](Unspecified-Dissociative-Disorder-UDD.md)
 
 ### 多意识体相关
 

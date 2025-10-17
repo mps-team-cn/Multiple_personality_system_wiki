@@ -100,7 +100,7 @@ hide:
 - [人格分裂（Split Personality，非正式术语）](Split-Personality.md) — *2025-10-14*
 - [物质使用障碍（Substance Use Disorders，SUD）](Substance-Use-Disorders-SUD.md) — *2025-10-14*
 - [易性症（Transsexualism，已过时）](Transsexualism-Obsolete.md) — *2025-10-14*
-- [未特定的解离障碍（Unspecified Dissociative Disorder，sdd）](Unspecified-Dissociative-Disorder-SDD.md) — *2025-10-14*
+- [未特定的解离障碍（Unspecified Dissociative Disorder，sdd）](Unspecified-Dissociative-Disorder-UDD.md) — *2025-10-14*
 - [DSM-5-TR 评估量表总览](DSM-5TR-Scales.md) — *2025-10-13*
 - [表演型人格障碍（Histrionic Personality Disorder，HPD）](Histrionic-Personality-Disorder-HPD.md) — *2025-10-13*
 - [癔症（Hysteria，已过时）](Hysteria.md) — *2025-10-13*
