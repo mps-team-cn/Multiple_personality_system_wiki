@@ -17,16 +17,20 @@ hide:
 
 - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md) — *2025-10-17*
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md) — *2025-10-17*
+- [复杂性创伤后应激障碍（CPTSD）](CPTSD.md) — *2025-10-17*
 - [经颅微电流刺激（Cranial Electrotherapy Stimulation, CES）](Cranial-Electrotherapy-Stimulation-CES.md) — *2025-10-17*
+- [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md) — *2025-10-17*
 - [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md) — *2025-10-17*
 - [重性抑郁障碍（Major Depressive Disorder, MDD）](Major-Depressive-Disorder-MDD.md) — *2025-10-17*
 - [改良电痉挛治疗（Modified Electroconvulsive Therapy, MECT）](Modified-Electroconvulsive-Therapy-MECT.md) — *2025-10-17*
+- [其他特定解离性障碍（OSDD）](OSDD.md) — *2025-10-17*
+- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](PTSD.md) — *2025-10-17*
+- [创伤（Trauma）](Trauma.md) — *2025-10-17*
 - [酒精相关障碍（Alcohol-Related Disorders）](Alcohol-Related-Disorders.md) — *2025-10-16*
 - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md) — *2025-10-16*
 - [咖啡因相关障碍（Caffeine-Related Disorders）](Caffeine-Related-Disorders.md) — *2025-10-16*
 - [大麻相关障碍（Cannabis-Related Disorders）](Cannabis-Related-Disorders.md) — *2025-10-16*
 - [沟通障碍（Communication Disorders）](Communication-Disorders.md) — *2025-10-16*
-- [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md) — *2025-10-16*
 - [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](Depersonalization-Derealization-Disorder-DPDR.md) — *2025-10-16*
 - [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](Narcissistic-Personality-Disorder-NPD.md) — *2025-10-16*
 - [阿片类相关障碍（Opioid-Related Disorders）](Opioid-Related-Disorders.md) — *2025-10-16*
@@ -59,7 +63,6 @@ hide:
 - [双相 II 型障碍（Bipolar II Disorder）](Bipolar-II-Disorder.md) — *2025-10-14*
 - [躯体变形障碍（Body Dysmorphic Disorder，BDD）](Body-Dysmorphic-Disorder.md) — *2025-10-14*
 - [神经性贪食症(Bulimia Nervosa, BN)](Bulimia-Nervosa.md) — *2025-10-14*
-- [复杂性创伤后应激障碍（CPTSD）](CPTSD.md) — *2025-10-14*
 - [慢性疼痛（Chronic Pain）](Chronic-Pain.md) — *2025-10-14*
 - [功能性神经症状障碍（Functional Neurological Symptom Disorder，FND）](Conversion-Disorder-FND.md) — *2025-10-14*
 - [环性心境障碍（Cyclothymic Disorder）](Cyclothymic-Disorder.md) — *2025-10-14*
@@ -77,10 +80,8 @@ hide:
 - [智力发育障碍（Intellectual Developmental Disorders）](Intellectual-Developmental-Disorders.md) — *2025-10-14*
 - [躁狂（Mania）](Mania.md) — *2025-10-14*
 - [多人格障碍（Multiple Personality Disorder，已过时）](Multiple-Personality-Disorder-Obsolete.md) — *2025-10-14*
-- [其他特定解离性障碍（OSDD）](OSDD.md) — *2025-10-14*
 - [强迫型人格障碍（Obsessive-Compulsive Personality Disorder，OCPD）](Obsessive-Compulsive-Personality-Disorder-OCPD.md) — *2025-10-14*
 - [其他特定/未特定性别不安（Other Specified/Unspecified Gender Dysphoria）](Other-Specified-Unspecified-Gender-Dysphoria.md) — *2025-10-14*
-- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](PTSD.md) — *2025-10-14*
 - [惊恐发作（Panic Attack）](Panic-Attack.md) — *2025-10-14*
 - [惊恐障碍（Panic Disorder，PD）](Panic-Disorder.md) — *2025-10-14*
 - [偏执型人格障碍（Paranoid Personality Disorder，PPD）](Paranoid-Personality-Disorder-PPD.md) — *2025-10-14*
@@ -99,7 +100,6 @@ hide:
 - [人格分裂（Split Personality，非正式术语）](Split-Personality.md) — *2025-10-14*
 - [物质使用障碍（Substance Use Disorders，SUD）](Substance-Use-Disorders-SUD.md) — *2025-10-14*
 - [易性症（Transsexualism，已过时）](Transsexualism-Obsolete.md) — *2025-10-14*
-- [创伤（Trauma）](Trauma.md) — *2025-10-14*
 - [未特定的解离障碍（Unspecified Dissociative Disorder，sdd）](Unspecified-Dissociative-Disorder-SDD.md) — *2025-10-14*
 - [DSM-5-TR 评估量表总览](DSM-5TR-Scales.md) — *2025-10-13*
 - [表演型人格障碍（Histrionic Personality Disorder，HPD）](Histrionic-Personality-Disorder-HPD.md) — *2025-10-13*

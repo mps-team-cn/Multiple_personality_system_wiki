@@ -9,7 +9,7 @@ tags:
 topic: 系统运作
 description: 深入解析系统成员切换（Switch）的类型、触发因素与管理方法。了解切换的生理心理机制、如何识别切换及应对策略
 title: 切换（Switch）
-updated: 2025-10-16
+updated: 2025-10-17
 synonyms:
 
     - 切换

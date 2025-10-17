@@ -18,12 +18,15 @@ hide:
 - [成年成员（Adult Alter）](Adult-Alter.md) — *2025-10-17*
 - [成员（Alter）](Alter.md) — *2025-10-17*
 - [创造者（Creative）](Creative.md) — *2025-10-17*
+- [宿主（Host）](Host.md) — *2025-10-17*
 - [引入者（Introject）](Introject.md) — *2025-10-17*
 - [无创伤记忆者（Non-Trauma Holder）](Non-Trauma-Holder.md) — *2025-10-17*
 - [非人类成员（Nonhuman Alter）](Nonhuman-Alter.md) — *2025-10-17*
+- [保护者（Protector）](Protector.md) — *2025-10-17*
 - [社交者（Social）](Social.md) — *2025-10-17*
 - [青少年成员（Teen Alter）](Teen-Alter.md) — *2025-10-17*
 - [创伤持有者（Trauma Holder）](Trauma-Holder.md) — *2025-10-17*
+- [图帕（Tulpa）](Tulpa.md) — *2025-10-17*
 - [照顾者（Caregiver）](Caregiver.md) — *2025-10-16*
 - [儿童人格（Little / Child Alter）](Child-Alter.md) — *2025-10-16*
 - [异化/偏离（Deviation）](Deviation.md) — *2025-10-16*
@@ -32,13 +35,10 @@ hide:
 - [执行者（Performer / Executive）](Performer-Executive.md) — *2025-10-16*
 - [迫害者（Persecutor）](Persecutor.md) — *2025-10-16*
 - [超级破碎（Polyfragmented）](Polyfragmented.md) — *2025-10-16*
-- [保护者（Protector）](Protector.md) — *2025-10-16*
 - [人格职能（System Roles）](System-Roles.md) — *2025-10-16*
 - [管理者（Admin）](Admin.md) — *2025-10-14*
 - [守门人（Gatekeeper）](Gatekeeper.md) — *2025-10-14*
-- [宿主（Host）](Host.md) — *2025-10-14*
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md) — *2025-10-14*
-- [图帕（Tulpa）](Tulpa.md) — *2025-10-14*
 - [适应型（Adaptive）](Adaptive.md) — *2025-10-13*
 - [特殊认同（Alterhuman）](Alterhuman.md) — *2025-10-13*
 - [核心（Core）](Core.md) — *2025-10-13*

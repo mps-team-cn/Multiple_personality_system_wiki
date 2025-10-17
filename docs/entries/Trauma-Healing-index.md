@@ -15,9 +15,9 @@ hide:
 
 ## 词条一览
 
+- [接地（Grounding）](Grounding.md) — *2025-10-17*
 - [接受与承诺疗法（Acceptance and Commitment Therapy, ACT）](Acceptance-Commitment-Therapy-ACT.md) — *2025-10-14*
 - [认知行为疗法（Cognitive Behavioral Therapy, CBT）](Cognitive-Behavioral-Therapy-CBT.md) — *2025-10-14*
-- [接地（Grounding）](Grounding.md) — *2025-10-14*
 - [认知加工疗法（Cognitive Processing Therapy, CPT）](Cognitive-Processing-Therapy-CPT.md) — *2025-10-13*
 - [辩证行为疗法（Dialectical Behavior Therapy, DBT）](Dialectical-Behavior-Therapy-DBT.md) — *2025-10-13*
 - [眼动脱敏与再加工（Eye Movement Desensitization and Reprocessing, EMDR）](Eye-Movement-Desensitization-Reprocessing-EMDR.md) — *2025-10-13*

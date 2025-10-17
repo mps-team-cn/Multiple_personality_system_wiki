@@ -9,7 +9,7 @@ tags:
 topic: 系统运作
 description: 多意识体系统（MPS）概念详解：定义、类型、运作机制与日常管理。了解多重人格系统的本质、成员关系及协作方式的专业指南
 title: 多意识体系统（Multiple Personality System）
-updated: 2025-10-14
+updated: 2025-10-17
 synonyms:
 
 - 多意识体系统

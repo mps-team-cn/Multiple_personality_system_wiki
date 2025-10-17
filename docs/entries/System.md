@@ -9,7 +9,7 @@ tags:
 topic: 系统运作
 description: 多意识体系统的完整定义与运作原理。了解系统成员、内部沟通、前台切换等核心概念，探索多重意识体的协作与管理机制
 title: 系统（System）
-updated: 2025-10-14
+updated: 2025-10-17
 search:
   boost: 1.8
 comments: true
