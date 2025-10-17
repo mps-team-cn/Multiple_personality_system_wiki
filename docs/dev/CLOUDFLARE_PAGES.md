@@ -7,9 +7,9 @@
 ### 1. 在 Cloudflare Pages 创建项目
 
 1. 登录 [Cloudflare Dashboard](https://dash.cloudflare.com/)
-2. 进入 **Pages** 部分
-3. 点击 **Create a project**
-4. 连接你的 GitHub 仓库 `mps-team-cn/Multiple_personality_system_wiki`
+1. 进入 **Pages** 部分
+1. 点击 **Create a project**
+1. 连接你的 GitHub 仓库 `mps-team-cn/Multiple_personality_system_wiki`
 
 ### 2. 构建配置
 
@@ -50,17 +50,17 @@
 如果要使用自定义域名 `wiki.mpsteam.com`:
 
 1. 在 Cloudflare Pages 项目中，进入 **Custom domains**
-2. 点击 **Set up a custom domain**
-3. 输入 `wiki.mpsteam.com`
-4. 按照提示配置 DNS 记录
+1. 点击 **Set up a custom domain**
+1. 输入 `wiki.mpsteam.com`
+1. 按照提示配置 DNS 记录
 
 ## 构建脚本说明
 
 `.cfpages-build.sh` 脚本执行以下步骤:
 
 1. 安装 Python 依赖 (`requirements.txt`)
-2. 运行 `mkdocs build --strict` 构建站点
-3. 生成的静态文件输出到 `site/` 目录
+1. 运行 `mkdocs build --strict` 构建站点
+1. 生成的静态文件输出到 `site/` 目录
 
 ## 本地构建测试
 
@@ -100,17 +100,17 @@ mkdocs build --strict
 从 Docsify 迁移到 MkDocs Material 后:
 
 1. ✅ 所有词条路径保持不变 (`entries/*.md`)
-2. ✅ 静态资源路径已适配
-3. ✅ 内部链接已更新
-4. ⚠️ 确保 DNS 记录指向正确的 Cloudflare Pages 项目
+1. ✅ 静态资源路径已适配
+1. ✅ 内部链接已更新
+1. ⚠️ 确保 DNS 记录指向正确的 Cloudflare Pages 项目
 
 ## 回滚方案
 
 如需回滚到 Docsify 版本:
 
 1. 在 GitHub 切换到旧的提交或分支
-2. Cloudflare Pages 会自动重新构建
-3. 或者手动切换部署版本
+1. Cloudflare Pages 会自动重新构建
+1. 或者手动切换部署版本
 
 ## 性能优化
 

@@ -3,42 +3,44 @@
 本指南专为 **Multiple Personality System Wiki** 的管理员与维护者设计，涵盖分支管理、PR 审核、版本发布、CMS 管理等专属操作流程。
 
 !!! info "面向对象"
-    本文档面向拥有仓库写入权限的管理员。普通贡献者请参阅 [贡献指南](contributing/index.md)。
+本文档面向拥有仓库写入权限的管理员。普通贡献者请参阅 [贡献指南](contributing/index.md)。
 
 !!! tip "相关文档"
 
-    - [贡献指南](contributing/index.md) - 通用贡献流程
-    - [PR 提交流程](contributing/pr-workflow.md) - 详细提交步骤
-    - [AGENTS.md](../AGENTS.md) - 项目开发约定
-    - [工具文档](dev/Tools-Index.md) - 自动化工具说明
+```
+- [贡献指南](contributing/index.md) - 通用贡献流程
+- [PR 提交流程](contributing/pr-workflow.md) - 详细提交步骤
+- [AGENTS.md](../AGENTS.md) - 项目开发约定
+- [工具文档](dev/Tools-Index.md) - 自动化工具说明
+```
 
----
+______________________________________________________________________
 
 ## 📋 快速导航
 
-1. [分支与版本管理](#1-分支与版本管理)
-2. [PR 审核要点](#2-pr-审核要点)
-3. [版本发布流程](#3-版本发布流程)
-4. [Sveltia CMS 管理](#4-sveltia-cms-管理)
-5. [自动化维护工具](#5-自动化维护工具)
-6. [CI/CD 监控](#6-cicd-监控)
-7. [应急处理](#7-应急处理)
+1. [分支与版本管理](#1-%E5%88%86%E6%94%AF%E4%B8%8E%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86)
+1. [PR 审核要点](#2-pr-%E5%AE%A1%E6%A0%B8%E8%A6%81%E7%82%B9)
+1. [版本发布流程](#3-%E7%89%88%E6%9C%AC%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B)
+1. [Sveltia CMS 管理](#4-sveltia-cms-%E7%AE%A1%E7%90%86)
+1. [自动化维护工具](#5-%E8%87%AA%E5%8A%A8%E5%8C%96%E7%BB%B4%E6%8A%A4%E5%B7%A5%E5%85%B7)
+1. [CI/CD 监控](#6-cicd-%E7%9B%91%E6%8E%A7)
+1. [应急处理](#7-%E5%BA%94%E6%80%A5%E5%A4%84%E7%90%86)
 
----
+______________________________________________________________________
 
 ## 1️⃣ 分支与版本管理
 
 ### 1.1 分支策略
 
-| 分支类型               | 用途         | 管理权限 | 说明                       |
-| ------------------ | ---------- | ---- | ------------------------ |
-| `main`             | 生产环境稳定版本   | 管理员  | 受保护分支，CI 通过后才可合并         |
-| `dev`              | 开发集成分支     | 管理员  | 可选，用于大型功能测试             |
-| `feat/*`           | 功能开发分支     | 所有人  | 合并后自动删除                  |
-| `fix/*`            | Bug 修复分支   | 所有人  | 合并后自动删除                  |
-| `docs/*`           | 文档更新分支     | 所有人  | 合并后自动删除                  |
-| `chore/*`          | 工具/配置维护分支  | 管理员  | 合并后自动删除                  |
-| `hotfix/*`         | 紧急修复分支     | 管理员  | 直接基于 main 创建，优先处理        |
+| 分支类型   | 用途              | 管理权限 | 说明                          |
+| ---------- | ----------------- | -------- | ----------------------------- |
+| `main`     | 生产环境稳定版本  | 管理员   | 受保护分支，CI 通过后才可合并 |
+| `dev`      | 开发集成分支      | 管理员   | 可选，用于大型功能测试        |
+| `feat/*`   | 功能开发分支      | 所有人   | 合并后自动删除                |
+| `fix/*`    | Bug 修复分支      | 所有人   | 合并后自动删除                |
+| `docs/*`   | 文档更新分支      | 所有人   | 合并后自动删除                |
+| `chore/*`  | 工具/配置维护分支 | 管理员   | 合并后自动删除                |
+| `hotfix/*` | 紧急修复分支      | 管理员   | 直接基于 main 创建，优先处理  |
 
 ### 1.2 分支保护规则
 
@@ -68,9 +70,9 @@ git branch -d feat/branch-name
 ```
 
 !!! tip "自动化建议"
-    可在 GitHub 仓库设置中启用"合并后自动删除分支"选项。
+可在 GitHub 仓库设置中启用"合并后自动删除分支"选项。
 
----
+______________________________________________________________________
 
 ## 2️⃣ PR 审核要点
 
@@ -92,7 +94,7 @@ git branch -d feat/branch-name
 - [ ] 内部链接使用相对路径
 - [ ] 所有链接可访问（无 404）
 - [ ] Frontmatter 完整（title、tags、updated、topic）
-- [ ] 相关 Guide 已同步更新（见 [AGENTS.md](../AGENTS.md#13-索引与链接规范)）
+- [ ] 相关 Guide 已同步更新（见 [AGENTS.md](../AGENTS.md#13-%E7%B4%A2%E5%BC%95%E4%B8%8E%E9%93%BE%E6%8E%A5%E8%A7%84%E8%8C%83)）
 
 #### 🧹 格式规范
 
@@ -109,14 +111,14 @@ git branch -d feat/branch-name
 
 ### 2.2 常见问题处理
 
-| 问题类型     | 处理方式                                  |
-| -------- | ------------------------------------- |
-| 链接错误     | 要求贡献者修正相对路径                           |
-| 格式问题     | 运行 `fix_markdown.py` 后提交                |
-| 引用缺失     | 要求补充引用或标注来源                           |
-| Frontmatter 不完整 | 要求补全必需字段                              |
-| CI 失败    | 查看日志，指导贡献者修复                          |
-| 冲突       | 要求贡献者 rebase main 分支                  |
+| 问题类型           | 处理方式                      |
+| ------------------ | ----------------------------- |
+| 链接错误           | 要求贡献者修正相对路径        |
+| 格式问题           | 运行 `fix_markdown.py` 后提交 |
+| 引用缺失           | 要求补充引用或标注来源        |
+| Frontmatter 不完整 | 要求补全必需字段              |
+| CI 失败            | 查看日志，指导贡献者修复      |
+| 冲突               | 要求贡献者 rebase main 分支   |
 
 ### 2.3 审核评论模板
 
@@ -144,7 +146,7 @@ git branch -d feat/branch-name
 请修改后重新提交，感谢配合！
 ```
 
----
+______________________________________________________________________
 
 ## 3️⃣ 版本发布流程
 
@@ -152,21 +154,23 @@ git branch -d feat/branch-name
 
 !!! danger "发布前必须执行"
 
-    1. 核对 `docs/changelog.md` 内容完整性
-    2. 确认 `docs/index.md` 版本号正确
-    3. 运行完整构建测试
-    4. 确保 main 分支最新
+```
+1. 核对 `docs/changelog.md` 内容完整性
+2. 确认 `docs/index.md` 版本号正确
+3. 运行完整构建测试
+4. 确保 main 分支最新
+```
 
 ### 3.2 版本号规范
 
 遵循 [语义化版本](https://semver.org/lang/zh-CN/)：
 
-| 版本号          | 说明                    | 示例          |
-| ------------ | --------------------- | ----------- |
-| `MAJOR.x.x`  | 不兼容的 API 修改            | `2.0.0`     |
-| `x.MINOR.x`  | 向后兼容的功能新增             | `1.3.0`     |
-| `x.x.PATCH`  | 向后兼容的 Bug 修复          | `1.2.1`     |
-| `x.x.x-beta` | 预发布版本                 | `1.3.0-beta.1` |
+| 版本号       | 说明                | 示例           |
+| ------------ | ------------------- | -------------- |
+| `MAJOR.x.x`  | 不兼容的 API 修改   | `2.0.0`        |
+| `x.MINOR.x`  | 向后兼容的功能新增  | `1.3.0`        |
+| `x.x.PATCH`  | 向后兼容的 Bug 修复 | `1.2.1`        |
+| `x.x.x-beta` | 预发布版本          | `1.3.0-beta.1` |
 
 ### 3.3 发布步骤
 
@@ -224,9 +228,9 @@ gh release edit v1.4.0 \
 或在 GitHub 网页端操作：
 
 1. 访问 <https://github.com/mps-team-cn/Multiple_Personality_System_wiki/releases/new>
-2. 选择标签 `v1.4.0`
-3. 复制 `docs/changelog.md` 对应版本内容到 Release Notes
-4. 点击 "Publish release"
+1. 选择标签 `v1.4.0`
+1. 复制 `docs/changelog.md` 对应版本内容到 Release Notes
+1. 点击 "Publish release"
 
 #### Step 4: 验证发布
 
@@ -253,7 +257,7 @@ git tag -d v1.4.0
 
 ```
 
----
+______________________________________________________________________
 
 ## 4️⃣ Sveltia CMS 管理
 
@@ -268,9 +272,9 @@ git tag -d v1.4.0
 #### 添加协作者
 
 1. 访问 <https://github.com/mps-team-cn/Multiple_Personality_System_wiki/settings/access>
-2. 点击 "Add people"
-3. 输入 GitHub 用户名
-4. 选择权限级别（建议：Write）
+1. 点击 "Add people"
+1. 输入 GitHub 用户名
+1. 选择权限级别（建议：Write）
 
 ### 4.2 CMS 配置文件
 
@@ -298,9 +302,11 @@ collections:
 
 !!! warning "修改配置后需要"
 
-    - 测试 CMS 功能正常
-    - 确认词条保存路径正确
-    - 验证 Frontmatter 格式符合 MkDocs 要求
+```
+- 测试 CMS 功能正常
+- 确认词条保存路径正确
+- 验证 Frontmatter 格式符合 MkDocs 要求
+```
 
 ### 4.3 CMS 使用指南
 
@@ -313,20 +319,20 @@ collections:
 
 当前 7 个主题分类：
 
-| 分类      | 对应 Guide 文件                         | 词条数（参考） |
-| ------- | ----------------------------------- | ------- |
-| 理论与分类   | `Theory-Classification-Guide.md`    | ~22     |
-| 诊断与临床   | `Clinical-Diagnosis-Guide.md`       | ~31     |
-| 系统运作    | `System-Operations-Guide.md`        | ~48     |
-| 角色与身份   | `Roles-Identity-Guide.md`           | ~30     |
-| 文化与表现   | `Cultural-Media-Guide.md`           | ~17     |
-| 创伤与疗愈   | `Trauma-Healing-Guide.md`           | ~5      |
-| 实践指南    | `Practice-Guide.md`                 | ~5      |
+| 分类       | 对应 Guide 文件                  | 词条数（参考） |
+| ---------- | -------------------------------- | -------------- |
+| 理论与分类 | `Theory-Classification-Guide.md` | ~22            |
+| 诊断与临床 | `Clinical-Diagnosis-Guide.md`    | ~31            |
+| 系统运作   | `System-Operations-Guide.md`     | ~48            |
+| 角色与身份 | `Roles-Identity-Guide.md`        | ~30            |
+| 文化与表现 | `Cultural-Media-Guide.md`        | ~17            |
+| 创伤与疗愈 | `Trauma-Healing-Guide.md`        | ~5             |
+| 实践指南   | `Practice-Guide.md`              | ~5             |
 
 !!! tip "维护提醒"
-    新增词条时，务必同步更新对应的 Guide 文件。
+新增词条时，务必同步更新对应的 Guide 文件。
 
----
+______________________________________________________________________
 
 ## 5️⃣ 自动化维护工具
 
@@ -360,7 +366,7 @@ markdownlint "docs/**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/v
 ```
 
 !!! note "关于标签索引"
-    MkDocs Material 的 `tags` 插件会自动生成标签索引页面，无需手动维护 `tags.md`。
+MkDocs Material 的 `tags` 插件会自动生成标签索引页面，无需手动维护 `tags.md`。
 
 ### 5.2 格式化工具
 
@@ -430,9 +436,9 @@ python tools/pdf_export/export_to_pdf.py \
   --cjk-font="Microsoft YaHei"
 ```
 
-详见 [工具文档](dev/Tools-Index.md#pdf-导出工具)。
+详见 [工具文档](dev/Tools-Index.md#pdf-%E5%AF%BC%E5%87%BA%E5%B7%A5%E5%85%B7)。
 
----
+______________________________________________________________________
 
 ## 6️⃣ CI/CD 监控
 
@@ -440,12 +446,12 @@ python tools/pdf_export/export_to_pdf.py \
 
 主要 CI 流程：
 
-| 工作流文件                      | 触发条件                   | 主要任务                 |
-| -------------------------- | ---------------------- | -------------------- |
-| `markdown_format.yml`      | push / PR              | Markdown 格式检查        |
-| `build.yml`                | push / PR              | MkDocs 构建测试          |
-| `deploy.yml`               | push to main           | 部署到 Cloudflare Pages |
-| `release.yml`              | 新标签推送                  | 创建 GitHub Release    |
+| 工作流文件            | 触发条件     | 主要任务                |
+| --------------------- | ------------ | ----------------------- |
+| `markdown_format.yml` | push / PR    | Markdown 格式检查       |
+| `build.yml`           | push / PR    | MkDocs 构建测试         |
+| `deploy.yml`          | push to main | 部署到 Cloudflare Pages |
+| `release.yml`         | 新标签推送   | 创建 GitHub Release     |
 
 ### 6.2 Cloudflare Pages 部署
 
@@ -462,13 +468,13 @@ python tools/pdf_export/export_to_pdf.py \
 
 ### 6.3 CI 失败处理
 
-| 失败类型         | 常见原因             | 解决方法                      |
-| ------------ | ---------------- | ------------------------- |
-| Markdown Lint | 格式不符合规范          | 运行 `fix_markdown.py` 修复    |
-| Build Failed | 链接失效/Frontmatter 错误 | 检查错误日志，修复对应问题             |
-| Deploy Failed | Cloudflare 配置问题    | 检查构建脚本与 Cloudflare Pages 配置 |
+| 失败类型      | 常见原因                  | 解决方法                             |
+| ------------- | ------------------------- | ------------------------------------ |
+| Markdown Lint | 格式不符合规范            | 运行 `fix_markdown.py` 修复          |
+| Build Failed  | 链接失效/Frontmatter 错误 | 检查错误日志，修复对应问题           |
+| Deploy Failed | Cloudflare 配置问题       | 检查构建脚本与 Cloudflare Pages 配置 |
 
----
+______________________________________________________________________
 
 ## 7️⃣ 应急处理
 
@@ -506,7 +512,7 @@ git push origin main
 - `docs/admin/config.yml` - CMS 配置
 
 !!! tip "自动备份"
-    Git 本身就是版本控制系统，所有历史都可恢复。建议定期检查 `.gitignore` 确保重要文件已纳入版本控制。
+Git 本身就是版本控制系统，所有历史都可恢复。建议定期检查 `.gitignore` 确保重要文件已纳入版本控制。
 
 ### 7.3 冲突解决
 
@@ -541,20 +547,20 @@ git push origin feat/branch-name --force-with-lease
 - **GitHub Issues**: <https://github.com/mps-team-cn/Multiple_Personality_System_wiki/issues>
 - **讨论区**: <https://github.com/mps-team-cn/Multiple_Personality_System_wiki/discussions>
 
----
+______________________________________________________________________
 
 ## 📚 附录
 
 ### A. 推荐开发环境
 
-| 工具               | 推荐版本      | 说明               |
-| ---------------- | --------- | ---------------- |
-| Python           | ≥ 3.10    | 运行工具脚本           |
-| Node.js          | ≥ 18      | 运行 npm 脚本（可选）    |
-| markdownlint-cli | 最新        | Markdown 格式检查    |
-| tectonic         | 最新        | PDF 导出引擎         |
-| MkDocs           | ≥ 1.5     | 静态站点生成器          |
-| gh               | 最新        | GitHub CLI（发布管理） |
+| 工具             | 推荐版本 | 说明                   |
+| ---------------- | -------- | ---------------------- |
+| Python           | ≥ 3.10   | 运行工具脚本           |
+| Node.js          | ≥ 18     | 运行 npm 脚本（可选）  |
+| markdownlint-cli | 最新     | Markdown 格式检查      |
+| tectonic         | 最新     | PDF 导出引擎           |
+| MkDocs           | ≥ 1.5    | 静态站点生成器         |
+| gh               | 最新     | GitHub CLI（发布管理） |
 
 ### B. 常用命令速查
 
@@ -581,18 +587,18 @@ gh release create v1.4.0 --notes-file docs/changelog.md
 
 ### C. 关键文档索引
 
-| 文档类别   | 文档路径                                  |
-| ------ | ------------------------------------- |
-| 贡献指南   | `docs/contributing/index.md`          |
-| PR 流程  | `docs/contributing/pr-workflow.md`    |
-| 编写规范   | `docs/contributing/writing-guidelines.md` |
-| 开发约定   | `AGENTS.md`                           |
-| 工具文档   | `docs/dev/Tools-Index.md`                |
-| 词条模板   | `docs/TEMPLATE_ENTRY.md`              |
-| GitHub 工作流 | `docs/GITHUB_WORKFLOW.md`             |
+| 文档类别      | 文档路径                                  |
+| ------------- | ----------------------------------------- |
+| 贡献指南      | `docs/contributing/index.md`              |
+| PR 流程       | `docs/contributing/pr-workflow.md`        |
+| 编写规范      | `docs/contributing/writing-guidelines.md` |
+| 开发约定      | `AGENTS.md`                               |
+| 工具文档      | `docs/dev/Tools-Index.md`                 |
+| 词条模板      | `docs/TEMPLATE_ENTRY.md`                  |
+| GitHub 工作流 | `docs/GITHUB_WORKFLOW.md`                 |
 
----
+______________________________________________________________________
 
 !!! success "文档版本"
-    最后更新：2025-01-12
-    如有疑问，请在 GitHub Issues 中提问。
+最后更新：2025-01-12
+如有疑问，请在 GitHub Issues 中提问。

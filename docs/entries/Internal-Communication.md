@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 系统运作
-- 多重意识体
-- 解离
-- 创伤
+  - 系统运作
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 系统运作
 description: 系统内部沟通技巧与方法：建立有效对话、解决冲突、增进合作。掌握日记、内部会议等实用工具，提升系统协作效率
@@ -31,9 +31,9 @@ comments: true
 ## 结构化流程
 
 1. **定期会议** ：设定固定频率（如每日、每周）进行“系统简报”，回顾近况、确认任务与风险。
-2. **值班与备份表** ：借助共享文档或看板明确谁在前台、下一位交接者是谁，以及紧急情况下的联系流程。
-3. **议题收集与共识** ：鼓励成员将未解决问题写入“议题池”，会议时按重要性排序讨论，必要时通过投票或讨论达成共识。
-4. **反馈循环** ：每次决策后记录执行结果与感受，建立“行动—反思—调整”的循环，逐步改善协作效率。
+1. **值班与备份表** ：借助共享文档或看板明确谁在前台、下一位交接者是谁，以及紧急情况下的联系流程。
+1. **议题收集与共识** ：鼓励成员将未解决问题写入“议题池”，会议时按重要性排序讨论，必要时通过投票或讨论达成共识。
+1. **反馈循环** ：每次决策后记录执行结果与感受，建立“行动—反思—调整”的循环，逐步改善协作效率。
 
 ## 边界与冲突调解
 
@@ -62,6 +62,6 @@ comments: true
 
 ## 参考资料
 
-[^内部沟通-1]: Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating Trauma-Related Dissociation: A Practical, Integrative Approach*. W. W. Norton & Company.
-[^内部沟通-2]: System Speak Podcast. (2021). Building Internal Communication and Cooperation. 检索于 2025-09-15，来自 [https://www.systemspeak.org](https://www.systemspeak.org).
-[^内部沟通-3]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults* (Third Revision).
+\[^内部沟通-1\]: Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating Trauma-Related Dissociation: A Practical, Integrative Approach*. W. W. Norton & Company.
+\[^内部沟通-2\]: System Speak Podcast. (2021). Building Internal Communication and Cooperation. 检索于 2025-09-15，来自 [https://www.systemspeak.org](https://www.systemspeak.org).
+\[^内部沟通-3\]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults* (Third Revision).

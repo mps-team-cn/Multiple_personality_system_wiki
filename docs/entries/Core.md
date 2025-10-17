@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
+  - 角色与身份
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 角色与身份
 title: 核心（Core）
@@ -60,6 +60,6 @@ _本词条包含需要及时更新的即时内容或含有目前仍不能确定�
 
 ## 参考与延伸阅读
 
-[^pluralpedia-core]: Pluralpedia. 2023. "Core." [https://pluralpedia.org/w/Core.](https://pluralpedia.org/w/Core.)
-[^crisses2020]: The Crisses. 2020. "Median Systems & Terminology." *Kinhost.org*. [https://kinhost.org/Main/MedianSystems.](https://kinhost.org/Main/MedianSystems.)
-[^brown2020]: Brown, R., & Cardeña, E. 2020. "Functional Multiplicity and Role Negotiation in Plural Communities." *Journal of Trauma & Dissociation* 21(5): 542–560.
+\[^pluralpedia-core\]: Pluralpedia. 2023. "Core." [https://pluralpedia.org/w/Core.](https://pluralpedia.org/w/Core.)
+\[^crisses2020\]: The Crisses. 2020. "Median Systems & Terminology." *Kinhost.org*. [https://kinhost.org/Main/MedianSystems.](https://kinhost.org/Main/MedianSystems.)
+\[^brown2020\]: Brown, R., & Cardeña, E. 2020. "Functional Multiplicity and Role Negotiation in Plural Communities." *Journal of Trauma & Dissociation* 21(5): 542–560.

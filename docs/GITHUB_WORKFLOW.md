@@ -3,20 +3,21 @@
 本指南面向 **Multiple Personality System Wiki** 的贡献者，介绍如何通过 GitHub 提交内容。
 推荐流程： **Fork 仓库 → 新建分支 → 修改提交 → Pull Request (PR)** 。
 
----
+______________________________________________________________________
 
 ## 1. Fork 仓库
 
 1. 打开主仓库：[Multiple Personality System Wiki](https://github.com/mps-team-cn/Multiple_personality_system_wiki)
-2. 点击右上角 **Fork** 按钮，创建属于自己的副本。
 
-    - Fork 后地址示例：
+1. 点击右上角 **Fork** 按钮，创建属于自己的副本。
 
-     ```text
-     [https://github.com/你的用户名/Multiple_personality_system_wiki](https://github.com/你的用户名/Multiple_personality_system_wiki)
-     ```
+   - Fork 后地址示例：
 
----
+   ```text
+   [https://github.com/你的用户名/Multiple_personality_system_wiki](https://github.com/你的用户名/Multiple_personality_system_wiki)
+   ```
+
+______________________________________________________________________
 
 ## 2. 克隆到本地
 
@@ -31,7 +32,7 @@ git clone https://github.com/你的用户名/Multiple_personality_system_wiki.gi
 cd Multiple_personality_system_wiki
 ```
 
----
+______________________________________________________________________
 
 ## 3. 新建分支
 
@@ -49,12 +50,12 @@ cd Multiple_personality_system_wiki
 git checkout -b feat/add-did-entry
 ```
 
----
+______________________________________________________________________
 
 ## 4. 修改内容并提交
 
 1. 修改或新增文件（必须放在 `entries/` 目录下）。
-2. 保存后执行：
+1. 保存后执行：
 
 ```bash
 git add .
@@ -63,7 +64,7 @@ git commit -m "feat: 新增解离性身份障碍（DID）条目"
 
 > 提交信息必须遵循 [Conventional Commits](https://www.conventionalcommits.org/) 规范。
 
----
+______________________________________________________________________
 
 ## 5. 推送到自己的仓库
 
@@ -71,21 +72,24 @@ git commit -m "feat: 新增解离性身份障碍（DID）条目"
 git push origin feat/add-did-entry
 ```
 
----
+______________________________________________________________________
 
 ## 6. 发起 Pull Request (PR)
 
 1. 打开你 Fork 的仓库页面（GitHub 网页端）。
-2. 点击 **Compare & Pull Request** 。
-3. 设置目标分支：
 
-    - **base repository** : `mps-team-cn/Multiple_personality_system_wiki`
-    - **base branch** : `main`
+1. 点击 **Compare & Pull Request** 。
 
-4. 填写 PR 模板，说明修改内容。
-5. 提交后等待管理员审核。
+1. 设置目标分支：
 
----
+   - **base repository** : `mps-team-cn/Multiple_personality_system_wiki`
+   - **base branch** : `main`
+
+1. 填写 PR 模板，说明修改内容。
+
+1. 提交后等待管理员审核。
+
+______________________________________________________________________
 
 ## 7. 审核与合并
 
@@ -93,7 +97,7 @@ git push origin feat/add-did-entry
 - 通过后，PR 会合并到主仓库。
 - 如有问题，管理员会在 PR 下留言，贡献者可继续修改。
 
----
+______________________________________________________________________
 
 ## 8. 同步上游更新（可选）
 
@@ -119,7 +123,7 @@ git merge upstream/main
 git push origin main
 ```
 
----
+______________________________________________________________________
 
 ## 9. 提交流程图
 

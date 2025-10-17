@@ -2,16 +2,16 @@
 title: 癔症（Hysteria，已过时）
 tags:
 
-    - 诊断与临床
-    - 历史术语
-    - 躯体症状
+  - 诊断与临床
+  - 历史术语
+  - 躯体症状
 
 topic: 诊断与临床
 synonyms:
 
-    - 癔病
-    - 歇斯底里
-    - Hysteria
+  - 癔病
+  - 歇斯底里
+  - Hysteria
 
 updated: 2025-10-13
 comments: true
@@ -20,10 +20,10 @@ comments: true
 # 癔症（Hysteria，已过时）
 
 !!! warning "历史术语"
-    “癔症”（hysteria）是 19 世纪至 20 世纪中期流行的诊断标签，已在 ICD-11 与 DSM-5-TR 中弃用。现代临床实践更强调具体症状群与功能评估，避免以带有性别与文化偏见的旧称概括复杂体验。
+“癔症”（hysteria）是 19 世纪至 20 世纪中期流行的诊断标签，已在 ICD-11 与 DSM-5-TR 中弃用。现代临床实践更强调具体症状群与功能评估，避免以带有性别与文化偏见的旧称概括复杂体验。
 
 !!! info "免责声明"
-    本词条旨在解释历史术语与现代分类的差异，不构成诊断依据。如需医疗评估，请咨询持证专业人员。
+本词条旨在解释历史术语与现代分类的差异，不构成诊断依据。如需医疗评估，请咨询持证专业人员。
 
 ## 现代诊断体系对应
 
@@ -61,7 +61,7 @@ ICD-11 更强调文化语境、创伤史与身心互动，建议使用具体诊�
 - **情绪反应** ：情绪表达夸张或浅表化
 
 !!! note "量表局限性"
-    MMPI Hy 量表反映的是 1940-1960 年代对"癔症"的理解，不能直接等同于 DSM-5-TR 的表演型人格障碍或功能性神经症状障碍。临床使用时需结合访谈、病史与其他评估工具综合判断。
+MMPI Hy 量表反映的是 1940-1960 年代对"癔症"的理解，不能直接等同于 DSM-5-TR 的表演型人格障碍或功能性神经症状障碍。临床使用时需结合访谈、病史与其他评估工具综合判断。
 
 ## 现代对应诊断与评估要点
 
@@ -118,12 +118,12 @@ ICD-11 更强调文化语境、创伤史与身心互动，建议使用具体诊�
 
 ## 参考与延伸阅读
 
-[^shorter1992]: Shorter, E. (1992). *From Paralysis to Fatigue: A History of Psychosomatic Illness in the Modern Era*. The Free Press.
-[^scull2009]: Scull, A. (2009). *Hysteria: The Disturbing History of a Neurological Disease*. Oxford University Press.
-[^masson1984]: Masson, J. M. (1984). *The Assault on Truth: Freud's Suppression of the Seduction Theory*. Farrar, Straus and Giroux.
-[^wilson1993]: Wilson, M. (1993). DSM-III and the transformation of American psychiatry: A history. *American Journal of Psychiatry*, 150(3), 399–410.
-[^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
-[^stone2020]: Stone, J., & Carson, A. (2020). Functional neurological disorder: Diagnosis and management. *Journal of Neurology, Neurosurgery & Psychiatry*, 91(8), 733–741.
-[^who2023]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics* (Version 2023-01). World Health Organization.
-[^showalter1997]: Showalter, E. (1997). *Hystories: Hysterical Epidemics and Modern Media*. Columbia University Press.
-[^kirmayer1992]: Kirmayer, L. J. (1992). The body's insistence on meaning: Metaphor as presentation and representation in illness experience. *Medical Anthropology Quarterly*, 6(4), 323–346.
+\[^shorter1992\]: Shorter, E. (1992). *From Paralysis to Fatigue: A History of Psychosomatic Illness in the Modern Era*. The Free Press.
+\[^scull2009\]: Scull, A. (2009). *Hysteria: The Disturbing History of a Neurological Disease*. Oxford University Press.
+\[^masson1984\]: Masson, J. M. (1984). *The Assault on Truth: Freud's Suppression of the Seduction Theory*. Farrar, Straus and Giroux.
+\[^wilson1993\]: Wilson, M. (1993). DSM-III and the transformation of American psychiatry: A history. *American Journal of Psychiatry*, 150(3), 399–410.
+\[^apa2022\]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
+\[^stone2020\]: Stone, J., & Carson, A. (2020). Functional neurological disorder: Diagnosis and management. *Journal of Neurology, Neurosurgery & Psychiatry*, 91(8), 733–741.
+\[^who2023\]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics* (Version 2023-01). World Health Organization.
+\[^showalter1997\]: Showalter, E. (1997). *Hystories: Hysterical Epidemics and Modern Media*. Columbia University Press.
+\[^kirmayer1992\]: Kirmayer, L. J. (1992). The body's insistence on meaning: Metaphor as presentation and representation in illness experience. *Medical Anthropology Quarterly*, 6(4), 323–346.

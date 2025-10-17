@@ -1,10 +1,10 @@
 ---
 tags:
 
-    - 诊断与临床
-    - 焦虑
-    - 解离
-    - 创伤
+  - 诊断与临床
+  - 焦虑
+  - 解离
+  - 创伤
 
 topic: 诊断与临床
 title: 惊恐障碍（Panic Disorder，PD）
@@ -15,10 +15,10 @@ comments: true
 # 惊恐障碍（Panic Disorder，PD）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
 **惊恐障碍常伴随突发的强烈恐惧与自主神经反应，可能引发晕眩、窒息感或死亡恐惧，请在安全环境中阅读并准备适当的自我安抚策略。**
 
@@ -48,11 +48,11 @@ _若惊恐发作影响日常生活、伴随自伤或失控担忧，请尽快联�
 
 ### DSM-5-TR 与 ICD-11 差异
 
-| 重点 | DSM-5-TR | ICD-11 |
-| --- | --- | --- |
-| 核心条件 | 意外惊恐发作 + ≥1 个月担忧/行为改变 | 反复惊恐发作，不局限于特定情境 |
-| 特别强调 | 详细列出 13 项症状并要求至少 4 项 | 强调急性自主神经反应与情境非特异性 |
-| 共病描述 | 可附加广场恐惧症诊断或说明符 | 可在同一条目下记录共存症状或说明符 |
+| 重点     | DSM-5-TR                            | ICD-11                             |
+| -------- | ----------------------------------- | ---------------------------------- |
+| 核心条件 | 意外惊恐发作 + ≥1 个月担忧/行为改变 | 反复惊恐发作，不局限于特定情境     |
+| 特别强调 | 详细列出 13 项症状并要求至少 4 项   | 强调急性自主神经反应与情境非特异性 |
+| 共病描述 | 可附加广场恐惧症诊断或说明符        | 可在同一条目下记录共存症状或说明符 |
 
 ## 症状表现
 
@@ -89,9 +89,9 @@ _若惊恐发作影响日常生活、伴随自伤或失控担忧，请尽快联�
 ## 治疗与支持
 
 1. **心理治疗** ：循证推荐认知行为疗法（CBT）、暴露与反应预防、接受与承诺疗法（ACT）等，用于处理灾难化认知、回避与生理唤醒。[^nice2022pd]
-2. **药物治疗** ：精神科常用 SSRIs、SNRIs 或氯米帕明等抗抑郁药，短期可辅以苯二氮䓬类缓解急性症状，但需监测依赖风险。[^nice2022pd]
-3. **自助与稳定化策略** ：练习接地、腹式呼吸、渐进性肌肉放松、规律睡眠与运动，避免过量咖啡因、尼古丁或刺激性物质。[^nimh2024pd]
-4. **系统协作与危机计划** ：多意识体系统可指定成员负责监测触发与提醒稳定策略，建立快速沟通与前台转换流程以降低发作恐惧。
+1. **药物治疗** ：精神科常用 SSRIs、SNRIs 或氯米帕明等抗抑郁药，短期可辅以苯二氮䓬类缓解急性症状，但需监测依赖风险。[^nice2022pd]
+1. **自助与稳定化策略** ：练习接地、腹式呼吸、渐进性肌肉放松、规律睡眠与运动，避免过量咖啡因、尼古丁或刺激性物质。[^nimh2024pd]
+1. **系统协作与危机计划** ：多意识体系统可指定成员负责监测触发与提醒稳定策略，建立快速沟通与前台转换流程以降低发作恐惧。
 
 ## 系统与社群视角
 
@@ -112,7 +112,7 @@ _若惊恐发作影响日常生活、伴随自伤或失控担忧，请尽快联�
 
 ## 参考与延伸阅读
 
-[^apa2022pd]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.). American Psychiatric Publishing.
-[^who2023pd]: World Health Organization. (2023). _ICD-11 for Mortality and Morbidity Statistics: Panic disorder (6B01)._ [https://icd.who.int/en](https://icd.who.int/en)
-[^nice2022pd]: National Institute for Health and Care Excellence. (2022). _Generalised anxiety disorder and panic disorder in adults: management (CG113, updated)._ [https://www.nice.org.uk/guidance/cg113](https://www.nice.org.uk/guidance/cg113)
-[^nimh2024pd]: National Institute of Mental Health. (2024, March 12). _Panic Disorder: When Fear Overwhelms._ [https://www.nimh.nih.gov](https://www.nimh.nih.gov)
+\[^apa2022pd\]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.). American Psychiatric Publishing.
+\[^who2023pd\]: World Health Organization. (2023). _ICD-11 for Mortality and Morbidity Statistics: Panic disorder (6B01)._ [https://icd.who.int/en](https://icd.who.int/en)
+\[^nice2022pd\]: National Institute for Health and Care Excellence. (2022). _Generalised anxiety disorder and panic disorder in adults: management (CG113, updated)._ [https://www.nice.org.uk/guidance/cg113](https://www.nice.org.uk/guidance/cg113)
+\[^nimh2024pd\]: National Institute of Mental Health. (2024, March 12). _Panic Disorder: When Fear Overwhelms._ [https://www.nimh.nih.gov](https://www.nimh.nih.gov)

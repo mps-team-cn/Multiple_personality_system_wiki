@@ -1,10 +1,10 @@
 ---
 tags:
 
-    - 系统运作
-    - 多重意识体
-    - 解离
-    - 创伤
+  - 系统运作
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 系统运作
 title: 后台（Back / Being Back）
@@ -30,19 +30,19 @@ comments: true
 ## 何时关注 / 何时不建议
 
 - **可重点建设的情境** ：
-    - 需要 **轮班休息** 以降低疲劳与情绪堆积；
-    - 需要 **后台监护/记录** ，以支持前台安全执行（如面试、就医沟通）；
-    - 切换频繁导致信息遗失，需要异步沟通渠道。
+  - 需要 **轮班休息** 以降低疲劳与情绪堆积；
+  - 需要 **后台监护/记录** ，以支持前台安全执行（如面试、就医沟通）；
+  - 切换频繁导致信息遗失，需要异步沟通渠道。
 - **不建议加码复杂度的情境** ：
-    - 外部处境风险高（驾驶、操作机械、高处作业等）；
-    - 系统整体失稳（强触发、定向力差），应先恢复基本安全与前台稳定。[^isstd2011-back]
+  - 外部处境风险高（驾驶、操作机械、高处作业等）；
+  - 系统整体失稳（强触发、定向力差），应先恢复基本安全与前台稳定。[^isstd2011-back]
 
 ## 前后台交接（范例流程）
 
 1. **交班记录** ：写明日期、地点、进行中任务、注意事项、情绪/体感与用药/预约等关键信息。
-2. **观测职责** ：指定后台观察者是否需要记录异常（头压、恍惚、触发），并与共前台/前台设定信号词。
-3. **休息协议** ：后台者可以进入固定的“休息场景”（冥想、内在空间），并约定何时/何信号返回支援。
-4. **返岗检查** ：后台转前台前做简短的现实定向与任务回顾，避免“空降”。
+1. **观测职责** ：指定后台观察者是否需要记录异常（头压、恍惚、触发），并与共前台/前台设定信号词。
+1. **休息协议** ：后台者可以进入固定的“休息场景”（冥想、内在空间），并约定何时/何信号返回支援。
+1. **返岗检查** ：后台转前台前做简短的现实定向与任务回顾，避免“空降”。
 
 ## 体验与常见反应
 
@@ -76,6 +76,6 @@ comments: true
 
 ## 参考资料
 
-[^pluralpedia-back]: Pluralpedia. (2024). [Back](https://pluralpedia.org/w/Back).
-[^isstd2011-back]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. _Journal of Trauma & Dissociation_, 12(2), 115–187.
-[^brand2014-back]: Brand, B. L., & Loewenstein, R. J. (2014). Dissociative disorders: An overview of assessment, phenomenology, and treatment. _Psychiatric Times_, 31(1), 48–53.
+\[^pluralpedia-back\]: Pluralpedia. (2024). [Back](https://pluralpedia.org/w/Back).
+\[^isstd2011-back\]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. _Journal of Trauma & Dissociation_, 12(2), 115–187.
+\[^brand2014-back\]: Brand, B. L., & Loewenstein, R. J. (2014). Dissociative disorders: An overview of assessment, phenomenology, and treatment. _Psychiatric Times_, 31(1), 48–53.

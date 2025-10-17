@@ -161,29 +161,29 @@ tags:
 ### 主要关键词
 
 1. 多重人格系统 / Multiple Personality System / MPS
-2. 解离障碍 / Dissociative Disorders
-3. 解离性身份障碍 / DID
-4. 其他特定解离性障碍 / OSDD
-5. 创伤疗愈 / Trauma Healing
-6. Tulpa / 图帕
-7. 心理健康 / Mental Health
-8. 复杂性创伤 / CPTSD
+1. 解离障碍 / Dissociative Disorders
+1. 解离性身份障碍 / DID
+1. 其他特定解离性障碍 / OSDD
+1. 创伤疗愈 / Trauma Healing
+1. Tulpa / 图帕
+1. 心理健康 / Mental Health
+1. 复杂性创伤 / CPTSD
 
 ### 长尾关键词
 
 1. 如何理解多重人格
-2. 解离性障碍自我疗愈
-3. 创伤后应对指南
-4. Tulpa 创造教程
-5. DID 诊断标准
-6. 多意识体系统运作机制
+1. 解离性障碍自我疗愈
+1. 创伤后应对指南
+1. Tulpa 创造教程
+1. DID 诊断标准
+1. 多意识体系统运作机制
 
 ### 中文 SEO 特点
 
 1. 使用简体中文为主
-2. 包含常用的英文缩写（DID、OSDD、PTSD 等）
-3. 注意中英文混排的关键词组合
-4. 考虑口语化的搜索习惯
+1. 包含常用的英文缩写（DID、OSDD、PTSD 等）
+1. 注意中英文混排的关键词组合
+1. 考虑口语化的搜索习惯
 
 ## 待完成事项
 
@@ -210,10 +210,10 @@ tags:
 ### SEO 工具
 
 1. **Google Search Console**: 监控索引状态、搜索表现
-2. **百度站长平台**: 监控百度收录情况
-3. **Google PageSpeed Insights**: 检查页面加载速度
-4. **Google Rich Results Test**: 验证结构化数据
-5. **Schema.org Validator**: 验证 JSON-LD 格式
+1. **百度站长平台**: 监控百度收录情况
+1. **Google PageSpeed Insights**: 检查页面加载速度
+1. **Google Rich Results Test**: 验证结构化数据
+1. **Schema.org Validator**: 验证 JSON-LD 格式
 
 ### 手动测试
 
@@ -243,9 +243,9 @@ grep 'meta name="description"' site/index.html
 ### 浏览器测试
 
 1. 打开开发者工具
-2. 查看 Network 面板，确认资源加载正常
-3. 查看 Console，确认没有 JavaScript 错误
-4. 查看 Elements，检查 meta 标签是否正确
+1. 查看 Network 面板，确认资源加载正常
+1. 查看 Console，确认没有 JavaScript 错误
+1. 查看 Elements，检查 meta 标签是否正确
 
 ## 性能优化
 
@@ -301,10 +301,10 @@ features:
 ## 参考资源
 
 1. [Google 搜索中心](https://developers.google.com/search)
-2. [百度搜索资源平台](https://ziyuan.baidu.com/)
-3. [Schema.org](https://schema.org/)
-4. [Open Graph Protocol](https://ogp.me/)
-5. [Twitter Cards Documentation](https://developer.twitter.com/en/docs/twitter-for-websites/cards)
+1. [百度搜索资源平台](https://ziyuan.baidu.com/)
+1. [Schema.org](https://schema.org/)
+1. [Open Graph Protocol](https://ogp.me/)
+1. [Twitter Cards Documentation](https://developer.twitter.com/en/docs/twitter-for-websites/cards)
 
 ## 更新日志
 
@@ -337,7 +337,7 @@ features:
 - 优化 meta description
 - 更新词条模板
 
----
+______________________________________________________________________
 
 **维护者**: MPS Team
 **最后更新**: 2025-10-14

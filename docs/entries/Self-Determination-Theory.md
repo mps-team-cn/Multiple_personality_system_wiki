@@ -1,19 +1,19 @@
 ---
 tags:
 
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
+  - 理论与分类
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 理论与分类
 title: 自我决定理论（Self-Determination Theory）
 updated: 2025-10-13
 synonyms:
 
-- 自主性动机理论
-- SDT 理论
-- self determination theory
+  - 自主性动机理论
+  - SDT 理论
+  - self determination theory
 
 comments: true
 ---
@@ -58,5 +58,5 @@ comments: true
 ## 参考与延伸阅读
 
 1. Deci, E. L., & Ryan, R. M. (2000). The "what" and "why" of goal pursuits. *Psychological Inquiry*, 11(4), 227–268.
-2. Ryan, R. M., & Deci, E. L. (2017). *Self-Determination Theory: Basic Psychological Needs in Motivation, Development, and Wellness*. Guilford Press.
-3. Vansteenkiste, M., et al. (2020). Self-determination theory. *Motivation Science*, 6(2), 93–105.
+1. Ryan, R. M., & Deci, E. L. (2017). *Self-Determination Theory: Basic Psychological Needs in Motivation, Development, and Wellness*. Guilford Press.
+1. Vansteenkiste, M., et al. (2020). Self-determination theory. *Motivation Science*, 6(2), 93–105.

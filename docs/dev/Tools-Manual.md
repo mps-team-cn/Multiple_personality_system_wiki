@@ -84,13 +84,13 @@ python3 tools/check_descriptions.py
 
 ### 工具链概览
 
-| 工具脚本 | 功能说明 | 使用场景 |
-|---------|---------|---------|
-| **analyze_search_index.py** | 分析搜索索引,统计词频和 n-gram 分布 | 了解索引结构 |
-| **extract_dict_candidates.py** | 从索引提取候选词(可配置频率、长度阈值) | 生成候选词表 |
-| **split_candidates.py** | 将候选词分批,便于 AI 审核(每批 50-100KB) | AI 审核准备 |
-| **auto_review_candidates.py** | 自动审核候选词并生成优化词典(基于规则) | 批量优化词典 |
-| **test_dict_segmentation.py** | 测试词典的分词效果(内置测试套件) | 验证分词质量 |
+| 工具脚本                       | 功能说明                                 | 使用场景     |
+| ------------------------------ | ---------------------------------------- | ------------ |
+| **analyze_search_index.py**    | 分析搜索索引,统计词频和 n-gram 分布      | 了解索引结构 |
+| **extract_dict_candidates.py** | 从索引提取候选词(可配置频率、长度阈值)   | 生成候选词表 |
+| **split_candidates.py**        | 将候选词分批,便于 AI 审核(每批 50-100KB) | AI 审核准备  |
+| **auto_review_candidates.py**  | 自动审核候选词并生成优化词典(基于规则)   | 批量优化词典 |
+| **test_dict_segmentation.py**  | 测试词典的分词效果(内置测试套件)         | 验证分词质量 |
 
 ### 快速上手
 
@@ -177,19 +177,22 @@ python3 tools/extract_dict_candidates.py \
 #### 审核规则
 
 1. **保留**:
-    - 专业术语(障碍、疗法、诊断、解离性、创伤后等)
-    - 核心复合词(解离性身份障碍、多意识体系统、系统内沟通等)
-    - 重要缩写(DID、OSDD、PTSD 等)
 
-2. **优化**:
-    - 核心术语提升至 5000-8000 权重
-    - 专业复合词提升至 2000-3000 权重
-    - 通用短词降权至 500-1000
+   - 专业术语(障碍、疗法、诊断、解离性、创伤后等)
+   - 核心复合词(解离性身份障碍、多意识体系统、系统内沟通等)
+   - 重要缩写(DID、OSDD、PTSD 等)
 
-3. **删除**:
-    - 片段词(如 "离性"、"识体")
-    - 通用词(如 "可能"、"使用"、"其他")
-    - 单字词和过长词组
+1. **优化**:
+
+   - 核心术语提升至 5000-8000 权重
+   - 专业复合词提升至 2000-3000 权重
+   - 通用短词降权至 500-1000
+
+1. **删除**:
+
+   - 片段词(如 "离性"、"识体")
+   - 通用词(如 "可能"、"使用"、"其他")
+   - 单字词和过长词组
 
 #### 使用方法
 
@@ -411,9 +414,9 @@ export KEEP_PRODUCTION="true"   # 是否保留最新 production 部署(默认 tr
 #### 获取 API Token
 
 1. 访问 [Cloudflare Dashboard](https://dash.cloudflare.com/profile/api-tokens)
-2. 点击 "Create Token" → "Edit Cloudflare Workers" 模板
-3. 权限设置:Account - Cloudflare Pages - Edit
-4. 复制生成的 Token
+1. 点击 "Create Token" → "Edit Cloudflare Workers" 模板
+1. 权限设置:Account - Cloudflare Pages - Edit
+1. 复制生成的 Token
 
 #### 使用示例
 
@@ -437,10 +440,10 @@ CF_API_TOKEN="..." CF_ACCOUNT_ID="..." CF_PAGES_PROJECT="my-project" \
 #### 执行流程
 
 1. 📋 获取部署列表 - 分页获取所有部署(每页 25 条)
-2. 🔒 保留最新部署 - 可选保留最新 production 部署
-3. 🗑️ 批量删除 - 并发删除部署(显示实时进度)
-4. 📊 统计报告 - 显示成功/失败数量
-5. ✅ 删除项目 - 清理空项目
+1. 🔒 保留最新部署 - 可选保留最新 production 部署
+1. 🗑️ 批量删除 - 并发删除部署(显示实时进度)
+1. 📊 统计报告 - 显示成功/失败数量
+1. ✅ 删除项目 - 清理空项目
 
 #### 注意事项
 

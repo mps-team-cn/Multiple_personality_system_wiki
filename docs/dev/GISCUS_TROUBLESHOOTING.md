@@ -22,23 +22,24 @@ Unable to create discussion.
    [https://github.com/apps/giscus](https://github.com/apps/giscus)
    ```
 
-2. **点击 "Configure"**,选择你的账号或组织
+1. **点击 "Configure"**,选择你的账号或组织
 
-3. **确认仓库访问权限**:
-    - 在 "Repository access" 部分
-    - 确保选择了 "Only select repositories"
-    - 确保列表中包含 `mps-team-cn/Multiple_personality_system_wiki`
+1. **确认仓库访问权限**:
+
+   - 在 "Repository access" 部分
+   - 确保选择了 "Only select repositories"
+   - 确保列表中包含 `mps-team-cn/Multiple_personality_system_wiki`
 
    或者选择 "All repositories"(不推荐,安全性较低)
 
-4. **确认权限范围**:
+1. **确认权限范围**:
 
    必须包含以下权限:
 
-    - ✅ **Discussions**: Read and write
-    - ✅ **Metadata**: Read-only
+   - ✅ **Discussions**: Read and write
+   - ✅ **Metadata**: Read-only
 
-5. **保存配置**
+1. **保存配置**
 
 ### 步骤 2: 验证 Discussion 分类配置
 
@@ -48,46 +49,50 @@ Unable to create discussion.
    [https://github.com/mps-team-cn/Multiple_personality_system_wiki/discussions](https://github.com/mps-team-cn/Multiple_personality_system_wiki/discussions)
    ```
 
-2. **检查 "Comments" 分类**:
-    - 点击右侧的 "Categories" 或 "管理分类"
-    - 确认存在名为 "Comments" 的分类
-    - **重要**: 该分类必须是 **Announcement** 类型
+1. **检查 "Comments" 分类**:
 
-3. **如果分类不存在或类型错误**:
-    - 点击 "New category"
-    - 名称: `Comments`
-    - 描述: `评论区讨论`
-    - 格式: 选择 **Announcement** (公告)
-    - 点击 "Create"
+   - 点击右侧的 "Categories" 或 "管理分类"
+   - 确认存在名为 "Comments" 的分类
+   - **重要**: 该分类必须是 **Announcement** 类型
 
-4. **获取正确的 category_id**:
-    - 访问 [https://giscus.app/zh-CN](https://giscus.app/zh-CN)
-    - 输入仓库: `mps-team-cn/Multiple_personality_system_wiki`
-    - 在 "Discussion 分类" 下拉框中选择 "Comments"
-    - 复制生成的 `data-category-id` 值
+1. **如果分类不存在或类型错误**:
+
+   - 点击 "New category"
+   - 名称: `Comments`
+   - 描述: `评论区讨论`
+   - 格式: 选择 **Announcement** (公告)
+   - 点击 "Create"
+
+1. **获取正确的 category_id**:
+
+   - 访问 [https://giscus.app/zh-CN](https://giscus.app/zh-CN)
+   - 输入仓库: `mps-team-cn/Multiple_personality_system_wiki`
+   - 在 "Discussion 分类" 下拉框中选择 "Comments"
+   - 复制生成的 `data-category-id` 值
 
 ### 步骤 3: 验证环境变量配置
 
 1. **登录 Cloudflare Pages 控制台**:
-    - 进入项目设置
-    - 找到 "Environment variables"
 
-2. **确认以下环境变量已设置**:
+   - 进入项目设置
+   - 找到 "Environment variables"
+
+1. **确认以下环境变量已设置**:
 
    ```
    GISCUS_REPO_ID=<从 giscus.app 获取>
    GISCUS_CATEGORY_ID=<从 giscus.app 获取>
    ```
 
-3. **获取正确的值**:
+1. **获取正确的值**:
 
    访问 [https://giscus.app/zh-CN](https://giscus.app/zh-CN)
 
-    - 输入仓库名
-    - 选择 Comments 分类
-    - 查看生成的配置中的 `data-repo-id` 和 `data-category-id`
+   - 输入仓库名
+   - 选择 Comments 分类
+   - 查看生成的配置中的 `data-repo-id` 和 `data-category-id`
 
-4. **更新后重新部署**
+1. **更新后重新部署**
 
 ### 步骤 4: 检查页面配置(已修复)
 
@@ -111,9 +116,12 @@ data-giscus-mapping="{{ giscus.mapping | default('pathname') }}"
 ### 步骤 5: 验证页面源码
 
 1. **打开有问题的页面**
-2. **查看页面源码** (Ctrl+U 或 Cmd+U)
-3. **搜索 "data-giscus"**
-4. **检查以下属性值**:
+
+1. **查看页面源码** (Ctrl+U 或 Cmd+U)
+
+1. **搜索 "data-giscus"**
+
+1. **检查以下属性值**:
 
    ```html
    data-giscus-repo="mps-team-cn/Multiple_personality_system_wiki"
@@ -123,19 +131,20 @@ data-giscus-mapping="{{ giscus.mapping | default('pathname') }}"
    data-giscus-mapping="pathname"
    ```
 
-5. **如果 repo-id 或 category-id 为空**:
-    - 说明环境变量未正确注入
-    - 返回步骤 3 检查 Cloudflare Pages 配置
+1. **如果 repo-id 或 category-id 为空**:
+
+   - 说明环境变量未正确注入
+   - 返回步骤 3 检查 Cloudflare Pages 配置
 
 ## 🧪 测试步骤
 
 修复后,按以下步骤测试:
 
 1. **清除浏览器缓存**
-2. **访问启用了评论的页面** (如 `/entries/DID/`)
-3. **等待 Giscus 加载**
-4. **点击 "Sign in with GitHub"**
-5. **授权后尝试发表评论**
+1. **访问启用了评论的页面** (如 `/entries/DID/`)
+1. **等待 Giscus 加载**
+1. **点击 "Sign in with GitHub"**
+1. **授权后尝试发表评论**
 
 如果仍然失败:
 
@@ -158,13 +167,13 @@ data-giscus-mapping="{{ giscus.mapping | default('pathname') }}"
 
 ## 🔧 常见错误对照表
 
-| 错误信息 | 原因 | 解决方法 |
-|---------|------|---------|
-| Unable to create discussion | Giscus App 权限不足 | 步骤 1 |
-| Unable to create discussion | category_id 错误 | 步骤 2 |
-| Discussion not found | 讨论不存在(正常) | 允许用户创建(已处理) |
-| Bad credentials | 环境变量错误 | 步骤 3 |
-| Error: Not Found | repo_id 错误 | 步骤 3 |
+| 错误信息                    | 原因                | 解决方法             |
+| --------------------------- | ------------------- | -------------------- |
+| Unable to create discussion | Giscus App 权限不足 | 步骤 1               |
+| Unable to create discussion | category_id 错误    | 步骤 2               |
+| Discussion not found        | 讨论不存在(正常)    | 允许用户创建(已处理) |
+| Bad credentials             | 环境变量错误        | 步骤 3               |
+| Error: Not Found            | repo_id 错误        | 步骤 3               |
 
 ## 🆘 仍然无法解决?
 
@@ -172,21 +181,22 @@ data-giscus-mapping="{{ giscus.mapping | default('pathname') }}"
 
    [https://www.githubstatus.com/](https://www.githubstatus.com/)
 
-2. **查看 Giscus 仓库 Issues**:
+1. **查看 Giscus 仓库 Issues**:
 
    [https://github.com/giscus/giscus/issues](https://github.com/giscus/giscus/issues)
 
-3. **在项目仓库提交 Issue**:
+1. **在项目仓库提交 Issue**:
 
    [https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues](https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues)
 
-4. **提供以下信息**:
-    - 错误截图
-    - 浏览器控制台错误
-    - 页面 URL
-    - 已完成的检查步骤
+1. **提供以下信息**:
 
----
+   - 错误截图
+   - 浏览器控制台错误
+   - 页面 URL
+   - 已完成的检查步骤
+
+______________________________________________________________________
 
 **文档版本**: v1.1
 **最后更新**: 2025-10-11

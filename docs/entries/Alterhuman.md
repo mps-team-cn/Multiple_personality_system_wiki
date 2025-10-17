@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
+  - 角色与身份
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 角色与身份
 title: 特殊认同（Alterhuman）
@@ -46,6 +46,6 @@ comments: true
 
 ## 参考与延伸阅读
 
-[^alterhuman-wiki]: Alterhuman Wiki. 2022. "Alterhuman." [https://alterhuman.org/wiki/alterhuman.](https://alterhuman.org/wiki/alterhuman.)
-[^alterhuman-portal]: Alterhumanity Portal. 2021. "What Does 'Alterhuman' Mean?" [https://alterhumanity.ink/definition.](https://alterhumanity.ink/definition.)
-[^laycock2021]: Laycock, J. 2021. "The New Other: Identity and Community in Alterhuman Networks." *Journal of Contemporary Religion* 36(3): 403–420.
+\[^alterhuman-wiki\]: Alterhuman Wiki. 2022. "Alterhuman." [https://alterhuman.org/wiki/alterhuman.](https://alterhuman.org/wiki/alterhuman.)
+\[^alterhuman-portal\]: Alterhumanity Portal. 2021. "What Does 'Alterhuman' Mean?" [https://alterhumanity.ink/definition.](https://alterhumanity.ink/definition.)
+\[^laycock2021\]: Laycock, J. 2021. "The New Other: Identity and Community in Alterhuman Networks." *Journal of Contemporary Religion* 36(3): 403–420.

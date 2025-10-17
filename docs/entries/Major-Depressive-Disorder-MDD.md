@@ -1,25 +1,25 @@
 ---
 tags:
 
-- 诊断与临床
-- MDD
-- 抑郁
-- 情绪障碍
+  - 诊断与临床
+  - MDD
+  - 抑郁
+  - 情绪障碍
 
 topic: 诊断与临床
 title: 重性抑郁障碍（Major Depressive Disorder, MDD）
 updated: 2025-10-17
 synonyms:
 
-- 重性抑郁障碍
-- 重度抑郁症
-- 临床抑郁症
-- 大抑郁症
-- Major Depressive Disorder
-- MDD
-- Major Depression
-- Clinical Depression
-- zhongxingyiyuzhangai
+  - 重性抑郁障碍
+  - 重度抑郁症
+  - 临床抑郁症
+  - 大抑郁症
+  - Major Depressive Disorder
+  - MDD
+  - Major Depression
+  - Clinical Depression
+  - zhongxingyiyuzhangai
 
 comments: true
 ---
@@ -27,18 +27,18 @@ comments: true
 # 重性抑郁障碍（Major Depressive Disorder, MDD）
 
 !!! warning "触发警告"
-    内容涉及抑郁、自杀意念、精神健康等敏感议题，阅读时请留意自身状态。
+内容涉及抑郁、自杀意念、精神健康等敏感议题，阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考，不构成医疗建议。若需诊断或治疗，请联系持证专业人员。
+本站资料仅供参考，不构成医疗建议。若需诊断或治疗，请联系持证专业人员。
 
----
+______________________________________________________________________
 
 ## 概述
 
 重性抑郁障碍是 [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md) 谱系中最常见且严重的类型，以 **持续的抑郁心境或兴趣/愉悦感丧失** 为核心特征，并伴随认知、躯体和行为功能的广泛损害。MDD 的症状必须持续至少 2 周，并导致显著的社会、职业或其他重要功能领域的损害。若未经治疗，MDD 可导致慢性功能残疾、自杀风险增加及生活质量严重下降。ICD-11 将 MDD 编码为单次或复发性抑郁发作（6A70, 6A71），DSM-5-TR 使用重性抑郁障碍这一诊断名称。
 
----
+______________________________________________________________________
 
 ## 诊断要点
 
@@ -53,15 +53,15 @@ comments: true
 ### DSM-5-TR 摘要
 
 - 在同一 2 周期间内，出现以下至少 5 项症状（必须包括第 1 或第 2 项）：
-    1. 几乎每天、大部分时间的抑郁心境
-    2. 几乎每天、对所有或几乎所有活动的兴趣或愉悦感显著下降
-    3. 显著体重减轻或增加，或食欲改变
-    4. 几乎每天的失眠或嗜睡
-    5. 几乎每天的精神运动性激越或迟滞
-    6. 几乎每天的疲劳或精力不足
-    7. 几乎每天的无价值感或过度/不恰当的罪恶感
-    8. 几乎每天的思考或注意力难以集中，或犹豫不决
-    9. 反复出现的死亡想法、自杀意念或自杀企图
+  1. 几乎每天、大部分时间的抑郁心境
+  1. 几乎每天、对所有或几乎所有活动的兴趣或愉悦感显著下降
+  1. 显著体重减轻或增加，或食欲改变
+  1. 几乎每天的失眠或嗜睡
+  1. 几乎每天的精神运动性激越或迟滞
+  1. 几乎每天的疲劳或精力不足
+  1. 几乎每天的无价值感或过度/不恰当的罪恶感
+  1. 几乎每天的思考或注意力难以集中，或犹豫不决
+  1. 反复出现的死亡想法、自杀意念或自杀企图
 - 症状导致显著的功能损害，不能归因于物质或医学状况，从未有过躁狂或轻躁狂发作。
 - **来源**：APA DSM-5-TR (2022)
 
@@ -69,7 +69,7 @@ comments: true
 
 DSM-5-TR 要求至少 5 项症状且必须包括核心症状，并提供详细的说明子类型（伴焦虑困扰、伴忧郁特征、伴精神病性特征等）；ICD-11 强调核心症状与严重度分级，诊断结构相对简化。
 
----
+______________________________________________________________________
 
 ## 说明子类型
 
@@ -82,10 +82,10 @@ DSM-5-TR 为重性抑郁障碍提供多个说明子类型，用于描述当前�
 **诊断标准**：在当前抑郁发作期间，至少出现以下 2 项焦虑症状：
 
 1. 感到紧张不安或处于紧张状态
-2. 感到异常的不安或焦躁
-3. 由于担心而难以集中注意力
-4. 害怕可能会发生可怕的事情
-5. 感到自己可能会失去控制
+1. 感到异常的不安或焦躁
+1. 由于担心而难以集中注意力
+1. 害怕可能会发生可怕的事情
+1. 感到自己可能会失去控制
 
 根据症状数量，焦虑困扰可分为：
 
@@ -110,21 +110,21 @@ DSM-5-TR 为重性抑郁障碍提供多个说明子类型，用于描述当前�
 **诊断标准**：在当前抑郁发作期间出现以下至少一项：
 
 1. **妄想**：坚定持有的错误信念，不受证据或逻辑影响
-2. **幻觉**：无外部刺激的感知体验（听觉、视觉、触觉等）
+1. **幻觉**：无外部刺激的感知体验（听觉、视觉、触觉等）
 
 精神病性特征可进一步分为：
 
 - **心境一致性精神病性特征**：精神病性症状的内容与抑郁主题一致
-    - 罪恶感妄想（如认为自己犯下不可饶恕的罪行）
-    - 虚无妄想（如认为自己的器官正在腐烂或消失）
-    - 躯体疾病妄想（如认为自己患有严重或不治之症）
-    - 贫穷妄想（如认为自己一贫如洗）
-    - 谴责性幻听（如听到声音批评、辱骂或命令自杀）
+  - 罪恶感妄想（如认为自己犯下不可饶恕的罪行）
+  - 虚无妄想（如认为自己的器官正在腐烂或消失）
+  - 躯体疾病妄想（如认为自己患有严重或不治之症）
+  - 贫穷妄想（如认为自己一贫如洗）
+  - 谴责性幻听（如听到声音批评、辱骂或命令自杀）
 - **心境不一致性精神病性特征**：精神病性症状的内容与抑郁主题无关
-    - 被害妄想（如认为有人要伤害自己）
-    - 关系妄想（如认为电视或报纸在传递针对自己的信息）
-    - 思维播散、思维插入或思维被夺
-    - 无情感内容的幻听
+  - 被害妄想（如认为有人要伤害自己）
+  - 关系妄想（如认为电视或报纸在传递针对自己的信息）
+  - 思维播散、思维插入或思维被夺
+  - 无情感内容的幻听
 
 **临床意义**：
 
@@ -149,7 +149,7 @@ DSM-5-TR 还包括以下说明子类型（简要介绍）：
 
 这些子类型在临床实践中用于指导治疗选择和预后评估。
 
----
+______________________________________________________________________
 
 ## 临床表现
 
@@ -157,7 +157,7 @@ DSM-5-TR 还包括以下说明子类型（简要介绍）：
 - **躯体与行为**：失眠或嗜睡、食欲改变、体重波动、疲劳、精神运动性激越或迟滞、躯体化症状（头痛、慢性疼痛）。
 - **特殊人群**：儿童与青少年可能表现为易怒、学业成绩下降、自伤行为；老年人可能以认知功能下降或躯体症状为主诉。
 
----
+______________________________________________________________________
 
 ## 解离机制与背景
 
@@ -165,7 +165,7 @@ DSM-5-TR 还包括以下说明子类型（简要介绍）：
 - **心理与社会**：儿童期创伤、重大丧失、慢性压力、负性认知模式、社会孤立与歧视增加 MDD 风险。
 - **多意识体系统**：内部冲突、前台成员负荷过重、创伤记忆未处理、成员间情绪隔离可加剧抑郁表现。
 
----
+______________________________________________________________________
 
 ## 流行病学与病程
 
@@ -173,7 +173,7 @@ DSM-5-TR 还包括以下说明子类型（简要介绍）：
 - **典型病程**：首次发病常在青春期或成年早期；约 50%–85% 的个体会经历复发性发作；未经治疗的单次发作通常持续 6–12 个月。
 - **预后**：早期治疗、社会支持充足者预后较好；慢性病程、多次复发、共病多者复原较慢。
 
----
+______________________________________________________________________
 
 ## 鉴别诊断
 
@@ -185,7 +185,7 @@ DSM-5-TR 还包括以下说明子类型（简要介绍）：
 - **物质相关障碍**：酒精、药物使用或戒断可导致抑郁样症状，见 [物质使用障碍](Substance-Use-Disorders-SUD.md)。
 - **医学状况**：甲状腺功能低下、贫血、维生素 D 缺乏、慢性疼痛可导致抑郁样症状。
 
----
+______________________________________________________________________
 
 ## 共病与风险管理
 
@@ -194,7 +194,7 @@ DSM-5-TR 还包括以下说明子类型（简要介绍）：
 - **功能损害**：工作/学业能力下降、社交退缩、自我照护困难。
 - **复发预防**：维持治疗可降低复发风险；识别早期预警信号（睡眠恶化、兴趣下降、负性思维增加）。
 
----
+______________________________________________________________________
 
 ## 治疗与支持
 
@@ -218,7 +218,7 @@ MDD 的治疗以 **药物治疗、心理治疗与综合策略** 为核心：
 - **生活方式干预**：规律运动、睡眠卫生、营养支持、光照疗法。
 - **社会支持**：同伴支持小组、家庭教育、工作/学业合理调整。
 
----
+______________________________________________________________________
 
 ## 社群与临床语境
 
@@ -226,7 +226,7 @@ MDD 的治疗以 **药物治疗、心理治疗与综合策略** 为核心：
 - **临床视角**：临床研究强调早期识别、综合治疗、长期管理与复发预防。
 - **多意识体系统**：需要内部沟通与角色协调，建立共同的自我照护计划。
 
----
+______________________________________________________________________
 
 ## 相关条目
 
@@ -250,16 +250,16 @@ MDD 的治疗以 **药物治疗、心理治疗与综合策略** 为核心：
 - [分裂情感性障碍（Schizoaffective Disorder）](Schizoaffective-Disorder.md)
 - [短暂精神病性障碍（Brief Psychotic Disorder）](Brief-Psychotic-Disorder.md)
 
----
+______________________________________________________________________
 
 ## 参考与延伸阅读
 
 1. World Health Organization. (2019/2022). *ICD-11 for Mortality and Morbidity Statistics*.
-2. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.)*.
-3. Kessler, R. C., et al. (2012). The epidemiology of major depressive disorder. *Dialogues in Clinical Neuroscience*, 14(1), 7–20.
-4. Cuijpers, P., et al. (2021). The efficacy of psychotherapy and pharmacotherapy in treating depressive and anxiety disorders. *World Psychiatry*, 20(2), 316–336.
-5. Malhi, G. S., & Mann, J. J. (2018). Depression. *The Lancet*, 392(10161), 2299–2312.
-6. American Psychiatric Association. (2022). *DSM-5-TR*, pp. 186–188.
-7. Zimmerman, M., et al. (2019). The prevalence of DSM-5 anxiety disorders in psychiatric outpatients. *Comprehensive Psychiatry*, 94, 152115.
-8. Rothschild, A. J. (2013). Challenges in the treatment of major depressive disorder with psychotic features. *Schizophrenia Bulletin*, 39(4), 787–796.
-9. Gaudiano, B. A., et al. (2008). Prevalence and clinical characteristics of psychotic versus nonpsychotic major depression in a general psychiatric outpatient clinic. *Depression and Anxiety*, 25(7), 594–600.
+1. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.)*.
+1. Kessler, R. C., et al. (2012). The epidemiology of major depressive disorder. *Dialogues in Clinical Neuroscience*, 14(1), 7–20.
+1. Cuijpers, P., et al. (2021). The efficacy of psychotherapy and pharmacotherapy in treating depressive and anxiety disorders. *World Psychiatry*, 20(2), 316–336.
+1. Malhi, G. S., & Mann, J. J. (2018). Depression. *The Lancet*, 392(10161), 2299–2312.
+1. American Psychiatric Association. (2022). *DSM-5-TR*, pp. 186–188.
+1. Zimmerman, M., et al. (2019). The prevalence of DSM-5 anxiety disorders in psychiatric outpatients. *Comprehensive Psychiatry*, 94, 152115.
+1. Rothschild, A. J. (2013). Challenges in the treatment of major depressive disorder with psychotic features. *Schizophrenia Bulletin*, 39(4), 787–796.
+1. Gaudiano, B. A., et al. (2008). Prevalence and clinical characteristics of psychotic versus nonpsychotic major depression in a general psychiatric outpatient clinic. *Depression and Anxiety*, 25(7), 594–600.

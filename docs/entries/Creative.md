@@ -2,16 +2,16 @@
 title: 创造者（Creative）
 tags:
 
-    - 角色与身份
-    - 多重意识体
+  - 角色与身份
+  - 多重意识体
 
 topic: 角色与身份
 synonyms:
 
-    - 创造者
-    - Creative
-    - 艺术家成员
-    - Artist Alter
+  - 创造者
+  - Creative
+  - 艺术家成员
+  - Artist Alter
 
 description: 专注艺术、写作、音乐等创造性活动的系统成员，拥有独特的审美视角与表达风格
 updated: 2025-10-17
@@ -93,9 +93,9 @@ comments: true
 ### 为创造者成员提供支持
 
 1. **时间保障**：在日程中预留固定的创作时段,避免持续压抑创作冲动。
-2. **空间准备**：维护专门的创作空间,确保工具、材料随时可用。
-3. **减少干扰**：在创作期间最小化内部打断,尊重心流状态。
-4. **作品保存**：建立档案系统（实体或数字）,保护作品不被意外丢弃。
+1. **空间准备**：维护专门的创作空间,确保工具、材料随时可用。
+1. **减少干扰**：在创作期间最小化内部打断,尊重心流状态。
+1. **作品保存**：建立档案系统（实体或数字）,保护作品不被意外丢弃。
 
 ### 处理创作中的挑战
 
@@ -155,5 +155,5 @@ comments: true
 
 ## 参考资料
 
-[^pluralpedia-creative]: Pluralpedia. (2024). [Creative](https://pluralpedia.org/w/Creative).
-[^pennebaker1997]: Pennebaker, J. W. (1997). Writing about emotional experiences as a therapeutic process. *Psychological Science*, 8(3), 162–166.
+\[^pluralpedia-creative\]: Pluralpedia. (2024). [Creative](https://pluralpedia.org/w/Creative).
+\[^pennebaker1997\]: Pennebaker, J. W. (1997). Writing about emotional experiences as a therapeutic process. *Psychological Science*, 8(3), 162–166.

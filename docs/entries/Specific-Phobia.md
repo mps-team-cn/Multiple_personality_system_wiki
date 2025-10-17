@@ -1,21 +1,21 @@
 ---
 tags:
 
-- 诊断与临床
-- 焦虑
-- 恐惧症
+  - 诊断与临床
+  - 焦虑
+  - 恐惧症
 
 topic: 诊断与临床
 title: 特定恐惧症(Specific Phobia, SP)
 updated: 2025-10-14
 synonyms:
 
-- 特定恐惧症
-- Specific Phobia
-- SP
-- 单纯性恐惧症
-- Simple Phobia
-- teding kongjuzheng
+  - 特定恐惧症
+  - Specific Phobia
+  - SP
+  - 单纯性恐惧症
+  - Simple Phobia
+  - teding kongjuzheng
 
 comments: true
 ---
@@ -23,10 +23,10 @@ comments: true
 # 特定恐惧症(Specific Phobia, SP)
 
 !!! warning "触发警告"
-    内容涉及恐惧、焦虑、回避行为等敏感议题,阅读时请留意自身状态。
+内容涉及恐惧、焦虑、回避行为等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
 **特定恐惧症可能引发强烈的恐惧反应与回避行为,请在安全环境中阅读并准备适当的自我安抚策略。**
 
@@ -56,19 +56,19 @@ _若特定恐惧显著影响日常生活、工作或社交功能,请尽快联系
 
 - DSM-5-TR(300.29)要求对特定对象或情境的恐惧持续至少6个月,几乎总是引发焦虑,且个体回避或在强烈痛苦中忍受。[^apa2022sp]
 - 需标注 **恐惧类型**:
-    - **动物型**(Animal, 如蜘蛛、昆虫、狗)
-    - **自然环境型**(Natural environment, 如高度、暴风雨、水)
-    - **血液-注射-损伤型**(Blood-injection-injury, 如看到血液、打针、医疗程序)
-    - **情境型**(Situational, 如飞机、电梯、封闭空间)
-    - **其他型**(Other, 如窒息、呕吐、噪音、卡通人物等)
+  - **动物型**(Animal, 如蜘蛛、昆虫、狗)
+  - **自然环境型**(Natural environment, 如高度、暴风雨、水)
+  - **血液-注射-损伤型**(Blood-injection-injury, 如看到血液、打针、医疗程序)
+  - **情境型**(Situational, 如飞机、电梯、封闭空间)
+  - **其他型**(Other, 如窒息、呕吐、噪音、卡通人物等)
 - 症状需与发展阶段、文化背景、实际威胁(如曾被狗咬伤)不相称。
 
 ### DSM-5-TR 与 ICD-11 差异
 
-| 重点 | DSM-5-TR | ICD-11 |
-| --- | --- | --- |
-| 持续时间 | 至少6个月 | 通常数月(更灵活) |
-| 分类标注 | 明确标注5种恐惧类型 | 可描述恐惧对象但无强制分类 |
+| 重点     | DSM-5-TR                        | ICD-11                     |
+| -------- | ------------------------------- | -------------------------- |
+| 持续时间 | 至少6个月                       | 通常数月(更灵活)           |
+| 分类标注 | 明确标注5种恐惧类型             | 可描述恐惧对象但无强制分类 |
 | 核心特征 | 对特定对象/情境的过度恐惧与回避 | 对特定刺激的持续恐惧与回避 |
 
 ## 症状表现
@@ -114,9 +114,9 @@ _若特定恐惧显著影响日常生活、工作或社交功能,请尽快联系
 
 - **常见对象**:看到血液、打针、抽血、手术、牙科治疗、看到他人受伤。
 - **特点**:
-    - **独特生理反应**:迷走神经反应导致心率和血压先升高后下降,可能导致昏厥(约75% BII恐惧症患者有昏厥史)。[^apa2022sp]
-    - 高度家族聚集性(约60-70%有家族史)。[^apa2022sp]
-    - 可能严重影响医疗依从性,导致推迟必要的医疗检查、疫苗接种、手术等。
+  - **独特生理反应**:迷走神经反应导致心率和血压先升高后下降,可能导致昏厥(约75% BII恐惧症患者有昏厥史)。[^apa2022sp]
+  - 高度家族聚集性(约60-70%有家族史)。[^apa2022sp]
+  - 可能严重影响医疗依从性,导致推迟必要的医疗检查、疫苗接种、手术等。
 - **影响**:健康风险显著,可能导致慢性疾病管理不良、急诊延误。
 
 ### 4. 情境型(Situational)
@@ -145,10 +145,10 @@ _若特定恐惧显著影响日常生活、工作或社交功能,请尽快联系
 - **流行率**:终身患病率约 **7-9%**,12个月患病率约 **5-7%**。[^nimh2024sp]
 - **性别分布**:女性约为男性的2倍;但某些类型(如情境型)性别差异较小。[^apa2022sp]
 - **年龄特征**:
-    - **动物型**:通常在儿童早期(5-9岁)起病。
-    - **自然环境型**:通常在儿童期起病。
-    - **血液-注射-损伤型**:通常在儿童早期或青少年期起病。
-    - **情境型**:双峰分布(儿童期和20多岁)。[^apa2022sp]
+  - **动物型**:通常在儿童早期(5-9岁)起病。
+  - **自然环境型**:通常在儿童期起病。
+  - **血液-注射-损伤型**:通常在儿童早期或青少年期起病。
+  - **情境型**:双峰分布(儿童期和20多岁)。[^apa2022sp]
 - **病程**:通常慢性且持久;儿童期起病的恐惧症可能在青少年期自行缓解,但成年期起病者症状常持续数十年;暴露治疗有效率高达80-90%。[^nice2022sp]
 - **功能受损**:取决于恐惧对象的日常遭遇频率;如恐蛇者住城市可能影响小,但怕飞行者职业发展可能严重受限。
 
@@ -167,12 +167,12 @@ _若特定恐惧显著影响日常生活、工作或社交功能,请尽快联系
 ### 常见共病
 
 - **核心共病**
-    - [其他焦虑障碍（Anxiety）](Anxiety-Disorders.md):约60%与其他焦虑障碍共病,尤其是[社交焦虑障碍（SAD）](Social-Anxiety-Disorder.md)、[广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md)。
-    - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md):约30%共病,常继发于长期回避与功能受损。
-    - [惊恐障碍（Panic Disorder）](Panic-Disorder.md):情境型特定恐惧症与惊恐障碍有显著重叠。
+  - [其他焦虑障碍（Anxiety）](Anxiety-Disorders.md):约60%与其他焦虑障碍共病,尤其是[社交焦虑障碍（SAD）](Social-Anxiety-Disorder.md)、[广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md)。
+  - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md):约30%共病,常继发于长期回避与功能受损。
+  - [惊恐障碍（Panic Disorder）](Panic-Disorder.md):情境型特定恐惧症与惊恐障碍有显著重叠。
 - **其他共病**
-    - [物质使用障碍（SUD）](Substance-Use-Disorders-SUD.md):部分个体使用酒精或药物缓解恐惧(如飞行前饮酒)。
-    - [进食障碍（ED）](Eating-Disorders-ED.md):恐吐症与进食障碍有显著关联。
+  - [物质使用障碍（SUD）](Substance-Use-Disorders-SUD.md):部分个体使用酒精或药物缓解恐惧(如飞行前饮酒)。
+  - [进食障碍（ED）](Eating-Disorders-ED.md):恐吐症与进食障碍有显著关联。
 
 ### 风险管理重点
 
@@ -188,24 +188,24 @@ _若特定恐惧显著影响日常生活、工作或社交功能,请尽快联系
 **循证心理治疗**:
 
 1. **暴露治疗(Exposure Therapy)**:[^nice2022sp]
-    - **现实生活暴露(In Vivo Exposure)**:系统性脱敏,逐步接触恐惧对象/情境(如怕狗者从看狗照片→远处看狗→近距离看狗→触摸温顺的狗)。
-    - **虚拟现实暴露(Virtual Reality Exposure, VRE)**:用于飞行恐惧、恐高症等,安全且可控。
-    - **想象暴露(Imaginal Exposure)**:在暴露困难时使用(如恐暴风雨)。
-    - **单次暴露(One-Session Treatment)**:对某些恐惧症(如动物型、BII型)有效,单次3小时暴露治疗有效率达70-90%。[^apa2022sp]
-2. **认知行为疗法(CBT)**:
-    - 识别与挑战灾难化思维("蜘蛛会咬我""我会掉下去")。
-    - 教育恐惧对象的实际风险(如大多数蜘蛛无毒)。
-    - 减少安全行为与回避。
-3. **应用性张力技术(Applied Tension)**:[^apa2022sp]
-    - **专用于BII型恐惧症**:教导患者在暴露前后反复收紧肌肉(如大腿、手臂、躯干)以升高血压,预防昏厥。
-    - 有效率约70-80%,可在短期(5-6次)内完成。
+   - **现实生活暴露(In Vivo Exposure)**:系统性脱敏,逐步接触恐惧对象/情境(如怕狗者从看狗照片→远处看狗→近距离看狗→触摸温顺的狗)。
+   - **虚拟现实暴露(Virtual Reality Exposure, VRE)**:用于飞行恐惧、恐高症等,安全且可控。
+   - **想象暴露(Imaginal Exposure)**:在暴露困难时使用(如恐暴风雨)。
+   - **单次暴露(One-Session Treatment)**:对某些恐惧症(如动物型、BII型)有效,单次3小时暴露治疗有效率达70-90%。[^apa2022sp]
+1. **认知行为疗法(CBT)**:
+   - 识别与挑战灾难化思维("蜘蛛会咬我""我会掉下去")。
+   - 教育恐惧对象的实际风险(如大多数蜘蛛无毒)。
+   - 减少安全行为与回避。
+1. **应用性张力技术(Applied Tension)**:[^apa2022sp]
+   - **专用于BII型恐惧症**:教导患者在暴露前后反复收紧肌肉(如大腿、手臂、躯干)以升高血压,预防昏厥。
+   - 有效率约70-80%,可在短期(5-6次)内完成。
 
 ### 药物治疗
 
 - **一般不推荐**:特定恐惧症对药物反应不如其他焦虑障碍,暴露治疗为首选。[^nice2022sp]
 - **短期辅助**:
-    - **β-受体阻滞剂**(如普萘洛尔, propranolol):可在暴露前服用以减少心悸、颤抖等躯体症状,但不改变恐惧认知。
-    - **苯二氮䓬类**(如劳拉西泮):仅短期使用(如飞行前),但可能干扰暴露治疗的学习过程,长期使用有依赖风险。
+  - **β-受体阻滞剂**(如普萘洛尔, propranolol):可在暴露前服用以减少心悸、颤抖等躯体症状,但不改变恐惧认知。
+  - **苯二氮䓬类**(如劳拉西泮):仅短期使用(如飞行前),但可能干扰暴露治疗的学习过程,长期使用有依赖风险。
 - **不推荐SSRIs/SNRIs**:对特定恐惧症疗效有限,仅在共病抑郁或其他焦虑障碍时考虑。
 
 ### 自助与社区资源
@@ -235,10 +235,10 @@ _若特定恐惧显著影响日常生活、工作或社交功能,请尽快联系
 
 ## 参考与延伸阅读
 
-[^apa2022sp]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.). American Psychiatric Publishing.
+\[^apa2022sp\]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.). American Psychiatric Publishing.
 
-[^who2023sp]: World Health Organization. (2023). _ICD-11 for Mortality and Morbidity Statistics: Specific phobia (6B03)._ [https://icd.who.int/en](https://icd.who.int/en)
+\[^who2023sp\]: World Health Organization. (2023). _ICD-11 for Mortality and Morbidity Statistics: Specific phobia (6B03)._ [https://icd.who.int/en](https://icd.who.int/en)
 
-[^nice2022sp]: National Institute for Health and Care Excellence. (2022). _Anxiety disorders (QS53)._ [https://www.nice.org.uk/guidance/qs53](https://www.nice.org.uk/guidance/qs53)
+\[^nice2022sp\]: National Institute for Health and Care Excellence. (2022). _Anxiety disorders (QS53)._ [https://www.nice.org.uk/guidance/qs53](https://www.nice.org.uk/guidance/qs53)
 
-[^nimh2024sp]: National Institute of Mental Health. (2024). _Anxiety Disorders._ [https://www.nimh.nih.gov/health/topics/anxiety-disorders](https://www.nimh.nih.gov/health/topics/anxiety-disorders)
+\[^nimh2024sp\]: National Institute of Mental Health. (2024). _Anxiety Disorders._ [https://www.nimh.nih.gov/health/topics/anxiety-disorders](https://www.nimh.nih.gov/health/topics/anxiety-disorders)

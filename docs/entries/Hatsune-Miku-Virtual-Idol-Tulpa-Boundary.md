@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 文化与表现
-- 多重意识体
-- 解离
-- 创伤
+  - 文化与表现
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 文化与表现
 title: 虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）

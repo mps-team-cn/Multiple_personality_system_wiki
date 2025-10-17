@@ -3,17 +3,17 @@ title: 癫痫（Epilepsy）
 topic: 诊断与临床
 tags:
 
-    - 诊断与临床
-    - 神经系统
-    - 共病
-    - 系统支持
+  - 诊断与临床
+  - 神经系统
+  - 共病
+  - 系统支持
 
 updated: 2025-10-14
 synonyms:
 
-    - 癫痫
-    - 群发性癫痫
-    - Epilepsy
+  - 癫痫
+  - 群发性癫痫
+  - Epilepsy
 
 comments: true
 ---
@@ -21,10 +21,10 @@ comments: true
 # 癫痫（Epilepsy）
 
 !!! warning "触发警告"
-    本文提及惊厥、意识丧失、医疗急症等内容，可能引发不适或创伤联想。
+本文提及惊厥、意识丧失、医疗急症等内容，可能引发不适或创伤联想。
 
 !!! info "免责声明"
-    本站资料仅供教育用途，不替代专业诊断与治疗。出现急性发作时请立即寻求医疗救助。
+本站资料仅供教育用途，不替代专业诊断与治疗。出现急性发作时请立即寻求医疗救助。
 
 ## 概述
 
@@ -44,7 +44,7 @@ DSM-5-TR 在「其他可能影响精神状态的医学状况」及「神经系�
 
 ### ICD-11 分类对应
 
-- 以 8A6* 系列编码区分原发与继发癫痫、特定综合征与病因。
+- 以 8A6\* 系列编码区分原发与继发癫痫、特定综合征与病因。
 - 强调以发作类型、诱因、年龄起病与神经影像来决定亚型及治疗策略。[^who2023ep]
 
 ### ILAE 核心要素
@@ -65,15 +65,15 @@ DSM-5-TR 在「其他可能影响精神状态的医学状况」及「神经系�
 ## 治疗策略
 
 1. **药物治疗**
-    - 一线药物包括左乙拉西坦、拉莫三嗪、丙戊酸钠等，需根据发作类型与性别、生育计划选择。[^aan2020]
-    - 强调规律服药与血药浓度监测，避免突然停药导致反跳性癫痫持续状态。
-2. **非药物干预**
-    - 迷走神经刺激（VNS）、响应性神经刺激（RNS）或深部脑刺激（DBS）适用于药物难治性癫痫。
-    - 生酮饮食在部分儿童与成人病例中有效，但需营养师与医师共同管理。
-    - 针对共病抑郁、焦虑或创伤经历，可考虑 [认知行为疗法（CBT）](Cognitive-Behavioral-Therapy-CBT.md)、接受与承诺疗法（ACT）或家庭介入，协助提升生活质量与用药依从性。
-3. **急性处置**
-    - 发作超过 5 分钟或频繁发作应视为医疗急症，可使用速效苯二氮䓬类（如咪达唑仑口腔喷雾）。
-    - 系统内部需明确谁负责拨打急救电话、记录发作时长与诱因。
+   - 一线药物包括左乙拉西坦、拉莫三嗪、丙戊酸钠等，需根据发作类型与性别、生育计划选择。[^aan2020]
+   - 强调规律服药与血药浓度监测，避免突然停药导致反跳性癫痫持续状态。
+1. **非药物干预**
+   - 迷走神经刺激（VNS）、响应性神经刺激（RNS）或深部脑刺激（DBS）适用于药物难治性癫痫。
+   - 生酮饮食在部分儿童与成人病例中有效，但需营养师与医师共同管理。
+   - 针对共病抑郁、焦虑或创伤经历，可考虑 [认知行为疗法（CBT）](Cognitive-Behavioral-Therapy-CBT.md)、接受与承诺疗法（ACT）或家庭介入，协助提升生活质量与用药依从性。
+1. **急性处置**
+   - 发作超过 5 分钟或频繁发作应视为医疗急症，可使用速效苯二氮䓬类（如咪达唑仑口腔喷雾）。
+   - 系统内部需明确谁负责拨打急救电话、记录发作时长与诱因。
 
 ## 生活与自我管理
 
@@ -84,8 +84,8 @@ DSM-5-TR 在「其他可能影响精神状态的医学状况」及「神经系�
 
 ## 参考资料
 
-[^ilae2022]: International League Against Epilepsy. “Definition and Classification of Epilepsy Syndromes.” 2022 Update.
-[^who2023ep]: World Health Organization. *ICD-11 for Mortality and Morbidity Statistics*. Geneva: WHO, 2023.
-[^thapar2022]: Thapar A, et al. “Comorbidities of Epilepsy: Current Concepts and Future Perspectives.” *The Lancet Child & Adolescent Health*, 2022.
-[^aan2020]: Krumholz A, et al. “Evidence-Based Guideline: Management of an Unprovoked First Seizure in Adults.” American Academy of Neurology, 2020.
-[^apa2022epi]: American Psychiatric Association. “Neurological Disorders.” In *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.)*. Washington, DC: APA Publishing, 2022.
+\[^ilae2022\]: International League Against Epilepsy. “Definition and Classification of Epilepsy Syndromes.” 2022 Update.
+\[^who2023ep\]: World Health Organization. *ICD-11 for Mortality and Morbidity Statistics*. Geneva: WHO, 2023.
+\[^thapar2022\]: Thapar A, et al. “Comorbidities of Epilepsy: Current Concepts and Future Perspectives.” *The Lancet Child & Adolescent Health*, 2022.
+\[^aan2020\]: Krumholz A, et al. “Evidence-Based Guideline: Management of an Unprovoked First Seizure in Adults.” American Academy of Neurology, 2020.
+\[^apa2022epi\]: American Psychiatric Association. “Neurological Disorders.” In *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.)*. Washington, DC: APA Publishing, 2022.

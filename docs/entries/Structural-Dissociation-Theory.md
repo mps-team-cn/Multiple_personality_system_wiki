@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 系统运作
-- 解离
-- ANP
-- EP
+  - 系统运作
+  - 解离
+  - ANP
+  - EP
 
 topic: 系统运作
 title: 结构性解离理论（Theory of Structural Dissociation）
@@ -17,10 +17,10 @@ comments: true
 # 结构性解离理论（Theory of Structural Dissociation）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
 ## 概述
 
@@ -35,16 +35,16 @@ comments: true
 ## 分级模型
 
 1. **一级结构性解离** ：出现单一 ANP 与单一 EP，多见于 PTSD；症状包含闪回、惊恐与短暂解离。
-2. **二级结构性解离** ：多个 EP 与单一 ANP，常见于复杂性创伤后应激障碍（CPTSD）或某些躯体化障碍，表现为交替的情绪状态与记忆断裂。
-3. **三级结构性解离** ：多个 ANP 与多个 EP，对应解离性身份障碍（DID）或部分解离性身份障碍（PDID）；前台可能由不同 ANP 轮值，各自持有生活片段[^结构性解离-1]。
+1. **二级结构性解离** ：多个 EP 与单一 ANP，常见于复杂性创伤后应激障碍（CPTSD）或某些躯体化障碍，表现为交替的情绪状态与记忆断裂。
+1. **三级结构性解离** ：多个 ANP 与多个 EP，对应解离性身份障碍（DID）或部分解离性身份障碍（PDID）；前台可能由不同 ANP 轮值，各自持有生活片段[^结构性解离-1]。
 
 ## 治疗阶段模型
 
 结构性解离理论倡导“三阶段治疗”路径：
 
 1. **稳定化与安全** ：建立接地技巧、内部沟通与危机计划，强化 ANP 的调节能力。
-2. **创伤加工** ：在充分安全的前提下逐步处理创伤记忆，可使用 EMDR、想象历史修正、叙事整合等方法。
-3. **整合与重建生活** ：支持 ANP 与 EP 的合作、角色重整与生活目标规划，尊重系统对融合或共存的自主选择[^结构性解离-3]。
+1. **创伤加工** ：在充分安全的前提下逐步处理创伤记忆，可使用 EMDR、想象历史修正、叙事整合等方法。
+1. **整合与重建生活** ：支持 ANP 与 EP 的合作、角色重整与生活目标规划，尊重系统对融合或共存的自主选择[^结构性解离-3]。
 
 ## 与多意识社群的连接
 
@@ -71,7 +71,7 @@ comments: true
 
 ## 参考资料
 
-[^结构性解离-1]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton & Company.
-[^结构性解离-2]: Nijenhuis, E. R. S. (2015). *The Trinity of Trauma: Ignorance, Fragility, and Control*. Vandenhoeck & Ruprecht.
-[^结构性解离-3]: Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating Trauma-Related Dissociation: A Practical, Integrative Approach*. W. W. Norton & Company.
-[^结构性解离-4]: Pluralpedia. (2024). Median Systems. 检索于 2025-08-20，来自 [https://pluralpedia.org](https://pluralpedia.org).
+\[^结构性解离-1\]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton & Company.
+\[^结构性解离-2\]: Nijenhuis, E. R. S. (2015). *The Trinity of Trauma: Ignorance, Fragility, and Control*. Vandenhoeck & Ruprecht.
+\[^结构性解离-3\]: Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating Trauma-Related Dissociation: A Practical, Integrative Approach*. W. W. Norton & Company.
+\[^结构性解离-4\]: Pluralpedia. (2024). Median Systems. 检索于 2025-08-20，来自 [https://pluralpedia.org](https://pluralpedia.org).

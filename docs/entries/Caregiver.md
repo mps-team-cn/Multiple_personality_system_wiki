@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
+  - 角色与身份
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 角色与身份
 description: 照顾者（Caregiver）成员的角色与功能。理解内部照护系统、照顾者如何支持其他成员及避免过度照顾导致的耗竭
@@ -47,10 +47,10 @@ comments: true
 - ISSTD 指南鼓励在稳定阶段培养自我安抚与互相照顾的能力。[^isstd2011]
 - 社群指南提供照顾者轮班、记录需求的实务建议。[^thepluralassociation2021]
 
-[^boon2011]: Boon, S., Steele, K., & Van der Hart, O. (2011). *Coping with trauma-related dissociation: Skills training for patients and therapists*. W. W. Norton & Company.
-[^howell2011]: Howell, E. F. (2011). *The dissociative mind*. Routledge.
-[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for treating dissociative identity disorder in adults, third revision*. Journal of Trauma & Dissociation, 12(2), 115–187.
-[^thepluralassociation2021]: The Plural Association. (2021). *Community guidelines for plural well-being*. The Plural Association.
+\[^boon2011\]: Boon, S., Steele, K., & Van der Hart, O. (2011). *Coping with trauma-related dissociation: Skills training for patients and therapists*. W. W. Norton & Company.
+\[^howell2011\]: Howell, E. F. (2011). *The dissociative mind*. Routledge.
+\[^isstd2011\]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for treating dissociative identity disorder in adults, third revision*. Journal of Trauma & Dissociation, 12(2), 115–187.
+\[^thepluralassociation2021\]: The Plural Association. (2021). *Community guidelines for plural well-being*. The Plural Association.
 
 ## 相关条目
 

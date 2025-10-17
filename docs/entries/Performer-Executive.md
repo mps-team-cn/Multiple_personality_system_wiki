@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
+  - 角色与身份
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 角色与身份
 title: 执行者（Performer / Executive）
@@ -45,10 +45,10 @@ comments: true
 - Steele 等人讨论在治疗中尊重高功能成员的贡献，同时协助他们接触情绪内容。[^steele2017]
 - 社群指南记录任务管理工具（如共享日历、看板）在系统分工中的实践。[^thepluralassociation2021]
 
-[^boon2011]: Boon, S., Steele, K., & Van der Hart, O. (2011). *Coping with trauma-related dissociation: Skills training for patients and therapists*. W. W. Norton & Company.
-[^steele2017]: Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating trauma-related dissociation: A practical, integrative approach*. W. W. Norton & Company.
-[^thepluralassociation2021]: The Plural Association. (2021). *Community guidelines for plural well-being*. The Plural Association.
-[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for treating dissociative identity disorder in adults, third revision*. Journal of Trauma & Dissociation, 12(2), 115–187.
+\[^boon2011\]: Boon, S., Steele, K., & Van der Hart, O. (2011). *Coping with trauma-related dissociation: Skills training for patients and therapists*. W. W. Norton & Company.
+\[^steele2017\]: Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating trauma-related dissociation: A practical, integrative approach*. W. W. Norton & Company.
+\[^thepluralassociation2021\]: The Plural Association. (2021). *Community guidelines for plural well-being*. The Plural Association.
+\[^isstd2011\]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for treating dissociative identity disorder in adults, third revision*. Journal of Trauma & Dissociation, 12(2), 115–187.
 
 ## 相关条目
 

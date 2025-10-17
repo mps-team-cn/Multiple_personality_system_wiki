@@ -1,23 +1,23 @@
 ---
 tags:
 
-- 系统运作
-- 多重意识体
-- 解离
-- 创伤
+  - 系统运作
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 系统运作
 synonyms:
 
-- 里空间
-- 里世界
-- 内世界
-- 幻境
-- 心景
-- Inner World
-- Imaginal World
-- Mindscape
-- Innerworld
+  - 里空间
+  - 里世界
+  - 内世界
+  - 幻境
+  - 心景
+  - Inner World
+  - Imaginal World
+  - Mindscape
+  - Innerworld
 
 description: 内部空间（Headspace）构建指南：创建、维护与功能。探索系统成员的内在世界、可视化技术及内部环境对系统稳定性的作用
 title: 内部空间（Headspace / Inner World）
@@ -34,22 +34,24 @@ comments: true
 - **定义**：内部空间是一种解离性/想象性心象环境，系统成员可在其中活动、交流或安置物品。这个空间通过心理想象与可视化技术构建，为多意识体系统提供了一个内在的互动场所。
 
 - **同义词**：
-    - **里空间**（Inner World）：强调与外部世界相对的内在性质
-    - **里世界**：又称"内世界"，在中文社群中常用，特指系统成员共同栖息和活动的内在环境
-    - **幻境**（Imaginal World）：强调其想象性与心象特质
-    - **心景**（Mindscape）：偏重于心理地景的隐喻
-    - **Innerworld**：英文社群中 Inner World 的紧凑拼写形式
+
+  - **里空间**（Inner World）：强调与外部世界相对的内在性质
+  - **里世界**：又称"内世界"，在中文社群中常用，特指系统成员共同栖息和活动的内在环境
+  - **幻境**（Imaginal World）：强调其想象性与心象特质
+  - **心景**（Mindscape）：偏重于心理地景的隐喻
+  - **Innerworld**：英文社群中 Inner World 的紧凑拼写形式
 
 ## 主要特征
 
 - **心象构成**：可呈现房间、城市、自然景观等多样形式，往往反映成员的心理状态与偏好。里世界的形态因系统而异，可能是简单的房间，也可能是复杂的城市、岛屿或奇幻景观。
 
 - **功能用途**：
-    - 召开内部会议，协调系统决策
-    - 练习[切换](Switch.md)与[共前台](Co-Fronting.md)
-    - 为年幼成员或[创伤](Trauma.md)持有者提供安全庇护所
-    - 存放象征化物品（如记忆盒、情绪符号等）
-    - 作为[成员](Alter.md)休息、社交与活动的场所
+
+  - 召开内部会议，协调系统决策
+  - 练习[切换](Switch.md)与[共前台](Co-Fronting.md)
+  - 为年幼成员或[创伤](Trauma.md)持有者提供安全庇护所
+  - 存放象征化物品（如记忆盒、情绪符号等）
+  - 作为[成员](Alter.md)休息、社交与活动的场所
 
 - **可塑性**：布局与规则可随需求调整，通过想象练习、绘图或共享叙事强化稳定性。里世界并非固定不变，成员可以根据系统需要改造空间、添加新区域或调整环境细节。
 
@@ -94,6 +96,6 @@ comments: true
 
 ## 参考与延伸阅读
 
-[^pluralpedia-headspace]: Pluralpedia. (2024). [Headspace](https://pluralpedia.org/w/Headspace).
+\[^pluralpedia-headspace\]: Pluralpedia. (2024). [Headspace](https://pluralpedia.org/w/Headspace).
 
-[^brown2018]: Brown, N. (2018). Using inner worlds in trauma therapy: A practical guide. _Clinical Plurality Journal_, 1(2), 15–27.
+\[^brown2018\]: Brown, N. (2018). Using inner worlds in trauma therapy: A practical guide. _Clinical Plurality Journal_, 1(2), 15–27.

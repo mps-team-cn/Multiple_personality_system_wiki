@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 角色与身份
-- DID
-- 多重意识体
-- 解离
+  - 角色与身份
+  - DID
+  - 多重意识体
+  - 解离
 
 topic: 角色与身份
 title: 内部自助者（Internal Self Helper，ISH）
@@ -45,7 +45,7 @@ comments: true
 
 ## 参考与延伸阅读
 
-[^ish-pluralpedia]: Pluralpedia. 2023. "Internal Self Helper." [https://pluralpedia.org/w/Internal_Self_Helper.](https://pluralpedia.org/w/Internal_Self_Helper.)
-[^allison1980]: Allison, R. B. 1980. "The Internal Self Helper Concept in Multiple Personality Disorder." *American Journal of Clinical Hypnosis* 22(4): 246–252.
-[^loewenstein1991]: Loewenstein, R. J. 1991. "An Office Mental Status Examination for Complex Chronic Dissociative Symptoms and Multiple Personality Disorder." *Psychiatric Clinics of North America* 14(3): 567–604.
-[^nijenhuis2015]: Nijenhuis, E. R. S., & van der Hart, O. 2015. *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.
+\[^ish-pluralpedia\]: Pluralpedia. 2023. "Internal Self Helper." [https://pluralpedia.org/w/Internal_Self_Helper.](https://pluralpedia.org/w/Internal_Self_Helper.)
+\[^allison1980\]: Allison, R. B. 1980. "The Internal Self Helper Concept in Multiple Personality Disorder." *American Journal of Clinical Hypnosis* 22(4): 246–252.
+\[^loewenstein1991\]: Loewenstein, R. J. 1991. "An Office Mental Status Examination for Complex Chronic Dissociative Symptoms and Multiple Personality Disorder." *Psychiatric Clinics of North America* 14(3): 567–604.
+\[^nijenhuis2015\]: Nijenhuis, E. R. S., & van der Hart, O. 2015. *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.

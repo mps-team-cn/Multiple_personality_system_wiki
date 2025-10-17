@@ -1,21 +1,21 @@
 ---
 tags:
 
-- 诊断与临床
-- GD
-- 性别认同
-- 创伤
+  - 诊断与临床
+  - GD
+  - 性别认同
+  - 创伤
 
 topic: 诊断与临床
 title: 性别不安（Gender Dysphoria，GD）
 updated: 2025-10-14
 synonyms:
 
-- 性别焦虑
-- 性别不一致
-- Gender Dysphoria
-- GD
-- xingbiebu'an
+  - 性别焦虑
+  - 性别不一致
+  - Gender Dysphoria
+  - GD
+  - xingbiebu'an
 
 comments: true
 ---
@@ -23,18 +23,18 @@ comments: true
 # 性别不安（Gender Dysphoria，GD）
 
 !!! warning "触发警告"
-    内容涉及性别认同、创伤、精神健康等敏感议题，阅读时请留意自身状态。
+内容涉及性别认同、创伤、精神健康等敏感议题，阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考，不构成医疗建议。若需诊断或治疗，请联系持证专业人员。
+本站资料仅供参考，不构成医疗建议。若需诊断或治疗，请联系持证专业人员。
 
----
+______________________________________________________________________
 
 ## 概述
 
 性别不安（Gender Dysphoria, GD）是指个体对于出生时指定性别（sex assigned at birth）与其自我体验的性别身份不一致而产生的 **持续痛苦、功能受损或社会适应困难**。GD 不是对跨性别身份的病理化，而是聚焦于由性别不一致性带来的痛苦与障碍。DSM-5-TR 将 GD 归为独立诊断章节，强调不同年龄群的评估要点；ICD-11 使用「性别不一致（Gender Incongruence）」术语，将其列在「性健康相关状况」之下，以减少污名化并强调支持性照护。
 
----
+______________________________________________________________________
 
 ## 诊断要点
 
@@ -63,7 +63,7 @@ comments: true
 
 DSM-5-TR 强调 GD 带来的痛苦与功能障碍，区分儿童与成人标准；ICD-11 使用去病理化术语「性别不一致」，聚焦于医疗照护需求而非精神病理。
 
----
+______________________________________________________________________
 
 ## 临床表现
 
@@ -75,7 +75,7 @@ DSM-5-TR 强调 GD 带来的痛苦与功能障碍，区分儿童与成人标准�
 
 症状的表现因年龄、文化背景与个人资源而异，儿童可能通过游戏与社交偏好表达，青少年与成人则更多涉及身体改造需求与社会角色协商。
 
----
+______________________________________________________________________
 
 ## 流行病学与病程
 
@@ -84,7 +84,7 @@ DSM-5-TR 强调 GD 带来的痛苦与功能障碍，区分儿童与成人标准�
 - **年龄特征**：症状可能在儿童期、青春期或成年期显现；部分人在早期即有清晰认知，部分人在中年后才确认身份。
 - **病程**：对多数人而言，性别不安是持续且稳定的；在支持性环境与肯认式照护下，痛苦程度可显著降低。
 
----
+______________________________________________________________________
 
 ## 鉴别诊断
 
@@ -93,22 +93,24 @@ DSM-5-TR 强调 GD 带来的痛苦与功能障碍，区分儿童与成人标准�
 - **精神病性障碍**：性别身份混乱可能在急性精神病发作中短暂出现，但缺乏持续性与稳定的自我认知。
 - **解离性身份障碍（DID）**：部分成员可能体验不同性别身份，需区分系统内性别多样性与 GD 的稳定性别认同需求。
 
----
+______________________________________________________________________
 
 ## 共病与风险管理
 
 ### 常见共病
 
 - **核心共病**
-    - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：持续性悲伤、绝望与兴趣丧失，常源于社会歧视、家庭拒绝与身份痛苦。
-    - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)及相关焦虑障碍：高度社会焦虑、惊恐发作与广泛性焦虑，与暴露风险、安全顾虑相关。
-    - [创伤后应激障碍（PTSD）](PTSD.md) / [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)：性别少数常遭遇歧视、霸凌、家庭拒绝或性别暴力，这些社会性创伤显著提高创伤相关障碍风险。
+
+  - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：持续性悲伤、绝望与兴趣丧失，常源于社会歧视、家庭拒绝与身份痛苦。
+  - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)及相关焦虑障碍：高度社会焦虑、惊恐发作与广泛性焦虑，与暴露风险、安全顾虑相关。
+  - [创伤后应激障碍（PTSD）](PTSD.md) / [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)：性别少数常遭遇歧视、霸凌、家庭拒绝或性别暴力，这些社会性创伤显著提高创伤相关障碍风险。
 
 - **其他常见共病**
-    - [物质使用障碍（Substance Use Disorders，SUD）](Substance-Use-Disorders-SUD.md)：部分人以物质缓解性别痛苦或应对歧视压力。
-    - [进食障碍（Eating Disorders，ED）](Eating-Disorders-ED.md)：对身体的控制需求可能通过饮食行为表达。
-    - [自闭症谱系障碍（Autism Spectrum Disorder，ASD）](Autism-Spectrum-Disorder.md)：性别不安在自闭症人群中的比例高于一般人群。
-    - [解离性身份障碍（DID）](DID.md)：部分系统成员可能体验不同性别身份，需区分系统内性别多样性与 GD 的稳定性别认同需求。
+
+  - [物质使用障碍（Substance Use Disorders，SUD）](Substance-Use-Disorders-SUD.md)：部分人以物质缓解性别痛苦或应对歧视压力。
+  - [进食障碍（Eating Disorders，ED）](Eating-Disorders-ED.md)：对身体的控制需求可能通过饮食行为表达。
+  - [自闭症谱系障碍（Autism Spectrum Disorder，ASD）](Autism-Spectrum-Disorder.md)：性别不安在自闭症人群中的比例高于一般人群。
+  - [解离性身份障碍（DID）](DID.md)：部分系统成员可能体验不同性别身份，需区分系统内性别多样性与 GD 的稳定性别认同需求。
 
 ### 风险管理重点
 
@@ -116,7 +118,7 @@ DSM-5-TR 强调 GD 带来的痛苦与功能障碍，区分儿童与成人标准�
 - **创伤知情照护**：医疗与心理服务应尊重自我认同、避免强迫性评估或不必要的身体检查，处理既有创伤与医疗恐惧。
 - **系统内协作**：对多意识体系统而言，可能存在不同成员对性别有差异化需求。通过内部沟通、共享计划与创伤知情照护，可协调医疗决策与社会表达。
 
----
+______________________________________________________________________
 
 ## 治疗与支持
 
@@ -125,11 +127,11 @@ GD 的照护通常遵循多层次、个别化的支持模式：
 ### 肯认式照护（Gender-Affirming Care）
 
 1. **社会转变**：使用与性别认同一致的姓名、代词、服装与社会角色，可在无需医疗干预的情况下缓解部分痛苦。
-2. **医疗干预**：
-    - 青春期抑制剂（适用于青少年）：暂停第二性征发育，为探索提供时间。
-    - 荷尔蒙替代疗法（HRT）：雌激素或睾酮治疗，促进期望的身体变化。
-    - 手术选项：包括胸部手术、性别确认手术等，需充分评估与知情同意。
-3. **个别化原则**：治疗应基于个人需求、健康状况、年龄与支持系统，评估风险与收益。
+1. **医疗干预**：
+   - 青春期抑制剂（适用于青少年）：暂停第二性征发育，为探索提供时间。
+   - 荷尔蒙替代疗法（HRT）：雌激素或睾酮治疗，促进期望的身体变化。
+   - 手术选项：包括胸部手术、性别确认手术等，需充分评估与知情同意。
+1. **个别化原则**：治疗应基于个人需求、健康状况、年龄与支持系统，评估风险与收益。
 
 ### 心理支持
 
@@ -143,7 +145,7 @@ GD 的照护通常遵循多层次、个别化的支持模式：
 - 关注身份证件变更、医疗保险覆盖、学校与职场保护政策。
 - 危机应对计划：面对歧视或暴力风险时，准备避难网络与心理调节工具。
 
----
+______________________________________________________________________
 
 ## 社群与临床语境
 
@@ -152,7 +154,7 @@ GD 的照护通常遵循多层次、个别化的支持模式：
 - **去污名化**：强调 GD 聚焦于痛苦而非跨性别身份本身，支持性环境与肯认式照护可显著改善生活质量。
 - **文化敏感性**：性别体验与表达受文化、宗教、种族背景影响，需在多元框架下理解与支持。
 
----
+______________________________________________________________________
 
 ## 相关条目
 
@@ -179,7 +181,7 @@ GD 的照护通常遵循多层次、个别化的支持模式：
 ## 参考与延伸阅读
 
 1. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.).*
-2. World Health Organization. (2019). *ICD-11 for Mortality and Morbidity Statistics.*
-3. WPATH. (2022). *Standards of Care for the Health of Transgender and Gender Diverse People, Version 8.*
-4. Turban, J. L., & Ehrensaft, D. (2018). Gender identity and incongruence in youth. *Child and Adolescent Psychiatric Clinics of North America*, 27(4), 593–608.
-5. Colizzi, M., Costa, R., & Todarello, O. (2015). Transsexual patients’ psychiatric comorbidity and positive effect of cross-sex hormonal treatment on mental health: Results from a longitudinal study. *Psychoneuroendocrinology*, 72, 119–126.
+1. World Health Organization. (2019). *ICD-11 for Mortality and Morbidity Statistics.*
+1. WPATH. (2022). *Standards of Care for the Health of Transgender and Gender Diverse People, Version 8.*
+1. Turban, J. L., & Ehrensaft, D. (2018). Gender identity and incongruence in youth. *Child and Adolescent Psychiatric Clinics of North America*, 27(4), 593–608.
+1. Colizzi, M., Costa, R., & Todarello, O. (2015). Transsexual patients’ psychiatric comorbidity and positive effect of cross-sex hormonal treatment on mental health: Results from a longitudinal study. *Psychoneuroendocrinology*, 72, 119–126.

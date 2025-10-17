@@ -2,17 +2,17 @@
 title: 成年成员（Adult Alter）
 tags:
 
-    - 角色与身份
-    - 多重意识体
-    - 发展阶段
+  - 角色与身份
+  - 多重意识体
+  - 发展阶段
 
 topic: 角色与身份
 synonyms:
 
-    - 成年成员
-    - Adult Alter
-    - 成年人格
-    - Adult Part
+  - 成年成员
+  - Adult Alter
+  - 成年人格
+  - Adult Part
 
 description: 年龄感与生理年龄接近或超过的系统成员，通常承担日常决策与责任管理
 updated: 2025-10-17
@@ -104,9 +104,9 @@ comments: true
 ### 支持成年成员的健康
 
 1. **工作与生活平衡**：确保成年成员有足够的休息、娱乐与个人空间。
-2. **情感表达空间**：鼓励其表达脆弱、疲惫或不确定,而非始终维持"坚强"形象。
-3. **技能发展**：支持成年成员学习新技能、追求兴趣或职业发展。
-4. **社交需求**：满足其成年人际关系需求,如深度友谊、恋爱关系或智力交流。
+1. **情感表达空间**：鼓励其表达脆弱、疲惫或不确定,而非始终维持"坚强"形象。
+1. **技能发展**：支持成年成员学习新技能、追求兴趣或职业发展。
+1. **社交需求**：满足其成年人际关系需求,如深度友谊、恋爱关系或智力交流。
 
 ### 避免过度依赖
 
@@ -166,5 +166,5 @@ comments: true
 
 ## 参考资料
 
-[^pluralpedia-adult]: Pluralpedia. (2024). [Adult](https://pluralpedia.org/w/Adult).
-[^vanderhart2006]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.
+\[^pluralpedia-adult\]: Pluralpedia. (2024). [Adult](https://pluralpedia.org/w/Adult).
+\[^vanderhart2006\]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.

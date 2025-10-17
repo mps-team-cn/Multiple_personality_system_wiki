@@ -1,10 +1,10 @@
 ---
 tags:
 
-    - 系统运作
-    - 多重意识体
-    - 解离
-    - 创伤
+  - 系统运作
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 系统运作
 title: 共前台（Co-fronting）
@@ -34,13 +34,13 @@ comments: true
 ## 何时考虑 / 何时不建议
 
 - **可考虑** ：
-    - 外部任务复杂、需要 **互补技能** （如一人语言输出、一人情绪调节/信息检索/环境监护）；
-    - 训练安全切换并希望平滑过渡；
-    - 需要以“二人值班”的方式增强稳定与容错。
+  - 外部任务复杂、需要 **互补技能** （如一人语言输出、一人情绪调节/信息检索/环境监护）；
+  - 训练安全切换并希望平滑过渡；
+  - 需要以“二人值班”的方式增强稳定与容错。
 - **不建议** ：
-    - 高风险场景（驾驶、危险作业）或现实定向力不稳；
-    - 无明确信号/边界与退出机制；
-    - 共前台导致显著 **过载（头压、眩晕、认知卡顿）** 未能缓解。
+  - 高风险场景（驾驶、危险作业）或现实定向力不稳；
+  - 无明确信号/边界与退出机制；
+  - 共前台导致显著 **过载（头压、眩晕、认知卡顿）** 未能缓解。
 
 ## 操作与实践（建议范例）
 
@@ -80,5 +80,5 @@ comments: true
 
 ## 参考资料
 
-[^pluralpedia-cofront]: Pluralpedia. (2024). [Co-fronting](https://pluralpedia.org/w/Co-fronting).
-[^brand2014]: Brand, B. L., & Loewenstein, R. J. (2014). Dissociative disorders: An overview of assessment, phenomenology, and treatment. _Psychiatric Times_, 31(1), 48–53.
+\[^pluralpedia-cofront\]: Pluralpedia. (2024). [Co-fronting](https://pluralpedia.org/w/Co-fronting).
+\[^brand2014\]: Brand, B. L., & Loewenstein, R. J. (2014). Dissociative disorders: An overview of assessment, phenomenology, and treatment. _Psychiatric Times_, 31(1), 48–53.

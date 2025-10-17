@@ -2,7 +2,7 @@
 
 本文档介绍本地开发流程、PR 提交步骤与质量检查清单。
 
----
+______________________________________________________________________
 
 ## 1. 本地开发流程
 
@@ -39,11 +39,11 @@ python tools/fix_markdown.py --help
 #### 新增词条
 
 1. 在 `docs/entries/` 创建新文件
-2. **使用标准模板** `docs/TEMPLATE_ENTRY.md`
-3. 填写 Frontmatter（title、tags、updated、topic 等）
+1. **使用标准模板** `docs/TEMPLATE_ENTRY.md`
+1. 填写 Frontmatter（title、tags、updated、topic 等）
 
 !!! tip "使用模板"
-    模板文件位置：`docs/TEMPLATE_ENTRY.md`
+模板文件位置：`docs/TEMPLATE_ENTRY.md`
 
 模板包含：
 
@@ -73,7 +73,7 @@ code docs/entries/新词条名.md
 code docs/entries/DID.md
 ```
 
----
+______________________________________________________________________
 
 ## 2. 本地验证
 
@@ -141,7 +141,7 @@ mkdocs build --strict
 
 **说明** ：`--strict` 会将所有警告视为错误，确保构建质量。
 
----
+______________________________________________________________________
 
 ## 3. PR 提交步骤
 
@@ -170,14 +170,14 @@ mkdocs build --strict
 
 遵循 [Conventional Commits](https://www.conventionalcommits.org/) 规范：
 
-| 类型 | 说明 | 示例 |
-|------|------|------|
-| `feat:` | 新增条目/章节 | `feat: 添加 OSDD 词条` |
-| `fix:` | 错误修复 | `fix: 修复 DID 词条引用链接` |
-| `docs:` | 文档更新 | `docs: 更新贡献指南` |
-| `refactor:` | 结构重构 | `refactor: 重组创伤相关词条` |
-| `chore:` | 工具维护 | `chore: 更新构建脚本` |
-| `style:` | 格式变更 | `style: 统一 Markdown 格式` |
+| 类型        | 说明          | 示例                         |
+| ----------- | ------------- | ---------------------------- |
+| `feat:`     | 新增条目/章节 | `feat: 添加 OSDD 词条`       |
+| `fix:`      | 错误修复      | `fix: 修复 DID 词条引用链接` |
+| `docs:`     | 文档更新      | `docs: 更新贡献指南`         |
+| `refactor:` | 结构重构      | `refactor: 重组创伤相关词条` |
+| `chore:`    | 工具维护      | `chore: 更新构建脚本`        |
+| `style:`    | 格式变更      | `style: 统一 Markdown 格式`  |
 
 #### 提交命令
 
@@ -199,11 +199,11 @@ git push origin 你的分支名
 ### 3.3 创建 Pull Request
 
 1. 访问 GitHub 仓库
-2. 点击"New Pull Request"
-3. 填写 PR 信息（见下文模板）
-4. 提交 PR
+1. 点击"New Pull Request"
+1. 填写 PR 信息（见下文模板）
+1. 提交 PR
 
----
+______________________________________________________________________
 
 ## 4. PR 检查清单
 
@@ -244,7 +244,7 @@ git push origin 你的分支名
 - [ ] GitHub Actions CI 通过
 - [ ] Cloudflare Pages 预览部署成功
 
----
+______________________________________________________________________
 
 ## 5. PR 模板
 
@@ -313,7 +313,7 @@ Closes #XXX
 <!-- 其他需要说明的内容 -->
 ```
 
----
+______________________________________________________________________
 
 ## 6. 常见问题
 
@@ -353,7 +353,7 @@ Closes #XXX
 - MkDocs Material tags 插件会自动生成索引
 - 无需手动维护 `tags.md`
 
----
+______________________________________________________________________
 
 ## 7. 自动化工具
 
@@ -387,7 +387,7 @@ python tools/gen-validation-report.py
 cat docs/VALIDATION_REPORT.md
 ```
 
----
+______________________________________________________________________
 
 ## 8. 权威资源入口
 
@@ -404,7 +404,7 @@ cat docs/VALIDATION_REPORT.md
 - **StatPearls** ：[https://www.ncbi.nlm.nih.gov/books/NBK](https://www.ncbi.nlm.nih.gov/books/NBK)
 - **UpToDate** ：[https://www.uptodate.com/](https://www.uptodate.com/)
 
----
+______________________________________________________________________
 
 ## 9. 获取帮助
 
@@ -421,7 +421,7 @@ cat docs/VALIDATION_REPORT.md
 - 📖 查阅项目文档
 - 🔍 参考现有词条的编写方式
 
----
+______________________________________________________________________
 
 ## 10. 最终检查清单
 
@@ -455,7 +455,7 @@ cat docs/VALIDATION_REPORT.md
 - [ ] PR 描述完整
 - [ ] CI/CD 通过
 
----
+______________________________________________________________________
 
 ## 相关文档
 

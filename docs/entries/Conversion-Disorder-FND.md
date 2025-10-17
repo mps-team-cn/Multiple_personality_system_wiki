@@ -2,12 +2,11 @@
 title: 功能性神经症状障碍（Functional Neurological Symptom Disorder，FND）
 tags:
 
-    - 诊断与临床
-    - FND
-    - 解离
+  - 诊断与临床
+  - FND
+  - 解离
 
-topic:
-  诊断与临床
+topic: 诊断与临床
 
 updated: 2025-10-14
 comments: true
@@ -16,10 +15,10 @@ comments: true
 # 功能性神经症状障碍（Functional Neurological Symptom Disorder，FND）
 
 !!! warning "触发警告"
-    内容涉及创伤、神经症状、精神健康等敏感议题，阅读时请留意自身状态。
+内容涉及创伤、神经症状、精神健康等敏感议题，阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考，不构成医疗建议。若需诊断或治疗，请联系持证专业人员。
+本站资料仅供参考，不构成医疗建议。若需诊断或治疗，请联系持证专业人员。
 
 ## 同义词
 
@@ -36,9 +35,9 @@ comments: true
 DSM-5-TR 对转换障碍的诊断核心包括：[^apa2022]
 
 1. 一个或多个影响随意运动或感觉功能的症状。
-2. 临床证据显示症状与已知神经或医学疾病不相符。
-3. 症状或缺损造成显著痛苦或功能受损，或需要医学评估。
-4. 症状不能用其他医学或精神障碍更好解释。
+1. 临床证据显示症状与已知神经或医学疾病不相符。
+1. 症状或缺损造成显著痛苦或功能受损，或需要医学评估。
+1. 症状不能用其他医学或精神障碍更好解释。
 
 诊断时可按症状类型（运动、感觉发作、吞咽、言语、视觉、听觉等）及持续时间（急性 < 6 个月；持续 ≥ 6 个月）加注说明。
 
@@ -75,8 +74,8 @@ DSM-5-TR 对转换障碍的诊断核心包括：[^apa2022]
 对于多意识体系统而言，FND 可能表现为特定成员上前台时的运动阻滞、感官“断线”或非癫痫性发作。与[内部沟通](Internal-Communication.md)不足、成员间的冲突或创伤记忆被激活有关。常见支持方式包括：
 
 1. 识别触发成员与情境，建立共享的预警信号。
-2. 在安全环境中练习[共前台](Co-Fronting.md)或陪伴，降低发作时的孤立感。
-3. 结合专业治疗与系统自助策略（如[接地](Grounding.md)、[情绪调节](Emotion-Regulation.md)），逐步提升身体掌控与功能恢复。
+1. 在安全环境中练习[共前台](Co-Fronting.md)或陪伴，降低发作时的孤立感。
+1. 结合专业治疗与系统自助策略（如[接地](Grounding.md)、[情绪调节](Emotion-Regulation.md)），逐步提升身体掌控与功能恢复。
 
 ## 相关条目
 
@@ -89,7 +88,7 @@ DSM-5-TR 对转换障碍的诊断核心包括：[^apa2022]
 
 ## 参考资料
 
-[^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
-[^stone2020]: Stone, J., & Carson, A. (2020). Functional neurological disorder: diagnosis and management. *Journal of Neurology, Neurosurgery & Psychiatry*, 91(8), 733–741.
-[^perez2021]: Perez, D. L., Nicholson, T. R., & LaFaver, K. (2021). Functional neurological disorder: An update for the clinician. *BMJ*, 371, m3745.
-[^nielsen2020]: Nielsen, G., Buszewicz, M., Stevenson, F., Hunter, R., Holt, K., Dudziec, M., & Edwards, M. J. (2020). Randomised feasibility study of physiotherapy for patients with functional motor symptoms. *Journal of Neurology, Neurosurgery & Psychiatry*, 91(6), 652–659.
+\[^apa2022\]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
+\[^stone2020\]: Stone, J., & Carson, A. (2020). Functional neurological disorder: diagnosis and management. *Journal of Neurology, Neurosurgery & Psychiatry*, 91(8), 733–741.
+\[^perez2021\]: Perez, D. L., Nicholson, T. R., & LaFaver, K. (2021). Functional neurological disorder: An update for the clinician. *BMJ*, 371, m3745.
+\[^nielsen2020\]: Nielsen, G., Buszewicz, M., Stevenson, F., Hunter, R., Holt, K., Dudziec, M., & Edwards, M. J. (2020). Randomised feasibility study of physiotherapy for patients with functional motor symptoms. *Journal of Neurology, Neurosurgery & Psychiatry*, 91(6), 652–659.

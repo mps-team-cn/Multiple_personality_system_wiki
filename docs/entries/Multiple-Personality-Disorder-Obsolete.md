@@ -2,16 +2,16 @@
 title: 多人格障碍（Multiple Personality Disorder，已过时）
 tags:
 
-    - 诊断与临床
-    - 历史术语
-    - 解离
+  - 诊断与临床
+  - 历史术语
+  - 解离
 
 topic: 诊断与临床
 synonyms:
 
-    - 多重人格障碍
-    - MPD
-    - Multiple Personality Disorder
+  - 多重人格障碍
+  - MPD
+  - Multiple Personality Disorder
 
 updated: 2025-10-14
 comments: true
@@ -20,10 +20,10 @@ comments: true
 # 多人格障碍（Multiple Personality Disorder，已过时）
 
 !!! warning "历史术语"
-    "多人格障碍"（Multiple Personality Disorder, MPD）是 DSM-III 与 DSM-IV 初期使用的诊断名称，自 1994 年 DSM-IV 起官方改为[解离性身份障碍（DID）](DID.md)。ICD-11 亦采用 "Dissociative Identity Disorder" 作为正式条目，不再使用 MPD。
+"多人格障碍"（Multiple Personality Disorder, MPD）是 DSM-III 与 DSM-IV 初期使用的诊断名称，自 1994 年 DSM-IV 起官方改为[解离性身份障碍（DID）](DID.md)。ICD-11 亦采用 "Dissociative Identity Disorder" 作为正式条目，不再使用 MPD。
 
 !!! info "免责声明"
-    本词条整理历史名称的演变，协助处理旧病历、研究或媒体资料；不构成诊断依据。如需医疗评估，请咨询持证专业人员。
+本词条整理历史名称的演变，协助处理旧病历、研究或媒体资料；不构成诊断依据。如需医疗评估，请咨询持证专业人员。
 
 ## DSM-5-TR 视角
 
@@ -60,8 +60,8 @@ ICD-11 采用"6B64 解离性身份障碍（Dissociative Identity Disorder）"作
 
 - **MPD → DID**：DSM-5-TR 与 ICD-11 中，[解离性身份障碍（DID）](DID.md)是 MPD 的直接继承诊断
 - **亚临床表现**：若身份分离程度不足以符合 DID，可评估：
-    - [部分解离性身份障碍（PDID）](Partial-Dissociative-Identity-Disorder-PDID.md)（ICD-11 专属，6B65）
-    - [其他特定解离性障碍（OSDD-1）](OSDD.md)（DSM-5-TR）
+  - [部分解离性身份障碍（PDID）](Partial-Dissociative-Identity-Disorder-PDID.md)（ICD-11 专属，6B65）
+  - [其他特定解离性障碍（OSDD-1）](OSDD.md)（DSM-5-TR）
 
 ### 旧病历评估要点
 
@@ -89,9 +89,9 @@ ICD-11 采用"6B64 解离性身份障碍（Dissociative Identity Disorder）"作
 从 DSM-III 到 DSM-5-TR，MPD/DID 诊断标准的演变引发以下争议：
 
 1. **失忆标准的必要性**：部分研究者认为并非所有 DID 患者都有明显失忆，DSM-IV 将失忆作为必要标准可能排除部分真实病例
-2. **"人格"vs"身份状态"**：术语从 "personalities" 转向 "identity states" 反映理论演变，但也引发对身份状态本质的持续讨论[^putnam1997]
-3. **文化偏见**：早期 MPD 诊断主要基于西方案例，ICD-11 与 DSM-5-TR 纳入附身体验等文化表现是重要进步，但仍需更多跨文化研究
-4. **过度诊断担忧**：1980-1990 年代 MPD 诊断激增引发"医源性创造"争议，现代标准更严格但仍需警惕暗示性访谈
+1. **"人格"vs"身份状态"**：术语从 "personalities" 转向 "identity states" 反映理论演变，但也引发对身份状态本质的持续讨论[^putnam1997]
+1. **文化偏见**：早期 MPD 诊断主要基于西方案例，ICD-11 与 DSM-5-TR 纳入附身体验等文化表现是重要进步，但仍需更多跨文化研究
+1. **过度诊断担忧**：1980-1990 年代 MPD 诊断激增引发"医源性创造"争议，现代标准更严格但仍需警惕暗示性访谈
 
 ## 社群与语言建议
 
@@ -172,10 +172,10 @@ DSM-IV 将诊断名称从 "Multiple Personality Disorder" 改为 "Dissociative I
 从 DSM-III 到 DSM-5-TR，MPD/DID 诊断标准的演变体现了以下趋势：
 
 1. **从"人格"到"身份"**：术语从 "personalities"（人格）转向 "identities"（身份）或 "identity states"（身份状态），反映对解离本质的更深理解[^putnam1997]
-2. **失忆标准的明确化**：DSM-IV 首次将失忆作为独立标准（标准 C），强调记忆断裂在诊断中的核心地位
-3. **控制权概念的细化**：从 DSM-III 的"占主导地位"（dominant）到 DSM-III-R 的"完全控制"（take full control），再到 DSM-IV 的"控制"（take control），反映对切换机制认识的精细化
-4. **减少污名与误解**："多人格"容易被误解为夸张、虚构或娱乐化，DID 名称有助于减少污名，促进求助意愿与治疗联盟
-5. **文化敏感性提升**：DSM-5-TR 与 ICD-11 纳入文化表现（如附身体验），避免以西方中心视角定义诊断
+1. **失忆标准的明确化**：DSM-IV 首次将失忆作为独立标准（标准 C），强调记忆断裂在诊断中的核心地位
+1. **控制权概念的细化**：从 DSM-III 的"占主导地位"（dominant）到 DSM-III-R 的"完全控制"（take full control），再到 DSM-IV 的"控制"（take control），反映对切换机制认识的精细化
+1. **减少污名与误解**："多人格"容易被误解为夸张、虚构或娱乐化，DID 名称有助于减少污名，促进求助意愿与治疗联盟
+1. **文化敏感性提升**：DSM-5-TR 与 ICD-11 纳入文化表现（如附身体验），避免以西方中心视角定义诊断
 
 ## 相关条目
 
@@ -189,10 +189,10 @@ DSM-IV 将诊断名称从 "Multiple Personality Disorder" 改为 "Dissociative I
 
 ## 参考与延伸阅读
 
-[^hacking1995]: Hacking, I. (1995). *Rewriting the Soul: Multiple Personality and the Sciences of Memory*. Princeton University Press.
-[^apa1980]: American Psychiatric Association. (1980). *Diagnostic and Statistical Manual of Mental Disorders* (3rd ed.). American Psychiatric Publishing.
-[^apa1994]: American Psychiatric Association. (1994). *Diagnostic and Statistical Manual of Mental Disorders* (4th ed.). American Psychiatric Publishing.
-[^putnam1997]: Putnam, F. W. (1997). *Dissociation in Children and Adolescents: A Developmental Perspective*. Guilford Press.
-[^vanderhart2006]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton & Company.
-[^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
-[^who2023]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics* (Version 2023-01). World Health Organization.
+\[^hacking1995\]: Hacking, I. (1995). *Rewriting the Soul: Multiple Personality and the Sciences of Memory*. Princeton University Press.
+\[^apa1980\]: American Psychiatric Association. (1980). *Diagnostic and Statistical Manual of Mental Disorders* (3rd ed.). American Psychiatric Publishing.
+\[^apa1994\]: American Psychiatric Association. (1994). *Diagnostic and Statistical Manual of Mental Disorders* (4th ed.). American Psychiatric Publishing.
+\[^putnam1997\]: Putnam, F. W. (1997). *Dissociation in Children and Adolescents: A Developmental Perspective*. Guilford Press.
+\[^vanderhart2006\]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton & Company.
+\[^apa2022\]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
+\[^who2023\]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics* (Version 2023-01). World Health Organization.

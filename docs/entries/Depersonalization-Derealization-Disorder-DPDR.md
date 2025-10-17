@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 诊断与临床
-- DPDR
-- 多重意识体
-- 解离
+  - 诊断与临床
+  - DPDR
+  - 多重意识体
+  - 解离
 
 topic: 诊断与临床
 description: 人格解体/现实解体障碍（DPDR）权威指南：诊断标准、临床表现与治疗方法。掌握持续性解离体验的识别与康复策略
@@ -16,21 +16,21 @@ comments: true
 # 人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
----
+______________________________________________________________________
 
 ## 概述
 
-人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）是一种以 **持续或反复的疏离体验与非真实感** 为核心特征的[解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)。患者体验到对自我或身体的疏离([人格解体](#人格解体症状))与/或外界显得陌生、失真或如梦([现实解体](Derealization.md))，虽然现实检验能力通常保留，但这些体验会引发显著痛苦或功能受损。多数研究认为，DPDR 常与急性压力、长期[创伤（Trauma）](Trauma.md)、焦虑或抑郁发作相关，是一种在压力环境下形成的保护性心理机制。ICD-11 将 DPDR 编码为 6B65；DSM-5-TR 则使用 Depersonalization/Derealization Disorder 这一诊断名称。
+人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）是一种以 **持续或反复的疏离体验与非真实感** 为核心特征的[解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)。患者体验到对自我或身体的疏离([人格解体](#%E4%BA%BA%E6%A0%BC%E8%A7%A3%E4%BD%93%E7%97%87%E7%8A%B6))与/或外界显得陌生、失真或如梦([现实解体](Derealization.md))，虽然现实检验能力通常保留，但这些体验会引发显著痛苦或功能受损。多数研究认为，DPDR 常与急性压力、长期[创伤（Trauma）](Trauma.md)、焦虑或抑郁发作相关，是一种在压力环境下形成的保护性心理机制。ICD-11 将 DPDR 编码为 6B65；DSM-5-TR 则使用 Depersonalization/Derealization Disorder 这一诊断名称。
 
 !!! note "术语区分"
-    本词条讨论的是临床解离症状中的 **人格解体（Depersonalization）**，这是 DPDR 的核心症状之一。关于多意识体系统中用于识别成员边界的 **非我感（Not-me Feeling）**，请参见《[非我感（Not-me Feeling）](Not-Me-Feeling.md)》。
+本词条讨论的是临床解离症状中的 **人格解体（Depersonalization）**，这是 DPDR 的核心症状之一。关于多意识体系统中用于识别成员边界的 **非我感（Not-me Feeling）**，请参见《[非我感（Not-me Feeling）](Not-Me-Feeling.md)》。
 
----
+______________________________________________________________________
 
 ## 诊断要点
 
@@ -54,7 +54,7 @@ comments: true
 
 ICD-11 对症状内容描述较为简洁，强调"疏离体验"及功能影响；DSM-5-TR 进一步列出排除标准与鉴别范围。两套体系皆强调现实检验能力保留，区别于精神病性症状；在实际诊疗中通常可互通使用。
 
----
+______________________________________________________________________
 
 ## 临床表现
 
@@ -87,7 +87,7 @@ ICD-11 对症状内容描述较为简洁，强调"疏离体验"及功能影响�
 
 症状的强度受压力、触发因素、安全感与支持系统影响，常表现为周期性恶化与缓解。
 
----
+______________________________________________________________________
 
 ## 解离机制与背景
 
@@ -95,7 +95,7 @@ ICD-11 对症状内容描述较为简洁，强调"疏离体验"及功能影响�
 - **神经生物学发现** ：影像研究显示前额叶对边缘系统的抑制增强，导致情绪反应钝化，同时体感皮层与视觉通路连结异常。
 - [**结构性解离理论（Structural Dissociation Theory）**](Structural-Dissociation-Theory.md) **视角** ：DPDR 可被视为表面正常部分（ANP）与情绪化部分（EP）之间断连的表现，前台成员为维持功能而压抑创伤记忆，造成非真实感。
 
----
+______________________________________________________________________
 
 ## 流行病学与病程
 
@@ -104,7 +104,7 @@ ICD-11 对症状内容描述较为简洁，强调"疏离体验"及功能影响�
 - 睡眠剥夺、物质使用、极端压力或社交隔离会加重症状；建立安全环境与支持系统有助稳定病程。
 - 复原需要长期的安全环境与治疗支持；未经治疗的 DPDR 易伴随功能下降、自伤或自杀风险。
 
----
+______________________________________________________________________
 
 ## 鉴别诊断
 
@@ -115,22 +115,24 @@ ICD-11 对症状内容描述较为简洁，强调"疏离体验"及功能影响�
 - **神经认知障碍、[癫痫（Epilepsy）](Epilepsy.md)或其他神经系统疾病** ：颞叶癫痫、偏头痛、脑炎等可引发类似体验，需结合病史、神经学检查排除器质性原因。
 - **物质/药物诱发状态** ：致幻剂、大麻或解离性麻醉剂可能诱发 DPDR；需评估使用史与时间关系。
 
----
+______________________________________________________________________
 
 ## 共病与风险管理
 
 ### 常见共病
 
 - **核心共病**
-    - [创伤后应激障碍（Post-Traumatic Stress Disorder，PTSD）](PTSD.md) / [复杂性创伤后应激障碍（Complex PTSD，CPTSD）](CPTSD.md)：创伤相关诊断常见，二者共同体现对压力与创伤的解离性反应。
-    - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：持续性悲伤、绝望与兴趣丧失普遍存在，情感麻木可能同时存在于两种障碍中。
-    - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)：过度自我监控与担忧常形成焦虑—解离循环。
+
+  - [创伤后应激障碍（Post-Traumatic Stress Disorder，PTSD）](PTSD.md) / [复杂性创伤后应激障碍（Complex PTSD，CPTSD）](CPTSD.md)：创伤相关诊断常见，二者共同体现对压力与创伤的解离性反应。
+  - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：持续性悲伤、绝望与兴趣丧失普遍存在，情感麻木可能同时存在于两种障碍中。
+  - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)：过度自我监控与担忧常形成焦虑—解离循环。
 
 - **其他常见共病**
-    - [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md)：情绪调节困难与身份认同症状可能重叠。
-    - [物质使用障碍（Substance Use Disorders，SUD）](Substance-Use-Disorders-SUD.md)：部分个体以物质自我麻醉以压抑疏离感或调节情绪。
-    - [强迫症（Obsessive-Compulsive Disorder，OCD）](OCD.md)：强迫性思维与解离体验可能同时出现。
-    - 其他[解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)：可能与其他解离性症状共存。
+
+  - [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md)：情绪调节困难与身份认同症状可能重叠。
+  - [物质使用障碍（Substance Use Disorders，SUD）](Substance-Use-Disorders-SUD.md)：部分个体以物质自我麻醉以压抑疏离感或调节情绪。
+  - [强迫症（Obsessive-Compulsive Disorder，OCD）](OCD.md)：强迫性思维与解离体验可能同时出现。
+  - 其他[解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)：可能与其他解离性症状共存。
 
 ### 风险管理重点
 
@@ -138,19 +140,19 @@ ICD-11 对症状内容描述较为简洁，强调"疏离体验"及功能影响�
 - 医疗与心理服务应采用创伤知情原则，避免再创伤化、羞辱或强迫性对质。
 - 对多意识系统而言，非真实感可能干扰成员之间的沟通与协作，需透过共享日志与[接地（Grounding）](Grounding.md)技巧维持功能。
 
----
+______________________________________________________________________
 
 ## 治疗与支持
 
 DPDR 的治疗通常遵循分阶段模式：
 
 1. **稳定与安全** ：建立治疗联盟、心理教育、发展[接地（Grounding）](Grounding.md)技巧与情绪调节能力，处理自伤与危机。
-2. **症状管理与创伤加工** ：通过认知行为疗法（CBT）针对灾难化思维与过度自我监控；正念与接受承诺疗法（ACT）提升当下觉察；创伤知情治疗及阶段化解离治疗用于创伤共病。
-3. **整合与康复** ：强化生活技能、社会支持与自我认同，建立长期稳定的复原环境。
+1. **症状管理与创伤加工** ：通过认知行为疗法（CBT）针对灾难化思维与过度自我监控；正念与接受承诺疗法（ACT）提升当下觉察；创伤知情治疗及阶段化解离治疗用于创伤共病。
+1. **整合与康复** ：强化生活技能、社会支持与自我认同，建立长期稳定的复原环境。
 
 药物治疗主要缓解共病症状，暂无特异性药物；可考虑针对共病焦虑或抑郁使用 SSRI、SNRI、纳曲酮或拉莫三嗪等，但需评估证据与副作用。身体与感官练习（如接地、感官刺激、呼吸训练、身体扫描）有助恢复自我连结。团体治疗与同伴支持可以提供经验分享，但需注意筛选安全的团体与维护边界。
 
----
+______________________________________________________________________
 
 ## 社群与临床语境
 
@@ -160,7 +162,7 @@ DPDR 的治疗通常遵循分阶段模式：
 - 识别触发因素、建立接地工具箱（如感官刺激、呼吸练习、定向技术）有助于减少失控感。
 - 支持性社群与创伤知情的治疗师是长期复原的重要资源，同时需警惕媒体中对解离障碍的污名化与误导性描绘。
 
----
+______________________________________________________________________
 
 ## 相关条目
 
@@ -199,9 +201,9 @@ DPDR 的治疗通常遵循分阶段模式：
 ## 参考与延伸阅读
 
 1. World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Depersonalization-derealization disorder (6B65).*
-2. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.).*
-3. Hunter, E. C. M., Sierra, M., & David, A. S. (2004). The epidemiology of depersonalisation and derealisation: A systematic review. *Social Psychiatry and Psychiatric Epidemiology, 39*(1), 9–18.
-4. Simeon, D., & Abugel, J. (2009). *Feeling Unreal: Depersonalization Disorder and the Loss of the Self.* Oxford University Press.
-5. Sierra, M., & David, A. S. (2011). Depersonalization: A selective impairment of self-awareness. *Consciousness and Cognition, 20*(1), 99–108.
-6. Sierra, M. (2012). Depersonalization disorder: Pharmacological approaches. *Expert Review of Neurotherapeutics, 12*(2), 205–214.
-7. Michal, M., Pfaltz, M. C., Koschorke, P., Schächinger, H., & Schillings, G. (2016). A systematic review of the evidence for psychological treatments in depersonalisation-derealisation disorder. *European Journal of Psychotraumatology, 7*, 31890.
+1. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.).*
+1. Hunter, E. C. M., Sierra, M., & David, A. S. (2004). The epidemiology of depersonalisation and derealisation: A systematic review. *Social Psychiatry and Psychiatric Epidemiology, 39*(1), 9–18.
+1. Simeon, D., & Abugel, J. (2009). *Feeling Unreal: Depersonalization Disorder and the Loss of the Self.* Oxford University Press.
+1. Sierra, M., & David, A. S. (2011). Depersonalization: A selective impairment of self-awareness. *Consciousness and Cognition, 20*(1), 99–108.
+1. Sierra, M. (2012). Depersonalization disorder: Pharmacological approaches. *Expert Review of Neurotherapeutics, 12*(2), 205–214.
+1. Michal, M., Pfaltz, M. C., Koschorke, P., Schächinger, H., & Schillings, G. (2016). A systematic review of the evidence for psychological treatments in depersonalisation-derealisation disorder. *European Journal of Psychotraumatology, 7*, 31890.

@@ -1,19 +1,19 @@
 ---
 tags:
 
-- 理论与分类
-- 解离
-- 多重意识体
-- 创伤
+  - 理论与分类
+  - 解离
+  - 多重意识体
+  - 创伤
 
 topic: 理论与分类
 title: 防御性解离（Defensive Dissociation）
 updated: 2025-10-13
 synonyms:
 
-- 防御性分离
-- 防御性解离反应
-- defensive dissociation
+  - 防御性分离
+  - 防御性解离反应
+  - defensive dissociation
 
 comments: true
 ---
@@ -21,10 +21,10 @@ comments: true
 # 防御性解离（Defensive Dissociation）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
 ## 概述
 
@@ -64,5 +64,5 @@ comments: true
 ## 参考与延伸阅读
 
 1. van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. Norton.
-2. Steele, K., Boon, S., & van der Hart, O. (2017). *Coping with Trauma-Related Dissociation*. Norton.
-3. Schauer, M., Neuner, F., & Elbert, T. (2011). *Narrative Exposure Therapy*. Hogrefe.
+1. Steele, K., Boon, S., & van der Hart, O. (2017). *Coping with Trauma-Related Dissociation*. Norton.
+1. Schauer, M., Neuner, F., & Elbert, T. (2011). *Narrative Exposure Therapy*. Hogrefe.

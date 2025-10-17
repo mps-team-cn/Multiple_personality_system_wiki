@@ -1,19 +1,19 @@
 ---
 tags:
 
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
+  - 理论与分类
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 理论与分类
 title: 依恋理论（Attachment Theory）
 updated: 2025-10-13
 synonyms:
 
-- 依附理论
-- 依恋关系理论
-- attachment theory
+  - 依附理论
+  - 依恋关系理论
+  - attachment theory
 
 comments: true
 ---
@@ -58,5 +58,5 @@ comments: true
 ## 参考与延伸阅读
 
 1. Bowlby, J. (1969/1982). *Attachment and Loss: Vol. 1. Attachment*. Basic Books.
-2. Ainsworth, M. D. S., et al. (1978). *Patterns of Attachment: A Psychological Study of the Strange Situation*. Erlbaum.
-3. Mikulincer, M., & Shaver, P. R. (2016). *Attachment in Adulthood: Structure, Dynamics, and Change* (2nd ed.). Guilford Press.
+1. Ainsworth, M. D. S., et al. (1978). *Patterns of Attachment: A Psychological Study of the Strange Situation*. Erlbaum.
+1. Mikulincer, M., & Shaver, P. R. (2016). *Attachment in Adulthood: Structure, Dynamics, and Change* (2nd ed.). Guilford Press.

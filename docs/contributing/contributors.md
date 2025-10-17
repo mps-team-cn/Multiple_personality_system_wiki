@@ -2,7 +2,7 @@
 
 > 感谢所有为 Multiple Personality System Wiki 项目做出贡献的朋友们!
 
----
+______________________________________________________________________
 
 ## 🌟 核心维护者
 
@@ -10,93 +10,93 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-crown: [**@kuliantnt**](https://github.com/kuliantnt)
+- :fontawesome-solid-crown: [**@kuliantnt**](https://github.com/kuliantnt)
 
-    ---
+  ______________________________________________________________________
 
-    ![kuliantnt](https://github.com/kuliantnt.png){ width="80" style="border-radius: 50%;" }
+  ![kuliantnt](https://github.com/kuliantnt.png){ width="80" style="border-radius: 50%;" }
 
-    **脸脸系统**
+  **脸脸系统**
 
-    **角色:** 项目创始人、管理员、核心维护者
+  **角色:** 项目创始人、管理员、核心维护者
 
-    **主要贡献:** 项目创建、核心架构、文档体系建设、工具开发
+  **主要贡献:** 项目创建、核心架构、文档体系建设、工具开发
 
--   :fontawesome-solid-star: [**@shishuiliunian5**](https://github.com/shishuiliunian5)
+- :fontawesome-solid-star: [**@shishuiliunian5**](https://github.com/shishuiliunian5)
 
-    ---
+  ______________________________________________________________________
 
-    ![shishuiliunian5](https://github.com/shishuiliunian5.png){ width="80" style="border-radius: 50%;" }
+  ![shishuiliunian5](https://github.com/shishuiliunian5.png){ width="80" style="border-radius: 50%;" }
 
-    **逝水流年系统**
+  **逝水流年系统**
 
-    **角色:** 核心贡献者、内容管理员
+  **角色:** 核心贡献者、内容管理员
 
-    **主要贡献:** 词条编写、内容完善
+  **主要贡献:** 词条编写、内容完善
 
--   :fontawesome-solid-star: [**@fengqingyu430-collab**](https://github.com/fengqingyu430-collab)
+- :fontawesome-solid-star: [**@fengqingyu430-collab**](https://github.com/fengqingyu430-collab)
 
-    ---
+  ______________________________________________________________________
 
-    ![fengqingyu430-collab](https://github.com/fengqingyu430-collab.png){ width="80" style="border-radius: 50%;" }
+  ![fengqingyu430-collab](https://github.com/fengqingyu430-collab.png){ width="80" style="border-radius: 50%;" }
 
-    **羽喵**
+  **羽喵**
 
-    **角色:** 核心贡献者、内容管理员
+  **角色:** 核心贡献者、内容管理员
 
-    **主要贡献:** 词条编写、翻译优化
+  **主要贡献:** 词条编写、翻译优化
 
--   :fontawesome-solid-star: [**@GrainRR**](https://github.com/GrainRR)
+- :fontawesome-solid-star: [**@GrainRR**](https://github.com/GrainRR)
 
-    ---
+  ______________________________________________________________________
 
-    ![GrainRR](https://github.com/GrainRR.png){ width="80" style="border-radius: 50%;" }
+  ![GrainRR](https://github.com/GrainRR.png){ width="80" style="border-radius: 50%;" }
 
-    **乌芷**
+  **乌芷**
 
-    **角色:** 核心贡献者
+  **角色:** 核心贡献者
 
-    **主要贡献:** Tulpa相关信息提供、专业知识咨询
+  **主要贡献:** Tulpa相关信息提供、专业知识咨询
 
--   :fontawesome-solid-star: [**@mouzhiw**](https://github.com/mouzhiw)
+- :fontawesome-solid-star: [**@mouzhiw**](https://github.com/mouzhiw)
 
-    ---
+  ______________________________________________________________________
 
-    ![mouzhiw](https://github.com/mouzhiw.png){ width="80" style="border-radius: 50%;" }
+  ![mouzhiw](https://github.com/mouzhiw.png){ width="80" style="border-radius: 50%;" }
 
-    **某只w**
+  **某只w**
 
-    **角色:** 核心贡献者
+  **角色:** 核心贡献者
 
-    **主要贡献:** 医学相关信息提供、专业知识咨询
+  **主要贡献:** 医学相关信息提供、专业知识咨询
 
--   :fontawesome-solid-star: [**@origin652**](https://github.com/origin652)
+- :fontawesome-solid-star: [**@origin652**](https://github.com/origin652)
 
-    ---
+  ______________________________________________________________________
 
-    ![origin652](https://github.com/origin652.png){ width="80" style="border-radius: 50%;" }
+  ![origin652](https://github.com/origin652.png){ width="80" style="border-radius: 50%;" }
 
-    **origin652**
+  **origin652**
 
-    **角色:** 核心贡献者
+  **角色:** 核心贡献者
 
-    **主要贡献:** Tulpa相关信息提供、专业知识咨询
+  **主要贡献:** Tulpa相关信息提供、专业知识咨询
 
--   :fontawesome-solid-star: [**@UnwhiteCat**](https://github.com/UnwhiteCat)
+- :fontawesome-solid-star: [**@UnwhiteCat**](https://github.com/UnwhiteCat)
 
-    ---
+  ______________________________________________________________________
 
-    ![UnwhiteCat](https://github.com/UnwhiteCat.png){ width="80" style="border-radius: 50%;" }
+  ![UnwhiteCat](https://github.com/UnwhiteCat.png){ width="80" style="border-radius: 50%;" }
 
-    **祎红**
+  **祎红**
 
-    **角色:** 核心贡献者、程序开发者
+  **角色:** 核心贡献者、程序开发者
 
-    **主要贡献:** 程序开发、技术架构、工具优化
+  **主要贡献:** 程序开发、技术架构、工具优化
 
 </div>
 
----
+______________________________________________________________________
 
 ## 👥 所有贡献者
 
@@ -104,20 +104,20 @@
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 
-| 头像 | 贡献者 | 主要贡献领域 |
-|------|--------|-------------|
-| ![](https://github.com/kuliantnt.png){ width="40" style="border-radius: 50%;" } | [@kuliantnt](https://github.com/kuliantnt) | 项目架构、词条编写、工具开发、文档维护 |
-| ![](https://github.com/shishuiliunian5.png){ width="40" style="border-radius: 50%;" } | [@shishuiliunian5](https://github.com/shishuiliunian5) | 词条编写、内容完善 |
-| ![](https://github.com/fengqingyu430-collab.png){ width="40" style="border-radius: 50%;" } | [@fengqingyu430-collab](https://github.com/fengqingyu430-collab) | 词条编写、翻译优化 |
-| ![](https://github.com/GrainRR.png){ width="40" style="border-radius: 50%;" } | [@GrainRR](https://github.com/GrainRR) | Tulpa相关信息提供、专业知识咨询 |
-| ![](https://github.com/mouzhiw.png){ width="40" style="border-radius: 50%;" } | [@mouzhiw](https://github.com/mouzhiw) | 医学相关信息提供、专业知识咨询 |
-| ![](https://github.com/origin652.png){ width="40" style="border-radius: 50%;" } | [@origin652](https://github.com/origin652) | Tulpa相关信息提供、专业知识咨询 |
-| ![](https://github.com/UnwhiteCat.png){ width="40" style="border-radius: 50%;" } | [@UnwhiteCat](https://github.com/UnwhiteCat) | 程序开发、技术架构、工具优化 |
-| ![](https://github.com/yao-jiuqing.png){ width="40" style="border-radius: 50%;" } | [@yao-jiuqing](https://github.com/yao-jiuqing) | 词条编写、内容贡献 |
-| ![](https://github.com/raven027192.png){ width="40" style="border-radius: 50%;" } | [@raven027192](https://github.com/raven027192) | 词条编写、内容贡献 |
-| ![](https://github.com/XingY-YuXi.png){ width="40" style="border-radius: 50%;" } | [@XingY-YuXi](https://github.com/XingY-YuXi) | Bug 报告、问题反馈 |
-| ![](https://github.com/Jellyfish-eng.png){ width="40" style="border-radius: 50%;" } | [@Jellyfish-eng](https://github.com/Jellyfish-eng) | 词条线索提供 |
-| ![](https://github.com/dugucanfeng.png){ width="40" style="border-radius: 50%;" } | [@dugucanfeng](https://github.com/dugucanfeng) | 词条线索提供 |
+| 头像                                                                                       | 贡献者                                                           | 主要贡献领域                           |
+| ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------- | -------------------------------------- |
+| ![](https://github.com/kuliantnt.png){ width="40" style="border-radius: 50%;" }            | [@kuliantnt](https://github.com/kuliantnt)                       | 项目架构、词条编写、工具开发、文档维护 |
+| ![](https://github.com/shishuiliunian5.png){ width="40" style="border-radius: 50%;" }      | [@shishuiliunian5](https://github.com/shishuiliunian5)           | 词条编写、内容完善                     |
+| ![](https://github.com/fengqingyu430-collab.png){ width="40" style="border-radius: 50%;" } | [@fengqingyu430-collab](https://github.com/fengqingyu430-collab) | 词条编写、翻译优化                     |
+| ![](https://github.com/GrainRR.png){ width="40" style="border-radius: 50%;" }              | [@GrainRR](https://github.com/GrainRR)                           | Tulpa相关信息提供、专业知识咨询        |
+| ![](https://github.com/mouzhiw.png){ width="40" style="border-radius: 50%;" }              | [@mouzhiw](https://github.com/mouzhiw)                           | 医学相关信息提供、专业知识咨询         |
+| ![](https://github.com/origin652.png){ width="40" style="border-radius: 50%;" }            | [@origin652](https://github.com/origin652)                       | Tulpa相关信息提供、专业知识咨询        |
+| ![](https://github.com/UnwhiteCat.png){ width="40" style="border-radius: 50%;" }           | [@UnwhiteCat](https://github.com/UnwhiteCat)                     | 程序开发、技术架构、工具优化           |
+| ![](https://github.com/yao-jiuqing.png){ width="40" style="border-radius: 50%;" }          | [@yao-jiuqing](https://github.com/yao-jiuqing)                   | 词条编写、内容贡献                     |
+| ![](https://github.com/raven027192.png){ width="40" style="border-radius: 50%;" }          | [@raven027192](https://github.com/raven027192)                   | 词条编写、内容贡献                     |
+| ![](https://github.com/XingY-YuXi.png){ width="40" style="border-radius: 50%;" }           | [@XingY-YuXi](https://github.com/XingY-YuXi)                     | Bug 报告、问题反馈                     |
+| ![](https://github.com/Jellyfish-eng.png){ width="40" style="border-radius: 50%;" }        | [@Jellyfish-eng](https://github.com/Jellyfish-eng)               | 词条线索提供                           |
+| ![](https://github.com/dugucanfeng.png){ width="40" style="border-radius: 50%;" }          | [@dugucanfeng](https://github.com/dugucanfeng)                   | 词条线索提供                           |
 
 ### 查看完整贡献者列表
 
@@ -125,7 +125,7 @@
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
----
+______________________________________________________________________
 
 ## 📊 贡献统计
 
@@ -140,7 +140,7 @@
 - **🌍 翻译工作**: 多语言支持
 - **👀 代码审查**: 审查和改进代码质量
 
----
+______________________________________________________________________
 
 ## 🎯 如何成为贡献者
 
@@ -171,7 +171,7 @@
 
 详见: [贡献指南](index.md)
 
----
+______________________________________________________________________
 
 ## 🏆 特别感谢
 
@@ -185,7 +185,7 @@
 - **视觉设计**: [@inser-a](https://github.com/inser-a) - 为项目设计并提供了精美的 Logo,为项目视觉识别奠定基础
 - **长期维护**: 所有核心维护者 - 持续维护和改进项目
 
----
+______________________________________________________________________
 
 ## 💝 赞助者
 
@@ -193,11 +193,11 @@
 
 <!-- 赞助者列表 -->
 
-* 暂无赞助者信息*
+- 暂无赞助者信息\*
 
 如果您希望支持本项目,请联系维护团队。
 
----
+______________________________________________________________________
 
 ## 📝 贡献者公约
 
@@ -205,21 +205,21 @@
 
 我们致力于为所有人提供友好、安全和包容的贡献环境。
 
----
+______________________________________________________________________
 
 ## 🔄 更新说明
 
 本页面记录了项目的主要贡献者。如果您认为自己的贡献未被正确记录,请:
 
 1. 通过 [GitHub Issues](https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues) 反馈
-2. 联系项目维护者
-3. 提交 PR 更新本页面
+1. 联系项目维护者
+1. 提交 PR 更新本页面
 
----
+______________________________________________________________________
 
 **最后更新**: 2025-10-12
 
----
+______________________________________________________________________
 
 ## 📚 相关链接
 

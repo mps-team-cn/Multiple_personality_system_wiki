@@ -2,19 +2,19 @@
 title: 卡前台(Front Stuck / Frontstuck)
 tags:
 
-    - 系统运作
-    - 多重意识体
-    - 解离
+  - 系统运作
+  - 多重意识体
+  - 解离
 
 topic: 系统运作
 synonyms:
 
-    - 卡前台
-    - 前台卡住
-    - 切换困难
-    - Front Stuck
-    - Frontstuck
-    - Stuck Fronting
+  - 卡前台
+  - 前台卡住
+  - 切换困难
+  - Front Stuck
+  - Frontstuck
+  - Stuck Fronting
 
 updated: 2025-10-13
 comments: true
@@ -41,12 +41,12 @@ comments: true
 
 ### 卡前台 vs. 长时间前台
 
-| 维度 | 卡前台(Frontstuck) | 长时间前台(Extended Fronting) |
-| --- | --- | --- |
-| **主动性** | 被动受困,无法切换 | 主动选择或系统安排的长期前台 |
-| **控制感** | 失去切换控制,感到受困 | 保持切换能力,只是暂时不切换 |
-| **系统状态** | 切换机制受阻或失效 | 切换机制正常,只是未启动 |
-| **心理体验** | 焦虑、压迫感、无助 | 相对平稳,虽可能疲劳但有掌控感 |
+| 维度         | 卡前台(Frontstuck)    | 长时间前台(Extended Fronting) |
+| ------------ | --------------------- | ----------------------------- |
+| **主动性**   | 被动受困,无法切换     | 主动选择或系统安排的长期前台  |
+| **控制感**   | 失去切换控制,感到受困 | 保持切换能力,只是暂时不切换   |
+| **系统状态** | 切换机制受阻或失效    | 切换机制正常,只是未启动       |
+| **心理体验** | 焦虑、压迫感、无助    | 相对平稳,虽可能疲劳但有掌控感 |
 
 ### 其他鉴别
 
@@ -117,6 +117,6 @@ comments: true
 
 ## 参考与延伸阅读
 
-[^pluralpedia-frontstuck]: Pluralpedia. (2024). [Frontstuck](https://pluralpedia.org/w/Frontstuck).
-[^brand2016]: Brand, B. L., Loewenstein, R. J., & Spiegel, D. (2014). Dispelling myths about dissociative identity disorder treatment: An empirically based approach. *Psychiatry: Interpersonal and Biological Processes*, 77(2), 169–189.
-[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation*, 12(2), 115–187.
+\[^pluralpedia-frontstuck\]: Pluralpedia. (2024). [Frontstuck](https://pluralpedia.org/w/Frontstuck).
+\[^brand2016\]: Brand, B. L., Loewenstein, R. J., & Spiegel, D. (2014). Dispelling myths about dissociative identity disorder treatment: An empirically based approach. *Psychiatry: Interpersonal and Biological Processes*, 77(2), 169–189.
+\[^isstd2011\]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation*, 12(2), 115–187.

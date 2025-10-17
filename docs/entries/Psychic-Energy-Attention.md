@@ -1,18 +1,18 @@
 ---
 tags:
 
-- 理论与分类
-- 多重意识体
-- 解离
+  - 理论与分类
+  - 多重意识体
+  - 解离
 
 topic: 理论与分类
 title: 心理能量与注意资源（Psychic Energy & Attention）
 updated: 2025-10-13
 synonyms:
 
-- 心理能量
-- 注意资源
-- psychic energy
+  - 心理能量
+  - 注意资源
+  - psychic energy
 
 comments: true
 ---
@@ -57,5 +57,5 @@ comments: true
 ## 参考与延伸阅读
 
 1. Kahneman, D. (1973). *Attention and Effort*. Prentice Hall.
-2. Baumeister, R. F., & Tierney, J. (2011). *Willpower: Rediscovering the Greatest Human Strength*. Penguin Press.
-3. Inzlicht, M., & Friese, M. (2019). The past, present, and future of ego depletion. *Social Psychology*, 50(5-6), 370–378.
+1. Baumeister, R. F., & Tierney, J. (2011). *Willpower: Rediscovering the Greatest Human Strength*. Penguin Press.
+1. Inzlicht, M., & Friese, M. (2019). The past, present, and future of ego depletion. *Social Psychology*, 50(5-6), 370–378.

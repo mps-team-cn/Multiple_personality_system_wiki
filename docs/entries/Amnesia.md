@@ -2,18 +2,18 @@
 title: 失忆（Amnesia）
 tags:
 
-    - 解离
-    - 记忆与解离
-    - 多重意识体
+  - 解离
+  - 记忆与解离
+  - 多重意识体
 
 topic: 系统运作
 synonyms:
 
-    - 失忆
-    - Amnesia
-    - 记忆缺失
-    - Memory Loss
-    - 遗忘
+  - 失忆
+  - Amnesia
+  - 记忆缺失
+  - Memory Loss
+  - 遗忘
 
 description: 多意识体系统中常见的记忆断裂现象，包括顺行性失忆、逆行性失忆与解离性失忆等类型
 updated: 2025-10-17
@@ -156,5 +156,5 @@ comments: true
 
 ## 参考资料
 
-[^dsm5tr]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
-[^bremner2006]: Bremner, J. D. (2006). Traumatic stress: Effects on the brain. *Dialogues in Clinical Neuroscience*, 8(4), 445–461.
+\[^dsm5tr\]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
+\[^bremner2006\]: Bremner, J. D. (2006). Traumatic stress: Effects on the brain. *Dialogues in Clinical Neuroscience*, 8(4), 445–461.

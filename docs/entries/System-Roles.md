@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
+  - 角色与身份
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 角色与身份
 title: 人格职能（System Roles）
@@ -45,10 +45,10 @@ comments: true
 - Steele 等人的创伤解离治疗手册详细讨论了记忆持有者、发展阶段成员与协作技巧。[^steele2017]
 - 多元意识权益组织发布的社群指南记录了社区对角色流动性的经验总结。[^thepluralassociation2021]
 
-[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for treating dissociative identity disorder in adults, third revision*. Journal of Trauma & Dissociation, 12(2), 115–187.
-[^steele2017]: Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating trauma-related dissociation: A practical, integrative approach*. W. W. Norton & Company.
-[^brown2019]: Brown, N., & Van der Hart, O. (2019). Stabilization in the treatment of dissociative disorders. In K. L. Dell & A. J. Lawson (Eds.), *Dissociation and the Dissociative Disorders: Past, Present, Future* (pp. 483–499). Routledge.
-[^thepluralassociation2021]: The Plural Association. (2021). *Community guidelines for plural well-being*. The Plural Association.
+\[^isstd2011\]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for treating dissociative identity disorder in adults, third revision*. Journal of Trauma & Dissociation, 12(2), 115–187.
+\[^steele2017\]: Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating trauma-related dissociation: A practical, integrative approach*. W. W. Norton & Company.
+\[^brown2019\]: Brown, N., & Van der Hart, O. (2019). Stabilization in the treatment of dissociative disorders. In K. L. Dell & A. J. Lawson (Eds.), *Dissociation and the Dissociative Disorders: Past, Present, Future* (pp. 483–499). Routledge.
+\[^thepluralassociation2021\]: The Plural Association. (2021). *Community guidelines for plural well-being*. The Plural Association.
 
 ## 相关条目
 

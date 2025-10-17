@@ -2,17 +2,17 @@
 title: 惊恐发作（Panic Attack）
 tags:
 
-    - 诊断与临床
-    - 焦虑
-    - 解离
+  - 诊断与临床
+  - 焦虑
+  - 解离
 
 topic: 诊断与临床
 synonyms:
 
-    - 惊恐发作
-    - 惊恐袭击
-    - Panic Attack
-    - panicattack
+  - 惊恐发作
+  - 惊恐袭击
+  - Panic Attack
+  - panicattack
 
 updated: 2025-10-14
 comments: true
@@ -21,10 +21,10 @@ comments: true
 # 惊恐发作（Panic Attack）
 
 !!! warning "触发警告"
-    内容涉及急性焦虑与躯体症状描绘，阅读时请留意自身状态并准备自我安抚策略。
+内容涉及急性焦虑与躯体症状描绘，阅读时请留意自身状态并准备自我安抚策略。
 
 !!! info "免责声明"
-    本站资料仅供参考，不构成医疗建议。若出现反复惊恐发作、失控或自伤念头，请及时联系专业医疗人员。
+本站资料仅供参考，不构成医疗建议。若出现反复惊恐发作、失控或自伤念头，请及时联系专业医疗人员。
 
 惊恐发作指在短时间内迅速达到高峰的强烈恐惧或显著不适，常伴随呼吸困难、心悸、胸闷、头晕等自主神经症状，并可能出现现实解体或害怕死亡等体验。[^apa2022pa] 发作通常在数分钟内达到峰值，可由突发性内部感受或外部触发线索引起，也可能在休息或睡眠中意外发生。惊恐发作本身不是独立诊断，可作为多种焦虑障碍、创伤相关障碍或医学状况的说明符。[^who2023pa]
 
@@ -70,10 +70,10 @@ comments: true
 ## 即时应对与长期管理
 
 1. **安全确认与呼吸调节**：引导个体觉察当下环境、练习缓慢腹式呼吸或 4-7-8 呼吸，以降低过度换气。[^nimh2024pa]
-2. **接地技巧与感官调节**：使用 5-4-3-2-1 感官定位、携带舒缓物品、肌肉放松等策略，建立可复制的缓解流程。
-3. **认知重评与心理教育**：解释惊恐发作的短暂性与常见症状，减少灾难化解释与预期性焦虑。
-4. **暴露与行为练习**：在专业陪伴下逐步面对触发情境，减少安全行为的依赖，常与 CBT、ACT 等疗法结合。[^nice2022pd]
-5. **药物支持**：当发作频繁或伴广泛性焦虑时，可在精神科评估下使用 SSRIs、SNRIs 或短期苯二氮䓬类药物，需密切监测依赖与副作用。[^nice2022pd]
+1. **接地技巧与感官调节**：使用 5-4-3-2-1 感官定位、携带舒缓物品、肌肉放松等策略，建立可复制的缓解流程。
+1. **认知重评与心理教育**：解释惊恐发作的短暂性与常见症状，减少灾难化解释与预期性焦虑。
+1. **暴露与行为练习**：在专业陪伴下逐步面对触发情境，减少安全行为的依赖，常与 CBT、ACT 等疗法结合。[^nice2022pd]
+1. **药物支持**：当发作频繁或伴广泛性焦虑时，可在精神科评估下使用 SSRIs、SNRIs 或短期苯二氮䓬类药物，需密切监测依赖与副作用。[^nice2022pd]
 
 ## 系统与社群视角
 
@@ -93,7 +93,7 @@ comments: true
 
 ## 参考与延伸阅读
 
-[^apa2022pa]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.). American Psychiatric Publishing.
-[^who2023pa]: World Health Organization. (2023). _ICD-11 for Mortality and Morbidity Statistics: Panic attack specifier._ [https://icd.who.int/en](https://icd.who.int/en)
-[^nice2022pd]: National Institute for Health and Care Excellence. (2022). _Generalised anxiety disorder and panic disorder in adults: management (CG113, updated)._ [https://www.nice.org.uk/guidance/cg113](https://www.nice.org.uk/guidance/cg113)
-[^nimh2024pa]: National Institute of Mental Health. (2024, March 12). _Panic Disorder: When Fear Overwhelms._ [https://www.nimh.nih.gov](https://www.nimh.nih.gov)
+\[^apa2022pa\]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.). American Psychiatric Publishing.
+\[^who2023pa\]: World Health Organization. (2023). _ICD-11 for Mortality and Morbidity Statistics: Panic attack specifier._ [https://icd.who.int/en](https://icd.who.int/en)
+\[^nice2022pd\]: National Institute for Health and Care Excellence. (2022). _Generalised anxiety disorder and panic disorder in adults: management (CG113, updated)._ [https://www.nice.org.uk/guidance/cg113](https://www.nice.org.uk/guidance/cg113)
+\[^nimh2024pa\]: National Institute of Mental Health. (2024, March 12). _Panic Disorder: When Fear Overwhelms._ [https://www.nimh.nih.gov](https://www.nimh.nih.gov)

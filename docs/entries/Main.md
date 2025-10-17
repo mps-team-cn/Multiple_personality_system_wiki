@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
+  - 角色与身份
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 角色与身份
 title: 主体（Main）
@@ -46,6 +46,6 @@ comments: true
 
 ## 参考与延伸阅读
 
-[^dsm5]: American Psychiatric Association. 2013. *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). American Psychiatric Publishing.
-[^reinders2012]: Reinders, A. A. T. S., et al. 2012. "Psychobiological Characteristics of Dissociative Identity Disorder: A Symptom Provocation Study." *Biological Psychiatry* 72(4): 332–340.
-[^brown2020]: Brown, R., & Cardeña, E. 2020. "Functional Multiplicity and Role Negotiation in Plural Communities." *Journal of Trauma & Dissociation* 21(5): 542–560.
+\[^dsm5\]: American Psychiatric Association. 2013. *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). American Psychiatric Publishing.
+\[^reinders2012\]: Reinders, A. A. T. S., et al. 2012. "Psychobiological Characteristics of Dissociative Identity Disorder: A Symptom Provocation Study." *Biological Psychiatry* 72(4): 332–340.
+\[^brown2020\]: Brown, R., & Cardeña, E. 2020. "Functional Multiplicity and Role Negotiation in Plural Communities." *Journal of Trauma & Dissociation* 21(5): 542–560.

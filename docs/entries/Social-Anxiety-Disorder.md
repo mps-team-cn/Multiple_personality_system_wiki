@@ -1,22 +1,22 @@
 ---
 tags:
 
-- 诊断与临床
-- 焦虑
-- 社交
-- 共病
+  - 诊断与临床
+  - 焦虑
+  - 社交
+  - 共病
 
 topic: 诊断与临床
 title: 社交焦虑障碍（Social Anxiety Disorder / Social Phobia，SAD）
 updated: 2025-10-14
 synonyms:
 
-- 社交焦虑障碍
-- Social Anxiety Disorder
-- Social Phobia
-- SAD
-- 社交恐惧症
-- shejiao jiaolv zhangai
+  - 社交焦虑障碍
+  - Social Anxiety Disorder
+  - Social Phobia
+  - SAD
+  - 社交恐惧症
+  - shejiao jiaolv zhangai
 
 comments: true
 ---
@@ -24,10 +24,10 @@ comments: true
 # 社交焦虑障碍（Social Anxiety Disorder / Social Phobia，SAD）
 
 !!! warning "触发警告"
-    内容涉及社交压力、评价恐惧、羞耻感等敏感议题，阅读时请留意自身状态。
+内容涉及社交压力、评价恐惧、羞耻感等敏感议题，阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考，不构成医疗建议。若需诊断或治疗，请联系持证专业人员。
+本站资料仅供参考，不构成医疗建议。若需诊断或治疗，请联系持证专业人员。
 
 **社交焦虑障碍可能引发强烈的羞耻感、自我批判与回避行为，请在安全环境中阅读并准备适当的自我安抚策略。**
 
@@ -62,10 +62,10 @@ _若社交焦虑显著影响学业、工作或人际关系，请尽快联系精�
 
 ### DSM-5-TR 与 ICD-11 差异
 
-| 重点 | DSM-5-TR | ICD-11 |
-| --- | --- | --- |
-| 持续时间 | 至少 6 个月 | 通常数月（更灵活） |
-| 特定标注 | "仅限表演型"标注 | 未单独标注，但可描述 |
+| 重点     | DSM-5-TR               | ICD-11                     |
+| -------- | ---------------------- | -------------------------- |
+| 持续时间 | 至少 6 个月            | 通常数月（更灵活）         |
+| 特定标注 | "仅限表演型"标注       | 未单独标注，但可描述       |
 | 核心特征 | 对负面评价的恐惧与回避 | 对社交互动或表现的持续恐惧 |
 
 ## 症状表现
@@ -123,14 +123,14 @@ _若社交焦虑显著影响学业、工作或人际关系，请尽快联系精�
 ### 常见共病
 
 - **核心共病**
-    - [广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md)：约 50% 共病率。
-    - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：约 50-70% 共病，常继发于长期社交孤立。
-    - [物质使用障碍（SUD）](Substance-Use-Disorders-SUD.md)：部分个体使用酒精或药物缓解社交焦虑，增加依赖风险。
-    - [选择性缄默症（Selective Mutism）](Selective-Mutism.md)：儿童期社交焦虑的极端表现。
+  - [广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md)：约 50% 共病率。
+  - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：约 50-70% 共病，常继发于长期社交孤立。
+  - [物质使用障碍（SUD）](Substance-Use-Disorders-SUD.md)：部分个体使用酒精或药物缓解社交焦虑，增加依赖风险。
+  - [选择性缄默症（Selective Mutism）](Selective-Mutism.md)：儿童期社交焦虑的极端表现。
 - **其他共病**
-    - [回避型人格障碍（Avoidant Personality Disorder，AvPD）](Avoidant-Personality-Disorder-AvPD.md)：两者有显著重叠，AvPD 更广泛且始于成年早期。
-    - [创伤后应激障碍（PTSD）](PTSD.md) / [复杂性 PTSD（CPTSD）](CPTSD.md)：创伤幸存者常伴社交信任困难与警觉增高。
-    - [解离性身份障碍（DID）](DID.md)：系统内部冲突或不同成员的社交能力差异可能加剧社交焦虑。
+  - [回避型人格障碍（Avoidant Personality Disorder，AvPD）](Avoidant-Personality-Disorder-AvPD.md)：两者有显著重叠，AvPD 更广泛且始于成年早期。
+  - [创伤后应激障碍（PTSD）](PTSD.md) / [复杂性 PTSD（CPTSD）](CPTSD.md)：创伤幸存者常伴社交信任困难与警觉增高。
+  - [解离性身份障碍（DID）](DID.md)：系统内部冲突或不同成员的社交能力差异可能加剧社交焦虑。
 
 ### 风险管理重点
 
@@ -146,16 +146,16 @@ _若社交焦虑显著影响学业、工作或人际关系，请尽快联系精�
 **循证心理治疗**：
 
 1. **认知行为疗法（CBT）**：[^nice2022sad]
-    - 识别与挑战负性自动思维（"他们会觉得我很笨"）与核心信念（"我不够好"）。
-    - **暴露治疗**：系统性脱敏与现实生活暴露（in vivo exposure），逐步面对恐惧的社交情境（如打电话、参加聚会、公开演讲）。
-    - 减少安全行为（如过度准备、避免眼神接触）。
-2. **接受与承诺疗法（ACT）**：
-    - 接纳焦虑体验，减少对控制焦虑的执着。
-    - 明确价值观，致力于有意义的社交行动而非消除焦虑。
-3. **社交技能训练（Social Skills Training）**：
-    - 通过角色扮演、小组练习增强对话技巧、肢体语言、冲突解决能力。
-4. **正念认知疗法（MBCT）与正念减压（MBSR）**：
-    - 培养当下觉察，减少事前预期性焦虑与事后反刍。
+   - 识别与挑战负性自动思维（"他们会觉得我很笨"）与核心信念（"我不够好"）。
+   - **暴露治疗**：系统性脱敏与现实生活暴露（in vivo exposure），逐步面对恐惧的社交情境（如打电话、参加聚会、公开演讲）。
+   - 减少安全行为（如过度准备、避免眼神接触）。
+1. **接受与承诺疗法（ACT）**：
+   - 接纳焦虑体验，减少对控制焦虑的执着。
+   - 明确价值观，致力于有意义的社交行动而非消除焦虑。
+1. **社交技能训练（Social Skills Training）**：
+   - 通过角色扮演、小组练习增强对话技巧、肢体语言、冲突解决能力。
+1. **正念认知疗法（MBCT）与正念减压（MBSR）**：
+   - 培养当下觉察，减少事前预期性焦虑与事后反刍。
 
 ### 药物治疗
 
@@ -206,10 +206,10 @@ _若社交焦虑显著影响学业、工作或人际关系，请尽快联系精�
 
 ## 参考与延伸阅读
 
-[^apa2022sad]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.). American Psychiatric Publishing.
+\[^apa2022sad\]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.). American Psychiatric Publishing.
 
-[^who2023sad]: World Health Organization. (2023). _ICD-11 for Mortality and Morbidity Statistics: Social anxiety disorder (6B04)._ [https://icd.who.int/en](https://icd.who.int/en)
+\[^who2023sad\]: World Health Organization. (2023). _ICD-11 for Mortality and Morbidity Statistics: Social anxiety disorder (6B04)._ [https://icd.who.int/en](https://icd.who.int/en)
 
-[^nice2022sad]: National Institute for Health and Care Excellence. (2022). _Social anxiety disorder: recognition, assessment and treatment (CG159)._ [https://www.nice.org.uk/guidance/cg159](https://www.nice.org.uk/guidance/cg159)
+\[^nice2022sad\]: National Institute for Health and Care Excellence. (2022). _Social anxiety disorder: recognition, assessment and treatment (CG159)._ [https://www.nice.org.uk/guidance/cg159](https://www.nice.org.uk/guidance/cg159)
 
-[^nimh2024sad]: National Institute of Mental Health. (2024). _Social Anxiety Disorder: More Than Just Shyness._ [https://www.nimh.nih.gov/health/publications/social-anxiety-disorder-more-than-just-shyness](https://www.nimh.nih.gov/health/publications/social-anxiety-disorder-more-than-just-shyness)
+\[^nimh2024sad\]: National Institute of Mental Health. (2024). _Social Anxiety Disorder: More Than Just Shyness._ [https://www.nimh.nih.gov/health/publications/social-anxiety-disorder-more-than-just-shyness](https://www.nimh.nih.gov/health/publications/social-anxiety-disorder-more-than-just-shyness)

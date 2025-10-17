@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 系统运作
-- 多重意识体
-- 解离
-- 创伤
+  - 系统运作
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 系统运作
 title: 应激反应（Stress Response）
@@ -15,10 +15,10 @@ comments: true
 # 应激反应（Stress Response）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
 ## 同义词
 
@@ -31,8 +31,8 @@ Stress Response、压力反应、战斗或逃跑反应
 ## 生理阶段
 
 1. **警觉期** ：压力源触发杏仁核评估，交感神经激活，心跳加速、肌肉紧绷，身体准备“战斗或逃跑”。
-2. **抵抗期** ：若压力持续，皮质醇等激素维持高水平，支持持续运作，但也可能造成注意力狭窄与情绪波动。
-3. **衰竭期** ：长期无法缓解时，调节系统耗竭，出现慢性疲劳、免疫力下降、情绪麻木等症状。
+1. **抵抗期** ：若压力持续，皮质醇等激素维持高水平，支持持续运作，但也可能造成注意力狭窄与情绪波动。
+1. **衰竭期** ：长期无法缓解时，调节系统耗竭，出现慢性疲劳、免疫力下降、情绪麻木等症状。
 
 ## 在多意识体系统中的表现
 
@@ -64,9 +64,9 @@ Stress Response、压力反应、战斗或逃跑反应
 
 ## 参考资料
 
-[^应激反应-1]: McEwen, B. S. (2007). Physiology and neurobiology of stress and adaptation: central role of the brain. _Physiological Reviews, 87_(3), 873-904.
-[^应激反应-2]: International Society for the Study of Trauma and Dissociation. (2011). _Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision_.
-[^应激反应-3]: van der Kolk, B. A. (2014). _The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma_. Viking.
+\[^应激反应-1\]: McEwen, B. S. (2007). Physiology and neurobiology of stress and adaptation: central role of the brain. _Physiological Reviews, 87_(3), 873-904.
+\[^应激反应-2\]: International Society for the Study of Trauma and Dissociation. (2011). _Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision_.
+\[^应激反应-3\]: van der Kolk, B. A. (2014). _The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma_. Viking.
 
 ## 核心特征
 

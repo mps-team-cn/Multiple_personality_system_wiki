@@ -2,20 +2,20 @@
 title: 青少年成员（Teen Alter）
 tags:
 
-    - 角色与身份
-    - 多重意识体
-    - 发展阶段
+  - 角色与身份
+  - 多重意识体
+  - 发展阶段
 
 topic: 角色与身份
 synonyms:
 
-    - 青少年成员
-    - Teen Alter
-    - 青少年人格
-    - Teenage Alter
-    - 青春期成员
-    - Teen Part
-    - 青少年意识体
+  - 青少年成员
+  - Teen Alter
+  - 青少年人格
+  - Teenage Alter
+  - 青春期成员
+  - Teen Part
+  - 青少年意识体
 
 description: 年龄感处于青春期的系统成员，可能表现出探索、反叛或身份寻求特征
 updated: 2025-10-17
@@ -106,9 +106,9 @@ comments: true
 ### 理解与尊重
 
 1. **发展性视角**：将青少年成员的行为理解为该发展阶段的正常现象,而非系统功能障碍。
-2. **情绪验证**：承认其情感体验的真实性与强度,避免轻视或否定。
-3. **自主空间**：在安全范围内允许其探索兴趣、表达观点与做出选择。
-4. **非惩罚性对话**：冲突后采用协商而非惩罚,帮助其理解后果而非强加规则。
+1. **情绪验证**：承认其情感体验的真实性与强度,避免轻视或否定。
+1. **自主空间**：在安全范围内允许其探索兴趣、表达观点与做出选择。
+1. **非惩罚性对话**：冲突后采用协商而非惩罚,帮助其理解后果而非强加规则。
 
 ### 安全管理
 
@@ -167,5 +167,5 @@ comments: true
 
 ## 参考资料
 
-[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation*, 12(2), 115–187.
-[^erikson1968]: Erikson, E. H. (1968). *Identity: Youth and Crisis*. W. W. Norton.
+\[^isstd2011\]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation*, 12(2), 115–187.
+\[^erikson1968\]: Erikson, E. H. (1968). *Identity: Youth and Crisis*. W. W. Norton.

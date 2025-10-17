@@ -2,17 +2,17 @@
 title: 引入者（Introject）
 tags:
 
-    - 角色与身份
-    - 多重意识体
-    - 解离
+  - 角色与身份
+  - 多重意识体
+  - 解离
 
 topic: 角色与身份
 synonyms:
 
-    - 引入者
-    - Introject
-    - 内化者
-    - 拟态成员
+  - 引入者
+  - Introject
+  - 内化者
+  - 拟态成员
 
 description: 基于外部人物（真实或虚构）形成的系统成员，可能具有该人物的特征、语言风格或行为模式
 updated: 2025-10-17
@@ -114,8 +114,8 @@ comments: true
 ### 理解引入者的形成
 
 1. **生存智慧**：认识到引入者是系统应对困境的适应性策略,而非病理表现。
-2. **原型探索**：识别原型人物在系统历史中的角色（威胁、保护、榜样、依恋对象）。
-3. **功能分析**：理解引入者在当前系统中承担的功能,评估其适应性。
+1. **原型探索**：识别原型人物在系统历史中的角色（威胁、保护、榜样、依恋对象）。
+1. **功能分析**：理解引入者在当前系统中承担的功能,评估其适应性。
 
 ### 与施虐者引入的工作
 
@@ -188,6 +188,6 @@ comments: true
 
 ## 参考资料
 
-[^pluralpedia-introject]: Pluralpedia. (2024). [Introject](https://pluralpedia.org/w/Introject).
-[^fairbairn1952]: Fairbairn, W. R. D. (1952). *Psychoanalytic Studies of the Personality*. Routledge.
-[^kluft1993]: Kluft, R. P. (1993). The initial stages of psychotherapy in the treatment of multiple personality disorder patients. *Dissociation*, 6(2/3), 145–161.
+\[^pluralpedia-introject\]: Pluralpedia. (2024). [Introject](https://pluralpedia.org/w/Introject).
+\[^fairbairn1952\]: Fairbairn, W. R. D. (1952). *Psychoanalytic Studies of the Personality*. Routledge.
+\[^kluft1993\]: Kluft, R. P. (1993). The initial stages of psychotherapy in the treatment of multiple personality disorder patients. *Dissociation*, 6(2/3), 145–161.

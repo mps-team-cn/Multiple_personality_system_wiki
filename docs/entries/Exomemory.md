@@ -1,18 +1,18 @@
 ---
 tags:
 
-- 系统运作
-- 多重意识体
-- 解离
-- 创伤
+  - 系统运作
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 系统运作
 title: 独有记忆（Exomemory）
 updated: 2025-10-17
 synonyms:
 
-- 体外记忆
-- Exomemory
+  - 体外记忆
+  - Exomemory
 
 description: 多意识体系统中个别成员拥有的、未在当前身体生命史中发生但具有完整叙事性的记忆体验,探讨其机制、功能与处理方式
 comments: true
@@ -189,6 +189,6 @@ comments: true
 
 ## 参考资料
 
-[^pluralpedia-exomemory]: Pluralpedia. (2024). [Exomemory](https://pluralpedia.org/w/Exomemory).
-[^buckner2008]: Buckner, R. L., Andrews-Hanna, J. R., & Schacter, D. L. (2008). The brain's default network: Anatomy, function, and relevance to disease. *Annals of the New York Academy of Sciences*, 1124, 1–38.
-[^brand2017]: Brand, B. L., & Loewenstein, R. J. (2017). Dissociative disorders: An overview of assessment, phenomenology, and treatment. *Psychiatric Clinics of North America*, 40(1), 1–19.
+\[^pluralpedia-exomemory\]: Pluralpedia. (2024). [Exomemory](https://pluralpedia.org/w/Exomemory).
+\[^buckner2008\]: Buckner, R. L., Andrews-Hanna, J. R., & Schacter, D. L. (2008). The brain's default network: Anatomy, function, and relevance to disease. *Annals of the New York Academy of Sciences*, 1124, 1–38.
+\[^brand2017\]: Brand, B. L., & Loewenstein, R. J. (2017). Dissociative disorders: An overview of assessment, phenomenology, and treatment. *Psychiatric Clinics of North America*, 40(1), 1–19.

@@ -1,20 +1,20 @@
 ---
 tags:
 
-- 诊断与临床
-- 述情障碍
-- 多重意识体
-- 解离
+  - 诊断与临床
+  - 述情障碍
+  - 多重意识体
+  - 解离
 
 topic: 诊断与临床
 title: 述情障碍（Alexithymia）
 updated: 2025-10-14
 synonyms:
 
-- 情感表达不能
-- 情感难言症
-- 述情困难
-- alexithymia
+  - 情感表达不能
+  - 情感难言症
+  - 述情困难
+  - alexithymia
 
 comments: true
 ---
@@ -22,10 +22,10 @@ comments: true
 # 述情障碍（Alexithymia）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
 **一句话定义** ：述情障碍指个体持续呈现的情绪觉察、区分与表达能力受限的人格特质或维度，而非独立的精神障碍。[^述情障碍-apa]
 
@@ -58,8 +58,8 @@ DSM-5-TR 在躯体症状障碍、创伤后应激障碍、进食障碍等章节�
 经典的三因素模型将述情障碍拆分为以下维度：[^述情障碍-tas]
 
 1. **难以识别情绪（Difficulty Identifying Feelings，DIF）** ：无法区分不同情绪体验或将情绪体验与身体唤醒区分开来。
-2. **难以描述情绪（Difficulty Describing Feelings，DDF）** ：难以以语言向他人准确表述自身的情绪体验。
-3. **外向性思维（Externally Oriented Thinking，EOT）** ：倾向聚焦于外部事实与行动，对内在情绪与想象的关注不足。
+1. **难以描述情绪（Difficulty Describing Feelings，DDF）** ：难以以语言向他人准确表述自身的情绪体验。
+1. **外向性思维（Externally Oriented Thinking，EOT）** ：倾向聚焦于外部事实与行动，对内在情绪与想象的关注不足。
 
 研究亦观察到情感想象力贫乏、情绪调节策略有限、内感受觉察（interoception）受损等现象，可导致个体在亲密关系与问题解决上出现阻碍。[^述情障碍-herbert][^述情障碍-taylor]
 
@@ -108,13 +108,13 @@ DSM-5-TR 在躯体症状障碍、创伤后应激障碍、进食障碍等章节�
 
 ## 参考与延伸阅读
 
-[^述情障碍-apa]: American Psychiatric Association. (2013). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed.). Washington, DC.
-[^述情障碍-sifneos]: Sifneos, P. E. (1973). The prevalence of “alexithymic” characteristics in psychosomatic patients. _Psychotherapy and Psychosomatics_, 22(2), 255–262.
-[^述情障碍-taylor]: Taylor, G. J., Bagby, R. M., & Parker, J. D. A. (1997). _Disorders of Affect Regulation: Alexithymia in Medical and Psychiatric Illness_. Cambridge University Press.
-[^述情障碍-tas]: Bagby, R. M., Parker, J. D. A., & Taylor, G. J. (1994). The twenty-item Toronto Alexithymia Scale—I. Item selection and cross-validation of the factor structure. _Journal of Psychosomatic Research_, 38(1), 23–32.
-[^述情障碍-herbert]: Herbert, B. M., Herbert, C., & Pollatos, O. (2011). On the relationship between interoceptive awareness and alexithymia: Is interoceptive awareness related to emotional awareness? _Journal of Personality_, 79(5), 1149–1175.
-[^述情障碍-asd]: Kinnaird, E., Stewart, C., & Tchanturia, K. (2019). Investigating alexithymia in autism: A systematic review and meta-analysis. _European Psychiatry_, 55, 80–89.
-[^述情障碍-frewen]: Frewen, P. A., Dozois, D. J., Neufeld, R. W., & Lanius, R. A. (2008). Meta-analysis of alexithymia in posttraumatic stress disorder. _Journal of Traumatic Stress_, 21(2), 243–246.
-[^述情障碍-lumley]: Lumley, M. A., & Schubiner, H. (2019). Psychological therapy for centralized pain: An integrative assessment and treatment model. _Psychosomatic Medicine_, 81(2), 114–124.
-[^述情障碍-gao]: Gao, T., et al. (2018). Relationship between alexithymia and sleep quality in university students: The mediating role of depression. _Journal of Affective Disorders_, 228, 254–260.
-[^述情障碍-ogrady]: O’Grady, C., et al. (2021). Enhancing emotional awareness: A review of emotion-focused and skills-based interventions for alexithymia. _Frontiers in Psychology_, 12, 710611.
+\[^述情障碍-apa\]: American Psychiatric Association. (2013). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed.). Washington, DC.
+\[^述情障碍-sifneos\]: Sifneos, P. E. (1973). The prevalence of “alexithymic” characteristics in psychosomatic patients. _Psychotherapy and Psychosomatics_, 22(2), 255–262.
+\[^述情障碍-taylor\]: Taylor, G. J., Bagby, R. M., & Parker, J. D. A. (1997). _Disorders of Affect Regulation: Alexithymia in Medical and Psychiatric Illness_. Cambridge University Press.
+\[^述情障碍-tas\]: Bagby, R. M., Parker, J. D. A., & Taylor, G. J. (1994). The twenty-item Toronto Alexithymia Scale—I. Item selection and cross-validation of the factor structure. _Journal of Psychosomatic Research_, 38(1), 23–32.
+\[^述情障碍-herbert\]: Herbert, B. M., Herbert, C., & Pollatos, O. (2011). On the relationship between interoceptive awareness and alexithymia: Is interoceptive awareness related to emotional awareness? _Journal of Personality_, 79(5), 1149–1175.
+\[^述情障碍-asd\]: Kinnaird, E., Stewart, C., & Tchanturia, K. (2019). Investigating alexithymia in autism: A systematic review and meta-analysis. _European Psychiatry_, 55, 80–89.
+\[^述情障碍-frewen\]: Frewen, P. A., Dozois, D. J., Neufeld, R. W., & Lanius, R. A. (2008). Meta-analysis of alexithymia in posttraumatic stress disorder. _Journal of Traumatic Stress_, 21(2), 243–246.
+\[^述情障碍-lumley\]: Lumley, M. A., & Schubiner, H. (2019). Psychological therapy for centralized pain: An integrative assessment and treatment model. _Psychosomatic Medicine_, 81(2), 114–124.
+\[^述情障碍-gao\]: Gao, T., et al. (2018). Relationship between alexithymia and sleep quality in university students: The mediating role of depression. _Journal of Affective Disorders_, 228, 254–260.
+\[^述情障碍-ogrady\]: O’Grady, C., et al. (2021). Enhancing emotional awareness: A review of emotion-focused and skills-based interventions for alexithymia. _Frontiers in Psychology_, 12, 710611.

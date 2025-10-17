@@ -1,18 +1,18 @@
 ---
 tags:
 
-- 理论与分类
-- 多重意识体
-- 解离
+  - 理论与分类
+  - 多重意识体
+  - 解离
 
 topic: 理论与分类
 title: 注意与觉察（Attention & Awareness）
 updated: 2025-10-13
 synonyms:
 
-- 注意力与觉察
-- 注意觉察
-- attention and awareness
+  - 注意力与觉察
+  - 注意觉察
+  - attention and awareness
 
 comments: true
 ---
@@ -57,5 +57,5 @@ comments: true
 ## 参考与延伸阅读
 
 1. Posner, M. I., & Petersen, S. E. (1990). The attention system of the human brain. *Annual Review of Neuroscience*, 13, 25–42.
-2. Dehaene, S. (2014). *Consciousness and the Brain*. Viking.
-3. Kabat-Zinn, J. (2013). *Full Catastrophe Living* (Revised ed.). Bantam Books.
+1. Dehaene, S. (2014). *Consciousness and the Brain*. Viking.
+1. Kabat-Zinn, J. (2013). *Full Catastrophe Living* (Revised ed.). Bantam Books.

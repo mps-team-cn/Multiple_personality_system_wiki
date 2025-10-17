@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 系统运作
-- 多重意识体
-- 解离
-- 创伤
+  - 系统运作
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 系统运作
 title: 外投射（External Projection）
@@ -25,8 +25,8 @@ comments: true
 ## 常见场景
 
 1. **社交或工作需求** ：成员透过外投射“陪伴”宿主参加会议、学习或出行，以降低焦虑或孤立感。
-2. **安全策略** ：将保护者或守门人投射在门口、窗边等位置，用来提醒潜在风险或安抚其他成员。
-3. **创作与仪式** ：在写作、游戏或宗教仪式中，把角色或神祇投射到相关道具上，强化专注与象征意义。
+1. **安全策略** ：将保护者或守门人投射在门口、窗边等位置，用来提醒潜在风险或安抚其他成员。
+1. **创作与仪式** ：在写作、游戏或宗教仪式中，把角色或神祇投射到相关道具上，强化专注与象征意义。
 
 ## 自我照护与记录
 
@@ -47,7 +47,7 @@ comments: true
 
 ## 参考与延伸阅读
 
-[^projection-pluralpedia]: Pluralpedia. (n.d.). [Projection](https://pluralpedia.org/w/Projection).
+\[^projection-pluralpedia\]: Pluralpedia. (n.d.). [Projection](https://pluralpedia.org/w/Projection).
 
 ## 定义
 

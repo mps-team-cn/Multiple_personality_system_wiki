@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
+  - 角色与身份
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 角色与身份
 description: 迫害者（Persecutor）成员的本质、形成原因与转化。理解看似敌对的成员实际上的保护意图，探索化解内部冲突的方法
@@ -47,11 +47,11 @@ comments: true
 - ISSTD 指南强调尊重迫害者的警示功能，并避免权力斗争。[^isstd2011]
 - 社群资源记录将迫害者纳入决策过程，可提升系统协作。[^thepluralassociation2021]
 
-[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for treating dissociative identity disorder in adults, third revision*. Journal of Trauma & Dissociation, 12(2), 115–187.
-[^boon2011]: Boon, S., Steele, K., & Van der Hart, O. (2011). *Coping with trauma-related dissociation: Skills training for patients and therapists*. W. W. Norton & Company.
-[^howell2011]: Howell, E. F. (2011). *The dissociative mind*. Routledge.
-[^brown2019]: Brown, N., & Van der Hart, O. (2019). Stabilization in the treatment of dissociative disorders. In K. L. Dell & A. J. Lawson (Eds.), *Dissociation and the Dissociative Disorders: Past, Present, Future* (pp. 483–499). Routledge.
-[^thepluralassociation2021]: The Plural Association. (2021). *Community guidelines for plural well-being*. The Plural Association.
+\[^isstd2011\]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for treating dissociative identity disorder in adults, third revision*. Journal of Trauma & Dissociation, 12(2), 115–187.
+\[^boon2011\]: Boon, S., Steele, K., & Van der Hart, O. (2011). *Coping with trauma-related dissociation: Skills training for patients and therapists*. W. W. Norton & Company.
+\[^howell2011\]: Howell, E. F. (2011). *The dissociative mind*. Routledge.
+\[^brown2019\]: Brown, N., & Van der Hart, O. (2019). Stabilization in the treatment of dissociative disorders. In K. L. Dell & A. J. Lawson (Eds.), *Dissociation and the Dissociative Disorders: Past, Present, Future* (pp. 483–499). Routledge.
+\[^thepluralassociation2021\]: The Plural Association. (2021). *Community guidelines for plural well-being*. The Plural Association.
 
 ## 相关条目
 

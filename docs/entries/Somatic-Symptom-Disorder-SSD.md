@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 诊断与临床
-- SSD
-- 多重意识体
-- 解离
+  - 诊断与临床
+  - SSD
+  - 多重意识体
+  - 解离
 
 topic: 诊断与临床
 title: 躯体化障碍（Somatic Symptom Disorder，SSD）
@@ -15,10 +15,10 @@ comments: true
 # 躯体化障碍（Somatic Symptom Disorder，SSD）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
 ## 同义词
 
@@ -35,12 +35,14 @@ comments: true
 DSM-5-TR 将躯体症状障碍归入“躯体症状及相关障碍”章节。诊断需满足以下特征：
 
 1. **一个或多个困扰性的躯体症状** ，并造成日常生活的显著扰乱。
-2. **与躯体症状相关的过度思想、情感或行为** ，至少具备以下之一：
 
-    - 对症状严重性的持续且不成比例的想法；
-    - 持续的高水平焦虑或关注；
-    - 花费过多时间和精力在症状或健康忧虑上。
-3. 尽管单个躯体症状可能并非持续存在，但症状状态通常是持续性的（一般超过 6 个月）。
+1. **与躯体症状相关的过度思想、情感或行为** ，至少具备以下之一：
+
+   - 对症状严重性的持续且不成比例的想法；
+   - 持续的高水平焦虑或关注；
+   - 花费过多时间和精力在症状或健康忧虑上。
+
+1. 尽管单个躯体症状可能并非持续存在，但症状状态通常是持续性的（一般超过 6 个月）。
 
 DSM-5-TR 允许按照症状持续时间（急性 < 6 个月；慢性 ≥ 6 个月）及是否伴有以疼痛为主的表现等进行说明。
 
@@ -76,5 +78,5 @@ DSM-5-TR 允许按照症状持续时间（急性 < 6 个月；慢性 ≥ 6 个�
 ## 参考资料
 
 1. American Psychiatric Association. _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., Text Revision), 2022.
-2. World Health Organization. _International Classification of Diseases 11th Revision_, 2022.
-3. "Somatic symptom disorder" — Wikipedia, the free encyclopedia. Accessed 2024.
+1. World Health Organization. _International Classification of Diseases 11th Revision_, 2022.
+1. "Somatic symptom disorder" — Wikipedia, the free encyclopedia. Accessed 2024.

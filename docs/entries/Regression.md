@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 系统运作
-- 多重意识体
-- 解离
-- 创伤
+  - 系统运作
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 系统运作
 title: 退行（Regression）
@@ -23,8 +23,8 @@ comments: true
 退行兼具保护与风险：
 
 1. **短期缓冲** ：恢复熟悉的早期应对方式，暂时降低情绪或生理负荷，如在危机中寻求照料者、说话语调变得更稚嫩。
-2. **功能性退行** ：在安全环境中允许自己“像孩子一样”表达需求，有助于修复依恋、整合情绪。
-3. **病理性退行** ：若退行频繁、持续并损害现实功能，常与严重创伤、人格障碍或解离性障碍相连，需要专业评估与支持[^退行-3]。
+1. **功能性退行** ：在安全环境中允许自己“像孩子一样”表达需求，有助于修复依恋、整合情绪。
+1. **病理性退行** ：若退行频繁、持续并损害现实功能，常与严重创伤、人格障碍或解离性障碍相连，需要专业评估与支持[^退行-3]。
 
 在创伤情境下，退行也可被视为神经系统的生存性反应：个体通过降低认知层级，回到较熟悉的脚本，以减少对威胁的主观感受。对有多重创伤史或解离倾向者而言，这种反应更容易被触发，并可能形成系统性的结构模式。
 
@@ -42,31 +42,31 @@ comments: true
 
 - **定义** ：任何人格在强烈触发或压力下，心智与行为短暂回到比其设定年龄更小的状态。
 - **特征** ：
-    - **状态而非身份** ：核心身份未改变，主要呈现语气、姿态或需求的儿童化。
-    - **暂时性** ：通常维持数分钟至数小时，触发解除或获得安抚后即恢复原年龄状态。
-    - **触发性** ：常由争执、被拒感、孤立或创伤提醒引发。
+  - **状态而非身份** ：核心身份未改变，主要呈现语气、姿态或需求的儿童化。
+  - **暂时性** ：通常维持数分钟至数小时，触发解除或获得安抚后即恢复原年龄状态。
+  - **触发性** ：常由争执、被拒感、孤立或创伤提醒引发。
 - **功能** ：提供即时的心理缓冲，让人格远离无法承受的情绪负荷，并争取外部支持。
 
 ### 儿童人格（Child Alter）：系统结构中的持久部分
 
 - **定义** ：系统内稳定存在、永远保持儿童身份的交替人格，而非成人人格退行的产物，详见《[儿童人格（Little / Child Alter）](Child-Alter.md)》。
 - **特征** ：
-    - **持久性** ：拥有固定的年龄设定、记忆与情绪模式，不随身体年龄增长而改变。
-    - **身份独立** ：具备自己的名字、喜好与沟通方式，是系统结构的重要组成。
-    - **创伤对应** ：形成时间常与创伤高峰一致，承载原始的恐惧、无助或孤立体验。
+  - **持久性** ：拥有固定的年龄设定、记忆与情绪模式，不随身体年龄增长而改变。
+  - **身份独立** ：具备自己的名字、喜好与沟通方式，是系统结构的重要组成。
+  - **创伤对应** ：形成时间常与创伤高峰一致，承载原始的恐惧、无助或孤立体验。
 - **功能** ：
-    - **持有创伤** ：保存最早期的痛苦记忆，保护负责日常生活的成员免于过载。
-    - **保留纯真** ：维系系统内的游戏力与好奇心，提示未被满足的发展需求。
-    - **寻求照护** ：向外界传达需要安全感与关怀的讯号，协助团队识别当前脆弱状态。
+  - **持有创伤** ：保存最早期的痛苦记忆，保护负责日常生活的成员免于过载。
+  - **保留纯真** ：维系系统内的游戏力与好奇心，提示未被满足的发展需求。
+  - **寻求照护** ：向外界传达需要安全感与关怀的讯号，协助团队识别当前脆弱状态。
 
 ### 关键区别与联系
 
-| 特征 | **年龄退行（Age Regression）** | **儿童人格（Child Alter）** |
-| :--- | :--- | :--- |
-| **本质** | 暂时性心理状态或行为过程。 | 持久且独立的人格身份。 |
-| **持续性** | 由压力触发，时间短暂。 | 长期存在于系统结构中。 |
+| 特征         | **年龄退行（Age Regression）** | **儿童人格（Child Alter）**    |
+| :----------- | :----------------------------- | :----------------------------- |
+| **本质**     | 暂时性心理状态或行为过程。     | 持久且独立的人格身份。         |
+| **持续性**   | 由压力触发，时间短暂。         | 长期存在于系统结构中。         |
 | **身份认同** | 身份不变，仅行为回到更小年龄。 | 拥有稳定的自我认同与生活习惯。 |
-| **创伤关联** | 对创伤线索的即时反应。 | 创伤时期“冻结”的发展阶段。 |
+| **创伤关联** | 对创伤线索的即时反应。         | 创伤时期“冻结”的发展阶段。     |
 
 **核心联系** ：两者皆源于无法承受的创伤经验。儿童人格可视为结构化、长期的退行结果，而年龄退行是系统面对当下压力时的动态调节策略。
 
@@ -114,10 +114,10 @@ comments: true
 
 ## 参考文献
 
-[^退行-1]: American Psychological Association. (2023). *Regression*. APA Dictionary of Psychology. [https://dictionary.apa.org/regression](https://dictionary.apa.org/regression)
-[^退行-2]: Freud, A. (1936/1966). *The Ego and the Mechanisms of Defence*. Karnac Books.
-[^退行-3]: Crittenden, P. M., & Landini, A. (2011). *Assessing Adult Attachment: A Dynamic-Maturational Approach to Discourse Analysis*. Norton.
-[^退行-4]: Wallin, D. J. (2007). *Attachment in Psychotherapy*. Guilford Press.
-[^退行-5]: van der Hart, O., Nijenhuis, E. R., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton & Company.
-[^退行-6]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision*. Journal of Trauma & Dissociation, 12(2), 115-187.
-[^退行-7]: Putnam, F. W. (1989). *Diagnosis and Treatment of Multiple Personality Disorder*. Guilford Press.
+\[^退行-1\]: American Psychological Association. (2023). *Regression*. APA Dictionary of Psychology. [https://dictionary.apa.org/regression](https://dictionary.apa.org/regression)
+\[^退行-2\]: Freud, A. (1936/1966). *The Ego and the Mechanisms of Defence*. Karnac Books.
+\[^退行-3\]: Crittenden, P. M., & Landini, A. (2011). *Assessing Adult Attachment: A Dynamic-Maturational Approach to Discourse Analysis*. Norton.
+\[^退行-4\]: Wallin, D. J. (2007). *Attachment in Psychotherapy*. Guilford Press.
+\[^退行-5\]: van der Hart, O., Nijenhuis, E. R., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton & Company.
+\[^退行-6\]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision*. Journal of Trauma & Dissociation, 12(2), 115-187.
+\[^退行-7\]: Putnam, F. W. (1989). *Diagnosis and Treatment of Multiple Personality Disorder*. Guilford Press.

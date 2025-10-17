@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
+  - 角色与身份
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 角色与身份
 title: 自发型（Spontaneous）
@@ -33,8 +33,8 @@ comments: true
 
 ## 与其他标签的关系
 
-- **与[适应型（Adaptive）](Adaptive.md)的区别** : 适应型以创伤应对为核心，而自发型强调自然形成；若系统同时存在创伤经历与自发成员，可认同[混合型（Mixed）](Emmengard-Classification.md#混合型mixed)。
-- **与[创造型（Created）](Emmengard-Classification.md#创造型created)的比较** : 创造型涉及主动设计或练习，自发型成员则多为在探索中意外显现。
+- **与[适应型（Adaptive）](Adaptive.md)的区别** : 适应型以创伤应对为核心，而自发型强调自然形成；若系统同时存在创伤经历与自发成员，可认同[混合型（Mixed）](Emmengard-Classification.md#%E6%B7%B7%E5%90%88%E5%9E%8Bmixed)。
+- **与[创造型（Created）](Emmengard-Classification.md#%E5%88%9B%E9%80%A0%E5%9E%8Bcreated)的比较** : 创造型涉及主动设计或练习，自发型成员则多为在探索中意外显现。
 - **与灵性认同的交集** : 部分自发型系统也认同灵性标签（如系魂、神祇同在等），但是否采纳取决于系统自身的信仰与体验。
 
 ## 支持与自我照顾建议
@@ -46,8 +46,8 @@ comments: true
 ## 延伸阅读
 
 - [埃蒙加德分类法（Emmengard Classification）](Emmengard-Classification.md)
-- [创造型（Created）](Emmengard-Classification.md#创造型created)
-- [混合型（Mixed）](Emmengard-Classification.md#混合型mixed)
+- [创造型（Created）](Emmengard-Classification.md#%E5%88%9B%E9%80%A0%E5%9E%8Bcreated)
+- [混合型（Mixed）](Emmengard-Classification.md#%E6%B7%B7%E5%90%88%E5%9E%8Bmixed)
 - [系魂（Soulbond）](Soulbond.md)
 - [图帕（Tulpa）](Tulpa.md)
 

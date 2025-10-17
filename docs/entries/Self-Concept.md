@@ -1,19 +1,19 @@
 ---
 tags:
 
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
+  - 理论与分类
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 理论与分类
 title: 自我概念（Self-Concept）
 updated: 2025-10-13
 synonyms:
 
-- 自我认知
-- 自我图式
-- self concept
+  - 自我认知
+  - 自我图式
+  - self concept
 
 comments: true
 ---
@@ -58,5 +58,5 @@ comments: true
 ## 参考与延伸阅读
 
 1. James, W. (1890). *The Principles of Psychology*. Henry Holt.
-2. Markus, H., & Wurf, E. (1987). The dynamic self-concept. *Annual Review of Psychology*, 38, 299–337.
-3. McAdams, D. P. (2013). *The Redemptive Self: Stories Americans Live By*. Oxford University Press.
+1. Markus, H., & Wurf, E. (1987). The dynamic self-concept. *Annual Review of Psychology*, 38, 299–337.
+1. McAdams, D. P. (2013). *The Redemptive Self: Stories Americans Live By*. Oxford University Press.

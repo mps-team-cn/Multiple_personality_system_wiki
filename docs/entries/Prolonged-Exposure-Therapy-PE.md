@@ -2,16 +2,16 @@
 title: 延长暴露疗法（Prolonged Exposure Therapy, PE）
 tags:
 
-    - 创伤与疗愈
-    - 心理治疗
+  - 创伤与疗愈
+  - 心理治疗
 
 topic: 创伤与疗愈
 synonyms:
 
-    - 暴露疗法
-    - PE
-    - Prolonged Exposure
-    - 延长暴露治疗
+  - 暴露疗法
+  - PE
+  - Prolonged Exposure
+  - 延长暴露治疗
 
 updated: 2025-10-13
 comments: true
@@ -20,7 +20,7 @@ comments: true
 # 延长暴露疗法（Prolonged Exposure Therapy, PE）
 
 !!! warning "医疗免责声明"
-    本词条内容仅供教育与参考，不能替代专业医疗建议、诊断或治疗。创伤治疗应在持证心理治疗师或精神科医师的指导下进行。
+本词条内容仅供教育与参考，不能替代专业医疗建议、诊断或治疗。创伤治疗应在持证心理治疗师或精神科医师的指导下进行。
 
 ## 概述
 
@@ -28,7 +28,7 @@ comments: true
 
 PE 由 Edna Foa 博士及其团队在宾夕法尼亚大学开发，是美国退伍军人事务部（VA）和国际创伤应激研究学会（ISTSS）推荐的 PTSD 一线治疗方法之一。
 
----
+______________________________________________________________________
 
 ## 核心原理
 
@@ -45,10 +45,10 @@ PTSD 患者通常会回避创伤记忆、相关情境、人物或活动，这种
 PE 通过 **安全的、逐步的暴露**，让患者在治疗师指导下重新接触创伤记忆和相关情境：
 
 1. **情绪加工理论**：暴露帮助大脑更新"危险记忆"为"安全记忆"
-2. **习惯化**：反复暴露使恐惧反应逐渐减弱
-3. **认知重构**：意识到"记忆不会伤害我""我能承受这些情绪"
+1. **习惯化**：反复暴露使恐惧反应逐渐减弱
+1. **认知重构**：意识到"记忆不会伤害我""我能承受这些情绪"
 
----
+______________________________________________________________________
 
 ## 治疗结构
 
@@ -74,9 +74,9 @@ PE 通常包含 **8-15 次个体治疗**，每次 60-90 分钟，分为四个核
 **步骤**：
 
 1. 以第一人称、现在时讲述（"我看到..."）
-2. 包含感官细节、想法、情绪
-3. 持续 30-60 分钟，反复讲述
-4. 录音并在家中每天听 1 次
+1. 包含感官细节、想法、情绪
+1. 持续 30-60 分钟，反复讲述
+1. 录音并在家中每天听 1 次
 
 **目标**：
 
@@ -91,9 +91,9 @@ PE 通常包含 **8-15 次个体治疗**，每次 60-90 分钟，分为四个核
 **步骤**：
 
 1. 制定"恐惧层级表"（0-100 分）
-2. 从低焦虑情境开始（如：去车祸发生的那条街）
-3. 停留足够长时间直到焦虑下降 50%
-4. 逐步升级到更高焦虑情境
+1. 从低焦虑情境开始（如：去车祸发生的那条街）
+1. 停留足够长时间直到焦虑下降 50%
+1. 逐步升级到更高焦虑情境
 
 **目标**：
 
@@ -101,7 +101,7 @@ PE 通常包含 **8-15 次个体治疗**，每次 60-90 分钟，分为四个核
 - 恢复正常生活功能
 - 学会"这些情境现在是安全的"
 
----
+______________________________________________________________________
 
 ## 适用人群
 
@@ -126,7 +126,7 @@ PE 通常包含 **8-15 次个体治疗**，每次 60-90 分钟，分为四个核
 - **严重精神病性症状**：需先控制精神病症状
 - **严重认知障碍**：无法完成暴露练习
 
----
+______________________________________________________________________
 
 ## 治疗效果
 
@@ -143,18 +143,18 @@ PE 通常包含 **8-15 次个体治疗**，每次 60-90 分钟，分为四个核
 - **情绪痛苦**：治疗过程中会体验强烈情绪
 - **脱落率**：约 20-30% 的患者因无法耐受而中断治疗
 
----
+______________________________________________________________________
 
 ## 与其他创伤治疗的比较
 
-| 治疗方法 | 核心机制 | 暴露方式 | 治疗时长 | 适用人群 |
-|---------|---------|---------|---------|---------|
-| **PE** | 恐惧习惯化 | 详细讲述创伤记忆 | 8-15 次 | PTSD，单次创伤 |
-| [**CPT**](Cognitive-Processing-Therapy-CPT.md) | 认知重构 | 书写创伤，挑战信念 | 12 次 | PTSD，负性信念 |
-| [**EMDR**](Eye-Movement-Desensitization-Reprocessing-EMDR.md) | 双侧刺激，信息加工 | 简短回忆 + 眼动 | 8-12 次 | PTSD，各类创伤 |
-| [**TF-CBT**](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md) | 暴露 + 认知 + 技能 | 创伤叙事 | 12-16 次 | 儿童青少年 PTSD |
+| 治疗方法                                                            | 核心机制           | 暴露方式           | 治疗时长 | 适用人群        |
+| ------------------------------------------------------------------- | ------------------ | ------------------ | -------- | --------------- |
+| **PE**                                                              | 恐惧习惯化         | 详细讲述创伤记忆   | 8-15 次  | PTSD，单次创伤  |
+| [**CPT**](Cognitive-Processing-Therapy-CPT.md)                      | 认知重构           | 书写创伤，挑战信念 | 12 次    | PTSD，负性信念  |
+| [**EMDR**](Eye-Movement-Desensitization-Reprocessing-EMDR.md)       | 双侧刺激，信息加工 | 简短回忆 + 眼动    | 8-12 次  | PTSD，各类创伤  |
+| [**TF-CBT**](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md) | 暴露 + 认知 + 技能 | 创伤叙事           | 12-16 次 | 儿童青少年 PTSD |
 
----
+______________________________________________________________________
 
 ## 多意识体系统的特殊考量
 
@@ -169,14 +169,14 @@ PE 通常包含 **8-15 次个体治疗**，每次 60-90 分钟，分为四个核
 ### 改良建议
 
 1. **建立内部共识**：所有相关成员同意暴露计划
-2. **逐步暴露**：从最能耐受的成员开始
-3. **内部合作**：让不同成员分担暴露任务
-4. **整合记忆**：帮助系统共享创伤记忆
-5. **阶段 1 优先**：确保系统稳定性与内部沟通后再进行暴露
+1. **逐步暴露**：从最能耐受的成员开始
+1. **内部合作**：让不同成员分担暴露任务
+1. **整合记忆**：帮助系统共享创伤记忆
+1. **阶段 1 优先**：确保系统稳定性与内部沟通后再进行暴露
 
 详见：[三阶段创伤治疗模型](Three-Phase-Trauma-Treatment.md)
 
----
+______________________________________________________________________
 
 ## 家庭作业与实践
 
@@ -186,7 +186,7 @@ PE 的核心在于 **家庭作业**：
 - **现实暴露练习**：每周完成 3-5 次现实暴露任务
 - **记录情绪变化**：使用焦虑量表追踪习惯化过程
 
----
+______________________________________________________________________
 
 ## 相关条目
 
@@ -198,11 +198,11 @@ PE 的核心在于 **家庭作业**：
 - [眼动脱敏与再加工（EMDR）](Eye-Movement-Desensitization-Reprocessing-EMDR.md)
 - [创伤聚焦认知行为疗法（TF-CBT）](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md)
 
----
+______________________________________________________________________
 
 ## 参考文献
 
 1. Foa, E. B., Hembree, E. A., & Rothbaum, B. O. (2007). *Prolonged Exposure Therapy for PTSD: Emotional Processing of Traumatic Experiences*. Oxford University Press.
-2. Powers, M. B., Halpern, J. M., Ferenschak, M. P., Gillihan, S. J., & Foa, E. B. (2010). A meta-analytic review of prolonged exposure for posttraumatic stress disorder. *Clinical Psychology Review*, 30(6), 635-641.
-3. Bradley, R., Greene, J., Russ, E., Dutra, L., & Westen, D. (2005). A multidimensional meta-analysis of psychotherapy for PTSD. *American Journal of Psychiatry*, 162(2), 214-227.
-4. International Society for Traumatic Stress Studies (ISTSS). (2018). *Posttraumatic Stress Disorder Prevention and Treatment Guidelines*.
+1. Powers, M. B., Halpern, J. M., Ferenschak, M. P., Gillihan, S. J., & Foa, E. B. (2010). A meta-analytic review of prolonged exposure for posttraumatic stress disorder. *Clinical Psychology Review*, 30(6), 635-641.
+1. Bradley, R., Greene, J., Russ, E., Dutra, L., & Westen, D. (2005). A multidimensional meta-analysis of psychotherapy for PTSD. *American Journal of Psychiatry*, 162(2), 214-227.
+1. International Society for Traumatic Stress Studies (ISTSS). (2018). *Posttraumatic Stress Disorder Prevention and Treatment Guidelines*.

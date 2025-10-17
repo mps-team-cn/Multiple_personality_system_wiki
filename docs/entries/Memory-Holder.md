@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
+  - 角色与身份
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 角色与身份
 description: 记忆持有者（Memory Holder）的角色与创伤记忆管理。理解特定成员持有特定记忆的机制、记忆分隔的保护作用及整合挑战
@@ -46,10 +46,10 @@ comments: true
 - Howell 指出不同成员对时间线的掌控差异，是解离性结构的核心特征之一。[^howell2011]
 - Brown 与 Van der Hart 强调在稳定阶段建立安全框架，以支持记忆持有者分享内容。[^brown2019]
 
-[^steele2017]: Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating trauma-related dissociation: A practical, integrative approach*. W. W. Norton & Company.
-[^howell2011]: Howell, E. F. (2011). *The dissociative mind*. Routledge.
-[^brown2019]: Brown, N., & Van der Hart, O. (2019). Stabilization in the treatment of dissociative disorders. In K. L. Dell & A. J. Lawson (Eds.), *Dissociation and the Dissociative Disorders: Past, Present, Future* (pp. 483–499). Routledge.
-[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for treating dissociative identity disorder in adults, third revision*. Journal of Trauma & Dissociation, 12(2), 115–187.
+\[^steele2017\]: Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating trauma-related dissociation: A practical, integrative approach*. W. W. Norton & Company.
+\[^howell2011\]: Howell, E. F. (2011). *The dissociative mind*. Routledge.
+\[^brown2019\]: Brown, N., & Van der Hart, O. (2019). Stabilization in the treatment of dissociative disorders. In K. L. Dell & A. J. Lawson (Eds.), *Dissociation and the Dissociative Disorders: Past, Present, Future* (pp. 483–499). Routledge.
+\[^isstd2011\]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for treating dissociative identity disorder in adults, third revision*. Journal of Trauma & Dissociation, 12(2), 115–187.
 
 ## 相关条目
 

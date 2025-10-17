@@ -1,19 +1,19 @@
 ---
 tags:
 
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
+  - 理论与分类
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 理论与分类
 title: 心理防御机制（Defense Mechanisms）
 updated: 2025-10-13
 synonyms:
 
-- 防御机制
-- 自我防御机制
-- psychological defense
+  - 防御机制
+  - 自我防御机制
+  - psychological defense
 
 comments: true
 ---
@@ -21,10 +21,10 @@ comments: true
 # 心理防御机制（Defense Mechanisms）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
 ## 概述
 
@@ -64,5 +64,5 @@ comments: true
 ## 参考与延伸阅读
 
 1. Freud, A. (1936). *The Ego and the Mechanisms of Defence*. London: Hogarth Press.
-2. Vaillant, G. E. (1992). *Ego Mechanisms of Defense: A Guide for Clinicians and Researchers*. American Psychiatric Press.
-3. Cramer, P. (2015). Defense mechanisms in psychology today. *American Psychologist*, 70(7), 830–835.
+1. Vaillant, G. E. (1992). *Ego Mechanisms of Defense: A Guide for Clinicians and Researchers*. American Psychiatric Press.
+1. Cramer, P. (2015). Defense mechanisms in psychology today. *American Psychologist*, 70(7), 830–835.

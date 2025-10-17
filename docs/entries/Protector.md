@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
+  - 角色与身份
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 角色与身份
 description: 保护者（Protector）成员的类型、功能与工作方式。了解保护性成员如何维护系统安全、应对威胁及其可能的过度保护模式
@@ -49,9 +49,9 @@ comments: true
 - Boon 等人的技能训练手册提供与保护者合作的沟通工具。[^boon2011]
 - 社群指南记录保护者在危机应对中的实际做法，有助于系统自行制定流程。[^thepluralassociation2021]
 
-[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for treating dissociative identity disorder in adults, third revision*. Journal of Trauma & Dissociation, 12(2), 115–187.
-[^boon2011]: Boon, S., Steele, K., & Van der Hart, O. (2011). *Coping with trauma-related dissociation: Skills training for patients and therapists*. W. W. Norton & Company.
-[^thepluralassociation2021]: The Plural Association. (2021). *Community guidelines for plural well-being*. The Plural Association.
+\[^isstd2011\]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for treating dissociative identity disorder in adults, third revision*. Journal of Trauma & Dissociation, 12(2), 115–187.
+\[^boon2011\]: Boon, S., Steele, K., & Van der Hart, O. (2011). *Coping with trauma-related dissociation: Skills training for patients and therapists*. W. W. Norton & Company.
+\[^thepluralassociation2021\]: The Plural Association. (2021). *Community guidelines for plural well-being*. The Plural Association.
 
 ## 相关条目
 

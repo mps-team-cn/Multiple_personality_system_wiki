@@ -14,10 +14,10 @@
 
 ### 上下文窗口限制
 
-| 模型 | 上下文窗口 | 3MB 文本 | 可行性 |
-|------|-----------|---------|--------|
-| Claude 3.5 Sonnet | 200K tokens | ~750K-1M tokens | ❌ 超出 |
-| 分批处理 | 200K tokens/批 | 分 4-5 批 | ✅ 可行 |
+| 模型              | 上下文窗口     | 3MB 文本        | 可行性  |
+| ----------------- | -------------- | --------------- | ------- |
+| Claude 3.5 Sonnet | 200K tokens    | ~750K-1M tokens | ❌ 超出 |
+| 分批处理          | 200K tokens/批 | 分 4-5 批       | ✅ 可行 |
 
 ### 数据特征
 
@@ -218,15 +218,15 @@ mkdocs build
 
 ## 工具脚本列表
 
-| 脚本 | 功能 | 状态 |
-|------|------|------|
-| `analyze_search_index.py` | 分析索引统计 | 待实现 |
-| `extract_dict_candidates.py` | 提取候选词 | 待实现 |
-| `split_candidates.py` | 分批处理 | 待实现 |
-| `merge_reviewed_batches.py` | 合并 AI 审核结果 | 待实现 |
-| `validate_dict.py` | 词典格式验证 | 待实现 |
-| `test_dict_segmentation.py` | 分词效果测试 | 待实现 |
-| `compare_dict_performance.py` | 性能对比 | 待实现 |
+| 脚本                          | 功能             | 状态   |
+| ----------------------------- | ---------------- | ------ |
+| `analyze_search_index.py`     | 分析索引统计     | 待实现 |
+| `extract_dict_candidates.py`  | 提取候选词       | 待实现 |
+| `split_candidates.py`         | 分批处理         | 待实现 |
+| `merge_reviewed_batches.py`   | 合并 AI 审核结果 | 待实现 |
+| `validate_dict.py`            | 词典格式验证     | 待实现 |
+| `test_dict_segmentation.py`   | 分词效果测试     | 待实现 |
+| `compare_dict_performance.py` | 性能对比         | 待实现 |
 
 ## 预期效果
 
@@ -240,8 +240,8 @@ mkdocs build
 ### 质量控制
 
 1. **人工抽查**: AI 审核后随机抽查 10% 条目
-2. **灰度测试**: 先在测试环境验证效果
-3. **版本管理**: 保留历史词典版本以便回滚
+1. **灰度测试**: 先在测试环境验证效果
+1. **版本管理**: 保留历史词典版本以便回滚
 
 ### 性能考虑
 

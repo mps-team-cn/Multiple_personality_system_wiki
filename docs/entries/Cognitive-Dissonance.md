@@ -1,19 +1,19 @@
 ---
 tags:
 
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
+  - 理论与分类
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 理论与分类
 title: 认知失调（Cognitive Dissonance）
 updated: 2025-10-13
 synonyms:
 
-- 认知不协调
-- 认知冲突
-- cognitive dissonance
+  - 认知不协调
+  - 认知冲突
+  - cognitive dissonance
 
 comments: true
 ---
@@ -58,5 +58,5 @@ comments: true
 ## 参考与延伸阅读
 
 1. Festinger, L. (1957). *A Theory of Cognitive Dissonance*. Stanford University Press.
-2. Harmon-Jones, E., & Mills, J. (2019). *Cognitive Dissonance: Reexamining a Pivotal Theory in Psychology* (2nd ed.). American Psychological Association.
-3. Cooper, J. (2012). Cognitive dissonance theory. In P. A. M. Van Lange et al. (Eds.), *Handbook of Theories of Social Psychology*. Sage.
+1. Harmon-Jones, E., & Mills, J. (2019). *Cognitive Dissonance: Reexamining a Pivotal Theory in Psychology* (2nd ed.). American Psychological Association.
+1. Cooper, J. (2012). Cognitive dissonance theory. In P. A. M. Van Lange et al. (Eds.), *Handbook of Theories of Social Psychology*. Sage.

@@ -3,11 +3,11 @@ title: 改良电痉挛治疗（Modified Electroconvulsive Therapy, MECT）
 topic: 诊断与临床
 tags:
 
-    - 生物治疗
-    - 脑刺激
-    - 重性抑郁障碍
-    - 躁郁症
-    - 临床干预
+  - 生物治疗
+  - 脑刺激
+  - 重性抑郁障碍
+  - 躁郁症
+  - 临床干预
 
 updated: 2025-10-17
 comments: true
@@ -16,7 +16,7 @@ comments: true
 # 改良电痉挛治疗（Modified Electroconvulsive Therapy, MECT）
 
 !!! warning "医疗免责声明"
-    本词条仅供科普与参考，不能替代专业医疗建议、诊断或治疗。是否接受 MECT 需由精神科医师基于个体评估（含麻醉评估）后共同决策。
+本词条仅供科普与参考，不能替代专业医疗建议、诊断或治疗。是否接受 MECT 需由精神科医师基于个体评估（含麻醉评估）后共同决策。
 
 ## 概述
 
@@ -38,10 +38,10 @@ comments: true
 ## 操作流程（简述）
 
 1. 术前评估：既往史与体检、心电图/血液学、麻醉评估、风险告知与书面同意
-2. 诱导麻醉：短效静脉麻醉 + 肌松（常用琥珀胆碱等），氧合与监护就位（血压、脉搏、血氧、心电等）
-3. 电极放置：双侧、双额或单侧（非优势半球）等；由医师据疗效/不良反应权衡选择
-4. 个体化剂量：以阈值滴定与设备参数（脉宽、频率、总能量）决定；诱发 20–50 秒左右的充分惊厥为目标
-5. 复苏与观察：苏醒室评估意识、呼吸、血流动力学与不良反应
+1. 诱导麻醉：短效静脉麻醉 + 肌松（常用琥珀胆碱等），氧合与监护就位（血压、脉搏、血氧、心电等）
+1. 电极放置：双侧、双额或单侧（非优势半球）等；由医师据疗效/不良反应权衡选择
+1. 个体化剂量：以阈值滴定与设备参数（脉宽、频率、总能量）决定；诱发 20–50 秒左右的充分惊厥为目标
+1. 复苏与观察：苏醒室评估意识、呼吸、血流动力学与不良反应
 
 ## 疗效与起效速度
 
@@ -78,8 +78,8 @@ comments: true
 
 - MECT 并非 **解离障碍（如 DID/OSDD）** 的常规或一线治疗；如为 **共病** 的重度抑郁、紧张症等而考虑 MECT，应与治疗团队充分沟通潜在 **记忆影响** 与对内部协作的影响，完善稳定化与支持性措施（参阅：[解离障碍](Dissociative-Disorders.md)）。
 - 创伤幸存者接受 MECT 时，建议：
-    - 在治疗前后安排 **接地** 与 **情绪调节** 支持（参阅：[接地](Grounding.md)、[辩证行为疗法（DBT）](Dialectical-Behavior-Therapy-DBT.md)）
-    - 通过 **书写与外部线索**（日记、时间线、提醒卡）辅助应对短期记忆波动
+  - 在治疗前后安排 **接地** 与 **情绪调节** 支持（参阅：[接地](Grounding.md)、[辩证行为疗法（DBT）](Dialectical-Behavior-Therapy-DBT.md)）
+  - 通过 **书写与外部线索**（日记、时间线、提醒卡）辅助应对短期记忆波动
 
 ## 患者权利与共同决策
 
@@ -116,7 +116,7 @@ comments: true
 
 [6] Kellner, C. H., Fink, M., Knapp, R., et al. (2005). Relief of expressed suicidal intent by ECT: A consortium for research in ECT study. *American Journal of Psychiatry*, 162(5), 977-982. [https://doi.org/10.1176/appi.ajp.162.5.977](https://doi.org/10.1176/appi.ajp.162.5.977)
 
-[7] UK ECT Review Group. (2003). Efficacy and safety of electroconvulsive therapy in depressive disorders: A systematic review and meta-analysis. *Lancet*, 361(9360), 799-808. [https://doi.org/10.1016/S0140-6736（03](https://doi.org/10.1016/S0140-6736(03))12705-5
+[7] UK ECT Review Group. (2003). Efficacy and safety of electroconvulsive therapy in depressive disorders: A systematic review and meta-analysis. *Lancet*, 361(9360), 799-808. [https://doi.org/10.1016/S0140-6736（03](<https://doi.org/10.1016/S0140-6736(03)>)12705-5
 
 [8] Lisanby, S. H. (2007). Electroconvulsive therapy for depression. *New England Journal of Medicine*, 357(19), 1939-1945. [https://doi.org/10.1056/NEJMct075234](https://doi.org/10.1056/NEJMct075234)
 

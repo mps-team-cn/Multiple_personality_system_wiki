@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 系统运作
-- DID
-- 多重意识体
-- 解离
+  - 系统运作
+  - DID
+  - 多重意识体
+  - 解离
 
 topic: 系统运作
 description: 多意识体系统（MPS）概念详解：定义、类型、运作机制与日常管理。了解多重人格系统的本质、成员关系及协作方式的专业指南
@@ -12,11 +12,11 @@ title: 多意识体系统（Multiple Personality System）
 updated: 2025-10-17
 synonyms:
 
-- 多意识体系统
-- Multiple Personality System
-- 多意识体
-- Plurality
-- duochong renge xitong
+  - 多意识体系统
+  - Multiple Personality System
+  - 多意识体
+  - Plurality
+  - duochong renge xitong
 
 search:
   boost: 1.5
@@ -82,8 +82,8 @@ comments: true
 
 ## 参考资料
 
-[^plurality-def]: Lopez, C., & Tait, C. (2020). Plural identities and collaborative functioning in dissociative systems. *Journal of Plural Studies, 5*(2), 15-32.
-[^isstd-guideline]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation, 12*(2), 115-187.
-[^pluralpedia-glossary]: Pluralpedia. (2023). [Common Terms](https://pluralpedia.org/w/Category:Common_Terms).
-[^brand2016]: Brand, B. L., & Loewenstein, R. J. (2016). Dissociative disorders: An overview of assessment, phenomenology, and treatment. *Psychiatric Clinics of North America, 39*(4), 607-627.
-[^reinders2018]: Reinders, A. A. T. S., & Veltman, D. J. (2018). Dissociative disorders and the brain. *Neuroscience & Biobehavioral Reviews, 94*, 213-227.
+\[^plurality-def\]: Lopez, C., & Tait, C. (2020). Plural identities and collaborative functioning in dissociative systems. *Journal of Plural Studies, 5*(2), 15-32.
+\[^isstd-guideline\]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation, 12*(2), 115-187.
+\[^pluralpedia-glossary\]: Pluralpedia. (2023). [Common Terms](https://pluralpedia.org/w/Category:Common_Terms).
+\[^brand2016\]: Brand, B. L., & Loewenstein, R. J. (2016). Dissociative disorders: An overview of assessment, phenomenology, and treatment. *Psychiatric Clinics of North America, 39*(4), 607-627.
+\[^reinders2018\]: Reinders, A. A. T. S., & Veltman, D. J. (2018). Dissociative disorders and the brain. *Neuroscience & Biobehavioral Reviews, 94*, 213-227.

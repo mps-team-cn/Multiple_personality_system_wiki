@@ -3,16 +3,16 @@ title: 慢性疼痛（Chronic Pain）
 topic: 诊断与临床
 tags:
 
-    - 诊断与临床
-    - 共病
-    - 身心医学
-    - 系统支持
+  - 诊断与临床
+  - 共病
+  - 身心医学
+  - 系统支持
 
 updated: 2025-10-14
 synonyms:
 
-    - 慢性疼痛
-    - Chronic Pain
+  - 慢性疼痛
+  - Chronic Pain
 
 comments: true
 ---
@@ -20,10 +20,10 @@ comments: true
 # 慢性疼痛（Chronic Pain）
 
 !!! warning "触发警告"
-    内容涉及身体疼痛、创伤记忆与功能受限等议题，可能引发不适。
+内容涉及身体疼痛、创伤记忆与功能受限等议题，可能引发不适。
 
 !!! info "免责声明"
-    本文仅供教育与同侪支持参考，不替代专业医疗诊断或治疗。如出现持续或加重的疼痛，请寻求持证医师评估。
+本文仅供教育与同侪支持参考，不替代专业医疗诊断或治疗。如出现持续或加重的疼痛，请寻求持证医师评估。
 
 ## 概述
 
@@ -58,9 +58,9 @@ DSM-5-TR 中直接对应的诊断为 [**躯体症状障碍（Somatic Symptom Dis
 ## 临床评估
 
 1. **全面病史**：包括起病时间、疼痛部位、性质、加剧/缓解因素、既往治疗与药物使用。
-2. **功能评估**：关注睡眠、行动力、工作与生活质量的受限程度；并记录符合 DSM-5-TR 的认知/行为指标。
-3. **精神健康筛查**：评估 [抑郁障碍](Depressive-Disorders.md)、[广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md)、[PTSD](PTSD.md)、物质使用等共病情况。
-4. **系统内沟通**：记录各意识单元对疼痛的感受、触发因素与最佳应对策略，避免内部误解。
+1. **功能评估**：关注睡眠、行动力、工作与生活质量的受限程度；并记录符合 DSM-5-TR 的认知/行为指标。
+1. **精神健康筛查**：评估 [抑郁障碍](Depressive-Disorders.md)、[广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md)、[PTSD](PTSD.md)、物质使用等共病情况。
+1. **系统内沟通**：记录各意识单元对疼痛的感受、触发因素与最佳应对策略，避免内部误解。
 
 ## 对多意识体系统的影响
 
@@ -77,17 +77,17 @@ DSM-5-TR 中直接对应的诊断为 [**躯体症状障碍（Somatic Symptom Dis
 ## 治疗与管理
 
 1. **生物医学干预**
-    - 药物：非甾体抗炎药、选择性神经调节药（如加巴喷丁）、局部麻醉剂或低剂量抗抑郁药。需评估长期使用的风险与收益。
-    - 介入疗法：神经阻滞、射频消融、脊髓电刺激在特定病例中有效，但需与疼痛专科协作。
-2. **心理社会干预**
-    - [认知行为疗法（CBT）](Cognitive-Behavioral-Therapy-CBT.md)、接受与承诺疗法（ACT）可帮助重建疼痛认知与行为调节。
-    - 正念练习、呼吸训练和渐进性肌肉放松有助于降低警觉系统敏感度。
-    - 系统内部可建立“疼痛日志”，由不同成员记录体验与有效策略，形成共享知识库。
-3. **功能康复**
-    - 物理治疗、作业治疗帮助恢复活动能力，减少二次损伤。
-    - 设定小步前进的活动计划，避免过度休息或一次性过量运动。
-4. **多学科团队**
-    - 理想状态下由疼痛科、心理师、职业治疗师与社会工作者协同，必要时纳入精神科医师管理共病。
+   - 药物：非甾体抗炎药、选择性神经调节药（如加巴喷丁）、局部麻醉剂或低剂量抗抑郁药。需评估长期使用的风险与收益。
+   - 介入疗法：神经阻滞、射频消融、脊髓电刺激在特定病例中有效，但需与疼痛专科协作。
+1. **心理社会干预**
+   - [认知行为疗法（CBT）](Cognitive-Behavioral-Therapy-CBT.md)、接受与承诺疗法（ACT）可帮助重建疼痛认知与行为调节。
+   - 正念练习、呼吸训练和渐进性肌肉放松有助于降低警觉系统敏感度。
+   - 系统内部可建立“疼痛日志”，由不同成员记录体验与有效策略，形成共享知识库。
+1. **功能康复**
+   - 物理治疗、作业治疗帮助恢复活动能力，减少二次损伤。
+   - 设定小步前进的活动计划，避免过度休息或一次性过量运动。
+1. **多学科团队**
+   - 理想状态下由疼痛科、心理师、职业治疗师与社会工作者协同，必要时纳入精神科医师管理共病。
 
 ## 自我照护建议
 
@@ -98,7 +98,7 @@ DSM-5-TR 中直接对应的诊断为 [**躯体症状障碍（Somatic Symptom Dis
 
 ## 参考资料
 
-[^who2023pain]: World Health Organization. *WHO guidelines for the management of chronic pain in adults*. Geneva: WHO, 2023.
-[^icd11pain]: Treede RD, et al. “Chronic pain as a symptom or a disease: the IASP Classification of Chronic Pain for ICD-11.” *Pain*, 2019.
-[^apa2022pain]: American Psychiatric Association. *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.)*. Washington, DC: APA Publishing, 2022.
-[^nihpain2023]: National Institutes of Health. “Chronic Pain: In Depth.” MedlinePlus, reviewed 2023. <https://medlineplus.gov/chronicpain.html>
+\[^who2023pain\]: World Health Organization. *WHO guidelines for the management of chronic pain in adults*. Geneva: WHO, 2023.
+\[^icd11pain\]: Treede RD, et al. “Chronic pain as a symptom or a disease: the IASP Classification of Chronic Pain for ICD-11.” *Pain*, 2019.
+\[^apa2022pain\]: American Psychiatric Association. *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.)*. Washington, DC: APA Publishing, 2022.
+\[^nihpain2023\]: National Institutes of Health. “Chronic Pain: In Depth.” MedlinePlus, reviewed 2023. <https://medlineplus.gov/chronicpain.html>

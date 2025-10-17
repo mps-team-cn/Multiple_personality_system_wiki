@@ -1,19 +1,19 @@
 ---
 tags:
 
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
+  - 理论与分类
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 理论与分类
 title: 心理弹性（Psychological Resilience）
 updated: 2025-10-13
 synonyms:
 
-- 心理韧性
-- 复原力
-- resilience
+  - 心理韧性
+  - 复原力
+  - resilience
 
 comments: true
 ---
@@ -58,5 +58,5 @@ comments: true
 ## 参考与延伸阅读
 
 1. Masten, A. S. (2014). *Ordinary Magic: Resilience in Development*. Guilford Press.
-2. Southwick, S. M., & Charney, D. S. (2018). *Resilience: The Science of Mastering Life's Greatest Challenges* (2nd ed.). Cambridge University Press.
-3. Ungar, M. (2012). Social ecologies and their contribution to resilience. *The Social Ecology of Resilience*. Springer.
+1. Southwick, S. M., & Charney, D. S. (2018). *Resilience: The Science of Mastering Life's Greatest Challenges* (2nd ed.). Cambridge University Press.
+1. Ungar, M. (2012). Social ecologies and their contribution to resilience. *The Social Ecology of Resilience*. Springer.

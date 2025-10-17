@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 创伤与疗愈
-- 多重意识体
-- 解离
-- 创伤
+  - 创伤与疗愈
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 创伤与疗愈
 title: 冥想（Meditation）
@@ -22,15 +22,15 @@ comments: true
 
 **冥想** 是一类透过聚焦呼吸、身体感受或特定意象来训练注意力与觉察力的身心练习，可用于调节压力、增进情绪弹性，并在创伤或解离相关的支持工作中提供稳定化资源[^冥想-1][^冥想-2]。
 
----
+______________________________________________________________________
 
 ## 主要取向
 
 1. **正念冥想（Mindfulness Meditation）** ：鼓励不评判地觉察当下经验，常见于 MBSR、MBCT 等课程。对多意识体系统来说，可作为练习接地、降低过度警觉的工具，但需要针对创伤反应进行调整。
-2. **专注冥想（Focused Attention）** ：透过计数呼吸、观想固定目标来训练专注，适合作为日常前台交班前的准备，使当班成员在身体里建立稳定感。
-3. **慈悲冥想（Loving-kindness/Compassion）** ：培养对自己与他者的善意，有助于缓和成员间的紧张或羞耻情绪。
+1. **专注冥想（Focused Attention）** ：透过计数呼吸、观想固定目标来训练专注，适合作为日常前台交班前的准备，使当班成员在身体里建立稳定感。
+1. **慈悲冥想（Loving-kindness/Compassion）** ：培养对自己与他者的善意，有助于缓和成员间的紧张或羞耻情绪。
 
----
+______________________________________________________________________
 
 ## 在多意识体系统中的应用
 
@@ -38,7 +38,7 @@ comments: true
 - **情绪调节** : 规律练习能提升辨识情绪与身体讯号的能力，降低过度解离或爆发式情绪反应的频率[^冥想-3]。
 - **创伤处理的辅助** : 在专业治疗中，冥想可搭配接地与安全处所意象，帮助成员在面对创伤记忆前建立资源；但当闪回强烈时，应优先使用更具感官锚定的技巧。
 
----
+______________________________________________________________________
 
 ## 风险与注意事项
 
@@ -46,7 +46,7 @@ comments: true
 - **角色差异** : 不同成员对冥想的耐受度可能差异甚大，系统可事前协商由谁带领、谁旁观，并准备替代活动（如走路冥想、动觉练习）。
 - **专业协作** : 若系统正在接受治疗，可与治疗者讨论合适的冥想形式，确保练习与治疗阶段相符。
 
----
+______________________________________________________________________
 
 ## 实务建议
 
@@ -54,7 +54,7 @@ comments: true
 - 使用外部节拍（音乐、节拍器）帮助保持专注，并确认身体处于安全状态。
 - 练习后进行内部签到，记录各成员的感受，评估是否需要调整。
 
----
+______________________________________________________________________
 
 ## 常见误区
 
@@ -64,7 +64,7 @@ comments: true
 - **冥想能替代专业治疗** : 冥想可作为辅助工具，但不能单独替代心理治疗、药物或其他干预措施。
 - **必须“清空思绪”** : 冥想不是要消灭杂念，而是学习觉察念头并温和地将注意力带回目标。
 
----
+______________________________________________________________________
 
 ## 核心特征
 
@@ -74,7 +74,7 @@ comments: true
 - **灵活性** : 形式多样，可静坐、行走、观想或结合运动（如瑜伽、太极）。
 - **可整合性** : 既能作为日常自助工具，也能作为创伤治疗或多意识体支持的辅助方法。
 
----
+______________________________________________________________________
 
 ## 鉴别
 
@@ -83,7 +83,7 @@ comments: true
 - **与解离状态的区分** : 冥想虽可能涉及意识状态改变，但其目标是增强觉察与自主，而非失去现实感或控制感。
 - **与宗教仪式的区分** : 冥想可出现在宗教语境中，但在心理健康领域，通常以世俗化、科学化方式应用。
 
----
+______________________________________________________________________
 
 ## 相关条目
 
@@ -98,7 +98,7 @@ comments: true
 
 ## 参考资料
 
-[^冥想-1]: Kabat-Zinn, J. (2013). _Full Catastrophe Living_ (Revised ed.). Bantam Books.
-[^冥想-2]: Treleaven, D. A. (2018). _Trauma-Sensitive Mindfulness: Practices for Safe and Transformative Healing_. W. W. Norton & Company.
-[^冥想-3]: King, A. P., et al. (2013). Altered default mode network (DMN) resting state functional connectivity following a mindfulness-based exposure therapy for PTSD. _NeuroImage: Clinical, 2_, 504-510.
-[^冥想-4]: Schmalzl, L., Powers, C., & Henje Blom, E. (2015). Neurophysiological and neurocognitive mechanisms underlying the effects of yoga-based practices: towards a comprehensive theoretical framework. _Frontiers in Human Neuroscience, 9_, 235.
+\[^冥想-1\]: Kabat-Zinn, J. (2013). _Full Catastrophe Living_ (Revised ed.). Bantam Books.
+\[^冥想-2\]: Treleaven, D. A. (2018). _Trauma-Sensitive Mindfulness: Practices for Safe and Transformative Healing_. W. W. Norton & Company.
+\[^冥想-3\]: King, A. P., et al. (2013). Altered default mode network (DMN) resting state functional connectivity following a mindfulness-based exposure therapy for PTSD. _NeuroImage: Clinical, 2_, 504-510.
+\[^冥想-4\]: Schmalzl, L., Powers, C., & Henje Blom, E. (2015). Neurophysiological and neurocognitive mechanisms underlying the effects of yoga-based practices: towards a comprehensive theoretical framework. _Frontiers in Human Neuroscience, 9_, 235.

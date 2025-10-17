@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
+  - 角色与身份
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 角色与身份
 title: 伪主体（Fauxmain）
@@ -45,5 +45,5 @@ comments: true
 
 ## 参考与延伸阅读
 
-[^fauxmain-pluralpedia]: Pluralpedia. 2023. "Fauxmain." [https://pluralpedia.org/w/Fauxmain.](https://pluralpedia.org/w/Fauxmain.)
-[^kinhost-median]: The Crisses. 2020. "Median Systems & Terminology." *Kinhost.org*. [https://kinhost.org/Main/MedianSystems.](https://kinhost.org/Main/MedianSystems.)
+\[^fauxmain-pluralpedia\]: Pluralpedia. 2023. "Fauxmain." [https://pluralpedia.org/w/Fauxmain.](https://pluralpedia.org/w/Fauxmain.)
+\[^kinhost-median\]: The Crisses. 2020. "Median Systems & Terminology." *Kinhost.org*. [https://kinhost.org/Main/MedianSystems.](https://kinhost.org/Main/MedianSystems.)

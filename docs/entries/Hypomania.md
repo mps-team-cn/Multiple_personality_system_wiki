@@ -1,25 +1,25 @@
 ---
 tags:
 
-- 诊断与临床
-- 多重意识体
-- 解离
-- 创伤
+  - 诊断与临床
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 诊断与临床
 title: 轻躁狂（Hypomania）
 updated: 2025-10-14
 synonyms:
 
-- 轻躁狂
-- 轻躁症
-- Hypomania
-- qingzaokuang
-- hypomanic episode
-- hypomania
-- 轻躁狂发作
-- hypomania episode
-- hypomanic state
+  - 轻躁狂
+  - 轻躁症
+  - Hypomania
+  - qingzaokuang
+  - hypomanic episode
+  - hypomania
+  - 轻躁狂发作
+  - hypomania episode
+  - hypomanic state
 
 comments: true
 ---
@@ -27,10 +27,10 @@ comments: true
 # 轻躁狂（Hypomania）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
 ## 概述
 
@@ -83,9 +83,9 @@ comments: true
 ## 支持与干预
 
 1. **药物治疗** ：情绪稳定剂（锂盐、丙戊酸盐、拉莫三嗪）及非典型抗精神病药（喹硫平、鲁拉西酮等）是控制轻躁狂与预防转换的核心方案；必要时短期使用苯二氮䓬类控制激越，但需避免依赖。[^canmat2021]
-2. **心理社会干预** ：教育个体与其支持网络识别早期预警信号，实施节律与社会节奏治疗（IPSRT）、认知行为治疗（CBT）与家庭聚焦治疗（FFT）。
-3. **生活方式调整** ：维持规律睡眠、监测咖啡因与酒精摄入、设定消费与承诺上限；在创意或高效率阶段安排复盘机制，避免过度接案。
-4. **危机预案** ：明确何时联系专业人员或启动安全措施，系统成员可约定共享日程、主动提醒休息与用药。
+1. **心理社会干预** ：教育个体与其支持网络识别早期预警信号，实施节律与社会节奏治疗（IPSRT）、认知行为治疗（CBT）与家庭聚焦治疗（FFT）。
+1. **生活方式调整** ：维持规律睡眠、监测咖啡因与酒精摄入、设定消费与承诺上限；在创意或高效率阶段安排复盘机制，避免过度接案。
+1. **危机预案** ：明确何时联系专业人员或启动安全措施，系统成员可约定共享日程、主动提醒休息与用药。
 
 ## 多重意识体与社群视角
 
@@ -106,7 +106,7 @@ comments: true
 
 ## 参考资料
 
-[^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
-[^who2023b]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Mania and hypomania (6A60).* [https://icd.who.int/en](https://icd.who.int/en)
-[^nimh2024b]: National Institute of Mental Health. (2024, May 10). *Bipolar Disorder.* [https://www.nimh.nih.gov/health/topics/bipolar-disorder](https://www.nimh.nih.gov/health/topics/bipolar-disorder)
-[^canmat2021]: Yatham, L. N., et al. (2021). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders 2021 guidelines for the management of patients with bipolar disorder. *Bipolar Disorders, 23*(9), 724–756.
+\[^apa2022\]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
+\[^who2023b\]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Mania and hypomania (6A60).* [https://icd.who.int/en](https://icd.who.int/en)
+\[^nimh2024b\]: National Institute of Mental Health. (2024, May 10). *Bipolar Disorder.* [https://www.nimh.nih.gov/health/topics/bipolar-disorder](https://www.nimh.nih.gov/health/topics/bipolar-disorder)
+\[^canmat2021\]: Yatham, L. N., et al. (2021). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders 2021 guidelines for the management of patients with bipolar disorder. *Bipolar Disorders, 23*(9), 724–756.

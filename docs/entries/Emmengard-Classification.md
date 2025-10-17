@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 角色与身份
-- 适应型
-- 多重意识体
-- 解离
+  - 角色与身份
+  - 适应型
+  - 多重意识体
+  - 解离
 
 topic: 角色与身份
 title: 埃蒙加德分类法（Emmengard Classification）

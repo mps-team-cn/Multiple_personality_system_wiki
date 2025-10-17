@@ -1,19 +1,19 @@
 ---
 tags:
 
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
+  - 理论与分类
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 理论与分类
 title: 情绪调节（Emotion Regulation）
 updated: 2025-10-13
 synonyms:
 
-- 情绪管理
-- 情绪调控
-- emotion regulation
+  - 情绪管理
+  - 情绪调控
+  - emotion regulation
 
 comments: true
 ---
@@ -21,10 +21,10 @@ comments: true
 # 情绪调节（Emotion Regulation）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
 ## 概述
 
@@ -64,5 +64,5 @@ comments: true
 ## 参考与延伸阅读
 
 1. Gross, J. J. (2015). Emotion regulation: Current status and future prospects. *Psychological Inquiry*, 26(1), 1–26.
-2. Linehan, M. M. (2015). *DBT Skills Training Manual* (2nd ed.). Guilford Press.
-3. Mennin, D. S., & Fresco, D. M. (2014). Emotion regulation therapy. *Clinical Psychology & Psychotherapy*, 21(6), 552–568.
+1. Linehan, M. M. (2015). *DBT Skills Training Manual* (2nd ed.). Guilford Press.
+1. Mennin, D. S., & Fresco, D. M. (2014). Emotion regulation therapy. *Clinical Psychology & Psychotherapy*, 21(6), 552–568.

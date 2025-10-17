@@ -3,16 +3,16 @@ title: 认知行为疗法（Cognitive Behavioral Therapy, CBT）
 topic: 创伤与疗愈
 tags:
 
-    - 创伤与疗愈
-    - 心理治疗
-    - 认知行为
+  - 创伤与疗愈
+  - 心理治疗
+  - 认知行为
 
 updated: 2025-10-14
 synonyms:
 
-    - 认知行为疗法
-    - Cognitive Behavioral Therapy
-    - CBT
+  - 认知行为疗法
+  - Cognitive Behavioral Therapy
+  - CBT
 
 comments: true
 ---
@@ -20,7 +20,7 @@ comments: true
 # 认知行为疗法（Cognitive Behavioral Therapy, CBT）
 
 !!! info "免责声明"
-    本文仅供教育参考，不能替代专业医疗建议。CBT 需由受训治疗师评估、规划与实施，遇到危机或高风险症状时请立即寻求专业协助。
+本文仅供教育参考，不能替代专业医疗建议。CBT 需由受训治疗师评估、规划与实施，遇到危机或高风险症状时请立即寻求专业协助。
 
 ## 概述
 
@@ -39,23 +39,23 @@ CBT 以结构化、时间有限与合作式为特色，常见形式包括 **个�
 ## 核心组成
 
 1. **认知评估与重建**
-    - 使用思维记录、证据检验与替代信念练习，针对灾难化、过度概括等认知偏差。
-2. **行为干预**
-    - 包含行为激活、系统性暴露、技能训练与问题解决，帮助打破回避循环。
-3. **情绪调节与正念技巧**
-    - 结合呼吸调节、正念观察与情绪标记等技巧，强化觉察与自我调节能力。
-4. **作业与自我监测**
-    - 每次会谈布置家庭作业，记录思维、行为与情绪变化，支持技能泛化。
+   - 使用思维记录、证据检验与替代信念练习，针对灾难化、过度概括等认知偏差。
+1. **行为干预**
+   - 包含行为激活、系统性暴露、技能训练与问题解决，帮助打破回避循环。
+1. **情绪调节与正念技巧**
+   - 结合呼吸调节、正念观察与情绪标记等技巧，强化觉察与自我调节能力。
+1. **作业与自我监测**
+   - 每次会谈布置家庭作业，记录思维、行为与情绪变化，支持技能泛化。
 
 ## 常见变体与整合
 
-| 变体 | 适用情境 | 关键特色 |
-| --- | --- | --- |
-| CBT-I | [失眠障碍](Insomnia-Disorder.md) | 睡眠限制、刺激控制、放松训练 |
-| [TF-CBT](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md) | 儿童青少年创伤 | PRACTICE 模型、家庭参与 |
-| MBCT | 复发性抑郁 | 正念训练结合认知策略 |
-| 第三波 CBT | [接受与承诺疗法（ACT）](Acceptance-Commitment-Therapy-ACT.md)、[辩证行为疗法（DBT）](Dialectical-Behavior-Therapy-DBT.md)等 | 强调接纳、价值澄清与[正念](Mindfulness.md) |
-| 疼痛聚焦 CBT | 慢性疼痛、[慢性疼痛综合征](Chronic-Pain.md) | 灾难化思维矫正、活动 pacing、放松练习 |
+| 变体                                                            | 适用情境                                                                                                                    | 关键特色                                   |
+| --------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| CBT-I                                                           | [失眠障碍](Insomnia-Disorder.md)                                                                                            | 睡眠限制、刺激控制、放松训练               |
+| [TF-CBT](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md) | 儿童青少年创伤                                                                                                              | PRACTICE 模型、家庭参与                    |
+| MBCT                                                            | 复发性抑郁                                                                                                                  | 正念训练结合认知策略                       |
+| 第三波 CBT                                                      | [接受与承诺疗法（ACT）](Acceptance-Commitment-Therapy-ACT.md)、[辩证行为疗法（DBT）](Dialectical-Behavior-Therapy-DBT.md)等 | 强调接纳、价值澄清与[正念](Mindfulness.md) |
+| 疼痛聚焦 CBT                                                    | 慢性疼痛、[慢性疼痛综合征](Chronic-Pain.md)                                                                                 | 灾难化思维矫正、活动 pacing、放松练习      |
 
 ## 对多意识体系统的调适
 
@@ -79,7 +79,7 @@ CBT 以结构化、时间有限与合作式为特色，常见形式包括 **个�
 
 ## 参考资料
 
-[^beck2011]: Beck JS. *Cognitive Behavior Therapy: Basics and Beyond* (2nd ed.). New York: Guilford Press, 2011.
-[^hofmann2012]: Hofmann SG, et al. “The Efficacy of Cognitive Behavioral Therapy: A Review of Meta-analyses.” *Cognitive Therapy and Research*, 2012.
-[^otto2007]: Otto MW, et al. “Cognitive-Behavior Therapy for Bipolar Disorder.” *Canadian Journal of Psychiatry*, 2007.
-[^ehde2014]: Ehde DM, Dillworth TM, Turner JA. “Cognitive-Behavioral Therapy for Individuals with Chronic Pain.” *American Psychologist*, 2014.
+\[^beck2011\]: Beck JS. *Cognitive Behavior Therapy: Basics and Beyond* (2nd ed.). New York: Guilford Press, 2011.
+\[^hofmann2012\]: Hofmann SG, et al. “The Efficacy of Cognitive Behavioral Therapy: A Review of Meta-analyses.” *Cognitive Therapy and Research*, 2012.
+\[^otto2007\]: Otto MW, et al. “Cognitive-Behavior Therapy for Bipolar Disorder.” *Canadian Journal of Psychiatry*, 2007.
+\[^ehde2014\]: Ehde DM, Dillworth TM, Turner JA. “Cognitive-Behavioral Therapy for Individuals with Chronic Pain.” *American Psychologist*, 2014.

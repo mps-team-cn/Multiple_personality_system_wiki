@@ -2,16 +2,16 @@
 title: 人格分裂（Split Personality，非正式术语）
 tags:
 
-    - 诊断与临床
-    - 非正式术语
-    - 误用辨析
+  - 诊断与临床
+  - 非正式术语
+  - 误用辨析
 
 topic: 诊断与临床
 synonyms:
 
-    - 人格分裂
-    - Split personality
-    - 多重人格（俗称）
+  - 人格分裂
+  - Split personality
+  - 多重人格（俗称）
 
 updated: 2025-10-14
 comments: true
@@ -20,10 +20,10 @@ comments: true
 # 人格分裂（Split Personality，非正式术语）
 
 !!! warning "术语澄清"
-    “人格分裂”不是 DSM-5-TR 或 ICD-11 中的正式诊断名称，常被媒体与大众用来指称[解离性身份障碍（DID）](DID.md)或误指[精神分裂症（Schizophrenia）](Schizophrenia-SZ.md)。本词条旨在辨析该俗称的历史背景、常见误解与沟通建议。
+“人格分裂”不是 DSM-5-TR 或 ICD-11 中的正式诊断名称，常被媒体与大众用来指称[解离性身份障碍（DID）](DID.md)或误指[精神分裂症（Schizophrenia）](Schizophrenia-SZ.md)。本词条旨在辨析该俗称的历史背景、常见误解与沟通建议。
 
 !!! info "免责声明"
-    本词条仅用于解释非正式术语，不能替代专业诊断。如有就医需求，请寻求持证医疗人员协助。
+本词条仅用于解释非正式术语，不能替代专业诊断。如有就医需求，请寻求持证医疗人员协助。
 
 ## 术语来源与传播
 
@@ -67,7 +67,7 @@ comments: true
 
 ## 参考与延伸阅读
 
-[^hacking1995]: Hacking, I. (1995). *Rewriting the Soul: Multiple Personality and the Sciences of Memory*. Princeton University Press.
-[^spanos1994]: Spanos, N. P. (1994). Multiple identity enactments and multiple personality disorder: A sociocognitive perspective. *Psychological Bulletin*, 116(1), 143–165.
-[^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
-[^who2023]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics* (Version 2023-01). World Health Organization.
+\[^hacking1995\]: Hacking, I. (1995). *Rewriting the Soul: Multiple Personality and the Sciences of Memory*. Princeton University Press.
+\[^spanos1994\]: Spanos, N. P. (1994). Multiple identity enactments and multiple personality disorder: A sociocognitive perspective. *Psychological Bulletin*, 116(1), 143–165.
+\[^apa2022\]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
+\[^who2023\]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics* (Version 2023-01). World Health Organization.

@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 诊断与临床
-- 多重意识体
-- 解离
-- 创伤
+  - 诊断与临床
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 诊断与临床
 title: 习得性无助（Learned Helplessness）
@@ -103,11 +103,11 @@ comments: true
 
 ## 参考文献
 
-[^seligman1967]: Seligman, M. E. P., & Maier, S. F. (1967). Failure to escape traumatic shock. _Journal of Experimental Psychology, 74_(1), 1-9.
-[^abramson1978]: Abramson, L. Y., Seligman, M. E. P., & Teasdale, J. D. (1978). Learned helplessness in humans: Critique and reformulation. _Journal of Abnormal Psychology, 87_(1), 49-74.
-[^maier2016]: Maier, S. F., & Seligman, M. E. P. (2016). Learned helplessness at fifty: Insights from neuroscience. _Psychological Review, 123_(4), 349-367.
-[^who2023]: World Health Organization. (2023). _ICD-11 for Mortality and Morbidity Statistics_. <https://icd.who.int/browse11>
-[^apa2022]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.).
-[^van2014]: van der Kolk, B. A. (2014). _The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma_. Viking.
-[^quinless1988]: Quinless, F. W., & Nelson, M. A. (1988). Development of a measure of learned helplessness. _Nursing Research, 37_(1), 11-15.
-[^peterson1982]: Peterson, C., Semmel, A., Baeyer, C., Abramson, L. Y., Metalsky, G. I., & Seligman, M. E. P. (1982). The Attributional Style Questionnaire. _Cognitive Therapy and Research, 6_(3), 287-300.
+\[^seligman1967\]: Seligman, M. E. P., & Maier, S. F. (1967). Failure to escape traumatic shock. _Journal of Experimental Psychology, 74_(1), 1-9.
+\[^abramson1978\]: Abramson, L. Y., Seligman, M. E. P., & Teasdale, J. D. (1978). Learned helplessness in humans: Critique and reformulation. _Journal of Abnormal Psychology, 87_(1), 49-74.
+\[^maier2016\]: Maier, S. F., & Seligman, M. E. P. (2016). Learned helplessness at fifty: Insights from neuroscience. _Psychological Review, 123_(4), 349-367.
+\[^who2023\]: World Health Organization. (2023). _ICD-11 for Mortality and Morbidity Statistics_. <https://icd.who.int/browse11>
+\[^apa2022\]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.).
+\[^van2014\]: van der Kolk, B. A. (2014). _The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma_. Viking.
+\[^quinless1988\]: Quinless, F. W., & Nelson, M. A. (1988). Development of a measure of learned helplessness. _Nursing Research, 37_(1), 11-15.
+\[^peterson1982\]: Peterson, C., Semmel, A., Baeyer, C., Abramson, L. Y., Metalsky, G. I., & Seligman, M. E. P. (1982). The Attributional Style Questionnaire. _Cognitive Therapy and Research, 6_(3), 287-300.

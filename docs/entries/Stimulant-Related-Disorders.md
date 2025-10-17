@@ -1,20 +1,20 @@
 ---
 tags:
 
-    - 诊断与临床
-    - 物质使用
-    - 成瘾
+  - 诊断与临床
+  - 物质使用
+  - 成瘾
 
 topic: 诊断与临床
 title: 兴奋剂相关障碍（Stimulant-Related Disorders）
 synonyms:
 
-    - 兴奋剂使用障碍
-    - 可卡因成瘾
-    - 甲基苯丙胺依赖
-    - Stimulant Use Disorder
-    - Cocaine Addiction
-    - Methamphetamine Dependence
+  - 兴奋剂使用障碍
+  - 可卡因成瘾
+  - 甲基苯丙胺依赖
+  - Stimulant Use Disorder
+  - Cocaine Addiction
+  - Methamphetamine Dependence
 
 description: 全面了解兴奋剂相关障碍的诊断标准、临床表现与治疗方法,包括可卡因、甲基苯丙胺等兴奋剂的成瘾、中毒及戒断症状
 updated: 2025-10-16
@@ -24,18 +24,18 @@ comments: true
 # 兴奋剂相关障碍（Stimulant-Related Disorders）
 
 !!! warning "触发警告"
-    内容涉及物质使用、成瘾、精神病症状、暴力行为等敏感议题,阅读时请留意自身状态。
+内容涉及物质使用、成瘾、精神病症状、暴力行为等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。兴奋剂过量可能危及生命,如遇紧急情况请立即拨打急救电话。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。兴奋剂过量可能危及生命,如遇紧急情况请立即拨打急救电话。
 
----
+______________________________________________________________________
 
 ## 概述
 
 兴奋剂相关障碍涵盖因使用中枢神经兴奋剂（可卡因、甲基苯丙胺/冰毒、苯丙胺、摇头丸/MDMA、处方兴奋剂如哌甲酯/利他林、安非他命等）所导致的成瘾与健康问题。核心诊断包括 **兴奋剂使用障碍**（表现为强迫性使用、耐受性增加、心理依赖及严重功能受损）、**兴奋剂中毒**（急性交感神经系统过度激活,可致心血管意外与死亡）、**兴奋剂戒断**（停用后的抑郁性"崩溃"）以及 **兴奋剂诱发的精神障碍**（尤其精神病）。兴奋剂通过激活多巴胺奖赏系统产生强烈欣快感与能量提升,具有极高的心理成瘾性。长期使用可导致严重心血管损害、认知功能障碍与精神病性症状。甲基苯丙胺危机在东亚、东南亚及北美部分地区持续恶化。ICD-11 编码为 6C44,DSM-5-TR 将其归入物质相关及成瘾障碍章节。
 
----
+______________________________________________________________________
 
 ## 诊断要点
 
@@ -77,16 +77,16 @@ comments: true
 诊断需在过去 12 个月内出现以下 11 项中至少 2 项:
 
 1. 使用兴奋剂的量或时间常超出预期
-2. 持续渴望或尝试控制/减少使用但未成功
-3. 花费大量时间获取、使用或从兴奋剂作用中恢复
-4. 对兴奋剂的强烈渴求
-5. 反复使用导致无法履行工作、学习或家庭责任
-6. 尽管因使用导致或加剧社交/人际问题仍继续使用
-7. 因使用而放弃或减少重要社交、职业或娱乐活动
-8. 在有危险的情境下反复使用（如药驾）
-9. 明知使用引发或加重身体/心理问题仍继续使用
-10. 耐受性:需要显著增加剂量才能达到期望效果
-11. 戒断症状:出现特征性戒断综合征
+1. 持续渴望或尝试控制/减少使用但未成功
+1. 花费大量时间获取、使用或从兴奋剂作用中恢复
+1. 对兴奋剂的强烈渴求
+1. 反复使用导致无法履行工作、学习或家庭责任
+1. 尽管因使用导致或加剧社交/人际问题仍继续使用
+1. 因使用而放弃或减少重要社交、职业或娱乐活动
+1. 在有危险的情境下反复使用（如药驾）
+1. 明知使用引发或加重身体/心理问题仍继续使用
+1. 耐受性:需要显著增加剂量才能达到期望效果
+1. 戒断症状:出现特征性戒断综合征
 
 **严重度分级**
 
@@ -100,60 +100,67 @@ comments: true
 
 ICD-11 与 DSM-5-TR 对兴奋剂使用障碍的描述高度一致,均强调强烈心理渴求、"暴食"式使用模式与严重健康后果。DSM-5-TR 正式确认兴奋剂戒断综合征。
 
----
+______________________________________________________________________
 
 ## 临床表现
 
 ### 兴奋剂使用障碍
 
 - **使用模式**
-    - **"Binge-Crash"模式**:连续数小时至数天高频使用（"binge"）,直至药物耗尽或精疲力竭,随后崩溃性戒断（"crash"）
-    - 剂量与频率逐步升级（追逐初始欣快感）
-    - 多种给药途径:吸食、注射、鼻吸、口服（注射与吸食起效最快、成瘾性最强）
+
+  - **"Binge-Crash"模式**:连续数小时至数天高频使用（"binge"）,直至药物耗尽或精疲力竭,随后崩溃性戒断（"crash"）
+  - 剂量与频率逐步升级（追逐初始欣快感）
+  - 多种给药途径:吸食、注射、鼻吸、口服（注射与吸食起效最快、成瘾性最强）
 
 - **心理特征**
-    - 强烈的药物渴求,主导思维
-    - 使用时:欣快感、自信、精力充沛、性欲增强
-    - 停用后:抑郁、无动力、无快感、绝望
+
+  - 强烈的药物渴求,主导思维
+  - 使用时:欣快感、自信、精力充沛、性欲增强
+  - 停用后:抑郁、无动力、无快感、绝望
 
 - **社会功能**
-    - 工作/学业严重受损或丧失
-    - 人际关系破裂,暴力与冲动行为
-    - 经济困难,违法行为（偷窃、贩卖）
-    - 性行为风险增加（性传播感染）
-    - 忽视自我照顾（营养、卫生、睡眠）
+
+  - 工作/学业严重受损或丧失
+  - 人际关系破裂,暴力与冲动行为
+  - 经济困难,违法行为（偷窃、贩卖）
+  - 性行为风险增加（性传播感染）
+  - 忽视自我照顾（营养、卫生、睡眠）
 
 - **健康后果**
-    - 严重体重减轻、营养不良
-    - 牙齿腐烂（"冰毒嘴"—甲基苯丙胺使用者）
-    - 皮肤损伤（抓挠、注射部位感染）
-    - 心血管损害（高血压、心肌病、心律失常）
-    - 认知功能障碍（注意力、记忆、执行功能）
+
+  - 严重体重减轻、营养不良
+  - 牙齿腐烂（"冰毒嘴"—甲基苯丙胺使用者）
+  - 皮肤损伤（抓挠、注射部位感染）
+  - 心血管损害（高血压、心肌病、心律失常）
+  - 认知功能障碍（注意力、记忆、执行功能）
 
 ### 兴奋剂中毒
 
 - **早期（欣快期）**
-    - 强烈欣快感、精力充沛
-    - 警觉性增加、自信、健谈
-    - 性欲增强
-    - 食欲抑制、失眠
+
+  - 强烈欣快感、精力充沛
+  - 警觉性增加、自信、健谈
+  - 性欲增强
+  - 食欲抑制、失眠
 
 - **中度**
-    - 焦虑、烦躁、易激惹
-    - 偏执、多疑
-    - 刻板重复行为（如反复拆装物品）
-    - 心动过速、血压升高、瞳孔散大、出汗
-    - 精神运动性激越
+
+  - 焦虑、烦躁、易激惹
+  - 偏执、多疑
+  - 刻板重复行为（如反复拆装物品）
+  - 心动过速、血压升高、瞳孔散大、出汗
+  - 精神运动性激越
 
 - **重度（中毒性精神病与医学急症）**
-    - 妄想（尤其被害妄想）、幻觉（触幻觉"虫爬感"、视幻觉）
-    - 暴力攻击行为
-    - 癫痫发作
-    - 高热（可达 40-41°C）
-    - 心肌梗死、心律失常
-    - 卒中（出血性或缺血性）
-    - 横纹肌溶解、急性肾衰竭
-    - 可能致死
+
+  - 妄想（尤其被害妄想）、幻觉（触幻觉"虫爬感"、视幻觉）
+  - 暴力攻击行为
+  - 癫痫发作
+  - 高热（可达 40-41°C）
+  - 心肌梗死、心律失常
+  - 卒中（出血性或缺血性）
+  - 横纹肌溶解、急性肾衰竭
+  - 可能致死
 
 **可卡因 vs. 甲基苯丙胺**
 
@@ -164,17 +171,17 @@ ICD-11 与 DSM-5-TR 对兴奋剂使用障碍的描述高度一致,均强调强�
 
 - **时间线**:停药后数小时至数天内出现,1-2 周达峰值,可持续数周
 - **症状**
-    - **抑郁情绪**:核心症状,严重时有自杀风险
-    - 无快感症（anhedonia）:无法体验愉悦
-    - 疲劳、嗜睡、过度睡眠（可达 12-18 小时/天）
-    - 食欲显著增加
-    - 精神运动性迟滞
-    - 强烈的药物渴求
-    - 生动的不愉快梦境
+  - **抑郁情绪**:核心症状,严重时有自杀风险
+  - 无快感症（anhedonia）:无法体验愉悦
+  - 疲劳、嗜睡、过度睡眠（可达 12-18 小时/天）
+  - 食欲显著增加
+  - 精神运动性迟滞
+  - 强烈的药物渴求
+  - 生动的不愉快梦境
 
 戒断通常不致命（无癫痫或谵妄风险）,但抑郁与自杀风险高。
 
----
+______________________________________________________________________
 
 ## 神经生物学机制
 
@@ -193,7 +200,7 @@ ICD-11 与 DSM-5-TR 对兴奋剂使用障碍的描述高度一致,均强调强�
 - **创伤与应对**:[PTSD](PTSD.md)、童年逆境者使用风险增加
 - **遗传易感性**:家族史增加风险
 
----
+______________________________________________________________________
 
 ## 流行病学与病程
 
@@ -202,13 +209,13 @@ ICD-11 与 DSM-5-TR 对兴奋剂使用障碍的描述高度一致,均强调强�
 - **起病年龄**:通常在青年期或成年早期开始使用
 - **病程**:慢性复发性疾病,"binge-crash"循环
 - **健康后果**
-    - 心血管疾病:心肌梗死、卒中、心律失常、心肌病
-    - 神经系统损害:认知功能障碍、帕金森样症状（长期甲基苯丙胺）
-    - 精神病:可持续数月至数年
-    - 感染:HIV、HCV（注射使用）
-    - 死亡:过量、心血管意外、自杀、暴力
+  - 心血管疾病:心肌梗死、卒中、心律失常、心肌病
+  - 神经系统损害:认知功能障碍、帕金森样症状（长期甲基苯丙胺）
+  - 精神病:可持续数月至数年
+  - 感染:HIV、HCV（注射使用）
+  - 死亡:过量、心血管意外、自杀、暴力
 
----
+______________________________________________________________________
 
 ## 鉴别诊断
 
@@ -219,30 +226,33 @@ ICD-11 与 DSM-5-TR 对兴奋剂使用障碍的描述高度一致,均强调强�
 - [**抑郁障碍（Depressive Disorders）**](Depressive-Disorders.md):戒断引起的抑郁与独立抑郁障碍需鉴别,通常戒断抑郁在 2-4 周内缓解
 - [**其他物质使用障碍（Substance Use Disorders）**](Substance-Use-Disorders-SUD.md):常混合使用酒精、大麻、阿片类、镇静剂
 
----
+______________________________________________________________________
 
 ## 共病与风险管理
 
 ### 常见共病
 
 - **精神障碍高共病率**
-    - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md):相互加重,戒断期自杀风险极高
-    - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md):兴奋剂可诱发躁狂
-    - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md):兴奋剂加重焦虑与惊恐
-    - [ADHD](Attention-Deficit-Hyperactivity-Disorder-ADHD.md):自我治疗注意力问题
-    - [PTSD](PTSD.md):创伤幸存者使用率高
-    - [人格障碍（Personality Disorders）](Personality-Disorders.md):尤其反社会型
-    - 精神病性障碍:兴奋剂可诱发或加重精神病
+
+  - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md):相互加重,戒断期自杀风险极高
+  - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md):兴奋剂可诱发躁狂
+  - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md):兴奋剂加重焦虑与惊恐
+  - [ADHD](Attention-Deficit-Hyperactivity-Disorder-ADHD.md):自我治疗注意力问题
+  - [PTSD](PTSD.md):创伤幸存者使用率高
+  - [人格障碍（Personality Disorders）](Personality-Disorders.md):尤其反社会型
+  - 精神病性障碍:兴奋剂可诱发或加重精神病
 
 - **其他物质使用**
-    - [酒精（Alcohol）](Alcohol-Related-Disorders.md):常共同使用以缓解兴奋剂激越
-    - [阿片类（Opioid）](Opioid-Related-Disorders.md):混合使用（"speedball"—可卡因+海洛因）
-    - [大麻（Cannabis）](Cannabis-Related-Disorders.md):缓解兴奋剂副作用
+
+  - [酒精（Alcohol）](Alcohol-Related-Disorders.md):常共同使用以缓解兴奋剂激越
+  - [阿片类（Opioid）](Opioid-Related-Disorders.md):混合使用（"speedball"—可卡因+海洛因）
+  - [大麻（Cannabis）](Cannabis-Related-Disorders.md):缓解兴奋剂副作用
 
 - **躯体疾病**
-    - 心血管疾病
-    - 感染性疾病（HIV、HCV—注射使用）
-    - 营养不良、牙齿疾病
+
+  - 心血管疾病
+  - 感染性疾病（HIV、HCV—注射使用）
+  - 营养不良、牙齿疾病
 
 ### 风险管理重点
 
@@ -252,7 +262,7 @@ ICD-11 与 DSM-5-TR 对兴奋剂使用障碍的描述高度一致,均强调强�
 - **精神病管理**:急性精神病需安全环境、抗精神病药物
 - **感染预防**:针具交换、HIV/HCV 筛查
 
----
+______________________________________________________________________
 
 ## 治疗与支持
 
@@ -334,25 +344,28 @@ ICD-11 与 DSM-5-TR 对兴奋剂使用障碍的描述高度一致,均强调强�
 - 创伤知情照护
 - 精神病症状管理
 
----
+______________________________________________________________________
 
 ## 社群与临床语境
 
 ### 社群经验
 
 - **r/StopSpeeding、Crystal Meth Anonymous**:康复社群
+
 - **戒断挑战**
-    - 前 1-2 周极度疲劳与抑郁
-    - 强烈渴求持续数周至数月
-    - 无快感症导致生活失去意义感
-    - 认知功能恢复缓慢（数月至数年）
-    - 高复发率
+
+  - 前 1-2 周极度疲劳与抑郁
+  - 强烈渴求持续数周至数月
+  - 无快感症导致生活失去意义感
+  - 认知功能恢复缓慢（数月至数年）
+  - 高复发率
 
 - **甲基苯丙胺特殊挑战**
-    - 社会污名化极严重
-    - 牙齿与皮肤损伤导致羞耻感
-    - 精神病症状持续
-    - 性行为风险与HIV传播
+
+  - 社会污名化极严重
+  - 牙齿与皮肤损伤导致羞耻感
+  - 精神病症状持续
+  - 性行为风险与HIV传播
 
 ### 临床挑战
 
@@ -369,7 +382,7 @@ ICD-11 与 DSM-5-TR 对兴奋剂使用障碍的描述高度一致,均强调强�
 - 早期识别与干预
 - 减害策略:安全使用教育、针具交换、HIV/HCV 筛查
 
----
+______________________________________________________________________
 
 ## 相关条目
 
@@ -392,14 +405,14 @@ ICD-11 与 DSM-5-TR 对兴奋剂使用障碍的描述高度一致,均强调强�
 - [精神分裂症（Schizophrenia）](Schizophrenia-SZ.md)
 - [人格障碍（Personality Disorders）](Personality-Disorders.md)
 
----
+______________________________________________________________________
 
 ## 参考与延伸阅读
 
 1. World Health Organization. (2019). *ICD-11 for Mortality and Morbidity Statistics*.
-2. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.)*.
-3. National Institute on Drug Abuse. (2021). *Methamphetamine Research Report*. <https://nida.nih.gov/publications/research-reports/methamphetamine>
-4. Volkow, N. D., et al. (2011). Cognitive deficits in methamphetamine abusers. *American Journal of Psychiatry*.
-5. Courtney, K. E., & Ray, L. A. (2014). Methamphetamine: An update on epidemiology, pharmacology, clinical phenomenology, and treatment literature. *Drug and Alcohol Dependence*.
-6. Roll, J. M., et al. (2006). Contingency management for the treatment of methamphetamine use disorders. *American Journal of Psychiatry*.
-7. Rawson, R. A., et al. (2004). A multi-site comparison of psychosocial approaches for the treatment of methamphetamine dependence. *Addiction*.
+1. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.)*.
+1. National Institute on Drug Abuse. (2021). *Methamphetamine Research Report*. <https://nida.nih.gov/publications/research-reports/methamphetamine>
+1. Volkow, N. D., et al. (2011). Cognitive deficits in methamphetamine abusers. *American Journal of Psychiatry*.
+1. Courtney, K. E., & Ray, L. A. (2014). Methamphetamine: An update on epidemiology, pharmacology, clinical phenomenology, and treatment literature. *Drug and Alcohol Dependence*.
+1. Roll, J. M., et al. (2006). Contingency management for the treatment of methamphetamine use disorders. *American Journal of Psychiatry*.
+1. Rawson, R. A., et al. (2004). A multi-site comparison of psychosocial approaches for the treatment of methamphetamine dependence. *Addiction*.

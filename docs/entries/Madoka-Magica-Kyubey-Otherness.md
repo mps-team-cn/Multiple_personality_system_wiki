@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 文化与表现
-- 多重意识体
-- 解离
-- 创伤
+  - 文化与表现
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 文化与表现
 title: 《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）

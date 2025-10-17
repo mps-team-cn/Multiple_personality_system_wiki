@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 系统运作
-- 多重意识体
-- 解离
-- 创伤
+  - 系统运作
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 系统运作
 title: 封存（Sequestration）
@@ -31,9 +31,9 @@ comments: true
 ## 实施要点
 
 1. **取得同意** ：封存应建立在成员或守护者之间的协商上，避免在未沟通的情况下强制隔离，以免造成再次创伤。
-2. **设置时间与条件** ：明确封存持续多久、何时解除，并安排后续的倾听与支持。
-3. **搭配接地与资源强化** ：在封存同时进行呼吸练习、寻求外界支持等，以稳住当前当班成员。
-4. **纪录过程** ：透过内部日志记录封存原因与效果，有助于评估是否需要其他长期策略。
+1. **设置时间与条件** ：明确封存持续多久、何时解除，并安排后续的倾听与支持。
+1. **搭配接地与资源强化** ：在封存同时进行呼吸练习、寻求外界支持等，以稳住当前当班成员。
+1. **纪录过程** ：透过内部日志记录封存原因与效果，有助于评估是否需要其他长期策略。
 
 ## 注意事项
 
@@ -54,7 +54,7 @@ comments: true
 
 ## 参考资料
 
-[^封存-1]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision*.
+\[^封存-1\]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision*.
 
 ## 核心特征
 

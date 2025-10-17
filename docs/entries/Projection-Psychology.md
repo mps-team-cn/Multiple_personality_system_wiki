@@ -1,19 +1,19 @@
 ---
 tags:
 
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
+  - 理论与分类
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 理论与分类
 title: 投射（Projection, Psychology）
 updated: 2025-10-13
 synonyms:
 
-- 心理投射
-- 投射机制
-- projection
+  - 心理投射
+  - 投射机制
+  - projection
 
 comments: true
 ---
@@ -58,5 +58,5 @@ comments: true
 ## 参考与延伸阅读
 
 1. Freud, S. (1911). Psycho-analytic notes on an autobiographical account of a case of paranoia. *Standard Edition*.
-2. Klein, M. (1946). Notes on some schizoid mechanisms. *International Journal of Psycho-Analysis*, 27, 99–110.
-3. Baumeister, R. F., et al. (1998). Ego depletion: Is the active self a limited resource? *Journal of Personality and Social Psychology*, 74(5), 1252–1265.
+1. Klein, M. (1946). Notes on some schizoid mechanisms. *International Journal of Psycho-Analysis*, 27, 99–110.
+1. Baumeister, R. F., et al. (1998). Ego depletion: Is the active self a limited resource? *Journal of Personality and Social Psychology*, 74(5), 1252–1265.

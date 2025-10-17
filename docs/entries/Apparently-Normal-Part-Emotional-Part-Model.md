@@ -1,12 +1,12 @@
 ---
 tags:
 
-- 系统运作
-- ANP
-- EP
-- DID
-- CPTSD
-- OSDD
+  - 系统运作
+  - ANP
+  - EP
+  - DID
+  - CPTSD
+  - OSDD
 
 topic: 系统运作
 title: ANP-EP 模型（Apparently Normal Part–Emotional Part Model）
@@ -17,10 +17,10 @@ comments: true
 # ANP-EP 模型（Apparently Normal Part–Emotional Part Model）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
 ## 模型概述
 
@@ -36,8 +36,8 @@ comments: true
 结构性解离理论提出三个层级，以解释不同复杂度的解离表现[^ANP-1][^ANP-2]：
 
 1. **一级结构性解离** ：一个 ANP 对应一个 EP（常见于 PTSD）。
-2. **二级结构性解离** ：多个 EP 与一个 ANP 并存（常见于 CPTSD、OSDD-1）。
-3. **三级结构性解离** ：多个 ANP 与多个 EP 构成更复杂的系统（常见于 DID）。
+1. **二级结构性解离** ：多个 EP 与一个 ANP 并存（常见于 CPTSD、OSDD-1）。
+1. **三级结构性解离** ：多个 ANP 与多个 EP 构成更复杂的系统（常见于 DID）。
 
 在多意识体语境中，可将该模型视为描述“前台”与“创伤载体”之间功能分配的工具，但它并不涵盖所有类型的身份形成与协作方式。
 
@@ -47,7 +47,7 @@ comments: true
 - **治疗技术** : 在逐步处理创伤时，强调建立 ANP 与 EP 之间的沟通、安全界限与合作，常结合身体取向疗法、EMDR、阶段化创伤治疗方案[^ANP-3]。
 - **症状理解** : 如“冻结”“战斗/逃跑”或侵入性闪回，可被视为 EP 的自动化防御；避免任务、情感麻木则可能来自 ANP 的过度控制。
 
----
+______________________________________________________________________
 
 ## 社群与系统语境下的讨论
 
@@ -55,7 +55,7 @@ comments: true
 - 不属于创伤或临床诊断的系统未必适合直接套用 ANP-EP 模型，需辨别是否存在创伤性切分与功能失调。
 - 在系统内部沟通时，可将模型当作“角色说明”，帮助成员理解彼此承担的功能与界限，并规划稳定化策略。
 
----
+______________________________________________________________________
 
 ## 常见误区
 
@@ -65,7 +65,7 @@ comments: true
 - **过度二分化** : 实际体验中，部分身份可能同时兼具 ANP 与 EP 的功能，模型只是一个理解框架，而非绝对分类。
 - **忽略文化与差异性** : 若僵化使用该模型，可能忽略神经多样性、发展因素或社群中多样化的身份体验。
 
----
+______________________________________________________________________
 
 ## 争议与局限
 
@@ -73,7 +73,7 @@ comments: true
 - ANP/EP 的划分可能忽略文化、神经多样性与发展性因素，若僵化使用，可能限制来访者的自主性。
 - 对于以社群构建、意图创造或非创伤性形成的系统，该模型并非必然适用，应结合其他理论（如自我状态模式、社会建构论等）。
 
----
+______________________________________________________________________
 
 ## 核心特征
 
@@ -83,7 +83,7 @@ comments: true
 - **阶段性框架** : 该模型强调“稳定化 → 创伤处理 → 整合”的渐进式工作流程。
 - **跨障碍适用性** : 从 PTSD、CPTSD 到 DID，该模型都可作为理解解离结构的参考工具。
 
----
+______________________________________________________________________
 
 ## 鉴别
 
@@ -92,31 +92,31 @@ comments: true
 - **与其他自我状态模型的区分** : 例如“自我状态疗法”中的不同“自我部分”更强调心理动力学背景，而 ANP-EP 模型专注于创伤性结构分裂。
 - **与社群用语的区分** : 社群语境中的“功能组/创伤碎片”可借用 ANP/EP 概念，但并不等于临床上的结构性解离诊断。
 
----
+______________________________________________________________________
 
 ## 干预
 
 - **稳定化阶段**
 
-    - 建立安全感与资源，避免直接触碰创伤细节。
-    - 训练 ANP 与 EP 的基本沟通方式，例如通过日记、可视化内在空间等。
+  - 建立安全感与资源，避免直接触碰创伤细节。
+  - 训练 ANP 与 EP 的基本沟通方式，例如通过日记、可视化内在空间等。
 
 - **创伤处理阶段**
 
-    - 逐步接触 EP 所承载的创伤记忆，在可控范围内进行整合。
-    - 常用技术包括 EMDR、身体取向疗法、叙事重构。
+  - 逐步接触 EP 所承载的创伤记忆，在可控范围内进行整合。
+  - 常用技术包括 EMDR、身体取向疗法、叙事重构。
 
 - **整合与协作阶段**
 
-    - 强调 ANP 与 EP 之间的合作，减少功能割裂。
-    - 并不一定追求“完全融合”，而是鼓励协作式多元自我。
+  - 强调 ANP 与 EP 之间的合作，减少功能割裂。
+  - 并不一定追求“完全融合”，而是鼓励协作式多元自我。
 
 - **日常支持策略**
 
-    - 通过接地（Grounding）、冥想（Meditation）、系统日志等方法，提升整体功能与前台稳定性。
-    - 在社群支持或同伴网络中分享经验，减少孤立感。
+  - 通过接地（Grounding）、冥想（Meditation）、系统日志等方法，提升整体功能与前台稳定性。
+  - 在社群支持或同伴网络中分享经验，减少孤立感。
 
----
+______________________________________________________________________
 
 ## 相关条目
 
@@ -131,7 +131,7 @@ comments: true
 
 ## 参考文献
 
-[^ANP-1]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). _The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization_. W. W. Norton.
-[^ANP-2]: Nijenhuis, E. R. S. (2015). _The Trinity of Trauma: Ignorance, Fragility, and Control_. Vandenhoeck & Ruprecht.
-[^ANP-3]: Steele, K., Boon, S., & van der Hart, O. (2017). _Treating Trauma-Related Dissociation: A Practical, Integrative Approach_. W. W. Norton.
-[^ANP-4]: Dalenberg, C. J., Brand, B. L., Gleaves, D. H., et al. (2012). Evaluation of the evidence for the trauma and fantasy models of dissociation. _Psychological Bulletin_, 138(3), 550–588.
+\[^ANP-1\]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). _The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization_. W. W. Norton.
+\[^ANP-2\]: Nijenhuis, E. R. S. (2015). _The Trinity of Trauma: Ignorance, Fragility, and Control_. Vandenhoeck & Ruprecht.
+\[^ANP-3\]: Steele, K., Boon, S., & van der Hart, O. (2017). _Treating Trauma-Related Dissociation: A Practical, Integrative Approach_. W. W. Norton.
+\[^ANP-4\]: Dalenberg, C. J., Brand, B. L., Gleaves, D. H., et al. (2012). Evaluation of the evidence for the trauma and fantasy models of dissociation. _Psychological Bulletin_, 138(3), 550–588.

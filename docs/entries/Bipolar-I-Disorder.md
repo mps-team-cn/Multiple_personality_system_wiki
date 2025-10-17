@@ -1,22 +1,22 @@
 ---
 tags:
 
-- 诊断与临床
-- 多重意识体
-- 解离
-- 创伤
+  - 诊断与临床
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 诊断与临床
 title: 双相 I 型障碍（Bipolar I Disorder）
 updated: 2025-10-14
 synonyms:
 
-- 双相I型障碍
-- 双相一型障碍
-- Bipolar I Disorder
-- Bipolar I
-- BP-I
-- shuangxiangyixingzhangai
+  - 双相I型障碍
+  - 双相一型障碍
+  - Bipolar I Disorder
+  - Bipolar I
+  - BP-I
+  - shuangxiangyixingzhangai
 
 comments: true
 ---
@@ -24,10 +24,10 @@ comments: true
 # 双相 I 型障碍（Bipolar I Disorder）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。 若出现自我伤害或他人伤害的想法,请立即联系当地急救或精神卫生服务。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。 若出现自我伤害或他人伤害的想法,请立即联系当地急救或精神卫生服务。
 
 ## 概述
 
@@ -41,13 +41,13 @@ comments: true
 
 - **至少一次躁狂发作**:持续至少 1 周(或任何持续时间但需要住院),出现异常且持续的情绪高涨、扩张或易激惹,以及异常且持续的活动或精力增加。
 - **至少 3 项(或 4 项,若情绪仅为易激惹)躁狂症状**:
-    - 自尊膨胀或夸大
-    - 睡眠需求减少(例如仅睡 3 小时即感精力充沛)
-    - 比平时更健谈或有持续说话的压力
-    - 思维奔逸或体验到思维飞跃
-    - 注意力易分散(被不重要的外部刺激吸引)
-    - 目标导向活动增加(社交、工作、学业或性行为)或精神运动性激越
-    - 过度参与可能导致痛苦后果的活动(如无节制购物、性放纵、冒险投资)
+  - 自尊膨胀或夸大
+  - 睡眠需求减少(例如仅睡 3 小时即感精力充沛)
+  - 比平时更健谈或有持续说话的压力
+  - 思维奔逸或体验到思维飞跃
+  - 注意力易分散(被不重要的外部刺激吸引)
+  - 目标导向活动增加(社交、工作、学业或性行为)或精神运动性激越
+  - 过度参与可能导致痛苦后果的活动(如无节制购物、性放纵、冒险投资)
 - **功能损害显著**:症状严重到足以导致社会或职业功能明显损害,或需要住院以防止伤害自己或他人,或存在精神病性特征。
 - **排除物质或躯体因素**:症状不能归因于物质(药物滥用、药物治疗)或其他医学状况的直接生理效应。[^apa2022]
 
@@ -220,7 +220,7 @@ ICD-11 将双相 I 型障碍归类为 **双相或相关障碍**(6A60),诊断强�
 
 ## 参考与延伸阅读
 
-[^apa2022]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.). American Psychiatric Publishing.
-[^who2023c]: World Health Organization. (2023). _ICD-11 for Mortality and Morbidity Statistics: Bipolar or related disorders (6A60–6A6Z)._ [https://icd.who.int/en](https://icd.who.int/en)
-[^nimh2024b]: National Institute of Mental Health. (2024, May 10). _Bipolar Disorder._ [https://www.nimh.nih.gov/health/topics/bipolar-disorder](https://www.nimh.nih.gov/health/topics/bipolar-disorder)
-[^canmat2021]: Yatham, L. N., et al. (2021). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders 2021 guidelines for the management of patients with bipolar disorder. _Bipolar Disorders, 23_(9), 724–756.
+\[^apa2022\]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.). American Psychiatric Publishing.
+\[^who2023c\]: World Health Organization. (2023). _ICD-11 for Mortality and Morbidity Statistics: Bipolar or related disorders (6A60–6A6Z)._ [https://icd.who.int/en](https://icd.who.int/en)
+\[^nimh2024b\]: National Institute of Mental Health. (2024, May 10). _Bipolar Disorder._ [https://www.nimh.nih.gov/health/topics/bipolar-disorder](https://www.nimh.nih.gov/health/topics/bipolar-disorder)
+\[^canmat2021\]: Yatham, L. N., et al. (2021). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders 2021 guidelines for the management of patients with bipolar disorder. _Bipolar Disorders, 23_(9), 724–756.

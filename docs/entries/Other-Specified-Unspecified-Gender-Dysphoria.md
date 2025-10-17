@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 诊断与临床
-- GD
-- 性别认同
-- 性别/性功能
+  - 诊断与临床
+  - GD
+  - 性别认同
+  - 性别/性功能
 
 topic: 诊断与临床
 description: 简要介绍其他特定与未特定性别不安的诊断要点与临床意义。了解不完全符合性别不安标准的性别认同困扰，并参考完整性别不安词条
@@ -12,12 +12,12 @@ title: 其他特定/未特定性别不安（Other Specified/Unspecified Gender D
 updated: 2025-10-14
 synonyms:
 
-- 其他特定性别不安
-- 未特定性别不安
-- Other Specified Gender Dysphoria
-- Unspecified Gender Dysphoria
-- OSGD
-- UGD
+  - 其他特定性别不安
+  - 未特定性别不安
+  - Other Specified Gender Dysphoria
+  - Unspecified Gender Dysphoria
+  - OSGD
+  - UGD
 
 comments: true
 ---
@@ -25,12 +25,12 @@ comments: true
 # 其他特定/未特定性别不安（Other Specified/Unspecified Gender Dysphoria）
 
 !!! warning "触发警告"
-    内容涉及性别认同、精神健康等敏感议题，阅读时请留意自身状态。
+内容涉及性别认同、精神健康等敏感议题，阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考，不构成医疗建议。若需诊断或治疗，请联系持证专业人员。
+本站资料仅供参考，不构成医疗建议。若需诊断或治疗，请联系持证专业人员。
 
----
+______________________________________________________________________
 
 ## 概述
 
@@ -38,7 +38,7 @@ comments: true
 
 完整的性别不安诊断标准与临床指导，请参阅：[性别不安（Gender Dysphoria，GD）](Gender-Dysphoria-GD.md)
 
----
+______________________________________________________________________
 
 ## 诊断要点
 
@@ -48,9 +48,9 @@ comments: true
 
 - 适用于存在性别不安相关症状，但不完全符合 GD 诊断标准的情况。
 - 临床工作者需明确说明不符合标准的具体原因，例如：
-    - 症状持续时间不足 6 个月。
-    - 性别认同困扰主要与社会或文化压力相关，而非内在性别体验本身。
-    - 症状强度或功能损害未达到 GD 的严重程度标准。
+  - 症状持续时间不足 6 个月。
+  - 性别认同困扰主要与社会或文化压力相关，而非内在性别体验本身。
+  - 症状强度或功能损害未达到 GD 的严重程度标准。
 
 **未特定性别不安（Unspecified Gender Dysphoria）**：
 
@@ -65,7 +65,7 @@ ICD-11 使用「性别不一致（Gender Incongruence）」术语，并在 HA6Z 
 
 DSM-5-TR 区分"其他特定"与"未特定"以强调临床判断的灵活性；ICD-11 的分类更为简化，聚焦于医疗支持需求而非精神病理。
 
----
+______________________________________________________________________
 
 ## 临床表现
 
@@ -77,14 +77,14 @@ DSM-5-TR 区分"其他特定"与"未特定"以强调临床判断的灵活性；I
 - **复杂共病背景**：性别认同困扰与其他精神障碍（如抑郁、焦虑、解离障碍）交织，难以明确区分主要诊断。
 - **信息不足**：因语言障碍、认知功能限制或紧急情况导致评估不完整。
 
----
+______________________________________________________________________
 
 ## 流行病学与病程
 
 - **流行率**：由于诊断标准的灵活性，这些类别的使用频率难以统计，但在临床实践中为不典型病例提供了重要的诊断选项。
 - **病程**：部分患者的症状可能随时间发展为完整的 GD 诊断，部分患者的困扰可能在支持性环境下自然缓解，部分患者可能长期保持不典型表现。
 
----
+______________________________________________________________________
 
 ## 鉴别诊断
 
@@ -94,7 +94,7 @@ DSM-5-TR 区分"其他特定"与"未特定"以强调临床判断的灵活性；I
 - [**解离性身份障碍（DID）**](DID.md)：系统内不同成员可能体验不同性别身份，需区分系统内性别多样性与稳定的性别认同需求。
 - **精神病性障碍**：性别身份混乱在急性精神病发作中可能短暂出现，但缺乏持续性与自我认知的稳定性。
 
----
+______________________________________________________________________
 
 ## 共病与风险管理
 
@@ -114,7 +114,7 @@ DSM-5-TR 区分"其他特定"与"未特定"以强调临床判断的灵活性；I
 - **创伤知情照护**：尊重个体的性别体验，避免强迫性评估或过度诊断压力。
 - **灵活支持**：根据个体需求提供心理支持、社会资源与（如适用的）医疗干预，而非机械套用诊断标准。
 
----
+______________________________________________________________________
 
 ## 治疗与支持
 
@@ -141,7 +141,7 @@ DSM-5-TR 区分"其他特定"与"未特定"以强调临床判断的灵活性；I
 - **系统内多样性**：不同成员可能有不同性别认同与表达需求，需通过内部沟通与协调来制定灵活的照护计划。
 - **创伤与解离背景**：性别认同困扰可能与解离机制、创伤记忆或系统结构相关，需在创伤知情框架下整合评估。
 
----
+______________________________________________________________________
 
 ## 社群与临床语境
 
@@ -149,7 +149,7 @@ DSM-5-TR 区分"其他特定"与"未特定"以强调临床判断的灵活性；I
 - **去污名化**：强调诊断的目的是提供支持而非病理化，尊重个体的自我认同与需求。
 - **系统视角**：对多意识体系统而言，系统内性别多样性与个体性别不安可能共存或重叠，需在系统整体框架下理解与支持。
 
----
+______________________________________________________________________
 
 ## 相关条目
 
@@ -170,11 +170,11 @@ DSM-5-TR 区分"其他特定"与"未特定"以强调临床判断的灵活性；I
 - [身体认同（Body Ownership）](Body-Ownership.md)
 - [多意识体系统（Multiple Personality System，MPS）](Multiple_Personality_System.md)
 
----
+______________________________________________________________________
 
 ## 参考与延伸阅读
 
 1. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.).*
-2. World Health Organization. (2019). *ICD-11 for Mortality and Morbidity Statistics.*
-3. WPATH. (2022). *Standards of Care for the Health of Transgender and Gender Diverse People, Version 8.*
-4. Coleman, E., Radix, A. E., Bouman, W. P., et al. (2022). Standards of Care for the Health of Transgender and Gender Diverse People, Version 8. *International Journal of Transgender Health*, 23(Sup1), S1–S259.
+1. World Health Organization. (2019). *ICD-11 for Mortality and Morbidity Statistics.*
+1. WPATH. (2022). *Standards of Care for the Health of Transgender and Gender Diverse People, Version 8.*
+1. Coleman, E., Radix, A. E., Bouman, W. P., et al. (2022). Standards of Care for the Health of Transgender and Gender Diverse People, Version 8. *International Journal of Transgender Health*, 23(Sup1), S1–S259.

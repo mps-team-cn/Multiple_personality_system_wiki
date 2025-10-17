@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
+  - 角色与身份
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 角色与身份
 title: 人格面具（Persona）
@@ -48,7 +48,7 @@ comments: true
 
 ## 参考与延伸阅读
 
-[^jung1959]: Jung, C. G. 1959. *The Archetypes and the Collective Unconscious*. Princeton University Press.
-[^furst2015]: Furst, R. T., & Ghisletta, P. 2015. "Social Self-Regulation and Persona Construction." *Personality and Individual Differences* 85: 65–72.
-[^gudjonsson2014]: Gudjonsson, G. H., & Young, S. 2014. "The Adaptive Functions of Front Stage Identities in Dissociative Identity Disorder." *Psychiatry Research* 216(2): 248–254.
-[Wikipedia: Persona （psychology）](https://en.wikipedia.org/wiki/Persona_(psychology))
+\[^jung1959\]: Jung, C. G. 1959. *The Archetypes and the Collective Unconscious*. Princeton University Press.
+\[^furst2015\]: Furst, R. T., & Ghisletta, P. 2015. "Social Self-Regulation and Persona Construction." *Personality and Individual Differences* 85: 65–72.
+\[^gudjonsson2014\]: Gudjonsson, G. H., & Young, S. 2014. "The Adaptive Functions of Front Stage Identities in Dissociative Identity Disorder." *Psychiatry Research* 216(2): 248–254.
+[Wikipedia: Persona （psychology）](<https://en.wikipedia.org/wiki/Persona_(psychology)>)

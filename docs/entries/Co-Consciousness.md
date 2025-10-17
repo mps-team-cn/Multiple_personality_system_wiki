@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 系统运作
-- 多重意识体
-- 解离
-- 创伤
+  - 系统运作
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 系统运作
 description: 意识共存（Co-consciousness）现象详解：多个成员同时在线的体验与管理。理解共同觉察、信息共享及协作运作的机制
@@ -34,8 +34,8 @@ comments: true
 ## 常见情境
 
 1. **交班过渡** ：在即将切换前，双方进入意识共存以确认资讯、平稳交接。
-2. **协作任务** ：需要多重技能时，例如驾驶与导航，一位成员主导动作，另一位实时提供分析。
-3. **危机处理** ：守护者或外部支援成员在紧急状况下同步上线，提供额外警觉或安抚。
+1. **协作任务** ：需要多重技能时，例如驾驶与导航，一位成员主导动作，另一位实时提供分析。
+1. **危机处理** ：守护者或外部支援成员在紧急状况下同步上线，提供额外警觉或安抚。
 
 ## 与相关概念的区别
 
@@ -66,5 +66,5 @@ comments: true
 
 ## 参考资料
 
-[^意识共存-1]: Kluft, R. P. (1984). Treatment of multiple personality disorder. *Psychiatric Clinics of North America, 7*(1), 9-29.
-[^意识共存-2]: Brand, B. L., & Loewenstein, R. J. (2010). Dissociative disorders: An overview of assessment, phenomenology, and treatment. *Psychiatric Times, 27*(2), 62-69.
+\[^意识共存-1\]: Kluft, R. P. (1984). Treatment of multiple personality disorder. *Psychiatric Clinics of North America, 7*(1), 9-29.
+\[^意识共存-2\]: Brand, B. L., & Loewenstein, R. J. (2010). Dissociative disorders: An overview of assessment, phenomenology, and treatment. *Psychiatric Times, 27*(2), 62-69.

@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 诊断与临床
-- 多重意识体
-- 解离
-- 创伤
+  - 诊断与临床
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 诊断与临床
 description: 解离性遗忘（DA）详解：记忆缺失类型、诊断标准与恢复方法。理解创伤相关记忆断片、遗忘性漫游等现象的本质
@@ -16,10 +16,10 @@ comments: true
 # 解离性遗忘（Dissociative Amnesia，DA）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
 ## 概述
 
@@ -30,7 +30,9 @@ comments: true
 ### ICD-11 摘要
 
 - ICD-11 将解离性遗忘（6B62）定义为无法回忆重要自传信息，且无法以普通遗忘或神经系统疾病解释。[^icd11]
+
 - 遗忘常围绕创伤事件、具有情境特异性，可呈现局灶性、选择性或广泛性模式。
+
 - 诊断需排除物质作用、脑损伤、神经认知障碍等器质性因素，并评估潜在的解离性漫游。
 
 - **来源** : WHO ICD-11 Browser（2023 年检索）。
@@ -38,7 +40,9 @@ comments: true
 ### DSM-5-TR 摘要
 
 - DSM-5-TR 要求出现无法用普通遗忘解释的、对重要自传信息（多与创伤或压力相关）的记忆缺失。[^dsm5]
+
 - 症状需造成临床显著痛苦或功能损害，且不能由物质、神经系统疾病或其他精神障碍更好解释。
+
 - DSM-5-TR 指出可伴随解离性漫游，并强调评估安全风险与共病状况。
 
 - **来源** : APA DSM-5-TR（2022 年）。
@@ -155,12 +159,12 @@ D. 症状不能被分离性身份障碍、创伤后应激障碍、急性应激�
 
 ## 参考与延伸阅读
 
-[^dsm5]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
-[^staniloiu]: Staniloiu, A., & Markowitsch, H. J. (2014). Dissociative amnesia. *The Lancet Psychiatry*, 1(3), 226–241. [https://doi.org/10.1016/S2215-0366（14](https://doi.org/10.1016/S2215-0366(14))70279-2
-[^loewenstein]: Loewenstein, R. J. (2018). Dissociation debates: Everything you know is wrong. *Dialogues in Clinical Neuroscience*, 20(3), 229–242. [https://doi.org/10.31887/DCNS.2018.20.3/rloewenstein](https://doi.org/10.31887/DCNS.2018.20.3/rloewenstein)
-[^kopelman]: Kopelman, M. D. (2000). Focal retrograde amnesia and the attribution of causality: An exceptionally critical review. *Cognitive Neuropsychiatry*, 5(2), 135–157. [https://doi.org/10.1080/135468000395781](https://doi.org/10.1080/135468000395781)
+\[^dsm5\]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
+\[^staniloiu\]: Staniloiu, A., & Markowitsch, H. J. (2014). Dissociative amnesia. *The Lancet Psychiatry*, 1(3), 226–241. [https://doi.org/10.1016/S2215-0366（14](<https://doi.org/10.1016/S2215-0366(14)>)70279-2
+\[^loewenstein\]: Loewenstein, R. J. (2018). Dissociation debates: Everything you know is wrong. *Dialogues in Clinical Neuroscience*, 20(3), 229–242. [https://doi.org/10.31887/DCNS.2018.20.3/rloewenstein](https://doi.org/10.31887/DCNS.2018.20.3/rloewenstein)
+\[^kopelman\]: Kopelman, M. D. (2000). Focal retrograde amnesia and the attribution of causality: An exceptionally critical review. *Cognitive Neuropsychiatry*, 5(2), 135–157. [https://doi.org/10.1080/135468000395781](https://doi.org/10.1080/135468000395781)
 
-[^icd11]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Dissociative neurological symptom disorder, other specified (6B62).* [https://icd.who.int/en](https://icd.who.int/en)
+\[^icd11\]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Dissociative neurological symptom disorder, other specified (6B62).* [https://icd.who.int/en](https://icd.who.int/en)
 
 ## 核心特征
 

@@ -2,16 +2,16 @@
 title: 社交者（Social）
 tags:
 
-    - 角色与身份
-    - 多重意识体
+  - 角色与身份
+  - 多重意识体
 
 topic: 角色与身份
 synonyms:
 
-    - 社交者
-    - Social
-    - 社交成员
-    - Social Alter
+  - 社交者
+  - Social
+  - 社交成员
+  - Social Alter
 
 description: 擅长人际互动与公共场合表现的系统成员，在需要社交技能时主动前台或提供支持
 updated: 2025-10-17
@@ -93,9 +93,9 @@ comments: true
 ### 支持社交者成员
 
 1. **能量管理**：识别社交者的耗能阈值,在长时间社交前后安排休息。
-2. **边界设置**：明确社交者可接受的社交类型与时长,避免过度承诺。
-3. **反馈机制**：建立内部沟通渠道,让社交者及时了解其他成员的舒适度。
-4. **自主权保障**：尊重社交者的社交选择,不因后续失忆而指责其决定。
+1. **边界设置**：明确社交者可接受的社交类型与时长,避免过度承诺。
+1. **反馈机制**：建立内部沟通渠道,让社交者及时了解其他成员的舒适度。
+1. **自主权保障**：尊重社交者的社交选择,不因后续失忆而指责其决定。
 
 ### 处理社交挑战
 
@@ -155,6 +155,6 @@ comments: true
 
 ## 参考资料
 
-[^pluralpedia-social]: Pluralpedia. (2024). [Social](https://pluralpedia.org/w/Social).
-[^goffman1959]: Goffman, E. (1959). *The Presentation of Self in Everyday Life*. Doubleday.
-[^walker2013]: Walker, P. (2013). *Complex PTSD: From Surviving to Thriving*. Azure Coyote.
+\[^pluralpedia-social\]: Pluralpedia. (2024). [Social](https://pluralpedia.org/w/Social).
+\[^goffman1959\]: Goffman, E. (1959). *The Presentation of Self in Everyday Life*. Doubleday.
+\[^walker2013\]: Walker, P. (2013). *Complex PTSD: From Surviving to Thriving*. Azure Coyote.

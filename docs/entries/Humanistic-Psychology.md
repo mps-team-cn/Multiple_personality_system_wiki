@@ -1,19 +1,19 @@
 ---
 tags:
 
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
+  - 理论与分类
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 理论与分类
 title: 人本主义心理学（Humanistic Psychology）
 updated: 2025-10-13
 synonyms:
 
-- 人本心理学
-- 人本主义学派
-- humanistic psychology
+  - 人本心理学
+  - 人本主义学派
+  - humanistic psychology
 
 comments: true
 ---
@@ -58,5 +58,5 @@ comments: true
 ## 参考与延伸阅读
 
 1. Maslow, A. H. (1968). *Toward a Psychology of Being* (2nd ed.). Van Nostrand Reinhold.
-2. Rogers, C. R. (1961). *On Becoming a Person*. Houghton Mifflin.
-3. Cain, D. J. (Ed.). (2016). *Humanistic Psychotherapies: Handbook of Research and Practice* (2nd ed.). American Psychological Association.
+1. Rogers, C. R. (1961). *On Becoming a Person*. Houghton Mifflin.
+1. Cain, D. J. (Ed.). (2016). *Humanistic Psychotherapies: Handbook of Research and Practice* (2nd ed.). American Psychological Association.

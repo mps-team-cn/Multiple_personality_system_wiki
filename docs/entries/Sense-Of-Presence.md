@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 系统运作
-- 多重意识体
-- 解离
-- 创伤
+  - 系统运作
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 系统运作
 title: 存在感（Sense of Presence）
@@ -59,4 +59,4 @@ comments: true
 
 ## 参考资料
 
-[^存在感-1]: Veissière, S. P. L., et al. (2020). Tulpamancy: Virtual companions, identity, and religion. *Phenomenology and the Cognitive Sciences, 19*(3), 619-644.
+\[^存在感-1\]: Veissière, S. P. L., et al. (2020). Tulpamancy: Virtual companions, identity, and religion. *Phenomenology and the Cognitive Sciences, 19*(3), 619-644.

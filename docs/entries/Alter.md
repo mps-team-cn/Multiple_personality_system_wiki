@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
+  - 角色与身份
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 角色与身份
 description: 系统成员（Alter）的定义、分类与角色功能。深入理解多意识体系统中不同成员的特征、形成原因及其在系统中的作用
@@ -12,7 +12,7 @@ title: 成员（Alter）
 updated: 2025-10-17
 synonyms:
 
-- 成员
+  - 成员
 
 search:
   boost: 1.8
@@ -209,6 +209,6 @@ comments: true
 
 ## 参考资料
 
-[^pluralpedia-alter]: Pluralpedia. (2024). [Alter](https://pluralpedia.org/w/Alter).
-[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation*, 12(2), 115–187.
-[^vanderhart2006]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.
+\[^pluralpedia-alter\]: Pluralpedia. (2024). [Alter](https://pluralpedia.org/w/Alter).
+\[^isstd2011\]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation*, 12(2), 115–187.
+\[^vanderhart2006\]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.

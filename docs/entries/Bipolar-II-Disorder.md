@@ -1,22 +1,22 @@
 ---
 tags:
 
-- 诊断与临床
-- 多重意识体
-- 解离
-- 创伤
+  - 诊断与临床
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 诊断与临床
 title: 双相 II 型障碍（Bipolar II Disorder）
 updated: 2025-10-14
 synonyms:
 
-- 双相II型障碍
-- 双相二型障碍
-- Bipolar II Disorder
-- Bipolar II
-- BP-II
-- shuangxiangerxingzhangai
+  - 双相II型障碍
+  - 双相二型障碍
+  - Bipolar II Disorder
+  - Bipolar II
+  - BP-II
+  - shuangxiangerxingzhangai
 
 comments: true
 ---
@@ -24,10 +24,10 @@ comments: true
 # 双相 II 型障碍（Bipolar II Disorder）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。 若出现自我伤害或他人伤害的想法,请立即联系当地急救或精神卫生服务。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。 若出现自我伤害或他人伤害的想法,请立即联系当地急救或精神卫生服务。
 
 ## 概述
 
@@ -223,7 +223,7 @@ ICD-11 将双相 II 型障碍归类为 **双相或相关障碍**(6A61),诊断强
 
 ## 参考与延伸阅读
 
-[^apa2022]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.). American Psychiatric Publishing.
-[^who2023c]: World Health Organization. (2023). _ICD-11 for Mortality and Morbidity Statistics: Bipolar or related disorders (6A60–6A6Z)._ [https://icd.who.int/en](https://icd.who.int/en)
-[^nimh2024b]: National Institute of Mental Health. (2024, May 10). _Bipolar Disorder._ [https://www.nimh.nih.gov/health/topics/bipolar-disorder](https://www.nimh.nih.gov/health/topics/bipolar-disorder)
-[^canmat2021]: Yatham, L. N., et al. (2021). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders 2021 guidelines for the management of patients with bipolar disorder. _Bipolar Disorders, 23_(9), 724–756.
+\[^apa2022\]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.). American Psychiatric Publishing.
+\[^who2023c\]: World Health Organization. (2023). _ICD-11 for Mortality and Morbidity Statistics: Bipolar or related disorders (6A60–6A6Z)._ [https://icd.who.int/en](https://icd.who.int/en)
+\[^nimh2024b\]: National Institute of Mental Health. (2024, May 10). _Bipolar Disorder._ [https://www.nimh.nih.gov/health/topics/bipolar-disorder](https://www.nimh.nih.gov/health/topics/bipolar-disorder)
+\[^canmat2021\]: Yatham, L. N., et al. (2021). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders 2021 guidelines for the management of patients with bipolar disorder. _Bipolar Disorders, 23_(9), 724–756.

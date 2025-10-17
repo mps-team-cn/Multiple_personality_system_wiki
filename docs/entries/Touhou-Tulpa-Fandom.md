@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 文化与表现
-- 多重意识体
-- 解离
-- 创伤
+  - 文化与表现
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 文化与表现
 title: 《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）

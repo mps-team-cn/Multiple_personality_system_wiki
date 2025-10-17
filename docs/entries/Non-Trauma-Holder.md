@@ -2,17 +2,17 @@
 title: 无创伤记忆者（Non-Trauma Holder）
 tags:
 
-    - 角色与身份
-    - 多重意识体
-    - 记忆与解离
+  - 角色与身份
+  - 多重意识体
+  - 记忆与解离
 
 topic: 角色与身份
 synonyms:
 
-    - 无创伤记忆者
-    - Non-Trauma Holder
-    - 无创伤成员
-    - Non-Traumatic Alter
+  - 无创伤记忆者
+  - Non-Trauma Holder
+  - 无创伤成员
+  - Non-Traumatic Alter
 
 description: 未直接承载创伤记忆的系统成员，可能对系统创伤史缺乏觉察或仅了解部分信息
 updated: 2025-10-17
@@ -103,9 +103,9 @@ comments: true
 ### 在治疗中的考量
 
 1. **渐进式教育**：向无创伤记忆者逐步介绍系统的创伤史,避免信息洪流引发崩溃。
-2. **情感验证**：承认其"不知道"或"不记得"的体验是真实的,而非否认或逃避。
-3. **功能尊重**：认可其在系统中的重要作用,避免将其视为"无知"或"不合作"。
-4. **整合协商**：在整合取向治疗中,讨论无创伤记忆者如何整合创伤知识而不失去功能稳定性。
+1. **情感验证**：承认其"不知道"或"不记得"的体验是真实的,而非否认或逃避。
+1. **功能尊重**：认可其在系统中的重要作用,避免将其视为"无知"或"不合作"。
+1. **整合协商**：在整合取向治疗中,讨论无创伤记忆者如何整合创伤知识而不失去功能稳定性。
 
 ### 内部沟通策略
 
@@ -166,7 +166,7 @@ comments: true
 
 ## 参考资料
 
-[^vanderhart2006]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.
-[^brand2016]: Brand, B. L., Loewenstein, R. J., & Spiegel, D. (2016). Dispelling myths about dissociative identity disorder treatment. *Psychological Medicine*, 44(4), 637–640.
-[^bremner2006]: Bremner, J. D. (2006). Traumatic stress: Effects on the brain. *Dialogues in Clinical Neuroscience*, 8(4), 445–461.
-[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation*, 12(2), 115–187.
+\[^vanderhart2006\]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.
+\[^brand2016\]: Brand, B. L., Loewenstein, R. J., & Spiegel, D. (2016). Dispelling myths about dissociative identity disorder treatment. *Psychological Medicine*, 44(4), 637–640.
+\[^bremner2006\]: Bremner, J. D. (2006). Traumatic stress: Effects on the brain. *Dialogues in Clinical Neuroscience*, 8(4), 445–461.
+\[^isstd2011\]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation*, 12(2), 115–187.

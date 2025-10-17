@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
+  - 角色与身份
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 角色与身份
 title: 幻想伙伴（Imaginary Companion）
@@ -42,12 +42,12 @@ comments: true
 - Bouldin 指出幻想伙伴可协助儿童面对恐惧与焦虑。[^bouldin2006]
 - Harter 与 Taylor 讨论文化背景对幻想伙伴概念的影响。[^harter2004]
 
-[^taylor1999]: Taylor, M. (1999). *Imaginary companions and the children who create them*. Oxford University Press.
-[^gleason2004]: Gleason, T. R. (2004). Imaginary companions of preschool children. *Developmental Psychology, 40*(6), 1173–1187.
-[^bouldin2006]: Bouldin, P. (2006). An investigation of the fantasy predisposition and fantasy style of children with imaginary companions. *Journal of Genetic Psychology, 167*(1), 17–29.
-[^harter2004]: Harter, S., & Taylor, M. (2004). The self and imaginary companions. In M. Taylor (Ed.), *Imaginary companions and the children who create them* (pp. 73–97). Oxford University Press.
-[^veissiere2016]: Veissière, S. P. L. (2016). Varieties of tulpa experiences: Sentient imaginary friends, embodied joint-agents, and hypnotic social agents. *Anthropology of Consciousness, 27*(2), 213–239.
-[^americanpsychiatric2013]: American Psychiatric Association. (2013). *Diagnostic and statistical manual of mental disorders* (5th ed.). American Psychiatric Publishing.
+\[^taylor1999\]: Taylor, M. (1999). *Imaginary companions and the children who create them*. Oxford University Press.
+\[^gleason2004\]: Gleason, T. R. (2004). Imaginary companions of preschool children. *Developmental Psychology, 40*(6), 1173–1187.
+\[^bouldin2006\]: Bouldin, P. (2006). An investigation of the fantasy predisposition and fantasy style of children with imaginary companions. *Journal of Genetic Psychology, 167*(1), 17–29.
+\[^harter2004\]: Harter, S., & Taylor, M. (2004). The self and imaginary companions. In M. Taylor (Ed.), *Imaginary companions and the children who create them* (pp. 73–97). Oxford University Press.
+\[^veissiere2016\]: Veissière, S. P. L. (2016). Varieties of tulpa experiences: Sentient imaginary friends, embodied joint-agents, and hypnotic social agents. *Anthropology of Consciousness, 27*(2), 213–239.
+\[^americanpsychiatric2013\]: American Psychiatric Association. (2013). *Diagnostic and statistical manual of mental disorders* (5th ed.). American Psychiatric Publishing.
 
 ## 相关条目
 

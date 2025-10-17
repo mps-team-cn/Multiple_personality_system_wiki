@@ -1,19 +1,19 @@
 ---
 tags:
 
-- 诊断与临床
-- 人格障碍
-- B组人格障碍
+  - 诊断与临床
+  - 人格障碍
+  - B组人格障碍
 
 topic: 诊断与临床
 title: 表演型人格障碍（Histrionic Personality Disorder，HPD）
 updated: 2025-10-13
 synonyms:
 
-- 表演型人格障碍
-- Histrionic Personality Disorder
-- HPD
-- biaoyanxing renge zhangai
+  - 表演型人格障碍
+  - Histrionic Personality Disorder
+  - HPD
+  - biaoyanxing renge zhangai
 
 comments: true
 ---
@@ -21,18 +21,18 @@ comments: true
 # 表演型人格障碍（Histrionic Personality Disorder，HPD）
 
 !!! warning "触发警告"
-    内容涉及情绪化表达、寻求关注等敏感议题，阅读时请留意自身状态。
+内容涉及情绪化表达、寻求关注等敏感议题，阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考，不构成医疗建议。若需诊断或治疗，请联系持证专业人员。
+本站资料仅供参考，不构成医疗建议。若需诊断或治疗，请联系持证专业人员。
 
----
+______________________________________________________________________
 
 ## 概述
 
 表演型人格障碍（Histrionic Personality Disorder, HPD）属于 DSM-5-TR B 组人格障碍，以 **过度情绪化与寻求关注的广泛模式** 为核心特征。患者渴望成为注意中心，常使用身体外表、夸张情感表达或戏剧化行为吸引他人，人际关系肤浅且易受暗示影响。这种模式始于成年早期，持续出现在多种情境中。
 
----
+______________________________________________________________________
 
 ## 诊断要点
 
@@ -43,13 +43,13 @@ comments: true
 过度情绪化与寻求关注的广泛模式，始于成年早期，出现在多种情境，表现为以下至少 **5 项**：
 
 1. **不适感**，在非注意中心的情境中
-2. **与他人互动** 常以不适当的性挑逗或诱惑行为为特征
-3. **快速变化且肤浅的情感表达**
-4. **持续使用身体外表** 吸引对自己的注意
-5. **言语过度印象化** 而缺乏细节（如"这太棒了！"却无法具体说明）
-6. **表现自我戏剧化、戏剧性与夸张的情感表达**
-7. **易受暗示**，易被他人或环境影响
-8. **将关系视为比实际更亲密**
+1. **与他人互动** 常以不适当的性挑逗或诱惑行为为特征
+1. **快速变化且肤浅的情感表达**
+1. **持续使用身体外表** 吸引对自己的注意
+1. **言语过度印象化** 而缺乏细节（如"这太棒了！"却无法具体说明）
+1. **表现自我戏剧化、戏剧性与夸张的情感表达**
+1. **易受暗示**，易被他人或环境影响
+1. **将关系视为比实际更亲密**
 
 ### ICD-11 摘要
 
@@ -58,7 +58,7 @@ comments: true
 - ICD-11 维度化模型中，HPD 可标注为人格障碍伴显著 **去抑制（Disinhibition）** 与 **注意寻求（Attention-seeking）** 特质。
 - 强调情绪不稳定、冲动性与人际操控模式。
 
----
+______________________________________________________________________
 
 ## 临床表现
 
@@ -69,7 +69,7 @@ comments: true
 - **易受暗示**：易被他人意见或流行趋势影响，缺乏独立判断。
 - **关系肤浅**：将关系视为比实际更亲密，但缺乏真正深度或承诺。
 
----
+______________________________________________________________________
 
 ## 流行病学与病程
 
@@ -78,7 +78,7 @@ comments: true
 - **年龄特征**：症状在青少年或成年早期显现。
 - **病程**：慢性但可能随年龄减轻，尤其外表关注与性挑逗行为在中年后降低。
 
----
+______________________________________________________________________
 
 ## 鉴别诊断
 
@@ -87,7 +87,7 @@ comments: true
 - **依赖型人格障碍**：依赖型寻求照顾，HPD 寻求关注与刺激。
 - **躁狂发作**：双相障碍躁狂期可有类似夸张表现，但有明确发作期与恢复期。
 
----
+______________________________________________________________________
 
 ## 治疗与支持
 
@@ -108,7 +108,7 @@ comments: true
 - **无特效药物**。
 - **针对共病**：抗抑郁药（抑郁、焦虑），情绪稳定剂（情绪不稳定）。
 
----
+______________________________________________________________________
 
 ## 相关条目
 
@@ -131,5 +131,5 @@ comments: true
 ## 参考与延伸阅读
 
 1. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.).*
-2. World Health Organization. (2019). *ICD-11 for Mortality and Morbidity Statistics.*
-3. Bakkevig, J. F., & Karterud, S. (2010). Is the Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition, histrionic personality disorder category a valid construct? *Comprehensive Psychiatry*, 51(5), 462-470.
+1. World Health Organization. (2019). *ICD-11 for Mortality and Morbidity Statistics.*
+1. Bakkevig, J. F., & Karterud, S. (2010). Is the Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition, histrionic personality disorder category a valid construct? *Comprehensive Psychiatry*, 51(5), 462-470.

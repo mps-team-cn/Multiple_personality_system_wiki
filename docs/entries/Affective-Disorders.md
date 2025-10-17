@@ -1,22 +1,22 @@
 ---
 tags:
 
-- 诊断与临床
-- 多重意识体
-- 解离
-- 创伤
+  - 诊断与临床
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 诊断与临床
 title: 心境障碍（Affective Disorders）
 updated: 2025-10-14
 synonyms:
 
-- 心境障碍
-- 情感障碍
-- 情绪障碍
-- affective disorders
-- mood disorders
-- mood disorder spectrum
+  - 心境障碍
+  - 情感障碍
+  - 情绪障碍
+  - affective disorders
+  - mood disorders
+  - mood disorder spectrum
 
 comments: true
 ---
@@ -24,10 +24,10 @@ comments: true
 # 心境障碍（Affective Disorders）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
 ## 概述
 
@@ -39,9 +39,9 @@ comments: true
 
 - ICD-11 将心境障碍置于章节 6A6-6A7：
 
-    - **6A60 躁狂或轻躁狂发作** : 包括躁狂与轻躁狂，强调持续情绪高涨、能量增加与功能受损程度；
-    - **6A61 双相型障碍** : 涵盖双相 Ⅰ 型、双相 Ⅱ 型与其他变体；
-    - **6A70–6A7Z 抑郁障碍** : 包括单次或复发性抑郁发作、持续性抑郁障碍等。
+  - **6A60 躁狂或轻躁狂发作** : 包括躁狂与轻躁狂，强调持续情绪高涨、能量增加与功能受损程度；
+  - **6A61 双相型障碍** : 涵盖双相 Ⅰ 型、双相 Ⅱ 型与其他变体；
+  - **6A70–6A7Z 抑郁障碍** : 包括单次或复发性抑郁发作、持续性抑郁障碍等。
 
 - ICD-11 强调症状持续时间、严重度与功能影响，并允许编码混合特征、季节性模式与产后起病。[^who2023mood]
 
@@ -49,8 +49,8 @@ comments: true
 
 - DSM-5-TR 将心境相关诊断拆分为两个章节：
 
-    - **“双相及相关障碍”** : 涵盖躁狂、轻躁狂、双相 Ⅰ 型、双相 Ⅱ 型、环性心境障碍，以及物质/医学状况诱发的心境波动；
-    - **“抑郁障碍”** : 涵盖重度抑郁障碍、持续性抑郁障碍（心境恶劣）、经前焦虑障碍等。
+  - **“双相及相关障碍”** : 涵盖躁狂、轻躁狂、双相 Ⅰ 型、双相 Ⅱ 型、环性心境障碍，以及物质/医学状况诱发的心境波动；
+  - **“抑郁障碍”** : 涵盖重度抑郁障碍、持续性抑郁障碍（心境恶劣）、经前焦虑障碍等。
 
 - 手册强调通过情绪高涨或低落的病程、症状组合与功能损害来区分诊断，并提醒评估物质使用、医疗因素与哀伤反应。[^apa2022]
 
@@ -62,7 +62,9 @@ comments: true
 ## 主要诊断谱系
 
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：以持续情绪低落、兴趣减退与认知改变为核心。
+
 - [躁狂（Mania）](Mania.md) 与 [轻躁狂（Hypomania）](Hypomania.md)：情绪与能量显著高涨的高极状态，主要区别在持续时间与功能影响。
+
 - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)：兼具高极（躁狂/轻躁狂）与低极（抑郁）发作的谱系诊断。
 
 - **环性心境障碍** : 长期交替出现轻度抑郁与轻躁狂症状，虽未满足完全发作标准但仍需临床关注。
@@ -101,5 +103,5 @@ comments: true
 
 ## 参考资料
 
-[^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
-[^who2023mood]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Mood disorders (6A6–6A7).* [https://icd.who.int/en](https://icd.who.int/en)
+\[^apa2022\]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
+\[^who2023mood\]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Mood disorders (6A6–6A7).* [https://icd.who.int/en](https://icd.who.int/en)

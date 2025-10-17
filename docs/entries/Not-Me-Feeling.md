@@ -1,19 +1,19 @@
 ---
 tags:
 
-    - 系统运作
-    - 多重意识体
-    - 解离
-    - 身份边界
+  - 系统运作
+  - 多重意识体
+  - 解离
+  - 身份边界
 
 topic: 系统运作
 synonyms:
 
-    - Not-me 感
-    - 他者感
-    - 身份异化感
-    - 感知区分
-    - 感知壁垒
+  - Not-me 感
+  - 他者感
+  - 身份异化感
+  - 感知区分
+  - 感知壁垒
 
 description: 非我感（Not-me Feeling）体验详解：多意识体系统中识别成员边界的核心体验，理解"那不是我"的身份区隔机制
 title: 非我感（Not-me Feeling）
@@ -24,13 +24,13 @@ comments: true
 # 非我感（Not-me Feeling）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
 !!! note "术语区分"
-    本词条讨论的是多意识体系统中的 **非我感（Not-me Feeling）**，用于识别成员间的身份边界。关于临床解离症状中的 **人格解体（Depersonalization）**，请参见《[人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)》。
+本词条讨论的是多意识体系统中的 **非我感（Not-me Feeling）**，用于识别成员间的身份边界。关于临床解离症状中的 **人格解体（Depersonalization）**，请参见《[人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)》。
 
 ## 定义
 
@@ -80,12 +80,12 @@ comments: true
 
 ### 与人格解体（Depersonalization）的区别
 
-| 维度 | 非我感（Not-me Feeling） | 人格解体（Depersonalization） |
-|------|------------------------|----------------------------|
-| **主体** | 针对系统内其他成员的行为、记忆 | 针对自我整体的疏离感 |
-| **功能** | 识别成员边界，维持身份独立性 | 解离性症状，可能造成功能受损 |
-| **体验** | "那是他的，不是我的" | "我像在旁观自己，不真实" |
-| **语境** | 多意识体系统的正常运作机制 | 临床解离症状，可能需要治疗 |
+| 维度     | 非我感（Not-me Feeling）       | 人格解体（Depersonalization） |
+| -------- | ------------------------------ | ----------------------------- |
+| **主体** | 针对系统内其他成员的行为、记忆 | 针对自我整体的疏离感          |
+| **功能** | 识别成员边界，维持身份独立性   | 解离性症状，可能造成功能受损  |
+| **体验** | "那是他的，不是我的"           | "我像在旁观自己，不真实"      |
+| **语境** | 多意识体系统的正常运作机制     | 临床解离症状，可能需要治疗    |
 
 ### 与侵入性思维的区别
 
@@ -180,6 +180,6 @@ comments: true
 
 ## 参考资料
 
-[^不是我感-1]: Dell, P. F., & O'Neil, J. A. (Eds.). (2009). *Dissociation and the Dissociative Disorders: DSM-V and Beyond*. Routledge.
-[^不是我感-2]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision*.
-[^不是我感-3]: Putnam, F. W. (1997). *Dissociation in Children and Adolescents: A Developmental Perspective*. Guilford Press.
+\[^不是我感-1\]: Dell, P. F., & O'Neil, J. A. (Eds.). (2009). *Dissociation and the Dissociative Disorders: DSM-V and Beyond*. Routledge.
+\[^不是我感-2\]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision*.
+\[^不是我感-3\]: Putnam, F. W. (1997). *Dissociation in Children and Adolescents: A Developmental Perspective*. Guilford Press.

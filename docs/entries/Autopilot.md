@@ -1,10 +1,10 @@
 ---
 tags:
 
-    - 系统运作
-    - DID
-    - ANP
-    - 多重意识体
+  - 系统运作
+  - DID
+  - ANP
+  - 多重意识体
 
 topic: 系统运作
 title: 自动驾驶（Autopilot）
@@ -35,8 +35,8 @@ comments: true
 ## 神经心理机制
 
 1. **程序化动作的维持** ：基底神经节与小脑能够在缺乏高级自我监控的情况下执行已习得的程序化动作，使身体得以自动完成熟悉任务[^自动驾驶-3]。
-2. **解离性屏障** ：结构性解离模型指出，ANP 与情绪部分（EP）之间的分隔可能使意识暂时脱离当下体验，导致“无人完全接管”的过渡状态[^自动驾驶-1]。
-3. **注意力与意识脱节** ：功能影像研究显示，DID 患者在解离状态下，前额叶与边缘系统之间的连结度下降，影响自我感与情绪调节，身体行为与主观意识因此分离[^自动驾驶-4]。
+1. **解离性屏障** ：结构性解离模型指出，ANP 与情绪部分（EP）之间的分隔可能使意识暂时脱离当下体验，导致“无人完全接管”的过渡状态[^自动驾驶-1]。
+1. **注意力与意识脱节** ：功能影像研究显示，DID 患者在解离状态下，前额叶与边缘系统之间的连结度下降，影响自我感与情绪调节，身体行为与主观意识因此分离[^自动驾驶-4]。
 
 ## 与日常走神的区别
 
@@ -52,21 +52,21 @@ comments: true
 ## 何时需要处理 / 何时不建议
 
 - **需要立即处理** ：
-    - 驾驶、操作机械、高风险作业或独处于危险环境；
-    - 伴随强烈去现实化/非我感、头晕、视听过敏或现实定向力下降；
-    - 近期频繁发生且影响学习/工作/安全。
+  - 驾驶、操作机械、高风险作业或独处于危险环境；
+  - 伴随强烈去现实化/非我感、头晕、视听过敏或现实定向力下降；
+  - 近期频繁发生且影响学习/工作/安全。
 - **不建议加码练习的阶段** ：
-    - 触发高发期或睡眠严重不足；
-    - 未建立基本的交接协议与外部安全预案；
-    - 缺乏可用的接地与同步工具时，应先补课再上强度。
+  - 触发高发期或睡眠严重不足；
+  - 未建立基本的交接协议与外部安全预案；
+  - 缺乏可用的接地与同步工具时，应先补课再上强度。
 
 ## 立即处置（高风险场景范例）
 
 1. **降风险** ：立刻停止高危动作；靠边停车/放下工具/远离边缘与热源。
-2. **接地** ：使用 5-4-3-2-1 感官锚定、缓慢腹式呼吸、触碰稳定物体；必要时冷水洗手唤醒觉察。参见 [接地（Grounding）](Grounding.md)。
-3. **呼叫协作** ：确认是否有人可临时共前台/监护；或联系可信任的人协助撤离。
-4. **记录** ：简短记下时间、诱因、体感与处置效果，便于后续分析与就医沟通。
-5. **交接** ：若需要换人前台，按既定协议完成“到岗检查”与“任务卡片”更新。参见 [前台](Front-Fronting.md)。
+1. **接地** ：使用 5-4-3-2-1 感官锚定、缓慢腹式呼吸、触碰稳定物体；必要时冷水洗手唤醒觉察。参见 [接地（Grounding）](Grounding.md)。
+1. **呼叫协作** ：确认是否有人可临时共前台/监护；或联系可信任的人协助撤离。
+1. **记录** ：简短记下时间、诱因、体感与处置效果，便于后续分析与就医沟通。
+1. **交接** ：若需要换人前台，按既定协议完成“到岗检查”与“任务卡片”更新。参见 [前台](Front-Fronting.md)。
 
 ## 支持策略
 
@@ -104,8 +104,8 @@ comments: true
 
 ## 参考资料
 
-[^自动驾驶-1]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision*. [https://www.isst-d.org/wp-content/uploads/2019/02/ISSTD-Guidelines-Adult-DID-Treatment-2011.pdf](https://www.isst-d.org/wp-content/uploads/2019/02/ISSTD-Guidelines-Adult-DID-Treatment-2011.pdf)
-[^自动驾驶-2]: Boon, S., Steele, K., & Van der Hart, O. (2011). *Coping with Trauma-Related Dissociation: Skills Training for Patients and Therapists*. Norton.
-[^自动驾驶-3]: Doyon, J., & Benali, H. (2005). Reorganization and plasticity in the adult brain during learning of motor skills. *Current Opinion in Neurobiology*, 15(2), 161–167.
-[^自动驾驶-4]: Reinders, A. A. T. S., Willemsen, A. T. M., Vos, H. P. J., den Boer, J. A., & Nijenhuis, E. R. S. (2012). Fact or factitious? A psychobiological study of authentic and simulated dissociative identity states. *PLoS ONE*, 7(6), e39279.
-[^自动驾驶-5]: Ogden, P., Minton, K., & Pain, C. (2006). *Trauma and the Body: A Sensorimotor Approach to Psychotherapy*. Norton.
+\[^自动驾驶-1\]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision*. [https://www.isst-d.org/wp-content/uploads/2019/02/ISSTD-Guidelines-Adult-DID-Treatment-2011.pdf](https://www.isst-d.org/wp-content/uploads/2019/02/ISSTD-Guidelines-Adult-DID-Treatment-2011.pdf)
+\[^自动驾驶-2\]: Boon, S., Steele, K., & Van der Hart, O. (2011). *Coping with Trauma-Related Dissociation: Skills Training for Patients and Therapists*. Norton.
+\[^自动驾驶-3\]: Doyon, J., & Benali, H. (2005). Reorganization and plasticity in the adult brain during learning of motor skills. *Current Opinion in Neurobiology*, 15(2), 161–167.
+\[^自动驾驶-4\]: Reinders, A. A. T. S., Willemsen, A. T. M., Vos, H. P. J., den Boer, J. A., & Nijenhuis, E. R. S. (2012). Fact or factitious? A psychobiological study of authentic and simulated dissociative identity states. *PLoS ONE*, 7(6), e39279.
+\[^自动驾驶-5\]: Ogden, P., Minton, K., & Pain, C. (2006). *Trauma and the Body: A Sensorimotor Approach to Psychotherapy*. Norton.

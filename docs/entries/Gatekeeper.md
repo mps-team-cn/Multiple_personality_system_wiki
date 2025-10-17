@@ -1,9 +1,9 @@
 ---
 tags:
 
-- 角色与身份
-- 多重意识体
-- 解离
+  - 角色与身份
+  - 多重意识体
+  - 解离
 
 topic: 角色与身份
 description: 守门人（Gatekeeper）的职能与重要性。了解控制成员切换、保护记忆、维护系统秩序的关键成员及其运作机制
@@ -67,4 +67,4 @@ comments: true
 
 Pluralpedia. (2024). *Gatekeeper*. [https://pluralpedia.org/w/Gatekeeper](https://pluralpedia.org/w/Gatekeeper)
 
-[^PluralpediaGatekeeper]: Pluralpedia. (2024). *Gatekeeper*. [https://pluralpedia.org/w/Gatekeeper](https://pluralpedia.org/w/Gatekeeper)
+\[^PluralpediaGatekeeper\]: Pluralpedia. (2024). *Gatekeeper*. [https://pluralpedia.org/w/Gatekeeper](https://pluralpedia.org/w/Gatekeeper)

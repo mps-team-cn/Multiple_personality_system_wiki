@@ -2,18 +2,18 @@
 title: 创伤持有者（Trauma Holder）
 tags:
 
-    - 角色与身份
-    - 多重意识体
-    - 创伤
-    - 解离
+  - 角色与身份
+  - 多重意识体
+  - 创伤
+  - 解离
 
 topic: 角色与身份
 synonyms:
 
-    - 创伤持有者
-    - Trauma Holder
-    - 创伤承载者
-    - Trauma Bearer
+  - 创伤持有者
+  - Trauma Holder
+  - 创伤承载者
+  - Trauma Bearer
 
 description: 保留特定创伤记忆与情绪的系统成员，可能在触发时被激活，承担保护系统其他成员免受创伤影响的功能
 updated: 2025-10-17
@@ -122,9 +122,9 @@ comments: true
 ### 安全接触原则
 
 1. **建立安全**：确保外部环境稳定、治疗关系信任,再接触创伤持有者。
-2. **获得许可**：询问守门人或保护者是否允许接触,尊重系统边界。
-3. **温和邀请**：通过内部对话、便签或想象画面,温和邀请创伤持有者沟通。
-4. **尊重沉默**：若创伤持有者不愿交流,不强迫,给予时间与空间。
+1. **获得许可**：询问守门人或保护者是否允许接触,尊重系统边界。
+1. **温和邀请**：通过内部对话、便签或想象画面,温和邀请创伤持有者沟通。
+1. **尊重沉默**：若创伤持有者不愿交流,不强迫,给予时间与空间。
 
 ### 创伤加工策略
 
@@ -201,5 +201,5 @@ comments: true
 
 ## 参考资料
 
-[^vanderhart2006]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.
-[^lanius2010]: Lanius, R. A., et al. (2010). Emotion modulation in PTSD: Clinical and neurobiological evidence for a dissociative subtype. *American Journal of Psychiatry*, 167(6), 640–647.
+\[^vanderhart2006\]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.
+\[^lanius2010\]: Lanius, R. A., et al. (2010). Emotion modulation in PTSD: Clinical and neurobiological evidence for a dissociative subtype. *American Journal of Psychiatry*, 167(6), 640–647.

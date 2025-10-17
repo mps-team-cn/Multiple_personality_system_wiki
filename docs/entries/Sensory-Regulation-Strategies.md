@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 创伤与疗愈
-- 多重意识体
-- 解离
-- 创伤
+  - 创伤与疗愈
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 创伤与疗愈
 title: 感官调节策略（Sensory Regulation Strategies）
@@ -15,10 +15,10 @@ comments: true
 # 感官调节策略（Sensory Regulation Strategies）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
 ## 概述
 
@@ -91,7 +91,7 @@ comments: true
 ## 参考与延伸阅读
 
 1. Dunn, W. (2014). *Sensory Profile 2 Manual*. Pearson.
-2. Champagne, T. (2018). *Sensory Modulation & Environment: Essential Elements of Occupation*. 3rd ed. STAR Institute.
-3. Brown, C., & Dunn, W. (2010). Adult/Adolescent Sensory Profile and application to occupational performance. *American Journal of Occupational Therapy*, 64(2), 175–187.
-4. Kapp, S. K., Steward, R., Crane, L., et al. (2019). People should be allowed to do what they like: Autistic adults' views and experiences of sensory differences. *Autism*, 23(5), 1202–1212.
-5. 多意识体照护工作坊编写组. (2024). 《系统日常支持指南》感官调节章节（内部发行）。
+1. Champagne, T. (2018). *Sensory Modulation & Environment: Essential Elements of Occupation*. 3rd ed. STAR Institute.
+1. Brown, C., & Dunn, W. (2010). Adult/Adolescent Sensory Profile and application to occupational performance. *American Journal of Occupational Therapy*, 64(2), 175–187.
+1. Kapp, S. K., Steward, R., Crane, L., et al. (2019). People should be allowed to do what they like: Autistic adults' views and experiences of sensory differences. *Autism*, 23(5), 1202–1212.
+1. 多意识体照护工作坊编写组. (2024). 《系统日常支持指南》感官调节章节（内部发行）。

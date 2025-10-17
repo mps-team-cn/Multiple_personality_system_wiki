@@ -1,19 +1,19 @@
 ---
 tags:
 
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
+  - 理论与分类
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 理论与分类
 title: 移情与反移情（Transference and Countertransference）
 updated: 2025-10-13
 synonyms:
 
-- 移情
-- 反移情
-- transference countertransference
+  - 移情
+  - 反移情
+  - transference countertransference
 
 comments: true
 ---
@@ -21,10 +21,10 @@ comments: true
 # 移情与反移情（Transference and Countertransference）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
 ## 概述
 
@@ -64,5 +64,5 @@ comments: true
 ## 参考与延伸阅读
 
 1. Freud, S. (1912). The dynamics of transference. *Standard Edition*.
-2. Gelso, C. J., & Hayes, J. A. (2007). *Countertransference and the Therapist's Inner Experience*. Lawrence Erlbaum.
-3. Safran, J. D., & Muran, J. C. (2000). *Negotiating the Therapeutic Alliance*. Guilford Press.
+1. Gelso, C. J., & Hayes, J. A. (2007). *Countertransference and the Therapist's Inner Experience*. Lawrence Erlbaum.
+1. Safran, J. D., & Muran, J. C. (2000). *Negotiating the Therapeutic Alliance*. Guilford Press.

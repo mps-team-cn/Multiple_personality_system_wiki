@@ -1,7 +1,7 @@
 ---
 tags:
 
-    - 系统运作
+  - 系统运作
 
 topic: 系统运作
 title: 系统运作导览
@@ -64,7 +64,7 @@ comments: true
 - [融合（Fusion）](Fusion.md) 与 [整合（Integration）](Integration.md)：讨论成员合并或协作整合的路径。
 
 !!! warning "安全与自愿前提"
-    推进 [融合（Fusion）](Fusion.md) 或 [整合（Integration）](Integration.md) 应以 **安全、稳定与自愿** 为前提；以 **功能与生活质量** 为首要指标，小步推进并允许 **随时暂停或回滚** 。出现强烈不适或负荷升高时，优先使用 [接地（Grounding）](Grounding.md) 与既定安全计划。
+推进 [融合（Fusion）](Fusion.md) 或 [整合（Integration）](Integration.md) 应以 **安全、稳定与自愿** 为前提；以 **功能与生活质量** 为首要指标，小步推进并允许 **随时暂停或回滚** 。出现强烈不适或负荷升高时，优先使用 [接地（Grounding）](Grounding.md) 与既定安全计划。
 
 ## 身体与外部互动
 
@@ -79,8 +79,8 @@ comments: true
 ## 使用建议
 
 1. **定位需求** ：先确认当前遇到的是前台调度、内部沟通还是结构治理问题，再对照以上分区查阅。
-2. **建立共享文档** ：结合《[内部沟通](Internal-Communication.md)》与《[独有记忆](Exomemory.md)》，记录每个词条的关键收获，供系统成员共用。
-3. **与其他主题交叉参考** ：切换管理涉及角色职责，可搭配《[角色与身份导览](Roles-Identity-Guide.md)》；若触发创伤反应，可参照《[创伤与疗愈导览](Trauma-Healing-Guide.md)》。
-4. **定期回顾** ：系统状态会随时间变化，建议每季重新检视本导览列出的策略是否仍适用。
+1. **建立共享文档** ：结合《[内部沟通](Internal-Communication.md)》与《[独有记忆](Exomemory.md)》，记录每个词条的关键收获，供系统成员共用。
+1. **与其他主题交叉参考** ：切换管理涉及角色职责，可搭配《[角色与身份导览](Roles-Identity-Guide.md)》；若触发创伤反应，可参照《[创伤与疗愈导览](Trauma-Healing-Guide.md)》。
+1. **定期回顾** ：系统状态会随时间变化，建议每季重新检视本导览列出的策略是否仍适用。
 
 愿本页成为系统运作的“中控台”，协助你与伙伴在复杂的日常中持续协作、互相照护。

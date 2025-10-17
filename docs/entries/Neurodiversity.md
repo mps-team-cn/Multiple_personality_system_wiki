@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 系统运作
-- 多重意识体
-- 解离
-- 创伤
+  - 系统运作
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 系统运作
 title: 神经多样性（Neurodiversity）
@@ -64,7 +64,7 @@ comments: true
 ## 参考与延伸阅读
 
 1. Singer, J. (1998). *NeuroDiversity: The Birth of an Idea*. (未出版荣誉论文). University of Technology Sydney.
-2. Walker, N. (2021). *Neuroqueer Heresies: Notes on the Neurodiversity Paradigm, Autistic Empowerment, and Postnormal Possibilities*. Autonomous Press.
-3. Kapp, S. K. (Ed.). (2020). *Autistic Community and the Neurodiversity Movement: Stories from the Frontline*. Palgrave Macmillan.
-4. Ortega, F. (2009). The cerebral subject and the challenge of neurodiversity. *BioSocieties*, 4(4), 425–445.
-5. 黄敏智、何安婷（译）. (2023). 《神经酷儿异端》节译项目文稿。多意识体中文资料协作组。
+1. Walker, N. (2021). *Neuroqueer Heresies: Notes on the Neurodiversity Paradigm, Autistic Empowerment, and Postnormal Possibilities*. Autonomous Press.
+1. Kapp, S. K. (Ed.). (2020). *Autistic Community and the Neurodiversity Movement: Stories from the Frontline*. Palgrave Macmillan.
+1. Ortega, F. (2009). The cerebral subject and the challenge of neurodiversity. *BioSocieties*, 4(4), 425–445.
+1. 黄敏智、何安婷（译）. (2023). 《神经酷儿异端》节译项目文稿。多意识体中文资料协作组。

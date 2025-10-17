@@ -1,20 +1,20 @@
 ---
 tags:
 
-- 系统运作
-- 角色与身份
-- DID
-- 多重意识体
-- 解离
+  - 系统运作
+  - 角色与身份
+  - DID
+  - 多重意识体
+  - 解离
 
 topic: 系统运作
 title: 混合（Blending）
 updated: 2025-10-16
 synonyms:
 
-- 融混
-- Blending
-- Blurring
+  - 融混
+  - Blending
+  - Blurring
 
 description: 多意识体系统中两个或以上成员的意识状态部分重叠,出现身份边界模糊、记忆感知渗透的现象,探讨其特征、类型与应对方式
 comments: true
@@ -173,7 +173,7 @@ comments: true
 
 ## 参考资料
 
-[^loewenstein1991]: Loewenstein, R. J. (1991). An Office Mental Status Examination for Complex Chronic Dissociative Symptoms and Multiple Personality Disorder. *Psychiatric Clinics of North America*, 14(3), 567–604. [https://doi.org/10.1016/S0193-953X（18](https://doi.org/10.1016/S0193-953X(18))30290-9
-[^wikipedia_did]: Wikipedia contributors. (2025). Dissociative identity disorder. *Wikipedia*. [https://en.wikipedia.org/wiki/Dissociative_identity_disorder](https://en.wikipedia.org/wiki/Dissociative_identity_disorder)
-[^brand2014]: Brand, B. L., Loewenstein, R. J., & Spiegel, D. (2014). Dispelling myths about dissociative identity disorder treatment: An empirically based approach. *Psychiatry*, 77(2), 169–189. [https://doi.org/10.1521/psyc.2014.77.2.169](https://doi.org/10.1521/psyc.2014.77.2.169)
-[^brand2013]: Brand, B. L., & Loewenstein, R. J. (2013). Does phasic trauma treatment make patients with dissociative identity disorder treatment more dissociative? *Journal of Trauma & Dissociation*, 15(1), 52–65. [https://doi.org/10.1080/15299732.2013.828150](https://doi.org/10.1080/15299732.2013.828150)
+\[^loewenstein1991\]: Loewenstein, R. J. (1991). An Office Mental Status Examination for Complex Chronic Dissociative Symptoms and Multiple Personality Disorder. *Psychiatric Clinics of North America*, 14(3), 567–604. [https://doi.org/10.1016/S0193-953X（18](<https://doi.org/10.1016/S0193-953X(18)>)30290-9
+\[^wikipedia_did\]: Wikipedia contributors. (2025). Dissociative identity disorder. *Wikipedia*. [https://en.wikipedia.org/wiki/Dissociative_identity_disorder](https://en.wikipedia.org/wiki/Dissociative_identity_disorder)
+\[^brand2014\]: Brand, B. L., Loewenstein, R. J., & Spiegel, D. (2014). Dispelling myths about dissociative identity disorder treatment: An empirically based approach. *Psychiatry*, 77(2), 169–189. [https://doi.org/10.1521/psyc.2014.77.2.169](https://doi.org/10.1521/psyc.2014.77.2.169)
+\[^brand2013\]: Brand, B. L., & Loewenstein, R. J. (2013). Does phasic trauma treatment make patients with dissociative identity disorder treatment more dissociative? *Journal of Trauma & Dissociation*, 15(1), 52–65. [https://doi.org/10.1080/15299732.2013.828150](https://doi.org/10.1080/15299732.2013.828150)

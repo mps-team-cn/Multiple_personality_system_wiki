@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 系统运作
-- 多重意识体
-- 解离
-- 创伤
+  - 系统运作
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 系统运作
 title: 子系统（Subsystem）
@@ -13,9 +13,9 @@ search:
   boost: 1.5
 synonyms:
 
-- 子系统
-- Subsystem
-- 次级系统
+  - 子系统
+  - Subsystem
+  - 次级系统
 
 comments: true
 ---
@@ -25,13 +25,13 @@ comments: true
 **本词条含有精神病学与临床心理学信息，可能涉及解离性障碍与创伤相关内容，请谨慎阅读。**
 内容仅供参考，不能替代专业诊断与治疗。如有相关困扰，请务必寻求合格心理健康服务人员的帮助。
 
----
+______________________________________________________________________
 
 ## 定义
 
 在心理学与精神病学，特别是结构性解离理论的框架下，子系统是指个体心智中一个具有相对独立边界、特定功能与内在组织的次级结构。它通常由一组在功能、情绪或身份上联系紧密的“部分”（parts）、身份状态或经验序列组成，是复杂心理系统为了应对创伤或适应环境而演化出的功能性架构。
 
----
+______________________________________________________________________
 
 ## 核心特征
 
@@ -54,7 +54,7 @@ comments: true
 
 · 特定子系统通常在对应的内部或外部线索触发下才会被激活并主导个体的意识与行为，例如在面临类似过去创伤的情境时，负责应对该创伤的子系统会被激活。
 
----
+______________________________________________________________________
 
 ## 在心理病理学中的角色
 
@@ -69,10 +69,10 @@ comments: true
 ## 形成机制
 
 1. 适应性解离：在面临无法承受的创伤时，心智通过解离的防御机制，将相互冲突的经验分配到不同的子系统之中。
-2. 情绪与功能分化：为了处理不同类型的情绪或生存需求（如依恋需求与防御需求），系统内部逐渐形成功能特化的子群体。
-3. 角色聚合与固化：具有相似反应模式或历史经历的心理内容聚集起来，形成更稳定、更具组织性的结构。
+1. 情绪与功能分化：为了处理不同类型的情绪或生存需求（如依恋需求与防御需求），系统内部逐渐形成功能特化的子群体。
+1. 角色聚合与固化：具有相似反应模式或历史经历的心理内容聚集起来，形成更稳定、更具组织性的结构。
 
----
+______________________________________________________________________
 
 ## 诊断与评估要点
 
@@ -91,7 +91,7 @@ comments: true
 · 多系统/群体系统社群视角：可能将类似的内部结构视为天生或非创伤性形成的、由多个成员组成的集合。
 · 临床鉴别关键在于评估该结构是否导致显著的临床痛苦或功能损害，以及其与创伤经历的关联性。
 
----
+______________________________________________________________________
 
 ## 治疗与支持框架
 
@@ -115,7 +115,7 @@ comments: true
 · 支持个体发展统一的生活目标、价值观和人际关系模式。
 · 巩固治疗成果，预防复发。
 
----
+______________________________________________________________________
 
 ## 社群与临床语境
 
@@ -123,7 +123,7 @@ comments: true
 · 临床观点：专业人士强调需采用创伤知情的照护原则，尊重个体的内在体验，避免强行整合，并关注子系统结构的功能性适应意义。
 · 风险警示：需警惕媒体对解离性障碍的污名化描绘，避免对内部结构进行简单、猎奇式的解读，并强调专业诊断与治疗的重要性。
 
----
+______________________________________________________________________
 
 ## 相关条目
 
@@ -139,7 +139,7 @@ comments: true
 ## 参考与延伸阅读
 
 1. Van d er Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization. W. W. Norton & Company.（结构性解离理论的奠基性著作）
-2. International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults. Journal of Trauma & Dissociation.
-3. World Health Organization. (2019). ICD-11 for Mortality and Morbidity Statistics.（参见解离性障碍分类）
-4. American Psychiatric Association. (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.).（参见解离性障碍诊断标准）
-5. Schwartz, R. C. (2021). No Bad Parts: Healing Trauma and Restoring Wholeness with the Internal Family Systems Model. Sounds True.（介绍了与子系统概念相关的内部家庭系统模型）
+1. International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults. Journal of Trauma & Dissociation.
+1. World Health Organization. (2019). ICD-11 for Mortality and Morbidity Statistics.（参见解离性障碍分类）
+1. American Psychiatric Association. (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.).（参见解离性障碍诊断标准）
+1. Schwartz, R. C. (2021). No Bad Parts: Healing Trauma and Restoring Wholeness with the Internal Family Systems Model. Sounds True.（介绍了与子系统概念相关的内部家庭系统模型）

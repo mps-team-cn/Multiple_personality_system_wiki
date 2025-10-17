@@ -1,18 +1,18 @@
 ---
 tags:
 
-- 理论与分类
-- 多重意识体
-- 解离
+  - 理论与分类
+  - 多重意识体
+  - 解离
 
 topic: 理论与分类
 title: 学习与条件反射（Learning & Conditioning）
 updated: 2025-10-13
 synonyms:
 
-- 学习理论
-- 条件作用
-- learning and conditioning
+  - 学习理论
+  - 条件作用
+  - learning and conditioning
 
 comments: true
 ---
@@ -57,5 +57,5 @@ comments: true
 ## 参考与延伸阅读
 
 1. Pavlov, I. P. (1927). *Conditioned Reflexes*. Oxford University Press.
-2. Skinner, B. F. (1953). *Science and Human Behavior*. Macmillan.
-3. Rescorla, R. A., & Wagner, A. R. (1972). A theory of Pavlovian conditioning. In A. H. Black & W. F. Prokasy (Eds.), *Classical Conditioning II*. Appleton-Century-Crofts.
+1. Skinner, B. F. (1953). *Science and Human Behavior*. Macmillan.
+1. Rescorla, R. A., & Wagner, A. R. (1972). A theory of Pavlovian conditioning. In A. H. Black & W. F. Prokasy (Eds.), *Classical Conditioning II*. Appleton-Century-Crofts.

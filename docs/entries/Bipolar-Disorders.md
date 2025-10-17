@@ -1,24 +1,24 @@
 ---
 tags:
 
-- 诊断与临床
-- 多重意识体
-- 解离
-- 创伤
+  - 诊断与临床
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 诊断与临床
 description: 概述双相障碍的诊断标准、临床表现、共病风险与治疗策略，辅助多意识体系统管理情绪波动与危机预防。
 title: 双相障碍（Bipolar Disorders）
 synonyms:
 
-    - 躁郁症
-    - 双向情感障碍
-    - 双极性障碍
-    - 情感性精神病
-    - BD
-    - Bipolar Disorder
-    - Manic-Depressive Illness
-    - 躁狂抑郁症
+  - 躁郁症
+  - 双向情感障碍
+  - 双极性障碍
+  - 情感性精神病
+  - BD
+  - Bipolar Disorder
+  - Manic-Depressive Illness
+  - 躁狂抑郁症
 
 updated: 2025-10-17
 search:
@@ -29,12 +29,12 @@ comments: true
 # 双相障碍（Bipolar Disorders）
 
 !!! warning "触发警告"
-    本词条涉及情绪高涨、抑郁、自伤或自杀风险，请在安全环境下阅读。
+本词条涉及情绪高涨、抑郁、自伤或自杀风险，请在安全环境下阅读。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
----
+______________________________________________________________________
 
 ## 概述
 
@@ -42,7 +42,7 @@ comments: true
 
 双相障碍可影响任何年龄与性别，多在青春期至成年早期起病，对学业、职业、人际关系及财务状况造成深远影响。多意识体系统成员若经历情绪状态的剧烈切换、缺乏内部协调或遭遇创伤触发，可能出现不同成员对躁狂或抑郁阶段的记忆与决策承受差异，需要建立共享监测机制、危机预案并寻求专业支持以维持系统稳定。
 
----
+______________________________________________________________________
 
 ## 诊断要点
 
@@ -67,7 +67,7 @@ comments: true
 - DSM-5-TR 将[循环性心境障碍](Cyclothymic-Disorder.md)作为独立诊断;ICD-11 将相关表现视为双相障碍的轻症变式。
 - 两套体系均要求排除物质/药物诱发、躯体疾病因素,并需鉴别与单纯[抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)、分裂情感性障碍等的差异。
 
----
+______________________________________________________________________
 
 ## 临床表现
 
@@ -77,7 +77,7 @@ comments: true
 - **体验特征** : 情绪状态切换可能迅速(快速循环)或缓慢,部分个体在发作间期功能良好,部分则存在持续的认知损害或残留症状。
 - **安全风险** : 躁狂期的冲动决策可能导致财务、法律或人际危机;抑郁期与混合状态自杀风险极高;需即时风险评估与危机介入。
 
----
+______________________________________________________________________
 
 ## 解离机制与背景
 
@@ -86,7 +86,7 @@ comments: true
 - **认知与系统因素** : 认知偏差(如过度自信或灾难化思维)、完美主义、社会节律紊乱(睡眠剥夺、跨时区旅行、工作压力)可能触发发作。多意识体系统内部的情绪状态切换、不同成员对躁狂或抑郁阶段的记忆与承受差异、缺乏内部协调或信息共享,可能加剧情绪波动并降低功能稳定性。
 - **解离与双相的交互** : 情绪系统的极端摆动可能触发[解离（Dissociation）](Dissociation.md)性症状或人格去分化体验,尤其在混合状态中出现认知-情绪不协调。部分个体在躁狂高峰期可能出现自我感知改变或现实感减弱,需鉴别与精神病性症状或解离性障碍的差异。
 
----
+______________________________________________________________________
 
 ## 流行病学与病程
 
@@ -95,7 +95,7 @@ comments: true
 - 病程呈反复发作模式,未治疗或治疗不充分时发作频率与严重度可能增加;系统性维持治疗可显著减少复发并改善功能。
 - 长期病程与认知损害、功能残疾、失业、物质滥用及自杀风险升高有关。
 
----
+______________________________________________________________________
 
 ## 鉴别诊断
 
@@ -106,7 +106,7 @@ comments: true
 - [**注意缺陷多动障碍（ADHD）**](Attention-Deficit-Hyperactivity-Disorder-ADHD.md) : ADHD注意力与冲动问题持续存在,不呈发作性;双相障碍有明确的情绪高涨或低落周期。两者可共病,需分别评估。
 - [**精神分裂症谱系障碍**](Schizophrenia-SZ.md)与分裂情感性障碍 : 精神分裂症精神病性症状在情绪发作之外持续存在;分裂情感性障碍需同时满足精神分裂症与情绪障碍标准。
 
----
+______________________________________________________________________
 
 ## 共病与风险管理
 
@@ -114,16 +114,16 @@ comments: true
 - 需定期评估自杀风险(尤其抑郁期与混合状态)、冲动消费与债务、法律或人际冲突、物质滥用及暴力行为;多意识体系统可通过共享日志、内部会议分配情绪负荷,设置财务限制与安全计划。
 - 长期药物治疗需监测肾功能(锂盐)、甲状腺功能、肝功能、血药浓度及代谢指标(体重、血糖、血脂),必要时与精神科、初级照护及内科团队协作。
 
----
+______________________________________________________________________
 
 ## 治疗流程
 
 1. **安全稳定化** : 评估自杀或自伤风险、精神病性症状、物质使用与生活危机,必要时启动紧急资源或住院。鼓励系统成员透过内部协议分享危机信号,设置轮班或减压安排,避免单一身份长期前台承担情绪负荷。
-2. **急性期治疗** : 在专业指导下使用情绪稳定剂(锂盐、丙戊酸、拉莫三嗪)或非典型抗精神病药(喹硫平、奥氮平、阿立哌唑、鲁拉西酮)控制躁狂或抑郁症状。躁狂伴精神病性症状需抗精神病药;抑郁发作需谨慎使用抗抑郁药(可能诱发躁狂),优先情绪稳定剂或非典型抗精神病药。[^canmat2021]
-3. **心理社会干预与复发预防** : 家庭聚焦治疗(FFT)、[认知行为疗法（Cognitive Behavioral Therapy，CBT）](Cognitive-Behavioral-Therapy-CBT.md)、人际与社会节律治疗(IPSRT)及复发预警教育有助于稳定日常节律、识别早期预警信号并改善家庭沟通。建立规律睡眠、监测情绪日记、限制酒精/兴奋剂、计划财务;系统内共享情绪变动信号与危机应对策略。[^canmat2021]
-4. **长期维持治疗** : 持续药物治疗可显著减少复发,大多数患者需终身管理。定期随访评估药物依从性、副作用、功能恢复及生活质量;通过[接地技巧（Grounding）](Grounding.md)、[正念（Mindfulness）](Mindfulness.md)等工具维持情绪调节与系统稳定。
+1. **急性期治疗** : 在专业指导下使用情绪稳定剂(锂盐、丙戊酸、拉莫三嗪)或非典型抗精神病药(喹硫平、奥氮平、阿立哌唑、鲁拉西酮)控制躁狂或抑郁症状。躁狂伴精神病性症状需抗精神病药;抑郁发作需谨慎使用抗抑郁药(可能诱发躁狂),优先情绪稳定剂或非典型抗精神病药。[^canmat2021]
+1. **心理社会干预与复发预防** : 家庭聚焦治疗(FFT)、[认知行为疗法（Cognitive Behavioral Therapy，CBT）](Cognitive-Behavioral-Therapy-CBT.md)、人际与社会节律治疗(IPSRT)及复发预警教育有助于稳定日常节律、识别早期预警信号并改善家庭沟通。建立规律睡眠、监测情绪日记、限制酒精/兴奋剂、计划财务;系统内共享情绪变动信号与危机应对策略。[^canmat2021]
+1. **长期维持治疗** : 持续药物治疗可显著减少复发,大多数患者需终身管理。定期随访评估药物依从性、副作用、功能恢复及生活质量;通过[接地技巧（Grounding）](Grounding.md)、[正念（Mindfulness）](Mindfulness.md)等工具维持情绪调节与系统稳定。
 
----
+______________________________________________________________________
 
 ## 社群与临床语境
 
@@ -132,7 +132,7 @@ comments: true
 - 同侪支持团体帮助分享药物副作用、节律管理与复发预警经验,减少孤立感与病耻感。
 - 多意识体系统可透过内部信号词、情绪记录、同伴协作与外部治疗师协助,维持安全空间、尊重不同成员对躁狂或抑郁阶段的承受力,避免强迫统一节奏。
 
----
+______________________________________________________________________
 
 ## 相关条目
 
@@ -167,15 +167,15 @@ comments: true
 ## 参考与延伸阅读
 
 1. World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Bipolar or related disorders (6A60–6A6Z).* 检索于 2025-01-05，来自 [https://icd.who.int](https://icd.who.int)。[^who2023c]
-2. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing. [^apa2022]
-3. National Institute of Mental Health. (2024, May 10). *Bipolar Disorder.* [https://www.nimh.nih.gov/health/topics/bipolar-disorder](https://www.nimh.nih.gov/health/topics/bipolar-disorder) [^nimh2024b]
-4. Yatham, L. N., et al. (2021). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders 2021 guidelines for the management of patients with bipolar disorder. *Bipolar Disorders, 23*(9), 724–756. [^canmat2021]
-5. Grande, I., et al. (2016). Bipolar disorder. *The Lancet, 387*(10027), 1561–1572. [^grande2016]
-6. Post, R. M. (2016). Epigenetic basis of sensitization to stress, affective episodes, and stimulants: Implications for illness progression and prevention. *Bipolar Disorders, 18*(4), 315–324. [^post2016]
+1. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing. [^apa2022]
+1. National Institute of Mental Health. (2024, May 10). *Bipolar Disorder.* [https://www.nimh.nih.gov/health/topics/bipolar-disorder](https://www.nimh.nih.gov/health/topics/bipolar-disorder) [^nimh2024b]
+1. Yatham, L. N., et al. (2021). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders 2021 guidelines for the management of patients with bipolar disorder. *Bipolar Disorders, 23*(9), 724–756. [^canmat2021]
+1. Grande, I., et al. (2016). Bipolar disorder. *The Lancet, 387*(10027), 1561–1572. [^grande2016]
+1. Post, R. M. (2016). Epigenetic basis of sensitization to stress, affective episodes, and stimulants: Implications for illness progression and prevention. *Bipolar Disorders, 18*(4), 315–324. [^post2016]
 
-[^who2023c]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Bipolar or related disorders (6A60–6A6Z).* 检索于 2025-01-05，来自 [https://icd.who.int](https://icd.who.int)。
-[^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
-[^nimh2024b]: National Institute of Mental Health. (2024, May 10). *Bipolar Disorder.* [https://www.nimh.nih.gov/health/topics/bipolar-disorder](https://www.nimh.nih.gov/health/topics/bipolar-disorder)
-[^canmat2021]: Yatham, L. N., et al. (2021). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders 2021 guidelines for the management of patients with bipolar disorder. *Bipolar Disorders, 23*(9), 724–756.
-[^grande2016]: Grande, I., et al. (2016). Bipolar disorder. *The Lancet, 387*(10027), 1561–1572.
-[^post2016]: Post, R. M. (2016). Epigenetic basis of sensitization to stress, affective episodes, and stimulants: Implications for illness progression and prevention. *Bipolar Disorders, 18*(4), 315–324.
+\[^who2023c\]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Bipolar or related disorders (6A60–6A6Z).* 检索于 2025-01-05，来自 [https://icd.who.int](https://icd.who.int)。
+\[^apa2022\]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
+\[^nimh2024b\]: National Institute of Mental Health. (2024, May 10). *Bipolar Disorder.* [https://www.nimh.nih.gov/health/topics/bipolar-disorder](https://www.nimh.nih.gov/health/topics/bipolar-disorder)
+\[^canmat2021\]: Yatham, L. N., et al. (2021). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders 2021 guidelines for the management of patients with bipolar disorder. *Bipolar Disorders, 23*(9), 724–756.
+\[^grande2016\]: Grande, I., et al. (2016). Bipolar disorder. *The Lancet, 387*(10027), 1561–1572.
+\[^post2016\]: Post, R. M. (2016). Epigenetic basis of sensitization to stress, affective episodes, and stimulants: Implications for illness progression and prevention. *Bipolar Disorders, 18*(4), 315–324.

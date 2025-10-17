@@ -1,19 +1,19 @@
 ---
 tags:
 
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
+  - 理论与分类
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 理论与分类
 title: 自我效能感（Self-Efficacy）
 updated: 2025-10-13
 synonyms:
 
-- 自我效能
-- 自我效能信念
-- self efficacy
+  - 自我效能
+  - 自我效能信念
+  - self efficacy
 
 comments: true
 ---
@@ -58,5 +58,5 @@ comments: true
 ## 参考与延伸阅读
 
 1. Bandura, A. (1997). *Self-Efficacy: The Exercise of Control*. Freeman.
-2. Maddux, J. E. (Ed.). (2013). *Self-Efficacy, Adaptation, and Adjustment*. Springer.
-3. Luszczynska, A., et al. (2005). Self-efficacy and health-related behaviors. *Psychology & Health*, 20(2), 145–161.
+1. Maddux, J. E. (Ed.). (2013). *Self-Efficacy, Adaptation, and Adjustment*. Springer.
+1. Luszczynska, A., et al. (2005). Self-efficacy and health-related behaviors. *Psychology & Health*, 20(2), 145–161.

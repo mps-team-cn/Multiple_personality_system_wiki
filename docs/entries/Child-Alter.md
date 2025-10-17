@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
+  - 角色与身份
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 角色与身份
 description: 儿童人格（Little / Child Alter）的特征、需求与照护。了解儿童成员的脆弱性、创伤持有及如何提供安全支持与内部照顾
@@ -12,8 +12,8 @@ title: 儿童人格（Little / Child Alter）
 updated: 2025-10-16
 synonyms:
 
-- 小孩意识体
-- Little
+  - 小孩意识体
+  - Little
 
 comments: true
 ---
@@ -58,11 +58,11 @@ comments: true
 - Howell 讨论童年阶段解离对成年功能的影响，提供临床观察。[^howell2011]
 - ISSTD 指南提出与儿童部分工作时需维持安全与稳定。[^isstd2011]
 
-[^steele2017]: Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating trauma-related dissociation: A practical, integrative approach*. W. W. Norton & Company.
-[^howell2011]: Howell, E. F. (2011). *The dissociative mind*. Routledge.
-[^thepluralassociation2021]: The Plural Association. (2021). *Community guidelines for plural well-being*. The Plural Association.
-[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for treating dissociative identity disorder in adults, third revision*. Journal of Trauma & Dissociation, 12(2), 115–187.
-[^boon2011]: Boon, S., Steele, K., & Van der Hart, O. (2011). *Coping with trauma-related dissociation: Skills training for patients and therapists*. W. W. Norton & Company.
+\[^steele2017\]: Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating trauma-related dissociation: A practical, integrative approach*. W. W. Norton & Company.
+\[^howell2011\]: Howell, E. F. (2011). *The dissociative mind*. Routledge.
+\[^thepluralassociation2021\]: The Plural Association. (2021). *Community guidelines for plural well-being*. The Plural Association.
+\[^isstd2011\]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for treating dissociative identity disorder in adults, third revision*. Journal of Trauma & Dissociation, 12(2), 115–187.
+\[^boon2011\]: Boon, S., Steele, K., & Van der Hart, O. (2011). *Coping with trauma-related dissociation: Skills training for patients and therapists*. W. W. Norton & Company.
 
 ## 相关条目
 

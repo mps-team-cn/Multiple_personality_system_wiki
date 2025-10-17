@@ -2,19 +2,19 @@
 title: 非人类成员（Nonhuman Alter）
 tags:
 
-    - 角色与身份
-    - 多重意识体
-    - 身份多样性
+  - 角色与身份
+  - 多重意识体
+  - 身份多样性
 
 topic: 角色与身份
 synonyms:
 
-    - 非人类成员
-    - Nonhuman Alter
-    - 非人形成员
-    - Non-human Part
-    - 兽性成员
-    - Animal Alter
+  - 非人类成员
+  - Nonhuman Alter
+  - 非人形成员
+  - Non-human Part
+  - 兽性成员
+  - Animal Alter
 
 description: 自我认同为动物、虚构生物或其他非人类形态的系统成员，在部分多意识体系统中存在
 updated: 2025-10-17
@@ -109,9 +109,9 @@ comments: true
 ### 理解与尊重
 
 1. **身份验证**：将非人类身份视为真实且有效的自我体验,而非幻想或病理。
-2. **称呼尊重**：使用成员偏好的称呼、代词（可能包括 it/its 或新代词）。
-3. **形态理解**：了解其认同形态的特征、需求与象征意义,而非强加人类框架。
-4. **避免病理化**：非人类认同并非自动表示功能障碍或"更严重的解离"。
+1. **称呼尊重**：使用成员偏好的称呼、代词（可能包括 it/its 或新代词）。
+1. **形态理解**：了解其认同形态的特征、需求与象征意义,而非强加人类框架。
+1. **避免病理化**：非人类认同并非自动表示功能障碍或"更严重的解离"。
 
 ### 沟通策略
 
@@ -181,8 +181,8 @@ comments: true
 
 ## 参考资料
 
-[^pluralpedia-nonhuman]: Pluralpedia. (2024). [Nonhuman](https://pluralpedia.org/w/Nonhuman).
-[^vanderhart2006]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.
-[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation*, 12(2), 115–187.
-[^grivell2020]: Grivell, T., Clegg, H., & Roxburgh, E. C. (2020). An interpretative phenomenological analysis of identity in the therian community. *Identity*, 20(2), 130–142.
-[^davidson2020]: Davidson, J., & Orsini, M. (Eds.). (2020). *Worlds of Autism: Across the Spectrum of Neurological Difference*. University of Minnesota Press.
+\[^pluralpedia-nonhuman\]: Pluralpedia. (2024). [Nonhuman](https://pluralpedia.org/w/Nonhuman).
+\[^vanderhart2006\]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.
+\[^isstd2011\]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation*, 12(2), 115–187.
+\[^grivell2020\]: Grivell, T., Clegg, H., & Roxburgh, E. C. (2020). An interpretative phenomenological analysis of identity in the therian community. *Identity*, 20(2), 130–142.
+\[^davidson2020\]: Davidson, J., & Orsini, M. (Eds.). (2020). *Worlds of Autism: Across the Spectrum of Neurological Difference*. University of Minnesota Press.

@@ -1,9 +1,9 @@
 ---
 tags:
 
-    - 实践指南
-    - Tulpa
-    - 多重意识体
+  - 实践指南
+  - Tulpa
+  - 多重意识体
 
 topic: 实践指南
 title: 实践指南导览
@@ -19,9 +19,11 @@ comments: true
 
 !!! warning "安全操作原则"
 
-    - **尊重自我与系统** ：所有练习以自愿为前提，过程中如感到不适应立即暂停。
-    - **循序渐进** ：阶段内容互有关联，未完成前一阶段时不建议跳跃到进阶章节。
-    - **寻求支持** ：若练习触发强烈情绪或创伤反应，请联系可信赖的支持者或专业人员。
+```
+- **尊重自我与系统** ：所有练习以自愿为前提，过程中如感到不适应立即暂停。
+- **循序渐进** ：阶段内容互有关联，未完成前一阶段时不建议跳跃到进阶章节。
+- **寻求支持** ：若练习触发强烈情绪或创伤反应，请联系可信赖的支持者或专业人员。
+```
 
 ## 模块导航
 
@@ -29,59 +31,59 @@ comments: true
 
 #### 系统指南
 
-| 词条 | 练习重点 | 适合阶段 |
-| --- | --- | --- |
-| [Tulpa 完全创造指南](Tulpa-Guide.md) | 概览 Tulpa 创造的理念、流程与准备要点 | 全程参考 |
-| [Tulpa 完全创造指南·基础篇](Tulpa-Guide-1.md) | 目标设定、心像养成、与 Tulpa 建立初步连结 | 起步阶段 |
-| [Tulpa 完全创造指南·实践篇](Tulpa-Guide-2.md) | 设定人格特质、深化对话、维持日常陪伴 | 稳定练习期 |
-| [Tulpa 完全创造指南·提高篇](Tulpa-Guide-3.md) | 投影、附体、交换等进阶协作技巧 | 进阶巩固期 |
+| 词条                                          | 练习重点                                  | 适合阶段   |
+| --------------------------------------------- | ----------------------------------------- | ---------- |
+| [Tulpa 完全创造指南](Tulpa-Guide.md)          | 概览 Tulpa 创造的理念、流程与准备要点     | 全程参考   |
+| [Tulpa 完全创造指南·基础篇](Tulpa-Guide-1.md) | 目标设定、心像养成、与 Tulpa 建立初步连结 | 起步阶段   |
+| [Tulpa 完全创造指南·实践篇](Tulpa-Guide-2.md) | 设定人格特质、深化对话、维持日常陪伴      | 稳定练习期 |
+| [Tulpa 完全创造指南·提高篇](Tulpa-Guide-3.md) | 投影、附体、交换等进阶协作技巧            | 进阶巩固期 |
 
 #### 核心概念与方法
 
-| 词条 | 练习重点 | 适合阶段 |
-| --- | --- | --- |
-| [塑造（Forcing）](Forcing.md) | 主动/被动 Forcing 训练、持续专注互动 | 起步至稳定期 |
-| [幻境（Wonderland）](Wonderland.md) | 内部想象空间的创建与维护 | 起步至全程 |
-| [成声（Vocality）](Vocality.md) | Tulpa 获得清晰语言表达能力 | 稳定练习期 |
-| [异化（Deviation）](Deviation.md) | 理解和接受 Tulpa 偏离原设定的自主发展 | 稳定至进阶期 |
-| [学舌/操纵（Parroting/Puppeting）](Parroting-Puppeting.md) | 应对"是否在假装 Tulpa"的自我怀疑 | 起步至稳定期 |
+| 词条                                                       | 练习重点                              | 适合阶段     |
+| ---------------------------------------------------------- | ------------------------------------- | ------------ |
+| [塑造（Forcing）](Forcing.md)                              | 主动/被动 Forcing 训练、持续专注互动  | 起步至稳定期 |
+| [幻境（Wonderland）](Wonderland.md)                        | 内部想象空间的创建与维护              | 起步至全程   |
+| [成声（Vocality）](Vocality.md)                            | Tulpa 获得清晰语言表达能力            | 稳定练习期   |
+| [异化（Deviation）](Deviation.md)                          | 理解和接受 Tulpa 偏离原设定的自主发展 | 稳定至进阶期 |
+| [学舌/操纵（Parroting/Puppeting）](Parroting-Puppeting.md) | 应对"是否在假装 Tulpa"的自我怀疑      | 起步至稳定期 |
 
 ### 意识训练
 
-| 词条 | 重点 | 场景 |
-| --- | --- | --- |
-| [正念（Mindfulness）](Mindfulness.md) | 当下觉察、非评判态度 | 建立自我调节基础，识别触发前兆 |
-| [冥想（Meditation）](Meditation.md) | 专注训练、慈悲练习 | 提升情绪韧性、支持创伤处理 |
-| [注意与觉察（Attention & Awareness）](Attention-Awareness.md) | 注意力分配、觉察技巧 | 监测切换迹象、支持共前台协作 |
-| [可视化与想象（Visualization & Imagination）](Visualization-Imagination.md) | 心象构建、场景练习 | Tulpa 练习、内部空间设计 |
+| 词条                                                                        | 重点                 | 场景                           |
+| --------------------------------------------------------------------------- | -------------------- | ------------------------------ |
+| [正念（Mindfulness）](Mindfulness.md)                                       | 当下觉察、非评判态度 | 建立自我调节基础，识别触发前兆 |
+| [冥想（Meditation）](Meditation.md)                                         | 专注训练、慈悲练习   | 提升情绪韧性、支持创伤处理     |
+| [注意与觉察（Attention & Awareness）](Attention-Awareness.md)               | 注意力分配、觉察技巧 | 监测切换迹象、支持共前台协作   |
+| [可视化与想象（Visualization & Imagination）](Visualization-Imagination.md) | 心象构建、场景练习   | Tulpa 练习、内部空间设计       |
 
 ### 内部协作
 
-| 词条 | 重点 | 场景 |
-| --- | --- | --- |
-| [内部沟通（Internal Communication）](Internal-Communication.md) | 日志、会议、紧急信号 | 建立协作流程与信息共享 |
-| [内部空间（Headspace / Inner World）](Headspace-Inner-World.md) | 内部世界管理 | 设计安全空间、安排协作活动 |
-| [权限管理（Permissions）](Permissions.md) | 访问规则与边界 | 协调成员权限、防止突发切换 |
+| 词条                                                            | 重点                 | 场景                       |
+| --------------------------------------------------------------- | -------------------- | -------------------------- |
+| [内部沟通（Internal Communication）](Internal-Communication.md) | 日志、会议、紧急信号 | 建立协作流程与信息共享     |
+| [内部空间（Headspace / Inner World）](Headspace-Inner-World.md) | 内部世界管理         | 设计安全空间、安排协作活动 |
+| [权限管理（Permissions）](Permissions.md)                       | 访问规则与边界       | 协调成员权限、防止突发切换 |
 
 ### 稳定技巧
 
-| 词条 | 重点 | 场景 |
-| --- | --- | --- |
-| [接地（Grounding）](Grounding.md) | 感官锚定、拉回当下 | 闪回、恐慌或解离增幅时 |
-| [感官调节策略](Sensory-Regulation-Strategies.md) | 感官舒缓工具箱 | 长期焦虑、过度唤醒或迟钝 |
-| [情绪调节（Emotion Regulation）](Emotion-Regulation.md) | 自我调节框架 | 识别情绪曲线、规划应对策略 |
+| 词条                                                    | 重点               | 场景                       |
+| ------------------------------------------------------- | ------------------ | -------------------------- |
+| [接地（Grounding）](Grounding.md)                       | 感官锚定、拉回当下 | 闪回、恐慌或解离增幅时     |
+| [感官调节策略](Sensory-Regulation-Strategies.md)        | 感官舒缓工具箱     | 长期焦虑、过度唤醒或迟钝   |
+| [情绪调节（Emotion Regulation）](Emotion-Regulation.md) | 自我调节框架       | 识别情绪曲线、规划应对策略 |
 
 ## 建议学习路径
 
 ### Tulpa 创造路径
 
 1. **奠定观念** → 阅读《[Tulpa 完全创造指南](Tulpa-Guide.md)》，确认动机、风险与准备事项。
-2. **打好基础** → 依照《[基础篇](Tulpa-Guide-1.md)》结合《[正念](Mindfulness.md)》《[冥想](Meditation.md)》建立日常觉察与记录习惯。
-3. **开始塑造** → 学习《[塑造（Forcing）](Forcing.md)》方法,可在《[幻境（Wonderland）](Wonderland.md)》中辅助塑造,同时了解《[学舌/操纵（Parroting/Puppeting）](Parroting-Puppeting.md)》以应对早期自我怀疑。
-4. **进入实作** → 参考《[实践篇](Tulpa-Guide-2.md)》与《[内部沟通](Internal-Communication.md)》《[内部空间](Headspace-Inner-World.md)》设计协作练习，追踪《[成声（Vocality）](Vocality.md)》进展。
-5. **接受演变** → 理解《[异化（Deviation）](Deviation.md)》现象，尊重 Tulpa 的自主发展和个性变化。
-6. **评估进阶需求** → 若系统状态稳定，可按照《[提高篇](Tulpa-Guide-3.md)》搭配《[权限管理](Permissions.md)》规划投影、附体或交换，并保留安全退出方案。
-7. **循环检视** → 结合《[接地](Grounding.md)》《[感官调节策略](Sensory-Regulation-Strategies.md)》在练习后复盘体验，必要时返回前一阶段补强。
+1. **打好基础** → 依照《[基础篇](Tulpa-Guide-1.md)》结合《[正念](Mindfulness.md)》《[冥想](Meditation.md)》建立日常觉察与记录习惯。
+1. **开始塑造** → 学习《[塑造（Forcing）](Forcing.md)》方法,可在《[幻境（Wonderland）](Wonderland.md)》中辅助塑造,同时了解《[学舌/操纵（Parroting/Puppeting）](Parroting-Puppeting.md)》以应对早期自我怀疑。
+1. **进入实作** → 参考《[实践篇](Tulpa-Guide-2.md)》与《[内部沟通](Internal-Communication.md)》《[内部空间](Headspace-Inner-World.md)》设计协作练习，追踪《[成声（Vocality）](Vocality.md)》进展。
+1. **接受演变** → 理解《[异化（Deviation）](Deviation.md)》现象，尊重 Tulpa 的自主发展和个性变化。
+1. **评估进阶需求** → 若系统状态稳定，可按照《[提高篇](Tulpa-Guide-3.md)》搭配《[权限管理](Permissions.md)》规划投影、附体或交换，并保留安全退出方案。
+1. **循环检视** → 结合《[接地](Grounding.md)》《[感官调节策略](Sensory-Regulation-Strategies.md)》在练习后复盘体验，必要时返回前一阶段补强。
 
 ## 练习时的自我检查
 

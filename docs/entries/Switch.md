@@ -1,10 +1,10 @@
 ---
 tags:
 
-    - 系统运作
-    - 多重意识体
-    - 解离
-    - 创伤
+  - 系统运作
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 系统运作
 description: 深入解析系统成员切换（Switch）的类型、触发因素与管理方法。了解切换的生理心理机制、如何识别切换及应对策略
@@ -12,13 +12,13 @@ title: 切换（Switch）
 updated: 2025-10-17
 synonyms:
 
-    - 切换
-    - Switching
-    - 交换
-    - 交替（Alternation）
-    - 前台交接（Handover）
-    - 接管（Takeover）
-    - 前台更替
+  - 切换
+  - Switching
+  - 交换
+  - 交替（Alternation）
+  - 前台交接（Handover）
+  - 接管（Takeover）
+  - 前台更替
 
 search:
   boost: 1.8
@@ -44,12 +44,12 @@ comments: true
 
 ### 切换 vs. 并行
 
-| 维度 | 切换（Switching） | 并行（Parallelism） |
-| --- | --- | --- |
-| **时间特征** | 前台控制权依序转移，不重叠 | 多位成员意识同时活跃，可重叠共存 |
-| **控制方式** | 单次仅一位成员主导前台 | 可能分工协作或共享部分控制 |
+| 维度         | 切换（Switching）          | 并行（Parallelism）                  |
+| ------------ | -------------------------- | ------------------------------------ |
+| **时间特征** | 前台控制权依序转移，不重叠 | 多位成员意识同时活跃，可重叠共存     |
+| **控制方式** | 单次仅一位成员主导前台     | 可能分工协作或共享部分控制           |
 | **意识状态** | 前一位成员退后，后一位接手 | 多条意识流同步运作，可能"多线程思考" |
-| **典型场景** | 应对不同情境需求的轮换 | 复杂任务分工、内外兼顾的协作 |
+| **典型场景** | 应对不同情境需求的轮换     | 复杂任务分工、内外兼顾的协作         |
 
 ### 其他鉴别
 
@@ -60,21 +60,21 @@ comments: true
 ## 何时考虑 / 何时不建议
 
 - **可考虑训练与规范化** ：
-    - 需要发挥不同成员优势以应对任务；
-    - 频繁切换但信息断裂明显，需建立交接协议；
-    - 希望将“被动切换”转为“可预测、可记录”的协作。
+  - 需要发挥不同成员优势以应对任务；
+  - 频繁切换但信息断裂明显，需建立交接协议；
+  - 希望将“被动切换”转为“可预测、可记录”的协作。
 - **不建议加码练习的阶段** ：
-    - 驾驶/操作机械等高风险场景；
-    - 强烈触发、头压或现实定向力明显下降；
-    - 尚未建立最基本的安全词、交接清单与外部记录工具。
+  - 驾驶/操作机械等高风险场景；
+  - 强烈触发、头压或现实定向力明显下降；
+  - 尚未建立最基本的安全词、交接清单与外部记录工具。
 
 ## 切换流程（范例）
 
 1. **准备** ：当前台者进行“收尾记录”（日期/地点/进行中任务/注意事项/体感）。
-2. **退后** ：通过呼吸/感官锚定/内部倒数放慢交接，避免“空窗”。
-3. **交接** ：明确下一位的权限边界与本次目标，必要时约定“立即退场”信号。
-4. **到岗** ：新前台者完成现实定向（时间、地点、人物、任务）与“任务卡片”核对。
-5. **复盘** ：短记本次切换诱因、效果与困难，用于后续优化。
+1. **退后** ：通过呼吸/感官锚定/内部倒数放慢交接，避免“空窗”。
+1. **交接** ：明确下一位的权限边界与本次目标，必要时约定“立即退场”信号。
+1. **到岗** ：新前台者完成现实定向（时间、地点、人物、任务）与“任务卡片”核对。
+1. **复盘** ：短记本次切换诱因、效果与困难，用于后续优化。
 
 ## 常见误区
 
@@ -106,13 +106,13 @@ comments: true
 - [内部空间（Headspace / Inner World）](Headspace-Inner-World.md)
 - [外投射（External Projection）](External-Projection.md)
 - [内视（Visualization / Imagination）](Visualization-Imagination.md)
-    - [自动驾驶（Autopilot）](Autopilot.md)
-    - [定向障碍（Disorientation）](Disorientation.md)
+  - [自动驾驶（Autopilot）](Autopilot.md)
+  - [定向障碍（Disorientation）](Disorientation.md)
 
 ## 参考与延伸阅读
 
-[^pluralpedia-switch]: Pluralpedia. (2024). [Switching](https://pluralpedia.org/w/Switching).
+\[^pluralpedia-switch\]: Pluralpedia. (2024). [Switching](https://pluralpedia.org/w/Switching).
 
-[^reinders2006]: Reinders, A. A. T. S., et al. (2006). Differential brain activation during autobiographical memory retrieval in dissociative identity disorder. _Psychiatry Research: Neuroimaging_, 140(1), 125–142.
+\[^reinders2006\]: Reinders, A. A. T. S., et al. (2006). Differential brain activation during autobiographical memory retrieval in dissociative identity disorder. _Psychiatry Research: Neuroimaging_, 140(1), 125–142.
 
-[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. _Journal of Trauma & Dissociation_, 12(2), 115–187.
+\[^isstd2011\]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. _Journal of Trauma & Dissociation_, 12(2), 115–187.

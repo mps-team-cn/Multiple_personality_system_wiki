@@ -1,20 +1,20 @@
 ---
 tags:
 
-- 诊断与临床
-- 焦虑
-- 共病
-- 创伤
+  - 诊断与临床
+  - 焦虑
+  - 共病
+  - 创伤
 
 topic: 诊断与临床
 title: 广泛性焦虑障碍（Generalized Anxiety Disorder，GAD）
 updated: 2025-10-14
 synonyms:
 
-- 广泛性焦虑障碍
-- Generalized Anxiety Disorder
-- GAD
-- guangfanxing jiaolv zhangai
+  - 广泛性焦虑障碍
+  - Generalized Anxiety Disorder
+  - GAD
+  - guangfanxing jiaolv zhangai
 
 comments: true
 ---
@@ -22,18 +22,18 @@ comments: true
 # 广泛性焦虑障碍（Generalized Anxiety Disorder，GAD）
 
 !!! warning "触发警告"
-    内容涉及焦虑、担忧、躯体症状等敏感议题，阅读时请留意自身状态。
+内容涉及焦虑、担忧、躯体症状等敏感议题，阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考，不构成医疗建议。若需诊断或治疗，请联系持证专业人员。
+本站资料仅供参考，不构成医疗建议。若需诊断或治疗，请联系持证专业人员。
 
----
+______________________________________________________________________
 
 ## 概述
 
 广泛性焦虑障碍（Generalized Anxiety Disorder, GAD）是一种以 **过度焦虑与担忧** 为核心特征的焦虑障碍，这种担忧涉及多种日常事务或活动（如工作、学业、健康、人际关系），难以控制且持续至少 6 个月。患者常伴随躯体症状（如肌肉紧张、疲劳、睡眠障碍、注意力难集中），导致显著痛苦或功能受损。GAD 在创伤幸存者及多意识体系统中高度普遍，常与 PTSD、CPTSD、抑郁障碍共病。
 
----
+______________________________________________________________________
 
 ## 诊断要点
 
@@ -48,11 +48,11 @@ comments: true
 **C. 焦虑与担忧伴随以下至少**3 项 **症状**（儿童仅需 1 项）：
 
 1. 坐立不安或感到紧张或不安
-2. 易疲劳
-3. 注意力难集中或脑子一片空白
-4. 易激惹
-5. 肌肉紧张
-6. 睡眠障碍（难以入睡或维持睡眠，或不安宁、不满意的睡眠）
+1. 易疲劳
+1. 注意力难集中或脑子一片空白
+1. 易激惹
+1. 肌肉紧张
+1. 睡眠障碍（难以入睡或维持睡眠，或不安宁、不满意的睡眠）
 
 **D. 焦虑、担忧或躯体症状导致临床上显著的痛苦或社会、职业或其他重要领域的功能受损**。
 
@@ -71,15 +71,15 @@ comments: true
 
 ### 差异说明
 
-| 重点 | DSM-5-TR | ICD-11 |
-| --- | --- | --- |
-| 持续时间 | 至少 6 个月 | 通常数个月（更灵活） |
+| 重点     | DSM-5-TR                                  | ICD-11                                 |
+| -------- | ----------------------------------------- | -------------------------------------- |
+| 持续时间 | 至少 6 个月                               | 通常数个月（更灵活）                   |
 | 症状数量 | 6 项躯体/心理症状中至少 3 项（儿童 1 项） | 强调多种躯体与精神症状，无具体数量要求 |
-| 核心特征 | 难以控制的过度担忧 | 广泛且持续的焦虑与担忧 |
+| 核心特征 | 难以控制的过度担忧                        | 广泛且持续的焦虑与担忧                 |
 
 两者核心诊断标准一致：**过度担忧、难以控制、躯体症状、功能受损**。
 
----
+______________________________________________________________________
 
 ## 临床表现
 
@@ -105,7 +105,7 @@ comments: true
 - **寻求保证**：反复向他人寻求确认或安慰（"这样做对吗？""会不会出事？"）。
 - **完美主义**：为减少不确定性而过度计划、准备或检查。
 
----
+______________________________________________________________________
 
 ## 流行病学与病程
 
@@ -114,38 +114,38 @@ comments: true
 - **年龄特征**：可发生于任何年龄，平均发病年龄在 30 岁左右；儿童与青少年也可发病。
 - **病程**：慢性且波动，症状可能因生活压力事件（如工作变动、家庭变故、创伤）加剧；未经治疗者症状可持续数年甚至数十年。
 
----
+______________________________________________________________________
 
 ## 鉴别诊断
 
 - **其他焦虑障碍**：
-    - [惊恐障碍（Panic Disorder）](Panic-Disorder.md)：以意外惊恐发作为核心，而非持续担忧。
-    - 社交焦虑障碍（Social Anxiety Disorder）：焦虑局限于社交情境。
-    - 特定恐惧症（Specific Phobia）：焦虑局限于特定对象或情境。
-    - [强迫症（OCD）](OCD.md)：担忧聚焦于强迫观念，伴仪式行为。
+  - [惊恐障碍（Panic Disorder）](Panic-Disorder.md)：以意外惊恐发作为核心，而非持续担忧。
+  - 社交焦虑障碍（Social Anxiety Disorder）：焦虑局限于社交情境。
+  - 特定恐惧症（Specific Phobia）：焦虑局限于特定对象或情境。
+  - [强迫症（OCD）](OCD.md)：担忧聚焦于强迫观念，伴仪式行为。
 - **创伤相关障碍**：
-    - [创伤后应激障碍（PTSD）](PTSD.md) / [复杂性 PTSD（CPTSD）](CPTSD.md)：焦虑与创伤记忆、触发因素相关，GAD 担忧更广泛。
+  - [创伤后应激障碍（PTSD）](PTSD.md) / [复杂性 PTSD（CPTSD）](CPTSD.md)：焦虑与创伤记忆、触发因素相关，GAD 担忧更广泛。
 - **抑郁障碍**：
-    - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：可伴焦虑，但核心为情绪低落、兴趣丧失；GAD 核心为担忧。
+  - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：可伴焦虑，但核心为情绪低落、兴趣丧失；GAD 核心为担忧。
 - **躯体疾病**：
-    - 甲状腺功能亢进、心律失常、低血糖、咖啡因过量等可模拟 GAD 症状，需医学评估排除。
+  - 甲状腺功能亢进、心律失常、低血糖、咖啡因过量等可模拟 GAD 症状，需医学评估排除。
 - **物质诱发焦虑障碍**：
-    - 物质使用（兴奋剂、咖啡因）或戒断反应（酒精、苯二氮卓类）可引起焦虑症状。
+  - 物质使用（兴奋剂、咖啡因）或戒断反应（酒精、苯二氮卓类）可引起焦虑症状。
 
----
+______________________________________________________________________
 
 ## 共病与风险管理
 
 ### 常见共病
 
 - **核心共病**
-    - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：约 60% GAD 患者有抑郁发作史或共病重性抑郁。
-    - 其他焦虑障碍：惊恐障碍、社交焦虑障碍、特定恐惧症高度共病。
-    - [创伤后应激障碍（PTSD）](PTSD.md) / [复杂性 PTSD（CPTSD）](CPTSD.md)：创伤幸存者常同时经历 GAD 与创伤症状。
+  - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：约 60% GAD 患者有抑郁发作史或共病重性抑郁。
+  - 其他焦虑障碍：惊恐障碍、社交焦虑障碍、特定恐惧症高度共病。
+  - [创伤后应激障碍（PTSD）](PTSD.md) / [复杂性 PTSD（CPTSD）](CPTSD.md)：创伤幸存者常同时经历 GAD 与创伤症状。
 - **其他常见共病**
-    - [物质使用障碍（SUD）](Substance-Use-Disorders-SUD.md)：部分患者以酒精或药物缓解焦虑。
-    - [睡眠障碍（SD）](Sleep-Disorders-SD.md)：失眠与 GAD 高度共病。
-    - [解离性身份障碍（DID）](DID.md)：系统内部冲突或触发可能加剧 GAD 症状。
+  - [物质使用障碍（SUD）](Substance-Use-Disorders-SUD.md)：部分患者以酒精或药物缓解焦虑。
+  - [睡眠障碍（SD）](Sleep-Disorders-SD.md)：失眠与 GAD 高度共病。
+  - [解离性身份障碍（DID）](DID.md)：系统内部冲突或触发可能加剧 GAD 症状。
 
 ### 风险管理重点
 
@@ -154,7 +154,7 @@ comments: true
 - **物质依赖**：避免长期使用苯二氮卓类药物（如阿普唑仑、劳拉西泮），有依赖与戒断风险。
 - **系统协作**：对 DID 系统，不同成员可能对担忧的内容或程度有不同体验，需建立内部沟通与共同应对策略。
 
----
+______________________________________________________________________
 
 ## 治疗与支持
 
@@ -163,16 +163,16 @@ comments: true
 **循证心理治疗**（一线治疗）：
 
 - **认知行为疗法（CBT）**：
-    - 识别与修正灾难化思维、过度担忧与负性自动思维。
-    - 发展问题解决技巧与担忧管理策略（如设定"担忧时间"）。
-    - 行为激活，减少回避与寻求保证行为。
+  - 识别与修正灾难化思维、过度担忧与负性自动思维。
+  - 发展问题解决技巧与担忧管理策略（如设定"担忧时间"）。
+  - 行为激活，减少回避与寻求保证行为。
 - **接受与承诺疗法（ACT）**：
-    - 接纳焦虑体验，减少对控制焦虑的执着。
-    - 明确价值观，致力于有意义的行动而非消除焦虑。
+  - 接纳焦虑体验，减少对控制焦虑的执着。
+  - 明确价值观，致力于有意义的行动而非消除焦虑。
 - **正念减压（MBSR）与正念认知疗法（MBCT）**：
-    - 培养当下觉察，减少反刍与预期性焦虑。
+  - 培养当下觉察，减少反刍与预期性焦虑。
 - **心理动力学治疗**：
-    - 探索焦虑的潜意识根源与早期依恋模式。
+  - 探索焦虑的潜意识根源与早期依恋模式。
 
 ### 药物治疗
 
@@ -200,7 +200,7 @@ comments: true
 - **同伴支持**：在线或线下支持小组，分享应对策略。
 - **担忧管理**：设定"担忧时间"（每天固定 15-30 分钟专注于担忧，其他时间推迟担忧），写担忧日记。
 
----
+______________________________________________________________________
 
 ## 社群与临床语境
 
@@ -209,7 +209,7 @@ comments: true
 - **去污名化**：GAD 不是"想太多"或"杞人忧天"，而是神经生物学、心理与社会因素交互作用的结果。
 - **长期管理**：GAD 常慢性化，需长期心理治疗与生活方式调整，强调自我关怀与压力管理。
 
----
+______________________________________________________________________
 
 ## 相关条目
 
@@ -242,7 +242,7 @@ comments: true
 ## 参考与延伸阅读
 
 1. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.).*
-2. World Health Organization. (2019). *ICD-11 for Mortality and Morbidity Statistics.*
-3. National Institute of Mental Health. (2022). *Generalized Anxiety Disorder: When Worry Gets Out of Control.* [https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad](https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad)
-4. Bandelow, B., et al. (2015). Efficacy of treatments for anxiety disorders: A meta-analysis. *International Clinical Psychopharmacology*, 30(4), 183-192.
-5. Borkovec, T. D., & Ruscio, A. M. (2001). Psychotherapy for generalized anxiety disorder. *Journal of Clinical Psychiatry*, 62(Suppl 11), 37-42.
+1. World Health Organization. (2019). *ICD-11 for Mortality and Morbidity Statistics.*
+1. National Institute of Mental Health. (2022). *Generalized Anxiety Disorder: When Worry Gets Out of Control.* [https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad](https://www.nimh.nih.gov/health/publications/generalized-anxiety-disorder-gad)
+1. Bandelow, B., et al. (2015). Efficacy of treatments for anxiety disorders: A meta-analysis. *International Clinical Psychopharmacology*, 30(4), 183-192.
+1. Borkovec, T. D., & Ruscio, A. M. (2001). Psychotherapy for generalized anxiety disorder. *Journal of Clinical Psychiatry*, 62(Suppl 11), 37-42.

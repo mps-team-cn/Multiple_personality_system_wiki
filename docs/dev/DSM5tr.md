@@ -1,7 +1,7 @@
 ---
 tags:
 
-    - 诊断与临床
+  - 诊断与临床
 
 topic: 诊断与临床
 title: 诊断与临床导览（DSM-5-TR 目录）
@@ -14,7 +14,7 @@ comments: true
 > **目的**：按 DSM-5-TR 官方目录建立 **一键可维护** 的清单视图与标准化文件命名，便于逐条更新、交叉审稿与自动化校验。
 > **结构说明**：覆盖 DSM-5-TR Section II 的 **22 个诊断章节**（1–22），并保留第 22 章的 V/Z 码（心理社会与环境问题，**非** 精神障碍诊断）。
 
----
+______________________________________________________________________
 
 ## 0. 总览与评估（工具性条目）
 
@@ -25,7 +25,7 @@ comments: true
 - [x] Disorientation.md
 - [x] Alexithymia.md
 
----
+______________________________________________________________________
 
 ## 1. 神经发育障碍（Neurodevelopmental Disorders）
 
@@ -37,9 +37,9 @@ comments: true
 - [x] Attention-Deficit-Hyperactivity-Disorder-ADHD.md
 - [x] Specific-Learning-Disorder.md
 - [ ] Motor-Disorders.md
-    - [ ] Developmental-Coordination-Disorder.md
-    - [ ] Stereotypic-Movement-Disorder.md
-    - [ ] Tic-Disorders.md
+  - [ ] Developmental-Coordination-Disorder.md
+  - [ ] Stereotypic-Movement-Disorder.md
+  - [ ] Tic-Disorders.md
 
 ## 2. 精神分裂症谱系及其他精神病性障碍（Schizophrenia Spectrum and Other Psychotic Disorders）
 
@@ -73,8 +73,8 @@ comments: true
 
 一句话定位：以持续性低落情绪与快感缺失为主，兼顾年龄段与病程差异。
 
-- [x] Affective-Disorders.md           <!-- 心境类总览 -->
-- [x] Depressive-Disorders.md          <!-- 抑郁类总览 -->
+- [x] Affective-Disorders.md <!-- 心境类总览 -->
+- [x] Depressive-Disorders.md <!-- 抑郁类总览 -->
 - [x] Major-Depressive-Disorder-MDD.md
 - [x] Persistent-Depressive-Disorder-PDD.md
 - [ ] Disruptive-Mood-Dysregulation-Disorder.md
@@ -87,13 +87,13 @@ comments: true
 
 一句话定位：以过度恐惧与焦虑及相关回避为核心，常与躯体症状交织。
 
-- [x] Anxiety-Disorders.md               <!-- 总览 -->
+- [x] Anxiety-Disorders.md <!-- 总览 -->
 - [ ] Separation-Anxiety-Disorder.md
 - [x] Selective-Mutism.md
 - [x] Specific-Phobia.md
 - [x] Social-Anxiety-Disorder.md
 - [x] Panic-Disorder.md
-- [x] Panic-Attack.md            <!-- specifier / transdiagnostic -->
+- [x] Panic-Attack.md <!-- specifier / transdiagnostic -->
 - [x] Agoraphobia.md
 - [x] Generalized-Anxiety-Disorder-GAD.md
 - [ ] Substance-Medication-Induced-Anxiety-Disorder.md
@@ -120,7 +120,7 @@ comments: true
 - [ ] Reactive-Attachment-Disorder.md
 - [ ] Disinhibited-Social-Engagement-Disorder.md
 - [x] PTSD.md
-- [x] CPTSD.md                 <!-- ICD-11 并列条目，便于对照 -->
+- [x] CPTSD.md <!-- ICD-11 并列条目，便于对照 -->
 - [x] Flashback.md
 - [x] Learned-Helplessness.md
 - [x] Acute-Stress-Disorder-ASD.md
@@ -132,13 +132,13 @@ comments: true
 
 一句话定位：意识、记忆、身份与感知的整合受损；与创伤相关高度重叠。
 
-- [x] Dissociative-Disorders.md   <!-- 总览 -->
+- [x] Dissociative-Disorders.md <!-- 总览 -->
 - [x] DID.md
 - [x] Dissociative-Amnesia-DA.md
 - [x] Depersonalization-Derealization-Disorder-DPDR.md
 - [x] OSDD.md
 - [x] Unspecified-Dissociative-Disorder-sdd.md
-- [x] Partial-Dissociative-Identity-Disorder-PDID.md  <!-- ICD-11 -->
+- [x] Partial-Dissociative-Identity-Disorder-PDID.md <!-- ICD-11 -->
 
 ## 9. 躯体症状及相关障碍（Somatic Symptom and Related Disorders）
 
@@ -158,10 +158,10 @@ comments: true
 - [ ] Pica.md
 - [ ] Rumination-Disorder.md
 - [ ] Avoidant-Restrictive-Food-Intake-Disorder-ARFID.md
-- [x] Eating-Disorders-ED.md  <!-- 总览；含 AN/BN/BED 专段 -->
-    - [x] Anorexia-Nervosa.md
-    - [x] Bulimia-Nervosa.md
-    - [x] Binge-Eating-Disorder.md
+- [x] Eating-Disorders-ED.md <!-- 总览；含 AN/BN/BED 专段 -->
+  - [x] Anorexia-Nervosa.md
+  - [x] Bulimia-Nervosa.md
+  - [x] Binge-Eating-Disorder.md
 - [ ] Other-Specified-or-Unspecified-Feeding-Eating-Disorders.md
 
 ## 11. 排泄障碍（Elimination Disorders）
@@ -176,20 +176,20 @@ comments: true
 
 一句话定位：与焦虑、抑郁、物质使用及呼吸相关障碍高度共病与相互影响。
 
-- [x] Sleep-Disorders-SD.md       <!-- 总览 -->
+- [x] Sleep-Disorders-SD.md <!-- 总览 -->
 - [x] Insomnia-Disorder.md
 - [ ] Hypersomnolence-Disorder.md
 - [ ] Narcolepsy.md
 - [ ] Breathing-Related-Sleep-Disorders.md
-    - [ ] Obstructive-Sleep-Apnea-Hypopnea.md
-    - [ ] Central-Sleep-Apnea.md
-    - [ ] Sleep-Related-Hypoventilation.md
+  - [ ] Obstructive-Sleep-Apnea-Hypopnea.md
+  - [ ] Central-Sleep-Apnea.md
+  - [ ] Sleep-Related-Hypoventilation.md
 - [ ] Circadian-Rhythm-Sleep-Wake-Disorders.md
 - [ ] Parasomnias.md
-    - [ ] NREM-Sleep-Arousal-Disorders.md
-    - [ ] Nightmare-Disorder.md
-    - [ ] REM-Sleep-Behavior-Disorder.md
-    - [ ] Restless-Legs-Syndrome.md
+  - [ ] NREM-Sleep-Arousal-Disorders.md
+  - [ ] Nightmare-Disorder.md
+  - [ ] REM-Sleep-Behavior-Disorder.md
+  - [ ] Restless-Legs-Syndrome.md
 - [ ] Substance-Medication-Induced-Sleep-Disorder.md
 - [ ] Other-Specified-or-Unspecified-Sleep-Wake-Disorders.md
 
@@ -212,7 +212,7 @@ comments: true
 
 一句话定位：性别认同与出生指定性别不一致所致显著痛苦或功能损害。
 
-- [x] Gender-Dysphoria-GD.md      <!-- 儿童 / 青少-成人 合并讲解 -->
+- [x] Gender-Dysphoria-GD.md <!-- 儿童 / 青少-成人 合并讲解 -->
 - [x] Other-Specified-or-Unspecified-Gender-Dysphoria.md
 
 ## 15. 破坏性、冲动控制及品行障碍（Disruptive, Impulse-Control, and Conduct Disorders）
@@ -227,13 +227,13 @@ comments: true
 - [ ] Other-Specified-or-Unspecified-Disruptive-Impulse-Conduct-Disorders.md
 
 !!! note "关于反社会型人格障碍（ASPD）"
-    虽然 ASPD 诊断要求 15 岁前有品行障碍证据，但 ASPD 本身属于 **第 18 章：人格障碍（B 组）**，不在本章列出。参见 [Antisocial-Personality-Disorder-ASPD.md](../entries/Antisocial-Personality-Disorder-ASPD.md)。
+虽然 ASPD 诊断要求 15 岁前有品行障碍证据，但 ASPD 本身属于 **第 18 章：人格障碍（B 组）**，不在本章列出。参见 [Antisocial-Personality-Disorder-ASPD.md](../entries/Antisocial-Personality-Disorder-ASPD.md)。
 
 ## 16. 物质相关及成瘾障碍（Substance-Related and Addictive Disorders）
 
 一句话定位：涵盖常见精神活性物质与赌博障碍；就医与家属咨询的高频领域。
 
-- [x] Substance-Use-Disorders-SUD.md   <!-- 总览 -->
+- [x] Substance-Use-Disorders-SUD.md <!-- 总览 -->
 - [x] Alcohol-Related-Disorders.md
 - [x] Caffeine-Related-Disorders.md
 - [x] Cannabis-Related-Disorders.md
@@ -245,7 +245,7 @@ comments: true
 - [x] Tobacco-Related-Disorders.md
 - [ ] Other-Unknown-Substance-Related-Disorders.md
 - [ ] Non-Substance-Related-Disorders.md
-    - [ ] Gambling-Disorder.md
+  - [ ] Gambling-Disorder.md
 
 ## 17. 神经认知障碍（Neurocognitive Disorders）
 
@@ -253,38 +253,38 @@ comments: true
 
 - [x] Delirium.md
 - [ ] Major-Mild-Neurocognitive-Disorders.md
-    - [ ] NCD-Due-to-Alzheimers-Disease.md
-    - [ ] NCD-Due-to-Frontotemporal-Degeneration.md
-    - [ ] NCD-Due-to-Lewy-Bodies.md
-    - [ ] Vascular-NCD.md
-    - [ ] NCD-Due-to-TBI.md
-    - [ ] Substance-Medication-Induced-NCD.md
-    - [ ] NCD-Due-to-HIV-Infection.md
-    - [ ] NCD-Due-to-Prion-Disease.md
-    - [ ] NCD-Due-to-Parkinsons-Disease.md
-    - [ ] NCD-Due-to-Huntingtons-Disease.md
-    - [ ] NCD-Due-to-Other-Medical-Condition.md
-    - [ ] NCD-Due-to-Multiple-Etiologies.md
-    - [ ] Unspecified-NCD.md
+  - [ ] NCD-Due-to-Alzheimers-Disease.md
+  - [ ] NCD-Due-to-Frontotemporal-Degeneration.md
+  - [ ] NCD-Due-to-Lewy-Bodies.md
+  - [ ] Vascular-NCD.md
+  - [ ] NCD-Due-to-TBI.md
+  - [ ] Substance-Medication-Induced-NCD.md
+  - [ ] NCD-Due-to-HIV-Infection.md
+  - [ ] NCD-Due-to-Prion-Disease.md
+  - [ ] NCD-Due-to-Parkinsons-Disease.md
+  - [ ] NCD-Due-to-Huntingtons-Disease.md
+  - [ ] NCD-Due-to-Other-Medical-Condition.md
+  - [ ] NCD-Due-to-Multiple-Etiologies.md
+  - [ ] Unspecified-NCD.md
 
 ## 18. 人格障碍（Personality Disorders）
 
 一句话定位：持久、广泛的内在体验与行为模式偏离文化期待，功能受损。
 
-- [x] Personality-Disorders.md     <!-- DSM 与 ICD-11 维度模型对照 -->
+- [x] Personality-Disorders.md <!-- DSM 与 ICD-11 维度模型对照 -->
 - A 组（Cluster A）
-    - [x] Paranoid-Personality-Disorder-PPD.md
-    - [x] Schizoid-Personality-Disorder-SzPD.md
-    - [x] Schizotypal-Personality-Disorder-STPD.md
+  - [x] Paranoid-Personality-Disorder-PPD.md
+  - [x] Schizoid-Personality-Disorder-SzPD.md
+  - [x] Schizotypal-Personality-Disorder-STPD.md
 - B 组（Cluster B）
-    - [x] Antisocial-Personality-Disorder-ASPD.md
-    - [x] Borderline-Personality-Disorder-BPD.md
-    - [x] Histrionic-Personality-Disorder-HPD.md
-    - [x] Narcissistic-Personality-Disorder-NPD.md
+  - [x] Antisocial-Personality-Disorder-ASPD.md
+  - [x] Borderline-Personality-Disorder-BPD.md
+  - [x] Histrionic-Personality-Disorder-HPD.md
+  - [x] Narcissistic-Personality-Disorder-NPD.md
 - C 组（Cluster C）
-    - [x] Avoidant-Personality-Disorder-AvPD.md
-    - [x] Dependent-Personality-Disorder-DPD.md
-    - [x] Obsessive-Compulsive-Personality-Disorder-OCPD.md
+  - [x] Avoidant-Personality-Disorder-AvPD.md
+  - [x] Dependent-Personality-Disorder-DPD.md
+  - [x] Obsessive-Compulsive-Personality-Disorder-OCPD.md
 - [ ] Other-Specified-or-Unspecified-Personality-Disorder.md
 
 ## 19. 性欲倒错障碍（Paraphilic Disorders）
@@ -329,14 +329,14 @@ comments: true
 ## 22. 可能成为临床关注焦点的其他情况（Other Conditions That May Be a Focus of Clinical Attention）
 
 !!! info "说明"
-    本章为 ICD-10-CM **V/Z 码**，非精神障碍诊断，用于记录影响诊疗与预后的心理社会/环境问题。
+本章为 ICD-10-CM **V/Z 码**，非精神障碍诊断，用于记录影响诊疗与预后的心理社会/环境问题。
 
 - [ ] Relational-Problems.md
-    - [ ] Problems-Related-to-Family-Upbringing.md
-    - [ ] Other-Problems-Related-to-Primary-Support-Group.md
+  - [ ] Problems-Related-to-Family-Upbringing.md
+  - [ ] Other-Problems-Related-to-Primary-Support-Group.md
 - [ ] Abuse-and-Neglect.md
-    - [ ] Child-Maltreatment-and-Neglect-Problems.md
-    - [ ] Adult-Maltreatment-and-Neglect-Problems.md
+  - [ ] Child-Maltreatment-and-Neglect-Problems.md
+  - [ ] Adult-Maltreatment-and-Neglect-Problems.md
 - [ ] Educational-and-Occupational-Problems.md
 - [ ] Housing-and-Economic-Problems.md
 - [ ] Other-Problems-Related-to-Social-Environment.md
@@ -347,7 +347,7 @@ comments: true
 - [ ] Problems-Related-to-Access-to-Medical-and-Other-Health-Care.md
 - [ ] Nonadherence-to-Medical-Treatment.md
 
----
+______________________________________________________________________
 
 ## 附：非正式与历史术语（便于检索映射）
 
@@ -359,7 +359,7 @@ comments: true
 - [x] Dissociative-Conversion-Disorder-Obsolete.md
 - [x] Transsexualism-Obsolete.md
 
----
+______________________________________________________________________
 
 ## 统一写作模板（复制即用）
 
@@ -374,15 +374,15 @@ aliases: []     # 旧称/误写/历史术语（可选）
 ---
 ```
 
-***首屏一句话定位**（≤120 字，回答“是什么/何时就医/何时急诊”）
-***诊断要点**（核心症状、排除与阈值）
-***ICD-11 对照**（若适用）
-***鉴别诊断**（3–5 条，举例 + 关键分辨点）
-***共病评估**（常见共病与筛查要点）
-***治疗管理**（首选治疗、转诊与安全计划）
-***互链**（至少 3 条同主题核心条目）
+\***首屏一句话定位**（≤120 字，回答“是什么/何时就医/何时急诊”）
+\***诊断要点**（核心症状、排除与阈值）
+\***ICD-11 对照**（若适用）
+\***鉴别诊断**（3–5 条，举例 + 关键分辨点）
+\***共病评估**（常见共病与筛查要点）
+\***治疗管理**（首选治疗、转诊与安全计划）
+\***互链**（至少 3 条同主题核心条目）
 
----
+______________________________________________________________________
 
 ## 验收清单（Definition of Done）
 
@@ -395,7 +395,7 @@ aliases: []     # 旧称/误写/历史术语（可选）
 | 本地化 | 必要时留“在地化资源”占位段                             |
 | 质量   | 通过 markdownlint、链接检查、拼写检查（含美式拼写）    |
 
----
+______________________________________________________________________
 
 ## 4 周更新计划（执行版）
 
@@ -426,6 +426,8 @@ aliases: []     # 旧称/误写/历史术语（可选）
 
 ### 第 4 周（睡眠骨干 × 精神病性核心 × ARFID）
 
-***睡眠**：`Breathing-Related-Sleep-Disorders.md`（新建 → 拆 `Obstructive-Sleep-Apnea-Hypopnea.md`）、`Restless-Legs-Syndrome.md`（新建）、`Circadian-Rhythm-Sleep-Wake-Disorders.md`（新建）
+\***睡眠**：`Breathing-Related-Sleep-Disorders.md`（新建 → 拆 `Obstructive-Sleep-Apnea-Hypopnea.md`）、`Restless-Legs-Syndrome.md`（新建）、`Circadian-Rhythm-Sleep-Wake-Disorders.md`（新建）
+
 <!-- ***精神病性（微修已就绪）**：`Delusional-Disorder.md`（已更新）、`Brief-Psychotic-Disorder.md`（已更新）、`Schizoaffective-Disorder.md`（已更新） -->
-***进食补全**：`Avoidant-Restrictive-Food-Intake-Disorder-ARFID.md`（新建）
+
+\***进食补全**：`Avoidant-Restrictive-Food-Intake-Disorder-ARFID.md`（新建）

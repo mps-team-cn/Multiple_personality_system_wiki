@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 系统运作
-- 多重意识体
-- 解离
-- 创伤
+  - 系统运作
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 系统运作
 description: 现实解体（Derealization）现象解析：世界失真感、诊断标准与管理策略。了解现实感丧失、环境陌生化等体验的本质
@@ -16,10 +16,10 @@ comments: true
 # 去现实化（Derealization）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
 ## 定义
 
@@ -34,9 +34,9 @@ comments: true
 ## 常见触发
 
 1. **急性或慢性压力** ：高压力情境、睡眠剥夺、过度自我监控会降低感觉整合，诱发短暂的非真实感。
-2. **创伤记忆激活** ：创伤相关线索会促使心理防御系统“抽离”现实，减轻情绪冲击，以换取暂时的生理安全感[^去现实化-4]。
-3. **物质或药物影响** ：致幻剂、大麻、解离性麻醉剂等可强化去现实化体验；停药后若症状持续需寻求医疗评估。
-4. **系统内部冲突** ：成员对前台控制权意见不合、沟通受阻或存在“旁观者”状态时，可能共同报告环境失真或时间流速改变。
+1. **创伤记忆激活** ：创伤相关线索会促使心理防御系统“抽离”现实，减轻情绪冲击，以换取暂时的生理安全感[^去现实化-4]。
+1. **物质或药物影响** ：致幻剂、大麻、解离性麻醉剂等可强化去现实化体验；停药后若症状持续需寻求医疗评估。
+1. **系统内部冲突** ：成员对前台控制权意见不合、沟通受阻或存在“旁观者”状态时，可能共同报告环境失真或时间流速改变。
 
 ## 应对策略
 
@@ -58,8 +58,8 @@ comments: true
 
 ## 参考资料
 
-[^去现实化-1]: Sierra, M., & Berrios, G. E. (1997). Depersonalization: Neurobiological perspectives. *Biological Psychiatry, 42*(9), 898–908.
-[^去现实化-2]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
-[^去现实化-3]: Phillips, M. L., et al. (2001). Depersonalization disorder: Thinking without feeling. *Psychiatry Research: Neuroimaging, 108*(3), 145–160.
-[^去现实化-4]: Lanius, R. A., et al. (2010). The dissociative subtype of PTSD: Rationale, clinical and neurobiological evidence, and implications. *Depression and Anxiety, 27*(8), 701–708.
-[^去现实化-5]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults* (Third Revision).
+\[^去现实化-1\]: Sierra, M., & Berrios, G. E. (1997). Depersonalization: Neurobiological perspectives. *Biological Psychiatry, 42*(9), 898–908.
+\[^去现实化-2\]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
+\[^去现实化-3\]: Phillips, M. L., et al. (2001). Depersonalization disorder: Thinking without feeling. *Psychiatry Research: Neuroimaging, 108*(3), 145–160.
+\[^去现实化-4\]: Lanius, R. A., et al. (2010). The dissociative subtype of PTSD: Rationale, clinical and neurobiological evidence, and implications. *Depression and Anxiety, 27*(8), 701–708.
+\[^去现实化-5\]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults* (Third Revision).

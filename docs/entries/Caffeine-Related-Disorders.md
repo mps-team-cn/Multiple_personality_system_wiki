@@ -1,18 +1,18 @@
 ---
 tags:
 
-    - 诊断与临床
-    - 物质使用
-    - 成瘾
+  - 诊断与临床
+  - 物质使用
+  - 成瘾
 
 topic: 诊断与临床
 title: 咖啡因相关障碍（Caffeine-Related Disorders）
 synonyms:
 
-    - 咖啡因使用障碍
-    - 咖啡因依赖
-    - Caffeine Use Disorder
-    - Caffeine Dependence
+  - 咖啡因使用障碍
+  - 咖啡因依赖
+  - Caffeine Use Disorder
+  - Caffeine Dependence
 
 description: 概述咖啡因相关障碍的诊断、临床表现与管理要点，涵盖咖啡因中毒与咖啡因戒断，并说明与睡眠/焦虑障碍的密切关系
 updated: 2025-10-16
@@ -22,15 +22,15 @@ comments: true
 # 咖啡因相关障碍（Caffeine-Related Disorders）
 
 !!! info "免责声明"
-    本站资料仅供参考，不构成医疗建议。若需诊断或治疗，请联系持证专业人员。
+本站资料仅供参考，不构成医疗建议。若需诊断或治疗，请联系持证专业人员。
 
----
+______________________________________________________________________
 
 ## 概述
 
 咖啡因相关障碍主要指因摄入咖啡因所致的急性中毒与停用后的戒断综合征。咖啡因广泛存在于咖啡、茶、能量饮料、可乐饮料及部分止痛/感冒复方药。适量摄入通常安全，但高剂量或敏感个体可能出现焦虑、心悸、失眠与震颤。长期高频使用与睡眠/焦虑障碍相互影响，形成“睡眠不足—更多咖啡因—更难入睡”的恶性循环。DSM-5-TR 收录“咖啡因中毒”“咖啡因戒断”与“咖啡因诱发的焦虑/睡眠障碍等”；“咖啡因使用障碍”仍处于进一步研究状态。ICD-11 同样设置“因使用咖啡因所致的障碍”类目。
 
----
+______________________________________________________________________
 
 ## 诊断要点
 
@@ -53,7 +53,7 @@ comments: true
 
 DSM-5-TR 强调中毒与戒断的临床可观察性并明确列入正式诊断，ICD-11 以物质所致障碍体系列出；“使用障碍”在 DSM-5-TR 仍非正式诊断条目。
 
----
+______________________________________________________________________
 
 ## 临床表现
 
@@ -62,7 +62,7 @@ DSM-5-TR 强调中毒与戒断的临床可观察性并明确列入正式诊断�
 - 功能影响：学习/工作注意力波动、睡眠结构破坏（延迟入睡、缩短总睡眠时间、次日补偿性摄入）。
 - 个体差异：与剂量、摄入时间（晚间/临睡前）、代谢速率（CYP1A2 多态）及焦虑敏感性相关。
 
----
+______________________________________________________________________
 
 ## 鉴别诊断
 
@@ -71,7 +71,7 @@ DSM-5-TR 强调中毒与戒断的临床可观察性并明确列入正式诊断�
 - **[睡眠障碍（Sleep Disorders，SD）](Sleep-Disorders-SD.md)/[失眠障碍](Insomnia-Disorder.md)**：咖啡因诱发的失眠随剂量与时间调整而缓解；原发性失眠不依赖摄入史。
 - 甲状腺功能亢进、药物不良反应（如减肥药、兴奋剂）等医学状况。
 
----
+______________________________________________________________________
 
 ## 共病与风险管理
 
@@ -79,7 +79,7 @@ DSM-5-TR 强调中毒与戒断的临床可观察性并明确列入正式诊断�
 - **风险人群**：青少年、轮班/夜班人群、为提高绩效/熬夜学习而高频摄入者。
 - **安全建议**：避免晚间与临睡前摄入；逐步减量（每 2–3 天减少 10–25%）；与睡眠卫生训练及焦虑管理并行；必要时在专业指导下替代（低咖啡因饮品）。
 
----
+______________________________________________________________________
 
 ## 治疗与支持
 
@@ -88,7 +88,7 @@ DSM-5-TR 强调中毒与戒断的临床可观察性并明确列入正式诊断�
 - 合并焦虑/失眠：采用 CBT-I（失眠的认知行为治疗）、放松训练、接地/呼吸练习；必要时处理原发焦虑障碍。
 - 药物：无特异解毒药；对症处理头痛、胃部不适等。
 
----
+______________________________________________________________________
 
 ## 相关条目
 
@@ -97,11 +97,11 @@ DSM-5-TR 强调中毒与戒断的临床可观察性并明确列入正式诊断�
 - [焦虑障碍总览（Anxiety Disorders）](Anxiety-Disorders.md)
 - [惊恐障碍（Panic Disorder）](Panic-Disorder.md)
 
----
+______________________________________________________________________
 
 ## 参考与延伸阅读
 
 1. American Psychiatric Association. (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.).
-2. World Health Organization. ICD-11 for Mortality and Morbidity Statistics.
-3. Roehrs, T., & Roth, T. (2008). Caffeine: sleep and daytime sleepiness. Sleep Medicine Reviews.
-4. Juliano, L. M., & Griffiths, R. R. (2004). A critical review of caffeine withdrawal. Psychopharmacology.
+1. World Health Organization. ICD-11 for Mortality and Morbidity Statistics.
+1. Roehrs, T., & Roth, T. (2008). Caffeine: sleep and daytime sleepiness. Sleep Medicine Reviews.
+1. Juliano, L. M., & Griffiths, R. R. (2004). A critical review of caffeine withdrawal. Psychopharmacology.

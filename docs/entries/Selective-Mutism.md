@@ -1,20 +1,20 @@
 ---
 tags:
 
-- 诊断与临床
-- 焦虑
-- 儿童发展
-- 社交
+  - 诊断与临床
+  - 焦虑
+  - 儿童发展
+  - 社交
 
 topic: 诊断与临床
 title: 选择性缄默症（Selective Mutism，SM）
 updated: 2025-10-14
 synonyms:
 
-- 选择性缄默症
-- Selective Mutism
-- SM
-- xuanzexing jianmo zheng
+  - 选择性缄默症
+  - Selective Mutism
+  - SM
+  - xuanzexing jianmo zheng
 
 comments: true
 ---
@@ -22,10 +22,10 @@ comments: true
 # 选择性缄默症（Selective Mutism，SM）
 
 !!! warning "触发警告"
-    内容涉及焦虑、社交压力、儿童创伤等敏感议题，阅读时请留意自身状态。
+内容涉及焦虑、社交压力、儿童创伤等敏感议题，阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考，不构成医疗建议。若需诊断或治疗，请联系持证专业人员。
+本站资料仅供参考，不构成医疗建议。若需诊断或治疗，请联系持证专业人员。
 
 **选择性缄默症常涉及沟通困难、社交压力与焦虑反应，请在安全环境中阅读。**
 
@@ -55,11 +55,11 @@ _若儿童或成人出现持续的情境性缄默并影响社交或学习功能�
 
 ### DSM-5-TR 与 ICD-11 差异
 
-| 重点 | DSM-5-TR | ICD-11 |
-| --- | --- | --- |
+| 重点     | DSM-5-TR                     | ICD-11                 |
+| -------- | ---------------------------- | ---------------------- |
 | 核心条件 | 特定情境中持续不说话 ≥1 个月 | 特定社交情境中持续缄默 |
-| 分类归属 | 焦虑障碍 | 焦虑或恐惧相关障碍 |
-| 共病强调 | 常与社交焦虑障碍共病 | 强调社交焦虑为核心机制 |
+| 分类归属 | 焦虑障碍                     | 焦虑或恐惧相关障碍     |
+| 共病强调 | 常与社交焦虑障碍共病         | 强调社交焦虑为核心机制 |
 
 ## 症状表现
 
@@ -103,12 +103,12 @@ _若儿童或成人出现持续的情境性缄默并影响社交或学习功能�
 ### 心理治疗（一线治疗）
 
 1. **行为疗法与暴露治疗**：
-    - **刺激淡化（Stimulus Fading）**：在儿童舒适的情境中逐步引入陌生人或新情境。
-    - **塑造（Shaping）**：从非语言沟通（手势、点头）逐步过渡到耳语、小声说话、正常音量。
-    - **正强化**：对任何沟通尝试（包括非语言）给予积极反馈与奖励。
-2. **认知行为疗法（CBT）**：适用于年龄较大儿童与青少年，识别并修正与社交评价相关的灾难化思维。
-3. **社交技能训练**：通过角色扮演、小组活动增强社交信心与沟通能力。
-4. **家庭治疗**：帮助家长减少过度保护、建立一致的鼓励策略，避免强迫或惩罚性干预。
+   - **刺激淡化（Stimulus Fading）**：在儿童舒适的情境中逐步引入陌生人或新情境。
+   - **塑造（Shaping）**：从非语言沟通（手势、点头）逐步过渡到耳语、小声说话、正常音量。
+   - **正强化**：对任何沟通尝试（包括非语言）给予积极反馈与奖励。
+1. **认知行为疗法（CBT）**：适用于年龄较大儿童与青少年，识别并修正与社交评价相关的灾难化思维。
+1. **社交技能训练**：通过角色扮演、小组活动增强社交信心与沟通能力。
+1. **家庭治疗**：帮助家长减少过度保护、建立一致的鼓励策略，避免强迫或惩罚性干预。
 
 ### 学校协作
 
@@ -144,8 +144,8 @@ _若儿童或成人出现持续的情境性缄默并影响社交或学习功能�
 
 ## 参考与延伸阅读
 
-[^apa2022sm]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.). American Psychiatric Publishing.
+\[^apa2022sm\]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.). American Psychiatric Publishing.
 
-[^who2023sm]: World Health Organization. (2023). _ICD-11 for Mortality and Morbidity Statistics: Selective mutism (6B06)._ [https://icd.who.int/en](https://icd.who.int/en)
+\[^who2023sm\]: World Health Organization. (2023). _ICD-11 for Mortality and Morbidity Statistics: Selective mutism (6B06)._ [https://icd.who.int/en](https://icd.who.int/en)
 
-[^nimh2024sm]: National Institute of Mental Health. (2024). _Anxiety Disorders in Children and Adolescents._ [https://www.nimh.nih.gov](https://www.nimh.nih.gov)
+\[^nimh2024sm\]: National Institute of Mental Health. (2024). _Anxiety Disorders in Children and Adolescents._ [https://www.nimh.nih.gov](https://www.nimh.nih.gov)

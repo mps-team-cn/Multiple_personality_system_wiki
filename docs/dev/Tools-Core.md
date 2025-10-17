@@ -89,18 +89,22 @@ fixed = processor.process(text)  # "**加粗** 后面"
 根据文件所在位置的不同,链接格式规范也不同:
 
 1. **词条间链接**(`docs/entries/` 内):直接使用文件名
+
    - ✅ 正确:`[DID](../entries/DID.md)`(其他目录→词条)
    - ❌ 错误:`[DID](DID.md)`(仅限词条目录内)
 
-2. **词条→其他目录**:使用 `../` 相对路径
+1. **词条→其他目录**:使用 `../` 相对路径
+
    - ✅ 正确:`[贡献指南](../contributing/index.md)`
    - ❌ 错误:`[贡献指南](contributing/index.md)`
 
-3. **其他目录→词条**:使用 `../entries/` 路径
+1. **其他目录→词条**:使用 `../entries/` 路径
+
    - ✅ 正确:`[DID](../entries/DID.md)`
    - ❌ 错误:`[DID](DID.md)`(省略路径)
 
-4. **禁止事项**:
+1. **禁止事项**:
+
    - ❌ 绝对路径:`/docs/entries/DID.md`
    - ❌ 链接到不存在的文件
 
@@ -156,10 +160,10 @@ Markdown 链接规范检查
 脚本默认排除以下类型的文件(可能包含示例链接或待完善内容):
 
 1. **模板和示例文件**:`TEMPLATE_ENTRY.md`、`404.md`
-2. **Contributing 指南**:`contributing/` 下的所有规范文档
-3. **开发文档**:`dev/INDEX_GUIDE.md`、`dev/MIGRATION_REPORT.md` 等
-4. **工具文档**:`tools/REFACTORING_PLAN.md`、`pdf_export/` 相关文档
-5. **README 文件**:各目录下的 `README.md`
+1. **Contributing 指南**:`contributing/` 下的所有规范文档
+1. **开发文档**:`dev/INDEX_GUIDE.md`、`dev/MIGRATION_REPORT.md` 等
+1. **工具文档**:`tools/REFACTORING_PLAN.md`、`pdf_export/` 相关文档
+1. **README 文件**:各目录下的 `README.md`
 
 如需添加新的排除文件,请编辑 [tools/check_links.py:294-327](../../tools/check_links.py#L294-L327) 中的 `exclude_files` 集合。
 
@@ -189,12 +193,13 @@ Markdown 链接规范检查
 根据 `docs/TEMPLATE_ENTRY.md` 规范,每个词条必须包含以下 Frontmatter 字段:
 
 1. **title**:词条标题(一级标题文字)
-2. **tags**:分类标签(YAML 列表格式)
-3. **topic**:主题分类(七大主题之一)
-4. **description**:SEO 描述(120-155 字符)
-5. **updated**:最后更新时间(YYYY-MM-DD 格式)
+1. **tags**:分类标签(YAML 列表格式)
+1. **topic**:主题分类(七大主题之一)
+1. **description**:SEO 描述(120-155 字符)
+1. **updated**:最后更新时间(YYYY-MM-DD 格式)
 
 可选字段:
+
 - **synonyms**:同义词/别名列表
 - **comments**:是否启用评论区(true/false)
 
@@ -305,10 +310,10 @@ OSDD.md                                            ⚠️  跳过: 无法获取 
 ### 工作原理
 
 1. 使用 `git log -1 --format=%ai` 获取文件的最后提交时间
-2. 解析 Markdown 文件的 Frontmatter
-3. 比较现有的 `updated` 字段与 Git 时间戳
-4. 如果不一致,更新 Frontmatter 中的 `updated` 字段
-5. 保持文件的其他内容不变
+1. 解析 Markdown 文件的 Frontmatter
+1. 比较现有的 `updated` 字段与 Git 时间戳
+1. 如果不一致,更新 Frontmatter 中的 `updated` 字段
+1. 保持文件的其他内容不变
 
 ### 注意事项
 
@@ -329,20 +334,20 @@ OSDD.md                                            ⚠️  跳过: 无法获取 
 ### 七大主题分区
 
 1. **诊断与临床** - DID、OSDD、PTSD 等诊断相关词条
-2. **系统运作** - 切换、共识、内世界等系统机制
-3. **实践指南** - Tulpa 创造、接地技巧等实用指南
-4. **创伤与疗愈** - 创伤处理、疗愈方法、心理治疗
-5. **角色与身份** - 人格、主人格、守门人等角色定义
-6. **理论与分类** - 结构性解离理论、分类体系等
-7. **文化与表现** - 文学、影视作品中的多重人格表现
+1. **系统运作** - 切换、共识、内世界等系统机制
+1. **实践指南** - Tulpa 创造、接地技巧等实用指南
+1. **创伤与疗愈** - 创伤处理、疗愈方法、心理治疗
+1. **角色与身份** - 人格、主人格、守门人等角色定义
+1. **理论与分类** - 结构性解离理论、分类体系等
+1. **文化与表现** - 文学、影视作品中的多重人格表现
 
 ### 工作原理
 
 1. 扫描 `docs/entries/` 下的所有词条文件
-2. 读取每个词条的 `topic` 字段
-3. 按主题分类聚合词条信息(标题、路径、更新时间)
-4. 为每个主题生成独立的索引页(如 `诊断与临床-index.md`)
-5. 按更新时间降序排列词条列表
+1. 读取每个词条的 `topic` 字段
+1. 按主题分类聚合词条信息(标题、路径、更新时间)
+1. 为每个主题生成独立的索引页(如 `诊断与临床-index.md`)
+1. 按更新时间降序排列词条列表
 
 ### 自动化集成
 
@@ -384,7 +389,7 @@ comments: true
 ### 配置要求
 
 1. **requirements.txt** - 已添加 `mkdocs-gen-files>=0.5.0`
-2. **mkdocs.yml** - 已配置 gen-files 插件:
+1. **mkdocs.yml** - 已配置 gen-files 插件:
 
 ```yaml
 plugins:
@@ -424,8 +429,8 @@ updated: 2025-10-14
 脚本自动生成 `docs/SUMMARY.md` 文件,控制 MkDocs Material 的侧边栏导航。导航结构包括:
 
 1. **主题索引页** - 每个主题的汇总页面
-2. **所有词条** - 按标题首字母排序,方便查找
-3. **字母分组** - 中文词条按拼音首字母,英文词条按字母排序
+1. **所有词条** - 按标题首字母排序,方便查找
+1. **字母分组** - 中文词条按拼音首字母,英文词条按字母排序
 
 这确保了点进任何词条后,左侧侧边栏都能显示同主题的其他词条,便于用户浏览和导航。
 

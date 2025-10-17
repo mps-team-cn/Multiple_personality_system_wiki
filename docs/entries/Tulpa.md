@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 角色与身份
-- DID
-- 多重意识体
-- 解离
+  - 角色与身份
+  - DID
+  - 多重意识体
+  - 解离
 
 topic: 角色与身份
 description: 全面了解 Tulpa（图帕）的创造原理、培育方法与实践指南。探索意识同伴的形成机制、与 DID 的区别及社群文化，包含系统化训练技巧
@@ -19,7 +19,7 @@ comments: true
 
 > **一句话定义** ：图帕指通过刻意的想象训练、冥想与持续互动培育出的内在意识同伴，被社群视为与宿主共享身体、具独立思维与情感回应的成员。[^veissiere2016][^kondrla2020]
 
----
+______________________________________________________________________
 
 ## 定义与同义词
 
@@ -66,6 +66,6 @@ comments: true
 
 ## 参考与延伸阅读
 
-[^veissiere2016]: Veissière, S. P. L. (2016). Varieties of Tulpa experiences: Sentient imaginary friends, embodied joint-agents, and hypnotic social agents. *Anthropology of Consciousness, 27*(2), 213–239.
-[^kondrla2020]: Kondrla, T., & Smrek, M. (2020). Tulpamancy: Virtual companions, embodiment, and ethical questions. *Human Affairs, 30*(4), 474–486.
-[^bell2023]: Bell, G. (2023). Tulpamancy and the ethics of plural embodiment in online communities. In S. Coleman & E. Harvey (Eds.), *Imagined Companions in the Digital Age* (pp. 151–172). Routledge.
+\[^veissiere2016\]: Veissière, S. P. L. (2016). Varieties of Tulpa experiences: Sentient imaginary friends, embodied joint-agents, and hypnotic social agents. *Anthropology of Consciousness, 27*(2), 213–239.
+\[^kondrla2020\]: Kondrla, T., & Smrek, M. (2020). Tulpamancy: Virtual companions, embodiment, and ethical questions. *Human Affairs, 30*(4), 474–486.
+\[^bell2023\]: Bell, G. (2023). Tulpamancy and the ethics of plural embodiment in online communities. In S. Coleman & E. Harvey (Eds.), *Imagined Companions in the Digital Age* (pp. 151–172). Routledge.

@@ -11,19 +11,19 @@ Sveltia CMS 使用 GitHub Personal Access Token 进行认证，首次访问时�
 ### 1. 创建 GitHub Token
 
 1. 访问 [GitHub Token 创建页面](https://github.com/settings/tokens/new)
-2. 填写 Token 描述（如 `Multiple Personality System Wiki CMS`）
-3. 设置过期时间（建议 90 天或更长）
-4. **必须勾选** `repo` 权限（完整仓库访问）
-5. 点击 "Generate token" 生成 Token
-6. **立即复制** Token（离开页面后无法再查看）
+1. 填写 Token 描述（如 `Multiple Personality System Wiki CMS`）
+1. 设置过期时间（建议 90 天或更长）
+1. **必须勾选** `repo` 权限（完整仓库访问）
+1. 点击 "Generate token" 生成 Token
+1. **立即复制** Token（离开页面后无法再查看）
 
 ### 2. 登录 CMS
 
 1. 访问 <https://wiki.mpsteam.cn/admin/>
-2. 等待 Sveltia CMS 加载完成
-3. 点击 "Log in with GitHub"
-4. 粘贴您的 Personal Access Token
-5. 点击 "Authenticate"
+1. 等待 Sveltia CMS 加载完成
+1. 点击 "Log in with GitHub"
+1. 粘贴您的 Personal Access Token
+1. 点击 "Authenticate"
 
 ## 功能特性
 
@@ -53,16 +53,19 @@ Sveltia CMS 使用 GitHub Personal Access Token 进行认证，首次访问时�
 **A:** 这通常是以下原因之一：
 
 1. **Token 未配置或已过期**
-    - 刷新页面重新登录
-    - 创建新的 Personal Access Token
 
-2. **CDN 加载失败**
-    - 检查浏览器控制台是否有错误
-    - 尝试切换网络（如使用移动热点）
+   - 刷新页面重新登录
+   - 创建新的 Personal Access Token
 
-3. **浏览器缓存问题**
-    - 按 `Ctrl + Shift + R`（Windows/Linux）或 `Cmd + Shift + R`（macOS）强制刷新
-    - 清除浏览器缓存后重试
+1. **CDN 加载失败**
+
+   - 检查浏览器控制台是否有错误
+   - 尝试切换网络（如使用移动热点）
+
+1. **浏览器缓存问题**
+
+   - 按 `Ctrl + Shift + R`（Windows/Linux）或 `Cmd + Shift + R`（macOS）强制刷新
+   - 清除浏览器缓存后重试
 
 ### Q: 如何查看修改历史？
 
@@ -108,10 +111,10 @@ https://wiki.mpsteam.cn
 如遇问题，请：
 
 1. 检查 [GitHub Issues](https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues)
-2. 查看 [Sveltia CMS 官方文档](https://github.com/sveltia/sveltia-cms)
-3. 联系项目维护者
+1. 查看 [Sveltia CMS 官方文档](https://github.com/sveltia/sveltia-cms)
+1. 联系项目维护者
 
----
+______________________________________________________________________
 
 **最后更新：** 2025-10-11
 **CMS 版本：** Sveltia CMS 0.112+

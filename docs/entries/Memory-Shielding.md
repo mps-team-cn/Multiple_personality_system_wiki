@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 系统运作
-- 多重意识体
-- 解离
-- 创伤
+  - 系统运作
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 系统运作
 title: 记忆屏蔽（Memory Shielding）
@@ -50,10 +50,10 @@ Memory Shielding、Amnesiacflux、屏蔽记忆
 
 ## 参考与延伸阅读
 
-[^dsm5]: American Psychiatric Association. 2013. *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). American Psychiatric Publishing.
-[^schlumpf2014]: Schlumpf, Y. R., et al. 2014. “Dissociative Identity Disorder: Dynamic Brain Responses to Neutral and Traumatic Stimuli.” *Psychological Medicine* 44(15): 3087–3099.
-[^frey2019]: Frey, L. M., & Cloitre, M. 2019. “Protective Dissociation: Memory Compartmentalization in Survivors of Complex Trauma.” *European Journal of Psychotraumatology* 10(1): 1601995.
-[^isdtd2011]: International Society for the Study of Trauma and Dissociation. 2011. “Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision.” *Journal of Trauma & Dissociation* 12(2): 115–187.
+\[^dsm5\]: American Psychiatric Association. 2013. *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). American Psychiatric Publishing.
+\[^schlumpf2014\]: Schlumpf, Y. R., et al. 2014. “Dissociative Identity Disorder: Dynamic Brain Responses to Neutral and Traumatic Stimuli.” *Psychological Medicine* 44(15): 3087–3099.
+\[^frey2019\]: Frey, L. M., & Cloitre, M. 2019. “Protective Dissociation: Memory Compartmentalization in Survivors of Complex Trauma.” *European Journal of Psychotraumatology* 10(1): 1601995.
+\[^isdtd2011\]: International Society for the Study of Trauma and Dissociation. 2011. “Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision.” *Journal of Trauma & Dissociation* 12(2): 115–187.
 [Pluralpedia: Amnesiacflux](https://pluralpedia.org/w/Amnesiacflux)
 
 ## 定义

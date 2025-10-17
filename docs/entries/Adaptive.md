@@ -1,18 +1,18 @@
 ---
 tags:
 
-- 角色与身份
-- 适应型
-- 多重意识体
-- 解离
+  - 角色与身份
+  - 适应型
+  - 多重意识体
+  - 解离
 
 topic: 角色与身份
 title: 适应型（Adaptive）
 updated: 2025-10-13
 synonyms:
 
-- 适应型
-- 创伤型
+  - 适应型
+  - 创伤型
 
 comments: true
 ---
@@ -38,7 +38,7 @@ comments: true
 
 ## 与其他标签的关系
 
-- **与[创造型（Created）](Emmengard-Classification.md#创造型created)的区别** : 创造型强调主动设计或想象练习，而适应型的成员多为无意识地在创伤中形成。
+- **与[创造型（Created）](Emmengard-Classification.md#%E5%88%9B%E9%80%A0%E5%9E%8Bcreated)的区别** : 创造型强调主动设计或想象练习，而适应型的成员多为无意识地在创伤中形成。
 - **与[自发型（Spontaneous）](Spontaneous.md)的对照** : 自发型系统不以创伤为核心原因，而适应型强调创伤应对；部分系统可能同时认同混合型标签。
 - **与临床术语的区分** : 尽管适应型常与 DID/OSDD 等诊断并存，标签关注系统经验叙事，不等于临床结论。
 

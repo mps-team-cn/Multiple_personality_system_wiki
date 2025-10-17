@@ -2,19 +2,19 @@
 title: 躯体变形障碍（Body Dysmorphic Disorder，BDD）
 tags:
 
-    - 诊断与临床
-    - 强迫
-    - 身体意象
+  - 诊断与临床
+  - 强迫
+  - 身体意象
 
 topic: 诊断与临床
 synonyms:
 
-    - 躯体变形障碍
-    - 身体变形障碍
-    - 体象障碍
-    - Body Dysmorphic Disorder
-    - BDD
-    - bodydysmorphicdisorder
+  - 躯体变形障碍
+  - 身体变形障碍
+  - 体象障碍
+  - Body Dysmorphic Disorder
+  - BDD
+  - bodydysmorphicdisorder
 
 updated: 2025-10-14
 comments: true
@@ -23,10 +23,10 @@ comments: true
 # 躯体变形障碍（Body Dysmorphic Disorder，BDD）
 
 !!! warning "触发警告"
-    内容涉及身体意象、焦虑、抑郁、自我伤害风险等敏感议题，阅读时请留意自身状态。
+内容涉及身体意象、焦虑、抑郁、自我伤害风险等敏感议题，阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供教育用途，不构成医疗建议。如出现强烈自我厌恶、危机或自伤念头，请立即联系当地医疗与心理健康资源。
+本站资料仅供教育用途，不构成医疗建议。如出现强烈自我厌恶、危机或自伤念头，请立即联系当地医疗与心理健康资源。
 
 躯体变形障碍是一种归类于强迫及相关障碍的心理疾病，特征是对实际不存在或微小的外貌缺陷持续过度关注，并伴随重复检查、伪装、寻求保证等行为。[^apa2022bdd] 这种专注会显著影响社交、学业或职业功能，常伴自卑、羞耻与回避，严重时可能引发自杀风险。[^nice2020bdd]
 
@@ -83,10 +83,10 @@ comments: true
 ## 治疗与支持
 
 1. **认知行为疗法（CBT-BDD）**：聚焦认知重建、暴露与反应预防（ERP）、镜面暴露及自我同情训练，帮助减少重复行为与灾难化思维。[^nice2020bdd]
-2. **药物治疗**：选择性 5-HT 再摄取抑制剂（SSRIs）是第一线药物，可在中高剂量下显著缓解症状；必要时结合抗精神病药增强效果，尤其当洞察差或妄想化。[^apa2022bdd]
-3. **多学科协作**：与皮肤科、整形外科协调建立“心理评估优先”流程，避免不必要或风险较高的手术；教育家属减少提供保证或参与仪式化行为。
-4. **危机干预**：监测自杀念头、身体损伤或物质使用风险，制定紧急联络与安全计划。
-5. **社群与自助资源**：引导使用接地、正念与自我关怀练习，减少社交媒体触发，鼓励加入创伤与多意识体友善的支持网络。
+1. **药物治疗**：选择性 5-HT 再摄取抑制剂（SSRIs）是第一线药物，可在中高剂量下显著缓解症状；必要时结合抗精神病药增强效果，尤其当洞察差或妄想化。[^apa2022bdd]
+1. **多学科协作**：与皮肤科、整形外科协调建立“心理评估优先”流程，避免不必要或风险较高的手术；教育家属减少提供保证或参与仪式化行为。
+1. **危机干预**：监测自杀念头、身体损伤或物质使用风险，制定紧急联络与安全计划。
+1. **社群与自助资源**：引导使用接地、正念与自我关怀练习，减少社交媒体触发，鼓励加入创伤与多意识体友善的支持网络。
 
 ## 多意识体系统视角
 
@@ -105,6 +105,6 @@ comments: true
 
 ## 参考与延伸阅读
 
-[^apa2022bdd]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.). American Psychiatric Publishing.
-[^who2023bdd]: World Health Organization. (2023). _ICD-11 for Mortality and Morbidity Statistics: Body dysmorphic disorder._ [https://icd.who.int/en](https://icd.who.int/en)
-[^nice2020bdd]: National Institute for Health and Care Excellence. (2020, June 29). _Obsessive-compulsive disorder and body dysmorphic disorder: treatment (CG31, updated)._ [https://www.nice.org.uk/guidance/cg31](https://www.nice.org.uk/guidance/cg31)
+\[^apa2022bdd\]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.). American Psychiatric Publishing.
+\[^who2023bdd\]: World Health Organization. (2023). _ICD-11 for Mortality and Morbidity Statistics: Body dysmorphic disorder._ [https://icd.who.int/en](https://icd.who.int/en)
+\[^nice2020bdd\]: National Institute for Health and Care Excellence. (2020, June 29). _Obsessive-compulsive disorder and body dysmorphic disorder: treatment (CG31, updated)._ [https://www.nice.org.uk/guidance/cg31](https://www.nice.org.uk/guidance/cg31)

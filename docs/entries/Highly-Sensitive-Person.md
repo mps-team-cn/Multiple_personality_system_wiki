@@ -1,19 +1,19 @@
 ---
 tags:
 
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
+  - 理论与分类
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 理论与分类
 title: 高敏感人群（Highly Sensitive Person, HSP）
 updated: 2025-10-13
 synonyms:
 
-- 高敏感个体
-- 高敏感人格
-- highly sensitive person
+  - 高敏感个体
+  - 高敏感人格
+  - highly sensitive person
 
 comments: true
 ---
@@ -58,5 +58,5 @@ comments: true
 ## 参考与延伸阅读
 
 1. Aron, E. N. (1996). *The Highly Sensitive Person*. Broadway Books.
-2. Aron, E. N., & Aron, A. (1997). Sensory-processing sensitivity and its relation to introversion and emotionality. *Journal of Personality and Social Psychology*, 73(2), 345–368.
-3. Greven, C. U., et al. (2019). Sensory processing sensitivity in the context of environmental sensitivity. *Translational Psychiatry*, 9(1), 100.
+1. Aron, E. N., & Aron, A. (1997). Sensory-processing sensitivity and its relation to introversion and emotionality. *Journal of Personality and Social Psychology*, 73(2), 345–368.
+1. Greven, C. U., et al. (2019). Sensory processing sensitivity in the context of environmental sensitivity. *Translational Psychiatry*, 9(1), 100.

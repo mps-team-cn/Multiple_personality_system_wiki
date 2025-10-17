@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 诊断与临床
-- 多重意识体
-- 解离
-- 创伤
+  - 诊断与临床
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 诊断与临床
 title: 躁狂（Mania）
@@ -15,10 +15,10 @@ comments: true
 # 躁狂（Mania）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
 **本词条涉及情绪高涨、冲动行为及可能的安全风险，请在稳定环境下阅读，并根据需要暂停。**
 
@@ -40,17 +40,17 @@ _若出现自我伤害、他人伤害或判断力显著受损，请立即联系�
 
 - **DSM-5-TR 要点** :
 
-    - 情绪高涨、扩张或易激惹持续 ≥1 周（或任何持续时间若需住院）；
-    - 至少 3 项症状（若以易激惹为主需 ≥4 项）：自尊膨胀或夸大、睡眠需求减少、言语增多、思维奔逸、分心、目标导向活动增加或精神运动性激越、危险行为；
-    - 功能损害严重，需住院或出现精神病性症状；
-    - 排除物质或躯体疾病直接导致。[^apa2022]
+  - 情绪高涨、扩张或易激惹持续 ≥1 周（或任何持续时间若需住院）；
+  - 至少 3 项症状（若以易激惹为主需 ≥4 项）：自尊膨胀或夸大、睡眠需求减少、言语增多、思维奔逸、分心、目标导向活动增加或精神运动性激越、危险行为；
+  - 功能损害严重，需住院或出现精神病性症状；
+  - 排除物质或躯体疾病直接导致。[^apa2022]
 
 - **ICD-11 要点** :
 
-    - 持续 ≥数日的情绪高涨或易激惹，伴随活动水平显著增加；
-    - 至少若干附加特征（思维奔逸、睡眠需求减少、冲动消费或冒险行为等）；
-    - 造成显著功能障碍或需要医疗介入，可出现精神病性体验；
-    - 轻躁狂在严重度与功能损害上较轻，但仍需临床关注。[^who2023b]
+  - 持续 ≥数日的情绪高涨或易激惹，伴随活动水平显著增加；
+  - 至少若干附加特征（思维奔逸、睡眠需求减少、冲动消费或冒险行为等）；
+  - 造成显著功能障碍或需要医疗介入，可出现精神病性体验；
+  - 轻躁狂在严重度与功能损害上较轻，但仍需临床关注。[^who2023b]
 
 ## 临床表现
 
@@ -76,9 +76,9 @@ _若出现自我伤害、他人伤害或判断力显著受损，请立即联系�
 ## 支持与干预
 
 1. **药物治疗** ：第一线包括情绪稳定剂（锂盐、丙戊酸盐、拉莫三嗪）与非典型抗精神病药（喹硫平、奥氮平、鲁拉西酮等）；急性期可短期使用苯二氮䓬类控制激越。所有用药需在专业医师监测下进行。[^canmat2021]
-2. **心理社会干预** ：教育个体及其支持网络监测睡眠、活动量与危险行为；采用节律与社会节奏治疗（IPSRT）、认知行为治疗（CBT）、家庭聚焦治疗（FFT）。
-3. **安全与环境管理** ：建立危机计划，减少高风险财务或性行为，必要时限制外出驾驶；在多意识系统中明确由谁负责监测睡眠与药物、如何共享状况变化。
-4. **生活方式** ：规律作息、避免兴奋剂与酒精、维持营养及补水；在创意或工作高峰时预设复盘机制，防止过度承诺。
+1. **心理社会干预** ：教育个体及其支持网络监测睡眠、活动量与危险行为；采用节律与社会节奏治疗（IPSRT）、认知行为治疗（CBT）、家庭聚焦治疗（FFT）。
+1. **安全与环境管理** ：建立危机计划，减少高风险财务或性行为，必要时限制外出驾驶；在多意识系统中明确由谁负责监测睡眠与药物、如何共享状况变化。
+1. **生活方式** ：规律作息、避免兴奋剂与酒精、维持营养及补水；在创意或工作高峰时预设复盘机制，防止过度承诺。
 
 ## 相关条目
 
@@ -93,7 +93,7 @@ _若出现自我伤害、他人伤害或判断力显著受损，请立即联系�
 
 ## 参考资料
 
-[^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
-[^who2023b]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Mania and hypomania (6A60).* [https://icd.who.int/en](https://icd.who.int/en)
-[^nimh2024b]: National Institute of Mental Health. (2024, May 10). *Bipolar Disorder.* [https://www.nimh.nih.gov/health/topics/bipolar-disorder](https://www.nimh.nih.gov/health/topics/bipolar-disorder)
-[^canmat2021]: Yatham, L. N., et al. (2021). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders 2021 guidelines for the management of patients with bipolar disorder. *Bipolar Disorders, 23*(9), 724–756.
+\[^apa2022\]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
+\[^who2023b\]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics: Mania and hypomania (6A60).* [https://icd.who.int/en](https://icd.who.int/en)
+\[^nimh2024b\]: National Institute of Mental Health. (2024, May 10). *Bipolar Disorder.* [https://www.nimh.nih.gov/health/topics/bipolar-disorder](https://www.nimh.nih.gov/health/topics/bipolar-disorder)
+\[^canmat2021\]: Yatham, L. N., et al. (2021). Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders 2021 guidelines for the management of patients with bipolar disorder. *Bipolar Disorders, 23*(9), 724–756.

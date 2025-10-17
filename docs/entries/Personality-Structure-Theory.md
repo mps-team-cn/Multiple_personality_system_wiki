@@ -1,19 +1,19 @@
 ---
 tags:
 
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
+  - 理论与分类
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 理论与分类
 title: 人格结构理论（Personality Structure Theory, Freud）
 updated: 2025-10-13
 synonyms:
 
-- 本我自我超我理论
-- 弗洛伊德人格结构
-- structural model of psyche
+  - 本我自我超我理论
+  - 弗洛伊德人格结构
+  - structural model of psyche
 
 comments: true
 ---
@@ -58,5 +58,5 @@ comments: true
 ## 参考与延伸阅读
 
 1. Freud, S. (1923). *The Ego and the Id*. The Standard Edition of the Complete Psychological Works of Sigmund Freud.
-2. Hartmann, H. (1958). *Ego Psychology and the Problem of Adaptation*. International Universities Press.
-3. Kernberg, O. (1976). *Object-Relations Theory and Clinical Psychoanalysis*. Jason Aronson.
+1. Hartmann, H. (1958). *Ego Psychology and the Problem of Adaptation*. International Universities Press.
+1. Kernberg, O. (1976). *Object-Relations Theory and Clinical Psychoanalysis*. Jason Aronson.

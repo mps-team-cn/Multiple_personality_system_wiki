@@ -2,16 +2,16 @@
 title: 易性症（Transsexualism，已过时）
 tags:
 
-    - 诊断与临床
-    - 历史术语
-    - 性别认同
+  - 诊断与临床
+  - 历史术语
+  - 性别认同
 
 topic: 诊断与临床
 synonyms:
 
-    - 易性病
-    - 变性欲
-    - Transsexualism
+  - 易性病
+  - 变性欲
+  - Transsexualism
 
 updated: 2025-10-14
 comments: true
@@ -20,10 +20,10 @@ comments: true
 # 易性症（Transsexualism，已过时）
 
 !!! warning "历史术语"
-    "易性症"（Transsexualism）是 ICD-10 及更早期分类系统中使用的诊断名称。ICD-11（2019 年正式发布，2022 年生效）已将其替换为"性别不一致（Gender Incongruence）"，并从精神障碍章节移至"性健康相关状况"。DSM 系统在 DSM-5（2013）中使用"[性别不安（Gender Dysphoria，GD）](Gender-Dysphoria-GD.md)"替代了更早的"性别认同障碍（Gender Identity Disorder）"。
+"易性症"（Transsexualism）是 ICD-10 及更早期分类系统中使用的诊断名称。ICD-11（2019 年正式发布，2022 年生效）已将其替换为"性别不一致（Gender Incongruence）"，并从精神障碍章节移至"性健康相关状况"。DSM 系统在 DSM-5（2013）中使用"[性别不安（Gender Dysphoria，GD）](Gender-Dysphoria-GD.md)"替代了更早的"性别认同障碍（Gender Identity Disorder）"。
 
 !!! info "免责声明"
-    本词条整理历史名称的演变，协助处理旧病历、研究或医疗资料；不构成诊断依据。如需医疗评估，请咨询持证专业人员。
+本词条整理历史名称的演变，协助处理旧病历、研究或医疗资料；不构成诊断依据。如需医疗评估，请咨询持证专业人员。
 
 ## DSM-5-TR 视角
 
@@ -51,12 +51,12 @@ ICD-11 采用"HA60 性别不一致（Gender Incongruence）"作为正式编码�
 
 - **去精神病理化**：将性别不一致从精神障碍中移除，减少污名并促进医疗可及性
 - **简化诊断标准**：
-    - 体验的性别与指定性别显著且持续的不一致（至少持续数月）
-    - 强烈希望被当作所体验的性别对待，可能包括寻求医疗支持
-    - 不要求特定痛苦标准，但医疗支持需求本身可作为诊断依据
+  - 体验的性别与指定性别显著且持续的不一致（至少持续数月）
+  - 强烈希望被当作所体验的性别对待，可能包括寻求医疗支持
+  - 不要求特定痛苦标准，但医疗支持需求本身可作为诊断依据
 - **生命全周期覆盖**：
-    - HA60：青少年与成人性别不一致
-    - HA61：儿童期性别不一致
+  - HA60：青少年与成人性别不一致
+  - HA61：儿童期性别不一致
 - **文化包容性**：承认不同文化背景下的性别体验与表达多样性，避免以西方二元性别模型为唯一标准
 
 ## 现代对应诊断与评估要点
@@ -78,10 +78,10 @@ ICD-11 采用"HA60 性别不一致（Gender Incongruence）"作为正式编码�
 
 - **肯认式评估**：以个体自述的性别身份为起点，评估医疗与社会支持需求，而非质疑或"证实"其性别身份
 - **多维度评估**：
-    - 性别认同的稳定性与持续时间
-    - 社会角色转变的愿望与计划
-    - 医疗干预需求（社会转变、荷尔蒙治疗、手术）
-    - 共病评估：抑郁、焦虑、创伤、物质使用等
+  - 性别认同的稳定性与持续时间
+  - 社会角色转变的愿望与计划
+  - 医疗干预需求（社会转变、荷尔蒙治疗、手术）
+  - 共病评估：抑郁、焦虑、创伤、物质使用等
 - **跨学科协作**：精神科、内分泌科、外科、心理治疗与社会工作团队协作，提供综合照护
 - **知情同意**：确保个体充分理解医疗干预的风险、收益与替代方案，尊重自主决策权
 
@@ -99,17 +99,17 @@ ICD-11 采用"HA60 性别不一致（Gender Incongruence）"作为正式编码�
 从 ICD-9 到 ICD-11，易性症/性别不一致诊断标准的演变引发以下争议：
 
 1. **去病理化的时机与程度**：
-    - 支持者认为 ICD-11 移除精神障碍标签有助于减少污名、促进医疗可及性
-    - 批评者担忧医疗保险可能以"非疾病"为由拒绝覆盖性别肯认医疗
-2. **痛苦标准的必要性**：
-    - DSM-5 要求"临床显著痛苦"，可能排除已通过社会支持缓解痛苦但仍需医疗的个体
-    - ICD-11 不强制痛苦标准，以医疗支持需求为诊断依据，更具包容性
-3. **儿童性别认同的评估**：
-    - 儿童期性别认同的稳定性存在争议，部分儿童的性别体验可能随发展变化
-    - 现代标准强调支持性观察与可逆干预（如社会转变、青春期抑制剂），避免过早不可逆干预
-4. **文化与社会因素**：
-    - 性别体验与表达受文化、宗教、社会经济背景深刻影响，单一诊断标准可能无法适用所有文化
-    - 需更多跨文化研究与本土化评估工具
+   - 支持者认为 ICD-11 移除精神障碍标签有助于减少污名、促进医疗可及性
+   - 批评者担忧医疗保险可能以"非疾病"为由拒绝覆盖性别肯认医疗
+1. **痛苦标准的必要性**：
+   - DSM-5 要求"临床显著痛苦"，可能排除已通过社会支持缓解痛苦但仍需医疗的个体
+   - ICD-11 不强制痛苦标准，以医疗支持需求为诊断依据，更具包容性
+1. **儿童性别认同的评估**：
+   - 儿童期性别认同的稳定性存在争议，部分儿童的性别体验可能随发展变化
+   - 现代标准强调支持性观察与可逆干预（如社会转变、青春期抑制剂），避免过早不可逆干预
+1. **文化与社会因素**：
+   - 性别体验与表达受文化、宗教、社会经济背景深刻影响，单一诊断标准可能无法适用所有文化
+   - 需更多跨文化研究与本土化评估工具
 
 ## 社群与语言建议
 
@@ -169,9 +169,9 @@ ICD-10 将易性症编码为 F64.0，归入"性别认同障碍（Gender Identity
 
 - **改进**：移除"性偏离"标签，使用"性别认同障碍"，减少与性取向的混淆
 - **局限**：
-    - 仍归入精神障碍章节，维持病理化框架
-    - 强调"希望通过手术改变身体"，排除非医疗干预的跨性别人群
-    - 二元性别假设：标准描述"异性成员"，未承认非二元性别认同
+  - 仍归入精神障碍章节，维持病理化框架
+  - 强调"希望通过手术改变身体"，排除非医疗干预的跨性别人群
+  - 二元性别假设：标准描述"异性成员"，未承认非二元性别认同
 
 ### DSM 系统演变
 
@@ -188,10 +188,10 @@ DSM 系统未使用"易性症"术语，而采用以下演变：
 从 ICD-9 到 ICD-11，易性症/性别不一致诊断标准的演变体现以下趋势：
 
 1. **从性偏离到性健康**：从"性偏离与障碍"（ICD-9）到"性别认同障碍"（ICD-10）再到"性健康相关状况"（ICD-11），逐步去病理化
-2. **从强制医疗到自主需求**：从要求"希望通过手术改变身体"（ICD-9/10）到承认多元医疗需求与社会转变（ICD-11）
-3. **从二元到多元**：从"异性成员"（ICD-10）到承认非二元、流性等多元性别认同（ICD-11）
-4. **从痛苦到支持**：从强调"不适"（ICD-9/10）到聚焦"医疗支持需求"（ICD-11），减少污名并促进医疗可及性
-5. **文化敏感性提升**：ICD-11 与 DSM-5-TR 纳入文化背景对性别体验的影响，避免以西方中心视角定义诊断
+1. **从强制医疗到自主需求**：从要求"希望通过手术改变身体"（ICD-9/10）到承认多元医疗需求与社会转变（ICD-11）
+1. **从二元到多元**：从"异性成员"（ICD-10）到承认非二元、流性等多元性别认同（ICD-11）
+1. **从痛苦到支持**：从强调"不适"（ICD-9/10）到聚焦"医疗支持需求"（ICD-11），减少污名并促进医疗可及性
+1. **文化敏感性提升**：ICD-11 与 DSM-5-TR 纳入文化背景对性别体验的影响，避免以西方中心视角定义诊断
 
 ## 相关条目
 
@@ -205,10 +205,10 @@ DSM 系统未使用"易性症"术语，而采用以下演变：
 
 ## 参考与延伸阅读
 
-[^hirschfeld1923]: Hirschfeld, M. (1923). *Die intersexuelle Konstitution*. Jahrbuch für sexuelle Zwischenstufen, 23, 3-27.
-[^benjamin1966]: Benjamin, H. (1966). *The Transsexual Phenomenon*. Julian Press.
-[^who1977]: World Health Organization. (1977). *International Classification of Diseases, 9th Revision (ICD-9)*. World Health Organization.
-[^who1992]: World Health Organization. (1992). *The ICD-10 Classification of Mental and Behavioural Disorders*. World Health Organization.
-[^apa2013]: American Psychiatric Association. (2013). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). American Psychiatric Publishing.
-[^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
-[^who2022]: World Health Organization. (2022). *ICD-11 for Mortality and Morbidity Statistics* (Version 2022). World Health Organization.
+\[^hirschfeld1923\]: Hirschfeld, M. (1923). *Die intersexuelle Konstitution*. Jahrbuch für sexuelle Zwischenstufen, 23, 3-27.
+\[^benjamin1966\]: Benjamin, H. (1966). *The Transsexual Phenomenon*. Julian Press.
+\[^who1977\]: World Health Organization. (1977). *International Classification of Diseases, 9th Revision (ICD-9)*. World Health Organization.
+\[^who1992\]: World Health Organization. (1992). *The ICD-10 Classification of Mental and Behavioural Disorders*. World Health Organization.
+\[^apa2013\]: American Psychiatric Association. (2013). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). American Psychiatric Publishing.
+\[^apa2022\]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
+\[^who2022\]: World Health Organization. (2022). *ICD-11 for Mortality and Morbidity Statistics* (Version 2022). World Health Organization.

@@ -3,17 +3,17 @@ title: 环性心境障碍（Cyclothymic Disorder）
 topic: 诊断与临床
 tags:
 
-    - 诊断与临床
-    - 情绪障碍
-    - 共病
-    - 系统支持
+  - 诊断与临床
+  - 情绪障碍
+  - 共病
+  - 系统支持
 
 updated: 2025-10-14
 synonyms:
 
-    - 环性情感障碍
-    - 环性心境障碍
-    - Cyclothymic Disorder
+  - 环性情感障碍
+  - 环性心境障碍
+  - Cyclothymic Disorder
 
 comments: true
 ---
@@ -21,10 +21,10 @@ comments: true
 # 环性心境障碍（Cyclothymic Disorder）
 
 !!! warning "触发警告"
-    本文涉及情绪障碍、抑郁、自杀风险等敏感议题，阅读时请留意自身状态。
+本文涉及情绪障碍、抑郁、自杀风险等敏感议题，阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站信息仅用于教育与经验分享，不构成医疗建议。若出现危机，请立即联系当地急救或精神卫生专业人员。
+本站信息仅用于教育与经验分享，不构成医疗建议。若出现危机，请立即联系当地急救或精神卫生专业人员。
 
 ## 概述
 
@@ -68,19 +68,19 @@ comments: true
 ## 治疗与支持
 
 1. **药物治疗**
-    - 常用情绪稳定剂（锂盐、拉莫三嗪）与第二代抗精神病药可减轻情绪波动。[^canmat2021]
-    - 如伴焦虑或睡眠障碍，可短期辅助使用苯二氮䓬类或褪黑素，但需警惕依赖风险。
-2. **心理干预**
-    - [认知行为疗法（CBT）](Cognitive-Behavioral-Therapy-CBT.md) 关注情绪识别与节奏调控。
-    - 人际与社会节律疗法（IPSRT）通过稳定作息减少情绪波动。
-3. **自我管理**
-    - 规律睡眠、监测触发事件、限制高风险投资或消费。
-    - 多意识体系统可通过内部会议记录情绪趋势，并在轻躁狂初期调整任务分配。
+   - 常用情绪稳定剂（锂盐、拉莫三嗪）与第二代抗精神病药可减轻情绪波动。[^canmat2021]
+   - 如伴焦虑或睡眠障碍，可短期辅助使用苯二氮䓬类或褪黑素，但需警惕依赖风险。
+1. **心理干预**
+   - [认知行为疗法（CBT）](Cognitive-Behavioral-Therapy-CBT.md) 关注情绪识别与节奏调控。
+   - 人际与社会节律疗法（IPSRT）通过稳定作息减少情绪波动。
+1. **自我管理**
+   - 规律睡眠、监测触发事件、限制高风险投资或消费。
+   - 多意识体系统可通过内部会议记录情绪趋势，并在轻躁狂初期调整任务分配。
 
 ## 参考资料
 
-[^apa2022]: American Psychiatric Association. *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.).* Washington, DC: APA Publishing, 2022.
-[^apa2022cyclo]: American Psychiatric Association. “Cyclothymic Disorder.” In *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.)*. Washington, DC: APA Publishing, 2022.
-[^who2023]: World Health Organization. *International Classification of Diseases 11th Revision (ICD-11).* Geneva: WHO, 2023.
-[^nimh2024]: National Institute of Mental Health. “Bipolar Disorder.” Updated 2024. <https://www.nimh.nih.gov/health/topics/bipolar-disorder>
-[^canmat2021]: Yatham LN, et al. “Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders 2021 Guidelines for the Management of Patients with Bipolar Disorder.” *Bipolar Disorders*, 2021.
+\[^apa2022\]: American Psychiatric Association. *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.).* Washington, DC: APA Publishing, 2022.
+\[^apa2022cyclo\]: American Psychiatric Association. “Cyclothymic Disorder.” In *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.)*. Washington, DC: APA Publishing, 2022.
+\[^who2023\]: World Health Organization. *International Classification of Diseases 11th Revision (ICD-11).* Geneva: WHO, 2023.
+\[^nimh2024\]: National Institute of Mental Health. “Bipolar Disorder.” Updated 2024. <https://www.nimh.nih.gov/health/topics/bipolar-disorder>
+\[^canmat2021\]: Yatham LN, et al. “Canadian Network for Mood and Anxiety Treatments (CANMAT) and International Society for Bipolar Disorders 2021 Guidelines for the Management of Patients with Bipolar Disorder.” *Bipolar Disorders*, 2021.

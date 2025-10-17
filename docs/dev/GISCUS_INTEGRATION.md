@@ -17,12 +17,12 @@
 
 对比其他评论系统：
 
-| 评论系统 | 优点 | 缺点 |
-|---------|------|------|
-| **Giscus** | 开源免费、数据可控、Markdown 支持好 | 依赖 GitHub（中国访问受限）|
-| Disqus | 功能强大、访问稳定 | 广告多、隐私问题、加载慢 |
-| Gitalk | 基于 GitHub Issues | 需要初始化每个页面、不支持嵌套回复 |
-| Waline | 国内访问好、支持匿名评论 | 需要自建后端服务 |
+| 评论系统   | 优点                                | 缺点                               |
+| ---------- | ----------------------------------- | ---------------------------------- |
+| **Giscus** | 开源免费、数据可控、Markdown 支持好 | 依赖 GitHub（中国访问受限）        |
+| Disqus     | 功能强大、访问稳定                  | 广告多、隐私问题、加载慢           |
+| Gitalk     | 基于 GitHub Issues                  | 需要初始化每个页面、不支持嵌套回复 |
+| Waline     | 国内访问好、支持匿名评论            | 需要自建后端服务                   |
 
 **选择建议**：Giscus 适合技术文档类项目，社区参与度高，且本项目已使用 GitHub 托管。
 
@@ -64,8 +64,8 @@ Giscus 依赖以下 GitHub 资源：
 **实施步骤**：
 
 1. 创建 Cloudflare Worker
-2. 配置代理规则（见下文"实施方案 1"）
-3. 修改 Giscus 配置使用代理域名
+1. 配置代理规则（见下文"实施方案 1"）
+1. 修改 Giscus 配置使用代理域名
 
 #### 方案 2：混合方案（Giscus + Waline 备选）
 
@@ -111,15 +111,15 @@ Giscus 依赖以下 GitHub 资源：
 ### 1. 启用 GitHub Discussions
 
 1. 进入仓库 `mps-team-cn/Multiple_personality_system_wiki`
-2. **Settings** → **General** → **Features**
-3. 勾选 ✅ **Discussions**
+1. **Settings** → **General** → **Features**
+1. 勾选 ✅ **Discussions**
 
 ### 2. 安装 Giscus App
 
 1. 访问 [Giscus App](https://github.com/apps/giscus)
-2. 点击 **Install**
-3. 选择仓库 `mps-team-cn/Multiple_personality_system_wiki`
-4. 授权必要权限（Discussions 读写）
+1. 点击 **Install**
+1. 选择仓库 `mps-team-cn/Multiple_personality_system_wiki`
+1. 授权必要权限（Discussions 读写）
 
 ### 3. 获取配置代码
 
@@ -129,17 +129,17 @@ Giscus 依赖以下 GitHub 资源：
 
 - **仓库**：`mps-team-cn/Multiple_personality_system_wiki`
 - **Discussion 分类**：推荐使用 `Announcements` 或新建 `Comments` 分类
-    - ⚠️ 必须选择 **公告（Announcement）** 类型分类，普通分类不支持
+  - ⚠️ 必须选择 **公告（Announcement）** 类型分类，普通分类不支持
 
 #### 功能配置
 
 - **页面 ↔️ Discussions 映射关系**：
-    - 推荐 `pathname`（使用页面路径作为标识）
-    - 或 `og:title`（使用页面标题）
+  - 推荐 `pathname`（使用页面路径作为标识）
+  - 或 `og:title`（使用页面标题）
 - **Discussion 分类**：推荐新建 `Comments` 分类
 - **特性**：
-    - ✅ 启用主评论区懒加载
-    - ✅ 将评论框放在评论上方（可选）
+  - ✅ 启用主评论区懒加载
+  - ✅ 将评论框放在评论上方（可选）
 - **主题**：选择 `preferred_color_scheme`（跟随系统）
 
 #### 生成的配置
@@ -385,8 +385,8 @@ async function handleRequest(request) {
 ### 配置 Worker 路由
 
 1. 部署 Worker（如命名为 `giscus-proxy`）
-2. 绑定自定义域名或使用 Worker 域名（如 `giscus-proxy.your-account.workers.dev`）
-3. 修改 Giscus 脚本配置：
+1. 绑定自定义域名或使用 Worker 域名（如 `giscus-proxy.your-account.workers.dev`）
+1. 修改 Giscus 脚本配置：
 
 ```javascript
 // 将 Giscus CDN 替换为 Worker 代理
@@ -426,7 +426,7 @@ observer.observe(document.body, {
 **注意**：如将 Giscus 客户端托管到自定义域名（例如通过 Cloudflare Worker 代理为 <https://comments.example.com/giscus/client.js>），需要同步调整以下两处配置以避免 `postMessage` 目标域不匹配：
 
 1. 将上述代码中的目标域从 <https://giscus.app> 替换为自定义域，例如 <https://comments.example.com>。
-2. 设置 `data-giscus-host`（或直接更新 `script.src`）指向同一域名，确保评论 iframe 与消息发送目标一致。
+1. 设置 `data-giscus-host`（或直接更新 `script.src`）指向同一域名，确保评论 iframe 与消息发送目标一致。
 
 ### CSS 样式调整
 
@@ -480,9 +480,9 @@ observer.observe(document.body, {
 **解决方法**：
 
 1. 检查 GitHub 仓库设置
-2. 重新安装 Giscus App
-3. 访问 [giscus.app](https://giscus.app/zh-CN) 重新获取配置
-4. 测试 GitHub 连接性
+1. 重新安装 Giscus App
+1. 访问 [giscus.app](https://giscus.app/zh-CN) 重新获取配置
+1. 测试 GitHub 连接性
 
 ### 问题 2：评论无法提交
 
@@ -495,8 +495,8 @@ observer.observe(document.body, {
 **解决方法**：
 
 1. 确保用户已登录 GitHub
-2. 检查 Giscus App 权限
-3. 引导用户使用代理或直接在 GitHub Discussions 评论
+1. 检查 Giscus App 权限
+1. 引导用户使用代理或直接在 GitHub Discussions 评论
 
 ### 问题 3：主题切换不生效
 
@@ -511,8 +511,8 @@ observer.observe(document.body, {
 **优化建议**：
 
 1. 启用 `data-loading="lazy"`（懒加载）
-2. 实施 Cloudflare Worker 代理
-3. 在页面醒目位置添加"直接前往 GitHub Discussions"链接
+1. 实施 Cloudflare Worker 代理
+1. 在页面醒目位置添加"直接前往 GitHub Discussions"链接
 
 ### 问题 5：提交评论提示 `{"error":"Discussion not found"}`
 
@@ -532,11 +532,11 @@ observer.observe(document.body, {
 **处理步骤**：
 
 1. 登录仓库设置页面，确认 Giscus App 在 **Repository access** 中已包含当前仓库，并拥有 `Read and write` 权限。
-2. 打开 GitHub Discussions，确认配置使用的分类仍存在且接受新讨论；如被删除，请重新创建并更新 `data-giscus-category-id`。
-3. 若启用了严格匹配（`data-giscus-strict="1"`），请在对应分类中手动创建一个 Discussion，并确保其标题或路径与 `data-giscus-mapping` 规则匹配；或将严格模式改回 `0` 允许 Giscus 自动创建讨论。
-4. 使用浏览器开发者工具检查页面最终生成的 `data-giscus-repo-id`、`data-giscus-category-id`、`data-giscus-mapping`、`data-giscus-term` 等属性是否与最新配置一致。若看到 `term=undefined`，说明构建未注入标识符，需要回溯页面模板或 JavaScript 注入逻辑，确保 `data-mapping` 对应的值（例如 `pathname`）在构建期可解析并写入。
-5. 如仍无法创建，使用维护者账号直接在仓库 Discussions 中发起一次评论，确认可以手动写入，然后重新尝试页面评论。
-6. 若控制台出现多条“Discussion not found”提示，请确认评论组件未被重复加载（例如 SPA 页面跳转后未清理旧 iframe），必要时在路由切换前调用 `giscusFrame.remove()` 仅保留一份实例。
+1. 打开 GitHub Discussions，确认配置使用的分类仍存在且接受新讨论；如被删除，请重新创建并更新 `data-giscus-category-id`。
+1. 若启用了严格匹配（`data-giscus-strict="1"`），请在对应分类中手动创建一个 Discussion，并确保其标题或路径与 `data-giscus-mapping` 规则匹配；或将严格模式改回 `0` 允许 Giscus 自动创建讨论。
+1. 使用浏览器开发者工具检查页面最终生成的 `data-giscus-repo-id`、`data-giscus-category-id`、`data-giscus-mapping`、`data-giscus-term` 等属性是否与最新配置一致。若看到 `term=undefined`，说明构建未注入标识符，需要回溯页面模板或 JavaScript 注入逻辑，确保 `data-mapping` 对应的值（例如 `pathname`）在构建期可解析并写入。
+1. 如仍无法创建，使用维护者账号直接在仓库 Discussions 中发起一次评论，确认可以手动写入，然后重新尝试页面评论。
+1. 若控制台出现多条“Discussion not found”提示，请确认评论组件未被重复加载（例如 SPA 页面跳转后未清理旧 iframe），必要时在路由切换前调用 `giscusFrame.remove()` 仅保留一份实例。
 
 ## 备选方案
 
@@ -564,11 +564,11 @@ observer.observe(document.body, {
 ## 维护建议
 
 1. **定期检查**：每月检查评论系统运行状态
-2. **监控反馈**：关注用户关于评论功能的反馈
-3. **更新文档**：记录配置变更和问题解决方案
-4. **备份评论**：GitHub Discussions 数据已由 GitHub 保存，建议定期导出备份
+1. **监控反馈**：关注用户关于评论功能的反馈
+1. **更新文档**：记录配置变更和问题解决方案
+1. **备份评论**：GitHub Discussions 数据已由 GitHub 保存，建议定期导出备份
 
----
+______________________________________________________________________
 
 **文档版本**：v1.0
 **最后更新**：2025-10-10

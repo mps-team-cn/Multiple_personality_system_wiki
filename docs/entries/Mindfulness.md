@@ -3,10 +3,10 @@ title: 正念(Mindfulness)
 topic: 创伤与疗愈
 tags:
 
-    - 创伤与疗愈
-    - 多重意识体
-    - 解离
-    - 创伤
+  - 创伤与疗愈
+  - 多重意识体
+  - 解离
+  - 创伤
 
 updated: 2025-10-13
 comments: true
@@ -22,7 +22,7 @@ comments: true
 
 **正念** 是一种有意、当下、非评判的注意力训练,透过观照当下体验的升起与消退,培养对经验的开放觉察能力。研究指出,长期的正念练习能够加强自我调节、降低压力反应、提升心理韧性,并在创伤知情框架中协助建立身心安全感[^正念-1][^正念-2]。最新研究显示,正念可透过增强痛苦耐受力和情绪调节能力,有效介入创伤暴露与心理健康之间的关联,减少焦虑与解离症状[^正念-5][^正念-6]。
 
----
+______________________________________________________________________
 
 ## 核心元素
 
@@ -32,16 +32,16 @@ comments: true
 - **仁慈与好奇** :以温和的好奇心对待内部对话与成员差异,为系统协作提供安全基础[^正念-3]。
 - **窗口耐受性(Window of Tolerance)** :保持觉察在个人可承受的唤醒范围内,避免过度激活或解离麻木,这是创伤敏感正念的核心概念[^正念-4]。
 
----
+______________________________________________________________________
 
 ## 常见训练路径
 
 1. **正念减压课程(MBSR)** :以 8 周团体课程为主,结合身体扫描、行走正念与日常觉察练习,重点在于降低压力与身心症状。
-2. **正念认知疗法(MBCT)** :延伸 MBSR 架构,引入认知练习,协助处理抑郁复发与负向自动思维,对系统成员识别早期情绪讯号尤为有助。
-3. **创伤敏感正念(Trauma-Sensitive Mindfulness)** :调整节奏、开放眼睛、提供选择权、使用多样化注意力锚点,降低练习中触发闪回或空白化的风险。核心策略包括教育窗口耐受性、让参与者"试穿"不同的锚点(如脚部感觉或听觉)而非仅关注呼吸、采用"适量原则"允许随时退出[^正念-4][^正念-7]。
-4. **整合式技能训练** :在 [辩证行为疗法（DBT）](Dialectical-Behavior-Therapy-DBT.md) 的正念技能、[创伤聚焦认知行为疗法（TF-CBT）](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md) 或社群同侪练习中,将正念作为情绪调节与价值澄清的基础。对于解离性障碍,建议在创伤加工前先透过正念技能建立情绪调节能力[^正念-8]。
+1. **正念认知疗法(MBCT)** :延伸 MBSR 架构,引入认知练习,协助处理抑郁复发与负向自动思维,对系统成员识别早期情绪讯号尤为有助。
+1. **创伤敏感正念(Trauma-Sensitive Mindfulness)** :调整节奏、开放眼睛、提供选择权、使用多样化注意力锚点,降低练习中触发闪回或空白化的风险。核心策略包括教育窗口耐受性、让参与者"试穿"不同的锚点(如脚部感觉或听觉)而非仅关注呼吸、采用"适量原则"允许随时退出[^正念-4][^正念-7]。
+1. **整合式技能训练** :在 [辩证行为疗法（DBT）](Dialectical-Behavior-Therapy-DBT.md) 的正念技能、[创伤聚焦认知行为疗法（TF-CBT）](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md) 或社群同侪练习中,将正念作为情绪调节与价值澄清的基础。对于解离性障碍,建议在创伤加工前先透过正念技能建立情绪调节能力[^正念-8]。
 
----
+______________________________________________________________________
 
 ## 在多意识体系统中的作用
 
@@ -50,7 +50,7 @@ comments: true
 - **内部沟通桥梁** :使用开放式觉察时,可邀请不同成员轮流描述身体讯号或感受,增进对彼此状态的理解。研究显示,正念训练可显著减少青少年解离体验并改善适应功能[^正念-8]。
 - **创伤加工准备** :在专业陪伴下,正念练习可作为面对创伤记忆前的自稳步骤,帮助识别"过度激活"或"情绪麻木"的边界,为分阶段治疗奠定基础。
 
----
+______________________________________________________________________
 
 ## 实施建议
 
@@ -61,7 +61,7 @@ comments: true
 - 教育窗口耐受性概念,帮助参与者识别自己的可承受范围,强调"适量即可"而非"练习越多越好"[^正念-7]。
 - 配合[情绪调节（Emotion Regulation）](Emotion-Regulation.md)与[冥想（Meditation）](Meditation.md)条目中的策略,形成稳定化→加工→整合的循环。
 
----
+______________________________________________________________________
 
 ## 风险与限制
 
@@ -71,7 +71,7 @@ comments: true
 - **过度自责** :若练习中出现"无法专注""我做得不好"等念头,需要以练习态度本身为观察对象,而非追求完美表现。
 - **专业支持需求** :面对强烈的情绪崩解、惊恐或自伤意念时,应暂停自助练习并寻求治疗师或危机支援。
 
----
+______________________________________________________________________
 
 ## 常见误解
 
@@ -81,7 +81,7 @@ comments: true
 - **正念可以取代其他治疗** :正念是辅助稳定化的工具,仍需与创伤治疗、药物与社会支持并行。
 - **练习越多越好** :创伤敏感正念强调"适量原则",过度练习可能推出窗口耐受性范围[^正念-7]。
 
----
+______________________________________________________________________
 
 ## 鉴别
 
@@ -90,7 +90,7 @@ comments: true
 - **与呼吸放松训练的区分** :呼吸训练多以降低生理唤醒为主,正念还包含对情绪与念头的观察,且创伤敏感正念不限于呼吸作为唯一锚点。
 - **与[情绪调节（Emotion Regulation）](Emotion-Regulation.md)的区分** :正念是情绪调节的底层技能之一,但并非所有调节策略都需要进入正念状态。
 
----
+______________________________________________________________________
 
 ## 相关条目
 
@@ -100,15 +100,15 @@ comments: true
 - [情绪调节（Emotion Regulation）](Emotion-Regulation.md)
 - [创伤（Trauma）](Trauma.md)
 
----
+______________________________________________________________________
 
 ## 参考资料
 
-[^正念-1]: Bishop, S. R., et al. (2004). Mindfulness: A proposed operational definition. *Clinical Psychology: Science and Practice, 11*(3), 230-241.
-[^正念-2]: Kabat-Zinn, J. (2013). *Full Catastrophe Living* (Revised ed.). Bantam Books.
-[^正念-3]: Baer, R. A. (2003). Mindfulness training as a clinical intervention: A conceptual and empirical review. *Clinical Psychology: Science and Practice, 10*(2), 125-143.
-[^正念-4]: Treleaven, D. A. (2018). *Trauma-Sensitive Mindfulness: Practices for Safe and Transformative Healing*. W. W. Norton & Company.
-[^正念-5]: Frontiers in Psychology. (2025). Mindfulness and trauma recovery among internally displaced individuals: the mediating role of distress tolerance in a cross-sectional mediation model. *Frontiers in Psychology, 16*, Article 1677965.
-[^正念-6]: Frontiers in Psychology. (2024). Mindfulness and mental health: the importance of a clinical intervention to prevent the effects of a traumatic event. *Frontiers in Psychology, 15*, Article 1449629.
-[^正念-7]: Treleaven, D. A. (2024). Key principles of trauma-sensitive mindfulness practice. Retrieved from davidtreleaven.com
-[^正念-8]: Nemati, S., & Makvandy, R. (2016). Role of mindfulness in dissociative disorders among adolescents. *Journal of Research in Medical Sciences, 21*, 90.
+\[^正念-1\]: Bishop, S. R., et al. (2004). Mindfulness: A proposed operational definition. *Clinical Psychology: Science and Practice, 11*(3), 230-241.
+\[^正念-2\]: Kabat-Zinn, J. (2013). *Full Catastrophe Living* (Revised ed.). Bantam Books.
+\[^正念-3\]: Baer, R. A. (2003). Mindfulness training as a clinical intervention: A conceptual and empirical review. *Clinical Psychology: Science and Practice, 10*(2), 125-143.
+\[^正念-4\]: Treleaven, D. A. (2018). *Trauma-Sensitive Mindfulness: Practices for Safe and Transformative Healing*. W. W. Norton & Company.
+\[^正念-5\]: Frontiers in Psychology. (2025). Mindfulness and trauma recovery among internally displaced individuals: the mediating role of distress tolerance in a cross-sectional mediation model. *Frontiers in Psychology, 16*, Article 1677965.
+\[^正念-6\]: Frontiers in Psychology. (2024). Mindfulness and mental health: the importance of a clinical intervention to prevent the effects of a traumatic event. *Frontiers in Psychology, 15*, Article 1449629.
+\[^正念-7\]: Treleaven, D. A. (2024). Key principles of trauma-sensitive mindfulness practice. Retrieved from davidtreleaven.com
+\[^正念-8\]: Nemati, S., & Makvandy, R. (2016). Role of mindfulness in dissociative disorders among adolescents. *Journal of Research in Medical Sciences, 21*, 90.

@@ -1,19 +1,19 @@
 ---
 tags:
 
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
+  - 理论与分类
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 理论与分类
 title: 动机理论（Motivation Theories）
 updated: 2025-10-13
 synonyms:
 
-- 动机学说
-- 激励理论
-- motivation theories
+  - 动机学说
+  - 激励理论
+  - motivation theories
 
 comments: true
 ---
@@ -58,5 +58,5 @@ comments: true
 ## 参考与延伸阅读
 
 1. Maslow, A. H. (1943). A theory of human motivation. *Psychological Review*, 50(4), 370–396.
-2. Deci, E. L., & Ryan, R. M. (1985). *Intrinsic Motivation and Self-Determination in Human Behavior*. Plenum.
-3. Heckhausen, H., & Heckhausen, J. (2018). *Motivation and Action* (3rd ed.). Springer.
+1. Deci, E. L., & Ryan, R. M. (1985). *Intrinsic Motivation and Self-Determination in Human Behavior*. Plenum.
+1. Heckhausen, H., & Heckhausen, J. (2018). *Motivation and Action* (3rd ed.). Springer.

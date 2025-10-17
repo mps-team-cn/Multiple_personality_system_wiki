@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
+  - 角色与身份
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 角色与身份
 title: 初始（Original）
@@ -40,9 +40,9 @@ comments: true
 - Steele 等人指出治疗需尊重初始对角色转移的感受，避免强化“唯一真实自我”的观念。[^steele2017]
 - 田野研究显示，线上多意识体社群通过区分 original 与 host，协助成员重新分配责任并减少内疚。[^veissiere2016]
 
-[^putnam1989]: Putnam, F. W. (1989). *Diagnosis and treatment of multiple personality disorder*. Guilford Press.
-[^steele2017]: Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating trauma-related dissociation: A practical, integrative approach*. W. W. Norton & Company.
-[^veissiere2016]: Veissière, S. P. L. (2016). Varieties of tulpa experiences: Sentient imaginary friends, embodied joint-agents, and hypnotic social agents. *Anthropology of Consciousness, 27*(2), 213–239.
+\[^putnam1989\]: Putnam, F. W. (1989). *Diagnosis and treatment of multiple personality disorder*. Guilford Press.
+\[^steele2017\]: Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating trauma-related dissociation: A practical, integrative approach*. W. W. Norton & Company.
+\[^veissiere2016\]: Veissière, S. P. L. (2016). Varieties of tulpa experiences: Sentient imaginary friends, embodied joint-agents, and hypnotic social agents. *Anthropology of Consciousness, 27*(2), 213–239.
 
 ## 相关条目
 

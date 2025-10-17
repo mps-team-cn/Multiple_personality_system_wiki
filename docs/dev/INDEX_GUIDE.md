@@ -59,12 +59,12 @@ nav:
 
 ## 🎨 主题与首页对应关系
 
-| 主题 | 首页文件 | 特性 |
-|------|---------|------|
+| 主题             | 首页文件          | 特性                                            |
+| ---------------- | ----------------- | ----------------------------------------------- |
 | Material（当前） | index-material.md | Material 图标、卡片网格、内容标签页、告示框增强 |
-| ReadTheDocs | index.md | 纯 Markdown，基础引用块，无特殊组件 |
-| MkDocs 默认 | index.md | 纯 Markdown，基础引用块，无特殊组件 |
-| 其他主题 | index.md | 纯 Markdown，基础引用块，无特殊组件 |
+| ReadTheDocs      | index.md          | 纯 Markdown，基础引用块，无特殊组件             |
+| MkDocs 默认      | index.md          | 纯 Markdown，基础引用块，无特殊组件             |
+| 其他主题         | index.md          | 纯 Markdown，基础引用块，无特殊组件             |
 
 ## 🔄 切换主题时的首页处理
 
@@ -247,15 +247,15 @@ rm docs/README.md
 
 1. **根目录的 README.md**
 
-    - 用于 GitHub 项目说明
-    - 不会被 MkDocs 处理
-    - ✅ 保留
+   - 用于 GitHub 项目说明
+   - 不会被 MkDocs 处理
+   - ✅ 保留
 
-2. **docs/README.md**
+1. **docs/README.md**
 
-    - 与 index.md 冲突
-    - MkDocs 会自动排除
-    - ❌ 建议删除或重命名
+   - 与 index.md 冲突
+   - MkDocs 会自动排除
+   - ❌ 建议删除或重命名
 
 ### 首页链接问题
 
@@ -304,6 +304,6 @@ mkdocs build --strict
 mkdocs serve
 ```
 
----
+______________________________________________________________________
 
 **最后更新** : 2025-10-05

@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 系统运作
-- 多重意识体
-- 解离
-- 创伤
+  - 系统运作
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 系统运作
 description: 创伤触发（Trigger）的识别、管理与应对策略。了解触发机制、如何建立触发清单及有效的预防与缓解方法
@@ -17,7 +17,7 @@ comments: true
 
 > **一句话定义** ：触发指引发强烈情绪、记忆、解离或症状反应的外部或内部线索，是创伤适应与系统调节中需重点监测的诱因。
 
----
+______________________________________________________________________
 
 ## 定义与同义词
 
@@ -45,8 +45,8 @@ comments: true
 ### 识别步骤
 
 1. **记录日志** ：追踪情境、情绪、身体反应、参与成员与持续时间，逐渐归纳高风险线索。
-2. **评估等级** ：以 0-10 等级或颜色标记触发强度，方便沟通与制定分级响应。
-3. **交叉验证** ：与其他成员或支持者讨论记录，确认是否存在被忽略的前兆或缓冲策略。
+1. **评估等级** ：以 0-10 等级或颜色标记触发强度，方便沟通与制定分级响应。
+1. **交叉验证** ：与其他成员或支持者讨论记录，确认是否存在被忽略的前兆或缓冲策略。
 
 ### 创伤触发模型与应对
 
@@ -110,10 +110,10 @@ comments: true
 
 ## 参考与延伸阅读
 
-[^trigger-pluralpedia]: Pluralpedia. (n.d.). [Trigger](https://pluralpedia.org/w/Trigger).
-[^briere-scott-2015]: Briere, J., & Scott, C. (2015). *Principles of Trauma Therapy* (2nd ed.). SAGE Publications.
-[^ehlers-clark-2000]: Ehlers, A., & Clark, D. M. (2000). A cognitive model of posttraumatic stress disorder. *Behaviour Research and Therapy, 38*(4), 319–345.
-[^van-der-hart-2006]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton & Company.
-[^brewin-holmes-2003]: Brewin, C. R., & Holmes, E. A. (2003). Psychological theories of posttraumatic stress disorder. *Clinical Psychology Review, 23*(3), 339–376.
-[^frewen-lanius-2015]: Frewen, P. A., & Lanius, R. A. (2015). *Healing the Traumatized Self: Consciousness, Neuroscience, Treatment*. W. W. Norton & Company.
-[^cloitre-2012]: Cloitre, M., Courtois, C. A., Charuvastra, A., Carapezza, R., Stolbach, B. C., & Green, B. L. (2012). Treatment of complex PTSD: Results of the ISTSS expert clinician survey on best practices. *Journal of Traumatic Stress, 25*(6), 556–565.
+\[^trigger-pluralpedia\]: Pluralpedia. (n.d.). [Trigger](https://pluralpedia.org/w/Trigger).
+\[^briere-scott-2015\]: Briere, J., & Scott, C. (2015). *Principles of Trauma Therapy* (2nd ed.). SAGE Publications.
+\[^ehlers-clark-2000\]: Ehlers, A., & Clark, D. M. (2000). A cognitive model of posttraumatic stress disorder. *Behaviour Research and Therapy, 38*(4), 319–345.
+\[^van-der-hart-2006\]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton & Company.
+\[^brewin-holmes-2003\]: Brewin, C. R., & Holmes, E. A. (2003). Psychological theories of posttraumatic stress disorder. *Clinical Psychology Review, 23*(3), 339–376.
+\[^frewen-lanius-2015\]: Frewen, P. A., & Lanius, R. A. (2015). *Healing the Traumatized Self: Consciousness, Neuroscience, Treatment*. W. W. Norton & Company.
+\[^cloitre-2012\]: Cloitre, M., Courtois, C. A., Charuvastra, A., Carapezza, R., Stolbach, B. C., & Green, B. L. (2012). Treatment of complex PTSD: Results of the ISTSS expert clinician survey on best practices. *Journal of Traumatic Stress, 25*(6), 556–565.

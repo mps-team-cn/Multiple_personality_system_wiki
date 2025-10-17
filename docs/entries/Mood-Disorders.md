@@ -1,21 +1,21 @@
 ---
 tags:
 
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
+  - 理论与分类
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 理论与分类
 title: 情感障碍（Mood Disorders）
 updated: 2025-10-14
 synonyms:
 
-- 情感障碍
-- 心境障碍
-- mood disorders
-- affective disorders
-- mood disorder
+  - 情感障碍
+  - 心境障碍
+  - mood disorders
+  - affective disorders
+  - mood disorder
 
 comments: true
 ---
@@ -23,10 +23,10 @@ comments: true
 # 情感障碍（Mood Disorders）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
 > **同义入口说明** ：本词条与[心境障碍（Affective Disorders）](Affective-Disorders.md)含义相同，以下内容提供术语背景与跳转指引。
 

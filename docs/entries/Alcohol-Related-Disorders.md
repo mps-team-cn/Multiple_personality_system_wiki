@@ -1,19 +1,19 @@
 ---
 tags:
 
-    - 诊断与临床
-    - 物质使用
-    - 成瘾
+  - 诊断与临床
+  - 物质使用
+  - 成瘾
 
 topic: 诊断与临床
 title: 酒精相关障碍（Alcohol-Related Disorders）
 synonyms:
 
-    - 酒精使用障碍
-    - 酒精依赖
-    - 酗酒
-    - Alcohol Use Disorder
-    - AUD
+  - 酒精使用障碍
+  - 酒精依赖
+  - 酗酒
+  - Alcohol Use Disorder
+  - AUD
 
 description: 全面了解酒精相关障碍的诊断标准、临床表现与治疗方法,包括酒精使用障碍、酒精中毒、酒精戒断等核心内容
 updated: 2025-10-16
@@ -23,18 +23,18 @@ comments: true
 # 酒精相关障碍（Alcohol-Related Disorders）
 
 !!! warning "触发警告"
-    内容涉及物质使用、成瘾、戒断症状等敏感议题,阅读时请留意自身状态。
+内容涉及物质使用、成瘾、戒断症状等敏感议题,阅读时请留意自身状态。
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。酒精戒断可能危及生命,必须在医疗监督下进行。
+本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。酒精戒断可能危及生命,必须在医疗监督下进行。
 
----
+______________________________________________________________________
 
 ## 概述
 
 酒精相关障碍涵盖因酒精使用、中毒或戒断所导致的一系列精神与行为问题。核心诊断包括 **酒精使用障碍**（表现为强迫性饮酒、耐受性增加、戒断症状及社会功能受损）、**酒精中毒**（急性中枢神经系统抑制）、**酒精戒断**（停用后的生理与心理反应,严重时可致命）以及多种 **酒精诱发的精神障碍**（如酒精性遗忘障碍、酒精性精神病等）。酒精是全球使用最广泛的精神活性物质之一,其相关障碍造成巨大的公共卫生负担。ICD-11 编码为 6C40,DSM-5-TR 将其归入物质相关及成瘾障碍章节。
 
----
+______________________________________________________________________
 
 ## 诊断要点
 
@@ -70,16 +70,16 @@ comments: true
 诊断需在过去 12 个月内出现以下 11 项中至少 2 项:
 
 1. 饮酒量或时间常超出预期
-2. 持续渴望或尝试控制/减少饮酒但未成功
-3. 花费大量时间获取、使用或从酒精作用中恢复
-4. 对酒精的强烈渴求
-5. 反复饮酒导致无法履行工作、学习或家庭责任
-6. 尽管因饮酒导致或加剧社交/人际问题仍继续饮酒
-7. 因饮酒而放弃或减少重要社交、职业或娱乐活动
-8. 在有危险的情境下反复饮酒（如酒后驾车）
-9. 明知饮酒引发或加重身体/心理问题仍继续饮酒
-10. 耐受性:需要显著增加酒精量才能达到期望效果,或相同量的效果显著减弱
-11. 戒断症状:出现特征性戒断综合征,或为缓解/避免戒断而饮酒
+1. 持续渴望或尝试控制/减少饮酒但未成功
+1. 花费大量时间获取、使用或从酒精作用中恢复
+1. 对酒精的强烈渴求
+1. 反复饮酒导致无法履行工作、学习或家庭责任
+1. 尽管因饮酒导致或加剧社交/人际问题仍继续饮酒
+1. 因饮酒而放弃或减少重要社交、职业或娱乐活动
+1. 在有危险的情境下反复饮酒（如酒后驾车）
+1. 明知饮酒引发或加重身体/心理问题仍继续饮酒
+1. 耐受性:需要显著增加酒精量才能达到期望效果,或相同量的效果显著减弱
+1. 戒断症状:出现特征性戒断综合征,或为缓解/避免戒断而饮酒
 
 **严重度分级**
 
@@ -93,7 +93,7 @@ comments: true
 
 ICD-11 采用依赖综合征模式,强调渴求、控制受损与生理依赖;DSM-5-TR 合并"滥用"与"依赖"为单一谱系障碍,采用症状计数分级。两者对核心特征的描述高度一致,但阈值与术语略有差异。
 
----
+______________________________________________________________________
 
 ## 临床表现
 
@@ -118,7 +118,7 @@ ICD-11 采用依赖综合征模式,强调渴求、控制受损与生理依赖;DS
 
 症状的严重程度受饮酒史、既往戒断经历、共病及整体健康状况影响。
 
----
+______________________________________________________________________
 
 ## 解离机制与背景
 
@@ -136,7 +136,7 @@ ICD-11 采用依赖综合征模式,强调渴求、控制受损与生理依赖;DS
 - **社会文化因素**:饮酒规范、可获得性、社交压力、家族史均影响发病风险
 - **遗传易感性**:一级亲属中有酒精使用障碍者风险增加 3-4 倍
 
----
+______________________________________________________________________
 
 ## 流行病学与病程
 
@@ -146,7 +146,7 @@ ICD-11 采用依赖综合征模式,强调渴求、控制受损与生理依赖;DS
 - **病程**:慢性波动性病程,自发缓解率约 20-30%,但复发常见
 - **死亡率**:未经治疗的重度酒精使用障碍显著缩短寿命（平均减少 10-15 年）
 
----
+______________________________________________________________________
 
 ## 鉴别诊断
 
@@ -157,26 +157,28 @@ ICD-11 采用依赖综合征模式,强调渴求、控制受损与生理依赖;DS
 - **神经认知障碍**:长期酗酒可导致认知损害,需与原发性痴呆鉴别
 - **其他医学状况**:肝病、胰腺炎、癫痫等可能由酒精引起或独立存在
 
----
+______________________________________________________________________
 
 ## 共病与风险管理
 
 ### 常见共病
 
 - **精神障碍共病率极高**（约 50-80%）
-    - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md):最常见共病,相互加重
-    - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md):尤其是[社交焦虑障碍（Social Anxiety Disorder）](Social-Anxiety-Disorder.md)
-    - [PTSD](PTSD.md) / [CPTSD](CPTSD.md):创伤与酒精使用互为风险因素
-    - [人格障碍（Personality Disorders）](Personality-Disorders.md):尤其是反社会型与边缘型
-    - 其他物质使用障碍:烟草（80%）、大麻、镇静剂等
+
+  - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md):最常见共病,相互加重
+  - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md):尤其是[社交焦虑障碍（Social Anxiety Disorder）](Social-Anxiety-Disorder.md)
+  - [PTSD](PTSD.md) / [CPTSD](CPTSD.md):创伤与酒精使用互为风险因素
+  - [人格障碍（Personality Disorders）](Personality-Disorders.md):尤其是反社会型与边缘型
+  - 其他物质使用障碍:烟草（80%）、大麻、镇静剂等
 
 - **躯体疾病**
-    - 肝病（脂肪肝、肝硬化）
-    - 胰腺炎
-    - 心血管疾病（高血压、心肌病、卒中）
-    - 消化系统疾病（胃炎、溃疡、食管静脉曲张）
-    - 神经系统损害（周围神经病变、Wernicke-Korsakoff综合征）
-    - 癌症风险增加（肝、食管、口腔、乳腺等）
+
+  - 肝病（脂肪肝、肝硬化）
+  - 胰腺炎
+  - 心血管疾病（高血压、心肌病、卒中）
+  - 消化系统疾病（胃炎、溃疡、食管静脉曲张）
+  - 神经系统损害（周围神经病变、Wernicke-Korsakoff综合征）
+  - 癌症风险增加（肝、食管、口腔、乳腺等）
 
 ### 风险管理重点
 
@@ -186,7 +188,7 @@ ICD-11 采用依赖综合征模式,强调渴求、控制受损与生理依赖;DS
 - **多学科合作**:需整合成瘾医学、精神科、内科、社会工作者等资源
 - **家庭支持**:评估家庭环境,提供家庭教育与治疗
 
----
+______________________________________________________________________
 
 ## 治疗与支持
 
@@ -203,17 +205,19 @@ ICD-11 采用依赖综合征模式,强调渴求、控制受损与生理依赖;DS
 **2. 稳定期:巩固戒酒**
 
 - **心理治疗**
-    - 动机强化疗法（Motivational Enhancement Therapy, MET）
-    - 认知行为疗法（CBT）
-    - 12 步促进疗法（基于匿名戒酒会 AA 模式）
-    - 正念为基础的复发预防
-    - 社区强化与家庭训练（CRAFT）
+
+  - 动机强化疗法（Motivational Enhancement Therapy, MET）
+  - 认知行为疗法（CBT）
+  - 12 步促进疗法（基于匿名戒酒会 AA 模式）
+  - 正念为基础的复发预防
+  - 社区强化与家庭训练（CRAFT）
 
 - **药物治疗**
-    - 纳曲酮（naltrexone）:减少饮酒渴求与奖赏效应
-    - 阿坎酸（acamprosate）:稳定 GABA/谷氨酸平衡,减少渴求
-    - 双硫仑（disulfiram）:饮酒后产生不适反应,用于有动机者
-    - 托吡酯、巴氯芬等辅助药物
+
+  - 纳曲酮（naltrexone）:减少饮酒渴求与奖赏效应
+  - 阿坎酸（acamprosate）:稳定 GABA/谷氨酸平衡,减少渴求
+  - 双硫仑（disulfiram）:饮酒后产生不适反应,用于有动机者
+  - 托吡酯、巴氯芬等辅助药物
 
 **3. 康复期:维持与预防复发**
 
@@ -230,7 +234,7 @@ ICD-11 采用依赖综合征模式,强调渴求、控制受损与生理依赖;DS
 - **老年人**:代谢减慢,相互作用风险增加,需调整剂量与监测
 - **共病创伤者**:需整合创伤治疗,避免单纯戒酒导致创伤症状恶化
 
----
+______________________________________________________________________
 
 ## 社群与临床语境
 
@@ -248,7 +252,7 @@ ICD-11 采用依赖综合征模式,强调渴求、控制受损与生理依赖;DS
 - **服务可及性**:缺乏整合的成瘾治疗服务,尤其在基层与农村地区
 - **强制治疗争议**:需平衡自主权与公共安全,非自愿治疗效果有限
 
----
+______________________________________________________________________
 
 ## 相关条目
 
@@ -269,14 +273,14 @@ ICD-11 采用依赖综合征模式,强调渴求、控制受损与生理依赖;DS
 - [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)
 - [人格障碍（Personality Disorders）](Personality-Disorders.md)
 
----
+______________________________________________________________________
 
 ## 参考与延伸阅读
 
 1. World Health Organization. (2019). *ICD-11 for Mortality and Morbidity Statistics*.
-2. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.)*.
-3. National Institute on Alcohol Abuse and Alcoholism. (2021). *Understanding Alcohol Use Disorder*. <https://www.niaaa.nih.gov/>
-4. SAMHSA. (2020). *TIP 63: Medications for Opioid Use Disorder*.
-5. Anton, R. F., et al. (2006). Combined pharmacotherapies and behavioral interventions for alcohol dependence. *JAMA*.
-6. Witkiewitz, K., & Marlatt, G. A. (2004). Relapse prevention for alcohol and drug problems. *American Psychologist*.
-7. Kelly, J. F., & Yeterian, J. D. (2011). The role of mutual-help groups in extending the framework of treatment. *Alcohol Research & Health*.
+1. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.)*.
+1. National Institute on Alcohol Abuse and Alcoholism. (2021). *Understanding Alcohol Use Disorder*. <https://www.niaaa.nih.gov/>
+1. SAMHSA. (2020). *TIP 63: Medications for Opioid Use Disorder*.
+1. Anton, R. F., et al. (2006). Combined pharmacotherapies and behavioral interventions for alcohol dependence. *JAMA*.
+1. Witkiewitz, K., & Marlatt, G. A. (2004). Relapse prevention for alcohol and drug problems. *American Psychologist*.
+1. Kelly, J. F., & Yeterian, J. D. (2011). The role of mutual-help groups in extending the framework of treatment. *Alcohol Research & Health*.

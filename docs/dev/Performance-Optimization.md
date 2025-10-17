@@ -4,11 +4,11 @@
 
 ## 核心 Web Vitals 目标
 
-| 指标 | 目标值 | 说明 |
-|-----|-------|------|
-| LCP (Largest Contentful Paint) | < 2.5s | 最大内容绘制时间 |
-| INP (Interaction to Next Paint) | < 200ms | 交互到下次绘制 |
-| CLS (Cumulative Layout Shift) | < 0.1 | 累积布局偏移 |
+| 指标                            | 目标值  | 说明             |
+| ------------------------------- | ------- | ---------------- |
+| LCP (Largest Contentful Paint)  | < 2.5s  | 最大内容绘制时间 |
+| INP (Interaction to Next Paint) | < 200ms | 交互到下次绘制   |
+| CLS (Cumulative Layout Shift)   | < 0.1   | 累积布局偏移     |
 
 ## 已实施的优化措施
 
@@ -35,6 +35,7 @@ content.addEventListener('click', function(e) {
 ```
 
 **应用位置** ：
+
 - [extra.js](../assets/extra.js): 外部链接处理、复制按钮
 - [search-phrase-default.js](../assets/search-phrase-default.js): 搜索表单提交
 
@@ -61,6 +62,7 @@ scheduleIdleTask(() => {
 ```
 
 **应用位置** ：
+
 - [extra.js](../assets/extra.js): 外部链接图标、返回顶部
 - [giscus-loader.js](../assets/giscus-loader.js): 评论系统加载
 
@@ -85,6 +87,7 @@ elements.forEach(el => observer.observe(el));
 ```
 
 **应用位置** ：
+
 - [extra.js](../assets/extra.js): 外部链接批量处理
 - [giscus-loader.js](../assets/giscus-loader.js): 评论系统懒加载
 
@@ -114,8 +117,8 @@ const detectInteraction = () => {
 #### 2.2 三层延迟加载
 
 1. **视口检测**: 使用 Intersection Observer 检测评论区是否进入视口
-2. **用户交互**: 等待用户开始交互（或 3 秒超时）
-3. **空闲时加载**: 使用 requestIdleCallback 在浏览器空闲时加载
+1. **用户交互**: 等待用户开始交互（或 3 秒超时）
+1. **空闲时加载**: 使用 requestIdleCallback 在浏览器空闲时加载
 
 **效果** ：将评论系统加载延迟到用户真正需要时，显著降低初始 INP。
 
@@ -157,6 +160,7 @@ features:
 ```
 
 **原因** ：
+
 - `navigation.instant`: 虽然加快导航，但会增加初始加载时间
 - `search.highlight`: 会在搜索结果页面执行大量 DOM 操作
 
@@ -183,6 +187,7 @@ plugins:
 ```
 
 **优势** ：
+
 - 零网络请求
 - 即时可用
 - 跨平台一致性
@@ -209,34 +214,37 @@ lighthouse https://wiki.mpsteam.cn --preset=mobile --output html
 ### 使用 Chrome DevTools
 
 1. 打开 Chrome DevTools (F12)
-2. 切换到 **Performance** 标签
-3. 点击 **Record** 按钮
-4. 刷新页面或执行操作
-5. 停止录制，分析报告
+1. 切换到 **Performance** 标签
+1. 点击 **Record** 按钮
+1. 刷新页面或执行操作
+1. 停止录制，分析报告
 
 ### 关键指标查看
 
 1. 打开 **Network** 标签
-2. 启用 **Disable cache**
-3. 选择 **Slow 3G** 或 **Fast 3G** 模拟慢速网络
-4. 刷新页面，观察加载时间
+1. 启用 **Disable cache**
+1. 选择 **Slow 3G** 或 **Fast 3G** 模拟慢速网络
+1. 刷新页面，观察加载时间
 
 ## 性能问题排查
 
 ### INP 过高 (> 200ms)
 
 **可能原因** ：
+
 1. 同步 JavaScript 执行时间过长
-2. 大量 DOM 操作
-3. 事件监听器过多
-4. 第三方脚本阻塞
+1. 大量 DOM 操作
+1. 事件监听器过多
+1. 第三方脚本阻塞
 
 **排查方法** ：
+
 1. Chrome DevTools → Performance → 记录交互
-2. 查看 **Main** 线程的长任务 (Long Tasks)
-3. 识别阻塞的 JavaScript 函数
+1. 查看 **Main** 线程的长任务 (Long Tasks)
+1. 识别阻塞的 JavaScript 函数
 
 **解决方案** ：
+
 - 使用 `requestIdleCallback` 延迟非关键任务
 - 使用事件委托减少监听器数量
 - 将长任务拆分为多个小任务
@@ -245,12 +253,14 @@ lighthouse https://wiki.mpsteam.cn --preset=mobile --output html
 ### LCP 过高 (> 2.5s)
 
 **可能原因** ：
+
 1. 大图片未优化
-2. 关键 CSS/JS 阻塞渲染
-3. 字体加载延迟
-4. 服务器响应慢
+1. 关键 CSS/JS 阻塞渲染
+1. 字体加载延迟
+1. 服务器响应慢
 
 **解决方案** ：
+
 - 图片使用 WebP 格式
 - 关键 CSS 内联到 HTML
 - 使用系统字体
@@ -259,11 +269,13 @@ lighthouse https://wiki.mpsteam.cn --preset=mobile --output html
 ### CLS 过高 (> 0.1)
 
 **可能原因** ：
+
 1. 图片未指定尺寸
-2. 广告/iframe 动态插入
-3. Web 字体加载导致文本移动
+1. 广告/iframe 动态插入
+1. Web 字体加载导致文本移动
 
 **解决方案** ：
+
 - 为图片设置 `width` 和 `height`
 - 为动态内容预留空间
 - 使用 `font-display: swap`
@@ -366,12 +378,14 @@ const isMkDocsSearch = input.classList.contains('md-search__input');
 ## 更新日志
 
 - 2025-10-16: 第二版，添加微优化技巧
+
   - 添加重复处理检测标记
   - 为主题同步添加节流优化
   - 为搜索表单添加更精确的检测
   - 将面包屑结构化数据移至空闲任务
 
 - 2025-10-16: 初始版本，记录现有优化措施
+
   - 实施事件委托优化
   - 实施 requestIdleCallback 延迟执行
   - 优化 Giscus 加载策略

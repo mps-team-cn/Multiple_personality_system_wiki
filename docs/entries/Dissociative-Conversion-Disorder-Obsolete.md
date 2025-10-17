@@ -2,18 +2,18 @@
 title: 分离转换障碍（Dissociative [Conversion] Disorders，已过时）
 tags:
 
-    - 诊断与临床
-    - 历史术语
-    - 解离
-    - 躯体症状
+  - 诊断与临床
+  - 历史术语
+  - 解离
+  - 躯体症状
 
 topic: 诊断与临床
 synonyms:
 
-    - 分离（转换）障碍
-    - 解离（转换）障碍
-    - Dissociative (Conversion) Disorders
-    - F44
+  - 分离（转换）障碍
+  - 解离（转换）障碍
+  - Dissociative (Conversion) Disorders
+  - F44
 
 updated: 2025-10-12
 comments: true
@@ -22,10 +22,10 @@ comments: true
 # 分离转换障碍（Dissociative [Conversion] Disorders，已过时）
 
 !!! warning "历史术语"
-    "分离（转换）障碍"（Dissociative [Conversion] Disorders）是 ICD-10 使用的诊断类别（编码 F44），将解离性症状与转换症状合并在同一章节。ICD-11 已将两者拆分：解离性障碍归入"6B6x"系列，功能性神经症状则独立为"6B60 解离性神经性症状障碍"。
+"分离（转换）障碍"（Dissociative [Conversion] Disorders）是 ICD-10 使用的诊断类别（编码 F44），将解离性症状与转换症状合并在同一章节。ICD-11 已将两者拆分：解离性障碍归入"6B6x"系列，功能性神经症状则独立为"6B60 解离性神经性症状障碍"。
 
 !!! info "免责声明"
-    本词条旨在解释历史分类与现代诊断的差异，协助处理 ICD-10 旧病历或研究文献；不构成诊断依据。如需医疗评估，请咨询持证专业人员。
+本词条旨在解释历史分类与现代诊断的差异，协助处理 ICD-10 旧病历或研究文献；不构成诊断依据。如需医疗评估，请咨询持证专业人员。
 
 ## DSM-5-TR 视角
 
@@ -57,22 +57,22 @@ ICD-11 对该类别进行重大重组，主要变化包括：[^who2023]
 ### 关键改进
 
 1. **正性诊断标准**：强调临床特征的"正性迹象"（如震颤可被干扰、无力模式不符合神经分布），而非仅依赖"排除器质性疾病"
-2. **移除继发获益**：不再将继发获益作为诊断要求
-3. **淡化心因性联系**：承认症状真实性，避免暗示患者"伪装"
-4. **文化敏感性**：明确区分病理性恍惚与文化认可的仪式体验
+1. **移除继发获益**：不再将继发获益作为诊断要求
+1. **淡化心因性联系**：承认症状真实性，避免暗示患者"伪装"
+1. **文化敏感性**：明确区分病理性恍惚与文化认可的仪式体验
 
 ## 现代对应诊断与评估要点
 
 如果遇到 ICD-10 F44 类别的旧病历，可按以下方式对应现代诊断：
 
-| ICD-10 编码 | ICD-10 名称 | ICD-11 对应 | DSM-5-TR 对应 |
-|------------|-----------|-----------|-------------|
-| F44.0 | 解离性遗忘 | 6B61 解离性遗忘 | [解离性遗忘](Dissociative-Amnesia-DA.md) |
-| F44.1 | 解离性漫游 | 6B61 解离性遗忘（伴漫游） | 解离性遗忘伴解离性漫游 |
-| F44.2 | 解离性木僵 | 6B6Y 其他解离性障碍 | 其他特定解离性障碍 |
-| F44.3 | 恍惚与附身 | 6B62/6B63 恍惚/附身障碍 | [解离性身份障碍](DID.md)（若符合） |
+| ICD-10 编码 | ICD-10 名称   | ICD-11 对应               | DSM-5-TR 对应                                 |
+| ----------- | ------------- | ------------------------- | --------------------------------------------- |
+| F44.0       | 解离性遗忘    | 6B61 解离性遗忘           | [解离性遗忘](Dissociative-Amnesia-DA.md)      |
+| F44.1       | 解离性漫游    | 6B61 解离性遗忘（伴漫游） | 解离性遗忘伴解离性漫游                        |
+| F44.2       | 解离性木僵    | 6B6Y 其他解离性障碍       | 其他特定解离性障碍                            |
+| F44.3       | 恍惚与附身    | 6B62/6B63 恍惚/附身障碍   | [解离性身份障碍](DID.md)（若符合）            |
 | F44.4-F44.7 | 运动/感觉障碍 | 6B60 解离性神经性症状障碍 | [转换障碍（FND）](Conversion-Disorder-FND.md) |
-| F44.81 | 多重人格障碍 | 6B64 DID / 6B65 PDID | [解离性身份障碍（DID）](DID.md) |
+| F44.81      | 多重人格障碍  | 6B64 DID / 6B65 PDID      | [解离性身份障碍（DID）](DID.md)               |
 
 ### 重新评估要点
 
@@ -160,7 +160,7 @@ ICD-10 将"分离（转换）障碍"列为 F44 类别，定义为"部分或完�
 
 ## 参考与延伸阅读
 
-[^who1992]: World Health Organization. (1992). *The ICD-10 Classification of Mental and Behavioural Disorders: Clinical descriptions and diagnostic guidelines*. World Health Organization.
-[^brown2004]: Brown, R. J. (2004). Psychological mechanisms of medically unexplained symptoms: An integrative conceptual model. *Psychological Bulletin*, 130(5), 793–812.
-[^who2023]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics* (Version 2023-01). World Health Organization.
-[^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
+\[^who1992\]: World Health Organization. (1992). *The ICD-10 Classification of Mental and Behavioural Disorders: Clinical descriptions and diagnostic guidelines*. World Health Organization.
+\[^brown2004\]: Brown, R. J. (2004). Psychological mechanisms of medically unexplained symptoms: An integrative conceptual model. *Psychological Bulletin*, 130(5), 793–812.
+\[^who2023\]: World Health Organization. (2023). *ICD-11 for Mortality and Morbidity Statistics* (Version 2023-01). World Health Organization.
+\[^apa2022\]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.

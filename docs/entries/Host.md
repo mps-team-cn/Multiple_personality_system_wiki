@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
+  - 角色与身份
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 角色与身份
 description: 宿主（Host）的定义、角色与挑战。理解主要控制身体的成员特征、宿主与其他成员的关系及宿主身份的动态性
@@ -57,10 +57,10 @@ comments: true
 
 ## 参考资料
 
-[^veissiere2016]: Veissière, S. P. L. (2016). Varieties of Tulpa experiences: Sentient imaginary friends, embodied joint-agents, and hypnotic social agents. *Anthropology of Consciousness, 27*(2), 213–239.
-[^kondrla2020]: Kondrla, T., & Smrek, M. (2020). Tulpamancy: Virtual companions, embodiment, and ethical questions. *Human Affairs, 30*(4), 474–486.
-[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation, 12*(2), 115–187.
-[^bell2023]: Bell, G. (2023). Tulpamancy and the ethics of plural embodiment in online communities. In S. Coleman & E. Harvey (Eds.), *Imagined Companions in the Digital Age* (pp. 151–172). Routledge.
+\[^veissiere2016\]: Veissière, S. P. L. (2016). Varieties of Tulpa experiences: Sentient imaginary friends, embodied joint-agents, and hypnotic social agents. *Anthropology of Consciousness, 27*(2), 213–239.
+\[^kondrla2020\]: Kondrla, T., & Smrek, M. (2020). Tulpamancy: Virtual companions, embodiment, and ethical questions. *Human Affairs, 30*(4), 474–486.
+\[^isstd2011\]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation, 12*(2), 115–187.
+\[^bell2023\]: Bell, G. (2023). Tulpamancy and the ethics of plural embodiment in online communities. In S. Coleman & E. Harvey (Eds.), *Imagined Companions in the Digital Age* (pp. 151–172). Routledge.
 
 ## 核心特征
 

@@ -1,10 +1,10 @@
 ---
 tags:
 
-    - 系统运作
-    - 多重意识体
-    - 解离
-    - 创伤
+  - 系统运作
+  - 多重意识体
+  - 解离
+  - 创伤
 
 topic: 系统运作
 title: 前台（Front / Fronting）
@@ -33,21 +33,21 @@ comments: true
 ## 何时关注 / 何时不建议
 
 - **可重点建设的情境** ：
-    - 需要明确分工、减少遗忘与误会；
-    - 频繁切换导致任务中断或人际误解；
-    - 准备练习共前台、角色协作或外部高要求任务（驾驶、演讲、医疗沟通）。
+  - 需要明确分工、减少遗忘与误会；
+  - 频繁切换导致任务中断或人际误解；
+  - 准备练习共前台、角色协作或外部高要求任务（驾驶、演讲、医疗沟通）。
 - **不建议加码复杂度的情境** ：
-    - 当前存在强烈触发、头压、恍惚或现实定向力下降；
-    - 没有最基本的交接协议与外部安全预案；
-    - 外部处境风险高（驾驶、操作机械、高处作业等），应维持最稳定的前台配置。
+  - 当前存在强烈触发、头压、恍惚或现实定向力下降；
+  - 没有最基本的交接协议与外部安全预案；
+  - 外部处境风险高（驾驶、操作机械、高处作业等），应维持最稳定的前台配置。
 
 ## 前台交接（范例流程）
 
 1. **到岗检查（30–60 秒）** ：确认日期、地点、主要任务、身体状态与药物/代办清单。
-2. **权限同步** ：核对今日可行与不可行事项，明确是否允许二级切换与协助者插话。
-3. **任务卡片** ：将 1–3 个关键任务写在外部载体（看板/便签/日历），避免认知负荷过高。
-4. **状态播报** ：对后台/共前台者口头或书面说明当前进度与下一步；必要时设置安全词与“立即退场”信号。
-5. **收尾与交班** ：记录完成情况、遗留问题与体感（疲劳、情绪），为下一位前台者留痕。
+1. **权限同步** ：核对今日可行与不可行事项，明确是否允许二级切换与协助者插话。
+1. **任务卡片** ：将 1–3 个关键任务写在外部载体（看板/便签/日历），避免认知负荷过高。
+1. **状态播报** ：对后台/共前台者口头或书面说明当前进度与下一步；必要时设置安全词与“立即退场”信号。
+1. **收尾与交班** ：记录完成情况、遗留问题与体感（疲劳、情绪），为下一位前台者留痕。
 
 ## 体验与常见反应
 
@@ -77,11 +77,11 @@ comments: true
 - [权限（Permissions）](Permissions.md)
 - [内视（Visualization / Imagination）](Visualization-Imagination.md)
 - [内部空间（Headspace / Inner World）](Headspace-Inner-World.md)
-    - [结构性解离理论（Structural Dissociation Theory）](Structural-Dissociation-Theory.md)
-    - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](Apparently-Normal-Part-Emotional-Part-Model.md)
+  - [结构性解离理论（Structural Dissociation Theory）](Structural-Dissociation-Theory.md)
+  - [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](Apparently-Normal-Part-Emotional-Part-Model.md)
 
 ## 参考资料
 
-[^pluralpedia-front]: Pluralpedia. (2024). [Fronting](https://pluralpedia.org/w/Fronting).
-[^reinders2012]: Reinders, A. A. T. S., Willemsen, A. T. M., Vos, H. P. J., den Boer, J. A., & Nijenhuis, E. R. S. (2012). Fact or factitious? A psychobiological study of authentic and simulated dissociative identity states. *PLoS ONE*, 7(6), e39279.
-[^vanderhart2006-ffront]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization. W. W. Norton.
+\[^pluralpedia-front\]: Pluralpedia. (2024). [Fronting](https://pluralpedia.org/w/Fronting).
+\[^reinders2012\]: Reinders, A. A. T. S., Willemsen, A. T. M., Vos, H. P. J., den Boer, J. A., & Nijenhuis, E. R. S. (2012). Fact or factitious? A psychobiological study of authentic and simulated dissociative identity states. *PLoS ONE*, 7(6), e39279.
+\[^vanderhart2006-ffront\]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization. W. W. Norton.
