@@ -179,7 +179,7 @@ comments: true
 - [x] Sleep-Disorders-SD.md       <!-- 总览 -->
 - [x] Insomnia-Disorder.md
 - [x] Hypersomnolence-Disorder.md
-- [ ] Narcolepsy.md
+- [x] Narcolepsy.md
 - [x] Breathing-Related-Sleep-Disorders.md
     - [x] Obstructive-Sleep-Apnea-Hypopnea.md
     - [ ] Central-Sleep-Apnea.md
