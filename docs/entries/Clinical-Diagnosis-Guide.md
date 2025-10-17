@@ -230,7 +230,8 @@ comments: true
         - [阻塞性睡眠呼吸暂停低通气（Obstructive Sleep Apnea Hypopnea，OSAH）](Obstructive-Sleep-Apnea-Hypopnea.md) — :octicons-check-16: 已完成
     - [不宁腿综合征（Restless Legs Syndrome，RLS）](Restless-Legs-Syndrome.md) — :octicons-check-16: 已完成
     - [昼夜节律睡眠-觉醒障碍（Circadian Rhythm Sleep-Wake Disorders）](Circadian-Rhythm-Sleep-Wake-Disorders.md) — :octicons-check-16: 已完成
-    - 发作性睡病（Narcolepsy）、异态睡眠（Parasomnias）等 — :octicons-clock-16: 待更新
+    - [发作性睡病（Narcolepsy）](Narcolepsy.md) — :octicons-check-16: 已完成
+    - 异态睡眠（Parasomnias）等 — :octicons-clock-16: 待更新
 
 ### 13) 性功能障碍
 
