@@ -21,7 +21,9 @@ hide:
 - [复杂性创伤后应激障碍（CPTSD）](CPTSD.md) — *2025-10-17*
 - [经颅微电流刺激（Cranial Electrotherapy Stimulation, CES）](Cranial-Electrotherapy-Stimulation-CES.md) — *2025-10-17*
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md) — *2025-10-17*
+- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](Depersonalization-Derealization-Disorder-DPDR.md) — *2025-10-17*
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md) — *2025-10-17*
+- [解离性失忆(Dissociative Amnesia,DA)](Dissociative-Amnesia-DA.md) — *2025-10-17*
 - [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md) — *2025-10-17*
 - [重性抑郁障碍（Major Depressive Disorder, MDD）](Major-Depressive-Disorder-MDD.md) — *2025-10-17*
 - [改良电痉挛治疗（Modified Electroconvulsive Therapy, MECT）](Modified-Electroconvulsive-Therapy-MECT.md) — *2025-10-17*
@@ -29,11 +31,11 @@ hide:
 - [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](PTSD.md) — *2025-10-17*
 - [精神分裂症（Schizophrenia，SZ/SCZ）](Schizophrenia-SZ.md) — *2025-10-17*
 - [创伤（Trauma）](Trauma.md) — *2025-10-17*
+- [未特定的解离障碍（Unspecified Dissociative Disorder，UDD）](Unspecified-Dissociative-Disorder-UDD.md) — *2025-10-17*
 - [酒精相关障碍（Alcohol-Related Disorders）](Alcohol-Related-Disorders.md) — *2025-10-16*
 - [咖啡因相关障碍（Caffeine-Related Disorders）](Caffeine-Related-Disorders.md) — *2025-10-16*
 - [大麻相关障碍（Cannabis-Related Disorders）](Cannabis-Related-Disorders.md) — *2025-10-16*
 - [沟通障碍（Communication Disorders）](Communication-Disorders.md) — *2025-10-16*
-- [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](Depersonalization-Derealization-Disorder-DPDR.md) — *2025-10-16*
 - [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](Narcissistic-Personality-Disorder-NPD.md) — *2025-10-16*
 - [阿片类相关障碍（Opioid-Related Disorders）](Opioid-Related-Disorders.md) — *2025-10-16*
 - [分裂样障碍（Schizophreniform Disorder）](Schizophreniform-Disorder.md) — *2025-10-16*
@@ -70,7 +72,6 @@ hide:
 - [环性心境障碍（Cyclothymic Disorder）](Cyclothymic-Disorder.md) — *2025-10-14*
 - [谵妄（Delirium）](Delirium.md) — *2025-10-14*
 - [依赖型人格障碍（Dependent Personality Disorder，DPD）](Dependent-Personality-Disorder-DPD.md) — *2025-10-14*
-- [解离性遗忘（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md) — *2025-10-14*
 - [进食障碍（Eating Disorders，ED）](Eating-Disorders-ED.md) — *2025-10-14*
 - [癫痫（Epilepsy）](Epilepsy.md) — *2025-10-14*
 - [闪回（Flashback）](Flashback.md) — *2025-10-14*
@@ -100,7 +101,6 @@ hide:
 - [人格分裂（Split Personality，非正式术语）](Split-Personality.md) — *2025-10-14*
 - [物质使用障碍（Substance Use Disorders，SUD）](Substance-Use-Disorders-SUD.md) — *2025-10-14*
 - [易性症（Transsexualism，已过时）](Transsexualism-Obsolete.md) — *2025-10-14*
-- [未特定的解离障碍（Unspecified Dissociative Disorder，sdd）](Unspecified-Dissociative-Disorder-UDD.md) — *2025-10-14*
 - [DSM-5-TR 评估量表总览](DSM-5TR-Scales.md) — *2025-10-13*
 - [表演型人格障碍（Histrionic Personality Disorder，HPD）](Histrionic-Personality-Disorder-HPD.md) — *2025-10-13*
 - [癔症（Hysteria，已过时）](Hysteria.md) — *2025-10-13*

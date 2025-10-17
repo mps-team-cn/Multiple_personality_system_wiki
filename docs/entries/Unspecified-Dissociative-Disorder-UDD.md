@@ -9,7 +9,7 @@ tags:
 
 topic: 诊断与临床
 title: 未特定的解离障碍（Unspecified Dissociative Disorder，UDD）
-updated: 2025-10-14
+updated: 2025-10-17
 comments: true
 ---
 
@@ -298,5 +298,3 @@ ICD-11 中没有直接对应 UDD 的单独类别，但可能使用：
 ## 参考文献
 
 [^dsm5-tr]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). Arlington, VA: American Psychiatric Publishing.
-
-

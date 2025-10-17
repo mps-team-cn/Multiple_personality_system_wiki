@@ -22,9 +22,11 @@ hide:
 - [解离（Dissociation）](Dissociation.md) — *2025-10-17*
 - [独有记忆（Exomemory）](Exomemory.md) — *2025-10-17*
 - [前台（Front / Fronting）](Front-Fronting.md) — *2025-10-17*
+- [卡前台(Front Stuck / Frontstuck)](Frontstuck.md) — *2025-10-17*
 - [融合（Fusion）](Fusion.md) — *2025-10-17*
 - [整合（Integration）](Integration.md) — *2025-10-17*
 - [内部沟通（Internal Communication）](Internal-Communication.md) — *2025-10-17*
+- [记忆屏蔽（Memory Shielding）](Memory-Shielding.md) — *2025-10-17*
 - [多意识体系统（Multiple Personality System）](Multiple_Personality_System.md) — *2025-10-17*
 - [并行（Parallelism）](Parallelism.md) — *2025-10-17*
 - [结构性解离理论（Theory of Structural Dissociation）](Structural-Dissociation-Theory.md) — *2025-10-17*
@@ -55,9 +57,7 @@ hide:
 - [醉酒解离（Alcohol-Induced Dissociation）](Alcohol-Induced-Dissociation.md) — *2025-10-13*
 - [外投射（External Projection）](External-Projection.md) — *2025-10-13*
 - [家族式系统（Family Systems, Xianyu Theory）](Family-Systems-Xianyu.md) — *2025-10-13*
-- [卡前台(Front Stuck / Frontstuck)](Frontstuck.md) — *2025-10-13*
 - [头压（Head Pressure）](Head-Pressure.md) — *2025-10-13*
-- [记忆屏蔽（Memory Shielding）](Memory-Shielding.md) — *2025-10-13*
 - [混合型系统（Mixed Systems, Xianyu Theory）](Mixed-Systems-Xianyu.md) — *2025-10-13*
 - [神经多样性（Neurodiversity）](Neurodiversity.md) — *2025-10-13*
 - [权限（Permissions）](Permissions.md) — *2025-10-13*

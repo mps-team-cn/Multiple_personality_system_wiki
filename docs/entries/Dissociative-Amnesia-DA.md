@@ -10,14 +10,16 @@ topic: 诊断与临床
 description: 解离性失忆(DA)详解:记忆缺失类型、诊断标准与恢复方法。理解创伤相关记忆断片、遗忘性漫游等现象的本质
 title: 解离性失忆(Dissociative Amnesia,DA)
 synonyms:
-  - 心因性失忆
-  - Psychogenic Amnesia
-  - 功能性失忆
-  - Functional Amnesia
-  - 分离性失忆
-  - 解离性遗忘
-  - 解离性遗忘症
-updated: 2025-10-14
+
+    - 心因性失忆
+    - Psychogenic Amnesia
+    - 功能性失忆
+    - Functional Amnesia
+    - 分离性失忆
+    - 解离性遗忘
+    - 解离性遗忘症
+
+updated: 2025-10-17
 search:
   boost: 2.0
 comments: true
@@ -35,7 +37,7 @@ comments: true
 
 ## 概述
 
-解离性失忆是一种以 **无法回忆重要自传信息** 为核心特征的[解离障碍(Dissociative Disorders)](Dissociative-Disorders.md)。患者通常在遭遇[创伤(Trauma)](Trauma.md)或高度压力事件后出现超出普通遗忘的记忆缺失,涉及特定事件、时间段或身份相关信息,并导致显著的功能损害。症状可持续数小时到数年,多在安全环境或治疗支持下逐步恢复。ICD-11 将 DA 编码为 6B62,DSM-5-TR 继续使用解离性失忆这一诊断名称。
+解离性失忆是一种以 **无法回忆重要自传信息** 为核心特征的[解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)。患者通常在遭遇[创伤（Trauma）](Trauma.md)或高度压力事件后出现超出普通遗忘的记忆缺失,涉及特定事件、时间段或身份相关信息,并导致显著的功能损害。症状可持续数小时到数年,多在安全环境或治疗支持下逐步恢复。ICD-11 将 DA 编码为 6B62,DSM-5-TR 继续使用解离性失忆这一诊断名称。
 
 ---
 
@@ -69,7 +71,7 @@ comments: true
 
 - **遗忘模式**:可表现为局灶性(针对特定事件)、选择性(部分记忆缺失)、广泛性(涉及身份史的大范围遗忘)、持续性(持续存在的回忆困难或记忆缺口)或系统化(围绕特定类别信息)。
 - **自我困惑**:个体常为遗忘本身感到焦虑、羞耻,或察觉生活出现"空档""跳跃",可能发现自己身处陌生地点或不记得如何到达。
-- **情绪与躯体反应**:头痛、胃肠不适、解离性麻木、[去人格化(Depersonalization)](Not-Me-Feeling.md)、[现实解体(Derealization)](Derealization.md)等伴随症状常见。
+- **情绪与躯体反应**:头痛、胃肠不适、解离性麻木、[去人格化（Depersonalization）](Not-Me-Feeling.md)、[现实解体（Derealization）](Derealization.md)等伴随症状常见。
 - **解离性漫游**:少数病例会伴随突然离家、漂泊到陌生地点并出现身份混乱,此时个体可能采用新身份或完全失去身份感。
 
 症状的强度受压力、触发因素、安全感与支持系统影响,常表现为周期性波动。
@@ -78,7 +80,7 @@ comments: true
 
 ## 解离机制与背景
 
-- **创伤加工阻断**:严重威胁事件触发的高度[解离(Dissociation)](Dissociation.md)反应会干扰记忆编码与检索,使相关信息被隔离在不同意识状态中。
+- **创伤加工阻断**:严重威胁事件触发的高度[解离（Dissociation）](Dissociation.md)反应会干扰记忆编码与检索,使相关信息被隔离在不同意识状态中。
 - **心理防御与羞耻**:遗忘可暂时降低痛苦、羞耻或恐惧,使个体维持日常功能,但长期会影响自我连续性与关系信任。
 - **神经机制假说**:功能影像显示海马、前额叶调节异常以及应激轴失衡可能与记忆阻断有关。
 - **风险因素**:童年期虐待、家庭暴力、战争、灾难等重大创伤,以及高度解离倾向、催眠受暗示性高等特质会提高发病概率。
@@ -96,11 +98,11 @@ comments: true
 
 ## 鉴别诊断
 
-- [**解离性身份障碍(Dissociative Identity Disorder,DID)**](DID.md):存在多个身份状态且伴随记忆缺失,但 DA 不涉及身份状态的分裂与轮流控制。
-- [**部分解离性身份障碍(Partial Dissociative Identity Disorder,PDID)**](Partial-Dissociative-Identity-Disorder-PDID.md):存在非主导身份的侵入体验,而 DA 仅表现为记忆缺失。
-- [**其他特定解离性障碍(OSDD)**](OSDD.md):症状接近但不完全符合 DA 或 DID 标准。
-- [**创伤后应激障碍(PTSD)**](PTSD.md) / [**复杂性创伤后应激障碍(CPTSD)**](CPTSD.md):虽有创伤记忆的侵入或回避,但不会出现 DA 特有的大块记忆缺失。
-- **脑部损伤或神经退行性疾病**:需排除[癫痫(Epilepsy)](Epilepsy.md)、头部外伤、阿尔茨海默病等;神经影像、神经心理评估可协助鉴别。
+- [**解离性身份障碍（Dissociative Identity Disorder,DID）**](DID.md):存在多个身份状态且伴随记忆缺失,但 DA 不涉及身份状态的分裂与轮流控制。
+- [**部分解离性身份障碍（Partial Dissociative Identity Disorder,PDID）**](Partial-Dissociative-Identity-Disorder-PDID.md):存在非主导身份的侵入体验,而 DA 仅表现为记忆缺失。
+- [**其他特定解离性障碍（OSDD）**](OSDD.md):症状接近但不完全符合 DA 或 DID 标准。
+- [**创伤后应激障碍（PTSD）**](PTSD.md) / [**复杂性创伤后应激障碍（CPTSD）**](CPTSD.md):虽有创伤记忆的侵入或回避,但不会出现 DA 特有的大块记忆缺失。
+- **脑部损伤或神经退行性疾病**:需排除[癫痫（Epilepsy）](Epilepsy.md)、头部外伤、阿尔茨海默病等;神经影像、神经心理评估可协助鉴别。
 - **物质或药物作用**:酒精、苯二氮䓬类、抗胆碱药等可造成遗忘,应追溯用药史。
 - **普通压力相关遗忘**:一般遗忘不会成块消失,也不围绕创伤信息系统化缺失。
 
@@ -110,18 +112,18 @@ comments: true
 
 ### 常见共病
 
-- [创伤后应激障碍(Post-Traumatic Stress Disorder,PTSD)](PTSD.md) / [复杂性创伤后应激障碍(Complex PTSD,CPTSD)](CPTSD.md):几乎所有 DA 个案都与创伤相关,常合并侵入性记忆、高警觉与回避症状。
-- [解离性身份障碍(Dissociative Identity Disorder,DID)](DID.md):严重案例可能同时符合 DA 与 DID 诊断,需评估身份状态是否轮流控制。
-- [抑郁障碍(Depressive Disorders)](Depressive-Disorders.md):持续性悲伤、绝望与兴趣丧失普遍存在。
-- [焦虑障碍(Anxiety Disorders)](Anxiety-Disorders.md):源于长期不安全感与对记忆缺失的困惑。
-- [物质使用障碍(Substance Use Disorders,SUD)](Substance-Use-Disorders-SUD.md):部分个体以物质自我麻醉以压抑创伤记忆。
-- [边缘性人格障碍(Borderline Personality Disorder,BPD)](Borderline-Personality-Disorder-BPD.md):身份认同、情绪调节症状可能重叠。
+- [创伤后应激障碍（Post-Traumatic Stress Disorder,PTSD）](PTSD.md) / [复杂性创伤后应激障碍（Complex PTSD,CPTSD）](CPTSD.md):几乎所有 DA 个案都与创伤相关,常合并侵入性记忆、高警觉与回避症状。
+- [解离性身份障碍（Dissociative Identity Disorder,DID）](DID.md):严重案例可能同时符合 DA 与 DID 诊断,需评估身份状态是否轮流控制。
+- [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md):持续性悲伤、绝望与兴趣丧失普遍存在。
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md):源于长期不安全感与对记忆缺失的困惑。
+- [物质使用障碍（Substance Use Disorders,SUD）](Substance-Use-Disorders-SUD.md):部分个体以物质自我麻醉以压抑创伤记忆。
+- [边缘性人格障碍（Borderline Personality Disorder,BPD）](Borderline-Personality-Disorder-BPD.md):身份认同、情绪调节症状可能重叠。
 
 ### 风险管理重点
 
 - 遗忘导致的迷失、解离性漫游、自伤或自杀意念风险较高,需要建立安全计划与紧急联络机制。
 - 医疗与心理服务应采用创伤知情原则,避免再创伤化、羞辱或强迫性对质。
-- 建立创伤知情医疗团队、纳入信任的支持者、维持结构化日程与[接地(Grounding)](Grounding.md)练习,减少触发造成的复发。
+- 建立创伤知情医疗团队、纳入信任的支持者、维持结构化日程与[接地（Grounding）](Grounding.md)练习,减少触发造成的复发。
 
 ---
 
@@ -139,8 +141,8 @@ comments: true
 
 DA 的治疗通常遵循分阶段模式:
 
-1. **稳定与安全**:建立治疗联盟、心理教育、发展[接地(Grounding)](Grounding.md)技巧与情绪调节能力,处理自伤与危机,确保基本安全感。
-2. **创伤加工**:在充足安全感下,通过[EMDR(Eye Movement Desensitization and Reprocessing)](Eye-Movement-Desensitization-Reprocessing-EMDR.md)、[创伤焦点认知行为疗法(Trauma-Focused CBT,TF-CBT)](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md)、躯体经验疗法等方法逐步处理创伤记忆。催眠或想象暴露需谨慎使用,避免诱导记忆。
+1. **稳定与安全**:建立治疗联盟、心理教育、发展[接地（Grounding）](Grounding.md)技巧与情绪调节能力,处理自伤与危机,确保基本安全感。
+2. **创伤加工**:在充足安全感下,通过[EMDR（Eye Movement Desensitization and Reprocessing）](Eye-Movement-Desensitization-Reprocessing-EMDR.md)、[创伤焦点认知行为疗法（Trauma-Focused CBT,TF-CBT）](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md)、躯体经验疗法等方法逐步处理创伤记忆。催眠或想象暴露需谨慎使用,避免诱导记忆。
 3. **整合与重建功能**:促进记忆恢复、强化生活技能、恢复日常结构、建立安全网络,重建自我连续性与功能。
 
 **支持性干预**:接地技巧、日记记录、建立安全网络、恢复日常结构,有助应对遗忘造成的生活混乱。
@@ -159,7 +161,7 @@ DA 的治疗通常遵循分阶段模式:
 
 ## 社群与临床语境
 
-- **多意识系统实践**:对于[多意识体系统(Multiple Personality System,MPS)](Multiple_Personality_System.md)成员,共享日记、时间线与提醒工具有助不同成员在记忆空白后迅速掌握现况,降低切换后的功能紊乱。[记忆屏蔽(Memory Shielding)](Memory-Shielding.md)机制可能导致特定成员无法访问某些记忆。
+- **多意识系统实践**:对于[多意识体系统（Multiple Personality System,MPS）](Multiple_Personality_System.md)成员,共享日记、时间线与提醒工具有助不同成员在记忆空白后迅速掌握现况,降低切换后的功能紊乱。[记忆屏蔽（Memory Shielding）](Memory-Shielding.md)机制可能导致特定成员无法访问某些记忆。
 - **临床沟通**:创伤知情治疗强调尊重个体节奏、避免诱导记忆,使用结构化评估与接地技巧确保安全。治疗师需警惕伪记忆综合征的争议,平衡记忆恢复与心理安全。
 - **社群倡议**:同侪支持团体常讨论防止伪记忆、建立紧急联系人及法律文件的重要性,以保障处于漫游或记忆缺口时的安全。部分社群成员分享使用日记、录音、定位软件等工具应对遗忘的经验。
 
@@ -195,33 +197,33 @@ DA 的治疗通常遵循分阶段模式:
 
 ### 解离障碍相关
 
-- [解离障碍(Dissociative Disorders)](Dissociative-Disorders.md)
-- [解离性身份障碍(DID)](DID.md)
-- [其他特定解离性障碍(OSDD)](OSDD.md)
-- [人格解体/现实解体障碍(DPDR)](Depersonalization-Derealization-Disorder-DPDR.md)
-- [未特定的解离障碍(UDD)](Unspecified-Dissociative-Disorder-UDD.md)
-- [部分解离性身份障碍(PDID)](Partial-Dissociative-Identity-Disorder-PDID.md)
-- [解离(Dissociation)](Dissociation.md)
+- [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
+- [解离性身份障碍（DID）](DID.md)
+- [其他特定解离性障碍（OSDD）](OSDD.md)
+- [人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)
+- [未特定的解离障碍（UDD）](Unspecified-Dissociative-Disorder-UDD.md)
+- [部分解离性身份障碍（PDID）](Partial-Dissociative-Identity-Disorder-PDID.md)
+- [解离（Dissociation）](Dissociation.md)
 
 ### 解离与创伤
 
-- [防御性解离(Defensive Dissociation)](Defensive-Dissociation.md)
-- [醉酒解离(Alcohol-Induced Dissociation)](Alcohol-Induced-Dissociation.md)
-- [创伤(Trauma)](Trauma.md)
-- [创伤后应激障碍(PTSD)](PTSD.md)
-- [复杂性创伤后应激障碍(CPTSD)](CPTSD.md)
+- [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)
+- [醉酒解离（Alcohol-Induced Dissociation）](Alcohol-Induced-Dissociation.md)
+- [创伤（Trauma）](Trauma.md)
+- [创伤后应激障碍（PTSD）](PTSD.md)
+- [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)
 
 ### 记忆相关
 
-- [记忆屏蔽(Memory Shielding)](Memory-Shielding.md)
-- [记忆持有者(Memory Holder)](Memory-Holder.md)
-- [独有记忆(Exomemory)](Exomemory.md)
+- [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)
+- [记忆持有者（Memory Holder）](Memory-Holder.md)
+- [独有记忆（Exomemory）](Exomemory.md)
 
 ### 其他相关
 
-- [定向障碍(Disorientation)](Disorientation.md)
-- [抑郁障碍(Depressive Disorders)](Depressive-Disorders.md)
-- [接地(Grounding)](Grounding.md)
+- [定向障碍（Disorientation）](Disorientation.md)
+- [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
+- [接地（Grounding）](Grounding.md)
 
 ---
 
