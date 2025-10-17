@@ -7,14 +7,21 @@ tags:
 - 创伤
 
 topic: 诊断与临床
-description: 创伤（Trauma）的本质、类型与影响机制。理解急性创伤、复杂创伤及发展性创伤对身心的深远影响，掌握创伤知情视角
+description: 创伤（Trauma）的本质、类型、评估与干预框架。涵盖PTSD、CPTSD、解离等相关障碍，提供创伤知情的评估工具、分阶段治疗策略与风险管理指导。教育用途，非医疗建议。
 title: 创伤（Trauma）
 updated: 2025-10-17
 synonyms:
 
 - 心理创伤
 - 精神创伤
+- 创伤性应激
+- 创伤后反应
+- 创伤后成长
 - Trauma
+- PTSD
+- CPTSD
+- PTG
+- Post-Traumatic Growth
 - chuangshang
 
 search:
@@ -25,16 +32,44 @@ comments: true
 # 创伤（Trauma）
 
 !!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题,阅读时请留意自身状态。
+    内容涉及创伤、精神健康、自我认同等敏感议题，阅读时请留意自身状态。
+
+    **快速自护资源**：[接地技巧](Grounding.md) · [感官调节策略](Sensory-Regulation-Strategies.md)
 
 !!! info "免责声明"
-    本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
+    本站资料仅供参考，不构成医疗建议或危机干预。若需诊断或治疗，请联系持证专业人员。**如存在立即风险，请联系当地急救与危机热线。**
 
 ---
 
 ## 概述
 
-心理创伤（Psychological Trauma）指个体遭遇或目睹 **严重威胁生命、安全或核心价值** 的事件后，所产生的持久心理与生理冲击。创伤既可能源于单次灾难，也可能来自长期的虐待、忽视、压迫与结构性暴力。即便当事人因[解离性失忆（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)难以回忆事件经过，创伤仍会透过情绪波动、躯体反应或关系模式显现。创伤是[创伤后应激障碍（PTSD）](PTSD.md)、[复杂性 PTSD（CPTSD）](CPTSD.md)、[解离性身份障碍（DID）](DID.md)与多意识体系统形成的重要背景因素。[^APA2022]
+心理创伤（Psychological Trauma）指个体遭遇或目睹**严重威胁生命、安全或核心价值**的事件后，所产生的持久心理与生理冲击。创伤既可能源于单次灾难，也可能来自长期的虐待、忽视、压迫与结构性暴力。即便当事人因[解离性遗忘（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)难以回忆事件经过，创伤仍会透过情绪波动、躯体反应或关系模式显现。
+
+创伤与[创伤后应激障碍（PTSD）](PTSD.md)、[复杂性创伤后应激障碍（CPTSD）](CPTSD.md)、[解离性身份障碍（DID）](DID.md)等诊断**存在关联**。在研究文献中，**某些个体**的多意识体体验与长期创伤**存在关联**，但这**既非充分条件也非必要条件**——多意识体系统的形成涉及复杂的生物、心理、社会因素交互作用。[^APA2022]
+
+---
+
+## 术语边界与适用范围
+
+### 临床诊断标准中的"创伤事件"
+
+DSM-5-TR 和 ICD-11 对"创伤事件"采用**狭义界定**：指直接威胁生命或身体完整性的事件（如暴力、性侵、严重事故、自然灾害、战争等）。这种界定主要用于 PTSD 等创伤相关障碍的诊断。
+
+### 广义创伤概念的扩展
+
+学术与临床实践中也使用**广义创伤**概念，包括：
+
+- **发展性创伤**：儿童期长期忽视、情感虐待、不稳定依恋关系
+- **结构性创伤**：系统性歧视、贫困、文化压迫、少数群体边缘化（学术用语，源自 Galtung 的"结构性暴力"理论，与司法/政策定义不同）
+- **关系创伤**：长期情感操控、亲密关系暴力、背叛性创伤
+
+### 重要区分
+
+!!! note "术语使用提示"
+    - **DSM/ICD 诊断标准**中的"创伤"指狭义定义，用于临床诊断
+    - **社群、咨询与研究**中可能使用广义定义，涵盖更多心理冲击经历
+    - **二者不等同**：不符合狭义诊断标准的经历，仍可能造成显著心理影响，需要支持与干预
+    - **避免过度泛化**：并非所有压力或不适经历都构成"创伤"；谨慎使用术语有助于保持临床精确性
 
 ---
 
@@ -51,24 +86,40 @@ comments: true
 - ICD-11 将创伤性应激相关障碍归为“创伤与应激相关障碍”章节，认可文化情境对创伤阈值的影响。
 - 引入 CPTSD 以描述长期、重复、无法逃离的创伤所致的情绪调节、人际与自我概念困难。
 
-### 常见分类
+### 临床与研究中的常见分类
 
-- **I 型创伤**：单次、突发事件（自然灾害、事故、袭击）。
-- **II 型创伤 / 复杂创伤**：长期或重复的虐待、战乱、囚禁，与 CPTSD、高度解离相关。
-- **发展性创伤**：儿童期失依、持续威胁对神经发育、依恋与身份形成的影响。
-- **隐性或结构性创伤**：来自系统性歧视、贫困、文化压迫的慢性压力。
+以下分类常用于临床实践与研究，帮助理解创伤的不同类型与影响模式：
+
+- **I 型创伤（急性创伤）**：单次、突发事件（自然灾害、事故、袭击）
+- **II 型创伤（复杂创伤）**：长期或重复的虐待、战乱、囚禁，与 CPTSD、高度[解离（Dissociation）](Dissociation.md)相关
+- **发展性创伤**：儿童期长期忽视、虐待对神经发育、依恋与身份形成的影响
+- **关系/依恋创伤**：来自照顾者的虐待、忽视或不稳定依恋关系
+- **结构性创伤**：系统性歧视、贫困、文化压迫导致的慢性压力（学术概念，非诊断分类）
 
 ---
 
 ## 症状谱系与临床影响
 
-- **侵入性再体验**：闪回、噩梦、触发情境下的情绪或躯体重现。
-- **回避与麻木**：回避记忆、地点、人际，或出现情感麻木与失乐感。
-- **认知与情绪改变**：持续的羞耻、自责、负性自我认同，与对世界的不安全感。
-- **警觉性升高**：惊跳反应、睡眠困难、愤怒与易激惹、注意力下降。
-- **解离与时间断裂**：茫然、失去时间，与[解离（Dissociation）](Dissociation.md)相关的现实感改变。
-- **身心症状**：慢性疼痛、胃肠问题、头痛、心律变化；反映神经内分泌系统长期激活。[^VanDerKolk2014]
-- **功能受损**：学习、工作、人际关系与自我照护能力下降，可能演变为社交退缩或高风险行为。
+创伤后症状表现具有显著个体差异,以下是临床观察与研究中常见的症状模式：
+
+### 侵入、回避与警觉（PTSD 核心三簇）
+
+- **侵入性再体验**：闪回、噩梦、触发情境下的情绪或躯体记忆重现
+- **回避与麻木**：回避创伤相关记忆、地点、人际；情感麻木、失乐感、疏离感
+- **警觉性升高**：惊跳反应、睡眠困难、易怒与易激惹、过度警觉、注意力难以集中
+
+### 认知与情绪变化
+
+- **负性自我认知**：持续的羞耻、自责、"我不够好""我有缺陷"等信念
+- **对他人与世界的负性信念**：普遍不信任、危险感、"世界不安全"
+- **情绪调节困难**：情绪强度波动、难以识别或表达情绪、情绪麻木与爆发交替
+- **人际困难**：难以建立或维持亲密关系，过度依赖或回避人际
+
+### 解离与身心症状
+
+- **解离体验**：[解离（Dissociation）](Dissociation.md)、现实感丧失、失去时间、身份混乱
+- **身心症状**：慢性疼痛、胃肠问题、头痛、心率变异等，与睡眠、疼痛、免疫功能等身心反应相关联，人群研究中可见异质性[^VanDerKolk2014]
+- **功能受损**：学习、工作、自我照护能力下降，社交退缩或高风险行为
 
 ---
 
@@ -81,27 +132,93 @@ comments: true
 
 ## 神经生物与心理机制
 
-- **HPA 轴与交感系统过载**：长期分泌皮质醇与肾上腺素，导致记忆整合与免疫调控失衡。[^Yehuda2015]
-- **记忆加工中断**：创伤事件常以碎片化感官片段储存，语义整合与时间排序受损。
-- **依恋与身份发展受阻**：发展性创伤影响安全依附、情绪调节与自我概念，容易出现分离或分化的应对策略。
-- **结构性解离理论视角**：长期创伤促成“表面正常部分”（ANP）与“情绪部分”（EP）的功能分离，是多意识体系统的重要心理背景。[^VanDerHart2006]
+研究显示创伤体验与多个生物心理系统的变化相关，但机制复杂且存在显著个体差异：
+
+- **压力轴相关的适应性变化**：创伤后个体的 HPA 轴（下丘脑-垂体-肾上腺轴）与交感神经系统可能出现调节模式改变，与记忆整合、免疫功能、情绪调节等多系统功能相关联[^Yehuda2002]
+- **记忆加工的碎片化**：创伤事件可能以感官片段形式储存，语义整合与时间排序受影响，表现为闪回、触发反应或记忆空白
+- **依恋与身份发展**：发展性创伤可能影响安全依附形成、情绪调节能力与自我概念发展
+- **结构性解离理论视角**：Van der Hart 等提出的理论框架〔理论模型，非主流共识〕，将创伤后解离理解为"表面正常部分"（ANP）与"情绪部分"（EP）的功能分离，被部分临床工作者用于理解多意识体系统的心理背景[^VanDerHart2006]
 
 ---
 
 ## 评估与筛查
 
-- **结构化访谈**：CAPS-5（Clinician-Administered PTSD Scale）、ITQ（International Trauma Questionnaire）用于区分 PTSD 与 CPTSD。
-- **自评量表**：PCL-5、DES-II（Dissociative Experiences Scale）、ACE（Adverse Childhood Experiences）评估症状频率、解离程度与童年逆境。
-- **创伤史访谈**：需以创伤知情方式进行，确认安全感、节奏与止损机制，避免再创伤化。
-- **多来源信息**：结合躯体症状、社会功能与风险行为，了解广泛影响。
+### 评估路径与原则
+
+创伤评估应遵循**先稳态、后细评**原则：
+
+1. **安全与风险评估**：自杀/自伤风险、暴力风险、当前安全状况
+2. **现实检验与知觉状态**：意识水平、定向力、严重解离或精神病性症状
+3. **急性生理症状**：睡眠、疼痛、药物使用、营养状况
+4. **社会支持与功能**：居住、经济、人际支持系统
+
+### 常用评估工具
+
+#### 结构化临床访谈
+
+- **CAPS-5（临床施测版 PTSD 量表）**：PTSD 诊断的**金标准**工具，需要专业训练
+- **ITQ（国际创伤问卷）**：用于区分 **ICD-11** 定义的 PTSD 与 CPTSD
+
+#### 自评量表
+
+- **PCL-5（PTSD 检查表）**：评估症状严重度，**非诊断工具**，用于症状监测与筛查
+- **DES-II（解离体验量表）**：筛查解离症状频率，**高分需进一步临床评估**
+- **ACE（童年不良经历问卷）**：评估童年逆境暴露，**群体风险指标**，不用于个体诊断或预测
+
+### 创伤史访谈注意事项
+
+- 采用创伤知情方式，确保安全感、节奏控制与随时停止的权利
+- 避免不必要的细节追问与场景化再现
+- 遵循**"只到可以安全停下的程度"**原则
+- 记录触发因素与缓解策略，便于后续支持
+
+### 鉴别诊断
+
+创伤相关症状可能与以下情况重叠，需谨慎鉴别：
+
+- **悲伤反应/适应障碍**：失落后的正常悲伤 vs. 持续创伤症状
+- **边缘型人格障碍（BPD）**：情绪不稳定、人际模式与创伤史的关联
+- **双相障碍**：情绪波动、易怒与创伤后警觉的区分
+- **精神病性障碍**：解离性闪回 vs. 幻觉/妄想
+- **注意缺陷多动障碍（ADHD）/自闭谱系**：注意困难、执行功能与过度警觉的重叠
+- **物质使用障碍**：作为应对策略或共病
+- **睡眠障碍**：失眠、噩梦的独立评估
+
+---
+
+## 风险管理
+
+### 危机与自杀风险评估
+
+- 使用 **C-SSRS（哥伦比亚自杀严重程度评定量表）**或结构化风险面谈
+- 制定**安全计划**：包括触发识别、应对技能、支持联系人、危机热线
+- 明确随访频率与紧急联系机制
+
+### 再创伤化预防
+
+- **识别触发因素**：记录触发情境、前驱信号（生理、情绪、认知）
+- **现场中止流程**：冷水刺激、姿势改变（站立、走动）、五感[接地（Grounding）](Grounding.md)
+- **创伤知情环境**：避免强制、突然、侵入性干预；提供选择权与节奏控制
+
+### 暴力与家庭安全
+
+- **家庭暴力/跟踪风险筛查**：评估持续暴力风险、经济控制、科技跟踪
+- **隐蔽联系策略**：安全联系方式、隐私保护、紧急撤离计划
+- 必要时与社会服务机构、法律支持协作
+
+### 法务与记录
+
+- **医疗记录原则**：描述性记录（避免推断性语言），使用引号标记当事人自述
+- **知情同意**：明确记录用途、保密限制、转介流程
+- **强制报告义务**：了解当地对儿童虐待、老年虐待、暴力威胁的强制报告法律
 
 ---
 
 ## 与多意识体系统的关联
 
-- **创伤型系统的形成**：长期创伤促使意识部分分工，某些成员保留创伤记忆或情绪，其他成员承担日常功能或保护任务。
-- **部分解离与共意识**：高压下可能出现[混合（Blending）](Blending.md)、共前台或身份侵入，反映内部协作程度。
-- **复原重点**：建立内部沟通、共享时间线与安全策略，结合[系统（System）](System.md)的治理需求。
+- **创伤与系统形成的关联**：研究与临床观察中，某些多意识体系统个体报告长期创伤史；意识部分可能分工承担创伤记忆、情绪或保护功能
+- **部分解离与共意识**：高压下可能出现[混合（Blending）](Blending.md)（社区术语，临床文献用语可能不同）、共前台或身份侵入
+- **复原重点**：建立内部沟通、时间线共享与事件标注需以**情绪稳定—技能建构—逐步整合**顺序推进，避免在高度解离期进行深入暴露；结合[系统（System）](System.md)的协作与治理需求
 
 ---
 
@@ -109,32 +226,86 @@ comments: true
 
 ### 分阶段创伤治疗[^Courtois2020]
 
-1. **安全与稳定**：建立日常结构、危机计划、[接地技巧（Grounding）](Grounding.md)、感官调节工具。
-2. **创伤处理**：在充分准备后进行 TF-CBT、EMDR、结构性解离取向治疗、叙事暴露疗法、躯体经验疗法（SE）等。
-3. **整合与重建**：促进身份合作、重建价值与关系，巩固生活技能与自我倡导。
+#### 阶段 1：安全与稳定
 
-### 共病与药物支持
+- 建立日常结构、危机计划、[接地技巧（Grounding）](Grounding.md)、[感官调节策略（Sensory Regulation Strategies）](Sensory-Regulation-Strategies.md)
+- **睡眠干预**：失眠认知行为治疗（CBT-I）、噩梦重写（IRT）、昼夜节律调节
+- **稳定性指标**（进入阶段 2 的先决条件）：
+    - 2–4 周内危机与自伤行为减少
+    - 睡眠质量改善，使用应对技能频率增加
+    - 无持续自杀/自伤急险，物质使用基本稳定
+    - 掌握"停止词/停机协议"与可调用的支持系统
 
-- 针对[抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)、[广泛性焦虑障碍（Generalized Anxiety Disorder，GAD）](Generalized-Anxiety-Disorder-GAD.md)、[睡眠障碍（Sleep Disorders）](Sleep-Disorders-SD.md)可使用抗抑郁药、抗焦虑药、助眠药；需评估依赖与副作用。
-- 对解离症状的药物直接效果有限，重点在于综合心理干预与安全结构。
+#### 阶段 2：创伤处理
+
+在满足稳定性指标后，可考虑以下循证或发展中的方法：
+
+- **TF-CBT（创伤聚焦认知行为疗法）**〔循证充分〕
+- **EMDR（眼动脱敏与再加工）**〔循证充分〕
+- **叙事暴露疗法（NET）**〔循证充分〕
+- **躯体经验疗法（SE）**〔证据发展中〕
+- **结构性解离取向治疗**〔理论框架，非主流共识〕
+
+**进入创伤处理的先决条件**：
+
+- 当事人知情同意并理解治疗过程
+- 有稳定的治疗关系与定期随访
+- 物质使用、自伤、解离已达到可管理水平
+- 当事人拥有知情选择权（可选择不进入回忆性治疗/记录限制）
+
+#### 阶段 3：整合与重建
+
+- 促进身份合作或融合（基于个人选择）
+- 重建价值观、人际关系与生活技能
+- 巩固自我倡导与社会参与
+
+### 药物支持
+
+!!! warning "药物使用提示"
+    药物方案需由具备处方资质的专业人员基于个体评估决定，本页不构成处方建议。
+
+- **PTSD 一线药物**：SSRIs（舍曲林、帕罗西汀）/ SNRIs（文拉法辛），用于情绪与警觉症状
+- **噩梦管理**：哌唑嗪（证据不一，需个体化评估）
+- **谨慎使用苯二氮卓类**：可能加重回避、形成依赖，不推荐常规用于 PTSD 治疗
+- **抗精神病药**：仅在明确指征（如严重激越、共病精神病性症状）或短期使用
+- **解离症状**：药物对解离症状的直接效果有限，以心理干预与稳定为主
 
 ### 创伤知情照护
 
-- 强调安全、可信赖、协作、赋权与文化敏感性，确保当事人拥有决策权与节奏控制。[^SAMHSA2014]
-- 倡导在医疗、教育、社服体系中普及创伤知情原则，减少评估与治疗过程中的再触发。
+创伤知情照护强调以下核心原则：[^SAMHSA2014]
 
-### 社群与亲友支持
+- **安全**：物理与心理安全环境
+- **可信赖与透明**：清晰沟通、程序透明
+- **同伴支持**：重视共同经验与互助
+- **协作与互惠**：当事人参与决策，减少权力不平等
+- **赋权、发声与选择**：当事人拥有决策权与节奏控制，可选择不进入回忆性治疗
+- **文化谦逊与敏感性**：尊重文化、性别、性取向等多样性
 
-- 同伴支持小组、线上社群与专业组织可提供经验分享与自我倡导资源。
-- 家庭与伴侣教育有助于理解触发因素、建立支持性沟通。
+### 团体与社群支持
+
+- **同伴支持小组**：经验分享与互助，但**不是危机干预替代**
+- **边界设定**：内容范围、时长限制、触发管理与转介流程
+- **家庭与伴侣教育**：理解触发因素、支持性沟通、避免二次伤害
 
 ---
 
 ## 社会文化与倡议
 
-- 创伤影响身心健康、社会参与与经济能力，且常被污名化或淡化。
-- 社会结构性创伤（性别暴力、殖民暴力、少数群体歧视）需要政策层面的修复与正义。
-- **创伤后成长（Post-Traumatic Growth，PTG）**：部分个体在康复过程中对价值观、人际关系与生命意义产生积极重建，但这种成长不意味着创伤本身无害。[^Tedeschi2018]
+### 污名化与社会影响
+
+- 创伤影响身心健康、社会参与与经济能力，且常被污名化、淡化或归咎于个人"脆弱"
+- 倡导公众教育与创伤知情环境，减少对创伤幸存者的歧视与误解
+
+### 结构性创伤与社会正义
+
+社会结构性创伤（性别暴力、殖民暴力、种族歧视、少数群体边缘化）需要政策层面的修复与正义。*"结构性暴力"为学术用语（源自 Galtung），与司法/政策定义不同。*
+
+### 创伤后成长（Post-Traumatic Growth，PTG）
+
+!!! note "避免误读"
+    **PTG 不意味着创伤无害**。部分个体在康复过程中对价值观、人际关系与生命意义产生积极重建，但这是可能的结果之一，**非必然或应然**。
+
+    **避免对当事人施加"要积极成长"的道德压力**——每个人的复原路径不同，不存在单一"正确"的康复方式。[^Tedeschi2018]
 
 ---
 
@@ -146,13 +317,16 @@ comments: true
 - [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)
 - [解离性身份障碍（DID）](DID.md)
 - [解离性遗忘（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)
+- [解离（Dissociation）](Dissociation.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
 - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
+- [睡眠障碍（Sleep Disorders）](Sleep-Disorders-SD.md)
 
 ### 多意识体相关
 
 - [多意识体系统（Multiple Personality System，MPS）](Multiple_Personality_System.md)
 - [系统（System）](System.md)
+- [混合（Blending）](Blending.md)
 
 ### 治疗与应对
 
@@ -162,16 +336,24 @@ comments: true
 
 ### 导览
 
-- [心理健康导览（Mental Health Guide）](Mental-Health-Guide.md)
 - [创伤与疗愈导览（Trauma & Healing Guide）](Trauma-Healing-Guide.md)
+- [临床诊断导览（Clinical Diagnosis Guide）](Clinical-Diagnosis-Guide.md)
+- [心理健康导览（Mental Health Guide）](Mental-Health-Guide.md)
 
 ## 参考与延伸阅读
 
-[^WHO2019]: World Health Organization. (2019). _ICD-11 for Mortality and Morbidity Statistics_.
-[^APA2022]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.).
-[^VanDerKolk2014]: van der Kolk, B. A. (2014). _The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma_. Viking.
-[^Yehuda2015]: Yehuda, R., & McFarlane, A. C. (2015). The dissociation debate and posttraumatic stress disorder. _Annals of the New York Academy of Sciences, 1071_, 35–45.
-[^VanDerHart2006]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). _The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization_. W. W. Norton.
-[^Courtois2020]: Courtois, C. A., & Ford, J. D. (2020). _Treating Complex Traumatic Stress Disorders in Adults_ (2nd ed.). Guilford Press.
-[^SAMHSA2014]: Substance Abuse and Mental Health Services Administration. (2014). _SAMHSA's Concept of Trauma and Guidance for a Trauma-Informed Approach_. HHS Publication No. (SMA) 14-4884.
-[^Tedeschi2018]: Tedeschi, R. G., & Moore, B. A. (2018). Posttraumatic growth as an integrative therapeutic philosophy. _Journal of Psychotherapy Integration, 28_(2), 193–206.
+[^WHO2019]: World Health Organization. (2019). _ICD-11 for Mortality and Morbidity Statistics_. [https://icd.who.int/browse11/l-m/en](https://icd.who.int/browse11/l-m/en)
+
+[^APA2022]: American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.). American Psychiatric Publishing.
+
+[^VanDerKolk2014]: van der Kolk, B. A. (2014). _The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma_. Viking. *（通俗书籍，建议结合学术综述阅读）*
+
+[^Yehuda2002]: Yehuda, R. (2002). Post-traumatic stress disorder. _New England Journal of Medicine, 346_(2), 108–114. https://doi.org/10.1056/NEJMra012941 *（PTSD 神经生物学综述，涵盖 HPA 轴调节改变）*
+
+[^VanDerHart2006]: Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). _The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization_. W. W. Norton. *（理论框架，详见正文证据标识）*
+
+[^Courtois2020]: Courtois, C. A., & Ford, J. D. (Eds.). (2020). _Treating Complex Traumatic Stress Disorders in Adults: Scientific Foundations and Therapeutic Models_ (2nd ed.). Guilford Press.
+
+[^SAMHSA2014]: Substance Abuse and Mental Health Services Administration. (2014). _SAMHSA's Concept of Trauma and Guidance for a Trauma-Informed Approach_. HHS Publication No. (SMA) 14-4884. Rockville, MD: SAMHSA. [https://store.samhsa.gov/product/SAMHSA-s-Concept-of-Trauma-and-Guidance-for-a-Trauma-Informed-Approach/SMA14-4884](https://store.samhsa.gov/product/SAMHSA-s-Concept-of-Trauma-and-Guidance-for-a-Trauma-Informed-Approach/SMA14-4884)
+
+[^Tedeschi2018]: Tedeschi, R. G., & Moore, B. A. (2018). Posttraumatic growth as an integrative therapeutic philosophy. _Journal of Psychotherapy Integration, 28_(2), 193–206. https://doi.org/10.1037/int0000111
