@@ -239,7 +239,7 @@ comments: true
 ### 🛡️ 实践与照护
 
 - [接地（Grounding）](Grounding.md) - 稳定技巧
-- [冥想（Meditation）](Meditation.md) - 意识训练
+- [冥想（Meditation）](Meditation.md) - 呼吸调节、身体扫描与内在平静中心建立
 - [内部沟通](Internal-Communication.md) - 成员协作
 
 ---

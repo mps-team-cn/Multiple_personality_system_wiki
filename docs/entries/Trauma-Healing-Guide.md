@@ -50,7 +50,7 @@ comments: true
 
 阶段目标：扩大容受度与情绪调节空间。
 
-- 按照《[正念](Mindfulness.md)》与《[冥想](Meditation.md)》安排短时练习，重点在于觉察身体与情绪，无需追求“空白大脑”。
+- 按照《[正念](Mindfulness.md)》与《[冥想](Meditation.md)》安排短时练习，重点在于觉察身体与情绪，无需追求"空白大脑"。可使用完整的深度放松冥想引导，通过呼吸调节、身体扫描和内在平静中心的建立，释放累积的压力与紧张。
 - 将《[辩证行为疗法（DBT）](Dialectical-Behavior-Therapy-DBT.md)》中的情绪调节、痛苦耐受技巧融入日常，记录练习前后的情绪波动，逐渐建立可控节奏。
 
 ### 3. 面向整合
@@ -98,7 +98,7 @@ comments: true
 | [接地（Grounding）](Grounding.md) | 急性触发、解离、恐慌时 | 透过感官、呼吸、动作把注意力带回当下 |
 | [感官调节策略](Sensory-Regulation-Strategies.md) | 长期焦虑、情绪起伏 | 建立个人化的舒缓工具箱，稳定神经系统 |
 | [正念（Mindfulness）](Mindfulness.md) | 建立当下觉察、扩展容受度 | 稳定地观察身体与情绪变化，培养对触发反应的辨识与预警 |
-| [冥想（Meditation）](Meditation.md) | 恢复觉察、培养韧性 | 以正念训练提升情绪调节与自我关怀 |
+| [冥想（Meditation）](Meditation.md) | 恢复觉察、培养韧性、释放深层压力 | 通过呼吸调节、身体扫描与内在平静中心的建立,提升情绪稳定性与自我接纳 |
 
 #### 专业疗法
 
