@@ -225,7 +225,8 @@ comments: true
 
     - [睡眠障碍总览（SD）](Sleep-Disorders-SD.md) — :octicons-check-16: 已完成
     - [失眠障碍（Insomnia Disorder）](Insomnia-Disorder.md) — :octicons-check-16: 已完成
-    - 嗜睡障碍（Hypersomnolence Disorder）、发作性睡病（Narcolepsy）、呼吸相关睡眠障碍、昼夜节律睡眠-觉醒障碍、异态睡眠等 — :octicons-clock-16: 待更新
+    - [嗜睡障碍（Hypersomnolence Disorder）](Hypersomnolence-Disorder.md) — :octicons-check-16: 已完成
+    - 发作性睡病（Narcolepsy）、呼吸相关睡眠障碍、昼夜节律睡眠-觉醒障碍、异态睡眠等 — :octicons-clock-16: 待更新
 
 ### 13) 性功能障碍
 
