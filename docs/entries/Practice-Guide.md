@@ -7,7 +7,7 @@ tags:
 
 topic: 实践指南
 title: 实践指南导览
-updated: 2025-10-16
+updated: 2025-10-17
 comments: true
 ---
 
@@ -77,7 +77,7 @@ comments: true
 
 1. **奠定观念** → 阅读《[Tulpa 完全创造指南](Tulpa-Guide.md)》，确认动机、风险与准备事项。
 2. **打好基础** → 依照《[基础篇](Tulpa-Guide-1.md)》结合《[正念](Mindfulness.md)》《[冥想](Meditation.md)》建立日常觉察与记录习惯。
-3. **开始塑造** → 学习《[塑造(Forcing)](Forcing.md)》方法,可在《[幻境(Wonderland)](Wonderland.md)》中辅助塑造,同时了解《[学舌/操纵(Parroting/Puppeting)](Parroting-Puppeting.md)》以应对早期自我怀疑。
+3. **开始塑造** → 学习《[塑造（Forcing）](Forcing.md)》方法,可在《[幻境（Wonderland）](Wonderland.md)》中辅助塑造,同时了解《[学舌/操纵（Parroting/Puppeting）](Parroting-Puppeting.md)》以应对早期自我怀疑。
 4. **进入实作** → 参考《[实践篇](Tulpa-Guide-2.md)》与《[内部沟通](Internal-Communication.md)》《[内部空间](Headspace-Inner-World.md)》设计协作练习，追踪《[成声（Vocality）](Vocality.md)》进展。
 5. **接受演变** → 理解《[异化（Deviation）](Deviation.md)》现象，尊重 Tulpa 的自主发展和个性变化。
 6. **评估进阶需求** → 若系统状态稳定，可按照《[提高篇](Tulpa-Guide-3.md)》搭配《[权限管理](Permissions.md)》规划投影、附体或交换，并保留安全退出方案。
