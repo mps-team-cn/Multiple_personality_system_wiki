@@ -331,6 +331,7 @@ Judith Herman 的[三阶段创伤治疗模型（Three-Phase Trauma Treatment）]
 - [闪回（Flashback）](Flashback.md)
 - [触发（Trigger）](Trigger.md)
 - [解离性失忆（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)
+- [深层记忆（Deep Memory）](Deep-Memory.md)
 
 ### 治疗与应对
 

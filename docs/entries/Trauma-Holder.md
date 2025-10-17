@@ -206,6 +206,7 @@ comments: true
 - [创伤（Trauma）](Trauma.md)
 - [闪回（Flashback）](Flashback.md)
 - [触发（Trigger）](Trigger.md)
+- [深层记忆（Deep Memory）](Deep-Memory.md)
 
 ### 治疗方法
 
