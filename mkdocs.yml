@@ -260,15 +260,19 @@ plugins:
         - ADMIN_GUIDE.md
         - GITHUB_WORKFLOW.md
         - 404.md
-        - contributing/*
-        - admin/*
-        - dev/*
-        - tools/*
-        - assets/*
-        - includes/*
-        - entries/*-Guide.md
-        - entries/*-index.md
-        - SUMMARY.md
+      # 使用 regex 排除目录和模式匹配
+      exclude_unreferenced: false
+      ignore:
+        - contributing
+        - admin
+        - dev
+        - tools
+        - assets
+        - includes
+      # 排除 entries 下的导览和索引文件
+      regex:
+        - '.*-Guide\.md$'
+        - '.*-index\.md$'
 
   - tags
 
