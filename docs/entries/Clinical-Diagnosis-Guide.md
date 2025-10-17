@@ -80,6 +80,11 @@ comments: true
   [定向障碍（Disorientation）](Disorientation.md) — :octicons-check-16: 已完成
   聚焦时间、地点、自我定向受损的识别要点，并补充解离诱发时间空窗的辨识与内部交接策略，辅助精神状态检查判断。
 
+- **创伤记忆与评估**
+
+  [深层记忆（Deep Memory）](Deep-Memory.md) — :octicons-check-16: 已完成
+  与核心创伤、情绪图式高度相关的隐性记忆材料，常以碎片化形式储存。探索需在专业指导下进行，详述特征、风险、循证方法与安全前提。高风险临床议题，需谨慎评估与相位化治疗。
+
 - **伴随心理现象**
 
   [述情障碍（Alexithymia）](Alexithymia.md) — :octicons-check-16: 已完成
