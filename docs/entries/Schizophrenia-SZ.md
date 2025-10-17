@@ -98,15 +98,15 @@ DSM-5-TR 强调 6 个月的总病程要求和功能下降的必要性,ICD-11 更
 
 ## 鉴别诊断
 
-- **[分裂情感性障碍（Schizoaffective Disorder）](Schizoaffective-Disorder.md)**：同时满足精神分裂症标准和[心境障碍](Mood-Disorders.md)标准,且在心境症状缓解期仍有妄想或幻觉。
+- [**分裂情感性障碍（Schizoaffective Disorder）**](Schizoaffective-Disorder.md)：同时满足精神分裂症标准和[心境障碍](Mood-Disorders.md)标准,且在心境症状缓解期仍有妄想或幻觉。
 
 - **[双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)或[抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)伴精神病性特征**：精神病性症状仅在情绪发作期间出现。
 
-- **[物质使用障碍（Substance Use Disorders，SUD）](Substance-Use-Disorders-SUD.md)**：需排除物质诱发的精神病性症状,关注时间关系与物质使用史。
+- [**物质使用障碍（Substance Use Disorders，SUD）**](Substance-Use-Disorders-SUD.md)：需排除物质诱发的精神病性症状,关注时间关系与物质使用史。
 
 - **[谵妄（Delirium）](Delirium.md)或神经认知障碍**：通常伴有意识水平波动、定向力障碍或明确的躯体/神经系统病因。
 
-- **[孤独症谱系障碍（ASD）](Autism-Spectrum-Disorder.md)**：社交困难与重复行为模式贯穿发展史,缺乏典型的精神病性症状时间特征。
+- [**孤独症谱系障碍（ASD）**](Autism-Spectrum-Disorder.md)：社交困难与重复行为模式贯穿发展史,缺乏典型的精神病性症状时间特征。
 
 - **人格障碍**：如[分裂型人格障碍（Schizotypal Personality Disorder，STPD）](Schizotypal-Personality-Disorder-STPD.md),症状较轻且不满足精神分裂症的诊断阈值。
 
