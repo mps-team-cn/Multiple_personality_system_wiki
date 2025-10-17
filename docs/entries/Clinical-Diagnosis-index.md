@@ -15,8 +15,9 @@ hide:
 
 ## 词条一览
 
-- [改良电痉挛治疗（Modified Electroconvulsive Therapy, MECT）](Modified-Electroconvulsive-Therapy-MECT.md) — *2025-10-17*
 - [经颅微电流刺激（Cranial Electrotherapy Stimulation, CES）](Cranial-Electrotherapy-Stimulation-CES.md) — *2025-10-17*
+- [重性抑郁障碍（Major Depressive Disorder, MDD）](Major-Depressive-Disorder-MDD.md) — *2025-10-17*
+- [改良电痉挛治疗（Modified Electroconvulsive Therapy, MECT）](Modified-Electroconvulsive-Therapy-MECT.md) — *2025-10-17*
 - [酒精相关障碍（Alcohol-Related Disorders）](Alcohol-Related-Disorders.md) — *2025-10-16*
 - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md) — *2025-10-16*
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md) — *2025-10-16*
@@ -38,7 +39,6 @@ hide:
 - [抓痕障碍（Excoriation，Skin-Picking Disorder）](Excoriation-Skin-Picking-Disorder.md) — *2025-10-15*
 - [囤积障碍（Hoarding Disorder，HD）](Hoarding-Disorder.md) — *2025-10-15*
 - [疾病焦虑障碍(Illness Anxiety Disorder,IAD)](Illness-Anxiety-Disorder.md) — *2025-10-15*
-- [重性抑郁障碍（Major Depressive Disorder, MDD）](Major-Depressive-Disorder-MDD.md) — *2025-10-15*
 - [影响其他躯体疾病的心理因素(Psychological Factors Affecting Other Medical Conditions,PFAOMC)](Psychological-Factors-Affecting-Other-Medical-Conditions.md) — *2025-10-15*
 - [分裂情感性障碍（Schizoaffective Disorder, SZA）](Schizoaffective-Disorder.md) — *2025-10-15*
 - [拔毛障碍（Trichotillomania，Hair-Pulling Disorder）](Trichotillomania-Hair-Pulling-Disorder.md) — *2025-10-15*

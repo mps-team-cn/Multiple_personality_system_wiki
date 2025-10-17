@@ -2,12 +2,14 @@
 title: 经颅微电流刺激（Cranial Electrotherapy Stimulation, CES）
 topic: 诊断与临床
 tags:
-  - 生物治疗
-  - 脑刺激
-  - 焦虑障碍
-  - 失眠
-  - 抑郁障碍
-  - 临床干预
+
+    - 生物治疗
+    - 脑刺激
+    - 焦虑障碍
+    - 失眠
+    - 抑郁障碍
+    - 临床干预
+
 updated: 2025-10-17
 comments: true
 ---
@@ -36,15 +38,15 @@ comments: true
 ### 使用定位：单独使用 vs 增效使用
 
 - 适合 **单独使用（monotherapy）** 的情境（结合医师评估）：
-  - 轻度至中度 **焦虑症状**，希望先行尝试非药物方案或对药物不耐受/有禁忌者^[1]^。
-  - **原发性轻度失眠** 或 **应激相关短期失眠**，同步进行睡眠卫生与（或）CBT-I；2–4 周评估是否继续^[3][4]^。
-  - 轻中度 **抑郁症状** 且无自杀高危/无精神病性特征者；优先与 **心理治疗** 配合，密切随访^[2]^。
+    - 轻度至中度 **焦虑症状**，希望先行尝试非药物方案或对药物不耐受/有禁忌者^[1]^。
+    - **原发性轻度失眠** 或 **应激相关短期失眠**，同步进行睡眠卫生与（或）CBT-I；2–4 周评估是否继续^[3][4]^。
+    - 轻中度 **抑郁症状** 且无自杀高危/无精神病性特征者；优先与 **心理治疗** 配合，密切随访^[2]^。
 
 - 建议 **作为增效（augmentation）** 的情境：
-  - **中重度抑郁** 已在接受抗抑郁药物和/或心理治疗，合并 **焦虑/失眠** 症状明显，作为短期增效并定期复评^[2][4]^。
-  - 焦虑障碍对一线 **CBT/SSRI** 仅部分缓解者，可短期增效；4–6 周评估，明确“继续/维持/停用”。
-  - **慢性失眠** 以 **CBT-I 为一线**，CES 作为辅助，关注入睡潜伏期/睡眠效率等客观与主观指标变化^[4]^。
-  - 合并创伤相关症状但不宜加量药物者，可在稳定化策略到位基础上慎重尝试，详见下文注意事项。
+    - **中重度抑郁** 已在接受抗抑郁药物和/或心理治疗，合并 **焦虑/失眠** 症状明显，作为短期增效并定期复评^[2][4]^。
+    - 焦虑障碍对一线 **CBT/SSRI** 仅部分缓解者，可短期增效；4–6 周评估，明确“继续/维持/停用”。
+    - **慢性失眠** 以 **CBT-I 为一线**，CES 作为辅助，关注入睡潜伏期/睡眠效率等客观与主观指标变化^[4]^。
+    - 合并创伤相关症状但不宜加量药物者，可在稳定化策略到位基础上慎重尝试，详见下文注意事项。
 
 ## 使用与流程（概览）
 
@@ -94,7 +96,7 @@ comments: true
 ## 与其他治疗的比较
 
 - **MECT/ECT**：起效更快、效应更强，需麻醉与监护；适用于急重症与高危情景（见：[改良电痉挛治疗（MECT）](Modified-Electroconvulsive-Therapy-MECT.md)）。
-- **rTMS（经颅磁刺激）**：证据更为扎实的非侵入脑刺激之一，副作用以头皮不适为主，但治疗周期较长。 
+- **rTMS（经颅磁刺激）**：证据更为扎实的非侵入脑刺激之一，副作用以头皮不适为主，但治疗周期较长。
 - **tDCS（经颅直流刺激）**：亦为便携化的低电流刺激方式，证据体量与监管路径不同，参数不可类比。
 - **药物/心理治疗**：CES 常作为 **增效或替代选项**，不宜取代已被证实有效的一线治疗；对 **焦虑/失眠** 的辅助证据相对更好。
 
@@ -118,12 +120,12 @@ comments: true
 
 ## 参考文献
 
-[1] Ching, P.-Y., Hsu, T.-W., Chen, G.-W., et al. (2022). Efficacy and Tolerability of Cranial Electrotherapy Stimulation in the Treatment of Anxiety: A Systemic Review and Meta-Analysis. *Frontiers in Psychiatry*, 13, 899040. https://doi.org/10.3389/fpsyt.2022.899040
+[1] Ching, P.-Y., Hsu, T.-W., Chen, G.-W., et al. (2022). Efficacy and Tolerability of Cranial Electrotherapy Stimulation in the Treatment of Anxiety: A Systemic Review and Meta-Analysis. *Frontiers in Psychiatry*, 13, 899040. [https://doi.org/10.3389/fpsyt.2022.899040](https://doi.org/10.3389/fpsyt.2022.899040)
 
-[2] Li, L., et al. (2021). A meta-analysis of cranial electrotherapy stimulation in the treatment of depression. *Journal of Psychiatric Research*, 137, 188–196. https://doi.org/10.1016/j.jpsychires.2020.12.043
+[2] Li, L., et al. (2021). A meta-analysis of cranial electrotherapy stimulation in the treatment of depression. *Journal of Psychiatric Research*, 137, 188–196. [https://doi.org/10.1016/j.jpsychires.2020.12.043](https://doi.org/10.1016/j.jpsychires.2020.12.043)
 
-[3] Lande, R. G., Gragnani, C. (2013). Efficacy of cranial electric stimulation for the treatment of insomnia: a randomized pilot study. *Complementary Therapies in Medicine*, 21(1), 8–13. https://doi.org/10.1016/j.ctim.2012.11.007
+[3] Lande, R. G., Gragnani, C. (2013). Efficacy of cranial electric stimulation for the treatment of insomnia: a randomized pilot study. *Complementary Therapies in Medicine*, 21(1), 8–13. [https://doi.org/10.1016/j.ctim.2012.11.007](https://doi.org/10.1016/j.ctim.2012.11.007)
 
-[4] Kavirajan, H., Lueken, S. C., & Duhon, G. (2018). Benefits and Harms of Cranial Electrical Stimulation for Chronic Painful Conditions, Depression, Anxiety, and Insomnia: A Systematic Review. *Annals of Internal Medicine*, 168(6), 414–421. https://doi.org/10.7326/M17-1970
+[4] Kavirajan, H., Lueken, S. C., & Duhon, G. (2018). Benefits and Harms of Cranial Electrical Stimulation for Chronic Painful Conditions, Depression, Anxiety, and Insomnia: A Systematic Review. *Annals of Internal Medicine*, 168(6), 414–421. [https://doi.org/10.7326/M17-1970](https://doi.org/10.7326/M17-1970)
 
-[5] 21 CFR § 882.5800 — Cranial electrotherapy stimulator.（美国法典联邦法规：CES 监管分类）https://www.law.cornell.edu/cfr/text/21/882.5800
+[5] 21 CFR § 882.5800 — Cranial electrotherapy stimulator.（美国法典联邦法规：CES 监管分类）[https://www.law.cornell.edu/cfr/text/21/882.5800](https://www.law.cornell.edu/cfr/text/21/882.5800)

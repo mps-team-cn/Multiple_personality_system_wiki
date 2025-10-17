@@ -2,11 +2,13 @@
 title: 改良电痉挛治疗（Modified Electroconvulsive Therapy, MECT）
 topic: 诊断与临床
 tags:
-  - 生物治疗
-  - 脑刺激
-  - 重性抑郁障碍
-  - 躁郁症
-  - 临床干预
+
+    - 生物治疗
+    - 脑刺激
+    - 重性抑郁障碍
+    - 躁郁症
+    - 临床干预
+
 updated: 2025-10-17
 comments: true
 ---
@@ -76,8 +78,8 @@ comments: true
 
 - MECT 并非 **解离障碍（如 DID/OSDD）** 的常规或一线治疗；如为 **共病** 的重度抑郁、紧张症等而考虑 MECT，应与治疗团队充分沟通潜在 **记忆影响** 与对内部协作的影响，完善稳定化与支持性措施（参阅：[解离障碍](Dissociative-Disorders.md)）。
 - 创伤幸存者接受 MECT 时，建议：
-  - 在治疗前后安排 **接地** 与 **情绪调节** 支持（参阅：[接地](Grounding.md)、[辩证行为疗法（DBT）](Dialectical-Behavior-Therapy-DBT.md)）
-  - 通过 **书写与外部线索**（日记、时间线、提醒卡）辅助应对短期记忆波动
+    - 在治疗前后安排 **接地** 与 **情绪调节** 支持（参阅：[接地](Grounding.md)、[辩证行为疗法（DBT）](Dialectical-Behavior-Therapy-DBT.md)）
+    - 通过 **书写与外部线索**（日记、时间线、提醒卡）辅助应对短期记忆波动
 
 ## 患者权利与共同决策
 
@@ -104,27 +106,26 @@ comments: true
 
 [1] American Psychiatric Association (APA). (2022). *The Practice of Electroconvulsive Therapy: Recommendations for Treatment, Training, and Privileging* (3rd ed.). American Psychiatric Publishing.
 
-[2] Petrides, G., Fink, M., Husain, M. M., et al. (2001). ECT remission rates in psychotic versus nonpsychotic depressed patients: A report from CORE. *Journal of ECT*, 17(4), 244-253. https://doi.org/10.1097/00124509-200112000-00003
+[2] Petrides, G., Fink, M., Husain, M. M., et al. (2001). ECT remission rates in psychotic versus nonpsychotic depressed patients: A report from CORE. *Journal of ECT*, 17(4), 244-253. [https://doi.org/10.1097/00124509-200112000-00003](https://doi.org/10.1097/00124509-200112000-00003)
 
 [3] Fink, M., & Taylor, M. A. (2003). *Catatonia: A Clinician's Guide to Diagnosis and Treatment*. Cambridge University Press.
 
-[4] Sikdar, S., Kulhara, P., Avasthi, A., & Singh, H. (1994). Combined chlorpromazine and electroconvulsive therapy in mania. *British Journal of Psychiatry*, 164(6), 806-810. https://doi.org/10.1192/bjp.164.6.806
+[4] Sikdar, S., Kulhara, P., Avasthi, A., & Singh, H. (1994). Combined chlorpromazine and electroconvulsive therapy in mania. *British Journal of Psychiatry*, 164(6), 806-810. [https://doi.org/10.1192/bjp.164.6.806](https://doi.org/10.1192/bjp.164.6.806)
 
-[5] Tharyan, P., & Adams, C. E. (2005). Electroconvulsive therapy for schizophrenia. *Cochrane Database of Systematic Reviews*, 2005(2), CD000076. https://doi.org/10.1002/14651858.CD000076.pub2
+[5] Tharyan, P., & Adams, C. E. (2005). Electroconvulsive therapy for schizophrenia. *Cochrane Database of Systematic Reviews*, 2005(2), CD000076. [https://doi.org/10.1002/14651858.CD000076.pub2](https://doi.org/10.1002/14651858.CD000076.pub2)
 
-[6] Kellner, C. H., Fink, M., Knapp, R., et al. (2005). Relief of expressed suicidal intent by ECT: A consortium for research in ECT study. *American Journal of Psychiatry*, 162(5), 977-982. https://doi.org/10.1176/appi.ajp.162.5.977
+[6] Kellner, C. H., Fink, M., Knapp, R., et al. (2005). Relief of expressed suicidal intent by ECT: A consortium for research in ECT study. *American Journal of Psychiatry*, 162(5), 977-982. [https://doi.org/10.1176/appi.ajp.162.5.977](https://doi.org/10.1176/appi.ajp.162.5.977)
 
-[7] UK ECT Review Group. (2003). Efficacy and safety of electroconvulsive therapy in depressive disorders: A systematic review and meta-analysis. *Lancet*, 361(9360), 799-808. https://doi.org/10.1016/S0140-6736(03)12705-5
+[7] UK ECT Review Group. (2003). Efficacy and safety of electroconvulsive therapy in depressive disorders: A systematic review and meta-analysis. *Lancet*, 361(9360), 799-808. [https://doi.org/10.1016/S0140-6736（03](https://doi.org/10.1016/S0140-6736(03))12705-5
 
-[8] Lisanby, S. H. (2007). Electroconvulsive therapy for depression. *New England Journal of Medicine*, 357(19), 1939-1945. https://doi.org/10.1056/NEJMct075234
+[8] Lisanby, S. H. (2007). Electroconvulsive therapy for depression. *New England Journal of Medicine*, 357(19), 1939-1945. [https://doi.org/10.1056/NEJMct075234](https://doi.org/10.1056/NEJMct075234)
 
-[9] Semkovska, M., & McLoughlin, D. M. (2010). Objective cognitive performance associated with electroconvulsive therapy for depression: A systematic review and meta-analysis. *Biological Psychiatry*, 68(6), 568-577. https://doi.org/10.1016/j.biopsych.2010.06.009
+[9] Semkovska, M., & McLoughlin, D. M. (2010). Objective cognitive performance associated with electroconvulsive therapy for depression: A systematic review and meta-analysis. *Biological Psychiatry*, 68(6), 568-577. [https://doi.org/10.1016/j.biopsych.2010.06.009](https://doi.org/10.1016/j.biopsych.2010.06.009)
 
-[10] Sackeim, H. A., Prudic, J., Fuller, R., et al. (2007). The cognitive effects of electroconvulsive therapy in community settings. *Neuropsychopharmacology*, 32(1), 244-254. https://doi.org/10.1038/sj.npp.1301180
+[10] Sackeim, H. A., Prudic, J., Fuller, R., et al. (2007). The cognitive effects of electroconvulsive therapy in community settings. *Neuropsychopharmacology*, 32(1), 244-254. [https://doi.org/10.1038/sj.npp.1301180](https://doi.org/10.1038/sj.npp.1301180)
 
-[11] Nuttall, G. A., Bowersox, M. R., Douglass, S. B., et al. (2004). Morbidity and mortality in the use of electroconvulsive therapy. *Journal of ECT*, 20(4), 237-241. https://doi.org/10.1097/00124509-200412000-00010
+[11] Nuttall, G. A., Bowersox, M. R., Douglass, S. B., et al. (2004). Morbidity and mortality in the use of electroconvulsive therapy. *Journal of ECT*, 20(4), 237-241. [https://doi.org/10.1097/00124509-200412000-00010](https://doi.org/10.1097/00124509-200412000-00010)
 
-[12] Devanand, D. P., Polanco, P., Cruz, R., et al. (2000). The efficacy of ECT in mixed affective states. *Journal of ECT*, 16(1), 32-37. https://doi.org/10.1097/00124509-200003000-00005
+[12] Devanand, D. P., Polanco, P., Cruz, R., et al. (2000). The efficacy of ECT in mixed affective states. *Journal of ECT*, 16(1), 32-37. [https://doi.org/10.1097/00124509-200003000-00005](https://doi.org/10.1097/00124509-200003000-00005)
 
-[13] National Institute for Health and Care Excellence (NICE). (2022). *Guidance on the use of electroconvulsive therapy* (TA59). NICE. https://www.nice.org.uk/guidance/ta59
-
+[13] National Institute for Health and Care Excellence (NICE). (2022). *Guidance on the use of electroconvulsive therapy* (TA59). NICE. [https://www.nice.org.uk/guidance/ta59](https://www.nice.org.uk/guidance/ta59)
