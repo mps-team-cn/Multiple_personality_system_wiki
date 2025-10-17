@@ -149,7 +149,12 @@ comments: true
 
 ### 睡眠障碍类型
 
+- [失眠障碍（Insomnia Disorder）](Insomnia-Disorder.md)
 - [嗜睡障碍（Hypersomnolence Disorder）](Hypersomnolence-Disorder.md)
+- [睡眠相关呼吸障碍（Breathing-Related Sleep Disorders）](Breathing-Related-Sleep-Disorders.md)
+- [阻塞性睡眠呼吸暂停低通气（Obstructive Sleep Apnea Hypopnea）](Obstructive-Sleep-Apnea-Hypopnea.md)
+- [不宁腿综合征（Restless Legs Syndrome）](Restless-Legs-Syndrome.md)
+- [昼夜节律睡眠-觉醒障碍（Circadian Rhythm Sleep-Wake Disorders）](Circadian-Rhythm-Sleep-Wake-Disorders.md)
 
 ### 共病相关
 

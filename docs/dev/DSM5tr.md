@@ -137,7 +137,7 @@ comments: true
 - [x] Dissociative-Amnesia-DA.md
 - [x] Depersonalization-Derealization-Disorder-DPDR.md
 - [x] OSDD.md
-- [x] Unspecified-Dissociative-Disorder-sdd.md
+- [x] Unspecified-Dissociative-Disorder-UDD.md
 - [x] Partial-Dissociative-Identity-Disorder-PDID.md  <!-- ICD-11 -->
 
 ## 9. 躯体症状及相关障碍（Somatic Symptom and Related Disorders）
@@ -178,18 +178,18 @@ comments: true
 
 - [x] Sleep-Disorders-SD.md       <!-- 总览 -->
 - [x] Insomnia-Disorder.md
-- [ ] Hypersomnolence-Disorder.md
+- [x] Hypersomnolence-Disorder.md
 - [ ] Narcolepsy.md
-- [ ] Breathing-Related-Sleep-Disorders.md
-    - [ ] Obstructive-Sleep-Apnea-Hypopnea.md
+- [x] Breathing-Related-Sleep-Disorders.md
+    - [x] Obstructive-Sleep-Apnea-Hypopnea.md
     - [ ] Central-Sleep-Apnea.md
     - [ ] Sleep-Related-Hypoventilation.md
-- [ ] Circadian-Rhythm-Sleep-Wake-Disorders.md
+- [x] Circadian-Rhythm-Sleep-Wake-Disorders.md
 - [ ] Parasomnias.md
     - [ ] NREM-Sleep-Arousal-Disorders.md
     - [ ] Nightmare-Disorder.md
     - [ ] REM-Sleep-Behavior-Disorder.md
-    - [ ] Restless-Legs-Syndrome.md
+    - [x] Restless-Legs-Syndrome.md
 - [ ] Substance-Medication-Induced-Sleep-Disorder.md
 - [ ] Other-Specified-or-Unspecified-Sleep-Wake-Disorders.md
 
@@ -213,7 +213,7 @@ comments: true
 一句话定位：性别认同与出生指定性别不一致所致显著痛苦或功能损害。
 
 - [x] Gender-Dysphoria-GD.md      <!-- 儿童 / 青少-成人 合并讲解 -->
-- [x] Other-Specified-or-Unspecified-Gender-Dysphoria.md
+- [ ] Other-Specified-or-Unspecified-Gender-Dysphoria.md
 
 ## 15. 破坏性、冲动控制及品行障碍（Disruptive, Impulse-Control, and Conduct Disorders）
 
@@ -426,6 +426,6 @@ aliases: []     # 旧称/误写/历史术语（可选）
 
 ### 第 4 周（睡眠骨干 × 精神病性核心 × ARFID）
 
-***睡眠**：`Breathing-Related-Sleep-Disorders.md`（新建 → 拆 `Obstructive-Sleep-Apnea-Hypopnea.md`）、`Restless-Legs-Syndrome.md`（新建）、`Circadian-Rhythm-Sleep-Wake-Disorders.md`（新建）
+<!-- ***睡眠**：`Breathing-Related-Sleep-Disorders.md`（新建 → 拆 `Obstructive-Sleep-Apnea-Hypopnea.md`）、`Restless-Legs-Syndrome.md`（新建）、`Circadian-Rhythm-Sleep-Wake-Disorders.md`（新建） -->
 <!-- ***精神病性（微修已就绪）**：`Delusional-Disorder.md`（已更新）、`Brief-Psychotic-Disorder.md`（已更新）、`Schizoaffective-Disorder.md`（已更新） -->
 ***进食补全**：`Avoidant-Restrictive-Food-Intake-Disorder-ARFID.md`（新建）
