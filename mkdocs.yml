@@ -71,7 +71,6 @@ theme:
 
     # 目录
     - toc.follow # 目录跟随
-    - toc.integrate             # 不启用，改用 CSS 控制布局
 
     # 搜索
     - search.suggest # 搜索建议
