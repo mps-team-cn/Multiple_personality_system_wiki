@@ -100,7 +100,7 @@ updated: 2025-10-15
 
     1. 新词条放在 `docs/entries/`，不得创建子目录，使用模板 `docs/TEMPLATE_ENTRY.md`。
     2. 必填 Frontmatter 字段：`title`, `topic`, `tags`, `updated`（Y-M-D）。
-    3. 同步更新对应 Guide 索引（见[映射规则](contributing/technical-conventions.md#13-索引与链接规范)）。
+    3. 同步更新对应 Guide 索引（见[映射规则](contributing/technical-conventions.md#3-链接管理)）。
     4. 提交前运行：`fix_markdown.py`、`check_links.py` 与 `markdownlint`。
     5. 使用 Conventional Commits（如 `feat: 新增 Grounding 词条`）。
 
