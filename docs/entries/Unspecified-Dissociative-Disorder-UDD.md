@@ -2,18 +2,18 @@
 tags:
 
 - 诊断与临床
-- sdd
+- UDD
 - 解离
 - 多重意识体
 - DSM-5
 
 topic: 诊断与临床
-title: 未特定的解离障碍（Unspecified Dissociative Disorder，sdd）
+title: 未特定的解离障碍（Unspecified Dissociative Disorder，UDD）
 updated: 2025-10-14
 comments: true
 ---
 
-# 未特定的解离障碍（Unspecified Dissociative Disorder，sdd）
+# 未特定的解离障碍（Unspecified Dissociative Disorder，UDD）
 
 !!! warning "触发警告"
     内容涉及创伤、精神健康、自我认同等敏感议题，阅读时请留意自身状态。
@@ -25,14 +25,14 @@ comments: true
 
 ## 概述
 
-**未特定的解离障碍**（Unspecified Dissociative Disorder，sdd）是 DSM-5-TR 中的一个诊断类别，用于描述具有解离症状特征但不符合任何特定解离障碍完整诊断标准的情况。这一诊断通常在以下情境中使用：
+**未特定的解离障碍**（Unspecified Dissociative Disorder，UDD）是 DSM-5-TR 中的一个诊断类别，用于描述具有解离症状特征但不符合任何特定解离障碍完整诊断标准的情况。这一诊断通常在以下情境中使用：
 
 - 信息不足以做出更具体的诊断
 - 紧急或危机情况下的初步评估
 - 症状表现不典型或混合
 - 临床医生选择不详细说明不符合标准的具体原因
 
-sdd 与 [其他特定的解离障碍（OSDD）](OSDD.md) 的主要区别在于，OSDD 要求临床医生明确说明症状不符合特定诊断标准的原因，而 sdd 则不需要这样的说明。
+UDD 与 [其他特定的解离障碍（OSDD）](OSDD.md) 的主要区别在于，OSDD 要求临床医生明确说明症状不符合特定诊断标准的原因，而 UDD 则不需要这样的说明。
 
 ---
 
@@ -66,7 +66,7 @@ sdd 与 [其他特定的解离障碍（OSDD）](OSDD.md) 的主要区别在于�
 
 ## 与 OSDD 的区别
 
-| 特征 | OSDD | sdd |
+| 特征 | OSDD | UDD |
 |-----|------|------|
 | **诊断要求** | 需要详细说明不符合标准的具体原因 | 不需要详细说明 |
 | **使用场景** | 有足够信息进行详细评估 | 信息不足或紧急情况 |
@@ -91,7 +91,7 @@ sdd 与 [其他特定的解离障碍（OSDD）](OSDD.md) 的主要区别在于�
 
 ### 2. 初步评估阶段
 
-在治疗早期，临床医生可能使用 sdd 作为临时诊断：
+在治疗早期，临床医生可能使用 UDD 作为临时诊断：
 
 - 尚未收集完整病史
 - 需要进一步观察和评估
@@ -112,7 +112,7 @@ sdd 与 [其他特定的解离障碍（OSDD）](OSDD.md) 的主要区别在于�
 
 ### 4. 临床决策考虑
 
-临床医生可能出于以下原因选择 sdd：
+临床医生可能出于以下原因选择 UDD：
 
 - 避免过早的标签化
 - 减少文档负担
@@ -122,7 +122,7 @@ sdd 与 [其他特定的解离障碍（OSDD）](OSDD.md) 的主要区别在于�
 
 ## 临床表现
 
-sdd 患者可能表现出多种解离症状，包括但不限于：
+UDD 患者可能表现出多种解离症状，包括但不限于：
 
 ### 记忆功能改变
 
@@ -165,9 +165,10 @@ sdd 患者可能表现出多种解离症状，包括但不限于：
     - [其他特定的解离障碍（OSDD）](OSDD.md)
 
 2. **创伤相关障碍**
-    - 创伤后应激障碍（PTSD）
-    - 急性应激障碍
-    - 适应障碍
+    - [创伤后应激障碍（PTSD）](PTSD.md)
+    - [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)
+    - [急性应激障碍（ASD）](Acute-Stress-Disorder-ASD.md)
+    - [适应障碍](Adjustment-Disorders.md)
 
 3. **物质相关状况**
     - 物质中毒
@@ -175,14 +176,14 @@ sdd 患者可能表现出多种解离症状，包括但不限于：
     - 药物副作用
 
 4. **神经系统疾病**
-    - 癫痫（特别是颞叶癫痫）
+    - [癫痫](Epilepsy.md)（特别是颞叶癫痫）
     - 脑外伤
     - 神经退行性疾病
 
 5. **其他精神障碍**
-    - 精神分裂症谱系障碍
-    - 躁郁症
-    - 边缘型人格障碍
+    - [精神分裂症（SZ）](Schizophrenia-SZ.md)
+    - [双相障碍](Bipolar-Disorders.md)
+    - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)
 
 ---
 
@@ -213,7 +214,7 @@ sdd 患者可能表现出多种解离症状，包括但不限于：
 - **结构化临床访谈**（SCID-D）
 - **多维度解离量表**（Multidimensional Inventory of Dissociation, MID）
 
-注：在 sdd 的情况下，可能无法完成完整的标准化评估。
+注：在 UDD 的情况下，可能无法完成完整的标准化评估。
 
 ---
 
@@ -259,7 +260,7 @@ sdd 患者可能表现出多种解离症状，包括但不限于：
 
 ### 影响因素
 
-sdd 的预后取决于：
+UDD 的预后取决于：
 
 - **潜在的实际诊断**：一旦明确诊断，预后将遵循该特定障碍的模式
 - **治疗的及时性**：早期干预通常带来更好的结果
@@ -277,7 +278,7 @@ sdd 的预后取决于：
 
 ## 与 ICD-11 的对应
 
-ICD-11 中没有直接对应 sdd 的单独类别，但可能使用：
+ICD-11 中没有直接对应 UDD 的单独类别，但可能使用：
 
 - **未特定的解离障碍**（6B6Z - Dissociative Disorders, unspecified）
 
@@ -298,8 +299,4 @@ ICD-11 中没有直接对应 sdd 的单独类别，但可能使用：
 
 [^dsm5-tr]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). Arlington, VA: American Psychiatric Publishing.
 
----
 
-**最后更新**：2025-10-07
-**贡献者**：Claude (AI Assistant)
-**审核状态**：待审核

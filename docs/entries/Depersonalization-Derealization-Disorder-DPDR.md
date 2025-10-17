@@ -171,7 +171,7 @@ DPDR 的治疗通常遵循分阶段模式：
 - [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](Partial-Dissociative-Identity-Disorder-PDID.md)
 - [其他特定解离性障碍（OSDD）](OSDD.md)
 - [解离性失忆（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)
-- [未特定的解离障碍（Unspecified Dissociative Disorder，UDD）](Unspecified-Dissociative-Disorder-SDD.md)
+- [未特定的解离障碍（Unspecified Dissociative Disorder，UDD）](Unspecified-Dissociative-Disorder-UDD.md)
 - [解离（Dissociation）](Dissociation.md)
 - [结构性解离理论（Structural Dissociation Theory）](Structural-Dissociation-Theory.md)
 

@@ -67,7 +67,7 @@
         * [易性症（Transsexualism，已过时）](entries/Transsexualism-Obsolete.md)
         * [智力发育障碍（Intellectual Developmental Disorders）](entries/Intellectual-Developmental-Disorders.md)
         * [暴食障碍(Binge Eating Disorder, BED)](entries/Binge-Eating-Disorder.md)
-        * [未特定的解离障碍（Unspecified Dissociative Disorder，sdd）](entries/Unspecified-Dissociative-Disorder-SDD.md)
+        * [未特定的解离障碍（Unspecified Dissociative Disorder，sdd）](entries/Unspecified-Dissociative-Disorder-UDD.md)
         * [沟通障碍（Communication Disorders）](entries/Communication-Disorders.md)
         * [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
         * [烟草相关障碍（Tobacco-Related Disorders）](entries/Tobacco-Related-Disorders.md)

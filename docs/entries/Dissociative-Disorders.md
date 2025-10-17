@@ -87,7 +87,7 @@ comments: true
 
 ### 5. 未特定的解离障碍（sdd）
 
-[未特定的解离障碍（sdd）](Unspecified-Dissociative-Disorder-SDD.md) 用于：
+[未特定的解离障碍（sdd）](Unspecified-Dissociative-Disorder-UDD.md) 用于：
 
 - 存在解离症状但信息不足以明确诊断
 - 紧急情况或初步评估阶段
