@@ -72,6 +72,7 @@ EXCLUDE_FILES = {
     "docs/changelog.md",
     # README 文件
     "docs/dev/Tools-Index.md",
+    "docs/dev/Tools-Core.md",
     "docs/admin/README.md",
     "docs/assets/README.md",
     "docs/assets/uploads/README.md",

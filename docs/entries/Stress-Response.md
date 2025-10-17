@@ -222,7 +222,7 @@ comments: true
 - **渐进式肌肉放松（PMR）**：系统性放松肌肉群，降低交感神经激活；
 - **情境评估与认知重构**：识别威胁的真实性与可控性；
 - **社会支持**：寻求可信任的人或专业者协助；
-- **安全计划**：提前制定高压情境下的应对流程 → 详见 [安全计划（Safety Plan）](Safety-Plan.md)。
+- **安全计划**:提前制定高压情境下的应对流程(如预设应对步骤、支持人员联络清单、分阶段降级策略等)。
 
 !!! warning "适用场景与禁忌"
     - 某些呼吸练习（如过度深呼吸）在惊恐发作或头晕时可能加剧不适；
@@ -251,13 +251,7 @@ comments: true
 
 **机制与调节相邻概念**：
 
-- [自主神经系统（Autonomic Nervous System）](Autonomic-Nervous-System.md) *(TODO: 待建立)*
-- [HPA轴（HPA Axis）](HPA-Axis.md) *(TODO: 待建立)*
-- [变稳态负荷（Allostatic Load）](Allostatic-Load.md) *(TODO: 待建立)*
-- [唤醒调节（Arousal Regulation）](Arousal-Regulation.md) *(TODO: 待建立)*
 - [接地技巧（Grounding Techniques）](Grounding.md)
-- [安全计划（Safety Plan）](Safety-Plan.md) *(TODO: 待建立)*
-- [睡眠与应激（Sleep and Stress）](Sleep-and-Stress.md) *(TODO: 待建立)*
 
 **临床接口**：
 
