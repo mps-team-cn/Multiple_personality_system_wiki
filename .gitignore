@@ -169,7 +169,44 @@ data/candidates.txt
 data/reviewed/
 data/user_dict_reviewed.txt
 
+# === Google API 凭证和日志 ===
+*service-account*.json
+*credentials*.json
+google_indexing_log.json
+seo_priority_urls.txt
+
 # === Sveltia CMS 本地开发 ===
 docs/admin/config.production.yml
 docs/admin/config.local.yml
+
+# === pdf导出工具 ===
 tectonic
+.venv/lib64
+.venv/pyvenv.cfg
+.venv/bin/activate
+.venv/bin/activate.csh
+.venv/bin/activate.fish
+.venv/bin/Activate.ps1
+.venv/bin/pip
+.venv/bin/pip3
+.venv/bin/pip3.12
+.venv/bin/python
+.venv/bin/python3
+.venv/bin/python3.12
+.venv/bin/ghp-import
+.venv/bin/htmlmin
+.venv/bin/markdown_py
+.venv/bin/mkdocs
+.venv/bin/mkdocs-get-deps
+.venv/bin/normalizer
+.venv/bin/pybabel
+.venv/bin/pygmentize
+.venv/bin/pypinyin
+.venv/bin/pyrsa-decrypt
+.venv/bin/pyrsa-encrypt
+.venv/bin/pyrsa-keygen
+.venv/bin/pyrsa-priv2pub
+.venv/bin/pyrsa-sign
+.venv/bin/pyrsa-verify
+.venv/bin/unidecode
+.venv/bin/watchmedo

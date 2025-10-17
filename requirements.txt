@@ -26,3 +26,7 @@ pymdown-extensions>=10.7
 # Social Cards 生成（可选，如需生成社交分享卡片请取消注释）
 # pillow>=10.2.0
 # cairosvg>=2.7.1
+
+# Google APIs (用于 Google Indexing API 自动提交)
+google-auth>=2.27.0
+google-api-python-client>=2.115.0

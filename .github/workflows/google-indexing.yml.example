@@ -1,0 +1,103 @@
+name: Google Indexing API 提交
+
+on:
+  # 手动触发
+  workflow_dispatch:
+    inputs:
+      max_priority:
+        description: '最大优先级 (1-5, 1=最高)'
+        required: true
+        default: '2'
+        type: choice
+        options:
+          - '1'
+          - '2'
+          - '3'
+          - '4'
+          - '5'
+      limit:
+        description: '限制提交数量(留空表示不限制)'
+        required: false
+        type: string
+      dry_run:
+        description: 'Dry-run 模式(测试,不实际提交)'
+        required: true
+        default: false
+        type: boolean
+
+  # 定期执行(每周日 02:00 UTC 提交优先级 1-2 的 URL)
+  schedule:
+    - cron: '0 2 * * 0'
+
+jobs:
+  submit-to-google:
+    runs-on: ubuntu-latest
+    name: 提交 URL 到 Google Indexing API
+
+    steps:
+      - name: Checkout 代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: 安装依赖
+        run: |
+          pip install -r requirements.txt
+
+      - name: 提交到 Google Indexing API
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          # 从 workflow inputs 或使用默认值
+          MAX_PRIORITY="${{ github.event.inputs.max_priority || '2' }}"
+          LIMIT="${{ github.event.inputs.limit || '' }}"
+          DRY_RUN="${{ github.event.inputs.dry_run || 'false' }}"
+
+          # 构建命令
+          CMD="python3 tools/submit_to_google_indexing.py --max-priority $MAX_PRIORITY"
+
+          if [ -n "$LIMIT" ]; then
+            CMD="$CMD --limit $LIMIT"
+          fi
+
+          if [ "$DRY_RUN" = "true" ]; then
+            CMD="$CMD --dry-run"
+          else
+            # 非 dry-run 模式需要添加 --yes 参数跳过交互式确认
+            CMD="$CMD --yes"
+          fi
+
+          # 执行提交
+          echo "执行命令: $CMD"
+          $CMD
+
+      - name: 上传提交日志
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: google-indexing-log-${{ github.run_number }}
+          path: google_indexing_log.json
+          retention-days: 30
+          if-no-files-found: ignore
+
+      - name: 提交结果摘要
+        if: always()
+        run: |
+          if [ -f google_indexing_log.json ]; then
+            echo "## Google Indexing API 提交结果" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**时间戳**: $(jq -r '.timestamp' google_indexing_log.json)" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**统计信息**:" >> $GITHUB_STEP_SUMMARY
+            echo "- 成功: $(jq -r '.stats.submitted' google_indexing_log.json) 个" >> $GITHUB_STEP_SUMMARY
+            echo "- 失败: $(jq -r '.stats.failed' google_indexing_log.json) 个" >> $GITHUB_STEP_SUMMARY
+            echo "- 跳过: $(jq -r '.stats.skipped' google_indexing_log.json) 个" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "## Google Indexing API 提交结果" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "⚠️ 未生成提交日志(可能是 dry-run 模式或执行失败)" >> $GITHUB_STEP_SUMMARY
+          fi
