@@ -66,6 +66,10 @@ comments: true
 
   区分 I/II 型创伤与神经生物学影响，为 PTSD/CPTSD 等理解奠基。
 
+- [电休克治疗／改良电痉挛治疗（ECT/MECT）](Modified-Electroconvulsive-Therapy-MECT.md) — :octicons-check-16: 已完成
+
+  难治性抑郁、紧张症等急重症场景的快速生物治疗；现代方案在麻醉与肌松下实施，需进行个体化风险—获益评估与共同决策。
+
 ## 其他核心评估概念
 
 - **意识状态与认知**
