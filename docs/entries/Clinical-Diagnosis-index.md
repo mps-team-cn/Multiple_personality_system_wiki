@@ -15,6 +15,8 @@ hide:
 
 ## 词条一览
 
+- [改良电痉挛治疗（Modified Electroconvulsive Therapy, MECT）](Modified-Electroconvulsive-Therapy-MECT.md) — *2025-10-17*
+- [经颅微电流刺激（Cranial Electrotherapy Stimulation, CES）](Cranial-Electrotherapy-Stimulation-CES.md) — *2025-10-17*
 - [酒精相关障碍（Alcohol-Related Disorders）](Alcohol-Related-Disorders.md) — *2025-10-16*
 - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md) — *2025-10-16*
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md) — *2025-10-16*
