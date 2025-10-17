@@ -52,6 +52,11 @@ comments: true
 
     媒体俗称与已淘汰诊断的现代对应
     [:octicons-arrow-right-16: 进入](#非正式与历史术语)
+
+-   :material-flash: **生物治疗与脑刺激**
+
+    ECT/MECT 与 CES 入口
+    [:octicons-arrow-right-16: 进入](#生物治疗与脑刺激)
 </div>
 
 ---
@@ -66,9 +71,7 @@ comments: true
 
   区分 I/II 型创伤与神经生物学影响，为 PTSD/CPTSD 等理解奠基。
 
-- [电休克治疗／改良电痉挛治疗（ECT/MECT）](Modified-Electroconvulsive-Therapy-MECT.md) — :octicons-check-16: 已完成
-
-  难治性抑郁、紧张症等急重症场景的快速生物治疗；现代方案在麻醉与肌松下实施，需进行个体化风险—获益评估与共同决策。
+<!-- 生物治疗与脑刺激条目已迁移至文末专章 -->
 
 ## 其他核心评估概念
 
@@ -462,3 +465,17 @@ comments: true
     - **检索**：注意发表年代与 DSM 版本（I/II/III/III-R/IV/5/5-TR）。
     - **教育**：向公众优先使用 **精确术语**（如 DID）。
     - **去污名**：解释俗称与现代诊断的区别。
+
+---
+
+## 生物治疗与脑刺激
+
+> 收录现代脑刺激与生物治疗的核心入门词条，便于与药物/心理治疗形成互补的治疗版图。
+
+- [电休克治疗／改良电痉挛治疗（ECT/MECT）](Modified-Electroconvulsive-Therapy-MECT.md) — :octicons-check-16: 已完成
+
+  难治性抑郁、紧张症等急重症场景的快速生物治疗；现代方案在麻醉与肌松下实施，需进行个体化风险—获益评估与共同决策。
+
+- [经颅微电流刺激（Cranial Electrotherapy Stimulation，CES）](Cranial-Electrotherapy-Stimulation-CES.md) — :octicons-check-16: 已完成
+
+  非侵入、可居家使用的微电流脑刺激；对焦虑的证据相对更好，抑郁与失眠结果不一。适合作为单用（轻-中度）或增效（与 CBT/药物合用）方案，需量表化随访与参数个体化。

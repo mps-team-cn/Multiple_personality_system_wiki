@@ -51,6 +51,7 @@
         * [广场恐惧症(Agoraphobia, AG)](entries/Agoraphobia.md)
         * [广泛性焦虑障碍（Generalized Anxiety Disorder，GAD）](entries/Generalized-Anxiety-Disorder-GAD.md)
         * [改良电痉挛治疗（Modified Electroconvulsive Therapy, MECT）](entries/Modified-Electroconvulsive-Therapy-MECT.md)
+        * [经颅微电流刺激（Cranial Electrotherapy Stimulation, CES）](entries/Cranial-Electrotherapy-Stimulation-CES.md)
         * [强迫型人格障碍（Obsessive-Compulsive Personality Disorder，OCPD）](entries/Obsessive-Compulsive-Personality-Disorder-OCPD.md)
         * [强迫症（Obsessive-Compulsive Disorder, OCD）](entries/OCD.md)
         * [影响其他躯体疾病的心理因素(Psychological Factors Affecting Other Medical Conditions,PFAOMC)](entries/Psychological-Factors-Affecting-Other-Medical-Conditions.md)
