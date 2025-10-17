@@ -15,7 +15,6 @@ hide:
 
 ## 词条一览
 
-- [并行（Parallelism）](Parallelism.md) — *2025-10-17*
 - [失忆（Amnesia）](Amnesia.md) — *2025-10-16*
 - [自动驾驶（Autopilot）](Autopilot.md) — *2025-10-16*
 - [后台（Back / Being Back）](Back-Being-Back.md) — *2025-10-16*
@@ -37,6 +36,7 @@ hide:
 - [侵入性思维（Intrusive Thoughts）](Intrusive-Thoughts.md) — *2025-10-16*
 - [迭代（Iteration）](Iteration.md) — *2025-10-16*
 - [非我感（Not-me Feeling）](Not-Me-Feeling.md) — *2025-10-16*
+- [并行（Parallelism）](Parallelism.md) — *2025-10-16*
 - [重构（Reconstruction）](Reconstruction.md) — *2025-10-16*
 - [退行（Regression）](Regression.md) — *2025-10-16*
 - [存在感（Sense of Presence）](Sense-Of-Presence.md) — *2025-10-16*
