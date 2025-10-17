@@ -226,7 +226,12 @@ comments: true
     - [睡眠障碍总览（SD）](Sleep-Disorders-SD.md) — :octicons-check-16: 已完成
     - [失眠障碍（Insomnia Disorder）](Insomnia-Disorder.md) — :octicons-check-16: 已完成
     - [嗜睡障碍（Hypersomnolence Disorder）](Hypersomnolence-Disorder.md) — :octicons-check-16: 已完成
-    - 发作性睡病（Narcolepsy）、呼吸相关睡眠障碍、昼夜节律睡眠-觉醒障碍、异态睡眠等 — :octicons-clock-16: 待更新
+    - [睡眠相关呼吸障碍（Breathing-Related Sleep Disorders）](Breathing-Related-Sleep-Disorders.md) — :octicons-check-16: 已完成
+        - [阻塞性睡眠呼吸暂停低通气（Obstructive Sleep Apnea Hypopnea，OSAH）](Obstructive-Sleep-Apnea-Hypopnea.md) — :octicons-check-16: 已完成
+    - [不宁腿综合征（Restless Legs Syndrome，RLS）](Restless-Legs-Syndrome.md) — :octicons-check-16: 已完成
+    - [昼夜节律睡眠-觉醒障碍（Circadian Rhythm Sleep-Wake Disorders）](Circadian-Rhythm-Sleep-Wake-Disorders.md) — :octicons-check-16: 已完成
+    - [发作性睡病（Narcolepsy）](Narcolepsy.md) — :octicons-check-16: 已完成
+    - 异态睡眠（Parasomnias）等 — :octicons-clock-16: 待更新
 
 ### 13) 性功能障碍
 
