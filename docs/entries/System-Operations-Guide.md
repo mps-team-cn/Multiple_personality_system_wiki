@@ -70,7 +70,7 @@ comments: true
 
 - [躯体认同（Body Ownership）](Body-Ownership.md)：处理身体认同感与现实感的变化。
 - [外投射（External Projection）](External-Projection.md) 与 [投影（Projection）](Projection.md)：说明将内部体验投射到外界的形式与沟通方式。
-- [应激反应（Stress Response）](Stress-Response.md)：理解压力对系统的即时影响并拟定因应计划。
+- [应激反应（Stress Response）](Stress-Response.md)：个体在感知威胁或压力时产生的心理-生理机制，涉及自主神经系统和HPA轴的复杂调节过程
 
 ## 语言与文化背景
 
