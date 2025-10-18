@@ -120,7 +120,7 @@
         * [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](entries/Apparently-Normal-Part-Emotional-Part-Model.md)
         * [T 语（Tulpish）](entries/Tulpish.md)
         * [侵入性思维（Intrusive Thoughts）](entries/Intrusive-Thoughts.md)
-        * [偏重（Bias / Median）](entries/Bias.md)
+        * [偏重（Median / Bias）](entries/Median-Bias.md)
         * [共前台（Co-fronting）](entries/Co-Fronting.md)
         * [内视（Visualization / Imagination）](entries/Visualization-Imagination.md)
         * [内部沟通（Internal Communication）](entries/Internal-Communication.md)

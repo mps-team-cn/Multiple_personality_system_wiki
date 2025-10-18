@@ -108,4 +108,4 @@ comments: true
 - [创伤（Trauma）](Trauma.md)
 - [T 语（Tulpish）](Tulpish.md)
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](OCD.md)
-- [偏重（Bias / Median）](Bias.md)
+- [偏重（Median / Bias）](Median-Bias.md)
