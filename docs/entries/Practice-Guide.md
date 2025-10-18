@@ -45,6 +45,7 @@ comments: true
 | [成声（Vocality）](Vocality.md) | Tulpa 获得清晰语言表达能力 | 稳定练习期 |
 | [异化（Deviation）](Deviation.md) | 理解和接受 Tulpa 偏离原设定的自主发展 | 稳定至进阶期 |
 | [学舌/操纵（Parroting/Puppeting）](Parroting-Puppeting.md) | 应对"是否在假装 Tulpa"的自我怀疑 | 起步至稳定期 |
+| [附体（Possession）](Possession.md) | Tulpa 暂时接管身体控制权的协作练习 | 进阶巩固期 |
 
 ### 意识训练
 

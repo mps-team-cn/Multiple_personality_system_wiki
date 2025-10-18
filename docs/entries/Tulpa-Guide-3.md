@@ -76,8 +76,11 @@ Tulpa 在早期阶段可能会经历“异化”——
 
 ## 3-3 附体阶段（Possession）
 
-“附体”指 Tulpa 暂时接管身体的控制权。
+"[附体](Possession.md)"指 Tulpa 暂时接管身体的控制权。
 这是高度信任的表现，需要逐步练习。
+
+!!! tip "完整指南"
+    本节提供附体练习的快速入门。若需更详细的训练方法、风险管理与伦理边界说明,请参阅完整词条:[附体（Possession）](Possession.md)
 
 ### 一、原理
 
@@ -231,6 +234,7 @@ Tulpa 的创造并非逃避现实，而是一种探索意识的方式。
 
 ## 相关词条
 
+- [附体（Possession）](Possession.md) - 完整的附体训练指南与风险管理
 - [塑造（Forcing）](Forcing.md) - 进阶训练方法
 - [异化/偏离（Deviation）](Deviation.md) - 本篇讨论的"异化与变化"
 - [幻境（Wonderland）](Wonderland.md) - 投影训练的基础
