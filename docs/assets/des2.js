@@ -12,10 +12,11 @@
   }
 
   function levelText(avg) {
-    if (avg >= 30) return '较高（建议进一步专业评估）';
-    if (avg >= 20) return '中等偏高（关注情境与功能影响）';
-    if (avg >= 10) return '轻度（建议与应激/睡眠等因素合并判断）';
-    return '低（仍需结合具体困扰与功能评估）';
+    if (avg >= 46) return '极高（务必结合临床评估）';
+    if (avg >= 30) return '高（建议尽快专业评估）';
+    if (avg >= 20) return '中度（建议进一步临床评估）';
+    if (avg >= 12) return '轻度（建议结合情境观察）';
+    return '低（结合具体困扰与功能评估）';
   }
 
   function bindItem(item) {
