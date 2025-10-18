@@ -106,8 +106,8 @@ comments: true
 - [内部空间（Headspace / Inner World）](Headspace-Inner-World.md)
 - [外投射（External Projection）](External-Projection.md)
 - [内视（Visualization / Imagination）](Visualization-Imagination.md)
-    - [自动驾驶（Autopilot）](Autopilot.md)
-    - [定向障碍（Disorientation）](Disorientation.md)
+- [自动驾驶（Autopilot）](Autopilot.md)
+- [定向障碍（Disorientation）](Disorientation.md)
 
 ## 参考与延伸阅读
 
