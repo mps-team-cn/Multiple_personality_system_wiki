@@ -3,8 +3,8 @@
 from __future__ import annotations
 
 DEFAULT_PDF_ENGINES = [
+    "tectonic",  # 优先使用 Tectonic (性能比 XeLaTeX 快 2-3 倍)
     "xelatex",
-    "tectonic",
     "pdflatex",
 ]
 
