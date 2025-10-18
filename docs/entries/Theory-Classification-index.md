@@ -2,15 +2,11 @@
 title: 理论与分类
 topic: 理论与分类
 tags:
-
-    - 索引
-    - 主题导览
-
+  - 索引
+  - 主题导览
 comments: true
 hide:
-
-    - toc
-
+  - toc
 ---
 
 # 理论与分类

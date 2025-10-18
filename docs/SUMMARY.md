@@ -168,6 +168,7 @@
         * [退行（Regression）](entries/Regression.md)
         * [醉酒解离（Alcohol-Induced Dissociation）](entries/Alcohol-Induced-Dissociation.md)
         * [重构（Reconstruction）](entries/Reconstruction.md)
+        * [锚点（Anchors / Tells / Markers）](entries/Anchors.md)
         * [附体（Possession）](entries/Possession.md)
         * [非我感（Not-me Feeling）](entries/Not-Me-Feeling.md)
     * [实践指南](entries/Practice-index.md)

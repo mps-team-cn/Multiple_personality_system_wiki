@@ -8,7 +8,7 @@ tags:
 
 topic: 系统运作
 title: 前台（Front / Fronting）
-updated: 2025-10-17
+updated: 2025-10-18
 description: 定义前台/执掌、区分与切换/共前台/后台的边界，提供安全交接与前台治理范例、常见误解与参考资料。
 search:
   boost: 1.5
