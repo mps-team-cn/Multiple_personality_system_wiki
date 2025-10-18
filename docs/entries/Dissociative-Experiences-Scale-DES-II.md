@@ -243,21 +243,21 @@ search:
   <div class="des2-divider"></div>
   <div class="des2-subgrid">
     <div class="des2-subcard">
-      <div class="label">记忆缺失（Amnesia）</div>
+      <div class="label" title="与解离性失忆相关，对日常事件出现断片或记忆空白。" >记忆空白 Amnesia</div>
       <div class="row"><span class="des2-badge" id="des2-amn-val">0.0</span></div>
       <div class="des2-progress" aria-label="Amnesia 子量表">
         <div id="des2-amn-bar" class="bar" style="width:0%"></div>
       </div>
     </div>
     <div class="des2-subcard">
-      <div class="label">人格/现实解体（DP/DR）</div>
+      <div class="label" title="与脱离感相关：一时感觉自己不像自己，或外界不真实、像隔着一层。属于解离体验的常见形式。">人格/现实解体 DP/DR</div>
       <div class="row"><span class="des2-badge" id="des2-dpdr-val">0.0</span></div>
       <div class="des2-progress" aria-label="DP/DR 子量表">
         <div id="des2-dpdr-bar" class="bar" style="width:0%"></div>
       </div>
     </div>
     <div class="des2-subcard">
-      <div class="label">沉浸吸收（Absorption）</div>
+      <div class="label" title="倾向于在想象、艺术或活动中深度专注与沉浸，属非病理性解离体验。">专注沉浸 Absorption</div>
       <div class="row"><span class="des2-badge" id="des2-abs-val">0.0</span></div>
       <div class="des2-progress" aria-label="Absorption 子量表">
         <div id="des2-abs-bar" class="bar" style="width:0%"></div>
