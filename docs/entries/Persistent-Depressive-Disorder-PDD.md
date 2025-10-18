@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 持续性抑郁障碍（Persistent Depressive Disorder, PDD / Dysthymia）
-updated: 2025-10-12
+updated: 2025-10-14
 synonyms:
 
 - 持续性抑郁障碍
@@ -227,7 +227,7 @@ PDD 的治疗以 **长期、综合、个体化** 为核心原则：
 - [重性抑郁障碍（Major Depressive Disorder, MDD）](Major-Depressive-Disorder-MDD.md)
 - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
 - [心境障碍（Affective Disorders）](Affective-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [创伤后应激障碍（PTSD）](PTSD.md)
 - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)
 - [物质使用障碍（SUD）](Substance-Use-Disorders-SUD.md)

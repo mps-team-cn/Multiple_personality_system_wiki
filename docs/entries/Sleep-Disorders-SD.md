@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 睡眠障碍（Sleep Disorders，SD）
-updated: 2025-10-13
+updated: 2025-10-18
 synonyms:
 
 - 睡眠问题
@@ -30,7 +30,7 @@ comments: true
 
 ## 概述
 
-睡眠障碍（Sleep Disorders, SD）涵盖影响 **睡眠质量、时长、节律与行为** 的多种状况，常导致日间功能受损与健康风险升高。主要类别包括失眠障碍、过度嗜睡障碍、昼夜节律睡眠-觉醒障碍、睡眠相关呼吸障碍、异态睡眠（噩梦、夜惊、梦游）等。睡眠障碍在创伤幸存者及 DID 患者中高度普遍，常与 PTSD、CPTSD、抑郁与焦虑共病，并可能因身份切换或内部冲突而加剧。
+睡眠障碍（Sleep Disorders, SD）涵盖影响 **睡眠质量、时长、节律与行为** 的多种状况，常导致日间功能受损与健康风险升高。主要类别包括失眠障碍、[嗜睡障碍（Hypersomnolence Disorder）](Hypersomnolence-Disorder.md)、昼夜节律睡眠-觉醒障碍、睡眠相关呼吸障碍、异态睡眠（噩梦、夜惊、梦游）等。睡眠障碍在创伤幸存者及 DID 患者中高度普遍，常与 PTSD、CPTSD、抑郁与焦虑共病，并可能因身份切换或内部冲突而加剧。
 
 ---
 
@@ -72,7 +72,7 @@ comments: true
 
 - **失眠症状**：难以入睡、夜间频繁醒来、清晨早醒且伴随疲劳或认知迟缓。
 - **噩梦与夜惊**：与创伤记忆或恐惧情绪相关，可能在身份切换或侵入时加剧；夜惊通常发生在非快速眼动睡眠期，伴剧烈惊恐。
-- **过度嗜睡**：睡眠时间充足仍感疲倦，或在日间不自主入睡，影响工作与安全。
+- **过度嗜睡**：睡眠时间充足仍感疲倦，或在日间不自主入睡，影响工作与安全。详见[嗜睡障碍（Hypersomnolence Disorder）](Hypersomnolence-Disorder.md)。
 - **异态睡眠行为**：梦游、睡眠说话、快速眼动睡眠行为障碍（RBD，表现为肢体挥动、暴力行为）。
 - **昼夜节律紊乱**：睡眠时段与社会要求不符，如延迟睡眠相位综合征、轮班工作障碍。
 
@@ -103,7 +103,7 @@ comments: true
 - **核心共病**
     - [创伤后应激障碍（PTSD）](PTSD.md) / [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)：几乎所有 PTSD 患者经历失眠与噩梦，睡眠障碍是创伤记忆再体验的重要表现。
     - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：早醒、入睡困难或过度睡眠是抑郁核心症状。
-    - [焦虑（Anxiety）](Anxiety.md)：过度警觉与反刍思维导致入睡困难。
+    - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)：过度警觉与反刍思维导致入睡困难。
 
 - **其他常见共病**
     - [解离性身份障碍（DID）](DID.md)：不同成员对睡眠需求、作息与安全感有不同偏好；内部冲突会造成频繁切换或夜间前台争夺。
@@ -147,13 +147,22 @@ comments: true
 
 ## 相关条目
 
+### 睡眠障碍类型
+
+- [失眠障碍（Insomnia Disorder）](Insomnia-Disorder.md)
+- [嗜睡障碍（Hypersomnolence Disorder）](Hypersomnolence-Disorder.md)
+- [睡眠相关呼吸障碍（Breathing-Related Sleep Disorders）](Breathing-Related-Sleep-Disorders.md)
+- [阻塞性睡眠呼吸暂停低通气（Obstructive Sleep Apnea Hypopnea）](Obstructive-Sleep-Apnea-Hypopnea.md)
+- [不宁腿综合征（Restless Legs Syndrome）](Restless-Legs-Syndrome.md)
+- [昼夜节律睡眠-觉醒障碍（Circadian Rhythm Sleep-Wake Disorders）](Circadian-Rhythm-Sleep-Wake-Disorders.md)
+
 ### 共病相关
 
 - [解离性身份障碍（DID）](DID.md)
 - [创伤后应激障碍（PTSD）](PTSD.md)
 - [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 
 ### 应对策略相关
 

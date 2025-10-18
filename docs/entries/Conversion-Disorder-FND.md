@@ -9,7 +9,7 @@ tags:
 topic:
   诊断与临床
 
-updated: 2025-10-13
+updated: 2025-10-14
 comments: true
 ---
 
@@ -59,7 +59,7 @@ DSM-5-TR 对转换障碍的诊断核心包括：[^apa2022]
 
 - **正性体征** ：例如 Hoover 征、躯干提举测试、眼球震颤模式等，有助于识别功能性弱化或发作，与真实神经病变不同。[^stone2020]
 - **多学科评估** ：神经科、精神科与物理治疗团队协作，兼顾影像、脑电、实验室检查与心理评估，排除急性器质病变。
-- **鉴别诊断** ：癫痫、脑血管病、脱髓鞘疾病、神经肌肉疾病、药物反应等；同时需评估与[焦虑](Anxiety.md)、[抑郁障碍](Depressive-Disorders.md)、[解离性遗忘](Dissociative-Amnesia-DA.md)的关联。
+- **鉴别诊断** ：癫痫、脑血管病、脱髓鞘疾病、神经肌肉疾病、药物反应等；同时需评估与[焦虑](Anxiety-Disorders.md)、[抑郁障碍](Depressive-Disorders.md)、[解离性遗忘](Dissociative-Amnesia-DA.md)的关联。
 - **系统化沟通** ：向来访者强调症状真实存在且可治疗，避免暗示“全部是心理问题”，有助于建立治疗联盟。
 
 ## 治疗与支持
@@ -85,7 +85,7 @@ DSM-5-TR 对转换障碍的诊断核心包括：[^apa2022]
 - [创伤后应激障碍（PTSD）](PTSD.md)
 - [应激反应（Stress Response）](Stress-Response.md)
 - [解离性身份障碍（DID）](DID.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 
 ## 参考资料
 

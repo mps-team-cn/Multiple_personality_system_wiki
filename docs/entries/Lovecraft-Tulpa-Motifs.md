@@ -8,7 +8,7 @@ tags:
 
 topic: 文化与表现
 title: 洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）
-updated: 2025-10-13
+updated: 2025-10-18
 comments: true
 ---
 
@@ -45,7 +45,3 @@ H. P. 洛夫克拉夫特的克苏鲁神话作品中，常出现由人类心智�
 - [投影（Projection）](Projection.md)
 - [傀儡（Servitor）](Servitor.md)
 - [头压（Head Pressure）](Head-Pressure.md)
-
-## 参考资料
-
-- （待补充）

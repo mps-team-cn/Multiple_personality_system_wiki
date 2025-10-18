@@ -1,0 +1,85 @@
+================================================================================
+Multiple Personality System Wiki - SEO 高权重 URL 清单
+网站地址: https://wiki.mpsteam.cn
+================================================================================
+
+
+────────────────────────────────────────────────────────────────────────────────
+【优先级 1】最高优先级 - 核心页面与工具
+────────────────────────────────────────────────────────────────────────────────
+
+https://wiki.mpsteam.cn
+https://wiki.mpsteam.cn/Glossary
+https://wiki.mpsteam.cn/QuickStart
+https://wiki.mpsteam.cn/changelog
+https://wiki.mpsteam.cn/entries/Clinical-Diagnosis-Guide
+https://wiki.mpsteam.cn/entries/Core-Concepts-Guide
+https://wiki.mpsteam.cn/entries/Cultural-Media-Guide
+https://wiki.mpsteam.cn/entries/Mental-Health-Guide
+https://wiki.mpsteam.cn/entries/Practice-Guide
+https://wiki.mpsteam.cn/entries/Roles-Identity-Guide
+https://wiki.mpsteam.cn/entries/System-Operations-Guide
+https://wiki.mpsteam.cn/entries/Theory-Classification-Guide
+https://wiki.mpsteam.cn/entries/Trauma-Healing-Guide
+https://wiki.mpsteam.cn/tags
+https://wiki.mpsteam.cn/updates
+
+────────────────────────────────────────────────────────────────────────────────
+【优先级 2】高优先级 - 主题分区与核心词条
+────────────────────────────────────────────────────────────────────────────────
+
+https://wiki.mpsteam.cn/entries/Alter
+https://wiki.mpsteam.cn/entries/Anxiety-Disorders
+https://wiki.mpsteam.cn/entries/Borderline-Personality-Disorder-BPD
+https://wiki.mpsteam.cn/entries/CPTSD
+https://wiki.mpsteam.cn/entries/Child-Alter
+https://wiki.mpsteam.cn/entries/Clinical-Diagnosis-index
+https://wiki.mpsteam.cn/entries/Co-Consciousness
+https://wiki.mpsteam.cn/entries/Co-Fronting
+https://wiki.mpsteam.cn/entries/Cognitive-Behavioral-Therapy-CBT
+https://wiki.mpsteam.cn/entries/Cultural-Media-index
+https://wiki.mpsteam.cn/entries/DID
+https://wiki.mpsteam.cn/entries/Depressive-Disorders
+https://wiki.mpsteam.cn/entries/Dialectical-Behavior-Therapy-DBT
+https://wiki.mpsteam.cn/entries/Dissociation
+https://wiki.mpsteam.cn/entries/Dissociative-Amnesia-DA
+https://wiki.mpsteam.cn/entries/Dissociative-Disorders
+https://wiki.mpsteam.cn/entries/Eye-Movement-Desensitization-Reprocessing-EMDR
+https://wiki.mpsteam.cn/entries/Fragment
+https://wiki.mpsteam.cn/entries/Front-Fronting
+https://wiki.mpsteam.cn/entries/Gatekeeper
+https://wiki.mpsteam.cn/entries/Generalized-Anxiety-Disorder-GAD
+https://wiki.mpsteam.cn/entries/Grounding
+https://wiki.mpsteam.cn/entries/Headspace-Inner-World
+https://wiki.mpsteam.cn/entries/Host
+https://wiki.mpsteam.cn/entries/Integration
+https://wiki.mpsteam.cn/entries/Internal-Communication
+https://wiki.mpsteam.cn/entries/Internal-Family-Systems-IFS
+https://wiki.mpsteam.cn/entries/Memory-Shielding
+https://wiki.mpsteam.cn/entries/Multiple_Personality_System
+https://wiki.mpsteam.cn/entries/OCD
+https://wiki.mpsteam.cn/entries/OSDD
+https://wiki.mpsteam.cn/entries/PTSD
+https://wiki.mpsteam.cn/entries/Panic-Disorder
+https://wiki.mpsteam.cn/entries/Practice-index
+https://wiki.mpsteam.cn/entries/Protector
+https://wiki.mpsteam.cn/entries/Roles-Identity-index
+https://wiki.mpsteam.cn/entries/Schizophrenia-SZ
+https://wiki.mpsteam.cn/entries/Social-Anxiety-Disorder
+https://wiki.mpsteam.cn/entries/Switch
+https://wiki.mpsteam.cn/entries/System
+https://wiki.mpsteam.cn/entries/System-Operations-index
+https://wiki.mpsteam.cn/entries/Theory-Classification-index
+https://wiki.mpsteam.cn/entries/Trauma
+https://wiki.mpsteam.cn/entries/Trauma-Healing-index
+https://wiki.mpsteam.cn/entries/Tulpa
+
+================================================================================
+总计: 60 个 URL
+
+使用建议:
+1. 优先提交「优先级 1」的 URL 到搜索引擎
+2. 定期更新「优先级 2」的词条内容
+3. 建议使用 Google Search Console / Bing Webmaster Tools 批量提交
+4. 配合 sitemap.xml 自动提交(已由 MkDocs 生成)
+================================================================================

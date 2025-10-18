@@ -1,6 +1,5 @@
 ---
 title: 正念(Mindfulness)
-topic: 创伤与疗愈
 tags:
 
     - 创伤与疗愈
@@ -8,7 +7,19 @@ tags:
     - 解离
     - 创伤
 
-updated: 2025-10-13
+topic: 创伤与疗愈
+synonyms:
+
+    - 正念练习
+    - 正念觉察
+    - Mindfulness Practice
+    - Present-Centered Awareness
+    - 当下觉察
+
+description: 正念完整指南：有意、当下、非评判的注意力训练。学习创伤敏感正念、窗口耐受性概念,在多意识体系统中培养情绪调节能力
+updated: 2025-10-17
+search:
+  boost: 1.6
 comments: true
 ---
 
@@ -16,7 +27,7 @@ comments: true
 
 ## 同义词
 
-正念练习、正念觉察、Mindfulness、Mindfulness Practice、Present-Centered Awareness
+正念练习、正念觉察、Mindfulness Practice、Present-Centered Awareness、当下觉察
 
 ## 定义
 
@@ -94,11 +105,13 @@ comments: true
 
 ## 相关条目
 
-- [冥想（Meditation）](Meditation.md)
-- [接地（Grounding）](Grounding.md)
-- [辩证行为疗法（DBT）](Dialectical-Behavior-Therapy-DBT.md)
-- [情绪调节（Emotion Regulation）](Emotion-Regulation.md)
-- [创伤（Trauma）](Trauma.md)
+- [冥想（Meditation）](Meditation.md) - 正念是冥想的重要形式之一,冥想涵盖更广泛的意识训练
+- [接地（Grounding）](Grounding.md) - 应急性的即时稳定技巧,与正念长期训练互补
+- [辩证行为疗法（DBT）](Dialectical-Behavior-Therapy-DBT.md) - 正念技能在DBT中的临床应用
+- [情绪调节（Emotion Regulation）](Emotion-Regulation.md) - 正念是情绪调节的底层技能之一
+- [创伤（Trauma）](Trauma.md) - 创伤敏感正念的应用背景
+- [感官调节策略（Sensory Regulation Strategies）](Sensory-Regulation-Strategies.md) - 与正念配合的多感官调节方法
+- [三阶段创伤治疗模型（Three-Phase Trauma Treatment）](Three-Phase-Trauma-Treatment.md) - 正念在稳定化阶段的作用
 
 ---
 

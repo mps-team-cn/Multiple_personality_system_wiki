@@ -8,7 +8,7 @@ tags:
 
 topic: 文化与表现
 title: 《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻
-updated: 2025-10-13
+updated: 2025-10-18
 comments: true
 ---
 
@@ -33,7 +33,7 @@ comments: true
 
 - [人格面具（Persona）](Persona.md)
 - [融合（Fusion）](Fusion.md)
-- [非我感（Depersonalization）](Depersonalization.md)
+- [非我感（Depersonalization）](Not-Me-Feeling.md)
 
 ## 相关条目
 
@@ -42,10 +42,5 @@ comments: true
 - [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)
 - [系统（System）](System.md)
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
-- [多意识体系统基础（MPS Basics）](Mps-Basics.md)
-- [多意识体系统（MPS）](Multiple_Personality_System.md)
+- [多意识体系统（Multiple Personality System，MPS）](Multiple_Personality_System.md)
 - [图帕（Tulpa）](Tulpa.md)
-
-## 参考资料
-
-- （待补充）

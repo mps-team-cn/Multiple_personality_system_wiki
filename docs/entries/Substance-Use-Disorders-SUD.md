@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 物质使用障碍（Substance Use Disorders，SUD）
-updated: 2025-10-13
+updated: 2025-10-14
 synonyms:
 
 - 物质滥用障碍
@@ -104,7 +104,7 @@ comments: true
 - **核心共病**
     - [创伤后应激障碍（PTSD）](PTSD.md) / [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)：许多创伤幸存者使用物质麻痹痛苦记忆、缓解过度唤醒，是短期应对机制。
     - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：持续性悲伤与绝望可能导致物质使用；物质戒断也可能触发抑郁发作。
-    - [焦虑（Anxiety）](Anxiety.md)：社交焦虑、惊恐障碍患者可能以物质缓解症状。
+    - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)：社交焦虑、惊恐障碍患者可能以物质缓解症状。
 
 - **其他常见共病**
     - [解离性身份障碍（DID）](DID.md)：酒精或镇静剂可能降低成员之间的边界，引发失忆、混乱或非自愿切换；兴奋剂则可能提升警觉，触发恐慌或迫害性思维。
@@ -159,7 +159,7 @@ comments: true
 - [创伤后应激障碍（PTSD）](PTSD.md)
 - [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)
 
 ### 应对策略相关

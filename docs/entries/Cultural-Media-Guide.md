@@ -5,7 +5,7 @@ tags:
 
 topic: 文化与表现
 title: 文化与表现导览
-updated: 2025-10-13
+updated: 2025-10-16
 comments: true
 ---
 
@@ -41,7 +41,7 @@ comments: true
 ## 观察与延伸
 
 - 作品多从戏剧冲突出发，常放大暴力或“危险人格”元素；阅读时可对照 [诊断与临床导览](Clinical-Diagnosis-Guide.md) 澄清真实诊断标准。
-- 动画与同人文化提供了对意识多样性较开放的想像，适合与 [系统运作导览](System-Operations.md) 搭配思考内部结构的隐喻。
+- 动画与同人文化提供了对意识多样性较开放的想像，适合与 [系统运作导览](System-Operations-Guide.md) 搭配思考内部结构的隐喻。
 - 文学文本常借身份分裂探讨社会压力、自我追寻，可结合 [理论与分类导览](Theory-Classification-Guide.md) 中的动机、认知理论加深理解。
 
 在欣赏作品时保持批判思维，既能享受叙事，也能辨认刻板印象与真实经验之间的差距。

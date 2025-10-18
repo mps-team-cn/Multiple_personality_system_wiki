@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 轻躁狂（Hypomania）
-updated: 2025-10-13
+updated: 2025-10-14
 synonyms:
 
 - 轻躁狂
@@ -98,7 +98,7 @@ comments: true
 - [躁狂（Mania）](Mania.md)
 - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
 - [心境障碍（Affective Disorders）](Affective-Disorders.md)
-- [精神分裂症（Schizophrenia，SC）](Schizophrenia-SC.md)
+- [精神分裂症（Schizophrenia，SZ/SCZ）](Schizophrenia-SZ.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
 - [孤独症谱系（Autism Spectrum Disorder）](Autism-Spectrum-Disorder.md)
 - [情感障碍（Mood Disorders）](Mood-Disorders.md)

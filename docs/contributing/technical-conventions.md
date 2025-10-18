@@ -112,7 +112,7 @@ updated: 2025-10-07
 
 ```markdown
 [解离性身份障碍](../entries/DID.md)
-[多意识体基础](../entries/Mps-Basics.md)
+[多意识体系统](../entries/Multiple_Personality_System.md)
 ```
 
 ### 3.3 锚点链接
@@ -405,7 +405,7 @@ mkdocs build --strict
 
 ### 9.2 工具文档
 
-详细使用说明请参考 [工具文档](../../tools/README.md)。
+详细使用说明请参考 [工具文档](../dev/Tools-Index.md)。
 
 ---
 

@@ -49,7 +49,7 @@
 | `docs/entries/` | **词条存放** | ❌ 不得创建子目录，分类通过 Frontmatter `tags` 声明 |
 | `docs/` | **核心文档** | `index.md`, `README.md`, `Glossary.md` 等 |
 | `docs/contributing/` | **贡献指南** | 拆分为多个专题文档 |
-| `docs/tools/README.md` | **工具文档** | 脚本说明与使用指南 |
+| `docs/dev/Tools-Index.md` | **工具文档** | 脚本说明与使用指南 |
 | `tools/` | **脚本与工具** | 所有自动化工具 |
 | `docs/assets/` | **静态资源** | CSS, JS, 图片等 |
 | `docs/assets/figures/` | **图表资源** | 流程图、示意图、SVG |
@@ -74,6 +74,66 @@ updated: YYYY-MM-DD
 ---
 ```
 
+!!! info "特殊文件例外"
+    以下类型的文件 **无需** `updated` 字段（检查工具会自动跳过）：
+
+    - 📚 导览文件：`*-Guide.md`（如 `Clinical-Diagnosis-Guide.md`）
+    - 📑 索引文件：`*-Index.md`（如 `Tools-Index.md`）
+
+#### 🔍 搜索权重配置（可选）
+
+!!! tip "提升重要词条的搜索排名"
+    对于核心词条，可在 Frontmatter 中添加 `search.boost` 字段来提高搜索结果中的权重。
+
+**推荐的权重分级**：
+
+| 优先级 | 权重值 | 适用词条类型 | 示例 |
+|--------|--------|-------------|------|
+| **最高** | `2.0` | 诊断类疾病 | DID、OSDD、PTSD、CPTSD |
+| **高** | `1.8` | 核心概念与操作 | Alter、Tulpa、System、Switch、Grounding、Host、Dissociation、Trauma |
+| **中高** | `1.5` | 重要概念 | Multiple_Personality_System、Protector、Front/Fronting |
+| **默认** | `1.0`（无需设置） | 普通词条 | 其他所有词条 |
+
+**配置示例**：
+
+```yaml
+---
+title: 解离性身份障碍（DID）
+topic: 诊断与临床
+tags:
+
+  - 诊断与临床
+  - DID
+  - 多重意识体
+
+updated: 2025-01-15
+search:
+  boost: 2.0  # 最高优先级
+---
+```
+
+```yaml
+---
+title: 系统（System）
+topic: 系统运作
+tags:
+
+  - 系统运作
+  - 多重意识体
+
+updated: 2025-01-15
+search:
+  boost: 1.8  # 高优先级
+---
+```
+
+!!! warning "注意事项"
+
+    - ✅ 仅为 **真正重要** 的核心词条设置权重，避免滥用
+    - ✅ 权重值通常在 `1.0` - `2.0` 之间，不建议超过 `2.0`
+    - ✅ 大多数词条无需设置权重（默认 `1.0`）
+    - ⚠️ 修改权重后需重新构建站点才能生效
+
 #### ✨ 词条格式规范
 
 !!! tip "加粗内容格式"
@@ -87,7 +147,6 @@ updated: YYYY-MM-DD
 
 | 文档 | 更新时机 | 说明 |
 |------|---------|------|
-| `docs/Glossary.md` | 新增术语 | 添加到术语表 |
 | 主题总览页面 | 新增词条 | 更新对应主题索引 |
 | **对应的 Guide** | 创建/更新/删除词条 | 见下方主题映射表 |
 
@@ -96,7 +155,7 @@ updated: YYYY-MM-DD
 | 词条主题 | 对应 Guide 文件 | 示例内容 |
 |---------|----------------|---------|
 | **诊断与临床** | `Clinical-Diagnosis-Guide.md` | DID, OSDD, CPTSD, 焦虑障碍, 情绪障碍 |
-| **系统运作** | `System-Operations.md` | 前台切换, 共同意识, 记忆管理, 内部空间 |
+| **系统运作** | `System-Operations-Guide.md` | 前台切换, 共同意识, 记忆管理, 内部空间 |
 | **实践指南** | `Practice-Guide.md` | Tulpa三阶段, 冥想, 可视化, 接地技巧 |
 | **创伤与疗愈** | `Trauma-Healing-Guide.md` | 创伤机理, PTSD症状, 三阶段治疗模型 |
 | **角色与身份** | `Roles-Identity-Guide.md` | 宿主, 守门人, 保护者, 照护者 |
@@ -182,7 +241,7 @@ updated: YYYY-MM-DD
 !!! info "工具位置"
 
     - **代码**：`tools/` 目录
-    - **文档**：`docs/tools/README.md`（必须同步维护）
+    - **文档**：`docs/dev/Tools-Index.md`（必须同步维护）
 
 ### 📦 PDF 导出工具规范
 
@@ -196,7 +255,7 @@ updated: YYYY-MM-DD
 | **兼容性** | 注意 LaTeX/Markdown 转换的跨平台兼容与转义 |
 
 !!! warning "文档同步要求"
-    修改导出逻辑后，**必须同步更新** `docs/tools/README.md`。
+    修改导出逻辑后，**必须同步更新** `docs/dev/Tools-Index.md`。
 
 ---
 
@@ -365,6 +424,43 @@ mkdocs build
 mkdocs build --strict
 ```
 
+### 🔗 链接规范检查
+
+!!! info "链接检查工具"
+    检查 Markdown 文件中的内部链接是否符合项目规范。支持检查整个项目、指定目录或单个文件。
+
+```bash
+
+# 检查词条目录的所有链接
+
+python3 tools/check_links.py docs/entries/
+
+# 检查整个项目的所有链接
+
+python3 tools/check_links.py
+
+# 检查单个文件
+
+python3 tools/check_links.py docs/entries/DID.md
+
+# 显示详细检查信息（包含通过的文件）
+
+python3 tools/check_links.py --verbose docs/entries/
+
+# 指定仓库根目录（当不在项目根目录时）
+
+python3 tools/check_links.py --root /path/to/repo docs/entries/
+```
+
+!!! tip "链接规范快速参考"
+
+    - ✅ **词条间链接**：直接使用文件名（如 `DID.md`）
+    - ✅ **词条→其他目录**：使用 `../` 相对路径（如 `../contributing/index.md`）
+    - ✅ **其他目录→词条**：使用 `../entries/` 路径（如 `../entries/DID.md`）
+    - ❌ **禁止**：绝对路径（如 `/docs/entries/DID.md`）
+
+    详见：[链接路径规范](#13-索引与链接规范)
+
 ### 🐍 Python 语法检查
 
 ```bash
@@ -389,9 +485,9 @@ python -m compileall tools/
     | ✅ | 遵循贡献指南与模板 | `docs/contributing/` + `docs/TEMPLATE_ENTRY.md` |
     | ✅ | 保持小步提交 | 最小可审查单位 |
     | ✅ | 遵守 markdownlint | 格式规范 |
-    | ✅ | 提交前运行检查 | `fix_markdown.py` + `markdownlint` |
+    | ✅ | 提交前运行检查 | `fix_markdown.py` + `check_links.py` + `markdownlint` |
     | ✅ | PR 说明方法来源 | 正则/脚本名/范围等 |
-    | ✅ | 同步维护工具文档 | `docs/tools/README.md` |
+    | ✅ | 同步维护工具文档 | `docs/dev/Tools-Index.md` |
     | ❌ | 禁止无法追溯的证据 | 需可验证来源 |
     | ❌ | 禁止破坏索引/链接 | 保持引用完整性 |
     | ⚠️ | 大规模操作附回滚指引 | 格式化/重构等 |
@@ -403,16 +499,45 @@ python -m compileall tools/
 !!! info "执行优先级"
     自动执行优先；手动修改后需手动执行。
 
-### 8.1 自动执行（CI）
+### 8.1 自动执行（CI 双重检查）
 
-!!! success "GitHub Actions 自动化"
-    CI 会在 `push` / `pull_request` 时执行：
+!!! success "PR 阶段检查（`.github/workflows/pr-check.yml`）"
+    当创建或更新 PR 时，CI 会自动检查：
 
-    1. ✅ 运行 `python3 tools/fix_markdown.py .` 自动修复
-    2. ✅ 运行 `markdownlint` 校验
-    3. ❌ 若有未修复项，CI 失败并提示
+    1. 🔍 **检查链接规范**
+        - 检查所有修改的 Markdown 文件
+        - 不符合规范时显示详细错误并阻止合并
+        - 只检查不修复，确保提交前质量
 
-    详见 `.github/workflows/markdown_format.yml`
+    2. 📋 **检查 Frontmatter 格式**
+        - 验证词条必需字段（title, topic, tags）
+        - 格式错误时提供修复指引和 Guide 映射表链接
+
+    3. ✅ **通过后才可合并**
+        - 所有检查通过才能合并到 main
+        - 时间戳会在合并后自动更新
+
+    详见 `.github/workflows/pr-check.yml`
+
+!!! success "合并后自动修复（`.github/workflows/auto-fix-entries.yml`）"
+    当词条文件（`docs/entries/*.md`）被推送到 main 分支时，CI 会自动执行：
+
+    1. ✅ 运行 `python3 tools/update_git_timestamps.py` 更新时间戳
+    2. 🔍 检查链接规范（修复前）
+    3. ✅ 运行 `python3 tools/fix_markdown.py docs/entries/` 自动修复格式
+    4. 🔍 **检查链接规范（修复后）** - 如不通过则 CI 失败，不会提交
+    5. ✅ 自动提交修复后的文件（仅当所有检查通过且有更改时）
+
+    详见 `.github/workflows/auto-fix-entries.yml`
+
+!!! tip "CI 双重保障机制"
+
+    - **第一道防线（PR 阶段）**：提前发现问题，避免将问题合并到 main
+    - **第二道防线（合并后）**：自动修复格式，最终验证质量
+    - **结果**：确保 main 分支始终保持高质量
+
+!!! info "手动触发"
+    也可以通过 GitHub Actions 页面手动触发工作流
 
 ### 8.2 手动执行（本地）
 
@@ -494,6 +619,10 @@ mkdocs serve
 python3 tools/fix_markdown.py .
 markdownlint "docs/**/*.md" --ignore "node_modules"
 
+# 链接检查
+
+python3 tools/check_links.py docs/entries/
+
 # 构建测试
 
 mkdocs build --strict
@@ -505,7 +634,7 @@ mkdocs build --strict
 |------|------|
 | 词条模板 | `docs/TEMPLATE_ENTRY.md` |
 | 贡献指南 | `docs/contributing/` |
-| 工具说明 | `docs/tools/README.md` |
+| 工具说明 | `docs/dev/Tools-Index.md` |
 | 管理员指南 | `docs/ADMIN_GUIDE.md` |
 | GitHub 工作流 | `docs/GITHUB_WORKFLOW.md` |
 

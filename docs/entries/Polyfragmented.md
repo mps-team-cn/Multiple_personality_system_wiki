@@ -8,7 +8,7 @@ tags:
 
 topic: 角色与身份
 title: 超级破碎（Polyfragmented）
-updated: 2025-10-13
+updated: 2025-10-16
 synonyms:
 
 - 超碎
@@ -92,7 +92,7 @@ comments: true
 - [成员（Alter）](Alter.md)
 - [初始（Original）](Original.md)
 - [迭代（Iteration）](Iteration.md)
-- [非我感（Depersonalization）](Depersonalization.md)
+- [非我感（Depersonalization）](Not-Me-Feeling.md)
 
 ## 参考与延伸阅读
 

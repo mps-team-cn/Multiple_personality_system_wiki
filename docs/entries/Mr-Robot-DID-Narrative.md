@@ -8,7 +8,7 @@ tags:
 
 topic: 文化与表现
 title: 《隐形人》（Mr. Robot）中的人格分裂叙事
-updated: 2025-10-13
+updated: 2025-10-18
 comments: true
 ---
 
@@ -45,7 +45,3 @@ comments: true
 - [自发型（Spontaneous）](Spontaneous.md)
 - [人格面具（Persona）](Persona.md)
 - [主体（Main）](Main.md)
-
-## 参考资料
-
-- （待补充）

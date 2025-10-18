@@ -1,0 +1,36 @@
+{#
+  Multiple Personality System Wiki 自定义操作按钮
+  覆盖 Material 主题的默认按钮，提供更好的中文体验
+#}
+
+{% if "content.action.edit" in config.theme.features %}
+  {% if page.edit_url %}
+    <a
+      href="{{ page.edit_url }}"
+      title="在 GitHub 上编辑此页"
+      class="md-content__button md-icon"
+      rel="noopener"
+      target="_blank"
+      aria-label="在 GitHub 上编辑此页"
+    >
+      {% set icon = config.theme.icon.edit or "material/pencil" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </a>
+  {% endif %}
+{% endif %}
+
+{% if "content.action.view" in config.theme.features %}
+  {% if page.edit_url %}
+    <a
+      href="{{ page.edit_url | replace('/edit/', '/blob/') }}"
+      title="在 GitHub 上查看源代码"
+      class="md-content__button md-icon"
+      rel="noopener"
+      target="_blank"
+      aria-label="在 GitHub 上查看源代码"
+    >
+      {% set icon = config.theme.icon.view or "material/eye" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </a>
+  {% endif %}
+{% endif %}

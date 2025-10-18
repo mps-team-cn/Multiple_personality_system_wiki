@@ -13,7 +13,7 @@ synonyms:
     - MPD
     - Multiple Personality Disorder
 
-updated: 2025-10-12
+updated: 2025-10-14
 comments: true
 ---
 
@@ -82,7 +82,7 @@ ICD-11 采用"6B64 解离性身份障碍（Dissociative Identity Disorder）"作
 
 - **数量导向误解**："多人格"强调人格"数量"，易被误解为身份越多症状越严重，忽略解离机制的本质
 - **媒体污名化**：影视作品常以"多重人格"制造恐怖或暴力印象（如《分裂》），加深公众误解
-- **混淆精神分裂症**：大众常将"多重人格"与[精神分裂症](Schizophrenia-SC.md)或"[人格分裂](Split-Personality.md)"混淆，导致误诊与治疗延误
+- **混淆精神分裂症**：大众常将"多重人格"与[精神分裂症](Schizophrenia-SZ.md)或"[人格分裂](Split-Personality.md)"混淆，导致误诊与治疗延误
 
 ### 诊断标准演变的争议
 
@@ -105,7 +105,7 @@ ICD-11 采用"6B64 解离性身份障碍（Dissociative Identity Disorder）"作
 ### 教育与倡导
 
 - **澄清媒体误解**：向大众说明 DID 与影视作品中的"多重人格"差异，减少污名
-- **区分相关术语**：提醒不要将 DID 与"[人格分裂](Split-Personality.md)"或[精神分裂症](Schizophrenia-SC.md)混淆
+- **区分相关术语**：提醒不要将 DID 与"[人格分裂](Split-Personality.md)"或[精神分裂症](Schizophrenia-SZ.md)混淆
 - **倡导创伤知情**：强调 DID 与童年创伤的关联，促进创伤知情照护环境
 - **尊重自我认同**：部分社群成员可能仍使用"多重"等术语自我描述，应尊重个人选择，同时在临床场景使用标准诊断名称
 

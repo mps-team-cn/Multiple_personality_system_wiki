@@ -20,7 +20,12 @@ def _strip_zero_width(value: str) -> str:
 
 
 def _extract_frontmatter_synonyms(file_path: Path) -> list[str]:
-    """从 Markdown 文件的 Frontmatter 中提取 synonyms 字段。"""
+    """从 Markdown 文件的 Frontmatter 中提取 synonyms 字段。
+
+    支持两种格式：
+    1. 列表格式: synonyms: [syn1, syn2, syn3]
+    2. 字符串格式: synonyms: syn1, syn2, syn3
+    """
     if not file_path.exists():
         return []
 
@@ -34,8 +39,15 @@ def _extract_frontmatter_synonyms(file_path: Path) -> list[str]:
     try:
         frontmatter = yaml.safe_load(match.group(1))
         synonyms = frontmatter.get("synonyms", [])
+
+        # 处理列表格式
         if isinstance(synonyms, list):
             return [str(s).strip() for s in synonyms if s]
+
+        # 处理字符串格式（逗号分隔）
+        if isinstance(synonyms, str):
+            return [s.strip() for s in synonyms.split(',') if s.strip()]
+
         return []
     except Exception:
         return []

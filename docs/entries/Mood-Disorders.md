@@ -8,7 +8,7 @@ tags:
 
 topic: 理论与分类
 title: 情感障碍（Mood Disorders）
-updated: 2025-10-13
+updated: 2025-10-14
 synonyms:
 
 - 情感障碍
@@ -37,7 +37,7 @@ comments: true
 ## 相关条目
 
 - [心境障碍（Affective Disorders）](Affective-Disorders.md)
-- [精神分裂症（Schizophrenia，SC）](Schizophrenia-SC.md)
+- [精神分裂症（Schizophrenia，SZ/SCZ）](Schizophrenia-SZ.md)
 - [躁狂（Mania）](Mania.md)
 - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
 - [孤独症谱系（Autism Spectrum Disorder）](Autism-Spectrum-Disorder.md)

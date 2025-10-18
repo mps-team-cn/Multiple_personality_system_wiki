@@ -8,54 +8,92 @@ tags:
 
 topic: 角色与身份
 title: 幻想伙伴（Imaginary Companion）
-updated: 2025-10-13
+synonyms:
+
+- 幻想朋友
+- imaginary friend
+- 虚构同伴
+- 虚拟玩伴
+
+description: 儿童幻想伙伴的心理机制、与 Tulpa 及解离现象的区别、文化与社群延伸用法
+updated: 2025-10-18
 comments: true
+search:
+  boost: 1.5
 ---
 
 # 幻想伙伴（Imaginary Companion）
 
-## 定义
+!!! abstract "核心要点速览"
+    幻想伙伴是儿童在约 3–9 岁期间通过想象创造的虚构朋友或拟人化对象，常出现在游戏与日常互动中。此现象属正常发展过程，反映出想象力、情绪调节与社交能力的成长。与多意识体中的图帕（Tulpa）或系统成员（Headmate）不同，幻想伙伴由儿童主动控制、明知其虚构，并不会在成年后保持独立意识。若伴随痛苦或功能受损，应评估是否存在幻觉或其他精神障碍。
 
-“幻想伙伴”（imaginary companion）是发展心理学用语，指儿童在游戏或日常生活中创造、与之互动的虚构朋友或拟人化对象。[^taylor1999] 幻想伙伴通常出现在学龄前至小学阶段，与创造者共享想象活动，但并不具备独立意识或持续自主性。
+---
 
-## 常见特征
+## 一、定义
 
-- **发展常见性** : 研究显示约有 37%–50% 的儿童在成长过程中拥有幻想伙伴，属于正常的想象与社交练习。[^gleason2004]
-- **功能多样** : 可用于情绪调节、练习社交技巧或探索角色扮演。部分儿童会借此表达不便直接说出的情绪。[^bouldin2006]
-- **可塑性** : 幻想伙伴的性格、外貌与存在方式可随儿童需要而改变或消失。
+**幻想伙伴（Imaginary Companion）** 是发展心理学术语，指儿童在游戏或日常情境中自发创造、与之对话或互动的虚构朋友或拟人化对象。该对象可具有人格、声音或情节背景，但儿童通常意识到其想象性质。[^taylor1999]
 
-## 社区用法与变体
+- 典型出现阶段：约 3–9 岁，学龄前期最常见；样本研究多以学前与小学生为主（如 Gleason 2004 的学龄儿童样本）。[^gleason2004]
+- 关键判别标准：自愿、可控、明知其虚构；不造成显著痛苦或功能受损。
+- 分类与诊断：DSM-5-TR 与 ICD-11 中无“幻想伙伴”诊断项，亦不直接对应精神病性或解离性障碍。[^apa2022]
 
-- **与多意识体概念的交叉** : 部分成年人在回顾童年经历时，会将幻想伙伴与后来形成的系统成员关联；然而在专业与社群语境中，两者被视为不同现象。
-- **文化差异** : 不同文化对幻想伙伴的接受度与描述方式不同，部分社会将其视为创造力展现，部分则以精神性诠释。[^harter2004]
+---
 
-## 容易混淆的概念
+## 二、发展心理学视角
 
-- **图帕 / 托帕（Tulpa）** : tulpamancy 实践者通过长期冥想与拟人化训练培育具自主回应能力的伙伴，强调与创造者的平等关系。详见《[图帕（Tulpa）](Tulpa.md)》。[^veissiere2016]
-- **系统成员（Headmate）** : 多意识体系统中的成员被视为拥有独立的身份、记忆与决策能力，通常在成年后仍持续存在，并需要协作管理身体。幻想伙伴则多为儿童想象，在社群中不被视为“真正的成员”。
-- **寄生性念头或幻觉** : 幻想伙伴是自愿且可控的想象，不应与非自愿的幻听或精神病性症状混为一谈；若出现痛苦或功能受损，应寻求专业评估。[^americanpsychiatric2013]
+研究估计约 37%–50% 的儿童曾拥有幻想伙伴，普遍被视为健康的心理成长现象。[^gleason2004][^bouldin2006]
 
-## 研究与参考
+| 功能类型 | 描述 | 对应发展目标 |
+| ---- | ---- | ---- |
+| 情绪调节 | 通过想象互动纾解焦虑或孤独 | 自我安抚与情绪认知 |
+| 社交练习 | 练习轮流、共情与冲突解决 | 社交技巧建构 |
+| 角色扮演 | 在安全环境中尝试身份与规则 | 自我概念形成 |
 
-- Taylor 总结幻想伙伴在认知与社会发展中的角色，强调其普遍性与适应价值。[^taylor1999]
-- Gleason 的实证研究显示幻想伙伴与儿童的社交技巧与情绪理解正相关。[^gleason2004]
-- Bouldin 指出幻想伙伴可协助儿童面对恐惧与焦虑。[^bouldin2006]
-- Harter 与 Taylor 讨论文化背景对幻想伙伴概念的影响。[^harter2004]
+---
+
+## 三、多意识体社群延伸用法与文化差异
+
+- 成人回溯与社群经验：部分人将童年的幻想伙伴与后续形成的“系统成员”相联系，但学界并不认为两者在心理机制上等同。
+- 文化差异：西方文化多视为创造力体现，部分东方语境则以灵性或超自然解释。[^harter2004]
+
+---
+
+## 四、容易混淆的概念（对照表）
+
+| 概念 | 核心特征 | 区别点 | 参考条目 |
+| --- | --- | --- | --- |
+| 图帕 / Tulpa | 通过冥想与拟人化训练形成的意识同伴（如 <abbr title="图帕实践：以注意与表征训练拟人化心象">tulpamancy</abbr>） | 成人实践、具持续自主性 | [图帕（Tulpa）](Tulpa.md) |
+| 系统成员 / Headmate | 多意识体系统中的独立身份与分工 | 具记忆与行为分工、共管身体 | [系统（System）](System.md) |
+| 幻想伙伴 / Imaginary Companion | 儿童主动创造、明知虚构 | 正常发展、可控消失 | 本条目 |
+| 幻觉 / 精神病性症状 | 非自愿、感知逼真且致显著困扰 | 病理性、需临床评估 | 参见 DSM-5-TR 精神病性障碍章节 |
+
+---
+
+## 五、临床与教育意义
+
+- 临床区分：幻想伙伴不会引起显著痛苦或现实检验力障碍。若儿童坚信对象真实存在且出现功能受损，应排查幻觉或精神病性障碍，并按需转介。[^apa2022]
+- 教育建议：家长与教师可尊重儿童想象、避免粗暴打断，必要时引导其借由讲述或绘画表达情绪、发展社交技巧。
+
+---
+
+## 六、研究进展
+
+- Taylor（1999）总结幻想伙伴的认知与社会适应作用，聚焦学前与小学阶段样本。[^taylor1999]
+- Gleason（2004）针对学龄儿童指出，幻想伙伴与社交理解呈正相关。[^gleason2004]
+- Bouldin（2006）发现幻想伙伴有助面对恐惧与焦虑。[^bouldin2006]
+- Harter（2004）强调文化语境对解释框架的影响。[^harter2004]
 
 [^taylor1999]: Taylor, M. (1999). *Imaginary companions and the children who create them*. Oxford University Press.
-[^gleason2004]: Gleason, T. R. (2004). Imaginary companions of preschool children. *Developmental Psychology, 40*(6), 1173–1187.
-[^bouldin2006]: Bouldin, P. (2006). An investigation of the fantasy predisposition and fantasy style of children with imaginary companions. *Journal of Genetic Psychology, 167*(1), 17–29.
+[^gleason2004]: Gleason, T. R. (2004). The characteristics and correlates of fantasy in school-age children: Imaginary companions, impersonation, and social understanding. *Developmental Psychology, 40*(6), 1173–1187. [https://doi.org/10.1037/0012-1649.40.6.1173](https://doi.org/10.1037/0012-1649.40.6.1173)
+[^bouldin2006]: Bouldin, P. (2006). An investigation of the fantasy predisposition and fantasy style of children with imaginary companions. *The Journal of Genetic Psychology, 167*(1), 17–29. [https://doi.org/10.3200/gntp.167.1.17-29](https://doi.org/10.3200/gntp.167.1.17-29)
 [^harter2004]: Harter, S., & Taylor, M. (2004). The self and imaginary companions. In M. Taylor (Ed.), *Imaginary companions and the children who create them* (pp. 73–97). Oxford University Press.
-[^veissiere2016]: Veissière, S. P. L. (2016). Varieties of tulpa experiences: Sentient imaginary friends, embodied joint-agents, and hypnotic social agents. *Anthropology of Consciousness, 27*(2), 213–239.
-[^americanpsychiatric2013]: American Psychiatric Association. (2013). *Diagnostic and statistical manual of mental disorders* (5th ed.). American Psychiatric Publishing.
+[^veissiere2016]: Veissière, S. P. L. (2016). Varieties of tulpa experiences: Sentient imaginary friends, embodied joint-agents, and hypnotic social agents. *Anthropology of Consciousness, 27*(2), 213–239. [https://doi.org/10.1111/anoc.12062](https://doi.org/10.1111/anoc.12062)
+[^apa2022]: American Psychiatric Association. (2022). *Diagnostic and statistical manual of mental disorders* (5th ed., text rev.; DSM-5-TR). American Psychiatric Publishing.
 
 ## 相关条目
 
-- [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](Touhou-Tulpa-Fandom.md)
-- [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](Nonexistent-You-And-Me-Tulpa-Lilith.md)
-- [《妄想代理人》（Paranoia Agent）与集体意识的具象化](Paranoia-Agent-Collective-Consciousness.md)
-- [洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）](Lovecraft-Tulpa-Motifs.md)
-- [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
-- [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](Madoka-Magica-Kyubey-Otherness.md)
-- [投影（Projection）](Projection.md)
+- [图帕（Tulpa）](Tulpa.md)
+- [系统（System）](System.md)
+- [解离（Dissociation）](Dissociation.md)
 - [宿主（Host）](Host.md)
+- [投影（Projection）](Projection.md)

@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 长期哀伤障碍(Prolonged Grief Disorder, PGD)
-updated: 2025-10-13
+updated: 2025-10-14
 synonyms:
 
 - 长期哀伤障碍
@@ -212,7 +212,7 @@ PGD 的治疗以 **哀伤聚焦心理治疗** 为核心,强调 **意义重构、
 - [创伤（Trauma）](Trauma.md)
 - [重性抑郁障碍（MDD）](Major-Depressive-Disorder-MDD.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 
 ---
 

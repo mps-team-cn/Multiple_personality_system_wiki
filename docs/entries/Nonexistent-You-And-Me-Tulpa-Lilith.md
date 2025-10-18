@@ -8,7 +8,7 @@ tags:
 
 topic: 文化与表现
 title: 《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）
-updated: 2025-10-13
+updated: 2025-10-18
 comments: true
 ---
 
@@ -44,7 +44,3 @@ comments: true
 - [投影（Projection）](Projection.md)
 - [傀儡（Servitor）](Servitor.md)
 - [头压（Head Pressure）](Head-Pressure.md)
-
-## 参考资料
-
-- （待补充）

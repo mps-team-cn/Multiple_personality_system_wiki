@@ -3,8 +3,8 @@
 from __future__ import annotations
 
 DEFAULT_PDF_ENGINES = [
+    "tectonic",  # 优先使用 Tectonic (性能比 XeLaTeX 快 2-3 倍)
     "xelatex",
-    "tectonic",
     "pdflatex",
 ]
 
@@ -22,8 +22,8 @@ CJK_FONT_CANDIDATES = [
     "Songti SC",
 ]
 
-DEFAULT_COVER_TITLE = "多重意识体系统知识库"
+DEFAULT_COVER_TITLE = "多意识体系统知识库"
 DEFAULT_COVER_SUBTITLE = "Multiple Personality System Wiki"
-DEFAULT_COVER_FOOTER = "脸脸系统&&逝水流年系统&&弦羽系统"
-DEFAULT_COVER_ONLINE_LINK_LABEL = "在线版本"
+DEFAULT_COVER_FOOTER = "脸脸系统&&逝水流年系统&&弦羽系统&&全体贡献者"
+DEFAULT_COVER_ONLINE_LINK_LABEL = "https://wiki.mpsteam.cn/"
 DEFAULT_COVER_ONLINE_LINK_URL = "https://wiki.mpsteam.cn/"

@@ -8,7 +8,17 @@ tags:
 
 topic: 诊断与临床
 title: 强迫症（Obsessive-Compulsive Disorder, OCD）
-updated: 2025-10-13
+synonyms:
+
+- 强迫性障碍
+- OCD
+- 强迫症
+- Obsessive-Compulsive Disorder
+
+description: 强迫症（OCD）属于强迫及相关障碍，以反复出现的强迫观念和强迫行为为核心特征，伴随显著焦虑与功能损害。包含污染-清洁、检查-安全、对称-秩序等多种主题维度。
+updated: 2025-10-18
+search:
+  boost: 1.8
 comments: true
 ---
 
@@ -20,20 +30,14 @@ comments: true
 !!! info "免责声明"
     本站资料仅供参考,不构成医疗建议。若需诊断或治疗,请联系持证专业人员。
 
-> **一句话定义** ：强迫症是一种以反复出现的强迫观念和/或强迫行为为核心特征的精神障碍，常伴随显著焦虑与功能损害。
-
----
-
-## 定义与同义词
-
-- **定义** : 强迫症（Obsessive-Compulsive Disorder, OCD）属于 DSM-5 中“强迫及相关障碍”，核心表现为强迫观念和/或强迫行为。
-- **同义词/旧称** : 强迫性障碍、OCD。
+!!! tip "临床核心要点速览（Clinician's Summary）"
+    **强迫症（OCD）** 以反复的强迫观念（侵入性思维、意象或冲动）和/或强迫行为（仪式化动作或心理活动）为核心特征，伴随显著痛苦与功能损害。**ICD-11 编码为 6B20**，与 **DSM-5-TR** 中"强迫及相关障碍（Obsessive-Compulsive and Related Disorders）"诊断标准一致。常见主题包括污染-清洁、检查-安全、对称-秩序、攻击性或性内容侵入思维以及认知仪式。一线治疗为 **暴露与反应预防（ERP，证据等级 A）** 和 **选择性 5-羟色胺再摄取抑制剂（SSRIs）**。多重意识体系统中，强迫症可能加剧资源消耗并影响角色协作，需特别关注创伤知情与系统化管理策略。
 
 ---
 
 ## 概述
 
-强迫症（Obsessive-Compulsive Disorder, OCD）属于《精神障碍诊断与统计手册》第五版（DSM-5）中的“强迫及相关障碍”。其核心特征为反复出现的强迫观念、强迫行为或两者兼有，伴随显著的痛苦感与功能损害。强迫观念多为不受欢迎、引发焦虑的念头、意象或冲动；强迫行为则是个体为减轻焦虑或预防担忧结果而反复执行的行为或心理仪式。
+强迫症（OCD）属于《精神障碍诊断与统计手册》第五版修订版（**DSM-5-TR**）中的"**强迫及相关障碍（Obsessive-Compulsive and Related Disorders）**"章节，**ICD-11 编码为 6B20**，两套分类系统诊断标准基本一致。其核心特征为反复出现的强迫观念、强迫行为或两者兼有，伴随显著的痛苦感与功能损害。强迫观念多为不受欢迎、引发焦虑的念头、意象或冲动；强迫行为则是个体为减轻焦虑或预防担忧结果而反复执行的行为或心理仪式。
 
 强迫症常在青少年或早期成年阶段起病，也可于儿童期出现。症状若未及时干预，往往呈慢性迁延或呈波动性发作。对多重意识体系统而言，侵入性思维与重复行为可能进一步消耗日常运行资源，影响角色协作与生活节奏。
 
@@ -48,32 +52,60 @@ comments: true
 
 ---
 
-## DSM-5 诊断要点
+## DSM-5-TR 诊断要点
+
+### 核心标准
 
 1. **存在强迫观念、强迫行为或两者兼有。**
-
-    - 强迫观念：反复且持续的念头、冲动或意象，被体验为侵入且令人痛苦。
-    - 强迫行为：重复的动作或心理活动，用于中和焦虑或遵循严格规则。
+    - **强迫观念**：反复且持续的念头、冲动或意象，被体验为侵入且令人痛苦。
+    - **强迫行为**：重复的动作或心理活动，用于中和焦虑或遵循严格规则。
 
 2. **强迫观念或行为耗时（>1 小时/日）或造成显著痛苦/功能损害。**
 3. **症状不能归因于物质或其他医疗状况。**
 4. **不能被其他精神障碍更好解释。**
 
+### 洞察水平（Insight Specifiers）
+
+DSM-5-TR 要求标注患者对 OCD 信念的洞察程度：
+
+- **良好或尚可洞察（Good or Fair Insight）**：认识到强迫信念明显不真实或可能不真实。
+- **较差洞察（Poor Insight）**：认为强迫信念可能是真实的。
+- **缺失洞察/妄想性信念（Absent Insight/Delusional Beliefs）**：完全确信强迫信念是真实的。
+
+洞察水平影响治疗反应与预后，缺失洞察者可能需要更密集的干预或抗精神病药物增强治疗。
+
 ---
 
-## 与其他概念的比较 / 鉴别
+## 共病与鉴别诊断
 
-- **与强迫型人格障碍（OCPD）** : OCPD 以性格特质为主，缺乏侵入性思维驱动。
-- **与焦虑障碍** : OCD 的焦虑源于侵入性思维和仪式，而非普通担忧。
-- **与精神病性障碍** : OCD 患者通常具备一定洞察力，而妄想则缺乏。
+### 常见共病
 
----
+- **焦虑障碍**：广泛性焦虑障碍（GAD）、社交恐惧症、惊恐障碍，共病率 30-50%
+- **抑郁障碍**：重度抑郁障碍（MDD），共病率 40-60%
+- **抽动障碍**（Tourette 综合征）：10-30% OCD 患者伴有抽动
+- **注意缺陷多动障碍（ADHD）**：共病率 20-30%
+- **人格障碍**：强迫型人格障碍（OCPD）、回避型人格障碍
 
-## 共病与鉴别
+### 鉴别诊断要点
 
-- 常与焦虑障碍、抑郁障碍、抽动障碍、ADHD 等共病。
-- 与 OCPD 区分：后者是人格特质，不涉及侵入思维。
-- 与精神病性障碍区分：需评估洞察程度及妄想内容。
+| **障碍** | **核心区别** |
+|---------|-------------|
+| **强迫型人格障碍（OCPD）** | OCPD 是持久的人格特质（完美主义、控制欲、死板），不涉及侵入性思维或焦虑驱动的仪式。患者通常认为自己的行为"正确"而非痛苦。 |
+| **广泛性焦虑障碍（GAD）** | GAD 的担忧更多关于现实生活问题（工作、健康、人际关系），而非侵入性、不合理的强迫观念。 |
+| **精神病性障碍** | OCD 患者（良好洞察）能识别强迫观念不合理；缺失洞察者需与妄想障碍区分，但 OCD 妄想内容通常围绕污染、伤害等主题，且可能对 ERP 有反应。 |
+| **解离性身份障碍（DID）/ 其他特定解离障碍（OSDD）** | **关键区别**：<br>• OCD：侵入性思维被体验为"不受欢迎的念头"，但不涉及身份状态分裂或记忆断片。<br>• DID/OSDD：涉及两个或多个独立身份状态，伴有记忆丧失、身份切换，强迫症状（如有）是共病而非核心特征。<br>• **重叠情况**：多重意识体系统可能同时患有 OCD，此时需评估症状是否跨身份状态一致存在，或仅由特定角色表现。 |
+| **自闭谱系障碍（ASD）** | ASD 的刻板行为与感官寻求相关，缺乏焦虑驱动与"中和"动机；OCD 的仪式是为减轻焦虑。 |
+
+### 与"强迫相关障碍"类群的关系
+
+DSM-5-TR 将以下障碍归入同一章节，但需与 OCD 区分：
+
+- **躯体变形障碍（Body Dysmorphic Disorder, BDD）**：强迫关注外貌缺陷
+- **囤积障碍（Hoarding Disorder）**：难以丢弃物品，与对称/秩序主题不同
+- **拔毛癖（Trichotillomania）**：反复拔毛，伴冲动控制问题
+- **抓痕障碍（Excoriation Disorder）**：反复抓挠皮肤
+
+（详见相关词条链接）
 
 ---
 
@@ -85,36 +117,107 @@ comments: true
 
 ---
 
-## 常见表现
+## 主题类型与常见表现
 
-- **污染与清洁**
-- **安全与检查**
-- **对称与秩序**
-- **攻击性或性内容的侵入思维**
-- **认知仪式（祈祷、计数等）**
+OCD 症状可按主题维度分类，以下为常见类型对照表：
 
----
+| **主题维度** | **强迫观念示例** | **强迫行为示例** |
+|------------|----------------|----------------|
+| **污染-清洁** | 担心细菌、污染物、疾病传播 | 过度洗手、清洁物品、避免触碰公共物品 |
+| **检查-安全** | 担心门窗未锁、电器未关、造成火灾或伤害 | 反复检查门锁、电源、煤气开关 |
+| **对称-秩序** | 物品必须对称、排列整齐，否则感到不安 | 反复调整物品位置、按特定顺序排列 |
+| **侵入性思维** | 攻击性、性、亵渎或道德相关的不受欢迎想法 | 心理仪式（如祈祷、计数）、寻求保证 |
+| **认知仪式** | 担心"坏事发生"如不执行特定思维活动 | 内心祈祷、反复回忆特定场景、心理计数 |
 
-## 实务建议
-
-- **评估工具** : Y-BOCS 量表，系统可用日志辅助。
-- **心理治疗** : ERP 一线，ACT、元认知疗法等作为补充。
-- **药物治疗** : SSRIs 一线，部分可用氯米帕明或增强剂。
-- **综合策略** : 睡眠、运动、社会支持。
+**注意**：患者可能同时表现多种主题维度，且主题可能随时间变化。
 
 ---
 
 ## 评估与治疗
 
-（这里原文保持不动，涵盖 Y-BOCS、ERP、SSRI、综合策略等内容）
+### 评估工具
+
+- **耶鲁-布朗强迫量表（Y-BOCS）**：金标准评估工具，测量强迫观念和行为的严重程度、耗时及干扰程度。分为 0-40 分，≥16 分提示中度至重度症状。
+- **系统辅助记录**：多重意识体系统可使用共享日志追踪触发因素、症状强度与角色间协作模式。
+
+### 心理治疗
+
+#### 暴露与反应预防（ERP）— 一线治疗（证据等级 A）
+
+- **原理**：通过逐步暴露于恐惧情境，同时阻止执行强迫行为，打破焦虑-仪式循环。
+- **流程**：
+    1. 建立暴露层级（从低到高焦虑情境）
+    2. 暴露阶段：面对触发情境，焦虑上升
+    3. 反应预防：不执行仪式行为
+    4. 习惯化：焦虑自然下降
+- **有效性**：60-70% 患者显著改善，效果可持续数年。
+- **适应症**：适用于大部分 OCD 患者，包括多重意识体系统（需强调系统内协作与安全管理）。
+
+#### 辅助性心理治疗
+
+- **接纳承诺疗法（ACT）**：帮助接纳侵入性思维，减少对抗与控制尝试。
+- **元认知疗法（MCT）**：改变对侵入性思维的元认知信念（如"想法=现实"）。
+- **认知行为疗法（CBT）**：识别并挑战与强迫相关的非理性信念。
+
+### 药物治疗
+
+#### 一线药物：选择性 5-羟色胺再摄取抑制剂（SSRIs）
+
+- **常用药物**：氟西汀、舍曲林、帕罗西汀、氟伏沙明、依西酞普兰
+- **剂量**：通常需高于抗抑郁剂量
+- **起效时间**：4-6 周，完全疗效可能需 10-12 周
+- **有效性**：40-60% 患者症状减轻 25-35%
+
+#### 二线或增强治疗
+
+- **氯米帕明（Clomipramine）**：三环类抗抑郁药，疗效与 SSRIs 相当或更优，但副作用更多。
+- **抗精神病药物增强**（如阿立哌唑、利培酮）：用于缺失洞察或治疗抵抗型 OCD。
+
+**重要提示**：药物治疗无法"治愈"OCD，主要用于症状管理，停药后复发率较高。建议与 ERP 结合使用。
+
+### 综合策略
+
+- **睡眠卫生**：保持规律作息，减少疲劳对症状的加剧作用。
+- **运动**：有氧运动可降低焦虑水平，辅助治疗效果。
+- **社会支持**：家庭教育、同伴支持组（需注意避免"仪式传染"风险）。
+- **系统特定管理**：
+    - 建立角色间触发预警机制
+    - 分配 ERP 练习中的支持性角色
+    - 避免将强迫行为与系统身份混淆（如"这是某角色的特征"vs"这是 OCD 症状"）
 
 ---
 
 ## 系统适用的自助建议
 
-- 建立共享触发记录。
-- 练习延迟/减少仪式，结合接地、呼吸、协作。
-- 若伴随严重损害或自伤，应及时寻求专业帮助。
+!!! warning "安全限定"
+    以下建议 **仅适用于轻度症状或作为专业治疗的配合手段**。若出现以下情况，**必须立即寻求专业帮助**：
+
+    - 强迫行为严重干扰日常功能（如无法上学、工作、维持基本卫生）
+    - 伴有自伤、自杀意念或计划
+    - 症状急剧恶化或出现新的危险行为
+    - 系统内部因 OCD 出现严重冲突或失控
+
+### 系统协作策略
+
+- **建立共享触发记录**：系统内建立日志，记录触发事件、强迫观念主题、仪式类型与耗时，识别模式。
+- **角色分工**：
+    - 指定"观察者"角色监测强迫症状出现
+    - 安排"支持者"角色在 ERP 练习中提供安抚（非仪式性）
+    - 避免将强迫行为与特定角色身份绑定
+- **延迟与减少仪式**：
+    - 练习延迟仪式执行（如"等 5 分钟再检查"）
+    - 逐步减少仪式次数（如检查从 10 次减至 5 次）
+    - 结合接地技巧、深呼吸、系统内协商
+- **区分症状与身份**：
+    - 强调"这是 OCD 症状"而非"这是某角色的性格"
+    - 避免因症状分配角色职责（如"A 负责检查门锁"）
+
+### 何时必须寻求专业帮助
+
+- 自助策略无效或症状持续 >6 个月
+- 功能严重受损（学业、工作、社交、自理能力）
+- 出现共病症状（重度抑郁、焦虑、自伤）
+- 系统内部因 OCD 出现失调或危机
 
 ---
 
@@ -128,17 +231,49 @@ comments: true
 
 ## 相关条目
 
-- [系魂型系统（Soul-Linked Systems, Xianyu Theory）](Soul-Linked-Systems-Xianyu.md)
-- [家族式系统（Family Systems, Xianyu Theory）](Family-Systems-Xianyu.md)
-- [单一类系统（Single-Class Systems, Xianyu Theory）](Single-Class-Systems-Xianyu.md)
-- [混合型系统（Mixed Systems, Xianyu Theory）](Mixed-Systems-Xianyu.md)
-- [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](Xianyu-Theory-Niche-Classification.md)
-- [T 语（Tulpish）](Tulpish.md)
-- [偏重（Bias / Median）](Bias.md)
+### 解离相关障碍
+
+- [解离性身份障碍（DID）](DID.md)
+- [其他特定解离障碍（OSDD）](OSDD.md)
+- [解离（Dissociation）](Dissociation.md)
+
+### 强迫及相关障碍
+
+- [躯体变形障碍（Body Dysmorphic Disorder）](Body-Dysmorphic-Disorder.md)
+- [囤积障碍（Hoarding Disorder）](Hoarding-Disorder.md)
+- [拔毛癖（Trichotillomania, Hair-Pulling Disorder）](Trichotillomania-Hair-Pulling-Disorder.md)
+- [抓痕障碍（Excoriation, Skin-Picking Disorder）](Excoriation-Skin-Picking-Disorder.md)
+
+### 焦虑与创伤相关
+
 - [创伤（Trauma）](Trauma.md)
+- 广泛性焦虑障碍（GAD）
+- 创伤后应激障碍（PTSD）
+
+### 系统理论与实践
+
+- [系统运作指南（System Operations Guide）](System-Operations-Guide.md)
+- [系统角色（System Roles）](System-Roles.md)
+- [系统（System）](System.md)
 
 ## 参考与延伸阅读
 
-1. APA. (2022). _DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders_.
-2. Goodman, W. K., et al. (1989). The Yale-Brown Obsessive Compulsive Scale. _Arch Gen Psychiatry_, 46(11), 1006–1011.
-3. NICE. (2020). Obsessive-compulsive disorder: diagnosis and management.
+### 诊断标准与分类
+
+1. American Psychiatric Association. (2022). _Diagnostic and Statistical Manual of Mental Disorders_ (5th ed., text rev.). Washington, DC: APA.
+2. World Health Organization. (2022). _ICD-11: International Classification of Diseases_ (11th revision). Geneva: WHO. [6B20 Obsessive-compulsive disorder]
+
+### 评估与治疗
+
+3. Goodman, W. K., Price, L. H., Rasmussen, S. A., et al. (1989). The Yale-Brown Obsessive Compulsive Scale (Y-BOCS): Part I. Development, use, and reliability. _Archives of General Psychiatry_, 46(11), 1006–1011.
+4. NICE (National Institute for Health and Care Excellence). (2020). _Obsessive-compulsive disorder and body dysmorphic disorder: treatment_. Clinical guideline [CG31].
+5. Foa, E. B., Yadin, E., & Lichner, T. K. (2012). _Exposure and Response (Ritual) Prevention for Obsessive-Compulsive Disorder: Therapist Guide_ (2nd ed.). Oxford University Press.
+
+### 临床实践与指南
+
+6. International OCD Foundation (IOCDF). Resources and treatment guidelines. [https://iocdf.org](https://iocdf.org)
+7. UpToDate. (2024). Obsessive-compulsive disorder in adults: Epidemiology, pathogenesis, clinical manifestations, course, and diagnosis.
+
+### 多重意识体系统相关
+
+8. International Society for the Study of Trauma and Dissociation (ISSTD). Guidelines for treating dissociative identity disorder in adults (可参考共病管理部分).

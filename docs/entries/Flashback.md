@@ -7,8 +7,9 @@ tags:
 - 多重意识体
 
 topic: 诊断与临床
+description: 闪回（Flashback）现象详解：类型、触发因素与应对技巧。理解创伤记忆再现的机制，掌握接地与安全策略减轻闪回影响
 title: 闪回（Flashback）
-updated: 2025-10-13
+updated: 2025-10-14
 comments: true
 ---
 

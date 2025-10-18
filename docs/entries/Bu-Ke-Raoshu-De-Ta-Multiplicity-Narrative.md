@@ -3,12 +3,12 @@ tags:
 
 - 文化与表现
 - DID
-- 多重意识体
+- 多意识体
 - 解离
 
 topic: 文化与表现
 title: 《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）
-updated: 2025-10-13
+updated: 2025-10-18
 comments: true
 ---
 
@@ -41,10 +41,5 @@ comments: true
 - [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](Fight-Club-1999-Identity-Metaphor.md)
 - [系统（System）](System.md)
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
-- [多意识体系统基础（MPS Basics）](Mps-Basics.md)
-- [多意识体系统（MPS）](Multiple_Personality_System.md)
+- [多意识体系统（Multiple Personality System，MPS）](Multiple_Personality_System.md)
 - [混合（Blending）](Blending.md)
-
-## 参考资料
-
-- （待补充）

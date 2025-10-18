@@ -8,7 +8,7 @@ tags:
 
 topic: 文化与表现
 title: 虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）
-updated: 2025-10-13
+updated: 2025-10-18
 comments: true
 ---
 
@@ -45,7 +45,3 @@ comments: true
 - [投影（Projection）](Projection.md)
 - [傀儡（Servitor）](Servitor.md)
 - [头压（Head Pressure）](Head-Pressure.md)
-
-## 参考资料
-
-- （待补充）

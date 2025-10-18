@@ -7,8 +7,11 @@ tags:
 - 创伤
 
 topic: 系统运作
+description: 系统内部沟通技巧与方法：建立有效对话、解决冲突、增进合作。掌握日记、内部会议等实用工具，提升系统协作效率
 title: 内部沟通（Internal Communication）
-updated: 2025-10-13
+updated: 2025-10-17
+search:
+  boost: 1.5
 comments: true
 ---
 
@@ -49,11 +52,11 @@ comments: true
 ## 相关条目
 
 - [保护者（Protector）](Protector.md)
-- [小孩意识体（Little / Child Part）](Little.md)
+- [儿童人格（Little / Child Alter）](Child-Alter.md)
 - [人格职能（System Roles）](System-Roles.md)
 - [照顾者（Caregiver）](Caregiver.md)
 - [执行者（Performer / Executive）](Performer-Executive.md)
-- [青少年意识体（Teen Part）](Teen.md)
+- [青少年意识体（Teen Part）](Teen-Alter.md)
 - [成员（Alter）](Alter.md)
 - [迫害者（Persecutor）](Persecutor.md)
 

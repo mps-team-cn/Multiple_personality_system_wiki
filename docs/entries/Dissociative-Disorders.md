@@ -9,8 +9,11 @@ tags:
 - ICD-11
 
 topic: 诊断与临床
+description: 解离障碍（Dissociative Disorders）完整分类：DID、OSDD、DPDR、DA 等诊断概览。理解解离障碍谱系的临床特征与鉴别诊断
 title: 解离障碍（Dissociative Disorders）
-updated: 2025-10-13
+updated: 2025-10-17
+search:
+  boost: 1.8
 comments: true
 ---
 
@@ -82,9 +85,9 @@ comments: true
 
 **DSM-5-TR 编码**：300.15
 
-### 5. 未特定的解离障碍（USDD）
+### 5. 未特定的解离障碍（sdd）
 
-[未特定的解离障碍（USDD）](Unspecified-Dissociative-Disorder-USDD.md) 用于：
+[未特定的解离障碍（sdd）](Unspecified-Dissociative-Disorder-UDD.md) 用于：
 
 - 存在解离症状但信息不足以明确诊断
 - 紧急情况或初步评估阶段
@@ -133,7 +136,7 @@ comments: true
 
 | 诊断系统 | 分类位置 | 主要诊断类别 |
 |---------|---------|------------|
-| **DSM-5-TR** | 独立章节 | DID、DA、DPDR、OSDD、USDD |
+| **DSM-5-TR** | 独立章节 | DID、DA、DPDR、OSDD、sdd |
 | **ICD-11** | 独立章节（6B6x） | DID (6B64)、PDID (6B65)、DA (6B62)、DPDR (6B66)、其他解离障碍 (6B6Y/6B6Z) |
 
 ### 主要差异
@@ -267,14 +270,6 @@ comments: true
 ---
 
 ## 参考文献
-
-[^dsm5-tr]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). Arlington, VA: American Psychiatric Publishing.
-
-[^icd11]: World Health Organization. (2022). *ICD-11: International Classification of Diseases* (11th ed.). Geneva: WHO. [https://icd.who.int/](https://icd.who.int/)
-
-[^steele2017]: Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating Trauma-Related Dissociation: A Practical, Integrative Approach*. W. W. Norton & Company.
-
-[^brand2016]: Brand, B. L., Loewenstein, R. J., & Spiegel, D. (2016). Dispelling Myths About Dissociative Identity Disorder Treatment: An Empirically Based Approach. *Psychiatry*, 77(2), 169-189.
 
 ---
 

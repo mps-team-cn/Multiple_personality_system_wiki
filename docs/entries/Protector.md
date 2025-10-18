@@ -7,8 +7,11 @@ tags:
 - 创伤
 
 topic: 角色与身份
+description: 保护者（Protector）成员的类型、功能与工作方式。了解保护性成员如何维护系统安全、应对威胁及其可能的过度保护模式
 title: 保护者（Protector）
-updated: 2025-10-13
+updated: 2025-10-17
+search:
+  boost: 1.5
 comments: true
 ---
 
@@ -23,6 +26,7 @@ comments: true
 - **安全导向** : 对潜在威胁高度敏感，主动规避风险或建立规则。[^boon2011]
 - **角色分化** : 常区分外部保护（例如与外界沟通、设定界限）与内部保护（调解成员冲突、守护脆弱成员）。
 - **策略灵活** : 可依据情境采取谈判、教育、设限或直接行动等多元方式。
+- **高调节能力** : 根据[创伤功能分化理论](Functional-Dissociation-of-Trauma-in-Plural-Systems.md),保护者通常在 **承受/调节能力维度** 上表现突出,发展出危机管理、接地技巧、情绪调节策略等能力。在创伤加工期间,保护者可能成为系统的"稳定锚点",维持整体功能不崩溃。
 
 ## 社区用法与变体
 
@@ -39,6 +43,7 @@ comments: true
 
 - 在治疗中，与保护者建立共同目标、确认安全计划，可提升治疗联盟。[^isstd2011]
 - 提供明确资讯与透明沟通，减少保护者因信息不全而阻挡治疗进程。[^boon2011]
+- **调节能力培训** : 保护者的调节技能可以进一步训练与增强。即使系统尚未进行创伤加工,教授保护者新的接地技巧、情绪标识、现实检验方法,可提升系统整体稳定性,为后续治疗创造"安全窗口"。这体现了调节能力的独立训练性。
 
 ## 研究与参考
 
@@ -52,11 +57,19 @@ comments: true
 
 ## 相关条目
 
+### 功能分化理论
+
+- [多意识体系统中的创伤功能分化](Functional-Dissociation-of-Trauma-in-Plural-Systems.md)
+- [创伤持有者（Trauma Holder）](Trauma-Holder.md)
+- [记忆持有者（Memory Holder）](Memory-Holder.md)
+
+### 角色功能
+
 - [照顾者（Caregiver）](Caregiver.md)
+- [守门人（Gatekeeper）](Gatekeeper.md)
 - [迫害者（Persecutor）](Persecutor.md)
 - [人格职能（System Roles）](System-Roles.md)
 - [执行者（Performer / Executive）](Performer-Executive.md)
-- [小孩意识体（Little / Child Part）](Little.md)
-- [青少年意识体（Teen Part）](Teen.md)
+- [儿童人格（Little / Child Alter）](Child-Alter.md)
+- [青少年意识体（Teen Part）](Teen-Alter.md)
 - [内部沟通（Internal Communication）](Internal-Communication.md)
-- [记忆持有者（Memory Holder）](Memory-Holder.md)

@@ -8,7 +8,7 @@ tags:
 
 topic: 文化与表现
 title: 《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）
-updated: 2025-10-13
+updated: 2025-10-18
 comments: true
 ---
 
@@ -31,7 +31,7 @@ comments: true
 
 ## 关联词条
 
-- [青少年意识体（Teen Part）](Teen.md)
+- [青少年意识体（Teen Part）](Teen-Alter.md)
 - [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)
 - [创伤（Trauma）](Trauma.md)
 
@@ -42,10 +42,5 @@ comments: true
 - [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](Fight-Club-1999-Identity-Metaphor.md)
 - [系统（System）](System.md)
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
-- [多意识体系统基础（MPS Basics）](Mps-Basics.md)
-- [多意识体系统（MPS）](Multiple_Personality_System.md)
+- [多意识体系统（Multiple Personality System，MPS）](Multiple_Personality_System.md)
 - [图帕（Tulpa）](Tulpa.md)
-
-## 参考资料
-
-- （待补充）

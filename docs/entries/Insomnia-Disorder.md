@@ -127,7 +127,7 @@ DSM-5-TR 将失眠障碍的最短持续时间定义为 3 个月,而 ICD-11 则�
 
 - **精神障碍相关失眠**:
     - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md):早醒是抑郁的典型症状
-    - [焦虑（Anxiety）](Anxiety.md):过度担心和警觉导致入睡困难
+    - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md):过度担心和警觉导致入睡困难
     - [创伤后应激障碍（PTSD）](PTSD.md):创伤相关的过度警觉和噩梦常导致失眠
     - [躁狂发作](Bipolar-Disorders.md):睡眠需求减少但无疲劳感
 
@@ -142,7 +142,7 @@ DSM-5-TR 将失眠障碍的最短持续时间定义为 3 个月,而 ICD-11 则�
 - **核心共病**:
     - [创伤后应激障碍（PTSD）](PTSD.md) / [复杂性创伤后应激障碍（CPTSD）](CPTSD.md):几乎所有 PTSD 患者经历失眠,过度警觉与创伤记忆侵入是主要原因
     - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md):失眠与抑郁互为因果,失眠增加抑郁风险,抑郁也常伴失眠
-    - [焦虑（Anxiety）](Anxiety.md):慢性焦虑与担忧是失眠的常见诱因
+    - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md):慢性焦虑与担忧是失眠的常见诱因
 
 - **其他常见共病**:
     - [解离性身份障碍（DID）](DID.md):身份切换、内部冲突与创伤记忆导致的失眠
@@ -242,7 +242,7 @@ DSM-5-TR 将失眠障碍的最短持续时间定义为 3 个月,而 ICD-11 则�
 - [创伤后应激障碍（PTSD）](PTSD.md)
 - [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 
 ### 应对策略相关
 

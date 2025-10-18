@@ -20,7 +20,7 @@
 
 - `docs/entries/` 保存所有词条，严禁创建子目录；分类信息通过 Frontmatter 的 `tags` 维护
 - `docs/` 其余文档（`README.md`、`Glossary.md`、索引、导览等）
-- `tools/` 存放脚本与自动化工具，更新后同步维护 `docs/tools/README.md`
+- `tools/` 存放脚本与自动化工具，更新后同步维护 `docs/dev/Tools-Index.md`
 - 静态资源统一置于 `docs/assets/`，下设 `figures/`、`images/`、`icons/`
 
 ### 条目与链接
@@ -45,7 +45,9 @@
 
 ### 自动化工具
 
-- **CI 自动化**：词条修改推送后，GitHub Actions 会自动运行时间戳更新和格式修复，无需手动运行脚本
+- **CI 双重检查机制**：
+    - **PR 阶段**：自动检查链接规范和 Frontmatter 格式，发现问题会阻止合并
+    - **合并后**：自动更新时间戳、修复格式、再次验证链接，确保质量
 - 视任务执行 `markdownlint` 校验（可选）
 - 所有 Python 工具默认使用 `python3`
 - 大规模修改前必须确认相关索引、导览同步更新
@@ -106,13 +108,17 @@
 
 - 会话开始：校验约束 → 工具调用前：确认流程 → 回复前：核对检查清单
 - 词条编辑：检查 Frontmatter → 更新导览（格式和时间戳由 CI 自动处理）
-- 工具修改：同时更新 `docs/tools/README.md`
-- 提交后：CI 会自动运行 `update_git_timestamps.py` 和 `fix_markdown.py`
+- 工具修改：同时更新 `docs/dev/Tools-Index.md`
+- **CI 流程**：
+    - PR 创建时：运行 `pr-check.yml` 检查链接和 Frontmatter（只检查不修复）
+    - 合并到 main：运行 `auto-fix-entries.yml` 自动修复并提交
 
 ## 项目知识存储
 
 ═══════════════════════════════════════
 
-- **关键概念**：Plurality、多重意识体；Docsify→MkDocs 迁移；Frontmatter；Conventional Commits；CI 自动化
-- **重要路径**：`docs/contributing/`、`docs/TEMPLATE_ENTRY.md`、`docs/entries/`、`tools/`、`docs/tools/README.md`、`.github/workflows/`
-- **CI 自动化**：推送词条修改后，GitHub Actions 自动运行 `update_git_timestamps.py` 和 `fix_markdown.py`，然后触发 Cloudflare Pages 部署
+- **关键概念**：mps、多意识体；Docsify→MkDocs 迁移；Frontmatter；Conventional Commits；CI 双重检查
+- **重要路径**：`docs/contributing/`、`docs/TEMPLATE_ENTRY.md`、`docs/entries/`、`tools/`、`docs/dev/Tools-Index.md`、`.github/workflows/`
+- **CI 双重检查**：
+    - PR 阶段（`.github/workflows/pr-check.yml`）：检查链接规范和 Frontmatter，不通过则阻止合并
+    - 合并后（`.github/workflows/auto-fix-entries.yml`）：自动更新时间戳、修复格式、验证链接，然后触发部署

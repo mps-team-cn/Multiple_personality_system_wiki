@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）
-updated: 2025-10-13
+updated: 2025-10-14
 synonyms:
 
 - 多动症
@@ -109,7 +109,7 @@ DSM-5-TR 要求在 12 岁前出现至少 6 项注意力不集中症状和/或 6 
 
 - **学习障碍**：可共病，但 ADHD 主要表现为注意力和执行功能困难，而非特定学业技能缺陷。
 - **发育协调障碍（DCD）**：运动协调困难可与 ADHD 共存，需分别评估。
-- [**焦虑障碍（Anxiety）**](Anxiety.md) 或 [**抑郁障碍（Depressive Disorders）**](Depressive-Disorders.md)：可能引起注意力困难，但 ADHD 症状从儿童期即存在，不局限于情绪发作期。
+- [**焦虑障碍（Anxiety）**](Anxiety-Disorders.md) 或 [**抑郁障碍（Depressive Disorders）**](Depressive-Disorders.md)：可能引起注意力困难，但 ADHD 症状从儿童期即存在，不局限于情绪发作期。
 - [**孤独症谱系障碍（ASD）**](Autism-Spectrum-Disorder.md)：可共病，需分别评估社交沟通困难与注意力/多动问题。
 - [**双相障碍（Bipolar Disorders）**](Bipolar-Disorders.md)：躁狂期可能表现出类似多动和冲动，但 ADHD 症状是持续性的，不呈发作性。
 - **对立违抗障碍（ODD）和品行障碍（CD）**：常与 ADHD 共病，需分别评估反抗行为和冲动控制问题。
@@ -125,7 +125,7 @@ DSM-5-TR 要求在 12 岁前出现至少 6 项注意力不集中症状和/或 6 
 
 - **核心共病**
     - 对立违抗障碍（ODD）：约 40-60% 的 ADHD 儿童符合 ODD 诊断，表现为违抗权威、易怒和报复行为。
-    - [焦虑障碍（Anxiety）](Anxiety.md)：约 25-40% 的 ADHD 个体伴有焦虑障碍，可能因功能困难和挫折感引发。
+    - [焦虑障碍（Anxiety）](Anxiety-Disorders.md)：约 25-40% 的 ADHD 个体伴有焦虑障碍，可能因功能困难和挫折感引发。
     - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：成人 ADHD 患者抑郁风险增加，与慢性失败经历和低自尊相关。
 
 - **其他常见共病**
@@ -204,7 +204,7 @@ ADHD 的治疗通常采用多模式方法，结合药物和心理社会干预：
 
 ### 共病相关
 
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
 - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
 - [物质使用障碍（SUD）](Substance-Use-Disorders-SUD.md)

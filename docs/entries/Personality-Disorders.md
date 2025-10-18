@@ -7,7 +7,7 @@ tags:
 
 topic: 诊断与临床
 title: 人格障碍（Personality Disorders）
-updated: 2025-10-13
+updated: 2025-10-14
 synonyms:
 
 - 人格障碍
@@ -132,7 +132,7 @@ comments: true
 
 - **核心共病**
     - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：人格障碍患者抑郁发作风险显著升高。
-    - [焦虑（Anxiety）](Anxiety.md)：尤其 C 组人格障碍，常伴广泛性焦虑、社交焦虑。
+    - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)：尤其 C 组人格障碍，常伴广泛性焦虑、社交焦虑。
     - [物质使用障碍（SUD）](Substance-Use-Disorders-SUD.md)：B 组人格障碍物质滥用率高。
 - **其他常见共病**
     - [创伤后应激障碍（PTSD）](PTSD.md) / [复杂性 PTSD（CPTSD）](CPTSD.md)：许多人格障碍患者有早期创伤史。
@@ -214,7 +214,7 @@ comments: true
 ### 共病与治疗相关
 
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [创伤后应激障碍（PTSD）](PTSD.md)
 - [复杂性 PTSD（CPTSD）](CPTSD.md)
 - [解离性身份障碍（DID）](DID.md)

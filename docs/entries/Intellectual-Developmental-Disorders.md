@@ -7,7 +7,7 @@ tags:
 
 topic: 诊断与临床
 title: 智力发育障碍（Intellectual Developmental Disorders）
-updated: 2025-10-13
+updated: 2025-10-14
 synonyms:
 
 - 智力障碍
@@ -180,7 +180,7 @@ ICD-11 和 DSM-5-TR 的核心标准高度一致，均强调智力功能和适应
     - [癫痫](Epilepsy.md)：患病率随严重程度增加，轻度约 5-10%，重度和极重度可达 30-50%
 
 - **其他常见共病**
-    - 精神障碍：[焦虑](Anxiety.md)、[抑郁](Depressive-Disorders.md)、行为障碍（约 30-40% 的 IDD 个体有精神健康问题）
+    - 精神障碍：[焦虑](Anxiety-Disorders.md)、[抑郁](Depressive-Disorders.md)、行为障碍（约 30-40% 的 IDD 个体有精神健康问题）
     - 感官障碍：视力和听力问题发生率高于一般人群
     - 运动障碍：脑性瘫痪、协调困难
     - 睡眠障碍：失眠、睡眠呼吸暂停
@@ -270,7 +270,7 @@ IDD 的支持采用多学科协作、以能力为基础的方法：
 
 ### 共病相关
 
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
 - 癫痫（Epilepsy）
 - 睡眠障碍（Sleep Disorders）

@@ -8,7 +8,7 @@ tags:
 
 topic: 文化与表现
 title: 卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）
-updated: 2025-10-13
+updated: 2025-10-18
 comments: true
 ---
 
@@ -32,7 +32,7 @@ comments: true
 ## 关联词条
 
 - [身份解体（Dissociation）](Dissociation.md)
-- [非我感（Depersonalization）](Depersonalization.md)
+- [非我感（Depersonalization）](Not-Me-Feeling.md)
 - [独立性（Independence）](Independence.md)
 
 ## 相关条目
@@ -45,7 +45,3 @@ comments: true
 - [自发型（Spontaneous）](Spontaneous.md)
 - [人格面具（Persona）](Persona.md)
 - [主体（Main）](Main.md)
-
-## 参考资料
-
-- （待补充）

@@ -8,7 +8,7 @@ tags:
 
 topic: 文化与表现
 title: 《西比尔》（Sybil, 1976）与多重人格文化原型
-updated: 2025-10-13
+updated: 2025-10-18
 comments: true
 ---
 
@@ -46,7 +46,3 @@ comments: true
 - [自发型（Spontaneous）](Spontaneous.md)
 - [人格面具（Persona）](Persona.md)
 - [主体（Main）](Main.md)
-
-## 参考资料
-
-- （待补充）

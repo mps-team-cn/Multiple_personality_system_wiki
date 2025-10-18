@@ -3,6 +3,13 @@
 {% block extrahead %}
   {{ super() }}
 
+  <!-- Favicon (多尺寸支持) -->
+  <link rel="icon" type="image/x-icon" href="{{ config.site_url }}favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ config.site_url }}assets/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ config.site_url }}assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="{{ config.site_url }}assets/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ config.site_url }}assets/apple-touch-icon.png">
+
   {% if page %}
   <!-- Open Graph Meta Tags -->
   <meta property="og:site_name" content="Multiple Personality System Wiki - 多意识体系统百科">
@@ -20,9 +27,22 @@
   <meta name="twitter:image" content="{{ config.site_url }}assets/images/twitter-banner.png">
 
   <!-- 额外的 SEO meta 标签 -->
-  <meta name="keywords" content="多重人格系统,解离障碍,DID,OSDD,创伤疗愈,心理健康,Tulpa,多意识体系统{% if page.meta and page.meta.tags %},{{ page.meta.tags | join(', ') }}{% endif %}">
+  {% set base_keywords = ["多重人格系统", "解离障碍", "DID", "OSDD", "创伤疗愈", "心理健康", "Tulpa", "多意识体系统"] %}
+  {% if page.meta and page.meta.tags %}
+    {% set page_keywords = base_keywords + page.meta.tags[:4] %}
+  {% else %}
+    {% set page_keywords = base_keywords %}
+  {% endif %}
+  <meta name="keywords" content="{{ page_keywords[:12] | join(', ') }}">
   <meta name="author" content="{{ config.site_author }}">
-  <link rel="canonical" href="{{ page.canonical_url }}">
+  {# canonical 标签已由 MkDocs Material 主题自动生成，无需重复添加 #}
+  {% endif %}
+
+  {# 将 GA Measurement ID 注入到全局，供延迟加载脚本使用 #}
+  {% if config.extra and config.extra.analytics and config.extra.analytics.property %}
+  <script>
+    window.GA_MEASUREMENT_ID = "{{ config.extra.analytics.property }}";
+  </script>
   {% endif %}
 {% endblock %}
 

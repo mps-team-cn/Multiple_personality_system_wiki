@@ -5,6 +5,7 @@ from __future__ import annotations
 import re
 import sys
 from collections import OrderedDict, defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Iterable
 
@@ -41,53 +42,106 @@ def _build_preface_section(ignore: IgnoreRules) -> tuple[str, tuple[EntryDocumen
     return ("前言", (document,))
 
 
+def _load_single_entry(path: Path) -> EntryDocument | tuple[Path, Exception]:
+    """加载单个词条文件，返回 EntryDocument 或错误信息。"""
+    try:
+        return load_entry_document(path)
+    except FrontmatterError as error:
+        return (path, error)
+    except OSError as error:
+        return (path, error)
+
+
+def _load_single_guide(path: Path) -> EntryDocument | None:
+    """加载单个导览页面，返回 EntryDocument 或 None（失败时）。"""
+    try:
+        return load_entry_document(path)
+    except FrontmatterError:
+        # 导览页面可能没有 frontmatter，使用简化处理
+        try:
+            content = path.read_text(encoding="utf-8")
+            return EntryDocument(
+                path=path.resolve(),
+                title=infer_entry_title(path),
+                tags=(),
+                topic="",
+                body=content,
+            )
+        except OSError as error:
+            print(f"警告: 无法读取 {path}: {error}", file=sys.stderr)
+            return None
+
+
 def _load_entry_documents(ignore: IgnoreRules) -> OrderedDict[Path, EntryDocument]:
-    """读取 entries 目录中的词条和 docs 目录中的导览页面，并保留原始文件名顺序。"""
+    """读取 entries 目录中的词条和 docs 目录中的导览页面，并保留原始文件名顺序。
+
+    使用并行 I/O 加速大量文件的读取过程。
+    """
 
     documents: OrderedDict[Path, EntryDocument] = OrderedDict()
 
-    # 加载词条目录中的文件
+    # 加载词条目录中的文件（并行化）
     if ENTRIES_DIR.exists():
-        for path in sorted(ENTRIES_DIR.glob("*.md")):
-            if ignore.matches(path):
-                continue
-            try:
-                document = load_entry_document(path)
-            except FrontmatterError as error:
-                raise SystemExit(f"解析 {path} 的 frontmatter 失败：{error}") from error
-            documents[document.path] = document
+        entry_paths = [
+            path for path in sorted(ENTRIES_DIR.glob("*.md"))
+            if not ignore.matches(path)
+        ]
+
+        # 使用线程池并行读取文件（I/O 密集型任务适合多线程）
+        # 最多使用 8 个线程，避免过多线程导致资源竞争
+        max_workers = min(8, len(entry_paths)) if entry_paths else 1
+
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            # 提交所有任务并保持路径顺序
+            future_to_path = {
+                executor.submit(_load_single_entry, path): path
+                for path in entry_paths
+            }
+
+            # 按提交顺序收集结果
+            for path in entry_paths:
+                future = next(f for f, p in future_to_path.items() if p == path)
+                result = future.result()
+
+                if isinstance(result, EntryDocument):
+                    documents[result.path] = result
+                elif isinstance(result, tuple):
+                    # 错误情况
+                    error_path, error = result
+                    raise SystemExit(f"解析 {error_path} 的 frontmatter 失败：{error}") from error
 
     # 加载 docs 目录中的导览页面（排除 index.md 和 Preface.md）
     if DOCS_DIR.exists():
         guide_patterns = [
             "*-Guide.md",  # 所有以 -Guide.md 结尾的文件
-            "*-Operations.md",  # System-Operations.md 等
+            "*-Operations-Guide.md",  # System-Operations-Guide.md 等
             "DSM-ICD-*.md",  # DSM-ICD-Diagnosis-Index.md 等
             "Glossary.md",  # 术语表
         ]
+
+        guide_paths = []
         for pattern in guide_patterns:
             for path in sorted(DOCS_DIR.glob(pattern)):
                 if ignore.matches(path):
                     continue
                 if path.name in ("index.md", "Preface.md"):
                     continue
-                try:
-                    document = load_entry_document(path)
-                except FrontmatterError:
-                    # 导览页面可能没有 frontmatter，使用简化处理
-                    try:
-                        content = path.read_text(encoding="utf-8")
-                        document = EntryDocument(
-                            path=path.resolve(),
-                            title=infer_entry_title(path),
-                            tags=(),
-                            topic="",
-                            body=content,
-                        )
-                    except OSError as error:
-                        print(f"警告: 无法读取 {path}: {error}", file=sys.stderr)
-                        continue
-                documents[document.path] = document
+                guide_paths.append(path)
+
+        # 并行加载导览页面
+        if guide_paths:
+            max_workers = min(8, len(guide_paths))
+            with ThreadPoolExecutor(max_workers=max_workers) as executor:
+                future_to_path = {
+                    executor.submit(_load_single_guide, path): path
+                    for path in guide_paths
+                }
+
+                for path in guide_paths:
+                    future = next(f for f, p in future_to_path.items() if p == path)
+                    document = future.result()
+                    if document is not None:
+                        documents[document.path] = document
 
     return documents
 

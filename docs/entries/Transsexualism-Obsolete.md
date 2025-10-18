@@ -13,7 +13,7 @@ synonyms:
     - 变性欲
     - Transsexualism
 
-updated: 2025-10-13
+updated: 2025-10-14
 comments: true
 ---
 
@@ -197,7 +197,7 @@ DSM 系统未使用"易性症"术语，而采用以下演变：
 
 - [性别不安（Gender Dysphoria，GD）](Gender-Dysphoria-GD.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [创伤后应激障碍（PTSD）](PTSD.md)
 - [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)
 - [解离性身份障碍（DID）](DID.md)

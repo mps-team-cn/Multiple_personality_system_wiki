@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 性别不安（Gender Dysphoria，GD）
-updated: 2025-10-13
+updated: 2025-10-14
 synonyms:
 
 - 性别焦虑
@@ -101,7 +101,7 @@ DSM-5-TR 强调 GD 带来的痛苦与功能障碍，区分儿童与成人标准�
 
 - **核心共病**
     - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：持续性悲伤、绝望与兴趣丧失，常源于社会歧视、家庭拒绝与身份痛苦。
-    - [焦虑（Anxiety）](Anxiety.md)及相关焦虑障碍：高度社会焦虑、惊恐发作与广泛性焦虑，与暴露风险、安全顾虑相关。
+    - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)及相关焦虑障碍：高度社会焦虑、惊恐发作与广泛性焦虑，与暴露风险、安全顾虑相关。
     - [创伤后应激障碍（PTSD）](PTSD.md) / [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)：性别少数常遭遇歧视、霸凌、家庭拒绝或性别暴力，这些社会性创伤显著提高创伤相关障碍风险。
 
 - **其他常见共病**
@@ -162,14 +162,14 @@ GD 的照护通常遵循多层次、个别化的支持模式：
 - [创伤后应激障碍（Post-Traumatic Stress Disorder，PTSD）](PTSD.md)
 - [复杂性创伤后应激障碍（Complex PTSD，CPTSD）](CPTSD.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [自闭症谱系障碍（Autism Spectrum Disorder，ASD）](Autism-Spectrum-Disorder.md)
 
 ### 身份与创伤相关
 
 - [创伤（Trauma）](Trauma.md)
 - [身体认同（Body Ownership）](Body-Ownership.md)
-- [多意识体系统（MPS）](Multiple_Personality_System.md)
+- [多意识体系统（Multiple Personality System，MPS）](Multiple_Personality_System.md)
 
 ### 导览
 

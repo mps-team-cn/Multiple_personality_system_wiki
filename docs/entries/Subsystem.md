@@ -8,7 +8,9 @@ tags:
 
 topic: 系统运作
 title: 子系统（Subsystem）
-updated: 2025-10-13
+updated: 2025-10-17
+search:
+  boost: 1.5
 synonyms:
 
 - 子系统
@@ -132,7 +134,7 @@ comments: true
 - [整合（Integration）](Integration.md)
 - [融合（Fusion）](Fusion.md)
 - [超级破碎（Polyfragmented）](Polyfragmented.md)
-- [非我感（Depersonalization）](Depersonalization.md)
+- [非我感（Depersonalization）](Not-Me-Feeling.md)
 
 ## 参考与延伸阅读
 

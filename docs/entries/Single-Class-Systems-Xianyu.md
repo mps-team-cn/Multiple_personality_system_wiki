@@ -8,7 +8,7 @@ tags:
 
 topic: 系统运作
 title: 单一类系统（Single-Class Systems, Xianyu Theory）
-updated: 2025-10-13
+updated: 2025-10-18
 comments: true
 ---
 
@@ -108,4 +108,4 @@ comments: true
 - [创伤（Trauma）](Trauma.md)
 - [T 语（Tulpish）](Tulpish.md)
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](OCD.md)
-- [偏重（Bias / Median）](Bias.md)
+- [偏重（Median / Bias）](Median-Bias.md)

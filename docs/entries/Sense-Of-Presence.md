@@ -8,15 +8,17 @@ tags:
 
 topic: 系统运作
 title: 存在感（Sense of Presence）
-updated: 2025-10-13
+synonyms:
+
+    - 共感知
+    - Sense of Presence
+    - Co-awareness
+
+updated: 2025-10-18
 comments: true
 ---
 
 # 存在感（Sense of Presence）
-
-## 同义词
-
-共感知、Sense of Presence、Co-awareness
 
 ## 定义
 
@@ -51,7 +53,7 @@ comments: true
 - [意识共存（Co-consciousness）](Co-Consciousness.md)
 - [意识修改（Consciousness Modification）](Consciousness-Modification.md)
 - [封存（Sequestration）](Sequestration.md)
-- [非我感（Depersonalization）](Depersonalization.md)
+- [非我感（Depersonalization）](Not-Me-Feeling.md)
 - [应激反应（Stress Response）](Stress-Response.md)
 - [重构（Reconstruction）](Reconstruction.md)
 - [迭代（Iteration）](Iteration.md)

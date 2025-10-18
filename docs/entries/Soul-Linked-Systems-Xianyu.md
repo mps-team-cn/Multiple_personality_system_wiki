@@ -8,7 +8,7 @@ tags:
     - 创伤
 
 topic: 系统运作
-updated: 2025-10-13
+updated: 2025-10-18
 comments: true
 ---
 
@@ -85,11 +85,11 @@ comments: true
 - [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](Xianyu-Theory-Niche-Classification.md)
 - [系魂（Soulbond）](Soulbond.md)
 - [T 语（Tulpish）](Tulpish.md)
-- [偏重（Bias / Median）](Bias.md)
+- [偏重（Median / Bias）](Median-Bias.md)
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](OCD.md)
 - [创伤（Trauma）](Trauma.md)
 - [接地（Grounding）](Grounding.md)
-- [系统运作指南（System Operations）](System-Operations.md)
+- [系统运作指南（System Operations）](System-Operations-Guide.md)
 
 ---
 

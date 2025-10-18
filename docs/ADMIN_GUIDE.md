@@ -10,7 +10,7 @@
     - [贡献指南](contributing/index.md) - 通用贡献流程
     - [PR 提交流程](contributing/pr-workflow.md) - 详细提交步骤
     - [AGENTS.md](../AGENTS.md) - 项目开发约定
-    - [工具文档](tools/README.md) - 自动化工具说明
+    - [工具文档](dev/Tools-Index.md) - 自动化工具说明
 
 ---
 
@@ -317,7 +317,7 @@ collections:
 | ------- | ----------------------------------- | ------- |
 | 理论与分类   | `Theory-Classification-Guide.md`    | ~22     |
 | 诊断与临床   | `Clinical-Diagnosis-Guide.md`       | ~31     |
-| 系统运作    | `System-Operations.md`              | ~48     |
+| 系统运作    | `System-Operations-Guide.md`        | ~48     |
 | 角色与身份   | `Roles-Identity-Guide.md`           | ~30     |
 | 文化与表现   | `Cultural-Media-Guide.md`           | ~17     |
 | 创伤与疗愈   | `Trauma-Healing-Guide.md`           | ~5      |
@@ -430,7 +430,7 @@ python tools/pdf_export/export_to_pdf.py \
   --cjk-font="Microsoft YaHei"
 ```
 
-详见 [工具文档](tools/README.md#pdf-导出工具)。
+详见 [工具文档](dev/Tools-Index.md#pdf-导出工具)。
 
 ---
 
@@ -587,7 +587,7 @@ gh release create v1.4.0 --notes-file docs/changelog.md
 | PR 流程  | `docs/contributing/pr-workflow.md`    |
 | 编写规范   | `docs/contributing/writing-guidelines.md` |
 | 开发约定   | `AGENTS.md`                           |
-| 工具文档   | `docs/tools/README.md`                |
+| 工具文档   | `docs/dev/Tools-Index.md`                |
 | 词条模板   | `docs/TEMPLATE_ENTRY.md`              |
 | GitHub 工作流 | `docs/GITHUB_WORKFLOW.md`             |
 

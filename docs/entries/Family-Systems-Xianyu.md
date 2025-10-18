@@ -8,7 +8,7 @@ tags:
 
 topic: 系统运作
 title: 家族式系统（Family Systems, Xianyu Theory）
-updated: 2025-10-13
+updated: 2025-10-18
 comments: true
 ---
 
@@ -113,7 +113,7 @@ comments: true
 - [T 语（Tulpish）](Tulpish.md)
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](OCD.md)
 - [创伤（Trauma）](Trauma.md)
-- [偏重（Bias / Median）](Bias.md)
+- [偏重（Median / Bias）](Median-Bias.md)
 
 ## 参考与来源
 

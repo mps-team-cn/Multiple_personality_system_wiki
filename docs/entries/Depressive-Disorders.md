@@ -7,8 +7,11 @@ tags:
 - 创伤
 
 topic: 诊断与临床
+description: 概述抑郁障碍的诊断标准、临床表现、共病风险与创伤相关机制，辅助多意识体系统制定支持策略。
 title: 抑郁障碍（Depressive Disorders）
-updated: 2025-10-13
+updated: 2025-10-17
+search:
+  boost: 1.8
 comments: true
 ---
 
@@ -24,7 +27,9 @@ comments: true
 
 ## 概述
 
-抑郁障碍（Depressive Disorders）是一组以持续或反复的抑郁心境、兴趣丧失及多系统功能受损为特征的情绪障碍，包括重度抑郁障碍、持续性抑郁障碍、破坏性心境失调障碍等谱系。核心症状除了情绪低落，还包括认知与躯体变化，如注意力下降、睡眠紊乱、疲劳与自我价值感受损。抑郁障碍可影响任何年龄层，对学习、工作、人际关系和安全产生深远影响。
+抑郁障碍（Depressive Disorders）是一组以持续或反复的抑郁心境、兴趣下降及多领域功能损害为特征的[情绪障碍（Affective Disorders）](Affective-Disorders.md)谱系诊断。核心类别包括[重度抑郁障碍（Major Depressive Disorder，MDD）](Major-Depressive-Disorder-MDD.md)、[持续性抑郁障碍（Persistent Depressive Disorder，PDD）](Persistent-Depressive-Disorder-PDD.md)与破坏性心境失调障碍等。除情绪低落外，常见认知与躯体表现涵盖注意力受限、睡眠紊乱、疲劳、罪恶或无望感，并可能伴随焦虑与躯体疼痛。
+
+抑郁障碍可影响任何年龄与性别，对学习、工作、人际及安全感造成深远影响。多意识体系统成员若长期承担前台负荷、缺乏内部沟通或遭遇创伤触发，更容易出现抑郁化的情绪与身体体验，需要协调角色、编排休息并寻求外部支持。
 
 ---
 
@@ -34,23 +39,19 @@ comments: true
 
 - ICD-11 将抑郁障碍归于“情绪障碍”章节，强调持续的情绪低落、兴趣或愉悦感下降，并伴随能量减少、注意力困难、自我价值感降低等症状。[^who2023dep]
 - 严重度（轻度、中度、重度）依据症状数量与功能损害程度划分，可标注伴随症状（如躯体综合征）。
-- 需排除躁狂或轻躁狂发作，评估病程（单次发作或复发）。
-
-- **来源** : World Health Organization. *ICD-11 for Mortality and Morbidity Statistics*（2023 版，检索于 2025 年 1 月）。
+- 需排除躁狂或轻躁狂发作，并评估病程（单次发作或复发）。
 
 ### DSM-5-TR 摘要
 
 - DSM-5-TR 将抑郁障碍分为破坏性心境失调障碍、重度抑郁障碍、持续性抑郁障碍、经前期烦躁障碍、物质/药物所致抑郁障碍、由医学状况所致抑郁障碍及其他特定/未特定抑郁障碍。[^apa2022]
 - 重度抑郁障碍诊断需在同一 2 周期间存在至少 5 项症状，其中包括抑郁心境或兴趣丧失，并造成功能受损。
-- 可使用“伴焦虑困扰”“伴忧郁特征”“伴精神病性特征”等说明子类型及病程（部分缓解、完全缓解、复发性）。
-
-- **来源** : American Psychiatric Association. *Diagnostic and Statistical Manual of Mental Disorders*（5th ed., text rev., 2022）。
+- 可使用“伴焦虑困扰”“伴忧郁特征”“伴精神病性特征”等标注子类型及病程（部分缓解、完全缓解、复发性）。
 
 ### 差异说明
 
-- ICD-11 注重症状持续时间与严重度分级，诊断结构较为精简；DSM-5-TR 则细分多种特定类别与说明。
-- DSM-5-TR 允许将破坏性心境失调障碍限定在 6–18 岁，而 ICD-11 将其视为“抑郁发作”的一种变式。
-- 两套体系均要求排除躁狂/轻躁狂病史，以避免误诊双相障碍。
+- ICD-11 注重症状持续时间与严重度分级，诊断结构较为精简；DSM-5-TR 则细分多种特定类别与说明用语。
+- DSM-5-TR 将破坏性心境失调障碍限定在 6–18 岁；ICD-11 将相关表现视为抑郁发作的变式并在编码上归类于抑郁障碍。
+- 两套体系均要求排除躁狂/轻躁狂病史，以避免将[双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)误诊为单纯抑郁。
 
 ---
 
@@ -65,9 +66,9 @@ comments: true
 
 ## 解离机制与背景
 
-- **创伤与压力** : 复杂创伤、持续性压力、歧视或社会孤立会增加抑郁风险，并可能与解离症状交互影响。
-- **神经生物学** : 神经递质（5-HT、NE、DA）失衡、HPA 轴过度激活、炎症反应与神经网络连结改变与抑郁有关。[^krishnan2008]
-- **认知与社会因素** : 负性归因、完美主义、长期照护压力或多意识系统内部冲突均可加重抑郁体验。
+- **创伤与压力脆弱性** : 复杂性创伤、长期歧视或社会孤立会提升抑郁风险，并与[创伤后应激障碍（PTSD）](PTSD.md)/[复杂性创伤后应激障碍（CPTSD）](CPTSD.md)的再体验与回避相互作用。
+- **神经生物学** : 神经递质（5-HT、NE、DA）失衡、HPA 轴过度激活、炎症反应与神经网络连结改变均与抑郁有关。[^krishnan2008]
+- **认知与系统因素** : 负性归因、完美主义、长期照护压力或多意识体系统内部的冲突与信息断裂，会加重抑郁体验并降低求助动机。
 
 ---
 
@@ -81,48 +82,61 @@ comments: true
 
 ## 鉴别诊断
 
-- **双相障碍** : 存在躁狂或轻躁狂发作；抑郁障碍无此病史。
-- **哀伤或适应障碍** : 哀伤与特定丧失事件相关，情绪波动随时间改善；抑郁障碍症状更持久且广泛影响功能。
-- **躯体疾病** : 甲状腺功能低下、贫血、慢性疼痛、神经系统疾病可呈现类似症状，需要医学评估。
-- **药物或物质影响** : 糖皮质激素、干扰素、酒精或药物戒断均可能引发抑郁样表现。
+- [**双相障碍（Bipolar Disorders）**](Bipolar-Disorders.md) : 存在躁狂或轻躁狂发作，情绪波动呈周期性；抑郁障碍无此病史。
+- [**适应障碍（Adjustment Disorders）**](Adjustment-Disorders.md) 与哀伤反应：多与特定丧失事件相关，情绪波动随时间自然缓解；抑郁障碍症状更持久且广泛影响功能。
+- 躯体疾病：甲状腺功能低下、贫血、慢性疼痛或神经系统疾病可呈现类似症状，需要医学评估。
+- 物质或药物影响：糖皮质激素、干扰素、酒精或药物戒断均可能引发抑郁样表现。
 
 ---
 
 ## 共病与风险管理
 
-- 常见共病：焦虑障碍、PTSD/CPTSD、物质使用障碍、饮食障碍、强迫症、慢性疼痛或心身疾病。[^kessler2012]
-- 需持续评估自杀风险、物质使用、安全计划与社会支持；在多意识系统中应关注成员之间情绪负荷的分配。
-- 长期病程需监测药物副作用、代谢指标与功能恢复情况。
+- 常见共病：焦虑障碍（如[焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)）、PTSD/CPTSD、[物质使用障碍（Substance Use Disorders，SUD）](Substance-Use-Disorders-SUD.md)、[饮食障碍（Eating Disorders）](Eating-Disorders-ED.md)、强迫症、慢性疼痛或心身疾病。[^kessler2012]
+- 需定期评估自杀风险、物质使用、安全计划与社会支持；多意识体系统可通过共享日志、内部会议分配情绪负荷，降低个别成员的崩溃风险。
+- 长期病程需监测药物副作用、代谢指标与功能恢复情况，必要时与初级照护、心理治疗及精神科团队协作。
 
 ---
 
-## 治疗与支持
+## 治疗流程
 
-- **心理治疗** : 认知行为疗法（CBT）、人际疗法（IPT）、行为激活、正念减压、创伤知情治疗等为循证方法。[^cuijpers2021]
-- **药物治疗** : 首选 SSRIs/SNRIs，也可考虑 NaSSA、NDRI、三环类、MAOI 或情绪稳定剂，需由精神科医师评估并监测副作用。
-- **综合策略** : 规律运动、睡眠卫生、营养管理、光照疗法、经颅磁刺激（rTMS）或电休克治疗（ECT）适用于特定情境。
-- **支持系统** : 建立危机应对计划、同伴支持、家庭教育及工作/学业合理调整。
+1. **安全稳定化** ：评估自杀或自伤风险、物质使用与生活危机，必要时启动紧急资源或住院。鼓励系统成员透过内部协议分享危机信号，设置轮班或减压安排，避免单一身份长期前台。
+2. **症状缓解与功能恢复** ：在专业指导下运用[认知行为疗法（Cognitive Behavioral Therapy，CBT）](Cognitive-Behavioral-Therapy-CBT.md)、行为激活、正念练习与[辩证行为疗法（Dialectical Behavior Therapy，DBT）](Dialectical-Behavior-Therapy-DBT.md)等循证方法。必要时配合抗抑郁药物（SSRIs/SNRIs、NaSSA、NDRI、三环类或 MAOI），由精神科医师负责评估与监测副作用。[^cuijpers2021]
+3. **复发预防与长期维护** ：建立危机预案、睡眠与运动节律、社会支持网络，并通过[接地技巧（Grounding）](Grounding.md)、[正念（Mindfulness）](Mindfulness.md)等工具维持情绪调节。对于多意识体系统，建议建立共享日历、内部沟通板与外部支援团队以维持功能。
 
 ---
 
 ## 社群与临床语境
 
-- 社群中“抑郁”常被泛化为所有低落情绪，容易忽略临床诊断标准；需倡导对专业评估与治疗的尊重。
-- 临床实践强调创伤知情与文化敏感性，避免将抑郁归因于意志薄弱或道德问题。
-- 多意识系统成员可能因前台负荷过重出现抑郁化表现，需要协调内部角色与休息时间。
+- 社群中“抑郁”常被泛化为短暂低落，容易忽略临床诊断标准；需倡导尊重专业评估、避免自我诊断。
+- 临床实践强调创伤知情、文化敏感与少数群体友善的介入，避免将抑郁归因于意志薄弱或道德问题。
+- 多意识体系统可透过内部信号词、情绪记录、同伴协作与外部治疗师协助，维持安全空间与负荷平衡。
 
 ---
 
 ## 相关条目
 
-- [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
+### 情绪障碍相关
+
 - [心境障碍（Affective Disorders）](Affective-Disorders.md)
-- [谵妄（Delirium）](Delirium.md)
-- [躁狂（Mania）](Mania.md)
-- [精神分裂症（Schizophrenia，SC）](Schizophrenia-SC.md)
-- [孤独症谱系（Autism Spectrum Disorder）](Autism-Spectrum-Disorder.md)
+- [重度抑郁障碍（Major Depressive Disorder，MDD）](Major-Depressive-Disorder-MDD.md)
+- [持续性抑郁障碍（Persistent Depressive Disorder，PDD）](Persistent-Depressive-Disorder-PDD.md)
+- [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
 - [轻躁狂（Hypomania）](Hypomania.md)
-- [定向障碍（Disorientation）](Disorientation.md)
+
+### 解离与创伤
+
+- [创伤后应激障碍（PTSD）](PTSD.md)
+- [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)
+- [创伤（Trauma）](Trauma.md)
+- [解离（Dissociation）](Dissociation.md)
+
+### 支持与工具
+
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
+- [正念（Mindfulness）](Mindfulness.md)
+- [接地技巧（Grounding）](Grounding.md)
+- [认知行为疗法（Cognitive Behavioral Therapy，CBT）](Cognitive-Behavioral-Therapy-CBT.md)
+- [辩证行为疗法（Dialectical Behavior Therapy，DBT）](Dialectical-Behavior-Therapy-DBT.md)
 
 ## 参考与延伸阅读
 

@@ -7,8 +7,9 @@ tags:
 - 解离
 
 topic: 系统运作
+description: 多意识体系统（MPS）概念详解：定义、类型、运作机制与日常管理。了解多重人格系统的本质、成员关系及协作方式的专业指南
 title: 多意识体系统（Multiple Personality System）
-updated: 2025-10-13
+updated: 2025-10-18
 synonyms:
 
 - 多意识体系统
@@ -16,15 +17,14 @@ synonyms:
 - 多意识体
 - Plurality
 - duochong renge xitong
+- mps
 
+search:
+  boost: 1.5
 comments: true
 ---
 
 # 多意识体系统（Multiple Personality System）
-
-## 同义词
-
-多重意识、Plurality、Plural 身份、复数系统、多意识体
 
 ## 定义
 
@@ -69,7 +69,6 @@ comments: true
 
 ## 相关条目
 
-- [多意识体系统基础（MPS Basics）](Mps-Basics.md)
 - [系统（System）](System.md)
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
 - [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md)

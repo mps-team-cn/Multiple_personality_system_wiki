@@ -37,6 +37,49 @@ EXTERNAL_SCHEMES = ("http://", "https://", "//", "ftp://", "ftps://", "mailto:",
 # 锚点前缀
 ANCHOR_PREFIXES = ("#", "#/")
 
+# 排除目录
+EXCLUDE_DIRS = {
+    "node_modules",
+    ".git",
+    "__pycache__",
+    "venv",
+    ".venv",
+    "tools/pdf_export/vendor",
+}
+
+# 排除文件（模板、示例、文档等）
+EXCLUDE_FILES = {
+    # 模板和示例文件
+    "docs/TEMPLATE_ENTRY.md",
+    "docs/404.md",
+    # Contributing 指南
+    "docs/contributing/index.md",
+    "docs/contributing/technical-conventions.md",
+    "docs/contributing/writing-guidelines.md",
+    "docs/contributing/pr-workflow.md",
+    "docs/contributing/academic-citation.md",
+    "docs/contributing/clinical-guidelines.md",
+    # 开发文档
+    "docs/dev/INDEX_GUIDE.md",
+    "docs/dev/MIGRATION_REPORT.md",
+    "docs/dev/IMPROVEMENT_SUGGESTIONS.md",
+    # 工具和计划文档
+    "tools/REFACTORING_PLAN.md",
+    "tools/pdf_export/MIGRATION_NOTES.md",
+    "tools/pdf_export/README_pdf_output.md",
+    "tools/pdf_export/ignore.md",
+    # 元数据文档
+    "docs/changelog.md",
+    # README 文件
+    "docs/dev/Tools-Index.md",
+    "docs/dev/Tools-Core.md",
+    "docs/admin/README.md",
+    "docs/assets/README.md",
+    "docs/assets/uploads/README.md",
+    "tools/deprecated/README.md",
+    "README.md",
+}
+
 
 def is_image(prefix: str) -> bool:
     """检查是否为图片链接"""
@@ -245,13 +288,28 @@ def validate_link(
         return True, ""
 
 
-def check_file(md_path: Path, repo_root: Path) -> List[Tuple[int, str, str]]:
+def check_file(md_path: Path, repo_root: Path, exclude_files: Set[str] = None) -> List[Tuple[int, str, str]]:
     """
     检查单个 Markdown 文件的链接
+
+    Args:
+        md_path: Markdown 文件路径
+        repo_root: 仓库根目录
+        exclude_files: 排除文件集合
 
     Returns:
         违规列表：[(行号, 目标, 错误信息), ...]
     """
+    exclude_files = exclude_files or EXCLUDE_FILES
+
+    # 检查文件是否在排除列表中
+    try:
+        rel_path_str = str(md_path.relative_to(repo_root)).replace("\\", "/")
+        if rel_path_str in exclude_files:
+            return []
+    except ValueError:
+        pass
+
     violations = []
     source_context = get_file_context(md_path, repo_root)
 
@@ -280,33 +338,8 @@ def check_file(md_path: Path, repo_root: Path) -> List[Tuple[int, str, str]]:
 
 def find_md_files(root: Path, exclude_dirs: Set[str] = None, exclude_files: Set[str] = None) -> List[Path]:
     """查找所有 Markdown 文件"""
-    if exclude_dirs is None:
-        exclude_dirs = {
-            "node_modules",
-            ".git",
-            "__pycache__",
-            "venv",
-            ".venv",
-            "tools/pdf_export/vendor",
-        }
-
-    if exclude_files is None:
-        exclude_files = {
-            # 文档示例和说明文件（包含示例链接）
-            "docs/contributing/技术约定.md",
-            "docs/contributing/编写规范.md",
-            "docs/contributing/PR流程.md",
-            "docs/TEMPLATE_ENTRY.md",
-            # 迁移和计划文档
-            "tools/pdf_export/MIGRATION_NOTES.md",
-            "tools/REFACTORING_PLAN.md",
-            # 开发文档
-            "docs/dev/INDEX_GUIDE.md",
-            "docs/dev/FRONTEND_ARCHITECTURE.md",
-            # 其他可能包含示例的文档
-            "docs/changelog.md",
-            "docs/pdf_export/README_pdf_output.md",
-        }
+    exclude_dirs = exclude_dirs or EXCLUDE_DIRS
+    exclude_files = exclude_files or EXCLUDE_FILES
 
     md_files = []
     for md in root.rglob("*.md"):
@@ -316,8 +349,7 @@ def find_md_files(root: Path, exclude_dirs: Set[str] = None, exclude_files: Set[
 
         # 检查是否在排除文件列表中
         try:
-            rel_path = md.relative_to(root)
-            rel_path_str = str(rel_path).replace("\\", "/")
+            rel_path_str = str(md.relative_to(root)).replace("\\", "/")
             if rel_path_str in exclude_files:
                 continue
         except ValueError:
@@ -340,7 +372,19 @@ def main():
   4. 禁止：绝对路径（如 /docs/entries/DID.md）
 
 详见：docs/contributing/技术约定.md
+
+用法示例：
+  python3 tools/check_links.py                    # 检查整个项目
+  python3 tools/check_links.py docs/entries/      # 检查词条目录
+  python3 tools/check_links.py docs/entries/DID.md  # 检查单个文件
+  python3 tools/check_links.py --root /path/to/repo docs/entries/  # 指定仓库根目录
         """
+    )
+    parser.add_argument(
+        "path",
+        nargs="?",
+        default=None,
+        help="要检查的文件或目录路径（相对于 --root），不指定则检查整个项目"
     )
     parser.add_argument("--root", default=".", help="仓库根目录，默认为当前目录")
     parser.add_argument("--verbose", "-v", action="store_true", help="显示详细信息")
@@ -353,14 +397,34 @@ def main():
         print(f"错误：目录不存在：{repo_root}")
         sys.exit(1)
 
+    # 确定扫描目标
+    if args.path:
+        scan_path = (repo_root / args.path).resolve()
+        if not scan_path.exists():
+            print(f"错误：路径不存在：{args.path}")
+            sys.exit(1)
+    else:
+        scan_path = repo_root
+
     print("=" * 70)
     print("Markdown 链接规范检查")
     print("=" * 70)
-    print(f"扫描目录：{repo_root}")
+    print(f"仓库根目录：{repo_root}")
+    print(f"扫描路径：{scan_path}")
     print()
 
     # 查找所有 Markdown 文件
-    md_files = find_md_files(repo_root)
+    if scan_path.is_file():
+        # 检查单个文件
+        if scan_path.suffix.lower() == ".md":
+            md_files = [scan_path]
+        else:
+            print(f"错误：不是 Markdown 文件：{scan_path}")
+            sys.exit(1)
+    else:
+        # 检查目录
+        md_files = find_md_files(scan_path)
+
     print(f"找到 {len(md_files)} 个 Markdown 文件")
     print()
 

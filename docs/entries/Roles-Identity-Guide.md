@@ -5,7 +5,7 @@ tags:
 
 topic: 角色与身份
 title: 角色与身份导览
-updated: 2025-10-13
+updated: 2025-10-16
 comments: true
 ---
 
@@ -41,10 +41,13 @@ comments: true
 - [照顾者（Caregiver）](Caregiver.md)：提供情感陪伴、生活照护的成员。
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)：拥有宏观视角、协助协调与疗愈的角色。
 - [记忆持有者（Memory Holder）](Memory-Holder.md)：保管特定记忆、协助信息调度的成员。
+- [无创伤记忆者（Non-Trauma Holder）](Non-Trauma-Holder.md)：未直接承载创伤记忆，主要承担日常功能的成员。
+- [创造者（Creative）](Creative.md)：专注艺术创作与创造性表达的成员。
+- [社交者（Social）](Social.md)：擅长人际互动与社交场合应对的成员。
 
 ## 身份与存在形式
 
-- [成员（Alter）](Alter.md)：广义上指系统中的任一独立意识体。
+- [成员（Alter）](Alter.md)：系统内部具有独立视角、情绪反应与记忆访问方式的意识单元，可承担特定角色并在不同情境中切换。
 - [人格面具（Persona）](Persona.md)：用于特定社交情境的外显身份。
 - [特殊认同（Alterhuman）](Alterhuman.md)：包括 Otherkin、Therian 等超越人类的身份体验。
 - [图帕（Tulpa）](Tulpa.md)：由意念塑造的创造型意识体。
@@ -54,17 +57,18 @@ comments: true
 
 ## 发展阶段与结构特征
 
-- [小孩意识体（Little / Child Part）](Little.md)：保留童年特质的成员，需要额外照护。
-- [青少年意识体（Teen Part）](Teen.md)：处于青春期发展阶段的角色。
+- [儿童人格（Little / Child Alter）](Child-Alter.md)：保留童年特质的成员，需要额外照护。
+- [青少年成员（Teen Alter）](Teen-Alter.md)：处于青春期发展阶段的角色。
+- [成年成员（Adult Alter）](Adult-Alter.md)：年龄感与生理年龄接近或超过，承担日常决策与责任。
 - [碎片（Fragment）](Fragment.md)：功能狭窄、可能仅承载情绪或记忆的部分。
+- [非人类成员（Nonhuman Alter）](Nonhuman-Alter.md)：自我认同为动物、虚构生物或其他非人类形态的成员。
 - [超级破碎（Polyfragmented）](Polyfragmented.md)：拥有大量碎片或微小角色的系统结构。
-- [混合（Blending）](Blending.md)：两个或以上成员的体验交融、界线模糊的状态。
 
 ## 协作提示
 
 1. **名称与职能分离** ：先确认角色的实际职责，再讨论是否需要调整称呼。
 2. **关注角色演变** ：迫害者可能转化为保护者，照顾者也可能需要休息与替补。
 3. **建立沟通仪式** ：结合《[内部自助者](Internal-Self-Helper-ISH.md)》与《[照顾者](Caregiver.md)》的建议，定期召开内部会议。
-4. **跨主题参照** ：角色分工常与前台调度相关，可同步阅读《[系统运作导览](System-Operations.md)》；若角色源于创伤情境，建议对照《[创伤与疗愈导览](Trauma-Healing-Guide.md)》。
+4. **跨主题参照** ：角色分工常与前台调度相关，可同步阅读《[系统运作导览](System-Operations-Guide.md)》；若角色源于创伤情境，建议对照《[创伤与疗愈导览](Trauma-Healing-Guide.md)》。
 
 每位成员都不仅仅是一个角色标签。透过理解职能、尊重差异与持续沟通，系统才能在安全感中成长与协作。

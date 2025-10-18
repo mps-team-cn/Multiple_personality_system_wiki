@@ -1,17 +1,17 @@
 # 项目改进建议
 
 > **生成时间**: 2025-10-12
-> **最后更新**: 2025-10-12
-> **项目版本**: v3.10.0
+> **最后更新**: 2025-10-14
+> **项目版本**: v3.11.0
 > **状态**: 持续更新
 
 本文档汇总了 Multiple Personality System Wiki 项目的改进建议,帮助团队规划未来的开发方向。
 
 ## 📌 实施进度概览
 
-- ✅ **已完成**: 统一 CLI 工具、词条验证器基础框架
-- 🚧 **进行中**: 依赖版本锁定、工具完善
-- ⏳ **待开始**: GitHub Actions、pre-commit hooks、Makefile
+- ✅ **已完成**: 统一 CLI 工具、词条验证器、GitHub Actions CI/CD、贡献者墙
+- 🚧 **进行中**: 依赖版本锁定、文档质量工具完善
+- ⏳ **待开始**: pre-commit hooks、Makefile、性能优化
 
 ---
 
@@ -20,178 +20,90 @@
 ### ✅ 项目优势
 
 1. **文档组织出色**
-    - 184+ 词条内容丰富
+    - 200+ 词条内容丰富（v3.11.0 新增 15 个精神障碍诊断词条）
     - 9 个主题导览结构清晰
     - 完善的贡献指南体系
+    - 贡献者墙页面上线（使用 Grid Cards 布局）
 
 2. **工具链完善**
-    - 模块化 Python 工具(`tools/core/`, `tools/processors/`)
-    - Markdown 自动格式化
+    - 模块化 Python 工具（`tools/core/`, `tools/processors/`）
+    - Markdown 自动格式化（`fix_markdown.py`）
     - PDF 导出功能
-    - 链接检查工具
+    - 链接检查工具（`check_links.py`）
+    - 统一 CLI 入口（`tools/cli/main.py`）
+    - AI 辅助搜索词典生成工具链（GPT-5）
 
-3. **开发体验良好**
+3. **CI/CD 自动化**
+    - ✅ PR 阶段质量检查（`pr-check.yml`）
+    - ✅ 合并后自动修复（`auto-fix-entries.yml`）
+    - ✅ 双重检查机制确保质量
+    - ✅ 时间戳自动更新
+
+4. **开发体验良好**
     - MkDocs Material 主题配置完善
     - Sveltia CMS 后台管理
-    - 详细的项目文档
+    - 详细的项目文档（含 AGENTS.md、多个开发指南）
 
-4. **技术栈现代化**
+5. **技术栈现代化**
     - Cloudflare Pages 部署
     - 响应式设计
-    - 搜索功能优化(jieba + 自定义词典)
+    - 搜索功能优化（jieba + 自定义词典 + AI 辅助生成）
+    - SEO 优化（添加 description 字段、sitemap 配置）
 
 ---
 
 ## 🎯 改进建议
 
-### 一、CI/CD 自动化 🔴 高优先级
+### 一、CI/CD 自动化 ✅ 已完成
 
-**问题**: `.github/workflows/` 目录为空,缺少自动化流程
+**状态**: ✅ 已实施完成
 
-#### 建议实施
+#### ✅ 已实现功能
 
-1. **Lint & Quality Check 工作流**
+1. **PR 质量检查工作流**（`.github/workflows/pr-check.yml`）
+    - ✅ 自动检查链接规范
+    - ✅ 验证 Frontmatter 格式（title、topic、tags）
+    - ✅ PR 未通过检查时阻止合并
+    - ✅ 提供详细的错误提示和修复指南
 
-创建 `.github/workflows/lint.yml`:
+2. **自动修复工作流**（`.github/workflows/auto-fix-entries.yml`）
+    - ✅ 合并到 main 后自动更新时间戳
+    - ✅ 自动修复 Markdown 格式问题
+    - ✅ 修复前后双重链接检查
+    - ✅ 自动提交更新（使用 github-actions bot）
 
-```yaml
-name: Lint & Quality Check
+#### 🚧 可选的额外增强
 
-on:
-  push:
-    branches: [main, dev]
-  pull_request:
-    branches: [main, dev]
+1. **构建测试工作流**（可选）
+    - 在 PR 中添加 `mkdocs build --strict` 严格模式构建测试
+    - 上传构建产物用于预览
+    - 集成第三方 Markdown linter（如 markdownlint-cli2）
 
-jobs:
-  markdown-lint:
-    name: Markdown 格式检查
-    runs-on: ubuntu-latest
-    steps:
+2. **部署前检查工作流**（可选）
+    - 验证词条结构完整性（`gen-validation-report.py`）
+    - 检查 changelog.md 是否更新最新版本号
+    - 构建产物大小监控
 
-      - name: Checkout 代码
+#### ✅ 已获得收益
 
-        uses: actions/checkout@v4
-
-      - name: 设置 Python 环境
-
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: 安装依赖
-
-        run: |
-          pip install -r requirements.txt
-
-      - name: 运行 Markdown 格式检查
-
-        run: |
-          python3 tools/fix_markdown.py docs/ --dry-run --verbose
-
-      - name: 检查链接有效性
-
-        run: |
-          python3 tools/check_links.py --root . --verbose
-
-  build-test:
-    name: 构建测试
-    runs-on: ubuntu-latest
-    steps:
-
-      - name: Checkout 代码
-
-        uses: actions/checkout@v4
-
-      - name: 设置 Python 环境
-
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: 安装依赖
-
-        run: |
-          pip install -r requirements.txt
-
-      - name: 构建站点
-
-        run: |
-          mkdocs build --strict
-
-      - name: 上传构建产物
-
-        uses: actions/upload-artifact@v4
-        with:
-          name: site
-          path: site/
-          retention-days: 7
-```
-
-2. **自动部署工作流** (可选,Cloudflare Pages 已处理)
-
-如需额外的部署前检查,可创建 `.github/workflows/deploy-check.yml`:
-
-```yaml
-name: Deploy Readiness Check
-
-on:
-  push:
-    branches: [main]
-
-jobs:
-  pre-deploy-check:
-    name: 部署前检查
-    runs-on: ubuntu-latest
-    steps:
-
-      - name: Checkout 代码
-
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # 获取完整历史用于 changelog
-
-      - name: 设置 Python 环境
-
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: 安装依赖
-
-        run: pip install -r requirements.txt
-
-      - name: 验证词条结构
-
-        run: python3 tools/gen-validation-report.py
-
-      - name: 检查 changelog 完整性
-
-        run: |
-          if ! grep -q "$(git describe --tags --abbrev=0)" docs/changelog.md; then
-            echo "⚠️ 警告: changelog.md 可能未更新最新版本"
-            exit 1
-          fi
-```
-
-#### 预期收益
-
-- ✅ 自动发现格式问题
-- ✅ PR 提交前自动检查
-- ✅ 减少人工审查负担
-- ✅ 保证代码质量一致性
+- ✅ 自动发现格式问题（Markdown 格式、链接规范）
+- ✅ PR 提交前自动检查（阻止不合格 PR 合并）
+- ✅ 减少人工审查负担（时间戳和格式由 CI 自动处理）
+- ✅ 保证代码质量一致性（双重检查机制）
 
 ---
 
-### 二、文档质量保证 🔴 高优先级
+### 二、文档质量保证 🟡 中优先级
 
-**问题**: 缺少自动化的文档质量检查机制
+**当前状态**:
 
-**当前状态**: ✅ 词条验证器基础框架已实现 (`tools/validators/`)
+- ✅ CI 阶段已实现基础检查（链接、Frontmatter）
+- ✅ 词条验证器基础框架已实现（`tools/validators/`）
+- 🚧 本地开发体验待提升（pre-commit hooks）
 
 #### 建议实施
 
-1. **创建 pre-commit hooks** - ⏳ 待实施
+1. **创建 pre-commit hooks**（⏳ 待实施，优先级：中）
 
 创建 `.pre-commit-config.yaml`:
 
@@ -269,37 +181,26 @@ pip install pre-commit
 pre-commit install
 ```
 
-2. **增强链接检查工具**
+2. **增强链接检查工具**（✅ 已部分实现）
 
-修改 `tools/check_links.py` 支持目录递归:
+当前 `tools/check_links.py` 已支持:
 
-```python
+- ✅ 单文件和目录检查
+- ✅ 相对路径验证
+- ✅ 锚点检查
+- ✅ 详细错误提示
 
-# tools/check_links.py 改进建议
+可选改进:
 
-def main():
-    parser = argparse.ArgumentParser(
-        description='检查 Markdown 文件中的链接有效性'
-    )
-    parser.add_argument(
-        'path',
-        nargs='?',
-        default='.',
-        help='要检查的文件或目录路径'
-    )
-    parser.add_argument('--root', default='.', help='项目根目录')
-    parser.add_argument('--recursive', '-r', action='store_true',
-                       help='递归检查目录')
-    parser.add_argument('--verbose', '-v', action='store_true',
-                       help='显示详细输出')
-    # ... 其余代码
-```
+- 🚧 添加 `--fix` 参数自动修复常见问题
+- 🚧 支持外部链接有效性检查（HTTP 状态码）
+- 🚧 生成链接检查报告（JSON/HTML 格式）
 
-3. **创建词条完整性验证器** - 🚧 基础框架已有,待完善
+3. **扩展词条完整性验证器**（🚧 基础框架已有，待完善）
 
-参考现有的 `tools/validators/` 目录,建议扩展功能:
+现有 `tools/validators/` 目录已提供基础功能，建议扩展:
 
-新建 `tools/validators/entry_completeness.py`:
+可在 `tools/validators/entry_completeness.py` 中添加:
 
 ```python
 """词条完整性检查工具
@@ -352,9 +253,15 @@ def check_entry_completeness(file_path: Path) -> Dict[str, Any]:
 
 #### 预期收益
 
-- ✅ 提交前自动检查
-- ✅ 词条质量标准化
-- ✅ 减少 PR 往返次数
+- 🎯 提升本地开发体验（提交前发现问题）
+- 🎯 进一步标准化词条质量
+- 🎯 减少 CI 失败和 PR 往返次数
+
+#### ✅ CI 阶段已实现
+
+- ✅ PR 阶段自动检查（链接、Frontmatter）
+- ✅ 合并后自动修复和验证
+- ✅ 详细的错误提示和修复指南
 
 ---
 
@@ -754,41 +661,50 @@ body {
 
 ## 📋 实施优先级与时间规划
 
-### ✅ 已完成项目
+### ✅ 已完成项目（v3.10.0 - v3.11.0）
 
-| 任务 | 完成时间 | 状态 |
-|------|---------|------|
-| 统一工具 CLI 入口 (tools/cli/main.py) | 2025-10 | ✅ 已完成 |
-| 词条验证器基础框架 (tools/validators/) | 2025-10 | ✅ 已完成 |
-| 项目改进建议文档 | 2025-10-12 | ✅ 已完成 |
+| 任务 | 完成时间 | 版本 | 状态 |
+|------|---------|------|------|
+| 统一工具 CLI 入口（tools/cli/main.py） | 2025-10 | v3.10.0 | ✅ 已完成 |
+| 词条验证器基础框架（tools/validators/） | 2025-10 | v3.10.0 | ✅ 已完成 |
+| AI 辅助搜索词典生成工具链 | 2025-10-12 | v3.10.0 | ✅ 已完成 |
+| GitHub Actions CI/CD 双重检查机制 | 2025-10-13 | v3.11.0 | ✅ 已完成 |
+| 贡献者墙页面（Grid Cards） | 2025-10-13 | v3.11.0 | ✅ 已完成 |
+| 贡献指南文件英文化 | 2025-10-13 | v3.11.0 | ✅ 已完成 |
+| SEO 优化（description、sitemap） | 2025-10-12 | v3.10.0 | ✅ 已完成 |
+| 项目改进建议文档 | 2025-10-12 | v3.10.0 | ✅ 已完成 |
+| 新增 15 个精神障碍诊断词条 | 2025-10-13 | v3.11.0 | ✅ 已完成 |
 
-### 🔴 立即实施 (1-2周)
+### 🟡 短期计划（1-2 周）
 
 | 任务 | 预计时间 | 状态 | 优先级 |
 |------|---------|------|--------|
-| 添加 GitHub Actions 工作流 | 2-3 小时 | ⏳ 待开始 | 🔴 高 |
-| 创建 pre-commit hooks | 1-2 小时 | ⏳ 待开始 | 🔴 高 |
-| 锁定依赖版本到 requirements.txt | 30 分钟 | 🚧 进行中 | 🔴 高 |
+| 锁定依赖版本到 requirements.txt | 30 分钟 | 🚧 进行中 | 🟡 中 |
 | 创建 Makefile 快捷命令 | 1 小时 | ⏳ 待开始 | 🟡 中 |
 | 添加快捷脚本 tools/wiki | 15 分钟 | ⏳ 待开始 | 🟡 中 |
+| 完善链接检查工具（--fix 参数） | 2-3 小时 | ⏳ 待开始 | 🟡 中 |
+| 扩展词条完整性验证器 | 3-4 小时 | ⏳ 待开始 | 🟡 中 |
 
-### 🟡 短期计划 (1个月内)
+### 🟢 中期计划（1 个月内）
 
 | 任务 | 预计时间 | 状态 | 优先级 |
 |------|---------|------|--------|
-| 改进链接检查工具 | 2-3 小时 | ⏳ 待开始 | 🟡 中 |
-| 完善词条完整性验证器 | 3-4 小时 | ⏳ 待开始 | 🟡 中 |
-| 创建 requirements-dev.txt | 30 分钟 | ⏳ 待开始 | 🟡 中 |
-| 搜索词典维护自动化 | 2-3 小时 | ⏳ 待开始 | 🟡 中 |
+| 创建 pre-commit hooks | 1-2 小时 | ⏳ 待开始 | 🟡 中 |
+| 创建 requirements-dev.txt | 30 分钟 | ⏳ 待开始 | 🟢 低 |
+| 搜索词典维护自动化增强 | 2-3 小时 | ⏳ 待开始 | 🟢 低 |
+| 构建测试工作流（可选） | 1-2 小时 | ⏳ 待开始 | 🟢 低 |
+| 外部链接检查（HTTP 状态码） | 2-3 小时 | ⏳ 待开始 | 🟢 低 |
 
-### 🟢 长期计划 (3个月+)
+### 🌟 长期计划（3 个月+）
 
 | 任务 | 预计时间 | 状态 | 优先级 |
 |------|---------|------|--------|
 | 迁移到 pyproject.toml | 1-2 小时 | ⏳ 待开始 | 🟢 低 |
-| 搜索功能深度优化 | 1-2 周 | ⏳ 待开始 | 🟢 低 |
-| 图片优化工具 | 3-4 小时 | ⏳ 待开始 | 🟢 低 |
+| 图片优化工具（WebP 转换） | 3-4 小时 | ⏳ 待开始 | 🟢 低 |
 | API 文档生成 | 1 周 | ⏳ 待开始 | 🟢 低 |
+| Google Analytics 集成 | 2-3 小时 | ⏳ 待开始 | 🟢 低 |
+| 词条认领机制（GitHub Issues） | 1 周 | ⏳ 待开始 | 🟢 低 |
+| 新手教程视频录制 | 2-3 周 | ⏳ 待开始 | 🟢 低 |
 
 ---
 
@@ -796,21 +712,28 @@ body {
 
 ### 1. 社区建设
 
-- 创建贡献者墙 (`docs/contributing/contributors.md`)
-- 定期发布项目进展报告
-- 建立词条认领机制
+- ✅ 创建贡献者墙（`docs/contributing/contributors.md`，v3.11.0 已上线）
+- ✅ Grid Cards 布局展示核心维护者和贡献者
+- ✅ GitHub 头像自动展示
+- 🚧 定期发布项目进展报告（changelog.md 持续更新）
+- ⏳ 建立词条认领机制（可在 GitHub Issues 中实现）
+- ⏳ 创建贡献者成就系统（如词条数量徽章）
 
 ### 2. 文档补充
 
-- 录制新手教程视频
-- 创建架构决策记录(ADR)
-- 补充常见问题解答(FAQ)
+- ✅ 完善的贡献指南体系（文件名已英文化，v3.11.0）
+- ✅ 详细的开发文档（含 AGENTS.md、多个 Guide）
+- ✅ 项目改进建议文档（本文档）
+- ⏳ 录制新手教程视频
+- ⏳ 创建架构决策记录（ADR）
+- ⏳ 补充常见问题解答（FAQ）
 
 ### 3. 数据分析
 
-- 分析 Google Analytics 数据
-- 优化高频访问词条
-- 识别内容缺口
+- ✅ SEO 优化（添加 description 字段、sitemap 配置，v3.10.0-v3.11.0）
+- ⏳ 分析 Google Analytics 数据（需要配置 GA）
+- ⏳ 优化高频访问词条
+- ⏳ 识别内容缺口（可参考搜索日志）
 
 ---
 
@@ -819,7 +742,9 @@ body {
 | 日期 | 内容 | 作者 |
 |------|------|------|
 | 2025-10-12 | 初始版本创建 | Claude |
-| 2025-10-12 | 更新实施进度,标记已完成项目 | Claude |
+| 2025-10-12 | 更新实施进度，标记已完成项目 | Claude |
+| 2025-10-14 | 更新至 v3.11.0，反映 CI/CD、贡献者墙等已完成功能 | Claude |
+| 2025-10-14 | 调整优先级，更新项目现状评估和实施时间表 | Claude |
 
 ---
 
@@ -833,4 +758,21 @@ body {
 
 ---
 
-**最后更新**: 2025-10-12
+**最后更新**: 2025-10-14
+
+---
+
+## 🎉 重要里程碑
+
+### v3.11.0（2025-10-13）
+
+- ✅ **CI/CD 双重检查机制上线**：PR 阶段检查 + 合并后自动修复
+- ✅ **贡献者墙页面发布**：使用 Grid Cards 布局展示团队成员
+- ✅ **新增 15 个精神障碍诊断词条**：包括 ASD、MDD、PDD、SAD 等核心词条
+- ✅ **贡献指南体系完善**：文件名英文化，提升兼容性
+
+### v3.10.0（2025-10-12）
+
+- ✅ **AI 辅助搜索词典生成工具链**：基于 GPT-5 的自动化工具
+- ✅ **SEO 优化**：添加 description 字段、优化 sitemap 配置
+- ✅ **统一 CLI 工具**：tools/cli/main.py 提供统一入口

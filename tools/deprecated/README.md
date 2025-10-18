@@ -6,17 +6,24 @@
 
 以下工具因 MkDocs Material 插件提供了更好的替代方案而废弃：
 
-- `docs_preview.py` - 被 `mkdocs serve` 替代
-- `generate_tags_index.py` - 被 MkDocs Material tags 插件替代
-- `add_top_level_tags.py` - 标签管理现由 Frontmatter 直接处理
-- `add_topic_tags.py` - 标签管理现由 Frontmatter 直接处理
-- `analyze_current_tags.py` - 不再需要独立的标签分析
-- `analyze_tags.py` - 不再需要独立的标签分析
-- `optimize_tags.py` - 标签优化现由编辑器直接处理
-- `update_entry_tags.py` - 标签更新现由编辑器直接处理
-- `retag_and_related.py` - 标签和相关文章管理已整合
+| 废弃工具 | 替代方案 | 状态 |
+|---------|---------|------|
+| `docs_preview.py` | `mkdocs serve` | ✅ 已删除 |
+| `generate_tags_index.py` | MkDocs Material tags 插件 | 📦 已归档 |
+| `add_top_level_tags.py` | Frontmatter 直接管理 | 📦 已归档 |
+| `add_topic_tags.py` | Frontmatter 直接管理 | 📦 已归档 |
+| `analyze_current_tags.py` | 不再需要独立分析 | 📦 已归档 |
+| `analyze_tags.py` | 不再需要独立分析 | 📦 已归档 |
+| `optimize_tags.py` | 编辑器直接处理 | 📦 已归档 |
+| `update_entry_tags.py` | 编辑器直接处理 | 📦 已归档 |
+| `retag_and_related.py` | 标签管理已整合 | ✅ 已删除 |
 
-详见：`docs/dev/CLEANUP_RECOMMENDATIONS.md`
+**图例**：
+
+- ✅ 已删除 - 脚本已从仓库中完全移除
+- 📦 已归档 - 脚本保留在 `tools/deprecated/` 目录中供参考
+
+详见：[迁移清理建议](../../docs/dev/CLEANUP_RECOMMENDATIONS.md)
 
 ## Markdown 处理工具整合 (2025-10-07)
 
@@ -137,5 +144,15 @@ for result in results:
 
 ---
 
-**最后更新**：2025-10-07
+**最后更新**：2025-10-16
 **维护者**：Multiple Personality System Wiki Team
+
+## 📚 新文档结构
+
+工具文档已重构为分层结构：
+
+- [**工具索引**](../../docs/dev/Tools-Index.md) - 简化的工具总览(177 行)
+- [**核心工具详解**](../../docs/dev/Tools-Core.md) - CI 集成工具的详细说明
+- [**手动工具指南**](../../docs/dev/Tools-Manual.md) - SEO、搜索优化等手动工具的完整用法
+
+旧版 1082 行的巨型文档已拆分,便于维护和查找。

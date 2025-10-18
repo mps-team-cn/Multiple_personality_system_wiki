@@ -1,71 +1,89 @@
 ---
 tags:
 
-- 系统运作
-- 多重意识体
-- 解离
-- 创伤
+    - 系统运作
+    - 多重意识体
+    - 解离
+    - 创伤
 
 topic: 系统运作
 title: 整合（Integration）
-updated: 2025-10-13
+updated: 2025-10-17
+description: 功能性整合到结构性整合的连续谱；明确与融合的区别与关联，提供准备度评估、阶段路径、常见困难与风险边界。
+search:
+  boost: 1.5
 comments: true
 ---
 
 # 整合（Integration）
 
-## 同义词
-
-Integration，融合，最终融合（Final Fusion）
+!!! warning "触发警告"
+    本条涉及创伤记忆加工、身份/边界变化与功能波动等内容。若阅读过程中出现强烈不适或切换迹象，请暂停并使用 [接地（Grounding）](Grounding.md) 或你的安全计划；必要时寻求专业/同伴支持。
 
 ## 定义
 
-**整合** 指在解离性身份障碍（DID）与其他多重意识体相关体验中，使不同身份状态之间的记忆、情绪与行动控制等心理功能逐步恢复协同的过程[^整合-1]。整合并非单一事件，而是一个持续发展出的能力，使系统成员能够共享信息、建立稳定合作，并在需要时呈现一致的自我感。
+**整合（Integration）** 指不同身份状态在记忆、情绪调节与行动控制上逐步恢复 **协同** 的过程。整合是能力与关系的建立，而非一次性事件；目标是提升 **连贯性** 与 **功能** ，使系统能够在尊重差异的前提下有效协作。整合可以停留在功能层面的高度合作，也可能推进到边界显著减弱的结构层次。
 
-## 核心内涵
+## 与 “融合（Fusion）” 的关系与区分
 
-- **功能协同** : 通过内部沟通、共享记忆与接地技巧，身份之间能够共同调节情绪、分配日常任务，减少突发性的“断片”或失控切换。
-- **结构整合** : 当身份之间的界限逐渐淡化、记忆壁垒减少，可能出现“融合”或“合并”的体验，代表更深层次的自我连续性[^整合-2]。
-- **稳定性与安全感** : 整合通常建立在安全环境、可预期的人际支持与稳定生活节奏之上，若缺乏这些条件，功能协同往往难以维持。
+- **范围** ：整合是广义过程，包含从 **功能性整合** 到 **结构性整合/合并** 的连续谱； **融合** 通常特指结构性合并。
+- **结果** ：功能性整合可保留多成员；若推进到最终融合，则趋向单一身份的持续呈现。
+- **选择** ：是否走向融合取决于 **安全、偏好、生活需求与治疗同盟** ；不存在“必须融合才算康复”的要求（参见《[融合](Fusion.md)》）。
 
-## 常见形式
+## 目标与伦理（自愿、可撤回、以功能为先）
 
-1. **功能性整合（功能多元）** ：系统成员保持相对独立的身份，但能共享多数记忆、共同决策，强调合作而非消融。许多系统将此视为长期生活化的目标。
-2. **部分融合** ：两个或以上身份因为创伤处理、共识建立而产生合并，形成拥有双方记忆与特质的新身份，但系统中仍可能存在其他独立成员。
-3. **最终融合（Final Fusion）** ：所有身份合并为单一、自觉连续的身份状态。部分临床治疗将其作为终极目标，但也有系统认为维持多元结构更符合自身需求[^整合-3]。
+- **自愿与共识** ：相关成员与支持者达成明示同意；允许 **随时暂停/回滚** 。
+- **安全优先** ：稳定化、危机计划与外部支持先行；避免以整合作为“摆脱某位成员”的手段。
+- **个体化目标** ：可将整合定位为提升协作与生活质量，而非追求某种单一形态。
 
-## 治疗与支持焦点
+## 准备度与前提
 
-- **阶段化治疗** : 主流创伤治疗建议依序建立安全与稳定、处理创伤记忆、巩固整合成果，过程中整合的深度与速度需依据系统承受力调整[^整合-1]。
-- **技能训练** : 接地、情绪调节、内部沟通工具（如内部会议、共享日记）有助于增强功能协同。
-- **社会与文化考量** : 周遭环境对多重意识体验的理解程度，会影响系统是否愿意追求最终融合或维持功能多元。
+- **稳定化** ：作息、关系与环境相对可控；近端无高风险暴露。
+- **技能箱** ： **接地、情绪调节、内部沟通、记忆协作** 可用。
+- **支持网络** ：可接触到专业人员或熟悉系统的同伴支持。
 
-## 社群观点与争议
+## 常见路径（阶段范例）
 
-- **目标多样性** : 部分系统重视保留身份多样性，并以合作运作为成功整合的指标；他们可能拒绝外界强加的“必须融合”期待。
-- **医疗系统的语言差异** : 临床文献中，“整合”“融合”“康复”常被混用，可能令系统成员感到被误解。清晰界定治疗目标，并与治疗者保持协商，是降低冲突的重要步骤。
+1. **稳定与教育** ：建立共同语言与规则；完成触发清单与危机预案（参见《[触发](Trigger.md)》）。
+2. **合作与共享** ：日志/看板共享、共前台练习、分工协作，逐步扩展 **共同记忆** 与 **相互理解** 。
+3. **创伤加工（分级）** ：在可承受范围内处理材料，避免泛滥；维持节奏与窗口耐受性。
+4. **巩固与角色重整** ：对日常责任、偏好与界限做新约定；必要时重写 **权限** 与 **外部身份叙事** 。
+5. **可选：向融合靠近** ：若有意愿且条件成熟，可小步探索合并体验；出现负荷升高时，优先回到 **功能性整合** 的工作面。
+
+## 体验与常见困难
+
+- **正向变化** ： **断片减少、协作提升、连贯感增强、切换频率下降** 。
+- **挑战** ： **身份悲伤** 、角色混淆、记忆互通导致的 **情绪泛滥** 、身体负荷（头压、疲劳）。
+- **自助建议** ：保持 **节律与界限** 、阶段化目标、及时休息与接地；以“**够用就好**”取代全或无。
+
+## 风险与边界
+
+- **过快推进** ：可能触发再分离或症状恶化；需降速与分级。
+- **目标错配** ：外界压力驱动的“统一”目标易造成内在冲突；以 **功能与安全** 为首要指标。
+- **创伤泛滥** ：材料互通后情绪负荷攀升；使用 **记忆屏蔽/外部容器** 与稳定化策略。
+
+## 常见误解
+
+- **“整合=融合”** → 事实：整合是更广的过程，融合只是其中一种可能结果。
+- **“不整合就无法恢复”** → 事实：高合作的 **功能性整合** 即可显著改善生活质量。
+- **“整合会抹去成员”** → 事实：整合旨在 **合作与连贯** ，而非否定历史或经验。
 
 ## 相关条目
 
 - [融合（Fusion）](Fusion.md)
+- [三阶段创伤治疗（Three-Phase Trauma Treatment）](Three-Phase-Trauma-Treatment.md)
+- [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)
+- [功能性分离（Functional Dissociation）](Functional-Dissociation.md)
+- [触发（Trigger）](Trigger.md)
+- [接地（Grounding）](Grounding.md)
 - [迭代（Iteration）](Iteration.md)
 - [重构（Reconstruction）](Reconstruction.md)
-- [独立性（Independence）](Independence.md)
-- [记忆屏蔽（Memory Shielding）](Memory-Shielding.md)
-- [非我感（Depersonalization）](Depersonalization.md)
-- [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)
+- [权限（Permissions）](Permissions.md)
 - [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
 
 ## 参考资料
 
-[^整合-1]: International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision*. [https://www.isst-d.org/wp-content/uploads/2019/02/ISSTD-Guidelines-Adult-DID-Treatment-2011.pdf](https://www.isst-d.org/wp-content/uploads/2019/02/ISSTD-Guidelines-Adult-DID-Treatment-2011.pdf)
-[^整合-2]: Structural dissociation. (2024). *Wikipedia*. [https://en.wikipedia.org/wiki/Structural_dissociation](https://en.wikipedia.org/wiki/Structural_dissociation)
-[^整合-3]: Dissociative identity disorder. (2024). *Wikipedia*. [https://en.wikipedia.org/wiki/Dissociative_identity_disorder](https://en.wikipedia.org/wiki/Dissociative_identity_disorder)
-
-## 核心特征
-
-（待补充）
-
-## 鉴别
-
-（待补充）
+- International Society for the Study of Trauma and Dissociation. (2011). Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision. ISSTD.
+- Steele, K., Boon, S., & van der Hart, O. (2017). Treating trauma-related dissociation: A practical, integrative approach. W. W. Norton.
+- Structural dissociation. (2024). Wikipedia. [https://en.wikipedia.org/wiki/Structural_dissociation](https://en.wikipedia.org/wiki/Structural_dissociation)
+- Dissociative identity disorder. (2024). Wikipedia. [https://en.wikipedia.org/wiki/Dissociative_identity_disorder](https://en.wikipedia.org/wiki/Dissociative_identity_disorder)

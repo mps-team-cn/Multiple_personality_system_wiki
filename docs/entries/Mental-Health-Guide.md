@@ -7,7 +7,7 @@ tags:
 
 topic: 诊断与临床
 title: 心理健康导览
-updated: 2025-10-13
+updated: 2025-10-17
 comments: true
 ---
 
@@ -131,7 +131,7 @@ comments: true
 创伤幸存者高频共病:
 
 - [**抑郁障碍**](Depressive-Disorders.md) (60-80%) - 持续悲伤、兴趣丧失、无望感
-- [**焦虑障碍**](Anxiety.md) (50-70%) - 过度担忧、警觉、躯体紧张
+- [**焦虑障碍**](Anxiety-Disorders.md) (50-70%) - 过度担忧、警觉、躯体紧张
 - [**物质使用障碍（SUD）**](Substance-Use-Disorders-SUD.md) (30-50%) - 通过物质"自我用药"
 - [**边缘性人格障碍（BPD）**](Borderline-Personality-Disorder-BPD.md) (30-40%) - 情绪不稳定、人际困难
 
@@ -187,6 +187,11 @@ comments: true
 ### 治疗选项概览
 
 #### 心理治疗(首选)
+
+**基础认知行为疗法**:
+
+- [**认知行为疗法（CBT）**](Cognitive-Behavioral-Therapy-CBT.md) - 改变功能失调的思维模式，训练适应性行为
+- [**接受与承诺疗法（ACT）**](Acceptance-Commitment-Therapy-ACT.md) - 培养心理弹性，接纳困难情绪，基于价值观行动
 
 **创伤聚焦治疗**:
 
@@ -376,7 +381,7 @@ comments: true
 **情绪与心境**:
 
 - [抑郁障碍](Depressive-Disorders.md) - 抑郁的诊断与治疗
-- [焦虑（Anxiety）](Anxiety.md) - 焦虑障碍详解
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md) - 焦虑障碍详解
 - [心境障碍](Affective-Disorders.md) - 心境障碍概览
 - [物质使用障碍（SUD）](Substance-Use-Disorders-SUD.md) - 物质滥用与依赖
 - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md) - BPD 与创伤的关系
@@ -384,7 +389,7 @@ comments: true
 **实践工具**:
 
 - [接地（Grounding）](Grounding.md) - 接地技巧详解
-- [冥想（Meditation）](Meditation.md) - 正念与冥想练习
+- [冥想（Meditation）](Meditation.md) - 呼吸调节、身体扫描与深度放松冥想引导
 - [情绪调节](Emotion-Regulation.md) - 情绪调节策略
 
 **多意识体核心**:

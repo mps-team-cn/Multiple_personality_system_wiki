@@ -30,11 +30,11 @@ CBT 以结构化、时间有限与合作式为特色，常见形式包括 **个�
 
 ## 适用症状与诊断
 
-- **焦虑与恐惧相关障碍**：惊恐障碍、社交焦虑、广泛性焦虑、强迫症等。
-- **心境障碍**：重度抑郁、[环性心境障碍](Cyclothymic-Disorder.md) 及双相障碍的抑郁期，常作为药物治疗的辅助手段。[^otto2007]
-- **创伤相关障碍**：PTSD、[复杂性创伤后应激障碍（CPTSD）](CPTSD.md) 等，可结合暴露或创伤加工模块。
+- **焦虑与恐惧相关障碍**：[惊恐障碍](Panic-Disorder.md)、[社交焦虑](Social-Anxiety-Disorder.md)、[广泛性焦虑](Generalized-Anxiety-Disorder-GAD.md)、[强迫症](OCD.md)等。
+- **心境障碍**：[重度抑郁](Major-Depressive-Disorder-MDD.md)、[环性心境障碍](Cyclothymic-Disorder.md) 及[双相障碍](Bipolar-Disorders.md)的抑郁期，常作为药物治疗的辅助手段。[^otto2007]
+- **创伤相关障碍**：[PTSD](PTSD.md)、[复杂性创伤后应激障碍（CPTSD）](CPTSD.md) 等，可结合暴露或创伤加工模块。
 - **躯体与慢性疼痛议题**：与医学团队协作，针对疼痛灾难化、活动回避与情绪调节进行训练。[^ehde2014]
-- **睡眠、饮食、物质使用等功能问题**：可衍生出专门的 CBT-I、CBT-E、复发预防方案等。
+- **睡眠、饮食、物质使用等功能问题**：可衍生出专门的 CBT-I、CBT-E、复发预防方案等。相关词条：[睡眠障碍](Sleep-Disorders-SD.md)、[进食障碍](Eating-Disorders-ED.md)、[物质使用障碍](Substance-Use-Disorders-SUD.md)。
 
 ## 核心组成
 
@@ -51,10 +51,10 @@ CBT 以结构化、时间有限与合作式为特色，常见形式包括 **个�
 
 | 变体 | 适用情境 | 关键特色 |
 | --- | --- | --- |
-| CBT-I | 失眠障碍 | 睡眠限制、刺激控制、放松训练 |
-| TF-CBT | 儿童青少年创伤 | PRACTICE 模型、家庭参与 |
+| CBT-I | [失眠障碍](Insomnia-Disorder.md) | 睡眠限制、刺激控制、放松训练 |
+| [TF-CBT](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md) | 儿童青少年创伤 | PRACTICE 模型、家庭参与 |
 | MBCT | 复发性抑郁 | 正念训练结合认知策略 |
-| 第三波 CBT | 接受与承诺疗法（ACT）、辩证行为疗法（DBT）等 | 强调接纳、价值澄清与正念 |
+| 第三波 CBT | [接受与承诺疗法（ACT）](Acceptance-Commitment-Therapy-ACT.md)、[辩证行为疗法（DBT）](Dialectical-Behavior-Therapy-DBT.md)等 | 强调接纳、价值澄清与[正念](Mindfulness.md) |
 | 疼痛聚焦 CBT | 慢性疼痛、[慢性疼痛综合征](Chronic-Pain.md) | 灾难化思维矫正、活动 pacing、放松练习 |
 
 ## 对多意识体系统的调适

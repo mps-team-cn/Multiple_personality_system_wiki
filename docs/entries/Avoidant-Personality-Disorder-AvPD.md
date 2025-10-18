@@ -7,7 +7,7 @@ tags:
 
 topic: 诊断与临床
 title: 回避型人格障碍（Avoidant Personality Disorder，AvPD）
-updated: 2025-10-13
+updated: 2025-10-14
 synonyms:
 
 - 回避型人格障碍
@@ -81,8 +81,8 @@ comments: true
 ## 相关条目
 
 - [人格障碍（Personality Disorders）](Personality-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
-- [社交焦虑障碍](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
+- [社交焦虑障碍](Anxiety-Disorders.md)
 - [依赖型人格障碍（DPD）](Dependent-Personality-Disorder-DPD.md)
 - [诊断与临床导览（Clinical Diagnosis Guide）](Clinical-Diagnosis-Guide.md)
 

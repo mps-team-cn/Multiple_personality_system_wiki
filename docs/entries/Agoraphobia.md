@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 广场恐惧症(Agoraphobia, AG)
-updated: 2025-10-13
+updated: 2025-10-14
 synonyms:
 
 - 广场恐惧症
@@ -233,7 +233,7 @@ _若广场恐惧显著影响日常生活、工作或社交功能,甚至导致完
 
 ## 相关条目
 
-- [焦虑（Anxiety）](Anxiety.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [惊恐障碍（Panic Disorder）](Panic-Disorder.md)
 - [惊恐发作（Panic Attack）](Panic-Attack.md)
 - [特定恐惧症（Specific Phobia）](Specific-Phobia.md)

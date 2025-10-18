@@ -8,7 +8,7 @@ tags:
 
 topic: 文化与表现
 title: 《我与梦露的一周》（The United States of Tara）中的系统家庭日常
-updated: 2025-10-13
+updated: 2025-10-18
 comments: true
 ---
 
@@ -45,7 +45,3 @@ comments: true
 - [自发型（Spontaneous）](Spontaneous.md)
 - [人格面具（Persona）](Persona.md)
 - [主体（Main）](Main.md)
-
-## 参考资料
-
-- （待补充）

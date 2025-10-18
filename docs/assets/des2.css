@@ -1,0 +1,242 @@
+/* DES-II 交互评估页最小样式（仅当前页使用） */
+.des2-app {
+  margin: 0.5rem 0 1.25rem 0;
+}
+
+.des2-meta {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: .5rem 1rem;
+  align-items: center;
+  margin: .25rem 0 1rem 0;
+}
+
+.des2-actions {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+}
+
+
+/* 表格行外观（保持表格语义，避免改变 tr 的 display） */
+.des2-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 .6rem; /* 行间距视觉分隔 */
+  table-layout: fixed; /* 避免列宽随内容抖动 */
+}
+
+.des2-item td {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 5%, transparent);
+  padding: .55rem .6rem;
+  vertical-align: middle;
+}
+
+[data-md-color-scheme="slate"] .des2-item td {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 12%, #1b2331);
+}
+
+.des2-item td:first-child { border-radius: .6rem 0 0 .6rem; }
+.des2-item td:last-child { border-radius: 0 .6rem .6rem 0; }
+
+.des2-item .no {
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+}
+
+.des2-item label {
+  margin: 0;
+}
+
+.des2-ctrl {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  /* 隐藏容器内的裸露文本（用于隐藏行内的 % 符号），
+     再由徽章 ::after 追加 %，避免在移动端换行错位 */
+  font-size: 0;
+}
+
+.des2-ctrl input[type="range"] { width: 12.5rem; }
+
+.des2-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .25rem;
+  font-variant-numeric: tabular-nums;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 10%, transparent);
+  color: var(--md-primary-fg-color);
+  padding: .15rem .5rem;
+  border-radius: .5rem;
+  min-width: 3.5rem;
+  justify-content: center;
+  font-size: .95rem; /* 恢复字体尺寸 */
+}
+
+/* 在徽章中统一渲染 %，避免额外文本节点导致的换行 */
+.des2-badge::after {
+  content: '%';
+  margin-left: .15rem;
+  opacity: .9;
+}
+
+.des2-results {
+  margin-top: 1rem;
+  display: grid;
+  gap: .6rem;
+}
+
+.des2-progress {
+  height: .8rem;
+  border-radius: .6rem;
+  background: color-mix(in srgb, var(--md-default-fg-color) 8%, transparent);
+  overflow: hidden;
+}
+
+.des2-progress > .bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #4fc08d, #3fb489);
+  transition: width .2s ease;
+}
+
+.des2-subgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: .6rem;
+}
+
+.des2-subcard {
+  border-radius: .6rem;
+  padding: .55rem .7rem .7rem .7rem;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 5%, transparent);
+}
+[data-md-color-scheme="slate"] .des2-subcard {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 12%, #1b2331);
+}
+.des2-subcard .label {
+  font-weight: 600;
+  margin-bottom: .3rem;
+}
+.des2-subcard .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .6rem;
+}
+.des2-subcard .row .des2-badge { min-width: 3.2rem; }
+
+.des2-legend {
+  display: flex;
+  justify-content: space-between;
+  font-size: .8rem;
+  opacity: .8;
+}
+
+.des2-note {
+  font-size: .85rem;
+  opacity: .85;
+}
+
+.des2-hint {
+  font-size: .8rem;
+  opacity: .75;
+}
+
+.des2-divider {
+  height: 1px;
+  background: color-mix(in srgb, var(--md-default-fg-color) 12%, transparent);
+  margin: .6rem 0;
+}
+
+.des2-table th, .des2-table td {
+  padding: .35rem .4rem;
+}
+
+.des2-table tr:hover { background: transparent; }
+
+/* ========== 响应式（手机端） ========== */
+@media (max-width: 760px) {
+  .des2-table {
+    table-layout: auto; /* 允许列根据内容调整，给描述列更多空间 */
+    border-spacing: 0 .5rem;
+  }
+
+  .des2-item td {
+    padding: .5rem .5rem;
+  }
+
+  /* 调整三列宽度：# 更窄；滑块列为视口相对宽度，避免挤压描述 */
+  .des2-item td:first-child { width: 1.6rem; }
+  .des2-item td:last-child { width: clamp(9.5rem, 40vw, 13rem); }
+  .des2-table colgroup col:first-child { width: 1.6rem !important; }
+  .des2-table colgroup col:last-child { width: clamp(9.5rem, 40vw, 13rem) !important; }
+
+  .des2-ctrl {
+    display: grid; /* 滑块与数值两列，自动分配剩余宽度 */
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: .4rem .5rem;
+  }
+
+  .des2-ctrl input[type="range"] {
+    width: 100%; /* 让滑块填满该列 */
+    min-width: 8rem;
+  }
+
+  .des2-badge {
+    min-width: 2.4rem;
+    padding: .1rem .35rem;
+    font-size: .9rem;
+  }
+
+  /* 避免中文描述被过度挤压为逐字换行 */
+  .des2-item td:nth-child(2) {
+    word-break: break-word;
+    white-space: normal;
+    line-height: 1.5;
+  }
+
+  .des2-legend { font-size: .75rem; }
+  .des2-subgrid { grid-template-columns: 1fr; }
+}
+
+/* 更窄屏进一步优化：切换卡片式布局 */
+@media (max-width: 600px) {
+  /* 切换为卡片式堆叠布局：描述独占一行，滑块下置 */
+  .des2-table thead { display: none; }
+  .des2-table { border-spacing: 0 .65rem; width: 100% !important; }
+  /* 关闭列宽定义，避免 colgroup 固定宽度造成右侧留白 */
+  .des2-table colgroup, .des2-table colgroup col { display: none !important; width: auto !important; }
+  .des2-table tr.des2-item { display: block; }
+  .des2-table td { display: block; width: 100% !important; }
+
+  .des2-item td { border-radius: 0; }
+  .des2-item td:first-child {
+    border-radius: .6rem .6rem 0 0;
+    width: auto;
+    display: inline-block;
+    background: transparent; /* 让编号单独显示，不占满一行背景 */
+    padding-bottom: .2rem;
+    color: var(--md-primary-fg-color);
+    font-weight: 600;
+  }
+  .des2-item td:nth-child(2) {
+    border-radius: .6rem .6rem 0 0;
+  }
+  .des2-item td:last-child {
+    border-top: 1px solid color-mix(in srgb, var(--md-default-fg-color) 12%, transparent);
+    border-radius: 0 0 .6rem .6rem;
+    width: 100% !important;
+  }
+
+  /* 滑块区改为全宽两列：滑块 + 数值 */
+  .des2-ctrl {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: .45rem .5rem;
+  }
+  .des2-ctrl input[type="range"] { width: 100%; min-width: 0; }
+  .des2-badge { min-width: 2.6rem; justify-self: end; }
+  .des2-subgrid { grid-template-columns: 1fr; }
+}

@@ -182,6 +182,7 @@
 - **文档架构设计**: [@kuliantnt](https://github.com/kuliantnt) - 从 Docsify 迁移到 MkDocs,建立了完整的文档体系
 - **工具链建设**: [@kuliantnt](https://github.com/kuliantnt) - 开发了 `fix_markdown.py`、`mkdocs_hooks.py` 等自动化工具集
 - **词条体系完善**: [@shishuiliunian5](https://github.com/shishuiliunian5)、[@fengqingyu430-collab](https://github.com/fengqingyu430-collab) - 贡献大量高质量词条
+- **视觉设计**: [@inser-a](https://github.com/inser-a) - 为项目设计并提供了精美的 Logo,为项目视觉识别奠定基础
 - **长期维护**: 所有核心维护者 - 持续维护和改进项目
 
 ---
@@ -226,4 +227,3 @@
 - [PR 流程](pr-workflow.md) - 提交 Pull Request 的流程
 - [编写规范](writing-guidelines.md) - 词条编写规范
 - [技术约定](technical-conventions.md) - 技术开发规范
-- [项目改进建议](../dev/IMPROVEMENT_SUGGESTIONS.md) - 项目改进方向

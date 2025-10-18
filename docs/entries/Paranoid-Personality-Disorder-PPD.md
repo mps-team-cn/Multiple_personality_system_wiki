@@ -7,7 +7,7 @@ tags:
 
 topic: 诊断与临床
 title: 偏执型人格障碍（Paranoid Personality Disorder，PPD）
-updated: 2025-10-13
+updated: 2025-10-14
 synonyms:
 
 - 偏执型人格障碍
@@ -165,8 +165,8 @@ comments: true
 ### 共病与鉴别
 
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
-- [焦虑（Anxiety）](Anxiety.md)
-- [精神分裂症（Schizophrenia）](Schizophrenia-SC.md)
+- [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
+- [精神分裂症（Schizophrenia）](Schizophrenia-SZ.md)
 - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)
 
 ### 导览

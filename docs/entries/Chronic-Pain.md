@@ -70,7 +70,7 @@ DSM-5-TR 中直接对应的诊断为 [**躯体症状障碍（Somatic Symptom Dis
 
 ## 常见共病
 
-- **抑郁与焦虑**：慢性疼痛患者中患病率可达 30-50%，需及早介入 [抑郁障碍](Depressive-Disorders.md) 与 [焦虑障碍](Anxiety.md) 的管理。[^nihpain2023]
+- **抑郁与焦虑**：慢性疼痛患者中患病率可达 30-50%，需及早介入 [抑郁障碍](Depressive-Disorders.md) 与 [焦虑障碍](Anxiety-Disorders.md) 的管理。[^nihpain2023]
 - **睡眠障碍**：持续疼痛导致入睡困难、睡眠片段化，与疲劳形成恶性循环。
 - **创伤相关障碍**：慢性疼痛与 [PTSD](PTSD.md) 有显著的相互影响，特别是在慢性创伤或虐待史人群中。
 

@@ -7,8 +7,9 @@ tags:
 - 创伤
 
 topic: 角色与身份
+description: 迫害者（Persecutor）成员的本质、形成原因与转化。理解看似敌对的成员实际上的保护意图，探索化解内部冲突的方法
 title: 迫害者（Persecutor）
-updated: 2025-10-13
+updated: 2025-10-16
 comments: true
 ---
 
@@ -57,8 +58,8 @@ comments: true
 - [保护者（Protector）](Protector.md)
 - [人格职能（System Roles）](System-Roles.md)
 - [照顾者（Caregiver）](Caregiver.md)
-- [小孩意识体（Little / Child Part）](Little.md)
+- [儿童人格（Little / Child Alter）](Child-Alter.md)
 - [执行者（Performer / Executive）](Performer-Executive.md)
-- [青少年意识体（Teen Part）](Teen.md)
+- [青少年意识体（Teen Part）](Teen-Alter.md)
 - [记忆持有者（Memory Holder）](Memory-Holder.md)
 - [迭代（Iteration）](Iteration.md)

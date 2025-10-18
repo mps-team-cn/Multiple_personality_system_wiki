@@ -8,7 +8,7 @@ tags:
 
 topic: 角色与身份
 title: 执行者（Performer / Executive）
-updated: 2025-10-13
+updated: 2025-10-16
 comments: true
 ---
 
@@ -53,9 +53,9 @@ comments: true
 ## 相关条目
 
 - [人格职能（System Roles）](System-Roles.md)
-- [小孩意识体（Little / Child Part）](Little.md)
+- [儿童人格（Little / Child Alter）](Child-Alter.md)
 - [照顾者（Caregiver）](Caregiver.md)
-- [青少年意识体（Teen Part）](Teen.md)
+- [青少年意识体（Teen Part）](Teen-Alter.md)
 - [保护者（Protector）](Protector.md)
 - [迫害者（Persecutor）](Persecutor.md)
 - [记忆持有者（Memory Holder）](Memory-Holder.md)

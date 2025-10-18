@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 心境障碍（Affective Disorders）
-updated: 2025-10-13
+updated: 2025-10-14
 synonyms:
 
 - 心境障碍
@@ -95,7 +95,7 @@ comments: true
 - [躁狂（Mania）](Mania.md)
 - [轻躁狂（Hypomania）](Hypomania.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
-- [精神分裂症（Schizophrenia，SC）](Schizophrenia-SC.md)
+- [精神分裂症（Schizophrenia，SZ/SCZ）](Schizophrenia-SZ.md)
 - [孤独症谱系（Autism Spectrum Disorder）](Autism-Spectrum-Disorder.md)
 - [谵妄（Delirium）](Delirium.md)
 

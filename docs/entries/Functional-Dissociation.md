@@ -8,7 +8,7 @@ tags:
 
 topic: 系统运作
 title: 功能性分离（Functional Dissociation）
-updated: 2025-10-13
+updated: 2025-10-16
 comments: true
 ---
 
@@ -68,7 +68,7 @@ comments: true
 - [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)
 - [融合（Fusion）](Fusion.md)
 - [醉酒解离（Alcohol-Induced Dissociation）](Alcohol-Induced-Dissociation.md)
-- [非我感（Depersonalization）](Depersonalization.md)
+- [非我感（Depersonalization）](Not-Me-Feeling.md)
 - [独立性（Independence）](Independence.md)
 - [迭代（Iteration）](Iteration.md)
 - [心理防御机制（Defense Mechanisms）](Defense-Mechanisms.md)

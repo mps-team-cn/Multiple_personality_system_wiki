@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 双相 I 型障碍（Bipolar I Disorder）
-updated: 2025-10-13
+updated: 2025-10-14
 synonyms:
 
 - 双相I型障碍
@@ -215,7 +215,7 @@ ICD-11 将双相 I 型障碍归类为 **双相或相关障碍**(6A60),诊断强�
 - [心境障碍（Affective Disorders）](Affective-Disorders.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
 - [重性抑郁障碍（Major Depressive Disorder, MDD）](Major-Depressive-Disorder-MDD.md)
-- [精神分裂症（Schizophrenia，SC）](Schizophrenia-SC.md)
+- [精神分裂症（Schizophrenia，SZ/SCZ）](Schizophrenia-SZ.md)
 - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)
 
 ## 参考与延伸阅读

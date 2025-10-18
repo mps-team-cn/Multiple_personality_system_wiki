@@ -8,7 +8,7 @@ tags:
 
 topic: 实践指南
 title: Tulpa 完全创造指南·实践篇
-updated: 2025-10-13
+updated: 2025-10-16
 comments: true
 ---
 
@@ -248,6 +248,10 @@ Tulpa 的创造通常分为以下阶段（顺序可灵活调整）：
 
 ## 相关词条
 
+- [塑造（Forcing）](Forcing.md) - 本篇的核心方法
+- [成声（Vocality）](Vocality.md) - 获得语言能力
+- [学舌/操纵（Parroting/Puppeting）](Parroting-Puppeting.md) - 常见自我怀疑
+- [幻境（Wonderland）](Wonderland.md) - 练习场所
 - [冥想（Meditation）](Meditation.md) - 专注力训练
 - [可视化想象（Visualization）](Visualization-Imagination.md) - 形象构建技巧
 - [内部沟通](Internal-Communication.md) - 系统内交流方法

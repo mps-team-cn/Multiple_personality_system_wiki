@@ -1,6 +1,21 @@
-# Multiple Personality System Wiki - 多意识体系统百科
+---
+hide:
 
-!!! tip "术语说明"
+    - navigation  # 隐藏左侧导航栏
+
+  # - toc         # 隐藏右侧目录（可选，如果也想隐藏右侧）
+---
+
+# 中文多意识体系统百科
+
+> Multiple Personality System Wiki
+
+??? info "欢迎"
+    本站聚焦 **多意识体系统（MPS）**、**解离障碍（DID/OSDD）** 与 **创伤疗愈** 的结构化知识。建议先从
+    [QuickStart 快速开始](QuickStart.md) 入手，根据需要进入相应导览与工具。
+
+??? tip "对mps的解释"
+    以下内容解释 `MPS` 在本 Wiki 中的用法与不同语境中的常见理解，点击标题可展开或收起详情。
 
     - 为简化表述，本 Wiki 内容中使用的缩写 `MPS`，默认指代 `Multiple Personality System` (`MPS`)。
     - 请注意，社群中更常使用的中立性术语为 `Plural System`。同时，考虑到理论描述的精确性，`MPS` 亦可被理解为 `Multiple Consciousness System` (`MCS`)——一个专注于描述意识多元性本身的理论性术语。
@@ -14,7 +29,7 @@
 
 从概念入门到实践工具，我们致力于用中文整理关于多意识体系统（`Multiple Personality System`，简称 **`MPS`**）与创伤照护的可靠资料，陪伴你理解自我、照顾伙伴，并与同路人建立连结。
 
-[开始探索](tags.md){ .md-button .md-button--primary }
+[开始探索](#-核心主题){ .md-button .md-button--primary }
 [参与贡献](contributing/index.md){ .md-button }
 
 </div>
@@ -25,35 +40,82 @@
 
 <div class="grid cards" markdown>
 
+- :material-rocket-launch: **QuickStart 快速开始**
+
+    一页式入口：基础导览、推荐路线与常用工具。
+
+    [:octicons-arrow-right-24: 立即进入](QuickStart.md)
+
 - :material-compass: **新手导览**
 
     了解多意识体系统的基础概念、诊断与协作要点
 
     [:octicons-arrow-right-24: 查看学习路径](#learning-path)
 
-- :material-head-heart: **照护支持**
+- :material-tag-multiple: **标签索引**
 
-    快速找到创伤、自我照护与危机应对资源
+    按主题分类浏览所有词条
 
-    [:octicons-arrow-right-24: 前往创伤与疗愈](#trauma-healing)
+    [:octicons-arrow-right-24: 浏览标签](tags.md)
 
-- :material-account-group: **系统协作**
+- :material-book-alphabet: **术语词典**
 
-    学习系统协作技巧，增强与成员的连结
+    快速查询定义与概念解释
 
-    [:octicons-arrow-right-24: 浏览系统运作](#system-operations)
+    [:octicons-arrow-right-24: 查询术语](Glossary.md)
 
-- :material-link-variant: **快速入口**
+- :material-clock-outline: **最新动态**
 
-    - 🔍 [标签索引](tags.md) - 按主题分类浏览
-    - 📝 [术语词典](Glossary.md) - 快速查询定义
-    - ⏱️ [最新动态](updates.md) - 查看最新修改
-    - 🔄 [更新日志](changelog.md) - 跟踪版本演变
-    - 🤝 [贡献指南](contributing/index.md) - 参与共建
+    查看最近修改的词条内容
+
+    [:octicons-arrow-right-24: 查看更新](updates.md)
+
+- :material-history: **更新日志**
+
+    跟踪项目版本演变历程
+
+    [:octicons-arrow-right-24: 查看日志](changelog.md)
+
+- :material-hands-pray: **贡献指南**
+
+    了解如何参与项目共建
+
+    [:octicons-arrow-right-24: 参与贡献](contributing/index.md)
 
 </div>
 
 ---
+
+## ⚡ 立即开始
+
+=== "阅读学习"
+
+    - 从 [QuickStart](QuickStart.md) 选择一个导览页作为主线。
+    - 遇到陌生术语，使用 [术语词典](Glossary.md) 或页面内搜索。
+    - 通过页面底部的「相关条目」继续横向扩展。
+
+=== "本地预览"
+
+    !!! success "MkDocs 本地开发"
+        ```bash
+        # 准备环境（推荐虚拟环境）
+        python3 -m venv venv && source venv/bin/activate
+        pip install -r requirements.txt
+
+        # 启动预览（热重载）
+        mkdocs serve
+        # 打开 [http://127.0.0.1:8000](http://127.0.0.1:8000)
+        ```
+
+=== "参与贡献"
+
+    - 新词条放在 `docs/entries/`，使用模板 `docs/TEMPLATE_ENTRY.md`。
+    - 必填 Frontmatter：`title`, `topic`, `tags`, `updated`（YYYY-MM-DD）。
+    - 遵循链接规范并同步更新对应 Guide（见
+
+      [技术约定](contributing/technical-conventions.md#3-链接管理)）。
+
+    - 提交前运行 `tools/fix_markdown.py` 与 `tools/check_links.py`。
 
 ## ⚠️ 重要提醒
 
@@ -80,85 +142,14 @@
 
 <div class="grid cards" markdown>
 
-- :material-lightbulb-on: [**核心概念**](entries/Core-Concepts-Guide.md)
-
-    从解离说起，建立多意识体系统的理论框架
-
-    - [解离（Dissociation）](entries/Dissociation.md) - 一切的基础概念
-    - [多意识体系统（MPS）](entries/Multiple_Personality_System.md) - 核心概念定义
-    - [系统（System）](entries/System.md) - 多意识体系统的基本概念
-    - [DID vs Tulpa](entries/Core-Concepts-Guide.md#三健康与病理不同程度的多意识体) - 理解健康与病理的界限
-    - [埃蒙加德分类法](entries/Emmengard-Classification.md) - 按成因理解系统类型
-
-- :material-hospital-box: [**诊断与临床**](entries/Clinical-Diagnosis-Guide.md)
-
-    理解解离障碍、创伤相关诊断及临床治疗
-
-    - [解离障碍（Dissociative Disorders）](entries/Dissociative-Disorders.md)
-    - [解离性身份障碍（DID）](entries/DID.md)
-    - [其他特定解离性障碍（OSDD）](entries/OSDD.md)
-    - [创伤后应激障碍（PTSD）](entries/PTSD.md)
-    - [复杂性 PTSD（CPTSD）](entries/CPTSD.md)
-
-- :material-account-group: [**系统运作与协作**](entries/System-Operations.md) {#system-operations}
-
-    掌握多意识体系统的日常运作机制
-
-    - [前台（Fronting）](entries/Front-Fronting.md) - 谁在控制身体？
-    - [切换（Switch）](entries/Switch.md) - 成员如何转换？
-    - [意识共存（Co-consciousness）](entries/Co-Consciousness.md) - 同时感知的状态
-    - [内部空间（Inner World）](entries/Headspace-Inner-World.md) - 系统的内在世界
-    - [内部沟通](entries/Internal-Communication.md) - 成员间的交流方式
-
-- :material-heart-pulse: [**创伤与疗愈**](entries/Trauma-Healing-Guide.md) {#trauma-healing}
-
-    了解创伤机制与循证治疗方法
-
-    - [创伤（Trauma）](entries/Trauma.md) - 创伤的定义与类型
-    - [自我照护工具箱](entries/Self-Care-Toolkit.md) - 接地、呼吸、情绪调节等即用技巧
-    - [接地（Grounding）](entries/Grounding.md) - 回到当下的稳定技巧
-    - [闪回（Flashback）](entries/Flashback.md) - 创伤记忆的重现
-    - [触发（Trigger）](entries/Trigger.md) - 激活创伤反应的刺激
-
-- :material-account-multiple: [**角色与身份**](entries/Roles-Identity-Guide.md)
-
-    认识系统中的不同角色与职能分工
-
-    - [宿主（Host）](entries/Host.md) - 通常在前台的主要成员
-    - [守门人（Gatekeeper）](entries/Gatekeeper.md) - 管理切换的调度者
-    - [保护者（Protector）](entries/Protector.md) - 守护系统安全的角色
-    - [小孩意识体（Little）](entries/Little.md) - 保留童年状态的成员
-    - [迫害者（Persecutor）](entries/Persecutor.md) - 内化的创伤反应
-
-- :material-book-open-variant: [**理论与分类**](entries/Theory-Classification-Guide.md)
-
-    探索多意识体系统的理论框架与分类体系
-
-    - [多意识体系统（MPS）](entries/Multiple_Personality_System.md) - 核心概念定义
-    - [埃蒙加德分类法](entries/Emmengard-Classification.md) - 按成因分类系统
-    - [图帕（Tulpa）](entries/Tulpa.md) - 创造型意识体
-    - [结构性解离理论](entries/Structural-Dissociation-Theory.md) - 经典临床模型
-    - [ANP-EP 模型](entries/Apparently-Normal-Part-Emotional-Part-Model.md) - 功能性人格部分
-
-- :material-palette: [**文化与表现**](entries/Cultural-Media-Guide.md)
-
-    文学、影视作品中的多重人格主题
-
-    - [《搏击俱乐部》](entries/Fight-Club-1999-Identity-Metaphor.md) - 身份解体隐喻
-    - [《分裂》](entries/Split-2016-DID-Representation.md) - DID 形象分析
-    - [《西比尔》](entries/Sybil-1976-Cultural-Prototype.md) - 多重人格文化原型
-    - [初音未来现象](entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md) - 虚拟偶像与 Tulpa 边界
-    - [东方 Project](entries/Touhou-Tulpa-Fandom.md) - 同人圈 Tulpa 文化
-
-- :material-clipboard-check: [**实践指南**](entries/Practice-Guide.md)
-
-    操作性的训练方法、实践技巧与自助策略
-
-    - [Tulpa 完全创造指南](entries/Tulpa-Guide.md) - 从基础到进阶的完整教程
-    - [冥想（Meditation）](entries/Meditation.md) - 专注力训练与意识稳定
-    - [内视](entries/Visualization-Imagination.md) - 心像构建与形象塑造
-    - [接地（Grounding）](entries/Grounding.md) - 回到当下的稳定技巧
-    - [内部沟通](entries/Internal-Communication.md) - 成员间的交流方法
+- :material-lightbulb-on: [ **核心概念** ](entries/Core-Concepts-Guide.md) - 从解离谱系切入，厘清 Tulpa 与 DID/OSDD 的界限，并以埃蒙加德分类搭建多意识体系统的理论地图
+- :material-hospital-box: [ **诊断与临床** ](entries/Clinical-Diagnosis-Guide.md) - 覆盖 DID、OSDD、CPTSD、焦虑障碍、情绪障碍等核心诊断，帮助理解鉴别要点与临床处置路径。
+- :material-cog: [ **系统运作** ](entries/System-Operations-Guide.md) - 聚焦前台切换、共同意识、记忆管理、内部空间与系统治理等运作机制，支持日常协作实践。
+- :material-clipboard-check: [ **实践指南** ](entries/Practice-Guide.md) - 强调 Tulpa 三阶段训练、冥想与可视化等意识训练方法，以及内部沟通与接地技巧。
+- :material-heart-pulse: [ **创伤与疗愈** ](entries/Trauma-Healing-Guide.md) - 聚焦创伤机理、PTSD/CPTSD 症状识别、三阶段治疗模型与接地调节策略，支持安全康复。
+- :material-account-multiple: [ **角色与身份** ](entries/Roles-Identity-Guide.md) - 梳理宿主、守门人、保护者、照护者等角色分工，以及多类型身份结构。
+- :material-book-open-variant: [ **理论与分类** ](entries/Theory-Classification-Guide.md) - 涵盖结构性解离、依恋、自我决定理论、动机与人格模型等框架，帮助搭建概念体系。
+- :material-palette: [ **文化与表现** ](entries/Cultural-Media-Guide.md) - 解析影视、文学、动画与游戏中多意识体主题的叙事与象征呈现。
 
 </div>
 
@@ -166,56 +157,25 @@
 
 ## 🧭 新手学习路径 {#learning-path}
 
-<div class="grid cards" markdown>
+=== "新手（0–4 周）"
 
-- :material-book-open-page-variant: [**核心概念导览**](entries/Core-Concepts-Guide.md)
+    1. 阅读 [核心概念导览](entries/Core-Concepts-Guide.md) 建立基础框架。
+    2. 选择 [心理健康](entries/Mental-Health-Guide.md) 或 [系统运作](entries/System-Operations-Guide.md) 作为下一步。
+    3. 浏览 [术语词典](Glossary.md) 熟悉常用术语。
+    4. 开始练习 [接地](entries/Grounding.md) 等基础技巧。
 
-    **从解离说起，建立理论框架**
+=== "进阶（1–3 个月）"
 
-    - 什么是[解离](entries/Dissociation.md)？解离与[多意识体系统](entries/Multiple_Personality_System.md)的关系
-    - 健康多重人格([Tulpa](entries/Tulpa.md)) vs 病理性多重人格（[DID](entries/DID.md)/[OSDD](entries/OSDD.md)）
-    - [埃蒙加德分类法](entries/Emmengard-Classification.md)：按成因理解系统类型
-    - 常见误区澄清与新手建议
+    1. 深入 1–2 个专题导览（临床/创伤/角色）。
+    2. 参考 [实践指南](entries/Practice-Guide.md) 制定练习计划。
+    3. 通过 [标签索引](tags.md) 扩展相关主题。
+    4. 针对实际问题查阅具体词条。
 
-    👉 **适合：** 完全的新手，想要建立基础认知框架
+=== "精通（3 个月以上）"
 
-- :material-heart: [**心理健康导览**](entries/Mental-Health-Guide.md)
-
-    **理解创伤、诊断与治疗**
-
-    - [创伤](entries/Trauma.md)类型（I 型 vs II 型）与神经生物学基础
-    - [PTSD](entries/PTSD.md) 与 [CPTSD](entries/CPTSD.md) 的诊断标准（DSM-5-TR/ICD-11）
-    - [解离](entries/Dissociation.md)谱系：从适应到病理
-    - [抑郁](entries/Depressive-Disorders.md)、[焦虑](entries/Anxiety.md)与共病问题
-    - 循证治疗方法（EMDR、TF-CBT、DBT 等）
-    - [自我照护工具箱](entries/Self-Care-Toolkit.md)：接地、呼吸、情绪调节等实用技巧
-
-    👉 **适合：** 关注心理健康、创伤康复或临床知识的读者
-
-- :material-cog: [**系统运作导览**](entries/System-Operations.md)
-
-    **掌握系统日常运作机制**
-
-    - [前台](entries/Front-Fronting.md)与[切换](entries/Switch.md)：谁在控制身体？如何转换？
-    - [意识共享](entries/Co-Consciousness.md)与记忆管理：如何协调信息？
-    - [内部空间](entries/Headspace-Inner-World.md)与[沟通](entries/Internal-Communication.md)：建立系统内部的协作网络
-    - 角色与治理：[宿主](entries/Host.md)、[守门人](entries/Gatekeeper.md)、[保护者](entries/Protector.md)等职能分工
-    - 实务支持：[接地](entries/Grounding.md)、照护与危机应对
-
-    👉 **适合：** MPS 系统成员，想要优化日常协作
-
-- :material-sprout: [**Tulpa 完全创造指南**](entries/Tulpa-Guide.md)
-
-    **从零开始创造意识伙伴**
-
-    - [基础篇](entries/Tulpa-Guide-1.md)：了解 Tulpa 的基本概念、原理与创造前的准备工作
-    - [实践篇](entries/Tulpa-Guide-2.md)：学习人格设定、沟通训练、形象构建等核心方法
-    - [提高篇](entries/Tulpa-Guide-3.md)：掌握投影、附体、交换等进阶技巧
-    - [实践指南导览](entries/Practice-Guide.md)：配套的意识训练、冥想、可视化等辅助技巧
-
-    👉 **适合：** 想要通过系统化训练创造 Tulpa 的新手，寻求意识伙伴与陪伴的探索者
-
-</div>
+    1. 系统学习 [理论与分类](entries/Theory-Classification-Guide.md)。
+    2. 探索 [文化与表现](entries/Cultural-Media-Guide.md) 的跨学科视角。
+    3. 参与讨论与贡献，沉淀个人知识框架。
 
 ---
 
@@ -277,11 +237,11 @@
 
 ## 📋 最近更新
 
-- [v3.11.0（2025-10-13）：精神障碍词条扩充与贡献体系完善](changelog.md#v3110-2025-10-13)
-- [v3.10.0（2025-10-12）：搜索优化与基础设施迁移](changelog.md#v3100-2025-10-12)
-- [v3.9.0（2025-10-11）：Giscus 评论系统集成与开发文档优化](changelog.md#v390-2025-10-11)
+- [v3.15.0（2025-10-18）：角色体系扩充与内容格式标准化](changelog.md#v3150---角色体系扩充与内容格式标准化-2025-10-18)
+- [v3.14.0（2025-10-17）：Tulpa 实践体系完善与主题索引优化](changelog.md#v3140---tulpa-实践体系完善与主题索引优化-2025-10-17)
+- [v3.13.0（2025-10-16）：DSM-5-TR 诊断体系完善与 Favicon 支持](changelog.md#v3130---dsm-5-tr-诊断体系完善与-favicon-支持-2025-10-16)
 
-查看完整 [更新日志](changelog.md)
+查看完整 [更新日志](changelog.md) | [下载 PDF 版本](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/download/v3.15.0/Multiple_Personality_System_wiki_v3.15.pdf)
 
 ---
 

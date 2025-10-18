@@ -7,16 +7,21 @@ tags:
 - 创伤
 
 topic: 系统运作
+description: 意识共存（Co-consciousness）现象详解：多个成员同时在线的体验与管理。理解共同觉察、信息共享及协作运作的机制
 title: 意识共存（Co-consciousness）
-updated: 2025-10-13
+synonyms:
+
+    - 共觉
+    - Co-consciousness
+    - 共在意识
+
+updated: 2025-10-18
+search:
+  boost: 1.5
 comments: true
 ---
 
 # 意识共存（Co-consciousness）
-
-## 同义词
-
-共觉、Co-consciousness、共在意识
 
 ## 定义
 
@@ -55,7 +60,7 @@ comments: true
 - [存在感（Sense of Presence）](Sense-Of-Presence.md)
 - [意识修改（Consciousness Modification）](Consciousness-Modification.md)
 - [封存（Sequestration）](Sequestration.md)
-- [非我感（Depersonalization）](Depersonalization.md)
+- [非我感（Depersonalization）](Not-Me-Feeling.md)
 - [迭代（Iteration）](Iteration.md)
 - [重构（Reconstruction）](Reconstruction.md)
 - [应激反应（Stress Response）](Stress-Response.md)

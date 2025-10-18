@@ -8,7 +8,7 @@ tags:
 
 topic: 角色与身份
 title: 初始（Original）
-updated: 2025-10-13
+updated: 2025-10-16
 comments: true
 ---
 
@@ -50,7 +50,7 @@ comments: true
 - [重构（Reconstruction）](Reconstruction.md)
 - [执行者（Performer / Executive）](Performer-Executive.md)
 - [宿主（Host）](Host.md)
-- [青少年意识体（Teen Part）](Teen.md)
+- [青少年意识体（Teen Part）](Teen-Alter.md)
 - [迭代（Iteration）](Iteration.md)
 - [自发型（Spontaneous）](Spontaneous.md)
-- [小孩意识体（Little / Child Part）](Little.md)
+- [儿童人格（Little / Child Alter）](Child-Alter.md)

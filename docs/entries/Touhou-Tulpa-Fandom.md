@@ -8,7 +8,7 @@ tags:
 
 topic: 文化与表现
 title: 《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）
-updated: 2025-10-13
+updated: 2025-10-18
 comments: true
 ---
 
@@ -45,7 +45,3 @@ comments: true
 - [投影（Projection）](Projection.md)
 - [傀儡（Servitor）](Servitor.md)
 - [幻想伙伴（Imaginary Companion）](Imaginary-Companion.md)
-
-## 参考资料
-
-- （待补充）
