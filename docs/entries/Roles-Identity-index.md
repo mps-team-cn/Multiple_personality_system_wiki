@@ -2,11 +2,15 @@
 title: 角色与身份
 topic: 角色与身份
 tags:
-  - 索引
-  - 主题导览
+
+    - 索引
+    - 主题导览
+
 comments: true
 hide:
-  - toc
+
+    - toc
+
 ---
 
 # 角色与身份
@@ -15,7 +19,7 @@ hide:
 
 ## 词条一览
 
-- [管理者(Admin)](Admin.md) — *2025-10-18*
+- [管理者（Admin）](Admin.md) — *2025-10-18*
 - [核心（Core）](Core.md) — *2025-10-18*
 - [宿主（Host）](Host.md) — *2025-10-18*
 - [人格职能（System Roles）](System-Roles.md) — *2025-10-18*
