@@ -65,6 +65,7 @@ comments: true
 - 使用共享日程、内部会议、日志或内在通讯空间
 - 建立成员间的沟通协议与决策机制
 - 记录成员偏好、触发因素与应对策略
+- 建立[锚点（Anchors）](Anchors.md)清单,识别"当下前台是谁",用于内部协作与自我监测(不用于对外"验证"或诊断)
 
 ### 外部沟通
 
@@ -112,6 +113,7 @@ ISSTD(2011)治疗指南建议:
 - [前台（Front / Fronting）](Front-Fronting.md)
 - [切换（Switch）](Switch.md)
 - [成员（Alter）](Alter.md)
+- [锚点（Anchors / Tells / Markers）](Anchors.md)
 
 ---
 
