@@ -15,7 +15,7 @@ synonyms:
 - Learned Helplessness
 
 description: 深入解析习得性无助的理论发展、神经机制与临床表现。了解无助感如何在创伤环境中形成,以及在多意识体系统中的影响与干预策略
-updated: 2025-10-13
+updated: 2025-10-18
 search:
   boost: 1.2
 comments: true

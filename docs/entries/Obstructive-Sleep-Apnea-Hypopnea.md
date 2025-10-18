@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 阻塞性睡眠呼吸暂停低通气（Obstructive Sleep Apnea Hypopnea，OSAH）
-updated: 2025-10-18
+updated: 2025-10-17
 synonyms:
 
 - 阻塞性睡眠呼吸暂停

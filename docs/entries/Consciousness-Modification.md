@@ -18,7 +18,7 @@ synonyms:
     - Consciousness Mod
 
 description: 通过主动引入记忆碎片或外部设定影响意识体性格与角色的系统运作方式,需警惕身份自主性与伦理风险
-updated: 2025-10-16
+updated: 2025-10-18
 comments: true
 ---
 
