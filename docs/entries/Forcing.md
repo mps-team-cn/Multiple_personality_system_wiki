@@ -18,7 +18,7 @@ synonyms:
     - tulpa训练
 
 description: Forcing 是 Tulpa 社群中用于培育和强化内在意识体的核心训练方法，通过持续的专注互动帮助 Tulpa 获得稳定性与自主性
-updated: 2025-10-16
+updated: 2025-10-19
 comments: true
 ---
 
