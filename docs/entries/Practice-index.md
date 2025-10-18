@@ -15,9 +15,9 @@ hide:
 
 ## 词条一览
 
+- [Tulpa 完全创造指南·基础篇](Tulpa-Guide-1.md) — *2025-10-19*
+- [Tulpa 完全创造指南·实践篇](Tulpa-Guide-2.md) — *2025-10-19*
 - [Tulpa 完全创造指南·提高篇](Tulpa-Guide-3.md) — *2025-10-18*
 - [塑造（Forcing）](Forcing.md) — *2025-10-16*
 - [学舌/操纵（Parroting/Puppeting）](Parroting-Puppeting.md) — *2025-10-16*
-- [Tulpa 完全创造指南·基础篇](Tulpa-Guide-1.md) — *2025-10-16*
-- [Tulpa 完全创造指南·实践篇](Tulpa-Guide-2.md) — *2025-10-16*
 - [成声（Vocality）](Vocality.md) — *2025-10-16*

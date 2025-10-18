@@ -15,12 +15,12 @@ hide:
 
 ## 词条一览
 
+- [图帕（Tulpa）](Tulpa.md) — *2025-10-19*
 - [管理者(Admin)](Admin.md) — *2025-10-18*
 - [核心（Core）](Core.md) — *2025-10-18*
 - [宿主（Host）](Host.md) — *2025-10-18*
 - [幻想伙伴（Imaginary Companion）](Imaginary-Companion.md) — *2025-10-18*
 - [人格职能（System Roles）](System-Roles.md) — *2025-10-18*
-- [图帕（Tulpa）](Tulpa.md) — *2025-10-18*
 - [成年成员（Adult Alter）](Adult-Alter.md) — *2025-10-17*
 - [成员（Alter）](Alter.md) — *2025-10-17*
 - [照顾者（Caregiver）](Caregiver.md) — *2025-10-17*
