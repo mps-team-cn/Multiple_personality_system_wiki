@@ -8,7 +8,7 @@ tags:
 
 topic: 系统运作
 title: 后台（Back / Being Back）
-updated: 2025-10-17
+updated: 2025-10-18
 description: 后台（Back/Being Back）是多重意识体系统（MPS）社群术语,非DSM-5-TR或ICD-11诊断用语。指成员退出前台控制、转入内在观察或休息的功能性状态。本条目详述前后台交接流程、安全检查清单、与前台/共前台/自动驾驶的区分、临床评估要点及高危环境风险管理。
 synonyms:
 

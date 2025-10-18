@@ -23,7 +23,7 @@ synonyms:
 
 description: 深入解析 Tulpa（图帕）：从意象形成到独立意识的培育机制、心理学机制、与 DID/想象同伴的区别、社群文化与临床风险界定
 title: 图帕（Tulpa）
-updated: 2025-10-17
+updated: 2025-10-18
 search:
   boost: 1.8
 comments: true
@@ -83,7 +83,7 @@ comments: true
 Tulpa 的创造通常遵循以下系统化路径：
 
 1. **人格设定（Personality Design）**：宿主预先设计图帕的性格特质、价值观、兴趣与行为倾向，可通过文字描述、性格测试或角色原型构建。
-2. **[塑造（Forcing）](Forcing.md)**：每日固定时段进行高强度、专注的想象与互动练习，包括：
+2. [**塑造（Forcing）**](Forcing.md)：每日固定时段进行高强度、专注的想象与互动练习，包括：
     - **形象塑造（Visualization）**：在"[心理空间](Headspace-Inner-World.md)"（mindscape）中构建图帕的外观、服装、表情细节。
     - **[成声训练](Vocality.md)（Vocalization）**：为图帕赋予特定音调、语速、口头禅等声音特征，培养其独特"声音"。
     - **对话练习（Narration）**：持续向图帕讲述日常事件、情感与思考，期待其逐步产生回应。

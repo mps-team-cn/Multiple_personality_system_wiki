@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 不宁腿综合征（Restless Legs Syndrome，RLS）
-updated: 2025-10-17
+updated: 2025-10-18
 synonyms:
 
 - 不安腿综合征

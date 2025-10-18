@@ -2,15 +2,11 @@
 title: 角色与身份
 topic: 角色与身份
 tags:
-
-    - 索引
-    - 主题导览
-
+  - 索引
+  - 主题导览
 comments: true
 hide:
-
-    - toc
-
+  - toc
 ---
 
 # 角色与身份
@@ -19,9 +15,11 @@ hide:
 
 ## 词条一览
 
-- [管理者（Admin）](Admin.md) — *2025-10-18*
+- [管理者(Admin)](Admin.md) — *2025-10-18*
 - [核心（Core）](Core.md) — *2025-10-18*
 - [宿主（Host）](Host.md) — *2025-10-18*
+- [人格职能（System Roles）](System-Roles.md) — *2025-10-18*
+- [图帕（Tulpa）](Tulpa.md) — *2025-10-18*
 - [成年成员（Adult Alter）](Adult-Alter.md) — *2025-10-17*
 - [成员（Alter）](Alter.md) — *2025-10-17*
 - [照顾者（Caregiver）](Caregiver.md) — *2025-10-17*
@@ -35,14 +33,12 @@ hide:
 - [社交者（Social）](Social.md) — *2025-10-17*
 - [青少年成员（Teen Alter）](Teen-Alter.md) — *2025-10-17*
 - [创伤持有者（Trauma Holder）](Trauma-Holder.md) — *2025-10-17*
-- [图帕（Tulpa）](Tulpa.md) — *2025-10-17*
 - [儿童人格（Little / Child Alter）](Child-Alter.md) — *2025-10-16*
 - [异化/偏离（Deviation）](Deviation.md) — *2025-10-16*
 - [初始（Original）](Original.md) — *2025-10-16*
 - [执行者（Performer / Executive）](Performer-Executive.md) — *2025-10-16*
 - [迫害者（Persecutor）](Persecutor.md) — *2025-10-16*
 - [超级破碎（Polyfragmented）](Polyfragmented.md) — *2025-10-16*
-- [人格职能（System Roles）](System-Roles.md) — *2025-10-16*
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md) — *2025-10-14*
 - [适应型（Adaptive）](Adaptive.md) — *2025-10-13*
 - [特殊认同（Alterhuman）](Alterhuman.md) — *2025-10-13*

@@ -16,7 +16,7 @@ synonyms:
 - Obsessive-Compulsive Disorder
 
 description: 强迫症（OCD）属于强迫及相关障碍，以反复出现的强迫观念和强迫行为为核心特征，伴随显著焦虑与功能损害。包含污染-清洁、检查-安全、对称-秩序等多种主题维度。
-updated: 2025-10-13
+updated: 2025-10-18
 search:
   boost: 1.2
 comments: true

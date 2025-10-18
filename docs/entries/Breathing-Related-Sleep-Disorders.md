@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 睡眠相关呼吸障碍（Breathing-Related Sleep Disorders）
-updated: 2025-10-17
+updated: 2025-10-18
 synonyms:
 
 - 睡眠呼吸障碍

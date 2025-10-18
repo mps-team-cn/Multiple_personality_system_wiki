@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 发作性睡病(Narcolepsy)
-updated: 2025-10-17
+updated: 2025-10-18
 synonyms:
 
 - 发作性睡眠
