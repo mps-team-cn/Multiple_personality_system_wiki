@@ -22,6 +22,7 @@ hide:
 - [习得性无助(Learned Helplessness)](Learned-Helplessness.md) — *2025-10-18*
 - [发作性睡病(Narcolepsy)](Narcolepsy.md) — *2025-10-18*
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](OCD.md) — *2025-10-18*
+- [其他特定解离性障碍（OSDD）](OSDD.md) — *2025-10-18*
 - [阻塞性睡眠呼吸暂停低通气（Obstructive Sleep Apnea Hypopnea，OSAH）](Obstructive-Sleep-Apnea-Hypopnea.md) — *2025-10-18*
 - [惊恐发作（Panic Attack）](Panic-Attack.md) — *2025-10-18*
 - [不宁腿综合征（Restless Legs Syndrome，RLS）](Restless-Legs-Syndrome.md) — *2025-10-18*
@@ -39,7 +40,6 @@ hide:
 - [嗜睡障碍（Hypersomnolence Disorder）](Hypersomnolence-Disorder.md) — *2025-10-17*
 - [重性抑郁障碍（Major Depressive Disorder, MDD）](Major-Depressive-Disorder-MDD.md) — *2025-10-17*
 - [改良电痉挛治疗（Modified Electroconvulsive Therapy, MECT）](Modified-Electroconvulsive-Therapy-MECT.md) — *2025-10-17*
-- [其他特定解离性障碍（OSDD）](OSDD.md) — *2025-10-17*
 - [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](PTSD.md) — *2025-10-17*
 - [精神分裂症（Schizophrenia，SZ/SCZ）](Schizophrenia-SZ.md) — *2025-10-17*
 - [创伤（Trauma）](Trauma.md) — *2025-10-17*
