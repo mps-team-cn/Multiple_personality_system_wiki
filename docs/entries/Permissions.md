@@ -9,7 +9,7 @@ tags:
     - 解离
     - 创伤
 
-updated: 2025-10-13
+updated: 2025-10-18
 comments: true
 search:
   boost: 1.5
@@ -68,11 +68,11 @@ search:
 
 ## 相关条目
 
-- [前台(Front / Fronting)](Front-Fronting.md)
-- [共前台(Co-fronting)](Co-Fronting.md)
-- [后台(Back / Being Back)](Back-Being-Back.md)
-- [成员(Alter)](Alter.md)
-- [切换(Switch)](Switch.md)
+- [前台（Front / Fronting）](Front-Fronting.md)
+- [共前台（Co-fronting）](Co-Fronting.md)
+- [后台（Back / Being Back）](Back-Being-Back.md)
+- [成员（Alter）](Alter.md)
+- [切换（Switch）](Switch.md)
 
 ---
 

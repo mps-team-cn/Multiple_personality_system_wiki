@@ -2,15 +2,11 @@
 title: 角色与身份
 topic: 角色与身份
 tags:
-
-    - 索引
-    - 主题导览
-
+  - 索引
+  - 主题导览
 comments: true
 hide:
-
-    - toc
-
+  - toc
 ---
 
 # 角色与身份
@@ -19,9 +15,10 @@ hide:
 
 ## 词条一览
 
-- [管理者（Admin）](Admin.md) — *2025-10-18*
+- [管理者(Admin)](Admin.md) — *2025-10-18*
 - [核心（Core）](Core.md) — *2025-10-18*
 - [宿主（Host）](Host.md) — *2025-10-18*
+- [幻想伙伴（Imaginary Companion）](Imaginary-Companion.md) — *2025-10-18*
 - [人格职能（System Roles）](System-Roles.md) — *2025-10-18*
 - [图帕（Tulpa）](Tulpa.md) — *2025-10-18*
 - [成年成员（Adult Alter）](Adult-Alter.md) — *2025-10-17*
@@ -49,7 +46,6 @@ hide:
 - [埃蒙加德分类法（Emmengard Classification）](Emmengard-Classification.md) — *2025-10-13*
 - [伪主体（Fauxmain）](Fauxmain.md) — *2025-10-13*
 - [碎片（Fragment）](Fragment.md) — *2025-10-13*
-- [幻想伙伴（Imaginary Companion）](Imaginary-Companion.md) — *2025-10-13*
 - [主体（Main）](Main.md) — *2025-10-13*
 - [人格面具（Persona）](Persona.md) — *2025-10-13*
 - [傀儡（Servitor）](Servitor.md) — *2025-10-13*

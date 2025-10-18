@@ -2,15 +2,11 @@
 title: 理论与分类
 topic: 理论与分类
 tags:
-
-    - 索引
-    - 主题导览
-
+  - 索引
+  - 主题导览
 comments: true
 hide:
-
-    - toc
-
+  - toc
 ---
 
 # 理论与分类
@@ -19,6 +15,7 @@ hide:
 
 ## 词条一览
 
+- [情绪调节（Emotion Regulation）](Emotion-Regulation.md) — *2025-10-18*
 - [多意识体系统中的创伤功能分化（Functional Dissociation of Trauma in Plural Systems）](Functional-Dissociation-of-Trauma-in-Plural-Systems.md) — *2025-10-17*
 - [情感障碍（Mood Disorders）](Mood-Disorders.md) — *2025-10-14*
 - [依恋理论（Attachment Theory）](Attachment-Theory.md) — *2025-10-13*
@@ -26,7 +23,6 @@ hide:
 - [认知失调（Cognitive Dissonance）](Cognitive-Dissonance.md) — *2025-10-13*
 - [心理防御机制（Defense Mechanisms）](Defense-Mechanisms.md) — *2025-10-13*
 - [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md) — *2025-10-13*
-- [情绪调节（Emotion Regulation）](Emotion-Regulation.md) — *2025-10-13*
 - [高敏感人群（Highly Sensitive Person, HSP）](Highly-Sensitive-Person.md) — *2025-10-13*
 - [人本主义心理学（Humanistic Psychology）](Humanistic-Psychology.md) — *2025-10-13*
 - [学习与条件反射（Learning & Conditioning）](Learning-Conditioning.md) — *2025-10-13*
