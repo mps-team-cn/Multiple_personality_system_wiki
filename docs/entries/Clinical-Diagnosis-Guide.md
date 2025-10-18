@@ -95,6 +95,9 @@ comments: true
   [DSM-5-TR 评估量表总览](DSM-5TR-Scales.md) — :octicons-check-16: 已完成
   汇总跨诊断筛查、特异性严重度与功能残障量表，提供初诊筛查与持续随访的量化框架。
 
+  [解离经验量表（DES‑II）](Dissociative-Experiences-Scale-DES-II.md) — :octicons-check-16: 已完成
+  在线交互式自评（不存储数据），自动计算总均分并给出可视化参考，适合初步筛查与自我观察。
+
 ---
 
 ## DSM-5-TR 诊断分类体系
