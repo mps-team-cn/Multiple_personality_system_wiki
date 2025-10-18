@@ -87,15 +87,16 @@ comments: true
     - [1-3 创造 Tulpa 前的准备工作](Tulpa-Guide-1.md#1-3-创造-tulpa-前的准备工作)
     - [1-4 成熟与责任](Tulpa-Guide-1.md#1-4-成熟与责任)
 
-- **[实践篇](Tulpa-Guide-2.md#2-1-人格设定personality-design)** - 学习人格设定、沟通训练、形象构建等核心方法
-    - [2-1 人格设定（Personality Design）](Tulpa-Guide-2.md#2-1-人格设定personality-design)
-    - [2-2 沟通训练（Communication）](Tulpa-Guide-2.md#2-2-沟通训练communication)
-    - [2-3 形象描绘（Visualization）](Tulpa-Guide-2.md#2-3-形象描绘visualization)
+- **[实践篇](Tulpa-Guide-2.md#2-1-与创造-tulpa-有关的-6-个快问快答)** - 学习人格设定、沟通训练、形象构建等核心方法
+    - [2-1 与创造 Tulpa 有关的 6 个快问快答](Tulpa-Guide-2.md#2-1-与创造-tulpa-有关的-6-个快问快答)
+    - [2-2 创造 Tulpa 的一般流程](Tulpa-Guide-2.md#2-2-创造-tulpa-的一般流程)
+    - [2-3 叙述阶段 · 人格设定与倾述](Tulpa-Guide-2.md#2-3-叙述阶段--人格设定与倾述)
 
-- **[提高篇](Tulpa-Guide-3.md#3-1-投影projection)** - 掌握投影、附体、交换等进阶技巧与风险管理
-    - [3-1 投影（Projection）](Tulpa-Guide-3.md#3-1-投影projection)
-    - [3-2 附体（Possession）](Tulpa-Guide-3.md#3-2-附体possession)
-    - [3-3 交换（Switching）](Tulpa-Guide-3.md#3-3-交换switching)
+- **[提高篇](Tulpa-Guide-3.md#3-1-投影阶段--五感训练)** - 掌握投影、附体、交换等进阶技巧与风险管理
+    - [3-1 投影阶段 · 五感训练](Tulpa-Guide-3.md#3-1-投影阶段--五感训练)
+    - [3-2 意识交流与独立性](Tulpa-Guide-3.md#3-2-意识交流与独立性)
+    - [3-3 附体阶段（Possession）](Tulpa-Guide-3.md#3-3-附体阶段possession)
+    - [3-4 交换阶段（Switching）](Tulpa-Guide-3.md#3-4-交换阶段switching)
 
 ---
 
