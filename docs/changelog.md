@@ -1,5 +1,95 @@
 # 更新日志
 
+## [v3.15.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.15.0) - 角色体系扩充与内容格式标准化 (2025-10-18)
+
+### ✨ 新增词条
+
+- **新增 4 个睡眠障碍词条 (PR #318)**
+    - [呼吸相关睡眠障碍 (Breathing-Related-Sleep-Disorders)](entries/Breathing-Related-Sleep-Disorders.md)
+    - [阻塞性睡眠呼吸暂停低通气 (Obstructive-Sleep-Apnea-Hypopnea)](entries/Obstructive-Sleep-Apnea-Hypopnea.md)
+    - [昼夜节律睡眠-觉醒障碍 (Circadian-Rhythm-Sleep-Wake-Disorders)](entries/Circadian-Rhythm-Sleep-Wake-Disorders.md)
+    - [不宁腿综合征 (Restless-Legs-Syndrome)](entries/Restless-Legs-Syndrome.md)
+
+- **新增系统运作与理论词条 (PR #320)**
+    - [角色面具 (Masking)](entries/Masking.md) - 多意识体系统的社会适应策略
+    - [偏重倾向 (Median-Bias)](entries/Median-Bias.md) - 咸鱼理论中的核心概念
+
+- **新增创伤疗愈核心词条 (PR #314)**
+    - [深层记忆 (Deep-Memory)](entries/Deep-Memory.md) - 与核心创伤高度相关的隐性记忆（⚠️ 仅限专业支持下探索）
+
+### 📚 词条完善
+
+- **临床诊断词条大幅扩充 (PR #317)**
+    - 全面完善 [解离性身份障碍 (DID)](entries/DID.md) 词条
+        - 新增 ICD-11 与 DSM-5-TR 详细诊断标准对比
+        - 补充诊断评估工具表格（SCID-D、MID、DDIS、DES、SDQ-20）
+        - 增加治疗伦理与边界、长期照护、争议与特殊议题等章节
+    - 全面完善 [精神分裂症 (Schizophrenia)](entries/Schizophrenia.md) 词条
+        - 扩充阳性/阴性/认知症状详细说明
+        - 新增鉴别诊断、共病管理、风险管理重点
+        - 详细阐述药物治疗与心理社会干预方案
+
+- **核心角色与理论词条大规模扩充 (PR #319)**
+    - [管理者 (Admin)](entries/Admin.md) - 从 75 行扩充至 251 行
+    - [宿主 (Host)](entries/Host.md) - 补充身份认知、角色转换、临床视角
+    - [身体所有权 (Body-Ownership)](entries/Body-Ownership.md) - 完善神经科学基础与解离视角
+    - [意识修改 (Consciousness-Modification)](entries/Consciousness-Modification.md) - 从 88 行扩充至 275 行
+    - [习得性无助 (Learned-Helplessness)](entries/Learned-Helplessness.md) - 从 120 行扩充至 316 行
+    - [外部投射 (External-Projection)](entries/External-Projection.md)、[迭代 (Iteration)](entries/Iteration.md)、[隔离 (Sequestration)](entries/Sequestration.md)
+
+- **系统运作相关词条优化 (PR #320)**
+    - 完善 [Tulpa](entries/Tulpa.md) 与 [Tulpish](entries/Tulpish.md) 的社群实践与术语演变历史
+    - 优化 [System](entries/System.md)、[System-Roles](entries/System-Roles.md)、[OCD](entries/OCD.md)、[Trigger](entries/Trigger.md) 等词条
+
+- **解离与创伤词条强化**
+    - 全面升级 [解离 (Dissociation)](entries/Dissociation.md) 词条的临床专业性
+    - 全面改进 [创伤 (Trauma)](entries/Trauma.md) 词条的临床专业性与可操作性
+    - 新增 [嗜睡障碍 (Hypersomnolence-Disorder)](entries/Hypersomnolence-Disorder.md) 词条
+
+### 🔧 工具与基础设施
+
+- **PDF 导出功能优化 (PR #321)**
+    - 添加索引文件（`*index.md`、`*-index.md`）和导览文件（`*Guide.md`、`*-Guide.md`）排除规则
+    - 优化 PDF 封面信息：添加"全体贡献者"字样，优化在线链接显示
+
+- **Google Indexing API 集成 (PR #311)**
+    - 新增自动提交工具，支持批量提交和定时更新
+    - 完善快速开始指南、实施总结、测试检查清单
+
+### 📝 格式规范与文档更新
+
+- **全面格式标准化 (PR #319)**
+    - 统一全部 65 个文档的括号格式（英文括号 → 中文全角括号）
+    - 规范 Frontmatter 的 `tags`、`synonyms` 等字段缩进
+    - 为核心词条添加 `search.boost` SEO 配置
+
+- **开发文档完善 (PR #319)**
+    - 新增或更新 7 个开发指南（Tools-Manual.md、Performance-Optimization.md 等）
+    - 在 CLAUDE.md 中明确 PR 阶段与合并后的双重检查流程
+
+- **DSM-5-TR 清单更新 (PR #318)**
+    - 修正 8 处词条完成状态标记
+    - 更新进度统计：已完成 80/199 (40.2%)
+
+### 🎨 其他改进
+
+- **导航与索引**
+    - 更新所有分区索引（Clinical-Diagnosis、System-Operations、Roles-Identity 等）
+    - 优化 QuickStart.md 与贡献指南的结构
+
+- **Favicon 与社交分享**
+    - 添加 favicon 和社交媒体分享图片
+
+### 📊 影响范围
+
+- **100+ 个文件变更**
+- **新增词条**: 7 个
+- **大幅扩充词条**: 10+ 个（内容翻倍）
+- **格式标准化**: 覆盖全部词条与文档
+- **工具增强**: PDF 导出、Google Indexing API
+
+---
+
 ## [v3.14.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.14.0) - Tulpa 实践体系完善与主题索引优化 (2025-10-17)
 
 ### ✨ 新增词条

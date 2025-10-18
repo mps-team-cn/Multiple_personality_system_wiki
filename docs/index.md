@@ -237,11 +237,11 @@ hide:
 
 ## 📋 最近更新
 
+- [v3.15.0（2025-10-18）：角色体系扩充与内容格式标准化](changelog.md#v3150---角色体系扩充与内容格式标准化-2025-10-18)
 - [v3.14.0（2025-10-17）：Tulpa 实践体系完善与主题索引优化](changelog.md#v3140---tulpa-实践体系完善与主题索引优化-2025-10-17)
 - [v3.13.0（2025-10-16）：DSM-5-TR 诊断体系完善与 Favicon 支持](changelog.md#v3130---dsm-5-tr-诊断体系完善与-favicon-支持-2025-10-16)
-- [v3.12.0（2025-10-14）：进食障碍词条扩充与 SEO 优化](changelog.md#v3120---进食障碍词条扩充与-seo-优化-2025-10-14)
 
-查看完整 [更新日志](changelog.md) | [下载 PDF 版本](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/download/v3.14.0/Multiple_Personality_System_wiki_v3.14.pdf)
+查看完整 [更新日志](changelog.md) | [下载 PDF 版本](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/download/v3.15.0/Multiple_Personality_System_wiki_v3.15.pdf)
 
 ---
 
