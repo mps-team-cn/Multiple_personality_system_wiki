@@ -9,3 +9,11 @@ docs\VALIDATION_REPORT.md
 docs\Glossary.md
 docs\README.md
 CONTRIBUTING.md
+
+# 排除所有索引文件
+*index.md
+*index-*.md
+
+# 排除所有导览文件
+*Guide.md
+*-Guide.md
