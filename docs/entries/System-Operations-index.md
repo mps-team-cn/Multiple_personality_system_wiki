@@ -2,11 +2,15 @@
 title: 系统运作
 topic: 系统运作
 tags:
-  - 索引
-  - 主题导览
+
+    - 索引
+    - 主题导览
+
 comments: true
 hide:
-  - toc
+
+    - toc
+
 ---
 
 # 系统运作
@@ -32,9 +36,9 @@ hide:
 - [封存（Sequestration）](Sequestration.md) — *2025-10-18*
 - [单一类系统（Single-Class Systems, Xianyu Theory）](Single-Class-Systems-Xianyu.md) — *2025-10-18*
 - [系魂型系统（Soul-Linked Systems, Xianyu Theory）](Soul-Linked-Systems-Xianyu.md) — *2025-10-18*
-- [系统(System)](System.md) — *2025-10-18*
+- [系统（System）](System.md) — *2025-10-18*
 - [触发（Trigger）](Trigger.md) — *2025-10-18*
-- [T 语(Tulpish)](Tulpish.md) — *2025-10-18*
+- [T 语（Tulpish）](Tulpish.md) — *2025-10-18*
 - [内视（Visualization / Imagination）](Visualization-Imagination.md) — *2025-10-18*
 - [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](Xianyu-Theory-Niche-Classification.md) — *2025-10-18*
 - [失忆（Amnesia）](Amnesia.md) — *2025-10-17*
@@ -42,7 +46,7 @@ hide:
 - [解离（Dissociation）](Dissociation.md) — *2025-10-17*
 - [独有记忆（Exomemory）](Exomemory.md) — *2025-10-17*
 - [前台（Front / Fronting）](Front-Fronting.md) — *2025-10-17*
-- [卡前台(Front Stuck / Frontstuck)](Frontstuck.md) — *2025-10-17*
+- [卡前台（Front Stuck / Frontstuck）](Frontstuck.md) — *2025-10-17*
 - [融合（Fusion）](Fusion.md) — *2025-10-17*
 - [整合（Integration）](Integration.md) — *2025-10-17*
 - [内部沟通（Internal Communication）](Internal-Communication.md) — *2025-10-17*
