@@ -39,7 +39,8 @@ hide:
 - [单一类系统（Single-Class Systems, Xianyu Theory）](Single-Class-Systems-Xianyu.md) — *2025-10-18*
 - [系魂型系统（Soul-Linked Systems, Xianyu Theory）](Soul-Linked-Systems-Xianyu.md) — *2025-10-18*
 - [结构性解离理论（Theory of Structural Dissociation of the Personality, TSDT）](Structural-Dissociation-Theory.md) — *2025-10-18*
-- [系统（System）](System.md) — *2025-10-18*
+- [切换（Switch）](Switch.md) — *2025-10-18*
+- [系统(System)](System.md) — *2025-10-18*
 - [触发（Trigger）](Trigger.md) — *2025-10-18*
 - [T 语（Tulpish）](Tulpish.md) — *2025-10-18*
 - [内视（Visualization / Imagination）](Visualization-Imagination.md) — *2025-10-18*
@@ -56,7 +57,6 @@ hide:
 - [并行（Parallelism）](Parallelism.md) — *2025-10-17*
 - [应激反应（Stress Response）](Stress-Response.md) — *2025-10-17*
 - [子系统（Subsystem）](Subsystem.md) — *2025-10-17*
-- [切换（Switch）](Switch.md) — *2025-10-17*
 - [自动驾驶（Autopilot）](Autopilot.md) — *2025-10-16*
 - [混合（Blending）](Blending.md) — *2025-10-16*
 - [去现实化（Derealization）](Derealization.md) — *2025-10-16*

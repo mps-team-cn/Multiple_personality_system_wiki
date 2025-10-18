@@ -9,7 +9,7 @@ tags:
 topic: 系统运作
 description: 深入解析系统成员切换（Switch）的类型、触发因素与管理方法。了解切换的生理心理机制、如何识别切换及应对策略
 title: 切换（Switch）
-updated: 2025-10-17
+updated: 2025-10-18
 synonyms:
 
     - 切换
@@ -106,8 +106,8 @@ comments: true
 - [内部空间（Headspace / Inner World）](Headspace-Inner-World.md)
 - [外投射（External Projection）](External-Projection.md)
 - [内视（Visualization / Imagination）](Visualization-Imagination.md)
-    - [自动驾驶（Autopilot）](Autopilot.md)
-    - [定向障碍（Disorientation）](Disorientation.md)
+- [自动驾驶（Autopilot）](Autopilot.md)
+- [定向障碍（Disorientation）](Disorientation.md)
 
 ## 参考与延伸阅读
 
