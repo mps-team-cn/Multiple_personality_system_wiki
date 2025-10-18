@@ -72,10 +72,13 @@ bash tools/run_local_updates.sh --help
 
 | 工具 | 功能 | 使用频率 |
 |------|------|---------|
+| **generate_user_dict_from_entries.py** | ⭐ 从词条 Frontmatter 生成 jieba 词典(推荐) | 📝 日常维护 |
 | **analyze_search_index.py** | 分析搜索索引,统计词频和 n-gram 分布 | 🔍 词典更新时 |
 | **extract_dict_candidates.py** | 从索引提取候选词(可配置阈值) | 📝 词典生成时 |
 | **auto_review_candidates.py** | 自动审核候选词并生成优化词典 | ✅ 质量控制时 |
 | **test_dict_segmentation.py** | 测试词典的分词效果 | 🧪 验证效果时 |
+
+👉 **完整指南**: [AI 辅助生成搜索词典指南](AI-Dictionary-Generation.md)
 
 ### 版本管理
 
