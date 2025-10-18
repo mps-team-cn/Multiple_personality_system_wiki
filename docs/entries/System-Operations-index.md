@@ -31,6 +31,7 @@ hide:
 - [记忆屏蔽（Memory Shielding）](Memory-Shielding.md) — *2025-10-18*
 - [混合型系统（Mixed Systems, Xianyu Theory）](Mixed-Systems-Xianyu.md) — *2025-10-18*
 - [多意识体系统（Multiple Personality System）](Multiple_Personality_System.md) — *2025-10-18*
+- [附体（Possession）](Possession.md) — *2025-10-18*
 - [重构（Reconstruction）](Reconstruction.md) — *2025-10-18*
 - [存在感（Sense of Presence）](Sense-Of-Presence.md) — *2025-10-18*
 - [封存（Sequestration）](Sequestration.md) — *2025-10-18*

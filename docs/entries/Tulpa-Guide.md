@@ -8,7 +8,7 @@ tags:
 
 topic: 实践指南
 title: Tulpa 完全创造指南
-updated: 2025-10-13
+updated: 2025-10-18
 description: 系统化 Tulpa 创造实践指南：涵盖基础原理、训练方法、进阶技巧、风险管理与伦理边界,整合自百度贴吧 tulpa 吧社群经验
 synonyms:
 

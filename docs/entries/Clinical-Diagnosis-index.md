@@ -22,8 +22,9 @@ hide:
 - [睡眠相关呼吸障碍（Breathing-Related Sleep Disorders）](Breathing-Related-Sleep-Disorders.md) — *2025-10-18*
 - [昼夜节律睡眠-觉醒障碍（Circadian Rhythm Sleep-Wake Disorders）](Circadian-Rhythm-Sleep-Wake-Disorders.md) — *2025-10-18*
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md) — *2025-10-18*
-- [习得性无助（Learned Helplessness）](Learned-Helplessness.md) — *2025-10-18*
-- [发作性睡病（Narcolepsy）](Narcolepsy.md) — *2025-10-18*
+- [谵妄(Delirium)](Delirium.md) — *2025-10-18*
+- [习得性无助(Learned Helplessness)](Learned-Helplessness.md) — *2025-10-18*
+- [发作性睡病(Narcolepsy)](Narcolepsy.md) — *2025-10-18*
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](OCD.md) — *2025-10-18*
 - [阻塞性睡眠呼吸暂停低通气（Obstructive Sleep Apnea Hypopnea，OSAH）](Obstructive-Sleep-Apnea-Hypopnea.md) — *2025-10-18*
 - [不宁腿综合征（Restless Legs Syndrome，RLS）](Restless-Legs-Syndrome.md) — *2025-10-18*
@@ -84,7 +85,6 @@ hide:
 - [慢性疼痛（Chronic Pain）](Chronic-Pain.md) — *2025-10-14*
 - [功能性神经症状障碍（Functional Neurological Symptom Disorder，FND）](Conversion-Disorder-FND.md) — *2025-10-14*
 - [环性心境障碍（Cyclothymic Disorder）](Cyclothymic-Disorder.md) — *2025-10-14*
-- [谵妄（Delirium）](Delirium.md) — *2025-10-14*
 - [依赖型人格障碍（Dependent Personality Disorder，DPD）](Dependent-Personality-Disorder-DPD.md) — *2025-10-14*
 - [进食障碍（Eating Disorders，ED）](Eating-Disorders-ED.md) — *2025-10-14*
 - [癫痫（Epilepsy）](Epilepsy.md) — *2025-10-14*
