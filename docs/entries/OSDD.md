@@ -128,7 +128,7 @@ OSDD 属于 DSM-5-TR 解离性障碍章节的"其他特定"诊断，编码为 **
 ### 功能层面损害
 
 - **社会与职业功能**：反复失业、学业中断、人际关系不稳定、无法维持长期承诺。症状的严重程度可能不如 DID，但仍显著影响日常功能。
-- **医疗系统负担**：反复就诊、多次误诊（如[双相障碍（Bipolar Disorder）](Bipolar-Disorder.md)、[边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)）、医疗资源过度使用。
+- **医疗系统负担**：反复就诊、多次误诊（如[双相障碍（Bipolar Disorder）](Bipolar-Disorders.md)、[边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)）、医疗资源过度使用。
 - **日常生活困难**：时间管理障碍、财务管理问题、无法完成日常任务、疲惫感与情绪波动导致的功能下降。
 
 症状的强度受压力、触发因素、安全感与支持系统影响，常表现为周期性恶化与缓解。
