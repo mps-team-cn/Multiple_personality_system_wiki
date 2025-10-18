@@ -18,19 +18,23 @@ updated: 2025-10-15
 
 <div class="grid cards" markdown>
 
--   :material-compass: **核心概念导览**  
+-   :material-compass: **核心概念导览**
+
     从零建立框架，理解「多意识体」「解离」与系统类型。
     [:octicons-arrow-right-24: 进入](entries/Core-Concepts-Guide.md)
 
--   :material-heart-pulse: **心理健康导览**  
+-   :material-heart-pulse: **心理健康导览**
+
     关注创伤与疗愈，了解 PTSD/CPTSD、DID/OSDD 与循证治疗。
     [:octicons-arrow-right-24: 进入](entries/Mental-Health-Guide.md)
 
 -   :material-cog: **系统运作导览**
+
     前台与切换、共同意识、内部沟通与记忆管理的实践路径。
     [:octicons-arrow-right-24: 进入](entries/System-Operations-Guide.md)
 
--   :material-hammer-wrench: **实践指南**  
+-   :material-hammer-wrench: **实践指南**
+
     Tulpa、冥想、可视化与接地等可直接上手的练习。
     [:octicons-arrow-right-24: 进入](entries/Practice-Guide.md)
 
@@ -39,23 +43,28 @@ updated: 2025-10-15
 ???+ tip "需要更深入？5 个专题导览"
     <div class="grid cards" markdown>
 
-    -   :material-hospital-building: **临床诊断**  
+    -   :material-hospital-building: **临床诊断**
+
         DID/OSDD、PTSD/CPTSD 标准与鉴别要点。
         [:octicons-arrow-right-24: 进入](entries/Clinical-Diagnosis-Guide.md)
 
-    -   :material-bandage: **创伤与疗愈**  
+    -   :material-bandage: **创伤与疗愈**
+
         稳定 → 处理 → 整合的三阶段模型与工具。
         [:octicons-arrow-right-24: 进入](entries/Trauma-Healing-Guide.md)
 
-    -   :material-account-group: **角色与身份**  
+    -   :material-account-group: **角色与身份**
+
         宿主/守门人/保护者等角色与系统治理。
         [:octicons-arrow-right-24: 进入](entries/Roles-Identity-Guide.md)
 
-    -   :material-thought-bubble: **理论与分类**  
+    -   :material-thought-bubble: **理论与分类**
+
         结构性解离、依恋与自我决定等核心理论。
         [:octicons-arrow-right-24: 进入](entries/Theory-Classification-Guide.md)
 
-    -   :material-movie-open: **文化与媒体**  
+    -   :material-movie-open: **文化与媒体**
+
         影视/文学/动画/游戏中的多意识体呈现。
         [:octicons-arrow-right-24: 进入](entries/Cultural-Media-Guide.md)
 
@@ -81,7 +90,7 @@ updated: 2025-10-15
 
         # 2) 启动本地服务（支持热重载）
         mkdocs serve
-        # 访问 http://127.0.0.1:8000
+        # 访问 [http://127.0.0.1:8000](http://127.0.0.1:8000)
         ```
 
     !!! tip "常用命令"
@@ -134,15 +143,18 @@ updated: 2025-10-15
 
 <div class="grid cards" markdown>
 
--   :material-book-education: **术语表**  
+-   :material-book-education: **术语表**
+
     遇到陌生术语时的第一站。
     [:octicons-search-24: 打开](Glossary.md)
 
--   :material-tag: **标签索引**  
+-   :material-tag: **标签索引**
+
     按主题浏览全部词条。
     [:octicons-list-unordered-24: 打开](tags.md)
 
--   :material-magnify: **站内搜索**  
+-   :material-magnify: **站内搜索**
+
     顶部搜索栏支持短语与符号搜索。
     [:octicons-arrow-right-24: 使用](index.md)
 
@@ -165,6 +177,7 @@ updated: 2025-10-15
     可参考 [心理健康导览](entries/Mental-Health-Guide.md) 与 [临床诊断导览](entries/Clinical-Diagnosis-Guide.md)。
 
 ??? question "内容可靠吗？"
+
     - 医疗/诊断内容遵循 ICD‑11、DSM‑5‑TR 等权威来源。
     - 断言均附来源与访问日期；经验内容会标注「经验分享」。
     - 详见 [贡献指南·学术引用](contributing/academic-citation.md)。

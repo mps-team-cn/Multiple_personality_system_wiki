@@ -37,29 +37,34 @@
 #### 关键指标查看
 
 **主线程活动**:
+
 - 查看 **Main** 线程的火焰图
 - 识别长任务（红色标记，> 50ms）
 - 查看 JavaScript 执行时间
 
 **INP (Interaction to Next Paint)**:
+
 - 查看 **Interactions** 部分
 - 每个交互的延迟时间应 < 200ms
 - 红色标记表示需要优化
 
 **示例分析**:
 
-```
+```text
 ✅ 优化后应该看到:
+
 - 主线程有更多空闲时间（白色区域）
 - 长任务（> 50ms）数量减少
 - DOMContentLoaded 后快速完成初始化
 - 用户交互响应时间 < 200ms
 
 ❌ 优化前可能看到:
+
 - 主线程持续繁忙（很少白色区域）
 - 多个长任务连续执行
 - DOMContentLoaded 后仍有大量 JavaScript 执行
 - 用户交互响应时间 > 1000ms
+
 ```
 
 ### 方法二：Lighthouse CI
@@ -69,29 +74,34 @@
 使用 Google PageSpeed Insights:
 
 1. 访问 [PageSpeed Insights](https://pagespeed.web.dev/)
-2. 输入网址: `https://wiki.mpsteam.cn`
+2. 输入网址: `[https://wiki.mpsteam.cn`](https://wiki.mpsteam.cn`)
 3. 点击 "分析"
 4. 等待测试完成（约 30-60 秒）
 
 #### 本地测试
 
 ```bash
+
 # 安装 Lighthouse CLI
+
 npm install -g lighthouse
 
 # 测试桌面版本
+
 lighthouse https://wiki.mpsteam.cn \
   --output html \
   --output-path ./lighthouse-desktop.html \
   --preset=desktop
 
 # 测试移动版本
+
 lighthouse https://wiki.mpsteam.cn \
   --output html \
   --output-path ./lighthouse-mobile.html \
   --preset=mobile
 
 # 只测试性能
+
 lighthouse https://wiki.mpsteam.cn \
   --only-categories=performance \
   --output json \
@@ -114,26 +124,29 @@ lighthouse https://wiki.mpsteam.cn \
 #### 在线测试
 
 1. 访问 [WebPageTest](https://www.webpagetest.org/)
-2. 输入网址: `https://wiki.mpsteam.cn`
+2. 输入网址: `[https://wiki.mpsteam.cn`](https://wiki.mpsteam.cn`)
 3. 选择测试位置（推荐选择距离目标用户最近的位置）
 4. 设置测试参数：
-   - **Connection**: Cable, 4G, 3G 等
-   - **Number of Tests to Run**: 3（建议多次测试取平均值）
+    - **Connection**: Cable, 4G, 3G 等
+    - **Number of Tests to Run**: 3（建议多次测试取平均值）
 5. 点击 "Start Test"
 
 #### 关键查看项
 
 **瀑布图 (Waterfall)**:
+
 - 查看资源加载顺序
 - 识别阻塞渲染的资源
 - 查看是否有串行加载问题
 
 **视频播放 (Filmstrip)**:
+
 - 查看页面加载的视觉进度
 - 识别白屏时间
 - 查看首屏渲染速度
 
 **Core Web Vitals**:
+
 - LCP: 查看最大内容元素是什么
 - FID: 查看首次交互延迟
 - CLS: 查看是否有布局偏移
@@ -174,6 +187,7 @@ lighthouse https://wiki.mpsteam.cn \
 ### 步骤 2: 应用优化
 
 确认以下文件已更新：
+
 - [x] `docs/assets/extra.js`
 - [x] `docs/assets/search-phrase-default.js`
 - [x] `docs/assets/giscus-loader.js`
@@ -185,6 +199,7 @@ lighthouse https://wiki.mpsteam.cn \
 ### 步骤 4: 分析改进
 
 **期望结果**:
+
 - ✅ 交互延迟从 14,520ms 降低到 < 200ms
 - ✅ 主线程在 DOMContentLoaded 后快速空闲
 - ✅ 没有长时间阻塞的 JavaScript 任务
@@ -197,9 +212,9 @@ lighthouse https://wiki.mpsteam.cn \
 2. 切换到 **Network** 标签
 3. 点击 **No throttling** 下拉菜单
 4. 选择网络速度：
-   - **Fast 3G**: 模拟快速移动网络
-   - **Slow 3G**: 模拟慢速移动网络
-   - **Custom**: 自定义网络速度
+    - **Fast 3G**: 模拟快速移动网络
+    - **Slow 3G**: 模拟慢速移动网络
+    - **Custom**: 自定义网络速度
 
 ### 推荐测试场景
 
@@ -253,6 +268,7 @@ module.exports = {
 ### INP 仍然很高
 
 **可能原因**:
+
 1. 浏览器扩展干扰 → 使用隐身模式
 2. 缓存未清除 → 硬性刷新
 3. 设备性能限制 → 使用 CPU 限速测试
@@ -261,6 +277,7 @@ module.exports = {
 ### LCP 不符合预期
 
 **可能原因**:
+
 1. 最大内容元素是大图片 → 优化图片
 2. 关键 CSS 未内联 → 检查渲染阻塞资源
 3. 字体加载延迟 → 使用系统字体
@@ -268,6 +285,7 @@ module.exports = {
 ### CLS 出现波动
 
 **可能原因**:
+
 1. 图片未指定尺寸 → 添加 width/height 属性
 2. 动态内容插入 → 为内容预留空间
 3. 广告或 iframe → 固定容器尺寸
@@ -283,7 +301,7 @@ module.exports = {
 ## 更新日志
 
 - 2025-10-16: 创建初始版本
-  - 添加 Chrome DevTools 测试指南
-  - 添加 Lighthouse CI 使用说明
-  - 添加 WebPageTest 测试方法
-  - 添加性能对比测试流程
+    - 添加 Chrome DevTools 测试指南
+    - 添加 Lighthouse CI 使用说明
+    - 添加 WebPageTest 测试方法
+    - 添加性能对比测试流程

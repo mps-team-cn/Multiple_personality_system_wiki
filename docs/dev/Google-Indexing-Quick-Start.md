@@ -5,12 +5,16 @@
 ## 第 1 步: 安装依赖
 
 ```bash
+
 # 激活虚拟环境
+
 python3 -m venv venv
 source venv/bin/activate  # Linux/macOS
+
 # 或 venv\Scripts\activate.bat  # Windows
 
 # 安装依赖
+
 pip install -r requirements.txt
 ```
 
@@ -54,10 +58,13 @@ pip install -r requirements.txt
 ### 本地测试
 
 ```bash
+
 # 方式 1: 环境变量
+
 export GOOGLE_SERVICE_ACCOUNT_JSON='{"type":"service_account","project_id":"...",...}'
 
 # 方式 2: 文件路径(推荐)
+
 mv ~/Downloads/service-account-key.json ~/.config/gcloud/wiki-indexing-credentials.json
 ```
 
@@ -73,10 +80,13 @@ mv ~/Downloads/service-account-key.json ~/.config/gcloud/wiki-indexing-credentia
 ## 第 4 步: 测试运行
 
 ```bash
+
 # Dry-run 测试(不实际提交)
+
 python3 tools/submit_to_google_indexing.py --max-priority 1 --dry-run
 
 # 如果使用文件路径
+
 python3 tools/submit_to_google_indexing.py \
   --credentials ~/.config/gcloud/wiki-indexing-credentials.json \
   --max-priority 1 --dry-run
@@ -84,7 +94,7 @@ python3 tools/submit_to_google_indexing.py \
 
 预期输出:
 
-```
+```text
 ================================================================================
 Google Indexing API 自动提交工具
 网站地址: https://wiki.mpsteam.cn
@@ -106,10 +116,13 @@ Google Indexing API 自动提交工具
 ## 第 5 步: 正式提交
 
 ```bash
+
 # 提交最高优先级 URL
+
 python3 tools/submit_to_google_indexing.py --max-priority 1
 
 # 提交高优先级 URL
+
 python3 tools/submit_to_google_indexing.py --max-priority 2
 ```
 
@@ -118,10 +131,13 @@ python3 tools/submit_to_google_indexing.py --max-priority 2
 ### Q1: 如何检查提交状态?
 
 ```bash
+
 # 查看提交日志
+
 cat google_indexing_log.json
 
 # 或使用 jq 格式化
+
 jq '.' google_indexing_log.json
 ```
 
@@ -143,7 +159,9 @@ python3 tools/submit_to_google_indexing.py \
 默认配额是每天 200 个请求。建议:
 
 ```bash
+
 # 分批提交
+
 python3 tools/submit_to_google_indexing.py --limit 100
 ```
 
@@ -166,20 +184,27 @@ python3 tools/submit_to_google_indexing.py --limit 100
 ### 分阶段提交(推荐)
 
 ```bash
+
 # 第 1 天: 核心页面(优先级 1)
+
 python3 tools/submit_to_google_indexing.py --max-priority 1
 
 # 第 2 天: 高优先级词条(优先级 2)
+
 python3 tools/submit_to_google_indexing.py --max-priority 2
 
 # 后续: 定期更新
+
 # 每周提交新增和更新的内容
+
 ```
 
 ### 限制数量策略
 
 ```bash
+
 # 每天 50 个,避免超配额
+
 python3 tools/submit_to_google_indexing.py --limit 50
 ```
 
@@ -189,7 +214,9 @@ python3 tools/submit_to_google_indexing.py --limit 50
 
 ```yaml
 schedule:
+
   - cron: '0 2 * * 0'  # 每周日 02:00 UTC
+
 ```
 
 ## 安全提示

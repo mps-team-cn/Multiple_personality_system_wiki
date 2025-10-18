@@ -46,8 +46,8 @@
 ### 自动化工具
 
 - **CI 双重检查机制**：
-  - **PR 阶段**：自动检查链接规范和 Frontmatter 格式，发现问题会阻止合并
-  - **合并后**：自动更新时间戳、修复格式、再次验证链接，确保质量
+    - **PR 阶段**：自动检查链接规范和 Frontmatter 格式，发现问题会阻止合并
+    - **合并后**：自动更新时间戳、修复格式、再次验证链接，确保质量
 - 视任务执行 `markdownlint` 校验（可选）
 - 所有 Python 工具默认使用 `python3`
 - 大规模修改前必须确认相关索引、导览同步更新
@@ -110,8 +110,8 @@
 - 词条编辑：检查 Frontmatter → 更新导览（格式和时间戳由 CI 自动处理）
 - 工具修改：同时更新 `docs/dev/Tools-Index.md`
 - **CI 流程**：
-  - PR 创建时：运行 `pr-check.yml` 检查链接和 Frontmatter（只检查不修复）
-  - 合并到 main：运行 `auto-fix-entries.yml` 自动修复并提交
+    - PR 创建时：运行 `pr-check.yml` 检查链接和 Frontmatter（只检查不修复）
+    - 合并到 main：运行 `auto-fix-entries.yml` 自动修复并提交
 
 ## 项目知识存储
 
@@ -120,5 +120,5 @@
 - **关键概念**：mps、多意识体；Docsify→MkDocs 迁移；Frontmatter；Conventional Commits；CI 双重检查
 - **重要路径**：`docs/contributing/`、`docs/TEMPLATE_ENTRY.md`、`docs/entries/`、`tools/`、`docs/dev/Tools-Index.md`、`.github/workflows/`
 - **CI 双重检查**：
-  - PR 阶段（`.github/workflows/pr-check.yml`）：检查链接规范和 Frontmatter，不通过则阻止合并
-  - 合并后（`.github/workflows/auto-fix-entries.yml`）：自动更新时间戳、修复格式、验证链接，然后触发部署
+    - PR 阶段（`.github/workflows/pr-check.yml`）：检查链接规范和 Frontmatter，不通过则阻止合并
+    - 合并后（`.github/workflows/auto-fix-entries.yml`）：自动更新时间戳、修复格式、验证链接，然后触发部署

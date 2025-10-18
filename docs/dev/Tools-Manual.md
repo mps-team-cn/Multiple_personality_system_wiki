@@ -15,7 +15,9 @@
 #### 使用方法
 
 ```bash
+
 # 检查当前覆盖情况
+
 python3 tools/check_descriptions.py
 ```
 
@@ -28,9 +30,11 @@ python3 tools/check_descriptions.py
 缺失 description: 163 (76.9%)
 
 缺失 description 的词条:
+
 - Acute-Stress-Disorder-ASD.md
 - Adaptive.md
 - Age-Regression.md
+
 ...
 ```
 
@@ -50,7 +54,9 @@ python3 tools/check_descriptions.py
 #### 使用方法
 
 ```bash
+
 # 为核心词条添加 description
+
 python3 tools/add_descriptions.py
 ```
 
@@ -68,13 +74,17 @@ PRIORITY_DESCRIPTIONS = {
 #### 使用流程
 
 ```bash
+
 # 1. 检查当前覆盖情况
+
 python3 tools/check_descriptions.py
 
 # 2. 为核心词条添加 description
+
 python3 tools/add_descriptions.py
 
 # 3. 再次检查验证结果
+
 python3 tools/check_descriptions.py
 ```
 
@@ -95,27 +105,33 @@ python3 tools/check_descriptions.py
 ### 快速上手
 
 ```bash
+
 # 1. 构建搜索索引
+
 mkdocs build
 
 # 2. 分析索引并提取候选词
+
 python3 tools/extract_dict_candidates.py \
   --input site/search/search_index.json \
   --output data/candidates.txt \
   --min-freq 3
 
 # 3. 自动审核并生成优化词典
+
 python3 tools/auto_review_candidates.py \
   --input data/candidates.txt \
   --output data/user_dict_reviewed.txt \
   --stats
 
 # 4. 测试分词效果
+
 python3 tools/test_dict_segmentation.py \
   --dict data/user_dict_reviewed.txt \
   --test-suite
 
 # 5. 应用新词典
+
 cp data/user_dict_reviewed.txt data/user_dict.txt
 mkdocs build  # 重新构建
 ```
@@ -125,12 +141,15 @@ mkdocs build  # 重新构建
 #### 使用方法
 
 ```bash
+
 # 分析索引并显示统计信息
+
 python3 tools/analyze_search_index.py \
   --input site/search/search_index.json \
   --stats
 
 # 输出高频词汇(Top 50)
+
 python3 tools/analyze_search_index.py \
   --input site/search/search_index.json \
   --top 50
@@ -146,9 +165,11 @@ python3 tools/analyze_search_index.py \
 平均文档长度: 72.8 词
 
 === 高频词汇 Top 20 ===
+
 1. 解离 (542)
 2. 系统 (487)
 3. 人格 (423)
+
 ...
 ```
 
@@ -157,7 +178,9 @@ python3 tools/analyze_search_index.py \
 #### 使用方法
 
 ```bash
+
 # 提取候选词(频率 >= 3,长度 2-6)
+
 python3 tools/extract_dict_candidates.py \
   --input site/search/search_index.json \
   --output data/candidates.txt \
@@ -194,13 +217,16 @@ python3 tools/extract_dict_candidates.py \
 #### 使用方法
 
 ```bash
+
 # 自动审核并生成优化词典
+
 python3 tools/auto_review_candidates.py \
   --input data/candidates.txt \
   --output data/user_dict_reviewed.txt \
   --stats
 
 # 只显示统计信息,不生成文件
+
 python3 tools/auto_review_candidates.py \
   --input data/candidates.txt \
   --stats
@@ -211,17 +237,21 @@ python3 tools/auto_review_candidates.py \
 #### 使用方法
 
 ```bash
+
 # 使用内置测试套件
+
 python3 tools/test_dict_segmentation.py \
   --dict data/user_dict.txt \
   --test-suite
 
 # 测试自定义文本
+
 python3 tools/test_dict_segmentation.py \
   --dict data/user_dict.txt \
   --text "解离性身份障碍是一种多意识体系统"
 
 # 对比两个词典的效果
+
 python3 tools/test_dict_segmentation.py \
   --dict data/user_dict.txt \
   --compare data/user_dict_reviewed.txt
@@ -254,49 +284,64 @@ python3 tools/test_dict_segmentation.py \
 #### 使用方法
 
 ```bash
+
 # 生成完整变更日志
+
 python tools/gen_changelog_by_tags.py --output changelog.md
 
 # 只生成最新版本的变更
+
 python tools/gen_changelog_by_tags.py --output changelog.md --latest-only
 
 # 生成从最新标签到 HEAD 的变更(未发布)
+
 python tools/gen_changelog_by_tags.py --output changelog.md --latest-to-head
 ```
 
 #### 输出格式
 
 ```markdown
+
 # Changelog
 
 ## [v3.12.1] - 2025-10-14
 
 ### ✨ Features
+
 - feat: 新增 Tulpa 实践核心词条
 
 ### 🐛 Bug Fixes
+
 - fix: 修复链接检查排除列表不生效的问题
 
 ### 📝 Documentation
+
 - docs: 更新实践指南导览
 
 ### 🔧 Chore
+
 - chore: 删除已废弃的脚本
+
 ```
 
 #### 版本发布流程
 
 ```bash
+
 # 1. 生成或更新 changelog
+
 python tools/gen_changelog_by_tags.py --output changelog.md
 
 # 2. 检查 changelog 内容
+
 cat changelog.md
 
 # 3. 创建 GitHub Release(使用 gh CLI)
+
 gh release create v3.12.1 --notes-file changelog.md
 
 # 或编辑现有 Release
+
 gh release edit v3.12.1 --notes-file changelog.md
 ```
 
@@ -318,16 +363,21 @@ gh release edit v3.12.1 --notes-file changelog.md
 #### 使用方法
 
 ```bash
+
 # 基本用法
+
 python tools/pdf_export/export_to_pdf.py
 
 # 或使用模块方式
+
 python -m pdf_export
 
 # 自定义输出路径
+
 python tools/pdf_export/export_to_pdf.py --output custom_output.pdf
 
 # 自定义忽略文件
+
 python tools/pdf_export/export_to_pdf.py --ignore-file custom_ignore.md
 ```
 
@@ -399,12 +449,15 @@ Cloudflare Pages 项目批量删除工具,支持:
 #### 环境变量配置
 
 ```bash
+
 # 必需的环境变量
+
 export CF_API_TOKEN="your-cloudflare-api-token"      # Cloudflare API Token
 export CF_ACCOUNT_ID="your-account-id"               # Cloudflare Account ID
 export CF_PAGES_PROJECT="your-project-name"          # Pages 项目名称
 
 # 可选配置
+
 export KEEP_PRODUCTION="true"   # 是否保留最新 production 部署(默认 true)
 ```
 
@@ -418,17 +471,21 @@ export KEEP_PRODUCTION="true"   # 是否保留最新 production 部署(默认 tr
 #### 使用示例
 
 ```bash
+
 # 方式 1: 设置环境变量后运行
+
 export CF_API_TOKEN="G1r-bNax-xxxXxxXxxXxxXxxXxxXxxXxx"
 export CF_ACCOUNT_ID="873xxxxxxxxxxxxxxxxxxxxxxxc5"
 export CF_PAGES_PROJECT="my-project"
 node tools/delete-cf-pages-project.js
 
 # 方式 2: 单行执行
+
 CF_API_TOKEN="..." CF_ACCOUNT_ID="..." CF_PAGES_PROJECT="my-project" \
   node tools/delete-cf-pages-project.js
 
 # 方式 3: 删除所有部署(不保留 production)
+
 export KEEP_PRODUCTION="false"
 CF_API_TOKEN="..." CF_ACCOUNT_ID="..." CF_PAGES_PROJECT="my-project" \
   node tools/delete-cf-pages-project.js

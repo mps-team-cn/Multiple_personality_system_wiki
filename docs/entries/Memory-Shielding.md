@@ -8,7 +8,14 @@ tags:
 
 topic: 系统运作
 title: 记忆屏蔽（Memory Shielding）
-updated: 2025-10-17
+synonyms:
+
+    - Memory Shielding
+    - Amnesiacflux
+    - 屏蔽记忆
+    - 记忆隔离
+
+updated: 2025-10-18
 comments: true
 ---
 
@@ -17,13 +24,6 @@ comments: true
 ## 定义
 
 **记忆屏蔽**（Memory Shielding）是指多重意识体系统中，个体或系统成员通过主动策略或被动机制限制特定记忆内容在不同身份之间的共享、访问与提取的现象。这一机制可能是有意识的保护性措施，也可能是创伤应激后的自动防御反应。
-
-### 同义词
-
-- Memory Shielding
-- Amnesiacflux
-- 屏蔽记忆
-- 记忆隔离
 
 ### 核心特征
 

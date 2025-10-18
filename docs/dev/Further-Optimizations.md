@@ -5,6 +5,7 @@
 **总传输大小**: 150.0 KiB
 
 **资源分布**:
+
 - 🔴 Google Tag Manager: 72.9 KiB (49%)
 - 🟡 glightbox.min.js: 15.6 KiB (10%)
 - 🟢 自定义脚本: 5.6 KiB (3.7%)
@@ -17,6 +18,7 @@
 **问题**: GTM 占用 72.9 KiB (49%)，是最大的 JavaScript 资源。
 
 **当前影响**:
+
 - 阻塞主线程
 - 增加 TTI (Time to Interactive)
 - 可能导致 INP 升高
@@ -55,6 +57,7 @@ setTimeout(loadGoogleTagManager, 3000);
 ```
 
 **预期效果**:
+
 - ✅ 减少初始加载 72.9 KiB
 - ✅ 降低 INP 约 50-100ms
 - ✅ 提升 TTI 约 200-500ms
@@ -69,6 +72,7 @@ setTimeout(loadGoogleTagManager, 3000);
 ```
 
 **优势**:
+
 - 在 Web Worker 中运行，不阻塞主线程
 - 保持完整的分析功能
 
@@ -99,6 +103,7 @@ if (hasImages()) {
 ```
 
 **预期效果**:
+
 - ✅ 无图片页面减少 15.6 KiB
 - ✅ 有图片页面保持功能完整
 
@@ -111,6 +116,7 @@ if (hasImages()) {
 **问题**: Cloudflare Beacon 加载两次 (6.6 KiB × 2)。
 
 **检查项**:
+
 1. 是否重复配置了 Cloudflare Analytics？
 2. 是否可以合并为一次加载？
 
@@ -129,6 +135,7 @@ setTimeout(() => {
 ```
 
 **预期效果**:
+
 - ✅ 减少初始加载 13.2 KiB
 - ✅ 不影响分析数据（延迟收集可接受）
 
@@ -163,6 +170,7 @@ setTimeout(() => {
 ### 第一阶段（立即实施）
 
 1. **GTM 延迟加载**
+
    ```bash
    # 1. 编辑 extra.js
    # 2. 添加延迟加载逻辑
@@ -170,32 +178,33 @@ setTimeout(() => {
    ```
 
 2. **验证效果**
+
    ```bash
-   lighthouse https://wiki.mpsteam.cn --output html
+   lighthouse [https://wiki.mpsteam.cn](https://wiki.mpsteam.cn) --output html
    # 检查 JavaScript execution time 是否减少
    ```
 
 ### 第二阶段（测试验证）
 
 1. **glightbox 优化**
-   - 检查 MkDocs Material 配置
-   - 测试动态加载可行性
-   - 验证图片灯箱功能
+    - 检查 MkDocs Material 配置
+    - 测试动态加载可行性
+    - 验证图片灯箱功能
 
 2. **Cloudflare Insights**
-   - 检查是否重复加载
-   - 考虑延迟加载
+    - 检查是否重复加载
+    - 考虑延迟加载
 
 ### 第三阶段（持续监控）
 
 1. **监控指标**
-   - Google Analytics 数据完整性
-   - 用户行为分析准确性
-   - Core Web Vitals 改善情况
+    - Google Analytics 数据完整性
+    - 用户行为分析准确性
+    - Core Web Vitals 改善情况
 
 2. **A/B 测试**
-   - 对比优化前后的分析数据
-   - 确保优化不影响业务需求
+    - 对比优化前后的分析数据
+    - 确保优化不影响业务需求
 
 ## 预期性能提升
 
@@ -218,6 +227,7 @@ setTimeout(() => {
 | **TTI** | ~2.0s | ↓ 43% |
 
 **关键改进**:
+
 - ✅ GTM 延迟加载: -72.9 KiB
 - ✅ glightbox 按需: -15.6 KiB (部分)
 - ✅ Cloudflare 延迟: -13.2 KiB
@@ -230,8 +240,10 @@ setTimeout(() => {
 
 ```javascript
 /**
+
  * Google Tag Manager 延迟加载
  * 策略：用户交互后加载，或 3 秒超时
+
  */
 (function() {
   'use strict';
@@ -282,7 +294,9 @@ setTimeout(() => {
 ### MkDocs 配置调整
 
 ```yaml
+
 # mkdocs.yml
+
 extra:
   analytics:
     # provider: google  # 禁用内置的 GA
@@ -292,8 +306,10 @@ extra:
     feedback: false  # 可选：禁用反馈功能
 
 extra_javascript:
+
   - assets/extra.js
   - assets/gtm-loader.js  # 新增：GTM 延迟加载脚本
+
 ```
 
 ## 监控和验证
@@ -342,11 +358,13 @@ window.addEventListener('load', () => {
 ### Google Analytics 数据完整性
 
 **问题**: 延迟加载 GTM 可能导致：
+
 1. 跳出率统计不准确（用户快速离开）
 2. 页面停留时间偏差
 3. 部分会话丢失
 
 **解决方案**:
+
 1. **设置合理的延迟时间**（建议 3 秒）
 2. **监控数据变化**，对比优化前后
 3. **保留关键事件的即时上报**（如购买、注册）
@@ -380,7 +398,7 @@ window.addEventListener('load', () => {
 ## 更新日志
 
 - 2025-10-16: 创建初始版本
-  - 基于 Lighthouse Treemap 分析
-  - 识别 GTM 为最大性能瓶颈
-  - 提供延迟加载方案
-  - 预估 67% JavaScript 减少
+    - 基于 Lighthouse Treemap 分析
+    - 识别 GTM 为最大性能瓶颈
+    - 提供延迟加载方案
+    - 预估 67% JavaScript 减少

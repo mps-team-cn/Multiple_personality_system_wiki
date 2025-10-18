@@ -191,8 +191,6 @@ plurality_wiki/
 - **`python tools/gen_changelog_by_tags.py --latest-to-head`**：变更日志生成
     - 基于 Git 标签自动生成版本日志
 
-
-
 ---
 
 ## 🚀 本地开发
@@ -376,8 +374,8 @@ Build output directory: site
 - [x] Cloudflare Pages 部署配置
 - [x] PDF 导出功能（基于 topic 字段分组）
 - [x] **CI/CD 双重检查机制**
-  - PR 阶段：链接规范检查 + Frontmatter 验证
-  - 合并后：自动更新时间戳 + 格式修复 + 最终验证
+    - PR 阶段：链接规范检查 + Frontmatter 验证
+    - 合并后：自动更新时间戳 + 格式修复 + 最终验证
 
 ### 进行中 🚧
 

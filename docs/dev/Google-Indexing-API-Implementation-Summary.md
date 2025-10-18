@@ -36,19 +36,25 @@
 **使用示例**:
 
 ```bash
+
 # 基础用法
+
 python3 tools/submit_to_google_indexing.py
 
 # Dry-run 测试
+
 python3 tools/submit_to_google_indexing.py --dry-run
 
 # 只提交最高优先级
+
 python3 tools/submit_to_google_indexing.py --max-priority 1
 
 # 限制数量
+
 python3 tools/submit_to_google_indexing.py --limit 50
 
 # 查询索引状态
+
 python3 tools/submit_to_google_indexing.py --query https://wiki.mpsteam.cn/entries/DID
 ```
 
@@ -99,7 +105,9 @@ python3 tools/submit_to_google_indexing.py --query https://wiki.mpsteam.cn/entri
 **新增依赖**:
 
 ```txt
+
 # Google APIs (用于 Google Indexing API 自动提交)
+
 google-auth>=2.27.0
 google-api-python-client>=2.115.0
 ```
@@ -109,7 +117,9 @@ google-api-python-client>=2.115.0
 **新增保护规则**:
 
 ```gitignore
+
 # === Google API 凭证和日志 ===
+
 *service-account*.json
 *credentials*.json
 google_indexing_log.json
@@ -167,7 +177,7 @@ seo_priority_urls.txt
 
 **控制台输出**:
 
-```
+```text
 2025-01-17 10:00:00 [INFO] 生成 URL 列表...
 2025-01-17 10:00:00 [INFO] 优先级 <= 2 的 URL: 58 个
 2025-01-17 10:00:00 [INFO] 开始批量提交 58 个 URL
@@ -226,33 +236,42 @@ seo_priority_urls.txt
 #### 策略 1: 分批提交(推荐)
 
 ```bash
+
 # 第 1 天: 优先级 1 (15 个)
+
 python3 tools/submit_to_google_indexing.py --max-priority 1
 
 # 第 2 天: 优先级 2 (58 个)
+
 python3 tools/submit_to_google_indexing.py --max-priority 2
 ```
 
 #### 策略 2: 限制数量
 
 ```bash
+
 # 每天 50 个
+
 python3 tools/submit_to_google_indexing.py --limit 50
 ```
 
 #### 策略 3: 定期自动化
 
 ```yaml
+
 # GitHub Actions 每周日执行
+
 schedule:
+
   - cron: '0 2 * * 0'
+
 ```
 
 ## 文件清单
 
 ### 新增文件
 
-```
+```text
 tools/
 ├── submit_to_google_indexing.py        (15 KB) - 主工具脚本
 └── README_GOOGLE_INDEXING.md           (1.9 KB) - 工具快速参考
@@ -271,7 +290,7 @@ examples/
 
 ### 修改文件
 
-```
+```text
 requirements.txt                        - 新增 Google API 依赖
 .gitignore                              - 新增凭证保护规则
 docs/dev/Tools-Index.md                 - 更新工具索引
@@ -306,23 +325,31 @@ docs/dev/Tools-Index.md                 - 更新工具索引
 
 ```bash
 python3 -m py_compile tools/submit_to_google_indexing.py
+
 # ✅ 通过
+
 ```
 
 ### URL 生成测试
 
 ```bash
 python3 tools/generate_seo_urls.py | head -50
+
 # ✅ 成功生成 15 个优先级 1 URL
+
 # ✅ 成功生成 58 个优先级 2 URL
+
 ```
 
 ### Dry-run 测试
 
 ```bash
 python3 tools/submit_to_google_indexing.py --dry-run --max-priority 1
+
 # ✅ 预期需要 Google API 依赖
+
 # ✅ 语法正确,逻辑完整
+
 ```
 
 ## 依赖管理

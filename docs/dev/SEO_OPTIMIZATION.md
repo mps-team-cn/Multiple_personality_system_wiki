@@ -267,9 +267,11 @@ features:
   # - navigation.instant.progress
 
   # 保留其他功能
+
   - navigation.tracking
   - navigation.tabs
   - navigation.top
+
   # ... 其他功能
 ```
 
@@ -287,9 +289,9 @@ features:
 - **关键词排名**: 目标关键词的搜索排名
 - **点击率 (CTR)**: 搜索结果的点击率
 - **Core Web Vitals**:
-  - LCP (Largest Contentful Paint) < 2.5s
-  - INP (Interaction to Next Paint) < 200ms
-  - CLS (Cumulative Layout Shift) < 0.1
+    - LCP (Largest Contentful Paint) < 2.5s
+    - INP (Interaction to Next Paint) < 200ms
+    - CLS (Cumulative Layout Shift) < 0.1
 - **跳出率**: 用户离开网站的比例
 
 ### 建议监控频率
@@ -311,22 +313,22 @@ features:
 ### 2025-10-14
 
 - **性能优化**：
-  - 禁用 `navigation.instant` 系列功能以优化页面交互性能
-  - 预期 INP (Interaction to Next Paint) 从 1,576ms 降低至 300-500ms
-  - 权衡：页面跳转改为完整刷新(传统模式)，但 SEO 和功能不受影响
+    - 禁用 `navigation.instant` 系列功能以优化页面交互性能
+    - 预期 INP (Interaction to Next Paint) 从 1,576ms 降低至 300-500ms
+    - 权衡：页面跳转改为完整刷新(传统模式)，但 SEO 和功能不受影响
 - **SEO 优化修正**：
-  - 修复 SearchAction.target 为 Material 搜索路由格式：`/search/?q={query}`
-  - 优化 keywords 字段策略：基础 8 个 + 页面 tags 前 4 个，总数控制在 12 个以内
-  - 排除内部文档页面(404.md, ADMIN_GUIDE.md 等)避免被搜索引擎索引
+    - 修复 SearchAction.target 为 Material 搜索路由格式：`/search/?q={query}`
+    - 优化 keywords 字段策略：基础 8 个 + 页面 tags 前 4 个，总数控制在 12 个以内
+    - 排除内部文档页面(404.md, ADMIN_GUIDE.md 等)避免被搜索引擎索引
 - 完成 Google Search Console 提交
 - 完成必应网站管理员工具提交
 - 确认暂不提交百度站长平台
 - 为 32 个核心词条添加 description 字段
-  - 包含 DID、OSDD、Tulpa、CPTSD、PTSD 等主要诊断词条
-  - 包含 System、Alter、Front、Switch 等系统运作核心概念
-  - 包含 Grounding、Trauma、Trigger、Flashback 等创伤相关词条
-  - 包含各类成员角色：Host、Protector、Persecutor、Child Alter（儿童人格）、Caregiver、Gatekeeper 等
-  - 创建自动化工具 `tools/check_descriptions.py` 和 `tools/add_descriptions.py`
+    - 包含 DID、OSDD、Tulpa、CPTSD、PTSD 等主要诊断词条
+    - 包含 System、Alter、Front、Switch 等系统运作核心概念
+    - 包含 Grounding、Trauma、Trigger、Flashback 等创伤相关词条
+    - 包含各类成员角色：Host、Protector、Persecutor、Child Alter（儿童人格）、Caregiver、Gatekeeper 等
+    - 创建自动化工具 `tools/check_descriptions.py` 和 `tools/add_descriptions.py`
 
 ### 2025-10-13
 

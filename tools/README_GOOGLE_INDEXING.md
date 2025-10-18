@@ -27,40 +27,50 @@ python3 tools/submit_to_google_indexing.py --credentials /path/to/service-accoun
 ### 3. 运行工具
 
 ```bash
+
 # Dry-run 模式(测试)
+
 python3 tools/submit_to_google_indexing.py --dry-run
 
 # 提交最高优先级 URL
+
 python3 tools/submit_to_google_indexing.py --max-priority 1
 
 # 提交前 50 个 URL
+
 python3 tools/submit_to_google_indexing.py --limit 50
 ```
 
 ## 常用命令
 
 ```bash
+
 # 只提交最高优先级(优先级 1)
+
 python3 tools/submit_to_google_indexing.py --max-priority 1
 
 # 提交优先级 1-2
+
 python3 tools/submit_to_google_indexing.py --max-priority 2
 
 # 限制提交数量
+
 python3 tools/submit_to_google_indexing.py --limit 100
 
 # 查询 URL 索引状态
+
 python3 tools/submit_to_google_indexing.py --query https://wiki.mpsteam.cn/entries/DID
 
 # 显示详细日志
+
 python3 tools/submit_to_google_indexing.py --verbose
 ```
 
 ## 完整文档
 
-详细配置、错误处理和最佳实践请参考:
+详细配置、错误处理和最佳实践请参考：
 
-📖 **[Google Indexing API 使用指南](../docs/dev/Google-Indexing-API-Guide.md)**
+📖 [**Google Indexing API 使用指南**](../docs/dev/Google-Indexing-API-Guide.md)
 
 ## 配额限制
 

@@ -282,13 +282,13 @@ DID 的治疗遵循国际创伤与解离研究学会（ISSTD）制定的分阶�
 
 #### 第三阶段：整合与康复（Integration and Rehabilitation）
 
-- **促进合作或融合**：支持身份间的协作（co-consciousness）或融合（fusion），尊重个体选择。
+- **促进合作或融合**：支持身份间的[协作（co-consciousness）](Co-Consciousness.md)或[融合（fusion）](Fusion.md)，尊重个体选择。
 - **强化功能**：恢复社会、职业、人际功能；建立长期自我照护能力。
 - **巩固身份认同**：整合创伤叙事，重建连贯的自我感与未来规划。
 - **预防复发**：识别早期预警信号，维持调节技能与支持网络。
 
 !!! note "关于整合"
-    整合（integration）不等于强迫融合。ISSTD 指南强调尊重身份共存的选择，治疗目标是减少痛苦与提升功能，而非消除所有身份状态。
+    [整合（integration）](Integration.md)不等于强迫融合。ISSTD 指南强调尊重身份共存的选择，治疗目标是减少痛苦与提升功能，而非消除所有身份状态。
 
 **指南来源**：International Society for the Study of Trauma and Dissociation. (2011). *Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision*. *Journal of Trauma & Dissociation*, 12(2), 115–187.
 

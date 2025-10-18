@@ -17,6 +17,7 @@ synonyms:
 - 多意识体
 - Plurality
 - duochong renge xitong
+- mps
 
 search:
   boost: 1.5
@@ -24,10 +25,6 @@ comments: true
 ---
 
 # 多意识体系统（Multiple Personality System）
-
-## 同义词
-
-多重意识、Plurality、Plural 身份、复数系统、多意识体
 
 ## 定义
 
