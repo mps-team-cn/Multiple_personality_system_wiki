@@ -23,7 +23,9 @@
 ### 1. URL 生成测试
 
 ```bash
+
 # 测试 URL 生成
+
 python3 tools/generate_seo_urls.py
 ```
 
@@ -37,7 +39,9 @@ python3 tools/generate_seo_urls.py
 ### 2. 帮助信息测试
 
 ```bash
+
 # 查看帮助信息
+
 python3 tools/submit_to_google_indexing.py --help
 ```
 
@@ -50,7 +54,9 @@ python3 tools/submit_to_google_indexing.py --help
 ### 3. Dry-run 测试
 
 ```bash
+
 # Dry-run 模式
+
 export GOOGLE_SERVICE_ACCOUNT_JSON='{"type":"service_account",...}'
 python3 tools/submit_to_google_indexing.py --max-priority 1 --dry-run
 ```
@@ -66,10 +72,13 @@ python3 tools/submit_to_google_indexing.py --max-priority 1 --dry-run
 ### 4. 优先级过滤测试
 
 ```bash
+
 # 只提取优先级 1
+
 python3 tools/submit_to_google_indexing.py --max-priority 1 --dry-run
 
 # 优先级 1-2
+
 python3 tools/submit_to_google_indexing.py --max-priority 2 --dry-run
 ```
 
@@ -82,7 +91,9 @@ python3 tools/submit_to_google_indexing.py --max-priority 2 --dry-run
 ### 5. 数量限制测试
 
 ```bash
+
 # 限制 5 个
+
 python3 tools/submit_to_google_indexing.py --limit 5 --dry-run
 ```
 
@@ -96,10 +107,13 @@ python3 tools/submit_to_google_indexing.py --limit 5 --dry-run
 ### 6. 环境变量认证
 
 ```bash
+
 # 设置环境变量
+
 export GOOGLE_SERVICE_ACCOUNT_JSON='{"type":"service_account",...}'
 
 # 测试认证
+
 python3 tools/submit_to_google_indexing.py --max-priority 1 --limit 1 --dry-run
 ```
 
@@ -112,7 +126,9 @@ python3 tools/submit_to_google_indexing.py --max-priority 1 --limit 1 --dry-run
 ### 7. 文件路径认证
 
 ```bash
+
 # 测试文件认证
+
 python3 tools/submit_to_google_indexing.py \
   --credentials ~/.config/gcloud/wiki-indexing-credentials.json \
   --max-priority 1 --limit 1 --dry-run
@@ -127,10 +143,13 @@ python3 tools/submit_to_google_indexing.py \
 ### 8. 凭证缺失测试
 
 ```bash
+
 # 清除环境变量
+
 unset GOOGLE_SERVICE_ACCOUNT_JSON
 
 # 不提供凭证
+
 python3 tools/submit_to_google_indexing.py --dry-run
 ```
 
@@ -145,7 +164,9 @@ python3 tools/submit_to_google_indexing.py --dry-run
 ### 9. 单个 URL 提交测试
 
 ```bash
+
 # 提交 1 个 URL
+
 python3 tools/submit_to_google_indexing.py --max-priority 1 --limit 1
 ```
 
@@ -160,7 +181,9 @@ python3 tools/submit_to_google_indexing.py --max-priority 1 --limit 1
 ### 10. 批量提交测试
 
 ```bash
+
 # 提交优先级 1 的所有 URL
+
 python3 tools/submit_to_google_indexing.py --max-priority 1
 ```
 
@@ -178,7 +201,9 @@ python3 tools/submit_to_google_indexing.py --max-priority 1
 #### 权限错误 (403)
 
 ```bash
+
 # 使用未授权的 Service Account
+
 python3 tools/submit_to_google_indexing.py --max-priority 1 --limit 1
 ```
 
@@ -192,7 +217,9 @@ python3 tools/submit_to_google_indexing.py --max-priority 1 --limit 1
 #### 配额超限 (429)
 
 ```bash
+
 # 超过每日配额后提交
+
 python3 tools/submit_to_google_indexing.py --limit 250
 ```
 
@@ -209,7 +236,9 @@ python3 tools/submit_to_google_indexing.py --limit 250
 ### 12. URL 索引状态查询
 
 ```bash
+
 # 查询单个 URL
+
 python3 tools/submit_to_google_indexing.py \
   --query https://wiki.mpsteam.cn/entries/DID
 ```
@@ -224,7 +253,9 @@ python3 tools/submit_to_google_indexing.py \
 ### 13. 未索引 URL 查询
 
 ```bash
+
 # 查询未提交的 URL
+
 python3 tools/submit_to_google_indexing.py \
   --query https://wiki.mpsteam.cn/entries/New-Entry
 ```
@@ -239,7 +270,9 @@ python3 tools/submit_to_google_indexing.py \
 ### 14. 日志文件验证
 
 ```bash
+
 # 提交后检查日志
+
 cat google_indexing_log.json
 ```
 
@@ -253,7 +286,9 @@ cat google_indexing_log.json
 ### 15. 详细日志测试
 
 ```bash
+
 # 启用 verbose 模式
+
 python3 tools/submit_to_google_indexing.py \
   --max-priority 1 --limit 5 --verbose --dry-run
 ```
@@ -267,7 +302,9 @@ python3 tools/submit_to_google_indexing.py \
 ### 16. 提交摘要验证
 
 ```bash
+
 # 查看提交摘要
+
 python3 tools/submit_to_google_indexing.py --max-priority 1
 ```
 
@@ -283,7 +320,9 @@ python3 tools/submit_to_google_indexing.py --max-priority 1
 ### 17. 空 URL 列表
 
 ```bash
+
 # 使用不存在的优先级
+
 python3 tools/submit_to_google_indexing.py --max-priority 0 --dry-run
 ```
 
@@ -295,7 +334,9 @@ python3 tools/submit_to_google_indexing.py --max-priority 0 --dry-run
 ### 18. 大批量提交
 
 ```bash
+
 # 提交所有 URL
+
 python3 tools/submit_to_google_indexing.py --max-priority 5 --dry-run
 ```
 
@@ -308,7 +349,9 @@ python3 tools/submit_to_google_indexing.py --max-priority 5 --dry-run
 ### 19. 网络错误模拟
 
 ```bash
+
 # 断开网络后提交
+
 python3 tools/submit_to_google_indexing.py --max-priority 1 --limit 1
 ```
 
@@ -324,7 +367,9 @@ python3 tools/submit_to_google_indexing.py --max-priority 1 --limit 1
 ### 20. GitHub Actions 模拟
 
 ```bash
+
 # 模拟 GitHub Actions 环境
+
 export GOOGLE_SERVICE_ACCOUNT_JSON='{"type":"service_account",...}'
 export MAX_PRIORITY=2
 export LIMIT=50
@@ -343,8 +388,11 @@ python3 tools/submit_to_google_indexing.py \
 ### 21. Workflow 文件验证
 
 ```bash
+
 # 检查 workflow 语法
+
 # (需要 GitHub CLI)
+
 gh workflow view .github/workflows/google-indexing.yml.example
 ```
 
@@ -359,7 +407,9 @@ gh workflow view .github/workflows/google-indexing.yml.example
 ### 22. 凭证文件保护
 
 ```bash
+
 # 检查 .gitignore
+
 grep -E "service-account|credentials|google_indexing_log" .gitignore
 ```
 
@@ -372,7 +422,9 @@ grep -E "service-account|credentials|google_indexing_log" .gitignore
 ### 23. 凭证不泄露
 
 ```bash
+
 # 运行 dry-run 并检查输出
+
 python3 tools/submit_to_google_indexing.py --dry-run 2>&1 | grep -i "private_key"
 ```
 
@@ -386,7 +438,9 @@ python3 tools/submit_to_google_indexing.py --dry-run 2>&1 | grep -i "private_key
 ### 24. 文档存在性检查
 
 ```bash
+
 # 检查所有文档文件
+
 ls -lh docs/dev/Google-Indexing-*.md
 ls -lh tools/README_GOOGLE_INDEXING.md
 ls -lh examples/google_indexing_example.sh
@@ -404,7 +458,9 @@ ls -lh examples/google_indexing_example.sh
 ### 25. 示例脚本测试
 
 ```bash
+
 # 运行示例脚本
+
 bash examples/google_indexing_example.sh
 ```
 
@@ -420,7 +476,9 @@ bash examples/google_indexing_example.sh
 ### 26. 工具索引检查
 
 ```bash
+
 # 检查工具索引
+
 grep -A 5 "SEO 优化" docs/dev/Tools-Index.md
 ```
 
@@ -435,7 +493,9 @@ grep -A 5 "SEO 优化" docs/dev/Tools-Index.md
 ### 27. 执行时间测试
 
 ```bash
+
 # 测试 100 个 URL 的执行时间
+
 time python3 tools/submit_to_google_indexing.py \
   --max-priority 2 --limit 100 --dry-run
 ```
@@ -449,7 +509,9 @@ time python3 tools/submit_to_google_indexing.py \
 ### 28. 并发安全测试
 
 ```bash
+
 # 同时运行多个实例(不推荐,但测试稳定性)
+
 python3 tools/submit_to_google_indexing.py --limit 5 --dry-run &
 python3 tools/submit_to_google_indexing.py --limit 5 --dry-run &
 wait
@@ -466,7 +528,9 @@ wait
 ### 29. 现有工具兼容性
 
 ```bash
+
 # 确认 generate_seo_urls.py 仍正常工作
+
 python3 tools/generate_seo_urls.py > /dev/null
 echo $?
 ```
@@ -479,7 +543,9 @@ echo $?
 ### 30. 依赖冲突检查
 
 ```bash
+
 # 检查依赖兼容性
+
 pip check
 ```
 

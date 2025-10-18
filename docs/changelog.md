@@ -5,19 +5,19 @@
 ### ✨ 新增词条
 
 - **新增 7 个物质相关障碍核心词条**
-    - [酒精相关障碍 (Alcohol-Related Disorders)](entries/Alcohol-Related-Disorders.md)
-    - [咖啡因相关障碍 (Caffeine-Related Disorders)](entries/Caffeine-Related-Disorders.md)
-    - [大麻相关障碍 (Cannabis-Related Disorders)](entries/Cannabis-Related-Disorders.md)
-    - [阿片类相关障碍 (Opioid-Related Disorders)](entries/Opioid-Related-Disorders.md)
-    - [镇静催眠抗焦虑药相关障碍 (Sedative-Hypnotic-Anxiolytic-Related Disorders)](entries/Sedative-Hypnotic-Anxiolytic-Related-Disorders.md)
-    - [兴奋剂相关障碍 (Stimulant-Related Disorders)](entries/Stimulant-Related-Disorders.md)
-    - [烟草相关障碍 (Tobacco-Related-Disorders)](entries/Tobacco-Related-Disorders.md)
+    - [酒精相关障碍 （Alcohol-Related Disorders）](entries/Alcohol-Related-Disorders.md)
+    - [咖啡因相关障碍 （Caffeine-Related Disorders）](entries/Caffeine-Related-Disorders.md)
+    - [大麻相关障碍 （Cannabis-Related Disorders）](entries/Cannabis-Related-Disorders.md)
+    - [阿片类相关障碍 （Opioid-Related Disorders）](entries/Opioid-Related-Disorders.md)
+    - [镇静催眠抗焦虑药相关障碍 （Sedative-Hypnotic-Anxiolytic-Related Disorders）](entries/Sedative-Hypnotic-Anxiolytic-Related-Disorders.md)
+    - [兴奋剂相关障碍 （Stimulant-Related Disorders）](entries/Stimulant-Related-Disorders.md)
+    - [烟草相关障碍 （Tobacco-Related-Disorders）](entries/Tobacco-Related-Disorders.md)
 
 - **新增 3 个精神障碍诊断词条**
-    - [遗忘症 (Amnesia)](entries/Amnesia.md) - 记忆功能受损的神经认知障碍
-    - [沟通障碍 (Communication Disorders)](entries/Communication-Disorders.md) - 语言表达与理解障碍
-    - [特定学习障碍 (Specific Learning Disorder)](entries/Specific-Learning-Disorder.md) - 学业技能获取困难
-    - [分裂样精神病性障碍 (Schizophreniform Disorder)](entries/Schizophreniform-Disorder.md) - 短期精神分裂症样症状
+    - [遗忘症 （Amnesia）](entries/Amnesia.md) - 记忆功能受损的神经认知障碍
+    - [沟通障碍 （Communication Disorders）](entries/Communication-Disorders.md) - 语言表达与理解障碍
+    - [特定学习障碍 （Specific Learning Disorder）](entries/Specific-Learning-Disorder.md) - 学业技能获取困难
+    - [分裂样精神病性障碍 （Schizophreniform Disorder）](entries/Schizophreniform-Disorder.md) - 短期精神分裂症样症状
 
 - **新增 Tulpa 实践核心词条 (PR #301)**
     - [Forcing](entries/Forcing.md) - Tulpa 创建的核心训练方法
@@ -25,17 +25,17 @@
     - [Deviation](entries/Deviation.md) - Tulpa 自主偏离预期设定的发展过程
 
 - **新增 8 个角色与身份相关词条 (PR #298)**
-    - [创造者 (Creative)](entries/Creative.md) - 系统内负责艺术与创意产出的成员
-    - [社交者 (Social)](entries/Social.md) - 负责外部社交互动的成员
-    - [内射人格 (Introject)](entries/Introject.md) - 基于外部人物或角色形成的人格
-    - [非人类人格 (Nonhuman Alter)](entries/Nonhuman-Alter.md) - 非人类身份认同的系统成员
-    - [成年人格 (Adult Alter)](entries/Adult-Alter.md) - 呈现成年心智状态的人格
-    - [青少年人格 (Teen Alter)](entries/Teen-Alter.md) - 呈现青少年心智状态的人格
-    - [创伤持有者 (Trauma Holder)](entries/Trauma-Holder.md) - 承载特定创伤记忆的成员
-    - [非创伤持有者 (Non-Trauma Holder)](entries/Non-Trauma-Holder.md) - 不直接持有创伤记忆的成员
+    - [创造者 （Creative）](entries/Creative.md) - 系统内负责艺术与创意产出的成员
+    - [社交者 （Social）](entries/Social.md) - 负责外部社交互动的成员
+    - [内射人格 （Introject）](entries/Introject.md) - 基于外部人物或角色形成的人格
+    - [非人类人格 （Nonhuman Alter）](entries/Nonhuman-Alter.md) - 非人类身份认同的系统成员
+    - [成年人格 （Adult Alter）](entries/Adult-Alter.md) - 呈现成年心智状态的人格
+    - [青少年人格 （Teen Alter）](entries/Teen-Alter.md) - 呈现青少年心智状态的人格
+    - [创伤持有者 （Trauma Holder）](entries/Trauma-Holder.md) - 承载特定创伤记忆的成员
+    - [非创伤持有者 （Non-Trauma Holder）](entries/Non-Trauma-Holder.md) - 不直接持有创伤记忆的成员
 
 - **新增非我感核心概念 (PR #302)**
-    - [非我感 (Not-me Feeling)](entries/Not-Me-Feeling.md) - 识别系统成员边界的核心体验机制
+    - [非我感 （Not-me Feeling）](entries/Not-Me-Feeling.md) - 识别系统成员边界的核心体验机制
 
 ### 📚 词条完善
 
@@ -106,18 +106,18 @@
 ### ✨ 新增词条
 
 - **新增 12 个 DSM-5-TR 核心诊断词条**
-    - [焦虑障碍 (Anxiety Disorders)](entries/Anxiety-Disorders.md) - 焦虑障碍总览词条
-    - [退行 (Regression)](entries/Regression.md) - 心理防御机制与解离现象的重要概念
-    - [妄想障碍 (Delusional Disorder)](entries/Delusional-Disorder.md) - 持续性妄想但无精神分裂症谱系其他症状
-    - [短暂性精神病性障碍 (Brief Psychotic Disorder)](entries/Brief-Psychotic-Disorder.md) - 短期精神病性症状发作
-    - [分裂情感性障碍 (Schizoaffective Disorder)](entries/Schizoaffective-Disorder.md) - 精神分裂症与情感障碍的复合诊断
-    - [疾病焦虑障碍 (Illness Anxiety Disorder)](entries/Illness-Anxiety-Disorder.md) - 对患严重疾病的过度担忧
-    - [影响其他躯体疾病的心理因素 (Psychological Factors Affecting Other Medical Conditions)](entries/Psychological-Factors-Affecting-Other-Medical-Conditions.md)
-    - [储物障碍 (Hoarding Disorder)](entries/Hoarding-Disorder.md) - 强迫性储物行为
-    - [拔毛障碍 (Trichotillomania)](entries/Trichotillomania-Hair-Pulling-Disorder.md) - 反复拔除自己的毛发
-    - [抓挖障碍 (Excoriation Disorder)](entries/Excoriation-Skin-Picking-Disorder.md) - 反复抓挖皮肤导致损伤
-    - [经前焦虑障碍 (Premenstrual Dysphoric Disorder, PMDD)](entries/Premenstrual-Dysphoric-Disorder.md) - 月经前期的严重情绪症状
-    - [其他特定的和未特定的性别焦虑 (Other Specified/Unspecified Gender Dysphoria)](entries/Other-Specified-Unspecified-Gender-Dysphoria.md)
+    - [焦虑障碍 （Anxiety Disorders）](entries/Anxiety-Disorders.md) - 焦虑障碍总览词条
+    - [退行 （Regression）](entries/Regression.md) - 心理防御机制与解离现象的重要概念
+    - [妄想障碍 （Delusional Disorder）](entries/Delusional-Disorder.md) - 持续性妄想但无精神分裂症谱系其他症状
+    - [短暂性精神病性障碍 （Brief Psychotic Disorder）](entries/Brief-Psychotic-Disorder.md) - 短期精神病性症状发作
+    - [分裂情感性障碍 （Schizoaffective Disorder）](entries/Schizoaffective-Disorder.md) - 精神分裂症与情感障碍的复合诊断
+    - [疾病焦虑障碍 （Illness Anxiety Disorder）](entries/Illness-Anxiety-Disorder.md) - 对患严重疾病的过度担忧
+    - [影响其他躯体疾病的心理因素 （Psychological Factors Affecting Other Medical Conditions）](entries/Psychological-Factors-Affecting-Other-Medical-Conditions.md)
+    - [储物障碍 （Hoarding Disorder）](entries/Hoarding-Disorder.md) - 强迫性储物行为
+    - [拔毛障碍 （Trichotillomania）](entries/Trichotillomania-Hair-Pulling-Disorder.md) - 反复拔除自己的毛发
+    - [抓挖障碍 （Excoriation Disorder）](entries/Excoriation-Skin-Picking-Disorder.md) - 反复抓挖皮肤导致损伤
+    - [经前焦虑障碍 （Premenstrual Dysphoric Disorder, PMDD）](entries/Premenstrual-Dysphoric-Disorder.md) - 月经前期的严重情绪症状
+    - [其他特定的和未特定的性别焦虑 （Other Specified/Unspecified Gender Dysphoria）](entries/Other-Specified-Unspecified-Gender-Dysphoria.md)
 
 ### 📚 词条完善
 
@@ -173,9 +173,9 @@
 ### ✨ 新增词条
 
 - **新增 3 个进食障碍核心词条**
-    - [神经性厌食症 (Anorexia Nervosa, AN)](entries/Anorexia-Nervosa-AN.md) - 限制性饮食和体重显著偏低的进食障碍
-    - [神经性贪食症 (Bulimia Nervosa, BN)](entries/Bulimia-Nervosa-BN.md) - 反复暴食与补偿行为的进食障碍
-    - [暴食障碍 (Binge Eating Disorder, BED)](entries/Binge-Eating-Disorder-BED.md) - 无补偿行为的反复暴食障碍
+    - [神经性厌食症 （Anorexia Nervosa, AN）](entries/Anorexia-Nervosa-AN.md) - 限制性饮食和体重显著偏低的进食障碍
+    - [神经性贪食症 （Bulimia Nervosa, BN）](entries/Bulimia-Nervosa-BN.md) - 反复暴食与补偿行为的进食障碍
+    - [暴食障碍 （Binge Eating Disorder, BED）](entries/Binge-Eating-Disorder-BED.md) - 无补偿行为的反复暴食障碍
 
 ### 📚 词条完善
 

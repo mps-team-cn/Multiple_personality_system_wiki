@@ -101,9 +101,11 @@ updated: YYYY-MM-DD
 title: 解离性身份障碍（DID）
 topic: 诊断与临床
 tags:
+
   - 诊断与临床
   - DID
   - 多重意识体
+
 updated: 2025-01-15
 search:
   boost: 2.0  # 最高优先级
@@ -115,8 +117,10 @@ search:
 title: 系统（System）
 topic: 系统运作
 tags:
+
   - 系统运作
   - 多重意识体
+
 updated: 2025-01-15
 search:
   boost: 1.8  # 高优先级
@@ -124,7 +128,8 @@ search:
 ```
 
 !!! warning "注意事项"
-    - ✅ 仅为**真正重要**的核心词条设置权重，避免滥用
+
+    - ✅ 仅为 **真正重要** 的核心词条设置权重，避免滥用
     - ✅ 权重值通常在 `1.0` - `2.0` 之间，不建议超过 `2.0`
     - ✅ 大多数词条无需设置权重（默认 `1.0`）
     - ⚠️ 修改权重后需重新构建站点才能生效
@@ -526,6 +531,7 @@ python -m compileall tools/
     详见 `.github/workflows/auto-fix-entries.yml`
 
 !!! tip "CI 双重保障机制"
+
     - **第一道防线（PR 阶段）**：提前发现问题，避免将问题合并到 main
     - **第二道防线（合并后）**：自动修复格式，最终验证质量
     - **结果**：确保 main 分支始终保持高质量

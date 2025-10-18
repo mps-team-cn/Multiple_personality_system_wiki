@@ -44,7 +44,3 @@ comments: true
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
 - [多意识体系统（Multiple Personality System，MPS）](Multiple_Personality_System.md)
 - [图帕（Tulpa）](Tulpa.md)
-
-## 参考资料
-
-- （待补充）

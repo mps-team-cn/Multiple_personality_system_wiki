@@ -9,17 +9,19 @@ tags:
 topic: 系统运作
 description: 意识共存（Co-consciousness）现象详解：多个成员同时在线的体验与管理。理解共同觉察、信息共享及协作运作的机制
 title: 意识共存（Co-consciousness）
-updated: 2025-10-17
+synonyms:
+
+    - 共觉
+    - Co-consciousness
+    - 共在意识
+
+updated: 2025-10-18
 search:
   boost: 1.5
 comments: true
 ---
 
 # 意识共存（Co-consciousness）
-
-## 同义词
-
-共觉、Co-consciousness、共在意识
 
 ## 定义
 

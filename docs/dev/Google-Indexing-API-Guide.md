@@ -19,12 +19,16 @@ Google Indexing API 允许网站主动通知 Google 有关页面的更新,从而
 ### 1. 安装依赖
 
 ```bash
+
 # 激活虚拟环境
+
 python3 -m venv venv
 source venv/bin/activate  # Linux/macOS
+
 # 或 venv\Scripts\activate.bat  # Windows
 
 # 安装依赖
+
 pip install -r requirements.txt
 ```
 
@@ -46,8 +50,8 @@ pip install -r requirements.txt
 1. 导航到 **IAM & Admin** > **Service Accounts**
 2. 点击 **Create Service Account**
 3. 填写以下信息:
-   - **Service account name**: `wiki-indexing-bot`
-   - **Description**: `Multiple Personality System Wiki Indexing Bot`
+    - **Service account name**: `wiki-indexing-bot`
+    - **Description**: `Multiple Personality System Wiki Indexing Bot`
 4. 点击 **Create and Continue**
 5. 跳过权限设置(点击 **Continue**)
 6. 点击 **Done**
@@ -78,23 +82,30 @@ pip install -r requirements.txt
 #### 方式 1: 环境变量(推荐用于 CI/CD)
 
 ```bash
+
 # Linux/macOS
+
 export GOOGLE_SERVICE_ACCOUNT_JSON='{"type":"service_account","project_id":"...",...}'
 
 # Windows PowerShell
+
 $env:GOOGLE_SERVICE_ACCOUNT_JSON='{"type":"service_account","project_id":"...",...}'
 
 # Windows CMD
+
 set GOOGLE_SERVICE_ACCOUNT_JSON={"type":"service_account","project_id":"...",...}
 ```
 
 #### 方式 2: 本地文件(推荐用于本地测试)
 
 ```bash
+
 # 将下载的 JSON 文件保存到安全位置
+
 mv ~/Downloads/service-account-key.json ~/.config/gcloud/wiki-indexing-credentials.json
 
 # 使用 --credentials 参数指定路径
+
 python3 tools/submit_to_google_indexing.py --credentials ~/.config/gcloud/wiki-indexing-credentials.json
 ```
 
@@ -112,35 +123,46 @@ python3 tools/submit_to_google_indexing.py --credentials ~/.config/gcloud/wiki-i
 ### 基础用法
 
 ```bash
+
 # 使用环境变量中的凭证
+
 python3 tools/submit_to_google_indexing.py
 
 # 指定凭证文件
+
 python3 tools/submit_to_google_indexing.py --credentials /path/to/service-account.json
 ```
 
 ### 常用选项
 
 ```bash
+
 # Dry-run 模式(测试,不实际提交)
+
 python3 tools/submit_to_google_indexing.py --dry-run
 
 # 只提交最高优先级 URL(优先级 1)
+
 python3 tools/submit_to_google_indexing.py --max-priority 1
 
 # 只提交高优先级 URL(优先级 1-2)
+
 python3 tools/submit_to_google_indexing.py --max-priority 2
 
 # 限制提交数量(避免超过配额)
+
 python3 tools/submit_to_google_indexing.py --limit 50
 
 # 组合使用
+
 python3 tools/submit_to_google_indexing.py --max-priority 2 --limit 100 --dry-run
 
 # 查询指定 URL 的索引状态
+
 python3 tools/submit_to_google_indexing.py --query https://wiki.mpsteam.cn/entries/DID
 
 # 显示详细日志
+
 python3 tools/submit_to_google_indexing.py --verbose
 ```
 
@@ -195,27 +217,35 @@ python3 tools/submit_to_google_indexing.py --verbose
 #### 策略 1: 分批提交(推荐)
 
 ```bash
+
 # 第 1 天: 提交优先级 1
+
 python3 tools/submit_to_google_indexing.py --max-priority 1
 
 # 第 2 天: 提交优先级 2
+
 python3 tools/submit_to_google_indexing.py --max-priority 2
 
 # 第 3 天: 提交其他优先级
+
 python3 tools/submit_to_google_indexing.py --max-priority 5 --limit 200
 ```
 
 #### 策略 2: 限制数量
 
 ```bash
+
 # 每天提交 50 个 URL,分 4 天完成
+
 python3 tools/submit_to_google_indexing.py --limit 50
 ```
 
 #### 策略 3: 定期更新
 
 ```bash
+
 # 每周提交新增和更新的高优先级内容
+
 python3 tools/submit_to_google_indexing.py --max-priority 2 --limit 100
 ```
 
@@ -237,12 +267,14 @@ python3 tools/submit_to_google_indexing.py --max-priority 2 --limit 100
 #### 1. 权限错误 (403 Forbidden)
 
 **错误信息**:
-```
+
+```text
 ✗ 权限不足 (403): https://wiki.mpsteam.cn/...
 提示: 请确认 Service Account 已被添加为网站所有者
 ```
 
 **解决方案**:
+
 - 确认 Service Account 邮箱已添加到 Google Search Console
 - 确认权限为 **Owner**
 - 等待几分钟后重试(权限生效需要时间)
@@ -250,12 +282,14 @@ python3 tools/submit_to_google_indexing.py --max-priority 2 --limit 100
 #### 2. 配额超限 (429 Too Many Requests)
 
 **错误信息**:
-```
+
+```text
 ⚠ 配额超限 (429): https://wiki.mpsteam.cn/...
 等待 X 秒后重试
 ```
 
 **解决方案**:
+
 - 工具会自动重试
 - 如果持续失败,说明达到每日配额
 - 明天继续提交剩余 URL
@@ -264,11 +298,13 @@ python3 tools/submit_to_google_indexing.py --max-priority 2 --limit 100
 #### 3. 请求无效 (400 Bad Request)
 
 **错误信息**:
-```
+
+```text
 ✗ 请求无效 (400): https://wiki.mpsteam.cn/...
 ```
 
 **解决方案**:
+
 - 检查 URL 格式是否正确
 - 确认 URL 属于已验证的网站
 - 查看详细错误信息
@@ -276,11 +312,13 @@ python3 tools/submit_to_google_indexing.py --max-priority 2 --limit 100
 #### 4. 凭证错误
 
 **错误信息**:
-```
+
+```text
 未提供凭证: 请通过 --credentials 参数指定文件路径,或设置 GOOGLE_SERVICE_ACCOUNT_JSON 环境变量
 ```
 
 **解决方案**:
+
 - 检查环境变量是否正确设置
 - 或使用 `--credentials` 参数指定文件路径
 - 确认 JSON 文件格式正确
@@ -308,6 +346,7 @@ on:
 
   # 每周执行
   schedule:
+
     - cron: '0 2 * * 0'  # 每周日 02:00 UTC
 
 jobs:
@@ -315,20 +354,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
       - name: Checkout 代码
+
         uses: actions/checkout@v4
 
       - name: 设置 Python
+
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
           cache: 'pip'
 
       - name: 安装依赖
+
         run: |
           pip install -r requirements.txt
 
       - name: 提交到 Google Indexing API
+
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
         run: |
@@ -342,6 +386,7 @@ jobs:
           fi
 
       - name: 上传提交日志
+
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -363,37 +408,50 @@ jobs:
 ### 1. 渐进式提交
 
 ```bash
+
 # 阶段 1: 测试配置(Dry-run)
+
 python3 tools/submit_to_google_indexing.py --max-priority 1 --dry-run
 
 # 阶段 2: 提交最高优先级
+
 python3 tools/submit_to_google_indexing.py --max-priority 1
 
 # 阶段 3: 提交高优先级
+
 python3 tools/submit_to_google_indexing.py --max-priority 2
 
 # 阶段 4: 定期更新
+
 # 每周提交新增内容
+
 ```
 
 ### 2. 监控配额使用
 
 ```bash
+
 # 查看提交日志
+
 cat google_indexing_log.json
 
 # 统计已提交 URL 数量
+
 jq '.stats.submitted' google_indexing_log.json
 ```
 
 ### 3. 验证索引状态
 
 ```bash
+
 # 查询单个 URL 的索引状态
+
 python3 tools/submit_to_google_indexing.py --query https://wiki.mpsteam.cn/entries/DID
 
 # 使用 Google Search Console 验证
+
 # https://search.google.com/search-console
+
 ```
 
 ### 4. 定期维护
@@ -427,13 +485,17 @@ python3 tools/submit_to_google_indexing.py --query https://wiki.mpsteam.cn/entri
 ### 调试技巧
 
 ```bash
+
 # 启用详细日志
+
 python3 tools/submit_to_google_indexing.py --verbose
 
 # 测试单个 URL
+
 python3 tools/submit_to_google_indexing.py --limit 1 --dry-run
 
 # 查询索引状态
+
 python3 tools/submit_to_google_indexing.py --query https://wiki.mpsteam.cn/
 ```
 
@@ -461,7 +523,7 @@ python3 tools/submit_to_google_indexing.py --query https://wiki.mpsteam.cn/
 ## 更新日志
 
 - **2025-01-17**: 初始版本发布
-  - 支持批量提交 URL
-  - Service Account 认证
-  - 配额管理和错误处理
-  - Dry-run 模式
+    - 支持批量提交 URL
+    - Service Account 认证
+    - 配额管理和错误处理
+    - Dry-run 模式

@@ -45,7 +45,3 @@ comments: true
 - [自发型（Spontaneous）](Spontaneous.md)
 - [人格面具（Persona）](Persona.md)
 - [主体（Main）](Main.md)
-
-## 参考资料
-
-- （待补充）

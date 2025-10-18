@@ -45,7 +45,3 @@ comments: true
 - [投影（Projection）](Projection.md)
 - [傀儡（Servitor）](Servitor.md)
 - [头压（Head Pressure）](Head-Pressure.md)
-
-## 参考资料
-
-- （待补充）

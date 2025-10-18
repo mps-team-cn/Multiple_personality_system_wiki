@@ -2,11 +2,15 @@
 title: 系统运作
 topic: 系统运作
 tags:
-  - 索引
-  - 主题导览
+
+    - 索引
+    - 主题导览
+
 comments: true
 hide:
-  - toc
+
+    - toc
+
 ---
 
 # 系统运作
@@ -22,7 +26,7 @@ hide:
 - [解离（Dissociation）](Dissociation.md) — *2025-10-17*
 - [独有记忆（Exomemory）](Exomemory.md) — *2025-10-17*
 - [前台（Front / Fronting）](Front-Fronting.md) — *2025-10-17*
-- [卡前台(Front Stuck / Frontstuck)](Frontstuck.md) — *2025-10-17*
+- [卡前台（Front Stuck / Frontstuck）](Frontstuck.md) — *2025-10-17*
 - [融合（Fusion）](Fusion.md) — *2025-10-17*
 - [整合（Integration）](Integration.md) — *2025-10-17*
 - [内部沟通（Internal Communication）](Internal-Communication.md) — *2025-10-17*

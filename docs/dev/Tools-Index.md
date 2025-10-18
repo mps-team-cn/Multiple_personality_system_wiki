@@ -9,13 +9,17 @@
 ### 一键执行日常维护
 
 ```bash
+
 # macOS / Linux
+
 bash tools/run_local_updates.sh
 
 # Windows
+
 tools\run_local_updates.bat
 
 # 查看帮助和可用选项
+
 bash tools/run_local_updates.sh --help
 ```
 
@@ -104,7 +108,7 @@ bash tools/run_local_updates.sh --help
 
 ## 🗂️ 工具架构
 
-```
+```text
 tools/
 ├── 核心脚本(独立运行)
 │   ├── fix_markdown.py              # Markdown 处理器入口
@@ -145,9 +149,9 @@ tools/
 
 ## 📚 详细文档
 
-- **[核心工具详解](../dev/Tools-Core.md)** - CI 集成工具的详细配置、规则说明和输出示例
-- **[手动工具指南](../dev/Tools-Manual.md)** - SEO、搜索优化、版本管理等手动工具的完整用法
-- **[废弃工具说明](https://github.com/mps-team-cn/Multiple_personality_system_wiki/tree/main/tools/deprecated#readme)** - 已废弃工具的迁移指南和保留原因
+- [**核心工具详解**](../dev/Tools-Core.md) - CI 集成工具的详细配置、规则说明和输出示例
+- [**手动工具指南**](../dev/Tools-Manual.md) - SEO、搜索优化、版本管理等手动工具的完整用法
+- [**废弃工具说明**](https://github.com/mps-team-cn/Multiple_personality_system_wiki/tree/main/tools/deprecated#readme) - 已废弃工具的迁移指南和保留原因
 
 ## 💡 Python 环境配置
 
@@ -156,19 +160,22 @@ tools/
 ```bash
 python3 -m venv venv
 source venv/bin/activate           # Linux/macOS
+
 # 或 venv\Scripts\activate.bat    # Windows
+
 pip install -r requirements.txt
 ```
 
 **常见问题**:
+
 - `pip` 缺失 → 使用 `python3 -m pip`
 - `externally-managed-environment` 错误 → 必须启用虚拟环境
 
 ## 🚨 重要约束
 
 - **CI 双重检查机制**:
-  - **PR 阶段**:自动检查链接规范和 Frontmatter 格式,发现问题会阻止合并
-  - **合并后**:自动更新时间戳、修复格式、再次验证链接,确保质量
+    - **PR 阶段**:自动检查链接规范和 Frontmatter 格式,发现问题会阻止合并
+    - **合并后**:自动更新时间戳、修复格式、再次验证链接,确保质量
 - **时间戳和格式**:推送后 CI 会自动更新,无需手动干预
 - **词条 Frontmatter**:`updated` 字段由 CI 自动维护,编辑时无需手动更新
 

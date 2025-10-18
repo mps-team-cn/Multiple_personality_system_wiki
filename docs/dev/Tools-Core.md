@@ -32,25 +32,30 @@
 #### 中文排版规则
 
 - **CUSTOM001**:列表标记空格(`-item` → `- item`)
-- **CUSTOM002**:加粗中文空格(`中文**加粗**后面` → `中文 **加粗** 后面`)
+- **CUSTOM002**:加粗中文空格(`中文 **加粗** 后面` → `中文 **加粗** 后面`)
 - **CUSTOM003**:列表加粗冒号(`-**text**: ` → `- **text** : `)
 - **CUSTOM004**:链接括号转换(中文括号 → 英文括号,加粗链接格式)
-- **CUSTOM005**:链接前冒号(`参考:linktext` → `参考:linktext`)
+- **CUSTOM005**:链接前冒号(`参考：linktext` → `参考：linktext`)
 - **CUSTOM006**:嵌套列表缩进(2空格 → 4空格,MkDocs 要求)
 
 ### 命令行用法
 
 ```bash
+
 # 处理单个文件
+
 python tools/fix_markdown.py docs/entries/Tulpa.md
 
 # 处理整个目录
+
 python tools/fix_markdown.py docs/entries/
 
 # 预览模式(不实际修改)
+
 python tools/fix_markdown.py docs/entries/ --dry-run
 
 # 详细输出
+
 python tools/fix_markdown.py docs/entries/ --verbose
 ```
 
@@ -60,13 +65,16 @@ python tools/fix_markdown.py docs/entries/ --verbose
 from tools.processors.markdown import MarkdownProcessor, fix_markdown_file
 
 # 使用处理器类
+
 processor = MarkdownProcessor()
 result = processor.process_file(Path("docs/entries/example.md"))
 
 # 使用便捷函数
+
 result = fix_markdown_file("docs/entries/example.md", dry_run=True)
 
 # 处理文本字符串
+
 text = "**加粗**后面"
 fixed = processor.process(text)  # "**加粗** 后面"
 ```
@@ -89,37 +97,43 @@ fixed = processor.process(text)  # "**加粗** 后面"
 根据文件所在位置的不同,链接格式规范也不同:
 
 1. **词条间链接**(`docs/entries/` 内):直接使用文件名
-   - ✅ 正确:`[DID](../entries/DID.md)`(其他目录→词条)
-   - ❌ 错误:`[DID](DID.md)`(仅限词条目录内)
+    - ✅ 正确:`[DID](../entries/DID.md)`(其他目录→词条)
+    - ❌ 错误:`[DID](DID.md)`(仅限词条目录内)
 
 2. **词条→其他目录**:使用 `../` 相对路径
-   - ✅ 正确:`[贡献指南](../contributing/index.md)`
-   - ❌ 错误:`[贡献指南](contributing/index.md)`
+    - ✅ 正确:`[贡献指南](../contributing/index.md)`
+    - ❌ 错误:`[贡献指南](contributing/index.md)`
 
 3. **其他目录→词条**:使用 `../entries/` 路径
-   - ✅ 正确:`[DID](../entries/DID.md)`
-   - ❌ 错误:`[DID](DID.md)`(省略路径)
+    - ✅ 正确:`[DID](../entries/DID.md)`
+    - ❌ 错误:`[DID](DID.md)`(省略路径)
 
 4. **禁止事项**:
-   - ❌ 绝对路径:`/docs/entries/DID.md`
-   - ❌ 链接到不存在的文件
+    - ❌ 绝对路径:`/docs/entries/DID.md`
+    - ❌ 链接到不存在的文件
 
 ### 命令行用法
 
 ```bash
+
 # 检查词条目录(推荐,CI 使用)
+
 python3 tools/check_links.py docs/entries/
 
 # 检查整个项目
+
 python3 tools/check_links.py
 
 # 检查单个文件
+
 python3 tools/check_links.py docs/entries/DID.md
 
 # 显示详细信息(包含通过的文件)
+
 python3 tools/check_links.py --verbose docs/entries/
 
 # 指定仓库根目录(当不在项目根目录时)
+
 python3 tools/check_links.py --root /path/to/repo docs/entries/
 ```
 
@@ -145,10 +159,12 @@ Markdown 链接规范检查
 [FAIL] 发现 2 处违规链接(1 个文件)
 
 提示:
+
   - 词条间链接使用文件名:DID.md
   - 词条到其他目录使用:../contributing/index.md
   - 其他目录到词条使用:../entries/DID.md
   - 详见:docs/contributing/技术约定.md
+
 ```
 
 ### 排除列表配置
@@ -195,19 +211,24 @@ Markdown 链接规范检查
 5. **updated**:最后更新时间(YYYY-MM-DD 格式)
 
 可选字段:
+
 - **synonyms**:同义词/别名列表
 - **comments**:是否启用评论区(true/false)
 
 ### 命令行用法
 
 ```bash
+
 # 检查默认目录(docs/entries/)
+
 python3 tools/check_frontmatter.py
 
 # 检查指定目录
+
 python3 tools/check_frontmatter.py --path docs/entries/
 
 # 显示详细信息(包括完整的文件)
+
 python3 tools/check_frontmatter.py --verbose
 ```
 
@@ -240,11 +261,13 @@ Frontmatter 完整性检查
 需要修复:        163 (76.9%)
 
 💡 修复建议:
+
    1. 参考 docs/TEMPLATE_ENTRY.md 中的 Frontmatter 模板
    2. 确保包含所有必需字段:title, tags, topic, description, updated
    3. tags 应使用 YAML 列表格式
    4. description 长度应为 120-155 字符
    5. updated 格式应为 YYYY-MM-DD
+
 ```
 
 ## 🕒 Git 时间戳更新工具
@@ -264,22 +287,29 @@ Frontmatter 完整性检查
 ### 使用示例
 
 ```bash
+
 # 更新所有词条(默认处理 docs/entries/)
+
 python tools/update_git_timestamps.py
 
 # 预览模式(不实际修改文件)
+
 python tools/update_git_timestamps.py --dry-run
 
 # 详细输出(显示所有文件状态,包括未修改的)
+
 python tools/update_git_timestamps.py --verbose
 
 # 更新指定文件
+
 python tools/update_git_timestamps.py docs/entries/DID.md
 
 # 更新指定目录
+
 python tools/update_git_timestamps.py docs/entries/
 
 # 组合使用
+
 python tools/update_git_timestamps.py --dry-run --verbose
 ```
 
@@ -300,6 +330,7 @@ OSDD.md                                            ⚠️  跳过: 无法获取 
    - 已修改: 23 个文件
    - 已跳过: 102 个文件
    - 总计: 125 个文件
+
 ```
 
 ### 工作原理
@@ -354,10 +385,13 @@ OSDD.md                                            ⚠️  跳过: 无法获取 
 ### 手动运行
 
 ```bash
+
 # 直接运行脚本生成索引页
+
 python3 tools/build_partitions_cn.py
 
 # 输出示例
+
 [gen] 已生成 7 个中文分区索引页。
 ```
 
@@ -375,9 +409,10 @@ comments: true
 
 ## 词条一览
 
-- [解离性身份障碍(DID)](DID.md) — *2025-10-14*
-- [其他特定解离性障碍(OSDD)](OSDD.md) — *2025-10-14*
-- [创伤后应激障碍(PTSD)](PTSD.md) — *2025-10-14*
+- [解离性身份障碍（DID）](DID.md) — *2025-10-14*
+- [其他特定解离性障碍（OSDD）](OSDD.md) — *2025-10-14*
+- [创伤后应激障碍（PTSD）](PTSD.md) — *2025-10-14*
+
 ...
 ```
 
@@ -388,9 +423,13 @@ comments: true
 
 ```yaml
 plugins:
+
   - gen-files:
+
       scripts:
+
         - tools/build_partitions_cn.py
+
 ```
 
 ### 词条要求
@@ -402,8 +441,10 @@ plugins:
 title: 解离性身份障碍(DID)
 topic: 诊断与临床
 tags:
+
   - DID
   - 解离
+
 updated: 2025-10-14
 ---
 ```

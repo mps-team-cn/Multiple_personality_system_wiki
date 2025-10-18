@@ -45,7 +45,3 @@ comments: true
 - [投影（Projection）](Projection.md)
 - [傀儡（Servitor）](Servitor.md)
 - [幻想伙伴（Imaginary Companion）](Imaginary-Companion.md)
-
-## 参考资料
-
-- （待补充）

@@ -1,9 +1,13 @@
 ---
 hide:
-  - navigation  # 隐藏左侧导航栏
+
+    - navigation  # 隐藏左侧导航栏
+
   # - toc         # 隐藏右侧目录（可选，如果也想隐藏右侧）
 ---
+
 # 中文多意识体系统百科
+
 > Multiple Personality System Wiki
 
 ??? info "欢迎"
@@ -100,7 +104,7 @@ hide:
 
         # 启动预览（热重载）
         mkdocs serve
-        # 打开 http://127.0.0.1:8000
+        # 打开 [http://127.0.0.1:8000](http://127.0.0.1:8000)
         ```
 
 === "参与贡献"
@@ -108,7 +112,9 @@ hide:
     - 新词条放在 `docs/entries/`，使用模板 `docs/TEMPLATE_ENTRY.md`。
     - 必填 Frontmatter：`title`, `topic`, `tags`, `updated`（YYYY-MM-DD）。
     - 遵循链接规范并同步更新对应 Guide（见
+
       [技术约定](contributing/technical-conventions.md#3-链接管理)）。
+
     - 提交前运行 `tools/fix_markdown.py` 与 `tools/check_links.py`。
 
 ## ⚠️ 重要提醒

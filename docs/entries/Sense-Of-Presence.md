@@ -8,15 +8,17 @@ tags:
 
 topic: 系统运作
 title: 存在感（Sense of Presence）
-updated: 2025-10-16
+synonyms:
+
+    - 共感知
+    - Sense of Presence
+    - Co-awareness
+
+updated: 2025-10-18
 comments: true
 ---
 
 # 存在感（Sense of Presence）
-
-## 同义词
-
-共感知、Sense of Presence、Co-awareness
 
 ## 定义
 
