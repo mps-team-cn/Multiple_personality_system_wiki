@@ -17,7 +17,6 @@
 * 主题分区
     * [诊断与临床](entries/Clinical-Diagnosis-index.md)
         * [DSM-5-TR 评估量表总览](entries/DSM-5TR-Scales.md)
-        * [解离经验量表（DES‑II）](entries/Dissociative-Experiences-Scale-DES-II.md)
         * [不宁腿综合征（Restless Legs Syndrome，RLS）](entries/Restless-Legs-Syndrome.md)
         * [习得性无助(Learned Helplessness)](entries/Learned-Helplessness.md)
         * [人格分裂（Split Personality，非正式术语）](entries/Split-Personality.md)
@@ -98,6 +97,7 @@
         * [表演型人格障碍（Histrionic Personality Disorder，HPD）](entries/Histrionic-Personality-Disorder-HPD.md)
         * [解离性失忆(Dissociative Amnesia,DA)](entries/Dissociative-Amnesia-DA.md)
         * [解离性身份障碍（Dissociative Identity Disorder，DID）](entries/DID.md)
+        * [解离经验量表（DES‑II）](entries/Dissociative-Experiences-Scale-DES-II.md)
         * [解离障碍（Dissociative Disorders）](entries/Dissociative-Disorders.md)
         * [谵妄(Delirium)](entries/Delirium.md)
         * [躁狂（Mania）](entries/Mania.md)

@@ -19,6 +19,7 @@ hide:
 - [昼夜节律睡眠-觉醒障碍（Circadian Rhythm Sleep-Wake Disorders）](Circadian-Rhythm-Sleep-Wake-Disorders.md) — *2025-10-18*
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md) — *2025-10-18*
 - [谵妄(Delirium)](Delirium.md) — *2025-10-18*
+- [解离经验量表（DES‑II）](Dissociative-Experiences-Scale-DES-II.md) — *2025-10-18*
 - [习得性无助(Learned Helplessness)](Learned-Helplessness.md) — *2025-10-18*
 - [发作性睡病(Narcolepsy)](Narcolepsy.md) — *2025-10-18*
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](OCD.md) — *2025-10-18*
