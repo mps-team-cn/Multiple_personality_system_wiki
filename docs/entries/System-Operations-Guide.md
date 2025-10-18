@@ -33,7 +33,7 @@ comments: true
 - [后台（Back / Being Back）](Back-Being-Back.md)：记录退到后台后的感受与支持方式。
 - [自动驾驶（Autopilot）](Autopilot.md)：描述"机械操作"状态及如何恢复觉察。
 - [头压（Head Pressure）](Head-Pressure.md)：整理常见的生理体验与缓解方法。
-- [偏重（Bias / Median）](Bias.md)：说明执掌权偏向问题与调节策略。
+- [偏重（Median / Bias）](Median-Bias.md)：说明执掌权偏向问题与调节策略。
 - [触发（Trigger）](Trigger.md)：识别触发源并规划预防措施。
 
 ## 意识体验与记忆协作
@@ -71,6 +71,7 @@ comments: true
 - [躯体认同（Body Ownership）](Body-Ownership.md)：处理身体认同感与现实感的变化。
 - [外投射（External Projection）](External-Projection.md) 与 [投影（Projection）](Projection.md)：说明将内部体验投射到外界的形式与沟通方式。
 - [应激反应（Stress Response）](Stress-Response.md)：个体在感知威胁或压力时产生的心理-生理机制，涉及自主神经系统和HPA轴的复杂调节过程
+- [角色面具（Masking / Social Masking）](Masking.md)：在公共情境中以单一外观隐藏内部多元性以维持安全与功能；过度使用可能导致疲惫与自我疏离。
 
 ## 语言与文化背景
 

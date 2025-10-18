@@ -2,11 +2,15 @@
 title: 系统运作
 topic: 系统运作
 tags:
-  - 索引
-  - 主题导览
+
+    - 索引
+    - 主题导览
+
 comments: true
 hide:
-  - toc
+
+    - toc
+
 ---
 
 # 系统运作
@@ -15,11 +19,12 @@ hide:
 
 ## 词条一览
 
-- [偏重（Bias / Median）](Bias.md) — *2025-10-18*
+- [偏重（Median / Bias）](Median-Bias.md) — *2025-10-18*
 - [躯体认同（Body Ownership）](Body-Ownership.md) — *2025-10-18*
 - [意识共存（Co-consciousness）](Co-Consciousness.md) — *2025-10-18*
 - [意识修改（Consciousness Modification）](Consciousness-Modification.md) — *2025-10-18*
 - [外投射（External Projection）](External-Projection.md) — *2025-10-18*
+- [角色面具（Masking / Social Masking）](Masking.md) — *2025-10-18*
 - [迭代（Iteration）](Iteration.md) — *2025-10-18*
 - [记忆屏蔽（Memory Shielding）](Memory-Shielding.md) — *2025-10-18*
 - [多意识体系统（Multiple Personality System）](Multiple_Personality_System.md) — *2025-10-18*
@@ -33,7 +38,7 @@ hide:
 - [解离（Dissociation）](Dissociation.md) — *2025-10-17*
 - [独有记忆（Exomemory）](Exomemory.md) — *2025-10-17*
 - [前台（Front / Fronting）](Front-Fronting.md) — *2025-10-17*
-- [卡前台(Front Stuck / Frontstuck)](Frontstuck.md) — *2025-10-17*
+- [卡前台（Front Stuck / Frontstuck）](Frontstuck.md) — *2025-10-17*
 - [融合（Fusion）](Fusion.md) — *2025-10-17*
 - [整合（Integration）](Integration.md) — *2025-10-17*
 - [内部沟通（Internal Communication）](Internal-Communication.md) — *2025-10-17*
