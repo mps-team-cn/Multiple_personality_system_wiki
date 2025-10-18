@@ -2,11 +2,15 @@
 title: 文化与表现
 topic: 文化与表现
 tags:
-  - 索引
-  - 主题导览
+
+    - 索引
+    - 主题导览
+
 comments: true
 hide:
-  - toc
+
+    - toc
+
 ---
 
 # 文化与表现

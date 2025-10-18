@@ -26,6 +26,7 @@ comments: true
 
 - [前台（Front / Fronting）](Front-Fronting.md)：说明身体控制权的取得与交接。
 - [切换（Switch）](Switch.md)：解析触发条件、注意事项与安全策略。
+- [锚点（Anchors / Tells / Markers）](Anchors.md)：用于识别"当下前台是谁"的稳定、可重复的外显线索,包括语言、声学、表情、书写习惯等,用于系统内协作与自我监测,不用于对外验证或诊断。
 - [卡前台（Front Stuck / Frontstuck）](Frontstuck.md)：处理前台成员无法退下或切换受阻的状况。
 - [共前台（Co-Fronting）](Co-Fronting.md)：探讨多人同时执掌身体的分工与风险。
 - [混合（Blending）](Blending.md)：两个或以上成员的意识状态部分重叠，出现身份边界模糊、记忆感知渗透的现象。
