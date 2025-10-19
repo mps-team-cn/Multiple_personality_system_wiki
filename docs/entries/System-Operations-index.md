@@ -15,11 +15,12 @@ hide:
 
 ## 词条一览
 
+- [锚点（Anchors / Tells / Markers）](Anchors.md) — *2025-10-19*
+- [后台（Back / Being Back）](Back-Being-Back.md) — *2025-10-19*
 - [解离（Dissociation）](Dissociation.md) — *2025-10-19*
 - [角色面具（Masking / Social Masking）](Masking.md) — *2025-10-19*
 - [记忆屏蔽（Memory Shielding）](Memory-Shielding.md) — *2025-10-19*
-- [锚点（Anchors / Tells / Markers）](Anchors.md) — *2025-10-18*
-- [后台（Back / Being Back）](Back-Being-Back.md) — *2025-10-18*
+- [触发（Trigger）](Trigger.md) — *2025-10-19*
 - [躯体认同（Body Ownership）](Body-Ownership.md) — *2025-10-18*
 - [意识共存（Co-consciousness）](Co-Consciousness.md) — *2025-10-18*
 - [共前台（Co-fronting）](Co-Fronting.md) — *2025-10-18*
@@ -41,7 +42,6 @@ hide:
 - [结构性解离理论（Theory of Structural Dissociation of the Personality, TSDT）](Structural-Dissociation-Theory.md) — *2025-10-18*
 - [切换（Switch）](Switch.md) — *2025-10-18*
 - [系统(System)](System.md) — *2025-10-18*
-- [触发（Trigger）](Trigger.md) — *2025-10-18*
 - [T 语(Tulpish)](Tulpish.md) — *2025-10-18*
 - [内视（Visualization / Imagination）](Visualization-Imagination.md) — *2025-10-18*
 - [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](Xianyu-Theory-Niche-Classification.md) — *2025-10-18*
