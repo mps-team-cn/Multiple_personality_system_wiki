@@ -52,7 +52,7 @@ search:
 <div id="des2-app" class="des2-app">
 
 <div class="des2-meta">
-  <div class="des2-hint">范围 0–100，步长 10（可拖动或方向键微调）</div>
+  <div class="des2-hint">范围 0–100，步长 10</div>
   <div class="des2-actions">
     <!-- <button id="des2-calc" class="md-button md-button--primary">计算分数</button> -->
     <button id="des2-reset" class="md-button">重置</button>

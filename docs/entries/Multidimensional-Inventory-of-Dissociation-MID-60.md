@@ -54,7 +54,7 @@ search:
 <div id="mid60-app" class="mid60-app">
 
 <div class="mid60-meta">
-  <div class="mid60-hint">范围 0–10,步长 1(可拖动或方向键微调)</div>
+  <div class="mid60-hint">范围 0–10，步长 1</div>
 </div>
 
 <div class="mid60-divider"></div>
