@@ -15,6 +15,7 @@ hide:
 
 ## 词条一览
 
+- [解离（Dissociation）](Dissociation.md) — *2025-10-19*
 - [锚点（Anchors / Tells / Markers）](Anchors.md) — *2025-10-18*
 - [后台（Back / Being Back）](Back-Being-Back.md) — *2025-10-18*
 - [躯体认同（Body Ownership）](Body-Ownership.md) — *2025-10-18*
@@ -45,7 +46,6 @@ hide:
 - [内视（Visualization / Imagination）](Visualization-Imagination.md) — *2025-10-18*
 - [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](Xianyu-Theory-Niche-Classification.md) — *2025-10-18*
 - [失忆（Amnesia）](Amnesia.md) — *2025-10-17*
-- [解离（Dissociation）](Dissociation.md) — *2025-10-17*
 - [独有记忆（Exomemory）](Exomemory.md) — *2025-10-17*
 - [卡前台(Front Stuck / Frontstuck)](Frontstuck.md) — *2025-10-17*
 - [融合（Fusion）](Fusion.md) — *2025-10-17*

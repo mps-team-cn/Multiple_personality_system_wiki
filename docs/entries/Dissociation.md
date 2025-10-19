@@ -21,7 +21,7 @@ synonyms:
     - jieli
 
 description: 解离从功能性分离到解离障碍呈连续谱：区分高速公路催眠、应激下的防御性解离与造成痛苦/功能受损的障碍级表现，识别红旗并了解何时转诊。
-updated: 2025-10-17
+updated: 2025-10-19
 search:
   boost: 1.8
 comments: true
@@ -110,8 +110,8 @@ comments: true
 
 ### 筛查工具
 
-- **[DES-II](Dissociative-Experiences-Scale-DES-II.md)**（Dissociative Experiences Scale-II，解离体验量表）：最常用的自评筛查工具
-- **[MID-60](Multidimensional-Inventory-of-Dissociation-MID-60.md)**（Multidimensional Inventory of Dissociation，多维解离量表）：更详细的多维度评估
+- [**DES-II**](Dissociative-Experiences-Scale-DES-II.md)（Dissociative Experiences Scale-II，解离体验量表）：最常用的自评筛查工具
+- [**MID-60**](Multidimensional-Inventory-of-Dissociation-MID-60.md)（Multidimensional Inventory of Dissociation，多维解离量表）：更详细的多维度评估
 - **CADSS**（Clinician-Administered Dissociative States Scale，临床解离状态量表）：用于评估急性解离状态
 
 ### 结构化访谈（专业人员使用）

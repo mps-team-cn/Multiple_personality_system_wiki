@@ -21,6 +21,7 @@ synonyms:
 
 hide:
   # - navigation  # 隐藏左侧导航栏
+
     - toc         # 隐藏右侧目录（可选，如果也想隐藏右侧
 
 updated: 2025-10-19
@@ -34,7 +35,9 @@ search:
     本量表仅用于教育与自我筛查，**不构成临床诊断**。若分数较高且伴随明显解离、失忆或人格/现实解体体验，请及时寻求精神科或临床心理专业评估。
 
 ## 概述
+
 **解离经验量表（DES‑II）** 由 Bernstein 与 Putnam 于 1986 年编制，是国际常用的解离体验筛查工具。它评估个体在日常生活中出现的三类体验：
+
 - 记忆缺失（Amnesia）：对事件或行为出现片段性遗忘；
 - 人格/现实解体（Depersonalization/Derealization, DP/DR）：感觉自己或外界不真实；
 - 吸收沉浸（Absorption）：在想象或活动中深度投入。
@@ -307,6 +310,7 @@ search:
 ---
 
 ## 相关词条
+
 - [多维解离量表（Multidimensional Inventory of Dissociation, MID‑60）](Multidimensional-Inventory-of-Dissociation-MID-60.md)
 - [解离（Dissociation）](Dissociation.md)
 
