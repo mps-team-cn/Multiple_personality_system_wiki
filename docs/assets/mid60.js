@@ -8,6 +8,11 @@
   function qs(sel, root) { return (root || document).querySelector(sel); }
   function qsa(sel, root) { return Array.from((root || document).querySelectorAll(sel)); }
 
+  // 等待一帧（用于确保挂载后的布局/样式可用）
+  function nextFrame() {
+    return new Promise((resolve) => requestAnimationFrame(resolve));
+  }
+
   function fmt(n) {
     return (Math.round(n * 10) / 10).toFixed(1);
   }
@@ -80,32 +85,61 @@
   async function exportResultsImage(root) {
     const node = qs('#mid60-results', root);
     if (!node) return;
-
-    // 添加水印（仅导出时）
-    const wm = document.createElement('div');
-    wm.className = 'mid60-watermark';
-    wm.textContent = 'wiki.mpsteam.cn';
-    node.appendChild(wm);
-
-    // 背景色：使用页面背景，避免透明导致聊天软件黑底
-    const bg = getComputedStyle(document.body).backgroundColor || '#ffffff';
+    let wm = null;
     try {
       const h2i = await ensureHtmlToImage();
-      const dataUrl = await h2i.toJpeg(node, {
+      // 背景色：使用页面背景，避免透明导致聊天软件黑底
+      const bg = getComputedStyle(document.body).backgroundColor || '#ffffff';
+
+      // 在实际节点上临时添加水印（导出后移除）
+      wm = document.createElement('div');
+      wm.className = 'mid60-watermark';
+      wm.textContent = 'wiki.mpsteam.cn';
+      node.appendChild(wm);
+
+      // 等待字体与一两个帧，确保布局稳定
+      try { if (document.fonts && document.fonts.ready) await document.fonts.ready; } catch (_) { /* ignore */ }
+      await nextFrame();
+      await nextFrame();
+
+      let dataUrl = await h2i.toJpeg(node, {
         cacheBust: true,
         pixelRatio: Math.min(2, window.devicePixelRatio || 1.5),
-        backgroundColor: bg
+        backgroundColor: bg,
+        style: {
+          padding: '20px',
+          boxSizing: 'border-box',
+          backgroundColor: bg
+        }
       });
 
-      // 移除临时水印
-      wm.remove();
-
       // 转成 Blob
-      const blob = await (await fetch(dataUrl)).blob();
-      const file = new File([blob], 'MID-60-结果.jpg', { type: 'image/jpeg' });
+      let blob = await (await fetch(dataUrl)).blob();
+      // 若 JPEG 数据异常小，尝试 PNG 兜底（个别环境对 JPEG 支持异常会返回空白图）
+      if (blob && blob.size < 1500) {
+        try {
+          await nextFrame();
+          dataUrl = await h2i.toPng(node, {
+            cacheBust: true,
+            pixelRatio: Math.min(2, window.devicePixelRatio || 1.5),
+            backgroundColor: bg,
+            style: {
+              padding: '20px',
+              boxSizing: 'border-box',
+              backgroundColor: bg
+            }
+          });
+          blob = await (await fetch(dataUrl)).blob();
+        } catch (_) { /* ignore */ }
+      }
+      let file = null;
+      const fileName = blob && blob.type === 'image/png' ? 'MID-60-结果.png' : 'MID-60-结果.jpg';
+      try {
+        file = new File([blob], fileName, { type: blob.type || 'image/jpeg' });
+      } catch (_) { /* 某些旧浏览器不支持 File 构造器 */ }
 
       // 优先使用系统分享（移动端友好）
-      if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      if (file && navigator.canShare && navigator.canShare({ files: [file] })) {
         await navigator.share({
           files: [file],
           title: 'MID‑60 结果',
@@ -128,14 +162,17 @@
       // 兜底：触发下载
       const a = document.createElement('a');
       a.href = dataUrl;
-      a.download = 'MID-60-结果.jpg';
+      a.download = fileName;
       document.body.appendChild(a);
       a.click();
       a.remove();
     } catch (err) {
-      wm.remove();
       console.error(err);
       alert('导出失败，请重试');
+    } finally {
+      if (wm && wm.parentNode) {
+        try { wm.remove(); } catch (_) { /* ignore */ }
+      }
     }
   }
 

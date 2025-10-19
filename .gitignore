@@ -210,3 +210,5 @@ tectonic
 .venv/bin/pyrsa-verify
 .venv/bin/unidecode
 .venv/bin/watchmedo
+.venv/bin/uv
+.venv/bin/uvx
