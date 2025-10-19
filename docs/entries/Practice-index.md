@@ -15,6 +15,7 @@ hide:
 
 ## 词条一览
 
+- [危机与支援资源（Crisis & Support Resources）](Crisis-And-Support-Resources.md) — *2025-10-19*
 - [塑造（Forcing）](Forcing.md) — *2025-10-19*
 - [Tulpa 完全创造指南·实践篇](Tulpa-Guide-2.md) — *2025-10-19*
 - [Tulpa 完全创造指南·基础篇](Tulpa-Guide-1.md) — *2025-10-18*

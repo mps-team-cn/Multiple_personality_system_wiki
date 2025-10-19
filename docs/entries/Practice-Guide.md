@@ -68,6 +68,7 @@ comments: true
 
 | 词条 | 重点 | 场景 |
 | --- | --- | --- |
+| [危机与支援资源（Crisis & Support Resources）](Crisis-And-Support-Resources.md) | 紧急求助渠道与安全计划 | 急性危机、自伤冲动、解离失控时 |
 | [接地（Grounding）](Grounding.md) | 感官锚定、拉回当下 | 闪回、恐慌或解离增幅时 |
 | [感官调节策略](Sensory-Regulation-Strategies.md) | 感官舒缓工具箱 | 长期焦虑、过度唤醒或迟钝 |
 | [情绪调节（Emotion Regulation）](Emotion-Regulation.md) | 自我调节框架 | 识别情绪曲线、规划应对策略 |

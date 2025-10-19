@@ -11,6 +11,7 @@ synonyms:
 
     - Masking
     - Social Masking
+    - 人格面具
     - 社交伪装
     - 身份掩饰
 
