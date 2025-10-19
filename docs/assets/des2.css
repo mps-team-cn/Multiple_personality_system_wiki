@@ -55,6 +55,8 @@
   align-items: center;
   column-gap: .5rem;
   row-gap: .25rem;
+  /* 统一滑块与徽标的微小垂直偏移，确保两者视觉居中一致 */
+  --slider-offset-y: .08rem; /* 与 input 的 --r-thumb-offset-y 保持一致 */
   /* 隐藏容器内的裸露文本（用于隐藏行内的 % 符号），
      再由徽章 ::after 追加 %，避免在移动端换行错位 */
   font-size: 0;
@@ -66,7 +68,7 @@
 .des2-ctrl input[type="range"] {
   --r-track-h: .56rem;
   --r-thumb-d: 1.1rem;
-  --r-thumb-offset-y: .08rem; /* 向下微调，修正视觉偏高 */
+  --r-thumb-offset-y: var(--slider-offset-y, .08rem); /* 继承容器偏移 */
 }
 
 /* 更易触控的滑块外观 */
@@ -118,6 +120,7 @@
   width: 4.2rem; /* 固定宽度，按最大值 100% 适配 */
   justify-content: center;
   font-size: .95rem; /* 恢复字体尺寸 */
+  transform: translateY(var(--slider-offset-y, 0));
 }
 
 /* 在徽章中统一渲染 %，避免额外文本节点导致的换行 */
@@ -302,9 +305,9 @@
     display: grid;
     grid-template-columns: 1fr auto;
     gap: .45rem .5rem;
-    align-items: start; /* 避免右侧徽章压住下方刻度 */
+    align-items: center; /* 取消 start，改为居中与徽标对齐 */
   }
   .des2-ctrl input[type="range"] { width: 100%; min-width: 0; }
-  .des2-badge { width: 4.2rem; justify-self: end; align-self: start; }
+  .des2-badge { width: 4.2rem; justify-self: end; align-self: center; }
   .des2-subgrid { grid-template-columns: 1fr; }
 }
