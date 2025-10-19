@@ -438,7 +438,7 @@ search:
     <button id="mid60-reset" class="md-button">重置</button>
     <!-- 导出按钮由脚本自动插入 -->
   </div>
-  <div><strong>平均分</strong>:<span id="mid60-avg" class="mid60-badge">0.0</span>%</div>
+  <div><strong>平均分</strong>:<span id="mid60-avg" class="mid60-badge">0.0</span>/div>
   <div class="mid60-progress" aria-label="MID-60 平均分可视化" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
     <div id="mid60-bar" class="bar" style="width:0%"></div>
   </div>
