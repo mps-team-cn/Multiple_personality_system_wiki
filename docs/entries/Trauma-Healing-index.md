@@ -15,6 +15,8 @@ hide:
 
 ## 词条一览
 
+- [阶段性治疗原则（Phase‑Oriented Treatment Principles）](Phase-Oriented-Treatment-Principles.md) — *2025-10-19*
+- [创伤后成长（Post‑Traumatic Growth, PTG）](Post-Traumatic-Growth-PTG.md) — *2025-10-19*
 - [内在家庭系统疗法（Internal Family Systems, IFS）](Internal-Family-Systems-IFS.md) — *2025-10-19*
 - [自我照护工具箱](Self-Care-Toolkit.md) — *2025-10-19*
 - [接地（Grounding）](Grounding.md) — *2025-10-18*
