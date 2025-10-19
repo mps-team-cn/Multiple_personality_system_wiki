@@ -114,6 +114,7 @@
   /* 统一滑块轨道/拇指尺寸，便于跨浏览器居中计算 */
   --r-track-h: .56rem; /* 轨道高度 */
   --r-thumb-d: 1.1rem; /* 拇指直径 */
+  --r-thumb-offset-y: .08rem; /* 额外向下微调，修正视觉偏高 */
 }
 
 /* 更易触控的滑块外观（跨浏览器尽量统一） */
@@ -130,8 +131,8 @@
   border-radius: 50%;
   background: color-mix(in srgb, var(--md-primary-fg-color) 90%, #fff);
   border: 2px solid color-mix(in srgb, var(--md-primary-fg-color) 65%, transparent);
-  /* 使拇指垂直居中轨道（可按需微调 r-track-h / r-thumb-d） */
-  margin-top: calc((var(--r-track-h) - var(--r-thumb-d)) / 2);
+  /* 垂直居中 + 细微向下偏移，避免视觉偏高 */
+  margin-top: calc((var(--r-track-h) - var(--r-thumb-d)) / 2 + var(--r-thumb-offset-y));
   box-shadow: 0 1px 2px rgba(0,0,0,.12);
 }
 .mid60-ctrl input[type="range"]::-moz-range-track {
@@ -146,41 +147,13 @@
   background: color-mix(in srgb, var(--md-primary-fg-color) 90%, #fff);
   border: 2px solid color-mix(in srgb, var(--md-primary-fg-color) 65%, transparent);
   box-shadow: 0 1px 2px rgba(0,0,0,.12);
+  transform: translateY(var(--r-thumb-offset-y));
 }
 
 /* 滑块刻度：由 JS 生成 DOM .mid60-slider-wrap + .mid60-marks */
-.mid60-slider-wrap { display: grid; row-gap: .3rem; width: 100%; }
-.mid60-marks {
-  display: grid;
-  grid-template-columns: repeat(var(--marks, 11), 1fr);
-  align-items: start;
-  gap: 0;
-}
-.mid60-marks .tick { position: relative; height: .9rem; }
-.mid60-marks .tick::before {
-  content: '';
-  display: block;
-  width: 2px;
-  height: .6rem;
-  margin: 0 auto;
-  background: color-mix(in srgb, var(--md-default-fg-color) 35%, transparent);
-  border-radius: 1px;
-}
-.mid60-marks .tick.tick--label::after {
-  content: attr(data-label);
-  display: block;
-  text-align: center;
-  font-size: .7rem;
-  line-height: 1;
-  margin-top: .1rem;
-  color: color-mix(in srgb, var(--md-default-fg-color) 75%, transparent);
-}
-
-/* 桌面端隐藏刻度，仅移动端显示 */
-@media (min-width: 1024px) {
-  .mid60-marks { display: none !important; }
-  .mid60-slider-wrap { row-gap: 0; }
-}
+.mid60-slider-wrap { display: grid; row-gap: 0; width: 100%; }
+/* 取消刻度：无论何种视口均不显示（保留选择器以兼容旧 DOM） */
+.mid60-marks { display: none !important; }
 
 .mid60-badge {
   display: inline-flex;

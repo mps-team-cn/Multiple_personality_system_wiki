@@ -66,6 +66,7 @@
 .des2-ctrl input[type="range"] {
   --r-track-h: .56rem;
   --r-thumb-d: 1.1rem;
+  --r-thumb-offset-y: .08rem; /* 向下微调，修正视觉偏高 */
 }
 
 /* 更易触控的滑块外观 */
@@ -82,7 +83,7 @@
   border-radius: 50%;
   background: color-mix(in srgb, var(--md-primary-fg-color) 90%, #fff);
   border: 2px solid color-mix(in srgb, var(--md-primary-fg-color) 65%, transparent);
-  margin-top: calc((var(--r-track-h) - var(--r-thumb-d)) / 2);
+  margin-top: calc((var(--r-track-h) - var(--r-thumb-d)) / 2 + var(--r-thumb-offset-y));
   box-shadow: 0 1px 2px rgba(0,0,0,.12);
 }
 .des2-ctrl input[type="range"]::-moz-range-track {
@@ -97,40 +98,13 @@
   background: color-mix(in srgb, var(--md-primary-fg-color) 90%, #fff);
   border: 2px solid color-mix(in srgb, var(--md-primary-fg-color) 65%, transparent);
   box-shadow: 0 1px 2px rgba(0,0,0,.12);
+  transform: translateY(var(--r-thumb-offset-y));
 }
 
 /* 滑块刻度（由 JS 生成） */
-.des2-slider-wrap { display: grid; row-gap: .3rem; width: 100%; }
-.des2-marks {
-  display: grid;
-  grid-template-columns: repeat(var(--marks, 11), 1fr);
-  align-items: start;
-}
-.des2-marks .tick { position: relative; height: .9rem; }
-.des2-marks .tick::before {
-  content: '';
-  display: block;
-  width: 2px;
-  height: .6rem;
-  margin: 0 auto;
-  background: color-mix(in srgb, var(--md-default-fg-color) 35%, transparent);
-  border-radius: 1px;
-}
-.des2-marks .tick.tick--label::after {
-  content: attr(data-label);
-  display: block;
-  text-align: center;
-  font-size: .7rem;
-  line-height: 1;
-  margin-top: .1rem;
-  color: color-mix(in srgb, var(--md-default-fg-color) 75%, transparent);
-}
-
-/* 桌面端隐藏刻度，仅移动端显示 */
-@media (min-width: 1024px) {
-  .des2-marks { display: none !important; }
-  .des2-slider-wrap { row-gap: 0; }
-}
+.des2-slider-wrap { display: grid; row-gap: 0; width: 100%; }
+/* 取消刻度：全端隐藏，兼容旧 DOM */
+.des2-marks { display: none !important; }
 
 .des2-badge {
   display: inline-flex;

@@ -27,6 +27,16 @@
     const out = qs('output, .mid60-badge', item);
     if (!input || !out) return;
 
+    // 清理历史遗留的刻度包装（若存在则移除 wrapper 与 marks）
+    try {
+      const p = input.parentElement;
+      if (p && p.classList && p.classList.contains('mid60-slider-wrap')) {
+        const host = p.parentElement || item;
+        host.insertBefore(input, p);
+        p.remove();
+      }
+    } catch (_) { /* ignore */ }
+
     // 为滑块添加可访问性属性
     const itemNumber = input.id.replace('item', '');
     const questionText = item.querySelector('td:nth-child(2)')?.textContent?.trim() || '';
@@ -41,45 +51,7 @@
     // - 保留页面纵向滚动优先（见 CSS touch-action: pan-y）
     // 不再阻止键盘/轨道点击等默认行为
 
-    // 可见刻度（marks）：在滑块下方生成 0/中点/最大值 3 个标签，并绘制均匀刻度
-    (function applyMarks(el) {
-      const ctrl = el.closest('.mid60-ctrl') || el.parentElement;
-      if (!ctrl) return;
-      // 包装一层，便于 marks 与 slider 形成上下结构
-      let wrap = ctrl.querySelector('.mid60-slider-wrap');
-      if (!wrap) {
-        wrap = document.createElement('div');
-        wrap.className = 'mid60-slider-wrap';
-        ctrl.insertBefore(wrap, el);
-        wrap.appendChild(el);
-      }
-      // 构建刻度容器
-      let marks = wrap.querySelector('.mid60-marks');
-      const min = Number(el.min || 0);
-      const max = Number(el.max || 10);
-      const step = Math.max(1, Number(el.step || 1));
-      const count = Math.floor((max - min) / step) + 1; // 刻度个数
-      if (!marks) {
-        marks = document.createElement('div');
-        marks.className = 'mid60-marks';
-        marks.style.setProperty('--marks', String(count));
-        wrap.appendChild(marks);
-      } else {
-        marks.innerHTML = '';
-        marks.style.setProperty('--marks', String(count));
-      }
-      for (let i = 0; i < count; i++) {
-        const v = min + i * step;
-        const tick = document.createElement('span');
-        tick.className = 'tick';
-        // 仅标注首/中/末 3 处数值
-        if (v === min || v === max || v === Math.round((min + max) / 2)) {
-          tick.classList.add('tick--label');
-          tick.setAttribute('data-label', String(v));
-        }
-        marks.appendChild(tick);
-      }
-    })(input);
+    // 已取消刻度（marks），保留原生轨道点击与拖动交互
 
     const update = () => {
       // MID-60: 0-10 转换为 0-100 百分比

@@ -24,43 +24,18 @@
     const out = qs('output, .des2-badge', item);
     if (!input || !out) return;
 
+    // 清理历史遗留的刻度包装（如存在则移除 wrapper 与 marks）
+    try {
+      const p = input.parentElement;
+      if (p && p.classList && p.classList.contains('des2-slider-wrap')) {
+        const host = p.parentElement || item;
+        host.insertBefore(input, p);
+        p.remove();
+      }
+    } catch (_) { /* ignore */ }
+
     // 交互策略（Android/MUI/Ant 风格）：允许点击轨道跳转 + 拖动
-    // 可见刻度：下方生成 0/中点/最大值 3 个标签，并绘制均匀刻度
-    (function applyMarks(el) {
-      const ctrl = el.closest('.des2-ctrl') || el.parentElement;
-      if (!ctrl) return;
-      let wrap = ctrl.querySelector('.des2-slider-wrap');
-      if (!wrap) {
-        wrap = document.createElement('div');
-        wrap.className = 'des2-slider-wrap';
-        ctrl.insertBefore(wrap, el);
-        wrap.appendChild(el);
-      }
-      let marks = wrap.querySelector('.des2-marks');
-      const min = Number(el.min || 0);
-      const max = Number(el.max || 100);
-      const step = Math.max(1, Number(el.step || 10));
-      const count = Math.floor((max - min) / step) + 1;
-      if (!marks) {
-        marks = document.createElement('div');
-        marks.className = 'des2-marks';
-        marks.style.setProperty('--marks', String(count));
-        wrap.appendChild(marks);
-      } else {
-        marks.innerHTML = '';
-        marks.style.setProperty('--marks', String(count));
-      }
-      for (let i = 0; i < count; i++) {
-        const v = min + i * step;
-        const tick = document.createElement('span');
-        tick.className = 'tick';
-        if (v === min || v === max || v === Math.round((min + max) / 2)) {
-          tick.classList.add('tick--label');
-          tick.setAttribute('data-label', String(v));
-        }
-        marks.appendChild(tick);
-      }
-    })(input);
+    // 取消可见刻度（marks），桌面与移动端都不再生成
 
     const update = () => {
       out.textContent = input.value;
