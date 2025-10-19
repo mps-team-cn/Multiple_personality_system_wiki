@@ -44,6 +44,83 @@
     update();
   }
 
+  // 动态加载 html-to-image（仅在导出时加载）
+  async function ensureHtmlToImage() {
+    if (window.htmlToImage) return window.htmlToImage;
+    const src = 'https://cdn.jsdelivr.net/npm/html-to-image@1.11.11/dist/html-to-image.min.js';
+    await new Promise((resolve, reject) => {
+      const s = document.createElement('script');
+      s.src = src;
+      s.async = true;
+      s.onload = resolve;
+      s.onerror = () => reject(new Error('无法加载导出库'));
+      document.head.appendChild(s);
+    });
+    return window.htmlToImage;
+  }
+
+  async function exportResultsImage(root) {
+    const node = qs('#mid60-results', root);
+    if (!node) return;
+
+    // 添加水印（仅导出时）
+    const wm = document.createElement('div');
+    wm.className = 'mid60-watermark';
+    wm.textContent = 'wiki.mpsteam.cn';
+    node.appendChild(wm);
+
+    // 背景色：使用页面背景，避免透明导致聊天软件黑底
+    const bg = getComputedStyle(document.body).backgroundColor || '#ffffff';
+    try {
+      const h2i = await ensureHtmlToImage();
+      const dataUrl = await h2i.toJpeg(node, {
+        cacheBust: true,
+        pixelRatio: Math.min(2, window.devicePixelRatio || 1.5),
+        backgroundColor: bg
+      });
+
+      // 移除临时水印
+      wm.remove();
+
+      // 转成 Blob
+      const blob = await (await fetch(dataUrl)).blob();
+      const file = new File([blob], 'MID-60-结果.jpg', { type: 'image/jpeg' });
+
+      // 优先使用系统分享（移动端友好）
+      if (navigator.canShare && navigator.canShare({ files: [file] })) {
+        await navigator.share({
+          files: [file],
+          title: 'MID‑60 结果',
+          text: '来自 wiki.mpsteam.cn'
+        });
+        return;
+      }
+
+      // 次选：复制到剪贴板（部分浏览器支持）
+      if (navigator.clipboard && window.ClipboardItem) {
+        try {
+          await navigator.clipboard.write([
+            new ClipboardItem({ [blob.type]: blob })
+          ]);
+          alert('图片已复制，可直接粘贴到聊天');
+          return;
+        } catch (_) { /* 忽略 */ }
+      }
+
+      // 兜底：触发下载
+      const a = document.createElement('a');
+      a.href = dataUrl;
+      a.download = 'MID-60-结果.jpg';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+    } catch (err) {
+      wm.remove();
+      console.error(err);
+      alert('导出失败，请重试');
+    }
+  }
+
   function collectValues(root) {
     const vals = [];
     qsa('.mid60-item input[type="range"]', root).forEach((inp) => {
@@ -168,6 +245,19 @@
     // 重置按钮
     const resetBtn = qs('#mid60-reset', root);
     if (resetBtn) resetBtn.addEventListener('click', () => resetAll(root));
+
+    // 导出按钮（移动端友好：系统分享 + 下载兜底）
+    const actions = qs('.mid60-actions', root) || root;
+    let exportBtn = qs('#mid60-export', actions);
+    if (!exportBtn) {
+      exportBtn = document.createElement('button');
+      exportBtn.id = 'mid60-export';
+      exportBtn.className = 'md-button md-button--primary';
+      exportBtn.type = 'button';
+      exportBtn.textContent = '导出图片';
+      actions.appendChild(exportBtn);
+    }
+    exportBtn.addEventListener('click', () => exportResultsImage(root));
 
     // 实时更新:任意滑块变动即刷新结果
     root.addEventListener('input', (e) => {
