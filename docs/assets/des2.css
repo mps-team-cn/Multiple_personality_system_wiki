@@ -50,15 +50,17 @@
 }
 
 .des2-ctrl {
-  display: inline-flex;
+  display: grid;
+  grid-template-columns: minmax(12.5rem, 1fr) auto;
   align-items: center;
-  gap: .5rem;
+  column-gap: .5rem;
+  row-gap: .25rem;
   /* 隐藏容器内的裸露文本（用于隐藏行内的 % 符号），
      再由徽章 ::after 追加 %，避免在移动端换行错位 */
   font-size: 0;
 }
 
-.des2-ctrl input[type="range"] { width: 12.5rem; touch-action: pan-y; }
+.des2-ctrl input[type="range"] { width: 100%; min-width: 12.5rem; touch-action: pan-y; }
 
 /* 更易触控的滑块外观 */
 .des2-ctrl input[type="range"]::-webkit-slider-runnable-track {
@@ -92,7 +94,7 @@
 }
 
 /* 滑块刻度（由 JS 生成） */
-.des2-slider-wrap { display: grid; row-gap: .25rem; width: 100%; }
+.des2-slider-wrap { display: grid; row-gap: .3rem; width: 100%; }
 .des2-marks {
   display: grid;
   grid-template-columns: repeat(var(--marks, 11), 1fr);
