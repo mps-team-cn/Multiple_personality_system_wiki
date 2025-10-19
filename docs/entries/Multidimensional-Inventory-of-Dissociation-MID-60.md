@@ -434,10 +434,10 @@ search:
   <div class="mid60-divider"></div>
 
   <div id="mid60-safety-alert" class="mid60-safety-alert" style="display:none; background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; margin: 1rem 0; border-radius: 4px;">
-    <strong>⚠️ 安全提示</strong>:您在自伤/自杀相关题目（第 22/44/58 题）上的评分较高。如果您当前存在自伤或伤害他人的意念,请立即寻求帮助:<br>
+    <strong>⚠️ 安全提示</strong>:您在自伤/自杀相关题目（第 22/44/58 题）上的评分较高。如果您当前存在自伤或自杀意念,请立即寻求帮助:<br>
     • 24 小时心理危机热线:010-82951332（北京）<br>
     • 全国心理援助热线:400-161-9995<br>
-    • 或访问我们的 <a href="../Crisis-Resources.md" style="color: #d9534f; font-weight: bold;">危机资源页面</a> 获取更多紧急支持资源
+    • 紧急情况请拨打 120 或前往最近的医院急诊
   </div>
 
   <div class="mid60-divider"></div>
