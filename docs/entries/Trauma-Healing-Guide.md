@@ -97,10 +97,10 @@ search:
 
 ## 🔗 与其他主题的协作
 
-- 《**诊断与临床导览**》（Clinical-Diagnosis-Guide.md）：PTSD、CPTSD、解离障碍等诊断概览。
-- 《**系统运作导览**》（System-Operations-Guide.md）：在创伤加工期协调前台轮换与内部沟通。
-- 《**角色与身份导览**》（Roles-Identity-Guide.md）：理解保护者、照顾者等在疗愈中的功能。
-- 《**危机与支援资源**》（Crisis-And-Support-Resources.md）：热线清单与安全计划模板。
+- [诊断与临床导览](Clinical-Diagnosis-Guide.md)：PTSD、CPTSD、解离障碍等诊断概览。
+- [系统运作导览](System-Operations-Guide.md)：在创伤加工期协调前台轮换与内部沟通。
+- [角色与身份导览](Roles-Identity-Guide.md)：理解保护者、照顾者等在疗愈中的功能。
+- [危机与支援资源](Crisis-And-Support-Resources.md)：热线清单与安全计划模板。
 
 ---
 
