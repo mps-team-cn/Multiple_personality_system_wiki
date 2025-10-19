@@ -79,6 +79,7 @@
   background: color-mix(in srgb, var(--md-primary-fg-color) 5%, transparent);
   padding: .55rem .6rem;
   vertical-align: middle;
+  overflow: hidden; /* 避免子元素超出圆角边界 */
 }
 
 [data-md-color-scheme="slate"] .mid60-item td {
@@ -106,6 +107,66 @@
 
 .mid60-ctrl input[type="range"] {
   width: 10rem;
+  touch-action: pan-y;
+}
+
+/* 更易触控的滑块外观（跨浏览器尽量统一） */
+.mid60-ctrl input[type="range"]::-webkit-slider-runnable-track {
+  height: .6rem;
+  border-radius: .6rem;
+  background: color-mix(in srgb, var(--md-default-fg-color) 18%, transparent);
+}
+.mid60-ctrl input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 90%, #fff);
+  border: 2px solid color-mix(in srgb, var(--md-primary-fg-color) 65%, transparent);
+  margin-top: -.25rem; /* 使拇指垂直居中轨道 */
+  box-shadow: 0 1px 2px rgba(0,0,0,.12);
+}
+.mid60-ctrl input[type="range"]::-moz-range-track {
+  height: .6rem;
+  border-radius: .6rem;
+  background: color-mix(in srgb, var(--md-default-fg-color) 18%, transparent);
+}
+.mid60-ctrl input[type="range"]::-moz-range-thumb {
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 90%, #fff);
+  border: 2px solid color-mix(in srgb, var(--md-primary-fg-color) 65%, transparent);
+  box-shadow: 0 1px 2px rgba(0,0,0,.12);
+}
+
+/* 滑块刻度：由 JS 生成 DOM .mid60-slider-wrap + .mid60-marks */
+.mid60-slider-wrap { display: grid; row-gap: .25rem; width: 100%; }
+.mid60-marks {
+  display: grid;
+  grid-template-columns: repeat(var(--marks, 11), 1fr);
+  align-items: start;
+  gap: 0;
+}
+.mid60-marks .tick { position: relative; height: .9rem; }
+.mid60-marks .tick::before {
+  content: '';
+  display: block;
+  width: 2px;
+  height: .6rem;
+  margin: 0 auto;
+  background: color-mix(in srgb, var(--md-default-fg-color) 35%, transparent);
+  border-radius: 1px;
+}
+.mid60-marks .tick.tick--label::after {
+  content: attr(data-label);
+  display: block;
+  text-align: center;
+  font-size: .7rem;
+  line-height: 1;
+  margin-top: .1rem;
+  color: color-mix(in srgb, var(--md-default-fg-color) 75%, transparent);
 }
 
 .mid60-badge {
@@ -117,7 +178,7 @@
   color: var(--md-primary-fg-color);
   padding: .15rem .5rem;
   border-radius: .5rem;
-  min-width: 3.8rem;
+  width: 4.8rem; /* 固定宽度，按最大值 100.0% 适配 */
   justify-content: center;
   font-size: .95rem;
 }
@@ -277,7 +338,7 @@
   }
 
   .mid60-badge {
-    min-width: 2.4rem;
+    width: 4.8rem; /* 移动端同样固定，避免跳动 */
     padding: .1rem .35rem;
     font-size: .9rem;
   }
@@ -295,37 +356,58 @@
 
 /* 更窄屏进一步优化 */
 @media (max-width: 600px) {
+  /* 将题号放入卡片内部显示（使用 CSS 计数器生成） */
+  .mid60-table tbody { counter-reset: mid60; }
   .mid60-table thead { display: none; }
-  .mid60-table { border-spacing: 0 .65rem; width: 100% !important; }
+  /* 适当增大行距 */
+  .mid60-table { border-spacing: 0 .85rem; width: 100% !important; }
   .mid60-table colgroup, .mid60-table colgroup col { display: none !important; width: auto !important; }
   .mid60-table tr.mid60-item { display: block; }
   .mid60-table td { display: block; width: 100% !important; }
 
-  .mid60-item td { border-radius: 0; }
-  .mid60-item td:first-child {
-    border-radius: .6rem .6rem 0 0;
-    width: auto;
-    display: inline-block;
-    background: transparent;
-    padding-bottom: .2rem;
+  /* 卡片之间增加外边距 */
+  .mid60-item { margin: 0 0 .85rem 0; }
+  .mid60-item td { border-radius: 0; padding: .6rem .6rem; }
+  /* 隐藏原第一列数字 */
+  .mid60-item td:first-child { display: none !important; }
+  /* 题号徽标：用伪元素添加到描述卡片左上角 */
+  /* 徽标与题目间距加大 */
+  .mid60-item td:nth-child(2) { position: relative; padding-left: 2.8rem; }
+  .mid60-item td:nth-child(2)::before {
+    counter-increment: mid60;
+    content: counter(mid60);
+    position: absolute;
+    top: .55rem;
+    left: .6rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.6rem;
+    min-width: 1.6rem;
+    height: 1.3rem;
+    padding: 0 .25rem;
+    border-radius: .4rem;
+    background: color-mix(in srgb, var(--md-primary-fg-color) 16%, transparent);
     color: var(--md-primary-fg-color);
-    font-weight: 600;
+    font-weight: 700;
+    line-height: 1;
+    box-shadow: 0 1px 2px rgba(0,0,0,.08);
   }
-  .mid60-item td:nth-child(2) {
-    border-radius: .6rem .6rem 0 0;
-  }
+  .mid60-item td:nth-child(2) { border-radius: .6rem .6rem 0 0; }
   .mid60-item td:last-child {
     border-top: 1px solid color-mix(in srgb, var(--md-default-fg-color) 12%, transparent);
     border-radius: 0 0 .6rem .6rem;
     width: 100% !important;
+    padding-top: .7rem; /* 题目与滑块区垂直间距增大 */
   }
 
   .mid60-ctrl {
     display: grid;
     grid-template-columns: 1fr auto;
     gap: .45rem .5rem;
+    align-items: start; /* 避免右侧徽章垂直居中覆盖刻度 */
   }
   .mid60-ctrl input[type="range"] { width: 100%; min-width: 0; }
-  .mid60-badge { min-width: 2.6rem; justify-self: end; }
+  .mid60-badge { width: 4.8rem; justify-self: end; align-self: start; }
   .mid60-subgrid { grid-template-columns: 1fr; }
 }

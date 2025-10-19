@@ -64,7 +64,7 @@ search:
   <colgroup>
     <col style="width:2.2rem">
     <col>
-    <col style="width:15rem">
+    <col style="width:18rem"> <!-- 为桌面端留出滑块+刻度+百分比徽标的固定空间 -->
   </colgroup>
   <thead>
     <tr><th>#</th><th>描述</th><th>频率</th></tr>
@@ -433,12 +433,12 @@ search:
 </table>
 
 <div class="mid60-divider"></div>
-
-<div id="mid60-results" class="mid60-results">
   <div class="mid60-actions">
     <button id="mid60-reset" class="md-button">重置</button>
     <!-- 导出按钮由脚本自动插入 -->
   </div>
+
+<div id="mid60-results" class="mid60-results">
   <div><strong>平均分</strong>:<span id="mid60-avg" class="mid60-badge">0.0</span></div>
   <div class="mid60-progress" aria-label="MID-60 平均分可视化" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
     <div id="mid60-bar" class="bar" style="width:0%"></div>
