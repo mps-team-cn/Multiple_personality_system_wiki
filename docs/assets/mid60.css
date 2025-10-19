@@ -67,7 +67,7 @@
   color: var(--md-primary-fg-color);
   padding: .15rem .5rem;
   border-radius: .5rem;
-  min-width: 3rem;
+  min-width: 3.8rem;
   justify-content: center;
   font-size: .95rem;
 }
@@ -140,7 +140,7 @@
 }
 
 .mid60-subcard .row .mid60-badge {
-  min-width: 3.5rem;
+  min-width: 4.2rem;
 }
 
 .mid60-subcard .cutoff {

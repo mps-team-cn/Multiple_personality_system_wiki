@@ -15,7 +15,7 @@
   function levelText(avg) {
     if (avg >= 64) return '严重的解离和创伤后症状';
     if (avg >= 41) return '可能患有 DID 或严重解离障碍和 PTSD';
-    if (avg >= 31) return '可能存在解离障碍(如 OSDD-1 或 DID)和 PTSD';
+    if (avg >= 31) return '可能存在解离障碍(如 OSDD 或 DID)和 PTSD';
     if (avg >= 21) return '可能存在解离障碍和/或 PTSD';
     if (avg >= 15) return '轻度解离症状,可能存在 PTSD 或轻度解离障碍';
     if (avg >= 7) return '很少有诊断意义的解离体验';
@@ -26,6 +26,14 @@
     const input = qs('input[type="range"]', item);
     const out = qs('output, .mid60-badge', item);
     if (!input || !out) return;
+
+    // 为滑块添加可访问性属性
+    const itemNumber = input.id.replace('item', '');
+    const questionText = item.querySelector('td:nth-child(2)')?.textContent?.trim() || '';
+    if (!input.hasAttribute('aria-label')) {
+      input.setAttribute('aria-label', `题目 ${itemNumber}: ${questionText.substring(0, 30)}... - 频率评分 0 到 10`);
+      input.setAttribute('tabindex', '0');
+    }
 
     const update = () => {
       // MID-60: 0-10 转换为 0-100 百分比
@@ -53,9 +61,31 @@
     const avgEl = qs('#mid60-avg', root);
     const lvlEl = qs('#mid60-level', root);
     const bar = qs('#mid60-bar', root);
+    const progressBar = bar?.parentElement;
+
     if (avgEl) avgEl.textContent = fmt(avg);
     if (lvlEl) lvlEl.textContent = levelText(avg);
     if (bar) bar.style.width = Math.max(0, Math.min(100, avg)) + '%';
+    if (progressBar) progressBar.setAttribute('aria-valuenow', Math.round(avg));
+
+    // 安全提示:检查题目 22, 44, 58 (自伤/自杀相关)
+    const item22 = qs('#item22', root);
+    const item44 = qs('#item44', root);
+    const item58 = qs('#item58', root);
+    const safetyAlert = qs('#mid60-safety-alert', root);
+
+    if (safetyAlert) {
+      const highRiskThreshold = 5; // 滑块值 >= 5 (即 50%) 触发提示
+      const v22 = item22 ? Number(item22.value) : 0;
+      const v44 = item44 ? Number(item44.value) : 0;
+      const v58 = item58 ? Number(item58.value) : 0;
+
+      if (v22 >= highRiskThreshold || v44 >= highRiskThreshold || v58 >= highRiskThreshold) {
+        safetyAlert.style.display = 'block';
+      } else {
+        safetyAlert.style.display = 'none';
+      }
+    }
 
     // 子量表定义(基于 NovoPsych 资料)
     const subscales = {
@@ -98,6 +128,8 @@
       const v = Math.max(0, Math.min(100, val));
       const out = qs(`#${idBase}-val`, root);
       const bar = qs(`#${idBase}-bar`, root);
+      const progressBar = bar?.parentElement;
+
       if (out) out.textContent = fmt(v);
       if (bar) {
         bar.style.width = v + '%';
@@ -107,6 +139,9 @@
         } else {
           bar.style.background = 'linear-gradient(90deg, #4fc08d, #3fb489)'; // 绿色渐变
         }
+      }
+      if (progressBar) {
+        progressBar.setAttribute('aria-valuenow', Math.round(v));
       }
     };
 

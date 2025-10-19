@@ -26,6 +26,11 @@
 
     const update = () => {
       out.textContent = input.value;
+      // 可访问性：输出区域在数值变化时进行友好播报
+      try {
+        out.setAttribute('aria-live', 'polite');
+        if (!out.getAttribute('aria-label')) out.setAttribute('aria-label', '当前项百分比');
+      } catch (_) {}
     };
     input.addEventListener('input', update);
     update();
@@ -50,7 +55,17 @@
     const bar = qs('#des2-bar', root);
     if (avgEl) avgEl.textContent = fmt(avg);
     if (lvlEl) lvlEl.textContent = levelText(avg);
-    if (bar) bar.style.width = Math.max(0, Math.min(100, avg)) + '%';
+    if (bar) {
+      const v = Math.max(0, Math.min(100, avg));
+      bar.style.width = v + '%';
+      // 可访问性：进度条角色与实时值
+      try {
+        bar.setAttribute('role', 'progressbar');
+        bar.setAttribute('aria-valuemin', '0');
+        bar.setAttribute('aria-valuemax', '100');
+        bar.setAttribute('aria-valuenow', String(Math.round(v)));
+      } catch (_) {}
+    }
 
     // 子量表（NovoPsych 公布的常用分组）
     const groups = {
@@ -76,7 +91,15 @@
       const out = qs(`#${idBase}-val`, root);
       const bar = qs(`#${idBase}-bar`, root);
       if (out) out.textContent = fmt(v);
-      if (bar) bar.style.width = v + '%';
+      if (bar) {
+        bar.style.width = v + '%';
+        try {
+          bar.setAttribute('role', 'progressbar');
+          bar.setAttribute('aria-valuemin', '0');
+          bar.setAttribute('aria-valuemax', '100');
+          bar.setAttribute('aria-valuenow', String(Math.round(v)));
+        } catch (_) {}
+      }
     };
 
     setSub('des2-amn', amn);
