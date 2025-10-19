@@ -476,6 +476,8 @@ comments: true
 
 - [易性症（Transsexualism）](Transsexualism-Obsolete.md) — :octicons-check-16: 已完成
 
+- [异装癖（Transvestism）](Transvestism-Obsolete.md) — :octicons-check-16: 已完成
+
 !!! tip "使用建议"
 
     - **旧病历**：先看历史标准，再对照现代分类。

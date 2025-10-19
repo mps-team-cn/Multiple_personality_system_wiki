@@ -15,6 +15,7 @@ hide:
 
 ## 词条一览
 
+- [异装癖（Transvestism，已过时）](Transvestism-Obsolete.md) — *2025-10-19*
 - [深层记忆(Deep Memory)](Deep-Memory.md) — *2025-10-19*
 - [定向障碍（Disorientation）](Disorientation.md) — *2025-10-19*
 - [解离经验量表（Dissociative Experiences Scale‑II, DES‑II）](Dissociative-Experiences-Scale-DES-II.md) — *2025-10-19*
