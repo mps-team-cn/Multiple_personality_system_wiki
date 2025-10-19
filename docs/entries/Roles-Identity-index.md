@@ -15,6 +15,7 @@ hide:
 
 ## 词条一览
 
+- [主导（Dominant / Lead）](Dominant-Lead.md) — *2025-10-19*
 - [内在批评者（Inner Critic）](Inner-Critic.md) — *2025-10-19*
 - [引入者（Introject）](Introject.md) — *2025-10-19*
 - [执行者（Performer / Executive）](Performer-Executive.md) — *2025-10-19*
