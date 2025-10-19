@@ -8,56 +8,117 @@ tags:
 
 topic: 角色与身份
 title: 自发型（Spontaneous）
-updated: 2025-10-13
+description: 自发型（Spontaneous）是社群使用的身份标签，描述非创伤主导、在自然发展、灵性实践或认知探索中渐显的多意识体；非 DSM-5-TR/ICD-11 诊断，常与 Created/Adaptive/Mixed 相互对照。
+updated: 2025-10-19
+synonyms:
+
+- 自发型
+- 自发型系统
+- 自然生成
+- Spontaneous
+- Spontaneous system
+- zifaxing
+
+search:
+  boost: 1.4
 comments: true
 ---
 
 # 自发型（Spontaneous）
 
-## 定义
+自发型（Spontaneous）指未以创伤为主要成因，而在自然发展、灵性实践或认知探索中逐渐显现的多意识体身份标签，常用于与 Created/Adaptive/Mixed 做经验对照。
 
-自发型系统指未以创伤为主要成因，而是在自然发展、灵性实践或认知探索中逐渐形成的多意识体。该标签源自[埃蒙加德分类法（Emmengard Classification）](Emmengard-Classification.md)，强调成员的出现是一种自然而然的演化或自我发现过程。
+!!! warning "边界说明：社群标签，非临床诊断"
+
+    - 该标签源自社群框架（如 [埃蒙加德分类法（Emmengard Classification）](Emmengard-Classification.md)），用于叙述经历，**非** DSM-5-TR/ICD-11 诊断。
+    - 为避免混淆，请将自发型与临床诊断（如 [解离性身份障碍（DID）](DID.md)、[其他特定解离性障碍（OSDD）](OSDD.md)）明确区分。
+
+## 要点速览
+
+- 形成重在“自然显现/自我发现”，不以创伤应对为核心。
+- 与 [创造型（Created）](Emmengard-Classification.md#创造型created) 相比：非主动设计或训练产物。
+- 与 [适应型（Adaptive）](Adaptive.md) 相比：通常不以防御机制与创伤处理为主线。
+- 与 [混合型（Mixed）](Emmengard-Classification.md#混合型mixed) 共存常见：不同成员来源可并存。
+- 出现痛苦或功能受损时，优先评估临床风险与共病，必要时转介。
+- 建议维护开放叙事：记录成员出现脉络、功能与协作关系。
+
+!!! info "Clinician’s Summary｜临床摘要"
+    自发型是社群自我认同标签，提示系统的成员并非主要作为创伤防御而形成。临床上不应将其等同于或排除解离性障碍；若存在痛苦、显著功能受损、闪回/切换困扰或高风险行为，应按常规流程评估创伤史、解离谱系与常见共病（焦虑、抑郁、睡眠、物质使用等），并根据需要转介创伤知情服务。对无显著临床风险的个体，可聚焦于协作、界限与日常功能支持。
+
+## 术语说明与统一
+
+- **自发型系统（Spontaneous system）** ：自然显现或探索中逐渐识别的多意识体身份标签。
+- **创造型（Created）** ：由个体主动设计/训练形成，常见于 [图帕（Tulpa）](Tulpa.md)、[系魂（Soulbond）](Soulbond.md) 等实践。
+- **适应型（Adaptive）** ：以创伤应对为核心，详见 [适应型（Adaptive）](Adaptive.md)。
+- **混合型（Mixed）** ：多来源并存，详见 [埃蒙加德分类法](Emmengard-Classification.md#混合型mixed)。
 
 ## 形成背景
 
-- **自然演化** : 成员可能随着个体对自我、身份与内在世界的反思而逐渐清晰，体现意识结构的多样性。
-- **灵性或冥想实践** : 某些系统在祈祷、冥想、能量练习或其他灵性传统中感知到新的内部伙伴。
-- **创意与认知探索** : 持续的想象力训练、内在对话或哲学思辨亦可能催生新成员，但并非刻意设计或控制。
+- **自然演化** ：成员可能随自我反思与内在观察逐步清晰，体现意识结构的多样性。
+- **灵性/冥想实践** ：在祈祷、冥想、能量练习等体验中自发感知内部伙伴。
+- **创意与认知探索** ：持续内在对话、想象训练、哲学思辨等过程中意外显现，而非刻意设计或控制。
 
 ## 常见体验
 
-- 成员之间通常拥有较高的合作度或共同记忆，因为形成过程不以防御创伤为目的。
-- 可能更关注身份意义、存在目的与意识扩展等议题。
-- 对外部触发因素的敏感度较低，但仍可能受到压力与生活事件影响。
-- 系统叙事中常强调“自我发现”或“自然伴生”的情感。
+- 合作度或共同记忆相对较高，因形成过程并非以“隔离痛苦”为主。
+- 关注身份意义、存在目的与意识扩展等议题更常见。
+- 对外部触发线索的敏感度可能较低，但仍受压力/生活事件影响。
+- 叙事常强调“自我发现/自然伴生”的情感与过程记录。
 
-## 与其他标签的关系
+## 与相邻标签的关系
 
-- **与[适应型（Adaptive）](Adaptive.md)的区别** : 适应型以创伤应对为核心，而自发型强调自然形成；若系统同时存在创伤经历与自发成员，可认同[混合型（Mixed）](Emmengard-Classification.md#混合型mixed)。
-- **与[创造型（Created）](Emmengard-Classification.md#创造型created)的比较** : 创造型涉及主动设计或练习，自发型成员则多为在探索中意外显现。
-- **与灵性认同的交集** : 部分自发型系统也认同灵性标签（如系魂、神祇同在等），但是否采纳取决于系统自身的信仰与体验。
+- **与 [适应型（Adaptive）](Adaptive.md) 的区别** ：适应型以创伤应对为核心；自发型强调自然形成。若两者并存，可认同 [混合型（Mixed）](Emmengard-Classification.md#混合型mixed)。
+- **与 [创造型（Created）](Emmengard-Classification.md#创造型created) 的比较** ：创造型涉及主动设计/练习；自发型多为探索中意外显现。
+- **与灵性认同的交集** ：部分系统同时采用灵性标签（如系魂、神祇同在等），采纳与否取决于自身信念与体验。
 
-## 支持与自我照顾建议
+### 与相邻标签对照表（对照表）
 
-- 记录成员出现的背景、动机与感受，帮助系统理解自身演化路径。
-- 与社群分享经验时，尊重其他系统对形成机制的多样理解，避免贬低不同标签。
-- 关注生活平衡，确保新成员的出现与互动不会影响日常责任。
+| 标签 | 形成机制 | 核心特征 | 常见风险/困扰 | 与临床关系 |
+|------|----------|----------|----------------|--------------|
+| 自发型（Spontaneous） | 自然显现/探索识别 | 关注身份与意义；合作度较高 | 压力管理、角色协调 | 非诊断标签；如有痛苦/受损需评估 |
+| 创造型（Created） | 主动设计/训练 | 目标导向、可塑性强 | 期望不符、依附与边界 | 非诊断标签；与 [图帕](Tulpa.md)/[系魂](Soulbond.md) 等相关 |
+| 适应型（Adaptive） | 创伤/长期压力 | 防御与功能分担 | 触发敏感、记忆分隔 | 常与 [DID](DID.md)/[OSDD](OSDD.md) 共现，但标签不等于诊断 |
+| 混合型（Mixed） | 多来源并存 | 需求差异显著 | 分类与协作复杂度 | 需分别评估不同来源之风险 |
+
+## 临床与风险提示
+
+- 出现显著痛苦、功能受损、失眠/噩梦、频繁非自愿切换、强烈回避或自伤想法时，应进行规范化评估与必要转介。
+- 共病筛查建议：焦虑、抑郁、睡眠障碍、物质使用、创伤相关障碍等。
+- 评估重点：安全与风险、触发因素、支持系统、日常功能、同伴压力与标签使用的影响。
+- 参考干预：创伤知情支持、接地与稳定化练习（见 [Grounding](Grounding.md)）、节奏化暴露与协作训练。
+
+## 支持与自我照顾
+
+- 记录成员出现背景、触发、功能与协作度，建立共享认知。
+- 设定界限与例行沟通：角色预约、前台排班、紧急联系人。
+- 与社群交流时尊重多样叙事，避免以标签贬低他人或自我。
+- 关注生活平衡，确保系统实践不影响学业/工作/关系。
+
+### 实务清单：自我记录模板（可复制）
+
+- 成员名称/称呼：
+- 首次出现时间与情境：
+- 可能的触发/诱因：
+- 主要功能与优势：
+- 与其他成员的协作/边界：
+- 对外日常影响与需要的支持：
+
+### 决策助记（文字版）
+
+1) 是否采用“自发型”标签？→ 是/否（仍可保持开放）
+2) 是否存在显著痛苦或功能受损？→ 是：临床评估/转介；否：进入协作与记录
+3) 是否与 Created/Adaptive 经验并存？→ 是：参考 Mixed；否：按当前理解继续观察
 
 ## 延伸阅读
 
 - [埃蒙加德分类法（Emmengard Classification）](Emmengard-Classification.md)
 - [创造型（Created）](Emmengard-Classification.md#创造型created)
+- [适应型（Adaptive）](Adaptive.md)
 - [混合型（Mixed）](Emmengard-Classification.md#混合型mixed)
 - [系魂（Soulbond）](Soulbond.md)
 - [图帕（Tulpa）](Tulpa.md)
 
-## 相关条目
+## 继续阅读
 
-- [《我与梦露的一周》（The United States of Tara）中的系统家庭日常](United-States-Of-Tara-System-Daily-Life.md)
-- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](Kafka-Metamorphosis-Identity-Dissolution.md)
-- [《隐形人》（Mr. Robot）中的人格分裂叙事](Mr-Robot-DID-Narrative.md)
-- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](Dostoevsky-The-Double-Self-Division.md)
-- [《西比尔》（Sybil, 1976）与多重人格文化原型](Sybil-1976-Cultural-Prototype.md)
-- [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](Three-Faces-Of-Eve-1957-Dissociation.md)
-- [《妄想代理人》（Paranoia Agent）与集体意识的具象化](Paranoia-Agent-Collective-Consciousness.md)
-- [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](Touhou-Tulpa-Fandom.md)
+- 主题导览： [理论与分类导览](Theory-Classification-Guide.md)｜[角色与身份导览](Roles-Identity-Guide.md)
+- 文化聚合： [文化与表现导览](Cultural-Media-Guide.md)
