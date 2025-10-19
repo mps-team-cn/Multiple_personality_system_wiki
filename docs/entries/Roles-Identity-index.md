@@ -39,6 +39,7 @@ hide:
 - [异化/偏离（Deviation）](Deviation.md) — *2025-10-16*
 - [初始（Original）](Original.md) — *2025-10-16*
 - [执行者（Performer / Executive）](Performer-Executive.md) — *2025-10-16*
+- [执行者（Performer / Executive）](Performer-Executive.md) — *2025-10-19*
 - [迫害者（Persecutor）](Persecutor.md) — *2025-10-19*
 - [超级破碎（Polyfragmented）](Polyfragmented.md) — *2025-10-16*
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md) — *2025-10-14*
