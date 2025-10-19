@@ -102,7 +102,13 @@
       await nextFrame();
       await nextFrame();
 
+      // 计算导出尺寸：使用 scrollWidth/scrollHeight 防止右侧被裁切
+      const width = Math.ceil(node.scrollWidth + 2);   // 加 2 像素避免取整误差
+      const height = Math.ceil(node.scrollHeight + 2);
+
       let dataUrl = await h2i.toJpeg(node, {
+        width,
+        height,
         cacheBust: true,
         pixelRatio: Math.min(2, window.devicePixelRatio || 1.5),
         backgroundColor: bg,
@@ -120,6 +126,8 @@
         try {
           await nextFrame();
           dataUrl = await h2i.toPng(node, {
+            width,
+            height,
             cacheBust: true,
             pixelRatio: Math.min(2, window.devicePixelRatio || 1.5),
             backgroundColor: bg,
