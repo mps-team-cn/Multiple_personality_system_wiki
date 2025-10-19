@@ -46,6 +46,7 @@
         * [囤积障碍（Hoarding Disorder，HD）](entries/Hoarding-Disorder.md)
         * [复杂性创伤后应激障碍（CPTSD）](entries/CPTSD.md)
         * [多人格障碍（Multiple Personality Disorder，已过时）](entries/Multiple-Personality-Disorder-Obsolete.md)
+        * [异装癖（Transvestism，已过时）](entries/Transvestism-Obsolete.md)
         * [多维解离量表（MID‑60）](entries/Multidimensional-Inventory-of-Dissociation-MID-60.md)
         * [大麻相关障碍（Cannabis-Related Disorders）](entries/Cannabis-Related-Disorders.md)
         * [失眠障碍(Insomnia Disorder)](entries/Insomnia-Disorder.md)
