@@ -16,7 +16,7 @@ synonyms:
     - 身份掩饰
 
 description: 多意识体系统为适应社会环境而有意或习得性地展现单一身份外观，隐藏内部多元性的行为模式与策略
-updated: 2025-10-18
+updated: 2025-10-19
 ---
 
 # 角色面具（Masking / Social Masking）

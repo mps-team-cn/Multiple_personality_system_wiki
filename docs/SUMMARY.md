@@ -177,6 +177,7 @@
         * [Tulpa 完全创造指南·基础篇](entries/Tulpa-Guide-1.md)
         * [Tulpa 完全创造指南·实践篇](entries/Tulpa-Guide-2.md)
         * [Tulpa 完全创造指南·提高篇](entries/Tulpa-Guide-3.md)
+        * [危机与支援资源（Crisis & Support Resources）](entries/Crisis-And-Support-Resources.md)
         * [塑造（Forcing）](entries/Forcing.md)
         * [学舌/操纵（Parroting/Puppeting）](entries/Parroting-Puppeting.md)
         * [成声（Vocality）](entries/Vocality.md)

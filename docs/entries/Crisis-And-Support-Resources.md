@@ -89,7 +89,6 @@ updated: 2025-10-19
 | 新加坡  | 995       | Samaritans of Singapore 1767                       | [sos.org.sg](https://sos.org.sg)                   |
 | 国际   | 当地紧急电话    | Befrienders / 988 Suicide & Crisis Lifeline (U.S.) | [findahelpline.com](https://findahelpline.com)     |
 
-
 ## 如果你是系统成员或照护者
 
 - 🧩 建立「安全词 / 紧急信号」机制，明确何时需要立即停下与求助。

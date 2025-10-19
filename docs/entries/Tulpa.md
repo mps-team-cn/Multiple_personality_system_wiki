@@ -23,7 +23,7 @@ synonyms:
 
 description: 深入解析 Tulpa（图帕）：从意象形成到独立意识的培育机制、心理学机制、与 DID/想象同伴的区别、社群文化与临床风险界定
 title: 图帕（Tulpa）
-updated: 2025-10-18
+updated: 2025-10-19
 search:
   boost: 1.8
 comments: true
@@ -134,7 +134,7 @@ Tulpa 的创造通常遵循以下系统化路径：
 
 以下表格对比 Tulpa、DID、儿童期想象同伴与内部自助者的核心差异：
 
-| 维度 | **Tulpa**（图帕） | **DID**([解离性身份障碍](DID.md)) | **想象朋友**（[Imaginary Friend](Imaginary-Companion.md)） | **ISH**([内部自助者](Internal-Self-Helper-ISH.md)) |
+| 维度 | **Tulpa**（图帕） | **DID**([解离性身份障碍](DID.md)) | **想象朋友**([Imaginary Friend](Imaginary-Companion.md)) | **ISH**([内部自助者](Internal-Self-Helper-ISH.md)) |
 |---|---|---|---|---|
 | **形成路径** | 自愿、可控的系统化练习 | 非自愿、创伤驱动的防御性分化 | 儿童期自发产生 | 系统内自发出现或分化 |
 | **创伤前提** | 通常无创伤史要求 | 通常与早期复杂创伤高度相关 | 无创伤关联 | 多在创伤背景下形成 |
