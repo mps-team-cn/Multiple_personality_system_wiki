@@ -90,7 +90,7 @@ theme:
     # 其他
     - announce.dismiss # 公告可关闭
     # 临时禁用这两个按钮
-    # - content.action.edit # ← 开启“编辑此页”图标
+    - content.action.edit # ← 开启“编辑此页”图标
     # - content.action.view # （可选）旁边再加“查看源码”
 
 # 额外配置
