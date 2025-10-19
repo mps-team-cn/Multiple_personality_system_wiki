@@ -15,6 +15,7 @@ hide:
 
 ## 词条一览
 
+- [深层记忆(Deep Memory)](Deep-Memory.md) — *2025-10-19*
 - [定向障碍（Disorientation）](Disorientation.md) — *2025-10-19*
 - [解离经验量表（Dissociative Experiences Scale‑II, DES‑II）](Dissociative-Experiences-Scale-DES-II.md) — *2025-10-19*
 - [多维解离量表（MID‑60）](Multidimensional-Inventory-of-Dissociation-MID-60.md) — *2025-10-19*
@@ -35,7 +36,6 @@ hide:
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md) — *2025-10-17*
 - [复杂性创伤后应激障碍（CPTSD）](CPTSD.md) — *2025-10-17*
 - [经颅微电流刺激（Cranial Electrotherapy Stimulation, CES）](Cranial-Electrotherapy-Stimulation-CES.md) — *2025-10-17*
-- [深层记忆(Deep Memory)](Deep-Memory.md) — *2025-10-17*
 - [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](Depersonalization-Derealization-Disorder-DPDR.md) — *2025-10-17*
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md) — *2025-10-17*
 - [解离性失忆(Dissociative Amnesia,DA)](Dissociative-Amnesia-DA.md) — *2025-10-17*
