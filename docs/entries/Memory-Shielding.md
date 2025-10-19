@@ -3,10 +3,10 @@ title: 记忆屏蔽（Memory Shielding）
 topic: 系统运作
 tags:
 
-  - 系统运作
-  - 多重意识体
-  - 解离
-  - 创伤
+    - 系统运作
+    - 多重意识体
+    - 解离
+    - 创伤
 
 updated: 2025-10-19
 description: 记忆屏蔽是多意识体社群中的经验性术语，指身份间对特定记忆的访问限制。非 DSM-5-TR/ICD-11 正式术语；临床处置以稳定化与创伤加工整合为主。
@@ -14,13 +14,14 @@ search:
   boost: 1.4
 synonyms:
 
-  - 记忆屏障
-  - 屏障记忆
-  - 屏蔽记忆
-  - 记忆隔离
-  - 记忆封存
-  - Memory Shielding
-  - Amnesiacflux
+    - 记忆屏障
+    - 屏障记忆
+    - 屏蔽记忆
+    - 记忆隔离
+    - 记忆封存
+    - Memory Shielding
+    - Amnesiacflux
+
 comments: true
 ---
 
@@ -147,8 +148,8 @@ comments: true
 
 ### 循证路径（在稳定化前提下开展）
 
-- 眼动脱敏与再加工（[EMDR](Eye-Movement-Desensitization-Reprocessing-EMDR.md)）：用于创伤记忆的再加工与情绪再评估，目标是促进适应性整合，而非“解锁记忆”[^shapiro2017]。
-- 认知处理治疗（[CPT](Cognitive-Processing-Therapy-CPT.md)）：修正与创伤相关的适应不良信念，支持意义重建与系统协作。
+- 眼动脱敏与再加工([EMDR](Eye-Movement-Desensitization-Reprocessing-EMDR.md))：用于创伤记忆的再加工与情绪再评估，目标是促进适应性整合，而非“解锁记忆”[^shapiro2017]。
+- 认知处理治疗([CPT](Cognitive-Processing-Therapy-CPT.md))：修正与创伤相关的适应不良信念，支持意义重建与系统协作。
 - 延长暴露（[PE](Prolonged-Exposure-Therapy-PE.md)/渐进式暴露）：在可承受窗口内、以小步推进的方式面对触发线索，配合[接地（Grounding）](Grounding.md)。
 - 内部沟通强化：建立安全的身份间通道（会议/日志/中立托管者；见[内部沟通](Internal-Communication.md)），尊重边界与不同成员的“知情权”。
 
@@ -186,6 +187,7 @@ comments: true
     - 功能优先：屏蔽在某阶段可能具有保护价值，不必强求解除。
 
 !!! danger "法证与记忆可靠性（边界警示）"
+
     - 禁用诱导性技术：避免引导性提问、暗示性想象、非适应性催眠与“恢复记忆”做法，防假性记忆与污染。
     - 法证场景慎用回忆技术：保持中立与不可暗示，必要时转介具资质的法证评估；全过程记录并避免信息交叉污染。
     - 教育与知情：解释创伤记忆常见的碎片化/闯入，并非“必然存在被屏蔽的完整记忆”。

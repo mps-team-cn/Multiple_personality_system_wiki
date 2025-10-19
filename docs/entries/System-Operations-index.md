@@ -17,6 +17,7 @@ hide:
 
 - [解离（Dissociation）](Dissociation.md) — *2025-10-19*
 - [角色面具（Masking / Social Masking）](Masking.md) — *2025-10-19*
+- [记忆屏蔽（Memory Shielding）](Memory-Shielding.md) — *2025-10-19*
 - [锚点（Anchors / Tells / Markers）](Anchors.md) — *2025-10-18*
 - [后台（Back / Being Back）](Back-Being-Back.md) — *2025-10-18*
 - [躯体认同（Body Ownership）](Body-Ownership.md) — *2025-10-18*
@@ -28,7 +29,6 @@ hide:
 - [前台（Front / Fronting）](Front-Fronting.md) — *2025-10-18*
 - [迭代（Iteration）](Iteration.md) — *2025-10-18*
 - [偏重（Median / Bias）](Median-Bias.md) — *2025-10-18*
-- [记忆屏蔽（Memory Shielding）](Memory-Shielding.md) — *2025-10-18*
 - [混合型系统（Mixed Systems, Xianyu Theory）](Mixed-Systems-Xianyu.md) — *2025-10-18*
 - [多意识体系统（Multiple Personality System）](Multiple_Personality_System.md) — *2025-10-18*
 - [权限(Permissions)](Permissions.md) — *2025-10-18*
