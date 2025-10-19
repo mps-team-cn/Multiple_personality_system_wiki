@@ -40,9 +40,7 @@ comments: true
 
 在[多意识体系统（Multiple Personality System, MPS）](Multiple_Personality_System.md)中,习得性无助可能表现为成员拒绝切换、前台成员长期占据位置、或因"无力感"阻断内部沟通,严重影响系统功能与康复进程。
 
-### 临床摘要(Clinician's Summary)
-
-!!! abstract "快速临床要点"
+!!! info "Clinician’s Summary｜快速临床要点"
     **核心特征**: 控制感丧失 + 消极归因风格 + 行为退缩/冻结 + 情绪麻木/低落
 
     **诊断提示**: 习得性无助非独立诊断,而是抑郁、创伤后应激、适应障碍等疾病的跨诊断特征。ICD-11 在复杂性应激相关障碍(6B40-6B4Z)中描述相关症状群;DSM-5-TR 将其视为多种障碍的机制性解释。
