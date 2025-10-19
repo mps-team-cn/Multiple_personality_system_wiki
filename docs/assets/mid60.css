@@ -83,6 +83,7 @@
   margin-top: 1rem;
   display: grid;
   gap: .8rem;
+  position: relative; /* 便于导出时定位水印 */
 }
 
 .mid60-progress {
@@ -97,6 +98,24 @@
   width: 0%;
   background: linear-gradient(90deg, #4fc08d, #3fb489);
   transition: width .2s ease;
+}
+
+/* 导出图片水印（仅导出前动态插入） */
+.mid60-watermark {
+  position: absolute;
+  right: .6rem;
+  bottom: .6rem;
+  padding: .15rem .45rem;
+  border-radius: .4rem;
+  font-size: .8rem;
+  line-height: 1.2;
+  color: color-mix(in srgb, var(--md-default-fg-color) 85%, transparent);
+  background: color-mix(in srgb, var(--md-default-fg-color) 8%, transparent);
+  backdrop-filter: blur(2px);
+  opacity: .85;
+  pointer-events: none;
+  user-select: none;
+  z-index: 2;
 }
 
 /* 子量表区域 */
