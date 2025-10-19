@@ -1,11 +1,22 @@
 ---
 tags:
 
-- 创伤与疗愈
+    - 创伤与疗愈
 
 topic: 创伤与疗愈
 title: 三阶段创伤治疗模型（Three-Phase Trauma Treatment）
-updated: 2025-10-13
+description: 创伤治疗的经典三阶段框架：先稳定安全与功能，再在可耐受窗口内加工创伤记忆，最终实现关系修复、身份重建与功能性整合。适用于复杂创伤与解离相关状况的循序式临床路线。
+synonyms:
+
+    - 三阶段治疗
+    - 阶段性治疗
+    - 阶段导向治疗
+    - Phase-Oriented Treatment
+    - 三阶段创伤治疗
+
+search:
+  boost: 1.5
+updated: 2025-10-19
 comments: true
 ---
 
@@ -14,13 +25,18 @@ comments: true
 !!! warning "医疗免责声明"
     本词条内容仅供教育与参考，不能替代专业医疗建议、诊断或治疗。创伤治疗应在持证心理治疗师或精神科医师的指导下进行。
 
+!!! info "Clinician’s Summary（约 180 字）"
+    该模型源自 Herman（1992）并由 Courtois & Ford（2009）等在复杂创伤领域系统扩展。治疗并非线性，而是在“稳定—加工—整合”间以安全为前提的往返推进。阶段 1 聚焦外部/内部安全、治疗联盟与情绪调节，建立足够的“安全窗口”。阶段 2 在可耐受范围内进行记忆加工与认知重构，可采用 EMDR、CPT、PE、TF‑CBT 等，并随时回到阶段 1 进行稳固。阶段 3 致力于关系修复、意义建构与功能性整合，DID/OSDD 系统目标可为协作与功能性整合，而非必然完全融合。
+
 ## 定义
 
-三阶段创伤治疗模型（Three-Phase Trauma Treatment）是创伤治疗领域广泛采用的治疗框架，由 Judith Herman 博士在其经典著作《创伤与恢复》（*Trauma and Recovery*, 1992）中提出。该模型强调创伤康复是一个渐进的过程，需要按照特定顺序完成三个关键阶段。
+三阶段创伤治疗模型（Three-Phase Trauma Treatment）是创伤治疗领域广泛采用的治疗框架，学术来源可追溯至 Judith L. Herman 在《创伤与恢复》（*Trauma and Recovery*, 1992）中的阶段性治疗思想[^herman1992]，此后由 Courtois 与 Ford（2009）基于复杂创伤的实证与临床经验予以系统化与扩展[^courtois2009]。模型强调康复是渐进过程，通常按顺序推进三个关键阶段，并根据个体耐受度在阶段间灵活往返。
 
 ## 三个阶段
 
 ### 阶段 1：安全与稳定（Safety and Stabilization）
+
+一句话摘要：先稳住，再处理——所有后续工作以安全与调节能力为前提。
 
 **目标** ：建立安全感、稳定情绪与恢复日常功能。
 
@@ -42,11 +58,13 @@ comments: true
 
 **持续时间** ：因人而异，可能需要数月甚至数年。
 
-**重要提醒** ：在安全与稳定尚未建立前，不应进入创伤加工阶段。过早进行创伤加工可能导致再创伤化（re-traumatization）。
+**重要提醒** ：在安全与稳定尚未建立前，不应进入创伤加工阶段。过早进行创伤加工可能导致再创伤化（re‑traumatization）。临床上建议在可耐受范围（“安全窗口”，window of tolerance）内推进，以降低失稳风险[^siegel1999]。
 
 ---
 
 ### 阶段 2：创伤记忆加工（Trauma Processing）
+
+一句话摘要：在“安全窗口”内，逐步加工创伤记忆与相关意义。
 
 **目标** ：在安全的治疗环境中处理创伤记忆，整合解离的情绪与经历。
 
@@ -68,12 +86,19 @@ comments: true
 **风险管理** ：
 
 - 创伤加工可能暂时增加痛苦与解离症状
-- 治疗师需密切监控治疗耐受度（window of tolerance）
-- 必要时可暂停，返回阶段 1 进行稳定
+- 治疗师需密切监控治疗耐受度（window of tolerance），必要时暂停并返回阶段 1 稳定[^siegel1999]
+
+!!! info "诊断系统与适用范围（DSM‑5‑TR vs ICD‑11）"
+
+    - DSM‑5‑TR 未单列 CPTSD 诊断，主要讨论 PTSD；“复杂创伤”更多作为临床概念处理。
+    - ICD‑11 明确区分 PTSD 与 **CPTSD**（含“自我组织障碍”成分：情绪调节、负性自我概念、人际困难）。
+    - 对于呈现显著 DSO 特征的来访者，阶段 2 的暴露/加工比重与节奏需更谨慎，往往先在阶段 1 巩固调节能力与人际支持，再逐步过渡至安全可耐受的记忆加工[^whoicd11][^apa2022]。
 
 ---
 
 ### 阶段 3：整合与重建（Integration and Reconnection）
+
+一句话摘要：把康复带回生活——关系修复、身份重建与持续成长。
 
 **目标** ：发展新的自我认同，重建人际关系与社会功能。
 
@@ -100,7 +125,7 @@ comments: true
 - **意义重建** :
 
     - 探索创伤经历的意义
-    - 可能的创伤后成长（Post-Traumatic Growth）
+    - 可能的[创伤后成长（Post‑Traumatic Growth）](Post-Traumatic-Growth-PTG.md)
 
 **持续时间** ：可能持续数年，是终生的康复过程。
 
@@ -124,12 +149,12 @@ comments: true
 
 - 详见 [内部沟通（Internal Communication）](Internal-Communication.md)
 
-### 整合 vs 协作
+### 整合（Fusion）与功能性整合（Functional Integration）
 
-- **整合（Fusion）** : 成员合并，减少身份分离
-- **协作（Cooperation）** : 成员保持独立但和谐共存
+- **整合（fusion）** ：成员（部分）发生融合，身份分离显著减少或不再存在。
+- **功能性整合（functional integration）** ：成员保持区分但具有稳定合作、共享信息与协调前台的能力。
 
-- 两者都是有效的康复目标，取决于系统意愿
+两者皆为合法的康复目标，具体取决于系统意愿与功能需求。阶段性治疗的指南强调，功能性整合已可显著改善生活质量，并非必须追求完全融合[^steele2017]。
 
 ---
 
@@ -143,6 +168,35 @@ comments: true
 
 ---
 
+## 阶段目标对照表
+
+| 阶段 | 核心目标 | 主要干预 | 关键风险/提示 |
+| --- | --- | --- | --- |
+| 阶段 1 安全与稳定 | 建立外部/内部安全、情绪调节、功能恢复 | 危机计划、接地/呼吸调节、睡眠与作息、治疗联盟 | 过早进入记忆加工易致失稳；以“安全窗口”为准[^siegel1999] |
+| 阶段 2 创伤记忆加工 | 加工记忆、整合情绪与意义 | EMDR、CPT、PE、TF‑CBT、叙事、部份工作/IFS | 痛苦反应波动；随时回到阶段 1 稳固；避免“过度暴露”[^apa2022] |
+| 阶段 3 整合与重建 | 关系修复、身份与价值重建 | 人际与依恋修复、边界训练、目标设定与复学复工、PTG | 忽视生活功能重建将影响长期维持；目标需具体可执行 |
+
+```mermaid
+flowchart LR
+  A[阶段 1 稳定/安全] --> B[阶段 2 记忆加工]
+  B --> C[阶段 3 整合/重建]
+  C --> A
+  A -- 回退/重叠 --> B
+  B -- 回退 --> A
+```
+
+---
+
+## 常见误区
+
+!!! warning "避免以下高风险做法"
+
+    - **未稳定即加工** ：在调节能力不足或缺乏安全支持时贸然进行暴露/叙事。
+    - **忽视生活功能重建** ：只关注症状减轻而忽略阶段 3 的关系与功能目标。
+    - **把“整合”误解为“必须融合”** ：功能性整合与协作是等效有效的目标[^steele2017]。
+
+---
+
 ## 相关词条
 
 - [创伤（Trauma）](Trauma.md)
@@ -151,11 +205,22 @@ comments: true
 - [接地（Grounding）](Grounding.md)
 - [解离（Dissociation）](Dissociation.md)
 - [内部沟通（Internal Communication）](Internal-Communication.md)
+- [阶段性治疗原则（Phase‑Oriented Treatment Principles）](Phase-Oriented-Treatment-Principles.md)
 
 ---
 
 ## 参考文献
 
 1. Herman, J. L. (1992). *Trauma and Recovery: The Aftermath of Violence—From Domestic Abuse to Political Terror*. Basic Books.
-2. van der Kolk, B. A. (2014). *The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma*. Viking.
-3. Courtois, C. A., & Ford, J. D. (2009). *Treating Complex Traumatic Stress Disorders: An Evidence-Based Guide*. Guilford Press.
+2. Courtois, C. A., & Ford, J. D. (2009). *Treating Complex Traumatic Stress Disorders: An Evidence‑Based Guide*. Guilford Press.
+3. Steele, K., Boon, S., & Van der Hart, O. (2017). *Treating Trauma‑Related Dissociation: A Practical, Integrative Approach*. W. W. Norton & Company.
+4. Siegel, D. J. (1999). *The Developing Mind: How Relationships and the Brain Interact to Shape Who We Are*. Guilford Press.（“安全窗口”概念）
+5. World Health Organization. (2019). *International Classification of Diseases 11th Revision (ICD‑11)*.（6B41 Complex post traumatic stress disorder）
+6. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders (5th ed., text rev.; DSM‑5‑TR).*
+7. van der Kolk, B. A. (2014). *The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma*. Viking.
+
+[^herman1992]: Herman, J. L. (1992). Trauma and Recovery. Basic Books.
+[^courtois2009]: Courtois, C. A., & Ford, J. D. (2009). Treating Complex Traumatic Stress Disorders. Guilford Press.
+[^siegel1999]: Siegel, D. J. (1999). The Developing Mind. Guilford Press —— 提出“安全窗口（window of tolerance）”。
+[^whoicd11]: WHO ICD‑11（2019）：6B41 Complex post‑traumatic stress disorder。
+[^apa2022]: DSM‑5‑TR（2022）。
