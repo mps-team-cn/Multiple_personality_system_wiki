@@ -34,9 +34,7 @@ comments: true
 
 多数研究认为，DID 被认为是早期严重创伤背景下形成的解离性适应机制，多与长期、复杂且在发展阶段发生的[创伤（Trauma）](Trauma.md)经历相关。ICD-11 将 DID 编码为 **6B64**，并与[部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](Partial-Dissociative-Identity-Disorder-PDID.md)（6B65）明确区分；DSM-5-TR 则继续使用 DID 这一诊断名称（300.14，ICD-10-CM: F44.81）。
 
-### 临床摘要（Clinician's Summary）
-
-!!! abstract "快速临床要点"
+!!! info "Clinician’s Summary｜快速临床要点"
     **诊断核心**：两个或以上身份状态（identity states，亦称人格状态）轮流控制行为 + 解离性遗忘（日常事件/重要信息）+ 显著功能损害。需排除文化/宗教实践、物质/医学状况。
 
     **首选评估路径**：临床访谈 + DES 筛查（≥30 提示进一步评估）→ SCID-D 或 DDIS 结构化确诊 → 排除器质性病因（EEG、神经心理学评估）→ 评估共病（PTSD/CPTSD、抑郁、BPD）。
