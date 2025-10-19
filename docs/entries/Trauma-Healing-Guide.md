@@ -29,6 +29,10 @@ comments: true
 !!! info "免责声明"
     本站内容仅供参考，不能替代专业诊断与治疗。SE、EMDR、DBT、CPT、TF-CBT、PE 等疗法需由合格专业人员评估并陪同实施，请勿自行进行创伤加工或暴露练习。如出现持续失眠、重度抑郁或自伤风险，请尽快联系持证专业人员。
 
+!!! danger "急性危机时的求助"
+    若出现生命危险、严重失控或难以自我保护（如强烈自伤/自杀冲动、昏迷风险），请立即拨打 **120/110** 并前往综合医院急诊/精神科。不要独自留在危险环境中。
+    参见《[危机与支援资源（Crisis & Support Resources）](Crisis-And-Support-Resources.md)》获取全国热线、城市支援与自助安全计划模板。
+
 ## 如何使用本导览
 
 1. 先评估当下状态：若仍处于高压或失控阶段，请直接前往“稳定安全”小节或查阅《[接地](Grounding.md)》等应急词条。
@@ -81,6 +85,7 @@ comments: true
 - **诊断与临床导览**（Clinical-Diagnosis-Guide.md）：快速查阅 PTSD、CPTSD、解离障碍等相关诊断信息。
 - **系统运作导览**（System-Operations-Guide.md）：在创伤加工期间协调前台轮换与内部沟通。
 - **角色与身份导览**（Roles-Identity-Guide.md）：理解保护者、照顾者等角色在疗愈过程中的功能。
+- **危机与支援资源**（Crisis-And-Support-Resources.md）：急性危机时的求助渠道与安全计划模板。
 
 ## 参考资料
 

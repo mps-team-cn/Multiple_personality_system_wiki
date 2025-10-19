@@ -11,6 +11,7 @@ updated: 2025-10-15
 
 !!! warning "紧急提醒"
     若你或伙伴正处于紧急或临床风险情境，请优先联系当地紧急服务、心理危机干预中心或持证专业人员。Multiple Personality System Wiki 旨在整理知识与经验分享，无法替代医疗或法律建议。
+    参见《[危机与支援资源（Crisis & Support Resources）](entries/Crisis-And-Support-Resources.md)》获取 24 小时热线、城市支援与自助安全计划模板。
 
 ---
 
