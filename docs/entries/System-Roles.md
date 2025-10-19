@@ -8,7 +8,7 @@ tags:
 
 topic: 角色与身份
 title: 人格职能（System Roles）
-updated: 2025-10-18
+updated: 2025-10-19
 comments: true
 description: 人格职能是多意识体与解离性身份障碍语境中描述系统成员功能性分工的概念，强调任务分配而非临床诊断分类
 search:
@@ -37,6 +37,7 @@ synonyms: ["系统角色", "人格分工", "成员职能", "角色分类"]
 | 初始 / 宿主（Original / Host）   | 承担外部生活责任、对外沟通 | 稳定、现实导向      | [宿主](Host.md)、[初始](Original.md)                |
 | 保护者（Protector）             | 安全防御、界限管理     | 警觉、理性、控制倾向   | [保护者](Protector.md)                            |
 | 迫害者（Persecutor）            | 以攻击或敌意维持系统稳定  | 自我或他人导向的敌意行为 | [迫害者](Persecutor.md)                           |
+| 内在批评者（Inner Critic）        | 自我评价/监督、维持标准    | 严苛自责、羞耻、完美主义 | [内在批评者](Inner-Critic.md)                      |
 | 记忆持有者（Memory Holder）       | 保留特定创伤记忆      | 回避外界、内向性高    | [记忆持有者](Memory-Holder.md)                      |
 | 照顾者（Caregiver）             | 情绪照料与内在支持     | 养育、安抚特质明显    | [照顾者](Caregiver.md)                            |
 | 执行者（Performer / Executive） | 完成任务与维持功能     | 效率高、情绪中性     | [执行者](Performer-Executive.md)                  |
