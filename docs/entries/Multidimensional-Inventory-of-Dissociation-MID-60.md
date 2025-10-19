@@ -13,6 +13,11 @@ hide:
 
     - toc
 
+synonyms:
+
+    - mid60
+    - 多维解离量表
+    - MID-60
 updated: 2025-10-19
 search:
   boost: 1.5
@@ -37,15 +42,18 @@ search:
     - 建议按直觉作答;尽量不要反复修改,以首次直觉为准。
     - **计分方法**:总分 = 全体 60 题均值 × 10（范围 0–100%）,临界值 >21% 表示临床显著症状。
 
+!!! success "手机导出/分享"
+
+    - 结果上方“导出图片”按钮可一键生成结果长图
+    - 手机支持系统分享；不支持分享的设备会自动下载图片
+    - 图片右下角含标识：wiki.mpsteam.cn
+
 <!-- 样式与脚本由 mkdocs.yml 的 extra_css / extra_javascript 注入 -->
 
 <div id="mid60-app" class="mid60-app">
 
 <div class="mid60-meta">
   <div class="mid60-hint">范围 0–10,步长 1(可拖动或方向键微调)</div>
-  <div class="mid60-actions">
-    <button id="mid60-reset" class="md-button">重置</button>
-  </div>
 </div>
 
 <div class="mid60-divider"></div>
@@ -426,12 +434,29 @@ search:
 <div class="mid60-divider"></div>
 
 <div id="mid60-results" class="mid60-results">
+  <div class="mid60-actions">
+    <button id="mid60-reset" class="md-button">重置</button>
+    <!-- 导出按钮由脚本自动插入 -->
+  </div>
   <div><strong>平均分</strong>:<span id="mid60-avg" class="mid60-badge">0.0</span>%</div>
   <div class="mid60-progress" aria-label="MID-60 平均分可视化" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
     <div id="mid60-bar" class="bar" style="width:0%"></div>
   </div>
   <div class="mid60-legend"><span>0</span><span>7</span><span>14</span><span>21</span><span>30</span><span>40</span><span>64</span><span>100</span></div>
   <div class="mid60-note">临床解读:<span id="mid60-level">无解离体验</span></div>
+
+  <!-- 安全提示：当 22/44/58 任一题较高时由脚本显示 -->
+  <div id="mid60-safety-alert" class="admonition warning" style="display:none">
+    <p class="admonition-title">安全提示</p>
+    <div>
+      您在自伤相关题目上分数较高（题 22/44/58）。如果当前存在自伤或自杀相关想法，请尽快寻求帮助：
+      <ul>
+        <li>24 小时心理危机热线：010-82951332（北京）</li>
+        <li>全国心理援助热线：400-161-9995</li>
+        <li>紧急情况：请拨打 120 或前往医院急诊</li>
+      </ul>
+    </div>
+  </div>
 
   <div class="mid60-divider"></div>
 
