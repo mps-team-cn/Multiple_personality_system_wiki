@@ -3,11 +3,14 @@ title: 术语表（Glossary）
 topic: 全站索引
 description: 多意识体系统（MPS）核心术语索引：涵盖解离、Tulpa、创伤疗愈、临床诊断与社群实践，提供分类导览与精准定义的专业术语表
 tags:
+
     - 索引
     - 快速导览
     - 术语表
     - 多意识体
+
 synonyms:
+
     - 术语表
     - Glossary
     - 词汇表
@@ -16,6 +19,7 @@ synonyms:
     - cihuibiao
     - MPS术语
     - 多意识体术语
+
 updated: 2025-10-14
 search:
   boost: 1.8
@@ -24,7 +28,7 @@ comments: true
 
 # 术语表（Glossary）
 
-本页汇总多意识体系统（<abbr title="Multiple Personality System">MPS</abbr>）相关的核心术语，覆盖**临床诊断**、**社群实践**与**跨域概念**，并提供指向站内词条的统一链接，方便贡献者与读者快速查找定义、来源与延伸阅读。
+本页汇总多意识体系统（<abbr title="Multiple Personality System">MPS</abbr>）相关的核心术语，覆盖 **临床诊断**、**社群实践** 与 **跨域概念**，并提供指向站内词条的统一链接，方便贡献者与读者快速查找定义、来源与延伸阅读。
 
 !!! info "使用提示"
 

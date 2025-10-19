@@ -41,7 +41,7 @@
 
 ### 内容管理与部署
 
-- Sveltia CMS（前端 CMS）→ 访问路径：`/admin`（[在线后台](https://wiki.mpsteam.cn/admin/)）
+- Sveltia CMS（前端 CMS）→ 访问路径：`/admin`([在线后台](https://wiki.mpsteam.cn/admin/))
 - Cloudflare Functions（`functions/api/auth.ts`）提供 GitHub OAuth 代理
 - Cloudflare Pages：自动构建与部署（构建脚本：`.cfpages-build.sh`）
 
@@ -93,38 +93,51 @@ Multiple_personality_system_wiki/
 ### 方式一：虚拟环境（推荐）
 
 ```bash
+
 # 1) 创建并激活虚拟环境
+
 python3 -m venv venv
 source venv/bin/activate
 
 # 2) 安装依赖
+
 pip install -r requirements.txt
 
 # 3) 本地预览（热重载）
+
 mkdocs serve
+
 # 访问：http://127.0.0.1:8000
+
 ```
 
 ### 方式二：使用 uv（已提供 uv.lock）
 
 ```bash
+
 # 安装依赖并创建隔离环境
+
 uv sync
 
 # 运行本地预览
+
 uv run mkdocs serve
 ```
 
 ### 构建静态站点
 
 ```bash
+
 # 标准构建（输出到 site/）
+
 mkdocs build
 
 # 严格模式（有警告即失败）
+
 mkdocs build --strict
 
 # 使用 uv 运行
+
 uv run mkdocs build --strict
 ```
 
@@ -193,4 +206,3 @@ Build output directory: site
 如果喜欢这个项目，请给个 Star ⭐
 
 [![Star History Chart](https://api.star-history.com/svg?repos=mps-team-cn/Multiple_personality_system_wiki&type=Date)](https://star-history.com/#mps-team-cn/Multiple_personality_system_wiki&Date)
-
