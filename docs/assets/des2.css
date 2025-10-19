@@ -56,7 +56,7 @@
   column-gap: .5rem;
   row-gap: .25rem;
   /* 统一滑块与徽标的微小垂直偏移，确保两者视觉居中一致 */
-  --slider-offset-y: .08rem; /* 与 input 的 --r-thumb-offset-y 保持一致 */
+  --slider-offset-y: .13rem; /* 与 input 的 --r-thumb-offset-y 保持一致 */
   /* 隐藏容器内的裸露文本（用于隐藏行内的 % 符号），
      再由徽章 ::after 追加 %，避免在移动端换行错位 */
   font-size: 0;

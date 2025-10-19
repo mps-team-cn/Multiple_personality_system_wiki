@@ -105,7 +105,7 @@
   column-gap: .5rem;
   row-gap: .25rem;
   /* 与 DES-II 一致：统一滑块与徽标的垂直偏移 */
-  --slider-offset-y: .08rem;
+  --slider-offset-y: .13rem;
   font-size: 0;
 }
 
