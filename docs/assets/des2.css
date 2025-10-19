@@ -30,6 +30,7 @@
   background: color-mix(in srgb, var(--md-primary-fg-color) 5%, transparent);
   padding: .55rem .6rem;
   vertical-align: middle;
+  overflow: hidden; /* 避免子元素溢出圆角 */
 }
 
 [data-md-color-scheme="slate"] .des2-item td {
@@ -49,15 +50,63 @@
 }
 
 .des2-ctrl {
-  display: inline-flex;
+  display: grid;
+  grid-template-columns: minmax(12.5rem, 1fr) auto;
   align-items: center;
-  gap: .5rem;
+  column-gap: .5rem;
+  row-gap: .25rem;
+  /* 统一滑块与徽标的微小垂直偏移，确保两者视觉居中一致 */
+  --slider-offset-y: .13rem; /* 与 input 的 --r-thumb-offset-y 保持一致 */
   /* 隐藏容器内的裸露文本（用于隐藏行内的 % 符号），
      再由徽章 ::after 追加 %，避免在移动端换行错位 */
   font-size: 0;
 }
 
-.des2-ctrl input[type="range"] { width: 12.5rem; }
+.des2-ctrl input[type="range"] { width: 100%; min-width: 12.5rem; touch-action: pan-y; }
+
+/* 统一轨道/拇指尺寸，便于跨浏览器垂直居中 */
+.des2-ctrl input[type="range"] {
+  --r-track-h: .56rem;
+  --r-thumb-d: 1.1rem;
+  --r-thumb-offset-y: var(--slider-offset-y, .08rem); /* 继承容器偏移 */
+}
+
+/* 更易触控的滑块外观 */
+.des2-ctrl input[type="range"]::-webkit-slider-runnable-track {
+  height: var(--r-track-h);
+  border-radius: .6rem;
+  background: color-mix(in srgb, var(--md-default-fg-color) 18%, transparent);
+}
+.des2-ctrl input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: var(--r-thumb-d);
+  height: var(--r-thumb-d);
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 90%, #fff);
+  border: 2px solid color-mix(in srgb, var(--md-primary-fg-color) 65%, transparent);
+  margin-top: calc((var(--r-track-h) - var(--r-thumb-d)) / 2 + var(--r-thumb-offset-y));
+  box-shadow: 0 1px 2px rgba(0,0,0,.12);
+}
+.des2-ctrl input[type="range"]::-moz-range-track {
+  height: var(--r-track-h);
+  border-radius: .6rem;
+  background: color-mix(in srgb, var(--md-default-fg-color) 18%, transparent);
+}
+.des2-ctrl input[type="range"]::-moz-range-thumb {
+  width: var(--r-thumb-d);
+  height: var(--r-thumb-d);
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 90%, #fff);
+  border: 2px solid color-mix(in srgb, var(--md-primary-fg-color) 65%, transparent);
+  box-shadow: 0 1px 2px rgba(0,0,0,.12);
+  transform: translateY(var(--r-thumb-offset-y));
+}
+
+/* 滑块刻度（由 JS 生成） */
+.des2-slider-wrap { display: grid; row-gap: 0; width: 100%; }
+/* 取消刻度：全端隐藏，兼容旧 DOM */
+.des2-marks { display: none !important; }
 
 .des2-badge {
   display: inline-flex;
@@ -68,9 +117,10 @@
   color: var(--md-primary-fg-color);
   padding: .15rem .5rem;
   border-radius: .5rem;
-  min-width: 3.8rem;
+  width: 4.2rem; /* 固定宽度，按最大值 100% 适配 */
   justify-content: center;
   font-size: .95rem; /* 恢复字体尺寸 */
+  transform: translateY(var(--slider-offset-y, 0));
 }
 
 /* 在徽章中统一渲染 %，避免额外文本节点导致的换行 */
@@ -185,7 +235,7 @@
   }
 
   .des2-badge {
-    min-width: 2.4rem;
+    width: 4.2rem; /* 移动端同样保持固定宽度 */
     padding: .1rem .35rem;
     font-size: .9rem;
   }
@@ -204,30 +254,50 @@
 /* 更窄屏进一步优化：切换卡片式布局 */
 @media (max-width: 600px) {
   /* 切换为卡片式堆叠布局：描述独占一行，滑块下置 */
+  /* 将题号放到卡片内显示（使用 CSS 计数器） */
+  .des2-table tbody { counter-reset: des2; }
   .des2-table thead { display: none; }
-  .des2-table { border-spacing: 0 .65rem; width: 100% !important; }
+  /* 适当增大行间距，卡片更疏朗 */
+  .des2-table { border-spacing: 0 .85rem; width: 100% !important; }
   /* 关闭列宽定义，避免 colgroup 固定宽度造成右侧留白 */
   .des2-table colgroup, .des2-table colgroup col { display: none !important; width: auto !important; }
   .des2-table tr.des2-item { display: block; }
   .des2-table td { display: block; width: 100% !important; }
 
-  .des2-item td { border-radius: 0; }
-  .des2-item td:first-child {
-    border-radius: .6rem .6rem 0 0;
-    width: auto;
-    display: inline-block;
-    background: transparent; /* 让编号单独显示，不占满一行背景 */
-    padding-bottom: .2rem;
+  /* 每个题目块之间增加外边距，避免视觉拥挤 */
+  .des2-item { margin: 0 0 .85rem 0; }
+  .des2-item td { border-radius: 0; padding: .6rem .6rem; }
+  /* 隐藏原第一列数字 */
+  .des2-item td:first-child { display: none !important; }
+  /* 题号徽标：用伪元素添加到描述卡片左上角 */
+  /* 徽标与题目间距加大，提升辨识度 */
+  .des2-item td:nth-child(2) { position: relative; padding-left: 2.8rem; }
+  .des2-item td:nth-child(2)::before {
+    counter-increment: des2;
+    content: counter(des2);
+    position: absolute;
+    top: .55rem;
+    left: .6rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.6rem;
+    min-width: 1.6rem;
+    height: 1.3rem;
+    padding: 0 .25rem;
+    border-radius: .4rem;
+    background: color-mix(in srgb, var(--md-primary-fg-color) 16%, transparent);
     color: var(--md-primary-fg-color);
-    font-weight: 600;
+    font-weight: 700;
+    line-height: 1;
+    box-shadow: 0 1px 2px rgba(0,0,0,.08);
   }
-  .des2-item td:nth-child(2) {
-    border-radius: .6rem .6rem 0 0;
-  }
+  .des2-item td:nth-child(2) { border-radius: .6rem .6rem 0 0; }
   .des2-item td:last-child {
     border-top: 1px solid color-mix(in srgb, var(--md-default-fg-color) 12%, transparent);
     border-radius: 0 0 .6rem .6rem;
     width: 100% !important;
+    padding-top: .7rem; /* 题目与滑块区垂直间距增大 */
   }
 
   /* 滑块区改为全宽两列：滑块 + 数值 */
@@ -235,8 +305,9 @@
     display: grid;
     grid-template-columns: 1fr auto;
     gap: .45rem .5rem;
+    align-items: center; /* 取消 start，改为居中与徽标对齐 */
   }
   .des2-ctrl input[type="range"] { width: 100%; min-width: 0; }
-  .des2-badge { min-width: 2.6rem; justify-self: end; }
+  .des2-badge { width: 4.2rem; justify-self: end; align-self: center; }
   .des2-subgrid { grid-template-columns: 1fr; }
 }

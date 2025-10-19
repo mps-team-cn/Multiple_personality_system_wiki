@@ -27,6 +27,16 @@
     const out = qs('output, .mid60-badge', item);
     if (!input || !out) return;
 
+    // 清理历史遗留的刻度包装（若存在则移除 wrapper 与 marks）
+    try {
+      const p = input.parentElement;
+      if (p && p.classList && p.classList.contains('mid60-slider-wrap')) {
+        const host = p.parentElement || item;
+        host.insertBefore(input, p);
+        p.remove();
+      }
+    } catch (_) { /* ignore */ }
+
     // 为滑块添加可访问性属性
     const itemNumber = input.id.replace('item', '');
     const questionText = item.querySelector('td:nth-child(2)')?.textContent?.trim() || '';
@@ -35,90 +45,13 @@
       input.setAttribute('tabindex', '0');
     }
 
-    // 限制交互：仅允许拖动改变数值（禁用滚轮与键盘调整）
-    try {
-      // 禁用鼠标滚轮改变数值
-      input.addEventListener('wheel', (e) => {
-        e.preventDefault();
-      }, { passive: false });
+    // 交互策略（Android/MUI/Ant 风格）：
+    // - 允许点击轨道跳转
+    // - 支持拖动
+    // - 保留页面纵向滚动优先（见 CSS touch-action: pan-y）
+    // 不再阻止键盘/轨道点击等默认行为
 
-      // 禁用键盘调整（方向键、Home/End、PageUp/PageDown、+/-）
-      input.addEventListener('keydown', (e) => {
-        const k = e.key;
-        if (
-          k === 'ArrowLeft' || k === 'ArrowRight' ||
-          k === 'ArrowUp' || k === 'ArrowDown' ||
-          k === 'Home' || k === 'End' ||
-          k === 'PageUp' || k === 'PageDown' ||
-          k === '+' || k === '-'
-        ) {
-          e.preventDefault();
-          e.stopPropagation();
-        }
-      });
-    } catch (_) { /* 忽略环境差异 */ }
-
-    // 限制交互：禁止点击轨道直接跳值（需要最小拖拽位移）
-    (function enforceDragOnly(el) {
-      const STATE = {
-        down: false,
-        moved: false,
-        startX: 0,
-        startVal: String(el.value || '0'),
-        pid: null,
-      };
-      const THRESHOLD = 5; // 像素阈值，超过视为拖动
-
-      // 捕获阶段拦截 click：若未发生有效拖动，则还原数值并阻止默认跳转
-      el.addEventListener('click', (e) => {
-        if (!STATE.moved) {
-          e.preventDefault();
-          e.stopPropagation();
-          if (el.value !== STATE.startVal) {
-            el.value = STATE.startVal;
-            el.dispatchEvent(new Event('input', { bubbles: true }));
-          }
-        }
-        STATE.down = false;
-        STATE.moved = false;
-        STATE.pid = null;
-      }, true);
-
-      const onPointerDown = (e) => {
-        STATE.down = true;
-        STATE.moved = false;
-        STATE.startX = e.clientX || 0;
-        STATE.startVal = String(el.value || '0');
-        if (e.pointerId != null) STATE.pid = e.pointerId;
-      };
-
-      const onPointerMove = (e) => {
-        if (!STATE.down) return;
-        if (STATE.pid != null && e.pointerId != null && e.pointerId !== STATE.pid) return;
-        const dx = Math.abs((e.clientX || 0) - STATE.startX);
-        if (dx > THRESHOLD) STATE.moved = true;
-      };
-
-      const onPointerUpCancel = () => {
-        STATE.down = false;
-        STATE.pid = null;
-      };
-
-      // Pointer Events 优先
-      el.addEventListener('pointerdown', onPointerDown);
-      el.addEventListener('pointermove', onPointerMove);
-      el.addEventListener('pointerup', onPointerUpCancel);
-      el.addEventListener('pointercancel', onPointerUpCancel);
-
-      // 兼容旧浏览器：鼠标 & 触摸
-      el.addEventListener('mousedown', (e) => onPointerDown(e));
-      el.addEventListener('mousemove', (e) => onPointerMove(e));
-      window.addEventListener('mouseup', onPointerUpCancel);
-      el.addEventListener('touchstart', (e) => onPointerDown(e.touches[0] || e));
-      el.addEventListener('touchmove', (e) => onPointerMove(e.touches[0] || e));
-      window.addEventListener('touchend', onPointerUpCancel);
-      window.addEventListener('touchcancel', onPointerUpCancel);
-    })(input);
+    // 已取消刻度（marks），保留原生轨道点击与拖动交互
 
     const update = () => {
       // MID-60: 0-10 转换为 0-100 百分比

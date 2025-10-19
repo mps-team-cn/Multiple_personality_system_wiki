@@ -73,7 +73,7 @@ search:
   <colgroup>
     <col style="width:2.2rem">
     <col>
-    <col style="width:17rem">
+    <col style="width:19rem"> <!-- 桌面端更宽，容纳 12.5rem 滑块 + 4.2rem 徽标 + 间距 -->
   </colgroup>
   <thead>
     <tr><th scope="col">#</th><th scope="col">描述</th><th scope="col">比例（%）</th></tr>
