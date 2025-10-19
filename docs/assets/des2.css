@@ -62,31 +62,37 @@
 
 .des2-ctrl input[type="range"] { width: 100%; min-width: 12.5rem; touch-action: pan-y; }
 
+/* 统一轨道/拇指尺寸，便于跨浏览器垂直居中 */
+.des2-ctrl input[type="range"] {
+  --r-track-h: .56rem;
+  --r-thumb-d: 1.1rem;
+}
+
 /* 更易触控的滑块外观 */
 .des2-ctrl input[type="range"]::-webkit-slider-runnable-track {
-  height: .6rem;
+  height: var(--r-track-h);
   border-radius: .6rem;
   background: color-mix(in srgb, var(--md-default-fg-color) 18%, transparent);
 }
 .des2-ctrl input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 1.1rem;
-  height: 1.1rem;
+  width: var(--r-thumb-d);
+  height: var(--r-thumb-d);
   border-radius: 50%;
   background: color-mix(in srgb, var(--md-primary-fg-color) 90%, #fff);
   border: 2px solid color-mix(in srgb, var(--md-primary-fg-color) 65%, transparent);
-  margin-top: -.25rem;
+  margin-top: calc((var(--r-track-h) - var(--r-thumb-d)) / 2);
   box-shadow: 0 1px 2px rgba(0,0,0,.12);
 }
 .des2-ctrl input[type="range"]::-moz-range-track {
-  height: .6rem;
+  height: var(--r-track-h);
   border-radius: .6rem;
   background: color-mix(in srgb, var(--md-default-fg-color) 18%, transparent);
 }
 .des2-ctrl input[type="range"]::-moz-range-thumb {
-  width: 1.1rem;
-  height: 1.1rem;
+  width: var(--r-thumb-d);
+  height: var(--r-thumb-d);
   border-radius: 50%;
   background: color-mix(in srgb, var(--md-primary-fg-color) 90%, #fff);
   border: 2px solid color-mix(in srgb, var(--md-primary-fg-color) 65%, transparent);
@@ -118,6 +124,12 @@
   line-height: 1;
   margin-top: .1rem;
   color: color-mix(in srgb, var(--md-default-fg-color) 75%, transparent);
+}
+
+/* 桌面端隐藏刻度，仅移动端显示 */
+@media (min-width: 1024px) {
+  .des2-marks { display: none !important; }
+  .des2-slider-wrap { row-gap: 0; }
 }
 
 .des2-badge {
