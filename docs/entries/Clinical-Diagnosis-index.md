@@ -15,6 +15,7 @@ hide:
 
 ## 词条一览
 
+- [定向障碍（Disorientation）](Disorientation.md) — *2025-10-19*
 - [解离经验量表（Dissociative Experiences Scale‑II, DES‑II）](Dissociative-Experiences-Scale-DES-II.md) — *2025-10-19*
 - [多维解离量表（MID‑60）](Multidimensional-Inventory-of-Dissociation-MID-60.md) — *2025-10-19*
 - [睡眠相关呼吸障碍（Breathing-Related Sleep Disorders）](Breathing-Related-Sleep-Disorders.md) — *2025-10-18*
@@ -59,7 +60,6 @@ hide:
 - [烟草相关障碍（Tobacco-Related Disorders）](Tobacco-Related-Disorders.md) — *2025-10-16*
 - [短期精神病性障碍（Brief Psychotic Disorder, BPD）](Brief-Psychotic-Disorder.md) — *2025-10-15*
 - [妄想障碍（Delusional Disorder）](Delusional-Disorder.md) — *2025-10-15*
-- [定向障碍（Disorientation）](Disorientation.md) — *2025-10-15*
 - [抓痕障碍（Excoriation，Skin-Picking Disorder）](Excoriation-Skin-Picking-Disorder.md) — *2025-10-15*
 - [囤积障碍（Hoarding Disorder，HD）](Hoarding-Disorder.md) — *2025-10-15*
 - [疾病焦虑障碍(Illness Anxiety Disorder,IAD)](Illness-Anxiety-Disorder.md) — *2025-10-15*
