@@ -252,7 +252,7 @@
     if (!exportBtn) {
       exportBtn = document.createElement('button');
       exportBtn.id = 'mid60-export';
-      exportBtn.className = 'md-button';
+      exportBtn.className = 'md-button md-button--primary';
       exportBtn.type = 'button';
       exportBtn.textContent = '导出图片';
       actions.appendChild(exportBtn);

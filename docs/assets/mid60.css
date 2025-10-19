@@ -17,6 +17,56 @@
   flex-wrap: wrap;
 }
 
+/* 操作区按钮统一样式（更贴近主流 UI） */
+.mid60-actions .md-button {
+  border-radius: .6rem;
+  padding: .55rem .95rem;
+  font-weight: 600;
+  line-height: 1.1;
+  border: 1px solid transparent;
+  transition: transform .08s ease, box-shadow .12s ease, background-color .15s ease, color .15s ease;
+  box-shadow: 0 1px 2px rgba(0,0,0,.06);
+}
+
+/* 主要操作：导出 */
+.mid60-actions #mid60-export,
+.mid60-actions .md-button--primary {
+  background: linear-gradient(180deg,
+      color-mix(in srgb, var(--md-primary-fg-color) 88%, transparent),
+      var(--md-primary-fg-color));
+  color: #fff;
+}
+.mid60-actions #mid60-export:hover,
+.mid60-actions .md-button--primary:hover {
+  filter: brightness(1.05);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,.12);
+}
+.mid60-actions #mid60-export:active,
+.mid60-actions .md-button--primary:active {
+  transform: translateY(0);
+  filter: brightness(.98);
+}
+
+/* 次要操作：重置（描边按钮） */
+.mid60-actions #mid60-reset {
+  background: transparent;
+  color: var(--md-primary-fg-color);
+  border-color: color-mix(in srgb, var(--md-primary-fg-color) 65%, transparent);
+}
+.mid60-actions #mid60-reset:hover {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 10%, transparent);
+}
+.mid60-actions #mid60-reset:active {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 14%, transparent);
+}
+
+/* 键盘可访问性 */
+.mid60-actions .md-button:focus-visible {
+  outline: 0;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-primary-fg-color) 24%, transparent);
+}
+
 /* 表格样式 */
 .mid60-table {
   width: 100%;
