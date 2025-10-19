@@ -18,6 +18,7 @@ synonyms:
     - mid60
     - 多维解离量表
     - MID-60
+
 updated: 2025-10-19
 search:
   boost: 1.5
@@ -459,8 +460,6 @@ search:
   </div>
 
   <div class="mid60-divider"></div>
-
-
 
   <!-- 诊断分类子量表 -->
   <div class="mid60-section-title">解离性身份障碍（DID）</div>
