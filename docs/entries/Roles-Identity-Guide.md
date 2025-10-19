@@ -40,6 +40,7 @@ search:
 - 🧑‍💼 [宿主（Host）](Host.md)：长期负责前台与社会功能。
 - ⚙️ [管理者（Admin）](Admin.md)：协调内部规则与资源调度。
 - 🌐 [主体（Main）](Main.md)：主要执行者，未必等同宿主。
+- 🧭 [主导（Dominant / Lead）](Dominant-Lead.md)：语境映射用语；HT ≈ 宿主，非 HT ≈ 执行者。
 - 🪞 [伪主体（Fauxmain）](Fauxmain.md)：临时承担主体职责。
 - 🌱 [初始（Original）](Original.md)：系统中最早或被认为“原始”的身份。
 - 💠 [核心（Core）](Core.md)：象征系统中心意识或整合方向。

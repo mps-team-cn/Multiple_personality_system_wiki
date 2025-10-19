@@ -216,6 +216,7 @@
         * [埃蒙加德分类法（Emmengard Classification）](entries/Emmengard-Classification.md)
         * [守门人（Gatekeeper）](entries/Gatekeeper.md)
         * [宿主（Host）](entries/Host.md)
+        * [主导（Dominant / Lead）](entries/Dominant-Lead.md)
         * [幻想伙伴（Imaginary Companion）](entries/Imaginary-Companion.md)
         * [异化/偏离（Deviation）](entries/Deviation.md)
         * [引入者（Introject）](entries/Introject.md)
