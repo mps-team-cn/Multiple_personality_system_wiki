@@ -205,6 +205,7 @@
         * [保护者（Protector）](entries/Protector.md)
         * [傀儡（Servitor）](entries/Servitor.md)
         * [儿童人格（Little / Child Alter）](entries/Child-Alter.md)
+        * [内在批评者（Inner Critic）](entries/Inner-Critic.md)
         * [内部自助者（Internal Self Helper，ISH）](entries/Internal-Self-Helper-ISH.md)
         * [创伤持有者（Trauma Holder）](entries/Trauma-Holder.md)
         * [创造者（Creative）](entries/Creative.md)

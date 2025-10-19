@@ -15,6 +15,7 @@ hide:
 
 ## 词条一览
 
+- [内在家庭系统疗法（Internal Family Systems, IFS）](Internal-Family-Systems-IFS.md) — *2025-10-19*
 - [自我照护工具箱](Self-Care-Toolkit.md) — *2025-10-19*
 - [接地（Grounding）](Grounding.md) — *2025-10-18*
 - [冥想(Meditation)](Meditation.md) — *2025-10-17*
@@ -24,7 +25,6 @@ hide:
 - [认知加工疗法（Cognitive Processing Therapy, CPT）](Cognitive-Processing-Therapy-CPT.md) — *2025-10-13*
 - [辩证行为疗法（Dialectical Behavior Therapy, DBT）](Dialectical-Behavior-Therapy-DBT.md) — *2025-10-13*
 - [眼动脱敏与再加工（Eye Movement Desensitization and Reprocessing, EMDR）](Eye-Movement-Desensitization-Reprocessing-EMDR.md) — *2025-10-13*
-- [内在家庭系统疗法（Internal Family Systems, IFS）](Internal-Family-Systems-IFS.md) — *2025-10-13*
 - [延长暴露疗法（Prolonged Exposure Therapy, PE）](Prolonged-Exposure-Therapy-PE.md) — *2025-10-13*
 - [感官调节策略（Sensory Regulation Strategies）](Sensory-Regulation-Strategies.md) — *2025-10-13*
 - [躯体经验疗法（Somatic Experiencing, SE）](Somatic-Experiencing-SE.md) — *2025-10-13*

@@ -15,7 +15,7 @@ synonyms:
     - 拟态成员
 
 description: 基于外部人物（真实或虚构）形成的系统成员，可能具有该人物的特征、语言风格或行为模式
-updated: 2025-10-17
+updated: 2025-10-19
 comments: true
 ---
 

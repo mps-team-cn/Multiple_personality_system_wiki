@@ -15,7 +15,7 @@ hide:
 
 ## 词条一览
 
-- [情绪调节（Emotion Regulation）](Emotion-Regulation.md) — *2025-10-18*
+- [情绪调节（Emotion Regulation）](Emotion-Regulation.md) — *2025-10-19*
 - [多意识体系统中的创伤功能分化（Functional Dissociation of Trauma in Plural Systems）](Functional-Dissociation-of-Trauma-in-Plural-Systems.md) — *2025-10-17*
 - [情感障碍（Mood Disorders）](Mood-Disorders.md) — *2025-10-14*
 - [依恋理论（Attachment Theory）](Attachment-Theory.md) — *2025-10-13*
