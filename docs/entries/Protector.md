@@ -68,6 +68,7 @@ comments: true
 - [照顾者（Caregiver）](Caregiver.md)
 - [守门人（Gatekeeper）](Gatekeeper.md)
 - [迫害者（Persecutor）](Persecutor.md)
+- [内在批评者（Inner Critic）](Inner-Critic.md)
 - [人格职能（System Roles）](System-Roles.md)
 - [执行者（Performer / Executive）](Performer-Executive.md)
 - [儿童人格（Little / Child Alter）](Child-Alter.md)
