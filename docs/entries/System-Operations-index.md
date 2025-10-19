@@ -2,15 +2,11 @@
 title: 系统运作
 topic: 系统运作
 tags:
-
-    - 索引
-    - 主题导览
-
+  - 索引
+  - 主题导览
 comments: true
 hide:
-
-    - toc
-
+  - toc
 ---
 
 # 系统运作
@@ -35,7 +31,7 @@ hide:
 - [记忆屏蔽（Memory Shielding）](Memory-Shielding.md) — *2025-10-18*
 - [混合型系统（Mixed Systems, Xianyu Theory）](Mixed-Systems-Xianyu.md) — *2025-10-18*
 - [多意识体系统（Multiple Personality System）](Multiple_Personality_System.md) — *2025-10-18*
-- [权限（Permissions）](Permissions.md) — *2025-10-18*
+- [权限(Permissions)](Permissions.md) — *2025-10-18*
 - [附体（Possession）](Possession.md) — *2025-10-18*
 - [重构（Reconstruction）](Reconstruction.md) — *2025-10-18*
 - [存在感（Sense of Presence）](Sense-Of-Presence.md) — *2025-10-18*
@@ -44,14 +40,14 @@ hide:
 - [系魂型系统（Soul-Linked Systems, Xianyu Theory）](Soul-Linked-Systems-Xianyu.md) — *2025-10-18*
 - [结构性解离理论（Theory of Structural Dissociation of the Personality, TSDT）](Structural-Dissociation-Theory.md) — *2025-10-18*
 - [切换（Switch）](Switch.md) — *2025-10-18*
-- [系统（System）](System.md) — *2025-10-18*
+- [系统(System)](System.md) — *2025-10-18*
 - [触发（Trigger）](Trigger.md) — *2025-10-18*
-- [T 语（Tulpish）](Tulpish.md) — *2025-10-18*
+- [T 语(Tulpish)](Tulpish.md) — *2025-10-18*
 - [内视（Visualization / Imagination）](Visualization-Imagination.md) — *2025-10-18*
 - [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](Xianyu-Theory-Niche-Classification.md) — *2025-10-18*
 - [失忆（Amnesia）](Amnesia.md) — *2025-10-17*
 - [独有记忆（Exomemory）](Exomemory.md) — *2025-10-17*
-- [卡前台（Front Stuck / Frontstuck）](Frontstuck.md) — *2025-10-17*
+- [卡前台(Front Stuck / Frontstuck)](Frontstuck.md) — *2025-10-17*
 - [融合（Fusion）](Fusion.md) — *2025-10-17*
 - [整合（Integration）](Integration.md) — *2025-10-17*
 - [内部沟通（Internal Communication）](Internal-Communication.md) — *2025-10-17*

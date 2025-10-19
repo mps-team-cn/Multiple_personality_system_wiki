@@ -6,7 +6,7 @@ tags:
 topic: 系统运作
 title: 系统运作导览
 description: 按“系统运作”主题整合前台调度、切换管理、意识与记忆协作、结构治理与外部互动的核心词条，提供可扫描导航与安全实践提示。
-updated: 2025-10-18
+updated: 2025-10-19
 comments: true
 search:
   boost: 1.5
