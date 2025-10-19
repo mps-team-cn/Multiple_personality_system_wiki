@@ -98,6 +98,9 @@ comments: true
   [解离经验量表（DES‑II）](Dissociative-Experiences-Scale-DES-II.md) — :octicons-check-16: 已完成
   在线交互式自评（不存储数据），自动计算总均分并给出可视化参考，适合初步筛查与自我观察。
 
+  [多维解离量表（MID‑60）](Multidimensional-Inventory-of-Dissociation-MID-60.md) — :octicons-check-16: 已完成
+  在线交互式自评（不存储数据），提供 12 个解离子量表的详细评估，包括 DID、OSDD-1、DP/DR、解离性失忆、PTSD、转换障碍等维度，适合多维度筛查与症状模式分析。
+
 ---
 
 ## DSM-5-TR 诊断分类体系
