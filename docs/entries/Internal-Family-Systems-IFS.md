@@ -374,6 +374,7 @@ IFS 支持 **任何形式的康复**：
 - [延长暴露疗法（PE）](Prolonged-Exposure-Therapy-PE.md)
 - [认知加工疗法（CPT）](Cognitive-Processing-Therapy-CPT.md)
 - [眼动脱敏与再加工（EMDR）](Eye-Movement-Desensitization-Reprocessing-EMDR.md)
+- [内在批评者（Inner Critic）](Inner-Critic.md)
 
 ---
 

@@ -125,6 +125,7 @@ updated: 2025-10-19
 - [非我感（Not-Me Feeling）](Not-Me-Feeling.md)
 - [人格解体与现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)
 - [创伤（Trauma）](Trauma.md)
+- [内在批评者（Inner Critic）](Inner-Critic.md)
 
 ---
 

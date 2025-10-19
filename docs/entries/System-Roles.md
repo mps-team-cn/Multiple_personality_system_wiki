@@ -124,7 +124,7 @@ Plural 社群与支持团体使用"角色"概念以协调合作与任务分配�
 
 ## 相关条目
 
-- [宿主（Host）](Host.md) · [保护者（Protector）](Protector.md) · [迫害者（Persecutor）](Persecutor.md)
+- [宿主（Host）](Host.md) · [保护者（Protector）](Protector.md) · [迫害者（Persecutor）](Persecutor.md) · [内在批评者（Inner Critic）](Inner-Critic.md)
 - [照顾者（Caregiver）](Caregiver.md) · [记忆持有者（Memory Holder）](Memory-Holder.md)
 - [儿童人格（Child Alter）](Child-Alter.md) · [青少年意识体（Teen Part）](Teen-Alter.md)
 - [执行者（Performer / Executive）](Performer-Executive.md) · [初始（Original）](Original.md)

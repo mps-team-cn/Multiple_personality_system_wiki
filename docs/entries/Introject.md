@@ -174,6 +174,7 @@ comments: true
 - [成员（Alter）](Alter.md)
 - [保护者（Protector）](Protector.md)
 - [迫害者（Persecutor）](Persecutor.md)
+- [内在批评者（Inner Critic）](Inner-Critic.md)
 - [创伤持有者（Trauma Holder）](Trauma-Holder.md)
 
 ### 身份类型

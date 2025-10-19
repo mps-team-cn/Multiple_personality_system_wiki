@@ -161,6 +161,7 @@ Gross情绪生成过程模型的时间线可表示为:
 - [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)
 - [人格结构理论（Personality Structure Theory, Freud）](Personality-Structure-Theory.md)
 - [人本主义心理学（Humanistic Psychology）](Humanistic-Psychology.md)
+- [内在批评者（Inner Critic）](Inner-Critic.md)
 
 ## 参考与延伸阅读
 
