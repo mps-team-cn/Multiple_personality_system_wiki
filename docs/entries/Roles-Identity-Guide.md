@@ -34,6 +34,7 @@ comments: true
 - [守门人（Gatekeeper）](Gatekeeper.md)：管理前台切换与记忆访问权限。
 - [保护者（Protector）](Protector.md)：守护系统安全、处理外部威胁。
 - [迫害者（Persecutor）](Persecutor.md)：看似对抗系统，实则源自扭曲的自我保护机制。
+- [内在批评者（Inner Critic）](Inner-Critic.md)：批评性自我/评价功能；可能在创伤情境下具防御与人格化特征。
 - [傀儡（Servitor）](Servitor.md)：具备特定功能、可被指派任务的工具型意识体。
 
 ## 照护与支持网络

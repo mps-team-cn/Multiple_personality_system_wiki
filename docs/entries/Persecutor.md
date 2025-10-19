@@ -90,6 +90,7 @@ search:
 
 - [保护者（Protector）](Protector.md)
 - [人格职能（System Roles）](System-Roles.md)
+- [内在批评者（Inner Critic）](Inner-Critic.md)
 - [照顾者（Caregiver）](Caregiver.md)
 - [儿童人格（Little / Child Alter）](Child-Alter.md)
 - [执行者（Performer / Executive）](Performer-Executive.md)
