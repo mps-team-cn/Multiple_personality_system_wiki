@@ -110,8 +110,8 @@ comments: true
 
 ### 筛查工具
 
-- **DES-II**（Dissociative Experiences Scale-II，解离体验量表）：最常用的自评筛查工具
-- **MID/MID-60**（Multidimensional Inventory of Dissociation，多维解离量表）：更详细的多维度评估
+- **[DES-II](Dissociative-Experiences-Scale-DES-II.md)**（Dissociative Experiences Scale-II，解离体验量表）：最常用的自评筛查工具
+- **[MID-60](Multidimensional-Inventory-of-Dissociation-MID-60.md)**（Multidimensional Inventory of Dissociation，多维解离量表）：更详细的多维度评估
 - **CADSS**（Clinician-Administered Dissociative States Scale，临床解离状态量表）：用于评估急性解离状态
 
 ### 结构化访谈（专业人员使用）

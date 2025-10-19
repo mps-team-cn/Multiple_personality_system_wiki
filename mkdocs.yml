@@ -158,6 +158,7 @@ extra:
 extra_css:
   - assets/extra-material.css # Material 主题专用增强样式
   - assets/des2.css
+  - assets/mid60.css
 
 extra_javascript:
   - assets/extra.js
@@ -165,6 +166,7 @@ extra_javascript:
   - assets/giscus-loader.js  # Giscus 评论加载器
   - assets/search-phrase-default.js # 搜索短语自动加引号
   - assets/des2.js
+  - assets/mid60.js
 
 
 # Markdown 扩展

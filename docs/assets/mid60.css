@@ -1,0 +1,262 @@
+/* MID-60 交互评估页样式(参考 DES-II 设计) */
+.mid60-app {
+  margin: 0.5rem 0 1.25rem 0;
+}
+
+.mid60-meta {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: .5rem 1rem;
+  align-items: center;
+  margin: .25rem 0 1rem 0;
+}
+
+.mid60-actions {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+}
+
+/* 表格样式 */
+.mid60-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 .6rem;
+  table-layout: fixed;
+}
+
+.mid60-item td {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 5%, transparent);
+  padding: .55rem .6rem;
+  vertical-align: middle;
+}
+
+[data-md-color-scheme="slate"] .mid60-item td {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 12%, #1b2331);
+}
+
+.mid60-item td:first-child { border-radius: .6rem 0 0 .6rem; }
+.mid60-item td:last-child { border-radius: 0 .6rem .6rem 0; }
+
+.mid60-item .no {
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+}
+
+.mid60-item label {
+  margin: 0;
+}
+
+.mid60-ctrl {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: 0;
+}
+
+.mid60-ctrl input[type="range"] {
+  width: 10rem;
+}
+
+.mid60-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .25rem;
+  font-variant-numeric: tabular-nums;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 10%, transparent);
+  color: var(--md-primary-fg-color);
+  padding: .15rem .5rem;
+  border-radius: .5rem;
+  min-width: 3.8rem;
+  justify-content: center;
+  font-size: .95rem;
+}
+
+/* MID-60 使用百分比显示 */
+.mid60-badge::after {
+  content: '%';
+  margin-left: .15rem;
+  opacity: .9;
+}
+
+.mid60-results {
+  margin-top: 1rem;
+  display: grid;
+  gap: .8rem;
+}
+
+.mid60-progress {
+  height: .8rem;
+  border-radius: .6rem;
+  background: color-mix(in srgb, var(--md-default-fg-color) 8%, transparent);
+  overflow: hidden;
+}
+
+.mid60-progress > .bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #4fc08d, #3fb489);
+  transition: width .2s ease;
+}
+
+/* 子量表区域 */
+.mid60-section-title {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--md-primary-fg-color);
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  padding-bottom: .3rem;
+  border-bottom: 2px solid color-mix(in srgb, var(--md-primary-fg-color) 20%, transparent);
+}
+
+.mid60-subgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: .6rem;
+}
+
+.mid60-subcard {
+  border-radius: .6rem;
+  padding: .55rem .7rem .7rem .7rem;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 5%, transparent);
+}
+
+[data-md-color-scheme="slate"] .mid60-subcard {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 12%, #1b2331);
+}
+
+.mid60-subcard .label {
+  font-weight: 600;
+  margin-bottom: .3rem;
+}
+
+.mid60-subcard .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .6rem;
+  margin-bottom: .4rem;
+}
+
+.mid60-subcard .row .mid60-badge {
+  min-width: 4.2rem;
+}
+
+.mid60-subcard .cutoff {
+  font-size: .8rem;
+  opacity: .7;
+  white-space: nowrap;
+}
+
+.mid60-legend {
+  display: flex;
+  justify-content: space-between;
+  font-size: .75rem;
+  opacity: .8;
+  margin-top: .3rem;
+}
+
+.mid60-note {
+  font-size: .85rem;
+  opacity: .85;
+}
+
+.mid60-hint {
+  font-size: .8rem;
+  opacity: .75;
+}
+
+.mid60-divider {
+  height: 1px;
+  background: color-mix(in srgb, var(--md-default-fg-color) 12%, transparent);
+  margin: .8rem 0;
+}
+
+.mid60-table th, .mid60-table td {
+  padding: .35rem .4rem;
+}
+
+.mid60-table tr:hover { background: transparent; }
+
+/* ========== 响应式(手机端) ========== */
+@media (max-width: 760px) {
+  .mid60-table {
+    table-layout: auto;
+    border-spacing: 0 .5rem;
+  }
+
+  .mid60-item td {
+    padding: .5rem .5rem;
+  }
+
+  .mid60-item td:first-child { width: 1.6rem; }
+  .mid60-item td:last-child { width: clamp(8.5rem, 38vw, 12rem); }
+  .mid60-table colgroup col:first-child { width: 1.6rem !important; }
+  .mid60-table colgroup col:last-child { width: clamp(8.5rem, 38vw, 12rem) !important; }
+
+  .mid60-ctrl {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: .4rem .5rem;
+  }
+
+  .mid60-ctrl input[type="range"] {
+    width: 100%;
+    min-width: 7rem;
+  }
+
+  .mid60-badge {
+    min-width: 2.4rem;
+    padding: .1rem .35rem;
+    font-size: .9rem;
+  }
+
+  .mid60-item td:nth-child(2) {
+    word-break: break-word;
+    white-space: normal;
+    line-height: 1.5;
+  }
+
+  .mid60-legend { font-size: .7rem; }
+  .mid60-subgrid { grid-template-columns: 1fr; }
+  .mid60-section-title { font-size: .95rem; }
+}
+
+/* 更窄屏进一步优化 */
+@media (max-width: 600px) {
+  .mid60-table thead { display: none; }
+  .mid60-table { border-spacing: 0 .65rem; width: 100% !important; }
+  .mid60-table colgroup, .mid60-table colgroup col { display: none !important; width: auto !important; }
+  .mid60-table tr.mid60-item { display: block; }
+  .mid60-table td { display: block; width: 100% !important; }
+
+  .mid60-item td { border-radius: 0; }
+  .mid60-item td:first-child {
+    border-radius: .6rem .6rem 0 0;
+    width: auto;
+    display: inline-block;
+    background: transparent;
+    padding-bottom: .2rem;
+    color: var(--md-primary-fg-color);
+    font-weight: 600;
+  }
+  .mid60-item td:nth-child(2) {
+    border-radius: .6rem .6rem 0 0;
+  }
+  .mid60-item td:last-child {
+    border-top: 1px solid color-mix(in srgb, var(--md-default-fg-color) 12%, transparent);
+    border-radius: 0 0 .6rem .6rem;
+    width: 100% !important;
+  }
+
+  .mid60-ctrl {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: .45rem .5rem;
+  }
+  .mid60-ctrl input[type="range"] { width: 100%; min-width: 0; }
+  .mid60-badge { min-width: 2.6rem; justify-self: end; }
+  .mid60-subgrid { grid-template-columns: 1fr; }
+}
