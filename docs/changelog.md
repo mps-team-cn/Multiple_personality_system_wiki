@@ -1,5 +1,47 @@
 # 更新日志
 
+## [v3.16.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.16.0) - 危机资源上线与量表体验升级 (2025-10-19)
+
+### ✨ 新增词条
+
+- **危机与支援资源（Crisis & Support）(PR #341)**
+    - [危机与支援资源](entries/Crisis-And-Support-Resources.md)：24 小时求助热线、城市支援资源、在线自助平台
+    - 提供可复制的「自助安全计划」模板与使用指引
+    - 导航与导览入口已接入首页、QuickStart、实践与创伤导览
+
+### 📚 词条完善
+
+- **临床与导览**
+    - 翻修 [定向障碍（Disorientation）](entries/Disorientation.md)，对齐 DID 相关临床标准（PR #340）
+    - 扩充 OSDD 词条并优化搜索配置（PR #330）
+    - 调整 Tulpa 等相关条目内部链接与一致性
+
+### 🧪 量表与前端体验
+
+- **DES‑II 在线量表与交互优化**
+    - 新增 [DES‑II 在线量表](entries/Dissociative-Experiences-Scale-DES-II.md)，支持实时计分与三子量表进度条
+    - 统一中文题干与阈值，对齐 NovoPsych（PR #335）
+    - 限制 DES‑II/MID‑60 滑块为仅拖拽，禁用滚轮/键盘并屏蔽轨道点击跳值，避免误操作
+
+- **MID‑60 可访问性与导出**
+    - 新增移动端导出图片（含水印）（PR #336）
+    - 改进结果导出与可访问性（PR #339）
+
+- **界面细节**
+    - 开启“编辑此页”图标，提升文档协作体验
+
+### 🔧 工具与基础设施
+
+- 新增基于 Frontmatter 的用户词典生成工具，增强中文搜索（PR #329）
+- 清理无用的报表 PDF 导出项与若干格式修复
+
+### 📊 影响范围
+
+- 新增 1 个核心资源词条；大幅改善量表与交互体验
+- 涉及首页与导览入口同步接入；多处文档结构与链接规范优化
+
+---
+
 ## [v3.15.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.15.0) - 角色体系扩充与内容格式标准化 (2025-10-18)
 
 ### ✨ 新增词条

@@ -1,10 +1,17 @@
-"""MkDocs 构建钩子：清理搜索索引中的零宽空格，避免中文搜索失效；将 Frontmatter 中的 synonyms 注入搜索索引；生成基于 Frontmatter updated 字段的最近更新列表。"""
+"""MkDocs 构建钩子：
+
+- 清理搜索索引中的零宽空格，避免中文搜索失效；
+- 将 Frontmatter 中的 synonyms 注入搜索索引；
+- 生成基于 Frontmatter updated 字段的最近更新列表；
+- 从 changelog.md 解析最近发布版本并在首页注入“最近更新”。
+"""
 
 from __future__ import annotations
 
 import json
 import re
 from datetime import datetime
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict
 
@@ -12,6 +19,7 @@ import yaml
 
 ZERO_WIDTH_SPACE = "\u200b"
 RECENTLY_UPDATED_PLACEHOLDER = "<!-- RECENTLY_UPDATED_DOCS -->"
+RECENT_RELEASES_PLACEHOLDER = "<!-- RECENT_RELEASES -->"
 
 
 def _strip_zero_width(value: str) -> str:
@@ -136,11 +144,24 @@ def _generate_recently_updated_html(docs_dir: Path, limit: int = 100) -> str:
 
 
 def on_page_markdown(markdown: str, page: Any, config: Dict[str, Any], files: Any) -> str:
-    """在页面 Markdown 处理前替换最近更新占位符。"""
+    """在页面 Markdown 处理前替换占位符。"""
+    docs_dir = Path(config.get("docs_dir", "docs"))
+
+    # 1) 最近更新（基于 Frontmatter.updated）
     if RECENTLY_UPDATED_PLACEHOLDER in markdown:
-        docs_dir = Path(config.get("docs_dir", "docs"))
         recently_updated_html = _generate_recently_updated_html(docs_dir, limit=100)
         markdown = markdown.replace(RECENTLY_UPDATED_PLACEHOLDER, recently_updated_html)
+
+    # 2) 最近发布版本（基于 docs/changelog.md）
+    if RECENT_RELEASES_PLACEHOLDER in markdown:
+        try:
+            releases = _parse_recent_releases(docs_dir / "changelog.md", limit=3)
+            recent_md = _render_recent_releases_md(releases)
+            markdown = markdown.replace(RECENT_RELEASES_PLACEHOLDER, recent_md)
+        except Exception:
+            # 解析失败时保持原占位符，避免构建中断
+            pass
+
     return markdown
 
 
@@ -193,3 +214,73 @@ def on_post_build(config: Dict[str, Any]) -> None:
             json.dumps(data, ensure_ascii=False, separators=(",", ":")),
             encoding="utf-8",
         )
+
+
+# ===== 最近发布版本：从 changelog.md 解析并渲染到首页 =====
+
+@dataclass
+class Release:
+    tag: str      # 例如 v3.15.0
+    title: str    # 例如 角色体系扩充与内容格式标准化
+    date: str     # 例如 2025-10-18
+    anchor: str   # 例如 v3150---角色体系扩充与内容格式标准化-2025-10-18
+
+
+def _slugify_heading(text: str) -> str:
+    """使用与站点一致的规则生成锚点 slug。
+
+    mkdocs.yml 中配置了 toc.slugify=pymdownx.slugs.slugify(case=lower-ascii)，
+    这里对同样的纯文本进行 slug 化，确保首页锚点与 changelog 一致。
+    """
+    try:
+        from pymdownx.slugs import slugify as _slugify_factory  # type: ignore
+
+        slugify_fn = _slugify_factory(case="lower-ascii")
+        return slugify_fn(text, "-")
+    except Exception:
+        # 回退：保守处理，仅做最基本的替换
+        s = re.sub(r"\s+", "-", text.strip())
+        s = s.replace("/", "-")
+        return s
+
+
+def _parse_recent_releases(changelog_path: Path, limit: int = 3) -> list[Release]:
+    """从 docs/changelog.md 解析最近的发布版本信息。"""
+    if not changelog_path.exists():
+        return []
+
+    releases: list[Release] = []
+    pattern = re.compile(
+        r"^##\s*\[(v\d+\.\d+\.\d+)\](?:\([^)]+\))?\s*-\s*(.+?)\s*\((\d{4}-\d{2}-\d{2})\)\s*$"
+    )
+
+    for line in changelog_path.read_text(encoding="utf-8").splitlines():
+        m = pattern.match(line)
+        if not m:
+            continue
+
+        tag, title, date = m.group(1), m.group(2), m.group(3)
+
+        # 构造用于 slugify 的纯文本标题（与渲染后的可见文本一致）
+        heading_text = f"{tag} - {title} ({date})"
+        anchor = _slugify_heading(heading_text)
+        releases.append(Release(tag=tag, title=title, date=date, anchor=anchor))
+
+        if len(releases) >= limit:
+            break
+
+    return releases
+
+
+def _render_recent_releases_md(releases: list[Release]) -> str:
+    """渲染最近发布版本为首页使用的 Markdown 列表。"""
+    if not releases:
+        return "- 暂无发布版本"
+
+    lines = []
+    for r in releases:
+        # 使用 changelog.md 的锚点链接
+        lines.append(
+            f"- [{r.tag}（{r.date}）：{r.title}](changelog.md#{r.anchor})"
+        )
+    return "\n".join(lines)
