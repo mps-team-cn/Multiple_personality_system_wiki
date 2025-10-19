@@ -17,3 +17,7 @@ CONTRIBUTING.md
 # 排除所有导览文件
 *Guide.md
 *-Guide.md
+
+# 排除报表
+docs/entries/Multidimensional-Inventory-of-Dissociation-MID-60.md
+docs/entries/Dissociative-Experiences-Scale-DES-II.md
