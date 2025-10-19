@@ -15,11 +15,11 @@ hide:
 
 ## 词条一览
 
-- [异装癖（Transvestism，已过时）](Transvestism-Obsolete.md) — *2025-10-19*
 - [深层记忆(Deep Memory)](Deep-Memory.md) — *2025-10-19*
 - [定向障碍（Disorientation）](Disorientation.md) — *2025-10-19*
 - [解离经验量表（Dissociative Experiences Scale‑II, DES‑II）](Dissociative-Experiences-Scale-DES-II.md) — *2025-10-19*
 - [多维解离量表（MID‑60）](Multidimensional-Inventory-of-Dissociation-MID-60.md) — *2025-10-19*
+- [异装癖（Transvestism，已过时）](Transvestism-Obsolete.md) — *2025-10-19*
 - [睡眠相关呼吸障碍（Breathing-Related Sleep Disorders）](Breathing-Related-Sleep-Disorders.md) — *2025-10-18*
 - [昼夜节律睡眠-觉醒障碍（Circadian Rhythm Sleep-Wake Disorders）](Circadian-Rhythm-Sleep-Wake-Disorders.md) — *2025-10-18*
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md) — *2025-10-18*
