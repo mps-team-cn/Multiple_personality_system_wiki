@@ -16,11 +16,13 @@ hide:
 ## 词条一览
 
 - [主导（Dominant / Lead）](Dominant-Lead.md) — *2025-10-19*
+- [埃蒙加德分类法（Emmengard Classification）](Emmengard-Classification.md) — *2025-10-19*
 - [内在批评者（Inner Critic）](Inner-Critic.md) — *2025-10-19*
 - [引入者（Introject）](Introject.md) — *2025-10-19*
 - [执行者（Performer / Executive）](Performer-Executive.md) — *2025-10-19*
 - [迫害者（Persecutor）](Persecutor.md) — *2025-10-19*
 - [保护者（Protector）](Protector.md) — *2025-10-19*
+- [自发型（Spontaneous）](Spontaneous.md) — *2025-10-19*
 - [人格职能（System Roles）](System-Roles.md) — *2025-10-19*
 - [图帕（Tulpa）](Tulpa.md) — *2025-10-19*
 - [管理者(Admin)](Admin.md) — *2025-10-18*
@@ -45,11 +47,9 @@ hide:
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md) — *2025-10-14*
 - [适应型（Adaptive）](Adaptive.md) — *2025-10-13*
 - [特殊认同（Alterhuman）](Alterhuman.md) — *2025-10-13*
-- [埃蒙加德分类法（Emmengard Classification）](Emmengard-Classification.md) — *2025-10-13*
 - [伪主体（Fauxmain）](Fauxmain.md) — *2025-10-13*
 - [碎片（Fragment）](Fragment.md) — *2025-10-13*
 - [主体（Main）](Main.md) — *2025-10-13*
 - [人格面具（Persona）](Persona.md) — *2025-10-13*
 - [傀儡（Servitor）](Servitor.md) — *2025-10-13*
 - [系魂（Soulbond）](Soulbond.md) — *2025-10-13*
-- [自发型（Spontaneous）](Spontaneous.md) — *2025-10-13*
