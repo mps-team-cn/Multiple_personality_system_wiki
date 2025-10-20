@@ -2,9 +2,7 @@
 tags:
 
 - 文化与表现
-- 多意识体
-- 解离
-- 创伤
+
 
 topic: 文化与表现
 title: 《我与梦露的一周》（The United States of Tara）中的系统家庭日常

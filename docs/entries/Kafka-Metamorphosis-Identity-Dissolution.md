@@ -2,9 +2,7 @@
 tags:
 
 - 文化与表现
-- 解离
-- 多意识体
-- 创伤
+
 
 topic: 文化与表现
 title: 卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）

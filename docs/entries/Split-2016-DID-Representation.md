@@ -2,9 +2,7 @@
 tags:
 
 - 文化与表现
-- DID
-- 多意识体
-- 解离
+
 
 topic: 文化与表现
 title: 《分裂》（Split, 2016）中的 DID 形象分析

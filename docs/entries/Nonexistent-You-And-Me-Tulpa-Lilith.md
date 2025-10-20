@@ -2,9 +2,9 @@
 tags:
 
 - 文化与表现
-- 多意识体
-- 解离
-- 创伤
+- 莉莉丝
+- tulpa
+
 
 topic: 文化与表现
 title: 《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）

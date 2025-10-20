@@ -4,6 +4,8 @@ tags:
 
     - 创伤与疗愈
     - 心理治疗
+    - CPT
+    - 认知加工治疗
 
 topic: 创伤与疗愈
 synonyms:
