@@ -6,7 +6,6 @@ search:
 tags:
 
 - sx:创伤症状
-- community:多意识体
 - dx:解离障碍
 - guide:诊断与临床
 

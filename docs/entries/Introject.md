@@ -11,7 +11,6 @@ synonyms:
 tags:
 
 - role:系统角色
-- community:多意识体
 - dx:解离障碍
 
 title: 引入者（Introject）

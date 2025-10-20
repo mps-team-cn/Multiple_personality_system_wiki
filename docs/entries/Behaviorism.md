@@ -14,7 +14,6 @@ synonyms:
 tags:
 
 - theory:心理学理论
-- community:多意识体
 - dx:解离障碍
 
 title: 行为主义心理学（Behaviorism）

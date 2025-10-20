@@ -8,7 +8,6 @@ synonyms:
 
 tags:
 
-- community:多意识体
 - dx:解离障碍
 
 title: 注意与觉察（Attention & Awareness）

@@ -8,7 +8,6 @@ synonyms:
 
 tags:
 
-- community:多意识体
 - dx:解离障碍
 
 title: 心理能量与注意资源（Psychic Energy & Attention）

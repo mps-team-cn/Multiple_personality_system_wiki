@@ -5,7 +5,6 @@ synonyms: 谵妄, 急性意识障碍, 意识混乱, delirium, 急性脑功能紊
 tags:
 
 - guide:诊断与临床
-- community:多意识体
 - dx:解离障碍
 - sx:创伤症状
 

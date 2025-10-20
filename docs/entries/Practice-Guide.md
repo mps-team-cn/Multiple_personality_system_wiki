@@ -6,7 +6,6 @@ search:
 tags:
 
 - community:Tulpa
-- community:多意识体
 - guide:实践指南
 
 title: 实践指南导览

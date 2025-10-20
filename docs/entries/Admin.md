@@ -13,7 +13,6 @@ synonyms:
 tags:
 
 - ops:系统运作
-- community:多意识体
 - role:系统角色
 
 title: 管理者(Admin)

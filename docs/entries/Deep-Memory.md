@@ -17,7 +17,6 @@ synonyms:
 tags:
 
 - guide:诊断与临床
-- community:多意识体
 - sx:创伤症状
 
 title: 深层记忆(Deep Memory)

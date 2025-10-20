@@ -4,7 +4,6 @@ description: 记忆持有者（Memory Holder）的角色与创伤记忆管理。
 tags:
 
 - role:系统角色
-- community:多意识体
 - dx:解离障碍
 - sx:创伤症状
 

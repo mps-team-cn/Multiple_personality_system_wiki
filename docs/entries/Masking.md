@@ -11,7 +11,7 @@ synonyms:
 tags:
 
 - ops:系统运作
-- community:多元社群
+- community:社群用语
 
 title: 角色面具（Masking / Social Masking）
 topic: 系统运作

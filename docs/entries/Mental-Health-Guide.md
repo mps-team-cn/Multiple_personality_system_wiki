@@ -4,7 +4,6 @@ tags:
 
 - guide:诊断与临床
 - tx:创伤治疗
-- community:多意识体
 
 title: 心理健康导览
 topic: 诊断与临床

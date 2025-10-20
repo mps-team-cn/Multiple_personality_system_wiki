@@ -8,7 +8,6 @@ synonyms:
 tags:
 
 - guide:诊断与临床
-- community:多意识体
 - dx:解离障碍
 
 title: 注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）

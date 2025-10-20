@@ -2,7 +2,7 @@
 comments: true
 description: 多意识体系统（Multiple Personality System）是多意识体社群核心概念，详解多意识体框架的定义、边界、运作机制与协作实践。区分社群身份认同与临床诊断，理解多意识体单元的共存与内部协作
 search:
-  boost: 2.0
+  boost: 3.0
 synonyms:
 
 - 多意识体系统
@@ -14,7 +14,7 @@ synonyms:
 
 tags:
 
-- dx:DID
+- dx:解离性身份障碍(DID)
 - ops:系统运作
 - community:多意识体
 - dx:解离障碍

@@ -11,7 +11,6 @@ synonyms:
 tags:
 
 - role:系统角色
-- community:多意识体
 - dev:发展阶段
 
 title: 成年成员（Adult Alter）

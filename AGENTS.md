@@ -175,7 +175,7 @@ tools/                    # 脚本与工具
 title: 词条标题              # 必需
 topic: 所属主题              # 必需,见下方主题列表
 tags:                       # 必需,至少 1 个,最多 5 个
-  - dx:DID                  # 格式: prefix:名称
+  - dx:解离性身份障碍(DID)                  # 格式: prefix:名称
   - sx:切换(Switch)
 updated: YYYY-MM-DD        # 必需,但 CI 自动维护,勿手动改
 ---
@@ -413,7 +413,7 @@ pip install -r requirements.txt
 ```yaml
 格式: prefix:名称
   - 前缀小写,中文为主,必要英文置于全角括号
-  - 示例: dx:DID | sx:切换(Switch) | tx:EMDR
+  - 示例: dx:解离性身份障碍(DID) | sx:切换(Switch) | tx:EMDR
 
 数量: 每篇词条 1-5 个标签
 
