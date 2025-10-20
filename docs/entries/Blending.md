@@ -160,7 +160,6 @@ updated: 2025-10-20
 ### 系统运作
 
 - [共前台（Co-fronting）](Co-Fronting.md)
-    - [共前台（Co-Fronting）](Co-Fronting.md)
 - [前台（Front / Fronting）](Front-Fronting.md)
 - [切换（Switch）](Switch.md)
 - [成员（Alter）](Alter.md)
