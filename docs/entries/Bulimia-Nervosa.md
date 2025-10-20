@@ -2,17 +2,21 @@
 comments: true
 description: 以反复暴食和不当补偿行为为核心的进食障碍,伴随体像扭曲和严重躯体心理损害,需多学科综合干预
 synonyms:
+
 - 神经性贪食
 - 贪食症
 - Bulimia Nervosa
 - BN
+
 tags:
+
 - guide:诊断与临床
 - dx:进食障碍
 - guide:风险管理
+
 title: 神经性贪食症(Bulimia Nervosa, BN)
 topic: 诊断与临床
-updated: 2025-10-14
+updated: 2025-10-20
 ---
 
 # 神经性贪食症(Bulimia Nervosa, BN)

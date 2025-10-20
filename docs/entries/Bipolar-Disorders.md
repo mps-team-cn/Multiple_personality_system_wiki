@@ -4,6 +4,7 @@ description: 概述双相障碍的诊断标准、临床表现、共病风险与�
 search:
   boost: 1.8
 synonyms:
+
 - 躁郁症
 - 双向情感障碍
 - 双极性障碍
@@ -12,11 +13,14 @@ synonyms:
 - Bipolar Disorder
 - Manic-Depressive Illness
 - 躁狂抑郁症
+
 tags:
+
 - guide:诊断与临床
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 双相障碍（Bipolar Disorders）
 topic: 诊断与临床
 updated: 2025-10-20

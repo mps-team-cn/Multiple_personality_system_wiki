@@ -4,15 +4,19 @@ description: 焦虑障碍完整分类：GAD、惊恐障碍、社交焦虑、恐�
 search:
   boost: 1.8
 synonyms:
+
 - 焦虑
 - Anxiety
 - Anxiety Disorders
 - 焦虑障碍
+
 tags:
+
 - dx:焦虑障碍
 - community:多意识体
 - dx:解离障碍
 - guide:诊断与临床
+
 title: 焦虑障碍（Anxiety Disorders）
 topic: 诊断与临床
 updated: 2025-10-20

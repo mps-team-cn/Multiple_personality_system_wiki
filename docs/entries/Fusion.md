@@ -4,10 +4,12 @@ description: 自愿与安全前提下的成员融合；区分功能整合与最�
 search:
   boost: 1.5
 tags:
+
 - ops:系统运作
 - sx:创伤症状
 - community:多意识体
 - dx:解离障碍
+
 title: 融合（Fusion）
 topic: 系统运作
 updated: 2025-10-20

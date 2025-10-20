@@ -287,7 +287,7 @@
     * [临床内容指南](contributing/clinical-guidelines.md)
     * [贡献者墙](contributing/contributors.md)
     * [PR 工作流程](contributing/pr-workflow.md)
-    * [标签规范 v2.0](contributing/tagging-standard.md)
+    * [标签规范2.0](contributing/tagging-standard.md)
     * [技术规范](contributing/technical-conventions.md)
     * [写作指南](contributing/writing-guidelines.md)
 * [回到主站 →](https://mpsteam.cn/)

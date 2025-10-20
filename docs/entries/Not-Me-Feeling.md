@@ -2,15 +2,19 @@
 comments: true
 description: 非我感（Not-me Feeling）体验详解：多意识体系统中识别成员边界的核心体验，理解"那不是我"的身份区隔机制
 synonyms:
+
 - Not-me 感
 - 他者感
 - 身份异化感
 - 感知区分
 - 感知壁垒
+
 tags:
+
 - ops:系统运作
 - community:多意识体
 - dx:解离障碍
+
 title: 非我感（Not-me Feeling）
 topic: 系统运作
 updated: 2025-10-20

@@ -2,15 +2,19 @@
 comments: true
 description: 包括语音障碍、儿童期言语流畅障碍、社交语用沟通障碍等影响语言理解与表达的神经发育障碍，通常在儿童早期起病并可能持续至成年期，需与听力障碍、智力发育障碍及孤独症谱系障碍鉴别。
 synonyms:
+
 - Communication Disorders
 - 语言障碍
 - 言语障碍
+
 tags:
+
 - guide:诊断与临床
 - dev:神经发育障碍
+
 title: 沟通障碍（Communication Disorders）
 topic: 诊断与临床
-updated: 2025-10-16
+updated: 2025-10-20
 ---
 
 # 沟通障碍（Communication Disorders）

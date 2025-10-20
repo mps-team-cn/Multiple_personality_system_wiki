@@ -1,7 +1,7 @@
 ---
 tags:
 
-  - culture:文化表现
+    - culture:文化表现
 
 topic: 文化与表现
 title: 《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）

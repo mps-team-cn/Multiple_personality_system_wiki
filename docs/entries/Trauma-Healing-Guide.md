@@ -4,12 +4,14 @@ description: 聚焦创伤知情的自助策略与临床框架，提供稳定—�
 search:
   boost: 1.5
 tags:
+
 - dx:PTSD
 - sx:创伤症状
 - tx:创伤治疗
+
 title: 创伤与疗愈导览
 topic: 创伤与疗愈
-updated: 2025-10-19
+updated: 2025-10-20
 ---
 
 # 🌿 创伤与疗愈导览

@@ -4,16 +4,20 @@ description: 内在批评者（Inner Critic）的形成机制、功能与调节�
 search:
   boost: 1.4
 synonyms:
+
 - 内心批评者
 - 批评性自我
 - Inner Critic
 - 自我批评者
 - 内在审判者
+
 tags:
+
 - role:系统角色
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 内在批评者（Inner Critic）
 topic: 角色与身份
 updated: 2025-10-20

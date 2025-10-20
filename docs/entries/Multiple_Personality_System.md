@@ -4,17 +4,21 @@ description: 多意识体系统（Multiple Personality System）是多意识体�
 search:
   boost: 2.0
 synonyms:
+
 - 多意识体系统
 - Multiple Personality System
 - 多意识体
 - Plurality
 - duochong renge xitong
 - mps
+
 tags:
+
 - dx:DID
 - ops:系统运作
 - community:多意识体
 - dx:解离障碍
+
 title: 多意识体系统（Multiple Personality System）
 topic: 系统运作
 updated: 2025-10-20

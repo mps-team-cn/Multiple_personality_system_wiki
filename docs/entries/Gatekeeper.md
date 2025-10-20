@@ -4,9 +4,11 @@ description: 守门人（Gatekeeper）的职能与重要性。了解控制成员
 search:
   boost: 1.5
 tags:
+
 - role:系统角色
 - community:多意识体
 - dx:解离障碍
+
 title: 守门人（Gatekeeper）
 topic: 角色与身份
 updated: 2025-10-20

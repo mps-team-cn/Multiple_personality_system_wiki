@@ -1,16 +1,20 @@
 ---
 comments: true
 synonyms:
+
 - 分裂型人格障碍
 - Schizotypal Personality Disorder
 - STPD
 - fenliexing renge zhangai
+
 tags:
+
 - dx:A组人格障碍
 - guide:诊断与临床
+
 title: 分裂型人格障碍（Schizotypal Personality Disorder，STPD）
 topic: 诊断与临床
-updated: 2025-10-14
+updated: 2025-10-20
 ---
 
 # 分裂型人格障碍（Schizotypal Personality Disorder，STPD）

@@ -4,14 +4,18 @@ description: 意识共存（Co-consciousness）现象详解：多个成员同时
 search:
   boost: 1.5
 synonyms:
+
 - 共觉
 - Co-consciousness
 - 共在意识
+
 tags:
+
 - ops:系统运作
 - sx:创伤症状
 - community:多意识体
 - dx:解离障碍
+
 title: 意识共存（Co-consciousness）
 topic: 系统运作
 updated: 2025-10-20

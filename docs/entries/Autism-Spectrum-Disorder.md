@@ -1,10 +1,12 @@
 ---
 comments: true
 tags:
+
 - guide:诊断与临床
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 孤独症谱系（Autism Spectrum Disorder）
 topic: 诊断与临床
 updated: 2025-10-20

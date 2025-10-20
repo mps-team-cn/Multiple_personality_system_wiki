@@ -4,6 +4,7 @@ description: 记忆屏蔽是多意识体社群中的经验性术语，指身份�
 search:
   boost: 1.4
 synonyms:
+
 - 记忆屏障
 - 屏障记忆
 - 屏蔽记忆
@@ -11,11 +12,14 @@ synonyms:
 - 记忆封存
 - Memory Shielding
 - Amnesiacflux
+
 tags:
+
 - ops:系统运作
 - sx:创伤症状
 - community:多意识体
 - dx:解离障碍
+
 title: 记忆屏蔽（Memory Shielding）
 topic: 系统运作
 updated: 2025-10-20

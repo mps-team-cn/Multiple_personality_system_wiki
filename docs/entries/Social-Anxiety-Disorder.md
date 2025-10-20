@@ -1,20 +1,24 @@
 ---
 comments: true
 synonyms:
+
 - 社交焦虑障碍
 - Social Anxiety Disorder
 - Social Phobia
 - SAD
 - 社交恐惧症
 - shejiao jiaolv zhangai
+
 tags:
+
 - dx:焦虑障碍
 - dx:共病
 - sx:社交困难
 - guide:诊断与临床
+
 title: 社交焦虑障碍（Social Anxiety Disorder / Social Phobia，SAD）
 topic: 诊断与临床
-updated: 2025-10-14
+updated: 2025-10-20
 ---
 
 # 社交焦虑障碍（Social Anxiety Disorder / Social Phobia，SAD）

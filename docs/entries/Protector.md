@@ -4,10 +4,12 @@ description: 保护者（Protector）成员的类型、功能与工作方式。�
 search:
   boost: 1.5
 tags:
+
 - role:系统角色
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 保护者（Protector）
 topic: 角色与身份
 updated: 2025-10-20

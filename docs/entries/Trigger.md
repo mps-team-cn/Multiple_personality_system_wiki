@@ -4,15 +4,19 @@ description: 创伤触发（Trigger）的识别、管理与应对策略。了解
 search:
   boost: 1.8
 synonyms:
+
 - Trigger
 - 触发点
 - 雷点
 - chu fa
+
 tags:
+
 - ops:系统运作
 - sx:创伤症状
 - community:多意识体
 - dx:解离障碍
+
 title: 触发（Trigger）
 topic: 系统运作
 updated: 2025-10-20

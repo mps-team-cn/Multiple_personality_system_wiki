@@ -1,7 +1,7 @@
 ---
 tags:
 
-  - culture:文化表现
+    - culture:文化表现
 
 topic: 文化与表现
 title: 《分裂》（Split, 2016）中的 DID 形象分析

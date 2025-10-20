@@ -1,16 +1,20 @@
 ---
 comments: true
 synonyms:
+
 - 癫痫
 - 群发性癫痫
 - Epilepsy
+
 tags:
+
 - guide:诊断与临床
 - dx:共病
 - guide:系统支持
+
 title: 癫痫（Epilepsy）
 topic: 诊断与临床
-updated: 2025-10-14
+updated: 2025-10-20
 ---
 
 # 癫痫（Epilepsy）

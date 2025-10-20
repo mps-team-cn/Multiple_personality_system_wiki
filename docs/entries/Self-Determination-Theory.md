@@ -1,13 +1,17 @@
 ---
 comments: true
 synonyms:
+
 - 自主性动机理论
 - SDT 理论
 - self determination theory
+
 tags:
+
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 自我决定理论（Self-Determination Theory）
 topic: 理论与分类
 updated: 2025-10-20

@@ -4,16 +4,20 @@ description: 深入解析 ANP-EP 模型的理论框架、临床应用与局限�
 search:
   boost: 1.5
 synonyms:
+
 - 表面正常部分-情绪部分模型
 - Apparently Normal Part
 - Emotional Part
 - ANP/EP Model
+
 tags:
+
 - dx:CPTSD
 - dx:DID
 - dx:OSDD
 - ops:系统运作
 - theory:ANP
+
 title: ANP-EP 模型（Apparently Normal Part–Emotional Part Model）
 topic: 系统运作
 updated: 2025-10-20

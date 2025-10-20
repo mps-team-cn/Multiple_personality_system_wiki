@@ -5,11 +5,13 @@ description: 深入解析解离性身份障碍（DID）的诊断标准、临床�
 search:
   boost: 2.0
 tags:
+
 - dx:DID
 - community:多意识体
 - dx:解离障碍
 - guide:诊断与临床
 - guide:适应型系统
+
 title: 解离性身份障碍（Dissociative Identity Disorder，DID）
 topic: 诊断与临床
 updated: 2025-10-20

@@ -1,17 +1,21 @@
 ---
 comments: true
 synonyms:
+
 - 选择性缄默症
 - Selective Mutism
 - SM
 - xuanzexing jianmo zheng
+
 tags:
+
 - dx:焦虑障碍
 - sx:社交困难
 - guide:诊断与临床
+
 title: 选择性缄默症（Selective Mutism，SM）
 topic: 诊断与临床
-updated: 2025-10-14
+updated: 2025-10-20
 ---
 
 # 选择性缄默症（Selective Mutism，SM）

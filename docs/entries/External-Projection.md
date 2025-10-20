@@ -4,16 +4,20 @@ description: 系统成员将自身的知觉、情绪、存在感投射到外部�
 search:
   boost: 1.5
 synonyms:
+
 - 外部投射
 - 外部投影
 - 投影
 - External Projection
 - Projection to External Objects
+
 tags:
+
 - ops:系统运作
 - sx:创伤症状
 - community:多意识体
 - dx:解离障碍
+
 title: 外投射（External Projection）
 topic: 系统运作
 updated: 2025-10-20

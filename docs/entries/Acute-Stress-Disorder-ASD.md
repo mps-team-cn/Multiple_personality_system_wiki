@@ -1,19 +1,23 @@
 ---
 comments: true
 synonyms:
+
 - 急性应激障碍
 - 急性应激反应
 - 急性应激症候群
 - Acute Stress Disorder
 - ASD
 - jixingyingjizhangai
+
 tags:
+
 - guide:诊断与临床
 - sx:创伤症状
 - dx:创伤及应激相关障碍
+
 title: 急性应激障碍（Acute Stress Disorder, ASD）
 topic: 诊断与临床
-updated: 2025-10-14
+updated: 2025-10-20
 ---
 
 # 急性应激障碍（Acute Stress Disorder, ASD）

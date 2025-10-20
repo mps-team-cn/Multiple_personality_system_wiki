@@ -2,9 +2,8 @@
 title: 文化与表现
 topic: 文化与表现
 tags:
-
-  - guide:导览
-  - guide:索引
+  - 索引
+  - 主题导览
 comments: true
 hide:
   - toc

@@ -4,6 +4,7 @@ description: 深入解析 Tulpa（图帕）：从意象形成到独立意识的�
 search:
   boost: 1.8
 synonyms:
+
 - 托帕
 - Tulpa
 - 图帕术
@@ -13,12 +14,15 @@ synonyms:
 - 图帕伙伴
 - 意识同伴
 - 自创人格
+
 tags:
+
 - community:Tulpa
 - guide:创造型系统
 - community:多意识体
 - role:系统角色
 - dx:解离障碍
+
 title: 图帕（Tulpa）
 topic: 角色与身份
 updated: 2025-10-20

@@ -4,10 +4,12 @@ description: 概述抑郁障碍的诊断标准、临床表现、共病风险与�
 search:
   boost: 1.8
 tags:
+
 - guide:诊断与临床
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 抑郁障碍（Depressive Disorders）
 topic: 诊断与临床
 updated: 2025-10-20

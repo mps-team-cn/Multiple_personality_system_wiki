@@ -4,15 +4,19 @@ description: 行为主义心理学强调环境塑造与可观察行为,是心理
 search:
   boost: 1.3
 synonyms:
+
 - 行为主义
 - 行为主义学派
 - behaviorism
 - 华生心理学
 - 斯金纳心理学
+
 tags:
+
 - theory:心理学理论
 - community:多意识体
 - dx:解离障碍
+
 title: 行为主义心理学（Behaviorism）
 topic: 理论与分类
 updated: 2025-10-20

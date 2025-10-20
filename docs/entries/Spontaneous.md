@@ -5,17 +5,21 @@ description: 自发型（Spontaneous）是社群使用的身份标签，描述�
 search:
   boost: 1.4
 synonyms:
+
 - 自发型
 - 自发型系统
 - 自然生成
 - Spontaneous
 - Spontaneous system
 - zifaxing
+
 tags:
+
 - role:系统角色
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 自发型（Spontaneous）
 topic: 角色与身份
 updated: 2025-10-20

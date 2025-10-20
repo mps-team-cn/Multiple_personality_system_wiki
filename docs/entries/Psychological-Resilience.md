@@ -1,13 +1,17 @@
 ---
 comments: true
 synonyms:
+
 - 心理韧性
 - 复原力
 - resilience
+
 tags:
+
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 心理弹性（Psychological Resilience）
 topic: 理论与分类
 updated: 2025-10-20

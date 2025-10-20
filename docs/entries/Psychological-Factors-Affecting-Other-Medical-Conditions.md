@@ -2,15 +2,19 @@
 comments: true
 description: 深入解析影响其他躯体疾病的心理因素(PFAOMC)的诊断标准、临床表现与治疗方法。了解心理应激如何影响躯体疾病病程、共病管理策略及心身整合治疗路径
 synonyms:
+
 - PFAOMC
 - 心理因素影响躯体疾病
 - Psychological Factors
+
 tags:
+
 - guide:诊断与临床
 - dx:躯体症状及相关障碍
+
 title: 影响其他躯体疾病的心理因素(Psychological Factors Affecting Other Medical Conditions,PFAOMC)
 topic: 诊断与临床
-updated: 2025-10-15
+updated: 2025-10-20
 ---
 
 # 影响其他躯体疾病的心理因素(Psychological Factors Affecting Other Medical Conditions,PFAOMC)

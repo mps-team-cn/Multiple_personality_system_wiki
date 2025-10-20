@@ -1,14 +1,18 @@
 ---
 comments: true
 synonyms:
+
 - IFS
 - Internal Family Systems
 - 内在家庭系统治疗
 - 内部家庭系统疗法
+
 tags:
+
 - tx:创伤治疗
 - tx:心理治疗
 - community:多意识体
+
 title: 内在家庭系统疗法（Internal Family Systems, IFS）
 topic: 创伤与疗愈
 updated: 2025-10-20

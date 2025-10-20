@@ -4,16 +4,20 @@ description: 深入解析卡前台现象:切换方法失效、症状多样性、
 search:
   boost: 1.5
 synonyms:
+
 - 卡前台
 - 前台卡住
 - 切换困难
 - Front Stuck
 - Frontstuck
 - Stuck Fronting
+
 tags:
+
 - ops:系统运作
 - community:多意识体
 - dx:解离障碍
+
 title: 卡前台(Front Stuck / Frontstuck)
 topic: 系统运作
 updated: 2025-10-20

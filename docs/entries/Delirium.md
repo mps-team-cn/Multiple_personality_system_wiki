@@ -3,10 +3,12 @@ comments: true
 description: 急性意识混乱与注意障碍的医学急症。理解谵妄的诊断、诱因与创伤关联管理
 synonyms: 谵妄, 急性意识障碍, 意识混乱, delirium, 急性脑功能紊乱
 tags:
+
 - guide:诊断与临床
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 谵妄(Delirium)
 topic: 诊断与临床
 updated: 2025-10-20

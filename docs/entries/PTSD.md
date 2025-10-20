@@ -4,17 +4,21 @@ description: 创伤后应激障碍（PTSD）权威指南：症状识别、诊断
 search:
   boost: 1.5
 synonyms:
+
 - 创伤后应激障碍
 - 创伤后压力症候群
 - 创伤后应激反应障碍
 - Post-Traumatic Stress Disorder
 - PTSD
 - chuangshanghouyingjizhangai
+
 tags:
+
 - dx:PTSD
 - community:多意识体
 - dx:解离障碍
 - guide:诊断与临床
+
 title: 创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）
 topic: 诊断与临床
 updated: 2025-10-20

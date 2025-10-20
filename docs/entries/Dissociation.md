@@ -4,6 +4,7 @@ description: 解离从功能性分离到解离障碍呈连续谱：区分高速�
 search:
   boost: 1.8
 synonyms:
+
 - 解离现象
 - 分离体验
 - 人格解体
@@ -12,15 +13,18 @@ synonyms:
 - 黑障
 - dissociation
 - jieli
+
 tags:
+
 - dx:DID
 - dx:DPDR
 - dx:OSDD
 - ops:系统运作
 - dx:解离障碍
+
 title: 解离（Dissociation）
 topic: 系统运作
-updated: 2025-10-19
+updated: 2025-10-20
 ---
 
 # 解离（Dissociation）

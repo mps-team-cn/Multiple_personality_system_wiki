@@ -4,10 +4,12 @@ description: 图帕与宿主间以感官化符号传递信息的非语言沟通�
 search:
   boost: 1.5
 tags:
+
 - ops:系统运作
 - sx:创伤症状
 - community:多意识体
 - dx:解离障碍
+
 title: T 语(Tulpish)
 topic: 系统运作
 updated: 2025-10-20

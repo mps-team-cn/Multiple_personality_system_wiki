@@ -1,16 +1,20 @@
 ---
 comments: true
 synonyms:
+
 - 回避型人格障碍
 - Avoidant Personality Disorder
 - AvPD
 - huibixing renge zhangai
+
 tags:
+
 - dx:C组人格障碍
 - guide:诊断与临床
+
 title: 回避型人格障碍（Avoidant Personality Disorder，AvPD）
 topic: 诊断与临床
-updated: 2025-10-14
+updated: 2025-10-20
 ---
 
 # 回避型人格障碍（Avoidant Personality Disorder，AvPD）

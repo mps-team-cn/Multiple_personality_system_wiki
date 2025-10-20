@@ -1,15 +1,19 @@
 ---
 comments: true
 synonyms:
+
 - 创伤聚焦 CBT
 - TF-CBT
 - Trauma-Focused CBT
+
 tags:
+
 - tx:创伤治疗
 - tx:心理治疗
+
 title: 创伤聚焦认知行为疗法（Trauma-Focused Cognitive Behavioral Therapy, TF-CBT）
 topic: 创伤与疗愈
-updated: 2025-10-13
+updated: 2025-10-20
 ---
 
 # 创伤聚焦认知行为疗法（Trauma-Focused Cognitive Behavioral Therapy, TF-CBT）

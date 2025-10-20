@@ -1,7 +1,7 @@
 ---
 tags:
 
-  - culture:文化表现
+    - culture:文化表现
 
 topic: 文化与表现
 title: 文化与表现导览

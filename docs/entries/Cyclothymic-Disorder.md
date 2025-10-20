@@ -1,17 +1,21 @@
 ---
 comments: true
 synonyms:
+
 - 环性情感障碍
 - 环性心境障碍
 - Cyclothymic Disorder
+
 tags:
+
 - dx:双相及相关障碍
 - dx:共病
 - guide:系统支持
 - guide:诊断与临床
+
 title: 环性心境障碍（Cyclothymic Disorder）
 topic: 诊断与临床
-updated: 2025-10-14
+updated: 2025-10-20
 ---
 
 # 环性心境障碍（Cyclothymic Disorder）

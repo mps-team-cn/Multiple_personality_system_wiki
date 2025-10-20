@@ -2,15 +2,19 @@
 comments: true
 description: 多意识体系统中两个或以上成员的意识状态部分重叠,出现身份边界模糊、记忆感知渗透的现象,探讨其特征、类型与应对方式
 synonyms:
+
 - 融混
 - Blending
 - Blurring
+
 tags:
+
 - dx:DID
 - ops:系统运作
 - community:多意识体
 - role:系统角色
 - dx:解离障碍
+
 title: 混合（Blending）
 topic: 系统运作
 updated: 2025-10-20

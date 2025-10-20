@@ -4,19 +4,23 @@ description: 深入了解嗜睡障碍的诊断标准、临床表现与治疗方�
 search:
   boost: 1.0
 synonyms:
+
 - 过度嗜睡障碍
 - 过度睡眠
 - Hypersomnolence Disorder
 - Hypersomnia
 - 嗜睡症
+
 tags:
+
 - guide:诊断与临床
 - sleep:睡眠障碍
 - dx:共病
 - guide:风险管理
+
 title: 嗜睡障碍（Hypersomnolence Disorder）
 topic: 诊断与临床
-updated: 2025-10-17
+updated: 2025-10-20
 ---
 
 # 嗜睡障碍（Hypersomnolence Disorder）

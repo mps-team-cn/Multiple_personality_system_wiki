@@ -1,18 +1,22 @@
 ---
 comments: true
 synonyms:
+
 - 物质滥用障碍
 - 成瘾障碍
 - SUD
 - substance use disorders
+
 tags:
+
 - guide:诊断与临床
 - dx:共病
 - dx:物质使用障碍
 - guide:风险管理
+
 title: 物质使用障碍（Substance Use Disorders，SUD）
 topic: 诊断与临床
-updated: 2025-10-14
+updated: 2025-10-20
 ---
 
 # 物质使用障碍（Substance Use Disorders，SUD）

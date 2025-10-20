@@ -4,17 +4,21 @@ description: 在内心空间中感知和互动系统成员的练习与体验，�
 search:
   boost: 1.5
 synonyms:
+
 - 内视
 - 内在可视化
 - 想象互动
 - Visualization
 - Imagination
 - Inner Visualization
+
 tags:
+
 - ops:系统运作
 - sx:创伤症状
 - community:多意识体
 - dx:解离障碍
+
 title: 内视（Visualization / Imagination）
 topic: 系统运作
 updated: 2025-10-20

@@ -1,17 +1,21 @@
 ---
 comments: true
 synonyms:
+
 - 睡眠问题
 - Sleep Disorders
 - SD
+
 tags:
+
 - guide:诊断与临床
 - dx:共病
 - sleep:睡眠障碍
 - guide:风险管理
+
 title: 睡眠障碍（Sleep Disorders，SD）
 topic: 诊断与临床
-updated: 2025-10-18
+updated: 2025-10-20
 ---
 
 # 睡眠障碍（Sleep Disorders，SD）

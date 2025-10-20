@@ -4,17 +4,21 @@ description: 执行者（Performer / Executive）成员的职能与心理机制�
 search:
   boost: 1.4
 synonyms:
+
 - 执行人格
 - 前台工作者
 - Performer
 - Executive
 - 行动者
 - 高功能成员
+
 tags:
+
 - role:系统角色
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 执行者（Performer / Executive）
 topic: 角色与身份
 updated: 2025-10-20

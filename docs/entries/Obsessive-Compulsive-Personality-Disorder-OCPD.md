@@ -1,16 +1,20 @@
 ---
 comments: true
 synonyms:
+
 - 强迫型人格障碍
 - Obsessive-Compulsive Personality Disorder
 - OCPD
 - qiangpoxing renge zhangai
+
 tags:
+
 - dx:C组人格障碍
 - guide:诊断与临床
+
 title: 强迫型人格障碍（Obsessive-Compulsive Personality Disorder，OCPD）
 topic: 诊断与临床
-updated: 2025-10-14
+updated: 2025-10-20
 ---
 
 # 强迫型人格障碍（Obsessive-Compulsive Personality Disorder，OCPD）

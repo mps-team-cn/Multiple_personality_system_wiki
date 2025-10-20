@@ -1,7 +1,7 @@
 ---
 tags:
 
-  - culture:文化表现
+    - culture:文化表现
 
 topic: 文化与表现
 title: 《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）

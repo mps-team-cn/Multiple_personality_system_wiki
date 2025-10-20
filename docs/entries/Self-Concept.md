@@ -1,13 +1,17 @@
 ---
 comments: true
 synonyms:
+
 - 自我认知
 - 自我图式
 - self concept
+
 tags:
+
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 自我概念（Self-Concept）
 topic: 理论与分类
 updated: 2025-10-20

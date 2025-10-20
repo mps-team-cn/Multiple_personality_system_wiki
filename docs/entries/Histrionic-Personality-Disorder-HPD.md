@@ -1,16 +1,20 @@
 ---
 comments: true
 synonyms:
+
 - 表演型人格障碍
 - Histrionic Personality Disorder
 - HPD
 - biaoyanxing renge zhangai
+
 tags:
+
 - dx:B组人格障碍
 - guide:诊断与临床
+
 title: 表演型人格障碍（Histrionic Personality Disorder，HPD）
 topic: 诊断与临床
-updated: 2025-10-13
+updated: 2025-10-20
 ---
 
 # 表演型人格障碍（Histrionic Personality Disorder，HPD）

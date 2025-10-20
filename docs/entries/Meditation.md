@@ -4,15 +4,19 @@ description: 冥想完整指南：通过呼吸觉察、身体扫描和内在平�
 search:
   boost: 1.5
 synonyms:
+
 - 正念练习
 - 静观
 - Mindfulness Practice
 - 冥想练习
+
 tags:
+
 - tx:创伤治疗
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 冥想(Meditation)
 topic: 创伤与疗愈
 updated: 2025-10-20

@@ -4,16 +4,20 @@ description: 创伤治疗的经典三阶段框架：先稳定安全与功能，�
 search:
   boost: 1.5
 synonyms:
+
 - 三阶段治疗
 - 阶段性治疗
 - 阶段导向治疗
 - Phase-Oriented Treatment
 - 三阶段创伤治疗
+
 tags:
+
 - tx:创伤治疗
+
 title: 三阶段创伤治疗模型（Three-Phase Trauma Treatment）
 topic: 创伤与疗愈
-updated: 2025-10-19
+updated: 2025-10-20
 ---
 
 # 三阶段创伤治疗模型（Three-Phase Trauma Treatment）

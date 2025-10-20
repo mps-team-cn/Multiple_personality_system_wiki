@@ -2,14 +2,18 @@
 comments: true
 description: 多意识体系统中常见的记忆断裂现象，包括顺行性失忆、逆行性失忆与解离性失忆等类型
 synonyms:
+
 - 失忆
 - Amnesia
 - 记忆缺失
 - Memory Loss
 - 遗忘
+
 tags:
+
 - dx:解离障碍
 - community:多意识体
+
 title: 失忆（Amnesia）
 topic: 系统运作
 updated: 2025-10-20

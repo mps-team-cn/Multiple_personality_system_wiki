@@ -9,13 +9,17 @@ search:
   boost: 1.5
 status: stable
 synonyms:
+
 - 深层记忆
 - Deep Memory
 - shenceng jiyi
+
 tags:
+
 - guide:诊断与临床
 - community:多意识体
 - sx:创伤症状
+
 title: 深层记忆(Deep Memory)
 topic: 诊断与临床
 updated: 2025-10-20

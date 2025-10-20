@@ -1,15 +1,19 @@
 ---
 comments: true
 synonyms:
+
 - 情感障碍
 - 心境障碍
 - mood disorders
 - affective disorders
 - mood disorder
+
 tags:
+
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 情感障碍（Mood Disorders）
 topic: 理论与分类
 updated: 2025-10-20

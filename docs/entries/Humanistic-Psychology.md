@@ -4,15 +4,19 @@ description: 人本主义心理学强调自我实现、自由意志与主观体�
 search:
   boost: 1.3
 synonyms:
+
 - 人本心理学
 - 人本主义学派
 - humanistic psychology
 - 马斯洛心理学
 - 罗杰斯心理学
+
 tags:
+
 - community:多意识体
 - theory:心理学理论
 - dx:解离障碍
+
 title: 人本主义心理学（Humanistic Psychology）
 topic: 理论与分类
 updated: 2025-10-20

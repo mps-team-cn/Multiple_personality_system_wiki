@@ -4,14 +4,18 @@ description: 管理者(Admin)在多意识体系统中的核心职能。理解系
 search:
   boost: 1.5
 synonyms:
+
 - 管理者
 - 管理员
 - Admin
 - 系统管理员
+
 tags:
+
 - ops:系统运作
 - community:多意识体
 - role:系统角色
+
 title: 管理者(Admin)
 topic: 角色与身份
 updated: 2025-10-20

@@ -2,17 +2,21 @@
 comments: true
 description: 全面了解大麻相关障碍的诊断标准、临床表现与治疗方法,包括大麻使用障碍、大麻中毒及戒断症状
 synonyms:
+
 - 大麻使用障碍
 - 大麻依赖
 - Cannabis Use Disorder
 - CUD
 - 大麻成瘾
+
 tags:
+
 - guide:诊断与临床
 - dx:物质使用障碍
+
 title: 大麻相关障碍（Cannabis-Related Disorders）
 topic: 诊断与临床
-updated: 2025-10-16
+updated: 2025-10-20
 ---
 
 # 大麻相关障碍（Cannabis-Related Disorders）

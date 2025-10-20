@@ -4,15 +4,19 @@ description: Tulpa 暂时接管身体部分或全部控制权的委托性体验,
 search:
   boost: 1.5
 synonyms:
+
 - 附身
 - Body Possession
 - Tulpa Possession
 - 身体控制转移
+
 tags:
+
 - community:Tulpa
 - ops:系统运作
 - community:多意识体
 - guide:实践指南
+
 title: 附体（Possession）
 topic: 系统运作
 updated: 2025-10-20

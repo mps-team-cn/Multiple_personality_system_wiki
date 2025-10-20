@@ -4,6 +4,7 @@ description: 个体在感知威胁或压力时产生的心理-生理机制，涉
 search:
   boost: 1.8
 synonyms:
+
 - Stress Response
 - Stress Reactivity
 - 压力反应
@@ -11,12 +12,15 @@ synonyms:
 - 心理应激反应
 - ANS唤醒
 - HPA轴反应
+
 tags:
+
 - ops:系统运作
 - sx:创伤症状
 - community:多意识体
 - dx:创伤及应激相关障碍
 - dx:解离障碍
+
 title: 应激反应（Stress Response）
 topic: 系统运作
 updated: 2025-10-20

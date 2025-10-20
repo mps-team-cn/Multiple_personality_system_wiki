@@ -4,10 +4,12 @@ description: 宿主（Host）的定义、角色与挑战。理解主要控制身
 search:
   boost: 1.8
 tags:
+
 - role:系统角色
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 宿主（Host）
 topic: 角色与身份
 updated: 2025-10-20

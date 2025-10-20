@@ -3,6 +3,7 @@ comments: true
 description: Parroting/Puppeting 指 Tulpa 创造过程中宿主担心自己在"假装" Tulpa 回应的常见心理现象，是区分自我想法与
   Tulpa 意识的认知挑战
 synonyms:
+
 - parroting
 - puppeting
 - 学舌
@@ -11,11 +12,14 @@ synonyms:
 - 提线木偶
 - 假装tulpa
 - 自我怀疑
+
 tags:
+
 - community:Tulpa
 - guide:创造型系统
 - community:多意识体
 - guide:实践指南
+
 title: 学舌/操纵（Parroting/Puppeting）
 topic: 实践指南
 updated: 2025-10-20

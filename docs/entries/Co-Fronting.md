@@ -4,10 +4,12 @@ description: 定义多人共享前台的协作形态，区分与切换/融合/�
 search:
   boost: 1.5
 tags:
+
 - ops:系统运作
 - sx:创伤症状
 - community:多意识体
 - dx:解离障碍
+
 title: 共前台（Co-fronting）
 topic: 系统运作
 updated: 2025-10-20

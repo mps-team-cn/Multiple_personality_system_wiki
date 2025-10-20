@@ -4,10 +4,12 @@ description: 多重人格系统的完整定义与运作原理。涵盖解离障�
 search:
   boost: 1.8
 tags:
+
 - dx:DID
 - ops:系统运作
 - community:多意识体
 - dx:解离障碍
+
 title: 系统(System)
 topic: 系统运作
 updated: 2025-10-20

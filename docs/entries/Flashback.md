@@ -2,10 +2,12 @@
 comments: true
 description: 闪回（Flashback）现象详解：类型、触发因素与应对技巧。理解创伤记忆再现的机制，掌握接地与安全策略减轻闪回影响
 tags:
+
 - dx:CPTSD
 - dx:PTSD
 - community:多意识体
 - guide:诊断与临床
+
 title: 闪回（Flashback）
 topic: 诊断与临床
 updated: 2025-10-20

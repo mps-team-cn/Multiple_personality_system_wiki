@@ -4,16 +4,20 @@ description: 复杂性创伤后应激障碍（CPTSD）完整指南：诊断标�
 search:
   boost: 1.5
 synonyms:
+
 - 复杂性创伤
 - Complex Post-Traumatic Stress Disorder
 - Complex PTSD
 - CPTSD
 - fuzaxingchuangshanghouyingjizhangai
+
 tags:
+
 - dx:CPTSD
 - dx:PTSD
 - community:多意识体
 - guide:诊断与临床
+
 title: 复杂性创伤后应激障碍（CPTSD）
 topic: 诊断与临床
 updated: 2025-10-20

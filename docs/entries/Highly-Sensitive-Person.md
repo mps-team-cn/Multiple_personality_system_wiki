@@ -1,13 +1,17 @@
 ---
 comments: true
 synonyms:
+
 - 高敏感个体
 - 高敏感人格
 - highly sensitive person
+
 tags:
+
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 高敏感人群（Highly Sensitive Person, HSP）
 topic: 理论与分类
 updated: 2025-10-20

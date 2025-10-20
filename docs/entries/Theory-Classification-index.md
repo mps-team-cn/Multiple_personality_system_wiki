@@ -2,9 +2,8 @@
 title: 理论与分类
 topic: 理论与分类
 tags:
-
-  - guide:导览
-  - guide:索引
+  - 索引
+  - 主题导览
 comments: true
 hide:
   - toc
@@ -23,6 +22,7 @@ hide:
 - [心理防御机制（Defense Mechanisms）](Defense-Mechanisms.md) — *2025-10-20*
 - [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md) — *2025-10-20*
 - [情绪调节（Emotion Regulation）](Emotion-Regulation.md) — *2025-10-20*
+- [多意识体系统中的创伤功能分化（Functional Dissociation of Trauma in Plural Systems）](Functional-Dissociation-of-Trauma-in-Plural-Systems.md) — *2025-10-20*
 - [高敏感人群（Highly Sensitive Person, HSP）](Highly-Sensitive-Person.md) — *2025-10-20*
 - [人本主义心理学（Humanistic Psychology）](Humanistic-Psychology.md) — *2025-10-20*
 - [学习与条件反射（Learning & Conditioning）](Learning-Conditioning.md) — *2025-10-20*
@@ -38,4 +38,3 @@ hide:
 - [自我效能感（Self-Efficacy）](Self-Efficacy.md) — *2025-10-20*
 - [社会认知理论（Social-Cognitive Theory）](Social-Cognitive-Theory.md) — *2025-10-20*
 - [移情与反移情（Transference and Countertransference）](Transference-Countertransference.md) — *2025-10-20*
-- [多意识体系统中的创伤功能分化（Functional Dissociation of Trauma in Plural Systems）](Functional-Dissociation-of-Trauma-in-Plural-Systems.md) — *2025-10-17*

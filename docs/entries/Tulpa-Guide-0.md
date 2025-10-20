@@ -4,17 +4,21 @@ description: 系统化 Tulpa 创造实践指南：涵盖基础原理、训练方
 search:
   boost: 1.8
 synonyms:
+
 - 图帕创造指南
 - Tulpa Creation Guide
 - 图巴培育指南
 - 意识同伴训练
 - tulpa guide
 - tulpamancy guide
+
 tags:
+
 - community:Tulpa
 - guide:创造型系统
 - community:多意识体
 - guide:实践指南
+
 title: Tulpa 完全创造指南
 topic: 实践指南
 updated: 2025-10-20

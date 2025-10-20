@@ -1,17 +1,21 @@
 ---
 comments: true
 synonyms:
+
 - 广场恐惧症
 - Agoraphobia
 - AG
 - 场所恐惧症
 - guangchang kongjuzheng
+
 tags:
+
 - dx:焦虑障碍
 - guide:诊断与临床
+
 title: 广场恐惧症(Agoraphobia, AG)
 topic: 诊断与临床
-updated: 2025-10-14
+updated: 2025-10-20
 ---
 
 # 广场恐惧症(Agoraphobia, AG)

@@ -2,17 +2,21 @@
 comments: true
 description: 以显著低体重、强烈恐惧体重增加和体像扭曲为核心的进食障碍,伴随严重躯体和心理损害,需多学科综合干预
 synonyms:
+
 - 神经性厌食
 - 厌食症
 - Anorexia Nervosa
 - AN
+
 tags:
+
 - guide:诊断与临床
 - dx:进食障碍
 - guide:风险管理
+
 title: 神经性厌食症(Anorexia Nervosa, AN)
 topic: 诊断与临床
-updated: 2025-10-14
+updated: 2025-10-20
 ---
 
 # 神经性厌食症(Anorexia Nervosa, AN)

@@ -1,15 +1,19 @@
 ---
 comments: true
 synonyms:
+
 - 慢性疼痛
 - Chronic Pain
+
 tags:
+
 - guide:诊断与临床
 - dx:共病
 - guide:系统支持
+
 title: 慢性疼痛（Chronic Pain）
 topic: 诊断与临床
-updated: 2025-10-14
+updated: 2025-10-20
 ---
 
 # 慢性疼痛（Chronic Pain）

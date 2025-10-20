@@ -1,10 +1,12 @@
 ---
 comments: true
 tags:
+
 - bio:脑刺激
+
 title: 改良电痉挛治疗（Modified Electroconvulsive Therapy, MECT）
 topic: 诊断与临床
-updated: 2025-10-17
+updated: 2025-10-20
 ---
 
 # 改良电痉挛治疗（Modified Electroconvulsive Therapy, MECT）

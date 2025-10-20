@@ -4,17 +4,21 @@ description: 惊恐发作的定义、症状、分类、诱因与管理策略。�
 search:
   boost: 1.5
 synonyms:
+
 - 惊恐发作
 - 惊恐袭击
 - Panic Attack
 - panicattack
+
 tags:
+
 - dx:焦虑障碍
 - dx:解离障碍
 - guide:诊断与临床
+
 title: 惊恐发作（Panic Attack）
 topic: 诊断与临床
-updated: 2025-10-18
+updated: 2025-10-20
 ---
 
 # 惊恐发作（Panic Attack）

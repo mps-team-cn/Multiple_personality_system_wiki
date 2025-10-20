@@ -1,17 +1,21 @@
 ---
 comments: true
 synonyms:
+
 - 性别焦虑
 - 性别不一致
 - Gender Dysphoria
 - GD
 - xingbiebu'an
+
 tags:
+
 - sx:创伤症状
 - guide:诊断与临床
+
 title: 性别不安（Gender Dysphoria，GD）
 topic: 诊断与临床
-updated: 2025-10-14
+updated: 2025-10-20
 ---
 
 # 性别不安（Gender Dysphoria，GD）

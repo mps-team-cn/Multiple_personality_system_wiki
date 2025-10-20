@@ -4,13 +4,17 @@ description: 识别当下前台成员的稳定外显线索(语言、声学、表
 search:
   boost: 1.3
 synonyms:
+
 - Tells
 - Markers
 - 识别线索
+
 tags:
+
 - ops:系统运作
 - community:多意识体
 - dx:解离障碍
+
 title: 锚点（Anchors / Tells / Markers）
 topic: 系统运作
 updated: 2025-10-20

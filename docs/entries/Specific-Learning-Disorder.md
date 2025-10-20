@@ -2,6 +2,7 @@
 comments: true
 description: 特定学习障碍是指在阅读、书写或数学领域存在持续困难的神经发育障碍，影响学业和日常功能，通常在学龄期显现，需与智力发育障碍、感官缺陷及教育机会不足鉴别。
 synonyms:
+
 - Specific Learning Disorder
 - SLD
 - 学习障碍
@@ -11,12 +12,15 @@ synonyms:
 - Dysgraphia
 - 数学障碍
 - Dyscalculia
+
 tags:
+
 - guide:诊断与临床
 - dev:神经发育障碍
+
 title: 特定学习障碍（Specific Learning Disorder, SLD）
 topic: 诊断与临床
-updated: 2025-10-16
+updated: 2025-10-20
 ---
 
 # 特定学习障碍（Specific Learning Disorder, SLD）

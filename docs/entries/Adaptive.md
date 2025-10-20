@@ -1,12 +1,16 @@
 ---
 comments: true
 synonyms:
+
 - 适应型
 - 创伤型
+
 tags:
+
 - role:系统角色
 - community:多意识体
 - dx:解离障碍
+
 title: 适应型（Adaptive）
 topic: 角色与身份
 updated: 2025-10-20

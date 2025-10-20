@@ -4,10 +4,12 @@ description: 系统内部沟通技巧与方法：建立有效对话、解决冲�
 search:
   boost: 1.5
 tags:
+
 - ops:系统运作
 - sx:创伤症状
 - community:多意识体
 - dx:解离障碍
+
 title: 内部沟通（Internal Communication）
 topic: 系统运作
 updated: 2025-10-20

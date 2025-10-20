@@ -1,13 +1,17 @@
 ---
 comments: true
 synonyms:
+
 - 认知不协调
 - 认知冲突
 - cognitive dissonance
+
 tags:
+
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 认知失调（Cognitive Dissonance）
 topic: 理论与分类
 updated: 2025-10-20

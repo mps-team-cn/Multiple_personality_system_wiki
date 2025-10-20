@@ -2,14 +2,18 @@
 comments: true
 description: 基于外部人物（真实或虚构）形成的系统成员，可能具有该人物的特征、语言风格或行为模式
 synonyms:
+
 - 引入者
 - Introject
 - 内化者
 - 拟态成员
+
 tags:
+
 - role:系统角色
 - community:多意识体
 - dx:解离障碍
+
 title: 引入者（Introject）
 topic: 角色与身份
 updated: 2025-10-20

@@ -4,10 +4,12 @@ description: 解离障碍（Dissociative Disorders）完整分类：DID、OSDD�
 search:
   boost: 1.8
 tags:
+
 - sx:创伤症状
 - community:多意识体
 - dx:解离障碍
 - guide:诊断与临床
+
 title: 解离障碍（Dissociative Disorders）
 topic: 诊断与临床
 updated: 2025-10-20

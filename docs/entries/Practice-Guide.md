@@ -4,9 +4,11 @@ description: 汇总站内所有实践性词条，涵盖 Tulpa 创造、意识训
 search:
   boost: 1.6
 tags:
+
 - community:Tulpa
 - community:多意识体
 - guide:实践指南
+
 title: 实践指南导览
 topic: 实践指南
 updated: 2025-10-20

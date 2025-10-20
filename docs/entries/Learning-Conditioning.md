@@ -1,12 +1,16 @@
 ---
 comments: true
 synonyms:
+
 - 学习理论
 - 条件作用
 - learning and conditioning
+
 tags:
+
 - community:多意识体
 - dx:解离障碍
+
 title: 学习与条件反射（Learning & Conditioning）
 topic: 理论与分类
 updated: 2025-10-20

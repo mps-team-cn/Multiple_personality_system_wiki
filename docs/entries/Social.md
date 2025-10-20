@@ -2,13 +2,17 @@
 comments: true
 description: 擅长人际互动与公共场合表现的系统成员，在需要社交技能时主动前台或提供支持
 synonyms:
+
 - 社交者
 - Social
 - 社交成员
 - Social Alter
+
 tags:
+
 - role:系统角色
 - community:多意识体
+
 title: 社交者（Social）
 topic: 角色与身份
 updated: 2025-10-20

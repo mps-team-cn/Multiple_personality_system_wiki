@@ -4,16 +4,20 @@ description: 精神分析心理学强调潜意识驱动与本能冲突,是心理
 search:
   boost: 1.2
 synonyms:
+
 - 精神分析
 - 精神分析学派
 - psychoanalysis
 - 弗洛伊德心理学
 - 心理动力学
+
 tags:
+
 - theory:心理学理论
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 精神分析心理学（Psychoanalysis）
 topic: 理论与分类
 updated: 2025-10-20

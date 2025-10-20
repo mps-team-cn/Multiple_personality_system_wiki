@@ -1,16 +1,20 @@
 ---
 comments: true
 synonyms:
+
 - 癔病
 - 歇斯底里
 - Hysteria
+
 tags:
+
 - history:历史术语
 - guide:诊断与临床
 - dx:躯体症状及相关障碍
+
 title: 癔症（Hysteria，已过时）
 topic: 诊断与临床
-updated: 2025-10-13
+updated: 2025-10-20
 ---
 
 # 癔症（Hysteria，已过时）

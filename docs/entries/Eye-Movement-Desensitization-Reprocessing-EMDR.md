@@ -1,16 +1,20 @@
 ---
 comments: true
 synonyms:
+
 - 眼动脱敏
 - EMDR
 - Eye Movement Desensitization
 - 眼动疗法
+
 tags:
+
 - tx:创伤治疗
 - tx:心理治疗
+
 title: 眼动脱敏与再加工（Eye Movement Desensitization and Reprocessing, EMDR）
 topic: 创伤与疗愈
-updated: 2025-10-13
+updated: 2025-10-20
 ---
 
 # 眼动脱敏与再加工（Eye Movement Desensitization and Reprocessing, EMDR）

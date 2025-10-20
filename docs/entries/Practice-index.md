@@ -2,9 +2,8 @@
 title: 实践指南
 topic: 实践指南
 tags:
-
-  - guide:导览
-  - guide:索引
+  - 索引
+  - 主题导览
 comments: true
 hide:
   - toc

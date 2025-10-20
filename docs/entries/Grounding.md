@@ -4,14 +4,18 @@ description: 接地（Grounding）技术完整指南：应对解离、焦虑与�
 search:
   boost: 1.8
 synonyms:
+
 - 接地技巧
 - 稳定技巧
 - Grounding techniques
+
 tags:
+
 - tx:创伤治疗
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 接地（Grounding）
 topic: 创伤与疗愈
 updated: 2025-10-20

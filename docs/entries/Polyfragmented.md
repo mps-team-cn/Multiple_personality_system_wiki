@@ -1,12 +1,16 @@
 ---
 comments: true
 synonyms:
+
 - 超碎
+
 tags:
+
 - role:系统角色
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 超级破碎（Polyfragmented）
 topic: 角色与身份
 updated: 2025-10-20

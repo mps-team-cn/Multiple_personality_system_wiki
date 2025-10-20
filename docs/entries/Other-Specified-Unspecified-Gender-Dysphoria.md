@@ -2,18 +2,22 @@
 comments: true
 description: 简要介绍其他特定与未特定性别不安的诊断要点与临床意义。了解不完全符合性别不安标准的性别认同困扰，并参考完整性别不安词条
 synonyms:
+
 - 其他特定性别不安
 - 未特定性别不安
 - Other Specified Gender Dysphoria
 - Unspecified Gender Dysphoria
 - OSGD
 - UGD
+
 tags:
+
 - dx:性别相关障碍
 - guide:诊断与临床
+
 title: 其他特定/未特定性别不安（Other Specified/Unspecified Gender Dysphoria）
 topic: 诊断与临床
-updated: 2025-10-14
+updated: 2025-10-20
 ---
 
 # 其他特定/未特定性别不安（Other Specified/Unspecified Gender Dysphoria）

@@ -5,15 +5,19 @@ description: “主导”在不同社群语境下的指涉差异与映射：在 
 search:
   boost: 1.5
 synonyms:
+
 - 主导
 - 主导者
 - Dominant
 - Lead
+
 tags:
+
 - role:系统角色
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 主导（Dominant / Lead）
 topic: 角色与身份
 updated: 2025-10-20

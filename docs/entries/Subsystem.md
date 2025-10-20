@@ -3,14 +3,18 @@ comments: true
 search:
   boost: 1.5
 synonyms:
+
 - 子系统
 - Subsystem
 - 次级系统
+
 tags:
+
 - ops:系统运作
 - sx:创伤症状
 - community:多意识体
 - dx:解离障碍
+
 title: 子系统（Subsystem）
 topic: 系统运作
 updated: 2025-10-20

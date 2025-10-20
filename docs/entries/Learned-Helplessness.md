@@ -4,14 +4,18 @@ description: 深入解析习得性无助的理论发展、神经机制与临床�
 search:
   boost: 1.2
 synonyms:
+
 - 习得无助
 - 学习性无助
 - Learned Helplessness
+
 tags:
+
 - guide:诊断与临床
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 习得性无助(Learned Helplessness)
 topic: 诊断与临床
 updated: 2025-10-20

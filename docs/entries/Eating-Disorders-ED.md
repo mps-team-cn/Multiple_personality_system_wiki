@@ -1,17 +1,21 @@
 ---
 comments: true
 synonyms:
+
 - 饮食障碍
 - Eating Disorders
 - ED
+
 tags:
+
 - guide:诊断与临床
 - dx:共病
 - dx:进食障碍
 - guide:风险管理
+
 title: 进食障碍（Eating Disorders，ED）
 topic: 诊断与临床
-updated: 2025-10-14
+updated: 2025-10-20
 ---
 
 # 进食障碍（Eating Disorders，ED）

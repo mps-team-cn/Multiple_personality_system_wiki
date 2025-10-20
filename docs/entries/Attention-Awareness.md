@@ -1,12 +1,16 @@
 ---
 comments: true
 synonyms:
+
 - 注意力与觉察
 - 注意觉察
 - attention and awareness
+
 tags:
+
 - community:多意识体
 - dx:解离障碍
+
 title: 注意与觉察（Attention & Awareness）
 topic: 理论与分类
 updated: 2025-10-20

@@ -4,10 +4,12 @@ description: 多意识体系统内部对身体控制权(executive control)、记
 search:
   boost: 1.5
 tags:
+
 - ops:系统运作
 - sx:创伤症状
 - community:多意识体
 - dx:解离障碍
+
 title: 权限(Permissions)
 topic: 系统运作
 updated: 2025-10-20

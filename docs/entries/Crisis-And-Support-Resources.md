@@ -3,14 +3,18 @@ description: 出现心理危机、自伤冲动或解离失控时的即时求助�
 search:
   boost: 2.0
 synonyms:
+
 - 危机支援
 - 心理热线
 - 紧急求助
 - crisis help
 - support resources
+
 tags:
+
 - guide:实践指南
 - community:多意识体
+
 title: 危机与支援资源（Crisis & Support Resources）
 topic: 实践指南
 updated: 2025-10-20

@@ -4,10 +4,12 @@ description: 定义前台/执掌、区分与切换/共前台/后台的边界，�
 search:
   boost: 1.5
 tags:
+
 - ops:系统运作
 - sx:创伤症状
 - community:多意识体
 - dx:解离障碍
+
 title: 前台（Front / Fronting）
 topic: 系统运作
 updated: 2025-10-20

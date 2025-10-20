@@ -2,14 +2,18 @@
 comments: true
 description: 深入解析多意识体系统中身份独立性的概念、评估维度与分化程度。了解认知、情感与行为层面的自主性表现，以及与解离程度、创伤背景的关联
 synonyms:
+
 - 独立意识
 - Independence
 - 身份分化
 - Individuation
+
 tags:
+
 - ops:系统运作
 - community:多意识体
 - dx:解离障碍
+
 title: 独立性（Independence）
 topic: 系统运作
 updated: 2025-10-20

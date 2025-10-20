@@ -1,14 +1,18 @@
 ---
 comments: true
 synonyms:
+
 - 共感知
 - Sense of Presence
 - Co-awareness
+
 tags:
+
 - ops:系统运作
 - sx:创伤症状
 - community:多意识体
 - dx:解离障碍
+
 title: 存在感（Sense of Presence）
 topic: 系统运作
 updated: 2025-10-20

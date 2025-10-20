@@ -1,7 +1,7 @@
 ---
 tags:
 
-  - culture:文化表现
+    - culture:文化表现
 
 topic: 文化与表现
 title: 《妄想代理人》（Paranoia Agent）与集体意识的具象化

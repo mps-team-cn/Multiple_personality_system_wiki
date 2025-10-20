@@ -1,18 +1,22 @@
 ---
 comments: true
 synonyms:
+
 - 易装癖
 - 恋物性易装癖
 - 双重角色易装
 - Transvestism
 - Fetishistic Transvestism
 - Dual-role Transvestism
+
 tags:
+
 - history:历史术语
 - guide:诊断与临床
+
 title: 异装癖（Transvestism，已过时）
 topic: 诊断与临床
-updated: 2025-10-19
+updated: 2025-10-20
 ---
 
 # 异装癖（Transvestism，已过时）

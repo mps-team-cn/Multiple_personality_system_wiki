@@ -1,7 +1,7 @@
 ---
 tags:
 
-  - culture:文化表现
+    - culture:文化表现
 
 topic: 文化与表现
 title: 《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）

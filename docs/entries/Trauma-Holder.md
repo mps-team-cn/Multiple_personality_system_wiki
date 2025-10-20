@@ -4,15 +4,19 @@ description: 保留特定创伤记忆与情绪的系统成员，可能在触发�
 search:
   boost: 1.5
 synonyms:
+
 - 创伤持有者
 - Trauma Holder
 - 创伤承载者
 - Trauma Bearer
+
 tags:
+
 - role:系统角色
 - community:多意识体
 - sx:创伤症状
 - dx:解离障碍
+
 title: 创伤持有者（Trauma Holder）
 topic: 角色与身份
 updated: 2025-10-20

@@ -2,18 +2,22 @@
 comments: true
 description: 深入了解发作性睡病的诊断标准、临床表现与治疗方法。解析日间过度嗜睡、猝倒、睡眠瘫痪的特征,以及与 DID、PTSD 等共病关系,提供创伤知情的评估与管理策略
 synonyms:
+
 - 发作性睡眠
 - 嗜睡发作
 - Narcolepsy
 - Sleep Attacks
+
 tags:
+
 - guide:诊断与临床
 - sleep:睡眠障碍
 - dx:共病
 - guide:风险管理
+
 title: 发作性睡病(Narcolepsy)
 topic: 诊断与临床
-updated: 2025-10-19
+updated: 2025-10-20
 ---
 
 # 发作性睡病(Narcolepsy)

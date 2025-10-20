@@ -5,15 +5,19 @@ description: 社群使用的多意识体形成来源分类框架，强调自我�
 search:
   boost: 1.5
 synonyms:
+
 - Emmengard 分类
 - Emmengard’s Plural Rings
 - Emmengard’s Rings
 - 分类法
 - 多来源分类
+
 tags:
+
 - role:系统角色
 - community:多意识体
 - dx:解离障碍
+
 title: 埃蒙加德分类法（Emmengard Classification）
 topic: 角色与身份
 updated: 2025-10-20

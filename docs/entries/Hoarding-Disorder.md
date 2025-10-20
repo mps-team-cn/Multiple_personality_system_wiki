@@ -2,16 +2,20 @@
 comments: true
 description: 深入解析囤积障碍的诊断标准、临床表现与治疗方法。了解强迫性囤积行为的本质、心理根源及康复路径，包含 ICD-11 与 DSM-5-TR 权威诊断标准
 synonyms:
+
 - 储物症
 - 囤积症
 - Hoarding Disorder
 - HD
+
 tags:
+
 - guide:诊断与临床
 - dx:强迫及相关障碍
+
 title: 囤积障碍（Hoarding Disorder，HD）
 topic: 诊断与临床
-updated: 2025-10-15
+updated: 2025-10-20
 ---
 
 # 囤积障碍（Hoarding Disorder，HD）

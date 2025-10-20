@@ -4,10 +4,12 @@ description: 详解其他特定解离性障碍（OSDD）的诊断标准与临床
 search:
   boost: 2.0
 tags:
+
 - dx:OSDD
 - dx:解离障碍
 - guide:诊断与临床
 - guide:适应型系统
+
 title: 其他特定解离性障碍（OSDD）
 topic: 诊断与临床
 updated: 2025-10-20

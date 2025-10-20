@@ -2,16 +2,20 @@
 comments: true
 description: 概述咖啡因相关障碍的诊断、临床表现与管理要点，涵盖咖啡因中毒与咖啡因戒断，并说明与睡眠/焦虑障碍的密切关系
 synonyms:
+
 - 咖啡因使用障碍
 - 咖啡因依赖
 - Caffeine Use Disorder
 - Caffeine Dependence
+
 tags:
+
 - guide:诊断与临床
 - dx:物质使用障碍
+
 title: 咖啡因相关障碍（Caffeine-Related Disorders）
 topic: 诊断与临床
-updated: 2025-10-16
+updated: 2025-10-20
 ---
 
 # 咖啡因相关障碍（Caffeine-Related Disorders）

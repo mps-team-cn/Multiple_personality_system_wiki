@@ -2,9 +2,8 @@
 title: 系统运作
 topic: 系统运作
 tags:
-
-  - guide:导览
-  - guide:索引
+  - 索引
+  - 主题导览
 comments: true
 hide:
   - toc
@@ -28,6 +27,7 @@ hide:
 - [共前台（Co-fronting）](Co-Fronting.md) — *2025-10-20*
 - [意识修改（Consciousness Modification）](Consciousness-Modification.md) — *2025-10-20*
 - [去现实化（Derealization）](Derealization.md) — *2025-10-20*
+- [解离（Dissociation）](Dissociation.md) — *2025-10-20*
 - [独有记忆（Exomemory）](Exomemory.md) — *2025-10-20*
 - [外投射（External Projection）](External-Projection.md) — *2025-10-20*
 - [家族式系统（Family Systems, Xianyu Theory）](Family-Systems-Xianyu.md) — *2025-10-20*
@@ -42,6 +42,7 @@ hide:
 - [内部沟通（Internal Communication）](Internal-Communication.md) — *2025-10-20*
 - [侵入性思维（Intrusive Thoughts）](Intrusive-Thoughts.md) — *2025-10-20*
 - [迭代（Iteration）](Iteration.md) — *2025-10-20*
+- [角色面具（Masking / Social Masking）](Masking.md) — *2025-10-20*
 - [偏重（Median / Bias）](Median-Bias.md) — *2025-10-20*
 - [记忆屏蔽（Memory Shielding）](Memory-Shielding.md) — *2025-10-20*
 - [混合型系统（Mixed Systems, Xianyu Theory）](Mixed-Systems-Xianyu.md) — *2025-10-20*
@@ -58,6 +59,7 @@ hide:
 - [单一类系统（Single-Class Systems, Xianyu Theory）](Single-Class-Systems-Xianyu.md) — *2025-10-20*
 - [系魂型系统（Soul-Linked Systems, Xianyu Theory）](Soul-Linked-Systems-Xianyu.md) — *2025-10-20*
 - [应激反应（Stress Response）](Stress-Response.md) — *2025-10-20*
+- [结构性解离理论（Theory of Structural Dissociation of the Personality, TSDT）](Structural-Dissociation-Theory.md) — *2025-10-20*
 - [子系统（Subsystem）](Subsystem.md) — *2025-10-20*
 - [切换（Switch）](Switch.md) — *2025-10-20*
 - [系统(System)](System.md) — *2025-10-20*
@@ -66,6 +68,3 @@ hide:
 - [内视（Visualization / Imagination）](Visualization-Imagination.md) — *2025-10-20*
 - [幻境（Wonderland）](Wonderland.md) — *2025-10-20*
 - [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](Xianyu-Theory-Niche-Classification.md) — *2025-10-20*
-- [解离（Dissociation）](Dissociation.md) — *2025-10-19*
-- [角色面具（Masking / Social Masking）](Masking.md) — *2025-10-19*
-- [结构性解离理论（Theory of Structural Dissociation of the Personality, TSDT）](Structural-Dissociation-Theory.md) — *2025-10-18*

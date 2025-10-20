@@ -1,16 +1,20 @@
 ---
 comments: true
 synonyms:
+
 - 侵入性思维
 - 侵入式思维
 - 侵思
 - intrusive thoughts
 - intrusive thinking
+
 tags:
+
 - dx:PTSD
 - ops:系统运作
 - community:多意识体
 - dx:解离障碍
+
 title: 侵入性思维（Intrusive Thoughts）
 topic: 系统运作
 updated: 2025-10-20

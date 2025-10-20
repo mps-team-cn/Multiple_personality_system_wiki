@@ -1,13 +1,17 @@
 ---
 comments: true
 synonyms:
+
 - 心理投射
 - 投射机制
 - projection
+
 tags:
+
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 投射（Projection, Psychology）
 topic: 理论与分类
 updated: 2025-10-20

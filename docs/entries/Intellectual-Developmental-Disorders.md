@@ -1,15 +1,19 @@
 ---
 comments: true
 synonyms:
+
 - 智力障碍
 - 智力残疾
 - 精神发育迟滞
+
 tags:
+
 - guide:诊断与临床
 - dev:神经发育障碍
+
 title: 智力发育障碍（Intellectual Developmental Disorders）
 topic: 诊断与临床
-updated: 2025-10-14
+updated: 2025-10-20
 ---
 
 # 智力发育障碍（Intellectual Developmental Disorders）

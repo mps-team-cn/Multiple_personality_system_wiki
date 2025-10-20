@@ -4,6 +4,7 @@ description: 创伤（Trauma）的本质、类型、评估与干预框架。涵�
 search:
   boost: 1.8
 synonyms:
+
 - 心理创伤
 - 精神创伤
 - 创伤性应激
@@ -15,11 +16,14 @@ synonyms:
 - PTG
 - Post-Traumatic Growth
 - chuangshang
+
 tags:
+
 - guide:诊断与临床
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 创伤（Trauma）
 topic: 诊断与临床
 updated: 2025-10-20

@@ -1,19 +1,23 @@
 ---
 comments: true
 synonyms:
+
 - 长期哀伤障碍
 - 延长性哀伤障碍
 - 持续性复杂丧亲障碍
 - Prolonged Grief Disorder
 - PGD
 - changqiaishangzhangai
+
 tags:
+
 - guide:诊断与临床
 - dx:创伤及应激相关障碍
 - sx:创伤症状
+
 title: 长期哀伤障碍(Prolonged Grief Disorder, PGD)
 topic: 诊断与临床
-updated: 2025-10-14
+updated: 2025-10-20
 ---
 
 # 长期哀伤障碍(Prolonged Grief Disorder, PGD)

@@ -1,12 +1,16 @@
 ---
 comments: true
 synonyms:
+
 - 心理能量
 - 注意资源
 - psychic energy
+
 tags:
+
 - community:多意识体
 - dx:解离障碍
+
 title: 心理能量与注意资源（Psychic Energy & Attention）
 topic: 理论与分类
 updated: 2025-10-20

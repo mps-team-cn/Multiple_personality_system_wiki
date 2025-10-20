@@ -1,13 +1,17 @@
 ---
 comments: true
 synonyms:
+
 - 依附理论
 - 依恋关系理论
 - attachment theory
+
 tags:
+
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 依恋理论（Attachment Theory）
 topic: 理论与分类
 updated: 2025-10-20

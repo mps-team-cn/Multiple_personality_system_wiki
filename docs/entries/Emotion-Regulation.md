@@ -1,13 +1,17 @@
 ---
 comments: true
 synonyms:
+
 - 情绪管理
 - 情绪调控
 - emotion regulation
+
 tags:
+
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 情绪调节（Emotion Regulation）
 topic: 理论与分类
 updated: 2025-10-20

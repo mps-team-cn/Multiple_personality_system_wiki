@@ -1,13 +1,17 @@
 ---
 comments: true
 synonyms:
+
 - 防御机制
 - 自我防御机制
 - psychological defense
+
 tags:
+
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 心理防御机制（Defense Mechanisms）
 topic: 理论与分类
 updated: 2025-10-20

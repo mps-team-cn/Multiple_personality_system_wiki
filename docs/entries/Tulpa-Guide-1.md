@@ -1,10 +1,12 @@
 ---
 comments: true
 tags:
+
 - community:Tulpa
 - guide:创造型系统
 - community:多意识体
 - guide:实践指南
+
 title: Tulpa 完全创造指南·基础篇
 topic: 实践指南
 updated: 2025-10-20

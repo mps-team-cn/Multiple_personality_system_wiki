@@ -1,13 +1,17 @@
 ---
 comments: true
 synonyms:
+
 - 社会认知学习理论
 - 班杜拉社会认知理论
 - social cognitive theory
+
 tags:
+
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 社会认知理论（Social-Cognitive Theory）
 topic: 理论与分类
 updated: 2025-10-20

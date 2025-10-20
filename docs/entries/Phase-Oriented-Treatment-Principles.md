@@ -5,16 +5,20 @@ description: 创伤与解离相关困扰的阶段性治疗总原则：以安全�
 search:
   boost: 1.5
 synonyms:
+
 - 阶段导向治疗
 - 阶段性治疗
 - Phase‑Oriented Treatment
 - 三阶段治疗原则
+
 tags:
+
 - tx:创伤治疗
 - tx:心理治疗
+
 title: 阶段性治疗原则（Phase‑Oriented Treatment Principles）
 topic: 创伤与疗愈
-updated: 2025-10-19
+updated: 2025-10-20
 ---
 
 # 阶段性治疗原则（Phase‑Oriented Treatment Principles）

@@ -3,16 +3,20 @@ comments: true
 description: 系统梳理边缘性人格障碍（BPD）的核心特征、ICD-11 与 DSM-5-TR 诊断要点、临床表现、共病与风险管理、鉴别诊断与循证治疗方法（DBT/MBT/TFP
   等）。
 synonyms:
+
 - 边缘性人格障碍
 - Borderline Personality Disorder
 - BPD
 - bianyuanxing renge zhangai
+
 tags:
+
 - dx:B组人格障碍
 - guide:诊断与临床
+
 title: 边缘性人格障碍（Borderline Personality Disorder，BPD）
 topic: 诊断与临床
-updated: 2025-10-17
+updated: 2025-10-20
 ---
 
 # 边缘性人格障碍（Borderline Personality Disorder，BPD）

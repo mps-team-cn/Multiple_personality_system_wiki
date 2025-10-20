@@ -4,16 +4,20 @@ description: 正念完整指南：有意、当下、非评判的注意力训练�
 search:
   boost: 1.6
 synonyms:
+
 - 正念练习
 - 正念觉察
 - Mindfulness Practice
 - Present-Centered Awareness
 - 当下觉察
+
 tags:
+
 - tx:创伤治疗
 - community:多意识体
 - dx:解离障碍
 - sx:创伤症状
+
 title: 正念(Mindfulness)
 topic: 创伤与疗愈
 updated: 2025-10-20

@@ -1,16 +1,20 @@
 ---
 comments: true
 synonyms:
+
 - 偏执型人格障碍
 - Paranoid Personality Disorder
 - PPD
 - pianzhixing renge zhangai
+
 tags:
+
 - dx:A组人格障碍
 - guide:诊断与临床
+
 title: 偏执型人格障碍（Paranoid Personality Disorder，PPD）
 topic: 诊断与临床
-updated: 2025-10-14
+updated: 2025-10-20
 ---
 
 # 偏执型人格障碍（Paranoid Personality Disorder，PPD）

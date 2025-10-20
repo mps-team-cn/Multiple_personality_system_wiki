@@ -4,15 +4,19 @@ description: 多意识体系统中"这是我的身体"的主观体验，包括�
 search:
   boost: 1.5
 synonyms:
+
 - 身体所有感
 - 身体归属感
 - Body Ownership
 - Sense of Body Ownership
+
 tags:
+
 - ops:系统运作
 - sx:创伤症状
 - community:多意识体
 - dx:解离障碍
+
 title: 躯体认同（Body Ownership）
 topic: 系统运作
 updated: 2025-10-20

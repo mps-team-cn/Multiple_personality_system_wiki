@@ -4,6 +4,7 @@ description: 深入解析系统成员切换（Switch）的类型、触发因素�
 search:
   boost: 1.8
 synonyms:
+
 - 切换
 - Switching
 - 交换
@@ -11,11 +12,14 @@ synonyms:
 - 前台交接（Handover）
 - 接管（Takeover）
 - 前台更替
+
 tags:
+
 - ops:系统运作
 - sx:创伤症状
 - community:多意识体
 - dx:解离障碍
+
 title: 切换（Switch）
 topic: 系统运作
 updated: 2025-10-20

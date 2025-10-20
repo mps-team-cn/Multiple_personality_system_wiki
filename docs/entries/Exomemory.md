@@ -2,13 +2,17 @@
 comments: true
 description: 多意识体系统中个别成员拥有的、未在当前身体生命史中发生但具有完整叙事性的记忆体验,探讨其机制、功能与处理方式
 synonyms:
+
 - 体外记忆
 - Exomemory
+
 tags:
+
 - ops:系统运作
 - sx:创伤症状
 - community:多意识体
 - dx:解离障碍
+
 title: 独有记忆（Exomemory）
 topic: 系统运作
 updated: 2025-10-20

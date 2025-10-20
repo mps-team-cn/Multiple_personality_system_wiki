@@ -1,10 +1,12 @@
 ---
 comments: true
 tags:
+
 - ops:系统运作
 - sx:创伤症状
 - community:多意识体
 - dx:解离障碍
+
 title: 系魂型系统（Soul-Linked Systems, Xianyu Theory）
 topic: 系统运作
 updated: 2025-10-20
