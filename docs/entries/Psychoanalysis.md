@@ -23,13 +23,13 @@ updated: 2025-10-20
 
 ## 临床要点速览
 
-精神分析心理学由弗洛伊德（Sigmund Freud）于 19 世纪末创立,是心理学"第一势力",强调**潜意识（unconscious）驱动**、**本能冲突**与**童年经验**在心理发展中的核心作用。**在临床语境中,精神分析提供深度心理探索的方法论,包括自由联想、梦的解析、移情分析与防御机制识别**,但治疗周期长、实证证据有限。在多意识体与解离语境中,精神分析的**结构性人格理论**（本我-自我-超我）、**防御机制**（压抑、解离、投射）与**创伤压抑理论**为理解身份分裂与意识隔离提供理论框架,但需与现代创伤神经科学（如[结构性解离理论](Structural-Dissociation-Theory.md)）整合,避免过度解释与病理化。
+精神分析心理学由弗洛伊德（Sigmund Freud）于 19 世纪末创立,是心理学"第一势力",强调 **潜意识（unconscious）驱动**、**本能冲突** 与 **童年经验** 在心理发展中的核心作用。**在临床语境中,精神分析提供深度心理探索的方法论,包括自由联想、梦的解析、移情分析与防御机制识别**,但治疗周期长、实证证据有限。在多意识体与解离语境中,精神分析的 **结构性人格理论**（本我-自我-超我）、**防御机制**（压抑、解离、投射）与 **创伤压抑理论** 为理解身份分裂与意识隔离提供理论框架,但需与现代创伤神经科学（如[结构性解离理论](Structural-Dissociation-Theory.md)）整合,避免过度解释与病理化。
 
 ---
 
 ## 概述
 
-精神分析心理学由弗洛伊德在 19 世纪末至 20 世纪初创立,主张人类行为受潜意识欲望与本能冲突驱动,童年经验（尤其是性心理发展）塑造成年人格。弗洛伊德提出**本我-自我-超我**三层人格结构,以及**防御机制**（如压抑、投射、解离）来应对焦虑与冲突。精神分析对后续心理治疗、文学艺术与文化研究产生深远影响,催生客体关系理论、自体心理学等流派。
+精神分析心理学由弗洛伊德在 19 世纪末至 20 世纪初创立,主张人类行为受潜意识欲望与本能冲突驱动,童年经验（尤其是性心理发展）塑造成年人格。弗洛伊德提出 **本我-自我-超我** 三层人格结构,以及 **防御机制**（如压抑、投射、解离）来应对焦虑与冲突。精神分析对后续心理治疗、文学艺术与文化研究产生深远影响,催生客体关系理论、自体心理学等流派。
 
 ---
 
@@ -92,7 +92,7 @@ updated: 2025-10-20
 
 ### 防御机制与解离的起源
 
-弗洛伊德早期将解离视为防御机制之一,用于隔离不可承受的创伤记忆与情感。**珍妮特（Pierre Janet）**更早提出解离概念,认为解离是意识整合失败而非主动防御。现代[结构性解离理论](Structural-Dissociation-Theory.md)整合两者观点,强调解离既有防御功能,又涉及神经生物学基础。
+弗洛伊德早期将解离视为防御机制之一,用于隔离不可承受的创伤记忆与情感。**珍妮特（Pierre Janet）** 更早提出解离概念,认为解离是意识整合失败而非主动防御。现代[结构性解离理论](Structural-Dissociation-Theory.md)整合两者观点,强调解离既有防御功能,又涉及神经生物学基础。
 
 ### 结构性人格与多意识体模型
 
@@ -106,7 +106,7 @@ updated: 2025-10-20
 
 ### 创伤压抑与记忆恢复争议
 
-弗洛伊德的**压抑理论**（创伤记忆被推入无意识）在 1980s-1990s"恢复记忆运动"中引发争议。**文献提示**：创伤记忆可能以解离形式存储（而非单纯压抑）,记忆"恢复"需谨慎,避免暗示与虚假记忆植入。现代创伤治疗强调稳定化优先,而非急于挖掘记忆。
+弗洛伊德的 **压抑理论**（创伤记忆被推入无意识）在 1980s-1990s"恢复记忆运动"中引发争议。**文献提示**：创伤记忆可能以解离形式存储（而非单纯压抑）,记忆"恢复"需谨慎,避免暗示与虚假记忆植入。现代创伤治疗强调稳定化优先,而非急于挖掘记忆。
 
 ### 临床应用限定
 
@@ -154,39 +154,42 @@ updated: 2025-10-20
 ### 经典文献
 
 1. Freud, S. (1900). *The Interpretation of Dreams*. (Standard Edition, Vols. 4-5). Hogarth Press.
+
    **说明**：精神分析奠基之作,提出潜意识理论与梦的象征意义。
 
 2. Freud, S. (1923). *The Ego and the Id*. (Standard Edition, Vol. 19). Hogarth Press.
+
    **说明**：提出本我-自我-超我结构模型,奠定精神分析人格理论。
 
 3. Freud, A. (1936). *The Ego and the Mechanisms of Defense*. International Universities Press.
+
    **说明**：系统阐述防御机制,为现代防御理论奠基。
 
 ### 现代精神分析流派
 
 4. **客体关系理论**
-   - Klein, M. (1975). *Envy and Gratitude and Other Works 1946-1963*. Hogarth Press.
-   - Winnicott, D. W. (1965). *The Maturational Processes and the Facilitating Environment*. Hogarth Press.
-   - 强调早期母婴关系对人格形成的决定性影响。
+    - Klein, M. (1975). *Envy and Gratitude and Other Works 1946-1963*. Hogarth Press.
+    - Winnicott, D. W. (1965). *The Maturational Processes and the Facilitating Environment*. Hogarth Press.
+    - 强调早期母婴关系对人格形成的决定性影响。
 
 5. **自体心理学**
-   - Kohut, H. (1971). *The Analysis of the Self*. International Universities Press.
-   - 关注自恋发展与自体cohesion,为创伤治疗提供理论基础。
+    - Kohut, H. (1971). *The Analysis of the Self*. International Universities Press.
+    - 关注自恋发展与自体cohesion,为创伤治疗提供理论基础。
 
 6. **关系精神分析**
-   - Mitchell, S. A. (1988). *Relational Concepts in Psychoanalysis*. Harvard University Press.
-   - 强调治疗关系的双向互动,超越单向解释模式。
+    - Mitchell, S. A. (1988). *Relational Concepts in Psychoanalysis*. Harvard University Press.
+    - 强调治疗关系的双向互动,超越单向解释模式。
 
 ### 多意识体与解离语境
 
 7. **精神分析与解离理论**
-   - van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. Norton.
-   - 整合珍妮特解离理论与现代创伤神经科学,超越弗洛伊德压抑模型。
+    - van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. Norton.
+    - 整合珍妮特解离理论与现代创伤神经科学,超越弗洛伊德压抑模型。
 
 8. **创伤知情精神分析**
-   - Bromberg, P. M. (2011). *The Shadow of the Tsunami: And the Growth of the Relational Mind*. Routledge.
-   - 将精神分析应用于解离与创伤治疗,强调关系安全与自体状态对话。
+    - Bromberg, P. M. (2011). *The Shadow of the Tsunami: And the Growth of the Relational Mind*. Routledge.
+    - 将精神分析应用于解离与创伤治疗,强调关系安全与自体状态对话。
 
 9. **记忆恢复争议**
-   - Loftus, E. F., & Ketcham, K. (1994). *The Myth of Repressed Memory*. St. Martin's Press.
-   - 批判性审视弗洛伊德压抑理论与虚假记忆风险。
+    - Loftus, E. F., & Ketcham, K. (1994). *The Myth of Repressed Memory*. St. Martin's Press.
+    - 批判性审视弗洛伊德压抑理论与虚假记忆风险。
