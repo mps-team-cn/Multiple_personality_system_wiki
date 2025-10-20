@@ -4,7 +4,6 @@ description: 人格解体/现实解体障碍（DPDR）权威指南：诊断标�
 tags:
 
 - dx:DPDR
-- community:多意识体
 - dx:解离障碍
 - guide:诊断与临床
 

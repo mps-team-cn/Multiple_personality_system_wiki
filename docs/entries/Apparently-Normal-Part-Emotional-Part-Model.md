@@ -13,7 +13,7 @@ synonyms:
 tags:
 
 - dx:CPTSD
-- dx:DID
+- dx:解离性身份障碍（DID）
 - dx:OSDD
 - ops:系统运作
 - theory:ANP

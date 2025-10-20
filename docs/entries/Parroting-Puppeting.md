@@ -17,7 +17,6 @@ tags:
 
 - community:Tulpa
 - guide:创造型系统
-- community:多意识体
 - guide:实践指南
 
 title: 学舌/操纵（Parroting/Puppeting）

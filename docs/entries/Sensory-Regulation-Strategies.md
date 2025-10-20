@@ -3,7 +3,6 @@ comments: true
 tags:
 
 - tx:创伤治疗
-- community:多意识体
 - dx:解离障碍
 - sx:创伤症状
 

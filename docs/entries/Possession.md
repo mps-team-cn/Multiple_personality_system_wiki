@@ -14,7 +14,6 @@ tags:
 
 - community:Tulpa
 - ops:系统运作
-- community:多意识体
 - guide:实践指南
 
 title: 附体（Possession）

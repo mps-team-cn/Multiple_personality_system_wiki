@@ -3,7 +3,6 @@ comments: true
 tags:
 
 - guide:诊断与临床
-- community:多意识体
 - dx:解离障碍
 
 title: 躯体化障碍（Somatic Symptom Disorder，SSD）

@@ -2,8 +2,7 @@
 comments: true
 tags:
 
-- dx:DID
-- community:多意识体
+- dx:解离性身份障碍（DID）
 - role:系统角色
 - dx:解离障碍
 

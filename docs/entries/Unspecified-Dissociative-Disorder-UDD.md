@@ -4,7 +4,6 @@ tags:
 
 - guide:诊断与临床
 - dx:解离障碍
-- community:多意识体
 - guide:适应型系统
 
 title: 未特定的解离障碍（Unspecified Dissociative Disorder，UDD）

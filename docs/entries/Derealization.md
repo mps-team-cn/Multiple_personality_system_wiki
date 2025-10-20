@@ -5,7 +5,6 @@ tags:
 
 - ops:系统运作
 - sx:创伤症状
-- community:多意识体
 - dx:解离障碍
 
 title: 去现实化（Derealization）

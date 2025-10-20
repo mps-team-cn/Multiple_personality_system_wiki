@@ -15,7 +15,6 @@ tags:
 
 - dx:CPTSD
 - dx:PTSD
-- community:多意识体
 - guide:诊断与临床
 
 title: 复杂性创伤后应激障碍（CPTSD）

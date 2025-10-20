@@ -10,7 +10,7 @@ synonyms:
 
 tags:
 
-- community:多元社群
+- community:社群用语
 
 title: 偏重（Median / Bias）
 topic: 系统运作

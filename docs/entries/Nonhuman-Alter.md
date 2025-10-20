@@ -13,7 +13,6 @@ synonyms:
 tags:
 
 - role:系统角色
-- community:多意识体
 
 title: 非人类成员（Nonhuman Alter）
 topic: 角色与身份

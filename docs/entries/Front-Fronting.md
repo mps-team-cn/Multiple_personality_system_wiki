@@ -7,7 +7,6 @@ tags:
 
 - ops:系统运作
 - sx:创伤症状
-- community:多意识体
 - dx:解离障碍
 
 title: 前台（Front / Fronting）
@@ -70,6 +69,7 @@ updated: 2025-10-20
 ## 相关条目
 
 - [共前台（Co-fronting）](Co-Fronting.md)
+- [前台模糊（Front Blur）](Front-Blur.md)
 - [后台（Back / Being Back）](Back-Being-Back.md)
 - [成员（Alter）](Alter.md)
 - [切换（Switch）](Switch.md)

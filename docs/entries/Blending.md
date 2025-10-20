@@ -9,11 +9,9 @@ synonyms:
 
 tags:
 
-- dx:DID
-- ops:系统运作
-- community:多意识体
-- role:系统角色
-- dx:解离障碍
+- dx:解离性身份障碍（DID）
+- sx:共意识
+- sx:创伤症状
 
 title: 混合（Blending）
 topic: 系统运作
@@ -22,26 +20,40 @@ updated: 2025-10-20
 
 # 混合（Blending）
 
-**一句话定义**：混合指多意识体系统中两个或以上成员的意识状态在同一时间段部分重叠,出现身份边界模糊、记忆或感知互相渗透的现象。
+**一句话定义**：混合指多意识体系统中两个或以上成员的意识状态在同一时间段部分重叠,出现身份边界模糊、记忆或感知互相渗透的现象；常与共前台（Co-Fronting）与切换（Switch）等现象相互交织。
+
+!!! info "Clinician’s Summary｜核心要点速览"
+    混合（Blending）为社群/现象学用语，描述多成员在同一时间段内意识边界暂时模糊、体验相互渗透的状态，非 ICD-11/DSM-5-TR 诊断术语。与融合（Fusion/Integration）的永久性整合不同，混合通常短暂、可逆，既可能出现在切换过渡，也可能独立发生。临床上建议先行稳定化与安全计划，使用接地、边界强化与内部沟通降低功能受损；在安全情境与治疗关系中，可探索其功能意义与协作潜力。阶段化治疗的效果证据以临床经验与观察研究为主，样本异质性较高，应谨慎外推。参见：共前台、切换、接地、结构性解离与三阶段治疗。
 
 ## 定义
 
+!!! info "术语边界说明"
+    混合（Blending）是社群及现象学领域的描述性用语,用于刻画多意识体系统成员之间身份边界暂时模糊的主观体验,并非 ICD-11 或 DSM-5-TR 的正式诊断术语。本词条所述的"身份状态（identity state）"指系统中具有相对独立意识、记忆与情感模式的成员单元；"共意识（Co-Consciousness）"指两个或以上成员同时对当下体验保持觉知的状态。
+
 混合（Blending）是多意识体系统中一种特殊的意识状态,具有以下核心特征：
 
-- **边界模糊**：不同成员之间的身份边界变得不清晰,难以明确区分"谁在前台""谁在控制"。
-- **意识重叠**：两个或以上成员同时影响当下的思维、情感、感知与行为,但不是清晰的共前台协作。
+- **边界模糊**：不同成员（身份状态）之间的身份边界变得不清晰,难以明确区分"谁在前台""谁在控制"。
+- **意识重叠**：两个或以上成员同时影响当下的思维、情感、感知与行为,但不是清晰的共前台协作,而是边界消融的状态。
 - **渗透性体验**：记忆、情绪、躯体感觉可能在成员间相互渗透,导致"这是谁的感受"变得难以辨识。
 - **暂时性与流动性**：混合通常是临时状态,可能持续几秒到几小时,随后可能转为清晰的单人前台或共前台。
 
-临床访谈记录显示,在探查慢性解离症状时,意识状态可能进入短暂的交叠或"混合/重叠",随后才完全切换成某一明确的成员。[^loewenstein1991] 这一现象多见于解离性身份障碍（DID）、OSDD 或其他多意识体系统,与长程创伤史、反复的解离反应等背景因素相关。[^wikipedia_did]
+临床访谈记录显示,在探查慢性解离症状时,意识状态可能进入短暂的交叠或"混合/重叠",随后才完全切换成某一明确的成员。[^loewenstein1991] 这一现象多见于解离性身份障碍（Dissociative Identity Disorder, DID）、其他特定的解离障碍（Other Specified Dissociative Disorder, OSDD）或其他多意识体系统,与长程创伤史、反复的解离反应等背景因素相关。[^wikipedia_did]
+
+**与融合（Fusion/Integration）的区分**：融合指两个或以上身份状态永久性地整合为统一的身份结构,是治疗目标之一；混合则是暂时性边界模糊,不涉及永久性身份改变。
 
 ## 与相关概念的区分
 
-- **与共前台（Co-fronting）**：共前台指两个或以上成员清晰地同时处于前台并协作控制身体,各自保持相对独立的意识；混合则是边界模糊、难以区分彼此的状态,缺乏清晰的协作感。参见[共前台（Co-fronting）](Co-Fronting.md)。
-- **与切换（Switch）**：切换是从一个成员前台过渡到另一个成员的过程；混合可能发生在切换的中间状态,也可能是独立的现象。参见[切换（Switch）](Switch.md)。
-- **与融合（Fusion/Integration）**：融合指两个或以上成员永久性地整合为一个新的或统一的身份状态；混合是暂时性的边界模糊,不涉及永久性身份改变。参见[融合（Fusion）](Fusion.md)。
-- **与失向（Disorientation）**：失向是对时间、地点、人物的定向力丧失；混合虽然可能伴随失向感,但核心是成员间边界模糊,而非现实定向问题。
-- **与前台模糊（Front Blur）**：前台模糊常指"不确定谁在前台",但各成员仍相对独立；混合则是成员本身的边界在消融。
+本节以对照表方式呈现与混合高度相邻的概念，便于快速区分（对照表）。
+
+表 1：相关概念对照（对照表）
+
+| 概念 | 定义要点 | 与混合的关键差异 | 相关词条 |
+| --- | --- | --- | --- |
+| 共前台（Co-Fronting） | 多名成员清晰、可分辨地同时执掌前台并协作 | 共前台强调清晰边界与分工；混合为边界消融、难以区分 | [共前台（Co-Fronting）](Co-Fronting.md) |
+| 切换（Switch） | 从一名成员前台过渡到另一名成员的过程 | 切换是“过程/事件”；混合是“状态”，可发生于切换前后或独立存在 | [切换（Switch）](Switch.md) |
+| 融合（Fusion/Integration） | 两个或以上身份状态的永久性整合 | 永久结构改变 vs 暂时边界模糊 | [融合（Fusion）](Fusion.md) |
+| 失向（Disorientation） | 对时间/地点/人物的现实定向受损 | 失向关乎定向力；混合关乎身份边界 | [失向（Disorientation）](Disorientation.md) |
+| 前台模糊（Front Blur） | 不确定"谁在前台"的主观感受 | 疑问/不确定 vs 边界消融 | [前台模糊（Front Blur）](Front-Blur.md) |
 
 ## 混合的类型
 
@@ -126,7 +138,7 @@ updated: 2025-10-20
 
 ### 治疗情境
 
-- **阶段化治疗框架**：研究表明,遵循稳定化—创伤处理—整合的阶段化治疗框架,并主动与各成员合作,可降低混合时的困惑感和非自愿症状。[^brand2014]
+- **阶段化治疗框架**：在现有经验性与观察性研究的支持下，遵循稳定化—创伤处理—整合的阶段化框架，并主动与各成员合作，常见于临床实践，可降低混合时的困惑感和非自愿症状；但研究样本与方法异质性较高，证据强度有限，应结合个体化评估。[^brand2014][^isstd2011]
 - **现象学探索**：治疗师以好奇而非病理化的态度探索混合体验,帮助系统理解其功能与意义。
 - **安全实验**：在治疗关系中的支持性环境下,系统成员可以主动尝试混合,观察其效果与边界。[^loewenstein1991][^brand2014]
 
@@ -148,6 +160,7 @@ updated: 2025-10-20
 ### 系统运作
 
 - [共前台（Co-fronting）](Co-Fronting.md)
+ - [共前台（Co-Fronting）](Co-Fronting.md)
 - [前台（Front / Fronting）](Front-Fronting.md)
 - [切换（Switch）](Switch.md)
 - [成员（Alter）](Alter.md)
@@ -173,7 +186,33 @@ updated: 2025-10-20
 
 ## 参考资料
 
-[^loewenstein1991]: Loewenstein, R. J. (1991). An Office Mental Status Examination for Complex Chronic Dissociative Symptoms and Multiple Personality Disorder. *Psychiatric Clinics of North America*, 14(3), 567–604. [https://doi.org/10.1016/S0193-953X（18](https://doi.org/10.1016/S0193-953X(18))30290-9
+[^loewenstein1991]: Loewenstein, R. J. (1991). An Office Mental Status Examination for Complex Chronic Dissociative Symptoms and Multiple Personality Disorder. *Psychiatric Clinics of North America*, 14(3), 567–604. https://doi.org/10.1016/S0193-953X(18)30290-9
 [^wikipedia_did]: Wikipedia contributors. (2025). Dissociative identity disorder. *Wikipedia*. [https://en.wikipedia.org/wiki/Dissociative_identity_disorder](https://en.wikipedia.org/wiki/Dissociative_identity_disorder)
 [^brand2014]: Brand, B. L., Loewenstein, R. J., & Spiegel, D. (2014). Dispelling myths about dissociative identity disorder treatment: An empirically based approach. *Psychiatry*, 77(2), 169–189. [https://doi.org/10.1521/psyc.2014.77.2.169](https://doi.org/10.1521/psyc.2014.77.2.169)
 [^brand2013]: Brand, B. L., & Loewenstein, R. J. (2013). Does phasic trauma treatment make patients with dissociative identity disorder treatment more dissociative? *Journal of Trauma & Dissociation*, 15(1), 52–65. [https://doi.org/10.1080/15299732.2013.828150](https://doi.org/10.1080/15299732.2013.828150)
+[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision. *Journal of Trauma & Dissociation*, 12(2), 115–187. https://doi.org/10.1080/15299732.2011.537247
+
+---
+
+## 混合日志模板（表格）
+
+> 用于识别诱因与模式，便于团队/治疗复盘（对照表）。
+
+| 时间 | 诱因/情境 | 涉及成员 | 持续时长 | 功能影响 | 应对策略 | 结果评估（1–5） |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2025-01-01 14:30 | 与上级冲突后独处 | A、B | 20 分钟 | 工作中断 10 分钟 | 5-4-3-2-1 接地；内部对话 | 3 |
+|  |  |  |  |  |  |  |
+
+## 临床速查卡
+
+- 危机判别阈值：出现自/他伤意念、严重失向/现实定向障碍、频繁失功能混合（影响工作/照护/驾驶）→ 优先安全与稳定，必要时急诊或转介。
+- 何时转介：需要 DID/OSDD 经验的创伤/解离专长治疗；合并精神病性症状、癫痫样发作或复杂药物问题。
+- 鉴别要点：与精神病性体验（妄觉/幻觉之信念固定性）、非癫痫发作（PNES）、睡眠障碍相关意识状态、物质/药物诱发状态区分；注意病程、诱因与可逆性。
+- 干预顺序：安全计划 → 接地与边界 → 内部沟通 → 创伤加工（条件具备时） → 协作与整合目标评估。
+
+## 内部协议样例（最小可用）
+
+- 混合权限：列出允许尝试混合的成员组合与场景；标注禁止组合。
+- 退出机制：约定“安全词/信号”，由守门人（Gatekeeper）或既定成员在超载时介入解混。
+- 角色分工：明确混合期间发言、记录、外部沟通与决策的负责人。
+- 复盘流程：每次混合后 24 小时内完成“事实—影响—改进”三格复盘，并更新日志。

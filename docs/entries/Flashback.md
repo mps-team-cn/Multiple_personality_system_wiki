@@ -5,7 +5,6 @@ tags:
 
 - dx:CPTSD
 - dx:PTSD
-- community:多意识体
 - guide:诊断与临床
 
 title: 闪回（Flashback）

@@ -9,7 +9,7 @@ synonyms:
 tags:
 
 - role:系统角色
-- community:多意识体
+- community:社群用语
 - dx:解离障碍
 - sx:创伤症状
 

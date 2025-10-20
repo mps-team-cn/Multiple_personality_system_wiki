@@ -10,7 +10,6 @@ synonyms:
 tags:
 
 - guide:诊断与临床
-- community:多意识体
 - dx:解离障碍
 
 title: 述情障碍（Alexithymia）

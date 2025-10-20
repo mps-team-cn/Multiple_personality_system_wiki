@@ -4,7 +4,6 @@ tags:
 
 - tx:创伤治疗
 - guide:实践指南
-- community:多意识体
 
 title: 自我照护工具箱
 topic: 创伤与疗愈

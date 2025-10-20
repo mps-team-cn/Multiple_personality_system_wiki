@@ -13,7 +13,6 @@ synonyms:
 
 tags:
 
-- community:多意识体
 - theory:心理学理论
 - dx:解离障碍
 

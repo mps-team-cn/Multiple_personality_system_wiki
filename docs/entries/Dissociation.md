@@ -16,7 +16,7 @@ synonyms:
 
 tags:
 
-- dx:DID
+- dx:解离性身份障碍（DID）
 - dx:DPDR
 - dx:OSDD
 - ops:系统运作

@@ -14,7 +14,6 @@ synonyms:
 tags:
 
 - role:系统角色
-- community:多意识体
 - dev:发展阶段
 
 title: 青少年成员（Teen Alter）

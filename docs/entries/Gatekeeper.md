@@ -6,7 +6,6 @@ search:
 tags:
 
 - role:系统角色
-- community:多意识体
 - dx:解离障碍
 
 title: 守门人（Gatekeeper）

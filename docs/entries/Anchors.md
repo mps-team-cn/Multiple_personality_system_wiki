@@ -12,7 +12,6 @@ synonyms:
 tags:
 
 - ops:系统运作
-- community:多意识体
 - dx:解离障碍
 
 title: 锚点（Anchors / Tells / Markers）

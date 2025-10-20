@@ -4,7 +4,6 @@ tags:
 
 - community:Tulpa
 - ops:系统运作
-- community:多意识体
 
 title: 头压（Head Pressure）
 topic: 系统运作

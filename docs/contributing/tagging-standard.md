@@ -26,7 +26,7 @@
 
 | 前缀 | 含义 | 示例 |
 |------|------|------|
-| `dx:` | 诊断与分类（Diagnostic Category） | `dx:DID`, `dx:PTSD`, `dx:人格障碍` |
+| `dx:` | 诊断与分类（Diagnostic Category） | `dx:解离性身份障碍（DID）`, `dx:PTSD`, `dx:人格障碍` |
 | `sx:` | 症状与现象（Symptoms） | `sx:闪回`, `sx:时间丢失`, `sx:去现实化` |
 | `tx:` | 治疗与干预（Treatment） | `tx:CBT`, `tx:EMDR`, `tx:IFS`, `tx:阶段性治疗原则` |
 | `scale:` | 量表与工具（Scales & Measures） | `scale:DES-II`, `scale:MID-60` |
@@ -49,7 +49,7 @@
 
 | 规则 | 示例 | 反例 |
 |------|------|------|
-| 中文 + 英文括注 | `dx:解离性身份障碍（DID）` | `dx:DID` |
+| 中文 + 英文括注 | `dx:解离性身份障碍（DID）` | `dx:解离性身份障碍（DID）` |
 | 保留必要缩写 | `scale:DES-II` | `scale:DES` |
 | 不含空格 | `role:宿主` | `role: 宿主` |
 | 全角中文括号 | `（DID）` | `(DID)` |
@@ -62,7 +62,7 @@
 
 | 类型 | 必备分面 | 示例 |
 |------|----------|------|
-| 临床诊断词条 | `dx:` + `theory:` + 可选 `tx:` | `dx:DID`, `theory:结构性解离理论`, `tx:阶段性治疗原则` |
+| 临床诊断词条 | `dx:` + `theory:` + 可选 `tx:` | `dx:解离性身份障碍（DID）`, `theory:结构性解离理论`, `tx:阶段性治疗原则` |
 | 系统机制词条 | `ops:` + 可选 `role:` | `ops:切换`, `role:前台` |
 | 角色词条 | `role:` + `ops:` 或 `theory:` | `role:宿主`, `ops:执行控制` |
 | 疗法与干预 | `tx:` + `theory:` | `tx:EMDR`, `theory:创伤记忆处理` |

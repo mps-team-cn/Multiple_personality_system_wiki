@@ -4,7 +4,6 @@ tags:
 
 - guide:诊断与临床
 - guide:适应型系统
-- community:多意识体
 - dx:解离障碍
 
 title: 部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）

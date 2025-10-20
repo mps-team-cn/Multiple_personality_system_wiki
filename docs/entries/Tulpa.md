@@ -19,7 +19,6 @@ tags:
 
 - community:Tulpa
 - guide:创造型系统
-- community:多意识体
 - role:系统角色
 - dx:解离障碍
 

@@ -11,7 +11,6 @@ synonyms:
 tags:
 
 - role:系统角色
-- community:多意识体
 
 title: 创造者（Creative）
 topic: 角色与身份

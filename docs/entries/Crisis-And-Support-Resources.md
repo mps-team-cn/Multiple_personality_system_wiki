@@ -13,7 +13,6 @@ synonyms:
 tags:
 
 - guide:实践指南
-- community:多意识体
 
 title: 危机与支援资源（Crisis & Support Resources）
 topic: 实践指南

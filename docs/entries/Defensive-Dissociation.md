@@ -9,7 +9,6 @@ synonyms:
 tags:
 
 - dx:解离障碍
-- community:多意识体
 - sx:创伤症状
 
 title: 防御性解离（Defensive Dissociation）

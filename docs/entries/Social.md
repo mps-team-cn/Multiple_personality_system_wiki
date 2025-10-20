@@ -11,7 +11,6 @@ synonyms:
 tags:
 
 - role:系统角色
-- community:多意识体
 
 title: 社交者（Social）
 topic: 角色与身份

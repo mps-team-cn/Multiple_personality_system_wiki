@@ -12,7 +12,6 @@ synonyms:
 tags:
 
 - dx:解离障碍
-- community:多意识体
 
 title: 失忆（Amnesia）
 topic: 系统运作

@@ -11,7 +11,6 @@ synonyms:
 tags:
 
 - role:系统角色
-- community:多意识体
 
 title: 无创伤记忆者（Non-Trauma Holder）
 topic: 角色与身份

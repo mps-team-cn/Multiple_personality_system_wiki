@@ -3,9 +3,8 @@ comments: true
 tags:
 
 - community:Tulpa
-- dx:DID
+- dx:解离性身份障碍（DID）
 - dx:OSDD
-- community:多意识体
 - dx:解离障碍
 
 title: 核心概念导览
