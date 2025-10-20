@@ -1,15 +1,13 @@
 ---
-tags:
-
-- 系统运作
-- 多意识体
-- 解离
-- 创伤
-
-topic: 系统运作
-title: 弦羽理论生态位分类法（Xianyu Theory of Niche Classification）
-updated: 2025-10-20
 comments: true
+tags:
+- ops:系统运作
+- sx:创伤症状
+- community:多意识体
+- dx:解离障碍
+title: 弦羽理论生态位分类法（Xianyu Theory of Niche Classification）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 弦羽理论生态位分类法（Xianyu Theory of Niche Classification）

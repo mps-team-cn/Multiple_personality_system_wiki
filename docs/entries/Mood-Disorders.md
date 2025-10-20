@@ -1,23 +1,18 @@
 ---
-tags:
-
-- 理论与分类
-- 多意识体
-- 解离
-- 创伤
-
-topic: 理论与分类
-title: 情感障碍（Mood Disorders）
-updated: 2025-10-20
+comments: true
 synonyms:
-
 - 情感障碍
 - 心境障碍
 - mood disorders
 - affective disorders
 - mood disorder
-
-comments: true
+tags:
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 情感障碍（Mood Disorders）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 情感障碍（Mood Disorders）

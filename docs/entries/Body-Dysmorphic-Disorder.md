@@ -1,23 +1,17 @@
 ---
-title: 躯体变形障碍（Body Dysmorphic Disorder，BDD）
-tags:
-
-    - 诊断与临床
-    - 强迫
-    - 身体意象
-
-topic: 诊断与临床
-synonyms:
-
-    - 躯体变形障碍
-    - 身体变形障碍
-    - 体象障碍
-    - Body Dysmorphic Disorder
-    - BDD
-    - bodydysmorphicdisorder
-
-updated: 2025-10-14
 comments: true
+synonyms:
+- 躯体变形障碍
+- 身体变形障碍
+- 体象障碍
+- Body Dysmorphic Disorder
+- BDD
+- bodydysmorphicdisorder
+tags:
+- guide:诊断与临床
+title: 躯体变形障碍（Body Dysmorphic Disorder，BDD）
+topic: 诊断与临床
+updated: 2025-10-14
 ---
 
 # 躯体变形障碍（Body Dysmorphic Disorder，BDD）

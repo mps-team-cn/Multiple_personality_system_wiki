@@ -1,26 +1,22 @@
 ---
-tags:
-
-- 诊断与临床
-- CPTSD
-- PTSD
-- 多意识体
-
-topic: 诊断与临床
+comments: true
 description: 复杂性创伤后应激障碍（CPTSD）完整指南：诊断标准、自我组织障碍（DSO）与治疗方法。了解长期创伤的影响、与 PTSD 的区别及康复路径
-title: 复杂性创伤后应激障碍（CPTSD）
-updated: 2025-10-20
+search:
+  boost: 1.5
 synonyms:
-
 - 复杂性创伤
 - Complex Post-Traumatic Stress Disorder
 - Complex PTSD
 - CPTSD
 - fuzaxingchuangshanghouyingjizhangai
-
-search:
-  boost: 1.5
-comments: true
+tags:
+- dx:CPTSD
+- dx:PTSD
+- community:多意识体
+- guide:诊断与临床
+title: 复杂性创伤后应激障碍（CPTSD）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 复杂性创伤后应激障碍（CPTSD）

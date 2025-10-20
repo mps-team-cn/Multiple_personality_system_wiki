@@ -1,21 +1,16 @@
 ---
-tags:
-
-- 理论与分类
-- 解离
-- 多意识体
-- 创伤
-
-topic: 理论与分类
-title: 防御性解离（Defensive Dissociation）
-updated: 2025-10-20
+comments: true
 synonyms:
-
 - 防御性分离
 - 防御性解离反应
 - defensive dissociation
-
-comments: true
+tags:
+- dx:解离障碍
+- community:多意识体
+- sx:创伤症状
+title: 防御性解离（Defensive Dissociation）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 防御性解离（Defensive Dissociation）

@@ -1,21 +1,16 @@
 ---
-title: 躯体经验疗法（Somatic Experiencing, SE）
-tags:
-
-    - 创伤与疗愈
-    - 心理治疗
-    - 身体疗法
-
-topic: 创伤与疗愈
-synonyms:
-
-    - SE
-    - Somatic Experiencing
-    - 躯体经验治疗
-    - 身体体验疗法
-
-updated: 2025-10-13
 comments: true
+synonyms:
+- SE
+- Somatic Experiencing
+- 躯体经验治疗
+- 身体体验疗法
+tags:
+- tx:创伤治疗
+- tx:心理治疗
+title: 躯体经验疗法（Somatic Experiencing, SE）
+topic: 创伤与疗愈
+updated: 2025-10-13
 ---
 
 # 躯体经验疗法（Somatic Experiencing, SE）

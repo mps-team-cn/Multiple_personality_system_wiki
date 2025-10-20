@@ -1,21 +1,15 @@
 ---
-title: 偏重（Median / Bias）
-tags:
-
-    - 理论与分类
-    - 身份认同
-    - 社群术语
-
-topic: 系统运作
 description: 介于单一与多意识体之间的中位系统体验，记忆共享度高、身份流动但具差异性，属非临床社群自我认同类别
 synonyms:
-
-    - Median
-    - 侧面
-    - 中位系统
-    - 半多意识体系统
-    - 偏重系统
-
+- Median
+- 侧面
+- 中位系统
+- 半多意识体系统
+- 偏重系统
+tags:
+- community:多元社群
+title: 偏重（Median / Bias）
+topic: 系统运作
 updated: 2025-10-20
 ---
 

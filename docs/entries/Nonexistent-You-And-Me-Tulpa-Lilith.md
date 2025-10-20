@@ -1,14 +1,11 @@
 ---
-tags:
-
-- 文化与表现
-- 莉莉丝
-- tulpa
-
-topic: 文化与表现
-title: 《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）
-updated: 2025-10-20
 comments: true
+tags:
+- community:Tulpa
+- culture:文化表现
+title: 《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）
+topic: 文化与表现
+updated: 2025-10-20
 ---
 
 # 《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）

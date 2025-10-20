@@ -1,21 +1,16 @@
 ---
-tags:
-
-- 理论与分类
-- 多意识体
-- 解离
-- 创伤
-
-topic: 理论与分类
-title: 自我效能感（Self-Efficacy）
-updated: 2025-10-20
+comments: true
 synonyms:
-
 - 自我效能
 - 自我效能信念
 - self efficacy
-
-comments: true
+tags:
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 自我效能感（Self-Efficacy）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 自我效能感（Self-Efficacy）

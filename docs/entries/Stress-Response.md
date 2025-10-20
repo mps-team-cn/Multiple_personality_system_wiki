@@ -1,33 +1,25 @@
 ---
-title: 应激反应（Stress Response）
-tags:
-
-    - 系统运作
-    - 多意识体
-    - 解离
-    - 创伤
-    - 应激
-    - ANS
-    - HPA
-    - allostasis
-    - 机制
-
-topic: 系统运作
-synonyms:
-
-    - Stress Response
-    - Stress Reactivity
-    - 压力反应
-    - 生理应激反应
-    - 心理应激反应
-    - ANS唤醒
-    - HPA轴反应
-
+comments: true
 description: 个体在感知威胁或压力时产生的心理-生理机制，涉及自主神经系统和HPA轴的复杂调节过程
-updated: 2025-10-20
 search:
   boost: 1.8
-comments: true
+synonyms:
+- Stress Response
+- Stress Reactivity
+- 压力反应
+- 生理应激反应
+- 心理应激反应
+- ANS唤醒
+- HPA轴反应
+tags:
+- ops:系统运作
+- sx:创伤症状
+- community:多意识体
+- dx:创伤及应激相关障碍
+- dx:解离障碍
+title: 应激反应（Stress Response）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 应激反应（Stress Response）

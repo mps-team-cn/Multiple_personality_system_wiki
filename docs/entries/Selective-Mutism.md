@@ -1,22 +1,17 @@
 ---
-tags:
-
-- 诊断与临床
-- 焦虑
-- 儿童发展
-- 社交
-
-topic: 诊断与临床
-title: 选择性缄默症（Selective Mutism，SM）
-updated: 2025-10-14
+comments: true
 synonyms:
-
 - 选择性缄默症
 - Selective Mutism
 - SM
 - xuanzexing jianmo zheng
-
-comments: true
+tags:
+- dx:焦虑障碍
+- sx:社交困难
+- guide:诊断与临床
+title: 选择性缄默症（Selective Mutism，SM）
+topic: 诊断与临床
+updated: 2025-10-14
 ---
 
 # 选择性缄默症（Selective Mutism，SM）

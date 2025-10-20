@@ -121,6 +121,7 @@ def generate_summary(buckets, use_letter_grouping=True):
     lines.append("    * [临床内容指南](contributing/clinical-guidelines.md)")
     lines.append("    * [贡献者墙](contributing/contributors.md)")
     lines.append("    * [PR 工作流程](contributing/pr-workflow.md)")
+    lines.append("    * [标签规范2.0](contributing/tagging-standard.md)")
     lines.append("    * [技术规范](contributing/technical-conventions.md)")
     lines.append("    * [写作指南](contributing/writing-guidelines.md)")
     lines.append("* [回到主站 →](https://mpsteam.cn/)")

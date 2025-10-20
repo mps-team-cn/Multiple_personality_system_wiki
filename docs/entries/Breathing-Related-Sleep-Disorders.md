@@ -1,22 +1,19 @@
 ---
-tags:
-
-- 诊断与临床
-- 共病
-- 睡眠
-- 风险管理
-
-topic: 诊断与临床
-title: 睡眠相关呼吸障碍（Breathing-Related Sleep Disorders）
-updated: 2025-10-19
+comments: true
+description: 深入解析睡眠相关呼吸障碍的诊断标准、临床表现与治疗方法。了解阻塞性睡眠呼吸暂停、中枢性睡眠呼吸暂停与低通气的特征及健康风险,包含 ICD-11
+  与 DSM-5-TR 权威诊断标准
 synonyms:
-
 - 睡眠呼吸障碍
 - Breathing-Related Sleep Disorders
 - Sleep-Related Breathing Disorders
-
-description: 深入解析睡眠相关呼吸障碍的诊断标准、临床表现与治疗方法。了解阻塞性睡眠呼吸暂停、中枢性睡眠呼吸暂停与低通气的特征及健康风险,包含 ICD-11 与 DSM-5-TR 权威诊断标准
-comments: true
+tags:
+- guide:诊断与临床
+- dx:共病
+- sleep:睡眠障碍
+- guide:风险管理
+title: 睡眠相关呼吸障碍（Breathing-Related Sleep Disorders）
+topic: 诊断与临床
+updated: 2025-10-19
 ---
 
 # 睡眠相关呼吸障碍（Breathing-Related Sleep Disorders）

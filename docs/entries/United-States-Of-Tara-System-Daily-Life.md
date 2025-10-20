@@ -1,7 +1,7 @@
 ---
 tags:
 
-- 文化与表现
+  - culture:文化表现
 
 topic: 文化与表现
 title: 《我与梦露的一周》（The United States of Tara）中的系统家庭日常

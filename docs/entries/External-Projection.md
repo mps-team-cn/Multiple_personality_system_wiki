@@ -1,26 +1,22 @@
 ---
-tags:
-
-- 系统运作
-- 多意识体
-- 解离
-- 创伤
-
-topic: 系统运作
-title: 外投射（External Projection）
+comments: true
+description: 系统成员将自身的知觉、情绪、存在感投射到外部真实物体或空间的体验模式，用于增强存在感、情绪调节和系统功能支持
+search:
+  boost: 1.5
 synonyms:
-
 - 外部投射
 - 外部投影
 - 投影
 - External Projection
 - Projection to External Objects
-
-description: 系统成员将自身的知觉、情绪、存在感投射到外部真实物体或空间的体验模式，用于增强存在感、情绪调节和系统功能支持
+tags:
+- ops:系统运作
+- sx:创伤症状
+- community:多意识体
+- dx:解离障碍
+title: 外投射（External Projection）
+topic: 系统运作
 updated: 2025-10-20
-search:
-  boost: 1.5
-comments: true
 ---
 
 # 外投射（External Projection）

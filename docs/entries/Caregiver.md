@@ -1,14 +1,11 @@
 ---
-tags:
-
-- 角色与身份
-- 照顾者
-
-topic: 角色与身份
-description: 照顾者（Caregiver）成员的角色与功能。理解内部照护系统、照顾者如何支持其他成员及避免过度照顾导致的耗竭
-title: 照顾者（Caregiver）
-updated: 2025-10-20
 comments: true
+description: 照顾者（Caregiver）成员的角色与功能。理解内部照护系统、照顾者如何支持其他成员及避免过度照顾导致的耗竭
+tags:
+- role:系统角色
+title: 照顾者（Caregiver）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 照顾者（Caregiver）

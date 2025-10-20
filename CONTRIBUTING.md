@@ -14,6 +14,7 @@
 - [学术引用](docs/contributing/academic-citation.md) - 引用格式与证据分级
 - [诊断临床规范](docs/contributing/clinical-guidelines.md) - 病理学内容要求
 - [技术约定](docs/contributing/technical-conventions.md) - 文件结构与链接管理
+- [标签规范 v2.0](docs/contributing/tagging-standard.md) - 分面前缀与自动校验
 - [PR 流程](docs/contributing/pr-workflow.md) - 提交流程与检查清单
 - [贡献者墙](docs/contributing/contributors.md) - 查看所有贡献者
 

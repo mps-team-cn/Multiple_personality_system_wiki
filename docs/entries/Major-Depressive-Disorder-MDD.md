@@ -1,16 +1,6 @@
 ---
-tags:
-
-- 诊断与临床
-- MDD
-- 抑郁
-- 情绪障碍
-
-topic: 诊断与临床
-title: 重性抑郁障碍（Major Depressive Disorder, MDD）
-updated: 2025-10-17
+comments: true
 synonyms:
-
 - 重性抑郁障碍
 - 重度抑郁症
 - 临床抑郁症
@@ -20,8 +10,13 @@ synonyms:
 - Major Depression
 - Clinical Depression
 - zhongxingyiyuzhangai
-
-comments: true
+tags:
+- dx:双相及相关障碍
+- dx:抑郁障碍
+- guide:诊断与临床
+title: 重性抑郁障碍（Major Depressive Disorder, MDD）
+topic: 诊断与临床
+updated: 2025-10-17
 ---
 
 # 重性抑郁障碍（Major Depressive Disorder, MDD）

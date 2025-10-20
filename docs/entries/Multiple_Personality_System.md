@@ -1,29 +1,23 @@
 ---
-tags:
-
-- 系统运作
-- DID
-- 多意识体
-- 多重人格
-- 系统
-- 解离
-
-topic: 系统运作
+comments: true
 description: 多意识体系统（Multiple Personality System）是多意识体社群核心概念，详解多意识体框架的定义、边界、运作机制与协作实践。区分社群身份认同与临床诊断，理解多意识体单元的共存与内部协作
-title: 多意识体系统（Multiple Personality System）
-updated: 2025-10-20
+search:
+  boost: 2.0
 synonyms:
-
 - 多意识体系统
 - Multiple Personality System
 - 多意识体
 - Plurality
 - duochong renge xitong
 - mps
-
-search:
-  boost: 2.0
-comments: true
+tags:
+- dx:DID
+- ops:系统运作
+- community:多意识体
+- dx:解离障碍
+title: 多意识体系统（Multiple Personality System）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 多意识体系统（Multiple Personality System）

@@ -1,29 +1,22 @@
 ---
-tags:
-
-- 系统运作
-- 理论与分类
-- ANP
-- EP
-- DID
-- CPTSD
-- OSDD
-- 创伤与疗愈
-
-topic: 系统运作
-title: ANP-EP 模型（Apparently Normal Part–Emotional Part Model）
+comments: true
 description: 深入解析 ANP-EP 模型的理论框架、临床应用与局限性。理解表面正常部分与情绪部分在创伤性解离中的功能分化，掌握评估工具与分阶段治疗策略
+search:
+  boost: 1.5
 synonyms:
-
 - 表面正常部分-情绪部分模型
 - Apparently Normal Part
 - Emotional Part
 - ANP/EP Model
-
+tags:
+- dx:CPTSD
+- dx:DID
+- dx:OSDD
+- ops:系统运作
+- theory:ANP
+title: ANP-EP 模型（Apparently Normal Part–Emotional Part Model）
+topic: 系统运作
 updated: 2025-10-20
-search:
-  boost: 1.5
-comments: true
 ---
 
 # ANP-EP 模型（Apparently Normal Part–Emotional Part Model）

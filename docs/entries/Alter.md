@@ -1,22 +1,18 @@
 ---
-tags:
-
-- 角色与身份
-- 多意识体
-- 解离
-- 创伤
-
-topic: 角色与身份
+comments: true
 description: 系统成员（Alter）的定义、分类与角色功能。深入理解多意识体系统中不同成员的特征、形成原因及其在系统中的作用
-title: 成员（Alter）
-updated: 2025-10-20
-synonyms:
-
-- 成员
-
 search:
   boost: 1.8
-comments: true
+synonyms:
+- 成员
+tags:
+- role:系统角色
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 成员（Alter）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 成员（Alter）

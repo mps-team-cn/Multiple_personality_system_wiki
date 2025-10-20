@@ -155,6 +155,50 @@ jobs:
             exit 1
           fi
 
+      - name: 检查标签规范（Tagging Standard v2.0）
+        id: check_tags
+        continue-on-error: true
+        run: |
+          echo "🏷️ 检查标签规范..."
+
+          CHANGED_ENTRIES=$(git diff --name-only origin/${{ github.base_ref }}...HEAD | grep '^docs/entries/.*\.md$' || true)
+
+          if [ -z "$CHANGED_ENTRIES" ]; then
+            echo "✅ 没有词条文件变更"
+            echo "TAG_CHECK_FAILED=0" >> $GITHUB_ENV
+            exit 0
+          fi
+
+          FAILED=0
+          for file in $CHANGED_ENTRIES; do
+            if [ -f "$file" ]; then
+              echo "检查: $file"
+              if ! python3 tools/check_tags.py "$file"; then
+                FAILED=1
+              fi
+            fi
+          done
+
+          if [ $FAILED -eq 1 ]; then
+            echo ""
+            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+            echo "❌ 标签规范检查失败！"
+            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+            echo ""
+            echo "📋 规则摘要："
+            echo "  - 至少 1 个合法前缀；总数 ≤ 5"
+            echo "  - 允许前缀：dx/sx/tx/scale/theory/ops/role/community/guide/history/misuse/bio/sleep/dev/culture/meta"
+            echo "  - 禁止别名；禁止空格、句号、英文半角括号；正则 ^[a-z]+:[^\\s()]+$"
+            echo "  - 名称部分不得与页面 title 完全相同"
+            echo ""
+            echo "📖 参考：docs/contributing/tagging-standard.md"
+            echo "TAG_CHECK_FAILED=1" >> $GITHUB_ENV
+            exit 1
+          fi
+
+          echo "✅ 标签规范检查通过"
+          echo "TAG_CHECK_FAILED=0" >> $GITHUB_ENV
+
       - name: 检查结果摘要
         if: always()
         run: |
@@ -167,8 +211,9 @@ jobs:
           # 检查是否有失败的检查
           LINK_FAILED="${LINK_CHECK_FAILED:-0}"
           FRONTMATTER_FAILED="${FRONTMATTER_CHECK_FAILED:-0}"
+          TAG_FAILED="${TAG_CHECK_FAILED:-0}"
 
-          if [ "$LINK_FAILED" = "1" ] || [ "$FRONTMATTER_FAILED" = "1" ]; then
+          if [ "$LINK_FAILED" = "1" ] || [ "$FRONTMATTER_FAILED" = "1" ] || [ "$TAG_FAILED" = "1" ]; then
             echo "❌ 检查失败，请修复以下问题后重新提交："
             echo ""
             if [ "$LINK_FAILED" = "1" ]; then
@@ -177,10 +222,14 @@ jobs:
             if [ "$FRONTMATTER_FAILED" = "1" ]; then
               echo "  ❌ Frontmatter 检查失败"
             fi
+            if [ "$TAG_FAILED" = "1" ]; then
+              echo "  ❌ 标签规范检查失败"
+            fi
             echo ""
             echo "📖 参考文档："
             echo "  - 词条模板：docs/TEMPLATE_ENTRY.md"
             echo "  - 贡献指南：docs/contributing/"
+            echo "  - 标签规范：docs/contributing/tagging-standard.md"
             echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
             exit 1
           else

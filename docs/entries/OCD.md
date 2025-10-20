@@ -1,25 +1,21 @@
 ---
-tags:
-
-- 诊断与临床
-- 多意识体
-- 解离
-- 创伤
-
-topic: 诊断与临床
-title: 强迫症（Obsessive-Compulsive Disorder, OCD）
+comments: true
+description: 强迫症（OCD）属于强迫及相关障碍，以反复出现的强迫观念和强迫行为为核心特征，伴随显著焦虑与功能损害。包含污染-清洁、检查-安全、对称-秩序等多种主题维度。
+search:
+  boost: 1.8
 synonyms:
-
 - 强迫性障碍
 - OCD
 - 强迫症
 - Obsessive-Compulsive Disorder
-
-description: 强迫症（OCD）属于强迫及相关障碍，以反复出现的强迫观念和强迫行为为核心特征，伴随显著焦虑与功能损害。包含污染-清洁、检查-安全、对称-秩序等多种主题维度。
+tags:
+- guide:诊断与临床
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 强迫症（Obsessive-Compulsive Disorder, OCD）
+topic: 诊断与临床
 updated: 2025-10-20
-search:
-  boost: 1.8
-comments: true
 ---
 
 # 强迫症（Obsessive-Compulsive Disorder, OCD）

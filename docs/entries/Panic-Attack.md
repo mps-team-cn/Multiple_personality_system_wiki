@@ -1,24 +1,20 @@
 ---
-title: 惊恐发作（Panic Attack）
-tags:
-
-    - 诊断与临床
-    - 焦虑
-    - 解离
-
-topic: 诊断与临床
-description: 惊恐发作的定义、症状、分类、诱因与管理策略。区分意外性与预期性发作，涵盖临床评估与应对方法。
-synonyms:
-
-    - 惊恐发作
-    - 惊恐袭击
-    - Panic Attack
-    - panicattack
-
-search:
-    boost: 1.5
-updated: 2025-10-18
 comments: true
+description: 惊恐发作的定义、症状、分类、诱因与管理策略。区分意外性与预期性发作，涵盖临床评估与应对方法。
+search:
+  boost: 1.5
+synonyms:
+- 惊恐发作
+- 惊恐袭击
+- Panic Attack
+- panicattack
+tags:
+- dx:焦虑障碍
+- dx:解离障碍
+- guide:诊断与临床
+title: 惊恐发作（Panic Attack）
+topic: 诊断与临床
+updated: 2025-10-18
 ---
 
 # 惊恐发作（Panic Attack）

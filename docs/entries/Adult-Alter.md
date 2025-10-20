@@ -1,22 +1,18 @@
 ---
-title: 成年成员（Adult Alter）
-tags:
-
-    - 角色与身份
-    - 多意识体
-    - 发展阶段
-
-topic: 角色与身份
-synonyms:
-
-    - 成年成员
-    - Adult Alter
-    - 成年人格
-    - Adult Part
-
-description: 年龄感与生理年龄接近或超过的系统成员，通常承担日常决策与责任管理
-updated: 2025-10-20
 comments: true
+description: 年龄感与生理年龄接近或超过的系统成员，通常承担日常决策与责任管理
+synonyms:
+- 成年成员
+- Adult Alter
+- 成年人格
+- Adult Part
+tags:
+- role:系统角色
+- community:多意识体
+- dev:发展阶段
+title: 成年成员（Adult Alter）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 成年成员（Adult Alter）

@@ -1,15 +1,13 @@
 ---
-tags:
-
-- 系统运作
-- 多意识体
-- 解离
-- 创伤
-
-topic: 系统运作
-title: 混合型系统（Mixed Systems, Xianyu Theory）
-updated: 2025-10-20
 comments: true
+tags:
+- ops:系统运作
+- sx:创伤症状
+- community:多意识体
+- dx:解离障碍
+title: 混合型系统（Mixed Systems, Xianyu Theory）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 混合型系统（Mixed Systems, Xianyu Theory）

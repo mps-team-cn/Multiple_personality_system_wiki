@@ -1,15 +1,13 @@
 ---
-tags:
-
-- 系统运作
-- 解离
-- 多意识体
-- 创伤
-
-topic: 系统运作
-title: 醉酒解离（Alcohol-Induced Dissociation）
-updated: 2025-10-20
 comments: true
+tags:
+- ops:系统运作
+- sx:创伤症状
+- community:多意识体
+- dx:解离障碍
+title: 醉酒解离（Alcohol-Induced Dissociation）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 醉酒解离（Alcohol-Induced Dissociation）

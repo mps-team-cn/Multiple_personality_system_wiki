@@ -2,8 +2,9 @@
 title: 诊断与临床
 topic: 诊断与临床
 tags:
-  - 索引
-  - 主题导览
+
+  - guide:导览
+  - guide:索引
 comments: true
 hide:
   - toc

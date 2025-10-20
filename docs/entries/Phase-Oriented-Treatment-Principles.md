@@ -1,23 +1,20 @@
 ---
-title: 阶段性治疗原则（Phase‑Oriented Treatment Principles）
-topic: 创伤与疗愈
-tags:
-
-    - 创伤与疗愈
-    - 心理治疗
-
-description: 创伤与解离相关困扰的阶段性治疗总原则：以安全与功能为先，在可耐受窗口中推进记忆加工，并以关系修复与功能性整合收束。适用于复杂创伤与 DID/OSDD 的循序式临床路线与决策要点。
-synonyms:
-
-    - 阶段导向治疗
-    - 阶段性治疗
-    - Phase‑Oriented Treatment
-    - 三阶段治疗原则
-
+comments: true
+description: 创伤与解离相关困扰的阶段性治疗总原则：以安全与功能为先，在可耐受窗口中推进记忆加工，并以关系修复与功能性整合收束。适用于复杂创伤与 DID/OSDD
+  的循序式临床路线与决策要点。
 search:
   boost: 1.5
+synonyms:
+- 阶段导向治疗
+- 阶段性治疗
+- Phase‑Oriented Treatment
+- 三阶段治疗原则
+tags:
+- tx:创伤治疗
+- tx:心理治疗
+title: 阶段性治疗原则（Phase‑Oriented Treatment Principles）
+topic: 创伤与疗愈
 updated: 2025-10-19
-comments: true
 ---
 
 # 阶段性治疗原则（Phase‑Oriented Treatment Principles）

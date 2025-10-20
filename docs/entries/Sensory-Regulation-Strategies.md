@@ -1,15 +1,13 @@
 ---
-tags:
-
-- 创伤与疗愈
-- 多意识体
-- 解离
-- 创伤
-
-topic: 创伤与疗愈
-title: 感官调节策略（Sensory Regulation Strategies）
-updated: 2025-10-20
 comments: true
+tags:
+- tx:创伤治疗
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 感官调节策略（Sensory Regulation Strategies）
+topic: 创伤与疗愈
+updated: 2025-10-20
 ---
 
 # 感官调节策略（Sensory Regulation Strategies）

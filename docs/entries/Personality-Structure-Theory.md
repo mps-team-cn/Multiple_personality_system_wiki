@@ -1,21 +1,16 @@
 ---
-tags:
-
-- 理论与分类
-- 多意识体
-- 解离
-- 创伤
-
-topic: 理论与分类
-title: 人格结构理论（Personality Structure Theory, Freud）
-updated: 2025-10-20
+comments: true
 synonyms:
-
 - 本我自我超我理论
 - 弗洛伊德人格结构
 - structural model of psyche
-
-comments: true
+tags:
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 人格结构理论（Personality Structure Theory, Freud）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 人格结构理论（Personality Structure Theory, Freud）

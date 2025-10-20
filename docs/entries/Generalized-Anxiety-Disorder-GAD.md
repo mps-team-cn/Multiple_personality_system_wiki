@@ -1,27 +1,22 @@
 ---
-tags:
-
-- 诊断与临床
-- 焦虑
-- 共病
-
-topic: 诊断与临床
-title: 广泛性焦虑障碍（Generalized Anxiety Disorder，GAD）
-updated: 2025-10-20
+comments: true
 description: 广泛性焦虑障碍(GAD)诊断标准、临床表现、治疗方法与系统视角。DSM-5-TR/ICD-11对照，CBT/ACT循证治疗，药物安全警示，多意识体系统协作策略。
+search:
+  boost: 1.5
 synonyms:
-
 - 广泛性焦虑障碍
 - Generalized Anxiety Disorder
 - GAD
 - guangfanxing jiaolv zhangai
 - 广焦障
 - 广泛焦虑症
-
-search:
-  boost: 1.5
-
-comments: true
+tags:
+- dx:焦虑障碍
+- dx:共病
+- guide:诊断与临床
+title: 广泛性焦虑障碍（Generalized Anxiety Disorder，GAD）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 广泛性焦虑障碍（Generalized Anxiety Disorder，GAD）

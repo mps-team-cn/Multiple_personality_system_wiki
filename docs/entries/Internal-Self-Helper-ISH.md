@@ -1,15 +1,13 @@
 ---
-tags:
-
-- 角色与身份
-- DID
-- 多意识体
-- 解离
-
-topic: 角色与身份
-title: 内部自助者（Internal Self Helper，ISH）
-updated: 2025-10-20
 comments: true
+tags:
+- dx:DID
+- community:多意识体
+- role:系统角色
+- dx:解离障碍
+title: 内部自助者（Internal Self Helper，ISH）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 内部自助者（Internal Self Helper，ISH）

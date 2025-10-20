@@ -1,21 +1,16 @@
 ---
-title: 角色面具（Masking / Social Masking）
-tags:
-
-    - 系统运作
-    - 社会适应
-    - 社群术语
-
-topic: 系统运作
-synonyms:
-
-    - Masking
-    - Social Masking
-    - 人格面具
-    - 社交伪装
-    - 身份掩饰
-
 description: 多意识体系统为适应社会环境而有意或习得性地展现单一身份外观，隐藏内部多元性的行为模式与策略
+synonyms:
+- Masking
+- Social Masking
+- 人格面具
+- 社交伪装
+- 身份掩饰
+tags:
+- ops:系统运作
+- community:多元社群
+title: 角色面具（Masking / Social Masking）
+topic: 系统运作
 updated: 2025-10-19
 ---
 

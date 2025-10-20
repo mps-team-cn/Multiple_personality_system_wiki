@@ -1,20 +1,15 @@
 ---
-title: 短期精神病性障碍（Brief Psychotic Disorder, BPD）
-tags:
-
-- 诊断与临床
-- 精神病性障碍
-- 急性发作
-
-topic: 诊断与临床
+comments: true
+description: 特点为急性起病的精神病性症状，持续至少 1 天但少于 1 个月，之后完全恢复至发病前功能水平；常与明显应激事件或产后时相相关，需要与精神分裂症、分裂情感性障碍及物质/医学因素鉴别。
 synonyms:
-
 - 急性短暂性精神病性障碍（ICD-11 近似项）
 - Brief Psychotic Disorder
-
-description: 特点为急性起病的精神病性症状，持续至少 1 天但少于 1 个月，之后完全恢复至发病前功能水平；常与明显应激事件或产后时相相关，需要与精神分裂症、分裂情感性障碍及物质/医学因素鉴别。
+tags:
+- guide:诊断与临床
+- dx:精神病性障碍
+title: 短期精神病性障碍（Brief Psychotic Disorder, BPD）
+topic: 诊断与临床
 updated: 2025-10-15
-comments: true
 ---
 
 # 短期精神病性障碍（Brief Psychotic Disorder, BPD）

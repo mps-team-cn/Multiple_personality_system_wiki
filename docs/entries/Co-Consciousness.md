@@ -1,24 +1,20 @@
 ---
-tags:
-
-- 系统运作
-- 多意识体
-- 解离
-- 创伤
-
-topic: 系统运作
+comments: true
 description: 意识共存（Co-consciousness）现象详解：多个成员同时在线的体验与管理。理解共同觉察、信息共享及协作运作的机制
-title: 意识共存（Co-consciousness）
-synonyms:
-
-    - 共觉
-    - Co-consciousness
-    - 共在意识
-
-updated: 2025-10-20
 search:
   boost: 1.5
-comments: true
+synonyms:
+- 共觉
+- Co-consciousness
+- 共在意识
+tags:
+- ops:系统运作
+- sx:创伤症状
+- community:多意识体
+- dx:解离障碍
+title: 意识共存（Co-consciousness）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 意识共存（Co-consciousness）

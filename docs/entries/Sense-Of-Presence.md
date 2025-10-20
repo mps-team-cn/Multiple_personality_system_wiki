@@ -1,21 +1,17 @@
 ---
-tags:
-
-- 系统运作
-- 多意识体
-- 解离
-- 创伤
-
-topic: 系统运作
-title: 存在感（Sense of Presence）
-synonyms:
-
-    - 共感知
-    - Sense of Presence
-    - Co-awareness
-
-updated: 2025-10-20
 comments: true
+synonyms:
+- 共感知
+- Sense of Presence
+- Co-awareness
+tags:
+- ops:系统运作
+- sx:创伤症状
+- community:多意识体
+- dx:解离障碍
+title: 存在感（Sense of Presence）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 存在感（Sense of Presence）

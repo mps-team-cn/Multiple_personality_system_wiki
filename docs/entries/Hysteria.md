@@ -1,20 +1,16 @@
 ---
-title: 癔症（Hysteria，已过时）
-tags:
-
-    - 诊断与临床
-    - 历史术语
-    - 躯体症状
-
-topic: 诊断与临床
-synonyms:
-
-    - 癔病
-    - 歇斯底里
-    - Hysteria
-
-updated: 2025-10-13
 comments: true
+synonyms:
+- 癔病
+- 歇斯底里
+- Hysteria
+tags:
+- history:历史术语
+- guide:诊断与临床
+- dx:躯体症状及相关障碍
+title: 癔症（Hysteria，已过时）
+topic: 诊断与临床
+updated: 2025-10-13
 ---
 
 # 癔症（Hysteria，已过时）

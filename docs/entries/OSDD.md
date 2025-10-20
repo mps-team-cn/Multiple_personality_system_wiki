@@ -1,18 +1,16 @@
 ---
-tags:
-
-- 诊断与临床
-- OSDD
-- 解离
-- 适应型系统
-
-topic: 诊断与临床
+comments: true
 description: 详解其他特定解离性障碍（OSDD）的诊断标准与临床特征。探讨部分 DID、非典型解离障碍的表现形式，理解不完全符合 DID 标准的解离性障碍
-title: 其他特定解离性障碍（OSDD）
-updated: 2025-10-20
 search:
   boost: 2.0
-comments: true
+tags:
+- dx:OSDD
+- dx:解离障碍
+- guide:诊断与临床
+- guide:适应型系统
+title: 其他特定解离性障碍（OSDD）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 其他特定解离性障碍（OSDD）

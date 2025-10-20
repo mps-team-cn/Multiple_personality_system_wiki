@@ -1,15 +1,13 @@
 ---
-tags:
-
-- 诊断与临床
-- 适应型系统
-- 多意识体
-- 解离
-
-topic: 诊断与临床
-title: 部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）
-updated: 2025-10-20
 comments: true
+tags:
+- guide:诊断与临床
+- guide:适应型系统
+- community:多意识体
+- dx:解离障碍
+title: 部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）

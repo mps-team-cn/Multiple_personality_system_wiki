@@ -1,21 +1,16 @@
 ---
-tags:
-
-- 理论与分类
-- 多意识体
-- 解离
-- 创伤
-
-topic: 理论与分类
-title: 自我概念（Self-Concept）
-updated: 2025-10-20
+comments: true
 synonyms:
-
 - 自我认知
 - 自我图式
 - self concept
-
-comments: true
+tags:
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 自我概念（Self-Concept）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 自我概念（Self-Concept）

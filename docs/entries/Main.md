@@ -1,15 +1,13 @@
 ---
-tags:
-
-- 角色与身份
-- 多意识体
-- 解离
-- 创伤
-
-topic: 角色与身份
-title: 主体（Main）
-updated: 2025-10-20
 comments: true
+tags:
+- role:系统角色
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 主体（Main）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 主体（Main）

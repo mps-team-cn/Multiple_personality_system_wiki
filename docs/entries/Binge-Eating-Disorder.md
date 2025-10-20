@@ -1,23 +1,18 @@
 ---
-tags:
-
-- 诊断与临床
-- 进食障碍
-- 饮食与身体
-- 风险管理
-
-topic: 诊断与临床
-title: 暴食障碍(Binge Eating Disorder, BED)
-updated: 2025-10-14
+comments: true
+description: 以反复暴食发作为核心但无规律性补偿行为的进食障碍,伴随明显痛苦和体重管理困难,需综合心理和医疗干预
 synonyms:
-
 - 暴食症
 - 暴食性进食障碍
 - Binge Eating Disorder
 - BED
-
-description: 以反复暴食发作为核心但无规律性补偿行为的进食障碍,伴随明显痛苦和体重管理困难,需综合心理和医疗干预
-comments: true
+tags:
+- guide:诊断与临床
+- dx:进食障碍
+- guide:风险管理
+title: 暴食障碍(Binge Eating Disorder, BED)
+topic: 诊断与临床
+updated: 2025-10-14
 ---
 
 # 暴食障碍(Binge Eating Disorder, BED)

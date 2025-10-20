@@ -1,18 +1,16 @@
 ---
-title: 权限(Permissions)
-topic: 系统运作
-description: 多意识体系统内部对身体控制权(executive control)、记忆访问权(access rights)与决策权的分配机制,用于维持系统秩序与安全,防止突发切换或角色冲突。
-tags:
-
-    - 系统运作
-    - 多意识体
-    - 解离
-    - 创伤
-
-updated: 2025-10-20
 comments: true
+description: 多意识体系统内部对身体控制权(executive control)、记忆访问权(access rights)与决策权的分配机制,用于维持系统秩序与安全,防止突发切换或角色冲突。
 search:
   boost: 1.5
+tags:
+- ops:系统运作
+- sx:创伤症状
+- community:多意识体
+- dx:解离障碍
+title: 权限(Permissions)
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 权限(Permissions)

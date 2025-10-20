@@ -1,21 +1,16 @@
 ---
-tags:
-
-- 诊断与临床
-- 人格障碍
-- B组人格障碍
-
-topic: 诊断与临床
-title: 表演型人格障碍（Histrionic Personality Disorder，HPD）
-updated: 2025-10-13
+comments: true
 synonyms:
-
 - 表演型人格障碍
 - Histrionic Personality Disorder
 - HPD
 - biaoyanxing renge zhangai
-
-comments: true
+tags:
+- dx:B组人格障碍
+- guide:诊断与临床
+title: 表演型人格障碍（Histrionic Personality Disorder，HPD）
+topic: 诊断与临床
+updated: 2025-10-13
 ---
 
 # 表演型人格障碍（Histrionic Personality Disorder，HPD）

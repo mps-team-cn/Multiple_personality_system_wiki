@@ -2,8 +2,9 @@
 title: 系统运作
 topic: 系统运作
 tags:
-  - 索引
-  - 主题导览
+
+  - guide:导览
+  - guide:索引
 comments: true
 hide:
   - toc

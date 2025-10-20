@@ -1,19 +1,21 @@
 ---
-tags:
-
-- 角色与身份
-- 多意识体
-- 解离
-- 创伤
-
-topic: 角色与身份
-title: 人格职能（System Roles）
-updated: 2025-10-20
 comments: true
 description: 人格职能是多意识体与解离性身份障碍语境中描述系统成员功能性分工的概念，强调任务分配而非临床诊断分类
 search:
   boost: 2
-synonyms: ["系统角色", "人格分工", "成员职能", "角色分类"]
+synonyms:
+- 系统角色
+- 人格分工
+- 成员职能
+- 角色分类
+tags:
+- role:系统角色
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 人格职能（System Roles）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 人格职能（System Roles）

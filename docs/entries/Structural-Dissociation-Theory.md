@@ -1,26 +1,22 @@
 ---
-tags:
-
-    - 系统运作
-    - 解离
-    - ANP
-    - EP
-
-topic: 系统运作
-title: 结构性解离理论（Theory of Structural Dissociation of the Personality, TSDT）
+comments: true
 description: 利用 ANP/EP 功能分化解释复杂创伤导致的心理结构分裂，并为分阶段创伤治疗（稳定化—创伤加工—整合）提供操作框架的理论。
-updated: 2025-10-18
 search:
   boost: 1.5
 synonyms:
-
-    - 结构性解离
-    - TSDT
-    - 结构性解离理论
-    - Structural Dissociation
-    - 结构性解离模型
-
-comments: true
+- 结构性解离
+- TSDT
+- 结构性解离理论
+- Structural Dissociation
+- 结构性解离模型
+tags:
+- ops:系统运作
+- theory:ANP
+- theory:EP
+- dx:解离障碍
+title: 结构性解离理论（Theory of Structural Dissociation of the Personality, TSDT）
+topic: 系统运作
+updated: 2025-10-18
 ---
 
 # 结构性解离理论（Theory of Structural Dissociation of the Personality, TSDT）

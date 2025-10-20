@@ -1,24 +1,20 @@
 ---
-tags:
-
-- 诊断与临床
-- 多意识体
-- 解离
-- 创伤
-
-topic: 诊断与临床
-title: 心境障碍（Affective Disorders）
-updated: 2025-10-20
+comments: true
 synonyms:
-
 - 心境障碍
 - 情感障碍
 - 情绪障碍
 - affective disorders
 - mood disorders
 - mood disorder spectrum
-
-comments: true
+tags:
+- guide:诊断与临床
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 心境障碍（Affective Disorders）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 心境障碍（Affective Disorders）

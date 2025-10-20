@@ -1,29 +1,25 @@
 ---
-tags:
-
-- 诊断与临床
-- 多意识体
-- 解离
-- 创伤
-
-topic: 诊断与临床
+comments: true
 description: 概述双相障碍的诊断标准、临床表现、共病风险与治疗策略，辅助多意识体系统管理情绪波动与危机预防。
-title: 双相障碍（Bipolar Disorders）
-synonyms:
-
-    - 躁郁症
-    - 双向情感障碍
-    - 双极性障碍
-    - 情感性精神病
-    - BD
-    - Bipolar Disorder
-    - Manic-Depressive Illness
-    - 躁狂抑郁症
-
-updated: 2025-10-20
 search:
   boost: 1.8
-comments: true
+synonyms:
+- 躁郁症
+- 双向情感障碍
+- 双极性障碍
+- 情感性精神病
+- BD
+- Bipolar Disorder
+- Manic-Depressive Illness
+- 躁狂抑郁症
+tags:
+- guide:诊断与临床
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 双相障碍（Bipolar Disorders）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 双相障碍（Bipolar Disorders）

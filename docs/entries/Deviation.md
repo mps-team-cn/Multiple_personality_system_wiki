@@ -1,25 +1,20 @@
 ---
-title: 异化/偏离（Deviation）
-tags:
-
-    - Tulpa
-    - 创造型系统
-    - 实践指南
-    - 多意识体
-    - 人格发展
-
-topic: 角色与身份
-synonyms:
-
-    - deviation
-    - 异化
-    - 偏离
-    - tulpa变化
-    - 性格演变
-
-description: Deviation 指 Tulpa 在发展过程中偏离宿主原初设定的现象，通常被视为 Tulpa 获得自主性和独立人格的重要标志
-updated: 2025-10-20
 comments: true
+description: Deviation 指 Tulpa 在发展过程中偏离宿主原初设定的现象，通常被视为 Tulpa 获得自主性和独立人格的重要标志
+synonyms:
+- deviation
+- 异化
+- 偏离
+- tulpa变化
+- 性格演变
+tags:
+- community:Tulpa
+- guide:创造型系统
+- community:多意识体
+- guide:实践指南
+title: 异化/偏离（Deviation）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 异化/偏离（Deviation）

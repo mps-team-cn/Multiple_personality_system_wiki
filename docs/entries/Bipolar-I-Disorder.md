@@ -1,24 +1,20 @@
 ---
-tags:
-
-- 诊断与临床
-- 多意识体
-- 解离
-- 创伤
-
-topic: 诊断与临床
-title: 双相 I 型障碍（Bipolar I Disorder）
-updated: 2025-10-20
+comments: true
 synonyms:
-
 - 双相I型障碍
 - 双相一型障碍
 - Bipolar I Disorder
 - Bipolar I
 - BP-I
 - shuangxiangyixingzhangai
-
-comments: true
+tags:
+- guide:诊断与临床
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 双相 I 型障碍（Bipolar I Disorder）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 双相 I 型障碍（Bipolar I Disorder）

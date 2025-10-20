@@ -1,20 +1,15 @@
 ---
-tags:
-
-- 诊断与临床
-- 人格障碍
-- 共病
-
-topic: 诊断与临床
-title: 人格障碍（Personality Disorders）
-updated: 2025-10-14
+comments: true
 synonyms:
-
 - 人格障碍
 - Personality Disorders
 - PD
-
-comments: true
+tags:
+- dx:共病
+- guide:诊断与临床
+title: 人格障碍（Personality Disorders）
+topic: 诊断与临床
+updated: 2025-10-14
 ---
 
 # 人格障碍（Personality Disorders）

@@ -1,27 +1,22 @@
 ---
-tags:
-
-- 理论与分类
-- 心理学
-- 多意识体
-- 解离
-- 创伤
-
-topic: 理论与分类
-title: 精神分析心理学（Psychoanalysis）
+comments: true
 description: 精神分析心理学强调潜意识驱动与本能冲突,是心理学第一势力,通过自由联想与梦的解析探索无意识,为多意识体理解提供防御机制、结构性人格与创伤压抑理论视角,奠定现代深度心理学基础。
-updated: 2025-10-20
 search:
   boost: 1.2
 synonyms:
-
 - 精神分析
 - 精神分析学派
 - psychoanalysis
 - 弗洛伊德心理学
 - 心理动力学
-
-comments: true
+tags:
+- theory:心理学理论
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 精神分析心理学（Psychoanalysis）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 精神分析心理学（Psychoanalysis）

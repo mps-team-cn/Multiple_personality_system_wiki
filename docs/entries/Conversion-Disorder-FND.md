@@ -1,16 +1,11 @@
 ---
-title: 功能性神经症状障碍（Functional Neurological Symptom Disorder，FND）
-tags:
-
-    - 诊断与临床
-    - FND
-    - 解离
-
-topic:
-  诊断与临床
-
-updated: 2025-10-20
 comments: true
+tags:
+- dx:解离障碍
+- guide:诊断与临床
+title: 功能性神经症状障碍（Functional Neurological Symptom Disorder，FND）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 功能性神经症状障碍（Functional Neurological Symptom Disorder，FND）

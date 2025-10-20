@@ -1,23 +1,19 @@
 ---
-tags:
-
-- 系统运作
-- 多意识体
-- 解离
-- 创伤
-
-topic: 系统运作
-title: 子系统（Subsystem）
-updated: 2025-10-20
+comments: true
 search:
   boost: 1.5
 synonyms:
-
 - 子系统
 - Subsystem
 - 次级系统
-
-comments: true
+tags:
+- ops:系统运作
+- sx:创伤症状
+- community:多意识体
+- dx:解离障碍
+title: 子系统（Subsystem）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 子系统（Subsystem）

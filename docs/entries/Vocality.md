@@ -1,26 +1,21 @@
 ---
-title: 成声（Vocality）
-tags:
-
-    - Tulpa
-    - 创造型系统
-    - 实践指南
-    - 多意识体
-    - 内部沟通
-
-topic: 实践指南
-synonyms:
-
-    - vocality
-    - 成声
-    - 成声
-    - tulpa成声
-    - 获得声音
-    - 语言能力
-
-description: Vocality 指 Tulpa 在发展过程中获得可被感知的独特"声音"或语言表达能力的里程碑阶段，是自主性的重要标志
-updated: 2025-10-20
 comments: true
+description: Vocality 指 Tulpa 在发展过程中获得可被感知的独特"声音"或语言表达能力的里程碑阶段，是自主性的重要标志
+synonyms:
+- vocality
+- 成声
+- 成声
+- tulpa成声
+- 获得声音
+- 语言能力
+tags:
+- community:Tulpa
+- guide:创造型系统
+- community:多意识体
+- guide:实践指南
+title: 成声（Vocality）
+topic: 实践指南
+updated: 2025-10-20
 ---
 
 # 成声（Vocality）

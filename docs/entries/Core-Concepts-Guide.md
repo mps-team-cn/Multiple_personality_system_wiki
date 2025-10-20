@@ -1,17 +1,14 @@
 ---
-tags:
-
-    - 理论与分类
-    - 多意识体
-    - 解离
-    - DID
-    - OSDD
-    - Tulpa
-
-topic: 理论与分类
-title: 核心概念导览
-updated: 2025-10-20
 comments: true
+tags:
+- community:Tulpa
+- dx:DID
+- dx:OSDD
+- community:多意识体
+- dx:解离障碍
+title: 核心概念导览
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 核心概念导览（Core Concepts Guide）

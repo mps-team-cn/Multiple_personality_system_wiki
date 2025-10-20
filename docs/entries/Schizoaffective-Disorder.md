@@ -1,20 +1,16 @@
 ---
-title: 分裂情感性障碍（Schizoaffective Disorder, SZA）
-tags:
-
-- 诊断与临床
-- 精神病性障碍
-- 情感障碍
-
-topic: 诊断与临床
+comments: true
+description: 同时具有精神分裂症样症状与显著心境发作的障碍。诊断要求在疾病程中存在 ≥ 2 周的纯精神病性期（无心境发作），且心境发作占疾病总时长的大部分。需与精神分裂症伴心境症状及双相/抑郁障碍伴精神病性特征鉴别。
 synonyms:
-
 - 情感性分裂障碍（旧译）
 - Schizoaffective Disorder
-
-description: 同时具有精神分裂症样症状与显著心境发作的障碍。诊断要求在疾病程中存在 ≥ 2 周的纯精神病性期（无心境发作），且心境发作占疾病总时长的大部分。需与精神分裂症伴心境症状及双相/抑郁障碍伴精神病性特征鉴别。
+tags:
+- dx:双相及相关障碍
+- dx:精神病性障碍
+- guide:诊断与临床
+title: 分裂情感性障碍（Schizoaffective Disorder, SZA）
+topic: 诊断与临床
 updated: 2025-10-15
-comments: true
 ---
 
 # 分裂情感性障碍（Schizoaffective Disorder, SZA）

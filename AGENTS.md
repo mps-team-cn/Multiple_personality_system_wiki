@@ -24,6 +24,7 @@
 6. [测试与检查](#6-测试与检查)
 7. [自动化维护规则](#7-自动化维护规则代理脚本必须遵循)
 8. [Markdown 自动修复与校验](#8-markdown-自动修复与校验)
+9. [标签规范 v2.0](#9-标签规范-v20)
 
 ---
 
@@ -643,3 +644,23 @@ mkdocs build --strict
 !!! success "文档版本"
     最后更新：2025-01-XX
     如有疑问，请查阅项目 Wiki 或提交 Issue。
+
+---
+
+## 9. 标签规范 v2.0
+
+!!! danger "强制：MPS Wiki Tagging Standard v2.0"
+    - 统一格式：`prefix:名称`，前缀全小写，中文为主，必要英文缩写置于全角括号
+    - 数量限制：每篇词条最多 5 个标签
+    - 来源限制：标签必须来自分面体系（dx/sx/tx/scale/theory/ops/role/community/guide/history/misuse/bio/sleep/dev/culture/meta）
+    - 形式限制：禁止无前缀、页面标题型、模糊集合词；禁止空格、句号与英文半角括号
+    - 别名管理：同义与旧标签通过 `data/tags_alias.yaml` 统一映射，提交中不得直接使用别名
+
+### 验证要求（CI/本地）
+
+- 至少 1 个合法前缀标签，总数 ≤ 5；无未定义前缀；无别名；标签名称部分不得与页面 `title` 完全相同
+- 正则校验：`^[a-z]+:[^\s()]+$`
+- 本地命令：`python3 tools/check_tags.py docs/entries/`（或指定单文件）
+
+!!! info "完整规范"
+    详见：`docs/contributing/tagging-standard.md`

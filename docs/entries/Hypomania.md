@@ -1,16 +1,6 @@
 ---
-tags:
-
-- 诊断与临床
-- 多意识体
-- 解离
-- 创伤
-
-topic: 诊断与临床
-title: 轻躁狂（Hypomania）
-updated: 2025-10-20
+comments: true
 synonyms:
-
 - 轻躁狂
 - 轻躁症
 - Hypomania
@@ -20,8 +10,14 @@ synonyms:
 - 轻躁狂发作
 - hypomania episode
 - hypomanic state
-
-comments: true
+tags:
+- guide:诊断与临床
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 轻躁狂（Hypomania）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 轻躁狂（Hypomania）

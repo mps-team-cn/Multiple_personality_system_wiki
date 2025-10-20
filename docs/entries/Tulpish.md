@@ -1,18 +1,16 @@
 ---
-tags:
-
-- 系统运作
-- 多意识体
-- 解离
-- 创伤
-
-topic: 系统运作
-title: T 语(Tulpish)
-updated: 2025-10-20
 comments: true
 description: 图帕与宿主间以感官化符号传递信息的非语言沟通方式
 search:
   boost: 1.5
+tags:
+- ops:系统运作
+- sx:创伤症状
+- community:多意识体
+- dx:解离障碍
+title: T 语(Tulpish)
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # T 语(Tulpish)

@@ -1,16 +1,14 @@
 ---
-tags:
-
-- 角色与身份
-- 多意识体
-- 解离
-- 创伤
-
-topic: 角色与身份
-description: 记忆持有者（Memory Holder）的角色与创伤记忆管理。理解特定成员持有特定记忆的机制、记忆分隔的保护作用及整合挑战
-title: 记忆持有者（Memory Holder）
-updated: 2025-10-20
 comments: true
+description: 记忆持有者（Memory Holder）的角色与创伤记忆管理。理解特定成员持有特定记忆的机制、记忆分隔的保护作用及整合挑战
+tags:
+- role:系统角色
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 记忆持有者（Memory Holder）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 记忆持有者（Memory Holder）
