@@ -18,6 +18,7 @@ hide:
 - [醉酒解离（Alcohol-Induced Dissociation）](Alcohol-Induced-Dissociation.md) — *2025-10-20*
 - [失忆（Amnesia）](Amnesia.md) — *2025-10-20*
 - [锚点（Anchors / Tells / Markers）](Anchors.md) — *2025-10-20*
+- [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](Apparently-Normal-Part-Emotional-Part-Model.md) — *2025-10-20*
 - [自动驾驶（Autopilot）](Autopilot.md) — *2025-10-20*
 - [后台（Back / Being Back）](Back-Being-Back.md) — *2025-10-20*
 - [混合（Blending）](Blending.md) — *2025-10-20*
@@ -68,4 +69,3 @@ hide:
 - [解离（Dissociation）](Dissociation.md) — *2025-10-19*
 - [角色面具（Masking / Social Masking）](Masking.md) — *2025-10-19*
 - [结构性解离理论（Theory of Structural Dissociation of the Personality, TSDT）](Structural-Dissociation-Theory.md) — *2025-10-18*
-- [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](Apparently-Normal-Part-Emotional-Part-Model.md) — *2025-10-14*
