@@ -30,13 +30,22 @@ search:
 
 ---
 
+## 🧠 心理学三大势力
+
+> 理解心理学主要流派的人性观、方法论与治疗取向。
+
+- 🧠 [精神分析心理学（Psychoanalysis）](Psychoanalysis.md)：第一势力,潜意识驱动、本能冲突与防御机制。
+- 🧪 [行为主义心理学（Behaviorism）](Behaviorism.md)：第二势力,环境塑造、刺激-反应与条件反射。
+- 🌼 [人本主义心理学（Humanistic Psychology）](Humanistic-Psychology.md)：第三势力,自我实现、自由意志与非病理化取向。
+
+---
+
 ## 🧠 人格与自我发展
 
-> 探索“我是谁”的形成与动机结构。
+> 探索"我是谁"的形成与动机结构。
 
 - ⚙️ [人格结构理论（弗洛伊德）](Personality-Structure-Theory.md)：本我、自我、超我三层模型。
-- 🌼 [人本主义心理学](Humanistic-Psychology.md)：自我实现与无条件积极关注。
-- 🪞 [自我概念（Self-Concept）](Self-Concept.md)：“自我”在成长中的构成与演化。
+- 🪞 [自我概念（Self-Concept）](Self-Concept.md)："自我"在成长中的构成与演化。
 - 🔑 [自我决定理论（SDT）](Self-Determination-Theory.md)：自主、胜任、关联三大心理需求。
 - 💪 [自我效能感（Self-Efficacy）](Self-Efficacy.md)：信念与行为坚持的关系。
 
