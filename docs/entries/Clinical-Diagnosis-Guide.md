@@ -129,7 +129,10 @@ search:
     - [短期精神病性障碍（Brief Psychotic Disorder）](Brief-Psychotic-Disorder.md) — :octicons-check-16: 已完成
     - [分裂样障碍（Schizophreniform Disorder）](Schizophreniform-Disorder.md) — :octicons-check-16: 已完成
     - [分裂情感性障碍（Schizoaffective Disorder）](Schizoaffective-Disorder.md) — :octicons-check-16: 已完成
-    - 紧张症（Catatonia）— :octicons-clock-16: 待更新
+    - [物质/药物所致精神病性障碍（Substance/Medication-Induced Psychotic Disorder）](Substance-Medication-Induced-Psychotic-Disorder.md) — :octicons-check-16: 已完成
+    - [躯体疾病所致精神病性障碍（Psychotic Disorder Due to Another Medical Condition）](Psychotic-Disorder-Due-to-Another-Medical-Condition.md) — :octicons-check-16: 已完成
+    - [紧张症（Catatonia）](Catatonia.md) — :octicons-check-16: 已完成
+    - [其他特定的或未特定的精神病性障碍（Other Specified/Unspecified Psychotic Disorder）](Other-Specified-or-Unspecified-Psychotic-Disorder.md) — :octicons-check-16: 已完成
 
 ### 3) 双相及相关障碍
 
