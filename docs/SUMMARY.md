@@ -175,6 +175,7 @@
         * [附体（Possession）](entries/Possession.md)
         * [非我感（Not-me Feeling）](entries/Not-Me-Feeling.md)
     * [实践指南](entries/Practice-index.md)
+        * [Tulpa 完全创造指南](entries/Tulpa-Guide-0.md)
         * [Tulpa 完全创造指南·基础篇](entries/Tulpa-Guide-1.md)
         * [Tulpa 完全创造指南·实践篇](entries/Tulpa-Guide-2.md)
         * [Tulpa 完全创造指南·提高篇](entries/Tulpa-Guide-3.md)

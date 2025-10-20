@@ -18,6 +18,7 @@ hide:
 - [危机与支援资源（Crisis & Support Resources）](Crisis-And-Support-Resources.md) — *2025-10-20*
 - [塑造（Forcing）](Forcing.md) — *2025-10-20*
 - [学舌/操纵（Parroting/Puppeting）](Parroting-Puppeting.md) — *2025-10-20*
+- [Tulpa 完全创造指南](Tulpa-Guide-0.md) — *2025-10-20*
 - [Tulpa 完全创造指南·基础篇](Tulpa-Guide-1.md) — *2025-10-20*
 - [Tulpa 完全创造指南·实践篇](Tulpa-Guide-2.md) — *2025-10-20*
 - [Tulpa 完全创造指南·提高篇](Tulpa-Guide-3.md) — *2025-10-20*
