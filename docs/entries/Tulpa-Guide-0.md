@@ -1,10 +1,10 @@
 ---
 tags:
 
-    - Tulpa
-    - 多意识体
-    - 创造型系统
-    - 实践指南
+  - community:Tulpa
+  - 创造型系统
+  - 多意识体
+  - 实践指南
 
 topic: 实践指南
 title: Tulpa 完全创造指南

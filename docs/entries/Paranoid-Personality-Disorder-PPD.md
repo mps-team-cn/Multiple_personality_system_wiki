@@ -1,9 +1,9 @@
 ---
 tags:
 
-- 诊断与临床
-- 人格障碍
-- A组人格障碍
+  - dx:A组人格障碍
+  - dx:人格障碍(PDs)
+  - 诊断与临床
 
 topic: 诊断与临床
 title: 偏执型人格障碍（Paranoid Personality Disorder，PPD）

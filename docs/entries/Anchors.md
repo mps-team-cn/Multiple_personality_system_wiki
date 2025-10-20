@@ -2,9 +2,9 @@
 title: 锚点（Anchors / Tells / Markers）
 tags:
 
-    - 系统运作
-    - 多意识体
-    - 解离
+  - ops:系统运作
+  - 多意识体
+  - 解离
 
 topic: 系统运作
 synonyms:

@@ -2,9 +2,9 @@
 title: 卡前台(Front Stuck / Frontstuck)
 tags:
 
-    - 系统运作
-    - 多意识体
-    - 解离
+  - ops:系统运作
+  - 多意识体
+  - 解离
 
 topic: 系统运作
 synonyms:

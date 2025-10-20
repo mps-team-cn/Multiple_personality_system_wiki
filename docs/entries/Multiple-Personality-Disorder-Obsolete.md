@@ -2,9 +2,9 @@
 title: 多人格障碍（Multiple Personality Disorder，已过时）
 tags:
 
-    - 诊断与临床
-    - 历史术语
-    - 解离
+  - history:历史术语
+  - 解离
+  - 诊断与临床
 
 topic: 诊断与临床
 synonyms:

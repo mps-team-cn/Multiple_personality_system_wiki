@@ -2,11 +2,11 @@
 title: 异化/偏离（Deviation）
 tags:
 
-    - Tulpa
-    - 创造型系统
-    - 实践指南
-    - 多意识体
-    - 人格发展
+  - community:Tulpa
+  - 人格发展
+  - 创造型系统
+  - 多意识体
+  - 实践指南
 
 topic: 角色与身份
 synonyms:

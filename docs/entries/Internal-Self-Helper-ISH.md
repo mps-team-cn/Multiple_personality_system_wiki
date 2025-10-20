@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 角色与身份
-- DID
-- 多意识体
-- 解离
+  - dx:DID
+  - 多意识体
+  - 角色与身份
+  - 解离
 
 topic: 角色与身份
 title: 内部自助者（Internal Self Helper，ISH）

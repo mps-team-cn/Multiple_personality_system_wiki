@@ -2,9 +2,9 @@
 title: 癔症（Hysteria，已过时）
 tags:
 
-    - 诊断与临床
-    - 历史术语
-    - 躯体症状
+  - history:历史术语
+  - 诊断与临床
+  - 躯体症状
 
 topic: 诊断与临床
 synonyms:

@@ -1,9 +1,9 @@
 ---
 tags:
 
-    - 诊断与临床
-    - 评估工具
-    - DSM-5-TR
+  - scale:DSM-5-TR 评估量表
+  - scale:评估量表
+  - 诊断与临床
 
 topic: 诊断与临床
 title: DSM-5-TR 评估量表总览

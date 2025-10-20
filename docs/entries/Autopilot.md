@@ -1,10 +1,10 @@
 ---
 tags:
 
-    - 系统运作
-    - DID
-    - ANP
-    - 多意识体
+  - dx:DID
+  - ops:系统运作
+  - theory:ANP
+  - 多意识体
 
 topic: 系统运作
 title: 自动驾驶（Autopilot）

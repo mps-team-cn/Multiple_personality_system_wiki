@@ -3,9 +3,9 @@ title: 异装癖（Transvestism，已过时）
 topic: 诊断与临床
 tags:
 
-    - 诊断与临床
-    - 历史术语
-    - 性与性别
+  - history:历史术语
+  - 性与性别
+  - 诊断与临床
 
 synonyms:
 

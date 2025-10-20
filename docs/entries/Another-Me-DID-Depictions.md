@@ -1,7 +1,7 @@
 ---
 tags:
 
-- 文化与表现
+  - culture:文化表现
 
 topic: 文化与表现
 title: 《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）

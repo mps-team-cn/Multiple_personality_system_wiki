@@ -2,12 +2,12 @@
 title: 多意识体系统中的创伤功能分化（Functional Dissociation of Trauma in Plural Systems）
 tags:
 
-    - 创伤与疗愈
-    - 系统运作
-    - 理论与分类
-    - 创伤记忆
-    - 创伤情绪
-    - 创伤承受
+  - ops:系统运作
+  - 创伤与疗愈
+  - 创伤情绪
+  - 创伤承受
+  - 创伤记忆
+  - 理论与分类
 
 topic: 理论与分类
 synonyms:

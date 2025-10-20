@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 诊断与临床
-- MDD
-- 抑郁
-- 情绪障碍
+  - MDD
+  - dx:双相及相关障碍
+  - dx:抑郁障碍
+  - 诊断与临床
 
 topic: 诊断与临床
 title: 重性抑郁障碍（Major Depressive Disorder, MDD）

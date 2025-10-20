@@ -2,15 +2,15 @@
 title: 应激反应（Stress Response）
 tags:
 
-    - 系统运作
-    - 多意识体
-    - 解离
-    - 创伤
-    - 应激
-    - ANS
-    - HPA
-    - allostasis
-    - 机制
+  - ANS
+  - HPA
+  - allostasis
+  - ops:系统运作
+  - 创伤
+  - 多意识体
+  - 应激
+  - 机制
+  - 解离
 
 topic: 系统运作
 synonyms:

@@ -2,11 +2,11 @@
 title: 意识修改（Consciousness Modification）
 tags:
 
-    - 系统运作
-    - 多意识体
-    - 解离
-    - 创伤
-    - 身份调整
+  - ops:系统运作
+  - 创伤
+  - 多意识体
+  - 解离
+  - 身份调整
 
 topic: 系统运作
 synonyms:

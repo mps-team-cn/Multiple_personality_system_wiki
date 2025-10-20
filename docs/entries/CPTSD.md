@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 诊断与临床
-- CPTSD
-- PTSD
-- 多意识体
+  - dx:CPTSD
+  - dx:PTSD
+  - 多意识体
+  - 诊断与临床
 
 topic: 诊断与临床
 description: 复杂性创伤后应激障碍（CPTSD）完整指南：诊断标准、自我组织障碍（DSO）与治疗方法。了解长期创伤的影响、与 PTSD 的区别及康复路径

@@ -1,9 +1,9 @@
 ---
 tags:
 
-- 诊断与临床
-- 人格障碍
-- 共病
+  - dx:人格障碍(PDs)
+  - 共病
+  - 诊断与临床
 
 topic: 诊断与临床
 title: 人格障碍（Personality Disorders）

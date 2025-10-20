@@ -3,9 +3,9 @@ title: 创伤后成长（Post‑Traumatic Growth, PTG）
 topic: 创伤与疗愈
 tags:
 
-    - 创伤与疗愈
-    - 创伤
-    - PTSD
+  - dx:PTSD
+  - 创伤
+  - 创伤与疗愈
 
 description: 定义与澄清创伤后成长（PTG）的五大维度、发生机制与临床适用边界。区分 PTG 与“韧性/症状消退/有毒正能量”，并给出在阶段性创伤治疗路线中的实践要点与系统（DID/OSDD）情境下的注意事项。
 synonyms:

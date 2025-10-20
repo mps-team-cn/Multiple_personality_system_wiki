@@ -1,9 +1,9 @@
 ---
 tags:
 
-- 诊断与临床
-- 焦虑
-- 共病
+  - dx:焦虑障碍
+  - 共病
+  - 诊断与临床
 
 topic: 诊断与临床
 title: 广泛性焦虑障碍（Generalized Anxiety Disorder，GAD）

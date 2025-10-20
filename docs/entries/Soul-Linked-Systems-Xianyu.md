@@ -2,10 +2,10 @@
 title: 系魂型系统（Soul-Linked Systems, Xianyu Theory）
 tags:
 
-    - 系统运作
-    - 多意识体
-    - 解离
-    - 创伤
+  - ops:系统运作
+  - 创伤
+  - 多意识体
+  - 解离
 
 topic: 系统运作
 updated: 2025-10-20

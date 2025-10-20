@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 系统运作
-- PTSD
-- 多意识体
-- 解离
+  - dx:PTSD
+  - ops:系统运作
+  - 多意识体
+  - 解离
 
 topic: 系统运作
 title: 侵入性思维（Intrusive Thoughts）

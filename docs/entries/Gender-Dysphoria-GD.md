@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 诊断与临床
-- GD
-- 性别认同
-- 创伤
+  - dx:性别不安(GD)
+  - 创伤
+  - 性别认同
+  - 诊断与临床
 
 topic: 诊断与临床
 title: 性别不安（Gender Dysphoria，GD）

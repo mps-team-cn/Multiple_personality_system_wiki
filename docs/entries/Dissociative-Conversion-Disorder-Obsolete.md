@@ -2,10 +2,10 @@
 title: 分离转换障碍（Dissociative [Conversion] Disorders，已过时）
 tags:
 
-    - 诊断与临床
-    - 历史术语
-    - 解离
-    - 躯体症状
+  - history:历史术语
+  - 解离
+  - 诊断与临床
+  - 躯体症状
 
 topic: 诊断与临床
 synonyms:

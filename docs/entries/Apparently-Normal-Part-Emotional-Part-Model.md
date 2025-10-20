@@ -1,14 +1,14 @@
 ---
 tags:
 
-- 系统运作
-- 理论与分类
-- ANP
-- EP
-- DID
-- CPTSD
-- OSDD
-- 创伤与疗愈
+  - dx:CPTSD
+  - dx:DID
+  - dx:OSDD
+  - ops:系统运作
+  - theory:ANP
+  - theory:EP
+  - 创伤与疗愈
+  - 理论与分类
 
 topic: 系统运作
 title: ANP-EP 模型（Apparently Normal Part–Emotional Part Model）

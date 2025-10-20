@@ -1,9 +1,9 @@
 ---
 tags:
 
-- 诊断与临床
-- 人格障碍
-- C组人格障碍
+  - dx:C组人格障碍
+  - dx:人格障碍(PDs)
+  - 诊断与临床
 
 topic: 诊断与临床
 title: 强迫型人格障碍（Obsessive-Compulsive Personality Disorder，OCPD）

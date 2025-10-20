@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 诊断与临床
-- PDD
-- 抑郁
-- 情绪障碍
+  - PDD
+  - dx:双相及相关障碍
+  - dx:抑郁障碍
+  - 诊断与临床
 
 topic: 诊断与临床
 title: 持续性抑郁障碍（Persistent Depressive Disorder, PDD / Dysthymia）

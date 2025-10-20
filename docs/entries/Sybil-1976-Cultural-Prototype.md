@@ -1,7 +1,7 @@
 ---
 tags:
 
-- 文化与表现
+  - culture:文化表现
 
 topic: 文化与表现
 title: 《西比尔》（Sybil, 1976）与多重人格文化原型

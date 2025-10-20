@@ -2,10 +2,10 @@
 title: 附体（Possession）
 tags:
 
-    - Tulpa
-    - 多意识体
-    - 系统运作
-    - 实践指南
+  - community:Tulpa
+  - ops:系统运作
+  - 多意识体
+  - 实践指南
 
 topic: 系统运作
 synonyms:

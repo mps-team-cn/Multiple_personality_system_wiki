@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 系统运作
-- 多意识体
-- 解离
-- 创伤
+  - ops:系统运作
+  - 创伤
+  - 多意识体
+  - 解离
 
 topic: 系统运作
 title: 弦羽理论生态位分类法（Xianyu Theory of Niche Classification）

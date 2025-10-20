@@ -3,11 +3,10 @@ title: 多维解离量表（MID‑60）
 topic: 诊断与临床
 tags:
 
-    - 诊断与临床
-    - 解离
-    - 量表
-    - MID
-    - MID-60
+  - scale:MID-60
+  - scale:评估量表
+  - 解离
+  - 诊断与临床
 
 hide:
 

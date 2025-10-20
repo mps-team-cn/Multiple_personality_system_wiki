@@ -1,10 +1,10 @@
 ---
 tags:
 
-    - 诊断与临床
-    - 人格障碍
-    - B组人格障碍
-    - 自恋
+  - dx:B组人格障碍
+  - dx:人格障碍(PDs)
+  - 自恋
+  - 诊断与临床
 
 topic: 诊断与临床
 title: 自恋型人格障碍（Narcissistic Personality Disorder，NPD）

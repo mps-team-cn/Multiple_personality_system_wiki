@@ -2,9 +2,9 @@
 title: 角色面具（Masking / Social Masking）
 tags:
 
-    - 系统运作
-    - 社会适应
-    - 社群术语
+  - ops:系统运作
+  - 社会适应
+  - 社群术语
 
 topic: 系统运作
 synonyms:

@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 诊断与临床
-- 焦虑
-- 社交
-- 共病
+  - dx:焦虑障碍
+  - 共病
+  - 社交
+  - 诊断与临床
 
 topic: 诊断与临床
 title: 社交焦虑障碍（Social Anxiety Disorder / Social Phobia，SAD）

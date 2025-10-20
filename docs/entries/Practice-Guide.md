@@ -1,9 +1,9 @@
 ---
 tags:
 
-    - 实践指南
-    - Tulpa
-    - 多意识体
+  - community:Tulpa
+  - 多意识体
+  - 实践指南
 
 topic: 实践指南
 title: 实践指南导览

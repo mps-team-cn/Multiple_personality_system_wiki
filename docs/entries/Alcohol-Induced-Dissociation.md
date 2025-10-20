@@ -1,10 +1,10 @@
 ---
 tags:
 
-- 系统运作
-- 解离
-- 多意识体
-- 创伤
+  - ops:系统运作
+  - 创伤
+  - 多意识体
+  - 解离
 
 topic: 系统运作
 title: 醉酒解离（Alcohol-Induced Dissociation）

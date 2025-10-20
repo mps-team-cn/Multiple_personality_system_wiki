@@ -3,11 +3,11 @@ title: 解离经验量表（Dissociative Experiences Scale‑II, DES‑II）
 topic: 诊断与临床
 tags:
 
-    - 诊断与临床
-    - 解离
-    - 量表
-    - DES
-    - DES-II
+  - DES
+  - scale:DES-II
+  - scale:评估量表
+  - 解离
+  - 诊断与临床
 
 description: 解离经验量表（DES‑II）中文交互版，含记忆缺失（Amnesia）、人格/现实解体（DP/DR）与吸收沉浸（Absorption）三子量表，自评筛查与教育用途。
 synonyms:

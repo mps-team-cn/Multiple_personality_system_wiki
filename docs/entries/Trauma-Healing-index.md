@@ -2,8 +2,9 @@
 title: 创伤与疗愈
 topic: 创伤与疗愈
 tags:
-  - 索引
-  - 主题导览
+
+  - guide:导览
+  - guide:索引
 comments: true
 hide:
   - toc

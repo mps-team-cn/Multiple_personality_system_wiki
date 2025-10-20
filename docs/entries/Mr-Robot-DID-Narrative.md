@@ -1,7 +1,7 @@
 ---
 tags:
 
-- 文化与表现
+  - culture:文化表现
 
 topic: 文化与表现
 title: 《隐形人》（Mr. Robot）中的人格分裂叙事

@@ -1,12 +1,12 @@
 ---
 tags:
 
-- 诊断与临床
-- 解离
-- 多意识体
-- 创伤
-- DSM-5
-- ICD-11
+  - ICD-11
+  - scale:DSM-5-TR 评估量表
+  - 创伤
+  - 多意识体
+  - 解离
+  - 诊断与临床
 
 topic: 诊断与临床
 description: 解离障碍（Dissociative Disorders）完整分类：DID、OSDD、DPDR、DA 等诊断概览。理解解离障碍谱系的临床特征与鉴别诊断

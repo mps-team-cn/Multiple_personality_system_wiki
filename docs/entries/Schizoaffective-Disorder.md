@@ -2,9 +2,9 @@
 title: 分裂情感性障碍（Schizoaffective Disorder, SZA）
 tags:
 
-- 诊断与临床
-- 精神病性障碍
-- 情感障碍
+  - dx:双相及相关障碍
+  - 精神病性障碍
+  - 诊断与临床
 
 topic: 诊断与临床
 synonyms:

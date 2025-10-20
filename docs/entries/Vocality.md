@@ -2,11 +2,11 @@
 title: 成声（Vocality）
 tags:
 
-    - Tulpa
-    - 创造型系统
-    - 实践指南
-    - 多意识体
-    - 内部沟通
+  - community:Tulpa
+  - 内部沟通
+  - 创造型系统
+  - 多意识体
+  - 实践指南
 
 topic: 实践指南
 synonyms:

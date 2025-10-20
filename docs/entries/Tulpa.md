@@ -1,12 +1,11 @@
 ---
 tags:
 
-- 角色与身份
-- DID
-- 多意识体
-- 解离
-- Tulpa
-- 创造型系统
+  - community:Tulpa
+  - 创造型系统
+  - 多意识体
+  - 角色与身份
+  - 解离
 
 topic: 角色与身份
 synonyms:

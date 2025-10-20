@@ -2,9 +2,9 @@
 title: 易性症（Transsexualism，已过时）
 tags:
 
-    - 诊断与临床
-    - 历史术语
-    - 性别认同
+  - history:历史术语
+  - 性别认同
+  - 诊断与临床
 
 topic: 诊断与临床
 synonyms:

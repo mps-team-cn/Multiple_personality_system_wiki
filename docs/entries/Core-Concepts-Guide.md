@@ -1,12 +1,12 @@
 ---
 tags:
 
-    - 理论与分类
-    - 多意识体
-    - 解离
-    - DID
-    - OSDD
-    - Tulpa
+  - community:Tulpa
+  - dx:DID
+  - dx:OSDD
+  - 多意识体
+  - 理论与分类
+  - 解离
 
 topic: 理论与分类
 title: 核心概念导览

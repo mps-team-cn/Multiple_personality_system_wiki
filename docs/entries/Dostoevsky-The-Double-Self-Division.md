@@ -1,7 +1,7 @@
 ---
 tags:
 
-- 文化与表现
+  - culture:文化表现
 
 topic: 文化与表现
 title: 陀思妥耶夫斯基《双重人格》（The Double）与自我分裂

@@ -2,11 +2,11 @@
 title: 幻境（Wonderland）
 tags:
 
-    - Tulpa
-    - 创造型系统
-    - 实践指南
-    - 多意识体
-    - 内部空间
+  - community:Tulpa
+  - 内部空间
+  - 创造型系统
+  - 多意识体
+  - 实践指南
 
 topic: 系统运作
 synonyms:

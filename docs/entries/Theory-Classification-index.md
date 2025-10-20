@@ -2,8 +2,9 @@
 title: 理论与分类
 topic: 理论与分类
 tags:
-  - 索引
-  - 主题导览
+
+  - guide:导览
+  - guide:索引
 comments: true
 hide:
   - toc

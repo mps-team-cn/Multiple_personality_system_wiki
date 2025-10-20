@@ -1,10 +1,10 @@
 ---
 tags:
 
-    - 系统运作
-    - 解离
-    - ANP
-    - EP
+  - ops:系统运作
+  - theory:ANP
+  - theory:EP
+  - 解离
 
 topic: 系统运作
 title: 结构性解离理论（Theory of Structural Dissociation of the Personality, TSDT）

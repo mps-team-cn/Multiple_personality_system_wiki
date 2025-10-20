@@ -2,11 +2,11 @@
 title: 解离（Dissociation）
 tags:
 
-    - 系统运作
-    - 解离
-    - DID
-    - OSDD
-    - DPDR
+  - dx:DID
+  - dx:DPDR
+  - dx:OSDD
+  - ops:系统运作
+  - 解离
 
 topic: 系统运作
 synonyms:

@@ -1,9 +1,9 @@
 ---
 tags:
 
-- 诊断与临床
-- 焦虑
-- 恐惧症
+  - dx:焦虑障碍
+  - 恐惧症
+  - 诊断与临床
 
 topic: 诊断与临床
 title: 特定恐惧症(Specific Phobia, SP)
