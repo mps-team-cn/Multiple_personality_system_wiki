@@ -34,6 +34,7 @@ hide:
 - [解离性失忆(Dissociative Amnesia,DA)](Dissociative-Amnesia-DA.md) — *2025-10-20*
 - [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md) — *2025-10-20*
 - [闪回（Flashback）](Flashback.md) — *2025-10-20*
+- [广泛性焦虑障碍（Generalized Anxiety Disorder，GAD）](Generalized-Anxiety-Disorder-GAD.md) — *2025-10-20*
 - [轻躁狂（Hypomania）](Hypomania.md) — *2025-10-20*
 - [习得性无助(Learned Helplessness)](Learned-Helplessness.md) — *2025-10-20*
 - [躁狂（Mania）](Mania.md) — *2025-10-20*
@@ -94,7 +95,6 @@ hide:
 - [进食障碍（Eating Disorders，ED）](Eating-Disorders-ED.md) — *2025-10-14*
 - [癫痫（Epilepsy）](Epilepsy.md) — *2025-10-14*
 - [性别不安（Gender Dysphoria，GD）](Gender-Dysphoria-GD.md) — *2025-10-14*
-- [广泛性焦虑障碍（Generalized Anxiety Disorder，GAD）](Generalized-Anxiety-Disorder-GAD.md) — *2025-10-14*
 - [失眠障碍(Insomnia Disorder)](Insomnia-Disorder.md) — *2025-10-14*
 - [智力发育障碍（Intellectual Developmental Disorders）](Intellectual-Developmental-Disorders.md) — *2025-10-14*
 - [多人格障碍（Multiple Personality Disorder，已过时）](Multiple-Personality-Disorder-Obsolete.md) — *2025-10-14*

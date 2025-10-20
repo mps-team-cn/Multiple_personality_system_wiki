@@ -5,7 +5,7 @@ tags:
 - UDD
 - 解离
 - 多意识体
-- 适应型系统 
+- 适应型系统
 
 topic: 诊断与临床
 title: 未特定的解离障碍（Unspecified Dissociative Disorder，UDD）
