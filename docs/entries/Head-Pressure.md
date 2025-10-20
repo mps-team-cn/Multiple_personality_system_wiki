@@ -3,8 +3,7 @@ tags:
 
 - 系统运作
 - 多意识体
-- 解离
-- 创伤
+- Tulpa
 
 topic: 系统运作
 title: 头压（Head Pressure）
