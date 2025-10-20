@@ -129,6 +129,7 @@
         * [内部沟通（Internal Communication）](entries/Internal-Communication.md)
         * [内部空间（Headspace / Inner World）](entries/Headspace-Inner-World.md)
         * [切换（Switch）](entries/Switch.md)
+        * [前台模糊（Front Blur）](entries/Front-Blur.md)
         * [前台（Front / Fronting）](entries/Front-Fronting.md)
         * [功能性分离（Functional Dissociation）](entries/Functional-Dissociation.md)
         * [单一类系统（Single-Class Systems, Xianyu Theory）](entries/Single-Class-Systems-Xianyu.md)

@@ -34,6 +34,7 @@ hide:
 - [独有记忆（Exomemory）](Exomemory.md) — *2025-10-20*
 - [外投射（External Projection）](External-Projection.md) — *2025-10-20*
 - [家族式系统（Family Systems, Xianyu Theory）](Family-Systems-Xianyu.md) — *2025-10-20*
+- [前台模糊（Front Blur）](Front-Blur.md) — *2025-10-20*
 - [前台（Front / Fronting）](Front-Fronting.md) — *2025-10-20*
 - [卡前台(Front Stuck / Frontstuck)](Frontstuck.md) — *2025-10-20*
 - [功能性分离（Functional Dissociation）](Functional-Dissociation.md) — *2025-10-20*

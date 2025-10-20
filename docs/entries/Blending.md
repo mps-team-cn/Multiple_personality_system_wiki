@@ -160,7 +160,7 @@ updated: 2025-10-20
 ### 系统运作
 
 - [共前台（Co-fronting）](Co-Fronting.md)
- - [共前台（Co-Fronting）](Co-Fronting.md)
+    - [共前台（Co-Fronting）](Co-Fronting.md)
 - [前台（Front / Fronting）](Front-Fronting.md)
 - [切换（Switch）](Switch.md)
 - [成员（Alter）](Alter.md)
@@ -186,11 +186,11 @@ updated: 2025-10-20
 
 ## 参考资料
 
-[^loewenstein1991]: Loewenstein, R. J. (1991). An Office Mental Status Examination for Complex Chronic Dissociative Symptoms and Multiple Personality Disorder. *Psychiatric Clinics of North America*, 14(3), 567–604. https://doi.org/10.1016/S0193-953X(18)30290-9
+[^loewenstein1991]: Loewenstein, R. J. (1991). An Office Mental Status Examination for Complex Chronic Dissociative Symptoms and Multiple Personality Disorder. *Psychiatric Clinics of North America*, 14(3), 567–604. [https://doi.org/10.1016/S0193-953X（18](https://doi.org/10.1016/S0193-953X(18))30290-9
 [^wikipedia_did]: Wikipedia contributors. (2025). Dissociative identity disorder. *Wikipedia*. [https://en.wikipedia.org/wiki/Dissociative_identity_disorder](https://en.wikipedia.org/wiki/Dissociative_identity_disorder)
 [^brand2014]: Brand, B. L., Loewenstein, R. J., & Spiegel, D. (2014). Dispelling myths about dissociative identity disorder treatment: An empirically based approach. *Psychiatry*, 77(2), 169–189. [https://doi.org/10.1521/psyc.2014.77.2.169](https://doi.org/10.1521/psyc.2014.77.2.169)
 [^brand2013]: Brand, B. L., & Loewenstein, R. J. (2013). Does phasic trauma treatment make patients with dissociative identity disorder treatment more dissociative? *Journal of Trauma & Dissociation*, 15(1), 52–65. [https://doi.org/10.1080/15299732.2013.828150](https://doi.org/10.1080/15299732.2013.828150)
-[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision. *Journal of Trauma & Dissociation*, 12(2), 115–187. https://doi.org/10.1080/15299732.2011.537247
+[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for Treating Dissociative Identity Disorder in Adults, Third Revision. *Journal of Trauma & Dissociation*, 12(2), 115–187. [https://doi.org/10.1080/15299732.2011.537247](https://doi.org/10.1080/15299732.2011.537247)
 
 ---
 
