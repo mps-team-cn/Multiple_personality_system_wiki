@@ -17,6 +17,7 @@ hide:
 
 - [依恋理论（Attachment Theory）](Attachment-Theory.md) — *2025-10-20*
 - [注意与觉察（Attention & Awareness）](Attention-Awareness.md) — *2025-10-20*
+- [行为主义心理学（Behaviorism）](Behaviorism.md) — *2025-10-20*
 - [认知失调（Cognitive Dissonance）](Cognitive-Dissonance.md) — *2025-10-20*
 - [心理防御机制（Defense Mechanisms）](Defense-Mechanisms.md) — *2025-10-20*
 - [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md) — *2025-10-20*
@@ -29,6 +30,7 @@ hide:
 - [人格结构理论（Personality Structure Theory, Freud）](Personality-Structure-Theory.md) — *2025-10-20*
 - [投射（Projection, Psychology）](Projection-Psychology.md) — *2025-10-20*
 - [心理能量与注意资源（Psychic Energy & Attention）](Psychic-Energy-Attention.md) — *2025-10-20*
+- [精神分析心理学（Psychoanalysis）](Psychoanalysis.md) — *2025-10-20*
 - [心理弹性（Psychological Resilience）](Psychological-Resilience.md) — *2025-10-20*
 - [自我概念（Self-Concept）](Self-Concept.md) — *2025-10-20*
 - [自我决定理论（Self-Determination Theory）](Self-Determination-Theory.md) — *2025-10-20*

@@ -27,7 +27,7 @@ comments: true
 
 ## 临床要点速览
 
-人本主义心理学是 20 世纪中叶兴起的"第三势力",以马斯洛（Abraham Maslow）与罗杰斯（Carl Rogers）为代表,强调人的主观体验、[自我实现](Self-Determination-Theory.md#自我实现)与[自由意志](Self-Determination-Theory.md),反对将人仅视为被动反应或潜意识驱动的存在。**在临床语境中,人本主义属于支持性取向（supportive orientation）而非特定诊断或循证治疗模式**,不以症状消除为唯一目标,而是促进个体潜能实现与自我价值探索。在多意识体与解离语境中,人本主义提供**非评判、非病理化的包容框架**,有助于减少羞耻感、促进内部协作与自我接纳,但需结合结构化治疗方法（如创伤聚焦治疗）以确保临床安全性与疗效。
+人本主义心理学是 20 世纪中叶兴起的"第三势力",以马斯洛（Abraham Maslow）与罗杰斯（Carl Rogers）为代表,强调人的主观体验、[自我实现](Self-Determination-Theory.md#自我实现)与[自由意志](Self-Determination-Theory.md),反对将人仅视为被动反应或潜意识驱动的存在。**在临床语境中,人本主义属于支持性取向（supportive orientation）而非特定诊断或循证治疗模式**,不以症状消除为唯一目标,而是促进个体潜能实现与自我价值探索。在多意识体与解离语境中,人本主义提供 **非评判、非病理化的包容框架**,有助于减少羞耻感、促进内部协作与自我接纳,但需结合结构化治疗方法（如创伤聚焦治疗）以确保临床安全性与疗效。
 
 ---
 
@@ -113,33 +113,36 @@ comments: true
 ### 经典文献
 
 1. Maslow, A. H. (1968). *Toward a Psychology of Being* (2nd ed.). Van Nostrand Reinhold.
+
    **说明**：提出需求层次理论与自我实现概念,奠定人本主义理论基础。
 
 2. Rogers, C. R. (1961). *On Becoming a Person*. Houghton Mifflin.
+
    **说明**：介绍以人为中心疗法的核心理念,包括无条件积极关注与共情。
 
 3. Cain, D. J. (Ed.). (2016). *Humanistic Psychotherapies: Handbook of Research and Practice* (2nd ed.). American Psychological Association.
+
    **说明**：人本主义心理治疗的现代综述,涵盖研究证据与临床应用。
 
 ### 现代人本取向疗法
 
 4. **情绪聚焦疗法（EFT）**
-   - Greenberg, L. S. (2015). *Emotion-Focused Therapy: Coaching Clients to Work Through Their Feelings* (2nd ed.). APA.
-   - 整合人本取向与情绪调节理论,为创伤与关系治疗提供循证方法。
+    - Greenberg, L. S. (2015). *Emotion-Focused Therapy: Coaching Clients to Work Through Their Feelings* (2nd ed.). APA.
+    - 整合人本取向与情绪调节理论,为创伤与关系治疗提供循证方法。
 
 5. **存在人本疗法**
-   - Yalom, I. D. (1980). *Existential Psychotherapy*. Basic Books.
-   - 探讨存在主义与人本主义的整合,关注意义、自由与死亡焦虑。
+    - Yalom, I. D. (1980). *Existential Psychotherapy*. Basic Books.
+    - 探讨存在主义与人本主义的整合,关注意义、自由与死亡焦虑。
 
 6. **接纳承诺疗法（ACT）**
-   - Hayes, S. C., Strosahl, K. D., & Wilson, K. G. (2011). *Acceptance and Commitment Therapy: The Process and Practice of Mindful Change* (2nd ed.). Guilford Press.
-   - 结合人本主义价值观与正念,在解离治疗中用于促进心理灵活性。
+    - Hayes, S. C., Strosahl, K. D., & Wilson, K. G. (2011). *Acceptance and Commitment Therapy: The Process and Practice of Mindful Change* (2nd ed.). Guilford Press.
+    - 结合人本主义价值观与正念,在解离治疗中用于促进心理灵活性。
 
 ### 多意识体与解离语境
 
 7. **创伤知情人本取向**
-   - 文献提示：人本取向在创伤治疗中可作为稳定化与建立联盟的辅助方法,需与分阶段治疗模型结合。
+    - 文献提示：人本取向在创伤治疗中可作为稳定化与建立联盟的辅助方法,需与分阶段治疗模型结合。
 
 8. **内部家庭系统（IFS）与人本主义的交叉**
-   - Schwartz, R. C. (2021). *No Bad Parts: Healing Trauma and Restoring Wholeness with the Internal Family Systems Model*. Sounds True.
-   - IFS 吸收人本主义的非评判态度,强调"所有部分都有积极意图"。
+    - Schwartz, R. C. (2021). *No Bad Parts: Healing Trauma and Restoring Wholeness with the Internal Family Systems Model*. Sounds True.
+    - IFS 吸收人本主义的非评判态度,强调"所有部分都有积极意图"。

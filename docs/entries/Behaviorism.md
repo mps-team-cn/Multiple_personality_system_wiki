@@ -27,7 +27,7 @@ comments: true
 
 ## 临床要点速览
 
-行为主义心理学是 20 世纪初兴起的"第二势力",以华生（John B. Watson）与斯金纳（B. F. Skinner）为代表,强调**可观察行为**与**环境塑造**,反对研究内省与意识。**在临床语境中,行为主义提供行为矫正、暴露疗法与技能训练的方法论基础**,但不关注内在体验与主观意义。在多意识体与解离语境中,行为主义的条件反射模型有助于理解触发机制、习惯性反应与行为模式维持,但需与认知取向（如[认知行为疗法 CBT](../contributing/index.md)）整合以处理内在认知与情绪过程,避免过度简化复杂心理现象。
+行为主义心理学是 20 世纪初兴起的"第二势力",以华生（John B. Watson）与斯金纳（B. F. Skinner）为代表,强调 **可观察行为** 与 **环境塑造**,反对研究内省与意识。**在临床语境中,行为主义提供行为矫正、暴露疗法与技能训练的方法论基础**,但不关注内在体验与主观意义。在多意识体与解离语境中,行为主义的条件反射模型有助于理解触发机制、习惯性反应与行为模式维持,但需与认知取向（如[认知行为疗法 CBT](../contributing/index.md)）整合以处理内在认知与情绪过程,避免过度简化复杂心理现象。
 
 ---
 
@@ -127,33 +127,36 @@ comments: true
 ### 经典文献
 
 1. Watson, J. B. (1913). Psychology as the behaviorist views it. *Psychological Review*, *20*(2), 158–177.
+
    **说明**：行为主义宣言,标志心理学研究对象从意识转向行为。
 
 2. Skinner, B. F. (1938). *The Behavior of Organisms: An Experimental Analysis*. Appleton-Century-Crofts.
+
    **说明**：奠定操作条件反射理论基础,建立实验分析行为学。
 
 3. Pavlov, I. P. (1927). *Conditioned Reflexes: An Investigation of the Physiological Activity of the Cerebral Cortex*. Oxford University Press.
+
    **说明**：经典条件反射实验,为行为主义提供生理学基础。
 
 ### 现代行为取向疗法
 
 4. **认知行为疗法（CBT）**
-   - Beck, A. T., Rush, A. J., Shaw, B. F., & Emery, G. (1979). *Cognitive Therapy of Depression*. Guilford Press.
-   - 整合行为主义行为激活与认知重构,成为循证治疗标准。
+    - Beck, A. T., Rush, A. J., Shaw, B. F., & Emery, G. (1979). *Cognitive Therapy of Depression*. Guilford Press.
+    - 整合行为主义行为激活与认知重构,成为循证治疗标准。
 
 5. **暴露疗法（Exposure Therapy）**
-   - Foa, E. B., Hembree, E. A., & Rothbaum, B. O. (2007). *Prolonged Exposure Therapy for PTSD: Emotional Processing of Traumatic Experiences*. Oxford University Press.
-   - 基于消退原理,用于 PTSD 与焦虑障碍治疗。
+    - Foa, E. B., Hembree, E. A., & Rothbaum, B. O. (2007). *Prolonged Exposure Therapy for PTSD: Emotional Processing of Traumatic Experiences*. Oxford University Press.
+    - 基于消退原理,用于 PTSD 与焦虑障碍治疗。
 
 6. **辩证行为疗法（DBT）**
-   - Linehan, M. M. (2014). *DBT Skills Training Manual* (2nd ed.). Guilford Press.
-   - 整合行为主义技能训练与正念、辩证哲学,广泛用于情绪调节。
+    - Linehan, M. M. (2014). *DBT Skills Training Manual* (2nd ed.). Guilford Press.
+    - 整合行为主义技能训练与正念、辩证哲学,广泛用于情绪调节。
 
 ### 多意识体与解离语境
 
 7. **创伤治疗中的行为取向**
-   - 文献提示：行为激活在解离障碍稳定化阶段用于对抗抑郁与提升功能,需与分阶段治疗模型结合。
+    - 文献提示：行为激活在解离障碍稳定化阶段用于对抗抑郁与提升功能,需与分阶段治疗模型结合。
 
 8. **社会学习理论与观察学习**
-   - Bandura, A. (1977). *Social Learning Theory*. Prentice Hall.
-   - 整合行为主义与认知因素,强调观察学习在行为习得中的作用。
+    - Bandura, A. (1977). *Social Learning Theory*. Prentice Hall.
+    - 整合行为主义与认知因素,强调观察学习在行为习得中的作用。
