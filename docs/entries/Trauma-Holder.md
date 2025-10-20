@@ -3,7 +3,7 @@ title: 创伤持有者（Trauma Holder）
 tags:
 
     - 角色与身份
-    - 多重意识体
+    - 多意识体
     - 创伤
     - 解离
 

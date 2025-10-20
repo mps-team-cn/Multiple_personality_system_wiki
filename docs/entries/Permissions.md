@@ -5,7 +5,7 @@ description: 多意识体系统内部对身体控制权(executive control)、记
 tags:
 
     - 系统运作
-    - 多重意识体
+    - 多意识体
     - 解离
     - 创伤
 

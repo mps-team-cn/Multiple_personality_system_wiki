@@ -57,7 +57,7 @@ def main() -> int:
     # 自定义排序：先核心主题，再临床诊断，最后其他
     def tag_sort_key(tag: str) -> tuple:
         # 核心主题标签
-        core_tags = ["多重意识体", "解离", "创伤"]
+        core_tags = ["多意识体", "解离", "创伤"]
         # 临床诊断标签（缩写）
         clinical_tags = ["DID", "OSDD", "PTSD", "CPTSD", "ADHD", "BPD", "NPD", "DPDR", "SSD", "ANP", "EP"]
 

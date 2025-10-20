@@ -3,7 +3,7 @@ title: 社交者（Social）
 tags:
 
     - 角色与身份
-    - 多重意识体
+    - 多意识体
 
 topic: 角色与身份
 synonyms:

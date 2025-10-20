@@ -3,7 +3,7 @@ title: 意识修改（Consciousness Modification）
 tags:
 
     - 系统运作
-    - 多重意识体
+    - 多意识体
     - 解离
     - 创伤
     - 身份调整

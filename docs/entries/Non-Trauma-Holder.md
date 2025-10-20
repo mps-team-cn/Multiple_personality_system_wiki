@@ -3,7 +3,7 @@ title: 无创伤记忆者（Non-Trauma Holder）
 tags:
 
     - 角色与身份
-    - 多重意识体
+    - 多意识体
     - 记忆与解离
 
 topic: 角色与身份

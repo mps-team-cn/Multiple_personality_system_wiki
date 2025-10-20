@@ -3,7 +3,7 @@ title: 应激反应（Stress Response）
 tags:
 
     - 系统运作
-    - 多重意识体
+    - 多意识体
     - 解离
     - 创伤
     - 应激
