@@ -155,43 +155,6 @@ jobs:
             exit 1
           fi
 
-      - name: 检查结果摘要
-        if: always()
-        run: |
-          echo ""
-          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-          echo "📊 PR 检查完成"
-          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-          echo ""
-
-          # 检查是否有失败的检查
-          LINK_FAILED="${LINK_CHECK_FAILED:-0}"
-          FRONTMATTER_FAILED="${FRONTMATTER_CHECK_FAILED:-0}"
-
-          if [ "$LINK_FAILED" = "1" ] || [ "$FRONTMATTER_FAILED" = "1" ]; then
-            echo "❌ 检查失败，请修复以下问题后重新提交："
-            echo ""
-            if [ "$LINK_FAILED" = "1" ]; then
-              echo "  ❌ 链接检查失败"
-            fi
-            if [ "$FRONTMATTER_FAILED" = "1" ]; then
-              echo "  ❌ Frontmatter 检查失败"
-            fi
-            echo ""
-            echo "📖 参考文档："
-            echo "  - 词条模板：docs/TEMPLATE_ENTRY.md"
-            echo "  - 贡献指南：docs/contributing/"
-            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-            exit 1
-          else
-            echo "✅ 所有检查通过，可以合并"
-            echo ""
-            echo "💡 提示："
-            echo "  - 时间戳会在合并到 main 后自动更新"
-            echo "  - 格式问题会在合并后自动修复"
-            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-          fi
-
       - name: 检查标签规范（Tagging Standard v2.0）
         id: check_tags
         continue-on-error: true
@@ -202,6 +165,7 @@ jobs:
 
           if [ -z "$CHANGED_ENTRIES" ]; then
             echo "✅ 没有词条文件变更"
+            echo "TAG_CHECK_FAILED=0" >> $GITHUB_ENV
             exit 0
           fi
 
@@ -228,7 +192,51 @@ jobs:
             echo "  - 名称部分不得与页面 title 完全相同"
             echo ""
             echo "📖 参考：docs/contributing/tagging-standard.md"
+            echo "TAG_CHECK_FAILED=1" >> $GITHUB_ENV
             exit 1
           fi
 
           echo "✅ 标签规范检查通过"
+          echo "TAG_CHECK_FAILED=0" >> $GITHUB_ENV
+
+      - name: 检查结果摘要
+        if: always()
+        run: |
+          echo ""
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo "📊 PR 检查完成"
+          echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          echo ""
+
+          # 检查是否有失败的检查
+          LINK_FAILED="${LINK_CHECK_FAILED:-0}"
+          FRONTMATTER_FAILED="${FRONTMATTER_CHECK_FAILED:-0}"
+          TAG_FAILED="${TAG_CHECK_FAILED:-0}"
+
+          if [ "$LINK_FAILED" = "1" ] || [ "$FRONTMATTER_FAILED" = "1" ] || [ "$TAG_FAILED" = "1" ]; then
+            echo "❌ 检查失败，请修复以下问题后重新提交："
+            echo ""
+            if [ "$LINK_FAILED" = "1" ]; then
+              echo "  ❌ 链接检查失败"
+            fi
+            if [ "$FRONTMATTER_FAILED" = "1" ]; then
+              echo "  ❌ Frontmatter 检查失败"
+            fi
+            if [ "$TAG_FAILED" = "1" ]; then
+              echo "  ❌ 标签规范检查失败"
+            fi
+            echo ""
+            echo "📖 参考文档："
+            echo "  - 词条模板：docs/TEMPLATE_ENTRY.md"
+            echo "  - 贡献指南：docs/contributing/"
+            echo "  - 标签规范：docs/contributing/tagging-standard.md"
+            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+            exit 1
+          else
+            echo "✅ 所有检查通过，可以合并"
+            echo ""
+            echo "💡 提示："
+            echo "  - 时间戳会在合并到 main 后自动更新"
+            echo "  - 格式问题会在合并后自动修复"
+            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+          fi
