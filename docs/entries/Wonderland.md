@@ -268,7 +268,7 @@ Tulpa 社群中，关于 Wonderland 的常见讨论包括：
 - [图帕（Tulpa）](Tulpa.md) - Wonderland 的"居民"
 - [可视化想象（Visualization & Imagination）](Visualization-Imagination.md) - 创建技巧
 - [冥想（Meditation）](Meditation.md) - 提升维持 Wonderland 的能力
-- [投影（Projection）](Projection.md) - 将 Tulpa"带出" Wonderland 的进阶技巧
+- [外投射（External Projection）](External-Projection.md) - 将 Tulpa"带出" Wonderland 的进阶技巧
 - [Tulpa 完全创造指南·实践篇](Tulpa-Guide-2.md) - 包含场景构建方法
 - [内部沟通（Internal Communication）](Internal-Communication.md) - 在 Wonderland 中的互动
 

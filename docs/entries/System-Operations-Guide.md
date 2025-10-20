@@ -97,7 +97,7 @@ search:
 > 连接“内在体验—现实生活”的桥接层。
 
 - 🧠 [躯体认同（Body Ownership）](Body-Ownership.md)：身体认同感与现实感的变化。
-- 🔭 [外投射（External Projection）](External-Projection.md) & [投影（Projection）](Projection.md)：将内部体验外化的方式与沟通边界。
+- 🔭 [外投射（External Projection）](External-Projection.md)：将内部体验外化的方式与沟通边界。
 - ⚡ [应激反应（Stress Response）](Stress-Response.md)：心理-生理机制（ANS/HPA）与自我调节策略。
 - 🎭 [角色面具（Masking / Social Masking）](Masking.md)：以单一外观维持安全与功能；过度使用的代价与减负办法。
 

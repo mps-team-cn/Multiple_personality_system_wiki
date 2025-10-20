@@ -45,7 +45,7 @@ comments: true
 - [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
 - [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](Nonexistent-You-And-Me-Tulpa-Lilith.md)
 - [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](Touhou-Tulpa-Fandom.md)
-- [投影（Projection）](Projection.md)
+- [外投射（External Projection）](External-Projection.md)
 - [头压（Head Pressure）](Head-Pressure.md)
 
 ## 参考与延伸阅读

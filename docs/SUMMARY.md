@@ -149,7 +149,7 @@
         * [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](entries/Xianyu-Theory-Niche-Classification.md)
         * [意识修改（Consciousness Modification）](entries/Consciousness-Modification.md)
         * [意识共存（Co-consciousness）](entries/Co-Consciousness.md)
-        * [投影（Projection）](entries/Projection.md)
+        * [外投射（External Projection）](entries/External-Projection.md)
         * [整合（Integration）](entries/Integration.md)
         * [权限(Permissions)](entries/Permissions.md)
         * [混合型系统（Mixed Systems, Xianyu Theory）](entries/Mixed-Systems-Xianyu.md)

@@ -344,7 +344,7 @@ Tulpa 的"声音"可能在以下方面与宿主不同：
 **罕见现象**：
 
 - 少数人报告能"听到" Tulpa 的声音仿佛来自外部
-- 这通常是[投影（Projection）](Projection.md)的一部分
+- 这通常是[外投射（External Projection）](External-Projection.md)的一部分
 - 介于想象和幻觉之间
 
 **注意**：
