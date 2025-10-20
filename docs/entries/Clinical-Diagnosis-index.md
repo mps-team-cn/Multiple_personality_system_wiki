@@ -18,6 +18,10 @@ hide:
 
 ## 词条一览
 
+- [紧张症（Catatonia）](Catatonia.md) — *2025-10-21*
+- [其他特定的或未特定的精神病性障碍（Other Specified/Unspecified Psychotic Disorder）](Other-Specified-or-Unspecified-Psychotic-Disorder.md) — *2025-10-21*
+- [躯体疾病所致精神病性障碍（Psychotic Disorder Due to Another Medical Condition）](Psychotic-Disorder-Due-to-Another-Medical-Condition.md) — *2025-10-21*
+- [物质/药物所致精神病性障碍（Substance/Medication-Induced Psychotic Disorder）](Substance-Medication-Induced-Psychotic-Disorder.md) — *2025-10-21*
 - [急性应激障碍（Acute Stress Disorder, ASD）](Acute-Stress-Disorder-ASD.md) — *2025-10-20*
 - [适应障碍(Adjustment Disorders)](Adjustment-Disorders.md) — *2025-10-20*
 - [心境障碍（Affective Disorders）](Affective-Disorders.md) — *2025-10-20*
