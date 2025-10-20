@@ -1,25 +1,21 @@
 ---
-title: 附体（Possession）
-tags:
-
-  - community:Tulpa
-  - ops:系统运作
-  - 多意识体
-  - 实践指南
-
-topic: 系统运作
-synonyms:
-
-    - 附身
-    - Body Possession
-    - Tulpa Possession
-    - 身体控制转移
-
+comments: true
 description: Tulpa 暂时接管身体部分或全部控制权的委托性体验,是基于信任和明确同意的自愿协作过程,与病理性附体障碍有本质区别
-updated: 2025-10-20
 search:
   boost: 1.5
-comments: true
+synonyms:
+- 附身
+- Body Possession
+- Tulpa Possession
+- 身体控制转移
+tags:
+- community:Tulpa
+- ops:系统运作
+- community:多意识体
+- guide:实践指南
+title: 附体（Possession）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 附体（Possession）

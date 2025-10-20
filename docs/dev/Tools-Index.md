@@ -34,6 +34,7 @@ bash tools/run_local_updates.sh --help
 | 修复 Markdown 格式 | `python3 tools/fix_markdown.py docs/entries/` |
 | 检查链接规范 | `python3 tools/check_links.py docs/entries/` |
 | 检查 Frontmatter | `python3 tools/check_frontmatter.py` |
+| 检查标签规范 | `python3 tools/check_tags.py docs/entries/` |
 | 更新时间戳 | `python3 tools/update_git_timestamps.py` |
 | 标准化标签 | `python3 tools/tag_normalization.py --execute` |
 | 生成分区索引 | `python3 tools/build_partitions_cn.py` |
@@ -86,6 +87,7 @@ bash tools/run_local_updates.sh --help
 | 工具 | 功能 | 使用频率 |
 |------|------|---------|
 | **tag_normalization.py** | 批量标准化词条标签,统一分面标签规范 | 🏷️ 标签体系调整时 |
+| **check_tags.py** | 校验 Frontmatter 标签是否符合 Tagging Standard v2.0 | ✅ 日常提交/PR |
 
 ### 版本管理
 

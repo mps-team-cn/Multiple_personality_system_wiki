@@ -1,27 +1,23 @@
 ---
-tags:
-
-  - ops:系统运作
-  - 创伤
-  - 多意识体
-  - 解离
-
-topic: 系统运作
-title: 内视（Visualization / Imagination）
+comments: true
+description: 在内心空间中感知和互动系统成员的练习与体验，是多意识体系统内部沟通和自我理解的基础方式
+search:
+  boost: 1.5
 synonyms:
-
 - 内视
 - 内在可视化
 - 想象互动
 - Visualization
 - Imagination
 - Inner Visualization
-
-description: 在内心空间中感知和互动系统成员的练习与体验，是多意识体系统内部沟通和自我理解的基础方式
+tags:
+- ops:系统运作
+- sx:创伤症状
+- community:多意识体
+- dx:解离障碍
+title: 内视（Visualization / Imagination）
+topic: 系统运作
 updated: 2025-10-20
-search:
-  boost: 1.5
-comments: true
 ---
 
 # 内视（Visualization / Imagination）

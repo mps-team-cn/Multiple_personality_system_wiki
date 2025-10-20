@@ -1,24 +1,19 @@
 ---
-tags:
-
-- 诊断与临床
-- 适应障碍
-- 应激
-- 创伤
-
-topic: 诊断与临床
-title: 适应障碍(Adjustment Disorders)
-updated: 2025-10-14
+comments: true
 synonyms:
-
 - 适应障碍
 - 适应性障碍
 - 适应不良反应
 - Adjustment Disorders
 - AD
 - shiyingzhangai
-
-comments: true
+tags:
+- guide:诊断与临床
+- dx:创伤及应激相关障碍
+- sx:创伤症状
+title: 适应障碍(Adjustment Disorders)
+topic: 诊断与临床
+updated: 2025-10-14
 ---
 
 # 适应障碍(Adjustment Disorders)

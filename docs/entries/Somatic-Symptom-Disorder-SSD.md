@@ -1,15 +1,12 @@
 ---
-tags:
-
-- 诊断与临床
-- SSD
-- 多意识体
-- 解离
-
-topic: 诊断与临床
-title: 躯体化障碍（Somatic Symptom Disorder，SSD）
-updated: 2025-10-20
 comments: true
+tags:
+- guide:诊断与临床
+- community:多意识体
+- dx:解离障碍
+title: 躯体化障碍（Somatic Symptom Disorder，SSD）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 躯体化障碍（Somatic Symptom Disorder，SSD）

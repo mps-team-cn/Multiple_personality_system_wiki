@@ -1,18 +1,16 @@
 ---
-tags:
-
-- 角色与身份
-- 多意识体
-- 解离
-- 创伤
-
-topic: 角色与身份
+comments: true
 description: 保护者（Protector）成员的类型、功能与工作方式。了解保护性成员如何维护系统安全、应对威胁及其可能的过度保护模式
-title: 保护者（Protector）
-updated: 2025-10-20
 search:
   boost: 1.5
-comments: true
+tags:
+- role:系统角色
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 保护者（Protector）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 保护者（Protector）

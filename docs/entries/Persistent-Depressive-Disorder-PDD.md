@@ -1,16 +1,6 @@
 ---
-tags:
-
-  - PDD
-  - dx:双相及相关障碍
-  - dx:抑郁障碍
-  - 诊断与临床
-
-topic: 诊断与临床
-title: 持续性抑郁障碍（Persistent Depressive Disorder, PDD / Dysthymia）
-updated: 2025-10-14
+comments: true
 synonyms:
-
 - 持续性抑郁障碍
 - 恶劣心境
 - 心境恶劣障碍
@@ -20,8 +10,13 @@ synonyms:
 - Dysthymia
 - Dysthymic Disorder
 - chixuxingyiyuzhangai
-
-comments: true
+tags:
+- dx:双相及相关障碍
+- dx:抑郁障碍
+- guide:诊断与临床
+title: 持续性抑郁障碍（Persistent Depressive Disorder, PDD / Dysthymia）
+topic: 诊断与临床
+updated: 2025-10-14
 ---
 
 # 持续性抑郁障碍（Persistent Depressive Disorder, PDD / Dysthymia）

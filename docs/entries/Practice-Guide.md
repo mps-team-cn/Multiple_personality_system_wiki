@@ -1,17 +1,15 @@
 ---
-tags:
-
-  - community:Tulpa
-  - 多意识体
-  - 实践指南
-
-topic: 实践指南
-title: 实践指南导览
-description: 汇总站内所有实践性词条，涵盖 Tulpa 创造、意识训练、内部协作与稳定技巧，为多意识体的安全练习提供系统路线图。
-updated: 2025-10-20
 comments: true
+description: 汇总站内所有实践性词条，涵盖 Tulpa 创造、意识训练、内部协作与稳定技巧，为多意识体的安全练习提供系统路线图。
 search:
   boost: 1.6
+tags:
+- community:Tulpa
+- community:多意识体
+- guide:实践指南
+title: 实践指南导览
+topic: 实践指南
+updated: 2025-10-20
 ---
 
 # 🧘 实践指南导览（Practice Guide）

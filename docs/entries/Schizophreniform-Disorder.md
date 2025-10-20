@@ -1,21 +1,16 @@
 ---
-title: 分裂样障碍（Schizophreniform Disorder）
-tags:
-
-- 诊断与临床
-- 精神病性障碍
-- 精神分裂症谱系
-
-topic: 诊断与临床
+comments: true
+description: 分裂样障碍特征为与精神分裂症相同的精神病性症状，但持续时间为1至6个月，预后通常好于精神分裂症，需与短期精神病性障碍、精神分裂症及物质/医学因素所致精神病鉴别。
 synonyms:
-
 - Schizophreniform Disorder
 - 分裂样障碍
 - 分裂样精神病
-
-description: 分裂样障碍特征为与精神分裂症相同的精神病性症状，但持续时间为1至6个月，预后通常好于精神分裂症，需与短期精神病性障碍、精神分裂症及物质/医学因素所致精神病鉴别。
+tags:
+- guide:诊断与临床
+- dx:精神病性障碍
+title: 分裂样障碍（Schizophreniform Disorder）
+topic: 诊断与临床
 updated: 2025-10-16
-comments: true
 ---
 
 # 分裂样障碍（Schizophreniform Disorder）

@@ -1,26 +1,21 @@
 ---
-tags:
-
-  - ops:系统运作
-  - 创伤
-  - 多意识体
-  - 解离
-  - 身体体验
-
-topic: 系统运作
-title: 躯体认同（Body Ownership）
-synonyms:
-
-    - 身体所有感
-    - 身体归属感
-    - Body Ownership
-    - Sense of Body Ownership
-
+comments: true
 description: 多意识体系统中"这是我的身体"的主观体验，包括身体所有感、行动主导感与身体记忆整合，以及在共享躯体情境下的协作策略与治疗支持。
-updated: 2025-10-20
 search:
   boost: 1.5
-comments: true
+synonyms:
+- 身体所有感
+- 身体归属感
+- Body Ownership
+- Sense of Body Ownership
+tags:
+- ops:系统运作
+- sx:创伤症状
+- community:多意识体
+- dx:解离障碍
+title: 躯体认同（Body Ownership）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 躯体认同（Body Ownership）

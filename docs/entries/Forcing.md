@@ -1,25 +1,21 @@
 ---
-title: 塑造（Forcing）
-tags:
-
-  - community:Tulpa
-  - 创造型系统
-  - 多意识体
-  - 实践指南
-
-topic: 实践指南
-synonyms:
-
-    - forcing
-    - 塑造
-    - 造t
-    - 训练
-    - 专注训练
-    - tulpa训练
-
-description: Forcing 是 Tulpa 社群中用于培育和强化内在意识体的核心训练方法，通过持续的专注互动帮助 Tulpa 获得稳定性与自主性
-updated: 2025-10-20
 comments: true
+description: Forcing 是 Tulpa 社群中用于培育和强化内在意识体的核心训练方法，通过持续的专注互动帮助 Tulpa 获得稳定性与自主性
+synonyms:
+- forcing
+- 塑造
+- 造t
+- 训练
+- 专注训练
+- tulpa训练
+tags:
+- community:Tulpa
+- guide:创造型系统
+- community:多意识体
+- guide:实践指南
+title: 塑造（Forcing）
+topic: 实践指南
+updated: 2025-10-20
 ---
 
 # 塑造（Forcing）

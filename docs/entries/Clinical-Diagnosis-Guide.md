@@ -1,12 +1,10 @@
 ---
-tags:
-
-    - 诊断与临床
-
-topic: 诊断与临床
-title: 诊断与临床导览
-updated: 2025-10-19
 comments: true
+tags:
+- guide:诊断与临床
+title: 诊断与临床导览
+topic: 诊断与临床
+updated: 2025-10-19
 ---
 
 # 诊断与临床导览

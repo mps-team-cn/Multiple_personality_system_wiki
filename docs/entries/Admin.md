@@ -1,24 +1,20 @@
 ---
-tags:
-
-  - ops:系统运作
-  - 多意识体
-  - 角色与身份
-
-topic: 角色与身份
+comments: true
 description: 管理者(Admin)在多意识体系统中的核心职能。理解系统管理者如何维护运作、调配资源、协调沟通及应对危机
-title: 管理者(Admin)
-updated: 2025-10-20
-synonyms:
-
-    - 管理者
-    - 管理员
-    - Admin
-    - 系统管理员
-
 search:
   boost: 1.5
-comments: true
+synonyms:
+- 管理者
+- 管理员
+- Admin
+- 系统管理员
+tags:
+- ops:系统运作
+- community:多意识体
+- role:系统角色
+title: 管理者(Admin)
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 管理者(Admin)

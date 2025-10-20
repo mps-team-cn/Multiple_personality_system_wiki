@@ -33,6 +33,11 @@
     提交流程、检查清单、CI 与自动修复
     [:octicons-arrow-right-24: 前往](pr-workflow.md)
 
+-   :material-tag-multiple: **标签规范 v2.0**
+
+    分面前缀体系、命名格式、分配逻辑与自动校验
+    [:octicons-arrow-right-24: 前往](tagging-standard.md)
+
 -   :material-account-group-outline: **贡献者墙**
 
     致谢所有贡献者与贡献记录

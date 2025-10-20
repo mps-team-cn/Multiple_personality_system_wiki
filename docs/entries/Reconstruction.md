@@ -1,15 +1,13 @@
 ---
-tags:
-
-  - ops:系统运作
-  - 创伤
-  - 多意识体
-  - 解离
-
-topic: 系统运作
-title: 重构（Reconstruction）
-updated: 2025-10-20
 comments: true
+tags:
+- ops:系统运作
+- sx:创伤症状
+- community:多意识体
+- dx:解离障碍
+title: 重构（Reconstruction）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 重构（Reconstruction）

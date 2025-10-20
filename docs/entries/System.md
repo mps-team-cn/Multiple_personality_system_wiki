@@ -1,18 +1,16 @@
 ---
-tags:
-
-  - dx:DID
-  - ops:系统运作
-  - 多意识体
-  - 解离
-
-topic: 系统运作
+comments: true
 description: 多重人格系统的完整定义与运作原理。涵盖解离障碍系统运作、社群与临床语境对比、成员协作机制,以及内部沟通与前台切换等核心概念
-title: 系统(System)
-updated: 2025-10-20
 search:
   boost: 1.8
-comments: true
+tags:
+- dx:DID
+- ops:系统运作
+- community:多意识体
+- dx:解离障碍
+title: 系统(System)
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 系统(System)

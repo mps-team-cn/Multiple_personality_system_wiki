@@ -1,26 +1,21 @@
 ---
-tags:
-
-- 理论与分类
-- 心理学
-- 多意识体
-- 解离
-
-topic: 理论与分类
-title: 行为主义心理学（Behaviorism）
+comments: true
 description: 行为主义心理学强调环境塑造与可观察行为,是心理学第二势力,通过刺激-反应模式理解行为形成,为多意识体理解提供行为矫正与学习理论视角,重视条件反射与强化机制。
-updated: 2025-10-20
 search:
   boost: 1.3
 synonyms:
-
 - 行为主义
 - 行为主义学派
 - behaviorism
 - 华生心理学
 - 斯金纳心理学
-
-comments: true
+tags:
+- theory:心理学理论
+- community:多意识体
+- dx:解离障碍
+title: 行为主义心理学（Behaviorism）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 行为主义心理学（Behaviorism）

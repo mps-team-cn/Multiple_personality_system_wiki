@@ -1,22 +1,17 @@
 ---
-title: 妄想障碍（Delusional Disorder）
-tags:
-
-- 诊断与临床
-- 精神病性障碍
-- 精神分裂谱系
-
-topic: 诊断与临床
+comments: true
+description: 妄想障碍是一种以持续的非怪诞妄想为核心的精神病性障碍，整体思维与情感多保持稳定，但妄想主题会造成显著痛苦、风险与社会冲突，需要系统排除精神分裂症、心境障碍及医学因素。
 synonyms:
-
 - 妄想性障碍
 - 偏执性精神病
 - 偏执型精神病性障碍
 - Delusional Disorder
-
-description: 妄想障碍是一种以持续的非怪诞妄想为核心的精神病性障碍，整体思维与情感多保持稳定，但妄想主题会造成显著痛苦、风险与社会冲突，需要系统排除精神分裂症、心境障碍及医学因素。
+tags:
+- guide:诊断与临床
+- dx:精神病性障碍
+title: 妄想障碍（Delusional Disorder）
+topic: 诊断与临床
 updated: 2025-10-15
-comments: true
 ---
 
 # 妄想障碍（Delusional Disorder）

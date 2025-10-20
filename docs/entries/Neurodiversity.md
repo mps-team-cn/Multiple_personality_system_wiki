@@ -1,15 +1,13 @@
 ---
-tags:
-
-  - ops:系统运作
-  - 创伤
-  - 多意识体
-  - 解离
-
-topic: 系统运作
-title: 神经多样性（Neurodiversity）
-updated: 2025-10-20
 comments: true
+tags:
+- ops:系统运作
+- sx:创伤症状
+- community:多意识体
+- dx:解离障碍
+title: 神经多样性（Neurodiversity）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 神经多样性（Neurodiversity）

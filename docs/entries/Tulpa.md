@@ -1,15 +1,9 @@
 ---
-tags:
-
-  - community:Tulpa
-  - 创造型系统
-  - 多意识体
-  - 角色与身份
-  - 解离
-
-topic: 角色与身份
+comments: true
+description: 深入解析 Tulpa（图帕）：从意象形成到独立意识的培育机制、心理学机制、与 DID/想象同伴的区别、社群文化与临床风险界定
+search:
+  boost: 1.8
 synonyms:
-
 - 托帕
 - Tulpa
 - 图帕术
@@ -19,13 +13,15 @@ synonyms:
 - 图帕伙伴
 - 意识同伴
 - 自创人格
-
-description: 深入解析 Tulpa（图帕）：从意象形成到独立意识的培育机制、心理学机制、与 DID/想象同伴的区别、社群文化与临床风险界定
+tags:
+- community:Tulpa
+- guide:创造型系统
+- community:多意识体
+- role:系统角色
+- dx:解离障碍
 title: 图帕（Tulpa）
+topic: 角色与身份
 updated: 2025-10-20
-search:
-  boost: 1.8
-comments: true
 ---
 
 # 图帕（Tulpa）

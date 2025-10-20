@@ -1,21 +1,16 @@
 ---
-tags:
-
-  - dx:A组人格障碍
-  - dx:人格障碍(PDs)
-  - 诊断与临床
-
-topic: 诊断与临床
-title: 分裂样人格障碍（Schizoid Personality Disorder，SzPD）
-updated: 2025-10-13
+comments: true
 synonyms:
-
 - 分裂样人格障碍
 - Schizoid Personality Disorder
 - SzPD
 - fenlieyangxing renge zhangai
-
-comments: true
+tags:
+- dx:A组人格障碍
+- guide:诊断与临床
+title: 分裂样人格障碍（Schizoid Personality Disorder，SzPD）
+topic: 诊断与临床
+updated: 2025-10-13
 ---
 
 # 分裂样人格障碍（Schizoid Personality Disorder，SzPD）

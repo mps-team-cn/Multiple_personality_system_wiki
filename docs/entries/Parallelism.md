@@ -1,15 +1,12 @@
 ---
-tags:
-
-  - ops:系统运作
-  - 协作
-  - 多意识体
-  - 解离
-
-topic: 系统运作
-title: 并行（Parallelism）
-updated: 2025-10-20
 comments: true
+tags:
+- ops:系统运作
+- community:多意识体
+- dx:解离障碍
+title: 并行（Parallelism）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 并行（Parallelism）

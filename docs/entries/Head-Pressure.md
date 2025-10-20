@@ -1,14 +1,12 @@
 ---
-tags:
-
-  - community:Tulpa
-  - ops:系统运作
-  - 多意识体
-
-topic: 系统运作
-title: 头压（Head Pressure）
-updated: 2025-10-20
 comments: true
+tags:
+- community:Tulpa
+- ops:系统运作
+- community:多意识体
+title: 头压（Head Pressure）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 头压（Head Pressure）

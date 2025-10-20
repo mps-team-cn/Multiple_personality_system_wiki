@@ -1,23 +1,18 @@
 ---
-title: 失忆（Amnesia）
-tags:
-
-    - 解离
-    - 记忆与解离
-    - 多意识体
-
-topic: 系统运作
-synonyms:
-
-    - 失忆
-    - Amnesia
-    - 记忆缺失
-    - Memory Loss
-    - 遗忘
-
-description: 多意识体系统中常见的记忆断裂现象，包括顺行性失忆、逆行性失忆与解离性失忆等类型
-updated: 2025-10-20
 comments: true
+description: 多意识体系统中常见的记忆断裂现象，包括顺行性失忆、逆行性失忆与解离性失忆等类型
+synonyms:
+- 失忆
+- Amnesia
+- 记忆缺失
+- Memory Loss
+- 遗忘
+tags:
+- dx:解离障碍
+- community:多意识体
+title: 失忆（Amnesia）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 失忆（Amnesia）

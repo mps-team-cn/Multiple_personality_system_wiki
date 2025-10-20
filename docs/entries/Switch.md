@@ -1,28 +1,24 @@
 ---
-tags:
-
-  - ops:系统运作
-  - 创伤
-  - 多意识体
-  - 解离
-
-topic: 系统运作
+comments: true
 description: 深入解析系统成员切换（Switch）的类型、触发因素与管理方法。了解切换的生理心理机制、如何识别切换及应对策略
-title: 切换（Switch）
-updated: 2025-10-20
-synonyms:
-
-    - 切换
-    - Switching
-    - 交换
-    - 交替（Alternation）
-    - 前台交接（Handover）
-    - 接管（Takeover）
-    - 前台更替
-
 search:
   boost: 1.8
-comments: true
+synonyms:
+- 切换
+- Switching
+- 交换
+- 交替（Alternation）
+- 前台交接（Handover）
+- 接管（Takeover）
+- 前台更替
+tags:
+- ops:系统运作
+- sx:创伤症状
+- community:多意识体
+- dx:解离障碍
+title: 切换（Switch）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 切换（Switch）

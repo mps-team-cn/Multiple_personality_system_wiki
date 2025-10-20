@@ -1,30 +1,24 @@
 ---
-title: 深层记忆(Deep Memory)
-updated: 2025-10-20
-tags:
-
-    - 诊断与临床
-    - 创伤与解离
-    - 多意识体
-    - 创伤
-
-topic: 诊断与临床
-status: stable
-risk: high
-clinical_notice: true
-search:
-  boost: 1.5
-description: 深层记忆是与核心创伤、情绪图式高度相关的隐性记忆材料,通常以碎片化形式储存。探索需在专业指导下进行,本条目详述特征、风险、循证方法与安全前提。
-synonyms:
-
-    - 深层记忆
-    - Deep Memory
-    - shenceng jiyi
-
 alias_notes:
   Core Memory/核心记忆: 与通俗文化及技术领域的"核心记忆"概念不同,此处特指创伤相关的深层记忆材料
-
+clinical_notice: true
 comments: true
+description: 深层记忆是与核心创伤、情绪图式高度相关的隐性记忆材料,通常以碎片化形式储存。探索需在专业指导下进行,本条目详述特征、风险、循证方法与安全前提。
+risk: high
+search:
+  boost: 1.5
+status: stable
+synonyms:
+- 深层记忆
+- Deep Memory
+- shenceng jiyi
+tags:
+- guide:诊断与临床
+- community:多意识体
+- sx:创伤症状
+title: 深层记忆(Deep Memory)
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 深层记忆(Deep Memory)

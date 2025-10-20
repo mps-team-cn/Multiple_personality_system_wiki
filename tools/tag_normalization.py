@@ -1,321 +1,328 @@
 #!/usr/bin/env python3
 """
-标签标准化脚本
-根据既定的标签规范对所有词条进行批量标准化处理
+标签标准化脚本 - 基于 MPS Wiki Tagging Standard v2.0
 
-A类操作: 合并/下线冗余标签
-B类操作: 重命名/标准化标签
+将旧格式标签批量转换为新的分面前缀格式,通过 data/tags_alias.yaml 进行映射。
+
+核心功能:
+  1. 读取词条 Frontmatter 中的标签
+  2. 应用别名映射表(tags_alias.yaml)将旧标签转换为新格式
+  3. 验证转换后的标签符合 v2.0 规范
+  4. 生成转换报告和预览
 
 使用方法:
-    python3 tag_normalization.py
+  # 预览模式(不修改文件)
+  python3 tools/tag_normalization.py
+
+  # 执行模式(实际修改文件)
+  python3 tools/tag_normalization.py --execute
+
+  # 检查单个文件
+  python3 tools/tag_normalization.py --file docs/entries/DID.md
+
+  # 详细模式(显示所有文件,包括无需修改的)
+  python3 tools/tag_normalization.py --verbose
 """
 
-import os
+from __future__ import annotations
+
+import argparse
 import re
-from typing import Dict, List, Set
+import sys
+from dataclasses import dataclass
 from pathlib import Path
+from typing import Dict, List, Set
+
+import frontmatter
+import yaml
 
 
-# A类: 需要合并或下线的标签映射
-TAG_MERGE_MAP: Dict[str, str] = {
-    # Tulpa相关导览 -> community:Tulpa + guide:创造型系统
-    "Tulpa 完全创造指南·基础篇": "",  # 删除,使用文件名识别
-    "Tulpa 完全创造指南·实践篇": "",  # 删除
-    "Tulpa 完全创造指南·提高篇": "",  # 删除
-
-    # 导览类合并
-    "实践指南导览": "guide:实践指南",
-    "创伤与疗愈导览": "guide:导览",
-    "健康导览": "guide:导览",
-
-    # 系统运作类
-    "系统(System)": "ops:系统运作",
-    "系统运作": "ops:系统运作",
-
-    # 核心概念 -> 删除(无检索价值)
-    "核心概念": "",
-
-    # 角色类
-    "卡前台(Front Stuck / Frontstuck)": "ops:卡前台",
-    "卡前台": "ops:卡前台",
-
-    # 社群术语
-    "T 语(Tulpish)": "community:Tulpish",
-    "T语": "community:Tulpish",
-
-    # 心理学流派
-    "人本主义心理学": "theory:人本主义心理学",
-    "精神分析心理学": "theory:精神分析心理学",
-    "行为主义心理学": "theory:行为主义心理学",
-
-    # DSM量表
-    "DSM-5-TR 评估量表总览": "scale:DSM-5-TR 评估量表",
-    "DSM-5-TR": "scale:DSM-5-TR 评估量表",
-    "DSM-5": "scale:DSM-5-TR 评估量表",
+# 允许的标签前缀(分面体系)
+ALLOWED_PREFIXES = {
+    "dx", "sx", "tx", "scale", "theory", "ops", "role",
+    "community", "guide", "history", "misuse", "bio", "sleep",
+    "dev", "culture", "meta",
 }
 
-# B类: 标准化重命名映射
-TAG_RENAME_MAP: Dict[str, str] = {
-    # 诊断类标准化(添加 dx: 前缀)
-    "DID": "dx:DID",
-    "OSDD": "dx:OSDD",
-    "DPDR": "dx:DPDR",
-    "PTSD": "dx:PTSD",
-    "CPTSD": "dx:CPTSD",
-    "FND": "dx:功能性神经症状障碍(FND)",
-    "GD": "dx:性别不安(GD)",
-
-    # 人格障碍类
-    "人格障碍": "dx:人格障碍(PDs)",
-    "A组人格障碍": "dx:A组人格障碍",
-    "B组人格障碍": "dx:B组人格障碍",
-    "C组人格障碍": "dx:C组人格障碍",
-
-    # 情绪障碍标准化
-    "焦虑": "dx:焦虑障碍",
-    "焦虑障碍": "dx:焦虑障碍",
-    "抑郁": "dx:抑郁障碍",
-    "抑郁障碍": "dx:抑郁障碍",
-    "情绪障碍": "dx:双相及相关障碍",
-    "情感障碍": "dx:双相及相关障碍",
-    "心境障碍": "dx:双相及相关障碍",
-
-    # Tulpa/附体类
-    "Tulpa": "community:Tulpa",
-    "tulpa": "community:Tulpa",
-    "附体": "ops:附体(Possession)",
-    "Possession": "ops:附体(Possession)",
-
-    # 系统运作类
-    "并行": "ops:并行",
-    "共前台": "ops:共前台",
-    "混合": "ops:混合",
-    "切换": "ops:切换",
-    "权限": "ops:权限",
-    "子系统": "ops:子系统",
-
-    # 理论类
-    "ANP-EP 模型": "theory:ANP-EP 模型",
-    "ANP": "theory:ANP",
-    "EP": "theory:EP",
-    "结构性解离理论": "theory:结构性解离理论(TSDP)",
-
-    # 治疗类(tx: = treatment)
-    "IFS": "tx:IFS",
-    "CBT": "tx:CBT",
-    "DBT": "tx:DBT",
-    "EMDR": "tx:EMDR",
-    "PE": "tx:PE",
-    "ACT": "tx:ACT",
-    "SE": "tx:SE",
-
-    # 生物治疗类
-    "MECT": "bio:MECT",
-    "脑刺激": "bio:脑刺激",
-
-    # 量表类
-    "DES-II": "scale:DES-II",
-    "MID-60": "scale:MID-60",
-    "MID": "scale:MID-60",
-    "量表": "scale:评估量表",
-    "评估工具": "scale:评估量表",
-
-    # 历史术语类
-    "癔症": "history:癔症",
-    "MPD": "history:MPD",
-    "历史术语": "history:历史术语",
-
-    # 误用类
-    "人格分裂": "misuse:人格分裂",
-
-    # 导览类
-    "危机与支援资源": "guide:支援资源",
-    "自我照护工具箱": "guide:自我照护",
-    "主题导览": "guide:导览",
-    "索引": "guide:索引",
-
-    # 文化表现类
-    "文化与表现": "culture:文化表现",
-
-    # 多意识体保持原样,但统一书写
-    "多意识体": "多意识体",
-    "解离": "解离",
-    "创伤": "创伤",
-    "诊断与临床": "诊断与临床",
-    "角色与身份": "角色与身份",
-    "理论与分类": "理论与分类",
-    "创伤与疗愈": "创伤与疗愈",
-}
+# 标签格式正则
+TAG_PATTERN = re.compile(r"^[a-z]+:[^\s()]+$")
 
 
-def extract_frontmatter(content: str) -> tuple[str, str, str]:
+@dataclass
+class TagChange:
+    """标签变更记录"""
+    file: Path
+    old_tags: List[str]
+    new_tags: List[str]
+    removed: Set[str]
+    added: Set[str]
+    mapped: Dict[str, str]  # 旧标签 -> 新标签的映射
+
+
+def load_alias_map(path: Path) -> Dict[str, str]:
     """
-    提取frontmatter、tags部分和剩余内容
-    返回: (frontmatter_before_tags, tags_content, content_after_tags)
+    加载标签别名映射表
+
+    返回: {旧标签/别名 -> 规范标签} 的映射字典
     """
-    # 匹配整个frontmatter
-    fm_match = re.search(r'^---\n(.*?)^---', content, re.MULTILINE | re.DOTALL)
-    if not fm_match:
-        return "", "", content
+    if not path.exists():
+        print(f"⚠️ 警告: 别名文件不存在 {path}")
+        return {}
 
-    fm_content = fm_match.group(1)
-    before_fm = content[:fm_match.start()]
-    after_fm = content[fm_match.end():]
+    try:
+        data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+        if not isinstance(data, dict):
+            print(f"⚠️ 警告: 别名文件格式不正确 {path}")
+            return {}
 
-    # 提取tags部分
-    tags_match = re.search(r'^tags:\s*\n((?:^\s*-\s*.+\n)+)', fm_content, re.MULTILINE)
-    if not tags_match:
-        return fm_content, "", after_fm
-
-    fm_before_tags = fm_content[:tags_match.start()]
-    tags_content = tags_match.group(1)
-    fm_after_tags = fm_content[tags_match.end():]
-
-    return (fm_before_tags, tags_content, fm_after_tags, before_fm, after_fm)
+        # 转换为 str -> str 映射
+        alias_map = {str(k).strip(): str(v).strip() for k, v in data.items()}
+        return alias_map
+    except Exception as e:
+        print(f"⚠️ 警告: 读取别名文件失败 {path}: {e}")
+        return {}
 
 
-def parse_tags(tags_content: str) -> List[str]:
-    """从tags内容中提取所有标签"""
-    tags = re.findall(r'^\s*-\s*(.+?)\s*$', tags_content, re.MULTILINE)
-    return [tag.strip() for tag in tags]
+def normalize_tag(tag: str, alias_map: Dict[str, str]) -> str | None:
+    """
+    标准化单个标签
 
+    Args:
+        tag: 原始标签
+        alias_map: 别名映射表
 
-def normalize_tags(tags: List[str]) -> List[str]:
-    """标准化标签列表"""
-    normalized = set()
+    Returns:
+        标准化后的标签,如果需要删除则返回 None
+    """
+    tag = tag.strip()
 
-    for tag in tags:
-        # 先检查是否需要合并/删除(A类)
-        if tag in TAG_MERGE_MAP:
-            new_tag = TAG_MERGE_MAP[tag]
-            if new_tag:  # 如果映射不为空,添加新标签
-                normalized.add(new_tag)
-            # 如果为空,则删除该标签
-        # 再检查是否需要重命名(B类)
-        elif tag in TAG_RENAME_MAP:
-            normalized.add(TAG_RENAME_MAP[tag])
+    # 如果已经是规范格式,直接返回
+    if TAG_PATTERN.match(tag):
+        prefix = tag.split(":", 1)[0]
+        if prefix in ALLOWED_PREFIXES:
+            return tag
+
+    # 尝试从别名映射表中查找
+    if tag in alias_map:
+        normalized = alias_map[tag]
+        # 验证映射后的标签是否合法
+        if TAG_PATTERN.match(normalized):
+            prefix = normalized.split(":", 1)[0]
+            if prefix in ALLOWED_PREFIXES:
+                return normalized
         else:
-            # 保持原样
-            normalized.add(tag)
+            print(f"⚠️ 警告: 别名映射的目标标签格式不正确: {tag} -> {normalized}")
+            return None
 
-    # 排序并返回
-    return sorted(normalized)
-
-
-def format_tags(tags: List[str]) -> str:
-    """格式化标签为YAML格式"""
-    if not tags:
-        return ""
-    lines = ["tags:", ""]
-    for tag in tags:
-        lines.append(f"  - {tag}")
-    lines.append("")
-    return "\n".join(lines)
+    # 无法映射的标签返回 None(将被删除)
+    return None
 
 
-def process_file(filepath: Path, dry_run: bool = True) -> tuple[bool, str]:
+def normalize_tags(tags: List[str], alias_map: Dict[str, str]) -> tuple[List[str], Dict[str, str]]:
     """
-    处理单个文件的标签
-    返回: (是否修改, 修改说明)
+    标准化标签列表
+
+    Returns:
+        (标准化后的标签列表, 映射记录字典)
+    """
+    normalized = []
+    mapping = {}
+
+    for tag in tags:
+        new_tag = normalize_tag(tag, alias_map)
+        if new_tag:
+            normalized.append(new_tag)
+            if new_tag != tag:
+                mapping[tag] = new_tag
+        else:
+            # 记录被删除的标签
+            mapping[tag] = "[删除]"
+
+    # 去重并保持顺序
+    seen = set()
+    unique_tags = []
+    for tag in normalized:
+        if tag not in seen:
+            seen.add(tag)
+            unique_tags.append(tag)
+
+    # 限制标签数量 ≤ 5
+    if len(unique_tags) > 5:
+        unique_tags = unique_tags[:5]
+
+    return unique_tags, mapping
+
+
+def process_file(
+    filepath: Path,
+    alias_map: Dict[str, str],
+    dry_run: bool = True
+) -> TagChange | None:
+    """
+    处理单个文件的标签标准化
+
+    Args:
+        filepath: 词条文件路径
+        alias_map: 别名映射表
+        dry_run: 是否为预览模式(不实际修改文件)
+
+    Returns:
+        TagChange 对象,如果无需修改则返回 None
     """
     try:
-        with open(filepath, 'r', encoding='utf-8') as f:
-            content = f.read()
-
-        # 提取frontmatter和tags
-        parts = extract_frontmatter(content)
-        if len(parts) != 5:
-            return False, "无法解析frontmatter"
-
-        fm_before, tags_content, fm_after, before_fm, after_fm = parts
-
-        if not tags_content:
-            return False, "未找到tags字段"
-
-        # 解析并标准化标签
-        old_tags = parse_tags(tags_content)
-        new_tags = normalize_tags(old_tags)
-
-        if set(old_tags) == set(new_tags):
-            return False, "无需修改"
-
-        # 构建新内容
-        new_tags_str = format_tags(new_tags)
-        new_fm = f"{fm_before}tags:\n\n" + "\n".join(f"  - {tag}" for tag in new_tags) + f"\n{fm_after}"
-        new_content = f"{before_fm}---\n{new_fm}---{after_fm}"
-
-        # 写入文件(如果不是dry run)
-        if not dry_run:
-            with open(filepath, 'w', encoding='utf-8') as f:
-                f.write(new_content)
-
-        removed = set(old_tags) - set(new_tags)
-        added = set(new_tags) - set(old_tags)
-
-        changes = []
-        if removed:
-            changes.append(f"删除: {', '.join(sorted(removed))}")
-        if added:
-            changes.append(f"添加: {', '.join(sorted(added))}")
-
-        return True, " | ".join(changes)
-
+        post = frontmatter.load(filepath)
     except Exception as e:
-        return False, f"错误: {str(e)}"
+        print(f"❌ 无法解析 {filepath}: {e}")
+        return None
+
+    meta = post.metadata or {}
+    old_tags = meta.get("tags")
+
+    # 检查是否有 tags 字段
+    if not isinstance(old_tags, list) or not old_tags:
+        return None
+
+    # 标准化标签
+    new_tags, mapping = normalize_tags(old_tags, alias_map)
+
+    # 检查是否有变更
+    if old_tags == new_tags:
+        return None
+
+    # 计算变更
+    old_set = set(old_tags)
+    new_set = set(new_tags)
+    removed = old_set - new_set
+    added = new_set - old_set
+
+    # 如果不是 dry run,则写入文件
+    if not dry_run:
+        meta["tags"] = new_tags
+        post.metadata = meta
+
+        # 写回文件
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write(frontmatter.dumps(post))
+
+    return TagChange(
+        file=filepath,
+        old_tags=old_tags,
+        new_tags=new_tags,
+        removed=removed,
+        added=added,
+        mapped=mapping,
+    )
+
+
+def print_change_summary(change: TagChange, verbose: bool = False):
+    """打印单个文件的变更摘要"""
+    print(f"\n📝 {change.file.name}")
+
+    if verbose:
+        print(f"   旧标签: {', '.join(change.old_tags)}")
+        print(f"   新标签: {', '.join(change.new_tags)}")
+
+    if change.mapped:
+        print("   映射:")
+        for old, new in change.mapped.items():
+            if new == "[删除]":
+                print(f"     ❌ {old} → [删除]")
+            else:
+                print(f"     ✓ {old} → {new}")
 
 
 def main():
     """主函数"""
-    import sys
+    parser = argparse.ArgumentParser(
+        description="标签标准化工具 - 基于 MPS Wiki Tagging Standard v2.0"
+    )
+    parser.add_argument(
+        "--execute", "-e",
+        action="store_true",
+        help="执行实际修改(默认为预览模式)"
+    )
+    parser.add_argument(
+        "--file", "-f",
+        type=Path,
+        help="处理单个文件"
+    )
+    parser.add_argument(
+        "--verbose", "-v",
+        action="store_true",
+        help="显示详细信息(包括所有标签)"
+    )
 
-    entries_dir = Path("docs/entries")
+    args = parser.parse_args()
 
-    if not entries_dir.exists():
-        print(f"错误: 目录不存在 {entries_dir}")
-        return
+    # 加载别名映射表
+    alias_file = Path("data/tags_alias.yaml")
+    alias_map = load_alias_map(alias_file)
 
-    # 检查命令行参数
-    execute = "--execute" in sys.argv or "-e" in sys.argv
+    if not alias_map:
+        print("❌ 错误: 无法加载别名映射表,退出")
+        return 1
 
     print("=" * 80)
-    print("标签标准化脚本")
+    print("MPS Wiki 标签标准化工具 v2.0")
     print("=" * 80)
     print()
+    print(f"📋 别名映射表: {alias_file} ({len(alias_map)} 条规则)")
+    print()
 
-    # 先执行dry run
-    if execute:
+    # 确定要处理的文件
+    if args.file:
+        if not args.file.exists():
+            print(f"❌ 错误: 文件不存在 {args.file}")
+            return 1
+        files = [args.file]
+    else:
+        entries_dir = Path("docs/entries")
+        if not entries_dir.exists():
+            print(f"❌ 错误: 目录不存在 {entries_dir}")
+            return 1
+        files = sorted(entries_dir.glob("*.md"))
+
+    # 处理文件
+    if args.execute:
         print("【执行模式】开始修改文件...")
     else:
         print("【预览模式】检查需要修改的文件...")
         print("(使用 --execute 或 -e 参数执行实际修改)")
     print()
 
-    modified_files = []
+    changes: List[TagChange] = []
 
-    for filepath in sorted(entries_dir.glob("*.md")):
-        changed, msg = process_file(filepath, dry_run=not execute)
-        if changed:
-            modified_files.append((filepath, msg))
-            if execute:
+    for filepath in files:
+        change = process_file(filepath, alias_map, dry_run=not args.execute)
+        if change:
+            changes.append(change)
+            if args.execute:
                 print(f"✅ {filepath.name}")
             else:
-                print(f"📝 {filepath.name}")
-                print(f"   {msg}")
-                print()
+                print_change_summary(change, verbose=args.verbose)
 
-    if not modified_files:
-        print("✅ 所有文件的标签已符合规范,无需修改")
-        return
-
+    # 输出总结
     print()
     print("=" * 80)
-    if execute:
-        print(f"完成! 成功修改 {len(modified_files)} 个文件")
+
+    if not changes:
+        print("✅ 所有文件的标签已符合规范,无需修改")
     else:
-        print(f"共发现 {len(modified_files)} 个文件需要修改")
-        print("使用 'python3 tools/tag_normalization.py --execute' 执行实际修改")
+        if args.execute:
+            print(f"✅ 成功修改 {len(changes)} 个文件")
+            print()
+            print("💡 提示: 运行以下命令验证标签规范:")
+            print("   python3 tools/check_tags.py docs/entries/")
+        else:
+            print(f"📊 共发现 {len(changes)} 个文件需要修改")
+            print()
+            print("💡 执行修改命令:")
+            print("   python3 tools/tag_normalization.py --execute")
+
     print("=" * 80)
+
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

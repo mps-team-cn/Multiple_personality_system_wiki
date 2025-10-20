@@ -1,20 +1,16 @@
 ---
-title: 延长暴露疗法（Prolonged Exposure Therapy, PE）
-tags:
-
-    - 创伤与疗愈
-    - 心理治疗
-
-topic: 创伤与疗愈
-synonyms:
-
-    - 暴露疗法
-    - PE
-    - Prolonged Exposure
-    - 延长暴露治疗
-
-updated: 2025-10-13
 comments: true
+synonyms:
+- 暴露疗法
+- PE
+- Prolonged Exposure
+- 延长暴露治疗
+tags:
+- tx:创伤治疗
+- tx:心理治疗
+title: 延长暴露疗法（Prolonged Exposure Therapy, PE）
+topic: 创伤与疗愈
+updated: 2025-10-13
 ---
 
 # 延长暴露疗法（Prolonged Exposure Therapy, PE）

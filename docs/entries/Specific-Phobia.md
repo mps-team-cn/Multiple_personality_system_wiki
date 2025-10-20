@@ -1,23 +1,18 @@
 ---
-tags:
-
-  - dx:焦虑障碍
-  - 恐惧症
-  - 诊断与临床
-
-topic: 诊断与临床
-title: 特定恐惧症(Specific Phobia, SP)
-updated: 2025-10-14
+comments: true
 synonyms:
-
 - 特定恐惧症
 - Specific Phobia
 - SP
 - 单纯性恐惧症
 - Simple Phobia
 - teding kongjuzheng
-
-comments: true
+tags:
+- dx:焦虑障碍
+- guide:诊断与临床
+title: 特定恐惧症(Specific Phobia, SP)
+topic: 诊断与临床
+updated: 2025-10-14
 ---
 
 # 特定恐惧症(Specific Phobia, SP)

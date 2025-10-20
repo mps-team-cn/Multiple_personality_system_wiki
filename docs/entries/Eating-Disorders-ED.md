@@ -1,21 +1,17 @@
 ---
-tags:
-
-- 诊断与临床
-- 共病
-- 饮食与身体
-- 风险管理
-
-topic: 诊断与临床
-title: 进食障碍（Eating Disorders，ED）
-updated: 2025-10-14
+comments: true
 synonyms:
-
 - 饮食障碍
 - Eating Disorders
 - ED
-
-comments: true
+tags:
+- guide:诊断与临床
+- dx:共病
+- dx:进食障碍
+- guide:风险管理
+title: 进食障碍（Eating Disorders，ED）
+topic: 诊断与临床
+updated: 2025-10-14
 ---
 
 # 进食障碍（Eating Disorders，ED）

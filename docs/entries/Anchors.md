@@ -1,23 +1,19 @@
 ---
-title: 锚点（Anchors / Tells / Markers）
-tags:
-
-  - ops:系统运作
-  - 多意识体
-  - 解离
-
-topic: 系统运作
-synonyms:
-
-    - Tells
-    - Markers
-    - 识别线索
-
+comments: true
 description: 识别当下前台成员的稳定外显线索(语言、声学、表情、书写等),用于系统内协作、切换监测与治疗记录,非诊断工具。含tells/markers概念辨析与实操指南。
-updated: 2025-10-20
 search:
   boost: 1.3
-comments: true
+synonyms:
+- Tells
+- Markers
+- 识别线索
+tags:
+- ops:系统运作
+- community:多意识体
+- dx:解离障碍
+title: 锚点（Anchors / Tells / Markers）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 锚点（Anchors / Tells / Markers）

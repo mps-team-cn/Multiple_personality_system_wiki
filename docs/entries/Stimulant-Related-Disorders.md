@@ -1,24 +1,19 @@
 ---
-tags:
-
-    - 诊断与临床
-    - 物质使用
-    - 成瘾
-
-topic: 诊断与临床
-title: 兴奋剂相关障碍（Stimulant-Related Disorders）
-synonyms:
-
-    - 兴奋剂使用障碍
-    - 可卡因成瘾
-    - 甲基苯丙胺依赖
-    - Stimulant Use Disorder
-    - Cocaine Addiction
-    - Methamphetamine Dependence
-
-description: 全面了解兴奋剂相关障碍的诊断标准、临床表现与治疗方法,包括可卡因、甲基苯丙胺等兴奋剂的成瘾、中毒及戒断症状
-updated: 2025-10-16
 comments: true
+description: 全面了解兴奋剂相关障碍的诊断标准、临床表现与治疗方法,包括可卡因、甲基苯丙胺等兴奋剂的成瘾、中毒及戒断症状
+synonyms:
+- 兴奋剂使用障碍
+- 可卡因成瘾
+- 甲基苯丙胺依赖
+- Stimulant Use Disorder
+- Cocaine Addiction
+- Methamphetamine Dependence
+tags:
+- guide:诊断与临床
+- dx:物质使用障碍
+title: 兴奋剂相关障碍（Stimulant-Related Disorders）
+topic: 诊断与临床
+updated: 2025-10-16
 ---
 
 # 兴奋剂相关障碍（Stimulant-Related Disorders）

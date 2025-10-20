@@ -1,16 +1,14 @@
 ---
-tags:
-
-  - ops:系统运作
-  - 创伤
-  - 多意识体
-  - 解离
-
-topic: 系统运作
-description: 现实解体（Derealization）现象解析：世界失真感、诊断标准与管理策略。了解现实感丧失、环境陌生化等体验的本质
-title: 去现实化（Derealization）
-updated: 2025-10-20
 comments: true
+description: 现实解体（Derealization）现象解析：世界失真感、诊断标准与管理策略。了解现实感丧失、环境陌生化等体验的本质
+tags:
+- ops:系统运作
+- sx:创伤症状
+- community:多意识体
+- dx:解离障碍
+title: 去现实化（Derealization）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 去现实化（Derealization）

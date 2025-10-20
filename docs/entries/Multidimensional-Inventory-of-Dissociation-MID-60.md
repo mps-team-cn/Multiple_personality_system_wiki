@@ -1,26 +1,20 @@
 ---
-title: 多维解离量表（MID‑60）
-topic: 诊断与临床
-tags:
-
-  - scale:MID-60
-  - scale:评估量表
-  - 解离
-  - 诊断与临床
-
 hide:
-
-    - toc
-
-synonyms:
-
-    - mid60
-    - 多维解离量表
-    - MID-60
-
-updated: 2025-10-19
+- toc
 search:
   boost: 1.5
+synonyms:
+- mid60
+- 多维解离量表
+- MID-60
+tags:
+- scale:MID-60
+- scale:评估量表
+- dx:解离障碍
+- guide:诊断与临床
+title: 多维解离量表（MID‑60）
+topic: 诊断与临床
+updated: 2025-10-19
 ---
 
 # 多维解离量表（MID‑60）

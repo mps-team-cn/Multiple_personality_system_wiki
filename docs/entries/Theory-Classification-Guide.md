@@ -1,15 +1,16 @@
 ---
-tags:
-
-    - 理论与分类
-
-topic: 理论与分类
-title: 理论与分类导览
-description: 整合心理学与解离相关理论框架，构建从基础概念到多意识体研究的知识地图，帮助读者建立系统化理解路径。
-updated: 2025-10-19
 comments: true
+description: 整合心理学与解离相关理论框架，构建从基础概念到多意识体研究的知识地图，帮助读者建立系统化理解路径。
 search:
   boost: 1.4
+tags:
+
+  - guide:导览
+  - theory:心理学理论
+
+title: 理论与分类导览
+topic: 理论与分类
+updated: 2025-10-19
 ---
 
 # 🧩 理论与分类导览

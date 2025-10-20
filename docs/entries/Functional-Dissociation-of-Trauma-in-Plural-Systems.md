@@ -1,29 +1,21 @@
 ---
-title: 多意识体系统中的创伤功能分化（Functional Dissociation of Trauma in Plural Systems）
-tags:
-
-  - ops:系统运作
-  - 创伤与疗愈
-  - 创伤情绪
-  - 创伤承受
-  - 创伤记忆
-  - 理论与分类
-
-topic: 理论与分类
-synonyms:
-
-    - 创伤功能分化
-    - Functional Dissociation of Trauma
-    - 创伤功能分离
-    - Trauma Function Separation
-    - 创伤分层持有
-    - chuangshang gongneng fenhua
-
+comments: true
 description: 多意识体系统中创伤记忆、情绪与承受能力的功能性分离机制。理解记忆持有、情绪承载与调节承受如何在不同成员间分化与协作
-updated: 2025-10-17
 search:
   boost: 1.5
-comments: true
+synonyms:
+- 创伤功能分化
+- Functional Dissociation of Trauma
+- 创伤功能分离
+- Trauma Function Separation
+- 创伤分层持有
+- chuangshang gongneng fenhua
+tags:
+- ops:系统运作
+- tx:创伤治疗
+title: 多意识体系统中的创伤功能分化（Functional Dissociation of Trauma in Plural Systems）
+topic: 理论与分类
+updated: 2025-10-17
 ---
 
 # 多意识体系统中的创伤功能分化（Functional Dissociation of Trauma in Plural Systems）

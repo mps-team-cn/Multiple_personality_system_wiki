@@ -1,23 +1,19 @@
 ---
-tags:
-
-  - ops:系统运作
-  - 创伤
-  - 多意识体
-  - 解离
-
-topic: 系统运作
-title: 封存（Sequestration）
-synonyms:
-
-    - 封闭
-    - 封印
-    - 内部收容
-    - 安置
-    - Containment
-
-updated: 2025-10-20
 comments: true
+synonyms:
+- 封闭
+- 封印
+- 内部收容
+- 安置
+- Containment
+tags:
+- ops:系统运作
+- sx:创伤症状
+- community:多意识体
+- dx:解离障碍
+title: 封存（Sequestration）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 封存（Sequestration）

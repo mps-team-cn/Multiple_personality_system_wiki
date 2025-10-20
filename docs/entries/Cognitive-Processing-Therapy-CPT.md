@@ -1,21 +1,15 @@
 ---
-title: 认知加工疗法（Cognitive Processing Therapy, CPT）
-tags:
-
-    - 创伤与疗愈
-    - 心理治疗
-    - CPT
-    - 认知加工治疗
-
-topic: 创伤与疗愈
-synonyms:
-
-    - 认知加工治疗
-    - CPT
-    - Cognitive Processing Therapy
-
-updated: 2025-10-20
 comments: true
+synonyms:
+- 认知加工治疗
+- CPT
+- Cognitive Processing Therapy
+tags:
+- tx:创伤治疗
+- tx:心理治疗
+title: 认知加工疗法（Cognitive Processing Therapy, CPT）
+topic: 创伤与疗愈
+updated: 2025-10-20
 ---
 
 # 认知加工疗法（Cognitive Processing Therapy, CPT）

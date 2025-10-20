@@ -1,22 +1,17 @@
 ---
-tags:
-
-- 诊断与临床
-- 述情障碍
-- 多意识体
-- 解离
-
-topic: 诊断与临床
-title: 述情障碍（Alexithymia）
-updated: 2025-10-20
+comments: true
 synonyms:
-
 - 情感表达不能
 - 情感难言症
 - 述情困难
 - alexithymia
-
-comments: true
+tags:
+- guide:诊断与临床
+- community:多意识体
+- dx:解离障碍
+title: 述情障碍（Alexithymia）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 述情障碍（Alexithymia）

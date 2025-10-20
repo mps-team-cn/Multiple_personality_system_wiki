@@ -1,21 +1,16 @@
 ---
-tags:
-
-- 理论与分类
-- 多意识体
-- 解离
-- 创伤
-
-topic: 理论与分类
-title: 动机理论（Motivation Theories）
-updated: 2025-10-20
+comments: true
 synonyms:
-
 - 动机学说
 - 激励理论
 - motivation theories
-
-comments: true
+tags:
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 动机理论（Motivation Theories）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 动机理论（Motivation Theories）

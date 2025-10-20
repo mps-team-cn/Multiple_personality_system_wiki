@@ -1,20 +1,15 @@
 ---
+comments: true
+synonyms:
+- 认知行为疗法
+- Cognitive Behavioral Therapy
+- CBT
+tags:
+- tx:创伤治疗
+- tx:心理治疗
 title: 认知行为疗法（Cognitive Behavioral Therapy, CBT）
 topic: 创伤与疗愈
-tags:
-
-    - 创伤与疗愈
-    - 心理治疗
-    - 认知行为
-
 updated: 2025-10-14
-synonyms:
-
-    - 认知行为疗法
-    - Cognitive Behavioral Therapy
-    - CBT
-
-comments: true
 ---
 
 # 认知行为疗法（Cognitive Behavioral Therapy, CBT）

@@ -1,15 +1,13 @@
 ---
-title: 系魂（Soulbond）
+comments: true
 tags:
-
-    - 角色与身份
-    - 多意识体
-    - 解离
-    - 创伤
-
+- role:系统角色
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 系魂（Soulbond）
 topic: 角色与身份
 updated: 2025-10-20
-comments: true
 ---
 
 # 系魂（Soulbond）

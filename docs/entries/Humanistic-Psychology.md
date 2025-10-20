@@ -1,26 +1,21 @@
 ---
-tags:
-
-- 理论与分类
-- 多意识体
-- 心理学
-- 解离
-
-topic: 理论与分类
-title: 人本主义心理学（Humanistic Psychology）
-updated: 2025-10-20
+comments: true
+description: 人本主义心理学强调自我实现、自由意志与主观体验,是心理学第三势力,对解离与多意识体理解提供包容性、非病理化的支持性框架,重视个体成长潜能与主观经验的价值。
+search:
+  boost: 1.3
 synonyms:
-
 - 人本心理学
 - 人本主义学派
 - humanistic psychology
 - 马斯洛心理学
 - 罗杰斯心理学
-
-description: 人本主义心理学强调自我实现、自由意志与主观体验,是心理学第三势力,对解离与多意识体理解提供包容性、非病理化的支持性框架,重视个体成长潜能与主观经验的价值。
-search:
-  boost: 1.3
-comments: true
+tags:
+- community:多意识体
+- theory:心理学理论
+- dx:解离障碍
+title: 人本主义心理学（Humanistic Psychology）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 人本主义心理学（Humanistic Psychology）

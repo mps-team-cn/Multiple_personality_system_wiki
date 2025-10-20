@@ -1,35 +1,31 @@
 ---
-tags:
-
-- 诊断与临床
-- 多意识体
-- 解离
-- 创伤
-
-topic: 诊断与临床
-synonyms:
-
-    - 定向障碍
-    - 定向力障碍
-    - 失定向
-    - 迷失定向
-    - 定向紊乱
-    - 时间定向障碍
-    - 空间定向障碍
-    - 人物定向障碍
-    - 自我定向障碍
-    - Disorientation
-    - Orientation disturbance
-    - Orientation impairment
-    - Disoriented state
-    - Time disorientation
-    - Spatial disorientation
-
-title: 定向障碍（Disorientation）
-updated: 2025-10-20
+comments: true
 search:
   boost: 1.5
-comments: true
+synonyms:
+- 定向障碍
+- 定向力障碍
+- 失定向
+- 迷失定向
+- 定向紊乱
+- 时间定向障碍
+- 空间定向障碍
+- 人物定向障碍
+- 自我定向障碍
+- Disorientation
+- Orientation disturbance
+- Orientation impairment
+- Disoriented state
+- Time disorientation
+- Spatial disorientation
+tags:
+- guide:诊断与临床
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 定向障碍（Disorientation）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 定向障碍（Disorientation）

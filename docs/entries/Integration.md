@@ -1,18 +1,16 @@
 ---
-tags:
-
-  - ops:系统运作
-  - 创伤
-  - 多意识体
-  - 解离
-
-topic: 系统运作
-title: 整合（Integration）
-updated: 2025-10-20
+comments: true
 description: 功能性整合到结构性整合的连续谱；明确与融合的区别与关联，提供准备度评估、阶段路径、常见困难与风险边界。
 search:
   boost: 1.5
-comments: true
+tags:
+- ops:系统运作
+- sx:创伤症状
+- community:多意识体
+- dx:解离障碍
+title: 整合（Integration）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 整合（Integration）

@@ -1,17 +1,15 @@
 ---
-tags:
-
-- 角色与身份
-- 多意识体
-- 解离
-
-topic: 角色与身份
+comments: true
 description: 守门人（Gatekeeper）的职能与重要性。了解控制成员切换、保护记忆、维护系统秩序的关键成员及其运作机制
-title: 守门人（Gatekeeper）
-updated: 2025-10-20
 search:
   boost: 1.5
-comments: true
+tags:
+- role:系统角色
+- community:多意识体
+- dx:解离障碍
+title: 守门人（Gatekeeper）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 守门人（Gatekeeper）

@@ -1,20 +1,15 @@
 ---
-title: 易性症（Transsexualism，已过时）
-tags:
-
-  - history:历史术语
-  - 性别认同
-  - 诊断与临床
-
-topic: 诊断与临床
-synonyms:
-
-    - 易性病
-    - 变性欲
-    - Transsexualism
-
-updated: 2025-10-14
 comments: true
+synonyms:
+- 易性病
+- 变性欲
+- Transsexualism
+tags:
+- history:历史术语
+- guide:诊断与临床
+title: 易性症（Transsexualism，已过时）
+topic: 诊断与临床
+updated: 2025-10-14
 ---
 
 # 易性症（Transsexualism，已过时）

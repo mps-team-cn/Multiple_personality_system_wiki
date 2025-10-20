@@ -1,23 +1,19 @@
 ---
-tags:
-
-  - PMDD
-  - dx:双相及相关障碍
-  - 性别/性功能
-  - 诊断与临床
-
-topic: 诊断与临床
-description: 深入解析经前焦虑障碍（PMDD）的诊断标准、临床表现与治疗方法。了解月经周期相关情绪障碍的本质、生理机制及管理策略，包含 DSM-5-TR 权威诊断标准
-title: 经前焦虑障碍（Premenstrual Dysphoric Disorder，PMDD）
-updated: 2025-10-14
+comments: true
+description: 深入解析经前焦虑障碍（PMDD）的诊断标准、临床表现与治疗方法。了解月经周期相关情绪障碍的本质、生理机制及管理策略，包含 DSM-5-TR
+  权威诊断标准
 synonyms:
-
 - 经前不悦症
 - 经前烦躁障碍
 - Premenstrual Dysphoric Disorder
 - PMDD
-
-comments: true
+tags:
+- dx:双相及相关障碍
+- dx:性别相关障碍
+- guide:诊断与临床
+title: 经前焦虑障碍（Premenstrual Dysphoric Disorder，PMDD）
+topic: 诊断与临床
+updated: 2025-10-14
 ---
 
 # 经前焦虑障碍（Premenstrual Dysphoric Disorder，PMDD）

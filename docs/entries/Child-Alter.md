@@ -1,21 +1,17 @@
 ---
-tags:
-
-- 角色与身份
-- 多意识体
-- 解离
-- 创伤
-
-topic: 角色与身份
+comments: true
 description: 儿童人格（Little / Child Alter）的特征、需求与照护。了解儿童成员的脆弱性、创伤持有及如何提供安全支持与内部照顾
-title: 儿童人格（Little / Child Alter）
-updated: 2025-10-20
 synonyms:
-
 - 小孩意识体
 - Little
-
-comments: true
+tags:
+- role:系统角色
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 儿童人格（Little / Child Alter）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 儿童人格（Little / Child Alter）

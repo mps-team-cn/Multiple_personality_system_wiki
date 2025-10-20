@@ -91,6 +91,8 @@ else
   echo "已跳过：Markdown 自动修复" >&2
 fi
 
+run_step "检查标签规范 (Tagging Standard v2.0)" python tools/check_tags.py docs/entries/
+
 if ! ${SKIP_MARKDOWNLINT}; then
   run_step "运行 markdownlint" markdownlint "**/*.md" --ignore "node_modules" --ignore "tools/pdf_export/vendor"
 else

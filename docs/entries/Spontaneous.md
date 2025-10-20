@@ -1,27 +1,24 @@
 ---
-tags:
-
-- 角色与身份
-- 多意识体
-- 解离
-- 创伤
-
-topic: 角色与身份
-title: 自发型（Spontaneous）
-description: 自发型（Spontaneous）是社群使用的身份标签，描述非创伤主导、在自然发展、灵性实践或认知探索中渐显的多意识体；非 DSM-5-TR/ICD-11 诊断，常与 Created/Adaptive/Mixed 相互对照。
-updated: 2025-10-20
+comments: true
+description: 自发型（Spontaneous）是社群使用的身份标签，描述非创伤主导、在自然发展、灵性实践或认知探索中渐显的多意识体；非 DSM-5-TR/ICD-11
+  诊断，常与 Created/Adaptive/Mixed 相互对照。
+search:
+  boost: 1.4
 synonyms:
-
 - 自发型
 - 自发型系统
 - 自然生成
 - Spontaneous
 - Spontaneous system
 - zifaxing
-
-search:
-  boost: 1.4
-comments: true
+tags:
+- role:系统角色
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 自发型（Spontaneous）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 自发型（Spontaneous）

@@ -1,14 +1,12 @@
 ---
-tags:
-
-    - 创伤与疗愈
-    - 实践指南
-    - 多意识体
-
-topic: 创伤与疗愈
-title: 自我照护工具箱
-updated: 2025-10-20
 comments: true
+tags:
+- tx:创伤治疗
+- guide:实践指南
+- community:多意识体
+title: 自我照护工具箱
+topic: 创伤与疗愈
+updated: 2025-10-20
 ---
 
 # 自我照护工具箱（Self-Care Toolkit）

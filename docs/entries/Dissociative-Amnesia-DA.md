@@ -1,28 +1,24 @@
 ---
-tags:
-
-- 诊断与临床
-- 多意识体
-- 解离
-- 创伤
-
-topic: 诊断与临床
+comments: true
 description: 解离性失忆(DA)详解:记忆缺失类型、诊断标准与恢复方法。理解创伤相关记忆断片、遗忘性漫游等现象的本质
-title: 解离性失忆(Dissociative Amnesia,DA)
-synonyms:
-
-    - 心因性失忆
-    - Psychogenic Amnesia
-    - 功能性失忆
-    - Functional Amnesia
-    - 分离性失忆
-    - 解离性遗忘
-    - 解离性遗忘症
-
-updated: 2025-10-20
 search:
   boost: 2.0
-comments: true
+synonyms:
+- 心因性失忆
+- Psychogenic Amnesia
+- 功能性失忆
+- Functional Amnesia
+- 分离性失忆
+- 解离性遗忘
+- 解离性遗忘症
+tags:
+- guide:诊断与临床
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 解离性失忆(Dissociative Amnesia,DA)
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 解离性失忆(Dissociative Amnesia,DA)

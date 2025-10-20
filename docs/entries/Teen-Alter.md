@@ -1,25 +1,21 @@
 ---
-title: 青少年成员（Teen Alter）
-tags:
-
-    - 角色与身份
-    - 多意识体
-    - 发展阶段
-
-topic: 角色与身份
-synonyms:
-
-    - 青少年成员
-    - Teen Alter
-    - 青少年人格
-    - Teenage Alter
-    - 青春期成员
-    - Teen Part
-    - 青少年意识体
-
-description: 年龄感处于青春期的系统成员，可能表现出探索、反叛或身份寻求特征
-updated: 2025-10-20
 comments: true
+description: 年龄感处于青春期的系统成员，可能表现出探索、反叛或身份寻求特征
+synonyms:
+- 青少年成员
+- Teen Alter
+- 青少年人格
+- Teenage Alter
+- 青春期成员
+- Teen Part
+- 青少年意识体
+tags:
+- role:系统角色
+- community:多意识体
+- dev:发展阶段
+title: 青少年成员（Teen Alter）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 青少年成员（Teen Alter）

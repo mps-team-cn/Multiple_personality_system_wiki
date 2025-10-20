@@ -1,25 +1,21 @@
 ---
-title: 冥想(Meditation)
-tags:
-
-    - 创伤与疗愈
-    - 多意识体
-    - 解离
-    - 创伤
-
-topic: 创伤与疗愈
-synonyms:
-
-    - 正念练习
-    - 静观
-    - Mindfulness Practice
-    - 冥想练习
-
+comments: true
 description: 冥想完整指南：通过呼吸觉察、身体扫描和内在平静中心的建立，释放压力、提升情绪稳定性。包含深度放松冥想引导练习
-updated: 2025-10-20
 search:
   boost: 1.5
-comments: true
+synonyms:
+- 正念练习
+- 静观
+- Mindfulness Practice
+- 冥想练习
+tags:
+- tx:创伤治疗
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 冥想(Meditation)
+topic: 创伤与疗愈
+updated: 2025-10-20
 ---
 
 # 冥想(Meditation)

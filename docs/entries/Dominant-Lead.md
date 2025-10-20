@@ -1,25 +1,22 @@
 ---
-tags:
-
-    - 角色与身份
-    - 多意识体
-    - 解离
-    - 创伤
-
-topic: 角色与身份
-title: 主导（Dominant / Lead）
-description: “主导”在不同社群语境下的指涉差异与映射：在 HT/tulpa 体系中通常等同于宿主（Host）；在非 HT 体系（如多意识体社群、解离相关系统）中多对应用语为执行者（Performer / Executive）。
-updated: 2025-10-20
+comments: true
+description: “主导”在不同社群语境下的指涉差异与映射：在 HT/tulpa 体系中通常等同于宿主（Host）；在非 HT 体系（如多意识体社群、解离相关系统）中多对应用语为执行者（Performer
+  / Executive）。
 search:
   boost: 1.5
 synonyms:
-
-    - 主导
-    - 主导者
-    - Dominant
-    - Lead
-
-comments: true
+- 主导
+- 主导者
+- Dominant
+- Lead
+tags:
+- role:系统角色
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 主导（Dominant / Lead）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 主导（Dominant / Lead）

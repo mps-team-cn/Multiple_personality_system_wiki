@@ -1,18 +1,16 @@
 ---
-tags:
-
-- 角色与身份
-- 多意识体
-- 解离
-- 创伤
-
-topic: 角色与身份
+comments: true
 description: 宿主（Host）的定义、角色与挑战。理解主要控制身体的成员特征、宿主与其他成员的关系及宿主身份的动态性
-title: 宿主（Host）
-updated: 2025-10-20
 search:
   boost: 1.8
-comments: true
+tags:
+- role:系统角色
+- community:多意识体
+- dx:解离障碍
+- sx:创伤症状
+title: 宿主（Host）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 宿主（Host）

@@ -1,20 +1,15 @@
 ---
-tags:
-
-- 理论与分类
-- 多意识体
-- 解离
-
-topic: 理论与分类
-title: 心理能量与注意资源（Psychic Energy & Attention）
-updated: 2025-10-20
+comments: true
 synonyms:
-
 - 心理能量
 - 注意资源
 - psychic energy
-
-comments: true
+tags:
+- community:多意识体
+- dx:解离障碍
+title: 心理能量与注意资源（Psychic Energy & Attention）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 心理能量与注意资源（Psychic Energy & Attention）

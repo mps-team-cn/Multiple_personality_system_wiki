@@ -1,23 +1,17 @@
 ---
-tags:
-
-  - dx:B组人格障碍
-  - dx:人格障碍(PDs)
-  - 自恋
-  - 诊断与临床
-
-topic: 诊断与临床
-title: 自恋型人格障碍（Narcissistic Personality Disorder，NPD）
-synonyms:
-
-    - 自恋型人格障碍
-    - Narcissistic Personality Disorder
-    - NPD
-    - 夸大型人格障碍（部分译名）
-
-description: 概述自恋型人格障碍（NPD）的核心特征、ICD-11 与 DSM-5-TR 诊断要点、临床表现、鉴别诊断与支持性治疗策略，澄清常见误解并提供临床沟通要点。
-updated: 2025-10-16
 comments: true
+description: 概述自恋型人格障碍（NPD）的核心特征、ICD-11 与 DSM-5-TR 诊断要点、临床表现、鉴别诊断与支持性治疗策略，澄清常见误解并提供临床沟通要点。
+synonyms:
+- 自恋型人格障碍
+- Narcissistic Personality Disorder
+- NPD
+- 夸大型人格障碍（部分译名）
+tags:
+- dx:B组人格障碍
+- guide:诊断与临床
+title: 自恋型人格障碍（Narcissistic Personality Disorder，NPD）
+topic: 诊断与临床
+updated: 2025-10-16
 ---
 
 # 自恋型人格障碍（Narcissistic Personality Disorder，NPD）

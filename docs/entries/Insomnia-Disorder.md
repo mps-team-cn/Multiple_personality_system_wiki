@@ -1,20 +1,16 @@
 ---
-title: 失眠障碍(Insomnia Disorder)
-tags:
-
-    - 诊断与临床
-    - 共病
-    - 睡眠
-
-topic: 诊断与临床
-synonyms:
-
-    - 失眠症
-    - Insomnia Disorder
-    - Insomnia
-
-updated: 2025-10-14
 comments: true
+synonyms:
+- 失眠症
+- Insomnia Disorder
+- Insomnia
+tags:
+- guide:诊断与临床
+- dx:共病
+- sleep:睡眠障碍
+title: 失眠障碍(Insomnia Disorder)
+topic: 诊断与临床
+updated: 2025-10-14
 ---
 
 # 失眠障碍(Insomnia Disorder)
