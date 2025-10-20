@@ -2,6 +2,8 @@
 title: 快速开始
 summary: 快速了解多意识体核心概念、阅读顺序与自护工具的导航指南。
 updated: 2025-10-15
+search:
+  exclude: true
 ---
 
 # 快速开始（Quick Start）

@@ -1,12 +1,15 @@
 ---
-title: 理论与分类
+title: 理论与分类索引
 topic: 理论与分类
 tags:
   - meta:索引
   - meta:导览
 comments: true
+search:
+  exclude: true
 hide:
   - toc
+  - tags
 ---
 
 # 理论与分类索引

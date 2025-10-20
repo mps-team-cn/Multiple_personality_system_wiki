@@ -1,12 +1,15 @@
 ---
-title: 实践指南
+title: 实践指南索引
 topic: 实践指南
 tags:
   - meta:索引
   - meta:导览
 comments: true
+search:
+  exclude: true
 hide:
   - toc
+  - tags
 ---
 
 # 实践指南索引

@@ -1,12 +1,15 @@
 ---
-title: 创伤与疗愈
+title: 创伤与疗愈索引
 topic: 创伤与疗愈
 tags:
   - meta:索引
   - meta:导览
 comments: true
+search:
+  exclude: true
 hide:
   - toc
+  - tags
 ---
 
 # 创伤与疗愈索引

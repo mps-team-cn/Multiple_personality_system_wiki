@@ -1,12 +1,15 @@
 ---
-title: 角色与身份
+title: 角色与身份索引
 topic: 角色与身份
 tags:
   - meta:索引
   - meta:导览
 comments: true
+search:
+  exclude: true
 hide:
   - toc
+  - tags
 ---
 
 # 角色与身份索引

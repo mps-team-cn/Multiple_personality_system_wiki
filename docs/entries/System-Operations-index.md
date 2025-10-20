@@ -1,12 +1,15 @@
 ---
-title: 系统运作
+title: 系统运作索引
 topic: 系统运作
 tags:
   - meta:索引
   - meta:导览
 comments: true
+search:
+  exclude: true
 hide:
   - toc
+  - tags
 ---
 
 # 系统运作索引

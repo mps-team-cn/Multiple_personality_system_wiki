@@ -1,12 +1,15 @@
 ---
-title: 诊断与临床
+title: 诊断与临床索引
 topic: 诊断与临床
 tags:
   - meta:索引
   - meta:导览
 comments: true
+search:
+  exclude: true
 hide:
   - toc
+  - tags
 ---
 
 # 诊断与临床索引

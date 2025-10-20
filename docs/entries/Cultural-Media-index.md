@@ -1,12 +1,15 @@
 ---
-title: 文化与表现
+title: 文化与表现索引
 topic: 文化与表现
 tags:
   - meta:索引
   - meta:导览
 comments: true
+search:
+  exclude: true
 hide:
   - toc
+  - tags
 ---
 
 # 文化与表现索引
