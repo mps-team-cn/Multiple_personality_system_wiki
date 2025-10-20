@@ -16,6 +16,7 @@ hide:
 ## 词条一览
 
 - [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](Another-Me-DID-Depictions.md) — *2025-10-20*
+- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md) — *2025-10-20*
 - [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](Dostoevsky-The-Double-Self-Division.md) — *2025-10-20*
 - [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](Fight-Club-1999-Identity-Metaphor.md) — *2025-10-20*
 - [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md) — *2025-10-20*
@@ -30,4 +31,3 @@ hide:
 - [《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现](Three-Faces-Of-Eve-1957-Dissociation.md) — *2025-10-20*
 - [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](Touhou-Tulpa-Fandom.md) — *2025-10-20*
 - [《我与梦露的一周》（The United States of Tara）中的系统家庭日常](United-States-Of-Tara-System-Daily-Life.md) — *2025-10-20*
-- [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md) — *2025-10-18*

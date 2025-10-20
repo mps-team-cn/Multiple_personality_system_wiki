@@ -15,6 +15,7 @@ hide:
 
 ## 词条一览
 
+- [认知加工疗法（Cognitive Processing Therapy, CPT）](Cognitive-Processing-Therapy-CPT.md) — *2025-10-20*
 - [接地（Grounding）](Grounding.md) — *2025-10-20*
 - [内在家庭系统疗法（Internal Family Systems, IFS）](Internal-Family-Systems-IFS.md) — *2025-10-20*
 - [冥想(Meditation)](Meditation.md) — *2025-10-20*
@@ -26,7 +27,6 @@ hide:
 - [三阶段创伤治疗模型（Three-Phase Trauma Treatment）](Three-Phase-Trauma-Treatment.md) — *2025-10-19*
 - [接受与承诺疗法（Acceptance and Commitment Therapy, ACT）](Acceptance-Commitment-Therapy-ACT.md) — *2025-10-14*
 - [认知行为疗法（Cognitive Behavioral Therapy, CBT）](Cognitive-Behavioral-Therapy-CBT.md) — *2025-10-14*
-- [认知加工疗法（Cognitive Processing Therapy, CPT）](Cognitive-Processing-Therapy-CPT.md) — *2025-10-13*
 - [辩证行为疗法（Dialectical Behavior Therapy, DBT）](Dialectical-Behavior-Therapy-DBT.md) — *2025-10-13*
 - [眼动脱敏与再加工（Eye Movement Desensitization and Reprocessing, EMDR）](Eye-Movement-Desensitization-Reprocessing-EMDR.md) — *2025-10-13*
 - [延长暴露疗法（Prolonged Exposure Therapy, PE）](Prolonged-Exposure-Therapy-PE.md) — *2025-10-13*
