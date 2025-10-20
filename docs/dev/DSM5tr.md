@@ -50,10 +50,10 @@ comments: true
 - [x] Schizophreniform-Disorder.md
 - [x] Schizophrenia-SZ.md
 - [x] Schizoaffective-Disorder.md
-- [ ] Substance-Medication-Induced-Psychotic-Disorder.md
-- [ ] Psychotic-Disorder-Due-to-Another-Medical-Condition.md
-- [ ] Catatonia.md
-- [ ] Other-Specified-or-Unspecified-Psychotic-Disorder.md
+- [x] Substance-Medication-Induced-Psychotic-Disorder.md
+- [x] Psychotic-Disorder-Due-to-Another-Medical-Condition.md
+- [x] Catatonia.md
+- [x] Other-Specified-or-Unspecified-Psychotic-Disorder.md
 
 ## 3. 双相及相关障碍（Bipolar and Related Disorders）
 
