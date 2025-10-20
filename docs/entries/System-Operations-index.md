@@ -50,7 +50,6 @@ hide:
 - [并行（Parallelism）](Parallelism.md) — *2025-10-20*
 - [权限(Permissions)](Permissions.md) — *2025-10-20*
 - [附体（Possession）](Possession.md) — *2025-10-20*
-- [外投射（External Projection）](External-Projection.md) — *2025-10-20*
 - [重构（Reconstruction）](Reconstruction.md) — *2025-10-20*
 - [退行（Regression）](Regression.md) — *2025-10-20*
 - [存在感（Sense of Presence）](Sense-Of-Presence.md) — *2025-10-20*
