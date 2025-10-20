@@ -15,6 +15,7 @@ hide:
 
 ## 词条一览
 
+- [人格职能（System Roles）](System-Roles.md) — *2025-10-20*
 - [主导（Dominant / Lead）](Dominant-Lead.md) — *2025-10-19*
 - [埃蒙加德分类法（Emmengard Classification）](Emmengard-Classification.md) — *2025-10-19*
 - [内在批评者（Inner Critic）](Inner-Critic.md) — *2025-10-19*
@@ -23,7 +24,6 @@ hide:
 - [迫害者（Persecutor）](Persecutor.md) — *2025-10-19*
 - [保护者（Protector）](Protector.md) — *2025-10-19*
 - [自发型（Spontaneous）](Spontaneous.md) — *2025-10-19*
-- [人格职能（System Roles）](System-Roles.md) — *2025-10-19*
 - [图帕（Tulpa）](Tulpa.md) — *2025-10-19*
 - [管理者(Admin)](Admin.md) — *2025-10-18*
 - [核心（Core）](Core.md) — *2025-10-18*

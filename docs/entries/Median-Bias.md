@@ -15,7 +15,7 @@ aliases:
     - 半多意识体系统
     - 偏重系统
 
-updated: 2025-10-18
+updated: 2025-10-20
 ---
 
 # 偏重（Median / Bias）

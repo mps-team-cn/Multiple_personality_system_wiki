@@ -9,7 +9,7 @@ tags:
 topic: 系统运作
 description: 多意识体（Multiple Personality/MP）社群自我认同框架详解：定义、边界、运作机制与协作实践。区分社群身份认同与临床诊断，理解多重意识单元的共存与内部协作
 title: 多意识体系统（Multiple Personality System）
-updated: 2025-10-18
+updated: 2025-10-20
 synonyms:
 
 - 多意识体系统

@@ -8,7 +8,7 @@ tags:
 
 topic: 角色与身份
 title: 人格职能（System Roles）
-updated: 2025-10-19
+updated: 2025-10-20
 comments: true
 description: 人格职能是多意识体与解离性身份障碍语境中描述系统成员功能性分工的概念，强调任务分配而非临床诊断分类
 search:

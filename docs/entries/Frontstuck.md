@@ -17,7 +17,7 @@ synonyms:
     - Stuck Fronting
 
 description: 深入解析卡前台现象:切换方法失效、症状多样性、与长时间前台的区别,以及实用应对策略与误区澄清
-updated: 2025-10-17
+updated: 2025-10-20
 search:
   boost: 1.5
 comments: true
