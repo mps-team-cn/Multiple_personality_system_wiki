@@ -89,7 +89,7 @@ comments: true
 在部分临床实践中,行为主义方法用于技能训练（如[接地技巧](../contributing/index.md)、情绪调节）与行为激活（对抗抑郁）,但需注意：
 
 - **简化风险**：行为主义忽视认知与情感,可能过度简化解离的复杂性。
-- **非替代性**：行为矫正不能替代创伤加工与身份整合,需与[EMDR](EMDR.md)、[辩证行为疗法](DBT.md)结合。
+- **非替代性**：行为矫正不能替代创伤加工与身份整合,需与[EMDR](Eye-Movement-Desensitization-Reprocessing-EMDR.md)、[辩证行为疗法](Dialectical-Behavior-Therapy-DBT.md)结合。
 - **伦理边界**：强化与惩罚需在尊重自主性前提下应用,避免操控与权力滥用。
 
 ---

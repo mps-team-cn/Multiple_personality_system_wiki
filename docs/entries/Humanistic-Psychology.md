@@ -66,7 +66,7 @@ comments: true
 
 ### 非病理化框架的价值
 
-人本主义的非评判态度与自我实现理念为多意识体系统提供包容框架。成员可以在安全环境下探索自我价值与人生目标,避免因羞耻与污名而加重[防御性解离](Defensive-Dissociation.md)。**文献提示**,人本取向有助于建立治疗联盟、减少内部冲突,但作为支持性取向,需与结构化治疗（如[EMDR](EMDR.md)、[辩证行为疗法](DBT.md)）结合以处理创伤核心。
+人本主义的非评判态度与自我实现理念为多意识体系统提供包容框架。成员可以在安全环境下探索自我价值与人生目标,避免因羞耻与污名而加重[防御性解离](Defensive-Dissociation.md)。**文献提示**,人本取向有助于建立治疗联盟、减少内部冲突,但作为支持性取向,需与结构化治疗（如[EMDR](Eye-Movement-Desensitization-Reprocessing-EMDR.md)、[辩证行为疗法](Dialectical-Behavior-Therapy-DBT.md)）结合以处理创伤核心。
 
 ### 临床应用限定
 
