@@ -16,7 +16,7 @@ synonyms:
 - Projection to External Objects
 
 description: 系统成员将自身的知觉、情绪、存在感投射到外部真实物体或空间的体验模式，用于增强存在感、情绪调节和系统功能支持
-updated: 2025-10-18
+updated: 2025-10-20
 search:
   boost: 1.5
 comments: true

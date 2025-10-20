@@ -19,7 +19,7 @@ synonyms:
     - 解离性遗忘
     - 解离性遗忘症
 
-updated: 2025-10-17
+updated: 2025-10-20
 search:
   boost: 2.0
 comments: true

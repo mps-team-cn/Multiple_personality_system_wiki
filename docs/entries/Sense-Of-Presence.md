@@ -14,7 +14,7 @@ synonyms:
     - Sense of Presence
     - Co-awareness
 
-updated: 2025-10-18
+updated: 2025-10-20
 comments: true
 ---
 

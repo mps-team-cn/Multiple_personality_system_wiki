@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 述情障碍（Alexithymia）
-updated: 2025-10-14
+updated: 2025-10-20
 synonyms:
 
 - 情感表达不能

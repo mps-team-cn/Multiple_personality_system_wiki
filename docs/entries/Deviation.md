@@ -18,7 +18,7 @@ synonyms:
     - 性格演变
 
 description: Deviation 指 Tulpa 在发展过程中偏离宿主原初设定的现象，通常被视为 Tulpa 获得自主性和独立人格的重要标志
-updated: 2025-10-16
+updated: 2025-10-20
 comments: true
 ---
 

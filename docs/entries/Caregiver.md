@@ -9,7 +9,7 @@ tags:
 topic: 角色与身份
 description: 照顾者（Caregiver）成员的角色与功能。理解内部照护系统、照顾者如何支持其他成员及避免过度照顾导致的耗竭
 title: 照顾者（Caregiver）
-updated: 2025-10-17
+updated: 2025-10-20
 comments: true
 ---
 

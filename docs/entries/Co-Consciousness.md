@@ -15,7 +15,7 @@ synonyms:
     - Co-consciousness
     - 共在意识
 
-updated: 2025-10-18
+updated: 2025-10-20
 search:
   boost: 1.5
 comments: true

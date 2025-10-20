@@ -9,7 +9,7 @@ tags:
 topic: 诊断与临床
 description: 人格解体/现实解体障碍（DPDR）权威指南：诊断标准、临床表现与治疗方法。掌握持续性解离体验的识别与康复策略
 title: 人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）
-updated: 2025-10-17
+updated: 2025-10-20
 comments: true
 ---
 

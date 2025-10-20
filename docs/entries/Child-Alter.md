@@ -9,7 +9,7 @@ tags:
 topic: 角色与身份
 description: 儿童人格（Little / Child Alter）的特征、需求与照护。了解儿童成员的脆弱性、创伤持有及如何提供安全支持与内部照顾
 title: 儿童人格（Little / Child Alter）
-updated: 2025-10-16
+updated: 2025-10-20
 synonyms:
 
 - 小孩意识体

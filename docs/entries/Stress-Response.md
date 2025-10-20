@@ -24,7 +24,7 @@ synonyms:
     - HPA轴反应
 
 description: 个体在感知威胁或压力时产生的心理-生理机制，涉及自主神经系统和HPA轴的复杂调节过程
-updated: 2025-10-17
+updated: 2025-10-20
 search:
   boost: 1.8
 comments: true

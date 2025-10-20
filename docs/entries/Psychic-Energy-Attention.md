@@ -7,7 +7,7 @@ tags:
 
 topic: 理论与分类
 title: 心理能量与注意资源（Psychic Energy & Attention）
-updated: 2025-10-13
+updated: 2025-10-20
 synonyms:
 
 - 心理能量

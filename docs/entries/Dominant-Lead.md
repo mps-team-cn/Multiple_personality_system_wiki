@@ -9,7 +9,7 @@ tags:
 topic: 角色与身份
 title: 主导（Dominant / Lead）
 description: “主导”在不同社群语境下的指涉差异与映射：在 HT/tulpa 体系中通常等同于宿主（Host）；在非 HT 体系（如多意识体社群、解离相关系统）中多对应用语为执行者（Performer / Executive）。
-updated: 2025-10-19
+updated: 2025-10-20
 search:
   boost: 1.5
 synonyms:

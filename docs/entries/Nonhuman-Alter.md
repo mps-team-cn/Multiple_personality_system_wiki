@@ -17,7 +17,7 @@ synonyms:
     - Animal Alter
 
 description: 自我认同为动物、虚构生物或其他非人类形态的系统成员，在部分多意识体系统中存在
-updated: 2025-10-17
+updated: 2025-10-20
 comments: true
 ---
 

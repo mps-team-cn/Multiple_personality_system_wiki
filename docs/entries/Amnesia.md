@@ -16,7 +16,7 @@ synonyms:
     - 遗忘
 
 description: 多意识体系统中常见的记忆断裂现象，包括顺行性失忆、逆行性失忆与解离性失忆等类型
-updated: 2025-10-17
+updated: 2025-10-20
 comments: true
 ---
 

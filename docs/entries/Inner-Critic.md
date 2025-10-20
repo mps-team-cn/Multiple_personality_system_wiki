@@ -9,7 +9,7 @@ tags:
     - 创伤
 
 description: 内在批评者（Inner Critic）的形成机制、功能与调节策略。探讨其与迫害者（Persecutor）及自我评价系统的关系，区分临床与社群语境的不同用法。
-updated: 2025-10-19
+updated: 2025-10-20
 search:
   boost: 1.4
 synonyms:

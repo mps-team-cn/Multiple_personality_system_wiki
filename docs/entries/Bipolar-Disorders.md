@@ -20,7 +20,7 @@ synonyms:
     - Manic-Depressive Illness
     - 躁狂抑郁症
 
-updated: 2025-10-17
+updated: 2025-10-20
 search:
   boost: 1.8
 comments: true

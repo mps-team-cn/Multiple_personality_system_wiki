@@ -8,7 +8,7 @@ tags:
 
 topic: 角色与身份
 title: 适应型（Adaptive）
-updated: 2025-10-13
+updated: 2025-10-20
 synonyms:
 
 - 适应型

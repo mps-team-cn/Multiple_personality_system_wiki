@@ -14,7 +14,7 @@ synonyms:
     - Artist Alter
 
 description: 专注艺术、写作、音乐等创造性活动的系统成员，拥有独特的审美视角与表达风格
-updated: 2025-10-17
+updated: 2025-10-20
 comments: true
 ---
 

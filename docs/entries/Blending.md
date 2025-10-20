@@ -9,7 +9,7 @@ tags:
 
 topic: 系统运作
 title: 混合（Blending）
-updated: 2025-10-16
+updated: 2025-10-20
 synonyms:
 
 - 融混

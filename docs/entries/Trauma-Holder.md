@@ -16,7 +16,7 @@ synonyms:
     - Trauma Bearer
 
 description: 保留特定创伤记忆与情绪的系统成员，可能在触发时被激活，承担保护系统其他成员免受创伤影响的功能
-updated: 2025-10-17
+updated: 2025-10-20
 search:
   boost: 1.5
 comments: true

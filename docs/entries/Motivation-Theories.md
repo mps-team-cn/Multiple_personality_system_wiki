@@ -8,7 +8,7 @@ tags:
 
 topic: 理论与分类
 title: 动机理论（Motivation Theories）
-updated: 2025-10-13
+updated: 2025-10-20
 synonyms:
 
 - 动机学说

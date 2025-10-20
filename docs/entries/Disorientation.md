@@ -26,7 +26,7 @@ synonyms:
     - Spatial disorientation
 
 title: 定向障碍（Disorientation）
-updated: 2025-10-19
+updated: 2025-10-20
 search:
   boost: 1.5
 comments: true

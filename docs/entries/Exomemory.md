@@ -8,7 +8,7 @@ tags:
 
 topic: 系统运作
 title: 独有记忆（Exomemory）
-updated: 2025-10-17
+updated: 2025-10-20
 synonyms:
 
 - 体外记忆

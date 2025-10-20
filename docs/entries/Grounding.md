@@ -15,7 +15,7 @@ synonyms:
     - 稳定技巧
     - Grounding techniques
 
-updated: 2025-10-18
+updated: 2025-10-20
 search:
   boost: 1.8
 comments: true

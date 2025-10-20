@@ -17,7 +17,7 @@ synonyms:
 
 description: 非我感（Not-me Feeling）体验详解：多意识体系统中识别成员边界的核心体验，理解"那不是我"的身份区隔机制
 title: 非我感（Not-me Feeling）
-updated: 2025-10-16
+updated: 2025-10-20
 comments: true
 ---
 

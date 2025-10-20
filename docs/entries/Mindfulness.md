@@ -17,7 +17,7 @@ synonyms:
     - 当下觉察
 
 description: 正念完整指南：有意、当下、非评判的注意力训练。学习创伤敏感正念、窗口耐受性概念,在多意识体系统中培养情绪调节能力
-updated: 2025-10-17
+updated: 2025-10-20
 search:
   boost: 1.6
 comments: true

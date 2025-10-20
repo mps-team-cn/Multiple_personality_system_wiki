@@ -11,7 +11,7 @@ tags:
 topic: 诊断与临床
 description: 焦虑障碍完整分类：GAD、惊恐障碍、社交焦虑、恐惧症等诊断概览。理解焦虑障碍谱系的临床特征、鉴别诊断与治疗方法
 title: 焦虑障碍（Anxiety Disorders）
-updated: 2025-10-17
+updated: 2025-10-20
 search:
   boost: 1.8
 synonyms:

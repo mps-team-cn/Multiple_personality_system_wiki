@@ -8,7 +8,7 @@ tags:
 
 topic: 理论与分类
 title: 人本主义心理学（Humanistic Psychology）
-updated: 2025-10-13
+updated: 2025-10-20
 synonyms:
 
 - 人本心理学

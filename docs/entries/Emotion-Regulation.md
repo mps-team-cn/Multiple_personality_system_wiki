@@ -8,7 +8,7 @@ tags:
 
 topic: 理论与分类
 title: 情绪调节（Emotion Regulation）
-updated: 2025-10-19
+updated: 2025-10-20
 synonyms:
 
 - 情绪管理

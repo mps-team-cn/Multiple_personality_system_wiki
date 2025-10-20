@@ -16,7 +16,7 @@ synonyms:
 - 虚拟玩伴
 
 description: 儿童幻想伙伴的心理机制、与 Tulpa 及解离现象的区别、文化与社群延伸用法
-updated: 2025-10-18
+updated: 2025-10-20
 comments: true
 search:
   boost: 1.5

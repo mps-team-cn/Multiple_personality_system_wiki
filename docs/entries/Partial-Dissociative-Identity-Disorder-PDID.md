@@ -8,7 +8,7 @@ tags:
 
 topic: 诊断与临床
 title: 部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）
-updated: 2025-10-14
+updated: 2025-10-20
 comments: true
 ---
 

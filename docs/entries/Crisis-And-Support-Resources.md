@@ -20,7 +20,7 @@ synonyms:
     - crisis help
     - support resources
 
-updated: 2025-10-19
+updated: 2025-10-20
 ---
 
 # 危机与支援资源（Crisis & Support Resources）

@@ -16,7 +16,7 @@ synonyms:
     - 冥想练习
 
 description: 冥想完整指南：通过呼吸觉察、身体扫描和内在平静中心的建立，释放压力、提升情绪稳定性。包含深度放松冥想引导练习
-updated: 2025-10-17
+updated: 2025-10-20
 search:
   boost: 1.5
 comments: true

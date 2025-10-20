@@ -8,7 +8,7 @@ tags:
 
 topic: 理论与分类
 title: 情感障碍（Mood Disorders）
-updated: 2025-10-14
+updated: 2025-10-20
 synonyms:
 
 - 情感障碍

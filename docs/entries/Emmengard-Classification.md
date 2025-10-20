@@ -8,7 +8,7 @@ tags:
 topic: 角色与身份
 title: 埃蒙加德分类法（Emmengard Classification）
 description: 社群使用的多意识体形成来源分类框架，强调自我叙事与标签可组合/可混合；非 DSM-5-TR/ICD-11 医学诊断，常用于与 Adaptive/Created/Spontaneous/Mixed 等经验对照。
-updated: 2025-10-19
+updated: 2025-10-20
 synonyms:
 
 - Emmengard 分类

@@ -9,7 +9,7 @@ tags:
 topic: 诊断与临床
 description: 概述抑郁障碍的诊断标准、临床表现、共病风险与创伤相关机制，辅助多意识体系统制定支持策略。
 title: 抑郁障碍（Depressive Disorders）
-updated: 2025-10-17
+updated: 2025-10-20
 search:
   boost: 1.8
 comments: true

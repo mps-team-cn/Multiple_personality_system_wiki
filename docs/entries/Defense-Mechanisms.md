@@ -8,7 +8,7 @@ tags:
 
 topic: 理论与分类
 title: 心理防御机制（Defense Mechanisms）
-updated: 2025-10-13
+updated: 2025-10-20
 synonyms:
 
 - 防御机制

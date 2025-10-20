@@ -8,7 +8,7 @@ tags:
 
 topic: 理论与分类
 title: 高敏感人群（Highly Sensitive Person, HSP）
-updated: 2025-10-13
+updated: 2025-10-20
 synonyms:
 
 - 高敏感个体

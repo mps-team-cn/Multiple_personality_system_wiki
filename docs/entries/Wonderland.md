@@ -19,7 +19,7 @@ synonyms:
     - 想象空间
 
 description: Wonderland 是 Tulpa 社群对内部想象空间的特定称呼，指宿主与 Tulpa 共同构建和互动的心象场景
-updated: 2025-10-16
+updated: 2025-10-20
 comments: true
 ---
 

@@ -21,7 +21,7 @@ synonyms:
     - 自我怀疑
 
 description: Parroting/Puppeting 指 Tulpa 创造过程中宿主担心自己在"假装" Tulpa 回应的常见心理现象，是区分自我想法与 Tulpa 意识的认知挑战
-updated: 2025-10-16
+updated: 2025-10-20
 comments: true
 ---
 

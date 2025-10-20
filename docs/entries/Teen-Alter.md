@@ -18,7 +18,7 @@ synonyms:
     - 青少年意识体
 
 description: 年龄感处于青春期的系统成员，可能表现出探索、反叛或身份寻求特征
-updated: 2025-10-17
+updated: 2025-10-20
 comments: true
 ---
 

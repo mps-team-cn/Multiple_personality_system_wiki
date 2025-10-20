@@ -8,7 +8,7 @@ tags:
 
 topic: 理论与分类
 title: 心理弹性（Psychological Resilience）
-updated: 2025-10-13
+updated: 2025-10-20
 synonyms:
 
 - 心理韧性

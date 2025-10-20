@@ -18,7 +18,7 @@ synonyms:
 - Inner Visualization
 
 description: 在内心空间中感知和互动系统成员的练习与体验，是多意识体系统内部沟通和自我理解的基础方式
-updated: 2025-10-18
+updated: 2025-10-20
 search:
   boost: 1.5
 comments: true

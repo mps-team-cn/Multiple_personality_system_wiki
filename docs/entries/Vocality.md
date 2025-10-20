@@ -19,7 +19,7 @@ synonyms:
     - 语言能力
 
 description: Vocality 指 Tulpa 在发展过程中获得可被感知的独特"声音"或语言表达能力的里程碑阶段，是自主性的重要标志
-updated: 2025-10-16
+updated: 2025-10-20
 comments: true
 ---
 

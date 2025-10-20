@@ -8,7 +8,7 @@ tags:
 
 topic: 理论与分类
 title: 依恋理论（Attachment Theory）
-updated: 2025-10-13
+updated: 2025-10-20
 synonyms:
 
 - 依附理论

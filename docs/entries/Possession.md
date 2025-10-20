@@ -16,7 +16,7 @@ synonyms:
     - 身体控制转移
 
 description: Tulpa 暂时接管身体部分或全部控制权的委托性体验,是基于信任和明确同意的自愿协作过程,与病理性附体障碍有本质区别
-updated: 2025-10-18
+updated: 2025-10-20
 search:
   boost: 1.5
 comments: true

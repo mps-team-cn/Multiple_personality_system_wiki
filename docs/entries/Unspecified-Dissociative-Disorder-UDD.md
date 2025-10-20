@@ -9,7 +9,7 @@ tags:
 
 topic: 诊断与临床
 title: 未特定的解离障碍（Unspecified Dissociative Disorder，UDD）
-updated: 2025-10-17
+updated: 2025-10-20
 comments: true
 ---
 

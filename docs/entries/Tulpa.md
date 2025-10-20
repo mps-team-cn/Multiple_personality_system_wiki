@@ -23,7 +23,7 @@ synonyms:
 
 description: 深入解析 Tulpa（图帕）：从意象形成到独立意识的培育机制、心理学机制、与 DID/想象同伴的区别、社群文化与临床风险界定
 title: 图帕（Tulpa）
-updated: 2025-10-19
+updated: 2025-10-20
 search:
   boost: 1.8
 comments: true

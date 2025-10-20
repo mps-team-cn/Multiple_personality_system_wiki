@@ -9,7 +9,7 @@ tags:
 topic: 诊断与临床
 description: 深入解析精神分裂症的诊断标准、临床表现与治疗方法。了解阳性症状、阴性症状、认知障碍的特征，以及药物治疗与心理社会干预的综合康复路径，包含 ICD-11 与 DSM-5-TR 权威诊断标准
 title: 精神分裂症（Schizophrenia，SZ/SCZ）
-updated: 2025-10-17
+updated: 2025-10-20
 search:
   boost: 1.8
 comments: true
