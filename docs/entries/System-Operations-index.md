@@ -2,14 +2,14 @@
 title: 系统运作
 topic: 系统运作
 tags:
-  - 索引
-  - 主题导览
+  - meta:索引
+  - meta:导览
 comments: true
 hide:
   - toc
 ---
 
-# 系统运作
+# 系统运作索引
 
 > 本页汇总所有主题为「系统运作」的词条，原文档仍在 `entries/` 目录中。
 

@@ -2,14 +2,14 @@
 title: 创伤与疗愈
 topic: 创伤与疗愈
 tags:
-  - 索引
-  - 主题导览
+  - meta:索引
+  - meta:导览
 comments: true
 hide:
   - toc
 ---
 
-# 创伤与疗愈
+# 创伤与疗愈索引
 
 > 本页汇总所有主题为「创伤与疗愈」的词条，原文档仍在 `entries/` 目录中。
 

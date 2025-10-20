@@ -2,14 +2,14 @@
 title: 诊断与临床
 topic: 诊断与临床
 tags:
-  - 索引
-  - 主题导览
+  - meta:索引
+  - meta:导览
 comments: true
 hide:
   - toc
 ---
 
-# 诊断与临床
+# 诊断与临床索引
 
 > 本页汇总所有主题为「诊断与临床」的词条，原文档仍在 `entries/` 目录中。
 

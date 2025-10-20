@@ -2,14 +2,14 @@
 title: 文化与表现
 topic: 文化与表现
 tags:
-  - 索引
-  - 主题导览
+  - meta:索引
+  - meta:导览
 comments: true
 hide:
   - toc
 ---
 
-# 文化与表现
+# 文化与表现索引
 
 > 本页汇总所有主题为「文化与表现」的词条，原文档仍在 `entries/` 目录中。
 
