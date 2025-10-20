@@ -242,7 +242,7 @@ Tulpa 的创造通常分为以下阶段（顺序可灵活调整）：
 ## 章节导航
 
 - [← 基础篇](Tulpa-Guide-1.md)
-- [返回目录](Tulpa-Guide.md)
+- [返回目录](Tulpa-Guide-0.md)
 - [提高篇 →](Tulpa-Guide-3.md)
 
 ## 相关词条
