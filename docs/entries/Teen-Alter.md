@@ -3,7 +3,7 @@ title: 青少年成员（Teen Alter）
 tags:
 
     - 角色与身份
-    - 多重意识体
+    - 多意识体
     - 发展阶段
 
 topic: 角色与身份

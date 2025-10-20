@@ -3,7 +3,7 @@ title: 冥想(Meditation)
 tags:
 
     - 创伤与疗愈
-    - 多重意识体
+    - 多意识体
     - 解离
     - 创伤
 

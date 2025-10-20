@@ -3,7 +3,7 @@ title: 引入者（Introject）
 tags:
 
     - 角色与身份
-    - 多重意识体
+    - 多意识体
     - 解离
 
 topic: 角色与身份

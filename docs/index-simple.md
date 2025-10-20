@@ -20,7 +20,7 @@
 
 ## 核心概念
 
-- [**多意识体系统（MPS）**](entries/Multiple_Personality_System.md) - 多重意识体存在的总称，包含多种形式和成因
+- [**多意识体系统（MPS）**](entries/Multiple_Personality_System.md) - 多意识体存在的总称，包含多种形式和成因
 - [**系统（System）**](entries/System.md) - 共享一个身体的多个意识体的集合
 - [**成员（Alter）**](entries/Alter.md) - 系统中的单个意识体或人格
 - [**分离性身份障碍（DID）**](entries/DID.md) - 一种以身份分裂为特征的心理疾病

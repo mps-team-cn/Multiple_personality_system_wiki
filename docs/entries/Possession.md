@@ -3,7 +3,7 @@ title: 附体（Possession）
 tags:
 
     - Tulpa
-    - 多重意识体
+    - 多意识体
     - 系统运作
     - 实践指南
 

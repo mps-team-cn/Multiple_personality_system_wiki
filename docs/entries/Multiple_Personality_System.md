@@ -3,11 +3,13 @@ tags:
 
 - 系统运作
 - DID
-- 多重意识体
+- 多意识体
+- 多重人格
+- 系统
 - 解离
 
 topic: 系统运作
-description: 多意识体（Multiple Personality/MP）社群自我认同框架详解：定义、边界、运作机制与协作实践。区分社群身份认同与临床诊断，理解多重意识单元的共存与内部协作
+description: 多意识体系统（Multiple Personality System）是多意识体社群核心概念，详解多意识体框架的定义、边界、运作机制与协作实践。区分社群身份认同与临床诊断，理解多意识体单元的共存与内部协作
 title: 多意识体系统（Multiple Personality System）
 updated: 2025-10-20
 synonyms:
@@ -20,7 +22,7 @@ synonyms:
 - mps
 
 search:
-  boost: 1.5
+  boost: 2.0
 comments: true
 ---
 
@@ -151,7 +153,7 @@ comments: true
 ## 临床与研究视角
 
 - **解离谱系观点**：临床研究多将多意识体验置于[解离（Dissociation）](Dissociation.md)谱系，与[创伤（Trauma）](Trauma.md)相关障碍、依恋困难或神经发展因素有关[^brand2016][^reinders2018]。
-- **功能性评估**：治疗目标通常聚焦于提升功能、降低危机与改善成员间合作，而非单一地追求"消除"多重意识。
+- **功能性评估**：治疗目标通常聚焦于提升功能、降低危机与改善成员间合作，而非单一地追求"消除"多意识体。
 - **安全框架**：专业介入鼓励建立安全的内部与外部环境，避免因为误解或污名化导致的二次伤害。
 
 !!! warning "神经影像学证据的限制"

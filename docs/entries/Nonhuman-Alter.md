@@ -3,7 +3,7 @@ title: 非人类成员（Nonhuman Alter）
 tags:
 
     - 角色与身份
-    - 多重意识体
+    - 多意识体
     - 身份多样性
 
 topic: 角色与身份

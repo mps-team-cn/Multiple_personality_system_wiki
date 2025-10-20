@@ -3,7 +3,7 @@ title: 成年成员（Adult Alter）
 tags:
 
     - 角色与身份
-    - 多重意识体
+    - 多意识体
     - 发展阶段
 
 topic: 角色与身份

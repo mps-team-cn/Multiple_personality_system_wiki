@@ -3,7 +3,7 @@ title: 系魂型系统（Soul-Linked Systems, Xianyu Theory）
 tags:
 
     - 系统运作
-    - 多重意识
+    - 多意识体
     - 解离
     - 创伤
 
