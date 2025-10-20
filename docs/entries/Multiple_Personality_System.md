@@ -14,7 +14,7 @@ synonyms:
 
 tags:
 
-- dx:解离性身份障碍(DID)
+- dx:解离性身份障碍（DID）
 - ops:系统运作
 - community:多意识体
 - dx:解离障碍

@@ -3,7 +3,7 @@ comments: true
 tags:
 
 - community:Tulpa
-- dx:解离性身份障碍(DID)
+- dx:解离性身份障碍（DID）
 - dx:OSDD
 - dx:解离障碍
 

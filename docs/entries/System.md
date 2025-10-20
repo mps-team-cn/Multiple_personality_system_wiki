@@ -5,7 +5,7 @@ search:
   boost: 1.8
 tags:
 
-- dx:解离性身份障碍(DID)
+- dx:解离性身份障碍（DID）
 - ops:系统运作
 - dx:解离障碍
 
