@@ -2,14 +2,18 @@
 comments: true
 description: 选择性缄默症是一种焦虑障碍，以在特定社交情境中无法说话为特征，语言能力正常但受焦虑驱动。常与社交焦虑障碍共病，儿童期起病，治疗以行为疗法与逐步暴露为首选。
 synonyms:
+
 - 选择性缄默症
 - Selective Mutism
 - SM
 - xuanzexin jianmo zheng
+
 tags:
+
 - dx:焦虑障碍
 - sx:社交困难
 - tx:治疗
+
 title: 选择性缄默症（Selective Mutism，SM）
 topic: 诊断与临床
 updated: 2025-10-20
