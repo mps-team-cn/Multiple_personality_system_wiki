@@ -70,7 +70,7 @@ comments: true
 | [**部分解离性身份障碍（PDID）**](Partial-Dissociative-Identity-Disorder-PDID.md) | 6B65 | — | — | 非主导身份侵入但少有完全切换（仅 ICD-11） |
 | [**其他特定解离性障碍（OSDD）**](OSDD.md) | 6B6Y | 300.15 | F44.89 | 接近 DID 但不符合完整标准（二级结构性解离常见） |
 | [**创伤后应激障碍（PTSD）**](PTSD.md) | 6B40 | 309.81 | F43.10 | 一级结构性解离（1 ANP + 1 EP）常见 |
-| [**复杂性创伤后应激障碍（CPTSD）**](CPTSD.md) | 6B41 | — | F43.10（美国常用） | 二级结构性解离（1 ANP + 多 EP）常见 |
+| [**复杂性创伤后应激障碍（CPTSD）**](CPTSD.md) | 6B41 | — | — | 二级结构性解离（1 ANP + 多 EP）常见；ICD-10-CM 暂无官方编码 |
 
 **来源**：
 - World Health Organization. (2019). *ICD-11 for Mortality and Morbidity Statistics* (Version: 01/2023). <https://icd.who.int/browse11>
