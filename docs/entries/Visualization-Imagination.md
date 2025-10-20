@@ -213,7 +213,6 @@ comments: true
 ### 相关技术
 
 - [外投射（External Projection）](External-Projection.md) - 将成员感知延伸到外部对象
-- [投影（Projection）](Projection.md) - 投射的广义概念
 - [接地技术（Grounding）](Grounding.md) - 内视的辅助技术
 - [权限（Permissions）](Permissions.md) - 管理内视互动的边界
 

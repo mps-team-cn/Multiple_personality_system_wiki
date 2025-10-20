@@ -12,6 +12,7 @@ synonyms:
 
 - 外部投射
 - 外部投影
+- 投影
 - External Projection
 - Projection to External Objects
 

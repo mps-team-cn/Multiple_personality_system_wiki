@@ -96,4 +96,4 @@ search:
 - [系统（System）](System.md)
 - [解离（Dissociation）](Dissociation.md)
 - [宿主（Host）](Host.md)
-- [投影（Projection）](Projection.md)
+- [外投射（External Projection）](External-Projection.md)

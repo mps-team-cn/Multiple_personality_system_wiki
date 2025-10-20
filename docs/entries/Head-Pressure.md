@@ -73,8 +73,8 @@ comments: true
 
 ## 相关条目
 
-- [投影（Projection）](Projection.md)
-- [洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）](Lovecraft-Tulpa-Motifs.md)
+- [外投射（External Projection）](External-Projection.md)
+- [洛夫克拉夫特作品中的"心灵造物"与 Tulpa 影射（Lovecraft Tulpa Motifs）](Lovecraft-Tulpa-Motifs.md)
 - [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](Madoka-Magica-Kyubey-Otherness.md)
 - [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](Nonexistent-You-And-Me-Tulpa-Lilith.md)
 - [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
