@@ -40,7 +40,7 @@ search:
 
 | 词条 | 练习重点 | 适合阶段 |
 |------|-----------|-----------|
-| [Tulpa 完全创造指南](Tulpa-Guide.md) | 总览 Tulpa 创造的理念、流程与安全要点 | 全程参考 |
+| [Tulpa 完全创造指南](Tulpa-Guide-0.md) | 总览 Tulpa 创造的理念、流程与安全要点 | 全程参考 |
 | [基础篇](Tulpa-Guide-1.md) | 目标设定、心像培养、初步连结 | 起步阶段 |
 | [实践篇](Tulpa-Guide-2.md) | 深化互动、人格细化、稳定共处 | 稳定练习期 |
 | [提高篇](Tulpa-Guide-3.md) | 投影、附体、交换等进阶协作技巧 | 进阶巩固期 |
@@ -94,7 +94,7 @@ search:
 
 !!! tip "Tulpa 创造进程参考"
 
-    1. **奠定观念** → 阅读《[Tulpa 完全创造指南](Tulpa-Guide.md)》，了解风险与准备事项。
+    1. **奠定观念** → 阅读《[Tulpa 完全创造指南](Tulpa-Guide-0.md)》，了解风险与准备事项。
     2. **打好基础** → 结合《[基础篇](Tulpa-Guide-1.md)》《[正念](Mindfulness.md)》《[冥想](Meditation.md)》。
     3. **进入塑造** → 实践《[塑造（Forcing）](Forcing.md)》与《[幻境（Wonderland）](Wonderland.md)》，并学习应对早期怀疑。
     4. **深化练习** → 跟进《[实践篇](Tulpa-Guide-2.md)》，开展《[内部沟通](Internal-Communication.md)》与《[成声](Vocality.md)》。

@@ -244,7 +244,7 @@ Forcing 的效果很大程度上取决于宿主的信念：
 ## 相关词条
 
 - [图帕（Tulpa）](Tulpa.md) - 核心概念
-- [Tulpa 完全创造指南](Tulpa-Guide.md) - 系统性指南
+- [Tulpa 完全创造指南](Tulpa-Guide-0.md) - 系统性指南
 - [Tulpa 完全创造指南·实践篇](Tulpa-Guide-2.md) - 详细方法
 - [成声（Vocality）](Vocality.md) - Forcing 的重要里程碑
 - [异化（Deviation）](Deviation.md) - Forcing 过程中的变化

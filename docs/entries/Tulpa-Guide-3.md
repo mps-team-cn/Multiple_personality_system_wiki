@@ -230,7 +230,7 @@ Tulpa 的创造并非逃避现实，而是一种探索意识的方式。
 ## 章节导航
 
 - [← 实践篇](Tulpa-Guide-2.md)
-- [返回目录](Tulpa-Guide.md)
+- [返回目录](Tulpa-Guide-0.md)
 
 ## 相关词条
 
