@@ -641,7 +641,6 @@ updated: 2025-10-20
 
 - [触发（Trigger）](Trigger.md)
 - [情绪调节（Emotion Regulation）](Emotion-Regulation.md)
-- [安全感（Sense of Safety）](Sense-of-Safety.md)
 
 ---
 
