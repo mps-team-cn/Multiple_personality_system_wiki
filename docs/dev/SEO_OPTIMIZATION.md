@@ -65,7 +65,7 @@
 {
   "@type": "WebSite",
   "name": "Multiple Personality System Wiki - 多意识体系统百科",
-  "description": "专业的多重人格系统（MPS）、解离障碍（DID/OSDD）与创伤疗愈中文知识库",
+  "description": "专业的多意识体系统（MPS）、解离障碍（DID/OSDD）与创伤疗愈中文知识库",
   "inLanguage": "zh-CN",
   "potentialAction": {
     "@type": "SearchAction",
@@ -92,7 +92,7 @@
 **优化后** (155 字符):
 
 ```text
-专业的多重人格系统（MPS）、解离障碍（DID/OSDD）与创伤疗愈中文知识库。提供解离性身份障碍、Tulpa 创造、心理健康的全面指南与深入解析
+专业的多意识体系统（MPS）、解离障碍（DID/OSDD）与创伤疗愈中文知识库。提供解离性身份障碍、Tulpa 创造、心理健康的全面指南与深入解析
 ```
 
 **优化要点**:
@@ -109,7 +109,7 @@
 **基础关键词**:
 
 ```text
-多重人格系统,解离障碍,DID,OSDD,创伤疗愈,心理健康,Tulpa,多意识体系统
+多意识体系统,解离障碍,DID,OSDD,创伤疗愈,心理健康,Tulpa,多意识体系统
 ```
 
 **动态关键词策略**:
@@ -160,7 +160,7 @@ tags:
 
 ### 主要关键词
 
-1. 多重人格系统 / Multiple Personality System / MPS
+1. 多意识体系统 / Multiple Personality System / MPS
 2. 解离障碍 / Dissociative Disorders
 3. 解离性身份障碍 / DID
 4. 其他特定解离性障碍 / OSDD
@@ -197,8 +197,10 @@ tags:
 
 ### 建议完成
 
-- [x] 为主要词条添加 description 字段（已完成 32 个核心词条，覆盖率 15.7%）
-- [ ] 为剩余词条添加 description 字段（177 个待完成）
+- [x] 为主要词条添加 description 字段（已完成 140 个词条，覆盖率 50.2%）
+- [x] 为主要导航页面添加独特 description（已完成 12 个关键页面）
+- [x] 创建 Meta Description 检测工具 `tools/check_meta_descriptions.py`
+- [ ] 为剩余词条添加 description 字段（139 个待完成）
 - [ ] 优化图片 alt 标签
 - [ ] 添加内部链接优化
 - [ ] 创建 FAQ 页面（Schema.org FAQPage）
@@ -310,6 +312,20 @@ features:
 
 ## 更新日志
 
+### 2025-10-21
+
+- **Meta Description 重复问题修复**：
+    - 修复 Bing Webmaster Tools 报告的重复 Meta Descriptions 问题
+    - 为主要导航页面添加独特的 description 字段：
+        - 首页 (index.md)
+        - 快速开始 (QuickStart.md)
+        - 前言 (Preface.md)
+        - 贡献指南及子页面 (contributing/)
+        - 标签索引、更新日志等辅助页面
+    - 创建 `tools/check_meta_descriptions.py` 工具用于检测重复和缺失的 Meta Descriptions
+    - 词条 description 覆盖率从 15.7% 提升至 50.2%（140/279 个词条）
+    - 所有导航页面现在都有独特的 Meta Description,避免使用默认的 site_description
+
 ### 2025-10-14
 
 - **性能优化**：
@@ -342,4 +358,4 @@ features:
 ---
 
 **维护者**: MPS Team
-**最后更新**: 2025-10-14
+**最后更新**: 2025-10-21

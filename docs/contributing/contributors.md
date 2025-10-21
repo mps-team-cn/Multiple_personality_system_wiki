@@ -1,3 +1,8 @@
+---
+title: 贡献者墙
+description: 感谢所有为 MPS Wiki 项目做出贡献的核心维护者与贡献者。包括脸脸系统、逝水流年系统、羽喵等核心团队,以及所有参与词条编写、工具开发、内容完善的社区成员
+---
+
 # 贡献者墙
 
 > 感谢所有为 Multiple Personality System Wiki 项目做出贡献的朋友们!
@@ -104,20 +109,20 @@
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 
-| 头像 | 贡献者 | 主要贡献领域 |
-|------|--------|-------------|
-| ![](https://github.com/kuliantnt.png){ width="40" style="border-radius: 50%;" } | [@kuliantnt](https://github.com/kuliantnt) | 项目架构、词条编写、工具开发、文档维护 |
-| ![](https://github.com/shishuiliunian5.png){ width="40" style="border-radius: 50%;" } | [@shishuiliunian5](https://github.com/shishuiliunian5) | 词条编写、内容完善 |
-| ![](https://github.com/fengqingyu430-collab.png){ width="40" style="border-radius: 50%;" } | [@fengqingyu430-collab](https://github.com/fengqingyu430-collab) | 词条编写、翻译优化 |
-| ![](https://github.com/GrainRR.png){ width="40" style="border-radius: 50%;" } | [@GrainRR](https://github.com/GrainRR) | Tulpa相关信息提供、专业知识咨询 |
-| ![](https://github.com/mouzhiw.png){ width="40" style="border-radius: 50%;" } | [@mouzhiw](https://github.com/mouzhiw) | 医学相关信息提供、专业知识咨询 |
-| ![](https://github.com/origin652.png){ width="40" style="border-radius: 50%;" } | [@origin652](https://github.com/origin652) | Tulpa相关信息提供、专业知识咨询 |
-| ![](https://github.com/UnwhiteCat.png){ width="40" style="border-radius: 50%;" } | [@UnwhiteCat](https://github.com/UnwhiteCat) | 程序开发、技术架构、工具优化 |
-| ![](https://github.com/yao-jiuqing.png){ width="40" style="border-radius: 50%;" } | [@yao-jiuqing](https://github.com/yao-jiuqing) | 词条编写、内容贡献 |
-| ![](https://github.com/raven027192.png){ width="40" style="border-radius: 50%;" } | [@raven027192](https://github.com/raven027192) | 词条编写、内容贡献 |
-| ![](https://github.com/XingY-YuXi.png){ width="40" style="border-radius: 50%;" } | [@XingY-YuXi](https://github.com/XingY-YuXi) | Bug 报告、问题反馈 |
-| ![](https://github.com/Jellyfish-eng.png){ width="40" style="border-radius: 50%;" } | [@Jellyfish-eng](https://github.com/Jellyfish-eng) | 词条线索提供 |
-| ![](https://github.com/dugucanfeng.png){ width="40" style="border-radius: 50%;" } | [@dugucanfeng](https://github.com/dugucanfeng) | 词条线索提供 |
+| 头像                                                                                       | 贡献者                                                           | 主要贡献领域                           |
+| ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------- | -------------------------------------- |
+| ![](https://github.com/kuliantnt.png){ width="40" style="border-radius: 50%;" }            | [@kuliantnt](https://github.com/kuliantnt)                       | 项目架构、词条编写、工具开发、文档维护 |
+| ![](https://github.com/shishuiliunian5.png){ width="40" style="border-radius: 50%;" }      | [@shishuiliunian5](https://github.com/shishuiliunian5)           | 词条编写、内容完善                     |
+| ![](https://github.com/fengqingyu430-collab.png){ width="40" style="border-radius: 50%;" } | [@fengqingyu430-collab](https://github.com/fengqingyu430-collab) | 词条编写、翻译优化                     |
+| ![](https://github.com/GrainRR.png){ width="40" style="border-radius: 50%;" }              | [@GrainRR](https://github.com/GrainRR)                           | Tulpa相关信息提供、专业知识咨询        |
+| ![](https://github.com/mouzhiw.png){ width="40" style="border-radius: 50%;" }              | [@mouzhiw](https://github.com/mouzhiw)                           | 医学相关信息提供、专业知识咨询         |
+| ![](https://github.com/origin652.png){ width="40" style="border-radius: 50%;" }            | [@origin652](https://github.com/origin652)                       | Tulpa相关信息提供、专业知识咨询        |
+| ![](https://github.com/UnwhiteCat.png){ width="40" style="border-radius: 50%;" }           | [@UnwhiteCat](https://github.com/UnwhiteCat)                     | 程序开发、技术架构、工具优化           |
+| ![](https://github.com/yao-jiuqing.png){ width="40" style="border-radius: 50%;" }          | [@yao-jiuqing](https://github.com/yao-jiuqing)                   | 词条编写、内容贡献                     |
+| ![](https://github.com/raven027192.png){ width="40" style="border-radius: 50%;" }          | [@raven027192](https://github.com/raven027192)                   | 词条编写、内容贡献                     |
+| ![](https://github.com/XingY-YuXi.png){ width="40" style="border-radius: 50%;" }           | [@XingY-YuXi](https://github.com/XingY-YuXi)                     | Bug 报告、问题反馈                     |
+| ![](https://github.com/Jellyfish-eng.png){ width="40" style="border-radius: 50%;" }        | [@Jellyfish-eng](https://github.com/Jellyfish-eng)               | 词条线索提供                           |
+| ![](https://github.com/dugucanfeng.png){ width="40" style="border-radius: 50%;" }          | [@dugucanfeng](https://github.com/dugucanfeng)                   | 词条线索提供                           |
 
 ### 查看完整贡献者列表
 

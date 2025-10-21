@@ -1,3 +1,8 @@
+---
+title: 编写规范
+description: MPS Wiki 词条编写规范与格式要求,包含语言风格、Frontmatter 规范、标题层级、段落格式、列表引用等。确保内容质量与一致性的完整指南
+---
+
 # 编写规范
 
 本文档定义 Multiple Personality System Wiki 的通用编写约定与格式要求。

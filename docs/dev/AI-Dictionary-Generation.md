@@ -215,7 +215,7 @@ python tools/split_candidates.py \
 
 ```markdown
 
-# 任务：优化多重人格系统 Wiki 的搜索词典
+# 任务：优化多意识体系统 Wiki 的搜索词典
 
 ## 输入数据
 

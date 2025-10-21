@@ -1,3 +1,8 @@
+---
+title: 贡献指南
+description: 参与 MPS Wiki 共建指南,包含编写规范、学术引用、诊断临床规范、技术约定与 PR 流程。了解如何贡献词条、报告问题、翻译校对,共同完善多意识体系统知识库
+---
+
 # 贡献指南
 
 欢迎参与 Multiple Personality System Wiki 的建设！本页提供一站式的贡献导航、快速开始与检查清单，全面使用 MkDocs Material 语法与组件，避免额外 CSS。
