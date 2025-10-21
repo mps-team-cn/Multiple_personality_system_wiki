@@ -1,0 +1,72 @@
+name: IndexNow 推送
+
+on:
+  # 在主分支部署后触发
+  workflow_run:
+    workflows: ["pages-build-deployment"]
+    types:
+      - completed
+  # 允许手动触发
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: '推送模式'
+        required: true
+        default: 'recent'
+        type: choice
+        options:
+          - recent  # 仅推送最近修改的词条
+          - all     # 推送所有 URL
+
+permissions:
+  contents: read
+
+jobs:
+  indexnow:
+    name: 提交 URL 到 IndexNow
+    runs-on: ubuntu-latest
+    # 仅在部署成功后执行
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 需要完整历史以便检测最近修改
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装依赖
+        run: |
+          pip install requests
+
+      - name: 构建站点
+        run: |
+          echo "📦 安装 MkDocs..."
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+          echo "🏗️ 构建站点以生成 sitemap.xml..."
+          mkdocs build
+
+      - name: 推送到 IndexNow (最近修改)
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.mode == 'recent' }}
+        run: |
+          echo "📤 提交最近修改的 50 个词条到 IndexNow..."
+          python3 tools/submit_to_indexnow.py --recent 50
+
+      - name: 推送到 IndexNow (全部)
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.mode == 'all' }}
+        run: |
+          echo "📤 提交所有 URL 到 IndexNow..."
+          python3 tools/submit_to_indexnow.py --all
+
+      - name: 推送结果
+        if: always()
+        run: |
+          echo "✓ IndexNow 推送完成"
+          echo "📊 支持的搜索引擎: Bing, Yandex, Naver, Seznam"
+          echo "⏱️ 通常在数小时内完成索引更新"

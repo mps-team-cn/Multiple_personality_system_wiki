@@ -40,6 +40,7 @@ bash tools/run_local_updates.sh --help
 | 生成分区索引 | `python3 tools/build_partitions_cn.py` |
 | 生成 SEO URL 列表 | `python3 tools/generate_seo_urls.py` |
 | 提交到 Google Indexing API | `python3 tools/submit_to_google_indexing.py` |
+| 提交到 IndexNow | `python3 tools/submit_to_indexnow.py --recent 50` |
 | 本地预览 | `mkdocs serve` |
 | 构建静态站点 | `mkdocs build` |
 
@@ -69,6 +70,7 @@ bash tools/run_local_updates.sh --help
 | **add_descriptions.py** | 批量为核心词条添加 SEO 描述 | 📝 内容优化时 |
 | **generate_seo_urls.py** | 生成高权重 URL 列表用于搜索引擎提交 | 📊 SEO 策略规划时 |
 | **submit_to_google_indexing.py** | 使用 Google Indexing API 批量提交 URL | 🚀 新内容发布时 |
+| **submit_to_indexnow.py** | 使用 IndexNow 协议推送 URL 到 Bing/Yandex 等 | 🚀 内容更新时(已集成 CI) |
 
 ### 搜索优化(jieba 词典管理)
 
