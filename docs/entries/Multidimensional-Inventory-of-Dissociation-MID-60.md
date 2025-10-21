@@ -19,6 +19,7 @@ tags:
 - guide:诊断与临床
 
 title: 多维解离量表（MID‑60）
+description: 自评筛查工具,用于评估解离体验的频率与严重程度,涵盖 DID、OSDD、DP/DR、解离性失忆、PTSD 及功能性神经症状等,提供总分及 12 个诊断相关子量表,临界值 >21% 表示临床显著症状
 topic: 诊断与临床
 updated: 2025-10-20
 ---
@@ -685,3 +686,11 @@ updated: 2025-10-20
     Dell, P. F. (2006). The Multidimensional Inventory of Dissociation (MID): A Comprehensive measure of pathological dissociation. *Journal of Trauma & Dissociation, 7*(2), 77-106.
 
     Dell, P. F., & Lawson, D. (2009). Empirically guided revision of experiences of possession and related phenomena: A cross-cultural examination. *Journal of Trauma & Dissociation, 10*(4), 436-456.
+
+
+## 相关词条
+
+- [解离经验量表（Dissociative Experiences Scale, DES‑II）](Dissociative-Experiences-Scale-DES-II.md)
+- [躯体形式解离问卷（Somatoform Dissociation Questionnaire, SDQ‑20）](Somatoform-Dissociation-Questionnaire-SDQ-20.md)
+- [解离性身份障碍（DID）](DID.md)
+- [解离（Dissociation）](Dissociation.md)
