@@ -199,6 +199,7 @@ pip install -r requirements.txt
 - [技术约定](../contributing/technical-conventions.md)
 - [MkDocs 配置说明](../dev/MkDocs-Configuration.md)
 - [Cloudflare Pages 部署](../dev/CLOUDFLARE_PAGES.md)
-- [性能优化指南](../dev/Performance-Optimization.md) ⭐ **新增**
-- [性能测试指南](../dev/Performance-Testing.md) ⭐ **新增**
-- [进一步优化建议](../dev/Further-Optimizations.md) ⭐ **新增**
+- [SEO 自动化指南](../dev/SEO-Automation.md) ⭐ **新增**
+- [性能优化指南](../dev/Performance-Optimization.md)
+- [性能测试指南](../dev/Performance-Testing.md)
+- [进一步优化建议](../dev/Further-Optimizations.md)
