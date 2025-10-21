@@ -104,7 +104,6 @@
         * [解离性身份障碍（Dissociative Identity Disorder，DID）](entries/DID.md)
         * [解离经验量表（Dissociative Experiences Scale‑II, DES‑II）](entries/Dissociative-Experiences-Scale-DES-II.md)
         * [解离障碍（Dissociative Disorders）](entries/Dissociative-Disorders.md)
-        * [谵妄(Delirium)](entries/Delirium.md)
         * [躁狂（Mania）](entries/Mania.md)
         * [躯体化障碍（Somatic Symptom Disorder，SSD）](entries/Somatic-Symptom-Disorder-SSD.md)
         * [躯体变形障碍（Body Dysmorphic Disorder，BDD）](entries/Body-Dysmorphic-Disorder.md)
