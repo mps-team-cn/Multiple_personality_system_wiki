@@ -73,7 +73,7 @@ def get_changed_entries(max_count: Optional[int] = None) -> List[str]:
     获取最近修改的词条 URL (基于 Git 历史)
 
     Args:
-        max_count: 最多返回多少个 URL
+        max_count: 最多返回多少个文件（注意：不是提交数）
 
     Returns:
         URL 列表
@@ -82,12 +82,13 @@ def get_changed_entries(max_count: Optional[int] = None) -> List[str]:
 
     try:
         # 获取最近修改的 docs/entries/ 下的文件
+        # 使用足够大的提交数来确保能找到足够的文件
         cmd = [
             'git', 'log',
             '--pretty=format:',
             '--name-only',
             '--diff-filter=AM',  # 只关注新增和修改
-            '-n', str(max_count or 100),
+            '-n', '1000',  # 查看最近 1000 次提交
             '--', 'docs/entries/'
         ]
 
@@ -99,8 +100,18 @@ def get_changed_entries(max_count: Optional[int] = None) -> List[str]:
             check=True
         )
 
-        # 提取唯一的文件路径
-        files = set(line.strip() for line in result.stdout.split('\n') if line.strip())
+        # 提取唯一的文件路径（保持顺序）
+        seen = set()
+        files = []
+        for line in result.stdout.split('\n'):
+            line = line.strip()
+            if line and line not in seen:
+                seen.add(line)
+                files.append(line)
+
+        # 如果指定了 max_count，限制文件数量
+        if max_count is not None:
+            files = files[:max_count]
 
         # 转换为 URL
         urls = []
