@@ -20,6 +20,7 @@ hide:
 
 - [紧张症（Catatonia）](Catatonia.md) — *2025-10-21*
 - [谵妄（Delirium）](Delirium.md) — *2025-10-21*
+- [闪回（Flashback）](Flashback.md) — *2025-10-21*
 - [其他特定的或未特定的精神病性障碍（Other Specified/Unspecified Psychotic Disorder）](Other-Specified-or-Unspecified-Psychotic-Disorder.md) — *2025-10-21*
 - [躯体疾病所致精神病性障碍（Psychotic Disorder Due to Another Medical Condition）](Psychotic-Disorder-Due-to-Another-Medical-Condition.md) — *2025-10-21*
 - [物质/药物所致精神病性障碍（Substance/Medication-Induced Psychotic Disorder）](Substance-Medication-Induced-Psychotic-Disorder.md) — *2025-10-21*
@@ -68,7 +69,6 @@ hide:
 - [进食障碍（Eating Disorders，ED）](Eating-Disorders-ED.md) — *2025-10-20*
 - [癫痫（Epilepsy）](Epilepsy.md) — *2025-10-20*
 - [抓痕障碍（Excoriation，Skin-Picking Disorder）](Excoriation-Skin-Picking-Disorder.md) — *2025-10-20*
-- [闪回（Flashback）](Flashback.md) — *2025-10-20*
 - [性别不安（Gender Dysphoria，GD）](Gender-Dysphoria-GD.md) — *2025-10-20*
 - [广泛性焦虑障碍（Generalized Anxiety Disorder，GAD）](Generalized-Anxiety-Disorder-GAD.md) — *2025-10-20*
 - [表演型人格障碍（Histrionic Personality Disorder，HPD）](Histrionic-Personality-Disorder-HPD.md) — *2025-10-20*
