@@ -1,20 +1,18 @@
 ---
-title: 人格分裂（Split Personality，非正式术语）
-tags:
-
-    - 诊断与临床
-    - 非正式术语
-    - 误用辨析
-
-topic: 诊断与临床
+comments: true
 synonyms:
 
-    - 人格分裂
-    - Split personality
-    - 多重人格（俗称）
+- 人格分裂
+- Split personality
+- 多重人格（俗称）
 
-updated: 2025-10-14
-comments: true
+tags:
+
+- guide:诊断与临床
+
+title: 人格分裂（Split Personality，非正式术语）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 人格分裂（Split Personality，非正式术语）

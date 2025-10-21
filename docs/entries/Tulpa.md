@@ -1,14 +1,8 @@
 ---
-tags:
-
-- 角色与身份
-- DID
-- 多重意识体
-- 解离
-- Tulpa
-- 创造型系统
-
-topic: 角色与身份
+comments: true
+description: 深入解析 Tulpa（图帕）：从意象形成到独立意识的培育机制、心理学机制、与 DID/想象同伴的区别、社群文化与临床风险界定
+search:
+  boost: 1.8
 synonyms:
 
 - 托帕
@@ -21,12 +15,16 @@ synonyms:
 - 意识同伴
 - 自创人格
 
-description: 深入解析 Tulpa（图帕）：从意象形成到独立意识的培育机制、心理学机制、与 DID/想象同伴的区别、社群文化与临床风险界定
+tags:
+
+- community:Tulpa
+- guide:创造型系统
+- role:系统角色
+- dx:解离障碍
+
 title: 图帕（Tulpa）
-updated: 2025-10-19
-search:
-  boost: 1.8
-comments: true
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 图帕（Tulpa）
@@ -92,7 +90,7 @@ Tulpa 的创造通常遵循以下系统化路径：
 5. **稳定化与成熟（Stabilization）**：经过数周到数月练习，图帕逐渐被描述为能主动发起对话、表达不同意见、协助决策或情绪调节。[^veissiere2016][^kondrla2020]
 
 !!! tip "进阶技巧参见"
-    详细的培育方法、进度评估与常见问题解答，请参阅 [Tulpa 完全创造指南](Tulpa-Guide.md)。
+    详细的培育方法、进度评估与常见问题解答，请参阅 [Tulpa 完全创造指南](Tulpa-Guide-0.md)。
 
 ### 主要特征
 
@@ -371,11 +369,11 @@ Tulpa 实践在学术界引发以下争议：
 !!! tip "深度学习资源"
     如需详细的 Tulpa 创造方法、进度评估与常见问题解答，请参阅：
 
-    - [**Tulpa 完全创造指南（Tulpa Creation Guide）**](Tulpa-Guide.md)：整合自百度贴吧 tulpa 吧的社群经验，包含基础篇、实践篇与提高篇
+    - [**Tulpa 完全创造指南（Tulpa Creation Guide）**](Tulpa-Guide-0.md)：整合自百度贴吧 tulpa 吧的社群经验，包含基础篇、实践篇与提高篇
         - [基础篇](Tulpa-Guide-1.md)：了解 Tulpa 的基本概念、原理与创造前的准备工作
         - [实践篇](Tulpa-Guide-2.md)：学习人格设定、沟通训练、形象构建等核心方法
         - [提高篇](Tulpa-Guide-3.md)：掌握投影、附体、交换等进阶技巧
-        - [平衡现实生活](Tulpa-Guide.md#平衡现实生活)：专注 HT 系统与宿主日常需求的协调策略
+        - [平衡现实生活](Tulpa-Guide-0.md#平衡现实生活)：专注 HT 系统与宿主日常需求的协调策略
 
 ### 学术文献
 
@@ -427,12 +425,12 @@ Tulpa 实践在学术界引发以下争议：
 ### 初学者
 
 1. 阅读本词条"核心要点速览"与"定义与文化起源"
-2. 查阅 [Tulpa 完全创造指南](Tulpa-Guide.md) 的基础篇
+2. 查阅 [Tulpa 完全创造指南](Tulpa-Guide-0.md) 的基础篇
 3. 加入 Tulpa 社群（Reddit r/Tulpas、百度贴吧 tulpa 吧）观察交流
 
 ### 实践者
 
-1. 系统学习 [Tulpa 完全创造指南](Tulpa-Guide.md) 全三篇
+1. 系统学习 [Tulpa 完全创造指南](Tulpa-Guide-0.md) 全三篇
 2. 阅读"伦理与关系动态"与"实践与安全建议"
 3. 定期评估功能影响，必要时参考"临床评估与风险界面"
 

@@ -1,21 +1,19 @@
 ---
-tags:
-
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
-
-topic: 理论与分类
-title: 心理防御机制（Defense Mechanisms）
-updated: 2025-10-13
+comments: true
 synonyms:
 
 - 防御机制
 - 自我防御机制
 - psychological defense
 
-comments: true
+tags:
+
+- dx:解离障碍
+- sx:创伤症状
+
+title: 心理防御机制（Defense Mechanisms）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 心理防御机制（Defense Mechanisms）
@@ -42,7 +40,7 @@ comments: true
 
 ## 在多意识体与解离语境中的意义
 
-多重意识体系统常以防御机制来解释成员出现、记忆分隔与身份切换。例如，压抑与解离可被视为在极端创伤下的防御策略，用以保护主体免受难以承受的体验。理解防御机制有助于识别成员的功能角色，并与[结构性解离理论](Structural-Dissociation-Theory.md)等模型建立联系。
+多意识体系统常以防御机制来解释成员出现、记忆分隔与身份切换。例如，压抑与解离可被视为在极端创伤下的防御策略，用以保护主体免受难以承受的体验。理解防御机制有助于识别成员的功能角色，并与[结构性解离理论](Structural-Dissociation-Theory.md)等模型建立联系。
 
 ## 实践应用与建议
 

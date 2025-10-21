@@ -1,14 +1,5 @@
 ---
-tags:
-
-- 诊断与临床
-- 共病
-- 成瘾
-- 风险管理
-
-topic: 诊断与临床
-title: 物质使用障碍（Substance Use Disorders，SUD）
-updated: 2025-10-14
+comments: true
 synonyms:
 
 - 物质滥用障碍
@@ -16,7 +7,16 @@ synonyms:
 - SUD
 - substance use disorders
 
-comments: true
+tags:
+
+- guide:诊断与临床
+- dx:共病
+- dx:物质使用障碍
+- guide:风险管理
+
+title: 物质使用障碍（Substance Use Disorders，SUD）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 物质使用障碍（Substance Use Disorders，SUD）

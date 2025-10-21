@@ -1,22 +1,21 @@
 ---
-title: 接受与承诺疗法（Acceptance and Commitment Therapy, ACT）
-tags:
-
-    - 创伤与疗愈
-    - 心理治疗
-    - 正念
-
-topic: 创伤与疗愈
+comments: true
+description: 接受与承诺疗法（ACT）是第三波认知行为疗法，通过心理弹性训练帮助人们接纳困难情绪，澄清价值观，采取承诺行动。
 synonyms:
 
-    - ACT
-    - Acceptance and Commitment Therapy
-    - 接受承诺疗法
-    - 接受与承诺治疗
+- ACT
+- Acceptance and Commitment Therapy
+- 接受承诺疗法
+- 接受与承诺治疗
 
-updated: 2025-10-14
-description: 接受与承诺疗法（ACT）是第三波认知行为疗法，通过心理弹性训练帮助人们接纳困难情绪，澄清价值观，采取承诺行动。
-comments: true
+tags:
+
+- tx:创伤治疗
+- tx:心理治疗
+
+title: 接受与承诺疗法（Acceptance and Commitment Therapy, ACT）
+topic: 创伤与疗愈
+updated: 2025-10-20
 ---
 
 # 接受与承诺疗法（Acceptance and Commitment Therapy, ACT）

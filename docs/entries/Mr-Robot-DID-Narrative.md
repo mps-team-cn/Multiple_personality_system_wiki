@@ -1,14 +1,11 @@
 ---
 tags:
 
-- 文化与表现
-- 多重意识体
-- 解离
-- 创伤
+    - culture:文化表现
 
 topic: 文化与表现
 title: 《隐形人》（Mr. Robot）中的人格分裂叙事
-updated: 2025-10-18
+updated: 2025-10-20
 comments: true
 ---
 

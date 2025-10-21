@@ -1,27 +1,26 @@
 ---
-tags:
-
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
-
-topic: 角色与身份
-title: 执行者（Performer / Executive）
+comments: true
 description: 执行者（Performer / Executive）成员的职能与心理机制，探讨其与宿主（Host）及保护者（Protector）的关系，以及在解离系统中高功能与情绪隔离的平衡策略。
-updated: 2025-10-19
 search:
   boost: 1.4
 synonyms:
 
-    - 执行人格
-    - 前台工作者
-    - Performer
-    - Executive
-    - 行动者
-    - 高功能成员
+- 执行人格
+- 前台工作者
+- Performer
+- Executive
+- 行动者
+- 高功能成员
 
-comments: true
+tags:
+
+- role:系统角色
+- dx:解离障碍
+- sx:创伤症状
+
+title: 执行者（Performer / Executive）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 执行者（Performer / Executive）

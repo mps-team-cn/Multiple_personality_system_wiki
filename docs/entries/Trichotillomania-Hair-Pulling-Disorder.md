@@ -1,12 +1,6 @@
 ---
-tags:
-
-- 诊断与临床
-- 强迫及相关障碍
-- 拔毛障碍
-
-topic: 诊断与临床
-title: 拔毛障碍（Trichotillomania，Hair-Pulling Disorder）
+comments: true
+description: 深入解析拔毛障碍的诊断标准、临床表现与治疗方法。了解反复拔发行为的本质、心理根源及康复路径，包含 ICD-11 与 DSM-5-TR 权威诊断标准
 synonyms:
 
 - 拔毛癖
@@ -15,9 +9,14 @@ synonyms:
 - TTM
 - Hair-Pulling Disorder
 
-description: 深入解析拔毛障碍的诊断标准、临床表现与治疗方法。了解反复拔发行为的本质、心理根源及康复路径，包含 ICD-11 与 DSM-5-TR 权威诊断标准
-updated: 2025-10-15
-comments: true
+tags:
+
+- guide:诊断与临床
+- dx:强迫及相关障碍
+
+title: 拔毛障碍（Trichotillomania，Hair-Pulling Disorder）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 拔毛障碍（Trichotillomania，Hair-Pulling Disorder）

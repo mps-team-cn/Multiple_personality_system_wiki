@@ -1,25 +1,24 @@
 ---
-title: 创伤持有者（Trauma Holder）
-tags:
-
-    - 角色与身份
-    - 多重意识体
-    - 创伤
-    - 解离
-
-topic: 角色与身份
-synonyms:
-
-    - 创伤持有者
-    - Trauma Holder
-    - 创伤承载者
-    - Trauma Bearer
-
+comments: true
 description: 保留特定创伤记忆与情绪的系统成员，可能在触发时被激活，承担保护系统其他成员免受创伤影响的功能
-updated: 2025-10-17
 search:
   boost: 1.5
-comments: true
+synonyms:
+
+- 创伤持有者
+- Trauma Holder
+- 创伤承载者
+- Trauma Bearer
+
+tags:
+
+- role:系统角色
+- sx:创伤症状
+- dx:解离障碍
+
+title: 创伤持有者（Trauma Holder）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 创伤持有者（Trauma Holder）

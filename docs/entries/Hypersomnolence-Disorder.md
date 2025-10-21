@@ -1,14 +1,8 @@
 ---
-tags:
-
-- 诊断与临床
-- 睡眠
-- 共病
-- 风险管理
-
-topic: 诊断与临床
-title: 嗜睡障碍（Hypersomnolence Disorder）
-updated: 2025-10-17
+comments: true
+description: 深入了解嗜睡障碍的诊断标准、临床表现与治疗方法。解析过度嗜睡与 DID、PTSD、抑郁等共病关系,提供创伤知情的评估与管理策略
+search:
+  boost: 1.0
 synonyms:
 
 - 过度嗜睡障碍
@@ -17,10 +11,16 @@ synonyms:
 - Hypersomnia
 - 嗜睡症
 
-description: 深入了解嗜睡障碍的诊断标准、临床表现与治疗方法。解析过度嗜睡与 DID、PTSD、抑郁等共病关系,提供创伤知情的评估与管理策略
-search:
-  boost: 1.0
-comments: true
+tags:
+
+- guide:诊断与临床
+- sleep:睡眠障碍
+- dx:共病
+- guide:风险管理
+
+title: 嗜睡障碍（Hypersomnolence Disorder）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 嗜睡障碍（Hypersomnolence Disorder）

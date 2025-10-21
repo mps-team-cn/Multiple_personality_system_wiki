@@ -1,19 +1,18 @@
 ---
-tags:
-
-    - 诊断与临床
-    - 评估工具
-    - DSM-5-TR
-
-topic: 诊断与临床
-title: DSM-5-TR 评估量表总览
-updated: 2025-10-13
+comments: true
 synonyms:
 
-    - DSM-5-TR Assessment Measures Overview
-    - DSM-5-TR 量表
+- DSM-5-TR Assessment Measures Overview
+- DSM-5-TR 量表
 
-comments: true
+tags:
+
+- scale:评估量表
+- guide:诊断与临床
+
+title: DSM-5-TR 评估量表总览
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # DSM-5-TR 评估量表总览

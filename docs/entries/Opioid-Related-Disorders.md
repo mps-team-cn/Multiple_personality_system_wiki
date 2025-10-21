@@ -1,23 +1,22 @@
 ---
-tags:
-
-    - 诊断与临床
-    - 物质使用
-    - 成瘾
-
-topic: 诊断与临床
-title: 阿片类相关障碍（Opioid-Related Disorders）
+comments: true
+description: 全面了解阿片类相关障碍的诊断标准、临床表现与治疗方法,包括阿片类使用障碍、阿片中毒、阿片戒断及药物辅助治疗
 synonyms:
 
-    - 阿片类使用障碍
-    - 阿片依赖
-    - 海洛因成瘾
-    - Opioid Use Disorder
-    - OUD
+- 阿片类使用障碍
+- 阿片依赖
+- 海洛因成瘾
+- Opioid Use Disorder
+- OUD
 
-description: 全面了解阿片类相关障碍的诊断标准、临床表现与治疗方法,包括阿片类使用障碍、阿片中毒、阿片戒断及药物辅助治疗
-updated: 2025-10-16
-comments: true
+tags:
+
+- guide:诊断与临床
+- dx:物质使用障碍
+
+title: 阿片类相关障碍（Opioid-Related Disorders）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 阿片类相关障碍（Opioid-Related Disorders）

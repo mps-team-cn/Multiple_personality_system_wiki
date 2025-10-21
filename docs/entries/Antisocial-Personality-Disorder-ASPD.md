@@ -1,14 +1,5 @@
 ---
-tags:
-
-- 诊断与临床
-- 人格障碍
-- B组人格障碍
-- 风险管理
-
-topic: 诊断与临床
-title: 反社会人格障碍（Antisocial Personality Disorder，ASPD）
-updated: 2025-10-14
+comments: true
 synonyms:
 
 - 反社会人格障碍
@@ -20,7 +11,15 @@ synonyms:
 - Psychopathic Deviation
 - fanshehui renge zhangai
 
-comments: true
+tags:
+
+- dx:B组人格障碍
+- guide:诊断与临床
+- guide:风险管理
+
+title: 反社会人格障碍（Antisocial Personality Disorder，ASPD）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 反社会人格障碍（Antisocial Personality Disorder，ASPD）

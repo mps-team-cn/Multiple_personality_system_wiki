@@ -1,15 +1,14 @@
 ---
+comments: true
 tags:
 
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
+- role:系统角色
+- dx:解离障碍
+- sx:创伤症状
 
-topic: 角色与身份
 title: 伪主体（Fauxmain）
-updated: 2025-10-13
-comments: true
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 伪主体（Fauxmain）

@@ -1,26 +1,25 @@
 ---
-title: 卡前台(Front Stuck / Frontstuck)
-tags:
-
-    - 系统运作
-    - 多重意识体
-    - 解离
-
-topic: 系统运作
-synonyms:
-
-    - 卡前台
-    - 前台卡住
-    - 切换困难
-    - Front Stuck
-    - Frontstuck
-    - Stuck Fronting
-
+comments: true
 description: 深入解析卡前台现象:切换方法失效、症状多样性、与长时间前台的区别,以及实用应对策略与误区澄清
-updated: 2025-10-17
 search:
   boost: 1.5
-comments: true
+synonyms:
+
+- 卡前台
+- 前台卡住
+- 切换困难
+- Front Stuck
+- Frontstuck
+- Stuck Fronting
+
+tags:
+
+- ops:系统运作
+- dx:解离障碍
+
+title: 卡前台(Front Stuck / Frontstuck)
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 卡前台(Front Stuck / Frontstuck)
@@ -29,7 +28,7 @@ comments: true
 
 ## 定义与同义词
 
-- **定义**:卡前台是多重意识体系统运作中的一种困难状态,表现为前台成员无法按预期退回后台,切换机制受阻或失效。
+- **定义**:卡前台是多意识体系统运作中的一种困难状态,表现为前台成员无法按预期退回后台,切换机制受阻或失效。
 - **同义词/相关表述**:前台卡住、切换困难、Stuck Fronting、Front Lock。
 
 ## 主要特征
@@ -111,7 +110,7 @@ comments: true
 
 ## 社群与临床语境
 
-- **社群经验**:Plural 社群中,卡前台被视为常见但需要关注的现象。许多系统分享了通过内部协商、日志记录和接地技巧成功解除卡前台的经验。[^pluralpedia-frontstuck]
+- **社群经验**:多意识体社群中,卡前台被视为常见但需要关注的现象。许多系统分享了通过内部协商、日志记录和接地技巧成功解除卡前台的经验。[^pluralpedia-frontstuck]
 - **临床观察**:临床文献中,切换困难常被视为解离功能受损或高压力状态的指标。治疗师通常会评估背后的创伤触发、系统冲突或外部压力源,并提供稳定化干预。[^brand2016]
 - **治疗方向**:临床指南强调在处理卡前台时优先确保安全与稳定,避免强行推动切换,而是通过减压、沟通和创伤处理逐步恢复切换功能。[^isstd2011]
 

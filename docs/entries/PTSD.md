@@ -1,15 +1,8 @@
 ---
-tags:
-
-- 诊断与临床
-- PTSD
-- 多重意识体
-- 解离
-
-topic: 诊断与临床
+comments: true
 description: 创伤后应激障碍（PTSD）权威指南：症状识别、诊断标准与治疗方法。掌握闪回、回避、过度警觉等核心症状及有效应对策略
-title: 创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）
-updated: 2025-10-17
+search:
+  boost: 1.5
 synonyms:
 
 - 创伤后应激障碍
@@ -19,9 +12,15 @@ synonyms:
 - PTSD
 - chuangshanghouyingjizhangai
 
-search:
-  boost: 1.5
-comments: true
+tags:
+
+- dx:PTSD
+- dx:解离障碍
+- guide:诊断与临床
+
+title: 创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）
@@ -75,7 +74,7 @@ comments: true
 - **危机管理** : 建立安全计划，准备紧急联络方式。
 - **调节技巧** : 接地（grounding）、呼吸练习、正念练习。
 - **日常支持** : 规律睡眠、运动、社会支持。
-- **系统适用** : 多重意识体可设置共享日志，分担触发管理，避免特定成员长期承受创伤内容。
+- **系统适用** : 多意识体可设置共享日志，分担触发管理，避免特定成员长期承受创伤内容。
 
 ---
 

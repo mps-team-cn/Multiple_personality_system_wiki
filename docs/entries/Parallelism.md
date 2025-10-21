@@ -1,15 +1,13 @@
 ---
+comments: true
 tags:
 
-- 系统运作
-- 多重意识体
-- 解离
-- 协作
+- ops:系统运作
+- dx:解离障碍
 
-topic: 系统运作
 title: 并行（Parallelism）
-updated: 2025-10-17
-comments: true
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 并行（Parallelism）

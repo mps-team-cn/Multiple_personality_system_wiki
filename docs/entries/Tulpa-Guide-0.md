@@ -1,27 +1,26 @@
 ---
-tags:
-
-    - Tulpa
-    - 多重意识体
-    - 创造型系统
-    - 实践指南
-
-topic: 实践指南
-title: Tulpa 完全创造指南
-updated: 2025-10-19
+comments: true
 description: 系统化 Tulpa 创造实践指南：涵盖基础原理、训练方法、进阶技巧、风险管理与伦理边界,整合自百度贴吧 tulpa 吧社群经验
-synonyms:
-
-    - 图帕创造指南
-    - Tulpa Creation Guide
-    - 图巴培育指南
-    - 意识同伴训练
-    - tulpa guide
-    - tulpamancy guide
-
 search:
   boost: 1.8
-comments: true
+synonyms:
+
+- 图帕创造指南
+- Tulpa Creation Guide
+- 图巴培育指南
+- 意识同伴训练
+- tulpa guide
+- tulpamancy guide
+
+tags:
+
+- community:Tulpa
+- guide:创造型系统
+- guide:实践指南
+
+title: Tulpa 完全创造指南
+topic: 实践指南
+updated: 2025-10-20
 ---
 
 # Tulpa 完全创造指南（Tulpa Creation Guide）
@@ -69,7 +68,7 @@ comments: true
 |------|------|----------|
 | [**塑造（Forcing）**](Forcing.md) | 每日固定时段进行的高强度想象与互动练习,包括形象构建、对话训练、感官细节赋予 | 非强迫行为,而是主动的训练过程 |
 | [**T 语（Tulpish）**](Tulpish.md) | 通过感官意象、情绪或"概念包"传递信息的非语言沟通方式 | 与精神病性幻觉不同,具有互动性、可解释性与语境意义 |
-| [**投影（Projection）**](Projection.md) | 将图帕的感官意象外化至外部环境的主观体验（如"看见"图帕坐在椅子上） | 非精神病性幻觉,实践者清楚这是主观意象 |
+| [**外投射（External Projection）**](External-Projection.md) | 将图帕的感官意象外化至外部环境的主观体验（如"看见"图帕坐在椅子上） | 非精神病性幻觉,实践者清楚这是主观意象 |
 | [**附体（Possession）**](Possession.md) | 图帕临时控制身体部分或全部的委托性体验,通常需宿主明确同意 | 与附体型障碍（ICD-11 6B63）不同,这是自愿、可控的协作过程 |
 | [**交换（Switching）**](Switch.md) | 执行控制权从宿主临时转移至图帕,通常伴随意识焦点的切换 | 与 DID 的非自愿切换不同,这是协商式的短期轮替 |
 | [**共前台（Co-fronting）**](Co-Fronting.md) | 宿主与图帕同时处于前台,共享身体控制与感知 | 与病理性身份混淆不同,这是训练后的协作状态 |

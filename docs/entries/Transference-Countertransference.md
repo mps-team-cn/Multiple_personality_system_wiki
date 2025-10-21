@@ -1,21 +1,19 @@
 ---
-tags:
-
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
-
-topic: 理论与分类
-title: 移情与反移情（Transference and Countertransference）
-updated: 2025-10-13
+comments: true
 synonyms:
 
 - 移情
 - 反移情
 - transference countertransference
 
-comments: true
+tags:
+
+- dx:解离障碍
+- sx:创伤症状
+
+title: 移情与反移情（Transference and Countertransference）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 移情与反移情（Transference and Countertransference）
@@ -42,7 +40,7 @@ comments: true
 
 ## 在多意识体与解离语境中的意义
 
-多重意识体系统的不同成员可能对治疗师产生不同移情，例如儿童部分寻求照顾、迫害者部分表现不信任。治疗师的反移情也可能随成员切换而改变。理解此动态有助于维持治疗联盟，避免无意重演创伤关系。
+多意识体系统的不同成员可能对治疗师产生不同移情，例如儿童部分寻求照顾、迫害者部分表现不信任。治疗师的反移情也可能随成员切换而改变。理解此动态有助于维持治疗联盟，避免无意重演创伤关系。
 
 ## 实践应用与建议
 

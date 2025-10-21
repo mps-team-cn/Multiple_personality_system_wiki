@@ -1,20 +1,19 @@
 ---
-title: 慢性疼痛（Chronic Pain）
-topic: 诊断与临床
-tags:
-
-    - 诊断与临床
-    - 共病
-    - 身心医学
-    - 系统支持
-
-updated: 2025-10-14
+comments: true
 synonyms:
 
-    - 慢性疼痛
-    - Chronic Pain
+- 慢性疼痛
+- Chronic Pain
 
-comments: true
+tags:
+
+- guide:诊断与临床
+- dx:共病
+- guide:系统支持
+
+title: 慢性疼痛（Chronic Pain）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 慢性疼痛（Chronic Pain）

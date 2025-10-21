@@ -1,30 +1,30 @@
 ---
-title: 解离（Dissociation）
-tags:
-
-    - 系统运作
-    - 解离
-    - DID
-    - OSDD
-    - DPDR
-
-topic: 系统运作
-synonyms:
-
-    - 解离现象
-    - 分离体验
-    - 人格解体
-    - 现实解体
-    - 失时
-    - 黑障
-    - dissociation
-    - jieli
-
+comments: true
 description: 解离从功能性分离到解离障碍呈连续谱：区分高速公路催眠、应激下的防御性解离与造成痛苦/功能受损的障碍级表现，识别红旗并了解何时转诊。
-updated: 2025-10-19
 search:
   boost: 1.8
-comments: true
+synonyms:
+
+- 解离现象
+- 分离体验
+- 人格解体
+- 现实解体
+- 失时
+- 黑障
+- dissociation
+- jieli
+
+tags:
+
+- dx:解离性身份障碍（DID）
+- dx:DPDR
+- dx:OSDD
+- ops:系统运作
+- dx:解离障碍
+
+title: 解离（Dissociation）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 解离（Dissociation）

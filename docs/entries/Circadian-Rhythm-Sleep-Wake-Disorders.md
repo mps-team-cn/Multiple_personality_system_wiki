@@ -1,14 +1,7 @@
 ---
-tags:
-
-- 诊断与临床
-- 共病
-- 睡眠
-- 昼夜节律
-
-topic: 诊断与临床
-title: 昼夜节律睡眠-觉醒障碍（Circadian Rhythm Sleep-Wake Disorders）
-updated: 2025-10-19
+comments: true
+description: 深入解析昼夜节律睡眠-觉醒障碍的诊断标准、临床表现与治疗方法。了解延迟睡眠-觉醒期障碍、轮班工作障碍与时差障碍的特征,以及光疗、褪黑素与作息调整策略,包含
+  ICD-11 与 DSM-5-TR 权威诊断标准
 synonyms:
 
 - 昼夜节律障碍
@@ -17,8 +10,15 @@ synonyms:
 - CRSWD
 - Circadian Rhythm Disorders
 
-description: 深入解析昼夜节律睡眠-觉醒障碍的诊断标准、临床表现与治疗方法。了解延迟睡眠-觉醒期障碍、轮班工作障碍与时差障碍的特征,以及光疗、褪黑素与作息调整策略,包含 ICD-11 与 DSM-5-TR 权威诊断标准
-comments: true
+tags:
+
+- guide:诊断与临床
+- dx:共病
+- sleep:睡眠障碍
+
+title: 昼夜节律睡眠-觉醒障碍（Circadian Rhythm Sleep-Wake Disorders）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 昼夜节律睡眠-觉醒障碍（Circadian Rhythm Sleep-Wake Disorders）

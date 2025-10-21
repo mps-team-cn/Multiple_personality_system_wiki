@@ -1,21 +1,19 @@
 ---
-tags:
-
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
-
-topic: 理论与分类
-title: 人格结构理论（Personality Structure Theory, Freud）
-updated: 2025-10-13
+comments: true
 synonyms:
 
 - 本我自我超我理论
 - 弗洛伊德人格结构
 - structural model of psyche
 
-comments: true
+tags:
+
+- dx:解离障碍
+- sx:创伤症状
+
+title: 人格结构理论（Personality Structure Theory, Freud）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 人格结构理论（Personality Structure Theory, Freud）
@@ -36,7 +34,7 @@ comments: true
 
 ## 在多意识体与解离语境中的意义
 
-多重意识体系统中，不同成员可能分别承担“本我式”冲动、“自我式”调节或“超我式”监督职能。理解人格结构有助于识别成员的功能定位，并在内部协商时平衡冲动、现实与价值，减少对抗性互动。
+多意识体系统中，不同成员可能分别承担“本我式”冲动、“自我式”调节或“超我式”监督职能。理解人格结构有助于识别成员的功能定位，并在内部协商时平衡冲动、现实与价值，减少对抗性互动。
 
 ## 实践应用与建议
 

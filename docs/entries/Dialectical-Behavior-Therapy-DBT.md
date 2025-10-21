@@ -1,20 +1,19 @@
 ---
-title: 辩证行为疗法（Dialectical Behavior Therapy, DBT）
-tags:
-
-    - 创伤与疗愈
-    - 心理治疗
-    - 情绪调节
-
-topic: 创伤与疗愈
+comments: true
 synonyms:
 
-    - DBT
-    - Dialectical Behavior Therapy
-    - 辩证行为治疗
+- DBT
+- Dialectical Behavior Therapy
+- 辩证行为治疗
 
-updated: 2025-10-13
-comments: true
+tags:
+
+- tx:创伤治疗
+- tx:心理治疗
+
+title: 辩证行为疗法（Dialectical Behavior Therapy, DBT）
+topic: 创伤与疗愈
+updated: 2025-10-20
 ---
 
 # 辩证行为疗法（Dialectical Behavior Therapy, DBT）

@@ -34,7 +34,9 @@ bash tools/run_local_updates.sh --help
 | 修复 Markdown 格式 | `python3 tools/fix_markdown.py docs/entries/` |
 | 检查链接规范 | `python3 tools/check_links.py docs/entries/` |
 | 检查 Frontmatter | `python3 tools/check_frontmatter.py` |
+| 检查标签规范 | `python3 tools/check_tags.py docs/entries/` |
 | 更新时间戳 | `python3 tools/update_git_timestamps.py` |
+| 标准化标签 | `python3 tools/tag_normalization.py --execute` |
 | 生成分区索引 | `python3 tools/build_partitions_cn.py` |
 | 生成 SEO URL 列表 | `python3 tools/generate_seo_urls.py` |
 | 提交到 Google Indexing API | `python3 tools/submit_to_google_indexing.py` |
@@ -79,6 +81,13 @@ bash tools/run_local_updates.sh --help
 | **test_dict_segmentation.py** | 测试词典的分词效果 | 🧪 验证效果时 |
 
 👉 **完整指南**: [AI 辅助生成搜索词典指南](AI-Dictionary-Generation.md)
+
+### 标签管理
+
+| 工具 | 功能 | 使用频率 |
+|------|------|---------|
+| **tag_normalization.py** | 批量标准化词条标签,统一分面标签规范 | 🏷️ 标签体系调整时 |
+| **check_tags.py** | 校验 Frontmatter 标签是否符合 Tagging Standard v2.0 | ✅ 日常提交/PR |
 
 ### 版本管理
 

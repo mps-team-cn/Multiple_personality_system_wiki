@@ -1,21 +1,21 @@
 ---
-tags:
-
-- 诊断与临床
-- 躯体症状
-- 焦虑
-
-topic: 诊断与临床
+comments: true
 description: 深入解析疾病焦虑障碍（IAD）的诊断标准、临床表现与治疗方法。了解过度担心患病的心理机制、与其他焦虑及躯体障碍的鉴别要点,及有效的认知行为治疗策略
-title: 疾病焦虑障碍(Illness Anxiety Disorder,IAD)
 synonyms:
 
 - 疑病症（旧称）
 - 健康焦虑
 - Health Anxiety
 
-updated: 2025-10-15
-comments: true
+tags:
+
+- dx:焦虑障碍
+- guide:诊断与临床
+- dx:躯体症状及相关障碍
+
+title: 疾病焦虑障碍(Illness Anxiety Disorder,IAD)
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 疾病焦虑障碍(Illness Anxiety Disorder,IAD)

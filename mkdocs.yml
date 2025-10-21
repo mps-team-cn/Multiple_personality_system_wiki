@@ -251,14 +251,12 @@ plugins:
   - literate-nav:
       nav_file: SUMMARY.md
 
-  # 排除搜索插件：只索引 entries 目录的词条，排除其他所有内容
+  # 排除搜索插件：排除没有 frontmatter 的辅助文件
+  # 注意：大部分文件已通过 frontmatter 的 search.exclude: true 排除
   - exclude-search:
       exclude:
-        - index.md
         - index-simple.md
-        - QuickStart.md
         - Preface.md
-        - Glossary.md
         - tags.md
         - changelog.md
         - SUMMARY.md
@@ -266,25 +264,6 @@ plugins:
         - ADMIN_GUIDE.md
         - GITHUB_WORKFLOW.md
         - 404.md
-        # 分区索引文件
-        - entries/Clinical-Diagnosis-index.md
-        - entries/Cultural-Media-index.md
-        - entries/Practice-index.md
-        - entries/Roles-Identity-index.md
-        - entries/System-Operations-index.md
-        - entries/Theory-Classification-index.md
-        - entries/Trauma-Healing-index.md
-        # 分区导览文件
-        - entries/Clinical-Diagnosis-Guide.md
-        - entries/Core-Concepts-Guide.md
-        - entries/Cultural-Media-Guide.md
-        - entries/Mental-Health-Guide.md
-        - entries/Practice-Guide.md
-        - entries/Roles-Identity-Guide.md
-        - entries/System-Operations-Guide.md
-        - entries/Theory-Classification-Guide.md
-        - entries/Trauma-Healing-Guide.md
-      # 不索引未被引用的页面
       exclude_unreferenced: false
 
   - tags

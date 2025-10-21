@@ -1,21 +1,19 @@
 ---
-tags:
-
-- 理论与分类
-- 解离
-- 多重意识体
-- 创伤
-
-topic: 理论与分类
-title: 防御性解离（Defensive Dissociation）
-updated: 2025-10-13
+comments: true
 synonyms:
 
 - 防御性分离
 - 防御性解离反应
 - defensive dissociation
 
-comments: true
+tags:
+
+- dx:解离障碍
+- sx:创伤症状
+
+title: 防御性解离（Defensive Dissociation）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 防御性解离（Defensive Dissociation）
@@ -42,7 +40,7 @@ comments: true
 
 ## 在多意识体与解离语境中的意义
 
-多重意识体系统常以防御性解离解释成员的形成与分工。例如，保护者承担外部应对，儿童部分承载创伤记忆。本概念帮助系统理解为何某些体验被隔离，并指导恢复过程中如何在安全前提下逐步整合。
+多意识体系统常以防御性解离解释成员的形成与分工。例如，保护者承担外部应对，儿童部分承载创伤记忆。本概念帮助系统理解为何某些体验被隔离，并指导恢复过程中如何在安全前提下逐步整合。
 
 ## 实践应用与建议
 

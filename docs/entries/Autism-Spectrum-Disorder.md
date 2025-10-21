@@ -1,15 +1,14 @@
 ---
+comments: true
 tags:
 
-- 诊断与临床
-- 多重意识体
-- 解离
-- 创伤
+- guide:诊断与临床
+- dx:解离障碍
+- sx:创伤症状
 
-topic: 诊断与临床
 title: 孤独症谱系（Autism Spectrum Disorder）
-updated: 2025-10-14
-comments: true
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 孤独症谱系（Autism Spectrum Disorder）

@@ -1,22 +1,22 @@
 ---
-title: 分离转换障碍（Dissociative [Conversion] Disorders，已过时）
-tags:
-
-    - 诊断与临床
-    - 历史术语
-    - 解离
-    - 躯体症状
-
-topic: 诊断与临床
+comments: true
 synonyms:
 
-    - 分离（转换）障碍
-    - 解离（转换）障碍
-    - Dissociative (Conversion) Disorders
-    - F44
+- 分离（转换）障碍
+- 解离（转换）障碍
+- Dissociative (Conversion) Disorders
+- F44
 
-updated: 2025-10-12
-comments: true
+tags:
+
+- history:历史术语
+- dx:解离障碍
+- guide:诊断与临床
+- dx:躯体症状及相关障碍
+
+title: 分离转换障碍（Dissociative [Conversion] Disorders，已过时）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 分离转换障碍（Dissociative [Conversion] Disorders，已过时）

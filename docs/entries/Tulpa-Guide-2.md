@@ -1,15 +1,14 @@
 ---
+comments: true
 tags:
 
-    - Tulpa
-    - 多重意识体
-    - 创造型系统
-    - 实践指南
+- community:Tulpa
+- guide:创造型系统
+- guide:实践指南
 
-topic: 实践指南
 title: Tulpa 完全创造指南·实践篇
-updated: 2025-10-19
-comments: true
+topic: 实践指南
+updated: 2025-10-20
 ---
 
 # Tulpa 完全创造指南·实践篇
@@ -242,7 +241,7 @@ Tulpa 的创造通常分为以下阶段（顺序可灵活调整）：
 ## 章节导航
 
 - [← 基础篇](Tulpa-Guide-1.md)
-- [返回目录](Tulpa-Guide.md)
+- [返回目录](Tulpa-Guide-0.md)
 - [提高篇 →](Tulpa-Guide-3.md)
 
 ## 相关词条

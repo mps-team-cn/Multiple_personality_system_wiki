@@ -1,13 +1,5 @@
 ---
-tags:
-
-- 诊断与临床
-- 人格障碍
-- A组人格障碍
-
-topic: 诊断与临床
-title: 偏执型人格障碍（Paranoid Personality Disorder，PPD）
-updated: 2025-10-14
+comments: true
 synonyms:
 
 - 偏执型人格障碍
@@ -15,7 +7,14 @@ synonyms:
 - PPD
 - pianzhixing renge zhangai
 
-comments: true
+tags:
+
+- dx:A组人格障碍
+- guide:诊断与临床
+
+title: 偏执型人格障碍（Paranoid Personality Disorder，PPD）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 偏执型人格障碍（Paranoid Personality Disorder，PPD）

@@ -1,14 +1,5 @@
 ---
-tags:
-
-- 诊断与临床
-- GD
-- 性别认同
-- 创伤
-
-topic: 诊断与临床
-title: 性别不安（Gender Dysphoria，GD）
-updated: 2025-10-14
+comments: true
 synonyms:
 
 - 性别焦虑
@@ -17,7 +8,14 @@ synonyms:
 - GD
 - xingbiebu'an
 
-comments: true
+tags:
+
+- sx:创伤症状
+- guide:诊断与临床
+
+title: 性别不安（Gender Dysphoria，GD）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 性别不安（Gender Dysphoria，GD）

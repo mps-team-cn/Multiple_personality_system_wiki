@@ -1,14 +1,5 @@
 ---
-tags:
-
-- 诊断与临床
-- 多重意识体
-- 解离
-- 创伤
-
-topic: 诊断与临床
-title: 双相 II 型障碍（Bipolar II Disorder）
-updated: 2025-10-14
+comments: true
 synonyms:
 
 - 双相II型障碍
@@ -18,7 +9,15 @@ synonyms:
 - BP-II
 - shuangxiangerxingzhangai
 
-comments: true
+tags:
+
+- guide:诊断与临床
+- dx:解离障碍
+- sx:创伤症状
+
+title: 双相 II 型障碍（Bipolar II Disorder）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 双相 II 型障碍（Bipolar II Disorder）

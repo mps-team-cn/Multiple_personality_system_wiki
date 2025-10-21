@@ -1,23 +1,23 @@
 ---
-tags:
-
-    - 创伤与疗愈
-
-topic: 创伤与疗愈
-title: 三阶段创伤治疗模型（Three-Phase Trauma Treatment）
+comments: true
 description: 创伤治疗的经典三阶段框架：先稳定安全与功能，再在可耐受窗口内加工创伤记忆，最终实现关系修复、身份重建与整合。适用于复杂创伤与解离相关状况的循序式临床路线。
-synonyms:
-
-    - 三阶段治疗
-    - 阶段性治疗
-    - 阶段导向治疗
-    - Phase-Oriented Treatment
-    - 三阶段创伤治疗
-
 search:
   boost: 1.5
-updated: 2025-10-19
-comments: true
+synonyms:
+
+- 三阶段治疗
+- 阶段性治疗
+- 阶段导向治疗
+- Phase-Oriented Treatment
+- 三阶段创伤治疗
+
+tags:
+
+- tx:创伤治疗
+
+title: 三阶段创伤治疗模型（Three-Phase Trauma Treatment）
+topic: 创伤与疗愈
+updated: 2025-10-20
 ---
 
 # 三阶段创伤治疗模型（Three-Phase Trauma Treatment）

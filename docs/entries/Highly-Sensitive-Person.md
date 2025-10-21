@@ -1,21 +1,19 @@
 ---
-tags:
-
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
-
-topic: 理论与分类
-title: 高敏感人群（Highly Sensitive Person, HSP）
-updated: 2025-10-13
+comments: true
 synonyms:
 
 - 高敏感个体
 - 高敏感人格
 - highly sensitive person
 
-comments: true
+tags:
+
+- dx:解离障碍
+- sx:创伤症状
+
+title: 高敏感人群（Highly Sensitive Person, HSP）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 高敏感人群（Highly Sensitive Person, HSP）

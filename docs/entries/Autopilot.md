@@ -1,16 +1,15 @@
 ---
+comments: true
+description: 区分自动驾驶与一般走神/前台失稳；给出高风险场景的立即处置流程、触发源与负荷管理、内部交接与日志留痕的实务建议及参考资料。
 tags:
 
-    - 系统运作
-    - DID
-    - ANP
-    - 多重意识体
+- dx:解离性身份障碍（DID）
+- ops:系统运作
+- theory:ANP
 
-topic: 系统运作
 title: 自动驾驶（Autopilot）
-updated: 2025-10-16
-description: 区分自动驾驶与一般走神/前台失稳；给出高风险场景的立即处置流程、触发源与负荷管理、内部交接与日志留痕的实务建议及参考资料。
-comments: true
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 自动驾驶（Autopilot）

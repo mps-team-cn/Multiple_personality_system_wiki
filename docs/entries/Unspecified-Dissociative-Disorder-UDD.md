@@ -1,16 +1,14 @@
 ---
+comments: true
 tags:
 
-- 诊断与临床
-- UDD
-- 解离
-- 多重意识体
-- DSM-5
+- guide:诊断与临床
+- dx:解离障碍
+- guide:适应型系统
 
-topic: 诊断与临床
 title: 未特定的解离障碍（Unspecified Dissociative Disorder，UDD）
-updated: 2025-10-17
-comments: true
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 未特定的解离障碍（Unspecified Dissociative Disorder，UDD）

@@ -1,25 +1,23 @@
 ---
-title: 意识修改（Consciousness Modification）
-tags:
-
-    - 系统运作
-    - 多重意识体
-    - 解离
-    - 创伤
-    - 身份调整
-
-topic: 系统运作
+comments: true
+description: 通过主动引入记忆碎片或外部设定影响意识体性格与角色的系统运作方式,需警惕身份自主性与伦理风险
 synonyms:
 
-    - 碎片喂养
-    - Shard-feeding
-    - 身份调制
-    - 人格调适
-    - Consciousness Mod
+- 碎片喂养
+- Shard-feeding
+- 身份调制
+- 人格调适
+- Consciousness Mod
 
-description: 通过主动引入记忆碎片或外部设定影响意识体性格与角色的系统运作方式,需警惕身份自主性与伦理风险
-updated: 2025-10-18
-comments: true
+tags:
+
+- ops:系统运作
+- sx:创伤症状
+- dx:解离障碍
+
+title: 意识修改（Consciousness Modification）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 意识修改（Consciousness Modification）

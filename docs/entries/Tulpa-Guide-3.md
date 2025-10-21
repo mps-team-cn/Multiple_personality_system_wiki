@@ -1,15 +1,14 @@
 ---
+comments: true
 tags:
 
-    - Tulpa
-    - 多重意识体
-    - 创造型系统
-    - 实践指南
+- community:Tulpa
+- guide:创造型系统
+- guide:实践指南
 
-topic: 实践指南
 title: Tulpa 完全创造指南·提高篇
-updated: 2025-10-18
-comments: true
+topic: 实践指南
+updated: 2025-10-20
 ---
 
 # Tulpa 完全创造指南·提高篇
@@ -230,7 +229,7 @@ Tulpa 的创造并非逃避现实，而是一种探索意识的方式。
 ## 章节导航
 
 - [← 实践篇](Tulpa-Guide-2.md)
-- [返回目录](Tulpa-Guide.md)
+- [返回目录](Tulpa-Guide-0.md)
 
 ## 相关词条
 
@@ -241,4 +240,4 @@ Tulpa 的创造并非逃避现实，而是一种探索意识的方式。
 - [前台（Fronting）](Front-Fronting.md) - 身体控制权概念
 - [切换（Switch）](Switch.md) - 成员转换机制
 - [共意识（Co-Consciousness）](Co-Consciousness.md) - 意识共存状态
-- [外部投影（Projection）](External-Projection.md) - 感知投射技巧
+- [外投射（External Projection）](External-Projection.md) - 感知投射技巧

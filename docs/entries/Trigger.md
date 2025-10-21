@@ -1,13 +1,8 @@
 ---
-title: 触发（Trigger）
-tags:
-
-- 系统运作
-- 多重意识体
-- 解离
-- 创伤
-
-topic: 系统运作
+comments: true
+description: 创伤触发（Trigger）的识别、管理与应对策略。了解触发机制、如何建立触发清单及有效的预防与缓解方法
+search:
+  boost: 1.8
 synonyms:
 
 - Trigger
@@ -15,11 +10,15 @@ synonyms:
 - 雷点
 - chu fa
 
-description: 创伤触发（Trigger）的识别、管理与应对策略。了解触发机制、如何建立触发清单及有效的预防与缓解方法
-updated: 2025-10-19
-search:
-  boost: 1.8
-comments: true
+tags:
+
+- ops:系统运作
+- sx:创伤症状
+- dx:解离障碍
+
+title: 触发（Trigger）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 触发（Trigger）
@@ -115,7 +114,7 @@ comments: true
 
 ## 社群与临床语境
 
-- **社群观察** : Plural 社群常用"链式触发"描述整条协议被激活的体验，并强调快速识别触发类型对于恢复能动性的意义。[^trigger-pluralpedia] 相关社群资源包括 [Pluralpedia](https://pluralpedia.org/w/Trigger) 触发词条与多意识体社群的经验分享。
+- **社群观察** : 多意识体社群常用"链式触发"描述整条协议被激活的体验，并强调快速识别触发类型对于恢复能动性的意义。[^trigger-pluralpedia] 相关社群资源包括 [Pluralpedia](https://pluralpedia.org/w/Trigger) 触发词条与多意识体社群的经验分享。
 - **临床观点** : 创伤治疗强调稳定化与现实定向作为基础，透过阶段化处理逐步解除链式触发的能量。[^cloitre-2012][^frewen-lanius-2015] 专业资源包括 [ISSTD（国际创伤与解离研究学会）](https://www.isst-d.org/)治疗指南与 [SAMHSA 创伤知情护理资源中心](https://www.samhsa.gov/trauma-violence)。
 - **诊断说明** : **DSM-5-TR 与 ICD-11 均未将"触发"列为独立诊断术语**，仅作为创伤相关障碍（如 PTSD、复杂 PTSD、[解离性身份障碍（DID）](DID.md)）治疗与评估中的重要临床概念。
 

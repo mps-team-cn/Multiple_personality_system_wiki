@@ -1,21 +1,19 @@
 ---
-tags:
-
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
-
-topic: 理论与分类
-title: 认知失调（Cognitive Dissonance）
-updated: 2025-10-13
+comments: true
 synonyms:
 
 - 认知不协调
 - 认知冲突
 - cognitive dissonance
 
-comments: true
+tags:
+
+- dx:解离障碍
+- sx:创伤症状
+
+title: 认知失调（Cognitive Dissonance）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 认知失调（Cognitive Dissonance）
@@ -36,7 +34,7 @@ comments: true
 
 ## 在多意识体与解离语境中的意义
 
-多重意识体系统中的不同成员可能持有迥异记忆与信念，导致内部认知失调。系统通过分工、记忆隔离或建立共享叙事来减轻冲突，类似防御机制中的分隔策略。理解认知失调有助于促进成员之间的对话，避免因矛盾感而触发[解离](Dissociation.md)或攻击性防御。
+多意识体系统中的不同成员可能持有迥异记忆与信念，导致内部认知失调。系统通过分工、记忆隔离或建立共享叙事来减轻冲突，类似防御机制中的分隔策略。理解认知失调有助于促进成员之间的对话，避免因矛盾感而触发[解离](Dissociation.md)或攻击性防御。
 
 ## 实践应用与建议
 

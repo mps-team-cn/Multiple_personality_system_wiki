@@ -1,26 +1,22 @@
 ---
-title: 危机与支援资源（Crisis & Support Resources）
-topic: 实践指南
-tags:
-
-    - 实践指南
-    - 危机干预
-    - 支援资源
-    - 安全计划
-    - 多重意识体
-
 description: 出现心理危机、自伤冲动或解离失控时的即时求助与安全资源指南。提供紧急热线、全球支援机构与自助安全计划模板。
 search:
   boost: 2.0
 synonyms:
 
-    - 危机支援
-    - 心理热线
-    - 紧急求助
-    - crisis help
-    - support resources
+- 危机支援
+- 心理热线
+- 紧急求助
+- crisis help
+- support resources
 
-updated: 2025-10-19
+tags:
+
+- guide:实践指南
+
+title: 危机与支援资源（Crisis & Support Resources）
+topic: 实践指南
+updated: 2025-10-20
 ---
 
 # 危机与支援资源（Crisis & Support Resources）

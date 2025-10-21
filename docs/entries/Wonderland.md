@@ -1,26 +1,24 @@
 ---
-title: 幻境（Wonderland）
-tags:
-
-    - Tulpa
-    - 创造型系统
-    - 实践指南
-    - 多重意识体
-    - 内部空间
-
-topic: 系统运作
+comments: true
+description: Wonderland 是 Tulpa 社群对内部想象空间的特定称呼，指宿主与 Tulpa 共同构建和互动的心象场景
 synonyms:
 
-    - wonderland
-    - 幻境
-    - 仙境
-    - 内景
-    - tulpa内部空间
-    - 想象空间
+- wonderland
+- 幻境
+- 仙境
+- 内景
+- tulpa内部空间
+- 想象空间
 
-description: Wonderland 是 Tulpa 社群对内部想象空间的特定称呼，指宿主与 Tulpa 共同构建和互动的心象场景
-updated: 2025-10-16
-comments: true
+tags:
+
+- community:Tulpa
+- guide:创造型系统
+- guide:实践指南
+
+title: 幻境（Wonderland）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 幻境（Wonderland）
@@ -268,7 +266,7 @@ Tulpa 社群中，关于 Wonderland 的常见讨论包括：
 - [图帕（Tulpa）](Tulpa.md) - Wonderland 的"居民"
 - [可视化想象（Visualization & Imagination）](Visualization-Imagination.md) - 创建技巧
 - [冥想（Meditation）](Meditation.md) - 提升维持 Wonderland 的能力
-- [投影（Projection）](Projection.md) - 将 Tulpa"带出" Wonderland 的进阶技巧
+- [外投射（External Projection）](External-Projection.md) - 将 Tulpa"带出" Wonderland 的进阶技巧
 - [Tulpa 完全创造指南·实践篇](Tulpa-Guide-2.md) - 包含场景构建方法
 - [内部沟通（Internal Communication）](Internal-Communication.md) - 在 Wonderland 中的互动
 

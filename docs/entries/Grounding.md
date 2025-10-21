@@ -1,24 +1,23 @@
 ---
-tags:
-
-- 创伤与疗愈
-- 多重意识体
-- 解离
-- 创伤
-
-topic: 创伤与疗愈
+comments: true
 description: 接地（Grounding）技术完整指南：应对解离、焦虑与创伤触发的有效方法。学习感官觉察、身体定向等实用技巧，重建当下连接
-title: 接地（Grounding）
-synonyms:
-
-    - 接地技巧
-    - 稳定技巧
-    - Grounding techniques
-
-updated: 2025-10-18
 search:
   boost: 1.8
-comments: true
+synonyms:
+
+- 接地技巧
+- 稳定技巧
+- Grounding techniques
+
+tags:
+
+- tx:创伤治疗
+- dx:解离障碍
+- sx:创伤症状
+
+title: 接地（Grounding）
+topic: 创伤与疗愈
+updated: 2025-10-20
 ---
 
 # 接地（Grounding）

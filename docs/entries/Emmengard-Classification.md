@@ -1,14 +1,9 @@
 ---
-tags:
-
-- 角色与身份
-- 多重意识体
-- 解离
-
-topic: 角色与身份
-title: 埃蒙加德分类法（Emmengard Classification）
-description: 社群使用的多意识体形成来源分类框架，强调自我叙事与标签可组合/可混合；非 DSM-5-TR/ICD-11 医学诊断，常用于与 Adaptive/Created/Spontaneous/Mixed 等经验对照。
-updated: 2025-10-19
+comments: true
+description: 社群使用的多意识体形成来源分类框架，强调自我叙事与标签可组合/可混合；非 DSM-5-TR/ICD-11 医学诊断，常用于与 Adaptive/Created/Spontaneous/Mixed
+  等经验对照。
+search:
+  boost: 1.5
 synonyms:
 
 - Emmengard 分类
@@ -17,9 +12,14 @@ synonyms:
 - 分类法
 - 多来源分类
 
-search:
-  boost: 1.5
-comments: true
+tags:
+
+- role:系统角色
+- dx:解离障碍
+
+title: 埃蒙加德分类法（Emmengard Classification）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 埃蒙加德分类法（Emmengard Classification）

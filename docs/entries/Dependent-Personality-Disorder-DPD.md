@@ -1,13 +1,5 @@
 ---
-tags:
-
-- 诊断与临床
-- 人格障碍
-- C组人格障碍
-
-topic: 诊断与临床
-title: 依赖型人格障碍（Dependent Personality Disorder，DPD）
-updated: 2025-10-14
+comments: true
 synonyms:
 
 - 依赖型人格障碍
@@ -15,7 +7,14 @@ synonyms:
 - DPD
 - yilaixing renge zhangai
 
-comments: true
+tags:
+
+- dx:C组人格障碍
+- guide:诊断与临床
+
+title: 依赖型人格障碍（Dependent Personality Disorder，DPD）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 依赖型人格障碍（Dependent Personality Disorder，DPD）

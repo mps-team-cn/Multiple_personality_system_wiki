@@ -1,20 +1,18 @@
 ---
-tags:
-
-- 理论与分类
-- 多重意识体
-- 解离
-
-topic: 理论与分类
-title: 心理能量与注意资源（Psychic Energy & Attention）
-updated: 2025-10-13
+comments: true
 synonyms:
 
 - 心理能量
 - 注意资源
 - psychic energy
 
-comments: true
+tags:
+
+- dx:解离障碍
+
+title: 心理能量与注意资源（Psychic Energy & Attention）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 心理能量与注意资源（Psychic Energy & Attention）
@@ -35,7 +33,7 @@ comments: true
 
 ## 在多意识体与解离语境中的意义
 
-多重意识体系统中，成员共享身体与认知资源。频繁切换、压抑情绪或处理创伤记忆都会消耗心理能量。清楚掌握能量状态，有助于安排成员轮值、维持[情绪调节](Emotion-Regulation.md)与日常功能。
+多意识体系统中，成员共享身体与认知资源。频繁切换、压抑情绪或处理创伤记忆都会消耗心理能量。清楚掌握能量状态，有助于安排成员轮值、维持[情绪调节](Emotion-Regulation.md)与日常功能。
 
 ## 实践应用与建议
 

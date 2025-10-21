@@ -1,20 +1,18 @@
 ---
-tags:
-
-- 理论与分类
-- 多重意识体
-- 解离
-
-topic: 理论与分类
-title: 学习与条件反射（Learning & Conditioning）
-updated: 2025-10-13
+comments: true
 synonyms:
 
 - 学习理论
 - 条件作用
 - learning and conditioning
 
-comments: true
+tags:
+
+- dx:解离障碍
+
+title: 学习与条件反射（Learning & Conditioning）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 学习与条件反射（Learning & Conditioning）
@@ -35,7 +33,7 @@ comments: true
 
 ## 在多意识体与解离语境中的意义
 
-多重意识体系统可以利用学习理论设计新习惯，如将安全行为与积极反馈配对，减少触发后的回避。同时需警惕负强化在维持解离或自我伤害行为中的作用。
+多意识体系统可以利用学习理论设计新习惯，如将安全行为与积极反馈配对，减少触发后的回避。同时需警惕负强化在维持解离或自我伤害行为中的作用。
 
 ## 实践应用与建议
 

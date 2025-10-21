@@ -19,7 +19,7 @@ TAG_MAPPING = {
     '创伤后应激障碍_PTSD': 'PTSD',
     '其他特定解离性障碍_OSDD': 'OSDD',
     '注意力缺陷多动障碍_ADHD': 'ADHD',
-    '管理员': None,  # 删除，因为已有"多重意识体"标签
+    '管理员': None,  # 删除，因为已有"多意识体"标签
 }
 
 def update_tags_in_file(file_path: Path) -> bool:

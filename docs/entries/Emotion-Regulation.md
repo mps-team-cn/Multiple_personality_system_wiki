@@ -1,21 +1,19 @@
 ---
-tags:
-
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
-
-topic: 理论与分类
-title: 情绪调节（Emotion Regulation）
-updated: 2025-10-19
+comments: true
 synonyms:
 
 - 情绪管理
 - 情绪调控
 - emotion regulation
 
-comments: true
+tags:
+
+- dx:解离障碍
+- sx:创伤症状
+
+title: 情绪调节（Emotion Regulation）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 情绪调节（Emotion Regulation）
@@ -90,7 +88,7 @@ comments: true
 
 ### 功能性分工与调节差异
 
-多重意识体系统中，成员对情绪调节的能力差异较大，这种差异属于 **功能性分工(functional specialization)**，而非病理性分裂。某些成员可能专长于[防御性解离](Defensive-Dissociation.md)或情绪隔离，而其他成员负责感受与表达情绪。
+多意识体系统中，成员对情绪调节的能力差异较大，这种差异属于 **功能性分工(functional specialization)**，而非病理性分裂。某些成员可能专长于[防御性解离](Defensive-Dissociation.md)或情绪隔离，而其他成员负责感受与表达情绪。
 
 这种分工反映了系统的适应性设计，但也可能导致:
 

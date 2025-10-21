@@ -1,15 +1,14 @@
 ---
-title: 系魂（Soulbond）
+comments: true
 tags:
 
-    - 角色与身份
-    - 多重意识
-    - 解离
-    - 创伤
+- role:系统角色
+- dx:解离障碍
+- sx:创伤症状
 
+title: 系魂（Soulbond）
 topic: 角色与身份
-updated: 2025-10-13
-comments: true
+updated: 2025-10-20
 ---
 
 # 系魂（Soulbond）
@@ -53,7 +52,7 @@ comments: true
 
 - [《东方 Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](Touhou-Tulpa-Fandom.md)
 - [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
-- [投影（Projection）](Projection.md)
+- [外投射（External Projection）](External-Projection.md)
 - [《妄想代理人》（Paranoia Agent）与集体意识的具象化](Paranoia-Agent-Collective-Consciousness.md)
 - [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](Nonexistent-You-And-Me-Tulpa-Lilith.md)
 - [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](Madoka-Magica-Kyubey-Otherness.md)

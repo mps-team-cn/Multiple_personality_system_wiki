@@ -1,15 +1,14 @@
 ---
-title: 系魂型系统（Soul-Linked Systems, Xianyu Theory）
+comments: true
 tags:
 
-    - 系统运作
-    - 多重意识
-    - 解离
-    - 创伤
+- ops:系统运作
+- sx:创伤症状
+- dx:解离障碍
 
+title: 系魂型系统（Soul-Linked Systems, Xianyu Theory）
 topic: 系统运作
-updated: 2025-10-18
-comments: true
+updated: 2025-10-20
 ---
 
 # 系魂型系统（Soul-Linked Systems, Xianyu Theory）

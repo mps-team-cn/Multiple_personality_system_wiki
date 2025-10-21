@@ -1,14 +1,5 @@
 ---
-tags:
-
-- 诊断与临床
-- 焦虑
-- 社交
-- 共病
-
-topic: 诊断与临床
-title: 社交焦虑障碍（Social Anxiety Disorder / Social Phobia，SAD）
-updated: 2025-10-14
+comments: true
 synonyms:
 
 - 社交焦虑障碍
@@ -18,7 +9,16 @@ synonyms:
 - 社交恐惧症
 - shejiao jiaolv zhangai
 
-comments: true
+tags:
+
+- dx:焦虑障碍
+- dx:共病
+- sx:社交困难
+- guide:诊断与临床
+
+title: 社交焦虑障碍（Social Anxiety Disorder / Social Phobia，SAD）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 社交焦虑障碍（Social Anxiety Disorder / Social Phobia，SAD）

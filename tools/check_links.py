@@ -78,6 +78,8 @@ EXCLUDE_FILES = {
     "docs/assets/uploads/README.md",
     "tools/deprecated/README.md",
     "README.md",
+    #Agents 文件
+    "AGENTS.md",
 }
 
 

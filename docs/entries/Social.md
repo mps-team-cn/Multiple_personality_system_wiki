@@ -1,21 +1,20 @@
 ---
-title: 社交者（Social）
-tags:
-
-    - 角色与身份
-    - 多重意识体
-
-topic: 角色与身份
+comments: true
+description: 擅长人际互动与公共场合表现的系统成员，在需要社交技能时主动前台或提供支持
 synonyms:
 
-    - 社交者
-    - Social
-    - 社交成员
-    - Social Alter
+- 社交者
+- Social
+- 社交成员
+- Social Alter
 
-description: 擅长人际互动与公共场合表现的系统成员，在需要社交技能时主动前台或提供支持
-updated: 2025-10-17
-comments: true
+tags:
+
+- role:系统角色
+
+title: 社交者（Social）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 社交者（Social）

@@ -1,20 +1,20 @@
 ---
-title: 多人格障碍（Multiple Personality Disorder，已过时）
-tags:
-
-    - 诊断与临床
-    - 历史术语
-    - 解离
-
-topic: 诊断与临床
+comments: true
 synonyms:
 
-    - 多重人格障碍
-    - MPD
-    - Multiple Personality Disorder
+- 多重人格障碍
+- MPD
+- Multiple Personality Disorder
 
-updated: 2025-10-14
-comments: true
+tags:
+
+- history:历史术语
+- dx:解离障碍
+- guide:诊断与临床
+
+title: 多人格障碍（Multiple Personality Disorder，已过时）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 多人格障碍（Multiple Personality Disorder，已过时）

@@ -1,14 +1,11 @@
 ---
 tags:
 
-- 文化与表现
-- 多重意识体
-- 解离
-- 创伤
+    - culture:文化表现
 
 topic: 文化与表现
 title: 洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）
-updated: 2025-10-18
+updated: 2025-10-20
 comments: true
 ---
 
@@ -42,6 +39,6 @@ H. P. 洛夫克拉夫特的克苏鲁神话作品中，常出现由人类心智�
 - [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
 - [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](Nonexistent-You-And-Me-Tulpa-Lilith.md)
 - [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](Touhou-Tulpa-Fandom.md)
-- [投影（Projection）](Projection.md)
+- [外投射（External Projection）](External-Projection.md)
 - [傀儡（Servitor）](Servitor.md)
 - [头压（Head Pressure）](Head-Pressure.md)

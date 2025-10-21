@@ -1,12 +1,12 @@
 ---
 tags:
 
-    - 系统运作
+    - ops:系统运作
 
 topic: 系统运作
 title: 系统运作导览
 description: 按“系统运作”主题整合前台调度、切换管理、意识与记忆协作、结构治理与外部互动的核心词条，提供可扫描导航与安全实践提示。
-updated: 2025-10-19
+updated: 2025-10-20
 comments: true
 search:
   boost: 1.5
@@ -41,13 +41,14 @@ search:
 
 - 🎙️ [前台（Front / Fronting）](Front-Fronting.md)：取得与交接控制权的要点。
 - 🔁 [切换（Switch）](Switch.md)：触发条件、注意事项与安全策略。
-- 🧷 [锚点（Anchors / Tells / Markers）](Anchors.md)：识别“当下前台是谁”的外显线索（**仅供内部协作，非诊断**）。
+- 🧷 [锚点（Anchors / Tells / Markers）](Anchors.md)：识别"当下前台是谁"的外显线索（**仅供内部协作，非诊断**）。
 - 🧯 [卡前台（Front Stuck / Frontstuck）](Frontstuck.md)：无法退下或切换受阻的应对。
 - 👥 [共前台（Co-Fronting）](Co-Fronting.md)：多人并行执掌的分工与风险。
-- 🌀 [混合（Blending）](Blending.md)：边界模糊、记忆渗透的识别与处置。
+- 🌫️ [前台模糊（Front Blur）](Front-Blur.md)：无法确定谁在前台的状态识别与应对。
+- 🌀 [混合（Blending）](Blending.md)：（社群用语，非诊断）边界模糊、记忆渗透的识别与处置。
 - 🧭 [并行（Parallelism）](Parallelism.md)：多条意识流同时运行时的负荷管理。
 - 🔙 [后台（Back / Being Back）](Back-Being-Back.md)：退到后台后的支持方式。
-- 🤖 [自动驾驶（Autopilot）](Autopilot.md)：“机械操作”状态与恢复觉察。
+- 🤖 [自动驾驶（Autopilot）](Autopilot.md)："机械操作"状态与恢复觉察。
 - 🪖 [头压（Head Pressure）](Head-Pressure.md)：常见生理体验与缓解方法。
 - ⚖️ [偏重（Median / Bias）](Median-Bias.md)：执掌权偏向的识别与调节。
 - 🚨 [触发（Trigger）](Trigger.md)：触发源识别与预防措施。
@@ -97,7 +98,7 @@ search:
 > 连接“内在体验—现实生活”的桥接层。
 
 - 🧠 [躯体认同（Body Ownership）](Body-Ownership.md)：身体认同感与现实感的变化。
-- 🔭 [外投射（External Projection）](External-Projection.md) & [投影（Projection）](Projection.md)：将内部体验外化的方式与沟通边界。
+- 🔭 [外投射（External Projection）](External-Projection.md)：将内部体验外化的方式与沟通边界。
 - ⚡ [应激反应（Stress Response）](Stress-Response.md)：心理-生理机制（ANS/HPA）与自我调节策略。
 - 🎭 [角色面具（Masking / Social Masking）](Masking.md)：以单一外观维持安全与功能；过度使用的代价与减负办法。
 

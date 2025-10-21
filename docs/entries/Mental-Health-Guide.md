@@ -1,14 +1,15 @@
 ---
+comments: true
 tags:
 
-- 诊断与临床
-- 创伤与疗愈
-- 多重意识体
+- guide:诊断与临床
+- tx:创伤治疗
 
-topic: 诊断与临床
 title: 心理健康导览
-updated: 2025-10-17
-comments: true
+topic: 诊断与临床
+updated: 2025-10-20
+search:
+  exclude: true
 ---
 
 # 心理健康导览(Mental Health Guide)

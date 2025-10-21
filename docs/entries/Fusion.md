@@ -1,18 +1,17 @@
 ---
-tags:
-
-    - 系统运作
-    - 多重意识体
-    - 解离
-    - 创伤
-
-topic: 系统运作
-title: 融合（Fusion）
-updated: 2025-10-17
+comments: true
 description: 自愿与安全前提下的成员融合；区分功能整合与最终融合，并给出准备要件、过程阶段、风险与回滚策略。
 search:
   boost: 1.5
-comments: true
+tags:
+
+- ops:系统运作
+- sx:创伤症状
+- dx:解离障碍
+
+title: 融合（Fusion）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 融合（Fusion）

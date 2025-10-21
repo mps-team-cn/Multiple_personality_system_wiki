@@ -1,14 +1,5 @@
 ---
-tags:
-
-- 诊断与临床
-- 焦虑
-- 恐惧症
-- 回避
-
-topic: 诊断与临床
-title: 广场恐惧症(Agoraphobia, AG)
-updated: 2025-10-14
+comments: true
 synonyms:
 
 - 广场恐惧症
@@ -17,7 +8,14 @@ synonyms:
 - 场所恐惧症
 - guangchang kongjuzheng
 
-comments: true
+tags:
+
+- dx:焦虑障碍
+- guide:诊断与临床
+
+title: 广场恐惧症(Agoraphobia, AG)
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 广场恐惧症(Agoraphobia, AG)

@@ -1,21 +1,19 @@
 ---
-tags:
-
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
-
-topic: 理论与分类
-title: 心理弹性（Psychological Resilience）
-updated: 2025-10-13
+comments: true
 synonyms:
 
 - 心理韧性
 - 复原力
 - resilience
 
-comments: true
+tags:
+
+- dx:解离障碍
+- sx:创伤症状
+
+title: 心理弹性（Psychological Resilience）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 心理弹性（Psychological Resilience）
@@ -36,7 +34,7 @@ comments: true
 
 ## 在多意识体与解离语境中的意义
 
-多重意识体系统的弹性体现为成员之间的协作、角色灵活性与资源共享。通过强化内部支持、稳定外部关系，系统能够更好地面对触发与生活压力，减少功能崩溃。
+多意识体系统的弹性体现为成员之间的协作、角色灵活性与资源共享。通过强化内部支持、稳定外部关系，系统能够更好地面对触发与生活压力，减少功能崩溃。
 
 ## 实践应用与建议
 

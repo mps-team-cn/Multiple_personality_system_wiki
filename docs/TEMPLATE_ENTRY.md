@@ -3,7 +3,7 @@
 以下内容可直接复制，用于新建条目。
 
 - 新建词条时请先填写 Frontmatter：
-    - `title`（一级标题文字）、`tags`（一个或多个分类标签）
+- `title`（一级标题文字）、`tags`（一个或多个分类标签，遵循 Tagging Standard v2.0，最多 5 个）
     - `synonyms`（同义词/别名列表）
     - `description`（简洁的词条描述，用于 SEO，建议 120-155 字符）
     - `updated`（YYYY-MM-DD）
@@ -18,7 +18,7 @@
     - 文化与表现 - 影视作品、文学作品中的多意识体主题
     - `synonyms` 使用 YAML 列表，建议包含中文别名、英文缩写以及常见拼音写法，以便搜索索引归一化。
     - Frontmatter 仅作为站内脚本与索引的元数据，页面渲染时不会显示这些字段。
-    - `tags` 建议与 `tags.md` 中已有标签保持一致，可按需要追加多个标签。
+    - `tags` 必须遵循 `docs/contributing/tagging-standard.md`（分面前缀 + 名称，≤ 5）。
 
 ## 新建词条
 

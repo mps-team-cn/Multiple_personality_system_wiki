@@ -1,18 +1,17 @@
 ---
-tags:
-
-    - 系统运作
-    - 多重意识体
-    - 解离
-    - 创伤
-
-topic: 系统运作
-title: 共前台（Co-fronting）
-updated: 2025-10-18
+comments: true
 description: 定义多人共享前台的协作形态，区分与切换/融合/混合/并行与意识共存，提供分工、信号与负荷管理建议以及误解澄清。
 search:
   boost: 1.5
-comments: true
+tags:
+
+- ops:系统运作
+- sx:创伤症状
+- dx:解离障碍
+
+title: 共前台（Co-fronting）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 共前台（Co-fronting）

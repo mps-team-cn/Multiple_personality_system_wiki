@@ -1,21 +1,20 @@
 ---
-tags:
-
-- 系统运作
-- 多重意识体
-- 解离
-- 创伤
-
-topic: 系统运作
-title: 存在感（Sense of Presence）
+comments: true
 synonyms:
 
-    - 共感知
-    - Sense of Presence
-    - Co-awareness
+- 共感知
+- Sense of Presence
+- Co-awareness
 
-updated: 2025-10-18
-comments: true
+tags:
+
+- ops:系统运作
+- sx:创伤症状
+- dx:解离障碍
+
+title: 存在感（Sense of Presence）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 存在感（Sense of Presence）
@@ -46,7 +45,7 @@ comments: true
 
 - **定期内省** : 在日常活动或冥想后进行简短的内部点名，确认谁在场，帮助成员被看见。
 - **建立信号** : 当班成员可请其他人以特定感官提示（如轻敲或特定词语）表示“在场”，减少误判。
-- **与专业者沟通** : 若存在感变化伴随解离加剧或影响功能，可与熟悉多重意识体验的治疗者讨论。
+- **与专业者沟通** : 若存在感变化伴随解离加剧或影响功能，可与熟悉多意识体验的治疗者讨论。
 
 ## 相关条目
 

@@ -1,13 +1,8 @@
 ---
-tags:
-
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
-
-topic: 角色与身份
-title: 幻想伙伴（Imaginary Companion）
+comments: true
+description: 儿童幻想伙伴的心理机制、与 Tulpa 及解离现象的区别、文化与社群延伸用法
+search:
+  boost: 1.5
 synonyms:
 
 - 幻想朋友
@@ -15,11 +10,15 @@ synonyms:
 - 虚构同伴
 - 虚拟玩伴
 
-description: 儿童幻想伙伴的心理机制、与 Tulpa 及解离现象的区别、文化与社群延伸用法
-updated: 2025-10-18
-comments: true
-search:
-  boost: 1.5
+tags:
+
+- role:系统角色
+- dx:解离障碍
+- sx:创伤症状
+
+title: 幻想伙伴（Imaginary Companion）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 幻想伙伴（Imaginary Companion）
@@ -96,4 +95,4 @@ search:
 - [系统（System）](System.md)
 - [解离（Dissociation）](Dissociation.md)
 - [宿主（Host）](Host.md)
-- [投影（Projection）](Projection.md)
+- [外投射（External Projection）](External-Projection.md)

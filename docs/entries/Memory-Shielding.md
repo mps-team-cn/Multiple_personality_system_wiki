@@ -1,28 +1,27 @@
 ---
-title: 记忆屏蔽（Memory Shielding）
-topic: 系统运作
-tags:
-
-    - 系统运作
-    - 多重意识体
-    - 解离
-    - 创伤
-
-updated: 2025-10-19
+comments: true
 description: 记忆屏蔽是多意识体社群中的经验性术语，指身份间对特定记忆的访问限制。非 DSM-5-TR/ICD-11 正式术语；临床处置以稳定化与创伤加工整合为主。
 search:
   boost: 1.4
 synonyms:
 
-    - 记忆屏障
-    - 屏障记忆
-    - 屏蔽记忆
-    - 记忆隔离
-    - 记忆封存
-    - Memory Shielding
-    - Amnesiacflux
+- 记忆屏障
+- 屏障记忆
+- 屏蔽记忆
+- 记忆隔离
+- 记忆封存
+- Memory Shielding
+- Amnesiacflux
 
-comments: true
+tags:
+
+- ops:系统运作
+- sx:创伤症状
+- dx:解离障碍
+
+title: 记忆屏蔽（Memory Shielding）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 记忆屏蔽（Memory Shielding）
@@ -40,7 +39,7 @@ comments: true
 
 本节概述“记忆屏蔽”的通用内涵与边界。
 
-**记忆屏蔽**（Memory Shielding）是指多重意识体系统中，个体或系统成员通过主动策略或被动机制，限制特定记忆在不同身份状态间的共享、访问与提取。其可作为保护性措施，也可表现为创伤后自动化的防御反应；不构成独立诊断。
+**记忆屏蔽**（Memory Shielding）是指多意识体系统中，个体或系统成员通过主动策略或被动机制，限制特定记忆在不同身份状态间的共享、访问与提取。其可作为保护性措施，也可表现为创伤后自动化的防御反应；不构成独立诊断。
 
 ### 核心特征
 

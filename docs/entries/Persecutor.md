@@ -1,26 +1,25 @@
 ---
-tags:
-
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
-
-topic: 角色与身份
-description: 迫害者（Persecutor）成员的本质、形成原因与转化。理解看似敌对的成员实际上的保护意图，探索化解内部冲突的方法
-title: 迫害者（Persecutor）
-updated: 2025-10-19
 comments: true
-synonyms:
-
-    - 内在迫害者
-    - 自惩角色
-    - persecutory alter
-    - Persecutory Part
-    - 迫害性成员
-
+description: 迫害者（Persecutor）成员的本质、形成原因与转化。理解看似敌对的成员实际上的保护意图，探索化解内部冲突的方法
 search:
   boost: 1.5
+synonyms:
+
+- 内在迫害者
+- 自惩角色
+- persecutory alter
+- Persecutory Part
+- 迫害性成员
+
+tags:
+
+- role:系统角色
+- dx:解离障碍
+- sx:创伤症状
+
+title: 迫害者（Persecutor）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 迫害者（Persecutor）

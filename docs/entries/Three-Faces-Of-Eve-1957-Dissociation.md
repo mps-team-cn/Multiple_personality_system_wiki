@@ -1,14 +1,11 @@
 ---
 tags:
 
-- 文化与表现
-- 多重意识体
-- 解离
-- 创伤
+    - culture:文化表现
 
 topic: 文化与表现
 title: 《三面夏娃》（The Three Faces of Eve, 1957）对解离的早期影视再现
-updated: 2025-10-18
+updated: 2025-10-20
 comments: true
 ---
 

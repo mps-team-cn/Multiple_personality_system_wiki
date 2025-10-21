@@ -1,15 +1,8 @@
 ---
-tags:
-
-- 诊断与临床
-- 多重意识体
-- 解离
-- 创伤
-
-topic: 诊断与临床
+comments: true
 description: 创伤（Trauma）的本质、类型、评估与干预框架。涵盖PTSD、CPTSD、解离等相关障碍，提供创伤知情的评估工具、分阶段治疗策略与风险管理指导。教育用途，非医疗建议。
-title: 创伤（Trauma）
-updated: 2025-10-17
+search:
+  boost: 1.8
 synonyms:
 
 - 心理创伤
@@ -24,9 +17,15 @@ synonyms:
 - Post-Traumatic Growth
 - chuangshang
 
-search:
-  boost: 1.8
-comments: true
+tags:
+
+- guide:诊断与临床
+- dx:解离障碍
+- sx:创伤症状
+
+title: 创伤（Trauma）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 创伤（Trauma）

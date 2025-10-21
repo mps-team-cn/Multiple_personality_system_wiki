@@ -1,23 +1,22 @@
 ---
-tags:
-
-    - 诊断与临床
-    - 物质使用
-    - 成瘾
-
-topic: 诊断与临床
-title: 酒精相关障碍（Alcohol-Related Disorders）
+comments: true
+description: 全面了解酒精相关障碍的诊断标准、临床表现与治疗方法,包括酒精使用障碍、酒精中毒、酒精戒断等核心内容
 synonyms:
 
-    - 酒精使用障碍
-    - 酒精依赖
-    - 酗酒
-    - Alcohol Use Disorder
-    - AUD
+- 酒精使用障碍
+- 酒精依赖
+- 酗酒
+- Alcohol Use Disorder
+- AUD
 
-description: 全面了解酒精相关障碍的诊断标准、临床表现与治疗方法,包括酒精使用障碍、酒精中毒、酒精戒断等核心内容
-updated: 2025-10-16
-comments: true
+tags:
+
+- guide:诊断与临床
+- dx:物质使用障碍
+
+title: 酒精相关障碍（Alcohol-Related Disorders）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 酒精相关障碍（Alcohol-Related Disorders）

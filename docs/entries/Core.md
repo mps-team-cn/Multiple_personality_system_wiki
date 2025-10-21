@@ -1,19 +1,18 @@
 ---
-tags:
-
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
-
-topic: 角色与身份
-title: 核心（Core）
+comments: true
 synonyms:
 
-    - 内核
+- 内核
 
-updated: 2025-10-18
-comments: true
+tags:
+
+- role:系统角色
+- dx:解离障碍
+- sx:创伤症状
+
+title: 核心（Core）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 核心（Core）

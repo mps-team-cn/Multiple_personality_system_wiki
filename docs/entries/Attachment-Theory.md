@@ -1,21 +1,19 @@
 ---
-tags:
-
-- 理论与分类
-- 多重意识体
-- 解离
-- 创伤
-
-topic: 理论与分类
-title: 依恋理论（Attachment Theory）
-updated: 2025-10-13
+comments: true
 synonyms:
 
 - 依附理论
 - 依恋关系理论
 - attachment theory
 
-comments: true
+tags:
+
+- dx:解离障碍
+- sx:创伤症状
+
+title: 依恋理论（Attachment Theory）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 依恋理论（Attachment Theory）

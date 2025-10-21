@@ -1,20 +1,18 @@
 ---
-tags:
-
-- 理论与分类
-- 多重意识体
-- 解离
-
-topic: 理论与分类
-title: 注意与觉察（Attention & Awareness）
-updated: 2025-10-13
+comments: true
 synonyms:
 
 - 注意力与觉察
 - 注意觉察
 - attention and awareness
 
-comments: true
+tags:
+
+- dx:解离障碍
+
+title: 注意与觉察（Attention & Awareness）
+topic: 理论与分类
+updated: 2025-10-20
 ---
 
 # 注意与觉察（Attention & Awareness）

@@ -1,15 +1,14 @@
 ---
+comments: true
 tags:
 
-- 角色与身份
-- 多重意识体
-- 解离
-- 创伤
+- role:系统角色
+- dx:解离障碍
+- sx:创伤症状
 
-topic: 角色与身份
 title: 傀儡（Servitor）
-updated: 2025-10-13
-comments: true
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 傀儡（Servitor）
@@ -45,7 +44,7 @@ comments: true
 - [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
 - [《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）](Nonexistent-You-And-Me-Tulpa-Lilith.md)
 - [《东方Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](Touhou-Tulpa-Fandom.md)
-- [投影（Projection）](Projection.md)
+- [外投射（External Projection）](External-Projection.md)
 - [头压（Head Pressure）](Head-Pressure.md)
 
 ## 参考与延伸阅读

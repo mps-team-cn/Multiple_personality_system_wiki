@@ -1,17 +1,14 @@
 ---
-title: 经颅微电流刺激（Cranial Electrotherapy Stimulation, CES）
-topic: 诊断与临床
+comments: true
 tags:
 
-    - 生物治疗
-    - 脑刺激
-    - 焦虑障碍
-    - 失眠
-    - 抑郁障碍
-    - 临床干预
+- bio:脑刺激
+- dx:抑郁障碍
+- dx:焦虑障碍
 
-updated: 2025-10-17
-comments: true
+title: 经颅微电流刺激（Cranial Electrotherapy Stimulation, CES）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 经颅微电流刺激（Cranial Electrotherapy Stimulation, CES）

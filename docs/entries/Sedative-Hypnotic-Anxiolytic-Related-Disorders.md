@@ -1,23 +1,22 @@
 ---
-tags:
-
-    - 诊断与临床
-    - 物质使用
-    - 成瘾
-
-topic: 诊断与临床
-title: 镇静催眠抗焦虑药相关障碍（Sedative-Hypnotic-Anxiolytic-Related Disorders）
+comments: true
+description: 全面了解镇静催眠抗焦虑药相关障碍的诊断标准、临床表现与治疗方法,包括苯二氮䓬类依赖、戒断风险及安全减停策略
 synonyms:
 
-    - 镇静剂使用障碍
-    - 苯二氮䓬类依赖
-    - 安眠药成瘾
-    - Sedative Use Disorder
-    - Benzodiazepine Dependence
+- 镇静剂使用障碍
+- 苯二氮䓬类依赖
+- 安眠药成瘾
+- Sedative Use Disorder
+- Benzodiazepine Dependence
 
-description: 全面了解镇静催眠抗焦虑药相关障碍的诊断标准、临床表现与治疗方法,包括苯二氮䓬类依赖、戒断风险及安全减停策略
-updated: 2025-10-16
-comments: true
+tags:
+
+- guide:诊断与临床
+- dx:物质使用障碍
+
+title: 镇静催眠抗焦虑药相关障碍（Sedative-Hypnotic-Anxiolytic-Related Disorders）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 镇静催眠抗焦虑药相关障碍（Sedative-Hypnotic-Anxiolytic-Related Disorders）

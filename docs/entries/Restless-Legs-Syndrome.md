@@ -1,14 +1,7 @@
 ---
-tags:
-
-- 诊断与临床
-- 共病
-- 睡眠
-- 感觉运动障碍
-
-topic: 诊断与临床
-title: 不宁腿综合征（Restless Legs Syndrome，RLS）
-updated: 2025-10-19
+comments: true
+description: 深入解析不宁腿综合征的诊断标准、临床表现与治疗方法。了解腿部不适感、活动冲动与睡眠障碍的特征,以及铁剂补充与多巴胺能药物治疗策略,包含 ICD-11
+  与 DSM-5-TR 权威诊断标准
 synonyms:
 
 - 不安腿综合征
@@ -18,8 +11,15 @@ synonyms:
 - Restless Legs Syndrome
 - RLS
 
-description: 深入解析不宁腿综合征的诊断标准、临床表现与治疗方法。了解腿部不适感、活动冲动与睡眠障碍的特征,以及铁剂补充与多巴胺能药物治疗策略,包含 ICD-11 与 DSM-5-TR 权威诊断标准
-comments: true
+tags:
+
+- guide:诊断与临床
+- dx:共病
+- sleep:睡眠障碍
+
+title: 不宁腿综合征（Restless Legs Syndrome，RLS）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 不宁腿综合征（Restless Legs Syndrome，RLS）

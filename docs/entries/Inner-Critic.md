@@ -1,26 +1,25 @@
 ---
-title: 内在批评者（Inner Critic）
-topic: 角色与身份
-tags:
-
-    - 角色与身份
-    - 多重意识体
-    - 解离
-    - 创伤
-
+comments: true
 description: 内在批评者（Inner Critic）的形成机制、功能与调节策略。探讨其与迫害者（Persecutor）及自我评价系统的关系，区分临床与社群语境的不同用法。
-updated: 2025-10-19
 search:
   boost: 1.4
 synonyms:
 
-    - 内心批评者
-    - 批评性自我
-    - Inner Critic
-    - 自我批评者
-    - 内在审判者
+- 内心批评者
+- 批评性自我
+- Inner Critic
+- 自我批评者
+- 内在审判者
 
-comments: true
+tags:
+
+- role:系统角色
+- dx:解离障碍
+- sx:创伤症状
+
+title: 内在批评者（Inner Critic）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 内在批评者（Inner Critic）

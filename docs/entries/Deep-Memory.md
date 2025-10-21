@@ -1,30 +1,27 @@
 ---
-title: 深层记忆(Deep Memory)
-updated: 2025-10-19
-tags:
-
-    - 诊断与临床
-    - 创伤与解离
-    - 多重意识体
-    - 创伤
-
-topic: 诊断与临床
-status: stable
-risk: high
-clinical_notice: true
-search:
-  boost: 1.5
-description: 深层记忆是与核心创伤、情绪图式高度相关的隐性记忆材料,通常以碎片化形式储存。探索需在专业指导下进行,本条目详述特征、风险、循证方法与安全前提。
-synonyms:
-
-    - 深层记忆
-    - Deep Memory
-    - shenceng jiyi
-
 alias_notes:
   Core Memory/核心记忆: 与通俗文化及技术领域的"核心记忆"概念不同,此处特指创伤相关的深层记忆材料
-
+clinical_notice: true
 comments: true
+description: 深层记忆是与核心创伤、情绪图式高度相关的隐性记忆材料,通常以碎片化形式储存。探索需在专业指导下进行,本条目详述特征、风险、循证方法与安全前提。
+risk: high
+search:
+  boost: 1.5
+status: stable
+synonyms:
+
+- 深层记忆
+- Deep Memory
+- shenceng jiyi
+
+tags:
+
+- guide:诊断与临床
+- sx:创伤症状
+
+title: 深层记忆(Deep Memory)
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 深层记忆(Deep Memory)
@@ -65,7 +62,7 @@ comments: true
 
 **深层记忆** 是指平时意识不易直接触达、与自我核心经验/长期情绪图式高度相关的记忆材料。这些记忆常与创伤经历、早期依恋模式、长期压力场景或在解离系统中被隔离的记忆块有关。[^VanDerHart2006] 深层记忆通常以碎片化、感觉化或情绪化的形式储存,而非完整的叙事性记忆,因此在日常意识层面往往呈现为模糊的不安感、躯体反应或难以名状的情绪。
 
-在 **多意识体系统**(Multiple Personality System, MPS,亦称多重意识体)中,深层记忆常由特定成员(如[创伤持有者](Trauma-Holder.md)、[记忆持有者](Memory-Holder.md)、[碎片](Fragment.md))保管,形成功能性隔离,以保护系统整体免受情绪洪流冲击。[^Steele2017] 深层记忆的探索与整合是[三阶段创伤治疗](Three-Phase-Trauma-Treatment.md)中第二阶段的核心任务,但必须在充分稳定化与专业支持下进行。
+在 **多意识体系统**(Multiple Personality System, MPS,亦称多意识体)中,深层记忆常由特定成员(如[创伤持有者](Trauma-Holder.md)、[记忆持有者](Memory-Holder.md)、[碎片](Fragment.md))保管,形成功能性隔离,以保护系统整体免受情绪洪流冲击。[^Steele2017] 深层记忆的探索与整合是[三阶段创伤治疗](Three-Phase-Trauma-Treatment.md)中第二阶段的核心任务,但必须在充分稳定化与专业支持下进行。
 
 ---
 

@@ -1,23 +1,22 @@
 ---
-tags:
-
-    - 诊断与临床
-    - 物质使用
-    - 成瘾
-
-topic: 诊断与临床
-title: 烟草相关障碍（Tobacco-Related Disorders）
+comments: true
+description: 全面了解烟草相关障碍的诊断标准、临床表现与戒烟治疗方法,包括尼古丁依赖、烟草戒断及戒烟策略
 synonyms:
 
-    - 烟草使用障碍
-    - 尼古丁依赖
-    - 吸烟成瘾
-    - Tobacco Use Disorder
-    - Nicotine Dependence
+- 烟草使用障碍
+- 尼古丁依赖
+- 吸烟成瘾
+- Tobacco Use Disorder
+- Nicotine Dependence
 
-description: 全面了解烟草相关障碍的诊断标准、临床表现与戒烟治疗方法,包括尼古丁依赖、烟草戒断及戒烟策略
-updated: 2025-10-16
-comments: true
+tags:
+
+- guide:诊断与临床
+- dx:物质使用障碍
+
+title: 烟草相关障碍（Tobacco-Related Disorders）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 烟草相关障碍（Tobacco-Related Disorders）

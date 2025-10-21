@@ -1,20 +1,18 @@
 ---
-tags:
-
-- 角色与身份
-- 适应型
-- 多重意识体
-- 解离
-
-topic: 角色与身份
-title: 适应型（Adaptive）
-updated: 2025-10-13
+comments: true
 synonyms:
 
 - 适应型
 - 创伤型
 
-comments: true
+tags:
+
+- role:系统角色
+- dx:解离障碍
+
+title: 适应型（Adaptive）
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 适应型（Adaptive）

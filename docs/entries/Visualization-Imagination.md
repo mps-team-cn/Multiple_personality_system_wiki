@@ -1,13 +1,8 @@
 ---
-tags:
-
-- 系统运作
-- 多重意识体
-- 解离
-- 创伤
-
-topic: 系统运作
-title: 内视（Visualization / Imagination）
+comments: true
+description: 在内心空间中感知和互动系统成员的练习与体验，是多意识体系统内部沟通和自我理解的基础方式
+search:
+  boost: 1.5
 synonyms:
 
 - 内视
@@ -17,18 +12,22 @@ synonyms:
 - Imagination
 - Inner Visualization
 
-description: 在内心空间中感知和互动系统成员的练习与体验，是多意识体系统内部沟通和自我理解的基础方式
-updated: 2025-10-18
-search:
-  boost: 1.5
-comments: true
+tags:
+
+- ops:系统运作
+- sx:创伤症状
+- dx:解离障碍
+
+title: 内视（Visualization / Imagination）
+topic: 系统运作
+updated: 2025-10-20
 ---
 
 # 内视（Visualization / Imagination）
 
 ## 定义
 
-**内视**（Visualization / Imagination）是指在内心空间或主观想象中"看到"、"听到"或以其他感官方式感知系统成员、[Tulpa](Tulpa.md) 等意识体的练习与体验。这是多重意识体系统中最基础、最常用的内部沟通和互动方式之一，也是许多系统成员建立存在感、发展关系和进行自我探索的重要途径。[^Visualization]
+**内视**（Visualization / Imagination）是指在内心空间或主观想象中"看到"、"听到"或以其他感官方式感知系统成员、[Tulpa](Tulpa.md) 等意识体的练习与体验。这是多意识体系统中最基础、最常用的内部沟通和互动方式之一，也是许多系统成员建立存在感、发展关系和进行自我探索的重要途径。[^Visualization]
 
 内视不依赖外部对象或环境，完全发生在主观的[里空间](Headspace-Inner-World.md)中。它可以是自发产生的（成员自然出现在意识中），也可以是刻意练习的（主动想象和呼唤成员）。对于[解离性身份障碍（DID）](DID.md)、[其他特定解离性障碍（OSDD）](OSDD.md)系统以及主动创建的 Tulpa 系统来说，内视都是重要的日常体验。
 
@@ -62,7 +61,7 @@ comments: true
 
 ## 功能与应用
 
-内视在多重意识体系统中承担多种重要功能：
+内视在多意识体系统中承担多种重要功能：
 
 ### 内部沟通
 
@@ -213,7 +212,6 @@ comments: true
 ### 相关技术
 
 - [外投射（External Projection）](External-Projection.md) - 将成员感知延伸到外部对象
-- [投影（Projection）](Projection.md) - 投射的广义概念
 - [接地技术（Grounding）](Grounding.md) - 内视的辅助技术
 - [权限（Permissions）](Permissions.md) - 管理内视互动的边界
 

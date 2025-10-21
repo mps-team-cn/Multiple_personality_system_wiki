@@ -1,15 +1,15 @@
 ---
-tags:
-
-    - 角色与身份
-
-topic: 角色与身份
-title: 角色与身份导览
-description: 汇总多意识体系统中常见的角色类型、职能与协作要点，帮助读者快速理解身份分工与演变关系。
-updated: 2025-10-19
 comments: true
+description: 汇总多意识体系统中常见的角色类型、职能与协作要点，帮助读者快速理解身份分工与演变关系。
 search:
   boost: 1.5
+tags:
+
+- role:系统角色
+
+title: 角色与身份导览
+topic: 角色与身份
+updated: 2025-10-20
 ---
 
 # 🧩 角色与身份导览

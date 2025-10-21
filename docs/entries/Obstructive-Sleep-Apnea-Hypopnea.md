@@ -1,14 +1,7 @@
 ---
-tags:
-
-- 诊断与临床
-- 共病
-- 睡眠
-- 风险管理
-
-topic: 诊断与临床
-title: 阻塞性睡眠呼吸暂停低通气（Obstructive Sleep Apnea Hypopnea，OSAH）
-updated: 2025-10-19
+comments: true
+description: 深入解析阻塞性睡眠呼吸暂停低通气的诊断标准、临床表现与治疗方法。了解打鼾、呼吸暂停与日间嗜睡的特征,以及 CPAP 治疗与生活方式干预策略,包含
+  ICD-11 与 DSM-5-TR 权威诊断标准
 synonyms:
 
 - 阻塞性睡眠呼吸暂停
@@ -17,8 +10,16 @@ synonyms:
 - OSAHS
 - Obstructive Sleep Apnea Hypopnea Syndrome
 
-description: 深入解析阻塞性睡眠呼吸暂停低通气的诊断标准、临床表现与治疗方法。了解打鼾、呼吸暂停与日间嗜睡的特征,以及 CPAP 治疗与生活方式干预策略,包含 ICD-11 与 DSM-5-TR 权威诊断标准
-comments: true
+tags:
+
+- guide:诊断与临床
+- dx:共病
+- sleep:睡眠障碍
+- guide:风险管理
+
+title: 阻塞性睡眠呼吸暂停低通气（Obstructive Sleep Apnea Hypopnea，OSAH）
+topic: 诊断与临床
+updated: 2025-10-20
 ---
 
 # 阻塞性睡眠呼吸暂停低通气（Obstructive Sleep Apnea Hypopnea，OSAH）
