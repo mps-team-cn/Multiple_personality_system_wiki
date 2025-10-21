@@ -19,6 +19,7 @@ hide:
 ## 词条一览
 
 - [紧张症（Catatonia）](Catatonia.md) — *2025-10-21*
+- [谵妄（Delirium）](Delirium.md) — *2025-10-21*
 - [其他特定的或未特定的精神病性障碍（Other Specified/Unspecified Psychotic Disorder）](Other-Specified-or-Unspecified-Psychotic-Disorder.md) — *2025-10-21*
 - [躯体疾病所致精神病性障碍（Psychotic Disorder Due to Another Medical Condition）](Psychotic-Disorder-Due-to-Another-Medical-Condition.md) — *2025-10-21*
 - [物质/药物所致精神病性障碍（Substance/Medication-Induced Psychotic Disorder）](Substance-Medication-Induced-Psychotic-Disorder.md) — *2025-10-21*
@@ -56,7 +57,6 @@ hide:
 - [DSM-5-TR 评估量表总览](DSM-5TR-Scales.md) — *2025-10-20*
 - [深层记忆(Deep Memory)](Deep-Memory.md) — *2025-10-20*
 - [妄想障碍（Delusional Disorder）](Delusional-Disorder.md) — *2025-10-20*
-- [谵妄（Delirium）](Delirium.md) — *2025-10-21*
 - [依赖型人格障碍（Dependent Personality Disorder，DPD）](Dependent-Personality-Disorder-DPD.md) — *2025-10-20*
 - [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](Depersonalization-Derealization-Disorder-DPDR.md) — *2025-10-20*
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md) — *2025-10-20*

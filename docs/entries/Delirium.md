@@ -2,19 +2,23 @@
 title: 谵妄（Delirium）
 topic: 诊断与临床
 tags:
-  - 诊断与临床
-  - 神经认知障碍
-  - 急性状态
-  - 创伤
+
+    - 诊断与临床
+    - 神经认知障碍
+    - 急性状态
+    - 创伤
+
 updated: 2025-10-21
 description: 急性意识混乱与注意障碍的医学急症，聚焦谵妄的诊断标准、诱因、鉴别与创伤知情照护要点。
 comments: true
 synonyms:
-  - 谵妄
-  - 急性意识障碍
-  - 意识混乱
-  - delirium
-  - 急性脑功能紊乱
+
+    - 谵妄
+    - 急性意识障碍
+    - 意识混乱
+    - delirium
+    - 急性脑功能紊乱
+
 ---
 
 # 谵妄（Delirium）
@@ -32,7 +36,7 @@ synonyms:
 
 ## 概述
 
-> **核心要点速览**  
+> **核心要点速览**
 > 谵妄是急性、可逆的意识与认知障碍综合征，症状在数小时至数日内起病并呈日内波动。核心表现包括注意力受损、意识水平改变、认知混乱与睡眠—觉醒节律紊乱，多由躯体疾病、药物或代谢失衡等可逆诱因导致。及时识别并处理病因，可显著降低并发症与死亡风险。
 
 谵妄是一种在短时间内发生并呈波动性的急性脑功能障碍，属于意识障碍谱系中的临床急症。常见临床表现包括注意力难以维持、定向力下降、语言混乱、幻觉或妄想以及显著的睡眠节律改变。对既往存在神经认知障碍或经历重大创伤的个体而言，谵妄会显著增加跌倒、并发症与死亡率的风险，需迅速识别诱因并给予整合式照护。[^who2023][^inouye2014]
@@ -193,4 +197,3 @@ synonyms:
 [^flaherty2020]: Flaherty, J. H., & Little, M. O. (2020). Matching the environment to patients with delirium: Lessons learned from the delirium room. *Journal of the American Geriatrics Society, 68*(2), 455–461.
 
 [^shrestha2020]: Shrestha, S., Granger, B. B., & McKeon, S. (2020). Screening, diagnosis, and prevention of delirium in hospitalized older adults: A review. *Clinical Geriatrics, 28*(1), 22–31.
-
