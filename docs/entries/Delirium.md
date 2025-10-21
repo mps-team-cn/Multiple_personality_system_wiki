@@ -3,10 +3,10 @@ title: 谵妄（Delirium）
 topic: 诊断与临床
 tags:
 
-  - guide:诊断与临床
-  - dx:谵妄
-  - sx:意识障碍
-  - sx:认知混乱
+    - guide:诊断与临床
+    - dx:谵妄
+    - sx:意识障碍
+    - sx:认知混乱
 
 updated: 2025-10-21
 description: 急性意识混乱与注意障碍的医学急症，聚焦谵妄的诊断标准、诱因、鉴别与创伤知情照护要点。
