@@ -155,12 +155,14 @@ def main(argv: Sequence[str] | None = None) -> None:
 
     if sys.stdout.isatty():
         print("📚 收集 Markdown 文件结构...")
-    structure = collect_markdown_structure(ignore_rules)
+    preface_doc, structure = collect_markdown_structure(ignore_rules)
     if not structure:
         raise SystemExit("没有找到可以导出的 Markdown 文件。")
 
     # 统计文件数量
     total_entries = sum(len(entries) for _, entries in structure)
+    if preface_doc:
+        total_entries += 1  # 包含前言
     if sys.stdout.isatty():
         print(f"   找到 {len(structure)} 个分类，共 {total_entries} 个文档")
 
@@ -179,6 +181,7 @@ def main(argv: Sequence[str] | None = None) -> None:
     if sys.stdout.isatty():
         print("🔨 合并 Markdown 内容...")
     combined_markdown = build_combined_markdown(
+        preface_doc=preface_doc,
         structure=structure,
         include_readme=args.include_readme or not ignore_rules.matches(README_PATH),
         include_cover=not args.no_cover,
