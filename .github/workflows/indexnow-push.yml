@@ -52,6 +52,27 @@ jobs:
           echo "🏗️ 构建站点以生成 sitemap.xml..."
           mkdocs build
 
+      - name: 验证 IndexNow 密钥文件
+        run: |
+          echo "🔐 验证 IndexNow 密钥文件可访问性..."
+          KEY_URL="https://wiki.mpsteam.cn/21560e3c9db64767914ef22b96cd7660.txt"
+
+          # 检查文件是否返回 200
+          if ! curl -fsSI "$KEY_URL" >/dev/null; then
+            echo "✗ 密钥文件不可访问: $KEY_URL"
+            exit 1
+          fi
+
+          # 验证内容完全匹配（无换行/BOM）
+          REMOTE=$(curl -fsS "$KEY_URL")
+          KEY="21560e3c9db64767914ef22b96cd7660"
+          if [ "$REMOTE" != "$KEY" ]; then
+            echo "✗ 密钥内容不匹配（可能有换行或 BOM）"
+            exit 1
+          fi
+
+          echo "✓ 密钥文件验证通过"
+
       - name: 推送到 IndexNow (最近修改)
         if: ${{ github.event_name != 'workflow_dispatch' || inputs.mode == 'recent' }}
         run: |
