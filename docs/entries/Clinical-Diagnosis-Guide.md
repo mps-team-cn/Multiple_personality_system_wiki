@@ -103,6 +103,9 @@ search:
   [多维解离量表（MID‑60）](Multidimensional-Inventory-of-Dissociation-MID-60.md) — :octicons-check-16: 已完成
   在线交互式自评（不存储数据），提供 12 个解离子量表的详细评估，包括 DID、OSDD-1、DP/DR、解离性失忆、PTSD、转换障碍等维度，适合多维度筛查与症状模式分析。
 
+  [躯体形式解离问卷（SDQ‑20）](Somatoform-Dissociation-Questionnaire-SDQ-20.md) — :octicons-check-16: 已完成
+  在线交互式自评（不存储数据），评估躯体解离症状的严重程度，包括感觉异常、运动障碍、知觉变化等，含 SDQ-5 简化版，适合识别身体感知解离症状。
+
 ---
 
 ## DSM-5-TR 诊断分类体系
