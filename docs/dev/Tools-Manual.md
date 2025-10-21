@@ -38,56 +38,6 @@ python3 tools/check_descriptions.py
 ...
 ```
 
-### add_descriptions.py - 批量添加 SEO 描述
-
-**文件**:[tools/add_descriptions.py](../../tools/add_descriptions.py)
-
-#### 功能说明
-
-批量为优先级词条添加 SEO 友好的 `description` 字段(120-155 字符),包含:
-
-- 32 个核心词条的精心撰写的描述
-- DID、OSDD、Tulpa、CPTSD 等主要诊断词条
-- 系统运作、创伤疗愈、成员角色等关键概念
-- 符合 SEO 最佳实践的关键词密度
-
-#### 使用方法
-
-```bash
-
-# 为核心词条添加 description
-
-python3 tools/add_descriptions.py
-```
-
-#### 扩展方法
-
-编辑 `tools/add_descriptions.py` 中的 `PRIORITY_DESCRIPTIONS` 字典:
-
-```python
-PRIORITY_DESCRIPTIONS = {
-    "词条文件名.md": "简洁准确的描述文字(120-155 字符,包含核心关键词)",
-    # ...
-}
-```
-
-#### 使用流程
-
-```bash
-
-# 1. 检查当前覆盖情况
-
-python3 tools/check_descriptions.py
-
-# 2. 为核心词条添加 description
-
-python3 tools/add_descriptions.py
-
-# 3. 再次检查验证结果
-
-python3 tools/check_descriptions.py
-```
-
 ## 🔎 搜索优化工具(jieba 词典管理)
 
 **背景**:MkDocs 搜索使用 jieba 分词,需要自定义词典(`data/user_dict.txt`)来优化专业术语的识别。采用 **预处理 + AI 审核 + 自动优化** 的三阶段方案。

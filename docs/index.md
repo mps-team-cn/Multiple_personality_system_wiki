@@ -1,4 +1,6 @@
 ---
+title: Multiple Personality System Wiki - 多意识体系统百科
+description: 专业的多重人格系统(MPS)、解离障碍(DID/OSDD)与创伤疗愈中文知识库首页。从核心概念到实践指南,涵盖诊断临床、系统运作、Tulpa创造等全方位内容,为多意识体系统提供可靠的学习与支持资源
 hide:
 
     - navigation  # 隐藏左侧导航栏

@@ -1,3 +1,10 @@
+---
+title: 更新日志
+description: MPS Wiki 项目版本更新历史与功能变更记录。追踪词条新增、内容完善、工具优化、架构升级等变化,了解多意识体系统知识库的持续演进
+search:
+  exclude: true
+---
+
 # 更新日志
 
 ## [v3.16.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.16.0) - 危机资源上线与量表体验升级 (2025-10-19)

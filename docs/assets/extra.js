@@ -160,7 +160,7 @@ function addStructuredData() {
     "name": "Multiple Personality System Wiki - 多意识体系统百科",
     "alternateName": "多意识体系统百科",
     "url": "https://wiki.mpsteam.cn",
-    "description": "专业的多重人格系统（MPS）、解离障碍（DID/OSDD）与创伤疗愈中文知识库",
+    "description": "专业的多意识体系统（MPS）、解离障碍（DID/OSDD）与创伤疗愈中文知识库",
     "inLanguage": "zh-CN",
     "publisher": {
       "@type": "Organization",
