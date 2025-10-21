@@ -7,6 +7,99 @@ search:
 
 # 更新日志
 
+## [v3.17.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.17.0) - SEO 集成与内容标准化升级 (2025-10-21)
+
+### ✨ 新增功能
+
+- **SEO 自动化系统 (PR #366, #368)**
+    - 集成 IndexNow 自动推送系统，支持 Bing/Yandex 快速收录
+    - 新增 IndexNow 密钥文件预检验证步骤
+    - 修正 `--recent` 参数逻辑，确保提交数而非文件数控制
+    - 在相关文档中添加 SEO 自动化指南链接
+
+### 📚 词条完善
+
+- **精神障碍与解离专题**
+    - **全面重构 [闪回 (Flashback)](entries/Flashback.md)** (PR #367)
+        - 补充闪回与解离的核心区别对照表
+        - 增强创伤记忆再体验的临床描述
+    - **完善 [谵妄 (Delirium)](entries/Delirium.md)** (PR #362, #364, #365, #366)
+        - 按照 DID 词条标准重新排版
+        - 补充流行病学数据与延伸阅读
+        - 修复标签格式和急救提醒语法
+    - **新增四个精神病性障碍词条** (PR #362)
+        - 涵盖精神分裂症谱系与其他精神病性障碍
+
+- **理论与分类体系**
+    - **优化 [ANP-EP 模型](entries/ANP-EP-Model.md)** (PR #355)
+        - 全面增强临床严谨性与实用性
+    - **澄清 [Emmengard 分类法](entries/Emmengard.md)** (PR #352)
+        - 增加 Clinician's Summary 与使用范围说明
+        - 自发型 (Spontaneous) 边界与对照表、风险评估
+    - **新增 [心理学三大势力](entries/Psychoanalysis.md)** (PR #359)
+        - 完善理论框架词条体系
+
+- **角色与系统运作**
+    - **增强 [Blending](entries/Blending.md)** (PR #361)
+        - 优化内容与标签规范
+    - **新增 [主导 (Dominant/Lead)](entries/Dominant.md)** (PR #347)
+    - **修订 [记忆屏蔽 (Memory-Shielding)](entries/Memory-Shielding.md)** (PR #348)
+        - 标注为社群/经验性术语，新增 Clinician's Summary
+        - 补充法证与记忆可靠性警示
+
+- **创伤与疗愈**
+    - **新增 [内在批评者 (Inner-Critic)](entries/Inner-Critic.md)** (PR #343)
+    - **优化 [迫害者 (Persecutor)](entries/Persecutor.md)** (PR #342)
+        - 新增 Clinician's Summary、结构性解离定义与对照表
+    - **创伤与疗愈主题更新** (PR #344)
+        - 新增创伤后成长 (PTG) 词条
+        - 更新三阶段治疗模型与导览
+
+- **其他词条**
+    - **新增 [选择性缄默症 (Selective-Mutism)](entries/Selective-Mutism.md)** - 增加 Clinician's Summary
+    - **新增 [异装癖 (Transvestism，已过时)](entries/Transvestism.md)** (PR #349)
+
+### 🏗️ 架构与标准化
+
+- **术语统一工程** (PR #353, #354)
+    - 全面统一使用"多意识体 (Multiple Personality)"替代其他术语
+    - 确保项目术语一致性
+
+- **标签体系重构** (PR #360)
+    - 引入分面标签规范 (Frontmatter 标签体系)
+    - 优化解离与焦虑障碍词条标签 (PR #358)
+    - 降低文化表现类词条检索权重，突出核心临床内容
+
+- **格式标准化** (PR #351)
+    - 统一 Clinician's Summary 为提示块 (admonition) 格式
+    - 统一提示块类型为 Material 支持的类型
+    - 将非标准提示块类型替换为标准类型
+
+- **链接与导览优化**
+    - 统一"整合/融合"术语并链接至 Fusion/Integration (PR #345)
+    - 将导览章节中文引号改为标准 Markdown 链接
+    - 修正 Tulpa-Guide 文件命名保持系列一致性 (PR #356)
+    - 删除"投影"词条，统一使用"外投射" (PR #357)
+
+### 🔧 工具与基础设施
+
+- **CI 流程优化**
+    - IndexNow 密钥文件路径修正以确保部署可访问
+    - 自动更新词条、分区索引与格式
+
+- **搜索与配置**
+    - 优化标签与搜索配置，提升检索精准度
+    - 优化 `agents.md` 文档
+
+### 📊 影响范围
+
+- 新增 10+ 个词条，完善 20+ 个现有词条
+- 完成术语统一与标签体系标准化
+- 集成 SEO 自动推送提升搜索引擎可见度
+- 多处导览、索引与 Glossary 同步更新
+
+---
+
 ## [v3.16.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.16.0) - 危机资源上线与量表体验升级 (2025-10-19)
 
 ### ✨ 新增词条
