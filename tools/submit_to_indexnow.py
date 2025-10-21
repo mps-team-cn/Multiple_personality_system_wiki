@@ -29,6 +29,9 @@ KEY_LOCATION = f"https://{SITE_HOST}/{INDEXNOW_KEY}.txt"
 PROJECT_ROOT = Path(__file__).parent.parent
 SITEMAP_PATH = PROJECT_ROOT / "site" / "sitemap.xml"
 
+# 密钥文件路径 (MkDocs 会将 docs/ 下的文件复制到 site/)
+KEY_FILE_PATH = PROJECT_ROOT / "docs" / f"{INDEXNOW_KEY}.txt"
+
 
 def parse_sitemap(sitemap_path: Path) -> List[str]:
     """
