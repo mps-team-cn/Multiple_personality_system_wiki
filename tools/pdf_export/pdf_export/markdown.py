@@ -40,6 +40,30 @@ ENTRY_ANGLE_LINK_PATTERN = re.compile(
 from .last_updated import LastUpdatedInfo, render_last_updated_text
 from .models import CategoryStructure, EntryDocument
 
+# MkDocs Material Admonitions 匹配模式
+# 格式: !!! type "title"
+#           content (缩进4空格)
+ADMONITION_PATTERN = re.compile(
+    r'^(?P<marker>!!!|\?\?\?) +(?P<type>\w+)(?: +"(?P<title>[^"]+)")?\s*$',
+    re.MULTILINE
+)
+
+# Admonitions 类型到 LaTeX 样式的映射
+ADMONITION_STYLES = {
+    "note": ("备注", "gray"),
+    "abstract": ("摘要", "gray"),
+    "info": ("信息", "blue"),
+    "tip": ("提示", "green"),
+    "success": ("成功", "green"),
+    "question": ("问题", "yellow"),
+    "warning": ("警告", "orange"),
+    "failure": ("失败", "red"),
+    "danger": ("危险", "red"),
+    "bug": ("错误", "red"),
+    "example": ("示例", "purple"),
+    "quote": ("引用", "gray"),
+}
+
 
 LATEX_SPECIAL_CHARS = {
     "\\": r"\textbackslash{}",
@@ -199,6 +223,93 @@ def strip_primary_heading(content: str, title: str) -> str:
     return "\n".join(stripped)
 
 
+def convert_admonitions_to_latex(markdown: str) -> str:
+    """将 MkDocs Material admonitions 转换为 LaTeX 格式的框。
+
+    MkDocs 格式:
+        !!! warning "标题"
+            内容行1
+            内容行2
+
+    转换为 Pandoc/LaTeX 兼容的块引用格式:
+        > **⚠️ 警告: 标题**
+        >
+        > 内容行1
+        > 内容行2
+    """
+    lines = markdown.splitlines()
+    result = []
+    i = 0
+
+    while i < len(lines):
+        line = lines[i]
+        match = ADMONITION_PATTERN.match(line)
+
+        if match:
+            admon_type = match.group("type").lower()
+            title = match.group("title") or ""
+
+            # 获取类型对应的中文名称和图标
+            type_name, _ = ADMONITION_STYLES.get(admon_type, (admon_type.capitalize(), "gray"))
+
+            # 图标映射
+            icon_map = {
+                "warning": "⚠️",
+                "danger": "🚫",
+                "info": "ℹ️",
+                "tip": "💡",
+                "note": "📝",
+                "success": "✅",
+                "failure": "❌",
+                "bug": "🐛",
+                "example": "📋",
+                "question": "❓",
+                "quote": "💬",
+                "abstract": "📄",
+            }
+            icon = icon_map.get(admon_type, "📌")
+
+            # 构建标题行
+            if title:
+                header = f"> **{icon} {type_name}: {title}**"
+            else:
+                header = f"> **{icon} {type_name}**"
+
+            result.append(header)
+            result.append(">")
+
+            # 收集缩进内容（通常是4个空格）
+            i += 1
+            while i < len(lines):
+                content_line = lines[i]
+
+                # 检查是否是 admonition 内容（缩进行）或空行
+                if content_line.startswith("    "):
+                    # 移除4空格缩进，添加引用标记
+                    result.append(f"> {content_line[4:]}")
+                    i += 1
+                elif not content_line.strip():
+                    # 空行，可能是 admonition 内部的段落分隔
+                    # 先检查下一行是否还是缩进内容
+                    if i + 1 < len(lines) and lines[i + 1].startswith("    "):
+                        result.append(">")
+                        i += 1
+                    else:
+                        # admonition 结束
+                        break
+                else:
+                    # 非缩进行，admonition 结束
+                    break
+
+            # 添加空行分隔
+            result.append("")
+        else:
+            result.append(line)
+            i += 1
+
+    return "\n".join(result)
+
+
 def build_cover_page(
     title: str,
     subtitle: str | None,
@@ -310,6 +421,7 @@ def build_directory_page(
 
 
 def build_combined_markdown(
+    preface_doc: EntryDocument | None,
     structure: CategoryStructure,
     include_readme: bool,
     include_cover: bool,
@@ -321,11 +433,15 @@ def build_combined_markdown(
     cover_online_link_url: str | None,
     last_updated_map: Mapping[str, LastUpdatedInfo] | None = None,
 ) -> str:
-    """将所有 Markdown 文件拼接为单一字符串供 Pandoc 使用。"""
+    """将所有 Markdown 文件拼接为单一字符串供 Pandoc 使用。
+
+    顺序: 封面 -> 目录 -> 前言 -> README -> 内容章节
+    """
 
     parts: list[str] = []
     anchor_lookup = _build_anchor_lookup(structure)
 
+    # 1. 封面页 (LaTeX titlepage)
     if include_cover:
         parts.append(
             build_cover_page(
@@ -338,13 +454,39 @@ def build_combined_markdown(
             )
         )
 
+    # 2. 目录页
     if structure:
         parts.append(build_directory_page(structure, anchor_lookup))
 
+    # 3. 前言（独立章节，不在目录中列出）
+    if preface_doc:
+        # 为前言生成锚点
+        preface_anchor = build_entry_anchor(preface_doc.path)
+        relative = preface_doc.path.relative_to(PROJECT_ROOT)
+        rewritten = rewrite_entry_links(preface_doc.body, anchor_lookup)
+        # 转换 admonitions
+        converted = convert_admonitions_to_latex(rewritten)
+        body = strip_primary_heading(converted, preface_doc.title)
+        shifted = shift_heading_levels(body, offset=1).strip()
+
+        parts.append(f"# {preface_doc.title} {{#{preface_anchor}}}\n\n")
+        if last_updated_map:
+            repo_path = relative.as_posix()
+            last_updated_text = render_last_updated_text(repo_path, last_updated_map)
+            if last_updated_text:
+                parts.append(f"{last_updated_text}\n\n")
+        if shifted:
+            parts.append(shifted)
+            parts.append("\n\n")
+        parts.append(f"<!-- 来源: {relative.as_posix()} -->\n\n")
+        parts.append("\\newpage\n\n")
+
+    # 4. README
     if include_readme and README_PATH.exists():
         parts.append(README_PATH.read_text(encoding="utf-8").strip())
         parts.append("\n\n\\newpage\n")
 
+    # 5. 内容章节
     first_category = True
     for category_title, documents in structure:
         if not documents:
@@ -367,7 +509,9 @@ def build_combined_markdown(
             )
             relative = document.path.relative_to(PROJECT_ROOT)
             rewritten = rewrite_entry_links(document.body, anchor_lookup)
-            body = strip_primary_heading(rewritten, entry_title)
+            # 转换 admonitions
+            converted = convert_admonitions_to_latex(rewritten)
+            body = strip_primary_heading(converted, entry_title)
             shifted = shift_heading_levels(body, offset=2).strip()
 
             parts.append(f"## {entry_title} {{#{anchor}}}\n\n")

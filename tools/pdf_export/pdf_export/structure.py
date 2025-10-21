@@ -19,27 +19,41 @@ from .paths import ENTRIES_DIR, PROJECT_ROOT, PREFACE_PATH, INDEX_PATH, DOCS_DIR
 OTHER_CATEGORY_TITLE = "其他"
 
 
-def _build_preface_section(ignore: IgnoreRules) -> tuple[str, tuple[EntryDocument, ...]] | None:
-    """若存在《前言》，构建对应的章节分组。"""
+def _load_preface_document(ignore: IgnoreRules) -> EntryDocument | None:
+    """若存在《前言》，加载为独立文档(不作为章节)。"""
 
     if not PREFACE_PATH.exists() or ignore.matches(PREFACE_PATH):
         return None
     preface_path = PREFACE_PATH
 
     try:
-        content = preface_path.read_text(encoding="utf-8")
+        raw_content = preface_path.read_text(encoding="utf-8")
     except OSError as error:  # pragma: no cover - 仅在 I/O 出错时触发
         print(f"警告: 无法读取 {preface_path}: {error}", file=sys.stderr)
         return None
 
-    document = EntryDocument(
+    # 移除 frontmatter（如果存在）
+    lines = raw_content.splitlines()
+    body_start = 0
+
+    if lines and lines[0].strip() == "---":
+        # 找到第二个 ---
+        for i in range(1, len(lines)):
+            if lines[i].strip() == "---":
+                body_start = i + 1
+                break
+
+    # 提取正文（去除 frontmatter）
+    body_lines = lines[body_start:]
+    body = "\n".join(body_lines).lstrip("\n")
+
+    return EntryDocument(
         path=preface_path.resolve(),
         title=infer_entry_title(preface_path),
         tags=(),
         topic="",
-        body=content,
+        body=body,
     )
-    return ("前言", (document,))
 
 
 def _load_single_entry(path: Path) -> EntryDocument | tuple[Path, Exception]:
@@ -308,23 +322,25 @@ def _build_untagged_section(
     return ("未分类词条", tuple(ordered))
 
 
-def collect_markdown_structure(ignore: IgnoreRules) -> CategoryStructure:
+def collect_markdown_structure(ignore: IgnoreRules) -> tuple[EntryDocument | None, CategoryStructure]:
     """依据词条的 topic 字段构建 PDF 导出结构。
 
     根据每个词条的 topic 字段自动分组，
     topic 为空的词条归入"其他"分类。
+
+    返回值:
+        tuple[EntryDocument | None, CategoryStructure]: (前言文档, 分类结构)
+        前言文档独立于分类结构，会在封面和目录之后单独插入
     """
 
     documents = _load_entry_documents(ignore)
     categories: list[tuple[str, tuple[EntryDocument, ...]]] = []
 
-    # 添加前言章节
-    preface_section = _build_preface_section(ignore)
-    if preface_section is not None:
-        categories.append(preface_section)
+    # 加载前言文档（独立于章节结构）
+    preface_doc = _load_preface_document(ignore)
 
     # 按 topic 构建章节（包含"其他"分类）
     topic_sections = _build_sections_by_topic(documents.values())
     categories.extend(topic_sections)
 
-    return tuple(categories)
+    return (preface_doc, tuple(categories))
