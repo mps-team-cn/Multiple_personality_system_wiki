@@ -1,11 +1,13 @@
 ---
 description: 躯体形式解离问卷（SDQ‑20）中文交互版，评估躯体解离症状的严重程度，含 SDQ-5 简化版，自评筛查与教育用途。
 hide:
+
 - toc
 
 search:
   boost: 1.5
 synonyms:
+
 - 躯体形式解离问卷
 - 躯体解离问卷
 - Somatoform Dissociation Questionnaire
@@ -14,6 +16,7 @@ synonyms:
 - SDQ-5
 
 tags:
+
 - scale:SDQ-20
 - scale:评估量表
 - dx:解离障碍
@@ -38,18 +41,19 @@ updated: 2025-10-21
 - **知觉变化**：视觉、听觉、嗅觉、味觉的异常体验
 - **其他躯体症状**：排尿困难、生殖器疼痛、类癫痫发作等
 
-SDQ-20 是一个**单维度量表**，测量躯体解离作为一个整体构念。量表具有高内部一致性（Cronbach's α 通常 >0.90）。
+SDQ-20 是一个 **单维度量表**，测量躯体解离作为一个整体构念。量表具有高内部一致性（Cronbach's α 通常 >0.90）。
 
 ## 评分说明
 
 !!! tip "使用说明"
+
     - 每题采用 **1-5 分** 李克特量表评分：
         - **1 = 完全没有**
         - **2 = 有一点**
         - **3 = 中等**
         - **4 = 相当多**
         - **5 = 非常多**
-    - 请根据**过去一年**的实际体验作答
+    - 请根据 **过去一年** 的实际体验作答
     - 建议按直觉作答，尽量不要反复修改
     - 原版问卷要求若评分 2-5 分，需标注"医生是否认为此症状由躯体疾病解释"（本在线版为简化版）
 
@@ -315,12 +319,12 @@ SDQ-20 主要用于：
 
 ## 相关词条
 
-- [解离性身份障碍 (DID)](DID.md)
-- [解离经验量表 (DES-II)](Dissociative-Experiences-Scale-DES-II.md)
-- [多维解离量表 (MID-60)](Multidimensional-Inventory-of-Dissociation-MID-60.md)
-- [创伤 (Trauma)](Trauma.md)
+- [解离性身份障碍 （DID）](DID.md)
+- [解离经验量表 （DES-II）](Dissociative-Experiences-Scale-DES-II.md)
+- [多维解离量表 （MID-60）](Multidimensional-Inventory-of-Dissociation-MID-60.md)
+- [创伤 （Trauma）](Trauma.md)
 
 ## 外部链接
 
 - [SDQ-20 官方页面](https://www.enijenhuis.nl/sdq20)（原作者网站）
-- [European Society for Trauma and Dissociation (ESTD)](https://www.estd.org/)
+- [European Society for Trauma and Dissociation （ESTD）](https://www.estd.org/)

@@ -108,6 +108,7 @@
         * [躁狂（Mania）](entries/Mania.md)
         * [躯体化障碍（Somatic Symptom Disorder，SSD）](entries/Somatic-Symptom-Disorder-SSD.md)
         * [躯体变形障碍（Body Dysmorphic Disorder，BDD）](entries/Body-Dysmorphic-Disorder.md)
+        * [躯体形式解离问卷（Somatoform Dissociation Questionnaire‑20, SDQ‑20）](entries/Somatoform-Dissociation-Questionnaire-SDQ-20.md)
         * [躯体疾病所致精神病性障碍（Psychotic Disorder Due to Another Medical Condition）](entries/Psychotic-Disorder-Due-to-Another-Medical-Condition.md)
         * [轻躁狂（Hypomania）](entries/Hypomania.md)
         * [边缘性人格障碍（Borderline Personality Disorder，BPD）](entries/Borderline-Personality-Disorder-BPD.md)

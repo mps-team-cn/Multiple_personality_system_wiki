@@ -13,7 +13,7 @@ tags:
 
 title: 解离性身份障碍（Dissociative Identity Disorder，DID）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-21
 ---
 
 # 解离性身份障碍（Dissociative Identity Disorder，DID）
@@ -85,10 +85,10 @@ updated: 2025-10-20
 | 工具名称                                                          | 类型    | 主要用途              | 临床提示                                                |
 | ------------------------------------------------------------- | ----- | ----------------- | --------------------------------------------------- |
 | **SCID-D**<br>（Structured Clinical Interview for DSM-DD）    | 诊断性访谈 | 系统评估解离症状          | 金标准工具，需专业训练，适用于疑似诊断与科研                            |
-| **[MID-60](Multidimensional-Inventory-of-Dissociation-MID-60.md)**<br>（Multidimensional Inventory of Dissociation）     | 诊断性量表 | 评估身份状态特征与解离严重度    | 适用于已诊断或高度怀疑病例，敏感度高，提供 12 个子量表详细评估                                |
+| [**MID-60**](Multidimensional-Inventory-of-Dissociation-MID-60.md)<br>（Multidimensional Inventory of Dissociation）     | 诊断性量表 | 评估身份状态特征与解离严重度    | 适用于已诊断或高度怀疑病例，敏感度高，提供 12 个子量表详细评估                                |
 | **DDIS**<br>（Dissociative Disorders Interview Schedule）     | 诊断性访谈 | 全面评估 DID 及相关症状    | 涵盖解离、共病、创伤史，适用于初次评估                               |
-| **[DES-II](Dissociative-Experiences-Scale-DES-II.md)**<br>（Dissociative Experiences Scale）                 | 筛查量表  | 初步筛查解离倾向          | **仅用于筛查，非诊断工具**。常用临界值 ≥30 提示高解离，但不等同诊断，需后续结构化访谈确认 |
-| **[SDQ-20](Somatoform-Dissociation-Questionnaire-SDQ-20.md)**<br>（Somatoform Dissociation Questionnaire）      | 筛查量表  | 评估躯体化解离症状         | 适用于识别身体感知解离（麻木、疼痛、运动控制异常），含 SDQ-5 简化版                         |
+| [**DES-II**](Dissociative-Experiences-Scale-DES-II.md)<br>（Dissociative Experiences Scale）                 | 筛查量表  | 初步筛查解离倾向          | **仅用于筛查，非诊断工具**。常用临界值 ≥30 提示高解离，但不等同诊断，需后续结构化访谈确认 |
+| [**SDQ-20**](Somatoform-Dissociation-Questionnaire-SDQ-20.md)<br>（Somatoform Dissociation Questionnaire）      | 筛查量表  | 评估躯体化解离症状         | 适用于识别身体感知解离（麻木、疼痛、运动控制异常），含 SDQ-5 简化版                         |
 
 **推荐使用情境**：
 

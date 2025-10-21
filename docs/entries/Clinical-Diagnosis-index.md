@@ -19,10 +19,14 @@ hide:
 ## 词条一览
 
 - [紧张症（Catatonia）](Catatonia.md) — *2025-10-21*
+- [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md) — *2025-10-21*
 - [谵妄（Delirium）](Delirium.md) — *2025-10-21*
+- [解离经验量表（Dissociative Experiences Scale‑II, DES‑II）](Dissociative-Experiences-Scale-DES-II.md) — *2025-10-21*
 - [闪回（Flashback）](Flashback.md) — *2025-10-21*
+- [多维解离量表（MID‑60）](Multidimensional-Inventory-of-Dissociation-MID-60.md) — *2025-10-21*
 - [其他特定的或未特定的精神病性障碍（Other Specified/Unspecified Psychotic Disorder）](Other-Specified-or-Unspecified-Psychotic-Disorder.md) — *2025-10-21*
 - [躯体疾病所致精神病性障碍（Psychotic Disorder Due to Another Medical Condition）](Psychotic-Disorder-Due-to-Another-Medical-Condition.md) — *2025-10-21*
+- [躯体形式解离问卷（Somatoform Dissociation Questionnaire‑20, SDQ‑20）](Somatoform-Dissociation-Questionnaire-SDQ-20.md) — *2025-10-21*
 - [物质/药物所致精神病性障碍（Substance/Medication-Induced Psychotic Disorder）](Substance-Medication-Induced-Psychotic-Disorder.md) — *2025-10-21*
 - [急性应激障碍（Acute Stress Disorder, ASD）](Acute-Stress-Disorder-ASD.md) — *2025-10-20*
 - [适应障碍(Adjustment Disorders)](Adjustment-Disorders.md) — *2025-10-20*
@@ -54,7 +58,6 @@ hide:
 - [功能性神经症状障碍（Functional Neurological Symptom Disorder，FND）](Conversion-Disorder-FND.md) — *2025-10-20*
 - [经颅微电流刺激（Cranial Electrotherapy Stimulation, CES）](Cranial-Electrotherapy-Stimulation-CES.md) — *2025-10-20*
 - [环性心境障碍（Cyclothymic Disorder）](Cyclothymic-Disorder.md) — *2025-10-20*
-- [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md) — *2025-10-20*
 - [DSM-5-TR 评估量表总览](DSM-5TR-Scales.md) — *2025-10-20*
 - [深层记忆(Deep Memory)](Deep-Memory.md) — *2025-10-20*
 - [妄想障碍（Delusional Disorder）](Delusional-Disorder.md) — *2025-10-20*
@@ -65,7 +68,6 @@ hide:
 - [解离性失忆(Dissociative Amnesia,DA)](Dissociative-Amnesia-DA.md) — *2025-10-20*
 - [分离转换障碍（Dissociative [Conversion] Disorders，已过时）](Dissociative-Conversion-Disorder-Obsolete.md) — *2025-10-20*
 - [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md) — *2025-10-20*
-- [解离经验量表（Dissociative Experiences Scale‑II, DES‑II）](Dissociative-Experiences-Scale-DES-II.md) — *2025-10-20*
 - [进食障碍（Eating Disorders，ED）](Eating-Disorders-ED.md) — *2025-10-20*
 - [癫痫（Epilepsy）](Epilepsy.md) — *2025-10-20*
 - [抓痕障碍（Excoriation，Skin-Picking Disorder）](Excoriation-Skin-Picking-Disorder.md) — *2025-10-20*
@@ -83,7 +85,6 @@ hide:
 - [重性抑郁障碍（Major Depressive Disorder, MDD）](Major-Depressive-Disorder-MDD.md) — *2025-10-20*
 - [躁狂（Mania）](Mania.md) — *2025-10-20*
 - [改良电痉挛治疗（Modified Electroconvulsive Therapy, MECT）](Modified-Electroconvulsive-Therapy-MECT.md) — *2025-10-20*
-- [多维解离量表（MID‑60）](Multidimensional-Inventory-of-Dissociation-MID-60.md) — *2025-10-20*
 - [多人格障碍（Multiple Personality Disorder，已过时）](Multiple-Personality-Disorder-Obsolete.md) — *2025-10-20*
 - [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](Narcissistic-Personality-Disorder-NPD.md) — *2025-10-20*
 - [发作性睡病(Narcolepsy)](Narcolepsy.md) — *2025-10-20*

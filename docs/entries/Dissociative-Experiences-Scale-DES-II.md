@@ -24,7 +24,7 @@ tags:
 
 title: 解离经验量表（Dissociative Experiences Scale‑II, DES‑II）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-21
 ---
 
 # 解离经验量表（Dissociative Experiences Scale‑II, DES‑II）
