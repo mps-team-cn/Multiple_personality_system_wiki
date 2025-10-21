@@ -18,6 +18,7 @@ hide:
 
 ## 词条一览
 
+- [系统(System)](System.md) — *2025-10-21*
 - [醉酒解离（Alcohol-Induced Dissociation）](Alcohol-Induced-Dissociation.md) — *2025-10-20*
 - [失忆（Amnesia）](Amnesia.md) — *2025-10-20*
 - [锚点（Anchors / Tells / Markers）](Anchors.md) — *2025-10-20*
@@ -66,7 +67,6 @@ hide:
 - [结构性解离理论（Theory of Structural Dissociation of the Personality, TSDT）](Structural-Dissociation-Theory.md) — *2025-10-20*
 - [子系统（Subsystem）](Subsystem.md) — *2025-10-20*
 - [切换（Switch）](Switch.md) — *2025-10-20*
-- [系统(System)](System.md) — *2025-10-20*
 - [触发（Trigger）](Trigger.md) — *2025-10-20*
 - [T 语(Tulpish)](Tulpish.md) — *2025-10-20*
 - [内视（Visualization / Imagination）](Visualization-Imagination.md) — *2025-10-20*
