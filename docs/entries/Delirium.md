@@ -11,6 +11,8 @@ tags:
 updated: 2025-10-21
 description: 急性意识混乱与注意障碍的医学急症，聚焦谵妄的诊断标准、诱因、鉴别与创伤知情照护要点。
 comments: true
+search:
+    boost: 2.0
 synonyms:
 
     - 谵妄
@@ -37,9 +39,18 @@ synonyms:
 ## 概述
 
 > **核心要点速览**
-> 谵妄是急性、可逆的意识与认知障碍综合征，症状在数小时至数日内起病并呈日内波动。核心表现包括注意力受损、意识水平改变、认知混乱与睡眠—觉醒节律紊乱，多由躯体疾病、药物或代谢失衡等可逆诱因导致。及时识别并处理病因，可显著降低并发症与死亡风险。
+> 谵妄（ICD-11 编码 6D70；DSM-5-TR 代码 F05）是急性、可逆的意识与认知障碍综合征，症状在数小时至数日内起病并呈日内波动。核心表现包括注意力受损、意识水平改变、认知混乱与睡眠—觉醒节律紊乱，多由躯体疾病、药物或代谢失衡等可逆诱因导致。及时识别并处理病因，可显著降低并发症与死亡风险。
 
 谵妄是一种在短时间内发生并呈波动性的急性脑功能障碍，属于意识障碍谱系中的临床急症。常见临床表现包括注意力难以维持、定向力下降、语言混乱、幻觉或妄想以及显著的睡眠节律改变。对既往存在神经认知障碍或经历重大创伤的个体而言，谵妄会显著增加跌倒、并发症与死亡率的风险，需迅速识别诱因并给予整合式照护。[^who2023][^inouye2014]
+
+---
+
+## 流行病学与病程
+
+- **发病率**：在住院患者中，谵妄发病率为 10–30%；术后患者可达 15–50%；重症监护室（ICU）患者中发生率高达 60–80%，高龄与既往认知障碍者风险更高。[^inouye2014]
+- **病程**：谵妄通常起病急骤，在数小时至 2–3 天内达到高峰，症状呈明显日内波动（尤其夜间加重）。大部分谵妄在 7–10 天内缓解，但可持续数周甚至数月，特别是老年与重症患者。[^inouye2014][^fong2009]
+- **预后**：及时识别与干预可促进症状完全逆转。然而，未得到有效控制的谵妄可增加住院时长、认知功能持续下降、跌倒、压疮与死亡风险。谵妄后认知功能恢复可能持续数月至一年，部分个体会留下持久记忆或注意力障碍。[^fong2009][^nice2023]
+- **高危人群**：年龄 ≥65 岁、既往痴呆或轻度认知障碍、多重用药、严重感染、术后状态、长期住院或机械通气、慢性疼痛与睡眠剥夺者均为谵妄高危群体。
 
 ---
 
@@ -84,7 +95,9 @@ synonyms:
 - **认知与意识**：注意力难以聚焦或转移、短期记忆障碍、语言混乱、思维碎片化，常伴定向力下降。
 - **精神行为**：可见幻觉、妄想、情绪剧烈波动。高活动型患者表现为躁动、拔管或走失；低活动型患者则呆滞、反应迟缓，容易被忽视。
 - **生理特征**：睡眠—觉醒节律紊乱、生命体征波动、脱水或疼痛信号明显，常与基础躯体疾病并发。
-- **系统体验**：多重意识系统个体可能报告时间跳跃、环境陌生或内部协作受阻的体验，应同步记录触发事件与生命体征，以协助区分解离发作（该现象为个案观察，并非常态共现）。
+
+!!! note "多重意识系统个案观察"
+    多重意识系统个体可能报告时间跳跃、环境陌生或内部协作受阻的体验，应同步记录触发事件与生命体征，以协助区分解离发作。此现象为临床观察或社群报告，并非常态共现。
 
 ---
 
@@ -110,7 +123,7 @@ synonyms:
 
 ## 鉴别诊断
 
-### 谵妄 vs 解离 vs 精神病性障碍
+### 谵妄 vs 解离 vs 精神病性障碍（对照表）
 
 | 特征维度 | 谵妄（Delirium） | 解离性发作 / 解离障碍 | 急性精神病性障碍 |
 | --- | --- | --- | --- |
@@ -135,6 +148,12 @@ synonyms:
 - 密切监测生命体征、液体平衡与疼痛管理；避免身体约束，优先采用创伤知情、低刺激照护。
 - 谵妄缓解后仍可能存在持续数周至数月的认知下降，尤其是 ICU 出院者，需安排随访与康复计划。
 
+### 多重意识系统照护要点
+
+- 在社群或家庭内部建立"医疗应急档案"，记录成员偏好、触发因素、既往用药反应与紧急联络方式，便于医护提供创伤知情照护。
+- 鼓励成员以共享日记或数字工具记录诱因、发作时间、医疗处理流程，协助团队追踪症状并提供支持。
+- 在医疗场域中争取知情、尊重与参与式沟通，确保团队了解系统结构与必要的安抚方式。
+
 ---
 
 ## 治疗与支持
@@ -148,17 +167,9 @@ synonyms:
 
 ### 药物干预（限短期审慎使用）
 
-- 仅在严重激越危及安全（如拔管、暴力、自伤高风险）时，由医师短期使用低剂量抗精神病药（如氟哌啶醇、奥氮平）。
+- 仅在严重激越危及安全（如拔管、暴力、自伤高风险）时，由精神科医生处方并在医师监督下短期使用低剂量抗精神病药（如氟哌啶醇、奥氮平）。
 - 除戒断情境外，应避免常规使用苯二氮䓬类，以免加重意识混乱或增加跌倒风险。[^nice2023]
 - 用药期间需监测心电图（QTc 延长风险）、锥体外系反应与生命体征。
-
----
-
-## 多重意识系统照护要点
-
-- 在社群或家庭内部建立“医疗应急档案”，记录成员偏好、触发因素、既往用药反应与紧急联络方式，便于医护提供创伤知情照护。
-- 鼓励成员以共享日记或数字工具记录诱因、发作时间、医疗处理流程，协助团队追踪症状并提供支持。
-- 在医疗场域中争取知情、尊重与参与式沟通，确保团队了解系统结构与必要的安抚方式。
 
 ---
 
@@ -190,10 +201,18 @@ synonyms:
 
 [^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
 
-[^inouye2014]: Inouye, S. K., Westendorp, R. G. J., & Saczynski, J. S. (2014). Delirium in elderly people. *The Lancet, 383*(9920), 911–922.
+[^inouye2014]: Inouye, S. K., Westendorp, R. G. J., & Saczynski, J. S. (2014). Delirium in elderly people. *The Lancet, 383*(9920), 911–922. <https://doi.org/10.1016/S0140-6736(13)60688-1>
 
 [^nice2023]: National Institute for Health and Care Excellence. (2023). *Delirium: Prevention, diagnosis and management (NG103).* 取自 <https://www.nice.org.uk/guidance/ng103>
 
-[^flaherty2020]: Flaherty, J. H., & Little, M. O. (2020). Matching the environment to patients with delirium: Lessons learned from the delirium room. *Journal of the American Geriatrics Society, 68*(2), 455–461.
+[^flaherty2020]: Flaherty, J. H., & Little, M. O. (2020). Matching the environment to patients with delirium: Lessons learned from the delirium room. *Journal of the American Geriatrics Society, 68*(2), 455–461. <https://doi.org/10.1111/jgs.16066>
 
 [^shrestha2020]: Shrestha, S., Granger, B. B., & McKeon, S. (2020). Screening, diagnosis, and prevention of delirium in hospitalized older adults: A review. *Clinical Geriatrics, 28*(1), 22–31.
+
+[^fong2009]: Fong, T. G., Tulebaev, S. R., & Inouye, S. K. (2009). Delirium in elderly adults: Diagnosis, prevention and treatment. *Nature Reviews Neurology, 5*(4), 210–220. <https://doi.org/10.1038/nrneurol.2009.24>
+
+### 延伸阅读
+
+- Ely, E. W., Shintani, A., Truman, B., et al. (2004). Delirium as a predictor of mortality in mechanically ventilated patients in the intensive care unit. *JAMA, 291*(14), 1753–1762. <https://doi.org/10.1001/jama.291.14.1753>
+- Bellelli, G., Brathwaite, J. S., & Mazzola, P. (2019). Delirium: A marker of vulnerability in older people. *Frontiers in Aging Neuroscience, 11*, 290. <https://doi.org/10.3389/fnagi.2019.00290>
+- Maldonado, J. R. (2018). Delirium pathophysiology: An updated hypothesis of the etiology of acute brain failure. *International Journal of Geriatric Psychiatry, 33*(11), 1428–1457. <https://doi.org/10.1002/gps.4823>
