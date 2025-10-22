@@ -24,7 +24,7 @@ tags:
 
 title: 解离（Dissociation）
 topic: 系统运作
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 解离（Dissociation）

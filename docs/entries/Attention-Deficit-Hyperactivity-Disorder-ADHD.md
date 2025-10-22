@@ -12,7 +12,7 @@ tags:
 
 title: 注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）

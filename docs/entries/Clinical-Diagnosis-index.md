@@ -19,6 +19,7 @@ hide:
 ## 词条一览
 
 - [心境障碍（Affective Disorders）](Affective-Disorders.md) — *2025-10-22*
+- [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](Attention-Deficit-Hyperactivity-Disorder-ADHD.md) — *2025-10-22*
 - [复杂性创伤后应激障碍（Complex Post-Traumatic Stress Disorder，CPTSD）](CPTSD.md) — *2025-10-22*
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md) — *2025-10-22*
 - [闪回（Flashback）](Flashback.md) — *2025-10-22*
@@ -41,7 +42,6 @@ hide:
 - [神经性厌食症(Anorexia Nervosa, AN)](Anorexia-Nervosa.md) — *2025-10-20*
 - [反社会人格障碍（Antisocial Personality Disorder，ASPD）](Antisocial-Personality-Disorder-ASPD.md) — *2025-10-20*
 - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md) — *2025-10-20*
-- [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](Attention-Deficit-Hyperactivity-Disorder-ADHD.md) — *2025-10-20*
 - [孤独症谱系（Autism Spectrum Disorder）](Autism-Spectrum-Disorder.md) — *2025-10-20*
 - [回避型人格障碍（Avoidant Personality Disorder，AvPD）](Avoidant-Personality-Disorder-AvPD.md) — *2025-10-20*
 - [暴食障碍(Binge Eating Disorder, BED)](Binge-Eating-Disorder.md) — *2025-10-20*
