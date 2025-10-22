@@ -157,10 +157,9 @@ SSRI 等对伴随 OCD/焦虑/抑郁的侵入性思维有效。
 - [去现实化（Derealization）](Derealization.md)
 
 ## 参考
- 
+
 1. American Psychiatric Association. (2013). Diagnostic and statistical manual of mental disorders (5th ed.). American Psychiatric Publishing.
 2. Clark, D. A. (2005). Intrusive thoughts in clinical disorders: Theory, research, and treatment. Guilford Press.
-3. Rachman, S. (2007). Unwanted intrusive images in obsessive–compulsive disorder. Journal of Behavior Therapy and Experimental Psychiatry, 38(4), 402–410. https://doi.org/10.1016/j.jbtep.2007.10.008
+3. Rachman, S. (2007). Unwanted intrusive images in obsessive–compulsive disorder. Journal of Behavior Therapy and Experimental Psychiatry, 38(4), 402–410. [https://doi.org/10.1016/j.jbtep.2007.10.008](https://doi.org/10.1016/j.jbtep.2007.10.008)
 4. Wells, A. (2009). Metacognitive therapy for anxiety and depression. Guilford Press.
 5. Abramowitz, J. S., McKay, D., & Storch, E. A. (2017). The Wiley handbook of obsessive compulsive disorders. Wiley‑Blackwell.
-
