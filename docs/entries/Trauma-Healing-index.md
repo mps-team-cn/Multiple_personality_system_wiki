@@ -18,6 +18,7 @@ hide:
 
 ## 词条一览
 
+- [创伤后成长（Post‑Traumatic Growth, PTG）](Post-Traumatic-Growth-PTG.md) — *2025-10-22*
 - [接受与承诺疗法（Acceptance and Commitment Therapy, ACT）](Acceptance-Commitment-Therapy-ACT.md) — *2025-10-20*
 - [认知行为疗法（Cognitive Behavioral Therapy, CBT）](Cognitive-Behavioral-Therapy-CBT.md) — *2025-10-20*
 - [认知加工疗法（Cognitive Processing Therapy, CPT）](Cognitive-Processing-Therapy-CPT.md) — *2025-10-20*
@@ -28,7 +29,6 @@ hide:
 - [冥想(Meditation)](Meditation.md) — *2025-10-20*
 - [正念(Mindfulness)](Mindfulness.md) — *2025-10-20*
 - [阶段性治疗原则（Phase‑Oriented Treatment Principles）](Phase-Oriented-Treatment-Principles.md) — *2025-10-20*
-- [创伤后成长（Post‑Traumatic Growth, PTG）](Post-Traumatic-Growth-PTG.md) — *2025-10-20*
 - [延长暴露疗法（Prolonged Exposure Therapy, PE）](Prolonged-Exposure-Therapy-PE.md) — *2025-10-20*
 - [自我照护工具箱](Self-Care-Toolkit.md) — *2025-10-20*
 - [感官调节策略（Sensory Regulation Strategies）](Sensory-Regulation-Strategies.md) — *2025-10-20*
