@@ -145,14 +145,14 @@ search:
 
 <div class="grid cards" markdown>
 
-- :material-lightbulb-on: [ **核心概念** ](entries/Core-Concepts-Guide.md) - 从解离谱系切入，厘清 Tulpa 与 DID/OSDD 的界限，并以埃蒙加德分类搭建多意识体系统的理论地图
-- :material-hospital-box: [ **诊断与临床** ](entries/Clinical-Diagnosis-Guide.md) - 覆盖 DID、OSDD、CPTSD、焦虑障碍、情绪障碍等核心诊断，帮助理解鉴别要点与临床处置路径。
-- :material-cog: [ **系统运作** ](entries/System-Operations-Guide.md) - 聚焦前台切换、共同意识、记忆管理、内部空间与系统治理等运作机制，支持日常协作实践。
-- :material-clipboard-check: [ **实践指南** ](entries/Practice-Guide.md) - 强调 Tulpa 三阶段训练、冥想与可视化等意识训练方法，以及内部沟通与接地技巧。
-- :material-heart-pulse: [ **创伤与疗愈** ](entries/Trauma-Healing-Guide.md) - 聚焦创伤机理、PTSD/CPTSD 症状识别、三阶段治疗模型与接地调节策略，支持安全康复。
-- :material-account-multiple: [ **角色与身份** ](entries/Roles-Identity-Guide.md) - 梳理宿主、守门人、保护者、照护者等角色分工，以及多类型身份结构。
-- :material-book-open-variant: [ **理论与分类** ](entries/Theory-Classification-Guide.md) - 涵盖结构性解离、依恋、自我决定理论、动机与人格模型等框架，帮助搭建概念体系。
-- :material-palette: [ **文化与表现** ](entries/Cultural-Media-Guide.md) - 解析影视、文学、动画与游戏中多意识体主题的叙事与象征呈现。
+- :material-lightbulb-on: [ **核心概念** ](guides/Core-Concepts-Guide.md) - 从解离谱系切入，厘清 Tulpa 与 DID/OSDD 的界限，并以埃蒙加德分类搭建多意识体系统的理论地图
+- :material-hospital-box: [ **诊断与临床** ](guides/Clinical-Diagnosis-Guide.md) - 覆盖 DID、OSDD、CPTSD、焦虑障碍、情绪障碍等核心诊断，帮助理解鉴别要点与临床处置路径。
+- :material-cog: [ **系统运作** ](guides/System-Operations-Guide.md) - 聚焦前台切换、共同意识、记忆管理、内部空间与系统治理等运作机制，支持日常协作实践。
+- :material-clipboard-check: [ **实践指南** ](guides/Practice-Guide.md) - 强调 Tulpa 三阶段训练、冥想与可视化等意识训练方法，以及内部沟通与接地技巧。
+- :material-heart-pulse: [ **创伤与疗愈** ](guides/Trauma-Healing-Guide.md) - 聚焦创伤机理、PTSD/CPTSD 症状识别、三阶段治疗模型与接地调节策略，支持安全康复。
+- :material-account-multiple: [ **角色与身份** ](guides/Roles-Identity-Guide.md) - 梳理宿主、守门人、保护者、照护者等角色分工，以及多类型身份结构。
+- :material-book-open-variant: [ **理论与分类** ](guides/Theory-Classification-Guide.md) - 涵盖结构性解离、依恋、自我决定理论、动机与人格模型等框架，帮助搭建概念体系。
+- :material-palette: [ **文化与表现** ](guides/Cultural-Media-Guide.md) - 解析影视、文学、动画与游戏中多意识体主题的叙事与象征呈现。
 
 </div>
 
@@ -162,22 +162,22 @@ search:
 
 === "新手（0–4 周）"
 
-    1. 阅读 [核心概念导览](entries/Core-Concepts-Guide.md) 建立基础框架。
-    2. 选择 [心理健康](entries/Mental-Health-Guide.md) 或 [系统运作](entries/System-Operations-Guide.md) 作为下一步。
+    1. 阅读 [核心概念导览](guides/Core-Concepts-Guide.md) 建立基础框架。
+    2. 选择 [心理健康](guides/Mental-Health-Guide.md) 或 [系统运作](guides/System-Operations-Guide.md) 作为下一步。
     3. 浏览 [术语词典](Glossary.md) 熟悉常用术语。
     4. 开始练习 [接地](entries/Grounding.md) 等基础技巧。
 
 === "进阶（1–3 个月）"
 
     1. 深入 1–2 个专题导览（临床/创伤/角色）。
-    2. 参考 [实践指南](entries/Practice-Guide.md) 制定练习计划。
+    2. 参考 [实践指南](guides/Practice-Guide.md) 制定练习计划。
     3. 通过 [标签索引](tags.md) 扩展相关主题。
     4. 针对实际问题查阅具体词条。
 
 === "精通（3 个月以上）"
 
-    1. 系统学习 [理论与分类](entries/Theory-Classification-Guide.md)。
-    2. 探索 [文化与表现](entries/Cultural-Media-Guide.md) 的跨学科视角。
+    1. 系统学习 [理论与分类](guides/Theory-Classification-Guide.md)。
+    2. 探索 [文化与表现](guides/Cultural-Media-Guide.md) 的跨学科视角。
     3. 参与讨论与贡献，沉淀个人知识框架。
 
 ---

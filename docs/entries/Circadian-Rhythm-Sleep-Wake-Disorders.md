@@ -465,7 +465,7 @@ ICD-11 将昼夜节律睡眠-觉醒障碍编码为 **7A60 系列**:
 
 ### 导览
 
-- [心理健康导览（Mental Health Guide）](Mental-Health-Guide.md)
+- [心理健康导览（Mental Health Guide）](../guides/Mental-Health-Guide.md)
 
 ---
 

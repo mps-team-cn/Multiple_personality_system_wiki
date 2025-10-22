@@ -33,7 +33,7 @@ updated: 2025-10-22
 
 > 核心要点速览：SSD 的核心是对一个或多个躯体症状的持续困扰与过度的认知‑情绪‑行为反应,强调“症状带来的影响”,而非“是否有医学解释”。即便存在可解释的躯体疾病,只要伴随不相称的担忧与持续功能受损,亦可满足诊断。
 
-SSD 隶属于“躯体症状及相关障碍”谱系（参见[诊断与临床导览](Clinical-Diagnosis-Guide.md)相关章节）。与历史术语“躯体化障碍/躯体形式障碍”不同,DSM‑5‑TR 取消了“无医学依据”作为必要条件,改强调症状引发的心理行为后果。ICD‑11 在对应位置使用“躯体痛苦障碍（Bodily Distress Disorder, BDD）”,二者在具体阈值与说明符上存在差异,但核心思路一致。
+SSD 隶属于“躯体症状及相关障碍”谱系（参见[诊断与临床导览](../guides/Clinical-Diagnosis-Guide.md)相关章节）。与历史术语“躯体化障碍/躯体形式障碍”不同,DSM‑5‑TR 取消了“无医学依据”作为必要条件,改强调症状引发的心理行为后果。ICD‑11 在对应位置使用“躯体痛苦障碍（Bodily Distress Disorder, BDD）”,二者在具体阈值与说明符上存在差异,但核心思路一致。
 
 !!! info "Clinician’s Summary｜快速临床要点"
 
@@ -124,7 +124,7 @@ SSD 隶属于“躯体症状及相关障碍”谱系（参见[诊断与临床导
 
 ## 相关条目
 
-- [诊断与临床导览](Clinical-Diagnosis-Guide.md)
+- [诊断与临床导览](../guides/Clinical-Diagnosis-Guide.md)
 - [功能性神经症状障碍/转换障碍（FND）](Conversion-Disorder-FND.md)
 - [慢性疼痛（Chronic Pain）](Chronic-Pain.md)
 - [疾病焦虑障碍（IAD）](Illness-Anxiety-Disorder.md)

@@ -359,7 +359,7 @@ AN 的治疗需整合 **医疗稳定**、**营养康复** 和 **心理治疗**,�
 
 ### 导览
 
-- [心理健康导览（Mental Health Guide）](Mental-Health-Guide.md)
+- [心理健康导览（Mental Health Guide）](../guides/Mental-Health-Guide.md)
 
 ---
 

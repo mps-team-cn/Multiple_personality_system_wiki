@@ -371,7 +371,7 @@ BN 的治疗整合 **心理治疗**、**医疗监测** 和 **营养康复**,通�
 
 ### 导览
 
-- [心理健康导览（Mental Health Guide）](Mental-Health-Guide.md)
+- [心理健康导览（Mental Health Guide）](../guides/Mental-Health-Guide.md)
 
 ---
 

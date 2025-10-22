@@ -272,7 +272,7 @@ CPTSD 与童年期长期、反复且无法逃离的[创伤（Trauma）](Trauma.m
 
 ## 相关条目
 
-- [心理健康导览（Mental Health Guide）](Mental-Health-Guide.md)
+- [心理健康导览（Mental Health Guide）](../guides/Mental-Health-Guide.md)
 - [闪回（Flashback）](Flashback.md)
 - [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](PTSD.md)
 - [急性应激障碍（ASD）](Acute-Stress-Disorder-ASD.md)

@@ -340,7 +340,7 @@ ICD-11 将睡眠相关呼吸障碍归类于"睡眠-觉醒障碍"章节（7A 类�
 
 ### 导览
 
-- [心理健康导览（Mental Health Guide）](Mental-Health-Guide.md)
+- [心理健康导览（Mental Health Guide）](../guides/Mental-Health-Guide.md)
 
 ---
 

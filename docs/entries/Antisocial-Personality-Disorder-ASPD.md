@@ -245,7 +245,7 @@ PCL-R 是司法与法医精神病学中最广泛使用的精神病态评估工�
 
 ### 导览
 
-- [诊断与临床导览（Clinical Diagnosis Guide）](Clinical-Diagnosis-Guide.md)
+- [诊断与临床导览（Clinical Diagnosis Guide）](../guides/Clinical-Diagnosis-Guide.md)
 
 ## 参考与延伸阅读
 

@@ -88,7 +88,7 @@ updated: 2025-10-20
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](OCD.md)
 - [创伤（Trauma）](Trauma.md)
 - [接地（Grounding）](Grounding.md)
-- [系统运作指南（System Operations）](System-Operations-Guide.md)
+- [系统运作指南（System Operations）](../guides/System-Operations-Guide.md)
 
 ---
 

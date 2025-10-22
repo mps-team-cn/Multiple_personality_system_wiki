@@ -171,8 +171,8 @@ GD 的照护通常遵循多层次、个别化的支持模式：
 
 ### 导览
 
-- [心理健康导览（Mental Health Guide）](Mental-Health-Guide.md)
-- [诊断与临床导览（Clinical Diagnosis Guide）](Clinical-Diagnosis-Guide.md)
+- [心理健康导览（Mental Health Guide）](../guides/Mental-Health-Guide.md)
+- [诊断与临床导览（Clinical Diagnosis Guide）](../guides/Clinical-Diagnosis-Guide.md)
 
 ## 参考与延伸阅读
 

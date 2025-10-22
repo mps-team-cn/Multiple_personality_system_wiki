@@ -187,7 +187,7 @@ updated: 2025-10-22
 
 ## 相关条目
 
-- [心理健康导览（Mental Health Guide）](Mental-Health-Guide.md)
+- [心理健康导览（Mental Health Guide）](../guides/Mental-Health-Guide.md)
 - [侵入性思维（Intrusive Thoughts）](Intrusive-Thoughts.md)
 - [闪回（Flashback）](Flashback.md)
 - [复杂性创伤后应激障碍（CPTSD）](CPTSD.md)

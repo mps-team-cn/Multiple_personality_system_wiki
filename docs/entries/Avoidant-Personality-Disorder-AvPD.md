@@ -83,7 +83,7 @@ updated: 2025-10-20
 - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [社交焦虑障碍](Anxiety-Disorders.md)
 - [依赖型人格障碍（DPD）](Dependent-Personality-Disorder-DPD.md)
-- [诊断与临床导览（Clinical Diagnosis Guide）](Clinical-Diagnosis-Guide.md)
+- [诊断与临床导览（Clinical Diagnosis Guide）](../guides/Clinical-Diagnosis-Guide.md)
 
 ## 参考与延伸阅读
 

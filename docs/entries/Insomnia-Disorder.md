@@ -251,7 +251,7 @@ DSM-5-TR 将失眠障碍的最短持续时间定义为 3 个月,而 ICD-11 则�
 
 ### 导览
 
-- [临床诊断导览（Clinical Diagnosis Guide）](Clinical-Diagnosis-Guide.md)
+- [临床诊断导览（Clinical Diagnosis Guide）](../guides/Clinical-Diagnosis-Guide.md)
 
 ---
 

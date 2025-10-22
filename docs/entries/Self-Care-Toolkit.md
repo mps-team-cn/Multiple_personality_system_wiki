@@ -342,9 +342,9 @@ updated: 2025-10-20
 
 **相关导览**：
 
-- [心理健康导览](Mental-Health-Guide.md) - 了解创伤、解离、心理障碍的基础知识
-- [创伤与疗愈导览](Trauma-Healing-Guide.md) - 创伤康复的全面指南
-- [实践指南导览](Practice-Guide.md) - 多意识体系统的主动训练方法
+- [心理健康导览](../guides/Mental-Health-Guide.md) - 了解创伤、解离、心理障碍的基础知识
+- [创伤与疗愈导览](../guides/Trauma-Healing-Guide.md) - 创伤康复的全面指南
+- [实践指南导览](../guides/Practice-Guide.md) - 多意识体系统的主动训练方法
 
 **核心技巧词条**：
 

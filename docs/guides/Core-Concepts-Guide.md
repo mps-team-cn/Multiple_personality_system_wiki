@@ -52,7 +52,7 @@ search:
 
 **关键理解**：低程度的温和解离是正常现象，不构成疾病；只有当解离反应强烈、持续且招致痛苦或功能受损时，才可能进入病理范畴。
 
-详细了解请参阅：[解离（Dissociation）](Dissociation.md)、[防御性解离](Defensive-Dissociation.md)、[解离障碍](Dissociative-Disorders.md)、[人格解体-现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)
+详细了解请参阅：[解离（Dissociation）](../entries/Dissociation.md)、[防御性解离](../entries/Defensive-Dissociation.md)、[解离障碍](../entries/Dissociative-Disorders.md)、[人格解体-现实解体障碍（DPDR）](../entries/Depersonalization-Derealization-Disorder-DPDR.md)
 
 ---
 
@@ -62,7 +62,7 @@ search:
 
 ### 多意识体是什么?
 
-**多意识体系统([MPS](Multiple_Personality_System.md))[跨域]** 指一个个体内部存在两个或以上相对独立、可持续运作的意识单元。这些意识单元（成员）能够在不同程度上共享记忆、情绪与身体控制权。
+**多意识体系统([MPS](../entries/Multiple_Personality_System.md))[跨域]** 指一个个体内部存在两个或以上相对独立、可持续运作的意识单元。这些意识单元（成员）能够在不同程度上共享记忆、情绪与身体控制权。
 
 ### 解离如何产生多意识体?
 
@@ -84,7 +84,7 @@ search:
 - **隔阂感** :感受到不属于自己的思维被"塞"入大脑
 - **失忆** :对某段时间或某些事件完全没有记忆
 
-详细了解请参阅：[多意识体系统（Multiple Personality System，MPS）](Multiple_Personality_System.md)、[系统（System）](System.md)
+详细了解请参阅：[多意识体系统（Multiple Personality System，MPS）](../entries/Multiple_Personality_System.md)、[系统（System）](../entries/System.md)
 
 ---
 
@@ -96,7 +96,7 @@ search:
 
 ### 🟢 健康多意识体：Tulpa
 
-**图帕([Tulpa](Tulpa.md))[社群术语]** 通常被描述为轻微、温和的意识分离：
+**图帕([Tulpa](../entries/Tulpa.md))[社群术语]** 通常被描述为轻微、温和的意识分离：
 
 - **形成方式**：通过刻意的想象训练、对话练习等主动创造
 - **特征**：
@@ -118,7 +118,7 @@ search:
     - 自伤/自杀意念或行为
     - 睡眠严重紊乱、现实定向力显著下降
 
-    建议：先行暂停练习，进行[接地（Grounding）](Grounding.md)与自我安全管理，并寻求专业评估。
+    建议：先行暂停练习，进行[接地（Grounding）](../entries/Grounding.md)与自我安全管理，并寻求专业评估。
 
 !!! tip "边界与伦理：自助实践 ≠ 医疗行为"
 
@@ -127,7 +127,7 @@ search:
 
 ### 🔴 病理性多意识体：DID/OSDD
 
-**解离性身份障碍（Dissociative Identity Disorder, [DID](DID.md)）** 与 **其他特定解离性障碍（Other Specified Dissociative Disorder, [OSDD](OSDD.md)）[临床术语]** 通常属于强烈且病理性的意识分离：
+**解离性身份障碍（Dissociative Identity Disorder, [DID](../entries/DID.md)）** 与 **其他特定解离性障碍（Other Specified Dissociative Disorder, [OSDD](../entries/OSDD.md)）[临床术语]** 通常属于强烈且病理性的意识分离：
 
 - **形成原因**：多与早期反复性创伤相关，被理解为在极端压力下的适应性保护机制
 - **特征**：
@@ -147,10 +147,10 @@ search:
 
 相关临床术语：
 
-- [人格解体-现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)
-- [附体型（Possession）相关体验](Possession.md)（区分 ICD-11 6B63 附体型障碍）
+- [人格解体-现实解体障碍（DPDR）](../entries/Depersonalization-Derealization-Disorder-DPDR.md)
+- [附体型（Possession）相关体验](../entries/Possession.md)（区分 ICD-11 6B63 附体型障碍）
 
-详细了解请参阅：[DID](DID.md)、[OSDD](OSDD.md)、[创伤（Trauma）](Trauma.md)
+详细了解请参阅：[DID](../entries/DID.md)、[OSDD](../entries/OSDD.md)、[创伤（Trauma）](../entries/Trauma.md)
 
 ### 界限在哪里?
 
@@ -173,7 +173,7 @@ search:
 
 ## 四、埃蒙加德分类法：从成因理解系统
 
-**埃蒙加德分类法([Emmengard Classification](Emmengard-Classification.md))[社群术语]** 是社群内常用的分类框架，按意识体的 **来源** 进行分类：
+**埃蒙加德分类法([Emmengard Classification](../entries/Emmengard-Classification.md))[社群术语]** 是社群内常用的分类框架，按意识体的 **来源** 进行分类：
 
 ### 📊 分类图解
 
@@ -215,7 +215,7 @@ search:
 2. 无需过度执着严格分类——“在一滩浑水里，别指望能看清界限”
 3. 搞不清就选混合型，不必焦虑
 
-详细了解请参阅：[埃蒙加德分类法](Emmengard-Classification.md)
+详细了解请参阅：[埃蒙加德分类法](../entries/Emmengard-Classification.md)
 
 ---
 
@@ -257,34 +257,34 @@ search:
 
 ### 🔍 核心概念词条
 
-- [解离（Dissociation）](Dissociation.md) - 一切的基础
-- [多意识体系统（Multiple Personality System，MPS）](Multiple_Personality_System.md) - 总体概念
-- [系统（System）](System.md) - 系统的定义与运作
+- [解离（Dissociation）](../entries/Dissociation.md) - 一切的基础
+- [多意识体系统（Multiple Personality System，MPS）](../entries/Multiple_Personality_System.md) - 总体概念
+- [系统（System）](../entries/System.md) - 系统的定义与运作
 
 ### 🏥 临床诊断相关
 
-- [DID](DID.md) - 解离性身份障碍（Dissociative Identity Disorder）
-- [OSDD](OSDD.md) - 其他特定解离性障碍（Other Specified Dissociative Disorder）
-- [PTSD](PTSD.md) / [CPTSD](CPTSD.md) - 创伤后应激障碍/复杂性创伤后应激障碍
-- [DPDR](Depersonalization-Derealization-Disorder-DPDR.md) - 人格解体-现实解体障碍
+- [DID](../entries/DID.md) - 解离性身份障碍（Dissociative Identity Disorder）
+- [OSDD](../entries/OSDD.md) - 其他特定解离性障碍（Other Specified Dissociative Disorder）
+- [PTSD](../entries/PTSD.md) / [CPTSD](../entries/CPTSD.md) - 创伤后应激障碍/复杂性创伤后应激障碍
+- [DPDR](../entries/Depersonalization-Derealization-Disorder-DPDR.md) - 人格解体-现实解体障碍
 
 ### 🌱 健康多意识体
 
-- [Tulpa](Tulpa.md) - 创造型意识体
-- [埃蒙加德分类法](Emmengard-Classification.md) - 系统分类
+- [Tulpa](../entries/Tulpa.md) - 创造型意识体
+- [埃蒙加德分类法](../entries/Emmengard-Classification.md) - 系统分类
 
 ### ⚙️ 系统运作机制
 
-- [前台（Fronting）](Front-Fronting.md) - 控制身体
-- [切换（Switch）](Switch.md) - 成员转换
-- [融合（Fusion）](Fusion.md) - 成员整合
-- [内部空间（Inner World）](Headspace-Inner-World.md) - 意识内部的想象空间
+- [前台（Fronting）](../entries/Front-Fronting.md) - 控制身体
+- [切换（Switch）](../entries/Switch.md) - 成员转换
+- [融合（Fusion）](../entries/Fusion.md) - 成员整合
+- [内部空间（Inner World）](../entries/Headspace-Inner-World.md) - 意识内部的想象空间
 
 ### 🛡️ 实践与照护
 
-- [接地（Grounding）](Grounding.md) - 稳定技巧
-- [冥想（Meditation）](Meditation.md) - 呼吸调节、身体扫描与内在平静中心建立
-- [内部沟通](Internal-Communication.md) - 成员协作
+- [接地（Grounding）](../entries/Grounding.md) - 稳定技巧
+- [冥想（Meditation）](../entries/Meditation.md) - 呼吸调节、身体扫描与内在平静中心建立
+- [内部沟通](../entries/Internal-Communication.md) - 成员协作
 
 ---
 
@@ -353,29 +353,29 @@ search:
 
 ### 🔗 相关词条
 
-- [系统角色（System Roles）](System-Roles.md)
-- [成员（Alter）](Alter.md)
-- [宿主（Host）](Host.md)
+- [系统角色（System Roles）](../entries/System-Roles.md)
+- [成员（Alter）](../entries/Alter.md)
+- [宿主（Host）](../entries/Host.md)
 
 ---
 
 ## 术语索引（本文出现的常见术语，按拼音）
 
-- [Alter（成员）](Alter.md)
-- [CPTSD（复杂性创伤后应激障碍）](CPTSD.md)
-- [DID（解离性身份障碍）](DID.md)
-- [DPDR（人格解体-现实解体障碍）](Depersonalization-Derealization-Disorder-DPDR.md)
-- [Dissociation（解离）](Dissociation.md)
-- [Fusion（融合）](Fusion.md)
-- [Front/Fronting（前台/出面）](Front-Fronting.md)
-- [Grounding（接地）](Grounding.md)
-- [Host（宿主）](Host.md)
-- [Internal Communication（内部沟通）](Internal-Communication.md)
-- [OSDD（其他特定解离性障碍）](OSDD.md)
-- [PTSD（创伤后应激障碍）](PTSD.md)
-- [Switch（切换）](Switch.md)
-- [System（系统）](System.md)
-- [Tulpa（图帕）](Tulpa.md)
+- [Alter（成员）](../entries/Alter.md)
+- [CPTSD（复杂性创伤后应激障碍）](../entries/CPTSD.md)
+- [DID（解离性身份障碍）](../entries/DID.md)
+- [DPDR（人格解体-现实解体障碍）](../entries/Depersonalization-Derealization-Disorder-DPDR.md)
+- [Dissociation（解离）](../entries/Dissociation.md)
+- [Fusion（融合）](../entries/Fusion.md)
+- [Front/Fronting（前台/出面）](../entries/Front-Fronting.md)
+- [Grounding（接地）](../entries/Grounding.md)
+- [Host（宿主）](../entries/Host.md)
+- [Internal Communication（内部沟通）](../entries/Internal-Communication.md)
+- [OSDD（其他特定解离性障碍）](../entries/OSDD.md)
+- [PTSD（创伤后应激障碍）](../entries/PTSD.md)
+- [Switch（切换）](../entries/Switch.md)
+- [System（系统）](../entries/System.md)
+- [Tulpa（图帕）](../entries/Tulpa.md)
 
 ---
 

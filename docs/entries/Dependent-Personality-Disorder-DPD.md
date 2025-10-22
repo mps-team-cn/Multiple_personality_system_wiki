@@ -84,7 +84,7 @@ updated: 2025-10-20
 - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [回避型人格障碍（AvPD）](Avoidant-Personality-Disorder-AvPD.md)
 - [边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)
-- [诊断与临床导览（Clinical Diagnosis Guide）](Clinical-Diagnosis-Guide.md)
+- [诊断与临床导览（Clinical Diagnosis Guide）](../guides/Clinical-Diagnosis-Guide.md)
 
 ## 参考与延伸阅读
 

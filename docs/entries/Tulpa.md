@@ -351,7 +351,7 @@ Tulpa 实践在学术界引发以下争议：
 
 - [接地（Grounding）](Grounding.md)
 - [触发（Trigger）](Trigger.md)
-- [系统运作指南（System Operations Guide）](System-Operations-Guide.md)
+- [系统运作指南（System Operations Guide）](../guides/System-Operations-Guide.md)
 
 ### 文化表现
 

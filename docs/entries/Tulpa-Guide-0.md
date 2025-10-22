@@ -317,7 +317,7 @@ Tulpa 实践常与以下概念混淆,请明确区分：
 - [前台（Front/Fronting）](Front-Fronting.md) - 执行控制与轮替
 - [共前台（Co-fronting）](Co-Fronting.md) - 协作控制状态
 - [幻境（Wonderland）](Wonderland.md) - 内部互动的想象化环境
-- [系统运作指南（System Operations Guide）](System-Operations-Guide.md) - 多意识体系统管理
+- [系统运作指南（System Operations Guide）](../guides/System-Operations-Guide.md) - 多意识体系统管理
 
 ### 进阶主题
 
