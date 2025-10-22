@@ -41,10 +41,14 @@ from .last_updated import LastUpdatedInfo, render_last_updated_text
 from .models import CategoryStructure, EntryDocument
 
 # MkDocs Material Admonitions 匹配模式
-# 格式: !!! type "title"
+# 格式: !!! type "title" 或 ??? type "title" 或 ???+ type "title"
 #           content (缩进4空格)
+# 支持：
+#   - !!! = 不可折叠的 admonition
+#   - ??? = 默认折叠的 admonition
+#   - ???+ = 默认展开的可折叠 admonition
 ADMONITION_PATTERN = re.compile(
-    r'^(?P<marker>!!!|\?\?\?) +(?P<type>\w+)(?: +"(?P<title>[^"]+)")?\s*$',
+    r'^(?P<marker>!!!|\?\?\?\+?) +(?P<type>\w+)(?: +"(?P<title>[^"]+)")?\s*$',
     re.MULTILINE
 )
 
@@ -223,6 +227,49 @@ def strip_primary_heading(content: str, title: str) -> str:
     return "\n".join(stripped)
 
 
+def convert_html_br_tags(markdown: str) -> str:
+    """将 HTML 换行标签 <br>, <br/>, <br /> 转换为 Markdown 双空格换行或 LaTeX \\\\。
+
+    在表格中使用双反斜杠 \\\\，在其他地方使用双空格 + 换行，并保留原始行的缩进。
+    这确保了缩进块（如 admonitions、列表项）中的 <br> 标签转换后不会破坏块结构。
+    """
+    # 匹配 <br>、<br/>、<br /> 等各种形式
+    br_pattern = re.compile(r'<br\s*/?\s*>', re.IGNORECASE)
+
+    # 在表格行中（以 | 开始的行），将 <br> 替换为 \\
+    lines = markdown.splitlines()
+    result = []
+
+    for line in lines:
+        # 检查是否是表格行（包含 | 字符）
+        if '|' in line and not line.strip().startswith('#'):
+            # 在表格中使用双反斜杠
+            result.append(br_pattern.sub(r'\\\\', line))
+        else:
+            # 在其他地方使用双空格 + 换行，并保留原始缩进
+            # 提取行首缩进
+            leading_spaces = len(line) - len(line.lstrip())
+            indent = line[:leading_spaces]
+
+            # 检查是否是列表项（- , * , 或数字.）
+            stripped = line.lstrip()
+            list_match = re.match(r'^([*\-+]|\d+\.)\s+', stripped)
+            if list_match:
+                # 列表项：续行需要额外缩进以对齐列表内容
+                # 计算列表标记的长度（例如 "- " 是 2，"1. " 是 3）
+                list_marker_len = len(list_match.group(0))
+                # 续行缩进 = 原始缩进 + 列表标记长度
+                continuation_indent = indent + ' ' * list_marker_len
+                converted = br_pattern.sub(f'  \n{continuation_indent}', line)
+            else:
+                # 普通行或已缩进的块：使用相同缩进
+                converted = br_pattern.sub(f'  \n{indent}', line)
+
+            result.append(converted)
+
+    return '\n'.join(result)
+
+
 def convert_admonitions_to_latex(markdown: str) -> str:
     """将 MkDocs Material admonitions 转换为 LaTeX 格式的框。
 
@@ -236,6 +283,8 @@ def convert_admonitions_to_latex(markdown: str) -> str:
         >
         > 内容行1
         > 内容行2
+
+    支持嵌套在列表中的 admonition（带有额外缩进）。
     """
     lines = markdown.splitlines()
     result = []
@@ -248,6 +297,9 @@ def convert_admonitions_to_latex(markdown: str) -> str:
         if match:
             admon_type = match.group("type").lower()
             title = match.group("title") or ""
+
+            # 检测 admonition 行的前导空格（用于处理嵌套）
+            leading_spaces = len(line) - len(line.lstrip())
 
             # 获取类型对应的中文名称和图标
             type_name, _ = ADMONITION_STYLES.get(admon_type, (admon_type.capitalize(), "gray"))
@@ -269,30 +321,32 @@ def convert_admonitions_to_latex(markdown: str) -> str:
             }
             icon = icon_map.get(admon_type, "📌")
 
-            # 构建标题行
+            # 构建标题行（保留原有缩进）
+            indent = " " * leading_spaces
             if title:
-                header = f"> **{icon} {type_name}: {title}**"
+                header = f"{indent}> **{icon} {type_name}: {title}**"
             else:
-                header = f"> **{icon} {type_name}**"
+                header = f"{indent}> **{icon} {type_name}**"
 
             result.append(header)
-            result.append(">")
+            result.append(f"{indent}>")
 
-            # 收集缩进内容（通常是4个空格）
+            # 收集缩进内容（至少需要 leading_spaces + 4 个空格）
+            min_indent = leading_spaces + 4
             i += 1
             while i < len(lines):
                 content_line = lines[i]
 
                 # 检查是否是 admonition 内容（缩进行）或空行
-                if content_line.startswith("    "):
-                    # 移除4空格缩进，添加引用标记
-                    result.append(f"> {content_line[4:]}")
+                if len(content_line) >= min_indent and content_line[:min_indent] == " " * min_indent:
+                    # 移除基础缩进（leading_spaces + 4），保留额外缩进，添加引用标记
+                    result.append(f"{indent}> {content_line[min_indent:]}")
                     i += 1
                 elif not content_line.strip():
                     # 空行，可能是 admonition 内部的段落分隔
                     # 先检查下一行是否还是缩进内容
-                    if i + 1 < len(lines) and lines[i + 1].startswith("    "):
-                        result.append(">")
+                    if i + 1 < len(lines) and len(lines[i + 1]) >= min_indent and lines[i + 1][:min_indent] == " " * min_indent:
+                        result.append(f"{indent}>")
                         i += 1
                     else:
                         # admonition 结束
@@ -464,8 +518,10 @@ def build_combined_markdown(
         preface_anchor = build_entry_anchor(preface_doc.path)
         relative = preface_doc.path.relative_to(PROJECT_ROOT)
         rewritten = rewrite_entry_links(preface_doc.body, anchor_lookup)
+        # 转换 HTML 换行标签
+        br_converted = convert_html_br_tags(rewritten)
         # 转换 admonitions
-        converted = convert_admonitions_to_latex(rewritten)
+        converted = convert_admonitions_to_latex(br_converted)
         body = strip_primary_heading(converted, preface_doc.title)
         shifted = shift_heading_levels(body, offset=1).strip()
 
@@ -483,7 +539,12 @@ def build_combined_markdown(
 
     # 4. README
     if include_readme and README_PATH.exists():
-        parts.append(README_PATH.read_text(encoding="utf-8").strip())
+        readme_content = README_PATH.read_text(encoding="utf-8").strip()
+        # 转换 HTML 换行标签
+        readme_br_converted = convert_html_br_tags(readme_content)
+        # 转换 admonitions
+        readme_converted = convert_admonitions_to_latex(readme_br_converted)
+        parts.append(readme_converted)
         parts.append("\n\n\\newpage\n")
 
     # 5. 内容章节
@@ -509,8 +570,10 @@ def build_combined_markdown(
             )
             relative = document.path.relative_to(PROJECT_ROOT)
             rewritten = rewrite_entry_links(document.body, anchor_lookup)
+            # 转换 HTML 换行标签
+            br_converted = convert_html_br_tags(rewritten)
             # 转换 admonitions
-            converted = convert_admonitions_to_latex(rewritten)
+            converted = convert_admonitions_to_latex(br_converted)
             body = strip_primary_heading(converted, entry_title)
             shifted = shift_heading_levels(body, offset=2).strip()
 

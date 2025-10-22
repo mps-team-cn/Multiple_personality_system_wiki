@@ -28,7 +28,7 @@ def export_pdf(
     command = [
         pandoc_cmd,
         "--from",
-        "markdown+east_asian_line_breaks+raw_tex",
+        "markdown+east_asian_line_breaks+raw_tex+fancy_lists+startnum+task_lists",
         "--to",
         "pdf",
         "--output",
@@ -52,6 +52,25 @@ def export_pdf(
     for key, value in font_variables:
         command.extend(["--variable", f"{key}={value}"])
 
+    # 添加 LaTeX 头部来优化列表渲染
+    # 使用 enumitem 包来改善多级列表的缩进和符号
+    latex_header = r"""
+\usepackage{enumitem}
+\setlist[itemize,1]{label=\textbullet}
+\setlist[itemize,2]{label=\textendash}
+\setlist[itemize,3]{label=\textasteriskcentered}
+\setlist[itemize,4]{label=\textperiodcentered}
+\setlist{itemsep=0.2em,parsep=0em,topsep=0.5em,partopsep=0em}
+\setlist[itemize]{leftmargin=1.5em}
+\setlist[enumerate]{leftmargin=2em}
+"""
+    # 创建临时 LaTeX 头部文件
+    with tempfile.NamedTemporaryFile("w", encoding="utf-8", suffix=".tex", delete=False) as header_handle:
+        header_handle.write(latex_header.strip())
+        header_path = Path(header_handle.name)
+
+    command.extend(["--include-in-header", str(header_path)])
+
     try:
         # 执行 Pandoc 命令，设置更长的超时时间（10分钟）
         result = subprocess.run(
@@ -72,3 +91,4 @@ def export_pdf(
         ) from timeout_error
     finally:
         temp_path.unlink(missing_ok=True)
+        header_path.unlink(missing_ok=True)
