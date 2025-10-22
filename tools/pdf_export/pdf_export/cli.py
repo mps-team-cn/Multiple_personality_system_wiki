@@ -115,6 +115,24 @@ def parse_arguments(argv: Sequence[str] | None = None) -> argparse.Namespace:
         default=DEFAULT_COVER_FOOTER,
         help=f"封面底部文字 (默认: {DEFAULT_COVER_FOOTER})。传入空字符串可移除。",
     )
+    parser.add_argument(
+        "--include-tags",
+        type=str,
+        default=None,
+        help="只导出包含指定标签的词条，多个标签用逗号分隔。例如: --include-tags '基础概念,入门指南'",
+    )
+    parser.add_argument(
+        "--exclude-tags",
+        type=str,
+        default=None,
+        help="排除包含指定标签的词条，多个标签用逗号分隔。例如: --exclude-tags '进阶内容,实验性'",
+    )
+    parser.add_argument(
+        "--entry-list",
+        type=Path,
+        default=None,
+        help="指定词条白名单文件路径，每行一个词条文件名（如 'Alter.md'）或标题",
+    )
 
     return parser.parse_args(argv)
 
@@ -155,7 +173,22 @@ def main(argv: Sequence[str] | None = None) -> None:
 
     if sys.stdout.isatty():
         print("📚 收集 Markdown 文件结构...")
-    preface_doc, structure = collect_markdown_structure(ignore_rules)
+
+    # 解析标签过滤参数
+    include_tags = None
+    if args.include_tags:
+        include_tags = set(tag.strip() for tag in args.include_tags.split(',') if tag.strip())
+
+    exclude_tags = None
+    if args.exclude_tags:
+        exclude_tags = set(tag.strip() for tag in args.exclude_tags.split(',') if tag.strip())
+
+    preface_doc, structure = collect_markdown_structure(
+        ignore_rules,
+        include_tags=include_tags,
+        exclude_tags=exclude_tags,
+        entry_list_path=args.entry_list,
+    )
     if not structure:
         raise SystemExit("没有找到可以导出的 Markdown 文件。")
 
