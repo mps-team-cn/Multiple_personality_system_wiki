@@ -16,7 +16,7 @@ tags:
 
 title: 边缘性人格障碍（Borderline Personality Disorder，BPD）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 边缘性人格障碍（Borderline Personality Disorder，BPD）

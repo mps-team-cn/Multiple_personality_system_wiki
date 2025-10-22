@@ -20,7 +20,7 @@ tags:
 
 title: 嗜睡障碍（Hypersomnolence Disorder）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 嗜睡障碍（Hypersomnolence Disorder）

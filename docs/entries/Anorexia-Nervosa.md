@@ -16,7 +16,7 @@ tags:
 
 title: 神经性厌食症(Anorexia Nervosa, AN)
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 神经性厌食症(Anorexia Nervosa, AN)

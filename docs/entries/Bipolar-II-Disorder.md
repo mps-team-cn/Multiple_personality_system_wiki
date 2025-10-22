@@ -17,7 +17,7 @@ tags:
 
 title: 双相 II 型障碍（Bipolar II Disorder）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 双相 II 型障碍（Bipolar II Disorder）

@@ -13,7 +13,7 @@ tags:
 
 title: 解离性身份障碍（Dissociative Identity Disorder，DID）
 topic: 诊断与临床
-updated: 2025-10-21
+updated: 2025-10-22
 ---
 
 # 解离性身份障碍（Dissociative Identity Disorder，DID）

@@ -17,7 +17,7 @@ tags:
 
 title: 双相 I 型障碍（Bipolar I Disorder）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 双相 I 型障碍（Bipolar I Disorder）

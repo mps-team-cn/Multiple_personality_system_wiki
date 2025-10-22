@@ -20,7 +20,7 @@ tags:
 
 title: 持续性抑郁障碍（Persistent Depressive Disorder, PDD / Dysthymia）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 持续性抑郁障碍（Persistent Depressive Disorder, PDD / Dysthymia）
