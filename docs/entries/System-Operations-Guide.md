@@ -73,6 +73,8 @@ search:
 - 🧸 [退行（Regression）](Regression.md)：区分年龄退行与儿童人格的功能。
 - 💭 [侵入性思维](Intrusive-Thoughts.md)：应对突发的念头、影像或语句；区分侵入性记忆与闪回。
 - 🧠 [侵入性记忆](Intrusive-Memory.md)：创伤相关的记忆闯入，区分与闪回、思维。
+- 🎯 [过度专注（Hyperfocus）](Hyperfocus.md)：注意“黏附”与抽离困难；区分心流与解离，提供切换策略。
+- 🧊 [心流（Flow）](Flow.md)：主动、适配且可控的最佳专注体验；与过度专注、解离区分。
 - 🥴 [醉酒解离](Alcohol-Induced-Dissociation.md)：似醉非饮的主观体验与稳定策略。
 - 🪞 [非我感（Not-me Feeling）](Not-Me-Feeling.md) & [去现实化](Derealization.md)：边界感知与外界失真之区分与稳定。
 

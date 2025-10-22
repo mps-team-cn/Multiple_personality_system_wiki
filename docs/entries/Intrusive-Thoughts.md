@@ -127,6 +127,9 @@ SSRI 等对伴随 OCD/焦虑/抑郁的侵入性思维有效。
 
 参阅： [侵入性记忆（Intrusive Memory）](Intrusive-Memory.md) · [闪回（Flashback）](Flashback.md)
 
+!!! note "与注意状态的区分"
+    侵入性思维是“不受欢迎且难以控制”的内容闯入；而[过度专注（Hyperfocus）](Hyperfocus.md)/[心流（Flow）](Flow.md)属于注意状态，前者常为被动“黏附”、抽离困难，后者为主动、可控且与目标一致的积极体验。
+
 ## 社群经验
 
 在非临床社群中，常见将“有不受欢迎念头”误解为“想做/会做”。经验显示：
@@ -143,6 +146,8 @@ SSRI 等对伴随 OCD/焦虑/抑郁的侵入性思维有效。
 - [解离](Dissociation.md)
 - [应激反应](Stress-Response.md)
 - [接地](Grounding.md)
+- [过度专注（Hyperfocus）](Hyperfocus.md)
+- [心流（Flow）](Flow.md)
 
 ## 相关条目
 
