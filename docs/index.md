@@ -113,13 +113,11 @@ search:
 
 === "参与贡献"
 
-    - 新词条放在 `docs/entries/`，使用模板 `docs/TEMPLATE_ENTRY.md`。
-    - 必填 Frontmatter：`title`, `topic`, `tags`, `updated`（YYYY-MM-DD）。
-    - 遵循链接规范并同步更新对应 Guide（见
-
-      [技术约定](contributing/technical-conventions.md#3-链接管理)）。
-
-    - 提交前运行 `tools/fix_markdown.py` 与 `tools/check_links.py`。
+    - 阅读 [贡献指南](contributing/index.md) 了解协作流程与规范。
+    - 按照 [词条模板](TEMPLATE_ENTRY.md) 撰写新条目或修订现有内容。
+    - 提交前运行 `check_links.py` 与 `check_tags.py` 确保格式合规。
+    - 遇到疑问？可通过 [GitHub Issues](https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues) 反馈。
+   
 
 ## ⚠️ 重要提醒
 
@@ -208,33 +206,43 @@ search:
 
 ---
 
-## 🔧 参与贡献
+## 🔧 参与贡献 {#contributing}
+
+!!! info "共同建设 MPS Wiki"
+    无论你是学者、译者、系统成员、开发者或单纯的好奇者，都可以为 MPS Wiki 贡献力量。你的每一次改动，都会帮助更多人更安全地理解多意识体与创伤知识。
+
+---
 
 <div class="grid cards" markdown>
 
-- :material-file-document-edit: **补充内容**
+- :material-file-document-edit: **新增或修订词条**
 
-    通过 Pull Request 添加新词条或完善现有内容
+    按照 [词条模板](https://github.com/mps-team-cn/Multiple_personality_system_wiki/blob/main/docs/TEMPLATE_ENTRY.md) 编写内容，确保 Frontmatter 完整，格式与结构符合 [AGENTS.md](https://github.com/mps-team-cn/Multiple_personality_system_wiki/blob/main/AGENTS.md) 要求。  
+    提交前执行 `check_links.py` 与 `check_tags.py` 验证。
 
-    [:octicons-arrow-right-24: 了解详情](contributing/index.md)
+    [:octicons-arrow-right-24: 查看模板](https://github.com/mps-team-cn/Multiple_personality_system_wiki/blob/main/docs/TEMPLATE_ENTRY.md)
+
+- :material-translate: **翻译与校对**
+
+    发现译名不一致或表述可优化？  
+    欢迎改进术语翻译与文体一致性。  
+    参考 [Tagging Standard v2.0](contributing/tagging-standard.md)。
+
+    [:octicons-arrow-right-24: 标签规范](contributing/tagging-standard.md)
 
 - :material-bug: **报告问题**
 
-    在 GitHub Issues 中反馈错误或提出改进建议
+    通过 [GitHub Issues](https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues) 提交错误报告、功能建议或内容缺漏。
 
     [:octicons-arrow-right-24: 提交 Issue](https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues)
 
-- :material-translate: **翻译校对**
+- :material-github: **参与自动化开发**
 
-    帮助改进术语翻译和文本表述
+    想改进 CI、工具或 AI 代理？  
+    请查阅 [AGENTS.md](https://github.com/mps-team-cn/Multiple_personality_system_wiki/blob/main/AGENTS.md) 的自动化贡献规范。  
+    欢迎使用 `feat`、`fix`、`docs`、`refactor` 等标准化提交信息。
 
-    [:octicons-arrow-right-24: 贡献指南](contributing/index.md)
-
-- :material-share-variant: **分享经验**
-
-    贡献系统经验、实践技巧或资源推荐
-
-    [:octicons-arrow-right-24: 开始贡献](contributing/index.md)
+    [:octicons-arrow-right-24: 查看代理规范](https://github.com/mps-team-cn/Multiple_personality_system_wiki/blob/main/AGENTS.md)
 
 </div>
 
@@ -284,8 +292,7 @@ search:
 
 <div align="center" markdown>
 
-:material-github: **开源协作**：本项目在 [GitHub](https://github.com/mps-team-cn/Multiple_personality_system_wiki) 上开源，欢迎参与
-
-:material-license: **内容许可**：除特别声明外，所有内容遵循 CC BY-SA 4.0 协议
+:material-github: **开源协作**：本项目在 [GitHub](https://github.com/mps-team-cn/Multiple_personality_system_wiki) 上开源  
+:material-license: **许可协议**：内容遵循 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans)  
 
 </div>
