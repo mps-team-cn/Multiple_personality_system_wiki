@@ -18,7 +18,8 @@ hide:
 
 ## 词条一览
 
-- [系统(System)](System.md) — *2025-10-21*
+- [非我感（Not-me Feeling）](Not-Me-Feeling.md) — *2025-10-22*
+- [系统(System)](System.md) — *2025-10-22*
 - [醉酒解离（Alcohol-Induced Dissociation）](Alcohol-Induced-Dissociation.md) — *2025-10-20*
 - [失忆（Amnesia）](Amnesia.md) — *2025-10-20*
 - [锚点（Anchors / Tells / Markers）](Anchors.md) — *2025-10-20*
@@ -53,7 +54,6 @@ hide:
 - [混合型系统（Mixed Systems, Xianyu Theory）](Mixed-Systems-Xianyu.md) — *2025-10-20*
 - [多意识体系统（Multiple Personality System）](Multiple_Personality_System.md) — *2025-10-20*
 - [神经多样性（Neurodiversity）](Neurodiversity.md) — *2025-10-20*
-- [非我感（Not-me Feeling）](Not-Me-Feeling.md) — *2025-10-20*
 - [并行（Parallelism）](Parallelism.md) — *2025-10-20*
 - [权限(Permissions)](Permissions.md) — *2025-10-20*
 - [附体（Possession）](Possession.md) — *2025-10-20*
