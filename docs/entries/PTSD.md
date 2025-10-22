@@ -14,7 +14,7 @@ synonyms:
 
 tags:
 
-- dx:创伤后应激障碍（PTSD）
+- dx:创伤后应激障碍
 - guide:诊断与临床
 
 title: 创伤后应激障碍（Post-Traumatic Stress Disorder，PTSD）

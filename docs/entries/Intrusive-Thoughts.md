@@ -13,7 +13,7 @@ synonyms:
 
 tags:
 
-- dx:创伤后应激障碍（PTSD）
+- dx:创伤后应激障碍
 - sx:系统运作
 - dx:解离障碍
 
