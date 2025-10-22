@@ -2,21 +2,25 @@
 comments: true
 description: 深入解读纵火癖（Pyromania）的诊断标准、心理动机、风险评估与干预策略，聚焦安全管理与与物质滥用、人格障碍的区分
 synonyms:
-  - 纵火冲动障碍
-  - 放火癖
-  - Pyromania
-  - 纵火症
-  - zonghuo pi
-  - pathologic fire setting
-  - deliberate fire setting disorder
+
+    - 纵火冲动障碍
+    - 放火癖
+    - Pyromania
+    - 纵火症
+    - zonghuo pi
+    - pathologic fire setting
+    - deliberate fire setting disorder
+
 tags:
-  - guide:诊断与临床
-  - guide:风险管理
-  - dx:破坏性冲动控制障碍
-  - dx:高危行为
+
+    - guide:诊断与临床
+    - guide:风险管理
+    - dx:破坏性冲动控制障碍
+    - dx:高危行为
+
 title: 纵火癖（Pyromania）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 纵火癖（Pyromania）
@@ -88,8 +92,8 @@ updated: 2025-10-20
 
 ## 鉴别诊断
 
-- **[品行障碍（CD）](Conduct-Disorder.md)**：CD 的纵火多为破坏或报复，缺乏纵火癖的快感/迷恋特征。
-- **[间歇性暴怒障碍（IED）](Intermittent-Explosive-Disorder.md)**：IED 爆发为冲动攻击，纵火通常出于愤怒。
+- [**品行障碍（CD）**](Conduct-Disorder.md)：CD 的纵火多为破坏或报复，缺乏纵火癖的快感/迷恋特征。
+- [**间歇性暴怒障碍（IED）**](Intermittent-Explosive-Disorder.md)：IED 爆发为冲动攻击，纵火通常出于愤怒。
 - **躁狂/轻躁发作**：伴随自大、精力旺盛、冲动消费等症状时需考虑[双相障碍](Bipolar-Disorders.md)。
 - **精神病性障碍**：若纵火由妄想（如被命令纵火）驱动，归入精神病性障碍。
 - **物质使用或环境因素**：酒精、吸毒、帮派活动、保险诈骗等动机需排除。

@@ -2,21 +2,25 @@
 comments: true
 description: 详解偷窃癖（Kleptomania）的诊断标准、冲动机制、风险评估与治疗策略，协助区分偶发盗窃、物质诱发行为与人格特质问题
 synonyms:
-  - 偷窃冲动障碍
-  - 病理性盗窃
-  - Kleptomania
-  - 盗窃癖
-  - touqie pi
-  - compulsive stealing disorder
-  - pathological stealing
+
+    - 偷窃冲动障碍
+    - 病理性盗窃
+    - Kleptomania
+    - 盗窃癖
+    - touqie pi
+    - compulsive stealing disorder
+    - pathological stealing
+
 tags:
-  - guide:诊断与临床
-  - guide:风险管理
-  - dx:破坏性冲动控制障碍
-  - dx:高危行为
+
+    - guide:诊断与临床
+    - guide:风险管理
+    - dx:破坏性冲动控制障碍
+    - dx:高危行为
+
 title: 偷窃癖（Kleptomania）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 偷窃癖（Kleptomania）
@@ -87,7 +91,7 @@ updated: 2025-10-20
 ## 鉴别诊断
 
 - **[品行障碍（CD）](Conduct-Disorder.md) / [反社会人格障碍（ASPD）](Antisocial-Personality-Disorder-ASPD.md)**：盗窃多为盈利或报复。
-- **[对立违抗障碍（ODD）](Oppositional-Defiant-Disorder.md)**：偷窃通常出于对权威的反抗。
+- [**对立违抗障碍（ODD）**](Oppositional-Defiant-Disorder.md)：偷窃通常出于对权威的反抗。
 - **物质使用或赌博冲动**：需评估偷窃是否与获取物质或赌博资金相关。
 - **躁狂或轻躁发作**：若伴情绪高涨、睡眠需求减少、冲动消费等症状需考虑[双相障碍](Bipolar-Disorders.md)。
 - **强迫症/强迫相关障碍**：若偷窃用于缓解强迫思维，应评估强迫性机制。

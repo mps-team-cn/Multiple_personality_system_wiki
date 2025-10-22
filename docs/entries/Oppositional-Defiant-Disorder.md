@@ -2,19 +2,23 @@
 comments: true
 description: 系统化介绍对立违抗障碍（ODD）的诊断标准、临床特征、风险因素与干预策略，帮助区分青春期反抗与可诊断的行为模式
 synonyms:
-  - 对立性违抗障碍
-  - 违抗型行为障碍
-  - Oppositional Defiant Disorder
-  - ODD
-  - duili weigang zhangai
-  - defiant disorder
+
+    - 对立性违抗障碍
+    - 违抗型行为障碍
+    - Oppositional Defiant Disorder
+    - ODD
+    - duili weigang zhangai
+    - defiant disorder
+
 tags:
-  - guide:诊断与临床
-  - guide:风险管理
-  - dx:破坏性冲动控制障碍
+
+    - guide:诊断与临床
+    - guide:风险管理
+    - dx:破坏性冲动控制障碍
+
 title: 对立违抗障碍（Oppositional Defiant Disorder，ODD）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 对立违抗障碍（Oppositional Defiant Disorder，ODD）
@@ -38,9 +42,9 @@ updated: 2025-10-20
 ### DSM-5-TR 摘要
 
 - **行为模式**：至少 6 个月内，在与非兄弟姐妹的互动中出现以下三类症状之一，每周 ≥1 次（5 岁及以上可放宽）：
-  - **易怒/易激惹心境**：常发脾气、易被激怒、经常感到愤怒。
-  - **争辩/违抗行为**：常与成人争辩、主动违抗要求或规则、故意惹恼他人、将自己的错误归咎他人。
-  - **报复性**：过去 6 个月内至少两次恶意报复行为。
+    - **易怒/易激惹心境**：常发脾气、易被激怒、经常感到愤怒。
+    - **争辩/违抗行为**：常与成人争辩、主动违抗要求或规则、故意惹恼他人、将自己的错误归咎他人。
+    - **报复性**：过去 6 个月内至少两次恶意报复行为。
 - **严重度**：依发病场景数量（家庭、学校、同伴、社会）分为轻度、中度、重度。
 - **功能损害**：症状导致社会、教育或职能显著受损。
 - **排除**：不局限于精神病性、物质中毒、抑郁或双相发作期间，且不符合破坏性心境失调障碍（DMDD）标准。
@@ -90,9 +94,9 @@ updated: 2025-10-20
 
 - **破坏性心境失调障碍（DMDD）**：情绪爆发频繁但以持续性抑郁/愤怒心境为主，ODD 更突出违抗与报复。
 - **间歇性暴怒障碍（IED）**：突发高度攻击行为，持续时间短；ODD 的攻击性多为低强度但频繁。
-- **[品行障碍（CD）](Conduct-Disorder.md)**：涉及侵犯他人权利、财物破坏、欺骗或严重规则违规。
-- **[ADHD](Attention-Deficit-Hyperactivity-Disorder-ADHD.md)**：冲动导致的违抗需区分其是否源自注意力与执行功能缺陷。
-- **[自闭谱系障碍（ASD）](Autism-Spectrum-Disorder.md)**：坚持常规或感官过载引发的反抗需与 ODD 区分。
+- [**品行障碍（CD）**](Conduct-Disorder.md)：涉及侵犯他人权利、财物破坏、欺骗或严重规则违规。
+- [**ADHD**](Attention-Deficit-Hyperactivity-Disorder-ADHD.md)：冲动导致的违抗需区分其是否源自注意力与执行功能缺陷。
+- [**自闭谱系障碍（ASD）**](Autism-Spectrum-Disorder.md)：坚持常规或感官过载引发的反抗需与 ODD 区分。
 
 ---
 

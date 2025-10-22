@@ -2,21 +2,25 @@
 comments: true
 description: 梳理间歇性暴怒障碍（IED）的诊断标准、临床特征、诱因机制及多学科干预策略，帮助识别突发性攻击行为背后的调节困难
 synonyms:
-  - 间歇性爆发性障碍
-  - 间歇性爆怒障碍
-  - 间歇性爆发障碍
-  - Intermittent Explosive Disorder
-  - IED
-  - baonu zhangai
-  - explosive disorder
-  - episodic dyscontrol disorder
+
+    - 间歇性爆发性障碍
+    - 间歇性爆怒障碍
+    - 间歇性爆发障碍
+    - Intermittent Explosive Disorder
+    - IED
+    - baonu zhangai
+    - explosive disorder
+    - episodic dyscontrol disorder
+
 tags:
-  - guide:诊断与临床
-  - guide:风险管理
-  - dx:破坏性冲动控制障碍
+
+    - guide:诊断与临床
+    - guide:风险管理
+    - dx:破坏性冲动控制障碍
+
 title: 间歇性暴怒障碍（Intermittent Explosive Disorder，IED）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 间歇性暴怒障碍（Intermittent Explosive Disorder，IED）
@@ -89,10 +93,10 @@ updated: 2025-10-20
 
 ## 鉴别诊断
 
-- **[对立违抗障碍（ODD）](Oppositional-Defiant-Disorder.md)**：ODD 以持续违抗为主，攻击程度较低且常有意针对权威。
-- **[品行障碍（CD）](Conduct-Disorder.md)**：CD 的攻击常具目的性（报复、利益），并包含欺骗、偷窃、破坏财物。
-- **[双相障碍](Bipolar-Disorders.md)**：躁狂/轻躁期的攻击伴随情绪高涨、思维奔逸等系统性症状。
-- **[边缘型人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)**：情绪爆发常与人际拒绝敏感与身份不稳定相关。
+- [**对立违抗障碍（ODD）**](Oppositional-Defiant-Disorder.md)：ODD 以持续违抗为主，攻击程度较低且常有意针对权威。
+- [**品行障碍（CD）**](Conduct-Disorder.md)：CD 的攻击常具目的性（报复、利益），并包含欺骗、偷窃、破坏财物。
+- [**双相障碍**](Bipolar-Disorders.md)：躁狂/轻躁期的攻击伴随情绪高涨、思维奔逸等系统性症状。
+- [**边缘型人格障碍（BPD）**](Borderline-Personality-Disorder-BPD.md)：情绪爆发常与人际拒绝敏感与身份不稳定相关。
 - **物质/医学因素**：需排除酒精、兴奋剂、头部外伤、癫痫等引发的冲动性行为。
 
 ---

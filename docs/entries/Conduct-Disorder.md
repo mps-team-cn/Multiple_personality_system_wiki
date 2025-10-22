@@ -2,22 +2,26 @@
 comments: true
 description: 全面解析品行障碍（Conduct Disorder，CD）的诊断标准、行为模式、风险因素与干预路径，协助区分青春期叛逆与严重反社会行为
 synonyms:
-  - 行为障碍
-  - 品性障碍
-  - Conduct Disorder
-  - CD
-  - pinxing zhangai
-  - adolescent conduct disorder
-  - childhood-onset conduct disorder
-  - 品行问题障碍
+
+    - 行为障碍
+    - 品性障碍
+    - Conduct Disorder
+    - CD
+    - pinxing zhangai
+    - adolescent conduct disorder
+    - childhood-onset conduct disorder
+    - 品行问题障碍
+
 tags:
-  - guide:诊断与临床
-  - guide:风险管理
-  - dx:破坏性冲动控制障碍
-  - dx:外化问题
+
+    - guide:诊断与临床
+    - guide:风险管理
+    - dx:破坏性冲动控制障碍
+    - dx:外化问题
+
 title: 品行障碍（Conduct Disorder，CD）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 品行障碍（Conduct Disorder，CD）
@@ -41,10 +45,10 @@ updated: 2025-10-20
 ### DSM-5-TR 摘要
 
 - **行为领域**：在过去 12 个月内出现以下四类行为中的 ≥3 项，且至少 1 项发生在过去 6 个月：
-  1. **攻击人或动物**：霸凌、威胁、身体攻击、使用武器、虐待动物、强迫性行为（含性行为强迫）。
-  2. **破坏财物**：蓄意纵火意图造成严重损害、蓄意破坏财物。
-  3. **欺骗或盗窃**：闯入、谎称以获取物品、在面对面情况下盗窃。
-  4. **严重违规**：夜不归宿、离家出走、逃学。
+    1. **攻击人或动物**：霸凌、威胁、身体攻击、使用武器、虐待动物、强迫性行为（含性行为强迫）。
+    2. **破坏财物**：蓄意纵火意图造成严重损害、蓄意破坏财物。
+    3. **欺骗或盗窃**：闯入、谎称以获取物品、在面对面情况下盗窃。
+    4. **严重违规**：夜不归宿、离家出走、逃学。
 - **严重度**：依据行为造成的伤害与违法程度分为轻度、中度、重度。
 - **起病类型**：10 岁前为儿童期起病型，10 岁后为青少年起病型；亦可标注未特定起病。
 - **情感标注（限定词）**：若个体持续展现冷酷—无情特质（缺乏悔意、冷漠、缺乏共情、表现浅薄情绪）需标记“伴有限亲社会情感”。
@@ -53,9 +57,9 @@ updated: 2025-10-20
 ### ICD-11 摘要
 
 - ICD-11 编码 **6C91 破坏性行为障碍**，包含品行障碍及 ODD。可使用子类别：
-  - **6C91.0 品行障碍**：行为跨多个场景，并造成显著功能损害。
-  - **6C91.1 对立违抗障碍**。
-  - 限定词包括“伴情绪失调”“伴冷酷—无情特质”等。
+    - **6C91.0 品行障碍**：行为跨多个场景，并造成显著功能损害。
+    - **6C91.1 对立违抗障碍**。
+    - 限定词包括“伴情绪失调”“伴冷酷—无情特质”等。
 - ICD-11 强调评估文化规范、年龄发展与社会背景，并允许与 ADHD、情绪障碍共病。
 
 ### 差异说明
@@ -95,10 +99,10 @@ updated: 2025-10-20
 
 ## 鉴别诊断
 
-- **[对立违抗障碍（ODD）](Oppositional-Defiant-Disorder.md)**：ODD 缺乏严重侵犯权利或财物破坏。
-- **[间歇性暴怒障碍（IED）](Intermittent-Explosive-Disorder.md)**：IED 的攻击为突发冲动，缺乏预谋与系统性违法。
+- [**对立违抗障碍（ODD）**](Oppositional-Defiant-Disorder.md)：ODD 缺乏严重侵犯权利或财物破坏。
+- [**间歇性暴怒障碍（IED）**](Intermittent-Explosive-Disorder.md)：IED 的攻击为突发冲动，缺乏预谋与系统性违法。
 - **情绪障碍与破坏性心境失调障碍（DMDD）**：当长期情绪低落与攻击共存需评估[抑郁障碍](Depressive-Disorders.md)或破坏性心境失调障碍（DMDD）。
-- **[自闭谱系障碍（ASD）](Autism-Spectrum-Disorder.md)**：社交理解困难导致的行为冲突需与有意侵犯区分。
+- [**自闭谱系障碍（ASD）**](Autism-Spectrum-Disorder.md)：社交理解困难导致的行为冲突需与有意侵犯区分。
 - **物质诱发与神经发育问题**：如头部外伤、智力发展障碍、[ADHD](Attention-Deficit-Hyperactivity-Disorder-ADHD.md)。
 
 ---

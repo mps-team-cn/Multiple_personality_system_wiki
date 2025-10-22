@@ -32,6 +32,7 @@ hide:
 - [边缘性人格障碍（Borderline Personality Disorder，BPD）](Borderline-Personality-Disorder-BPD.md) — *2025-10-22*
 - [神经性贪食症(Bulimia Nervosa, BN)](Bulimia-Nervosa.md) — *2025-10-22*
 - [复杂性创伤后应激障碍（Complex Post-Traumatic Stress Disorder，CPTSD）](CPTSD.md) — *2025-10-22*
+- [品行障碍（Conduct Disorder，CD）](Conduct-Disorder.md) — *2025-10-22*
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md) — *2025-10-22*
 - [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](Depersonalization-Derealization-Disorder-DPDR.md) — *2025-10-22*
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md) — *2025-10-22*
@@ -39,9 +40,13 @@ hide:
 - [解离性失忆(Dissociative Amnesia,DA)](Dissociative-Amnesia-DA.md) — *2025-10-22*
 - [闪回（Flashback）](Flashback.md) — *2025-10-22*
 - [嗜睡障碍（Hypersomnolence Disorder）](Hypersomnolence-Disorder.md) — *2025-10-22*
+- [间歇性暴怒障碍（Intermittent Explosive Disorder，IED）](Intermittent-Explosive-Disorder.md) — *2025-10-22*
+- [偷窃癖（Kleptomania）](Kleptomania.md) — *2025-10-22*
 - [重性抑郁障碍（Major Depressive Disorder, MDD）](Major-Depressive-Disorder-MDD.md) — *2025-10-22*
+- [对立违抗障碍（Oppositional Defiant Disorder，ODD）](Oppositional-Defiant-Disorder.md) — *2025-10-22*
 - [创伤后应激障碍（Post-Traumatic Stress Disorder，PTSD）](PTSD.md) — *2025-10-22*
 - [持续性抑郁障碍（Persistent Depressive Disorder, PDD / Dysthymia）](Persistent-Depressive-Disorder-PDD.md) — *2025-10-22*
+- [纵火癖（Pyromania）](Pyromania.md) — *2025-10-22*
 - [躯体症状障碍（Somatic Symptom Disorder，SSD）](Somatic-Symptom-Disorder-SSD.md) — *2025-10-22*
 - [紧张症（Catatonia）](Catatonia.md) — *2025-10-21*
 - [谵妄（Delirium）](Delirium.md) — *2025-10-21*
