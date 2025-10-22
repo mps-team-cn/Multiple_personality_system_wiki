@@ -230,7 +230,8 @@ def strip_primary_heading(content: str, title: str) -> str:
 def convert_html_br_tags(markdown: str) -> str:
     """将 HTML 换行标签 <br>, <br/>, <br /> 转换为 Markdown 双空格换行或 LaTeX \\\\。
 
-    在表格中使用双反斜杠 \\\\，在其他地方使用双空格 + 换行。
+    在表格中使用双反斜杠 \\\\，在其他地方使用双空格 + 换行，并保留原始行的缩进。
+    这确保了缩进块（如 admonitions、列表项）中的 <br> 标签转换后不会破坏块结构。
     """
     # 匹配 <br>、<br/>、<br /> 等各种形式
     br_pattern = re.compile(r'<br\s*/?\s*>', re.IGNORECASE)
@@ -243,11 +244,28 @@ def convert_html_br_tags(markdown: str) -> str:
         # 检查是否是表格行（包含 | 字符）
         if '|' in line and not line.strip().startswith('#'):
             # 在表格中使用双反斜杠
-            line = br_pattern.sub(r'\\\\', line)
+            result.append(br_pattern.sub(r'\\\\', line))
         else:
-            # 在其他地方使用双空格 + 换行
-            line = br_pattern.sub('  \n', line)
-        result.append(line)
+            # 在其他地方使用双空格 + 换行，并保留原始缩进
+            # 提取行首缩进
+            leading_spaces = len(line) - len(line.lstrip())
+            indent = line[:leading_spaces]
+
+            # 检查是否是列表项（- , * , 或数字.）
+            stripped = line.lstrip()
+            list_match = re.match(r'^([*\-+]|\d+\.)\s+', stripped)
+            if list_match:
+                # 列表项：续行需要额外缩进以对齐列表内容
+                # 计算列表标记的长度（例如 "- " 是 2，"1. " 是 3）
+                list_marker_len = len(list_match.group(0))
+                # 续行缩进 = 原始缩进 + 列表标记长度
+                continuation_indent = indent + ' ' * list_marker_len
+                converted = br_pattern.sub(f'  \n{continuation_indent}', line)
+            else:
+                # 普通行或已缩进的块：使用相同缩进
+                converted = br_pattern.sub(f'  \n{indent}', line)
+
+            result.append(converted)
 
     return '\n'.join(result)
 
