@@ -317,6 +317,16 @@ updated: 2025-10-21
 | **现实感** | 暂时丧失，"过去在当下"           | 保持，知道"这只是想法"                     |
 | **触发**  | 多为外部感官线索               | 可能无明确外部触发                        |
 
+### 与侵入性记忆（Intrusive Memory）
+
+| 维度      | 闪回（Flashback）                          | [侵入性记忆](Intrusive-Memory.md)                 |
+| ------- | ------------------------------------- | ----------------------------------------- |
+| **沉浸程度** | 高：仿佛当下正在经历（reliving），现实定向明显受扰       | 中：短暂片段闯入（remembering），通常保留基本定向        |
+| **感官特征** | 多模态、强烈（视觉/听觉/嗅觉/触觉齐聚）                 | 常为图像/片段，强度低于闪回，持续时间更短                |
+| **时间体验** | “过去在当下”——强烈当下感与时间错位                   | 仍知“这是记忆/想起”，时间错位相对较轻                  |
+| **功能影响** | 可短时夺取注意与行为控制，可能需要即时接地与安全干预         | 多为可自助稳定的闯入片段，接地与节律化呼吸通常有效        |
+| **治疗要点** | 充分稳定后进行创伤加工（如 TF-CBT/PE/EMDR）            | 触发管理 + 接地；必要时纳入创伤聚焦治疗的整体配方         |
+
 ### 与解离（Dissociation）
 
 **核心区别**（详见"[闪回与解离的区别](#闪回与解离的区别)"章节）：
@@ -638,6 +648,8 @@ updated: 2025-10-21
 
 - [创伤聚焦认知行为疗法（Trauma-Focused Cognitive-Behavioral Therapy，TF-CBT）](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md)
 - [延长暴露疗法（Prolonged Exposure Therapy，PE）](Prolonged-Exposure-Therapy-PE.md)
+ - [眼动脱敏与再加工（EMDR）](Eye-Movement-Desensitization-Reprocessing-EMDR.md)
+ - [侵入性记忆（Intrusive Memory）](Intrusive-Memory.md)
 - [眼动脱敏与再加工（Eye Movement Desensitization and Reprocessing，EMDR）](Eye-Movement-Desensitization-Reprocessing-EMDR.md)
 - [认知加工疗法（Cognitive Processing Therapy，CPT）](Cognitive-Processing-Therapy-CPT.md)
 - [接地（Grounding）](Grounding.md)
