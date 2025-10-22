@@ -24,7 +24,7 @@ hide:
 - [述情障碍（Alexithymia）](Alexithymia.md) — *2025-10-22*
 - [神经性厌食症(Anorexia Nervosa, AN)](Anorexia-Nervosa.md) — *2025-10-22*
 - [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](Attention-Deficit-Hyperactivity-Disorder-ADHD.md) — *2025-10-22*
-- [孤独症谱系（Autism Spectrum Disorder）](Autism-Spectrum-Disorder.md) — *2025-10-22*
+- [孤独症谱系障碍（Autism Spectrum Disorder，ASD）](Autism-Spectrum-Disorder.md) — *2025-10-22*
 - [暴食障碍(Binge Eating Disorder, BED)](Binge-Eating-Disorder.md) — *2025-10-22*
 - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md) — *2025-10-22*
 - [双相 I 型障碍（Bipolar I Disorder）](Bipolar-I-Disorder.md) — *2025-10-22*

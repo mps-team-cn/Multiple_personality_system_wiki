@@ -1,10 +1,12 @@
 ---
 comments: true
 synonyms:
+
     - 自闭症谱系障碍
     - 自闭症
     - Autism Spectrum Disorder
     - ASD
+
 tags:
 
 - dx:孤独症谱系障碍（ASD）

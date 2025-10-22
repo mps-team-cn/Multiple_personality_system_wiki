@@ -51,7 +51,7 @@
         * [大麻相关障碍（Cannabis-Related Disorders）](entries/Cannabis-Related-Disorders.md)
         * [失眠障碍(Insomnia Disorder)](entries/Insomnia-Disorder.md)
         * [妄想障碍（Delusional Disorder）](entries/Delusional-Disorder.md)
-        * [孤独症谱系（Autism Spectrum Disorder）](entries/Autism-Spectrum-Disorder.md)
+        * [孤独症谱系障碍（Autism Spectrum Disorder，ASD）](entries/Autism-Spectrum-Disorder.md)
         * [定向障碍（Disorientation）](entries/Disorientation.md)
         * [广场恐惧症(Agoraphobia, AG)](entries/Agoraphobia.md)
         * [广泛性焦虑障碍（Generalized Anxiety Disorder，GAD）](entries/Generalized-Anxiety-Disorder-GAD.md)
