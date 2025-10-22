@@ -72,6 +72,7 @@ def generate_summary(buckets, use_letter_grouping=True):
     lines.append("    * [健康导览](guides/Mental-Health-Guide.md)")
 
     lines.append("* 主题导览")
+    lines.append("    * [全部主题](guides/index.md)")
     lines.append("    * [诊断与临床导览](guides/Clinical-Diagnosis-Guide.md)")
     lines.append("    * [系统运作导览](guides/System-Operations-Guide.md)")
     lines.append("    * [实践指南导览](guides/Practice-Guide.md)")

@@ -451,13 +451,13 @@ updated: 2025-10-14
 
 ### 生成文件清单
 
-- `Clinical-Diagnosis-index.md` - 诊断与临床索引
-- `System-Operations-index.md` - 系统运作索引
-- `Practice-index.md` - 实践指南索引
-- `Trauma-Healing-index.md` - 创伤与疗愈索引
-- `Roles-Identity-index.md` - 角色与身份索引
-- `Theory-Classification-index.md` - 理论与分类索引
-- `Cultural-Media-index.md` - 文化与表现索引
+- `guides/Clinical-Diagnosis-index.md` - 诊断与临床索引
+- `guides/System-Operations-index.md` - 系统运作索引
+- `guides/Practice-index.md` - 实践指南索引
+- `guides/Trauma-Healing-index.md` - 创伤与疗愈索引
+- `guides/Roles-Identity-index.md` - 角色与身份索引
+- `guides/Theory-Classification-index.md` - 理论与分类索引
+- `guides/Cultural-Media-index.md` - 文化与表现索引
 - `SUMMARY.md` - 侧边栏导航配置(自动生成)
 
 ### 导航集成

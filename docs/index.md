@@ -4,7 +4,6 @@ description: 专业的多重人格系统(MPS)、解离障碍(DID/OSDD)与创伤�
 hide:
 
     - navigation  # 隐藏左侧导航栏
-
   # - toc         # 隐藏右侧目录（可选，如果也想隐藏右侧）
 search:
   exclude: true
@@ -27,14 +26,27 @@ search:
 
 ---
 
-<div align="center" markdown>
+<div class="mps-hero" markdown>
 
 ## :material-star-four-points-circle: 以知识点亮 MPS 之路
 
+<div class="hero-description" markdown>
 从概念入门到实践工具，我们致力于用中文整理关于多意识体系统（`Multiple Personality System`，简称 **`MPS`**）与创伤照护的可靠资料，陪伴你理解自我、照顾伙伴，并与同路人建立连结。
+</div>
 
-[开始探索](#-核心主题){ .md-button .md-button--primary }
-[参与贡献](contributing/index.md){ .md-button }
+<blockquote class="hero-tagline">
+从入门到深入探索，找到属于你的 MPS 学习路径
+</blockquote>
+
+<div class="button-row">
+  <a href="QuickStart.md" class="md-button md-button--primary">开始探索</a>
+  <a href="guides/index.md" class="md-button">核心主题</a>
+</div>
+
+<div class="button-hint" markdown>
+**开始探索** → 新手快速了解与推荐路线
+**核心主题** → 理论、临床与系统运作的深度内容
+</div>
 
 </div>
 
