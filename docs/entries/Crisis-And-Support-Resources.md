@@ -16,7 +16,7 @@ tags:
 
 title: 危机与支援资源（Crisis & Support Resources）
 topic: 实践指南
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 危机与支援资源（Crisis & Support Resources）

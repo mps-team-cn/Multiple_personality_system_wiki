@@ -12,7 +12,7 @@ tags:
 
 title: DSM-5-TR 评估量表总览
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # DSM-5-TR 评估量表总览

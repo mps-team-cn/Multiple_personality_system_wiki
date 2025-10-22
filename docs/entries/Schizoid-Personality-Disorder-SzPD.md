@@ -14,7 +14,7 @@ tags:
 
 title: 分裂样人格障碍（Schizoid Personality Disorder，SzPD）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 分裂样人格障碍（Schizoid Personality Disorder，SzPD）

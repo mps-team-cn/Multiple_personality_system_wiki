@@ -8,7 +8,7 @@ tags:
 
 title: Tulpa 完全创造指南·基础篇
 topic: 实践指南
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # Tulpa 完全创造指南·基础篇

@@ -14,7 +14,7 @@ tags:
 
 title: 表演型人格障碍（Histrionic Personality Disorder，HPD）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 表演型人格障碍（Histrionic Personality Disorder，HPD）

@@ -20,7 +20,7 @@ tags:
 
 title: 广泛性焦虑障碍（Generalized Anxiety Disorder，GAD）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 广泛性焦虑障碍（Generalized Anxiety Disorder，GAD）

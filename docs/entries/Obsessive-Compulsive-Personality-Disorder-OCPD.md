@@ -14,7 +14,7 @@ tags:
 
 title: 强迫型人格障碍（Obsessive-Compulsive Personality Disorder，OCPD）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 强迫型人格障碍（Obsessive-Compulsive Personality Disorder，OCPD）

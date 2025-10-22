@@ -19,7 +19,7 @@ tags:
 
 title: 反社会人格障碍（Antisocial Personality Disorder，ASPD）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 反社会人格障碍（Antisocial Personality Disorder，ASPD）

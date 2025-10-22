@@ -14,7 +14,7 @@ tags:
 
 title: 偏执型人格障碍（Paranoid Personality Disorder，PPD）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 偏执型人格障碍（Paranoid Personality Disorder，PPD）

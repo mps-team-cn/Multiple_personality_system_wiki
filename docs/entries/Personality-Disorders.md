@@ -13,7 +13,7 @@ tags:
 
 title: 人格障碍（Personality Disorders）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 人格障碍（Personality Disorders）

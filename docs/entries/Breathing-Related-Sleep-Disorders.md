@@ -17,7 +17,7 @@ tags:
 
 title: 睡眠相关呼吸障碍（Breathing-Related Sleep Disorders）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 睡眠相关呼吸障碍（Breathing-Related Sleep Disorders）

@@ -21,7 +21,7 @@ tags:
 
 title: 自发型（Spontaneous）
 topic: 角色与身份
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 自发型（Spontaneous）

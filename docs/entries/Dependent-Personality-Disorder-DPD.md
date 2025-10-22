@@ -14,7 +14,7 @@ tags:
 
 title: 依赖型人格障碍（Dependent Personality Disorder，DPD）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 依赖型人格障碍（Dependent Personality Disorder，DPD）
