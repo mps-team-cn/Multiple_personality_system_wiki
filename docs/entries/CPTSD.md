@@ -44,7 +44,7 @@ ICD-11 将 CPTSD 编码为 **6B41**，明确区分于 PTSD（6B40）；DSM-5-TR 
 !!! info "Clinician’s Summary｜快速临床要点"
     **诊断核心**：PTSD 三大核心症状（重现、回避、威胁感）+ DSO 三大症状（情绪失调、负性自我、人际障碍）+ 功能损害。症状需持续数月以上。
 
-    **首选评估路径**：临床访谈 + 创伤史评估 → ITQ 或 CAPS-5 结构化评估 → 鉴别 PTSD/BPD/解离障碍 → 评估共病（抑郁、焦虑、物质使用）。
+    **首选评估路径**：临床访谈 + 创伤史评估 → ITQ 或 CAPS-5 结构化评估 → 鉴别 [PTSD](PTSD.md)/[BPD](Borderline-Personality-Disorder-BPD.md)/[解离障碍](Dissociative-Disorders.md) → 评估共病（[抑郁障碍](Depressive-Disorders.md)、[焦虑障碍](Anxiety-Disorders.md)、[物质使用障碍](Substance-Use-Disorders-SUD.md)）。
 
     **分阶段治疗原则**：**阶段一**（安全与稳定）：建立联盟、情绪调节技能、接地训练、危机管理 → **阶段二**（创伤加工）：渐进暴露（EMDR、TF-CBT、CPT） → **阶段三**（整合与重建）：身份整合、关系修复、生活重建。
 
@@ -238,16 +238,16 @@ CPTSD 与童年期长期、反复且无法逃离的[创伤（Trauma）](Trauma.m
 
 ## 鉴别诊断
 
-- **创伤后应激障碍（PTSD）** : 若缺乏持续的 DSO 表现，应优先诊断 PTSD。
-- **边缘性人格障碍** : 两者皆有人际与情绪不稳，但 CPTSD 强调长期创伤诱发与闪回、回避等创伤特异症状。
-- **解离性障碍（如 DID、解离性遗忘）** : 若身份状态断裂、失忆或显著解离体验为主，应优先考虑解离性障碍。
-- **重度抑郁或双相障碍** : 需辨别抑郁发作与创伤触发的情绪调节困难，并评估躁狂史。
+- **[创伤后应激障碍（PTSD）](PTSD.md)**：若缺乏持续的 DSO 表现，应优先诊断 PTSD。
+- **[边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)**：两者皆有人际与情绪不稳，但 CPTSD 强调长期创伤诱发与闪回、回避等创伤特异症状。
+- **[解离性障碍（Dissociative Disorders）](Dissociative-Disorders.md)**：若身份状态断裂、失忆或显著解离体验为主，应优先考虑解离性障碍；相关条目：[解离性身份障碍（DID）](DID.md) / [解离性遗忘（DA）](Dissociative-Amnesia-DA.md) / [人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)。
+- **[抑郁障碍](Depressive-Disorders.md) / [双相障碍](Bipolar-Disorders.md)**：辨别抑郁发作与触发相关的情绪调节困难，并评估躁狂/轻躁狂史。
 
 ---
 
 ## 共病与风险管理
 
-- 常见共病包含抑郁障碍、焦虑障碍、物质使用障碍、边缘性人格障碍、饮食障碍及慢性疼痛。
+- 常见共病包含[抑郁障碍](Depressive-Disorders.md)、[焦虑障碍](Anxiety-Disorders.md)、[物质使用障碍](Substance-Use-Disorders-SUD.md)、[边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)、[饮食障碍](Eating-Disorders-ED.md)及慢性疼痛。
 - 高比例存在自伤、自杀风险，需要建立安全计划、危机联系表与接地技巧。
 - 医疗与心理服务需采纳创伤知情原则，避免再创伤化（如强制、过度暴露、缺乏控制感）。
 
@@ -255,7 +255,7 @@ CPTSD 与童年期长期、反复且无法逃离的[创伤（Trauma）](Trauma.m
 
 ## 治疗与支持
 
-- **阶段化创伤治疗** : 第一阶段建立安全与情绪调节技能；第二阶段逐步加工创伤记忆（如 EMDR、TF-CBT、CPT）；第三阶段整合身份与重建生活目标。[^isstd2024]
+- **阶段化创伤治疗** : 第一阶段建立安全与情绪调节技能；第二阶段逐步加工创伤记忆（如 [EMDR](Eye-Movement-Desensitization-Reprocessing-EMDR.md)、[TF-CBT](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md)、[CPT](Cognitive-Processing-Therapy-CPT.md)）；第三阶段整合身份与重建生活目标。[^isstd2024]
 - **情绪调节与接地训练** : 包含正念、感觉运动疗法、呼吸与身体觉察技术，协助处理 DSO。
 - **人际与社群支持** : 同伴互助、家庭治疗、创伤知情团体有助减少孤立感，但需设定界线与危机计划。
 - **药物治疗** : 暂无特异性药物，常针对共病抑郁、焦虑或睡眠障碍使用抗抑郁药、抗焦虑药或助眠药，由精神科医师评估。
@@ -264,8 +264,8 @@ CPTSD 与童年期长期、反复且无法逃离的[创伤（Trauma）](Trauma.m
 
 ## 社群与临床语境
 
-- 学界关注 CPTSD 与边缘性人格障碍、复杂性解离障碍之间的界限，倡议在评估中纳入创伤史、依附与解离特征。[^courtois2020]
-- 多意识系统社群常讨论 CPTSD 与 DID/OSDD 的重叠体验，强调安全环境、接地与成员协作的重要性。
+- 学界关注 CPTSD 与[边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)、复杂性解离障碍之间的界限，倡议在评估中纳入创伤史、依附与解离特征。[^courtois2020]
+- 多意识系统社群常讨论 CPTSD 与 [DID](DID.md)/[OSDD](OSDD.md) 的重叠体验，强调安全环境、接地与成员协作的重要性。
 - 不同医疗体系对 CPTSD 的认知差异导致资源获取不均，需推动教育、政策与创伤知情服务。
 
 ---
