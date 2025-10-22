@@ -1,0 +1,40 @@
+# 精简版 PDF 词条白名单示例（简单模式）
+# 此文件展示简单模式：仅列出词条，保持顺序，按 topic 自动分组
+# 使用方法: python tools/pdf_export/export_to_pdf.py --entry-list tools/pdf_export/example-simple-entries.txt --output MPS_Wiki_Simple.pdf
+
+# 核心概念词条（按重要性排序）
+Alter.md
+DID.md
+OSDD.md
+Multiple-System.md
+Dissociative-Disorders.md
+
+# 系统运作词条（按学习顺序）
+Switch.md
+Front-Fronting.md
+Co-Fronting.md
+Co-Consciousness.md
+Inner-World.md
+
+# 角色类型词条
+Host.md
+Protector.md
+Gatekeeper.md
+Inner-Self-Helper-ISH.md
+
+# 临床诊断词条
+Trauma.md
+PTSD.md
+C-PTSD.md
+Grounding.md
+
+# 创造型系统词条
+Tulpa.md
+Tulpamancy.md
+Plurality.md
+
+# 提示：
+# - 简单模式不使用 ##，词条会按原有 topic 分组
+# - 但每个分组内的词条会保持此文件中的顺序
+# - 分组出现的顺序也由第一个词条决定
+# - 例如：Alter.md 的 topic 是"解离性障碍"，所以"解离性障碍"分组会首先出现

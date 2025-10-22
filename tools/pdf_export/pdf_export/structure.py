@@ -322,15 +322,46 @@ def _build_untagged_section(
     return ("未分类词条", tuple(ordered))
 
 
-def _load_entry_list(entry_list_path: Path | None) -> set[str] | None:
-    """加载词条白名单文件，返回文件名和标题的集合。
+def _load_entry_list(entry_list_path: Path | None) -> tuple[list[str], bool] | None:
+    """加载词条白名单文件，返回有序词条列表。
+
+    白名单文件格式支持两种模式：
+
+    1. 简单模式（仅列出词条，保持顺序）：
+       ```
+       Alter.md
+       DID.md
+       Switch.md
+       Front-Fronting.md
+       ```
+       词条按文件顺序排列，导出时仍按 topic 分组，但组内保持白名单顺序
+
+    2. 自定义分组模式（使用 ## 分隔不同的 topic 组）：
+       ```
+       ## 解离性障碍
+       Alter.md
+       DID.md
+       OSDD.md
+
+       ## 系统运作
+       Switch.md
+       Front-Fronting.md
+       Co-Fronting.md
+       ```
+       每个 ## 标题对应一个 topic 分组，词条按组内顺序排列
 
     每行可以是:
+    - topic 分组标记（以 `##` 开头，用于自定义分组）
     - 词条文件名（如 'Alter.md'）
     - 词条标题（如 '人格（Alter）'）
+    - 注释（以 `#` 开头，但不是 `##`）
+    - 空行（忽略）
 
     返回值:
-        set[str] | None: 白名单集合，如果文件不存在则返回 None
+        tuple[list[str], bool] | None:
+        - 第一个元素：有序词条列表（文件名或标题）
+        - 第二个元素：是否使用了自定义分组模式（True=有 ##，False=简单模式）
+        如果文件不存在则返回 None
     """
     if entry_list_path is None or not entry_list_path.exists():
         return None
@@ -341,15 +372,34 @@ def _load_entry_list(entry_list_path: Path | None) -> set[str] | None:
         print(f"警告: 无法读取词条列表文件 {entry_list_path}: {error}", file=sys.stderr)
         return None
 
-    entries = set()
+    entries: list[str] = []
+    has_custom_groups = False
+
     for line in content.splitlines():
         stripped = line.strip()
-        # 跳过空行和注释
-        if not stripped or stripped.startswith('#'):
-            continue
-        entries.add(stripped)
 
-    return entries if entries else None
+        # 跳过空行
+        if not stripped:
+            continue
+
+        # 检查是否为分组标记（## 开头）
+        if stripped.startswith('##'):
+            has_custom_groups = True
+            # 分组标记本身也作为特殊标记加入列表
+            entries.append(stripped)
+            continue
+
+        # 跳过注释（# 开头但不是 ##）
+        if stripped.startswith('#'):
+            continue
+
+        # 添加词条
+        entries.append(stripped)
+
+    if not entries:
+        return None
+
+    return (entries, has_custom_groups)
 
 
 def _filter_documents(
@@ -364,6 +414,9 @@ def _filter_documents(
     1. 如果提供了 entry_list，只保留在白名单中的词条（按文件名或标题匹配）
     2. 如果提供了 include_tags，只保留至少包含一个指定标签的词条
     3. 如果提供了 exclude_tags，排除包含任何排除标签的词条
+
+    注意：此函数仅负责过滤，不负责排序。
+    排序由 _build_sections_from_whitelist 或 _build_sections_by_topic 处理。
     """
     filtered: OrderedDict[Path, EntryDocument] = OrderedDict()
 
@@ -390,16 +443,99 @@ def _filter_documents(
     return filtered
 
 
+def _build_sections_from_whitelist(
+    documents: OrderedDict[Path, EntryDocument],
+    whitelist_entries: list[str],
+    has_custom_groups: bool,
+) -> list[tuple[str, tuple[EntryDocument, ...]]]:
+    """根据白名单顺序构建章节。
+
+    参数:
+        documents: 已过滤的文档字典
+        whitelist_entries: 白名单词条列表（保持顺序，可能包含 ## 分组标记）
+        has_custom_groups: 是否使用了自定义分组模式
+
+    返回值:
+        章节列表，每个章节是 (章节标题, 词条元组) 元组
+    """
+    # 构建文件名和标题到文档的映射
+    name_to_doc: dict[str, EntryDocument] = {}
+    title_to_doc: dict[str, EntryDocument] = {}
+
+    for doc in documents.values():
+        name_to_doc[doc.path.name] = doc
+        title_to_doc[doc.title] = doc
+
+    if has_custom_groups:
+        # 自定义分组模式：按 ## 标记分组
+        sections: list[tuple[str, list[EntryDocument]]] = []
+        current_group_title: str | None = None
+        current_group_docs: list[EntryDocument] = []
+
+        for entry in whitelist_entries:
+            if entry.startswith('##'):
+                # 保存之前的分组
+                if current_group_docs:
+                    sections.append((current_group_title or OTHER_CATEGORY_TITLE, current_group_docs))
+                    current_group_docs = []
+                # 开始新分组
+                current_group_title = entry[2:].strip()
+                continue
+
+            # 查找词条
+            doc = name_to_doc.get(entry) or title_to_doc.get(entry)
+            if doc is not None:
+                current_group_docs.append(doc)
+            else:
+                print(f"警告: 白名单中的词条 '{entry}' 未找到或已被过滤", file=sys.stderr)
+
+        # 添加最后一个分组
+        if current_group_docs:
+            sections.append((current_group_title or OTHER_CATEGORY_TITLE, current_group_docs))
+
+        return [(title, tuple(docs)) for title, docs in sections if docs]
+
+    else:
+        # 简单模式：按 topic 分组，但保持白名单顺序
+        # 先按白名单顺序收集所有文档
+        ordered_docs: list[EntryDocument] = []
+        for entry in whitelist_entries:
+            doc = name_to_doc.get(entry) or title_to_doc.get(entry)
+            if doc is not None:
+                ordered_docs.append(doc)
+            else:
+                print(f"警告: 白名单中的词条 '{entry}' 未找到或已被过滤", file=sys.stderr)
+
+        # 按 topic 分组，但每个组内保持白名单顺序
+        topic_to_docs: dict[str, list[EntryDocument]] = defaultdict(list)
+        for doc in ordered_docs:
+            topic = doc.topic if doc.topic and doc.topic.strip() else OTHER_CATEGORY_TITLE
+            topic_to_docs[topic].append(doc)
+
+        # 构建章节（保持 topic 在白名单中第一次出现的顺序）
+        seen_topics: set[str] = set()
+        sections: list[tuple[str, tuple[EntryDocument, ...]]] = []
+
+        for doc in ordered_docs:
+            topic = doc.topic if doc.topic and doc.topic.strip() else OTHER_CATEGORY_TITLE
+            if topic not in seen_topics:
+                seen_topics.add(topic)
+                sections.append((topic, tuple(topic_to_docs[topic])))
+
+        return sections
+
+
 def collect_markdown_structure(
     ignore: IgnoreRules,
     include_tags: set[str] | None = None,
     exclude_tags: set[str] | None = None,
     entry_list_path: Path | None = None,
 ) -> tuple[EntryDocument | None, CategoryStructure]:
-    """依据词条的 topic 字段构建 PDF 导出结构。
+    """依据词条的 topic 字段或白名单顺序构建 PDF 导出结构。
 
-    根据每个词条的 topic 字段自动分组，
-    topic 为空的词条归入"其他"分类。
+    支持两种模式：
+    1. 标签过滤模式：根据 topic 字段自动分组
+    2. 白名单模式：按白名单文件顺序排列，支持自定义分组
 
     参数:
         ignore: 忽略规则
@@ -415,16 +551,25 @@ def collect_markdown_structure(
     documents = _load_entry_documents(ignore)
 
     # 加载词条白名单
-    entry_list = _load_entry_list(entry_list_path)
+    whitelist_result = _load_entry_list(entry_list_path)
+
+    # 提取白名单词条集合（用于过滤）
+    entry_list_set: set[str] | None = None
+    whitelist_entries: list[str] | None = None
+    has_custom_groups = False
+
+    if whitelist_result is not None:
+        whitelist_entries, has_custom_groups = whitelist_result
+        entry_list_set = set(whitelist_entries) - {e for e in whitelist_entries if e.startswith('##')}
 
     # 应用过滤规则
-    if include_tags is not None or exclude_tags is not None or entry_list is not None:
-        documents = _filter_documents(documents, include_tags, exclude_tags, entry_list)
+    if include_tags is not None or exclude_tags is not None or entry_list_set is not None:
+        documents = _filter_documents(documents, include_tags, exclude_tags, entry_list_set)
 
         if sys.stdout.isatty():
             filter_info = []
-            if entry_list:
-                filter_info.append(f"白名单: {len(entry_list)} 个词条")
+            if entry_list_set:
+                filter_info.append(f"白名单: {len(entry_list_set)} 个词条")
             if include_tags:
                 filter_info.append(f"包含标签: {', '.join(sorted(include_tags))}")
             if exclude_tags:
@@ -437,8 +582,16 @@ def collect_markdown_structure(
     # 加载前言文档（独立于章节结构）
     preface_doc = _load_preface_document(ignore)
 
-    # 按 topic 构建章节（包含"其他"分类）
-    topic_sections = _build_sections_by_topic(documents.values())
-    categories.extend(topic_sections)
+    # 根据是否使用白名单选择构建方式
+    if whitelist_entries is not None:
+        # 白名单模式：按白名单顺序构建
+        if sys.stdout.isatty():
+            mode = "自定义分组" if has_custom_groups else "保持顺序并按 topic 分组"
+            print(f"   使用白名单模式: {mode}")
+        categories = _build_sections_from_whitelist(documents, whitelist_entries, has_custom_groups)
+    else:
+        # 标签过滤模式：按 topic 构建章节（包含"其他"分类）
+        topic_sections = _build_sections_by_topic(documents.values())
+        categories.extend(topic_sections)
 
     return (preface_doc, tuple(categories))

@@ -107,22 +107,24 @@ python tools/pdf_export/export_to_pdf.py \
 - 可同时使用两个参数，先应用 include 再应用 exclude
 - 多个标签用逗号分隔
 
-### 方式 2：使用词条白名单
+### 方式 2：使用词条白名单（按顺序导出）
 
-创建一个文本文件，每行写一个要导出的词条（可以是文件名或标题）：
+创建一个文本文件，列出要导出的词条，支持两种模式：
+
+**简单模式**（保持顺序 + topic 分组）：
 
 ```bash
 # 创建白名单文件 lite-entries.txt
 cat > lite-entries.txt << 'EOF'
-# 核心概念
+# 核心概念（按重要性排序）
 Alter.md
 DID.md
 OSDD.md
 Multiple-System.md
 
-# 基础操作
-Switching.md
-Fronting.md
+# 基础操作（按学习顺序）
+Switch.md
+Front-Fronting.md
 Co-Fronting.md
 
 # 也可以使用词条标题
@@ -136,11 +138,41 @@ python tools/pdf_export/export_to_pdf.py \
   --output MPS_Wiki_Core.pdf
 ```
 
+**自定义分组模式**（完全控制目录结构）：
+
+```bash
+# 使用 ## 自定义分组标题
+cat > custom-entries.txt << 'EOF'
+## 基础概念
+Alter.md
+DID.md
+OSDD.md
+
+## 系统运作
+Switch.md
+Front-Fronting.md
+Co-Fronting.md
+
+## 临床诊断
+Trauma.md
+PTSD.md
+Grounding.md
+EOF
+
+# 使用自定义分组导出
+python tools/pdf_export/export_to_pdf.py \
+  --entry-list custom-entries.txt \
+  --output MPS_Wiki_Custom.pdf
+```
+
 白名单文件格式：
 
+- **简单模式**：仅列出词条，按文件顺序排列，仍按 topic 分组
+- **自定义分组模式**：使用 `##` 开头的行自定义分组标题
 - 每行一个词条，可以是文件名（如 `Alter.md`）或词条标题（如 `人格（Alter）`）
-- 支持 `#` 开头的注释行
+- 支持 `#` 开头的注释行（但不是 `##`）
 - 空行会被忽略
+- 词条严格按照在文件中的顺序排列
 
 ### 方式 3：组合使用
 
@@ -157,6 +189,7 @@ python tools/pdf_export/export_to_pdf.py \
 ### 推荐的精简版配置
 
 **新手入门版**（适合初次了解的读者）：
+
 ```bash
 python tools/pdf_export/export_to_pdf.py \
   --include-tags "基础概念,入门指南,常见问题" \
@@ -164,6 +197,7 @@ python tools/pdf_export/export_to_pdf.py \
 ```
 
 **临床专业版**（适合心理健康专业人士）：
+
 ```bash
 python tools/pdf_export/export_to_pdf.py \
   --include-tags "临床诊断,治疗方法,评估工具" \
@@ -171,6 +205,7 @@ python tools/pdf_export/export_to_pdf.py \
 ```
 
 **核心手册版**（精选最重要的词条）：
+
 ```bash
 # 先创建核心词条列表
 # 然后使用白名单导出
