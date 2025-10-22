@@ -55,7 +55,7 @@ updated: 2025-10-20
 
 - 🔒 [守门人（Gatekeeper）](Gatekeeper.md)：控制切换与访问权限。
 - 🛡️ [保护者（Protector）](Protector.md)：防御外部威胁与内部危机。
-- ⚠️ [迫害者（Persecutor）](Persecutor.md)：
+- ⚠️ [迫害者（Persecutor）](Persecutor.md)：通过敌对或自惩行为阻止系统再次受创。
 
   !!! warning "防误用"
       源自防御机制的自我保护角色，**非攻击他人或“坏人格”**。
