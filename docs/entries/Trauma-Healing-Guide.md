@@ -5,7 +5,7 @@ search:
   boost: 1.5
 tags:
 
-- dx:PTSD
+- dx:创伤后应激障碍（PTSD）
 - sx:创伤症状
 - tx:创伤治疗
 
