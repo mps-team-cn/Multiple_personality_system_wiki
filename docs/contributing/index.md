@@ -51,7 +51,7 @@ description: 参与 MPS Wiki 共建的门户指南，涵盖编写规范、学术
 -   :material-shield-crown-outline: **管理员操作指南**
 
     维护流程、分支管理、发布与回滚
-    [:octicons-arrow-right-24: 前往](../ADMIN_GUIDE.md)
+    [:octicons-arrow-right-24: 前往](https://github.com/mps-team-cn/Multiple_personality_system_wiki/blob/main/docs/ADMIN_GUIDE.md)
 
 </div>
 
