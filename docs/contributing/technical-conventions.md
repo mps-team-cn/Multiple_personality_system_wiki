@@ -1,6 +1,6 @@
 ---
 title: 技术约定
-description: MPS Wiki 技术规范详解,涵盖目录结构、Frontmatter 字段、链接管理规则、图片资源组织、MkDocs 配置与导航维护。为贡献者提供完整的技术标准
+description: 说明 MPS Wiki 的目录结构、Frontmatter 字段、链接管理、静态资源组织与 MkDocs 配置，提供统一的技术实施标准。
 ---
 
 # 技术约定

@@ -1,6 +1,6 @@
 ---
 title: 编写规范
-description: MPS Wiki 词条编写规范与格式要求,包含语言风格、Frontmatter 规范、标题层级、段落格式、列表引用等。确保内容质量与一致性的完整指南
+description: 讲解 MPS Wiki 词条的语言风格、Frontmatter 结构、标题层级、段落格式与引用示例，确保内容质量与呈现一致性。
 ---
 
 # 编写规范
