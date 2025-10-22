@@ -18,6 +18,8 @@ hide:
 
 ## 词条一览
 
+- [侵入性记忆（Intrusive Memory）](Intrusive-Memory.md) — *2025-10-22*
+- [侵入性思维（Intrusive Thoughts）](Intrusive-Thoughts.md) — *2025-10-22*
 - [非我感（Not-me Feeling）](Not-Me-Feeling.md) — *2025-10-22*
 - [系统(System)](System.md) — *2025-10-22*
 - [醉酒解离（Alcohol-Induced Dissociation）](Alcohol-Induced-Dissociation.md) — *2025-10-20*
@@ -46,7 +48,6 @@ hide:
 - [独立性（Independence）](Independence.md) — *2025-10-20*
 - [整合（Integration）](Integration.md) — *2025-10-20*
 - [内部沟通（Internal Communication）](Internal-Communication.md) — *2025-10-20*
-- [侵入性思维（Intrusive Thoughts）](Intrusive-Thoughts.md) — *2025-10-20*
 - [迭代（Iteration）](Iteration.md) — *2025-10-20*
 - [角色面具（Masking / Social Masking）](Masking.md) — *2025-10-20*
 - [偏重（Median / Bias）](Median-Bias.md) — *2025-10-20*

@@ -19,13 +19,13 @@ hide:
 ## 词条一览
 
 - [复杂性创伤后应激障碍（Complex Post-Traumatic Stress Disorder，CPTSD）](CPTSD.md) — *2025-10-22*
+- [闪回（Flashback）](Flashback.md) — *2025-10-22*
 - [创伤后应激障碍（Post-Traumatic Stress Disorder，PTSD）](PTSD.md) — *2025-10-22*
 - [躯体症状障碍（Somatic Symptom Disorder，SSD）](Somatic-Symptom-Disorder-SSD.md) — *2025-10-22*
 - [紧张症（Catatonia）](Catatonia.md) — *2025-10-21*
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md) — *2025-10-21*
 - [谵妄（Delirium）](Delirium.md) — *2025-10-21*
 - [解离经验量表（Dissociative Experiences Scale‑II, DES‑II）](Dissociative-Experiences-Scale-DES-II.md) — *2025-10-21*
-- [闪回（Flashback）](Flashback.md) — *2025-10-21*
 - [多维解离量表（MID‑60）](Multidimensional-Inventory-of-Dissociation-MID-60.md) — *2025-10-21*
 - [其他特定的或未特定的精神病性障碍（Other Specified/Unspecified Psychotic Disorder）](Other-Specified-or-Unspecified-Psychotic-Disorder.md) — *2025-10-21*
 - [躯体疾病所致精神病性障碍（Psychotic Disorder Due to Another Medical Condition）](Psychotic-Disorder-Due-to-Another-Medical-Condition.md) — *2025-10-21*

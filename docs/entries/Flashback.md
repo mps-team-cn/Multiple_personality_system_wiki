@@ -22,7 +22,7 @@ tags:
 
 title: 闪回（Flashback）
 topic: 诊断与临床
-updated: 2025-10-21
+updated: 2025-10-22
 ---
 
 # 闪回（Flashback）
@@ -648,8 +648,8 @@ updated: 2025-10-21
 
 - [创伤聚焦认知行为疗法（Trauma-Focused Cognitive-Behavioral Therapy，TF-CBT）](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md)
 - [延长暴露疗法（Prolonged Exposure Therapy，PE）](Prolonged-Exposure-Therapy-PE.md)
- - [眼动脱敏与再加工（EMDR）](Eye-Movement-Desensitization-Reprocessing-EMDR.md)
- - [侵入性记忆（Intrusive Memory）](Intrusive-Memory.md)
+    - [眼动脱敏与再加工（EMDR）](Eye-Movement-Desensitization-Reprocessing-EMDR.md)
+    - [侵入性记忆（Intrusive Memory）](Intrusive-Memory.md)
 - [眼动脱敏与再加工（Eye Movement Desensitization and Reprocessing，EMDR）](Eye-Movement-Desensitization-Reprocessing-EMDR.md)
 - [认知加工疗法（Cognitive Processing Therapy，CPT）](Cognitive-Processing-Therapy-CPT.md)
 - [接地（Grounding）](Grounding.md)

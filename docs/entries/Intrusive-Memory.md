@@ -16,7 +16,7 @@ tags:
 
 title: 侵入性记忆（Intrusive Memory）
 topic: 系统运作
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 侵入性记忆（Intrusive Memory）
