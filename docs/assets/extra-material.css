@@ -590,20 +590,20 @@ a.external-link:hover::after {
 }
 
 .mps-hero-title {
-  font-size: clamp(1.5rem, 2vw, 1.75rem);
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
   font-weight: 700;
-  margin-bottom: 1.2rem;
-  line-height: 1.3;
+  margin-bottom: 0.875rem;
+  line-height: 1.35;
   position: relative;
   z-index: 1;
   letter-spacing: -0.01em;
 }
 
 .mps-hero-lead {
-  line-height: 1.7;
-  font-size: 0.95rem;
+  line-height: 1.6;
+  font-size: clamp(0.875rem, 1.5vw, 1rem);
   color: var(--md-default-fg-color);
-  margin: 0 auto 1rem;
+  margin: 0 auto 0.75rem;
   max-width: 680px;
   position: relative;
   z-index: 1;
@@ -612,8 +612,8 @@ a.external-link:hover::after {
 
 .mps-hero-sub {
   color: var(--md-default-fg-color--light);
-  font-size: 0.9rem;
-  margin-bottom: 1.8rem;
+  font-size: clamp(0.8125rem, 1.2vw, 0.875rem);
+  margin-bottom: 1.25rem;
   position: relative;
   z-index: 1;
   opacity: 0.82;
@@ -622,14 +622,14 @@ a.external-link:hover::after {
 .mps-hero-buttons {
   display: flex;
   justify-content: center;
-  gap: 1.2rem;
-  margin-bottom: 1.5rem;
+  gap: 0.875rem;
+  margin-bottom: 1rem;
   position: relative;
   z-index: 1;
 }
 
 .mps-hero-hint {
-  font-size: 0.82rem;
+  font-size: clamp(0.75rem, 1vw, 0.8125rem);
   color: var(--md-default-fg-color--light);
   margin-top: 0;
   position: relative;
@@ -639,9 +639,9 @@ a.external-link:hover::after {
 
 /* 按钮增强样式 */
 .mps-hero-buttons .md-button {
-  padding: 0.7rem 1.6rem;
-  border-radius: 8px;
-  font-size: 0.95rem;
+  padding: 0.625rem 1.25rem;
+  border-radius: 6px;
+  font-size: clamp(0.8125rem, 1.5vw, 0.9375rem);
   font-weight: 600;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 2px 8px color-mix(in oklab, #000 12%, transparent);
@@ -672,17 +672,19 @@ a.external-link:hover::after {
 /* 响应式优化 */
 @media (max-width: 640px) {
   .mps-hero-minimal {
-    margin: 1.5rem auto 2rem;
-    padding: 1.8rem 1.3rem;
+    margin: 1.25rem auto 1.75rem;
+    padding: 1.5rem 1.125rem;
   }
 
   .mps-hero-buttons {
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 0.625rem;
   }
 
   .mps-hero-buttons .md-button {
     width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 0.8125rem;
   }
 }
 
