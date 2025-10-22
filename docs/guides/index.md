@@ -1,6 +1,12 @@
 ---
 title: 核心主题导览 - Multiple Personality System Wiki
 description: 系统性了解多意识体系统的核心主题，包括基础概念、临床诊断、系统运作、实践指南、创伤疗愈、角色身份、理论分类和文化表现
+hide:
+
+    # - navigation  # 隐藏左侧导航栏
+    - toc         # 隐藏右侧目录（可选，如果也想隐藏右侧）
+search:
+  exclude: true
 ---
 
 # 🎯 核心主题导览

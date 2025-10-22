@@ -4,49 +4,42 @@ description: 专业的多重人格系统(MPS)、解离障碍(DID/OSDD)与创伤�
 hide:
 
     - navigation  # 隐藏左侧导航栏
-  # - toc         # 隐藏右侧目录（可选，如果也想隐藏右侧）
+    # - toc         # 隐藏右侧目录（可选，如果也想隐藏右侧）
 search:
   exclude: true
 ---
 
-# 中文多意识体系统百科
+# 中文多意识体系统百科 Multiple Personality System Wiki
 
-> Multiple Personality System Wiki
-
-??? info "欢迎"
-    本站聚焦 **多意识体系统（MPS）**、**解离障碍（DID/OSDD）** 与 **创伤疗愈** 的结构化知识。建议先从
-    [QuickStart 快速开始](QuickStart.md) 入手，根据需要进入相应导览与工具。
-
-??? tip "对mps的解释"
-    以下内容解释 `MPS` 在本 Wiki 中的用法与不同语境中的常见理解，点击标题可展开或收起详情。
+??? TIP "对MPS的解释"
+    以下内容解释 `Mps` 在本 wIKI 中的用法与不同语境中的常见理解，点击标题可展开或收起详情。
 
     - 为简化表述，本 Wiki 内容中使用的缩写 `MPS`，默认指代 `Multiple Personality System` (`MPS`)。
     - 请注意，社群中更常使用的中立性术语为 `Plural System`。同时，考虑到理论描述的精确性，`MPS` 亦可被理解为 `Multiple Consciousness System` (`MCS`)——一个专注于描述意识多元性本身的理论性术语。
     - 读者可根据自身语境选择最合适的理解。
 
----
+<!-- Hero Section -->
+<div class="mps-hero-minimal">
 
-<div class="mps-hero" markdown>
+  <h2 class="mps-hero-title">✦ 以知识点点亮 MPS 之路</h2>
 
-## :material-star-four-points-circle: 以知识点亮 MPS 之路
+  <p class="mps-hero-lead">
+    从概念入门到实践工具，我们整理关于多意识体系统（Multiple Personality System, MPS）
+    与创伤照护的可靠中文资料，陪伴你理解自我、照顾伙伴，并与同路人建立连接。
+  </p>
 
-<div class="hero-description" markdown>
-从概念入门到实践工具，我们致力于用中文整理关于多意识体系统（`Multiple Personality System`，简称 **`MPS`**）与创伤照护的可靠资料，陪伴你理解自我、照顾伙伴，并与同路人建立连结。
-</div>
+  <p class="mps-hero-sub">
+    🧭 从入门到深入探索，找到属于你的 MPS 学习路径
+  </p>
 
-<blockquote class="hero-tagline">
-从入门到深入探索，找到属于你的 MPS 学习路径
-</blockquote>
+  <div class="mps-hero-buttons">
+    <a href="QuickStart.md" class="md-button md-button--primary">开始探索</a>
+    <a href="guides/index.md" class="md-button md-button--outlined">核心主题</a>
+  </div>
 
-<div class="button-row">
-  <a href="QuickStart.md" class="md-button md-button--primary">开始探索</a>
-  <a href="guides/index.md" class="md-button">核心主题</a>
-</div>
-
-<div class="button-hint" markdown>
-**开始探索** → 新手快速了解与推荐路线
-**核心主题** → 理论、临床与系统运作的深度内容
-</div>
+  <p class="mps-hero-hint">
+    开始探索：快速了解与推荐路线　·　核心主题：理论、临床与系统运作的深度内容
+  </p>
 
 </div>
 
