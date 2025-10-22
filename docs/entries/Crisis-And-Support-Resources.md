@@ -114,7 +114,7 @@ updated: 2025-10-20
 
 ## 相关导览
 
-- [实践指南导览（Practice Guide）](Practice-Guide.md)
+- [实践指南导览（Practice Guide）](../guides/Practice-Guide.md)
 - [自我照护工具箱（Self-Care Toolkit）](Self-Care-Toolkit.md)
 - [接地（Grounding）](Grounding.md)
 

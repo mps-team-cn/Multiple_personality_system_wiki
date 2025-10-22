@@ -233,7 +233,7 @@ MkDocs Material 的 `tags` 插件会自动生成标签索引。
 
 ```markdown
 
-### :material-hospital-box: [诊断与临床](entries/Clinical-Diagnosis-Guide.md)
+### :material-hospital-box: [诊断与临床](../guides/Clinical-Diagnosis-Guide.md)
 
 - [解离性身份障碍（DID）](entries/DID.md)
 - [其他特定解离性障碍（OSDD）](entries/OSDD.md)

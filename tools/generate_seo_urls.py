@@ -37,26 +37,26 @@ HIGH_PRIORITY_TERMS = {
 CORE_GUIDES = [
     ("", "Wiki 首页"),
     ("QuickStart", "快速开始"),
-    ("entries/Core-Concepts-Guide", "核心概念导览"),
-    ("entries/Mental-Health-Guide", "心理健康导览"),
-    ("entries/Clinical-Diagnosis-Guide", "诊断与临床导览"),
-    ("entries/System-Operations-Guide", "系统运作导览"),
-    ("entries/Practice-Guide", "实践指南导览"),
-    ("entries/Trauma-Healing-Guide", "创伤与疗愈导览"),
-    ("entries/Roles-Identity-Guide", "角色与身份导览"),
-    ("entries/Theory-Classification-Guide", "理论与分类导览"),
-    ("entries/Cultural-Media-Guide", "文化与表现导览"),
+    ("guides/Core-Concepts-Guide", "核心概念导览"),
+    ("guides/Mental-Health-Guide", "心理健康导览"),
+    ("guides/Clinical-Diagnosis-Guide", "诊断与临床导览"),
+    ("guides/System-Operations-Guide", "系统运作导览"),
+    ("guides/Practice-Guide", "实践指南导览"),
+    ("guides/Trauma-Healing-Guide", "创伤与疗愈导览"),
+    ("guides/Roles-Identity-Guide", "角色与身份导览"),
+    ("guides/Theory-Classification-Guide", "理论与分类导览"),
+    ("guides/Cultural-Media-Guide", "文化与表现导览"),
 ]
 
 # 主题分区索引页面
 PARTITION_PAGES = [
-    ("entries/Clinical-Diagnosis-index", "诊断与临床主题分区"),
-    ("entries/System-Operations-index", "系统运作主题分区"),
-    ("entries/Practice-index", "实践指南主题分区"),
-    ("entries/Trauma-Healing-index", "创伤与疗愈主题分区"),
-    ("entries/Roles-Identity-index", "角色与身份主题分区"),
-    ("entries/Theory-Classification-index", "理论与分类主题分区"),
-    ("entries/Cultural-Media-index", "文化与表现主题分区"),
+    ("guides/Clinical-Diagnosis-index", "诊断与临床主题分区"),
+    ("guides/System-Operations-index", "系统运作主题分区"),
+    ("guides/Practice-index", "实践指南主题分区"),
+    ("guides/Trauma-Healing-index", "创伤与疗愈主题分区"),
+    ("guides/Roles-Identity-index", "角色与身份主题分区"),
+    ("guides/Theory-Classification-index", "理论与分类主题分区"),
+    ("guides/Cultural-Media-index", "文化与表现主题分区"),
 ]
 
 # 关键工具页面

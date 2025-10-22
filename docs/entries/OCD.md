@@ -251,7 +251,7 @@ OCD 症状可按主题维度分类，以下为常见类型对照表：
 
 ### 系统理论与实践
 
-- [系统运作指南（System Operations Guide）](System-Operations-Guide.md)
+- [系统运作指南（System Operations Guide）](../guides/System-Operations-Guide.md)
 - [系统角色（System Roles）](System-Roles.md)
 - [系统（System）](System.md)
 

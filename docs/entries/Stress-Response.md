@@ -176,8 +176,8 @@ updated: 2025-10-20
 
 若症状持续或严重影响功能，建议参阅：
 
-- [**急性应激障碍（ASD）**](Clinical-Diagnosis-index.md)：症状持续 3 天至 1 个月；
-- [**创伤后应激障碍（PTSD）**](Clinical-Diagnosis-index.md)：症状超过 1 个月，伴重度再体验、回避、警觉；
+- [**急性应激障碍（ASD）**](../guides/Clinical-Diagnosis-index.md)：症状持续 3 天至 1 个月；
+- [**创伤后应激障碍（PTSD）**](../guides/Clinical-Diagnosis-index.md)：症状超过 1 个月，伴重度再体验、回避、警觉；
 - [**解离性身份障碍（DID）**](DID.md) / [**其他特定解离障碍（OSDD）**](OSDD.md)：严重解离、时间丢失、身份状态分裂；
 - [**创伤疗愈导览**](../contributing/index.md)：稳定化-处理-整合的阶段模型。
 
@@ -256,8 +256,8 @@ updated: 2025-10-20
 
 **临床接口**：
 
-- [急性应激障碍（ASD）](Clinical-Diagnosis-index.md)
-- [创伤后应激障碍（PTSD）](Clinical-Diagnosis-index.md)
+- [急性应激障碍（ASD）](Acute-Stress-Disorder-ASD.md)
+- [创伤后应激障碍（PTSD）](PTSD.md)
 - [解离性身份障碍（DID）](DID.md)
 - [其他特定解离障碍（OSDD）](OSDD.md)
 - [创伤疗愈导览](../contributing/index.md)

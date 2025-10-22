@@ -336,9 +336,9 @@ DSM-5-TR 和 ICD-11 对"创伤事件"采用 **狭义界定**：指直接威胁�
 
 ### 导览
 
-- [创伤与疗愈导览（Trauma & Healing Guide）](Trauma-Healing-Guide.md)
-- [临床诊断导览（Clinical Diagnosis Guide）](Clinical-Diagnosis-Guide.md)
-- [心理健康导览（Mental Health Guide）](Mental-Health-Guide.md)
+- [创伤与疗愈导览（Trauma & Healing Guide）](../guides/Trauma-Healing-Guide.md)
+- [临床诊断导览（Clinical Diagnosis Guide）](../guides/Clinical-Diagnosis-Guide.md)
+- [心理健康导览（Mental Health Guide）](../guides/Mental-Health-Guide.md)
 
 ## 参考与延伸阅读
 

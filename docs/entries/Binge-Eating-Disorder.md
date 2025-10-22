@@ -395,7 +395,7 @@ BED 的治疗整合 **心理治疗**、**营养康复** 和 **医疗监测**,通
 
 ### 导览
 
-- [心理健康导览（Mental Health Guide）](Mental-Health-Guide.md)
+- [心理健康导览（Mental Health Guide）](../guides/Mental-Health-Guide.md)
 
 ---
 

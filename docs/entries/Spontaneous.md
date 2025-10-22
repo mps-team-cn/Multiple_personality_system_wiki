@@ -120,5 +120,5 @@ updated: 2025-10-20
 
 ## 继续阅读
 
-- 主题导览： [理论与分类导览](Theory-Classification-Guide.md)｜[角色与身份导览](Roles-Identity-Guide.md)
-- 文化聚合： [文化与表现导览](Cultural-Media-Guide.md)
+- 主题导览： [理论与分类导览](../guides/Theory-Classification-Guide.md)｜[角色与身份导览](../guides/Roles-Identity-Guide.md)
+- 文化聚合： [文化与表现导览](../guides/Cultural-Media-Guide.md)

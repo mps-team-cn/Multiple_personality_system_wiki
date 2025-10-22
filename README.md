@@ -71,6 +71,7 @@ Multiple_personality_system_wiki/
 │  ├─ admin/                    # Sveltia CMS（index.html / config.yml / admin.css）
 │  ├─ assets/                   # CSS/JS/图标等静态资源（含 mid60 组件）
 │  ├─ entries/                  # 词条目录（不创建子目录）
+│  ├─ guide/                    # 索引和导览文件目录（不创建子目录）
 │  └─ includes/                 # 片段（如缩写表）
 │
 ├─ tools/                       # 维护脚本与辅助工具

@@ -109,6 +109,7 @@ def get_file_context(file_path: Path, repo_root: Path) -> str:
 
     Returns:
         'entries' - 在 docs/entries/ 目录
+        'guides' - 在 docs/guides/ 目录
         'docs_subdir' - 在 docs/ 的子目录下 (如 docs/contributing/)
         'docs_root' - 在 docs/ 根目录下 (如 docs/Glossary.md)
         'root' - 在仓库根目录
@@ -121,6 +122,10 @@ def get_file_context(file_path: Path, repo_root: Path) -> str:
         # docs/entries/ 目录
         if len(parts) >= 2 and parts[0] == "docs" and parts[1] == "entries":
             return "entries"
+
+        # docs/guides/ 目录
+        if len(parts) >= 2 and parts[0] == "docs" and parts[1] == "guides":
+            return "guides"
 
         # docs/ 根目录 (文件直接在 docs/ 下)
         if len(parts) == 2 and parts[0] == "docs":
@@ -225,13 +230,43 @@ def validate_link(
                 )
         else:
             # 链接到其他目录：应该使用 ../ 开头的相对路径
-            # 正确：../contributing/index.md, ../dev/xxx.md
+            # 正确：../contributing/index.md, ../guides/Practice-Guide.md
 
             if not pure_target.startswith("../"):
                 return False, (
                     f"词条链接到其他目录应使用 `../` 相对路径\n"
                     f"    当前：{pure_target}\n"
                     f"    提示：从 docs/entries/ 到目标需要先 ../ 回到 docs/"
+                )
+            return True, ""
+
+    elif source_context == "guides":
+        # guides 目录文件 (docs/guides/xxx.md)
+        # guides 内部链接可以直接使用文件名，链接到其他目录使用相对路径
+
+        target_in_guides = (
+            len(target_parts) >= 2 and
+            target_parts[0] == "docs" and
+            target_parts[1] == "guides"
+        )
+
+        if target_in_guides:
+            # 链接到同目录的其他 guide 文件：直接使用文件名
+            if target_path.parts == (target_path.name,):
+                return True, ""
+            else:
+                return False, (
+                    f"guides 目录内链接应直接使用文件名\n"
+                    f"    当前：{pure_target}\n"
+                    f"    应改为：{target_path.name}"
+                )
+        else:
+            # 链接到其他目录：使用 ../ 相对路径
+            if not pure_target.startswith("../"):
+                return False, (
+                    f"guides 目录链接到其他目录应使用 `../` 相对路径\n"
+                    f"    当前：{pure_target}\n"
+                    f"    提示：从 docs/guides/ 到目标需要先 ../ 回到 docs/"
                 )
             return True, ""
 

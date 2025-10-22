@@ -102,7 +102,7 @@ updated: 2025-10-20
 
 ## 相关条目
 
-- [心理健康导览（Mental Health Guide）](Mental-Health-Guide.md)
+- [心理健康导览（Mental Health Guide）](../guides/Mental-Health-Guide.md)
 - [冥想（Meditation）](Meditation.md)
 - [家族式系统（Family Systems, Xianyu Theory）](Family-Systems-Xianyu.md)
 - [单一类系统（Single-Class Systems, Xianyu Theory）](Single-Class-Systems-Xianyu.md)

@@ -517,7 +517,7 @@ ICD-11 将不宁腿综合征编码为 **7A80**,诊断要点与 DSM-5-TR 一致,�
 
 ### 导览
 
-- [心理健康导览（Mental Health Guide）](Mental-Health-Guide.md)
+- [心理健康导览（Mental Health Guide）](../guides/Mental-Health-Guide.md)
 
 ---
 

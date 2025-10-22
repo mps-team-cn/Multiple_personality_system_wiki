@@ -313,15 +313,15 @@ collections:
 
 当前 7 个主题分类：
 
-| 分类      | 对应 Guide 文件                         | 词条数（参考） |
-| ------- | ----------------------------------- | ------- |
-| 理论与分类   | `Theory-Classification-Guide.md`    | ~22     |
-| 诊断与临床   | `Clinical-Diagnosis-Guide.md`       | ~31     |
-| 系统运作    | `System-Operations-Guide.md`        | ~48     |
-| 角色与身份   | `Roles-Identity-Guide.md`           | ~30     |
-| 文化与表现   | `Cultural-Media-Guide.md`           | ~17     |
-| 创伤与疗愈   | `Trauma-Healing-Guide.md`           | ~5      |
-| 实践指南    | `Practice-Guide.md`                 | ~5      |
+| 分类      | 对应 Guide 文件                                  | 词条数（参考） |
+| ------- | -------------------------------------------- | ------- |
+| 理论与分类   | `guides/Theory-Classification-Guide.md`      | ~22     |
+| 诊断与临床   | `guides/Clinical-Diagnosis-Guide.md`         | ~31     |
+| 系统运作    | `guides/System-Operations-Guide.md`          | ~48     |
+| 角色与身份   | `guides/Roles-Identity-Guide.md`             | ~30     |
+| 文化与表现   | `guides/Cultural-Media-Guide.md`             | ~17     |
+| 创伤与疗愈   | `guides/Trauma-Healing-Guide.md`             | ~5      |
+| 实践指南    | `guides/Practice-Guide.md`                   | ~5      |
 
 !!! tip "维护提醒"
     新增词条时，务必同步更新对应的 Guide 文件。

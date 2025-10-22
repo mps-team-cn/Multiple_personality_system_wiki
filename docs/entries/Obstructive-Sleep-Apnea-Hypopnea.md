@@ -512,7 +512,7 @@ ICD-11 将阻塞性睡眠呼吸暂停编码为 **7A40.0**,强调以下要点:
 
 ### 导览
 
-- [心理健康导览（Mental Health Guide）](Mental-Health-Guide.md)
+- [心理健康导览（Mental Health Guide）](../guides/Mental-Health-Guide.md)
 
 ---
 

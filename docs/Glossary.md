@@ -133,7 +133,7 @@ comments: true
 | [整合（Integration）](entries/Integration.md) | 强化成员协作、记忆连结与功能稳定的长期目标 | 临床 | 不等同于"消融"成员，强调合作 |
 | [三阶段创伤治疗模型](entries/Three-Phase-Trauma-Treatment.md) | 包含安全稳定、创伤加工、整合重建三阶段的治疗流程 | 临床 | 创伤知情干预的经典框架 |
 | [感官调节策略](entries/Sensory-Regulation-Strategies.md) | 调整感官输入以维持功能与舒适度的方法 | 跨域 | 适用于触发、自闭谱及神经多样性需求 |
-| [创伤疗愈指南](entries/Trauma-Healing-Guide.md) | 汇整创伤评估、支持网络与自助流程的实务指南 | 跨域 | 提供自我照护与专业协作建议 |
+| [创伤疗愈指南](guides/Trauma-Healing-Guide.md) | 汇整创伤评估、支持网络与自助流程的实务指南 | 跨域 | 提供自我照护与专业协作建议 |
 | [自我照护工具包](entries/Self-Care-Toolkit.md) | 规划日常照护与危机应对资源的工具集合 | 跨域 | 可用于成员交接与应急检查表 |
 
 ---

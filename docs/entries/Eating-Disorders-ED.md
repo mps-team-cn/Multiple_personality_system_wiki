@@ -162,7 +162,7 @@ updated: 2025-10-20
 
 ### 导览
 
-- [心理健康导览（Mental Health Guide）](Mental-Health-Guide.md)
+- [心理健康导览（Mental Health Guide）](../guides/Mental-Health-Guide.md)
 
 ## 参考与延伸阅读
 

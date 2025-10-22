@@ -25,22 +25,22 @@ search:
 -   :material-compass: **核心概念导览**
 
     从零建立框架，理解「多意识体」「解离」与系统类型。
-    [:octicons-arrow-right-24: 进入](entries/Core-Concepts-Guide.md)
+    [:octicons-arrow-right-24: 进入](guides/Core-Concepts-Guide.md)
 
 -   :material-heart-pulse: **心理健康导览**
 
     关注创伤与疗愈，了解 PTSD/CPTSD、DID/OSDD 与循证治疗。
-    [:octicons-arrow-right-24: 进入](entries/Mental-Health-Guide.md)
+    [:octicons-arrow-right-24: 进入](guides/Mental-Health-Guide.md)
 
 -   :material-cog: **系统运作导览**
 
     前台与切换、共同意识、内部沟通与记忆管理的实践路径。
-    [:octicons-arrow-right-24: 进入](entries/System-Operations-Guide.md)
+    [:octicons-arrow-right-24: 进入](guides/System-Operations-Guide.md)
 
 -   :material-hammer-wrench: **实践指南**
 
     Tulpa、冥想、可视化与接地等可直接上手的练习。
-    [:octicons-arrow-right-24: 进入](entries/Practice-Guide.md)
+    [:octicons-arrow-right-24: 进入](guides/Practice-Guide.md)
 
 </div>
 
@@ -50,27 +50,27 @@ search:
     -   :material-hospital-building: **临床诊断**
 
         DID/OSDD、PTSD/CPTSD 标准与鉴别要点。
-        [:octicons-arrow-right-24: 进入](entries/Clinical-Diagnosis-Guide.md)
+        [:octicons-arrow-right-24: 进入](guides/Clinical-Diagnosis-Guide.md)
 
     -   :material-bandage: **创伤与疗愈**
 
         稳定 → 处理 → 整合的三阶段模型与工具。
-        [:octicons-arrow-right-24: 进入](entries/Trauma-Healing-Guide.md)
+        [:octicons-arrow-right-24: 进入](guides/Trauma-Healing-Guide.md)
 
     -   :material-account-group: **角色与身份**
 
         宿主/守门人/保护者等角色与系统治理。
-        [:octicons-arrow-right-24: 进入](entries/Roles-Identity-Guide.md)
+        [:octicons-arrow-right-24: 进入](guides/Roles-Identity-Guide.md)
 
     -   :material-thought-bubble: **理论与分类**
 
         结构性解离、依恋与自我决定等核心理论。
-        [:octicons-arrow-right-24: 进入](entries/Theory-Classification-Guide.md)
+        [:octicons-arrow-right-24: 进入](guides/Theory-Classification-Guide.md)
 
     -   :material-movie-open: **文化与媒体**
 
         影视/文学/动画/游戏中的多意识体呈现。
-        [:octicons-arrow-right-24: 进入](entries/Cultural-Media-Guide.md)
+        [:octicons-arrow-right-24: 进入](guides/Cultural-Media-Guide.md)
 
     </div>
 
@@ -123,22 +123,22 @@ search:
 
 === "新手（0–4 周）"
 
-    1. 阅读 [核心概念导览](entries/Core-Concepts-Guide.md) 建立框架。
-    2. 选择 [心理健康](entries/Mental-Health-Guide.md) 或 [系统运作](entries/System-Operations-Guide.md)。
+    1. 阅读 [核心概念导览](guides/Core-Concepts-Guide.md) 建立框架。
+    2. 选择 [心理健康](guides/Mental-Health-Guide.md) 或 [系统运作](guides/System-Operations-Guide.md)。
     3. 浏览 [术语表](Glossary.md) 熟悉常用术语。
     4. 开始练习 [接地](entries/Grounding.md) 等基础技巧。
 
 === "进阶（1–3 个月）"
 
     1. 深入 1–2 个专题导览（临床/创伤/角色）。
-    2. 参考 [实践指南](entries/Practice-Guide.md) 制定练习计划。
+    2. 参考 [实践指南](guides/Practice-Guide.md) 制定练习计划。
     3. 通过 [标签索引](tags.md) 扩展相关主题。
     4. 结合实际问题查阅具体词条。
 
 === "精通（3 个月以上）"
 
-    1. 系统学习 [理论与分类](entries/Theory-Classification-Guide.md)。
-    2. 探索 [文化与媒体](entries/Cultural-Media-Guide.md) 的跨学科视角。
+    1. 系统学习 [理论与分类](guides/Theory-Classification-Guide.md)。
+    2. 探索 [文化与媒体](guides/Cultural-Media-Guide.md) 的跨学科视角。
     3. 参与讨论与贡献，迭代自己的知识框架。
 
 ---
@@ -169,7 +169,7 @@ search:
 ## 📌 常见问题（FAQ）
 
 ??? question "我不确定自己是什么类型的系统？"
-    建议先阅读 [核心概念导览](entries/Core-Concepts-Guide.md) 了解类型差异。
+    建议先阅读 [核心概念导览](guides/Core-Concepts-Guide.md) 了解类型差异。
     记住：分类不是目的，理解自己与保障安全更重要。
 
 ??? question "我需要诊断吗？"
@@ -178,7 +178,7 @@ search:
     - 症状影响生活功能时，建议就医评估（如 [DID](entries/DID.md)、[OSDD](entries/OSDD.md)、[PTSD](entries/PTSD.md)）。
     - 若仅为自我理解，未必需要正式诊断。
 
-    可参考 [心理健康导览](entries/Mental-Health-Guide.md) 与 [临床诊断导览](entries/Clinical-Diagnosis-Guide.md)。
+    可参考 [心理健康导览](guides/Mental-Health-Guide.md) 与 [临床诊断导览](guides/Clinical-Diagnosis-Guide.md)。
 
 ??? question "内容可靠吗？"
 

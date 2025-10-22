@@ -125,7 +125,7 @@ updated: 2025-10-20
 
 ### 导览
 
-- [诊断与临床导览（Clinical Diagnosis Guide）](Clinical-Diagnosis-Guide.md)
+- [诊断与临床导览（Clinical Diagnosis Guide）](../guides/Clinical-Diagnosis-Guide.md)
 
 ## 参考与延伸阅读
 

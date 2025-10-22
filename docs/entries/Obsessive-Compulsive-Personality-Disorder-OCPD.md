@@ -84,7 +84,7 @@ updated: 2025-10-20
 - [人格障碍（Personality Disorders）](Personality-Disorders.md)
 - [强迫症（OCD）](OCD.md)
 - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
-- [诊断与临床导览（Clinical Diagnosis Guide）](Clinical-Diagnosis-Guide.md)
+- [诊断与临床导览（Clinical Diagnosis Guide）](../guides/Clinical-Diagnosis-Guide.md)
 
 ## 参考与延伸阅读
 

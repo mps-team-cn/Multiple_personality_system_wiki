@@ -166,7 +166,7 @@ DSM-5-TR 中继续保留 **Alternative Model for Personality Disorders (AMPD)**
 
 ## 十一、相关词条
 
-- [临床诊断导览](Clinical-Diagnosis-Guide.md)
+- [临床诊断导览](../guides/Clinical-Diagnosis-Guide.md)
 - [创伤后应激障碍（PTSD）](PTSD.md)
 - [解离性身份障碍（DID）](DID.md)
 - [人格障碍](Personality-Disorders.md)

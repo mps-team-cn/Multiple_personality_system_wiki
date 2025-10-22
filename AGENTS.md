@@ -211,8 +211,9 @@ search:
 
 ### 4.4 例外文件(无需 updated 字段)
 
-- `*-Guide.md`(如 `Clinical-Diagnosis-Guide.md`)
-- `*-Index.md`(如 `Tools-Index.md`)
+- `guides/*-Guide.md`(如 `guides/Clinical-Diagnosis-Guide.md`)
+- `guides/*-index.md`(如 `guides/Clinical-Diagnosis-index.md`)
+- `dev/*-Index.md`(如 `dev/Tools-Index.md`)
 
 ---
 
@@ -223,21 +224,22 @@ search:
 | 链接场景 | 格式 | 示例 |
 |---------|------|------|
 | **词条间** | `文件名.md` | `[DID](DID.md)` |
-| **词条→Guide** | `../contributing/XX-Guide.md` | `[诊断指南](../contributing/Clinical-Diagnosis-Guide.md)` |
+| **词条→Guide** | `../guides/XX-Guide.md` | `[诊断指南](../guides/Clinical-Diagnosis-Guide.md)` |
 | **Guide→词条** | `../entries/XX.md` | `[DID](../entries/DID.md)` |
+| **Guide间** | `文件名.md` | `[系统运作](System-Operations-Guide.md)` |
 | **词条→首页** | `../index.md` | `[首页](../index.md)` |
 
 ### 5.2 Guide 映射表(修改词条必须同步更新对应 Guide)
 
 | 词条主题(topic) | 对应 Guide 文件 | 操作 |
 |----------------|----------------|------|
-| **诊断与临床** | `Clinical-Diagnosis-Guide.md` | 新增/修改/删除词条时更新链接和描述 |
-| **系统运作** | `System-Operations-Guide.md` | 同上 |
-| **实践指南** | `Practice-Guide.md` | 同上 |
-| **创伤与疗愈** | `Trauma-Healing-Guide.md` | 同上 |
-| **角色与身份** | `Roles-Identity-Guide.md` | 同上 |
-| **理论与分类** | `Theory-Classification-Guide.md` | 同上 |
-| **文化与表现** | `Cultural-Media-Guide.md` | 同上 |
+| **诊断与临床** | `guides/Clinical-Diagnosis-Guide.md` | 新增/修改/删除词条时更新链接和描述 |
+| **系统运作** | `guides/System-Operations-Guide.md` | 同上 |
+| **实践指南** | `guides/Practice-Guide.md` | 同上 |
+| **创伤与疗愈** | `guides/Trauma-Healing-Guide.md` | 同上 |
+| **角色与身份** | `guides/Roles-Identity-Guide.md` | 同上 |
+| **理论与分类** | `guides/Theory-Classification-Guide.md` | 同上 |
+| **文化与表现** | `guides/Cultural-Media-Guide.md` | 同上 |
 
 !!! warning "Guide 更新要求"
 
