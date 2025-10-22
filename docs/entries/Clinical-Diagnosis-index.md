@@ -18,7 +18,9 @@ hide:
 
 ## 词条一览
 
+- [心境障碍（Affective Disorders）](Affective-Disorders.md) — *2025-10-22*
 - [复杂性创伤后应激障碍（Complex Post-Traumatic Stress Disorder，CPTSD）](CPTSD.md) — *2025-10-22*
+- [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md) — *2025-10-22*
 - [闪回（Flashback）](Flashback.md) — *2025-10-22*
 - [创伤后应激障碍（Post-Traumatic Stress Disorder，PTSD）](PTSD.md) — *2025-10-22*
 - [躯体症状障碍（Somatic Symptom Disorder，SSD）](Somatic-Symptom-Disorder-SSD.md) — *2025-10-22*
@@ -33,7 +35,6 @@ hide:
 - [物质/药物所致精神病性障碍（Substance/Medication-Induced Psychotic Disorder）](Substance-Medication-Induced-Psychotic-Disorder.md) — *2025-10-21*
 - [急性应激障碍（Acute Stress Disorder, ASD）](Acute-Stress-Disorder-ASD.md) — *2025-10-20*
 - [适应障碍(Adjustment Disorders)](Adjustment-Disorders.md) — *2025-10-20*
-- [心境障碍（Affective Disorders）](Affective-Disorders.md) — *2025-10-20*
 - [广场恐惧症(Agoraphobia, AG)](Agoraphobia.md) — *2025-10-20*
 - [酒精相关障碍（Alcohol-Related Disorders）](Alcohol-Related-Disorders.md) — *2025-10-20*
 - [述情障碍（Alexithymia）](Alexithymia.md) — *2025-10-20*
@@ -65,7 +66,6 @@ hide:
 - [妄想障碍（Delusional Disorder）](Delusional-Disorder.md) — *2025-10-20*
 - [依赖型人格障碍（Dependent Personality Disorder，DPD）](Dependent-Personality-Disorder-DPD.md) — *2025-10-20*
 - [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](Depersonalization-Derealization-Disorder-DPDR.md) — *2025-10-20*
-- [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md) — *2025-10-20*
 - [定向障碍（Disorientation）](Disorientation.md) — *2025-10-20*
 - [解离性失忆(Dissociative Amnesia,DA)](Dissociative-Amnesia-DA.md) — *2025-10-20*
 - [分离转换障碍（Dissociative [Conversion] Disorders，已过时）](Dissociative-Conversion-Disorder-Obsolete.md) — *2025-10-20*
