@@ -322,11 +322,90 @@ def _build_untagged_section(
     return ("未分类词条", tuple(ordered))
 
 
-def collect_markdown_structure(ignore: IgnoreRules) -> tuple[EntryDocument | None, CategoryStructure]:
+def _load_entry_list(entry_list_path: Path | None) -> set[str] | None:
+    """加载词条白名单文件，返回文件名和标题的集合。
+
+    每行可以是:
+    - 词条文件名（如 'Alter.md'）
+    - 词条标题（如 '人格（Alter）'）
+
+    返回值:
+        set[str] | None: 白名单集合，如果文件不存在则返回 None
+    """
+    if entry_list_path is None or not entry_list_path.exists():
+        return None
+
+    try:
+        content = entry_list_path.read_text(encoding="utf-8")
+    except OSError as error:
+        print(f"警告: 无法读取词条列表文件 {entry_list_path}: {error}", file=sys.stderr)
+        return None
+
+    entries = set()
+    for line in content.splitlines():
+        stripped = line.strip()
+        # 跳过空行和注释
+        if not stripped or stripped.startswith('#'):
+            continue
+        entries.add(stripped)
+
+    return entries if entries else None
+
+
+def _filter_documents(
+    documents: OrderedDict[Path, EntryDocument],
+    include_tags: set[str] | None = None,
+    exclude_tags: set[str] | None = None,
+    entry_list: set[str] | None = None,
+) -> OrderedDict[Path, EntryDocument]:
+    """根据标签和白名单过滤文档。
+
+    过滤规则:
+    1. 如果提供了 entry_list，只保留在白名单中的词条（按文件名或标题匹配）
+    2. 如果提供了 include_tags，只保留至少包含一个指定标签的词条
+    3. 如果提供了 exclude_tags，排除包含任何排除标签的词条
+    """
+    filtered: OrderedDict[Path, EntryDocument] = OrderedDict()
+
+    for path, doc in documents.items():
+        # 白名单过滤
+        if entry_list is not None:
+            # 检查文件名或标题是否在白名单中
+            if doc.path.name not in entry_list and doc.title not in entry_list:
+                continue
+
+        # 标签过滤
+        doc_tags = set(doc.tags)
+
+        # 排除标签过滤（优先级高）
+        if exclude_tags and doc_tags & exclude_tags:
+            continue
+
+        # 包含标签过滤
+        if include_tags and not (doc_tags & include_tags):
+            continue
+
+        filtered[path] = doc
+
+    return filtered
+
+
+def collect_markdown_structure(
+    ignore: IgnoreRules,
+    include_tags: set[str] | None = None,
+    exclude_tags: set[str] | None = None,
+    entry_list_path: Path | None = None,
+) -> tuple[EntryDocument | None, CategoryStructure]:
     """依据词条的 topic 字段构建 PDF 导出结构。
 
     根据每个词条的 topic 字段自动分组，
     topic 为空的词条归入"其他"分类。
+
+    参数:
+        ignore: 忽略规则
+        include_tags: 只包含具有这些标签的词条（至少匹配一个）
+        exclude_tags: 排除具有这些标签的词条（匹配任一标签则排除）
+        entry_list_path: 词条白名单文件路径
 
     返回值:
         tuple[EntryDocument | None, CategoryStructure]: (前言文档, 分类结构)
@@ -334,6 +413,25 @@ def collect_markdown_structure(ignore: IgnoreRules) -> tuple[EntryDocument | Non
     """
 
     documents = _load_entry_documents(ignore)
+
+    # 加载词条白名单
+    entry_list = _load_entry_list(entry_list_path)
+
+    # 应用过滤规则
+    if include_tags is not None or exclude_tags is not None or entry_list is not None:
+        documents = _filter_documents(documents, include_tags, exclude_tags, entry_list)
+
+        if sys.stdout.isatty():
+            filter_info = []
+            if entry_list:
+                filter_info.append(f"白名单: {len(entry_list)} 个词条")
+            if include_tags:
+                filter_info.append(f"包含标签: {', '.join(sorted(include_tags))}")
+            if exclude_tags:
+                filter_info.append(f"排除标签: {', '.join(sorted(exclude_tags))}")
+            print(f"   应用过滤规则: {' | '.join(filter_info)}")
+            print(f"   过滤后剩余: {len(documents)} 个词条")
+
     categories: list[tuple[str, tuple[EntryDocument, ...]]] = []
 
     # 加载前言文档（独立于章节结构）

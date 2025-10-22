@@ -1,0 +1,45 @@
+# 精简版 PDF 词条白名单示例
+# 此文件展示如何创建词条白名单来生成精简版 PDF
+# 使用方法: python tools/pdf_export/export_to_pdf.py --entry-list tools/pdf_export/example-lite-entries.txt --output MPS_Wiki_Lite.pdf
+
+# ===== 基础概念 =====
+# 这些是理解 MPS 的核心概念
+Alter.md
+DID.md
+OSDD.md
+Dissociative-Disorders.md
+Multiple-System.md
+
+# ===== 系统运作 =====
+# 系统日常运作的基础知识
+Switch.md
+Front-Fronting.md
+Co-Fronting.md
+Co-Consciousness.md
+Inner-World.md
+
+# ===== 角色类型 =====
+# 常见的系统成员角色
+Host.md
+Protector.md
+Gatekeeper.md
+Inner-Self-Helper-ISH.md
+
+# ===== 临床与诊断 =====
+# 临床诊断相关的重要信息
+Trauma.md
+PTSD.md
+C-PTSD.md
+Grounding.md
+
+# ===== 创造型系统 =====
+# Tulpa 和创造型系统相关
+Tulpa.md
+Tulpamancy.md
+Plurality.md
+
+# 提示：
+# 1. 每行一个词条，可以使用文件名（推荐）或词条标题
+# 2. 使用 # 开头的行为注释，会被忽略
+# 3. 空行也会被忽略
+# 4. 可以根据需要添加或删除词条

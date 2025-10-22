@@ -70,3 +70,111 @@ python tools/pdf_export/export_to_pdf.py --pdf-engine xelatex
 - 目录页会基于 topic 结构生成“图书式”目录，并为每个词条显示页码。
 
 如需进一步自定义输出文件名或其他设置，可执行 `python tools/pdf_export/export_to_pdf.py --help` 查看全部参数。
+
+## 精简版 PDF 导出
+
+如果完整版 PDF 太大，可以使用以下方式创建精简版，只导出部分词条：
+
+### 方式 1：按标签筛选
+
+使用 `--include-tags` 参数只导出包含特定标签的词条：
+
+```bash
+# 只导出基础概念和入门指南类词条
+python tools/pdf_export/export_to_pdf.py \
+  --include-tags "基础概念,入门指南" \
+  --output MPS_Wiki_Lite.pdf
+
+# 只导出临床诊断相关词条
+python tools/pdf_export/export_to_pdf.py \
+  --include-tags "临床诊断,治疗方法" \
+  --output MPS_Wiki_Clinical.pdf
+```
+
+使用 `--exclude-tags` 参数排除特定标签的词条：
+
+```bash
+# 排除进阶内容和实验性内容
+python tools/pdf_export/export_to_pdf.py \
+  --exclude-tags "进阶内容,实验性" \
+  --output MPS_Wiki_Basic.pdf
+```
+
+标签过滤规则：
+
+- `--include-tags`: 词条至少包含一个指定标签即会被导出
+- `--exclude-tags`: 词条包含任一排除标签即会被过滤掉
+- 可同时使用两个参数，先应用 include 再应用 exclude
+- 多个标签用逗号分隔
+
+### 方式 2：使用词条白名单
+
+创建一个文本文件，每行写一个要导出的词条（可以是文件名或标题）：
+
+```bash
+# 创建白名单文件 lite-entries.txt
+cat > lite-entries.txt << 'EOF'
+# 核心概念
+Alter.md
+DID.md
+OSDD.md
+Multiple-System.md
+
+# 基础操作
+Switching.md
+Fronting.md
+Co-Fronting.md
+
+# 也可以使用词条标题
+人格（Alter）
+解离性身份障碍（DID）
+EOF
+
+# 使用白名单导出
+python tools/pdf_export/export_to_pdf.py \
+  --entry-list lite-entries.txt \
+  --output MPS_Wiki_Core.pdf
+```
+
+白名单文件格式：
+
+- 每行一个词条，可以是文件名（如 `Alter.md`）或词条标题（如 `人格（Alter）`）
+- 支持 `#` 开头的注释行
+- 空行会被忽略
+
+### 方式 3：组合使用
+
+可以组合使用白名单和标签过滤：
+
+```bash
+# 从白名单中选择，再排除进阶内容
+python tools/pdf_export/export_to_pdf.py \
+  --entry-list my-selection.txt \
+  --exclude-tags "进阶内容" \
+  --output MPS_Wiki_Custom.pdf
+```
+
+### 推荐的精简版配置
+
+**新手入门版**（适合初次了解的读者）：
+```bash
+python tools/pdf_export/export_to_pdf.py \
+  --include-tags "基础概念,入门指南,常见问题" \
+  --output MPS_Wiki_Beginner.pdf
+```
+
+**临床专业版**（适合心理健康专业人士）：
+```bash
+python tools/pdf_export/export_to_pdf.py \
+  --include-tags "临床诊断,治疗方法,评估工具" \
+  --output MPS_Wiki_Professional.pdf
+```
+
+**核心手册版**（精选最重要的词条）：
+```bash
+# 先创建核心词条列表
+# 然后使用白名单导出
+python tools/pdf_export/export_to_pdf.py \
+  --entry-list core-entries.txt \
+  --output MPS_Wiki_Handbook.pdf
+```
