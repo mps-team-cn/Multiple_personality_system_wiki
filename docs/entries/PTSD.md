@@ -19,7 +19,7 @@ tags:
 
 title: 创伤后应激障碍（Post-Traumatic Stress Disorder，PTSD）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 创伤后应激障碍（Post-Traumatic Stress Disorder，PTSD）
@@ -108,11 +108,11 @@ updated: 2025-10-20
 
 ## 鉴别诊断
 
-- **[急性应激障碍（ASD）](Acute-Stress-Disorder-ASD.md)**：症状 <1 个月。
-- **[复杂性创伤后应激障碍（CPTSD）](CPTSD.md)**：若持续存在 DSO（情绪失调、负性自我、人际障碍）考虑 CPTSD。
-- **[适应障碍（Adjustment Disorders）](Adjustment-Disorders.md)**：缺乏创伤特异的侵入/回避/高警觉谱系。
+- [**急性应激障碍（ASD）**](Acute-Stress-Disorder-ASD.md)：症状 <1 个月。
+- [**复杂性创伤后应激障碍（CPTSD）**](CPTSD.md)：若持续存在 DSO（情绪失调、负性自我、人际障碍）考虑 CPTSD。
+- [**适应障碍（Adjustment Disorders）**](Adjustment-Disorders.md)：缺乏创伤特异的侵入/回避/高警觉谱系。
 - **[焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md) / [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md) / [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)**：区分发作性与触发相关性；评估躁狂史。
-- **[解离性障碍（Dissociative Disorders）](Dissociative-Disorders.md)**：若身份断裂/失忆为主，优先考虑解离性障碍；相关条目：[解离性身份障碍（DID）](DID.md) / [解离性遗忘（DA）](Dissociative-Amnesia-DA.md) / [人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)。
+- [**解离性障碍（Dissociative Disorders）**](Dissociative-Disorders.md)：若身份断裂/失忆为主，优先考虑解离性障碍；相关条目：[解离性身份障碍（DID）](DID.md) / [解离性遗忘（DA）](Dissociative-Amnesia-DA.md) / [人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)。
 
 ---
 
@@ -141,11 +141,11 @@ updated: 2025-10-20
 
 ## 与其他概念的比较 / 鉴别
 
-- **[急性应激障碍（ASD）](Acute-Stress-Disorder-ASD.md)**：创伤后 1 个月内的短期反应；若持续超过 1 个月可诊断 PTSD。
+- [**急性应激障碍（ASD）**](Acute-Stress-Disorder-ASD.md)：创伤后 1 个月内的短期反应；若持续超过 1 个月可诊断 PTSD。
 - **延迟发作型 PTSD**：创伤后 ≥6 个月才出现症状。
-- **[复杂性创伤后应激障碍（CPTSD）](CPTSD.md)**：在 PTSD 症状外，还包括持续的情绪调节困难、自我价值低下、人际关系受损。
-- **[解离性障碍](Dissociative-Disorders.md)**：PTSD 可伴随解离体验，但 [DID](DID.md)/[DA](Dissociative-Amnesia-DA.md)/[DPDR](Depersonalization-Derealization-Disorder-DPDR.md) 更强调身份与记忆的断裂。
-- **[边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)**：部分症状重叠，但病因、发展过程不同。
+- [**复杂性创伤后应激障碍（CPTSD）**](CPTSD.md)：在 PTSD 症状外，还包括持续的情绪调节困难、自我价值低下、人际关系受损。
+- [**解离性障碍**](Dissociative-Disorders.md)：PTSD 可伴随解离体验，但 [DID](DID.md)/[DA](Dissociative-Amnesia-DA.md)/[DPDR](Depersonalization-Derealization-Disorder-DPDR.md) 更强调身份与记忆的断裂。
+- [**边缘性人格障碍（BPD）**](Borderline-Personality-Disorder-BPD.md)：部分症状重叠，但病因、发展过程不同。
 
 ---
 

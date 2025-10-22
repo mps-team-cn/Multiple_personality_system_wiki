@@ -18,6 +18,8 @@ hide:
 
 ## 词条一览
 
+- [复杂性创伤后应激障碍（Complex Post-Traumatic Stress Disorder，CPTSD）](CPTSD.md) — *2025-10-22*
+- [创伤后应激障碍（Post-Traumatic Stress Disorder，PTSD）](PTSD.md) — *2025-10-22*
 - [躯体症状障碍（Somatic Symptom Disorder，SSD）](Somatic-Symptom-Disorder-SSD.md) — *2025-10-22*
 - [紧张症（Catatonia）](Catatonia.md) — *2025-10-21*
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md) — *2025-10-21*
@@ -50,7 +52,6 @@ hide:
 - [睡眠相关呼吸障碍（Breathing-Related Sleep Disorders）](Breathing-Related-Sleep-Disorders.md) — *2025-10-20*
 - [短期精神病性障碍（Brief Psychotic Disorder, BPD）](Brief-Psychotic-Disorder.md) — *2025-10-20*
 - [神经性贪食症(Bulimia Nervosa, BN)](Bulimia-Nervosa.md) — *2025-10-20*
-- [复杂性创伤后应激障碍（CPTSD）](CPTSD.md) — *2025-10-20*
 - [咖啡因相关障碍（Caffeine-Related Disorders）](Caffeine-Related-Disorders.md) — *2025-10-20*
 - [大麻相关障碍（Cannabis-Related Disorders）](Cannabis-Related-Disorders.md) — *2025-10-20*
 - [慢性疼痛（Chronic Pain）](Chronic-Pain.md) — *2025-10-20*
@@ -95,7 +96,6 @@ hide:
 - [阻塞性睡眠呼吸暂停低通气（Obstructive Sleep Apnea Hypopnea，OSAH）](Obstructive-Sleep-Apnea-Hypopnea.md) — *2025-10-20*
 - [阿片类相关障碍（Opioid-Related Disorders）](Opioid-Related-Disorders.md) — *2025-10-20*
 - [其他特定/未特定性别不安（Other Specified/Unspecified Gender Dysphoria）](Other-Specified-Unspecified-Gender-Dysphoria.md) — *2025-10-20*
-- [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](PTSD.md) — *2025-10-20*
 - [惊恐发作（Panic Attack）](Panic-Attack.md) — *2025-10-20*
 - [惊恐障碍（Panic Disorder，PD）](Panic-Disorder.md) — *2025-10-20*
 - [偏执型人格障碍（Paranoid Personality Disorder，PPD）](Paranoid-Personality-Disorder-PPD.md) — *2025-10-20*

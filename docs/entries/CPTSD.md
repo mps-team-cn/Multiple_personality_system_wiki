@@ -19,7 +19,7 @@ tags:
 
 title: 复杂性创伤后应激障碍（Complex Post-Traumatic Stress Disorder，CPTSD）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-10-22
 ---
 
 # 复杂性创伤后应激障碍（Complex Post-Traumatic Stress Disorder，CPTSD）
@@ -200,7 +200,7 @@ CPTSD 与童年期长期、反复且无法逃离的[创伤（Trauma）](Trauma.m
 
 ### 理论模型
 
-**[结构性解离理论（Structural Dissociation Theory）](Structural-Dissociation-Theory.md)**提出慢性创伤可能导致人格结构的分化：
+[**结构性解离理论（Structural Dissociation Theory）**](Structural-Dissociation-Theory.md) 提出慢性创伤可能导致人格结构的分化：
 
 - **表面正常部分（ANP, Apparently Normal Part）**：负责日常功能，试图维持"正常生活"，常表现为麻木、回避、过度理性化。
 - **情绪部分（EP, Emotional Part）**：承载创伤记忆与情绪，可能表现为恐惧、愤怒、羞耻或儿童状态的情感反应。
@@ -238,9 +238,9 @@ CPTSD 与童年期长期、反复且无法逃离的[创伤（Trauma）](Trauma.m
 
 ## 鉴别诊断
 
-- **[创伤后应激障碍（PTSD）](PTSD.md)**：若缺乏持续的 DSO 表现，应优先诊断 PTSD。
-- **[边缘性人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)**：两者皆有人际与情绪不稳，但 CPTSD 强调长期创伤诱发与闪回、回避等创伤特异症状。
-- **[解离性障碍（Dissociative Disorders）](Dissociative-Disorders.md)**：若身份状态断裂、失忆或显著解离体验为主，应优先考虑解离性障碍；相关条目：[解离性身份障碍（DID）](DID.md) / [解离性遗忘（DA）](Dissociative-Amnesia-DA.md) / [人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)。
+- [**创伤后应激障碍（PTSD）**](PTSD.md)：若缺乏持续的 DSO 表现，应优先诊断 PTSD。
+- [**边缘性人格障碍（BPD）**](Borderline-Personality-Disorder-BPD.md)：两者皆有人际与情绪不稳，但 CPTSD 强调长期创伤诱发与闪回、回避等创伤特异症状。
+- [**解离性障碍（Dissociative Disorders）**](Dissociative-Disorders.md)：若身份状态断裂、失忆或显著解离体验为主，应优先考虑解离性障碍；相关条目：[解离性身份障碍（DID）](DID.md) / [解离性遗忘（DA）](Dissociative-Amnesia-DA.md) / [人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)。
 - **[抑郁障碍](Depressive-Disorders.md) / [双相障碍](Bipolar-Disorders.md)**：辨别抑郁发作与触发相关的情绪调节困难，并评估躁狂/轻躁狂史。
 
 ---
