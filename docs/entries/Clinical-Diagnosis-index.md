@@ -18,6 +18,7 @@ hide:
 
 ## 词条一览
 
+- [躯体症状障碍（Somatic Symptom Disorder，SSD）](Somatic-Symptom-Disorder-SSD.md) — *2025-10-22*
 - [紧张症（Catatonia）](Catatonia.md) — *2025-10-21*
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md) — *2025-10-21*
 - [谵妄（Delirium）](Delirium.md) — *2025-10-21*
@@ -114,7 +115,6 @@ hide:
 - [选择性缄默症（Selective Mutism，SM）](Selective-Mutism.md) — *2025-10-20*
 - [睡眠障碍（Sleep Disorders，SD）](Sleep-Disorders-SD.md) — *2025-10-20*
 - [社交焦虑障碍（Social Anxiety Disorder / Social Phobia，SAD）](Social-Anxiety-Disorder.md) — *2025-10-20*
-- [躯体化障碍（Somatic Symptom Disorder，SSD）](Somatic-Symptom-Disorder-SSD.md) — *2025-10-20*
 - [特定学习障碍（Specific Learning Disorder, SLD）](Specific-Learning-Disorder.md) — *2025-10-20*
 - [特定恐惧症(Specific Phobia, SP)](Specific-Phobia.md) — *2025-10-20*
 - [人格分裂（Split Personality，非正式术语）](Split-Personality.md) — *2025-10-20*
