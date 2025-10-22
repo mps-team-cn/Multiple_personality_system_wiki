@@ -7,6 +7,98 @@ search:
 
 # 更新日志
 
+## [v3.18.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.18.0) - 临床词条体系化重构与交互功能增强 (2025-10-22)
+
+### ✨ 新增功能
+
+- **交互式评估工具** (PR #370)
+    - 新增 [躯体形式解离问卷 (SDQ-20)](entries/SDQ-20.md) 交互式评估工具
+    - 增强量表使用体验
+
+- **PDF 导出系统优化** (PR #369, #373)
+    - 修复前言文档处理
+    - 新增 admonitions 提示块转换支持
+    - 优化 HTML 标签转换和多级列表渲染
+
+### 📚 词条完善
+
+- **注意力与发展性障碍**
+    - **全面重构 [ADHD (注意缺陷多动障碍)](entries/ADHD.md)** (PR #380)
+        - 按照 DID 标杆风格对齐结构
+        - 补充临床诊断标准与评估量表
+        - 增强治疗与管理章节
+    - **新增 [过度专注 (Hyperfocus)](entries/Hyperfocus.md) 与 [心流 (Flow)](entries/Flow.md)** (PR #379)
+        - 完善 ADHD 相关概念体系
+    - **重构 [孤独症谱系障碍 (ASD)](entries/ASD.md)** (PR #382)
+        - 更新诊断标准与临床表现
+        - 优化内容结构
+
+- **创伤与应激相关障碍**
+    - **优化 [CPTSD/PTSD](entries/CPTSD.md) 词条** (PR #375)
+        - 按照 DID 风格对齐格式
+        - 补充诊断标准与治疗方法
+    - **重构 [躯体症状障碍 (SSD)](entries/SSD.md)** (PR #374)
+        - 结构对齐 DID 标杆
+        - 修正标签与链接,补充评估与治疗段落
+    - **新增 [侵入性记忆 (Intrusive-Memory)](entries/Intrusive-Memory.md)** (PR #376)
+        - 重写 [侵入性思维 (Intrusive-Thoughts)](entries/Intrusive-Thoughts.md) 并补充链接
+        - 优化侵入性思维词条并同步导览映射 (PR #377)
+    - **增强 ["非我感" (Not-Me-Feeling)](entries/Not-Me-Feeling.md)** (PR #372)
+        - 强化鉴别诊断章节并优化文档结构
+
+- **心境障碍**
+    - **翻修 [心境障碍/抑郁障碍](entries/Mood-Disorders.md)** (PR #378)
+        - 对齐 DID 标杆风格
+        - 更新诊断分类与治疗建议
+
+- **破坏性、冲动控制及品行障碍**
+    - **完成破坏性冲动控制障碍核心词条** (PR #383)
+        - 新增多个相关诊断词条
+    - **修正 [ODD (对立违抗性障碍)](entries/ODD.md) 诊断阈值描述** (PR #385)
+
+- **角色与系统运作**
+    - **补充 [迫害者 (Persecutor)](entries/Persecutor.md) 角色概述** (PR #371)
+
+### 🏗️ 架构与标准化
+
+- **文档架构重组** (PR #386)
+    - 将导览和索引文件迁移到独立的 `guides/` 目录
+    - 优化项目文档结构
+
+- **Markdown 书写规范** (PR #381)
+    - 在贡献指南中新增 Markdown 书写规范章节
+    - 强制使用连字符 (`-`) 作为无序列表符号
+    - 补充标题与排版要求
+    - 统一全项目列表符号格式
+
+- **标签体系优化**
+    - 修复 PTSD 标签 (PR #384)
+    - 优化 tag 标签显示
+
+- **链接修复**
+    - 修复两个 index 文件的链接问题 (PR #384)
+    - 修正主页链接 (PR #188efe5)
+
+### 🎨 样式改进
+
+- **首页优化**
+    - 调整 Hero 区域字体大小以符合 MkDocs Material 标准
+    - 优化首页 Hero 区域的字体大小和间距
+
+### 🔧 工具与基础设施
+
+- **CI 流程**
+    - 自动更新词条、分区索引与格式
+    - 移除未使用的 `.dates_cache.jsonl` 缓存文件
+
+### 📊 影响范围
+
+- 重构/优化 10+ 个核心临床词条
+- 新增 5+ 个词条
+- 完成 Markdown 书写规范标准化
+- 优化文档架构和导览体系
+- 增强交互式评估功能
+
 ## [v3.17.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.17.0) - SEO 集成与内容标准化升级 (2025-10-21)
 
 ### ✨ 新增功能
