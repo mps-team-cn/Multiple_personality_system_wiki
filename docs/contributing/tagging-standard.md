@@ -1,3 +1,8 @@
+---
+title: 标签规范 Tagging Standard v2.0
+description: 详细阐述 MPS Wiki 标签体系,含分面前缀规则、命名格式、分配流程与自动校验要点,指导贡献者维护一致的标签数据。
+---
+
 # MPS Wiki 标签规范（Tagging Standard v2.0）
 
 > 统一的标签体系，适用于所有词条 Frontmatter 的 `tags:` 字段。面向贡献者与自动化代理（Agents/Scripts）。

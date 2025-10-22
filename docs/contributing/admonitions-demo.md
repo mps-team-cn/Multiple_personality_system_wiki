@@ -1,3 +1,8 @@
+---
+title: Admonition 提示块效果对照表
+description: 罗列 MkDocs Material 支持的全部提示块类型,展示语法示例与渲染效果,帮助贡献者快速选择合适的提示样式。
+---
+
 # 📘 Admonition 提示块效果对照表
 
 本页展示 MkDocs Material 支持的所有 `!!!` 提示块语法及其视觉效果。

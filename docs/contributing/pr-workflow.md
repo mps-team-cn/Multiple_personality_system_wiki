@@ -1,6 +1,6 @@
 ---
 title: PR 提交流程
-description: MPS Wiki Pull Request 提交完整指南,包含本地开发环境配置、分支管理、质量检查清单、CI 自动化流程与常见问题解决。确保贡献顺利合并的实用手册
+description: 指导贡献者完成 MPS Wiki 的本地开发、分支管理、质量检查与 CI 协作流程，确保 Pull Request 顺利通过审查与合并。
 ---
 
 # PR 提交流程
