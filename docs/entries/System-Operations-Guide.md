@@ -72,6 +72,7 @@ search:
 - 🔁 [迭代（Iteration）](Iteration.md) & [重构（Reconstruction）](Reconstruction.md)：对内部结构的持续优化。
 - 🧸 [退行（Regression）](Regression.md)：区分年龄退行与儿童人格的功能。
 - 💭 [侵入性思维](Intrusive-Thoughts.md)：应对突发的念头、影像或语句。
+- 🧠 [侵入性记忆](Intrusive-Memory.md)：创伤相关的记忆闯入，区分与闪回、思维。
 - 🥴 [醉酒解离](Alcohol-Induced-Dissociation.md)：似醉非饮的主观体验与稳定策略。
 - 🪞 [非我感（Not-me Feeling）](Not-Me-Feeling.md) & [去现实化](Derealization.md)：边界感知与外界失真之区分与稳定。
 
