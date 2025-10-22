@@ -93,7 +93,7 @@ updated: 2025-10-22
 
 ---
 
-## 解离机制与背景
+## 病理机制与背景
 
 [结构性解离理论（Structural Dissociation Theory）](Structural-Dissociation-Theory.md)认为，反复创伤可导致承载日常功能的 **ANP** 与承载创伤情绪/记忆的 **EP** 之间的功能性分化。PTSD 常表现为 ANP 与 EP 的相对分离：ANP 倾向回避，EP 触发时出现强烈侵入。该模型有助于理解闪回/回避的循环与治疗中“先稳定、后加工”的必要性。
 
