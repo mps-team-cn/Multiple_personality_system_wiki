@@ -219,11 +219,11 @@ comments: true
 
 一句话定位：以情绪/行为调节困难为核心，常与人际/司法问题相关。
 
-- [ ] Oppositional-Defiant-Disorder.md
-- [ ] Intermittent-Explosive-Disorder.md
-- [ ] Conduct-Disorder.md
-- [ ] Pyromania.md
-- [ ] Kleptomania.md
+- [x] Oppositional-Defiant-Disorder.md
+- [x] Intermittent-Explosive-Disorder.md
+- [x] Conduct-Disorder.md
+- [x] Pyromania.md
+- [x] Kleptomania.md
 - [ ] Other-Specified-or-Unspecified-Disruptive-Impulse-Conduct-Disorders.md
 
 !!! note "关于反社会型人格障碍（ASPD）"

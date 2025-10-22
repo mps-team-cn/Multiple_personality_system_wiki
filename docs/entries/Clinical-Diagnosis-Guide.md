@@ -265,7 +265,11 @@ search:
 
 ???+ abstract "展开查看"
 
-    - 对立违抗障碍（ODD）、间歇性暴怒障碍（IED）、品行障碍（Conduct Disorder）、纵火癖（Pyromania）、偷窃癖（Kleptomania）等 — :octicons-clock-16: 待更新
+    - [对立违抗障碍（ODD）](Oppositional-Defiant-Disorder.md) — :octicons-check-16: 已完成
+    - [间歇性暴怒障碍（IED）](Intermittent-Explosive-Disorder.md) — :octicons-check-16: 已完成
+    - [品行障碍（Conduct Disorder）](Conduct-Disorder.md) — :octicons-check-16: 已完成
+    - [纵火癖（Pyromania）](Pyromania.md) — :octicons-check-16: 已完成
+    - [偷窃癖（Kleptomania）](Kleptomania.md) — :octicons-check-16: 已完成
 
 ### 16) 物质相关及成瘾障碍
 
