@@ -33,8 +33,8 @@ search:
   </p>
 
   <div class="mps-hero-buttons">
-    <a href="QuickStart.md" class="md-button md-button--primary">开始探索</a>
-    <a href="guides/index.md" class="md-button md-button--outlined">核心主题</a>
+    <a href="QuickStart/" class="md-button md-button--primary">开始探索</a>
+    <a href="guides/" class="md-button md-button--outlined">核心主题</a>
   </div>
 
   <p class="mps-hero-hint">
