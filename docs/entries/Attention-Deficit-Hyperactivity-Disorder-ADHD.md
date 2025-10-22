@@ -1,12 +1,13 @@
 ---
 comments: true
 synonyms:
-  - 注意缺陷多动障碍
-  - 注意力缺陷多动障碍
-  - 多动症
-  - Attention-Deficit/Hyperactivity Disorder
-  - ADHD
-  - zhu yi que xian duo dong zhang ai
+
+    - 注意缺陷多动障碍
+    - 注意力缺陷多动障碍
+    - 多动症
+    - Attention-Deficit/Hyperactivity Disorder
+    - ADHD
+    - zhu yi que xian duo dong zhang ai
 
 description: 注意缺陷多动障碍（ADHD）是一种以注意力不集中、多动和冲动为特征的神经发育障碍，常影响儿童及成人的学习与社交功能。
 search:
