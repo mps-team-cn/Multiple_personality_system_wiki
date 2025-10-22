@@ -12,6 +12,7 @@ from pypinyin import lazy_pinyin
 
 DOCS = Path("docs")
 ENTRIES = DOCS / "entries"
+GUIDES = DOCS / "guides"
 
 # 七个主题分区及其英文文件名映射
 TOPICS = {
@@ -67,17 +68,17 @@ def generate_summary(buckets, use_letter_grouping=True):
     lines.append("    * [最近更新](updates.md)")
     lines.append("    * [标签索引](tags.md)")
     lines.append("    * [术语词典](Glossary.md)")
-    lines.append("    * [核心概念](entries/Core-Concepts-Guide.md)")
-    lines.append("    * [健康导览](entries/Mental-Health-Guide.md)")
+    lines.append("    * [核心概念](guides/Core-Concepts-Guide.md)")
+    lines.append("    * [健康导览](guides/Mental-Health-Guide.md)")
 
     lines.append("* 主题导览")
-    lines.append("    * [诊断与临床导览](entries/Clinical-Diagnosis-Guide.md)")
-    lines.append("    * [系统运作导览](entries/System-Operations-Guide.md)")
-    lines.append("    * [实践指南导览](entries/Practice-Guide.md)")
-    lines.append("    * [创伤与疗愈导览](entries/Trauma-Healing-Guide.md)")
-    lines.append("    * [角色与身份导览](entries/Roles-Identity-Guide.md)")
-    lines.append("    * [理论与分类导览](entries/Theory-Classification-Guide.md)")
-    lines.append("    * [文化与表现导览](entries/Cultural-Media-Guide.md)")
+    lines.append("    * [诊断与临床导览](guides/Clinical-Diagnosis-Guide.md)")
+    lines.append("    * [系统运作导览](guides/System-Operations-Guide.md)")
+    lines.append("    * [实践指南导览](guides/Practice-Guide.md)")
+    lines.append("    * [创伤与疗愈导览](guides/Trauma-Healing-Guide.md)")
+    lines.append("    * [角色与身份导览](guides/Roles-Identity-Guide.md)")
+    lines.append("    * [理论与分类导览](guides/Theory-Classification-Guide.md)")
+    lines.append("    * [文化与表现导览](guides/Cultural-Media-Guide.md)")
 
     # 主题分区
     lines.append("* 主题分区")
@@ -86,7 +87,7 @@ def generate_summary(buckets, use_letter_grouping=True):
         items = buckets.get(topic, [])
 
         # 添加主题索引页
-        lines.append(f"    * [{topic}](entries/{index_filename})")
+        lines.append(f"    * [{topic}](guides/{index_filename})")
 
         if not items:
             continue
@@ -175,7 +176,7 @@ def main():
         # 按更新时间降序排列
         items.sort(key=lambda x: x["dt"], reverse=True)
 
-        out_file = ENTRIES / filename
+        out_file = GUIDES / filename
 
         lines = []
         lines.append("---")
@@ -203,8 +204,8 @@ def main():
             lines.append("")
             for it in items:
                 suffix = f" — *{it['updated']}*" if it["updated"] else ""
-                # 使用相对路径链接到同目录下的词条文件
-                lines.append(f"- [{it['title']}]({it['filename']}){suffix}")
+                # 使用相对路径链接到 entries 目录下的词条文件
+                lines.append(f"- [{it['title']}](../entries/{it['filename']}){suffix}")
         else:
             lines.append("*暂无词条*")
 

@@ -800,13 +800,13 @@ search:
 ### ✨ 内容重构
 
 - **feat(entries)**: 全面重构 7 个主题导览页面
-    - [理论与分类导览](entries/Theory-Classification-Guide.md) - 从心理学流派到解离视角的知识地图
-    - [诊断与临床导览](entries/Clinical-Diagnosis-Guide.md) - 掌握精神医学诊断语言与临床知识
-    - [系统运作导览](entries/System-Operations-Guide.md) - 多意识体系统的日常运作机制
-    - [角色与身份导览](entries/Roles-Identity-Guide.md) - 系统中的不同角色与职能分工
-    - [文化与表现导览](entries/Cultural-Media-Guide.md) - 影视文学中的多意识体主题
-    - [创伤与疗愈导览](entries/Trauma-Healing-Guide.md) - 创伤知情的自助策略与临床框架
-    - [实践指南导览](entries/Practice-Guide.md) - 操作性训练方法与实践技巧
+    - [理论与分类导览](guides/Theory-Classification-Guide.md) - 从心理学流派到解离视角的知识地图
+    - [诊断与临床导览](guides/Clinical-Diagnosis-Guide.md) - 掌握精神医学诊断语言与临床知识
+    - [系统运作导览](guides/System-Operations-Guide.md) - 多意识体系统的日常运作机制
+    - [角色与身份导览](guides/Roles-Identity-Guide.md) - 系统中的不同角色与职能分工
+    - [文化与表现导览](guides/Cultural-Media-Guide.md) - 影视文学中的多意识体主题
+    - [创伤与疗愈导览](guides/Trauma-Healing-Guide.md) - 创伤知情的自助策略与临床框架
+    - [实践指南导览](guides/Practice-Guide.md) - 操作性训练方法与实践技巧
 - **refactor**: 从层级结构简化为扁平化的主题分类结构
 - **refactor**: 更新内部链接为相对路径 + .md 扩展名格式
 - **docs**: 统一更新所有导览页面日期为 2025-10-08
