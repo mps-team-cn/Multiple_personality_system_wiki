@@ -143,18 +143,27 @@ search:
 
 ## 🎯 核心主题
 
+从概念基础到实践应用，系统性探索多意识体系统的各个知识领域。
+
 <div class="grid cards" markdown>
 
-- :material-lightbulb-on: [ **核心概念** ](guides/Core-Concepts-Guide.md) - 从解离谱系切入，厘清 Tulpa 与 DID/OSDD 的界限，并以埃蒙加德分类搭建多意识体系统的理论地图
-- :material-hospital-box: [ **诊断与临床** ](guides/Clinical-Diagnosis-Guide.md) - 覆盖 DID、OSDD、CPTSD、焦虑障碍、情绪障碍等核心诊断，帮助理解鉴别要点与临床处置路径。
-- :material-cog: [ **系统运作** ](guides/System-Operations-Guide.md) - 聚焦前台切换、共同意识、记忆管理、内部空间与系统治理等运作机制，支持日常协作实践。
-- :material-clipboard-check: [ **实践指南** ](guides/Practice-Guide.md) - 强调 Tulpa 三阶段训练、冥想与可视化等意识训练方法，以及内部沟通与接地技巧。
-- :material-heart-pulse: [ **创伤与疗愈** ](guides/Trauma-Healing-Guide.md) - 聚焦创伤机理、PTSD/CPTSD 症状识别、三阶段治疗模型与接地调节策略，支持安全康复。
-- :material-account-multiple: [ **角色与身份** ](guides/Roles-Identity-Guide.md) - 梳理宿主、守门人、保护者、照护者等角色分工，以及多类型身份结构。
-- :material-book-open-variant: [ **理论与分类** ](guides/Theory-Classification-Guide.md) - 涵盖结构性解离、依恋、自我决定理论、动机与人格模型等框架，帮助搭建概念体系。
-- :material-palette: [ **文化与表现** ](guides/Cultural-Media-Guide.md) - 解析影视、文学、动画与游戏中多意识体主题的叙事与象征呈现。
+- :material-compass-outline: **浏览所有主题**
+
+    查看完整的核心主题分类导览，包括核心概念、诊断临床、系统运作、实践指南、创伤疗愈、角色身份、理论分类和文化表现等多个主题
+
+    [:octicons-arrow-right-24: 查看主题导览](guides/index.md)
 
 </div>
+
+??? info "主题速览"
+    - :material-lightbulb-on: [核心概念](guides/Core-Concepts-Guide.md) - 解离谱系、Tulpa 与 DID/OSDD、埃蒙加德分类
+    - :material-hospital-box: [诊断与临床](guides/Clinical-Diagnosis-Guide.md) - DID、OSDD、CPTSD、焦虑与情绪障碍
+    - :material-cog: [系统运作](guides/System-Operations-Guide.md) - 前台切换、共同意识、记忆管理、内部空间
+    - :material-clipboard-check: [实践指南](guides/Practice-Guide.md) - Tulpa 训练、冥想可视化、沟通接地技巧
+    - :material-heart-pulse: [创伤与疗愈](guides/Trauma-Healing-Guide.md) - 创伤机理、症状识别、三阶段治疗模型
+    - :material-account-multiple: [角色与身份](guides/Roles-Identity-Guide.md) - 宿主、守门人、保护者、多类型身份结构
+    - :material-book-open-variant: [理论与分类](guides/Theory-Classification-Guide.md) - 结构性解离、依恋、自我决定理论
+    - :material-palette: [文化与表现](guides/Cultural-Media-Guide.md) - 影视文学动画游戏中的多意识体主题
 
 ---
 
