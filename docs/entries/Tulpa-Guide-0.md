@@ -20,7 +20,7 @@ tags:
 
 title: Tulpa 完全创造指南
 topic: 实践指南
-updated: 2025-10-22
+updated: 2025-10-23
 ---
 
 # Tulpa 完全创造指南（Tulpa Creation Guide）
