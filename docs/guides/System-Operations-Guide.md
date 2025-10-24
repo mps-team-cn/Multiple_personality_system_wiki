@@ -65,6 +65,7 @@ search:
 - 🎨 [内视（Visualization / Imagination）](../entries/Visualization-Imagination.md)：心像支持沟通与记忆。
 - 🧳 [独有记忆（Exomemory）](../entries/Exomemory.md)：非当前生命史的叙事性记忆体验之机制与处理。
 - 🛡️ [记忆屏蔽（Memory Shielding）](../entries/Memory-Shielding.md)：何时建立屏障、如何安全解除。
+- 🔄 [记忆回退（Memory Rollback）](../entries/Memory-Rollback.md)：当下体验被旧记忆框架覆盖时的定向与安全策略。
 - 🧷 [独立性（Independence）](../entries/Independence.md)：评估成员自主程度与界限。
 - 🌡️ [存在感（Sense of Presence）](../entries/Sense-Of-Presence.md)：在场与否的体感线索。
 - 🧪 [功能性分离（Functional Dissociation）](../entries/Functional-Dissociation.md)：区分工作分流与病理性解离。
