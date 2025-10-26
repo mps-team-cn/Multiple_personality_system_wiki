@@ -65,9 +65,9 @@ comments: true
 - [x] Bipolar-Disorders.md <!-- 总览/比较页 -->
 - [x] Mania.md
 - [x] Hypomania.md
-- [ ] Substance-Medication-Induced-Bipolar-Related-Disorder.md
-- [ ] Bipolar-Related-Disorder-Due-to-Another-Medical-Condition.md
-- [ ] Other-Specified-or-Unspecified-Bipolar-Related-Disorder.md
+- [x] Substance-Medication-Induced-Bipolar-Related-Disorder.md
+- [x] Bipolar-Related-Disorder-Due-to-Another-Medical-Condition.md
+- [x] Other-Specified-or-Unspecified-Bipolar-Related-Disorder.md
 
 ## 4. 抑郁障碍（Depressive Disorders）
 

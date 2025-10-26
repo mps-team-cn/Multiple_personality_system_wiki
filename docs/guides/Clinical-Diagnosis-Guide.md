@@ -146,7 +146,9 @@ search:
     - [双相 II 型障碍（Bipolar II Disorder）](../entries/Bipolar-II-Disorder.md) — :octicons-check-16: 已完成
     - [躁狂发作（Mania）](../entries/Mania.md) / [轻躁狂发作（Hypomania）](../entries/Hypomania.md) — :octicons-check-16: 已完成
     - [环性心境障碍（Cyclothymic Disorder）](../entries/Cyclothymic-Disorder.md) — :octicons-check-16: 已完成
-    - 物质/医学状况所致双相障碍等 — :octicons-clock-16: 待更新
+    - [物质/药物所致双相及相关障碍](../entries/Substance-Medication-Induced-Bipolar-Related-Disorder.md) — :octicons-check-16: 已完成
+    - [躯体疾病所致双相及相关障碍](../entries/Bipolar-Related-Disorder-Due-to-Another-Medical-Condition.md) — :octicons-check-16: 已完成
+    - [其他特定的或未特定的双相及相关障碍](../entries/Other-Specified-or-Unspecified-Bipolar-Related-Disorder.md) — :octicons-check-16: 已完成
 
 ### 4) 抑郁障碍
 
