@@ -138,6 +138,7 @@ updated: 2025-10-22
 ### 情绪障碍相关
 
 - [情绪障碍（Affective Disorders）](Affective-Disorders.md)
+- [重度抑郁发作（MDE）](Major-Depressive-Episode-MDE.md)
 - [双相Ⅰ型障碍（Bipolar I Disorder）](Bipolar-I-Disorder.md)
 - [双相Ⅱ型障碍（Bipolar II Disorder）](Bipolar-II-Disorder.md)
 - [循环性心境障碍（Cyclothymic Disorder）](Cyclothymic-Disorder.md)

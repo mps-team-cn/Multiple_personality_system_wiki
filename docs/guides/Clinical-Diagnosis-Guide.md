@@ -154,6 +154,7 @@ search:
 
     - [抑郁障碍总览（Depressive Disorders）](../entries/Depressive-Disorders.md) — :octicons-check-16: 已完成
     - [重性抑郁障碍（MDD）](../entries/Major-Depressive-Disorder-MDD.md) — :octicons-check-16: 已完成
+    - [重度抑郁发作（MDE）](../entries/Major-Depressive-Episode-MDE.md) — :octicons-check-16: 已完成
     - [持续性抑郁障碍（PDD）](../entries/Persistent-Depressive-Disorder-PDD.md) — :octicons-check-16: 已完成
     - [经前焦虑障碍（PMDD）](../entries/Premenstrual-Dysphoric-Disorder.md) — :octicons-check-16: 已完成
     - 破坏性心境失调障碍（DMDD）、物质/医学状况所致抑郁等 — :octicons-clock-16: 待更新
