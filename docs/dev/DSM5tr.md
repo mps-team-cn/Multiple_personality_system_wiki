@@ -118,8 +118,8 @@ comments: true
 
 一句话定位：以可识别应激事件为诱因，涉及再体验、回避、警觉性改变与哀伤适应问题。
 
-- [ ] Reactive-Attachment-Disorder.md
-- [ ] Disinhibited-Social-Engagement-Disorder.md
+- [x] Reactive-Attachment-Disorder.md
+- [x] Disinhibited-Social-Engagement-Disorder.md
 - [x] PTSD.md
 - [x] CPTSD.md                 <!-- ICD-11 并列条目，便于对照 -->
 - [x] Flashback.md
@@ -127,7 +127,7 @@ comments: true
 - [x] Acute-Stress-Disorder-ASD.md
 - [x] Adjustment-Disorders.md
 - [x] Prolonged-Grief-Disorder.md
-- [ ] Other-Specified-or-Unspecified-Trauma-Stressor-Disorders.md
+- [x] Other-Specified-or-Unspecified-Trauma-Stressor-Disorders.md
 
 ## 8. 解离障碍（Dissociative Disorders）
 
