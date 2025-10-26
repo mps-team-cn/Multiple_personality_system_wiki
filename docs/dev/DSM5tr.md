@@ -76,19 +76,20 @@ comments: true
 - [x] Affective-Disorders.md           <!-- 心境类总览 -->
 - [x] Depressive-Disorders.md          <!-- 抑郁类总览 -->
 - [x] Major-Depressive-Disorder-MDD.md
+- [x] Major-Depressive-Episode-MDE.md
 - [x] Persistent-Depressive-Disorder-PDD.md
-- [ ] Disruptive-Mood-Dysregulation-Disorder.md
+- [x] Disruptive-Mood-Dysregulation-Disorder.md
 - [x] Premenstrual-Dysphoric-Disorder.md
-- [ ] Substance-Medication-Induced-Depressive-Disorder.md
-- [ ] Depressive-Disorder-Due-to-Another-Medical-Condition.md
-- [ ] Other-Specified-or-Unspecified-Depressive-Disorder.md
+- [x] Substance-Medication-Induced-Depressive-Disorder.md
+- [x] Depressive-Disorder-Due-to-Another-Medical-Condition.md
+- [x] Other-Specified-or-Unspecified-Depressive-Disorder.md
 
 ## 5. 焦虑障碍（Anxiety Disorders）
 
 一句话定位：以过度恐惧与焦虑及相关回避为核心，常与躯体症状交织。
 
 - [x] Anxiety-Disorders.md               <!-- 总览 -->
-- [ ] Separation-Anxiety-Disorder.md
+- [x] Separation-Anxiety-Disorder.md
 - [x] Selective-Mutism.md
 - [x] Specific-Phobia.md
 - [x] Social-Anxiety-Disorder.md
