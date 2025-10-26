@@ -159,6 +159,7 @@ extra_css:
   - assets/extra-material.css # Material 主题专用增强样式
   - assets/des2.css
   - assets/mid60.css
+  - assets/scl90.css
   - assets/sdq20.css
 
 extra_javascript:
@@ -168,6 +169,7 @@ extra_javascript:
   - assets/search-phrase-default.js # 搜索短语自动加引号
   - assets/des2.js
   - assets/mid60.js
+  - assets/scl90.js
   - assets/sdq20.js
 
 
