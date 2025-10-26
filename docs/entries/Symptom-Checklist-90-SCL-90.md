@@ -1,23 +1,29 @@
 ---
 title: 症状自评量表修订版（Symptom Checklist-90-Revised, SCL-90-R）
 tags:
-  - scale:SCL-90-R
-  - scale:评估量表
-  - guide:诊断与临床
+
+    - scale:SCL-90-R
+    - scale:评估量表
+    - guide:诊断与临床
+
 topic: 诊断与临床
 synonyms:
-  - 症状自评量表
-  - SCL-90
-  - SCL90
-  - SCL-90-R
-  - Symptom Checklist-90
-  - Symptom Checklist-90-Revised
+
+    - 症状自评量表
+    - SCL-90
+    - SCL90
+    - SCL-90-R
+    - Symptom Checklist-90
+    - Symptom Checklist-90-Revised
+
 description: 症状自评量表修订版（SCL-90-R）是一个广泛使用的心理健康筛查工具，采用0-4分评分系统，评估躯体化、强迫、人际敏感、抑郁、焦虑、敌对、恐怖、偏执和精神病性等九个症状维度，用于心理症状的全面筛查与评估。本版本为国际通用的SCL-90-R版本，与中国常模版本在评分系统和题目分配上有所差异。
 updated: 2025-10-26
 search:
   boost: 1.5
 hide:
-  - toc
+
+    - toc
+
 comments: true
 ---
 
@@ -58,7 +64,7 @@ comments: true
 - **阳性项目数（Positive Symptom Total, PST）**：评分 ≥ 1 分的项目数
 - **阳性症状均分（Positive Symptom Distress Index, PSDI）**：阳性项目的平均分
 
-此外还计算**总分（Total Score）**作为辅助参考（90项得分之和）
+此外还计算 **总分（Total Score）** 作为辅助参考（90项得分之和）
 
 !!! info "版本说明"
     **本词条采用 SCL-90-R（修订版）标准**，使用 **0-4 分评分系统**。中国常模版本（王征宇，1984）采用 1-5 分评分系统，且部分维度的题目分配有所不同。如需使用中国常模进行临床解释，请参考相应的评分标准和常模数据。

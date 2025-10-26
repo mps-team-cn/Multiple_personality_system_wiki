@@ -98,6 +98,7 @@
         * [特定恐惧症(Specific Phobia, SP)](entries/Specific-Phobia.md)
         * [环性心境障碍（Cyclothymic Disorder）](entries/Cyclothymic-Disorder.md)
         * [疾病焦虑障碍(Illness Anxiety Disorder,IAD)](entries/Illness-Anxiety-Disorder.md)
+        * [症状自评量表修订版（Symptom Checklist-90-Revised, SCL-90-R）](entries/Symptom-Checklist-90-SCL-90.md)
         * [癔症（Hysteria，已过时）](entries/Hysteria.md)
         * [癫痫（Epilepsy）](entries/Epilepsy.md)
         * [睡眠相关呼吸障碍（Breathing-Related Sleep Disorders）](entries/Breathing-Related-Sleep-Disorders.md)
