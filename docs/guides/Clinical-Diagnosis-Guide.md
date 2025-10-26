@@ -197,7 +197,9 @@ search:
     - [急性应激障碍（ASD）](../entries/Acute-Stress-Disorder-ASD.md) — :octicons-check-16: 已完成
     - [适应障碍（Adjustment Disorders）](../entries/Adjustment-Disorders.md) — :octicons-check-16: 已完成
     - [长期哀伤障碍（Prolonged Grief Disorder）](../entries/Prolonged-Grief-Disorder.md) — :octicons-check-16: 已完成
-    - 反应性依恋障碍（Reactive Attachment Disorder）、去抑制性社交参与障碍（Disinhibited Social Engagement Disorder）等 — :octicons-clock-16: 待更新
+    - [反应性依恋障碍（RAD）](../entries/Reactive-Attachment-Disorder.md) — :octicons-check-16: 已完成
+    - [去抑制性社交参与障碍（DSED）](../entries/Disinhibited-Social-Engagement-Disorder.md) — :octicons-check-16: 已完成
+    - [其他特定或未特定创伤及应激相关障碍](../entries/Other-Specified-or-Unspecified-Trauma-Stressor-Disorders.md) — :octicons-check-16: 已完成
 
 ### 8) 解离障碍
 
