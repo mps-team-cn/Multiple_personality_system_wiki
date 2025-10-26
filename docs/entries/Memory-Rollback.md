@@ -16,7 +16,7 @@ tags:
 
 title: 记忆回退（Memory Rollback）
 topic: 系统运作
-updated: 2025-10-22
+updated: 2025-10-26
 ---
 
 # 记忆回退（Memory Rollback）

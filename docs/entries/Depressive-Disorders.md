@@ -10,7 +10,7 @@ tags:
 
 title: 抑郁障碍（Depressive Disorders）
 topic: 诊断与临床
-updated: 2025-10-22
+updated: 2025-10-26
 ---
 
 # 抑郁障碍（Depressive Disorders）
