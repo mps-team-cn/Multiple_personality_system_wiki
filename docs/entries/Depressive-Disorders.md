@@ -126,6 +126,7 @@ updated: 2025-10-22
 
 - [心境障碍（Affective Disorders）](Affective-Disorders.md)
 - [重度抑郁障碍（Major Depressive Disorder，MDD）](Major-Depressive-Disorder-MDD.md)
+- [重度抑郁发作（Major Depressive Episode，MDE）](Major-Depressive-Episode-MDE.md)
 - [持续性抑郁障碍（Persistent Depressive Disorder，PDD）](Persistent-Depressive-Disorder-PDD.md)
 - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
 - [轻躁狂（Hypomania）](Hypomania.md)
