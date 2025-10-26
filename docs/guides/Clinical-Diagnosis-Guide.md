@@ -146,7 +146,9 @@ search:
     - [双相 II 型障碍（Bipolar II Disorder）](../entries/Bipolar-II-Disorder.md) — :octicons-check-16: 已完成
     - [躁狂发作（Mania）](../entries/Mania.md) / [轻躁狂发作（Hypomania）](../entries/Hypomania.md) — :octicons-check-16: 已完成
     - [环性心境障碍（Cyclothymic Disorder）](../entries/Cyclothymic-Disorder.md) — :octicons-check-16: 已完成
-    - 物质/医学状况所致双相障碍等 — :octicons-clock-16: 待更新
+    - [物质/药物所致双相及相关障碍](../entries/Substance-Medication-Induced-Bipolar-Related-Disorder.md) — :octicons-check-16: 已完成
+    - [躯体疾病所致双相及相关障碍](../entries/Bipolar-Related-Disorder-Due-to-Another-Medical-Condition.md) — :octicons-check-16: 已完成
+    - [其他特定的或未特定的双相及相关障碍](../entries/Other-Specified-or-Unspecified-Bipolar-Related-Disorder.md) — :octicons-check-16: 已完成
 
 ### 4) 抑郁障碍
 
@@ -157,20 +159,23 @@ search:
     - [重度抑郁发作（MDE）](../entries/Major-Depressive-Episode-MDE.md) — :octicons-check-16: 已完成
     - [持续性抑郁障碍（PDD）](../entries/Persistent-Depressive-Disorder-PDD.md) — :octicons-check-16: 已完成
     - [经前焦虑障碍（PMDD）](../entries/Premenstrual-Dysphoric-Disorder.md) — :octicons-check-16: 已完成
-    - 破坏性心境失调障碍（DMDD）、物质/医学状况所致抑郁等 — :octicons-clock-16: 待更新
+    - [破坏性心境失调障碍（DMDD）](../entries/Disruptive-Mood-Dysregulation-Disorder.md) — :octicons-check-16: 已完成
+    - [物质/药物所致抑郁障碍](../entries/Substance-Medication-Induced-Depressive-Disorder.md) — :octicons-check-16: 已完成
+    - [躯体疾病所致抑郁障碍](../entries/Depressive-Disorder-Due-to-Another-Medical-Condition.md) — :octicons-check-16: 已完成
+    - [其他特定的或未特定的抑郁障碍](../entries/Other-Specified-or-Unspecified-Depressive-Disorder.md) — :octicons-check-16: 已完成
 
 ### 5) 焦虑障碍
 
 ???+ abstract "展开查看"
 
     - [焦虑总览（Anxiety）](../entries/Anxiety-Disorders.md) — :octicons-check-16: 已完成
+    - [分离焦虑障碍（Separation Anxiety Disorder, SAD）](../entries/Separation-Anxiety-Disorder.md) — :octicons-check-16: 已完成
     - [选择性缄默症（Selective Mutism）](../entries/Selective-Mutism.md) — :octicons-check-16: 已完成
     - [特定恐惧症（Specific Phobia）](../entries/Specific-Phobia.md) — :octicons-check-16: 已完成
-    - [社交焦虑障碍（SAD）](../entries/Social-Anxiety-Disorder.md) — :octicons-check-16: 已完成
+    - [社交焦虑障碍（Social Anxiety Disorder, SAD）](../entries/Social-Anxiety-Disorder.md) — :octicons-check-16: 已完成
     - [惊恐障碍（Panic Disorder）](../entries/Panic-Disorder.md) / [惊恐发作（Panic Attack）](../entries/Panic-Attack.md) — :octicons-check-16: 已完成
     - [广场恐惧症（Agoraphobia）](../entries/Agoraphobia.md) — :octicons-check-16: 已完成
     - [广泛性焦虑障碍（GAD）](../entries/Generalized-Anxiety-Disorder-GAD.md) — :octicons-check-16: 已完成
-    - 分离焦虑障碍（Separation Anxiety Disorder）等 — :octicons-clock-16: 待更新
 
 ### 6) 强迫及相关障碍
 
