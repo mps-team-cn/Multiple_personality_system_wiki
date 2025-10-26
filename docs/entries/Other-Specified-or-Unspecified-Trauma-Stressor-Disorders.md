@@ -15,6 +15,7 @@ tags:
 
 title: 其他特定或未特定创伤及应激相关障碍（Other Specified or Unspecified Trauma- and Stressor-Related Disorders）
 topic: 诊断与临床
+description: 创伤应激相关障碍的兜底诊断类别,用于临床显著症状但不符合PTSD、急性应激、适应障碍等特定诊断的完整标准,DSM-5-TR编码309.89或309.9,ICD-11编码6B4Y或6B4Z。
 updated: 2025-10-26
 ---
 

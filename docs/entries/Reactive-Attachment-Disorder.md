@@ -16,6 +16,7 @@ tags:
 
 title: 反应性依恋障碍（Reactive Attachment Disorder, RAD）
 topic: 诊断与临床
+description: 儿童早期因严重忽视或反复更换照护者导致的依恋障碍,表现为对成人持续性情绪退缩、极少寻求或回应安慰,必须在5岁前发病且与明确的照护剥夺史相关,ICD-11编码6B44。
 updated: 2025-10-26
 ---
 

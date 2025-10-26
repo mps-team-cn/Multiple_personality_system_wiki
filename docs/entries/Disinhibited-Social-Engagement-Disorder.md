@@ -16,6 +16,7 @@ tags:
 
 title: 去抑制性社交参与障碍（Disinhibited Social Engagement Disorder, DSED）
 topic: 诊断与临床
+description: 儿童早期因照护剥夺导致的依恋障碍,表现为对陌生成人过度亲密、缺乏正常警惕、愿意随陌生人离开且不加区分地寻求安慰,发育年龄需≥9个月,ICD-11编码6B45。
 updated: 2025-10-26
 ---
 
