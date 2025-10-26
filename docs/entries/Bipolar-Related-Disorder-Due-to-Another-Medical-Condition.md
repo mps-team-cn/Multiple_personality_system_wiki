@@ -98,4 +98,3 @@ ICD-11 使用“继发性心境综合征/躁狂综合征”框架，强调：
 1. American Psychiatric Association. (2022). DSM-5-TR.
 2. World Health Organization. (2023). ICD-11 MMS.
 3. 相关内分泌/神经科共识与综述性文献。
-

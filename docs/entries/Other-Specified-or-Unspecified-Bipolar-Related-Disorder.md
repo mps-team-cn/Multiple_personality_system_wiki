@@ -89,4 +89,3 @@ updated: 2025-10-26
 
 1. American Psychiatric Association. (2022). DSM‑5‑TR.
 2. World Health Organization. (2023). ICD‑11 MMS.
-

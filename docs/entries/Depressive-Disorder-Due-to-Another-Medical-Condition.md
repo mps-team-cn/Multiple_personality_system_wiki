@@ -63,6 +63,7 @@ DSM-5-TR 将其归入抑郁障碍章节，ICD-11 使用"器质性心境障碍"�
 ### 诊断要点
 
 建立因果关系的证据包括：
+
 1. **时间关联**：抑郁症状在躯体疾病发病或恶化期间出现。
 2. **临床表现符合**：症状模式与该疾病已知的精神症状谱一致（如帕金森病常伴抑郁，甲状腺功能低下常伴情绪低落与疲劳）。
 3. **治疗反应**：治疗原发疾病后，抑郁症状随之改善或消失。
@@ -71,6 +72,7 @@ DSM-5-TR 将其归入抑郁障碍章节，ICD-11 使用"器质性心境障碍"�
 ### ICD-11 说明
 
 ICD-11 使用"器质性心境障碍"（Organic mood disorder）的编码，强调：
+
 - 需明确致病躯体疾病类型
 - 症状与疾病的病理生理机制有明确关联
 - 排除原发性心境障碍与适应障碍
@@ -155,9 +157,9 @@ DSM-5-TR 强调因果关系的证据链；ICD-11 侧重疾病类型的明确记�
 ## 鉴别诊断
 
 - **原发性抑郁障碍**（如[重性抑郁障碍（MDD）](Major-Depressive-Disorder-MDD.md)、[持续性抑郁障碍（PDD）](Persistent-Depressive-Disorder-PDD.md)）：症状在躯体疾病发病前已存在，或在疾病控制后仍持续；需详细病史采集与纵向观察。
-- **适应障碍**（[Adjustment Disorders](Adjustment-Disorders.md)）：抑郁症状是对慢性疾病诊断或功能限制的心理反应，而非疾病的直接生理作用；症状强度较轻，持续时间较短。
-- **物质/药物所致抑郁障碍**（[Substance/Medication-Induced Depressive Disorder](Substance-Medication-Induced-Depressive-Disorder.md)）：抑郁症状由治疗慢性疾病的药物（如皮质类固醇、干扰素、β受体阻滞剂）导致；需仔细评估药物使用时间与症状关联。
-- **谵妄**（[Delirium](Delirium.md)）：以意识水平波动、注意力障碍与定向力受损为核心；抑郁症状是谵妄的附加表现而非主导。
+- **适应障碍**([Adjustment Disorders](Adjustment-Disorders.md))：抑郁症状是对慢性疾病诊断或功能限制的心理反应，而非疾病的直接生理作用；症状强度较轻，持续时间较短。
+- **物质/药物所致抑郁障碍**([Substance/Medication-Induced Depressive Disorder](Substance-Medication-Induced-Depressive-Disorder.md))：抑郁症状由治疗慢性疾病的药物（如皮质类固醇、干扰素、β受体阻滞剂）导致；需仔细评估药物使用时间与症状关联。
+- **谵妄**([Delirium](Delirium.md))：以意识水平波动、注意力障碍与定向力受损为核心；抑郁症状是谵妄的附加表现而非主导。
 - **其他精神障碍**：焦虑障碍、创伤后应激障碍、解离障碍等可能与慢性疾病共存，需综合评估。
 
 ---

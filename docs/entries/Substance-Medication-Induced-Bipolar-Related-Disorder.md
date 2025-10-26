@@ -98,4 +98,3 @@ ICD-11 以“物质诱发心境障碍/躁狂综合征”框架编码，要求：
 1. American Psychiatric Association. (2022). DSM-5-TR.
 2. World Health Organization. (2023). ICD-11 MMS.
 3. NIMH/NIDA 物质与心境症状的临床指引与患者教育资源。
-
