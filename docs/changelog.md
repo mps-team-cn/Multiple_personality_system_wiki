@@ -7,6 +7,50 @@ search:
 
 # 更新日志
 
+## [v3.18.1](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.18.1) - 词条扩充与工具优化 (2025-10-26)
+
+### ✨ 新增功能
+
+- **PDF 导出工具优化** (PR #387)
+    - 为 PDF 导出工具添加精简版功能
+    - 优化导出体验
+
+### 📚 词条完善
+
+- **创伤及应激相关障碍扩充** (PR #392)
+    - 新增创伤及应激相关障碍词条
+    - 更新相关导览
+    - 补充 description 字段
+
+- **新增八个词条** (PR #391)
+    - 新增八个词条并更新指南映射
+    - 完善词条体系
+
+- **记忆与情绪障碍**
+    - **新增 [记忆回退](entries/Memory-Regression.md) 词条** (PR #389)
+    - **新增 [MDE](entries/MDE.md) 词条与导航** (PR #390)
+
+- **实践指南更新**
+    - 更新 Tulpa-Guide-0.md 内容
+
+### 🎨 样式改进
+
+- 修复 logo 显示问题
+
+### 🔧 维护更新
+
+- 自动更新词条、分区索引与格式
+- 持续优化文档结构
+
+### 📊 影响范围
+
+- 新增 10+ 个词条
+- 优化 PDF 导出工具
+- 完善创伤及应激障碍主题
+- 自动化维护多次执行
+
+---
+
 ## [v3.18.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.18.0) - 临床词条体系化重构与交互功能增强 (2025-10-22)
 
 ### ✨ 新增功能
