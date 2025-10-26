@@ -187,8 +187,8 @@ updated: 2025-10-26
 - **核心共病**
     - 其他焦虑障碍：约 50% SAD 患者共病其他焦虑障碍（如 [广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md)、[社交焦虑障碍](Social-Anxiety-Disorder.md)、[特定恐惧症](Specific-Phobia.md)）。
     - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)：长期分离焦虑可能导致抑郁情绪、兴趣丧失。
-    - [注意缺陷/多动障碍（ADHD）](ADHD.md)：儿童 SAD 与 ADHD 高度共病。
-    - [破坏性心境失调障碍（DMDD）](DMDD.md)：儿童可能因分离焦虑而出现易激惹与愤怒爆发。
+    - [注意缺陷/多动障碍（ADHD）](Attention-Deficit-Hyperactivity-Disorder-ADHD.md)：儿童 SAD 与 ADHD 高度共病。
+    - [破坏性心境失调障碍（DMDD）](Disruptive-Mood-Dysregulation-Disorder.md)：儿童可能因分离焦虑而出现易激惹与愤怒爆发。
 - **其他常见共病**
     - [创伤后应激障碍（PTSD）](PTSD.md) / [复杂性 PTSD（CPTSD）](CPTSD.md)：创伤幸存者常同时经历分离焦虑与创伤症状。
     - [解离性身份障碍（DID）](DID.md)：系统内部依附模式差异或成员间分离可能加剧焦虑症状。
