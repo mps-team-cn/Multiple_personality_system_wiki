@@ -106,6 +106,15 @@ search:
   [躯体形式解离问卷（SDQ‑20）](../entries/Somatoform-Dissociation-Questionnaire-SDQ-20.md) — :octicons-check-16: 已完成
   在线交互式自评（不存储数据），评估躯体解离症状的严重程度，包括感觉异常、运动障碍、知觉变化等，含 SDQ-5 简化版，适合识别身体感知解离症状。
 
+  [症状自评量表修订版（SCL-90-R）](../entries/Symptom-Checklist-90-SCL-90.md) — :octicons-check-16: 已完成
+  在线交互式自评（不存储数据），采用0-4分评分系统，评估躯体化、强迫、人际敏感、抑郁、焦虑、敌对、恐怖、偏执和精神病性等九个症状维度，适合心理症状全面筛查与评估。
+
+  [焦虑自评量表（SAS）](../entries/Self-Rating-Anxiety-Scale-SAS.md) — :octicons-check-16: 已完成
+  在线交互式自评（不存储数据），20题自评量表，评估焦虑症状的严重程度，自动计算粗分和标准分（粗分×1.25），适合焦虑症状的初步筛查与治疗监测。
+
+  [抑郁自评量表（SDS）](../entries/Self-Rating-Depression-Scale-SDS.md) — :octicons-check-16: 已完成
+  在线交互式自评（不存储数据），20题自评量表，评估抑郁症状的严重程度，自动计算粗分和标准分（粗分×1.25），适合抑郁症状的初步筛查与治疗效果评估。
+
 ---
 
 ## DSM-5-TR 诊断分类体系

@@ -161,6 +161,8 @@ extra_css:
   - assets/mid60.css
   - assets/scl90.css
   - assets/sdq20.css
+  - assets/sds.css
+  - assets/sas.css
 
 extra_javascript:
   - assets/extra.js
@@ -171,6 +173,8 @@ extra_javascript:
   - assets/mid60.js
   - assets/scl90.js
   - assets/sdq20.js
+  - assets/sds.js
+  - assets/sas.js
 
 
 # Markdown 扩展
