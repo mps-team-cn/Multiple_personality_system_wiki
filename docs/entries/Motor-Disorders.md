@@ -9,7 +9,7 @@ synonyms:
 
 description: 运动障碍是一类神经发育障碍，特征是运动技能发展延迟或不协调，包括发育协调障碍、刻板运动障碍和抽动障碍等。
 tags:
-- dx:运动障碍（Motor Disorders）
+- dx:运动障碍
 - theory:运动发育
 - guide:诊断与临床
 
