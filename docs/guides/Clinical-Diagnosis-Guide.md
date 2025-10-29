@@ -121,7 +121,10 @@ search:
     - [孤独症谱系障碍（ASD）](../entries/Autism-Spectrum-Disorder.md) — :octicons-check-16: 已完成
     - [注意缺陷多动障碍（ADHD）](../entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md) — :octicons-check-16: 已完成
     - [特定学习障碍（Specific Learning Disorder）](../entries/Specific-Learning-Disorder.md) — :octicons-check-16: 已完成
-    - 运动障碍（Motor Disorders）等 — :octicons-clock-16: 待更新
+    - [运动障碍（Motor Disorders）](../entries/Motor-Disorders.md) — :octicons-check-16: 已完成
+    - [发育协调障碍（Developmental Coordination Disorder）](../entries/Developmental-Coordination-Disorder.md) — :octicons-check-16: 已完成
+    - [刻板运动障碍（Stereotypic Movement Disorder）](../entries/Stereotypic-Movement-Disorder.md) — :octicons-check-16: 已完成
+    - [抽动障碍（Tic Disorders）](../entries/Tic-Disorders.md) — :octicons-check-16: 已完成
 
 ### 2) 精神分裂症谱系及其他精神病性障碍
 

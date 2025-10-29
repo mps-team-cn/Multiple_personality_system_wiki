@@ -36,10 +36,10 @@ comments: true
 - [x] Autism-Spectrum-Disorder.md
 - [x] Attention-Deficit-Hyperactivity-Disorder-ADHD.md
 - [x] Specific-Learning-Disorder.md
-- [ ] Motor-Disorders.md
-    - [ ] Developmental-Coordination-Disorder.md
-    - [ ] Stereotypic-Movement-Disorder.md
-    - [ ] Tic-Disorders.md
+- [x] Motor-Disorders.md
+    - [x] Developmental-Coordination-Disorder.md
+    - [x] Stereotypic-Movement-Disorder.md
+    - [x] Tic-Disorders.md
 
 ## 2. 精神分裂症谱系及其他精神病性障碍（Schizophrenia Spectrum and Other Psychotic Disorders）
 
