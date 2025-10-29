@@ -1,0 +1,463 @@
+/* SAS 焦虑自评量表样式(基于 MID-60 设计) */
+.sas-app {
+  margin: 0.5rem 0 1.25rem 0;
+}
+
+.sas-meta {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: .5rem 1rem;
+  align-items: center;
+  margin: .25rem 0 1rem 0;
+}
+
+.sas-actions {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+}
+
+/* 操作区按钮统一样式（与 MID-60 一致） */
+.sas-actions .md-button {
+  border-radius: .6rem;
+  padding: .55rem .95rem;
+  font-weight: 600;
+  line-height: 1.1;
+  border: 1px solid transparent;
+  transition: transform .08s ease, box-shadow .12s ease, background-color .15s ease, color .15s ease;
+  box-shadow: 0 1px 2px rgba(0,0,0,.06);
+}
+
+/* 主要操作：导出 */
+.sas-actions #sas-export,
+.sas-actions .md-button--primary {
+  background: linear-gradient(180deg,
+      color-mix(in srgb, var(--md-primary-fg-color) 88%, transparent),
+      var(--md-primary-fg-color));
+  color: #fff;
+}
+.sas-actions #sas-export:hover,
+.sas-actions .md-button--primary:hover {
+  filter: brightness(1.05);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,.12);
+}
+.sas-actions #sas-export:active,
+.sas-actions .md-button--primary:active {
+  transform: translateY(0);
+  filter: brightness(.98);
+}
+
+/* 次要操作：重置（描边按钮） */
+.sas-actions #sas-reset {
+  background: transparent;
+  color: var(--md-primary-fg-color);
+  border-color: color-mix(in srgb, var(--md-primary-fg-color) 65%, transparent);
+}
+.sas-actions #sas-reset:hover {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 10%, transparent);
+}
+.sas-actions #sas-reset:active {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 14%, transparent);
+}
+
+/* 键盘可访问性 */
+.sas-actions .md-button:focus-visible {
+  outline: 0;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-primary-fg-color) 24%, transparent);
+}
+
+/* 表格样式 */
+.sas-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 .6rem;
+  table-layout: auto;
+}
+
+.sas-item td {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 5%, transparent);
+  padding: .55rem .6rem;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+[data-md-color-scheme="slate"] .sas-item td {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 12%, #1b2331);
+}
+
+.sas-item td:first-child { border-radius: .6rem 0 0 .6rem; }
+.sas-item td:last-child { border-radius: 0 .6rem .6rem 0; }
+
+.sas-item .no {
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+}
+
+.sas-item label {
+  margin: 0;
+}
+
+/* 下拉菜单控制区 */
+.sas-ctrl {
+  display: grid;
+  grid-template-columns: minmax(12rem, 1fr) auto;
+  align-items: center;
+  column-gap: .5rem;
+  row-gap: .25rem;
+  font-size: 0;
+}
+
+/* 自定义下拉菜单样式 */
+.sas-ctrl select {
+  width: 100%;
+  min-width: 12rem;
+  padding: .6rem .8rem;
+  border: 2px solid color-mix(in srgb, var(--md-default-fg-color) 18%, transparent);
+  border-radius: .6rem;
+  background: color-mix(in srgb, var(--md-default-bg-color) 95%, transparent);
+  color: var(--md-default-fg-color);
+  font-size: .88rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color .15s ease, box-shadow .15s ease, background-color .15s ease;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23667' d='M2 4l4 4 4-4z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right .8rem center;
+  background-size: 1.2rem;
+  padding-right: 2.5rem;
+}
+
+.sas-ctrl select:hover {
+  border-color: color-mix(in srgb, var(--md-primary-fg-color) 40%, transparent);
+}
+
+.sas-ctrl select:focus {
+  outline: none;
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-primary-fg-color) 15%, transparent);
+}
+
+[data-md-color-scheme="slate"] .sas-ctrl select {
+  background: color-mix(in srgb, var(--md-default-bg-color) 95%, #1b2331);
+  border-color: color-mix(in srgb, var(--md-default-fg-color) 25%, transparent);
+}
+
+/* 选项样式优化 */
+.sas-ctrl select option {
+  padding: .5rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+/* 分数显示徽标 */
+.sas-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .25rem;
+  font-variant-numeric: tabular-nums;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 10%, transparent);
+  color: var(--md-primary-fg-color);
+  padding: .15rem .5rem;
+  border-radius: .5rem;
+  width: 4.8rem;
+  justify-content: center;
+  font-size: .95rem;
+}
+
+/* SAS 使用分数显示 */
+.sas-badge::after {
+  content: '分';
+  margin-left: .15rem;
+  opacity: .9;
+}
+
+/* 结果区域 */
+.sas-results {
+  margin-top: 1rem;
+  display: grid;
+  gap: .8rem;
+  position: relative;
+}
+
+/* 进度条 */
+.sas-progress {
+  height: .8rem;
+  border-radius: .6rem;
+  background: color-mix(in srgb, var(--md-default-fg-color) 8%, transparent);
+  overflow: hidden;
+}
+
+.sas-progress > .bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #4fc08d, #3fb489);
+  transition: width .2s ease;
+}
+
+/* 导出图片水印 */
+.sas-watermark {
+  position: absolute;
+  right: .6rem;
+  bottom: .6rem;
+  padding: .15rem .45rem;
+  border-radius: .4rem;
+  font-size: .8rem;
+  line-height: 1.2;
+  color: color-mix(in srgb, var(--md-default-fg-color) 85%, transparent);
+  background: color-mix(in srgb, var(--md-default-fg-color) 8%, transparent);
+  backdrop-filter: blur(2px);
+  opacity: .85;
+  pointer-events: none;
+  user-select: none;
+  z-index: 2;
+}
+
+/* 结果卡片 */
+.sas-score-card {
+  border-radius: .6rem;
+  padding: .8rem 1rem;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 5%, transparent);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 1rem;
+}
+
+[data-md-color-scheme="slate"] .sas-score-card {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 12%, #1b2331);
+}
+
+.sas-score-label {
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+}
+
+.sas-score-value {
+  font-variant-numeric: tabular-nums;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+}
+
+/* 焦虑程度指示器 */
+.sas-anxiety {
+  margin-top: .5rem;
+  padding: .6rem .8rem;
+  border-radius: .5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.sas-anxiety.normal {
+  background: color-mix(in srgb, #4fc08d 15%, transparent);
+  color: #2e7d4e;
+}
+
+.sas-anxiety.mild {
+  background: color-mix(in srgb, #81c784 15%, transparent);
+  color: #388e3c;
+}
+
+.sas-anxiety.moderate {
+  background: color-mix(in srgb, #ffb74d 15%, transparent);
+  color: #f57c00;
+}
+
+.sas-anxiety.severe {
+  background: color-mix(in srgb, #e57373 15%, transparent);
+  color: #d32f2f;
+}
+
+.sas-anxiety.extreme {
+  background: color-mix(in srgb, #f44336 18%, transparent);
+  color: #c62828;
+}
+
+/* SAS 特有的子量表分析 */
+.sas-subscale-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: .6rem;
+  margin-top: 1rem;
+}
+
+.sas-subscale-card {
+  border-radius: .6rem;
+  padding: .7rem .8rem;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 5%, transparent);
+}
+
+[data-md-color-scheme="slate"] .sas-subscale-card {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 12%, #1b2331);
+}
+
+.sas-subscale-title {
+  font-weight: 600;
+  margin-bottom: .4rem;
+  color: var(--md-primary-fg-color);
+  font-size: .95rem;
+}
+
+.sas-subscale-score {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: .3rem;
+}
+
+.sas-subscale-value {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.sas-subscale-bar {
+  height: .4rem;
+  border-radius: .3rem;
+  background: color-mix(in srgb, var(--md-default-fg-color) 10%, transparent);
+  overflow: hidden;
+  margin-top: .3rem;
+}
+
+.sas-subscale-bar > .fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4fc08d, #3fb489);
+  transition: width .2s ease;
+}
+
+/* 说明文字 */
+.sas-note {
+  font-size: .85rem;
+  opacity: .85;
+  margin-top: .8rem;
+  padding: .6rem .8rem;
+  background: color-mix(in srgb, var(--md-default-fg-color) 5%, transparent);
+  border-radius: .5rem;
+  border-left: 3px solid var(--md-primary-fg-color);
+}
+
+.sas-hint {
+  font-size: .8rem;
+  opacity: .75;
+  margin-top: .5rem;
+}
+
+.sas-divider {
+  height: 1px;
+  background: color-mix(in srgb, var(--md-default-fg-color) 12%, transparent);
+  margin: .8rem 0;
+}
+
+/* 响应式(手机端) */
+@media (max-width: 760px) {
+  .sas-table {
+    table-layout: auto;
+    border-spacing: 0 .5rem;
+  }
+
+  .sas-item td {
+    padding: .5rem .5rem;
+  }
+
+  .sas-item td:first-child { width: 1.6rem; }
+  .sas-item td:last-child { width: clamp(8.5rem, 38vw, 12rem); }
+  .sas-table colgroup col:first-child { width: 1.6rem !important; }
+  .sas-table colgroup col:last-child { width: clamp(8.5rem, 38vw, 12rem) !important; }
+
+  .sas-ctrl {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: .4rem .5rem;
+  }
+
+  .sas-ctrl select {
+    width: 100%;
+    min-width: 7rem;
+    padding: .5rem .7rem;
+    padding-right: 2.2rem;
+    font-size: .9rem;
+  }
+
+  .sas-badge {
+    width: 4.8rem;
+    padding: .1rem .35rem;
+    font-size: .9rem;
+  }
+
+  .sas-item td:nth-child(2) {
+    word-break: break-word;
+    white-space: normal;
+    line-height: 1.5;
+  }
+
+  .sas-subscale-grid { grid-template-columns: 1fr; }
+}
+
+/* 更窄屏优化 */
+@media (max-width: 600px) {
+  .sas-table tbody { counter-reset: sas; }
+  .sas-table thead { display: none; }
+  .sas-table { border-spacing: 0 .85rem; width: 100% !important; }
+  .sas-table colgroup, .sas-table colgroup col { display: none !important; width: auto !important; }
+  .sas-table tr.sas-item { display: block; }
+  .sas-table td { display: block; width: 100% !important; }
+
+  .sas-item { margin: 0 0 .85rem 0; }
+  .sas-item td { border-radius: 0; padding: .6rem .6rem; }
+  .sas-item td:first-child { display: none !important; }
+
+  .sas-item td:nth-child(2) {
+    position: relative;
+    padding-left: 2.8rem;
+    border-radius: .6rem .6rem 0 0;
+  }
+  .sas-item td:nth-child(2)::before {
+    counter-increment: sas;
+    content: counter(sas);
+    position: absolute;
+    top: .55rem;
+    left: .6rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.6rem;
+    min-width: 1.6rem;
+    height: 1.3rem;
+    padding: 0 .25rem;
+    border-radius: .4rem;
+    background: color-mix(in srgb, var(--md-primary-fg-color) 16%, transparent);
+    color: var(--md-primary-fg-color);
+    font-weight: 700;
+    line-height: 1;
+    box-shadow: 0 1px 2px rgba(0,0,0,.08);
+  }
+
+  .sas-item td:last-child {
+    border-top: 1px solid color-mix(in srgb, var(--md-default-fg-color) 12%, transparent);
+    border-radius: 0 0 .6rem .6rem;
+    width: 100% !important;
+    padding-top: .7rem;
+  }
+
+  .sas-ctrl {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: .45rem .5rem;
+    align-items: center;
+  }
+
+  .sas-ctrl select {
+    width: 100%;
+    min-width: 0;
+    padding-right: 2.2rem;
+  }
+
+  .sas-badge {
+    width: 4.8rem;
+    justify-self: end;
+    align-self: center;
+  }
+}
