@@ -189,6 +189,7 @@ ICD‑11 更强调症状的 **伪装性质** 和 **医疗寻求行为** 的模�
 ### 评估量表
 
 虽然缺乏特异性量表，但以下工具有助于评估：
+
 - **明尼苏达多相人格问卷（MMPI-2）**：识别夸大或异常反应模式（注：虚假反应量表仅供参考，不用于诊断目的）
 - **疾病行为问卷**：评估疾病相关行为模式
 - **人格评估工具**：识别共病人格障碍
@@ -238,6 +239,7 @@ ICD‑11 更强调症状的 **伪装性质** 和 **医疗寻求行为** 的模�
 
 !!! tip "创伤知情视角"
     在治疗过程中，应采用创伤知情的方法：
+
     - 理解患者行为可能是应对早期创伤的适应策略
     - 避免强化羞耻感与对抗策略
     - 关注疾病角色背后的心理需求
@@ -337,8 +339,8 @@ ICD‑11 更强调症状的 **伪装性质** 和 **医疗寻求行为** 的模�
 
 ## 参考与延伸阅读
 
-1. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). https://doi.org/10.1176/appi.books.9780890425787
-2. World Health Organization. (2019). *ICD-11 for Mortality and Morbidity Statistics*. https://icd.who.int/
-3. Yates, G. P., & Feldman, M. D. (2016). Factitious disorder: A systematic review of 455 cases in the professional literature. *General Hospital Psychiatry*, 41, 20-28. https://doi.org/10.1016/j.genhosppsych.2016.03.005
-4. Eastwood, S., & Bisson, J. I. (2008). Management of factitious disorders: a systematic review. *Psychotherapy and Psychosomatics*, 77(4), 209-218. https://doi.org/10.1159/000135937
-5. Fliege, H., et al. (2014). The association of childhood trauma and personality disorders with factitious disorder–A systematic review. *Psychosomatics*, 55(6), 552-562. https://doi.org/10.1016/j.psym.2014.05.007
+1. American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). [https://doi.org/10.1176/appi.books.9780890425787](https://doi.org/10.1176/appi.books.9780890425787)
+2. World Health Organization. (2019). *ICD-11 for Mortality and Morbidity Statistics*. [https://icd.who.int/](https://icd.who.int/)
+3. Yates, G. P., & Feldman, M. D. (2016). Factitious disorder: A systematic review of 455 cases in the professional literature. *General Hospital Psychiatry*, 41, 20-28. [https://doi.org/10.1016/j.genhosppsych.2016.03.005](https://doi.org/10.1016/j.genhosppsych.2016.03.005)
+4. Eastwood, S., & Bisson, J. I. (2008). Management of factitious disorders: a systematic review. *Psychotherapy and Psychosomatics*, 77(4), 209-218. [https://doi.org/10.1159/000135937](https://doi.org/10.1159/000135937)
+5. Fliege, H., et al. (2014). The association of childhood trauma and personality disorders with factitious disorder–A systematic review. *Psychosomatics*, 55(6), 552-562. [https://doi.org/10.1016/j.psym.2014.05.007](https://doi.org/10.1016/j.psym.2014.05.007)
