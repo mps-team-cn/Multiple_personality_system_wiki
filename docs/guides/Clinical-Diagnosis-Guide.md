@@ -103,6 +103,15 @@ search:
   [多维解离量表（MID‑60）](../entries/Multidimensional-Inventory-of-Dissociation-MID-60.md) — :octicons-check-16: 已完成
   在线交互式自评（不存储数据），提供 12 个解离子量表的详细评估，包括 DID、OSDD-1、DP/DR、解离性失忆、PTSD、转换障碍等维度，适合多维度筛查与症状模式分析。
 
+  [抑郁自评量表（SDS）](../entries/Self-Rating-Depression-Scale-SDS.md) — :octicons-check-16: 已完成
+  Zung经典抑郁自评工具，含20项症状评估，通过交互式界面自动计算粗分与标准分，适用于成人抑郁症状的初步筛查。
+
+  [焦虑自评量表（SAS）](../entries/Self-Rating-Anxiety-Scale-SAS.md) — :octicons-check-16: 已完成
+  Zung焦虑自评量表，评估心理情绪与躯体焦虑症状，交互式界面提供标准化评分与可视化结果，适合焦虑症状快速筛查。
+
+  [症状自评量表-90（SCL-90）](../entries/Symptom-Checklist-90-SCL-90.md) — :octicons-check-16: 已完成
+  90项症状自评工具，涵盖9个症状维度（躯体化、强迫、人际关系敏感、抑郁、焦虑、敌对、恐怖、偏执、精神病性），提供全面的心理健康状况筛查。
+
   [躯体形式解离问卷（SDQ‑20）](../entries/Somatoform-Dissociation-Questionnaire-SDQ-20.md) — :octicons-check-16: 已完成
   在线交互式自评（不存储数据），评估躯体解离症状的严重程度，包括感觉异常、运动障碍、知觉变化等，含 SDQ-5 简化版，适合识别身体感知解离症状。
 
