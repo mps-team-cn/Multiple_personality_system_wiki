@@ -9,8 +9,8 @@ synonyms:
 
 tags:
   - guide:诊断与临床
-  - dx:躯体症状障碍(SSR)
-  - dx:其他特定躯体症状障碍(OSDD-SR)
+  - dx:躯体症状及相关障碍
+  - dx:其他特定躯体症状障碍
 
 title: 其他特定或未特定的躯体症状及相关障碍（Other Specified or Unspecified Somatic Symptom and Related Disorders）
 topic: 诊断与临床
