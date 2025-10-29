@@ -226,7 +226,8 @@ search:
     - [慢性疼痛（Chronic Pain）](../entries/Chronic-Pain.md) — :octicons-check-16: 已完成
     - [疾病焦虑障碍（IAD）](../entries/Illness-Anxiety-Disorder.md) — :octicons-check-16: 已完成
     - [影响其他躯体疾病的心理因素（PFAOMC）](../entries/Psychological-Factors-Affecting-Other-Medical-Conditions.md) — :octicons-check-16: 已完成
-    - 做作性障碍（Factitious Disorder）等 — :octicons-clock-16: 待更新
+    - [做作性障碍（Factitious Disorder）](../entries/Factitious-Disorder.md) — :octicons-check-16: 已完成
+    - [其他特定或未特定的躯体症状及相关障碍](../entries/Other-Specified-or-Unspecified-Somatic-Symptom-Related-Disorders.md) — :octicons-check-16: 已完成
 
 ### 10) 喂养与进食障碍
 
