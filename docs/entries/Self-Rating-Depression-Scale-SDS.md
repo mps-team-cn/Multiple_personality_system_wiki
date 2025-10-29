@@ -565,8 +565,8 @@ SDS 主要用于：
 - [焦虑自评量表（SAS）](Self-Rating-Anxiety-Scale-SAS.md)
 - [症状自评量表修订版（SCL-90-R）](Symptom-Checklist-90-SCL-90.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
-- [重性抑郁障碍（MDD）](Major-Depressive-Disorder.md)
-- [持续性抑郁障碍（PDD）](Persistent-Depressive-Disorder.md)
+- [重性抑郁障碍（MDD）](Major-Depressive-Disorder-MDD.md)
+- [持续性抑郁障碍（PDD）](Persistent-Depressive-Disorder-PDD.md)
 
 ## 外部链接
 

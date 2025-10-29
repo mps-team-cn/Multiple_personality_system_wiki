@@ -581,7 +581,7 @@ SAS 主要用于：
 - [症状自评量表修订版（SCL-90-R）](Symptom-Checklist-90-SCL-90.md)
 - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [惊恐障碍（Panic Disorder）](Panic-Disorder.md)
-- [广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder.md)
+- [广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md)
 
 ## 外部链接
 
