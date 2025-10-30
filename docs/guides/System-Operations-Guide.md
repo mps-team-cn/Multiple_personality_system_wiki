@@ -74,6 +74,7 @@ search:
 - 🧸 [退行（Regression）](../entries/Regression.md)：区分年龄退行与儿童人格的功能。
 - 💭 [侵入性思维](../entries/Intrusive-Thoughts.md)：应对突发的念头、影像或语句；区分侵入性记忆与闪回。
 - 🧠 [侵入性记忆](../entries/Intrusive-Memory.md)：创伤相关的记忆闯入，区分与闪回、思维。
+- ⚠️ [灾难预演（Disaster Rehearsal）](../entries/Disaster-Rehearsal.md)：未来导向的灾难性意象；比较闪回、侵入性思维并提供快速区分表。
 - 🎯 [过度专注（Hyperfocus）](../entries/Hyperfocus.md)：注意“黏附”与抽离困难；区分心流与解离，提供切换策略。
 - 🧊 [心流（Flow）](../entries/Flow.md)：主动、适配且可控的最佳专注体验；与过度专注、解离区分。
 - 🥴 [醉酒解离](../entries/Alcohol-Induced-Dissociation.md)：似醉非饮的主观体验与稳定策略。

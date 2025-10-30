@@ -52,6 +52,7 @@ updated: 2025-10-22
     - 与一般侵入性思维：闪回具有多模态感知（视觉、听觉、嗅觉、触觉）与沉浸感，超越单纯"想起"
     - 与解离：闪回是记忆"过度激活"，解离是意识"整合中断"；可共存但机制不同
     - 与幻觉：闪回与创伤线索相关、事后可识别为记忆，精神病性幻觉缺乏此模式且伴现实检验受损
+    - 与灾难预演：灾难预演面向未来、模拟最坏结果，现实定向通常保留；详见[灾难预演（Disaster Rehearsal）](Disaster-Rehearsal.md)
 
     **治疗原则**：**阶段一**（稳定）：接地技巧、触发管理、安全环境 → **阶段二**（创伤加工）：TF-CBT、PE、EMDR（需充分稳定） → **阶段三**（整合）：功能恢复、预防复发
 
@@ -658,6 +659,7 @@ updated: 2025-10-22
 
 - [触发（Trigger）](Trigger.md)
 - [情绪调节（Emotion Regulation）](Emotion-Regulation.md)
+- [灾难预演（Disaster Rehearsal）](Disaster-Rehearsal.md)
 
 ---
 
