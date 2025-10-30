@@ -4,29 +4,33 @@ description: 灾难预演指在高度焦虑或创伤警觉下，脑中自动上�
 search:
   boost: 1.3
 synonyms:
-  - 灾难预演
-  - 灾难性预演
-  - 未来侵入性意象
-  - flashforward imagery
-  - catastrophic rehearsal
-  - future-oriented intrusive imagery
-  - zai'nan yuyan
-  - zai'nan yuyan yi'xiang
-  - flashforward intrusions
-  - prospective intrusive imagery
-  - future flashforward
-  - 灾难预演画面
-  - 灾难预演影像
-  - 灾难预演意象
-  - 灾难预演体验
+
+    - 灾难预演
+    - 灾难性预演
+    - 未来侵入性意象
+    - flashforward imagery
+    - catastrophic rehearsal
+    - future-oriented intrusive imagery
+    - zai'nan yuyan
+    - zai'nan yuyan yi'xiang
+    - flashforward intrusions
+    - prospective intrusive imagery
+    - future flashforward
+    - 灾难预演画面
+    - 灾难预演影像
+    - 灾难预演意象
+    - 灾难预演体验
+
 tags:
-  - sx:系统运作
-  - sx:创伤症状
-  - dx:创伤后应激障碍
-  - dx:焦虑障碍
+
+    - sx:系统运作
+    - sx:创伤症状
+    - dx:创伤后应激障碍
+    - dx:焦虑障碍
+
 title: 灾难预演（Disaster Rehearsal / Flashforward Imagery）
 topic: 系统运作
-updated: 2025-10-29
+updated: 2025-10-30
 ---
 
 # 灾难预演（Disaster Rehearsal / Flashforward Imagery）
@@ -80,6 +84,7 @@ updated: 2025-10-29
 | [**侵入性思维**](Intrusive-Thoughts.md) | 未来或当下 | 突兀的不受欢迎想法/片段，可伴图像或语句 | 注意偏向、价值冲突、强迫循环 | 现实定向大多完整，内容多为语言或短图像 | “不想想到它” | [侵入性思维](Intrusive-Thoughts.md) |
 
 !!! tip "实践建议"
+
     - **区分目的**：辨识类别有助于选择合适的接地、认知重构或暴露策略。
     - **可共存**：灾难预演可与闪回或侵入性思维交替出现，需综合评估安全计划。
 
@@ -113,6 +118,7 @@ updated: 2025-10-29
 5. **系统内部沟通**：如为多意识体系统，明确“哪位成员负责风险评估、哪位负责安抚”，避免集体灾难预演。
 
 !!! warning "何时寻求专业协助"
+
     - 影像频率/强度不断提升
     - 影响睡眠、工作与人际功能
     - 伴随自伤或他伤冲动
@@ -152,14 +158,14 @@ updated: 2025-10-29
 
 ## 参考文献
 
-[^hirsch2007]: Hirsch, C. R., & Holmes, E. A. (2007). Mental imagery in anxiety disorders. *Journal of Behavior Therapy and Experimental Psychiatry*, 38(4), 405–413. https://doi.org/10.1016/j.jbtep.2007.08.001
+[^hirsch2007]: Hirsch, C. R., & Holmes, E. A. (2007). Mental imagery in anxiety disorders. *Journal of Behavior Therapy and Experimental Psychiatry*, 38(4), 405–413. [https://doi.org/10.1016/j.jbtep.2007.08.001](https://doi.org/10.1016/j.jbtep.2007.08.001)
 
-[^holmes2009]: Holmes, E. A., Mathews, A., Dalgleish, T., & Mackintosh, B. (2009). Positive interpretation training: Effects of mental imagery versus verbal training on anticipated future events in anxiety. *Behaviour Research and Therapy*, 47(3), 237–244. https://doi.org/10.1016/j.brat.2008.12.005
+[^holmes2009]: Holmes, E. A., Mathews, A., Dalgleish, T., & Mackintosh, B. (2009). Positive interpretation training: Effects of mental imagery versus verbal training on anticipated future events in anxiety. *Behaviour Research and Therapy*, 47(3), 237–244. [https://doi.org/10.1016/j.brat.2008.12.005](https://doi.org/10.1016/j.brat.2008.12.005)
 
-[^valli2011]: Valli, K., & Revonsuo, A. (2011). Dreaming and consciousness: Testing the threat simulation theory of the function of dreaming. *Consciousness and Cognition*, 20(4), 995–1007. https://doi.org/10.1016/j.concog.2010.12.003
+[^valli2011]: Valli, K., & Revonsuo, A. (2011). Dreaming and consciousness: Testing the threat simulation theory of the function of dreaming. *Consciousness and Cognition*, 20(4), 995–1007. [https://doi.org/10.1016/j.concog.2010.12.003](https://doi.org/10.1016/j.concog.2010.12.003)
 
 [^clark2011]: Clark, D. A., & Beck, A. T. (2011). Cognitive therapy of anxiety disorders: Science and practice. Guilford Press.
 
-[^arnzt2013]: Arntz, A. (2013). Imagery rescripting for personality disorders. *Cognitive and Behavioral Practice*, 20(3), 266–281. https://doi.org/10.1016/j.cbpra.2013.04.006
+[^arnzt2013]: Arntz, A. (2013). Imagery rescripting for personality disorders. *Cognitive and Behavioral Practice*, 20(3), 266–281. [https://doi.org/10.1016/j.cbpra.2013.04.006](https://doi.org/10.1016/j.cbpra.2013.04.006)
 
 [^hayes2012]: Hayes, S. C., Strosahl, K. D., & Wilson, K. G. (2012). *Acceptance and Commitment Therapy: The Process and Practice of Mindful Change* (2nd ed.). Guilford Press.

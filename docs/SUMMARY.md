@@ -189,6 +189,7 @@
         * [权限(Permissions)](entries/Permissions.md)
         * [混合型系统（Mixed Systems, Xianyu Theory）](entries/Mixed-Systems-Xianyu.md)
         * [混合（Blending）](entries/Blending.md)
+        * [灾难预演（Disaster Rehearsal / Flashforward Imagery）](entries/Disaster-Rehearsal.md)
         * [独有记忆（Exomemory）](entries/Exomemory.md)
         * [独立性（Independence）](entries/Independence.md)
         * [神经多样性（Neurodiversity）](entries/Neurodiversity.md)

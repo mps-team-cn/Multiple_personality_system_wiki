@@ -22,7 +22,7 @@ tags:
 
 title: 闪回（Flashback）
 topic: 诊断与临床
-updated: 2025-10-22
+updated: 2025-10-30
 ---
 
 # 闪回（Flashback）
