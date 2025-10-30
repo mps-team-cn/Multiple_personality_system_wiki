@@ -1,19 +1,21 @@
 ---
 comments: true
 synonyms:
-  - 情境性焦虑
-  - Situational Anxiety
-  - 情境焦虑
-  - jingjingxing jiaolv
+
+    - 情境性焦虑
+    - Situational Anxiety
+    - 情境焦虑
+    - jingjingxing jiaolv
 
 tags:
-  - dx:焦虑障碍
-  - guide:诊断与临床
+
+    - dx:焦虑障碍
+    - guide:诊断与临床
 
 title: 情境性焦虑(Situational Anxiety)
 topic: 诊断与临床
 description: 情境性焦虑指在特定情境中出现的短期强烈焦虑,常与公共演讲、医学检查或权威评估相关。条目解析触发机制、多意识体系统常见诱因、评估要点与多层支持策略,协助制定安全管理计划。
-updated: 2025-10-20
+updated: 2025-10-30
 ---
 
 # 情境性焦虑(Situational Anxiety)
@@ -32,7 +34,7 @@ _当焦虑影响到日常决策、令你回避关键任务或引发身心痛苦�
 
 情境性焦虑并非独立的正式诊断,但在 DSM-5-TR 与 ICD-11 的焦虑障碍谱系内具有明确的临床意义。[^apa2022anx][^who2023anx] 其核心特征是对特定情境的预期性恐惧与躯体反应,持续时间通常短于[广泛性焦虑障碍（GAD）](Generalized-Anxiety-Disorder-GAD.md)的慢性担忧,也不同于对单一客体的[特定恐惧症（Specific Phobia）](Specific-Phobia.md)。
 
-情境性焦虑常与以下因素交织: 
+情境性焦虑常与以下因素交织:
 
 - **绩效评估压力**: 例如公开演讲、考试、试镜或工作汇报。
 - **关系与社交情境**: 包含初次见面、权威面谈、冲突协商等。
