@@ -124,8 +124,9 @@ SSRI 等对伴随 OCD/焦虑/抑郁的侵入性思维有效。
 | 侵入性思维 | 非自愿闯入意识的不受欢迎想法/图像/冲动 | 各类主题（不一定与创伤相关） | 焦虑、羞愧、厌恶；多保留现实定向 |
 | 侵入性记忆 | 与创伤事件直接相关的记忆闯入 | 记忆片段/图像/片语 | 再体验、痛苦情绪，通常仍保持当下感 |
 | 闪回 | 强烈沉浸式再体验，仿佛“回到当时” | 场景级重现、全感官参与 | 当下感被削弱或丧失，可能出现定向障碍 |
+| [灾难预演](Disaster-Rehearsal.md) | 模拟未来最坏场景的沉浸式影像 | 未来灾难剧情、责任失败、自他伤画面 | 现实定向通常保留，但高度担忧与生理警觉 |
 
-参阅： [侵入性记忆（Intrusive Memory）](Intrusive-Memory.md) · [闪回（Flashback）](Flashback.md)
+参阅： [侵入性记忆（Intrusive Memory）](Intrusive-Memory.md) · [闪回（Flashback）](Flashback.md) · [灾难预演（Disaster Rehearsal）](Disaster-Rehearsal.md)
 
 !!! note "与注意状态的区分"
     侵入性思维是“不受欢迎且难以控制”的内容闯入；而[过度专注（Hyperfocus）](Hyperfocus.md)/[心流（Flow）](Flow.md)属于注意状态，前者常为被动“黏附”、抽离困难，后者为主动、可控且与目标一致的积极体验。
@@ -142,6 +143,7 @@ SSRI 等对伴随 OCD/焦虑/抑郁的侵入性思维有效。
 
 - [侵入性记忆（Intrusive Memory）](Intrusive-Memory.md)
 - [闪回（Flashback）](Flashback.md)
+- [灾难预演（Disaster Rehearsal）](Disaster-Rehearsal.md)
 - [强迫症（OCD）](OCD.md)
 - [解离](Dissociation.md)
 - [应激反应](Stress-Response.md)
@@ -154,6 +156,7 @@ SSRI 等对伴随 OCD/焦虑/抑郁的侵入性思维有效。
 - [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](PTSD.md)
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](OCD.md)
 - [闪回（Flashback）](Flashback.md)
+- [灾难预演（Disaster Rehearsal）](Disaster-Rehearsal.md)
 - [非我感（Depersonalization）](Not-Me-Feeling.md)
 - [心境障碍（Affective Disorders）](Affective-Disorders.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
