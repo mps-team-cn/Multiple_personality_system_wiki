@@ -188,6 +188,7 @@ search:
     - [惊恐障碍（Panic Disorder）](../entries/Panic-Disorder.md) / [惊恐发作（Panic Attack）](../entries/Panic-Attack.md) — :octicons-check-16: 已完成
     - [广场恐惧症（Agoraphobia）](../entries/Agoraphobia.md) — :octicons-check-16: 已完成
     - [广泛性焦虑障碍（GAD）](../entries/Generalized-Anxiety-Disorder-GAD.md) — :octicons-check-16: 已完成
+    - [情境性焦虑（Situational Anxiety）](../entries/Situational-Anxiety.md) — :octicons-check-16: 已完成
 
 ### 6) 强迫及相关障碍
 
