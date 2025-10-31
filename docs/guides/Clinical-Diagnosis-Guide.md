@@ -45,6 +45,11 @@ search:
     意识状态、述情障碍等
     [:octicons-arrow-right-16: 进入](#其他核心评估概念)
 
+-   :material-clipboard-text-search: **标准化评估工具**
+
+    量表筛查与追踪
+    [:octicons-arrow-right-16: 进入](#标准化评估工具)
+
 -   :material-brain: **神经系统疾病与精神症状（跨学科）**
 
     癫痫、TBI、脑肿瘤等与精神症状的鉴别与共病管理
@@ -94,26 +99,39 @@ search:
 
 - **标准化评估工具**
 
-  [DSM-5-TR 评估量表总览](../entries/DSM-5TR-Scales.md) — :octicons-check-16: 已完成
+  见下方专章，快速定位跨诊断筛查与症状追踪的核心量表。
+
+---
+
+## 标准化评估工具
+
+- [DSM-5-TR 评估量表总览](../entries/DSM-5TR-Scales.md) — :octicons-check-16: 已完成
+
   汇总跨诊断筛查、特异性严重度与功能残障量表，提供初诊筛查与持续随访的量化框架。
 
-  [解离经验量表（DES‑II）](../entries/Dissociative-Experiences-Scale-DES-II.md) — :octicons-check-16: 已完成
+- [解离经验量表（DES‑II）](../entries/Dissociative-Experiences-Scale-DES-II.md) — :octicons-check-16: 已完成
+
   在线交互式自评（不存储数据），自动计算总均分并给出可视化参考，适合初步筛查与自我观察。
 
-  [多维解离量表（MID‑60）](../entries/Multidimensional-Inventory-of-Dissociation-MID-60.md) — :octicons-check-16: 已完成
+- [多维解离量表（MID‑60）](../entries/Multidimensional-Inventory-of-Dissociation-MID-60.md) — :octicons-check-16: 已完成
+
   在线交互式自评（不存储数据），提供 12 个解离子量表的详细评估，包括 DID、OSDD-1、DP/DR、解离性失忆、PTSD、转换障碍等维度，适合多维度筛查与症状模式分析。
 
-  [躯体形式解离问卷（SDQ‑20）](../entries/Somatoform-Dissociation-Questionnaire-SDQ-20.md) — :octicons-check-16: 已完成
+- [躯体形式解离问卷（SDQ‑20）](../entries/Somatoform-Dissociation-Questionnaire-SDQ-20.md) — :octicons-check-16: 已完成
+
   在线交互式自评（不存储数据），评估躯体解离症状的严重程度，包括感觉异常、运动障碍、知觉变化等，含 SDQ-5 简化版，适合识别身体感知解离症状。
 
-  [症状自评量表修订版（SCL-90-R）](../entries/Symptom-Checklist-90-SCL-90.md) — :octicons-check-16: 已完成
-  在线交互式自评（不存储数据），采用0-4分评分系统，评估躯体化、强迫、人际敏感、抑郁、焦虑、敌对、恐怖、偏执和精神病性等九个症状维度，适合心理症状全面筛查与评估。
+- [症状自评量表修订版（SCL-90-R）](../entries/Symptom-Checklist-90-SCL-90.md) — :octicons-check-16: 已完成
 
-  [焦虑自评量表（SAS）](../entries/Self-Rating-Anxiety-Scale-SAS.md) — :octicons-check-16: 已完成
-  在线交互式自评（不存储数据），20题自评量表，评估焦虑症状的严重程度，自动计算粗分和标准分（粗分×1.25），适合焦虑症状的初步筛查与治疗监测。
+  在线交互式自评（不存储数据），采用 0-4 分评分系统，评估躯体化、强迫、人际敏感、抑郁、焦虑、敌对、恐怖、偏执和精神病性等九个症状维度，适合心理症状全面筛查与评估。
 
-  [抑郁自评量表（SDS）](../entries/Self-Rating-Depression-Scale-SDS.md) — :octicons-check-16: 已完成
-  在线交互式自评（不存储数据），20题自评量表，评估抑郁症状的严重程度，自动计算粗分和标准分（粗分×1.25），适合抑郁症状的初步筛查与治疗效果评估。
+- [焦虑自评量表（SAS）](../entries/Self-Rating-Anxiety-Scale-SAS.md) — :octicons-check-16: 已完成
+
+  在线交互式自评（不存储数据），20 题自评量表，评估焦虑症状的严重程度，自动计算粗分和标准分（粗分 × 1.25），适合焦虑症状的初步筛查与治疗监测。
+
+- [抑郁自评量表（SDS）](../entries/Self-Rating-Depression-Scale-SDS.md) — :octicons-check-16: 已完成
+
+  在线交互式自评（不存储数据），20 题自评量表，评估抑郁症状的严重程度，自动计算粗分和标准分（粗分 × 1.25），适合抑郁症状的初步筛查与治疗效果评估。
 
 ---
 
