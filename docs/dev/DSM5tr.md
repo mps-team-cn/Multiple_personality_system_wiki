@@ -314,8 +314,8 @@ comments: true
 
 一句话定位：精神科常见不良反应与停药综合征的识别与处置入口。
 
-- [ ] Antipsychotic-Induced-Parkinsonism.md
-- [ ] Other-Medication-Induced-Parkinsonism.md
+- [x] Antipsychotic-Induced-Parkinsonism.md
+- [x] Other-Medication-Induced-Parkinsonism.md
 - [ ] Neuroleptic-Malignant-Syndrome.md
 - [ ] Medication-Induced-Acute-Dystonia.md
 - [ ] Medication-Induced-Akathisia.md
