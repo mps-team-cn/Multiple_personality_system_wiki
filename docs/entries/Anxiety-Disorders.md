@@ -145,7 +145,7 @@ updated: 2025-10-20
 
 ### 物质/药物诱发焦虑障碍
 
-[物质/药物诱发焦虑障碍（Substance/Medication-Induced Anxiety Disorder）](Substance-Medication-Induced-Anxiety-Disorder) 由物质直接生理效应导致：
+[物质/药物诱发焦虑障碍（Substance/Medication-Induced Anxiety Disorder）](Substance-Medication-Induced-Anxiety-Disorder.md) 由物质直接生理效应导致：
 
 - 物质中毒、戒断或药物副作用引发的焦虑
 - 与物质使用有明确的时间关系
