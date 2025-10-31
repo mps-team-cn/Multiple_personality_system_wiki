@@ -122,12 +122,20 @@ updated: 2025-10-26
 
 ## 相关条目
 
-### 情绪障碍相关
+### 特定抑郁障碍
 
-- [心境障碍（Affective Disorders）](Affective-Disorders.md)
 - [重度抑郁障碍（Major Depressive Disorder，MDD）](Major-Depressive-Disorder-MDD.md)
 - [重度抑郁发作（Major Depressive Episode，MDE）](Major-Depressive-Episode-MDE.md)
 - [持续性抑郁障碍（Persistent Depressive Disorder，PDD）](Persistent-Depressive-Disorder-PDD.md)
+- [经前焦虑障碍（Premenstrual Dysphoric Disorder，PMDD）](Premenstrual-Dysphoric-Disorder.md)
+- [破坏性心境失调障碍（Disruptive Mood Dysregulation Disorder，DMDD）](Disruptive-Mood-Dysregulation-Disorder.md)
+- [物质/药物诱发抑郁障碍（Substance/Medication-Induced Depressive Disorder）](Substance-Medication-Induced-Depressive-Disorder.md)
+- [其他医疗状况所致抑郁障碍（Depressive Disorder Due to Another Medical Condition）](Depressive-Disorder-Due-to-Another-Medical-Condition.md)
+- [其他特定/未特定的抑郁障碍（Other Specified or Unspecified Depressive Disorder）](Other-Specified-or-Unspecified-Depressive-Disorder.md)
+
+### 情绪障碍相关
+
+- [心境障碍（Affective Disorders）](Affective-Disorders.md)
 - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
 - [轻躁狂（Hypomania）](Hypomania.md)
 

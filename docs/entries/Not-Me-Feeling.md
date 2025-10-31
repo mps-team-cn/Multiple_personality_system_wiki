@@ -312,7 +312,7 @@ updated: 2025-10-22
 [^不是我感-11]: Clinical research evidence. 手术前跨性别者经历更严重的解离及其他症状，手术后这些症状可能减轻或消失。
 [^不是我感-12]: Psychiatric case report. (2022). *Gender Dysphoria and Dissociative Identity Disorder: A Case Report and Review of Literature*. PMC 9537239. 性别焦虑与解离性身份障碍可能共病，但两者是独立的临床现象。
 [^不是我感-13]: Merck Manual Professional Edition. *Depersonalization/Derealization Disorder*. 去人格化/去现实化障碍的患者在经历症状时保持现实检验能力，知道这些感受不真实。
-[^不是我感-14]: American Psychiatric Association. (2013). DSM-5 诊断标准要求，症状不能由其他精神障碍（如精神分裂症、惊恐障碍、重性抑郁障碍、急性应激障碍、创伤后应激障碍或其他解离障碍）更好地���释。
+[^不是我感-14]: American Psychiatric Association. (2013). DSM-5 诊断标准要求，症状不能由其他精神障碍（如精神分裂症、惊恐障碍、重性抑郁障碍、急性应激障碍、创伤后应激障碍或其他解离障碍）更好地解释。
 [^不是我感-15]: Trauma Dissociation. *Depersonalization/Derealization Disorder - DSM-5 Code 300.6*. 若仅出现麻木、死气沉沉和冷漠，应考虑重性抑郁障碍的鉴别诊断。
 [^不是我感-16]: PsychDB. *Depersonalization/Derealization Disorder*. 临床医生必须鉴别并排除惊恐障碍、急性应激障碍和其他病症，以建立精确诊断。
 [^不是我感-17]: PMC 11910194. (2024). *Depersonalization-Derealization Disorder: Etiological Mechanism, Diagnosis and Management*. 焦虑和抑郁在去人格化/去现实化障碍患者中很常见。

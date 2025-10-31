@@ -97,9 +97,9 @@ comments: true
 - [x] Panic-Attack.md            <!-- specifier / transdiagnostic -->
 - [x] Agoraphobia.md
 - [x] Generalized-Anxiety-Disorder-GAD.md
-- [ ] Substance-Medication-Induced-Anxiety-Disorder.md
-- [ ] Anxiety-Disorder-Due-to-Another-Medical-Condition.md
-- [ ] Other-Specified-or-Unspecified-Anxiety-Disorder.md
+- [x] Substance-Medication-Induced-Anxiety-Disorder.md
+- [x] Anxiety-Disorder-Due-to-Another-Medical-Condition.md
+- [x] Other-Specified-or-Unspecified-Anxiety-Disorder.md
 
 ## 6. 强迫及相关障碍（Obsessive-Compulsive and Related Disorders）
 
@@ -149,8 +149,8 @@ comments: true
 - [x] Illness-Anxiety-Disorder.md
 - [x] Conversion-Disorder-FND.md
 - [x] Psychological-Factors-Affecting-Other-Medical-Conditions.md
-- [ ] Factitious-Disorder.md
-- [ ] Other-Specified-or-Unspecified-Somatic-Symptom-Related-Disorders.md
+- [x] Factitious-Disorder.md
+- [x] Other-Specified-or-Unspecified-Somatic-Symptom-Related-Disorders.md
 
 ## 10. 喂养与进食障碍（Feeding and Eating Disorders）
 

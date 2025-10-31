@@ -105,7 +105,7 @@ updated: 2025-10-20
 
 ### 6. 分离焦虑障碍（Separation Anxiety Disorder）
 
-分离焦虑障碍以对依恋对象分离的过度焦虑为核心：
+[分离焦虑障碍（Separation Anxiety Disorder）](Separation-Anxiety-Disorder.md) 以对依恋对象分离的过度焦虑为核心：
 
 - 对与依恋对象分离的过度焦虑
 - 担心失去依恋对象或其遭遇伤害
@@ -126,6 +126,46 @@ updated: 2025-10-20
 
 **DSM-5-TR 编码**：312.23
 **ICD-11 编码**：6B06
+
+### 8. 其他特定/未特定的焦虑障碍
+
+[其他特定/未特定的焦虑障碍（Other Specified or Unspecified Anxiety Disorder）](Other-Specified-or-Unspecified-Anxiety-Disorder.md) 用于不符合特定诊断标准的焦虑症状：
+
+- 存在显著焦虑症状，引起临床痛苦或功能损害
+- 不符合任何特定焦虑障碍的完整诊断标准
+- 包括亚临床焦虑、情境性焦虑、文化相关焦虑综合征
+- 需要临床关注但无法归类到特定类别
+
+**DSM-5-TR 编码**：300.09（其他特定）/ 300.00（未特定）
+**ICD-11 编码**：6B0Z（其他特定）/ 6B0.0（未特定）
+
+---
+
+## 特殊类型焦虑障碍
+
+### 物质/药物诱发焦虑障碍
+
+[物质/药物诱发焦虑障碍（Substance/Medication-Induced Anxiety Disorder）](Substance-Medication-Induced-Anxiety-Disorder.md) 由物质直接生理效应导致：
+
+- 物质中毒、戒断或药物副作用引发的焦虑
+- 与物质使用有明确的时间关系
+- 症状随物质停止使用后缓解
+- 不能更好地用其他精神障碍解释
+
+**DSM-5-TR 编码**：根据具体物质使用相应编码
+**ICD-11 编码**：6C4Y.0
+
+### 其他医疗状况所致焦虑障碍
+
+[其他医疗状况所致焦虑障碍（Anxiety Disorder Due to Another Medical Condition）](Anxiety-Disorder-Due-to-Another-Medical-Condition.md) 由医学状况直接引起：
+
+- 医学状况的生理效应导致焦虑症状
+- 有充分的医学证据支持诊断
+- 症状不能更好地用其他精神障碍解释
+- 常见于内分泌、心血管、神经系统疾病
+
+**DSM-5-TR 编码**：293.84
+**ICD-11 编码**：6D81.0
 
 ---
 
@@ -203,6 +243,7 @@ updated: 2025-10-20
 - [强迫症（OCD）](OCD.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
 - [躯体症状障碍（Somatic Symptom Disorder，SSD）](Somatic-Symptom-Disorder-SSD.md)
+- [疾病焦虑障碍（Illness Anxiety Disorder，IAD）](Illness-Anxiety-Disorder.md)
 - [进食障碍（Eating Disorders，ED）](Eating-Disorders-ED.md)
 - [精神分裂症谱系障碍](Schizophrenia-SZ.md)
 
@@ -330,6 +371,12 @@ updated: 2025-10-20
 - [特定恐惧症（Specific Phobia）](Specific-Phobia.md)
 - [广场恐惧症（Agoraphobia）](Agoraphobia.md)
 - [选择性缄默症（Selective Mutism）](Selective-Mutism.md)
+- [其他特定/未特定的焦虑障碍（Other Specified or Unspecified Anxiety Disorder）](Other-Specified-or-Unspecified-Anxiety-Disorder.md)
+
+### 病因相关焦虑障碍
+
+- [物质/药物诱发焦虑障碍（Substance/Medication-Induced Anxiety Disorder）](Substance-Medication-Induced-Anxiety-Disorder.md)
+- [其他医疗状况所致焦虑障碍（Anxiety Disorder Due to Another Medical Condition）](Anxiety-Disorder-Due-to-Another-Medical-Condition.md)
 
 ### 共病与相关障碍
 
