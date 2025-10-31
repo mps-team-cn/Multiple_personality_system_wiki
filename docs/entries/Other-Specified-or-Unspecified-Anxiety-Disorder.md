@@ -1,6 +1,6 @@
 ---
 comments: true
-description: 其他特定/未特定的焦虑障碍诊断标准、临床表现与分类。涵盖亚临床焦虑症状、情境性焦虑、文化相关焦虑综合征等非典��表现
+description: 其他特定/未特定的焦虑障碍诊断标准、临床表现与分类。涵盖亚临床焦虑症状、情境性焦虑、文化相关焦虑综合征等非典型表现
 search:
   boost: 1.4
 synonyms:
@@ -70,7 +70,7 @@ updated: 2025-10-31
 3. **文化相关的焦虑综合征**：
    - 特定文化背景下的焦虑表现
    - 不符合 DSM-5-TR 中的诊断分类
-   - 具有文化特异性的���状表现
+   - 具有文化特异性的症状表现
 
 4. **情境性焦虑反应**：
    - 特定情境下的焦虑反应
@@ -223,7 +223,7 @@ updated: 2025-10-31
 - 呼吸急促、窒息感
 - 出汗、颤抖
 - 肌肉紧张、疲劳
-- 胃肠���不适
+- 胃肠不适不适
 
 **4. 行为症状**：
 - 回避行为
@@ -332,7 +332,7 @@ updated: 2025-10-31
 
 **3. 文化评估工具**：
 - 文化症状访谈
-- 跨文化��断量表
+- 跨文化诊断量表
 - 文化适应性评估
 
 ---
@@ -383,7 +383,7 @@ updated: 2025-10-31
 - 尊重文化信仰和价值观
 - 结合文化相关的治疗方法
 - 家庭和社区资源利用
-- 文化知��的治疗关系
+- 文化知识的治疗关系
 
 ### 药物治疗
 
@@ -517,13 +517,11 @@ updated: 2025-10-31
 ### 特定情境焦虑
 
 - [情境性焦虑（Situational Anxiety）](Situational-Anxiety.md)
-- [考试焦虑（Test Anxiety）](Test-Anxiety.md)
-- [表演焦虑（Performance Anxiety）](Performance-Anxiety.md)
 
 ### 共病与相关
 
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
-- [适应性障碍（Adjustment Disorder）](Adjustment-Disorder.md)
+- [适应性障碍（Adjustment Disorders）](Adjustment-Disorders.md)
 - [人格障碍（Personality Disorders）](Personality-Disorders.md)
 
 ---
