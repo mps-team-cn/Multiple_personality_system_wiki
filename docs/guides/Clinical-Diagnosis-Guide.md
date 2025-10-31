@@ -189,6 +189,9 @@ search:
     - [广场恐惧症（Agoraphobia）](../entries/Agoraphobia.md) — :octicons-check-16: 已完成
     - [广泛性焦虑障碍（GAD）](../entries/Generalized-Anxiety-Disorder-GAD.md) — :octicons-check-16: 已完成
     - [情境性焦虑（Situational Anxiety）](../entries/Situational-Anxiety.md) — :octicons-check-16: 已完成
+    - [其他特定/未特定的焦虑障碍（Other Specified or Unspecified Anxiety Disorder）](../entries/Other-Specified-or-Unspecified-Anxiety-Disorder.md) — :octicons-check-16: 已完成
+    - [物质/药物诱发焦虑障碍（Substance/Medication-Induced Anxiety Disorder）](../entries/Substance-Medication-Induced-Anxiety-Disorder.md) — :octicons-check-16: 已完成
+    - [其他医疗状况所致焦虑障碍（Anxiety Disorder Due to Another Medical Condition）](../entries/Anxiety-Disorder-Due-to-Another-Medical-Condition.md) — :octicons-check-16: 已完成
 
 ### 6) 强迫及相关障碍
 
