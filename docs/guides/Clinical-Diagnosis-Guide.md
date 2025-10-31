@@ -345,7 +345,8 @@ search:
 
 ???+ abstract "展开查看"
 
-    - 药物诱发帕金森综合征（Medication-Induced Parkinsonism）— :octicons-clock-16: 待更新
+    - [抗精神病药物所致帕金森综合征（Antipsychotic-Induced Parkinsonism）](../entries/Antipsychotic-Induced-Parkinsonism.md) — :octicons-check-16: 已完成
+    - [其他药物所致帕金森综合征（Other Medication-Induced Parkinsonism）](../entries/Other-Medication-Induced-Parkinsonism.md) — :octicons-check-16: 已完成
     - 迟发性运动障碍（Tardive Dyskinesia）、迟发性静坐不能（Tardive Akathisia）等 — :octicons-clock-16: 待更新
     - 抗抑郁药中断综合征（Antidepressant Discontinuation Syndrome）— :octicons-clock-16: 待更新
     - 神经阻滞剂恶性综合征（Neuroleptic Malignant Syndrome）、急性静坐不能（Acute Akathisia）等 — :octicons-clock-16: 待更新

@@ -53,12 +53,14 @@ hide:
 - [解离经验量表（Dissociative Experiences Scale‑II, DES‑II）](../entries/Dissociative-Experiences-Scale-DES-II.md) — *2025-10-21*
 - [多维解离量表（MID‑60）](../entries/Multidimensional-Inventory-of-Dissociation-MID-60.md) — *2025-10-21*
 - [其他特定的或未特定的精神病性障碍（Other Specified/Unspecified Psychotic Disorder）](../entries/Other-Specified-or-Unspecified-Psychotic-Disorder.md) — *2025-10-21*
+- [其他药物所致帕金森综合征（Other Medication-Induced Parkinsonism, OMIP）](../entries/Other-Medication-Induced-Parkinsonism.md) — *2025-01-31*
 - [躯体疾病所致精神病性障碍（Psychotic Disorder Due to Another Medical Condition）](../entries/Psychotic-Disorder-Due-to-Another-Medical-Condition.md) — *2025-10-21*
 - [躯体形式解离问卷（Somatoform Dissociation Questionnaire‑20, SDQ‑20）](../entries/Somatoform-Dissociation-Questionnaire-SDQ-20.md) — *2025-10-21*
 - [物质/药物所致精神病性障碍（Substance/Medication-Induced Psychotic Disorder）](../entries/Substance-Medication-Induced-Psychotic-Disorder.md) — *2025-10-21*
 - [适应障碍(Adjustment Disorders)](../entries/Adjustment-Disorders.md) — *2025-10-20*
 - [广场恐惧症(Agoraphobia, AG)](../entries/Agoraphobia.md) — *2025-10-20*
 - [反社会人格障碍（Antisocial Personality Disorder，ASPD）](../entries/Antisocial-Personality-Disorder-ASPD.md) — *2025-10-20*
+- [抗精神病药物所致帕金森综合征（Antipsychotic-Induced Parkinsonism, AIP）](../entries/Antipsychotic-Induced-Parkinsonism.md) — *2025-01-31*
 - [焦虑障碍（Anxiety Disorders）](../entries/Anxiety-Disorders.md) — *2025-10-20*
 - [回避型人格障碍（Avoidant Personality Disorder，AvPD）](../entries/Avoidant-Personality-Disorder-AvPD.md) — *2025-10-20*
 - [躯体变形障碍（Body Dysmorphic Disorder，BDD）](../entries/Body-Dysmorphic-Disorder.md) — *2025-10-20*
