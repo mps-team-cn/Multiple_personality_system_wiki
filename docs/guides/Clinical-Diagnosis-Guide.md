@@ -334,13 +334,13 @@ search:
 
     - [谵妄（Delirium）](../entries/Delirium.md) — :octicons-check-16: 已完成
     - [重度与轻度神经认知障碍（Major and Mild Neurocognitive Disorders）](../entries/Major-Mild-Neurocognitive-Disorders.md) — :octicons-check-16: 已完成
-    - [阿尔茨海默病性神经认知障碍（NCD due to Alzheimer's Disease）](../entries/NCD-Due-to-Alzheimers-Disease.md) — :octicons-check-16: 已完成
-    - [血管性神经认知障碍（Vascular NCD）](../entries/Vascular-NCD.md) — :octicons-check-16: 已完成
-    - [路易体神经认知障碍（NCD due to Lewy Bodies）](../entries/NCD-Due-to-Lewy-Bodies.md) — :octicons-check-16: 已完成
-    - [额颞叶变性性神经认知障碍（NCD due to Frontotemporal Degeneration）](../entries/NCD-Due-to-Frontotemporal-Degeneration.md) — :octicons-check-16: 已完成
-    - [帕金森病性神经认知障碍（NCD due to Parkinson's Disease）](../entries/NCD-Due-to-Parkinsons-Disease.md) — :octicons-check-16: 已完成
-    - [创伤性脑损伤性神经认知障碍（NCD due to TBI）](../entries/NCD-Due-to-TBI.md) — :octicons-check-16: 已完成
-    - [亨廷顿病性神经认知障碍（NCD due to Huntington's Disease）](../entries/NCD-Due-to-Huntingtons-Disease.md) — :octicons-check-16: 已完成
+        - [阿尔茨海默病性神经认知障碍（NCD due to Alzheimer's Disease）](../entries/NCD-Due-to-Alzheimers-Disease.md) — :octicons-check-16: 已完成
+        - [血管性神经认知障碍（Vascular NCD）](../entries/Vascular-NCD.md) — :octicons-check-16: 已完成
+        - [路易体神经认知障碍（NCD due to Lewy Bodies）](../entries/NCD-Due-to-Lewy-Bodies.md) — :octicons-check-16: 已完成
+        - [额颞叶变性性神经认知障碍（NCD due to Frontotemporal Degeneration）](../entries/NCD-Due-to-Frontotemporal-Degeneration.md) — :octicons-check-16: 已完成
+        - [帕金森病性神经认知障碍（NCD due to Parkinson's Disease）](../entries/NCD-Due-to-Parkinsons-Disease.md) — :octicons-check-16: 已完成
+        - [创伤性脑损伤性神经认知障碍（NCD due to TBI）](../entries/NCD-Due-to-TBI.md) — :octicons-check-16: 已完成
+        - [亨廷顿病性神经认知障碍（NCD due to Huntington's Disease）](../entries/NCD-Due-to-Huntingtons-Disease.md) — :octicons-check-16: 已完成
     - **与神经系统疾病的鉴别**：见[神经系统疾病与精神症状（跨学科）](#神经系统疾病与精神症状跨学科)，包括癫痫相关精神症状与用药影响。
 
 ### 18) 人格障碍

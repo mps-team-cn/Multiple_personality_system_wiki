@@ -253,17 +253,17 @@ comments: true
 一句话定位：以谵妄与主要/轻度神经认知障碍为核心，病因学分型明确。
 
 - [x] Delirium.md
-- [ ] Major-Mild-Neurocognitive-Disorders.md
-    - [ ] NCD-Due-to-Alzheimers-Disease.md
-    - [ ] NCD-Due-to-Frontotemporal-Degeneration.md
-    - [ ] NCD-Due-to-Lewy-Bodies.md
-    - [ ] Vascular-NCD.md
-    - [ ] NCD-Due-to-TBI.md
+- [x] Major-Mild-Neurocognitive-Disorders.md
+    - [x] NCD-Due-to-Alzheimers-Disease.md
+    - [x] NCD-Due-to-Frontotemporal-Degeneration.md
+    - [x] NCD-Due-to-Lewy-Bodies.md
+    - [x] Vascular-NCD.md
+    - [x] NCD-Due-to-TBI.md
     - [ ] Substance-Medication-Induced-NCD.md
     - [ ] NCD-Due-to-HIV-Infection.md
     - [ ] NCD-Due-to-Prion-Disease.md
-    - [ ] NCD-Due-to-Parkinsons-Disease.md
-    - [ ] NCD-Due-to-Huntingtons-Disease.md
+    - [x] NCD-Due-to-Parkinsons-Disease.md
+    - [x] NCD-Due-to-Huntingtons-Disease.md
     - [ ] NCD-Due-to-Other-Medical-Condition.md
     - [ ] NCD-Due-to-Multiple-Etiologies.md
     - [ ] Unspecified-NCD.md
