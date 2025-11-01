@@ -233,6 +233,7 @@
         * [创伤后成长（Post‑Traumatic Growth, PTG）](entries/Post-Traumatic-Growth-PTG.md)
         * [创伤聚焦认知行为疗法（Trauma-Focused Cognitive Behavioral Therapy, TF-CBT）](entries/Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md)
         * [延长暴露疗法（Prolonged Exposure Therapy, PE）](entries/Prolonged-Exposure-Therapy-PE.md)
+        * [惊恐触发后的功能性言语受阻（Functional Speech Inhibition After Trauma Trigger）](entries/Functional-Speech-Inhibition-After-Trauma-Trigger.md)
         * [感官调节策略（Sensory Regulation Strategies）](entries/Sensory-Regulation-Strategies.md)
         * [接受与承诺疗法（Acceptance and Commitment Therapy, ACT）](entries/Acceptance-Commitment-Therapy-ACT.md)
         * [接地（Grounding）](entries/Grounding.md)
