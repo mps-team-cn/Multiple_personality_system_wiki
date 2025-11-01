@@ -94,10 +94,18 @@ hide:
 - [智力发育障碍（Intellectual Developmental Disorders）](../entries/Intellectual-Developmental-Disorders.md) — *2025-10-20*
 - [习得性无助(Learned Helplessness)](../entries/Learned-Helplessness.md) — *2025-10-20*
 - [躁狂（Mania）](../entries/Mania.md) — *2025-10-20*
+- [重度与轻度神经认知障碍（Major and Mild Neurocognitive Disorders）](../entries/Major-Mild-Neurocognitive-Disorders.md) — *2025-11-01*
 - [改良电痉挛治疗（Modified Electroconvulsive Therapy, MECT）](../entries/Modified-Electroconvulsive-Therapy-MECT.md) — *2025-10-20*
 - [多人格障碍（Multiple Personality Disorder，已过时）](../entries/Multiple-Personality-Disorder-Obsolete.md) — *2025-10-20*
 - [自恋型人格障碍（Narcissistic Personality Disorder，NPD）](../entries/Narcissistic-Personality-Disorder-NPD.md) — *2025-10-20*
 - [发作性睡病(Narcolepsy)](../entries/Narcolepsy.md) — *2025-10-20*
+- [阿尔茨海默病性神经认知障碍（NCD due to Alzheimer's Disease）](../entries/NCD-Due-to-Alzheimers-Disease.md) — *2025-11-01*
+- [额颞叶变性性神经认知障碍（NCD due to Frontotemporal Degeneration）](../entries/NCD-Due-to-Frontotemporal-Degeneration.md) — *2025-11-01*
+- [血管性神经认知障碍（Vascular NCD）](../entries/Vascular-NCD.md) — *2025-11-01*
+- [亨廷顿病性神经认知障碍（NCD due to Huntington's Disease）](../entries/NCD-Due-to-Huntingtons-Disease.md) — *2025-11-01*
+- [路易体神经认知障碍（NCD due to Lewy Bodies）](../entries/NCD-Due-to-Lewy-Bodies.md) — *2025-11-01*
+- [帕金森病性神经认知障碍（NCD due to Parkinson's Disease）](../entries/NCD-Due-to-Parkinsons-Disease.md) — *2025-11-01*
+- [创伤性脑损伤性神经认知障碍（NCD due to TBI）](../entries/NCD-Due-to-TBI.md) — *2025-11-01*
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](../entries/OCD.md) — *2025-10-20*
 - [其他特定解离性障碍（OSDD）](../entries/OSDD.md) — *2025-10-20*
 - [强迫型人格障碍（Obsessive-Compulsive Personality Disorder，OCPD）](../entries/Obsessive-Compulsive-Personality-Disorder-OCPD.md) — *2025-10-20*
