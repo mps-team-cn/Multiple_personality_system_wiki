@@ -140,6 +140,14 @@ updated: 2025-10-22
 | [多意识体系统中的创伤功能分化](../entries/Functional-Dissociation-of-Trauma-in-Plural-Systems.md) | 系统内协作 | 记忆持有/情绪承载/调节能力的分化 |
 | [深层记忆（Deep Memory）](../entries/Deep-Memory.md) | ⚠️ **仅限专业支持** | 高敏材料的安全边界与风险管理 |
 
+### D. 创伤触发反应与症状管理
+
+| 词条 | 适用场景 | 核心收获 |
+|---|---|---|
+| [惊恐触发后的功能性言语受阻](../entries/Functional-Speech-Inhibition-After-Trauma-Trigger.md) | 创伤触发后出现暂时失语或喉部僵紧 | 理解防御机制、分阶段自助与求助策略 |
+| [惊恐发作（Panic Attack）](../entries/Panic-Attack.md) | 反复惊恐、呼吸失控 | 识别触发、运用呼吸与接地稳定 |
+| [创伤性闪回（Flashback）](../entries/Flashback.md) | 侵入性再体验影响生活 | 区分闪回与解离、制定应对计划 |
+
 ---
 
 > 🌼 **结语**
