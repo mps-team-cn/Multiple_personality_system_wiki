@@ -446,6 +446,10 @@ updated: 2025-10-21
   <div class="mid60-legend"><span>0</span><span>7</span><span>14</span><span>21</span><span>30</span><span>40</span><span>64</span><span>100</span></div>
   <div class="mid60-note">临床解读:<span id="mid60-level">无解离体验</span></div>
 
+  <div class="mid60-section-title">柱状图报表</div>
+  <div class="mid60-hint">红色柱状代表超过临界值，绿色柱状代表临界值以下，适合手机端与电脑端一屏截图。</div>
+  <div id="mid60-chart" class="mid60-chart" aria-label="MID-60 柱状图报表"></div>
+
   <!-- 安全提示：当 22/44/58 任一题较高时由脚本显示 -->
   <div id="mid60-safety-alert" class="admonition warning" style="display:none">
     <p class="admonition-title">安全提示</p>

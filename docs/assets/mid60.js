@@ -27,6 +27,232 @@
     return '无解离体验';
   }
 
+  const AVERAGE_CUTOFF = 21;
+
+  const SUBSCALES = {
+    amnesia: {
+      items: [42, 45, 48, 58],
+      cutoff: 10,
+      label: '近期遗忘',
+      alias: 'Amnesia',
+      group: '解离性身份障碍（DID）'
+    },
+    alter: {
+      items: [3, 36, 39, 49, 57],
+      cutoff: 20,
+      label: '替换人格意识',
+      alias: 'Alter awareness',
+      group: 'DID 与 OSDD'
+    },
+    angry: {
+      items: [28, 33, 35, 46, 60],
+      cutoff: 18,
+      label: '愤怒侵入',
+      alias: 'Angry intrusions',
+      group: 'DID 与 OSDD'
+    },
+    persec: {
+      items: [22, 37, 44, 56, 59],
+      cutoff: 18,
+      label: '迫害侵入',
+      alias: 'Persecutory intrusions',
+      group: 'DID 与 OSDD'
+    },
+    dpdr: {
+      items: [2, 7, 9, 13, 25, 47, 50, 53],
+      cutoff: 20,
+      label: '人格解体/现实解体',
+      alias: 'DP/DR',
+      group: '人格解体/现实解体障碍（DP/DR）'
+    },
+    distress: {
+      items: [1, 8, 20, 38, 43, 52],
+      cutoff: 30,
+      label: '记忆困扰',
+      alias: 'Memory distress',
+      group: '解离性失忆'
+    },
+    autobio: {
+      items: [16, 19, 24, 29, 34],
+      cutoff: 34,
+      label: '自传记忆丧失',
+      alias: 'Autobiographical loss',
+      group: '解离性失忆'
+    },
+    flash: {
+      items: [4, 15, 31, 40, 54],
+      cutoff: 16,
+      label: '闪回',
+      alias: 'Flashbacks',
+      group: '创伤后应激障碍（PTSD）'
+    },
+    body: {
+      items: [5, 10, 14, 18],
+      cutoff: 10,
+      label: '功能性神经症状',
+      alias: 'Functional neuro',
+      group: '转换障碍'
+    },
+    seizure: {
+      items: [26],
+      cutoff: 10,
+      label: 'PNES 发作',
+      alias: 'PNES',
+      group: '转换障碍'
+    },
+    trance: {
+      items: [21, 27, 30, 32, 41, 51],
+      cutoff: 11.7,
+      label: '恍惚状态',
+      alias: 'Trance states',
+      group: '一般解离'
+    },
+    confuse: {
+      items: [6, 11, 12, 17, 23, 55],
+      cutoff: 33.3,
+      label: '自我困惑',
+      alias: 'Identity confusion',
+      group: '一般解离'
+    }
+  };
+
+  const CHART_GROUPS = [
+    { title: '总览', keys: ['avg'] },
+    { title: '解离性身份障碍（DID）', keys: ['amnesia'] },
+    { title: 'DID 与 OSDD', keys: ['alter', 'angry', 'persec'] },
+    { title: '人格解体/现实解体障碍（DP/DR）', keys: ['dpdr'] },
+    { title: '解离性失忆', keys: ['distress', 'autobio'] },
+    { title: '创伤后应激障碍（PTSD）', keys: ['flash'] },
+    { title: '转换障碍', keys: ['body', 'seizure'] },
+    { title: '一般解离', keys: ['trance', 'confuse'] }
+  ];
+
+  const CHART_META = {
+    avg: { cutoff: AVERAGE_CUTOFF, label: '平均分', alias: 'Average' }
+  };
+
+  Object.entries(SUBSCALES).forEach(([key, meta]) => {
+    CHART_META[key] = meta;
+  });
+
+  function clampPercent(value) {
+    return Math.max(0, Math.min(100, value));
+  }
+
+  function buildChart(root) {
+    const chart = qs('#mid60-chart', root);
+    if (!chart || chart.dataset.mid60ChartBuilt === '1') return;
+
+    chart.dataset.mid60ChartBuilt = '1';
+
+    CHART_GROUPS.forEach((group) => {
+      const section = document.createElement('section');
+      section.className = 'mid60-chart-group';
+      if (group.title) {
+        const title = document.createElement('h4');
+        title.className = 'mid60-chart-group-title';
+        title.textContent = group.title;
+        section.appendChild(title);
+      }
+
+      const list = document.createElement('div');
+      list.className = 'mid60-chart-items';
+      list.setAttribute('role', 'list');
+      section.appendChild(list);
+
+      group.keys.forEach((key) => {
+        const meta = CHART_META[key];
+        if (!meta) return;
+
+        const item = document.createElement('div');
+        item.className = 'mid60-chart-item';
+        item.setAttribute('role', 'listitem');
+        item.dataset.key = key;
+
+        const barWrap = document.createElement('div');
+        barWrap.className = 'mid60-chart-barwrap';
+        barWrap.setAttribute('aria-hidden', 'true');
+
+        const bar = document.createElement('div');
+        bar.className = 'mid60-chart-bar';
+        bar.id = `mid60-chart-${key}-bar`;
+        barWrap.appendChild(bar);
+
+        const cutoffLine = document.createElement('div');
+        cutoffLine.className = 'mid60-chart-cutoff';
+        cutoffLine.id = `mid60-chart-${key}-cutoff`;
+        if (!Number.isFinite(meta.cutoff)) {
+          cutoffLine.style.display = 'none';
+        }
+        barWrap.appendChild(cutoffLine);
+
+        const value = document.createElement('div');
+        value.className = 'mid60-chart-value';
+        value.innerHTML = `<span id="mid60-chart-${key}-val">0.0</span><span class="unit">%</span>`;
+
+        const cutoffText = document.createElement('div');
+        cutoffText.className = 'mid60-chart-cutoff-text';
+        if (Number.isFinite(meta.cutoff)) {
+          cutoffText.textContent = `临界: ${fmt(meta.cutoff)}%`;
+        } else {
+          cutoffText.innerHTML = '&nbsp;';
+        }
+
+        const label = document.createElement('div');
+        label.className = 'mid60-chart-label';
+        const main = document.createElement('span');
+        main.className = 'mid60-chart-label-main';
+        main.textContent = meta.label || '';
+        label.appendChild(main);
+        if (meta.alias) {
+          const alias = document.createElement('span');
+          alias.className = 'mid60-chart-label-sub';
+          alias.textContent = meta.alias;
+          label.appendChild(alias);
+        }
+
+        item.appendChild(barWrap);
+        item.appendChild(value);
+        item.appendChild(cutoffText);
+        item.appendChild(label);
+
+        list.appendChild(item);
+      });
+
+      chart.appendChild(section);
+    });
+  }
+
+  function updateChartItem(root, key, value) {
+    const meta = CHART_META[key];
+    if (!meta) return;
+
+    const clamped = clampPercent(value);
+    const valueEl = qs(`#mid60-chart-${key}-val`, root);
+    if (valueEl) {
+      valueEl.textContent = fmt(clamped);
+    }
+
+    const bar = qs(`#mid60-chart-${key}-bar`, root);
+    const isHigh = Number.isFinite(meta.cutoff) && clamped > meta.cutoff;
+    if (bar) {
+      bar.style.height = clamped + '%';
+      bar.style.background = isHigh
+        ? 'linear-gradient(180deg, #f56c6c, #e94545)'
+        : 'linear-gradient(180deg, #4fc08d, #3fb489)';
+    }
+
+    const cutoffLine = qs(`#mid60-chart-${key}-cutoff`, root);
+    if (cutoffLine && Number.isFinite(meta.cutoff)) {
+      cutoffLine.style.bottom = clampPercent(meta.cutoff) + '%';
+    }
+
+    const item = bar ? bar.closest('.mid60-chart-item') : null;
+    if (item) {
+      item.dataset.state = isHigh ? 'high' : 'normal';
+    }
+  }
+
   function bindItem(item) {
     const input = qs('input[type="range"]', item);
     const out = qs('output, .mid60-badge', item);
@@ -194,6 +420,8 @@
   }
 
   function updateResults(root) {
+    buildChart(root);
+
     const vals = collectValues(root);
     const n = vals.length || 1;
     const avg = vals.reduce((a, b) => a + b, 0) / n;
@@ -207,6 +435,8 @@
     if (lvlEl) lvlEl.textContent = levelText(avg);
     if (bar) bar.style.width = Math.max(0, Math.min(100, avg)) + '%';
     if (progressBar) progressBar.setAttribute('aria-valuenow', Math.round(avg));
+
+    updateChartItem(root, 'avg', avg);
 
     // 安全提示:检查题目 22, 44, 58 (自伤/自杀相关)
     const item22 = qs('#item22', root);
@@ -227,35 +457,6 @@
       }
     }
 
-    // 子量表定义(基于 NovoPsych 资料)
-    const subscales = {
-      // DID
-      amnesia: { items: [42, 45, 48, 58], cutoff: 10 },
-
-      // DID / OSDD-1
-      alter: { items: [3, 36, 39, 49, 57], cutoff: 20 },
-      angry: { items: [28, 33, 35, 46, 60], cutoff: 18 },
-      persec: { items: [22, 37, 44, 56, 59], cutoff: 18 },
-
-      // DP/DR
-      dpdr: { items: [2, 7, 9, 13, 25, 47, 50, 53], cutoff: 20 },
-
-      // 解离性失忆
-      distress: { items: [1, 8, 20, 38, 43, 52], cutoff: 30 },
-      autobio: { items: [16, 19, 24, 29, 34], cutoff: 34 },
-
-      // PTSD
-      flash: { items: [4, 15, 31, 40, 54], cutoff: 16 },
-
-      // 转换障碍
-      body: { items: [5, 10, 14, 18], cutoff: 10 },
-      seizure: { items: [26], cutoff: 10 },
-
-      // 一般子量表
-      trance: { items: [21, 27, 30, 32, 41, 51], cutoff: 11.7 },
-      confuse: { items: [6, 11, 12, 17, 23, 55], cutoff: 33.3 }
-    };
-
     const valueOf = (idx) => {
       const inp = qs(`#item${idx}`, root);
       const v = inp ? Number(inp.value || 0) * 10 : 0; // 转换为百分比
@@ -264,8 +465,11 @@
 
     const meanOf = (arr) => arr.reduce((s, i) => s + valueOf(i), 0) / (arr.length || 1);
 
-    const setSub = (idBase, val, cutoff) => {
-      const v = Math.max(0, Math.min(100, val));
+    const setSub = (key, val) => {
+      const meta = SUBSCALES[key];
+      if (!meta) return;
+      const v = clampPercent(val);
+      const idBase = `mid60-${key}`;
       const out = qs(`#${idBase}-val`, root);
       const bar = qs(`#${idBase}-bar`, root);
       const progressBar = bar?.parentElement;
@@ -274,7 +478,7 @@
       if (bar) {
         bar.style.width = v + '%';
         // 根据是否超过临界值改变颜色
-        if (v > cutoff) {
+        if (v > meta.cutoff) {
           bar.style.background = 'linear-gradient(90deg, #f56c6c, #e94545)'; // 红色渐变
         } else {
           bar.style.background = 'linear-gradient(90deg, #4fc08d, #3fb489)'; // 绿色渐变
@@ -283,13 +487,15 @@
       if (progressBar) {
         progressBar.setAttribute('aria-valuenow', Math.round(v));
       }
+
+      updateChartItem(root, key, v);
     };
 
     // 计算并设置所有子量表
-    Object.keys(subscales).forEach(key => {
-      const scale = subscales[key];
+    Object.keys(SUBSCALES).forEach(key => {
+      const scale = SUBSCALES[key];
       const mean = meanOf(scale.items);
-      setSub(`mid60-${key}`, mean, scale.cutoff);
+      setSub(key, mean);
     });
   }
 
@@ -304,6 +510,8 @@
   function init(root) {
     // 绑定每一项的数值显示
     qsa('.mid60-item', root).forEach(bindItem);
+
+    buildChart(root);
 
     // 重置按钮
     const resetBtn = qs('#mid60-reset', root);
