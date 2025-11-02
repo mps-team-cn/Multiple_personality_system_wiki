@@ -136,6 +136,7 @@ updated: 2025-10-22
 |---|---|---|
 | [三阶段创伤治疗模型](../entries/Three-Phase-Trauma-Treatment.md) | 规划治疗、评估风险 | 稳定化 → 处理创伤 → 整合成长 |
 | [阶段性治疗原则](../entries/Phase-Oriented-Treatment-Principles.md) | 阶段切换、节奏掌控 | 安全窗口、非线性推进、功能性整合 |
+| [现实检验（Reality Testing）](../entries/Reality-Testing.md) | 识别认知偏差、区分解离体验 | 以证据为基础核对想法，增强自我观察能力 |
 | [创伤后成长（PTG）](../entries/Post-Traumatic-Growth-PTG.md) | 长期康复与意义建构 | 识别成长维度，避免“有毒正能量” |
 | [多意识体系统中的创伤功能分化](../entries/Functional-Dissociation-of-Trauma-in-Plural-Systems.md) | 系统内协作 | 记忆持有/情绪承载/调节能力的分化 |
 | [深层记忆（Deep Memory）](../entries/Deep-Memory.md) | ⚠️ **仅限专业支持** | 高敏材料的安全边界与风险管理 |
