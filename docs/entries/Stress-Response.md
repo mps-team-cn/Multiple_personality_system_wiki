@@ -22,7 +22,7 @@ tags:
 
 title: 应激反应（Stress Response）
 topic: 系统运作
-updated: 2025-10-22
+updated: 2025-11-01
 ---
 
 # 应激反应（Stress Response）
@@ -105,7 +105,7 @@ updated: 2025-10-22
 
 ### 3.2 行为模式
 
-传统“**[战/逃模式](Fight-or-Flight.md)**”（Fight or Flight, Cannon, 1915）仅为部分模式，现代研究补充：
+传统“[**战/逃模式**](Fight-or-Flight.md)”（Fight or Flight, Cannon, 1915）仅为部分模式，现代研究补充：
 
 - **战斗（Fight）**：对抗威胁；
 - **逃跑（Flight）**：回避威胁；

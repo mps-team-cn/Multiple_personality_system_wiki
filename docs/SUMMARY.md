@@ -198,6 +198,7 @@
         * [心流（Flow）](entries/Flow.md)
         * [意识修改（Consciousness Modification）](entries/Consciousness-Modification.md)
         * [意识共存（Co-consciousness）](entries/Co-Consciousness.md)
+        * [战/逃模式（Fight-or-Flight）](entries/Fight-or-Flight.md)
         * [整合（Integration）](entries/Integration.md)
         * [权限(Permissions)](entries/Permissions.md)
         * [混合型系统（Mixed Systems, Xianyu Theory）](entries/Mixed-Systems-Xianyu.md)

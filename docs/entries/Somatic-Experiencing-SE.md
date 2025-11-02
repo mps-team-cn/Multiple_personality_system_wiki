@@ -14,7 +14,7 @@ tags:
 
 title: 躯体经验疗法（Somatic Experiencing, SE）
 topic: 创伤与疗愈
-updated: 2025-10-20
+updated: 2025-11-01
 ---
 
 # 躯体经验疗法（Somatic Experiencing, SE）
