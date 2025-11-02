@@ -19,7 +19,7 @@ tags:
 
 title: 战/逃模式（Fight-or-Flight）
 topic: 系统运作
-updated: 2025-11-01
+updated: 2025-11-02
 ---
 
 # 战/逃模式（Fight-or-Flight）

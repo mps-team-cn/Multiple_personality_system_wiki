@@ -2,17 +2,21 @@
 comments: true
 description: 现实检验（Reality Testing）概述心理治疗中辨别主观体验与客观事实的关键技能，帮助来访者校准信念、降低认知扭曲，是精神分析与认知行为疗法的重要组成。
 synonyms:
-  - 现实检验
-  - 现实测试
-  - Reality Testing
-  - Reality-testing
-  - 现实感评估
+
+    - 现实检验
+    - 现实测试
+    - Reality Testing
+    - Reality-testing
+    - 现实感评估
+
 tags:
-  - tx:心理治疗
-  - theory:心理学理论
+
+    - tx:心理治疗
+    - theory:心理学理论
+
 title: 现实检验（Reality Testing）
 topic: 创伤与疗愈
-updated: 2025-02-15
+updated: 2025-11-02
 ---
 
 # 现实检验（Reality Testing）
@@ -85,7 +89,7 @@ updated: 2025-02-15
 
 ## 参考资料
 
-[^apa-rt]: American Psychological Association. *APA Dictionary of Psychology: Reality testing*. 访问日期：2025-02-15. https://dictionary.apa.org/reality-testing
+[^apa-rt]: American Psychological Association. *APA Dictionary of Psychology: Reality testing*. 访问日期：2025-02-15. [https://dictionary.apa.org/reality-testing](https://dictionary.apa.org/reality-testing)
 [^laplanche-rt]: Laplanche, J., & Pontalis, J.-B. (1973). *The Language of Psycho-Analysis*. London: Karnac. Reality testing 条目。
 [^freud-1924]: Freud, S. (1924). *The Loss of Reality in Neurosis and Psychosis*. In J. Strachey (Ed.), *The Standard Edition of the Complete Psychological Works of Sigmund Freud* (Vol. 19). London: Hogarth Press.
 [^beck-cbt]: Beck, J. S. (2011). *Cognitive Behavior Therapy: Basics and Beyond* (2nd ed.). New York: Guilford Press.

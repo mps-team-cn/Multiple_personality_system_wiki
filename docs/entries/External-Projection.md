@@ -19,7 +19,7 @@ tags:
 
 title: 外投射（External Projection）
 topic: 系统运作
-updated: 2025-10-20
+updated: 2025-11-02
 ---
 
 # 外投射（External Projection）

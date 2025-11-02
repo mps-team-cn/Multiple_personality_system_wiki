@@ -247,6 +247,7 @@
         * [接受与承诺疗法（Acceptance and Commitment Therapy, ACT）](entries/Acceptance-Commitment-Therapy-ACT.md)
         * [接地（Grounding）](entries/Grounding.md)
         * [正念(Mindfulness)](entries/Mindfulness.md)
+        * [现实检验（Reality Testing）](entries/Reality-Testing.md)
         * [眼动脱敏与再加工（Eye Movement Desensitization and Reprocessing, EMDR）](entries/Eye-Movement-Desensitization-Reprocessing-EMDR.md)
         * [自我照护工具箱](entries/Self-Care-Toolkit.md)
         * [认知加工疗法（Cognitive Processing Therapy, CPT）](entries/Cognitive-Processing-Therapy-CPT.md)

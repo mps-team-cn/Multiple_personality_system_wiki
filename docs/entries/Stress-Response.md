@@ -22,7 +22,7 @@ tags:
 
 title: 应激反应（Stress Response）
 topic: 系统运作
-updated: 2025-11-01
+updated: 2025-11-02
 ---
 
 # 应激反应（Stress Response）
