@@ -104,6 +104,7 @@ search:
 
 - 🧠 [躯体认同（Body Ownership）](../entries/Body-Ownership.md)：身体认同感与现实感的变化。
 - 🔭 [外投射（External Projection）](../entries/External-Projection.md)：将内部体验外化的方式与沟通边界。
+- ⚔️ [战/逃模式（Fight-or-Flight）](../entries/Fight-or-Flight.md)：交感神经驱动的急性防御反应，识别局限并规划事后调节。
 - ⚡ [应激反应（Stress Response）](../entries/Stress-Response.md)：心理-生理机制（ANS/HPA）与自我调节策略。
 - 🎭 [角色面具（Masking / Social Masking）](../entries/Masking.md)：以单一外观维持安全与功能；过度使用的代价与减负办法。
 
