@@ -351,7 +351,7 @@ search:
     - A 组（奇异/怪异）：[偏执型（PPD）](../entries/Paranoid-Personality-Disorder-PPD.md)、[分裂样型（SzPD）](../entries/Schizoid-Personality-Disorder-SzPD.md)、[分裂型（STPD）](../entries/Schizotypal-Personality-Disorder-STPD.md) — :octicons-check-16: 已完成
     - B 组（戏剧化/冲动）：[反社会型（ASPD）](../entries/Antisocial-Personality-Disorder-ASPD.md)、[边缘型（BPD）](../entries/Borderline-Personality-Disorder-BPD.md)、[表演型（HPD）](../entries/Histrionic-Personality-Disorder-HPD.md)、[自恋型（NPD）](../entries/Narcissistic-Personality-Disorder-NPD.md) — :octicons-check-16: 已完成
     - C 组（焦虑/恐惧）：[回避型（AvPD）](../entries/Avoidant-Personality-Disorder-AvPD.md)、[依赖型（DPD）](../entries/Dependent-Personality-Disorder-DPD.md)、[强迫型（OCPD）](../entries/Obsessive-Compulsive-Personality-Disorder-OCPD.md) — :octicons-check-16: 已完成
-    - 其他特定/未特定人格障碍 — :octicons-clock-16: 待更新
+    - [其他特定/未特定人格障碍](../entries/Other-Specified-or-Unspecified-Personality-Disorder.md) — :octicons-check-16: 已完成
 
 ### 19) 性偏好障碍
 

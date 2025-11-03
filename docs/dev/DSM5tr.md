@@ -214,7 +214,7 @@ comments: true
 一句话定位：性别认同与出生指定性别不一致所致显著痛苦或功能损害。
 
 - [x] Gender-Dysphoria-GD.md      <!-- 儿童 / 青少-成人 合并讲解 -->
-- [ ] Other-Specified-or-Unspecified-Gender-Dysphoria.md
+- [x] Other-Specified-or-Unspecified-Gender-Dysphoria.md
 
 ## 15. 破坏性、冲动控制及品行障碍（Disruptive, Impulse-Control, and Conduct Disorders）
 
@@ -286,7 +286,7 @@ comments: true
     - [x] Avoidant-Personality-Disorder-AvPD.md
     - [x] Dependent-Personality-Disorder-DPD.md
     - [x] Obsessive-Compulsive-Personality-Disorder-OCPD.md
-- [ ] Other-Specified-or-Unspecified-Personality-Disorder.md
+- [x] Other-Specified-or-Unspecified-Personality-Disorder.md
 
 ## 19. 性欲倒错障碍（Paraphilic Disorders）
 

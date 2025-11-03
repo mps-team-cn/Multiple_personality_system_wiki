@@ -108,6 +108,7 @@ hide:
 - [创伤性脑损伤性神经认知障碍（NCD due to TBI）](../entries/NCD-Due-to-TBI.md) — *2025-11-01*
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](../entries/OCD.md) — *2025-10-20*
 - [其他特定解离性障碍（OSDD）](../entries/OSDD.md) — *2025-10-20*
+- [其他特定/未特定人格障碍（Other Specified/Unspecified Personality Disorder）](../entries/Other-Specified-or-Unspecified-Personality-Disorder.md) — *2025-11-03*
 - [强迫型人格障碍（Obsessive-Compulsive Personality Disorder，OCPD）](../entries/Obsessive-Compulsive-Personality-Disorder-OCPD.md) — *2025-10-20*
 - [阻塞性睡眠呼吸暂停低通气（Obstructive Sleep Apnea Hypopnea，OSAH）](../entries/Obstructive-Sleep-Apnea-Hypopnea.md) — *2025-10-20*
 - [阿片类相关障碍（Opioid-Related Disorders）](../entries/Opioid-Related-Disorders.md) — *2025-10-20*
