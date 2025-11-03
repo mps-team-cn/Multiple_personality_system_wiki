@@ -341,6 +341,196 @@
   .mid60-legend { font-size: .7rem; }
   .mid60-subgrid { grid-template-columns: 1fr; }
   .mid60-section-title { font-size: .95rem; }
+
+  /* ========== 手机端深色卡片式布局 ========== */
+
+  /* 隐藏原有的分组标题 */
+  .mid60-results .mid60-section-title {
+    display: none;
+  }
+
+  /* 结果区域改为卡片流布局 */
+  .mid60-results {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  /* 每个分组转为深色卡片 */
+  .mid60-subgrid {
+    display: block;
+    background: #1e2228;
+    border-radius: 16px;
+    padding: 20px 16px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  /* 亮色主题适配 */
+  [data-md-color-scheme="default"] .mid60-subgrid {
+    background: #f5f5f5;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+
+  /* 分组标题 - 带图标风格 */
+  .mid60-subgrid .mid60-group-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 1.15rem;
+    color: #ffffff;
+    margin-bottom: 16px;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  /* 亮色主题下标题颜色 */
+  [data-md-color-scheme="default"] .mid60-subgrid .mid60-group-title {
+    color: #1e293b;
+  }
+
+  /* 为不同组别添加图标 */
+  .mid60-subgrid .mid60-group-title::before {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+
+  /* DID/OSDD 组 */
+  .mid60-subgrid .mid60-group-title[data-group="did-osdd"]::before {
+    content: '🧠';
+  }
+
+  /* 人格解体/现实解体 */
+  .mid60-subgrid .mid60-group-title[data-group="dpdr"]::before {
+    content: '☁️';
+  }
+
+  /* 解离性失忆 */
+  .mid60-subgrid .mid60-group-title[data-group="amnesia"]::before {
+    content: '🧩';
+  }
+
+  /* PTSD */
+  .mid60-subgrid .mid60-group-title[data-group="ptsd"]::before {
+    content: '⚡';
+  }
+
+  /* 功能性神经症状障碍 */
+  .mid60-subgrid .mid60-group-title[data-group="fnsd"]::before {
+    content: '🔧';
+  }
+
+  /* 一般解离 */
+  .mid60-subgrid .mid60-group-title[data-group="general"]::before {
+    content: '🌀';
+  }
+
+  /* 子量表项重置 */
+  .mid60-subcard {
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin-bottom: 14px;
+  }
+
+  .mid60-subcard:last-child {
+    margin-bottom: 0;
+  }
+
+  /* 隐藏进度条 */
+  .mid60-subcard .mid60-progress {
+    display: none;
+  }
+
+  /* 子项行布局 */
+  .mid60-subcard .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 0;
+    padding: 10px 0;
+    position: relative;
+  }
+
+  /* 左侧标签 */
+  .mid60-subcard .label {
+    font-weight: 400;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    margin-bottom: 0;
+    color: #e4e4e7;
+    transition: color 0.2s ease;
+    flex: 1;
+  }
+
+  /* 亮色主题下标签颜色 */
+  [data-md-color-scheme="default"] .mid60-subcard .label {
+    color: #334155;
+  }
+
+  /* 右侧数值 */
+  .mid60-subcard .row .mid60-badge {
+    min-width: auto;
+    width: auto;
+    background: transparent;
+    color: #71717a;
+    padding: 0;
+    font-weight: 600;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+  }
+
+  /* 亮色主题下数值颜色 */
+  [data-md-color-scheme="default"] .mid60-subcard .row .mid60-badge {
+    color: #64748b;
+  }
+
+  /* 隐藏临界值文字 */
+  .mid60-subcard .cutoff {
+    display: none;
+  }
+
+  /* 移除百分号后缀 */
+  .mid60-subcard .row .mid60-badge::after {
+    content: none;
+  }
+
+  /* 超阈值样式 */
+  .mid60-subcard.over-threshold .label {
+    color: #fca5a5;
+  }
+
+  .mid60-subcard.over-threshold .row .mid60-badge {
+    color: #ef4444;
+    font-weight: 700;
+  }
+  /* 超阈值：给左侧加一条红竖线，更容易截图看出来 */
+  .mid60-subcard.over-threshold .row {
+    border-left: 3px solid #ef4444;
+    padding-left: 12px; /* 抵消一下 */
+  }
+
+  /* 正常范围样式 */
+  .mid60-subcard:not(.over-threshold) .row .mid60-badge {
+    color: #71717a;
+  }
+
+  /* 卡片底部状态总结 */
+  .mid60-subgrid .mid60-group-summary {
+    margin-top: 16px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    line-height: 1.5;
+    background: rgba(34, 197, 94, 0.15);
+    color: #4ade80;
+  }
+
+  /* 超标状态样式会由JS动态修改文本内容 */
 }
 
 /* 更窄屏进一步优化 */
