@@ -30,6 +30,7 @@
         * [偷窃癖（Kleptomania）](entries/Kleptomania.md)
         * [兴奋剂相关障碍（Stimulant-Related Disorders）](entries/Stimulant-Related-Disorders.md)
         * [其他医疗状况所致焦虑障碍（Anxiety Disorder Due to Another Medical Condition）](entries/Anxiety-Disorder-Due-to-Another-Medical-Condition.md)
+        * [其他特定/未特定人格障碍（Other Specified/Unspecified Personality Disorder）](entries/Other-Specified-or-Unspecified-Personality-Disorder.md)
         * [其他特定/未特定性别不安（Other Specified/Unspecified Gender Dysphoria）](entries/Other-Specified-Unspecified-Gender-Dysphoria.md)
         * [其他特定/未特定的焦虑障碍（Other Specified or Unspecified Anxiety Disorder）](entries/Other-Specified-or-Unspecified-Anxiety-Disorder.md)
         * [其他特定或未特定创伤及应激相关障碍（Other Specified or Unspecified Trauma- and Stressor-Related Disorders）](entries/Other-Specified-or-Unspecified-Trauma-Stressor-Disorders.md)
