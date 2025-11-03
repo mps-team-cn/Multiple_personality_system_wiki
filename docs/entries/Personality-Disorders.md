@@ -70,6 +70,10 @@ updated: 2025-10-22
 - [依赖型人格障碍](Dependent-Personality-Disorder-DPD.md)：顺从与依附需求
 - [强迫型人格障碍](Obsessive-Compulsive-Personality-Disorder-OCPD.md)：完美主义与控制（注意区分 OCD）
 
+**其他特定/未特定类别**：
+
+- [其他特定/未特定人格障碍](Other-Specified-or-Unspecified-Personality-Disorder.md)：不符合特定诊断标准但符合人格障碍通用标准的模式
+
 ### ICD-11 摘要
 
 **人格障碍（6D10-6D11）**：
@@ -209,6 +213,10 @@ updated: 2025-10-22
 - [回避型人格障碍（AvPD）](Avoidant-Personality-Disorder-AvPD.md)
 - [依赖型人格障碍（DPD）](Dependent-Personality-Disorder-DPD.md)
 - [强迫型人格障碍（OCPD）](Obsessive-Compulsive-Personality-Disorder-OCPD.md)
+
+### 其他特定/未特定类别
+
+- [其他特定/未特定人格障碍](Other-Specified-or-Unspecified-Personality-Disorder.md)
 
 ### 共病与治疗相关
 

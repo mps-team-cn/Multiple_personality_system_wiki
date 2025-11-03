@@ -286,7 +286,7 @@ comments: true
     - [x] Avoidant-Personality-Disorder-AvPD.md
     - [x] Dependent-Personality-Disorder-DPD.md
     - [x] Obsessive-Compulsive-Personality-Disorder-OCPD.md
-- [ ] Other-Specified-or-Unspecified-Personality-Disorder.md
+- [x] Other-Specified-or-Unspecified-Personality-Disorder.md
 
 ## 19. 性欲倒错障碍（Paraphilic Disorders）
 
