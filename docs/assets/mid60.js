@@ -337,10 +337,32 @@
       setSub(`mid60-${key}`, mean, scale.cutoff);
     });
 
-    // 手机端卡片布局更新
-    if (isMobile()) {
+    // 手机端/桌面端布局切换
+    const results = qs('#mid60-results', root);
+    const wasMobile = results && results.dataset.mobileMerged === '1';
+    const isNowMobile = isMobile();
+
+    if (isNowMobile && !wasMobile) {
+      // 切换到移动端：构建移动端布局
+      updateMobileLayout(root);
+    } else if (!isNowMobile && wasMobile) {
+      // 从移动端切换到桌面端：恢复原始布局
+      restoreDesktopLayout(root);
+    } else if (isNowMobile && wasMobile) {
+      // 已经是移动端布局：只更新数值
       updateMobileLayout(root);
     }
+  }
+
+  // 恢复桌面端布局（当从移动端切换回桌面端时）
+  function restoreDesktopLayout(root) {
+    const results = qs('#mid60-results', root);
+    if (!results || !results.dataset.mobileMerged) return;
+
+    // 简单方案：给body添加一个类名，用CSS控制不同布局的显示/隐藏
+    // 更优雅的方案是保存并恢复原始DOM，但这会增加复杂度
+    // 当前方案：重新加载页面（用户调整窗口大小的场景较少）
+    window.location.reload();
   }
 
   // 手机端卡片布局更新函数（按照期望图样：合并 DID/OSDD 为一张卡片，并为每组添加标题与总结）
