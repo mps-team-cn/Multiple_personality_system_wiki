@@ -214,7 +214,7 @@ comments: true
 一句话定位：性别认同与出生指定性别不一致所致显著痛苦或功能损害。
 
 - [x] Gender-Dysphoria-GD.md      <!-- 儿童 / 青少-成人 合并讲解 -->
-- [ ] Other-Specified-or-Unspecified-Gender-Dysphoria.md
+- [x] Other-Specified-or-Unspecified-Gender-Dysphoria.md
 
 ## 15. 破坏性、冲动控制及品行障碍（Disruptive, Impulse-Control, and Conduct Disorders）
 
