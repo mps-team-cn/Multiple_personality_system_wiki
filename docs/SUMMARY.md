@@ -296,6 +296,7 @@
         * [青少年成员（Teen Alter）](entries/Teen-Alter.md)
         * [非人类成员（Nonhuman Alter）](entries/Nonhuman-Alter.md)
     * [理论与分类](guides/Theory-Classification-index.md)
+        * [Tulpa 判定标准与系统类型指引](entries/Tulpa-Classification-Guide-Ise.md)
         * [人本主义心理学（Humanistic Psychology）](entries/Humanistic-Psychology.md)
         * [人格结构理论（Personality Structure Theory, Freud）](entries/Personality-Structure-Theory.md)
         * [依恋理论（Attachment Theory）](entries/Attachment-Theory.md)
