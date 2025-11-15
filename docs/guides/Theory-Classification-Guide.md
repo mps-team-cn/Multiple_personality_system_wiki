@@ -96,6 +96,7 @@ search:
 - 🪞 [防御性解离](../entries/Defensive-Dissociation.md)：解离作为防御策略的条件与影响。
 - 🧬 [多意识体系统中的创伤功能分化](../entries/Functional-Dissociation-of-Trauma-in-Plural-Systems.md)：创伤记忆、情绪与承受力的分离机制；结合双重表征模型与神经生物学证据。
 - 🧭 [弦羽理论生态位分类法](../entries/Xianyu-Theory-Niche-Classification.md)：从“功能生态位”角度划分单一型、混合型、家族式与系魂型系统。
+- 🌀 [Tulpa 判定标准与系统类型指引](../entries/Tulpa-Classification-Guide-Ise.md)：根据刿-伊势系统总结创造型意识体的阶段、解离影响与风险信号，帮助辨析 Tulpa 与解离性系统边界。
 
 ---
 
