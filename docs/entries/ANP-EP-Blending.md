@@ -130,6 +130,7 @@ updated: 2025-11-17
 - [共前台（Co-Fronting）](Co-Fronting.md)
 - [切换（Switch）](Switch.md)
 - [接地（Grounding）](Grounding.md)
+- [观察者 ANP 切换（Observer ANP Switch）](Observer-ANP-Switch.md)
 
 ---
 
