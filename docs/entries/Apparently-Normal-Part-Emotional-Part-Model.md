@@ -409,6 +409,8 @@ ANP-EP 模型的治疗遵循国际创伤与解离研究学会（ISSTD）的三�
 - [自动驾驶（Autopilot）](Autopilot.md)
 - [共同意识（Co-Consciousness）](Co-Consciousness.md)
 - [融合（Fusion）](Fusion.md)
+- [ANP–EP 混溶（ANP–EP Blending）](ANP-EP-Blending.md)
+- [观察者 ANP 切换（Observer ANP Switch）](Observer-ANP-Switch.md)
 
 ### 创伤与疗愈
 
