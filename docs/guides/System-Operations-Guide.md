@@ -46,6 +46,7 @@ search:
 - 👥 [共前台（Co-Fronting）](../entries/Co-Fronting.md)：多人并行执掌的分工与风险。
 - 🌫️ [前台模糊（Front Blur）](../entries/Front-Blur.md)：无法确定谁在前台的状态识别与应对。
 - 🌀 [混合（Blending）](../entries/Blending.md)：（社群用语，非诊断）边界模糊、记忆渗透的识别与处置。
+- 🧪 [ANP–EP 混溶（ANP–EP Blending）](../entries/ANP-EP-Blending.md)：结构性解离语境下，日常执行者与创伤反应者暂时交叠时的识别与稳定策略。
 - 🧭 [并行（Parallelism）](../entries/Parallelism.md)：多条意识流同时运行时的负荷管理。
 - 🔙 [后台（Back / Being Back）](../entries/Back-Being-Back.md)：退到后台后的支持方式。
 - 🤖 [自动驾驶（Autopilot）](../entries/Autopilot.md)："机械操作"状态与恢复觉察。
