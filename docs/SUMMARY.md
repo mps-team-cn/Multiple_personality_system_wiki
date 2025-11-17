@@ -168,6 +168,7 @@
         * [额颞叶变性性神经认知障碍（NCD due to Frontotemporal Degeneration）](entries/NCD-Due-to-Frontotemporal-Degeneration.md)
     * [系统运作](guides/System-Operations-index.md)
         * [ANP-EP 模型（Apparently Normal Part–Emotional Part Model）](entries/Apparently-Normal-Part-Emotional-Part-Model.md)
+        * [ANP–EP 混溶（ANP–EP Blending）](entries/ANP-EP-Blending.md)
         * [T 语(Tulpish)](entries/Tulpish.md)
         * [侵入性思维（Intrusive Thoughts）](entries/Intrusive-Thoughts.md)
         * [侵入性记忆（Intrusive Memory）](entries/Intrusive-Memory.md)
