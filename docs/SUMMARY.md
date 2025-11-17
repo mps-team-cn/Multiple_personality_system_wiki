@@ -214,6 +214,7 @@
         * [结构性解离理论（Theory of Structural Dissociation of the Personality, TSDT）](entries/Structural-Dissociation-Theory.md)
         * [自动驾驶（Autopilot）](entries/Autopilot.md)
         * [融合（Fusion）](entries/Fusion.md)
+        * [观察者 ANP 切换（Observer ANP Switch）](entries/Observer-ANP-Switch.md)
         * [角色面具（Masking / Social Masking）](entries/Masking.md)
         * [解离（Dissociation）](entries/Dissociation.md)
         * [触发（Trigger）](entries/Trigger.md)
