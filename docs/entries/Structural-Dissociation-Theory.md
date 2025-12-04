@@ -86,6 +86,7 @@ updated: 2025-10-20
 - [融合（Fusion）](Fusion.md)
 - [醉酒解离（Alcohol-Induced Dissociation）](Alcohol-Induced-Dissociation.md)
 - [人格职能（System Roles）](System-Roles.md)
+- [ANP/EP 常见功能类型](ANP-EP-Functional-Roles.md)
 
 ## 参考资料
 
