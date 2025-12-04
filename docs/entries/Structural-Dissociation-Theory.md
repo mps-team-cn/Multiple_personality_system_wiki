@@ -20,7 +20,7 @@ tags:
 
 title: 结构性解离理论（Theory of Structural Dissociation of the Personality, TSDT）
 topic: 系统运作
-updated: 2025-10-20
+updated: 2025-12-04
 ---
 
 # 结构性解离理论（Theory of Structural Dissociation of the Personality, TSDT）

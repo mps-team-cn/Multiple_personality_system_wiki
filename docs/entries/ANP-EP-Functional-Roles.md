@@ -2,18 +2,20 @@
 title: ANP/EP 常见功能类型（Functional Roles of ANP/EP）
 tags:
 
-  - ops:系统运作
-  - theory:结构性解离
-  - sx:切换
-  - role:保护者
+    - ops:系统运作
+    - theory:结构性解离
+    - sx:切换
+    - role:保护者
+
 topic: 系统运作
 synonyms:
 
-  - ANP-EP 功能划分
-  - ANP-EP 功能类型
-  - ANP-EP Roles
+    - ANP-EP 功能划分
+    - ANP-EP 功能类型
+    - ANP-EP Roles
+
 description: 基于结构性解离框架梳理 ANP 与 EP 在日常与创伤反应中的常见功能组合、触发情境与风险提示，强调参考性质与安全策略。
-updated: 2025-02-20
+updated: 2025-12-04
 comments: true
 ---
 
@@ -23,6 +25,7 @@ comments: true
     以下分类仅为 **功能概念**，用于自我观察或沟通，并非 ICD/DSM 诊断。不同系统的成员组合差异很大，请避免对号入座，如有痛苦或功能受损请咨询专业人员。
 
 !!! info "理论定位"
+
     - 依据[结构性解离理论](Structural-Dissociation-Theory.md)与[ANP-EP 模型](Apparently-Normal-Part-Emotional-Part-Model.md)整理。
     - 侧重识别 **日常执行（ANP）** 与 **情绪/创伤反应（EP）** 的功能搭配，辅助评估[切换（Switch）](Switch.md)模式与风险。
 
@@ -108,31 +111,31 @@ comments: true
 
 ### 内在儿童（Child Parts）
 
-- 情绪直接、需求纯粹（安全、被抱、被看见），对依附变化极其敏感。  
+- 情绪直接、需求纯粹（安全、被抱、被看见），对依附变化极其敏感。
 - 常在身体不适、环境陌生或他人态度突然变冷/变硬时浮现。
 
 ### 常见混合型
 
-- 兼具社交与情绪承载：能对外温柔沟通，但易被情绪耗竭。  
-- 功能 + 防御：对外应对得体，同时承担压力与敏感度。  
+- 兼具社交与情绪承载：能对外温柔沟通，但易被情绪耗竭。
+- 功能 + 防御：对外应对得体，同时承担压力与敏感度。
 - 高度关系敏感：在亲密互动中同时处理外部期待与内部情绪。
 
 ---
 
 ## 系统分布与使用建议
 
-- **常见数量**：一个系统通常有 **3–8 种主要功能类型**，人数多少并非重点，关键在“功能组合”如何分担。  
-- **识别价值**：记录不同类型的前台时机、触发与体感，有助于预判[切换](Switch.md)或[ANP–EP 混溶](ANP-EP-Blending.md)风险。  
+- **常见数量**：一个系统通常有 **3–8 种主要功能类型**，人数多少并非重点，关键在“功能组合”如何分担。
+- **识别价值**：记录不同类型的前台时机、触发与体感，有助于预判[切换](Switch.md)或[ANP–EP 混溶](ANP-EP-Blending.md)风险。
 - **安全策略**：
-    - 使用[接地（Grounding）](Grounding.md)与外部锚点保持现实定向，必要时暂停高风险任务（驾驶、照护）。  
-    - 与团队成员/治疗师共拟“谁在什么情境接手”“无法承受时的退出信号”。  
+    - 使用[接地（Grounding）](Grounding.md)与外部锚点保持现实定向，必要时暂停高风险任务（驾驶、照护）。
+    - 与团队成员/治疗师共拟“谁在什么情境接手”“无法承受时的退出信号”。
     - 若出现失忆、强烈自伤/攻击冲动或无法恢复功能，请寻求专业支持。
 
 ---
 
 ## 参考与延伸阅读
 
-- [ANP-EP 模型](Apparently-Normal-Part-Emotional-Part-Model.md)：理论框架与层级。  
-- [结构性解离理论](Structural-Dissociation-Theory.md)：模型来源与诊断关联。  
-- [切换（Switch）](Switch.md)、[混合（Blending）](Blending.md)、[ANP–EP 混溶](ANP-EP-Blending.md)：动态过程的识别。  
+- [ANP-EP 模型](Apparently-Normal-Part-Emotional-Part-Model.md)：理论框架与层级。
+- [结构性解离理论](Structural-Dissociation-Theory.md)：模型来源与诊断关联。
+- [切换（Switch）](Switch.md)、[混合（Blending）](Blending.md)、[ANP–EP 混溶](ANP-EP-Blending.md)：动态过程的识别。
 - [保护者](Protector.md)、[内部沟通](Internal-Communication.md)：分工与协作工具。
