@@ -21,7 +21,7 @@ search:
 
 - :material-lightbulb-on: **核心概念**
 
-    从解离谱系切入，厘清 Tulpa 与 DID/OSDD 的界限，并以埃蒙加德分类搭建多意识体系统的理论地图
+    从解离谱系切入，理清 Tulpa 与 DID/OSDD 的界限，并以埃蒙加德分类搭建多意识体系统的理论地图
 
     [:octicons-arrow-right-24: 查看导览](Core-Concepts-Guide.md)
 
