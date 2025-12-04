@@ -20,7 +20,7 @@ tags:
 
 title: ANP-EP 模型（Apparently Normal Part–Emotional Part Model）
 topic: 系统运作
-updated: 2025-10-20
+updated: 2025-12-04
 ---
 
 # ANP-EP 模型（Apparently Normal Part–Emotional Part Model）
@@ -101,6 +101,9 @@ updated: 2025-10-20
         - **屈服（Submit）**：顺从、无助、崩溃
     - **数量**：一级结构性解离（PTSD）通常为 1 个；二级（CPTSD/OSDD）有多个；三级（DID）有多个。
     - **常见表现**：突然的情绪爆发、闪回、身体疼痛、侵入性记忆、在触发下"前台"导致行为或情绪的剧烈波动。
+
+!!! tip "想快速识别常见分工？"
+    结合功能实践可参考[ANP/EP 常见功能类型](ANP-EP-Functional-Roles.md)，梳理日常执行、情绪承载与保护角色的常见组合与触发情境。
 
 ### 结构性解离的层级
 
@@ -416,6 +419,8 @@ ANP-EP 模型的治疗遵循国际创伤与解离研究学会（ISSTD）的三�
 - [自动驾驶（Autopilot）](Autopilot.md)
 - [共同意识（Co-Consciousness）](Co-Consciousness.md)
 - [融合（Fusion）](Fusion.md)
+- [ANP–EP 混溶（ANP–EP Blending）](ANP-EP-Blending.md)
+- [观察者 ANP 切换（Observer ANP Switch）](Observer-ANP-Switch.md)
 
 ### 创伤与疗愈
 

@@ -2,19 +2,21 @@
 comments: true
 description: 描述结构性解离框架下表面正常部分与情绪部分边界暂时融混的现象，说明识别特征、诱因、临床风险与系统自助策略。
 synonyms:
-  - ANP-EP 混融
-  - 表面正常部分-情绪部分混合
-  - ANP–EP Blending
-  - ANP/EP 混溶
+
+    - ANP-EP 混融
+    - 表面正常部分-情绪部分混合
+    - ANP–EP Blending
+    - ANP/EP 混溶
 
 tags:
-  - ops:系统运作
-  - theory:结构性解离
-  - sx:共意识
+
+    - ops:系统运作
+    - theory:结构性解离
+    - sx:共意识
 
 title: ANP–EP 混溶（ANP–EP Blending）
 topic: 系统运作
-updated: 2025-10-23
+updated: 2025-11-17
 ---
 
 # ANP–EP 混溶（ANP–EP Blending）
@@ -22,6 +24,7 @@ updated: 2025-10-23
 **一句话定义**：ANP–EP 混溶指结构性解离模型中，表面正常部分（ANP）与情绪部分（EP）的功能边界在短时间内模糊、彼此渗透的状态，表现为“日常执行者”与“创伤反应者”同时影响前台意识与行为。
 
 !!! info "术语定位"
+
     - **来源**：基于[结构性解离理论](Structural-Dissociation-Theory.md)与[ANP-EP 模型](Apparently-Normal-Part-Emotional-Part-Model.md)的临床/现象学描述。
     - **性质**：现象级别语言，非 ICD/DSM 诊断术语；与社群用语“混合（Blending）”相关但范围更窄，聚焦 ANP/EP 功能。
     - **适用情境**：复杂 PTSD、OSDD、DID 或其他呈现 ANP/EP 功能分化的系统；需结合个案评估，避免泛化到所有多意识体验。
@@ -127,6 +130,7 @@ updated: 2025-10-23
 - [共前台（Co-Fronting）](Co-Fronting.md)
 - [切换（Switch）](Switch.md)
 - [接地（Grounding）](Grounding.md)
+- [观察者 ANP 切换（Observer ANP Switch）](Observer-ANP-Switch.md)
 
 ---
 

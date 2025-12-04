@@ -32,6 +32,7 @@ search:
 - 🧠 [神经多样性（Neurodiversity）](../entries/Neurodiversity.md)：以差异视角理解个体差异与共病交集。
 - 🧬 [结构性解离理论](../entries/Structural-Dissociation-Theory.md)：ANP/EP 架构与治疗启示。
 - ⚖️ [ANP-EP 模型](../entries/Apparently-Normal-Part-Emotional-Part-Model.md)：在协作与干预中的应用。
+- 🧭 [ANP/EP 常见功能类型](../entries/ANP-EP-Functional-Roles.md)：基于结构性解离的功能分工速览，协助识别切换风险与分担方式。
 
 ---
 
