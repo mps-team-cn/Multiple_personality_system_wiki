@@ -240,6 +240,7 @@
         * [学舌/操纵（Parroting/Puppeting）](entries/Parroting-Puppeting.md)
         * [成声（Vocality）](entries/Vocality.md)
     * [创伤与疗愈](guides/Trauma-Healing-index.md)
+        * [C-PTSD 常见应对模式类型(C-PTSD Coping Styles)](entries/C-PTSD-Coping-Styles.md)
         * [三阶段创伤治疗模型（Three-Phase Trauma Treatment）](entries/Three-Phase-Trauma-Treatment.md)
         * [内在家庭系统疗法（Internal Family Systems, IFS）](entries/Internal-Family-Systems-IFS.md)
         * [冥想(Meditation)](entries/Meditation.md)
