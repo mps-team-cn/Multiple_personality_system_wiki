@@ -183,8 +183,8 @@ comments: true
 - [x] Narcolepsy.md
 - [x] Breathing-Related-Sleep-Disorders.md
     - [x] Obstructive-Sleep-Apnea-Hypopnea.md
-    - [ ] Central-Sleep-Apnea.md
-    - [ ] Sleep-Related-Hypoventilation.md
+    - [x] Central-Sleep-Apnea.md
+    - [x] Sleep-Related-Hypoventilation.md
 - [x] Circadian-Rhythm-Sleep-Wake-Disorders.md
 - [ ] Parasomnias.md
     - [ ] NREM-Sleep-Arousal-Disorders.md
