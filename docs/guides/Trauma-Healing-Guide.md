@@ -145,6 +145,7 @@ updated: 2025-10-22
 
 | 词条 | 适用场景 | 核心收获 |
 |---|---|---|
+| [C-PTSD 常见应对模式类型](../entries/C-PTSD-Coping-Styles.md) | 长期复杂创伤下出现的主要生存策略 | 识别依附/情绪/控制/回避/解离/羞耻型模式，辅助自助与沟通 |
 | [惊恐触发后的功能性言语受阻](../entries/Functional-Speech-Inhibition-After-Trauma-Trigger.md) | 创伤触发后出现暂时失语或喉部僵紧 | 理解防御机制、分阶段自助与求助策略 |
 | [惊恐发作（Panic Attack）](../entries/Panic-Attack.md) | 反复惊恐、呼吸失控 | 识别触发、运用呼吸与接地稳定 |
 | [创伤性闪回（Flashback）](../entries/Flashback.md) | 侵入性再体验影响生活 | 区分闪回与解离、制定应对计划 |

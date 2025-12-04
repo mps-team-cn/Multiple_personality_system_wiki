@@ -282,6 +282,7 @@ CPTSD 与童年期长期、反复且无法逃离的[创伤（Trauma）](Trauma.m
 - [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
 - [谵妄（Delirium）](Delirium.md)
+- [C-PTSD 常见应对模式类型](C-PTSD-Coping-Styles.md)
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](DID.md)
 - [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
 
