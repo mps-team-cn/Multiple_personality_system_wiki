@@ -14,7 +14,7 @@ tags:
     - community:Tulpa
     - theory:创造型系统
 
-updated: 2025-11-15
+updated: 2025-12-05
 ---
 
 # Tulpa 判定标准与系统类型指引
