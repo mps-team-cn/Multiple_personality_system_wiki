@@ -170,6 +170,7 @@ search:
 
 ??? question "我不确定自己是什么类型的系统？"
     建议先阅读 [核心概念导览](guides/Core-Concepts-Guide.md) 了解类型差异。
+    若在 Tulpa/自创型意识体与解离性系统之间犹豫，可参考 [Tulpa 判定标准与系统类型指引](entries/Tulpa-Classification-Guide-Ise.md) 了解常见情境与风险提醒。
     记住：分类不是目的，理解自己与保障安全更重要。
 
 ??? question "我需要诊断吗？"
