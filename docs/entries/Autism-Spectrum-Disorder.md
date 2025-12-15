@@ -191,6 +191,11 @@ updated: 2025-10-22
 - 不同意识体成员可能在社交需求、感官敏感度和执行功能上存在显著差异，需要系统内部协商与角色分配。
 - 共享时间表、感官工具与沟通偏好清单，有助于在切换时维持功能连续性。
 - 鼓励系统成员参与外部支持网络（神经多样性社群、职业辅导）并尊重每位成员的认同语言（如使用“自闭者”或“自闭症人士”）。
+- 在共病的 [解离性身份障碍（DID）](DID.md) 系统中，ASD 的神经发育基础在所有成员间一致，但解离可将社交掩饰、感官负荷与崩溃应对等“功能模块”分配给不同身份，导致外显表型在身份间显著波动。[^isstd2011][^hull2017]
+- 临床观察与病例报告提示：
+    - 某些“外向/社交”身份可能高度调用掩饰策略以维持目光接触与寒暄；另一些身份则缺乏掩饰脚本，呈现典型的社交停顿或刻板行为。[^hull2017]
+    - 感官输入与情绪负荷可能被分隔到特定身份，表现为“在嘈杂环境下仍显平静”与“切换后立即捂耳或崩溃”的交替。[^isstd2011]
+    - 评估与干预需同时记录身份切换线索、掩饰耗竭感与过载触发点，确保安全计划与支持物品在系统内共享。[^isstd2011]
 
 ---
 
@@ -228,3 +233,5 @@ updated: 2025-10-22
 [^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
 [^who2023]: World Health Organization. (2023, March 30). *Autism*. [https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders](https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders)
 [^icd11]: World Health Organization. (2023). *International Classification of Diseases 11th Revision (ICD-11): 6A02 Autism spectrum disorder*. [https://icd.who.int/en](https://icd.who.int/en)
+[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation, 12*(2), 115-187. https://doi.org/10.1080/15299732.2011.537248
+[^hull2017]: Hull, L., Petrides, K. V., Allison, C., Smith, P., Baron-Cohen, S., Lai, M.-C., & Mandy, W. (2017). "Putting on My Best Normal": Social camouflaging in adults with autism spectrum conditions. *Journal of Autism and Developmental Disorders, 47*(8), 2519-2534. https://doi.org/10.1007/s10803-017-3166-5
