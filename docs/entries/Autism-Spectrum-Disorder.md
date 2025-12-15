@@ -15,7 +15,7 @@ tags:
 
 title: 孤独症谱系障碍（Autism Spectrum Disorder，ASD）
 topic: 诊断与临床
-updated: 2025-10-22
+updated: 2025-12-16
 ---
 
 # 孤独症谱系障碍（Autism Spectrum Disorder，ASD）
@@ -233,5 +233,5 @@ updated: 2025-10-22
 [^apa2022]: American Psychiatric Association. (2022). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed., text rev.). American Psychiatric Publishing.
 [^who2023]: World Health Organization. (2023, March 30). *Autism*. [https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders](https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders)
 [^icd11]: World Health Organization. (2023). *International Classification of Diseases 11th Revision (ICD-11): 6A02 Autism spectrum disorder*. [https://icd.who.int/en](https://icd.who.int/en)
-[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation, 12*(2), 115-187. https://doi.org/10.1080/15299732.2011.537248
-[^hull2017]: Hull, L., Petrides, K. V., Allison, C., Smith, P., Baron-Cohen, S., Lai, M.-C., & Mandy, W. (2017). "Putting on My Best Normal": Social camouflaging in adults with autism spectrum conditions. *Journal of Autism and Developmental Disorders, 47*(8), 2519-2534. https://doi.org/10.1007/s10803-017-3166-5
+[^isstd2011]: International Society for the Study of Trauma and Dissociation. (2011). Guidelines for treating dissociative identity disorder in adults, third revision. *Journal of Trauma & Dissociation, 12*(2), 115-187. [https://doi.org/10.1080/15299732.2011.537248](https://doi.org/10.1080/15299732.2011.537248)
+[^hull2017]: Hull, L., Petrides, K. V., Allison, C., Smith, P., Baron-Cohen, S., Lai, M.-C., & Mandy, W. (2017). "Putting on My Best Normal": Social camouflaging in adults with autism spectrum conditions. *Journal of Autism and Developmental Disorders, 47*(8), 2519-2534. [https://doi.org/10.1007/s10803-017-3166-5](https://doi.org/10.1007/s10803-017-3166-5)
