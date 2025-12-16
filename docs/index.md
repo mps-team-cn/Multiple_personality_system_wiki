@@ -16,7 +16,7 @@ search:
 
     - 为简化表述，本 Wiki 内容中使用的缩写 `MPS`，默认指代 `Multiple Personality System` (`MPS`)。
     - 请注意，社群中更常使用的中立性术语为 `Plural System`。同时，考虑到理论描述的精确性，`MPS` 亦可被理解为 `Multiple Consciousness System` (`MCS`)——一个专注于描述意识多元性本身的理论性术语。
-    - 读者可根据自身语境选择最合适的理解。
+    - 读者可根据自身语境选择最合适的理解。【此条不止适用于mps，其他词汇不同翻译版本如有争议以英文原文为主（因为dsm5自己就有好几个中文版本）】
 
 <!-- Hero Section -->
 <div class="mps-hero-minimal">
