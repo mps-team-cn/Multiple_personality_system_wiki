@@ -11,9 +11,9 @@ synonyms:
 
 tags:
 
-- guide:诊断与临床
-- dx:解离障碍
+- dx:双相及相关障碍
 - sx:创伤症状
+
 
 title: 双相 I 型障碍（Bipolar I Disorder）
 topic: 诊断与临床
