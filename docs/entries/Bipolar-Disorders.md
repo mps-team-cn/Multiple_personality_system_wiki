@@ -17,7 +17,6 @@ synonyms:
 tags:
 
 - dx:双相及相关障碍
-- dx:解离障碍
 - sx:创伤症状
 
 title: 双相障碍（Bipolar Disorders）
