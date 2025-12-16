@@ -21,7 +21,7 @@ tags:
 
 title: 双相障碍（Bipolar Disorders）
 topic: 诊断与临床
-updated: 2025-10-26
+updated: 2025-12-16
 ---
 
 # 双相障碍（Bipolar Disorders）
