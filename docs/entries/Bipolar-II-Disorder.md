@@ -14,10 +14,9 @@ tags:
 - dx:双相及相关障碍
 - sx:创伤症状
 
-
 title: 双相 II 型障碍（Bipolar II Disorder）
 topic: 诊断与临床
-updated: 2025-10-22
+updated: 2025-12-16
 ---
 
 # 双相 II 型障碍（Bipolar II Disorder）
