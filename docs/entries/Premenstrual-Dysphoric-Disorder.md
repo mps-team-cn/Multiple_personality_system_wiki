@@ -12,7 +12,7 @@ synonyms:
 tags:
 
 - dx:双相及相关障碍
-- dx:性别相关障碍
+- dx:性别不安
 - guide:诊断与临床
 
 title: 经前焦虑障碍（Premenstrual Dysphoric Disorder，PMDD）

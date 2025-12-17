@@ -12,7 +12,7 @@ synonyms:
 
 tags:
 
-- dx:性别相关障碍
+- dx:性别不安
 - guide:诊断与临床
 
 title: 其他特定/未特定性别不安（Other Specified/Unspecified Gender Dysphoria）
