@@ -17,7 +17,7 @@ tags:
 
 title: 其他特定/未特定性别不安（Other Specified/Unspecified Gender Dysphoria）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-12-17
 ---
 
 # 其他特定/未特定性别不安（Other Specified/Unspecified Gender Dysphoria）
