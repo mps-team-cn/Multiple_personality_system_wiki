@@ -227,7 +227,7 @@ search:
 
     - [创伤后应激障碍（PTSD）](../entries/PTSD.md) — :octicons-check-16: 已完成
     - [复杂创伤后应激障碍（CPTSD）](../entries/CPTSD.md) — :octicons-check-16: 已完成
-    - [闪回（Flashback）](../entries/Flashback.md) / [习得性无助（Learned Helplessness）](../entries/Learned-Helplessness.md) — :octicons-check-16: 已完成
+    - [闪回（Flashback）](../entries/Flashback.md) — :octicons-check-16: 已完成
     - [急性应激障碍（ASD）](../entries/Acute-Stress-Disorder-ASD.md) — :octicons-check-16: 已完成
     - [适应障碍（Adjustment Disorders）](../entries/Adjustment-Disorders.md) — :octicons-check-16: 已完成
     - [长期哀伤障碍（Prolonged Grief Disorder）](../entries/Prolonged-Grief-Disorder.md) — :octicons-check-16: 已完成

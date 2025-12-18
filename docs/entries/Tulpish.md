@@ -6,8 +6,7 @@ search:
 tags:
 
 - ops:系统运作
-- sx:创伤症状
-- dx:解离障碍
+- community:社群用语
 
 title: T 语(Tulpish)
 topic: 系统运作

@@ -3,8 +3,7 @@ comments: true
 tags:
 
 - role:系统角色
-- dx:解离障碍
-- sx:创伤症状
+- community:社群用语
 
 title: 系魂（Soulbond）
 topic: 角色与身份
