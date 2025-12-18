@@ -117,7 +117,7 @@ description: 致谢所有为 MPS Wiki 付出的维护者与贡献者，记录核
 
     ![youFRT](https://github.com/youFRT.png){ width="80" style="border-radius: 50%;" }
 
-    **youFRT**
+    **FRT系统**
 
     **角色:** 核心贡献者
 
