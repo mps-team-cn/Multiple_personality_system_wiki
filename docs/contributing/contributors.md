@@ -99,6 +99,30 @@ description: 致谢所有为 MPS Wiki 付出的维护者与贡献者，记录核
 
     **主要贡献:** 程序开发、技术架构、工具优化
 
+-   :fontawesome-solid-star: [**@LOGOSwenchuan89**](https://github.com/LOGOSwenchuan89)
+
+    ---
+
+    ![LOGOSwenchuan89](https://github.com/LOGOSwenchuan89.png){ width="80" style="border-radius: 50%;" }
+
+    **LOGOSwenchuan89**
+
+    **角色:** 核心贡献者
+
+    **主要贡献:** 纠错检查、问题校对
+
+-   :fontawesome-solid-star: [**@youFRT**](https://github.com/youFRT)
+
+    ---
+
+    ![youFRT](https://github.com/youFRT.png){ width="80" style="border-radius: 50%;" }
+
+    **youFRT**
+
+    **角色:** 核心贡献者
+
+    **主要贡献:** Tulpa 社区词条贡献、内容线索提供
+
 </div>
 
 ---
@@ -118,6 +142,8 @@ description: 致谢所有为 MPS Wiki 付出的维护者与贡献者，记录核
 | ![](https://github.com/mouzhiw.png){ width="40" style="border-radius: 50%;" }              | [@mouzhiw](https://github.com/mouzhiw)                           | 医学相关信息提供、专业知识咨询         |
 | ![](https://github.com/origin652.png){ width="40" style="border-radius: 50%;" }            | [@origin652](https://github.com/origin652)                       | Tulpa相关信息提供、专业知识咨询        |
 | ![](https://github.com/UnwhiteCat.png){ width="40" style="border-radius: 50%;" }           | [@UnwhiteCat](https://github.com/UnwhiteCat)                     | 程序开发、技术架构、工具优化           |
+| ![](https://github.com/LOGOSwenchuan89.png){ width="40" style="border-radius: 50%;" }      | [@LOGOSwenchuan89](https://github.com/LOGOSwenchuan89)           | 纠错检查、问题校对                     |
+| ![](https://github.com/youFRT.png){ width="40" style="border-radius: 50%;" }               | [@youFRT](https://github.com/youFRT)                             | Tulpa 社区词条贡献、内容线索提供       |
 | ![](https://github.com/yao-jiuqing.png){ width="40" style="border-radius: 50%;" }          | [@yao-jiuqing](https://github.com/yao-jiuqing)                   | 词条编写、内容贡献                     |
 | ![](https://github.com/raven027192.png){ width="40" style="border-radius: 50%;" }          | [@raven027192](https://github.com/raven027192)                   | 词条编写、内容贡献                     |
 | ![](https://github.com/XingY-YuXi.png){ width="40" style="border-radius: 50%;" }           | [@XingY-YuXi](https://github.com/XingY-YuXi)                     | Bug 报告、问题反馈                     |
