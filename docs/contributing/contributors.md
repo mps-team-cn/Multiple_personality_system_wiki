@@ -135,6 +135,18 @@ description: 致谢所有为 MPS Wiki 付出的维护者与贡献者，记录核
 
     **主要贡献:** Tulpa 社区词条贡献、内容线索提供
 
+-   :fontawesome-solid-star: [**@yao-jiuqing**](https://github.com/yao-jiuqing)
+
+    ---
+
+    ![yao-jiuqing](https://github.com/yao-jiuqing.png){ width="80" style="border-radius: 50%;" }
+
+    **yao-jiuqing**
+
+    **角色:** 核心贡献者
+
+    **主要贡献:** 词条编写、内容贡献
+
 </div>
 
 ---
