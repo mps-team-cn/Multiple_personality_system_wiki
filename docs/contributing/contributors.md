@@ -75,6 +75,18 @@ description: 致谢所有为 MPS Wiki 付出的维护者与贡献者，记录核
 
     **主要贡献:** 医学相关信息提供、专业知识咨询
 
+-   :fontawesome-solid-star: [**@Ling-Ri-System**](https://github.com/Ling-Ri-System)
+
+    ---
+
+    ![Ling-Ri-System](https://github.com/Ling-Ri-System.png){ width="80" style="border-radius: 50%;" }
+
+    **凌日系统**
+
+    **角色:** 核心贡献者
+
+    **主要贡献:** 词条纠错、医学相关内容支持
+
 -   :fontawesome-solid-star: [**@origin652**](https://github.com/origin652)
 
     ---
@@ -140,6 +152,7 @@ description: 致谢所有为 MPS Wiki 付出的维护者与贡献者，记录核
 | ![](https://github.com/fengqingyu430-collab.png){ width="40" style="border-radius: 50%;" } | [@fengqingyu430-collab](https://github.com/fengqingyu430-collab) | 词条编写、翻译优化                     |
 | ![](https://github.com/GrainRR.png){ width="40" style="border-radius: 50%;" }              | [@GrainRR](https://github.com/GrainRR)                           | Tulpa相关信息提供、专业知识咨询        |
 | ![](https://github.com/mouzhiw.png){ width="40" style="border-radius: 50%;" }              | [@mouzhiw](https://github.com/mouzhiw)                           | 医学相关信息提供、专业知识咨询         |
+| ![](https://github.com/Ling-Ri-System.png){ width="40" style="border-radius: 50%;" }       | [@Ling-Ri-System](https://github.com/Ling-Ri-System)             | 词条纠错、医学相关内容支持             |
 | ![](https://github.com/origin652.png){ width="40" style="border-radius: 50%;" }            | [@origin652](https://github.com/origin652)                       | Tulpa相关信息提供、专业知识咨询        |
 | ![](https://github.com/UnwhiteCat.png){ width="40" style="border-radius: 50%;" }           | [@UnwhiteCat](https://github.com/UnwhiteCat)                     | 程序开发、技术架构、工具优化           |
 | ![](https://github.com/LOGOSwenchuan89.png){ width="40" style="border-radius: 50%;" }      | [@LOGOSwenchuan89](https://github.com/LOGOSwenchuan89)           | 纠错检查、问题校对                     |
@@ -148,7 +161,7 @@ description: 致谢所有为 MPS Wiki 付出的维护者与贡献者，记录核
 | ![](https://github.com/raven027192.png){ width="40" style="border-radius: 50%;" }          | [@raven027192](https://github.com/raven027192)                   | 词条编写、内容贡献                     |
 | ![](https://github.com/XingY-YuXi.png){ width="40" style="border-radius: 50%;" }           | [@XingY-YuXi](https://github.com/XingY-YuXi)                     | Bug 报告、问题反馈                     |
 | ![](https://github.com/Jellyfish-eng.png){ width="40" style="border-radius: 50%;" }        | [@Jellyfish-eng](https://github.com/Jellyfish-eng)               | 词条线索提供                           |
-| ![](https://github.com/dugucanfeng.png){ width="40" style="border-radius: 50%;" }          | [@dugucanfeng](https://github.com/dugucanfeng)                   | 词条线索提供                           |
+| ![](https://github.com/dugucanfeng.png){ width="40" style="border-radius: 50%;" }          | [@dugucanfeng](https://github.com/dugucanfeng)                   | 词条线索、部分词条内容支持（非核心贡献者） |
 
 ### 查看完整贡献者列表
 
