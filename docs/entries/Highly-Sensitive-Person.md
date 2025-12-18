@@ -13,7 +13,7 @@ tags:
 
 title: 高敏感人群（Highly Sensitive Person, HSP）
 topic: 理论与分类
-updated: 2025-10-20
+updated: 2025-12-18
 ---
 
 # 高敏感人群（Highly Sensitive Person, HSP）

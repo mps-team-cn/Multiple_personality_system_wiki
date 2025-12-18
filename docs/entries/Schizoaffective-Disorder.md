@@ -13,7 +13,7 @@ tags:
 
 title: 分裂情感性障碍（Schizoaffective Disorder, SZA）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-12-18
 ---
 
 # 分裂情感性障碍（Schizoaffective Disorder, SZA）

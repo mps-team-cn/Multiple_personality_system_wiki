@@ -16,7 +16,7 @@ tags:
 
 title: 习得性无助(Learned Helplessness)
 topic: 理论与分类
-updated: 2025-10-20
+updated: 2025-12-18
 ---
 
 # 习得性无助(Learned Helplessness)

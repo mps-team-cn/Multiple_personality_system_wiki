@@ -7,7 +7,7 @@ tags:
 
 title: 系魂（Soulbond）
 topic: 角色与身份
-updated: 2025-10-20
+updated: 2025-12-18
 ---
 
 # 系魂（Soulbond）

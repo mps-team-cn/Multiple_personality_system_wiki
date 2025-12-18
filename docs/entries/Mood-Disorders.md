@@ -15,7 +15,7 @@ tags:
 
 title: 情感障碍（Mood Disorders）
 topic: 理论与分类
-updated: 2025-10-20
+updated: 2025-12-18
 ---
 
 # 情感障碍（Mood Disorders）

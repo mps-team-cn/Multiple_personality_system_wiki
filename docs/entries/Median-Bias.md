@@ -13,7 +13,7 @@ tags:
 
 title: 谱系中间者（Median）
 topic: 系统运作
-updated: 2025-10-20
+updated: 2025-12-18
 ---
 
 # 谱系中间者（Median）

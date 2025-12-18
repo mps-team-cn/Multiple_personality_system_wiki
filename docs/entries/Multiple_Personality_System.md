@@ -21,7 +21,7 @@ tags:
 
 title: 多意识体系统（Multiple Personality System）
 topic: 系统运作
-updated: 2025-10-20
+updated: 2025-12-18
 ---
 
 # 多意识体系统（Multiple Personality System）

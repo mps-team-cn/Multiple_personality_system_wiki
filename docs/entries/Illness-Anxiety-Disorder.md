@@ -14,7 +14,7 @@ tags:
 
 title: 疾病焦虑障碍(Illness Anxiety Disorder,IAD)
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-12-18
 ---
 
 # 疾病焦虑障碍(Illness Anxiety Disorder,IAD)

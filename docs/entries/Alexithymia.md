@@ -15,7 +15,7 @@ tags:
 
 title: 述情障碍（Alexithymia）
 topic: 诊断与临床
-updated: 2025-10-22
+updated: 2025-12-18
 ---
 
 # 述情障碍（Alexithymia）

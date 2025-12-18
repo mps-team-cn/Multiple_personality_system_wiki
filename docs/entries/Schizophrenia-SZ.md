@@ -11,7 +11,7 @@ tags:
 
 title: 精神分裂症（Schizophrenia，SZ/SCZ）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2025-12-18
 ---
 
 # 精神分裂症（Schizophrenia，SZ/SCZ）
