@@ -92,7 +92,6 @@ hide:
 - [疾病焦虑障碍(Illness Anxiety Disorder,IAD)](../entries/Illness-Anxiety-Disorder.md) — *2025-10-20*
 - [失眠障碍(Insomnia Disorder)](../entries/Insomnia-Disorder.md) — *2025-10-20*
 - [智力发育障碍（Intellectual Developmental Disorders）](../entries/Intellectual-Developmental-Disorders.md) — *2025-10-20*
-- [习得性无助(Learned Helplessness)](../entries/Learned-Helplessness.md) — *2025-10-20*
 - [躁狂（Mania）](../entries/Mania.md) — *2025-10-20*
 - [重度与轻度神经认知障碍（Major and Mild Neurocognitive Disorders）](../entries/Major-Mild-Neurocognitive-Disorders.md) — *2025-11-01*
 - [改良电痉挛治疗（Modified Electroconvulsive Therapy, MECT）](../entries/Modified-Electroconvulsive-Therapy-MECT.md) — *2025-10-20*

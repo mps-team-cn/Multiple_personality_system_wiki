@@ -8,8 +8,8 @@ synonyms:
 
 tags:
 
-- dx:解离障碍
-- sx:创伤症状
+- community:社群用语
+- theory:差异易感性
 
 title: 高敏感人群（Highly Sensitive Person, HSP）
 topic: 理论与分类

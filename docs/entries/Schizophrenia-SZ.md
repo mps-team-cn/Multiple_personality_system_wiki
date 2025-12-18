@@ -7,8 +7,7 @@ search:
 tags:
 
 - guide:诊断与临床
-- dx:解离障碍
-- sx:创伤症状
+- dx:精神病性障碍
 
 title: 精神分裂症（Schizophrenia，SZ/SCZ）
 topic: 诊断与临床

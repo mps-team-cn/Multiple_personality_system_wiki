@@ -63,6 +63,7 @@ search:
 - 🧩 [学习与条件反射](../entries/Learning-Conditioning.md)：经典/操作制约与观察学习。
 - ⚖️ [认知失调](../entries/Cognitive-Dissonance.md)：信念冲突的调适机制。
 - 🔋 [心理能量与注意资源](../entries/Psychic-Energy-Attention.md)：有限注意力与专注分配规律。
+- 🌀 [习得性无助（Learned Helplessness）](../entries/Learned-Helplessness.md)：不可控压力下的无力预期，连接抑郁与应激模型。
 
 ---
 

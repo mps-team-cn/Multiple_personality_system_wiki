@@ -29,6 +29,7 @@ hide:
 - [高敏感人群（Highly Sensitive Person, HSP）](../entries/Highly-Sensitive-Person.md) — *2025-10-20*
 - [人本主义心理学（Humanistic Psychology）](../entries/Humanistic-Psychology.md) — *2025-10-20*
 - [学习与条件反射（Learning & Conditioning）](../entries/Learning-Conditioning.md) — *2025-10-20*
+- [习得性无助（Learned Helplessness）](../entries/Learned-Helplessness.md) — *2025-10-20*
 - [情感障碍（Mood Disorders）](../entries/Mood-Disorders.md) — *2025-10-20*
 - [动机理论（Motivation Theories）](../entries/Motivation-Theories.md) — *2025-10-20*
 - [人格结构理论（Personality Structure Theory, Freud）](../entries/Personality-Structure-Theory.md) — *2025-10-20*

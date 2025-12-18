@@ -11,12 +11,11 @@ synonyms:
 
 tags:
 
-- guide:诊断与临床
-- dx:解离障碍
-- sx:创伤症状
+- theory:习得性无助
+- sx:无助感
 
 title: 习得性无助(Learned Helplessness)
-topic: 诊断与临床
+topic: 理论与分类
 updated: 2025-10-20
 ---
 

@@ -10,8 +10,8 @@ synonyms:
 
 tags:
 
-- dx:解离障碍
-- sx:创伤症状
+- dx:抑郁障碍
+- dx:双相及相关障碍
 
 title: 情感障碍（Mood Disorders）
 topic: 理论与分类

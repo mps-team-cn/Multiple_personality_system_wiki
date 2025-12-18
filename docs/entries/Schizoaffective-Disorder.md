@@ -8,7 +8,6 @@ synonyms:
 
 tags:
 
-- dx:双相及相关障碍
 - dx:精神病性障碍
 - guide:诊断与临床
 

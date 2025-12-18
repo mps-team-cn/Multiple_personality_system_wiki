@@ -9,7 +9,6 @@ synonyms:
 
 tags:
 
-- dx:焦虑障碍
 - guide:诊断与临床
 - dx:躯体症状及相关障碍
 

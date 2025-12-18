@@ -10,7 +10,8 @@ synonyms:
 tags:
 
 - guide:诊断与临床
-- dx:解离障碍
+- sx:情绪识别困难
+- theory:跨诊断特质
 
 title: 述情障碍（Alexithymia）
 topic: 诊断与临床

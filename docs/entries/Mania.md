@@ -3,8 +3,7 @@ comments: true
 tags:
 
 - guide:诊断与临床
-- dx:解离障碍
-- sx:创伤症状
+- dx:双相及相关障碍
 
 title: 躁狂（Mania）
 topic: 诊断与临床
