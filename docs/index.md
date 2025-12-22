@@ -296,9 +296,9 @@ search:
 
 - :material-qqchat: **QQ 群**
 
-    935527821
+    暂无 敬请期待
 
-    社区交流、经验分享
+    
 
 </div>
 
