@@ -7,6 +7,82 @@ search:
 
 # 更新日志
 
+## [v4.0.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v4.0.0) - 临床词条体系扩展与工具稳定性提升 (2025-12-28)
+
+### ✨ 新增功能
+
+- **标准化评估工具结构优化** (PR #403)
+    - 拆分标准化评估工具章节，提升导航与查找体验
+- **在线量表交互与样式完善** (PR #397)
+    - 新增/完善 SAS、SDS、SCL-90 的交互样式资源（CSS/JS）
+    - 优化 PC 端下拉菜单可读性
+- **PDF 导出工具兼容性修复**
+    - 改进 Markdown 转换与“最近更新”提取逻辑，提升导出稳定性
+
+### 📚 词条扩充与完善
+
+- **新增词条（34）**（PR #401 #402 #404 #405 #406 #410 #411 #412 #414 #415 #417 #436 等）
+    - [情绪传染](entries/Emotional-Contagion.md)
+    - [ANP–EP 混溶](entries/ANP-EP-Blending.md)
+    - [ANP/EP 功能类型](entries/ANP-EP-Functional-Roles.md)
+    - [观察者 ANP 切换](entries/Observer-ANP-Switch.md)
+    - [C-PTSD 常见应对模式类型](entries/C-PTSD-Coping-Styles.md)
+    - [战/逃模式](entries/Fight-or-Flight.md)
+    - [惊恐触发后的功能性言语受阻](entries/Functional-Speech-Inhibition-After-Trauma-Trigger.md)
+    - [现实检验](entries/Reality-Testing.md)
+    - [情境性焦虑](entries/Situational-Anxiety.md)
+    - [灾难预演](entries/Disaster-Rehearsal.md)
+    - [焦虑自评量表（SAS）](entries/Self-Rating-Anxiety-Scale-SAS.md)
+    - [抑郁自评量表（SDS）](entries/Self-Rating-Depression-Scale-SDS.md)
+    - [症状自评量表（SCL-90）](entries/Symptom-Checklist-90-SCL-90.md)
+    - [重度与轻度神经认知障碍](entries/Major-Mild-Neurocognitive-Disorders.md)
+    - [阿尔茨海默病性神经认知障碍](entries/NCD-Due-to-Alzheimers-Disease.md)
+    - [额颞叶变性性神经认知障碍](entries/NCD-Due-to-Frontotemporal-Degeneration.md)
+    - [亨廷顿病性神经认知障碍](entries/NCD-Due-to-Huntingtons-Disease.md)
+    - [路易体神经认知障碍](entries/NCD-Due-to-Lewy-Bodies.md)
+    - [帕金森病性神经认知障碍](entries/NCD-Due-to-Parkinsons-Disease.md)
+    - [创伤性脑损伤性神经认知障碍](entries/NCD-Due-to-TBI.md)
+    - [血管性神经认知障碍](entries/Vascular-NCD.md)
+    - [抗精神病药物所致帕金森综合征（AIP）](entries/Antipsychotic-Induced-Parkinsonism.md)
+    - [其他药物所致帕金森综合征](entries/Other-Medication-Induced-Parkinsonism.md)
+    - [物质/药物诱发性焦虑障碍](entries/Substance-Medication-Induced-Anxiety-Disorder.md)
+    - [躯体疾病所致焦虑障碍](entries/Anxiety-Disorder-Due-to-Another-Medical-Condition.md)
+    - [其他特定或未特定的焦虑障碍](entries/Other-Specified-or-Unspecified-Anxiety-Disorder.md)
+    - [运动障碍](entries/Motor-Disorders.md)
+    - [抽动障碍](entries/Tic-Disorders.md)
+    - [刻板性运动障碍](entries/Stereotypic-Movement-Disorder.md)
+    - [发育性协调障碍](entries/Developmental-Coordination-Disorder.md)
+    - [做作性障碍](entries/Factitious-Disorder.md)
+    - [其他特定或未特定的人格障碍](entries/Other-Specified-or-Unspecified-Personality-Disorder.md)
+    - [其他特定或未特定的躯体症状及相关障碍](entries/Other-Specified-or-Unspecified-Somatic-Symptom-Related-Disorders.md)
+    - [Tulpa 判定标准与系统类型指引](entries/Tulpa-Classification-Guide-Ise.md)
+
+- **既有词条结构对齐与内容补全**（PR #410 #419 等）
+    - 完善 ASD 的 DID 共病说明、人格障碍体系与多篇情感障碍相关内容
+
+### 🧭 导览与规范
+
+- 更新导览与索引：临床诊断、理论分类、创伤疗愈、系统运作等 Guide 同步调整
+- 修正标签与主题分类：运行标签规范检查并修复诊断类别映射（PR #426 #427 #429 #430）
+
+### 🎨 样式改进
+
+- 修复手机端 MID-60 布局作用域问题（PR #409）
+- 优化量表下拉菜单字体与交互细节（PR #397）
+
+### 🔧 维护更新
+
+- 更新贡献者墙与贡献说明（PR #431 #432 #433）
+- 自动化维护：词条、分区索引与格式多次同步更新
+
+### 📊 影响范围
+
+- 新增词条 34 篇，更新既有词条 38 篇
+- 更新 7 份 Guide/索引页，新增/调整 8 份量表相关静态资源
+- PDF 导出工具兼容性修复与文档同步更新
+
+---
+
 ## [v3.18.1](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v3.18.1) - 词条扩充与工具优化 (2025-10-26)
 
 ### ✨ 新增功能
