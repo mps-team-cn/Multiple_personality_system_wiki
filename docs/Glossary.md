@@ -86,6 +86,7 @@ comments: true
 | [并行（Parallelism）](entries/Parallelism.md) | 多位成员在同一时间维持独立意识流或任务处理 | 社群 | 可能导致注意力分配与记忆记录的差异；**功能性语境限定** |
 | [内在沟通（Internal Communication）](entries/Internal-Communication.md) | 成员之间传递信息、协作决策的方式与工具 | 社群 | 包含会议、日志、信号系统等实践 |
 | [混合（Blending）](entries/Blending.md) | 成员间的感受、记忆或表达出现叠加，边界暂时模糊 | 社群 | 常见于快速切换或高度压力情境；**功能性语境限定** |
+| [情绪传染（Emotional Contagion）](entries/Emotional-Contagion.md) | 情绪在成员群体中通过模仿、注意与反馈等过程被同步、扩散或放大 | 跨域 | 可表现为前台情绪联动与连锁触发；与共情/触发需区分 |
 | [记忆屏蔽（Memory Shielding）](entries/Memory-Shielding.md) | 为保护系统功能而主动隔离特定记忆或情绪信息 | 社群 | 与创伤史、角色分工紧密相关；**功能性语境限定** |
 | [子系统（Subsystem）](entries/Subsystem.md) | 系统内部进一步分化出的成员子群或结构 | 社群 | 需要额外的协调机制以保持一致 |
 | [自动驾驶（Autopilot）](entries/Autopilot.md) | 成员以低觉察度执行习惯化任务的状态 | 社群 | 可视为应对疲劳或过载的保护策略；**功能性语境限定** |
