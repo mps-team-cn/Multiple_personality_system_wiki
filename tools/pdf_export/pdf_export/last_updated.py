@@ -66,6 +66,6 @@ def render_last_updated_text(repo_path: str, mapping: Mapping[str, LastUpdatedIn
     if info.commit:
         short_hash = info.commit[:7]
         if short_hash:
-            return f"🕒 最后更新：{formatted}（{short_hash}）"
+            return f"最后更新：{formatted}（{short_hash}）"
 
-    return f"🕒 最后更新：{formatted}"
+    return f"最后更新：{formatted}"

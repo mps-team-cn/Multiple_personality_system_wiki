@@ -21,10 +21,15 @@ cd tools/pdf_export && python -m pdf_export
 3. 在合并内容前，会优先插入项目根目录下的 `Preface.md`（若存在且未被忽略），以确保 PDF 以《前言》开篇；
 4. 收集各章节下的 Markdown 文件并按顺序合并，同时在 PDF 中为每个 Markdown 文件单独开启新页面，并在 PDF 大纲中按分类组织；在合并过程中会自动移除词条自身的一级标题，避免 PDF 中出现重复标题；
 5. 自动识别 Markdown 中以 `*.md` 形式书写的词条链接，并在合并时重写为指向 PDF 内部锚点的链接，确保离线文档中的交叉跳转仍可点击；
-6. 如果 `assets/last-updated.json` 存在，则会读取索引并在每篇词条标题下插入“🕒 最后更新：2025/10/02 12:34:56（abc1234）”提示，使离线 PDF 与线上页面保持一致；
+6. 如果 `assets/last-updated.json` 存在，则会读取索引并在每篇词条标题下插入“最后更新：2025/10/02 12:34:56（abc1234）”提示，使离线 PDF 与线上页面保持一致；
 7. 调用 [Pandoc](https://pandoc.org/) 生成排好版的 `Multiple_Personality_System_wiki.pdf`。
 
 > ℹ️ 所有被导出的词条都必须在 Frontmatter 中声明 `title`、`tags`、`updated` 字段。`updated` 支持写成 `YYYY-MM-DD` 字符串或 YAML 自动识别的日期字面量，两种写法都会在导出时转换为同一格式。若将字段留空、显式写成 `null` 或填写布尔值/列表，脚本会提示“updated 字段必须为非空字符串或有效日期”。
+
+## LaTeX 兼容性说明
+
+- 为避免 TeX 字体缺字导致的大量警告，导出时会将 MkDocs admonition 标题中的表情符号图标替换为纯文字（如“信息/提示/警告”）。
+- Markdown 删除线语法（`~~text~~`）在 Pandoc → LaTeX 流程中会触发 `soul` 包，对中文内容兼容性较差；导出时会自动移除删除线标记并保留正文文本。
 
 运行脚本前，请确保：
 
