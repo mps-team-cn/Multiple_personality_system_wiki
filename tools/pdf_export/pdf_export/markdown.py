@@ -279,7 +279,7 @@ def convert_admonitions_to_latex(markdown: str) -> str:
             内容行2
 
     转换为 Pandoc/LaTeX 兼容的块引用格式:
-        > **⚠️ 警告: 标题**
+        > **警告: 标题**
         >
         > 内容行1
         > 内容行2
@@ -301,32 +301,15 @@ def convert_admonitions_to_latex(markdown: str) -> str:
             # 检测 admonition 行的前导空格（用于处理嵌套）
             leading_spaces = len(line) - len(line.lstrip())
 
-            # 获取类型对应的中文名称和图标
+            # 获取类型对应的中文名称
             type_name, _ = ADMONITION_STYLES.get(admon_type, (admon_type.capitalize(), "gray"))
-
-            # 图标映射
-            icon_map = {
-                "warning": "⚠️",
-                "danger": "🚫",
-                "info": "ℹ️",
-                "tip": "💡",
-                "note": "📝",
-                "success": "✅",
-                "failure": "❌",
-                "bug": "🐛",
-                "example": "📋",
-                "question": "❓",
-                "quote": "💬",
-                "abstract": "📄",
-            }
-            icon = icon_map.get(admon_type, "📌")
 
             # 构建标题行（保留原有缩进）
             indent = " " * leading_spaces
             if title:
-                header = f"{indent}> **{icon} {type_name}: {title}**"
+                header = f"{indent}> **{type_name}: {title}**"
             else:
-                header = f"{indent}> **{icon} {type_name}**"
+                header = f"{indent}> **{type_name}**"
 
             result.append(header)
             result.append(f"{indent}>")
@@ -362,6 +345,44 @@ def convert_admonitions_to_latex(markdown: str) -> str:
             i += 1
 
     return "\n".join(result)
+
+
+_STRIKEOUT_PATTERN = re.compile(r"~~(.*?)~~")
+_FENCE_PATTERN = re.compile(r"^(?P<indent>\s*)(?P<fence>`{3,}|~{3,})(?P<rest>.*)$")
+
+
+def strip_markdown_strikeout(markdown: str) -> str:
+    """移除 Markdown 删除线（~~text~~）标记，避免 Pandoc 生成 LaTeX ``soul`` 导致编译失败。
+
+    - 仅移除成对 ``~~`` 包裹的标记
+    - 不处理 fenced code block 内的内容（```/~~~）
+    """
+
+    lines = markdown.splitlines(keepends=True)
+    result: list[str] = []
+
+    in_fence = False
+    fence_token: str | None = None
+
+    for line in lines:
+        fence_match = _FENCE_PATTERN.match(line)
+        if fence_match:
+            fence = fence_match.group("fence")
+            if not in_fence:
+                in_fence = True
+                fence_token = fence
+            else:
+                if fence_token is not None and fence.startswith(fence_token[0]) and len(fence) >= len(fence_token):
+                    in_fence = False
+                    fence_token = None
+
+        if in_fence:
+            result.append(line)
+            continue
+
+        result.append(_STRIKEOUT_PATTERN.sub(r"\1", line))
+
+    return "".join(result)
 
 
 def build_cover_page(
@@ -522,6 +543,7 @@ def build_combined_markdown(
         br_converted = convert_html_br_tags(rewritten)
         # 转换 admonitions
         converted = convert_admonitions_to_latex(br_converted)
+        converted = strip_markdown_strikeout(converted)
         body = strip_primary_heading(converted, preface_doc.title)
         shifted = shift_heading_levels(body, offset=1).strip()
 
@@ -544,6 +566,7 @@ def build_combined_markdown(
         readme_br_converted = convert_html_br_tags(readme_content)
         # 转换 admonitions
         readme_converted = convert_admonitions_to_latex(readme_br_converted)
+        readme_converted = strip_markdown_strikeout(readme_converted)
         parts.append(readme_converted)
         parts.append("\n\n\\newpage\n")
 
@@ -574,6 +597,7 @@ def build_combined_markdown(
             br_converted = convert_html_br_tags(rewritten)
             # 转换 admonitions
             converted = convert_admonitions_to_latex(br_converted)
+            converted = strip_markdown_strikeout(converted)
             body = strip_primary_heading(converted, entry_title)
             shifted = shift_heading_levels(body, offset=2).strip()
 

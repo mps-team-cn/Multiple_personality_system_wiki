@@ -103,6 +103,9 @@ bash tools/run_local_updates.sh --help
 |------|------|---------|
 | **pdf_export/** | Pandoc 驱动的整站 PDF 导出 | 📄 归档时 |
 
+注意：
+- 为提升 LaTeX 兼容性，PDF 导出会移除 Markdown 删除线（`~~text~~`）标记并将 admonition 标题图标替换为纯文字。
+
 👉 **详细用法和配置选项**:[手动工具指南](Tools-Manual.md)
 
 ## 🧪 开发者工具
