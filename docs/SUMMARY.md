@@ -197,6 +197,7 @@
         * [应激反应（Stress Response）](entries/Stress-Response.md)
         * [弦羽理论生态位分类法（Xianyu Theory of Niche Classification）](entries/Xianyu-Theory-Niche-Classification.md)
         * [心流（Flow）](entries/Flow.md)
+        * [情绪传染（Emotional Contagion）](entries/Emotional-Contagion.md)
         * [意识修改（Consciousness Modification）](entries/Consciousness-Modification.md)
         * [意识共存（Co-consciousness）](entries/Co-Consciousness.md)
         * [战/逃模式（Fight-or-Flight）](entries/Fight-or-Flight.md)

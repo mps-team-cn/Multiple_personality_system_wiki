@@ -3,16 +3,16 @@ title: 情绪传染（Emotional Contagion）
 topic: 系统运作
 tags:
 
-  - ops:系统运作
-  - sx:情绪传染
-  - theory:心理学理论
+    - ops:系统运作
+    - sx:情绪传染
+    - theory:心理学理论
 
 synonyms:
 
-  - 集体情绪传染
-  - 情绪感染
-  - 情感传染
-  - Emotional Contagion
+    - 集体情绪传染
+    - 情绪感染
+    - 情感传染
+    - Emotional Contagion
 
 description: 情绪传染指情绪通过自动模仿、注意与反馈在群体中同步与放大。在多意识体系统中常见成员间快速扩散、前台联动与连锁触发；可用接地、边界与沟通识别源头并降低过载风险。
 updated: 2025-12-28
