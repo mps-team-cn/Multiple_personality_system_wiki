@@ -137,6 +137,7 @@
         * [解离经验量表（Dissociative Experiences Scale‑II, DES‑II）](entries/Dissociative-Experiences-Scale-DES-II.md)
         * [解离障碍（Dissociative Disorders）](entries/Dissociative-Disorders.md)
         * [谵妄（Delirium）](entries/Delirium.md)
+        * [赌博障碍（Gambling Disorder）](entries/Gambling-Disorder.md)
         * [路易体神经认知障碍（NCD due to Lewy Bodies）](entries/NCD-Due-to-Lewy-Bodies.md)
         * [躁狂（Mania）](entries/Mania.md)
         * [躯体变形障碍（Body Dysmorphic Disorder，BDD）](entries/Body-Dysmorphic-Disorder.md)
