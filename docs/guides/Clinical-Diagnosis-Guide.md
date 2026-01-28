@@ -326,7 +326,7 @@ search:
     - [兴奋剂相关障碍（Stimulant-Related Disorders）](../entries/Stimulant-Related-Disorders.md) — :octicons-check-16: 已完成
     - [烟草相关障碍（Tobacco-Related Disorders）](../entries/Tobacco-Related-Disorders.md) — :octicons-check-16: 已完成
     - [咖啡因相关障碍（Caffeine-Related Disorders）](../entries/Caffeine-Related-Disorders.md) — :octicons-check-16: 已完成
-    - 非物质成瘾：赌博障碍（Gambling Disorder）等 — :octicons-clock-16: 待更新
+    - [赌博障碍（Gambling Disorder）](../entries/Gambling-Disorder.md) — :octicons-check-16: 已完成
 
 ### 17) 神经认知障碍
 
