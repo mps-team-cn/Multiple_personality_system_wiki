@@ -2,13 +2,17 @@
 title: 奖赏系统(Reward System)
 topic: 理论与分类
 tags:
-  - theory:奖赏机制
-  - bio:多巴胺
-  - theory:强化学习
+
+    - theory:奖赏机制
+    - bio:多巴胺
+    - theory:强化学习
+
 synonyms:
-  - 奖励系统
-  - 奖赏回路
-  - reward system
+
+    - 奖励系统
+    - 奖赏回路
+    - reward system
+
 description: 奖赏系统是由多巴胺通路与相关脑区组成的神经网络，负责奖赏预测、动机驱动与学习塑形，影响成瘾、抑郁等多种精神问题的发生与维持。
 updated: 2026-02-01
 ---
@@ -101,26 +105,26 @@ updated: 2026-02-01
 理解奖赏系统有助于构建针对多种障碍的干预策略：
 
 - **心理治疗**
-  - 认知行为疗法帮助识别与修正扭曲的奖赏预期，发展替代性奖赏来源。
-  - 动机性访谈强调价值澄清与内在动机，降低对即时奖赏的依赖。
+    - 认知行为疗法帮助识别与修正扭曲的奖赏预期，发展替代性奖赏来源。
+    - 动机性访谈强调价值澄清与内在动机，降低对即时奖赏的依赖。
 - **神经调控技术**
-  - 重复经颅磁刺激或经颅直流电刺激可针对前额叶，提高认知控制与动机水平。
-  - 深部脑刺激用于严重、难治性的强迫症或成瘾。
+    - 重复经颅磁刺激或经颅直流电刺激可针对前额叶，提高认知控制与动机水平。
+    - 深部脑刺激用于严重、难治性的强迫症或成瘾。
 - **行为干预**
-  - 环境富集与有氧运动可增强多巴胺系统功能，改善情绪与认知。
-  - 正念训练可能通过改变对渴求线索的反应性来调节奖赏处理。
+    - 环境富集与有氧运动可增强多巴胺系统功能，改善情绪与认知。
+    - 正念训练可能通过改变对渴求线索的反应性来调节奖赏处理。
 
 ---
 
 ## 社群与科普语境
 
 - **常见误解澄清**
-  - “多巴胺等于快乐”：多巴胺更关乎动机、预期与学习，愉悦感更多涉及阿片系统与腹侧苍白球等结构。
-  - “奖赏系统只对基本需求有反应”：它也对社会连接、美感体验与利他行为等高级抽象奖赏有反应。
+    - “多巴胺等于快乐”：多巴胺更关乎动机、预期与学习，愉悦感更多涉及阿片系统与腹侧苍白球等结构。
+    - “奖赏系统只对基本需求有反应”：它也对社会连接、美感体验与利他行为等高级抽象奖赏有反应。
 - **自我调节应用**
-  - **习惯养成**：使用即时小奖赏（如“诱惑捆绑”）启动困难但有益的行为。
-  - **目标设定**：设定具体、可衡量且中等挑战性的目标，以提升成就感与持续动力。
-  - **管理高强度奖赏**：减少频繁、高强度、不可预测的刺激（如社交媒体、赌博），以维持系统敏感性与自然动力。
+    - **习惯养成**：使用即时小奖赏（如“诱惑捆绑”）启动困难但有益的行为。
+    - **目标设定**：设定具体、可衡量且中等挑战性的目标，以提升成就感与持续动力。
+    - **管理高强度奖赏**：减少频繁、高强度、不可预测的刺激（如社交媒体、赌博），以维持系统敏感性与自然动力。
 
 ---
 
@@ -141,4 +145,4 @@ updated: 2026-02-01
 3. Wise, R. A. (2004). Dopamine, learning and motivation. *Nature Reviews Neuroscience*, 5(6), 483-494.
 4. Niv, Y. (2009). Reinforcement learning in the brain. *Journal of Mathematical Psychology*, 53(3), 139-154.
 5. Haber, S. N., & Knutson, B. (2010). The reward circuit: linking primate anatomy and human imaging. *Neuropsychopharmacology*, 35(1), 4-26.
-6. National Institute on Drug Abuse. (2020). The Neurobiology of Drug Addiction. https://www.drugabuse.gov/publications/teaching-packets/neurobiology-drug-addiction
+6. National Institute on Drug Abuse. (2020). The Neurobiology of Drug Addiction. [https://www.drugabuse.gov/publications/teaching-packets/neurobiology-drug-addiction](https://www.drugabuse.gov/publications/teaching-packets/neurobiology-drug-addiction)
