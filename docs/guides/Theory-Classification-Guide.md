@@ -60,6 +60,7 @@ search:
 > 从行为到信念，理解系统如何学习与适应。
 
 - 🚀 [动机理论](../entries/Motivation-Theories.md)：驱力论、人本与社会认知模型整合。
+- 🎁 [奖赏系统(Reward System)](../entries/Reward-System.md)：奖赏预测误差、多巴胺通路与习惯形成的核心机制。
 - 🧩 [学习与条件反射](../entries/Learning-Conditioning.md)：经典/操作制约与观察学习。
 - ⚖️ [认知失调](../entries/Cognitive-Dissonance.md)：信念冲突的调适机制。
 - 🔋 [心理能量与注意资源](../entries/Psychic-Energy-Attention.md)：有限注意力与专注分配规律。
