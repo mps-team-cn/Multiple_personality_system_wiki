@@ -84,7 +84,7 @@ updated: 2025-10-22
 
 - 🧍 [成员（Alter）](../entries/Alter.md)：具独立意识与记忆访问的单元。
 - 🎭 [人格面具（Persona）](../entries/Persona.md)：用于特定社交情境的外显身份。
-- 🪶 [特殊认同（Alterhuman）](../entries/Alterhuman.md)：
+- 🪶 [特殊认同（Alterhuman）](../entries/Alterhuman.md)：来自网络社群的身份体验与自我认同。
 
   !!! info "说明"
       来源于网络社群的身份体验，**非临床诊断类别**。
