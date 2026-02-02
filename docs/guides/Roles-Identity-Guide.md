@@ -57,8 +57,8 @@ updated: 2025-10-22
 - 🛡️ [保护者（Protector）](../entries/Protector.md)：防御外部威胁与内部危机。
 - ⚠️ [迫害者（Persecutor）](../entries/Persecutor.md)：通过敌对或自惩行为阻止系统再次受创。
 
-  !!! warning "防误用"
-      源自防御机制的自我保护角色，**非攻击他人或“坏人格”**。
+!!! warning "防误用"
+    源自防御机制的自我保护角色，**非攻击他人或“坏人格”**。
 
 - 🧩 [内在批评者（Inner Critic）](../entries/Inner-Critic.md)：评估与警示功能，过度时可形成自责循环。
 - ⚙️ [傀儡（Servitor）](../entries/Servitor.md)：具特定任务或自动执行功能的意识体。
@@ -86,8 +86,8 @@ updated: 2025-10-22
 - 🎭 [人格面具（Persona）](../entries/Persona.md)：用于特定社交情境的外显身份。
 - 🪶 [特殊认同（Alterhuman）](../entries/Alterhuman.md)：来自网络社群的身份体验与自我认同。
 
-  !!! info "说明"
-      来源于网络社群的身份体验，**非临床诊断类别**。
+!!! info "说明"
+    来源于网络社群的身份体验，**非临床诊断类别**。
 
 - 🌸 [图帕（Tulpa）](../entries/Tulpa.md)：由意念塑造的创造型意识体。
 - 🔗 [系魂（Soulbond）](../entries/Soulbond.md)：与虚构角色建立深度连结的存在形式。
