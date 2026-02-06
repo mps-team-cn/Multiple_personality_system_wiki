@@ -83,6 +83,7 @@ updated: 2025-10-20
 | 词条 | 重点 | 场景 |
 |------|------|------|
 | [危机与支援资源（Crisis & Support Resources）](../entries/Crisis-And-Support-Resources.md) | 紧急求助与安全计划 | 急性危机 / 解离失控时 |
+| [危机指南（Crisis Guide）](../entries/Crisis-Response.md) | 最小行动清单与常见情境应对 | 解离、惊恐、闪回或强烈冲动时 |
 | [接地（Grounding）](../entries/Grounding.md) | 感官锚定、回到当下 | 闪回、恐慌或解离增强时 |
 | [感官调节策略](../entries/Sensory-Regulation-Strategies.md) | 感官舒缓与刺激平衡 | 焦虑、过度唤醒或迟钝 |
 | [情绪调节（Emotion Regulation）](../entries/Emotion-Regulation.md) | 识别情绪曲线、建立应对策略 | 日常稳定与恢复练习 |

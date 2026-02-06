@@ -33,6 +33,7 @@ updated: 2025-10-22
 !!! danger "急性危机求助"
     若出现生命危险、强烈自伤/自杀冲动或严重失控，请 **立刻** 拨打 **120/110** 并前往综合医院急诊/精神科；避免独处。
     参见《[危机与支援资源（Crisis & Support Resources）](../entries/Crisis-And-Support-Resources.md)》获取全国热线、城市支援与安全计划模板。
+    若需要“立即可用”的最小行动清单与常见情境应对，可同时参见《[危机指南（Crisis Guide）](../entries/Crisis-Response.md)》。
 
 ---
 
@@ -101,6 +102,7 @@ updated: 2025-10-22
 - [系统运作导览](System-Operations-Guide.md)：在创伤加工期协调前台轮换与内部沟通。
 - [角色与身份导览](Roles-Identity-Guide.md)：理解保护者、照顾者等在疗愈中的功能。
 - [危机与支援资源](../entries/Crisis-And-Support-Resources.md)：热线清单与安全计划模板。
+- [危机指南（Crisis Guide）](../entries/Crisis-Response.md)：最小行动清单、系统协作要点与可打印危机卡模板。
 
 ---
 
