@@ -79,7 +79,7 @@ search:
 - ⚠️ [灾难预演（Disaster Rehearsal）](../entries/Disaster-Rehearsal.md)：未来导向的灾难性意象；比较闪回、侵入性思维并提供快速区分表。
 - 🎯 [过度专注（Hyperfocus）](../entries/Hyperfocus.md)：注意“黏附”与抽离困难；区分心流与解离，提供切换策略。
 - 🧊 [心流（Flow）](../entries/Flow.md)：主动、适配且可控的最佳专注体验；与过度专注、解离区分。
-- 🌊 [情绪传染（Emotional Contagion）](../entries/Emotional-Contagion.md)：成员间情绪扩散与连锁触发的识别、边界与缓冲策略。
+- 🌊 [集体情绪传染（Emotional Contagion）](../entries/Emotional-Contagion.md)：成员间情绪扩散与连锁触发的识别、边界与缓冲策略。
 - 🥴 [醉酒解离](../entries/Alcohol-Induced-Dissociation.md)：似醉非饮的主观体验与稳定策略。
 - 🪞 [非我感（Not-me Feeling）](../entries/Not-Me-Feeling.md) & [去现实化](../entries/Derealization.md)：边界感知与外界失真之区分与稳定。
 
