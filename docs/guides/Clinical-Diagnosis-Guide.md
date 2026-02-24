@@ -327,6 +327,7 @@ search:
     - [烟草相关障碍（Tobacco-Related Disorders）](../entries/Tobacco-Related-Disorders.md) — :octicons-check-16: 已完成
     - [咖啡因相关障碍（Caffeine-Related Disorders）](../entries/Caffeine-Related-Disorders.md) — :octicons-check-16: 已完成
     - [赌博障碍（Gambling Disorder）](../entries/Gambling-Disorder.md) — :octicons-check-16: 已完成
+    - [游戏障碍（Gaming Disorder）](../entries/Gaming-Disorder.md) — :octicons-check-16: 已完成
 
 ### 17) 神经认知障碍
 
@@ -442,9 +443,9 @@ search:
 
     **成瘾与冲动控制**
 
-    - **游戏障碍（Gaming Disorder, 6C51）** — :octicons-clock-16: 待更新
+    - [游戏障碍（Gaming Disorder, 6C51）](../entries/Gaming-Disorder.md) — :octicons-check-16: 已完成
 
-      ICD-11 首次将游戏成瘾纳入"成瘾行为障碍",DSM-5 仅作为"需进一步研究的状况"。
+      ICD-11 首次将游戏成瘾纳入"成瘾行为障碍",DSM-5-TR 仍将其相关概念置于"需进一步研究的状况"。
 
     - **强迫性性行为障碍（Compulsive Sexual Behavior Disorder, 6C72）** — :octicons-clock-16: 待更新
 
