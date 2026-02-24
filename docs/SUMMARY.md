@@ -102,6 +102,7 @@
         * [沟通障碍（Communication Disorders）](entries/Communication-Disorders.md)
         * [注意缺陷多动障碍（Attention-Deficit/Hyperactivity Disorder，ADHD）](entries/Attention-Deficit-Hyperactivity-Disorder-ADHD.md)
         * [深层记忆(Deep Memory)](entries/Deep-Memory.md)
+        * [游戏障碍（Gaming Disorder）](entries/Gaming-Disorder.md)
         * [烟草相关障碍（Tobacco-Related Disorders）](entries/Tobacco-Related-Disorders.md)
         * [焦虑自评量表（Self-Rating Anxiety Scale, SAS）](entries/Self-Rating-Anxiety-Scale-SAS.md)
         * [焦虑障碍（Anxiety Disorders）](entries/Anxiety-Disorders.md)
