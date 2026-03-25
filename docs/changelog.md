@@ -103,8 +103,8 @@ search:
     - 完善词条体系
 
 - **记忆与情绪障碍**
-    - **新增 [记忆回退](entries/Memory-Regression.md) 词条** (PR #389)
-    - **新增 [MDE](entries/MDE.md) 词条与导航** (PR #390)
+    - **新增 [记忆回退](entries/Memory-Rollback.md) 词条** (PR #389)
+    - **新增 [MDE](entries/Major-Depressive-Episode-MDE.md) 词条与导航** (PR #390)
 
 - **实践指南更新**
     - 更新 Tulpa-Guide-0.md 内容
