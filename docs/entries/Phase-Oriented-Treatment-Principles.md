@@ -35,7 +35,7 @@ updated: 2025-10-20
 
 1. 安全与功能优先：先建立外部/内部安全、稳定作息与基本自我照护。
 2. 非线性与个体化：阶段可往返与重叠，节奏依来访者耐受度调整。
-3. 可耐受窗口（window of tolerance）：在不过度失稳的范围内推进加工[^siegel1999]。
+3. [可耐受窗口](Window-of-Tolerance.md)（window of tolerance）：在不过度失稳的范围内推进加工[^siegel1999]。
 4. 治疗联盟与自主：尊重来访者选择与节奏，确保知情同意与共识目标。
 5. 渐进式加工：分段、分级、以稳定为锚的记忆/意义加工（EMDR、CPT、PE、TF‑CBT 等）。
 6. 生活导向：阶段 3 强调关系修复、目标设定与社会功能恢复。
@@ -76,6 +76,7 @@ updated: 2025-10-20
 ## 相关词条
 
 - [三阶段创伤治疗模型](Three-Phase-Trauma-Treatment.md)
+- [可耐受窗口](Window-of-Tolerance.md)
 - [创伤后成长（PTG）](Post-Traumatic-Growth-PTG.md)
 - [接地（Grounding）](Grounding.md)
 - [内部沟通](Internal-Communication.md)
