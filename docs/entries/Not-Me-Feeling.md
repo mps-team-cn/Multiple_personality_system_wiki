@@ -14,7 +14,6 @@ synonyms:
 tags:
 
 - ops:系统运作
-- dx:解离障碍
 
 title: 非我感（Not-me Feeling）
 topic: 系统运作

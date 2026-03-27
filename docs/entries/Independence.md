@@ -11,7 +11,6 @@ synonyms:
 tags:
 
 - ops:系统运作
-- dx:解离障碍
 
 title: 独立性（Independence）
 topic: 系统运作

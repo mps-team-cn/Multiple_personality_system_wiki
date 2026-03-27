@@ -14,7 +14,6 @@ synonyms:
 tags:
 
 - theory:心理学理论
-- dx:解离障碍
 - sx:创伤症状
 
 title: 精神分析心理学（Psychoanalysis）

@@ -4,7 +4,6 @@ tags:
 
 - dx:解离性身份障碍（DID）
 - role:系统角色
-- dx:解离障碍
 
 title: 内部自助者（Internal Self Helper，ISH）
 topic: 角色与身份

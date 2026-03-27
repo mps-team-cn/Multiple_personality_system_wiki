@@ -12,7 +12,6 @@ synonyms:
 tags:
 
 - sx:创伤症状
-- dx:解离障碍
 - tx:创伤治疗
 
 title: 去人格化（Depersonalization）

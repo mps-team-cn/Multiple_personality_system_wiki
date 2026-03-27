@@ -17,7 +17,6 @@ tags:
 - dx:解离性身份障碍（DID）
 - ops:系统运作
 - community:多意识体
-- dx:解离障碍
 
 title: 多意识体系统（Multiple Personality System）
 topic: 系统运作

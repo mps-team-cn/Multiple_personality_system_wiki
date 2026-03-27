@@ -11,7 +11,9 @@ synonyms:
 
 tags:
 
-- dx:解离障碍
+- ops:系统运作
+- sx:创伤症状
+
 
 title: 失忆（Amnesia）
 topic: 系统运作

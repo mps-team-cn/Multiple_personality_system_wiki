@@ -14,7 +14,6 @@ synonyms:
 tags:
 
 - theory:心理学理论
-- dx:解离障碍
 
 title: 人本主义心理学（Humanistic Psychology）
 topic: 理论与分类

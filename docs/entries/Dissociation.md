@@ -20,7 +20,6 @@ tags:
 - dx:DPDR
 - dx:OSDD
 - ops:系统运作
-- dx:解离障碍
 
 title: 解离（Dissociation）
 topic: 系统运作

@@ -18,7 +18,6 @@ tags:
 - ops:系统运作
 - sx:创伤症状
 - dx:创伤及应激相关障碍
-- dx:解离障碍
 
 title: 应激反应（Stress Response）
 topic: 系统运作

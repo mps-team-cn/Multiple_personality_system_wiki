@@ -8,7 +8,8 @@ synonyms:
 
 tags:
 
-- dx:解离障碍
+- theory:心理学理论
+
 
 title: 注意与觉察（Attention & Awareness）
 topic: 理论与分类

@@ -16,7 +16,6 @@ tags:
 - ops:系统运作
 - theory:ANP
 - theory:EP
-- dx:解离障碍
 
 title: 结构性解离理论（Theory of Structural Dissociation of the Personality, TSDT）
 topic: 系统运作

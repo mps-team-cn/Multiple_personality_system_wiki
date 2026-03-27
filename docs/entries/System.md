@@ -7,7 +7,6 @@ tags:
 
 - dx:解离性身份障碍（DID）
 - ops:系统运作
-- dx:解离障碍
 
 title: 系统(System)
 topic: 系统运作

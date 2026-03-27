@@ -13,7 +13,6 @@ synonyms:
 tags:
 
 - dx:焦虑障碍
-- dx:解离障碍
 - guide:诊断与临床
 
 title: 惊恐发作（Panic Attack）

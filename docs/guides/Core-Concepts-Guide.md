@@ -5,7 +5,6 @@ tags:
 - community:Tulpa
 - dx:解离性身份障碍（DID）
 - dx:OSDD
-- dx:解离障碍
 
 title: 核心概念导览
 topic: 理论与分类

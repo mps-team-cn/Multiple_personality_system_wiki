@@ -23,7 +23,6 @@ synonyms:
 tags:
 
 - guide:诊断与临床
-- dx:解离障碍
 - sx:创伤症状
 
 title: 定向障碍（Disorientation）

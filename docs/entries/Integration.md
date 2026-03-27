@@ -7,7 +7,6 @@ tags:
 
 - ops:系统运作
 - sx:创伤症状
-- dx:解离障碍
 
 title: 整合（Integration）
 topic: 系统运作

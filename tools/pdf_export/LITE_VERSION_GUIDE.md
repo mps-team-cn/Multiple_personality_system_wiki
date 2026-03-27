@@ -9,18 +9,18 @@
 只需指定要包含或排除的标签即可:
 
 ```bash
-# 只导出解离障碍相关词条（约 126 个）
-python tools/pdf_export/export_to_pdf.py \
+# 只导出解离障碍诊断与量表词条（约 12 个）
+python3 tools/pdf_export/export_to_pdf.py \
   --include-tags "dx:解离障碍" \
   --output MPS_Wiki_Dissociation.pdf
 
 # 只导出系统运作相关词条（约 54 个）
-python tools/pdf_export/export_to_pdf.py \
+python3 tools/pdf_export/export_to_pdf.py \
   --include-tags "ops:系统运作" \
   --output MPS_Wiki_Operations.pdf
 
 # 导出除了共病和风险管理之外的所有词条
-python tools/pdf_export/export_to_pdf.py \
+python3 tools/pdf_export/export_to_pdf.py \
   --exclude-tags "dx:共病,guide:风险管理" \
   --output MPS_Wiki_Core.pdf
 ```
@@ -45,7 +45,7 @@ EOF
 2. 使用白名单导出:
 
 ```bash
-python tools/pdf_export/export_to_pdf.py \
+python3 tools/pdf_export/export_to_pdf.py \
   --entry-list my-lite-entries.txt \
   --output MPS_Wiki_My_Selection.pdf
 ```
@@ -55,7 +55,7 @@ python tools/pdf_export/export_to_pdf.py \
 可以同时使用白名单和标签过滤:
 
 ```bash
-python tools/pdf_export/export_to_pdf.py \
+python3 tools/pdf_export/export_to_pdf.py \
   --entry-list my-lite-entries.txt \
   --exclude-tags "guide:风险管理" \
   --output MPS_Wiki_Custom.pdf
@@ -63,11 +63,11 @@ python tools/pdf_export/export_to_pdf.py \
 
 ## 常用标签参考
 
-根据词条数量排序的常用标签（截至 2025-10）:
+常用标签示例（数量会随词条与标签调整变化）:
 
 | 标签 | 词条数 | 说明 |
 |------|--------|------|
-| `dx:解离障碍` | 129 | 解离障碍相关诊断 |
+| `dx:解离障碍` | 12 | 解离障碍诊断与量表 |
 | `guide:诊断与临床` | 110 | 临床诊断指南 |
 | `sx:创伤症状` | 100 | 创伤相关症状 |
 | `ops:系统运作` | 54 | 系统日常运作 |
@@ -87,7 +87,7 @@ python tools/pdf_export/export_to_pdf.py \
 ### 新手入门版（推荐给初次了解的读者）
 
 ```bash
-python tools/pdf_export/export_to_pdf.py \
+python3 tools/pdf_export/export_to_pdf.py \
   --include-tags "ops:系统运作,role:系统角色" \
   --output MPS_Wiki_Beginner.pdf
 ```
@@ -97,17 +97,17 @@ python tools/pdf_export/export_to_pdf.py \
 ### 临床专业版（适合心理健康专业人士）
 
 ```bash
-python tools/pdf_export/export_to_pdf.py \
+python3 tools/pdf_export/export_to_pdf.py \
   --include-tags "guide:诊断与临床,tx:创伤治疗,dx:解离障碍" \
   --output MPS_Wiki_Clinical.pdf
 ```
 
-预计词条数: 约 150-200 个
+预计词条数: 约 160-170 个
 
 ### Tulpa 专题版
 
 ```bash
-python tools/pdf_export/export_to_pdf.py \
+python3 tools/pdf_export/export_to_pdf.py \
   --include-tags "community:Tulpa,guide:创造型系统" \
   --output MPS_Wiki_Tulpa.pdf
 ```
