@@ -1,9 +1,19 @@
 ---
 comments: true
+description: 汇总 DSM-5-TR 常见评估量表与筛查工具，帮助读者理解 dsm 5 量表、dsm-5 测试、解离测试与跨诊断初筛之间的区别与用途。
+search:
+  boost: 1.5
 synonyms:
 
 - DSM-5-TR Assessment Measures Overview
 - DSM-5-TR 量表
+- DSM-5量表
+- DSM 5量表
+- dsm-5量表
+- dsm 5 量表
+- DSM-5测试
+- dsm-5测试
+- 解离测试
 
 tags:
 
@@ -21,6 +31,34 @@ updated: 2025-10-22
 
 > 本表基于美国精神医学会（APA）官方发布的 DSM-5-TR 评估工具汇编整理，涵盖跨诊断、特异性障碍及人格与功能测评三大类量表。
 > 目的：用于临床初筛、严重度评估及治疗过程追踪。
+
+## 常见问题（FAQ）
+
+??? question "DSM-5 量表是什么？"
+    很多人搜索“DSM-5 量表”“dsm-5 测试”时，实际上是在找**用于筛查或评估症状严重度的工具集合**，而不是单一一张“总测试卷”。DSM-5-TR 相关量表覆盖抑郁、焦虑、创伤、强迫、功能损害等多个领域，用于辅助初筛、追踪和沟通，不等同于最终诊断。
+
+??? question "量表可以直接确诊吗？"
+    通常不能。量表的主要作用是**筛查、量化和追踪变化**。正式诊断仍需要结合临床访谈、病史、鉴别诊断、功能损害与必要的医学排除。分数高说明“值得进一步评估”，不等于已经符合某个诊断。
+
+??? question "常见“解离测试”包括什么？"
+    如果你在找“解离测试”，临床和研究中更常见的是 [DES-II](Dissociative-Experiences-Scale-DES-II.md)、[MID-60](Multidimensional-Inventory-of-Dissociation-MID-60.md) 与 [SDQ-20](Somatoform-Dissociation-Questionnaire-SDQ-20.md) 这类工具。它们评估的角度不同：有的偏向主观解离体验，有的偏向多维症状结构，有的偏向躯体形式解离。
+
+??? question "做量表前要注意什么？"
+    量表结果会受到当前压力、睡眠、近期创伤触发、理解偏差和作答环境影响。最稳妥的用法是把量表当作“整理症状线索”的工具，再结合专业访谈理解其含义，尤其不要用一次线上测试替代系统评估。
+
+## 站内量表工具
+
+!!! info "站内已提供的交互式量表"
+    以下页面均可在站内直接使用，定位是**教育用途与自我筛查**，不替代正式临床诊断。
+
+| 量表 | 主要用途 | 适合场景 |
+| --- | --- | --- |
+| [解离经验量表（DES-II）](Dissociative-Experiences-Scale-DES-II.md) | 筛查主观解离体验，含失忆、人格/现实解体与吸收沉浸子量表 | 初步了解是否存在较高解离倾向 |
+| [多维解离量表（MID-60）](Multidimensional-Inventory-of-Dissociation-MID-60.md) | 多维评估 DID、OSDD、DP/DR、解离性失忆、PTSD 等相关症状模式 | 想更细地看解离症状分布与结构时 |
+| [躯体形式解离问卷（SDQ-20）](Somatoform-Dissociation-Questionnaire-SDQ-20.md) | 评估麻木、疼痛改变、运动异常等躯体解离体验 | 怀疑自己有明显身体层面的解离反应时 |
+| [焦虑自评量表（SAS）](Self-Rating-Anxiety-Scale-SAS.md) | 评估焦虑症状严重度 | 想快速查看近阶段焦虑水平时 |
+| [抑郁自评量表（SDS）](Self-Rating-Depression-Scale-SDS.md) | 评估抑郁症状严重度 | 想初步整理情绪低落、兴趣下降等表现时 |
+| [症状自评量表修订版（SCL-90-R）](Symptom-Checklist-90-SCL-90.md) | 广谱筛查多维心理症状 | 想做更全面的心理症状概览时 |
 
 ---
 
