@@ -78,6 +78,14 @@ search:
 
   区分 I/II 型创伤与神经生物学影响，为 PTSD/CPTSD 等理解奠基。
 
+- [DID、OSDD、PDID 有什么区别？](../entries/DID-OSDD-PDID-Comparison.md) — :octicons-check-16: 已完成
+
+  面向入口搜索的速查页，快速区分 DID、OSDD 与 PDID 的诊断体系、控制权变化与遗忘模式。
+
+- [ASD 是什么意思？孤独症谱系障碍还是急性应激障碍](../entries/ASD-Meaning-Autism-or-Acute-Stress-Disorder.md) — :octicons-check-16: 已完成
+
+  处理高频缩写歧义，帮助在神经发育与创伤语境间快速定位正确词条。
+
 <!-- 生物治疗与脑刺激条目已迁移至文末专章 -->
 
 ## 其他核心评估概念
@@ -132,6 +140,10 @@ search:
 - [抑郁自评量表（SDS）](../entries/Self-Rating-Depression-Scale-SDS.md) — :octicons-check-16: 已完成
 
   在线交互式自评（不存储数据），20 题自评量表，评估抑郁症状的严重程度，自动计算粗分和标准分（粗分 × 1.25），适合抑郁症状的初步筛查与治疗效果评估。
+
+- [解离量表怎么选？DES‑II、MID‑60、SDQ‑20 对照](../entries/Dissociation-Scales-How-To-Choose.md) — :octicons-check-16: 已完成
+
+  用适用场景、测量重点与局限性快速对照三种常见解离量表，适合“先做哪一个”的入口需求。
 
 ---
 

@@ -1,5 +1,13 @@
 ---
 comments: true
+description: 系魂（Soulbond）指与虚构角色或异世界存在建立长期连结，并在系统内部以该身份持续生活与互动的体验。本文帮助区分系魂、Tulpa、内摄者与幻想伙伴等相近概念。
+synonyms:
+
+- 系魂
+- soulbond
+- soulbonding
+- 角色系魂
+- 虚构角色连结
 tags:
 
 - role:系统角色
@@ -49,6 +57,10 @@ updated: 2025-12-18
 
 ## 相关条目
 
+- [图帕（Tulpa）](Tulpa.md)
+- [幻想伙伴（Imaginary Companion）](Imaginary-Companion.md)
+- [多意识体系统（Multiple Personality System，MPS）](Multiple_Personality_System.md)
+- [Tulpa、多意识体、系魂、幻想伙伴的区别](Tulpa-System-Soulbond-Imaginary-Companion-Differences.md)
 - [《东方 Project》同人圈中的 Tulpa 文化解读（Touhou Tulpa Fandom）](Touhou-Tulpa-Fandom.md)
 - [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)
 - [外投射（External Projection）](External-Projection.md)

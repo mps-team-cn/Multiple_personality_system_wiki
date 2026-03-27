@@ -93,6 +93,7 @@ updated: 2025-10-22
 
 - 🌸 [图帕（Tulpa）](../entries/Tulpa.md)：由意念塑造的创造型意识体。
 - 🔗 [系魂（Soulbond）](../entries/Soulbond.md)：与虚构角色建立深度连结的存在形式。
+- 🧭 [Tulpa、多意识体、系魂、幻想伙伴的区别](../entries/Tulpa-System-Soulbond-Imaginary-Companion-Differences.md)：用于入口式快速分流，帮助区分几个最常被混用的社群概念。
 - 💫 [自发型（Spontaneous）](../entries/Spontaneous.md)：自然生成、非刻意创造的成员。
 - 🔀 [异化（Deviation）](../entries/Deviation.md)：成员在发展过程中偏离最初设定或预期的现象。
 - 🗺️ [埃蒙加德分类法（Emmengard Classification）](../entries/Emmengard-Classification.md)：按来源理解成员或系统起源的常见社群框架。

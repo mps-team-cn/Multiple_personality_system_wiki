@@ -73,6 +73,9 @@ updated: 2026-03-27
 ??? question "闪回和侵入性记忆、解离有什么区别？"
     [侵入性记忆](Intrusive-Memory.md) 更像未经允许闯入的创伤内容，[解离](Dissociation.md)则更偏向意识整合中断、麻木、疏离或失时。闪回是创伤记忆的 **过度激活**，解离是对压倒性体验的 **分离式防御**。三者可以共存，但并不相同。
 
+??? question "闪回、侵入性记忆、侵入性思维有什么区别？"
+    可以先用最短版本区分：闪回更像 **整段创伤正在重演**，侵入性记忆更像 **创伤片段突然闯进来**，侵入性思维则更像 **不受欢迎的念头、画面或冲动突然冒出来**。如果你想直接看一张对照表，可继续阅读 [闪回、侵入性记忆、侵入性思维有什么区别？](Flashback-Intrusive-Memory-Intrusive-Thoughts-Differences.md)。
+
 ??? question "闪回时先做什么？"
     优先做的是 **稳定而不是分析**。先远离明显触发源，使用[接地（Grounding）](Grounding.md)与呼吸调节确认当下环境，再视情况求助可信任的人或专业支持。若闪回频繁、强度高或伴随安全风险，应尽快接受创伤知情评估。
 
@@ -654,6 +657,8 @@ updated: 2026-03-27
 - [急性应激障碍（Acute Stress Disorder，ASD）](Acute-Stress-Disorder-ASD.md)
 - [创伤（Trauma）](Trauma.md)
 - [侵入性思维（Intrusive Thoughts）](Intrusive-Thoughts.md)
+- [侵入性记忆（Intrusive Memory）](Intrusive-Memory.md)
+- [闪回、侵入性记忆、侵入性思维有什么区别？](Flashback-Intrusive-Memory-Intrusive-Thoughts-Differences.md)
 
 ### 解离相关
 

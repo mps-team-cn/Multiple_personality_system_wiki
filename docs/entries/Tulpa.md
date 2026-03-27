@@ -66,6 +66,9 @@ updated: 2026-03-27
 ??? question "Tulpa 和想象朋友有什么区别？"
     [幻想伙伴（Imaginary Companion）](Imaginary-Companion.md) 常见于儿童发展阶段，往往更偏向游戏性与短期陪伴；Tulpa 社群则强调长期培育、稳定互动和主体性。两者并不完全等同，但都不应被草率病理化。
 
+??? question "Tulpa、多意识体、系魂、幻想伙伴有什么区别？"
+    最短的抓法是：Tulpa 强调 **刻意培育**，多意识体更像 **总框架**，系魂强调 **与虚构角色或异世界身份的长期连结**，幻想伙伴则主要属于 **儿童发展中的想象同伴**。若想直接看一页对照，可继续看 [Tulpa、多意识体、系魂、幻想伙伴的区别](Tulpa-System-Soulbond-Imaginary-Companion-Differences.md)。
+
 ---
 
 ## 定义与文化起源
@@ -351,6 +354,7 @@ Tulpa 实践在学术界引发以下争议：
 
 - [系统（System）](System.md)
 - [多意识体系统（Multiple Personality System，MPS）](Multiple_Personality_System.md)
+- [Tulpa、多意识体、系魂、幻想伙伴的区别](Tulpa-System-Soulbond-Imaginary-Companion-Differences.md)
 - [埃蒙加德分类法（Emmengard Classification）](Emmengard-Classification.md)
 - [混合（Blending）](Blending.md)
 - [前台（Front/Fronting）](Front-Fronting.md)
