@@ -71,7 +71,7 @@ Multiple_personality_system_wiki/
 │  ├─ admin/                    # Sveltia CMS（index.html / config.yml / admin.css）
 │  ├─ assets/                   # CSS/JS/图标等静态资源（含 mid60 组件）
 │  ├─ entries/                  # 词条目录（不创建子目录）
-│  ├─ guide/                    # 索引和导览文件目录（不创建子目录）
+│  ├─ guides/                   # 索引和导览文件目录（不创建子目录）
 │  └─ includes/                 # 片段（如缩写表）
 │
 ├─ tools/                       # 维护脚本与辅助工具
@@ -155,7 +155,7 @@ uv run mkdocs build --strict
 
 CI 双重保障（见 `.github/workflows/`）：
 
-- PR 阶段：`pr-check.yml` 检查「链接规范 + Frontmatter」
+- PR 阶段：`pr-check.yml` 检查「链接规范 + Frontmatter + 标签规范」
 - 合并后：`auto-fix-entries.yml` 自动更新时间戳、修复格式并二次校验
 
 ---
@@ -174,6 +174,7 @@ CI 双重保障（见 `.github/workflows/`）：
 - Frontmatter 包含 `title / topic / tags`（时间戳由 CI 维护）
 - 已运行：`python3 tools/fix_markdown.py docs/entries/`
 - 已运行：`python3 tools/check_links.py docs/entries/`
+- 已运行：`python3 tools/check_tags.py docs/entries/`
 - 构建通过：`mkdocs build --strict`
 
 新增或修改词条时，请同步更新对应主题 Guide（见 `AGENTS.md` 中的映射表）。
