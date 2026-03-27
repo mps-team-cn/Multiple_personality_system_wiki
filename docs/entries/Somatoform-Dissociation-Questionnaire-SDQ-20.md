@@ -322,6 +322,7 @@ SDQ-20 主要用于：
 - [解离性身份障碍 （DID）](DID.md)
 - [解离经验量表 （DES-II）](Dissociative-Experiences-Scale-DES-II.md)
 - [多维解离量表 （MID-60）](Multidimensional-Inventory-of-Dissociation-MID-60.md)
+- [解离量表怎么选？DES‑II、MID‑60、SDQ‑20 对照](Dissociation-Scales-How-To-Choose.md)
 - [创伤 （Trauma）](Trauma.md)
 
 ## 外部链接

@@ -1,5 +1,6 @@
 ---
 comments: true
+description: 侵入性记忆指创伤相关内容在不受控制下闯入意识，常以画面、声音、身体感觉或片段场景出现。它与闪回、侵入性思维不同，更接近“创伤记忆突然涌现”而非完整重演。
 synonyms:
 
 - 侵入性记忆
@@ -84,6 +85,7 @@ updated: 2026-03-27
 
 - [闪回（Flashback）](Flashback.md)
 - [侵入性思维（Intrusive Thoughts）](Intrusive-Thoughts.md)
+- [闪回、侵入性记忆、侵入性思维有什么区别？](Flashback-Intrusive-Memory-Intrusive-Thoughts-Differences.md)
 - [创伤后应激障碍（PTSD）](PTSD.md)
 - [眼动脱敏与再加工（EMDR）](Eye-Movement-Desensitization-Reprocessing-EMDR.md)
 - [创伤聚焦认知行为疗法（TF-CBT）](Trauma-Focused-Cognitive-Behavioral-Therapy-TF-CBT.md)

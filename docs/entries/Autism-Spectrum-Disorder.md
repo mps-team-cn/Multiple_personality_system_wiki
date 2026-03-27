@@ -1,5 +1,6 @@
 ---
 comments: true
+description: 孤独症谱系障碍（ASD）是神经发育障碍，核心表现为社会沟通差异、局限重复行为与感官调节差异。本文梳理 ASD 的诊断标准、支持需求、常见共病与评估路径。
 synonyms:
 
     - 自闭症谱系障碍
@@ -220,6 +221,7 @@ updated: 2025-12-16
 - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
 - [强迫症（Obsessive-Compulsive Disorder，OCD）](OCD.md)
+- [ASD 是什么意思？孤独症谱系障碍还是急性应激障碍](ASD-Meaning-Autism-or-Acute-Stress-Disorder.md)
 
 ### 多意识体系统
 

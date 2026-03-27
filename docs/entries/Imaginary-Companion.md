@@ -91,6 +91,8 @@ updated: 2026-03-27
 ## 相关条目
 
 - [图帕（Tulpa）](Tulpa.md)
+- [系魂（Soulbond）](Soulbond.md)
+- [Tulpa、多意识体、系魂、幻想伙伴的区别](Tulpa-System-Soulbond-Imaginary-Companion-Differences.md)
 - [系统（System）](System.md)
 - [解离（Dissociation）](Dissociation.md)
 - [宿主（Host）](Host.md)

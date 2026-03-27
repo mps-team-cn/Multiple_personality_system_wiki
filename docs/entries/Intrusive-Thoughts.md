@@ -155,6 +155,8 @@ SSRI 等对伴随 OCD/焦虑/抑郁的侵入性思维有效。
 - [创伤后应激障碍（Post-Traumatic Stress Disorder, PTSD）](PTSD.md)
 - [强迫症（Obsessive-Compulsive Disorder, OCD）](OCD.md)
 - [闪回（Flashback）](Flashback.md)
+- [侵入性记忆（Intrusive Memory）](Intrusive-Memory.md)
+- [闪回、侵入性记忆、侵入性思维有什么区别？](Flashback-Intrusive-Memory-Intrusive-Thoughts-Differences.md)
 - [灾难预演（Disaster Rehearsal）](Disaster-Rehearsal.md)
 - [去人格化（Depersonalization）](Depersonalization.md)
 - [心境障碍（Affective Disorders）](Affective-Disorders.md)

@@ -153,6 +153,7 @@ updated: 2025-10-22
 | [C-PTSD 常见应对模式类型](../entries/C-PTSD-Coping-Styles.md) | 长期复杂创伤下出现的主要生存策略 | 识别依附/情绪/控制/回避/解离/羞耻型模式，辅助自助与沟通 |
 | [冻结与讨好反应](../entries/Freeze-Fawn-Responses.md) | 僵住、失语、过度顺从或难以拒绝 | 识别防御模式，减少自责并建立边界 |
 | [情感闪回与躯体闪回](../entries/Emotional-Somatic-Flashbacks.md) | 突然被羞耻、恐惧或身体感受淹没，却无清晰画面 | 区分与经典闪回、惊恐和解离的差异 |
+| [闪回、侵入性记忆、侵入性思维有什么区别？](../entries/Flashback-Intrusive-Memory-Intrusive-Thoughts-Differences.md) | 搞不清自己经历的是重演、记忆闯入还是不受欢迎念头 | 用一张表快速区分三种高频侵入体验与对应处理重点 |
 | [去人格化（Depersonalization）](../entries/Depersonalization.md) | 感到自己不像自己、像在旁观自己行动 | 区分自我疏离、去现实化与系统边界体验 |
 | [惊恐触发后的功能性言语受阻](../entries/Functional-Speech-Inhibition-After-Trauma-Trigger.md) | 创伤触发后出现暂时失语或喉部僵紧 | 理解防御机制、分阶段自助与求助策略 |
 | [惊恐发作（Panic Attack）](../entries/Panic-Attack.md) | 反复惊恐、呼吸失控 | 识别触发、运用呼吸与接地稳定 |

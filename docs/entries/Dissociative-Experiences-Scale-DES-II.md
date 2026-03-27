@@ -313,6 +313,7 @@ updated: 2026-02-19
 
 - [多维解离量表（Multidimensional Inventory of Dissociation, MID‑60）](Multidimensional-Inventory-of-Dissociation-MID-60.md)
 - [躯体形式解离问卷（Somatoform Dissociation Questionnaire, SDQ‑20）](Somatoform-Dissociation-Questionnaire-SDQ-20.md)
+- [解离量表怎么选？DES‑II、MID‑60、SDQ‑20 对照](Dissociation-Scales-How-To-Choose.md)
 - [解离（Dissociation）](Dissociation.md)
 - [解离性身份障碍（DID）](DID.md)
 

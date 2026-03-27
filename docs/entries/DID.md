@@ -70,6 +70,9 @@ updated: 2026-03-27
 ??? question "量表能直接测出 DID 吗？"
     不能。像 [DES-II](Dissociative-Experiences-Scale-DES-II.md)、[MID-60](Multidimensional-Inventory-of-Dissociation-MID-60.md)、[SDQ-20](Somatoform-Dissociation-Questionnaire-SDQ-20.md) 这类工具可以帮助筛查解离倾向或症状模式，但 **量表不等于诊断**。真正的 DID 诊断仍需结合临床访谈、鉴别诊断与功能损害评估。
 
+??? question "DID 和 OSDD、PDID 到底怎么区分？"
+    最简要的抓法是：DID 更强调 **身份状态轮流接管行为** 与较明显的 **解离性遗忘**；[OSDD](OSDD.md) 更像“已经有显著解离症状，但还没完全满足 DID 完整标准”；[PDID](Partial-Dissociative-Identity-Disorder-PDID.md) 则更强调 **非主导身份的侵入体验**，完整接管相对较少。若想直接看一张对照表，可继续看 [DID、OSDD、PDID 有什么区别？](DID-OSDD-PDID-Comparison.md)。
+
 ---
 
 ## 诊断要点
@@ -449,6 +452,7 @@ DID 在法律场景中的作用复杂且充满争议：
 - [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
 - [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](Partial-Dissociative-Identity-Disorder-PDID.md)
 - [其他特定解离性障碍（OSDD）](OSDD.md)
+- [DID、OSDD、PDID 有什么区别？](DID-OSDD-PDID-Comparison.md)
 - [解离性失忆（Dissociative Amnesia，DA）](Dissociative-Amnesia-DA.md)
 - [人格解体/现实解体障碍（DPDR）](Depersonalization-Derealization-Disorder-DPDR.md)
 - [未特定的解离障碍（Unspecified Dissociative Disorder，UDD）](Unspecified-Dissociative-Disorder-UDD.md)
@@ -461,6 +465,7 @@ DID 在法律场景中的作用复杂且充满争议：
 - [多意识体系统（Multiple Personality System，MPS）](Multiple_Personality_System.md)
 - [混合（Blending）](Blending.md)
 - [内部自助者（Internal Self Helper，ISH）](Internal-Self-Helper-ISH.md)
+- [解离量表怎么选？DES‑II、MID‑60、SDQ‑20 对照](Dissociation-Scales-How-To-Choose.md)
 
 ### 身份与性别议题
 
