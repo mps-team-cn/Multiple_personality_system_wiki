@@ -44,6 +44,9 @@ updated: 2025-10-30
 
 闪回不是独立诊断，而是 PTSD/CPTSD 诊断标准中 **侵入性症状簇（Intrusion）** 的核心表现之一，也可能出现在[急性应激障碍（ASD）](Acute-Stress-Disorder-ASD.md)、[解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)及其他创伤相关障碍中。
 
+!!! note "补充"
+    若体验更像“被羞耻、恐惧或身体感受突然淹没”，却没有清晰的场景重演，可继续阅读[情感闪回与躯体闪回](Emotional-Somatic-Flashbacks.md)。
+
 !!! info "Clinician's Summary｜快速临床要点"
     **核心特征**：非自愿的创伤情境沉浸式重现 + 强烈情绪/生理反应 + 时间错位感（"仿佛正在发生"）+ 现实检验能力多数保留（事后可识别为"记忆重现"）。
 

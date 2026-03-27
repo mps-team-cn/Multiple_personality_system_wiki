@@ -48,11 +48,13 @@ search:
 - 🌫️ [前台模糊（Front Blur）](../entries/Front-Blur.md)：无法确定谁在前台的状态识别与应对。
 - 🌀 [混合（Blending）](../entries/Blending.md)：（社群用语，非诊断）边界模糊、记忆渗透的识别与处置。
 - 🧪 [ANP–EP 混溶（ANP–EP Blending）](../entries/ANP-EP-Blending.md)：结构性解离语境下，日常执行者与创伤反应者暂时交叠时的识别与稳定策略。
+- 👁️ [观察者 ANP 切换（Observer ANP Switch）](../entries/Observer-ANP-Switch.md)：高监控状态下的过渡型接管，适合放在“差点失控但仍需维持功能”的语境中理解。
 - 🧭 [并行（Parallelism）](../entries/Parallelism.md)：多条意识流同时运行时的负荷管理。
 - 🔙 [后台（Back / Being Back）](../entries/Back-Being-Back.md)：退到后台后的支持方式。
 - 🤖 [自动驾驶（Autopilot）](../entries/Autopilot.md)："机械操作"状态与恢复觉察。
 - 🪖 [头压（Head Pressure）](../entries/Head-Pressure.md)：常见生理体验与缓解方法。
 - ⚖️ [偏重（Median / Bias）](../entries/Median-Bias.md)：执掌权偏向的识别与调节。
+- ✋ [附体（Possession）](../entries/Possession.md)：控制权让渡与协作式接管的风险、边界与安全前提。
 - 🚨 [触发（Trigger）](../entries/Trigger.md)：触发源识别与预防措施。
 
 ---
@@ -64,7 +66,9 @@ search:
 - 👀 [意识共存（Co-Consciousness）](../entries/Co-Consciousness.md)：维持多人同时觉察的技巧。
 - 🗂️ [内部沟通](../entries/Internal-Communication.md)：信息交换、会议与日志工具。
 - 🪄 [内部空间（Headspace / Inner World）](../entries/Headspace-Inner-World.md)：内部世界的建设与维护。
+- 🏞️ [幻境（Wonderland）](../entries/Wonderland.md)：Tulpa 与内部空间语境中常见的可视化场景搭建与维持方式。
 - 🎨 [内视（Visualization / Imagination）](../entries/Visualization-Imagination.md)：心像支持沟通与记忆。
+- 🕳️ [失忆（Amnesia）](../entries/Amnesia.md)：时间缺失、成员间记忆隔离与交接失败的基础概念。
 - 🧳 [独有记忆（Exomemory）](../entries/Exomemory.md)：非当前生命史的叙事性记忆体验之机制与处理。
 - 🛡️ [记忆屏蔽（Memory Shielding）](../entries/Memory-Shielding.md)：何时建立屏障、如何安全解除。
 - 🔄 [记忆回退（Memory Rollback）](../entries/Memory-Rollback.md)：当下体验被旧记忆框架覆盖时的定向与安全策略。

@@ -46,6 +46,7 @@ updated: 2025-10-22
 - 💠 [核心（Core）](../entries/Core.md)：象征系统中心意识或整合方向。
 - 🎭 [执行者（Performer / Executive）](../entries/Performer-Executive.md)：专注任务完成与对外表现。
 - 🌀 [适应型（Adaptive）](../entries/Adaptive.md)：能在不同场景灵活承担职能的成员。
+- 🧱 [人格职能（System Roles）](../entries/System-Roles.md)：从整体上理解角色分工，而不是只看单个角色词条。
 
 ---
 
@@ -83,6 +84,7 @@ updated: 2025-10-22
 > 描述成员的自我认同与起源形态。
 
 - 🧍 [成员（Alter）](../entries/Alter.md)：具独立意识与记忆访问的单元。
+- 🪞 [内摄者（Introject）](../entries/Introject.md)：以重要他人、角色或来源形象出现的成员。
 - 🎭 [人格面具（Persona）](../entries/Persona.md)：用于特定社交情境的外显身份。
 - 🪶 [特殊认同（Alterhuman）](../entries/Alterhuman.md)：来自网络社群的身份体验与自我认同。
 
@@ -92,6 +94,8 @@ updated: 2025-10-22
 - 🌸 [图帕（Tulpa）](../entries/Tulpa.md)：由意念塑造的创造型意识体。
 - 🔗 [系魂（Soulbond）](../entries/Soulbond.md)：与虚构角色建立深度连结的存在形式。
 - 💫 [自发型（Spontaneous）](../entries/Spontaneous.md)：自然生成、非刻意创造的成员。
+- 🔀 [异化（Deviation）](../entries/Deviation.md)：成员在发展过程中偏离最初设定或预期的现象。
+- 🗺️ [埃蒙加德分类法（Emmengard Classification）](../entries/Emmengard-Classification.md)：按来源理解成员或系统起源的常见社群框架。
 - 🧒 [幻想伙伴（Imaginary Companion）](../entries/Imaginary-Companion.md)：儿童常见的想象性同伴。
 
 ---
