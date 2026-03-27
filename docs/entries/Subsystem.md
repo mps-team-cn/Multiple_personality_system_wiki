@@ -133,7 +133,7 @@ updated: 2025-10-20
 - [整合（Integration）](Integration.md)
 - [融合（Fusion）](Fusion.md)
 - [超级破碎（Polyfragmented）](Polyfragmented.md)
-- [非我感（Depersonalization）](Not-Me-Feeling.md)
+- [去人格化（Depersonalization）](Depersonalization.md)
 
 ## 参考与延伸阅读
 

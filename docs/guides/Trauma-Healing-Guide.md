@@ -116,6 +116,7 @@ updated: 2025-10-22
 | [自我照护工具箱](../entries/Self-Care-Toolkit.md) | 需要快速获取实用策略 | 接地、呼吸调节、TIPP 等即用工具 |
 | [接地（Grounding）](../entries/Grounding.md) | 急性触发/恐慌/解离增强 | 以感官、动作将注意力带回当下 |
 | [可耐受窗口](../entries/Window-of-Tolerance.md) | 判断此刻是否适合继续讨论、记录或加工 | 学会识别高唤醒、低唤醒与可调节区间 |
+| [触发因素与压力累积](../entries/Trigger-vs-Stress-Accumulation.md) | 总觉得“突然崩掉”，但分不清是单点触发还是最近一直撑太久 | 区分两种常见失稳路径，减少误判与自责 |
 | [感官调节策略](../entries/Sensory-Regulation-Strategies.md) | 长期焦虑、情绪起伏 | 个性化舒缓工具箱，稳定神经系统 |
 | [正念（Mindfulness）](../entries/Mindfulness.md) | 提升觉察与容受度 | 稳定观察情绪与身体变化 |
 | [冥想（Meditation）](../entries/Meditation.md) | 恢复觉察与释放压力 | 呼吸、身体扫描、内在平静中心 |
@@ -152,6 +153,7 @@ updated: 2025-10-22
 | [C-PTSD 常见应对模式类型](../entries/C-PTSD-Coping-Styles.md) | 长期复杂创伤下出现的主要生存策略 | 识别依附/情绪/控制/回避/解离/羞耻型模式，辅助自助与沟通 |
 | [冻结与讨好反应](../entries/Freeze-Fawn-Responses.md) | 僵住、失语、过度顺从或难以拒绝 | 识别防御模式，减少自责并建立边界 |
 | [情感闪回与躯体闪回](../entries/Emotional-Somatic-Flashbacks.md) | 突然被羞耻、恐惧或身体感受淹没，却无清晰画面 | 区分与经典闪回、惊恐和解离的差异 |
+| [去人格化（Depersonalization）](../entries/Depersonalization.md) | 感到自己不像自己、像在旁观自己行动 | 区分自我疏离、去现实化与系统边界体验 |
 | [惊恐触发后的功能性言语受阻](../entries/Functional-Speech-Inhibition-After-Trauma-Trigger.md) | 创伤触发后出现暂时失语或喉部僵紧 | 理解防御机制、分阶段自助与求助策略 |
 | [惊恐发作（Panic Attack）](../entries/Panic-Attack.md) | 反复惊恐、呼吸失控 | 识别触发、运用呼吸与接地稳定 |
 | [创伤性闪回（Flashback）](../entries/Flashback.md) | 侵入性再体验影响生活 | 区分闪回与解离、制定应对计划 |

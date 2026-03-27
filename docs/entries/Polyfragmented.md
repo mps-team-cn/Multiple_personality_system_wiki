@@ -91,7 +91,7 @@ updated: 2025-10-20
 - [成员（Alter）](Alter.md)
 - [初始（Original）](Original.md)
 - [迭代（Iteration）](Iteration.md)
-- [非我感（Depersonalization）](Not-Me-Feeling.md)
+- [去人格化（Depersonalization）](Depersonalization.md)
 
 ## 参考与延伸阅读
 

@@ -25,6 +25,7 @@ updated: 2025-10-20
 ## 与相关概念的区分
 
 - **与切换（Switch）** ：切换是主导权在不同成员间 **交替** ；共前台是 **并行/共享** 。
+- **与[被动影响（Passive Influence）](Passive-Influence.md)** ：共前台通常存在一定程度的协作或共同在场；被动影响更像单方推挤、干扰或临时夺取部分控制。
 - **与融合（Fusion）/整合（Integration）** ：共前台中的成员仍相互独立；融合/最终整合强调结构性合并。参见 [融合](Fusion.md) 与 [整合](Integration.md)。
 - **与混合（Blending）** ：混合更强调边界模糊、难区分个体贡献；共前台可保持清晰分工。
 - **与并行（Parallelism）** ：并行强调多条意识流同时运行；共前台关注 **外部控制** 的共享。参见 [并行](Parallelism.md)。
@@ -69,6 +70,7 @@ updated: 2025-10-20
 
 - [前台（Front / Fronting）](Front-Fronting.md)
 - [切换（Switch）](Switch.md)
+- [被动影响（Passive Influence）](Passive-Influence.md)
 - [卡前台（Front Stuck / Frontstuck）](Frontstuck.md)
 - [并行（Parallelism）](Parallelism.md)
 - [后台（Back / Being Back）](Back-Being-Back.md)

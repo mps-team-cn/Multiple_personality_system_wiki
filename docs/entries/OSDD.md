@@ -118,7 +118,7 @@ OSDD 属于 DSM-5-TR 解离性障碍章节的"其他特定"诊断，编码为 **
     - "失去时间"（lost time）但不如 DID 频繁或严重
     - 物品位置改变、无法回忆部分对话或行为
     - 对日常事件的记忆缺口，但通常可通过提示部分恢复
-- **解离体验**：常合并[去人格化（Depersonalization）](Not-Me-Feeling.md)、[现实解体（Derealization）](Derealization.md)、漂浮感、观察者视角或恍惚状态。
+- **解离体验**：常合并[去人格化（Depersonalization）](Depersonalization.md)、[现实解体（Derealization）](Derealization.md)、漂浮感、观察者视角或恍惚状态。
 - **附体与控制感丧失体验**：个体可能感觉被外力支配或"有人在内心抢夺身体"，但符合自身文化背景的宗教体验需谨慎区分（不应诊断为病理性解离）。
 - **情绪调节与躯体症状**：头痛、躯体化疼痛、睡眠障碍、强烈情绪波动、自伤冲动等。
 

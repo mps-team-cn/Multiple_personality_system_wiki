@@ -45,6 +45,7 @@ search:
 - 🧷 [锚点（Anchors / Tells / Markers）](../entries/Anchors.md)：识别"当下前台是谁"的外显线索（**仅供内部协作，非诊断**）。
 - 🧯 [卡前台（Front Stuck / Frontstuck）](../entries/Frontstuck.md)：无法退下或切换受阻的应对。
 - 👥 [共前台（Co-Fronting）](../entries/Co-Fronting.md)：多人并行执掌的分工与风险。
+- 🫸 [被动影响（Passive Influence）](../entries/Passive-Influence.md)：主导权未完全切换，但出现明显内部推动、干扰或挤压感时的识别与处理。
 - 🌫️ [前台模糊（Front Blur）](../entries/Front-Blur.md)：无法确定谁在前台的状态识别与应对。
 - 🌀 [混合（Blending）](../entries/Blending.md)：（社群用语，非诊断）边界模糊、记忆渗透的识别与处置。
 - 🧪 [ANP–EP 混溶（ANP–EP Blending）](../entries/ANP-EP-Blending.md)：结构性解离语境下，日常执行者与创伤反应者暂时交叠时的识别与稳定策略。
@@ -85,7 +86,7 @@ search:
 - 🧊 [心流（Flow）](../entries/Flow.md)：主动、适配且可控的最佳专注体验；与过度专注、解离区分。
 - 🌊 [情绪传染（Emotional Contagion）](../entries/Emotional-Contagion.md)：成员间情绪扩散与连锁触发的识别、边界与缓冲策略。
 - 🥴 [醉酒解离](../entries/Alcohol-Induced-Dissociation.md)：似醉非饮的主观体验与稳定策略。
-- 🪞 [非我感（Not-me Feeling）](../entries/Not-Me-Feeling.md) & [去现实化](../entries/Derealization.md)：边界感知与外界失真之区分与稳定。
+- 🪞 [非我感（Not-me Feeling）](../entries/Not-Me-Feeling.md) · [去人格化（Depersonalization）](../entries/Depersonalization.md) · [去现实化](../entries/Derealization.md)：区分成员边界感、自我疏离与外界失真。
 
 ---
 
@@ -113,6 +114,7 @@ search:
 - 🔭 [外投射（External Projection）](../entries/External-Projection.md)：将内部体验外化的方式与沟通边界。
 - ⚔️ [战/逃模式（Fight-or-Flight）](../entries/Fight-or-Flight.md)：交感神经驱动的急性防御反应，识别局限并规划事后调节。
 - ⚡ [应激反应（Stress Response）](../entries/Stress-Response.md)：心理-生理机制（ANS/HPA）与自我调节策略。
+- 📈 [触发因素与压力累积](../entries/Trigger-vs-Stress-Accumulation.md)：帮助区分“被具体线索点燃”与“长期负荷把阈值压低”的两种失稳路径。
 - 🎭 [角色面具（Masking / Social Masking）](../entries/Masking.md)：以单一外观维持安全与功能；过度使用的代价与减负办法。
 
 ---

@@ -46,7 +46,8 @@ updated: 2025-10-20
 
 ## 相关条目
 
-- [非我感（Depersonalization）](Not-Me-Feeling.md)
+- [去人格化（Depersonalization）](Depersonalization.md)
+- [非我感（Not-me Feeling）](Not-Me-Feeling.md)
 - [应激反应（Stress Response）](Stress-Response.md)
 - [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
 - [融合（Fusion）](Fusion.md)

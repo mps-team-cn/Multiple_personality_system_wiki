@@ -43,7 +43,7 @@ updated: 2025-10-20
 ## 与其他概念的比较 / 鉴别
 
 - **与[闪回（Flashback）](Flashback.md)的关系** : [闪回（Flashback）](Flashback.md)是触发可能导致的体验之一，但并非所有触发都会进入完全的情境重现。[^briere-scott-2015]
-- **与一般压力源** : 压力源主要导致紧张或焦虑，而触发更侧重于激活[创伤（Trauma）](Trauma.md)记忆网络，常伴随[解离（Dissociation）](Dissociation.md)或身份体验变化。[^frewen-lanius-2015]
+- **与一般压力源** : 压力源主要导致紧张或焦虑，而触发更侧重于激活[创伤（Trauma）](Trauma.md)记忆网络，常伴随[解离（Dissociation）](Dissociation.md)或身份体验变化。若不确定自己更像被单点线索拉起，还是长期高负荷后阈值下降，可参见[触发因素与压力累积](Trigger-vs-Stress-Accumulation.md)。[^frewen-lanius-2015]
 
 ## 常见误区
 
@@ -124,9 +124,10 @@ updated: 2025-10-20
 - [碎片（Fragment）](Fragment.md)
 - [防御性解离（Defensive Dissociation）](Defensive-Dissociation.md)
 - [迭代（Iteration）](Iteration.md)
-- [非我感（Depersonalization）](Not-Me-Feeling.md)
+- [去人格化（Depersonalization）](Depersonalization.md)
 - [创伤（Trauma）](Trauma.md)
 - [去现实化（Derealization）](Derealization.md)
+- [触发因素与压力累积](Trigger-vs-Stress-Accumulation.md)
 - [解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)
 
 ## 参考与延伸阅读

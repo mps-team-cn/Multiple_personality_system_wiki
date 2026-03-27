@@ -66,7 +66,7 @@ updated: 2025-10-20
 
 - [迭代（Iteration）](Iteration.md)
 - [意识修改（Consciousness Modification）](Consciousness-Modification.md)
-- [非我感（Depersonalization）](Not-Me-Feeling.md)
+- [去人格化（Depersonalization）](Depersonalization.md)
 - [封存（Sequestration）](Sequestration.md)
 - [融合（Fusion）](Fusion.md)
 - [初始（Original）](Original.md)

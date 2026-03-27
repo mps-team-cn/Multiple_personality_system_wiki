@@ -80,7 +80,7 @@ ICD-11 将 CPTSD 编码为 **6B41**，明确区分于 PTSD（6B40）；DSM-5-TR 
 - **复杂特征描述**：临床可在 PTSD 诊断下附加说明以下特征：
     - "与负性情绪和认知相关的改变"（标准 D）：持续负性情绪状态、自我或他人负性信念、持续指责自己或他人。
     - "唤起与反应性显著改变"（标准 E）：易激惹、自毁或鲁莽行为、过度警觉。
-    - "解离亚型"：若伴随显著[去人格化（Depersonalization）](Not-Me-Feeling.md)或[现实解体（Derealization）](Derealization.md)症状。
+    - "解离亚型"：若伴随显著[去人格化（Depersonalization）](Depersonalization.md)或[现实解体（Derealization）](Derealization.md)症状。
 
 - **实务建议**：
     - 当 PTSD 患者表现出显著的人际功能障碍、自我概念负性改变、情绪调节困难时，可在临床记录中注明"具有复杂特征"。

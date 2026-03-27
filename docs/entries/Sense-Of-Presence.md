@@ -82,7 +82,7 @@ updated: 2026-03-27
 - [意识共存（Co-consciousness）](Co-Consciousness.md)
 - [意识修改（Consciousness Modification）](Consciousness-Modification.md)
 - [封存（Sequestration）](Sequestration.md)
-- [非我感（Depersonalization）](Not-Me-Feeling.md)
+- [去人格化（Depersonalization）](Depersonalization.md)
 - [应激反应（Stress Response）](Stress-Response.md)
 - [重构（Reconstruction）](Reconstruction.md)
 - [迭代（Iteration）](Iteration.md)

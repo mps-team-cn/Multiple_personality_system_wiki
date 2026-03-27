@@ -116,7 +116,7 @@ updated: 2025-10-20
 - [人格职能（System Roles）](System-Roles.md)
 - [意识修改（Consciousness Modification）](Consciousness-Modification.md)
 - [封存（Sequestration）](Sequestration.md)
-- [非我感（Depersonalization）](Not-Me-Feeling.md)
+- [去人格化（Depersonalization）](Depersonalization.md)
 
 ## 参考资料
 

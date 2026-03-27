@@ -244,7 +244,7 @@ updated: 2025-10-20
 1. [封存（Sequestration）](Sequestration.md)
 2. [重构（Reconstruction）](Reconstruction.md)
 3. [存在感（Sense of Presence）](Sense-Of-Presence.md)
-4. [非我感（Depersonalization）](Not-Me-Feeling.md)
+4. [去人格化（Depersonalization）](Depersonalization.md)
 5. [意识共存（Co-consciousness）](Co-Consciousness.md)
 6. [迭代（Iteration）](Iteration.md)
 7. [应激反应（Stress Response）](Stress-Response.md)

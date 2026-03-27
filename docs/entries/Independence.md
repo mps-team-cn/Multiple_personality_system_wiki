@@ -197,7 +197,7 @@ updated: 2025-10-20
 
 ### 体验相关
 
-- [非我感（Depersonalization）](Not-Me-Feeling.md)
+- [去人格化（Depersonalization）](Depersonalization.md)
 - [接地（Grounding）](Grounding.md)
 
 ---

@@ -28,7 +28,7 @@ comments: true
 
 ## 关联词条
 
-- [非我感（Depersonalization）](Not-Me-Feeling.md)
+- [去人格化（Depersonalization）](Depersonalization.md)
 - [身份解体（Dissociation）](Dissociation.md)
 - [人格面具（Persona）](Persona.md)
 

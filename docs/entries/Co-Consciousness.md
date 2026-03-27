@@ -59,7 +59,7 @@ updated: 2025-10-20
 - [存在感（Sense of Presence）](Sense-Of-Presence.md)
 - [意识修改（Consciousness Modification）](Consciousness-Modification.md)
 - [封存（Sequestration）](Sequestration.md)
-- [非我感（Depersonalization）](Not-Me-Feeling.md)
+- [去人格化（Depersonalization）](Depersonalization.md)
 - [迭代（Iteration）](Iteration.md)
 - [重构（Reconstruction）](Reconstruction.md)
 - [应激反应（Stress Response）](Stress-Response.md)

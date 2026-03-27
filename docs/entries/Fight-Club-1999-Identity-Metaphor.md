@@ -30,7 +30,7 @@ comments: true
 
 - [人格面具（Persona）](Persona.md)
 - [融合（Fusion）](Fusion.md)
-- [非我感（Depersonalization）](Not-Me-Feeling.md)
+- [去人格化（Depersonalization）](Depersonalization.md)
 
 ## 相关条目
 
