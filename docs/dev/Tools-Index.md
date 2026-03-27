@@ -35,6 +35,7 @@ bash tools/run_local_updates.sh --help
 | 检查链接规范 | `python3 tools/check_links.py docs/entries/` |
 | 检查 Frontmatter | `python3 tools/check_frontmatter.py` |
 | 检查标签规范 | `python3 tools/check_tags.py docs/entries/` |
+| 清理临时远端分支 | `bash tools/cleanup-remote-branches.sh --dry-run` |
 | 更新时间戳 | `python3 tools/update_git_timestamps.py` |
 | 标准化标签 | `python3 tools/tag_normalization.py --execute` |
 | 生成分区索引 | `python3 tools/build_partitions_cn.py` |
@@ -124,6 +125,7 @@ bash tools/run_local_updates.sh --help
 | 工具 | 功能 |
 |------|------|
 | **delete-cf-pages-project.js** | Cloudflare Pages 项目批量删除工具 |
+| **cleanup-remote-branches.ps1 / cleanup-remote-branches.sh** | 清理符合指定前缀的本地与远端 Git 分支，支持保护分支、预览模式与跳过确认 |
 
 ## 🗂️ 工具架构
 
