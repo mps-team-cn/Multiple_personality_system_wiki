@@ -1,6 +1,18 @@
 ---
 comments: true
 description: 人格解体/现实解体障碍（DPDR）权威指南：诊断标准、临床表现与治疗方法。掌握持续性解离体验的识别与康复策略
+search:
+  boost: 1.8
+synonyms:
+
+- DPDR
+- dpdr
+- 人格解体现实解体障碍
+- 人格解体
+- 现实解体障碍
+- 去人格化
+- 去现实化
+- depersonalization derealization disorder
 tags:
 
 - dx:人格解体-现实解体障碍
@@ -28,6 +40,20 @@ updated: 2026-03-27
 
 !!! note "术语区分"
     本词条讨论的是临床解离症状中的 **人格解体（Depersonalization）**，这是 DPDR 的核心症状之一。关于多意识体系统中用于识别成员边界的 **非我感（Not-me Feeling）**，请参见《[非我感（Not-me Feeling）](Not-Me-Feeling.md)》。
+
+## 常见问题（FAQ）
+
+??? question "DPDR 是什么？"
+    DPDR 是 **Depersonalization/Derealization Disorder** 的缩写，中文通常译为**人格解体/现实解体障碍**。它的核心不是“疯了”或“人格分裂”，而是持续或反复出现的**自我疏离感、身体不真实感，或外界像梦一样失真的体验**，同时现实检验能力大多仍保留。
+
+??? question "去人格化和去现实化有什么区别？"
+    “去人格化”通常对应**人格解体（Depersonalization）**，更偏向“我不像我自己”“像在旁观自己”；“去现实化”通常对应[现实解体（Derealization）](Derealization.md)，更偏向“世界不像真的”“环境像隔着一层膜”。两者常一起出现，所以临床上常合并写成 DPDR。
+
+??? question "DPDR 和精神病一样吗？"
+    通常不一样。DPDR 患者虽然会觉得自己或环境“不真实”，但往往**知道这种感觉是一种主观体验**，现实检验能力通常保留。精神病性障碍则更常见妄想、幻觉和对现实判断的明显受损，因此临床鉴别非常重要。
+
+??? question "DPDR 常见诱因有哪些？"
+    高压、惊恐、睡眠剥夺、创伤触发、长期焦虑、抑郁发作，以及某些物质使用，都可能诱发或加重 DPDR。很多人第一次发作会误以为自己“要失控了”，但更常见的机制是压力下的解离性保护反应。
 
 ---
 

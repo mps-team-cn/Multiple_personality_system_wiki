@@ -73,6 +73,12 @@ search:
 
     [:octicons-arrow-right-24: 查询术语](Glossary.md)
 
+- :material-clipboard-text-search: **量表总览**
+
+    汇总站内常用评估量表与交互式筛查工具入口
+
+    [:octicons-arrow-right-24: 查看量表](entries/DSM-5TR-Scales.md)
+
 - :material-clock-outline: **最新动态**
 
     查看最近修改的词条内容
