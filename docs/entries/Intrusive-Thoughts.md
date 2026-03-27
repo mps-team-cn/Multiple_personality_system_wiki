@@ -19,7 +19,7 @@ tags:
 
 title: 侵入性思维（Intrusive Thoughts）
 topic: 系统运作
-updated: 2025-10-30
+updated: 2026-03-27
 ---
 
 # 侵入性思维（Intrusive Thoughts）

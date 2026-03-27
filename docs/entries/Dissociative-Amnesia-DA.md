@@ -21,7 +21,7 @@ tags:
 
 title: 解离性失忆(Dissociative Amnesia,DA)
 topic: 诊断与临床
-updated: 2025-10-22
+updated: 2026-03-27
 ---
 
 # 解离性失忆(Dissociative Amnesia,DA)

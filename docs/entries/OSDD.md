@@ -12,7 +12,7 @@ tags:
 
 title: 其他特定解离性障碍（OSDD）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 其他特定解离性障碍（OSDD）

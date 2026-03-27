@@ -19,7 +19,7 @@ tags:
 
 title: 复杂性创伤后应激障碍（Complex Post-Traumatic Stress Disorder，CPTSD）
 topic: 诊断与临床
-updated: 2025-12-04
+updated: 2026-03-27
 ---
 
 # 复杂性创伤后应激障碍（Complex Post-Traumatic Stress Disorder，CPTSD）

@@ -20,7 +20,7 @@ tags:
 
 title: ANP-EP 模型（Apparently Normal Part–Emotional Part Model）
 topic: 系统运作
-updated: 2025-12-10
+updated: 2026-03-27
 ---
 
 # ANP-EP 模型（Apparently Normal Part–Emotional Part Model）
