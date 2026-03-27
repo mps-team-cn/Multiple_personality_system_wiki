@@ -5,7 +5,7 @@ search:
   boost: 2.0
 tags:
 
-- dx:OSDD
+- dx:其他特定解离性障碍
 - dx:解离障碍
 - guide:诊断与临床
 - guide:适应型系统

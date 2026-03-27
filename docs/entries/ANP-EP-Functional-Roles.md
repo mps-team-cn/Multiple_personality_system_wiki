@@ -4,7 +4,7 @@ tags:
 
     - ops:系统运作
     - theory:结构性解离
-    - sx:切换
+    - ops:切换
     - role:保护者
 
 topic: 系统运作

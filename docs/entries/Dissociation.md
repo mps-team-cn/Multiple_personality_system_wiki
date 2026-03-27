@@ -17,8 +17,8 @@ synonyms:
 tags:
 
 - dx:解离性身份障碍（DID）
-- dx:DPDR
-- dx:OSDD
+- dx:人格解体-现实解体障碍
+- dx:其他特定解离性障碍
 - ops:系统运作
 
 title: 解离（Dissociation）

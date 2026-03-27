@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""
+r"""
 检查词条 Frontmatter 的标签是否符合《MPS Wiki Tagging Standard v2.0》
 
 校验维度：
@@ -111,6 +111,13 @@ def validate_tags(md_path: Path, alias_map: Dict[str, str], verbose: bool = Fals
         # 别名校验（禁止使用映射键作为标签）
         if tag in alias_map:
             issues.append(TagIssue(md_path, f"使用了别名：{tag!r} → 请改用规范名 {alias_map[tag]!r}"))
+
+        # 名称部分别名校验：例如 dx:PTSD / dx:解离性身份障碍
+        canonical_by_name = alias_map.get(name)
+        if canonical_by_name and canonical_by_name != tag:
+            issues.append(
+                TagIssue(md_path, f"标签名称使用了别名：{tag!r} → 请改用规范名 {canonical_by_name!r}")
+            )
 
         # 与标题重复（名称部分与 title 完全一致）
         if title and name == title:

@@ -12,7 +12,7 @@ topic: 理论与分类
 tags:
 
     - community:Tulpa
-    - theory:创造型系统
+    - guide:创造型系统
 
 updated: 2025-12-05
 ---

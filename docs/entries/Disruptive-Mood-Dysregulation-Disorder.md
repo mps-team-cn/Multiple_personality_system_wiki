@@ -12,7 +12,7 @@ synonyms:
 tags:
 
 - dx:抑郁障碍
-- dx:情绪障碍
+- dx:双相及相关障碍
 - guide:诊断与临床
 
 title: 破坏性心境失调障碍（Disruptive Mood Dysregulation Disorder, DMDD）

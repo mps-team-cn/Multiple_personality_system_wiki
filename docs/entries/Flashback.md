@@ -15,7 +15,7 @@ synonyms:
 
 tags:
 
-- dx:CPTSD
+- dx:复杂性创伤后应激障碍
 - dx:创伤后应激障碍
 - sx:创伤症状
 - guide:诊断与临床
