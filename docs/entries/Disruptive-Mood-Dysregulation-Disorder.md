@@ -17,7 +17,7 @@ tags:
 
 title: 破坏性心境失调障碍（Disruptive Mood Dysregulation Disorder, DMDD）
 topic: 诊断与临床
-updated: 2025-10-26
+updated: 2026-03-27
 ---
 
 # 破坏性心境失调障碍（Disruptive Mood Dysregulation Disorder, DMDD）

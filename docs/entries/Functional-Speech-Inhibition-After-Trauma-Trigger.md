@@ -15,7 +15,7 @@ tags:
 
 title: 惊恐触发后的功能性言语受阻（Functional Speech Inhibition After Trauma Trigger）
 topic: 创伤与疗愈
-updated: 2025-11-01
+updated: 2026-03-27
 ---
 
 # 惊恐触发后的功能性言语受阻（Functional Speech Inhibition After Trauma Trigger）

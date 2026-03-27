@@ -15,7 +15,7 @@ synonyms:
     - fuzaixing chuangshang yingdui moshi
 
 description: 本条目介绍复杂性创伤后应激障碍（C-PTSD）在长期创伤环境下常见的六种应对与适应模式，强调这是描述“生存策略”的非诊断性分类，并说明其在多意识体系统（DID/OSDD 等）中的常见表现和疗愈方向。
-updated: 2025-12-04
+updated: 2026-03-27
 comments: true
 ---
 

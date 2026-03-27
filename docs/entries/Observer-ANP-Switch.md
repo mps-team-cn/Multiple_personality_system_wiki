@@ -17,7 +17,7 @@ tags:
 
 title: 观察者 ANP 切换（Observer ANP Switch）
 topic: 系统运作
-updated: 2025-11-17
+updated: 2026-03-27
 ---
 
 # 观察者 ANP 切换（Observer ANP Switch）

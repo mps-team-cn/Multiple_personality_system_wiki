@@ -15,7 +15,7 @@ synonyms:
     - ANP-EP Roles
 
 description: 基于结构性解离框架梳理 ANP 与 EP 在日常与创伤反应中的常见功能组合、触发情境与风险提示，强调参考性质与安全策略。
-updated: 2025-12-04
+updated: 2026-03-27
 comments: true
 ---
 

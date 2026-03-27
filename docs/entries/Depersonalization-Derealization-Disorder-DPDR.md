@@ -9,7 +9,7 @@ tags:
 
 title: 人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）
 topic: 诊断与临床
-updated: 2025-10-22
+updated: 2026-03-27
 ---
 
 # 人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）
