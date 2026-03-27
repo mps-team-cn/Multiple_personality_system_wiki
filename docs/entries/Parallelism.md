@@ -3,7 +3,6 @@ comments: true
 tags:
 
 - ops:系统运作
-- dx:解离障碍
 
 title: 并行（Parallelism）
 topic: 系统运作

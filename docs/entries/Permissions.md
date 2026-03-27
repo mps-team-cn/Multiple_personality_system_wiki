@@ -7,7 +7,6 @@ tags:
 
 - ops:系统运作
 - sx:创伤症状
-- dx:解离障碍
 
 title: 权限(Permissions)
 topic: 系统运作

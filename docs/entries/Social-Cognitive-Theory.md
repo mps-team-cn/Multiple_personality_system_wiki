@@ -8,7 +8,6 @@ synonyms:
 
 tags:
 
-- dx:解离障碍
 - sx:创伤症状
 
 title: 社会认知理论（Social-Cognitive Theory）

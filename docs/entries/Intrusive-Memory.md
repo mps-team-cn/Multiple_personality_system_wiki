@@ -12,7 +12,6 @@ tags:
 
 - dx:创伤后应激障碍
 - ops:系统运作
-- dx:解离障碍
 
 title: 侵入性记忆（Intrusive Memory）
 topic: 系统运作

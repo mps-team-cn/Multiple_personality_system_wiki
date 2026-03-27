@@ -16,7 +16,6 @@ tags:
 - tx:创伤治疗
 - sx:创伤症状
 - dx:CPTSD
-- dx:解离障碍
 
 title: 可耐受窗口（Window of Tolerance）
 topic: 创伤与疗愈

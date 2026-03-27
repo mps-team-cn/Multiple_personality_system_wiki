@@ -6,7 +6,6 @@ search:
 tags:
 
 - role:系统角色
-- dx:解离障碍
 
 title: 守门人（Gatekeeper）
 topic: 角色与身份

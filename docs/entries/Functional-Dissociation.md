@@ -4,7 +4,6 @@ tags:
 
 - ops:系统运作
 - sx:创伤症状
-- dx:解离障碍
 
 title: 功能性分离（Functional Dissociation）
 topic: 系统运作

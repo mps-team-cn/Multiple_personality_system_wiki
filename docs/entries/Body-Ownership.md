@@ -14,7 +14,6 @@ tags:
 
 - ops:系统运作
 - sx:创伤症状
-- dx:解离障碍
 
 title: 躯体认同（Body Ownership）
 topic: 系统运作

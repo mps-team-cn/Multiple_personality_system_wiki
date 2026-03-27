@@ -4,7 +4,6 @@ tags:
 
 - dx:焦虑障碍
 - sx:创伤症状
-- dx:解离障碍
 - guide:诊断与临床
 
 title: 惊恐障碍（Panic Disorder，PD）

@@ -14,7 +14,6 @@ synonyms:
 tags:
 
 - tx:创伤治疗
-- dx:解离障碍
 - sx:创伤症状
 
 title: 正念(Mindfulness)

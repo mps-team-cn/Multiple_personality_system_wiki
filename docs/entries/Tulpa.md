@@ -20,7 +20,6 @@ tags:
 - community:Tulpa
 - guide:创造型系统
 - role:系统角色
-- dx:解离障碍
 
 title: 图帕（Tulpa）
 topic: 角色与身份

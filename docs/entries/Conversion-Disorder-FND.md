@@ -2,7 +2,6 @@
 comments: true
 tags:
 
-- dx:解离障碍
 - guide:诊断与临床
 
 title: 功能性神经症状障碍（Functional Neurological Symptom Disorder，FND）

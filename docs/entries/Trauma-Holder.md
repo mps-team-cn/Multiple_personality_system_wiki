@@ -14,7 +14,6 @@ tags:
 
 - role:系统角色
 - sx:创伤症状
-- dx:解离障碍
 
 title: 创伤持有者（Trauma Holder）
 topic: 角色与身份

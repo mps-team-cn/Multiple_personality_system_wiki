@@ -8,7 +8,8 @@ synonyms:
 
 tags:
 
-- dx:解离障碍
+- theory:心理学理论
+
 
 title: 学习与条件反射（Learning & Conditioning）
 topic: 理论与分类

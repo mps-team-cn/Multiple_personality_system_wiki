@@ -8,7 +8,6 @@ synonyms:
 
 tags:
 
-- dx:解离障碍
 - sx:创伤症状
 
 title: 人格结构理论（Personality Structure Theory, Freud）

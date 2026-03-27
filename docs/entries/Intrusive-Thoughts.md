@@ -15,7 +15,6 @@ tags:
 
 - dx:创伤后应激障碍
 - sx:系统运作
-- dx:解离障碍
 
 title: 侵入性思维（Intrusive Thoughts）
 topic: 系统运作

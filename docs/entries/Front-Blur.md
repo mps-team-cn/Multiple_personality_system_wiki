@@ -14,7 +14,6 @@ synonyms:
 tags:
 
 - ops:系统运作
-- dx:解离障碍
 - sx:创伤症状
 
 title: 前台模糊（Front Blur）

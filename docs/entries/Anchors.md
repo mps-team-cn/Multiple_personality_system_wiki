@@ -12,7 +12,6 @@ synonyms:
 tags:
 
 - ops:系统运作
-- dx:解离障碍
 
 title: 锚点（Anchors / Tells / Markers）
 topic: 系统运作

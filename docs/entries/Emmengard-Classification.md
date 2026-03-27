@@ -15,7 +15,6 @@ synonyms:
 tags:
 
 - role:系统角色
-- dx:解离障碍
 
 title: 埃蒙加德分类法（Emmengard Classification）
 topic: 角色与身份
