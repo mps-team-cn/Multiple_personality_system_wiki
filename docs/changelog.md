@@ -7,6 +7,47 @@ search:
 
 # 更新日志
 
+## [v4.1.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v4.1.0) - 创伤反应与主题导览持续扩展 (2026-03-27)
+
+### ✨ 新增功能
+
+- **新增词条（7）**（PR #439 #440 #443 #446 #448）
+    - [赌博障碍](entries/Gambling-Disorder.md)
+    - [奖赏系统](entries/Reward-System.md)
+    - [危机应对](entries/Crisis-Response.md)
+    - [游戏障碍](entries/Gaming-Disorder.md)
+    - [情绪性/躯体性闪回](entries/Emotional-Somatic-Flashbacks.md)
+    - [冻结与讨好反应](entries/Freeze-Fawn-Responses.md)
+    - [可耐受窗口](entries/Window-of-Tolerance.md)
+
+### 📚 词条扩充与完善
+
+- **创伤与系统运作主题深化**
+    - 补充 [闪回](entries/Flashback.md)、[内部沟通](entries/Internal-Communication.md)、[临场感](entries/Sense-Of-Presence.md)、[应激反应](entries/Stress-Response.md) 等相关词条链接与内容衔接
+    - 调整 [阶段导向治疗原则](entries/Phase-Oriented-Treatment-Principles.md) 与多份 Guide，使新增词条并入既有导航体系
+
+- **量表与既有内容修订**
+    - 更新 [MID-60](entries/Multidimensional-Inventory-of-Dissociation-MID-60.md) 与 [DES-II](entries/Dissociative-Experiences-Scale-DES-II.md) 内容
+    - 补充特殊认同条目说明与贡献者信息，完善项目文档表达
+
+### 🧭 导览与规范
+
+- 同步更新临床诊断、实践指南、创伤疗愈、系统运作、角色与身份、理论分类等 Guide
+- 修复 changelog 内失效词条链接，确保版本历史页可读性
+
+### 🔧 维护更新
+
+- 自动更新词条、分区索引与 Markdown 格式
+- 合并多条内容 PR 后完成站点导航同步
+
+### 📊 影响范围
+
+- 新增词条 7 篇，补充更新多篇创伤反应与系统运作相关内容
+- 更新多个 Guide、索引与版本历史页
+- 为 `v4.1.0` GitHub Release 与 PDF 分发链接做好版本落点准备
+
+---
+
 ## [v4.0.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v4.0.0) - 临床词条体系扩展与工具稳定性提升 (2025-12-28)
 
 ### ✨ 新增功能
