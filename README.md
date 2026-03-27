@@ -198,7 +198,6 @@ Build output directory: site
 - 信息反馈：support@mpsteam.cn（内容错误、改进建议、使用问题）
 - 官方联系：contact@mpsteam.cn（合作洽谈、媒体咨询、其他事务）
 - GitHub Issues：<https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues>
-- QQ 群：935527821
 
 ---
 
