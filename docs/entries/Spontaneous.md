@@ -20,7 +20,7 @@ tags:
 
 title: 自发型（Spontaneous）
 topic: 角色与身份
-updated: 2025-10-22
+updated: 2026-03-27
 ---
 
 # 自发型（Spontaneous）

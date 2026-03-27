@@ -12,7 +12,7 @@ tags:
 
 title: 依恋理论（Attachment Theory）
 topic: 理论与分类
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 依恋理论（Attachment Theory）

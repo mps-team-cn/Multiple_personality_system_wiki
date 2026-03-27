@@ -12,7 +12,7 @@ tags:
 
 title: 社会认知理论（Social-Cognitive Theory）
 topic: 理论与分类
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 社会认知理论（Social-Cognitive Theory）

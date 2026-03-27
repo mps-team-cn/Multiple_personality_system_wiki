@@ -12,7 +12,7 @@ tags:
 
 title: 认知失调（Cognitive Dissonance）
 topic: 理论与分类
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 认知失调（Cognitive Dissonance）

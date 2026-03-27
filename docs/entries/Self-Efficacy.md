@@ -12,7 +12,7 @@ tags:
 
 title: 自我效能感（Self-Efficacy）
 topic: 理论与分类
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 自我效能感（Self-Efficacy）

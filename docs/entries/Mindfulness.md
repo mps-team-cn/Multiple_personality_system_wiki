@@ -18,7 +18,7 @@ tags:
 
 title: 正念(Mindfulness)
 topic: 创伤与疗愈
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 正念(Mindfulness)

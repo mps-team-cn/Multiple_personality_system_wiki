@@ -12,7 +12,7 @@ tags:
 
 title: 人格结构理论（Personality Structure Theory, Freud）
 topic: 理论与分类
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 人格结构理论（Personality Structure Theory, Freud）

@@ -10,10 +10,9 @@ tags:
 
 - theory:心理学理论
 
-
 title: 心理能量与注意资源（Psychic Energy & Attention）
 topic: 理论与分类
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 心理能量与注意资源（Psychic Energy & Attention）

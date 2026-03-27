@@ -6,7 +6,7 @@ tags:
 
 title: 功能性神经症状障碍（Functional Neurological Symptom Disorder，FND）
 topic: 诊断与临床
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 功能性神经症状障碍（Functional Neurological Symptom Disorder，FND）

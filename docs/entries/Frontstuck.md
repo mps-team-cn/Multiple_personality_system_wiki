@@ -18,7 +18,7 @@ tags:
 
 title: 卡前台(Front Stuck / Frontstuck)
 topic: 系统运作
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 卡前台(Front Stuck / Frontstuck)

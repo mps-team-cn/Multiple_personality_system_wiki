@@ -10,10 +10,9 @@ tags:
 
 - theory:心理学理论
 
-
 title: 注意与觉察（Attention & Awareness）
 topic: 理论与分类
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 注意与觉察（Attention & Awareness）

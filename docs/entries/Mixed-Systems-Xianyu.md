@@ -7,7 +7,7 @@ tags:
 
 title: 混合型系统（Mixed Systems, Xianyu Theory）
 topic: 系统运作
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 混合型系统（Mixed Systems, Xianyu Theory）

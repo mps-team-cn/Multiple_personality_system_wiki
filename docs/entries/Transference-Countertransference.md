@@ -12,7 +12,7 @@ tags:
 
 title: 移情与反移情（Transference and Countertransference）
 topic: 理论与分类
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 移情与反移情（Transference and Countertransference）

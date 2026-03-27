@@ -12,7 +12,7 @@ tags:
 
 title: 防御性解离（Defensive Dissociation）
 topic: 理论与分类
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 防御性解离（Defensive Dissociation）

@@ -18,7 +18,7 @@ tags:
 
 title: 内在批评者（Inner Critic）
 topic: 角色与身份
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 内在批评者（Inner Critic）

@@ -7,7 +7,7 @@ tags:
 
 title: 内部自助者（Internal Self Helper，ISH）
 topic: 角色与身份
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 内部自助者（Internal Self Helper，ISH）

@@ -17,7 +17,7 @@ tags:
 
 title: 行为主义心理学（Behaviorism）
 topic: 理论与分类
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 行为主义心理学（Behaviorism）

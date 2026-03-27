@@ -7,7 +7,7 @@ tags:
 
 title: 弦羽理论生态位分类法（Xianyu Theory of Niche Classification）
 topic: 系统运作
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 弦羽理论生态位分类法（Xianyu Theory of Niche Classification）

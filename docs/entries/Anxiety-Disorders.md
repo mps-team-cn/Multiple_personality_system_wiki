@@ -17,7 +17,7 @@ tags:
 
 title: 焦虑障碍（Anxiety Disorders）
 topic: 诊断与临床
-updated: 2025-10-31
+updated: 2026-03-27
 ---
 
 # 焦虑障碍（Anxiety Disorders）

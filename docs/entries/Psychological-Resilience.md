@@ -12,7 +12,7 @@ tags:
 
 title: 心理弹性（Psychological Resilience）
 topic: 理论与分类
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 心理弹性（Psychological Resilience）

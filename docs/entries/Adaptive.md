@@ -11,7 +11,7 @@ tags:
 
 title: 适应型（Adaptive）
 topic: 角色与身份
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 适应型（Adaptive）

@@ -7,7 +7,7 @@ tags:
 
 title: 感官调节策略（Sensory Regulation Strategies）
 topic: 创伤与疗愈
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 感官调节策略（Sensory Regulation Strategies）

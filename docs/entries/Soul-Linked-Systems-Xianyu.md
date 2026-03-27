@@ -7,7 +7,7 @@ tags:
 
 title: 系魂型系统（Soul-Linked Systems, Xianyu Theory）
 topic: 系统运作
-updated: 2025-10-22
+updated: 2026-03-27
 ---
 
 # 系魂型系统（Soul-Linked Systems, Xianyu Theory）
