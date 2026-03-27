@@ -27,7 +27,7 @@ updated: 2025-10-31
 
 > 心境障碍（mood/affective disorders）是历史与总称；DSM‑5‑TR 将其拆分为“抑郁障碍”与“**双相及相关障碍**”，而 ICD‑11 仍以“心境障碍”覆盖躁狂/双相/抑郁全谱。本文聚焦“抑郁障碍”板块的总览与实务。
 
-抑郁障碍（Depressive Disorders）是一组以持续或反复的抑郁心境、兴趣减退与多领域功能损害为核心特征的[心境障碍谱系](Affective-Disorders.md)。核心类别包括[重度抑郁障碍（Major Depressive Disorder，MDD）](Major-Depressive-Disorder-MDD.md)、[持续性抑郁障碍（Persistent Depressive Disorder，PDD）](Persistent-Depressive-Disorder-PDD.md)、经前焦虑障碍（PMDD）与破坏性心境失调障碍（儿童青少年）。除情绪低落外，常见认知与躯体表现涵盖注意力受限、睡眠节律紊乱、疲劳/耗竭、罪恶与无望感，并常与焦虑、疼痛等交织。
+抑郁障碍（Depressive Disorders）俗称“抑郁症”，是一组以持续或反复的抑郁心境、兴趣减退与多领域功能损害为核心特征的[心境障碍谱系](Affective-Disorders.md)。大众常将其笼统理解为“心理疾病”或单纯的情绪问题，但在医学分类与临床语境中，它属于精神障碍范畴。核心类别包括[重度抑郁障碍（Major Depressive Disorder，MDD）](Major-Depressive-Disorder-MDD.md)、[持续性抑郁障碍（Persistent Depressive Disorder，PDD）](Persistent-Depressive-Disorder-PDD.md)、经前焦虑障碍（PMDD）与破坏性心境失调障碍（儿童青少年）。除情绪低落外，常见认知与躯体表现涵盖注意力受限、睡眠节律紊乱、疲劳/耗竭、罪恶与无望感，并常与焦虑、疼痛等交织。
 
 抑郁障碍可影响任何年龄与性别，对学习、工作、人际及安全感造成深远影响。多意识体系统若长期由少数成员承担前台负荷、内部沟通薄弱或遭遇创伤触发，易出现抑郁化体验；建议通过内部协议分配情绪劳动、设置轮值与休息，并建立外部支持网络。
 
