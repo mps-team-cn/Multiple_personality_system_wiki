@@ -8,6 +8,7 @@ synonyms:
 - soulbonding
 - 角色系魂
 - 虚构角色连结
+
 tags:
 
 - role:系统角色
@@ -15,7 +16,7 @@ tags:
 
 title: 系魂（Soulbond）
 topic: 角色与身份
-updated: 2025-12-18
+updated: 2026-03-27
 ---
 
 # 系魂（Soulbond）

@@ -9,6 +9,7 @@ synonyms:
 - partial dissociative identity disorder
 - pdid是什么
 - pdid和did区别
+
 tags:
 
 - guide:诊断与临床
@@ -17,7 +18,7 @@ tags:
 
 title: 部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）
 topic: 诊断与临床
-updated: 2026-02-19
+updated: 2026-03-27
 ---
 
 # 部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）

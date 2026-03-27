@@ -17,7 +17,7 @@ tags:
 
 title: 急性应激障碍（Acute Stress Disorder, ASD）
 topic: 诊断与临床
-updated: 2025-10-22
+updated: 2026-03-27
 ---
 
 # 急性应激障碍（Acute Stress Disorder, ASD）

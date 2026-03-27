@@ -16,7 +16,7 @@ tags:
 
 title: 孤独症谱系障碍（Autism Spectrum Disorder，ASD）
 topic: 诊断与临床
-updated: 2025-12-16
+updated: 2026-03-27
 ---
 
 # 孤独症谱系障碍（Autism Spectrum Disorder，ASD）
