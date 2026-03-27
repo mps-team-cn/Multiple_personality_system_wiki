@@ -20,7 +20,7 @@ tags:
 
 title: 现实检验（Reality Testing）
 topic: 创伤与疗愈
-updated: 2025-11-02
+updated: 2026-03-27
 ---
 
 # 现实检验（Reality Testing）

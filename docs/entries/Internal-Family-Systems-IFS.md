@@ -16,7 +16,7 @@ tags:
 
 title: 内在家庭系统疗法（Internal Family Systems, IFS）
 topic: 创伤与疗愈
-updated: 2025-10-20
+updated: 2026-03-27
 ---
 
 # 内在家庭系统疗法（Internal Family Systems, IFS）

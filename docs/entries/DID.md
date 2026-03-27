@@ -14,6 +14,7 @@ synonyms:
 - did多重人格
 - 多重人格
 - 多重人格障碍
+
 tags:
 
 - dx:解离性身份障碍（DID）
@@ -55,19 +56,19 @@ updated: 2026-03-27
 ## 常见问题（FAQ）
 
 ??? question "DID 是什么病？"
-    DID 是一种[解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)，标准中文名为**解离性身份障碍**。它的核心不是“性格多变”，而是**身份状态分化、记忆断裂与功能受损**。很多人会用“did 是什么病”“did 是什么疾病”来搜索，临床上更准确的名称就是 DID，而不是笼统的“多重人格病”。
+    DID 是一种[解离障碍（Dissociative Disorders）](Dissociative-Disorders.md)，标准中文名为 **解离性身份障碍**。它的核心不是“性格多变”，而是 **身份状态分化、记忆断裂与功能受损**。很多人会用“did 是什么病”“did 是什么疾病”来搜索，临床上更准确的名称就是 DID，而不是笼统的“多重人格病”。
 
 ??? question "DID 等于“多重人格”吗？"
-    “多重人格”或“多重人格障碍”是大众传播里常见的旧称或俗称，今天在临床与学术语境中更推荐使用 **DID（解离性身份障碍）**。之所以更换术语，是因为 DID 强调的是**解离、身份状态与记忆整合受损**，而不是简单的“有很多人格”。
+    “多重人格”或“多重人格障碍”是大众传播里常见的旧称或俗称，今天在临床与学术语境中更推荐使用 **DID（解离性身份障碍）**。之所以更换术语，是因为 DID 强调的是 **解离、身份状态与记忆整合受损**，而不是简单的“有很多人格”。
 
 ??? question "DID 是精神病吗？"
-    通常**不是**。DID 属于解离障碍谱系，而精神病性障碍更强调妄想、幻觉、现实检验能力明显受损等表现。DID 患者可能出现内部声音、失时或身份切换，但这与[精神分裂症（Schizophrenia）](Schizophrenia-SZ.md)等精神病性障碍并不相同，临床上需要做鉴别诊断。
+    通常 **不是**。DID 属于解离障碍谱系，而精神病性障碍更强调妄想、幻觉、现实检验能力明显受损等表现。DID 患者可能出现内部声音、失时或身份切换，但这与[精神分裂症（Schizophrenia）](Schizophrenia-SZ.md)等精神病性障碍并不相同，临床上需要做鉴别诊断。
 
 ??? question "DID 常见表现有哪些？"
     高频表现包括：身份切换、失去时间、记忆断片、内部对话、触发后状态明显变化，以及与[PTSD](PTSD.md)或[CPTSD](CPTSD.md)相关的闪回、过度警觉和回避。并不是每位 DID 个体都会以戏剧化切换呈现，很多人更常见的是长期混乱、疲惫与难以解释的记忆缺口。
 
 ??? question "量表能直接测出 DID 吗？"
-    不能。像 [DES-II](Dissociative-Experiences-Scale-DES-II.md)、[MID-60](Multidimensional-Inventory-of-Dissociation-MID-60.md)、[SDQ-20](Somatoform-Dissociation-Questionnaire-SDQ-20.md) 这类工具可以帮助筛查解离倾向或症状模式，但**量表不等于诊断**。真正的 DID 诊断仍需结合临床访谈、鉴别诊断与功能损害评估。
+    不能。像 [DES-II](Dissociative-Experiences-Scale-DES-II.md)、[MID-60](Multidimensional-Inventory-of-Dissociation-MID-60.md)、[SDQ-20](Somatoform-Dissociation-Questionnaire-SDQ-20.md) 这类工具可以帮助筛查解离倾向或症状模式，但 **量表不等于诊断**。真正的 DID 诊断仍需结合临床访谈、鉴别诊断与功能损害评估。
 
 ---
 
