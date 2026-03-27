@@ -12,9 +12,9 @@ synonyms:
 
 tags:
 
-- dx:CPTSD
+- dx:复杂性创伤后应激障碍
 - dx:解离性身份障碍（DID）
-- dx:OSDD
+- dx:其他特定解离性障碍
 - ops:系统运作
 - theory:ANP
 

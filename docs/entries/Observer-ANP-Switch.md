@@ -13,7 +13,7 @@ tags:
 
     - ops:系统运作
     - theory:结构性解离
-    - sx:切换
+    - ops:切换
 
 title: 观察者 ANP 切换（Observer ANP Switch）
 topic: 系统运作

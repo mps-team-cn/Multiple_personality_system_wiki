@@ -3,7 +3,7 @@ title: C-PTSD 常见应对模式类型(C-PTSD Coping Styles)
 topic: 创伤与疗愈
 tags:
 
-    - dx:CPTSD
+    - dx:复杂性创伤后应激障碍
     - theory:应对模式
     - guide:创伤自助
 

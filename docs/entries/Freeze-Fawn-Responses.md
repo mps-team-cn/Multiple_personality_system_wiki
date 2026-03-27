@@ -15,7 +15,7 @@ tags:
 
 - sx:创伤症状
 - tx:创伤治疗
-- dx:CPTSD
+- dx:复杂性创伤后应激障碍
 - dx:创伤后应激障碍
 
 title: 冻结与讨好反应（Freeze and Fawn Responses）

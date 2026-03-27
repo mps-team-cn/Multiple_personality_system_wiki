@@ -11,7 +11,7 @@ synonyms:
 tags:
 
 - sx:创伤症状
-- guide:创伤与疗愈
+- tx:创伤治疗
 
 title: 惊恐触发后的功能性言语受阻（Functional Speech Inhibition After Trauma Trigger）
 topic: 创伤与疗愈

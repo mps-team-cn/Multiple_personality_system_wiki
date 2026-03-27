@@ -89,7 +89,7 @@ bash tools/run_local_updates.sh --help
 | 工具 | 功能 | 使用频率 |
 |------|------|---------|
 | **tag_normalization.py** | 批量标准化词条标签,统一分面标签规范 | 🏷️ 标签体系调整时 |
-| **check_tags.py** | 校验 Frontmatter 标签是否符合 Tagging Standard v2.0 | ✅ 日常提交/PR |
+| **check_tags.py** | 校验 Frontmatter 标签是否符合 Tagging Standard v2.0（含前缀、格式与别名识别） | ✅ 日常提交/PR |
 
 ### 版本管理
 
@@ -106,6 +106,7 @@ bash tools/run_local_updates.sh --help
 注意：
 - 为提升 LaTeX 兼容性，PDF 导出会移除 Markdown 删除线（`~~text~~`）标记并将 admonition 标题图标替换为纯文字。
 - 标签筛选需遵循标签规范；`dx:` 仅用于诊断/分类，不应作为泛“相关主题”标签使用。
+- `check_tags.py` 会同时检查完整标签别名与“名称部分别名”，例如 `dx:PTSD`、`dx:解离性身份障碍` 会被提示改为规范标签。
 
 👉 **详细用法和配置选项**:[手动工具指南](Tools-Manual.md)
 
