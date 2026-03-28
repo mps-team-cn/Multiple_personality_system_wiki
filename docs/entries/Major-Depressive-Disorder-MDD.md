@@ -19,7 +19,7 @@ tags:
 
 title: 重性抑郁障碍（Major Depressive Disorder, MDD）
 topic: 诊断与临床
-updated: 2025-12-18
+updated: 2026-03-28
 ---
 
 # 重性抑郁障碍（Major Depressive Disorder, MDD）
