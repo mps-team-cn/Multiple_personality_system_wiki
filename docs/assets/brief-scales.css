@@ -1,0 +1,271 @@
+/* PHQ-9 / GAD-7 等简式量表的共享样式 */
+.brief-scale-app {
+  margin: 0.5rem 0 1.25rem;
+}
+
+.brief-scale-meta {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.5rem 1rem;
+  align-items: center;
+  margin: 0.25rem 0 1rem;
+}
+
+.brief-scale-hint {
+  color: color-mix(in srgb, var(--md-default-fg-color) 82%, transparent);
+  font-size: 0.88rem;
+}
+
+.brief-scale-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.brief-scale-actions .md-button {
+  border-radius: 0.6rem;
+  padding: 0.55rem 0.95rem;
+  font-weight: 600;
+  line-height: 1.1;
+  border: 1px solid transparent;
+  transition: transform 0.08s ease, box-shadow 0.12s ease, background-color 0.15s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.brief-scale-actions .md-button--primary {
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--md-primary-fg-color) 88%, transparent),
+    var(--md-primary-fg-color)
+  );
+  color: #fff;
+}
+
+.brief-scale-actions .md-button--primary:hover {
+  filter: brightness(1.05);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.brief-scale-actions .md-button:not(.md-button--primary) {
+  background: transparent;
+  color: var(--md-primary-fg-color);
+  border-color: color-mix(in srgb, var(--md-primary-fg-color) 65%, transparent);
+}
+
+.brief-scale-actions .md-button:not(.md-button--primary):hover {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 10%, transparent);
+}
+
+.brief-scale-divider {
+  margin: 1rem 0;
+  height: 1px;
+  background: color-mix(in srgb, var(--md-default-fg-color) 10%, transparent);
+}
+
+.brief-scale-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 0.6rem;
+  table-layout: auto;
+}
+
+.brief-scale-item td {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 5%, transparent);
+  padding: 0.55rem 0.6rem;
+  vertical-align: middle;
+}
+
+[data-md-color-scheme="slate"] .brief-scale-item td {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 12%, #1b2331);
+}
+
+.brief-scale-item td:first-child {
+  border-radius: 0.6rem 0 0 0.6rem;
+}
+
+.brief-scale-item td:last-child {
+  border-radius: 0 0.6rem 0.6rem 0;
+}
+
+.brief-scale-no {
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+}
+
+.brief-scale-ctrl {
+  display: grid;
+  grid-template-columns: minmax(12rem, 1fr) auto;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.brief-scale-ctrl select,
+.brief-scale-field select {
+  width: 100%;
+  min-width: 12rem;
+  padding: 0.6rem 0.8rem;
+  border: 2px solid color-mix(in srgb, var(--md-default-fg-color) 18%, transparent);
+  border-radius: 0.6rem;
+  background: color-mix(in srgb, var(--md-default-bg-color) 95%, transparent);
+  color: var(--md-default-fg-color);
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+.brief-scale-ctrl select:focus,
+.brief-scale-field select:focus {
+  outline: none;
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-primary-fg-color) 15%, transparent);
+}
+
+.brief-scale-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.2rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.5rem;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 10%, transparent);
+  color: var(--md-primary-fg-color);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.brief-scale-badge::after {
+  content: "分";
+  margin-left: 0.15rem;
+  opacity: 0.9;
+}
+
+.brief-scale-field {
+  display: grid;
+  gap: 0.35rem;
+  margin-top: 0.75rem;
+}
+
+.brief-scale-field label {
+  font-weight: 600;
+}
+
+.brief-scale-results {
+  margin-top: 1rem;
+  display: grid;
+  gap: 0.8rem;
+  position: relative;
+}
+
+.brief-scale-section-title {
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+}
+
+.brief-scale-score-card {
+  border-radius: 0.6rem;
+  padding: 0.8rem 1rem;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 5%, transparent);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+  align-items: center;
+}
+
+[data-md-color-scheme="slate"] .brief-scale-score-card {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 12%, #1b2331);
+}
+
+.brief-scale-score-label {
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+}
+
+.brief-scale-score-value {
+  font-size: 1.08rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.brief-scale-progress {
+  height: 0.8rem;
+  border-radius: 0.6rem;
+  background: color-mix(in srgb, var(--md-default-fg-color) 8%, transparent);
+  overflow: hidden;
+}
+
+.brief-scale-progress > .bar {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, #4fc08d, #3fb489);
+  transition: width 0.2s ease;
+}
+
+.brief-scale-legend {
+  margin-top: 0.35rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 0.82rem;
+  color: color-mix(in srgb, var(--md-default-fg-color) 78%, transparent);
+}
+
+.brief-scale-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 0.8rem;
+}
+
+.brief-scale-note {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.brief-scale-status {
+  font-weight: 700;
+}
+
+.brief-scale-status.none,
+.brief-scale-status.minimal {
+  color: #2e7d32;
+}
+
+.brief-scale-status.mild {
+  color: #ef6c00;
+}
+
+.brief-scale-status.moderate {
+  color: #8e24aa;
+}
+
+.brief-scale-status.severe,
+.brief-scale-status.extreme {
+  color: #c62828;
+}
+
+.brief-scale-watermark {
+  position: absolute;
+  right: 0.6rem;
+  bottom: 0.6rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 0.4rem;
+  font-size: 0.8rem;
+  color: color-mix(in srgb, var(--md-default-fg-color) 85%, transparent);
+  background: color-mix(in srgb, var(--md-default-fg-color) 8%, transparent);
+  opacity: 0.85;
+}
+
+@media (max-width: 720px) {
+  .brief-scale-meta,
+  .brief-scale-score-card {
+    grid-template-columns: 1fr;
+  }
+
+  .brief-scale-ctrl {
+    grid-template-columns: 1fr;
+  }
+
+  .brief-scale-badge {
+    width: auto;
+    justify-self: start;
+  }
+}

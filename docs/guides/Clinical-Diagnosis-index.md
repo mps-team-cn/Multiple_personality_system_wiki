@@ -28,6 +28,7 @@ hide:
 - [DID、OSDD、PDID 有什么区别？](../entries/DID-OSDD-PDID-Comparison.md) — *2026-03-27*
 - [解离性身份障碍（Dissociative Identity Disorder，DID）](../entries/DID.md) — *2026-03-27*
 - [DSM-5-TR 评估量表总览](../entries/DSM-5TR-Scales.md) — *2026-03-27*
+- [广泛性焦虑量表-7（Generalized Anxiety Disorder-7，GAD-7）](../entries/Generalized-Anxiety-Disorder-7-GAD-7.md) — *2026-03-28*
 - [人格解体/现实解体障碍（Depersonalization/Derealization Disorder，DPDR）](../entries/Depersonalization-Derealization-Disorder-DPDR.md) — *2026-03-27*
 - [抑郁障碍（Depressive Disorders）](../entries/Depressive-Disorders.md) — *2026-03-27*
 - [定向障碍（Disorientation）](../entries/Disorientation.md) — *2026-03-27*
@@ -41,6 +42,7 @@ hide:
 - [其他特定解离性障碍（OSDD）](../entries/OSDD.md) — *2026-03-27*
 - [惊恐发作（Panic Attack）](../entries/Panic-Attack.md) — *2026-03-27*
 - [惊恐障碍（Panic Disorder，PD）](../entries/Panic-Disorder.md) — *2026-03-27*
+- [患者健康问卷-9（Patient Health Questionnaire-9，PHQ-9）](../entries/Patient-Health-Questionnaire-9-PHQ-9.md) — *2026-03-28*
 - [部分解离性身份障碍（Partial Dissociative Identity Disorder，PDID）](../entries/Partial-Dissociative-Identity-Disorder-PDID.md) — *2026-03-27*
 - [躯体形式解离问卷（Somatoform Dissociation Questionnaire‑20, SDQ‑20）](../entries/Somatoform-Dissociation-Questionnaire-SDQ-20.md) — *2026-03-27*
 - [创伤（Trauma）](../entries/Trauma.md) — *2026-03-27*

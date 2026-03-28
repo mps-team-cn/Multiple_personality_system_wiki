@@ -231,6 +231,8 @@ MDD 的治疗以 **药物治疗、心理治疗与综合策略** 为核心：
 ### 抑郁与心境障碍
 
 - [抑郁障碍（Depressive Disorders）](Depressive-Disorders.md)
+- [患者健康问卷-9（PHQ-9）](Patient-Health-Questionnaire-9-PHQ-9.md)
+- [抑郁自评量表（SDS）](Self-Rating-Depression-Scale-SDS.md)
 - [重度抑郁发作（MDE）](Major-Depressive-Episode-MDE.md)
 - [持续性抑郁障碍（Persistent Depressive Disorder, PDD）](Persistent-Depressive-Disorder-PDD.md)
 - [双相障碍（Bipolar Disorders）](Bipolar-Disorders.md)
