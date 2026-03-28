@@ -255,6 +255,8 @@ updated: 2025-10-22
 ### 焦虑障碍相关
 
 - [焦虑障碍（Anxiety Disorders）](Anxiety-Disorders.md)
+- [广泛性焦虑量表-7（GAD-7）](Generalized-Anxiety-Disorder-7-GAD-7.md)
+- [焦虑自评量表（SAS）](Self-Rating-Anxiety-Scale-SAS.md)
 - [惊恐障碍（Panic Disorder）](Panic-Disorder.md)
 - [强迫症（OCD）](OCD.md)
 

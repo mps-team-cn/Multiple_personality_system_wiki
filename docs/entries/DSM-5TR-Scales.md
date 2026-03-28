@@ -56,6 +56,8 @@ updated: 2026-03-27
 | [解离经验量表（DES-II）](Dissociative-Experiences-Scale-DES-II.md) | 筛查主观解离体验，含失忆、人格/现实解体与吸收沉浸子量表 | 初步了解是否存在较高解离倾向 |
 | [多维解离量表（MID-60）](Multidimensional-Inventory-of-Dissociation-MID-60.md) | 多维评估 DID、OSDD、DP/DR、解离性失忆、PTSD 等相关症状模式 | 想更细地看解离症状分布与结构时 |
 | [躯体形式解离问卷（SDQ-20）](Somatoform-Dissociation-Questionnaire-SDQ-20.md) | 评估麻木、疼痛改变、运动异常等躯体解离体验 | 怀疑自己有明显身体层面的解离反应时 |
+| [患者健康问卷-9（PHQ-9）](Patient-Health-Questionnaire-9-PHQ-9.md) | 评估抑郁症状严重度，并可用前两题形成 PHQ-2 超简筛查 | 想快速整理情绪低落、兴趣下降、疲乏或自责线索时 |
+| [广泛性焦虑量表-7（GAD-7）](Generalized-Anxiety-Disorder-7-GAD-7.md) | 评估担忧、紧张、放松困难与烦躁等焦虑症状 | 想快速查看近两周焦虑频率与严重度时 |
 | [焦虑自评量表（SAS）](Self-Rating-Anxiety-Scale-SAS.md) | 评估焦虑症状严重度 | 想快速查看近阶段焦虑水平时 |
 | [抑郁自评量表（SDS）](Self-Rating-Depression-Scale-SDS.md) | 评估抑郁症状严重度 | 想初步整理情绪低落、兴趣下降等表现时 |
 | [症状自评量表修订版（SCL-90-R）](Symptom-Checklist-90-SCL-90.md) | 广谱筛查多维心理症状 | 想做更全面的心理症状概览时 |
@@ -77,8 +79,8 @@ updated: 2026-03-27
 
 | 领域 | 英文名称 | 中文译名 | 说明 |
 | --- | --- | --- | --- |
-| 抑郁 | *PHQ-9 – Patient Health Questionnaire-9* | 九项抑郁自评问卷 | 评估抑郁症状严重度 |
-| 焦虑 | *GAD-7 – Generalized Anxiety Disorder-7* | 广泛性焦虑量表 | 评估焦虑频率与影响 |
+| 抑郁 | [*PHQ-9 – Patient Health Questionnaire-9*](Patient-Health-Questionnaire-9-PHQ-9.md) | 九项抑郁自评问卷 | 评估抑郁症状严重度 |
+| 焦虑 | [*GAD-7 – Generalized Anxiety Disorder-7*](Generalized-Anxiety-Disorder-7-GAD-7.md) | 广泛性焦虑量表 | 评估焦虑频率与影响 |
 | 愤怒 | *PROMIS Anger – Short Form* | PROMIS 愤怒短表 | 怒气水平评估 |
 | 睡眠 | *PROMIS Sleep Disturbance – Short Form* | PROMIS 睡眠障碍短表 | 睡眠质量与困扰 |
 | 强迫症状 | *Y-BOCS – Yale-Brown Obsessive Compulsive Scale* | 耶鲁-布朗强迫量表 | OCD 症状严重度 |
@@ -176,7 +178,7 @@ DSM-5-TR 中继续保留 **Alternative Model for Personality Disorders (AMPD)**
 
 | 应用场景 | 推荐量表组合 |
 | --- | --- |
-| **初诊/综合筛查** | Level 1 Cross-Cutting + PHQ-9 + GAD-7 + WHODAS 2.0 |
+| **初诊/综合筛查** | Level 1 Cross-Cutting + [PHQ-9](Patient-Health-Questionnaire-9-PHQ-9.md) + [GAD-7](Generalized-Anxiety-Disorder-7-GAD-7.md) + WHODAS 2.0 |
 | **创伤与解离评估** | PCL-5 + DES-II（解离经验量表） + SSS-8 |
 | **人格功能评估** | LPFS + PID-5 |
 | **儿童青少年评估** | CBCL + RCADS + Vanderbilt |
