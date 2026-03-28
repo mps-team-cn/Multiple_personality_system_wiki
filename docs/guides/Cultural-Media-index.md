@@ -1,5 +1,6 @@
 ---
 title: 文化与表现索引
+description: 聚合“文化与表现”主题下的全部词条，覆盖影视、文学、动画与游戏中的多意识体和解离相关呈现。
 topic: 文化与表现
 tags:
   - meta:索引
@@ -18,12 +19,12 @@ hide:
 
 ## 词条一览
 
+- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](../entries/Dostoevsky-The-Double-Self-Division.md) — *2026-03-27*
+- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](../entries/Fight-Club-1999-Identity-Metaphor.md) — *2026-03-27*
+- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](../entries/Kafka-Metamorphosis-Identity-Dissolution.md) — *2026-03-27*
 - [《Another Me》/《双重人格》类作品的 DID 表现（Another Me DID Depictions）](../entries/Another-Me-DID-Depictions.md) — *2025-10-20*
 - [《不可饶恕的她》对多重人格的叙事化呈现（Bu Ke Rao Shu De Ta Multiplicity Narrative）](../entries/Bu-Ke-Raoshu-De-Ta-Multiplicity-Narrative.md) — *2025-10-20*
-- [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](../entries/Dostoevsky-The-Double-Self-Division.md) — *2025-10-20*
-- [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](../entries/Fight-Club-1999-Identity-Metaphor.md) — *2025-10-20*
 - [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](../entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md) — *2025-10-20*
-- [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](../entries/Kafka-Metamorphosis-Identity-Dissolution.md) — *2025-10-20*
 - [洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）](../entries/Lovecraft-Tulpa-Motifs.md) — *2025-10-20*
 - [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](../entries/Madoka-Magica-Kyubey-Otherness.md) — *2025-10-20*
 - [《隐形人》（Mr. Robot）中的人格分裂叙事](../entries/Mr-Robot-DID-Narrative.md) — *2025-10-20*

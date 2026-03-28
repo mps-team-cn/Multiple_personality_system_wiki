@@ -8,18 +8,30 @@
 
 from __future__ import annotations
 
+import gzip
 import json
 import re
-from datetime import datetime
 from dataclasses import dataclass
+from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict
+from urllib.parse import urljoin
+import xml.etree.ElementTree as ET
 
 import yaml
 
 ZERO_WIDTH_SPACE = "\u200b"
 RECENTLY_UPDATED_PLACEHOLDER = "<!-- RECENTLY_UPDATED_DOCS -->"
 RECENT_RELEASES_PLACEHOLDER = "<!-- RECENT_RELEASES -->"
+SITEMAP_NS = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+NON_INDEXABLE_SOURCE_URIS = {
+    "SUMMARY.md",
+    "includes/abbreviations.md",
+    "assets/README.md",
+    "assets/uploads/README.md",
+    "tags.md",
+    "index-simple.md",
+}
 
 
 def _strip_zero_width(value: str) -> str:
@@ -75,6 +87,84 @@ def _extract_frontmatter(file_path: Path) -> Dict[str, Any]:
         return yaml.safe_load(match.group(1)) or {}
     except Exception:
         return {}
+
+
+def _normalize_site_url(site_url: str) -> str:
+    """确保 site_url 末尾带 /，便于稳定拼接绝对地址。"""
+    return site_url if site_url.endswith("/") else f"{site_url}/"
+
+
+def _source_uri_to_site_url(src_uri: str, site_url: str) -> str:
+    """将 docs 内的 Markdown 源路径映射为站点公开 URL。"""
+    rel = Path(src_uri)
+
+    if rel.name in {"README.md", "index.md"}:
+        output = rel.parent.as_posix()
+    else:
+        output = rel.with_suffix("").as_posix()
+
+    base = _normalize_site_url(site_url)
+    if output in {"", "."}:
+        return base
+
+    return urljoin(base, f"{output.strip('/')}/")
+
+
+def _frontmatter_has_noindex(frontmatter: Dict[str, Any]) -> bool:
+    """判断页面 Frontmatter 是否声明 noindex。"""
+    robots = frontmatter.get("robots")
+    if not isinstance(robots, str):
+        return False
+    return "noindex" in robots.lower()
+
+
+def _collect_non_indexable_urls(docs_dir: Path, site_url: str) -> set[str]:
+    """收集应从 sitemap 中移除的 URL。"""
+    urls: set[str] = {
+        _source_uri_to_site_url(src_uri, site_url)
+        for src_uri in NON_INDEXABLE_SOURCE_URIS
+    }
+
+    for md_file in docs_dir.rglob("*.md"):
+        frontmatter = _extract_frontmatter(md_file)
+        if not _frontmatter_has_noindex(frontmatter):
+            continue
+        src_uri = md_file.relative_to(docs_dir).as_posix()
+        urls.add(_source_uri_to_site_url(src_uri, site_url))
+
+    return urls
+
+
+def _prune_sitemap(site_dir: Path, docs_dir: Path, site_url: str) -> None:
+    """移除不应提交给搜索引擎的辅助页面 URL。"""
+    sitemap_path = site_dir / "sitemap.xml"
+    if not sitemap_path.exists():
+        return
+
+    excluded_urls = _collect_non_indexable_urls(docs_dir, site_url)
+    if not excluded_urls:
+        return
+
+    tree = ET.parse(sitemap_path)
+    root = tree.getroot()
+    changed = False
+
+    for url_node in list(root.findall("sm:url", SITEMAP_NS)):
+        loc = url_node.find("sm:loc", SITEMAP_NS)
+        if loc is None or not loc.text:
+            continue
+        if loc.text in excluded_urls:
+            root.remove(url_node)
+            changed = True
+
+    if not changed:
+        return
+
+    tree.write(sitemap_path, encoding="utf-8", xml_declaration=True)
+
+    sitemap_gz_path = site_dir / "sitemap.xml.gz"
+    if sitemap_gz_path.exists():
+        sitemap_gz_path.write_bytes(gzip.compress(sitemap_path.read_bytes()))
 
 
 def _generate_recently_updated_html(docs_dir: Path, limit: int = 100) -> str:
@@ -165,6 +255,15 @@ def on_page_markdown(markdown: str, page: Any, config: Dict[str, Any], files: An
     return markdown
 
 
+def on_page_context(context: Dict[str, Any], page: Any, config: Dict[str, Any], nav: Any) -> Dict[str, Any]:
+    """为辅助页面统一注入 noindex，避免被搜索引擎误判为低价值内容。"""
+    src_uri = getattr(getattr(page, "file", None), "src_uri", "")
+    if src_uri in NON_INDEXABLE_SOURCE_URIS:
+        page.meta = page.meta or {}
+        page.meta.setdefault("robots", "noindex,follow")
+    return context
+
+
 def on_post_build(config: Dict[str, Any]) -> None:
     """在构建完成后清理搜索索引文本，并将 Frontmatter 中的 synonyms 注入搜索索引。"""
     site_dir = Path(config.get("site_dir", ""))
@@ -214,6 +313,10 @@ def on_post_build(config: Dict[str, Any]) -> None:
             json.dumps(data, ensure_ascii=False, separators=(",", ":")),
             encoding="utf-8",
         )
+
+    site_url = str(config.get("site_url", "")).strip()
+    if site_url:
+        _prune_sitemap(site_dir, docs_dir, site_url)
 
 
 # ===== 最近发布版本：从 changelog.md 解析并渲染到首页 =====

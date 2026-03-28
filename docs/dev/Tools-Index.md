@@ -56,6 +56,7 @@ bash tools/run_local_updates.sh --help
 | **check_frontmatter.py** | 验证词条 Frontmatter 必需字段 | PR | [查看详情](#frontmatter-检查工具) |
 | **update_git_timestamps.py** | 根据 Git 历史自动更新 `updated` 字段 | 合并后 | [查看详情](#git-时间戳更新工具) |
 | **build_partitions_cn.py** | 生成七大主题分区索引页 | 构建时 | [查看详情](#主题分区索引生成) |
+| **mkdocs_hooks.py** | 构建期清理搜索索引、注入最近更新并裁剪 sitemap 中的辅助页 | 构建时 | [MkDocs 配置说明](../dev/MkDocs-Configuration.md) |
 
 👉 **详细配置和规则说明**:[核心工具详解](Tools-Core.md)
 
@@ -70,6 +71,7 @@ bash tools/run_local_updates.sh --help
 | **check_descriptions.py** | 统计词条 description 字段覆盖率 | 🔍 SEO 审计时 |
 | **add_descriptions.py** | 批量为核心词条添加 SEO 描述 | 📝 内容优化时 |
 | **generate_seo_urls.py** | 生成高权重 URL 列表用于搜索引擎提交 | 📊 SEO 策略规划时 |
+| **mkdocs_hooks.py** | 构建后移除 `SUMMARY`、`includes`、`assets` 等辅助页的 sitemap 暴露，并为指定页面注入 `noindex` | 🧩 站点索引治理时 |
 | **submit_to_google_indexing.py** | 使用 Google Indexing API 批量提交 URL | 🚀 新内容发布时 |
 | **submit_to_indexnow.py** | 使用 IndexNow 协议推送 URL 到 Bing/Yandex 等 | 🚀 内容更新时(已集成 CI) |
 
@@ -137,6 +139,7 @@ tools/
 │   ├── check_frontmatter.py         # Frontmatter 验证
 │   ├── update_git_timestamps.py     # Git 时间戳同步
 │   ├── build_partitions_cn.py       # 分区索引生成
+│   ├── mkdocs_hooks.py              # MkDocs 构建钩子与 sitemap 清理
 │   └── ...
 │
 ├── 模块化组件

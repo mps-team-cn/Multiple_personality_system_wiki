@@ -38,6 +38,10 @@
   {# canonical 标签已由 MkDocs Material 主题自动生成，无需重复添加 #}
   {% endif %}
 
+  {% if page and page.meta and page.meta.robots %}
+  <meta name="robots" content="{{ page.meta.robots }}">
+  {% endif %}
+
   {# 将 GA Measurement ID 注入到全局，供延迟加载脚本使用 #}
   {% if config.extra and config.extra.analytics and config.extra.analytics.property %}
   <script>
