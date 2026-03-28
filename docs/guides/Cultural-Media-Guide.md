@@ -5,6 +5,7 @@ tags:
 
 topic: 文化与表现
 title: 文化与表现导览
+description: 汇总影视、文学、动画与游戏中的多意识体、Tulpa 与解离主题作品，帮助读者辨析常见叙事母题与媒体刻板印象。
 updated: 2025-10-20
 comments: true
 search:

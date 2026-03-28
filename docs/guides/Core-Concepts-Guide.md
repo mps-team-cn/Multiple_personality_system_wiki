@@ -4,6 +4,7 @@ tags:
 
 - community:Tulpa
 title: 核心概念导览
+description: 梳理多意识体系统、解离、Tulpa、DID 与 OSDD 等核心概念的边界与联系，帮助新读者建立清晰的入门框架与风险判断。
 topic: 理论与分类
 updated: 2025-10-20
 search:

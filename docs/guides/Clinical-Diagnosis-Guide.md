@@ -5,6 +5,7 @@ tags:
 - guide:诊断与临床
 
 title: 诊断与临床导览
+description: 汇总 DID、OSDD、PTSD、人格解体等诊断与临床词条，按鉴别、评估与治疗场景组织核心内容，帮助读者快速定位症状边界与共病线索。
 topic: 诊断与临床
 updated: 2025-10-22
 search:
