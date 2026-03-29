@@ -308,45 +308,9 @@ search:
 
 ---
 
-## 🤝 友情链接
-
-暂时先保留占位，后续接入正式友链站点后再补充实际链接与简介。
-
-<div class="grid cards" markdown>
-
-- :material-web: **友链位 01**
-
-    站点名称待添加
-
-    简介待补充
-
-    `链接待添加`
-
-- :material-web: **友链位 02**
-
-    站点名称待添加
-
-    简介待补充
-
-    `链接待添加`
-
-- :material-web: **友链位 03**
-
-    站点名称待添加
-
-    简介待补充
-
-    `链接待添加`
-
-</div>
-
-!!! info "说明"
-    该区域当前为占位内容，用于预留首页友链展示位置。后续如需替换，只需将占位名称、简介与链接更新为正式站点信息。
-
----
-
 <div align="center" markdown>
 
+:material-link-variant: **友情链接**：[我们一起向前走](https://wiki.51320721.xyz/)  
 :material-github: **开源协作**：本项目在 [GitHub](https://github.com/mps-team-cn/Multiple_personality_system_wiki) 上开源  
 :material-license: **许可协议**：内容遵循 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans)  
 
