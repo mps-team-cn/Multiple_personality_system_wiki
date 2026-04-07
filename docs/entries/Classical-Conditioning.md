@@ -2,16 +2,20 @@
 title: 经典条件化（Classical Conditioning）
 topic: 理论与分类
 tags:
-  - theory:心理学理论
-  - theory:行为主义
-  - sx:触发因素
-  - tx:暴露疗法
+
+    - theory:心理学理论
+    - theory:行为主义
+    - sx:触发因素
+    - tx:暴露疗法
+
 synonyms:
-  - 巴甫洛夫条件反射
-  - Classical Conditioning
-  - Pavlovian Conditioning
-  - 条件反射
-  - 刺激联结学习
+
+    - 巴甫洛夫条件反射
+    - Classical Conditioning
+    - Pavlovian Conditioning
+    - 条件反射
+    - 刺激联结学习
+
 description: 经典条件化是通过条件刺激与非条件刺激重复配对建立新反应的学习机制，是恐惧形成、创伤触发、成瘾线索反应与暴露疗法的重要理论基础。
 updated: 2026-04-07
 comments: true
