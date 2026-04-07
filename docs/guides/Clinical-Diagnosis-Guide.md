@@ -106,6 +106,9 @@ search:
   [述情障碍（Alexithymia）](../entries/Alexithymia.md) — :octicons-check-16: 已完成
   说明情绪识别与表达困难对症状评估与治疗动机的影响。
 
+  [安慰剂效应（Placebo Effect）](../entries/Placebo-Effect.md) — :octicons-check-16: 已完成
+  梳理预期、条件化与奖励学习如何影响症状改善，并区分安慰剂效应、反安慰剂效应与回归均值。
+
 - **标准化评估工具**
 
   见下方专章，快速定位跨诊断筛查与症状追踪的核心量表。
