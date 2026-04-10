@@ -33,7 +33,7 @@ updated: 2026-04-10
 
 情绪化进食指个体在负面情绪（如焦虑、抑郁、孤独、愤怒）或正面情绪（如庆祝、奖励）驱动下，而非生理饥饿信号引导下产生的进食行为。其核心特征是：进食承担了情绪调节功能，用于短期缓解痛苦、回避情绪，或延长愉悦体验。
 
-情绪化进食位于正常进食行为与临床进食障碍之间的连续谱上：它可以是偶发应对策略，也可能发展为持续失调模式。ICD-11 与 DSM-5-TR 未将其列为独立诊断，但在 [暴食障碍(Binge Eating Disorder, BED)](Binge-Eating-Disorder.md) 和 [神经性贪食症(Bulimia Nervosa, BN)](Bulimia-Nervosa.md) 中常见并具有临床意义。
+情绪化进食位于正常进食行为与临床进食障碍之间的连续谱上：它可以是偶发应对策略，也可能发展为持续失调模式。ICD-11 与 DSM-5-TR 未将其列为独立诊断，但在 [暴食障碍（Binge Eating Disorder, BED）](Binge-Eating-Disorder.md) 和 [神经性贪食症（Bulimia Nervosa, BN）](Bulimia-Nervosa.md) 中常见并具有临床意义。
 
 ---
 
@@ -77,7 +77,7 @@ updated: 2026-04-10
 ### 生理机制：压力轴与奖赏系统
 
 - 慢性压力可通过 HPA 轴与皮质醇升高，增强对高热量食物偏好。
-- 高奖赏食物快速激活 [奖赏系统(Reward System)](Reward-System.md)，短期缓解不适。
+- 高奖赏食物快速激活 [奖赏系统（Reward System）](Reward-System.md)，短期缓解不适。
 - 长期反复后可能出现“奖赏钝化”，需要更强刺激才能获得同等缓解。
 
 ### 发展性创伤与依恋
@@ -98,9 +98,9 @@ updated: 2026-04-10
 
 ## 鉴别诊断
 
-- [暴食障碍(Binge Eating Disorder, BED)](Binge-Eating-Disorder.md)：需满足客观大量进食 + 失控感 + 频率/病程标准。
-- [神经性贪食症(Bulimia Nervosa, BN)](Bulimia-Nervosa.md)：关键在于存在规律性代偿行为（催吐、泻药、过度运动等）。
-- [神经性厌食症(Anorexia Nervosa, AN)](Anorexia-Nervosa.md)：核心为显著低体重与强烈增重恐惧。
+- [暴食障碍（Binge Eating Disorder, BED）](Binge-Eating-Disorder.md)：需满足客观大量进食 + 失控感 + 频率/病程标准。
+- [神经性贪食症（Bulimia Nervosa, BN）](Bulimia-Nervosa.md)：关键在于存在规律性代偿行为（催吐、泻药、过度运动等）。
+- [神经性厌食症（Anorexia Nervosa, AN）](Anorexia-Nervosa.md)：核心为显著低体重与强烈增重恐惧。
 - [抑郁障碍](Depressive-Disorders.md) / [焦虑障碍](Anxiety-Disorders.md)：情绪症状可能原发，进食改变可为继发。
 
 ---
@@ -112,9 +112,9 @@ updated: 2026-04-10
 - 肥胖与代谢综合征
 - [抑郁障碍](Depressive-Disorders.md)
 - [焦虑障碍](Anxiety-Disorders.md)
-- [创伤后应激障碍(PTSD)](PTSD.md)
-- [边缘型人格障碍(BPD)](Borderline-Personality-Disorder-BPD.md)
-- [物质使用障碍(SUD)](Substance-Use-Disorders-SUD.md)
+- [创伤后应激障碍（PTSD）](PTSD.md)
+- [边缘型人格障碍（BPD）](Borderline-Personality-Disorder-BPD.md)
+- [物质使用障碍（SUD）](Substance-Use-Disorders-SUD.md)
 
 ### 风险评估重点
 
@@ -141,7 +141,7 @@ updated: 2026-04-10
 
 - 正念进食与内感受训练，提高饥饿/饱腹信号识别。
 - 情绪粒度训练，提升情绪命名与分化能力。
-- 认知重评与痛苦耐受训练，可结合 [辩证行为疗法(DBT)](Dialectical-Behavior-Therapy-DBT.md)。
+- 认知重评与痛苦耐受训练，可结合 [辩证行为疗法（DBT）](Dialectical-Behavior-Therapy-DBT.md)。
 
 ### 阶段 3：进食行为重塑与复发预防
 
@@ -165,10 +165,10 @@ updated: 2026-04-10
 
 ## 相关条目
 
-1. [暴食障碍(Binge Eating Disorder, BED)](Binge-Eating-Disorder.md)
-2. [神经性贪食症(Bulimia Nervosa, BN)](Bulimia-Nervosa.md)
-3. [辩证行为疗法(DBT)](Dialectical-Behavior-Therapy-DBT.md)
-4. [奖赏系统(Reward System)](Reward-System.md)
+1. [暴食障碍（Binge Eating Disorder, BED）](Binge-Eating-Disorder.md)
+2. [神经性贪食症（Bulimia Nervosa, BN）](Bulimia-Nervosa.md)
+3. [辩证行为疗法（DBT）](Dialectical-Behavior-Therapy-DBT.md)
+4. [奖赏系统（Reward System）](Reward-System.md)
 5. [进食障碍总览（ED）](Eating-Disorders-ED.md)
 
 ---

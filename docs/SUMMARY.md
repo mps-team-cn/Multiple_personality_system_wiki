@@ -88,6 +88,7 @@
         * [性别不安（Gender Dysphoria，GD）](entries/Gender-Dysphoria-GD.md)
         * [患者健康问卷-9（Patient Health Questionnaire-9，PHQ-9）](entries/Patient-Health-Questionnaire-9-PHQ-9.md)
         * [情境性焦虑(Situational Anxiety)](entries/Situational-Anxiety.md)
+        * [情绪化进食(Emotional Eating)](entries/Emotional-Eating.md)
         * [惊恐发作（Panic Attack）](entries/Panic-Attack.md)
         * [惊恐障碍（Panic Disorder，PD）](entries/Panic-Disorder.md)
         * [慢性疼痛（Chronic Pain）](entries/Chronic-Pain.md)
