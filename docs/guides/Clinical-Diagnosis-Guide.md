@@ -292,6 +292,7 @@ search:
     - [神经性厌食症（Anorexia Nervosa, AN）](../entries/Anorexia-Nervosa.md) — :octicons-check-16: 已完成
     - [神经性贪食症（Bulimia Nervosa, BN）](../entries/Bulimia-Nervosa.md) — :octicons-check-16: 已完成
     - [暴食障碍（Binge-Eating Disorder, BED）](../entries/Binge-Eating-Disorder.md) — :octicons-check-16: 已完成
+    - [情绪化进食（Emotional Eating）](../entries/Emotional-Eating.md) — :octicons-check-16: 已完成
     - 回避/限制性食物摄入障碍（ARFID）等 — :octicons-clock-16: 待更新
 
 ### 11) 排泄障碍
