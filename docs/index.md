@@ -310,7 +310,7 @@ search:
 
 <div align="center" markdown>
 
-:material-link-variant: **友情链接**：[我们一起向前走](https://wiki.51320721.xyz/)  
+:material-link-variant: **友情链接**：[我们一起向前走](https://our.51320721.xyz)  
 :material-github: **开源协作**：本项目在 [GitHub](https://github.com/mps-team-cn/Multiple_personality_system_wiki) 上开源  
 :material-license: **许可协议**：内容遵循 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans)  
 
