@@ -85,7 +85,7 @@ updated: 2025-10-22
 
 - 🧍 [成员（Alter）](../entries/Alter.md)：具独立意识与记忆访问的单元。
 - 🪞 [内摄者（Introject）](../entries/Introject.md)：以重要他人、角色或来源形象出现的成员。
-- 🎭 [人格面具（Persona）](../entries/Persona.md)：用于特定社交情境的外显身份。
+- 🎭 [人格面具（Persona）](../entries/Persona.md)：用于特定社交情境的外显身份，兼顾荣格 Persona、社交面具与多意识体语境。
 - 🪶 [特殊认同（Alterhuman）](../entries/Alterhuman.md)：来自网络社群的身份体验与自我认同。
 
 !!! info "说明"

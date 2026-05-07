@@ -49,7 +49,7 @@ search:
 
 - ⚙️ [人格结构理论（弗洛伊德）](../entries/Personality-Structure-Theory.md)：本我、自我、超我三层模型。
 - 🪞 [自我概念（Self-Concept）](../entries/Self-Concept.md)："自我"在成长中的构成与演化。
-- 🔑 [自我决定理论（SDT）](../entries/Self-Determination-Theory.md)：自主、胜任、关联三大心理需求。
+- 🔑 [自我决定理论（SDT）](../entries/Self-Determination-Theory.md)：德西与瑞安提出的动机理论，聚焦自主、胜任、关系感三大基本心理需求。
 - 💪 [自我效能感（Self-Efficacy）](../entries/Self-Efficacy.md)：信念与行为坚持的关系。
 
 ---
