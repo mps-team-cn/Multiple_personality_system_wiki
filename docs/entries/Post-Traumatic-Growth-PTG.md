@@ -22,7 +22,7 @@ tags:
 
 title: 创伤后成长（Post‑Traumatic Growth, PTG）
 topic: 创伤与疗愈
-updated: 2025-10-22
+updated: 2026-05-07
 ---
 
 # 创伤后成长（Post‑Traumatic Growth, PTG）

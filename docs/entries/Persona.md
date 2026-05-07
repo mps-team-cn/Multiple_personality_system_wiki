@@ -22,7 +22,7 @@ tags:
 
 title: 人格面具（Persona）
 topic: 角色与身份
-updated: 2026-03-27
+updated: 2026-05-07
 ---
 
 # 人格面具（Persona）
