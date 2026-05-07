@@ -1,0 +1,9 @@
+# Legacy Markdown URLs from old previews or shared source links.
+/docs/index.md / 301
+/docs/README.md / 301
+/index.md / 301
+/README.md / 301
+/docs/:section/:slug.md /:section/:slug/ 301
+/:section/:slug.md /:section/:slug/ 301
+/docs/:slug.md /:slug/ 301
+/:slug.md /:slug/ 301

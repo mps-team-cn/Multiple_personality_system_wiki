@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /dev/
 Disallow: /tools/
-Sitemap: https://wiki.mpsteam.cn/sitemap.xml.gz
+Sitemap: https://wiki.mpsteam.cn/sitemap.xml
