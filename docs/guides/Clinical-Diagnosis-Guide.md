@@ -85,7 +85,7 @@ search:
 
 - [ASD 是什么意思？孤独症谱系障碍还是急性应激障碍](../entries/ASD-Meaning-Autism-or-Acute-Stress-Disorder.md) — :octicons-check-16: 已完成
 
-  处理高频缩写歧义，帮助在神经发育与创伤语境间快速定位正确词条。
+  处理高频缩写歧义，帮助区分 ASD 作为孤独症谱系障碍、自闭症谱系与急性应激障碍时的不同搜索语境。
 
 <!-- 生物治疗与脑刺激条目已迁移至文末专章 -->
 
@@ -265,6 +265,8 @@ search:
 
     - [解离障碍总览（Dissociative Disorders）](../entries/Dissociative-Disorders.md) — :octicons-check-16: 已完成
     - [解离性身份障碍（DID）](../entries/DID.md) — :octicons-check-16: 已完成
+
+        * 面向“DID 是什么病”“DID 和多重人格/OSDD/PDID 的区别”等入口需求，提供诊断、筛查与鉴别路径。*
     - [解离性遗忘（DA）](../entries/Dissociative-Amnesia-DA.md) — :octicons-check-16: 已完成
     - [人格解体/现实解体障碍（DPDR）](../entries/Depersonalization-Derealization-Disorder-DPDR.md) — :octicons-check-16: 已完成
     - [其他特定解离障碍（OSDD）](../entries/OSDD.md) / [未特定解离障碍（UDD）](../entries/Unspecified-Dissociative-Disorder-UDD.md) — :octicons-check-16: 已完成
@@ -376,6 +378,8 @@ search:
     - [人格障碍总览（Personality Disorders）](../entries/Personality-Disorders.md) — :octicons-check-16: 已完成
     - A 组（奇异/怪异）：[偏执型（PPD）](../entries/Paranoid-Personality-Disorder-PPD.md)、[分裂样型（SzPD）](../entries/Schizoid-Personality-Disorder-SzPD.md)、[分裂型（STPD）](../entries/Schizotypal-Personality-Disorder-STPD.md) — :octicons-check-16: 已完成
     - B 组（戏剧化/冲动）：[反社会型（ASPD）](../entries/Antisocial-Personality-Disorder-ASPD.md)、[边缘型（BPD）](../entries/Borderline-Personality-Disorder-BPD.md)、[表演型（HPD）](../entries/Histrionic-Personality-Disorder-HPD.md)、[自恋型（NPD）](../entries/Narcissistic-Personality-Disorder-NPD.md) — :octicons-check-16: 已完成
+
+        * NPD 词条补充“普通自恋特质 vs 人格障碍”的边界，避免将网络标签误当诊断。*
     - C 组（焦虑/恐惧）：[回避型（AvPD）](../entries/Avoidant-Personality-Disorder-AvPD.md)、[依赖型（DPD）](../entries/Dependent-Personality-Disorder-DPD.md)、[强迫型（OCPD）](../entries/Obsessive-Compulsive-Personality-Disorder-OCPD.md) — :octicons-check-16: 已完成
     - [其他特定/未特定人格障碍](../entries/Other-Specified-or-Unspecified-Personality-Disorder.md) — :octicons-check-16: 已完成
 

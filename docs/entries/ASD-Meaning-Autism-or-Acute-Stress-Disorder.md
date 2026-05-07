@@ -1,6 +1,6 @@
 ---
 comments: true
-description: ASD 是什么意思？它既可能指孤独症谱系障碍，也可能指急性应激障碍。本文用临床语境、症状线索、所属章节与典型搜索意图，快速区分两个最常见的 ASD 缩写含义。
+description: ASD 是什么意思？本文快速区分 ASD 作为孤独症谱系障碍与急性应激障碍的两种含义，用症状线索、时间窗和搜索语境判断你要找的是哪一个。
 search:
   boost: 1.5
 synonyms:
@@ -10,6 +10,10 @@ synonyms:
 - asd是孤独症还是急性应激障碍
 - asd孤独症
 - asd急性应激障碍
+- asd自闭症
+- autism spectrum disorder
+- acute stress disorder
+- ASD definition
 
 tags:
 
@@ -33,6 +37,9 @@ updated: 2026-03-27
 - [急性应激障碍](Acute-Stress-Disorder-ASD.md)（Acute Stress Disorder）
 
 如果你只看到缩写 `ASD`，**一定要看上下文**。同一个缩写在不同学科和不同搜索场景里，指的完全不是一回事。
+
+!!! tip "一句话判断"
+    搜到 **ASD 自闭症、孤独症谱系、神经多样性、ADOS-2** 时，多半是在找 [孤独症谱系障碍](Autism-Spectrum-Disorder.md)；搜到 **ASD 创伤、急性应激、闪回、PTSD 前期** 时，多半是在找 [急性应激障碍](Acute-Stress-Disorder-ASD.md)。
 
 ---
 
@@ -98,6 +105,10 @@ updated: 2026-03-27
 ### ASD 一定默认指自闭症吗？
 
 不一定。大众语境里，`ASD` 更常被拿来指孤独症谱系障碍；但在创伤精神医学、急诊精神科或相关论文里，`ASD` 也经常明确指急性应激障碍。
+
+### ASD 和 autism 是同一个意思吗？
+
+在很多教育、发育心理与神经多样性语境里，`ASD` 通常就是 **Autism Spectrum Disorder**，中文常译为孤独症谱系障碍或自闭症谱系障碍。但如果文章讨论创伤后 1 个月内的反应，`ASD` 就可能不是 autism，而是 **Acute Stress Disorder**。
 
 ### 急性应激障碍和 PTSD 的关系是什么？
 
