@@ -40,6 +40,7 @@ updated: 2025-10-20
 | 词条 | 练习重点 | 适合阶段 |
 |------|-----------|-----------|
 | [Tulpa 完全创造指南](../entries/Tulpa-Guide-0.md) | 总览 Tulpa 创造的理念、流程与安全要点 | 全程参考 |
+| [创造型系统年龄限制](../entries/Created-System-Age-Limits.md) | 梳理年龄建议、心智成熟度与风险评估 | 创造前评估 |
 | [基础篇](../entries/Tulpa-Guide-1.md) | 目标设定、心像培养、初步连结 | 起步阶段 |
 | [实践篇](../entries/Tulpa-Guide-2.md) | 深化互动、人格细化、稳定共处 | 稳定练习期 |
 | [提高篇](../entries/Tulpa-Guide-3.md) | 投影、附体、交换等进阶协作技巧 | 进阶巩固期 |
