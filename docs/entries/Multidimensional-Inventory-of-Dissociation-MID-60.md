@@ -3,6 +3,14 @@ hide:
 
 - toc
 
+extra_css:
+
+- assets/mid60.css
+
+extra_javascript:
+
+- assets/mid60.js
+
 search:
   boost: 1.5
 synonyms:

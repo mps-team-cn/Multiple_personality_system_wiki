@@ -24,6 +24,11 @@ hide:
 
     - toc
 
+extra_css:
+    - assets/scl90.css
+extra_javascript:
+    - assets/scl90.js
+
 comments: true
 ---
 

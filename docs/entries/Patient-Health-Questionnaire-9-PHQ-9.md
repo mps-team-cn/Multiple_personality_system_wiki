@@ -25,6 +25,11 @@ hide:
 
     - toc
 
+extra_css:
+    - assets/brief-scales.css
+extra_javascript:
+    - assets/brief-scales.js
+
 comments: true
 ---
 
