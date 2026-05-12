@@ -41,7 +41,7 @@ updated: 2026-05-12
 成人依恋（Adult Attachment）是[依恋理论](Attachment-Theory.md)在成年亲密关系、友谊、家庭关系与治疗关系中的延伸。它关注一个人在关系压力下如何寻求安全、表达需要、保持距离、处理分离，以及如何理解“我是否值得被爱”“他人是否可靠”。
 
 !!! tip "快速答案"
-    **成人依恋**不是精神障碍诊断，而是描述亲密关系模式的心理学框架。常见模型会从 **依恋焦虑** 与 **依恋回避** 两个维度理解个体差异，并由此概括出安全型、焦虑-沉溺型、疏离-回避型、恐惧-回避型等模式。
+    **成人依恋** 不是精神障碍诊断，而是描述亲密关系模式的心理学框架。常见模型会从 **依恋焦虑** 与 **依恋回避** 两个维度理解个体差异，并由此概括出安全型、焦虑-沉溺型、疏离-回避型、恐惧-回避型等模式。
 
 ## 核心模型
 
@@ -108,16 +108,20 @@ updated: 2026-05-12
 !!! warning "不要把依恋类型当成固定身份"
     依恋模式不是诊断，也不是给伴侣、成员或自己定性的标签。它更适合用来理解“在压力下我如何保护自己”，以及“怎样的关系条件能让我更安全”。
 
-- **误区 1：所有关系问题都来自童年**  
+- **误区 1：所有关系问题都来自童年**
+
     早期照护很重要，但成年经历、伴侣互动、社会压力、神经多样性、创伤事件和治疗经验都会影响依恋模式。
 
-- **误区 2：安全型就不会有关系困难**  
+- **误区 2：安全型就不会有关系困难**
+
     安全型也会冲突、失望和分离，只是通常更能在压力中沟通、修复和维持边界。
 
-- **误区 3：焦虑型和回避型一定不能相处**  
+- **误区 3：焦虑型和回避型一定不能相处**
+
     焦虑-回避循环很常见，但通过清晰沟通、节奏调整、治疗支持和稳定回应，关系模式可以改变。
 
-- **误区 4：恐惧-回避型等同于“混乱人格”**  
+- **误区 4：恐惧-回避型等同于“混乱人格”**
+
     恐惧-回避更多描述亲密与危险感交织的关系策略，常与创伤史相关，不应被污名化。
 
 ## 常见问题（FAQ）
@@ -157,8 +161,8 @@ updated: 2026-05-12
 ## 参考与延伸阅读
 
 1. Fraley, R. C. (2010). [A Brief Overview of Adult Attachment Theory and Research](https://labs.psychology.illinois.edu/~rcfraley/attachment). University of Illinois.
-2. Hazan, C., & Shaver, P. R. (1987). Romantic love conceptualized as an attachment process. *Journal of Personality and Social Psychology*, 52(3), 511-524. https://doi.org/10.1037/0022-3514.52.3.511
+2. Hazan, C., & Shaver, P. R. (1987). Romantic love conceptualized as an attachment process. *Journal of Personality and Social Psychology*, 52(3), 511-524. [https://doi.org/10.1037/0022-3514.52.3.511](https://doi.org/10.1037/0022-3514.52.3.511)
 3. Bartholomew, K., & Horowitz, L. M. (1991). [Attachment styles among young adults: A test of a four-category model](https://pubmed.ncbi.nlm.nih.gov/1920064/). *Journal of Personality and Social Psychology*, 61(2), 226-244. https://doi.org/10.1037/0022-3514.61.2.226
 4. Brennan, K. A., Clark, C. L., & Shaver, P. R. (1998). Self-report measurement of adult attachment. In J. A. Simpson & W. S. Rholes (Eds.), *Attachment Theory and Close Relationships* (pp. 46-76). Guilford Press.
 5. Mikulincer, M., & Shaver, P. R. (2016). *Attachment in Adulthood: Structure, Dynamics, and Change* (2nd ed.). Guilford Press.
-6. Wikipedia contributors. [Attachment in adults](https://en.wikipedia.org/wiki/Attachment_in_adults). Wikipedia. 
+6. Wikipedia contributors. [Attachment in adults](https://en.wikipedia.org/wiki/Attachment_in_adults). Wikipedia.
