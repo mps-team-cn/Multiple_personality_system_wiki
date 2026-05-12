@@ -175,6 +175,7 @@ comments: true
 | [<abbr title="Apparently Normal Part / Emotional Part">ANP / EP</abbr> 模型](entries/Apparently-Normal-Part-Emotional-Part-Model.md) | 将人格分为"表面正常部分"（<abbr title="Apparently Normal Part">ANP</abbr>）与"情绪部分"（<abbr title="Emotional Part">EP</abbr>），阐释创伤反应 | 临床 | 属于结构性解离理论核心概念 |
 | [埃蒙加德分类](entries/Emmengard-Classification.md) | 社群提出的系统来源分类，如创造型、自发型、混合型等 | 社群 | 与 Tulpa、系魂等实践讨论关联密切 |
 | [依恋理论](entries/Attachment-Theory.md) | 研究早期照料关系对安全感与情绪调节的影响 | 临床 | 用于分析系统内部信任与合作 |
+| [成人依恋](entries/Adult-Attachment.md) | 解释成年关系中的依恋焦虑、依恋回避与安全/不安全关系模式 | 理论 | 用于理解关系触发、治疗联盟与系统内部安全感 |
 | [自我决定理论（<abbr title="Self-Determination Theory">SDT</abbr>）](entries/Self-Determination-Theory.md) | 强调自主性、胜任感、连结感三个基本动机需求 | 跨域 | 可指导目标设定与支持策略 |
 | [社会认知理论](entries/Social-Cognitive-Theory.md) | 关注观察学习与自我效能在行为形成中的作用 | 跨域 | 解释成员间的榜样与反馈机制 |
 | [动机理论](entries/Motivation-Theories.md) | 汇整需要层次、强化、期待等经典动机模型 | 跨域 | 帮助设计内部激励与任务分配 |

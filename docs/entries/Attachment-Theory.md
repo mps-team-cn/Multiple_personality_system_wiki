@@ -31,6 +31,8 @@ updated: 2026-03-27
 
 自 20 世纪中叶起，依恋理论从精神分析的母婴关系研究扩展到发展心理学、神经科学与跨文化研究。成人依恋理论说明早期经验如何影响亲密关系与组织行为；神经影像研究则揭示依恋安全性与情绪调节网络的关联。
 
+更具体的成年关系模式、依恋焦虑/回避维度与四分类模型，见[成人依恋（Adult Attachment）](Adult-Attachment.md)。
+
 ## 在多意识体与解离语境中的意义
 
 复杂创伤往往伴随不安全依恋，导致[解离](Dissociation.md)与身份分裂。系统成员可能分别承载不同的依恋需求，如保护者内化照顾者角色、儿童部分寻求安慰。识别依恋模式有助于制定内部支持策略，并与治疗师建立更稳定的治疗联盟。
@@ -43,6 +45,7 @@ updated: 2026-03-27
 
 ## 相关条目
 
+- [成人依恋（Adult Attachment）](Adult-Attachment.md)
 - [人本主义心理学（Humanistic Psychology）](Humanistic-Psychology.md)
 - [自我效能感（Self-Efficacy）](Self-Efficacy.md)
 - [动机理论（Motivation Theories）](Motivation-Theories.md)
