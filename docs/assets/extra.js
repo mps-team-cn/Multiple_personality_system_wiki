@@ -21,6 +21,7 @@ if (typeof window !== 'undefined') {
 document.addEventListener('DOMContentLoaded', function() {
   // 关键任务：立即执行
   addStructuredData();
+  labelSearchDialog();
 
   // 非关键任务：使用 requestIdleCallback 延迟执行
   scheduleIdleTask(() => {
@@ -120,6 +121,8 @@ function enhanceBackToTop() {
  */
 if (typeof document$ !== 'undefined' && document$.subscribe) {
   document$.subscribe(function() {
+    labelSearchDialog();
+
     // 使用事件委托，避免为每个按钮添加监听器
     const content = document.querySelector('.md-content');
     if (!content) return;
@@ -139,6 +142,17 @@ if (typeof document$ !== 'undefined' && document$.subscribe) {
       }, 2000);
     });
   });
+}
+
+/**
+ * 为 Material 搜索对话框补充可访问名称。
+ */
+function labelSearchDialog() {
+  const dialog = document.querySelector('.md-search[role="dialog"]');
+  if (!dialog) return;
+  if (!dialog.getAttribute('aria-label') && !dialog.getAttribute('aria-labelledby')) {
+    dialog.setAttribute('aria-label', '站内搜索');
+  }
 }
 
 /**

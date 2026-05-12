@@ -4,6 +4,14 @@ hide:
 
 - toc
 
+extra_css:
+
+- assets/des2.css
+
+extra_javascript:
+
+- assets/des2.js
+
 search:
   boost: 1.5
 synonyms:

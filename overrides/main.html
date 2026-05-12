@@ -42,6 +42,19 @@
   <meta name="robots" content="{{ page.meta.robots }}">
   {% endif %}
 
+  {# 页面级资源：由 Frontmatter 声明，避免量表 CSS/JS 全站加载。 #}
+  {% if page and page.meta and page.meta.extra_css %}
+    {% for path in page.meta.extra_css %}
+  <link rel="stylesheet" href="{{ path | url }}">
+    {% endfor %}
+  {% endif %}
+
+  {% if page and page.meta and page.meta.extra_javascript %}
+    {% for path in page.meta.extra_javascript %}
+  <script defer src="{{ path | url }}"></script>
+    {% endfor %}
+  {% endif %}
+
   {# 将 GA Measurement ID 注入到全局，供延迟加载脚本使用 #}
   {% if config.extra and config.extra.analytics and config.extra.analytics.property %}
   <script>

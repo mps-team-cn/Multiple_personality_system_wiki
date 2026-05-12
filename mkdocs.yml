@@ -157,26 +157,12 @@ extra:
 # 额外样式和脚本
 extra_css:
   - assets/extra-material.css # Material 主题专用增强样式
-  - assets/brief-scales.css
-  - assets/des2.css
-  - assets/mid60.css
-  - assets/scl90.css
-  - assets/sdq20.css
-  - assets/sds.css
-  - assets/sas.css
 
 extra_javascript:
   - assets/extra.js
   - assets/gtm-loader.js  # GTM/GA 延迟加载
   - assets/giscus-loader.js  # Giscus 评论加载器
   - assets/search-phrase-default.js # 搜索短语自动加引号
-  - assets/brief-scales.js
-  - assets/des2.js
-  - assets/mid60.js
-  - assets/scl90.js
-  - assets/sdq20.js
-  - assets/sds.js
-  - assets/sas.js
 
 
 # Markdown 扩展

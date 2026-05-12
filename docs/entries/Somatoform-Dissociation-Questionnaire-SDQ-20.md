@@ -4,6 +4,14 @@ hide:
 
 - toc
 
+extra_css:
+
+- assets/sdq20.css
+
+extra_javascript:
+
+- assets/sdq20.js
+
 search:
   boost: 1.5
 synonyms:

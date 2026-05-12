@@ -22,6 +22,11 @@ hide:
 
     - toc
 
+extra_css:
+    - assets/sds.css
+extra_javascript:
+    - assets/sds.js
+
 comments: true
 ---
 
