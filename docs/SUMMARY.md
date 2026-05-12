@@ -322,6 +322,7 @@
         * [习得性无助(Learned Helplessness)](entries/Learned-Helplessness.md)
         * [人本主义心理学（Humanistic Psychology）](entries/Humanistic-Psychology.md)
         * [人格结构理论（Personality Structure Theory, Freud）](entries/Personality-Structure-Theory.md)
+        * [成人依恋（Adult Attachment）](entries/Adult-Attachment.md)
         * [依恋理论（Attachment Theory）](entries/Attachment-Theory.md)
         * [动机理论（Motivation Theories）](entries/Motivation-Theories.md)
         * [多意识体系统中的创伤功能分化（Functional Dissociation of Trauma in Plural Systems）](entries/Functional-Dissociation-of-Trauma-in-Plural-Systems.md)
