@@ -17,7 +17,7 @@ synonyms:
     - Symptom Checklist-90-Revised
 
 description: 症状自评量表修订版（SCL-90-R）是一个广泛使用的心理健康筛查工具，采用0-4分评分系统，评估躯体化、强迫、人际敏感、抑郁、焦虑、敌对、恐怖、偏执和精神病性等九个症状维度，用于心理症状的全面筛查与评估。本版本为国际通用的SCL-90-R版本，与中国常模版本在评分系统和题目分配上有所差异。
-updated: 2025-10-26
+updated: 2026-05-12
 search:
   boost: 1.5
 hide:
@@ -25,8 +25,11 @@ hide:
     - toc
 
 extra_css:
+
     - assets/scl90.css
+
 extra_javascript:
+
     - assets/scl90.js
 
 comments: true

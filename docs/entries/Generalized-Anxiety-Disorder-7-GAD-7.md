@@ -18,7 +18,7 @@ synonyms:
     - Generalized Anxiety Disorder-7
 
 description: 广泛性焦虑量表-7（GAD-7）是常用的焦虑筛查与严重度评估工具，7题、0-21分，适合初步整理紧张、担忧失控、难以放松与烦躁等症状线索。
-updated: 2026-03-28
+updated: 2026-05-12
 search:
   boost: 1.5
 hide:
@@ -26,8 +26,11 @@ hide:
     - toc
 
 extra_css:
+
     - assets/brief-scales.css
+
 extra_javascript:
+
     - assets/brief-scales.js
 
 comments: true

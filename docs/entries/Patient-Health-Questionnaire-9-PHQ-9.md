@@ -18,7 +18,7 @@ synonyms:
     - Patient Health Questionnaire-9
 
 description: 患者健康问卷-9（PHQ-9）是常用的抑郁筛查与严重度评估工具，9题、0-27分，适合初步整理情绪低落、兴趣下降、疲乏与自伤想法等线索。
-updated: 2026-03-28
+updated: 2026-05-12
 search:
   boost: 1.5
 hide:
@@ -26,8 +26,11 @@ hide:
     - toc
 
 extra_css:
+
     - assets/brief-scales.css
+
 extra_javascript:
+
     - assets/brief-scales.js
 
 comments: true

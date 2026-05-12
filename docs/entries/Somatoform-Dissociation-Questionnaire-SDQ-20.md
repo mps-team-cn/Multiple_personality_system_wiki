@@ -32,7 +32,7 @@ tags:
 
 title: 躯体形式解离问卷（Somatoform Dissociation Questionnaire‑20, SDQ‑20）
 topic: 诊断与临床
-updated: 2026-03-27
+updated: 2026-05-12
 ---
 
 # 躯体形式解离问卷（Somatoform Dissociation Questionnaire‑20, SDQ‑20）
