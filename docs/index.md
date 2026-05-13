@@ -271,7 +271,7 @@ search:
 
 <!-- RECENT_RELEASES -->
 
-查看完整 [更新日志](changelog.md) | [下载 PDF 版本](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/download/v4.1.0/Multiple_Personality_System_wiki.pdf)
+查看完整 [更新日志](changelog.md) | [下载 PDF 版本](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/download/v4.2.0/Multiple_Personality_System_wiki.pdf)
 
 ---
 
