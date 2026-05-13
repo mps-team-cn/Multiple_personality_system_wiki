@@ -162,7 +162,7 @@ CI 双重保障（见 `.github/workflows/`）：
 使用 Cloudflare Pages 自动构建与部署：
 
 ```yaml
-Build command: pip3 install uv && uv sync && uv run mkdocs build
+Build command: bash .cfpages-build.sh
 Build output directory: site
 ```
 

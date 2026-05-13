@@ -21,7 +21,7 @@
 
 #### 构建配置
 
-- **Build command** : `pip3 install uv && uv sync && uv run mkdocs build`
+- **Build command** : `bash .cfpages-build.sh`
 - **Build output directory** : `site`
 
 #### 环境变量
@@ -58,9 +58,10 @@
 
 构建命令执行以下步骤:
 
-1. 安装 uv 并通过 `uv sync` 安装 Python 依赖
-2. 运行 `uv run mkdocs build` 构建站点
-3. 生成的静态文件输出到 `site/` 目录
+1. 将 Python 用户安装目录加入 `PATH`,确保 Cloudflare 可找到 pip 安装的 `uv`
+2. 安装 uv 并通过 `uv sync` 安装 Python 依赖
+3. 运行 `uv run mkdocs build` 构建站点
+4. 生成的静态文件输出到 `site/` 目录
 
 ## 本地构建测试
 
