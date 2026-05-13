@@ -55,7 +55,7 @@ jobs:
           for file in $CHANGED_FILES; do
             if [ -f "$file" ]; then
               echo "检查: $file"
-              if ! python3 tools/check_links.py "$file"; then
+              if ! uv run python3 tools/check_links.py "$file"; then
                 FAILED=1
               fi
             fi
@@ -123,7 +123,7 @@ jobs:
           done
 
           # 使用 Python 脚本检查 Frontmatter
-          if python3 tools/check_frontmatter.py --path "$TEMP_DIR/docs/entries"; then
+          if uv run python3 tools/check_frontmatter.py --path "$TEMP_DIR/docs/entries"; then
             echo ""
             echo "✅ 所有 Frontmatter 格式正确"
             echo "FRONTMATTER_CHECK_FAILED=0" >> $GITHUB_ENV
@@ -172,7 +172,7 @@ jobs:
           for file in $CHANGED_ENTRIES; do
             if [ -f "$file" ]; then
               echo "检查: $file"
-              if ! python3 tools/check_tags.py "$file"; then
+              if ! uv run python3 tools/check_tags.py "$file"; then
                 FAILED=1
               fi
             fi
