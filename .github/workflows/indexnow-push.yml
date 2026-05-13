@@ -41,16 +41,13 @@ jobs:
 
       - name: 安装依赖
         run: |
-          pip install requests
+          pip install uv
+          uv sync
 
       - name: 构建站点
         run: |
-          echo "📦 安装 MkDocs..."
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
           echo "🏗️ 构建站点以生成 sitemap.xml..."
-          mkdocs build
+          uv run mkdocs build
 
       - name: 验证 IndexNow 密钥文件
         run: |

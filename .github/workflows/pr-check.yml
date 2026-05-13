@@ -28,9 +28,8 @@ jobs:
 
       - name: 安装依赖
         run: |
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
+          pip install uv
+          uv sync
 
       - name: 检查链接规范
         id: check_links
