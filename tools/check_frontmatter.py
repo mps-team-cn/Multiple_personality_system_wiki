@@ -159,10 +159,10 @@ def main():
   - title: 词条标题
   - tags: 分类标签（YAML 列表）
   - topic: 主题分类
-  - description: SEO 描述（120-155 字符）
   - updated: 最后更新时间（YYYY-MM-DD）
 
 可选字段：
+  - description: SEO 描述（120-155 字符）
   - synonyms: 同义词列表
   - comments: 是否启用评论区
 

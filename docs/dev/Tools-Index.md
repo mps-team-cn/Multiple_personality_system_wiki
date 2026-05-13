@@ -144,20 +144,15 @@ tools/
 │
 ├── 模块化组件
 │   ├── processors/                  # 处理器模块
-│   │   ├── markdown.py             # Markdown 处理规则
-│   │   ├── links.py                # 链接处理逻辑
-│   │   └── tags.py                 # 标签处理逻辑
-│   ├── validators/                  # 验证器模块
-│   ├── generators/                  # 生成器模块
-│   └── core/                        # 核心工具库
+│   │   └── markdown.py             # Markdown 处理规则
+│   ├── core/                        # 核心工具库
 │       ├── config.py               # 配置管理
 │       ├── frontmatter.py          # Frontmatter 解析
 │       ├── logger.py               # 日志输出
 │       └── utils.py                # 通用工具函数
 │
 ├── 专项工具集
-│   ├── pdf_export/                  # PDF 导出工具包
-│   └── cli/                         # 命令行接口(未来)
+│   └── pdf_export/                  # PDF 导出工具包
 │
 └── 废弃工具
     └── deprecated/                  # 已废弃的旧工具
