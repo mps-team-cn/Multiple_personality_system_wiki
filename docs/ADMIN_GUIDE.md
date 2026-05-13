@@ -562,18 +562,17 @@ git push origin feat/branch-name --force-with-lease
 
 # 环境准备
 
-python3 -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
+uv sync
 
 # 本地开发
 
-mkdocs serve
-python tools/fix_markdown.py
+uv run mkdocs serve
+uv run python3 tools/fix_markdown.py
 markdownlint "docs/**/*.md"
 
 # 发布流程
 
-python tools/gen_changelog_by_tags.py --latest-to-head
+uv run python3 tools/gen_changelog_by_tags.py --latest-to-head
 git tag v1.4.0 -m "Release v1.4.0"
 git push origin v1.4.0
 gh release create v1.4.0 --notes-file docs/changelog.md

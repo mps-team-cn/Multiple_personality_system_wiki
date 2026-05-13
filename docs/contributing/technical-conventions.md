@@ -247,111 +247,39 @@ MkDocs Material 的 `tags` 插件会自动生成标签索引。
 
 ### 7.1 系统要求
 
-- Python 3.8 或更高版本
-- pip 或虚拟环境支持
+- Python 3.10 或更高版本
+- [uv](https://docs.astral.sh/uv/)（推荐，用于依赖管理与虚拟环境）
 
-### 7.2 环境配置方式
+### 7.2 使用 uv（推荐）
 
-#### 方式一：使用虚拟环境（推荐）
-
-适用于 Debian/Ubuntu 等外部管理 Python 环境的系统：
+项目使用 `uv` 管理依赖，`uv.lock` 锁定所有传递依赖以确保一致性。
 
 ```bash
 
-# 1. 安装 venv 支持（如需要）
+# 安装依赖（自动创建 .venv 隔离环境）
 
-sudo apt install python3.12-venv  # 或对应的 Python 版本
+uv sync
 
-# 2. 创建虚拟环境
+# 运行工具
 
-python3 -m venv venv
-
-# 3. 激活虚拟环境
-
-source venv/bin/activate
-
-# 4. 安装依赖
-
-pip install -r requirements.txt
+uv run mkdocs serve
+uv run python3 tools/fix_markdown.py docs/entries/
 ```
 
-**后续使用**：每次使用项目工具前，需先激活虚拟环境：
+### 7.3 依赖管理
 
-```bash
-source venv/bin/activate
-```
-
-#### 方式二：系统级安装
-
-适用于非托管 Python 环境：
+项目依赖定义在 `pyproject.toml`，由 `uv.lock` 锁定精确版本。
 
 ```bash
 
-# 直接安装依赖
+# 添加新依赖
 
-pip install -r requirements.txt
+uv add <package>
 
-# 或使用 pip3
+# 更新所有依赖
 
-pip3 install -r requirements.txt
-```
-
-#### 方式三：使用 pipx（应用程序）
-
-适用于仅运行工具，不需要开发环境：
-
-```bash
-
-# 安装 pipx
-
-sudo apt install pipx
-
-# 使用 pipx 运行工具
-
-pipx run mkdocs serve
-```
-
-### 7.3 常见问题
-
-#### `pip: command not found`
-
-**解决方案**：
-
-```bash
-
-# 方法 1：使用 python3 -m pip
-
-python3 -m pip install -r requirements.txt
-
-# 方法 2：安装 pip
-
-python3 -m ensurepip --default-pip
-
-# 方法 3：系统包管理器安装
-
-sudo apt install python3-pip
-```
-
-#### `externally-managed-environment` 错误
-
-这是 Debian/Ubuntu 系统的安全特性，推荐使用虚拟环境（见 7.2 方式一）。
-
-**不推荐**：使用 `--break-system-packages` 标志可能破坏系统 Python 环境。
-
-### 7.4 依赖管理
-
-项目依赖定义在 `requirements.txt`：
-
-```text
-mkdocs>=1.6.1
-mkdocs-material>=9.5.44
-mkdocs-git-revision-date-localized-plugin>=1.2.9
-```
-
-更新依赖：
-
-```bash
-pip install --upgrade -r requirements.txt
+uv lock --upgrade
+uv sync
 ```
 
 ---
@@ -364,15 +292,15 @@ pip install --upgrade -r requirements.txt
 
 # 开发模式（热重载）
 
-mkdocs serve
+uv run mkdocs serve
 
 # 生产构建
 
-mkdocs build
+uv run mkdocs build
 
 # 严格模式（检测所有警告）
 
-mkdocs build --strict
+uv run mkdocs build --strict
 ```
 
 ### 8.2 Cloudflare Pages 部署
@@ -380,7 +308,7 @@ mkdocs build --strict
 项目使用 Cloudflare Pages 自动部署：
 
 - **触发** ：推送到 `main` 分支
-- **构建命令** ：见 `.cfpages-build.sh`
+- **构建命令** ：`pip3 install uv && uv sync && uv run mkdocs build`
 - **输出目录** ：`site/`
 
 ### 8.3 构建配置
@@ -439,7 +367,7 @@ docs/dev/
 - [ ] 图片注明来源与许可
 - [ ] 最后更新时间已更新
 - [ ] 同步更新相关索引（如需要）
-- [ ] 本地构建成功（`mkdocs build --strict`）
+- [ ] 本地构建成功（`uv run mkdocs build --strict`）
 
 ---
 

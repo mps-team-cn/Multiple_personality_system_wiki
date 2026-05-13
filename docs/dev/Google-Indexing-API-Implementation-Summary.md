@@ -300,7 +300,7 @@ docs/dev/Tools-Index.md                 - 更新工具索引
 
 ### 初次配置
 
-1. **安装依赖**: `pip install -r requirements.txt`
+1. **安装依赖**: `uv sync`
 2. **创建 Service Account**: 按照快速开始指南操作
 3. **配置凭证**: 环境变量或文件路径
 4. **测试运行**: `--dry-run` 模式验证配置

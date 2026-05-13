@@ -8,7 +8,7 @@
 
 - [ ] Python 3.8+ 已安装
 - [ ] 虚拟环境已创建并激活
-- [ ] 依赖已安装: `pip install -r requirements.txt`
+- [ ] 依赖已安装: `uv sync`
 
 ### Service Account 配置
 

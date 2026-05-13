@@ -88,25 +88,24 @@ search:
 
     !!! success "本地预览（MkDocs Material）"
         ```bash
-        # 1) 安装依赖（推荐虚拟环境）
-        python3 -m venv venv && source venv/bin/activate
-        pip install -r requirements.txt
+        # 安装依赖（自动创建 .venv）
+        uv sync
 
-        # 2) 启动本地服务（支持热重载）
-        mkdocs serve
+        # 启动本地服务（支持热重载）
+        uv run mkdocs serve
         # 访问 [http://127.0.0.1:8000](http://127.0.0.1:8000)
         ```
 
     !!! tip "常用命令"
         ```bash
         # 构建静态站点
-        mkdocs build --strict
+        uv run mkdocs build --strict
 
         # 链接规范检查
-        python3 tools/check_links.py
+        uv run python3 tools/check_links.py
 
         # Markdown 自动修复
-        python3 tools/fix_markdown.py .
+        uv run python3 tools/fix_markdown.py .
         ```
 
 === "参与贡献"

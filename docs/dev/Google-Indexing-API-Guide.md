@@ -22,14 +22,13 @@ Google Indexing API 允许网站主动通知 Google 有关页面的更新,从而
 
 # 激活虚拟环境
 
-python3 -m venv venv
-source venv/bin/activate  # Linux/macOS
+uv sync
 
-# 或 venv\Scripts\activate.bat  # Windows
+
 
 # 安装依赖
 
-pip install -r requirements.txt
+uv sync
 ```
 
 ### 2. 创建 Google Service Account
@@ -369,7 +368,7 @@ jobs:
       - name: 安装依赖
 
         run: |
-          pip install -r requirements.txt
+          uv sync
 
       - name: 提交到 Google Indexing API
 

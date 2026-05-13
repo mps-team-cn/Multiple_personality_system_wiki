@@ -70,22 +70,11 @@ description: 参与 MPS Wiki 共建的门户指南，涵盖编写规范、学术
 
 ## 🚀 快速开始
 
-=== "方式一：虚拟环境（推荐）"
+=== "安装依赖"
 
     ```bash
-    # 创建并激活虚拟环境
-    python3 -m venv venv
-    source venv/bin/activate
-
-    # 安装依赖
-    pip install -r requirements.txt
-    ```
-
-=== "方式二：系统级安装"
-
-    ```bash
-    # 直接安装依赖（macOS/Windows 等）
-    pip install -r requirements.txt
+    # 使用 uv 安装依赖（自动创建 .venv）
+    uv sync
     ```
 
 === "本地编辑与预览"
@@ -93,10 +82,10 @@ description: 参与 MPS Wiki 共建的门户指南，涵盖编写规范、学术
     ```bash
     # 编辑词条（位于 docs/entries/）
     # 运行自动修复
-    python3 tools/fix_markdown.py docs/entries/
+    uv run python3 tools/fix_markdown.py docs/entries/
 
     # 本地预览（热重载）
-    mkdocs serve
+    uv run mkdocs serve
     # 访问： [http://127.0.0.1:8000](http://127.0.0.1:8000)
     ```
 

@@ -18,10 +18,10 @@
 **依赖** ：
 
 ```bash
-pip install mkdocs-material
-pip install mkdocs-git-revision-date-localized-plugin
-pip install mkdocs-minify-plugin
-pip install mkdocs-glightbox
+uv add mkdocs-material
+uv add mkdocs-git-revision-date-localized-plugin
+uv add mkdocs-minify-plugin
+uv add mkdocs-glightbox
 ```
 
 **配置文件** ：`mkdocs.yml`（当前）或 `mkdocs.yml.material-backup`（备份）
@@ -62,7 +62,7 @@ cp mkdocs.yml.readthedocs mkdocs.yml
 
 # 测试预览
 
-mkdocs serve
+uv run mkdocs serve
 ```
 
 ---
@@ -101,7 +101,7 @@ cp mkdocs.yml.mkdocs mkdocs.yml
 
 # 测试预览
 
-mkdocs serve
+uv run mkdocs serve
 ```
 
 ---
@@ -159,7 +159,7 @@ mkdocs serve
 ### Cinder 主题
 
 ```bash
-pip install mkdocs-cinder
+uv add mkdocs-cinder
 ```
 
 修改 `mkdocs.yml`：
@@ -172,7 +172,7 @@ theme:
 ### Windmill 主题
 
 ```bash
-pip install mkdocs-windmill
+uv add mkdocs-windmill
 ```
 
 修改 `mkdocs.yml`：
@@ -185,7 +185,7 @@ theme:
 ### Bootswatch 主题包
 
 ```bash
-pip install mkdocs-bootswatch
+uv add mkdocs-bootswatch
 ```
 
 修改 `mkdocs.yml`（20+ 种配色可选）：
@@ -258,22 +258,22 @@ theme:
 # 切换到 Material（推荐）
 
 cp mkdocs.yml.material-backup mkdocs.yml
-mkdocs serve
+uv run mkdocs serve
 
 # 切换到 ReadTheDocs
 
 cp mkdocs.yml.readthedocs mkdocs.yml
-mkdocs serve
+uv run mkdocs serve
 
 # 切换到 MkDocs 默认
 
 cp mkdocs.yml.mkdocs mkdocs.yml
-mkdocs serve
+uv run mkdocs serve
 
 # 恢复到最近的备份
 
 cp mkdocs.yml.backup mkdocs.yml
-mkdocs serve
+uv run mkdocs serve
 ```
 
 ---
@@ -282,7 +282,7 @@ mkdocs serve
 
 - **统一锚点规则** : `toc.slugify` 与 `pymdownx.tabbed.slugify` 均改用 `pymdownx.slugs.slugify(case="lower-ascii")`，确保在 MkDocs、GitHub 预览与本地编辑器之间生成一致的标题锚点。
 - **按钮/卡片兼容性** : 继续保留 `attr_list`、`pymdownx.superfences` 等扩展，Material 专用语法在站点渲染，而 GitHub 端会回退为可阅读的纯文本。
-- **维护建议** : 新增或调整 Markdown 扩展时，请同步验证 `mkdocs serve`、GitHub 网页预览与常用 Markdown 编辑器三端的表现，并在本节记录差异说明。
+- **维护建议** : 新增或调整 Markdown 扩展时，请同步验证 `uv run mkdocs serve`、GitHub 网页预览与常用 Markdown 编辑器三端的表现，并在本节记录差异说明。
 
 ---
 
@@ -310,7 +310,7 @@ mkdocs serve
 ### 构建兼容性
 
 - 内置主题（readthedocs, mkdocs）可以直接在 Cloudflare Pages 构建
-- Material 和其他第三方主题需要在 `requirements.txt` 中声明依赖
+- Material 和其他第三方主题需要在 `pyproject.toml` 中声明依赖
 
 ---
 

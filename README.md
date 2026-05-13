@@ -89,40 +89,20 @@ Multiple_personality_system_wiki/
 
 ## 🚀 快速开始
 
-推荐使用虚拟环境（或使用 uv）。
-
-### 方式一：虚拟环境（推荐）
+推荐使用 [uv](https://docs.astral.sh/uv/) 管理依赖与虚拟环境。
 
 ```bash
 
-# 1) 创建并激活虚拟环境
-
-python3 -m venv venv
-source venv/bin/activate
-
-# 2) 安装依赖
-
-pip install -r requirements.txt
-
-# 3) 本地预览（热重载）
-
-mkdocs serve
-
-# 访问：http://127.0.0.1:8000
-
-```
-
-### 方式二：使用 uv（已提供 uv.lock）
-
-```bash
-
-# 安装依赖并创建隔离环境
+# 安装依赖（自动创建 .venv 隔离环境）
 
 uv sync
 
-# 运行本地预览
+# 本地预览（热重载）
 
 uv run mkdocs serve
+
+# 访问：http://127.0.0.1:8000
+
 ```
 
 ### 构建静态站点
@@ -131,13 +111,9 @@ uv run mkdocs serve
 
 # 标准构建（输出到 site/）
 
-mkdocs build
+uv run mkdocs build
 
 # 严格模式（有警告即失败）
-
-mkdocs build --strict
-
-# 使用 uv 运行
 
 uv run mkdocs build --strict
 ```
@@ -148,10 +124,10 @@ uv run mkdocs build --strict
 
 根目录 `tools/` 提供内容维护工具；完整说明见：`docs/dev/Tools-Index.md`。
 
-- `python3 tools/fix_markdown.py [路径]`：Markdown 自动修复（支持 `--dry-run`）
-- `python3 tools/check_links.py [路径]`：链接规范检查（上下文感知）
-- `python3 tools/update_git_timestamps.py`：根据 Git 历史更新时间戳
-- PDF 导出：`python3 tools/pdf_export/export_to_pdf.py`
+- `uv run python3 tools/fix_markdown.py [路径]`：Markdown 自动修复（支持 `--dry-run`）
+- `uv run python3 tools/check_links.py [路径]`：链接规范检查（上下文感知）
+- `uv run python3 tools/update_git_timestamps.py`：根据 Git 历史更新时间戳
+- PDF 导出：`uv run python3 tools/pdf_export/export_to_pdf.py`
 
 CI 双重保障（见 `.github/workflows/`）：
 
@@ -172,10 +148,10 @@ CI 双重保障（见 `.github/workflows/`）：
 
 - 词条放在 `docs/entries/`（不创建子目录）
 - Frontmatter 包含 `title / topic / tags`（时间戳由 CI 维护）
-- 已运行：`python3 tools/fix_markdown.py docs/entries/`
-- 已运行：`python3 tools/check_links.py docs/entries/`
-- 已运行：`python3 tools/check_tags.py docs/entries/`
-- 构建通过：`mkdocs build --strict`
+- 已运行：`uv run python3 tools/fix_markdown.py docs/entries/`
+- 已运行：`uv run python3 tools/check_links.py docs/entries/`
+- 已运行：`uv run python3 tools/check_tags.py docs/entries/`
+- 构建通过：`uv run mkdocs build --strict`
 
 新增或修改词条时，请同步更新对应主题 Guide（见 `AGENTS.md` 中的映射表）。
 
@@ -186,7 +162,7 @@ CI 双重保障（见 `.github/workflows/`）：
 使用 Cloudflare Pages 自动构建与部署：
 
 ```yaml
-Build command: bash .cfpages-build.sh
+Build command: pip3 install uv && uv sync && uv run mkdocs build
 Build output directory: site
 ```
 

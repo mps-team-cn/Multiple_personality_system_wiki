@@ -39,7 +39,7 @@
 ┌─ 开发/修改工具?
 │  ├─ 修改 tools/*.py
 │  ├─ 同步更新 docs/dev/Tools-Index.md
-│  └─ 命令使用 python3(不是 python)
+│  └─ 命令使用 uv run python3(不是裸 python3)
 │
 ┌─ 大规模重构?
 │  ├─ 先列影响范围
@@ -48,9 +48,9 @@
 │  └─ PR 说明自动化方法(正则/脚本/范围)
 │
 └─ 提交前检查
-   ├─ python3 tools/check_links.py docs/entries/
-   ├─ python3 tools/check_tags.py docs/entries/
-   └─ mkdocs build --strict(可选)
+   ├─ uv run python3 tools/check_links.py docs/entries/
+   ├─ uv run python3 tools/check_tags.py docs/entries/
+   └─ uv run mkdocs build --strict(可选)
 ```
 
 ---
@@ -256,13 +256,13 @@ search:
 
 ```bash
 # 1. 检查链接规范
-python3 tools/check_links.py docs/entries/
+uv run python3 tools/check_links.py docs/entries/
 
 # 2. 检查标签规范
-python3 tools/check_tags.py docs/entries/
+uv run python3 tools/check_tags.py docs/entries/
 
 # 3. (可选)构建测试
-mkdocs build --strict
+uv run mkdocs build --strict
 ```
 
 ### 6.2 CI 双重检查机制
@@ -312,7 +312,7 @@ mkdocs build --strict
 | 文件 | 用途 | 修改权限 |
 |------|------|---------|
 | `mkdocs.yml` | 站点元信息/主题/插件/导航 | ⚠️ 谨慎修改 |
-| `requirements.txt` | Python 依赖 | ✅ 可修改 |
+| `pyproject.toml` | Python 依赖 | ✅ 可修改 |
 | `.cfpages-build.sh` | Cloudflare Pages 构建 | ⚠️ 谨慎修改 |
 | `docs/assets/extra.css` | 自定义样式 | ✅ 可修改 |
 | `docs/assets/extra.js` | 自定义脚本 | ✅ 可修改 |
@@ -371,38 +371,30 @@ mkdocs build --strict
 
 ## 9. Python 环境
 
-### 9.1 推荐配置(虚拟环境)
+### 9.1 使用 uv（推荐）
 
 ```bash
-# 1. 创建虚拟环境
-python3 -m venv venv
-
-# 2. 激活
-source venv/bin/activate  # Linux/macOS
-# 或
-venv\Scripts\activate     # Windows
-
-# 3. 安装依赖
-pip install -r requirements.txt
+# 安装依赖（自动创建 .venv 隔离环境）
+uv sync
 ```
 
 ### 9.2 常见问题
 
-??? question "`pip: command not found`"
+??? question "如何安装 uv？"
 
     ```bash
-    # 方法 1: 使用 python3 -m pip
-    python3 -m pip install -r requirements.txt
+    # 通过 pip 安装
+    pip3 install uv
 
-    # 方法 2: 安装 pip
-    python3 -m ensurepip --default-pip
+    # 或通过官方安装脚本
+    curl -LsSf https://astral.sh/uv/install.sh | sh
     ```
 
 ??? question "`externally-managed-environment`"
 
     !!! danger "Debian/Ubuntu 系统安全特性"
-        - ✅ 推荐: 使用虚拟环境
-        - ❌ 不推荐: `--break-system-packages`(可能破坏系统)
+        - ✅ 推荐: 使用 uv（自动管理 .venv）
+        - ❌ 不推荐: `--break-system-packages`（可能破坏系统）
 
 ---
 
@@ -438,10 +430,10 @@ pip install -r requirements.txt
 
 ```bash
 # 检查单个文件
-python3 tools/check_tags.py docs/entries/DID.md
+uv run python3 tools/check_tags.py docs/entries/DID.md
 
 # 检查整个目录
-python3 tools/check_tags.py docs/entries/
+uv run python3 tools/check_tags.py docs/entries/
 
 # 正则校验: ^[a-z]+:[^\s()]+$
 ```
@@ -459,26 +451,25 @@ python3 tools/check_tags.py docs/entries/
 |------|------|------|
 | `check_links.py` 报错 | 使用了绝对路径或错误相对路径 | 查看 [§5.1 链接路径速查表](#51-链接路径速查表) |
 | CI `pr-check` 失败 | Frontmatter 缺失字段或链接不规范 | 查看 CI 日志具体错误,修复后重新推送 |
-| `mkdocs build` 失败 | 导航配置或链接损坏 | 运行 `mkdocs build --strict` 查看详细错误 |
+| `mkdocs build` 失败 | 导航配置或链接损坏 | 运行 `uv run mkdocs build --strict` 查看详细错误 |
 | 标签验证失败 | 标签格式不符或使用了别名 | 运行 `check_tags.py` 查看具体问题 |
 
 ### 11.2 快速命令参考
 
 ```bash
 # 环境配置
-python3 -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
+uv sync
 
 # 本地预览
-mkdocs serve  # 访问 http://127.0.0.1:8000
+uv run mkdocs serve  # 访问 http://127.0.0.1:8000
 
 # 提交前检查
-python3 tools/check_links.py docs/entries/
-python3 tools/check_tags.py docs/entries/
-mkdocs build --strict
+uv run python3 tools/check_links.py docs/entries/
+uv run python3 tools/check_tags.py docs/entries/
+uv run mkdocs build --strict
 
 # 格式修复(CI 会自动执行,通常无需手动)
-python3 tools/fix_markdown.py docs/entries/
+uv run python3 tools/fix_markdown.py docs/entries/
 ```
 
 ---

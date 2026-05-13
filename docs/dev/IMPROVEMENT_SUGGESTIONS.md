@@ -75,7 +75,7 @@
 #### 🚧 可选的额外增强
 
 1. **构建测试工作流**（可选）
-    - 在 PR 中添加 `mkdocs build --strict` 严格模式构建测试
+    - 在 PR 中添加 `uv run uv run mkdocs build --strict` 严格模式构建测试
     - 上传构建产物用于预览
     - 集成第三方 Markdown linter（如 markdownlint-cli2）
 
@@ -111,7 +111,7 @@
 
 # Multiple Personality System Wiki - Pre-commit Hooks
 
-# 安装: pip install pre-commit && pre-commit install
+# 安装: uv add pre-commit && pre-commit install
 
 repos:
 
@@ -177,7 +177,7 @@ repos:
 安装方法:
 
 ```bash
-pip install pre-commit
+uv add pre-commit
 pre-commit install
 ```
 
@@ -554,11 +554,11 @@ help:  ## 显示帮助信息
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-15s\033[0m %s\n", $$1, $$2}'
 
 install:  ## 安装依赖
-	pip install -r requirements.txt
+	uv sync
 	chmod +x tools/wiki
 
 dev:  ## 启动开发服务器
-	mkdocs serve
+	uv run mkdocs serve
 
 lint:  ## 运行所有检查
 	python -m tools.cli.main fix-md docs/ --dry-run
@@ -571,10 +571,10 @@ validate:  ## 校验词条
 	python -m tools.cli.main validate
 
 build:  ## 构建站点
-	mkdocs build
+	uv run mkdocs build
 
 build-strict:  ## 严格模式构建
-	mkdocs build --strict
+	uv run uv run mkdocs build --strict
 
 clean:  ## 清理构建文件
 	rm -rf site/ .mkdocs_cache/
