@@ -7,6 +7,48 @@ search:
 
 # 更新日志
 
+## [v4.2.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v4.2.0) - uv 迁移与工具链现代化 (2026-05-13)
+
+### ✨ 新增词条
+
+- **新增词条（5+）**
+    - [成人依恋](entries/Adult-Attachment.md)
+    - [情绪化进食](entries/Emotional-Eating.md)
+    - [经典条件化](entries/Classical-Conditioning.md)
+    - [安慰剂效应](entries/Placebo-Effect.md)
+- **交互式量表**
+    - [PHQ-9 抑郁症筛查量表](entries/Patient-Health-Questionnaire-PHQ-9.md) 与 [GAD-7 广泛性焦虑障碍量表](entries/Generalized-Anxiety-Disorder-7-GAD-7.md)
+- **SEO 入口页与桥接词条** — 新增 SEO 入口页面、桥接词条及导览内链，强化高频搜索入口
+
+### 🔧 工程与 CI 现代化
+
+- **全面切换至 uv** — CI、脚本、依赖管理均由 pip/venv 迁移至 uv（PR #467 #468）
+- 修复 Cloudflare Pages 构建脚本 PATH 问题（PR #469）
+- 修复工具脚本质量问题（PR #470）
+- 清理 tools/ 死代码并修复已知 bug（PR #471）
+
+### 📊 内容与 SEO 优化
+
+- 首页新增友情链接区块
+- 优化高曝光词条搜索入口与量表导航
+- 修复 Google 索引与站点地图配置
+- 统一标签别名并增强标签校验
+- 修复核心导览页面错误的 tag 标签
+
+### ⚡ 性能优化
+
+- 按页面加载量表资源，减少非量表页面不必要的 CSS/JS 请求（PR #465）
+- 排除 SEO 分析文档，避免无关文件进入构建产物
+
+### 🔧 维护更新
+
+- 自动更新词条、分区索引与格式
+- 修复搜索索引、主题索引旧链接重定向
+- 补充抑郁障碍术语说明
+- 更新 README 协作说明
+
+---
+
 ## [v4.1.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v4.1.0) - 创伤反应与主题导览持续扩展 (2026-03-27)
 
 ### ✨ 新增功能
