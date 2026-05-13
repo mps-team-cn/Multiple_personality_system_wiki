@@ -20,10 +20,9 @@ description: 指导贡献者完成 MPS Wiki 的本地开发、分支管理、质
 # Python 依赖（MkDocs）
 
 uv sync
+```
 
-```
 # 时间戳由 CI 自动维护，无需手动操作
-```
 
 #### 验证安装
 
