@@ -308,7 +308,7 @@ uv run mkdocs build --strict
 项目使用 Cloudflare Pages 自动部署：
 
 - **触发** ：推送到 `main` 分支
-- **构建命令** ：`pip3 install uv && uv sync && uv run mkdocs build`
+- **构建命令** ：`bash .cfpages-build.sh`
 - **输出目录** ：`site/`
 
 ### 8.3 构建配置

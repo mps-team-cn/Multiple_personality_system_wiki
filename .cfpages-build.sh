@@ -7,7 +7,13 @@ echo "开始构建 Multiple Personality System Wiki (MkDocs Material)..."
 
 # 安装依赖
 echo "安装依赖..."
-pip3 install uv
+export PATH="$(python3 -m site --user-base)/bin:$PATH"
+
+if ! command -v uv >/dev/null 2>&1; then
+    python3 -m pip install --user uv
+    hash -r
+fi
+
 uv sync
 
 # 构建站点
