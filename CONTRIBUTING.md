@@ -48,19 +48,19 @@ python -m http.server 8000 --directory docs
 
 ```bash
 
-# 安装依赖
+# 安装依赖（自动创建 .venv）
 
-pip install -r requirements.txt
+uv sync
 
 # 编辑词条（在 docs/entries/ 目录）
 
 # 自动修复格式
 
-python tools/fix_markdown.py
+uv run python3 tools/fix_markdown.py
 
 # 本地预览
 
-mkdocs serve
+uv run mkdocs serve
 ```
 
 ### 3. 提交 PR
@@ -121,8 +121,8 @@ mkdocs serve
 - [ ] 病理学内容包含 ICD-11 与 DSM-5-TR
 - [ ] 内部链接与标签正确
 - [ ] 图片/数据版权明确
-- [ ] `python tools/fix_markdown.py` 已运行
-- [ ] `mkdocs build --strict` 构建成功
+- [ ] `uv run python3 tools/fix_markdown.py` 已运行
+- [ ] `uv run mkdocs build --strict` 构建成功
 
 ---
 

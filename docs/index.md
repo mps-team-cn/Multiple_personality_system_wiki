@@ -113,12 +113,11 @@ search:
 
     !!! success "MkDocs 本地开发"
         ```bash
-        # 准备环境（推荐虚拟环境）
-        python3 -m venv venv && source venv/bin/activate
-        pip install -r requirements.txt
+        # 安装依赖（自动创建 .venv）
+        uv sync
 
         # 启动预览（热重载）
-        mkdocs serve
+        uv run mkdocs serve
         # 打开 [http://127.0.0.1:8000](http://127.0.0.1:8000)
         ```
 

@@ -21,7 +21,7 @@
 
 #### 构建配置
 
-- **Build command** : `bash .cfpages-build.sh`
+- **Build command** : `pip3 install uv && uv sync && uv run mkdocs build`
 - **Build output directory** : `site`
 
 #### 环境变量
@@ -56,10 +56,10 @@
 
 ## 构建脚本说明
 
-`.cfpages-build.sh` 脚本执行以下步骤:
+构建命令执行以下步骤:
 
-1. 安装 Python 依赖 (`requirements.txt`)
-2. 运行 `mkdocs build --strict` 构建站点
+1. 安装 uv 并通过 `uv sync` 安装 Python 依赖
+2. 运行 `uv run mkdocs build` 构建站点
 3. 生成的静态文件输出到 `site/` 目录
 
 ## 本地构建测试
@@ -70,22 +70,22 @@
 
 # 安装依赖
 
-pip install -r requirements.txt
+uv sync
 
 # 本地预览
 
-mkdocs serve
+uv run mkdocs serve
 
 # 构建站点
 
-mkdocs build --strict
+uv run mkdocs build --strict
 ```
 
 ## 常见问题
 
 ### Q: 构建失败,提示缺少依赖
 
-**A** : 检查 `requirements.txt` 是否包含所有必要的包。
+**A** : 检查 `pyproject.toml` 是否包含所有必要的包。
 
 ### Q: 构建成功但页面显示不正常
 

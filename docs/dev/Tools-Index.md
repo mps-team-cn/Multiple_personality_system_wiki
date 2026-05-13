@@ -179,21 +179,13 @@ tools/
 
 ## 💡 Python 环境配置
 
-推荐通过虚拟环境运行 Python 工具:
+推荐使用 [uv](https://docs.astral.sh/uv/) 管理依赖与虚拟环境:
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate           # Linux/macOS
-
-# 或 venv\Scripts\activate.bat    # Windows
-
-pip install -r requirements.txt
+uv sync
 ```
 
-**常见问题**:
-
-- `pip` 缺失 → 使用 `python3 -m pip`
-- `externally-managed-environment` 错误 → 必须启用虚拟环境
+之后所有命令前加 `uv run`，例如 `uv run python3 tools/fix_markdown.py .`
 
 ## 🚨 重要约束
 

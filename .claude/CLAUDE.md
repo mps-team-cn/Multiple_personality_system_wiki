@@ -33,15 +33,14 @@
 
 ### Python 环境
 
-- 推荐通过虚拟环境运行：
+- 推荐使用 [uv](https://docs.astral.sh/uv/) 管理依赖与虚拟环境：
 
   ```bash
-  python3 -m venv venv
-  source venv/bin/activate
-  pip install -r requirements.txt
+  uv sync
   ```
 
-- 常见问题：`pip` 缺失 → `python3 -m pip`；`externally-managed-environment` → 必须启用虚拟环境
+- 所有 Python 命令通过 `uv run` 执行，例如 `uv run python3 tools/fix_markdown.py .`
+- 常见问题：`externally-managed-environment` → 使用 uv 自动管理虚拟环境
 
 ### 自动化工具
 
