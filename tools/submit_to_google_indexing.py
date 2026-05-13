@@ -42,6 +42,11 @@ from pathlib import Path
 from typing import List, Dict, Tuple, Optional
 from datetime import datetime
 
+# 添加 tools 目录到路径,确保从任意工作目录或以模块方式运行时都能导入同目录脚本
+TOOLS_DIR = Path(__file__).resolve().parent
+if str(TOOLS_DIR) not in sys.path:
+    sys.path.insert(0, str(TOOLS_DIR))
+
 try:
     from google.oauth2 import service_account
     from googleapiclient.discovery import build

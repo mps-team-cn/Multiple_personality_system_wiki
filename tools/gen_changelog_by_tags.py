@@ -21,7 +21,7 @@ import re
 import subprocess
 from datetime import datetime
 from pathlib import Path
-from typing import List, Tuple, Dict, Optional
+from typing import Dict, List, Optional, Sequence, Tuple
 
 # Conventional Commits 分组与中文标题
 GROUPS = [
@@ -42,19 +42,18 @@ ENCODING = "utf-8"
 DEFAULT_OUTPUT = "CHANGELOG.md"
 LATEST_TO_HEAD_OUTPUT = "change.log"
 
-def sh(cmd: str) -> str:
-    """Run shell command and return stdout (stripped)."""
-    # 在 Windows 下使用 shell=True 以执行 git 命令
-    return subprocess.check_output(cmd, shell=True, text=True, encoding=ENCODING).strip()
+def sh(cmd: Sequence[str]) -> str:
+    """运行命令并返回去除首尾空白的 stdout。"""
+    return subprocess.check_output(cmd, text=True, encoding=ENCODING).strip()
 
-def try_sh(cmd: str) -> Optional[str]:
+def try_sh(cmd: Sequence[str]) -> Optional[str]:
     try:
         return sh(cmd)
     except subprocess.CalledProcessError:
         return None
 
 def get_repo_root() -> Path:
-    out = sh("git rev-parse --show-toplevel")
+    out = sh(["git", "rev-parse", "--show-toplevel"])
     return Path(out)
 
 def get_repo_slug() -> Optional[str]:
@@ -65,7 +64,7 @@ def get_repo_slug() -> Optional[str]:
       - git@github.com:owner/repo.git
       - https://github.com/owner/repo
     """
-    url = try_sh("git config --get remote.origin.url")
+    url = try_sh(["git", "config", "--get", "remote.origin.url"])
     if not url:
         return None
     url = url.strip()
@@ -79,7 +78,7 @@ def get_repo_slug() -> Optional[str]:
     return None
 
 def get_all_tags_sorted() -> List[str]:
-    out = try_sh("git tag --sort=creatordate")
+    out = try_sh(["git", "tag", "--sort=creatordate"])
     if not out:
         return []
     tags = [t for t in out.splitlines() if t.strip()]
@@ -89,7 +88,7 @@ def get_tag_date(tag: str) -> str:
     """
     返回标签对应提交的日期（YYYY-MM-DD）
     """
-    out = sh(f'git log -1 --format=%ad --date=format:%Y-%m-%d {tag}')
+    out = sh(["git", "log", "-1", "--format=%ad", "--date=format:%Y-%m-%d", tag])
     return out or datetime.now().strftime("%Y-%m-%d")
 
 def get_commits_in_range(rng: str) -> List[Tuple[str, str]]:
@@ -97,7 +96,7 @@ def get_commits_in_range(rng: str) -> List[Tuple[str, str]]:
     返回 (hash, subject) 列表
     rng 例子：  v1.2.0..v1.2.3  或  v1.2.3
     """
-    out = try_sh(f'git log {rng} --pretty=format:"%H|%s"')
+    out = try_sh(["git", "log", rng, "--pretty=format:%H|%s"])
     if not out:
         return []
     commits = []
