@@ -39,38 +39,24 @@ def _strip_zero_width(value: str) -> str:
     return value.replace(ZERO_WIDTH_SPACE, "")
 
 
-def _extract_frontmatter_synonyms(file_path: Path) -> list[str]:
-    """从 Markdown 文件的 Frontmatter 中提取 synonyms 字段。
+def _extract_frontmatter_synonyms(frontmatter: Dict[str, Any]) -> list[str]:
+    """从 Frontmatter 中提取 synonyms 字段。
 
     支持两种格式：
     1. 列表格式: synonyms: [syn1, syn2, syn3]
     2. 字符串格式: synonyms: syn1, syn2, syn3
     """
-    if not file_path.exists():
-        return []
+    synonyms = frontmatter.get("synonyms", [])
 
-    content = file_path.read_text(encoding="utf-8")
+    # 处理列表格式
+    if isinstance(synonyms, list):
+        return [str(s).strip() for s in synonyms if s]
 
-    # 匹配 Frontmatter (以 --- 包裹的 YAML)
-    match = re.match(r"^---\s*\n(.*?)\n---\s*\n", content, re.DOTALL)
-    if not match:
-        return []
+    # 处理字符串格式（逗号分隔）
+    if isinstance(synonyms, str):
+        return [s.strip() for s in synonyms.split(',') if s.strip()]
 
-    try:
-        frontmatter = yaml.safe_load(match.group(1))
-        synonyms = frontmatter.get("synonyms", [])
-
-        # 处理列表格式
-        if isinstance(synonyms, list):
-            return [str(s).strip() for s in synonyms if s]
-
-        # 处理字符串格式（逗号分隔）
-        if isinstance(synonyms, str):
-            return [s.strip() for s in synonyms.split(',') if s.strip()]
-
-        return []
-    except Exception:
-        return []
+    return []
 
 
 def _extract_frontmatter(file_path: Path) -> Dict[str, Any]:
@@ -87,6 +73,17 @@ def _extract_frontmatter(file_path: Path) -> Dict[str, Any]:
         return yaml.safe_load(match.group(1)) or {}
     except Exception:
         return {}
+
+
+def _get_frontmatter(file_path: Path, cache: Dict[Path, Dict[str, Any]] | None = None) -> Dict[str, Any]:
+    """读取 Frontmatter，并在提供 cache 时复用解析结果。"""
+    if cache is None:
+        return _extract_frontmatter(file_path)
+
+    cache_key = file_path.resolve()
+    if cache_key not in cache:
+        cache[cache_key] = _extract_frontmatter(file_path)
+    return cache[cache_key]
 
 
 def _normalize_site_url(site_url: str) -> str:
@@ -118,7 +115,11 @@ def _frontmatter_has_noindex(frontmatter: Dict[str, Any]) -> bool:
     return "noindex" in robots.lower()
 
 
-def _collect_non_indexable_urls(docs_dir: Path, site_url: str) -> set[str]:
+def _collect_non_indexable_urls(
+    docs_dir: Path,
+    site_url: str,
+    frontmatter_cache: Dict[Path, Dict[str, Any]] | None = None,
+) -> set[str]:
     """收集应从 sitemap 中移除的 URL。"""
     urls: set[str] = {
         _source_uri_to_site_url(src_uri, site_url)
@@ -126,7 +127,7 @@ def _collect_non_indexable_urls(docs_dir: Path, site_url: str) -> set[str]:
     }
 
     for md_file in docs_dir.rglob("*.md"):
-        frontmatter = _extract_frontmatter(md_file)
+        frontmatter = _get_frontmatter(md_file, frontmatter_cache)
         if not _frontmatter_has_noindex(frontmatter):
             continue
         src_uri = md_file.relative_to(docs_dir).as_posix()
@@ -135,13 +136,18 @@ def _collect_non_indexable_urls(docs_dir: Path, site_url: str) -> set[str]:
     return urls
 
 
-def _prune_sitemap(site_dir: Path, docs_dir: Path, site_url: str) -> None:
+def _prune_sitemap(
+    site_dir: Path,
+    docs_dir: Path,
+    site_url: str,
+    frontmatter_cache: Dict[Path, Dict[str, Any]] | None = None,
+) -> None:
     """移除不应提交给搜索引擎的辅助页面 URL。"""
     sitemap_path = site_dir / "sitemap.xml"
     if not sitemap_path.exists():
         return
 
-    excluded_urls = _collect_non_indexable_urls(docs_dir, site_url)
+    excluded_urls = _collect_non_indexable_urls(docs_dir, site_url, frontmatter_cache)
     if not excluded_urls:
         return
 
@@ -275,6 +281,7 @@ def on_post_build(config: Dict[str, Any]) -> None:
 
     data = json.loads(search_index.read_text(encoding="utf-8"))
     changed = False
+    frontmatter_cache: Dict[Path, Dict[str, Any]] = {}
 
     for doc in data.get("docs", []):
         # 1. 清理零宽空格
@@ -300,7 +307,8 @@ def on_post_build(config: Dict[str, Any]) -> None:
                 file_path = file_path.with_suffix(".md")
 
             # 提取 synonyms
-            synonyms = _extract_frontmatter_synonyms(file_path)
+            frontmatter = _get_frontmatter(file_path, frontmatter_cache)
+            synonyms = _extract_frontmatter_synonyms(frontmatter)
             if synonyms:
                 # 将 synonyms 添加到搜索文本末尾(作为隐藏关键词)
                 current_text = doc.get("text", "")
@@ -316,7 +324,7 @@ def on_post_build(config: Dict[str, Any]) -> None:
 
     site_url = str(config.get("site_url", "")).strip()
     if site_url:
-        _prune_sitemap(site_dir, docs_dir, site_url)
+        _prune_sitemap(site_dir, docs_dir, site_url, frontmatter_cache)
 
 
 # ===== 最近发布版本：从 changelog.md 解析并渲染到首页 =====
