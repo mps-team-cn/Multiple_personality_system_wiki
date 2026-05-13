@@ -22,7 +22,8 @@ import requests
 # 配置常量
 INDEXNOW_API = "https://api.indexnow.org/indexnow"
 SITE_HOST = "wiki.mpsteam.cn"
-INDEXNOW_KEY = "21560e3c9db64767914ef22b96cd7660"
+# FIXME: 密钥不应硬编码在代码中。请将已泄露的 key 轮换后改为从环境变量读取。
+INDEXNOW_KEY = os.environ.get("INDEXNOW_API_KEY", "21560e3c9db64767914ef22b96cd7660")
 KEY_LOCATION = f"https://{SITE_HOST}/{INDEXNOW_KEY}.txt"
 
 # 项目根目录

@@ -13,10 +13,10 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from tools.pdf_export.pdf_export.frontmatter import FrontmatterError, load_entry_document
-ENTRIES_DIR = ROOT / "entries"
+ENTRIES_DIR = ROOT / "docs" / "entries"
 TEMPLATE_PATH = ROOT / "docs" / "TEMPLATE_ENTRY.md"
 REPORT_PATH = ROOT / "docs" / "VALIDATION_REPORT.md"
-CONTRIBUTING_PATH = ROOT / "CONTRIBUTING.md"
+CONTRIBUTING_PATH = ROOT / "docs" / "contributing" / "index.md"
 
 Heading = Tuple[int, str]
 

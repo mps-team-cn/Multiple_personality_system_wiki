@@ -9,7 +9,6 @@ __author__ = "Multiple Personality System Wiki Team"
 from .frontmatter import FrontmatterParser
 from .config import Config
 from .logger import setup_logger
-from .utils import *
 
 __all__ = [
     'FrontmatterParser',
