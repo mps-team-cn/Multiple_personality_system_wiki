@@ -48,7 +48,7 @@ try:
     from googleapiclient.errors import HttpError
 except ImportError:
     print("错误: 缺少必需的 Google API 库")
-    print("请运行: pip install google-auth google-api-python-client")
+    print("请运行: uv add google-auth google-api-python-client")
     sys.exit(1)
 
 # 导入 URL 生成器

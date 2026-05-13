@@ -30,19 +30,18 @@ jobs:
 
       - name: 安装依赖
         run: |
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
+          pip install uv
+          uv sync
 
       - name: 运行时间戳更新脚本
         run: |
           echo "📅 更新词条时间戳..."
-          python3 tools/update_git_timestamps.py --verbose
+          uv run python3 tools/update_git_timestamps.py --verbose
 
       - name: 检查链接规范（修复前）
         run: |
           echo "🔗 检查链接规范（修复前）..."
-          python3 tools/check_links.py docs/entries/ || {
+          uv run python3 tools/check_links.py docs/entries/ || {
             echo "⚠️ 发现链接违规，将在格式修复后重新检查"
             exit 0
           }
@@ -50,12 +49,12 @@ jobs:
       - name: 运行 Markdown 格式修复
         run: |
           echo "🔧 修复 Markdown 格式..."
-          python3 tools/fix_markdown.py docs/entries/ --verbose
+          uv run python3 tools/fix_markdown.py docs/entries/ --verbose
 
       - name: 检查链接规范（修复后）
         run: |
           echo "🔗 检查链接规范（修复后）..."
-          if ! python3 tools/check_links.py docs/entries/; then
+          if ! uv run python3 tools/check_links.py docs/entries/; then
             echo ""
             echo "❌ 链接检查失败！请修正违规链接后重新提交。"
             echo ""
@@ -71,7 +70,7 @@ jobs:
       - name: 生成主题分区索引与 SUMMARY
         run: |
           echo "🧭 生成主题分区索引与 SUMMARY.md..."
-          python3 tools/build_partitions_cn.py
+          uv run python3 tools/build_partitions_cn.py
 
       - name: 检查是否有更改
         id: check_changes

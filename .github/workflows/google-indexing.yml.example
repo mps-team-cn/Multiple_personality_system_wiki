@@ -42,11 +42,10 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: 'pip'
-
       - name: 安装依赖
         run: |
-          pip install -r requirements.txt
+          pip install uv
+          uv sync
 
       - name: 提交到 Google Indexing API
         env:
@@ -58,7 +57,7 @@ jobs:
           DRY_RUN="${{ github.event.inputs.dry_run || 'false' }}"
 
           # 构建命令
-          CMD="python3 tools/submit_to_google_indexing.py --max-priority $MAX_PRIORITY"
+          CMD="uv run python3 tools/submit_to_google_indexing.py --max-priority $MAX_PRIORITY"
 
           if [ -n "$LIMIT" ]; then
             CMD="$CMD --limit $LIMIT"

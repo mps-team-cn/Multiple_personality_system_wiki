@@ -41,16 +41,13 @@ jobs:
 
       - name: 安装依赖
         run: |
-          pip install requests
+          pip install uv
+          uv sync
 
       - name: 构建站点
         run: |
-          echo "📦 安装 MkDocs..."
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
           echo "🏗️ 构建站点以生成 sitemap.xml..."
-          mkdocs build
+          uv run mkdocs build
 
       - name: 验证 IndexNow 密钥文件
         run: |
@@ -77,13 +74,13 @@ jobs:
         if: ${{ github.event_name != 'workflow_dispatch' || inputs.mode == 'recent' }}
         run: |
           echo "📤 提交最近修改的 50 个词条到 IndexNow..."
-          python3 tools/submit_to_indexnow.py --recent 50
+          uv run python3 tools/submit_to_indexnow.py --recent 50
 
       - name: 推送到 IndexNow (全部)
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.mode == 'all' }}
         run: |
           echo "📤 提交所有 URL 到 IndexNow..."
-          python3 tools/submit_to_indexnow.py --all
+          uv run python3 tools/submit_to_indexnow.py --all
 
       - name: 推送结果
         if: always()
