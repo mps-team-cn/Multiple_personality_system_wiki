@@ -70,6 +70,14 @@
   table-layout: auto;
 }
 
+.brief-scale-table caption {
+  caption-side: top;
+  padding-bottom: 0.75rem;
+  text-align: center;
+  font-weight: 700;
+  color: var(--md-default-fg-color);
+}
+
 .brief-scale-item td {
   background: color-mix(in srgb, var(--md-primary-fg-color) 5%, transparent);
   padding: 0.55rem 0.6rem;
@@ -260,12 +268,108 @@
     grid-template-columns: 1fr;
   }
 
+  .brief-scale-grid {
+    grid-template-columns: 1fr;
+  }
+
   .brief-scale-ctrl {
     grid-template-columns: 1fr;
+    gap: 0.35rem;
+  }
+
+  .brief-scale-ctrl select,
+  .brief-scale-field select {
+    min-width: 0;
+    font-size: 0.82rem;
+    padding: 0.5rem 0.65rem;
   }
 
   .brief-scale-badge {
     width: auto;
     justify-self: start;
+    font-size: 0.82rem;
+  }
+
+  .brief-scale-table {
+    display: block;
+    overflow: visible;
+    border-spacing: 0 0.35rem;
+    font-size: 0.88rem;
+  }
+
+  .brief-scale-table caption {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 0.6rem;
+    text-align: left;
+    white-space: normal;
+    word-break: keep-all;
+  }
+
+  .brief-scale-table colgroup,
+  .brief-scale-table thead {
+    display: none;
+  }
+
+  .brief-scale-table tbody {
+    display: grid;
+    gap: 0.6rem;
+  }
+
+  .brief-scale-table .brief-scale-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+      "no prompt"
+      "control control";
+    gap: 0.35rem 0.75rem;
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+    background: color-mix(in srgb, var(--md-primary-fg-color) 5%, transparent);
+  }
+
+  [data-md-color-scheme="slate"] .brief-scale-table .brief-scale-item {
+    background: color-mix(in srgb, var(--md-primary-fg-color) 12%, #1b2331);
+  }
+
+  .brief-scale-item td {
+    display: block;
+    padding: 0;
+    background: transparent;
+  }
+
+  .brief-scale-item td:first-child,
+  .brief-scale-item td:last-child {
+    border-radius: 0;
+  }
+
+  .brief-scale-item td:nth-child(1) {
+    grid-area: no;
+    align-self: start;
+    padding-top: 0.1rem;
+  }
+
+  .brief-scale-item td:nth-child(2) {
+    grid-area: prompt;
+    font-weight: 600;
+    line-height: 1.55;
+  }
+
+  .brief-scale-item td:nth-child(3) {
+    grid-area: control;
+    padding-top: 0.15rem;
+  }
+
+  .brief-scale-no {
+    font-size: 0.82rem;
+  }
+
+  .brief-scale-score-value {
+    font-size: 0.95rem;
+  }
+
+  .brief-scale-score-card {
+    padding: 0.6rem 0.75rem;
   }
 }
