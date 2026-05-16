@@ -65,7 +65,7 @@
         setText(root, "phq9-phq2", `${phq2}/6`);
         setText(root, "phq9-positive-count", `${positiveCount}/9`);
         setText(root, "phq9-screening-hint", hint);
-        setText(root, "phq9-item9", item9 >= 1 ? "有阳性反应" : "未见阳性反应");
+        setText(root, "phq9-item9-status", item9 >= 1 ? "有阳性反应" : "未见阳性反应");
 
         const safety = qs("#phq9-safety-alert", root);
         if (safety) {

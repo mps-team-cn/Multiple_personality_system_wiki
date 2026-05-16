@@ -172,7 +172,7 @@ PHQ-9 共 9 题，每题按 `0-3` 分计分，总分范围 `0-27`。根据 `PHQ 
         <div class="brief-scale-score-label">第 9 题风险提示</div>
         <div class="brief-scale-hint">只要大于 0 就值得进一步评估</div>
       </div>
-      <div class="brief-scale-score-value" id="phq9-item9">未见阳性反应</div>
+      <div class="brief-scale-score-value" id="phq9-item9-status">未见阳性反应</div>
     </div>
   </div>
 
