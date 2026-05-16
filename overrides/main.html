@@ -1,5 +1,13 @@
 {% extends "base.html" %}
 
+{% block htmltitle %}
+  {% if page and page.is_homepage %}
+    <title>{{ config.site_name }}</title>
+  {% else %}
+    {{ super() }}
+  {% endif %}
+{% endblock %}
+
 {% block extrahead %}
   {{ super() }}
 
@@ -11,18 +19,22 @@
   <link rel="apple-touch-icon" sizes="180x180" href="{{ config.site_url }}assets/apple-touch-icon.png">
 
   {% if page %}
+  {% set social_title = config.site_name %}
+  {% if not page.is_homepage and page.title %}
+    {% set social_title = page.title ~ " - 多意识体系统百科" %}
+  {% endif %}
   <!-- Open Graph Meta Tags -->
   <meta property="og:site_name" content="Multiple Personality System Wiki - 多意识体系统百科">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ page.canonical_url }}">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}多意识体系统百科">
+  <meta property="og:title" content="{{ social_title }}">
   <meta property="og:description" content="{% if page.meta and page.meta.description %}{{ page.meta.description }}{% else %}{{ config.site_description }}{% endif %}">
   <meta property="og:image" content="{{ config.site_url }}assets/images/og-banner.png">
   <meta property="og:locale" content="zh_CN">
 
   <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {% endif %}多意识体系统百科">
+  <meta name="twitter:title" content="{{ social_title }}">
   <meta name="twitter:description" content="{% if page.meta and page.meta.description %}{{ page.meta.description }}{% else %}{{ config.site_description }}{% endif %}">
   <meta name="twitter:image" content="{{ config.site_url }}assets/images/twitter-banner.png">
 
@@ -65,7 +77,6 @@
 
 {% block content %}
   {{ super() }}
-  {% include "partials/comments.html" %}
 {% endblock %}
 
 {% block analytics %}
