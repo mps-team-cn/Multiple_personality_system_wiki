@@ -154,14 +154,15 @@
       await nextFrame();
       await nextFrame();
 
+      const PAD = 20;
       const dataUrl = await h2i.toJpeg(node, {
-        width: Math.ceil(node.scrollWidth + 2),
-        height: Math.ceil(node.scrollHeight + 2),
+        width: Math.ceil(node.scrollWidth + PAD * 2 + 2),
+        height: Math.ceil(node.scrollHeight + PAD * 2 + 2),
         cacheBust: true,
         pixelRatio: Math.min(2, window.devicePixelRatio || 1.5),
         backgroundColor: bg,
         style: {
-          padding: "20px",
+          padding: `${PAD}px`,
           boxSizing: "border-box",
           backgroundColor: bg
         }
