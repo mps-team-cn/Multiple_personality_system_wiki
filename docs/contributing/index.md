@@ -45,7 +45,7 @@ description: 参与 MPS Wiki 共建的门户指南，涵盖编写规范、学术
 
 -   :material-account-group-outline: **贡献者墙**
 
-    致谢所有贡献者与贡献记录
+    致谢所有贡献者与贡献记录（静态手工维护）
     [:octicons-arrow-right-24: 前往](contributors.md)
 
 -   :material-shield-crown-outline: **管理员操作指南**
@@ -101,9 +101,10 @@ description: 参与 MPS Wiki 共建的门户指南，涵盖编写规范、学术
     - [ ] 词条位于 `docs/entries/`，不创建子目录
     - [ ] Frontmatter 含 `title / topic / tags` 且格式正确
     - [ ] 链接使用相对路径，符合项目规范
-    - [ ] 已运行：`python3 tools/fix_markdown.py docs/entries/`
-    - [ ] 已运行：`python3 tools/check_links.py docs/entries/`
-    - [ ] 构建通过：`mkdocs build --strict`
+    - [ ] 已运行：`uv run python3 tools/fix_markdown.py docs/entries/`
+    - [ ] 已运行：`uv run python3 tools/check_links.py docs/entries/`
+    - [ ] 已运行：`uv run python3 tools/check_tags.py docs/entries/`
+    - [ ] 构建通过：`uv run mkdocs build --strict`
     - [ ] PR 说明包含动机、改动点、潜在风险与方法来源
 
 ---
@@ -156,4 +157,3 @@ description: 参与 MPS Wiki 共建的门户指南，涵盖编写规范、学术
 - :material-email-outline: **官方联系**：[contact@mpsteam.cn](mailto:contact@mpsteam.cn)
 - :material-github: **GitHub Issues**：[提交问题或建议](https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues)
 - :material-qqchat: **QQ 群**：暂未设置相关QQ群，敬请谅解和期待
-

@@ -6,6 +6,8 @@ description: 致谢所有为 MPS Wiki 付出的维护者与贡献者，记录核
 # 贡献者墙
 
 > 感谢所有为 Multiple Personality System Wiki 项目做出贡献的朋友们!
+>
+> 本页为**静态手工维护**页面。考虑到部分贡献者并不使用 GitHub，贡献记录以维护者人工整理为准。
 
 ---
 
@@ -185,12 +187,13 @@ description: 致谢所有为 MPS Wiki 付出的维护者与贡献者，记录核
 | ![](https://github.com/yao-jiuqing.png){ width="40" style="border-radius: 50%;" }          | [@yao-jiuqing](https://github.com/yao-jiuqing)                   | 词条编写、内容贡献                     |
 | ![](https://github.com/raven027192.png){ width="40" style="border-radius: 50%;" }          | [@raven027192](https://github.com/raven027192)                   | 词条编写、内容贡献                     |
 | ![](https://github.com/XingY-YuXi.png){ width="40" style="border-radius: 50%;" }           | [@XingY-YuXi](https://github.com/XingY-YuXi)                     | Bug 报告、问题反馈                     |
+| ![](https://github.com/CHINAGUOGE.png){ width="40" style="border-radius: 50%;" }           | [@CHINAGUOGE](https://github.com/CHINAGUOGE)                     | 建议反馈、贡献墙完善、Bug 协助修复     |
 | ![](https://github.com/Jellyfish-eng.png){ width="40" style="border-radius: 50%;" }        | [@Jellyfish-eng](https://github.com/Jellyfish-eng)               | 词条线索提供                           |
 | ![](https://github.com/dugucanfeng.png){ width="40" style="border-radius: 50%;" }          | [@dugucanfeng](https://github.com/dugucanfeng)                   | 词条线索、部分词条内容支持（非核心贡献者） |
 
 ### 查看完整贡献者列表
 
-访问 [GitHub Contributors](https://github.com/mps-team-cn/Multiple_personality_system_wiki/graphs/contributors) 查看详细的贡献统计。
+访问 [GitHub Contributors](https://github.com/mps-team-cn/Multiple_personality_system_wiki/graphs/contributors) 查看 GitHub 账号贡献统计；未使用 GitHub 的贡献者由维护者在本页静态补录。
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
