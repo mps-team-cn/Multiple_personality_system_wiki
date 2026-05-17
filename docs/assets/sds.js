@@ -101,8 +101,9 @@
       await nextFrame();
       await nextFrame();
 
-      const width = Math.ceil(node.scrollWidth + 2);
-      const height = Math.ceil(node.scrollHeight + 2);
+      const PAD = 20;
+      const width = Math.ceil(node.scrollWidth + PAD * 2 + 2);
+      const height = Math.ceil(node.scrollHeight + PAD * 2 + 2);
 
       let dataUrl = await h2i.toJpeg(node, {
         width,
@@ -111,7 +112,7 @@
         pixelRatio: Math.min(2, window.devicePixelRatio || 1.5),
         backgroundColor: bg,
         style: {
-          padding: '20px',
+          padding: `${PAD}px`,
           boxSizing: 'border-box',
           backgroundColor: bg
         }
@@ -128,7 +129,7 @@
             pixelRatio: Math.min(2, window.devicePixelRatio || 1.5),
             backgroundColor: bg,
             style: {
-              padding: '20px',
+              padding: `${PAD}px`,
               boxSizing: 'border-box',
               backgroundColor: bg
             }
