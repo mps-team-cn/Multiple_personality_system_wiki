@@ -20,6 +20,7 @@ hide:
 ## 词条一览
 
 - [C-PTSD 常见应对模式类型(C-PTSD Coping Styles)](../entries/C-PTSD-Coping-Styles.md) — *2026-03-27*
+- [依恋创伤（Attachment Trauma）](../entries/Attachment-Trauma.md) — *2026-05-17*
 - [去人格化（Depersonalization）](../entries/Depersonalization.md) — *2026-03-27*
 - [情感闪回与躯体闪回（Emotional and Somatic Flashbacks）](../entries/Emotional-Somatic-Flashbacks.md) — *2026-03-27*
 - [闪回、侵入性记忆、侵入性思维有什么区别？](../entries/Flashback-Intrusive-Memory-Intrusive-Thoughts-Differences.md) — *2026-03-27*
