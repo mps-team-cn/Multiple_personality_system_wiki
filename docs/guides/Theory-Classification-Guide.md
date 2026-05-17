@@ -85,6 +85,7 @@ search:
 
 - 🧸 [依恋理论](../entries/Attachment-Theory.md)：依恋类型的形成与影响。
 - 🔗 [成人依恋（Adult Attachment）](../entries/Adult-Attachment.md)：解释成年亲密关系中的依恋焦虑、依恋回避与四种常见关系模式。
+- 🩹 [依恋创伤（Attachment Trauma）](../entries/Attachment-Trauma.md)：理解照护失配、背叛与忽视如何塑造内部工作模型、关系触发与修复路径。
 - 🪢 [社会认知理论](../entries/Social-Cognitive-Theory.md)：观察学习与环境交互。
 - 💬 [移情与反移情](../entries/Transference-Countertransference.md)：治疗情境中的情感投射与反馈。
 - 🎭 [投射（心理学）](../entries/Projection-Psychology.md)：防御性归因机制的解释。

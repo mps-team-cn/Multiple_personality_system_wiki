@@ -141,6 +141,7 @@ updated: 2025-10-22
 |---|---|---|
 | [三阶段创伤治疗模型](../entries/Three-Phase-Trauma-Treatment.md) | 规划治疗、评估风险 | 稳定化 → 处理创伤 → 整合成长 |
 | [阶段性治疗原则](../entries/Phase-Oriented-Treatment-Principles.md) | 阶段切换、节奏掌控 | 安全窗口、非线性推进、功能性整合 |
+| [依恋创伤（Attachment Trauma）](../entries/Attachment-Trauma.md) | 关系一靠近就被触发，难以建立稳定安全感 | 理解照护失配、背叛与忽视如何塑造情绪调节、信任与修复节奏 |
 | [现实检验（Reality Testing）](../entries/Reality-Testing.md) | 识别认知偏差、区分解离体验 | 以证据为基础核对想法，增强自我观察能力 |
 | [创伤后成长（PTG）](../entries/Post-Traumatic-Growth-PTG.md) | 长期康复与意义建构 | 解释 PTG 的含义、五大维度与边界，避免“有毒正能量” |
 | [多意识体系统中的创伤功能分化](../entries/Functional-Dissociation-of-Trauma-in-Plural-Systems.md) | 系统内协作 | 记忆持有/情绪承载/调节能力的分化 |
