@@ -42,12 +42,30 @@
   }
 
   /**
+   * 归一化配置值，过滤空串与常见占位值。
+   */
+  function normalizeConfigValue(value) {
+    if (value === undefined || value === null) {
+      return '';
+    }
+    const normalized = `${value}`.trim();
+    if (!normalized) {
+      return '';
+    }
+    const lowered = normalized.toLowerCase();
+    if (lowered === 'none' || lowered === 'null' || lowered === 'undefined') {
+      return '';
+    }
+    return normalized;
+  }
+
+  /**
    * 解析配置。
    */
   function parseConfig(root) {
     const dataset = root.dataset;
-    const host = dataset.giscusHost && dataset.giscusHost.trim()
-      ? dataset.giscusHost.trim()
+    const host = normalizeConfigValue(dataset.giscusHost)
+      ? normalizeConfigValue(dataset.giscusHost)
       : DEFAULT_HOST;
     const clientSrc = resolveClientSrc(host);
 
@@ -59,18 +77,18 @@
     }
 
     return {
-      repo: dataset.giscusRepo,
-      repoId: dataset.giscusRepoId,
-      category: dataset.giscusCategory,
-      categoryId: dataset.giscusCategoryId,
-      mapping: dataset.giscusMapping || 'pathname',
-      strict: dataset.giscusStrict || '0',
-      reactionsEnabled: dataset.giscusReactionsEnabled || '1',
-      emitMetadata: dataset.giscusEmitMetadata || '0',
-      inputPosition: dataset.giscusInputPosition || 'top',
-      theme: dataset.giscusTheme || 'preferred_color_scheme',
-      lang: dataset.giscusLang || 'zh-CN',
-      loading: dataset.giscusLoading || 'lazy',
+      repo: normalizeConfigValue(dataset.giscusRepo),
+      repoId: normalizeConfigValue(dataset.giscusRepoId),
+      category: normalizeConfigValue(dataset.giscusCategory),
+      categoryId: normalizeConfigValue(dataset.giscusCategoryId),
+      mapping: normalizeConfigValue(dataset.giscusMapping) || 'pathname',
+      strict: normalizeConfigValue(dataset.giscusStrict) || '0',
+      reactionsEnabled: normalizeConfigValue(dataset.giscusReactionsEnabled) || '1',
+      emitMetadata: normalizeConfigValue(dataset.giscusEmitMetadata) || '0',
+      inputPosition: normalizeConfigValue(dataset.giscusInputPosition) || 'top',
+      theme: normalizeConfigValue(dataset.giscusTheme) || 'preferred_color_scheme',
+      lang: normalizeConfigValue(dataset.giscusLang) || 'zh-CN',
+      loading: normalizeConfigValue(dataset.giscusLoading) || 'lazy',
       host,
       clientSrc,
       origin

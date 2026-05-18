@@ -1,12 +1,18 @@
 {% set giscus = config.extra.giscus if config.extra.giscus is defined else {} %}
-{% if page.meta.comments and giscus %}
+{% set repo = giscus.repo | default('', true) | string | trim %}
+{% set repo_id = giscus.repo_id | default('', true) | string | trim %}
+{% set category = giscus.category | default('', true) | string | trim %}
+{% set category_id = giscus.category_id | default('', true) | string | trim %}
+{% set invalid_tokens = ['', 'none', 'null'] %}
+{% set giscus_ready = repo and category and repo_id | lower not in invalid_tokens and category_id | lower not in invalid_tokens %}
+{% if page.meta.comments and giscus_ready %}
   <section
     class="giscus-container"
     data-giscus-root
-    data-giscus-repo="{{ giscus.repo | default('') }}"
-    data-giscus-repo-id="{{ giscus.repo_id | default('') }}"
-    data-giscus-category="{{ giscus.category | default('') }}"
-    data-giscus-category-id="{{ giscus.category_id | default('') }}"
+    data-giscus-repo="{{ repo }}"
+    data-giscus-repo-id="{{ repo_id }}"
+    data-giscus-category="{{ category }}"
+    data-giscus-category-id="{{ category_id }}"
     data-giscus-mapping="{{ giscus.mapping | default('pathname') }}"
     data-giscus-strict="{{ giscus.strict | default('0') }}"
     data-giscus-reactions-enabled="{{ giscus.reactions_enabled | default('1') }}"
@@ -28,6 +34,24 @@
       <p>
         ⚠️ <strong>评论暂不可用</strong>：
         <span data-giscus-fallback-detail>评论系统尚未完成配置或暂时不可访问。</span>
+        如需留言，请前往
+        <a href="https://github.com/mps-team-cn/Multiple_personality_system_wiki/discussions" target="_blank" rel="noopener">
+          GitHub Discussions
+        </a>
+        参与讨论。
+      </p>
+    </div>
+  </section>
+{% elif page.meta.comments %}
+  <section class="giscus-container">
+    <div
+      class="giscus-fallback"
+      role="status"
+      aria-live="polite"
+    >
+      <p>
+        ⚠️ <strong>评论暂不可用</strong>：
+        <span>当前页面未完成 Giscus 配置，因此不会加载外部评论脚本。</span>
         如需留言，请前往
         <a href="https://github.com/mps-team-cn/Multiple_personality_system_wiki/discussions" target="_blank" rel="noopener">
           GitHub Discussions

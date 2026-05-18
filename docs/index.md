@@ -124,7 +124,7 @@ search:
 === "参与贡献"
 
     - 阅读 [贡献指南](contributing/index.md) 了解协作流程与规范。
-    - 按照 [词条模板](TEMPLATE_ENTRY.md) 撰写新条目或修订现有内容。
+    - 按照 [词条模板](https://github.com/mps-team-cn/Multiple_personality_system_wiki/blob/main/docs/TEMPLATE_ENTRY.md) 撰写新条目或修订现有内容。
     - 提交前运行 `check_links.py` 与 `check_tags.py` 确保格式合规。
     - 遇到疑问？可通过 [GitHub Issues](https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues) 反馈。
    
