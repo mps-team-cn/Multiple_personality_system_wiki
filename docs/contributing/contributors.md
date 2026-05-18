@@ -131,7 +131,7 @@ description: 致谢所有为 MPS Wiki 投入时间与精力的维护者和贡献
 
     ![LOGOSwenchuan89](https://github.com/LOGOSwenchuan89.png){ width="80" style="border-radius: 50%;" }
 
-    **LOGOSwenchuan89**
+    **LOGO**
 
     **角色:** 核心贡献者
 
