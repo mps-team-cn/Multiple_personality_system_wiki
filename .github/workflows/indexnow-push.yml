@@ -45,6 +45,8 @@ jobs:
           uv sync
 
       - name: 构建站点
+        env:
+          DISABLE_MKDOCS_2_WARNING: 'true'
         run: |
           echo "🏗️ 构建站点以生成 sitemap.xml..."
           uv run mkdocs build

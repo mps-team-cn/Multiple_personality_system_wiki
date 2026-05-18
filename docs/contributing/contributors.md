@@ -155,7 +155,7 @@ description: 致谢所有为 MPS Wiki 投入时间与精力的维护者和贡献
 
     ![yao-jiuqing](https://github.com/yao-jiuqing.png){ width="80" style="border-radius: 50%;" }
 
-    **yao-jiuqing**
+    **暮雨系统**
 
     **角色:** 核心贡献者
 

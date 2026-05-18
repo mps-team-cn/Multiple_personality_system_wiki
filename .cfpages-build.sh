@@ -18,6 +18,7 @@ uv sync
 
 # 构建站点
 echo "构建站点..."
+export DISABLE_MKDOCS_2_WARNING=true
 uv run mkdocs build
 
 echo "构建完成!"
