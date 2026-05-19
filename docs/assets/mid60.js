@@ -132,24 +132,6 @@
     return window.htmlToImage;
   }
 
-  function shouldPreferNativeShare() {
-    const uaData = navigator.userAgentData;
-    if (uaData && typeof uaData.mobile === 'boolean') {
-      return uaData.mobile;
-    }
-
-    const ua = navigator.userAgent || '';
-    if (/Android|iPhone|iPad|iPod|Windows Phone|Mobile/i.test(ua)) {
-      return true;
-    }
-
-    if (/Macintosh/i.test(ua) && navigator.maxTouchPoints > 1) {
-      return true;
-    }
-
-    return !!(window.matchMedia && window.matchMedia('(max-width: 760px) and (pointer: coarse)').matches);
-  }
-
   async function exportResultsImage(root) {
     const node = qs('#mid60-results', root);
     if (!node) return;
@@ -216,7 +198,7 @@
         file = new File([blob], fileName, { type: blob.type || 'image/jpeg' });
       } catch (_) { /* 某些旧浏览器不支持 File 构造器 */ }
 
-      const preferShare = shouldPreferNativeShare();
+      const preferShare = !!window.MPSShareUtils?.shouldPreferNativeShare?.();
 
       // 移动端优先使用系统分享，桌面端直接下载
       if (preferShare && file && navigator.canShare && navigator.canShare({ files: [file] })) {

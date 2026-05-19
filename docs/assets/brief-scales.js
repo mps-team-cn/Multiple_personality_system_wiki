@@ -137,24 +137,6 @@
     return window.htmlToImage;
   }
 
-  function shouldPreferNativeShare() {
-    const uaData = navigator.userAgentData;
-    if (uaData && typeof uaData.mobile === "boolean") {
-      return uaData.mobile;
-    }
-
-    const ua = navigator.userAgent || "";
-    if (/Android|iPhone|iPad|iPod|Windows Phone|Mobile/i.test(ua)) {
-      return true;
-    }
-
-    if (/Macintosh/i.test(ua) && navigator.maxTouchPoints > 1) {
-      return true;
-    }
-
-    return !!(window.matchMedia && window.matchMedia("(max-width: 760px) and (pointer: coarse)").matches);
-  }
-
   async function exportResultsImage(prefix, root, title, fileName) {
     const node = qs(`#${prefix}-results`, root);
     if (!node) return;
@@ -192,7 +174,7 @@
         file = new File([blob], `${fileName}.jpg`, { type: blob.type || "image/jpeg" });
       } catch (_) {}
 
-      const preferShare = shouldPreferNativeShare();
+      const preferShare = !!window.MPSShareUtils?.shouldPreferNativeShare?.();
 
       if (preferShare && file && navigator.canShare && navigator.canShare({ files: [file] })) {
         await navigator.share({
