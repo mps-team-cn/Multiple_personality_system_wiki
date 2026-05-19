@@ -137,6 +137,24 @@
     return window.htmlToImage;
   }
 
+  function shouldPreferNativeShare() {
+    const uaData = navigator.userAgentData;
+    if (uaData && typeof uaData.mobile === "boolean") {
+      return uaData.mobile;
+    }
+
+    const ua = navigator.userAgent || "";
+    if (/Android|iPhone|iPad|iPod|Windows Phone|Mobile/i.test(ua)) {
+      return true;
+    }
+
+    if (/Macintosh/i.test(ua) && navigator.maxTouchPoints > 1) {
+      return true;
+    }
+
+    return !!(window.matchMedia && window.matchMedia("(max-width: 760px) and (pointer: coarse)").matches);
+  }
+
   async function exportResultsImage(prefix, root, title, fileName) {
     const node = qs(`#${prefix}-results`, root);
     if (!node) return;
@@ -174,7 +192,9 @@
         file = new File([blob], `${fileName}.jpg`, { type: blob.type || "image/jpeg" });
       } catch (_) {}
 
-      if (file && navigator.canShare && navigator.canShare({ files: [file] })) {
+      const preferShare = shouldPreferNativeShare();
+
+      if (preferShare && file && navigator.canShare && navigator.canShare({ files: [file] })) {
         await navigator.share({
           files: [file],
           title,
@@ -183,7 +203,7 @@
         return;
       }
 
-      if (navigator.clipboard && window.ClipboardItem) {
+      if (preferShare && navigator.clipboard && window.ClipboardItem) {
         try {
           await navigator.clipboard.write([new ClipboardItem({ [blob.type]: blob })]);
           alert("图片已复制，可直接粘贴到聊天");

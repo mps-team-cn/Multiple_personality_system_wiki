@@ -132,6 +132,24 @@
     return window.htmlToImage;
   }
 
+  function shouldPreferNativeShare() {
+    const uaData = navigator.userAgentData;
+    if (uaData && typeof uaData.mobile === 'boolean') {
+      return uaData.mobile;
+    }
+
+    const ua = navigator.userAgent || '';
+    if (/Android|iPhone|iPad|iPod|Windows Phone|Mobile/i.test(ua)) {
+      return true;
+    }
+
+    if (/Macintosh/i.test(ua) && navigator.maxTouchPoints > 1) {
+      return true;
+    }
+
+    return !!(window.matchMedia && window.matchMedia('(max-width: 760px) and (pointer: coarse)').matches);
+  }
+
   async function exportResultsImage(root) {
     const node = qs('#mid60-results', root);
     if (!node) return;
@@ -198,8 +216,10 @@
         file = new File([blob], fileName, { type: blob.type || 'image/jpeg' });
       } catch (_) { /* 某些旧浏览器不支持 File 构造器 */ }
 
-      // 优先使用系统分享（移动端友好）
-      if (file && navigator.canShare && navigator.canShare({ files: [file] })) {
+      const preferShare = shouldPreferNativeShare();
+
+      // 移动端优先使用系统分享，桌面端直接下载
+      if (preferShare && file && navigator.canShare && navigator.canShare({ files: [file] })) {
         await navigator.share({
           files: [file],
           title: 'MID‑60 结果',
@@ -208,8 +228,8 @@
         return;
       }
 
-      // 次选：复制到剪贴板（部分浏览器支持）
-      if (navigator.clipboard && window.ClipboardItem) {
+      // 仅在移动端保留剪贴板兜底，桌面端直接下载
+      if (preferShare && navigator.clipboard && window.ClipboardItem) {
         try {
           await navigator.clipboard.write([
             new ClipboardItem({ [blob.type]: blob })
@@ -505,7 +525,7 @@
     const resetBtn = qs('#mid60-reset', root);
     if (resetBtn) resetBtn.addEventListener('click', () => resetAll(root));
 
-    // 导出按钮（移动端友好：系统分享 + 下载兜底）
+    // 导出按钮（移动端优先分享，桌面端直接下载）
     const actions = qs('.mid60-actions', root) || root;
     let exportBtn = qs('#mid60-export', actions);
     if (!exportBtn) {
