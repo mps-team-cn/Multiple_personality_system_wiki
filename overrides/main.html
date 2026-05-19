@@ -61,8 +61,6 @@
     {% endfor %}
   {% endif %}
 
-  <script defer src="{{ 'assets/share-utils.js' | url }}"></script>
-
   {% if page and page.meta and page.meta.extra_javascript %}
     {% for path in page.meta.extra_javascript %}
   <script defer src="{{ path | url }}"></script>
