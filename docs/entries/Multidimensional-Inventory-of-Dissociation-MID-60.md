@@ -9,6 +9,7 @@ extra_css:
 
 extra_javascript:
 
+- assets/share-utils.js
 - assets/mid60.js
 
 search:

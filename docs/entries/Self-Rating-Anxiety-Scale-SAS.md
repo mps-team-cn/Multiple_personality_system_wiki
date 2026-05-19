@@ -28,6 +28,7 @@ extra_css:
 
 extra_javascript:
 
+    - assets/share-utils.js
     - assets/sas.js
 
 comments: true

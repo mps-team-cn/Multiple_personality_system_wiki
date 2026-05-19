@@ -31,6 +31,7 @@ extra_css:
 
 extra_javascript:
 
+    - assets/share-utils.js
     - assets/brief-scales.js
 
 comments: true

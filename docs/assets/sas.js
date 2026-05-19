@@ -85,7 +85,7 @@
     return window.htmlToImage;
   }
 
-  async function exportResultsImage(root) {
+  async function exportResultsImage(root, trigger) {
     const node = qs('#sas-results', root);
     if (!node) return;
     let wm = null;
@@ -146,31 +146,19 @@
         file = new File([blob], fileName, { type: blob.type || 'image/jpeg' });
       } catch (_) { /* ignore */ }
 
-      if (file && navigator.canShare && navigator.canShare({ files: [file] })) {
-        await navigator.share({
-          files: [file],
-          title: 'SAS 焦虑自评量表结果',
-          text: '来自 wiki.mpsteam.cn'
-        });
-        return;
+      const shareUtils = window.MPSShareUtils;
+      if (!shareUtils || typeof shareUtils.deliverExport !== 'function') {
+        throw new Error('分享工具未加载');
       }
 
-      if (navigator.clipboard && window.ClipboardItem) {
-        try {
-          await navigator.clipboard.write([
-            new ClipboardItem({ [blob.type]: blob })
-          ]);
-          alert('图片已复制，可直接粘贴到聊天');
-          return;
-        } catch (_) { /* ignore */ }
-      }
-
-      const a = document.createElement('a');
-      a.href = dataUrl;
-      a.download = fileName;
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
+      await shareUtils.deliverExport({
+        file,
+        blob,
+        dataUrl,
+        fileName,
+        title: 'SAS 焦虑自评量表结果',
+        trigger
+      });
     } catch (err) {
       console.error(err);
       alert('导出失败，请重试');
@@ -336,7 +324,7 @@
       exportBtn.textContent = '导出图片';
       actions.appendChild(exportBtn);
     }
-    exportBtn.addEventListener('click', () => exportResultsImage(root));
+    exportBtn.addEventListener('click', () => exportResultsImage(root, exportBtn));
 
     // 实时更新结果
     root.addEventListener('change', (e) => {
