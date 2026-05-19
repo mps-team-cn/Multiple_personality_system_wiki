@@ -15,7 +15,7 @@ synonyms:
     - Self-Rating Depression Scale
 
 description: 抑郁自评量表（SDS）是由Zung于1965年编制的自评量表，包含20个项目，采用1-4分四级评分系统，用于评估抑郁症状的严重程度及其在治疗中的变化，适合抑郁症状的初步筛查与治疗效果评估。
-updated: 2026-05-12
+updated: 2026-05-19
 search:
   boost: 1.5
 hide:

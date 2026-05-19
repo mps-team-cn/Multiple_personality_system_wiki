@@ -15,7 +15,7 @@ synonyms:
     - Self-Rating Anxiety Scale
 
 description: 焦虑自评量表（SAS）是由Zung于1971年编制的自评量表，包含20个项目，采用1-4分四级评分系统，用于评估焦虑症状的严重程度及其在治疗中的变化，适合焦虑症状的初步筛查与治疗监测。
-updated: 2026-05-12
+updated: 2026-05-19
 search:
   boost: 1.5
 hide:
