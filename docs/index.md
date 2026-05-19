@@ -36,8 +36,8 @@ search:
 
   <p class="mps-hero-hint">
     常用入口：
-    <a href="entries/DSM-5TR-Scales/">DSM-5 报表页面</a> ·
     <a href="guides/Core-Concepts-Guide/">核心概念</a> ·
+    <a href="entries/DSM-5TR-Scales/">DSM-5 常用报表</a> ·
     <a href="Glossary/">术语表</a> ·
     <a href="entries/Crisis-And-Support-Resources/">危机与支援资源</a>
   </p>
@@ -204,7 +204,7 @@ search:
 
 ---
 
-## 💬 社区语录
+## 社区语录
 
 来自不同系统成员的真实话语，提醒我们在求知与护火之间保持平衡。
 
