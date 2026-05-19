@@ -1,35 +1,32 @@
 ---
-title: Multiple Personality System Wiki - 多意识体系统百科
-description: 专业的多重人格系统(MPS)、解离障碍(DID/OSDD)与创伤疗愈中文知识库首页。从核心概念到实践指南,涵盖诊断临床、系统运作、Tulpa创造等全方位内容,为多意识体系统提供可靠的学习与支持资源
+title: MPSTEAM Wiki：多意识体系统、DID/OSDD 与创伤主题中文百科
+description: MPSTEAM Wiki 是面向中文读者的多意识体系统（MPS）、DID/OSDD、系统运作与创伤主题知识库。首页汇集概念入门、临床主题、系统运作、实践指南与危机资源入口。
 hide:
-
-    - navigation  # 隐藏左侧导航栏
-    # - toc         # 隐藏右侧目录（可选，如果也想隐藏右侧）
+  - navigation
 search:
   exclude: true
 ---
 
-# 中文多意识体系统百科 Multiple Personality System Wiki
+# MPSTEAM Wiki：多意识体系统、DID/OSDD 与创伤主题中文百科
 
-??? TIP "对MPS的解释"
-    以下内容解释 `Mps` 在本 wIKI 中的用法与不同语境中的常见理解，点击标题可展开或收起详情。
+??? tip "关于 MPS 的用法说明"
+    本 Wiki 中 `MPS` 的常见理解，点击标题展开。
 
-    - 为简化表述，本 Wiki 内容中使用的缩写 `MPS`，默认指代 `Multiple Personality System` (`MPS`)。
-    - 请注意，社群中更常使用的中立性术语为 `Plural System`。同时，考虑到理论描述的精确性，`MPS` 亦可被理解为 `Multiple Consciousness System` (`MCS`)——一个专注于描述意识多元性本身的理论性术语。
-    - 读者可根据自身语境选择最合适的理解。【此条不止适用于mps，其他词汇不同翻译版本如有争议以英文原文为主（因为dsm5自己就有好几个中文版本）】
+    - 为便于表述，站内的 `MPS` 默认指 `Multiple Personality System`。
+    - 社群中也常用更中立的 `Plural System`；从理论角度，`MPS` 亦可理解为 `Multiple Consciousness System`（MCS），强调意识多元性。
+    - 不同译名出现分歧时，以英文原文和上下文为准。
 
-<!-- Hero Section -->
 <div class="mps-hero-minimal">
 
-  <h2 class="mps-hero-title">✦ 以知识点点亮 MPS 之路</h2>
+  <h2 class="mps-hero-title">多意识体系统主题中文百科</h2>
 
   <p class="mps-hero-lead">
-    从概念入门到实践工具，我们整理关于多意识体系统（Multiple Personality System, MPS）
-    与创伤照护的可靠中文资料，陪伴你理解自我、照顾伙伴，并与同路人建立连接。
+    本站整理与多意识体系统、解离性身份障碍（DID）、其他特定解离性障碍（OSDD）、
+    系统运作、创伤与基础实践相关的中文资料。
   </p>
 
   <p class="mps-hero-sub">
-    🧭 从入门到深入探索，找到属于你的 MPS 学习路径
+    可以从概念入门进入，也可以直接跳到临床、系统运作、实践或危机资源页面。
   </p>
 
   <div class="mps-hero-buttons">
@@ -38,166 +35,172 @@ search:
   </div>
 
   <p class="mps-hero-hint">
-    开始探索：快速了解与推荐路线　·　核心主题：理论、临床与系统运作的深度内容
+    常用入口：
+    <a href="entries/DSM-5TR-Scales/">DSM-5 报表页面</a> ·
+    <a href="guides/Core-Concepts-Guide/">核心概念</a> ·
+    <a href="Glossary/">术语表</a> ·
+    <a href="entries/Crisis-And-Support-Resources/">危机与支援资源</a>
   </p>
 
 </div>
 
 ---
 
-## 🚀 快速导航
+## MPSTEAM Wiki 是什么
+
+一个整理中文资料的主题知识库。首页用来回答几个最常见的问题：这里讲什么、有哪些常见概念、哪些内容属于临床主题、哪些属于系统内部协作与实践经验。
+
+站内主要覆盖：
+
+- 多意识体系统与相关社群常用概念
+- DID、OSDD 等解离相关临床主题
+- 系统运作、前台切换、共同意识、内部空间等议题
+- 创伤、稳定化、接地与基础安全资源
+- 理论分类、角色身份、文化表现与延伸阅读
+
+第一次接触这些术语，把首页当作总入口；已经知道要找什么，直接从下方入口跳转。
+
+## 适合谁阅读
 
 <div class="grid cards" markdown>
 
-- :material-rocket-launch: **QuickStart 快速开始**
+- **初次接触相关主题**
 
-    一页式入口：基础导览、推荐路线与常用工具。
+    先弄清楚多意识体系统、DID、OSDD 是什么，以及它们之间的差异。
 
-    [:octicons-arrow-right-24: 立即进入](QuickStart.md)
+- **查找特定概念**
 
-- :material-compass: **新手导览**
+    已经听过切换、共同意识、接地、内部空间等词，需要中文解释和延伸阅读。
 
-    了解多意识体系统的基础概念、诊断与协作要点
+- **按主题系统阅读**
 
-    [:octicons-arrow-right-24: 查看学习路径](#learning-path)
+    希望按临床、系统运作、创伤、实践等方向看，而不是零散搜索。
 
-- :material-tag-multiple: **标签索引**
+- **研究、翻译与内容贡献**
 
-    按主题分类浏览所有词条
+    需要快速进入术语、导览和词条索引。
 
-    [:octicons-arrow-right-24: 浏览标签](tags.md)
+</div>
 
-- :material-book-alphabet: **术语词典**
+!!! info "本站不适合替代什么"
+    需要即时诊断、个体化治疗方案或紧急危机处置时，请直接查看 [危机与支援资源](entries/Crisis-And-Support-Resources.md) 并联系线下专业人员。
 
-    快速查询定义与概念解释
+## 主要内容入口
 
-    [:octicons-arrow-right-24: 查询术语](Glossary.md)
+<div class="grid cards" markdown>
 
-- :material-clipboard-text-search: **量表总览**
+- :material-lightbulb-on-outline: **核心概念**
 
-    汇总站内常用评估量表与交互式筛查工具入口
+    先建立基础框架，再决定看临床、系统运作还是实践内容。
 
-    [:octicons-arrow-right-24: 查看量表](entries/DSM-5TR-Scales.md)
+    [:octicons-arrow-right-24: 核心概念导览](guides/Core-Concepts-Guide.md)
 
-- :material-clock-outline: **最新动态**
+- :material-hospital-box-outline: **DID、OSDD 与临床主题**
 
-    查看最近修改的词条内容
+    了解诊断框架、相邻概念差异与常见临床话题。
 
-    [:octicons-arrow-right-24: 查看更新](updates.md)
+    [:octicons-arrow-right-24: 诊断与临床导览](guides/Clinical-Diagnosis-Guide.md)
+
+- :material-cog-outline: **系统运作**
+
+    切换、共同意识、记忆管理、内部空间等主题。
+
+    [:octicons-arrow-right-24: 系统运作导览](guides/System-Operations-Guide.md)
+
+- :material-hand-heart-outline: **稳定化与实践**
+
+    接地、沟通、日常协作与基础实践资源。
+
+    [:octicons-arrow-right-24: 实践指南导览](guides/Practice-Guide.md)
+
+- :material-book-search-outline: **主题总览**
+
+    从总目录进入全部主题分区。
+
+    [:octicons-arrow-right-24: 打开主题总览](guides/index.md)
+
+</div>
+
+## 常用页面
+
+下列页面会反复用到：
+
+- [DSM-5 报表页面](entries/DSM-5TR-Scales.md)：查看 DSM-5-TR 评估量表与常见筛查工具。
+- [术语表（Glossary）](Glossary.md)：遇到陌生术语先查这里。
+- [标签索引](tags.md)：按主题浏览站内词条。
+- [核心概念导览](guides/Core-Concepts-Guide.md)：建立整体框架。
+- [诊断与临床导览](guides/Clinical-Diagnosis-Guide.md)：DID、OSDD 等临床主题。
+- [系统运作导览](guides/System-Operations-Guide.md)：切换、共同意识、内部空间等内容。
+- [危机与支援资源](entries/Crisis-And-Support-Resources.md)：安全计划、热线与紧急支持。
+- [最近更新](updates.md)：近期改动一览。
+
+## 常见问题入口
+
+<div class="grid cards" markdown>
+
+- **DID 是什么**
+
+    [:octicons-arrow-right-24: DID 词条](entries/DID.md)
+
+- **OSDD 与 DID 的差异**
+
+    [:octicons-arrow-right-24: OSDD 词条](entries/OSDD.md)
+
+- **系统里的“切换”指什么**
+
+    [:octicons-arrow-right-24: 切换（Switch）](entries/Switch.md)
+
+- **“共同意识”指什么**
+
+    [:octicons-arrow-right-24: 共同意识](entries/Co-Consciousness.md)
+
+- **需要先稳定下来**
+
+    [:octicons-arrow-right-24: 接地（Grounding）](entries/Grounding.md)
+
+- **按专题系统阅读**
+
+    [:octicons-arrow-right-24: 主题总览](guides/index.md)
+
+</div>
+
+## 阅读前的重要说明
+
+!!! warning "内容涉及敏感议题"
+    本站包含创伤、精神健康、自我认同、症状描述等内容。若阅读出现明显不适，请暂停并优先照顾自身状态。
+
+!!! danger "非诊断声明"
+    MPSTEAM Wiki 不是诊断工具，不能替代精神科、心理治疗或其他持证专业人员的评估。
+
+!!! danger "非治疗声明"
+    本站内容不构成医疗建议、治疗方案、处方建议或危机干预指令。涉及诊断、用药、治疗决策或紧急风险，请联系线下专业人员或当地紧急服务。
+
+!!! note "本站的合适用法"
+    把这里当作公开知识入口、术语索引和主题导览，用于理解概念、整理问题、寻找延伸阅读方向，而不是替代现实中的专业支持。
+
+## 继续浏览
+
+<div class="grid cards" markdown>
+
+- :material-clock-outline: **最近更新**
+
+    近期修改的词条与页面。
+
+    [:octicons-arrow-right-24: 最近更新](updates.md)
 
 - :material-history: **更新日志**
 
-    跟踪项目版本演变历程
+    版本演进与重要调整记录。
 
-    [:octicons-arrow-right-24: 查看日志](changelog.md)
+    [:octicons-arrow-right-24: 更新日志](changelog.md)
 
 - :material-hands-pray: **贡献指南**
 
-    了解如何参与项目共建
+    修正文案、补充资料或参与整理。
 
-    [:octicons-arrow-right-24: 参与贡献](contributing/index.md)
-
-</div>
-
----
-
-## ⚡ 立即开始
-
-=== "阅读学习"
-
-    - 从 [QuickStart](QuickStart.md) 选择一个导览页作为主线。
-    - 遇到陌生术语，使用 [术语词典](Glossary.md) 或页面内搜索。
-    - 通过页面底部的「相关条目」继续横向扩展。
-
-=== "本地预览"
-
-    !!! success "MkDocs 本地开发"
-        ```bash
-        # 安装依赖（自动创建 .venv）
-        uv sync
-
-        # 启动预览（热重载）
-        uv run mkdocs serve
-        # 打开 [http://127.0.0.1:8000](http://127.0.0.1:8000)
-        ```
-
-=== "参与贡献"
-
-    - 阅读 [贡献指南](contributing/index.md) 了解协作流程与规范。
-    - 按照 [词条模板](https://github.com/mps-team-cn/Multiple_personality_system_wiki/blob/main/docs/TEMPLATE_ENTRY.md) 撰写新条目或修订现有内容。
-    - 提交前运行 `check_links.py` 与 `check_tags.py` 确保格式合规。
-    - 遇到疑问？可通过 [GitHub Issues](https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues) 反馈。
-   
-
-## ⚠️ 重要提醒
-
-!!! warning "触发警告"
-    内容涉及创伤、精神健康、自我认同等敏感议题，阅读时请留意自身状态。
-
-!!! info "免责声明"
-    本站资料仅供参考，不构成医疗建议。若需诊断或治疗，请联系持证专业人员。
-
-!!! note "内容立场声明"
-    本 Wiki 致力于提供 **中立、客观** 的信息资源。所有内容的更新与维护 **仅面向使用者的实际需求**，不涉及或受社区争议、政治事件、意识形态等因素影响。我们的目标是构建一个 **学术严谨、信息可靠** 的知识平台，为所有寻求了解多意识体系统的人群提供帮助。
-
----
-
-### :material-shield-alert: 安全与边界
-
-- **安全优先：** 若遇危机或伤害风险，请立即联系当地紧急服务或线下专业支持
-- **尊重边界：** 分享系统经验时务必确认成员意愿与隐私需求
-- **持续更新：** 发现错误或缺漏欢迎反馈，让知识库与时俱进
-- **危机支援：** 参见 [危机与支援资源](entries/Crisis-And-Support-Resources.md) 获取 24 小时热线、城市支援与自助安全计划模板。
-
----
-
-## 🎯 核心主题
-
-从概念基础到实践应用，系统性探索多意识体系统的各个知识领域。
-
-<div class="grid cards" markdown>
-
-- :material-compass-outline: **浏览所有主题**
-
-    查看完整的核心主题分类导览，包括核心概念、诊断临床、系统运作、实践指南、创伤疗愈、角色身份、理论分类和文化表现等多个主题
-
-    [:octicons-arrow-right-24: 查看主题导览](guides/index.md)
+    [:octicons-arrow-right-24: 贡献指南](contributing/index.md)
 
 </div>
-
-??? info "主题速览"
-    - :material-lightbulb-on: [核心概念](guides/Core-Concepts-Guide.md) - 解离谱系、Tulpa 与 DID/OSDD、埃蒙加德分类
-    - :material-hospital-box: [诊断与临床](guides/Clinical-Diagnosis-Guide.md) - DID、OSDD、CPTSD、焦虑与情绪障碍
-    - :material-cog: [系统运作](guides/System-Operations-Guide.md) - 前台切换、共同意识、记忆管理、内部空间
-    - :material-clipboard-check: [实践指南](guides/Practice-Guide.md) - Tulpa 训练、冥想可视化、沟通接地技巧
-    - :material-heart-pulse: [创伤与疗愈](guides/Trauma-Healing-Guide.md) - 创伤机理、症状识别、三阶段治疗模型
-    - :material-account-multiple: [角色与身份](guides/Roles-Identity-Guide.md) - 宿主、守门人、保护者、多类型身份结构
-    - :material-book-open-variant: [理论与分类](guides/Theory-Classification-Guide.md) - 结构性解离、依恋、自我决定理论
-    - :material-palette: [文化与表现](guides/Cultural-Media-Guide.md) - 影视文学动画游戏中的多意识体主题
-
----
-
-## 🧭 新手学习路径 {#learning-path}
-
-=== "新手（0–4 周）"
-
-    1. 阅读 [核心概念导览](guides/Core-Concepts-Guide.md) 建立基础框架。
-    2. 选择 [心理健康](guides/Mental-Health-Guide.md) 或 [系统运作](guides/System-Operations-Guide.md) 作为下一步。
-    3. 浏览 [术语词典](Glossary.md) 熟悉常用术语。
-    4. 开始练习 [接地](entries/Grounding.md) 等基础技巧。
-
-=== "进阶（1–3 个月）"
-
-    1. 深入 1–2 个专题导览（临床/创伤/角色）。
-    2. 参考 [实践指南](guides/Practice-Guide.md) 制定练习计划。
-    3. 通过 [标签索引](tags.md) 扩展相关主题。
-    4. 针对实际问题查阅具体词条。
-
-=== "精通（3 个月以上）"
-
-    1. 系统学习 [理论与分类](guides/Theory-Classification-Guide.md)。
-    2. 探索 [文化与表现](guides/Cultural-Media-Guide.md) 的跨学科视角。
-    3. 参与讨论与贡献，沉淀个人知识框架。
 
 ---
 
@@ -225,49 +228,7 @@ search:
 
 ---
 
-## 🔧 参与贡献 {#contributing}
-
-!!! info "共同建设 MPS Wiki"
-    无论你是学者、译者、系统成员、开发者或单纯的好奇者，都可以为 MPS Wiki 贡献力量。你的每一次改动，都会帮助更多人更安全地理解多意识体与创伤知识。
-
----
-
-<div class="grid cards" markdown>
-
-- :material-file-document-edit: **新增或修订词条**
-
-    按照 [词条模板](https://github.com/mps-team-cn/Multiple_personality_system_wiki/blob/main/docs/TEMPLATE_ENTRY.md) 编写内容，确保 Frontmatter 完整，格式与结构符合 [AGENTS.md](https://github.com/mps-team-cn/Multiple_personality_system_wiki/blob/main/AGENTS.md) 要求。  
-    提交前执行 `check_links.py` 与 `check_tags.py` 验证。
-
-    [:octicons-arrow-right-24: 查看模板](https://github.com/mps-team-cn/Multiple_personality_system_wiki/blob/main/docs/TEMPLATE_ENTRY.md)
-
-- :material-translate: **翻译与校对**
-
-    发现译名不一致或表述可优化？  
-    欢迎改进术语翻译与文体一致性。  
-    参考 [Tagging Standard v2.0](contributing/tagging-standard.md)。
-
-    [:octicons-arrow-right-24: 标签规范](contributing/tagging-standard.md)
-
-- :material-bug: **报告问题**
-
-    通过 [GitHub Issues](https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues) 提交错误报告、功能建议或内容缺漏。
-
-    [:octicons-arrow-right-24: 提交 Issue](https://github.com/mps-team-cn/Multiple_personality_system_wiki/issues)
-
-- :material-github: **参与自动化开发**
-
-    想改进 CI、工具或 AI 代理？  
-    请查阅 [AGENTS.md](https://github.com/mps-team-cn/Multiple_personality_system_wiki/blob/main/AGENTS.md) 的自动化贡献规范。  
-    欢迎使用 `feat`、`fix`、`docs`、`refactor` 等标准化提交信息。
-
-    [:octicons-arrow-right-24: 查看代理规范](https://github.com/mps-team-cn/Multiple_personality_system_wiki/blob/main/AGENTS.md)
-
-</div>
-
----
-
-## 📋 最近更新
+## 最近更新
 
 <!-- RECENT_RELEASES -->
 
@@ -275,9 +236,7 @@ search:
 
 ---
 
-## 📬 联系我们
-
-有问题或建议？欢迎通过以下方式联系我们：
+## 联系我们
 
 <div class="grid cards" markdown>
 
