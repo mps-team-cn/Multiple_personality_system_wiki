@@ -172,6 +172,15 @@ Build output directory: site
 
 ---
 
+## 📄 许可
+
+- **代码与工具**（如 `tools/`、`functions/`、配置文件与脚本）采用 [MIT License](LICENSE)
+- **内容资料**（除另有说明外的 `docs/` 文本内容、`releases/` 发布产物及仓库内 PDF 导出文件）采用 [CC BY-SA 4.0](LICENSE-CONTENT)
+
+如单个文件或页面另有来源、版权或许可声明，以该文件内声明为准。
+
+---
+
 ## 📮 反馈与联系
 
 - 信息反馈：support@mpsteam.cn（内容错误、改进建议、使用问题）

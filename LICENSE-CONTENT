@@ -1,0 +1,19 @@
+Content License Notice
+
+Unless otherwise noted, the repository's content materials are licensed under
+the Creative Commons Attribution-ShareAlike 4.0 International License
+(CC BY-SA 4.0).
+
+Scope:
+- Markdown documentation and wiki content under `docs/`
+- Published PDF and other release artifacts under `releases/`
+- Root-level PDF exports distributed with this repository
+
+This notice does not override any file that already carries a more specific
+source or license statement.
+
+License deed:
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Legal code:
+https://creativecommons.org/licenses/by-sa/4.0/legalcode

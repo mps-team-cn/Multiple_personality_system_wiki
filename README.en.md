@@ -172,6 +172,16 @@ Live site: <https://wiki.mpsteam.cn/>
 
 ---
 
+## 📄 License
+
+- **Code and tooling** (such as `tools/`, `functions/`, config files, and scripts) are licensed under the [MIT License](LICENSE)
+- **Content materials** (unless otherwise noted, including text content under `docs/`, release artifacts under `releases/`, and PDF exports distributed in this repository) are licensed under [CC BY-SA 4.0](LICENSE-CONTENT)
+
+If a specific file or page contains its own source, copyright, or license
+notice, that notice takes precedence.
+
+---
+
 ## 📮 Feedback & Contact
 
 - Content feedback: support@mpsteam.cn (errors, suggestions, usage issues)
