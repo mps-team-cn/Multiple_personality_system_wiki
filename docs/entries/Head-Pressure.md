@@ -7,7 +7,7 @@ tags:
 
 title: 头压（Head Pressure）
 topic: 系统运作
-updated: 2025-10-20
+updated: 2026-05-21
 ---
 
 # 头压（Head Pressure）
