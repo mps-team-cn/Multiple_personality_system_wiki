@@ -6,6 +6,24 @@
 
 ## 🚀 快速开始
 
+### Makefile 统一入口
+
+```bash
+make help
+make check
+make pdf
+make serve
+```
+
+`Makefile` 统一封装了常用的校验、构建、预览、PDF 导出和 Markdown 修复命令，内部默认使用 `uv run` 调用 Python 与 MkDocs 工具。
+
+PDF 导出支持通过变量覆盖默认参数：
+
+```bash
+make pdf PDF_ENGINE=xelatex CJK_FONT="Noto Serif CJK SC"
+make pdf PDF_OUTPUT=dist/wiki.pdf
+```
+
 ### 一键执行日常维护
 
 ```bash
@@ -31,6 +49,9 @@ bash tools/run_local_updates.sh --help
 
 | 任务 | 命令 |
 |------|------|
+| 查看统一入口帮助 | `make help` |
+| 一键执行常用检查 | `make check` |
+| 导出 PDF | `make pdf` |
 | 修复 Markdown 格式 | `python3 tools/fix_markdown.py docs/entries/` |
 | 检查链接规范 | `python3 tools/check_links.py docs/entries/` |
 | 检查 Frontmatter | `python3 tools/check_frontmatter.py` |
@@ -42,8 +63,8 @@ bash tools/run_local_updates.sh --help
 | 生成 SEO URL 列表 | `python3 tools/generate_seo_urls.py` |
 | 提交到 Google Indexing API | `python3 tools/submit_to_google_indexing.py` |
 | 提交到 IndexNow | `python3 tools/submit_to_indexnow.py --recent 50` |
-| 本地预览 | `mkdocs serve` |
-| 构建静态站点 | `mkdocs build` |
+| 本地预览 | `make serve` |
+| 构建静态站点 | `make build` |
 
 ## 📦 核心自动化工具(CI 集成)
 
