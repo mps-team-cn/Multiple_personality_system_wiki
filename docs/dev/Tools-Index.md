@@ -24,6 +24,8 @@ make pdf PDF_ENGINE=xelatex CJK_FONT="Noto Serif CJK SC"
 make pdf PDF_OUTPUT=dist/wiki.pdf
 ```
 
+默认情况下，`make pdf` 会使用 `tectonic` 作为 PDF 引擎、`Microsoft YaHei` 作为中文字体，并输出到 `releases/Multiple_Personality_System_wiki.pdf`。
+
 ### 一键执行日常维护
 
 ```bash

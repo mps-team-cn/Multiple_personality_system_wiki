@@ -7,7 +7,7 @@ MARKDOWNLINT ?= markdownlint
 MARKDOWN_FILES ?= docs/**/*.md
 PDF_ENGINE ?= tectonic
 CJK_FONT ?= Microsoft YaHei
-PDF_OUTPUT ?=
+PDF_OUTPUT ?= releases/Multiple_Personality_System_wiki.pdf
 PDF_EXTRA_ARGS ?=
 
 .PHONY: help links tags frontmatter build serve pdf fix lint check all
@@ -31,7 +31,7 @@ help:
 		'  ENTRIES_DIR=docs/entries' \
 		'  PDF_ENGINE=tectonic' \
 		'  CJK_FONT=Microsoft YaHei' \
-		'  PDF_OUTPUT=Multiple_Personality_System_wiki.pdf' \
+		'  PDF_OUTPUT=releases/Multiple_Personality_System_wiki.pdf' \
 		'  PDF_EXTRA_ARGS=...' \
 		'' \
 		'示例:' \
