@@ -39,7 +39,8 @@
   uv sync
   ```
 
-- 所有 Python 命令通过 `uv run` 执行，例如 `uv run python3 tools/fix_markdown.py .`
+- 优先使用仓库根目录 `Makefile` 作为统一入口，例如 `make check`、`make build`、`make serve`、`make pdf`
+- 所有底层 Python 命令仍通过 `uv run` 执行，例如 `uv run python3 tools/fix_markdown.py .`
 - 常见问题：`externally-managed-environment` → 使用 uv 自动管理虚拟环境
 
 ### 自动化工具
@@ -47,10 +48,16 @@
 - **CI 双重检查机制**：
     - **PR 阶段**：自动检查链接规范和 Frontmatter 格式，发现问题会阻止合并
     - **合并后**：自动更新时间戳、修复格式、再次验证链接，确保质量
+- 推荐命令入口：
+    - `make check`：聚合链接、标签、Frontmatter 和默认构建检查
+    - `make build`：执行当前 `Makefile` 中定义的默认 MkDocs 构建
+    - `make serve`：启动本地预览
+    - `make pdf`：按默认参数导出 PDF 到 `releases/Multiple_Personality_System_wiki.pdf`
+- 若需要额外暴露 MkDocs warning，可单独运行 `uv run mkdocs build --strict`
 - 视任务执行 `markdownlint` 校验（可选）
 - 所有 Python 工具默认使用 `python3`
 - 大规模修改前必须确认相关索引、导览同步更新
-- 如需手动修复格式：`python3 tools/fix_markdown.py .`（CI 会自动处理，通常不需要）
+- 如需手动修复格式：优先 `make fix`；需要直接调脚本时使用 `uv run python3 tools/fix_markdown.py .`（CI 会自动处理，通常不需要）
 
 ## MANDATORY WORKFLOWS
 
