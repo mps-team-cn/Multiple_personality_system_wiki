@@ -19,7 +19,7 @@ help:
 		'  make links        检查词条链接规范' \
 		'  make tags         检查词条标签规范' \
 		'  make frontmatter  检查词条 Frontmatter' \
-		'  make build        严格构建 MkDocs 站点' \
+		'  make build        构建 MkDocs 站点' \
 		'  make serve        启动本地预览服务' \
 		'  make pdf          导出 PDF' \
 		'  make fix          修复 docs/entries/ 下的 Markdown 格式' \

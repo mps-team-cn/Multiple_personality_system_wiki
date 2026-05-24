@@ -39,7 +39,7 @@
 ┌─ 开发/修改工具?
 │  ├─ 修改 tools/*.py
 │  ├─ 同步更新 docs/dev/Tools-Index.md
-│  └─ 命令使用 uv run python3(不是裸 python3)
+│  └─ 优先使用 make；底层 Python 命令仍使用 uv run python3(不是裸 python3)
 │
 ┌─ 大规模重构?
 │  ├─ 先列影响范围
@@ -48,9 +48,9 @@
 │  └─ PR 说明自动化方法(正则/脚本/范围)
 │
 └─ 提交前检查
-   ├─ uv run python3 tools/check_links.py docs/entries/
-   ├─ uv run python3 tools/check_tags.py docs/entries/
-   └─ uv run mkdocs build --strict(可选)
+   ├─ make check
+   ├─ make build
+   └─ uv run mkdocs build --strict(额外严格检查,可选)
 ```
 
 ---
@@ -255,15 +255,19 @@ search:
 ### 6.1 本地检查(提交前必做)
 
 ```bash
-# 1. 检查链接规范
-uv run python3 tools/check_links.py docs/entries/
+# 1. 推荐统一入口
+make check
+make build
 
-# 2. 检查标签规范
-uv run python3 tools/check_tags.py docs/entries/
-
-# 3. (可选)构建测试
+# 2. (可选)额外严格构建测试
 uv run mkdocs build --strict
 ```
+
+说明：
+
+- `make check` 会聚合执行链接、标签、Frontmatter 和默认构建检查。
+- `make build` 使用当前 `Makefile` 中定义的默认 MkDocs 构建命令。
+- 若需要额外暴露 warning，可再运行 `uv run mkdocs build --strict`。
 
 ### 6.2 CI 双重检查机制
 
@@ -451,7 +455,7 @@ uv run python3 tools/check_tags.py docs/entries/
 |------|------|------|
 | `check_links.py` 报错 | 使用了绝对路径或错误相对路径 | 查看 [§5.1 链接路径速查表](#51-链接路径速查表) |
 | CI `pr-check` 失败 | Frontmatter 缺失字段或链接不规范 | 查看 CI 日志具体错误,修复后重新推送 |
-| `mkdocs build` 失败 | 导航配置或链接损坏 | 运行 `uv run mkdocs build --strict` 查看详细错误 |
+| `make build` 失败 | 导航配置或链接损坏 | 先运行 `make build` 复现,再用 `uv run mkdocs build --strict` 查看详细 warning |
 | 标签验证失败 | 标签格式不符或使用了别名 | 运行 `check_tags.py` 查看具体问题 |
 
 ### 11.2 快速命令参考
@@ -461,15 +465,20 @@ uv run python3 tools/check_tags.py docs/entries/
 uv sync
 
 # 本地预览
-uv run mkdocs serve  # 访问 http://127.0.0.1:8000
+make serve  # 访问 http://127.0.0.1:8000
 
 # 提交前检查
-uv run python3 tools/check_links.py docs/entries/
-uv run python3 tools/check_tags.py docs/entries/
+make check
+make build
+
+# 额外严格检查(可选)
 uv run mkdocs build --strict
 
+# PDF 导出
+make pdf
+
 # 格式修复(CI 会自动执行,通常无需手动)
-uv run python3 tools/fix_markdown.py docs/entries/
+make fix
 ```
 
 ---
