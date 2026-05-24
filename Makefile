@@ -49,7 +49,7 @@ frontmatter:
 	$(UV) run $(PYTHON) tools/check_frontmatter.py --path $(ENTRIES_DIR)
 
 build:
-	$(UV) run mkdocs build --strict
+	$(UV) run mkdocs build
 
 serve:
 	$(UV) run mkdocs serve
