@@ -97,7 +97,6 @@ updated: 2025-10-22
 - 💫 [自发型（Spontaneous）](../entries/Spontaneous.md)：自然生成、非刻意创造的成员。
 - 🔀 [异化（Deviation）](../entries/Deviation.md)：成员在发展过程中偏离最初设定或预期的现象。
 - 🗺️ [埃蒙加德分类法（Emmengard Classification）](../entries/Emmengard-Classification.md)：按来源理解成员或系统起源的常见社群框架。
-- 🧒 [幻想伙伴（Imaginary Companion）](../entries/Imaginary-Companion.md)：儿童常见的想象性同伴。
 
 ---
 

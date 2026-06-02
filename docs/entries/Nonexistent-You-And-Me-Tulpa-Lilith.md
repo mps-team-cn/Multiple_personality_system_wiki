@@ -29,7 +29,7 @@ updated: 2025-10-20
 ## 关联词条
 
 - [图帕（Tulpa）](Tulpa.md)
-- [幻想伙伴（Imaginary Companion）](Imaginary-Companion.md)
+- [想象性陪伴（Imaginary Companions）](Imaginary-Companion.md)
 - [心像空间（Headspace / Inner World）](Headspace-Inner-World.md)
 
 ## 相关条目

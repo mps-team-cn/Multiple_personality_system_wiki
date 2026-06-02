@@ -30,7 +30,6 @@ hide:
 - [碎片（Fragment）](../entries/Fragment.md) — *2026-03-27*
 - [守门人（Gatekeeper）](../entries/Gatekeeper.md) — *2026-03-27*
 - [宿主（Host）](../entries/Host.md) — *2026-03-27*
-- [幻想伙伴（Imaginary Companion）](../entries/Imaginary-Companion.md) — *2026-03-27*
 - [内在批评者（Inner Critic）](../entries/Inner-Critic.md) — *2026-03-27*
 - [内部自助者（Internal Self Helper，ISH）](../entries/Internal-Self-Helper-ISH.md) — *2026-03-27*
 - [引入者（Introject）](../entries/Introject.md) — *2026-03-27*
