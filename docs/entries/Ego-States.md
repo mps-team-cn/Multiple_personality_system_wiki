@@ -144,4 +144,3 @@ updated: 2026-06-02
 1. Ego State Therapy International. [What is Ego State Therapy?](https://www.egostateinternational.com/ego-state-therapy.php)
 2. Watkins, H. H. (1993). [Ego-state therapy: an overview](https://pubmed.ncbi.nlm.nih.gov/8480666/). *American Journal of Clinical Hypnosis*.
 3. European Society for Trauma and Dissociation. [What are Dissociative Parts and How or When to Introduce “Parts” Language?](https://estd.org/article/what-are-dissociative-parts-and-how-or-when-to-introduce-parts-language/)
-
