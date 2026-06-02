@@ -2,6 +2,7 @@ SHELL := /bin/sh
 
 UV ?= uv
 PYTHON ?= python3
+DOCS_DIR ?= docs
 STATUS_DIRS ?= docs/entries docs/guides
 ENTRIES_DIR ?= docs/entries
 MARKDOWNLINT ?= markdownlint
@@ -19,7 +20,7 @@ help:
 		'可用命令:' \
 		'  make help         查看帮助' \
 		'  make status       统计 entries/guides Markdown 文件概况' \
-		'  make links        检查词条链接规范' \
+		'  make links        检查 docs/ 下的 Markdown 链接规范' \
 		'  make tags         检查词条标签规范' \
 		'  make frontmatter  检查词条 Frontmatter' \
 		'  make build        构建 MkDocs 站点' \
@@ -31,6 +32,7 @@ help:
 		'  make all          执行 check 和 pdf' \
 		'' \
 		'常用变量:' \
+		'  DOCS_DIR=docs' \
 		'  STATUS_DIRS="docs/entries docs/guides"' \
 		'  ENTRIES_DIR=docs/entries' \
 		'  STATUS_TOP=10' \
@@ -63,7 +65,7 @@ status:
 	@find $(STATUS_DIRS) -type f -name '*.md' -exec wc -l {} + | sort -nr | awk -v top="$(STATUS_TOP)" '$$2 != "total" && count < top { count++; path = $$2; for (i = 3; i <= NF; i++) path = path " " $$i; printf "%2d. %6d 行  %s\n", count, $$1, path }'
 
 links:
-	$(UV) run $(PYTHON) tools/check_links.py $(ENTRIES_DIR)/
+	$(UV) run $(PYTHON) tools/check_links.py $(DOCS_DIR)/
 
 tags:
 	$(UV) run $(PYTHON) tools/check_tags.py $(ENTRIES_DIR)/
