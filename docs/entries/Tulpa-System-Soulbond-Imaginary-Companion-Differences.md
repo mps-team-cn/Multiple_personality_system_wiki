@@ -1,11 +1,11 @@
 ---
 comments: true
-description: Tulpa、多意识体、系魂、幻想伙伴有什么区别？从形成方式、主体性、年龄语境、社群用法与临床边界做快速对照，帮助分清常被混用的几个核心概念。
+description: Tulpa、多意识体、系魂、想象性陪伴有什么区别？从形成方式、主体性、年龄语境、社群用法与临床边界做快速对照，帮助分清常被混用的几个核心概念。
 search:
   boost: 1.5
 synonyms:
 
-- tulpa和幻想伙伴区别
+- tulpa和想象性陪伴区别
 - 系魂和tulpa区别
 - 多意识体和tulpa区别
 - tulpa 多意识体 系魂 区别
@@ -18,19 +18,19 @@ tags:
 - role:系统角色
 - meta:导览
 
-title: Tulpa、多意识体、系魂、幻想伙伴的区别
+title: Tulpa、多意识体、系魂、想象性陪伴的区别
 topic: 角色与身份
 updated: 2026-03-27
 ---
 
-# Tulpa、多意识体、系魂、幻想伙伴的区别
+# Tulpa、多意识体、系魂、想象性陪伴的区别
 
 ## 先说最短答案
 
 - [Tulpa](Tulpa.md) 是 **通过刻意练习培育出的意识同伴**
 - [多意识体系统（MPS）](Multiple_Personality_System.md) 是 **包含多个成员或意识单元共同存在的总框架**
 - [系魂](Soulbond.md) 更强调 **与虚构角色或异世界身份的长期连结**
-- [幻想伙伴](Imaginary-Companion.md) 通常指 **儿童发展中的想象性同伴**
+- [想象性陪伴](Imaginary-Companion.md) 通常指 **儿童发展中的想象性同伴**
 
 这几个词经常被混着用，但它们并不是同义词。
 
@@ -43,7 +43,7 @@ updated: 2026-03-27
 | [Tulpa](Tulpa.md) | 刻意培育出的内在意识同伴 | 想象、对话、塑造、长期练习 | Tulpamancy 社群、创造型系统 |
 | [多意识体系统](Multiple_Personality_System.md) | 一个身体内存在多个成员/意识单元的总称 | 来源多样，可自发、创伤相关、刻意创造或混合 | 社群总框架词 |
 | [系魂](Soulbond.md) | 与虚构角色或异世界身份建立深度持续连结的成员 | 角色连结、长期认同、叙事延伸 | 同人、Alterhuman、多意识体社群 |
-| [幻想伙伴](Imaginary-Companion.md) | 儿童主动创造的想象朋友 | 游戏、想象发展、自我安抚 | 发展心理学 |
+| [想象性陪伴](Imaginary-Companion.md) | 儿童主动创造的想象朋友 | 游戏、想象发展、自我安抚 | 发展心理学 |
 
 ---
 
@@ -76,21 +76,21 @@ updated: 2026-03-27
 
 ---
 
-## Tulpa 和幻想伙伴的区别
+## Tulpa 和想象性陪伴的区别
 
 最常见的区别有三点：
 
 1. **年龄语境不同**
 
-   [幻想伙伴](Imaginary-Companion.md) 主要来自儿童发展心理学语境；Tulpa 更多出现在青少年或成人社群实践中。
+   [想象性陪伴](Imaginary-Companion.md) 主要来自儿童发展心理学语境；Tulpa 更多出现在青少年或成人社群实践中。
 
 2. **主体性期待不同**
 
-   幻想伙伴通常被理解为儿童可控、知道其虚构的想象同伴；Tulpa 社群更强调独立意志、长期互动和主体性。
+   想象性陪伴通常被理解为儿童可控、知道其虚构的想象同伴；Tulpa 社群更强调独立意志、长期互动和主体性。
 
 3. **实践强度不同**
 
-   Tulpa 常伴随持续塑造、对话、感官赋予与协商边界；幻想伙伴更接近日常游戏、陪伴和情绪调节。
+   Tulpa 常伴随持续塑造、对话、感官赋予与协商边界；想象性陪伴更接近日常游戏、陪伴和情绪调节。
 
 ---
 
@@ -112,7 +112,7 @@ updated: 2026-03-27
 - 想了解刻意培育的意识同伴：看 [图帕（Tulpa）](Tulpa.md)
 - 想了解整体系统概念：看 [多意识体系统（MPS）](Multiple_Personality_System.md)
 - 想了解虚构角色连结型体验：看 [系魂（Soulbond）](Soulbond.md)
-- 想了解儿童想象朋友：看 [幻想伙伴（Imaginary Companion）](Imaginary-Companion.md)
+- 想了解儿童想象朋友：看 [想象性陪伴（Imaginary Companions）](Imaginary-Companion.md)
 
 ---
 
@@ -121,6 +121,6 @@ updated: 2026-03-27
 - [图帕（Tulpa）](Tulpa.md)
 - [多意识体系统（Multiple Personality System，MPS）](Multiple_Personality_System.md)
 - [系魂（Soulbond）](Soulbond.md)
-- [幻想伙伴（Imaginary Companion）](Imaginary-Companion.md)
+- [想象性陪伴（Imaginary Companions）](Imaginary-Companion.md)
 - [系统（System）](System.md)
 - [特殊认同（Alterhuman）](Alterhuman.md)

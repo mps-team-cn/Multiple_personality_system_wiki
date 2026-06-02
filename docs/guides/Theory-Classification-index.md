@@ -27,7 +27,9 @@ hide:
 - [心理防御机制（Defense Mechanisms）](../entries/Defense-Mechanisms.md) — *2026-03-27*
 - [防御性解离（Defensive Dissociation）](../entries/Defensive-Dissociation.md) — *2026-03-27*
 - [情绪调节（Emotion Regulation）](../entries/Emotion-Regulation.md) — *2026-03-27*
+- [自我状态（Ego States）](../entries/Ego-States.md) — *YYYY-MM-DD*
 - [人本主义心理学（Humanistic Psychology）](../entries/Humanistic-Psychology.md) — *2026-03-27*
+- [想象性陪伴（Imaginary Companions）](../entries/Imaginary-Companion.md) — *2026-03-27*
 - [学习与条件反射（Learning & Conditioning）](../entries/Learning-Conditioning.md) — *2026-03-27*
 - [动机理论（Motivation Theories）](../entries/Motivation-Theories.md) — *2026-03-27*
 - [人格结构理论（Personality Structure Theory, Freud）](../entries/Personality-Structure-Theory.md) — *2026-03-27*
