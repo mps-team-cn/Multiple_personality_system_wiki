@@ -36,7 +36,7 @@ jobs:
 
     steps:
       - name: Checkout 代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: 设置 Python
         uses: actions/setup-python@v5
@@ -76,7 +76,7 @@ jobs:
 
       - name: 上传提交日志
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: google-indexing-log-${{ github.run_number }}
           path: google_indexing_log.json
