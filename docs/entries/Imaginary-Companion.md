@@ -121,3 +121,11 @@ DSM-5-TR 的 DID 诊断语境强调，儿童表现如果能被想象朋友或其
 4. [图帕（Tulpa）](Tulpa.md)
 5. [内视（Visualization / Imagination）](Visualization-Imagination.md)
 6. [Tulpa、多意识体、系魂、想象性陪伴的区别](Tulpa-System-Soulbond-Imaginary-Companion-Differences.md)
+
+## 参考与延伸阅读
+
+1. Armah, A., & Landers-Potts, M. (2021). [A Review of Imaginary Companions and Their Implications for Development](https://journals.sagepub.com/doi/abs/10.1177/0276236621999324). *Imagination, Cognition and Personality*.
+2. Merck Manual Professional Edition. [Dissociative Identity Disorder](https://www.merckmanuals.com/professional/psychiatric-disorders/dissociative-disorders/dissociative-identity-disorder)
+3. Davis, P. E., Webster, L. A. D., Fernyhough, C., Ralston, K., Kola-Palmer, S., & Stain, H. J. (2019). [Adult report of childhood imaginary companions and adversity relates to concurrent prodromal psychosis symptoms](https://www.sciencedirect.com/science/article/pii/S0165178118318882). *Psychiatry Research, 271*, 150-152.
+4. Gleason, T. R., Jarudi, R. N., & Cheek, J. M. (2023). [The role of imaginary companion in the life of only children](https://pmc.ncbi.nlm.nih.gov/articles/PMC10652514/). *Frontiers in Psychology*.
+5. Soffer-Dudek, N., Somer, E., Abu-Rayya, H. M., Metin, B., & Schimmenti, A. (2025). [Maladaptive daydreaming should be included as a dissociative disorder in psychiatric diagnostic manuals](https://pmc.ncbi.nlm.nih.gov/articles/PMC12038384/). *British Journal of Psychiatry Open*.
