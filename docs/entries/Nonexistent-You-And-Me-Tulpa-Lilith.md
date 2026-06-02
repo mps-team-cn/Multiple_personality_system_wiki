@@ -7,7 +7,7 @@ tags:
 
 title: 《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）
 topic: 文化与表现
-updated: 2025-10-20
+updated: 2026-06-02
 ---
 
 # 《不/存在的你，和我》与 Tulpa —— 莉莉丝（Lilith）

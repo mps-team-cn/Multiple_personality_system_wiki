@@ -26,7 +26,7 @@ tags:
 
 title: 图帕（Tulpa）
 topic: 角色与身份
-updated: 2026-03-27
+updated: 2026-06-02
 ---
 
 # 图帕（Tulpa）

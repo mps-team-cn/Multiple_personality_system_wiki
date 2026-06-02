@@ -16,7 +16,7 @@ tags:
 
 title: 系魂（Soulbond）
 topic: 角色与身份
-updated: 2026-03-27
+updated: 2026-06-02
 ---
 
 # 系魂（Soulbond）

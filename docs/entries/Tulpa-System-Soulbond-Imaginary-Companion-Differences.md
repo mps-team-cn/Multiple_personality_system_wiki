@@ -20,7 +20,7 @@ tags:
 
 title: Tulpa、多意识体、系魂、想象性陪伴的区别
 topic: 角色与身份
-updated: 2026-03-27
+updated: 2026-06-02
 ---
 
 # Tulpa、多意识体、系魂、想象性陪伴的区别
