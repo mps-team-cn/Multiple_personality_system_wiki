@@ -74,7 +74,7 @@ theme:
 
     # 搜索
     - search.suggest # 搜索建议
-    # - search.highlight # 搜索高亮（已禁用）
+    - search.highlight # 搜索高亮
     - search.share # 搜索分享
 
     # 代码

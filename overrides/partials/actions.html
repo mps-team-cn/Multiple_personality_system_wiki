@@ -34,3 +34,20 @@
     </a>
   {% endif %}
 {% endif %}
+
+{# 反馈按钮：报告本页问题 #}
+{% if page and not page.is_homepage %}
+  {% set issue_title = "[反馈] " ~ (page.title | default("未知页面", true)) %}
+  {% set issue_body = "## 反馈内容\n\n请描述您发现的问题或改进建议：\n\n\n\n---\n\n**页面信息**\n- 页面标题：" ~ (page.title | default("未知", true)) ~ "\n- 页面地址：" ~ (page.canonical_url | default(config.site_url, true)) %}
+  {% set issue_url = config.repo_url ~ "/issues/new?title=" ~ (issue_title | urlencode) ~ "&body=" ~ (issue_body | urlencode) ~ "&labels=feedback" %}
+  <a
+    href="{{ issue_url }}"
+    title="报告本页问题"
+    class="md-content__button md-icon"
+    rel="noopener"
+    target="_blank"
+    aria-label="报告本页问题"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2m0 14H5.2L4 17.2V4h16zm-8-4h2v2h-2zm0-6h2v6h-2z"/></svg>
+  </a>
+{% endif %}
