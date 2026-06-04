@@ -35,7 +35,7 @@
   {% endif %}
 {% endif %}
 
-{# 反馈按钮：报告本页问题 #}
+{# 反馈按钮 #}
 {% if page and not page.is_homepage %}
   {% set issue_title = "[反馈] " ~ (page.title | default("未知页面", true)) %}
   {% set issue_body = "## 反馈内容\n\n请描述您发现的问题或改进建议：\n\n\n\n---\n\n**页面信息**\n- 页面标题：" ~ (page.title | default("未知", true)) ~ "\n- 页面地址：" ~ (page.canonical_url | default(config.site_url, true)) %}
