@@ -78,7 +78,7 @@ def _estimate_reading_time(markdown: str) -> int:
 
 
 def _inject_reading_time(markdown: str) -> str:
-    """在 Markdown 内容开头注入阅读时间提示。"""
+    """在首个一级标题下方注入阅读时间提示。"""
     minutes = _estimate_reading_time(markdown)
     reading_time_html = (
         '<div class="reading-time" aria-label="预计阅读时间">'
@@ -89,6 +89,12 @@ def _inject_reading_time(markdown: str) -> str:
         "</svg></span> "
         f"预计阅读 {minutes} 分钟</div>\n\n"
     )
+    # 查找首个一级标题（# 开头，非 ##），在其后注入
+    h1_match = re.search(r"^# .+$", markdown, re.MULTILINE)
+    if h1_match:
+        insert_pos = h1_match.end()
+        return markdown[:insert_pos] + "\n\n" + reading_time_html + markdown[insert_pos:]
+    # 无一级标题时回退到开头
     return reading_time_html + markdown
 
 
