@@ -24,6 +24,7 @@ ZERO_WIDTH_SPACE = "\u200b"
 RECENTLY_UPDATED_PLACEHOLDER = "<!-- RECENTLY_UPDATED_DOCS -->"
 RECENT_RELEASES_PLACEHOLDER = "<!-- RECENT_RELEASES -->"
 SITEMAP_NS = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+READING_TIME_PLACEHOLDER = "<!-- READING_TIME -->"
 NON_INDEXABLE_SOURCE_URIS = {
     "SUMMARY.md",
     "includes/abbreviations.md",
@@ -37,6 +38,64 @@ NON_INDEXABLE_SOURCE_URIS = {
 def _strip_zero_width(value: str) -> str:
     """移除文本中的零宽空格，保持其余字符不变。"""
     return value.replace(ZERO_WIDTH_SPACE, "")
+
+
+def _estimate_reading_time(markdown: str) -> int:
+    """估算 Markdown 内容的阅读时间（分钟）。
+
+    中文按 350 字/分钟，英文按 200 词/分钟，混合内容取加权值。
+    去除 frontmatter、代码块、图片引用等非正文内容后统计。
+    """
+    text = markdown
+
+    # 去除 frontmatter
+    text = re.sub(r"^---\s*\n.*?\n---\s*\n", "", text, flags=re.DOTALL)
+
+    # 去除代码块
+    text = re.sub(r"```.*?```", "", text, flags=re.DOTALL)
+    text = re.sub(r"`[^`]+`", "", text)
+
+    # 去除图片和链接标记，保留链接文字
+    text = re.sub(r"!\[.*?\]\(.*?\)", "", text)
+    text = re.sub(r"\[([^\]]*)\]\(.*?\)", r"\1", text)
+
+    # 去除 Markdown 标记符号
+    text = re.sub(r"[#*_~>|!\[\]\(\)\-]+", "", text)
+    text = re.sub(r"<[^>]+>", "", text)
+
+    # 统计中文字符数
+    chinese_chars = len(re.findall(r"[一-鿿㐀-䶿]", text))
+
+    # 统计英文单词数（去除中文后的纯英文部分）
+    english_text = re.sub(r"[一-鿿㐀-䶿]", " ", text)
+    english_words = len(re.findall(r"[a-zA-Z]+", english_text))
+
+    # 中文 350 字/分钟，英文 200 词/分钟
+    minutes = chinese_chars / 350 + english_words / 200
+
+    # 至少 1 分钟，四舍五入
+    return max(1, round(minutes))
+
+
+def _inject_reading_time(markdown: str) -> str:
+    """在首个一级标题下方注入阅读时间提示。"""
+    minutes = _estimate_reading_time(markdown)
+    reading_time_html = (
+        '<div class="reading-time" aria-label="预计阅读时间">'
+        '<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"'
+        ' width="16" height="16" style="vertical-align:text-bottom">'
+        '<path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2m0 18c-4.41'
+        ' 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m.5-13H11v6l5.2 3.2.8-1.3-4.5-2.7z"/>'
+        "</svg></span> "
+        f"预计阅读 {minutes} 分钟</div>\n\n"
+    )
+    # 查找首个一级标题（# 开头，非 ##），在其后注入
+    h1_match = re.search(r"^# .+$", markdown, re.MULTILINE)
+    if h1_match:
+        insert_pos = h1_match.end()
+        return markdown[:insert_pos] + "\n\n" + reading_time_html + markdown[insert_pos:]
+    # 无一级标题时回退到开头
+    return reading_time_html + markdown
 
 
 def _extract_frontmatter_synonyms(frontmatter: Dict[str, Any]) -> list[str]:
@@ -240,7 +299,7 @@ def _generate_recently_updated_html(docs_dir: Path, limit: int = 100) -> str:
 
 
 def on_page_markdown(markdown: str, page: Any, config: Dict[str, Any], files: Any) -> str:
-    """在页面 Markdown 处理前替换占位符。"""
+    """在页面 Markdown 处理前替换占位符并注入阅读时间。"""
     docs_dir = Path(config.get("docs_dir", "docs"))
 
     # 1) 最近更新（基于 Frontmatter.updated）
@@ -257,6 +316,13 @@ def on_page_markdown(markdown: str, page: Any, config: Dict[str, Any], files: An
         except Exception:
             # 解析失败时保持原占位符，避免构建中断
             pass
+
+    # 3) 阅读时间估算（仅对词条和指南页面注入）
+    src_uri = getattr(getattr(page, "file", None), "src_uri", "")
+    if src_uri.startswith(("entries/", "guides/")) and src_uri.endswith(".md"):
+        frontmatter = _extract_frontmatter(docs_dir / src_uri)
+        if not frontmatter.get("hide_reading_time"):
+            markdown = _inject_reading_time(markdown)
 
     return markdown
 

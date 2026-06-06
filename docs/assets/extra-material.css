@@ -396,6 +396,30 @@ a:hover {
   color: rgba(231, 237, 247, 0.5);
 }
 
+/* ===== 阅读时间提示样式 ===== */
+.reading-time {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 12px;
+  margin-bottom: 12px;
+  font-size: 0.82rem;
+  color: rgba(142, 142, 142, 0.7);
+  background: rgba(142, 142, 142, 0.06);
+  border-radius: 16px;
+  line-height: 1;
+  font-family: var(--md-text-font);
+}
+
+.reading-time svg {
+  fill: currentColor;
+}
+
+[data-md-color-scheme="slate"] .reading-time {
+  color: rgba(231, 237, 247, 0.55);
+  background: rgba(231, 237, 247, 0.06);
+}
+
 /* ===== 外部链接样式 ===== */
 a.external-link::after {
   content: '↗';
