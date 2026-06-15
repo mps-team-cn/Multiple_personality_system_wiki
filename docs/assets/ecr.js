@@ -90,7 +90,7 @@
       const reverse = row.dataset.reverse === "true";
       const scored = raw === null ? null : reverse ? 8 - raw : raw;
 
-      if (badge) badge.textContent = scored === null ? "-" : String(scored);
+      if (badge) badge.textContent = raw === null ? "-" : String(raw);
       if (control && control.matches('input[type="range"]')) setRangeAria(control);
       if (scored !== null) {
         scores.push(scored);
