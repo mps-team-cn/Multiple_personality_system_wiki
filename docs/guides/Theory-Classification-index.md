@@ -20,6 +20,7 @@ hide:
 ## 词条一览
 
 - [成人依恋（Adult Attachment）](../entries/Adult-Attachment.md) — *2026-05-12*
+- [亲密关系经历量表中文版（Experiences in Close Relationships, ECR）](../entries/Experiences-in-Close-Relationships-ECR-Chinese.md) — *YYYY-MM-DD*
 - [依恋理论（Attachment Theory）](../entries/Attachment-Theory.md) — *2026-03-27*
 - [注意与觉察（Attention & Awareness）](../entries/Attention-Awareness.md) — *2026-03-27*
 - [行为主义心理学（Behaviorism）](../entries/Behaviorism.md) — *2026-03-27*

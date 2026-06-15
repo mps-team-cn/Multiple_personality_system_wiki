@@ -23,6 +23,19 @@
     return REVERSE_ITEMS.includes(itemNumber);
   }
 
+  function selectToRange(select) {
+    const input = document.createElement('input');
+    input.id = select.id;
+    input.type = 'range';
+    input.min = '1';
+    input.max = '4';
+    input.step = '1';
+    input.value = select.value || '1';
+    input.setAttribute('tabindex', '0');
+    select.replaceWith(input);
+    return input;
+  }
+
   // SDS 严重程度分级
   function getSeverityLevel(standardScore) {
     if (standardScore >= 73) {
@@ -37,20 +50,23 @@
   }
 
   function bindItem(item) {
-    const select = qs('select', item);
+    let control = qs('input[type="range"], select', item);
     const badge = qs('.sds-badge', item);
-    if (!select || !badge) return;
+    if (!control || !badge) return;
 
-    // 为下拉菜单添加可访问性属性
-    const itemNumber = select.id.replace('item', '');
+    if (control.matches('select')) {
+      control = selectToRange(control);
+    }
+
+    // 为评分滑块添加可访问性属性
+    const itemNumber = parseInt(control.id.replace('item', ''), 10);
     const questionText = item.querySelector('td:nth-child(2)')?.textContent?.trim() || '';
-    if (!select.hasAttribute('aria-label')) {
-      select.setAttribute('aria-label', `题目 ${itemNumber}: ${questionText.substring(0, 30)}... - 评分 1 到 4`);
-      select.setAttribute('tabindex', '0');
+    if (!control.hasAttribute('aria-label')) {
+      control.setAttribute('aria-label', `题目 ${itemNumber}: ${questionText.substring(0, 30)}... - 评分 1 到 4`);
     }
 
     const update = () => {
-      const rawValue = Number(select.value || 1);
+      const rawValue = Number(control.value || 1);
       const actualValue = isReverseItem(itemNumber) ? (5 - rawValue) : rawValue;
       badge.textContent = actualValue;
 
@@ -64,7 +80,8 @@
       }
     };
 
-    select.addEventListener('change', update);
+    control.addEventListener('input', update);
+    control.addEventListener('change', update);
     update();
   }
 
@@ -169,9 +186,9 @@
 
   function collectScores(root) {
     const scores = [];
-    qsa('.sds-item select', root).forEach((select) => {
-      const itemNumber = parseInt(select.id.replace('item', ''));
-      const rawValue = Number(select.value || 1);
+    qsa('.sds-item input[type="range"], .sds-item select', root).forEach((control) => {
+      const itemNumber = parseInt(control.id.replace('item', ''), 10);
+      const rawValue = Number(control.value || 1);
       const actualValue = isReverseItem(itemNumber) ? (5 - rawValue) : rawValue;
       if (!Number.isNaN(actualValue)) scores.push(actualValue);
     });
@@ -244,9 +261,9 @@
   }
 
   function resetAll(root) {
-    qsa('.sds-item select', root).forEach((select) => {
-      select.value = '1'; // 重置为最低分
-      select.dispatchEvent(new Event('change'));
+    qsa('.sds-item input[type="range"], .sds-item select', root).forEach((control) => {
+      control.value = '1'; // 重置为最低分
+      control.dispatchEvent(new Event('input'));
     });
     updateResults(root);
   }
@@ -273,9 +290,13 @@
     exportBtn.addEventListener('click', () => exportResultsImage(root, exportBtn));
 
     // 实时更新结果
+    root.addEventListener('input', (e) => {
+      const t = e.target;
+      if (t && t.matches('input[type="range"], select')) updateResults(root);
+    });
     root.addEventListener('change', (e) => {
       const t = e.target;
-      if (t && t.matches('select')) updateResults(root);
+      if (t && t.matches('input[type="range"], select')) updateResults(root);
     });
 
     // 初始计算一次
