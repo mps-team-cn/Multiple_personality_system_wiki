@@ -106,6 +106,8 @@
   grid-template-columns: minmax(12rem, 1fr) auto;
   gap: 0.5rem;
   align-items: center;
+  --slider-offset-y: 0.13rem;
+  font-size: 0;
 }
 
 .brief-scale-ctrl select,
@@ -128,6 +130,49 @@
   box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-primary-fg-color) 15%, transparent);
 }
 
+.brief-scale-ctrl input[type="range"] {
+  width: 100%;
+  min-width: 12rem;
+  touch-action: pan-y;
+  --r-track-h: 0.56rem;
+  --r-thumb-d: 1.1rem;
+  --r-thumb-offset-y: var(--slider-offset-y, 0.08rem);
+}
+
+.brief-scale-ctrl input[type="range"]::-webkit-slider-runnable-track {
+  height: var(--r-track-h);
+  border-radius: 0.6rem;
+  background: color-mix(in srgb, var(--md-default-fg-color) 18%, transparent);
+}
+
+.brief-scale-ctrl input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: var(--r-thumb-d);
+  height: var(--r-thumb-d);
+  border: 2px solid color-mix(in srgb, var(--md-primary-fg-color) 65%, transparent);
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 90%, #fff);
+  margin-top: calc((var(--r-track-h) - var(--r-thumb-d)) / 2 + var(--r-thumb-offset-y));
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+}
+
+.brief-scale-ctrl input[type="range"]::-moz-range-track {
+  height: var(--r-track-h);
+  border-radius: 0.6rem;
+  background: color-mix(in srgb, var(--md-default-fg-color) 18%, transparent);
+}
+
+.brief-scale-ctrl input[type="range"]::-moz-range-thumb {
+  width: var(--r-thumb-d);
+  height: var(--r-thumb-d);
+  border: 2px solid color-mix(in srgb, var(--md-primary-fg-color) 65%, transparent);
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 90%, #fff);
+  transform: translateY(var(--r-thumb-offset-y));
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+}
+
 .brief-scale-badge {
   display: inline-flex;
   align-items: center;
@@ -139,6 +184,8 @@
   color: var(--md-primary-fg-color);
   font-weight: 700;
   font-variant-numeric: tabular-nums;
+  font-size: 0.95rem;
+  transform: translateY(var(--slider-offset-y, 0));
 }
 
 .brief-scale-badge::after {
@@ -273,21 +320,27 @@
   }
 
   .brief-scale-ctrl {
-    grid-template-columns: 1fr;
-    gap: 0.35rem;
+    grid-template-columns: 1fr auto;
+    gap: 0.45rem 0.5rem;
   }
 
-  .brief-scale-ctrl select,
   .brief-scale-field select {
     min-width: 0;
     font-size: 0.82rem;
     padding: 0.5rem 0.65rem;
   }
 
+  .brief-scale-ctrl select,
+  .brief-scale-ctrl input[type="range"] {
+    width: 100%;
+    min-width: 0;
+  }
+
   .brief-scale-badge {
-    width: auto;
-    justify-self: start;
-    font-size: 0.82rem;
+    width: 4.2rem;
+    justify-self: end;
+    align-self: center;
+    font-size: 0.9rem;
   }
 
   .brief-scale-table {

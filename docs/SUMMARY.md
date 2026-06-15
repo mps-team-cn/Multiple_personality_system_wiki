@@ -334,6 +334,7 @@
         * [情绪调节（Emotion Regulation）](entries/Emotion-Regulation.md)
         * [想象性陪伴（Imaginary Companions）](entries/Imaginary-Companion.md)
         * [成人依恋（Adult Attachment）](entries/Adult-Attachment.md)
+        * [亲密关系经历量表中文版（Experiences in Close Relationships, ECR）](entries/Experiences-in-Close-Relationships-ECR-Chinese.md)
         * [投射（Projection, Psychology）](entries/Projection-Psychology.md)
         * [注意与觉察（Attention & Awareness）](entries/Attention-Awareness.md)
         * [社会认知理论（Social-Cognitive Theory）](entries/Social-Cognitive-Theory.md)

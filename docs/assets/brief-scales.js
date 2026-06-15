@@ -123,6 +123,24 @@
     if (node) node.textContent = text;
   }
 
+  function itemNumberFromId(id) {
+    const match = String(id || "").match(/(\d+)$/);
+    return match ? match[1] : "";
+  }
+
+  function selectToRange(select) {
+    const input = document.createElement("input");
+    input.id = select.id;
+    input.type = "range";
+    input.min = "0";
+    input.max = "3";
+    input.step = "1";
+    input.value = select.value || "0";
+    input.setAttribute("tabindex", "0");
+    select.replaceWith(input);
+    return input;
+  }
+
   async function ensureHtmlToImage() {
     if (window.htmlToImage) return window.htmlToImage;
     const src = "https://cdn.jsdelivr.net/npm/html-to-image@1.11.11/dist/html-to-image.min.js";
@@ -198,29 +216,34 @@
   }
 
   function bindSelect(prefix, item) {
-    const select = qs("select", item);
+    let control = qs('input[type="range"], select', item);
     const badge = qs(".brief-scale-badge", item);
-    if (!select || !badge) return;
+    if (!control || !badge) return;
+
+    if (control.matches("select")) {
+      control = selectToRange(control);
+    }
 
     const questionText = item.querySelector("td:nth-child(2)")?.textContent?.trim() || "";
-    if (!select.hasAttribute("aria-label")) {
-      select.setAttribute(
+    if (!control.hasAttribute("aria-label")) {
+      control.setAttribute(
         "aria-label",
-        `${prefix.toUpperCase()} 题目 ${select.id.replace("item", "")}: ${questionText.substring(0, 40)}`
+        `${prefix.toUpperCase()} 题目 ${itemNumberFromId(control.id)}: ${questionText.substring(0, 40)} - 评分 0 到 3`
       );
     }
 
     const update = () => {
-      const value = Number(select.value || 0);
+      const value = Number(control.value || 0);
       badge.textContent = String(value);
     };
 
-    select.addEventListener("change", update);
+    control.addEventListener("input", update);
+    control.addEventListener("change", update);
     update();
   }
 
   function collectScores(prefix, root) {
-    return qsa(`.${prefix}-item select`, root).map((select) => Number(select.value || 0));
+    return qsa(`.${prefix}-item input[type="range"], .${prefix}-item select`, root).map((control) => Number(control.value || 0));
   }
 
   function updateResults(prefix, root, config) {
@@ -253,9 +276,9 @@
   }
 
   function resetAll(prefix, root, config) {
-    qsa(`.${prefix}-item select`, root).forEach((select) => {
-      select.value = "0";
-      select.dispatchEvent(new Event("change"));
+    qsa(`.${prefix}-item input[type="range"], .${prefix}-item select`, root).forEach((control) => {
+      control.value = "0";
+      control.dispatchEvent(new Event("input"));
     });
     const impairment = qs(`#${prefix}-impairment`, root);
     if (impairment) impairment.value = "";
@@ -287,9 +310,14 @@
     }
     exportBtn.addEventListener("click", () => exportResultsImage(prefix, root, config.title, config.fileName, exportBtn));
 
+    root.addEventListener("input", (event) => {
+      const target = event.target;
+      if (target && target.matches('input[type="range"], select')) updateResults(prefix, root, config);
+    });
+
     root.addEventListener("change", (event) => {
       const target = event.target;
-      if (target && target.matches("select")) updateResults(prefix, root, config);
+      if (target && target.matches('input[type="range"], select')) updateResults(prefix, root, config);
     });
 
     const cutoffLabel = qs(`#${prefix}-cutoff-label`, root);

@@ -98,13 +98,14 @@
   margin: 0;
 }
 
-/* 下拉菜单控制区 */
+/* 评分控制区 */
 .sas-ctrl {
   display: grid;
   grid-template-columns: minmax(12rem, 1fr) auto;
   align-items: center;
   column-gap: .5rem;
   row-gap: .25rem;
+  --slider-offset-y: .13rem;
   font-size: 0;
 }
 
@@ -144,6 +145,49 @@
   border-color: color-mix(in srgb, var(--md-default-fg-color) 25%, transparent);
 }
 
+.sas-ctrl input[type="range"] {
+  width: 100%;
+  min-width: 12rem;
+  touch-action: pan-y;
+  --r-track-h: .56rem;
+  --r-thumb-d: 1.1rem;
+  --r-thumb-offset-y: var(--slider-offset-y, .08rem);
+}
+
+.sas-ctrl input[type="range"]::-webkit-slider-runnable-track {
+  height: var(--r-track-h);
+  border-radius: .6rem;
+  background: color-mix(in srgb, var(--md-default-fg-color) 18%, transparent);
+}
+
+.sas-ctrl input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: var(--r-thumb-d);
+  height: var(--r-thumb-d);
+  border: 2px solid color-mix(in srgb, var(--md-primary-fg-color) 65%, transparent);
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 90%, #fff);
+  margin-top: calc((var(--r-track-h) - var(--r-thumb-d)) / 2 + var(--r-thumb-offset-y));
+  box-shadow: 0 1px 2px rgba(0,0,0,.12);
+}
+
+.sas-ctrl input[type="range"]::-moz-range-track {
+  height: var(--r-track-h);
+  border-radius: .6rem;
+  background: color-mix(in srgb, var(--md-default-fg-color) 18%, transparent);
+}
+
+.sas-ctrl input[type="range"]::-moz-range-thumb {
+  width: var(--r-thumb-d);
+  height: var(--r-thumb-d);
+  border: 2px solid color-mix(in srgb, var(--md-primary-fg-color) 65%, transparent);
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 90%, #fff);
+  transform: translateY(var(--r-thumb-offset-y));
+  box-shadow: 0 1px 2px rgba(0,0,0,.12);
+}
+
 /* 选项样式优化 */
 .sas-ctrl select option {
   padding: .5rem;
@@ -164,6 +208,7 @@
   width: 4.8rem;
   justify-content: center;
   font-size: .95rem;
+  transform: translateY(var(--slider-offset-y, 0));
 }
 
 /* SAS 使用分数显示 */
@@ -381,6 +426,11 @@
     font-size: .9rem;
   }
 
+  .sas-ctrl input[type="range"] {
+    width: 100%;
+    min-width: 7rem;
+  }
+
   .sas-badge {
     width: 4.8rem;
     padding: .1rem .35rem;
@@ -453,6 +503,11 @@
     width: 100%;
     min-width: 0;
     padding-right: 2.2rem;
+  }
+
+  .sas-ctrl input[type="range"] {
+    width: 100%;
+    min-width: 0;
   }
 
   .sas-badge {
