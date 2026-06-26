@@ -47,10 +47,13 @@
 │  ├─ 小步提交 + 回滚指引
 │  └─ PR 说明自动化方法(正则/脚本/范围)
 │
-└─ 提交前检查
-   ├─ make check
-   ├─ make build
-   └─ uv run mkdocs build --strict(额外严格检查,可选)
+└─ 提交与 PR(禁止直接推 main)
+   ├─ 新建功能分支(勿在 main 上改)
+   ├─ make check + make build
+   ├─ commit(Conventional Commits,小步提交)
+   ├─ push 功能分支
+   ├─ gh pr create
+   └─ 等待所有者审核合并(勿自行合并 main)
 ```
 
 ---
@@ -125,6 +128,56 @@ type 必须是:
 | ❌ 无迹可查 | 禁止无法验证来源的批量修改 |
 | ❌ 破坏索引 | 禁止破坏导航/引用完整性 |
 | ⚠️ 大规模重构 | 必须附回滚指引 |
+
+### 2.5 分支与 PR 工作流(强制)
+
+!!! danger "main 分支受 Ruleset 保护,禁止直接推送"
+
+    仓库默认分支 `main` 已配置 GitHub Ruleset(`Protect default branch`,id `18161454`):
+
+    - ❌ 禁止删除 `main`
+    - ❌ 禁止强推(`git push --force`)`main`
+    - ✅ 必须通过 Pull Request 合并
+    - ✅ PR 对话需解决(`required_review_thread_resolution`)
+    - ⚠️ 管理员亦不可绕过(`current_user_can_bypass: never`)
+
+    **所有改动必须走 PR 流程,不得直接推送 main。**
+
+#### 标准流程
+
+```text
+1. 新建功能分支(勿在 main 上改)
+   git checkout -b feat/<简短描述>
+
+2. 完成修改(遵循 §2.1-§2.4)
+
+3. 本地检查
+   make check
+   make build
+
+4. 小步提交(Conventional Commits)
+   git add <相关文件>
+   git commit -m "feat: 新增 Grounding 词条"
+
+5. 推送功能分支
+   git push -u origin feat/<简短描述>
+
+6. 创建 Pull Request
+   gh pr create --title "feat: 新增 Grounding 词条" \
+                --body "变更说明..."
+
+7. 等待所有者审核合并(勿自行合并 main)
+```
+
+#### 禁止事项
+
+| 操作 | 规范 |
+|------|------|
+| ❌ 直接推送 main | `git push origin main` 会被服务端拒绝 |
+| ❌ 强推 main | `git push --force origin main` 会被服务端拒绝 |
+| ❌ 删除 main | 删除分支会被服务端拒绝 |
+| ❌ 自行合并 PR | 由仓库所有者审核合并 |
+| ✅ 新建分支 → PR | 唯一合法的改动路径 |
 
 ---
 
