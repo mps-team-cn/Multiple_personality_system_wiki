@@ -11,9 +11,11 @@ PDF_ENGINE ?= tectonic
 CJK_FONT ?= Microsoft YaHei
 PDF_OUTPUT ?= releases/Multiple_Personality_System_wiki.pdf
 PDF_EXTRA_ARGS ?=
+KNOWLEDGE_INPUT ?= docs/entries
+KNOWLEDGE_OUTPUT ?= dist/knowledge/entries
 STATUS_TOP ?= 10
 
-.PHONY: help status links tags frontmatter build serve pdf fix lint check all
+.PHONY: help status links tags frontmatter build serve pdf fix lint check all knowledge
 
 help:
 	@printf '%s\n' \
@@ -25,6 +27,7 @@ help:
 		'  make frontmatter  检查词条 Frontmatter' \
 		'  make build        构建 MkDocs 站点' \
 		'  make serve        启动本地预览服务' \
+		'  make knowledge    导出干净知识库（供全文检索/qq-maid-bot 使用）' \
 		'  make pdf          导出 PDF' \
 		'  make fix          修复 docs/entries/ 下的 Markdown 格式' \
 		'  make lint         运行 markdownlint' \
@@ -38,6 +41,8 @@ help:
 		'  STATUS_TOP=10' \
 		'  PDF_ENGINE=tectonic' \
 		'  CJK_FONT=Microsoft YaHei' \
+		'  KNOWLEDGE_INPUT=docs/entries' \
+		'  KNOWLEDGE_OUTPUT=dist/knowledge/entries' \
 		'  PDF_OUTPUT=releases/Multiple_Personality_System_wiki.pdf' \
 		'  PDF_EXTRA_ARGS=...' \
 		'' \
@@ -45,6 +50,8 @@ help:
 		'  make status' \
 		'  make status STATUS_DIRS="docs/entries"' \
 		'  make status STATUS_TOP=20' \
+		'  make knowledge' \
+		'  make knowledge KNOWLEDGE_OUTPUT=/custom/path' \
 		'  make check' \
 		'  make pdf PDF_ENGINE=xelatex CJK_FONT="Noto Serif CJK SC"' \
 		'  make pdf PDF_OUTPUT=dist/wiki.pdf PDF_EXTRA_ARGS='\''--include-tags "guide:入门指南"'\'''
@@ -78,6 +85,9 @@ build:
 
 serve:
 	$(UV) run mkdocs serve
+
+knowledge:
+	$(UV) run $(PYTHON) tools/export_knowledge.py --input "$(KNOWLEDGE_INPUT)" --output "$(KNOWLEDGE_OUTPUT)"
 
 pdf:
 	@set -- $(UV) run $(PYTHON) tools/pdf_export/export_to_pdf.py --pdf-engine "$(PDF_ENGINE)" --cjk-font "$(CJK_FONT)"; \
