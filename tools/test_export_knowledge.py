@@ -303,13 +303,13 @@ def _run(content: str) -> str:
 
 
 def test_frontmatter_preserved():
-    """Frontmatter 原样保留。"""
+    """Frontmatter 仅保留 title 和 synonyms。"""
     result = _run(SAMPLE_WITH_FRONTMATTER)
     assert "title: 测试词条（Test Entry）" in result
-    assert "tags:" in result
-    assert "dx:测试" in result
-    assert "topic: 理论与分类" in result
-    assert "updated: 2026-01-01" in result
+    assert "tags:" not in result  # 不保留
+    assert "dx:测试" not in result  # 不保留
+    assert "topic: 理论与分类" not in result  # 不保留
+    assert "updated: 2026-01-01" not in result  # 不保留
     assert result.startswith("---")
 
 
