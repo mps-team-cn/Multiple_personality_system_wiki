@@ -67,6 +67,7 @@ bash tools/run_local_updates.sh --help
 | 提交到 IndexNow | `python3 tools/submit_to_indexnow.py --recent 50` |
 | 本地预览 | `make serve` |
 | 构建静态站点 | `make build` |
+| 导出干净知识库 | `make knowledge` |
 
 ## 📦 核心自动化工具(CI 集成)
 
@@ -130,6 +131,7 @@ bash tools/run_local_updates.sh --help
 | 工具 | 功能 | 使用频率 |
 |------|------|---------|
 | **pdf_export/** | Pandoc 驱动的整站 PDF 导出 | 📄 归档时 |
+| **export_knowledge.py** | 将 `docs/entries/` 词条导出为干净 Markdown，供全文检索引擎（如 qq-maid-bot）直接使用 | 🤖 内容更新时 |
 
 注意：
 - 为提升 LaTeX 兼容性，PDF 导出会移除 Markdown 删除线（`~~text~~`）标记并将 admonition 标题图标替换为纯文字。

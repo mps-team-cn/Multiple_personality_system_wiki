@@ -163,6 +163,9 @@ $RECYCLE.BIN/
 tmp/
 temp/
 
+# === 知识库导出 ===
+dist/knowledge/
+
 # === AI 词典生成工具的临时文件 ===
 data/analysis_report.json
 data/batches/
