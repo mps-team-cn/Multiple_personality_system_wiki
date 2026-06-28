@@ -322,6 +322,68 @@ def _remove_inline_footnotes_global(text: str) -> Tuple[str, int]:
     return new_text, count
 
 
+# ── Frontmatter 保留字段 ──
+# 输出时只保留这些字段，其余丢弃（机器人不需要）
+KEEP_FRONTMATTER_FIELDS = {"title", "synonyms"}
+
+
+def _strip_frontmatter(front_lines: List[str]) -> List[str]:
+    """
+    精简 Frontmatter 行，只保留 title 和 synonyms。
+    
+    输入：Frontmatter 正文行（不含 --- 分隔符）
+    输出：精简后的行列表，title 在前，synonyms 在后。
+    """
+    title_line: Optional[str] = None
+    synonyms_lines: List[str] = []
+    in_synonyms = False
+    
+    for line in front_lines:
+        stripped = line.strip()
+        
+        # 空行
+        if not stripped:
+            if in_synonyms:
+                synonyms_lines.append(line)
+            continue
+        
+        # 行首无空白 → 顶级 key
+        is_top_key = not line.startswith(" ") and not line.startswith("\t")
+        
+        if is_top_key:
+            # YAML 列表项 `- xxx` 虽然在行首无缩进，
+            # 但如果是 synonyms 的子项则不应被当作新 key
+            if in_synonyms and stripped.startswith("- "):
+                synonyms_lines.append(line)
+                continue
+            in_synonyms = False
+            if stripped.startswith("title:") or stripped.startswith("title :"):
+                title_line = line
+                continue
+            if stripped.startswith("synonyms:") or stripped.startswith("synonyms :"):
+                synonyms_lines.append(line)
+                in_synonyms = True
+                continue
+            # 其他顶级 key → 丢弃
+            continue
+        
+        # 缩进行
+        if in_synonyms:
+            synonyms_lines.append(line)
+            continue
+        
+        # 其他缩进行 → 丢弃
+        continue
+    
+    # 组装结果：title 在前，synonyms 在后
+    result: List[str] = []
+    if title_line:
+        result.append(title_line)
+    if synonyms_lines:
+        result.extend(synonyms_lines)
+    return result
+
+
 def process_entry(content: str, stats: ExportStats) -> str:
     """
     对单个词条内容执行全部清洗，返回清洗后的 Markdown。
@@ -336,7 +398,11 @@ def process_entry(content: str, stats: ExportStats) -> str:
         i = 1
         while i < len(lines):
             if lines[i].strip() == "---":
-                frontmatter_lines = lines[:i+1]
+                # 提取原始 frontmatter 行（不含 ---）
+                raw_front = lines[1:i]
+                # 精简为只保留 title 和 synonyms
+                stripped_front = _strip_frontmatter(raw_front)
+                frontmatter_lines = ["---"] + stripped_front + ["---"]
                 body_start = i + 1
                 break
             i += 1
