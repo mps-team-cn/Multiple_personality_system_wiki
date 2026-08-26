@@ -60,6 +60,21 @@ test("Q1–Q36 的 144 个选项与经典原始计分表一致", () => {
   assert.deepEqual(actual, expected);
 });
 
+test("第三部分使用集体与归属语境且保留六题结构", () => {
+  const section = SECTIONS[2];
+  const prompts = section.questions.map((question) => question[0]);
+
+  assert.equal(section.title, "第三部分：集体与归属");
+  assert.deepEqual(prompts, [
+    "你会投入时间和金钱来改善自己所属的集体吗？",
+    "你所属的集体面临严重的外部威胁，甚至可能因此覆灭。你会：",
+    "如果你受伤并需要立即帮助，集体中的其他人会愿意帮助你吗？",
+    "你尊重所属集体的规则和管理者吗？",
+    "集体中的其他人会排斥、躲避或嘲笑你吗？",
+    "你会担任管理或代表性的职责，为集体成员的利益发声吗？"
+  ]);
+});
+
 test("单独最高分保持 dominant 状态并正常组合为 LG", () => {
   const result = determineAlignmentDetails(totals(12, 8, 4, 11, 6, 2));
 
