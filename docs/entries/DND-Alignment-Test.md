@@ -106,9 +106,9 @@ comments: true
 
 ## 来源与许可
 
-1. [BUG 研发中心：官方版 DnD 阵营测试](https://unnamed42.github.io/2016-06-30-%E5%AE%98%E6%96%B9%E7%89%88DnD%E9%98%B5%E8%90%A5%E6%B5%8B%E8%AF%95.html)：中文题目与计分逻辑来源，作者署名 Dr. A. Clef。
-2. [豆瓣讨论：DND 阵营测试](https://www.douban.com/group/topic/5049348/)：上述页面标注的中文翻译来源。
+1. [PA D&D：What D&D Alignment Is Your PC?](https://www.padnd.com/alignment_test2.php)：36 道题目及选项的英文原文；本页中文题目据此重新翻译。
+2. [BUG 研发中心：官方版 DnD 阵营测试](https://unnamed42.github.io/2016-06-30-%E5%AE%98%E6%96%B9%E7%89%88DnD%E9%98%B5%E8%90%A5%E6%B5%8B%E8%AF%95.html)：计分逻辑参考，作者署名 Dr. A. Clef。
 3. [该页面的公开源码](https://github.com/unnamed42/unnamed42.github.io/blob/master/2016-06-30-%E5%AE%98%E6%96%B9%E7%89%88DnD%E9%98%B5%E8%90%A5%E6%B5%8B%E8%AF%95.html)：用于核对每个选项的计分方向和权重。
-4. 本页基于上述内容重新实现交互、无障碍提示和结果展示，并依原页面标示的 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans) 许可共享。
+4. 本页重新实现交互、无障碍提示和结果展示；相关实现依参考页面标示的 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans) 许可共享。
 
 “Dungeons & Dragons”及相关名称归其权利人所有；本页面与 Wizards of the Coast 无隶属或背书关系。
