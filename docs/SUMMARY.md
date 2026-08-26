@@ -362,6 +362,7 @@
         * [《西比尔》（Sybil, 1976）与多重人格文化原型](entries/Sybil-1976-Cultural-Prototype.md)
         * [《隐形人》（Mr. Robot）中的人格分裂叙事](entries/Mr-Robot-DID-Narrative.md)
         * [《魔法少女小圆》中的丘比与契约式“他者”（Madoka Magica Kyubey Otherness）](entries/Madoka-Magica-Kyubey-Otherness.md)
+        * [D&D 阵营测试（Dungeons & Dragons Alignment Test）](entries/DND-Alignment-Test.md)
         * [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](entries/Kafka-Metamorphosis-Identity-Dissolution.md)
         * [洛夫克拉夫特作品中的“心灵造物”与 Tulpa 影射（Lovecraft Tulpa Motifs）](entries/Lovecraft-Tulpa-Motifs.md)
         * [虚拟偶像与 Tulpa 的边界：初音未来现象（Hatsune Miku Virtual Idol Tulpa Boundary）](entries/Hatsune-Miku-Virtual-Idol-Tulpa-Boundary.md)

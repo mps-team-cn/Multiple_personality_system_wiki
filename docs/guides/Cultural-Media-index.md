@@ -19,6 +19,7 @@ hide:
 
 ## 词条一览
 
+- [D&D 阵营测试（Dungeons & Dragons Alignment Test）](../entries/DND-Alignment-Test.md) — *2026-08-26*
 - [陀思妥耶夫斯基《双重人格》（The Double）与自我分裂](../entries/Dostoevsky-The-Double-Self-Division.md) — *2026-03-27*
 - [《搏击俱乐部》（Fight Club, 1999）与身份解体隐喻](../entries/Fight-Club-1999-Identity-Metaphor.md) — *2026-03-27*
 - [卡夫卡《变形记》与异化的身份解体（Kafka Metamorphosis Identity Dissolution）](../entries/Kafka-Metamorphosis-Identity-Dissolution.md) — *2026-03-27*
