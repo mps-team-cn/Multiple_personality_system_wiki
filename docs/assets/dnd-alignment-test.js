@@ -1,7 +1,9 @@
 /*
  * D&D 九宫格阵营测试
  * - 纯前端计算，不存储、不发送答案
- * - 题目与计分逻辑据文末署名来源整理
+ * - 测试题与计分据经典 D&D 3e《Hero Builder's Guidebook》36 题阵营测试
+ * - 中文题目据 PA D&D Alignment Test 英文原文翻译
+ * - 阵营释义参考 D&D 2024（5R）
  * - 仅在包含 #dnd-alignment-app 的页面激活
  */
 (function () {
@@ -9,248 +11,248 @@
 
   const SECTIONS = [
     {
-      title: "第一卷：对亲戚的看法",
+      title: "第一部分：家族",
       questions: [
-        ["长辈在家族中公开反对你，你会：", [
-          ["接受批评，改变方法", "xg", 2],
-          ["尝试与长辈妥协，用折衷的方法", "xg", 1],
-          ["忽略长辈的轻蔑，诽谤他们", "xe", 1],
-          ["千方百计使他们收声", "xe", 2]
+        ["家族长辈正在向其他家族成员表达对你的不满。你会：", [
+          ["接受批评，并改变自己的做法", "xg", 2],
+          ["设法与他们达成妥协", "xg", 1],
+          ["无视他们的轻蔑，同时败坏这些长辈的名声", "xe", 1],
+          ["不惜一切办法让他们闭嘴", "xe", 2]
         ]],
-        ["你会放弃一个前途无量的职业来帮忙解决家庭的燃眉之急吗？", [
-          ["不用想，肯定会", "xg", 2],
-          ["会，但有点不情愿", "xg", 1],
-          ["除非我肯定自己会很快重回工作岗位", "xn", 1],
+        ["家族急需帮助时，你会放弃一份前途光明的事业吗？", [
+          ["会，毫不犹豫", "xg", 2],
+          ["会，但会有些不情愿", "xg", 1],
+          ["只有在确定自己很快能重返事业时才会", "xn", 1],
           ["不会", "xn", 2]
         ]],
-        ["你会为了前途而背叛家人吗？", [
-          ["会，不带一点罪恶感", "xe", 2],
-          ["会——只要我能秘密行事", "xe", 1],
-          ["我会抗拒这份诱惑", "xn", 1],
-          ["我认为这个主意极为可恨", "xn", 2]
+        ["你会为了推进自己的事业而背叛一位家族成员吗？", [
+          ["会，丝毫不会感到内疚", "xe", 2],
+          ["会，只要能暗中进行", "xe", 1],
+          ["我会抵抗这种诱惑", "xn", 1],
+          ["我觉得这种想法令人厌恶", "xn", 2]
         ]],
-        ["你尊敬一家之主吗？", [
-          ["他们的言语指导着我的行动", "lx", 2],
+        ["你尊重家族领袖吗？", [
+          ["他们的话指引着我的行动", "lx", 2],
           ["他们是我的榜样", "lx", 1],
-          ["他们通常与我无关", "cx", 1],
-          ["我当他们透明", "cx", 2]
+          ["他们往往不了解我的生活", "cx", 1],
+          ["他们根本不了解现实", "cx", 2]
         ]],
-        ["如果家族要你与一个令人作呕的家伙结婚，你会：", [
-          ["听从安排，为能帮助家族而自豪", "lx", 2],
-          ["会，但强颜欢笑", "lx", 1],
-          ["巧妙地抗婚", "nx", 1],
-          ["逃跑", "nx", 2]
+        ["如果家族安排你与一个令你厌恶的人结婚，你会：", [
+          ["接受婚事，并为能效力家族而自豪", "lx", 2],
+          ["答应婚事，但掩饰自己的不情愿", "lx", 1],
+          ["暗中设法阻挠这桩婚事", "nx", 1],
+          ["逃走", "nx", 2]
         ]],
-        ["有一位家人疏远了你。在他弥留之际，他想与你和解。你会：", [
-          ["与他谈谈，但坚守立场", "cx", 2],
-          ["不跟他说话", "cx", 1],
-          ["不计前嫌，敞开心扉地讨论前事", "nx", 1],
-          ["积极进行和解，并留心听他的遗言", "nx", 2]
+        ["你与一位家族成员关系疏远。对方临终前希望与你和解。你会：", [
+          ["与对方交谈，但坚持自己的立场", "cx", 1],
+          ["拒绝与对方交谈", "cx", 2],
+          ["坦率而不带怨恨地谈论你们疏远的原因", "nx", 1],
+          ["主动寻求和解，并听取对方的临终遗言", "nx", 2]
         ]]
       ]
     },
     {
-      title: "第二卷：对朋友的看法",
+      title: "第二部分：朋友",
       questions: [
-        ["一位位高权重的腐败法官允诺：如果你作出对朋友不利的假证，就给你一大笔钱。你会：", [
-          ["照做，然后拿钱", "xe", 2],
-          ["拿钱照做，但尽量使证词显得无力", "xe", 1],
-          ["拒绝", "xg", 1],
-          ["不管结果如何，都站在朋友那一边", "xg", 2]
+        ["一位权势显赫却腐败的法官以财富为条件，要你出庭指证朋友。你会：", [
+          ["指证朋友并收下钱", "xe", 2],
+          ["收钱作证，但尽量让自己的证词不起作用", "xe", 1],
+          ["拒绝这项提议，也拒绝出庭作证", "xg", 1],
+          ["不计后果地出庭为朋友作证", "xg", 2]
         ]],
-        ["你会亲近朋友，还是与大部分人保持距离以保安全？", [
-          ["我有一大群密友", "xg", 2],
-          ["我有一些密友", "xg", 1],
-          ["我有几个密友", "xn", 1],
-          ["我会与人保持距离", "xn", 2]
+        ["你容易与朋友建立亲密关系，还是倾向于和大多数人保持距离？", [
+          ["我有许多亲密朋友", "xg", 2],
+          ["我有一些亲密朋友", "xg", 1],
+          ["我只有少数亲密朋友", "xn", 1],
+          ["我尽量与人保持距离", "xn", 2]
         ]],
         ["你背叛过朋友吗？", [
-          ["我干过不止一次，有时也能逃避惩罚", "xe", 2],
-          ["我只干过那么一次", "xe", 1],
-          ["我曾被怂恿过这么做，但从未做过", "xn", 1],
-          ["我从未考虑过这种事", "xn", 2]
+          ["不止一次，而且有时我没有受到惩罚", "xe", 2],
+          ["有过一次", "xe", 1],
+          ["我曾动过念头，但从未真的做过", "xn", 1],
+          ["我绝不会考虑这种事", "xn", 2]
         ]],
-        ["你怎么看待“执子之手，与子偕老”这类对爱人的终生承诺？", [
-          ["我曾有过或正渴望着这么一段关系", "lx", 2],
-          ["这种关系挺理想的——如果能成功的话", "lx", 1],
-          ["我担心自己会错过其他人对我的爱", "cx", 1],
-          ["作茧自缚？真是天大的错误", "cx", 2]
+        ["你如何看待与一位伴侣相守终生的承诺？", [
+          ["我拥有或希望拥有这样的爱情", "lx", 2],
+          ["这样的爱情很理想——如果真能实现的话", "lx", 1],
+          ["我担心这样会错过与其他人发展关系的可能性", "cx", 1],
+          ["把自己绑在一个人身上？大错特错", "cx", 2]
         ]],
-        ["朋友借了你钱，你会要求他们归还吗？", [
-          ["会，而且写好借据，不得抵赖", "lx", 2],
-          ["会，但期限上会宽松些", "lx", 1],
-          ["不会，尽管还了会更好", "nx", 1],
-          ["不会，他们欠我一个人情", "nx", 2]
+        ["借钱给朋友时，你会坚持要求对方偿还吗？", [
+          ["会，而且我会写好契约，以免产生误会", "lx", 2],
+          ["会，但我会尽量在具体条件上保持灵活", "lx", 1],
+          ["不会，不过对方愿意还钱当然很好", "nx", 1],
+          ["不会，这样他们就欠我一个人情", "nx", 2]
         ]],
         ["你仍与儿时玩伴保持联络吗？", [
           ["是的，我们定期通信", "nx", 2],
           ["是的，我们努力保持联络", "nx", 1],
-          ["不会，我经常搬家", "cx", 1],
-          ["不会，我不再与他们有共同之处", "cx", 2]
+          ["没有，我太常搬家了", "cx", 1],
+          ["没有，我和他们已经没有共同之处", "cx", 2]
         ]]
       ]
     },
     {
-      title: "第三卷：对集体的看法",
+      title: "第三部分：聚居地与社区",
       questions: [
-        ["你会花时间和金钱在集体上吗？", [
-          ["会，我会优先考虑集体的需要", "xg", 2],
-          ["如果我的需求被满足，我会尽我所能", "xg", 1],
-          ["不会，我没钱也不闲", "xn", 1],
-          ["不会，花时间和金钱在集体上是一种浪费", "xn", 2]
+        ["你会投入时间和金钱来改善本地社区吗？", [
+          ["会，社区的需要是我的首要考虑", "xg", 2],
+          ["会，在满足自己的需要后，我会尽可能多地捐助", "xg", 1],
+          ["不会，我没有多余的时间或金钱", "xn", 1],
+          ["不会，把时间和金钱花在本地社区上纯属浪费", "xn", 2]
         ]],
-        ["集体面临被侵害的威胁，你会：", [
-          ["保卫它直至自己的最后一口气", "xg", 2],
-          ["和残存同伴构筑防御", "xg", 1],
-          ["一看到势头不对就逃跑", "xe", 1],
-          ["与入侵者达成协议，成为间谍", "xe", 2]
+        ["你的社区面临入侵威胁。你会：", [
+          ["战斗至最后一息，保卫社区", "xg", 2],
+          ["与社区中的其他人一同保卫当地", "xg", 1],
+          ["局势一变得严峻就逃走", "xe", 1],
+          ["与敌人达成交易，充当间谍", "xe", 2]
         ]],
-        ["如果你受伤了，需要急救，你的同伴愿意帮助你吗？", [
-          ["会，因为他们知道我也会为他们做同样的事", "xn", 2],
-          ["会，因为我很受欢迎", "xn", 1],
-          ["可能不会，因为我不受信任", "xe", 1],
-          ["肯定不会，我在集体中树敌了", "xe", 2]
+        ["如果你受伤并需要立即救助，家乡的人会愿意帮助你吗？", [
+          ["会，因为他们知道我也会这样帮助他们", "xn", 2],
+          ["会，因为我在家乡通常很受欢迎", "xn", 1],
+          ["可能不会，因为家乡的人不信任我", "xe", 1],
+          ["肯定不会，我在家乡树过一些敌人", "xe", 2]
         ]],
-        ["你尊重集体的规章和领袖吗？", [
-          ["毋庸置疑，是的", "lx", 2],
-          ["是的，总的来说它们是最佳的管理方式", "lx", 1],
-          ["当它适合我时，我才会——有些规章我并不认同", "cx", 1],
-          ["我不关心它们；它们拿我没辙", "cx", 2]
+        ["你尊重社区的法律和权威吗？", [
+          ["是的，毫无疑问", "lx", 2],
+          ["是的，总体而言，这是最好的治理方式", "lx", 1],
+          ["看情况——有些法律我就是不认同", "cx", 1],
+          ["我不理会那些当权者；他们管不到我", "cx", 2]
         ]],
-        ["同伴回避你，或嘲笑你吗？", [
-          ["是的，这些井底之蛙不会理解超规格的人", "cx", 2],
-          ["有些会，因为并不是所有人都认同我", "cx", 1],
-          ["不会，我看起来一切正常", "nx", 1],
-          ["不会，我就是集体中正常人的标准", "nx", 2]
+        ["家乡的人会排斥、躲避或嘲笑你吗？", [
+          ["会，他们狭隘的头脑容不下不符合常规的人", "cx", 2],
+          ["有些人会，因为我并非总能融入人群", "cx", 1],
+          ["不会，大家通常认为我很正常", "nx", 1],
+          ["不会，我就是社区里衡量‘正常’的标准", "nx", 2]
         ]],
-        ["你当官会为民作主，或者希望代表集体的意志吗？", [
-          ["做这种事是我所乐意接受的荣誉", "lx", 2],
-          ["当然，这是每个人的义务", "lx", 1],
-          ["不会，除非无人能接手此事", "nx", 1],
-          ["不会，我不想为集体利益负责", "nx", 2]
+        ["你会竞选公职，或以其他公开方式代表社区利益吗？", [
+          ["我会欣然接受这份荣誉", "lx", 2],
+          ["当然，这是每个人的责任", "lx", 1],
+          ["只有在没有其他人能胜任时才会", "nx", 1],
+          ["不会，我不想为社区的福祉负责", "nx", 2]
         ]]
       ]
     },
     {
-      title: "第四卷：对国家的看法",
+      title: "第四部分：国家",
       questions: [
-        ["你的国家闹饥荒，你会：", [
-          ["与其他人共享自己有的食物", "xg", 2],
-          ["自己吃尽可能少，余下的给其他人", "xg", 1],
-          ["偷取自己生存所需的食物", "xe", 1],
-          ["偷取尽可能多的食物，然后高价卖出", "xe", 2]
+        ["你的国家正遭受饥荒。你会：", [
+          ["把自己拥有的食物与他人分享", "xg", 2],
+          ["自己尽量少吃，把剩下的分给他人", "xg", 1],
+          ["偷取维持生存所需的食物", "xe", 1],
+          ["尽可能多地偷取食物，再高价卖回给社区", "xe", 2]
         ]],
-        ["给你足够的钱，你会往国王的酒中下毒吗？", [
-          ["会，类似的事我干过", "xe", 2],
-          ["如果能逃避惩罚，我会", "xe", 1],
-          ["不会，尽管这一大笔钱很诱人", "xn", 1],
-          ["不会，而且我会提醒国王小心这个阴谋", "xn", 2]
+        ["如果报酬足够高，你会在国王的酒杯中下毒吗？", [
+          ["会，我以前做过类似的事", "xe", 2],
+          ["会，只要我认为自己能逃脱惩罚", "xe", 1],
+          ["不会，尽管巨额报酬会让我心动", "xn", 1],
+          ["不会，而且我会警告国王有人图谋下毒", "xn", 2]
         ]],
-        ["瘟疫传遍你的国家，你会：", [
-          ["接下寻找解药的危险任务", "xg", 2],
-          ["尽力治好病人", "xg", 1],
+        ["一场瘟疫正在席卷你的国家。你会：", [
+          ["承担寻找解药的危险任务", "xg", 2],
+          ["尽己所能医治病人", "xg", 1],
           ["避免接触病人", "xn", 1],
           ["逃离国家", "xn", 2]
         ]],
-        ["你尊重领主的法律权威吗？", [
-          ["是的，领主万岁！", "lx", 2],
+        ["你尊重这片土地上统治者的合法权威吗？", [
+          ["尊重，女王万岁！", "lx", 2],
           ["是的，我们的统治者大体上公平、公正", "lx", 1],
-          ["不会，统治者也只是普通人", "cx", 1],
-          ["不会，权力必定导致腐化", "cx", 2]
+          ["不尊重，统治者并不比任何人高一等", "cx", 1],
+          ["不尊重，统治者无一例外都会被权力腐化", "cx", 2]
         ]],
-        ["给你一笔稳赚的生意，你会为敌国做间谍吗？", [
-          ["会，因为我的国家势必任人鱼肉", "cx", 2],
-          ["会，因为国家机密对我无关紧要", "cx", 1],
-          ["不会，我会被抓", "nx", 1],
-          ["不会，我不会辜负国家对我的信任", "nx", 2]
+        ["如果有人开出一笔相当丰厚的报酬，你会为敌对的外国势力充当间谍吗？", [
+          ["会，因为这个国家也该受点挫折", "cx", 2],
+          ["会，因为国家机密对我来说无关紧要", "cx", 1],
+          ["不会，因为我可能会被抓", "nx", 1],
+          ["不会，因为我绝不会辜负国家对我的信任", "nx", 2]
         ]],
-        ["你依靠政府来建立社会契约和保障所有权吗？", [
-          ["是的，因为维护法律比任何个人争执都重要", "lx", 2],
-          ["是的，因为法庭就是为解决这种争执而设立的", "lx", 1],
-          ["你在开玩笑吗？政府连路都不会铺", "nx", 1],
-          ["绝对不会；如果我不能自己保护财产，就无权拥有它", "nx", 2]
+        ["你依靠政府来执行契约并保障财产权吗？", [
+          ["是的，因为维护法治比任何个人纠纷都重要", "lx", 2],
+          ["是的，因为法院最适合处理这类纠纷", "lx", 1],
+          ["你在开玩笑吗？政府连路都铺不好", "nx", 1],
+          ["绝不。如果我不能亲自守住财产，就不配拥有它", "nx", 2]
         ]]
       ]
     },
     {
-      title: "第五卷：对刑罚的看法",
+      title: "第五部分：法律与刑罚",
       questions: [
-        ["如果你入狱了，你会伤害或杀死其他人来脱狱吗？", [
-          ["会，服刑这么多年等于锁住自己", "xe", 2],
-          ["会，在犯事时便已知道这风险", "xe", 1],
-          ["不会，除非只造成容易愈合的小伤", "xn", 1],
-          ["不会，那些守卫只是在尽本分", "xn", 2]
+        ["如果你被监禁，你会为了逃脱而伤害或杀死他人吗？", [
+          ["会。谁让他们把我关起来，活该", "xe", 2],
+          ["会。他们干这份工作时就知道有这种风险", "xe", 1],
+          ["不会，除非只是造成很快能痊愈的轻伤", "xn", 1],
+          ["不会。那些守卫只是在履行职责", "xn", 2]
         ]],
-        ["你接受贵族有权恶劣对待手下的仆人吗？", [
-          ["是的，贵族们只是幸运地投了个好胎", "xn", 2],
-          ["是的，有时要靠吓，他们才肯干活", "xn", 1],
-          ["不会，贵族应仁慈地统治", "xg", 1],
-          ["任何人都无权恶劣对待别人", "xg", 2]
+        ["你认同贵族有权恶劣对待在其土地上劳作的农奴吗？", [
+          ["认同。他们该庆幸自己不是奴隶", "xn", 2],
+          ["认同，因为有时只有恐惧能促使他们干活", "xn", 1],
+          ["不认同，贵族应当尽可能仁慈地统治", "xg", 1],
+          ["不认同。任何人都没有‘权利’恶劣对待别人，绝无例外", "xg", 2]
         ]],
-        ["你意外地犯罪了，你会：", [
-          ["认罪，并向受害者赔偿", "xg", 2],
-          ["认罪，向法官请求宽大处理", "xg", 1],
-          ["隐瞒自己的涉案事实，必要时说谎", "xe", 1],
-          ["嫁祸于人", "xe", 2]
+        ["你无意中犯了罪。你会：", [
+          ["投案自首，并设法补偿受害者", "xg", 2],
+          ["投案自首，请求法庭宽大处理", "xg", 1],
+          ["隐瞒自己牵涉其中的事实，必要时说谎", "xe", 1],
+          ["设法把罪名栽赃给别人", "xe", 2]
         ]],
-        ["如果犯罪了，你会认罪吗？", [
-          ["会，因为我有这个责任", "lx", 2],
-          ["会，因为我会因此获得轻判", "lx", 1],
-          ["不会，我会等检察官证明我有罪", "nx", 1],
-          ["不会，我会证明自己“无罪”", "nx", 2]
+        ["如果确实犯了罪，你会认罪吗？", [
+          ["会，因为认罪是我的责任", "lx", 2],
+          ["会，因为这样或许能获得较轻的判决", "lx", 1],
+          ["不会，我会让司法官证明我有罪", "nx", 1],
+          ["不会，而且我会设法‘证明’自己无罪", "nx", 2]
         ]],
-        ["如果可能被惩罚，你会表明一个革命性的政见吗？", [
+        ["如果表达具有革命色彩的政治观点会受到惩罚，你还会公开表达吗？", [
           ["会，我宁愿受罚也不愿保持沉默", "cx", 2],
           ["会，总要有人说真话", "cx", 1],
           ["不会，尽管私下会对朋友说", "nx", 1],
-          ["不会，不值得为政治费神", "nx", 2]
+          ["不会，政治不值得我为此惹上麻烦", "nx", 2]
         ]],
-        ["旅行时，你目击了一场袭击。你被传去作证，这会非常耽误行程。你会：", [
-          ["连夜溜走，避免作证", "cx", 2],
+        ["旅行途中，你目击了一场袭击。你被要求出庭作证，这将严重耽误行程。你会：", [
+          ["夜里溜出城镇，逃避作证", "cx", 2],
           ["说自己什么也没看到", "cx", 1],
-          ["勉强留下，作证，然后离开", "lx", 1],
-          ["留下直至结案所需证供足够", "lx", 2]
+          ["不情愿地留下，作完证后便离开", "lx", 1],
+          ["一直留到审判结束，以备需要进一步作证", "lx", 2]
         ]]
       ]
     },
     {
-      title: "第六卷：对财富的看法",
+      title: "第六部分：财富与工作",
       questions: [
-        ["财富的最大用途是什么？", [
+        ["财富的最佳用途是什么？", [
           ["帮助穷人和不幸的人", "xg", 2],
-          ["满足亲朋好友的需要", "xg", 1],
-          ["让自己达到人生巅峰", "xe", 1],
-          ["不仅达到巅峰，还要阻止别人超过自己", "xe", 2]
+          ["满足亲友的需要", "xg", 1],
+          ["让自己稳居顶层", "xe", 1],
+          ["不仅让自己稳居顶层，还要阻止别人爬到同一高度", "xe", 2]
         ]],
         ["遇到乞丐，你会：", [
-          ["慷慨地给钱", "xg", 2],
-          ["恰到好处地给钱", "xg", 1],
-          ["只给自己认为无所谓的钱——至多一两块", "xn", 1],
-          ["视而不见", "xn", 2]
+          ["慷慨施舍", "xg", 2],
+          ["适量施舍", "xg", 1],
+          ["只给即使失去也不心疼的钱——最多一两块钱", "xn", 1],
+          ["从旁走过，视而不见", "xn", 1]
         ]],
         ["通过魔法，你可以使村里的商人以为你的铜币是金币。你会这样做吗？", [
-          ["会，而且还要尽可能地消费", "xe", 2],
+          ["会，而且会尽可能多买东西", "xe", 2],
           ["会，但只骗富商", "xe", 1],
           ["不会，风险太大", "xn", 1],
           ["不会，商人也要养家糊口", "xn", 2]
         ]],
-        ["你有两份工作可选：一份酬劳更多，另一份较稳定。你会选哪一份？", [
-          ["肯定是更赚钱的；稳定的工作听上去像苦差事", "nx", 2],
-          ["可能是前者，尽管我会看看后者做些什么", "nx", 1],
-          ["后者，除非前者赚的钱多到吓人", "lx", 1],
-          ["肯定是稳定的，因为我有长远计划", "lx", 2]
+        ["你收到两份工作邀请：一份薪酬更高，另一份安稳可靠。你会选哪一份？", [
+          ["肯定选高薪的；安稳工作听起来实在太乏味了", "nx", 2],
+          ["大概选高薪的，不过我也会了解一下安稳的那份", "nx", 1],
+          ["选安稳的，除非另一份工作的薪酬高得惊人", "lx", 1],
+          ["肯定选安稳的，因为我会做长远规划", "lx", 2]
         ]],
         ["最佳的致富途径是什么？", [
           ["这关乎天时地利，还有一时运气", "cx", 2],
           ["灵活变通会带来更多机会", "cx", 1],
-          ["按照一个有适度风险的长期计划来做", "lx", 1],
+          ["按照一个包含自己能够接受的风险水平的长期计划来做", "lx", 1],
           ["努力工作，坚持不懈", "lx", 2]
         ]],
-        ["如果你接手一项工作，尽管它会很危险，你会努力完成吗？", [
-          ["会，我说话算数", "nx", 2],
-          ["会，因为别人会认为我信得过，这很好", "nx", 1],
-          ["你可以赌我会不会爽约", "cx", 1],
-          ["如果这不是什么好差事，那算了", "cx", 2]
+        ["如果你接受了一份工作或契约，后来任务变得危险得多，你还会努力完成吗？", [
+          ["会，我一诺千金", "nx", 2],
+          ["会，因为保持值得信赖的声誉很重要", "nx", 1],
+          ["我肯定会要求重新协商条件", "cx", 1],
+          ["如果这已经不是一笔划算的交易，约定就此作废", "cx", 2]
         ]]
       ]
     }
@@ -260,54 +262,82 @@
     lg: {
       name: "守序善良",
       english: "Lawful Good",
-      description: "守序善良的人物相信，规律而强大的社会和高尚的政府，可以让大多数人民生活得更好。只要人们相信法律，并试着互相帮助，整个社会就将因此而进步。因此，这个阵营的人物将会朝着这个方向努力，他们会尽可能地为大多数人带来较多的福利及较少的伤害。他们必定信守自己的承诺。守序善良的人物，特别是圣武士，时常自己陷于善良与法律相冲突的两难处境。比如履行誓言可能会伤及无辜时，或在宗教法规和地方法律相矛盾时。"
+      description: "守序善良的人努力做正确的事，同时重视社会规范、责任与秩序。他们通常相信良好的制度、承诺和规则能够保护他人，并愿意在这些原则下帮助他人、维护正义。"
     },
     ng: {
       name: "中立善良",
       english: "Neutral Good",
-      description: "中立善良的人物相信力量平衡是十分重要的事，单方面地强调秩序或混乱，是无法达到至善的。因为整个宇宙中充满了朝着各式各样的目标而努力的生物，所以若要追求至善，便不能破坏这种平衡，甚至的设法维持这种平衡，如果说支持社会秩序可以带来至善，便得以为之。若推翻既有的社会秩序就可以达到至善，那也必须为之。社会结构对他们来说，没什么重大意义。中立善良的长处是，行善不为阶级偏见所影响。"
+      description: "中立善良的人会尽己所能去帮助他人、做正确的事。他们可以遵循规则和社会规范，但不会认为自己必须受到这些规则束缚；当规则妨碍善行时，他们更看重事情本身是否正确。"
     },
     cg: {
       name: "混乱善良",
       english: "Chaotic Good",
-      description: "混乱善良的人物虽然喜欢按照自己的意思行事，心地却不错。尽管他们认同一切美德和公理，却不愿意受到律法和规范的约束。想要任意驱使这些人，要他们遵照命令做事是不可能的。这些人有自己的一套道德标准，虽然不至于为恶，但也不见得和一般大众的道德标准完全相同。混乱善良人物常会因为感到受人指使而在团队内制造矛盾，比起有计划的行动他们更喜欢即兴发挥。混乱善良阵营的人物不介意用恶毒的手段制裁他们认为是邪恶的人，即便并不喜欢这样做，但他们本身却并不带有恶意。"
+      description: "混乱善良的人依照自己的良知行事，很少因为社会期待、传统或权威而改变判断。他们珍视自由，也愿意帮助他人；如果规则与自己认定的正义发生冲突，他们通常会选择良知。"
     },
     ln: {
       name: "守序中立",
       english: "Lawful Neutral",
-      description: "守序中立的人物而言，秩序和组织是非常重要的。他们认同强大、井然有序的统治阶层，不管这个统治阶层是专制的暴君，还是安和乐利的民主政府，这些人都不在乎，世界上必须有法律，而法律则必须被遵守。对他们而言，绝对的秩序比什么道德良知来的重要。只要是规定，不管结果是好是坏，都必须遵行无误。绝对公正的法官，和绝对服从命令的士兵，都是此阵营的最佳典范。守序中立对善恶持中立态度，但这不代表他们是不道德的、是道德虚无主义者或是没有道德立场。他们只不过是将道德观念永远置于服从信条、传统或者法律之下。他们通常有强烈的伦理信条，但这一信条是首先基于其信念体系，而非基于善恶认同。"
+      description: "守序中立的人重视法律、传统、职责或个人信条，并倾向于按照明确的原则行动。对他们而言，可靠、一致和遵守准则本身十分重要，而善恶通常不是决定行动的首要因素。"
     },
     nn: {
       name: "绝对中立",
       english: "True Neutral",
-      description: "绝对中立的人物相信绝对平衡的力量，因此，他们拒绝采取任何被视为邪恶和暴力的行动。绝对中立的人会尽力避免和善良或邪恶，秩序或叛逆的力量合流。有时候他们发现自己被迫得和某个阵营结盟。为了保持平衡，这些人会刻意改变立场，和弱势者合作。然而，当强弱势力对换时，他们也会毫不犹豫地跟着改变立场。"
+      description: "绝对中立的人通常不愿在善恶或秩序与混乱之间明确站队。他们更倾向于根据具体情况判断，在当下选择自己认为最合理、最合适的做法，而不是坚持某一种阵营理念。"
     },
     cn: {
       name: "混乱中立",
       english: "Chaotic Neutral",
-      description: "混乱中立的人按自己一时的兴致行动。他是一个完全的个人主义者。他重视自己的自由权利，但并不致力于保护别人的自由。他蔑视权威，愤恨约束并且挑战传统。混乱中立者并不会向无政府运动那样有意瓦解组织。如果这么做，他必须把自己的阵营转成善良(希望解放他人)或是邪恶(使异己受苦)。混乱中立的寻常称谓是“真正混乱”。注意，混乱中立者的行为也许很难预测，但他的举止并非完全随机的，他从桥上的走过去的可能性和从桥上跳下去的可能性大小并不相等。混乱中立是一个真正自由于社会约束和对改良社会的空想的阵营。"
+      description: "混乱中立的人重视个人自由，倾向于按照自己的想法和当下判断行动，不喜欢受到规则、传统或他人期待的约束。他们并不必然希望帮助或伤害别人，只是不愿让外界替自己决定该怎么做。"
     },
     le: {
       name: "守序邪恶",
       english: "Lawful Evil",
-      description: "守序邪恶的人有系统地得到他想要的东西，此行为受到他行为准则的限制，但并不顾及受其伤害的人。他关心传统、忠诚和秩序，但不关心自由、尊严和生命。他按规则行动，但没有怜悯和同情。他觉得待在统治阶层里很舒服，愿意支配别人，但也乐意为别人服务。他处罚谴责别人并不是根据他们的行为而是根据种族、信仰、祖国或社会阶层。他不愿违反法律或承诺，这种不愿部分是因为他的天性，部分是因为他需要秩序来保护他免受道德上的反对。某些守序邪恶者有特别的禁忌，比如不冷血嗜杀(但让属下去做)或不伤害儿童(如果可能的话)。他们认为这些良心上的原则使自己比一般不合人道的恶人水准高。诡计多端扩展自己势力并他的压迫人民的贵族是一个守序邪恶的例子。某些守序邪恶的人或生物狂热的效忠于邪恶，就好像十字军效忠于良善一样。伤害别人是他们这么做的目的，传播邪恶本身也是他们乐于如此的原因。他们也可能认为行恶是对某种邪恶神明或主人的责任的一部分。守序邪恶有时被称为“恶魔般的”，因为恶魔是守序邪恶的化身和典型。守序邪恶是一个有方法有意图并且能常常有所成就的邪恶阵营。"
+      description: "守序邪恶的人会有计划地追求自己的利益，即使因此伤害他人。他们仍然重视某种秩序，例如法律、传统、忠诚关系或个人准则，并倾向于在这些限制范围内取得自己想要的东西。"
     },
     ne: {
       name: "中立邪恶",
       english: "Neutral Evil",
-      description: "中立邪恶的人物为了自己可以做出任何事，一切都是为了自己，就这么简单。他们从不为死在手下的人掉泪，不论是为财、为了高兴或只是为了方便。他们不喜欢纪律，也不遵守法律、传统或任何高贵的信念。然而，他们也不像混乱邪恶者那样浮躁不安，或热爱冲突。有些中立邪恶者将邪恶视为一种理想，想要献身于邪恶。这种恶人大多是邪恶神祇或秘密组织的成员。一般人习惯将中立邪恶称为“真正的邪恶”。中立邪恶的可怕在于表现出全然的邪恶，完全没有荣誉感和对象区别。"
+      description: "中立邪恶的人首先考虑自己的利益，只要认为值得且能够承担后果，就可能利用或伤害他人。他们既不会因为秩序而约束自己，也不会为了反抗秩序而行动，核心通常只是怎样最有利于自己。"
     },
     ce: {
       name: "混乱邪恶",
       english: "Chaotic Evil",
-      description: "混乱邪恶的人物会因为贪婪、憎恨或欲望而做出任何事。他暴躁易怒、满怀恶意、独断暴力而且无法预料。为了得到想要的东西，他会冲动而鲁莽地行动，散播邪恶与混乱。所幸他的计划大多杂乱无章，其团体大多组织散乱。一般而言，混乱邪恶者只有被强迫时才会与人合作，其领袖常要面对斗争与暗杀。混乱邪恶的可怕在于不仅破坏美丽与生命，也破坏了美丽与生命赖以存在的秩序。"
+      description: "混乱邪恶的人受贪欲、仇恨、欲望或冲动驱使，可能任意伤害他人，并且很少在意法律、传统或他人的权利。他们既缺少对他人的善意，也厌恶外界约束，是九种阵营中最倾向于破坏与暴力的一类。"
     }
   };
 
   const GRID_ORDER = ["lg", "ng", "cg", "ln", "nn", "cn", "le", "ne", "ce"];
+  const RESULT_NOTE = "分数只反映这轮答案在本测试规则下的相对倾向。只有最高分精确同分时才标记边界；分数接近但不同不会改变 canonical 九宫格结果。";
+  const AXIS_NAMES = {
+    order: { l: "守序", n: "中立", c: "混乱" },
+    moral: { g: "善良", n: "中立", e: "邪恶" }
+  };
   const TOTAL_QUESTIONS = SECTIONS.reduce(function (sum, section) {
     return sum + section.questions.length;
   }, 0);
+  const AXIS_MAXIMUMS = calculateAxisMaximums();
+
+  function calculateAxisMaximums() {
+    const maximums = { lx: 0, nx: 0, cx: 0, xg: 0, xn: 0, xe: 0 };
+
+    SECTIONS.forEach(function (section) {
+      section.questions.forEach(function (question) {
+        const questionMaximums = {};
+        question[1].forEach(function (option) {
+          const key = option[1];
+          const score = Number(option[2] || 0);
+          if (Object.prototype.hasOwnProperty.call(maximums, key)) {
+            questionMaximums[key] = Math.max(questionMaximums[key] || 0, score);
+          }
+        });
+        Object.keys(questionMaximums).forEach(function (key) {
+          maximums[key] += questionMaximums[key];
+        });
+      });
+    });
+
+    return maximums;
+  }
 
   function createElement(tag, className, text) {
     const node = document.createElement(tag);
@@ -393,7 +423,20 @@
     const winners = [first, neutral, last].filter(function (item) {
       return item.value === max;
     });
-    return winners.length === 1 ? winners[0].code : neutral.code;
+    let state = "dominant";
+    if (winners.length === 3) {
+      state = "full_tie";
+    } else if (winners.length === 2) {
+      state = winners.some(function (item) { return item.code === neutral.code; })
+        ? "boundary"
+        : "extreme_tie";
+    }
+
+    return {
+      code: winners.length === 1 ? winners[0].code : neutral.code,
+      state: state,
+      winners: winners.map(function (item) { return item.code; })
+    };
   }
 
   function alignmentScores(totals) {
@@ -410,7 +453,7 @@
     };
   }
 
-  function determineAlignment(totals) {
+  function determineAlignmentDetails(totals) {
     const order = dominantAxis(
       { code: "l", value: totals.lx },
       { code: "n", value: totals.nx },
@@ -421,61 +464,160 @@
       { code: "n", value: totals.xn },
       { code: "e", value: totals.xe }
     );
-    return order + moral;
+    const candidates = [];
+    order.winners.forEach(function (orderCode) {
+      moral.winners.forEach(function (moralCode) {
+        candidates.push(orderCode + moralCode);
+      });
+    });
+    return {
+      code: order.code + moral.code,
+      order: order,
+      moral: moral,
+      candidates: candidates
+    };
+  }
+
+  function determineAlignment(totals) {
+    return determineAlignmentDetails(totals).code;
+  }
+
+  function axisStateText(axisName, axisResult) {
+    const names = AXIS_NAMES[axisName];
+    const winnerNames = axisResult.winners.map(function (code) { return names[code]; });
+    const label = axisName === "order" ? "秩序轴" : "道德轴";
+
+    if (axisResult.state === "boundary") {
+      return label + "边界：" + winnerNames.join(" ↔ ") + "。";
+    }
+    if (axisResult.state === "extreme_tie") {
+      return label + "特殊平局：" + winnerNames.join(" ↔ ") + "；两端同分且中立更低，这不同于通常意义上的中立。";
+    }
+    if (axisResult.state === "full_tie") {
+      return label + "无明显单一倾向：" + winnerNames.join(" / ") + "完全同分。";
+    }
+    return "";
+  }
+
+  function boundarySummary(determination) {
+    const ambiguousAxes = [determination.order, determination.moral].filter(function (axis) {
+      return axis.state !== "dominant";
+    });
+    if (ambiguousAxes.length === 0) return [];
+
+    const lines = [];
+    if (ambiguousAxes.length === 2) {
+      lines.push("双轴边界：");
+    } else if (determination.order.state === "dominant") {
+      lines.push("秩序倾向明确：" + AXIS_NAMES.order[determination.order.code] + "。");
+    } else if (determination.moral.state === "dominant") {
+      lines.push("道德倾向明确：" + AXIS_NAMES.moral[determination.moral.code] + "。");
+    }
+
+    [
+      { name: "order", result: determination.order },
+      { name: "moral", result: determination.moral }
+    ].forEach(function (axis) {
+      const text = axisStateText(axis.name, axis.result);
+      if (text) lines.push(text);
+    });
+
+    const candidateNames = determination.candidates.map(function (code) {
+      return ALIGNMENTS[code].name;
+    });
+    const hasExtremeTie = ambiguousAxes.some(function (axis) {
+      return axis.state === "extreme_tie";
+    });
+    const hasFullTie = ambiguousAxes.some(function (axis) {
+      return axis.state === "full_tie";
+    });
+    let candidateLabel = "可能的相邻阵营";
+    if (hasExtremeTie && determination.candidates.length === 2) {
+      candidateLabel = "特殊倾向";
+    } else if (hasFullTie) {
+      candidateLabel = "可能阵营";
+    } else if (determination.candidates.length === 2) {
+      candidateLabel = "边界倾向";
+    }
+    const candidateSeparator = candidateNames.length === 2 ? " ↔ " : " / ";
+    lines.push(candidateLabel + "：" + candidateNames.join(candidateSeparator) + "。");
+
+    if (determination.order.state === "full_tie" && determination.moral.state === "full_tie") {
+      lines.push("本次测试没有形成明显的阵营倾向。两个轴均完全同分，因此“绝对中立”只是九宫格兼容结果，并不表示角色明确具有绝对中立倾向。");
+    } else if (hasExtremeTie) {
+      lines.push("canonical 九宫格结果按中立轴向兼容处理，但不能据此解释为普通中立倾向。");
+    }
+    return lines;
   }
 
   function renderAxis(container, rows) {
     container.replaceChildren();
     rows.forEach(function (row) {
+      const maximum = AXIS_MAXIMUMS[row.key] || 1;
       const line = createElement("div", "dnd-alignment-axis-row");
       line.appendChild(createElement("span", "", row.name));
 
       const track = createElement("div", "dnd-alignment-axis-bar");
+      track.setAttribute("role", "progressbar");
+      track.setAttribute("aria-label", row.name + "得分");
+      track.setAttribute("aria-valuemin", "0");
+      track.setAttribute("aria-valuemax", String(maximum));
+      track.setAttribute("aria-valuenow", String(row.value));
       const fill = document.createElement("span");
-      fill.style.width = Math.min(100, (row.value / 36) * 100) + "%";
+      fill.style.width = Math.min(100, (row.value / maximum) * 100) + "%";
       track.appendChild(fill);
       line.appendChild(track);
-      line.appendChild(createElement("strong", "", String(row.value)));
+      line.appendChild(createElement("strong", "", row.value + " / " + maximum));
       container.appendChild(line);
     });
   }
 
-  function buildReportText(respondent, code, totals, scores) {
+  function buildReportText(respondent, determination, totals, scores) {
+    const code = determination.code;
     const alignment = ALIGNMENTS[code];
+    const boundaryLines = boundarySummary(determination);
     const lines = [
       (respondent ? respondent + "的" : "") + "D&D 阵营测试结果：" + alignment.name + "（" + alignment.english + "）",
       "秩序轴：守序 " + totals.lx + " / 中立 " + totals.nx + " / 混乱 " + totals.cx,
-      "道德轴：善良 " + totals.xg + " / 中立 " + totals.xn + " / 邪恶 " + totals.xe,
+      "道德轴：善良 " + totals.xg + " / 中立 " + totals.xn + " / 邪恶 " + totals.xe
+    ];
+    boundaryLines.forEach(function (line) {
+      lines.push("边界说明：" + line);
+    });
+    lines.push(
       "九阵营得分：" + GRID_ORDER.map(function (itemCode) {
         return ALIGNMENTS[itemCode].name + " " + scores[itemCode];
       }).join("、"),
       "结果说明：" + alignment.description,
       window.location.href
-    ];
+    );
     return lines.join("\n");
   }
 
   function renderResult(app, totals, respondent) {
-    const code = determineAlignment(totals);
+    const determination = determineAlignmentDetails(totals);
+    const code = determination.code;
     const alignment = ALIGNMENTS[code];
     const scores = alignmentScores(totals);
+    const boundaryLines = boundarySummary(determination);
     const result = app.querySelector("#dnd-alignment-result");
 
     app.querySelector("#dnd-alignment-result-title").textContent =
       alignment.name + "（" + alignment.english + "）";
     app.querySelector("#dnd-alignment-result-subtitle").textContent =
-      respondent ? "作答者：" + respondent : "未填写作答者或角色名";
+      (boundaryLines.length > 0 ? "九宫格兼容结果 · " : "") +
+      (respondent ? "作答者：" + respondent : "未填写作答者或角色名");
     app.querySelector("#dnd-alignment-result-description").textContent = alignment.description;
 
     renderAxis(app.querySelector("#dnd-alignment-order-scores"), [
-      { name: "守序", value: totals.lx },
-      { name: "中立", value: totals.nx },
-      { name: "混乱", value: totals.cx }
+      { key: "lx", name: "守序", value: totals.lx },
+      { key: "nx", name: "中立", value: totals.nx },
+      { key: "cx", name: "混乱", value: totals.cx }
     ]);
     renderAxis(app.querySelector("#dnd-alignment-moral-scores"), [
-      { name: "善良", value: totals.xg },
-      { name: "中立", value: totals.xn },
-      { name: "邪恶", value: totals.xe }
+      { key: "xg", name: "善良", value: totals.xg },
+      { key: "xn", name: "中立", value: totals.xn },
+      { key: "xe", name: "邪恶", value: totals.xe }
     ]);
 
     const grid = app.querySelector("#dnd-alignment-grid");
@@ -490,8 +632,11 @@
       grid.appendChild(cell);
     });
 
+    const resultNote = app.querySelector(".dnd-alignment-result-note");
+    resultNote.textContent = (boundaryLines.length > 0 ? boundaryLines.join(" ") + " " : "") + RESULT_NOTE;
+
     const copy = app.querySelector("#dnd-alignment-copy");
-    copy.dataset.report = buildReportText(respondent, code, totals, scores);
+    copy.dataset.report = buildReportText(respondent, determination, totals, scores);
     result.hidden = false;
     result.focus({ preventScroll: true });
     result.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -590,6 +735,18 @@
       copyReport(event.currentTarget);
     });
   }
+
+  if (typeof module !== "undefined" && module.exports) {
+    module.exports = {
+      SECTIONS: SECTIONS,
+      dominantAxis: dominantAxis,
+      determineAlignmentDetails: determineAlignmentDetails,
+      determineAlignment: determineAlignment,
+      boundarySummary: boundarySummary
+    };
+  }
+
+  if (typeof document === "undefined") return;
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init);

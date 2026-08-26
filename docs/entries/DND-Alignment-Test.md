@@ -102,13 +102,16 @@ comments: true
 
 ## 计分方法
 
-每个选项为守序、中立、混乱、善良、中立或邪恶方向增加 `1–2` 分。九阵营得分由两条轴的对应分数相加；最高组合为最终结果。若最高方向并列，该轴按中立处理。
+每个选项为守序、秩序中立、混乱、善良、道德中立或邪恶方向增加 `1–2` 分。结果页会根据题库动态计算各方向满分并按比例显示得分条；当前道德中立的满分为 `23` 分，其余五个方向均为 `24` 分。
+
+最终阵营沿用经典测试的两轴判定：先分别比较守序／秩序中立／混乱与善良／道德中立／邪恶，再组合成九宫格结果。单独最高时正常采用该方向；中立与单侧精确并列、两个极端精确并列且中立更低、三方完全同分时，为兼容九宫格均以中立作为 canonical 轴向，但结果页会分别标记“边界”“特殊平局”或“无明显单一倾向”，并自动列出所有并列方向组合成的候选阵营。两个轴同时并列时会保留全部组合，不会只显示其中一个轴的边界。九阵营详细得分仅用于展示各组合的相对分数，不参与最终阵营竞争；相近但未同分的分数不按边界处理。
 
 ## 来源与许可
 
-1. [BUG 研发中心：官方版 DnD 阵营测试](https://unnamed42.github.io/2016-06-30-%E5%AE%98%E6%96%B9%E7%89%88DnD%E9%98%B5%E8%90%A5%E6%B5%8B%E8%AF%95.html)：中文题目与计分逻辑来源，作者署名 Dr. A. Clef。
-2. [豆瓣讨论：DND 阵营测试](https://www.douban.com/group/topic/5049348/)：上述页面标注的中文翻译来源。
-3. [该页面的公开源码](https://github.com/unnamed42/unnamed42.github.io/blob/master/2016-06-30-%E5%AE%98%E6%96%B9%E7%89%88DnD%E9%98%B5%E8%90%A5%E6%B5%8B%E8%AF%95.html)：用于核对每个选项的计分方向和权重。
-4. 本页基于上述内容重新实现交互、无障碍提示和结果展示，并依原页面标示的 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans) 许可共享。
+1. [《Hero Builder's Guidebook》在线阅览](https://anyflip.com/kpthp/ftnf/basic/51-72)：Wizards of the Coast 于 2000 年出版，ISBN `978-0-7869-1647-4`；书中 “Selecting an Alignment”（书页 51–54）是 36 道测试题、各选项计分及两轴判定规则的原始依据。
+2. [PA D&D：What D&D Alignment Is Your PC?](https://www.padnd.com/alignment_test2.php)：36 道题目及选项的英文网页版本；本页中文题目据此重新翻译。
+3. [BUG 研发中心：官方版 DnD 阵营测试](https://unnamed42.github.io/2016-06-30-%E5%AE%98%E6%96%B9%E7%89%88DnD%E9%98%B5%E8%90%A5%E6%B5%8B%E8%AF%95.html)及[其公开源码](https://github.com/unnamed42/unnamed42.github.io/blob/master/2016-06-30-%E5%AE%98%E6%96%B9%E7%89%88DnD%E9%98%B5%E8%90%A5%E6%B5%8B%E8%AF%95.html)：作为既有中文实现的交叉参考；计分有出入时以原书为准。
+4. 测试题与计分沿用经典 D&D 36 题阵营测试，阵营释义参考 D&D 2024（5R）；本页不是“D&D 5R 官方阵营测试”。
+5. 本页重新实现交互、无障碍提示和结果展示；相关实现依参考页面标示的 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans) 许可共享。
 
 “Dungeons & Dragons”及相关名称归其权利人所有；本页面与 Wizards of the Coast 无隶属或背书关系。
