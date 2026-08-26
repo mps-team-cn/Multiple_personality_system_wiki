@@ -1,0 +1,296 @@
+.dnd-alignment-app {
+  margin: 1rem 0 1.5rem;
+}
+
+.dnd-alignment-toolbar {
+  display: grid;
+  grid-template-columns: minmax(14rem, 1fr) minmax(14rem, 1fr);
+  gap: 1rem;
+  align-items: end;
+  padding: 1rem;
+  border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 14%, transparent);
+  border-radius: 0.8rem;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 5%, var(--md-default-bg-color));
+}
+
+.dnd-alignment-name {
+  display: grid;
+  gap: 0.4rem;
+  font-weight: 700;
+}
+
+.dnd-alignment-name input {
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 24%, transparent);
+  border-radius: 0.55rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+  font-weight: 400;
+}
+
+.dnd-alignment-name input:focus-visible,
+.dnd-alignment-option:focus-within {
+  outline: 3px solid color-mix(in srgb, var(--md-accent-fg-color) 30%, transparent);
+  outline-offset: 2px;
+}
+
+.dnd-alignment-progress {
+  display: grid;
+  gap: 0.45rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.dnd-alignment-progress-track {
+  height: 0.65rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--md-default-fg-color) 14%, transparent);
+}
+
+.dnd-alignment-progress-bar {
+  width: 0;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--md-primary-fg-color), var(--md-accent-fg-color));
+  transition: width 160ms ease;
+}
+
+.dnd-alignment-section {
+  margin: 1.4rem 0 0;
+}
+
+.dnd-alignment-section > h2 {
+  margin-bottom: 0.65rem;
+}
+
+.dnd-alignment-question {
+  min-width: 0;
+  margin: 0 0 0.9rem;
+  padding: 0.9rem;
+  border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 13%, transparent);
+  border-radius: 0.75rem;
+  background: color-mix(in srgb, var(--md-default-bg-color) 96%, var(--md-primary-fg-color));
+}
+
+.dnd-alignment-question legend {
+  width: 100%;
+  padding: 0 0.25rem;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+.dnd-alignment-question.is-missing {
+  border-color: #d32f2f;
+  box-shadow: 0 0 0 2px color-mix(in srgb, #d32f2f 15%, transparent);
+}
+
+.dnd-alignment-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem;
+  margin-top: 0.55rem;
+}
+
+.dnd-alignment-option {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.55rem;
+  align-items: start;
+  min-width: 0;
+  padding: 0.65rem 0.7rem;
+  border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 12%, transparent);
+  border-radius: 0.6rem;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 4%, transparent);
+  cursor: pointer;
+  line-height: 1.45;
+  transition: border-color 120ms ease, background-color 120ms ease, transform 120ms ease;
+}
+
+.dnd-alignment-option:hover {
+  border-color: color-mix(in srgb, var(--md-primary-fg-color) 55%, transparent);
+  background: color-mix(in srgb, var(--md-primary-fg-color) 9%, transparent);
+  transform: translateY(-1px);
+}
+
+.dnd-alignment-option:has(input:checked) {
+  border-color: var(--md-primary-fg-color);
+  background: color-mix(in srgb, var(--md-primary-fg-color) 13%, transparent);
+}
+
+.dnd-alignment-option input {
+  width: 1rem;
+  height: 1rem;
+  margin: 0.18rem 0 0;
+  accent-color: var(--md-primary-fg-color);
+}
+
+.dnd-alignment-error {
+  margin: 1rem 0;
+  padding: 0.75rem 0.9rem;
+  border-left: 4px solid #d32f2f;
+  border-radius: 0.35rem;
+  background: color-mix(in srgb, #d32f2f 9%, var(--md-default-bg-color));
+  color: var(--md-default-fg-color);
+  font-weight: 700;
+}
+
+.dnd-alignment-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1rem 0;
+}
+
+.dnd-alignment-actions .md-button,
+.dnd-alignment-result-heading .md-button {
+  border-radius: 0.6rem;
+}
+
+.dnd-alignment-result {
+  margin-top: 1.5rem;
+  padding: clamp(1rem, 3vw, 1.5rem);
+  border: 2px solid color-mix(in srgb, var(--md-primary-fg-color) 45%, transparent);
+  border-radius: 1rem;
+  background: linear-gradient(
+    145deg,
+    color-mix(in srgb, var(--md-primary-fg-color) 8%, var(--md-default-bg-color)),
+    var(--md-default-bg-color) 55%
+  );
+}
+
+.dnd-alignment-result:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--md-accent-fg-color) 45%, transparent);
+  outline-offset: 3px;
+}
+
+.dnd-alignment-result-heading {
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.dnd-alignment-result-heading h2 {
+  margin: 0.1rem 0 0;
+  color: var(--md-primary-fg-color);
+}
+
+.dnd-alignment-eyebrow {
+  color: color-mix(in srgb, var(--md-default-fg-color) 72%, transparent);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.dnd-alignment-result-subtitle,
+.dnd-alignment-result-note {
+  color: color-mix(in srgb, var(--md-default-fg-color) 76%, transparent);
+  font-size: 0.9rem;
+}
+
+.dnd-alignment-axis-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 1rem 0;
+}
+
+.dnd-alignment-axis-card {
+  padding: 0.85rem;
+  border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 13%, transparent);
+  border-radius: 0.7rem;
+  background: color-mix(in srgb, var(--md-default-bg-color) 94%, transparent);
+}
+
+.dnd-alignment-axis-card h3 {
+  margin: 0 0 0.55rem;
+}
+
+.dnd-alignment-axis-row {
+  display: grid;
+  grid-template-columns: 3rem 1fr 2rem;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 0.45rem 0;
+  font-size: 0.88rem;
+}
+
+.dnd-alignment-axis-bar {
+  height: 0.55rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--md-default-fg-color) 13%, transparent);
+}
+
+.dnd-alignment-axis-bar > span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--md-primary-fg-color);
+}
+
+.dnd-alignment-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.55rem;
+}
+
+.dnd-alignment-cell {
+  min-width: 0;
+  padding: 0.7rem 0.5rem;
+  border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 13%, transparent);
+  border-radius: 0.65rem;
+  background: color-mix(in srgb, var(--md-default-bg-color) 92%, transparent);
+  text-align: center;
+}
+
+.dnd-alignment-cell strong,
+.dnd-alignment-cell span {
+  display: block;
+}
+
+.dnd-alignment-cell span {
+  margin-top: 0.2rem;
+  color: color-mix(in srgb, var(--md-default-fg-color) 72%, transparent);
+  font-size: 0.82rem;
+}
+
+.dnd-alignment-cell.is-result {
+  border-color: var(--md-primary-fg-color);
+  background: color-mix(in srgb, var(--md-primary-fg-color) 16%, var(--md-default-bg-color));
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--md-primary-fg-color) 12%, transparent);
+}
+
+@media (max-width: 44rem) {
+  .dnd-alignment-toolbar,
+  .dnd-alignment-options,
+  .dnd-alignment-axis-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dnd-alignment-result-heading {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .dnd-alignment-result-heading .md-button {
+    align-self: start;
+  }
+}
+
+@media (max-width: 28rem) {
+  .dnd-alignment-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dnd-alignment-progress-bar,
+  .dnd-alignment-option {
+    transition: none;
+  }
+}
