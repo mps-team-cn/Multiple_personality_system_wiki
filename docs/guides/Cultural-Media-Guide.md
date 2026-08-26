@@ -29,7 +29,7 @@ search:
 
 ## 动画、游戏与二次元文化
 
-- [D&D 阵营测试（Dungeons & Dragons Alignment Test）](../entries/DND-Alignment-Test.md)：据 PA D&D 英文原题重译，以 36 道角色扮演情境题生成九宫格阵营报告，可供系统成员或跑团角色分别作答。
+- [D&D 阵营测试（Dungeons & Dragons Alignment Test）](../entries/DND-Alignment-Test.md)：基于经典 D&D 36 题及原始两轴计分规则，以重译的角色扮演情境题生成九宫格阵营报告；阵营释义参考 D&D 2024（5R）。
 - [《妄想代理人》与集体意识的具象化](../entries/Paranoia-Agent-Collective-Consciousness.md)：探讨集体压力与人格分裂的动画隐喻。
 - [《魔法少女小圆》中的丘比与契约式“他者”](../entries/Madoka-Magica-Kyubey-Otherness.md)：分析契约、灵魂与身份交换的象征意义。
 - [东方 Project 同人圈中的 Tulpa 文化解读](../entries/Touhou-Tulpa-Fandom.md)：整理社群如何把同人创作与 Tulpa 实践连接。

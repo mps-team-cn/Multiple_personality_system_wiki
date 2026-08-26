@@ -1,8 +1,9 @@
 /*
  * D&D 九宫格阵营测试
  * - 纯前端计算，不存储、不发送答案
+ * - 测试题与计分据经典 D&D 3e《Hero Builder's Guidebook》36 题阵营测试
  * - 中文题目据 PA D&D Alignment Test 英文原文翻译
- * - 计分逻辑据词条文末署名来源整理
+ * - 阵营释义参考 D&D 2024（5R）
  * - 仅在包含 #dnd-alignment-app 的页面激活
  */
 (function () {
@@ -43,8 +44,8 @@
           ["逃走", "nx", 2]
         ]],
         ["你与一位家族成员关系疏远。对方临终前希望与你和解。你会：", [
-          ["与对方交谈，但坚持自己的立场", "cx", 2],
-          ["拒绝与对方交谈", "cx", 1],
+          ["与对方交谈，但坚持自己的立场", "cx", 1],
+          ["拒绝与对方交谈", "cx", 2],
           ["坦率而不带怨恨地谈论你们疏远的原因", "nx", 1],
           ["主动寻求和解，并听取对方的临终遗言", "nx", 2]
         ]]
@@ -227,7 +228,7 @@
           ["慷慨施舍", "xg", 2],
           ["适量施舍", "xg", 1],
           ["只给即使失去也不心疼的钱——最多一两块钱", "xn", 1],
-          ["从旁走过，视而不见", "xn", 2]
+          ["从旁走过，视而不见", "xn", 1]
         ]],
         ["通过魔法，你可以使村里的商人以为你的铜币是金币。你会这样做吗？", [
           ["会，而且会尽可能多买东西", "xe", 2],
@@ -261,51 +262,56 @@
     lg: {
       name: "守序善良",
       english: "Lawful Good",
-      description: "守序善良的人物相信，公正的法律、可靠的秩序与彼此扶助能让大多数人生活得更好。他们努力履行责任、信守承诺，并尽可能增进福祉、减少伤害。当法律或誓言与保护无辜者发生冲突时，他们也可能陷入艰难的道德抉择。"
+      description: "守序善良的人努力做正确的事，同时重视社会规范、责任与秩序。他们通常相信良好的制度、承诺和规则能够保护他人，并愿意在这些原则下帮助他人、维护正义。"
     },
     ng: {
       name: "中立善良",
       english: "Neutral Good",
-      description: "中立善良的人物把行善置于秩序与混乱之上。他们会选择最能帮助他人、减少伤害的做法：社会秩序有益时便支持它，既有秩序妨碍善行时也愿意改变它。制度对他们而言是手段而非目的，因此他们通常不会让身份、阶层或传统阻碍自己帮助别人。"
+      description: "中立善良的人会尽己所能去帮助他人、做正确的事。他们可以遵循规则和社会规范，但不会认为自己必须受到这些规则束缚；当规则妨碍善行时，他们更看重事情本身是否正确。"
     },
     cg: {
       name: "混乱善良",
       english: "Chaotic Good",
-      description: "混乱善良的人物重视善意、正义与个人自由，但不愿受僵化的法律和命令束缚。他们依照自己的良知行事，常以即兴而直接的方式帮助他人，并会反抗压迫性的权威。这样的独立性有时会让团队协作变得困难，但他们的出发点通常是保护自由、反对伤害。"
+      description: "混乱善良的人依照自己的良知行事，很少因为社会期待、传统或权威而改变判断。他们珍视自由，也愿意帮助他人；如果规则与自己认定的正义发生冲突，他们通常会选择良知。"
     },
     ln: {
       name: "守序中立",
       english: "Lawful Neutral",
-      description: "守序中立的人物高度重视秩序、组织、传统或一套明确的个人准则。他们相信规则应当稳定地执行，并常把职责与原则置于个人好恶之上。对善恶保持中立并不意味着没有道德立场；他们只是更倾向于依据法律、誓言或信条判断行动。公正守法的法官和严守军纪的士兵都是这一阵营的常见典型。"
+      description: "守序中立的人重视法律、传统、职责或个人信条，并倾向于按照明确的原则行动。对他们而言，可靠、一致和遵守准则本身十分重要，而善恶通常不是决定行动的首要因素。"
     },
     nn: {
       name: "绝对中立",
       english: "True Neutral",
-      description: "绝对中立的人物不愿被善恶或秩序与混乱的任何一端完全定义。有些人重视各方力量的平衡，有些人则更务实，只根据眼前情势作出选择。他们可能暂时与某一方合作，但通常不会把维护某种阵营理念视为自己的首要使命。"
+      description: "绝对中立的人通常不愿在善恶或秩序与混乱之间明确站队。他们更倾向于根据具体情况判断，在当下选择自己认为最合理、最合适的做法，而不是坚持某一种阵营理念。"
     },
     cn: {
       name: "混乱中立",
       english: "Chaotic Neutral",
-      description: "混乱中立的人物以个人自由和自主选择为先，往往厌恶权威、约束与传统。他们可能随兴而行，也不愿为了宏大的善恶理想承担义务，但这不代表他们会像无政府主义者那样刻意瓦解一切组织。他们的行为或许难以预测，却并非毫无逻辑；从桥上走过去仍然远比无缘无故跳下去更符合常理。"
+      description: "混乱中立的人重视个人自由，倾向于按照自己的想法和当下判断行动，不喜欢受到规则、传统或他人期待的约束。他们并不必然希望帮助或伤害别人，只是不愿让外界替自己决定该怎么做。"
     },
     le: {
       name: "守序邪恶",
       english: "Lawful Evil",
-      description: "守序邪恶的人物会在法律、传统、忠诚或个人准则的框架内，有计划地追求权力与私利。他们重视秩序，却不在意自由、尊严或受害者的痛苦，并善于利用制度、契约和等级关系控制他人。一个靠阴谋扩张势力、再借法律与部属压迫人民的贵族，就是典型的守序邪恶人物。他们可能严守某些底线，但这些限制并不会使其手段变得仁慈。"
+      description: "守序邪恶的人会有计划地追求自己的利益，即使因此伤害他人。他们仍然重视某种秩序，例如法律、传统、忠诚关系或个人准则，并倾向于在这些限制范围内取得自己想要的东西。"
     },
     ne: {
       name: "中立邪恶",
       english: "Neutral Evil",
-      description: "中立邪恶的人物首先考虑自己的利益，并会采用任何方便有效的手段。他们既不忠于法律与传统，也不会为了混乱本身而行动；只要有利可图，规则、承诺和他人的生命都可以被牺牲。他们可能暂时合作或服从，但这种关系通常只会维持到失去利用价值为止。"
+      description: "中立邪恶的人首先考虑自己的利益，只要认为值得且能够承担后果，就可能利用或伤害他人。他们既不会因为秩序而约束自己，也不会为了反抗秩序而行动，核心通常只是怎样最有利于自己。"
     },
     ce: {
       name: "混乱邪恶",
       english: "Chaotic Evil",
-      description: "混乱邪恶的人物受贪婪、仇恨或欲望驱使，冲动地追求自己想要的一切。他们排斥约束，常以暴力和破坏回应阻碍，也很难维持稳定的承诺与合作。由这类人物组成的团体往往组织松散，领袖必须不断面对内斗、背叛甚至暗杀。"
+      description: "混乱邪恶的人受贪欲、仇恨、欲望或冲动驱使，可能任意伤害他人，并且很少在意法律、传统或他人的权利。他们既缺少对他人的善意，也厌恶外界约束，是九种阵营中最倾向于破坏与暴力的一类。"
     }
   };
 
   const GRID_ORDER = ["lg", "ng", "cg", "ln", "nn", "cn", "le", "ne", "ce"];
+  const RESULT_NOTE = "分数只反映这轮答案在本测试规则下的相对倾向。只有最高分精确同分时才标记边界；分数接近但不同不会改变 canonical 九宫格结果。";
+  const AXIS_NAMES = {
+    order: { l: "守序", n: "中立", c: "混乱" },
+    moral: { g: "善良", n: "中立", e: "邪恶" }
+  };
   const TOTAL_QUESTIONS = SECTIONS.reduce(function (sum, section) {
     return sum + section.questions.length;
   }, 0);
@@ -417,7 +423,20 @@
     const winners = [first, neutral, last].filter(function (item) {
       return item.value === max;
     });
-    return winners.length === 1 ? winners[0].code : neutral.code;
+    let state = "dominant";
+    if (winners.length === 3) {
+      state = "full_tie";
+    } else if (winners.length === 2) {
+      state = winners.some(function (item) { return item.code === neutral.code; })
+        ? "boundary"
+        : "extreme_tie";
+    }
+
+    return {
+      code: winners.length === 1 ? winners[0].code : neutral.code,
+      state: state,
+      winners: winners.map(function (item) { return item.code; })
+    };
   }
 
   function alignmentScores(totals) {
@@ -434,7 +453,7 @@
     };
   }
 
-  function determineAlignment(totals) {
+  function determineAlignmentDetails(totals) {
     const order = dominantAxis(
       { code: "l", value: totals.lx },
       { code: "n", value: totals.nx },
@@ -445,7 +464,90 @@
       { code: "n", value: totals.xn },
       { code: "e", value: totals.xe }
     );
-    return order + moral;
+    const candidates = [];
+    order.winners.forEach(function (orderCode) {
+      moral.winners.forEach(function (moralCode) {
+        candidates.push(orderCode + moralCode);
+      });
+    });
+    return {
+      code: order.code + moral.code,
+      order: order,
+      moral: moral,
+      candidates: candidates
+    };
+  }
+
+  function determineAlignment(totals) {
+    return determineAlignmentDetails(totals).code;
+  }
+
+  function axisStateText(axisName, axisResult) {
+    const names = AXIS_NAMES[axisName];
+    const winnerNames = axisResult.winners.map(function (code) { return names[code]; });
+    const label = axisName === "order" ? "秩序轴" : "道德轴";
+
+    if (axisResult.state === "boundary") {
+      return label + "边界：" + winnerNames.join(" ↔ ") + "。";
+    }
+    if (axisResult.state === "extreme_tie") {
+      return label + "特殊平局：" + winnerNames.join(" ↔ ") + "；两端同分且中立更低，这不同于通常意义上的中立。";
+    }
+    if (axisResult.state === "full_tie") {
+      return label + "无明显单一倾向：" + winnerNames.join(" / ") + "完全同分。";
+    }
+    return "";
+  }
+
+  function boundarySummary(determination) {
+    const ambiguousAxes = [determination.order, determination.moral].filter(function (axis) {
+      return axis.state !== "dominant";
+    });
+    if (ambiguousAxes.length === 0) return [];
+
+    const lines = [];
+    if (ambiguousAxes.length === 2) {
+      lines.push("双轴边界：");
+    } else if (determination.order.state === "dominant") {
+      lines.push("秩序倾向明确：" + AXIS_NAMES.order[determination.order.code] + "。");
+    } else if (determination.moral.state === "dominant") {
+      lines.push("道德倾向明确：" + AXIS_NAMES.moral[determination.moral.code] + "。");
+    }
+
+    [
+      { name: "order", result: determination.order },
+      { name: "moral", result: determination.moral }
+    ].forEach(function (axis) {
+      const text = axisStateText(axis.name, axis.result);
+      if (text) lines.push(text);
+    });
+
+    const candidateNames = determination.candidates.map(function (code) {
+      return ALIGNMENTS[code].name;
+    });
+    const hasExtremeTie = ambiguousAxes.some(function (axis) {
+      return axis.state === "extreme_tie";
+    });
+    const hasFullTie = ambiguousAxes.some(function (axis) {
+      return axis.state === "full_tie";
+    });
+    let candidateLabel = "可能的相邻阵营";
+    if (hasExtremeTie && determination.candidates.length === 2) {
+      candidateLabel = "特殊倾向";
+    } else if (hasFullTie) {
+      candidateLabel = "可能阵营";
+    } else if (determination.candidates.length === 2) {
+      candidateLabel = "边界倾向";
+    }
+    const candidateSeparator = candidateNames.length === 2 ? " ↔ " : " / ";
+    lines.push(candidateLabel + "：" + candidateNames.join(candidateSeparator) + "。");
+
+    if (determination.order.state === "full_tie" && determination.moral.state === "full_tie") {
+      lines.push("本次测试没有形成明显的阵营倾向。两个轴均完全同分，因此“绝对中立”只是九宫格兼容结果，并不表示角色明确具有绝对中立倾向。");
+    } else if (hasExtremeTie) {
+      lines.push("canonical 九宫格结果按中立轴向兼容处理，但不能据此解释为普通中立倾向。");
+    }
+    return lines;
   }
 
   function renderAxis(container, rows) {
@@ -470,31 +572,41 @@
     });
   }
 
-  function buildReportText(respondent, code, totals, scores) {
+  function buildReportText(respondent, determination, totals, scores) {
+    const code = determination.code;
     const alignment = ALIGNMENTS[code];
+    const boundaryLines = boundarySummary(determination);
     const lines = [
       (respondent ? respondent + "的" : "") + "D&D 阵营测试结果：" + alignment.name + "（" + alignment.english + "）",
       "秩序轴：守序 " + totals.lx + " / 中立 " + totals.nx + " / 混乱 " + totals.cx,
-      "道德轴：善良 " + totals.xg + " / 中立 " + totals.xn + " / 邪恶 " + totals.xe,
+      "道德轴：善良 " + totals.xg + " / 中立 " + totals.xn + " / 邪恶 " + totals.xe
+    ];
+    boundaryLines.forEach(function (line) {
+      lines.push("边界说明：" + line);
+    });
+    lines.push(
       "九阵营得分：" + GRID_ORDER.map(function (itemCode) {
         return ALIGNMENTS[itemCode].name + " " + scores[itemCode];
       }).join("、"),
       "结果说明：" + alignment.description,
       window.location.href
-    ];
+    );
     return lines.join("\n");
   }
 
   function renderResult(app, totals, respondent) {
-    const code = determineAlignment(totals);
+    const determination = determineAlignmentDetails(totals);
+    const code = determination.code;
     const alignment = ALIGNMENTS[code];
     const scores = alignmentScores(totals);
+    const boundaryLines = boundarySummary(determination);
     const result = app.querySelector("#dnd-alignment-result");
 
     app.querySelector("#dnd-alignment-result-title").textContent =
       alignment.name + "（" + alignment.english + "）";
     app.querySelector("#dnd-alignment-result-subtitle").textContent =
-      respondent ? "作答者：" + respondent : "未填写作答者或角色名";
+      (boundaryLines.length > 0 ? "九宫格兼容结果 · " : "") +
+      (respondent ? "作答者：" + respondent : "未填写作答者或角色名");
     app.querySelector("#dnd-alignment-result-description").textContent = alignment.description;
 
     renderAxis(app.querySelector("#dnd-alignment-order-scores"), [
@@ -520,8 +632,11 @@
       grid.appendChild(cell);
     });
 
+    const resultNote = app.querySelector(".dnd-alignment-result-note");
+    resultNote.textContent = (boundaryLines.length > 0 ? boundaryLines.join(" ") + " " : "") + RESULT_NOTE;
+
     const copy = app.querySelector("#dnd-alignment-copy");
-    copy.dataset.report = buildReportText(respondent, code, totals, scores);
+    copy.dataset.report = buildReportText(respondent, determination, totals, scores);
     result.hidden = false;
     result.focus({ preventScroll: true });
     result.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -620,6 +735,18 @@
       copyReport(event.currentTarget);
     });
   }
+
+  if (typeof module !== "undefined" && module.exports) {
+    module.exports = {
+      SECTIONS: SECTIONS,
+      dominantAxis: dominantAxis,
+      determineAlignmentDetails: determineAlignmentDetails,
+      determineAlignment: determineAlignment,
+      boundarySummary: boundarySummary
+    };
+  }
+
+  if (typeof document === "undefined") return;
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init);
