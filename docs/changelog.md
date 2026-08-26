@@ -7,6 +7,49 @@ search:
 
 # 更新日志
 
+## [v4.4.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v4.4.0) - 量表体验、知识库工具与 D&D 阵营测试扩展 (2026-08-26)
+
+> 变更范围：基于 `v4.3.0` 标签至当前 `main` 的全部有效提交整理（PR #488–#496）。
+
+### ✨ 新增词条与互动功能
+
+- 新增 [ECR 中文版量表](entries/Experiences-in-Close-Relationships-ECR-Chinese.md)，提供依恋焦虑、依恋回避及二维关系策略参考
+- 新增 [D&D 九宫格阵营测试](entries/DND-Alignment-Test.md)，基于经典 36 题阵营测试分别测量秩序轴与道德轴，并生成九宫格结果
+- D&D 测试支持结果复制、轴向得分展示、动态进度及当前作答者／角色视角
+
+### 📊 量表与站点体验
+
+- 新增词条与分区索引中的 ECR 导航，并补充对应交互样式和评分脚本
+- 统一简式量表的滑块交互与实时分数显示，修复 ECR badge 显示换算值而非原始选择值的问题
+- 增加词条和指南页面的预计阅读时间，并将提示放置在一级标题下方
+- 启用站内搜索高亮；移除未保留的反馈按钮入口，保持现有编辑／查看操作
+- 恢复 Cloudflare Web Analytics 配置，修正站点统计脚本令牌
+
+### 🧰 知识库导出与工程维护
+
+- 新增 `make knowledge` 与 `tools/export_knowledge.py`，导出适用于外部检索／机器人使用的干净知识库，不修改源文件
+- 精简干净版导出的 Frontmatter，仅保留 `title` 与 `synonyms`，并忽略生成目录
+- 增加导出工具回归测试，补充 Makefile、工具索引及相关维护说明
+- 更新 AI 代理工作规范，明确受保护 `main` 分支的分支、PR、检查与发布流程
+- 同步词条、分区索引与 Markdown 格式，保持导航和构建结果一致
+
+### 🎯 D&D 阵营计分与结果判定
+
+- 按《Hero Builder's Guidebook》原始计分表逐题核对 36 题 × 4 个选项
+- 修正 Q6 权重顺序及 Q32 道德中立权重，其余 Q1–Q36 计分与原始规则一致
+- 保留秩序轴与道德轴的独立判定，完善 `dominant`、`boundary`、`extreme_tie`、`full_tie` 四类轴状态
+- 自动生成双轴边界下的候选阵营，保留 canonical 九宫格结果兼容性，并在结果页说明相邻边界、极端平局和完全同分
+- 将第三部分统一为“集体与归属”语境，覆盖多成员系统、班级、学校、团队、社群、公会及 D&D 聚落
+- 优化 Q14 的集体危机表达，保留责任承担与背叛倾向；阵营释义参考 D&D 2024（5R），不将本测试描述为 5R 官方量表
+
+### 🧪 工程与验证
+
+- 增加 Node 回归测试，锁定全部 144 个选项计分并覆盖正常结果、相邻边界、极端平局、三方同分及双轴组合
+- 增加知识库导出工具测试，覆盖清理、Frontmatter 精简及稳定输出
+- `make check`、`make build` 通过
+
+---
+
 ## [v4.3.0](https://github.com/mps-team-cn/Multiple_personality_system_wiki/releases/tag/v4.3.0) - 词条扩充与维护入口统一 (2026-06-03)
 
 ### ✨ 新增词条
