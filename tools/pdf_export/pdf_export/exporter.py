@@ -36,14 +36,18 @@ def bottom_margin_cm(margin: str) -> float | None:
 
 
 def footskip_cm(margin: str | None) -> str | None:
-    """让页码落在底边距内侧（否则默认 30pt 的 footskip 会把页码顶到纸边 2mm 处）。"""
+    """让页码落在底边距内侧，至少距纸边 1cm。
+
+    默认 footskip=30pt 会把页码顶到纸边 2mm 处；页码基线距纸边 ≈ 底边距 − footskip，
+    所以取 footskip = 底边距 − 1.05cm（留 0.05cm 给字形下伸部分）。
+    """
 
     if not margin:
         return None
     bottom = bottom_margin_cm(margin)
     if bottom is None:
         return None
-    return f"{max(0.4, bottom - 0.55):.2f}cm"
+    return f"{max(0.1, bottom - 1.05):.2f}cm"
 
 
 def build_pandoc_command(
@@ -157,6 +161,8 @@ def export_pdf(
 % 紧凑排版：段首缩进代替段间距（Pandoc 默认 parskip=6pt，每个小段落白扔一行）
 \setlength{\parindent}{1.5em}
 \setlength{\parskip}{0.3ex plus 0.1ex}
+% 页码距纸边 1cm 后，页脚会顶到版心底部，从版心让出 3.5mm 避免与末行相碰
+\addtolength{\textheight}{-0.35cm}
 % 标题前后间距收紧
 \IfFileExists{titlesec.sty}{%
   \usepackage{titlesec}%
