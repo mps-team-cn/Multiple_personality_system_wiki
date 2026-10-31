@@ -154,6 +154,11 @@ def export_pdf(
 % 长 URL / 长英文串防出界：允许更多伸缩+断行，而不是顶出右边距
 \setlength{\emergencystretch}{3em}
 \sloppy
+% 宽表格（多列）缩小字号与列间距，尽量避免超出正文宽度
+\IfFileExists{etoolbox.sty}{%
+  \usepackage{etoolbox}%
+  \AtBeginEnvironment{longtable}{\footnotesize\setlength{\tabcolsep}{4pt}}%
+}{}
 """
     # 创建临时 LaTeX 头部文件
     with tempfile.NamedTemporaryFile("w", encoding="utf-8", suffix=".tex", delete=False) as header_handle:
