@@ -7,6 +7,7 @@ import tempfile
 from pathlib import Path
 
 from .models import PandocExportError
+from .paths import DOCS_DIR, ENTRIES_DIR
 
 
 def normalize_paper(value: str) -> str:
@@ -41,6 +42,9 @@ def build_pandoc_command(
         "--output",
         str(output_path),
         str(markdown_path),
+        # 合并稿写在临时目录，词条里的 ../assets/... 得靠 resource-path 才能找到
+        "--resource-path",
+        ":".join(str(path) for path in (ENTRIES_DIR, DOCS_DIR)),
     ]
 
     if pdf_engine:

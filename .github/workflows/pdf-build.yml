@@ -43,7 +43,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends \
-            pandoc texlive-xetex texlive-latex-recommended texlive-lang-chinese fonts-noto-cjk
+            pandoc texlive-xetex texlive-latex-recommended texlive-lang-chinese fonts-noto-cjk lmodern
           python -m pip install --disable-pip-version-check pyyaml
 
       - name: 生成 PDF
