@@ -38,8 +38,9 @@ def bottom_margin_cm(margin: str) -> float | None:
 def footskip_cm(margin: str | None) -> str | None:
     """让页码落在底边距内侧，至少距纸边 1cm。
 
-    默认 footskip=30pt 会把页码顶到纸边 2mm 处；页码基线距纸边 ≈ 底边距 − footskip，
-    所以取 footskip = 底边距 − 1.05cm（留 0.05cm 给字形下伸部分）。
+    默认 footskip=30pt 会把页码顶到纸边 2mm 处。页码基线距纸边 ≈ 版心底 − footskip，
+    而版心底因为给页脚让位被下移了 0.35cm（见 latex header 的 \\addtolength），
+    所以取 footskip = 底边距 − 0.75cm → 页码落在距纸边约 1.1cm 处。
     """
 
     if not margin:
@@ -47,7 +48,7 @@ def footskip_cm(margin: str | None) -> str | None:
     bottom = bottom_margin_cm(margin)
     if bottom is None:
         return None
-    return f"{max(0.1, bottom - 1.05):.2f}cm"
+    return f"{max(0.1, bottom - 0.75):.2f}cm"
 
 
 def build_pandoc_command(
