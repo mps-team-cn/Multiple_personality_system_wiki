@@ -556,8 +556,9 @@ def build_directory_page(
     lines.extend(
         [
             r"\begingroup",
+            r"\small",
             r"\setlength{\parindent}{0pt}",
-            r"\setlength{\parskip}{0.4em}",
+            r"\setlength{\parskip}{0.15em}",
             "",
         ]
     )
@@ -581,7 +582,7 @@ def build_directory_page(
                 rf"\nobreak\dotfill\pageref{{{anchor}}}\par"
             )
 
-        lines.append(r"\medskip")
+        lines.append(r"\smallskip")
 
     lines.extend([r"\endgroup", "", r"\newpage", ""])
     return "\n".join(lines)
@@ -671,10 +672,7 @@ def build_combined_markdown(
 
         parts.append(f"# {category_title}\n\n")
 
-        for index, document in enumerate(documents):
-            if index > 0:
-                parts.append("\n\\newpage\n")
-
+        for document in documents:
             entry_title = document.title
             anchor = anchor_lookup.get(
                 document.path.resolve(),

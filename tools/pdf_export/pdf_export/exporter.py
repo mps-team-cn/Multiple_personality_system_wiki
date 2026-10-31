@@ -154,6 +154,16 @@ def export_pdf(
 % 长 URL / 长英文串防出界：允许更多伸缩+断行，而不是顶出右边距
 \setlength{\emergencystretch}{3em}
 \sloppy
+% 紧凑排版：段首缩进代替段间距（Pandoc 默认 parskip=6pt，每个小段落白扔一行）
+\setlength{\parindent}{1.5em}
+\setlength{\parskip}{0.3ex plus 0.1ex}
+% 标题前后间距收紧
+\IfFileExists{titlesec.sty}{%
+  \usepackage{titlesec}%
+  \titlespacing*{\section}{0pt}{1.4ex plus .2ex}{0.7ex}%
+  \titlespacing*{\subsection}{0pt}{1.0ex plus .2ex}{0.5ex}%
+  \titlespacing*{\subsubsection}{0pt}{0.8ex plus .2ex}{0.4ex}%
+}{}
 % 宽表格（多列）缩小字号与列间距，尽量避免超出正文宽度
 \IfFileExists{etoolbox.sty}{%
   \usepackage{etoolbox}%
