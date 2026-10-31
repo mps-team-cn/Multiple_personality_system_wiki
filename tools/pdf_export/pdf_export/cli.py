@@ -31,11 +31,11 @@ from .constants import (
 from .exporter import export_pdf
 from .ignore_loader import load_ignore_rules
 from .last_updated import load_last_updated_map
-from .markdown import build_combined_markdown
+from .markdown import apply_volume_chapters, build_combined_markdown
 from .models import PandocExportError
-from .paths import IGNORE_FILE_PATH, LAST_UPDATED_JSON_PATH, PROJECT_ROOT, README_PATH
+from .paths import COVER_FILE_PATH, IGNORE_FILE_PATH, LAST_UPDATED_JSON_PATH, PROJECT_ROOT, README_PATH
 from .requirements import check_requirements, detect_cjk_font, detect_pdf_engine
-from .structure import collect_markdown_structure
+from .structure import collect_markdown_structure, partition_structure
 
 
 def parse_arguments(argv: Sequence[str] | None = None) -> argparse.Namespace:
@@ -96,6 +96,18 @@ def parse_arguments(argv: Sequence[str] | None = None) -> argparse.Namespace:
         help="不生成默认封面页",
     )
     parser.add_argument(
+        "--cover-image",
+        type=Path,
+        default=None,
+        help="封面图片路径（PNG/JPG/PDF），会放在标题上方",
+    )
+    parser.add_argument(
+        "--cover-file",
+        type=Path,
+        default=None,
+        help="自定义封面文件（Markdown/LaTeX 原样插入），默认取 tools/pdf_export/cover.md（存在则生效）",
+    )
+    parser.add_argument(
         "--cover-title",
         default=DEFAULT_COVER_TITLE,
         help=f"封面标题 (默认: {DEFAULT_COVER_TITLE})",
@@ -116,6 +128,27 @@ def parse_arguments(argv: Sequence[str] | None = None) -> argparse.Namespace:
         help=f"封面底部文字 (默认: {DEFAULT_COVER_FOOTER})。传入空字符串可移除。",
     )
     parser.add_argument(
+        "--paper",
+        default=None,
+        help="纸张大小，如 a4 / a5 / b5 / letter / legal (传 a4paper 也行)",
+    )
+    parser.add_argument(
+        "--margin",
+        default=None,
+        help="页边距，geometry 语法：2.5cm 或 top=2cm,bottom=2cm,left=1.5cm",
+    )
+    parser.add_argument(
+        "--binding-offset",
+        default=None,
+        help="装订线宽度（内侧额外留白，如 1cm），自动启用 twoside 奇偶页镜像",
+    )
+    parser.add_argument(
+        "--exclude-topics",
+        type=str,
+        default=None,
+        help="不导出的章节，按 frontmatter 的 topic 匹配，逗号分隔。例如: --exclude-topics '文化与表现'",
+    )
+    parser.add_argument(
         "--include-tags",
         type=str,
         default=None,
@@ -133,6 +166,18 @@ def parse_arguments(argv: Sequence[str] | None = None) -> argparse.Namespace:
         default=None,
         help="指定词条白名单文件路径，每行一个词条文件名（如 'Alter.md'）或标题",
     )
+    parser.add_argument(
+        "--volumes",
+        type=int,
+        default=1,
+        help="分册数量（目前支持 1 或 2）；按大章节切分，两册内容量尽量均衡，文件名加 -vol1/-vol2",
+    )
+    parser.add_argument(
+        "--emit-markdown",
+        type=Path,
+        default=None,
+        help="只写出合并后的 Markdown，不调 Pandoc（不需要 LaTeX，本地秒级校对章节与封面）",
+    )
 
     return parser.parse_args(argv)
 
@@ -142,20 +187,25 @@ def main(argv: Sequence[str] | None = None) -> None:
 
     args = parse_arguments(argv)
 
-    if sys.stdout.isatty():
-        print("🔍 检查依赖项...")
-    check_requirements(args.pandoc)
+    emit_markdown = args.emit_markdown
 
-    if sys.stdout.isatty():
-        print("🔧 检测 PDF 引擎...")
-    pdf_engine = detect_pdf_engine(args.pdf_engine)
-    if pdf_engine is None:
-        raise SystemExit(
-            "未找到可用的 PDF 引擎。请安装以下任意工具后重试:\n"
-            "- TeX Live、MiKTeX 等 TeX 发行版 (提供 xelatex 或 pdflatex)\n"
-            "- [Tectonic](https://tectonic-typesetting.github.io/)\n"
-            "安装完成后可通过 `python export_to_pdf.py --pdf-engine xelatex` 指定所需的引擎。"
-        )
+    if emit_markdown is None:
+        if sys.stdout.isatty():
+            print("🔍 检查依赖项...")
+        check_requirements(args.pandoc)
+
+        if sys.stdout.isatty():
+            print("🔧 检测 PDF 引擎...")
+        pdf_engine = detect_pdf_engine(args.pdf_engine)
+        if pdf_engine is None:
+            raise SystemExit(
+                "未找到可用的 PDF 引擎。请安装以下任意工具后重试:\n"
+                "- TeX Live、MiKTeX 等 TeX 发行版 (提供 xelatex 或 pdflatex)\n"
+                "- [Tectonic](https://tectonic-typesetting.github.io/)\n"
+                "安装完成后可通过 `python export_to_pdf.py --pdf-engine xelatex` 指定所需的引擎。"
+            )
+    else:
+        pdf_engine = None
 
     cjk_font = args.cjk_font.strip() if args.cjk_font else detect_cjk_font()
     main_font = args.main_font.strip() if args.main_font else None
@@ -183,11 +233,16 @@ def main(argv: Sequence[str] | None = None) -> None:
     if args.exclude_tags:
         exclude_tags = set(tag.strip() for tag in args.exclude_tags.split(',') if tag.strip())
 
+    exclude_topics = None
+    if args.exclude_topics:
+        exclude_topics = set(topic.strip() for topic in args.exclude_topics.split(',') if topic.strip())
+
     preface_doc, structure = collect_markdown_structure(
         ignore_rules,
         include_tags=include_tags,
         exclude_tags=exclude_tags,
         entry_list_path=args.entry_list,
+        exclude_topics=exclude_topics,
     )
     if not structure:
         raise SystemExit("没有找到可以导出的 Markdown 文件。")
@@ -207,56 +262,104 @@ def main(argv: Sequence[str] | None = None) -> None:
         if not cover_footer:
             cover_footer = None
 
+    cover_image = None
+    if args.cover_image:
+        # 合并后的 Markdown 写在临时目录，LaTeX 只认绝对路径。
+        if not args.cover_image.is_file():
+            raise SystemExit(f"封面图片不存在: {args.cover_image}")
+        cover_image = str(args.cover_image.resolve())
+
+    # 自定义封面文件优先于内置封面（内置的 --cover-* 参数随之失效）
+    cover_source = None
+    cover_path = args.cover_file or (COVER_FILE_PATH if COVER_FILE_PATH.is_file() else None)
+    if cover_path:
+        if not cover_path.is_file():
+            raise SystemExit(f"封面文件不存在: {cover_path}")
+        cover_source = cover_path.read_text(encoding="utf-8").strip()
+        print(f"使用自定义封面: {cover_path}（--cover-* 参数已忽略）")
+
     if sys.stdout.isatty():
         print("📅 加载更新时间戳...")
     last_updated_map = load_last_updated_map(LAST_UPDATED_JSON_PATH)
 
-    if sys.stdout.isatty():
-        print("🔨 合并 Markdown 内容...")
-    combined_markdown = build_combined_markdown(
-        preface_doc=preface_doc,
-        structure=structure,
-        include_readme=args.include_readme or not ignore_rules.matches(README_PATH),
-        include_cover=not args.no_cover,
-        cover_title=args.cover_title,
-        cover_subtitle=cover_subtitle,
-        cover_date=cover_date,
-        cover_footer=cover_footer,
-        cover_online_link_label=DEFAULT_COVER_ONLINE_LINK_LABEL,
-        cover_online_link_url=DEFAULT_COVER_ONLINE_LINK_URL,
-        last_updated_map=last_updated_map,
+    volumes = args.volumes
+    if volumes < 1:
+        raise SystemExit("--volumes 最小为 1")
+    if volumes > 2:
+        raise SystemExit("--volumes 目前只支持 1 或 2")
+
+    volume_structures = (
+        partition_structure(structure, volumes) if volumes > 1 else [structure]
     )
 
-    try:
-        export_path = args.output
-        export_path.parent.mkdir(parents=True, exist_ok=True)
+    for volume_index, volume_structure in enumerate(volume_structures, start=1):
+        suffix = f"-vol{volume_index}" if volumes > 1 else ""
+        volume_cover = cover_source
+        if cover_source is not None:
+            volume_cover = apply_volume_chapters(
+                cover_source, [title for title, _ in volume_structure]
+            )
 
-        if sys.stdout.isatty():
-            print(f"📄 调用 Pandoc 生成 PDF (使用引擎: {pdf_engine})...")
-        export_pdf(
-            markdown_content=combined_markdown,
-            output_path=export_path,
-            pandoc_cmd=args.pandoc,
-            pdf_engine=pdf_engine,
-            cjk_font=cjk_font,
-            main_font=main_font,
-            sans_font=sans_font,
-            mono_font=mono_font,
+        combined_markdown = build_combined_markdown(
+            preface_doc=preface_doc,
+            structure=volume_structure,
+            include_readme=args.include_readme or not ignore_rules.matches(README_PATH),
+            include_cover=not args.no_cover,
+            cover_source=volume_cover,
+            cover_title=args.cover_title,
+            cover_subtitle=cover_subtitle,
+            cover_date=cover_date,
+            cover_footer=cover_footer,
+            cover_online_link_label=DEFAULT_COVER_ONLINE_LINK_LABEL,
+            cover_online_link_url=DEFAULT_COVER_ONLINE_LINK_URL,
+            last_updated_map=last_updated_map,
+            cover_image=cover_image,
         )
-    except PandocExportError as error:
-        message = [
-            "Pandoc 转换失败，请检查 Pandoc 是否安装完整并确认 PDF 引擎可用。",
-        ]
-        if error.stderr:
-            message.append("Pandoc 输出:\n" + error.stderr)
-        raise SystemExit("\n".join(message)) from None
-    except OSError as exc:
-        raise SystemExit(f"无法写入输出文件: {exc}") from exc
 
-    if sys.stdout.isatty():
-        # 确保Windows终端正确显示中文
+        if emit_markdown is not None:
+            target = emit_markdown
+            if suffix:
+                target = target.with_name(f"{target.stem}{suffix}{target.suffix}")
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_text(combined_markdown, encoding="utf-8")
+            entries = sum(len(documents) for _, documents in volume_structure)
+            print(
+                f"已写出合并后的 Markdown: {target}"
+                f"（章节 {len(volume_structure)} 个 / 词条 {entries} 篇 / {len(combined_markdown)} 字符）"
+            )
+            continue
+
         try:
-            print(f"已成功导出 PDF 到 {args.output}")
-        except UnicodeEncodeError:
-            # Windows终端编码回退处理
-            print(f"已成功导出 PDF 到 {args.output}".encode('gbk', errors='ignore').decode('gbk'))
+            export_path = args.output
+            if suffix:
+                export_path = export_path.with_name(
+                    f"{export_path.stem}{suffix}{export_path.suffix}"
+                )
+            export_path.parent.mkdir(parents=True, exist_ok=True)
+
+            if sys.stdout.isatty():
+                print(f"📄 调用 Pandoc 生成 PDF (使用引擎: {pdf_engine})...")
+            export_pdf(
+                markdown_content=combined_markdown,
+                output_path=export_path,
+                pandoc_cmd=args.pandoc,
+                pdf_engine=pdf_engine,
+                cjk_font=cjk_font,
+                main_font=main_font,
+                sans_font=sans_font,
+                mono_font=mono_font,
+                paper=args.paper,
+                margin=args.margin,
+                binding_offset=args.binding_offset,
+            )
+        except PandocExportError as error:
+            message = [
+                "Pandoc 转换失败，请检查 Pandoc 是否安装完整并确认 PDF 引擎可用。",
+            ]
+            if error.stderr:
+                message.append("Pandoc 输出:\n" + error.stderr)
+            raise SystemExit("\n".join(message)) from None
+        except OSError as exc:
+            raise SystemExit(f"无法写入输出文件: {exc}") from exc
+
+        print(f"已导出 PDF: {export_path}")

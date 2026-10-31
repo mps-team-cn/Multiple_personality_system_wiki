@@ -26,6 +26,47 @@ make pdf PDF_OUTPUT=dist/wiki.pdf
 
 默认情况下，`make pdf` 会使用 `tectonic` 作为 PDF 引擎、`Microsoft YaHei` 作为中文字体，并输出到 `releases/Multiple_Personality_System_wiki.pdf`。
 
+### 自定义 PDF（纸张 / 页边距 / 封面 / 章节）
+
+`PDF_EXTRA_ARGS` 可以透传任意导参给 `export_to_pdf.py`：
+
+```bash
+# A5 + 2cm 页边距
+make pdf PDF_EXTRA_ARGS="--paper a5 --margin 2cm"
+
+# 只保留临床与系统两部分
+make pdf PDF_EXTRA_ARGS="--exclude-topics '文化与表现,角色与身份'"
+
+# 自定义封面（图片路径需为仓库内相对路径）
+make pdf PDF_EXTRA_ARGS="--cover-image docs/assets/images/og-banner.png \
+  --cover-title '多意识体系统知识库' --cover-subtitle '2025 年鉴' --cover-footer ''"
+
+# 左右边距分开设（geometry 语法）
+make pdf PDF_EXTRA_ARGS="--margin 'top=2.5cm,bottom=2.5cm,left=2cm,right=2cm'"
+
+# 装订版（内侧额外留 1cm，自动 twoside 奇偶页镜像）
+make pdf PDF_EXTRA_ARGS="--binding-offset 1cm --margin 2cm"
+
+# 秒级预览：只拼合 Markdown，不调 LaTeX（本地不需要 pandoc / TeX）
+make preview PDF_EXTRA_ARGS="--exclude-topics '文化与表现'"
+# → dist/preview.md，用 Markdown 预览器看章节顺序、封面文案、目录条目对不对
+```
+
+### 自定义封面
+
+封面有两条路，**文件优先**：
+
+1. **改文案/图片**（内置封面）：`--cover-title` / `--cover-subtitle` / `--cover-date` / `--cover-footer` / `--cover-image`。
+2. **整页自写**：`cp tools/pdf_export/cover.example.md tools/pdf_export/cover.md`，然后随意改。
+
+`tools/pdf_export/cover.md` **存在就生效**（会完整替换内置封面，上面那 5 个参数随之失效），CI 也自动用它，不需要额外参数。文件内容原样插到 PDF 最前，Markdown 和 LaTeX 都能写（`raw_tex` 已开）；末尾不用写 `\newpage`，后面会自己接目录。想放其它位置就用 `--cover-file 路径`；`--no-cover` 仍然可以不生成封面。
+
+可用参数：`--paper`（a4/a5/b5/letter/legal）、`--margin`（geometry 语法）、`--binding-offset`（装订线内侧留白，隐含 `twoside`）、`--exclude-topics`（按 frontmatter `topic` 剔除整章）、`--cover-image` / `--cover-title` / `--cover-subtitle` / `--cover-date` / `--cover-footer`、`--no-cover`。
+
+云端出 PDF：`.github/workflows/pdf-build.yml`（手动触发可选纸张/页边距/章节/封面，打 `v*` 标签时自动把 PDF 附到 Release）。可选参数的单测：`uv run python3 tools/pdf_export/test_pdf_export.py`。
+
+排版参数（纸张/页边距/装订线）**只能靠真编译检验**：`make preview` 约 2.5 秒出内容，确认章节取舍后再跑一次云端构建拿最终 PDF。
+
 ### 一键执行日常维护
 
 ```bash
@@ -130,7 +171,7 @@ bash tools/run_local_updates.sh --help
 
 | 工具 | 功能 | 使用频率 |
 |------|------|---------|
-| **pdf_export/** | Pandoc 驱动的整站 PDF 导出 | 📄 归档时 |
+| **pdf_export/** | Pandoc 驱动的整站 PDF 导出（封面/纸张/页边距/章节剔除可配，CI 见 `pdf-build.yml`） | 📄 归档时 |
 | **export_knowledge.py** | 将 `docs/entries/` 词条导出为干净 Markdown，供全文检索引擎（如 qq-maid-bot）直接使用 | 🤖 内容更新时 |
 
 注意：

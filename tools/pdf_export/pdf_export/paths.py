@@ -25,3 +25,6 @@ IGNORE_FILE_PATH = (
     _TOOLS_IGNORE_PATH if _TOOLS_IGNORE_PATH.exists() else PROJECT_ROOT / "ignore.md"
 )
 LAST_UPDATED_JSON_PATH = DOCS_DIR / "assets" / "last-updated.json" if (DOCS_DIR / "assets" / "last-updated.json").exists() else PROJECT_ROOT / "assets" / "last-updated.json"
+
+# 自定义封面：存在则完整替代内置封面页（不会当作词条导出，tools/ 已在 ignore.md 里）
+COVER_FILE_PATH = TOOLS_EXPORT_DIR / "cover.md"

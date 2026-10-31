@@ -395,6 +395,7 @@ def collect_markdown_structure(
     include_tags: set[str] | None = None,
     exclude_tags: set[str] | None = None,
     entry_list_path: Path | None = None,
+    exclude_topics: set[str] | None = None,
 ) -> tuple[EntryDocument | None, CategoryStructure]:
     """依据词条的 topic 字段构建 PDF 导出结构。
 
@@ -406,6 +407,7 @@ def collect_markdown_structure(
         include_tags: 只包含具有这些标签的词条（至少匹配一个）
         exclude_tags: 排除具有这些标签的词条（匹配任一标签则排除）
         entry_list_path: 词条白名单文件路径
+        exclude_topics: 不导出的 topic（章节）名称集合，如 {"文化与表现"}
 
     返回值:
         tuple[EntryDocument | None, CategoryStructure]: (前言文档, 分类结构)
@@ -434,6 +436,14 @@ def collect_markdown_structure(
 
     categories: list[tuple[str, tuple[EntryDocument, ...]]] = []
 
+    # 剔除指定章节（topic 为空即“其他”分类）
+    if exclude_topics:
+        documents = {
+            path: document
+            for path, document in documents.items()
+            if (document.topic or "").strip() not in exclude_topics
+        }
+
     # 加载前言文档（独立于章节结构）
     preface_doc = _load_preface_document(ignore)
 
@@ -442,3 +452,27 @@ def collect_markdown_structure(
     categories.extend(topic_sections)
 
     return (preface_doc, tuple(categories))
+
+
+def partition_structure(
+    structure: CategoryStructure, volumes: int = 2
+) -> list[CategoryStructure]:
+    """把章节按内容量切成若干册：保持章节顺序，只允许在章节边界切分。
+
+    切分点选“两册内容量最接近”的那一处（按正文字符数估算，与页数强相关）。
+    """
+
+    if volumes < 2:
+        return [structure]
+    if volumes != 2:
+        raise ValueError("目前只支持切成 2 册")
+    if len(structure) < 2:
+        return [structure]
+
+    sizes = [sum(len(document.body) for document in documents) for _, documents in structure]
+    total = sum(sizes)
+    split = min(
+        range(1, len(structure)),
+        key=lambda cut: abs(sum(sizes[:cut]) * 2 - total),
+    )
+    return [structure[:split], structure[split:]]
