@@ -21,6 +21,9 @@ on:
       cover_title:
         description: '封面标题 (留空用默认)'
         default: ''
+      volumes:
+        description: '分册数量 (1 或 2)'
+        default: '2'
   push:
     tags: ['v*']
     branches: ['pdf-build']
@@ -72,9 +75,10 @@ jobs:
           EXCLUDE_TOPICS: ${{ inputs.exclude_topics }}
           COVER_IMAGE: ${{ inputs.cover_image }}
           COVER_TITLE: ${{ inputs.cover_title }}
+          VOLUMES: ${{ inputs.volumes || '2' }}
         run: |
           output="releases/Multiple_Personality_System_wiki-${PAPER}.pdf"
-          args="--paper $PAPER --margin $MARGIN"
+          args="--paper $PAPER --margin $MARGIN --volumes $VOLUMES"
           if [ -n "$EXCLUDE_TOPICS" ]; then args="$args --exclude-topics $EXCLUDE_TOPICS"; fi
           if [ -n "$BINDING_OFFSET" ]; then args="$args --binding-offset $BINDING_OFFSET"; fi
           if [ -n "$COVER_IMAGE" ]; then args="$args --cover-image $COVER_IMAGE"; fi

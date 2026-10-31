@@ -588,6 +588,15 @@ def build_directory_page(
     return "\n".join(lines)
 
 
+def apply_volume_chapters(cover_source: str, chapter_titles: Sequence[str]) -> str:
+    """把封面文件里的 ``{{VOLUME_CHAPTERS}}`` 换成本册的大章节列表。"""
+
+    lines = "\n".join(
+        rf"{{\large {escape_latex(title)}\par}}" for title in chapter_titles
+    )
+    return cover_source.replace("{{VOLUME_CHAPTERS}}", lines)
+
+
 def build_combined_markdown(
     preface_doc: EntryDocument | None,
     structure: CategoryStructure,

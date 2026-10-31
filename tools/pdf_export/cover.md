@@ -16,6 +16,9 @@
 \vspace{1.5cm}
 {\Large Multiple Personality System Wiki\par}
 
+\vspace{1.2cm}
+{{VOLUME_CHAPTERS}}
+
 
 
 \vfill

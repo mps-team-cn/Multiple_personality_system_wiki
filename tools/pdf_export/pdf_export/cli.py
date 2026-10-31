@@ -31,11 +31,11 @@ from .constants import (
 from .exporter import export_pdf
 from .ignore_loader import load_ignore_rules
 from .last_updated import load_last_updated_map
-from .markdown import build_combined_markdown
+from .markdown import apply_volume_chapters, build_combined_markdown
 from .models import PandocExportError
 from .paths import COVER_FILE_PATH, IGNORE_FILE_PATH, LAST_UPDATED_JSON_PATH, PROJECT_ROOT, README_PATH
 from .requirements import check_requirements, detect_cjk_font, detect_pdf_engine
-from .structure import collect_markdown_structure
+from .structure import collect_markdown_structure, partition_structure
 
 
 def parse_arguments(argv: Sequence[str] | None = None) -> argparse.Namespace:
@@ -167,6 +167,12 @@ def parse_arguments(argv: Sequence[str] | None = None) -> argparse.Namespace:
         help="指定词条白名单文件路径，每行一个词条文件名（如 'Alter.md'）或标题",
     )
     parser.add_argument(
+        "--volumes",
+        type=int,
+        default=1,
+        help="分册数量（目前支持 1 或 2）；按大章节切分，两册内容量尽量均衡，文件名加 -vol1/-vol2",
+    )
+    parser.add_argument(
         "--emit-markdown",
         type=Path,
         default=None,
@@ -276,64 +282,84 @@ def main(argv: Sequence[str] | None = None) -> None:
         print("📅 加载更新时间戳...")
     last_updated_map = load_last_updated_map(LAST_UPDATED_JSON_PATH)
 
-    if sys.stdout.isatty():
-        print("🔨 合并 Markdown 内容...")
-    combined_markdown = build_combined_markdown(
-        preface_doc=preface_doc,
-        structure=structure,
-        include_readme=args.include_readme or not ignore_rules.matches(README_PATH),
-        include_cover=not args.no_cover,
-        cover_source=cover_source,
-        cover_title=args.cover_title,
-        cover_subtitle=cover_subtitle,
-        cover_date=cover_date,
-        cover_footer=cover_footer,
-        cover_online_link_label=DEFAULT_COVER_ONLINE_LINK_LABEL,
-        cover_online_link_url=DEFAULT_COVER_ONLINE_LINK_URL,
-        last_updated_map=last_updated_map,
-        cover_image=cover_image,
+    volumes = args.volumes
+    if volumes < 1:
+        raise SystemExit("--volumes 最小为 1")
+    if volumes > 2:
+        raise SystemExit("--volumes 目前只支持 1 或 2")
+
+    volume_structures = (
+        partition_structure(structure, volumes) if volumes > 1 else [structure]
     )
 
-    if emit_markdown is not None:
-        emit_markdown.parent.mkdir(parents=True, exist_ok=True)
-        emit_markdown.write_text(combined_markdown, encoding="utf-8")
-        print(f"已写出合并后的 Markdown: {emit_markdown}")
-        print(f"章节 {len(structure)} 个 / 词条 {total_entries} 篇 / {len(combined_markdown)} 字符")
-        return
+    for volume_index, volume_structure in enumerate(volume_structures, start=1):
+        suffix = f"-vol{volume_index}" if volumes > 1 else ""
+        volume_cover = cover_source
+        if cover_source is not None:
+            volume_cover = apply_volume_chapters(
+                cover_source, [title for title, _ in volume_structure]
+            )
 
-    try:
-        export_path = args.output
-        export_path.parent.mkdir(parents=True, exist_ok=True)
-
-        if sys.stdout.isatty():
-            print(f"📄 调用 Pandoc 生成 PDF (使用引擎: {pdf_engine})...")
-        export_pdf(
-            markdown_content=combined_markdown,
-            output_path=export_path,
-            pandoc_cmd=args.pandoc,
-            pdf_engine=pdf_engine,
-            cjk_font=cjk_font,
-            main_font=main_font,
-            sans_font=sans_font,
-            mono_font=mono_font,
-            paper=args.paper,
-            margin=args.margin,
-            binding_offset=args.binding_offset,
+        combined_markdown = build_combined_markdown(
+            preface_doc=preface_doc,
+            structure=volume_structure,
+            include_readme=args.include_readme or not ignore_rules.matches(README_PATH),
+            include_cover=not args.no_cover,
+            cover_source=volume_cover,
+            cover_title=args.cover_title,
+            cover_subtitle=cover_subtitle,
+            cover_date=cover_date,
+            cover_footer=cover_footer,
+            cover_online_link_label=DEFAULT_COVER_ONLINE_LINK_LABEL,
+            cover_online_link_url=DEFAULT_COVER_ONLINE_LINK_URL,
+            last_updated_map=last_updated_map,
+            cover_image=cover_image,
         )
-    except PandocExportError as error:
-        message = [
-            "Pandoc 转换失败，请检查 Pandoc 是否安装完整并确认 PDF 引擎可用。",
-        ]
-        if error.stderr:
-            message.append("Pandoc 输出:\n" + error.stderr)
-        raise SystemExit("\n".join(message)) from None
-    except OSError as exc:
-        raise SystemExit(f"无法写入输出文件: {exc}") from exc
 
-    if sys.stdout.isatty():
-        # 确保Windows终端正确显示中文
+        if emit_markdown is not None:
+            target = emit_markdown
+            if suffix:
+                target = target.with_name(f"{target.stem}{suffix}{target.suffix}")
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_text(combined_markdown, encoding="utf-8")
+            entries = sum(len(documents) for _, documents in volume_structure)
+            print(
+                f"已写出合并后的 Markdown: {target}"
+                f"（章节 {len(volume_structure)} 个 / 词条 {entries} 篇 / {len(combined_markdown)} 字符）"
+            )
+            continue
+
         try:
-            print(f"已成功导出 PDF 到 {args.output}")
-        except UnicodeEncodeError:
-            # Windows终端编码回退处理
-            print(f"已成功导出 PDF 到 {args.output}".encode('gbk', errors='ignore').decode('gbk'))
+            export_path = args.output
+            if suffix:
+                export_path = export_path.with_name(
+                    f"{export_path.stem}{suffix}{export_path.suffix}"
+                )
+            export_path.parent.mkdir(parents=True, exist_ok=True)
+
+            if sys.stdout.isatty():
+                print(f"📄 调用 Pandoc 生成 PDF (使用引擎: {pdf_engine})...")
+            export_pdf(
+                markdown_content=combined_markdown,
+                output_path=export_path,
+                pandoc_cmd=args.pandoc,
+                pdf_engine=pdf_engine,
+                cjk_font=cjk_font,
+                main_font=main_font,
+                sans_font=sans_font,
+                mono_font=mono_font,
+                paper=args.paper,
+                margin=args.margin,
+                binding_offset=args.binding_offset,
+            )
+        except PandocExportError as error:
+            message = [
+                "Pandoc 转换失败，请检查 Pandoc 是否安装完整并确认 PDF 引擎可用。",
+            ]
+            if error.stderr:
+                message.append("Pandoc 输出:\n" + error.stderr)
+            raise SystemExit("\n".join(message)) from None
+        except OSError as exc:
+            raise SystemExit(f"无法写入输出文件: {exc}") from exc
+
+        print(f"已导出 PDF: {export_path}")

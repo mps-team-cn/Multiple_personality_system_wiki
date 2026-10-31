@@ -452,3 +452,27 @@ def collect_markdown_structure(
     categories.extend(topic_sections)
 
     return (preface_doc, tuple(categories))
+
+
+def partition_structure(
+    structure: CategoryStructure, volumes: int = 2
+) -> list[CategoryStructure]:
+    """把章节按内容量切成若干册：保持章节顺序，只允许在章节边界切分。
+
+    切分点选“两册内容量最接近”的那一处（按正文字符数估算，与页数强相关）。
+    """
+
+    if volumes < 2:
+        return [structure]
+    if volumes != 2:
+        raise ValueError("目前只支持切成 2 册")
+    if len(structure) < 2:
+        return [structure]
+
+    sizes = [sum(len(document.body) for document in documents) for _, documents in structure]
+    total = sum(sizes)
+    split = min(
+        range(1, len(structure)),
+        key=lambda cut: abs(sum(sizes[:cut]) * 2 - total),
+    )
+    return [structure[:split], structure[split:]]

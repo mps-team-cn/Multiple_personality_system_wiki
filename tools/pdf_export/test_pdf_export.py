@@ -15,9 +15,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from pdf_export.cli import main
 from pdf_export.exporter import build_pandoc_command, normalize_paper
 from pdf_export.ignore_loader import load_ignore_rules
-from pdf_export.markdown import build_cover_page, strip_html_markup
+from pdf_export.markdown import apply_volume_chapters, build_cover_page, strip_html_markup
 from pdf_export.paths import IGNORE_FILE_PATH
-from pdf_export.structure import collect_markdown_structure
+from pdf_export.structure import collect_markdown_structure, partition_structure
 
 
 def _cmd(**overrides) -> list[str]:
@@ -142,6 +142,32 @@ def test_html_markup_stripped():
     assert "注释" not in out
     assert "若焦虑持续" in out
     assert "<div>代码里的标签保留</div>" in out
+
+
+def test_volume_partition_balances_and_keeps_order():
+    rules = load_ignore_rules(IGNORE_FILE_PATH)
+    _, structure = collect_markdown_structure(rules)
+
+    volumes = partition_structure(structure, 2)
+    assert len(volumes) == 2
+
+    titles = [t for t, _ in structure]
+    assert [t for t, _ in volumes[0]] + [t for t, _ in volumes[1]] == titles  # 顺序不丢章节
+
+    def size(volume):
+        return sum(len(d.body) for _, docs in volume for d in docs)
+
+    a, b = size(volumes[0]), size(volumes[1])
+    assert min(a, b) / max(a, b) > 0.6  # 章节粒度下能做到的最好水平
+
+
+def test_volume_cover_lists_chapters():
+    source = "标题\n{{VOLUME_CHAPTERS}}\n日期"
+    rendered = apply_volume_chapters(source, ["创伤与疗愈", "系统运作"])
+
+    assert "{{VOLUME_CHAPTERS}}" not in rendered
+    assert "{\\large 创伤与疗愈\\par}" in rendered
+    assert "{\\large 系统运作\\par}" in rendered
 
 
 if __name__ == "__main__":
