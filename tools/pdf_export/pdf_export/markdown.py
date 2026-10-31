@@ -392,8 +392,13 @@ def build_cover_page(
     footer_text: str | None,
     online_link_label: str | None,
     online_link_url: str | None,
+    cover_image: str | None = None,
 ) -> str:
-    """使用 LaTeX ``titlepage`` 环境构建封面页。"""
+    """使用 LaTeX ``titlepage`` 环境构建封面页。
+
+    ``cover_image`` 需为绝对路径：合并后的 Markdown 写在临时目录里，
+    相对路径会解析失败。
+    """
 
     def _format_line(size_command: str, text: str, *, italic: bool = False) -> str:
         """以指定字号指令渲染 ``text``，同时完成转义。"""
@@ -412,9 +417,18 @@ def build_cover_page(
     lines = [
         "\\begin{titlepage}",
         "\\centering",
-        "\\vspace*{3cm}",
-        _format_line("\\Huge", title),
+        "\\vspace*{1.5cm}" if cover_image else "\\vspace*{3cm}",
     ]
+
+    if cover_image:
+        # \detokenize 防止路径里的下划线/空格被当成 LaTeX 语法
+        lines.extend([
+            f"\\includegraphics[width=0.55\\textwidth,height=5cm,keepaspectratio]"
+            f"{{\\detokenize{{{cover_image}}}}}",
+            "\\vspace{1.2cm}",
+        ])
+
+    lines.append(_format_line("\\Huge", title))
 
     if subtitle:
         lines.extend([
@@ -507,6 +521,8 @@ def build_combined_markdown(
     cover_online_link_label: str | None,
     cover_online_link_url: str | None,
     last_updated_map: Mapping[str, LastUpdatedInfo] | None = None,
+    cover_image: str | None = None,
+    cover_source: str | None = None,
 ) -> str:
     """将所有 Markdown 文件拼接为单一字符串供 Pandoc 使用。
 
@@ -516,18 +532,22 @@ def build_combined_markdown(
     parts: list[str] = []
     anchor_lookup = _build_anchor_lookup(structure)
 
-    # 1. 封面页 (LaTeX titlepage)
+    # 1. 封面页 (LaTeX titlepage)，cover_source 存在时原样使用
     if include_cover:
-        parts.append(
-            build_cover_page(
-                title=cover_title,
-                subtitle=cover_subtitle,
-                date_text=cover_date,
-                footer_text=cover_footer,
-                online_link_label=cover_online_link_label,
-                online_link_url=cover_online_link_url,
+        if cover_source:
+            parts.append(cover_source.rstrip() + "\n\n\\newpage\n\n")
+        else:
+            parts.append(
+                build_cover_page(
+                    title=cover_title,
+                    subtitle=cover_subtitle,
+                    date_text=cover_date,
+                    footer_text=cover_footer,
+                    online_link_label=cover_online_link_label,
+                    online_link_url=cover_online_link_url,
+                    cover_image=cover_image,
+                )
             )
-        )
 
     # 2. 目录页
     if structure:

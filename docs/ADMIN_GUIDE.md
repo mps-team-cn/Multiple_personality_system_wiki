@@ -228,6 +228,9 @@ gh release edit v1.4.0 \
 3. 复制 `docs/changelog.md` 对应版本内容到 Release Notes
 4. 点击 "Publish release"
 
+!!! note "PDF 附件自动生成"
+    推送 `v*` 标签会触发 `.github/workflows/pdf-build.yml`：自动创建（若不存在）或更新 Release，并把 `Multiple_Personality_System_wiki.pdf` 作为附件上传。所以推标签后直接 `gh release edit <tag> --notes-file docs/changelog.md` 补更新说明即可，不需要手搓附件。纸张/页边距/章节/封面可在 Actions 里手动触发 `构建 PDF` 时临时指定。
+
 #### Step 4: 验证发布
 
 - [ ] GitHub Release 页面显示正常

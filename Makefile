@@ -10,12 +10,13 @@ MARKDOWN_FILES ?= docs/**/*.md
 PDF_ENGINE ?= tectonic
 CJK_FONT ?= Microsoft YaHei
 PDF_OUTPUT ?= releases/Multiple_Personality_System_wiki.pdf
+PREVIEW_OUT ?= dist/preview.md
 PDF_EXTRA_ARGS ?=
 KNOWLEDGE_INPUT ?= docs/entries
 KNOWLEDGE_OUTPUT ?= dist/knowledge/entries
 STATUS_TOP ?= 10
 
-.PHONY: help status links tags frontmatter build serve pdf fix lint check all knowledge
+.PHONY: help status links tags frontmatter build serve pdf preview fix lint check all knowledge
 
 help:
 	@printf '%s\n' \
@@ -29,6 +30,7 @@ help:
 		'  make serve        启动本地预览服务' \
 		'  make knowledge    导出干净知识库（供全文检索/qq-maid-bot 使用）' \
 		'  make pdf          导出 PDF' \
+		'  make preview      只生成合并后的 Markdown（不装 LaTeX 也能跑，秒出）' \
 		'  make fix          修复 docs/entries/ 下的 Markdown 格式' \
 		'  make lint         运行 markdownlint' \
 		'  make check        依次执行 links/tags/frontmatter/build' \
@@ -44,6 +46,7 @@ help:
 		'  KNOWLEDGE_INPUT=docs/entries' \
 		'  KNOWLEDGE_OUTPUT=dist/knowledge/entries' \
 		'  PDF_OUTPUT=releases/Multiple_Personality_System_wiki.pdf' \
+		'  PREVIEW_OUT=dist/preview.md' \
 		'  PDF_EXTRA_ARGS=...' \
 		'' \
 		'示例:' \
@@ -55,6 +58,9 @@ help:
 		'  make check' \
 		'  make pdf PDF_ENGINE=xelatex CJK_FONT="Noto Serif CJK SC"' \
 		'  make pdf PDF_OUTPUT=dist/wiki.pdf PDF_EXTRA_ARGS='\''--include-tags "guide:入门指南"'\'''
+
+preview:
+	@$(UV) run $(PYTHON) tools/pdf_export/export_to_pdf.py --emit-markdown $(PREVIEW_OUT) $(PDF_EXTRA_ARGS)
 
 status:
 	@printf '%s\n' 'Markdown 状态统计'

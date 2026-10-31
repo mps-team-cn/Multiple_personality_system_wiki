@@ -1,0 +1,82 @@
+name: 构建 PDF
+
+on:
+  workflow_dispatch:
+    inputs:
+      paper:
+        description: '纸张大小 (a4/a5/b5/letter/legal)'
+        default: a5
+      margin:
+        description: '页边距 (geometry 语法: 2.5cm 或 top=2cm,bottom=2cm)'
+        default: 1.3cm
+      binding_offset:
+        description: '装订线宽度 (内侧额外留白, 如 1cm; 留空则不启用)'
+        default: 0.5cm
+      exclude_topics:
+        description: '不导出的章节，逗号分隔 (如 文化与表现)'
+        default: ''
+      cover_image:
+        description: '封面图片仓库内路径 (可选, 如 docs/assets/images/cover.png)'
+        default: ''
+      cover_title:
+        description: '封面标题 (留空用默认)'
+        default: ''
+  push:
+    tags: ['v*']
+    branches: ['pdf-build']
+
+permissions:
+  contents: write
+
+jobs:
+  pdf:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 安装 Pandoc + XeLaTeX + 中文字体
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            pandoc texlive-xetex texlive-latex-recommended texlive-lang-chinese fonts-noto-cjk
+          python -m pip install --disable-pip-version-check pyyaml
+
+      - name: 生成 PDF
+        env:
+          PAPER: ${{ inputs.paper || 'a5' }}
+          MARGIN: ${{ inputs.margin || '1.3cm' }}
+          BINDING_OFFSET: ${{ inputs.binding_offset || '0.5cm' }}
+          EXCLUDE_TOPICS: ${{ inputs.exclude_topics }}
+          COVER_IMAGE: ${{ inputs.cover_image }}
+          COVER_TITLE: ${{ inputs.cover_title }}
+        run: |
+          args="--paper $PAPER --margin $MARGIN"
+          if [ -n "$EXCLUDE_TOPICS" ]; then args="$args --exclude-topics $EXCLUDE_TOPICS"; fi
+          if [ -n "$BINDING_OFFSET" ]; then args="$args --binding-offset $BINDING_OFFSET"; fi
+          if [ -n "$COVER_IMAGE" ]; then args="$args --cover-image $COVER_IMAGE"; fi
+          if [ -n "$COVER_TITLE" ]; then args="$args --cover-title $COVER_TITLE"; fi
+          python3 tools/pdf_export/export_to_pdf.py \
+            --pdf-engine xelatex \
+            --cjk-font "Noto Serif CJK SC" \
+            --output releases/Multiple_Personality_System_wiki.pdf \
+            $args
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wiki-pdf
+          path: releases/*.pdf
+          retention-days: 30
+
+      - name: 附加到 Release
+        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="${GITHUB_REF_NAME}"
+          gh release view "$tag" >/dev/null 2>&1 || gh release create "$tag" --title "$tag" --notes "PDF 见附件"
+          gh release upload "$tag" releases/*.pdf --clobber

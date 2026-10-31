@@ -26,3 +26,6 @@ docs/entries/Multidimensional-Inventory-of-Dissociation-MID-60.md
 docs/entries/Dissociative-Experiences-Scale-DES-II.md
 docs/entries/Dissociative-Experiences-Scale-DES-II.md
 docs/entries/Somatoform-Dissociation-Questionnaire-SDQ-20.md
+
+# 不导出前言（用户要求，2026-10-31）
+docs/Preface.md
