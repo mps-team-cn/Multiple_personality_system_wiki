@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import subprocess
 import tempfile
+import re
 from pathlib import Path
 
 from .models import PandocExportError
@@ -14,6 +15,35 @@ def normalize_paper(value: str) -> str:
     """把 ``a4`` / ``A4`` / ``a4paper`` 统一成 Pandoc 模板期望的 ``a4``。"""
 
     return value.strip().lower().removesuffix("paper")
+
+
+_UNIT_TO_CM = {"cm": 1.0, "mm": 0.1, "in": 2.54, "pt": 0.0352778}
+
+
+def bottom_margin_cm(margin: str) -> float | None:
+    """从 geometry 风格的字符串里取底边距（单位 cm）。
+
+    支持 ``1.3cm``、``bottom=2cm``、``top=2cm,bottom=2cm,left=1cm``。
+    """
+
+    match = re.search(r"bottom\s*=\s*([\d.]+)\s*(cm|mm|in|pt)", margin)
+    if match is None:
+        match = re.fullmatch(r"\s*([\d.]+)\s*(cm|mm|in|pt)\s*", margin)
+    if match is None:
+        return None
+    value, unit = float(match.group(1)), match.group(2)
+    return value * _UNIT_TO_CM[unit]
+
+
+def footskip_cm(margin: str | None) -> str | None:
+    """让页码落在底边距内侧（否则默认 30pt 的 footskip 会把页码顶到纸边 2mm 处）。"""
+
+    if not margin:
+        return None
+    bottom = bottom_margin_cm(margin)
+    if bottom is None:
+        return None
+    return f"{max(0.4, bottom - 0.55):.2f}cm"
 
 
 def build_pandoc_command(
@@ -60,6 +90,10 @@ def build_pandoc_command(
         geometry_parts.append(
             margin_value if "=" in margin_value else f"margin={margin_value}"
         )
+        # 页码（页脚）默认贴着纸边，给个跟底边距挂钩的 footskip
+        skip = footskip_cm(margin_value)
+        if skip:
+            geometry_parts.append(f"footskip={skip}")
     # 装订线：内侧额外留白，必须配 twoside（奇偶页镜像），否则只加在左边。
     if binding_offset:
         geometry_parts.append(f"bindingoffset={binding_offset.strip()}")

@@ -49,22 +49,30 @@ def _cover(**overrides) -> str:
 
 
 def test_paper_and_margin():
-    command = _cmd(paper="A4paper", margin="2.5cm")
-    assert "geometry=a4paper,margin=2.5cm" in command
+    command = " ".join(_cmd(paper="A4paper", margin="2.5cm"))
+    assert "geometry=a4paper,margin=2.5cm,footskip=1.95cm" in command
     assert _cmd().count("--variable") == 0
 
 
+def test_footskip_follows_bottom_margin():
+    # 默认 footskip=30pt，底边距 1.3cm 时页码会跑到纸边 2mm 处
+    assert "geometry=margin=1.3cm,footskip=0.75cm" in " ".join(_cmd(margin="1.3cm"))
+    assert "footskip=1.45cm" in " ".join(_cmd(margin="top=2cm,bottom=2cm"))
+    assert "footskip=0.40cm" in " ".join(_cmd(margin="bottom=0.6cm"))
+    assert not any("footskip" in item for item in _cmd())
+
+
 def test_margin_geometry_syntax():
-    command = _cmd(margin="top=2cm,bottom=2cm")
+    command = " ".join(_cmd(margin="top=2cm,bottom=2cm"))
     assert "geometry=top=2cm,bottom=2cm" in command
 
 
 def test_binding_offset():
-    command = _cmd(paper="a5", margin="2cm", binding_offset="1cm")
-    assert "geometry=a5paper,margin=2cm,bindingoffset=1cm" in command
+    command = " ".join(_cmd(paper="a5", margin="2cm", binding_offset="1cm"))
+    assert "geometry=a5paper,margin=2cm,footskip=1.45cm,bindingoffset=1cm" in command
     assert "classoption=twoside" in command
     # 不传就不该带 twoside（不改默认版式）
-    assert "classoption=twoside" not in _cmd(margin="2cm")
+    assert "classoption=twoside" not in " ".join(_cmd(margin="2cm"))
 
 
 def test_paper_normalize():
