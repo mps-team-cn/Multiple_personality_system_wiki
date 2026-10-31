@@ -151,6 +151,9 @@ def export_pdf(
 \setlist{itemsep=0.2em,parsep=0em,topsep=0.5em,partopsep=0em}
 \setlist[itemize]{leftmargin=1.5em}
 \setlist[enumerate]{leftmargin=2em}
+% 长 URL / 长英文串防出界：允许更多伸缩+断行，而不是顶出右边距
+\setlength{\emergencystretch}{3em}
+\sloppy
 """
     # 创建临时 LaTeX 头部文件
     with tempfile.NamedTemporaryFile("w", encoding="utf-8", suffix=".tex", delete=False) as header_handle:

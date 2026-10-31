@@ -5,7 +5,7 @@ on:
     inputs:
       paper:
         description: '纸张大小，逗号分隔 (a4/a5/b5/letter/legal)'
-        default: 'a5,b5,a4'
+        default: a4
       margin:
         description: '页边距 (geometry 语法: 2.5cm 或 top=2cm,bottom=2cm)'
         default: 1.3cm
@@ -36,7 +36,7 @@ jobs:
     steps:
       - id: parse
         env:
-          PAPER: ${{ inputs.paper || 'a5,b5,a4' }}
+          PAPER: ${{ inputs.paper || 'a4' }}
         run: |
           json=$(python3 -c "import json,os; print(json.dumps([p.strip() for p in os.environ['PAPER'].split(',') if p.strip()]))")
           echo "papers=$json" >> "$GITHUB_OUTPUT"

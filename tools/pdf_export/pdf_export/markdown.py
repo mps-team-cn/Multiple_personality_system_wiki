@@ -227,6 +227,84 @@ def strip_primary_heading(content: str, title: str) -> str:
     return "\n".join(stripped)
 
 
+_HTML_COMMENT_PATTERN = re.compile(r"<!--.*?-->", re.DOTALL)
+_HTML_TAG_PATTERN = re.compile(r"</?[A-Za-z][A-Za-z0-9]*(?:\s+[^<>]*)?/?>")
+_HTML_ENTITY_PATTERN = re.compile(r"&(?:#\d+|#x[0-9A-Fa-f]+|[A-Za-z]+);")
+_HTML_ENTITIES = {
+    "&amp;": "&",
+    "&lt;": "<",
+    "&gt;": ">",
+    "&quot;": '"',
+    "&apos;": "'",
+    "&nbsp;": " ",
+    "&mdash;": "—",
+    "&ndash;": "–",
+    "&hellip;": "…",
+    "&times;": "×",
+    "&middot;": "·",
+}
+
+
+def _unescape_html_entities(text: str) -> str:
+    def replace(match: re.Match[str]) -> str:
+        token = match.group(0)
+        if token.startswith("&#x") or token.startswith("&#X"):
+            return chr(int(token[3:-1], 16))
+        if token.startswith("&#"):
+            return chr(int(token[2:-1]))
+        return _HTML_ENTITIES.get(token, token)
+
+    return _HTML_ENTITY_PATTERN.sub(replace, text)
+
+
+def strip_html_markup(markdown: str) -> str:
+    """删掉词条里混入的 HTML 标签与实体，只留可读文字。
+
+    量表类词条会把交互控件（``<div class="brief-scale-hint" aria-…>``）写进正文，
+    LaTeX 不认识这些标签，会把 ``class="…">`` 当普通文字排出去：既难看，
+    也是不可断行的长串（顶出右边界的主因）。表格单元格先转成 ``|`` 再删标签，
+    保留行结构。围栏代码块内的内容不动。
+    """
+
+    without_comments = _HTML_COMMENT_PATTERN.sub("", markdown)
+    result: list[str] = []
+    in_fence = False
+    fence_token: str | None = None
+
+    for line in without_comments.splitlines(keepends=True):
+        fence_match = _FENCE_PATTERN.match(line)
+        if fence_match:
+            fence = fence_match.group("fence")
+            if not in_fence:
+                in_fence = True
+                fence_token = fence
+            elif fence_token is not None and fence.startswith(fence_token[0]) and len(fence) >= len(fence_token):
+                in_fence = False
+                fence_token = None
+
+        if in_fence:
+            result.append(line)
+            continue
+
+        cleaned = re.sub(r"</t[dh]>", " | ", line, flags=re.IGNORECASE)
+        cleaned = re.sub(r"</tr>", " |", cleaned, flags=re.IGNORECASE)
+        cleaned = _HTML_TAG_PATTERN.sub("", cleaned)
+        result.append(_unescape_html_entities(cleaned))
+
+    return "".join(result)
+
+
+def prepare_body(markdown: str, anchor_lookup: Mapping[Path, str] | None = None) -> str:
+    """词条正文进入 Pandoc 前的统一清洗流水线。"""
+
+    if anchor_lookup is not None:
+        markdown = rewrite_entry_links(markdown, anchor_lookup)
+    markdown = convert_html_br_tags(markdown)
+    markdown = strip_html_markup(markdown)
+    markdown = convert_admonitions_to_latex(markdown)
+    return strip_markdown_strikeout(markdown)
+
+
 def convert_html_br_tags(markdown: str) -> str:
     """将 HTML 换行标签 <br>, <br/>, <br /> 转换为 Markdown 双空格换行或 LaTeX \\\\。
 
@@ -559,11 +637,7 @@ def build_combined_markdown(
         preface_anchor = build_entry_anchor(preface_doc.path)
         relative = preface_doc.path.relative_to(PROJECT_ROOT)
         rewritten = rewrite_entry_links(preface_doc.body, anchor_lookup)
-        # 转换 HTML 换行标签
-        br_converted = convert_html_br_tags(rewritten)
-        # 转换 admonitions
-        converted = convert_admonitions_to_latex(br_converted)
-        converted = strip_markdown_strikeout(converted)
+        converted = prepare_body(rewritten)
         body = strip_primary_heading(converted, preface_doc.title)
         shifted = shift_heading_levels(body, offset=1).strip()
 
@@ -582,12 +656,7 @@ def build_combined_markdown(
     # 4. README
     if include_readme and README_PATH.exists():
         readme_content = README_PATH.read_text(encoding="utf-8").strip()
-        # 转换 HTML 换行标签
-        readme_br_converted = convert_html_br_tags(readme_content)
-        # 转换 admonitions
-        readme_converted = convert_admonitions_to_latex(readme_br_converted)
-        readme_converted = strip_markdown_strikeout(readme_converted)
-        parts.append(readme_converted)
+        parts.append(prepare_body(readme_content))
         parts.append("\n\n\\newpage\n")
 
     # 5. 内容章节
@@ -613,11 +682,7 @@ def build_combined_markdown(
             )
             relative = document.path.relative_to(PROJECT_ROOT)
             rewritten = rewrite_entry_links(document.body, anchor_lookup)
-            # 转换 HTML 换行标签
-            br_converted = convert_html_br_tags(rewritten)
-            # 转换 admonitions
-            converted = convert_admonitions_to_latex(br_converted)
-            converted = strip_markdown_strikeout(converted)
+            converted = prepare_body(rewritten)
             body = strip_primary_heading(converted, entry_title)
             shifted = shift_heading_levels(body, offset=2).strip()
 

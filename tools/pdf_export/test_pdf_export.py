@@ -15,7 +15,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from pdf_export.cli import main
 from pdf_export.exporter import build_pandoc_command, normalize_paper
 from pdf_export.ignore_loader import load_ignore_rules
-from pdf_export.markdown import build_cover_page
+from pdf_export.markdown import build_cover_page, strip_html_markup
 from pdf_export.paths import IGNORE_FILE_PATH
 from pdf_export.structure import collect_markdown_structure
 
@@ -126,6 +126,22 @@ def test_cover_file_overrides_builtin():
     assert text.startswith("\\begin{titlepage}\\Huge 自定义\\end{titlepage}")
     assert "多意识体系统知识库" not in text.split("\n# 目录")[0]
     assert "\\newpage" in text
+
+
+def test_html_markup_stripped():
+    """量表词条里的 HTML 控件不能当正文排出去（也是长串顶出右边界的根源）。"""
+    source = (
+        '<div class="brief-scale-hint" aria-valuemax="&quot;10&quot;">若焦虑持续，请尽快联系</div>\n'
+        "<!-- 注释 -->\n"
+        "```html\n<div>代码里的标签保留</div>\n```\n"
+    )
+    out = strip_html_markup(source)
+
+    assert "class=" not in out
+    assert "&quot;" not in out
+    assert "注释" not in out
+    assert "若焦虑持续" in out
+    assert "<div>代码里的标签保留</div>" in out
 
 
 if __name__ == "__main__":
