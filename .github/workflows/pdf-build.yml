@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
     inputs:
       paper:
-        description: '纸张大小 (a4/a5/b5/letter/legal)'
-        default: a5
+        description: '纸张大小，逗号分隔 (a4/a5/b5/letter/legal)'
+        default: 'a5,b5,a4'
       margin:
         description: '页边距 (geometry 语法: 2.5cm 或 top=2cm,bottom=2cm)'
         default: 1.3cm
@@ -29,9 +29,26 @@ permissions:
   contents: write
 
 jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      papers: ${{ steps.parse.outputs.papers }}
+    steps:
+      - id: parse
+        env:
+          PAPER: ${{ inputs.paper || 'a5,b5,a4' }}
+        run: |
+          json=$(python3 -c "import json,os; print(json.dumps([p.strip() for p in os.environ['PAPER'].split(',') if p.strip()]))")
+          echo "papers=$json" >> "$GITHUB_OUTPUT"
+
   pdf:
+    needs: prepare
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        paper: ${{ fromJSON(needs.prepare.outputs.papers) }}
     steps:
       - uses: actions/checkout@v4
 
@@ -43,18 +60,20 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends \
-            pandoc texlive-xetex texlive-latex-recommended texlive-lang-chinese fonts-noto-cjk lmodern texlive-fonts-recommended
+            pandoc texlive-xetex texlive-latex-recommended texlive-lang-chinese \
+            fonts-noto-cjk lmodern texlive-fonts-recommended
           python -m pip install --disable-pip-version-check pyyaml
 
-      - name: 生成 PDF
+      - name: 生成 PDF（${{ matrix.paper }}）
         env:
-          PAPER: ${{ inputs.paper || 'a5' }}
+          PAPER: ${{ matrix.paper }}
           MARGIN: ${{ inputs.margin || '1.3cm' }}
           BINDING_OFFSET: ${{ inputs.binding_offset || '0.5cm' }}
           EXCLUDE_TOPICS: ${{ inputs.exclude_topics }}
           COVER_IMAGE: ${{ inputs.cover_image }}
           COVER_TITLE: ${{ inputs.cover_title }}
         run: |
+          output="releases/Multiple_Personality_System_wiki-${PAPER}.pdf"
           args="--paper $PAPER --margin $MARGIN"
           if [ -n "$EXCLUDE_TOPICS" ]; then args="$args --exclude-topics $EXCLUDE_TOPICS"; fi
           if [ -n "$BINDING_OFFSET" ]; then args="$args --binding-offset $BINDING_OFFSET"; fi
@@ -63,12 +82,12 @@ jobs:
           python3 tools/pdf_export/export_to_pdf.py \
             --pdf-engine xelatex \
             --cjk-font "Noto Serif CJK SC" \
-            --output releases/Multiple_Personality_System_wiki.pdf \
+            --output "$output" \
             $args
 
       - uses: actions/upload-artifact@v4
         with:
-          name: wiki-pdf
+          name: wiki-pdf-${{ matrix.paper }}
           path: releases/*.pdf
           retention-days: 30
 
@@ -78,5 +97,5 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           tag="${GITHUB_REF_NAME}"
-          gh release view "$tag" >/dev/null 2>&1 || gh release create "$tag" --title "$tag" --notes "PDF 见附件"
+          gh release view "$tag" >/dev/null 2>&1 || gh release create "$tag" --title "$tag" --notes "PDF 见附件" || true
           gh release upload "$tag" releases/*.pdf --clobber
